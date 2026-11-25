@@ -1,0 +1,224 @@
+[
+  {
+    "name": "Black Bear",
+    "publication": "DDAL04-03 - The Executioner",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "designer": "Jerry LeNeave",
+    "printing": "©2016 original organized-play module , as labeled in the cover imprint.",
+    "adventureCode": "DDAL04-03",
+    "section": "Appendix. NPC/Monster Statistics",
+    "printedPages": [
+      23
+    ],
+    "viewerPages": [
+      23
+    ],
+    "relatedPrintedPages": [
+      16,
+      20
+    ],
+    "sourceUrl": "",
+    "url": "",
+    "sourceAccess": "The local publisher supplies the printed mechanics. The official adventure index corroborates the title and code.",
+    "localPrintWitness": " - 5th Edition (2014)/Adventures/DDAL04-03 - The ",
+    "localPrintSha256": "218694655008f56b7a7c0e838e28e813c8a361aa7de01145664d092bf8aa054c",
+    "sourceSha256": "218694655008f56b7a7c0e838e28e813c8a361aa7de01145664d092bf8aa054c",
+    "errataUrl": "",
+    "errataEvidence": "The official organized-play FAQ changes the adventure’s minimum and maximum character XP to 450 and 600. It gives no adjustment to this creature’s statistics or individual award.",
+    "habitatEvidence": "Search habitats derive from the cited encounters in the adventure.",
+    "appearanceEvidence": "The printed encounter on p. 16 describes an emaciated black bear. The portrait depicts that individual.",
+    "artGroup": "executioner-black-bear",
+    "mechanicsNotes": [
+      "P. 23 shows 100 XP in the creature block. P. 20 lists 200 XP per foe in the combat rewards. The overlay XP is the creature block value."
+    ],
+    "portraitSha256": "9b7699396b96d41b36d0234ac44623711e55fc9f95b89a45e443c2e38c9ea9b0"
+  },
+  {
+    "name": "Blood Hawk",
+    "publication": "DDAL04-03 - The Executioner",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "designer": "Jerry LeNeave",
+    "printing": "©2016 original organized-play module , as labeled in the cover imprint.",
+    "adventureCode": "DDAL04-03",
+    "section": "Appendix. NPC/Monster Statistics",
+    "printedPages": [
+      23
+    ],
+    "viewerPages": [
+      23
+    ],
+    "relatedPrintedPages": [
+      16,
+      20
+    ],
+    "sourceUrl": "",
+    "url": "",
+    "sourceAccess": "The local publisher supplies the printed mechanics. The official adventure index corroborates the title and code.",
+    "localPrintWitness": " - 5th Edition (2014)/Adventures/DDAL04-03 - The ",
+    "localPrintSha256": "218694655008f56b7a7c0e838e28e813c8a361aa7de01145664d092bf8aa054c",
+    "sourceSha256": "218694655008f56b7a7c0e838e28e813c8a361aa7de01145664d092bf8aa054c",
+    "errataUrl": "",
+    "errataEvidence": "The official organized-play FAQ changes the adventure’s minimum and maximum character XP to 450 and 600. It gives no adjustment to this creature’s statistics or individual award.",
+    "habitatEvidence": "Search habitats derive from the cited encounters in the adventure.",
+    "appearanceEvidence": "Editorial description of the reused stock portrait.",
+    "artGroup": "blood-hawk",
+    "mechanicsNotes": [
+      "The printed trait heading says Keen Hearing and Smell, but the rule explicitly grants advantage on sight checks. Beak is +4."
+    ],
+    "portraitReuseSource": "beast-ready-batch-04/parts/b04_02/portraits/blood-hawk.png",
+    "portraitReuseSha256": "c77a0ce92dc5da93b70bca9b33d98d051395898ab90f48b9e6039183738b3d0f"
+  },
+  {
+    "name": "Blood Hawk",
+    "publication": "DDAL04-02 - The Beast",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "designer": "Alan Patrick",
+    "printing": "©2016 original organized-play module , as labeled in the cover imprint.",
+    "adventureCode": "DDAL04-02",
+    "section": "Appendix. NPC/Monster Statistics",
+    "printedPages": [
+      27
+    ],
+    "viewerPages": [
+      27
+    ],
+    "relatedPrintedPages": [
+      12,
+      24
+    ],
+    "sourceUrl": "",
+    "url": "",
+    "sourceAccess": "The local publisher supplies the printed mechanics. The official adventure index corroborates the title and code.",
+    "localPrintWitness": " - 5th Edition (2014)/Adventures/DDAL04-02 - The ",
+    "localPrintSha256": "dc3fd2edfbc6488502da5661806ff9837c548fa1c4b393896c23a670828e9c58",
+    "sourceSha256": "dc3fd2edfbc6488502da5661806ff9837c548fa1c4b393896c23a670828e9c58",
+    "errataUrl": "",
+    "errataEvidence": "The official organized-play FAQ lists no change to these creature statistics.",
+    "habitatEvidence": "Search habitats derive from the cited encounters in the adventure.",
+    "appearanceEvidence": "Editorial description of the reused stock portrait.",
+    "artGroup": "blood-hawk",
+    "mechanicsNotes": [
+      "The printed trait heading says Keen Hearing and Smell, but the rule explicitly grants advantage on sight checks. Beak is +4."
+    ],
+    "portraitReuseSource": "beast-ready-batch-04/parts/b04_02/portraits/blood-hawk.png",
+    "portraitReuseSha256": "c77a0ce92dc5da93b70bca9b33d98d051395898ab90f48b9e6039183738b3d0f"
+  },
+  {
+    "name": "Raven",
+    "publication": "DDAL04-03 - The Executioner",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "designer": "Jerry LeNeave",
+    "printing": "©2016 original organized-play module , as labeled in the cover imprint.",
+    "adventureCode": "DDAL04-03",
+    "section": "Appendix. NPC/Monster Statistics",
+    "printedPages": [
+      24
+    ],
+    "viewerPages": [
+      24
+    ],
+    "relatedPrintedPages": [
+      16,
+      20
+    ],
+    "sourceUrl": "",
+    "url": "",
+    "sourceAccess": "The local publisher supplies the printed mechanics. The official adventure index corroborates the title and code.",
+    "localPrintWitness": " - 5th Edition (2014)/Adventures/DDAL04-03 - The ",
+    "localPrintSha256": "218694655008f56b7a7c0e838e28e813c8a361aa7de01145664d092bf8aa054c",
+    "sourceSha256": "218694655008f56b7a7c0e838e28e813c8a361aa7de01145664d092bf8aa054c",
+    "errataUrl": "",
+    "errataEvidence": "The official organized-play FAQ changes the adventure’s minimum and maximum character XP to 450 and 600. It gives no adjustment to this creature’s statistics or individual award.",
+    "habitatEvidence": "Search habitats derive from the cited encounters in the adventure.",
+    "appearanceEvidence": "Editorial description of the reused stock portrait.",
+    "artGroup": "raven",
+    "mechanicsNotes": [
+      "Raven has its own Tiny Beast block. The named Wereraven in the module has separate statistics."
+    ],
+    "portraitReuseSource": "beast-ready-batch-02/parts/b02_08/portraits/raven.png",
+    "portraitReuseSha256": "81a7246537c76b587f468500b948c8c6df493567126883ec627d6266b3cf15f8"
+  },
+  {
+    "name": "Dire Wolf",
+    "publication": "DDAL04-02 - The Beast",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "designer": "Alan Patrick",
+    "printing": "©2016 original organized-play module , as labeled in the cover imprint.",
+    "adventureCode": "DDAL04-02",
+    "section": "Appendix. NPC/Monster Statistics",
+    "printedPages": [
+      29
+    ],
+    "viewerPages": [
+      29
+    ],
+    "relatedPrintedPages": [
+      21,
+      22,
+      24
+    ],
+    "sourceUrl": "",
+    "url": "",
+    "sourceAccess": "The local publisher supplies the printed mechanics. The official adventure index corroborates the title and code.",
+    "localPrintWitness": " - 5th Edition (2014)/Adventures/DDAL04-02 - The ",
+    "localPrintSha256": "dc3fd2edfbc6488502da5661806ff9837c548fa1c4b393896c23a670828e9c58",
+    "sourceSha256": "dc3fd2edfbc6488502da5661806ff9837c548fa1c4b393896c23a670828e9c58",
+    "errataUrl": "",
+    "errataEvidence": "The official organized-play FAQ lists no change to these creature statistics.",
+    "habitatEvidence": "Search habitats derive from the cited encounters in the adventure.",
+    "appearanceEvidence": "Editorial description of the reused stock portrait.",
+    "artGroup": "dire-wolf",
+    "mechanicsNotes": [
+      "The block prints Bite +4 and Perception advantage for sight or smell. Pack Tactics names a vulture in the ally clause. The table-ready reading uses the dire wolf’s ally and preserves the wording discrepancy."
+    ],
+    "portraitReuseSource": "beast-ready-batch-04/parts/b04_03/portraits/dire-wolf.png",
+    "portraitReuseSha256": "1158da2a59e3af0d967ea0daa3f16602fa8f678eefbb51e591e495f955732c5c"
+  },
+  {
+    "name": "Elk",
+    "publication": "DDAL04-02 - The Beast",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "designer": "Alan Patrick",
+    "printing": "©2016 original organized-play module , as labeled in the cover imprint.",
+    "adventureCode": "DDAL04-02",
+    "section": "Appendix. NPC/Monster Statistics",
+    "printedPages": [
+      29
+    ],
+    "viewerPages": [
+      29
+    ],
+    "relatedPrintedPages": [
+      18,
+      24
+    ],
+    "sourceUrl": "",
+    "url": "",
+    "sourceAccess": "The local publisher supplies the printed mechanics. The official adventure index corroborates the title and code.",
+    "localPrintWitness": " - 5th Edition (2014)/Adventures/DDAL04-02 - The ",
+    "localPrintSha256": "dc3fd2edfbc6488502da5661806ff9837c548fa1c4b393896c23a670828e9c58",
+    "sourceSha256": "dc3fd2edfbc6488502da5661806ff9837c548fa1c4b393896c23a670828e9c58",
+    "errataUrl": "",
+    "errataEvidence": "The official organized-play FAQ lists no change to these creature statistics.",
+    "habitatEvidence": "Search habitats derive from the cited encounters in the adventure.",
+    "appearanceEvidence": "Editorial description of the reused stock portrait.",
+    "artGroup": "elk",
+    "mechanicsNotes": [
+      "Hooves says one target without a Prone requirement. Charge gives extra damage without naming a separate damage type."
+    ],
+    "portraitReuseSource": "beast-ready-batch-02/parts/b02_07/portraits/elk.png",
+    "portraitReuseSha256": "a4a384c0fb3a24bf541af50be5654854a67c61789097f9c73e72183cdb2660ab"
+  }
+]

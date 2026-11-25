@@ -1,0 +1,377 @@
+[
+  {
+    "name": "Drider (variant)",
+    "statBlock": {
+      "name": "Drider (variant)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large monstrosity, chaotic evil",
+      "ac": 19,
+      "hp": 123,
+      "hitDice": "13d10 + 52",
+      "speed": "30 ft., climb 30 ft.",
+      "cr": "6",
+      "xp": 2300,
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "description": "The book’s example of a drider that retained the cleric spells it knew as a drow.",
+      "otherStatistics": "Natural armor. Darkvision 120 ft. Elvish, Undercommon.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Traits": "Fey Ancestry. The creature has advantage on saving throws against being Charmed. Magic cannot put it to sleep.\nSpider Climb. The drider climbs difficult surfaces and ceilings without an ability check.\nSunlight Sensitivity. In sunlight, the creature has disadvantage on attack rolls and sight-based Wisdom (Perception) checks.\nWeb Walker. Webbing does not restrict the drider’s movement.",
+        "Innate spellcasting": "Wisdom (spell save DC 14), with no material components. At will: Dancing Lights. 1/day each: Darkness, Faerie Fire.",
+        "Spellcasting": "7th-level cleric spellcaster. Wisdom (spell save DC 14, +6 to hit with spell attacks). Prepared spells:\nCantrips at will: Poison Spray, Thaumaturgy.\n1st level (4 slots): Bane, Detect Magic, Sanctuary.\n2nd level (3 slots): Hold Person, Silence.\n3rd level (3 slots): Clairvoyance, Dispel Magic.\n4th level (2 slots): Divination, Freedom of Movement.",
+        "Variant": "This block uses the printed cleric example with Wisdom 16 and keeps the drider’s other base rules. The Wisdom increase changes Perception, passive Perception, and the innate spell save DC by 1. The sidebar gives no separate challenge rating.",
+        "Actions": "Multiattack. Make three longsword attacks or three longbow attacks. One of them can be replaced with a bite.\nBite. Melee weapon attack, +6 to hit, reach 5 ft., one creature. Hit 2 (1d4) piercing plus 9 (2d8) poison damage.\nLongsword. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) with two hands.\nLongbow. Ranged weapon attack, +6 to hit, range 150/600 ft., one target. Hit 7 (1d8 + 3) piercing plus 4 (1d8) poison damage.",
+        "Printed source": "Monster Manual (2014), p. 120, including the spellcasting variant and official range errata."
+      },
+      "passivePerception": 16,
+      "skills": {
+        "Perception": 6,
+        "Stealth": 9
+      }
+    }
+  },
+  {
+    "name": "Drow Elite Warrior",
+    "statBlock": {
+      "name": "Drow Elite Warrior",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (elf), neutral evil",
+      "ac": 18,
+      "hp": 71,
+      "hitDice": "11d8 + 22",
+      "speed": "30 ft.",
+      "cr": "5",
+      "xp": 1800,
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "description": "A house guard with a poisoned blade and a hand crossbow that can put a target to sleep.",
+      "otherStatistics": "Studded leather and shield. Darkvision 120 ft. Elvish, Undercommon.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Traits": "Fey Ancestry. The creature has advantage on saving throws against being Charmed. Magic cannot put it to sleep.\nSunlight Sensitivity. In sunlight, the creature has disadvantage on attack rolls and sight-based Wisdom (Perception) checks.",
+        "Innate spellcasting": "Charisma (spell save DC 12), with no material components. At will: Dancing Lights. 1/day each: Darkness, Faerie Fire, Levitate (self only).",
+        "Actions": "Multiattack. Make two shortsword attacks.\nShortsword. Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit 7 (1d6 + 4) piercing plus 10 (3d6) poison damage.\nHand Crossbow. Ranged weapon attack, +7 to hit, range 30/120 ft., one target. Hit 7 (1d6 + 4) piercing damage. The target makes a DC 13 Constitution save or is Poisoned for 1 hour. On a failure by 5 or more, the target is also Unconscious while Poisoned this way. Damage or an action by another creature to shake it wakes it.",
+        "Reactions": "Parry. Add 3 to AC against one melee attack that would hit. The defender must see the attacker and be wielding a melee weapon.",
+        "Optional magic equipment": "With the +2 studded leather and +2 shortsword from the p. 126 sidebar, AC is 20 and the shortsword has +9 to hit and deals 9 (1d6 + 6) piercing plus 10 (3d6) poison damage. The equipment permanently loses its enhancement bonuses after at least 1 hour of sunlight exposure.",
+        "Printed source": "Monster Manual (2014), p. 128, with official errata."
+      },
+      "passivePerception": 14,
+      "skills": {
+        "Perception": 4,
+        "Stealth": 10
+      },
+      "savingThrows": {
+        "Dex": 7,
+        "Con": 5,
+        "Wis": 4
+      }
+    }
+  },
+  {
+    "name": "Drow Mage",
+    "statBlock": {
+      "name": "Drow Mage",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (elf), neutral evil",
+      "ac": 12,
+      "hp": 45,
+      "hitDice": "10d8",
+      "speed": "30 ft.",
+      "cr": "7",
+      "xp": 2900,
+      "abilities": {
+        "Str": {
+          "score": 9
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 17
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "description": "A wizard who can use a demon to draw attention away from its spells.",
+      "otherStatistics": "AC 15 with Mage Armor. Darkvision 120 ft. Elvish, Undercommon.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Traits": "Fey Ancestry. The creature has advantage on saving throws against being Charmed. Magic cannot put it to sleep.\nSunlight Sensitivity. In sunlight, the creature has disadvantage on attack rolls and sight-based Wisdom (Perception) checks.",
+        "Innate spellcasting": "Charisma (spell save DC 12), with no material components. At will: Dancing Lights. 1/day each: Darkness, Faerie Fire, Levitate (self only).",
+        "Spellcasting": "10th-level wizard spellcaster. Intelligence (spell save DC 14, +6 to hit with spell attacks). Prepared spells:\nCantrips at will: Mage Hand, Minor Illusion, Poison Spray, Ray of Frost.\n1st level (4 slots): Mage Armor, Magic Missile, Shield, Witch Bolt.\n2nd level (3 slots): Alter Self, Misty Step, Web.\n3rd level (3 slots): Fly, Lightning Bolt.\n4th level (3 slots): Evard's Black Tentacles, Greater Invisibility.\n5th level (2 slots): Cloudkill.",
+        "Actions": "Staff. Melee weapon attack, +2 to hit, reach 5 ft., one target. Hit 2 (1d6 − 1) bludgeoning damage, or 3 (1d8 − 1) if used with two hands, plus 3 (1d6) poison damage.\nSummon Demon (1/day). Magically summon a Quasit, or attempt to summon a Shadow Demon with a 50 percent chance of success. The demon appears in an unoccupied space within 60 ft. of the summoner and fights on the summoner’s side. It cannot summon demons. It stays for 10 minutes, until either of them dies, or until the summoner dismisses it as an action.",
+        "Printing note": "The local 2014 printing lists Deception +5. The indexed transcription lists +4.",
+        "Printed source": "Monster Manual (2014), p. 129."
+      },
+      "passivePerception": 14,
+      "skills": {
+        "Arcana": 6,
+        "Deception": 5,
+        "Perception": 4,
+        "Stealth": 5
+      }
+    }
+  },
+  {
+    "name": "Drow Priestess of Lolth",
+    "statBlock": {
+      "name": "Drow Priestess of Lolth",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (elf), neutral evil",
+      "ac": 16,
+      "hp": 71,
+      "hitDice": "13d8 + 13",
+      "speed": "30 ft.",
+      "cr": "8",
+      "xp": 3900,
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 17
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "description": "A cleric of Lolth who can call giant spiders and risk summoning a yochlol.",
+      "otherStatistics": "Scale mail. Darkvision 120 ft. Elvish, Undercommon.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Traits": "Fey Ancestry. The creature has advantage on saving throws against being Charmed. Magic cannot put it to sleep.\nSunlight Sensitivity. In sunlight, the creature has disadvantage on attack rolls and sight-based Wisdom (Perception) checks.",
+        "Innate spellcasting": "Charisma (spell save DC 15), with no material components. At will: Dancing Lights. 1/day each: Darkness, Faerie Fire, Levitate (self only).",
+        "Spellcasting": "10th-level cleric spellcaster. Wisdom (spell save DC 14, +6 to hit with spell attacks). Prepared spells:\nCantrips at will: Guidance, Poison Spray, Resistance, Spare the Dying, Thaumaturgy.\n1st level (4 slots): Animal Friendship, Cure Wounds, Detect Poison and Disease, Ray of Sickness.\n2nd level (3 slots): Lesser Restoration, Protection from Poison, Web.\n3rd level (3 slots): Conjure Animals (2 Giant Spiders), Dispel Magic.\n4th level (3 slots): Divination, Freedom of Movement.\n5th level (2 slots): Insect Plague, Mass Cure Wounds.",
+        "Actions": "Multiattack. Make two scourge attacks.\nScourge. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 5 (1d6 + 2) piercing plus 17 (5d6) poison damage.\nSummon Demon (1/day). Magically attempt to summon a Yochlol with a 30 percent chance of success. On failure, the priestess takes 5 (1d10) psychic damage. On success, the following rules apply. The demon appears in an unoccupied space within 60 ft. of the summoner and fights on the summoner’s side. It cannot summon demons. It stays for 10 minutes, until either of them dies, or until the summoner dismisses it as an action.",
+        "Optional magic equipment": "With the +3 scale mail from the p. 126 sidebar, AC is 19. The armor permanently loses its enhancement bonus after at least 1 hour of sunlight exposure.",
+        "Printed source": "Monster Manual (2014), p. 129."
+      },
+      "passivePerception": 16,
+      "skills": {
+        "Insight": 6,
+        "Perception": 6,
+        "Religion": 4,
+        "Stealth": 5
+      },
+      "savingThrows": {
+        "Con": 4,
+        "Wis": 6,
+        "Cha": 7
+      }
+    }
+  },
+  {
+    "name": "Lizardfolk Shaman",
+    "statBlock": {
+      "name": "Lizardfolk Shaman",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (lizardfolk), neutral",
+      "ac": 13,
+      "hp": 27,
+      "hitDice": "5d8 + 5",
+      "speed": "30 ft., swim 30 ft.",
+      "cr": "2",
+      "xp": 450,
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "description": "A ritual leader who uses druid magic and can change into a crocodile.",
+      "otherStatistics": "Natural armor. Draconic.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Traits": "Hold Breath. The shaman can hold its breath for 15 minutes.",
+        "Spellcasting": "Lizardfolk form only. 5th-level druid spellcaster. Wisdom (spell save DC 12, +4 to hit with spell attacks). Prepared spells:\nCantrips at will: Druidcraft, Produce Flame, Thorn Whip.\n1st level (4 slots): Entangle, Fog Cloud.\n2nd level (3 slots): Heat Metal, Spike Growth.\n3rd level (2 slots): Conjure Animals (reptiles only), Plant Growth.",
+        "Actions": "Multiattack (lizardfolk form only). Make one bite and one claws attack.\nBite. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 5 (1d6 + 2) piercing damage, or 7 (1d10 + 2) in crocodile form. A Large or smaller creature hit by the crocodile is Grappled (escape DC 12) and Restrained while held. The shaman cannot bite another target while holding it. Returning to lizardfolk form ends the grapple.\nClaws (lizardfolk form only). Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 4 (1d4 + 2) slashing damage.\nChange Shape (recharges after a short or long rest). Magically polymorph into a crocodile for up to 1 hour. Use the shaman’s statistics except for size, which becomes Large. Equipment does not transform. The shaman can revert as a bonus action and reverts automatically at death.",
+        "Printed source": "Monster Manual (2014), p. 205."
+      },
+      "passivePerception": 14,
+      "skills": {
+        "Perception": 4,
+        "Stealth": 4,
+        "Survival": 6
+      }
+    }
+  },
+  {
+    "name": "Gnoll Fang of Yeenoghu",
+    "statBlock": {
+      "name": "Gnoll Fang of Yeenoghu",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium fiend (gnoll), chaotic evil",
+      "ac": 14,
+      "hp": 65,
+      "hitDice": "10d8 + 20",
+      "speed": "30 ft.",
+      "cr": "4",
+      "xp": 1100,
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "description": "A gnoll transformed by Yeenoghu. Hyenas that eat the fang’s slain prey can become gnolls.",
+      "otherStatistics": "Hide armor. Darkvision 60 ft. Abyssal, Gnoll.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Traits": "Rampage. If the gnoll reduces a creature to 0 HP with a melee attack on its turn, it can use a bonus action to move up to half its speed and make a bite attack.",
+        "Actions": "Multiattack. Make one bite and two claw attacks.\nBite. Melee weapon attack, +5 to hit, reach 5 ft., one creature. Hit 6 (1d6 + 3) piercing damage. The target makes a DC 12 Constitution save or takes 7 (2d6) poison damage.\nClaw. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 7 (1d8 + 3) slashing damage.",
+        "Printed source": "Monster Manual (2014), p. 163."
+      },
+      "passivePerception": 10,
+      "savingThrows": {
+        "Con": 4,
+        "Wis": 2,
+        "Cha": 3
+      }
+    }
+  },
+  {
+    "name": "Gnoll Pack Lord",
+    "statBlock": {
+      "name": "Gnoll Pack Lord",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (gnoll), chaotic evil",
+      "ac": 15,
+      "hp": 49,
+      "hitDice": "9d8 + 9",
+      "speed": "30 ft.",
+      "cr": "2",
+      "xp": 450,
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "description": "A raiding leader who can prompt a nearby pack member to strike.",
+      "otherStatistics": "Chain shirt. Darkvision 60 ft. Gnoll.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Traits": "Rampage. If the gnoll reduces a creature to 0 HP with a melee attack on its turn, it can use a bonus action to move up to half its speed and make a bite attack.",
+        "Actions": "Multiattack. Make two glaive attacks or two longbow attacks, and use Incite Rampage if it is available.\nBite. Melee weapon attack, +5 to hit, reach 5 ft., one creature. Hit 5 (1d4 + 3) piercing damage.\nGlaive. Melee weapon attack, +5 to hit, reach 10 ft., one target. Hit 8 (1d10 + 3) slashing damage.\nLongbow. Ranged weapon attack, +4 to hit, range 150/600 ft., one target. Hit 6 (1d8 + 2) piercing damage.\nIncite Rampage (recharge 5–6). Choose one visible creature within 30 ft. If it can hear the pack lord and has Rampage, it can use its reaction to make a melee attack.",
+        "Printed source": "Monster Manual (2014), p. 163."
+      },
+      "passivePerception": 10
+    }
+  }
+]

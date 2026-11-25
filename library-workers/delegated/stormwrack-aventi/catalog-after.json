@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Aventi",
+    "kind": "species",
+    "group": "3.5 edition",
+    "groups": [
+      "3.5 edition"
+    ],
+    "global": true,
+    "version": {
+      "key": "68a5e613ca1d9c94e65c3595",
+      "publication": "Stormwrack (2005)",
+      "edition": "3.5 edition",
+      "source": "https://books.google.com/books/about/Stormwrack.html?id=ENyiPwAACAAJ",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Humanoid (Human, Aquatic)"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Medium Humanoid with Human and Aquatic subtypes. No ability score adjustments. Land speed 30 ft. and swim speed 30 ft. LA +0 and advancement by character class.",
+            "Amphibious (Ex). Breathes air and water without a time limit.",
+            "Swim speed grants +8 racial on Swim checks for special actions or hazards. Take 10 even when distracted or endangered. A swimming run follows a straight line.",
+            "Water Spell Power (Ex) grants +1 effective caster level for spells with the [Water] descriptor. The trait provides no spells or spell slots. A spell’s name or presence in a domain list does not supply the descriptor.",
+            "Human Blood means an Aventi counts as human for race-related effects, including human-only magic items. The Aventi traits do not grant the standard human bonus feat or extra skill points.",
+            "Common is automatic. Aquan, Elven, and Sahuagin are bonus languages. Favored class Any."
+          ]
+        },
+        {
+          "title": "Original NPC · Selka of Tideglass",
+          "lines": [
+            "Cistern keeper and Cleric.",
+            "Motive. Get clean water and an open route to the trapped survivors.",
+            "Hook. Selka can reach the cistern’s upper chamber through the flooded stairs.",
+            "Aventi cistern keeper, Cleric 1 · Provisional CR 1. ECL 1 (1 class HD, LA +0). · Medium Humanoid (Human, Aquatic)",
+            "AC 13 · HP 10 (1d8+2) · Speed 30 ft., swim 30 ft."
+          ]
+        },
+        {
+          "title": "Original NPC · Kerrin of Shalebank",
+          "lines": [
+            "Sluice guide and Fighter.",
+            "Motive. Get a line to the far gate and bring the crew through.",
+            "Hook. Kerrin knows which passage has a strong current and where the rope can be secured.",
+            "Aventi sluice guide, Fighter 1 · Provisional CR 1. ECL 1 (1 class HD, LA +0). · Medium Humanoid (Human, Aquatic)",
+            "AC 14 · HP 12 (1d10+2) · Speed 30 ft., swim 30 ft."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Selka of Tideglass": [
+          {
+            "start": 15,
+            "end": 33,
+            "target": {
+              "name": "Selka of Tideglass",
+              "group": "Aventi",
+              "publication": "Aventi cistern keeper, Cleric 1",
+              "local": {
+                "entry": "npc-a83b6f12eeb521e5d7f5be70",
+                "version": "6bb1979368b134004f65cee3"
+              }
+            }
+          }
+        ],
+        "Original NPC · Kerrin of Shalebank": [
+          {
+            "start": 15,
+            "end": 34,
+            "target": {
+              "name": "Kerrin of Shalebank",
+              "group": "Aventi",
+              "publication": "Aventi sluice guide, Fighter 1",
+              "local": {
+                "entry": "npc-9b3fda21a63ea58fcf72febe",
+                "version": "d065cf83e64f2168fd96cace"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Aventi": true,
+      "aventi water spell power": true,
+      "aventi amphibious": true,
+      "aventi cistern keeper": true,
+      "aventi sluice guide": true
+    },
+    "hash": "3f8f8cc393a02455166193e44d49cc1e04d79ad64782276a1c2f9602a12213ce",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Stormwrack (2005)",
+    "defaultVersionKey": "68a5e613ca1d9c94e65c3595",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  }
+]

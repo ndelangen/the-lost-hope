@@ -1,0 +1,90 @@
+[
+  {
+    "entityKind": "monster",
+    "name": "Aboleth Lasher",
+    "publication": "Monster Manual (4e) retailer preview",
+    "edition": "4th edition",
+    "file": "images/monsters/aboleth-lasher/source-4e-aboleth-overseer-and-servitors.webp",
+    "artist": "Related creature art: Aboleth Overseer and Servitors by Francis Tsai",
+    "page": 9,
+    "kind": "illustration",
+    "sha256": "34b5f129923ca4dad57144d0e52ba8238cc8618bfedaab3d146c54bc12379c84"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Aboleth Overseer",
+    "publication": "Monster Manual (4e) retailer preview",
+    "edition": "4th edition",
+    "file": "images/monsters/aboleth-overseer/source-4e-aboleth-overseer-and-servitors.webp",
+    "artist": "Aboleth Overseer and Servitors by Francis Tsai",
+    "page": 9,
+    "kind": "illustration",
+    "sha256": "34b5f129923ca4dad57144d0e52ba8238cc8618bfedaab3d146c54bc12379c84"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Aboleth Servitor",
+    "publication": "Monster Manual (4e) retailer preview",
+    "edition": "4th edition",
+    "file": "images/monsters/aboleth-servitor/source-4e-aboleth-overseer-and-servitors.webp",
+    "artist": "Aboleth Overseer and Servitors by Francis Tsai",
+    "page": 9,
+    "kind": "illustration",
+    "sha256": "34b5f129923ca4dad57144d0e52ba8238cc8618bfedaab3d146c54bc12379c84"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Aboleth Slime Mage",
+    "publication": "Monster Manual (4e) retailer preview",
+    "edition": "4th edition",
+    "file": "images/monsters/aboleth-slime-mage/source-4e-aboleth-overseer-and-servitors.webp",
+    "artist": "Related creature art: Aboleth Overseer and Servitors by Francis Tsai",
+    "page": 9,
+    "kind": "illustration",
+    "sha256": "34b5f129923ca4dad57144d0e52ba8238cc8618bfedaab3d146c54bc12379c84"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Angel of Battle",
+    "publication": "Monster Manual (4e) retailer preview",
+    "edition": "4th edition",
+    "file": "images/monsters/angel-of-battle/source-4e-angel-of-battle.webp",
+    "artist": "William O’Connor",
+    "page": 14,
+    "kind": "illustration",
+    "sha256": "54406fa87954d0536ff3d0375ac07d7aa3e85be00f78f2c1fff048d6822765fb"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Astral Stalker",
+    "publication": "Monster Manual (4e) retailer preview",
+    "edition": "4th edition",
+    "file": "images/monsters/astral-stalker/source-4e-astral-stalker.webp",
+    "artist": "Wayne Reynolds",
+    "page": 10,
+    "kind": "illustration",
+    "sha256": "85ba08a239e41ccfc2d48dfcd8d77700f0f9d66549088144179262d11562dc53"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Blood Fiend",
+    "publication": "Monster Manual (4e) retailer preview",
+    "edition": "4th edition",
+    "file": "images/monsters/blood-fiend/source-4e-blood-fiend.webp",
+    "artist": "Page art credits: Chris Stevens and Kevin Yan / Izzy Medrano",
+    "page": 12,
+    "kind": "illustration",
+    "sha256": "f8a7ffaf68b321444c793047395bf1d4471b98ad627d8a56e28e66f06d679527"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Phane",
+    "publication": "Monster Manual (4e) retailer preview",
+    "edition": "4th edition",
+    "file": "images/monsters/phane/source-4e-phane.webp",
+    "artist": "Page art credits: Chris Stevens and Kevin Yan / Izzy Medrano",
+    "page": 12,
+    "kind": "illustration",
+    "sha256": "26b60fadf9541c1da74e8507a2c0271b87c323875b1e28481e43ddaaa83c1733"
+  }
+]

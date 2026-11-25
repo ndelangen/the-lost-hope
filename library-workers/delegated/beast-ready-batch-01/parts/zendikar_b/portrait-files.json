@@ -1,0 +1,50 @@
+[
+  {
+    "artGroup": "heartstabber-mosquito",
+    "file": "portraits/heartstabber-mosquito.png",
+    "sha256": "050c8e54c8dd7d7858338f152bd5ae1b52c2b1ed75ff91fd281e7332d9fc04b8",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "artGroup": "oxen",
+    "file": "portraits/oxen.png",
+    "sha256": "c234a6978ab4a541978d6d13f06c6cb0a72c33eb0471fe5e09cd6353cbea7f3e",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "artGroup": "shoal-serpent",
+    "file": "portraits/shoal-serpent.png",
+    "sha256": "9b1e19418963062e768d25db55ee86373e94ac39b3957a4a8e513db7b66f2fd7",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "artGroup": "terastodon",
+    "file": "portraits/terastodon.png",
+    "sha256": "518cd810912cc35cb568f9779e78caa7f410205133fb46fbff6cadca2571bb17",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "artGroup": "terra-stomper",
+    "file": "portraits/terra-stomper.png",
+    "sha256": "2255de9f2322af778d0e5d4ebfd9341a33c0554046349d9475ebc95b15ead1b5",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "artGroup": "woodcrasher-baloth",
+    "file": "portraits/woodcrasher-baloth.png",
+    "sha256": "1a04ed8499f67dc0b1036c3dcddedc395f017e7f7cea1127b2e585087cbe1b61",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "Githyanki Gish": {
+    "sha256": "d4ce2bcc8010d190fb2cab314fedc2b508725594749b3903d6ef4619c2ad9e32",
+    "source": "Githyanki Gish"
+  },
+  "Grung Elite Warrior": {
+    "sha256": "306c1649886b14e2e3c1a943474cc4dc3cb1d4e2c358f6eaaba6bf259f896962",
+    "source": "Grung Elite Warrior"
+  },
+  "Kobold Inventor": {
+    "sha256": "ea1ff0d5d9e24d99c7d0c850d12cbdddf9867f65eb353aaef405311f9b0c0c6e",
+    "source": "Kobold Inventor"
+  },
+  "Guard Drake": {
+    "sha256": "bafb78f8161a9e9a5f6642647c879cb26c43b61cd80fc9bbea117e79f02ff63e",
+    "source": "Guard Drake (archived generated portrait)"
+  },
+  "Grung": {
+    "sha256": "c0fab0b872dbbd008c20eb0cbc5becbfd22edf00cc9f812908381db4c78e9949",
+    "source": "Grung (Green)"
+  },
+  "Grung Wildling": {
+    "sha256": "ed7ca6575ea3fd9ea3c741afc556e1d48b713dafc2dd6528918a73038d6633d9",
+    "source": "Grung Wildling (Purple)"
+  }
+}

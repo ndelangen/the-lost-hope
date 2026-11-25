@@ -35,4 +35,5 @@ export default createEvent({
       ],
     },
   ],
+  illustrations: ['/assets/scenes/the-party-pays-the-fiddler-to-release-cassian.png'],
 })

@@ -1,0 +1,90 @@
+[
+  {
+    "entityKind": "beast",
+    "name": "Spider, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/spider-giant/kobold-press-spider-wolf.webp",
+    "artist": "Giant Spider · Kobold Press Foundry artwork",
+    "kind": "token",
+    "sha256": "c81e1638f12ee48579f01880f34d6a8f3b0edf31640a233a62bf08ed451b4564",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/spider-wolf.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Spider, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/spider-giant/giant-spider-brynn-metheney.webp",
+    "artist": "Related Giant Spider illustration by Brynn Metheney · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "75a5aedc0bd66ba40490b4d552b550fe80e6af5725a0184a4bf9d999498b1aff",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/MM/Giant%20Spider.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Spider, Giant Wolf",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/spider-giant-wolf/kobold-press-spider-wolf.webp",
+    "artist": "Giant Wolf Spider · Kobold Press Foundry artwork",
+    "kind": "token",
+    "sha256": "c81e1638f12ee48579f01880f34d6a8f3b0edf31640a233a62bf08ed451b4564",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/spider-wolf.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Spider, Giant Wolf",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/spider-giant-wolf/giant-wolf-spider-michele-giorgi.webp",
+    "artist": "Related Giant Wolf Spider illustration by Michele Giorgi · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "80fc6c9a8174a9e9ed556fe77a434114f53088906d134fd15604cad79e153550",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Giant%20Wolf%20Spider.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Tiger, Saber-Toothed",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/tiger-saber-toothed/kobold-press-tiger-saber-toothed.webp",
+    "artist": "Saber-Toothed Tiger · Kobold Press Foundry artwork",
+    "kind": "token",
+    "sha256": "237f40fd881ebcd329e12da6e07135f23fe96f8cd92612c11e675ea83deddd88",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/tiger-saber-toothed.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Tiger, Saber-Toothed",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/tiger-saber-toothed/saber-toothed-tiger-2024.webp",
+    "artist": "Related Saber-Toothed Tiger illustration · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "4959481f1b683406416f13b3e40310a1a1f615b185f4985889fc827b3785c5dd",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Saber-Toothed%20Tiger.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Vulture, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/vulture-giant/kobold-press-vulture.webp",
+    "artist": "Giant Vulture · Kobold Press Foundry artwork",
+    "kind": "token",
+    "sha256": "0927fe54ce1afdd0a025017425f1f5bd1035738d158491751c19e1636d9df968",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/vulture.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Vulture, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/vulture-giant/giant-vulture-2024.webp",
+    "artist": "Related Giant Vulture illustration · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "cedb3a972de7d9c34b80bad3d5cb20d9bd5150b8524428b383a68796fcf15092",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Vulture.webp"
+  }
+]

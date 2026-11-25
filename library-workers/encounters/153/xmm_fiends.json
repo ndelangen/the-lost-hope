@@ -1,0 +1,428 @@
+[
+  {
+    "name": "Bone Devil",
+    "statBlock": {
+      "name": "Bone Devil",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 52,
+      "classification": "Large fiend (devil), lawful evil",
+      "ac": 16,
+      "hp": 161,
+      "hitDice": "17d10 + 68",
+      "speed": "40 ft., fly 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "9",
+      "xp": 5000,
+      "passivePerception": 12,
+      "savingThrows": {
+        "Str": 8,
+        "Int": 5,
+        "Wis": 6,
+        "Cha": 7
+      },
+      "skills": {
+        "Deception": 7,
+        "Insight": 6
+      },
+      "description": "A skeletal, winged devil rakes opponents with its claws. Its sting prevents the poisoned victim from healing.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+7 (17).",
+        "Senses": "Darkvision 120 ft. Magical Darkness does not block this vision.",
+        "Languages": "Infernal and telepathy 120 ft..",
+        "Damage resistances": "Cold.",
+        "Damage immunities": "Fire, poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Diabolical Restoration. When the devil dies away from the Nine Hells, its body vanishes in sulfurous smoke. It immediately gains a new body at full HP somewhere in the Nine Hells.\nMagic Resistance. Roll saving throws against spells and other magical effects with Advantage.",
+        "Actions": "Multiattack. Make two Claw attacks and one Infernal Sting attack.\nClaw. Melee attack, +8 to hit, reach 10 ft. A hit deals 13 (2d8 + 4) slashing damage.\nInfernal Sting. Melee attack, +8 to hit, reach 10 ft. A hit deals 15 (2d10 + 4) piercing damage plus 18 (4d8) poison damage. The target is Poisoned until the start of the devil's next turn and cannot regain HP while Poisoned by the sting.",
+        "Habitats": "Nine Hells.",
+        "Treasure": "Implements.",
+        "Printed source": "Monster Manual (2024), p. 52."
+      }
+    }
+  },
+  {
+    "name": "Horned Devil",
+    "statBlock": {
+      "name": "Horned Devil",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 174,
+      "classification": "Large fiend (devil), lawful evil",
+      "ac": 18,
+      "hp": 199,
+      "hitDice": "19d10 + 95",
+      "speed": "30 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 22
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "11",
+      "xp": 7200,
+      "passivePerception": 13,
+      "savingThrows": {
+        "Str": 10,
+        "Dex": 7,
+        "Wis": 7,
+        "Cha": 8
+      },
+      "description": "A winged devil fights with a burning fork, hurls flame across the battlefield, and carries a tail that leaves a lasting wound.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+7 (17).",
+        "Senses": "Darkvision 150 ft. Magical Darkness does not block this vision.",
+        "Languages": "Infernal and telepathy 120 ft..",
+        "Damage immunities": "Fire, poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Diabolical Restoration. When the devil dies away from the Nine Hells, its body vanishes in sulfurous smoke. It immediately gains a new body at full HP somewhere in the Nine Hells.\nMagic Resistance. Roll saving throws against spells and other magical effects with Advantage.",
+        "Actions": "Multiattack. Make three attacks in any combination of Searing Fork and Hurl Flame. The devil can substitute Infernal Tail for one attack.\nSearing Fork. Melee attack, +10 to hit, reach 10 ft. A hit deals 15 (2d8 + 6) piercing damage plus 9 (2d8) fire damage.\nHurl Flame. Ranged attack, +8 to hit, range 150 ft. A hit deals 26 (5d8 + 4) fire damage. If the target is a flammable object that nobody is wearing or carrying, it starts Burning.\nInfernal Tail. Choose one creature the devil can see within 10 ft. The target makes a DC 17 Dexterity save. On a failure, it takes 10 (1d8 + 6) necrotic damage. It also gains an infernal wound if it does not already have one. Until the wound closes, the target loses 10 (3d6) HP at the start of each of its turns. The wound closes after 1 minute or when a spell restores HP to the target. The target or a creature within 5 ft. of it can also use an action to close the wound with a successful DC 17 Wisdom (Medicine) check.",
+        "Habitats": "Nine Hells.",
+        "Treasure": "Relics.",
+        "Printed source": "Monster Manual (2024), p. 174."
+      }
+    }
+  },
+  {
+    "name": "Ice Devil",
+    "statBlock": {
+      "name": "Ice Devil",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 176,
+      "classification": "Large fiend (devil), lawful evil",
+      "ac": 18,
+      "hp": 228,
+      "hitDice": "24d10 + 96",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 21
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "14",
+      "xp": 11500,
+      "passivePerception": 17,
+      "savingThrows": {
+        "Dex": 7,
+        "Con": 9,
+        "Wis": 7,
+        "Cha": 9
+      },
+      "skills": {
+        "Insight": 7,
+        "Perception": 7,
+        "Persuasion": 9
+      },
+      "description": "An insectlike devil throws a spear that returns to its hand and can raise a wall of ice to divide the battlefield.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+7 (17).",
+        "Senses": "Blindsight 120 ft.",
+        "Languages": "Infernal and telepathy 120 ft..",
+        "Damage immunities": "Cold, fire, poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Diabolical Restoration. When the devil dies away from the Nine Hells, its body vanishes in sulfurous smoke. It immediately gains a new body at full HP somewhere in the Nine Hells.\nMagic Resistance. Roll saving throws against spells and other magical effects with Advantage.",
+        "Actions": "Multiattack. Make three Ice Spear attacks. The devil can substitute a Tail attack for one of them.\nIce Spear. Melee or ranged attack, +10 to hit, reach 5 ft. or range 30/120 ft. A hit deals 14 (2d8 + 5) piercing damage plus 10 (3d6) cold damage. Until the end of the target's next turn, its speed drops by 10 ft. and it cannot use Bonus Actions or Reactions. On its turn during that time, it must choose between moving and taking one action. The spear magically returns to the devil's hand immediately after each ranged attack with it.\nTail. Melee attack, +10 to hit, reach 10 ft. A hit deals 15 (3d6 + 5) bludgeoning damage plus 18 (4d8) cold damage.\nIce Wall (recharge 6). Cast Wall of Ice at level 8 without spell components. Intelligence is the spellcasting ability and the save DC is 17.",
+        "Habitats": "Nine Hells.",
+        "Treasure": "Arcana.",
+        "Printed source": "Monster Manual (2024), p. 176."
+      }
+    }
+  },
+  {
+    "name": "Dretch",
+    "statBlock": {
+      "name": "Dretch",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 103,
+      "classification": "Small fiend (demon), chaotic evil",
+      "ac": 11,
+      "hp": 18,
+      "hitDice": "4d6 + 4",
+      "speed": "20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 8
+        },
+        "Cha": {
+          "score": 3
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 9,
+      "description": "A small demon slashes with its claws and releases a cloud that leaves nearby creatures struggling to act.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+0 (10).",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Abyssal and telepathy 60 ft. It can communicate telepathically only with creatures that understand Abyssal.",
+        "Damage resistances": "Cold, fire, lightning.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Actions": "Rend. Melee attack, +3 to hit, reach 5 ft. A hit deals 4 (1d6 + 1) slashing damage.\nFetid Cloud (1/day). Each creature in a 10-ft. Emanation from the dretch makes a DC 11 Constitution save. A creature that fails is Poisoned until the end of its next turn. While Poisoned by the cloud, it cannot take Reactions and must choose between an action and a Bonus Action on its turn.",
+        "Habitats": "Abyss.",
+        "Printed source": "Monster Manual (2024), p. 103."
+      }
+    }
+  },
+  {
+    "name": "Nalfeshnee",
+    "statBlock": {
+      "name": "Nalfeshnee",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 224,
+      "classification": "Large fiend (demon), chaotic evil",
+      "ac": 18,
+      "hp": 184,
+      "hitDice": "16d10 + 96",
+      "speed": "20 ft., fly 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 21
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 22
+        },
+        "Int": {
+          "score": 19
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "13",
+      "xp": 10000,
+      "passivePerception": 11,
+      "savingThrows": {
+        "Con": 11,
+        "Int": 9,
+        "Wis": 6,
+        "Cha": 7
+      },
+      "description": "A hulking demon terrorizes creatures at close range and teleports after those who move away.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+5 (15).",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Abyssal and telepathy 120 ft..",
+        "Damage resistances": "Cold, fire, lightning.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Frightened, Poisoned.",
+        "Traits": "Demonic Restoration. If the demon dies outside the Abyss, its body dissolves into ichor. The demon immediately returns in a new body at full HP somewhere in the Abyss.\nMagic Resistance. Roll saving throws against spells and other magical effects with Advantage.",
+        "Actions": "Multiattack. Make three Rend attacks.\nRend. Melee attack, +10 to hit, reach 10 ft. A hit deals 16 (2d10 + 5) slashing damage plus 11 (2d10) force damage.\nTeleport. Teleport up to 120 ft. to an unoccupied space the nalfeshnee can see.",
+        "Bonus actions": "Horror Nimbus (recharge 5–6). Each creature in a 15-ft. Emanation from the nalfeshnee makes a DC 15 Wisdom save. On a failure, take 28 (8d6) psychic damage and become Frightened for up to 1 minute. The fear ends early if the creature takes damage or ends its turn out of the nalfeshnee's line of sight. On a successful save, the creature becomes immune to this nalfeshnee's Horror Nimbus for the next 24 hours.",
+        "Reactions": "Pursuit. When another creature the nalfeshnee can see ends its move within 120 ft. of the nalfeshnee, use Teleport. Choose a destination within 10 ft. of the triggering creature.",
+        "Habitats": "Abyss.",
+        "Treasure": "Relics.",
+        "Printed source": "Monster Manual (2024), p. 224."
+      }
+    }
+  },
+  {
+    "name": "Marilith",
+    "statBlock": {
+      "name": "Marilith",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 204,
+      "classification": "Large fiend (demon), chaotic evil",
+      "ac": 16,
+      "hp": 220,
+      "hitDice": "21d10 + 105",
+      "speed": "40 ft., climb 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 20
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 20
+        }
+      },
+      "cr": "16",
+      "xp": 15000,
+      "passivePerception": 18,
+      "savingThrows": {
+        "Str": 9,
+        "Con": 10,
+        "Wis": 8,
+        "Cha": 10
+      },
+      "skills": {
+        "Perception": 8
+      },
+      "description": "A many-armed demon fights with six blades and coils its tail around smaller opponents.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+10 (20).",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Abyssal and telepathy 120 ft..",
+        "Damage resistances": "Cold, fire, lightning.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Demonic Restoration. If the demon dies outside the Abyss, its body dissolves into ichor. The demon immediately returns in a new body at full HP somewhere in the Abyss.\nMagic Resistance. Roll saving throws against spells and other magical effects with Advantage.\nReactive. The marilith can take one Reaction on each turn in combat.",
+        "Actions": "Multiattack. Make six Pact Blade attacks and use Constrict.\nPact Blade. Melee attack, +10 to hit, reach 5 ft. A hit deals 10 (1d10 + 5) slashing damage plus 7 (2d6) necrotic damage.\nConstrict. Choose one Medium or smaller creature the marilith can see within 5 ft. The target makes a DC 17 Strength save. On a failure, it takes 15 (2d10 + 4) bludgeoning damage and is Grappled (escape DC 14). It is also Restrained until the grapple ends.",
+        "Bonus actions": "Teleport (recharge 5–6). Teleport up to 120 ft. to an unoccupied space the marilith can see.",
+        "Reactions": "Parry. When a melee attack roll hits the marilith while it holds a weapon, add 5 to its AC for that attack. This can turn the hit into a miss.",
+        "Habitats": "Abyss.",
+        "Treasure": "Armaments.",
+        "Printed source": "Monster Manual (2024), p. 204."
+      }
+    }
+  },
+  {
+    "name": "Hezrou",
+    "statBlock": {
+      "name": "Hezrou",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 167,
+      "classification": "Large fiend (demon), chaotic evil",
+      "ac": 18,
+      "hp": 157,
+      "hitDice": "15d10 + 75",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 11,
+      "savingThrows": {
+        "Str": 7,
+        "Con": 8,
+        "Wis": 4
+      },
+      "description": "A bulky demon bounds into close quarters, where its stench poisons creatures and its claws deliver venom.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+6 (16).",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Abyssal and telepathy 120 ft..",
+        "Damage resistances": "Cold, fire, lightning.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Demonic Restoration. If the demon dies outside the Abyss, its body dissolves into ichor. The demon immediately returns in a new body at full HP somewhere in the Abyss.\nMagic Resistance. Roll saving throws against spells and other magical effects with Advantage.\nStench. Any creature that starts its turn in a 10-ft. Emanation from the hezrou makes a DC 16 Constitution save. On a failure, the creature is Poisoned until the start of its next turn.",
+        "Actions": "Multiattack. Make three Rend attacks.\nRend. Melee attack, +7 to hit, reach 5 ft. A hit deals 6 (1d4 + 4) slashing damage plus 9 (2d8) poison damage.",
+        "Bonus actions": "Leap. Spend 10 ft. of movement to jump up to 30 ft.",
+        "Habitats": "Abyss.",
+        "Treasure": "Any.",
+        "Printed source": "Monster Manual (2024), p. 167."
+      }
+    }
+  }
+]

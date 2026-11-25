@@ -1,0 +1,805 @@
+{
+  "new": {
+    "Young Sea Serpent": {
+      "path": "output/dm-library/encounter-batches/173/art/young-sea-serpent.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "59aae804c91a5cc6cd7db4ed50b8a2c41468e5993e95e71d1abdc828ad1e5bda",
+      "bytes": 2715009
+    },
+    "Aerosaur": {
+      "path": "output/dm-library/encounter-batches/173/art/aerosaur.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "258b1c4569ce5fdbfb4e82bbe2b2979e20ae3240ed7067a2ce2257b5a3237e9f",
+      "bytes": 2595291
+    },
+    "Altisaur": {
+      "path": "output/dm-library/encounter-batches/173/art/altisaur.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "2c6be40e9a30ec7d8e10a8125c95fe542abee0d2e8b678258512ff6579813f61",
+      "bytes": 2655895
+    },
+    "Bag Jelly": {
+      "path": "output/dm-library/encounter-batches/173/art/bag-jelly.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "74bd3057d26af06566c4f73563ad8c611eb998ca1fe07179848eaba9d541f1fb",
+      "bytes": 2833600
+    },
+    "Barrowghast": {
+      "path": "output/dm-library/encounter-batches/173/art/barrowghast.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "be5ac493dc70d6c1b09f807350e14c77e02818983ae2069d43a1dacc756327a5",
+      "bytes": 2834643
+    },
+    "Cairnwight": {
+      "path": "output/dm-library/encounter-batches/173/art/cairnwight.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "43938b8e994b88ffb22fb66488e5beffa745112bf0adf0d4810d68baacdcf285",
+      "bytes": 2702482
+    },
+    "Ceratops": {
+      "path": "output/dm-library/encounter-batches/173/art/ceratops.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "fa38227e7c5ec0782298cbad3777fae8dfbbeaa95c728995fd524147b60a2ee0",
+      "bytes": 2755275
+    },
+    "Cinder Hulk": {
+      "path": "output/dm-library/encounter-batches/173/art/cinder-hulk.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "3e9f4cc2893f794416364e7db1d3aea4360ae89adf0cfcbaee36a8eefdc13fa7",
+      "bytes": 2591961
+    },
+    "Cloud Giant Destiny Gambler": {
+      "path": "output/dm-library/encounter-batches/173/art/cloud-giant-destiny-gambler.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "ce575b0dd6a17e87bf1bbc07083d07d384dce93745092b32580ec53a999701fa",
+      "bytes": 2480082
+    },
+    "Cloud Giant of Evil Air": {
+      "path": "output/dm-library/encounter-batches/173/art/cloud-giant-of-evil-air.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "92f300827082a297b00bb432bfef7469a995afa9a0e0012cd09e62257dd7d36c",
+      "bytes": 2813150
+    },
+    "Cradle of the Cloud Scion": {
+      "path": "output/dm-library/encounter-batches/173/art/cradle-of-the-cloud-scion.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "67cd1530cb1ab2cd402b2e965005f2f613b66c87bd906d739f5dcf9f0610c405",
+      "bytes": 2677193
+    },
+    "Cradle of the Fire Scion": {
+      "path": "output/dm-library/encounter-batches/173/art/cradle-of-the-fire-scion.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "c332c7a834afb1fd05c25e4e8bb9976434ff4b885c1dc48feee6ede548e9fd19",
+      "bytes": 2669856
+    },
+    "Cradle of the Frost Scion": {
+      "path": "output/dm-library/encounter-batches/173/art/cradle-of-the-frost-scion.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "cf3f52dcd930b91f9c3da4fe05f685b48c45a4c0a99b00908b306cb9be5cbff6",
+      "bytes": 2760262
+    },
+    "Cradle of the Hill Scion": {
+      "path": "output/dm-library/encounter-batches/173/art/cradle-of-the-hill-scion.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "ffa27e81f879431406bd693103c1f97d73490da5eeee1f54836d3f85b9b6cbdb",
+      "bytes": 2730304
+    },
+    "Cradle of the Stone Scion": {
+      "path": "output/dm-library/encounter-batches/173/art/cradle-of-the-stone-scion.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "4799176a30b950da0d9abe16f577e489f26ee1e914c74f06fb34ceb25f7e28ab",
+      "bytes": 3054101
+    },
+    "Cradle of the Storm Scion": {
+      "path": "output/dm-library/encounter-batches/173/art/cradle-of-the-storm-scion.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "d090f7939bb29e5ed7e7fdb0836e53388f2cdb4fe3851f74c82403d2a6eb49fc",
+      "bytes": 2435827
+    },
+    "Death Giant Reaper": {
+      "path": "output/dm-library/encounter-batches/173/art/death-giant-reaper.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "353e606a2f6478457b5daa7a2e052611c8748aa7d6a1663fe7df2bc52ddd2b13",
+      "bytes": 2552125
+    },
+    "Death Giant Shrouded One": {
+      "path": "output/dm-library/encounter-batches/173/art/death-giant-shrouded-one.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "659d8c18b3df702a012536add4566dce58a8491b8719f463b0070c9e1bf81e9b",
+      "bytes": 2463167
+    },
+    "Dust Hulk": {
+      "path": "output/dm-library/encounter-batches/173/art/dust-hulk.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "ed3f923433550d422df53acb8f01aed7bfa0e30a5d52e3b7a22681dd1f6fbb65",
+      "bytes": 2288413
+    },
+    "Echo of Demogorgon": {
+      "path": "output/dm-library/encounter-batches/173/art/echo-of-demogorgon.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "df8278bf3e8c9fe5b882ee92c5cfa10df31065f9211c0b8e32f01d1faa821bc3",
+      "bytes": 2554990
+    },
+    "Ettin Ceremorph": {
+      "path": "output/dm-library/encounter-batches/173/art/ettin-ceremorph.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "72e6b24c57153aab156b645ab6c7a141590e51bef589c6798139b285dd3b91ed",
+      "bytes": 2712647
+    },
+    "Fensir Devourer": {
+      "path": "output/dm-library/encounter-batches/173/art/fensir-devourer.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "06e2415b6ee93f7e668ee258bfd067b48633cb16fc6edb68b29e8317f262691c",
+      "bytes": 2866513
+    },
+    "Fensir Skirmisher": {
+      "path": "output/dm-library/encounter-batches/173/art/fensir-skirmisher.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "35d95fed5094f2a3f9413081bb39e87cbf6dd50b96e2d6e41158326add26764d",
+      "bytes": 2561052
+    },
+    "Firbolg Primeval Warden": {
+      "path": "output/dm-library/encounter-batches/173/art/firbolg-primeval-warden.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "7b5e3d31e9b80d8806f46a6bc9372fe76e887f6aabe2eeaf9d5c900558ed8611",
+      "bytes": 2651048
+    },
+    "Firbolg Wanderer": {
+      "path": "output/dm-library/encounter-batches/173/art/firbolg-wanderer.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "b4e5fb4ee3871cf049276c2f0ad653a005bda2c99fe67f5ab1aa842ba166b13c",
+      "bytes": 2610443
+    },
+    "Fire Giant Forgecaller": {
+      "path": "output/dm-library/encounter-batches/173/art/fire-giant-forgecaller.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "893733562e22961667da6d6062b794f5a9b5c9a5fdb1bd111d9dbb31015c94ef",
+      "bytes": 2500571
+    },
+    "Fire Giant of Evil Fire": {
+      "path": "output/dm-library/encounter-batches/173/art/fire-giant-of-evil-fire.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "3dfb1906155081ccd5ed7089e238f3c1875f8d3bba7314350bc76a453f159dc2",
+      "bytes": 2700258
+    },
+    "Fire Hellion": {
+      "path": "output/dm-library/encounter-batches/173/art/fire-hellion.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "479032a8c1ae63791e5045c3a25a7b41b3330367a8dfbcd0364f842527ba4330",
+      "bytes": 2489530
+    },
+    "Firegaunt": {
+      "path": "output/dm-library/encounter-batches/173/art/firegaunt.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "517fb4093fc23544895f01307c48abc8ae3de79fe9e2a5918dbc4fc322339cc0",
+      "bytes": 2782583
+    },
+    "Flesh Colossus": {
+      "path": "output/dm-library/encounter-batches/173/art/flesh-colossus.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "419c9a9231bbd8f496cd75516a322a5b4f2ea490165f94bf4943dafa30e3594d",
+      "bytes": 2946286
+    },
+    "Fomorian Deep Crawler": {
+      "path": "output/dm-library/encounter-batches/173/art/fomorian-deep-crawler.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "33084fc8c5f725644a7b09222cd53570bc65d4cf95643ab5978ce16e8c057520",
+      "bytes": 2971474
+    },
+    "Fomorian Noble": {
+      "path": "output/dm-library/encounter-batches/173/art/fomorian-noble.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "6c84a52c04cae29532d59e6bdb1b5e2f3772cd8d88ece49eaed11e8003e4c0c4",
+      "bytes": 2814692
+    },
+    "Fomorian Warlock of the Dark": {
+      "path": "output/dm-library/encounter-batches/173/art/fomorian-warlock-of-the-dark.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "3768c203050ae404353a65fbc3b27151d1cf2fd47a9cc5d8f2b35cf72c1e5963",
+      "bytes": 2714354
+    },
+    "Frost Giant Ice Shaper": {
+      "path": "output/dm-library/encounter-batches/173/art/frost-giant-ice-shaper.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "d494c7be797d69bbca6b8b6195cd92cfa732b2048c057e47a3bb456ee4b673a5",
+      "bytes": 2740852
+    },
+    "Frost Giant of Evil Water": {
+      "path": "output/dm-library/encounter-batches/173/art/frost-giant-of-evil-water.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "99d8ed46cf33c3dc05bdc172129f1d6a7f69a779def212d2c6c4d69f349f56f1",
+      "bytes": 2945697
+    },
+    "Frostmourn": {
+      "path": "output/dm-library/encounter-batches/173/art/frostmourn.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "2d94bb3d85136dac44c3cd3784be22d6ac4f7045afa680bd2cc2ec8051ebba28",
+      "bytes": 2778697
+    },
+    "Fury of Kostchtchie": {
+      "path": "output/dm-library/encounter-batches/173/art/fury-of-kostchtchie.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "1df09184b75b4205e7fd236cf923d72db99849bfee569fa4d19bc26362da5753",
+      "bytes": 2905634
+    },
+    "Gargantua": {
+      "path": "output/dm-library/encounter-batches/173/art/gargantua.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "2e569833cc926c2148a5d34483d5d9fc7fbdfae0f51a23ce8795b494fd0db1ed",
+      "bytes": 2678870
+    },
+    "Giant Child": {
+      "path": "output/dm-library/encounter-batches/173/art/giant-child.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "13d76a07e535c2949014d682488b2eddaa5608b582c928a055945c65cbe771ce",
+      "bytes": 3052564
+    },
+    "Giant Goose": {
+      "path": "output/dm-library/encounter-batches/173/art/giant-goose.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "a6ccb44138c32581a428d7dac9cb4584ec3d61aca40363431bf7531a86890ba7",
+      "bytes": 3057066
+    },
+    "Giant Lynx": {
+      "path": "output/dm-library/encounter-batches/173/art/giant-lynx.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "aaf68b32407f2d56eb6cccbc1490d7ac9a33f72fa61d59b1d3310f91af7e1f18",
+      "bytes": 2775717
+    },
+    "Scion of Grolantor": {
+      "path": "output/dm-library/encounter-batches/173/art/scion-of-grolantor.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "a7f8c40525c44e1d8edc665159b47959e4d675ca040e582868e0402ad9d0df8a",
+      "bytes": 3036510
+    },
+    "Scion of Memnor": {
+      "path": "output/dm-library/encounter-batches/173/art/scion-of-memnor.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "65fe5e970922f686b99b54611c8aa2842e5c88d3dcfcfab4130064d670993be2",
+      "bytes": 2753733
+    },
+    "Scion of Skoraeus": {
+      "path": "output/dm-library/encounter-batches/173/art/scion-of-skoraeus.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "767acefe31399f82c776519e2bb105198e6e5859387f00ee26ffee84274379b4",
+      "bytes": 2529282
+    },
+    "Scion of Stronmaus": {
+      "path": "output/dm-library/encounter-batches/173/art/scion-of-stronmaus.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "4a16490f1c7bfe6f83ddc1a60e748dd97dc7eb6898d42a25e6982c5b5f03206d",
+      "bytes": 2712512
+    },
+    "Scion of Surtur": {
+      "path": "output/dm-library/encounter-batches/173/art/scion-of-surtur.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "84a73af8b36565bc0aec7ad2e183500f7cd7e3033ad91741b6c1c25d8d3ecb94",
+      "bytes": 2831454
+    },
+    "Scion of Thrym": {
+      "path": "output/dm-library/encounter-batches/173/art/scion-of-thrym.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "b4f158424f2cc9638a658b36ff5efc7850b78bdcb6ec3a294b926e4bec1b5f69",
+      "bytes": 2987156
+    }
+  },
+  "added": [
+    {
+      "entry": "monster-08e7c3bd0b369a48903d2384",
+      "version": "8de0335b1b76a51dde57049c",
+      "name": "Young Sea Serpent",
+      "file": "images/monsters/young-sea-serpent/batch-173-portrait.png",
+      "sha256": "59aae804c91a5cc6cd7db4ed50b8a2c41468e5993e95e71d1abdc828ad1e5bda",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-aca63f4d3ca253c533772f82",
+      "version": "fba55d41be1de0e5fa398d9c",
+      "name": "Aerosaur",
+      "file": "images/monsters/aerosaur/batch-173-portrait.png",
+      "sha256": "258b1c4569ce5fdbfb4e82bbe2b2979e20ae3240ed7067a2ce2257b5a3237e9f",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-b0e964dc44bef056415b971e",
+      "version": "e331e1742da38880a861009c",
+      "name": "Altisaur",
+      "file": "images/monsters/altisaur/batch-173-portrait.png",
+      "sha256": "2c6be40e9a30ec7d8e10a8125c95fe542abee0d2e8b678258512ff6579813f61",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-3a6459fb880733df445167c1",
+      "version": "aa15722b83ef5d7829b7daca",
+      "name": "Bag Jelly",
+      "file": "images/monsters/bag-jelly/batch-173-portrait.png",
+      "sha256": "74bd3057d26af06566c4f73563ad8c611eb998ca1fe07179848eaba9d541f1fb",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-335e0388ddc9930573133d4d",
+      "version": "2188b99d51dff5854ba8be43",
+      "name": "Barrowghast",
+      "file": "images/monsters/barrowghast/batch-173-portrait.png",
+      "sha256": "be5ac493dc70d6c1b09f807350e14c77e02818983ae2069d43a1dacc756327a5",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-3479613dc428b9ed526c83d4",
+      "version": "8af68e4eec50a5c4f7e2d63b",
+      "name": "Cairnwight",
+      "file": "images/monsters/cairnwight/batch-173-portrait.png",
+      "sha256": "43938b8e994b88ffb22fb66488e5beffa745112bf0adf0d4810d68baacdcf285",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-82c12fa2df014c6dfb394c7f",
+      "version": "f3ce9d6b0bf22c166357fb34",
+      "name": "Ceratops",
+      "file": "images/monsters/ceratops/batch-173-portrait.png",
+      "sha256": "fa38227e7c5ec0782298cbad3777fae8dfbbeaa95c728995fd524147b60a2ee0",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-bbee9bda298fd1f071611412",
+      "version": "60d3f93eed323d9309a60010",
+      "name": "Cinder Hulk",
+      "file": "images/monsters/cinder-hulk/batch-173-portrait.png",
+      "sha256": "3e9f4cc2893f794416364e7db1d3aea4360ae89adf0cfcbaee36a8eefdc13fa7",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-8cd1905c422cb1a673a58628",
+      "version": "220fa1487115c6c190e62d16",
+      "name": "Cloud Giant Destiny Gambler",
+      "file": "images/monsters/cloud-giant-destiny-gambler/batch-173-portrait.png",
+      "sha256": "ce575b0dd6a17e87bf1bbc07083d07d384dce93745092b32580ec53a999701fa",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-621691e615f5be3f0670aabb",
+      "version": "40aa18081fad74b0e9afa4a4",
+      "name": "Cloud Giant of Evil Air",
+      "file": "images/monsters/cloud-giant-of-evil-air/batch-173-portrait.png",
+      "sha256": "92f300827082a297b00bb432bfef7469a995afa9a0e0012cd09e62257dd7d36c",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-ebf921c7d849565519e977bb",
+      "version": "0381ba7e717303bdff8f3b89",
+      "name": "Cradle of the Cloud Scion",
+      "file": "images/monsters/cradle-of-the-cloud-scion/batch-173-portrait.png",
+      "sha256": "67cd1530cb1ab2cd402b2e965005f2f613b66c87bd906d739f5dcf9f0610c405",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-90f50339cc53508e3b2671d2",
+      "version": "205f09e38ce8a91eb355cec4",
+      "name": "Cradle of the Fire Scion",
+      "file": "images/monsters/cradle-of-the-fire-scion/batch-173-portrait.png",
+      "sha256": "c332c7a834afb1fd05c25e4e8bb9976434ff4b885c1dc48feee6ede548e9fd19",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-ee516b71790d4d125b4fd3b4",
+      "version": "1e9303860dbabf341b86838e",
+      "name": "Cradle of the Frost Scion",
+      "file": "images/monsters/cradle-of-the-frost-scion/batch-173-portrait.png",
+      "sha256": "cf3f52dcd930b91f9c3da4fe05f685b48c45a4c0a99b00908b306cb9be5cbff6",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-e345d60b2f24df9332f2c5b7",
+      "version": "9fe2638c95a02775854646b5",
+      "name": "Cradle of the Hill Scion",
+      "file": "images/monsters/cradle-of-the-hill-scion/batch-173-portrait.png",
+      "sha256": "ffa27e81f879431406bd693103c1f97d73490da5eeee1f54836d3f85b9b6cbdb",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-553ea1110f57432a0d828518",
+      "version": "a01c3bfc7c4dfad1dcec6e88",
+      "name": "Cradle of the Stone Scion",
+      "file": "images/monsters/cradle-of-the-stone-scion/batch-173-portrait.png",
+      "sha256": "4799176a30b950da0d9abe16f577e489f26ee1e914c74f06fb34ceb25f7e28ab",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-6288c0b872e186dc61888dbf",
+      "version": "1d0e18cac9248b2f3115fd19",
+      "name": "Cradle of the Storm Scion",
+      "file": "images/monsters/cradle-of-the-storm-scion/batch-173-portrait.png",
+      "sha256": "d090f7939bb29e5ed7e7fdb0836e53388f2cdb4fe3851f74c82403d2a6eb49fc",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-6e18d8b9a52052b233b3d850",
+      "version": "e4865dbee1007b2608b3c5f0",
+      "name": "Death Giant Reaper",
+      "file": "images/monsters/death-giant-reaper/batch-173-portrait.png",
+      "sha256": "353e606a2f6478457b5daa7a2e052611c8748aa7d6a1663fe7df2bc52ddd2b13",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-267562159b9d8d8155ae69a2",
+      "version": "9baaa12021de01fdac8a0ae8",
+      "name": "Death Giant Shrouded One",
+      "file": "images/monsters/death-giant-shrouded-one/batch-173-portrait.png",
+      "sha256": "659d8c18b3df702a012536add4566dce58a8491b8719f463b0070c9e1bf81e9b",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-ea2862aff405cbdad0f1ac86",
+      "version": "d09dadf697e77717ab7ca37b",
+      "name": "Dust Hulk",
+      "file": "images/monsters/dust-hulk/batch-173-portrait.png",
+      "sha256": "ed3f923433550d422df53acb8f01aed7bfa0e30a5d52e3b7a22681dd1f6fbb65",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-51931451efa533f5b971f249",
+      "version": "00e6cb65e5fce9b56784339f",
+      "name": "Echo of Demogorgon",
+      "file": "images/monsters/echo-of-demogorgon/batch-173-portrait.png",
+      "sha256": "df8278bf3e8c9fe5b882ee92c5cfa10df31065f9211c0b8e32f01d1faa821bc3",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-06cb36afd95dcff978ac4199",
+      "version": "021532211f797cae4c28b094",
+      "name": "Ettin Ceremorph",
+      "file": "images/monsters/ettin-ceremorph/batch-173-portrait.png",
+      "sha256": "72e6b24c57153aab156b645ab6c7a141590e51bef589c6798139b285dd3b91ed",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-b8335f8aca5b13bff2166dd0",
+      "version": "c39fb9842b018d65e69f5d22",
+      "name": "Fensir Devourer",
+      "file": "images/monsters/fensir-devourer/batch-173-portrait.png",
+      "sha256": "06e2415b6ee93f7e668ee258bfd067b48633cb16fc6edb68b29e8317f262691c",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-a723608b6cccc8bce4186edb",
+      "version": "05ab12f1d051dfa8caf49667",
+      "name": "Fensir Skirmisher",
+      "file": "images/monsters/fensir-skirmisher/batch-173-portrait.png",
+      "sha256": "35d95fed5094f2a3f9413081bb39e87cbf6dd50b96e2d6e41158326add26764d",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-15fe49950cd8d1c8d71cd842",
+      "version": "423a89661b074aac2f62a1cd",
+      "name": "Firbolg Primeval Warden",
+      "file": "images/monsters/firbolg-primeval-warden/batch-173-portrait.png",
+      "sha256": "7b5e3d31e9b80d8806f46a6bc9372fe76e887f6aabe2eeaf9d5c900558ed8611",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-10b0d5749dd935ae7d15ede8",
+      "version": "bda9f13461f1743c26cfc2e4",
+      "name": "Firbolg Wanderer",
+      "file": "images/monsters/firbolg-wanderer/batch-173-portrait.png",
+      "sha256": "b4e5fb4ee3871cf049276c2f0ad653a005bda2c99fe67f5ab1aa842ba166b13c",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-04c5d9a75c5d24f6c5f9a820",
+      "version": "14f0b1e48c64b873c1c8cef7",
+      "name": "Fire Giant Forgecaller",
+      "file": "images/monsters/fire-giant-forgecaller/batch-173-portrait.png",
+      "sha256": "893733562e22961667da6d6062b794f5a9b5c9a5fdb1bd111d9dbb31015c94ef",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-cf24dfdcce0466d5025546ec",
+      "version": "7e47f05a9bca6b8ee2d5cb82",
+      "name": "Fire Giant of Evil Fire",
+      "file": "images/monsters/fire-giant-of-evil-fire/batch-173-portrait.png",
+      "sha256": "3dfb1906155081ccd5ed7089e238f3c1875f8d3bba7314350bc76a453f159dc2",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-c717df0d9adbfed5c942130b",
+      "version": "6cc735d5b173d9029494b796",
+      "name": "Fire Hellion",
+      "file": "images/monsters/fire-hellion/batch-173-portrait.png",
+      "sha256": "479032a8c1ae63791e5045c3a25a7b41b3330367a8dfbcd0364f842527ba4330",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-d04c3054889b8473c152883b",
+      "version": "b0f253ff896b5d5a89e874c6",
+      "name": "Firegaunt",
+      "file": "images/monsters/firegaunt/batch-173-portrait.png",
+      "sha256": "517fb4093fc23544895f01307c48abc8ae3de79fe9e2a5918dbc4fc322339cc0",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-ff0b2fe4b13f9dc681c20d27",
+      "version": "16bc5dde06383beea0e16dc1",
+      "name": "Flesh Colossus",
+      "file": "images/monsters/flesh-colossus/batch-173-portrait.png",
+      "sha256": "419c9a9231bbd8f496cd75516a322a5b4f2ea490165f94bf4943dafa30e3594d",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-ba3eb354c30d5f94a3fc7578",
+      "version": "dc6e14614f832e3836b03fa3",
+      "name": "Fomorian Deep Crawler",
+      "file": "images/monsters/fomorian-deep-crawler/batch-173-portrait.png",
+      "sha256": "33084fc8c5f725644a7b09222cd53570bc65d4cf95643ab5978ce16e8c057520",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-5f4b4418d71db9c764f43f91",
+      "version": "ab58391153fd49e03e50a486",
+      "name": "Fomorian Noble",
+      "file": "images/monsters/fomorian-noble/batch-173-portrait.png",
+      "sha256": "6c84a52c04cae29532d59e6bdb1b5e2f3772cd8d88ece49eaed11e8003e4c0c4",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-de760e2a7fb63dcd5729449e",
+      "version": "a2189201215bcb5c7ebd90f0",
+      "name": "Fomorian Warlock of the Dark",
+      "file": "images/monsters/fomorian-warlock-of-the-dark/batch-173-portrait.png",
+      "sha256": "3768c203050ae404353a65fbc3b27151d1cf2fd47a9cc5d8f2b35cf72c1e5963",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-f0fe88bc0a6393904b7c2a79",
+      "version": "8310ec7507a1edbdd8908726",
+      "name": "Frost Giant Ice Shaper",
+      "file": "images/monsters/frost-giant-ice-shaper/batch-173-portrait.png",
+      "sha256": "d494c7be797d69bbca6b8b6195cd92cfa732b2048c057e47a3bb456ee4b673a5",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-b29ef14e6dc78bd555fbdfa0",
+      "version": "a3e044f52b25dfdcdf5c5b49",
+      "name": "Frost Giant of Evil Water",
+      "file": "images/monsters/frost-giant-of-evil-water/batch-173-portrait.png",
+      "sha256": "99d8ed46cf33c3dc05bdc172129f1d6a7f69a779def212d2c6c4d69f349f56f1",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-2cd26d587f5358eebb299aa2",
+      "version": "3b741e9a7b66f9bc049dc4c1",
+      "name": "Frostmourn",
+      "file": "images/monsters/frostmourn/batch-173-portrait.png",
+      "sha256": "2d94bb3d85136dac44c3cd3784be22d6ac4f7045afa680bd2cc2ec8051ebba28",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-434b1165abbf662c20828cbd",
+      "version": "47fee5628f11296d08909d8c",
+      "name": "Fury of Kostchtchie",
+      "file": "images/monsters/fury-of-kostchtchie/batch-173-portrait.png",
+      "sha256": "1df09184b75b4205e7fd236cf923d72db99849bfee569fa4d19bc26362da5753",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-92bd87e4ae8baee95516e611",
+      "version": "1546c0ec17cdf37026820adf",
+      "name": "Gargantua",
+      "file": "images/monsters/gargantua/batch-173-portrait.png",
+      "sha256": "2e569833cc926c2148a5d34483d5d9fc7fbdfae0f51a23ce8795b494fd0db1ed",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-115365f0a3a40ebc2b356405",
+      "version": "b1ee7aafbb88e2d23e32ee43",
+      "name": "Giant Child",
+      "file": "images/monsters/giant-child/batch-173-portrait.png",
+      "sha256": "13d76a07e535c2949014d682488b2eddaa5608b582c928a055945c65cbe771ce",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-b9c3c903676b6d2cb595e59c",
+      "version": "ed5a913f6aff1fb4c2fbae33",
+      "name": "Giant Goose",
+      "file": "images/monsters/giant-goose/batch-173-portrait.png",
+      "sha256": "a6ccb44138c32581a428d7dac9cb4584ec3d61aca40363431bf7531a86890ba7",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-65aae88951abc74d9064046a",
+      "version": "bf8a18e1b465acb883a65780",
+      "name": "Giant Lynx",
+      "file": "images/monsters/giant-lynx/batch-173-portrait.png",
+      "sha256": "aaf68b32407f2d56eb6cccbc1490d7ac9a33f72fa61d59b1d3310f91af7e1f18",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-8d593dc4feeda9e2d8f8596e",
+      "version": "d95c781c86be5f135ef44ff3",
+      "name": "Scion of Grolantor",
+      "file": "images/monsters/scion-of-grolantor/batch-173-portrait.png",
+      "sha256": "a7f8c40525c44e1d8edc665159b47959e4d675ca040e582868e0402ad9d0df8a",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-d84888b76d2261d2516111d9",
+      "version": "a29d99dbef20bb8dfde686d0",
+      "name": "Scion of Memnor",
+      "file": "images/monsters/scion-of-memnor/batch-173-portrait.png",
+      "sha256": "65fe5e970922f686b99b54611c8aa2842e5c88d3dcfcfab4130064d670993be2",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-6ef082adb0eab76bfe06d06b",
+      "version": "cee63f7eced2f56d246d7e29",
+      "name": "Scion of Skoraeus",
+      "file": "images/monsters/scion-of-skoraeus/batch-173-portrait.png",
+      "sha256": "767acefe31399f82c776519e2bb105198e6e5859387f00ee26ffee84274379b4",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-ef46473d3ad23611d94f693c",
+      "version": "2e99d6c55e5cecf8b5f5241f",
+      "name": "Scion of Stronmaus",
+      "file": "images/monsters/scion-of-stronmaus/batch-173-portrait.png",
+      "sha256": "4a16490f1c7bfe6f83ddc1a60e748dd97dc7eb6898d42a25e6982c5b5f03206d",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-909ac5ce8fda82a216daedd5",
+      "version": "3861725f5edf3f449eed64ae",
+      "name": "Scion of Surtur",
+      "file": "images/monsters/scion-of-surtur/batch-173-portrait.png",
+      "sha256": "84a73af8b36565bc0aec7ad2e183500f7cd7e3033ad91741b6c1c25d8d3ecb94",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-2f9358aaff7db70569a068ed",
+      "version": "5be00d32a9ffd2f4b7a2539d",
+      "name": "Scion of Thrym",
+      "file": "images/monsters/scion-of-thrym/batch-173-portrait.png",
+      "sha256": "b4f158424f2cc9638a658b36ff5efc7850b78bdcb6ec3a294b926e4bec1b5f69",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    }
+  ]
+}

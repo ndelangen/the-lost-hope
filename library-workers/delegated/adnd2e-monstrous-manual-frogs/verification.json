@@ -1,0 +1,24 @@
+{
+  "baseline": "3983aa1a20aa918e72be0a2b50aa073ad09403f3",
+  "temporaryCopy": true,
+  "exactProfiles": 3,
+  "printedCombatProfilesVerified": 3,
+  "searchableByNameRuleAppearanceHabitat": 3,
+  "globalSearchResults": 3,
+  "newBaseCatalogEntries": [
+    "Killer Frog",
+    "Poisonous Frog"
+  ],
+  "distinctNightOfTheWalkingDeadVersion": true,
+  "verifiedWithNightOfTheWalkingDeadPatch": true,
+  "existingGiantFrogDefault": "Basic Rules (2018)",
+  "existingGiantFrogThumbnailPreserved": true,
+  "existingPublicationVersionsPreserved": true,
+  "publisherGalleriesPreserved": true,
+  "compatibleWithPreviouslyStagedMonstrousManualPatches": true,
+  "printedDiscrepanciesPreserved": true,
+  "versionPortraitsVerified": 3,
+  "newPortraitDrafts": 3,
+  "noChallengeImported": true,
+  "selectedPublication": "Monstrous Manual (1994 third printing)"
+}

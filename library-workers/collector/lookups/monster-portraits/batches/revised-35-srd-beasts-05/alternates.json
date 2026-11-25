@@ -1,0 +1,90 @@
+[
+  {
+    "entityKind": "beast",
+    "name": "Heavy Horse",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/heavy-horse/draft-horse-2024.webp",
+    "artist": "Related Draft Horse illustration · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "edb48833e58e5e2529a2f2442ccd1ec3df50d854cb1e4d14757a717e3e49351a",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Draft%20Horse.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Heavy Horse",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/heavy-horse/draft-horse-2014.webp",
+    "artist": "Related Maxeene draft horse token · Waterdeep: Dragon Heist",
+    "kind": "token",
+    "sha256": "1dc5d00304a6c80dc4df4e501903bdf6865125ab1d08d2f69a963aa4479fd740",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/WDH/Maxeene.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Heavy Warhorse",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/heavy-warhorse/warhorse-2024.webp",
+    "artist": "Related Warhorse illustration · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "d0c9f9badc00637658479611d00a9a0c6853b8c0c5adf5445eaf7d1fa6cb0294",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Warhorse.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Heavy Warhorse",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/heavy-warhorse/warhorse-2014.webp",
+    "artist": "Related Warhorse token · Monster Manual (2014)",
+    "kind": "token",
+    "sha256": "994760a3f07aaace3f84380f2e564faf992d220ce5ed42fd31fd20d00c286f9c",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/MM/Warhorse.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Huge Shark",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/huge-shark/giant-shark-2024.webp",
+    "artist": "Related Hunter Shark illustration · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "840c77854787393dfb425c58dd521b42ea8b32e159d09858776a362bcf44ffe4",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Hunter%20Shark.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Huge Shark",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/huge-shark/kobold-press-shark.webp",
+    "artist": "Related Giant Shark · Kobold Press Foundry token",
+    "kind": "token",
+    "sha256": "4b87ddd9a6b906869db40737dfa77c899f852f30a36ecd426b6e4e19ca723f06",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/shark.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Huge Viper Snake",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/huge-viper-snake/giant-venomous-snake-2024.webp",
+    "artist": "Related Swarm of Venomous Snakes illustration · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "ce2f60ddfaf2569addce62306e3a98b952278d3ae78198ca5661c518d3ae65a9",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Swarm%20of%20Venomous%20Snakes.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Huge Viper Snake",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/huge-viper-snake/kobold-press-snake-poisonous-giant.webp",
+    "artist": "Related Giant Poisonous Snake · Kobold Press Foundry token",
+    "kind": "token",
+    "sha256": "13675617756881dd01f5be9acdbb834365e16a69cea09a4123f765bf68623349",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/snake-poisonous-giant.webp"
+  }
+]

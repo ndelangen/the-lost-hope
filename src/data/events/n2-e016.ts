@@ -5,6 +5,7 @@ export default createEvent({
   name: 'Giant spider guarding a young phoenix',
   day: 2,
   location: refs.locations.fajanet_tunnel_phoenix_cocoon_chamber,
+  illustrations: ['/assets/scenes/giant-spider-guarding-a-young-phoenix.png'],
   mark: { type: 'icon', name: 'gi/GiSpiderWeb' },
   notes: [
     [

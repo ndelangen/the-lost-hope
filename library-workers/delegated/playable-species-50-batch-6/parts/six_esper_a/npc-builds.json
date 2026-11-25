@@ -1,0 +1,239 @@
+{
+  "builds": [
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "size": "Medium",
+      "type": "Humanoid",
+      "id": "esper-ashenforged-kesvar-maraval",
+      "title": "Somatic Ashenforged salvage guard, Warrior 2",
+      "difficulty": "Warrior 2",
+      "ac": 16,
+      "hp": 20,
+      "hitDice": "2d10+4",
+      "initiative": 2,
+      "speed": "30 ft.",
+      "senses": "Darkvision 60 ft., passive Perception 13.",
+      "languages": "Common, Dendusi, Terran.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 15,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +5",
+        "Intimidation +1",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "traits": [
+        "Proficiency bonus +2. Saves Str +5, Dex +2, Con +4, Int +0, Wis +1, Cha −1. Burst save +2.",
+        "Somatic natural AC is 14. Armor jacket gives 13, so use natural AC and add 2 for the equipped shield. Without the shield AC is 14. The fixed HP progression is 12 at 1st level plus 8 at 2nd.",
+        "Poison resistance. Advantage on saves against poison or disease. Somatic armor training removes movement and stealth penalties from medium and heavy armor.",
+        "Soldier gives Athletics, Survival, planetary vehicles and Fellow at Arms. Warrior gives Intimidation and Perception. Artisan training gives mechanics tools.",
+        "Dueling adds +2 damage to the one-handed longblade while Kesvar wields no other weapon. His shield does not count as a weapon."
+      ],
+      "actions": [
+        "Longblade. Melee weapon attack +5 to hit, reach 5 ft., one target. Hit 1d8+5 slashing in one hand with Dueling. With the shield set aside, he may instead wield the blade in two hands for 1d10+3 slashing.",
+        "Second Wind, bonus action once per short or long rest. Regain 1d10+2 HP up to maximum or remove one level of exhaustion.",
+        "Action Surge, once per short or long rest. Take one extra action on his turn."
+      ],
+      "tactics": "Kesvar shields the person turning the hand crank. He saves Action Surge for a round when he must both fight and pull someone clear."
+    },
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "size": "Medium",
+      "type": "Humanoid",
+      "id": "esper-belare-varenus",
+      "title": "Belare containment inspector, Infiltrator Specialist 3",
+      "difficulty": "Specialist 3",
+      "ac": 14,
+      "hp": 24,
+      "hitDice": "3d8+6",
+      "initiative": 2,
+      "speed": "25 ft.",
+      "senses": "Infravision 60 ft., passive Perception 12.",
+      "languages": "Common, Protean, Dendusi, Terran.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 15,
+        "CON": 15,
+        "INT": 14,
+        "WIS": 10,
+        "CHA": 13
+      },
+      "skills": [
+        "Astrophysics +4",
+        "Investigation +6",
+        "Lore +4",
+        "Perception +2",
+        "Persuasion +3",
+        "Stealth +6"
+      ],
+      "traits": [
+        "Proficiency bonus +2. Saves Str −1, Dex +4, Con +2, Int +4, Wis +0, Cha +1. Burst save +4.",
+        "The sealed suit is their body. Varenus wears no armor or shield, so AC is 10 + 2 Dex + 2 Con. Fixed HP is 10 + 7 + 7.",
+        "Advantage on poison saves, resistance to poison and radiant damage, immunity to disease in the suit. Varenus does not eat, breathe or sleep. Ordinary healing works and effects targeting automatons or constructs can affect them.",
+        "Scholar gives Astrophysics, Lore, two languages and a personal digital library. Specialist gives Investigation, Perception, Persuasion and Stealth plus infiltration tools and Shadownet ID. Natural Aptitude doubles proficiency for Investigation and Stealth.",
+        "Infiltrator, Light as a Feather. Varenus may use Dexterity (Acrobatics) for climbing checks, can scale any solid surface with no extra movement cost and may use their Dexterity modifier to determine jumping height and distance.",
+        "Deft Strike, once per turn. Add 2d6 damage with a finesse or ranged weapon on a hit made with advantage. It also works without advantage if a non-incapacitated enemy of the target is within 5 ft. of it and Varenus has no disadvantage."
+      ],
+      "actions": [
+        "Shortblade. Melee weapon attack +4 to hit, reach 5 ft., one target. Hit 1d6+2 piercing.",
+        "Light pistol. Ranged weapon attack +4 to hit, range 50/150 ft., one target. Hit 1d6+2 piercing. 15 shots per magazine.",
+        "Renew, action at touch. Mend one break or tear in an object if the damage fits within 1 ft. in all dimensions. A broken device still needs separate repairs to work again.",
+        "Light Beam, action once per long rest. In a 30-ft. by 5-ft. line, each creature makes a DC 12 Dexterity save. Deal 3d8 radiant damage on a failure or half on success. Concentration lasts up to 1 round. DC is 8 + 2 proficiency + 2 Constitution.",
+        "Cunning Action, bonus action. Dash, Disengage or Hide. Fast Hands also permits a Dexterity (Sleight of Hand) check, infiltration tools to disarm a device or open a lock, or the Use an Object action.",
+        "Close containment suit, action. If exposed, Varenus can remain so for 2 rounds before taking a level of exhaustion at each subsequent round’s start. Exposure gives radiant immunity and necrotic vulnerability. Six exhaustion levels reduce Varenus to dust. Only a long rest clears the exposure levels. Non-Belare within 5 ft. take 1d6 radiant damage at the start of their own turns."
+      ],
+      "tactics": "Varenus first tries to patch the leak with Renew. They never use their Light Beam down a corridor while evacuation crews are inside its line."
+    },
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "size": "Medium",
+      "type": "Humanoid",
+      "id": "esper-dendus-issara-verkle",
+      "title": "Path-kin Dendus surveyor, Specialist 2",
+      "difficulty": "Specialist 2",
+      "ac": 14,
+      "hp": 15,
+      "hitDice": "2d8+2",
+      "initiative": 3,
+      "speed": "35 ft.",
+      "senses": "Darkvision 60 ft., passive Perception 15.",
+      "languages": "Common, Dendusi, ALOMU, Nesieve.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 16,
+        "CON": 13,
+        "INT": 12,
+        "WIS": 16,
+        "CHA": 10
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Computers +5",
+        "Insight +5",
+        "Investigation +3",
+        "Mechanics +7",
+        "Perception +5",
+        "Stealth +5"
+      ],
+      "traits": [
+        "Proficiency bonus +2. Saves Str −1, Dex +5, Con +1, Int +3, Wis +3, Cha +0. Burst save +5. Int, Wis and Cha saves have advantage against esper powers.",
+        "Armor jacket gives 11 + 3 Dex. Fixed HP is 9 at 1st level plus 6 at 2nd.",
+        "Path-kin gives digital technician’s tools and raises speed to 35 ft. Dendus gives Insight. Techie gives Computers, Mechanics, cybersmith’s tools, ALOMU and one language. The Techie tool list follows the publisher errata.",
+        "Specialist gives Acrobatics, Investigation, Perception, Stealth, infiltration tools and Shadownet ID. Natural Aptitude doubles proficiency for Computers and Mechanics.",
+        "Deft Strike, once per turn. Add 1d6 damage with a finesse or ranged weapon on a hit made with advantage. It also works without advantage if a non-incapacitated enemy of the target is within 5 ft. of it and Issara has no disadvantage."
+      ],
+      "actions": [
+        "Shortblade. Melee weapon attack +5 to hit, reach 5 ft., one target. Hit 1d6+3 piercing.",
+        "Light pistol. Ranged weapon attack +5 to hit, range 50/150 ft., one target. Hit 1d6+3 piercing. 15 shots per magazine.",
+        "Larima, action, range 10 ft. Send a private whispered message to one creature, which can whisper a private reply. A known target can receive it through solid objects. One foot of stone or ordinary metal, any sorium barrier, or three feet of wood or glass blocks the effect. The message can travel around corners and through openings.",
+        "Cunning Action, bonus action. Dash, Disengage or Hide."
+      ],
+      "tactics": "Issara marks a safe route and uses Larima to guide the person behind her. If the passage closes, she Disengages to get to the next maintenance hatch."
+    },
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "size": "Medium",
+      "type": "Humanoid",
+      "id": "esper-eldori-teralis-danleth",
+      "title": "Solar Eldori relief escort, Warrior 1",
+      "difficulty": "Warrior 1",
+      "ac": 13,
+      "hp": 12,
+      "hitDice": "1d10+2",
+      "initiative": 1,
+      "speed": "30 ft.",
+      "senses": "Darkvision 60 ft., passive Perception 14.",
+      "languages": "Common, Nesieve, Dendusi, Terran.",
+      "abilityScores": {
+        "STR": 15,
+        "DEX": 12,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 14,
+        "CHA": 12
+      },
+      "skills": [
+        "Athletics +4",
+        "Perception +4",
+        "Persuasion +3",
+        "Survival +4"
+      ],
+      "traits": [
+        "Proficiency bonus +2. Saves Str +4, Dex +1, Con +4, Int −1, Wis +2, Cha +1. Burst save +1, or +3 during Aegis.",
+        "The armor jacket gives 11 + 1 Dex. Defense adds 1 while wearing armor. First-level HP is 10 + 2 Con.",
+        "Solar Eldori resists necrotic and radiant damage and grants energy staff and longblade proficiency. These weapon proficiencies overlap with Warrior.",
+        "Drifter gives Perception, Survival, planetary vehicles, a gaming set and one language. Warrior gives Athletics and Persuasion."
+      ],
+      "actions": [
+        "Energy staff. Two-handed melee weapon attack +4 to hit, reach 10 ft., one target. Hit 1d6+2 bludgeoning. After a hit, a bonus action can trigger the staff’s Energy Burst. Target makes a DC 13 Constitution save. Failure reduces its speed by 10 ft. until the end of its next turn.",
+        "Aegis, action on self once per long rest. Until the end of their next turn, Teralis has resistance to bludgeoning, piercing and slashing damage from weapon attacks and +2 to their Burst Save.",
+        "Second Wind, bonus action once per short or long rest. Regain 1d10+1 HP up to maximum or remove one level of exhaustion."
+      ],
+      "tactics": "Teralis uses the staff’s reach to hold an access ramp while others withdraw. They trigger Energy Burst to slow pursuit or spend their action on Aegis when they expect concentrated fire."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Ashenforged",
+      "size": "Medium",
+      "speciesPublication": "Esper Genesis Core Manual (2018)",
+      "edition": "Fifth edition compatible",
+      "build": "esper-ashenforged-kesvar-maraval",
+      "name": "Kesvar Maraval",
+      "role": "Somatic Ashenforged salvage guard with weathered pewter skin, metallic blue eyes and ridged ears.",
+      "motive": "Keep his crew safe long enough to recover a lost rescue beacon.",
+      "hook": "The beacon reports a live signal, although its transmitter was removed before the ship went down."
+    },
+    {
+      "species": "Belare",
+      "size": "Medium",
+      "speciesPublication": "Esper Genesis Core Manual (2018)",
+      "edition": "Fifth edition compatible",
+      "build": "esper-belare-varenus",
+      "name": "Varenus",
+      "role": "Genderless Belare containment inspector in a sealed gray ochre and clay-red biosynthetic suit.",
+      "motive": "Find the source of a string of suit failures before the station closes its public docks.",
+      "hook": "A repaired seal cracks along the same line every time. Varenus suspects another system is applying pressure to it."
+    },
+    {
+      "species": "Dendus",
+      "size": "Medium",
+      "speciesPublication": "Esper Genesis Core Manual (2018)",
+      "edition": "Fifth edition compatible",
+      "build": "esper-dendus-issara-verkle",
+      "name": "Issara Verkle",
+      "role": "Path-kin Dendus surveyor with slick pale gray skin, glossy eyes and reddish-purple scalp tentacles.",
+      "motive": "Finish a map of the mining tunnels before the next shift enters them.",
+      "hook": "The newest survey closes a loop that should be ten metres longer. Issara wants someone else to pace it."
+    },
+    {
+      "species": "Eldori",
+      "size": "Medium",
+      "speciesPublication": "Esper Genesis Core Manual (2018)",
+      "edition": "Fifth edition compatible",
+      "build": "esper-eldori-teralis-danleth",
+      "name": "Teralis Danleth",
+      "role": "Solar Eldori relief escort with muted blue-green skin, amber eyes and silky black hair.",
+      "motive": "Walk the last injured freighter crew to the shuttle before the loading bridge retracts.",
+      "hook": "The shuttle pilot cannot clear their departure until a damaged reader logs everyone on the bridge."
+    }
+  ]
+}

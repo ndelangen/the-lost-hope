@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Fire Lizard",
+    "file": "",
+    "selection": "generated",
+    "sha256": "9e18c38ba20b7cbd11b86d527f2d1c483e2dd798ff16f769e79b1849a1ca884a",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "name": "Bookworm",
+    "file": "",
+    "selection": "generated",
+    "sha256": "43d3d8e861be4dcbfc9e28ffa13154681fb6a56228fe13717126697ba05bcbce",
+    "width": 1254,
+    "height": 1254
+  }
+]

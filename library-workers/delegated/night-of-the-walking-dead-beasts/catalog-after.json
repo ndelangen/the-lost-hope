@@ -1,0 +1,6330 @@
+[
+  {
+    "name": "Crocodile",
+    "version": {
+      "key": "ccad7a1393721ff0954c51f2",
+      "publication": "Night of the Walking Dead",
+      "edition": "AD&D 2nd edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "5"
+        ],
+        [
+          "Hit points",
+          "14"
+        ],
+        [
+          "Hit dice",
+          "3"
+        ],
+        [
+          "Type",
+          "Animal"
+        ],
+        [
+          "Movement",
+          "6/12"
+        ],
+        [
+          "THAC0",
+          "16"
+        ],
+        [
+          "Attacks per round",
+          "2"
+        ],
+        [
+          "Damage per attack",
+          "2–8 / 1–12"
+        ],
+        [
+          "XP",
+          "65"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "The swamp outside Marais d’Tarascon"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "An ordinary crocodile lying low in the water."
+          ]
+        },
+        {
+          "title": "Encounters mechanics",
+          "lines": [
+            "Floating logs · Prodding the logs gives the party a 20% chance to spot the crocodile. If they pass without checking, it surprises them after the raft moves past. Their surprise rolls take a −2 penalty.",
+            "At the raft edge · It targets a character near the edge of the raft, tries to pull them into the water, and flees once it has taken prey."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "One crocodile with 14 HP. Neutral. The print lists surprise as a special defense.",
+            "Bill Slavicsek, Night of the Walking Dead (TSR, 1992 print), Part I, The Swamp: The Crocodile, pp. 7–8."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [
+      {
+        "key": "4abe6061748c3a6cd7b92fbc",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "status": "Combat summary",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "12"
+          ],
+          [
+            "Hit points",
+            "19"
+          ],
+          [
+            "Hit dice",
+            "3d10 + 3"
+          ],
+          [
+            "Challenge",
+            "1/2"
+          ],
+          [
+            "Size",
+            "Large"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 20 ft., swim 30 ft."
+          ],
+          [
+            "Str",
+            "15"
+          ],
+          [
+            "Dex",
+            "10"
+          ],
+          [
+            "Con",
+            "13"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "10"
+          ],
+          [
+            "Cha",
+            "5"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +4 to hit · reach 5 ft. · 1d10 + 2 piercing"
+            ]
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "9965b756154cba3091ebf3d8",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "edition": "Black Flag Roleplaying",
+        "status": "Combat summary",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "12"
+          ],
+          [
+            "Hit points",
+            "25"
+          ],
+          [
+            "Challenge",
+            "1/2"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "0 2 ft., 1 0 ft., 2   ft., 3 f ft., 4 t ft., 5 . ft., 6 , ft., 7   ft., 8 s ft., 9 w ft., 10 i ft., 11 m ft., 12   ft., 13 3 ft., 14 0 ft., 15   ft., 16 f ft., 17 t ft., 18 . ft."
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee",
+              "Bite · melee"
+            ]
+          }
+        ],
+        "inline": {
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "6728886f174c2de910a67ae2",
+        "publication": "DDEX1-07 - Drums in the Marsh",
+        "edition": "2014 fifth edition",
+        "status": "Combat summary",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "12"
+          ],
+          [
+            "Hit points",
+            "19"
+          ],
+          [
+            "Challenge",
+            "1/2"
+          ],
+          [
+            "Size",
+            "Large"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 20 ft."
+          ]
+        ],
+        "sections": [],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "8fd3ba897fc87bd91bbc3929",
+        "publication": "Hoard of the Dragon Queen - Online Supplement",
+        "edition": "2014 fifth edition",
+        "status": "Combat summary",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "12"
+          ],
+          [
+            "Hit points",
+            "19"
+          ],
+          [
+            "Hit dice",
+            "3d10 + 3"
+          ],
+          [
+            "Challenge",
+            "1/2"
+          ],
+          [
+            "Size",
+            "Large"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 20 ft., swim 30 ft."
+          ],
+          [
+            "Str",
+            "15"
+          ],
+          [
+            "Dex",
+            "10"
+          ],
+          [
+            "Con",
+            "13"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "10"
+          ],
+          [
+            "Cha",
+            "5"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +4 to hit · reach 5 ft. · 1d10 + 2 piercing"
+            ]
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "78af60cbade7e421ec9963dc",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "description": "A Large beast with challenge rating 1/2. Listed habitats: swamp, urban. Named abilities include Hold Breath, Bite.",
+        "source": "https://5e.tools/bestiary.html#crocodile_mm",
+        "status": "Encounter reference",
+        "images": [
+          {
+            "url": "",
+            "credit": "Monster Manual (2014)"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "12"
+          ],
+          [
+            "Hit points",
+            "19"
+          ],
+          [
+            "Hit dice",
+            "3d10 + 3"
+          ],
+          [
+            "Challenge",
+            "1/2"
+          ],
+          [
+            "Size",
+            "Large"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 20 ft., swim 30 ft."
+          ],
+          [
+            "Passive Perception",
+            "10"
+          ],
+          [
+            "Initiative",
+            "0"
+          ],
+          [
+            "Strength",
+            "15"
+          ],
+          [
+            "Dexterity",
+            "10"
+          ],
+          [
+            "Constitution",
+            "13"
+          ],
+          [
+            "Wisdom",
+            "10"
+          ],
+          [
+            "Charisma",
+            "5"
+          ],
+          [
+            "Intelligence",
+            "2"
+          ],
+          [
+            "Alignment",
+            "unaligned"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +4 to hit · reach 5 ft. · 1d10 + 2 piercing"
+            ]
+          },
+          {
+            "title": "Table notes",
+            "lines": [
+              "A bite grapples its victim (escape DC 12). The victim is restrained, and the crocodile cannot bite a different target until the grapple ends.",
+              "It can remain underwater for up to 15 minutes without breathing."
+            ]
+          },
+          {
+            "title": "Skills",
+            "lines": [
+              "Stealth +2"
+            ]
+          },
+          {
+            "title": "Habitats",
+            "lines": [
+              "swamp, urban"
+            ]
+          },
+          {
+            "title": "Traits reference",
+            "lines": [
+              "Hold Breath · 15 minutes"
+            ]
+          },
+          {
+            "title": "Actions reference",
+            "lines": [
+              "Bite · Melee attack · +4 to hit · 1d10 + 2 piercing damage · Escape DC 12 · reach 5 ft. · Grappled · Restrained"
+            ]
+          }
+        ],
+        "sourceCode": "MM",
+        "page": 320,
+        "references": [
+          {
+            "label": "Monster Manual (2014), p. 320",
+            "url": "https://5e.tools/bestiary.html#crocodile_mm"
+          },
+          {
+            "label": "Grappled (condition)",
+            "url": "https://5e.tools/conditionsdiseases.html#grappled_phb",
+            "local": {
+              "entry": "compendium-e9c29509e4a14efaf316630f",
+              "version": "PHB:290:https://5e.tools/conditionsdiseases.html#grappled_phb"
+            },
+            "preview": {
+              "name": "Grappled",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+              "local": {
+                "entry": "compendium-e9c29509e4a14efaf316630f",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#grappled_phb"
+              }
+            }
+          },
+          {
+            "label": "Restrained (condition)",
+            "url": "https://5e.tools/conditionsdiseases.html#restrained_phb",
+            "local": {
+              "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+              "version": "PHB:292:https://5e.tools/conditionsdiseases.html#restrained_phb"
+            },
+            "preview": {
+              "name": "Restrained",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "Your speed is 0. Your attacks and Dexterity saves have disadvantage, and attacks against you have advantage.",
+              "local": {
+                "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#restrained_phb"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Passive Perception": [
+            {
+              "start": 0,
+              "end": 18,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Initiative": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Initiative",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 369,
+                "local": {
+                  "entry": "compendium-f7647d543d6e04bd0782c504",
+                  "version": "XPHB:369:https://5e.tools/variantrules.html#initiative_xphb"
+                }
+              }
+            }
+          ],
+          "Alignment": [
+            {
+              "start": 0,
+              "end": 9,
+              "target": {
+                "name": "Alignment",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                }
+              }
+            }
+          ],
+          "A bite grapples its victim (escape DC 12). The victim is restrained, and the crocodile cannot bite a different target until the grapple ends.": [
+            {
+              "start": 57,
+              "end": 67,
+              "target": {
+                "name": "Restrained",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 292,
+                "description": "Your speed is 0. Your attacks and Dexterity saves have disadvantage, and attacks against you have advantage.",
+                "local": {
+                  "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+                  "version": "PHB:292:https://5e.tools/conditionsdiseases.html#restrained_phb"
+                }
+              }
+            }
+          ],
+          "Stealth +2": [
+            {
+              "start": 0,
+              "end": 7,
+              "target": {
+                "name": "Stealth",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 177,
+                "local": {
+                  "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                  "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+                }
+              }
+            }
+          ],
+          "Bite · Melee attack · +4 to hit · 1d10 + 2 piercing damage · Escape DC 12 · reach 5 ft. · Grappled · Restrained": [
+            {
+              "start": 90,
+              "end": 98,
+              "target": {
+                "name": "Grappled",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 290,
+                "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+                "local": {
+                  "entry": "compendium-e9c29509e4a14efaf316630f",
+                  "version": "PHB:290:https://5e.tools/conditionsdiseases.html#grappled_phb"
+                }
+              }
+            },
+            {
+              "start": 101,
+              "end": 111,
+              "target": {
+                "name": "Restrained",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 292,
+                "description": "Your speed is 0. Your attacks and Dexterity saves have disadvantage, and attacks against you have advantage.",
+                "local": {
+                  "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+                  "version": "PHB:292:https://5e.tools/conditionsdiseases.html#restrained_phb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "65d2f6c0e94a4f5a61465428",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "description": "A Large beast with challenge rating 1/2. Listed habitats: coastal, swamp, urban. Named abilities include Hold Breath, Bite.",
+        "source": "https://5e.tools/bestiary.html#crocodile_xmm",
+        "artwork": "https://www.dndbeyond.com/avatars/thumbnails/43939/131/1000/1000/638607415525020149.png",
+        "status": "Encounter reference",
+        "images": [
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "12"
+          ],
+          [
+            "Hit points",
+            "13"
+          ],
+          [
+            "Hit dice",
+            "2d10 + 2"
+          ],
+          [
+            "Challenge",
+            "1/2"
+          ],
+          [
+            "Size",
+            "Large"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 20 ft., swim 30 ft."
+          ],
+          [
+            "Passive Perception",
+            "10"
+          ],
+          [
+            "Strength",
+            "15"
+          ],
+          [
+            "Dexterity",
+            "10"
+          ],
+          [
+            "Constitution",
+            "13"
+          ],
+          [
+            "Intelligence",
+            "2"
+          ],
+          [
+            "Wisdom",
+            "10"
+          ],
+          [
+            "Charisma",
+            "5"
+          ],
+          [
+            "Alignment",
+            "unaligned"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Saving throws",
+            "lines": [
+              "Con +3",
+              "Constitution +3"
+            ]
+          },
+          {
+            "title": "Habitats",
+            "lines": [
+              "coastal",
+              "swamp",
+              "urban",
+              "coastal, swamp, urban"
+            ]
+          },
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +4 to hit · reach 5 ft. · 1d8 + 2 piercing"
+            ]
+          },
+          {
+            "title": "Skills",
+            "lines": [
+              "Stealth +2"
+            ]
+          },
+          {
+            "title": "Traits reference",
+            "lines": [
+              "Hold Breath · 1 hour"
+            ]
+          },
+          {
+            "title": "Actions reference",
+            "lines": [
+              "Bite · Melee attack · +4 to hit · 1d8 + 2 piercing damage · Escape DC 12 · reach 5 ft. · Grappled · Restrained"
+            ]
+          },
+          {
+            "title": "Lore topics in the source",
+            "lines": [
+              "Animals"
+            ]
+          }
+        ],
+        "sourceCode": "XMM",
+        "references": [
+          {
+            "label": "Monster Manual (2025), p. 352",
+            "url": "https://5e.tools/bestiary.html#crocodile_xmm"
+          },
+          {
+            "label": "Grappled (condition)",
+            "url": "https://5e.tools/conditionsdiseases.html#grappled_xphb",
+            "local": {
+              "entry": "compendium-e9c29509e4a14efaf316630f",
+              "version": "XPHB:367:https://5e.tools/conditionsdiseases.html#grappled_xphb"
+            },
+            "preview": {
+              "name": "Grappled",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2024)",
+              "page": 367,
+              "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+              "local": {
+                "entry": "compendium-e9c29509e4a14efaf316630f",
+                "version": "XPHB:367:https://5e.tools/conditionsdiseases.html#grappled_xphb"
+              }
+            }
+          },
+          {
+            "label": "Restrained (condition)",
+            "url": "https://5e.tools/conditionsdiseases.html#restrained_xphb",
+            "local": {
+              "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+              "version": "XPHB:373:https://5e.tools/conditionsdiseases.html#restrained_xphb"
+            },
+            "preview": {
+              "name": "Restrained",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2024)",
+              "page": 373,
+              "description": "Your speed is 0. Your attacks and Dexterity saves have disadvantage, and attacks against you have advantage.",
+              "local": {
+                "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+                "version": "XPHB:373:https://5e.tools/conditionsdiseases.html#restrained_xphb"
+              }
+            }
+          },
+          {
+            "label": "Panther (creature)",
+            "url": "https://5e.tools/bestiary.html#panther_xmm",
+            "local": {
+              "entry": "beast-346793476af7c0a55cfa62ab",
+              "version": "b2bb83792ec748263d8b7b46"
+            },
+            "preview": {
+              "name": "Panther",
+              "group": "Beast",
+              "publication": "Monster Manual (2024)",
+              "description": "A Medium beast with challenge rating 1/4. Listed habitats: forest, grassland, hill. Named abilities include Rend, Nimble Escape.",
+              "local": {
+                "entry": "beast-346793476af7c0a55cfa62ab",
+                "version": "b2bb83792ec748263d8b7b46"
+              }
+            }
+          },
+          {
+            "label": "Giant Goat (creature)",
+            "url": "https://5e.tools/bestiary.html#giant%20goat_xmm",
+            "local": {
+              "entry": "beast-6f3ba88f8055270588c02a34",
+              "version": "426fa41934a075969d8d0faf"
+            },
+            "preview": {
+              "name": "Giant Goat",
+              "group": "Beast",
+              "publication": "Monster Manual (2024)",
+              "description": "A Large beast with challenge rating 1/2. Listed habitats: grassland, hill, mountain. Named abilities include Ram.",
+              "local": {
+                "entry": "beast-6f3ba88f8055270588c02a34",
+                "version": "426fa41934a075969d8d0faf"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Passive Perception": [
+            {
+              "start": 0,
+              "end": 18,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Alignment": [
+            {
+              "start": 0,
+              "end": 9,
+              "target": {
+                "name": "Alignment",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                }
+              }
+            }
+          ],
+          "Stealth +2": [
+            {
+              "start": 0,
+              "end": 7,
+              "target": {
+                "name": "Stealth",
+                "group": "Skills",
+                "publication": "Player's Handbook (2024)",
+                "page": 14,
+                "local": {
+                  "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                  "version": "XPHB:14:https://5e.tools/skills.html#stealth_xphb"
+                }
+              }
+            }
+          ],
+          "Bite · Melee attack · +4 to hit · 1d8 + 2 piercing damage · Escape DC 12 · reach 5 ft. · Grappled · Restrained": [
+            {
+              "start": 89,
+              "end": 97,
+              "target": {
+                "name": "Grappled",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2024)",
+                "page": 367,
+                "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+                "local": {
+                  "entry": "compendium-e9c29509e4a14efaf316630f",
+                  "version": "XPHB:367:https://5e.tools/conditionsdiseases.html#grappled_xphb"
+                }
+              }
+            },
+            {
+              "start": 100,
+              "end": 110,
+              "target": {
+                "name": "Restrained",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2024)",
+                "page": 373,
+                "description": "Your speed is 0. Your attacks and Dexterity saves have disadvantage, and attacks against you have advantage.",
+                "local": {
+                  "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+                  "version": "XPHB:373:https://5e.tools/conditionsdiseases.html#restrained_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "26b65f58826a4573577cd81b",
+        "publication": "Monster Vault",
+        "edition": "Black Flag Roleplaying",
+        "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "images": [],
+        "stats": [
+          [
+            "Challenge",
+            "0.5"
+          ],
+          [
+            "Type",
+            "Beast"
+          ]
+        ],
+        "sections": []
+      },
+      {
+        "key": "719ed6a607b4cf81dd90ed8e",
+        "publication": "Revised v3.5 SRD (Monsters)",
+        "edition": "3.5 edition",
+        "status": "Combat summary",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "15"
+          ],
+          [
+            "Hit points",
+            "22"
+          ],
+          [
+            "Hit dice",
+            "3d8+9"
+          ],
+          [
+            "Challenge",
+            "2"
+          ],
+          [
+            "Size",
+            "Medium"
+          ],
+          [
+            "Type",
+            "Animal"
+          ],
+          [
+            "Speed",
+            "0 2 ft., 1 0 ft., 2   ft., 3 f ft., 4 t ft., 5 . ft., 6 , ft., 7   ft., 8 s ft., 9 w ft., 10 i ft., 11 m ft., 12   ft., 13 3 ft., 14 0 ft., 15   ft., 16 f ft., 17 t ft., 18 . ft."
+          ],
+          [
+            "Initiative",
+            "1"
+          ],
+          [
+            "Touch armor class",
+            "11"
+          ],
+          [
+            "Flat-footed armor class",
+            "14"
+          ],
+          [
+            "Base attack bonus",
+            "2"
+          ],
+          [
+            "Grapple modifier",
+            "6"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Saving throws",
+            "lines": [
+              "Fort +6",
+              "Ref +4",
+              "Will +2"
+            ]
+          },
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +6 to hit"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "7a7aa83400e1da2822dd4f01",
+        "publication": "SRD 5.1",
+        "edition": "2014 fifth edition",
+        "status": "Stat block",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "12"
+          ],
+          [
+            "Hit points",
+            "19"
+          ],
+          [
+            "Hit dice",
+            "3d10 + 3"
+          ],
+          [
+            "Challenge",
+            "1/2"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "20 ft., swim 30 ft."
+          ],
+          [
+            "XP",
+            "100"
+          ],
+          [
+            "Str",
+            "15"
+          ],
+          [
+            "Dex",
+            "10"
+          ],
+          [
+            "Con",
+            "13"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "10"
+          ],
+          [
+            "Cha",
+            "5"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Classification",
+            "lines": [
+              "Large beast, unaligned"
+            ]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Skills Stealth +2 Senses passive Perception 10 Languages —"
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Hold Breath. The crocodile can hold its breath for 15 minutes."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (1d10 + 2) piercing damage, and the target is grappled (escape DC 12). Until this grapple ends, the target is restrained, and the crocodile can’t bite another target."
+            ]
+          }
+        ],
+        "inline": {
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Skills Stealth +2 Senses passive Perception 10 Languages —": [
+            {
+              "start": 7,
+              "end": 14,
+              "target": {
+                "name": "Stealth",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 177,
+                "local": {
+                  "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                  "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+                }
+              }
+            },
+            {
+              "start": 33,
+              "end": 43,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            }
+          ],
+          "Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (1d10 + 2) piercing damage, and the target is grappled (escape DC 12). Until this grapple ends, the target is restrained, and the crocodile can’t bite another target.": [
+            {
+              "start": 12,
+              "end": 25,
+              "target": {
+                "name": "Weapon Attack",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 377,
+                "local": {
+                  "entry": "compendium-f8978a5da2977fc5a556ab9c",
+                  "version": "XPHB:377:https://5e.tools/variantrules.html#weapon%20attack_xphb"
+                }
+              }
+            },
+            {
+              "start": 118,
+              "end": 126,
+              "target": {
+                "name": "Grappled",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 290,
+                "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+                "local": {
+                  "entry": "compendium-e9c29509e4a14efaf316630f",
+                  "version": "PHB:290:https://5e.tools/conditionsdiseases.html#grappled_phb"
+                }
+              }
+            },
+            {
+              "start": 182,
+              "end": 192,
+              "target": {
+                "name": "Restrained",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 292,
+                "description": "Your speed is 0. Your attacks and Dexterity saves have disadvantage, and attacks against you have advantage.",
+                "local": {
+                  "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+                  "version": "PHB:292:https://5e.tools/conditionsdiseases.html#restrained_phb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "fa09edc57b2e0ade2c4e7bd7",
+        "publication": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Stat block",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "12"
+          ],
+          [
+            "Hit points",
+            "13"
+          ],
+          [
+            "Hit dice",
+            "2d10 + 2"
+          ],
+          [
+            "Challenge",
+            "1/2"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "20 ft., Swim 30 ft."
+          ],
+          [
+            "XP",
+            "100"
+          ],
+          [
+            "Str",
+            "15"
+          ],
+          [
+            "Dex",
+            "10"
+          ],
+          [
+            "Con",
+            "13"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "10"
+          ],
+          [
+            "Cha",
+            "5"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Classification",
+            "lines": [
+              "Large Beast, Unaligned"
+            ]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Skills Stealth +2 Senses Passive Perception 10 Languages None"
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Hold Breath. The crocodile can hold its breath for 1 hour."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Piercing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 12). While Grappled, the target has the Restrained condition."
+            ]
+          }
+        ],
+        "inline": {
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Skills Stealth +2 Senses Passive Perception 10 Languages None": [
+            {
+              "start": 7,
+              "end": 14,
+              "target": {
+                "name": "Stealth",
+                "group": "Skills",
+                "publication": "Player's Handbook (2024)",
+                "page": 14,
+                "local": {
+                  "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                  "version": "XPHB:14:https://5e.tools/skills.html#stealth_xphb"
+                }
+              }
+            },
+            {
+              "start": 25,
+              "end": 43,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Piercing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 12). While Grappled, the target has the Restrained condition.": [
+            {
+              "start": 12,
+              "end": 23,
+              "target": {
+                "name": "Attack Roll",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 361,
+                "local": {
+                  "entry": "compendium-2570a567c24ef3f4b5e35b50",
+                  "version": "XPHB:361:https://5e.tools/variantrules.html#attack%20roll_xphb"
+                }
+              }
+            },
+            {
+              "start": 133,
+              "end": 141,
+              "target": {
+                "name": "Grappled",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2024)",
+                "page": 367,
+                "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+                "local": {
+                  "entry": "compendium-e9c29509e4a14efaf316630f",
+                  "version": "XPHB:367:https://5e.tools/conditionsdiseases.html#grappled_xphb"
+                }
+              }
+            },
+            {
+              "start": 174,
+              "end": 182,
+              "target": {
+                "name": "Grappled",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2024)",
+                "page": 367,
+                "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+                "local": {
+                  "entry": "compendium-e9c29509e4a14efaf316630f",
+                  "version": "XPHB:367:https://5e.tools/conditionsdiseases.html#grappled_xphb"
+                }
+              }
+            },
+            {
+              "start": 203,
+              "end": 213,
+              "target": {
+                "name": "Restrained",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2024)",
+                "page": 373,
+                "description": "Your speed is 0. Your attacks and Dexterity saves have disadvantage, and attacks against you have advantage.",
+                "local": {
+                  "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+                  "version": "XPHB:373:https://5e.tools/conditionsdiseases.html#restrained_xphb"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "queries": {
+      "Crocodile": true,
+      "crocodile raft floating logs": true
+    },
+    "hash": "dd125da20433b10de5f05477f5e3f17cb538d6eccf79c0b819715480a7ace6a6",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [
+      {
+        "url": "",
+        "credit": "Monster Manual (2014)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      }
+    ]
+  },
+  {
+    "name": "Giant Frog",
+    "version": {
+      "key": "992bf5ede2cd59208f531ffd",
+      "publication": "Night of the Walking Dead",
+      "edition": "AD&D 2nd edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "7"
+        ],
+        [
+          "Hit dice",
+          "2"
+        ],
+        [
+          "Type",
+          "Animal"
+        ],
+        [
+          "Movement",
+          "3/9"
+        ],
+        [
+          "THAC0",
+          "16"
+        ],
+        [
+          "Attacks per round",
+          "1"
+        ],
+        [
+          "Damage per attack",
+          "1–6"
+        ],
+        [
+          "XP",
+          "175"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Reeds in the swamp feeding ground"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A broad giant frog four feet long and weighing about 150 pounds."
+          ]
+        },
+        {
+          "title": "Special attacks mechanics",
+          "lines": [
+            "Sticky tongue · The tongue gains a +4 attack bonus and deals no damage. A hit pulls the target toward the frog’s bite.",
+            "Swallow whole · On an attack roll of 20, a frog can swallow a Small victim whole, including a demihuman under four feet tall."
+          ]
+        },
+        {
+          "title": "Encounters mechanics",
+          "lines": [
+            "Among the reeds · As the raft moves through the reeds, the party makes surprise rolls at −3. Three frogs emerge with 5, 8, and 10 HP respectively."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "The print lists alignment as Nil. XP 175 per frog.",
+            "Bill Slavicsek, Night of the Walking Dead (TSR, 1992 print), Part I, The Swamp: The Giant Frogs, p. 8."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [
+      {
+        "key": "d72e1d1544da7ca7b76a0b27",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "status": "Combat summary",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "11"
+          ],
+          [
+            "Hit points",
+            "18"
+          ],
+          [
+            "Hit dice",
+            "4d8"
+          ],
+          [
+            "Challenge",
+            "1/4"
+          ],
+          [
+            "Size",
+            "Medium"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 30 ft., swim 30 ft."
+          ],
+          [
+            "Str",
+            "12"
+          ],
+          [
+            "Dex",
+            "13"
+          ],
+          [
+            "Con",
+            "11"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "10"
+          ],
+          [
+            "Cha",
+            "3"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +3 to hit · reach 5 ft. · 1d6 + 1 piercing"
+            ]
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "c90ff70b143e060fb3d93b88",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "edition": "Black Flag Roleplaying",
+        "images": [],
+        "stats": [
+          [
+            "Challenge",
+            "1/4"
+          ],
+          [
+            "Type",
+            "Beast"
+          ]
+        ],
+        "sections": []
+      },
+      {
+        "key": "e7c8a1d28827e1f54fc9c10d",
+        "publication": "DDEX2-01 - City of Danger",
+        "edition": "2014 fifth edition",
+        "status": "Combat summary",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "11"
+          ],
+          [
+            "Hit points",
+            "18"
+          ],
+          [
+            "Hit dice",
+            "4d8"
+          ],
+          [
+            "Challenge",
+            "1/4"
+          ],
+          [
+            "Size",
+            "Medium"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 30 ft., swim 30 ft."
+          ],
+          [
+            "Str",
+            "12"
+          ],
+          [
+            "Dex",
+            "13"
+          ],
+          [
+            "Con",
+            "11"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "10"
+          ],
+          [
+            "Cha",
+            "3"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +3 to hit · reach 5 ft. · 1d6 + 1 piercing"
+            ]
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "81f38240aad3f8d83e3438b3",
+        "publication": "Hoard of the Dragon Queen - Online Supplement",
+        "edition": "2014 fifth edition",
+        "status": "Combat summary",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "11"
+          ],
+          [
+            "Hit points",
+            "18"
+          ],
+          [
+            "Hit dice",
+            "4d8"
+          ],
+          [
+            "Challenge",
+            "1/4"
+          ],
+          [
+            "Size",
+            "Medium"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 30 ft., swim 30 ft."
+          ],
+          [
+            "Str",
+            "12"
+          ],
+          [
+            "Dex",
+            "13"
+          ],
+          [
+            "Con",
+            "11"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "10"
+          ],
+          [
+            "Cha",
+            "3"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +3 to hit · reach 5 ft. · 1d6 + 1 piercing"
+            ]
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "78ef10fddad720db877f1eec",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "description": "A Medium beast with challenge rating 1/4. Listed habitats: forest, swamp. Named abilities include Amphibious, Standing Leap, Bite.",
+        "source": "https://5e.tools/bestiary.html#giant%20frog_mm",
+        "artwork": "https://www.dndbeyond.com/avatars/thumbnails/16/521/1000/1000/636376321052503535.jpeg",
+        "status": "Encounter reference",
+        "images": [
+          {
+            "url": "",
+            "credit": "Monster Manual (2014)"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "11"
+          ],
+          [
+            "Hit points",
+            "18"
+          ],
+          [
+            "Hit dice",
+            "4d8"
+          ],
+          [
+            "Challenge",
+            "1/4"
+          ],
+          [
+            "Size",
+            "Medium"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 30 ft., swim 30 ft."
+          ],
+          [
+            "Passive Perception",
+            "12"
+          ],
+          [
+            "Initiative",
+            "1"
+          ],
+          [
+            "Strength",
+            "12"
+          ],
+          [
+            "Dexterity",
+            "13"
+          ],
+          [
+            "Constitution",
+            "11"
+          ],
+          [
+            "Intelligence",
+            "2"
+          ],
+          [
+            "Wisdom",
+            "10"
+          ],
+          [
+            "Charisma",
+            "3"
+          ],
+          [
+            "Alignment",
+            "unaligned"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +3 to hit · reach 5 ft. · 1d6 + 1 piercing"
+            ]
+          },
+          {
+            "title": "Table notes",
+            "lines": [
+              "Bite grapples and restrains (escape DC 11), one victim at a time. It can swallow a Small or smaller creature it is holding by hitting with a second bite. The victim takes 2d4 acid at the start of the frog’s turns and is expelled when the frog dies.",
+              "The frog can breathe in water or air. Its standing long jump is 20 feet and high jump is 10 feet."
+            ]
+          },
+          {
+            "title": "Skills",
+            "lines": [
+              "Perception +2, Stealth +3"
+            ]
+          },
+          {
+            "title": "Senses",
+            "lines": [
+              "darkvision 30 ft."
+            ]
+          },
+          {
+            "title": "Habitats",
+            "lines": [
+              "forest, swamp"
+            ]
+          },
+          {
+            "title": "Traits reference",
+            "lines": [
+              "Amphibious",
+              "Standing Leap · up to 20 feet · up to 10 feet"
+            ]
+          },
+          {
+            "title": "Actions reference",
+            "lines": [
+              "Bite · Melee attack · +3 to hit · 1d6 + 1 piercing damage · Escape DC 11 · reach 5 ft. · Grappled · Restrained",
+              "Swallow · 2d4 acid damage · Blinded · Restrained · Prone"
+            ]
+          }
+        ],
+        "sourceCode": "MM",
+        "page": 325,
+        "references": [
+          {
+            "label": "Monster Manual (2014), p. 325",
+            "url": "https://5e.tools/bestiary.html#giant%20frog_mm"
+          },
+          {
+            "label": "Grappled (condition)",
+            "url": "https://5e.tools/conditionsdiseases.html#grappled_phb",
+            "local": {
+              "entry": "compendium-e9c29509e4a14efaf316630f",
+              "version": "PHB:290:https://5e.tools/conditionsdiseases.html#grappled_phb"
+            },
+            "preview": {
+              "name": "Grappled",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+              "local": {
+                "entry": "compendium-e9c29509e4a14efaf316630f",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#grappled_phb"
+              }
+            }
+          },
+          {
+            "label": "Restrained (condition)",
+            "url": "https://5e.tools/conditionsdiseases.html#restrained_phb",
+            "local": {
+              "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+              "version": "PHB:292:https://5e.tools/conditionsdiseases.html#restrained_phb"
+            },
+            "preview": {
+              "name": "Restrained",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "Your speed is 0. Your attacks and Dexterity saves have disadvantage, and attacks against you have advantage.",
+              "local": {
+                "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#restrained_phb"
+              }
+            }
+          },
+          {
+            "label": "Blinded (condition)",
+            "url": "https://5e.tools/conditionsdiseases.html#blinded_phb",
+            "local": {
+              "entry": "compendium-f2fb8e3ec2661265562faf3f",
+              "version": "PHB:290:https://5e.tools/conditionsdiseases.html#blinded_phb"
+            },
+            "preview": {
+              "name": "Blinded",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "You cannot see. Your attacks have disadvantage, and attacks against you have advantage.",
+              "local": {
+                "entry": "compendium-f2fb8e3ec2661265562faf3f",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#blinded_phb"
+              }
+            }
+          },
+          {
+            "label": "Prone (condition)",
+            "url": "https://5e.tools/conditionsdiseases.html#prone_phb",
+            "local": {
+              "entry": "compendium-6bb47020835c218b46b7d85a",
+              "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+            },
+            "preview": {
+              "name": "Prone",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+              "local": {
+                "entry": "compendium-6bb47020835c218b46b7d85a",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Passive Perception": [
+            {
+              "start": 0,
+              "end": 18,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Initiative": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Initiative",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 369,
+                "local": {
+                  "entry": "compendium-f7647d543d6e04bd0782c504",
+                  "version": "XPHB:369:https://5e.tools/variantrules.html#initiative_xphb"
+                }
+              }
+            }
+          ],
+          "Alignment": [
+            {
+              "start": 0,
+              "end": 9,
+              "target": {
+                "name": "Alignment",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                }
+              }
+            }
+          ],
+          "Perception +2, Stealth +3": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            },
+            {
+              "start": 15,
+              "end": 22,
+              "target": {
+                "name": "Stealth",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 177,
+                "local": {
+                  "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                  "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+                }
+              }
+            }
+          ],
+          "darkvision 30 ft.": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2014)",
+                "page": 183,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+                }
+              }
+            }
+          ],
+          "Bite · Melee attack · +3 to hit · 1d6 + 1 piercing damage · Escape DC 11 · reach 5 ft. · Grappled · Restrained": [
+            {
+              "start": 89,
+              "end": 97,
+              "target": {
+                "name": "Grappled",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 290,
+                "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+                "local": {
+                  "entry": "compendium-e9c29509e4a14efaf316630f",
+                  "version": "PHB:290:https://5e.tools/conditionsdiseases.html#grappled_phb"
+                }
+              }
+            },
+            {
+              "start": 100,
+              "end": 110,
+              "target": {
+                "name": "Restrained",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 292,
+                "description": "Your speed is 0. Your attacks and Dexterity saves have disadvantage, and attacks against you have advantage.",
+                "local": {
+                  "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+                  "version": "PHB:292:https://5e.tools/conditionsdiseases.html#restrained_phb"
+                }
+              }
+            }
+          ],
+          "Swallow · 2d4 acid damage · Blinded · Restrained · Prone": [
+            {
+              "start": 28,
+              "end": 35,
+              "target": {
+                "name": "Blinded",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 290,
+                "description": "You cannot see. Your attacks have disadvantage, and attacks against you have advantage.",
+                "local": {
+                  "entry": "compendium-f2fb8e3ec2661265562faf3f",
+                  "version": "PHB:290:https://5e.tools/conditionsdiseases.html#blinded_phb"
+                }
+              }
+            },
+            {
+              "start": 38,
+              "end": 48,
+              "target": {
+                "name": "Restrained",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 292,
+                "description": "Your speed is 0. Your attacks and Dexterity saves have disadvantage, and attacks against you have advantage.",
+                "local": {
+                  "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+                  "version": "PHB:292:https://5e.tools/conditionsdiseases.html#restrained_phb"
+                }
+              }
+            },
+            {
+              "start": 51,
+              "end": 56,
+              "target": {
+                "name": "Prone",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 292,
+                "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+                "local": {
+                  "entry": "compendium-6bb47020835c218b46b7d85a",
+                  "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "631dd0279bd4ef1fab00643a",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "description": "A Medium beast with challenge rating 1/4. Listed habitats: forest, swamp. Named abilities include Amphibious, Standing Leap, Bite.",
+        "source": "https://5e.tools/bestiary.html#giant%20frog_xmm",
+        "artwork": "https://www.dndbeyond.com/avatars/thumbnails/58417/101/1000/1000/639226714224349673.jpeg",
+        "status": "Encounter reference",
+        "images": [
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "11"
+          ],
+          [
+            "Hit points",
+            "18"
+          ],
+          [
+            "Hit dice",
+            "4d8"
+          ],
+          [
+            "Challenge",
+            "1/4"
+          ],
+          [
+            "Size",
+            "Medium"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 30 ft., swim 30 ft."
+          ],
+          [
+            "Passive Perception",
+            "12"
+          ],
+          [
+            "Strength",
+            "12"
+          ],
+          [
+            "Dexterity",
+            "13"
+          ],
+          [
+            "Constitution",
+            "11"
+          ],
+          [
+            "Intelligence",
+            "2"
+          ],
+          [
+            "Wisdom",
+            "10"
+          ],
+          [
+            "Charisma",
+            "3"
+          ],
+          [
+            "Alignment",
+            "unaligned"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Habitats",
+            "lines": [
+              "forest",
+              "swamp",
+              "forest, swamp"
+            ]
+          },
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +3 to hit · reach 5 ft. · 1d6 + 2 piercing"
+            ]
+          },
+          {
+            "title": "Skills",
+            "lines": [
+              "Perception +2, Stealth +3"
+            ]
+          },
+          {
+            "title": "Senses",
+            "lines": [
+              "Darkvision 30 ft."
+            ]
+          },
+          {
+            "title": "Traits reference",
+            "lines": [
+              "Amphibious",
+              "Standing Leap · up to 20 feet · up to 10 feet · Long Jump · High Jump"
+            ]
+          },
+          {
+            "title": "Actions reference",
+            "lines": [
+              "Bite · Melee attack · +3 to hit · 1d6 + 2 piercing damage · Escape DC 11 · reach 5 ft. · Grappled",
+              "Swallow · 2d4 acid damage · Grappled · Blinded · Restrained · Cover · Prone"
+            ]
+          },
+          {
+            "title": "Lore topics in the source",
+            "lines": [
+              "Animals"
+            ]
+          }
+        ],
+        "sourceCode": "XMM",
+        "references": [
+          {
+            "label": "Monster Manual (2025), p. 357",
+            "url": "https://5e.tools/bestiary.html#giant%20frog_xmm"
+          },
+          {
+            "label": "Long Jump (rule)",
+            "url": "https://5e.tools/variantrules.html#long%20jump_xphb",
+            "local": {
+              "entry": "compendium-99047da7e388f84829303e80",
+              "version": "XPHB:370:https://5e.tools/variantrules.html#long%20jump_xphb"
+            },
+            "preview": {
+              "name": "Long Jump",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 370,
+              "local": {
+                "entry": "compendium-99047da7e388f84829303e80",
+                "version": "XPHB:370:https://5e.tools/variantrules.html#long%20jump_xphb"
+              }
+            }
+          },
+          {
+            "label": "High Jump (rule)",
+            "url": "https://5e.tools/variantrules.html#high%20jump_xphb",
+            "local": {
+              "entry": "compendium-b7f4a04e9f6ad6125098e26b",
+              "version": "XPHB:368:https://5e.tools/variantrules.html#high%20jump_xphb"
+            },
+            "preview": {
+              "name": "High Jump",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 368,
+              "local": {
+                "entry": "compendium-b7f4a04e9f6ad6125098e26b",
+                "version": "XPHB:368:https://5e.tools/variantrules.html#high%20jump_xphb"
+              }
+            }
+          },
+          {
+            "label": "Grappled (condition)",
+            "url": "https://5e.tools/conditionsdiseases.html#grappled_xphb",
+            "local": {
+              "entry": "compendium-e9c29509e4a14efaf316630f",
+              "version": "XPHB:367:https://5e.tools/conditionsdiseases.html#grappled_xphb"
+            },
+            "preview": {
+              "name": "Grappled",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2024)",
+              "page": 367,
+              "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+              "local": {
+                "entry": "compendium-e9c29509e4a14efaf316630f",
+                "version": "XPHB:367:https://5e.tools/conditionsdiseases.html#grappled_xphb"
+              }
+            }
+          },
+          {
+            "label": "Blinded (condition)",
+            "url": "https://5e.tools/conditionsdiseases.html#blinded_xphb",
+            "local": {
+              "entry": "compendium-f2fb8e3ec2661265562faf3f",
+              "version": "XPHB:361:https://5e.tools/conditionsdiseases.html#blinded_xphb"
+            },
+            "preview": {
+              "name": "Blinded",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2024)",
+              "page": 361,
+              "description": "You cannot see. Your attacks have disadvantage, and attacks against you have advantage.",
+              "local": {
+                "entry": "compendium-f2fb8e3ec2661265562faf3f",
+                "version": "XPHB:361:https://5e.tools/conditionsdiseases.html#blinded_xphb"
+              }
+            }
+          },
+          {
+            "label": "Restrained (condition)",
+            "url": "https://5e.tools/conditionsdiseases.html#restrained_xphb",
+            "local": {
+              "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+              "version": "XPHB:373:https://5e.tools/conditionsdiseases.html#restrained_xphb"
+            },
+            "preview": {
+              "name": "Restrained",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2024)",
+              "page": 373,
+              "description": "Your speed is 0. Your attacks and Dexterity saves have disadvantage, and attacks against you have advantage.",
+              "local": {
+                "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+                "version": "XPHB:373:https://5e.tools/conditionsdiseases.html#restrained_xphb"
+              }
+            }
+          },
+          {
+            "label": "Cover (rule)",
+            "url": "https://5e.tools/variantrules.html#cover_xphb",
+            "terms": [
+              "Total Cover"
+            ],
+            "local": {
+              "entry": "compendium-b1ac93ec62c4bf69440a2159",
+              "version": "XPHB:364:https://5e.tools/variantrules.html#cover_xphb"
+            },
+            "preview": {
+              "name": "Cover",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 364,
+              "local": {
+                "entry": "compendium-b1ac93ec62c4bf69440a2159",
+                "version": "XPHB:364:https://5e.tools/variantrules.html#cover_xphb"
+              }
+            }
+          },
+          {
+            "label": "Prone (condition)",
+            "url": "https://5e.tools/conditionsdiseases.html#prone_xphb",
+            "local": {
+              "entry": "compendium-6bb47020835c218b46b7d85a",
+              "version": "XPHB:372:https://5e.tools/conditionsdiseases.html#prone_xphb"
+            },
+            "preview": {
+              "name": "Prone",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2024)",
+              "page": 372,
+              "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+              "local": {
+                "entry": "compendium-6bb47020835c218b46b7d85a",
+                "version": "XPHB:372:https://5e.tools/conditionsdiseases.html#prone_xphb"
+              }
+            }
+          },
+          {
+            "label": "Panther (creature)",
+            "url": "https://5e.tools/bestiary.html#panther_xmm",
+            "local": {
+              "entry": "beast-346793476af7c0a55cfa62ab",
+              "version": "b2bb83792ec748263d8b7b46"
+            },
+            "preview": {
+              "name": "Panther",
+              "group": "Beast",
+              "publication": "Monster Manual (2024)",
+              "description": "A Medium beast with challenge rating 1/4. Listed habitats: forest, grassland, hill. Named abilities include Rend, Nimble Escape.",
+              "local": {
+                "entry": "beast-346793476af7c0a55cfa62ab",
+                "version": "b2bb83792ec748263d8b7b46"
+              }
+            }
+          },
+          {
+            "label": "Giant Goat (creature)",
+            "url": "https://5e.tools/bestiary.html#giant%20goat_xmm",
+            "local": {
+              "entry": "beast-6f3ba88f8055270588c02a34",
+              "version": "426fa41934a075969d8d0faf"
+            },
+            "preview": {
+              "name": "Giant Goat",
+              "group": "Beast",
+              "publication": "Monster Manual (2024)",
+              "description": "A Large beast with challenge rating 1/2. Listed habitats: grassland, hill, mountain. Named abilities include Ram.",
+              "local": {
+                "entry": "beast-6f3ba88f8055270588c02a34",
+                "version": "426fa41934a075969d8d0faf"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Passive Perception": [
+            {
+              "start": 0,
+              "end": 18,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Alignment": [
+            {
+              "start": 0,
+              "end": 9,
+              "target": {
+                "name": "Alignment",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                }
+              }
+            }
+          ],
+          "Perception +2, Stealth +3": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2024)",
+                "page": 14,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "XPHB:14:https://5e.tools/skills.html#perception_xphb"
+                }
+              }
+            },
+            {
+              "start": 15,
+              "end": 22,
+              "target": {
+                "name": "Stealth",
+                "group": "Skills",
+                "publication": "Player's Handbook (2024)",
+                "page": 14,
+                "local": {
+                  "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                  "version": "XPHB:14:https://5e.tools/skills.html#stealth_xphb"
+                }
+              }
+            }
+          ],
+          "Darkvision 30 ft.": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2024)",
+                "page": 365,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "XPHB:365:https://5e.tools/senses.html#darkvision_xphb"
+                }
+              }
+            }
+          ],
+          "Standing Leap · up to 20 feet · up to 10 feet · Long Jump · High Jump": [
+            {
+              "start": 48,
+              "end": 57,
+              "target": {
+                "name": "Long Jump",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 370,
+                "local": {
+                  "entry": "compendium-99047da7e388f84829303e80",
+                  "version": "XPHB:370:https://5e.tools/variantrules.html#long%20jump_xphb"
+                }
+              }
+            },
+            {
+              "start": 60,
+              "end": 69,
+              "target": {
+                "name": "High Jump",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 368,
+                "local": {
+                  "entry": "compendium-b7f4a04e9f6ad6125098e26b",
+                  "version": "XPHB:368:https://5e.tools/variantrules.html#high%20jump_xphb"
+                }
+              }
+            }
+          ],
+          "Bite · Melee attack · +3 to hit · 1d6 + 2 piercing damage · Escape DC 11 · reach 5 ft. · Grappled": [
+            {
+              "start": 89,
+              "end": 97,
+              "target": {
+                "name": "Grappled",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2024)",
+                "page": 367,
+                "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+                "local": {
+                  "entry": "compendium-e9c29509e4a14efaf316630f",
+                  "version": "XPHB:367:https://5e.tools/conditionsdiseases.html#grappled_xphb"
+                }
+              }
+            }
+          ],
+          "Swallow · 2d4 acid damage · Grappled · Blinded · Restrained · Cover · Prone": [
+            {
+              "start": 28,
+              "end": 36,
+              "target": {
+                "name": "Grappled",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2024)",
+                "page": 367,
+                "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+                "local": {
+                  "entry": "compendium-e9c29509e4a14efaf316630f",
+                  "version": "XPHB:367:https://5e.tools/conditionsdiseases.html#grappled_xphb"
+                }
+              }
+            },
+            {
+              "start": 39,
+              "end": 46,
+              "target": {
+                "name": "Blinded",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2024)",
+                "page": 361,
+                "description": "You cannot see. Your attacks have disadvantage, and attacks against you have advantage.",
+                "local": {
+                  "entry": "compendium-f2fb8e3ec2661265562faf3f",
+                  "version": "XPHB:361:https://5e.tools/conditionsdiseases.html#blinded_xphb"
+                }
+              }
+            },
+            {
+              "start": 49,
+              "end": 59,
+              "target": {
+                "name": "Restrained",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2024)",
+                "page": 373,
+                "description": "Your speed is 0. Your attacks and Dexterity saves have disadvantage, and attacks against you have advantage.",
+                "local": {
+                  "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+                  "version": "XPHB:373:https://5e.tools/conditionsdiseases.html#restrained_xphb"
+                }
+              }
+            },
+            {
+              "start": 62,
+              "end": 67,
+              "target": {
+                "name": "Cover",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 364,
+                "local": {
+                  "entry": "compendium-b1ac93ec62c4bf69440a2159",
+                  "version": "XPHB:364:https://5e.tools/variantrules.html#cover_xphb"
+                }
+              }
+            },
+            {
+              "start": 70,
+              "end": 75,
+              "target": {
+                "name": "Prone",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+                "local": {
+                  "entry": "compendium-6bb47020835c218b46b7d85a",
+                  "version": "XPHB:372:https://5e.tools/conditionsdiseases.html#prone_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "7f2b0a15a86831a5a128ef0b",
+        "publication": "SRD 5.1",
+        "edition": "2014 fifth edition",
+        "status": "Stat block",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "11"
+          ],
+          [
+            "Hit points",
+            "18"
+          ],
+          [
+            "Hit dice",
+            "4d8"
+          ],
+          [
+            "Challenge",
+            "1/4"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "30 ft., swim 30 ft."
+          ],
+          [
+            "XP",
+            "50"
+          ],
+          [
+            "Str",
+            "12"
+          ],
+          [
+            "Dex",
+            "13"
+          ],
+          [
+            "Con",
+            "11"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "10"
+          ],
+          [
+            "Cha",
+            "3"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Classification",
+            "lines": [
+              "Medium beast, unaligned"
+            ]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Skills Perception +2, Stealth +3 Senses darkvision 30 ft., passive Perception 12 Languages —"
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Amphibious. The frog can breathe air and water. Standing Leap. The frog’s long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Bite. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage, and the target is grappled (escape DC 11). Until this grapple ends, the target is restrained, and the frog can’t bite another target. Swallow. The frog makes one bite attack against a Small or smaller target it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is blinded and restrained, it has total cover against attacks and other effects outside the frog, and it takes 5 (2d4) acid damage at the start of each of the frog’s turns. The frog can have only one target swallowed at a time. If the frog dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 feet of movement, exiting prone."
+            ]
+          }
+        ],
+        "inline": {
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Skills Perception +2, Stealth +3 Senses darkvision 30 ft., passive Perception 12 Languages —": [
+            {
+              "start": 7,
+              "end": 17,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            },
+            {
+              "start": 22,
+              "end": 29,
+              "target": {
+                "name": "Stealth",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 177,
+                "local": {
+                  "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                  "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+                }
+              }
+            },
+            {
+              "start": 40,
+              "end": 50,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2014)",
+                "page": 183,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+                }
+              }
+            },
+            {
+              "start": 67,
+              "end": 77,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            }
+          ],
+          "Bite. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage, and the target is grappled (escape DC 11). Until this grapple ends, the target is restrained, and the frog can’t bite another target. Swallow. The frog makes one bite attack against a Small or smaller target it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is blinded and restrained, it has total cover against attacks and other effects outside the frog, and it takes 5 (2d4) acid damage at the start of each of the frog’s turns. The frog can have only one target swallowed at a time. If the frog dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 feet of movement, exiting prone.": [
+            {
+              "start": 12,
+              "end": 25,
+              "target": {
+                "name": "Weapon Attack",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 377,
+                "local": {
+                  "entry": "compendium-f8978a5da2977fc5a556ab9c",
+                  "version": "XPHB:377:https://5e.tools/variantrules.html#weapon%20attack_xphb"
+                }
+              }
+            },
+            {
+              "start": 115,
+              "end": 123,
+              "target": {
+                "name": "Grappled",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 290,
+                "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+                "local": {
+                  "entry": "compendium-e9c29509e4a14efaf316630f",
+                  "version": "PHB:290:https://5e.tools/conditionsdiseases.html#grappled_phb"
+                }
+              }
+            },
+            {
+              "start": 179,
+              "end": 189,
+              "target": {
+                "name": "Restrained",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 292,
+                "description": "Your speed is 0. Your attacks and Dexterity saves have disadvantage, and attacks against you have advantage.",
+                "local": {
+                  "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+                  "version": "PHB:292:https://5e.tools/conditionsdiseases.html#restrained_phb"
+                }
+              }
+            },
+            {
+              "start": 413,
+              "end": 420,
+              "target": {
+                "name": "Blinded",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 290,
+                "description": "You cannot see. Your attacks have disadvantage, and attacks against you have advantage.",
+                "local": {
+                  "entry": "compendium-f2fb8e3ec2661265562faf3f",
+                  "version": "PHB:290:https://5e.tools/conditionsdiseases.html#blinded_phb"
+                }
+              }
+            },
+            {
+              "start": 425,
+              "end": 435,
+              "target": {
+                "name": "Restrained",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 292,
+                "description": "Your speed is 0. Your attacks and Dexterity saves have disadvantage, and attacks against you have advantage.",
+                "local": {
+                  "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+                  "version": "PHB:292:https://5e.tools/conditionsdiseases.html#restrained_phb"
+                }
+              }
+            },
+            {
+              "start": 690,
+              "end": 700,
+              "target": {
+                "name": "Restrained",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 292,
+                "description": "Your speed is 0. Your attacks and Dexterity saves have disadvantage, and attacks against you have advantage.",
+                "local": {
+                  "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+                  "version": "PHB:292:https://5e.tools/conditionsdiseases.html#restrained_phb"
+                }
+              }
+            },
+            {
+              "start": 772,
+              "end": 777,
+              "target": {
+                "name": "Prone",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 292,
+                "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+                "local": {
+                  "entry": "compendium-6bb47020835c218b46b7d85a",
+                  "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "a3be3e299d70c1183a6eb61c",
+        "publication": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Stat block",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "11"
+          ],
+          [
+            "Hit points",
+            "18"
+          ],
+          [
+            "Hit dice",
+            "4d8"
+          ],
+          [
+            "Challenge",
+            "1/4"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "30 ft., Swim 30 ft."
+          ],
+          [
+            "XP",
+            "50"
+          ],
+          [
+            "Str",
+            "12"
+          ],
+          [
+            "Dex",
+            "13"
+          ],
+          [
+            "Con",
+            "11"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "10"
+          ],
+          [
+            "Cha",
+            "3"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Classification",
+            "lines": [
+              "Medium Beast, Unaligned"
+            ]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Skills Perception +2, Stealth +4 Senses Darkvision 30 ft.; Passive Perception 12 Languages None"
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Amphibious. The frog can breathe air and water. Standing Leap. The frog’s Long Jump is up to 20 feet and its High Jump is up to 10 feet with or without a running start."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Bite. Melee Attack Roll: +3, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 11). Swallow. The frog swallows a Small or smaller target it is grappling. While swallowed, the target isn’t Grappled but has the Blinded and Restrained conditions, and it has Total Cover against attacks and other effects outside the frog. While swallowing the target, the frog can’t use Bite, and if the frog dies, the swallowed target is no longer Restrained and can escape from the corpse using 5 feet of movement, exiting with the Prone condition. At the end of the frog’s next turn, the swallowed target takes 5 (2d4) Acid damage. If that damage doesn’t kill it, the frog disgorges it, causing it to exit Prone."
+            ]
+          }
+        ],
+        "inline": {
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Skills Perception +2, Stealth +4 Senses Darkvision 30 ft.; Passive Perception 12 Languages None": [
+            {
+              "start": 7,
+              "end": 17,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2024)",
+                "page": 14,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "XPHB:14:https://5e.tools/skills.html#perception_xphb"
+                }
+              }
+            },
+            {
+              "start": 22,
+              "end": 29,
+              "target": {
+                "name": "Stealth",
+                "group": "Skills",
+                "publication": "Player's Handbook (2024)",
+                "page": 14,
+                "local": {
+                  "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                  "version": "XPHB:14:https://5e.tools/skills.html#stealth_xphb"
+                }
+              }
+            },
+            {
+              "start": 40,
+              "end": 50,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2024)",
+                "page": 365,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "XPHB:365:https://5e.tools/senses.html#darkvision_xphb"
+                }
+              }
+            },
+            {
+              "start": 59,
+              "end": 77,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Amphibious. The frog can breathe air and water. Standing Leap. The frog’s Long Jump is up to 20 feet and its High Jump is up to 10 feet with or without a running start.": [
+            {
+              "start": 74,
+              "end": 83,
+              "target": {
+                "name": "Long Jump",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 370,
+                "local": {
+                  "entry": "compendium-99047da7e388f84829303e80",
+                  "version": "XPHB:370:https://5e.tools/variantrules.html#long%20jump_xphb"
+                }
+              }
+            },
+            {
+              "start": 109,
+              "end": 118,
+              "target": {
+                "name": "High Jump",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 368,
+                "local": {
+                  "entry": "compendium-b7f4a04e9f6ad6125098e26b",
+                  "version": "XPHB:368:https://5e.tools/variantrules.html#high%20jump_xphb"
+                }
+              }
+            }
+          ],
+          "Bite. Melee Attack Roll: +3, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 11). Swallow. The frog swallows a Small or smaller target it is grappling. While swallowed, the target isn’t Grappled but has the Blinded and Restrained conditions, and it has Total Cover against attacks and other effects outside the frog. While swallowing the target, the frog can’t use Bite, and if the frog dies, the swallowed target is no longer Restrained and can escape from the corpse using 5 feet of movement, exiting with the Prone condition. At the end of the frog’s next turn, the swallowed target takes 5 (2d4) Acid damage. If that damage doesn’t kill it, the frog disgorges it, causing it to exit Prone.": [
+            {
+              "start": 12,
+              "end": 23,
+              "target": {
+                "name": "Attack Roll",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 361,
+                "local": {
+                  "entry": "compendium-2570a567c24ef3f4b5e35b50",
+                  "version": "XPHB:361:https://5e.tools/variantrules.html#attack%20roll_xphb"
+                }
+              }
+            },
+            {
+              "start": 133,
+              "end": 141,
+              "target": {
+                "name": "Grappled",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2024)",
+                "page": 367,
+                "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+                "local": {
+                  "entry": "compendium-e9c29509e4a14efaf316630f",
+                  "version": "XPHB:367:https://5e.tools/conditionsdiseases.html#grappled_xphb"
+                }
+              }
+            },
+            {
+              "start": 272,
+              "end": 280,
+              "target": {
+                "name": "Grappled",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2024)",
+                "page": 367,
+                "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+                "local": {
+                  "entry": "compendium-e9c29509e4a14efaf316630f",
+                  "version": "XPHB:367:https://5e.tools/conditionsdiseases.html#grappled_xphb"
+                }
+              }
+            },
+            {
+              "start": 293,
+              "end": 300,
+              "target": {
+                "name": "Blinded",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2024)",
+                "page": 361,
+                "description": "You cannot see. Your attacks have disadvantage, and attacks against you have advantage.",
+                "local": {
+                  "entry": "compendium-f2fb8e3ec2661265562faf3f",
+                  "version": "XPHB:361:https://5e.tools/conditionsdiseases.html#blinded_xphb"
+                }
+              }
+            },
+            {
+              "start": 305,
+              "end": 315,
+              "target": {
+                "name": "Restrained",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2024)",
+                "page": 373,
+                "description": "Your speed is 0. Your attacks and Dexterity saves have disadvantage, and attacks against you have advantage.",
+                "local": {
+                  "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+                  "version": "XPHB:373:https://5e.tools/conditionsdiseases.html#restrained_xphb"
+                }
+              }
+            },
+            {
+              "start": 345,
+              "end": 350,
+              "target": {
+                "name": "Cover",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 364,
+                "local": {
+                  "entry": "compendium-b1ac93ec62c4bf69440a2159",
+                  "version": "XPHB:364:https://5e.tools/variantrules.html#cover_xphb"
+                }
+              }
+            },
+            {
+              "start": 513,
+              "end": 523,
+              "target": {
+                "name": "Restrained",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2024)",
+                "page": 373,
+                "description": "Your speed is 0. Your attacks and Dexterity saves have disadvantage, and attacks against you have advantage.",
+                "local": {
+                  "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+                  "version": "XPHB:373:https://5e.tools/conditionsdiseases.html#restrained_xphb"
+                }
+              }
+            },
+            {
+              "start": 598,
+              "end": 603,
+              "target": {
+                "name": "Prone",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+                "local": {
+                  "entry": "compendium-6bb47020835c218b46b7d85a",
+                  "version": "XPHB:372:https://5e.tools/conditionsdiseases.html#prone_xphb"
+                }
+              }
+            },
+            {
+              "start": 773,
+              "end": 778,
+              "target": {
+                "name": "Prone",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+                "local": {
+                  "entry": "compendium-6bb47020835c218b46b7d85a",
+                  "version": "XPHB:372:https://5e.tools/conditionsdiseases.html#prone_xphb"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "queries": {
+      "Giant Frog": true,
+      "giant frog sticky tongue raft": true
+    },
+    "hash": "73e5b1c7e40bc80a74d9b9329244661d12212598a5d114a11ac2e0b13449d453",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [
+      {
+        "url": "",
+        "credit": "Monster Manual (2014)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      }
+    ]
+  },
+  {
+    "name": "Giant Bat",
+    "version": {
+      "key": "2258ecc36119a1c1d623418e",
+      "publication": "Night of the Walking Dead",
+      "edition": "AD&D 2nd edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "8"
+        ],
+        [
+          "Hit points",
+          "1d4"
+        ],
+        [
+          "Type",
+          "Animal"
+        ],
+        [
+          "Movement",
+          "3/18"
+        ],
+        [
+          "THAC0",
+          "20"
+        ],
+        [
+          "Attacks per round",
+          "1"
+        ],
+        [
+          "Damage per attack",
+          "1–2"
+        ],
+        [
+          "XP",
+          "35"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Decrepit Mausoleum"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A large bat with broad leathery wings."
+          ]
+        },
+        {
+          "title": "Special defenses mechanics",
+          "lines": [
+            "Airborne target · Missile attacks against a giant bat take a −3 penalty while it is flying."
+          ]
+        },
+        {
+          "title": "Encounters mechanics",
+          "lines": [
+            "Decrepit Mausoleum · Disturbing this tomb provokes 1d6 Giant Bats. Roll 1d4 HP for each bat."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "The print lists no Hit Dice, special attacks, or alignment. XP 35 per bat.",
+            "Bill Slavicsek, Night of the Walking Dead (TSR, 1992 print), Part III, Lair of the Zombie Lord: 4. Decrepit Mausoleum, p. 30."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [
+      {
+        "key": "5296560c47766dd0c94dccc4",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "status": "Combat summary",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "13"
+          ],
+          [
+            "Hit points",
+            "22"
+          ],
+          [
+            "Hit dice",
+            "4d10"
+          ],
+          [
+            "Challenge",
+            "1/4"
+          ],
+          [
+            "Size",
+            "Large"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 10 ft., fly 60 ft."
+          ],
+          [
+            "Str",
+            "15"
+          ],
+          [
+            "Dex",
+            "16"
+          ],
+          [
+            "Con",
+            "11"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "12"
+          ],
+          [
+            "Cha",
+            "6"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +4 to hit · reach 5 ft. · 1d6 + 2 piercing"
+            ]
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "c755671cb11e0d21919ee67c",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "edition": "Black Flag Roleplaying",
+        "images": [],
+        "stats": [
+          [
+            "Challenge",
+            "1/4"
+          ],
+          [
+            "Type",
+            "Beast"
+          ]
+        ],
+        "sections": []
+      },
+      {
+        "key": "bc36efba3faa50b8fd00aa1e",
+        "publication": "DDAL04-01 - The Suits of the Mists",
+        "edition": "2014 fifth edition",
+        "status": "Combat summary",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "13"
+          ],
+          [
+            "Hit points",
+            "22"
+          ],
+          [
+            "Hit dice",
+            "4d10"
+          ],
+          [
+            "Challenge",
+            "1/4"
+          ],
+          [
+            "Size",
+            "Large"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 10 ft., fly 60 ft."
+          ],
+          [
+            "Str",
+            "15"
+          ],
+          [
+            "Dex",
+            "16"
+          ],
+          [
+            "Con",
+            "11"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "12"
+          ],
+          [
+            "Cha",
+            "6"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +4 to hit · reach 5 ft. · 1d6 + 2 piercing"
+            ]
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "374d08112becbf5d8dae7c70",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "description": "A Large beast with challenge rating 1/4. Listed habitats: underdark, forest. Named abilities include Echolocation, Keen Hearing, Bite.",
+        "source": "https://5e.tools/bestiary.html#giant%20bat_mm",
+        "status": "Encounter reference",
+        "images": [
+          {
+            "url": "",
+            "credit": "Monster Manual (2014)"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "13"
+          ],
+          [
+            "Hit points",
+            "22"
+          ],
+          [
+            "Hit dice",
+            "4d10"
+          ],
+          [
+            "Challenge",
+            "1/4"
+          ],
+          [
+            "Size",
+            "Large"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 10 ft., fly 60 ft."
+          ],
+          [
+            "Passive Perception",
+            "11"
+          ],
+          [
+            "Initiative",
+            "3"
+          ],
+          [
+            "Strength",
+            "15"
+          ],
+          [
+            "Dexterity",
+            "16"
+          ],
+          [
+            "Constitution",
+            "11"
+          ],
+          [
+            "Intelligence",
+            "2"
+          ],
+          [
+            "Wisdom",
+            "12"
+          ],
+          [
+            "Charisma",
+            "6"
+          ],
+          [
+            "Alignment",
+            "unaligned"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +4 to hit · reach 5 ft. · 1d6 + 2 piercing"
+            ]
+          },
+          {
+            "title": "Senses",
+            "lines": [
+              "blindsight 60 ft."
+            ]
+          },
+          {
+            "title": "Habitats",
+            "lines": [
+              "underdark, forest"
+            ]
+          },
+          {
+            "title": "Traits reference",
+            "lines": [
+              "Echolocation · Deafened",
+              "Keen Hearing · Perception"
+            ]
+          },
+          {
+            "title": "Actions reference",
+            "lines": [
+              "Bite · Melee attack · +4 to hit · 1d6 + 2 piercing damage · reach 5 ft."
+            ]
+          }
+        ],
+        "sourceCode": "MM",
+        "page": 323,
+        "references": [
+          {
+            "label": "Monster Manual (2014), p. 323",
+            "url": "https://5e.tools/bestiary.html#giant%20bat_mm"
+          },
+          {
+            "label": "Deafened (condition)",
+            "url": "https://5e.tools/conditionsdiseases.html#deafened_phb",
+            "local": {
+              "entry": "compendium-dd0a68f141cbd4b5707f1be2",
+              "version": "PHB:290:https://5e.tools/conditionsdiseases.html#deafened_phb"
+            },
+            "preview": {
+              "name": "Deafened",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "You cannot hear and automatically fail checks that require hearing.",
+              "local": {
+                "entry": "compendium-dd0a68f141cbd4b5707f1be2",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#deafened_phb"
+              }
+            }
+          },
+          {
+            "label": "Perception (skill)",
+            "url": "https://5e.tools/skills.html#perception_phb",
+            "local": {
+              "entry": "compendium-f21bfeaccf140efabf3793fe",
+              "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+            },
+            "preview": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Passive Perception": [
+            {
+              "start": 0,
+              "end": 18,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Initiative": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Initiative",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 369,
+                "local": {
+                  "entry": "compendium-f7647d543d6e04bd0782c504",
+                  "version": "XPHB:369:https://5e.tools/variantrules.html#initiative_xphb"
+                }
+              }
+            }
+          ],
+          "Alignment": [
+            {
+              "start": 0,
+              "end": 9,
+              "target": {
+                "name": "Alignment",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                }
+              }
+            }
+          ],
+          "blindsight 60 ft.": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Blindsight",
+                "group": "Senses",
+                "publication": "Player's Handbook (2014)",
+                "page": 183,
+                "local": {
+                  "entry": "compendium-07dd97e41872842acf1183db",
+                  "version": "PHB:183:https://5e.tools/senses.html#blindsight_phb"
+                }
+              }
+            }
+          ],
+          "Echolocation · Deafened": [
+            {
+              "start": 15,
+              "end": 23,
+              "target": {
+                "name": "Deafened",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 290,
+                "description": "You cannot hear and automatically fail checks that require hearing.",
+                "local": {
+                  "entry": "compendium-dd0a68f141cbd4b5707f1be2",
+                  "version": "PHB:290:https://5e.tools/conditionsdiseases.html#deafened_phb"
+                }
+              }
+            }
+          ],
+          "Keen Hearing · Perception": [
+            {
+              "start": 15,
+              "end": 25,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "6f7379027c68c45baabc9cab",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "description": "A Large beast with challenge rating 1/4. Listed habitats: forest, mountain, underdark. Named abilities include Bite.",
+        "source": "https://5e.tools/bestiary.html#giant%20bat_xmm",
+        "artwork": "https://www.dndbeyond.com/avatars/thumbnails/47138/848/1000/1000/638741964095504539.png",
+        "status": "Encounter reference",
+        "images": [
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "13"
+          ],
+          [
+            "Hit points",
+            "22"
+          ],
+          [
+            "Hit dice",
+            "4d10"
+          ],
+          [
+            "Challenge",
+            "1/4"
+          ],
+          [
+            "Size",
+            "Large"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 10 ft., fly 60 ft."
+          ],
+          [
+            "Passive Perception",
+            "11"
+          ],
+          [
+            "Strength",
+            "15"
+          ],
+          [
+            "Dexterity",
+            "16"
+          ],
+          [
+            "Constitution",
+            "11"
+          ],
+          [
+            "Intelligence",
+            "2"
+          ],
+          [
+            "Wisdom",
+            "12"
+          ],
+          [
+            "Charisma",
+            "6"
+          ],
+          [
+            "Alignment",
+            "unaligned"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Habitats",
+            "lines": [
+              "forest",
+              "mountain",
+              "underdark",
+              "forest, mountain, underdark"
+            ]
+          },
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +5 to hit · reach 5 ft. · 1d6 + 3 piercing"
+            ]
+          },
+          {
+            "title": "Senses",
+            "lines": [
+              "Blindsight 120 ft."
+            ]
+          },
+          {
+            "title": "Actions reference",
+            "lines": [
+              "Bite · Melee attack · +5 to hit · 1d6 + 3 piercing damage · reach 5 ft."
+            ]
+          },
+          {
+            "title": "Lore topics in the source",
+            "lines": [
+              "Animals"
+            ]
+          }
+        ],
+        "sourceCode": "XMM",
+        "references": [
+          {
+            "label": "Monster Manual (2025), p. 355",
+            "url": "https://5e.tools/bestiary.html#giant%20bat_xmm"
+          },
+          {
+            "label": "Panther (creature)",
+            "url": "https://5e.tools/bestiary.html#panther_xmm",
+            "local": {
+              "entry": "beast-346793476af7c0a55cfa62ab",
+              "version": "b2bb83792ec748263d8b7b46"
+            },
+            "preview": {
+              "name": "Panther",
+              "group": "Beast",
+              "publication": "Monster Manual (2024)",
+              "description": "A Medium beast with challenge rating 1/4. Listed habitats: forest, grassland, hill. Named abilities include Rend, Nimble Escape.",
+              "local": {
+                "entry": "beast-346793476af7c0a55cfa62ab",
+                "version": "b2bb83792ec748263d8b7b46"
+              }
+            }
+          },
+          {
+            "label": "Giant Goat (creature)",
+            "url": "https://5e.tools/bestiary.html#giant%20goat_xmm",
+            "local": {
+              "entry": "beast-6f3ba88f8055270588c02a34",
+              "version": "426fa41934a075969d8d0faf"
+            },
+            "preview": {
+              "name": "Giant Goat",
+              "group": "Beast",
+              "publication": "Monster Manual (2024)",
+              "description": "A Large beast with challenge rating 1/2. Listed habitats: grassland, hill, mountain. Named abilities include Ram.",
+              "local": {
+                "entry": "beast-6f3ba88f8055270588c02a34",
+                "version": "426fa41934a075969d8d0faf"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Passive Perception": [
+            {
+              "start": 0,
+              "end": 18,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Alignment": [
+            {
+              "start": 0,
+              "end": 9,
+              "target": {
+                "name": "Alignment",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                }
+              }
+            }
+          ],
+          "Blindsight 120 ft.": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Blindsight",
+                "group": "Senses",
+                "publication": "Player's Handbook (2024)",
+                "page": 361,
+                "local": {
+                  "entry": "compendium-07dd97e41872842acf1183db",
+                  "version": "XPHB:361:https://5e.tools/senses.html#blindsight_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "b3e24cacec4e39843e125744",
+        "publication": "SRD 5.1",
+        "edition": "2014 fifth edition",
+        "status": "Stat block",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "13"
+          ],
+          [
+            "Hit points",
+            "22"
+          ],
+          [
+            "Hit dice",
+            "4d10"
+          ],
+          [
+            "Challenge",
+            "1/4"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "10 ft., fly 60 ft."
+          ],
+          [
+            "XP",
+            "50"
+          ],
+          [
+            "Str",
+            "15"
+          ],
+          [
+            "Dex",
+            "16"
+          ],
+          [
+            "Con",
+            "11"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "12"
+          ],
+          [
+            "Cha",
+            "6"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Classification",
+            "lines": [
+              "Large beast, unaligned"
+            ]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Senses blindsight 60 ft., passive Perception 11 Languages —"
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Echolocation. The bat can’t use its blindsight while deafened. Keen Hearing. The bat has advantage on Wisdom (Perception) checks that rely on hearing."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) piercing damage."
+            ]
+          }
+        ],
+        "inline": {
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Senses blindsight 60 ft., passive Perception 11 Languages —": [
+            {
+              "start": 7,
+              "end": 17,
+              "target": {
+                "name": "Blindsight",
+                "group": "Senses",
+                "publication": "Player's Handbook (2014)",
+                "page": 183,
+                "local": {
+                  "entry": "compendium-07dd97e41872842acf1183db",
+                  "version": "PHB:183:https://5e.tools/senses.html#blindsight_phb"
+                }
+              }
+            },
+            {
+              "start": 34,
+              "end": 44,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            }
+          ],
+          "Echolocation. The bat can’t use its blindsight while deafened. Keen Hearing. The bat has advantage on Wisdom (Perception) checks that rely on hearing.": [
+            {
+              "start": 36,
+              "end": 46,
+              "target": {
+                "name": "Blindsight",
+                "group": "Senses",
+                "publication": "Player's Handbook (2014)",
+                "page": 183,
+                "local": {
+                  "entry": "compendium-07dd97e41872842acf1183db",
+                  "version": "PHB:183:https://5e.tools/senses.html#blindsight_phb"
+                }
+              }
+            },
+            {
+              "start": 53,
+              "end": 61,
+              "target": {
+                "name": "Deafened",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 290,
+                "description": "You cannot hear and automatically fail checks that require hearing.",
+                "local": {
+                  "entry": "compendium-dd0a68f141cbd4b5707f1be2",
+                  "version": "PHB:290:https://5e.tools/conditionsdiseases.html#deafened_phb"
+                }
+              }
+            },
+            {
+              "start": 89,
+              "end": 98,
+              "target": {
+                "name": "Advantage",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2014)",
+                "page": 173,
+                "description": "Roll two d20s and use the higher roll.",
+                "local": {
+                  "entry": "compendium-694118169b5a4aef2291ff71",
+                  "version": "PHB:173:https://5e.tools/book.html#PHB"
+                }
+              }
+            },
+            {
+              "start": 110,
+              "end": 120,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            }
+          ],
+          "Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) piercing damage.": [
+            {
+              "start": 12,
+              "end": 25,
+              "target": {
+                "name": "Weapon Attack",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 377,
+                "local": {
+                  "entry": "compendium-f8978a5da2977fc5a556ab9c",
+                  "version": "XPHB:377:https://5e.tools/variantrules.html#weapon%20attack_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "62891d5bb6f073ad5aa05f5b",
+        "publication": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Stat block",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "13"
+          ],
+          [
+            "Hit points",
+            "22"
+          ],
+          [
+            "Hit dice",
+            "4d10"
+          ],
+          [
+            "Challenge",
+            "1/4"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "10 ft., Fly 60 ft."
+          ],
+          [
+            "XP",
+            "50"
+          ],
+          [
+            "Str",
+            "15"
+          ],
+          [
+            "Dex",
+            "16"
+          ],
+          [
+            "Con",
+            "11"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "12"
+          ],
+          [
+            "Cha",
+            "6"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Classification",
+            "lines": [
+              "Large Beast, Unaligned"
+            ]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Senses Blindsight 120 ft.; Passive Perception 11 Languages None"
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Bite. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Piercing damage."
+            ]
+          }
+        ],
+        "inline": {
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "10 ft., Fly 60 ft.": [
+            {
+              "start": 8,
+              "end": 11,
+              "target": {
+                "name": "Fly",
+                "group": "Spells",
+                "publication": "Player's Handbook (2024)",
+                "page": 276,
+                "description": "Give a touched creature a flying speed. The creature can fall if the spell ends while it is still airborne.",
+                "local": {
+                  "entry": "compendium-14893abe6a0bf9567ccdd94f",
+                  "version": "XPHB:276:https://5e.tools/spells.html#fly_xphb"
+                }
+              }
+            }
+          ],
+          "Senses Blindsight 120 ft.; Passive Perception 11 Languages None": [
+            {
+              "start": 7,
+              "end": 17,
+              "target": {
+                "name": "Blindsight",
+                "group": "Senses",
+                "publication": "Player's Handbook (2024)",
+                "page": 361,
+                "local": {
+                  "entry": "compendium-07dd97e41872842acf1183db",
+                  "version": "XPHB:361:https://5e.tools/senses.html#blindsight_xphb"
+                }
+              }
+            },
+            {
+              "start": 27,
+              "end": 45,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Bite. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Piercing damage.": [
+            {
+              "start": 12,
+              "end": 23,
+              "target": {
+                "name": "Attack Roll",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 361,
+                "local": {
+                  "entry": "compendium-2570a567c24ef3f4b5e35b50",
+                  "version": "XPHB:361:https://5e.tools/variantrules.html#attack%20roll_xphb"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "queries": {
+      "Giant Bat": true,
+      "giant bat decrepit mausoleum missile attacks": true
+    },
+    "hash": "b642f3766b8d50778042fdc87e85e8bddc16fbad293e506f05c005f6f91a982a",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [
+      {
+        "url": "",
+        "credit": "Monster Manual (2014)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      }
+    ]
+  },
+  {
+    "name": "Giant Rat",
+    "version": {
+      "key": "36bda090954a356449fb30fd",
+      "publication": "Night of the Walking Dead",
+      "edition": "AD&D 2nd edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "7"
+        ],
+        [
+          "Hit points",
+          "1d4"
+        ],
+        [
+          "Type",
+          "Animal"
+        ],
+        [
+          "Movement",
+          "12/6"
+        ],
+        [
+          "THAC0",
+          "20"
+        ],
+        [
+          "Attacks per round",
+          "1"
+        ],
+        [
+          "Damage per attack",
+          "1–3"
+        ],
+        [
+          "XP",
+          "15"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Tomb of Rats"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A giant rat that lives in the mausoleum vaults."
+          ]
+        },
+        {
+          "title": "Special attacks mechanics",
+          "lines": [
+            "Disease · The printed encounter names disease as a special attack and gives no procedure for it."
+          ]
+        },
+        {
+          "title": "Encounters mechanics",
+          "lines": [
+            "Tomb of Rats · When the party enters the tomb, 3d6 rats leap from open vaults and attack. Roll 1d4 HP for each rat."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "Neutral evil. The print lists no Hit Dice or special defenses. XP 15 per rat.",
+            "Bill Slavicsek, Night of the Walking Dead (TSR, 1992 print), Part III, Lair of the Zombie Lord: 6. Tomb of Rats, p. 30."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [
+      {
+        "key": "d2934072fd0abd17891c920f",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "status": "Combat summary",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "12"
+          ],
+          [
+            "Hit points",
+            "7"
+          ],
+          [
+            "Hit dice",
+            "2d6"
+          ],
+          [
+            "Challenge",
+            "1/8"
+          ],
+          [
+            "Size",
+            "Small"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 30 ft."
+          ],
+          [
+            "Str",
+            "7"
+          ],
+          [
+            "Dex",
+            "15"
+          ],
+          [
+            "Con",
+            "11"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "10"
+          ],
+          [
+            "Cha",
+            "4"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +4 to hit · reach 5 ft. · 1d4 + 2 piercing"
+            ]
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "1fe4a8afad1cfd7b91fb6c98",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "edition": "Black Flag Roleplaying",
+        "images": [],
+        "stats": [
+          [
+            "Challenge",
+            "1/4"
+          ],
+          [
+            "Type",
+            "Beast"
+          ]
+        ],
+        "sections": []
+      },
+      {
+        "key": "7c20d2fdd4d90167a0f499a6",
+        "publication": "DDEX3-06 - No Foolish Matter",
+        "edition": "2014 fifth edition",
+        "status": "Combat summary",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "12"
+          ],
+          [
+            "Hit points",
+            "7"
+          ],
+          [
+            "Hit dice",
+            "2d6"
+          ],
+          [
+            "Challenge",
+            "1/8"
+          ],
+          [
+            "Size",
+            "Small"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 30 ft."
+          ],
+          [
+            "Str",
+            "7"
+          ],
+          [
+            "Dex",
+            "15"
+          ],
+          [
+            "Con",
+            "11"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "10"
+          ],
+          [
+            "Cha",
+            "4"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +4 to hit · reach 5 ft. · 1d4 + 2 piercing"
+            ]
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "c5bda07ce37d2b5cad9f1ca1",
+        "publication": "Keep on the Shadowfell (2009 revision)",
+        "edition": "4th edition",
+        "status": "Combat summary",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "15"
+          ],
+          [
+            "Hit points",
+            "1"
+          ],
+          [
+            "Challenge",
+            "Level 1 Minion (25 XP)"
+          ],
+          [
+            "Type",
+            "Natural beast"
+          ],
+          [
+            "Speed",
+            "0 6 ft., 1 , ft., 2   ft., 3 c ft., 4 l ft., 5 i ft., 6 m ft., 7 b ft., 8   ft., 9 3 ft."
+          ],
+          [
+            "Initiative",
+            "3"
+          ],
+          [
+            "Level",
+            "1"
+          ],
+          [
+            "Role",
+            "Minion"
+          ],
+          [
+            "Fortitude",
+            "13"
+          ],
+          [
+            "Reflex",
+            "15"
+          ],
+          [
+            "Will",
+            "12"
+          ],
+          [
+            "XP",
+            "25"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Powers",
+            "lines": [
+              "Bite · standard; at-will · +6 vs. AC · 3"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "2808cd669c969e6a7f8a26cd",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "description": "A Small beast with challenge rating 1/8. Listed habitats: underdark, forest, swamp, urban. Named abilities include Keen Smell, Pack Tactics, Bite.",
+        "source": "https://5e.tools/bestiary.html#giant%20rat_mm",
+        "artwork": "https://www.dndbeyond.com/avatars/thumbnails/16/538/1000/1000/636376332197953299.jpeg",
+        "status": "Encounter reference",
+        "images": [
+          {
+            "url": "",
+            "credit": "Monster Manual (2014)"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "12"
+          ],
+          [
+            "Hit points",
+            "7"
+          ],
+          [
+            "Hit dice",
+            "2d6"
+          ],
+          [
+            "Challenge",
+            "1/8"
+          ],
+          [
+            "Size",
+            "Small"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 30 ft."
+          ],
+          [
+            "Passive Perception",
+            "10"
+          ],
+          [
+            "Initiative",
+            "2"
+          ],
+          [
+            "Strength",
+            "7"
+          ],
+          [
+            "Dexterity",
+            "15"
+          ],
+          [
+            "Constitution",
+            "11"
+          ],
+          [
+            "Intelligence",
+            "2"
+          ],
+          [
+            "Wisdom",
+            "10"
+          ],
+          [
+            "Charisma",
+            "4"
+          ],
+          [
+            "Alignment",
+            "unaligned"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +4 to hit · reach 5 ft. · 1d4 + 2 piercing"
+            ]
+          },
+          {
+            "title": "Table notes",
+            "lines": [
+              "Pack Tactics gives it advantage to attack when a non-incapacitated ally is within 5 feet of the target. It has advantage on smell-based Perception."
+            ]
+          },
+          {
+            "title": "Senses",
+            "lines": [
+              "darkvision 60 ft."
+            ]
+          },
+          {
+            "title": "Habitats",
+            "lines": [
+              "underdark, forest, swamp, urban"
+            ]
+          },
+          {
+            "title": "Traits reference",
+            "lines": [
+              "Keen Smell · Perception",
+              "Pack Tactics · within 5 feet · Incapacitated"
+            ]
+          },
+          {
+            "title": "Actions reference",
+            "lines": [
+              "Bite · Melee attack · +4 to hit · 1d4 + 2 piercing damage · reach 5 ft."
+            ]
+          }
+        ],
+        "sourceCode": "MM",
+        "page": 327,
+        "references": [
+          {
+            "label": "Monster Manual (2014), p. 327",
+            "url": "https://5e.tools/bestiary.html#giant%20rat_mm"
+          },
+          {
+            "label": "Perception (skill)",
+            "url": "https://5e.tools/skills.html#perception_phb",
+            "local": {
+              "entry": "compendium-f21bfeaccf140efabf3793fe",
+              "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+            },
+            "preview": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          },
+          {
+            "label": "Incapacitated (condition)",
+            "url": "https://5e.tools/conditionsdiseases.html#incapacitated_phb",
+            "local": {
+              "entry": "compendium-b982916d13c7b1a5bf750c36",
+              "version": "PHB:290:https://5e.tools/conditionsdiseases.html#incapacitated_phb"
+            },
+            "preview": {
+              "name": "Incapacitated",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "You cannot take actions or reactions.",
+              "local": {
+                "entry": "compendium-b982916d13c7b1a5bf750c36",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#incapacitated_phb"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Passive Perception": [
+            {
+              "start": 0,
+              "end": 18,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Initiative": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Initiative",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 369,
+                "local": {
+                  "entry": "compendium-f7647d543d6e04bd0782c504",
+                  "version": "XPHB:369:https://5e.tools/variantrules.html#initiative_xphb"
+                }
+              }
+            }
+          ],
+          "Alignment": [
+            {
+              "start": 0,
+              "end": 9,
+              "target": {
+                "name": "Alignment",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                }
+              }
+            }
+          ],
+          "Pack Tactics gives it advantage to attack when a non-incapacitated ally is within 5 feet of the target. It has advantage on smell-based Perception.": [
+            {
+              "start": 22,
+              "end": 31,
+              "target": {
+                "name": "Advantage",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2014)",
+                "page": 173,
+                "description": "Roll two d20s and use the higher roll.",
+                "local": {
+                  "entry": "compendium-694118169b5a4aef2291ff71",
+                  "version": "PHB:173:https://5e.tools/book.html#PHB"
+                }
+              }
+            },
+            {
+              "start": 53,
+              "end": 66,
+              "target": {
+                "name": "Incapacitated",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 290,
+                "description": "You cannot take actions or reactions.",
+                "local": {
+                  "entry": "compendium-b982916d13c7b1a5bf750c36",
+                  "version": "PHB:290:https://5e.tools/conditionsdiseases.html#incapacitated_phb"
+                }
+              }
+            },
+            {
+              "start": 111,
+              "end": 120,
+              "target": {
+                "name": "Advantage",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2014)",
+                "page": 173,
+                "description": "Roll two d20s and use the higher roll.",
+                "local": {
+                  "entry": "compendium-694118169b5a4aef2291ff71",
+                  "version": "PHB:173:https://5e.tools/book.html#PHB"
+                }
+              }
+            },
+            {
+              "start": 136,
+              "end": 146,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            }
+          ],
+          "darkvision 60 ft.": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2014)",
+                "page": 183,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+                }
+              }
+            }
+          ],
+          "Keen Smell · Perception": [
+            {
+              "start": 13,
+              "end": 23,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            }
+          ],
+          "Pack Tactics · within 5 feet · Incapacitated": [
+            {
+              "start": 31,
+              "end": 44,
+              "target": {
+                "name": "Incapacitated",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 290,
+                "description": "You cannot take actions or reactions.",
+                "local": {
+                  "entry": "compendium-b982916d13c7b1a5bf750c36",
+                  "version": "PHB:290:https://5e.tools/conditionsdiseases.html#incapacitated_phb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "d39c9a6b7d3e8c2c277e58c0",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "description": "A Small beast with challenge rating 1/8. Listed habitats: forest, swamp, underdark, urban. Named abilities include Pack Tactics, Bite.",
+        "source": "https://5e.tools/bestiary.html#giant%20rat_xmm",
+        "artwork": "https://www.dndbeyond.com/avatars/thumbnails/47138/876/1000/1000/638741964133713313.png",
+        "status": "Encounter reference",
+        "images": [
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "13"
+          ],
+          [
+            "Hit points",
+            "7"
+          ],
+          [
+            "Hit dice",
+            "2d6"
+          ],
+          [
+            "Challenge",
+            "1/8"
+          ],
+          [
+            "Size",
+            "Small"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 30 ft., climb 30 ft."
+          ],
+          [
+            "Passive Perception",
+            "12"
+          ],
+          [
+            "Strength",
+            "7"
+          ],
+          [
+            "Dexterity",
+            "16"
+          ],
+          [
+            "Constitution",
+            "11"
+          ],
+          [
+            "Intelligence",
+            "2"
+          ],
+          [
+            "Wisdom",
+            "10"
+          ],
+          [
+            "Charisma",
+            "4"
+          ],
+          [
+            "Alignment",
+            "unaligned"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Saving throws",
+            "lines": [
+              "Dex +5",
+              "Dexterity +5"
+            ]
+          },
+          {
+            "title": "Habitats",
+            "lines": [
+              "forest",
+              "swamp",
+              "underdark",
+              "urban",
+              "forest, swamp, underdark, urban"
+            ]
+          },
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +5 to hit · reach 5 ft. · 1d4 + 3 piercing"
+            ]
+          },
+          {
+            "title": "Skills",
+            "lines": [
+              "Perception +2"
+            ]
+          },
+          {
+            "title": "Senses",
+            "lines": [
+              "Darkvision 60 ft."
+            ]
+          },
+          {
+            "title": "Traits reference",
+            "lines": [
+              "Pack Tactics · within 5 feet · Advantage · Incapacitated"
+            ]
+          },
+          {
+            "title": "Actions reference",
+            "lines": [
+              "Bite · Melee attack · +5 to hit · 1d4 + 3 piercing damage"
+            ]
+          },
+          {
+            "title": "Lore topics in the source",
+            "lines": [
+              "Animals"
+            ]
+          }
+        ],
+        "sourceCode": "XMM",
+        "references": [
+          {
+            "label": "Monster Manual (2025), p. 358",
+            "url": "https://5e.tools/bestiary.html#giant%20rat_xmm"
+          },
+          {
+            "label": "Advantage (rule)",
+            "url": "https://5e.tools/variantrules.html#advantage_xphb",
+            "local": {
+              "entry": "compendium-694118169b5a4aef2291ff71",
+              "version": "XPHB:360:https://5e.tools/variantrules.html#advantage_xphb"
+            },
+            "preview": {
+              "name": "Advantage",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 360,
+              "local": {
+                "entry": "compendium-694118169b5a4aef2291ff71",
+                "version": "XPHB:360:https://5e.tools/variantrules.html#advantage_xphb"
+              }
+            }
+          },
+          {
+            "label": "Incapacitated (condition)",
+            "url": "https://5e.tools/conditionsdiseases.html#incapacitated_xphb",
+            "local": {
+              "entry": "compendium-b982916d13c7b1a5bf750c36",
+              "version": "XPHB:369:https://5e.tools/conditionsdiseases.html#incapacitated_xphb"
+            },
+            "preview": {
+              "name": "Incapacitated",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2024)",
+              "page": 369,
+              "description": "You cannot take actions or reactions.",
+              "local": {
+                "entry": "compendium-b982916d13c7b1a5bf750c36",
+                "version": "XPHB:369:https://5e.tools/conditionsdiseases.html#incapacitated_xphb"
+              }
+            }
+          },
+          {
+            "label": "Panther (creature)",
+            "url": "https://5e.tools/bestiary.html#panther_xmm",
+            "local": {
+              "entry": "beast-346793476af7c0a55cfa62ab",
+              "version": "b2bb83792ec748263d8b7b46"
+            },
+            "preview": {
+              "name": "Panther",
+              "group": "Beast",
+              "publication": "Monster Manual (2024)",
+              "description": "A Medium beast with challenge rating 1/4. Listed habitats: forest, grassland, hill. Named abilities include Rend, Nimble Escape.",
+              "local": {
+                "entry": "beast-346793476af7c0a55cfa62ab",
+                "version": "b2bb83792ec748263d8b7b46"
+              }
+            }
+          },
+          {
+            "label": "Giant Goat (creature)",
+            "url": "https://5e.tools/bestiary.html#giant%20goat_xmm",
+            "local": {
+              "entry": "beast-6f3ba88f8055270588c02a34",
+              "version": "426fa41934a075969d8d0faf"
+            },
+            "preview": {
+              "name": "Giant Goat",
+              "group": "Beast",
+              "publication": "Monster Manual (2024)",
+              "description": "A Large beast with challenge rating 1/2. Listed habitats: grassland, hill, mountain. Named abilities include Ram.",
+              "local": {
+                "entry": "beast-6f3ba88f8055270588c02a34",
+                "version": "426fa41934a075969d8d0faf"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Passive Perception": [
+            {
+              "start": 0,
+              "end": 18,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Alignment": [
+            {
+              "start": 0,
+              "end": 9,
+              "target": {
+                "name": "Alignment",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                }
+              }
+            }
+          ],
+          "Perception +2": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2024)",
+                "page": 14,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "XPHB:14:https://5e.tools/skills.html#perception_xphb"
+                }
+              }
+            }
+          ],
+          "Darkvision 60 ft.": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2024)",
+                "page": 365,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "XPHB:365:https://5e.tools/senses.html#darkvision_xphb"
+                }
+              }
+            }
+          ],
+          "Pack Tactics · within 5 feet · Advantage · Incapacitated": [
+            {
+              "start": 31,
+              "end": 40,
+              "target": {
+                "name": "Advantage",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-694118169b5a4aef2291ff71",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#advantage_xphb"
+                }
+              }
+            },
+            {
+              "start": 43,
+              "end": 56,
+              "target": {
+                "name": "Incapacitated",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2024)",
+                "page": 369,
+                "description": "You cannot take actions or reactions.",
+                "local": {
+                  "entry": "compendium-b982916d13c7b1a5bf750c36",
+                  "version": "XPHB:369:https://5e.tools/conditionsdiseases.html#incapacitated_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "3d3c5c14630ca3cb344073a5",
+        "publication": "SRD 5.1",
+        "edition": "2014 fifth edition",
+        "status": "Stat block",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "12"
+          ],
+          [
+            "Hit points",
+            "7"
+          ],
+          [
+            "Hit dice",
+            "2d6"
+          ],
+          [
+            "Challenge",
+            "1/8"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "30 ft."
+          ],
+          [
+            "XP",
+            "25"
+          ],
+          [
+            "Str",
+            "7"
+          ],
+          [
+            "Dex",
+            "15"
+          ],
+          [
+            "Con",
+            "11"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "10"
+          ],
+          [
+            "Cha",
+            "4"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Classification",
+            "lines": [
+              "Small beast, unaligned"
+            ]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Senses darkvision 60 ft., passive Perception 10 Languages —"
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Keen Smell. The rat has advantage on Wisdom (Perception) checks that rely on smell. Pack Tactics. The rat has advantage on an attack roll against a creature if at least one of the rat’s allies is within 5 feet of the creature and the ally isn’t incapacitated."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage."
+            ]
+          }
+        ],
+        "inline": {
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Senses darkvision 60 ft., passive Perception 10 Languages —": [
+            {
+              "start": 7,
+              "end": 17,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2014)",
+                "page": 183,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+                }
+              }
+            },
+            {
+              "start": 34,
+              "end": 44,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            }
+          ],
+          "Keen Smell. The rat has advantage on Wisdom (Perception) checks that rely on smell. Pack Tactics. The rat has advantage on an attack roll against a creature if at least one of the rat’s allies is within 5 feet of the creature and the ally isn’t incapacitated.": [
+            {
+              "start": 24,
+              "end": 33,
+              "target": {
+                "name": "Advantage",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2014)",
+                "page": 173,
+                "description": "Roll two d20s and use the higher roll.",
+                "local": {
+                  "entry": "compendium-694118169b5a4aef2291ff71",
+                  "version": "PHB:173:https://5e.tools/book.html#PHB"
+                }
+              }
+            },
+            {
+              "start": 45,
+              "end": 55,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            },
+            {
+              "start": 110,
+              "end": 119,
+              "target": {
+                "name": "Advantage",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2014)",
+                "page": 173,
+                "description": "Roll two d20s and use the higher roll.",
+                "local": {
+                  "entry": "compendium-694118169b5a4aef2291ff71",
+                  "version": "PHB:173:https://5e.tools/book.html#PHB"
+                }
+              }
+            },
+            {
+              "start": 245,
+              "end": 258,
+              "target": {
+                "name": "Incapacitated",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 290,
+                "description": "You cannot take actions or reactions.",
+                "local": {
+                  "entry": "compendium-b982916d13c7b1a5bf750c36",
+                  "version": "PHB:290:https://5e.tools/conditionsdiseases.html#incapacitated_phb"
+                }
+              }
+            }
+          ],
+          "Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.": [
+            {
+              "start": 12,
+              "end": 25,
+              "target": {
+                "name": "Weapon Attack",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 377,
+                "local": {
+                  "entry": "compendium-f8978a5da2977fc5a556ab9c",
+                  "version": "XPHB:377:https://5e.tools/variantrules.html#weapon%20attack_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "bea5d13a0ef023a425e81e3f",
+        "publication": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Stat block",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "13"
+          ],
+          [
+            "Hit points",
+            "7"
+          ],
+          [
+            "Hit dice",
+            "2d6"
+          ],
+          [
+            "Challenge",
+            "1/8"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "30 ft., Climb 30 ft."
+          ],
+          [
+            "XP",
+            "25"
+          ],
+          [
+            "Str",
+            "7"
+          ],
+          [
+            "Dex",
+            "16"
+          ],
+          [
+            "Con",
+            "11"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "10"
+          ],
+          [
+            "Cha",
+            "4"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Classification",
+            "lines": [
+              "Small Beast, Unaligned"
+            ]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Skills Perception +2 Senses Darkvision 60 ft.; Passive Perception 12 Languages None"
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Pack Tactics. The rat has Advantage on an attack roll against a creature if at least one of the rat’s allies is within 5 feet of the creature and the ally doesn’t have the Incapacitated condition."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Bite. Melee Attack Roll: +5, reach 5 feet. Hit: 5 (1d4 + 3) Piercing damage."
+            ]
+          }
+        ],
+        "inline": {
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Skills Perception +2 Senses Darkvision 60 ft.; Passive Perception 12 Languages None": [
+            {
+              "start": 7,
+              "end": 17,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2024)",
+                "page": 14,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "XPHB:14:https://5e.tools/skills.html#perception_xphb"
+                }
+              }
+            },
+            {
+              "start": 28,
+              "end": 38,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2024)",
+                "page": 365,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "XPHB:365:https://5e.tools/senses.html#darkvision_xphb"
+                }
+              }
+            },
+            {
+              "start": 47,
+              "end": 65,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Pack Tactics. The rat has Advantage on an attack roll against a creature if at least one of the rat’s allies is within 5 feet of the creature and the ally doesn’t have the Incapacitated condition.": [
+            {
+              "start": 26,
+              "end": 35,
+              "target": {
+                "name": "Advantage",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-694118169b5a4aef2291ff71",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#advantage_xphb"
+                }
+              }
+            },
+            {
+              "start": 172,
+              "end": 185,
+              "target": {
+                "name": "Incapacitated",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2024)",
+                "page": 369,
+                "description": "You cannot take actions or reactions.",
+                "local": {
+                  "entry": "compendium-b982916d13c7b1a5bf750c36",
+                  "version": "XPHB:369:https://5e.tools/conditionsdiseases.html#incapacitated_xphb"
+                }
+              }
+            }
+          ],
+          "Bite. Melee Attack Roll: +5, reach 5 feet. Hit: 5 (1d4 + 3) Piercing damage.": [
+            {
+              "start": 12,
+              "end": 23,
+              "target": {
+                "name": "Attack Roll",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 361,
+                "local": {
+                  "entry": "compendium-2570a567c24ef3f4b5e35b50",
+                  "version": "XPHB:361:https://5e.tools/variantrules.html#attack%20roll_xphb"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "queries": {
+      "Giant Rat": true,
+      "giant rat tomb of rats open vaults": true
+    },
+    "hash": "73ea67873e363e85f11687d783e26ee1623cee5e3b183822a2828feff3cabb37",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [
+      {
+        "url": "",
+        "credit": "Monster Manual (2014)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      }
+    ]
+  }
+]

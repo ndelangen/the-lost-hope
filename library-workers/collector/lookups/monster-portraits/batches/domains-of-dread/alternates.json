@@ -1,0 +1,92 @@
+[
+  {
+    "entityKind": "monster",
+    "name": "Baron Urik von Kharkov",
+    "publication": "Domains of Dread",
+    "edition": "AD&D 2nd edition",
+    "file": "images/monsters/baron-urik-von-kharkov/source-baron-urik-von-kharkov.png",
+    "artist": "Original portrait: Baron Urik von Kharkov",
+    "kind": "illustration",
+    "sha256": "1bbc216279f7dea828ead0a9e841c7796af9d43afb5c03b797b36174d4795df4"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Jacqueline Renier",
+    "publication": "Domains of Dread",
+    "edition": "AD&D 2nd edition",
+    "file": "images/monsters/jacqueline-renier/source-jacqueline-renier.png",
+    "artist": "Original portrait: Jacqueline Renier",
+    "kind": "illustration",
+    "sha256": "fac57b91069d4dff05d135c7e20c5f6d794bf1a911d10f353fd5eef57dbebb8c"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Laveeda",
+    "publication": "Domains of Dread",
+    "edition": "AD&D 2nd edition",
+    "file": "images/monsters/laveeda/source-three-hags.png",
+    "artist": "The Three Hags coven illustration",
+    "kind": "illustration",
+    "sha256": "23cccce629c1d8aa867ffcd065cb27847c51b7175dbbf772b0162a12e533174a"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Laveeda",
+    "publication": "Domains of Dread",
+    "edition": "AD&D 2nd edition",
+    "file": "images/monsters/laveeda/source-annis-hag-mpmm.webp",
+    "artist": "Related creature art: Annis Hag by Tom Babbey · Monsters of the Multiverse",
+    "kind": "illustration",
+    "sha256": "3d8a5a2bfc2ec016fef6c9bf24be3bf9003e5e8164c5c46ccb37a3afb0acb3df"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Leticia",
+    "publication": "Domains of Dread",
+    "edition": "AD&D 2nd edition",
+    "file": "images/monsters/leticia/source-three-hags.png",
+    "artist": "The Three Hags coven illustration",
+    "kind": "illustration",
+    "sha256": "23cccce629c1d8aa867ffcd065cb27847c51b7175dbbf772b0162a12e533174a"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Leticia",
+    "publication": "Domains of Dread",
+    "edition": "AD&D 2nd edition",
+    "file": "images/monsters/leticia/source-sea-hag-mm.webp",
+    "artist": "Related creature art: Sea Hag · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "25f1747869fd883dc2ba1fcdd9a2c06d8fec5c1c9bc3804c9482a9ff1ef32622"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Lord Wilfred Godefroy",
+    "publication": "Domains of Dread",
+    "edition": "AD&D 2nd edition",
+    "file": "images/monsters/lord-wilfred-godefroy/source-lord-wilfred-godefroy.png",
+    "artist": "Original portrait: Lord Wilfred Godefroy",
+    "kind": "illustration",
+    "sha256": "28db3f782eb136b95066189e5cc5225dca034ef55fa1685d4b45f7603bd94de7"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Lord Wilfred Godefroy",
+    "publication": "Domains of Dread",
+    "edition": "AD&D 2nd edition",
+    "file": "images/monsters/lord-wilfred-godefroy/source-wilfred-godefroy-rhw.webp",
+    "artist": "Later depiction: Wilfred Godefroy · Ravenloft: The Horrors Within",
+    "kind": "illustration",
+    "sha256": "04ed2bbfc135965d8e6b260f40aa92af5185135210b307392eb187b52a4be00f"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Tristessa",
+    "publication": "Domains of Dread",
+    "edition": "AD&D 2nd edition",
+    "file": "images/monsters/tristessa/source-tristessa.png",
+    "artist": "Original portrait: Tristessa",
+    "kind": "illustration",
+    "sha256": "9fad92e5385ac3041cf16c91dd3beb9e4153d03ef46cabba1dcdc444f71f1413"
+  }
+]

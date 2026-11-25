@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Disembodied",
+    "file": "portraits/disembodied.png",
+    "sha256": "b0cbd3c470185f0e578cd3cb2c36f937b53ddb3768f6e99a2ea7cbb53b7353d9",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Dreamer",
+    "file": "portraits/dreamer.png",
+    "sha256": "18b07c9d5bd673707a6cc3f5efdee39acaad7b46b74e1abe4ce82c91f06bf640",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Laneshi",
+    "file": "portraits/laneshi.png",
+    "sha256": "c17da1ba1d773dd9d4cc3714c867232d3b1868fbd35d2174189b62f0ccdde844",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Ogresh",
+    "file": "portraits/ogresh.png",
+    "sha256": "e46e10377d36a56df9048e58c122a13ad3af29105b359cd34435fd76437b8307",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Wechselkind",
+    "file": "portraits/wechselkind.png",
+    "sha256": "d65a4d1d997f4b7edac712d579b6964628eeb523787805dfbf071198a2f6bf4a",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  }
+]

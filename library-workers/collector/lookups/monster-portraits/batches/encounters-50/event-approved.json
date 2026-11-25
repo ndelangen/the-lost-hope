@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Durixaviinox",
+    "slug": "durixaviinox",
+    "id": "monster-6254715d0864c64d08454c9e:a4488a84beeabb7e4b82fbf3",
+    "entry": "monster-6254715d0864c64d08454c9e",
+    "version": "a4488a84beeabb7e4b82fbf3",
+    "suffix": "encounters-50/durixaviinox.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-50/durixaviinox.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-50/event-drafts/durixaviinox-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 50 2026-11-23/event-drafts/durixaviinox-event-v1.png",
+    "overrides": [],
+    "sha256": "1b0933526b4e6b9e606a58715248909d13d742cc7feda1e25ac1cd6566cd31ce",
+    "bytes": 2761879
+  },
+  {
+    "name": "Forzaantilirys",
+    "slug": "forzaantilirys",
+    "id": "monster-35e9ee37a0b15794daa756bf:d06b12b3135ee2cdb156fe4e",
+    "entry": "monster-35e9ee37a0b15794daa756bf",
+    "version": "d06b12b3135ee2cdb156fe4e",
+    "suffix": "encounters-50/forzaantilirys.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-50/forzaantilirys.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-50/event-drafts/forzaantilirys-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 50 2026-11-23/event-drafts/forzaantilirys-event-v1.png",
+    "overrides": [],
+    "sha256": "548b40b5991381616b9bee824794ca11421443f89519fe2532db7a515f3a0480",
+    "bytes": 2682692
+  },
+  {
+    "name": "Frost Giant Wind Sprinter",
+    "slug": "frost-giant-wind-sprinter",
+    "id": "monster-f5dd203754661c2032899958:518e702ddbc9459fbec2291d",
+    "entry": "monster-f5dd203754661c2032899958",
+    "version": "518e702ddbc9459fbec2291d",
+    "suffix": "encounters-50/frost-giant-wind-sprinter.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-50/frost-giant-wind-sprinter.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-50/event-drafts/frost-giant-wind-sprinter-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 50 2026-11-23/event-drafts/frost-giant-wind-sprinter-event-v1.png",
+    "overrides": [],
+    "sha256": "49673b4bbe4ff8f333b0798f36cb22411c6fec05bfcdb5bba72ff4bffcc51b17",
+    "bytes": 2713257
+  }
+]

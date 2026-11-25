@@ -36,4 +36,5 @@ export default createEvent({
       '.',
     ],
   ],
+  illustrations: ['/assets/scenes/sarogarth-entrusts-grimgor-relics-to-devan.png'],
 })

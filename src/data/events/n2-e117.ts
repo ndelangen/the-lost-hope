@@ -23,4 +23,5 @@ export default createEvent({
       '.',
     ],
   ],
+  illustrations: ['/assets/scenes/the-party-arrives-on-nimbus.png'],
 })

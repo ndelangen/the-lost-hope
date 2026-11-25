@@ -1,0 +1,221 @@
+[
+  {
+    "name": "Boreas's Chosen",
+    "decision": "separate",
+    "pages": "Chapter 8, p. 265",
+    "notes": "Standalone stat block from the printed Northlands Bestiary.",
+    "statBlock": {
+      "name": "Boreas's Chosen",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium or Small Humanoid",
+      "ac": 15,
+      "hp": 102,
+      "speed": "30 ft.",
+      "cr": "7",
+      "otherStatistics": "Perception 12, Stealth 12. Immune to cold damage. Languages Common, Giant.",
+      "description": "Boreas's chosen fight with frost-laced spears and can breathe a gust cold enough to freeze their enemies in place.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +3, Dex +2, Con +4, Int -1, Wis +2, Cha +0",
+        "Traits": "Ice Walk. Cross and climb ice without a check. Snow and ice do not slow the chosen.",
+        "Actions": "Multiattack. Make two Spear attacks.\nSpear. Melee or ranged weapon attack, +7 to hit, reach 5 ft. or range 20/60 ft. Hit 12 (2d8 + 3) piercing damage plus 7 (2d6) cold.\nBreath of the North Wind (recharge 5–6). Creatures in a 15-ft. cone make a DC 14 Constitution save. On failure, they take 28 (8d6) cold damage and lose 10 ft. of speed until the end of their next turn. A creature that fails by 5 or more is instead Petrified in ice until the end of its next turn. On success, it takes half damage and retains its full speed.",
+        "Reactions": "Freezing Blood. When an attack hits the chosen, every creature within 5 ft. takes 4 (1d8) cold damage.",
+        "Printed source": "Chapter 8, p. 265"
+      }
+    }
+  },
+  {
+    "name": "Frost-Afflicted",
+    "decision": "separate",
+    "pages": "Chapter 8, pp. 265–266",
+    "notes": "Standalone stat block from the printed Northlands Bestiary.",
+    "statBlock": {
+      "name": "Frost-Afflicted",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium or Small Humanoid",
+      "ac": 15,
+      "hp": 65,
+      "speed": "30 ft.",
+      "cr": "3",
+      "otherStatistics": "Perception 13, Stealth 12. Immune to cold damage and Petrified. Languages Common, Giant.",
+      "description": "Ice covers this fighter and pricks foes who press in too close.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +1, Dex +2, Con +4, Int +1, Wis +3, Cha +0",
+        "Traits": "Burning Ice. The frost-afflicted's cold damage bypasses cold resistance. Cold immunity still applies.\nIced Skin. A creature that hits it with a melee attack from within 5 ft. takes 4 (1d8) piercing damage.",
+        "Actions": "Multiattack. Make two attacks in any combination of Frigid Punch and Frost Bolt.\nFrigid Punch. Melee weapon attack, +4 to hit, reach 5 ft. Hit 7 (2d4 + 2) bludgeoning damage plus 5 (2d4) cold.\nFrost Bolt. Ranged spell attack, +4 to hit, range 60 ft. Hit 13 (2d10 + 2) cold damage.",
+        "Bonus Actions": "Frigid Flare (recharge 5–6). Each creature within 5 ft. makes a DC 12 Constitution save. On failure, it takes 4 (1d8) cold damage and loses 10 ft. of speed until the end of the frost-afflicted’s next turn.",
+        "Printed source": "Chapter 8, pp. 265–266"
+      }
+    }
+  },
+  {
+    "name": "Huskarl",
+    "decision": "separate",
+    "pages": "Chapter 8, p. 266",
+    "notes": "Standalone stat block from the printed Northlands Bestiary.",
+    "statBlock": {
+      "name": "Huskarl",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium or Small Humanoid",
+      "ac": 18,
+      "hp": 60,
+      "speed": "30 ft.",
+      "cr": "2",
+      "otherStatistics": "Perception 14, Stealth 11. Language Common.",
+      "description": "This armored retainer fights close enough to take a blow meant for an ally.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +4, Dex +1, Con +5, Int +1, Wis +2, Cha +1",
+        "Actions": "Multiattack. Make two attacks in any combination of Battle Axe and Javelin.\nBattle Axe. Melee weapon attack, +4 to hit, reach 5 ft. Hit 7 (1d10 + 2) slashing damage.\nJavelin. Melee or ranged weapon attack, +4 to hit, reach 5 ft. or range 30/120 ft. Hit 6 (1d8 + 2) piercing damage.",
+        "Reactions": "Interpose. When an ally within 5 ft. takes damage, the huskarl can take that damage in the ally’s place.",
+        "Printed source": "Chapter 8, p. 266"
+      }
+    }
+  },
+  {
+    "name": "Runewright",
+    "decision": "separate",
+    "pages": "Chapter 8, p. 252",
+    "notes": "Standalone stat block from the printed Northlands Bestiary.",
+    "statBlock": {
+      "name": "Runewright",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium Undead",
+      "ac": 15,
+      "hp": 143,
+      "speed": "30 ft.",
+      "cr": "9",
+      "otherStatistics": "Perception 17, Stealth 12. Resists cold, fire, and lightning damage. Immune to necrotic and poison damage and to Blinded, Charmed, Exhaustion, Frightened, and Poisoned. Darkvision 120 ft. Languages Common and two others.",
+      "description": "A dead wizard preserves its mastery of runes by carving them into its skin and hunting for new magic.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +3, Dex +2, Con +1, Int +9, Wis +1, Cha +8",
+        "Traits": "Magic Resistance. Advantage on saves against spells and other magical effects.",
+        "Actions": "Multiattack. Make three Rune Blast attacks. Runic Gaze can replace one attack.\nRune Blast. Melee or ranged spell attack, +9 to hit, reach 5 ft. or range 120 ft. Hit 21 (3d10 + 5) damage. Choose cold, fire, lightning, or radiant according to the rune used.\nRunic Gaze. One creature the runewright sees within 60 ft. makes a DC 17 Wisdom save. Failure deals 14 (2d8 + 5) psychic damage and imposes either Charmed or Frightened, chosen by the runewright, until the start of its next turn. Success halves the damage and avoids the condition.",
+        "Spellcasting": "Uses Intelligence, save DC 17, and requires no material components.\nAt will: Detect Magic, Disguise Self.\n2/day each: Counterspell, Dispel Magic, Silence.\n1/day each: Dimension Door, Elemental Shield, Freedom of Movement.",
+        "Bonus Actions": "Arcane Sense. Choose one visible creature within 60 ft. Identify one spell affecting it or one magic item it carries, if any.\nMisty Step. Cast the Misty Step spell.",
+        "Reactions": "Sun Rune. When an attack roll hits the runewright, it can force its attacker to make a DC 17 Constitution save. Failure makes the attacker Blinded until the end of its next turn.",
+        "Printed source": "Chapter 8, p. 252"
+      }
+    }
+  },
+  {
+    "name": "Skein Witch",
+    "decision": "separate",
+    "pages": "Chapter 8, p. 254",
+    "notes": "Standalone stat block from the printed Northlands Bestiary.",
+    "statBlock": {
+      "name": "Skein Witch",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium Celestial",
+      "ac": 20,
+      "hp": 162,
+      "speed": "30 ft., fly 30 ft.",
+      "cr": "12",
+      "otherStatistics": "Perception 23, Stealth 11. Resists radiant damage. Immune to fire, lightning, and psychic damage. Truesight 60 ft. Language Celestial. Telepathy 120 ft.",
+      "description": "A celestial weaver of fate can bind two allies together so that each suffers the harm dealt to the other.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str -2, Dex +1, Con +2, Int +7, Wis +13, Cha +5",
+        "Traits": "Fate's Resistance (3/day). After failing a save, choose to succeed instead.\nMagic Resistance. Advantage on saves against spells and other magical effects.",
+        "Actions": "Multiattack. Make three Inexorable Thread attacks.\nInexorable Thread. Melee or ranged spell attack, +9 to hit, reach 5 ft. or range 60 ft., one creature. Hit 27 (5d8 + 5) radiant damage. On a hit, the witch can teleport with its gear up to 30 ft. to a visible unoccupied space.\nDestiny Distortion Wave (recharge 5–6). Creatures in a 60-ft. cone make a DC 17 Wisdom save. Failure deals 55 force damage and gives disadvantage on checks, attacks, and saves for 1 minute. Repeat the save at the end of each turn to end the disadvantage. Success halves the damage and avoids the disadvantage.\nBind Fates (1/day). One visible creature within 60 ft. makes a DC 17 Wisdom save. On failure, bind it to one ally of that target, chosen by the witch. Damage and conditions that would affect either bound creature affect its partner instead. A creature can have only one partner. Greater Restoration, Heal, Remove Curse, or comparable magic ends the bond.",
+        "Bonus Actions": "Cutting the Thread. Choose a visible creature at 0 HP within 30 ft. It loses its stability if stable and immediately rolls a death save.",
+        "Reactions": "Parry Spell. When the witch beats a save DC by 5 or more against a spell of 4th level or lower that targets only it, the spell rebounds on the caster. Use the original caster’s circle, save DC, attack bonus, and spellcasting ability.",
+        "Encounter Notes": "Fear of Cards. Bringing a Deck of Many Things near the witch causes it to wail and disintegrate.",
+        "Printed source": "Chapter 8, p. 254"
+      }
+    }
+  },
+  {
+    "name": "Vaettir, Buried Lord",
+    "decision": "separate",
+    "pages": "Chapter 8, pp. 260–261",
+    "notes": "Standalone stat block from the printed Northlands Bestiary.",
+    "statBlock": {
+      "name": "Vaettir, Buried Lord",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium Undead",
+      "ac": 16,
+      "hp": 90,
+      "speed": "30 ft.",
+      "cr": "4",
+      "otherStatistics": "Perception 13, Stealth 12. Resists cold damage. Immune to necrotic and poison damage and to Charmed, Exhaustion, Frightened, and Poisoned. Darkvision 60 ft., truesight 30 ft. Languages known in life.",
+      "description": "An undead ruler watches over its plunder and commands the warriors buried with it.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +5, Dex +2, Con +5, Int +0, Wis +1, Cha +5",
+        "Traits": "Aura of Authority. Allies within 10 ft. have advantage on attacks and saves while the buried lord is free of the Incapacitated condition.\nGrave Goods Sense. Pinpoint anyone wearing or carrying its belongings or grave goods within 60 ft. and sense the direction of those objects within 1 mile.\nRejuvenation. After destruction, return at full HP in a new body 24 hours later, in a random unoccupied space within 100 ft. of the spot where it fell. Putting it to rest, usually by returning its remains to its burial mound, prevents this.\nSunlight Sensitivity. Disadvantage on ability checks and attack rolls while in sunlight.",
+        "Actions": "Multiattack. Make two Longsword attacks or two Longbow attacks.\nLongsword. Melee weapon attack, +7 to hit, reach 5 ft. Hit 14 (2d8 + 5) slashing damage plus 3 (1d6) necrotic.\nLongbow. Ranged weapon attack, +4 to hit, range 150/600 ft. Hit 11 (2d8 + 2) piercing damage.\nCorpse Breath (recharge 5–6). Creatures in a 15-ft. cone make a DC 13 Constitution save. On failure, a creature is Poisoned for 1 minute and can repeat the save at the end of each turn to end it.\nDisorienting Gaze. One creature the buried lord sees within 30 ft. makes a DC 13 Charisma save. On failure, it is Incapacitated and travels in a random direction whenever it moves. Repeat the save at the end of each turn to end the effect. A success grants immunity to this buried lord’s gaze for 24 hours.",
+        "Spellcasting": "Uses Charisma, save DC 13, and requires no material components.\n2/day: Bane.\n1/day each: Enlarge/Reduce, Gaseous Form.",
+        "Bonus Actions": "Mark Quarry (2/day). Mark one visible creature within 30 ft. until the start of the buried lord’s next turn. Its weapon hits against that creature deal an extra 1d6 of the weapon’s damage type.",
+        "Reactions": "Parry. Add 2 AC against one melee attack that would hit. The buried lord must see its attacker and wield a melee weapon or hold a shield.",
+        "Printed source": "Chapter 8, pp. 260–261"
+      }
+    }
+  },
+  {
+    "name": "Vaettir, Drowned Raider",
+    "decision": "separate",
+    "pages": "Chapter 8, p. 262",
+    "notes": "Standalone stat block from the printed Northlands Bestiary.",
+    "statBlock": {
+      "name": "Vaettir, Drowned Raider",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium Undead",
+      "ac": 14,
+      "hp": 65,
+      "speed": "30 ft., swim 30 ft.",
+      "cr": "3",
+      "otherStatistics": "Perception 13, Stealth 10. Resists cold and fire damage. Immune to necrotic and poison damage and to Charmed, Exhaustion, Frightened, and Poisoned. Darkvision 60 ft. Languages known in life.",
+      "description": "A waterlogged warrior hunts for grave goods carried out to sea when its burial place flooded.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +4, Dex +0, Con +2, Int -1, Wis +1, Cha -1",
+        "Traits": "Grave Goods Sense. Pinpoint anyone wearing or carrying its belongings or grave goods within 60 ft. and sense the direction of those objects within 1 mile.\nRejuvenation. After destruction, return at full HP in a new body 24 hours later, in a random unoccupied space within 100 ft. of the spot where it fell. Putting it to rest, usually by returning its remains to its burial mound, prevents this.\nSunlight Sensitivity. Disadvantage on ability checks and attack rolls while in sunlight.",
+        "Actions": "Multiattack. Make two attacks in any combination of Battleaxe and Javelin.\nBattleaxe. Melee weapon attack, +6 to hit, reach 5 ft. Hit 10 (1d12 + 4) slashing damage plus 3 (1d6) necrotic.\nJavelin. Melee or ranged weapon attack, +6 to hit, reach 5 ft. or range 30/120 ft. Hit 11 (2d6 + 4) piercing damage.\nWater Purge. Creatures in a 20-ft. by 5-ft. line make a DC 12 Dexterity save. Failure deals 7 (2d6) necrotic damage and makes a target Poisoned until the end of its next turn. Success halves the damage and avoids the condition.",
+        "Printed source": "Chapter 8, p. 262"
+      }
+    }
+  },
+  {
+    "name": "Vedaja",
+    "decision": "separate",
+    "pages": "Chapter 8, p. 263",
+    "notes": "Standalone stat block from the printed Northlands Bestiary.",
+    "statBlock": {
+      "name": "Vedaja",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Tiny Construct",
+      "ac": 14,
+      "hp": 33,
+      "speed": "30 ft.",
+      "cr": "2",
+      "otherStatistics": "Perception 13, Stealth 15. Immune to poison and psychic damage and to Charmed, Deafened, Exhaustion, Frightened, Paralyzed, Petrified, and Poisoned. Darkvision 60 ft. Understands its creator's language and one other but cannot speak.",
+      "description": "This statuette of wood or horn can shape its hands into blunt fists or piercing points.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str -1, Dex +3, Con +2, Int +0, Wis +1, Cha +3",
+        "Traits": "Immutable Form. Its form cannot be altered.\nMagic Resistance. Advantage on saves against spells and other magical effects.",
+        "Actions": "Multiattack. Make two Hand attacks.\nHand. Melee weapon attack, +5 to hit, reach 5 ft. Hit 7 (1d8 + 3) bludgeoning or piercing damage, chosen by the vedaja.\nTerrifying Glare. One creature the vedaja sees within 30 ft. makes a DC 11 Wisdom save. Failure makes it Frightened until the end of the vedaja’s next turn. It is also Paralyzed for as long as it remains Frightened by the glare.",
+        "Printed source": "Chapter 8, p. 263"
+      }
+    }
+  }
+]

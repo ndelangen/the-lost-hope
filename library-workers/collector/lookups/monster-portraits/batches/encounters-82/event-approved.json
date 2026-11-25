@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Stonechild",
+    "slug": "stonechild",
+    "caption": "Miren Slatefold · Original Stonechild NPC",
+    "id": "species-207d136f46e06ee441423203:dbd47e413b0f05e348644028",
+    "entry": "species-207d136f46e06ee441423203",
+    "version": "dbd47e413b0f05e348644028",
+    "suffix": "encounters-82/stonechild.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-82/stonechild.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-82/event-drafts/stonechild-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 82 2026-11-24/event-drafts/stonechild-event-v1.png",
+    "overrides": [],
+    "sha256": "c97b45a80d0a47265a86c2a12f19056ff5b1c978b14f4842248a38b406cf5e4a",
+    "bytes": 1992150
+  }
+]

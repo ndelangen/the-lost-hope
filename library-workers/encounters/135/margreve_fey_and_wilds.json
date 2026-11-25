@@ -1,0 +1,359 @@
+[
+  {
+    "name": "Tree Skinner",
+    "decision": "separate",
+    "pages": "Appendix, p. 240",
+    "notes": "This Black Flag printing supplies a self-contained stat block.",
+    "statBlock": {
+      "name": "Tree Skinner",
+      "publication": "The Old Margreve",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium Fiend",
+      "ac": 13,
+      "hp": 52,
+      "speed": "30 ft.",
+      "cr": "2",
+      "abilities": {
+        "Str": {
+          "modifier": 0
+        },
+        "Dex": {
+          "modifier": 4
+        },
+        "Con": {
+          "modifier": 1
+        },
+        "Int": {
+          "modifier": 2
+        },
+        "Wis": {
+          "modifier": 2
+        },
+        "Cha": {
+          "modifier": 4
+        }
+      },
+      "otherStatistics": "Perception 14, Stealth 16. Vulnerable to radiant damage. Resists cold, fire, lightning, and poison damage, plus bludgeoning, piercing, and slashing from nonmagical attacks. Immune to Charmed. Darkvision 60 ft. Languages Abyssal, Elvish, Infernal, Sylvan.",
+      "description": "A dryad corrupted by a night hag can seize a living tree and attack from inside it. The tree decays while the skinner lives within.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +0, Dex +4, Con +1, Int +2, Wis +2, Cha +4",
+        "Traits": "False Appearance (tree form only). While motionless, the skinner looks like an ordinary tree.\nMagic Resistance. It has advantage on saves against spells and other magical effects.",
+        "Actions": "Multiattack. Make two attacks using Claw or Vine Whip. If both Claws hit the same creature, it makes a DC 14 Constitution save. Failure deals 7 (2d6) poison damage and makes it Poisoned. Success halves the damage and avoids the condition.\nClaw. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit 9 (2d4 + 4) slashing damage.\nVine Whip (tree form only). Melee weapon attack, +5 to hit, reach 20 ft., one target. Hit 11 (2d6 + 4) bludgeoning damage. A Large or smaller creature is also Grappled, escape DC 14. The skinner can hold up to two creatures.",
+        "Bonus Actions": "Inhabit Tree. Touch a Medium or larger tree that is an object and enter it. While inside, the skinner has AC 15, speed 0, tremorsense 30 ft., and fire vulnerability. If reduced to 15 HP, the tree dies and the skinner appears within 5 ft. of it or in the nearest unoccupied space. The skinner can also exit as a bonus action to the nearest unoccupied space within 5 ft. of the tree, returning it to object status. After at most three days of occupation, the tree dies.\nSqueeze (tree form only). A creature the skinner is Grappling makes a DC 14 Constitution save. On a failure it cannot breathe or cast spells with verbal components until the Grapple ends.",
+        "Printed source": "Appendix, p. 240"
+      },
+      "ruleNotes": [
+        "Black Flag prints ability modifiers and fixed HP. Use the Perception and Stealth values as the respective DCs for hiding from or detecting this creature.",
+        "The printed Claw poison has no stated duration. The tree form gives fire vulnerability while the main block also lists fire resistance. Apply the Black Flag damage rules when both are relevant."
+      ]
+    }
+  },
+  {
+    "name": "Tsuchinoko",
+    "decision": "separate",
+    "pages": "Appendix, p. 241",
+    "notes": "This Black Flag printing supplies a self-contained stat block.",
+    "statBlock": {
+      "name": "Tsuchinoko",
+      "publication": "The Old Margreve",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Tiny Beast",
+      "ac": 14,
+      "hp": 22,
+      "speed": "30 ft.",
+      "cr": "1/2",
+      "abilities": {
+        "Str": {
+          "modifier": -3
+        },
+        "Dex": {
+          "modifier": 4
+        },
+        "Con": {
+          "modifier": 1
+        },
+        "Int": {
+          "modifier": -4
+        },
+        "Wis": {
+          "modifier": 1
+        },
+        "Cha": {
+          "modifier": -3
+        }
+      },
+      "otherStatistics": "Perception 13, Stealth 16. Immune to poison damage and the Poisoned condition. Keensense 10 ft. No languages.",
+      "description": "This venomous snake hunts by scent and can curl up and roll after fleeing prey. It also raids coaching inns for ale.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str -3, Dex +4, Con +1, Int -4, Wis +1, Cha -3",
+        "Traits": "Heightened Smell. Perception 18 when relying on scent.\nPlant Camouflage. Stealth 21 where vegetation provides ample concealment.\nStanding Leap. Long jump up to 15 ft. and high jump up to 5 ft., with or without a run-up.",
+        "Actions": "Leaping Bite. Melee weapon attack, +6 to hit, reach 10 ft., one target. Hit 6 (1d4 + 4) piercing plus 2 (1d4) poison damage. The attack has advantage if the snake moved at least 10 ft. first.",
+        "Bonus Actions": "Hoop Dash. The snake grips its tail and takes the Dash action. The next attack it makes before the start of its next turn has disadvantage.",
+        "Printed source": "Appendix, p. 241"
+      },
+      "ruleNotes": [
+        "Black Flag prints ability modifiers and fixed HP. Use the Perception and Stealth values as the respective DCs for hiding from or detecting this creature.",
+        "Keensense lets the creature perceive its surroundings without relying on sight."
+      ]
+    }
+  },
+  {
+    "name": "Vallowex",
+    "decision": "separate",
+    "pages": "Appendix, pp. 241–242",
+    "notes": "This Black Flag printing supplies a self-contained stat block.",
+    "statBlock": {
+      "name": "Vallowex",
+      "publication": "The Old Margreve",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Large Aberration",
+      "ac": 14,
+      "hp": 144,
+      "speed": "20 ft., swim 40 ft.",
+      "cr": "7",
+      "abilities": {
+        "Str": {
+          "modifier": 8
+        },
+        "Dex": {
+          "modifier": 0
+        },
+        "Con": {
+          "modifier": 7
+        },
+        "Int": {
+          "modifier": -3
+        },
+        "Wis": {
+          "modifier": 1
+        },
+        "Cha": {
+          "modifier": -3
+        }
+      },
+      "otherStatistics": "Natural armor. Perception 14, Stealth 16. Resists poison damage and the Poisoned and Prone conditions. Immune to Blinded and Exhaustion. Keensense 60 ft., its maximum sensing range. No languages.",
+      "description": "A pond-dwelling predator uses supernatural thirst to draw creatures to the water. It can also leave eggs close to where they drink.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +8, Dex +0, Con +7, Int -3, Wis +1, Cha -3",
+        "Traits": "Amphibious. It breathes air and water.\nAura of Thirst. At the start of the vallowex’s turn, creatures within 30 ft. make a DC 15 Constitution save. On failure, each has disadvantage on its next attack roll or ability check before the vallowex’s next turn starts. Each minute in the aura adds one level of Exhaustion. A creature can remove a level by spending an action to drink a pint of water. Creatures immune to Exhaustion ignore the aura.\nInfested Water. After every seven days it spends in an enclosed body of water up to 100 ft. in radius, it deposits eggs. They remain viable for 24 hours. A DC 15 Intelligence (Nature) check to inspect the water spots them. A Beast or Humanoid who drinks the water makes a DC 15 Constitution save or contracts a disease. Only one tadpole can mature per host. After each long rest, the host repeats the save. On failure, reduce its Strength score by 1d4. The reduction lasts until a long rest after the disease is cured. If Strength reaches 0, the host dies and a vallowex emerges. Three successful saves or a magical cure destroy the tadpole.\nUnderwater Camouflage. Its Stealth is 21 underwater.",
+        "Actions": "Multiattack. Make one Spiked Tongue and two Tail attacks. Swallow can replace Spiked Tongue.\nSpiked Tongue. Melee weapon attack, +8 to hit, reach 15 ft., one target. Hit 14 (2d8 + 5) piercing. The target is Grappled, escape DC 15, and Restrained for the duration. The vallowex cannot use Spiked Tongue on someone else while the Grapple holds.\nTail. Melee weapon attack, +8 to hit, reach 5 ft., one target. Hit 16 (2d10 + 5) bludgeoning.\nSwallow. Use Spiked Tongue on a Medium or smaller creature it is Grappling. On a hit, the creature is swallowed and the Grapple ends. It is Blinded and Restrained, has total cover against attacks and effects originating outside the vallowex, and takes 10 (3d6) acid damage at the start of each of the vallowex’s turns. Only one creature can be swallowed. If that creature deals at least 15 damage to the vallowex during one turn, the vallowex makes a DC 15 Constitution save at the end of that turn. On failure it regurgitates the target, which lands Prone within 5 ft. If the vallowex dies, the swallowed creature is no longer Restrained and can exit Prone by spending 10 ft. of movement.",
+        "Printed source": "Appendix, pp. 241–242"
+      },
+      "ruleNotes": [
+        "Black Flag prints ability modifiers and fixed HP. Use the Perception and Stealth values as the respective DCs for hiding from or detecting this creature.",
+        "Under Black Flag rules, resistance to a condition gives advantage on checks and saves to avoid or end it. Vulnerability gives disadvantage on those checks and saves.",
+        "Keensense lets the creature perceive its surroundings without relying on sight."
+      ]
+    }
+  },
+  {
+    "name": "Vila",
+    "decision": "separate",
+    "pages": "Appendix, p. 243",
+    "notes": "This Black Flag printing supplies a self-contained stat block.",
+    "statBlock": {
+      "name": "Vila",
+      "publication": "The Old Margreve",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium Fey",
+      "ac": 15,
+      "hp": 102,
+      "speed": "30 ft.",
+      "cr": "5",
+      "abilities": {
+        "Str": {
+          "modifier": 1
+        },
+        "Dex": {
+          "modifier": 5
+        },
+        "Con": {
+          "modifier": 1
+        },
+        "Int": {
+          "modifier": 0
+        },
+        "Wis": {
+          "modifier": 2
+        },
+        "Cha": {
+          "modifier": 6
+        }
+      },
+      "otherStatistics": "Perception 15, Stealth 18. Resists bludgeoning, piercing, and slashing from nonmagical attacks and the Charmed and Unconscious conditions. No special senses in the statistics line. Languages Common, Sylvan.",
+      "description": "A woodland guardian who drives intruders away with poison-tipped weapons, songs, and allies called from the forest.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +1, Dex +5, Con +1, Int +0, Wis +2, Cha +6",
+        "Traits": "Fey Resilience. It resists Charmed and Unconscious.\nForest’s Defender. Nonmagical vegetation, including thorns and spines, does not slow or damage it. It has advantage on initiative in forested terrain.\nForest Sight. It sees clearly through light obscurity and treats dim light as bright.\nHeightened Hearing and Sight. Perception 20 when using hearing or sight.\nPoisoned Weapons. Each weapon hit deals an extra 3d6 poison damage, already listed below.\nSpeak with Beasts. It can speak with Beasts as if they shared a language.",
+        "Actions": "Multiattack. Make two attacks using Shortsword or Shortbow.\nShortsword. Melee weapon attack, +8 to hit, reach 5 ft., one target. Hit 8 (1d6 + 5) piercing plus 10 (3d6) poison damage.\nShortbow. Ranged weapon attack, +8 to hit, range 80/320 ft., one target. Hit 8 (1d6 + 5) piercing plus 10 (3d6) poison damage.\nDenizens of the Wilds (1/day). Call 1d4 wolves, one brown bear, or one flinderbeast. They arrive in 1d4 rounds, act as allies, and obey spoken commands. They stay for up to one hour, until the vila dies, or until it dismisses them as a bonus action.",
+        "Bonus Actions": "Song of the Forest. Choose up to two visible creatures within 30 ft. Each target that hears the song makes a DC 14 Wisdom save. On failure, Ancient Lullaby makes the target Unconscious for 1 minute, ending if it takes damage or if another creature spends an action waking it. Fascinating Melody makes it Stunned until the end of its next turn. Luckless Tune imposes disadvantage on attacks and ability checks until the end of its next turn.",
+        "Printed source": "Appendix, p. 243"
+      },
+      "ruleNotes": [
+        "Black Flag prints ability modifiers and fixed HP. Use the Perception and Stealth values as the respective DCs for hiding from or detecting this creature.",
+        "Under Black Flag rules, resistance to a condition gives advantage on checks and saves to avoid or end it. Vulnerability gives disadvantage on those checks and saves."
+      ]
+    }
+  },
+  {
+    "name": "Vodyanoi",
+    "decision": "separate",
+    "pages": "Appendix, pp. 243–244",
+    "notes": "This Black Flag printing supplies a self-contained stat block.",
+    "statBlock": {
+      "name": "Vodyanoi",
+      "publication": "The Old Margreve",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium Fey",
+      "ac": 15,
+      "hp": 114,
+      "speed": "20 ft., swim 40 ft.",
+      "cr": "5",
+      "abilities": {
+        "Str": {
+          "modifier": 2
+        },
+        "Dex": {
+          "modifier": 4
+        },
+        "Con": {
+          "modifier": 6
+        },
+        "Int": {
+          "modifier": 1
+        },
+        "Wis": {
+          "modifier": 6
+        },
+        "Cha": {
+          "modifier": 2
+        }
+      },
+      "otherStatistics": "Natural armor. Perception 15, Stealth 17. Vulnerable to lightning damage. Resists cold damage and the Charmed and Unconscious conditions. Immune to poison damage and the Poisoned condition. Darkvision 60 ft. Languages Common, Primordial, Sylvan.",
+      "description": "A shapechanging fey who poses as a stranded traveler or a sage to get close to visitors at the water’s edge.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +2, Dex +4, Con +6, Int +1, Wis +6, Cha +2",
+        "Traits": "Amphibious. It breathes air and water.\nFey Resilience. It resists Charmed and Unconscious.\nShared Breath. Chosen friendly creatures within 30 ft. can breathe air and water.\nWater Mastery. It has advantage against targets touching the same body of water as it. If both the target and the vodyanoi are on dry land, the vodyanoi has disadvantage on the attack.\nWater Walker. It can treat the surface of water like solid ground. The trait otherwise works as Water Walk.",
+        "Actions": "Multiattack. Make two attacks using Claws or Water Bolt. When both Water Bolts hit one creature, it must pass a DC 15 Strength save or be pushed up to 10 ft. away and knocked Prone.\nClaws. Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit 11 (2d6 + 4) slashing plus 9 (2d8) poison damage. A Humanoid form without claws deals bludgeoning instead of slashing.\nWater Bolt. Ranged spell attack, +6 to hit, range 60 ft., one target. Hit 12 (2d8 + 3) bludgeoning plus 7 (2d6) cold damage.\nCrashing Wave (recharge 5–6). Creatures in a 30-ft. cone make a DC 15 Strength save. On failure they take 13 (3d8) bludgeoning plus 10 (3d6) cold and are knocked Prone on land or pushed up to 10 ft. away if submerged. Success halves damage and prevents both riders.",
+        "Bonus Actions": "Change Shape. It becomes a Small or Medium Humanoid or returns to its Fey form. Its size can change, with the remaining statistics intact. Its equipment changes with it. Death restores its true form.",
+        "Printed source": "Appendix, pp. 243–244"
+      },
+      "ruleNotes": [
+        "Black Flag prints ability modifiers and fixed HP. Use the Perception and Stealth values as the respective DCs for hiding from or detecting this creature.",
+        "Under Black Flag rules, resistance to a condition gives advantage on checks and saves to avoid or end it. Vulnerability gives disadvantage on those checks and saves."
+      ]
+    }
+  },
+  {
+    "name": "Wood Ward",
+    "decision": "separate",
+    "pages": "Appendix, p. 245",
+    "notes": "This Black Flag printing supplies a self-contained stat block.",
+    "statBlock": {
+      "name": "Wood Ward",
+      "publication": "The Old Margreve",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium Construct",
+      "ac": 13,
+      "hp": 36,
+      "speed": "30 ft.",
+      "cr": "1",
+      "abilities": {
+        "Str": {
+          "modifier": 2
+        },
+        "Dex": {
+          "modifier": 0
+        },
+        "Con": {
+          "modifier": 3
+        },
+        "Int": {
+          "modifier": -4
+        },
+        "Wis": {
+          "modifier": 1
+        },
+        "Cha": {
+          "modifier": -5
+        }
+      },
+      "otherStatistics": "Natural armor. Perception 13, Stealth 10. Vulnerable to fire damage and the Prone condition. Construct Resilience makes it immune to poison and psychic damage, Exhaustion, Charmed, Frightened, Paralyzed, Petrified, and Poisoned. Darkvision 60 ft. Understands its creator’s languages and cannot speak.",
+      "description": "A wooden figure that stays still until its village is threatened. A ritual binds it to the community it guards.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +2, Dex +0, Con +3, Int -4, Wis +1, Cha -5",
+        "Traits": "Construct Nature. It needs no air, food, drink, or sleep.\nConstruct Resilience. See the listed damage and condition immunities.\nImmutable Form. Effects that would change its form fail.\nMagic Resistance. It has advantage on saves against spells and other magical effects.",
+        "Actions": "Multiattack. Make two Slam attacks.\nSlam. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 6 (1d8 + 2) bludgeoning damage.",
+        "Bonus Actions": "Horror Gaze. Choose one visible creature within 30 ft. It makes a DC 13 Charisma save or becomes Frightened until the end of its next turn.",
+        "Printed source": "Appendix, p. 245"
+      },
+      "ruleNotes": [
+        "Black Flag prints ability modifiers and fixed HP. Use the Perception and Stealth values as the respective DCs for hiding from or detecting this creature.",
+        "Under Black Flag rules, resistance to a condition gives advantage on checks and saves to avoid or end it. Vulnerability gives disadvantage on those checks and saves."
+      ]
+    }
+  },
+  {
+    "name": "Wraith Bear",
+    "decision": "separate",
+    "pages": "Appendix, p. 247",
+    "notes": "This Black Flag printing supplies a self-contained stat block.",
+    "statBlock": {
+      "name": "Wraith Bear",
+      "publication": "The Old Margreve",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Large Undead",
+      "ac": 13,
+      "hp": 142,
+      "speed": "0 ft., fly 60 ft. (hover)",
+      "cr": "9",
+      "abilities": {
+        "Str": {
+          "modifier": 4
+        },
+        "Dex": {
+          "modifier": 3
+        },
+        "Con": {
+          "modifier": 4
+        },
+        "Int": {
+          "modifier": 0
+        },
+        "Wis": {
+          "modifier": 3
+        },
+        "Cha": {
+          "modifier": 2
+        }
+      },
+      "otherStatistics": "Perception 17, Stealth 13. Vulnerable to radiant damage. Resists acid, cold, fire, lightning, and thunder damage, plus bludgeoning, piercing, and slashing from nonmagical attacks. Immune to necrotic damage and Grappled, Paralyzed, Petrified, Prone, and Restrained. Undead Resilience adds immunity to poison damage, Exhaustion, and Poisoned. Darkvision 60 ft. Knows the languages it knew in life.",
+      "description": "A corrupted ancestral spirit in bear form. It drains nearby plants to heal and can sense the direction of a living relative.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +4, Dex +3, Con +4, Int +0, Wis +3, Cha +2",
+        "Traits": "Detect Relatives. It knows the direction of its nearest living relative on the same plane.\nDraining Regeneration. At the start of its turn, it regains 10 HP if it has at least 1 HP and living plants are within 5 ft. Healing kills all plant life within 5 ft. It cannot heal by this trait while in one of those spaces.\nIncorporeal Movement. It treats creatures and objects as difficult terrain it can move through. Ending a turn inside an object deals it 5 (1d10) force damage.\nUndead Nature. It needs no air, food, drink, or sleep.\nUndead Resilience. See the additional immunities.",
+        "Actions": "Multiattack. Make two Draining Claw attacks. If both hit the same target and it is neither Construct nor Undead, reduce its maximum HP by the total necrotic damage from both hits. The reduction lasts until the target finishes a long rest and kills it if its maximum reaches 0.\nDraining Claw. Melee weapon attack, +8 to hit, reach 5 ft., one target. Hit 13 (2d8 + 4) slashing plus 18 (4d8) necrotic damage.",
+        "Bonus Actions": "Baleful Roar. Choose up to two visible creatures within 30 ft. Each target that hears the roar makes a DC 16 Wisdom save. Failure makes the target Incapacitated until the end of its next turn. If the bear is below 79 HP, a target that saves is instead Frightened until the end of its next turn.",
+        "Printed source": "Appendix, p. 247"
+      },
+      "ruleNotes": [
+        "Black Flag prints ability modifiers and fixed HP. Use the Perception and Stealth values as the respective DCs for hiding from or detecting this creature.",
+        "Use the printed below-79-HP cutoff for Baleful Roar."
+      ]
+    }
+  }
+]

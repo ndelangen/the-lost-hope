@@ -1,0 +1,318 @@
+[
+  {
+    "name": "Giant Wasp",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 12,
+    "hp": 13,
+    "hitDice": "3d8",
+    "speed": "10 ft., fly 50 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "abilities": {
+      "Str": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Passive Perception 10. No listed skills, special senses, or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A giant wasp with a narrow waist, black-and-ochre bands, long curved antennae, thin veined wings, and a tapered stinger.",
+    "habitats": [
+      "Forests",
+      "Grasslands",
+      "Settlements"
+    ],
+    "sections": {
+      "Printed source": "D&D Basic Rules, v1.0 (November 2018), Chapter 12, p. 137. ",
+      "Actions": "Sting. Melee weapon attack, +4 to hit against one creature within 5 ft. On a hit, deal 5 (1d6 + 2) piercing damage. The target then makes a DC 11 Constitution save against 10 (3d6) poison damage, taking half on a success. If the poison damage drops the target to 0 HP, the target is stable, poisoned for 1 hour even if it regains HP, and paralyzed as long as this poisoning lasts.",
+      "At the table": "Track piercing and poison damage separately. A stable creature makes no death saving throws while at 0 HP. While poisoned, the target has disadvantage on attack rolls and ability checks. Paralysis also incapacitates it, prevents movement and speech, and causes automatic failure of Strength and Dexterity saves. Attacks against it have advantage, and hits from within 5 ft. are critical hits."
+    }
+  },
+  {
+    "name": "Giant Wasp",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 12,
+    "hp": 13,
+    "hitDice": "3d8",
+    "speed": "10 ft., fly 50 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "abilities": {
+      "Str": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Passive Perception 10. No listed skills, special senses, or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A giant wasp with a narrow waist, black-and-ochre bands, long curved antennae, thin veined wings, and a tapered stinger.",
+    "habitats": [
+      "Forests",
+      "Grasslands",
+      "Settlements"
+    ],
+    "sections": {
+      "Printed source": "Monster Manual, first printing (September 2014), Appendix A, printed p. 329. https://online.anyflip.com/pqhqn/sezy/index.html#p=330",
+      "Actions": "Sting. Melee weapon attack, +4 to hit against one creature within 5 ft. On a hit, deal 5 (1d6 + 2) piercing damage. The target then makes a DC 11 Constitution save against 10 (3d6) poison damage, taking half on a success. If the poison damage drops the target to 0 HP, the target is stable, poisoned for 1 hour even if it regains HP, and paralyzed as long as this poisoning lasts.",
+      "At the table": "Track piercing and poison damage separately. A stable creature makes no death saving throws while at 0 HP. While poisoned, the target has disadvantage on attack rolls and ability checks. Paralysis also incapacitates it, prevents movement and speech, and causes automatic failure of Strength and Dexterity saves. Attacks against it have advantage, and hits from within 5 ft. are critical hits."
+    }
+  },
+  {
+    "name": "Giant Weasel",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 13,
+    "hp": 9,
+    "hitDice": "2d8",
+    "speed": "40 ft.",
+    "cr": "1/8",
+    "xp": 25,
+    "abilities": {
+      "Str": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 4,
+        "modifier": -3
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Perception +3 and Stealth +5. Darkvision 60 ft. and passive Perception 13. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A long-bodied weasel with short legs, small rounded ears, chestnut upper fur, and a creamy white chin and belly.",
+    "habitats": [
+      "Forests",
+      "Grasslands",
+      "Wooded hills"
+    ],
+    "sections": {
+      "Printed source": "D&D Basic Rules, v1.0 (November 2018), Chapter 12, p. 137. ",
+      "Traits": "Keen Hearing and Smell. Roll Wisdom (Perception) checks with advantage when they rely on hearing or scent.",
+      "Actions": "Bite. Melee weapon attack, +5 to hit against one target within 5 ft. On a hit, deal 5 (1d4 + 3) piercing damage."
+    }
+  },
+  {
+    "name": "Giant Weasel",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 13,
+    "hp": 9,
+    "hitDice": "2d8",
+    "speed": "40 ft.",
+    "cr": "1/8",
+    "xp": 25,
+    "abilities": {
+      "Str": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 4,
+        "modifier": -3
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Perception +3 and Stealth +5. Darkvision 60 ft. and passive Perception 13. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A long-bodied weasel with short legs, small rounded ears, chestnut upper fur, and a creamy white chin and belly.",
+    "habitats": [
+      "Forests",
+      "Grasslands",
+      "Wooded hills"
+    ],
+    "sections": {
+      "Printed source": "Monster Manual, first printing (September 2014), Appendix A, printed p. 329. https://online.anyflip.com/pqhqn/sezy/index.html#p=330",
+      "Traits": "Keen Hearing and Smell. Roll Wisdom (Perception) checks with advantage when they rely on hearing or scent.",
+      "Actions": "Bite. Melee weapon attack, +5 to hit against one target within 5 ft. On a hit, deal 5 (1d4 + 3) piercing damage."
+    }
+  },
+  {
+    "name": "Giant Wolf Spider",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 13,
+    "hp": 11,
+    "hitDice": "2d8 + 2",
+    "speed": "40 ft., climb 40 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Perception +3 and Stealth +7. Blindsight 10 ft., darkvision 60 ft., and passive Perception 13. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A squat brown wolf spider with stout hairy legs, a compact oval abdomen, and a prominent central pair of dark forward-facing eyes.",
+    "habitats": [
+      "Open ground",
+      "Burrows",
+      "Crevices",
+      "Hollows under debris"
+    ],
+    "sections": {
+      "Printed source": "D&D Basic Rules, v1.0 (November 2018), Chapter 12, p. 137. ",
+      "Traits": "Spider Climb. Move over difficult surfaces, including ceilings upside down, without an ability check.\nWeb Sense. While touching a web, the spider pinpoints each other creature touching that same web.\nWeb Walker. Webbing does not slow or restrict the spider's movement.",
+      "Actions": "Bite. Melee weapon attack, +3 to hit against one creature within 5 ft. On a hit, deal 4 (1d6 + 1) piercing damage. The target then makes a DC 11 Constitution save against 7 (2d6) poison damage, taking half on a success. If the poison damage drops the target to 0 HP, the target is stable, poisoned for 1 hour even if it regains HP, and paralyzed as long as this poisoning lasts.",
+      "At the table": "Track piercing and poison damage separately. A stable creature makes no death saving throws while at 0 HP. While poisoned, the target has disadvantage on attack rolls and ability checks. Paralysis also incapacitates it, prevents movement and speech, and causes automatic failure of Strength and Dexterity saves. Attacks against it have advantage, and hits from within 5 ft. are critical hits."
+    }
+  },
+  {
+    "name": "Giant Wolf Spider",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 13,
+    "hp": 11,
+    "hitDice": "2d8 + 2",
+    "speed": "40 ft., climb 40 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Perception +3 and Stealth +7. Blindsight 10 ft., darkvision 60 ft., and passive Perception 13. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A squat brown wolf spider with stout hairy legs, a compact oval abdomen, and a prominent central pair of dark forward-facing eyes.",
+    "habitats": [
+      "Open ground",
+      "Burrows",
+      "Crevices",
+      "Hollows under debris"
+    ],
+    "sections": {
+      "Printed source": "Monster Manual, first printing (September 2014), Appendix A, printed p. 330. https://online.anyflip.com/pqhqn/sezy/index.html#p=331",
+      "Traits": "Spider Climb. Move over difficult surfaces, including ceilings upside down, without an ability check.\nWeb Sense. While touching a web, the spider pinpoints each other creature touching that same web.\nWeb Walker. Webbing does not slow or restrict the spider's movement.",
+      "Actions": "Bite. Melee weapon attack, +3 to hit against one creature within 5 ft. On a hit, deal 4 (1d6 + 1) piercing damage. The target then makes a DC 11 Constitution save against 7 (2d6) poison damage, taking half on a success. If the poison damage drops the target to 0 HP, the target is stable, poisoned for 1 hour even if it regains HP, and paralyzed as long as this poisoning lasts.",
+      "At the table": "Track piercing and poison damage separately. A stable creature makes no death saving throws while at 0 HP. While poisoned, the target has disadvantage on attack rolls and ability checks. Paralysis also incapacitates it, prevents movement and speech, and causes automatic failure of Strength and Dexterity saves. Attacks against it have advantage, and hits from within 5 ft. are critical hits."
+    }
+  }
+]

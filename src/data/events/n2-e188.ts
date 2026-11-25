@@ -55,4 +55,5 @@ export default createEvent({
       outcome: { type: 'cameTrue', event: refs.events.n2_e204 },
     },
   ],
+  illustrations: ['/assets/scenes/the-party-stakes-another-game-with-the-fiddler.png'],
 })

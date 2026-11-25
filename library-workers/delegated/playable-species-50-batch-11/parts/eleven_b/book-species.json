@@ -1,0 +1,64 @@
+[
+  {
+    "name": "Black Bear",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Monstrous Races (2018)",
+    "traits": [
+      "Tyler Kamstra's DMs Guild player conversion for 2014 fifth edition, using the v2 printed traits.",
+      "Medium awakened Beast, usually neutral. Strength +2 and Constitution +2. Walk 40 ft. and climb 30 ft.",
+      "Unarmed bites and claws deal 1d8 piercing or slashing, respectively. Unarmored AC 12 + Dexterity modifier. Smell-based Wisdom (Perception) checks have advantage.",
+      "Cannot wield weapons, use shields, or operate items that need hands. Speaks, reads, and writes Common.",
+      "Brown Bear uses this same player trait block by the cross-reference on p. 225."
+    ]
+  },
+  {
+    "name": "Boar",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Monstrous Races (2018)",
+    "traits": [
+      "Tyler Kamstra's DMs Guild player conversion for 2014 fifth edition, using the v2 printed traits.",
+      "Medium awakened Beast, usually neutral. Strength +1. Walk 40 ft. Unarmored AC 11 + Dexterity modifier. An unarmed tusk hit deals 1d6 slashing.",
+      "Charge adds 1d6 damage once per turn when you move at least 15 ft. toward the creature and hit it with a Strength-based melee weapon attack. The bonus is 2d6 at level 5, 3d6 at level 11, and 4d6 at level 17.",
+      "Relentless can leave you at 1 HP when reduced to 0 HP without being instantly killed. Recharges on a long rest.",
+      "Cannot wield weapons, use shields, or operate items that need hands. Speaks, reads, and writes Common. Giant Boar uses these same player traits by the cross-reference on p. 234."
+    ]
+  },
+  {
+    "name": "Camel",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Monstrous Races (2018)",
+    "traits": [
+      "Tyler Kamstra's DMs Guild player conversion for 2014 fifth edition, using the v2 printed traits.",
+      "Medium awakened Beast, usually neutral. Strength +1 and Constitution +1. Walk 50 ft. An unarmed bite deals 1d4 slashing.",
+      "Cannot wield weapons, use shields, or operate items that need hands. Speaks, reads, and writes Common."
+    ]
+  },
+  {
+    "name": "Cat",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Monstrous Races (2018)",
+    "traits": [
+      "Tyler Kamstra's DMs Guild player conversion for 2014 fifth edition, using the v2 printed traits.",
+      "Small awakened Beast, usually neutral. Dexterity +2. Walk 40 ft. and climb 30 ft.",
+      "An unarmed bite deals 1d4 slashing. Strength or Dexterity applies to attack and damage rolls. The bite qualifies as a finesse weapon for features such as Sneak Attack.",
+      "Cannot wield weapons, use shields, or operate items that need hands. Speaks, reads, and writes Common."
+    ]
+  },
+  {
+    "name": "Constrictor Snake",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Monstrous Races (2018)",
+    "traits": [
+      "Tyler Kamstra's DMs Guild player conversion for 2014 fifth edition, using the v2 printed traits.",
+      "Medium awakened Beast, usually neutral. Strength +1 and Dexterity +1. Walk 30 ft. and blindsight 10 ft.",
+      "Proficient unarmed bite or constrict deals 1d8 slashing or bludgeoning, respectively. A successful constrict hit with the Attack action lets you spend a bonus action to initiate a grapple against that target, despite having no hands.",
+      "Cannot wear armor, use weapons or shields, or operate items that need hands. Speaks, reads, and writes Common.",
+      "Giant Constrictor Snake uses these same player traits by the cross-reference on p. 234."
+    ]
+  }
+]

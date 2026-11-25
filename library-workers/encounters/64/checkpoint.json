@@ -1,0 +1,26 @@
+{
+  "commit": "96055555f6e8dc47bb18bad1ec0058c0d3806dfc",
+  "publication": "Expanded Psionics Handbook (2004)",
+  "edition": "3.5 edition",
+  "playableSpecies": 1,
+  "profiles": 1,
+  "fullNpcBuilds": 2,
+  "generatedPortraitsInstalled": 1,
+  "recentProfilesWithGeneratedPortrait": 624,
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "visualComparison": "output/dm-library/review/encounters-64-before-after.jpg",
+  "results": "output/dm-library/encounter-batches/64/results.json",
+  "unverifiedNextCandidates": [
+    {
+      "name": "Hobgoblin Brandbearer",
+      "source": "https://www.dndbeyond.com/monsters/4485882-hobgoblin-brandbearer",
+      "challenge": "5"
+    },
+    {
+      "name": "Hobgoblin Incendiarist",
+      "source": "https://www.dndbeyond.com/monsters/4485885-hobgoblin-incendiarist",
+      "challenge": "1"
+    }
+  ]
+}

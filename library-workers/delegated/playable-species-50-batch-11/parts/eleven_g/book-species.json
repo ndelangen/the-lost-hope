@@ -1,0 +1,70 @@
+[
+  {
+    "name": "Killer Whale",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Tyler Kamstra, Monstrous Races v2, p. 251. Player traits for 2014 fifth edition.",
+      "Killer Whale, also called orca. Medium Beast with +2 Strength. Typical alignment is neutral.",
+      "Swim 50 ft., with no walking movement. Hold breath for up to 30 minutes. Blindsight reaches 60 ft. and becomes unavailable while deafened.",
+      "Bite with an unarmed strike for 1d8 slashing plus Strength modifier. Cannot wield weapons, use shields, or manipulate items such as tools, foci, or wands.",
+      "Speaks, reads, and writes Common."
+    ]
+  },
+  {
+    "name": "Lion",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Tyler Kamstra, Monstrous Races v2, p. 251. Player traits for 2014 fifth edition.",
+      "Lions are Medium Beasts with +1 Strength and a 50-ft. walking speed. Typical alignment is neutral.",
+      "Bite or claw with an unarmed strike for 1d8 piercing or slashing plus Strength modifier. Checks using smell for Perception have advantage. With a 10-ft. run-up, long jump up to 25 ft. Cannot wield weapons, use shields, or manipulate items such as tools, foci, or wands.",
+      "Pack Tactics takes a bonus action. The next attack roll you make that turn against a creature has advantage if a non-incapacitated ally is within 5 ft. of the target.",
+      "If you go at least 15 ft. straight toward a creature and land an unarmed strike on it that turn, Pounce lets you try to shove it prone as a bonus action.",
+      "Speaks, reads, and writes Common."
+    ]
+  },
+  {
+    "name": "Mastiff",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Tyler Kamstra, Monstrous Races v2, p. 253. Player traits for 2014 fifth edition.",
+      "Mastiffs are Medium Beasts with +1 each to Strength, Dexterity, and Constitution. Walk 40 ft. Typical alignment is neutral.",
+      "Bite using an unarmed strike for 1d8 piercing plus Strength modifier. Perception checks using hearing or smell have advantage.",
+      "Cannot wield weapons, use shields, or manipulate items such as tools, foci, or wands.",
+      "Speaks, reads, and writes Common."
+    ]
+  },
+  {
+    "name": "Mule",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Tyler Kamstra, Monstrous Races v2, p. 253. Player traits for 2014 fifth edition.",
+      "Mules are Medium Beasts with +2 Strength and +2 Constitution. Walk 40 ft. Typical alignment is neutral.",
+      "Count as one size larger for carrying capacity and for pushing, dragging, or lifting. Strength and Dexterity checks and saves against effects that would knock you prone have advantage.",
+      "Hooves are unarmed strikes for 1d8 bludgeoning plus Strength modifier. Cannot wield weapons, use shields, or manipulate items such as tools, foci, or wands.",
+      "Speaks, reads, and writes Common."
+    ]
+  },
+  {
+    "name": "Octopus",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Tyler Kamstra, Monstrous Races v2, p. 254. Player traits for 2014 fifth edition.",
+      "Octopuses, also called octopi, are Medium Beasts with +2 Dexterity. Typical alignment is neutral.",
+      "Walk 5 ft. and swim 30 ft. Breathe underwater only and hold breath for 1 hour. Darkvision reaches 30 ft. and reads darkness in grayscale. Underwater Stealth checks have advantage.",
+      "Slide through gaps as narrow as 1 inch without squeezing. Armor, weapons, and shields are unavailable. The tentacles can still handle most other objects.",
+      "Tentacle unarmed strikes deal 1d4 bludgeoning plus the chosen Strength or Dexterity modifier. They qualify as finesse weapons for effects such as Sneak Attack.",
+      "Underwater, release a cloud of ink in a 20-ft. radius. It heavily obscures the area for up to 1 minute. Significant current can disperse it early. Immediately afterward you may Dash as a bonus action. Recharges on a short or long rest.",
+      "Speaks, reads, and writes Common."
+    ]
+  }
+]

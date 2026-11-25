@@ -1,0 +1,175 @@
+[
+  {
+    "name": "Booyahg Slave of the Archfey",
+    "statBlock": {
+      "name": "Booyahg Slave of the Archfey",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 42,
+      "classification": "Small humanoid (goblinoid), any alignment",
+      "ac": 11,
+      "hp": 49,
+      "hitDice": "11d8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 9
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 11,
+      "description": "This goblin owes its magic to an archfey. A hag coven that rules the tribe can be its patron.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Wis": 3,
+        "Cha": 6
+      },
+      "skills": {
+        "Arcana": 2,
+        "Deception": 6,
+        "Nature": 2,
+        "Persuasion": 6
+      },
+      "sections": {
+        "Traits": "Nimble Escape. The goblin can take Disengage or Hide as a bonus action on each of its turns.",
+        "Actions": "Dagger. Melee or ranged weapon attack, +3 to hit, reach 5 ft. or range 20/60 ft., one target. On a hit, deal 4 (1d4 + 2) piercing damage.",
+        "Innate Spellcasting": "The goblin uses Charisma (spell save DC 15) and needs no material components for these spells.\nAt will. Disguise Self, Mage Armor (self only), Silent Image, Speak with Animals.\n1/day. Conjure Fey.",
+        "Spellcasting": "The goblin is an 11th-level spellcaster. It uses Charisma (spell save DC 14, +6 to hit with spell attacks). It regains its three 5th-level spell slots when it finishes a short or long rest.\nCantrips at will. Dancing Lights, Eldritch Blast, Friends, Mage Hand, Minor Illusion, Prestidigitation, Vicious Mockery.\nWarlock spells. Blink, Charm Person, Dimension Door, Dominate Beast, Faerie Fire, Fear, Hold Monster, Misty Step, Phantasmal Force, Seeming, Sleep.",
+        "Reactions": "Misty Escape (Recharges after a Short or Long Rest). When it takes damage, the goblin turns invisible and teleports up to 60 ft. to an unoccupied space it can see. The invisibility lasts until the start of its next turn or until it attacks, rolls damage, or casts a spell.",
+        "Printed source": "Volo's Guide to Monsters, p. 42, and Warlock of the Archfey, p. 219. Apply the Goblin NPC features from the Dungeon Master's Guide, p. 282."
+      }
+    }
+  },
+  {
+    "name": "Booyahg Slave of the Fiend",
+    "statBlock": {
+      "name": "Booyahg Slave of the Fiend",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 42,
+      "classification": "Small humanoid (goblinoid), any alignment",
+      "ac": 12,
+      "hp": 78,
+      "hitDice": "12d8 + 24",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "7",
+      "xp": 2900,
+      "passivePerception": 11,
+      "description": "This goblin owes its magic to a fiend that demands payment if the goblin breaks its promises.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Wis": 4,
+        "Cha": 7
+      },
+      "skills": {
+        "Arcana": 4,
+        "Deception": 7,
+        "Persuasion": 7,
+        "Religion": 4
+      },
+      "sections": {
+        "Traits": "Dark One's Own Luck (Recharges after a Short or Long Rest). The goblin can add 1d10 to an ability check or saving throw after rolling, before the roll takes effect.\nNimble Escape. The goblin can take Disengage or Hide as a bonus action on each of its turns.",
+        "Actions": "Mace. Melee weapon attack, +3 to hit, reach 5 ft., one target. On a hit, deal 3 (1d6) bludgeoning damage plus 10 (3d6) fire damage.",
+        "Innate Spellcasting": "The goblin uses Charisma (spell save DC 15) and needs no material components for these spells.\nAt will. Alter Self, False Life, Levitate (self only), Mage Armor (self only), Silent Image.\n1/day each. Feeblemind, Finger of Death, Plane Shift.",
+        "Spellcasting": "The goblin is a 17th-level spellcaster. It uses Charisma (spell save DC 15, +7 to hit with spell attacks). It regains its four 5th-level spell slots when it finishes a short or long rest.\nCantrips at will. Eldritch Blast, Fire Bolt, Friends, Mage Hand, Minor Illusion, Prestidigitation, Shocking Grasp.\nWarlock spells. Banishment, Burning Hands, Flame Strike, Hellish Rebuke, Magic Circle, Scorching Ray, Scrying, Stinking Cloud, Suggestion, Wall of Fire.",
+        "Printed source": "Volo's Guide to Monsters, p. 42, and Warlock of the Fiend, p. 219. Apply the Goblin NPC features from the Dungeon Master's Guide, p. 282."
+      }
+    }
+  },
+  {
+    "name": "Booyahg Slave of the Great Old One",
+    "statBlock": {
+      "name": "Booyahg Slave of the Great Old One",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 42,
+      "classification": "Small humanoid (goblinoid), any alignment",
+      "ac": 12,
+      "hp": 91,
+      "hitDice": "14d8 + 28",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 9
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "6",
+      "xp": 2300,
+      "passivePerception": 11,
+      "description": "This goblin draws magic from a Great Old One. Its patron's influence reaches anyone who stands too close.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Wis": 4,
+        "Cha": 7
+      },
+      "skills": {
+        "Arcana": 4,
+        "History": 4
+      },
+      "sections": {
+        "Traits": "Whispering Aura. At the start of each of the goblin's turns, the aura affects each creature it chooses within 5 ft. Each target makes a DC 15 Wisdom save, taking 10 (3d6) psychic damage on a failure. Incapacitating the goblin suppresses the aura.\nNimble Escape. The goblin can take Disengage or Hide as a bonus action on each of its turns.",
+        "Actions": "Dagger. Melee or ranged weapon attack, +5 to hit, reach 5 ft. or range 20/60 ft., one target. On a hit, deal 4 (1d4 + 2) piercing damage.",
+        "Innate Spellcasting": "The goblin uses Charisma (spell save DC 15) and needs no material components for these spells.\nAt will. Detect Magic, Jump, Levitate, Mage Armor (self only), Speak with Dead.\n1/day each. Arcane Gate, True Seeing.",
+        "Spellcasting": "The goblin is a 14th-level spellcaster. It uses Charisma (spell save DC 15, +7 to hit with spell attacks). It regains its three 5th-level spell slots when it finishes a short or long rest.\nCantrips at will. Chill Touch, Eldritch Blast, Guidance, Mage Hand, Minor Illusion, Prestidigitation, Shocking Grasp.\nWarlock spells. Armor of Agathys, Arms of Hadar, Crown of Madness, Clairvoyance, Contact Other Plane, Detect Thoughts, Dimension Door, Dissonant Whispers, Dominate Beast, Telekinesis, Vampiric Touch.",
+        "Printed source": "Volo's Guide to Monsters, p. 42, and Warlock of the Great Old One, p. 220. Apply the Goblin NPC features from the Dungeon Master's Guide, p. 282."
+      }
+    }
+  }
+]

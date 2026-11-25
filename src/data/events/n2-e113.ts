@@ -22,4 +22,5 @@ export default createEvent({
       ' released him from the void sphere.',
     ],
   ],
+  illustrations: ['/assets/scenes/the-party-finds-cassian-in-the-lower-stables.png'],
 })

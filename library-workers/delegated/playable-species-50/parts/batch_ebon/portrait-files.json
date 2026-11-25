@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Bearfolk",
+    "file": "",
+    "sha256": "97527c8c4bb098a8c341e61a7761838f9c330db34a5534c22bdc09aa6c751a4a",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Darakhul",
+    "file": "",
+    "sha256": "871b464715d6d1e0f9f0c2dd4978aa616697952cc722f5c05e8885b4bb731089",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Quickstep",
+    "file": "",
+    "sha256": "aaade50570916541721ae07d82b09679042566cfe188d74b1fa2326be384b22f",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Ratatosk",
+    "file": "",
+    "sha256": "6b1b044e1dc4ff7399e9b81862faae2b822d6270cc94b55057f37c54578160cf",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Shadow Goblin",
+    "file": "",
+    "sha256": "9d220ab8324efcda6312dd090952641029667a697cbe973177d28cee7c5107a3",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  }
+]

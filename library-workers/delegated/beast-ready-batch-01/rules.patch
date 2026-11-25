@@ -1,0 +1,2335 @@
+diff --git a/dm-library/bestiary/stat-blocks.json b/dm-library/bestiary/stat-blocks.json
+index 230fb83..5cbc333 100644
+--- a/dm-library/bestiary/stat-blocks.json
++++ b/dm-library/bestiary/stat-blocks.json
+@@ -54855,6 +54855,2330 @@
+       "Reactions": "Ash Shot. When a creature the drangolin can sense moves within 5 ft., force a DC 13 Dexterity save. On failure, the creature is Blinded until the start of its next turn."
+     }
+   },
++  {
++    "name": "Aegisaur",
++    "publication": "Plane Shift: Ixalan",
++    "edition": "2014 fifth edition",
++    "classification": "Huge Beast, unaligned",
++    "ac": 15,
++    "hp": 68,
++    "hitDice": "8d12 + 16",
++    "speed": "30 ft.",
++    "cr": "3",
++    "xp": 700,
++    "abilities": {
++      "Str": {
++        "score": 19,
++        "modifier": 4
++      },
++      "Dex": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 5,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Passive Perception 11. No listed languages or special senses.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A squat four-legged herbivore with overlapping shell-like armored scales and a massive bony club at the end of its tail.",
++    "habitats": ["Ixalan plains", "Grassland"],
++    "sections": {
++      "Printed source": "James Wyatt, Plane Shift: Ixalan, first printing (January 2018), page 28. Reskin of Ankylosaurus, Monster Manual (2014), printed p. 79. ",
++      "Armor": "AC 15 comes from natural armor.",
++      "Actions": "Tail. Melee weapon attack, +7 to hit, reach 10 ft., one target. Hit for 18 (4d6 + 4) bludgeoning damage. A creature hit by the tail must pass a DC 14 Strength save or fall prone.",
++      "At the table": "Resolve damage and the Strength save on the same hit. A prone creature must use half its speed to stand."
++    }
++  },
++  {
++    "name": "Aerosaur (Large)",
++    "publication": "Plane Shift: Ixalan",
++    "edition": "2014 fifth edition",
++    "classification": "Huge Beast, unaligned",
++    "ac": 13,
++    "hp": 30,
++    "hitDice": "4d12 + 4",
++    "speed": "10 ft., fly 80 ft.",
++    "cr": "2",
++    "xp": 450,
++    "abilities": {
++      "Str": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Dex": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Con": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 5,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Perception +2. Passive Perception 12. No listed languages or special senses.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A long-beaked flying reptile with a light crest and wide leathery wings. The shared portrait uses muted rust-brown membranes and subdued moss-green crest scales.",
++    "habitats": ["Ixalan coast", "Coastal updrafts", "High perches"],
++    "sections": {
++      "Printed source": "James Wyatt, Plane Shift: Ixalan, first printing (January 2018), page 29. Reskin of Quetzalcoatlus, Volo’s Guide to Monsters (2016), printed p. 140. ",
++      "Armor": "AC 13 comes from natural armor.",
++      "Traits": "Dive Attack. While flying, dive at least 30 ft. toward the target and hit it with Bite to deal 10 (3d6) extra damage.\nFlyby. Leaving an enemy’s reach in flight does not provoke an opportunity attack.",
++      "Actions": "Bite. Melee weapon attack, +4 to hit, reach 10 ft., one creature. Hit for 12 (3d6 + 2) piercing damage.",
++      "At the table": "The dive is part of movement. Add the extra damage when the Bite hits after the qualifying dive."
++    }
++  },
++  {
++    "name": "Aerosaur (Small)",
++    "publication": "Plane Shift: Ixalan",
++    "edition": "2014 fifth edition",
++    "classification": "Medium Beast, unaligned",
++    "ac": 13,
++    "hp": 13,
++    "hitDice": "3d8",
++    "speed": "10 ft., fly 60 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "abilities": {
++      "Str": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Dex": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 9,
++        "modifier": -1
++      },
++      "Cha": {
++        "score": 5,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Perception +1. Passive Perception 11. No listed languages or special senses.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A long-beaked flying reptile with a light crest and wide leathery wings. The shared portrait uses muted rust-brown membranes and subdued moss-green crest scales.",
++    "habitats": ["Ixalan coast", "Coastal updrafts", "High perches"],
++    "sections": {
++      "Printed source": "James Wyatt, Plane Shift: Ixalan, first printing (January 2018), page 29. Reskin of Pteranodon, Monster Manual (2014), printed p. 80. ",
++      "Armor": "AC 13 comes from natural armor.",
++      "Traits": "Flyby. Leaving an enemy’s reach in flight does not provoke an opportunity attack.",
++      "Actions": "Bite. Melee weapon attack, +3 to hit, reach 5 ft., one target. Hit for 6 (2d4 + 1) piercing damage."
++    }
++  },
++  {
++    "name": "Altisaur",
++    "publication": "Plane Shift: Ixalan",
++    "edition": "2014 fifth edition",
++    "classification": "Gargantuan Beast, unaligned",
++    "ac": 15,
++    "hp": 121,
++    "hitDice": "9d20 + 27",
++    "speed": "30 ft.",
++    "cr": "5",
++    "xp": 1800,
++    "abilities": {
++      "Str": {
++        "score": 21,
++        "modifier": 5
++      },
++      "Dex": {
++        "score": 9,
++        "modifier": -1
++      },
++      "Con": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 7,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Constitution save +6. Passive Perception 10. No listed languages or special senses.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A towering four-legged herbivore with a long tree-browsing neck, broad barrel-shaped body, and a long tapering tail.",
++    "habitats": ["Sun Coast plains", "Sun Coast sparse forests", "Ixalan"],
++    "sections": {
++      "Printed source": "James Wyatt, Plane Shift: Ixalan, first printing (January 2018), page 27. Reskin of Brontosaurus, Volo’s Guide to Monsters (2016), printed p. 139. ",
++      "Armor": "AC 15 comes from natural armor.",
++      "Actions": "Stomp. Melee weapon attack, +8 to hit, reach 20 ft., one target. Hit for 27 (5d8 + 5) bludgeoning damage. A target hit by the stomp must pass a DC 14 Strength save or fall prone.\nTail. Melee weapon attack, +8 to hit, reach 20 ft., one target. Hit for 32 (6d8 + 5) bludgeoning damage.",
++      "At the table": "Either action can reach as far as 20 ft. Stomp adds a Strength save on a hit."
++    }
++  },
++  {
++    "name": "Armasaur",
++    "publication": "Plane Shift: Ixalan",
++    "edition": "2014 fifth edition",
++    "classification": "Huge Beast, unaligned",
++    "ac": 13,
++    "hp": 76,
++    "hitDice": "8d12 + 24",
++    "speed": "40 ft.",
++    "cr": "4",
++    "xp": 1100,
++    "abilities": {
++      "Str": {
++        "score": 20,
++        "modifier": 5
++      },
++      "Dex": {
++        "score": 9,
++        "modifier": -1
++      },
++      "Con": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 5,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Passive Perception 10. No listed languages or special senses.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A four-legged herbivore with spikelike plates rising along its spine and sharp spikes on its flexible tail.",
++    "habitats": ["Ixalan plains", "Grassland"],
++    "sections": {
++      "Printed source": "James Wyatt, Plane Shift: Ixalan, first printing (January 2018), page 28. Reskin of Stegosaurus, Volo’s Guide to Monsters (2016), printed p. 140. ",
++      "Armor": "AC 13 comes from natural armor.",
++      "Actions": "Tail. Melee weapon attack, +7 to hit, reach 10 ft., one target. Hit for 26 (6d6 + 5) piercing damage."
++    }
++  },
++  {
++    "name": "Brontodon",
++    "publication": "Plane Shift: Ixalan",
++    "edition": "2014 fifth edition",
++    "classification": "Gargantuan Beast, unaligned",
++    "ac": 15,
++    "hp": 121,
++    "hitDice": "9d20 + 27",
++    "speed": "30 ft.",
++    "cr": "5",
++    "xp": 1800,
++    "abilities": {
++      "Str": {
++        "score": 21,
++        "modifier": 5
++      },
++      "Dex": {
++        "score": 9,
++        "modifier": -1
++      },
++      "Con": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 7,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Natural armor. Constitution save +6. Passive Perception 10. No listed languages or special senses.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "An enormous long-necked herd dinosaur with a heavy green-scaled body, four pillar-like legs, a long tail, and blue quills near the head.",
++    "habitats": ["Sun Coast plains", "Sparse forests", "Ixalan grasslands"],
++    "sections": {
++      "Printed source": "James Wyatt, Plane Shift: Ixalan, first printing (January 2018), page 27, The Rumbling Herds.  Use the Brontosaurus stat block in Volo's Guide to Monsters, first printing, november 2016, printed p. 139. ",
++      "Actions": "Stomp. Melee weapon attack, +8 to hit, 20-ft. reach, one target. On a hit, deal 27 (5d8 + 5) bludgeoning damage. The target makes a DC 14 Strength save or falls prone.\nTail. Melee weapon attack, +8 to hit, 20-ft. reach, one target. On a hit, deal 32 (6d8 + 5) bludgeoning damage."
++    }
++  },
++  {
++    "name": "Ceratops",
++    "publication": "Plane Shift: Ixalan",
++    "edition": "2014 fifth edition",
++    "classification": "Huge Beast, unaligned",
++    "ac": 13,
++    "hp": 95,
++    "hitDice": "10d12 + 30",
++    "speed": "50 ft.",
++    "cr": "5",
++    "xp": 1800,
++    "abilities": {
++      "Str": {
++        "score": 22,
++        "modifier": 6
++      },
++      "Dex": {
++        "score": 9,
++        "modifier": -1
++      },
++      "Con": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 5,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Natural armor. Passive Perception 10. No listed languages or special senses.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A four-legged herbivore with a low sturdy body, a beak, enormous facial horns and a broad feathered frill protecting its neck.",
++    "habitats": ["Ixalan plains", "Grasslands", "Sun Empire"],
++    "sections": {
++      "Printed source": "James Wyatt, Plane Shift: Ixalan, first printing (January 2018), page 28, Horned Herbivores.  Use the Triceratops stat block in Monster Manual, first printing, september 2014, printed p. 80. https://www.dndbeyond.com/monsters/17039-triceratops",
++      "Traits": "Trampling Charge. If the ceratops travels at least 20 ft. straight toward a creature and hits it with Gore on the same turn, that creature must pass a DC 13 Strength save or fall prone. If the target is prone, the ceratops can Stomp it once as a bonus action.",
++      "Actions": "Gore. Melee weapon attack, +9 to hit, 5-ft. reach, one target. On a hit, deal 24 (4d8 + 6) piercing damage.\nStomp. Melee weapon attack, +9 to hit, 5-ft. reach, one prone creature. On a hit, deal 22 (3d10 + 6) bludgeoning damage."
++    }
++  },
++  {
++    "name": "Ferocidon",
++    "publication": "Plane Shift: Ixalan",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 13,
++    "hp": 51,
++    "hitDice": "6d10 + 18",
++    "speed": "60 ft.",
++    "cr": "2",
++    "xp": 450,
++    "abilities": {
++      "Str": {
++        "score": 19,
++        "modifier": 4
++      },
++      "Dex": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Con": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 5,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Natural armor. Perception +5. Passive Perception 15. No listed languages or special senses.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "An allosaur-shaped raptor relative with a long balancing tail, powerful hind legs, a narrow toothy head, and clawed forelimbs.",
++    "habitats": ["Ixalan grasslands", "Open ground", "Jungle edges"],
++    "sections": {
++      "Printed source": "James Wyatt, Plane Shift: Ixalan, first printing (January 2018), page 30, Teeth and Frills.  Use the Allosaurus stat block in Monster Manual, first printing, september 2014, printed p. 79. https://www.dndbeyond.com/monsters/17087-allosaurus",
++      "Traits": "Pounce. If the ferocidon travels at least 30 ft. straight toward a creature and hits it with Claw on the same turn, that creature must pass a DC 13 Strength save or fall prone. If the target is prone, the ferocidon can Bite it once as a bonus action.",
++      "Actions": "Bite. Melee weapon attack, +6 to hit, 5-ft. reach, one target. On a hit, deal 15 (2d10 + 4) piercing damage.\nClaw. Melee weapon attack, +6 to hit, 5-ft. reach, one target. On a hit, deal 8 (1d8 + 4) slashing damage."
++    }
++  },
++  {
++    "name": "Gishath, Sun's Avatar",
++    "publication": "Plane Shift: Ixalan",
++    "edition": "2014 fifth edition",
++    "classification": "Gargantuan Beast, unaligned",
++    "ac": 16,
++    "hp": 203,
++    "hitDice": "14d20 + 56",
++    "speed": "40 ft.",
++    "cr": "10",
++    "xp": 5900,
++    "abilities": {
++      "Str": {
++        "score": 24,
++        "modifier": 7
++      },
++      "Dex": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Con": {
++        "score": 18,
++        "modifier": 4
++      },
++      "Int": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Wis": {
++        "score": 16,
++        "modifier": 3
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Natural armor. Saves Strength +11, Constitution +8, Wisdom +7, Charisma +2. Perception +7. Passive Perception 17. No listed languages or special senses.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A towering tyrannosaur-like dinosaur with heavy hind legs, a massive tooth-lined head, short front limbs, neck spines, and a feather ruff.",
++    "habitats": ["Ixalan jungle", "Sun Empire"],
++    "sections": {
++      "Printed source": "James Wyatt, Plane Shift: Ixalan, first printing (January 2018), page 32, Gishath, Sun's Avatar. ",
++      "Traits": "Legendary Resistance (3/day). Gishath can turn a failed saving throw into a success.",
++      "Actions": "Multiattack. Make one Bite and one Stomp or Tail attack. The two attacks must have different targets.\nBite. Melee weapon attack, +11 to hit, 15-ft. reach, one target. On a hit, deal 39 (5d12 + 7) piercing damage. A Large or smaller creature hit must pass a DC 19 Dexterity save or be grappled (escape DC 19). The creature is restrained during the grapple, and Gishath cannot Bite another target until the grapple ends.\nSwallow. Make one Bite attack against a Large or smaller creature Gishath is grappling. On a hit, apply the Bite damage, swallow the creature, and end the grapple. A swallowed creature is blinded and restrained, has total cover from attacks and effects originating outside Gishath, and takes 21 (6d6) acid damage at the start of each of Gishath’s turns.\nIf an individual swallowed creature deals at least 30 damage to Gishath in one turn, Gishath must make a DC 18 Constitution save at that turn’s end. On a failure, it ejects every swallowed creature. Each lands prone in a space within 10 ft. of it. If Gishath dies, a swallowed creature is no longer restrained by it and can spend 20 ft. of movement to exit the body prone.\nStomp. Melee weapon attack, +11 to hit, 10-ft. reach, one target. On a hit, deal 29 (5d8 + 7) bludgeoning damage. The target must pass a DC 19 Strength save or fall prone.\nTail. Melee weapon attack, +11 to hit, 15-ft. reach, one target. On a hit, deal 25 (4d8 + 7) bludgeoning damage.",
++      "Legendary actions": "Gishath has 3 legendary actions. Spend them one option at a time at the end of another creature’s turn. Gishath recovers spent actions at the start of its own turn.\nAttack (1 action). Make one Stomp or Tail attack.\nRoar (2 actions). Any creature within 120 ft. that can hear Gishath makes a DC 19 Wisdom save. Failure frightens it for 1 minute. An affected creature can repeat the save at the end of each of its turns and ends the effect on a success. A creature becomes immune to this Roar for 24 hours when it succeeds on a save or the effect ends for it."
++    }
++  },
++  {
++    "name": "Hadrosaur",
++    "publication": "Plane Shift: Ixalan",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 11,
++    "hp": 19,
++    "hitDice": "3d10 + 3",
++    "speed": "40 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "abilities": {
++      "Str": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Dex": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 5,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Natural armor. Perception +2. Passive Perception 12. No listed languages or special senses.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A duck-billed herbivore with a bony crest on its head, sturdy hindquarters, smaller front limbs, and a long balancing tail.",
++    "habitats": ["Ixalan grasslands", "Wetlands", "Swamps"],
++    "sections": {
++      "Printed source": "James Wyatt, Plane Shift: Ixalan, first printing (January 2018), page 29, Scales, Spikes, and Hammers continuation.  Use the Hadrosaurus stat block in Volo's Guide to Monsters, first printing, november 2016, printed p. 140. ",
++      "Actions": "Tail. Melee weapon attack, +4 to hit, 5-ft. reach, one target. On a hit, deal 7 (1d10 + 2) bludgeoning damage.",
++      "At the table": "The base description says a hadrosaur raised from hatching can be trained as a mount for a Small or Medium rider. This is lore on p. 139."
++    }
++  },
++  {
++    "name": "Hammerskull",
++    "publication": "Plane Shift: Ixalan",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 11,
++    "hp": 19,
++    "hitDice": "3d10 + 3",
++    "speed": "40 ft.",
++    "cr": "1/2",
++    "xp": 100,
++    "abilities": {
++      "Str": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Dex": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 3,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Natural armor. Passive Perception 11. No listed skills, languages, or special senses.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A slate-blue and green bipedal herbivore with a thick plated head, small forelimbs, and a sturdy tail.",
++    "habitats": ["Ixalan plains", "Grassland"],
++    "sections": {
++      "Printed source": "James Wyatt, Plane Shift: Ixalan, first printing (January 2018), pp. 28–29.  Giant Goat from the 2014 Monster Manual, p. 326. https://www.dndbeyond.com/monsters/16885-giant-goat",
++      "Traits": "Charge. After moving straight toward a target at least 20 ft., the hammerskull adds 5 (2d4) bludgeoning damage if it hits that target with Ram on the same turn. A creature hit this way must pass a DC 13 Strength save or fall prone.\nSure-Footed. Roll with advantage on Strength and Dexterity saves against effects that would knock the hammerskull prone.",
++      "Actions": "Ram. +5 to hit in melee, reach 5 ft., one target. The hit deals 8 (2d4 + 3) bludgeoning damage.",
++      "At the table": "Use the Giant Goat’s numbers with the hammerskull’s plated head. The Charge damage applies on the hit. Only a creature rolls the save against being knocked prone."
++    }
++  },
++  {
++    "name": "Horned Frog",
++    "publication": "Plane Shift: Ixalan",
++    "edition": "2014 fifth edition",
++    "classification": "Medium Beast, unaligned",
++    "ac": 11,
++    "hp": 18,
++    "hitDice": "4d8",
++    "speed": "30 ft., swim 30 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "abilities": {
++      "Str": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Dex": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Con": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 3,
++        "modifier": -4
++      }
++    },
++    "otherStatistics": "Perception +2, Stealth +3. Darkvision 30 ft. Passive Perception 12. No listed languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "An oversized, broad-mouthed frog with two short peaks above the eyes, mottled olive skin, and webbed feet.",
++    "habitats": ["Ixalan marshes", "Rainforest wetlands"],
++    "sections": {
++      "Printed source": "James Wyatt, Plane Shift: Ixalan, first printing (January 2018), p. 39.  Giant Frog from the 2014 Monster Manual, p. 325. https://www.dndbeyond.com/monsters/16884-giant-frog",
++      "Traits": "Amphibious. The horned frog breathes both air and water.\nStanding Leap. Its long jump can reach 20 ft. and its high jump 10 ft. It needs no running start for either.",
++      "Actions": "Bite. +3 to hit in melee, reach 5 ft., one target. On a hit, deal 4 (1d6 + 1) piercing damage and grapple the target (escape DC 11). The target is restrained while the grapple lasts, and the frog cannot use Bite against another target in that time.\nSwallow. Make a Bite attack against one Small or smaller creature the frog is grappling. A hit swallows the target and ends the grapple. While swallowed, the target is blinded and restrained and has total cover from attacks and other effects originating outside the frog. At the start of each of the frog’s turns, the target takes 5 (2d4) acid damage. The frog can hold one swallowed creature at a time. If the frog dies, the creature is no longer restrained and can spend 5 ft. of movement to emerge from the corpse, prone.",
++      "At the table": "The Bite grapple and restraint start on a hit. The size limit applies to Swallow, which requires its own successful Bite attack against a creature the frog already holds."
++    }
++  },
++  {
++    "name": "Macaw",
++    "publication": "Plane Shift: Ixalan",
++    "edition": "2014 fifth edition",
++    "classification": "Tiny Beast, unaligned",
++    "ac": 12,
++    "hp": 1,
++    "hitDice": "1d4 - 1",
++    "speed": "10 ft., fly 50 ft.",
++    "cr": "0",
++    "xp": 10,
++    "abilities": {
++      "Str": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Dex": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 8,
++        "modifier": -1
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Perception +3. Passive Perception 13. No listed languages or special senses.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A broad tropical bird with a curved dark beak, a pale cheek patch, muted brick-red and blue plumage, and a long tapering tail.",
++    "habitats": ["Ixalan rainforest canopy", "Riverbank clay licks", "Coastal clay licks"],
++    "sections": {
++      "Printed source": "James Wyatt, Plane Shift: Ixalan, first printing (January 2018), p. 39.  Raven from the 2014 Monster Manual, p. 335. https://www.dndbeyond.com/monsters/16992-raven",
++      "Traits": "Mimicry. The bird can imitate simple sounds it has heard, including snippets of humanoid voices. A listener who succeeds on a DC 10 Wisdom (Insight) check can tell it is an imitation.",
++      "Actions": "Beak. +4 to hit in melee, reach 5 ft., one target. The hit deals a fixed 1 piercing damage.",
++      "At the table": "Use the printed Raven’s Tiny size and 50-ft. flight speed. The Ixalan account describes birds imitating travelers’ voices, and the Raven’s Mimicry rule gives the check to recognize the imitation."
++    }
++  },
++  {
++    "name": "Parrot",
++    "publication": "Plane Shift: Ixalan",
++    "edition": "2014 fifth edition",
++    "classification": "Tiny Beast, unaligned",
++    "ac": 12,
++    "hp": 1,
++    "hitDice": "1d4 - 1",
++    "speed": "10 ft., fly 50 ft.",
++    "cr": "0",
++    "xp": 10,
++    "abilities": {
++      "Str": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Dex": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 8,
++        "modifier": -1
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Perception +3. Passive Perception 13. No listed languages or special senses.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A colorful jungle bird with a curved dark beak, a pale cheek patch, muted red and olive feathers, and a long tapered tail.",
++    "habitats": ["Ixalan rainforest canopy", "Riverbank clay licks", "Coastal clay licks"],
++    "sections": {
++      "Printed source": "James Wyatt, Plane Shift: Ixalan, first printing (January 2018), p. 39.  Raven from the 2014 Monster Manual, p. 335. https://www.dndbeyond.com/monsters/16992-raven",
++      "Traits": "Mimicry. The bird can imitate simple sounds it has heard, including snippets of humanoid voices. A listener who succeeds on a DC 10 Wisdom (Insight) check can tell it is an imitation.",
++      "Actions": "Beak. +4 to hit in melee, reach 5 ft., one target. The hit deals a fixed 1 piercing damage.",
++      "At the table": "Use the printed Raven’s Tiny size and 50-ft. flight speed. The Ixalan account describes birds imitating travelers’ voices, and the Raven’s Mimicry rule gives the check to recognize the imitation."
++    }
++  },
++  {
++    "name": "Piranha",
++    "publication": "Plane Shift: Ixalan",
++    "edition": "2014 fifth edition",
++    "classification": "Tiny Beast, unaligned",
++    "ac": 13,
++    "hp": 1,
++    "hitDice": "1d4 - 1",
++    "speed": "0 ft., swim 40 ft.",
++    "cr": "0",
++    "xp": 10,
++    "abilities": {
++      "Str": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Dex": {
++        "score": 16,
++        "modifier": 3
++      },
++      "Con": {
++        "score": 9,
++        "modifier": -1
++      },
++      "Int": {
++        "score": 1,
++        "modifier": -5
++      },
++      "Wis": {
++        "score": 7,
++        "modifier": -2
++      },
++      "Cha": {
++        "score": 2,
++        "modifier": -4
++      }
++    },
++    "otherStatistics": "Darkvision 60 ft. Passive Perception 8. No listed skills or languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A small, round-bodied freshwater fish with silvery scales, a muted rusty belly, a forked tail, and sharp teeth.",
++    "habitats": ["Great River", "Great River tributaries", "Freshwater rivers", "Underwater"],
++    "sections": {
++      "Printed source": "James Wyatt, Plane Shift: Ixalan, first printing (January 2018), p. 40.  Quipper from the 2014 Monster Manual, p. 335. https://www.dndbeyond.com/monsters/16989-quipper",
++      "Traits": "Blood Frenzy. The piranha has advantage on melee attacks against creatures below their hit point maximum.\nWater Breathing. The piranha breathes only underwater.",
++      "Actions": "Bite. +5 to hit in melee, reach 5 ft., one target. The hit deals a fixed 1 piercing damage.",
++      "At the table": "Use the individual Quipper for this entry. The Swarm of Piranhas has a separate block based on the Swarm of Quippers."
++    }
++  },
++  {
++    "name": "Sailback",
++    "publication": "Plane Shift: Ixalan",
++    "edition": "2014 fifth edition",
++    "classification": "Huge Beast, unaligned",
++    "ac": 14,
++    "hp": 85,
++    "hitDice": "9d12 + 27",
++    "speed": "30 ft., swim 50 ft.",
++    "cr": "5",
++    "xp": 1800,
++    "abilities": {
++      "Str": {
++        "score": 21,
++        "modifier": 5
++      },
++      "Dex": {
++        "score": 9,
++        "modifier": -1
++      },
++      "Con": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 7,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Natural armor. Stealth +5. Passive Perception 10. No listed languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A long-snouted dinosaur with slate-blue scales, a tall rust-orange spinal sail, short quills behind its head, and a thick balancing tail.",
++    "habitats": ["Ixalan lakes", "Ixalan rivers"],
++    "sections": {
++      "Printed source": "James Wyatt, Plane Shift: Ixalan, first printing (January 2018), p. 30, Teeth and Frills.  of Giant Crocodile, Monster Manual (2014), printed p. 324.",
++      "Traits": "Hold Breath. A Sailback can go 30 minutes without taking a breath.",
++      "Actions": "Multiattack. Make one Bite attack and one Tail attack.\nBite. Melee weapon attack, +8 to hit against one target within 5 ft. On a hit, deal 21 (3d10 + 5) piercing damage and grapple the target (escape DC 16). The target remains restrained while grappled this way, and the Sailback can bite only that target until the grapple ends.\nTail. Melee weapon attack, +8 to hit against one target within 10 ft. that the Sailback isn't currently grappling. On a hit, deal 14 (2d8 + 5) bludgeoning damage. A creature hit must pass a DC 16 Strength save to stay standing.",
++      "At the table": "Resolve the bite grapple on the hit. A grappled target can use its action to attempt the DC 16 escape check. After the bite secures one creature, the tail needs another eligible target."
++    }
++  },
++  {
++    "name": "Swarm of Piranhas",
++    "publication": "Plane Shift: Ixalan",
++    "edition": "2014 fifth edition",
++    "classification": "Medium swarm of Tiny Beasts, unaligned",
++    "ac": 13,
++    "hp": 28,
++    "hitDice": "8d8 − 8",
++    "speed": "0 ft., swim 40 ft.",
++    "cr": "1",
++    "xp": 200,
++    "abilities": {
++      "Str": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Dex": {
++        "score": 16,
++        "modifier": 3
++      },
++      "Con": {
++        "score": 9,
++        "modifier": -1
++      },
++      "Int": {
++        "score": 1,
++        "modifier": -5
++      },
++      "Wis": {
++        "score": 7,
++        "modifier": -2
++      },
++      "Cha": {
++        "score": 2,
++        "modifier": -4
++      }
++    },
++    "otherStatistics": "Darkvision 60 ft., passive Perception 8. No listed skills or languages. Resists bludgeoning, piercing, and slashing damage. Immune to the charmed, frightened, grappled, paralyzed, petrified, prone, restrained, and stunned conditions.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A churning school of small, broad-bodied river fish with silver-grey backs, muted red undersides, forked tails, and short jaws full of sharp teeth.",
++    "habitats": ["Great River", "Great River tributaries", "Freshwater", "Underwater"],
++    "sections": {
++      "Printed source": "James Wyatt, Plane Shift: Ixalan, first printing (January 2018), p. 40, Life of the Waters.  of Swarm of Quippers, Monster Manual (2014), printed p. 338. The pre-Ixalan Monster Manual errata v1.1 adds grappled immunity to every swarm.",
++      "Traits": "Blood Frenzy. Roll melee attacks with advantage against creatures below their hit point maximum.\nSwarm. The swarm can share spaces with other creatures in either direction and squeeze through any gap a Tiny piranha can pass. It cannot regain hit points or gain temporary hit points.\nWater Breathing. The swarm breathes only underwater.",
++      "Actions": "Bites. Melee weapon attack, +5 to hit against one creature sharing the swarm's space, reach 0 ft. Deal 14 (4d6) piercing damage on a hit. At half its hit points or below, the attack deals 7 (2d6) piercing damage instead.",
++      "At the table": "At the default maximum of 28 HP, switch to 2d6 damage at 14 HP or less. Track Blood Frenzy from the target's HP, separately from the swarm's own damage threshold."
++    }
++  },
++  {
++    "name": "Trilobite",
++    "publication": "Plane Shift: Ixalan",
++    "edition": "2014 fifth edition",
++    "classification": "Tiny Beast, unaligned",
++    "ac": 11,
++    "hp": 2,
++    "hitDice": "1d4",
++    "speed": "20 ft., swim 20 ft.",
++    "cr": "0",
++    "xp": 10,
++    "abilities": {
++      "Str": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Dex": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 1,
++        "modifier": -5
++      },
++      "Wis": {
++        "score": 8,
++        "modifier": -1
++      },
++      "Cha": {
++        "score": 2,
++        "modifier": -4
++      }
++    },
++    "otherStatistics": "Natural armor. Stealth +2. Blindsight 30 ft., passive Perception 9. No listed languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "An oval, low-bodied trilobite with a broad head shield, a three-lobed segmented shell, small compound eyes, and two curved rust-colored feelers.",
++    "habitats": ["Ixalan beaches", "Riverbanks", "Shallow water"],
++    "sections": {
++      "Printed source": "James Wyatt, Plane Shift: Ixalan, first printing (January 2018), p. 40, Life of the Waters.  of Crab, Monster Manual (2014), printed p. 320.",
++      "Traits": "Amphibious. Breathes both air and water.",
++      "Actions": "Claw. Melee weapon attack, +0 to hit against one target within 5 ft. A hit deals 1 bludgeoning damage.",
++      "At the table": "Claw is the inherited attack label for the ordinary, Tiny trilobite. Use the fixed damage shown."
++    }
++  },
++  {
++    "name": "Trilobite (Giant)",
++    "publication": "Plane Shift: Ixalan",
++    "edition": "2014 fifth edition",
++    "classification": "Medium Beast, unaligned",
++    "ac": 15,
++    "hp": 13,
++    "hitDice": "3d8",
++    "speed": "30 ft., swim 30 ft.",
++    "cr": "1/8",
++    "xp": 25,
++    "abilities": {
++      "Str": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Dex": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 1,
++        "modifier": -5
++      },
++      "Wis": {
++        "score": 9,
++        "modifier": -1
++      },
++      "Cha": {
++        "score": 3,
++        "modifier": -4
++      }
++    },
++    "otherStatistics": "Natural armor. Stealth +4. Blindsight 30 ft., passive Perception 9. No listed languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A giant trilobite with a broad head shield, a three-lobed segmented shell, small compound eyes, and two curved rust-colored feelers.",
++    "habitats": ["Ixalan beaches", "Riverbanks", "Shallow water"],
++    "sections": {
++      "Printed source": "James Wyatt, Plane Shift: Ixalan, first printing (January 2018), p. 40, Life of the Waters.  of Giant Crab, Monster Manual (2014), printed p. 324.",
++      "Traits": "Amphibious. Breathes both air and water.",
++      "Actions": "Claw. Melee weapon attack, +3 to hit against one target within 5 ft. A hit deals 4 (1d6 + 1) bludgeoning damage and grapples the target (escape DC 11). The base block gives the giant form two grasping appendages. Each can hold one target at a time.",
++      "At the table": "The inherited Claw has an automatic grapple on a hit. A held creature can use its action to attempt the DC 11 escape check. Track each appendage's grapple separately."
++    }
++  },
++  {
++    "name": "Tyrant",
++    "publication": "Plane Shift: Ixalan",
++    "edition": "2014 fifth edition",
++    "classification": "Huge Beast, unaligned",
++    "ac": 13,
++    "hp": 136,
++    "hitDice": "13d12 + 52",
++    "speed": "50 ft.",
++    "cr": "8",
++    "xp": 3900,
++    "abilities": {
++      "Str": {
++        "score": 25,
++        "modifier": 7
++      },
++      "Dex": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 19,
++        "modifier": 4
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 9,
++        "modifier": -1
++      }
++    },
++    "otherStatistics": "Natural armor. Perception +4. Passive Perception 14. No listed languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "An enormous bipedal predator with a massive head, blade-like teeth, tiny forelimbs, heavy hind legs, and a long tail. The illustrated form has muted red-ochre neck feathers over grey-green scales.",
++    "habitats": ["Ixalan jungles", "Forested valleys"],
++    "sections": {
++      "Printed source": "James Wyatt, Plane Shift: Ixalan, first printing (January 2018), p. 31, Dinosaur Tyrants.  of Tyrannosaurus Rex, Monster Manual (2014), printed p. 80.",
++      "Actions": "Multiattack. Make one Bite attack and one Tail attack against different targets.\nBite. Melee weapon attack, +10 to hit against one target within 10 ft. On a hit, deal 33 (4d12 + 7) piercing damage. A Medium or smaller creature hit is grappled (escape DC 17) and stays restrained while held. The Tyrant can bite only that creature until the grapple ends.\nTail. Melee weapon attack, +10 to hit against one target within 10 ft. On a hit, deal 20 (3d8 + 7) bludgeoning damage.",
++      "At the table": "With only one eligible target in reach, use one attack. The Tyrant's bite grapples only Medium or smaller creatures. A held creature can spend its action to attempt the DC 17 escape check. The roaring described in Ixalan is flavor."
++    }
++  },
++  {
++    "name": "Baloth",
++    "publication": "Plane Shift: Zendikar",
++    "edition": "2014 fifth edition",
++    "classification": "Huge Beast, unaligned",
++    "ac": 13,
++    "hp": 95,
++    "hitDice": "10d12 + 30",
++    "speed": "50 ft.",
++    "cr": "5",
++    "xp": 1800,
++    "abilities": {
++      "Str": {
++        "score": 22,
++        "modifier": 6
++      },
++      "Dex": {
++        "score": 9,
++        "modifier": -1
++      },
++      "Con": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 5,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Natural armor. Proficiency bonus +3. Passive Perception 10. No listed skill proficiencies, special senses or languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A bulky, muscular omnivore covered in horns, spines and plates. The portrait shows a heavy ground-running form with a broad muzzle and strong forelimbs.",
++    "habitats": ["Onduan plains", "Zendikar wilds"],
++    "sections": {
++      "Printed source": "James Wyatt, Plane Shift: Zendikar, first printing (April 2016), page 33.  uses the Triceratops stat block in Monster Manual (2014), p. 80. Official 2014 rules listing: https://www.dndbeyond.com/monsters/17039-triceratops",
++      "Traits": "Trampling Charge. Move at least 20 ft. directly toward a creature and hit it with Gore on that turn. The creature makes a DC 13 Strength save and falls prone on a failure. The baloth can follow up with a bonus-action Stomp if the target is prone.",
++      "Actions": "Gore. Melee weapon attack, +9 to hit, reach 5 ft., one target. On a hit, deal 24 (4d8 + 6) piercing damage.\nStomp. Melee weapon attack, +9 to hit, reach 5 ft., one prone creature. On a hit, deal 22 (3d10 + 6) bludgeoning damage.",
++      "At the table": "This is the regular walking form. The Woodcrasher’s 30-ft. climb speed belongs to the separate Woodcrasher Baloth."
++    }
++  },
++  {
++    "name": "Drake (Large)",
++    "publication": "Plane Shift: Zendikar",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, neutral good",
++    "ac": 13,
++    "hp": 26,
++    "hitDice": "4d10 + 4",
++    "speed": "10 ft., fly 80 ft.",
++    "cr": "1",
++    "xp": 200,
++    "abilities": {
++      "Str": {
++        "score": 16,
++        "modifier": 3
++      },
++      "Dex": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Con": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 8,
++        "modifier": -1
++      },
++      "Wis": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Cha": {
++        "score": 10,
++        "modifier": 0
++      }
++    },
++    "otherStatistics": "Proficiency bonus +2. Perception +4. Passive Perception 14. Base languages: speaks Giant Eagle and understands Common and Auran without speaking them. No listed special senses.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A slate-blue reptile with two legs, a long tail and two large leathery wings. The same silhouette represents both Zendikar drake sizes.",
++    "habitats": ["Akoum highlands", "Northern Akoum", "Coastal air"],
++    "sections": {
++      "Printed source": "James Wyatt, Plane Shift: Zendikar, first printing (April 2016), page 24.  uses the Giant Eagle stat block in Monster Manual (2014), p. 324. Official 2014 rules listing: https://www.dndbeyond.com/monsters/16881-giant-eagle",
++      "Traits": "Keen Sight. Gain advantage on Wisdom (Perception) checks based on sight.",
++      "Actions": "Multiattack. Make one Beak and one Talons attack.\nBeak. Melee weapon attack, +5 to hit, reach 5 ft., one target. On a hit, deal 6 (1d6 + 3) piercing damage.\nTalons. Melee weapon attack, +5 to hit, reach 5 ft., one target. On a hit, deal 10 (2d6 + 3) slashing damage.",
++      "At the table": "Zendikar gives no alignment or language override. Neutral good and the Giant Eagle language line are inherited from the suggested base."
++    }
++  },
++  {
++    "name": "Drake (Small)",
++    "publication": "Plane Shift: Zendikar",
++    "edition": "2014 fifth edition",
++    "classification": "Medium Beast, unaligned",
++    "ac": 13,
++    "hp": 13,
++    "hitDice": "3d8",
++    "speed": "10 ft., fly 60 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "abilities": {
++      "Str": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Dex": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 9,
++        "modifier": -1
++      },
++      "Cha": {
++        "score": 5,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Natural armor. Proficiency bonus +2. Perception +1. Passive Perception 11. No listed special senses or languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A reptile with two legs, a long tail and broad leathery wings, smaller than the large drake. It shares the same portrait.",
++    "habitats": ["Akoum highlands", "Northern Akoum", "Coastal air"],
++    "sections": {
++      "Printed source": "James Wyatt, Plane Shift: Zendikar, first printing (April 2016), page 24.  uses the Pteranodon stat block in Monster Manual (2014), p. 80. Official 2014 rules listing: https://www.dndbeyond.com/monsters/17093-pteranodon",
++      "Traits": "Flyby. When it flies out of a foe’s reach, that movement gives the foe no opportunity attack.",
++      "Actions": "Bite. Melee weapon attack, +3 to hit, reach 5 ft., one target. On a hit, deal 6 (2d4 + 1) piercing damage.",
++      "At the table": "Small in the catalog refers to the smaller kind of drake. The suggested Pteranodon base is mechanically Medium."
++    }
++  },
++  {
++    "name": "Gnarlid",
++    "publication": "Plane Shift: Zendikar",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned (enlarged state)",
++    "ac": 11,
++    "hp": 34,
++    "hitDice": "4d10 + 12",
++    "speed": "40 ft., climb 30 ft.",
++    "cr": "1",
++    "xp": 200,
++    "abilities": {
++      "Str": {
++        "score": 19,
++        "modifier": 4
++      },
++      "Dex": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 16,
++        "modifier": 3
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 7,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Natural armor. Proficiency bonus +2. Perception +3. Passive Perception 13. No listed special senses or languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A shaggy quadruped with bear and wolverine features, backward-swept horns and low shoulder spines. It is about as big as a large dog before enlargement.",
++    "habitats": ["Zendikar wilds", "Green-mana forest"],
++    "sections": {
++      "Printed source": "James Wyatt, Plane Shift: Zendikar, first printing (April 2016), page 34.  uses the Brown Bear stat block in Monster Manual (2014), p. 319. Official 2014 rules listing: https://www.dndbeyond.com/monsters/16816-brown-bear",
++      "Traits": "Keen Smell. Gain advantage on Wisdom (Perception) checks based on smell.",
++      "Actions": "Multiattack. Make one Bite and one Claws attack.\nBite. Melee weapon attack, +6 to hit, reach 5 ft., one target. On a hit, deal 8 (1d8 + 4) piercing damage.\nClaws. Melee weapon attack, +6 to hit, reach 5 ft., one target. On a hit, deal 11 (2d6 + 4) slashing damage.",
++      "Zendikar rule": "Green mana can enlarge the gnarlid. This stat block represents that enlarged state. If magic reduces its size, halve its hit point maximum and the damage dealt by its attacks. No action, timing or recharge for growth is specified.",
++      "At the table": "The fixed reduced hit point maximum is 17. Halve each attack’s damage separately, rounding down under the 2014 rule. The source supplies no separate reduced-size stat block."
++    }
++  },
++  {
++    "name": "Great Cat",
++    "publication": "Plane Shift: Zendikar",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 12,
++    "hp": 52,
++    "hitDice": "7d10 + 14",
++    "speed": "40 ft.",
++    "cr": "2",
++    "xp": 450,
++    "abilities": {
++      "Str": {
++        "score": 18,
++        "modifier": 4
++      },
++      "Dex": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 3,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 8,
++        "modifier": -1
++      }
++    },
++    "otherStatistics": "Proficiency bonus +2. Perception +3, Stealth +6. Passive Perception 13. No listed special senses or languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A muscular great cat with enormous backward-pointing blades projecting from its forelegs. The portrait depicts a tawny, spotted individual with prominent upper canines.",
++    "habitats": ["Dense undergrowth", "Zendikar woodlands"],
++    "sections": {
++      "Printed source": "James Wyatt, Plane Shift: Zendikar, first printing (April 2016), page 34.  uses the Saber-Toothed Tiger stat block in Monster Manual (2014), p. 336. Official 2014 rules listing: https://www.dndbeyond.com/monsters/17002-saber-toothed-tiger",
++      "Traits": "Keen Smell. Gain advantage on Wisdom (Perception) checks based on smell.\nPounce. Move at least 20 ft. directly toward a creature and hit it with Claw on that turn. The creature makes a DC 14 Strength save and falls prone on a failure. The cat can follow up with a bonus-action Bite if the target is prone.",
++      "Actions": "Bite. Melee weapon attack, +6 to hit, reach 5 ft., one target. On a hit, deal 10 (1d10 + 5) piercing damage.\nClaw. Melee weapon attack, +6 to hit, reach 5 ft., one target. On a hit, deal 12 (2d6 + 5) slashing damage.",
++      "At the table": "Use the base Claw attack for the foreleg-blade strike. The gives the blades narrative uses and supplies no additional attack."
++    }
++  },
++  {
++    "name": "Heartstabber Mosquito",
++    "publication": "Plane Shift: Zendikar",
++    "edition": "2014 fifth edition",
++    "classification": "Tiny Beast, unaligned",
++    "ac": 14,
++    "hp": 2,
++    "hitDice": "1d4",
++    "speed": "10 ft., fly 40 ft.",
++    "cr": "1/8",
++    "xp": 25,
++    "abilities": {
++      "Str": {
++        "score": 4,
++        "modifier": -3
++      },
++      "Dex": {
++        "score": 16,
++        "modifier": 3
++      },
++      "Con": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 8,
++        "modifier": -1
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Natural armor. Darkvision 60 ft. Passive Perception 9. No listed languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "An oversized mosquito with six long legs, glassy wings and a needlelike proboscis.",
++    "habitats": ["Swamps", "Guul Draz"],
++    "sections": {
++      "Printed source": "James Wyatt, Plane Shift: Zendikar, first printing (April 2016), page 27.  Stirge from Monster Manual, first printing (September 2014), printed p. 284. https://www.dndbeyond.com/monsters/17023-stirge",
++      "Actions": "Blood Drain. Melee weapon attack, +5 to hit with 5-ft. reach against one creature. A hit deals 5 (1d4 + 3) piercing damage and attaches the mosquito to the target. The mosquito stops attacking while attached. At the start of each of its turns, the target instead loses 5 (1d4 + 3) HP from blood loss.\nThe mosquito can detach by spending 5 ft. of movement. It detaches in this way after draining 10 HP of blood or when the target dies. The target or another creature can spend its action detaching it.",
++      "At the table": "Track attached blood loss separately from the initial piercing hit. The target loses HP from Blood Drain without a new attack roll or save."
++    }
++  },
++  {
++    "name": "Oxen",
++    "publication": "Plane Shift: Zendikar",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 11,
++    "hp": 19,
++    "hitDice": "3d10 + 3",
++    "speed": "40 ft.",
++    "cr": "1/2",
++    "xp": 100,
++    "abilities": {
++      "Str": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Dex": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 3,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Natural armor. Passive Perception 11. No listed languages or special senses.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A heavy-shouldered draft ox with swept horns, a thick neck and broad cloven hooves.",
++    "habitats": ["Pillar Plains of Murasa", "Grassland"],
++    "sections": {
++      "Printed source": "James Wyatt, Plane Shift: Zendikar, first printing (April 2016), page 34.  Giant Goat from Monster Manual, first printing (September 2014), printed p. 326. https://www.dndbeyond.com/monsters/16885-giant-goat",
++      "Traits": "Charge. Move at least 20 ft. straight toward a target and hit it with Ram in the same turn. The target takes another 5 (2d4) bludgeoning damage. A creature hit this way must pass a DC 13 Strength save or fall prone.\nSure-Footed. Roll Strength and Dexterity saves with advantage against effects that would knock the ox prone.",
++      "Actions": "Ram. Melee weapon attack, +5 to hit with 5-ft. reach against one target. A hit deals 8 (2d4 + 3) bludgeoning damage."
++    }
++  },
++  {
++    "name": "Shoal Serpent",
++    "publication": "Plane Shift: Zendikar",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 13,
++    "hp": 68,
++    "hitDice": "8d10 + 24",
++    "speed": "20 ft., swim 40 ft.",
++    "cr": "2",
++    "xp": 450,
++    "abilities": {
++      "Str": {
++        "score": 18,
++        "modifier": 4
++      },
++      "Dex": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 16,
++        "modifier": 3
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 5,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Natural armor. Perception +3 and Stealth +4. Passive Perception 13. No listed languages or special senses.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A massive marine serpent whose long neck rises above a heavy, reef-like back.",
++    "habitats": ["Onduan coast", "Coastal waters"],
++    "sections": {
++      "Printed source": "James Wyatt, Plane Shift: Zendikar, first printing (April 2016), page 26.  Plesiosaurus from Monster Manual, first printing (September 2014), printed p. 80. https://www.dndbeyond.com/monsters/16981-plesiosaurus",
++      "Traits": "Hold Breath. The serpent can stay on a single breath for 1 hour.",
++      "Actions": "Bite. Melee weapon attack, +6 to hit with 10-ft. reach against one target. A hit deals 14 (3d6 + 4) piercing damage.",
++      "At the table": "The printed base block retains 20 ft. of walking movement and 40 ft. of swimming movement."
++    }
++  },
++  {
++    "name": "Terastodon",
++    "publication": "Plane Shift: Zendikar",
++    "edition": "2014 fifth edition",
++    "classification": "Huge Beast, unaligned",
++    "ac": 13,
++    "hp": 126,
++    "hitDice": "11d12 + 55",
++    "speed": "40 ft.",
++    "cr": "6",
++    "xp": 2300,
++    "abilities": {
++      "Str": {
++        "score": 24,
++        "modifier": 7
++      },
++      "Dex": {
++        "score": 9,
++        "modifier": -1
++      },
++      "Con": {
++        "score": 21,
++        "modifier": 5
++      },
++      "Int": {
++        "score": 3,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Natural armor. Passive Perception 10. No listed languages or special senses.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "An enormous armored elephant with four tusks and a sharp-edged bone plate extending from its head over the neck.",
++    "habitats": ["Flooded woodland"],
++    "sections": {
++      "Printed source": "James Wyatt, Plane Shift: Zendikar, first printing (April 2016), page 34.  Mammoth from Monster Manual, first printing (September 2014), printed p. 332. https://www.dndbeyond.com/monsters/16950-mammoth",
++      "Traits": "Trampling Charge. Move at least 20 ft. straight toward a creature and hit it with Gore that turn. The target makes a DC 18 Strength save or falls prone. If the target is prone, the terastodon may make one Stomp against it as a bonus action.",
++      "Actions": "Gore. Melee weapon attack, +10 to hit with 10-ft. reach against one target. A hit deals 25 (4d8 + 7) piercing damage.\nStomp. Melee weapon attack, +10 to hit with 5-ft. reach against one prone creature. A hit deals 29 (4d10 + 7) bludgeoning damage.",
++      "At the table": "Stomp has a 5-ft. reach, half of Gore’s 10-ft. reach. Check the distance before using a bonus-action Stomp."
++    }
++  },
++  {
++    "name": "Terra Stomper",
++    "publication": "Plane Shift: Zendikar",
++    "edition": "2014 fifth edition",
++    "classification": "Huge Beast, unaligned",
++    "ac": 13,
++    "hp": 136,
++    "hitDice": "13d12 + 52",
++    "speed": "50 ft.",
++    "cr": "8",
++    "xp": 3900,
++    "abilities": {
++      "Str": {
++        "score": 25,
++        "modifier": 7
++      },
++      "Dex": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 19,
++        "modifier": 4
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 9,
++        "modifier": -1
++      }
++    },
++    "otherStatistics": "Natural armor. Perception +4. Passive Perception 14. No listed languages or special senses.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A six-legged forest behemoth with massive jaws, a heavy tail and a low, thick-set body.",
++    "habitats": ["Vastwood of Tazeem", "Forest"],
++    "sections": {
++      "Printed source": "James Wyatt, Plane Shift: Zendikar, first printing (April 2016), page 34.  Tyrannosaurus Rex from Monster Manual, first printing (September 2014), printed p. 80. https://www.dndbeyond.com/monsters/17041-tyrannosaurus-rex",
++      "Actions": "Multiattack. Make one Bite and one Tail attack against different targets.\nBite. Melee weapon attack, +10 to hit with 10-ft. reach against one target. A hit deals 33 (4d12 + 7) piercing damage. If the target is a Medium or smaller creature, it is grappled and restrained until the grapple ends. The escape DC is 17. During the grapple, the stomper cannot bite another target.\nTail. Melee weapon attack, +10 to hit with 10-ft. reach against one target. A hit deals 20 (3d8 + 7) bludgeoning damage."
++    }
++  },
++  {
++    "name": "Woodcrasher Baloth",
++    "publication": "Plane Shift: Zendikar",
++    "edition": "2014 fifth edition",
++    "classification": "Huge Beast, unaligned",
++    "ac": 13,
++    "hp": 95,
++    "hitDice": "10d12 + 30",
++    "speed": "50 ft., climb 30 ft.",
++    "cr": "5",
++    "xp": 1800,
++    "abilities": {
++      "Str": {
++        "score": 22,
++        "modifier": 6
++      },
++      "Dex": {
++        "score": 9,
++        "modifier": -1
++      },
++      "Con": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 5,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Natural armor. Passive Perception 10. No listed languages or special senses.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A muscular baloth with horns, a spiny plated hide and enormous claws for gripping tree trunks.",
++    "habitats": ["Turntimber forest", "Forest canopy"],
++    "sections": {
++      "Printed source": "James Wyatt, Plane Shift: Zendikar, first printing (April 2016), page 33.  Triceratops from Monster Manual, first printing (September 2014), printed p. 80. https://www.dndbeyond.com/monsters/17039-triceratops",
++      "Zendikar adjustment": "The Zendikar text adds a 30-ft. climbing speed. Keep the Triceratops block’s 50-ft. walking speed and other statistics.",
++      "Traits": "Trampling Charge. Move at least 20 ft. straight toward a creature and hit it with Gore that turn. The target makes a DC 13 Strength save or falls prone. If the target is prone, the baloth may make one Stomp against it as a bonus action.",
++      "Actions": "Gore. Melee weapon attack, +9 to hit with 5-ft. reach against one target. A hit deals 24 (4d8 + 6) piercing damage.\nStomp. Melee weapon attack, +9 to hit with 5-ft. reach against one prone creature. A hit deals 22 (3d10 + 6) bludgeoning damage."
++    }
++  },
++  {
++    "name": "Ammit",
++    "publication": "Plane Shift: Amonkhet",
++    "edition": "2014 fifth edition",
++    "classification": "Huge Beast, unaligned",
++    "ac": 14,
++    "hp": 85,
++    "hitDice": "9d12 + 27",
++    "speed": "30 ft., swim 50 ft.",
++    "cr": "5",
++    "xp": 1800,
++    "abilities": {
++      "Str": {
++        "score": 21,
++        "modifier": 5
++      },
++      "Dex": {
++        "score": 9,
++        "modifier": -1
++      },
++      "Con": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 7,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "AC is natural armor. Stealth +5. Passive Perception 10. No listed languages or special senses.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A massive lion-bodied predator with thick hide, heavy paws, and an alligator-like snout. Its eyes are red.",
++    "habitats": ["Trials of the five gods", "Amonkhet desert"],
++    "sections": {
++      "Printed source": "James Wyatt with Ashlie Hope, Plane Shift: Amonkhet, first printing (July 2017), page 30.  stat block. Monster Manual (2014), p. 324, Giant Crocodile. https://www.dndbeyond.com/sources/dnd/basic-rules-2014/monster-stat-blocks-g#GiantCrocodile",
++      "Traits": "Hold Breath. The creature can hold its breath for up to 30 minutes.",
++      "Actions": "Multiattack. Make one Bite attack and one Tail attack.\nBite. Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 21 (3d10 + 5) piercing damage and grapples the target. Escape DC 16. The target is restrained while grappled, and the ammit cannot bite a different target until that grapple ends.\nTail. Melee weapon attack, +8 to hit, reach 10 ft., one target the ammit is not grappling. A hit deals 14 (2d8 + 5) bludgeoning damage. A creature hit must pass a DC 16 Strength save or fall prone.",
++      "At the table": "After the ammit grabs with Bite, Tail must target something other than the creature in its jaws. The encounter uses the Giant Crocodile’s creature type and alignment even though the setting calls ammits demons."
++    }
++  },
++  {
++    "name": "Cerodon",
++    "publication": "Plane Shift: Amonkhet",
++    "edition": "2014 fifth edition",
++    "classification": "Huge Beast, unaligned",
++    "ac": 13,
++    "hp": 126,
++    "hitDice": "11d12 + 55",
++    "speed": "40 ft.",
++    "cr": "6",
++    "xp": 2300,
++    "abilities": {
++      "Str": {
++        "score": 24,
++        "modifier": 7
++      },
++      "Dex": {
++        "score": 9,
++        "modifier": -1
++      },
++      "Con": {
++        "score": 21,
++        "modifier": 5
++      },
++      "Int": {
++        "score": 3,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "AC is natural armor. Passive Perception 10. No listed skills, languages, or special senses.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A towering bull-shaped quadruped. Its horns jut out over the nose and sweep back nearly the full length of its body in ridges like a sandstone cliff.",
++    "habitats": ["Amonkhet desert", "Hekma perimeter"],
++    "sections": {
++      "Printed source": "James Wyatt with Ashlie Hope, Plane Shift: Amonkhet, first printing (July 2017), page 37.  stat block. Monster Manual (2014), p. 332, Mammoth. https://www.dndbeyond.com/sources/dnd/basic-rules-2014/monster-stat-blocks-m#Mammoth",
++      "Traits": "Trampling Charge. On a turn when the cerodon moves at least 20 ft. straight toward a creature and then hits it with Gore, that creature must make a DC 18 Strength save or fall prone. If the target is prone, the cerodon can make one Stomp attack against it as a bonus action.\nSiege Monster. Damage the cerodon deals to objects and structures is doubled.",
++      "Actions": "Gore. Melee weapon attack, +10 to hit, reach 10 ft., one target. On a hit, deal 25 (4d8 + 7) piercing damage.\nStomp. Melee weapon attack, +10 to hit, reach 5 ft., one prone creature. On a hit, deal 29 (4d10 + 7) bludgeoning damage.",
++      "At the table": "Gore can reach 10 ft. Stomp needs the prone target within 5 ft., so save enough movement to close the gap after the charge. Against an object or structure, a Gore hit averages 50 piercing damage."
++    }
++  },
++  {
++    "name": "Hippopotamus",
++    "publication": "Plane Shift: Amonkhet",
++    "edition": "2014 fifth edition",
++    "classification": "Huge Beast, unaligned",
++    "ac": 12,
++    "hp": 76,
++    "hitDice": "8d12 + 24",
++    "speed": "40 ft., swim 30 ft.",
++    "cr": "4",
++    "xp": 1100,
++    "abilities": {
++      "Str": {
++        "score": 22,
++        "modifier": 6
++      },
++      "Dex": {
++        "score": 9,
++        "modifier": -1
++      },
++      "Con": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Int": {
++        "score": 3,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "AC is natural armor. Passive Perception 10. No listed skills, languages, or special senses.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A broad-bodied river animal with thick folded skin, a wide blunt muzzle, and long lower canine teeth.",
++    "habitats": ["Luxa River", "Luxa riverbanks"],
++    "sections": {
++      "Printed source": "James Wyatt with Ashlie Hope, Plane Shift: Amonkhet, first printing (July 2017), page 38.  stat block. Monster Manual (2014), p. 322, Elephant. https://www.dndbeyond.com/sources/dnd/basic-rules-2014/monster-stat-blocks-e#Elephant",
++      "Traits": "Trampling Charge. On a turn when the hippopotamus moves at least 20 ft. straight toward a creature and then hits it with Bite, that creature must make a DC 12 Strength save or fall prone. If the target is prone, the hippopotamus can make one Stomp attack against it as a bonus action.\nHold Breath. The creature can hold its breath for up to 30 minutes.",
++      "Actions": "Bite. Melee weapon attack, +8 to hit, reach 5 ft., one target. On a hit, deal 19 (3d8 + 6) piercing damage.\nStomp. Melee weapon attack, +8 to hit, reach 5 ft., one prone creature. On a hit, deal 22 (3d10 + 6) bludgeoning damage.",
++      "At the table": "The Bite replaces Gore both in the action list and as the trigger for Trampling Charge. Use the Elephant’s published DC 12. Bite and Stomp both have 5-ft. reach."
++    }
++  },
++  {
++    "name": "Large Drake",
++    "publication": "Plane Shift: Amonkhet",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, neutral good",
++    "ac": 13,
++    "hp": 26,
++    "hitDice": "4d10 + 4",
++    "speed": "10 ft., fly 80 ft.",
++    "cr": "1",
++    "xp": 200,
++    "abilities": {
++      "Str": {
++        "score": 16,
++        "modifier": 3
++      },
++      "Dex": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Con": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 8,
++        "modifier": -1
++      },
++      "Wis": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Cha": {
++        "score": 10,
++        "modifier": 0
++      }
++    },
++    "otherStatistics": "Perception +4. Passive Perception 14. Speaks Giant Eagle from the base stat block and understands Common and Auran without speaking either.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A reptilian flyer with a scaled head, two legs, and enormous leathery wings.",
++    "habitats": ["Lazotep mines", "Naktamun rooftops and obelisks", "Luxa River"],
++    "sections": {
++      "Printed source": "James Wyatt with Ashlie Hope, Plane Shift: Amonkhet, first printing (July 2017), page 33.  stat block. Monster Manual (2014), p. 324, Giant Eagle. https://www.dndbeyond.com/sources/dnd/basic-rules-2014/monster-stat-blocks-g#GiantEagle",
++      "Traits": "Keen Sight. Sight-based Wisdom (Perception) checks have advantage.",
++      "Actions": "Multiattack. Make one Beak attack and one Talons attack.\nBeak. Melee weapon attack, +5 to hit, reach 5 ft., one target. On a hit, deal 6 (1d6 + 3) piercing damage.\nTalons. Melee weapon attack, +5 to hit, reach 5 ft., one target. On a hit, deal 10 (2d6 + 3) slashing damage.",
++      "At the table": "The 2014 Giant Eagle provides the mechanical alignment, languages, and attack names. The drake’s head still looks reptilian. It has no fire breath."
++    }
++  },
++  {
++    "name": "Small Drake",
++    "publication": "Plane Shift: Amonkhet",
++    "edition": "2014 fifth edition",
++    "classification": "Medium Beast, unaligned",
++    "ac": 13,
++    "hp": 13,
++    "hitDice": "3d8",
++    "speed": "10 ft., fly 60 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "abilities": {
++      "Str": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Dex": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 9,
++        "modifier": -1
++      },
++      "Cha": {
++        "score": 5,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "AC is natural armor. Perception +1. Passive Perception 11. No listed languages or special senses.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A smaller reptilian flyer with a scaled head, two clawed legs, and broad leathery wings.",
++    "habitats": ["Lazotep mines", "Naktamun rooftops and obelisks", "Luxa River"],
++    "sections": {
++      "Printed source": "James Wyatt with Ashlie Hope, Plane Shift: Amonkhet, first printing (July 2017), page 33.  stat block. Monster Manual (2014), p. 80, Pteranodon. https://www.dndbeyond.com/sources/dnd/basic-rules-2014/monster-stat-blocks-p#Pteranodon",
++      "Traits": "Flyby. Leaving an enemy’s reach by flying does not trigger an opportunity attack.",
++      "Actions": "Bite. Melee weapon attack, +3 to hit, reach 5 ft., one target. On a hit, deal 6 (2d4 + 1) piercing damage.",
++      "At the table": "Small is the variant name. The Pteranodon supplies the Medium mechanical size. Flyby applies when leaving reach by flying. The drake has no fire breath."
++    }
++  },
++  {
++    "name": "Drake (Large)",
++    "publication": "Plane Shift: Kaladesh",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, neutral good",
++    "ac": 13,
++    "hp": 26,
++    "hitDice": "4d10 + 4",
++    "speed": "10 ft., fly 80 ft.",
++    "cr": "1",
++    "xp": 200,
++    "abilities": {
++      "Str": {
++        "score": 16,
++        "modifier": 3
++      },
++      "Dex": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Con": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 8,
++        "modifier": -1
++      },
++      "Wis": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Cha": {
++        "score": 10,
++        "modifier": 0
++      }
++    },
++    "otherStatistics": "Perception +4. Passive Perception 14. Speaks Giant Eagle and understands Common and Auran without speaking them, per the Giant Eagle base. No listed special senses.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A slim, two-legged flying reptile with a long neck and leathery wings. Its hooked claws catch prey and grip cliff faces and the hides of sky beasts.",
++    "habitats": [
++      "Kaladesh skies",
++      "Mountain crags",
++      "High elevations",
++      "Near sky whales and leviathans"
++    ],
++    "sections": {
++      "Printed source": "James Wyatt, Plane Shift: Kaladesh, first printing (February 2017), page 29.  Uses Giant Eagle, Monster Manual (2014), printed p. 324. https://www.dndbeyond.com/monsters/16881-giant-eagle",
++      "Traits": "Keen Sight. Advantage on Wisdom (Perception) checks that rely on sight.",
++      "Actions": "Multiattack. Make one Beak attack and one Talons attack.\nBeak. Melee weapon attack, +5 to hit with 5-ft. reach against one target. On a hit, deal 6 (1d6 + 3) piercing damage.\nTalons. Melee weapon attack, +5 to hit with 5-ft. reach against one target. On a hit, deal 10 (2d6 + 3) slashing damage.",
++      "At the table": "The larger drake uses the Giant Eagle statistics. Kaladesh drakes may recognize airships that have killed others in their rush."
++    }
++  },
++  {
++    "name": "Drake (Small)",
++    "publication": "Plane Shift: Kaladesh",
++    "edition": "2014 fifth edition",
++    "classification": "Medium Beast, unaligned",
++    "ac": 13,
++    "hp": 13,
++    "hitDice": "3d8",
++    "speed": "10 ft., fly 60 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "abilities": {
++      "Str": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Dex": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 9,
++        "modifier": -1
++      },
++      "Cha": {
++        "score": 5,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "AC from natural armor. Perception +1. Passive Perception 11. No listed languages or special senses.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A slim, two-legged flying reptile with a long neck and leathery wings. Its hooked claws catch prey and grip cliff faces and the hides of sky beasts.",
++    "habitats": [
++      "Kaladesh skies",
++      "Mountain crags",
++      "High elevations",
++      "Near sky whales and leviathans"
++    ],
++    "sections": {
++      "Printed source": "James Wyatt, Plane Shift: Kaladesh, first printing (February 2017), page 29.  Uses Pteranodon, Monster Manual (2014), printed p. 80. https://www.dndbeyond.com/monsters/17093-pteranodon",
++      "Traits": "Flyby. Leaving an enemy’s reach while flying does not provoke an opportunity attack.",
++      "Actions": "Bite. Melee weapon attack, +3 to hit with 5-ft. reach against one target. On a hit, deal 6 (2d4 + 1) piercing damage.",
++      "At the table": "This smaller drake uses the Pteranodon’s Medium size. On its turf it may hunt in a rush of up to a dozen drakes."
++    }
++  },
++  {
++    "name": "Gremlin",
++    "publication": "Plane Shift: Kaladesh",
++    "edition": "2014 fifth edition",
++    "classification": "Small Beast, unaligned",
++    "ac": 11,
++    "hp": 27,
++    "hitDice": "5d8 + 5",
++    "speed": "40 ft.",
++    "cr": "1/2",
++    "xp": 100,
++    "abilities": {
++      "Str": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Dex": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Con": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 3,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Darkvision 60 ft. Passive Perception 11. No listed languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A hairless scavenger with a long snout and six legs. The dense claws on each foot cut through wood and rock and can tear into metal machinery.",
++    "habitats": ["Aether-rich sites", "Inventors’ laboratories", "Workshops", "Ghirapur"],
++    "sections": {
++      "Printed source": "James Wyatt, Plane Shift: Kaladesh, first printing (February 2017), page 26. ",
++      "Traits": "Aether Scent. Pinpoint refined or unrefined aether by smell within 30 ft.",
++      "Actions": "Claws. Melee weapon attack, +3 to hit with 5-ft. reach against one target. On a hit, deal 5 (1d8 + 1) slashing damage.\nSiphon. Choose a visible aether-powered device within 5 ft. If carried or worn, its bearer can prevent the touch with a DC 11 Dexterity save. An unattended device automatically loses aether. Reduce any bonus it grants by 1. A device with charges also loses one charge. A device without charges stops working for 1 round. Left unhindered, the gremlin can ruin a device.",
++      "At the table": "Its aether sense is useful around laboratories and airship machinery. The printed Siphon description supplies no fixed number of uses that destroys a device."
++    }
++  },
++  {
++    "name": "Sky Leviathan",
++    "publication": "Plane Shift: Kaladesh",
++    "edition": "2014 fifth edition",
++    "classification": "Gargantuan Beast, unaligned",
++    "ac": 14,
++    "hp": 247,
++    "hitDice": "15d20 + 90",
++    "speed": "Fly 50 ft. (hover)",
++    "cr": "10",
++    "xp": 5900,
++    "abilities": {
++      "Str": {
++        "score": 28,
++        "modifier": 9
++      },
++      "Dex": {
++        "score": 7,
++        "modifier": -2
++      },
++      "Con": {
++        "score": 22,
++        "modifier": 6
++      },
++      "Int": {
++        "score": 1,
++        "modifier": -5
++      },
++      "Wis": {
++        "score": 8,
++        "modifier": -1
++      },
++      "Cha": {
++        "score": 4,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "AC from natural armor. Constitution save +10, Wisdom save +3. Passive Perception 9. No listed languages or special senses.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "An enormous eel-like beast that swims through the sky. Its long body tapers behind a broad swallowing mouth.",
++    "habitats": ["Aethersphere", "Aether currents", "Airship routes"],
++    "sections": {
++      "Printed source": "James Wyatt, Plane Shift: Kaladesh, first printing (February 2017), page 28. ",
++      "Actions": "Bite. Melee weapon attack, +9 to hit with 10-ft. reach against one target. On a hit, deal 22 (3d8 + 9) piercing damage. A Large or smaller creature hit by the bite must make a DC 18 Dexterity save or be swallowed.",
++      "Swallowed creatures": "A swallowed creature is blinded and restrained and has total cover against attacks and effects outside the leviathan. It takes 21 (6d6) acid damage at the start of each of the leviathan’s turns. If any one creature inside deals at least 30 damage to the leviathan in a single turn, the leviathan makes a DC 21 Constitution save at the end of that turn. On a failure it expels every swallowed creature. Each lands prone within 10 ft. If the leviathan dies, its swallowed creatures are no longer restrained by it and may spend 20 ft. of movement to get out of the corpse, emerging prone.",
++      "At the table": "Track the damage dealt by each creature inside on its current turn. The swallow follows the self-contained Leviathan rules."
++    }
++  },
++  {
++    "name": "Sky Whale",
++    "publication": "Plane Shift: Kaladesh",
++    "edition": "2014 fifth edition",
++    "classification": "Huge Beast, unaligned",
++    "ac": 14,
++    "hp": 85,
++    "hitDice": "9d12 + 27",
++    "speed": "30 ft., fly 50 ft. (hover), swim 50 ft.",
++    "cr": "5",
++    "xp": 1800,
++    "abilities": {
++      "Str": {
++        "score": 21,
++        "modifier": 5
++      },
++      "Dex": {
++        "score": 9,
++        "modifier": -1
++      },
++      "Con": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 7,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "AC from natural armor. Stealth +5. Passive Perception 10. No listed languages or special senses.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A vast floating whale with a broad filtering mouth, powerful paired flippers and forked tail flukes. Its markings are slate gray and cream.",
++    "habitats": ["Aethersphere", "Aether currents", "Skies of Kaladesh"],
++    "sections": {
++      "Printed source": "James Wyatt, Plane Shift: Kaladesh, first printing (February 2017), page 28.  Uses Giant Crocodile, Monster Manual (2014), printed p. 324. https://www.dndbeyond.com/monsters/16880-giant-crocodile",
++      "Traits": "Hold Breath. The whale can go without taking a breath for up to 30 minutes.",
++      "Actions": "Multiattack. Make one Flipper attack and one Tail attack.\nFlipper. Melee weapon attack, +8 to hit with 10-ft. reach against one target the whale is not grappling. On a hit, deal 14 (2d8 + 5) bludgeoning damage. If it is a creature, it must pass a DC 16 Strength save or fall prone.\nTail. Use the same reach, hit modifier, targeting restriction, damage and save as Flipper.",
++      "At the table": "Sky whales mostly avoid confrontations. Read the Giant Crocodile base speeds as continuing to apply because the supplement adds hover flight without removing those modes. Flipper replaces the bite and only has the effects of Tail."
++    }
++  },
++  {
++    "name": "River Serpent",
++    "publication": "Plane Shift: Amonkhet",
++    "edition": "2014 fifth edition",
++    "classification": "Huge Beast, unaligned",
++    "ac": 12,
++    "hp": 60,
++    "hitDice": "8d12 + 8",
++    "speed": "30 ft., swim 30 ft.",
++    "cr": "2",
++    "xp": 450,
++    "abilities": {
++      "Str": {
++        "score": 19,
++        "modifier": 4
++      },
++      "Dex": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 1,
++        "modifier": -5
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 3,
++        "modifier": -4
++      }
++    },
++    "otherStatistics": "Perception +2. Blindsight 10 ft. Passive Perception 12. No languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A giant river snake with a heavy coiling body. Its slate-blue scales and short neck crest are editorial details adapted from the credited river-serpent illustration.",
++    "habitats": ["Amonkhet", "Luxa River", "Riverbed"],
++    "sections": {
++      "Printed source": "James Wyatt with Ashlie Hope, Plane Shift: Amonkhet, first printing, july 2017, page 38. ",
++      "Reskin": "The CR 2 form uses the Giant Constrictor Snake, 2014 Monster Manual p. 324 and Wizards of the Coast System Reference Document 5.1 p. 374. The separate Giant River Serpent uses a different base. ",
++      "Actions": "Bite. Melee weapon attack, +6 to hit, 10-ft. reach, one creature. On a hit, deal 11 (2d6 + 4) piercing.\nConstrict. Melee weapon attack, +6 to hit, 5-ft. reach, one creature. On a hit, deal 13 (2d8 + 4) bludgeoning and grapple the target (escape DC 16). The target is restrained until the grapple ends. The serpent cannot constrict another target during that grapple.",
++      "At the table": "Constrict imposes the grapple and restraint on a hit. The DC applies to escaping the grapple. The serpent’s swim speed affects movement. The base block gives no separate water-breathing or Hold Breath trait."
++    }
++  },
++  {
++    "name": "Serpopard",
++    "publication": "Plane Shift: Amonkhet",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 12,
++    "hp": 52,
++    "hitDice": "7d10 + 14",
++    "speed": "40 ft.",
++    "cr": "3",
++    "xp": 700,
++    "abilities": {
++      "Str": {
++        "score": 18,
++        "modifier": 4
++      },
++      "Dex": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 3,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 8,
++        "modifier": -1
++      }
++    },
++    "otherStatistics": "Perception +3, Stealth +6. Passive Perception 13. No listed special senses or languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A venomous feline with a long, flexible serpentine body and a sensitive tongue. The credited illustration shows a sinuous neck and a russet and dark-banded coat.",
++    "habitats": ["Amonkhet", "Luxa River", "Hekma interior", "Desert oasis", "Riverside trees"],
++    "sections": {
++      "Printed source": "James Wyatt with Ashlie Hope, Plane Shift: Amonkhet, first printing, july 2017, page 37. ",
++      "Traits": "Keen Smell. Advantage on Wisdom (Perception) checks that rely on smell.\nPounce. After moving at least 20 ft. straight toward a creature and landing a claw hit on it in the same turn, the creature makes a DC 14 Strength save. On a failure, it falls prone. The trait then permits a bonus-action Bite against the prone target.",
++      "Actions": "Bite. Melee weapon attack, +6 to hit, 5-ft. reach, one target. On a hit, deal 9 (1d10 + 4) piercing. The target makes a DC 14 Constitution save, taking 10 (3d6) poison on a failure or half that poison damage on a success.",
++      "At the table": "Pounce refers to a Claw attack, but the printing supplies only Bite. Use Bite for the runnable printed actions. Resolve Pounce only if the table separately supplies its missing Claw prerequisite. The text describes perching in trees, and the stat block lists only a walking speed."
++    }
++  },
++  {
++    "name": "Kavu Predator",
++    "publication": "Plane Shift: Dominaria",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 15,
++    "hp": 75,
++    "hitDice": "10d10 + 20",
++    "speed": "30 ft., climb 30 ft.",
++    "cr": "2",
++    "xp": 450,
++    "abilities": {
++      "Str": {
++        "score": 18,
++        "modifier": 4
++      },
++      "Dex": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Con": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 6,
++        "modifier": -2
++      },
++      "Wis": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Cha": {
++        "score": 8,
++        "modifier": -1
++      }
++    },
++    "otherStatistics": "Natural armor. Perception +4, Stealth +5. Darkvision 60 ft. Passive Perception 14. Understands Elvish.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A large arboreal reptilian predator with broad grasping claws and sharp jaws. Dark olive scales and angular brows are art-informed details.",
++    "habitats": ["Dominaria", "Llanowar forest", "Forest canopy", "Kelfae woodlands"],
++    "sections": {
++      "Printed source": "James Wyatt with Ashlie Hope, Plane Shift: Dominaria, first printing, july 2018, page 24. ",
++      "Traits": "Pounce. If the kavu moves at least 20 ft. directly toward a creature and hits it with Claw during the same turn, the target makes a DC 14 Strength save. A failure knocks it prone. If the target is prone, the kavu may Bite it as a bonus action.",
++      "Actions": "Multiattack. Make two Claw attacks.\nBite. Melee weapon attack, +6 to hit, 5-ft. reach, one target. On a hit, deal 9 (1d10 + 4) piercing.\nClaw. Melee weapon attack, +6 to hit, 5-ft. reach, one target. On a hit, deal 7 (1d6 + 4) slashing.",
++      "At the table": "The Claw attack can trigger Pounce as part of Multiattack. The printed climb speed is 30 ft. The accompanying breeding lore describes arboreal kavu on sheer surfaces, and the stat block supplies no separate Spider Climb trait."
++    }
++  },
++  {
++    "name": "Steel Leaf Kavu",
++    "publication": "Plane Shift: Dominaria",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 16,
++    "hp": 142,
++    "hitDice": "15d10 + 60",
++    "speed": "40 ft.",
++    "cr": "4",
++    "xp": 1100,
++    "abilities": {
++      "Str": {
++        "score": 20,
++        "modifier": 5
++      },
++      "Dex": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Con": {
++        "score": 18,
++        "modifier": 4
++      },
++      "Int": {
++        "score": 6,
++        "modifier": -2
++      },
++      "Wis": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Cha": {
++        "score": 8,
++        "modifier": -1
++      }
++    },
++    "otherStatistics": "Natural armor. Perception +4. Darkvision 60 ft. Passive Perception 14. Understands Elvish.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A massive ground-dwelling reptilian cavalry mount. Broad jaws, raised brow plates and a thick scaled neck draw on the credited book artwork.",
++    "habitats": ["Dominaria", "Llanowar forest", "Forest floor", "Basiphem stables"],
++    "sections": {
++      "Printed source": "James Wyatt with Ashlie Hope, Plane Shift: Dominaria, first printing, july 2018, page 24. ",
++      "Traits": "Raking Charge. If the kavu moves at least 20 ft. directly toward a creature and hits it with Bite on the same turn, the target makes a DC 15 Strength save. A failure knocks it prone. If the target is prone, the kavu may Rend it as a bonus action.",
++      "Actions": "Bite. Melee weapon attack, +7 to hit, 5-ft. reach, one target. On a hit, deal 14 (2d8 + 5) piercing.\nRend. Melee weapon attack, +7 to hit, 5-ft. reach, one prone creature. On a hit, deal 23 (4d8 + 5) slashing.",
++      "At the table": "Rend is also a named action against a prone target. Raking Charge grants a bonus-action Rend when its setup succeeds and the target is prone. The written Large size is the block’s size even though the lore mentions especially large mounts."
++    }
++  },
++  {
++    "name": "Plesiosaurus",
++    "publication": "Black Flag Roleplaying Reference Document v0.2",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Large Beast",
++    "ac": 13,
++    "hp": 60,
++    "speed": "20 ft., swim 40 ft.",
++    "cr": "2",
++    "xp": 450,
++    "otherStatistics": "Natural armor. Fixed Perception 13 and Stealth 14. No listed special senses. No listed languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A long-necked marine reptile with dark sea-gray skin, a small narrow head, four paddle-shaped flippers, and a short tail.",
++    "habitats": ["Coastal waters", "Open ocean"],
++    "sections": {
++      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, page 259. XP comes from the CR table on page 229. ",
++      "Ability modifiers": "STR +4, DEX +2, CON +3, INT −4, WIS +1, CHA −3. Black Flag uses the printed modifiers and fixed Perception and Stealth values.",
++      "Traits": "Hardy. Treat a critical hit against the plesiosaurus as a normal hit.\nHold Breath. It can hold its breath for 1 hour.",
++      "Actions": "Multiattack. Make two Bite attacks.\nBite. Melee weapon attack, +6 to hit with 10-ft. reach against one target. Hit for 11 (2d6 + 4) piercing damage.",
++      "Bonus actions": "Flipper Slam. Underwater, send a shockwave in a 15-ft. cone. Each creature in the cone makes a DC 13 Constitution save. A failure leaves that creature off-balance until the end of its next turn. While off-balance, its speed is halved and it has disadvantage on its first attack roll on each of its turns."
++    }
++  },
++  {
++    "name": "Triceratops",
++    "publication": "Black Flag Roleplaying Reference Document v0.2",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Huge Beast",
++    "ac": 13,
++    "hp": 126,
++    "speed": "50 ft.",
++    "cr": "5",
++    "xp": 1800,
++    "otherStatistics": "Natural armor. Fixed Perception 10 and Stealth 9. No listed special senses. No listed languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A stout, four-legged dinosaur with a wide bony frill, two long brow horns, a short nasal horn, and mottled brown-gray skin.",
++    "habitats": ["Open grassland", "Woodland edge"],
++    "sections": {
++      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, page 259. XP comes from the CR table on page 229. ",
++      "Ability modifiers": "STR +6, DEX −1, CON +3, INT −4, WIS +0, CHA −3. Black Flag uses the printed modifiers and fixed Perception and Stealth values.",
++      "Traits": "Hardy. Treat a critical hit against the triceratops as a normal hit.\nTrampling Charge. Move at least 20 ft. straight toward a creature, then hit it with Gore on the same turn. The creature makes a DC 14 Strength save or falls prone. If the target is prone, the triceratops can make one Stomp attack against it as a bonus action.",
++      "Actions": "Multiattack. Make two Gore attacks.\nGore. Melee weapon attack, +9 to hit with 5-ft. reach against one target. Hit for 19 (3d8 + 6) piercing damage.\nStomp. Melee weapon attack, +9 to hit with 5-ft. reach against one prone creature. Hit for 17 (2d10 + 6) bludgeoning damage.",
++      "Bonus actions": "Warning Bugle. Each creature in a 30-ft. cone makes a DC 14 Wisdom save. A failure frightens it until the end of its next turn. If the triceratops bugles before beginning the 20-ft. charge movement, the charge target has disadvantage on the Wisdom save. If it then fails the charge’s Strength save, the triceratops can Stomp the prone target without spending another bonus action."
++    }
++  },
++  {
++    "name": "Tyrannosaurus Rex",
++    "publication": "Black Flag Roleplaying Reference Document v0.2",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Huge Beast",
++    "ac": 13,
++    "hp": 184,
++    "speed": "50 ft.",
++    "cr": "8",
++    "xp": 3900,
++    "otherStatistics": "Natural armor. Fixed Perception 14 and Stealth 10. No listed special senses. No listed languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A heavy bipedal dinosaur with an oversized toothed head, two-fingered forelimbs, thick hind legs, and a long counterbalancing tail.",
++    "habitats": ["Open grassland", "Woodland edge"],
++    "sections": {
++      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, page 259. XP comes from the CR table on page 229. ",
++      "Ability modifiers": "STR +8, DEX +0, CON +4, INT −4, WIS +1, CHA −1. Black Flag uses the printed modifiers and fixed Perception and Stealth values.",
++      "Traits": "Hardy. Treat a critical hit against the tyrannosaurus as a normal hit.",
++      "Actions": "Multiattack. Make one Bite and one Tail attack against different targets.\nBite. Melee weapon attack, +8 to hit with 10-ft. reach against one creature. Hit for 31 (4d12 + 5) piercing damage. A Large or smaller creature becomes grappled (escape DC 16) and restrained until the grapple ends. The tyrannosaurus cannot Bite another target while the grapple holds.\nTail. Melee weapon attack, +8 to hit with 10-ft. reach against one creature. Hit for 23 (4d8 + 5) bludgeoning damage.",
++      "Bonus actions": "Rending Shake. While grappling a creature, force it to make a DC 16 Strength save. On a failure it takes 6 (1d12) slashing damage, is thrown up to 20 ft. in a random direction, and falls prone. If it strikes a solid surface, it takes 3 (1d6) bludgeoning damage for every 10 ft. thrown. If the throw sends it at another creature, that creature makes a DC 16 Dexterity save or takes the same collision damage and falls prone."
++    }
++  },
++  {
++    "name": "Velociraptor",
++    "publication": "Black Flag Roleplaying Reference Document v0.2",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Small Beast",
++    "ac": 13,
++    "hp": 25,
++    "speed": "30 ft.",
++    "cr": "1/2",
++    "xp": 100,
++    "otherStatistics": "Natural armor. Fixed Perception 13 and Stealth 14. No listed special senses. No listed languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A slight bipedal raptor with a long muzzle, sickle-shaped toe claws, muted olive-and-russet feathering, and a stiff tail.",
++    "habitats": ["Scrubland", "Open woodland"],
++    "sections": {
++      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, page 260. XP comes from the CR table on page 229. ",
++      "Ability modifiers": "STR −2, DEX +4, CON +1, INT −3, WIS +1, CHA −2. Black Flag uses the printed modifiers and fixed Perception and Stealth values.",
++      "Traits": "Hardy. Treat a critical hit against the velociraptor as a normal hit.\nPack Tactics. Gain advantage on attack rolls against a target if one of its allies that is not incapacitated is within 5 ft. of that target.",
++      "Actions": "Multiattack. Make one Bite and one Claws attack.\nBite. Melee weapon attack, +4 to hit with 5-ft. reach against one target. Hit for 5 (1d6 + 2) piercing damage. A Medium or smaller creature becomes grappled (escape DC 12) and restrained until the grapple ends. The velociraptor cannot Bite another target while the grapple holds.\nClaws. Melee weapon attack, +4 to hit with 5-ft. reach against one target. Hit for 4 (1d4 + 2) slashing damage.\nMaul. Choose a creature the velociraptor has grappled. It makes a DC 12 Strength save, taking 10 (4d4) slashing damage on a failure or half on a success."
++    }
++  },
++  {
++    "name": "Stirge",
++    "publication": "Black Flag Roleplaying Reference Document v0.2",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Tiny Beast",
++    "ac": 14,
++    "hp": 7,
++    "speed": "10 ft., fly 40 ft.",
++    "cr": "1/8",
++    "xp": 25,
++    "otherStatistics": "Natural armor. Fixed Perception 9 and Stealth 12. Darkvision 60 ft. No listed languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A tiny batlike blood feeder with dusty brown fur, leathery wings, hooked grasping feet, and a long needle-shaped proboscis.",
++    "habitats": ["Caves", "Marshes"],
++    "sections": {
++      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, page 340. XP comes from the CR table on page 229. ",
++      "Ability modifiers": "STR −3, DEX +2, CON +0, INT −4, WIS −1, CHA −2. Black Flag uses the printed modifiers and fixed Perception and Stealth values.",
++      "Actions": "Blood Drain. Melee weapon attack, +4 to hit with 5-ft. reach against one creature. Hit for 4 (1d4 + 2) piercing damage and attach to that creature. While attached, the stirge cannot attack. At the start of each stirge turn, its host loses 4 (1d4 + 2) HP from blood loss. The stirge moves with the host without expending its own movement. On its turn, it can spend 5 ft. of movement to detach. It does so after draining 8 HP of blood or when the host dies. A creature, including the host, can use its action to detach the stirge.",
++      "Reactions": "Reactive Wiggle. If a creature within 5 ft. attacks the attached stirge, the stirge can react. The attacker makes a DC 12 Dexterity save. On a failure, the attack targets the host instead."
++    }
++  },
+   {
+     "name": "Stoneback Isopod",
+     "publication": "Flee, Mortals!",

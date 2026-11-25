@@ -1,0 +1,108 @@
+[
+  {
+    "name": "Giant Owl",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "url": "",
+    "rulesReadUrl": "",
+    "page": "v2 pp. 240–241, Giant Owl Traits",
+    "printedPages": [
+      240,
+      241
+    ],
+    "creatureType": "Beast",
+    "provenance": "Tyler Kamstra's DMs Guild player rules for 2014 fifth edition, using the v2 printing.",
+    "sourceDistinctions": [
+      "The player traits start on p. 240; Talons and Languages continue on p. 241. This owl is naturally intelligent per the play advice.",
+      "The No Hands line forbids weapons and shields, then refers to tentacles. Reedwatch uses no manual equipment. Its talons can scratch the mud without assuming tool use.",
+      "Flyby is a bonus-action Disengage in this printing. Talons explicitly count as finesse for Sneak Attack."
+    ],
+    "supportingSources": {
+      "publication": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+      "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+      "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+      "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background"
+    }
+  },
+  {
+    "name": "Giant Poisonous Snake",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "url": "",
+    "rulesReadUrl": "",
+    "page": "v2 p. 241, Giant Poisonous Snake Traits",
+    "printedPages": [
+      241
+    ],
+    "creatureType": "Beast",
+    "provenance": "Tyler Kamstra's DMs Guild player rules for 2014 fifth edition, using the v2 printing.",
+    "sourceDistinctions": [
+      "The player Bite adds a poison die on a hit without a separate saving throw. The 1d4 damage dice are not imported from an encounter block.",
+      "Kamstra’s p. 7 Monk exception limits the bonus strike to conventional bludgeoning rather than Bite. The primary Attack action keeps its printed Bite."
+    ],
+    "supportingSources": {
+      "publication": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+      "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+      "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+      "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background"
+    }
+  },
+  {
+    "name": "Giant Spider",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "url": "",
+    "rulesReadUrl": "",
+    "page": "v2 p. 244, Giant Spider Traits",
+    "printedPages": [
+      244
+    ],
+    "creatureType": "Beast",
+    "provenance": "Tyler Kamstra's DMs Guild player rules for 2014 fifth edition, using the v2 printing.",
+    "sourceDistinctions": [
+      "The traits give no attack proficiency rule for Web. Loomstep treats it as a proficient natural ranged attack and uses Dexterity for the roll. The printed escape DC uses Constitution.",
+      "Restrained ends when the creature escapes with the stated Strength check or the web is destroyed. The player trait gives no recharge. The table uses one action per use under the normal Attack action rules."
+    ],
+    "supportingSources": {
+      "publication": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+      "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+      "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+      "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background"
+    }
+  },
+  {
+    "name": "Giant Wasp",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "url": "",
+    "rulesReadUrl": "",
+    "page": "v2 p. 246, Giant Wasp Traits",
+    "printedPages": [
+      246
+    ],
+    "creatureType": "Beast",
+    "provenance": "Tyler Kamstra's DMs Guild player rules for 2014 fifth edition, using the v2 printing.",
+    "sourceDistinctions": [
+      "This player Sting has no Constitution save, stabilization, or paralysis rider.",
+      "Cinderwing uses Strength for Rage damage. The optional extra proficiency or feat mentioned in design commentary is not part of the printed trait block."
+    ],
+    "supportingSources": {
+      "publication": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+      "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+      "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+      "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background"
+    }
+  }
+]

@@ -20,4 +20,5 @@ export default createEvent({
       ' to hammer a spare warhammer into the rock as an anchor. The others followed down the secured rope.',
     ],
   ],
+  illustrations: ['/assets/scenes/a-safety-rope-saves-swift-when-the-vine-breaks.png'],
 })

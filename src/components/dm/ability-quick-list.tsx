@@ -3,10 +3,10 @@ import { Fragment, type ReactNode } from 'react'
 
 import { ABILITY_ICONS } from '#/lib/ability-icons'
 import type { AbilityIndexEntry, AbilityIndexGroup } from '#/lib/ability-index'
+import { ABILITY_KIND } from '#/lib/ability-kind-presentation'
 import type { StatPart } from '#/lib/stat-block'
 import { cn } from '#/lib/utils'
 
-import { ABILITY_KIND } from './ability-kind'
 import { StatParts } from './encounter/stat-parts'
 
 /**

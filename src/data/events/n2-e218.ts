@@ -23,4 +23,5 @@ export default createEvent({
       ' revealed their reader’s location.',
     ],
   ],
+  illustrations: ['/assets/scenes/auren-explains-how-the-hand-s-records-led-him-to-jim.png'],
 })

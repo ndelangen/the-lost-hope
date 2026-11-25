@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Dwarf",
+    "file": "",
+    "sha256": "a7f967bc73f520b81f3c4452bc1c4d744717afeaabc846f693cddfe94c6bddc8",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Eladrin",
+    "file": "",
+    "sha256": "846bdbb703d7fa499aba77f810e4b1ca79ec816c82b5231da8dc1be1998a62f8",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Elf",
+    "file": "",
+    "sha256": "2b2db2830118a4d19e6e9a9c0cd968f0a728611809f605f79d38a1bfa7d96bbf",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Half-Elf",
+    "file": "",
+    "sha256": "dc17fdd176cee58f6aa4ec36a3ccca4046979862243546c6ccc4d3a0efa432aa",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Halfling",
+    "file": "",
+    "sha256": "30dcc12445c065c02a0c241ff1edec3a5acc8ffb5c973e20cb0e1fffc01e7f5b",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  }
+]

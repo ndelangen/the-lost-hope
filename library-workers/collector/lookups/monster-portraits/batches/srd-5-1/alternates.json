@@ -1,0 +1,68 @@
+[
+  {
+    "entityKind": "monster",
+    "name": "Gnome, Deep (Svirfneblin)",
+    "publication": "SRD 5.1",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/deep-gnome-svirfneblin/mm-1.webp",
+    "artist": "Deep Gnome illustration · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "33f0a7dc2e760692fd53744426095f85564f629bf7db0e5d52667c5d82e6cfbf",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/MM/Deep%20Gnome%20%28Svirfneblin%29.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Deep Gnome (Svirfneblin)",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/deep-gnome-svirfneblin/mm-1.webp",
+    "artist": "Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "33f0a7dc2e760692fd53744426095f85564f629bf7db0e5d52667c5d82e6cfbf",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/MM/Deep%20Gnome%20%28Svirfneblin%29.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Gnome, Deep (Svirfneblin)",
+    "publication": "SRD 5.1",
+    "edition": "2014 fifth edition",
+    "file": "images/species/deep-gnome/mpmm-1.webp",
+    "artist": "Related Deep Gnome art by Tom Babbey and Olly Lawson · Monsters of the Multiverse",
+    "kind": "illustration",
+    "sha256": "2147367fc540f120043c503580f84c935189b42b5caa9863d9f3e683ebb3e960",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/races/MPMM/Deep%20Gnome.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Deep Gnome (Svirfneblin)",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "file": "images/species/deep-gnome/mpmm-1.webp",
+    "artist": "Related Deep Gnome art by Tom Babbey and Olly Lawson · Monsters of the Multiverse",
+    "kind": "illustration",
+    "sha256": "2147367fc540f120043c503580f84c935189b42b5caa9863d9f3e683ebb3e960",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/races/MPMM/Deep%20Gnome.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Succubus/Incubus",
+    "publication": "SRD 5.1",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/succubus/mm-1.webp",
+    "artist": "Succubus illustration · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "4c0b6e4f3cc279558e4afc8e999e7793292010a565198a1a7cdd4a843d0fe523",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/MM/Succubus.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Succubus/Incubus",
+    "publication": "SRD 5.1",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/incubus/mm-1.webp",
+    "artist": "Incubus illustration · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "92ac05f0f791f11695170468952ee4509ca0e9fe1f7eac0ee4d515554d0bf197",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/MM/Incubus.webp"
+  }
+]

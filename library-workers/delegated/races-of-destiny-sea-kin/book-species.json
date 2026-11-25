@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Sea Kin",
+    "kind": "species",
+    "publication": "Races of Destiny (2004)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Medium Humanoid with the Human subtype. Base land speed 30 ft. and swim speed 30 ft. The printed entry gives no racial ability-score adjustments or level adjustment.",
+      "Low-light vision reaches twice human distance in dim light and retains color and detail. A +2 racial bonus applies to Escape Artist.",
+      "Gain 4 extra skill points at 1st level after the class calculation and 1 extra skill point each subsequent level.",
+      "The ordinary swim-speed rules grant +8 racial on Swim checks for special actions or hazards, permit taking 10 even when threatened or distracted, and allow a straight-line run while swimming.",
+      "Hold Breath (Ex): begin with 8 × your Constitution score in rounds before risking drowning. The core Swim rule uses one extra round of breath per standard or full-round action while submerged. Sea Kin breathe air.",
+      "Water Dependency: immerse the entire body in water at least once a week. After a week without immersion, check Constitution daily at DC 10 + 1 per additional day. On a failed check, take 1 Constitution damage. Once fully immersed, restore 1d4 Constitution per hour while remaining in water. The printed requirement specifies water without a salinity qualifier.",
+      "Weapon Familiarity treats tridents and nets as simple weapons. Common is automatic. Bonus languages Aquan, Elven, and Sahuagin. Favored class Druid."
+    ]
+  }
+]

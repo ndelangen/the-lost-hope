@@ -1,0 +1,162 @@
+[
+  {
+    "name": "Allosaurus",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "D&D Basic Rules v1.0, November 2018 ",
+    "printedPage": 116,
+    "printedPages": [
+      116
+    ],
+    "section": "Chapter 12, Monsters",
+    "sourceUrl": "",
+    "url": "",
+    "appearanceEvidence": "Both books describe a fast predatory dinosaur with claws. The coloring, brow ridges and posture describe the original portrait.",
+    "habitatEvidence": "Both books mention running prey down over open ground. The 2014 Monster Manual p. 79 also gives remote valleys, plateaus, tropical islands and deep fens as dinosaur habitats. The tags apply that group guidance to the Allosaurus.",
+    "habitatSourceKind": "Editorial encounter suggestions. Where relevant they draw on printed creature and group lore.",
+    "rulesComparison": "The default Allosaurus stat block matches across the scoped printings.",
+    "pdfPage": 116,
+    "viewerPages": [
+      116
+    ],
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3",
+    "conditionRules": ""
+  },
+  {
+    "name": "Allosaurus",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "2014 rules, 11th printing checked",
+    "printedPage": 79,
+    "printedPages": [
+      79
+    ],
+    "section": "Dinosaurs",
+    "sourceUrl": "https://anyflip.com/kqwdv/eoae/basic/51-100#p=80",
+    "url": "https://anyflip.com/kqwdv/eoae/basic/51-100#p=80",
+    "appearanceEvidence": "Both books describe a fast predatory dinosaur with claws. The coloring, brow ridges and posture describe the original portrait.",
+    "habitatEvidence": "Both books mention running prey down over open ground. The 2014 Monster Manual p. 79 also gives remote valleys, plateaus, tropical islands and deep fens as dinosaur habitats. The tags apply that group guidance to the Allosaurus.",
+    "habitatSourceKind": "Editorial encounter suggestions. Where relevant they draw on printed creature and group lore.",
+    "rulesComparison": "The default Allosaurus stat block matches across the scoped printings.",
+    "viewerPages": [
+      80
+    ],
+    "errata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014",
+    "errataNotes": "No entry-specific correction applies to this stat block.",
+    "secondaryCrossCheck": "5etools matches the default rules visible in the printed block.",
+    "conditionRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/appendix-a-conditions#Prone"
+  },
+  {
+    "name": "Ankylosaurus",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "D&D Basic Rules v1.0, November 2018 ",
+    "printedPage": 117,
+    "printedPages": [
+      117
+    ],
+    "section": "Chapter 12, Monsters",
+    "sourceUrl": "",
+    "url": "",
+    "appearanceEvidence": "Both books describe a plant eater with thick armor plating and a knobbed tail. The beak profile and raised osteoderms depict the selected portrait.",
+    "habitatEvidence": "The 2014 Monster Manual p. 79 lists these dinosaur habitats as a group. Applying them to the Ankylosaurus is an editorial encounter suggestion.",
+    "habitatSourceKind": "Editorial encounter suggestions. Where relevant they draw on printed creature and group lore.",
+    "rulesComparison": "The default Ankylosaurus stat block matches across the scoped printings.",
+    "pdfPage": 117,
+    "viewerPages": [
+      117
+    ],
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3",
+    "conditionRules": "",
+    "mechanicsNotes": [
+      "Both printed stat blocks give Tail +7 to hit. The summary preserves the printed attack bonus."
+    ]
+  },
+  {
+    "name": "Ankylosaurus",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "2014 rules, 11th printing checked",
+    "printedPage": 79,
+    "printedPages": [
+      79
+    ],
+    "section": "Dinosaurs",
+    "sourceUrl": "https://anyflip.com/kqwdv/eoae/basic/51-100#p=80",
+    "url": "https://anyflip.com/kqwdv/eoae/basic/51-100#p=80",
+    "appearanceEvidence": "Both books describe a plant eater with thick armor plating and a knobbed tail. The beak profile and raised osteoderms depict the selected portrait.",
+    "habitatEvidence": "The 2014 Monster Manual p. 79 lists these dinosaur habitats as a group. Applying them to the Ankylosaurus is an editorial encounter suggestion.",
+    "habitatSourceKind": "Editorial encounter suggestions. Where relevant they draw on printed creature and group lore.",
+    "rulesComparison": "The default Ankylosaurus stat block matches across the scoped printings.",
+    "viewerPages": [
+      80
+    ],
+    "errata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014",
+    "errataNotes": "No entry-specific correction applies to this stat block.",
+    "secondaryCrossCheck": "5etools matches the default rules visible in the printed block.",
+    "printedVariants": {
+      "Spiked-tail variety": "The Monster Manual describes some ankylosaurs with spiked tails that deal piercing damage in place of bludgeoning. The portrait depicts the standard club-tailed form."
+    },
+    "conditionRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/appendix-a-conditions#Prone",
+    "mechanicsNotes": [
+      "Both printed stat blocks give Tail +7 to hit. The summary preserves the printed attack bonus."
+    ]
+  },
+  {
+    "name": "Black Bear",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "D&D Basic Rules v1.0, November 2018 ",
+    "printedPage": 119,
+    "printedPages": [
+      119
+    ],
+    "section": "Chapter 12, Monsters",
+    "sourceUrl": "",
+    "url": "",
+    "appearanceEvidence": "Both printings give Medium size and describe bite and claw attacks. Ears, fur and muzzle color describe the selected portrait.",
+    "habitatEvidence": "Forests, woodland edges and forested foothills are editorial encounter suggestions for the black bear depicted in the portrait.",
+    "habitatSourceKind": "Editorial encounter suggestions. Where relevant they draw on printed creature and group lore.",
+    "rulesComparison": "The default Black Bear stat block matches across the scoped printings.",
+    "pdfPage": 119,
+    "viewerPages": [
+      119
+    ],
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3"
+  },
+  {
+    "name": "Black Bear",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "2014 rules, 11th printing checked",
+    "printedPage": 318,
+    "printedPages": [
+      318
+    ],
+    "section": "Appendix A, Miscellaneous Creatures",
+    "sourceUrl": "https://anyflip.com/kqwdv/eoae/basic/301-350#p=319",
+    "url": "https://anyflip.com/kqwdv/eoae/basic/301-350#p=319",
+    "appearanceEvidence": "Both printings give Medium size and describe bite and claw attacks. Ears, fur and muzzle color describe the selected portrait.",
+    "habitatEvidence": "Forests, woodland edges and forested foothills are editorial encounter suggestions for the black bear depicted in the portrait.",
+    "habitatSourceKind": "Editorial encounter suggestions. Where relevant they draw on printed creature and group lore.",
+    "rulesComparison": "The default Black Bear stat block matches across the scoped printings.",
+    "viewerPages": [
+      319
+    ],
+    "errata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014",
+    "errataNotes": "Official errata raises Bite and Claws from +3 to +4. The consulted 11th printing already incorporates the change.",
+    "secondaryCrossCheck": "5etools matches the default rules visible in the printed block."
+  }
+]

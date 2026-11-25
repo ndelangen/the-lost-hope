@@ -1,0 +1,167 @@
+[
+  {
+    "name": "Reef Shark",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "2024 rules revision. Hardcover released in 2025, which is the year used by the publisher’s errata.",
+    "sourceUrl": "https://www.dndbeyond.com/monsters/4775838-reef-shark",
+    "url": "https://www.dndbeyond.com/monsters/4775838-reef-shark",
+    "printedPages": [
+      368
+    ],
+    "section": "Appendix A, Animals",
+    "publisherByline": "Monster Manual, pg. 368",
+    "relatedRules": [
+      {
+        "section": "D&D Beyond Basic Rules, Creature Stat Blocks",
+        "sourceUrl": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks"
+      }
+    ],
+    "attributionEvidence": "The public D&D Beyond creature page identifies the source as Monster Manual.",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "errataPdfUrl": "",
+    "errataEvidence": "The official 2025 Monster Manual errata v1.0 lists no change to this entry.",
+    "habitatEvidence": "Habitat labels come from the dedicated publisher entry.",
+    "appearanceEvidence": "Editorial description of the reused square portrait.",
+    "artGroup": "reef-shark",
+    "portraitReuseSource": "beast-ready-batch-05/parts/b05_07/portraits/reef-shark.png",
+    "portraitReuseSha256": "6f2fab1af6cf9e06fa2af63260b1c24c042594eec93c1427ea3f181b5b74b812",
+    "mechanicsNotes": [
+      "The shark has a 5-ft. ground speed and a 30-ft. swim speed. Its Blindsight extends 30 ft."
+    ]
+  },
+  {
+    "name": "Rhinoceros",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "2024 rules revision. Hardcover released in 2025, which is the year used by the publisher’s errata.",
+    "sourceUrl": "https://www.dndbeyond.com/monsters/5195183-rhinoceros",
+    "url": "https://www.dndbeyond.com/monsters/5195183-rhinoceros",
+    "printedPages": [
+      368
+    ],
+    "section": "Appendix A, Animals",
+    "publisherByline": "Monster Manual, pg. 368",
+    "relatedRules": [
+      {
+        "section": "D&D Beyond Basic Rules, Creature Stat Blocks",
+        "sourceUrl": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks"
+      }
+    ],
+    "attributionEvidence": "The public D&D Beyond creature page identifies the source as Monster Manual.",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "errataPdfUrl": "",
+    "errataEvidence": "The official 2025 Monster Manual errata v1.0 lists no change to this entry.",
+    "habitatEvidence": "Habitat labels come from the dedicated publisher entry.",
+    "appearanceEvidence": "Editorial description of the reused square portrait.",
+    "artGroup": "rhinoceros",
+    "portraitReuseSource": "beast-ready-batch-02/parts/b02_08/portraits/rhinoceros.png",
+    "portraitReuseSha256": "52429ef13ba662e36f9383e708925849fe7bdbfc98390dbbd428c41e6e55badb",
+    "mechanicsNotes": [
+      "Gore applies the extra piercing damage and Prone on a qualifying hit without a saving throw."
+    ]
+  },
+  {
+    "name": "Riding Horse",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "2024 rules revision. Hardcover released in 2025, which is the year used by the publisher’s errata.",
+    "sourceUrl": "https://www.dndbeyond.com/monsters/4775839-riding-horse",
+    "url": "https://www.dndbeyond.com/monsters/4775839-riding-horse",
+    "printedPages": [
+      368
+    ],
+    "section": "Appendix A, Animals",
+    "publisherByline": "Monster Manual, pg. 368",
+    "relatedRules": [
+      {
+        "section": "D&D Beyond Basic Rules, Creature Stat Blocks",
+        "sourceUrl": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks"
+      }
+    ],
+    "attributionEvidence": "The public D&D Beyond creature page identifies the source as Monster Manual.",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "errataPdfUrl": "",
+    "errataEvidence": "The official 2025 Monster Manual errata v1.0 lists no change to this entry.",
+    "habitatEvidence": "Habitat labels come from the dedicated publisher entry.",
+    "appearanceEvidence": "Editorial description of the reused square portrait.",
+    "artGroup": "riding-warhorse",
+    "portraitReuseSource": "beast-ready-batch-05/parts/b05_09/portraits/riding-warhorse.png",
+    "portraitReuseSha256": "14f25a324412d031c2036a64ad7a6d3e71e18c81cf5aec291568dcc05d351daf",
+    "mechanicsNotes": [
+      "The published Riding Horse has one action, Hooves. Its shared portrait also appears on the separately scoped Warhorse."
+    ]
+  },
+  {
+    "name": "Saber-Toothed Tiger",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "2024 rules revision. Hardcover released in 2025, which is the year used by the publisher’s errata.",
+    "sourceUrl": "https://www.dndbeyond.com/monsters/5195187-saber-toothed-tiger",
+    "url": "https://www.dndbeyond.com/monsters/5195187-saber-toothed-tiger",
+    "printedPages": [
+      369
+    ],
+    "section": "Appendix A, Animals",
+    "publisherByline": "Monster Manual, pg. 369",
+    "relatedRules": [
+      {
+        "section": "D&D Beyond Basic Rules, Creature Stat Blocks",
+        "sourceUrl": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks"
+      }
+    ],
+    "attributionEvidence": "The public D&D Beyond creature page identifies the source as Monster Manual.",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "errataPdfUrl": "",
+    "errataEvidence": "The official 2025 Monster Manual errata v1.0 lists no change to this entry.",
+    "habitatEvidence": "Habitat labels come from the dedicated publisher entry.",
+    "appearanceEvidence": "Editorial description of the reused square portrait.",
+    "artGroup": "saber-toothed-tiger",
+    "portraitReuseSource": "beast-ready-batch-06/reused-portraits/saber-toothed-tiger.webp",
+    "portraitReuseSha256": "b493c15e6f2dbf1de2b14f86655593a8d41fdf84507bcfbe6cb72a3c96014434",
+    "mechanicsNotes": [
+      "The published Strength and Dexterity saves are +6 and +5. Nimble Escape is a bonus action."
+    ]
+  },
+  {
+    "name": "Scorpion",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "2024 rules revision. Hardcover released in 2025, which is the year used by the publisher’s errata.",
+    "sourceUrl": "https://www.dndbeyond.com/monsters/4775840-scorpion",
+    "url": "https://www.dndbeyond.com/monsters/4775840-scorpion",
+    "printedPages": [
+      369
+    ],
+    "section": "Appendix A, Animals",
+    "publisherByline": "Monster Manual, pg. 369",
+    "relatedRules": [
+      {
+        "section": "D&D Beyond Basic Rules, Creature Stat Blocks",
+        "sourceUrl": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks"
+      }
+    ],
+    "attributionEvidence": "The public D&D Beyond creature page identifies the source as Monster Manual.",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "errataPdfUrl": "",
+    "errataEvidence": "The official 2025 Monster Manual errata v1.0 lists no change to this entry.",
+    "habitatEvidence": "Habitat labels come from the dedicated publisher entry.",
+    "appearanceEvidence": "Editorial description of the reused square portrait.",
+    "artGroup": "scorpion",
+    "portraitReuseSource": "beast-ready-batch-05/parts/b05_07/portraits/scorpion.png",
+    "portraitReuseSha256": "c93a0150b8dc71654dd0fcfa019a65001bdc5eec5d3a65dc2eccd49427ac64bb",
+    "mechanicsNotes": [
+      "The poison damage applies on a hit without a saving throw."
+    ]
+  }
+]

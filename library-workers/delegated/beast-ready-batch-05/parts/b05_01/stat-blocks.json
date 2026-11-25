@@ -1,0 +1,317 @@
+[
+  {
+    "name": "Giant Owl",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, neutral",
+    "ac": 12,
+    "hp": 19,
+    "hitDice": "3d10 + 3",
+    "speed": "5 ft., fly 60 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Wis": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 10,
+        "modifier": 0
+      }
+    },
+    "otherStatistics": "Perception +5. Stealth +4. Darkvision 120 ft. Passive Perception 15. Speaks Giant Owl. Common, Elvish and Sylvan are understood only.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A broad-chested tawny owl with barred flight feathers, a round facial disc, and heavy talons.",
+    "habitats": [
+      "Woodlands",
+      "Old-growth forests"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0 (November 2018), Chapter 12, p. 134. ",
+      "Traits": "Flyby. Leaving an enemy’s reach in flight does not provoke an opportunity attack.\nKeen Hearing and Sight. The owl has advantage on Wisdom (Perception) checks that use hearing or sight.",
+      "Actions": "Talons. Melee weapon attack, +3 to hit with 5-ft. reach against one target. Hit for 8 (2d6 + 1) slashing damage."
+    }
+  },
+  {
+    "name": "Giant Owl",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, neutral",
+    "ac": 12,
+    "hp": 19,
+    "hitDice": "3d10 + 3",
+    "speed": "5 ft., fly 60 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Wis": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 10,
+        "modifier": 0
+      }
+    },
+    "otherStatistics": "Perception +5. Stealth +4. Darkvision 120 ft. Passive Perception 15. Speaks Giant Owl. Common, Elvish and Sylvan are understood only.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A broad-chested tawny owl with barred flight feathers, a round facial disc, and heavy talons.",
+    "habitats": [
+      "Woodlands",
+      "Old-growth forests"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), 11th printing, Appendix A, Miscellaneous Creatures, p. 327. https://anyflip.com/kqwdv/eoae/basic/301-350#p=328",
+      "Traits": "Flyby. Leaving an enemy’s reach in flight does not provoke an opportunity attack.\nKeen Hearing and Sight. The owl has advantage on Wisdom (Perception) checks that use hearing or sight.",
+      "Actions": "Talons. Melee weapon attack, +3 to hit with 5-ft. reach against one target. Hit for 8 (2d6 + 1) slashing damage."
+    }
+  },
+  {
+    "name": "Giant Poisonous Snake",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 14,
+    "hp": 11,
+    "hitDice": "2d8 + 2",
+    "speed": "30 ft., swim 30 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Dex": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Perception +2. Blindsight 10 ft. Passive Perception 12. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A thick olive-brown snake with dark markings, a triangular head, and visible fangs.",
+    "habitats": [
+      "Riverbanks",
+      "Marshes",
+      "Wet grassland"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0 (November 2018), Chapter 12, p. 134. ",
+      "Actions": "Bite. Melee weapon attack, +6 to hit with 10-ft. reach against one target. On a hit, deal 6 (1d4 + 4) piercing damage. The target makes a DC 11 Constitution save, taking 10 (3d6) poison damage on a failure or half as much on a success."
+    }
+  },
+  {
+    "name": "Giant Poisonous Snake",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 14,
+    "hp": 11,
+    "hitDice": "2d8 + 2",
+    "speed": "30 ft., swim 30 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Dex": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Perception +2. Blindsight 10 ft. Passive Perception 12. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A thick olive-brown snake with dark markings, a triangular head, and visible fangs.",
+    "habitats": [
+      "Riverbanks",
+      "Marshes",
+      "Wet grassland"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), 11th printing, Appendix A, Miscellaneous Creatures, p. 327. https://anyflip.com/kqwdv/eoae/basic/301-350#p=328",
+      "Actions": "Bite. Melee weapon attack, +6 to hit with 10-ft. reach against one target. On a hit, deal 6 (1d4 + 4) piercing damage. The target makes a DC 11 Constitution save, taking 10 (3d6) poison damage on a failure or half as much on a success."
+    }
+  },
+  {
+    "name": "Giant Rat",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Small Beast, unaligned",
+    "ac": 12,
+    "hp": 7,
+    "hitDice": "2d6",
+    "speed": "30 ft.",
+    "cr": "1/8",
+    "xp": 25,
+    "abilities": {
+      "Str": {
+        "score": 7,
+        "modifier": -2
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Darkvision 60 ft. Passive Perception 10. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A stocky brown-gray rat with rounded ears, a pointed whiskered snout, and a long bare ringed tail.",
+    "habitats": [
+      "Settlements",
+      "Sewers",
+      "Cellars"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0 (November 2018), Chapter 12, p. 135. ",
+      "Traits": "Keen Smell. The rat has advantage on Wisdom (Perception) checks that use scent.\nPack Tactics. The rat has advantage on attacks against a creature if one of the rat’s allies is within 5 ft. of that creature and that ally is not incapacitated.",
+      "Actions": "Bite. Melee weapon attack, +4 to hit with 5-ft. reach against one target. Hit for 4 (1d4 + 2) piercing damage."
+    }
+  },
+  {
+    "name": "Giant Rat",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Small Beast, unaligned",
+    "ac": 12,
+    "hp": 7,
+    "hitDice": "2d6",
+    "speed": "30 ft.",
+    "cr": "1/8",
+    "xp": 25,
+    "abilities": {
+      "Str": {
+        "score": 7,
+        "modifier": -2
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Darkvision 60 ft. Passive Perception 10. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A stocky brown-gray rat with rounded ears, a pointed whiskered snout, and a long bare ringed tail.",
+    "habitats": [
+      "Settlements",
+      "Sewers",
+      "Cellars"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), 11th printing, Appendix A, Miscellaneous Creatures, p. 327. https://anyflip.com/kqwdv/eoae/basic/301-350#p=328",
+      "Traits": "Keen Smell. The rat has advantage on Wisdom (Perception) checks that use scent.\nPack Tactics. The rat has advantage on attacks against a creature if one of the rat’s allies is within 5 ft. of that creature and that ally is not incapacitated.",
+      "Actions": "Bite. Melee weapon attack, +4 to hit with 5-ft. reach against one target. Hit for 4 (1d4 + 2) piercing damage.",
+      "Variant: Diseased Giant Rats": "CR 1/8 (25 XP). Replace the standard Bite with this version. Melee weapon attack, +4 to hit with 5-ft. reach against one target. Hit for 4 (1d4 + 2) piercing damage. A creature hit must pass a DC 10 Constitution save or contract a disease. While infected, the creature can regain HP only through magic and its HP maximum drops by 3 (1d6) every 24 hours. If this disease brings its maximum HP to 0, the creature dies."
+    }
+  }
+]

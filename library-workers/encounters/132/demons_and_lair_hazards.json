@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Abyssal Hyena",
+    "decision": "share",
+    "pages": "Canyon of the Tower Crown, p. 159",
+    "tableNote": "Canyon of the Tower Crown, p. 155, area D4. The wounded hyena in the dungeon starts Incapacitated. Restore any HP or succeed on a DC 13 Wisdom (Medicine) check to gain it as a companion. Use the separate companion profile from that point.",
+    "notes": "Both printed minion blocks match the local summary, including Death Snap's 0 HP trigger and the Bite group attack's minimum of two participants, prone effect, and scaling Strength save DC."
+  },
+  {
+    "name": "Lacuna",
+    "decision": "share",
+    "pages": "Coronal Hollow, p. 244",
+    "tableNote": "Coronal Hollow, p. 241, area B7. Two lacunas pass as statues beside the entrance. They attack as soon as the party shows delight at the treasure.",
+    "notes": "Both printed blocks and the local summary agree on the 0 ft. speed, defenses, Grief-Eater and Infuse Sadness, and the two 60-ft. teleports. Slip Away still lets the attacker retarget if the teleport makes the lacuna an invalid target."
+  },
+  {
+    "name": "Lightbender",
+    "decision": "share",
+    "pages": "Glass Cavern, p. 272",
+    "tableNote": "Glass Cavern, p. 266, area R4. Six lightbenders attack if provoked or if the party uses a light source with a bright radius of at least 120 ft. Xaantikorijek arrives at the start of round three if combat breaks out. The mirrored walls double illumination radii and force each creature in the room to make a DC 15 Constitution save when such a light is used. On a failure it is Blinded for 1 minute, with a new save at the end of each turn.",
+    "notes": "Both printings match the Library's Pounce and bonus Bite, two multiattack options, Hypnotic Mane conditions and end triggers, and Afterimage's range and exceptions for creatures that can perceive the illusion."
+  },
+  {
+    "name": "Lightthief",
+    "decision": "share",
+    "pages": "Shifting Library, p. 90",
+    "tableNote": "Shifting Library, p. 84, area K3. Four lightthieves hide in ground-floor lamps and prey on creatures carrying lights and ignore Undead. If the fight lasts more than three rounds or damages the library, the librarians on that level join the fight.",
+    "notes": "Both printings match the Library's Necrotic Drain damage based on visibility, Into the Light's recharge and ejection penalty, and Steal Light's range, damage and temporary removal of darkvision."
+  },
+  {
+    "name": "Sunlight Nexus",
+    "decision": "share",
+    "pages": "Coronal Hollow, p. 248. Ash Queen's Reliquary, p. 301.",
+    "tableNote": "Coronal Hollow, p. 239, area B4. Spicule and Brume will talk to stall visitors but attack when the conversation ends. Ash Queen's Reliquary, p. 291, area A4. Nayrin guards the study alongside Meskrit. If the party rested in the tower, use their earlier interaction to guide this meeting.",
+    "notes": "The two Where Evil Lives appearances match Flee, Mortals! and the Library summary. Corona, both Multiattack substitutions, the healing and status removal, and both Convocation choices use the same mechanics."
+  },
+  {
+    "name": "Slaughter Demon",
+    "decision": "share",
+    "pages": "Camp Firefield, p. 81",
+    "tableNote": "Camp Firefield, p. 72, area C7. Three war mages summon the demon at the start of round four after the party arrives. The ritual fails if every mage dies, becomes Incapacitated, or leaves the ring of pillars.",
+    "notes": "The two printed blocks and current summary agree on soul rules, all four weapon attacks, the fifth attack's soul cost, Pincer's grapple capacity, Tail Spike's save, and Dive Deep's duration."
+  },
+  {
+    "name": "Tormenauk",
+    "decision": "share",
+    "pages": "Canyon of the Tower Crown, p. 164",
+    "tableNote": "Canyon of the Tower Crown, pp. 156–157, area D6. Bray keeps stirring molten gold until she must fight. She has two ruinant assistants. Touching the gold, trough, fire, or molds deals 16 (3d10) fire damage.",
+    "notes": "Both book blocks and the Library agree on souls, two available grapples, Many Maws requiring a grapple, Agony Wail's hearing and familiarity conditions, and Share Agony returning damage on a failed save."
+  },
+  {
+    "name": "Wobalas",
+    "decision": "share",
+    "pages": "Canyon of the Tower Crown, p. 165",
+    "tableNote": "Canyon of the Tower Crown, p. 156, area D5. Rancyth arrives with five pitlings 1 minute after the party enters the showroom. Venash tries to stall them until this group arrives and attacks.",
+    "notes": "Both book blocks agree with the Library on souls and triple Despair Bolt, the Frightened immunity refund, Banishing Touch's teleport distance, and Flee, Mortal using the target's available reaction."
+  },
+  {
+    "name": "Gem Jelly",
+    "decision": "share",
+    "pages": "Cloud Fang Keep, p. 102",
+    "tableNote": "Cloud Fang Keep, p. 99. The living snow in the parlor can form a gem jelly as a shortcut for using the party's duplicate statistics.",
+    "notes": "The printed rules and the Library agree on both forms, AC 20 and thunder vulnerability while crystalline, the Pseudopod restriction, and the trigger and immunity for Crystalline Shatter."
+  },
+  {
+    "name": "Blood-Borne Ooze",
+    "decision": "share",
+    "pages": "Shifting Library, p. 88. Cloud Fang Keep, p. 101.",
+    "tableNote": "Shifting Library, p. 84, area K1. Five oozes ambush whoever opens the wine decanter. Cloud Fang Keep's approach has two infected owlbears. The adventure defaults to releasing an ooze when its host dies and offers the standard Pseudopod expulsion save as an option before then.",
+    "notes": "Both Where Evil Lives blocks agree with Flee, Mortals! and the local summary on the host eligibility and entry save, 5-point damage threshold and expulsion save, voluntary exit, and Crimson Feast. The owlbear shortcut is encounter guidance."
+  }
+]

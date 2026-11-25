@@ -1,0 +1,447 @@
+diff --git a/dm-library/bestiary/book-catalog.json b/dm-library/bestiary/book-catalog.json
+--- a/dm-library/bestiary/book-catalog.json
++++ b/dm-library/bestiary/book-catalog.json
+@@ -309929,6 +309929,443 @@
+           }
+         ]
+       }
++    },
++    {
++      "name": "Camel, Cavalry",
++      "kind": "beast",
++      "publication": "Player's Guide 2",
++      "edition": "Black Flag Roleplaying",
++      "ruleset": "black-flag",
++      "appearance": "A combat-trained camel in studded leather barding, usually a one-humped dromedary.",
++      "combat": {
++        "armorClass": 12,
++        "hitPoints": 25,
++        "challenge": "1/2",
++        "creatureType": "Beast",
++        "size": "Large",
++        "speed": {
++          "walk": 40
++        },
++        "habitats": ["Badlands", "Desert", "Hills"],
++        "attacks": [
++          {
++            "name": "Bite",
++            "mode": "melee",
++            "hitBonus": 5,
++            "reach": 5,
++            "damage": [
++              {
++                "average": 8,
++                "dice": "2d4 + 3",
++                "type": "bludgeoning"
++              }
++            ]
++          }
++        ],
++        "armorClassNote": "Studded leather barding"
++      },
++      "mechanics": {
++        "Trait": [
++          {
++            "name": "Desert Walk",
++            "effectNote": "Nonmagical sand that is difficult terrain costs the camel no extra movement."
++          },
++          {
++            "name": "Condition resistance",
++            "effectNote": "The block lists resistance to blinded, exhaustion."
++          }
++        ],
++        "Bonus action": [
++          {
++            "name": "Spit (Recharge 4–6)",
++            "effectNote": "One creature the camel sees within 15 ft. must pass a DC 13 CON save or be blinded until the end of its next turn."
++          }
++        ],
++        "Reaction": [
++          {
++            "name": "Defensive Kick",
++            "effectNote": "When a visible creature within 5 ft. damages the camel or its rider, that creature must pass a DC 13 STR save or be pushed up to 10 ft. away and knocked prone."
++          }
++        ],
++        "Companion use": [
++          {
++            "name": "Cost and carrying capacity",
++            "effectNote": "200 gp. It can carry 480 lb."
++          },
++          {
++            "name": "Handler commands",
++            "effectNote": "A designated handler can use an action and pass a DC 10 WIS (Animal Handling) check to order it to Attack, Dash, Disengage, Dodge, Help, Hide or Use an Object. On failure the animal defends itself and otherwise takes no action."
++          },
++          {
++            "name": "Delivering or fetching an item",
++            "effectNote": "Use an Object can deliver an item. It can also fetch an item from a willing creature or one on the ground or otherwise unworn and uncarried."
++          },
++          {
++            "name": "Training a handler",
++            "effectNote": "It can learn up to four handlers, with one week of training per handler. Teaching a fifth normally replaces the handler who last commanded it least recently. At the GM’s discretion, a close bond can prevent replacement and the new training fails."
++          },
++          {
++            "name": "Mounted combat",
++            "effectNote": "While used as a mount in mounted combat, it follows the controlled mount rules."
++          }
++        ]
++      },
++      "notes": [
++        "Black Flag fixed values are Perception 9 and Stealth 10. Ability modifiers are STR +3, DEX +0, CON +2, INT −4, WIS −1 and CHA −3. No languages or special senses.",
++        "The source also describes two-humped cavalry camels. It says trained camels protect dismounted riders.",
++        "The handling rule specifies an Animal Handling check, then calls its failure a failed save. Resolve failure using the check it specifies.",
++        "Source: Kobold Press, Player’s Guide 2 (2026), pp. 142–143."
++      ]
++    },
++    {
++      "name": "Hound, Hunting",
++      "kind": "beast",
++      "publication": "Player's Guide 2",
++      "edition": "Black Flag Roleplaying",
++      "ruleset": "black-flag",
++      "appearance": "A small scent hound trained to track and flush quarry.",
++      "combat": {
++        "armorClass": 12,
++        "hitPoints": 15,
++        "challenge": "1/4",
++        "creatureType": "Beast",
++        "size": "Small",
++        "speed": {
++          "walk": 40
++        },
++        "habitats": ["Any", "Urban"],
++        "attacks": [
++          {
++            "name": "Bite",
++            "mode": "melee",
++            "hitBonus": 4,
++            "reach": 5,
++            "damage": [
++              {
++                "average": 6,
++                "dice": "1d8 + 2",
++                "type": "piercing"
++              }
++            ]
++          }
++        ]
++      },
++      "mechanics": {
++        "Trait": [
++          {
++            "name": "Diligent Tracker",
++            "effectNote": "The hound has advantage on WIS (Survival) checks to track creatures."
++          },
++          {
++            "name": "Heightened Hearing and Smell",
++            "effectNote": "Use Perception 18 when relying on hearing or smell."
++          }
++        ],
++        "Action": [
++          {
++            "name": "Bite",
++            "effectNote": "A hit grapples a Medium or smaller target (escape DC 12). While holding it, the hound cannot bite another target."
++          }
++        ],
++        "Bonus action": [
++          {
++            "name": "Flushing Bark",
++            "effectNote": "In a 15-ft. cone, creatures that are hiding or behind cover make a DC 12 WIS save. Those that fail immediately stop hiding or move up to 10 ft. out of cover. This forced movement avoids opportunity attacks and damaging terrain."
++          },
++          {
++            "name": "Swift Hunter",
++            "effectNote": "The hound moves up to its speed toward a hostile creature it can see."
++          }
++        ],
++        "Companion use": [
++          {
++            "name": "Cost and carrying capacity",
++            "effectNote": "50 gp. It can carry 210 lb."
++          },
++          {
++            "name": "Handler commands",
++            "effectNote": "A designated handler can use an action and pass a DC 10 WIS (Animal Handling) check to order it to Attack, Dash, Disengage, Dodge, Help, Hide or Use an Object. On failure the animal defends itself and otherwise takes no action."
++          },
++          {
++            "name": "Delivering or fetching an item",
++            "effectNote": "Use an Object can deliver an item. It can also fetch an item from a willing creature or one on the ground or otherwise unworn and uncarried."
++          },
++          {
++            "name": "Training a handler",
++            "effectNote": "It can learn up to four handlers, with one week of training per handler. Teaching a fifth normally replaces the handler who last commanded it least recently. At the GM’s discretion, a close bond can prevent replacement and the new training fails."
++          },
++          {
++            "name": "Mounted combat",
++            "effectNote": "While used as a mount in mounted combat, it follows the controlled mount rules."
++          }
++        ]
++      },
++      "notes": [
++        "Black Flag fixed values are Perception 13 and Stealth 12. Ability modifiers are STR +1, DEX +2, CON +1, INT −4, WIS +1 and CHA −2. No languages or special senses.",
++        "The book prints CR 1/4. The publisher’s index rounds it to 0.3.",
++        "The handling rule specifies an Animal Handling check, then calls its failure a failed save. Resolve failure using the check it specifies.",
++        "Source: Kobold Press, Player’s Guide 2 (2026), pp. 142–144."
++      ]
++    },
++    {
++      "name": "Oliphant Warbeast",
++      "kind": "beast",
++      "publication": "Player's Guide 2",
++      "edition": "Black Flag Roleplaying",
++      "ruleset": "black-flag",
++      "appearance": "A gray-brown pachyderm with four curved tusks, a short trunk and broad round ears.",
++      "combat": {
++        "armorClass": 14,
++        "hitPoints": 133,
++        "challenge": "6",
++        "creatureType": "Beast",
++        "size": "Huge",
++        "speed": {
++          "walk": 40
++        },
++        "habitats": ["Arctic", "Badlands", "Forest", "Grassland", "Hills"],
++        "attacks": [
++          {
++            "name": "Gore",
++            "mode": "melee",
++            "hitBonus": 9,
++            "reach": 10,
++            "damage": [
++              {
++                "average": 20,
++                "dice": "4d6 + 6",
++                "type": "slashing"
++              }
++            ]
++          },
++          {
++            "name": "Stomp",
++            "mode": "melee",
++            "hitBonus": 9,
++            "reach": 5,
++            "damage": [
++              {
++                "average": 22,
++                "dice": "3d10 + 6",
++                "type": "bludgeoning"
++              }
++            ]
++          }
++        ],
++        "armorClassNote": "Natural armor",
++        "resistances": ["bludgeoning"]
++      },
++      "mechanics": {
++        "Trait": [
++          {
++            "name": "Siege Monster",
++            "effectNote": "It deals double damage to objects and structures."
++          },
++          {
++            "name": "Terrifying Siege",
++            "effectNote": "Destroying a Small or larger object forces every hostile creature within 10 ft. to make a DC 16 CHA save. A failed save frightens the creature until the end of its next turn."
++          },
++          {
++            "name": "Trampling Charge",
++            "effectNote": "After moving at least 20 ft. straight toward a creature and hitting it with Gore that turn, the target must pass a DC 16 STR save or fall prone. The warbeast can Stomp the target once as a bonus action if it is prone."
++          },
++          {
++            "name": "Condition resistance",
++            "effectNote": "The block lists resistance to frightened, prone."
++          }
++        ],
++        "Action": [
++          {
++            "name": "Multiattack",
++            "effectNote": "Make one Gore and one Stomp attack or make two Gore attacks."
++          },
++          {
++            "name": "Stomp",
++            "effectNote": "It can target only a prone creature."
++          }
++        ],
++        "Bonus action": [
++          {
++            "name": "Trunk Sweep",
++            "effectNote": "Creatures in a 15-ft. cone make a DC 16 STR save or fall prone."
++          }
++        ],
++        "Companion use": [
++          {
++            "name": "Cost and carrying capacity",
++            "effectNote": "2,400 gp. It can carry 1,560 lb."
++          },
++          {
++            "name": "Handler commands",
++            "effectNote": "A designated handler can use an action and pass a DC 10 WIS (Animal Handling) check to order it to Attack, Dash, Disengage, Dodge, Help, Hide or Use an Object. On failure the animal defends itself and otherwise takes no action."
++          },
++          {
++            "name": "Delivering or fetching an item",
++            "effectNote": "Use an Object can deliver an item. It can also fetch an item from a willing creature or one on the ground or otherwise unworn and uncarried."
++          },
++          {
++            "name": "Training a handler",
++            "effectNote": "It can learn up to four handlers, with one week of training per handler. Teaching a fifth normally replaces the handler who last commanded it least recently. At the GM’s discretion, a close bond can prevent replacement and the new training fails."
++          },
++          {
++            "name": "Mounted combat",
++            "effectNote": "While used as a mount in mounted combat, it follows the controlled mount rules."
++          }
++        ]
++      },
++      "notes": [
++        "Black Flag fixed values are Perception 13 and Stealth 9. Ability modifiers are STR +9, DEX −1, CON +5, INT −4, WIS +0 and CHA −2. No languages or special senses.",
++        "The book spells it Oliphaunt Warbeast. The profile uses the existing catalog name and keeps the printed attack bonuses and damage.",
++        "The handling rule specifies an Animal Handling check, then calls its failure a failed save. Resolve failure using the check it specifies.",
++        "Source: Kobold Press, Player’s Guide 2 (2026), pp. 142–144."
++      ]
++    },
++    {
++      "name": "Pig, War",
++      "kind": "beast",
++      "publication": "Player's Guide 2",
++      "edition": "Black Flag Roleplaying",
++      "ruleset": "black-flag",
++      "appearance": "A muscular pig with coarse brown-and-gray bristles and a pair of long curved tusks.",
++      "combat": {
++        "armorClass": 10,
++        "hitPoints": 27,
++        "challenge": "1/2",
++        "creatureType": "Beast",
++        "size": "Medium",
++        "speed": {
++          "walk": 30
++        },
++        "habitats": ["Badlands", "Forest", "Grassland", "Hills"],
++        "attacks": [
++          {
++            "name": "Gore",
++            "mode": "melee",
++            "hitBonus": 4,
++            "reach": 5,
++            "damage": [
++              {
++                "average": 7,
++                "dice": "2d4 + 2",
++                "type": "piercing"
++              }
++            ]
++          }
++        ]
++      },
++      "mechanics": {
++        "Trait": [
++          {
++            "name": "Charge",
++            "effectNote": "Move at least 20 ft. straight toward the target and hit with Gore on the same turn. Add 5 (2d4) piercing damage. A creature hit this way must pass a DC 12 STR save or fall prone."
++          },
++          {
++            "name": "Heightened Smell",
++            "effectNote": "Use Perception 16 when relying on smell."
++          },
++          {
++            "name": "Condition resistance",
++            "effectNote": "The block lists resistance to grappled."
++          }
++        ],
++        "Bonus action": [
++          {
++            "name": "Frightful Squeal",
++            "effectNote": "Every Beast and Humanoid within 10 ft. makes a DC 12 WIS save or becomes frightened until the end of its next turn."
++          }
++        ],
++        "Companion use": [
++          {
++            "name": "Cost and carrying capacity",
++            "effectNote": "50 gp. It can carry 210 lb."
++          },
++          {
++            "name": "Handler commands",
++            "effectNote": "A designated handler can use an action and pass a DC 10 WIS (Animal Handling) check to order it to Attack, Dash, Disengage, Dodge, Help, Hide or Use an Object. On failure the animal defends itself and otherwise takes no action."
++          },
++          {
++            "name": "Delivering or fetching an item",
++            "effectNote": "Use an Object can deliver an item. It can also fetch an item from a willing creature or one on the ground or otherwise unworn and uncarried."
++          },
++          {
++            "name": "Training a handler",
++            "effectNote": "It can learn up to four handlers, with one week of training per handler. Teaching a fifth normally replaces the handler who last commanded it least recently. At the GM’s discretion, a close bond can prevent replacement and the new training fails."
++          },
++          {
++            "name": "Mounted combat",
++            "effectNote": "While used as a mount in mounted combat, it follows the controlled mount rules."
++          }
++        ]
++      },
++      "notes": [
++        "Black Flag fixed values are Perception 11 and Stealth 10. Ability modifiers are STR +2, DEX +0, CON +2, INT −4, WIS +1 and CHA −2. No languages or special senses.",
++        "The handling rule specifies an Animal Handling check, then calls its failure a failed save. Resolve failure using the check it specifies.",
++        "Source: Kobold Press, Player’s Guide 2 (2026), pp. 142–145."
++      ]
++    },
++    {
++      "name": "Pigeon, Homing",
++      "kind": "beast",
++      "publication": "Player's Guide 2",
++      "edition": "Black Flag Roleplaying",
++      "ruleset": "black-flag",
++      "appearance": "A small pigeon trained to carry messages in a tube fixed to its leg.",
++      "combat": {
++        "armorClass": 10,
++        "hitPoints": 8,
++        "challenge": "0",
++        "creatureType": "Beast",
++        "size": "Tiny",
++        "speed": {
++          "walk": 10,
++          "fly": 50
++        },
++        "habitats": ["Any", "Urban"],
++        "attacks": [
++          {
++            "name": "Peck",
++            "mode": "melee",
++            "hitBonus": 2,
++            "reach": 5,
++            "damage": [
++              {
++                "average": 2,
++                "dice": "1d4",
++                "type": "piercing"
++              }
++            ]
++          }
++        ]
++      },
++      "mechanics": {
++        "Trait": [
++          {
++            "name": "Messenger",
++            "effectNote": "The pigeon knows the direction and approximate distance to up to three trained people or places on its plane. A humanoid can fasten a message tube and choose one of these destinations. The pigeon flies there directly and has resistance to exhaustion while carrying the tube."
++          },
++          {
++            "name": "Training",
++            "effectNote": "It can learn up to three humanoids or places, with a week of training for each. Teaching a fourth replaces the destination it visited least recently. It uses these destinations in place of designated handlers."
++          }
++        ],
++        "Bonus action": [
++          {
++            "name": "Resolute Delivery",
++            "effectNote": "It takes the Disengage or Dash action. Carrying a message tube also lets it move an extra 15 ft. before or after that action."
++          }
++        ],
++        "Companion use": [
++          {
++            "name": "Cost and carrying capacity",
++            "effectNote": "8 gp. It can carry 15 lb."
++          }
++        ]
++      },
++      "notes": [
++        "Black Flag fixed values are Perception 11 and Stealth 10. Ability modifiers are STR −4, DEX +0, CON +0, INT −4, WIS +1 and CHA −3. No languages or special senses.",
++        "The price table lists the 50-ft. flying speed. The stat block also gives a 10-ft. walking speed.",
++        "Source: Kobold Press, Player’s Guide 2 (2026), pp. 142–143."
++      ]
+     }
+   ],
+   "species": [

@@ -5,6 +5,7 @@ export default createEvent({
   name: 'The party evacuates civilians aboard the third ship',
   day: 14,
   location: refs.locations.fairhaven_evacuation_ship,
+  illustrations: ['/assets/scenes/the-party-evacuates-civilians-aboard-the-third-ship.png'],
   mark: { type: 'icon', name: 'gi/GiLifeBuoy' },
   notes: [
     [

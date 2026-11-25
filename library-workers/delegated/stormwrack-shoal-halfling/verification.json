@@ -1,0 +1,25 @@
+{
+  "baseline": "b59b61c07dc73fb6f7fa0ef9adf5b8d9d14bf516",
+  "temporaryCopy": true,
+  "priorStagedPatchesCompatibilityVerified": true,
+  "playableSpecies": 1,
+  "edition": "3.5 edition",
+  "names": [
+    "Shoal Halfling"
+  ],
+  "selectableProfiles": 1,
+  "publication": "Stormwrack (2005)",
+  "amphibiousAndHalflingInheritanceVerified": true,
+  "baseHalflingEntryPreserved": true,
+  "defaultVersionBefore": null,
+  "defaultVersionAfter": "Stormwrack (2005)",
+  "listThumbnailChanged": true,
+  "sourceTraitsDisplayed": 1,
+  "searchableByTraitAndNpcRole": 1,
+  "originalRunnableNpcBuilds": 2,
+  "fullBuildsReturnedByEncounterAndNpcsCommands": true,
+  "npcBuildsScopedByPublication": true,
+  "existingPlayableSpeciesAndNpcConceptsPreserved": true,
+  "distinctPortraitFiles": 1,
+  "versionPortraitsVerified": 1
+}

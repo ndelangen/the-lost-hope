@@ -1,0 +1,114 @@
+{
+  "builds": [
+    {
+      "id": "korobokuru-pass-rescuer-3e",
+      "title": "Korobokuru pass rescuer, Barbarian 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ],
+      "difficulty": "CR 1",
+      "size": "Small",
+      "type": "Humanoid (Dwarf)",
+      "ac": 14,
+      "hp": 11,
+      "hitDice": "1d12+1 plus Toughness",
+      "initiative": 1,
+      "speed": "30 ft. with fast movement",
+      "abilityScores": {
+        "STR": 13,
+        "DEX": 12,
+        "CON": 13,
+        "INT": 8,
+        "WIS": 9,
+        "CHA": 8
+      },
+      "skills": [
+        "Climb +5",
+        "Hide +5",
+        "Listen +3",
+        "Wilderness Lore +5"
+      ],
+      "senses": "Darkvision 60 ft.",
+      "languages": "Common, Dwarven",
+      "traits": [
+        "Leather armor. Touch AC 12, flat-footed AC 13. Base attack bonus +1. Face 5 by 5 ft., reach 5 ft. Add +4 dodge AC against giants while retaining the Dexterity bonus to AC.",
+        "Fortitude +3, Reflex +1, Will −1. Add +2 on saves against poison and +2 on saves against spells or spell-like effects. Add +1 to attacks against goblinoids.",
+        "Toughness adds 3 HP. Fast movement adds 10 ft. with light gear. Illiterate as a first-level Barbarian.",
+        "Rage once per day, up to 6 rounds. Str 17, Con 17, HP 13, AC 12, Fortitude +5, Will +1. Rage HP go away when it ends. Patient or concentration-dependent tasks such as spellcasting and moving silently are unavailable during rage.",
+        "After rage, fatigued for the rest of the encounter: Str 11, Dex 10, AC 13, Reflex +0. Cannot charge or run."
+      ],
+      "actions": [
+        "Short sword. Melee +3, reach 5 ft., 1d6+1 piercing, critical 19–20/×2. While raging +5, 1d6+3. While fatigued +2, 1d6.",
+        "Thrown dagger. Ranged +3, 10-ft. range increment, 1d4+1 piercing, critical 19–20/×2. While raging +3, 1d4+3. While fatigued +2, 1d4."
+      ],
+      "tactics": "Rig a safety line and get travelers off the exposed path. Stand between them and an attacker. Use rage if the evacuation is threatened. Withdraw once the last traveler reaches cover."
+    },
+    {
+      "id": "river-spirit-folk-ferry-adept-3e",
+      "title": "River Spirit Folk ferry healer, Adept 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ],
+      "difficulty": "Provisional CR 1/2",
+      "size": "Medium",
+      "type": "Humanoid (Spirit)",
+      "ac": 11,
+      "hp": 4,
+      "hitDice": "1d6",
+      "initiative": 1,
+      "speed": "30 ft., swim 30 ft.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 12,
+        "CON": 11,
+        "INT": 10,
+        "WIS": 13,
+        "CHA": 9
+      },
+      "skills": [
+        "Heal +7",
+        "Swim +7 for hazards or special actions",
+        "Wilderness Lore +5"
+      ],
+      "senses": "Low-light vision",
+      "languages": "Common, Spirit Tongue",
+      "traits": [
+        "River lineage. Breathes air and water. No routine swim check. Take 10 under pressure for Swim 17, and run while swimming in a straight line.",
+        "Unarmored. Touch AC 11, flat-footed AC 10. Base attack bonus +0. Fortitude +0, Reflex +1, Will +3.",
+        "Add +2 on saves against spells or spell-like effects with water in their names, water shugenja spells, and water-related wu jen spells.",
+        "Skill Focus (Heal) adds +2 in D&D 3.0. Prepared divine spells CL 1, DC 11 + spell level where applicable. Carries a divine focus."
+      ],
+      "actions": [
+        "Club. Melee −1, reach 5 ft., 1d6−1 bludgeoning (minimum 1), critical ×2.",
+        "Prepared cantrips. Cure minor wounds twice per day, touch, restores 1 HP per cast. Create water once per day, creates up to two gallons of clean water.",
+        "Prepared 1st-level spells. Cure light wounds once per day, touch, restores 1d8+1 HP. Bless once per day, allies in a 50-ft. burst gain +1 morale to attack rolls and saves against fear for 1 minute.",
+        "River lineage. Speak with animals once per day for up to 1 minute, CL 1, fish only."
+      ],
+      "tactics": "Move injured passengers behind cover, use healing on the worst injury, and use the river route when the landing is unsafe. Cast bless if allies need to hold the crossing."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Korobokuru",
+      "size": "Small",
+      "edition": "3.0 edition",
+      "name": "Bramble",
+      "build": "korobokuru-pass-rescuer-3e",
+      "role": "Mountain-pass rescuer who can hold an evacuation route",
+      "motive": "Get a stranded repair crew off the pass before dark.",
+      "hook": "Bramble has a safety rope on the safe side but needs someone to reach the crew from the other bank."
+    },
+    {
+      "species": "Spirit Folk",
+      "size": "Medium",
+      "edition": "3.0 edition",
+      "name": "Ilen",
+      "build": "river-spirit-folk-ferry-adept-3e",
+      "role": "River lineage ferry healer who can guide an underwater rescue",
+      "motive": "Recover a missing ferry passenger before the current takes them past the landing.",
+      "hook": "Ilen can ask fish which side of the old pier the passenger surfaced on, then dress their wounds once the group gets them ashore."
+    }
+  ]
+}

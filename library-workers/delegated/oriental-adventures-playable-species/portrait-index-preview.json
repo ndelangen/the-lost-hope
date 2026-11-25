@@ -1,0 +1,18 @@
+[
+  {
+    "entry": "species-93cc4a353febc8bddb07958d",
+    "version": "fc4d914bdb4b0f8d94940095",
+    "name": "Nezumi",
+    "file": "images/oriental-adventures-playable-species/nezumi.png",
+    "sha256": "e8307b6725eea623642bee4b5d8c1e4262058d27cce4101e0eefb521f3573e79",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-deeb095ab48d0adf7a14d14c",
+    "version": "a341ce15604d2c428c36b37e",
+    "name": "Vanara",
+    "file": "images/oriental-adventures-playable-species/vanara.png",
+    "sha256": "470914117581a8435b9de1f4e9468f9857f692538da7299f283b654b99e5ecc6",
+    "credit": "OpenAI ImageGen"
+  }
+]

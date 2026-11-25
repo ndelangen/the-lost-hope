@@ -1,0 +1,181 @@
+[
+  {
+    "name": "Elk",
+    "kind": "beast",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "printing": "Reference Document v0.2, May 2024 ",
+    "publisher": "Open Design LLC d/b/a Kobold Press",
+    "pdfPage": 357,
+    "printedPages": [
+      357
+    ],
+    "viewerPages": [
+      357
+    ],
+    "section": "Monsters",
+    "sourceUrl": "",
+    "url": "",
+    "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+    "xp": 50,
+    "xpSource": "",
+    "fixedValues": {
+      "Perception": 10,
+      "Stealth": 10
+    },
+    "abilityModifiers": {
+      "STR": 2,
+      "DEX": 0,
+      "CON": 1,
+      "INT": -4,
+      "WIS": 0,
+      "CHA": -2
+    },
+    "hitDiceEvidence": "The v0.2 block gives fixed HP with no Hit Dice or ability scores.",
+    "appearanceEvidence": "Editorial description of the shared wapiti portrait, informed by the U.S. National Park Service species profile. https://www.nps.gov/mnrr/learn/nature/elk.htm",
+    "habitatEvidence": "Forests, grasslands and hills match the 2014 D&D Beyond habitat tags. Meadows are based on the U.S. National Park Service profile. https://www.dndbeyond.com/monsters/16857-elk https://www.nps.gov/mnrr/learn/nature/elk.htm",
+    "habitatSourceKind": "Editorial encounter tags. The v0.2 block has no habitat field.",
+    "mechanicsNotes": []
+  },
+  {
+    "name": "Elk",
+    "kind": "beast",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "printing": "First printing, September 2014",
+    "publisher": "Wizards of the Coast",
+    "section": "Appendix A, Miscellaneous Creatures",
+    "printedPages": [
+      322
+    ],
+    "viewerPages": [
+      323
+    ],
+    "printedSource": "Monster Manual, ISBN 978-0-7869-6561-8, local copy",
+    "sourceUrl": "https://www.dndbeyond.com/monsters/16857-elk",
+    "url": "https://www.dndbeyond.com/monsters/16857-elk",
+    "errataUrl": "",
+    "errataEvidence": "The official Monster Manual v2.0 errata has no entry for Elk.",
+    "appearanceEvidence": "Editorial description of the shared wapiti portrait, informed by the U.S. National Park Service species profile. https://www.nps.gov/mnrr/learn/nature/elk.htm",
+    "habitatEvidence": "Forest, Grassland and Hill are the official 2014 D&D Beyond habitat tags. Meadow is an editorial encounter tag based on the U.S. National Park Service profile. https://www.nps.gov/mnrr/learn/nature/elk.htm",
+    "mechanicsNotes": [
+      "The printed Charge does not specify a damage type for its extra damage. Hooves targets one prone creature and is a separate action."
+    ]
+  },
+  {
+    "name": "Owl",
+    "kind": "beast",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "printing": "Reference Document v0.2, May 2024 ",
+    "publisher": "Open Design LLC d/b/a Kobold Press",
+    "pdfPage": 365,
+    "printedPages": [
+      365
+    ],
+    "viewerPages": [
+      365
+    ],
+    "section": "Monsters",
+    "sourceUrl": "",
+    "url": "",
+    "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+    "xp": 10,
+    "xpSource": "",
+    "fixedValues": {
+      "Perception": 13,
+      "Stealth": 13
+    },
+    "abilityModifiers": {
+      "STR": -4,
+      "DEX": 1,
+      "CON": -1,
+      "INT": -4,
+      "WIS": 1,
+      "CHA": -2
+    },
+    "hitDiceEvidence": "The v0.2 block gives fixed HP with no Hit Dice or ability scores.",
+    "appearanceEvidence": "Editorial choice of a barn owl for the portrait. Its face and plumage draw on the Cornell Lab of Ornithology identification material. https://www.allaboutbirds.org/guide/barn_owl/lifehistory",
+    "habitatEvidence": "Editorial barn-owl habitat tags based on Cornell Lab’s description of its hunting grounds and roosts. https://www.allaboutbirds.org/guide/barn_owl/lifehistory",
+    "habitatSourceKind": "Editorial encounter tags. The v0.2 block has no habitat field.",
+    "mechanicsNotes": []
+  },
+  {
+    "name": "Pony",
+    "kind": "beast",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "printing": "Reference Document v0.2, May 2024 ",
+    "publisher": "Open Design LLC d/b/a Kobold Press",
+    "pdfPage": 366,
+    "printedPages": [
+      366
+    ],
+    "viewerPages": [
+      366
+    ],
+    "section": "Monsters",
+    "sourceUrl": "",
+    "url": "",
+    "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+    "xp": 25,
+    "xpSource": "",
+    "fixedValues": {
+      "Perception": 10,
+      "Stealth": 10
+    },
+    "abilityModifiers": {
+      "STR": 2,
+      "DEX": 0,
+      "CON": 1,
+      "INT": -4,
+      "WIS": 0,
+      "CHA": -2
+    },
+    "hitDiceEvidence": "The v0.2 block gives fixed HP with no Hit Dice or ability scores.",
+    "appearanceEvidence": "Editorial description of the original chestnut pony portrait. The print supplies size and the Hooves attack.",
+    "habitatEvidence": "Editorial encounter tags based on a domesticated working pony. No location or range is specified by the print.",
+    "habitatSourceKind": "Editorial encounter tags. The v0.2 block has no habitat field.",
+    "mechanicsNotes": [
+      "Draft Animal is printed inside the Pony stat block but the sentence names a draft horse. The per-entry summary applies the multiplier to Pony as an editorial reading. No unprinted Strength score or absolute carrying load is supplied."
+    ]
+  },
+  {
+    "name": "Quipper",
+    "kind": "beast",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "printing": "Reference Document v0.2, May 2024 ",
+    "publisher": "Open Design LLC d/b/a Kobold Press",
+    "pdfPage": 366,
+    "printedPages": [
+      366
+    ],
+    "viewerPages": [
+      366
+    ],
+    "section": "Monsters",
+    "sourceUrl": "",
+    "url": "",
+    "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+    "xp": 10,
+    "xpSource": "",
+    "fixedValues": {
+      "Perception": 8,
+      "Stealth": 10
+    },
+    "abilityModifiers": {
+      "STR": -4,
+      "DEX": 0,
+      "CON": 0,
+      "INT": -5,
+      "WIS": -2,
+      "CHA": -4
+    },
+    "hitDiceEvidence": "The v0.2 block gives fixed HP with no Hit Dice or ability scores.",
+    "appearanceEvidence": "The sharp teeth match Wizards of the Coast’s legacy Quipper description. The jaw shape and color come from the original portrait. https://www.dndbeyond.com/monsters/16989-quipper",
+    "habitatEvidence": "Underwater follows the printed Water Breathing trait. Rivers, lakes and subterranean water are editorial examples informed by the legacy Quipper description. https://www.dndbeyond.com/monsters/16989-quipper",
+    "habitatSourceKind": "Editorial encounter tags. The v0.2 block has no habitat field.",
+    "mechanicsNotes": []
+  }
+]

@@ -19,4 +19,5 @@ export default createEvent({
       '.',
     ],
   ],
+  illustrations: ['/assets/scenes/borris-welcomes-the-party-and-delivers-crowy.png'],
 })

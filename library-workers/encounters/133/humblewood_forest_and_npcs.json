@@ -1,0 +1,439 @@
+[
+  {
+    "name": "Birdfolk Skeleton",
+    "decision": "separate",
+    "pages": "Appendix A, p. 180",
+    "notes": "The Appendix A stat block matches the indexed CR and undead classification.",
+    "statBlock": {
+      "name": "Birdfolk Skeleton",
+      "publication": "Humblewood Campaign Setting",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium Undead, lawful evil",
+      "ac": 12,
+      "hp": 13,
+      "hitDice": "2d8 + 4",
+      "speed": "30 ft.",
+      "cr": "1/4",
+      "xp": 50,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 11,
+          "modifier": 0
+        },
+        "Dex": {
+          "score": 15,
+          "modifier": 2
+        },
+        "Con": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Int": {
+          "score": 7,
+          "modifier": -2
+        },
+        "Wis": {
+          "score": 8,
+          "modifier": -1
+        },
+        "Cha": {
+          "score": 4,
+          "modifier": -3
+        }
+      },
+      "otherStatistics": "Natural armor. Vulnerable to bludgeoning damage. Immune to poison damage and to Exhaustion and Poisoned. Darkvision 60 ft., passive Perception 9. Understands Auran and Birdfolk without speaking.",
+      "description": "A reanimated birdfolk skeleton retains familiar skills, including the use of weapons it wielded in life.",
+      "sections": {
+        "Traits": "Talons. The skeleton has advantage on Strength (Athletics) checks to climb surfaces it can grip with its talons.",
+        "Actions": "Shortsword. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 5 (1d6 + 2) piercing damage.\nTalons. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 4 (1d4 + 2) piercing damage.",
+        "Printed source": "Appendix A, p. 180"
+      }
+    }
+  },
+  {
+    "name": "Cobblefright",
+    "decision": "separate",
+    "pages": "Appendix A, p. 181",
+    "notes": "The printed stat block identifies the creature as Undead, and Soul Siphon remains a separate action outside Multiattack.",
+    "statBlock": {
+      "name": "Cobblefright",
+      "publication": "Humblewood Campaign Setting",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Large Undead, chaotic evil",
+      "ac": 15,
+      "hp": 102,
+      "hitDice": "12d10 + 36",
+      "speed": "30 ft.",
+      "cr": "5",
+      "xp": 1800,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 19,
+          "modifier": 4
+        },
+        "Dex": {
+          "score": 11,
+          "modifier": 0
+        },
+        "Con": {
+          "score": 16,
+          "modifier": 3
+        },
+        "Int": {
+          "score": 6,
+          "modifier": -2
+        },
+        "Wis": {
+          "score": 8,
+          "modifier": -1
+        },
+        "Cha": {
+          "score": 5,
+          "modifier": -3
+        }
+      },
+      "otherStatistics": "Natural armor. Saving throws Con +6, Wis +2. Immune to poison damage and to Charmed, Exhaustion, and Poisoned. Darkvision 60 ft., passive Perception 9. Understands Auran, Birdfolk, and its other languages from life without speaking.",
+      "description": "Several birdfolk skeletons form a single undead body that can sustain itself by draining its victims.",
+      "sections": {
+        "Traits": "Berserk. At the start of a turn when the cobblefright has 40 HP or fewer, roll a d6. On a 6 it goes berserk. While berserk, it attacks the nearest creature it can see each turn. If it cannot move to and attack a creature, it attacks an object, preferring one smaller than itself. It stays berserk until destroyed or restored to full HP.",
+        "Actions": "Multiattack. Make three Claw attacks. One may be replaced by Grab.\nClaw. Melee weapon attack, +7 to hit, reach 10 ft., one target. Hit 8 (1d8 + 4) slashing damage.\nGrab. Melee weapon attack, +7 to hit, reach 10 ft., one creature the cobblefright is not already grappling. On a hit the creature is Grappled (escape DC 15). The cobblefright can hold up to two creatures. At the start of its turn, it can squeeze each creature held, once per target. Each squeezed creature must pass a DC 15 Strength save or take 13 (2d8 + 4) bludgeoning damage.\nSoul Siphon. One creature held by the cobblefright makes a DC 14 Constitution save, taking 11 (2d10) necrotic damage on a failure or half on a success. Reduce the target's hit point maximum by the necrotic damage dealt and restore the same number of hit points to the cobblefright. The reduction lasts until the target completes a short or long rest.",
+        "Printed source": "Appendix A, p. 181"
+      }
+    }
+  },
+  {
+    "name": "Forest Prowler",
+    "decision": "separate",
+    "pages": "Appendix A, p. 183",
+    "notes": "The Campaign Setting profile is independently sourced. Humblewood Tales is a separate indexed printing.",
+    "statBlock": {
+      "name": "Forest Prowler",
+      "publication": "Humblewood Campaign Setting",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Large Beast, unaligned",
+      "ac": 16,
+      "hp": 75,
+      "hitDice": "10d10 + 20",
+      "speed": "40 ft., climb 40 ft.",
+      "cr": "4",
+      "xp": 1100,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 15,
+          "modifier": 2
+        },
+        "Dex": {
+          "score": 18,
+          "modifier": 4
+        },
+        "Con": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Int": {
+          "score": 4,
+          "modifier": -3
+        },
+        "Wis": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Cha": {
+          "score": 9,
+          "modifier": -1
+        }
+      },
+      "otherStatistics": "Natural armor. Perception +4, Stealth +6. Darkvision 60 ft., passive Perception 14. No languages.",
+      "description": "Leaves and moss grow through this cat's spotted fur, concealing it while it hunts from the canopy.",
+      "sections": {
+        "Traits": "Natural Camouflage. The prowler makes Dexterity (Stealth) checks in forests with advantage. An attacker also has advantage against a target that cannot see them.\nPounce. If the prowler advances at least 10 ft. toward a creature and hits it with Claw on the same turn, the creature must succeed on a DC 14 Strength save or fall Prone. The prowler can make an additional Claw attack against that target as a bonus action.",
+        "Actions": "Multiattack. Make two Claw attacks and one Bite attack.\nClaw. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit 8 (1d8 + 4) slashing damage.\nBite. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit 13 (2d8 + 4) piercing damage. A Prone target takes 4 (1d8) extra piercing damage.",
+        "Bonus Actions": "Ambuscade. Take the Dash or Hide action.",
+        "Printed source": "Appendix A, p. 183"
+      }
+    }
+  },
+  {
+    "name": "Havel of the Autumn Moon",
+    "decision": "separate",
+    "pages": "Appendix B, p. 207",
+    "notes": "Retains the printed 2014 leveled spellcasting, base AC 10 and alternate Barkskin AC 16.",
+    "statBlock": {
+      "name": "Havel of the Autumn Moon",
+      "publication": "Humblewood Campaign Setting",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium Humanoid (gallus), neutral good",
+      "ac": 10,
+      "hp": 22,
+      "hitDice": "4d8 + 4",
+      "speed": "30 ft.",
+      "cr": "2",
+      "xp": 450,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 6,
+          "modifier": -2
+        },
+        "Dex": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Con": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Int": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Wis": {
+          "score": 16,
+          "modifier": 3
+        },
+        "Cha": {
+          "score": 10,
+          "modifier": 0
+        }
+      },
+      "otherStatistics": "AC 16 with Barkskin. Saving throws Int +7, Wis +5. Nature +4, Medicine +5, Perception +5. Passive Perception 15. Speaks Birdfolk, Druidic, and Sylvan. Understands Auran without speaking it.",
+      "description": "A Summerblossom of the Tenders, Havel helps refugees at the order's headquarters in Alderheart.",
+      "sections": {
+        "Traits": "Seedspeech. Havel can convey simple ideas to living plants and understand their replies in simple terms.",
+        "Spellcasting": "Havel is a 4th-level Wisdom spellcaster. Spell save DC 13, +5 to hit.\nCantrips, at will. Druidcraft, Gust Barrier, Produce Flame.\n1st level, 4 slots. Cure Wounds, Elevated Sight, Entangle, Thunderwave.\n2nd level, 3 slots. Barkskin, Gust of Wind.",
+        "Actions": "Staff. Melee weapon attack, +0 to hit, reach 5 ft., one target. Hit 1 (1d6 - 2) bludgeoning damage.",
+        "Bonus Actions": "Wing Flap. Rise up to half the gallus's movement speed. This can extend a normal jump but cannot be used while gliding.",
+        "Reactions": "Glide. If the gallus falls at least 10 ft., they can use their reaction to fly in one direction up to their speed as they descend. They land in an empty space and take no falling damage. Heavy objects, heavy weapons, or shields prevent gliding, but the gallus can drop held items as part of the reaction.",
+        "Printed source": "Appendix B, p. 207"
+      },
+      "ruleNotes": [
+        "Use the printed Intelligence save bonus of +7."
+      ]
+    }
+  },
+  {
+    "name": "Oakheart",
+    "decision": "separate",
+    "pages": "Appendix B, pp. 203–204. Guardian encounter, pp. 166–167.",
+    "notes": "Uses the appendix profile for general encounters. The Guardian scene's opening and nonlethal outcome are recorded separately.",
+    "statBlock": {
+      "name": "Oakheart",
+      "publication": "Humblewood Campaign Setting",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Huge Plant, chaotic good",
+      "ac": 16,
+      "hp": 69,
+      "hitDice": "6d12 + 30",
+      "speed": "30 ft.",
+      "cr": "8",
+      "xp": 3900,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 20,
+          "modifier": 5
+        },
+        "Dex": {
+          "score": 8,
+          "modifier": -1
+        },
+        "Con": {
+          "score": 21,
+          "modifier": 5
+        },
+        "Int": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Wis": {
+          "score": 16,
+          "modifier": 3
+        },
+        "Cha": {
+          "score": 12,
+          "modifier": 1
+        }
+      },
+      "otherStatistics": "Natural armor. Resists fire, bludgeoning, and piercing damage. Passive Perception 13. Speaks Birdfolk, Druidic, Ignan, and Sylvan.",
+      "description": "Fire burns through the canopy of this charred treant, who guards the Borealus beneath the Scorched Grove.",
+      "sections": {
+        "Traits": "False Appearance. If he stays still, Oakheart resembles a charred oak with smoldering bark and branches tipped with flames.\nSiege Monster. Oakheart deals double damage to objects and structures.",
+        "Actions": "Multiattack. Make two Slam attacks.\nSlam. Melee weapon attack, +8 to hit, reach 5 ft., one target. Hit 16 (3d6 + 5) fire damage.\nRock. Ranged weapon attack, +8 to hit, range 60/180 ft., one target. Hit 28 (4d10 + 5) bludgeoning damage.\nAnimate Trees (1/day). Animate one or two visible trees within 60 ft. Each ally uses Oakheart's statistics, except it has Intelligence and Charisma 1, cannot speak, and can only use Slam. A tree returns to normal after one day, if it or Oakheart dies, if Oakheart moves more than 120 ft. away, or if Oakheart dismisses it as a bonus action. A reverted tree takes root where possible.",
+        "Encounter notes": "In the Guardian encounter, Oakheart opens by animating the other two charred trees. He stays alert if the party attacks during his greeting. At 0 HP he survives, ends the fight, and sends the trees back to their places. If the party struggles, he may end combat early and ask why they need the Borealus.",
+        "Printed source": "Appendix B, pp. 203–204. Guardian encounter, pp. 166–167."
+      }
+    }
+  },
+  {
+    "name": "Tevor of the Spring Path",
+    "decision": "separate",
+    "pages": "Appendix B, pp. 207–208. Stat block p. 208.",
+    "notes": "Uses the appendix stat block and the 2014 Cure Wounds value for Tevor's fixed 1st-level spell.",
+    "statBlock": {
+      "name": "Tevor of the Spring Path",
+      "publication": "Humblewood Campaign Setting",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Small Humanoid (luma), neutral good",
+      "ac": 14,
+      "hp": 22,
+      "hitDice": "5d6 + 5",
+      "speed": "25 ft.",
+      "cr": "1/4",
+      "xp": 50,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Dex": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Con": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Int": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Wis": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Cha": {
+          "score": 12,
+          "modifier": 1
+        }
+      },
+      "otherStatistics": "Chain shirt. Athletics +4. Resists poison damage. Passive Perception 12. Speaks Birdfolk and Druidic. Understands Auran without speaking it.",
+      "description": "A junior member of the Tenders and former Perch Guard recruit, Tevor avoids fighting after an ashsnake killed his mentor.",
+      "sections": {
+        "Traits": "Fated (recharges after a long rest). Tevor can reroll an attack roll, skill check, or saving throw.\nResilience. He has advantage on saves against being Poisoned.\nDrop Attack. He can attack during his Glide for an extra 4 (1d8) damage.",
+        "Actions": "Spear. Melee or ranged weapon attack, +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) with two hands in melee.\nTender Healing (recharges after a long rest). Cast Cure Wounds at 1st level using Wisdom, restoring 1d8 + 2 HP.",
+        "Bonus Actions": "Wing Flap. Rise up to half the luma's movement speed. This can extend a normal jump but cannot be used while gliding.",
+        "Reactions": "Glide. If the luma falls at least 10 ft., they can use their reaction to fly in one direction up to their speed as they descend. They land in an empty space and take no falling damage. Heavy objects, heavy weapons, or shields prevent gliding, but the luma can drop held items as part of the reaction.",
+        "Printed source": "Appendix B, pp. 207–208. Stat block p. 208."
+      }
+    }
+  },
+  {
+    "name": "Corvum Assassin",
+    "decision": "separate",
+    "pages": "Appendix B, pp. 194–195. Stat block p. 195.",
+    "notes": "The Campaign Setting profile is independently sourced. Humblewood Tales is a separate indexed printing.",
+    "statBlock": {
+      "name": "Corvum Assassin",
+      "publication": "Humblewood Campaign Setting",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium Humanoid (corvum), any nonlawful alignment",
+      "ac": 15,
+      "hp": 54,
+      "hitDice": "12d8",
+      "speed": "30 ft.",
+      "cr": "5",
+      "xp": 1800,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Dex": {
+          "score": 16,
+          "modifier": 3
+        },
+        "Con": {
+          "score": 11,
+          "modifier": 0
+        },
+        "Int": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Wis": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Cha": {
+          "score": 10,
+          "modifier": 0
+        }
+      },
+      "otherStatistics": "Studded leather. Saving throws Dex +6, Int +5. Insight +5, Nature +5, Perception +8, Stealth +9. Passive Perception 18. Speaks Birdfolk, Thieves' Cant, and one other language. Understands Auran without speaking it.",
+      "description": "A killer for hire who uses the dark and the forest canopy to close in before a target can react.",
+      "sections": {
+        "Traits": "Talons. The assassin makes Strength (Athletics) checks to climb grippable surfaces with advantage.\nAssassinate. On the assassin's first turn, they have advantage on attacks against creatures that have yet to act. Their hits against Surprised creatures are critical hits.\nSneak Attack. Once per turn, a weapon hit deals 10 (3d6) extra damage if the assassin had advantage. The extra damage also applies if an ally of the assassin who is not Incapacitated is within 5 ft. of the target and the assassin did not have disadvantage.\nSkulker. The assassin has advantage on Dexterity (Stealth) checks in dim light or darkness.",
+        "Actions": "Multiattack. Make one melee Shortsword and one melee Dagger attack, or make two ranged Dagger attacks.\nTalons. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit 5 (1d4 + 3) slashing damage.\nShortsword. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit 6 (1d6 + 3) piercing damage. The target makes a DC 13 Constitution save, taking 10 (3d6) poison damage on a failure or half on a success.\nDagger. Melee or ranged weapon attack, +6 to hit, reach 5 ft. or range 20/60 ft., one target. Hit 5 (1d4 + 3) piercing damage. The target makes the same DC 13 Constitution save against 10 (3d6) poison damage, taking half on a success.",
+        "Reactions": "Glide. If the assassin falls at least 10 ft., they can use their reaction to fly in one direction up to their speed as they descend. They land in an empty space and take no falling damage. Heavy objects, heavy weapons, or shields prevent gliding, but the assassin can drop held items as part of the reaction.",
+        "Printed source": "Appendix B, pp. 194–195. Stat block p. 195."
+      }
+    }
+  },
+  {
+    "name": "Gallus Monk",
+    "decision": "separate",
+    "pages": "Appendix B, p. 197",
+    "notes": "Inspiring and Graceful Step are printed as actions. The printing gives Inspiring no charge or duration limit.",
+    "statBlock": {
+      "name": "Gallus Monk",
+      "publication": "Humblewood Campaign Setting",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium Humanoid (gallus), any alignment",
+      "ac": 17,
+      "hp": 78,
+      "hitDice": "12d8 + 24",
+      "speed": "40 ft.",
+      "cr": "5",
+      "xp": 1800,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 11,
+          "modifier": 0
+        },
+        "Dex": {
+          "score": 18,
+          "modifier": 4
+        },
+        "Con": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Int": {
+          "score": 11,
+          "modifier": 0
+        },
+        "Wis": {
+          "score": 16,
+          "modifier": 3
+        },
+        "Cha": {
+          "score": 10,
+          "modifier": 0
+        }
+      },
+      "otherStatistics": "Natural armor. Saving throw Dex +7. Acrobatics +7, Insight +6, Perception +6, Stealth +7. Passive Perception 16. Speaks Birdfolk and understands Auran without speaking it.",
+      "description": "This monk can run across water and walls and slip away after a flurry of strikes.",
+      "sections": {
+        "Traits": "Wind's Grace. While moving, the monk can cross liquid surfaces or travel along vertical surfaces without falling.",
+        "Actions": "Multiattack. Make four attacks, choosing Unarmed Strike or Dart for each. Graceful Step can be used once, before or after one of the attacks.\nUnarmed Strike. Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit 7 (1d6 + 4) bludgeoning damage.\nDart. Ranged weapon attack, +7 to hit, range 20/60 ft., one target. Hit 6 (1d4 + 4) piercing damage.\nGraceful Step. Move 40 ft. without provoking opportunity attacks.\nInspiring. One ally who can see and hear the monk can add a d4 roll to their next ability check, attack roll, or saving throw.",
+        "Bonus Actions": "Wing Flap. Rise up to half the monk's movement speed. This can extend a normal jump but cannot be used while gliding.",
+        "Reactions": "Glide. If the monk falls at least 10 ft., they can use their reaction to fly in one direction up to their speed as they descend. They land in an empty space and take no falling damage. Heavy objects, heavy weapons, or shields prevent gliding, but the monk can drop held items as part of the reaction.",
+        "Printed source": "Appendix B, p. 197"
+      }
+    }
+  }
+]

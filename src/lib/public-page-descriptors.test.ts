@@ -4,18 +4,27 @@ import { DEFAULT_LOCATION_ILLUSTRATION } from '#/definitions/media'
 import { COLLECTIONS, allEntities, getEntity } from '#/lib/campaign'
 import {
   locationIllustrationImageCandidate,
+  PRERENDERED_PUBLIC_PAGE_DESCRIPTORS,
   PUBLIC_PAGE_DESCRIPTORS,
   publicEntityPageDescriptor,
+  publicPageDescriptor,
   validatePublicPageDescriptors,
 } from '#/lib/public-page-descriptors'
 import { canonicalUrl, publicPageHead, socialImagePath } from '#/lib/public-page-metadata'
 
 describe('public page descriptors', () => {
-  it('exhaustively projects 16 static pages and every registry entity', () => {
+  it('exhaustively projects 17 non-entity pages and every registry entity', () => {
     const detailCount = COLLECTIONS.reduce((count, kind) => count + allEntities(kind).length, 0)
     expect(detailCount).toBe(558)
-    expect(PUBLIC_PAGE_DESCRIPTORS).toHaveLength(16 + detailCount)
+    expect(PUBLIC_PAGE_DESCRIPTORS).toHaveLength(17 + detailCount)
     expect(validatePublicPageDescriptors()).toEqual([])
+  })
+
+  it('gives the Novel an illustrated card and leaves page queries to the server', () => {
+    const novel = publicPageDescriptor('/novel')!
+    expect(novel.imageCandidate).toBe('/assets/scenes/month-long-boat-journey.png')
+    expect(socialImagePath(novel)).toMatch(/^\/social-previews\/novel\.[a-f0-9]{16}\.jpg$/u)
+    expect(PRERENDERED_PUBLIC_PAGE_DESCRIPTORS).not.toContain(novel)
   })
 
   it('round-trips every detail page to its canonical entity', () => {

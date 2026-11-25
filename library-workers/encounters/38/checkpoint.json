@@ -1,0 +1,29 @@
+{
+  "commit": "13fe7d644ddd5646c3155506099f488922b3f43e",
+  "publication": "Flee, Mortals!",
+  "encounterVersions": 2,
+  "fullStatBlocks": 2,
+  "generatedPortraitsInstalled": 2,
+  "creditedGalleriesVerified": 2,
+  "allRecentVersionsWithGeneratedPortrait": 558,
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "visualComparison": "output/dm-library/review/encounters-38-before-after.jpg",
+  "styleReferenceSheet": "output/dm-library/review/encounters-38-style-reference.jpg",
+  "restoredPublisherArt": "output/dm-library/monster-portraits/batches/encounters-38/publisher-art/ankheg.json",
+  "results": "output/dm-library/encounter-batches/38/results.json",
+  "searchResults": "output/dm-library/encounter-batches/38/search-results.json",
+  "nextSourcePublication": "Flee, Mortals!",
+  "unverifiedNextCandidates": [
+    {
+      "name": "Chimera (MCDM)",
+      "source": "https://www.dndbeyond.com/monsters/4485805-chimera-mcdm",
+      "challenge": "6"
+    },
+    {
+      "name": "Wyvern (MCDM)",
+      "source": "https://www.dndbeyond.com/monsters/4486050-wyvern-mcdm",
+      "challenge": "6"
+    }
+  ]
+}

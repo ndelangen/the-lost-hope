@@ -1,0 +1,189 @@
+[
+  {
+    "entry": "monster-861c9f288a9914c45ce9d89d",
+    "slug": "halfling-wererat",
+    "name": "Halfling Wererat",
+    "revision": "v1",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-15/event-drafts/halfling-wererat-event-v1.png",
+    "saved": " Backups/Encounter Batch 15 2026-11-23/event-drafts/halfling-wererat-event-v1.png",
+    "path": "encounters-15/halfling-wererat.png",
+    "registeredPath": "assets/images/content/dm-library/waterdeep-dragon-heist/halfling-wererat.png",
+    "previous": {
+      "sha256": "ebbc5ef47dd091c5ba2f95ba7caeaf2753a7859a4a80c88d3f7911e9224797c9",
+      "bytes": 2965519
+    },
+    "overrides": [
+      {
+        "entry": "monster-861c9f288a9914c45ce9d89d",
+        "name": "Halfling Wererat",
+        "file": "images/monsters/halfling-wererat/parchment-portrait.webp",
+        "sha256": "cfbfb829851aae49cca2ee38b217002db8a99e1a24a5e67516fa2a287c394a81",
+        "credit": "OpenAI ImageGen",
+        "reference": "images/monsters/wererat/mm-1.webp",
+        "appearanceSource": "Waterdeep: Dragon Heist",
+        "subjectPrompt": "A generic lightfoot halfling wererat in hybrid form. Very short but stocky biped, brown rat muzzle, large rounded ears, whiskers, black eyes, clawed hands, long mostly bare rat tail. Wearing a faded burgundy patched tunic and dark brown rolled trousers. Crouching sideways with a quick sideways glance. Both feet, ears and full tail visible. Palette muted dusty brown and red.",
+        "style": "The Lost Hope square gouache and sepia parchment"
+      }
+    ],
+    "sha256": "5e2e907343e4b4ffedf26c70971e152d248ad0e20f408143c866928e5965def4",
+    "bytes": 2224220
+  },
+  {
+    "entry": "monster-70ad6db4831288ec4f70a0aa",
+    "slug": "havia-quickknife",
+    "name": "Havia Quickknife",
+    "revision": "v1",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-15/event-drafts/havia-quickknife-event-v1.png",
+    "saved": " Backups/Encounter Batch 15 2026-11-23/event-drafts/havia-quickknife-event-v1.png",
+    "path": "encounters-15/havia-quickknife.png",
+    "registeredPath": "assets/images/content/dm-library/waterdeep-dragon-heist/havia-quickknife.png",
+    "previous": {
+      "sha256": "cc56bb6749501be7b3f2fb9762375c5b11734dfa5ed42f7aad40be7c5faa790f",
+      "bytes": 2803421
+    },
+    "overrides": [
+      {
+        "entry": "monster-70ad6db4831288ec4f70a0aa",
+        "name": "Havia Quickknife",
+        "file": "images/monsters/havia-quickknife/parchment-portrait.webp",
+        "sha256": "41eb3edafbd7bb56e6fe9a44fe01b46d9f64ace0a99d8198301c34b2de532f30",
+        "credit": "OpenAI ImageGen",
+        "reference": "images/monsters/martial-arts-adept/vgm-1.webp",
+        "appearanceSource": "Waterdeep: Dragon Heist",
+        "subjectPrompt": "An adult lightfoot halfling woman martial arts adept and Zhentarim lieutenant. Compact, wiry adult proportions, short dark chestnut hair tied back at the temples, high cheekbones, a small teleporter signet ring, soot-brown sleeveless martial jacket with restrained plum sash, wrapped hands. One low open palm and one upright guard, feet set wide. Original visual interpretation of her costume and features. Unarmed, grounded and alert.",
+        "style": "The Lost Hope square gouache and sepia parchment"
+      }
+    ],
+    "sha256": "56fd329463cf3ec392072a7612536145146963742491a64fb0db174998b8b8ad",
+    "bytes": 1802538
+  },
+  {
+    "entry": "monster-a48c3eda4e468fb375782adf",
+    "slug": "manshoons-simulacrum",
+    "name": "Manshoon's Simulacrum",
+    "revision": "v1",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-15/event-drafts/manshoons-simulacrum-event-v1.png",
+    "saved": " Backups/Encounter Batch 15 2026-11-23/event-drafts/manshoons-simulacrum-event-v1.png",
+    "path": "encounters-15/manshoons-simulacrum.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-15/manshoons-simulacrum.png",
+    "overrides": [],
+    "sha256": "4f082bc6effa614bc62ec223e669121bb76f92b4707d0d3c833878b7356bfe3d",
+    "bytes": 1927396
+  },
+  {
+    "entry": "monster-34534dc069aad08bff751912",
+    "slug": "mookie-plush",
+    "name": "Mookie Plush",
+    "revision": "v1",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-15/event-drafts/mookie-plush-event-v1.png",
+    "saved": " Backups/Encounter Batch 15 2026-11-23/event-drafts/mookie-plush-event-v1.png",
+    "path": "encounters-15/mookie-plush.png",
+    "registeredPath": "assets/images/content/dm-library/waterdeep-dragon-heist/mookie-plush.png",
+    "previous": {
+      "sha256": "ab6e70d5be8bb0e11f9bb3e59584b0c5008341a1b162f828f73e55e7a774948a",
+      "bytes": 2715026
+    },
+    "overrides": [
+      {
+        "entry": "monster-34534dc069aad08bff751912",
+        "name": "Mookie Plush",
+        "file": "images/monsters/mookie-plush/parchment-portrait.webp",
+        "sha256": "fd52651ad5dbaba37867493e398a714a2f3babe50bf08b2de3c132d27e95ea34",
+        "credit": "OpenAI ImageGen",
+        "reference": "images/monsters/martial-arts-adept/vgm-1.webp",
+        "appearanceSource": "Waterdeep: Dragon Heist",
+        "subjectPrompt": "An adult lightfoot halfling woman martial arts adept and Zhentarim lieutenant. Short broad adult proportions, round face, curly reddish brown bob, warm medium brown skin, small teleporter signet ring, dark evergreen quilted martial vest with brown hand wraps and a loosely knotted scarf. Unarmed in a distinct defensive pose with both elbows close to the body. Original visual interpretation of her costume and features. Full silhouette.",
+        "style": "The Lost Hope square gouache and sepia parchment"
+      }
+    ],
+    "sha256": "1d700118ac4c5f141324664527eb19691dc9f4d1214ed9cecfcbbba28b7440b0",
+    "bytes": 1843708
+  },
+  {
+    "entry": "monster-1bb81979e9dea10bf9390ecc",
+    "slug": "rishaal",
+    "name": "Rishaal",
+    "revision": "v1",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-15/event-drafts/rishaal-event-v1.png",
+    "saved": " Backups/Encounter Batch 15 2026-11-23/event-drafts/rishaal-event-v1.png",
+    "path": "encounters-15/rishaal.png",
+    "registeredPath": "assets/images/content/dm-library/waterdeep-dragon-heist/rishaal.png",
+    "previous": {
+      "sha256": "bc0031995a584fb0a0da0c27235bb3dd89a2dfbfe84ad3b0f87dd45c5f3c5354",
+      "bytes": 2809370
+    },
+    "overrides": [
+      {
+        "entry": "monster-1bb81979e9dea10bf9390ecc",
+        "name": "Rishaal",
+        "file": "images/monsters/rishaal/parchment-portrait.webp",
+        "sha256": "fcc9219e09e043bb44cf8575dd9187dff05a6ef5a23305cc2543120320bf21df",
+        "credit": "OpenAI ImageGen",
+        "reference": "images/monsters/rishaal-the-page-turner/wdh-1.webp",
+        "appearanceSource": "Waterdeep: Dragon Heist",
+        "subjectPrompt": "Rishaal the Page-Turner, a short gold dragonborn bookseller and wizard. Keep the gold-scaled muzzle, quiet look and plate-like ridges above his brow from the source token. He wears a layered ochre scholar hood and brown-green coat with one simple brass clasp. Standing in three-quarter view, holding one open folio with blank or indistinct pages, head turning slightly from the book. Show tail only if anatomically appropriate for this design; prefer the portrait's recognizable gold dragonborn features, no horns or wings added.",
+        "style": "The Lost Hope square gouache and sepia parchment"
+      }
+    ],
+    "sha256": "657b0a3c43882636231489ba9d7799bbdeeea000a8e1003411c5db9a2138f9b9",
+    "bytes": 1892656
+  },
+  {
+    "entry": "monster-d0f757fd5f3c8476c084fb1f",
+    "slug": "roscoe-underbough",
+    "name": "Roscoe Underbough",
+    "revision": "v1",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-15/event-drafts/roscoe-underbough-event-v1.png",
+    "saved": " Backups/Encounter Batch 15 2026-11-23/event-drafts/roscoe-underbough-event-v1.png",
+    "path": "encounters-15/roscoe-underbough.png",
+    "registeredPath": "assets/images/content/dm-library/waterdeep-dragon-heist/roscoe-underbough.png",
+    "previous": {
+      "sha256": "89563deffaded22c60636e030c95c3085bbdfaabb2aa8895f27632046712182a",
+      "bytes": 2994786
+    },
+    "overrides": [
+      {
+        "entry": "monster-d0f757fd5f3c8476c084fb1f",
+        "name": "Roscoe Underbough",
+        "file": "images/monsters/roscoe-underbough/parchment-portrait.webp",
+        "sha256": "70bca27eb5bed2a6cef479e987486c5e281d4ec8636e3507c07a2b44d3063eb9",
+        "credit": "OpenAI ImageGen",
+        "reference": "images/monsters/wererat/mm-1.webp",
+        "appearanceSource": "Waterdeep: Dragon Heist",
+        "subjectPrompt": "A young-looking lightfoot halfling wererat keeping watch in his rat-humanoid hybrid form. Small wiry biped with a narrow gray rat face, reddish inner ears, long bare rat tail, bright wary eyes. Worn blue-gray waistcoat over ochre linen and patched beige trousers. Low cautious stance, one hand resting on his knee and the other holding a small shuttered lantern at hip level. Original visual interpretation. No violence or action scene.",
+        "style": "The Lost Hope square gouache and sepia parchment"
+      }
+    ],
+    "sha256": "6391501682f4b623ad09868b4e166098a136bb8341168667ee3e1ce93c791000",
+    "bytes": 1815536
+  },
+  {
+    "entry": "monster-8d82eab3da0a12d2f2bba6e8",
+    "slug": "yorn-the-terror",
+    "name": "Yorn the Terror",
+    "revision": "v1",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-15/event-drafts/yorn-the-terror-event-v1.png",
+    "saved": " Backups/Encounter Batch 15 2026-11-23/event-drafts/yorn-the-terror-event-v1.png",
+    "path": "encounters-15/yorn-the-terror.png",
+    "registeredPath": "assets/images/content/dm-library/waterdeep-dragon-heist/yorn-the-terror.png",
+    "previous": {
+      "sha256": "6ff65c23e57e21d04e6ad4e3a94775ec741c58d25fbe14381b1cffd84cf16c5b",
+      "bytes": 2774047
+    },
+    "overrides": [
+      {
+        "entry": "monster-8d82eab3da0a12d2f2bba6e8",
+        "name": "Yorn the Terror",
+        "file": "images/monsters/yorn-the-terror/parchment-portrait.webp",
+        "sha256": "371f0e7c41b4a4d7a98a7f41c630f1b3d17808e74d8397970b2e08f16900acf5",
+        "credit": "OpenAI ImageGen",
+        "reference": "images/monsters/yorn/wdh-1.webp",
+        "appearanceSource": "Waterdeep: Dragon Heist",
+        "subjectPrompt": "Yorn the Terror, broad-shouldered adult male half-orc enforcer. Preserve the source token's bald head, gray olive complexion, broad flat nose, heavy brow, protruding lower tusks, pierced pointed ear, and bare rugged forearms. A dark battered leather jerkin over one shoulder and a plain belt add a practical Waterdeep street look. Grounded solid stance, simply holds an iron-headed mace down at one side. No blood, opponent, or setting.",
+        "style": "The Lost Hope square gouache and sepia parchment"
+      }
+    ],
+    "sha256": "c6308dc056ce081d169c328fe0460685b197407b24153590f3f97bb7fccef124",
+    "bytes": 1890489
+  }
+]

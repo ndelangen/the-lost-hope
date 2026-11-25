@@ -1,0 +1,88 @@
+[
+  {
+    "name": "Shambling Pile",
+    "kind": "monster",
+    "type": "Plant",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "source": "https://www.dndbeyond.com/monsters/4340229-shambling-pile",
+    "entry": "monster-b4375a83b3944ec63007411f",
+    "version": "0fea1935fe31d1d57864a673",
+    "slug": "shambling-pile",
+    "mode": "existing",
+    "challenge": "5",
+    "generated": true,
+    "status": "Stat block",
+    "primaryPortraitSha256": "2d912c8855bd35cb5f41b665f8a0ced2474141c9cdaf01d4ac43de1ee2b0ac7b",
+    "encounterStatus": "local-stat-block",
+    "role": "Minion",
+    "query": "wet leaves marshes hungry grab minion",
+    "alternate": {
+      "credit": "OpenAI ImageGen · The Lost Hope",
+      "url": ""
+    },
+    "appearance": "A low heap of wet leaves, roots and grabbing fronds, smaller than a full-grown shambling mound.",
+    "habitats": [
+      "Swamps",
+      "Marshes",
+      "Rainforests"
+    ]
+  },
+  {
+    "name": "Owlbear Companion",
+    "kind": "monster",
+    "type": "Monstrosity",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "source": "https://www.dndbeyond.com/sources/dnd/fm",
+    "entry": "monster-04c523ecf1ce05e58796da5c",
+    "version": "509ce096ed4ff8ab0a483c76",
+    "slug": "owlbear-companion",
+    "mode": "new",
+    "challenge": null,
+    "generated": true,
+    "status": "Stat block",
+    "primaryPortraitSha256": "9c38888ac78e45deebf4d31f55a3a631443acc1a2d92a14db16fdb06f4a16305",
+    "encounterStatus": "local-stat-block",
+    "role": "Companion",
+    "query": "tawny woodlands companion owlie oop",
+    "alternate": {
+      "credit": "Related Owlbear (MCDM) illustration · D&D Beyond publisher art · Flee, Mortals!",
+      "url": ""
+    },
+    "appearance": "A broad, tawny owlbear with a feathered face, hooked beak and curved talons.",
+    "habitats": [
+      "Forests",
+      "Woodlands"
+    ]
+  },
+  {
+    "name": "Shambling Mound Companion",
+    "kind": "monster",
+    "type": "Plant",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "source": "https://www.dndbeyond.com/sources/dnd/fm",
+    "entry": "monster-ad66f6a1903a7e55fe7b9db6",
+    "version": "699612b75e3d8da06e12db0b",
+    "slug": "shambling-mound-companion",
+    "mode": "new",
+    "challenge": null,
+    "generated": true,
+    "status": "Stat block",
+    "primaryPortraitSha256": "ce60bf211122bfb892b0ecf10a018e46e114546d3a4271ad08fe3b7184cc6fa3",
+    "encounterStatus": "local-stat-block",
+    "role": "Companion",
+    "query": "fern-covered rainforests companion verdant roundup",
+    "alternate": {
+      "credit": "Related Shambling Mound (MCDM) illustration · D&D Beyond publisher art · Flee, Mortals!",
+      "url": ""
+    },
+    "appearance": "A compact, fern-covered mound with two lashing vines and a woven pocket that can hold prey.",
+    "habitats": [
+      "Swamps",
+      "Marshes",
+      "Rainforests"
+    ]
+  }
+]

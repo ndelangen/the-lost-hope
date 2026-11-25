@@ -1,0 +1,70 @@
+[
+  {
+    "name": "Empyrean",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra, published on DMs Guild for 2014 fifth edition. Rules read in the v2 text.",
+      "Medium Celestial. Increase Charisma and one other ability score by 1 each. Walking and swimming speeds are 30 ft. Fly 30 ft. while wearing light armor or no armor. Speak, read, and write Common and Celestial.",
+      "Bolster unlocks at level 3. Cast bless once per day using Charisma.",
+      "Strong moods can briefly change nearby sounds, weather, or animal behavior. The DM chooses the scope of these small effects."
+    ]
+  },
+  {
+    "name": "Ettin",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra, published on DMs Guild for 2014 fifth edition. Rules read in the v2 text.",
+      "Medium Giant with a 30-ft. walk. Strength increases by 2 and Constitution by 1. Speak, read, and write Giant and Orc.",
+      "Powerful Build treats the ettin as one size larger to carry, push, drag, and lift.",
+      "While both heads are awake, roll Wisdom (Perception) checks with advantage. Also roll saves against being blinded, charmed, deafened, frightened, stunned, or knocked unconscious with advantage.",
+      "One head remains awake whenever the other head sleeps."
+    ]
+  },
+  {
+    "name": "Faerie Dragon",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra, published on DMs Guild for 2014 fifth edition. Rules read in the v2 text.",
+      "Tiny Dragon. Dexterity increases by 2 and Charisma by 1. Walk 15 ft. and fly or hover 40 ft. if wearing only light armor or no armor. Darkvision reaches 60 ft. Speaks, reads, and writes Draconic and Sylvan.",
+      "Bite is an unarmed strike for 1d4 piercing. It can use Dexterity for attack and damage and qualifies as finesse for features such as Sneak Attack. This species has no hands and cannot wield weapons or shields or operate hand-dependent equipment.",
+      "Euphoria Breath takes an action and targets one creature within 5 ft. On a failed Wisdom save, the target cannot move or take actions or reactions for up to 1 minute. Repeat at the end of each target turn. The DC is 8 + proficiency bonus + Constitution modifier. Mindless or emotionless creatures are immune. Recharge on a short or long rest.",
+      "With Charisma, cast dancing lights, mage hand, and minor illusion once per day each. The conversion treats the character as using a magical focus. The color-based encounter spell tiers have a separate scope."
+    ]
+  },
+  {
+    "name": "Flameskull",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra, published on DMs Guild for 2014 fifth edition. Rules read in the v2 text.",
+      "Tiny Undead. Dexterity and Intelligence each increase by 1. Walk speed 0 ft., fly speed 40 ft. with hover. Speaks, reads, and writes Common.",
+      "Replaces sleep with four hours of semiconscious rest. Requires no air, food, drink, or sleep. Sheds bright light out to 10 ft., with another 10 ft. of dim light.",
+      "Resists cold and fire. Immune to poison damage and to the poisoned, paralyzed, petrified, and prone conditions.",
+      "Magic Skull supplies a spellcasting focus. The flameskull cannot wear armor or use weapons, shields, and hand-dependent objects.",
+      "Recalled Magic grants fire bolt and mage hand using Intelligence.",
+      "Rejuvenation stabilizes the flameskull immediately at 0 HP. Damage below the threshold for instant death still causes death save failures. It regains 1 HP after 1 hour spent unconscious and stable."
+    ]
+  },
+  {
+    "name": "Flumph",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra, published on DMs Guild for 2014 fifth edition. Rules read in the v2 text.",
+      "Small Aberration. Increase Intelligence and Wisdom by 1 each. Walk 5 ft. and fly or hover 30 ft. with light armor or no armor. Darkvision reaches 60 ft. Understand, read, and write Common.",
+      "Communicate telepathically within 30 ft. with creatures that know a language. Hear telepathic traffic in that radius, and creatures with telepathy cannot surprise the flumph. It is vulnerable to psychic damage.",
+      "Telepathic Shroud protects against attempts to read thoughts or sense emotions and grants immunity to divination spells.",
+      "Stench Spray takes an action and covers a 15-ft. cone. A target that fails a Dexterity save is coated and poisoned for 1d4 rounds. Other creatures within 5 ft. of a coated target are poisoned while in range. The coated target repeats the save at the end of its turns to end the effect. Save DC is 8 + proficiency bonus + Constitution modifier. Recharge on a long rest.",
+      "On falling prone, roll a die. An odd result flips the flumph upside-down and leaves it incapacitated. At the end of each turn, success on a DC 10 Dexterity save rights it and ends that incapacitation.",
+      "Tendrils deal 1d4 piercing and 1d4 acid as an unarmed strike. Attack and damage may use Dexterity, with finesse eligibility. The flumph has no hands and cannot wield weapons or shields or use gear that requires manipulation."
+    ]
+  }
+]

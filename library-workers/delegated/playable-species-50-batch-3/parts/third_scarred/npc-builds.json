@@ -1,0 +1,289 @@
+{
+  "builds": [
+    {
+      "id": "scarred-lands-2016-asaatthi",
+      "title": "Kethsar Dunecoil, Asaatthi Fighter 2",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "difficulty": "Tier 1 class-built NPC · no assigned CR",
+      "size": "Medium",
+      "type": "Humanoid",
+      "ac": 18,
+      "hp": 20,
+      "hitDice": "2d10+4",
+      "initiative": 3,
+      "speed": "30 ft., swim 30 ft.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 17,
+        "CON": 14,
+        "INT": 11,
+        "WIS": 13,
+        "CHA": 12
+      },
+      "skills": [
+        "Athletics +1",
+        "History +2",
+        "Insight +3",
+        "Intimidation +3",
+        "Perception +3"
+      ],
+      "senses": "Darkvision 30 ft., passive Perception 13",
+      "languages": "Asaatth, Ledean",
+      "traits": [
+        "Proficiency +2. Strength save +1 and Constitution save +4. Scale mail with a shield gives AC 18. Scale mail imposes disadvantage on Stealth.",
+        "Kethsar chose Dexterity +2 and Intelligence +1. He has advantage on saves against poison and charm and resistance to poison damage.",
+        "Dueling adds +2 damage when Kethsar wields his scimitar and no other weapon. His shield is compatible with the style."
+      ],
+      "actions": [
+        "Scimitar. Melee weapon attack +5, reach 5 ft. Hit 1d6 + 5 slashing.",
+        "Bite. Melee weapon attack +5, reach 5 ft. Hit 1d4 + 3 piercing.",
+        "Action Surge. Take one additional action on your turn. One use per short or long rest.",
+        "Second Wind. As a bonus action, regain 1d10 + 2 HP. One use per short or long rest."
+      ],
+      "tactics": "Kethsar watches the flooded entrance. If intruders retreat down the channel, he can follow at full speed and head them off at the next stair."
+    },
+    {
+      "id": "scarred-lands-2016-hollow-legionnaire",
+      "title": "Merel Ironwake, Hollow Legionnaire Fighter 2",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "difficulty": "Tier 1 class-built NPC · no assigned CR",
+      "size": "Medium",
+      "type": "Humanoid",
+      "ac": 19,
+      "hp": 20,
+      "hitDice": "2d10+4",
+      "initiative": 1,
+      "speed": "30 ft.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 13,
+        "CON": 15,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Arcana +1",
+        "Athletics +5",
+        "Insight +3",
+        "Intimidation +2"
+      ],
+      "senses": "Passive Perception 11",
+      "languages": "Ledean, Hedraic",
+      "traits": [
+        "Proficiency +2. Strength save +5 and Constitution save +4. Bound chain mail, shield and Defense style give AC 19. Chain mail imposes disadvantage on Stealth.",
+        "Merel chose Strength +1 and Constitution +1. Past-Life Knowledge added Arcana to the fighter’s skill options, and Merel selected it as one of two fighter proficiencies.",
+        "Construct Body and Construct Mind. Humanoid. Advantage on charm, death, disease, exhaustion and poison saves. Resistance to poison damage. Insight checks to read Merel’s feelings or motives have disadvantage.",
+        "Merel can keep watch through an eight-hour long rest with light activity. Breathing, eating, drinking and sleep are optional. Magic cannot put Merel to sleep.",
+        "Armor Bound. Merel can spend 1 hour of a rest bonding to a proficient suit that covers most of a Medium humanoid. Merel can keep only one bond, and the iron band pattern carries to the new suit. Magic armor attunement can happen in the same hour. Legion’s Price. The spirit and markings fade 1 minute after death. After that, raise dead cannot restore Merel, but a resurrection spell can."
+      ],
+      "actions": [
+        "Spear. Melee or ranged weapon attack +5, reach 5 ft. or range 20/60 ft. Hit 1d6 + 3 piercing with the shield still equipped.",
+        "Action Surge. Take one additional action on your turn. One use per short or long rest.",
+        "Second Wind. As a bonus action, regain 1d10 + 2 HP. One use per short or long rest."
+      ],
+      "tactics": "Merel holds the gate and lets others sleep before the morning handover. If rushed, Merel uses Action Surge to attack twice or to Dodge and protect the doorway."
+    },
+    {
+      "id": "scarred-lands-2016-ironbred",
+      "title": "Umber Kesh, Ironbred Fighter 2",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "difficulty": "Tier 1 class-built NPC · no assigned CR",
+      "size": "Medium",
+      "type": "Humanoid",
+      "ac": 19,
+      "hp": 22,
+      "hitDice": "2d10+6",
+      "initiative": 2,
+      "speed": "30 ft.",
+      "abilityScores": {
+        "STR": 15,
+        "DEX": 15,
+        "CON": 15,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +4",
+        "Intimidation +1",
+        "Nature +2",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "senses": "Darkvision 30 ft., passive Perception 13",
+      "languages": "Sutak, Ledean, Ukrudan",
+      "traits": [
+        "Proficiency +2. Strength and Constitution saves +4. Scale mail with a shield and Defense style gives AC 19. Scale mail imposes disadvantage on Stealth.",
+        "Tough Hide adds 1 maximum HP per level. The listed 22 HP includes the level-2 bonus of +2.",
+        "Fire Born. Resistance to fire damage and advantage on saves against exhaustion caused by extreme heat or thirst. Smith’s tools proficiency."
+      ],
+      "actions": [
+        "Flail. Melee weapon attack +4, reach 5 ft. Hit 1d8 + 2 bludgeoning.",
+        "Javelin. Melee or ranged weapon attack +4, reach 5 ft. or range 30/120 ft. Hit 1d6 + 2 piercing.",
+        "Action Surge. Take one additional action on your turn. One use per short or long rest.",
+        "Second Wind. As a bonus action, regain 1d10 + 2 HP. One use per short or long rest."
+      ],
+      "tactics": "Kesh keeps the group moving through the hottest stretch and scouts detours around inaccessible water. If an animal bolts, Kesh anchors the rope and calls for the others to clear the road."
+    },
+    {
+      "id": "scarred-lands-2016-manticora",
+      "title": "Tessu Claypaw, Manticora Fighter 2",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "difficulty": "Tier 1 class-built NPC · no assigned CR",
+      "size": "Medium",
+      "type": "Humanoid",
+      "ac": 16,
+      "hp": 18,
+      "hitDice": "2d10+2",
+      "initiative": 3,
+      "speed": "30 ft., 40 ft. on all fours with both hands empty",
+      "abilityScores": {
+        "STR": 12,
+        "DEX": 17,
+        "CON": 13,
+        "INT": 10,
+        "WIS": 15,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +3",
+        "Intimidation +1",
+        "Perception +4",
+        "Stealth +5",
+        "Survival +4"
+      ],
+      "senses": "Darkvision 60 ft., passive Perception 14",
+      "languages": "Leonid, Ledean",
+      "traits": [
+        "Proficiency +2. Strength and Constitution saves +3. Studded leather and Defense style give AC 16.",
+        "Tessu chose Wisdom +1. Natural Hunter opened Stealth and Survival as class skill choices, and Tessu took both.",
+        "Tessu uses quadrupedal movement with both hands empty. In this encounter, treat an equipped claw gauntlet as occupying that hand. Tessu may begin with it stowed to use the 40 ft. speed and natural attacks."
+      ],
+      "actions": [
+        "Claw gauntlet. Melee weapon attack +5, reach 5 ft. Hit 1d6 + 3 slashing.",
+        "Bite or natural claws. Melee weapon attack +5, reach 5 ft. Hit 1d4 + 3 piercing with the bite or slashing with the claws.",
+        "Shortbow. Ranged weapon attack +5, range 80/320 ft. Hit 1d6 + 3 piercing.",
+        "Action Surge. Take one additional action on your turn. One use per short or long rest.",
+        "Second Wind. As a bonus action, regain 1d10 + 2 HP. One use per short or long rest."
+      ],
+      "tactics": "Tessu uses the shortbow in an exposed approach. When speed matters, Tessu starts with weapons stowed, closes on all fours and attacks with natural weapons."
+    },
+    {
+      "id": "scarred-lands-2016-slitherin",
+      "title": "Veshki Reed-Ring, Slitherin Rogue 2",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "difficulty": "Tier 1 class-built NPC · no assigned CR",
+      "size": "Medium",
+      "type": "Humanoid",
+      "ac": 15,
+      "hp": 19,
+      "hitDice": "2d8+6",
+      "initiative": 3,
+      "speed": "30 ft., climb 30 ft.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 16,
+        "CON": 16,
+        "INT": 10,
+        "WIS": 13,
+        "CHA": 12
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Athletics +1",
+        "Investigation +2",
+        "Perception +5",
+        "Sleight of Hand +5",
+        "Stealth +7"
+      ],
+      "senses": "Darkvision 60 ft., passive Perception 15",
+      "languages": "Slitherin, Ledean, Thieves’ Cant",
+      "traits": [
+        "Proficiency +2. Dexterity save +5 and Intelligence save +2. Studded leather gives AC 15. Expertise doubles proficiency in Perception and Stealth. Veshki is proficient with thieves’ tools, a disguise kit and cobbler’s tools.",
+        "Veshki chose Dexterity +1, and Sure-Footed put Athletics on the rogue’s class skill list. Veshki has advantage on disease saves and on Dexterity checks to escape bonds or grapples or squeeze through tight spaces.",
+        "With Rodent Empathy, Veshki can convey simple ideas to a nearby rodent through sound and body language.",
+        "Sneak Attack. Once per turn, add 1d6 damage on a hit with a finesse or ranged weapon if Veshki has advantage, or if another enemy of the target is within 5 ft. of it and isn't incapacitated. Disadvantage prevents using the adjacent-enemy option."
+      ],
+      "actions": [
+        "Shortbow. Ranged weapon attack +5, range 80/320 ft. Hit 1d6 + 3 piercing.",
+        "Shortsword. Melee weapon attack +5, reach 5 ft. Hit 1d6 + 3 piercing.",
+        "Bite. Melee weapon attack +5, reach 5 ft. Hit 1d3 + 3 piercing. Roll 1d6 and round up after dividing by two for the 1d3.",
+        "Cunning Action. Take Dash, Disengage or Hide as a bonus action."
+      ],
+      "tactics": "Veshki climbs into a side shaft and hides before the group reaches the crossing. If the passage closes, Veshki checks the squeeze and signals how to get through."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Kethsar Dunecoil",
+      "species": "Asaatthi",
+      "speciesPublication": "Scarred Lands Player’s Guide (5e, 2016)",
+      "edition": "Fifth edition compatible",
+      "size": "Medium",
+      "build": "scarred-lands-2016-asaatthi",
+      "role": "Serpentfolk hall guard",
+      "motive": "Keep the flooded passage clear for the archive staff.",
+      "hook": "Kethsar asks the party to stand watch while he checks an iron gate below the waterline."
+    },
+    {
+      "name": "Merel Ironwake",
+      "species": "Hollow Legionnaire",
+      "speciesPublication": "Scarred Lands Player’s Guide (5e, 2016)",
+      "edition": "Fifth edition compatible",
+      "size": "Medium",
+      "build": "scarred-lands-2016-hollow-legionnaire",
+      "role": "Gate guard",
+      "motive": "Finish the overnight watch and trace a mismatch in the patrol log.",
+      "hook": "Merel asks the party to look at two seals that should have come from the same armory."
+    },
+    {
+      "name": "Umber Kesh",
+      "species": "Ironbred",
+      "speciesPublication": "Scarred Lands Player’s Guide (5e, 2016)",
+      "edition": "Fifth edition compatible",
+      "size": "Medium",
+      "build": "scarred-lands-2016-ironbred",
+      "role": "Caravan route guide",
+      "motive": "Deliver a group of pack animals before the well is closed at dusk.",
+      "hook": "Kesh offers to check the party’s water skins and show them a faster way through the next stretch."
+    },
+    {
+      "name": "Tessu Claypaw",
+      "species": "Manticora",
+      "speciesPublication": "Scarred Lands Player’s Guide (5e, 2016)",
+      "edition": "Fifth edition compatible",
+      "size": "Medium",
+      "build": "scarred-lands-2016-manticora",
+      "role": "Claw-gauntlet guard",
+      "motive": "Recover the gate watch’s lost signal pennant.",
+      "hook": "Tessu lowers a rope from a watch ledge and asks whether anyone saw a red pennant fall across the trail."
+    },
+    {
+      "name": "Veshki Reed-Ring",
+      "species": "Slitherin",
+      "speciesPublication": "Scarred Lands Player’s Guide (5e, 2016)",
+      "edition": "Fifth edition compatible",
+      "size": "Medium",
+      "build": "scarred-lands-2016-slitherin",
+      "role": "Tunnel scout",
+      "motive": "Find a short route before the last dry drain fills.",
+      "hook": "Veshki asks the party to pause at a drain while listening for a rat that knows the branch ahead."
+    }
+  ]
+}

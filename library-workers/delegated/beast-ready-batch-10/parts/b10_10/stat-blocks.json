@@ -1,0 +1,287 @@
+[
+  {
+    "name": "Hadrosaurus",
+    "publication": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 11,
+    "hp": 19,
+    "hitDice": "3d10 + 3",
+    "speed": "40 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "skills": {
+      "Perception": 2
+    },
+    "passivePerception": 12,
+    "otherStatistics": "Natural armor. Skills. Perception +2. Senses. Passive Perception 12. Languages. None.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A heavy-bodied, crested herbivore with a broad beak, a long tapering tail, and muted olive skin.",
+    "habitats": [
+      "Floodplain",
+      "Vegetated lowlands"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Volo’s Guide to Monsters, first printing, November 2016, Chapter 3, Dinosaurs, stat block p. 140. https://www.dndbeyond.com/monsters/17241-hadrosaurus",
+      "Actions": "Tail. Melee weapon attack +4 to hit, reach 5 ft., one target. A hit deals 7 (1d10 + 2) bludgeoning damage.",
+      "Encounter ecology": "A semi-quadrupedal herbivore with a bony crest. A hadrosaurus raised from hatching can be trained to carry a Small or Medium rider."
+    }
+  },
+  {
+    "name": "Quetzalcoatlus",
+    "publication": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "classification": "Huge Beast, unaligned",
+    "ac": 13,
+    "hp": 30,
+    "hitDice": "4d12 + 4",
+    "speed": "10 ft., fly 80 ft.",
+    "cr": "2",
+    "xp": 450,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "skills": {
+      "Perception": 2
+    },
+    "passivePerception": 12,
+    "otherStatistics": "Natural armor. Skills. Perception +2. Senses. Passive Perception 12. Languages. None.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A long-beaked giant pterosaur with a narrow crest, long neck, and broad tan wing membranes.",
+    "habitats": [
+      "Open country",
+      "Cliff ledges"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Volo’s Guide to Monsters, first printing, November 2016, Chapter 3, Dinosaurs, stat block p. 140. https://www.dndbeyond.com/monsters/17242-quetzalcoatlus",
+      "Traits": "Dive Attack. While flying, dive at least 30 ft. toward a target and hit it with Bite. The hit deals an additional 10 (3d6) damage.\nFlyby. Flying out of an enemy’s reach does not provoke an opportunity attack.",
+      "Actions": "Bite. Melee weapon attack +4 to hit, reach 10 ft., one creature. A hit deals 12 (3d6 + 2) piercing damage.",
+      "Encounter ecology": "The pterosaur can move on four limbs on the ground and is more comfortable in the air. Its wingspan exceeds 30 ft.",
+      "Source notes": "The first printing gives the Dive Attack’s extra dice without separately specifying their damage type. The Bite itself deals piercing."
+    }
+  },
+  {
+    "name": "Stegosaurus",
+    "publication": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "classification": "Huge Beast, unaligned",
+    "ac": 13,
+    "hp": 76,
+    "hitDice": "8d12 + 24",
+    "speed": "40 ft.",
+    "cr": "4",
+    "xp": 1100,
+    "abilities": {
+      "Str": {
+        "score": 20,
+        "modifier": 5
+      },
+      "Dex": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Con": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "skills": {},
+    "passivePerception": 10,
+    "otherStatistics": "Natural armor. Senses. Passive Perception 10. Languages. None.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A low, stocky dinosaur with tall russet back plates, thick legs, and a long tail tipped with spikes.",
+    "habitats": [
+      "Open woodland",
+      "Vegetated plains"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Volo’s Guide to Monsters, first printing, November 2016, Chapter 3, Dinosaurs, stat block p. 140. https://www.dndbeyond.com/monsters/17244-stegosaurus",
+      "Actions": "Tail. Melee weapon attack +7 to hit, reach 10 ft., one target. A hit deals 26 (6d6 + 5) piercing damage.",
+      "Encounter ecology": "The stegosaurus often travels in herds of different ages. It holds its flexible, spiked tail high to strike predators."
+    }
+  },
+  {
+    "name": "Swarm of Cranium Rats",
+    "publication": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "classification": "Medium swarm of Tiny Beasts, lawful evil",
+    "ac": 12,
+    "hp": 36,
+    "hitDice": "8d8",
+    "speed": "30 ft.",
+    "cr": "5",
+    "xp": 1800,
+    "abilities": {
+      "Str": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Wis": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 14,
+        "modifier": 2
+      }
+    },
+    "skills": {},
+    "passivePerception": 10,
+    "otherStatistics": "Senses. Darkvision 30 ft., Passive Perception 10. Languages. Telepathy 30 ft.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A coordinated cluster of gray-brown rats with bare segmented tails and exposed pink brain crowns between the ears.",
+    "habitats": [
+      "Surface settlements",
+      "Mind flayer territory"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Volo’s Guide to Monsters, first printing, November 2016, Chapter 3, Cranium Rats, stat block p. 133. https://www.dndbeyond.com/monsters/17230-swarm-of-cranium-rats",
+      "Traits": "Innate Spellcasting (Psionics). Intelligence, save DC 13, with no components. The swarm casts only while above half HP. Command, Comprehend Languages, and Detect Thoughts are at will. Confusion and Dominate Monster are each once per day, with expended uses recovered after a long rest.\nSwarm. The swarm and other creatures can occupy the same space. It fits through any opening a Tiny rat could use. It cannot regain HP or gain temporary HP.\nTelepathic Shroud. The swarm is immune to effects that would sense its emotions or read its thoughts and to all divination spells.",
+      "Actions": "Bites. Melee weapon attack +5 to hit, reach 0 ft., one target in the swarm’s space. A hit deals 14 (4d6) piercing damage. At half HP or lower it deals 7 (2d6) piercing instead.",
+      "Damage and condition defenses": "Resists bludgeoning, piercing, and slashing damage. Immune to charmed, frightened, grappled, paralyzed, petrified, prone, restrained, and stunned.",
+      "Bonus actions": "Illumination. Shed dim light within 5 ft. of the swarm, increase it to bright light in a 5- to 20-ft. radius with the same distance of dim light beyond that, or extinguish it.",
+      "2014 spell procedures": "Command, at will. Action, 60 ft., one visible creature. On a failed DC 13 Wisdom save it follows a one-word order on its next turn. It must understand the language. Undead and directly harmful commands are ineligible. The spell ends if the target cannot comply. The DM resolves orders outside the listed examples. Approach ends the turn when it reaches within 5 ft. of the swarm by the shortest route. Drop ends the turn after dropping held items. Flee spends the turn moving away as quickly as it can. Grovel drops it prone and ends the turn. Halt prevents movement and actions, with minimum flight allowed if needed to stay aloft.\nComprehend Languages, at will. Action, self, 1 hour. Understand literal spoken language the swarm hears and writing it sees while touching the written surface. Read one page per minute. It cannot decode ciphers or signs outside a written language.\nDetect Thoughts, at will. Action, self, concentration up to 1 minute. Read the surface thoughts of a visible creature within 30 ft. The creature must have Intelligence 4 or higher and speak a language. On a later action, switch targets or probe deeper. A probe alerts the target, which makes a DC 13 Wisdom save. Success ends the spell. Failure reveals reasoning, emotional state, and a major concern. A probed creature can use an action to end the spell by winning an Intelligence contest against the swarm while it remains the focus. On casting or as an action the swarm can also search for eligible unseen minds within 30 ft., then read them while in range. Two feet of rock, 2 inches of non-lead metal, or a thin sheet of lead blocks that search.\nConfusion, 1/day. Action, 90 ft., concentration up to 1 minute. Each creature in a 10-ft.-radius sphere around a point in range makes a DC 13 Wisdom save. A failure prevents reactions and requires a d10 at the start of each turn. On 1, roll a d8 for direction and spend all movement going that way without acting. On 2–6, the creature stays still and does nothing. On 7–8, it spends its action on one melee attack against a random creature in reach. If there is none, it does nothing. On 9–10, it moves and acts as usual. A DC 13 Wisdom save at the end of its turn ends the effect on that creature.\nDominate Monster, 1/day. Action, 60 ft., a visible creature, concentration up to 1 hour. The target makes a DC 13 Wisdom save, with advantage if the swarm or its allies are fighting it. Failure charms it. While conscious and on the same plane, the swarm can issue simple commands by telepathy without an action. If orders run out it protects itself. The swarm can spend an action for precise control through the end of its next turn and can spend its own reaction to direct the target’s reaction. Each time the target takes damage, another DC 13 Wisdom save can end the spell.",
+      "HP threshold": "With its printed maximum of 36 HP, the swarm can cast at 19 HP or more. At 18 HP or less, use the smaller Bites damage.",
+      "Encounter ecology": "The rats combine their memories and minds when they swarm and communicate as one. A rat separated from the swarm begins with Intelligence 15, loses 1 Intelligence per day to a minimum of 4, and returns to 15 when it rejoins any such swarm. Illithid colonies can receive a swarm’s reports within the elder brain’s telepathic range.",
+      "Source notes": "The swarm’s Telepathic Shroud covers all divination spells. The same block lists Detect Thoughts and Comprehend Languages, both self-range divinations, with no explicit self-cast exception. Both printed rules are retained.\nThe 2014 Command language and harmful-order restrictions still apply. Volo grants component-free casting and separately lists telepathy 30 ft."
+    }
+  },
+  {
+    "name": "Velociraptor",
+    "publication": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 13,
+    "hp": 10,
+    "hitDice": "3d4 + 3",
+    "speed": "30 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 6,
+        "modifier": -2
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 4,
+        "modifier": -3
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "skills": {
+      "Perception": 3
+    },
+    "passivePerception": 13,
+    "otherStatistics": "Natural armor. Skills. Perception +3. Senses. Passive Perception 13. Languages. None.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A feathered bipedal raptor with a narrow snout, a long stiff tail, and raised sickle-shaped toe claws.",
+    "habitats": [
+      "Scrubland",
+      "Open woodland"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Volo’s Guide to Monsters, first printing, November 2016, Chapter 3, Dinosaurs, stat block p. 140. https://www.dndbeyond.com/monsters/17243-velociraptor",
+      "Traits": "Pack Tactics. Gain advantage on an attack roll against a creature if one of the velociraptor’s non-incapacitated allies is within 5 ft. of it.",
+      "Actions": "Multiattack. Make one Bite attack and one Claws attack.\nBite. Melee weapon attack +4 to hit, reach 5 ft., one creature. A hit deals 5 (1d6 + 2) piercing damage.\nClaws. Melee weapon attack +4 to hit, reach 5 ft., one target. A hit deals 4 (1d4 + 2) slashing damage.",
+      "Encounter ecology": "This feathered predator is about the size of a large turkey and hunts larger prey in packs."
+    }
+  }
+]

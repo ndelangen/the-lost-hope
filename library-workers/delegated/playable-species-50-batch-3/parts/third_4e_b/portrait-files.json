@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Human",
+    "file": "",
+    "sha256": "1c7f5cfdf6e65ecd5059dbad3f5836b8343e3ce7e088c9d8633c1ee3762c20ae",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Tiefling",
+    "file": "",
+    "sha256": "a3e2459d6fa7343ebf65998c1f935c2dcbfe237d442dd51a06289a88342517ec",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Half-Orc",
+    "file": "",
+    "sha256": "9e7aec3ba31b0d53f6f535f68e06713144b718acd9e4eafeb3a2b21c566edef1",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Goblin",
+    "file": "",
+    "sha256": "4f21d27199d79d811feeef850e76a51be8f52956d9ff1d3b3a662d41119aedcf",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Orc",
+    "file": "",
+    "sha256": "b830212fc8f9603428dded7e9e5a21f1a53948478007423c000cc5f0a99e7ea6",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  }
+]

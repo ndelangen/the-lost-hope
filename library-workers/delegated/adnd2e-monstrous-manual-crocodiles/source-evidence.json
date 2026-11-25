@@ -1,0 +1,103 @@
+[
+  {
+    "name": "Crocodile",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "copyrightYear": 1993,
+    "printing": "Third printing, January 1994",
+    "productNumber": 2140,
+    "isbn": "1-56076-619-0",
+    "section": "Crocodile",
+    "printedColumn": "Crocodile",
+    "printedPages": [
+      49
+    ],
+    "printScanViewer": "https://online.anyflip.com/vjcbu/qkrw/",
+    "pageImages": [
+      {
+        "printedPage": 49,
+        "viewerPage": 52,
+        "imageUrl": "https://online.anyflip.com/vjcbu/qkrw/files/large/db6d5d101d77356620b963992cf10492.webp",
+        "sha256": "2448199e5dbbe373af0943b1ce25007ea36d21e508ca258cd1846f69a1a19297"
+      }
+    ],
+    "creditsPrintScan": "https://online.anyflip.com/vjcbu/qkrw/files/large/efaf128f9ea2ed636f64e32847d3e254.webp",
+    "digitalTextCrossCheck": "",
+    "numberAppearing": "3–24",
+    "frequency": "Common",
+    "sharedPrintedHabitat": "Subtropical and tropical / Saltwater swamps and rivers",
+    "printedFamilyArtwork": {
+      "printedPage": 49,
+      "specificFormUnconfirmed": true,
+      "individualArtistUnconfirmed": true
+    },
+    "entryId": "beast-02766f3002eaa501317fc1ac",
+    "versionKey": "d65baf9378adc782d6978cd4",
+    "slug": "crocodile",
+    "query": "crocodile surprise movement cold",
+    "appearanceQuery": "crocodile short legs conical teeth",
+    "habitatQuery": "crocodile rivers tropical sewers",
+    "portraitSelection": "generated",
+    "printedDamage": "2–8/1–12",
+    "printedBiteDice": "2d4",
+    "printedTailDice": "1d12",
+    "stagedOverlap": {
+      "publication": "Night of the Walking Dead",
+      "edition": "AD&D 2nd edition",
+      "source": "TSR 9352, 1992"
+    },
+    "portraitEvidence": "The low body, long jaws, teeth, and strong tail follow the prose. Olive-ochre is an illustration choice informed by the unlabeled family plate."
+  },
+  {
+    "name": "Giant Crocodile",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "copyrightYear": 1993,
+    "printing": "Third printing, January 1994",
+    "productNumber": 2140,
+    "isbn": "1-56076-619-0",
+    "section": "Crocodile",
+    "printedColumn": "Giant Crocodile",
+    "printedPages": [
+      49
+    ],
+    "printScanViewer": "https://online.anyflip.com/vjcbu/qkrw/",
+    "pageImages": [
+      {
+        "printedPage": 49,
+        "viewerPage": 52,
+        "imageUrl": "https://online.anyflip.com/vjcbu/qkrw/files/large/db6d5d101d77356620b963992cf10492.webp",
+        "sha256": "2448199e5dbbe373af0943b1ce25007ea36d21e508ca258cd1846f69a1a19297"
+      }
+    ],
+    "creditsPrintScan": "https://online.anyflip.com/vjcbu/qkrw/files/large/efaf128f9ea2ed636f64e32847d3e254.webp",
+    "digitalTextCrossCheck": "",
+    "numberAppearing": "1 to 2–12",
+    "frequency": "Very rare to common",
+    "sharedPrintedHabitat": "Subtropical and tropical / Saltwater swamps and rivers",
+    "printedFamilyArtwork": {
+      "printedPage": 49,
+      "specificFormUnconfirmed": true,
+      "individualArtistUnconfirmed": true
+    },
+    "entryId": "beast-6343e55b7b181a3b56ac2eed",
+    "versionKey": "d0ecf54bac9d8674da2b9e96",
+    "slug": "giant-crocodile",
+    "query": "giant crocodile ram capsize boats",
+    "appearanceQuery": "giant crocodile long jaws thick tail",
+    "habitatQuery": "giant crocodile salt water prehistoric settings",
+    "portraitSelection": "generated",
+    "printedDamage": "3–18/2–20",
+    "proseFrequency": "Far rarer than the ordinary crocodile",
+    "stagedOverlap": {
+      "publication": "Dungeonland",
+      "edition": "AD&D 1st edition",
+      "source": "TSR 9072, 1983"
+    },
+    "portraitEvidence": "The length and large jaws are source details. The charcoal-olive color and heavier body proportions are illustration choices."
+  }
+]

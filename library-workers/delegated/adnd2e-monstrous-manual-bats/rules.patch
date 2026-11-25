@@ -1,0 +1,188 @@
+diff --git a/dm-library/bestiary/book-catalog.json b/dm-library/bestiary/book-catalog.json
+--- a/dm-library/bestiary/book-catalog.json
++++ b/dm-library/bestiary/book-catalog.json
+@@ -309489,6 +309489,157 @@
+           }
+         ]
+       }
++    },
++    {
++      "name": "Bat",
++      "kind": "beast",
++      "publication": "Monstrous Manual (1994 third printing)",
++      "edition": "AD&D 2nd edition",
++      "ruleset": "adnd-2e",
++      "appearance": "A tiny bat with a mouse-like body and thin skin stretched between its wing bones.",
++      "combat": {
++        "habitats": ["Any land", "Warm humid areas, caves, dark buildings, and damp crevices"],
++        "numberOfAttacks": 1,
++        "armorClass": 8,
++        "movement": "1, Fl 24 (B)",
++        "hitDice": "1–2 hp",
++        "thac0": 20,
++        "size": "T, 1 ft.",
++        "damageDice": "1",
++        "xp": 15,
++        "senses": ["Echolocation"],
++        "alternateArmorClasses": [
++          {
++            "armorClass": 4,
++            "condition": "In ideal flying conditions"
++          }
++        ]
++      },
++      "mechanics": {
++        "Group behavior": [
++          {
++            "name": "Startled swarm",
++            "effectNote": "A cornered bat may bite. Startled bats fly around in confusion. Each bat has a 1% chance per round to extinguish torches. In the swarm, spellcasters need a Wisdom check to cast and combatants take a −2 THAC0 penalty."
++          }
++        ]
++      },
++      "notes": [
++        "1–100 appearing. The table lists swarm organization. Nocturnal and omnivorous.",
++        "Common. Animal intelligence (1). Neutral. Unreliable (2–4) morale. Treasure and magic resistance Nil.",
++        "The Hit Dice line gives 1–2 HP. The electronic edition instead reads Unreliable (2–5) for morale. This profile uses the printed table.",
++        "Monstrous Manual, TSR 2140, third printing (January 1994), pp. 15–16."
++      ]
++    },
++    {
++      "name": "Giant Bat",
++      "kind": "beast",
++      "publication": "Monstrous Manual (1994 third printing)",
++      "edition": "AD&D 2nd edition",
++      "ruleset": "adnd-2e",
++      "appearance": "A large carnivorous bat with a 3-foot body and a wingspan of 5–6 feet.",
++      "combat": {
++        "habitats": ["Any land", "Dark caverns, usually underground"],
++        "numberOfAttacks": 1,
++        "armorClass": 8,
++        "movement": "3, Fl 18 (C)",
++        "hitDice": "1d4 hp or 1 HD",
++        "size": "M, 5–6 ft. wingspan",
++        "damageDice": "1d2 or 1d4",
++        "xp": 35,
++        "senses": ["Echolocation while flying"]
++      },
++      "mechanics": {
++        "Attacks and defenses": [
++          {
++            "name": "Grounded bite",
++            "effectNote": "The bat must land, often on the victim, to bite. The usual bite deals 1d2 damage. The more powerful 1 HD variety makes up 10% of Giant Bats and bites for 1d4."
++          },
++          {
++            "name": "Missile defense",
++            "effectNote": "While flying, the bat gains a +3 Armor Class bonus against missile attacks from opponents with Dexterity 13 or less."
++          }
++        ],
++        "Bite disease rules": [
++          {
++            "name": "Rabies in AD&D",
++            "effectNote": "A bite has a 1% chance per point of damage to cause disease. The printed game rule uses a 1d4+6 day onset and a ten-day survival window after onset. An afflicted character cannot eat or drink. If provoked, a failed Wisdom check makes them attack until killed or knocked unconscious. The entry allows cure disease, wish, limited wish, alter reality, or similar magic to cure it."
++          }
++        ]
++      },
++      "notes": [
++        "3–18 appearing. The table lists flock organization. Nocturnal and omnivorous.",
++        "Uncommon. Animal intelligence (1). Neutral. Unsteady (5–7) morale. Treasure and magic resistance Nil.",
++        "The table lists THAC0 19 or 20 without explicitly assigning either value to one of the two HP or HD options.",
++        "Monstrous Manual, TSR 2140, third printing (January 1994), pp. 15–16."
++      ]
++    },
++    {
++      "name": "Mobat",
++      "kind": "beast",
++      "publication": "Monstrous Manual (1994 third printing)",
++      "edition": "AD&D 2nd edition",
++      "ruleset": "adnd-2e",
++      "appearance": "A huge fanged bat with a twelve- to sixteen-foot wingspan.",
++      "combat": {
++        "habitats": ["Warm caves", "Large flight runways"],
++        "numberOfAttacks": 1,
++        "armorClass": 7,
++        "movement": "3, Fl 15 (C)",
++        "hitDice": "4–6",
++        "size": "H, 12–16 ft. wingspan",
++        "damageDice": "2d4",
++        "alternateArmorClasses": [
++          {
++            "armorClass": 2,
++            "condition": "Mobile in flight"
++          },
++          {
++            "armorClass": 7,
++            "condition": "Crowded in flight"
++          },
++          {
++            "armorClass": 10,
++            "condition": "Grounded"
++          }
++        ]
++      },
++      "mechanics": {
++        "Special attacks": [
++          {
++            "name": "Silent flight",
++            "effectNote": "Rapid, silent flight gives its victims a −3 penalty on surprise rolls."
++          },
++          {
++            "name": "Screech",
++            "effectNote": "If prey resists, the Mobat screeches in a 20-foot radius. Affected victims must save vs. paralyzation or cover their ears instead of fighting."
++          }
++        ],
++        "Printed variants": [
++          {
++            "name": "4 Hit Dice",
++            "effectNote": "THAC0 17 and 420 XP."
++          },
++          {
++            "name": "5 Hit Dice",
++            "effectNote": "THAC0 15 and 650 XP."
++          },
++          {
++            "name": "6 Hit Dice",
++            "effectNote": "THAC0 15 and 975 XP."
++          }
++        ],
++        "Habitat and behavior": [
++          {
++            "name": "Flight space",
++            "effectNote": "It needs room to take off and land. The prose describes a preference for warm-blooded prey and an interest in shiny objects."
++          }
++        ]
++      },
++      "notes": [
++        "1–8 appearing. The table lists flock organization. Nocturnal and omnivorous.",
++        "Rare. Low intelligence (5–7). Neutral evil. Steady (11–12) morale. Treasure type C. Magic resistance Nil.",
++        "Monstrous Manual, TSR 2140, third printing (January 1994), pp. 15–16."
++      ]
+     }
+   ],
+   "species": [
+diff --git a/dm-library/bestiary/entries.tsv b/dm-library/bestiary/entries.tsv
+--- a/dm-library/bestiary/entries.tsv
++++ b/dm-library/bestiary/entries.tsv
+@@ -977,6 +977,7 @@
+ Bat	beast	Beast	SRD 5.2.1	2024 fifth edition	Wizards of the Coast		0
+ Bat	beast	Beast	Basic Rules (2018)	2014 fifth edition	Wizards of the Coast		0
+ Bat	monster		Denizens of Darkness	3.0 edition	Sword & Sorcery		
++Bat	beast	Animal	Monstrous Manual (1994 third printing)	AD&D 2nd edition	TSR		
+ Bat Swarm	beast	Animal	Revised v3.5 SRD (Monsters)	3.5 edition	Wizards of the Coast		2
+ Bat, Giant	beast	Beast	Monster Vault	Black Flag Roleplaying	Kobold Press	https://koboldpress.com/tools/search-tov-kobold-press-monsters/	0.3
+ Bat, Strossen	beast	Beast	The Old Margreve	Black Flag Roleplaying	Kobold Press	https://koboldpress.com/tools/search-tov-kobold-press-monsters/	0.3
+@@ -3913,6 +3914,7 @@
+ Giant Bat	beast	Beast	SRD 5.2.1	2024 fifth edition	Wizards of the Coast		1/4
+ Giant Bat	beast	Beast	DDAL04-01 - The Suits of the Mists	2014 fifth edition	Wizards of the Coast		1/4
+ Giant Bat	beast	Beast	Basic Rules (2018)	2014 fifth edition	Wizards of the Coast		1/4
++Giant Bat	beast	Animal	Monstrous Manual (1994 third printing)	AD&D 2nd edition	TSR		
+ Giant Bee	monster	Vermin	Revised v3.5 SRD (Monsters)	3.5 edition	Wizards of the Coast		1
+ Giant Boar	beast	Beast	Black Flag Roleplaying Reference Document v0.2	Black Flag Roleplaying	Kobold Press		2
+ Giant Boar	beast	Beast	Monster Manual (2014)	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/16876-giant-boar	2
+@@ -6670,6 +6672,7 @@
+ Mithralemental	monster	Elemental	Dungeons and Ruins	Black Flag Roleplaying	Kobold Press	https://koboldpress.com/tools/search-tov-kobold-press-monsters/	7.0
+ Mjenir	monster	Humanoid	Icewind Dale: Rime of the Frostmaiden	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/1123113-mjenir	2
+ Mobar	monster	Humanoid	Waterdeep: Dungeon of the Mad Mage	2014 fifth edition	Wizards of the Coast		2
++Mobat	beast	Animal	Monstrous Manual (1994 third printing)	AD&D 2nd edition	TSR		
+ Modron Duodrone	monster	Construct	Monster Manual (2024)	2024 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/5195128-modron-duodrone	1/4
+ Modron Monodrone	monster	Construct	Monster Manual (2024)	2024 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/5195129-modron-monodrone	1/8
+ Modron Pentadrone	monster	Construct	Monster Manual (2024)	2024 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/5195130-modron-pentadrone	2

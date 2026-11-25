@@ -1,0 +1,381 @@
+[
+  {
+    "name": "Azmyth",
+    "kind": "monster",
+    "group": "Magical Beast",
+    "otherKindExists": false,
+    "global": true,
+    "version": {
+      "key": "9b9fe53d5ce3c72baee6e9c1",
+      "publication": "Monstrous Manual (1994 third printing)",
+      "edition": "AD&D 2nd edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "2"
+        ],
+        [
+          "Hit dice",
+          "2"
+        ],
+        [
+          "Size",
+          "S, 3 ft."
+        ],
+        [
+          "Type",
+          "Magical Beast"
+        ],
+        [
+          "Movement",
+          "3, Fl 24 (A)"
+        ],
+        [
+          "THAC0",
+          "19"
+        ],
+        [
+          "Attacks per round",
+          "2"
+        ],
+        [
+          "Damage per attack",
+          "1 / 1–2"
+        ],
+        [
+          "XP",
+          "650"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Any land",
+            "Solitary wanderers that return to favorite haunts"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A crested bat with a bearded chin, white pupil-less eyes, and leathery gray, mauve, or emerald green skin. Its tail ends in a needle-sharp point."
+          ]
+        },
+        {
+          "title": "Senses",
+          "lines": [
+            "Infravision 90 ft."
+          ]
+        },
+        {
+          "title": "Languages",
+          "lines": [
+            "Telepathy 60 ft."
+          ]
+        },
+        {
+          "title": "Physical attacks mechanics",
+          "lines": [
+            "Bite and tail stab · The bite deals 1 damage and the tail stab deals 1d2."
+          ]
+        },
+        {
+          "title": "Magic mechanics",
+          "lines": [
+            "Know alignment · Three times per day.",
+            "Invisibility · Self only, once per day for up to six rounds. It ends when the Azmyth makes a successful attack.",
+            "Silence · Once per day, centered on the Azmyth in a 15-foot radius.",
+            "Shocking grasp · Twice per day, direct contact deals 1d8+6 electrical damage. It can be added to a physical attack.",
+            "Magic resistance · 40%."
+          ]
+        },
+        {
+          "title": "Behavior mechanics",
+          "lines": [
+            "Voluntary companionship · Azmyths sometimes form lifelong partnerships with humanoids. The entry distinguishes them from familiars under a wizard’s direct control."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "Rare, solitary, and active at any time. Omnivore. High intelligence (13–14). Chaotic neutral. Elite (14) morale. Treasure Nil. 1 appearing.",
+            "Monstrous Manual, TSR 2140, January 1994 third printing, pp. 15–16."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Azmyth": true,
+      "azmyth shocking grasp invisibility": true,
+      "azmyth bearded emerald": true,
+      "azmyth land favorite haunts": true
+    },
+    "hash": "c9b7dbbb424205970bbc9fc82328ecc775ffde0116e83d275758710d35ead5cf",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Monstrous Manual (1994 third printing)",
+    "defaultVersionKey": "9b9fe53d5ce3c72baee6e9c1",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  },
+  {
+    "name": "Night Hunter",
+    "kind": "beast",
+    "group": "Animal",
+    "otherKindExists": false,
+    "global": true,
+    "version": {
+      "key": "933982f41c461da9436dc846",
+      "publication": "Monstrous Manual (1994 third printing)",
+      "edition": "AD&D 2nd edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "6"
+        ],
+        [
+          "Hit dice",
+          "2+2"
+        ],
+        [
+          "Size",
+          "M, 7 ft."
+        ],
+        [
+          "Type",
+          "Animal"
+        ],
+        [
+          "Movement",
+          "2, Fl 18 (A)"
+        ],
+        [
+          "THAC0",
+          "19"
+        ],
+        [
+          "Attacks per round",
+          "4"
+        ],
+        [
+          "Damage per attack",
+          "1–4 / 1–2 / 1–2 / 1–6 or 3–12"
+        ],
+        [
+          "XP",
+          "175"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Any land",
+            "Double-ended caves, the underworld, and tall dense woods"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A velvet-black bat, including its wing claws, with violet, orange, or red eyes and a sharp triangular tail."
+          ]
+        },
+        {
+          "title": "Senses",
+          "lines": [
+            "Infravision 120 ft."
+          ]
+        },
+        {
+          "title": "Attack options",
+          "lines": [
+            "One bite, two wing-claw rakes, and either a tail slash or a tail stab."
+          ]
+        },
+        {
+          "title": "Physical attacks mechanics",
+          "lines": [
+            "Bite and wing claws · Bite for 1d4, and rake once with each wing claw for 1d2 per rake.",
+            "Tail slash or stab · Choose a slash for 1d6 or a stab for 3d4."
+          ]
+        },
+        {
+          "title": "Behavior mechanics",
+          "lines": [
+            "Ambush · It flies low and uses terrain as cover. Its loud calls when excited make surprise uncommon.",
+            "Lair counts · The table gives 1–12 appearing and 1–30 in a lair. The prose says lairs usually hold over 30."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "Also called dragazhar. Uncommon pack hunter. Nocturnal above ground and active at any time underground. Carnivore. Average to high intelligence (8–14). Neutral evil. Steady (11) morale. Treasure M, O, Z in lair. The table lists no special attacks, special defenses, or magic resistance.",
+            "Monstrous Manual, TSR 2140, January 1994 third printing, pp. 15–16."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Night Hunter": true,
+      "night hunter dragazhar tail stab": true,
+      "night hunter triangular orange eyes": true,
+      "night hunter double-ended caves dense woods": true
+    },
+    "hash": "45543e76f8cdf9be8f8bedc5ca5ba1462fae908c2f48ac5a8353e41d6496d3a7",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Monstrous Manual (1994 third printing)",
+    "defaultVersionKey": "933982f41c461da9436dc846",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  },
+  {
+    "name": "Sinister",
+    "kind": "monster",
+    "group": "Magical Beast",
+    "otherKindExists": false,
+    "global": true,
+    "version": {
+      "key": "deb371272c89b3dbe3e2b8f4",
+      "publication": "Monstrous Manual (1994 third printing)",
+      "edition": "AD&D 2nd edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "3"
+        ],
+        [
+          "Hit dice",
+          "4+4"
+        ],
+        [
+          "Size",
+          "L, 9 ft."
+        ],
+        [
+          "Type",
+          "Magical Beast"
+        ],
+        [
+          "Movement",
+          "2, Fl 21 (A)"
+        ],
+        [
+          "THAC0",
+          "17"
+        ],
+        [
+          "Attacks per round",
+          "1"
+        ],
+        [
+          "Damage per attack",
+          "2–5"
+        ],
+        [
+          "XP",
+          "2000"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Any land",
+            "Above-ground hunting grounds used mostly at night"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A jet-black, manta ray-shaped bat with no distinct head or neck. Its muscular wings lack the conspicuous finger bones of other bats."
+          ]
+        },
+        {
+          "title": "Senses",
+          "lines": [
+            "Infravision 160 ft."
+          ]
+        },
+        {
+          "title": "Languages",
+          "lines": [
+            "Telepathy 20 ft., only with other Sinisters"
+          ]
+        },
+        {
+          "title": "Magic mechanics",
+          "lines": [
+            "Levitation · Natural precision levitation lets it hang motionless.",
+            "Energy field · A naturally generated, five-foot-deep field surrounds it at all times. The field repels ordinary missiles and absorbs missile spells such as magic missile and Melf’s acid arrow. Melee attacks and other spells are unaffected by the field.",
+            "Hold monster · Once per day. Usually saved for escape, though it may use the spell when hunting.",
+            "Magic resistance · 70%."
+          ]
+        },
+        {
+          "title": "Behavior mechanics",
+          "lines": [
+            "Music · Silent bands may gather around singers or musicians and follow them. The prose says they leave performers alone unless attacked.",
+            "Alignment discrepancy · The table gives lawful evil. The prose describes Sinisters as non-evil."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "Rare, found in bands of 1d6, and active at any time. Omnivore. Average to exceptional intelligence (8–16). Champion (15–16) morale. Treasure Nil.",
+            "Monstrous Manual, TSR 2140, January 1994 third printing, pp. 15–16."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Sinister": true,
+      "sinister hold monster magic missile": true,
+      "sinister manta ray jet-black": true,
+      "sinister any land hunt at night": true
+    },
+    "hash": "42782e059e358febce7ea95055ff0304dd7d5a40ce37354ab2900ec18988ef14",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Monstrous Manual (1994 third printing)",
+    "defaultVersionKey": "deb371272c89b3dbe3e2b8f4",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  }
+]

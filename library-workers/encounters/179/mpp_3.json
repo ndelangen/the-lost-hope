@@ -1,0 +1,333 @@
+[
+  {
+    "name": "Transcendent Order Instinct",
+    "statBlock": {
+      "name": "Transcendent Order Instinct",
+      "publication": "Morte's Planar Parade",
+      "edition": "2014 fifth edition",
+      "printedPage": 62,
+      "classification": "Small or Medium humanoid, any alignment",
+      "ac": 16,
+      "hp": 49,
+      "hitDice": "9d8 + 9",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 15,
+      "description": "A martial artist trained to act on instinct. In a fight, an instinct can deflect blows from several attackers in rapid succession.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Wis": 5,
+        "Cha": 3
+      },
+      "skills": {
+        "Acrobatics": 5,
+        "Perception": 5,
+        "Performance": 3
+      },
+      "sections": {
+        "Armor": "Unarmored Defense.",
+        "Languages": "Common and one additional language.",
+        "Traits": "Unarmored Defense. Add the instinct's Wisdom modifier to its AC while it goes without armor or a shield.",
+        "Actions": "Multiattack. Make three Unarmed Strikes.\nUnarmed Strike. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 7 (1d8 + 3) bludgeoning damage.",
+        "Reactions": "The instinct has up to three reactions each round, with a limit of one each turn.\nDeflect Blow. When a melee attack hits the instinct, reduce the attack's damage to it by 1d6.",
+        "Faction": "The Transcendent Order practices acting without deliberation. See Transcendent Order Conduit for the faction's faster, preternaturally alert martial artists.",
+        "Printed source": "Morte's Planar Parade, p. 62.",
+        "Proficiency bonus": "+2"
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Transcendent Order Conduit",
+          "terms": [
+            "Transcendent Order Conduit"
+          ],
+          "printing": {
+            "publication": "Morte's Planar Parade",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#transcendent%20order%20conduit_mpp"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Vargouille Reflection",
+    "statBlock": {
+      "name": "Vargouille Reflection",
+      "publication": "Morte's Planar Parade",
+      "edition": "2014 fifth edition",
+      "printedPage": 52,
+      "classification": "Tiny fiend, typically chaotic evil",
+      "ac": 12,
+      "hp": 22,
+      "hitDice": "5d4 + 10",
+      "speed": "5 ft., fly 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 6
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 2
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 10,
+      "description": "A winged, severed head that stalks Undersigil. Its victims can see their own faces staring back before it swoops in.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Understands Abyssal, Infernal, and the languages it knew before its transformation. It cannot speak.",
+        "Damage resistances": "Cold, fire, lightning, psychic.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Magic Resistance. The reflection has advantage on saves against spells and other magical effects.",
+        "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 5 (1d6 + 2) piercing and 10 (3d6) psychic damage.\nAbyssal Curse. Choose an incapacitated Humanoid within 5 ft. On a failed DC 12 Charisma save, the target is cursed. Its head takes on fiendish traits and its Charisma drops by 1 per hour. While cursed, its Charisma cannot rise. Sunlight or Daylight pauses the curse's progress. At Charisma 2, the target dies and its head breaks free as a new Vargouille Reflection. Before the transformation finishes, Remove Curse, Greater Restoration, or comparable magic lifts the curse and restores the lost Charisma.\nHorrific Reflection (Recharge 5–6). Copy the face of one visible Humanoid within 120 ft. The target makes a DC 12 Wisdom save. On a failure, it takes 10 (3d6) psychic damage and is frightened for up to 1 hour, maintained with Concentration as for a spell. After a successful save or when the effect ends, the target is immune to all vargouille reflections' Horrific Reflection for 1 hour.",
+        "Encounter context": "This Undersigil variety mimics the faces of its prey. Use Vargouille for the more common creature that spreads its curse across the planes.",
+        "Printed source": "Morte's Planar Parade, p. 52.",
+        "Proficiency bonus": "+2"
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Vargouille",
+          "terms": [
+            "Vargouille"
+          ],
+          "printing": {
+            "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#vargouille_mpmm"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Warden Archon",
+    "statBlock": {
+      "name": "Warden Archon",
+      "publication": "Morte's Planar Parade",
+      "edition": "2014 fifth edition",
+      "printedPage": 18,
+      "classification": "Large celestial, typically lawful good",
+      "ac": 18,
+      "hp": 136,
+      "hitDice": "16d10 + 48",
+      "speed": "30 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 18
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 20,
+      "description": "A bear-headed celestial with silver-lit eyes and a deep, resonant voice. It guards a planar passage, questions those who cross, and hunts intruders it has marked with its bite.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 6,
+        "Wis": 7
+      },
+      "skills": {
+        "Arcana": 5,
+        "Athletics": 8,
+        "Perception": 10
+      },
+      "sections": {
+        "Armor": "Plate armor.",
+        "Senses": "Darkvision 120 ft., truesight 30 ft.",
+        "Languages": "All.",
+        "Damage immunities": "Lightning.",
+        "Condition immunities": "Charmed, exhaustion, frightened, paralyzed.",
+        "Traits": "Aura of Menace. While the archon is free of the incapacitated condition, each creature it chooses that starts its turn within 20 ft. must make a DC 15 Wisdom save. On a failure, the creature is frightened until its next turn starts. On a success, it is immune to any archon's Aura of Menace for 24 hours.\nEternal Vigil. The archon cannot be surprised and senses whenever a creature uses a portal it has been assigned to guard.",
+        "Actions": "Multiattack. Make two Claw attacks and one Tracker's Bite.\nClaw. Melee weapon attack, +8 to hit, reach 10 ft., one target. A hit deals 12 (2d6 + 5) slashing damage. If the target is a Medium or smaller creature, it is grappled (escape DC 18). The archon can hold only one target with this attack at a time.\nTracker's Bite. Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 15 (3d6 + 5) piercing damage. For 24 hours after hitting a creature, the archon knows that creature's distance and direction whenever both are on the same plane.\nTeleport. The archon transports itself and its worn or carried gear to a vacant space it can see within 120 ft.",
+        "Spellcasting": "As an action, cast one listed spell using Charisma (save DC 15) without material components.\nAt will. Detect Evil and Good.\nOnce per day each. Aid, Continual Flame, Protection from Evil and Good, Scrying (as an action).",
+        "Related archons": "A Hound Archon pursues evil across the planes. A Lantern Archon helps travelers find their way.",
+        "Printed source": "Morte's Planar Parade, p. 18.",
+        "Proficiency bonus": "+3"
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Hound Archon",
+          "terms": [
+            "Hound Archon"
+          ],
+          "printing": {
+            "publication": "Morte's Planar Parade",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#hound%20archon_mpp"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Lantern Archon",
+          "terms": [
+            "Lantern Archon"
+          ],
+          "printing": {
+            "publication": "Morte's Planar Parade",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#lantern%20archon_mpp"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Young Time Dragon",
+    "statBlock": {
+      "name": "Young Time Dragon",
+      "publication": "Morte's Planar Parade",
+      "edition": "2014 fifth edition",
+      "printedPage": 51,
+      "classification": "Large dragon, typically neutral",
+      "ac": 18,
+      "hp": 210,
+      "hitDice": "20d10 + 100",
+      "speed": "40 ft., climb 40 ft., fly 80 ft.",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 20
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 17
+        }
+      },
+      "cr": "11",
+      "xp": 7200,
+      "passivePerception": 20,
+      "description": "A sleek dragon with iridescent veins branching through its growing horns. It prizes records of lost civilizations and can push a creature out of step with time.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 5,
+        "Con": 9,
+        "Wis": 6,
+        "Cha": 7
+      },
+      "skills": {
+        "Arcana": 9,
+        "History": 13,
+        "Perception": 10,
+        "Stealth": 9
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Blindsight 30 ft., darkvision 120 ft.",
+        "Languages": "Draconic and four additional languages.",
+        "Actions": "Multiattack. Make three Rend attacks.\nRend. Melee weapon attack, +9 to hit, reach 10 ft., one target. A hit deals 12 (2d6 + 5) slashing and 7 (2d6) force damage.\nTime Breath (Recharge 5–6). The dragon exhales a 30-ft. cone that reduces unworn and uncarried nonmagical objects and vegetation to dust. Each creature in the cone makes a DC 17 Constitution save. On a failure, it takes 31 (7d8) force damage and becomes magically weakened. Attacks against it have advantage while weakened. On a success, it takes half damage only. A weakened creature can repeat the save at the end of each of its turns. Its second successful repeat ends the effect.",
+        "Lairs and hoards": "Time dragons preserve ruins and temples associated with dead gods. Their hoards often hold historical records and artifacts from forgotten cultures. Use the Adult Time Dragon or Ancient Time Dragon profiles for the rules that govern a mature dragon's lair and the surrounding region.",
+        "Other ages": "For a newly hatched dragon, use Time Dragon Wyrmling. Ancient time dragons can open gates to a particular place and time.",
+        "Printed source": "Morte's Planar Parade, pp. 48–51. Young stat block on p. 51.",
+        "Proficiency bonus": "+4"
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Time Dragon Wyrmling",
+          "terms": [
+            "Time Dragon Wyrmling"
+          ],
+          "printing": {
+            "publication": "Morte's Planar Parade",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#time%20dragon%20wyrmling_mpp"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Adult Time Dragon",
+          "terms": [
+            "Adult Time Dragon"
+          ],
+          "printing": {
+            "publication": "Morte's Planar Parade",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#adult%20time%20dragon_mpp"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Ancient Time Dragon",
+          "terms": [
+            "Ancient Time Dragon"
+          ],
+          "printing": {
+            "publication": "Morte's Planar Parade",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#ancient%20time%20dragon_mpp"
+          }
+        }
+      ]
+    }
+  }
+]

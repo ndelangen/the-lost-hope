@@ -1,0 +1,26 @@
+{
+  "commit": "b77d0bb9aeb3c183e2d1ac540cc9d321a96f8e35",
+  "publication": "Flee, Mortals!",
+  "encounterVersions": 2,
+  "fullStatBlocks": 2,
+  "generatedPortraitsInstalled": 2,
+  "preservedGalleries": 2,
+  "recentProfilesWithGeneratedPortrait": 629,
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "visualComparison": "output/dm-library/review/encounters-66-before-after.jpg",
+  "results": "output/dm-library/encounter-batches/66/results.json",
+  "unverifiedNextCandidates": [
+    {
+      "name": "Hobgoblin Smokebinder",
+      "source": "https://www.dndbeyond.com/monsters/4485887-hobgoblin-smokebinder",
+      "challenge": "2"
+    },
+    {
+      "name": "Hobgoblin Recruit",
+      "source": "https://www.dndbeyond.com/monsters/4485886-hobgoblin-recruit",
+      "challenge": "1/2"
+    }
+  ],
+  "nextSourceNote": "Both final profiles are indexed but lack local rules. Check smoke-form movement, the recruit’s tactical positioning, and reuse matching art."
+}

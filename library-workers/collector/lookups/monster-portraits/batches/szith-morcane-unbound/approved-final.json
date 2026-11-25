@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Azer Acolyte",
+    "input": "",
+    "subjectPrompt": "A compact muscular azer forge acolyte with bronze metallic skin, short tongues of hot orange fire forming hair and a square flaming beard. Simple dark umber and tan blacksmith's apron over short strips of riveted leather, small unadorned bronze shield and a practical square forge hammer held down. Standing alert in an eager respectful pose. Whole stocky figure including boots, flames and both pieces of gear.",
+    "appearanceSource": "DDEX3-15 - Szith Morcane Unbound",
+    "reference": "images/monsters/azer/mm-1.webp",
+    "prompt": "Original single square fantasy creature plate for The Lost Hope. Image 1 sets the warm pale golden mottled parchment, muted gouache, fine brown sepia ink contours and soft matte pigments. Other references show related species anatomy; combine traits according to the new description in an original pose and composition. One full isolated creature or character centered with generous empty margins and soft ground shadow. No typography, border, other figures, scenery, watermark or interface. Subject: A compact muscular azer forge acolyte with bronze metallic skin, short tongues of hot orange fire forming hair and a square flaming beard. Simple dark umber and tan blacksmith's apron over short strips of riveted leather, small unadorned bronze shield and a practical square forge hammer held down. Standing alert in an eager respectful pose. Whole stocky figure including boots, flames and both pieces of gear."
+  },
+  {
+    "name": "Azer Priest",
+    "input": "",
+    "subjectPrompt": "An imposing adult azer forge priest, compact bronze-skinned elemental with an older angular face, tall forked crown of bright copper-orange fire and a long downward beard of fire. Embroidered wine and deep ochre ceremonial stole over fitted bronze plates, a round engraved shield and a long-handled squared forge warhammer held upright. Original ceremonial pose and distinctive taller flame silhouette, full body, no furniture, furnace or scene.",
+    "appearanceSource": "DDEX3-15 - Szith Morcane Unbound",
+    "reference": "images/monsters/azer/mm-1.webp",
+    "prompt": "Original single square fantasy creature plate for The Lost Hope. Image 1 sets the warm pale golden mottled parchment, muted gouache, fine brown sepia ink contours and soft matte pigments. Other references show related species anatomy; combine traits according to the new description in an original pose and composition. One full isolated creature or character centered with generous empty margins and soft ground shadow. No typography, border, other figures, scenery, watermark or interface. Subject: An imposing adult azer forge priest, compact bronze-skinned elemental with an older angular face, tall forked crown of bright copper-orange fire and a long downward beard of fire. Embroidered wine and deep ochre ceremonial stole over fitted bronze plates, a round engraved shield and a long-handled squared forge warhammer held upright. Original ceremonial pose and distinctive taller flame silhouette, full body, no furniture, furnace or scene."
+  },
+  {
+    "name": "Dengor Bloodheart",
+    "input": "",
+    "subjectPrompt": "A massive fire giant forgepriest of Surtr, with charcoal skin, crimson braided beard tied with bronze bands, broad jaw and fiery dark amber eyes. He wears heavy matte black plate with an old bronze flame clasp on the chest and scalloped dark red cloth hanging below the waist. One huge greatsword rests diagonally point-down, his free hand open above a little restrained glow. Stands upright with commanding posture. Two unwinged shoulders, no horns or crown, entire armor and greatsword visible.",
+    "appearanceSource": "DDEX3-15 - Szith Morcane Unbound",
+    "reference": "images/monsters/fire-giant/mm-1.webp",
+    "prompt": "Original single square fantasy creature plate for The Lost Hope. Image 1 sets the warm pale golden mottled parchment, muted gouache, fine brown sepia ink contours and soft matte pigments. Other references show related species anatomy; combine traits according to the new description in an original pose and composition. One full isolated creature or character centered with generous empty margins and soft ground shadow. No typography, border, other figures, scenery, watermark or interface. Subject: A massive fire giant forgepriest of Surtr, with charcoal skin, crimson braided beard tied with bronze bands, broad jaw and fiery dark amber eyes. He wears heavy matte black plate with an old bronze flame clasp on the chest and scalloped dark red cloth hanging below the waist. One huge greatsword rests diagonally point-down, his free hand open above a little restrained glow. Stands upright with commanding posture. Two unwinged shoulders, no horns or crown, entire armor and greatsword visible."
+  },
+  {
+    "name": "Shadow Dragon",
+    "input": "",
+    "subjectPrompt": "Messanth, a young bronze dragon transformed into a shadow dragon. All four clawed legs, two widely separated broad leathery wings and one long curving tail. Distinct backward bronze-dragon fins by the cheeks and around its crown. Former amber-bronze scales are dark glossy translucent obsidian with intermittent bronze-green highlights beneath the black. Fine wisps of gray shadow curling off the wings and tail. Whole beast poised in low three-quarter crouch, readable at thumbnail scale, solemn intelligent eyes, no background.",
+    "appearanceSource": "DDEX3-15 - Szith Morcane Unbound",
+    "reference": "images/monsters/young-red-shadow-dragon/mm-1.webp",
+    "prompt": "Original single square fantasy creature plate for The Lost Hope. Image 1 sets the warm pale golden mottled parchment, muted gouache, fine brown sepia ink contours and soft matte pigments. Other references show related species anatomy; combine traits according to the new description in an original pose and composition. One full isolated creature or character centered with generous empty margins and soft ground shadow. No typography, border, other figures, scenery, watermark or interface. Subject: Messanth, a young bronze dragon transformed into a shadow dragon. All four clawed legs, two widely separated broad leathery wings and one long curving tail. Distinct backward bronze-dragon fins by the cheeks and around its crown. Former amber-bronze scales are dark glossy translucent obsidian with intermittent bronze-green highlights beneath the black. Fine wisps of gray shadow curling off the wings and tail. Whole beast poised in low three-quarter crouch, readable at thumbnail scale, solemn intelligent eyes, no background."
+  }
+]

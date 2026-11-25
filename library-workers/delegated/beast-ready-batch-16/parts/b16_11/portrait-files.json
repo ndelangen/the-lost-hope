@@ -1,0 +1,26 @@
+[
+  {
+    "artGroup": "relic-sloth",
+    "file": "portraits/relic-sloth.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "87cb1fa8a4008a51e758589e83b0c81319fd51b6b95ed65c03bd6e107fc28761",
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "artGroup": "swarm-of-maggots",
+    "file": "portraits/swarm-of-maggots.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "d19fb3c7ea9f4ef60addea7ab5c0ec45d64c04f2bd48075ef3412bffec5500a0",
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "artGroup": "swarm-of-scarabs",
+    "file": "portraits/swarm-of-scarabs.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "04b51cb17df12b1349fdadf1e0bd2c63ff92ed8130db37a853bd9635f6e9ffa6",
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  }
+]

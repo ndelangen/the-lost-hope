@@ -1,0 +1,439 @@
+[
+  {
+    "name": "Abhorrent Overlord",
+    "statBlock": {
+      "name": "Abhorrent Overlord",
+      "publication": "Mythic Odysseys of Theros",
+      "edition": "2014 fifth edition",
+      "printedPage": 219,
+      "classification": "Large fiend, lawful evil",
+      "ac": 16,
+      "hp": 136,
+      "hitDice": "16d10 + 48",
+      "speed": "30 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "9",
+      "xp": 5000,
+      "passivePerception": 12,
+      "description": "A treasure-hoarding Underworld demon that attracts crows, harpies, and other scavengers.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Deception": 7,
+        "Intimidation": 7,
+        "Persuasion": 7
+      },
+      "savingThrows": {
+        "Con": 7,
+        "Cha": 7
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Abyssal, Common, Infernal.",
+        "Damage resistances": "Cold, necrotic.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Insatiable Greed. The overlord detects gold within 1,000 ft. It knows the direction of the largest concentration and the direction in which any detected gold is moving. Any layer of clay or lead blocks detection along that path.\nMagic Resistance. The creature has advantage on saving throws against spells and other magical effects.\nImmortal Nature. The creature needs no food, drink, or sleep.",
+        "Innate Spellcasting": "Charisma sets the spell save DC at 15. These spells require no material components.\n1/day each. Confusion, Crown of Madness, Suggestion.",
+        "Actions": "Multiattack. Make two Claws attacks.\nClaws. Melee weapon attack, +9 to hit, reach 5 ft., one target. A hit deals 14 (2d8 + 5) slashing plus 14 (4d6) necrotic damage. If the target is a creature, the overlord regains HP equal to half the necrotic damage dealt.\nStorm of Crows (Recharge 6). Center a 20-ft.-radius sphere of spectral crows and harpies on a visible point within 120 ft. It is lightly obscured and difficult terrain. It lasts 1 minute or until the overlord loses concentration as if concentrating on a spell. A creature that first moves into the sphere on a turn or starts its turn there makes a DC 15 Constitution save. It takes 16 (3d10) slashing plus 16 (3d10) psychic damage on a failure, or half of each on a success.",
+        "Printed source": "Mythic Odysseys of Theros, p. 219."
+      }
+    }
+  },
+  {
+    "name": "Akroan Hoplite",
+    "statBlock": {
+      "name": "Akroan Hoplite",
+      "publication": "Mythic Odysseys of Theros",
+      "edition": "2014 fifth edition",
+      "printedPage": 228,
+      "classification": "Medium humanoid (any), any alignment",
+      "ac": 18,
+      "hp": 52,
+      "hitDice": "8d8 + 16",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 12,
+      "description": "An Akroan stratiot trained to halt an enemy advance with spear and shield.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Str": 5,
+        "Dex": 5
+      },
+      "sections": {
+        "Armor": "Breastplate and shield.",
+        "Languages": "Common.",
+        "Traits": "Hold the Line. While the hoplite holds a spear, other creatures provoke an opportunity attack from the hoplite when they move within 5 ft. If one of those attacks hits with the spear, it adds 4 (1d8) piercing damage and drops the target's speed to 0 for the rest of the turn.",
+        "Actions": "Multiattack. Make three melee attacks or two ranged attacks.\nSpear. Melee or ranged weapon attack, +5 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 6 (1d6 + 3) piercing damage, or 7 (1d8 + 3) if wielded in two hands for a melee attack.\nShield Bash. Melee weapon attack, +5 to hit, reach 5 ft., one creature. A hit deals 5 (1d4 + 3) bludgeoning damage. A Medium or smaller target must pass a DC 13 Strength save or fall prone.",
+        "Printed source": "Mythic Odysseys of Theros, p. 228."
+      }
+    }
+  },
+  {
+    "name": "Alseid",
+    "statBlock": {
+      "name": "Alseid",
+      "publication": "Mythic Odysseys of Theros",
+      "edition": "2014 fifth edition",
+      "printedPage": 235,
+      "classification": "Medium fey, chaotic good",
+      "ac": 15,
+      "hp": 22,
+      "hitDice": "4d8 + 4",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 12,
+      "description": "A sunlit nymph who protects meadows and cultivated land.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Persuasion": 6
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Languages": "Common, Sylvan.",
+        "Damage resistances": "Radiant.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Charmed, frightened, poisoned.",
+        "Traits": "Hide in Plain Sight. The alseid has advantage on Dexterity (Stealth) checks made to hide in grassland.\nMagic Resistance. The creature has advantage on saving throws against spells and other magical effects.\nImmortal Nature. The creature needs no food, drink, or sleep.",
+        "Innate Spellcasting": "Charisma sets the spell save DC at 14. These spells require no material components.\n3/day each. Cure Wounds, Charm Person, Sleep.\n1/day each. Calm Emotions, Lesser Restoration, Plant Growth.",
+        "Actions": "Multiattack. Make two Radiant Touch attacks.\nRadiant Touch. Melee spell attack, +6 to hit, reach 5 ft., one target. A hit deals 9 (1d10 + 4) radiant damage.",
+        "Printed source": "Mythic Odysseys of Theros, pp. 234–235. The stat block appears on p. 235."
+      }
+    }
+  },
+  {
+    "name": "Anvilwrought Raptor",
+    "statBlock": {
+      "name": "Anvilwrought Raptor",
+      "publication": "Mythic Odysseys of Theros",
+      "edition": "2014 fifth edition",
+      "printedPage": 209,
+      "classification": "Tiny construct, unaligned",
+      "ac": 14,
+      "hp": 18,
+      "hitDice": "4d4 + 8",
+      "speed": "10 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 1
+        }
+      },
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 14,
+      "description": "A metal hawk or owl that carries messages and can repeat voices it has heard.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 4
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Understands one language of its creator but can't speak.",
+        "Damage immunities": "Fire, poison.",
+        "Condition immunities": "Charmed, exhaustion, paralyzed, petrified, poisoned.",
+        "Traits": "Keen Sight. The raptor has advantage on Wisdom (Perception) checks that rely on sight.\nRecorded Mimicry. The raptor can imitate any sound it heard in the past 24 hours, including voices. A listener can spot the imitation with a successful DC 12 Wisdom (Insight) check.\nConstructed Nature. The raptor needs no air, food, drink, or sleep.",
+        "Variant familiar": "Some raptors are built to be familiars and gain the following trait.\nFamiliar. The raptor can form a magical telepathic bond with a willing master. The master can share the raptor's senses while they are within 1 mile of each other.",
+        "Actions": "Multiattack. Make two Beak attacks.\nBeak. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 5 (1d4 + 3) piercing damage.",
+        "Printed source": "Mythic Odysseys of Theros, p. 209."
+      }
+    }
+  },
+  {
+    "name": "Aphemia",
+    "statBlock": {
+      "name": "Aphemia",
+      "publication": "Mythic Odysseys of Theros",
+      "edition": "2014 fifth edition",
+      "printedPage": 226,
+      "classification": "Medium monstrosity, chaotic evil",
+      "ac": 15,
+      "hp": 52,
+      "hitDice": "8d8 + 16",
+      "speed": "20 ft., fly 50 ft.",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 15,
+      "description": "A harpy whose songs terrify the living and command the dead.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Arcana": 4,
+        "Intimidation": 6,
+        "Perception": 5
+      },
+      "savingThrows": {
+        "Dex": 6,
+        "Cha": 6
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Common.",
+        "Damage resistances": "Necrotic.",
+        "Condition immunities": "Charmed, frightened.",
+        "Traits": "Legendary Resistance (2/day). Aphemia can turn a failed saving throw into a success.\nMagic Resistance. The creature has advantage on saving throws against spells and other magical effects.",
+        "Actions": "Multiattack. Make one Bite and one Claws attack.\nBite. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 8 (2d4 + 3) piercing plus 13 (3d8) necrotic damage.\nClaws. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 10 (2d6 + 3) slashing damage.\nDiscordant Song. Aphemia sings magically. Each humanoid within 120 ft. makes a DC 14 Wisdom save or becomes frightened of Aphemia until her song ends. While she sings, frightened creatures take 7 (2d6) psychic damage at the start of their turns. Each frightened creature can repeat the save at the end of its turns to end the effect. A successful save or the end of the effect grants immunity to Aphemia's Discordant Song for 24 hours.\nGrave Calling Song. Aphemia sings magically. Each undead within 300 ft. must pass a DC 14 Wisdom save or fall under Aphemia's control until the song ends.",
+        "Bonus actions": "Continue singing. Aphemia must spend a bonus action on subsequent turns to keep either song going. As part of the same bonus action for Grave Calling Song, she can give mental orders to the undead it controls. She may stop singing at any time. A song also ends if she is incapacitated or dies.",
+        "Printed source": "Mythic Odysseys of Theros, p. 226."
+      }
+    }
+  },
+  {
+    "name": "Arasta",
+    "statBlock": {
+      "name": "Arasta",
+      "publication": "Mythic Odysseys of Theros",
+      "edition": "2014 fifth edition",
+      "printedPage": 248,
+      "classification": "Huge monstrosity, neutral evil",
+      "ac": 19,
+      "hp": 300,
+      "hitDice": "24d12 + 144",
+      "speed": "40 ft., climb 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 24
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 23
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 22
+        },
+        "Cha": {
+          "score": 17
+        }
+      },
+      "cr": "21",
+      "xp": 33000,
+      "passivePerception": 23,
+      "description": "Once one of Nylea's dryads, Arasta now nests in the hollow of Enorasi, a vast olive tree in the Nessian Wood.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Arcana": 9,
+        "Deception": 10,
+        "Intimidation": 10,
+        "Nature": 9,
+        "Perception": 13,
+        "Stealth": 10
+      },
+      "savingThrows": {
+        "Dex": 10,
+        "Con": 13,
+        "Wis": 13
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Blindsight 60 ft., darkvision 120 ft.",
+        "Languages": "Celestial, Common, Sylvan.",
+        "Damage resistances": "Bludgeoning, piercing, slashing from nonmagical attacks.",
+        "Damage immunities": "Acid, poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Armor of Spiders (Mythic Trait, recharges after a short or long rest). When Arasta drops to 0 HP, she stays conscious and alive. She regains 200 HP, and her spiders cover her body and grant 100 temporary HP. While she retains temporary HP from this trait, her mythic actions are available.\nLegendary Resistance (3/day). Arasta can turn a failed saving throw into a success.\nMagic Resistance. The creature has advantage on saving throws against spells and other magical effects.\nSpider Climb. Arasta can climb difficult surfaces and ceilings upside down without making an ability check.\nWeb Walker. Webbing does not hinder Arasta's movement.",
+        "Actions": "Multiattack. Make one Bite and two Claws attacks.\nBite. Melee weapon attack, +14 to hit, reach 5 ft., one creature. A hit deals 20 (3d8 + 7) piercing damage. The target also makes a DC 21 Constitution save, taking 32 (5d12) poison damage on a failure or half on a success. If this damage reduces the creature to 0 HP, it stabilizes and is poisoned for 1 hour, even if it recovers HP. It is paralyzed while poisoned this way.\nClaws. Melee weapon attack, +14 to hit, reach 5 ft., one target. A hit deals 17 (3d6 + 7) slashing damage.\nWeb of Hair (Recharge 4–6). Fill a 30-ft. cube adjacent to Arasta with webbing for 1 minute. The cube is lightly obscured and difficult terrain. A creature that moves into the web or starts its turn there makes a DC 21 Dexterity save. On a failure, it is restrained while in the web. A creature can use its action to attempt a DC 21 Strength check to free itself or a creature within 5 ft. restrained by this web. Only magical fire can damage the web. A 5-ft. cube burns away if it takes at least 20 magical fire damage on one turn.",
+        "Legendary actions": "Arasta has 3 legendary actions. Use one option at the end of another creature's turn. She recovers spent actions at the start of her turn.\nClaws (1 action). Make one Claws attack.\nSwarm (2 actions). Summon two swarms of spiders in unoccupied spaces within 5 ft. of Arasta.\nToxic Web (3 actions). Each creature restrained by her Web of Hair takes 18 (4d8) poison damage.",
+        "Mythic actions": "These options spend legendary actions and are available only while Arasta retains temporary HP from Armor of Spiders.\nSwipe (1 action). Make two Claws attacks.\nWeb of Hair (2 actions). Recharge and use Web of Hair.\nNyx Weave (2 actions). Each creature restrained by Web of Hair must pass a DC 21 Constitution save. On a failure, it takes 26 (4d12) force damage and any spells of 6th level or lower affecting it end.",
+        "Mythic encounter": "If Arasta uses Armor of Spiders, award 66,000 XP total for defeating her. This is equivalent to defeating two CR 21 creatures.",
+        "Lair actions": "At initiative count 20, losing ties, choose one of the following options. The same option cannot be used in successive rounds.\nRead the Web. Each creature restrained by a web or by Web of Hair makes a DC 21 Intelligence save. For each failure, Arasta learns the creature's name, race, what it considers home, and why it came to her web.\nGiant Insect. Arasta casts Giant Insect on spiders only. It lasts until she uses this lair option again or dies.",
+        "Regional effects": "One or both of these effects can shape the area within 1 mile of Arasta's lair.\nSpiders and insects spy for Arasta. Birds and other flying creatures vanish from the skies, although some turn up trapped in webs.\nWebs fill 10-ft. cubes of open space wherever two solid surfaces can anchor them. They burn away in 1 round when exposed to fire. Destroyed webs magically repair themselves at the next dawn.\nOn Arasta's death, the spiders and insects lose their link to her. The webs dissolve within 1d10 days.",
+        "Printed source": "Mythic Odysseys of Theros, pp. 248–249. The stat block and mythic reward appear on p. 248."
+      }
+    }
+  },
+  {
+    "name": "Archon of Falling Stars",
+    "statBlock": {
+      "name": "Archon of Falling Stars",
+      "publication": "Mythic Odysseys of Theros",
+      "edition": "2014 fifth edition",
+      "printedPage": 212,
+      "classification": "Medium celestial, lawful good",
+      "ac": 18,
+      "hp": 144,
+      "hitDice": "17d8 + 68",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 19
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 21
+        },
+        "Cha": {
+          "score": 19
+        }
+      },
+      "cr": "12",
+      "xp": 8400,
+      "passivePerception": 19,
+      "description": "A spear-bearing champion of Heliod who rides a winged celestial mount into battle.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Arcana": 6,
+        "History": 6,
+        "Insight": 9,
+        "Perception": 9
+      },
+      "savingThrows": {
+        "Str": 9,
+        "Con": 8,
+        "Wis": 9,
+        "Cha": 8
+      },
+      "sections": {
+        "Armor": "Plate armor.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "All.",
+        "Damage immunities": "Radiant.",
+        "Condition immunities": "Charmed, exhaustion, frightened.",
+        "Traits": "Magic Resistance. The creature has advantage on saving throws against spells and other magical effects.\nMount. While the archon is mounted and not incapacitated, it cannot be surprised and both it and its mount have advantage on Dexterity saves. Reducing a mounted archon to 0 HP also reduces the mount to 0 HP.\nRadiant Rebirth (recharges after a long rest). At 0 HP, the archon regains 30 HP and springs back to its feet. Creatures it chooses within 30 ft. must pass a DC 16 Constitution save or take 13 (3d8) radiant damage and become blinded until the start of the archon's turn.",
+        "Innate Spellcasting": "Wisdom sets the spell save DC at 17 and the spell attack bonus at +9. These spells require no material components.\nAt will. Command, Guiding Bolt, Spare the Dying.\n1/day each. Crusader's Mantle, Spirit Guardians.",
+        "Actions": "Multiattack. Make two Radiant Spear attacks.\nRadiant Spear. Melee weapon attack, +9 to hit, reach 10 ft., one target. A hit deals 12 (2d6 + 5) piercing plus 10 (3d6) radiant damage.",
+        "Bonus actions": "Mount. If unmounted, the archon can magically teleport astride its mount with its worn and carried equipment, provided they are on the same plane. Winged Bull and Winged Lion are common mounts.",
+        "Legendary actions": "The archon has 3 legendary actions. Use one option at the end of another creature's turn. The archon recovers spent actions at the start of its turn.\nAttack (1 action). Make one Radiant Spear attack or cast Guiding Bolt.\nCoordinated Assault (2 actions). Make one Radiant Spear attack. The mount can then make a melee weapon attack with its reaction.\nReturn to Nyx (3 actions). Destroy a visible corpse within 30 ft. in a burst of stars, leaving its equipment behind. Each creature within 10 ft. of the corpse at the time of the burst must pass a DC 16 Dexterity save or take 22 (4d10) radiant damage.",
+        "Printed source": "Mythic Odysseys of Theros, p. 212. Archon mounts appear on p. 214."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Winged Bull",
+          "terms": [
+            "Winged Bull"
+          ]
+        },
+        {
+          "kind": "monster",
+          "name": "Winged Lion",
+          "terms": [
+            "Winged Lion"
+          ]
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Uldra",
+    "kind": "species",
+    "publication": "Frostburn (2004)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Small Fey with −2 Strength, +2 Constitution, and +2 Wisdom. Land speed 20 ft. Darkvision 120 ft. and low-light vision. LA +1.",
+      "Small size gives +1 AC and attack rolls, +4 Hide, and three-quarters of the ordinary carrying and lifting limits. Uldras use Small weapons.",
+      "Nature Scholar (Ex) grants +2 racial on Knowledge (nature) and makes it a class skill.",
+      "Cold Resistance (Ex). Cold environments do not harm the Uldra or its equipment. Against attacks that deal cold damage, the Uldra has cold resistance 5.",
+      "Frosty Touch (Su). A free action frosts the hands. While frosty, unarmed attacks deal +1 cold damage. A wielded melee weapon deals +1 cold on a hit while held. The extra cold does not stack with a magic weapon’s cold damage.",
+      "Racial spell-like abilities are ray of frost 3/day, speak with animals 1/day, and touch of fatigue 1/day. Caster level equals Hit Dice. Save DCs use Wisdom.",
+      "Fey Blood. Uldras are Fey. Effects limited to Humanoids do not affect them, and effects that target Fey apply. They have no special cold iron weakness.",
+      "Common and Sylvan are automatic. All languages are available as bonus languages, and Speak Language is always a class skill. Favored class Druid."
+    ]
+  }
+]

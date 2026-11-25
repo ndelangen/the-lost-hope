@@ -1,0 +1,402 @@
+[
+  {
+    "entry": "species-4c37834a37bcdbbb9d27a0f7",
+    "version": "2654646431400881561dd678",
+    "name": "Empyrean",
+    "file": "images/playable-species-50-batch-8/empyrean.png",
+    "sha256": "8b4c47d31038119f19877adbe3c20a6cf31411420c8ed69653db124b6b4a46b1",
+    "credit": "Original illustration generated with OpenAI ImageGen"
+  },
+  {
+    "entry": "species-7c3f624a0ed0f87b41d0a7a8",
+    "version": "0ac4b4f24d3fe48ca3dc4936",
+    "name": "Ettin",
+    "file": "images/playable-species-50-batch-8/ettin.png",
+    "sha256": "0f3ede3735f1d2662f877af4f97e5f7836de09996fc0e9268f00cadc0e212a20",
+    "credit": "Original illustration generated with OpenAI ImageGen"
+  },
+  {
+    "entry": "species-ae6dfc0e53cfbf78dd7342cd",
+    "version": "9126fa9cc08e3e76a06d52d7",
+    "name": "Faerie Dragon",
+    "file": "images/playable-species-50-batch-8/faerie-dragon.png",
+    "sha256": "fb73d7b1ee501ebfaa63fe86db692e073f5ca04a2054c6bb3ec3a5561310f313",
+    "credit": "Original illustration generated with OpenAI ImageGen"
+  },
+  {
+    "entry": "species-b23cbdddad4168b4a6ff2a02",
+    "version": "a9bacb8a8de83169b947bcd7",
+    "name": "Flameskull",
+    "file": "images/playable-species-50-batch-8/flameskull.png",
+    "sha256": "b5c98c048b94fb90300a02486267c66bf8efc57959fe86ba9d73ef1d267837df",
+    "credit": "Original illustration generated with OpenAI ImageGen"
+  },
+  {
+    "entry": "species-0eec9a241faa22462281807d",
+    "version": "b2356e62ca61c853b2c25629",
+    "name": "Flumph",
+    "file": "images/playable-species-50-batch-8/flumph.png",
+    "sha256": "479d28a15d8fd7ea0d38087b47d0c15bf69be1098bcac3ff9574f8a798df39cc",
+    "credit": "Original illustration generated with OpenAI ImageGen"
+  },
+  {
+    "entry": "species-3945328acd20e9540584a7be",
+    "version": "693c88ef20503ecdb2dd20e1",
+    "name": "Galeb Duhr",
+    "file": "images/playable-species-50-batch-8/galeb-duhr.png",
+    "sha256": "3bdde4b0f8fb40d7a67b0e6d7da0ef2fd17aed4e1bf94f3380126d7e1e09431f",
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "entry": "species-79ca2057b15f4a24e5c8e620",
+    "version": "55b2c54281ade9b072c602c7",
+    "name": "Gargoyle",
+    "file": "images/playable-species-50-batch-8/gargoyle.png",
+    "sha256": "eccfb676305befd95ebfe3cf212256a2c19c4d59993293de6d85ce451f5a2784",
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "entry": "species-24a214621435ec9fb826e4c6",
+    "version": "665389327ac17fbcefba627a",
+    "name": "Gibbering Mouther",
+    "file": "images/playable-species-50-batch-8/gibbering-mouther.png",
+    "sha256": "b54199377871c382559fd289de9bb4c1e23517df11a086bd79466df0fe61022b",
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "entry": "species-5562fa6b5d62a865caa9dfbe",
+    "version": "036cf2709990b6939864b98d",
+    "name": "Grell",
+    "file": "images/playable-species-50-batch-8/grell.png",
+    "sha256": "edd55f0ae9435a8846dc6be501fd0e2909b3678b9d28dc85fc15cc10849ec2e2",
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "entry": "species-74545654acdc2f3d2745de22",
+    "version": "330fa614fda101ce0346f477",
+    "name": "Grick",
+    "file": "images/playable-species-50-batch-8/grick.png",
+    "sha256": "cff28ca3a04ed7f3f87d54c295f3fbe36dcbe01dd843725d01e143de7766dd2e",
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "entry": "species-1ca4010f490633ef6ea2755c",
+    "version": "6bec007c4f16e7a341b807ce",
+    "name": "Helmed Horror",
+    "file": "images/playable-species-50-batch-8/helmed-horror.png",
+    "sha256": "8398ee38d8695e1c396c0629fff69040951fd986d5d6a64827cfdcf73426eb14",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-f18e58d62dfc5aa99b1e9228",
+    "version": "5727c481672468b76911f48e",
+    "name": "Hippogriff",
+    "file": "images/playable-species-50-batch-8/hippogriff.png",
+    "sha256": "20cc2e832eacbc237c71d86d569ac358a57998d276d159e065469c6ad3fe3a15",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-2880d4e0aaf4ce5299248ee4",
+    "version": "2a3f98cffd527f88f9d917b0",
+    "name": "Homunculus",
+    "file": "images/playable-species-50-batch-8/homunculus.png",
+    "sha256": "4b94e0361e2f9561783e1fe8324023cf85b79a6b6aed41ba583ab17400a360e8",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-e998d5232cdfa6d0bfc1479e",
+    "version": "84fb8fbe4aec2d1adb6d696a",
+    "name": "Hook Horror",
+    "file": "images/playable-species-50-batch-8/hook-horror.png",
+    "sha256": "0aeb8cc441163e5f0c0e99fd27a8c655cd76b8a0e7b297c7971845b331496d74",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-517ffce87ad701f071040b32",
+    "version": "40c980962cf18fbd22f1eb04",
+    "name": "Hydra",
+    "file": "images/playable-species-50-batch-8/hydra.png",
+    "sha256": "1f347070f94c784f47ba15b2e8db16bf6485f1f0deddbb046f18265bd635817b",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-1eed6373f815eb3e1527c2f8",
+    "version": "c0ae81c1108b55d37bf077c4",
+    "name": "Intellect Devourer",
+    "file": "images/playable-species-50-batch-8/intellect-devourer.png",
+    "sha256": "0f20008b645e229ea73c21a3d2d7bb8bcb38abca985edd3a290a52f1968df748",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-ec858a1e15821aa716369d51",
+    "version": "a0c6f8ff392b15b9ed762817",
+    "name": "Invisible Stalker",
+    "file": "images/playable-species-50-batch-8/invisible-stalker.png",
+    "sha256": "8206ffeb446b37583b1c9ad050f6214020ead1231983a239129e28209022ce9a",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-4afe8cd337dfad1336e9978e",
+    "version": "1c88dea384614e1eeb407b1c",
+    "name": "Jackalwere",
+    "file": "images/playable-species-50-batch-8/jackalwere.png",
+    "sha256": "2cb6eb0a42db077f1bf73cde39a252ebbd86873020b613c14c4f32d8f1ecfbb1",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-686d22d695e2c21166a89498",
+    "version": "623b7655655784253c0bed80",
+    "name": "Kraken",
+    "file": "images/playable-species-50-batch-8/kraken.png",
+    "sha256": "587cf929ce348662c83a26c68bc7a7d113049d7e4617da5c037e804e5ee58905",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-ad8b0a2eae9a5b0b11046b89",
+    "version": "9e8bcc0882372d458a322b5c",
+    "name": "Manticore",
+    "file": "images/playable-species-50-batch-8/manticore.png",
+    "sha256": "ba5f18baba608b86e0992865ae2275d68d2b601e9d4fe20a4c0ea05b9d9bc6b1",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-5a72f8b5867704b570d72413",
+    "version": "e6d0136cdae8b1a4723fc68b",
+    "name": "Nothic",
+    "file": "images/playable-species-50-batch-8/nothic.png",
+    "sha256": "78ec7a2b182a867fce2b78d274cc497ee3f39570721d1abeca181ffd9ba902cb",
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "entry": "species-f94c0357ffbcfb7b3bfd1a81",
+    "version": "ad6e52c69355e3fdc40c03ff",
+    "name": "Otyugh",
+    "file": "images/playable-species-50-batch-8/otyugh.png",
+    "sha256": "df43329ae4e20229397e55febb8a35cba8089842acf784abf9f6b71cf7d2a964",
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "entry": "species-96434caeb347ca883e6aab65",
+    "version": "041f169437392c279bcad45c",
+    "name": "Peryton",
+    "file": "images/playable-species-50-batch-8/peryton.png",
+    "sha256": "6f04d10bc9db86e239864597e3b70cf8946808a6a06c5a824594804eee56de39",
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "entry": "species-70438ed19971ed9b7a01c1f9",
+    "version": "45b3014a9fba249a1d7fb935",
+    "name": "Rust Monster",
+    "file": "images/playable-species-50-batch-8/rust-monster.png",
+    "sha256": "0679af90e08562efd645506feb8331eda7e63e1ad0c375da0a382f3c372c4f8c",
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "entry": "species-d22956f71eea56eb772f56f0",
+    "version": "2d7dbf37681ce8166c627f78",
+    "name": "Shambling Mound",
+    "file": "images/playable-species-50-batch-8/shambling-mound.png",
+    "sha256": "df0b2f510df33fe8e3f2be2777220822cc376692227928475ce201cf9c95873c",
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "entry": "species-9a7a8ef5f40e2f44828bc089",
+    "version": "02c11811f46461166924da09",
+    "name": "Banderhobb",
+    "file": "images/playable-species-50-batch-8/banderhobb.png",
+    "sha256": "65ef4511739ba6d61a5cd7f307bad285c41821abbef8e97d9fed7be82e910a13",
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "entry": "species-4f005bcff0253465be028130",
+    "version": "fab754ae6ab0a6102354e48c",
+    "name": "Bodak",
+    "file": "images/playable-species-50-batch-8/bodak.png",
+    "sha256": "56790bb5f68110144568c0b3e00fa5c957ebeb1bec54c2057e788d322aed67b5",
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "entry": "species-37b04a755787208ff05098d3",
+    "version": "f8204db000973f5a84b9de32",
+    "name": "Boggle",
+    "file": "images/playable-species-50-batch-8/boggle.png",
+    "sha256": "4d94e2fca410032af7683e324bc5587cf2c7d2212dfc2be5d77f96b2dad27615",
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "entry": "species-d4ebbb9fa3e7e1cc37df0031",
+    "version": "0e7b2fda414eb8767625eb6f",
+    "name": "Catoblepas",
+    "file": "images/playable-species-50-batch-8/catoblepas.png",
+    "sha256": "f906c141296bcf0877aebf73da2413b197c76aa2850fafd1416723df905916db",
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "entry": "species-49274b505154da3f3e75a700",
+    "version": "f41c0baf5d3f4b0cb7b9688d",
+    "name": "Cave Fisher",
+    "file": "images/playable-species-50-batch-8/cave-fisher.png",
+    "sha256": "4527572941fa020b6e3cc565617553533a079feecdccd6c9e6742bd58243dfd1",
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "entry": "species-570222decf7f0ff9c0a6446c",
+    "version": "a90ff5a825260d3ee1e07835",
+    "name": "Cranium Rat",
+    "file": "images/playable-species-50-batch-8/cranium-rat.png",
+    "sha256": "da0e610eda41d06d605999814baa013aef458343829724d63a3a5f046134021c",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-b37ed762a4a672ea300debd6",
+    "version": "fce8f3cfef42bfe49e1c11fe",
+    "name": "Darkling",
+    "file": "images/playable-species-50-batch-8/darkling.png",
+    "sha256": "bf257f2ad85c23e8c3f9974085a93a2c3cb4b5acf282a56307d62ca1d65e6a45",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-4fa4db92d9440542f32c62bb",
+    "version": "25a3da95156087bfd1480efb",
+    "name": "Devourer",
+    "file": "images/playable-species-50-batch-8/devourer.png",
+    "sha256": "8a8cab71977ac77826003d7e17f1c5af0f3453a79560f8778f5457513a10cba2",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-cfcd8d15faa3701c55fbbd64",
+    "version": "81b42074f1670770528f3069",
+    "name": "Draegloth",
+    "file": "images/playable-species-50-batch-8/draegloth.png",
+    "sha256": "d3fefe9bc2e1294fef332ad43dd53618c6259e50f3d392028cc7b7892dea0cf4",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-0512f36c0ab71132fc99e572",
+    "version": "583b727a72d89f182e2c6518",
+    "name": "Firenewt",
+    "file": "images/playable-species-50-batch-8/firenewt.png",
+    "sha256": "4fd1cef5029ca37b6c40e2dfa34979d7daacb0accc5678c2c49efc6085b04850",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-20afafdc299ca7eec921485b",
+    "version": "430e8460737ee244b72bb0ed",
+    "name": "Giant Strider",
+    "file": "images/playable-species-50-batch-8/giant-strider.png",
+    "sha256": "0254f35ab65fe786cdb69112674ad7da8c49156cff62c6acfc26fb2f43659334",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-5afc96836327a45f50135e2c",
+    "version": "d5e3155ef1015e3ccf3bad6c",
+    "name": "Flail Snail",
+    "file": "images/playable-species-50-batch-8/flail-snail.png",
+    "sha256": "aad7ce412016ae064b99cb4af1dd947d15ca226de5cdf891a9c06e5aa420a4ee",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-79031ec75b30449be9e60f94",
+    "version": "ae568c5338fc725ccdfe01b7",
+    "name": "Froghemoth",
+    "file": "images/playable-species-50-batch-8/froghemoth.png",
+    "sha256": "bb7794b8a712883c9cc912f61452d7a76415a4486d09da20d25a544782aac734",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-a720b84d5c2384d02dd1011e",
+    "version": "113abca57c9429b848f970fd",
+    "name": "Girallon",
+    "file": "images/playable-species-50-batch-8/girallon.png",
+    "sha256": "bcfbf82bbcbfb66130c7d9a8a23a8d0b372a29bb75e0d1c595df9e4846432e12",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-bb774307b671c4a54d0d2fd4",
+    "version": "8fbf71ff009e1ee917f8333f",
+    "name": "Guard Drake",
+    "file": "images/playable-species-50-batch-8/guard-drake.png",
+    "sha256": "d3a10e605453b8d3a93321ff6b99b37e481c59c0bda194f54557c848a6ac88af",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-638b1a48a8fbd3217ca95072",
+    "version": "0da76612a9039f5b35fed987",
+    "name": "Ki-rin",
+    "file": "images/playable-species-50-batch-8/ki-rin.png",
+    "sha256": "2c5f8028a3d4a6e742e63b1fee9895c421a07345a2142a5cb89066d8c24d65be",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-d8c3fb71187653ea419633d3",
+    "version": "5bd01071a5de5313c34e6836",
+    "name": "Korred",
+    "file": "images/playable-species-50-batch-8/korred.png",
+    "sha256": "dc9fe06ba3ac333e11778accfbe79e56247b2c60810ec2b23dc7014b13edcacd",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-99b64f0fcbee75a6b51cb8ec",
+    "version": "de87a1e173ce1fdd30f1d8c3",
+    "name": "Leucrotta",
+    "file": "images/playable-species-50-batch-8/leucrotta.png",
+    "sha256": "84747e75f18923cea4c3d6bbf7124c60251fca3b21052dd8f67e3fcdeca3c672",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-7233051cfc950afb598f56d6",
+    "version": "d89d1113efb228a6e62de536",
+    "name": "Meenlock",
+    "file": "images/playable-species-50-batch-8/meenlock.png",
+    "sha256": "206943dda2e711feabd522041f472f7e480d8c23cff44d6b01cbcb248f322b44",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-5ef508c424d518f13d447fd5",
+    "version": "77467573fb6de2bb91a0f4fe",
+    "name": "Mindwitness",
+    "file": "images/playable-species-50-batch-8/mindwitness.png",
+    "sha256": "ee95dc69465d4f2e862faf6a2ae3740ca5df20429f736bf320c7f5f12f4f5bf6",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-78ac61f237354a9f1e80b537",
+    "version": "24cacaa3bb31bb62b6332cca",
+    "name": "Morkoth",
+    "file": "images/playable-species-50-batch-8/morkoth.png",
+    "sha256": "cb24c09371fffce173871f987c2f03e3c2800f10c8348dce457614172c0bc86e",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-a1684cfefaf15901f287814e",
+    "version": "7b05e1cc3238fb880e29f6f4",
+    "name": "Neogi",
+    "file": "images/playable-species-50-batch-8/neogi.png",
+    "sha256": "3b55b8b90b32f288fc1bc230e73f157acbb612a22df9d14a38385fd081fcf8e5",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-3d4172298079622bf0537649",
+    "version": "9db859c31d4ba20708332811",
+    "name": "Neothelid",
+    "file": "images/playable-species-50-batch-8/neothelid.png",
+    "sha256": "c07926f14928248ae7e6b5dbf75f225f3664811950fe01893a9ec20fbf4eff82",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-5b0aa6945b4b7b0ed755ff72",
+    "version": "a3e1f582acd8b769ca97910f",
+    "name": "Tlincalli",
+    "file": "images/playable-species-50-batch-8/tlincalli.png",
+    "sha256": "fa535d45f5b04847faf00df4dff2db4f458e00340491a7e0ce0ac9621656e9e6",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-258487d7747e49a8e0317af4",
+    "version": "5e0338b38de4a9234f515fe1",
+    "name": "Wood Woad",
+    "file": "images/playable-species-50-batch-8/wood-woad.png",
+    "sha256": "238b337c6881f86bc3324e4e99c036cd94c0ce91326c9a5ce9c5245bd36f9ada",
+    "credit": "OpenAI ImageGen"
+  }
+]

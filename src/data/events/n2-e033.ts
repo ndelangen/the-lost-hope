@@ -5,6 +5,7 @@ export default createEvent({
   name: 'Meet the angel and the dragon (husband and wife)',
   day: 9,
   location: refs.locations.mountain_top,
+  illustrations: ['/assets/scenes/meet-the-angel-and-the-dragon-husband-and-wife.png'],
   mark: { type: 'icon', name: 'gi/GiAngelWings' },
   notes: [
     [

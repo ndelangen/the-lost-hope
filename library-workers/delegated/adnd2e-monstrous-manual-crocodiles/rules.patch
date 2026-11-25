@@ -1,0 +1,132 @@
+diff --git a/dm-library/bestiary/book-catalog.json b/dm-library/bestiary/book-catalog.json
+--- a/dm-library/bestiary/book-catalog.json
++++ b/dm-library/bestiary/book-catalog.json
+@@ -1282,6 +1282,109 @@
+           }
+         ]
+       }
++    },
++    {
++      "name": "Crocodile",
++      "kind": "beast",
++      "publication": "Monstrous Manual (1994 third printing)",
++      "edition": "AD&D 2nd edition",
++      "ruleset": "adnd-2e",
++      "appearance": "A long, low reptile with tough hide, four short legs, and a strong tail. Its long jaws have conical teeth. The description places eyes and nostrils high enough to remain above water as it floats.",
++      "combat": {
++        "habitats": [
++          "Subtropical and tropical / Saltwater swamps and rivers",
++          "Swamps, rivers, and other large bodies of water",
++          "Rumored in tropical city sewers"
++        ],
++        "creatureType": "Animal",
++        "numberOfAttacks": 2,
++        "movement": "6, Sw 12",
++        "armorClass": 5,
++        "hitDice": "3",
++        "thac0": 17,
++        "damageDice": "2–8 / 1–12",
++        "xp": 65,
++        "size": "L, 8–15 ft. long"
++      },
++      "mechanics": {
++        "Combat": [
++          {
++            "name": "Surprise",
++            "effectNote": "When it lies in wait, its prey takes a −2 penalty to surprise rolls."
++          },
++          {
++            "name": "Bite and tail",
++            "effectNote": "The jaws deal 2d4 damage and the tail deals 1d12. It may seize prey and drag it underwater."
++          },
++          {
++            "name": "Cold",
++            "effectNote": "Below 40°F, its movement falls to half normal."
++          }
++        ],
++        "Behavior": [
++          {
++            "name": "Hunting",
++            "effectNote": "Crocodiles sometimes gather but hunt independently. When several converge on the same prey, each tries to claim it."
++          },
++          {
++            "name": "Eggs",
++            "effectNote": "The female buries roughly 60 eggs in sand, guards them, and digs them out at hatching."
++          }
++        ]
++      },
++      "notes": [
++        "Number appearing in the table is 3–24. Frequency common. Average (9) morale.",
++        "Diurnal, carnivorous, and neutral. Animal intelligence (1). Organization, treasure, special defenses, and magic resistance Nil.",
++        "Monstrous Manual, TSR 2140, January 1994 third printing, p. 49."
++      ]
++    },
++    {
++      "name": "Giant Crocodile",
++      "kind": "beast",
++      "publication": "Monstrous Manual (1994 third printing)",
++      "edition": "AD&D 2nd edition",
++      "ruleset": "adnd-2e",
++      "appearance": "A massive crocodile 21–30 feet long with long jaws, a squat scaly body, and a thick tail. The Giant Crocodile description says it continues growing until death.",
++      "combat": {
++        "habitats": [
++          "Subtropical and tropical / Saltwater swamps and rivers",
++          "Salt water or prehistoric settings"
++        ],
++        "creatureType": "Animal",
++        "numberOfAttacks": 2,
++        "movement": "6, Sw 12",
++        "armorClass": 4,
++        "hitDice": "7",
++        "thac0": 13,
++        "damageDice": "3–18 / 2–20",
++        "xp": 1400,
++        "size": "H, 21–30 ft. long"
++      },
++      "mechanics": {
++        "Combat": [
++          {
++            "name": "Surprise",
++            "effectNote": "The Giant column lists surprise. The shared entry’s main combat text gives prey a −2 penalty to surprise when a crocodile lies in wait. The Giant paragraph gives no separate modifier."
++          },
++          {
++            "name": "Small boats",
++            "effectNote": "It rams small boats in an attempt to capsize them, then tries to break the hull with its jaws. The paragraph describes the behavior without giving ramming damage or a check."
++          }
++        ],
++        "Behavior": [
++          {
++            "name": "Prey",
++            "effectNote": "The description includes sharks and small whales. It may also eat a fishing boat’s catch and swim away."
++          }
++        ]
++      },
++      "notes": [
++        "Number appearing in the table is 1 to 2–12. Frequency very rare to common. Steady (11) morale.",
++        "Diurnal, carnivorous, and neutral. Animal intelligence (1). Organization, treasure, special defenses, and magic resistance Nil.",
++        "The Giant paragraph calls it much rarer than ordinary crocodiles. The frequency and number appearing above retain the table’s wording.",
++        "The table gives two damage ranges. The Giant paragraph does not specify dice or a separate cold rule.",
++        "Monstrous Manual, TSR 2140, January 1994 third printing, p. 49."
++      ]
+     },
+     {
+       "edition": "2014 fifth edition",
+diff --git a/dm-library/bestiary/entries.tsv b/dm-library/bestiary/entries.tsv
+--- a/dm-library/bestiary/entries.tsv
++++ b/dm-library/bestiary/entries.tsv
+@@ -1989,6 +1989,7 @@
+ Criosphinx	monster	Magical Beast	Revised v3.5 SRD (Monsters)	3.5 edition	Wizards of the Coast		7
+ Criosphinx	monster	Monstrosity	Plane Shift: Amonkhet	2014 fifth edition	Wizards of the Coast		13
+ Crocodile	beast	Beast	Black Flag Roleplaying Reference Document v0.2	Black Flag Roleplaying	Kobold Press		1/2
++Crocodile	beast	Animal	Monstrous Manual (1994 third printing)	AD&D 2nd edition	TSR		
+ Crocodile	beast	Beast	Monster Vault	Black Flag Roleplaying	Kobold Press	https://koboldpress.com/tools/search-tov-kobold-press-monsters/	0.5
+ Crocodile	beast	Beast	Monster Manual (2014)	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/16834-crocodile	1/2
+ Crocodile	beast	Beast	Monster Manual (2024)	2024 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/4775811-crocodile	1/2
+@@ -3951,6 +3952,7 @@
+ Giant Crab	beast	Beast	Basic Rules (2018)	2014 fifth edition	Wizards of the Coast		1/8
+ Giant Crayfish	beast	Beast	Tales from the Yawning Portal	2014 fifth edition	Wizards of the Coast		2
+ Giant Crocodile	beast	Beast	Black Flag Roleplaying Reference Document v0.2	Black Flag Roleplaying	Kobold Press		5
++Giant Crocodile	beast	Animal	Monstrous Manual (1994 third printing)	AD&D 2nd edition	TSR		
+ Giant Crocodile	beast	Beast	Monster Manual (2014)	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/16880-giant-crocodile	5
+ Giant Crocodile	beast	Beast	Monster Manual (2024)	2024 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/5195016-giant-crocodile	5
+ Giant Crocodile	beast	Animal	Revised v3.5 SRD (Monsters)	3.5 edition	Wizards of the Coast		4

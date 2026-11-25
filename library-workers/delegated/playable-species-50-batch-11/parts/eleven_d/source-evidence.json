@@ -1,0 +1,132 @@
+[
+  {
+    "name": "Elk",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Beast",
+    "url": "",
+    "rulesReadUrl": "",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "page": "v2 pp. 230–231, with Giant Elk cross-reference p. 236, Elk Traits.",
+    "printedPages": [
+      230,
+      231,
+      236
+    ],
+    "heading": "Elk Traits",
+    "provenance": "Tyler Kamstra's Monstrous Races v2 player conversion for the 2014 fifth-edition rules.",
+    "sourceDistinctions": [
+      "Giant Elk explicitly refers back to Elk rather than providing another player race. This NPC uses the base Elk. Both forms use the Medium player block.",
+      "The 2014 rules treat unarmed strikes as melee weapon attacks, so the Strength-based ram qualifies for Charge. Knockdown uses a separate bonus action and a contested shove."
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "spellRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "originsRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background"
+  },
+  {
+    "name": "Giant Badger",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Beast",
+    "url": "",
+    "rulesReadUrl": "",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "page": "v2 p. 232, Giant Badger Traits.",
+    "printedPages": [
+      232
+    ],
+    "heading": "Giant Badger Traits",
+    "provenance": "Tyler Kamstra's Monstrous Races v2 player conversion for the 2014 fifth-edition rules.",
+    "sourceDistinctions": [
+      "The design notes mention No Hands, but the printed Giant Badger player traits omit that rule. The NPC uses no weapons, shields, or other hand-dependent gear.",
+      "Badger has its own distinct player trait block. The giant build uses the Strength and Constitution increases printed on p. 232."
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "spellRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "originsRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background"
+  },
+  {
+    "name": "Giant Bat",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Beast",
+    "url": "",
+    "rulesReadUrl": "",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "page": "v2 p. 233, Giant Bat Traits.",
+    "printedPages": [
+      233
+    ],
+    "heading": "Giant Bat Traits",
+    "provenance": "Tyler Kamstra's Monstrous Races v2 player conversion for the 2014 fifth-edition rules.",
+    "sourceDistinctions": [
+      "The printed trait block sets the bite die to 1d8. The design notes say 1d6.",
+      "Bat's separate trait block supplies no rules to this Giant Bat build."
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "spellRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "originsRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background"
+  },
+  {
+    "name": "Giant Crab",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Beast",
+    "url": "",
+    "rulesReadUrl": "",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "page": "v2 pp. 234–235, Giant Crab Traits.",
+    "printedPages": [
+      234,
+      235
+    ],
+    "heading": "Giant Crab Traits",
+    "provenance": "Tyler Kamstra's Monstrous Races v2 player conversion for the 2014 fifth-edition rules.",
+    "sourceDistinctions": [
+      "The printed Claw grants finesse but omits the encounter giant crab's automatic grapple. Crab has a different player block.",
+      "The monk uses the 1d6 piercing claw on the Attack action. Under the supplement's p. 7 clarification, the Martial Arts bonus strike uses a kick with the monk die for bludgeoning."
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "spellRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "originsRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background"
+  },
+  {
+    "name": "Giant Goat",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Beast",
+    "url": "",
+    "rulesReadUrl": "",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "page": "v2 p. 237, with Goat cross-reference p. 248, Giant Goat Traits.",
+    "printedPages": [
+      237,
+      248
+    ],
+    "heading": "Giant Goat Traits",
+    "provenance": "Tyler Kamstra's Monstrous Races v2 player conversion for the 2014 fifth-edition rules.",
+    "sourceDistinctions": [
+      "Goat explicitly refers to Giant Goat. This is a single player trait block and the worked character is the Giant Goat.",
+      "The 2014 unarmed ram is a melee weapon attack and can trigger Charge. The player version lacks the encounter Giant Goat's forced-prone rider.",
+      "The source's p. 8 permits form-appropriate somatic components. The druid prepares spells with no material components."
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "spellRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "originsRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background"
+  }
+]

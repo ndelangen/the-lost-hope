@@ -1,0 +1,185 @@
+[
+  {
+    "name": "Goat, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "publisher": "Kobold Press / Open Design LLC",
+    "printing": "Monster Vault ©2024, licensed Spanish edition Cubil de Monstruos ©2025",
+    "spanishHeading": "Cabra, Gigante",
+    "witnessTitle": "Cubil de Monstruos",
+    "witnessLanguage": "Spanish",
+    "witnessLicense": "Licensed Spanish edition published by Nosolorol Ediciones.",
+    "translationPublisher": "Nosolorol Ediciones",
+    "translator": "Andrea Iglesias",
+    "isbn": "979-13-87882-04-4",
+    "printedPages": [
+      338
+    ],
+    "pdfPages": [
+      340
+    ],
+    "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "xpTablePrintedPage": 17,
+    "url": "https://www.nosolorol.com/talesofthevaliant",
+    "rulesUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "errataUrl": "https://koboldpress.com/errata/",
+    "catalogEvidence": "Kobold Press English catalog confirms name, size, type, habitat and the catalog CR of 0.5. Fractional challenge ratings come from the Spanish print.",
+    "terminologyUrl": "",
+    "appearanceSource": "Editorial description of the reused portrait.",
+    "habitatSource": "Kobold Press English catalog row for the scoped Monster Vault entry.",
+    "artGroup": "giant-goat",
+    "portraitSha256": "45321fd1c552698a553455a5a226f10c2220a57d892bec18c5eb5c7c845450ce",
+    "sourceDistinctions": [
+      "Charge and Terrifying Scream occupy the top of the right column on printed p. 338. The scream’s 24-hour protection applies after the creature was frightened.",
+      "The dated May 29, 2025 Monster Vault errata has no entry for this profile."
+    ]
+  },
+  {
+    "name": "Hawk",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "publisher": "Kobold Press / Open Design LLC",
+    "printing": "Monster Vault ©2024, licensed Spanish edition Cubil de Monstruos ©2025",
+    "spanishHeading": "Halcón",
+    "witnessTitle": "Cubil de Monstruos",
+    "witnessLanguage": "Spanish",
+    "witnessLicense": "Licensed Spanish edition published by Nosolorol Ediciones.",
+    "translationPublisher": "Nosolorol Ediciones",
+    "translator": "Andrea Iglesias",
+    "isbn": "979-13-87882-04-4",
+    "printedPages": [
+      342
+    ],
+    "pdfPages": [
+      344
+    ],
+    "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "xpTablePrintedPage": 17,
+    "url": "https://www.nosolorol.com/talesofthevaliant",
+    "rulesUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "errataUrl": "https://koboldpress.com/errata/",
+    "catalogEvidence": "Kobold Press English catalog confirms name, size, type, habitat and the catalog CR of 0.0. Fractional challenge ratings come from the Spanish print.",
+    "terminologyUrl": "",
+    "appearanceSource": "Editorial description of the reused portrait.",
+    "habitatSource": "Kobold Press English catalog row for the scoped Monster Vault entry.",
+    "artGroup": "hawk",
+    "portraitSha256": "1ca7918af66d2f5b9784b5b444f91740c758abed387ba9880040743bc2c3fa96",
+    "sourceDistinctions": [
+      "The heading and fixed scores are at the foot of the left column. The modifiers, trait, attack, and bonus action continue at the top of the right column.",
+      "The dated May 29, 2025 Monster Vault errata has no entry for this profile."
+    ]
+  },
+  {
+    "name": "Hawk, Blood",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "publisher": "Kobold Press / Open Design LLC",
+    "printing": "Monster Vault ©2024, licensed Spanish edition Cubil de Monstruos ©2025",
+    "spanishHeading": "Halcón, Sangriento",
+    "witnessTitle": "Cubil de Monstruos",
+    "witnessLanguage": "Spanish",
+    "witnessLicense": "Licensed Spanish edition published by Nosolorol Ediciones.",
+    "translationPublisher": "Nosolorol Ediciones",
+    "translator": "Andrea Iglesias",
+    "isbn": "979-13-87882-04-4",
+    "printedPages": [
+      342
+    ],
+    "pdfPages": [
+      344
+    ],
+    "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "xpTablePrintedPage": 17,
+    "url": "https://www.nosolorol.com/talesofthevaliant",
+    "rulesUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "errataUrl": "https://koboldpress.com/errata/",
+    "catalogEvidence": "Kobold Press English catalog confirms name, size, type, habitat and the catalog CR of 0.1. Fractional challenge ratings come from the Spanish print.",
+    "terminologyUrl": "",
+    "appearanceSource": "Editorial description of the reused portrait.",
+    "habitatSource": "Kobold Press English catalog row for the scoped Monster Vault entry.",
+    "artGroup": "blood-hawk",
+    "portraitSha256": "c77a0ce92dc5da93b70bca9b33d98d051395898ab90f48b9e6039183738b3d0f",
+    "sourceDistinctions": [
+      "The book prints CR 1/8. The catalog rounds it to 0.1.",
+      "The same Evasive Flight bonus action appears in both hawk profiles.",
+      "The dated May 29, 2025 Monster Vault errata has no entry for this profile."
+    ]
+  },
+  {
+    "name": "Hippocampus",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "publisher": "Kobold Press / Open Design LLC",
+    "printing": "Monster Vault ©2024, licensed Spanish edition Cubil de Monstruos ©2025",
+    "spanishHeading": "Hipocampo",
+    "witnessTitle": "Cubil de Monstruos",
+    "witnessLanguage": "Spanish",
+    "witnessLicense": "Licensed Spanish edition published by Nosolorol Ediciones.",
+    "translationPublisher": "Nosolorol Ediciones",
+    "translator": "Andrea Iglesias",
+    "isbn": "979-13-87882-04-4",
+    "printedPages": [
+      229
+    ],
+    "pdfPages": [
+      231
+    ],
+    "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "xpTablePrintedPage": 17,
+    "url": "https://www.nosolorol.com/talesofthevaliant",
+    "rulesUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "errataUrl": "https://koboldpress.com/errata/",
+    "catalogEvidence": "Kobold Press English catalog confirms name, size, type, habitat and the catalog CR of 1.0. Fractional challenge ratings come from the Spanish print.",
+    "appearanceSource": "Editorial description of the reused portrait. Horse front and fish tail also appear in the printed text.",
+    "habitatSource": "Kobold Press English catalog row for the scoped Monster Vault entry.",
+    "artGroup": "hippocampus",
+    "portraitSha256": "92d835bad956a8a6f483042f9a70f1acfd5fbc14e46106c439960a0a53f5fdbd",
+    "sourceDistinctions": [
+      "The Spanish print gives no numerical threshold for high-speed travel in Shared Breathing.",
+      "Bite targets one creature. Tail Slap targets one target. Rearing Kick targets a visible creature and calls for a save as a bonus action. On a failure, the hippocampus chooses one effect.",
+      "The dated May 29, 2025 Monster Vault errata has no entry for this profile.",
+      "The reused portrait has saturated orange parchment. Its head and fin sit close to the circular crop edge."
+    ]
+  },
+  {
+    "name": "Horse, Draft",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "publisher": "Kobold Press / Open Design LLC",
+    "printing": "Monster Vault ©2024, licensed Spanish edition Cubil de Monstruos ©2025",
+    "spanishHeading": "Caballo, tiro",
+    "witnessTitle": "Cubil de Monstruos",
+    "witnessLanguage": "Spanish",
+    "witnessLicense": "Licensed Spanish edition published by Nosolorol Ediciones.",
+    "translationPublisher": "Nosolorol Ediciones",
+    "translator": "Andrea Iglesias",
+    "isbn": "979-13-87882-04-4",
+    "printedPages": [
+      338
+    ],
+    "pdfPages": [
+      340
+    ],
+    "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "xpTablePrintedPage": 17,
+    "url": "https://www.nosolorol.com/talesofthevaliant",
+    "rulesUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "errataUrl": "https://koboldpress.com/errata/",
+    "catalogEvidence": "Kobold Press English catalog confirms name, size, type, habitat and the catalog CR of 0.3. Fractional challenge ratings come from the Spanish print.",
+    "terminologyUrl": "",
+    "appearanceSource": "Editorial description of the reused portrait.",
+    "habitatSource": "Kobold Press English catalog row for the scoped Monster Vault entry.",
+    "artGroup": "draft-horse",
+    "portraitSha256": "34a08aa6cfebeeb61e19354c3043810ee503834b10b41461686f95208b2faa9c",
+    "sourceDistinctions": [
+      "The book prints CR 1/4. The catalog rounds it to 0.3.",
+      "The title over the block is Caballo, tiro. The same book’s CR list calls it Caballo, de tiro.",
+      "The dated May 29, 2025 Monster Vault errata has no entry for this profile."
+    ]
+  }
+]

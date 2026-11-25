@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Half-Giant",
+    "species": "species-41cbe8d3b2075cf80ecd14b0",
+    "edition": "3.5 edition",
+    "profiles": [
+      "Expanded Psionics Handbook (2004)"
+    ],
+    "portraitSha256": "fd40cbd6f749c001dccf9a57ade1e14eb4c5cf491b8aba2a07b050d062af6e10",
+    "caption": "Anet Copperstep · Original Half-Giant NPC",
+    "npcReceipts": [
+      {
+        "name": "Anet Copperstep",
+        "id": "npc-0896a91f97d1309f966c1c93",
+        "challenge": "Provisional CR 1. ECL 2."
+      },
+      {
+        "name": "Nadi Flintwell",
+        "id": "npc-5b84239f77b0cf8bfa06cc61",
+        "challenge": "Provisional CR 1. ECL 2."
+      }
+    ]
+  }
+]

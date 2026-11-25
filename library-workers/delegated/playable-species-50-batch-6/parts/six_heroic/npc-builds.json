@@ -1,0 +1,182 @@
+{
+  "builds": [
+    {
+      "id": "heroic-android-eda-venn",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "size": "Medium",
+      "type": "Humanoid",
+      "speed": "35 ft.",
+      "title": "Alchemical android records examiner, Wizard 1",
+      "difficulty": "Wizard 1",
+      "ac": 12,
+      "hp": 7,
+      "hitDice": "1d6+1",
+      "initiative": 2,
+      "senses": "Darkvision 60 ft., passive Perception 13.",
+      "languages": "Common, Dwarvish and Draconic.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 15,
+        "CON": 13,
+        "INT": 17,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Arcana +5",
+        "History +5",
+        "Insight +3",
+        "Investigation +5",
+        "Perception +3"
+      ],
+      "traits": [
+        "Proficiency +2. Saving throws Strength −1, Dexterity +2, Constitution +1, Intelligence +5, Wisdom +3, Charisma +0.",
+        "Exceptional Senses grants Perception. Alchemical android grants 35-ft. walking speed and proficiency with glassblower's tools. Android Combat Training grants longbow proficiency. Constructed grants advantage on saves against enchantment spells and effects that deal poison damage or impose the poisoned condition.",
+        "Wizard skills are Insight and Investigation. Sage grants Arcana, History, Dwarvish, Draconic and Researcher. When she lacks a piece of information, Researcher helps her identify where or from whom it can be obtained, subject to the DM.",
+        "Spellcasting uses Intelligence. Spell save DC 13 and spell attack +5. Two 1st-level spell slots. Mage armor, magic missile, shield and fog cloud are prepared. Detect magic and comprehend languages are also in her book and are available as rituals. She carries a component pouch and frees a hand to cast.",
+        "Arcane Recovery. Once per day after a short rest, recover one spent 1st-level slot.",
+        "Starting AC is 12 before mage armor. Wearing no armor, mage armor makes it 15 for eight hours and costs one slot."
+      ],
+      "actions": [
+        "Longbow. Ranged weapon attack +4 to hit, range 150/600 ft., one target. Hit 1d8+2 piercing. The bow requires two hands to shoot.",
+        "Dagger. Melee or thrown weapon attack +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit 1d4+2 piercing.",
+        "Fire Bolt. Action, 120 ft. Make a ranged spell attack +5 against a creature or object. Hit 1d10 fire. A flammable object ignites if it is neither worn nor carried.",
+        "Mage Hand. Action, 30 ft. The hand lasts up to one minute and can carry up to 10 lb. Use an action to manipulate objects with it and move it up to 30 ft. It vanishes if more than 30 ft. from Eda.",
+        "Minor Illusion. Action, 30 ft. Create a sound or a still image of an object no larger than a 5-ft. cube for one minute. A creature can use an action to identify the illusion with a DC 13 Intelligence (Investigation) check. Physical interaction reveals an illusory image.",
+        "Magic Missile (one 1st-level slot). Action, 120 ft. Three darts strike visible creatures simultaneously, each dealing 1d4+1 force. Assign all three to one target or split them.",
+        "Fog Cloud (one 1st-level slot). Action, 120 ft. Create a 20-ft.-radius, heavily obscured sphere for up to an hour with concentration. Moderate or stronger wind disperses it.",
+        "Shield (reaction, one 1st-level slot). When hit by an attack or targeted by magic missile, gain +5 AC through the start of her next turn, including against the triggering attack, and take no damage from magic missile."
+      ],
+      "tactics": "Eda keeps her distance and spends a slot on fog if witnesses need cover. If she cast mage armor before the encounter, she starts with one slot left. She keeps that last slot for shield if the party can get out under its own power."
+    },
+    {
+      "id": "heroic-gillfolk-mara-shoal",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "size": "Medium",
+      "type": "Humanoid",
+      "speed": "30 ft., swim 30 ft.",
+      "title": "Deep sea gillfolk cistern guard, Fighter 2",
+      "difficulty": "Fighter 2",
+      "ac": 15,
+      "hp": 20,
+      "hitDice": "2d10+4",
+      "initiative": 1,
+      "senses": "Darkvision 120 ft., passive Perception 13 or 8 when daylight sensitivity imposes disadvantage.",
+      "languages": "Common and Deep Speech.",
+      "abilityScores": {
+        "STR": 17,
+        "DEX": 12,
+        "CON": 15,
+        "INT": 8,
+        "WIS": 13,
+        "CHA": 10
+      },
+      "skills": [
+        "Acrobatics +3",
+        "Athletics +5",
+        "Insight +3",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "traits": [
+        "Proficiency +2. Saving throws Strength +5, Dexterity +1, Constitution +4, Intelligence −1, Wisdom +1, Charisma +0. Leather armor, Dexterity +1, shield +2 and Defense +1 give AC 15.",
+        "Amphibious. Water Born requires at least an hour of full submersion in fresh or salt water each day. Relevant attack and ability-check rolls made as part of actions have disadvantage for the affected day if Mara goes more than a day without the required immersion. She submerged before this encounter.",
+        "Deep Sea Gillfolk grants 120-ft. darkvision and cold resistance. Mara has advantage on applicable saves against cold. Direct sunlight on Mara, a target or the thing she is trying to see imposes disadvantage on attack rolls and sight-related Wisdom (Perception) checks.",
+        "Gillfolk grant Athletics plus net, spear and trident proficiency. Choose Acrobatics in place of Sailor's duplicate Athletics. Sailor also supplies Perception, navigator's tools, water vehicles and Ship's Passage. Fighter skills are Insight and Survival."
+      ],
+      "actions": [
+        "Trident. Melee or thrown weapon attack +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit 1d6+3 piercing one-handed with the shield. When thrown underwater, any shot beyond normal range misses.",
+        "Second Wind (bonus action, once per short or long rest). Regain 1d10+2 HP up to her maximum.",
+        "Action Surge (once per short or long rest). Take one additional action on her turn."
+      ],
+      "tactics": "Mara keeps her shield up and draws attackers into the flooded passage where her trident is easy to use. She saves Action Surge for two actions on the turn she needs to shut the cistern gate."
+    },
+    {
+      "id": "heroic-tengu-pell-inkclaw",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "size": "Medium",
+      "type": "Humanoid",
+      "speed": "30 ft.",
+      "title": "Cosmopolitan tengu interpreter, Rogue 2",
+      "difficulty": "Rogue 2",
+      "ac": 14,
+      "hp": 15,
+      "hitDice": "2d8+2",
+      "initiative": 3,
+      "senses": "Darkvision 60 ft., passive Perception 13.",
+      "languages": "Common, Tengu, Dwarvish, Draconic, Elvish and thieves' cant.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 17,
+        "CON": 13,
+        "INT": 15,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Insight +3",
+        "Investigation +6",
+        "Perception +3",
+        "Persuasion +2",
+        "Sleight of Hand +5",
+        "Stealth +7"
+      ],
+      "traits": [
+        "Proficiency +2. Saving throws Strength −1, Dexterity +5, Constitution +1, Intelligence +4, Wisdom +1, Charisma +0. Leather armor plus Dexterity gives AC 14.",
+        "Tengu grant dagger, rapier and shortsword proficiencies. Dwarvish is his base tengu language choice. Cosmopolitan tengu grants Draconic and advantage on attempts to grasp the gist of unfamiliar languages he reads or hears. Once per day Gifted Linguist grants proficiency with any one set of artisan's tools for a single check.",
+        "Rogue provides Perception, Investigation, Stealth, Sleight of Hand and thieves' tools. Expertise applies to Investigation and Stealth. Guild Artisan adds Insight, Persuasion, calligrapher's supplies, Elvish and Guild Membership.",
+        "Sneak Attack. Once per turn add 1d6 damage to a hit with a finesse or ranged weapon if he has advantage, or if another enemy of the target is within 5 ft. of the target and is not incapacitated, provided Pell has no disadvantage."
+      ],
+      "actions": [
+        "Rapier. Melee weapon attack +5 to hit, reach 5 ft., one target. Hit 1d8+3 piercing.",
+        "Dagger. Melee or thrown weapon attack +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit 1d4+3 piercing.",
+        "Cunning Action (bonus action). Dash, Disengage or Hide."
+      ],
+      "tactics": "Pell uses Cunning Action to slip out of reach. He strikes with his rapier when an ally has the target occupied and leaves room for the party to retreat. He stops fighting once he can get the disputed note to safety."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Eda Venn",
+      "species": "Android",
+      "size": "Medium",
+      "speciesPublication": "Book of Heroic Races: Player Races 2",
+      "edition": "Fifth edition compatible",
+      "build": "heroic-android-eda-venn",
+      "role": "Alchemical android wizard who checks old survey records.",
+      "motive": "Recover an erased land survey before the disputed quarry opens again.",
+      "hook": "Fresh ink covers two boundary stones on the only survey. Eda can identify where to find the original, but the quarry starts taking deliveries at dawn."
+    },
+    {
+      "name": "Mara Shoal",
+      "species": "Gillfolk",
+      "size": "Medium",
+      "speciesPublication": "Book of Heroic Races: Player Races 2",
+      "edition": "Fifth edition compatible",
+      "build": "heroic-gillfolk-mara-shoal",
+      "role": "Deep sea gillfolk fighter guarding an underground cistern.",
+      "motive": "Close a sluice before the next tide carries the cistern's water into a dry well.",
+      "hook": "Mara needs someone on the other side of the flooded passage to hold a counterweight while she closes the gate."
+    },
+    {
+      "name": "Pell Inkclaw",
+      "species": "Tengu",
+      "size": "Medium",
+      "speciesPublication": "Book of Heroic Races: Player Races 1 (2015)",
+      "edition": "Fifth edition compatible",
+      "build": "heroic-tengu-pell-inkclaw",
+      "role": "Cosmopolitan tengu rogue who interprets for a merchants' guild.",
+      "motive": "Deliver a note that proves a translator changed the terms of a relief shipment.",
+      "hook": "Pell can read enough of the original to spot the change. He asks for an escort while he carries it to someone fluent in the language."
+    }
+  ]
+}

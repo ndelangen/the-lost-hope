@@ -1,0 +1,116 @@
+[
+  {
+    "name": "Darfellan",
+    "kind": "species",
+    "group": "3.5 edition",
+    "groups": [
+      "3.5 edition"
+    ],
+    "global": true,
+    "version": {
+      "key": "0035635035c37916ca3f05a4",
+      "publication": "Stormwrack (2005)",
+      "edition": "3.5 edition",
+      "source": "https://books.google.com/books/about/Stormwrack.html?id=ENyiPwAACAAJ",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Humanoid (Darfellan)"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Medium Humanoid (Darfellan). +2 Strength, −2 Dexterity. Land speed 20 ft., swim speed 40 ft. LA +0 and advancement by character class.",
+            "Swim speed grants +8 racial on Swim checks to perform special actions or avoid hazards. Take 10 even when distracted or endangered. A swimming run follows a straight line.",
+            "Echolocation grants blindsense 20 ft. in water, confined to the water. It locates creatures without removing concealment.",
+            "Hold Breath (Ex) allows 8 × Constitution score rounds before checks to avoid drowning are required. Constitution 12 gives 96 rounds. Darfellans breathe air.",
+            "Natural bite deals 1d6. When the bite is the sole primary natural weapon, add 1½ times the Strength bonus. An armed full attack can add one secondary bite at −5 to the attack roll and half the Strength bonus to damage. Extra attacks from base attack bonus apply only to the primary weapon.",
+            "Racial Hatred adds +2 to attack and damage rolls against sahuagin.",
+            "Darfellan is automatic. Aquan and Common are bonus languages. Favored class Barbarian.",
+            "Page 144 adds a +4 racial bonus on Handle Animal checks with marine mammals in its combat text. The p. 37 and p. 144 player trait lists omit this bonus."
+          ]
+        },
+        {
+          "title": "Original NPC · Oru Breakwater",
+          "lines": [
+            "Sea-cave guide and Barbarian.",
+            "Motive. Reach the stranded gatherers before the tide closes the cave.",
+            "Hook. Oru can listen for movement through the flooded cave mouth.",
+            "Darfellan sea-cave guide, Barbarian 1 · Provisional CR 1. ECL 1 (1 class HD, LA +0). · Medium Humanoid (Darfellan)",
+            "AC 13 · HP 15 (1d12+3) · Speed 30 ft., swim 40 ft."
+          ]
+        },
+        {
+          "title": "Original NPC · Tava Ebbgate",
+          "lines": [
+            "Shoal guard and Fighter.",
+            "Motive. Guide the rope team safely across the channel.",
+            "Hook. Tava has found a rock ledge where the team can get out of the water.",
+            "Darfellan shoal guard, Fighter 1 · Provisional CR 1. ECL 1 (1 class HD, LA +0). · Medium Humanoid (Darfellan)",
+            "AC 13 · HP 12 (1d10+2) · Speed 20 ft., swim 40 ft."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Oru Breakwater": [
+          {
+            "start": 15,
+            "end": 29,
+            "target": {
+              "name": "Oru Breakwater",
+              "group": "Darfellan",
+              "publication": "Darfellan sea-cave guide, Barbarian 1",
+              "local": {
+                "entry": "npc-cd9ea96f584917873c67c0cb",
+                "version": "5ece7065fb98cef45c9fd927"
+              }
+            }
+          }
+        ],
+        "Original NPC · Tava Ebbgate": [
+          {
+            "start": 15,
+            "end": 27,
+            "target": {
+              "name": "Tava Ebbgate",
+              "group": "Darfellan",
+              "publication": "Darfellan shoal guard, Fighter 1",
+              "local": {
+                "entry": "npc-75109664f2caefb21aa68d98",
+                "version": "19f0615aefe345d4ac9be3e7"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Darfellan": true,
+      "darfellan hold breath": true,
+      "darfellan echolocation": true,
+      "darfellan sea-cave guide": true,
+      "darfellan shoal guard": true
+    },
+    "hash": "9dd574d731c6c88c52e9f5404c58c5d344e781aa63ee535030f241d8c6c2327b",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Stormwrack (2005)",
+    "defaultVersionKey": "0035635035c37916ca3f05a4",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  }
+]

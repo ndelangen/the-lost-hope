@@ -1,0 +1,134 @@
+[
+  {
+    "name": "Camel, Cavalry",
+    "printedName": "Cavalry Camel",
+    "entryId": "beast-a6a8333a8f15784c93b7c37d",
+    "versionKey": "4d79fa7c05f68dae55936e72",
+    "publication": "Player's Guide 2",
+    "edition": "Black Flag Roleplaying",
+    "sourceUrl": "https://www.scribd.com/document/1015989165/ToV-Players-Guide-2",
+    "publisherUrl": "",
+    "sourceISBN": "978-1-964506-24-1",
+    "sourceMedium": "Publisher-authored first-printing book text via third-party extraction.",
+    "printedPages": [
+      142,
+      143
+    ],
+    "habitatTags": [
+      "Badlands",
+      "Desert",
+      "Hills"
+    ],
+    "habitatUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "printedCR": "1/2",
+    "indexCR": "0.5",
+    "searchAppearance": "studded leather barding",
+    "portraitDraft": "cavalry-camel"
+  },
+  {
+    "name": "Hound, Hunting",
+    "printedName": "Hunting Hound",
+    "entryId": "beast-fb478e8c798f2eee5ba2e26f",
+    "versionKey": "ead3d069a28db4b74aa91ccd",
+    "publication": "Player's Guide 2",
+    "edition": "Black Flag Roleplaying",
+    "sourceUrl": "https://www.scribd.com/document/1015989165/ToV-Players-Guide-2",
+    "publisherUrl": "",
+    "sourceISBN": "978-1-964506-24-1",
+    "sourceMedium": "Publisher-authored first-printing book text via third-party extraction.",
+    "printedPages": [
+      142,
+      144
+    ],
+    "habitatTags": [
+      "Any",
+      "Urban"
+    ],
+    "habitatUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "printedCR": "1/4",
+    "indexCR": "0.3",
+    "searchAppearance": "small scent hound",
+    "portraitDraft": "hunting-hound"
+  },
+  {
+    "name": "Oliphant Warbeast",
+    "printedName": "Oliphaunt Warbeast",
+    "entryId": "beast-62059d921279d86f24ede4c5",
+    "versionKey": "3ada03a4bd438f88402f0685",
+    "publication": "Player's Guide 2",
+    "edition": "Black Flag Roleplaying",
+    "sourceUrl": "https://www.scribd.com/document/1015989165/ToV-Players-Guide-2",
+    "publisherUrl": "",
+    "sourceISBN": "978-1-964506-24-1",
+    "sourceMedium": "Publisher-authored first-printing book text via third-party extraction.",
+    "printedPages": [
+      142,
+      144
+    ],
+    "habitatTags": [
+      "Arctic",
+      "Badlands",
+      "Forest",
+      "Grassland",
+      "Hills"
+    ],
+    "habitatUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "printedCR": "6",
+    "indexCR": "6.0",
+    "searchAppearance": "four curved tusks",
+    "portraitDraft": "oliphant-warbeast"
+  },
+  {
+    "name": "Pig, War",
+    "printedName": "War Pig",
+    "entryId": "beast-3905d2fb20251aaacfbbc145",
+    "versionKey": "f84af1c5b308c3ca512861a6",
+    "publication": "Player's Guide 2",
+    "edition": "Black Flag Roleplaying",
+    "sourceUrl": "https://www.scribd.com/document/1015989165/ToV-Players-Guide-2",
+    "publisherUrl": "",
+    "sourceISBN": "978-1-964506-24-1",
+    "sourceMedium": "Publisher-authored first-printing book text via third-party extraction.",
+    "printedPages": [
+      142,
+      144,
+      145
+    ],
+    "habitatTags": [
+      "Badlands",
+      "Forest",
+      "Grassland",
+      "Hills"
+    ],
+    "habitatUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "printedCR": "1/2",
+    "indexCR": "0.5",
+    "searchAppearance": "curved tusks",
+    "portraitDraft": "war-pig"
+  },
+  {
+    "name": "Pigeon, Homing",
+    "printedName": "Homing Pigeon",
+    "entryId": "beast-57e8e7ab6a22e3277dc7defe",
+    "versionKey": "46b46146b25de417cff99c0c",
+    "publication": "Player's Guide 2",
+    "edition": "Black Flag Roleplaying",
+    "sourceUrl": "https://www.scribd.com/document/1015989165/ToV-Players-Guide-2",
+    "publisherUrl": "",
+    "sourceISBN": "978-1-964506-24-1",
+    "sourceMedium": "Publisher-authored first-printing book text via third-party extraction.",
+    "printedPages": [
+      142,
+      143
+    ],
+    "habitatTags": [
+      "Any",
+      "Urban"
+    ],
+    "habitatUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "printedCR": "0",
+    "indexCR": "0.0",
+    "searchAppearance": "tube fixed to its leg",
+    "portraitDraft": "homing-pigeon"
+  }
+]

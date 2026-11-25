@@ -1,0 +1,323 @@
+[
+  {
+    "name": "Black Bear",
+    "publication": "DDAL04-03 - The Executioner",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 11,
+    "hp": 19,
+    "hitDice": "3d8 + 6",
+    "speed": "40 ft., climb 30 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Natural armor. Perception +3. Passive Perception 13. Languages none.",
+    "appearance": "A lean black bear with round ears, a pale muzzle and a narrow, hollow flank.",
+    "habitats": [
+      "Forest",
+      "Orașnou"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, DDAL04-03 The Executioner, p. 23.",
+      "Traits": "Keen Smell. The bear has advantage on Wisdom (Perception) checks that rely on smell.",
+      "Actions": "Multiattack. Make one Bite and one Claws attack.\nBite. Make a melee weapon attack at +3 against one target within 5 ft. A hit deals 5 (1d6 + 2) piercing damage.\nClaws. Make a melee weapon attack at +3 against one target within 5 ft. A hit deals 7 (2d4 + 2) slashing damage.",
+      "Encounter": "On 13–15 on the Orașnou encounter table, an emaciated black bear emerges from the forest looking for food. The creature block lists CR 1/2 and 100 XP. The adventure’s combat rewards table assigns 200 XP per black bear."
+    }
+  },
+  {
+    "name": "Blood Hawk",
+    "publication": "DDAL04-03 - The Executioner",
+    "edition": "2014 fifth edition",
+    "classification": "Small Beast, unaligned",
+    "ac": 12,
+    "hp": 7,
+    "hitDice": "2d6",
+    "speed": "10 ft., fly 60 ft.",
+    "cr": "1/8",
+    "xp": 25,
+    "abilities": {
+      "Str": {
+        "score": 6,
+        "modifier": -2
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Perception +4. Passive Perception 14. Languages none.",
+    "appearance": "A rust-red hawk with a hooked beak, cream underparts and a banded tail.",
+    "habitats": [
+      "Forest",
+      "Orașnou"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, DDAL04-03 The Executioner, p. 23.",
+      "Traits": "Keen Hearing and Smell. The hawk has advantage on Wisdom (Perception) checks that rely on sight.\nPack Tactics. The hawk has advantage on an attack roll against a creature if an ally within 5 ft. of that creature is free of the Incapacitated condition.",
+      "Actions": "Beak. Make a melee weapon attack at +4 against one target within 5 ft. A hit deals 4 (1d4 + 2) piercing damage.",
+      "Print note": "The printed feature heading reads Keen Hearing and Smell. The rule grants advantage on sight checks.",
+      "Encounter": "On 1–3 on the Orașnou encounter table, 1d4 blood hawks swoop in and attack."
+    }
+  },
+  {
+    "name": "Blood Hawk",
+    "publication": "DDAL04-02 - The Beast",
+    "edition": "2014 fifth edition",
+    "classification": "Small Beast, unaligned",
+    "ac": 12,
+    "hp": 7,
+    "hitDice": "2d6",
+    "speed": "10 ft., fly 60 ft.",
+    "cr": "1/8",
+    "xp": 25,
+    "abilities": {
+      "Str": {
+        "score": 6,
+        "modifier": -2
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Perception +4. Passive Perception 14. Languages none.",
+    "appearance": "A rust-red hawk with a hooked beak, cream underparts and a banded tail.",
+    "habitats": [
+      "Forest",
+      "Quivering Forest"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, DDAL04-02 The Beast, p. 27.",
+      "Traits": "Keen Hearing and Smell. The hawk has advantage on Wisdom (Perception) checks that rely on sight.\nPack Tactics. The hawk has advantage on an attack roll against a creature if an ally within 5 ft. of that creature is free of the Incapacitated condition.",
+      "Actions": "Beak. Make a melee weapon attack at +4 against one target within 5 ft. A hit deals 4 (1d4 + 2) piercing damage.",
+      "Print note": "The printed feature heading reads Keen Hearing and Smell. The rule grants advantage on sight checks.",
+      "Encounter": "Six blood hawks nest in hardy maples. They do not pursue when the party retreats more than 50 ft. from the tree. Very weak and weak parties face four. Against a strong party the wind imposes disadvantage on ranged weapon attacks. A very strong party also faces two additional hawks."
+    }
+  },
+  {
+    "name": "Raven",
+    "publication": "DDAL04-03 - The Executioner",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 12,
+    "hp": 1,
+    "hitDice": "1d4 - 1",
+    "speed": "10 ft., fly 50 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Perception +3. Passive Perception 13. Languages none.",
+    "appearance": "A black raven with a heavy bill and dark plumage.",
+    "habitats": [
+      "Forest",
+      "Orașnou"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, DDAL04-03 The Executioner, p. 24.",
+      "Traits": "Mimicry. The raven can imitate simple sounds it has heard, including a whisper, a baby crying or an animal call. A listener recognizes the imitation on a successful DC 10 Wisdom (Insight) check.",
+      "Actions": "Beak. Make a melee weapon attack at +4 against one creature within 5 ft. A hit deals 1 piercing damage.",
+      "Encounter": "On 10–12 on the Orașnou encounter table, 1d10 ravens burst from a nearby copse and peck at the characters."
+    }
+  },
+  {
+    "name": "Dire Wolf",
+    "publication": "DDAL04-02 - The Beast",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 14,
+    "hp": 37,
+    "hitDice": "5d10 + 10",
+    "speed": "50 ft.",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Natural armor. Perception +3. Stealth +4. Passive Perception 13. Languages none.",
+    "appearance": "A large wolf with a heavy build, coarse gray fur and a broad muzzle.",
+    "habitats": [
+      "Forest",
+      "Wolf den",
+      "Quivering Forest"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, DDAL04-02 The Beast, p. 29.",
+      "Traits": "Keen Hearing and Smell. The wolf has advantage on Wisdom (Perception) checks that rely on sight or smell.\nPack Tactics. The wolf has advantage on an attack roll against a creature if one of its allies is within 5 ft. of that creature and the ally is free of the Incapacitated condition. The printed line names a vulture’s ally. This summary reads that reference as the wolf’s ally.",
+      "Actions": "Bite. Make a melee weapon attack at +4 against one target within 5 ft. A hit deals 10 (2d6 + 3) piercing damage. A creature hit must pass a DC 13 Strength save or fall Prone.",
+      "Encounter": "The wolf and Alina flank characters who look vulnerable or poorly armored. The very weak and weak encounter variants change the wolf roster on p. 22."
+    }
+  },
+  {
+    "name": "Elk",
+    "publication": "DDAL04-02 - The Beast",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 10,
+    "hp": 13,
+    "hitDice": "2d10 + 2",
+    "speed": "50 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Passive Perception 10. Languages none.",
+    "appearance": "A brown elk with long legs and branching antlers.",
+    "habitats": [
+      "Forest",
+      "Quivering Forest"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, DDAL04-02 The Beast, p. 29.",
+      "Traits": "Charge. If the elk moves at least 20 ft. straight toward a target and hits it with Ram on the same turn, the hit deals an extra 7 (2d6) damage. A creature hit must pass a DC 13 Strength save or fall Prone.",
+      "Actions": "Ram. Make a melee weapon attack at +5 against one target within 5 ft. A hit deals 6 (1d6 + 3) bludgeoning damage.\nHooves. Make a melee weapon attack at +5 against one target within 5 ft. A hit deals 8 (2d4 + 3) bludgeoning damage.",
+      "Encounter": "Zombies have killed one elk and cornered another. The surviving animal defends itself if approached and initially cannot distinguish intervening characters from its attackers without magical help. It flees at the first opportunity."
+    }
+  }
+]

@@ -1,0 +1,96 @@
+[
+  {
+    "name": "Forest Ray",
+    "printedName": "Ray, Forest",
+    "entryId": "beast-bb150c7e49a74d50ae28766c",
+    "versionKey": "5af22fb759e59f5af161b1a3",
+    "slug": "forest-ray",
+    "publisher": "TSR",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "printedPages": [
+      93,
+      94
+    ],
+    "viewerPages": [
+      94,
+      95
+    ],
+    "sourceUrl": "",
+    "publisherArt": "",
+    "publisherArtSha256": "66ec0b29fc76afcfde2608770479ca54860f52a9bbee159e23faffb6730d7797",
+    "challengeRating": null,
+    "challengeSystem": "AD&D 2e Hit Dice and XP",
+    "habitatSource": "Appendix climate and terrain or habitat text",
+    "appearanceSource": "Appendix description, checked against original artwork",
+    "searchAppearance": "A huge, flat flying ray",
+    "habitatTags": [
+      "Forest",
+      "Jungle",
+      "Heavy undergrowth"
+    ]
+  },
+  {
+    "name": "Saragón Lyra Bird",
+    "printedName": "Lyra Bird, Saragón",
+    "entryId": "beast-52b9049fe957b252372de646",
+    "versionKey": "8abf918ae61f3d734c12cb27",
+    "slug": "saragon-lyra-bird",
+    "publisher": "TSR",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "printedPages": [
+      71,
+      72
+    ],
+    "viewerPages": [
+      72,
+      73
+    ],
+    "sourceUrl": "",
+    "publisherArt": "",
+    "publisherArtSha256": "21287b54eccd5d056b9611645c51d3e698f33ef6832b41ae683c453ca4d63fb1",
+    "challengeRating": null,
+    "challengeSystem": "AD&D 2e Hit Dice and XP",
+    "habitatSource": "Appendix climate and terrain or habitat text",
+    "appearanceSource": "Appendix description, checked against original artwork",
+    "searchAppearance": "An iridescent, hummingbird-shaped songbird with",
+    "habitatTags": [
+      "Temperate plains",
+      "Subtropical plains"
+    ]
+  },
+  {
+    "name": "Skinwing",
+    "printedName": "Skinwing",
+    "entryId": "beast-3b1823c503946e765b442ebb",
+    "versionKey": "724976590eea5431d0d800eb",
+    "slug": "skinwing",
+    "publisher": "TSR",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "printedPages": [
+      96,
+      97
+    ],
+    "viewerPages": [
+      97,
+      98
+    ],
+    "sourceUrl": "",
+    "publisherArt": "",
+    "publisherArtSha256": "5cfa0908d6e47ac361996661221249d67889470c7751b180ace2b257326cf310",
+    "challengeRating": null,
+    "challengeSystem": "AD&D 2e Hit Dice and XP",
+    "habitatSource": "Appendix climate and terrain or habitat text",
+    "appearanceSource": "Appendix description, checked against original artwork",
+    "searchAppearance": "A reptilian flyer with a",
+    "habitatTags": [
+      "Tropical land",
+      "Subtropical land",
+      "Caves",
+      "Dark buildings",
+      "Dense forests"
+    ]
+  }
+]

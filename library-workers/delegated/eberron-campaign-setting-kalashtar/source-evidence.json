@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Kalashtar",
+    "kind": "species",
+    "publication": "Eberron Campaign Setting (2004)",
+    "edition": "3.5 edition",
+    "book": "Eberron Campaign Setting",
+    "authors": [
+      "Keith Baker",
+      "Bill Slavicsek",
+      "James Wyatt"
+    ],
+    "publisher": "Wizards of the Coast",
+    "firstPrinting": "June 2004",
+    "productCode": "620-86400-001-EN",
+    "isbn": "0-7869-3274-0",
+    "printedPages": {
+      "entry": 16,
+      "appearance": 17,
+      "playableTraits": [
+        17,
+        18
+      ],
+      "portrait": 18,
+      "halharanNarrative": 40
+    },
+    "pdfPages": {
+      "entry": 19,
+      "appearance": 20,
+      "playableTraits": [
+        20,
+        21
+      ],
+      "portrait": 21,
+      "halharanNarrative": 43
+    },
+    "primaryBookScan": "",
+    "primaryBookSha256": "1d1d1c83e7bba94f7e3e8967def180f564d339dedbd8e85b1abcc6bf48a98922",
+    "officialErrata": "",
+    "officialFaq": "https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP",
+    "printedArtCredit": "Beet, Kalashtar portrait p. 18, verified in the Wizards gallery.",
+    "sourceDistinctions": [
+      "In the original 2004 printing, Mindlink resolves at half Hit Dice, minimum 1, using the Expanded Psionics Handbook rules.",
+      "The setting book’s fallback is 30 ft. initial range and 1 round per character level. The psionics power uses close range and 10 minutes per manifester level.",
+      "The FAQ distinguishes the level of the racial ability from general manifester levels. The racial power-point reserve also exists without a psionic class."
+    ],
+    "entryId": "species-b5ae0cd362fa6223f4be9825",
+    "versionKey": "862199e9ca71c110931e9616",
+    "slug": "kalashtar",
+    "portraitSelection": "generated",
+    "portraitForm": "Seravakri, an original Kalashtar Telepath Psion",
+    "npcExamples": [
+      "Seravakri",
+      "Tarenkhad"
+    ]
+  }
+]

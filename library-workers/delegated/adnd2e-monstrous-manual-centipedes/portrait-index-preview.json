@@ -1,0 +1,34 @@
+[
+  {
+    "entry": "beast-fa94ec7c1493e83258752fbc",
+    "version": "6fa377c078a4b5b19e9791cb",
+    "name": "Giant Centipede",
+    "file": "images/adnd2e-monstrous-manual-centipedes/giant-centipede.png",
+    "sha256": "5e2e82268d4c3d9523235cfb88d61daed5c59796b33c88563701ec03105cb190",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-37485e75fd9f201a926953fb",
+    "version": "6d55031fa5eabac5eba54b7d",
+    "name": "Huge Centipede",
+    "file": "images/adnd2e-monstrous-manual-centipedes/huge-centipede.png",
+    "sha256": "79df2781c9e99983bb2c22808842cad9a757a94bb70c1d8bd036d9d398f31489",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-a8ce415937f6a4a69a87412c",
+    "version": "064e95a254ce5b93b0ee6434",
+    "name": "Megalo-centipede",
+    "file": "images/adnd2e-monstrous-manual-centipedes/megalo-centipede.png",
+    "sha256": "8e1b7064444b685a3bec7dc1470321b6a0fe3582ff6e98a6e7133fcf621742fa",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-d21f2d17767abcdeaecf6581",
+    "version": "130273145d14d4563b4aaae3",
+    "name": "Tunnel Worm",
+    "file": "images/adnd2e-monstrous-manual-centipedes/tunnel-worm.png",
+    "sha256": "a7589fb2e3126cb05d583dbed589276d8ef88aed330a59faee40250eff0d7068",
+    "credit": "OpenAI ImageGen"
+  }
+]

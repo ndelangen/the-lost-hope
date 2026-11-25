@@ -1,0 +1,89 @@
+[
+  {
+    "entry": "monster-4569d45d312c3f9483623a09",
+    "slug": "shadow-variant",
+    "name": "Shadow (Variant)",
+    "revision": "v1",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-23/event-drafts/shadow-variant-event-v1.png",
+    "saved": " Backups/Encounter Batch 23 2026-11-23/event-drafts/shadow-variant-event-v1.png",
+    "path": "encounters-23/shadow-variant.png",
+    "registeredPath": "assets/images/content/dm-library/the-wild-beyond-the-witchlight/shadow-variant.png",
+    "previous": {
+      "sha256": "abe8847e2821e974ac02ce300c3930f0e96b5553e2348bc19523002a4829e9b4",
+      "bytes": 2404721
+    },
+    "overrides": [
+      {
+        "entry": "monster-4569d45d312c3f9483623a09",
+        "name": "Shadow (Variant)",
+        "file": "images/monsters/shadow-variant/parchment-portrait.webp",
+        "sha256": "dc3b8e0acd63e4ef278cd148d439426fca01031a49a7c1f5cf088d85b3ecf6c5",
+        "credit": "OpenAI ImageGen",
+        "reference": "/shadow/mm-1.webp",
+        "appearanceSource": "The Wild Beyond the Witchlight",
+        "subjectPrompt": "The detached Fey shadow of a high elf carnival acrobat, shown in its own right. Slender evocative dark purple-black contoured silhouette in a light dancing pose, knees slightly bent and one hand pointed upwards. Subtle long pointed ears and a visibly crescent-shaped theatrical face mask picked in pale aged moon-silver, following the outline of her face. Streamlined costume and cape suggested only by shape, nearly flattened smoke-like darkness and a little trailing ink at feet. No human standing beside it, no skull face, no extra silhouettes.",
+        "style": "The Lost Hope square gouache and sepia parchment"
+      }
+    ],
+    "sha256": "693e768cc5b54ee56ee7327b5cd98f583c23f4cd3de805221bb9aed6c401b5b0",
+    "bytes": 2520557
+  },
+  {
+    "entry": "monster-4b8c6677d2143a18f663d39e",
+    "slug": "will-o-wisp-variant",
+    "name": "Will-o’-Wisp (Variant)",
+    "revision": "v1",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-23/event-drafts/will-o-wisp-variant-event-v1.png",
+    "saved": " Backups/Encounter Batch 23 2026-11-23/event-drafts/will-o-wisp-variant-event-v1.png",
+    "path": "encounters-23/will-o-wisp-variant.png",
+    "registeredPath": "assets/images/content/dm-library/the-wild-beyond-the-witchlight/will-o-wisp-variant.png",
+    "previous": {
+      "sha256": "d947a4dec073726d079c90120ad8fdb0e12b0125228b986f44a3063ec147a8e3",
+      "bytes": 2479019
+    },
+    "overrides": [
+      {
+        "entry": "monster-4b8c6677d2143a18f663d39e",
+        "name": "Will-o’-Wisp (Variant)",
+        "file": "images/monsters/will-o-wisp-variant/parchment-portrait.webp",
+        "sha256": "96b374c07b1dbe9957b5abf902c92a52df02773d373ebc51378adb535633ff3b",
+        "credit": "OpenAI ImageGen",
+        "reference": "/will-o-wisp/mm-1.webp",
+        "appearanceSource": "The Wild Beyond the Witchlight",
+        "subjectPrompt": "A single kindly drowned-spirit will-o'-wisp from Hither in the Feywild, a small hovering round pale pale mint-teal light with a pearl-white core. Its faint and gentle outer glow looks like spreading water ripples and thin mist caught in a breeze. An almost imperceptible impression of a kind expression near the core, abstract and minimal. A few old grey-green well stones directly below at the bottom of the composition are a subtle reference to its origin. No skeleton or visible scene. Leave most of the canvas softly blank.",
+        "style": "The Lost Hope square gouache and sepia parchment"
+      }
+    ],
+    "sha256": "456e4e3b83b9f692731c1f20dcc23403f15bf4cfadec7cd6ecf84d82ee006b20",
+    "bytes": 2478421
+  },
+  {
+    "entry": "monster-dc9e799be547bdbeed9973e8",
+    "slug": "witchlight-hand",
+    "name": "Witchlight Hand",
+    "revision": "v1",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-23/event-drafts/witchlight-hand-event-v1.png",
+    "saved": " Backups/Encounter Batch 23 2026-11-23/event-drafts/witchlight-hand-event-v1.png",
+    "path": "encounters-23/witchlight-hand.png",
+    "registeredPath": "assets/images/content/dm-library/the-wild-beyond-the-witchlight/witchlight-hand.png",
+    "previous": {
+      "sha256": "f2e76764f25a7cccb9aecbf5d3e14aa275f957d40b4db8e351bf54d28a5202c5",
+      "bytes": 2723880
+    },
+    "overrides": [
+      {
+        "entry": "monster-dc9e799be547bdbeed9973e8",
+        "name": "Witchlight Hand",
+        "file": "images/monsters/witchlight-hand/parchment-portrait.webp",
+        "sha256": "ee786c648151708e99e3377139254c58419ee629ae742c7e491f5b6a0b75318b",
+        "credit": "OpenAI ImageGen",
+        "reference": "/witchlight-hand-medium/wbtw-1.webp, /witchlight-hand-small/wbtw-1.webp",
+        "appearanceSource": "The Wild Beyond the Witchlight",
+        "subjectPrompt": "One adult representative Witchlight Carnival worker with a practical but theatrical costume, human with warm brown skin, cheery crooked grin, painted brow accents, curly black hair and whimsical patterned purple and teal wool cap. A working vest in muted marigold and violet, pale simple ruff, practical dark trousers, little cloth butterfly-wing costume folded at the shoulder blades. A small copper lantern in one hand and a simple pouch of stage tools belted low. Performer and stagehand feel, full figure, grounded textured costume. Use attached staff tokens only for family resemblance of costume colors and material. No other people.",
+        "style": "The Lost Hope square gouache and sepia parchment"
+      }
+    ],
+    "sha256": "fd7dcfbb0b66e649a942632761921d10e1456babb365e06afda4f19763bdc583",
+    "bytes": 2343113
+  }
+]

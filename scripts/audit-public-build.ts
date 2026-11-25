@@ -10,6 +10,7 @@ import { GENERATED_SOCIAL_IMAGE_PATHS } from '../src/generated/social-image-path
 import { getEntity, locationParent } from '../src/lib/campaign'
 import { publicAssetUrl } from '../src/lib/public-media'
 import {
+  PRERENDERED_PUBLIC_PAGE_DESCRIPTORS,
   PUBLIC_PAGE_DESCRIPTORS,
   validatePublicPageDescriptors,
 } from '../src/lib/public-page-descriptors'
@@ -41,9 +42,7 @@ async function audit(): Promise<void> {
   )
   const errors = validatePublicPageDescriptors()
   assert(errors.length === 0, errors.join('\n'))
-  assert(PUBLIC_PAGE_DESCRIPTORS.length === 574, 'The public-page contract must contain 574 pages')
-
-  const expectedPaths = new Set(PUBLIC_PAGE_DESCRIPTORS.map(({ path }) => path))
+  const expectedPaths = new Set(PRERENDERED_PUBLIC_PAGE_DESCRIPTORS.map(({ path }) => path))
   const pagesData = JSON.parse(await readFile(join(OUTPUT_DIRECTORY, 'pages.json'), 'utf8')) as {
     pages: Array<{ path: string; sitemap?: { exclude?: boolean } }>
   }
@@ -53,7 +52,7 @@ async function audit(): Promise<void> {
     .map(({ path }) => path)
   assert(
     builtPaths.length === expectedPaths.size,
-    `Expected 574 sitemap pages, found ${builtPaths.length}`,
+    `Expected ${expectedPaths.size} sitemap pages, found ${builtPaths.length}`,
   )
   assert(
     builtPaths.every((path) => expectedPaths.has(path)),
@@ -65,7 +64,7 @@ async function audit(): Promise<void> {
   const expectedUrls = new Set([...expectedPaths].map((path) => new URL(path, SITE_ORIGIN).href))
   assert(
     sitemapUrls.length === expectedUrls.size,
-    `Expected 574 sitemap URLs, found ${sitemapUrls.length}`,
+    `Expected ${expectedUrls.size} sitemap URLs, found ${sitemapUrls.length}`,
   )
   assert(
     sitemapUrls.every((url) => url && expectedUrls.has(url)),
@@ -73,7 +72,7 @@ async function audit(): Promise<void> {
   )
 
   const referencedLocalImages = new Set<string>()
-  for (const page of PUBLIC_PAGE_DESCRIPTORS) {
+  for (const page of PRERENDERED_PUBLIC_PAGE_DESCRIPTORS) {
     const htmlPath = pageOutputPath(page.path)
     assert(existsSync(htmlPath), `Missing prerendered HTML: ${page.path}`)
     const document = new JSDOM(await readFile(htmlPath, 'utf8')).window.document
@@ -147,7 +146,10 @@ async function audit(): Promise<void> {
   const socialFiles = (await readdir(join(OUTPUT_DIRECTORY, 'social-previews'))).filter((file) =>
     file.endsWith('.jpg'),
   )
-  assert(socialFiles.length === 574, `Expected 574 social images, found ${socialFiles.length}`)
+  assert(
+    socialFiles.length === PUBLIC_PAGE_DESCRIPTORS.length,
+    `Expected ${PUBLIC_PAGE_DESCRIPTORS.length} social images, found ${socialFiles.length}`,
+  )
   for (const path of Object.values(SOCIAL_IMAGE_PATHS)) {
     const bytes = await readFile(join(OUTPUT_DIRECTORY, path))
     const { width, height, progressive, chromaSubsampling } = jpegFrame(bytes)
@@ -159,7 +161,7 @@ async function audit(): Promise<void> {
 
   const expectedRedirects = [
     '/locations /locations/map 301',
-    ...PUBLIC_PAGE_DESCRIPTORS.filter(({ path }) => path !== '/').map(
+    ...PRERENDERED_PUBLIC_PAGE_DESCRIPTORS.filter(({ path }) => path !== '/').map(
       ({ path }) => `${path} ${path}.html 200`,
     ),
     '',
@@ -181,7 +183,7 @@ async function audit(): Promise<void> {
   )
 
   console.log(
-    `Audited ${PUBLIC_PAGE_DESCRIPTORS.length} static pages, ${socialFiles.length} social images, and ${referencedLocalImages.size} local content images`,
+    `Audited ${PRERENDERED_PUBLIC_PAGE_DESCRIPTORS.length} static pages, ${socialFiles.length} social images, and ${referencedLocalImages.size} local content images`,
   )
 }
 

@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Spellscale",
+    "kind": "species",
+    "publication": "Races of the Dragon (2006)",
+    "edition": "3.5 edition",
+    "book": "Races of the Dragon",
+    "authors": [
+      "Gwendolyn F. M. Kestrel",
+      "Jennifer Clarke Wilkes",
+      "Kolja Raven Liquette"
+    ],
+    "publisher": "Wizards of the Coast",
+    "firstPrinting": "January 2006",
+    "productCode": "620-95369720-001-EN",
+    "isbn": "0-7869-3913-3",
+    "printedPages": {
+      "dragonbloodSubtype": 4,
+      "racialTraits": 23,
+      "illustration": [
+        24,
+        36
+      ],
+      "bloodQuickening": 25,
+      "deityAlignment": 26,
+      "riteOfAssumption": [
+        31,
+        32
+      ],
+      "publishedSamples": [
+        135,
+        136
+      ]
+    },
+    "pdfPageOffset": 0,
+    "publisherSample": "",
+    "primaryBookScan": "",
+    "primaryBookSha256": "fe1d9e2de63e55425dcac3226ce3fff6b526827908b3d386bf22956eef2efe4c",
+    "officialErrataArchive": "https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP",
+    "printedArtCredit": "Ed Cox, Spellscale spot illustrations, pp. 24 and 36.",
+    "sourceDistinctions": [
+      "The original racial traits explicitly grant low-light vision. Dragonblood is a subtype of this Humanoid, not Dragon type.",
+      "Blood Quickening is one meditation per day. Learned spells and spell slots are separate from temporary borrowed feats or cure/inflict item access.",
+      "The book’s Bard sample gives an unexplained claw attack; there is no racial claw attack in the species traits.",
+      "The existing Black Flag monster Spellscale Vassal is a distinct identity and keeps its profile and artwork."
+    ],
+    "entryId": "species-698fc69c2a8340b0b43c0b67",
+    "versionKey": "476d713ca5079d6d444ceafe",
+    "slug": "spellscale",
+    "portraitSelection": "generated",
+    "portraitForm": "Isette Mossglass, an original Spellscale Sorcerer",
+    "npcExamples": [
+      "Isette Mossglass",
+      "Meren Thistlekey"
+    ]
+  }
+]

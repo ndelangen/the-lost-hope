@@ -1,0 +1,517 @@
+[
+  {
+    "name": "Ashyra",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Medium Undead, lawful evil",
+    "ac": 17,
+    "hp": 225,
+    "speed": "30 ft.",
+    "cr": "15",
+    "xp": 13000,
+    "proficiencyBonus": 5,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Wis": {
+        "score": 19,
+        "modifier": 4
+      },
+      "Cha": {
+        "score": 16,
+        "modifier": 3
+      }
+    },
+    "otherStatistics": "Natural armor. Saving throws Con +8, Int +7, Wis +9. Arcana +7, History +7, Perception +9, Religion +7. Resists bludgeoning, piercing, and slashing from mundane attacks. Immune to necrotic and poison damage and to Blinded, Charmed, Deafened, Exhaustion, Frightened, and Poisoned. Blindsight 120 ft., passive Perception 19. Speaks Common and has telepathy 60 ft.",
+    "sections": {
+      "Role": "Solo",
+      "Traits": "Atonement (3/day). Ashyra can turn a failed saving throw into a success. She then ends Ancient Curse on one enemy within 120 ft. or becomes Dazed until the end of her next turn.\nMummy Dust. When Ashyra takes piercing or slashing damage, every creature within 5 ft. takes 9 (2d8) poison damage.",
+      "Actions": "Multiattack. Make two attacks in any combination of Desiccating Slam and Soul Fire, then use Ancient Curse.\nDesiccating Slam. Melee weapon attack, +9 to hit, 5-ft. reach, one target. Hit 14 (3d6 + 4) bludgeoning plus 10 (3d6) necrotic damage. Until the start of Ashyra's next turn, the target's speed is 0 and it cannot regain HP.\nSoul Fire (3rd-level spell). Ranged spell attack, +9 to hit, 60-ft. range, one target. Hit 20 (3d10 + 4) radiant damage. A creature's HP maximum also drops by the damage taken until it finishes a long rest or receives Cure Ailment of 4th order or higher, Greater Restoration, or a similar supernatural effect. The creature dies if its HP maximum reaches 0.\nAncient Curse. One creature Ashyra sees within 120 ft. must pass a DC 17 Wisdom save or its attacks deal half damage. The curse lasts until she ends it or it is lifted by Cure Ailment, Remove Curse, or similar supernatural magic.",
+      "Bonus Actions": "Misty Step (2nd-level spell). Teleport up to 30 ft. to a visible unoccupied space.",
+      "Reactions": "Weight of Ages. When a creature Ashyra sees within 60 ft. damages her, it must pass a DC 17 Strength save or become Restrained until the end of its next turn.",
+      "Villain Actions": "Use each once per encounter, in any order, after an enemy's turn. Use at most one per round.\n1. Sands of the Ancients. The area within 15 ft. of Ashyra is heavily obscured until the end of her next turn. A creature that starts its turn there or first enters the area on a turn makes a DC 17 Constitution save, taking 22 (4d10) necrotic damage on a failure.\n2. Dust to Dust. Attack each enemy within 60 ft. with Desiccating Slam, then reform in an unoccupied space within 60 ft. of Ashyra's starting position.\n3. Last Rites. Each enemy within 30 ft. makes a DC 17 Strength save. On a failure, it takes 21 (6d6) bludgeoning damage and is sealed in stone. A success halves the damage and avoids the entombment. A trapped creature is Restrained, has total cover from outside attacks and effects, and takes 7 (2d6) necrotic damage at the end of each of its turns. Destroy the stone to free the creature. The stone has AC 17 and 30 HP and is immune to poison and psychic damage.",
+      "Dazed (MCDM)": "On its turn, a Dazed creature chooses just one of moving, taking an action, or taking a bonus action. If the creature becomes Dazed during its turn, the turn ends. It still receives any extra actions granted by effects such as Haste or Action Surge. Cure Ailment, Lesser Restoration, or Greater Restoration can clear the condition.",
+      "Lair": "Ashyra's underground tower holds books, scrolls, and arcane equipment. It guards a chamber where a hundred sorcerer-sovereigns lie buried. Seals close off the necropolis from the surface."
+    },
+    "hitDice": "30d8 + 90"
+  },
+  {
+    "name": "Lich (MCDM)",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Medium Undead, typically neutral evil",
+    "ac": 20,
+    "hp": 270,
+    "speed": "30 ft., fly 50 ft. (hover)",
+    "cr": "21",
+    "xp": 33000,
+    "proficiencyBonus": 7,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Wis": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Cha": {
+        "score": 20,
+        "modifier": 5
+      }
+    },
+    "otherStatistics": "Natural armor. Saving throws Str +11, Con +10, Wis +10, Cha +12. Arcana +11, Athletics +11, Deception +12, History +11, Perception +10, Stealth +9. Resists necrotic damage and bludgeoning, piercing, and slashing from mundane attacks. Immune to poison damage and to Charmed, Dazed, Exhaustion, Frightened, Paralyzed, Poisoned, and Stunned. Truesight 120 ft., passive Perception 20. Speaks Abyssal, Common, Draconic, and Infernal.",
+    "sections": {
+      "Role": "Controller",
+      "Traits": "Rejuvenation. The destroyed lich takes refuge in its soulstone if it is intact. A creature that can see the occupied stone at the start of its turn must pass a DC 20 Charisma save or become Charmed by the stone until the end of its next turn. The Charmed creature tries its hardest to reach and touch the stone while avoiding obvious hazards. Any creature that touches the occupied stone makes a DC 20 Constitution save. On a failure, the toucher drops to 0 HP and the lich returns at full HP. On a success, the toucher loses half its current HP and the lich returns at half HP. Either way, the lich reforms in an unoccupied space within 5 ft. of the stone. The stone has AC 19, 50 HP, and immunity to every damage type except force and thunder.\nSupernatural Resistance. The lich has advantage on saves against powers, spells, and other supernatural effects.\nTurn Immunity. Effects that turn Undead have no effect on the lich.",
+      "Actions": "Multiattack. Use Glare of Undeath and make four attacks in any combination of Biting Acid, Disruptive Thunder, and Pain of Ages.\nBiting Acid (3rd-level spell). Ranged spell attack, +12 to hit, 120-ft. range, one target. Hit 22 (5d8) acid damage. The target cannot regain HP until the start of the lich's next turn.\nDisruptive Thunder (3rd-level spell). Melee or ranged spell attack, +12 to hit, 5-ft. reach or 60-ft. range, one target. Hit 22 (4d10) thunder damage. Move a Huge or smaller target up to 45 ft. horizontally.\nPain of Ages (3rd-level spell). Melee or ranged spell attack, +12 to hit, 5-ft. reach or 90-ft. range, one creature. Hit 21 (6d6) psychic damage. The first attack the target lands against a creature before the start of the lich's next turn deals half damage.\nGlare of Undeath. One visible creature within 60 ft. makes a DC 20 Wisdom save. On failure it clutches itself and becomes Restrained for 1 minute, repeating the save at the end of each of its turns. A creature it hears and understands can use an action to end the effect with a successful DC 20 Charisma (Persuasion) check.\nHorrid Woe (2/day). One visible creature within 90 ft. makes a DC 20 Constitution save, taking 61 (7d8 + 30) necrotic damage on a failure or half on a success. A target reduced to 0 HP becomes stable and cannot heal. Its spirit appears as a wraith in an unoccupied space within 5 ft. of the body. It obeys the lich's spoken commands and acts immediately after the lich on the same turn. When the lich or wraith is destroyed, the spirit returns to the body and the target can regain HP.\nLife Absorption (1/day, 9th-level spell, concentration). Each enemy within 120 ft. makes a DC 20 Constitution save. On a failure, for 1 minute the enemy takes 16 (3d10) necrotic damage at the start of each of its turns. The lich gains temporary HP equal to the total damage dealt.",
+      "Bonus Actions": "Necrotic Form (3rd-level spell). Become a shadow and move up to the lich's speed. In this form, the lich is immune to bludgeoning, piercing, and slashing damage and to Grappled and Restrained, and can pass through gaps as narrow as 1 inch without squeezing. The form ends at the end of its turn.",
+      "Reactions": "Immortal Insight. When another visible creature rolls an attack, ability check, or saving throw, the lich can impose advantage or disadvantage.",
+      "Utility Spells": "Charisma, spell save DC 20. At will: Arcane Lock, Charm Person, Detect Magic, Detect Thoughts, Disguise Self, Identify, Locate Object, Mage Hand. Three times per day each: Arcane Eye, Arcanist's Magic Aura, Contact Other Plane, Legend Lore, Scrying. Once per day each: Forbiddance, Geas, Hallow, Mirage Arcane, Symbol. Identify, Contact Other Plane, Legend Lore, Scrying, and the once-per-day spells use their listed casting times. The others take 1 action.",
+      "Lair Actions": "On initiative count 20, losing ties, choose one option. Do not repeat an option on consecutive rounds.\nSoul Sip. Two visible enemies within 90 ft. each make a DC 20 Constitution save, taking 19 (3d12) necrotic damage on a failure.\nSpirit Shell. Until the end of initiative count 20 on the next round, anyone who hits the lich with a melee attack must pass a DC 20 Wisdom save or be Dazed until the start of their next turn.\nUnnatural Born Leader. One visible creature within 90 ft. makes a DC 20 Charisma save. On a failure, it uses its reaction, if available, to move up to its speed and make a weapon attack against a creature the lich chooses.",
+      "Dazed (MCDM)": "On its turn, a Dazed creature chooses just one of moving, taking an action, or taking a bonus action. If the creature becomes Dazed during its turn, the turn ends. It still receives any extra actions granted by effects such as Haste or Action Surge. Cure Ailment, Lesser Restoration, or Greater Restoration can clear the condition."
+    },
+    "hitDice": "36d8 + 108",
+    "relatedCreatures": [
+      {
+        "name": "Wraith (MCDM)",
+        "kind": "monster",
+        "terms": [
+          "wraith"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Rot Angel",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Medium Celestial, typically lawful neutral",
+    "ac": 15,
+    "hp": 90,
+    "speed": "0 ft., fly 50 ft. (hover)",
+    "cr": "4",
+    "xp": 1100,
+    "proficiencyBonus": 2,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 6,
+        "modifier": -2
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Wis": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 19,
+        "modifier": 4
+      }
+    },
+    "otherStatistics": "Saving throws Con +5, Cha +6. Perception +6. Resists necrotic and radiant damage. Immune to Charmed, Flanked, and Frightened. Blindsight 10 ft., darkvision 60 ft., passive Perception 16. Understands Celestial without speaking it and has telepathy 120 ft.",
+    "sections": {
+      "Role": "Skirmisher",
+      "Traits": "Flyby. Flying out of an enemy's reach does not provoke opportunity attacks.",
+      "Encounter Notes": "Rot angels erase the bodies of the dead for the gods they serve. Once a rot angel has decomposed a corpse by touch, supernatural effects cannot affect that corpse, including attempts to revive it or raise it as Undead.",
+      "Actions": "Decaying Touch. Melee weapon attack, +5 to hit, 5-ft. reach, one target. Hit 18 (4d8) necrotic damage, or 36 (8d8) against a corpse or Undead. A target also bears a mark for 24 hours. If it drops to 0 HP during that time, it immediately fails one death save. Multiple marks do not stack.",
+      "Bonus Actions": "Hypnotic Beam. One creature the angel sees within 60 ft. must pass a DC 14 Wisdom save or spend its reaction, if available, to move as far toward the angel as its speed allows without crossing clearly dangerous ground.",
+      "Reactions": "Radiant Puff. When an attack hits the angel, every creature within 10 ft. must pass a DC 14 Constitution save or be Blinded until the end of the angel's next turn."
+    },
+    "hitDice": "12d8 + 36"
+  },
+  {
+    "name": "Mycete",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Medium Humanoid (Tiefling), chaotic evil",
+    "ac": 14,
+    "hp": 26,
+    "speed": "30 ft.",
+    "cr": "1",
+    "xp": 200,
+    "proficiencyBonus": 2,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Dex": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Wis": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Cha": {
+        "score": 12,
+        "modifier": 1
+      }
+    },
+    "otherStatistics": "Leather armor and shield. Saving throws Int +2, Wis +5. Insight +5, Nature +2, Perception +5, Survival +5. Resists fire damage and is immune to necrotic damage. Darkvision 60 ft., passive Perception 15. Speaks Common and Infernal.",
+    "sections": {
+      "Role": "Controller",
+      "Traits": "Necrotic Absorption. When Mycete would take necrotic damage, she regains that many HP instead.",
+      "Actions": "Parasitic Spores. Melee or ranged spell attack, +5 to hit, 5-ft. reach or 30-ft. range, one target. Hit 7 (2d6) necrotic damage. Mycete heals 3 (1d6) HP if the target is a creature.\nFungal Growth. Pick a visible point within 60 ft. Solid surfaces in a 10-ft. square centered there become difficult terrain. A creature that enters the area for the first time on a turn or starts its turn there must pass a DC 13 Constitution save or be Poisoned for 1 minute. The creature can repeat the save at the end of each of its turns, ending the effect on a success.\nAnimate Husks (1/day). Three Rotting Zombies appear in unoccupied spaces Mycete can see within 30 ft. They go immediately after her on the same initiative count, obey her spoken commands, and perish if she dies.",
+      "Bonus Actions": "Spore Eruption. Destroy a Rotting Zombie under Mycete's control. Each enemy within 5 ft. of it makes a DC 13 Constitution save, taking 9 (2d8) necrotic damage on a failure or half on a success.",
+      "Utility Spells": "Wisdom, spell save DC 13. At will: Druidcraft. Three times per day: Locate Animals or Plants. Once per day each: Fog Cloud, Pass Without Trace. Each takes 1 action.",
+      "Villain Party Actions": "Grave Order action 4, Fungal Paradise. Use once per encounter after an enemy's turn while Mycete is present and not Incapacitated. The Grave Order uses at most one villain party action per round. Mycete destroys one or more Rotting Zombies she controls and can see within 30 ft. Each explodes in a 10-ft.-radius sphere. Every creature within one or more explosions makes one DC 13 Constitution save, taking 5 (2d4) necrotic damage on a failure or half on a success. The ground in each sphere gains the effects of Fungal Growth. If Mycete controls no Rotting Zombies within 30 ft., she uses Animate Husks instead without spending or needing a use.",
+      "Encounter Notes": "Mycete cultivates a parasitic fungus called Amber Decay. It grows in dying humanoids and continues to spread after they rise as Undead. The Grave Order took her in after her village found out she was killing neighbors to grow it."
+    },
+    "hitDice": "4d8 + 8",
+    "relatedCreatures": [
+      {
+        "name": "Rotting Zombie",
+        "kind": "monster",
+        "terms": [
+          "Rotting Zombies",
+          "Rotting Zombie"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Treant (MCDM)",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Huge Plant, typically neutral",
+    "ac": 16,
+    "hp": 172,
+    "speed": "30 ft.",
+    "cr": "9",
+    "xp": 5000,
+    "proficiencyBonus": 4,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 20,
+        "modifier": 5
+      },
+      "Dex": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 21,
+        "modifier": 5
+      },
+      "Int": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Wis": {
+        "score": 19,
+        "modifier": 4
+      },
+      "Cha": {
+        "score": 12,
+        "modifier": 1
+      }
+    },
+    "otherStatistics": "Natural armor. Nature +4, Survival +8. Tremorsense 60 ft., passive Perception 14. Speaks Common, Druidic, and Sylvan.",
+    "sections": {
+      "Role": "Controller",
+      "Traits": "False Appearance. An unmoving treant looks just like an ordinary tree.",
+      "Actions": "Multiattack. Make two Thorned Tendril attacks.\nThorned Tendril. Melee weapon attack, +9 to hit, 15-ft. reach, one target. Hit 19 (4d6 + 5) piercing damage and Grappled, escape DC 15. The target is Restrained and takes 7 (2d6) piercing damage at the start of each of its turns while the grapple lasts.\nSwinging Tendrils (recharge 6). Each creature already Grappled by the treant takes 26 (4d12) bludgeoning damage. The treant can move each of them to a visible unoccupied space within 15 ft. of itself. Each other creature within 15 ft. of the treant makes a DC 17 Dexterity save and takes 26 (4d12) bludgeoning damage for each creature the treant has Grappled, or half on a success.",
+      "Bonus Actions": "Healing Growth (1/day). Each creature the treant chooses within 30 ft. regains 17 (3d8 + 4) HP.\nReel and Wrap. Pull one Grappled creature up to 10 ft. closer. It cannot speak until the grapple ends.",
+      "Utility Spells": "Wisdom, spell save DC 16. At will: Speak with Animals and Speak with Plants. Both take 1 action."
+    },
+    "hitDice": "15d12 + 75"
+  },
+  {
+    "name": "Treant Sapling (MCDM)",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Medium Plant, typically neutral",
+    "ac": 14,
+    "hp": 16,
+    "speed": "30 ft.",
+    "cr": "9",
+    "xp": 500,
+    "proficiencyBonus": 4,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Int": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Wis": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Cha": {
+        "score": 12,
+        "modifier": 1
+      }
+    },
+    "otherStatistics": "Natural armor. Tremorsense 15 ft., passive Perception 13. Speaks Common, Druidic, and Sylvan.",
+    "sections": {
+      "Role": "Minion",
+      "Traits": "False Appearance. A sapling that stays still passes for an ordinary tree.\nGrove Strength. When a non-minion ally lands an attack, the target takes 2 extra slashing damage for each sapling within 5 ft. of it.",
+      "Actions": "Claws (group attack). Melee weapon attack, +8 to hit, 5-ft. reach, one target. Hit 5 slashing damage."
+    },
+    "sharedRules": [
+      "MCDM minion rules"
+    ]
+  },
+  {
+    "name": "Principle of Growth",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Huge Elemental (Earth, Water), any alignment",
+    "ac": 17,
+    "hp": 243,
+    "speed": "50 ft., climb 50 ft.",
+    "cr": "15",
+    "xp": 13000,
+    "proficiencyBonus": 5,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 21,
+        "modifier": 5
+      },
+      "Dex": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 25,
+        "modifier": 7
+      },
+      "Int": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Wis": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Cha": {
+        "score": 14,
+        "modifier": 2
+      }
+    },
+    "otherStatistics": "Natural armor. Saving throws Str +10, Wis +8. Animal Handling +8, Nature +10, Survival +8. Immune to Charmed and Frightened. Darkvision 60 ft., tremorsense 60 ft., passive Perception 13. Speaks Common and Primordial.",
+    "sections": {
+      "Role": "Controller",
+      "Traits": "Regeneration. At the start of its turn, the principle heals 20 HP if it is not Incapacitated. After taking fire damage, it heals only 10 HP at the start of its next turn.",
+      "Actions": "Multiattack. Make two Hampering Roots attacks or two Vernal Lash attacks.\nHampering Roots. Melee weapon attack, +10 to hit, 10-ft. reach, one target. Hit 23 (4d8 + 5) bludgeoning damage and Grappled, escape DC 15. The target is Restrained while Grappled this way.\nVernal Lash. Melee weapon attack, +10 to hit, 60-ft. reach, one target. Hit 27 (4d10 + 5) slashing damage. Move the target up to 15 ft. horizontally.\nBurst from the Earth (1/day). Grow three Large trees in visible unoccupied spaces within 60 ft. Each has AC 15, 40 HP, and immunity to psychic damage. An enemy that starts its turn within 15 ft. of one of the trees makes a DC 18 Dexterity save, taking 14 (4d6) slashing damage on a failure or half on a success.",
+      "Bonus Actions": "Convocation of Verdure (2/day). Choose the principle itself or an Elemental it can see within 30 ft. That Elemental chooses one effect.\nRoots of the Mind. For 1 minute the Elemental can connect to each Large or larger plant object it sees within 90 ft. without using an action. It can perceive, attack, or take actions from any linked plant's space as if it were there.\nThorn Eruption. Each visible enemy within 30 ft. of the Elemental makes a DC 16 Dexterity save. On a failure it takes 27 (6d8) piercing damage and is Restrained until the end of its next turn. On a success it takes half damage and avoids the condition."
+    },
+    "hitDice": "18d12 + 126"
+  },
+  {
+    "name": "Dirt Mournling",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Huge Undead, unaligned",
+    "ac": 19,
+    "hp": 253,
+    "speed": "40 ft., burrow 40 ft., climb 40 ft.",
+    "cr": "18",
+    "xp": 20000,
+    "proficiencyBonus": 6,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 22,
+        "modifier": 6
+      },
+      "Dex": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 20,
+        "modifier": 5
+      },
+      "Int": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 10,
+        "modifier": 0
+      }
+    },
+    "otherStatistics": "Natural armor. Saving throws Str +12, Con +11, Cha +6. Athletics +12, Perception +7. Immune to cold, fire, and poison damage and to Charmed, Exhaustion, Frightened, and Poisoned. Darkvision 120 ft., passive Perception 17. Understands its creator's languages and cannot speak.",
+    "sections": {
+      "Role": "Controller",
+      "Traits": "Anguish Unleashed. When the mournling dies, each creature within 30 ft. that can hear it makes a DC 19 Wisdom save, taking 22 (4d10) psychic damage on a failure or half on a success.\nImmutable Form. Spells, powers, and other effects cannot change the mournling's form.\nPuddle of Mud. When the mournling leaves a space, the ground there is difficult terrain for its enemies for 10 minutes.",
+      "Actions": "Multiattack. Make three attacks in any combination of Slam and Mudslide. The mournling can also use Dust Storm if available.\nSlam. Melee weapon attack, +12 to hit, 10-ft. reach, one target. Hit 28 (4d10 + 6) bludgeoning damage and Grappled, escape DC 20. The target is Restrained while Grappled this way.\nMudslide. Ranged weapon attack, +12 to hit, range 30/60 ft., one target. Hit 22 (3d10 + 6) bludgeoning damage. A Huge or smaller creature hit by it is pulled up to 30 ft. toward the mournling, as is each Huge or smaller creature the mournling chooses within 5 ft. of that target.\nDust Storm (1/day). Each creature within 60 ft. makes a DC 19 Constitution save or becomes Blinded for 1 minute. It can repeat the save at the end of each of its turns to end the effect.",
+      "Bonus Actions": "Break and Reform. Teleport to a visible unoccupied space within 30 ft.",
+      "Reactions": "Stuck Fast. When a melee weapon attack hits the mournling, it can trap the striking weapon in mud and disarm the attacker. A creature within reach of the weapon can spend an action or bonus action to free it with a DC 19 Strength (Athletics) check. Natural weapons cannot trigger this reaction."
+    },
+    "hitDice": "22d12 + 110"
+  },
+  {
+    "name": "Flesh Mournling",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Large Undead, unaligned",
+    "ac": 15,
+    "hp": 95,
+    "speed": "30 ft.",
+    "cr": "5",
+    "xp": 1800,
+    "proficiencyBonus": 3,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Int": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 10,
+        "modifier": 0
+      }
+    },
+    "otherStatistics": "Natural armor. Saving throws Str +7, Con +7. Athletics +7, Perception +4. Immune to Charmed, Frightened, and Exhaustion. Darkvision 120 ft., passive Perception 14. Understands its creator's languages and cannot speak.",
+    "sections": {
+      "Role": "Brute",
+      "Traits": "Horrid Sob. An enemy that hears the mournling and begins its turn within 30 ft. makes a DC 15 Wisdom save. On a failure, it is Frightened of the mournling until the start of its next turn. On a success, it is immune to Horrid Sob from all flesh mournlings for 24 hours.\nImmutable Form. Spells, powers, and other effects cannot change the mournling's form.",
+      "Actions": "Multiattack. Make two Slam attacks.\nSlam. Melee weapon attack, +7 to hit, 5-ft. reach, one target. Hit 14 (3d6 + 4) bludgeoning damage. Creatures Frightened of the mournling also fall Prone.\nAgonizing Wail (recharge 5–6). Every creature in a 30-ft. cone that can hear the mournling makes a DC 15 Constitution save. On a failure it takes 16 (3d10) psychic damage and cannot see beyond 5 ft. until the end of its next turn. On a success it takes half damage and its sight is unaffected."
+    },
+    "hitDice": "10d10 + 40"
+  },
+  {
+    "name": "Thornblood",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Gargantuan Plant, typically neutral",
+    "ac": 16,
+    "hp": 324,
+    "speed": "30 ft., climb 30 ft.",
+    "cr": "20",
+    "xp": 25000,
+    "proficiencyBonus": 6,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 22,
+        "modifier": 6
+      },
+      "Dex": {
+        "score": 23,
+        "modifier": 6
+      },
+      "Con": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Wis": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Cha": {
+        "score": 8,
+        "modifier": -1
+      }
+    },
+    "otherStatistics": "Saving throws Con +9, Wis +9. Resists cold and lightning damage and bludgeoning, piercing, and slashing from mundane attacks. Immune to poison and psychic damage and to Charmed, Dazed, Flanked, Frightened, Grappled, Poisoned, Prone, and Stunned. Blindsight 120 ft., passive Perception 13. Speaks Sylvan.",
+    "sections": {
+      "Role": "Controller",
+      "Traits": "Corpse Retreat (1/day). When reduced to 0 HP, the thornblood drops to 1 HP instead and withdraws into the Medium Humanoid corpse it grew from. It becomes immune to all damage through the end of its next turn. It is Medium, both speeds become 60 ft., and it loses access to Throttle and Overgrowth until it finishes a long rest.\nOvergrowth. The thornblood passes through gaps as narrow as 1 inch without squeezing. It can share spaces with other creatures.\nSupernatural Resistance. The thornblood has advantage on saves against powers, spells, and other supernatural effects.",
+      "Actions": "Multiattack. Make four attacks in any combination of Vinerip and Throttle.\nVinerip. Melee weapon attack, +12 to hit, 30-ft. reach, one target. Hit 20 (4d6 + 6) bludgeoning plus 11 (2d10) piercing damage. Pull the target up to 30 ft. closer.\nThrottle. Melee weapon attack, +12 to hit, 0-ft. reach, one target in the thornblood's space. Hit 20 (4d6 + 6) piercing damage and entangled. The entangled target is Restrained, moves with the thornblood, cannot see beyond its space, and takes 20 (4d6 + 6) piercing damage at the start of each of its turns. The target or a creature within 5 ft. of it can use an action to take 20 (4d6 + 6) slashing damage and attempt a DC 20 Strength check, freeing the target on a success.\nFrom Life, Lightning (2/day). Requires at least one entangled creature. Each entangled creature makes a DC 20 Constitution save, taking 55 (10d10) necrotic damage on a failure or half on a success. Then each enemy within 60 ft. that is not entangled makes a DC 20 Dexterity save, taking 55 (10d10) lightning damage on a failure or half on a success.",
+      "Bonus Actions": "You're Mine. Move one creature entangled by the thornblood to a space occupied by the thornblood alone, with no objects in it.",
+      "Reactions": "Hostile Roots. An enemy that ends its turn in the thornblood's space must pass a DC 17 Dexterity save or fall Prone."
+    },
+    "hitDice": "24d20 + 72"
+  }
+]

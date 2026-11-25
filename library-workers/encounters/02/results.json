@@ -1,0 +1,252 @@
+[
+  {
+    "name": "Aarakocra",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Abominable Yeti",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Arcanaloth",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Beholder",
+    "publication": "Ghosts of Saltmarsh",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Blue Slaad",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Bullywug",
+    "publication": "Ghosts of Saltmarsh",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Carrion Crawler",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Champion of Ravens",
+    "publication": "Tal’Dorei Campaign Setting Reborn",
+    "status": "local-stat-block"
+  },
+  {
+    "name": "Crawling Claw",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Death Knight",
+    "publication": "Ghosts of Saltmarsh",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Doty X",
+    "publication": "Tal’Dorei Campaign Setting Reborn",
+    "status": "local-stat-block"
+  },
+  {
+    "name": "Drow Elite Warrior",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Drow Mage",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Gnoll Fang of Yeenoghu",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Goblin Boss",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Green Slaad",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Grell",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Grog Strongjaw",
+    "publication": "Tal’Dorei Campaign Setting Reborn",
+    "status": "local-stat-block"
+  },
+  {
+    "name": "Half-Ogre",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Helmed Horror",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Keyleth, Voice of the Tempest",
+    "publication": "Tal’Dorei Campaign Setting Reborn",
+    "status": "local-stat-block"
+  },
+  {
+    "name": "Mind Flayer",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Myconid Sovereign",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Needle Blight",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Orc Eye of Gruumsh",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Orc War Chief",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Percival de Rolo",
+    "publication": "Tal’Dorei Campaign Setting Reborn",
+    "status": "local-stat-block"
+  },
+  {
+    "name": "Peryton",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Pike Trickfoot",
+    "publication": "Tal’Dorei Campaign Setting Reborn",
+    "status": "local-stat-block"
+  },
+  {
+    "name": "Quaggoth",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Quaggoth Spore Servant",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Red Slaad",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Revenant",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Sahuagin Baron",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Scanlan Shorthalt",
+    "publication": "Tal’Dorei Campaign Setting Reborn",
+    "status": "local-stat-block"
+  },
+  {
+    "name": "Shadow Demon",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Shadow Demon",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Slaad Tadpole",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Slaad Tadpole",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Smoke Mephit",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Taryon Darrington",
+    "publication": "Tal’Dorei Campaign Setting Reborn",
+    "status": "local-stat-block"
+  },
+  {
+    "name": "Troglodyte",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Ultroloth",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Umber Hulk",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Umber Hulk",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Water Weird",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Yochlol",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Young Remorhaz",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Yuan-ti Abomination",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Yuan-ti Pureblood",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "status": "manual-combat-profile"
+  }
+]

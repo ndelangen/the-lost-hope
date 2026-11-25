@@ -1,0 +1,418 @@
+[
+  {
+    "name": "Ankheg",
+    "statBlock": {
+      "name": "Ankheg",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large monstrosity, unaligned",
+      "ac": 14,
+      "hp": 39,
+      "hitDice": "6d10 + 6",
+      "speed": "30 ft., burrow 10 ft.",
+      "cr": "2",
+      "xp": 450,
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 1
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 6
+        }
+      },
+      "passivePerception": 11,
+      "description": "An enormous burrowing insect that waits beneath trails or pasture for prey to pass overhead.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor. AC falls to 11 while prone.",
+        "Senses": "Darkvision 60 ft. and tremorsense 60 ft. Passive Perception 11.",
+        "Languages": "None.",
+        "Encounter notes": "The ankheg leaves narrow, partly collapsed tunnels as it burrows through earth. Molted chitin or hatched eggs can mark its tunnels.",
+        "Actions": "Bite. Melee weapon attack, +5 to hit, reach 5 ft., one target. On a hit, deal 10 (2d6 + 3) slashing damage plus 3 (1d6) acid damage. A Large or smaller creature is grappled, escape DC 13. Until this grapple ends, the ankheg can bite only the creature it holds and has advantage on those Bite attacks.\nAcid Spray (recharge 6). Use only while the ankheg is grappling no creature. Each creature in a line 30 ft. long and 5 ft. wide makes a DC 13 Dexterity save. Deal 10 (3d6) acid damage on a failure or half on a success.",
+        "Printed source": "Monster Manual (2014), p. 21. The official errata sets the Bite average slashing damage to 10."
+      }
+    }
+  },
+  {
+    "name": "Basilisk",
+    "statBlock": {
+      "name": "Basilisk",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium monstrosity, unaligned",
+      "ac": 15,
+      "hp": 52,
+      "hitDice": "8d8 + 16",
+      "speed": "20 ft.",
+      "cr": "3",
+      "xp": 700,
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 8
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 2
+        },
+        "Wis": {
+          "score": 8
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "passivePerception": 9,
+      "description": "A low-slung cave predator that turns prey to stone before feeding.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft. Passive Perception 9.",
+        "Languages": "None.",
+        "Traits": "Petrifying Gaze. Unless incapacitated, the basilisk can force a DC 12 Constitution save at the start of another creature’s turn when that creature is within 30 ft. and the two can see each other. On a failure the creature starts turning to stone and becomes restrained. It saves again at the end of its next turn. Success ends the effect. Failure petrifies it until Greater Restoration or other magic frees it.\nA creature that begins its turn without being surprised can avert its eyes to avoid the initial save. It cannot see the basilisk until the start of its next turn, when it can avert its eyes again. Looking at the basilisk before then forces an immediate save.\nIf the basilisk sees its own reflection in bright light within 30 ft., it takes the reflection for a rival and directs the gaze at itself.",
+        "Encounter notes": "A basilisk raised in captivity can be trained to avoid meeting the eyes of creatures its keeper wants to protect. The book also describes oil derived from a basilisk’s gullet that reverses petrification. Lost parts stay missing, and the oil fails if the creature is missing a vital part.",
+        "Actions": "Bite. Melee weapon attack, +5 to hit, reach 5 ft., one target. Deal 10 (2d6 + 3) piercing damage plus 7 (2d6) poison damage on a hit.",
+        "Printed source": "Monster Manual (2014), p. 24."
+      }
+    }
+  },
+  {
+    "name": "Chimera",
+    "statBlock": {
+      "name": "Chimera",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large monstrosity, chaotic evil",
+      "ac": 14,
+      "hp": 114,
+      "hitDice": "12d10 + 48",
+      "speed": "30 ft., fly 60 ft.",
+      "cr": "6",
+      "xp": 2300,
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 19
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "passivePerception": 18,
+      "description": "A winged hunter with dragon, lion, and goat heads. It dives on prey and can breathe fire before landing.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 8
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft. Passive Perception 18.",
+        "Languages": "Understands Draconic and cannot speak.",
+        "Actions": "Multiattack. Make one Bite, one Horns attack, and one Claws attack. If Fire Breath is available, it can replace either Bite or Horns.\nBite. Melee weapon attack, +7 to hit, reach 5 ft., one target. Deal 11 (2d6 + 4) piercing damage on a hit.\nHorns. Melee weapon attack, +7 to hit, reach 5 ft., one target. Deal 10 (1d12 + 4) bludgeoning damage on a hit.\nClaws. Melee weapon attack, +7 to hit, reach 5 ft., one target. Deal 11 (2d6 + 4) slashing damage on a hit.\nFire Breath (recharge 5–6). Each creature in a 15-ft. cone makes a DC 15 Dexterity save. Deal 31 (7d8) fire damage on a failure or half on a success.",
+        "Printed source": "Monster Manual (2014), p. 39."
+      }
+    }
+  },
+  {
+    "name": "Mimic",
+    "statBlock": {
+      "name": "Mimic",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium monstrosity (shapechanger), neutral",
+      "ac": 12,
+      "hp": 58,
+      "hitDice": "9d8 + 18",
+      "speed": "15 ft.",
+      "cr": "2",
+      "xp": 450,
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "passivePerception": 11,
+      "description": "An ambush predator that often takes the shape of a chest or door and waits for someone to touch it.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Stealth": 5
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage immunities": "Acid.",
+        "Condition immunities": "Prone.",
+        "Senses": "Darkvision 60 ft. Passive Perception 11.",
+        "Languages": "None.",
+        "Traits": "Shapechanger. As an action, take the form of an object or return to the true, amorphous form. Both forms use the same statistics and any worn or carried gear stays as it is. Death restores the true form.\nAdhesive (object form only). Anything that touches the mimic sticks to it. A Huge or smaller creature that sticks is also grappled, escape DC 13. Escape checks have disadvantage.\nFalse Appearance (object form only). While motionless, the mimic looks exactly like an ordinary object.\nGrappler. The mimic has advantage on attack rolls against creatures it is grappling.",
+        "Encounter notes": "Rare mimics can hold a simple conversation in Common or Undercommon and may trade information or safe passage for food.",
+        "Actions": "Pseudopod. Melee weapon attack, +5 to hit, reach 5 ft., one target. Deal 7 (1d8 + 3) bludgeoning damage on a hit. The hit also applies Adhesive while the mimic is in object form.\nBite. Melee weapon attack, +5 to hit, reach 5 ft., one target. Deal 7 (1d8 + 3) piercing damage plus 4 (1d8) acid damage on a hit.",
+        "Printed source": "Monster Manual (2014), p. 220."
+      }
+    }
+  },
+  {
+    "name": "Shambling Mound",
+    "statBlock": {
+      "name": "Shambling Mound",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large plant, unaligned",
+      "ac": 15,
+      "hp": 136,
+      "hitDice": "16d10 + 48",
+      "speed": "20 ft., swim 20 ft.",
+      "cr": "5",
+      "xp": 1800,
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 8
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "passivePerception": 10,
+      "description": "A mass of roots and rotting vegetation that lies still in a swamp until prey passes within reach.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Stealth": 2
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold and fire.",
+        "Damage immunities": "Lightning.",
+        "Condition immunities": "Blinded, deafened, and exhaustion.",
+        "Senses": "Blindsight 60 ft. The mound is blind beyond that range. Passive Perception 10.",
+        "Languages": "None.",
+        "Traits": "Lightning Absorption. Lightning deals no damage to the mound. It regains HP equal to the lightning damage it would have taken.",
+        "Encounter notes": "The living root-stem can feign death by collapsing its outer mound. A surviving root-stem may root itself and slowly regrow at an unspecified rate.",
+        "Actions": "Multiattack. Make two Slam attacks. If both hit the same Medium or smaller target, it is grappled, escape DC 14, and the mound immediately uses Engulf on it.\nSlam. Melee weapon attack, +7 to hit, reach 5 ft., one target. Deal 13 (2d8 + 4) bludgeoning damage on a hit.\nEngulf. Choose a Medium or smaller creature the mound is grappling. The creature becomes blinded and restrained, cannot breathe, and moves with the mound. At the start of each of the mound’s turns, the creature must make a DC 14 Constitution save or take 13 (2d8 + 4) bludgeoning damage. The mound can engulf only one creature at a time.",
+        "Printed source": "Monster Manual (2014), p. 270."
+      }
+    }
+  },
+  {
+    "name": "Wyvern",
+    "statBlock": {
+      "name": "Wyvern",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large dragon, unaligned",
+      "ac": 13,
+      "hp": 110,
+      "hitDice": "13d10 + 39",
+      "speed": "20 ft., fly 80 ft.",
+      "cr": "6",
+      "xp": 2300,
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 6
+        }
+      },
+      "passivePerception": 14,
+      "description": "A two-legged flying dragon with a long venomous stinger. It usually attacks from the air.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 4
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft. Passive Perception 14.",
+        "Languages": "None.",
+        "Actions": "Multiattack. Make one Bite and one Stinger attack. While flying, the wyvern can replace either one with Claws.\nBite. Melee weapon attack, +7 to hit, reach 10 ft., one creature. Deal 11 (2d6 + 4) piercing damage on a hit.\nClaws. Melee weapon attack, +7 to hit, reach 5 ft., one target. Deal 13 (2d8 + 4) slashing damage on a hit.\nStinger. Melee weapon attack, +7 to hit, reach 10 ft., one creature. On a hit, deal 11 (2d6 + 4) piercing damage. The creature makes a DC 15 Constitution save, taking another 24 (7d6) poison damage on a failure or half the poison damage on a success.",
+        "Printed source": "Monster Manual (2014), p. 303."
+      }
+    }
+  },
+  {
+    "name": "Roc",
+    "statBlock": {
+      "name": "Roc",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Gargantuan monstrosity, unaligned",
+      "ac": 15,
+      "hp": 248,
+      "hitDice": "16d20 + 80",
+      "speed": "20 ft., fly 120 ft.",
+      "cr": "11",
+      "xp": 7200,
+      "abilities": {
+        "Str": {
+          "score": 28
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "passivePerception": 14,
+      "description": "A solitary bird of prey large enough to carry off a giant. It nests high on remote peaks.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 4
+      },
+      "savingThrows": {
+        "Dex": 4,
+        "Con": 9,
+        "Wis": 4,
+        "Cha": 3
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Passive Perception 14.",
+        "Languages": "None.",
+        "Traits": "Keen Sight. Advantage on Wisdom (Perception) checks that depend on sight.",
+        "Actions": "Multiattack. Make one Beak attack and one Talons attack.\nBeak. Melee weapon attack, +13 to hit, reach 10 ft., one target. Deal 27 (4d8 + 9) piercing damage on a hit.\nTalons. Melee weapon attack, +13 to hit, reach 5 ft., one target. On a hit, deal 23 (4d6 + 9) slashing damage and grapple the target, escape DC 19. While the grapple lasts, the target is restrained and the roc cannot use Talons on anyone else.",
+        "Printed source": "Monster Manual (2014), p. 260."
+      }
+    }
+  },
+  {
+    "name": "Winter Wolf",
+    "statBlock": {
+      "name": "Winter Wolf",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large monstrosity, neutral evil",
+      "ac": 13,
+      "hp": 75,
+      "hitDice": "10d10 + 20",
+      "speed": "50 ft.",
+      "cr": "3",
+      "xp": 700,
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 7
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "passivePerception": 15,
+      "description": "A giant white wolf with freezing breath. Frost giants keep winter wolves as guards and hunting companions.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 5,
+        "Stealth": 3
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage immunities": "Cold.",
+        "Senses": "Passive Perception 15.",
+        "Languages": "Common, Giant, and Winter Wolf.",
+        "Traits": "Keen Hearing and Smell. Advantage on Wisdom (Perception) checks that depend on hearing or smell.\nPack Tactics. The wolf has advantage on an attack roll against a creature if one of the wolf’s allies is within 5 ft. of the creature and is not incapacitated.\nSnow Camouflage. Advantage on Dexterity (Stealth) checks made to hide in snowy terrain.",
+        "Actions": "Bite. Melee weapon attack, +6 to hit, reach 5 ft., one target. Deal 11 (2d6 + 4) piercing damage on a hit. A creature that takes the hit must succeed on a DC 14 Strength save or fall prone.\nCold Breath (recharge 5–6). Each creature in a 15-ft. cone makes a DC 12 Dexterity save. Deal 18 (4d8) cold damage on a failure or half on a success.",
+        "Printed source": "Monster Manual (2014), pp. 340–341."
+      }
+    }
+  }
+]

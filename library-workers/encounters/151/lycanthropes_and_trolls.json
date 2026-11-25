@@ -1,0 +1,383 @@
+[
+  {
+    "name": "Werebear",
+    "statBlock": {
+      "name": "Werebear",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (human, shapechanger), neutral good",
+      "ac": 10,
+      "hp": 135,
+      "hitDice": "18d8 + 54",
+      "speed": "30 ft. in humanoid form. 40 ft., climb 30 ft. in bear or hybrid form.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "skills": {
+        "Perception": 7
+      },
+      "passivePerception": 17,
+      "description": "A reclusive guardian that takes bear form to defend its territory. It favors claws or an axe over a bite that could spread its curse.",
+      "sections": {
+        "Armor": "AC 10 in humanoid form. AC 11 from natural armor in bear and hybrid forms.",
+        "Damage immunities": "Bludgeoning, piercing, and slashing from nonmagical attacks made without silvered weapons.",
+        "Senses": "Passive Perception 17.",
+        "Languages": "Common. It cannot speak in bear form.",
+        "Traits": "Shapechanger. As an action, polymorph into a Large bear, a Large bear-humanoid hybrid, or its true humanoid form. Size and armor class change with the form. Worn and carried equipment stays as it was. Death returns it to its humanoid form.\nKeen Smell. It has advantage on Wisdom (Perception) checks that depend on smell.",
+        "Actions": "Multiattack. In humanoid form, make two Greataxe attacks. In bear form, make two Claw attacks. In hybrid form, choose either pair.\nBite (bear or hybrid only). Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit 15 (2d10 + 4) piercing damage. A humanoid target that is not already a lycanthrope makes a DC 14 Constitution save or contracts werebear lycanthropy.\nClaw (bear or hybrid only). Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit 13 (2d8 + 4) slashing damage.\nGreataxe (humanoid or hybrid only). Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit 10 (1d12 + 4) slashing damage.",
+        "Player lycanthropy": "A character keeps its own statistics except for the changes listed here. It gains the printed nonhumanoid speeds, damage immunities, traits, and actions that require no equipment, plus proficiency with the lycanthrope's natural attacks. Use the listed natural weapon damage. The character cannot speak in animal form.\nOnly a humanoid that is not already a lycanthrope saves against the curse when hit by a curse-bearing attack. The Constitution save DC is 8 + the attacking lycanthrope's proficiency bonus + its Constitution modifier. A character who resists the curse keeps their usual alignment and personality in humanoid form. The full moon forces them into animal or hybrid form until it wanes. A character who embraces the curse acquires the lycanthrope's alignment and can eventually learn to shift at will. The DM can take control of the character until the curse is removed. Remove Curse can end an acquired curse. A natural-born lycanthrope needs Wish.\nRaise Strength to 19 if lower. Bear and hybrid forms gain +1 AC from natural armor. Use Strength for natural weapon attack and damage rolls.",
+        "Nonhuman lycanthropes": "The printed blocks assume a human. For a lycanthrope of another ancestry, the DM can retain one or more traits from its humanoid form, such as Fey Ancestry for an elf.",
+        "Printed source": "Monster Manual (2014), pp. 206–207 and 208. The player sidebar erratum clarifies curse eligibility. The profiles apply that limit to the curse-bearing attacks. Immunity wording follows the global errata."
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true
+    }
+  },
+  {
+    "name": "Wereboar",
+    "statBlock": {
+      "name": "Wereboar",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (human, shapechanger), neutral evil",
+      "ac": 10,
+      "hp": 78,
+      "hitDice": "12d8 + 24",
+      "speed": "30 ft. in humanoid or hybrid form. 40 ft. in boar form.",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "skills": {
+        "Perception": 2
+      },
+      "passivePerception": 12,
+      "description": "A territorial brawler that charges with its tusks in boar or hybrid form and fights with a heavy maul when it has hands.",
+      "sections": {
+        "Armor": "AC 10 in humanoid form. AC 11 from natural armor in boar and hybrid forms.",
+        "Damage immunities": "Bludgeoning, piercing, and slashing from nonmagical attacks made without silvered weapons.",
+        "Senses": "Passive Perception 12.",
+        "Languages": "Common. It cannot speak in boar form.",
+        "Traits": "Shapechanger. As an action, polymorph into a boar, a boar-humanoid hybrid, or its true humanoid form. Use the listed armor class and movement for the chosen form. Worn and carried equipment stays as it was. Death returns it to its humanoid form.\nCharge (boar or hybrid only). Move at least 15 ft. straight toward a target and hit it with Tusks on the same turn to deal an extra 7 (2d6) slashing damage. A creature hit this way makes a DC 13 Strength save or falls Prone.\nRelentless (recharges after a short or long rest). If damage of 14 or less would drop it to 0 HP, it drops to 1 HP instead.",
+        "Actions": "Multiattack (humanoid or hybrid only). Make two attacks, with at most one Tusks attack.\nMaul (humanoid or hybrid only). Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 10 (2d6 + 3) bludgeoning damage.\nTusks (boar or hybrid only). Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 10 (2d6 + 3) slashing damage. A humanoid target that is not already a lycanthrope makes a DC 12 Constitution save or contracts wereboar lycanthropy.",
+        "Player lycanthropy": "A character keeps its own statistics except for the changes listed here. It gains the printed nonhumanoid speeds, damage immunities, traits, and actions that require no equipment, plus proficiency with the lycanthrope's natural attacks. Use the listed natural weapon damage. The character cannot speak in animal form.\nOnly a humanoid that is not already a lycanthrope saves against the curse when hit by a curse-bearing attack. The Constitution save DC is 8 + the attacking lycanthrope's proficiency bonus + its Constitution modifier. A character who resists the curse keeps their usual alignment and personality in humanoid form. The full moon forces them into animal or hybrid form until it wanes. A character who embraces the curse acquires the lycanthrope's alignment and can eventually learn to shift at will. The DM can take control of the character until the curse is removed. Remove Curse can end an acquired curse. A natural-born lycanthrope needs Wish.\nRaise Strength to 17 if lower. Boar and hybrid forms gain +1 AC from natural armor. Use Strength for Tusks attack and damage rolls. The Charge save DC is 8 + the character’s proficiency bonus + its Strength modifier.",
+        "Nonhuman lycanthropes": "The printed blocks assume a human. For a lycanthrope of another ancestry, the DM can retain one or more traits from its humanoid form, such as Fey Ancestry for an elf.",
+        "Printed source": "Monster Manual (2014), pp. 206–207 and 209. The player sidebar erratum clarifies curse eligibility. The profiles apply that limit to the curse-bearing attacks. Immunity wording follows the global errata."
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true
+    }
+  },
+  {
+    "name": "Wererat",
+    "statBlock": {
+      "name": "Wererat",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (human, shapechanger), lawful evil",
+      "ac": 12,
+      "hp": 33,
+      "hitDice": "6d8 + 6",
+      "speed": "30 ft. in all forms.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "skills": {
+        "Perception": 2,
+        "Stealth": 4
+      },
+      "passivePerception": 12,
+      "description": "An ambusher that uses blades or crossbows in crowded streets and slips through sewers in giant rat form.",
+      "sections": {
+        "Armor": "AC 12 in all forms.",
+        "Damage immunities": "Bludgeoning, piercing, and slashing from nonmagical attacks made without silvered weapons.",
+        "Senses": "Darkvision 60 ft. in rat form only. Passive Perception 12.",
+        "Languages": "Common. It cannot speak in rat form.",
+        "Traits": "Shapechanger. As an action, polymorph into a giant rat, a rat-humanoid hybrid, or its true humanoid form. Use the chosen form’s size. Worn and carried equipment stays as it was. Death returns it to its humanoid form.\nKeen Smell. It has advantage on Wisdom (Perception) checks that depend on smell.",
+        "Actions": "Multiattack (humanoid or hybrid only). Make two attacks, with at most one Bite.\nBite (rat or hybrid only). Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 4 (1d4 + 2) piercing damage. A humanoid target that is not already a lycanthrope makes a DC 11 Constitution save or contracts wererat lycanthropy.\nShortsword (humanoid or hybrid only). Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 5 (1d6 + 2) piercing damage.\nHand Crossbow (humanoid or hybrid only). Ranged weapon attack, +4 to hit, range 30/120 ft., one target. Hit 5 (1d6 + 2) piercing damage.",
+        "Player lycanthropy": "A character keeps its own statistics except for the changes listed here. It gains the printed nonhumanoid speeds, damage immunities, traits, and actions that require no equipment, plus proficiency with the lycanthrope's natural attacks. Use the listed natural weapon damage. The character cannot speak in animal form.\nOnly a humanoid that is not already a lycanthrope saves against the curse when hit by a curse-bearing attack. The Constitution save DC is 8 + the attacking lycanthrope's proficiency bonus + its Constitution modifier. A character who resists the curse keeps their usual alignment and personality in humanoid form. The full moon forces them into animal or hybrid form until it wanes. A character who embraces the curse acquires the lycanthrope's alignment and can eventually learn to shift at will. The DM can take control of the character until the curse is removed. Remove Curse can end an acquired curse. A natural-born lycanthrope needs Wish.\nRaise Dexterity to 15 if lower. Use the higher of Strength or Dexterity for Bite attack and damage rolls.",
+        "Nonhuman lycanthropes": "The printed blocks assume a human. For a lycanthrope of another ancestry, the DM can retain one or more traits from its humanoid form, such as Fey Ancestry for an elf.",
+        "Printed source": "Monster Manual (2014), pp. 206–207 and 209. The player sidebar erratum clarifies curse eligibility. The profiles apply that limit to the curse-bearing attacks. Immunity wording follows the global errata."
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true
+    }
+  },
+  {
+    "name": "Weretiger",
+    "statBlock": {
+      "name": "Weretiger",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (human, shapechanger), neutral",
+      "ac": 12,
+      "hp": 120,
+      "hitDice": "16d8 + 48",
+      "speed": "30 ft. in humanoid or hybrid form. 40 ft. in tiger form.",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "skills": {
+        "Perception": 5,
+        "Stealth": 4
+      },
+      "passivePerception": 15,
+      "description": "A solitary hunter that prefers the scimitar or longbow in humanoid form and can pounce in tiger or hybrid form.",
+      "sections": {
+        "Armor": "AC 12 in all forms.",
+        "Damage immunities": "Bludgeoning, piercing, and slashing from nonmagical attacks made without silvered weapons.",
+        "Senses": "Darkvision 60 ft. and passive Perception 15.",
+        "Languages": "Common. It cannot speak in tiger form.",
+        "Traits": "Shapechanger. As an action, polymorph into a tiger, a tiger-humanoid hybrid, or its true humanoid form. Use the chosen form’s size and listed speed. Worn and carried equipment stays as it was. Death returns it to its humanoid form.\nKeen Hearing and Smell. It has advantage on Wisdom (Perception) checks that depend on hearing or smell.\nPounce (tiger or hybrid only). Move at least 15 ft. straight toward a creature and hit it with Claw on the same turn. The target makes a DC 14 Strength save or falls Prone. If it is Prone, the weretiger can Bite it as a bonus action.",
+        "Actions": "Multiattack (humanoid or hybrid only). In humanoid form, make two Scimitar or two Longbow attacks. In hybrid form, choose either of those pairs or two Claw attacks.\nBite (tiger or hybrid only). Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 8 (1d10 + 3) piercing damage. A humanoid target that is not already a lycanthrope makes a DC 13 Constitution save or contracts weretiger lycanthropy.\nClaw (tiger or hybrid only). Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 7 (1d8 + 3) slashing damage.\nScimitar (humanoid or hybrid only). Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 6 (1d6 + 3) slashing damage.\nLongbow (humanoid or hybrid only). Ranged weapon attack, +4 to hit, range 150/600 ft., one target. Hit 6 (1d8 + 2) piercing damage.",
+        "Player lycanthropy": "A character keeps its own statistics except for the changes listed here. It gains the printed nonhumanoid speeds, damage immunities, traits, and actions that require no equipment, plus proficiency with the lycanthrope's natural attacks. Use the listed natural weapon damage. The character cannot speak in animal form.\nOnly a humanoid that is not already a lycanthrope saves against the curse when hit by a curse-bearing attack. The Constitution save DC is 8 + the attacking lycanthrope's proficiency bonus + its Constitution modifier. A character who resists the curse keeps their usual alignment and personality in humanoid form. The full moon forces them into animal or hybrid form until it wanes. A character who embraces the curse acquires the lycanthrope's alignment and can eventually learn to shift at will. The DM can take control of the character until the curse is removed. Remove Curse can end an acquired curse. A natural-born lycanthrope needs Wish.\nRaise Strength to 17 if lower. Use Strength for natural weapon attack and damage rolls. The Pounce save DC is 8 + the character’s proficiency bonus + its Strength modifier.",
+        "Nonhuman lycanthropes": "The printed blocks assume a human. For a lycanthrope of another ancestry, the DM can retain one or more traits from its humanoid form, such as Fey Ancestry for an elf.",
+        "Printed source": "Monster Manual (2014), pp. 206–207 and 210. The player sidebar erratum clarifies curse eligibility. The profiles apply that limit to the curse-bearing attacks. Immunity wording follows the global errata."
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true
+    }
+  },
+  {
+    "name": "Werewolf",
+    "statBlock": {
+      "name": "Werewolf",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (human, shapechanger), chaotic evil",
+      "ac": 11,
+      "hp": 58,
+      "hitDice": "9d8 + 18",
+      "speed": "30 ft. in humanoid or hybrid form. 40 ft. in wolf form.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "skills": {
+        "Perception": 4,
+        "Stealth": 3
+      },
+      "passivePerception": 14,
+      "description": "A pack hunter with acute hearing and smell. It uses a spear in human form and savages prey with its claws and bite in hybrid form.",
+      "sections": {
+        "Armor": "AC 11 in humanoid form. AC 12 from natural armor in wolf and hybrid forms.",
+        "Damage immunities": "Bludgeoning, piercing, and slashing from nonmagical attacks made without silvered weapons.",
+        "Senses": "Passive Perception 14.",
+        "Languages": "Common. It cannot speak in wolf form.",
+        "Traits": "Shapechanger. As an action, polymorph into a wolf, a wolf-humanoid hybrid, or its true humanoid form. Use the listed armor class and movement for the chosen form. Worn and carried equipment stays as it was. Death returns it to its humanoid form.\nKeen Hearing and Smell. It has advantage on Wisdom (Perception) checks that depend on hearing or smell.",
+        "Actions": "Multiattack (humanoid or hybrid only). Make two Spear attacks in humanoid form. Make one Bite and one Claws attack in hybrid form.\nBite (wolf or hybrid only). Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 6 (1d8 + 2) piercing damage. A humanoid target that is not already a lycanthrope makes a DC 12 Constitution save or contracts werewolf lycanthropy.\nClaws (hybrid only). Melee weapon attack, +4 to hit, reach 5 ft., one creature. Hit 7 (2d4 + 2) slashing damage.\nSpear (humanoid only). Melee or ranged weapon attack, +4 to hit, reach 5 ft. or range 20/60 ft., one creature. Hit 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) if used with two hands for a melee attack.",
+        "Player lycanthropy": "A character keeps its own statistics except for the changes listed here. It gains the printed nonhumanoid speeds, damage immunities, traits, and actions that require no equipment, plus proficiency with the lycanthrope's natural attacks. Use the listed natural weapon damage. The character cannot speak in animal form.\nOnly a humanoid that is not already a lycanthrope saves against the curse when hit by a curse-bearing attack. The Constitution save DC is 8 + the attacking lycanthrope's proficiency bonus + its Constitution modifier. A character who resists the curse keeps their usual alignment and personality in humanoid form. The full moon forces them into animal or hybrid form until it wanes. A character who embraces the curse acquires the lycanthrope's alignment and can eventually learn to shift at will. The DM can take control of the character until the curse is removed. Remove Curse can end an acquired curse. A natural-born lycanthrope needs Wish.\nRaise Strength to 15 if lower. Wolf and hybrid forms gain +1 AC from natural armor. Use Strength for natural weapon attack and damage rolls.",
+        "Nonhuman lycanthropes": "The printed blocks assume a human. For a lycanthrope of another ancestry, the DM can retain one or more traits from its humanoid form, such as Fey Ancestry for an elf.",
+        "Printed source": "Monster Manual (2014), pp. 206–207 and 211. The player sidebar erratum clarifies curse eligibility. The profiles apply that limit to the curse-bearing attacks. Immunity wording follows the global errata. The Werewolf Multiattack also follows the errata."
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true
+    }
+  },
+  {
+    "name": "Troll (Loathsome Limb; Severed Arm)",
+    "statBlock": {
+      "name": "Troll (Loathsome Limb; Severed Arm)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Severed part of a troll",
+      "encounterProcedure": true,
+      "ac": 13,
+      "hp": 10,
+      "speed": "5 ft.",
+      "description": "A detached troll arm that crawls and lashes out under its parent’s direction.",
+      "sections": {
+        "Severing and reattachment": "When the troll takes 15 or more slashing damage from a single instance, roll a d20. On 1–10 no part is severed. On 11–14 it loses a leg if any remain. On 15–18 it loses an arm if any remain. On 19–20 it is decapitated. It survives the decapitation if it can regenerate. If the troll dies after decapitation, its severed head also dies.\nA detached part acts on the troll’s initiative with its own movement and action. If the troll finishes a short or long rest before reattaching the part, a replacement grows and the old part dies. The sidebar gives no reattachment action or timing.",
+        "Traits": "Regeneration. The part regains 10 HP at the start of its turn. Acid or fire damage prevents that healing at the start of its next turn. Applying the troll’s Regeneration to the part, it dies when it begins its turn at 0 HP and cannot regenerate.",
+        "Actions": "Claw. Make one Claw attack on the arm’s turn using the parent Troll’s attack. Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit 11 (2d6 + 4) slashing damage. The attack has disadvantage unless the troll can see both the arm and its target.",
+        "Effects on the troll": "Each lost arm removes one Claw attack from the troll’s Multiattack. Losing its head removes Bite, and the body is Blinded unless the head can see it. With one leg missing, halve the troll’s speed. With both legs missing, it falls Prone and can crawl if it has one or both arms. Halve its speed if it has only one arm to crawl with. With no arms or legs left, its speed is 0 and speed bonuses cannot increase it.",
+        "Parent encounter": "Use this procedure only with the Troll (variant). The sidebar gives each part its own AC, HP, movement and any listed attack. It gives no separate size, ability scores, challenge rating or XP. The DM decides how to resolve checks or saves the sidebar leaves unspecified.",
+        "Printed source": "Monster Manual (2014), p. 291, Loathsome Limbs sidebar and the Troll’s Regeneration."
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "printedPage": 291,
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Troll (variant)",
+          "terms": [
+            "Troll (variant)",
+            "parent Troll"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "name": "Troll (Loathsome Limb; Severed Head)",
+    "statBlock": {
+      "name": "Troll (Loathsome Limb; Severed Head)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Severed part of a troll",
+      "encounterProcedure": true,
+      "ac": 13,
+      "hp": 10,
+      "speed": "0 ft.",
+      "description": "An immobile troll head that can snap at a creature in its own space.",
+      "sections": {
+        "Severing and reattachment": "When the troll takes 15 or more slashing damage from a single instance, roll a d20. On 1–10 no part is severed. On 11–14 it loses a leg if any remain. On 15–18 it loses an arm if any remain. On 19–20 it is decapitated. It survives the decapitation if it can regenerate. If the troll dies after decapitation, its severed head also dies.\nA detached part acts on the troll’s initiative with its own movement and action. If the troll finishes a short or long rest before reattaching the part, a replacement grows and the old part dies. The sidebar gives no reattachment action or timing.",
+        "Traits": "Regeneration. The part regains 10 HP at the start of its turn. Acid or fire damage prevents that healing at the start of its next turn. Applying the troll’s Regeneration to the part, it dies when it begins its turn at 0 HP and cannot regenerate.\nKeen Smell. It has advantage on Wisdom (Perception) checks that depend on smell.",
+        "Actions": "Bite. Make one Bite attack using the parent Troll’s attack. Melee weapon attack, +7 to hit, one target in the head’s space. Hit 7 (1d6 + 4) piercing damage.",
+        "Effects on the troll": "Each lost arm removes one Claw attack from the troll’s Multiattack. Losing its head removes Bite, and the body is Blinded unless the head can see it. With one leg missing, halve the troll’s speed. With both legs missing, it falls Prone and can crawl if it has one or both arms. Halve its speed if it has only one arm to crawl with. With no arms or legs left, its speed is 0 and speed bonuses cannot increase it.",
+        "Parent encounter": "Use this procedure only with the Troll (variant). The sidebar gives each part its own AC, HP, movement and any listed attack. It gives no separate size, ability scores, challenge rating or XP. The DM decides how to resolve checks or saves the sidebar leaves unspecified.",
+        "Printed source": "Monster Manual (2014), p. 291, Loathsome Limbs sidebar and the Troll’s Regeneration."
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "printedPage": 291,
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Troll (variant)",
+          "terms": [
+            "Troll (variant)",
+            "parent Troll"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "name": "Troll (Loathsome Limb; Severed Leg)",
+    "statBlock": {
+      "name": "Troll (Loathsome Limb; Severed Leg)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Severed part of a troll",
+      "encounterProcedure": true,
+      "ac": 13,
+      "hp": 10,
+      "speed": "5 ft.",
+      "description": "A detached troll leg that moves on its own while the troll struggles to get around without it.",
+      "sections": {
+        "Severing and reattachment": "When the troll takes 15 or more slashing damage from a single instance, roll a d20. On 1–10 no part is severed. On 11–14 it loses a leg if any remain. On 15–18 it loses an arm if any remain. On 19–20 it is decapitated. It survives the decapitation if it can regenerate. If the troll dies after decapitation, its severed head also dies.\nA detached part acts on the troll’s initiative with its own movement and action. If the troll finishes a short or long rest before reattaching the part, a replacement grows and the old part dies. The sidebar gives no reattachment action or timing.",
+        "Traits": "Regeneration. The part regains 10 HP at the start of its turn. Acid or fire damage prevents that healing at the start of its next turn. Applying the troll’s Regeneration to the part, it dies when it begins its turn at 0 HP and cannot regenerate.",
+        "Actions": "The leg has its own action but cannot attack. It can move up to 5 ft. on the troll’s initiative.",
+        "Effects on the troll": "Each lost arm removes one Claw attack from the troll’s Multiattack. Losing its head removes Bite, and the body is Blinded unless the head can see it. With one leg missing, halve the troll’s speed. With both legs missing, it falls Prone and can crawl if it has one or both arms. Halve its speed if it has only one arm to crawl with. With no arms or legs left, its speed is 0 and speed bonuses cannot increase it.",
+        "Parent encounter": "Use this procedure only with the Troll (variant). The sidebar gives each part its own AC, HP, movement and any listed attack. It gives no separate size, ability scores, challenge rating or XP. The DM decides how to resolve checks or saves the sidebar leaves unspecified.",
+        "Printed source": "Monster Manual (2014), p. 291, Loathsome Limbs sidebar and the Troll’s Regeneration."
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "printedPage": 291,
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Troll (variant)",
+          "terms": [
+            "Troll (variant)",
+            "parent Troll"
+          ]
+        }
+      ]
+    }
+  }
+]

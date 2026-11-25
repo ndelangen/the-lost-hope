@@ -1,0 +1,51 @@
+name	publication	edition	status	portrait	sha256	credit	evidence
+Bear (MCDM)	Flee, Mortals!	2014 fifth edition compatible	Existing representative		4520d535cfed0d405c01c6c3c8e7b067f0ef1b157f66dd148b6398f59190d953	OpenAI ImageGen	Brown bear representative
+Bird of Prey (Small)	Flee, Mortals!	2014 fifth edition compatible	Existing representative		1ca7918af66d2f5b9784b5b444f91740c758abed387ba9880040743bc2c3fa96	OpenAI ImageGen	Hawk representative
+Bird of Prey (Tiny)	Flee, Mortals!	2014 fifth edition compatible	Existing representative		619a21c311b996b7242810390f5d3f90253f6c5d60259be26e0585e235fa499c	OpenAI ImageGen	Falcon representative
+Camel (MCDM)	Flee, Mortals!	2014 fifth edition compatible	Existing representative		bae753a3f850f569686f845b8f5db464cdd7341b0f819f5e320ee1bf0e5ceffd	OpenAI ImageGen	Camel representative
+Camel (MCDM)	Where Evil Lives	2014 fifth edition compatible	Existing representative		bae753a3f850f569686f845b8f5db464cdd7341b0f819f5e320ee1bf0e5ceffd	OpenAI ImageGen	Camel representative
+Griffon (MCDM)	Flee, Mortals!	2014 fifth edition compatible	Existing representative		7a700ff016a101d307086ca7d7b82314da0982a4b402bd0cff4aab6ba62c5699	OpenAI ImageGen	Griffon representative
+Griffon (MCDM)	Where Evil Lives	2014 fifth edition compatible	Existing representative		7a700ff016a101d307086ca7d7b82314da0982a4b402bd0cff4aab6ba62c5699	OpenAI ImageGen	Griffon representative
+Mammoth	SRD 5.1	2014 fifth edition	Matching form in another printing		d198e56e3e1f34d9d8138d8092323ba96166b4a14ceb486a67c1ad6703181f29	Original portrait generated with built-in OpenAI ImageGen	staged portrait-index-preview.json
+Mammoth	SRD 5.2.1	2024 fifth edition	Matching form in another printing		d198e56e3e1f34d9d8138d8092323ba96166b4a14ceb486a67c1ad6703181f29	OpenAI ImageGen	staged portrait-index-preview.json
+Mastiff	SRD 5.1	2014 fifth edition	Matching form in another printing		9a6c2a70aa39b8d341f35ebb2d881a3904c22c4944e7400f959eca50e1a204eb	OpenAI ImageGen	staged portrait-index-preview.json
+Mastiff	SRD 5.2.1	2024 fifth edition	Matching form in another printing		9a6c2a70aa39b8d341f35ebb2d881a3904c22c4944e7400f959eca50e1a204eb	OpenAI ImageGen	staged portrait-index-preview.json
+Mule	SRD 5.1	2014 fifth edition	Matching form in another printing		91664dfb304860eea5bec0a747378764006c4fb65006b48e91f95a3f2b6f749b	OpenAI ImageGen	staged portrait-index-preview.json
+Mule	SRD 5.2.1	2024 fifth edition	Matching form in another printing		91664dfb304860eea5bec0a747378764006c4fb65006b48e91f95a3f2b6f749b	OpenAI ImageGen	staged portrait-index-preview.json
+Octopus	SRD 5.1	2014 fifth edition	Matching form in another printing		ed66d3c271ec9083c0c12cdd3279faf0e952361b0e774730c3fc85dc86449e93	OpenAI ImageGen	staged portrait-index-preview.json
+Octopus	SRD 5.2.1	2024 fifth edition	Matching form in another printing		ed66d3c271ec9083c0c12cdd3279faf0e952361b0e774730c3fc85dc86449e93	OpenAI ImageGen	staged portrait-index-preview.json
+Owl	SRD 5.1	2014 fifth edition	Matching form in another printing		5c3783ed45aacc6ae1c16e0c483f7fac413c03249df01bdea10f732b22d36d37	OpenAI ImageGen	staged portrait-index-preview.json
+Owl	SRD 5.2.1	2024 fifth edition	Matching form in another printing		5c3783ed45aacc6ae1c16e0c483f7fac413c03249df01bdea10f732b22d36d37	OpenAI ImageGen	staged portrait-index-preview.json
+Panther	SRD 5.1	2014 fifth edition	Matching form in another printing		1a2466b8f2d3dad4acb20892748afed4a834ac9b835af737f365a3ce3ea68b0c	Original portrait generated with built-in OpenAI ImageGen	staged portrait-index-preview.json
+Panther	SRD 5.2.1	2024 fifth edition	Matching form in another printing		1a2466b8f2d3dad4acb20892748afed4a834ac9b835af737f365a3ce3ea68b0c	OpenAI ImageGen	staged portrait-index-preview.json
+Piranha	SRD 5.2.1	2024 fifth edition	Matching form in another printing		45f9c014c3a37d14423a5213437b9879dc5df7c7e4f676dcd364cfc6839be4c5	OpenAI ImageGen	staged portrait-index-preview.json
+Plesiosaurus	SRD 5.1	2014 fifth edition	Matching form in another printing		c1ccf37963e1f9ea88fa45b872eb1c9d5874a3d184a98ad52f88b86a4df356a5	OpenAI ImageGen	staged portrait-index-preview.json
+Pony	SRD 5.1	2014 fifth edition	Matching form in another printing		38d3cd71d5950f88ec7488ade5ea1568d33a849fc7fc3be2bc41aea96291e444	OpenAI ImageGen	staged portrait-index-preview.json
+Pony	SRD 5.2.1	2024 fifth edition	Matching form in another printing		38d3cd71d5950f88ec7488ade5ea1568d33a849fc7fc3be2bc41aea96291e444	OpenAI ImageGen	staged portrait-index-preview.json
+Quipper	SRD 5.1	2014 fifth edition	Matching form in another printing		b10ee08895edf0ca1fa8a26c25a82fc0cad37aeffb44ca84127dcceea84bbcd4	OpenAI ImageGen	staged portrait-index-preview.json
+Raven	Revised v3.5 SRD (Monsters)	3.5 edition	Matching form in another printing		81a7246537c76b587f468500b948c8c6df493567126883ec627d6266b3cf15f8	Original portrait generated with OpenAI ImageGen	staged portrait-index-preview.json
+Raven	SRD 5.1	2014 fifth edition	Matching form in another printing		81a7246537c76b587f468500b948c8c6df493567126883ec627d6266b3cf15f8	OpenAI ImageGen	staged portrait-index-preview.json
+Raven	SRD 5.2.1	2024 fifth edition	Matching form in another printing		81a7246537c76b587f468500b948c8c6df493567126883ec627d6266b3cf15f8	OpenAI ImageGen	staged portrait-index-preview.json
+Rhinoceros	SRD 5.1	2014 fifth edition	Matching form in another printing		52429ef13ba662e36f9383e708925849fe7bdbfc98390dbbd428c41e6e55badb	OpenAI ImageGen	staged portrait-index-preview.json
+Rhinoceros	SRD 5.2.1	2024 fifth edition	Matching form in another printing		52429ef13ba662e36f9383e708925849fe7bdbfc98390dbbd428c41e6e55badb	OpenAI ImageGen	staged portrait-index-preview.json
+Scorpion	SRD 5.1	2014 fifth edition	Matching form in another printing		c93a0150b8dc71654dd0fcfa019a65001bdc5eec5d3a65dc2eccd49427ac64bb	OpenAI ImageGen	staged portrait-index-preview.json
+Scorpion	SRD 5.2.1	2024 fifth edition	Matching form in another printing		c93a0150b8dc71654dd0fcfa019a65001bdc5eec5d3a65dc2eccd49427ac64bb	OpenAI ImageGen	staged portrait-index-preview.json
+Sea Horse	SRD 5.1	2014 fifth edition	Matching form in another printing		b945b89924ea71d69b00f16c39853f9e304556f5730d730a6f80cef6affcc009	OpenAI ImageGen	staged portrait-index-preview.json
+Seahorse	SRD 5.2.1	2024 fifth edition	Matching form in another printing		52d51a66b31b0494b4cb70ac5c80b2730a9380f04673a18752ce54c7924c3b33	OpenAI ImageGen	staged portrait-index-preview.json
+Spider	SRD 5.1	2014 fifth edition	Matching form in another printing		036b54df3da6210578f4165a36f19e9cd0d054c350745076eb5708b2f86eb341	OpenAI ImageGen	staged portrait-index-preview.json
+Spider	SRD 5.2.1	2024 fifth edition	Matching form in another printing		036b54df3da6210578f4165a36f19e9cd0d054c350745076eb5708b2f86eb341	OpenAI ImageGen	staged portrait-index-preview.json
+Stirge	SRD 5.1	2014 fifth edition	Matching form in another printing		44d2222095b8312eee44580c4dfd1ef25ade8416fc3ba660e1ef8a50c960c4d6	OpenAI ImageGen	staged portrait-index-preview.json
+Swarm of Piranhas	SRD 5.2.1	2024 fifth edition	Matching form in another printing		63f0f1c375ee051724b8343df8fee238c0a96a5f12227887fc74290c81d743ce	OpenAI ImageGen	staged portrait-index-preview.json
+Swarm of Venomous Snakes	SRD 5.2.1	2024 fifth edition	Matching form in another printing		18df6dd4f89faf20f147ea6c0293bed5ab449232b36e689ddf3a99735637b7fe	OpenAI ImageGen	staged portrait-index-preview.json
+Tiger	SRD 5.1	2014 fifth edition	Matching form in another printing		18c27e5dc246321344267e149b854194345c611973ff923201f76938bdc949d5	OpenAI ImageGen	staged portrait-index-preview.json
+Tiger	SRD 5.2.1	2024 fifth edition	Matching form in another printing		18c27e5dc246321344267e149b854194345c611973ff923201f76938bdc949d5	OpenAI ImageGen	staged portrait-index-preview.json
+Triceratops	SRD 5.1	2014 fifth edition	Matching form in another printing		7ddfb45215f9e925e1bf98d57e9682f3bb0cf33f84e2080a06a4192a28d7e789	OpenAI ImageGen	staged portrait-index-preview.json
+Tyrannosaurus Rex	SRD 5.1	2014 fifth edition	Matching form in another printing		379f4ae28393eff544c05d96fc175329edbe06e9f2e099789d926491622ab316	OpenAI ImageGen	staged portrait-index-preview.json
+Venomous Snake	SRD 5.2.1	2024 fifth edition	Matching form in another printing		0618654cb0d968dc849a9fa9e98e607562be990937f801feb4059362135124e7	OpenAI ImageGen	staged portrait-index-preview.json
+Vulture	SRD 5.1	2014 fifth edition	Matching form in another printing		91e2cc580129d056d862570c6b97055617743aa5a69576757219a4531bc2a1e7	OpenAI ImageGen	staged portrait-index-preview.json
+Vulture	SRD 5.2.1	2024 fifth edition	Matching form in another printing		91e2cc580129d056d862570c6b97055617743aa5a69576757219a4531bc2a1e7	OpenAI ImageGen	staged portrait-index-preview.json
+Warhorse	SRD 5.1	2014 fifth edition	Matching form in another printing		14f25a324412d031c2036a64ad7a6d3e71e18c81cf5aec291568dcc05d351daf	OpenAI ImageGen	staged portrait-index-preview.json
+Warhorse	SRD 5.2.1	2024 fifth edition	Matching form in another printing		14f25a324412d031c2036a64ad7a6d3e71e18c81cf5aec291568dcc05d351daf	OpenAI ImageGen	staged portrait-index-preview.json
+Wildcat (Large)	Flee, Mortals!	2014 fifth edition compatible	Existing representative		1a2466b8f2d3dad4acb20892748afed4a834ac9b835af737f365a3ce3ea68b0c	OpenAI ImageGen	Large wildcat representative
+Wolf	SRD 5.1	2014 fifth edition	Matching form in another printing		aabb9d05cfea3f0070408b27bca9705475414773b058e88008ef333d2da9b135	OpenAI ImageGen	staged portrait-index-preview.json
+Wolf	SRD 5.2.1	2024 fifth edition	Matching form in another printing		aabb9d05cfea3f0070408b27bca9705475414773b058e88008ef333d2da9b135	OpenAI ImageGen	staged portrait-index-preview.json

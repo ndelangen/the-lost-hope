@@ -1,0 +1,18 @@
+{
+  "baseline": "d20b7bfc1c57e111df3c7b56d47a9614c7edf6ca",
+  "temporaryCopy": true,
+  "exactBeastProfiles": 2,
+  "testedConditionalRuleProfiles": 2,
+  "existingPublicationVersionsPreserved": true,
+  "publisherGalleriesPreserved": true,
+  "searchableByNameAndSourceHabitatOrAppearance": 2,
+  "portraitCoverage": {
+    "Dire Weasel": "generated",
+    "Rat": "generated"
+  },
+  "versionPortraitsVerified": 2,
+  "newPortraitDrafts": 2,
+  "printedMovementRatesPreserved": true,
+  "originalEditionSavesAndAttacksVerified": true,
+  "collectiveRatChallengeKeptOutOfIndividualStats": true
+}

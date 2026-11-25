@@ -1,0 +1,29 @@
+{
+  "commit": "7b5ba6ab404b3875dcb3f4b669af4984301f69b4",
+  "publication": "Flee, Mortals!",
+  "encounterVersions": 2,
+  "fullStatBlocks": 2,
+  "generatedPortraitsInstalled": 2,
+  "creditedGalleriesVerified": 2,
+  "allRecentVersionsWithGeneratedPortrait": 580,
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "visualComparison": "output/dm-library/review/encounters-49-before-after.jpg",
+  "styleReferenceSheet": "output/dm-library/review/encounters-49-style-reference.jpg",
+  "results": "output/dm-library/encounter-batches/49/results.json",
+  "searchResults": "output/dm-library/encounter-batches/49/search-results.json",
+  "nextSourcePublication": "Flee, Mortals!",
+  "unverifiedNextCandidates": [
+    {
+      "name": "Durixaviinox",
+      "source": "https://www.dndbeyond.com/monsters/4485829-durixaviinox",
+      "challenge": "20"
+    },
+    {
+      "name": "Forzaantilirys",
+      "source": "https://www.dndbeyond.com/monsters/4485845-forzaantilirys",
+      "challenge": "24"
+    }
+  ],
+  "nextSourceNote": "Both dragons are indexed under Flee, Mortals! and Where Evil Lives and have no entry in the local stat-block overrides. Check the final printings first."
+}

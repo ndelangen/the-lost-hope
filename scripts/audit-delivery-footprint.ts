@@ -1,13 +1,14 @@
 import { existsSync } from 'node:fs'
-import { readFile, readdir, writeFile } from 'node:fs/promises'
+import { readFile, readdir, stat, writeFile } from 'node:fs/promises'
 import { basename, dirname, join } from 'node:path'
 import { gzipSync } from 'node:zlib'
 
 import { JSDOM } from 'jsdom'
 import sharp from 'sharp'
 
+import { GENERATED_LIBRARY_RESPONSIVE_IMAGES } from '../src/generated/library-responsive-images'
 import { GENERATED_RESPONSIVE_IMAGES } from '../src/generated/responsive-images'
-import { PUBLIC_PAGE_DESCRIPTORS } from '../src/lib/public-page-descriptors'
+import { PRERENDERED_PUBLIC_PAGE_DESCRIPTORS } from '../src/lib/public-page-descriptors'
 import { RESPONSIVE_IMAGE_SOURCES } from './image-sources'
 import { jpegFrame } from './jpeg'
 /* oxlint-disable no-await-in-loop -- the audit reports the precise route or asset that fails */
@@ -100,7 +101,8 @@ async function assertOpaqueIco(path: string): Promise<void> {
 
 async function auditGeneratedImages(): Promise<void> {
   const expectedFiles = new Set<string>()
-  for (const [logicalSource, image] of Object.entries(GENERATED_RESPONSIVE_IMAGES)) {
+  const images = { ...GENERATED_RESPONSIVE_IMAGES, ...GENERATED_LIBRARY_RESPONSIVE_IMAGES }
+  for (const [logicalSource, image] of Object.entries(images)) {
     assert(image.quality === 80, `${logicalSource} is not configured for q80`)
     assert(image.progressive, `${logicalSource} is not configured as progressive`)
     assert(image.chromaSubsampling === '4:2:0', `${logicalSource} is not configured as 4:2:0`)
@@ -166,6 +168,12 @@ async function auditHtmlAndReport(): Promise<void> {
       javascript.files.every((file) => !file.startsWith('___icons-') && !file.startsWith('icons-')),
       `${route} initial graph includes an icon catalogue chunk`,
     )
+    assert(
+      javascript.files.every(
+        (file) => !file.startsWith('published-library-') && !file.startsWith('library-image-'),
+      ),
+      `${route} initial graph includes library data or artwork metadata`,
+    )
     for (const image of document.querySelectorAll<HTMLImageElement>('img')) {
       const source = image.getAttribute('src') ?? ''
       if (!source.includes('/assets/generated-images/')) continue
@@ -204,7 +212,7 @@ async function auditHtmlAndReport(): Promise<void> {
     'Large portrait viewer image was prerendered before interaction',
   )
   assert(
-    PUBLIC_PAGE_DESCRIPTORS.every(({ path }) => existsSync(outputPath(path))),
+    PRERENDERED_PUBLIC_PAGE_DESCRIPTORS.every(({ path }) => existsSync(outputPath(path))),
     'At least one public route was not prerendered',
   )
 
@@ -224,6 +232,15 @@ async function auditHtmlAndReport(): Promise<void> {
     ),
   )
   console.log(`Wrote ${output}`)
+}
+
+const catalogChunks = (await readdir(ASSET_DIRECTORY)).filter((file) =>
+  /^published-library(?:-catalog-.*)?-[\w-]+\.js$/u.test(file),
+)
+assert(catalogChunks.length > 0, 'No published library catalog chunks were emitted')
+for (const file of catalogChunks) {
+  const { size } = await stat(join(ASSET_DIRECTORY, file))
+  assert(size < 10_000_000, `Library asset ${file} exceeds 10 MB`)
 }
 
 await auditGeneratedImages()

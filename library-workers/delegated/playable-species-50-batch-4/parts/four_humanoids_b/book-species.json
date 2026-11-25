@@ -1,0 +1,73 @@
+[
+  {
+    "name": "Firbolg",
+    "kind": "species",
+    "publication": "The Complete Book of Humanoids (1993)",
+    "edition": "AD&D 2nd edition",
+    "traits": [
+      "Initial scores change by +2 Strength and −2 Charisma. Listed ranges are Str 14–19, Dex 8–15, Con 12–18, Int and Wis 8–18, and Cha 3–14.",
+      "Fighter up to level 12 or shaman up to level 7. Class Hit Dice plus 13 HP at first level. Natural AC 3, with a prohibition on armor and shields. Treated as Large for damage. Player characters may be of any alignment.",
+      "Class XP thresholds are doubled, or tripled for a firbolg shaman. Shamans also get two fixed, randomly selected first-level illusion spells at each of shaman levels 1–5 and two second-level spells at each of levels 6 and 7. Each can be used once per day.",
+      "Gains one power at each odd level starting at 3: detect magic, diminution at twice the potion effect, fools’ gold, forget, and alter self. Each unlocked power is usable once a day and only outside melee.",
+      "Can wield large human weapons one-handed without penalty, but human-made weapons gain no Strength bonuses. Wield an oversized firbolg-made weapon two-handed for double damage as specified by the entry.",
+      "With a hand free, can deflect up to two incoming missiles a round on a d20 result of 6 or more. Can catch large missiles such as boulders instead, then return them the next round at −2 to hit. Magic resistance 15% also applies to beneficial spells.",
+      "Listed languages are Firbolg, Common and Storm Giant."
+    ]
+  },
+  {
+    "name": "Voadkyn",
+    "kind": "species",
+    "publication": "The Complete Book of Humanoids (1993)",
+    "edition": "AD&D 2nd edition",
+    "traits": [
+      "Initial adjustments are +1 Strength, +2 Dexterity, −1 Constitution, and −2 Wisdom. Listed ranges are Str 11–18, Dex 13–19, Con 8–16, Int 11–17, Wis 3–16, Cha 3–18.",
+      "Fighter or ranger to 11, mage to 8, shaman to 7, and thief to 10. Fighters and rangers use the paladin XP table. Class Hit Dice plus 7 HP at first level. Natural AC 8. Player characters may be any alignment.",
+      "90% resistance to sleep and charm spells and 90-foot infravision. Level 7 unlocks a typical humanoid form between 3 and 15 feet tall. It cannot copy an individual. The entry does not set usage frequency.",
+      "Forest movement can be silent, imposing −4 on opposing surprise rolls, and blending with vegetation can defeat observers unable to detect invisible creatures. Can emerge, shoot one arrow, and reach hiding again in a single round.",
+      "At full size, a giant-kin longbow grants +1 on attack, extends range by 50%, and deals 1d8 with its arrows. Treated as Large when taking damage. High Strength grants no bonus to attack rolls.",
+      "Listed languages are Voadkyn, Treant, Sylvan Elf and Common."
+    ]
+  },
+  {
+    "name": "Saurial",
+    "kind": "species",
+    "publication": "The Complete Book of Humanoids (1993)",
+    "edition": "AD&D 2nd edition",
+    "traits": [
+      "Four lineages share the Saurial profile. Ability range below uses Str/Dex/Con/Int/Wis/Cha order. All use class Hit Dice.",
+      "Bladeback: +1 Wisdom, +1 Charisma, −2 Dexterity. Ranges 10–18 / 3–14 / 5–18 / 3–18 / 7–18 / 5–18. Natural AC 4 and +2 starting HP. Fighter, mage, druid or thief to 9, cleric unlimited. Two claws at 1d4 each and a 1d6 razor tail for attackers behind it. Takes damage as Large.",
+      "Finhead: no ability changes. Ranges 7–18 / 5–18 / 3–18 / 3–18 / 3–18 / 3–18. Natural AC 5. Fighter unlimited, ranger or paladin to 12, mage, cleric, druid or thief to 9. Two 1d3 claws or a 1d2 tail whip.",
+      "Flyer: +2 Dexterity, −1 Strength, −1 Constitution. Ranges 3–17 / 7–19 / 3–17 / 3–18 / 3–18 / 3–18. Natural AC 6. Fighter, mage, cleric or druid to 9, thief unlimited. Two claws and a bite at 1d2 each. Flight 24, maneuverability C.",
+      "Hornhead: +1 Strength, +1 Intelligence, −2 Dexterity. Ranges 12–18 / 2–12 / 8–18 / 7–19 / 3–18 / 3–18. Natural AC 4 and +4 starting HP. Fighter, cleric, druid or thief to 9, illusionist to 12, mage unlimited. Two claws at 1d4 each, 2d4 tail, or 2d6 horn charge as listed. Takes damage as Large.",
+      "When eligible for a prime requisite XP bonus, a nominal cap of 9 becomes 10. Saurials can be any alignment. All have 60-foot infravision, +2 on saves against sound effects and −2 against scent or gas effects.",
+      "Saurials do not roll percentile Strength. Non-Saurial weapons incur −1 to hit. Saurial wizard spells use memory sticks and require Saurial spellbooks and scrolls rather than those of other peoples.",
+      "Prolonged cold causes torpor after about one turn per foot of height, doubled by insulated clothing. Once warmed, recovery takes one to two hours. More than a day of cold exposure is fatal.",
+      "Saurials speak with high-frequency sounds and scents and cannot speak human languages. Some understand Common, and an adventurer may use a magic item to communicate verbally with companions."
+    ]
+  },
+  {
+    "name": "Swanmay",
+    "kind": "species",
+    "publication": "The Complete Book of Humanoids (1993)",
+    "edition": "AD&D 2nd edition",
+    "traits": [
+      "Human women admitted to a wardens’ sorority. Initial adjustments are +1 Dexterity and +1 Wisdom. Ranger minima in Str/Dex/Con/Int/Wis/Cha order are 13/13/14/9/14/9, druid minima 9/9/12/12/12/15. Other scores max at 18 except Wisdom at 19.",
+      "Any good ranger to level 14 or true neutral druid to level 12. Hit Dice come from class. The player entry lists natural AC 7. Rangers gain tracking and druids gain weather sense as bonus proficiencies.",
+      "A personal magical token permits changing between human and swan at will. The token changes with her or appears on the bird’s leg. Other gear stays behind. Without the token she cannot change forms, and replacing a destroyed token calls for a special quest.",
+      "In swan form she flies at rate 19 with maneuverability D, resists ordinary weapons that lack a +1 enchantment or better, and has 2% magic resistance per Hit Die. The PHBR10 player text supplies no swan-form attack."
+    ]
+  },
+  {
+    "name": "Sand Giant",
+    "kind": "species",
+    "publication": "Monster Manual III (3.5, 2004)",
+    "edition": "3.5 edition",
+    "traits": [
+      "+16 Str, +10 Dex, +10 Con, +6 Wis and +2 Cha. Large, with −1 attack and AC, −4 Hide, +4 grapple and doubled Medium carrying limits as printed in the player entry. Land 40 feet, burrow 10 feet, 10-foot face and reach. Low-light vision.",
+      "15 racial Giant Hit Dice provide 15d8, base attack +11, base Fort/Ref/Will +9/+5/+5, six feats, and 18 × (2 + Int modifier, minimum 1) skill points. Racial class skills are Hide, Knowledge (nature), Listen, Spot and Survival. +8 Hide and Survival in deserts.",
+      "+11 natural armor, immunity to fire and cold vulnerability. Sand blasters count as martial for sand giants. Once each per day: meld into stone and statue at caster level 15. At will, a supernatural free action produces a personal blur effect at caster level 15.",
+      "Sand blaster: 10-foot cone, 1d8 damage, Constitution-based Reflex half. Living creatures that fail their save take −4 AC and −2 attack for 3 rounds. Reloading takes a full round and 5 pounds of sand.",
+      "Automatic languages Common and Giant. Bonus Draconic, Elven, Goblin, Orc. Favored class fighter, level adjustment +4, and starting ECL 19 before added class levels."
+    ]
+  }
+]

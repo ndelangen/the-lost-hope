@@ -1,0 +1,409 @@
+[
+  {
+    "name": "Githyanki Gish",
+    "statBlock": {
+      "name": "Githyanki Gish",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 140,
+      "classification": "Medium humanoid (gith, wizard), any alignment",
+      "ac": 17,
+      "hp": 130,
+      "hitDice": "20d8 + 40",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "10",
+      "xp": 5900,
+      "passivePerception": 16,
+      "description": "A githyanki warrior who fights with a longsword and psionic magic.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 6,
+        "Int": 7,
+        "Wis": 6
+      },
+      "skills": {
+        "Insight": 6,
+        "Perception": 6,
+        "Stealth": 6
+      },
+      "sections": {
+        "Languages": "Gith.",
+        "Armor": "Half plate.",
+        "Actions": "Multiattack. Make three attacks in any combination of Longsword and Telekinetic Bolt, or make one of those attacks and use Spellcasting.\nLongsword. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage with both hands, plus 22 (5d8) psychic damage either way.\nTelekinetic Bolt. Ranged spell attack, +7 to hit, range 120 ft., one target. A hit deals 28 (8d6) force damage.",
+        "Spellcasting": "As an action, cast one listed spell with no components, using Intelligence (spell save DC 15).\nAt will. Light, Mage Hand (invisible hand), Message.\n3/day each. Fireball, Invisibility, Nondetection (self only).\n1/day each. Dimension Door, Plane Shift, Telekinesis.",
+        "Bonus actions": "Astral Step (recharge 4–6). Teleport up to 30 ft. to a visible, unoccupied space, taking along anything the githyanki is wearing or carrying.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 140."
+      }
+    }
+  },
+  {
+    "name": "Githyanki Kith’rak",
+    "statBlock": {
+      "name": "Githyanki Kith’rak",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 140,
+      "classification": "Medium humanoid (gith), any alignment",
+      "ac": 18,
+      "hp": 180,
+      "hitDice": "24d8 + 72",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 17
+        }
+      },
+      "cr": "12",
+      "xp": 8400,
+      "passivePerception": 16,
+      "description": "A githyanki officer who rallies nearby troops and fights with a psionically charged greatsword.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 7,
+        "Int": 7,
+        "Wis": 6
+      },
+      "skills": {
+        "Intimidation": 7,
+        "Perception": 6
+      },
+      "sections": {
+        "Languages": "Gith.",
+        "Armor": "Plate armor.",
+        "Actions": "Multiattack. Make three Greatsword attacks.\nGreatsword. Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 11 (2d6 + 4) slashing damage plus 17 (5d6) psychic damage.",
+        "Spellcasting": "As an action, cast one listed spell with no components, using Intelligence (spell save DC 15).\nAt will. Mage Hand (invisible hand).\n3/day each. Blur, Nondetection (self only).\n1/day each. Plane Shift, Telekinesis.",
+        "Bonus actions": "Astral Step (recharge 4–6). Teleport up to 30 ft. to a visible, unoccupied space, taking along anything the githyanki is wearing or carrying.\nRally the Troops. Magically end the charmed and frightened conditions on the githyanki and any creatures of its choice that it can see within 30 ft.",
+        "Reactions": "Parry. When a melee attack would hit, add 4 to the githyanki’s AC for that attack. It must see the attacker and have a melee weapon in hand.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 140."
+      }
+    }
+  },
+  {
+    "name": "Githyanki Supreme Commander",
+    "statBlock": {
+      "name": "Githyanki Supreme Commander",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 141,
+      "classification": "Medium humanoid (gith), any alignment",
+      "ac": 18,
+      "hp": 187,
+      "hitDice": "22d8 + 88",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "14",
+      "xp": 11500,
+      "passivePerception": 18,
+      "description": "A githyanki commander who leads troops from the front and wields a silver greatsword that can sever an astral traveler’s tether.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 9,
+        "Int": 8,
+        "Wis": 8
+      },
+      "skills": {
+        "Intimidation": 9,
+        "Perception": 8
+      },
+      "sections": {
+        "Languages": "Gith.",
+        "Armor": "Plate armor.",
+        "Traits": "Legendary Resistance (3/day). When the gith fails a saving throw, it can choose to succeed instead.",
+        "Actions": "Multiattack. Make two Silver Greatsword attacks.\nSilver Greatsword. Melee weapon attack, +12 to hit, reach 5 ft., one target. A hit deals 14 (2d6 + 7) slashing damage plus 17 (5d6) psychic damage. On a critical hit against a target in an astral body, such as one using Astral Projection, the commander can sever the silvery cord connecting the target to its material body instead of dealing damage.",
+        "Spellcasting": "As an action, cast one listed spell with no components, using Intelligence (spell save DC 16).\nAt will. Mage Hand (invisible hand).\n3/day each. Levitate (self only), Nondetection (self only).\n1/day each. Bigby’s Hand, Mass Suggestion, Plane Shift, Telekinesis.",
+        "Bonus actions": "Astral Step. Teleport up to 30 ft. to a visible, unoccupied space, taking along anything the githyanki is wearing or carrying.",
+        "Reactions": "Parry. When a melee attack would hit, add 5 to the githyanki’s AC for that attack. It must see the attacker and have a melee weapon in hand.",
+        "Legendary actions": "Spend the stated cost at the end of another creature’s turn to use one option. All 3 legendary actions refresh at the start of the gith’s turn. The gith can use none while incapacitated or otherwise unable to act. If surprised, it cannot use any until its first turn ends.\nCommand Ally (1 action). Choose an ally the commander can see within 30 ft. If the ally can see or hear the commander, it may spend its reaction to make one melee weapon attack with advantage.\nAttack (2 actions). Make one Silver Greatsword attack.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 141."
+      }
+    }
+  },
+  {
+    "name": "Githzerai Anarch",
+    "statBlock": {
+      "name": "Githzerai Anarch",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 142,
+      "classification": "Medium humanoid (gith), any alignment",
+      "ac": 20,
+      "hp": 144,
+      "hitDice": "17d8 + 68",
+      "speed": "30 ft., fly 40 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 21
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 20
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "16",
+      "xp": 15000,
+      "passivePerception": 20,
+      "description": "A githzerai master whose discipline can shape Limbo and turn gravity in any direction.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Str": 8,
+        "Dex": 10,
+        "Int": 9,
+        "Wis": 10
+      },
+      "skills": {
+        "Arcana": 9,
+        "Insight": 10,
+        "Perception": 10
+      },
+      "sections": {
+        "Languages": "Gith.",
+        "Traits": "Legendary Resistance (3/day). When the gith fails a saving throw, it can choose to succeed instead.\nPsychic Defense. When the githzerai wears no armor and wields no shield, its AC includes its Wisdom modifier.",
+        "Actions": "Multiattack. Make three Unarmed Strike attacks.\nUnarmed Strike. Melee weapon attack, +10 to hit, reach 5 ft., one target. A hit deals 9 (1d8 + 5) bludgeoning damage plus 18 (4d8) psychic damage.",
+        "Spellcasting": "As an action, cast one listed spell with no components, using Wisdom (spell save DC 18).\nAt will. Mage Hand (invisible hand).\n3/day each. See Invisibility, Telekinesis.\n1/day each. Globe of Invulnerability, Plane Shift, Wall of Force.",
+        "Legendary actions": "Spend the stated cost at the end of another creature’s turn to use one option. All 3 legendary actions refresh at the start of the gith’s turn. The gith can use none while incapacitated or otherwise unable to act. If surprised, it cannot use any until its first turn ends.\nStrike (1 action). Make one Unarmed Strike attack.\nTeleport (1 action). Teleport up to 30 ft. to a visible, unoccupied space, bringing anything the anarch is wearing or carrying.\nChange Gravity (3 actions). Cast Reverse Gravity using Wisdom. The spell otherwise works normally, but the anarch can aim its area in any direction and creatures and objects fall toward that end.",
+        "Lair": "CR 17 (18,000 XP) in its lair.",
+        "Lair actions": "Use one option on initiative count 20, losing ties, while in the lair and able to act. The same option cannot be used in consecutive rounds. If surprised, the anarch must finish its first turn before using one.\nCreate Object. Cast Creation at 9th level using the unformed substance of Limbo in place of shadow material. In Limbo the object persists regardless of its composition until the anarch loses concentration. Its concentration also ends if it moves more than 120 ft. from the object.\nMove Object. Choose a visible object within 150 ft. and make a Wisdom check with advantage to move it magically. The DC is 5 for Tiny, 10 for Small, 15 for Medium, 20 for Large, or 25 for Huge or larger.\nPsionic Bolt. Cast Lightning Bolt at 5th level, with the option to change its damage from lightning to cold, fire, psychic, radiant, or thunder. Only fire and lightning can ignite flammable objects.",
+        "Regional effects": "The anarch’s presence can cause one or both effects.\nForm Substance. In Limbo, spend 10 minutes stabilizing the unformed substance in a 5-mile area centered on the anarch. The anarch gives it any inanimate shapes and material composition it chooses.\nStabilize Object. An object created in Limbo and brought to the Material Plane remains stable while within 1 mile of the anarch, with no action required.\nAfter the anarch dies, the effects end in 1d6 rounds. Formed substances break down into unstable energy and matter and dissipate 1d6 rounds later.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 142."
+      }
+    }
+  },
+  {
+    "name": "Githzerai Enlightened",
+    "statBlock": {
+      "name": "Githzerai Enlightened",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 143,
+      "classification": "Medium humanoid (gith), any alignment",
+      "ac": 18,
+      "hp": 112,
+      "hitDice": "15d8 + 45",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 19
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 17
+        },
+        "Wis": {
+          "score": 19
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "cr": "10",
+      "xp": 5900,
+      "passivePerception": 18,
+      "description": "A githzerai martial adept who can send a target one round forward in time.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Str": 6,
+        "Dex": 8,
+        "Int": 7,
+        "Wis": 8
+      },
+      "skills": {
+        "Arcana": 7,
+        "Insight": 8,
+        "Perception": 8
+      },
+      "sections": {
+        "Languages": "Gith.",
+        "Traits": "Psychic Defense. When the githzerai wears no armor and wields no shield, its AC includes its Wisdom modifier.",
+        "Actions": "Multiattack. Make three Unarmed Strike attacks.\nUnarmed Strike. Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 13 (2d8 + 4) bludgeoning damage plus 18 (4d8) psychic damage.\nTemporal Strike (recharge 6). Melee weapon attack, +8 to hit, reach 5 ft., one creature. A hit deals 13 (2d8 + 4) bludgeoning damage plus 52 (8d12) psychic damage. The target makes a DC 16 Wisdom save. On a failure, it moves one round forward in time. It vanishes for that round and then reappears in the space it left. If that space is occupied, it reappears in the nearest unoccupied space.",
+        "Spellcasting": "As an action, cast one listed spell with no components, using Wisdom (spell save DC 16).\nAt will. Mage Hand (invisible hand).\n3/day. See Invisibility.\n1/day each. Plane Shift, Teleport.",
+        "Reactions": "Slow Fall. When it falls, the githzerai can reduce the falling damage it takes by 50.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 143."
+      }
+    }
+  },
+  {
+    "name": "Gnoll Flesh Gnawer",
+    "statBlock": {
+      "name": "Gnoll Flesh Gnawer",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 144,
+      "classification": "Medium monstrosity, typically chaotic evil",
+      "ac": 14,
+      "hp": 22,
+      "hitDice": "4d8 + 4",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 10,
+      "description": "A quick gnoll that rushes through melee and follows a finishing blow with a bite.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 4
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Gnoll.",
+        "Armor": "Studded leather.",
+        "Actions": "Multiattack. Make one Bite attack and two Shortsword attacks.\nBite. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 4 (1d4 + 2) piercing damage.\nShortsword. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 5 (1d6 + 2) piercing damage.\nSudden Rush. Until this turn ends, the gnoll gains 60 ft. of speed and provokes no opportunity attacks.",
+        "Bonus actions": "Rampage. On its own turn, after dropping a creature to 0 hit points with a melee attack, the gnoll moves up to half its speed and makes a Bite attack.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 144."
+      }
+    }
+  },
+  {
+    "name": "Gnoll Hunter",
+    "statBlock": {
+      "name": "Gnoll Hunter",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 144,
+      "classification": "Medium monstrosity, typically chaotic evil",
+      "ac": 13,
+      "hp": 22,
+      "hitDice": "4d8 + 4",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 13,
+      "description": "A gnoll skirmisher whose arrows slow their targets.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 3,
+        "Stealth": 4
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Gnoll.",
+        "Armor": "Leather armor.",
+        "Actions": "Multiattack. Make two attacks in any combination of Bite, Spear, and Longbow.\nBite. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 4 (1d4 + 2) piercing damage.\nSpear. Melee or ranged weapon attack, +4 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing damage when making a melee attack with both hands.\nLongbow. Ranged weapon attack, +4 to hit, range 150/600 ft., one target. A hit deals 6 (1d8 + 2) piercing damage and reduces the target’s speed by 10 ft. until the end of its next turn.",
+        "Bonus actions": "Rampage. On its own turn, after dropping a creature to 0 hit points with a melee attack, the gnoll moves up to half its speed and makes a Bite attack.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 144."
+      }
+    }
+  }
+]

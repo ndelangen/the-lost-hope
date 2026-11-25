@@ -1,0 +1,119 @@
+{
+  "builds": [
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "difficulty": "Provisional CR 1. ECL 1 (1 class HD, LA +0).",
+      "size": "Medium",
+      "type": "Humanoid (Darfellan)",
+      "senses": "Normal vision. Blindsense 20 ft. in water only.",
+      "languages": "Darfellan, Common",
+      "id": "darfellan-breakwater-sea-cave-guide-35e",
+      "title": "Darfellan sea-cave guide, Barbarian 1",
+      "ac": 13,
+      "hp": 15,
+      "hitDice": "1d12+3",
+      "initiative": 1,
+      "speed": "30 ft., swim 40 ft.",
+      "abilityScores": {
+        "STR": 18,
+        "DEX": 12,
+        "CON": 16,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Climb +6",
+        "Listen +7",
+        "Spot +3",
+        "Survival +5",
+        "Swim +16"
+      ],
+      "traits": [
+        "Chaotic good. Leather armor +2 and Dexterity +1, touch 11, flat-footed 12. BAB +1, grapple +5. Fortitude +5, Reflex +1, Will +1. Alertness adds +2 to Listen and Spot. Oru spent 2 skill points to learn Common. Illiterate.",
+        "Barbarian fast movement raises land speed to 30 ft. in light armor with a light load. Swim speed stays 40 ft.",
+        "Hold Breath (Ex). At Constitution 16, budget 128 rounds before drowning checks in a calm dive. Track exertion under the drowning rules.",
+        "Echolocation grants blindsense 20 ft. in water, confined to the water. It locates creatures without removing concealment.",
+        "Swim speed grants +8 racial on Swim checks to perform special actions or avoid hazards. Take 10 even when distracted or endangered. A swimming run follows a straight line.",
+        "Racial Hatred adds +2 to attack and damage rolls against sahuagin.",
+        "Rage 1/day lasts 8 rounds at the increased Constitution modifier. It gives +4 Strength, +4 Constitution, +2 morale on Will saves, and −2 AC. HP rises by 2, Fortitude becomes +7, Will becomes +3, and AC drops to 11. Oru is fatigued when rage ends."
+      ],
+      "actions": [
+        "Primary bite +5 melee, 1d6+6 bludgeoning, piercing, and slashing, critical ×2. Against sahuagin the bite is +7 for 1d6+8.",
+        "While raging the primary bite is +7 for 1d6+9, or +9 for 1d6+11 against sahuagin."
+      ],
+      "tactics": "Oru dives through the flooded cave mouth to find stranded gatherers. Use echolocation to locate nearby creatures in murky water. Surface at the air pocket before holding off pursuers on the rock shelf."
+    },
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "difficulty": "Provisional CR 1. ECL 1 (1 class HD, LA +0).",
+      "size": "Medium",
+      "type": "Humanoid (Darfellan)",
+      "senses": "Normal vision. Blindsense 20 ft. in water only.",
+      "languages": "Darfellan, Common",
+      "id": "darfellan-ebbgate-shoal-guard-35e",
+      "title": "Darfellan shoal guard, Fighter 1",
+      "ac": 13,
+      "hp": 12,
+      "hitDice": "1d10+2",
+      "initiative": 5,
+      "speed": "20 ft., swim 40 ft.",
+      "abilityScores": {
+        "STR": 18,
+        "DEX": 12,
+        "CON": 14,
+        "INT": 12,
+        "WIS": 10,
+        "CHA": 8
+      },
+      "skills": [
+        "Climb +8",
+        "Craft (weaving) +5",
+        "Swim +16"
+      ],
+      "traits": [
+        "Neutral good. Leather armor +2 and Dexterity +1, touch 11, flat-footed 12. BAB +1, grapple +5. Fortitude +4, Reflex +1, Will +0. Improved Initiative adds +4. Weapon Focus (shortspear) is the Fighter bonus feat.",
+        "Hold Breath (Ex). At Constitution 14, budget 112 rounds before drowning checks in a calm dive. Track exertion under the drowning rules.",
+        "Echolocation grants blindsense 20 ft. in water, confined to the water. It locates creatures without removing concealment.",
+        "Swim speed grants +8 racial on Swim checks to perform special actions or avoid hazards. Take 10 even when distracted or endangered. A swimming run follows a straight line.",
+        "Racial Hatred adds +2 to attack and damage rolls against sahuagin."
+      ],
+      "actions": [
+        "Shortspear +6 melee, 1d6+4 piercing, critical ×2. The same shortspear thrown attacks at +4 for 1d6+4 piercing, range increment 20 ft.",
+        "Shortspear-and-bite full attack. Shortspear +6 for 1d6+4 piercing and secondary bite +0 for 1d6+2 bludgeoning, piercing, and slashing. Against sahuagin, shortspear +8 for 1d6+6 and secondary bite +2 for 1d6+4.",
+        "With the spear set aside, primary bite +5 melee for 1d6+6. Against sahuagin, +7 for 1d6+8."
+      ],
+      "tactics": "Tava leads the rope team across the submerged channel and emerges onto the ledge at the far gate. Keep the exit clear. Fight from the ledge and use the full attack if a sahuagin reaches it."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Darfellan",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Stormwrack (2005)",
+      "name": "Oru Breakwater",
+      "build": "darfellan-breakwater-sea-cave-guide-35e",
+      "role": "Sea-cave guide and Barbarian.",
+      "motive": "Reach the stranded gatherers before the tide closes the cave.",
+      "hook": "Oru can listen for movement through the flooded cave mouth."
+    },
+    {
+      "species": "Darfellan",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Stormwrack (2005)",
+      "name": "Tava Ebbgate",
+      "build": "darfellan-ebbgate-shoal-guard-35e",
+      "role": "Shoal guard and Fighter.",
+      "motive": "Guide the rope team safely across the channel.",
+      "hook": "Tava has found a rock ledge where the team can get out of the water."
+    }
+  ]
+}

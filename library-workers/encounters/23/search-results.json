@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Shadow (Variant)",
+    "query": "crescent moon acrobat strength drain",
+    "term": "Unconscious",
+    "parent": "Shadow",
+    "publication": "Monster Manual (2014)",
+    "alternates": [
+      {
+        "credit": "Adventure illustration of Gleam’s shadow by Dawn Carlos · The Wild Beyond the Witchlight",
+        "url": ""
+      },
+      {
+        "credit": "Source token: Detached Shadow · The Wild Beyond the Witchlight",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Will-o’-Wisp (Variant)",
+    "query": "stone well hither magic boon",
+    "term": "Invisible",
+    "parent": "Will-o'-Wisp",
+    "publication": "Monster Manual (2014)",
+    "alternates": [
+      {
+        "credit": "Source token: Will-o’-Wells · The Wild Beyond the Witchlight",
+        "url": ""
+      },
+      {
+        "credit": "Base creature art: Will-o’-Wisp · Monster Manual (2014) · The Wild Beyond the Witchlight",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Witchlight Hand",
+    "query": "butterfly wings secret expertise pixie dust",
+    "term": "Dancing Lights",
+    "parent": "Witchlight Hand (Small)",
+    "publication": "The Wild Beyond the Witchlight",
+    "alternates": [
+      {
+        "credit": "Source token: Witchlight Hand (Medium) · The Wild Beyond the Witchlight",
+        "url": ""
+      },
+      {
+        "credit": "Source token: Witchlight Hand (Small) · The Wild Beyond the Witchlight",
+        "url": ""
+      },
+      {
+        "credit": "Adventure illustration of the Witchlight fire-breather by Clint Cearley · The Wild Beyond the Witchlight",
+        "url": ""
+      }
+    ]
+  }
+]

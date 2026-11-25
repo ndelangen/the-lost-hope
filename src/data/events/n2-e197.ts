@@ -30,4 +30,5 @@ export default createEvent({
   day: 24,
   location: refs.locations.borris_s_gambling_den,
   mark: { type: 'icon', name: 'gi/GiBrokenShield' },
+  illustrations: ['/assets/scenes/jim-loses-his-amulet-and-sarogarth-loses-sylf.png'],
 })

@@ -54,4 +54,5 @@ export default createEvent({
       ' read it, and he did not share it with the party, so they know its contents only from what this event records.',
     ],
   ],
+  illustrations: ['/assets/scenes/roberto-s-maps-reveal-the-father-s-order-to-find-jim-alive.png'],
 })

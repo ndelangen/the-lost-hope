@@ -1,0 +1,230 @@
+[
+  {
+    "name": "Beholder",
+    "pages": "pp. 26–28",
+    "statBlock": {
+      "name": "Beholder",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large aberration, lawful evil",
+      "ac": 18,
+      "hp": 180,
+      "hitDice": "19d10 + 76",
+      "speed": "0 ft., fly 20 ft. (hover)",
+      "cr": "13",
+      "xp": 10000,
+      "abilities": {
+        "Str": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Dex": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Con": {
+          "score": 18,
+          "modifier": 4
+        },
+        "Int": {
+          "score": 17,
+          "modifier": 3
+        },
+        "Wis": {
+          "score": 15,
+          "modifier": 2
+        },
+        "Cha": {
+          "score": 17,
+          "modifier": 3
+        }
+      },
+      "description": "A floating eye tyrant carves vertical passages to keep intruders below its firing line.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Defenses and senses": "Natural armor. Saves Int +8, Wis +7, Cha +8. Perception +12, passive Perception 22. Immune to Prone. Darkvision 120 ft. Deep Speech and Undercommon.",
+        "Traits": "Antimagic Cone. At the start of its turn, choose whether its central eye projects a 150-ft. cone and which direction it faces. Apply Antimagic Field within the cone, including to its own eye rays.",
+        "Actions": "Bite. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 14 (4d6) piercing damage.\nEye Rays. Roll three distinct d10 results, rerolling duplicates. Shoot the matching rays at one to three targets it can see within 120 ft.",
+        "Eye rays": "1. Charm Ray. Wisdom DC 16 or Charmed by the eye tyrant for 1 hour. If it harms the target, the charm ends.\n2. Paralyzing Ray. Constitution DC 16 or Paralyzed for 1 minute. The target repeats the save at the end of each of its turns and ends the condition on a success.\n3. Fear Ray. Wisdom DC 16 or Frightened for 1 minute. The target repeats the save at the end of each of its turns and ends the condition on a success.\n4. Slowing Ray. Dexterity DC 16 or speed is halved for 1 minute. While slowed, the target cannot take reactions and can take only one of an action and a bonus action on its turn. It repeats the save at the end of each of its turns and ends the effect on a success.\n5. Enervation Ray. Constitution DC 16. Failure deals 36 (8d8) necrotic damage. Success halves it.\n6. Telekinetic Ray. A creature makes a DC 16 Strength save. On failure, move it up to 30 ft. in any direction. It is Restrained until the start of the eye tyrant’s next turn or until the eye tyrant becomes Incapacitated. An object weighing 300 lb. or less, neither worn nor carried, can move up to 30 ft. in any direction without a save. The ray can also work a simple tool or open a door or container.\n7. Sleep Ray. Wisdom DC 16 or Unconscious for 1 minute. Damage or another creature spending an action to wake the target ends the sleep. Constructs and Undead are unaffected.\n8. Petrification Ray. Dexterity DC 16 or Restrained and beginning to turn to stone. Repeat the save at the end of the target’s next turn. Success ends the effect. Failure leaves the target Petrified until Greater Restoration or other magic frees it.\n9. Disintegration Ray. A creature makes a DC 16 Dexterity save or takes 45 (10d8) force damage. If that damage leaves it at 0 HP, its body turns to fine gray dust. A Large or smaller nonmagical object or creation of magical force is destroyed without a save. For a Huge or larger object or creation of magical force, destroy one 10-ft. cube of it.\n10. Death Ray. Dexterity DC 16 or take 55 (10d10) necrotic damage. If this leaves the target at 0 HP, it dies.",
+        "Legendary actions": "Three legendary actions. Spend one option at the end of another creature’s turn. Regain spent actions at the start of this creature’s turn. It cannot use them while Incapacitated or otherwise unable to act, or before its first turn if surprised.\nEye Ray (1 action). Use one randomly rolled eye ray.",
+        "Lair actions": "In its lair, the beholder is CR 14 (11,500 XP). Act on initiative count 20, losing ties. No lair action while Incapacitated or otherwise unable to act, or before the first turn if surprised.\nSlime. A 50-ft. square of ground within 120 ft. becomes Difficult Terrain until initiative count 20 next round.\nGrasping Walls. Walls within 120 ft. sprout grasping limbs until initiative count 20 on the round after next. Choose which creatures that start their turn within 10 ft. of these walls must make a DC 15 Dexterity save or become Grappled. Escape with a DC 15 Strength (Athletics) or Dexterity (Acrobatics) check.\nWall Eye. An eye opens on a solid surface within 60 ft. It fires one random eye ray at a target of the beholder’s choice that the beholder can see, then disappears.\nUse all three effects before repeating one, and never repeat on consecutive rounds.",
+        "Regional effects": "Within 1 mile of the lair, creatures sometimes feel watched. While the beholder sleeps, minor changes to natural surfaces or unattended nonmagical objects can appear within 1 mile and vanish after 24 hours.\nAfter the beholder dies, these regional effects fade over 1d10 days.",
+        "Printed source": "Monster Manual (2014), pp. 26–28."
+      }
+    }
+  },
+  {
+    "name": "Death Tyrant",
+    "pages": "pp. 27–29",
+    "statBlock": {
+      "name": "Death Tyrant",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large undead, lawful evil",
+      "ac": 19,
+      "hp": 187,
+      "hitDice": "25d10 + 50",
+      "speed": "0 ft., fly 20 ft. (hover)",
+      "cr": "14",
+      "xp": 11500,
+      "abilities": {
+        "Str": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Dex": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Con": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Int": {
+          "score": 19,
+          "modifier": 4
+        },
+        "Wis": {
+          "score": 15,
+          "modifier": 2
+        },
+        "Cha": {
+          "score": 19,
+          "modifier": 4
+        }
+      },
+      "description": "This undead beholder surrounds its floating skull with spectral eyes and uses its former victims as guards.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Defenses and senses": "Natural armor. Saves Str +5, Con +7, Int +9, Wis +7, Cha +9. Perception +12, passive Perception 22. Immune to poison damage and to Charmed, Exhaustion, Paralyzed, Petrified, Poisoned and Prone. Darkvision 120 ft. Deep Speech and Undercommon.",
+        "Traits": "Undead Nature. It needs no air, food, drink or sleep.\nNegative Energy Cone. At the start of its turn, choose whether its central eye projects an invisible magical 150-ft. cone and which direction it faces. Creatures in the cone cannot regain HP. A humanoid that dies there keeps its initiative and rises at the start of its next turn as a Zombie under the tyrant’s command if its body has not been entirely destroyed.",
+        "Actions": "Bite. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 14 (4d6) piercing damage.\nEye Rays. Roll three distinct d10 results, rerolling duplicates. Shoot the matching rays at one to three targets it can see within 120 ft.",
+        "Eye rays": "1. Charm Ray. Wisdom DC 17 or Charmed by the eye tyrant for 1 hour. If it harms the target, the charm ends.\n2. Paralyzing Ray. Constitution DC 17 or Paralyzed for 1 minute. The target repeats the save at the end of each of its turns and ends the condition on a success.\n3. Fear Ray. Wisdom DC 17 or Frightened for 1 minute. The target repeats the save at the end of each of its turns and ends the condition on a success.\n4. Slowing Ray. Dexterity DC 17 or speed is halved for 1 minute. While slowed, the target cannot take reactions and can take only one of an action and a bonus action on its turn. It repeats the save at the end of each of its turns and ends the effect on a success.\n5. Enervation Ray. Constitution DC 17. Failure deals 36 (8d8) necrotic damage. Success halves it.\n6. Telekinetic Ray. A creature makes a DC 17 Strength save. On failure, move it up to 30 ft. in any direction. It is Restrained until the start of the eye tyrant’s next turn or until the eye tyrant becomes Incapacitated. An object weighing 300 lb. or less, neither worn nor carried, can move up to 30 ft. in any direction without a save. The ray can also work a simple tool or open a door or container.\n7. Sleep Ray. Wisdom DC 17 or Unconscious for 1 minute. Damage or another creature spending an action to wake the target ends the sleep. Constructs and Undead are unaffected.\n8. Petrification Ray. Dexterity DC 17 or Restrained and beginning to turn to stone. Repeat the save at the end of the target’s next turn. Success ends the effect. Failure leaves the target Petrified until Greater Restoration or other magic frees it.\n9. Disintegration Ray. A creature makes a DC 17 Dexterity save or takes 45 (10d8) force damage. If that damage leaves it at 0 HP, its body turns to fine gray dust. A Large or smaller nonmagical object or creation of magical force is destroyed without a save. For a Huge or larger object or creation of magical force, destroy one 10-ft. cube of it.\n10. Death Ray. Dexterity DC 17 or take 55 (10d10) necrotic damage. If this leaves the target at 0 HP, it dies.",
+        "Legendary actions": "Three legendary actions. Spend one option at the end of another creature’s turn. Regain spent actions at the start of this creature’s turn. It cannot use them while Incapacitated or otherwise unable to act, or before its first turn if surprised.\nEye Ray (1 action). Use one randomly rolled eye ray.",
+        "Lair actions": "In its lair, the death tyrant is CR 15 (13,000 XP). Act on initiative count 20, losing ties. No lair action while Incapacitated or otherwise unable to act, or before the first turn if surprised.\nSpectral Obstruction. Choose a 50-ft. cube within 120 ft. Spectral eyes and tentacles make it Lightly Obscured and Difficult Terrain for creatures other than the tyrant until initiative count 20 next round.\nSpectral Grasp. Walls sprout spectral limbs until initiative count 20 on the round after next. A hostile creature, even on the Ethereal Plane, that starts its turn within 10 ft. of a wall makes a DC 17 Dexterity save or becomes Grappled. Escape with a DC 17 Strength (Athletics) or Dexterity (Acrobatics) check.\nSpectral Eye. An eye appears in the air at a point within 50 ft. and fires one random eye ray at a target the tyrant chooses. The ray comes from an ethereal source. The eye then disappears.\nUse all three effects before repeating one, and never repeat on consecutive rounds.",
+        "Regional effects": "Creatures within 1 mile of the lair sometimes feel watched. Whenever a creature that knows about the tyrant and is hostile to it finishes a Long Rest within 1 mile, roll a d20 for that creature. On a 10 or lower it is subjected to one random eye ray.\nAfter the tyrant dies, these effects fade over 1d10 days.",
+        "Printed source": "Monster Manual (2014), pp. 27–29."
+      },
+      "ruleNotes": [
+        "In Charm Ray, the book says “beholder” once in the death tyrant’s rules. Treat that reference as the death tyrant."
+      ]
+    }
+  },
+  {
+    "name": "Death Knight",
+    "pages": "p. 47",
+    "statBlock": {
+      "name": "Death Knight",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium undead, chaotic evil",
+      "ac": 20,
+      "hp": 180,
+      "hitDice": "19d8 + 95",
+      "speed": "30 ft.",
+      "cr": "17",
+      "xp": 18000,
+      "abilities": {
+        "Str": {
+          "score": 20,
+          "modifier": 5
+        },
+        "Dex": {
+          "score": 11,
+          "modifier": 0
+        },
+        "Con": {
+          "score": 20,
+          "modifier": 5
+        },
+        "Int": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Wis": {
+          "score": 16,
+          "modifier": 3
+        },
+        "Cha": {
+          "score": 18,
+          "modifier": 4
+        }
+      },
+      "description": "A fallen paladin commands undead retainers and can return after its destruction.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Defenses and senses": "Plate and shield. Saves Dex +6, Wis +9, Cha +10. Immune to necrotic and poison damage and to Exhaustion, Frightened and Poisoned. Darkvision 120 ft., passive Perception 13. Abyssal and Common.",
+        "Traits": "Magic Resistance. Advantage on saves against spells and other magical effects.\nMarshal Undead. Unless the knight is Incapacitated, it and Undead it chooses within 60 ft. have advantage on saves against effects that turn Undead.\nUndead Nature. It needs no air, food, drink or sleep. The 2014 edition errata adds this rule.\nImmortal Until Redeemed. A destroyed death knight can rise again. Atonement or redemption can end that cycle. The book leaves when and how it returns to the DM.",
+        "Spellcasting": "19th-level spellcaster. Charisma, save DC 18, +10 to hit with spell attacks. Its prepared paladin spells are listed below. It cannot use its magic to heal.\n1st level (4 slots). Command, Compelled Duel, Searing Smite.\n2nd level (3 slots). Hold Person, Magic Weapon.\n3rd level (3 slots). Dispel Magic, Elemental Weapon.\n4th level (3 slots). Banishment, Staggering Smite.\n5th level (2 slots). Destructive Wave (necrotic).",
+        "Actions": "Multiattack. Make three Longsword attacks.\nLongsword. Melee weapon attack, +11 to hit, reach 5 ft., one target. Hit 9 (1d8 + 5) slashing, or 10 (1d10 + 5) slashing with two hands. Either hit also deals 18 (4d8) necrotic damage.\nHellfire Orb (1/day). Pick a point it can see within 120 ft. The blast fills a 20-ft.-radius sphere, spreading around corners. Each creature in the sphere makes a DC 18 Dexterity save. Failure deals 35 (10d6) fire and 35 (10d6) necrotic damage. Success halves both.",
+        "Reactions": "Parry. Against one melee attack that would hit, add 6 to AC against that attack. It must see the attacker and be wielding a melee weapon.",
+        "Printed source": "Monster Manual (2014), p. 47."
+      }
+    }
+  },
+  {
+    "name": "Demilich",
+    "pages": "pp. 48–49",
+    "statBlock": {
+      "name": "Demilich",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Tiny undead, neutral evil",
+      "ac": 20,
+      "hp": 80,
+      "hitDice": "20d4",
+      "speed": "0 ft., fly 30 ft. (hover)",
+      "cr": "18",
+      "xp": 20000,
+      "abilities": {
+        "Str": {
+          "score": 1,
+          "modifier": -5
+        },
+        "Dex": {
+          "score": 20,
+          "modifier": 5
+        },
+        "Con": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Int": {
+          "score": 20,
+          "modifier": 5
+        },
+        "Wis": {
+          "score": 17,
+          "modifier": 3
+        },
+        "Cha": {
+          "score": 20,
+          "modifier": 5
+        }
+      },
+      "description": "A levitating skull guards the tomb where a lich’s remaining power and phylactery lie.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Defenses and senses": "Natural armor. Saves Con +6, Int +11, Wis +9, Cha +11. Resists bludgeoning, piercing and slashing from magic weapons. Immune to necrotic, poison and psychic damage and to bludgeoning, piercing and slashing from nonmagical attacks (per the 2014 edition errata). Immune to Charmed, Deafened, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned, Prone and Stunned. Truesight 120 ft., passive Perception 13. No languages listed.",
+        "Traits": "Avoidance. If a saving throw would normally halve damage on a success, the demilich takes none on a success and half on a failure.\nLegendary Resistance (3/day). Turn a failed saving throw into a success.\nTurn Immunity. Immune to effects that turn Undead.\nUndead Nature. It needs no air, food, drink or sleep. Its HP use the maximum result of its Hit Dice.\nEnduring Existence. An intact phylactery restores the destroyed skull in 1d10 days. A demilich that still has the will to feed a soul to its phylactery can return to lich form by doing so.",
+        "Actions": "Howl (Recharge 5–6). Every creature within 30 ft. that can hear the howl makes a DC 15 Constitution save. Failure drops it to 0 HP. Success leaves it Frightened until the end of its next turn.\nLife Drain. Choose up to three visible creatures within 10 ft. Each makes a DC 19 Constitution save or takes 21 (6d6) necrotic damage. The demilich heals HP equal to the total damage dealt.",
+        "Legendary actions": "Three legendary actions. Spend one option at the end of another creature’s turn. Regain spent actions at the start of this creature’s turn. It cannot use them while Incapacitated or otherwise unable to act, or before its first turn if surprised.\nFlight (1 action). Fly up to half its flying speed.\nCloud of Dust (1 action). Each creature within 10 ft., even around a corner, makes a DC 15 Constitution save or is Blinded until the end of the demilich’s next turn. On a success that creature is immune to this effect until the end of the demilich’s next turn.\nEnergy Drain (2 actions). Every creature within 30 ft. makes a DC 15 Constitution save. On a failure, reduce maximum HP by 10 (3d6). A target dies if its maximum falls to 0. Greater Restoration or similar magic can restore the lost maximum.\nVile Curse (3 actions). One visible creature within 30 ft. makes a DC 15 Wisdom save. On failure it is magically cursed and has disadvantage on attack rolls and saves. It repeats the save at the end of each turn and ends the curse on success.",
+        "Lair actions": "In its lair, the demilich is CR 20 (24,500 XP). Act on initiative count 20, losing ties. No lair action while Incapacitated or otherwise unable to act, or before the first turn if surprised. Roll a d20. On 11 or higher, choose an effect. Never repeat the same effect on consecutive rounds.\nTremor. Each creature on the tomb floor makes a DC 19 Dexterity save or falls Prone.\nAntimagic. Choose one visible creature within 60 ft. Antimagic Field fills its space and moves with it until initiative count 20 next round.\nSeal Healing. Choose any number of visible creatures within 30 ft. They cannot regain HP until initiative count 20 next round.",
+        "Lair traits": "Use any of these optional tomb traits. A non-evil creature takes 16 (3d10) necrotic damage the first time it enters. Monsters in the tomb have advantage on saves against Charmed, Frightened and turning. A ward prevents unauthorized creatures from using teleportation or planar travel to enter or leave, but allows such movement entirely within the tomb.\nAfter the demilich is destroyed, these effects fade over 10 days.",
+        "Variant. Acererak and his disciples": "Use the base stat block and add Trap Soul. CR 21 (33,000 XP), or CR 23 (50,000 XP) in the lair.\nTrap Soul. Choose one creature the demilich can see within 30 ft. DC 19 Charisma save. Failure traps its soul in a gem, causing its body and gear to cease to exist. On a success it takes 24 (7d6) necrotic damage, and if that leaves it at 0 HP, trap its soul as on failure. After 24 hours in a gem, the soul is devoured and ceases to exist. At 0 HP this demilich is destroyed, leaving the gems behind. Crush a gem to free the soul still inside. Its body re-forms in the nearest unoccupied space, in the state it was in when trapped.",
+        "Printed source": "Monster Manual (2014), pp. 48–49."
+      },
+      "ruleNotes": [
+        "The lair introduction mentions extra uses for legendary actions, but this printing does not specify a different action budget. The stat block gives three each round."
+      ]
+    }
+  }
+]

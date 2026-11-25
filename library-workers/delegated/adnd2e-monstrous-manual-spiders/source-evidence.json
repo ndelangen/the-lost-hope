@@ -1,0 +1,119 @@
+[
+  {
+    "name": "Large Spider",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "copyrightYear": 1993,
+    "printing": "Third printing, January 1994",
+    "productNumber": 2140,
+    "isbn": "1-56076-619-0",
+    "section": "Spider",
+    "printedColumn": "Large",
+    "printedPages": [
+      326
+    ],
+    "printViewerPages": [
+      329
+    ],
+    "printScanViewer": "https://online.anyflip.com/vjcbu/qkrw/",
+    "printPageImage": "https://online.anyflip.com/vjcbu/qkrw/files/large/b2128e061e816acd3711c7fd7f9085db.webp",
+    "printPageImageSha256": "653a2aa5b83f3940db99b6dd40ff089c7a6137621872a89bf7eb15da36b5c7bf",
+    "creditsPrintScan": "https://online.anyflip.com/vjcbu/qkrw/files/large/efaf128f9ea2ed636f64e32847d3e254.webp",
+    "artCreditForThisCreature": null,
+    "neighboringArtPageImage": "https://online.anyflip.com/vjcbu/qkrw/files/large/20047e15403c5bfd4751dd371400f5b9.webp",
+    "neighboringArtPossibleSubject": "Sword Spider",
+    "neighboringArtIdentification": "Inferred from leg shape and placement beside the Sword Spider text",
+    "digitalTextCrossCheck": "",
+    "numberAppearing": "2–20",
+    "organization": "Swarm",
+    "entryId": "beast-d98da62440c1cdd8f69b73a0",
+    "versionKey": "7e0e0b47296b489aed7257df",
+    "slug": "large-spider",
+    "query": "large spider web strength 19",
+    "portraitSelection": "generated"
+  },
+  {
+    "name": "Huge Spider",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "copyrightYear": 1993,
+    "printing": "Third printing, January 1994",
+    "productNumber": 2140,
+    "isbn": "1-56076-619-0",
+    "section": "Spider",
+    "printedColumn": "Huge",
+    "printedPages": [
+      326
+    ],
+    "printViewerPages": [
+      329
+    ],
+    "printScanViewer": "https://online.anyflip.com/vjcbu/qkrw/",
+    "printPageImage": "https://online.anyflip.com/vjcbu/qkrw/files/large/b2128e061e816acd3711c7fd7f9085db.webp",
+    "printPageImageSha256": "653a2aa5b83f3940db99b6dd40ff089c7a6137621872a89bf7eb15da36b5c7bf",
+    "creditsPrintScan": "https://online.anyflip.com/vjcbu/qkrw/files/large/efaf128f9ea2ed636f64e32847d3e254.webp",
+    "artCreditForThisCreature": null,
+    "neighboringArtPageImage": "https://online.anyflip.com/vjcbu/qkrw/files/large/20047e15403c5bfd4751dd371400f5b9.webp",
+    "neighboringArtPossibleSubject": "Sword Spider",
+    "neighboringArtIdentification": "Inferred from leg shape and placement beside the Sword Spider text",
+    "digitalTextCrossCheck": "",
+    "numberAppearing": "1–12",
+    "organization": "Pack",
+    "entryId": "beast-1b0b8878392274c89cc63926",
+    "versionKey": "9f661d4f4bc297dc2014fda4",
+    "slug": "huge-spider",
+    "query": "huge spider leap surprise tunnels",
+    "portraitSelection": "generated"
+  },
+  {
+    "name": "Giant Spider",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "copyrightYear": 1993,
+    "printing": "Third printing, January 1994",
+    "productNumber": 2140,
+    "isbn": "1-56076-619-0",
+    "section": "Spider",
+    "printedColumn": "Giant",
+    "printedPages": [
+      326
+    ],
+    "printViewerPages": [
+      329
+    ],
+    "printScanViewer": "https://online.anyflip.com/vjcbu/qkrw/",
+    "printPageImage": "https://online.anyflip.com/vjcbu/qkrw/files/large/b2128e061e816acd3711c7fd7f9085db.webp",
+    "printPageImageSha256": "653a2aa5b83f3940db99b6dd40ff089c7a6137621872a89bf7eb15da36b5c7bf",
+    "creditsPrintScan": "https://online.anyflip.com/vjcbu/qkrw/files/large/efaf128f9ea2ed636f64e32847d3e254.webp",
+    "artCreditForThisCreature": null,
+    "neighboringArtPageImage": "https://online.anyflip.com/vjcbu/qkrw/files/large/20047e15403c5bfd4751dd371400f5b9.webp",
+    "neighboringArtPossibleSubject": "Sword Spider",
+    "neighboringArtIdentification": "Inferred from leg shape and placement beside the Sword Spider text",
+    "digitalTextCrossCheck": "",
+    "numberAppearing": "1–8",
+    "organization": "Nest",
+    "entryId": "beast-4faf39ec43fe20a78415c96d",
+    "versionKey": "f4c24ae77841229eaa5f0610",
+    "slug": "giant-spider",
+    "query": "giant spider type f web-spinner",
+    "portraitSelection": "generated",
+    "printedStatVariants": [
+      {
+        "hitDice": "3+3",
+        "thac0": 17,
+        "xp": 420
+      },
+      {
+        "hitDice": "4+4",
+        "thac0": 15,
+        "xp": 650
+      }
+    ]
+  }
+]

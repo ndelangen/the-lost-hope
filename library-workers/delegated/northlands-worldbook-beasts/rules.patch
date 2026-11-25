@@ -1,0 +1,182 @@
+diff --git a/dm-library/bestiary/book-catalog.json b/dm-library/bestiary/book-catalog.json
+--- a/dm-library/bestiary/book-catalog.json
++++ b/dm-library/bestiary/book-catalog.json
+@@ -309929,6 +309929,178 @@
+           }
+         ]
+       }
++    },
++    {
++      "name": "Moose",
++      "kind": "beast",
++      "publication": "Northlands Worldbook",
++      "edition": "Black Flag Roleplaying",
++      "ruleset": "black-flag",
++      "appearance": "An unusually tall, heavy-bodied deer with wide, palmed antlers and a long muzzle.",
++      "combat": {
++        "armorClass": 13,
++        "hitPoints": 22,
++        "challenge": "1/2",
++        "size": "Large",
++        "creatureType": "Beast",
++        "speed": {
++          "walk": 40
++        },
++        "habitats": ["Any", "Arctic"],
++        "attacks": [
++          {
++            "name": "Hooves",
++            "mode": "melee",
++            "hitBonus": 6,
++            "reach": 5,
++            "damage": [
++              {
++                "average": 8,
++                "dice": "1d8 + 4",
++                "type": "bludgeoning"
++              }
++            ]
++          }
++        ]
++      },
++      "mechanics": {
++        "Trait": [
++          {
++            "name": "Forest Walker",
++            "effectNote": "The moose has advantage on DEX (Stealth) checks in forest terrain."
++          }
++        ],
++        "Action": [
++          {
++            "name": "Hooves",
++            "effectNote": "If it moves at least 10 ft. straight toward a Large or smaller creature immediately before hitting it, the hit deals an extra 3 (1d6) bludgeoning damage and knocks the target prone."
++          }
++        ],
++        "Reaction": [
++          {
++            "name": "Fury",
++            "effectNote": "Taking at least 5 damage gives the moose advantage on its next attack roll before the end of its next turn."
++          }
++        ]
++      },
++      "notes": [
++        "Black Flag fixed values are Perception 13 and Stealth 10. Ability modifiers are STR +4, DEX +0, CON +2, INT −4, WIS +1 and CHA −3. No languages or special senses.",
++        "The Northlanders also call this animal Elg. The book describes it as nearly 7 ft. at the shoulder.",
++        "Source: Kobold Press, Northlands Worldbook (2026, Tales of the Valiant), p. 264."
++      ]
++    },
++    {
++      "name": "Reindeer",
++      "kind": "beast",
++      "publication": "Northlands Worldbook",
++      "edition": "Black Flag Roleplaying",
++      "ruleset": "black-flag",
++      "appearance": "A large deer with a pale winter coat where the brown fur has shed.",
++      "combat": {
++        "armorClass": 12,
++        "hitPoints": 15,
++        "challenge": "1/4",
++        "size": "Large",
++        "creatureType": "Beast",
++        "speed": {
++          "walk": 40
++        },
++        "habitats": ["Any", "Arctic"],
++        "attacks": [
++          {
++            "name": "Hooves",
++            "mode": "melee",
++            "hitBonus": 4,
++            "reach": 5,
++            "damage": [
++              {
++                "average": 7,
++                "dice": "1d8 + 2",
++                "type": "bludgeoning"
++              }
++            ]
++          }
++        ]
++      },
++      "mechanics": {
++        "Trait": [
++          {
++            "name": "Agile",
++            "effectNote": "The reindeer can leave an enemy’s reach without provoking an opportunity attack."
++          },
++          {
++            "name": "Snowstrider",
++            "effectNote": "Snow and ice do not count as difficult terrain for the reindeer."
++          }
++        ],
++        "Bonus action": [
++          {
++            "name": "Burst of Speed (3/day)",
++            "effectNote": "Its speed doubles until the start of its next turn."
++          }
++        ]
++      },
++      "notes": [
++        "Black Flag fixed values are Perception 13 and Stealth 13. Ability modifiers are STR +2, DEX +3, CON +2, INT −4, WIS +1 and CHA −3. No languages or special senses.",
++        "The page extraction gives Hooves damage as 7 (1d8 + 2). The dice average 6 when rounded down. The profile records both values from the extraction.",
++        "The book gives CR 1/4. The publisher’s creature index rounds that value to 0.3.",
++        "Wild reindeer travel in herds. People across the Northlands raise domesticated reindeer for sled work, meat and milk.",
++        "Source: Kobold Press, Northlands Worldbook (2026, Tales of the Valiant), p. 264."
++      ]
++    },
++    {
++      "name": "Sea Serpent",
++      "kind": "beast",
++      "publication": "Northlands Worldbook",
++      "edition": "Black Flag Roleplaying",
++      "ruleset": "black-flag",
++      "appearance": "An enormous eel-like serpent with blue-green scales, a white belly, sail-like dorsal fins, a bony head ridge and four fangs.",
++      "combat": {
++        "armorClass": 13,
++        "hitPoints": 76,
++        "challenge": "3",
++        "size": "Huge",
++        "creatureType": "Beast",
++        "speed": {
++          "walk": 0,
++          "swim": 50
++        },
++        "habitats": ["Arctic", "Underwater"],
++        "attacks": [
++          {
++            "name": "Bite",
++            "mode": "melee",
++            "hitBonus": 8,
++            "reach": 10,
++            "damage": [
++              {
++                "average": 19,
++                "dice": "3d8 + 6",
++                "type": "piercing"
++              }
++            ]
++          }
++        ]
++      },
++      "mechanics": {
++        "Trait": [
++          {
++            "name": "Constrictor",
++            "effectNote": "After a Bite hit, it can use Constrict as a bonus action."
++          }
++        ],
++        "Action": [
++          {
++            "name": "Constrict",
++            "effectNote": "One visible Huge or smaller creature within 10 ft. makes a DC 14 STR save. On a failure it takes 10 (4d4) bludgeoning damage and is grappled. The escape DC is 16."
++          }
++        ]
++      },
++      "notes": [
++        "Black Flag fixed values are Perception 13 and Stealth 15. Ability modifiers are STR +6, DEX +3, CON +3, INT −4, WIS +1 and CHA −3. No languages or special senses.",
++        "Wild serpents hunt in northern waters. Those raised from eggs can imprint on an owner and serve as mounts or ship guards.",
++        "Source: Kobold Press, Northlands Worldbook (2026, Tales of the Valiant), p. 264."
++      ]
+     }
+   ],
+   "species": [

@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Stonechild",
+    "species": "species-207d136f46e06ee441423203",
+    "edition": "3.5 edition",
+    "profiles": [
+      "Races of Stone (2004)"
+    ],
+    "portraitSha256": "c97b45a80d0a47265a86c2a12f19056ff5b1c978b14f4842248a38b406cf5e4a",
+    "caption": "Miren Slatefold · Original Stonechild NPC",
+    "npcReceipts": [
+      {
+        "name": "Miren Slatefold",
+        "id": "npc-f11869fe358b908341704592",
+        "challenge": "Provisional CR 4. ECL 7."
+      },
+      {
+        "name": "Nalin Flintwell",
+        "id": "npc-f765ad752f2263ae28864e87",
+        "challenge": "Provisional CR 1. ECL 3."
+      }
+    ]
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Gnarlborn",
+    "file": "portraits/gnarlborn.png",
+    "sha256": "68bb10731352ebf1c0b8481a506d9a70652caed9fa8c42443c324e850901218f",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "name": "Graveborn",
+    "file": "portraits/graveborn.png",
+    "sha256": "c0ee35b9ecfd1e75c750dffa0794803f3d58d20856814ec6e85ee8289b02238b",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "name": "Harvestborn",
+    "file": "portraits/harvestborn.png",
+    "sha256": "b490b8f0cc42e9da93a8c05210d414defdb0e7ba4f1b8069141ae08afaf48ca0",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "name": "Plagueborn",
+    "file": "portraits/plagueborn.png",
+    "sha256": "9b2bbf45daf900da95ff36e9bff45ccea1f788cb629b9c5b1b9028d5ea5578d1",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  }
+]

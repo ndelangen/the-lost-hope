@@ -29,4 +29,5 @@ export default createEvent({
       '.',
     ],
   ],
+  illustrations: ['/assets/scenes/sarogarth-corrects-devan-s-holy-text.png'],
 })

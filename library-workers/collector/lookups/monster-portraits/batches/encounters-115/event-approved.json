@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Seacliff Dwarf",
+    "slug": "seacliff-dwarf",
+    "caption": "Brott Saltbrace · Original Seacliff Dwarf NPC",
+    "id": "species-9a283fd012b06e2e7d4e8fcd:100b7e81253a823ebb124200",
+    "entry": "species-9a283fd012b06e2e7d4e8fcd",
+    "version": "100b7e81253a823ebb124200",
+    "suffix": "encounters-115/seacliff-dwarf.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-115/seacliff-dwarf.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-115/event-drafts/seacliff-dwarf-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 115 2026-11-24/event-drafts/seacliff-dwarf-event-v1.png",
+    "overrides": [],
+    "sha256": "1054bf5fc79c610a7b3bfe272d6a3bb615be4442774bbc11bff38935ab9b2a07",
+    "bytes": 2155823
+  }
+]

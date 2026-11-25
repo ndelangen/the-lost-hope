@@ -1,0 +1,75 @@
+[
+  {
+    "name": "Diopsid",
+    "kind": "species",
+    "publication": "Dragon Compendium, Volume I (2005)",
+    "edition": "3.5 edition",
+    "book": "Dragon Compendium, Volume I",
+    "authors": [
+      "Jonathan M. Richards (original Diopsid article credit in the Compendium)"
+    ],
+    "editor": "Mike McArtor",
+    "publisher": "Paizo Publishing",
+    "firstPrinting": "October 2005",
+    "isbn": "0-9770071-4-6",
+    "printedPages": {
+      "playableSpecies": [
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "racialTraits": [
+        12,
+        13,
+        14
+      ],
+      "illustration": [
+        11,
+        12,
+        13
+      ]
+    },
+    "pdfPageOffset": 4,
+    "primaryBookScan": "",
+    "primaryBookSha256": "58d2b16e59dd48778cdc8367ae6f87fbd42aab66e76870010a7d8f32597d9d15",
+    "originalAppearance": {
+      "publication": "Dragon #267",
+      "article": "Denizens of the Underdark",
+      "author": "Johnathan M. Richards",
+      "release": "January 2000",
+      "printedPages": [
+        42,
+        43,
+        44,
+        45
+      ],
+      "pdfPages": [
+        39,
+        40,
+        41,
+        42
+      ],
+      "url": "",
+      "sha256": "1f95fa23f34ca9e6a6763d632fd244cb5af20b935a475257aee7ed55feeb8fbb"
+    },
+    "officialErrataArchive": "",
+    "errataSha256": "464458b024d0c68ae2d38bcb328bb67f3a5ef7a93a050cf7822f9770f2c77900",
+    "printedArtCredit": "Mike Nelson on p. 11 and Kevin Wasden on p. 13.",
+    "sourceDistinctions": [
+      "Dragon #267 originally printed an AD&D playable version. The 2005 Compendium presents a distinct 3.5 profile.",
+      "One oversized weapon can be supported with a free secondary arm. A pair of two-handed weapons can use all four hands, retaining full two-handed damage on each at ordinary non-light two-weapon attack penalties.",
+      "The wings arrest a fall as an immediate action and cannot fly. The published race has LA +1, so the original 1-HD NPCs are ECL 2 independently of their provisional CR."
+    ],
+    "entryId": "species-8bffa1da844a4c6cfca7379d",
+    "versionKey": "7eef816a3f66c4645ee357c5",
+    "slug": "diopsid",
+    "portraitSelection": "generated",
+    "portraitForm": "Rivet, an original Diopsid Barbarian",
+    "npcExamples": [
+      "Rivet",
+      "Tongs"
+    ]
+  }
+]

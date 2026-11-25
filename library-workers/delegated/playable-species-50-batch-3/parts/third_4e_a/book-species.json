@@ -1,0 +1,61 @@
+[
+  {
+    "name": "Dwarf",
+    "kind": "species",
+    "publication": "Player's Handbook (4e, 2008)",
+    "edition": "4th edition",
+    "traits": [
+      "Medium. Speed 5 squares and low-light vision. Constitution +2 and Wisdom +2. Speak Common and Dwarven. Gain +2 to Dungeoneering and Endurance.",
+      "Cast-Iron Stomach gives +5 to saving throws against poison. Dwarven Resilience makes Second Wind a minor action.",
+      "Dwarven Weapon Proficiency grants proficiency with throwing hammers and warhammers. Encumbered Speed prevents armor or a heavy load from reducing speed. Other movement restrictions apply normally.",
+      "Stand Your Ground lets you reduce a forced pull, push or slide by 1 square. When an attack would knock you prone, you can make an immediate saving throw to stay upright."
+    ]
+  },
+  {
+    "name": "Eladrin",
+    "kind": "species",
+    "publication": "Player's Handbook (4e, 2008)",
+    "edition": "4th edition",
+    "traits": [
+      "Medium. Speed 6 squares and low-light vision. Dexterity +2 and Intelligence +2. Speak Common and Elven. Gain +2 to Arcana and History.",
+      "Eladrin Education trains one additional skill of your choice. Eladrin Weapon Proficiency grants longsword proficiency.",
+      "Eladrin Will adds +1 to Will defense and +5 to saves against charm. Fey Origin makes effects concerning creature origin treat you as fey.",
+      "Trance gives the benefits of a six-hour extended rest in four hours while you remain aware. Fey Step is an encounter move action that teleports you up to 5 squares."
+    ]
+  },
+  {
+    "name": "Elf",
+    "kind": "species",
+    "publication": "Player's Handbook (4e, 2008)",
+    "edition": "4th edition",
+    "traits": [
+      "Medium. Speed 7 squares and low-light vision. Dexterity +2 and Wisdom +2. Speak Common and Elven. Gain +2 to Nature and Perception.",
+      "Elven Weapon Proficiency grants longbow and shortbow proficiency. Fey Origin makes effects concerning creature origin treat you as fey.",
+      "Group Awareness gives non-elf allies within 5 squares +1 to Perception. Wild Step ignores difficult terrain during a shift.",
+      "Elven Accuracy is an encounter free action that rerolls one attack. The second roll replaces the first."
+    ]
+  },
+  {
+    "name": "Half-Elf",
+    "kind": "species",
+    "publication": "Player's Handbook (4e, 2008)",
+    "edition": "4th edition",
+    "traits": [
+      "Medium. Speed 6 squares and low-light vision. Constitution +2 and Charisma +2. Speak Common, Elven and one other language. Gain +2 to Diplomacy and Insight.",
+      "Dilettante grants one at-will power from another class at level 1 and allows its use once per encounter.",
+      "Dual Heritage qualifies you for elf and human feats when you meet their other prerequisites. Group Diplomacy grants allies within 10 squares +1 to Diplomacy."
+    ]
+  },
+  {
+    "name": "Halfling",
+    "kind": "species",
+    "publication": "Player's Handbook (4e, 2008)",
+    "edition": "4th edition",
+    "traits": [
+      "Small. Speed 6 squares and normal vision. Dexterity +2 and Charisma +2. Speak Common and one other language. Gain +2 to Acrobatics and Thievery.",
+      "Bold gives +5 to saves against fear. Nimble Reaction gives +2 AC against opportunity attacks.",
+      "Second Chance is an encounter immediate interrupt when an enemy hits you. Force the enemy to reroll the attack and retain the second result.",
+      "Apply the first-printing Small weapon rules. A Small character uses versatile weapons in two hands without the extra damage and can use two-handed weapons with the small property. The small property also removes the versatile restriction."
+    ]
+  }
+]

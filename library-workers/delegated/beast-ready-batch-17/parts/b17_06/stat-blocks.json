@@ -1,0 +1,144 @@
+[
+  {
+    "name": "Swarm of Infesting Insects",
+    "publication": "Ravenloft: The Horrors Within",
+    "edition": "2024 fifth edition",
+    "classification": "Medium Swarm of Tiny Beasts, unaligned",
+    "ac": 13,
+    "hp": 33,
+    "hitDice": "6d8 + 6",
+    "speed": "20 ft., climb 20 ft., swim 20 ft.",
+    "cr": "2",
+    "xp": 450,
+    "initiative": 2,
+    "initiativeScore": 12,
+    "proficiencyBonus": 2,
+    "abilities": {
+      "Str": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 7,
+        "modifier": -2
+      },
+      "Cha": {
+        "score": 1,
+        "modifier": -5
+      }
+    },
+    "savingThrows": {
+      "Str": -4,
+      "Dex": 2,
+      "Con": 1,
+      "Int": -5,
+      "Wis": -2,
+      "Cha": -5
+    },
+    "passivePerception": 8,
+    "otherStatistics": "Initiative +2 (12). Proficiency bonus +2. Blindsight 30 ft.. Passive Perception 8. No languages. No treasure.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "Olive-green, segmented insect larvae with rust-red heads mingle with darker adults with translucent wings.",
+    "habitats": [
+      "Coastal",
+      "Forest",
+      "Grassland",
+      "Swamp",
+      "Urban"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Ravenloft: The Horrors Within, chapter 5, Denizens of the Mists, Swarms of Insects, digital export sheets 400–401 of 444. https://www.scribd.com/document/1054815014/Ravenloft-The-Horrors-Within-Neat-and-Tidy-Edition-1",
+      "Damage resistances": "Bludgeoning, Piercing, Slashing",
+      "Condition immunities": "Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained, Stunned",
+      "Traits": "Swarm. The swarm and other creatures can share a space. It can move through openings that admit a Tiny creature. It cannot regain HP or gain temporary HP.",
+      "Actions": "Infestation. Melee attack roll +4, reach 5 ft. A hit deals 12 (4d4 + 2) poison damage, or 7 (2d4 + 2) if the swarm is Bloodied. The target becomes Poisoned. If this poison is still active after 1 hour, the target makes a DC 11 Constitution save. A success ends the condition. On a failure, roll 1d6. On 1–2 the target becomes Blinded, on 3–4 its maximum HP drops by 5 (1d10), and on 5–6 it gains 1 Exhaustion level. The rolled effect ends when this poison ends.",
+      "Encounter ecology": "A hidden coffin at the Von Zarovich Sanctuary releases one infesting swarm alongside a Vampire Nosferatu. Both fight to the death.",
+      "Source notes": "The digital export numbers these sheets 400–401. A secondary index gives printed p. 271 for the pair. The physical folio was not available to verify. The initial attack applies Poisoned on a hit. The save takes place an hour later if that condition persists. The block gives no repeat interval."
+    }
+  },
+  {
+    "name": "Swarm of Ravenous Insects",
+    "publication": "Ravenloft: The Horrors Within",
+    "edition": "2024 fifth edition",
+    "classification": "Medium Swarm of Tiny Beasts, unaligned",
+    "ac": 13,
+    "hp": 39,
+    "hitDice": "6d8 + 12",
+    "speed": "30 ft., burrow 30 ft., climb 30 ft.",
+    "cr": "3",
+    "xp": 700,
+    "initiative": 2,
+    "initiativeScore": 12,
+    "proficiencyBonus": 2,
+    "abilities": {
+      "Str": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 1,
+        "modifier": -5
+      }
+    },
+    "savingThrows": {
+      "Str": -4,
+      "Dex": 2,
+      "Con": 2,
+      "Int": -5,
+      "Wis": 1,
+      "Cha": -5
+    },
+    "passivePerception": 11,
+    "otherStatistics": "Initiative +2 (12). Proficiency bonus +2. Tremorsense 60 ft.. Passive Perception 11. No languages. No treasure.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "Olive-green, segmented insect larvae with rust-red heads mingle with darker adults with translucent wings.",
+    "habitats": [
+      "Coastal",
+      "Forest",
+      "Grassland",
+      "Swamp",
+      "Urban"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Ravenloft: The Horrors Within, chapter 5, Denizens of the Mists, Swarms of Insects, digital export sheets 400–401 of 444. https://www.scribd.com/document/1054815014/Ravenloft-The-Horrors-Within-Neat-and-Tidy-Edition-1",
+      "Damage resistances": "Bludgeoning, Piercing, Slashing",
+      "Condition immunities": "Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained, Stunned",
+      "Traits": "Skeletonize. At the start of the swarm’s turn, a Large or smaller corpse sharing its space is destroyed. Anything the corpse wore or carried remains.\nSwarm. The swarm and other creatures can share a space. It can move through openings that admit a Tiny creature. It cannot regain HP or gain temporary HP.",
+      "Actions": "Ravenous Bites. Melee attack roll +4, reach 5 ft. A hit deals 20 (4d8 + 2) piercing damage, or 11 (2d8 + 2) if the swarm is Bloodied. The insects burrow into the target and Poison it for 1 minute. A spell or effect that restores the target’s HP ends the condition early. At the start of each turn while Poisoned this way, the target takes 4 (1d8) piercing damage. It dies if this ongoing damage reduces it to 0 HP.",
+      "Encounter ecology": "A roll of 4 on the Trial of Hearts Jungle Events table in Valachan brings four ravenous swarms.",
+      "Source notes": "The digital export numbers these sheets 400–401. A secondary index gives printed p. 271 for the pair. The physical folio was not available to verify. The bite gives no saving throw. Death at 0 HP is specific to the ongoing damage. The artwork shows winged adults, but neither profile lists a fly speed."
+    }
+  }
+]

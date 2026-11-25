@@ -5,6 +5,7 @@ export default createEvent({
   name: 'Visit the exotic animal dealer',
   day: 2,
   location: refs.locations.rare_animal_dealer_s_premises,
+  illustrations: ['/assets/scenes/visit-the-exotic-animal-dealer.png'],
   mark: { type: 'icon', name: 'gi/GiPlantsAndAnimals' },
   notes: [
     [

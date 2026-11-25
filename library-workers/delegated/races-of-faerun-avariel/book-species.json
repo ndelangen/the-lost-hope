@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Avariel",
+    "kind": "species",
+    "publication": "Races of Faerûn (2003)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Winged elf. Medium Humanoid (Elf). +4 Dexterity, −2 Constitution, +2 Intelligence, +2 Wisdom. Land speed 30 ft.",
+      "Immune to magical sleep. +2 racial bonus on saves against enchantment spells and effects. Low-light vision. +2 racial Listen and Search. Passing within 5 ft. of a secret or concealed door grants a Search check as if actively looking.",
+      "Keen Sight grants +4 racial Spot in place of the standard Elf +2. Avariels also get +4 racial Jump.",
+      "Choose proficiency with rapier or longsword. Also proficient with lasso and bolas. These replace standard Elf weapon proficiencies, including bows.",
+      "Fly 50 ft. (average) when carrying a Medium load or less, wearing no heavy armor, and neither fatigued nor exhausted. The wings must have room to extend fully. A Run in flight must follow a straight line.",
+      "An Avariel dive works as a charge. Descend at least 30 ft. and use a piercing weapon. A hit deals double damage.",
+      "Average maneuverability requires at least 25 ft. of forward movement each round to stay aloft and provides no hover. Upward flight is at half speed, with a maximum ascent angle of 60 degrees.",
+      "Common, Elven, and the home region language are automatic. The Avariel region grants Auran and offers Damaran, Draconic, Giant, Rashemi, Sylvan, and Tuigan as bonus languages.",
+      "Favored class Cleric. No racial Hit Dice. LA +3 gives ECL 4 at one class level.",
+      "This 3.5 profile applies the book’s Avariel traits over the 3.5 core Elf and aerial movement rules. The book’s species-specific dive keeps its 30-ft. descent and piercing weapon."
+    ]
+  }
+]

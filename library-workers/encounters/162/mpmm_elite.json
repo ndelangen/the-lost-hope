@@ -1,0 +1,409 @@
+[
+  {
+    "name": "Grung Elite Warrior",
+    "statBlock": {
+      "name": "Grung Elite Warrior",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 150,
+      "classification": "Small humanoid, any alignment",
+      "ac": 13,
+      "hp": 49,
+      "hitDice": "9d6 + 18",
+      "speed": "25 ft., climb 25 ft.",
+      "abilities": {
+        "Str": {
+          "score": 7
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 12,
+      "description": "An elite grung warrior leads others in battle. A grung wildling often fights alongside it.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 5
+      },
+      "skills": {
+        "Athletics": 2,
+        "Perception": 2,
+        "Stealth": 5,
+        "Survival": 2
+      },
+      "sections": {
+        "Languages": "Grung.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Amphibious. The grung can breathe air and water.\nPoisonous Skin. A creature that grapples the grung or touches its skin must make a DC 12 Constitution save. On a failure, the creature is poisoned for 1 minute. Once contact ends, it can repeat the save at the end of each of its turns, ending the poisoning on a success.\nStanding Leap. The grung can long jump up to 25 ft. and high jump up to 15 ft. with or without a running start.\nWater Dependency. If the grung spends less than 1 hour immersed in water during a day, it gains one level of exhaustion at the end of that day. Magic or at least 1 hour of immersion can remove exhaustion gained this way.",
+        "Actions": "Dagger. Melee or ranged weapon attack, +5 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 5 (1d4 + 3) piercing damage and 5 (2d4) poison damage.\nShortbow. Ranged weapon attack, +5 to hit, range 80/320 ft., one target. A hit deals 6 (1d6 + 3) piercing damage and 5 (2d4) poison damage.\nMesmerizing Chirr (Recharge 6). Each Humanoid or Beast within 15 ft. that can hear the chirr makes a DC 12 Wisdom save or is stunned until the end of the grung's next turn. Grungs are immune to the chirr.",
+        "Optional Grung poison mechanics": "A creature poisoned by the grung can suffer the effect associated with its color. The effect ends when that poisoning ends.\nBlue grung. The target makes a loud noise at the start and end of each of its turns.\nGold grung. The target is charmed by the grung and can speak Grung.\nGreen grung. The target can move only by climbing or making standing jumps. If flying, it cannot take actions or reactions until it lands.\nOrange grung. The target is frightened of its allies.\nPurple grung. The target can move and take actions only to reach liquid or mud or to soak itself in it.\nRed grung. The target must spend its action eating whenever food is within reach.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 150."
+      }
+    }
+  },
+  {
+    "name": "Grung Elite Warrior (Blue)",
+    "statBlock": {
+      "name": "Grung Elite Warrior (Blue)",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 150,
+      "classification": "Small humanoid, any alignment",
+      "ac": 13,
+      "hp": 49,
+      "hitDice": "9d6 + 18",
+      "speed": "25 ft., climb 25 ft.",
+      "abilities": {
+        "Str": {
+          "score": 7
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 12,
+      "description": "An elite grung warrior leads others in battle. A grung wildling often fights alongside it.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 5
+      },
+      "skills": {
+        "Athletics": 2,
+        "Perception": 2,
+        "Stealth": 5,
+        "Survival": 2
+      },
+      "sections": {
+        "Languages": "Grung.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Amphibious. The grung can breathe air and water.\nPoisonous Skin. A creature that grapples the grung or touches its skin must make a DC 12 Constitution save. On a failure, the creature is poisoned for 1 minute. Once contact ends, it can repeat the save at the end of each of its turns, ending the poisoning on a success. If using the optional color effect, while poisoned by this grung, the target makes a loud noise at the start and end of each of its turns.\nStanding Leap. The grung can long jump up to 25 ft. and high jump up to 15 ft. with or without a running start.\nWater Dependency. If the grung spends less than 1 hour immersed in water during a day, it gains one level of exhaustion at the end of that day. Magic or at least 1 hour of immersion can remove exhaustion gained this way.",
+        "Actions": "Dagger. Melee or ranged weapon attack, +5 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 5 (1d4 + 3) piercing damage and 5 (2d4) poison damage.\nShortbow. Ranged weapon attack, +5 to hit, range 80/320 ft., one target. A hit deals 6 (1d6 + 3) piercing damage and 5 (2d4) poison damage.\nMesmerizing Chirr (Recharge 6). Each Humanoid or Beast within 15 ft. that can hear the chirr makes a DC 12 Wisdom save or is stunned until the end of the grung's next turn. Grungs are immune to the chirr.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 150."
+      }
+    }
+  },
+  {
+    "name": "Grung Elite Warrior (Gold)",
+    "statBlock": {
+      "name": "Grung Elite Warrior (Gold)",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 150,
+      "classification": "Small humanoid, any alignment",
+      "ac": 13,
+      "hp": 49,
+      "hitDice": "9d6 + 18",
+      "speed": "25 ft., climb 25 ft.",
+      "abilities": {
+        "Str": {
+          "score": 7
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 12,
+      "description": "An elite grung warrior leads others in battle. A grung wildling often fights alongside it.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 5
+      },
+      "skills": {
+        "Athletics": 2,
+        "Perception": 2,
+        "Stealth": 5,
+        "Survival": 2
+      },
+      "sections": {
+        "Languages": "Grung.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Amphibious. The grung can breathe air and water.\nPoisonous Skin. A creature that grapples the grung or touches its skin must make a DC 12 Constitution save. On a failure, the creature is poisoned for 1 minute. Once contact ends, it can repeat the save at the end of each of its turns, ending the poisoning on a success. If using the optional color effect, while poisoned by this grung, the target is charmed by the grung and can speak Grung.\nStanding Leap. The grung can long jump up to 25 ft. and high jump up to 15 ft. with or without a running start.\nWater Dependency. If the grung spends less than 1 hour immersed in water during a day, it gains one level of exhaustion at the end of that day. Magic or at least 1 hour of immersion can remove exhaustion gained this way.",
+        "Actions": "Dagger. Melee or ranged weapon attack, +5 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 5 (1d4 + 3) piercing damage and 5 (2d4) poison damage.\nShortbow. Ranged weapon attack, +5 to hit, range 80/320 ft., one target. A hit deals 6 (1d6 + 3) piercing damage and 5 (2d4) poison damage.\nMesmerizing Chirr (Recharge 6). Each Humanoid or Beast within 15 ft. that can hear the chirr makes a DC 12 Wisdom save or is stunned until the end of the grung's next turn. Grungs are immune to the chirr.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 150."
+      }
+    }
+  },
+  {
+    "name": "Grung Elite Warrior (Green)",
+    "statBlock": {
+      "name": "Grung Elite Warrior (Green)",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 150,
+      "classification": "Small humanoid, any alignment",
+      "ac": 13,
+      "hp": 49,
+      "hitDice": "9d6 + 18",
+      "speed": "25 ft., climb 25 ft.",
+      "abilities": {
+        "Str": {
+          "score": 7
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 12,
+      "description": "An elite grung warrior leads others in battle. A grung wildling often fights alongside it.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 5
+      },
+      "skills": {
+        "Athletics": 2,
+        "Perception": 2,
+        "Stealth": 5,
+        "Survival": 2
+      },
+      "sections": {
+        "Languages": "Grung.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Amphibious. The grung can breathe air and water.\nPoisonous Skin. A creature that grapples the grung or touches its skin must make a DC 12 Constitution save. On a failure, the creature is poisoned for 1 minute. Once contact ends, it can repeat the save at the end of each of its turns, ending the poisoning on a success. If using the optional color effect, while poisoned by this grung, the target can move only by climbing or making standing jumps. If flying, it cannot take actions or reactions until it lands.\nStanding Leap. The grung can long jump up to 25 ft. and high jump up to 15 ft. with or without a running start.\nWater Dependency. If the grung spends less than 1 hour immersed in water during a day, it gains one level of exhaustion at the end of that day. Magic or at least 1 hour of immersion can remove exhaustion gained this way.",
+        "Actions": "Dagger. Melee or ranged weapon attack, +5 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 5 (1d4 + 3) piercing damage and 5 (2d4) poison damage.\nShortbow. Ranged weapon attack, +5 to hit, range 80/320 ft., one target. A hit deals 6 (1d6 + 3) piercing damage and 5 (2d4) poison damage.\nMesmerizing Chirr (Recharge 6). Each Humanoid or Beast within 15 ft. that can hear the chirr makes a DC 12 Wisdom save or is stunned until the end of the grung's next turn. Grungs are immune to the chirr.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 150."
+      }
+    }
+  },
+  {
+    "name": "Grung Elite Warrior (Orange)",
+    "statBlock": {
+      "name": "Grung Elite Warrior (Orange)",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 150,
+      "classification": "Small humanoid, any alignment",
+      "ac": 13,
+      "hp": 49,
+      "hitDice": "9d6 + 18",
+      "speed": "25 ft., climb 25 ft.",
+      "abilities": {
+        "Str": {
+          "score": 7
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 12,
+      "description": "An elite grung warrior leads others in battle. A grung wildling often fights alongside it.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 5
+      },
+      "skills": {
+        "Athletics": 2,
+        "Perception": 2,
+        "Stealth": 5,
+        "Survival": 2
+      },
+      "sections": {
+        "Languages": "Grung.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Amphibious. The grung can breathe air and water.\nPoisonous Skin. A creature that grapples the grung or touches its skin must make a DC 12 Constitution save. On a failure, the creature is poisoned for 1 minute. Once contact ends, it can repeat the save at the end of each of its turns, ending the poisoning on a success. If using the optional color effect, while poisoned by this grung, the target is frightened of its allies.\nStanding Leap. The grung can long jump up to 25 ft. and high jump up to 15 ft. with or without a running start.\nWater Dependency. If the grung spends less than 1 hour immersed in water during a day, it gains one level of exhaustion at the end of that day. Magic or at least 1 hour of immersion can remove exhaustion gained this way.",
+        "Actions": "Dagger. Melee or ranged weapon attack, +5 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 5 (1d4 + 3) piercing damage and 5 (2d4) poison damage.\nShortbow. Ranged weapon attack, +5 to hit, range 80/320 ft., one target. A hit deals 6 (1d6 + 3) piercing damage and 5 (2d4) poison damage.\nMesmerizing Chirr (Recharge 6). Each Humanoid or Beast within 15 ft. that can hear the chirr makes a DC 12 Wisdom save or is stunned until the end of the grung's next turn. Grungs are immune to the chirr.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 150."
+      }
+    }
+  },
+  {
+    "name": "Grung Elite Warrior (Purple)",
+    "statBlock": {
+      "name": "Grung Elite Warrior (Purple)",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 150,
+      "classification": "Small humanoid, any alignment",
+      "ac": 13,
+      "hp": 49,
+      "hitDice": "9d6 + 18",
+      "speed": "25 ft., climb 25 ft.",
+      "abilities": {
+        "Str": {
+          "score": 7
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 12,
+      "description": "An elite grung warrior leads others in battle. A grung wildling often fights alongside it.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 5
+      },
+      "skills": {
+        "Athletics": 2,
+        "Perception": 2,
+        "Stealth": 5,
+        "Survival": 2
+      },
+      "sections": {
+        "Languages": "Grung.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Amphibious. The grung can breathe air and water.\nPoisonous Skin. A creature that grapples the grung or touches its skin must make a DC 12 Constitution save. On a failure, the creature is poisoned for 1 minute. Once contact ends, it can repeat the save at the end of each of its turns, ending the poisoning on a success. If using the optional color effect, while poisoned by this grung, the target can move and take actions only to reach liquid or mud or to soak itself in it.\nStanding Leap. The grung can long jump up to 25 ft. and high jump up to 15 ft. with or without a running start.\nWater Dependency. If the grung spends less than 1 hour immersed in water during a day, it gains one level of exhaustion at the end of that day. Magic or at least 1 hour of immersion can remove exhaustion gained this way.",
+        "Actions": "Dagger. Melee or ranged weapon attack, +5 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 5 (1d4 + 3) piercing damage and 5 (2d4) poison damage.\nShortbow. Ranged weapon attack, +5 to hit, range 80/320 ft., one target. A hit deals 6 (1d6 + 3) piercing damage and 5 (2d4) poison damage.\nMesmerizing Chirr (Recharge 6). Each Humanoid or Beast within 15 ft. that can hear the chirr makes a DC 12 Wisdom save or is stunned until the end of the grung's next turn. Grungs are immune to the chirr.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 150."
+      }
+    }
+  },
+  {
+    "name": "Grung Elite Warrior (Red)",
+    "statBlock": {
+      "name": "Grung Elite Warrior (Red)",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 150,
+      "classification": "Small humanoid, any alignment",
+      "ac": 13,
+      "hp": 49,
+      "hitDice": "9d6 + 18",
+      "speed": "25 ft., climb 25 ft.",
+      "abilities": {
+        "Str": {
+          "score": 7
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 12,
+      "description": "An elite grung warrior leads others in battle. A grung wildling often fights alongside it.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 5
+      },
+      "skills": {
+        "Athletics": 2,
+        "Perception": 2,
+        "Stealth": 5,
+        "Survival": 2
+      },
+      "sections": {
+        "Languages": "Grung.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Amphibious. The grung can breathe air and water.\nPoisonous Skin. A creature that grapples the grung or touches its skin must make a DC 12 Constitution save. On a failure, the creature is poisoned for 1 minute. Once contact ends, it can repeat the save at the end of each of its turns, ending the poisoning on a success. If using the optional color effect, while poisoned by this grung, the target must spend its action eating whenever food is within reach.\nStanding Leap. The grung can long jump up to 25 ft. and high jump up to 15 ft. with or without a running start.\nWater Dependency. If the grung spends less than 1 hour immersed in water during a day, it gains one level of exhaustion at the end of that day. Magic or at least 1 hour of immersion can remove exhaustion gained this way.",
+        "Actions": "Dagger. Melee or ranged weapon attack, +5 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 5 (1d4 + 3) piercing damage and 5 (2d4) poison damage.\nShortbow. Ranged weapon attack, +5 to hit, range 80/320 ft., one target. A hit deals 6 (1d6 + 3) piercing damage and 5 (2d4) poison damage.\nMesmerizing Chirr (Recharge 6). Each Humanoid or Beast within 15 ft. that can hear the chirr makes a DC 12 Wisdom save or is stunned until the end of the grung's next turn. Grungs are immune to the chirr.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 150."
+      }
+    }
+  }
+]

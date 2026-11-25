@@ -1,0 +1,68 @@
+[
+  {
+    "entityKind": "monster",
+    "name": "Alina Vaduva (Werewolf)",
+    "publication": "DDAL04-02 - The Beast",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/alina-vaduva-werewolf/wolf-form-2014-related.webp",
+    "artist": "Related wolf-form art · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "6b6156424d9e008a5cd5d02bad61048c3b8a2065f4a6e4478b97396deae7bd5d",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/MM/Wolf.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Alina Vaduva (Werewolf)",
+    "publication": "DDAL04-02 - The Beast",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/alina-vaduva-werewolf/werewolf-2014-related.webp",
+    "artist": "Related Werewolf art · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "c0b3774c457ef243f2c50c97d86f9db220a71b41449ead046e7e18b87c8464b3",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/MM/Werewolf.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Wight (Laszlo)",
+    "publication": "DDAL04-03 - The Executioner",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/wight-laszlo/wight-2014-related.webp",
+    "artist": "Related Wight art · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "280b62799ea94cd68437c3417ef7df71a33533d4aa3435fcec75f8a744c4c95f",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/MM/Wight.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Wight (Laszlo)",
+    "publication": "DDAL04-03 - The Executioner",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/wight-laszlo/wight-valera-luftullina.webp",
+    "artist": "Related Wight art by Valera Luftullina · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "42069c1bd99aa97c2dca03f70125948546c5736cdd464316c7162cc6e1814183",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Wight.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Lela (Vampire Spawn)",
+    "publication": "DDAL04-05 - The Seer",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/lela-vampire-spawn/vampire-spawn-2014-related.webp",
+    "artist": "Related Vampire Spawn art · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "0c78c404d04c61296d99a1f142fe7049c520dddf47504d6248fa29cbb1b3c1d4",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/MM/Vampire%20Spawn.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Lela (Vampire Spawn)",
+    "publication": "DDAL04-05 - The Seer",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/lela-vampire-spawn/vampire-spawn-carlo-arellano.webp",
+    "artist": "Related Vampire Spawn art by Carlo Arellano · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "24a649ec4ce00b16d6c0b16f9df1fd5c95ad2f40a0da89d9d14365ca50e109d6",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Vampire%20Spawn.webp"
+  }
+]

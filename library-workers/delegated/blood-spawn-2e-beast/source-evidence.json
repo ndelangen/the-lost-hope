@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Blood Hound",
+    "entryId": "beast-3eb2f1acd3df7fc0a803d5ed",
+    "versionKey": "529b7fd06ca71593a6be0516",
+    "publication": "Blood Spawn: Creatures of Light and Shadow",
+    "edition": "AD&D 2nd edition",
+    "publishedPages": [
+      13,
+      14,
+      15
+    ],
+    "sourceUrl": "",
+    "sourcePdfSha256": "e13446909f4383a7be2b1ef4e06021ee04b4a7b1c0e632b0dd6ec5ca0eabf5e6",
+    "challengeRating": null,
+    "habitatTags": [
+      "Cerilia",
+      "Anuire",
+      "Kennels"
+    ],
+    "searchAppearance": "patch of red fur",
+    "previousPortrait": "",
+    "previousPortraitSha256": "e3c3baafe7e624002056dee0c2c360e9b17ef60d99360dae9c5fa26362e24a4d",
+    "relatedIllustration": "",
+    "relatedIllustrationSha256": "6b6156424d9e008a5cd5d02bad61048c3b8a2065f4a6e4478b97396deae7bd5d",
+    "relatedIllustrationCredit": "Related Dire Wolf illustration · Monster Manual (2014)"
+  }
+]

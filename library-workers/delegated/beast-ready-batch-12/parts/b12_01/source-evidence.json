@@ -1,0 +1,214 @@
+[
+  {
+    "name": "Jackal",
+    "kind": "beast",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "publisher": "Nosolorol Ediciones, licensed from Open Design LLC (Kobold Press)",
+    "printing": "Cubil de Monstruos, Spanish edition ©2025 of Monster Vault ©2024",
+    "spanishHeading": "Chacal",
+    "language": "Spanish",
+    "translationLanguage": "Spanish",
+    "translationLicense": "Official licensed Nosolorol translation",
+    "isbn": "979-13-87882-04-4",
+    "section": "Apéndice: Animales",
+    "printedPage": 339,
+    "printedPages": [
+      339
+    ],
+    "pdfPage": 341,
+    "pdfPages": [
+      341
+    ],
+    "pdfSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "sourceWitness": "Verified directly in the licensed Spanish print-layout . The staged rules are English summaries of that stat block.",
+    "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+    "url": "https://www.nosolorol.com/talesofthevaliant",
+    "publisherProductPage": "https://www.nosolorol.com/talesofthevaliant",
+    "officialEnglishCatalog": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "englishCatalogEvidence": "Confirmed indexed English identity, size, Beast type, habitat and displayed CR 0.0. The Spanish stat block supplies the exact CR and mechanics.",
+    "officialErrata": "https://koboldpress.com/errata/",
+    "errataEvidence": "The official Monster Vault errata dated May 29, 2025 lists no entry-specific correction for this stat block.",
+    "xpEvidence": "Printed CR 0 awards 10 XP on Cubil de Monstruos p. 17.",
+    "habitatEvidence": "Habitat checked against the official English index and the Spanish terrain appendix.",
+    "appearanceEvidence": "Editorial description of the inspected reused portrait.",
+    "reusedPortrait": {
+      "source": "beast-ready-batch-02/parts/b02_05/portraits/jackal.png",
+      "sha256": "66c9481708f015a826f9e056b92959e20bce51d0db7e0665a29f658dbd4ad37d"
+    },
+    "mechanicsNotes": [
+      "The left-column stat line continues at the top of the right column on p. 339.",
+      "The infection save and the long-rest recovery saves each use DC 10 Constitution. The book requires two successful recovery saves without specifying that they must be consecutive."
+    ]
+  },
+  {
+    "name": "Lion",
+    "kind": "beast",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "publisher": "Nosolorol Ediciones, licensed from Open Design LLC (Kobold Press)",
+    "printing": "Cubil de Monstruos, Spanish edition ©2025 of Monster Vault ©2024",
+    "spanishHeading": "León",
+    "language": "Spanish",
+    "translationLanguage": "Spanish",
+    "translationLicense": "Official licensed Nosolorol translation",
+    "isbn": "979-13-87882-04-4",
+    "section": "Apéndice: Animales",
+    "printedPage": 346,
+    "printedPages": [
+      346
+    ],
+    "pdfPage": 348,
+    "pdfPages": [
+      348
+    ],
+    "pdfSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "sourceWitness": "Verified directly in the licensed Spanish print-layout . The staged rules are English summaries of that stat block.",
+    "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+    "url": "https://www.nosolorol.com/talesofthevaliant",
+    "publisherProductPage": "https://www.nosolorol.com/talesofthevaliant",
+    "officialEnglishCatalog": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "englishCatalogEvidence": "Confirmed indexed English identity, size, Beast type, habitat and displayed CR 1.0. The Spanish stat block supplies the exact CR and mechanics.",
+    "officialErrata": "https://koboldpress.com/errata/",
+    "errataEvidence": "The official Monster Vault errata dated May 29, 2025 lists no entry-specific correction for this stat block.",
+    "xpEvidence": "Printed CR 1 awards 200 XP on Cubil de Monstruos p. 17.",
+    "habitatEvidence": "Habitat checked against the official English index and the Spanish terrain appendix.",
+    "appearanceEvidence": "Editorial description of the inspected reused portrait.",
+    "reusedPortrait": {
+      "source": "beast-ready-batch-02/parts/b02_08/portraits/lion.png",
+      "sha256": "58af8be859b901dd0dfcc9caa7f02ddf4dc0d5a23b09cba2f8d60cf2cb67e9b4"
+    },
+    "mechanicsNotes": [
+      "Running Leap, the attacks, and the roar continue in the right column on p. 346.",
+      "Both the Pounce follow-up Bite and Rattling Roar spend a bonus action."
+    ]
+  },
+  {
+    "name": "Lizard",
+    "kind": "beast",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "publisher": "Nosolorol Ediciones, licensed from Open Design LLC (Kobold Press)",
+    "printing": "Cubil de Monstruos, Spanish edition ©2025 of Monster Vault ©2024",
+    "spanishHeading": "Lagarto",
+    "language": "Spanish",
+    "translationLanguage": "Spanish",
+    "translationLicense": "Official licensed Nosolorol translation",
+    "isbn": "979-13-87882-04-4",
+    "section": "Apéndice: Animales",
+    "printedPage": 345,
+    "printedPages": [
+      345,
+      346
+    ],
+    "pdfPage": 347,
+    "pdfPages": [
+      347,
+      348
+    ],
+    "pdfSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "sourceWitness": "Verified directly in the licensed Spanish print-layout . The staged rules are English summaries of that stat block.",
+    "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+    "url": "https://www.nosolorol.com/talesofthevaliant",
+    "publisherProductPage": "https://www.nosolorol.com/talesofthevaliant",
+    "officialEnglishCatalog": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "englishCatalogEvidence": "Confirmed indexed English identity, size, Beast type, habitat and displayed CR 0.0. The Spanish stat block supplies the exact CR and mechanics.",
+    "officialErrata": "https://koboldpress.com/errata/",
+    "errataEvidence": "The official Monster Vault errata dated May 29, 2025 lists no entry-specific correction for this stat block.",
+    "xpEvidence": "Printed CR 0 awards 10 XP on Cubil de Monstruos p. 17.",
+    "habitatEvidence": "Habitat checked against the official English index and the Spanish terrain appendix.",
+    "appearanceEvidence": "Editorial description of the inspected reused portrait.",
+    "reusedPortrait": {
+      "source": "beast-ready-batch-02/parts/b02_05/portraits/lizard.png",
+      "sha256": "2c5b9354701098d6759da60bca173f75d4d1445a7e595964e4580d34aa01f782"
+    },
+    "mechanicsNotes": [
+      "The 5 HP threshold appears under Reactions on p. 345. The reduction and immediate movement continue at the top of p. 346."
+    ]
+  },
+  {
+    "name": "Lizard, Giant",
+    "kind": "beast",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "publisher": "Nosolorol Ediciones, licensed from Open Design LLC (Kobold Press)",
+    "printing": "Cubil de Monstruos, Spanish edition ©2025 of Monster Vault ©2024",
+    "spanishHeading": "Lagarto, gigante",
+    "language": "Spanish",
+    "translationLanguage": "Spanish",
+    "translationLicense": "Official licensed Nosolorol translation",
+    "isbn": "979-13-87882-04-4",
+    "section": "Apéndice: Animales",
+    "printedPage": 346,
+    "printedPages": [
+      346
+    ],
+    "pdfPage": 348,
+    "pdfPages": [
+      348
+    ],
+    "pdfSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "sourceWitness": "Verified directly in the licensed Spanish print-layout . The staged rules are English summaries of that stat block.",
+    "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+    "url": "https://www.nosolorol.com/talesofthevaliant",
+    "publisherProductPage": "https://www.nosolorol.com/talesofthevaliant",
+    "officialEnglishCatalog": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "englishCatalogEvidence": "Confirmed indexed English identity, size, Beast type, habitat and displayed CR 0.3. The Spanish stat block supplies the exact CR and mechanics.",
+    "officialErrata": "https://koboldpress.com/errata/",
+    "errataEvidence": "The official Monster Vault errata dated May 29, 2025 lists no entry-specific correction for this stat block.",
+    "xpEvidence": "Printed CR 1/4 awards 50 XP on Cubil de Monstruos p. 17.",
+    "habitatEvidence": "Habitat checked against the official English index and the Spanish terrain appendix.",
+    "appearanceEvidence": "Editorial description of the inspected reused portrait.",
+    "reusedPortrait": {
+      "source": "beast-ready-batch-04/parts/b04_08/portraits/giant-lizard.png",
+      "sha256": "2498ee3dfe40193cbd9d2e4ca272c11cadf2b2b4c54e07ab3aae42b575ac0b09"
+    },
+    "mechanicsNotes": [
+      "The stat block prints fractional CR 1/4. The English index displays 0.3.",
+      "The giant form uses a 9 HP threshold and reduces damage by 4 (1d8) when Detach Tail is available."
+    ],
+    "portraitStyleNote": "The approved replacement depicts a large lizard on muted tan parchment."
+  },
+  {
+    "name": "Mammoth",
+    "kind": "beast",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "publisher": "Nosolorol Ediciones, licensed from Open Design LLC (Kobold Press)",
+    "printing": "Cubil de Monstruos, Spanish edition ©2025 of Monster Vault ©2024",
+    "spanishHeading": "Mamut",
+    "language": "Spanish",
+    "translationLanguage": "Spanish",
+    "translationLicense": "Official licensed Nosolorol translation",
+    "isbn": "979-13-87882-04-4",
+    "section": "Apéndice: Animales",
+    "printedPage": 347,
+    "printedPages": [
+      347
+    ],
+    "pdfPage": 349,
+    "pdfPages": [
+      349
+    ],
+    "pdfSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "sourceWitness": "Verified directly in the licensed Spanish print-layout . The staged rules are English summaries of that stat block.",
+    "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+    "url": "https://www.nosolorol.com/talesofthevaliant",
+    "publisherProductPage": "https://www.nosolorol.com/talesofthevaliant",
+    "officialEnglishCatalog": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "englishCatalogEvidence": "Confirmed indexed English identity, size, Beast type, habitat and displayed CR 6.0. The Spanish stat block supplies the exact CR and mechanics.",
+    "officialErrata": "https://koboldpress.com/errata/",
+    "errataEvidence": "The official Monster Vault errata dated May 29, 2025 lists no entry-specific correction for this stat block.",
+    "xpEvidence": "Printed CR 6 awards 2,300 XP on Cubil de Monstruos p. 17.",
+    "habitatEvidence": "Habitat checked against the official English index and the Spanish terrain appendix.",
+    "appearanceEvidence": "Editorial description of the inspected reused portrait.",
+    "reusedPortrait": {
+      "source": "beast-ready-batch-02/parts/b02_09/portraits/mammoth.png",
+      "sha256": "d198e56e3e1f34d9d8138d8092323ba96166b4a14ceb486a67c1ad6703181f29"
+    },
+    "mechanicsNotes": [
+      "Trampling Charge continues at the top of the right column on p. 347. That column also lists the actions and Trunk Grab.",
+      "Trunk Grab uses a Strength save and makes the grappled target restrained while the grapple lasts."
+    ]
+  }
+]

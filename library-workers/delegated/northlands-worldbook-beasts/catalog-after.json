@@ -1,0 +1,944 @@
+[
+  {
+    "name": "Moose",
+    "version": {
+      "key": "32a5a2e406b584959d3f12b8",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "status": "Combat summary",
+      "images": [
+        {
+          "url": "",
+          "credit": "Related Awakened White Moose illustration · Icewind Dale: Rime of the Frostmaiden · Northlands Worldbook"
+        }
+      ],
+      "stats": [
+        [
+          "Armor class",
+          "13"
+        ],
+        [
+          "Hit points",
+          "22"
+        ],
+        [
+          "Challenge",
+          "1/2"
+        ],
+        [
+          "Size",
+          "Large"
+        ],
+        [
+          "Type",
+          "Beast"
+        ],
+        [
+          "Speed",
+          "walk 40 ft."
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Any",
+            "Arctic"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "An unusually tall, heavy-bodied deer with wide, palmed antlers and a long muzzle."
+          ]
+        },
+        {
+          "title": "Attacks",
+          "lines": [
+            "Hooves · melee · +6 to hit · reach 5 ft. · 1d8 + 4 bludgeoning"
+          ]
+        },
+        {
+          "title": "Trait mechanics",
+          "lines": [
+            "Forest Walker · The moose has advantage on DEX (Stealth) checks in forest terrain."
+          ]
+        },
+        {
+          "title": "Action mechanics",
+          "lines": [
+            "Hooves · If it moves at least 10 ft. straight toward a Large or smaller creature immediately before hitting it, the hit deals an extra 3 (1d6) bludgeoning damage and knocks the target prone."
+          ]
+        },
+        {
+          "title": "Reaction mechanics",
+          "lines": [
+            "Fury · Taking at least 5 damage gives the moose advantage on its next attack roll before the end of its next turn."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "Black Flag fixed values are Perception 13 and Stealth 10. Ability modifiers are STR +4, DEX +0, CON +2, INT −4, WIS +1 and CHA −3. No languages or special senses.",
+            "The Northlanders also call this animal Elg. The book describes it as nearly 7 ft. at the shoulder.",
+            "Source: Kobold Press, Northlands Worldbook (2026, Tales of the Valiant), p. 264."
+          ]
+        }
+      ],
+      "inline": {
+        "Size": [
+          {
+            "start": 0,
+            "end": 4,
+            "target": {
+              "name": "Size",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+              }
+            }
+          }
+        ],
+        "Speed": [
+          {
+            "start": 0,
+            "end": 5,
+            "target": {
+              "name": "Speed",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-264de61edc1e2fe941187374",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+              }
+            }
+          }
+        ],
+        "Forest Walker · The moose has advantage on DEX (Stealth) checks in forest terrain.": [
+          {
+            "start": 30,
+            "end": 39,
+            "target": {
+              "name": "Advantage",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2014)",
+              "page": 173,
+              "description": "Roll two d20s and use the higher roll.",
+              "local": {
+                "entry": "compendium-694118169b5a4aef2291ff71",
+                "version": "PHB:173:https://5e.tools/book.html#PHB"
+              }
+            }
+          },
+          {
+            "start": 48,
+            "end": 55,
+            "target": {
+              "name": "Stealth",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 177,
+              "local": {
+                "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+              }
+            }
+          }
+        ],
+        "Action mechanics": [
+          {
+            "start": 0,
+            "end": 6,
+            "target": {
+              "name": "Action",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 360,
+              "local": {
+                "entry": "compendium-a840ebb1735c18a9cb2c9c6e",
+                "version": "XPHB:360:https://5e.tools/variantrules.html#action_xphb"
+              }
+            }
+          }
+        ],
+        "Hooves · If it moves at least 10 ft. straight toward a Large or smaller creature immediately before hitting it, the hit deals an extra 3 (1d6) bludgeoning damage and knocks the target prone.": [
+          {
+            "start": 184,
+            "end": 189,
+            "target": {
+              "name": "Prone",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+              "local": {
+                "entry": "compendium-6bb47020835c218b46b7d85a",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+              }
+            }
+          }
+        ],
+        "Reaction mechanics": [
+          {
+            "start": 0,
+            "end": 8,
+            "target": {
+              "name": "Reaction",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 372,
+              "local": {
+                "entry": "compendium-a735155b57d286690d62c026",
+                "version": "XPHB:372:https://5e.tools/variantrules.html#reaction_xphb"
+              }
+            }
+          }
+        ],
+        "Fury · Taking at least 5 damage gives the moose advantage on its next attack roll before the end of its next turn.": [
+          {
+            "start": 48,
+            "end": 57,
+            "target": {
+              "name": "Advantage",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2014)",
+              "page": 173,
+              "description": "Roll two d20s and use the higher roll.",
+              "local": {
+                "entry": "compendium-694118169b5a4aef2291ff71",
+                "version": "PHB:173:https://5e.tools/book.html#PHB"
+              }
+            }
+          }
+        ],
+        "Black Flag fixed values are Perception 13 and Stealth 10. Ability modifiers are STR +4, DEX +0, CON +2, INT −4, WIS +1 and CHA −3. No languages or special senses.": [
+          {
+            "start": 28,
+            "end": 38,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          },
+          {
+            "start": 46,
+            "end": 53,
+            "target": {
+              "name": "Stealth",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 177,
+              "local": {
+                "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "queries": {
+      "Any": true,
+      "Arctic": true,
+      "palmed antlers": true
+    },
+    "gallery": [
+      {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      {
+        "url": "",
+        "credit": "Related Awakened White Moose illustration · Icewind Dale: Rime of the Frostmaiden · Northlands Worldbook"
+      }
+    ],
+    "portraitHash": "cf8867f3684ca8abd7224751ecaff33666624e04387b102427d86b33ea6cd040",
+    "siblings": []
+  },
+  {
+    "name": "Reindeer",
+    "version": {
+      "key": "ff655e3a11dcf1e96ef5a86b",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "12"
+        ],
+        [
+          "Hit points",
+          "15"
+        ],
+        [
+          "Challenge",
+          "1/4"
+        ],
+        [
+          "Size",
+          "Large"
+        ],
+        [
+          "Type",
+          "Beast"
+        ],
+        [
+          "Speed",
+          "walk 40 ft."
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Any",
+            "Arctic"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A large deer with a pale winter coat where the brown fur has shed."
+          ]
+        },
+        {
+          "title": "Attacks",
+          "lines": [
+            "Hooves · melee · +4 to hit · reach 5 ft. · 1d8 + 2 bludgeoning"
+          ]
+        },
+        {
+          "title": "Trait mechanics",
+          "lines": [
+            "Agile · The reindeer can leave an enemy’s reach without provoking an opportunity attack.",
+            "Snowstrider · Snow and ice do not count as difficult terrain for the reindeer."
+          ]
+        },
+        {
+          "title": "Bonus action mechanics",
+          "lines": [
+            "Burst of Speed (3/day) · Its speed doubles until the start of its next turn."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "Black Flag fixed values are Perception 13 and Stealth 13. Ability modifiers are STR +2, DEX +3, CON +2, INT −4, WIS +1 and CHA −3. No languages or special senses.",
+            "The page extraction gives Hooves damage as 7 (1d8 + 2). The dice average 6 when rounded down. The profile records both values from the extraction.",
+            "The book gives CR 1/4. The publisher’s creature index rounds that value to 0.3.",
+            "Wild reindeer travel in herds. People across the Northlands raise domesticated reindeer for sled work, meat and milk.",
+            "Source: Kobold Press, Northlands Worldbook (2026, Tales of the Valiant), p. 264."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Size": [
+          {
+            "start": 0,
+            "end": 4,
+            "target": {
+              "name": "Size",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+              }
+            }
+          }
+        ],
+        "Speed": [
+          {
+            "start": 0,
+            "end": 5,
+            "target": {
+              "name": "Speed",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-264de61edc1e2fe941187374",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+              }
+            }
+          }
+        ],
+        "Agile · The reindeer can leave an enemy’s reach without provoking an opportunity attack.": [
+          {
+            "start": 69,
+            "end": 87,
+            "target": {
+              "name": "Opportunity Attack",
+              "group": "Actions",
+              "publication": "Player's Handbook (2014)",
+              "page": 195,
+              "local": {
+                "entry": "compendium-a05ec14a1e820d13424c67ff",
+                "version": "PHB:195:https://5e.tools/actions.html#opportunity%20attack_phb"
+              }
+            }
+          }
+        ],
+        "Burst of Speed (3/day) · Its speed doubles until the start of its next turn.": [
+          {
+            "start": 9,
+            "end": 14,
+            "target": {
+              "name": "Speed",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-264de61edc1e2fe941187374",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+              }
+            }
+          }
+        ],
+        "Black Flag fixed values are Perception 13 and Stealth 13. Ability modifiers are STR +2, DEX +3, CON +2, INT −4, WIS +1 and CHA −3. No languages or special senses.": [
+          {
+            "start": 28,
+            "end": 38,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          },
+          {
+            "start": 46,
+            "end": 53,
+            "target": {
+              "name": "Stealth",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 177,
+              "local": {
+                "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "queries": {
+      "Any": true,
+      "Arctic": true,
+      "pale winter coat": true
+    },
+    "gallery": [
+      {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    ],
+    "portraitHash": "e20ecf6fb5a414890320eecaeed403ac17067559ccd8cfd86f815fe8357e0c96",
+    "siblings": [
+      {
+        "version": {
+          "key": "e85276048550fa2f0071b09d",
+          "publication": "Icewind Dale: Rime of the Frostmaiden",
+          "edition": "2014 fifth edition",
+          "description": "A Large beast with challenge rating 1/4. Named abilities include Charge, Ram, Hooves.",
+          "source": "https://5e.tools/bestiary.html#reindeer_idrotf",
+          "status": "Encounter reference",
+          "images": [
+            {
+              "url": "",
+              "credit": "Icewind Dale: Rime of the Frostmaiden"
+            }
+          ],
+          "stats": [
+            [
+              "Armor class",
+              "10"
+            ],
+            [
+              "Hit points",
+              "13"
+            ],
+            [
+              "Hit dice",
+              "2d10 + 2"
+            ],
+            [
+              "Challenge",
+              "1/4"
+            ],
+            [
+              "Size",
+              "Large"
+            ],
+            [
+              "Type",
+              "Beast"
+            ],
+            [
+              "Speed",
+              "walk 50 ft."
+            ],
+            [
+              "Passive Perception",
+              "10"
+            ],
+            [
+              "Strength",
+              "16"
+            ],
+            [
+              "Dexterity",
+              "10"
+            ],
+            [
+              "Constitution",
+              "12"
+            ],
+            [
+              "Intelligence",
+              "2"
+            ],
+            [
+              "Wisdom",
+              "10"
+            ],
+            [
+              "Charisma",
+              "6"
+            ],
+            [
+              "Alignment",
+              "unaligned"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Habitats",
+              "lines": [
+                "grassland",
+                "forest",
+                "hill"
+              ]
+            },
+            {
+              "title": "Attacks",
+              "lines": [
+                "Ram · melee · +5 to hit · reach 5 ft. · 1d6 + 3 bludgeoning",
+                "Hooves · melee · +5 to hit · reach 5 ft. · 2d4 + 3 bludgeoning"
+              ]
+            },
+            {
+              "title": "Traits reference",
+              "lines": [
+                "Charge · 2d6 · DC 13 Strength save · Prone"
+              ]
+            },
+            {
+              "title": "Actions reference",
+              "lines": [
+                "Ram · Melee attack · +5 to hit · 1d6 + 3 bludgeoning damage · reach 5 ft.",
+                "Hooves · Melee attack · +5 to hit · 2d4 + 3 bludgeoning damage · reach 5 ft. · Prone"
+              ]
+            },
+            {
+              "title": "Adapted from",
+              "lines": [
+                "Elk"
+              ]
+            }
+          ],
+          "sourceCode": "IDRotF",
+          "page": 107,
+          "references": [
+            {
+              "label": "Icewind Dale: Rime of the Frostmaiden, p. 107",
+              "url": "https://5e.tools/bestiary.html#reindeer_idrotf"
+            },
+            {
+              "label": "Prone (condition)",
+              "url": "https://5e.tools/conditionsdiseases.html#prone_phb",
+              "local": {
+                "entry": "compendium-6bb47020835c218b46b7d85a",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+              },
+              "preview": {
+                "name": "Prone",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 292,
+                "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+                "local": {
+                  "entry": "compendium-6bb47020835c218b46b7d85a",
+                  "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+                }
+              }
+            },
+            {
+              "label": "Elk (creature)",
+              "url": "https://5e.tools/bestiary.html#elk_mm",
+              "local": {
+                "entry": "beast-2f60f61a34244180b562a206",
+                "version": "1269ef3ae29a0bb54b1753f1"
+              },
+              "preview": {
+                "name": "Elk",
+                "group": "Beast",
+                "publication": "Monster Manual (2014)",
+                "page": 322,
+                "description": "A Large beast with challenge rating 1/4. Listed habitats: grassland, forest, hill. Named abilities include Charge, Ram, Hooves.",
+                "local": {
+                  "entry": "beast-2f60f61a34244180b562a206",
+                  "version": "1269ef3ae29a0bb54b1753f1"
+                }
+              }
+            }
+          ],
+          "inline": {
+            "Size": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ],
+            "Passive Perception": [
+              {
+                "start": 0,
+                "end": 18,
+                "target": {
+                  "name": "Passive Perception",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 372,
+                  "local": {
+                    "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                    "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                  }
+                }
+              }
+            ],
+            "Alignment": [
+              {
+                "start": 0,
+                "end": 9,
+                "target": {
+                  "name": "Alignment",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 360,
+                  "local": {
+                    "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                    "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                  }
+                }
+              }
+            ],
+            "Charge · 2d6 · DC 13 Strength save · Prone": [
+              {
+                "start": 37,
+                "end": 42,
+                "target": {
+                  "name": "Prone",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 292,
+                  "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+                  "local": {
+                    "entry": "compendium-6bb47020835c218b46b7d85a",
+                    "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+                  }
+                }
+              }
+            ],
+            "Hooves · Melee attack · +5 to hit · 2d4 + 3 bludgeoning damage · reach 5 ft. · Prone": [
+              {
+                "start": 79,
+                "end": 84,
+                "target": {
+                  "name": "Prone",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 292,
+                  "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+                  "local": {
+                    "entry": "compendium-6bb47020835c218b46b7d85a",
+                    "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+                  }
+                }
+              }
+            ],
+            "Elk": [
+              {
+                "start": 0,
+                "end": 3,
+                "target": {
+                  "name": "Elk",
+                  "group": "Beast",
+                  "publication": "Monster Manual (2014)",
+                  "page": 322,
+                  "description": "A Large beast with challenge rating 1/4. Listed habitats: grassland, forest, hill. Named abilities include Charge, Ram, Hooves.",
+                  "local": {
+                    "entry": "beast-2f60f61a34244180b562a206",
+                    "version": "1269ef3ae29a0bb54b1753f1"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "gallery": [
+          {
+            "url": "",
+            "credit": "Icewind Dale: Rime of the Frostmaiden"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sea Serpent",
+    "version": {
+      "key": "88fb84ce49a772c818242b9a",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "status": "Combat summary",
+      "images": [
+        {
+          "url": "",
+          "credit": "Related Ancient Sea Serpent illustration by Mark Behm · Fizban's Treasury of Dragons · Northlands Worldbook"
+        }
+      ],
+      "stats": [
+        [
+          "Armor class",
+          "13"
+        ],
+        [
+          "Hit points",
+          "76"
+        ],
+        [
+          "Challenge",
+          "3"
+        ],
+        [
+          "Size",
+          "Huge"
+        ],
+        [
+          "Type",
+          "Beast"
+        ],
+        [
+          "Speed",
+          "walk 0 ft., swim 50 ft."
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Arctic",
+            "Underwater"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "An enormous eel-like serpent with blue-green scales, a white belly, sail-like dorsal fins, a bony head ridge and four fangs."
+          ]
+        },
+        {
+          "title": "Attacks",
+          "lines": [
+            "Bite · melee · +8 to hit · reach 10 ft. · 3d8 + 6 piercing"
+          ]
+        },
+        {
+          "title": "Trait mechanics",
+          "lines": [
+            "Constrictor · After a Bite hit, it can use Constrict as a bonus action."
+          ]
+        },
+        {
+          "title": "Action mechanics",
+          "lines": [
+            "Constrict · One visible Huge or smaller creature within 10 ft. makes a DC 14 STR save. On a failure it takes 10 (4d4) bludgeoning damage and is grappled. The escape DC is 16."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "Black Flag fixed values are Perception 13 and Stealth 15. Ability modifiers are STR +6, DEX +3, CON +3, INT −4, WIS +1 and CHA −3. No languages or special senses.",
+            "Wild serpents hunt in northern waters. Those raised from eggs can imprint on an owner and serve as mounts or ship guards.",
+            "Source: Kobold Press, Northlands Worldbook (2026, Tales of the Valiant), p. 264."
+          ]
+        }
+      ],
+      "inline": {
+        "Size": [
+          {
+            "start": 0,
+            "end": 4,
+            "target": {
+              "name": "Size",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+              }
+            }
+          }
+        ],
+        "Speed": [
+          {
+            "start": 0,
+            "end": 5,
+            "target": {
+              "name": "Speed",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-264de61edc1e2fe941187374",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+              }
+            }
+          }
+        ],
+        "Action mechanics": [
+          {
+            "start": 0,
+            "end": 6,
+            "target": {
+              "name": "Action",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 360,
+              "local": {
+                "entry": "compendium-a840ebb1735c18a9cb2c9c6e",
+                "version": "XPHB:360:https://5e.tools/variantrules.html#action_xphb"
+              }
+            }
+          }
+        ],
+        "Constrict · One visible Huge or smaller creature within 10 ft. makes a DC 14 STR save. On a failure it takes 10 (4d4) bludgeoning damage and is grappled. The escape DC is 16.": [
+          {
+            "start": 144,
+            "end": 152,
+            "target": {
+              "name": "Grappled",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+              "local": {
+                "entry": "compendium-e9c29509e4a14efaf316630f",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#grappled_phb"
+              }
+            }
+          }
+        ],
+        "Black Flag fixed values are Perception 13 and Stealth 15. Ability modifiers are STR +6, DEX +3, CON +3, INT −4, WIS +1 and CHA −3. No languages or special senses.": [
+          {
+            "start": 28,
+            "end": 38,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          },
+          {
+            "start": 46,
+            "end": 53,
+            "target": {
+              "name": "Stealth",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 177,
+              "local": {
+                "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "queries": {
+      "Arctic": true,
+      "Underwater": true,
+      "four fangs": true
+    },
+    "gallery": [
+      {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      {
+        "url": "",
+        "credit": "Related Ancient Sea Serpent illustration by Mark Behm · Fizban's Treasury of Dragons · Northlands Worldbook"
+      }
+    ],
+    "portraitHash": "8f79b68fd73e0353e6823e8628bf841b8149873424e6b96f46bc847c42cb6be3",
+    "siblings": []
+  }
+]

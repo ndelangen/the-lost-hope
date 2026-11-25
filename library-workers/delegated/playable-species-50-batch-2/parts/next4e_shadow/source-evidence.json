@@ -1,0 +1,238 @@
+[
+  {
+    "name": "Shade",
+    "publication": "Heroes of Shadow (2011)",
+    "edition": "4th edition",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Shadow humanoid",
+    "url": "",
+    "page": 121,
+    "printedPages": [
+      121,
+      122,
+      124,
+      125
+    ],
+    "sourceDistinctions": [
+      "The Essentials-era Shade was human before a rite surrendered part of its soul to the Shadowfell. This book supplies its own rules for darkvision, reduced healing surges and hiding.",
+      "Its optional replacement utility powers begin above level 1."
+    ],
+    "supportingSources": [
+      {
+        "title": "Dungeon Master’s Guide (4e), NPC design steps and NPC classes",
+        "url": "",
+        "printedPages": [
+          187,
+          188
+        ]
+      },
+      {
+        "title": "Player’s Handbook (4e), class powers and equipment",
+        "url": "",
+        "printedPages": [
+          116,
+          117,
+          118,
+          119,
+          218
+        ]
+      },
+      {
+        "title": "Heroes of Shadow, alternate scan",
+        "url": "https://www.scribd.com/document/369420850/player-s-option-heroes-of-shadow",
+        "printedPages": [
+          116,
+          121,
+          126
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Vryloka",
+    "publication": "Heroes of Shadow (2011)",
+    "edition": "4th edition",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Natural humanoid (undead, living)",
+    "url": "",
+    "page": 126,
+    "printedPages": [
+      126,
+      127,
+      129,
+      130
+    ],
+    "sourceDistinctions": [
+      "Vryloka is a playable lineage with a blood-bond origin. Vampire has a separate class chapter in the same book.",
+      "The level 1 entry gains Lifeblood when it bloodies or kills an enemy. Its later heritage utility choices are separate."
+    ],
+    "supportingSources": [
+      {
+        "title": "Dungeon Master’s Guide (4e), NPC design steps and NPC classes",
+        "url": "",
+        "printedPages": [
+          187,
+          188
+        ]
+      },
+      {
+        "title": "Player’s Handbook (4e), class powers and equipment",
+        "url": "",
+        "printedPages": [
+          144,
+          145,
+          146,
+          214
+        ]
+      },
+      {
+        "title": "Heroes of Shadow, alternate scan",
+        "url": "https://www.scribd.com/document/369420850/player-s-option-heroes-of-shadow",
+        "printedPages": [
+          116,
+          121,
+          126
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Revenant",
+    "publication": "Heroes of Shadow (2011)",
+    "edition": "4th edition",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Natural humanoid (undead, living)",
+    "url": "",
+    "page": 116,
+    "printedPages": [
+      116,
+      117
+    ],
+    "sourceDistinctions": [
+      "This is the 2011 player race. Past Life grants prerequisite eligibility only. The NPC uses human for that choice.",
+      "This build uses the printed dying and unconsciousness text and enables death saving throws for this NPC."
+    ],
+    "supportingSources": [
+      {
+        "title": "Dungeon Master’s Guide (4e), NPC design steps and NPC classes",
+        "url": "",
+        "printedPages": [
+          187,
+          188
+        ]
+      },
+      {
+        "title": "Player’s Handbook (4e), class powers and equipment",
+        "url": "",
+        "printedPages": [
+          76,
+          77,
+          78,
+          214,
+          216
+        ]
+      },
+      {
+        "title": "Heroes of Shadow, alternate scan",
+        "url": "https://www.scribd.com/document/369420850/player-s-option-heroes-of-shadow",
+        "printedPages": [
+          116,
+          121,
+          126
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Hamadryad",
+    "publication": "Heroes of the Feywild (2011)",
+    "edition": "4th edition",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Fey humanoid",
+    "url": "",
+    "page": 22,
+    "printedPages": [
+      22,
+      23
+    ],
+    "sourceDistinctions": [
+      "The book presents Hamadryads as oak spirits with nymph and dryad aspects. The defensive branch of Hamadryad Aspects grants resistance instead of combat advantage."
+    ],
+    "supportingSources": [
+      {
+        "title": "Dungeon Master’s Guide (4e), NPC design steps and NPC classes",
+        "url": "",
+        "printedPages": [
+          187,
+          188
+        ]
+      },
+      {
+        "title": "Player’s Handbook (4e), class powers and equipment",
+        "url": "",
+        "printedPages": [
+          156,
+          157,
+          158,
+          159,
+          160,
+          161,
+          219
+        ]
+      },
+      {
+        "title": "Heroes of the Feywild, facsimile",
+        "url": "https://anyflip.com/myubd/avli/basic",
+        "printedPages": [
+          22,
+          23
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Shadar-kai",
+    "publication": "Dragon #372 (2009)",
+    "edition": "4th edition",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Shadow humanoid",
+    "url": "",
+    "page": 5,
+    "printedPages": [
+      5,
+      6
+    ],
+    "sourceDistinctions": [
+      "The February 2009 Playing Shadar-Kai article gives Dexterity and Intelligence bonuses and the encounter teleport. Its origin keyword is shadow."
+    ],
+    "supportingSources": [
+      {
+        "title": "Dungeon Master’s Guide (4e), NPC design steps and NPC classes",
+        "url": "",
+        "printedPages": [
+          187,
+          188
+        ]
+      },
+      {
+        "title": "Player’s Handbook (4e), class powers and equipment",
+        "url": "",
+        "printedPages": [
+          116,
+          117,
+          118,
+          119,
+          218
+        ]
+      },
+      {
+        "title": "Playing Shadar-Kai, alternate article scan",
+        "url": "https://www.yumpu.com/en/document/view/23931931/playing-shadar-kai-korinth",
+        "printedPages": [
+          5,
+          6
+        ]
+      }
+    ]
+  }
+]

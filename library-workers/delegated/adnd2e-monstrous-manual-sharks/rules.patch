@@ -1,0 +1,155 @@
+diff --git a/dm-library/bestiary/book-catalog.json b/dm-library/bestiary/book-catalog.json
+--- a/dm-library/bestiary/book-catalog.json
++++ b/dm-library/bestiary/book-catalog.json
+@@ -2638,6 +2638,132 @@
+           }
+         ]
+       }
++    },
++    {
++      "name": "Shark",
++      "kind": "beast",
++      "publication": "Monstrous Manual (1994 third printing)",
++      "edition": "AD&D 2nd edition",
++      "ruleset": "adnd-2e",
++      "appearance": "An ordinary shark with a streamlined body, narrow snout, prominent dorsal fin, and forked tail. The Fish entry gives no separate size or color for this row.",
++      "combat": {
++        "habitats": ["Salt water"],
++        "creatureType": "Animal",
++        "numberOfAttacks": 1,
++        "armorClass": 6,
++        "movement": "Sw 24",
++        "hitDice": "3–8",
++        "damageDice": "2–5 / 2–8 / 3–12"
++      },
++      "mechanics": {
++        "Hit Dice variants": [
++          {
++            "name": "3 HD",
++            "effectNote": "THAC0 17, bite 2–5, 65 XP."
++          },
++          {
++            "name": "4 HD",
++            "effectNote": "THAC0 17, bite 2–5, 120 XP."
++          },
++          {
++            "name": "5 HD",
++            "effectNote": "THAC0 15, bite 2–8, 175 XP."
++          },
++          {
++            "name": "6 HD",
++            "effectNote": "THAC0 15, bite 2–8, 270 XP."
++          },
++          {
++            "name": "7 HD",
++            "effectNote": "THAC0 13, bite 3–12, 420 XP."
++          },
++          {
++            "name": "8 HD",
++            "effectNote": "THAC0 13, bite 3–12, 650 XP."
++          }
++        ],
++        "Combat": [
++          {
++            "name": "Feeding frenzy",
++            "effectNote": "A shark can detect the scent of blood a mile away. The scent of blood and a kill can excite sharks into a feeding frenzy."
++          },
++          {
++            "name": "Bite and retreat",
++            "effectNote": "Sharks close in, bite, and retreat. Up to ten normal-sized sharks can attack one man-sized opponent this way."
++          }
++        ]
++      },
++      "notes": [
++        "3–12 appearing. Average (10) morale.",
++        "The Salt Water summoning tables list sharks at 3–5, 5–6, and 7–8 HD.",
++        "Monstrous Manual, TSR 2140, January 1994 third printing, Fish pp. 117–118, with saltwater summoning on p. 378."
++      ]
++    },
++    {
++      "name": "Giant Shark",
++      "kind": "beast",
++      "publication": "Monstrous Manual (1994 third printing)",
++      "edition": "AD&D 2nd edition",
++      "ruleset": "adnd-2e",
++      "appearance": "A huge prehistoric-style shark, named megalodon in the entry. The portrait gives it a thick torso and broad jaws. The entry gives no measured length or color.",
++      "combat": {
++        "habitats": ["Salt water"],
++        "creatureType": "Animal",
++        "numberOfAttacks": 1,
++        "armorClass": 5,
++        "movement": "Sw 18",
++        "hitDice": "10–15",
++        "damageDice": "4–16 / 5–20 / 6–24"
++      },
++      "mechanics": {
++        "Hit Dice variants": [
++          {
++            "name": "10 HD",
++            "effectNote": "THAC0 11, bite 4–16, 2,000 XP."
++          },
++          {
++            "name": "11 HD",
++            "effectNote": "THAC0 9, bite 4–16, 3,000 XP."
++          },
++          {
++            "name": "12 HD",
++            "effectNote": "THAC0 9, bite 5–20, 5,000 XP."
++          },
++          {
++            "name": "13 HD",
++            "effectNote": "THAC0 7, bite 5–20, 6,000 XP."
++          },
++          {
++            "name": "14 HD",
++            "effectNote": "THAC0 7, bite 6–24, 7,000 XP."
++          },
++          {
++            "name": "15 HD",
++            "effectNote": "THAC0 5, bite 6–24, 8,000 XP."
++          }
++        ],
++        "Combat": [
++          {
++            "name": "Swallow whole",
++            "effectNote": "A Giant Shark can swallow most creatures whole when the attack roll is 4 above the minimum needed to hit. The entry says Giant Sharks never enter a feeding frenzy."
++          }
++        ],
++        "Shared Fish rules": [
++          {
++            "name": "Digestion and suffocation",
++            "effectNote": "A swallowed creature takes normal bite damage, then 1 point of digestion damage per round and a 5% cumulative chance of suffocating per round."
++          },
++          {
++            "name": "Escape",
++            "effectNote": "A victim can cut free with a sharp-edged weapon. Others can cut or tear from the outside. The victim breaks free when the fish has lost 50% of its hit points."
++          }
++        ]
++      },
++      "notes": [
++        "1–3 appearing. Steady (11) morale.",
++        "Monster Summoning VIII lists the Giant Shark in the Salt Water table.",
++        "Monstrous Manual, TSR 2140, January 1994 third printing, Fish pp. 117–118, with saltwater summoning on p. 378."
++      ]
+     },
+     {
+       "edition": "2014 fifth edition",
+diff --git a/dm-library/bestiary/entries.tsv b/dm-library/bestiary/entries.tsv
+--- a/dm-library/bestiary/entries.tsv
++++ b/dm-library/bestiary/entries.tsv
+@@ -4089,6 +4089,7 @@
+ Giant Seahorse	beast	Beast	Monster Manual (2024)	2024 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/4775820-giant-seahorse	1/2
+ Giant Seahorse	beast	Beast	SRD 5.2.1	2024 fifth edition	Wizards of the Coast		1/2
+ Giant Shark	beast	Beast	Black Flag Roleplaying Reference Document v0.2	Black Flag Roleplaying	Kobold Press		5
++Giant Shark	beast	Animal	Monstrous Manual (1994 third printing)	AD&D 2nd edition	TSR		
+ Giant Shark	beast	Beast	Monster Manual (2014)	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/16894-giant-shark	5
+ Giant Shark	beast	Beast	Monster Manual (2024)	2024 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/5195027-giant-shark	5
+ Giant Shark	beast	Beast	SRD 5.1	2014 fifth edition	Wizards of the Coast		5
+@@ -8483,6 +8484,7 @@
+ Sharda	monster	Humanoid	Storm King's Thunder	2014 fifth edition	Wizards of the Coast		2
+ Shardmaul Manticore	monster	Monstrosity	Monsters of Drakkenheim	2024 fifth edition compatible	Ghostfire Gaming	https://www.dndbeyond.com/monsters/5525110-shardmaul-manticore	6
+ Shariel	monster	Celestial	Turn of Fortune's Wheel	2014 fifth edition	Wizards of the Coast		10
++Shark	beast	Animal	Monstrous Manual (1994 third printing)	AD&D 2nd edition	TSR		
+ Shark, Giant	beast	Beast	Monster Vault	Black Flag Roleplaying	Kobold Press	https://koboldpress.com/tools/search-tov-kobold-press-monsters/	5.0
+ Shark, Hunter	beast	Beast	Monster Vault	Black Flag Roleplaying	Kobold Press	https://koboldpress.com/tools/search-tov-kobold-press-monsters/	2.0
+ Shark, Reef	beast	Beast	Monster Vault	Black Flag Roleplaying	Kobold Press	https://koboldpress.com/tools/search-tov-kobold-press-monsters/	0.5

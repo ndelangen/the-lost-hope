@@ -1,0 +1,93 @@
+[
+  {
+    "entityKind": "beast",
+    "name": "Squid",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/squid/squid-hans-hillewaert.jpg",
+    "artist": "Common squid photograph by Hans Hillewaert · CC BY-SA 4.0",
+    "kind": "photograph",
+    "sha256": "0d58cf8f15545147ab3e267fef4ccfaf99f5b9793127eabd11a3ba214cb3ebcd",
+    "reference": "https://commons.wikimedia.org/wiki/File:Loligo_vulgaris.jpg",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Squid",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/squid/giant-squid-alejandro-pacheco.webp",
+    "artist": "Related Giant Squid illustration by Alejandro Pacheco · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "da7403ab539031ae27e3ed755c58278b2d89f8db2071e2a9797e72ce8874ed25",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Giant%20Squid.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Tiny Viper Snake",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/tiny-viper-snake/poisonous-snake-2014.webp",
+    "artist": "Related Poisonous Snake token · Monster Manual (2014)",
+    "kind": "token",
+    "sha256": "f1ff5ecffcbdd53e7bd5e5b353adc21854f3d20f65cf3b5e63709123ec48c9c8",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/MM/Poisonous%20Snake.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Tiny Viper Snake",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/tiny-viper-snake/swarm-of-venomous-snakes-2024.webp",
+    "artist": "Related Swarm of Venomous Snakes illustration · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "ce2f60ddfaf2569addce62306e3a98b952278d3ae78198ca5661c518d3ae65a9",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Swarm%20of%20Venomous%20Snakes.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Toad",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/toad/toad-ecofriend33.jpg",
+    "artist": "Common toad photograph by EcoFriend33 · CC BY 4.0",
+    "kind": "photograph",
+    "sha256": "d204b4aa1e75f8a6c8509f0242317afec4f0156993a8dfae3b29bc0b84d66e13",
+    "reference": "https://commons.wikimedia.org/wiki/File:Bufo.bufo.jpg",
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Toad",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/toad/toad-philippe-kurlapski.jpg",
+    "artist": "Common toad photograph by Philippe Kurlapski · CC BY 1.0",
+    "kind": "photograph",
+    "sha256": "943417cec137fa87081c96c5c8f583e0fb1d3db731fd6a789dd03fc16d77ae1d",
+    "reference": "https://commons.wikimedia.org/wiki/File:Bufo_bufo_01.jpg",
+    "license": "https://creativecommons.org/licenses/by/1.0/"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Tyrannosaurus",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/tyrannosaurus/tyrannosaurus-richard-sardinha.jpg",
+    "artist": "Tyrannosaurus illustration by Richard Sardinha · Monster Manual v.3.5",
+    "kind": "illustration",
+    "sha256": "bd027e232e8f8d4e10e1173a28cd6f4162006f5203c08989bb227104cb96202f",
+    "reference": "https://web.archive.org/web/20161101074216/http://archive.wizards.com/default.asp?x=dnd/ag/20030712a"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Tyrannosaurus",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/tyrannosaurus/tyrannosaurus-rex-april-prime.webp",
+    "artist": "Tyrannosaurus Rex illustration by April Prime · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "b26a960d6fb4597ccbf375f5ea480872a5c05a6cce239af335372cff26b3a8a3",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Tyrannosaurus%20Rex.webp"
+  }
+]

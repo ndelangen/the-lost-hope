@@ -14,4 +14,5 @@ export default createEvent({
   day: 24,
   location: refs.locations.nimbus_market,
   mark: { type: 'avatar', of: refs.pcs.cassian_veyl },
+  illustrations: ['/assets/scenes/cassian-replaces-the-meat-and-buys-ritual-goats.png'],
 })

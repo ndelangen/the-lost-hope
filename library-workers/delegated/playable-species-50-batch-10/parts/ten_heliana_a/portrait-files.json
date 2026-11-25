@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Cnidaran",
+    "file": "portraits/cnidaran.png",
+    "sha256": "1f26b816315a659ae4c2223e2a2c9568576a1cbdaa0290abf61b5f66ce0d9792",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "name": "Cyclopian",
+    "file": "portraits/cyclopian.png",
+    "sha256": "70a734316a5f648fa305c73e4c8b97e1c7b6f0c815053d6a4f8b56e07bdd3d18",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "name": "Gobboc",
+    "file": "portraits/gobboc.png",
+    "sha256": "ebde1d3e0d4e873b213212fc636b6d2db173b602333da300f3f82a73eb939b84",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "name": "Golynn",
+    "file": "portraits/golynn.png",
+    "sha256": "6070c9ffe417531a76d35b1288e8632f4d9ef0b620f9dd9e96fb385975ba7814",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "name": "Lotol",
+    "file": "portraits/lotol.png",
+    "sha256": "89a38fcc8c4e51f69d01f890688f5aa274d797b697dc3a5587b17a04a5523987",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  }
+]

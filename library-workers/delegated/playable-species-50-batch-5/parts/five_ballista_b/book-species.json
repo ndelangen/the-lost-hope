@@ -1,0 +1,55 @@
+[
+  {
+    "name": "Pegataur",
+    "publication": "Top Ballista (PC2, 1989)",
+    "edition": "Basic D&D (BECMI)",
+    "kind": "species",
+    "traits": [
+      "A winged horse body carries an elven torso. Roll 3d6 for each of the six scores and arrange within Table 1. Strength 9–18 and Constitution 8–18 are prime requisites. Other abilities can be 3–18. Strength is relative to comparable creatures.",
+      "Start at −20,000 XP with 2d8, reach 5d8 at 0 XP and become level 1 at 10,000 XP without adding a Hit Die. Use monster HD for attacks before level 8 and Table 8 for fighter saves. From level 8 compare monster HD and class level where the shared rules allow. At level 10, begin elven Attack Ranks at C.",
+      "The Pegataur chapter specifies natural descending AC 5. Can use weapons freely and wear suitable horse barding. Flight is 360′ (120′) and land movement is 180′ (60′). Dawn of the Emperors flight uses maneuver factor and takeoff 3(b) and a load of 1,000 cn per HD. Typical handling capacity on land doubles the human values.",
+      "A pegataur who does not choose the wicca path casts as an elf of the same level. An eligible pegataur can choose wicca at Intelligence 15 or shaman at Wisdom 15 after reaching normal-monster status. Shamans can draw from both the cleric and druid spell lists.",
+      "Suggested tongues are Centaur, Giant Eagle, Pegasus and Giant Roc, plus alignment. Fairy and Elven are independent 50% chances."
+    ]
+  },
+  {
+    "name": "Sphinx",
+    "publication": "Top Ballista (PC2, 1989)",
+    "edition": "Basic D&D (BECMI)",
+    "kind": "species",
+    "traits": [
+      "A human-headed winged lion. Roll 3d6 for each ability. Limits are Strength and Intelligence 6–18, Wisdom and Constitution 8–18, and Dexterity and Charisma 3–18. Wisdom and Constitution are prime requisites. Strength is relative to similar creatures.",
+      "Start at −3,000,000 XP with 2d8 and AC 5. Table 9 sets attack damage, AC, movement abilities and roar by HD. At 0 XP the normal-monster row is 12d8 and AC 0. Level 1 begins at 300,000 XP and 13d8. Save as a fighter of twice the current HD.",
+      "Flight is 360′ (120′). Land movement is 180′ (60′). Dawn of the Emperors flight uses maneuver factor and takeoff 1(b), with 1,000 cn of load per HD. At 4 HD, speak at will with desert animals or animals living within 3 miles of home.",
+      "Fight with two claws and a bite, using the Table 9 damage dice. Four HD grant one effective magical weapon plus for bypassing defenses, with another plus every four HD. Sphinxes ordinarily use no armor, shields or weapons. Use the species chapter if allowing specially made barding.",
+      "Roar twice per day. At the outer radius, save vs. spells or flee. Within the second radius also save vs. paralysis or be stunned. Within the innermost radius take the table’s damage and a separate save vs. spells reduces deafness from 1d10 turns to 1d4 turns. Everyone in range is affected. Use the current row’s radius, modifier and durations.",
+      "From level 1, a male casts as a magic-user and a female as a cleric. Natural casting caps at equivalent caster level 12. At 6, 8 and 12 HD, gain +4 against first-, second- and third-level spells respectively. At 10 HD gain protection from nonmagical weapons, with the usual exception for monsters of 4+ HD."
+    ]
+  },
+  {
+    "name": "Tabi",
+    "publication": "Top Ballista (PC2, 1989)",
+    "edition": "Basic D&D (BECMI)",
+    "kind": "species",
+    "traits": [
+      "A cat-sized ape-like creature with leathery wings. Roll 3d6 for each ability. Strength is 3–17, Intelligence and Dexterity 6–18, Wisdom 3–16, and Constitution and Charisma 3–18. Intelligence is the prime requisite and Strength is relative to similar creatures.",
+      "Start at −32,000 XP with 2d8. At 0 XP gain the normal-monster 5d8 and speech with natural apes or monkeys. Level 1 begins at 32,000 XP with the same HD. Use monster HD for attacks and magic-user saves before level 8. Natural descending AC 7, no weapons or armor, and one-third ordinary land carrying capacity.",
+      "Land movement is 60′ (20′), flight 240′ (80′). Dawn of the Emperors flight uses maneuver factor and takeoff 3(b) and can carry 1,000 cn per HD. Suggested languages are Gnome, Phanaton, local language and alignment tongue.",
+      "Two claws each deal 1d4. On a hit, save vs. poison or attack the nearest creature with conventional weapons or bare hands, without casting spells or using magic items. Lasts 2d6 turns or until neutralize poison or cureall. Four HD grant one effective magical weapon plus for bypassing defenses.",
+      "Use Table 10 for pick pockets, move silently and hide in shadows. Familiar woodland can provide hiding cover. Emit a stench at will to a 100′ maximum radius, expanding and receding at 10′ per round. Alerted creatures can reduce the chance to hide by 10–40 percentage points. From level 3 the stench adds a blight effect, with source-listed exceptions.",
+      "Choose spells from Table 11 in Table 10’s level bands. Learn them from a book once, then rememorize them without it. Levels 1, 4, 5 and 7 grant fear-save bonuses of +1, +2, +3 and +4 respectively. From level 8 use lore once a week."
+    ]
+  },
+  {
+    "name": "Pterran",
+    "publication": "Dark Sun Campaign Setting, Expanded and Revised (1995)",
+    "edition": "AD&D 2nd edition",
+    "kind": "species",
+    "traits": [
+      "Before modifiers, require Str and Con 8–20, Dex 5–18, Int 5–20, Wis 7–20 and Cha 5–17. Apply +1 Strength, −1 Dexterity, +1 Wisdom and −1 Charisma after meeting these requirements. The adjustment cap is 24 and floor is 3.",
+      "Choose a Life Path. Warrior paths are Fighter 16, Gladiator 14 and Ranger 12. Druid and Psionicist have no racial cap. Thief caps at 10 and Trader at 14. Fighter/Thief and Psionicist/Thief are the printed multiclass combinations. The setting’s high-prime-requisite rule can extend finite caps.",
+      "A standing adult is about 6 ft. tall, with light brown scales, three fingers and an opposable thumb per hand, three toes per foot, a rear head fin, short tail and two vestigial wing stubs. Natural descending AC 8, base movement 12 and no flight. In place of using a weapon, two natural claw attacks per round each deal 1d4.",
+      "Pterran Vale and Lost Scale are the stated PC homelands. Speak Pterran. Learning Athasian Common outside the languages granted by origin uses a proficiency slot. Single-class Dark Sun PCs start at level 3 and all PCs have at least a wild talent unless already a psionicist."
+    ]
+  }
+]

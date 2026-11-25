@@ -1,0 +1,694 @@
+[
+  {
+    "name": "Black Bear",
+    "entryId": "beast-b63f85d0e48f64cf2f53f03e",
+    "versionKey": "1a2323d9e18356b550281ab8",
+    "printedName": "Bear, Black",
+    "cr": "1/2",
+    "sourceUrl": "",
+    "viewerPages": [
+      353,
+      353
+    ],
+    "fixedValues": {
+      "Perception": 13,
+      "Stealth": 10
+    },
+    "abilityModifiers": {
+      "STR": 2,
+      "DEX": 0,
+      "CON": 2,
+      "INT": -4,
+      "WIS": 1,
+      "CHA": -2
+    },
+    "conditionDefenses": {},
+    "habitatTags": [
+      "forest"
+    ],
+    "habitatSource": "https://www.dndbeyond.com/monsters/4775804-black-bear",
+    "habitatSourceKind": "same-form D&D printing, habitat suggestions only",
+    "appearanceSource": "existing generated portrait of same Black Flag beast form",
+    "searchAppearance": "Dark fur and a broad"
+  },
+  {
+    "name": "Blood Hawk",
+    "entryId": "beast-888a73f2a993eb0a1bd87b13",
+    "versionKey": "ae86ad0426e75eea531f7d26",
+    "printedName": "Hawk, Blood",
+    "cr": "1/8",
+    "sourceUrl": "",
+    "viewerPages": [
+      359,
+      359
+    ],
+    "fixedValues": {
+      "Perception": 14,
+      "Stealth": 12
+    },
+    "abilityModifiers": {
+      "STR": -2,
+      "DEX": 2,
+      "CON": 0,
+      "INT": -4,
+      "WIS": 2,
+      "CHA": -3
+    },
+    "conditionDefenses": {},
+    "habitatTags": [
+      "arctic",
+      "coastal",
+      "forest",
+      "grassland",
+      "hill",
+      "mountain"
+    ],
+    "habitatSource": "https://www.dndbeyond.com/monsters/5194927-blood-hawk",
+    "habitatSourceKind": "same-form D&D printing, habitat suggestions only",
+    "appearanceSource": "existing generated portrait of same Black Flag beast form",
+    "searchAppearance": "A russet-red hawk with a"
+  },
+  {
+    "name": "Brown Bear",
+    "entryId": "beast-38acbd9d4d5878ad99a8cb2b",
+    "versionKey": "ec0d53157a410827426c7f90",
+    "printedName": "Bear, Brown",
+    "cr": "1",
+    "sourceUrl": "",
+    "viewerPages": [
+      353,
+      353
+    ],
+    "fixedValues": {
+      "Perception": 13,
+      "Stealth": 10
+    },
+    "abilityModifiers": {
+      "STR": 4,
+      "DEX": 0,
+      "CON": 3,
+      "INT": -4,
+      "WIS": 1,
+      "CHA": -2
+    },
+    "conditionDefenses": {},
+    "habitatTags": [
+      "arctic",
+      "forest",
+      "hill"
+    ],
+    "habitatSource": "https://www.dndbeyond.com/monsters/4775806-brown-bear",
+    "habitatSourceKind": "same-form D&D printing, habitat suggestions only",
+    "appearanceSource": "existing generated portrait of same Black Flag beast form",
+    "searchAppearance": "Dense brown fur, a heavy"
+  },
+  {
+    "name": "Constrictor Snake",
+    "entryId": "beast-83ee4e4e9e44c97ad85ef0e7",
+    "versionKey": "95c520ba9bc195dd1d278a8a",
+    "printedName": "Snake, Constrictor",
+    "cr": "1/4",
+    "sourceUrl": "",
+    "viewerPages": [
+      369,
+      370
+    ],
+    "fixedValues": {
+      "Perception": 10,
+      "Stealth": 12
+    },
+    "abilityModifiers": {
+      "STR": 2,
+      "DEX": 2,
+      "CON": 1,
+      "INT": -5,
+      "WIS": 0,
+      "CHA": -4
+    },
+    "conditionDefenses": {},
+    "habitatTags": [
+      "desert",
+      "forest",
+      "swamp",
+      "underwater"
+    ],
+    "habitatSource": "https://www.dndbeyond.com/monsters/4775809-constrictor-snake",
+    "habitatSourceKind": "same-form D&D printing, habitat suggestions only",
+    "appearanceSource": "existing generated portrait of same Black Flag beast form",
+    "searchAppearance": "A heavy brown snake with"
+  },
+  {
+    "name": "Dire Wolf",
+    "entryId": "beast-c4979879f93833f274866528",
+    "versionKey": "9ba7a8e37354934164b4f8d2",
+    "printedName": "Wolf, Dire",
+    "cr": "1",
+    "sourceUrl": "",
+    "viewerPages": [
+      374,
+      374
+    ],
+    "fixedValues": {
+      "Perception": 13,
+      "Stealth": 14
+    },
+    "abilityModifiers": {
+      "STR": 3,
+      "DEX": 2,
+      "CON": 2,
+      "INT": -4,
+      "WIS": 1,
+      "CHA": -2
+    },
+    "conditionDefenses": {
+      "Resistant": "frightened"
+    },
+    "habitatTags": [
+      "forest",
+      "hill"
+    ],
+    "habitatSource": "https://www.dndbeyond.com/monsters/4775812-dire-wolf",
+    "habitatSourceKind": "same-form D&D printing, habitat suggestions only",
+    "appearanceSource": "existing generated portrait of same Black Flag beast form",
+    "searchAppearance": "An oversized wolf with a"
+  },
+  {
+    "name": "Draft Horse",
+    "entryId": "beast-00b8ae6b7fcad787410a7e6e",
+    "versionKey": "8413df10b7289d3d958c2b85",
+    "printedName": "Horse, Draft",
+    "cr": "1/4",
+    "sourceUrl": "",
+    "viewerPages": [
+      359,
+      359
+    ],
+    "fixedValues": {
+      "Perception": 12,
+      "Stealth": 10
+    },
+    "abilityModifiers": {
+      "STR": 4,
+      "DEX": 0,
+      "CON": 1,
+      "INT": -4,
+      "WIS": 0,
+      "CHA": -2
+    },
+    "conditionDefenses": {
+      "Vulnerable": "frightened"
+    },
+    "habitatTags": [
+      "urban"
+    ],
+    "habitatSource": "https://www.dndbeyond.com/monsters/4775813-draft-horse",
+    "habitatSourceKind": "same-form D&D printing, habitat suggestions only",
+    "appearanceSource": "existing generated portrait of same Black Flag beast form",
+    "searchAppearance": "A broad-chested workhorse with strong"
+  },
+  {
+    "name": "Flying Snake",
+    "entryId": "beast-3f916b529c3895c36c70137d",
+    "versionKey": "3688fea1bc52f1141fcf1c17",
+    "printedName": "Snake, Flying",
+    "cr": "1/8",
+    "sourceUrl": "",
+    "viewerPages": [
+      370,
+      370
+    ],
+    "fixedValues": {
+      "Perception": 11,
+      "Stealth": 13
+    },
+    "abilityModifiers": {
+      "STR": -3,
+      "DEX": 1,
+      "CON": 0,
+      "INT": -4,
+      "WIS": 1,
+      "CHA": -3
+    },
+    "conditionDefenses": {},
+    "habitatTags": [
+      "desert",
+      "forest",
+      "grassland"
+    ],
+    "habitatSource": "https://www.dndbeyond.com/monsters/5194999-flying-snake",
+    "habitatSourceKind": "same-form D&D printing, habitat suggestions only",
+    "appearanceSource": "existing generated portrait of same Black Flag beast form",
+    "searchAppearance": "A slender green snake with"
+  },
+  {
+    "name": "Giant Ape",
+    "entryId": "beast-dc0c10ea37743395601afabe",
+    "versionKey": "2d6c0636c75c8e04e309672c",
+    "printedName": "Ape, Giant",
+    "cr": "7",
+    "sourceUrl": "",
+    "viewerPages": [
+      350,
+      350
+    ],
+    "fixedValues": {
+      "Perception": 14,
+      "Stealth": 12
+    },
+    "abilityModifiers": {
+      "STR": 8,
+      "DEX": 2,
+      "CON": 4,
+      "INT": -2,
+      "WIS": 1,
+      "CHA": -2
+    },
+    "conditionDefenses": {
+      "Resistant": "stunned"
+    },
+    "habitatTags": [
+      "forest"
+    ],
+    "habitatSource": "https://www.dndbeyond.com/monsters/5195010-giant-ape",
+    "habitatSourceKind": "same-form D&D printing, habitat suggestions only",
+    "appearanceSource": "existing generated portrait of same Black Flag beast form",
+    "searchAppearance": "A towering gorilla-like ape with"
+  },
+  {
+    "name": "Giant Badger",
+    "entryId": "beast-6ad50d32f295ae8da87afe82",
+    "versionKey": "4bb7efe679e28878bbad4b81",
+    "printedName": "Badger, Giant",
+    "cr": "1/4",
+    "sourceUrl": "",
+    "viewerPages": [
+      352,
+      352
+    ],
+    "fixedValues": {
+      "Perception": 11,
+      "Stealth": 10
+    },
+    "abilityModifiers": {
+      "STR": 1,
+      "DEX": 0,
+      "CON": 2,
+      "INT": -4,
+      "WIS": 1,
+      "CHA": -3
+    },
+    "conditionDefenses": {
+      "Resistant": "frightened"
+    },
+    "habitatTags": [
+      "forest"
+    ],
+    "habitatSource": "https://www.dndbeyond.com/monsters/4775817-giant-badger",
+    "habitatSourceKind": "same-form D&D printing, habitat suggestions only",
+    "appearanceSource": "existing generated portrait of same Black Flag beast form",
+    "searchAppearance": "A squat badger with a"
+  },
+  {
+    "name": "Giant Bat",
+    "entryId": "beast-9c56a844ca4260d80807d1f8",
+    "versionKey": "c755671cb11e0d21919ee67c",
+    "printedName": "Bat, Giant",
+    "cr": "1/4",
+    "sourceUrl": "",
+    "viewerPages": [
+      352,
+      352
+    ],
+    "fixedValues": {
+      "Perception": 11,
+      "Stealth": 14
+    },
+    "abilityModifiers": {
+      "STR": 2,
+      "DEX": 2,
+      "CON": 0,
+      "INT": -4,
+      "WIS": 1,
+      "CHA": -2
+    },
+    "conditionDefenses": {
+      "Vulnerable": "deafened",
+      "Resistant": "blinded"
+    },
+    "habitatTags": [
+      "forest",
+      "mountain",
+      "underdark"
+    ],
+    "habitatSource": "https://www.dndbeyond.com/monsters/5195012-giant-bat",
+    "habitatSourceKind": "same-form D&D printing, habitat suggestions only",
+    "appearanceSource": "existing generated portrait of same Black Flag beast form",
+    "searchAppearance": "An oversized brown bat with"
+  },
+  {
+    "name": "Giant Boar",
+    "entryId": "beast-a3ca8d6b40a62f87f316e9cf",
+    "versionKey": "31e7a22ed5dbecdd043a08c0",
+    "printedName": "Boar, Giant",
+    "cr": "2",
+    "sourceUrl": "",
+    "viewerPages": [
+      354,
+      354
+    ],
+    "fixedValues": {
+      "Perception": 8,
+      "Stealth": 10
+    },
+    "abilityModifiers": {
+      "STR": 3,
+      "DEX": 0,
+      "CON": 3,
+      "INT": -4,
+      "WIS": -2,
+      "CHA": -3
+    },
+    "conditionDefenses": {},
+    "habitatTags": [
+      "forest",
+      "grassland",
+      "hill"
+    ],
+    "habitatSource": "https://www.dndbeyond.com/monsters/5195013-giant-boar",
+    "habitatSourceKind": "same-form D&D printing, habitat suggestions only",
+    "appearanceSource": "existing generated portrait of same Black Flag beast form",
+    "searchAppearance": "A broad-backed boar with a"
+  },
+  {
+    "name": "Giant Centipede Insect",
+    "entryId": "beast-cb3d823feb305f2f8c3aaee6",
+    "versionKey": "7727be85a4ca865c4258e8fc",
+    "printedName": "Insect, Giant Centipede",
+    "cr": "1/4",
+    "sourceUrl": "",
+    "viewerPages": [
+      360,
+      361
+    ],
+    "fixedValues": {
+      "Perception": 10,
+      "Stealth": 12
+    },
+    "abilityModifiers": {
+      "STR": -3,
+      "DEX": 2,
+      "CON": 1,
+      "INT": -5,
+      "WIS": -2,
+      "CHA": -4
+    },
+    "conditionDefenses": {
+      "Resistant": "prone"
+    },
+    "habitatTags": [
+      "underdark",
+      "urban"
+    ],
+    "habitatSource": "https://www.dndbeyond.com/monsters/5195014-giant-centipede",
+    "habitatSourceKind": "same-form D&D printing, habitat suggestions only",
+    "appearanceSource": "existing generated portrait of same Black Flag beast form",
+    "searchAppearance": "A rust-colored centipede with many"
+  },
+  {
+    "name": "Giant Constrictor Snake",
+    "entryId": "beast-67c132dc4a89516bcaa8f433",
+    "versionKey": "1e35b973ed82cf337aeacbaf",
+    "printedName": "Snake, Giant Constrictor",
+    "cr": "2",
+    "sourceUrl": "",
+    "viewerPages": [
+      370,
+      370
+    ],
+    "fixedValues": {
+      "Perception": 12,
+      "Stealth": 12
+    },
+    "abilityModifiers": {
+      "STR": 3,
+      "DEX": 2,
+      "CON": 1,
+      "INT": -5,
+      "WIS": 0,
+      "CHA": -4
+    },
+    "conditionDefenses": {},
+    "habitatTags": [
+      "desert",
+      "forest",
+      "swamp",
+      "underwater"
+    ],
+    "habitatSource": "https://www.dndbeyond.com/monsters/5195015-giant-constrictor-snake",
+    "habitatSourceKind": "same-form D&D printing, habitat suggestions only",
+    "appearanceSource": "existing generated portrait of same Black Flag beast form",
+    "searchAppearance": "A very thick-bodied snake with"
+  },
+  {
+    "name": "Giant Crab",
+    "entryId": "beast-c39025a93a39653b0147bfe8",
+    "versionKey": "7cbd09f612061b7ead13b9d6",
+    "printedName": "Crab, Giant",
+    "cr": "1/4",
+    "sourceUrl": "",
+    "viewerPages": [
+      355,
+      355
+    ],
+    "fixedValues": {
+      "Perception": 9,
+      "Stealth": 14
+    },
+    "abilityModifiers": {
+      "STR": 2,
+      "DEX": 2,
+      "CON": 0,
+      "INT": -5,
+      "WIS": -1,
+      "CHA": -4
+    },
+    "conditionDefenses": {},
+    "habitatTags": [
+      "coastal",
+      "underwater"
+    ],
+    "habitatSource": "https://www.dndbeyond.com/monsters/4775818-giant-crab",
+    "habitatSourceKind": "same-form D&D printing, habitat suggestions only",
+    "appearanceSource": "existing generated portrait of same Black Flag beast form",
+    "searchAppearance": "A broad-shelled red crab with"
+  },
+  {
+    "name": "Giant Crocodile",
+    "entryId": "beast-6343e55b7b181a3b56ac2eed",
+    "versionKey": "fc9d84014113dadd60bf0cc6",
+    "printedName": "Crocodile, Giant",
+    "cr": "5",
+    "sourceUrl": "",
+    "viewerPages": [
+      355,
+      355
+    ],
+    "fixedValues": {
+      "Perception": 10,
+      "Stealth": 12
+    },
+    "abilityModifiers": {
+      "STR": 8,
+      "DEX": -1,
+      "CON": 3,
+      "INT": -4,
+      "WIS": 0,
+      "CHA": -2
+    },
+    "conditionDefenses": {
+      "Resistant": "charmed"
+    },
+    "habitatTags": [
+      "coastal",
+      "swamp"
+    ],
+    "habitatSource": "https://www.dndbeyond.com/monsters/5195016-giant-crocodile",
+    "habitatSourceKind": "same-form D&D printing, habitat suggestions only",
+    "appearanceSource": "existing generated portrait of same Black Flag beast form",
+    "searchAppearance": "A huge crocodile with olive"
+  },
+  {
+    "name": "Giant Eagle",
+    "entryId": "beast-c53f147dcb203be8f8e6c380",
+    "versionKey": "652317e9a1a1a35cd64a6763",
+    "printedName": "Eagle, Giant",
+    "cr": "1",
+    "sourceUrl": "",
+    "viewerPages": [
+      356,
+      356
+    ],
+    "fixedValues": {
+      "Perception": 14,
+      "Stealth": 13
+    },
+    "abilityModifiers": {
+      "STR": 3,
+      "DEX": 3,
+      "CON": 1,
+      "INT": -1,
+      "WIS": 2,
+      "CHA": 0
+    },
+    "conditionDefenses": {
+      "Vulnerable": "blinded"
+    },
+    "habitatTags": [
+      "coastal",
+      "grassland",
+      "hill",
+      "mountain"
+    ],
+    "habitatSource": "https://www.dndbeyond.com/monsters/5195017-giant-eagle",
+    "habitatSourceKind": "same-form D&D printing, habitat suggestions only",
+    "appearanceSource": "existing generated portrait of same Black Flag beast form",
+    "searchAppearance": "A huge eagle with a"
+  },
+  {
+    "name": "Giant Elk",
+    "entryId": "beast-bec980dd9e930a157b4119e7",
+    "versionKey": "5c2429d0019791e8cf9c0091",
+    "printedName": "Elk, Giant",
+    "cr": "2",
+    "sourceUrl": "",
+    "viewerPages": [
+      357,
+      357
+    ],
+    "fixedValues": {
+      "Perception": 14,
+      "Stealth": 13
+    },
+    "abilityModifiers": {
+      "STR": 4,
+      "DEX": 3,
+      "CON": 2,
+      "INT": -2,
+      "WIS": 2,
+      "CHA": 0
+    },
+    "conditionDefenses": {},
+    "habitatTags": [
+      "forest",
+      "grassland",
+      "hill"
+    ],
+    "habitatSource": "https://www.dndbeyond.com/monsters/5195018-giant-elk",
+    "habitatSourceKind": "same-form D&D printing, habitat suggestions only",
+    "appearanceSource": "existing generated portrait of same Black Flag beast form",
+    "searchAppearance": "A huge elk with a"
+  },
+  {
+    "name": "Giant Fire Beetle Insect",
+    "entryId": "beast-c2f9254f0eff241069a57f57",
+    "versionKey": "aa08f02f5488c76f724cd060",
+    "printedName": "Insect, Giant Fire Beetle",
+    "cr": "0",
+    "sourceUrl": "",
+    "viewerPages": [
+      361,
+      361
+    ],
+    "fixedValues": {
+      "Perception": 8,
+      "Stealth": 10
+    },
+    "abilityModifiers": {
+      "STR": -1,
+      "DEX": 0,
+      "CON": 1,
+      "INT": -5,
+      "WIS": -2,
+      "CHA": -4
+    },
+    "conditionDefenses": {},
+    "habitatTags": [
+      "underdark"
+    ],
+    "habitatSource": "https://www.dndbeyond.com/monsters/5195019-giant-fire-beetle",
+    "habitatSourceKind": "same-form D&D printing, habitat suggestions only",
+    "appearanceSource": "existing generated portrait of same Black Flag beast form",
+    "searchAppearance": "A bronze-red beetle with a"
+  },
+  {
+    "name": "Giant Frog",
+    "entryId": "beast-9eac7a553c5f1cd52724dc6f",
+    "versionKey": "c90ff70b143e060fb3d93b88",
+    "printedName": "Frog, Giant",
+    "cr": "1/4",
+    "sourceUrl": "",
+    "viewerPages": [
+      357,
+      358
+    ],
+    "fixedValues": {
+      "Perception": 12,
+      "Stealth": 11
+    },
+    "abilityModifiers": {
+      "STR": 2,
+      "DEX": 1,
+      "CON": 0,
+      "INT": -4,
+      "WIS": 0,
+      "CHA": -4
+    },
+    "conditionDefenses": {
+      "Resistant": "grappled"
+    },
+    "habitatTags": [
+      "forest",
+      "swamp"
+    ],
+    "habitatSource": "https://www.dndbeyond.com/monsters/5195020-giant-frog",
+    "habitatSourceKind": "same-form D&D printing, habitat suggestions only",
+    "appearanceSource": "existing generated portrait of same Black Flag beast form",
+    "searchAppearance": "A stocky olive-green frog with"
+  },
+  {
+    "name": "Giant Goat",
+    "entryId": "beast-6f3ba88f8055270588c02a34",
+    "versionKey": "368afe6572a791874143aab7",
+    "printedName": "Goat, Giant",
+    "cr": "1/2",
+    "sourceUrl": "",
+    "viewerPages": [
+      358,
+      359
+    ],
+    "fixedValues": {
+      "Perception": 11,
+      "Stealth": 10
+    },
+    "abilityModifiers": {
+      "STR": 3,
+      "DEX": 0,
+      "CON": 1,
+      "INT": -4,
+      "WIS": 1,
+      "CHA": -2
+    },
+    "conditionDefenses": {
+      "Resistant": "prone"
+    },
+    "habitatTags": [
+      "grassland",
+      "hill",
+      "mountain"
+    ],
+    "habitatSource": "https://www.dndbeyond.com/monsters/4775819-giant-goat",
+    "habitatSourceKind": "same-form D&D printing, habitat suggestions only",
+    "appearanceSource": "existing generated portrait of same Black Flag beast form",
+    "searchAppearance": "A shaggy goat with a"
+  }
+]

@@ -1,0 +1,313 @@
+[
+  {
+    "name": "Allosaurus",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Large Beast (Dinosaur), unaligned",
+    "ac": 13,
+    "hp": 51,
+    "hitDice": "6d10 + 18",
+    "speed": "60 ft.",
+    "cr": "2",
+    "xp": 450,
+    "abilities": {
+      "Str": {
+        "score": 19,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "savingThrows": {
+      "Strength": 4,
+      "Dexterity": 1,
+      "Constitution": 3,
+      "Intelligence": -4,
+      "Wisdom": 1,
+      "Charisma": -3
+    },
+    "skills": {
+      "Perception": 5
+    },
+    "passivePerception": 15,
+    "otherStatistics": "Initiative +1 (11). Proficiency Bonus +2. Passive Perception 15. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A long-legged, ochre-brown biped with low brow crests, clawed forelimbs and a curling balancing tail.",
+    "habitats": [
+      "Grassland"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, 2024-rules Monster Manual, p. 348, as published on D&D Beyond. https://www.dndbeyond.com/monsters/5194879-allosaurus",
+      "Actions": "Bite. Melee attack roll +6, reach 5 ft. Hit for 15 (2d10 + 4) piercing damage.\nClaws. Melee attack roll +6, reach 5 ft. Hit for 8 (1d8 + 4) slashing damage. If the target is a Large or smaller creature and the allosaurus moved at least 30 ft. straight toward it immediately before the hit, the creature gains the Prone condition and the allosaurus can make one Bite against it."
+    }
+  },
+  {
+    "name": "Ankylosaurus",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Huge Beast (Dinosaur), unaligned",
+    "ac": 15,
+    "hp": 68,
+    "hitDice": "8d12 + 16",
+    "speed": "30 ft.",
+    "cr": "3",
+    "xp": 700,
+    "abilities": {
+      "Str": {
+        "score": 19,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "savingThrows": {
+      "Strength": 6,
+      "Dexterity": 0,
+      "Constitution": 2,
+      "Intelligence": -4,
+      "Wisdom": 1,
+      "Charisma": -3
+    },
+    "skills": {},
+    "passivePerception": 11,
+    "otherStatistics": "Initiative +0 (10). Proficiency Bonus +2. Passive Perception 11. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A low quadruped with dark rounded back armor, a broad beaked head and a bony tail club.",
+    "habitats": [
+      "Grassland"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, 2024-rules Monster Manual, p. 348, as published on D&D Beyond. https://www.dndbeyond.com/monsters/5194898-ankylosaurus",
+      "Actions": "Multiattack. Make two Tail attacks.\nTail. Melee attack roll +6, reach 10 ft. Hit for 9 (1d10 + 4) bludgeoning damage. A Huge or smaller creature hit gains the Prone condition."
+    }
+  },
+  {
+    "name": "Ape",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 12,
+    "hp": 19,
+    "hitDice": "3d8 + 6",
+    "speed": "30 ft., climb 30 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "abilities": {
+      "Str": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 6,
+        "modifier": -2
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "savingThrows": {
+      "Strength": 3,
+      "Dexterity": 2,
+      "Constitution": 2,
+      "Intelligence": -2,
+      "Wisdom": 1,
+      "Charisma": -2
+    },
+    "skills": {
+      "Athletics": 5,
+      "Perception": 3
+    },
+    "passivePerception": 13,
+    "otherStatistics": "Initiative +2 (12). Proficiency Bonus +2. Passive Perception 13. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A broad-shouldered ape with a gray mantle, long forearms, dark fur and a bare face.",
+    "habitats": [
+      "Forest"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, 2024-rules Monster Manual, p. 348, as published on D&D Beyond. https://www.dndbeyond.com/monsters/4775801-ape",
+      "Actions": "Multiattack. Make two Fist attacks.\nFist. Melee attack roll +5, reach 5 ft. Hit for 5 (1d4 + 3) bludgeoning damage.\nRock (Recharge 6). Ranged attack roll +5, range 25/50 ft. Hit for 10 (2d6 + 3) bludgeoning damage.",
+      "At the table": "After using Rock, roll 1d6 at the start of each of the ape’s turns. Rock is available again on a 6 or after a short or long rest."
+    }
+  },
+  {
+    "name": "Archelon",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Huge Beast (Dinosaur), unaligned",
+    "ac": 17,
+    "hp": 90,
+    "hitDice": "12d12 + 12",
+    "speed": "20 ft., swim 80 ft.",
+    "cr": "4",
+    "xp": 1100,
+    "abilities": {
+      "Str": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 4,
+        "modifier": -3
+      },
+      "Wis": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "savingThrows": {
+      "Strength": 4,
+      "Dexterity": 3,
+      "Constitution": 1,
+      "Intelligence": -3,
+      "Wisdom": 2,
+      "Charisma": -2
+    },
+    "skills": {
+      "Stealth": 5
+    },
+    "passivePerception": 12,
+    "otherStatistics": "Initiative +3 (13). Proficiency Bonus +2. Passive Perception 12. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A broad marine turtle with long paddlelike flippers, a heavy hooked beak and a ridged dark shell.",
+    "habitats": [
+      "Underwater"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, 2024-rules Monster Manual, p. 349, as published on D&D Beyond. https://www.dndbeyond.com/monsters/5194901-archelon",
+      "Traits": "Amphibious. The archelon breathes both air and water.",
+      "Actions": "Multiattack. Make two Bite attacks.\nBite. Melee attack roll +6, reach 5 ft. Hit for 14 (3d6 + 4) piercing damage."
+    }
+  },
+  {
+    "name": "Baboon",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Small Beast, unaligned",
+    "ac": 12,
+    "hp": 3,
+    "hitDice": "1d6",
+    "speed": "30 ft., climb 30 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 4,
+        "modifier": -3
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "savingThrows": {
+      "Strength": -1,
+      "Dexterity": 2,
+      "Constitution": 0,
+      "Intelligence": -3,
+      "Wisdom": 1,
+      "Charisma": -2
+    },
+    "skills": {},
+    "passivePerception": 11,
+    "otherStatistics": "Initiative +2 (12). Proficiency Bonus +2. Passive Perception 11. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "An olive-brown primate with a long dark muzzle, shaggy ruff and an arched tail.",
+    "habitats": [
+      "Forest",
+      "Hill"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, 2024-rules Monster Manual, p. 349, as published on D&D Beyond. https://www.dndbeyond.com/monsters/5194910-baboon",
+      "Traits": "Pack Tactics. The baboon has Advantage on an attack against a creature if one of the baboon’s allies is within 5 ft. of it and that ally is free of the Incapacitated condition.",
+      "Actions": "Bite. Melee attack roll +1, reach 5 ft. Hit for 1 (1d4 - 1) piercing damage."
+    }
+  }
+]

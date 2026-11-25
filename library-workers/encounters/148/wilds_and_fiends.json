@@ -1,0 +1,320 @@
+[
+  {
+    "name": "Succubus",
+    "statBlock": {
+      "name": "Succubus",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium fiend (shapechanger), neutral evil",
+      "ac": 15,
+      "hp": 66,
+      "hitDice": "12d8 + 12",
+      "speed": "30 ft., fly 60 ft.",
+      "cr": "4",
+      "xp": 1100,
+      "abilities": {
+        "Str": {
+          "score": 8
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 20
+        }
+      },
+      "passivePerception": 15,
+      "skills": {
+        "Deception": 9,
+        "Insight": 5,
+        "Perception": 5,
+        "Persuasion": 9,
+        "Stealth": 7
+      },
+      "description": "A shapechanging fiend that starts by tempting mortals in their dreams, then visits them in a familiar guise.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold, fire, lightning, and poison. Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Senses": "Darkvision 60 ft., passive Perception 15.",
+        "Languages": "Abyssal, Common, Infernal, and telepathy 60 ft.",
+        "Traits": "Telepathic Bond. The fiend can communicate telepathically with a creature under its Charm regardless of distance or plane.\nShapechanger. Use an action to take the shape of a Small or Medium humanoid, or resume true form. Only size and speed can change. The fiend loses its fly speed in a wingless form. Worn and carried gear keep their form. On death it resumes its true form.",
+        "Actions": "Claw (fiend form only). Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 6 (1d6 + 3) slashing damage.\nCharm. Choose one visible humanoid within 30 ft. It makes a DC 15 Wisdom save or becomes magically Charmed for 1 day and follows the fiend's verbal or telepathic commands. A target that suffers harm or receives a suicidal command can repeat the save, ending the effect on a success. After a successful save against the effect or when it ends, the target is immune to this fiend's Charm for 24 hours. The fiend can charm only one target at once. Charming a new target ends the effect on the previous one.\nDraining Kiss. Kiss a willing creature or one under the fiend's Charm. It makes a DC 15 Constitution save against this magic, taking 32 (5d10 + 5) psychic damage on a failure or half on a success. Reduce its hit point maximum by the damage dealt until it finishes a long rest. It dies if this reduction brings its maximum to 0.\nEtherealness. The fiend uses magic to move between the Material Plane and the Ethereal Plane.",
+        "Forms": "A succubus and an incubus are forms of the same fiend. It can switch between them and typically prefers one. The book gives both forms a shared stat block.",
+        "Printed source": "Monster Manual (2014), pp. 284–285. Damage resistance wording follows the official errata."
+      }
+    }
+  },
+  {
+    "name": "Incubus",
+    "statBlock": {
+      "name": "Incubus",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium fiend (shapechanger), neutral evil",
+      "ac": 15,
+      "hp": 66,
+      "hitDice": "12d8 + 12",
+      "speed": "30 ft., fly 60 ft.",
+      "cr": "4",
+      "xp": 1100,
+      "abilities": {
+        "Str": {
+          "score": 8
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 20
+        }
+      },
+      "passivePerception": 15,
+      "skills": {
+        "Deception": 9,
+        "Insight": 5,
+        "Perception": 5,
+        "Persuasion": 9,
+        "Stealth": 7
+      },
+      "description": "A shapechanging fiend that starts by tempting mortals in their dreams, then visits them in a familiar guise.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold, fire, lightning, and poison. Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Senses": "Darkvision 60 ft., passive Perception 15.",
+        "Languages": "Abyssal, Common, Infernal, and telepathy 60 ft.",
+        "Traits": "Telepathic Bond. The fiend can communicate telepathically with a creature under its Charm regardless of distance or plane.\nShapechanger. Use an action to take the shape of a Small or Medium humanoid, or resume true form. Only size and speed can change. The fiend loses its fly speed in a wingless form. Worn and carried gear keep their form. On death it resumes its true form.",
+        "Actions": "Claw (fiend form only). Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 6 (1d6 + 3) slashing damage.\nCharm. Choose one visible humanoid within 30 ft. It makes a DC 15 Wisdom save or becomes magically Charmed for 1 day and follows the fiend's verbal or telepathic commands. A target that suffers harm or receives a suicidal command can repeat the save, ending the effect on a success. After a successful save against the effect or when it ends, the target is immune to this fiend's Charm for 24 hours. The fiend can charm only one target at once. Charming a new target ends the effect on the previous one.\nDraining Kiss. Kiss a willing creature or one under the fiend's Charm. It makes a DC 15 Constitution save against this magic, taking 32 (5d10 + 5) psychic damage on a failure or half on a success. Reduce its hit point maximum by the damage dealt until it finishes a long rest. It dies if this reduction brings its maximum to 0.\nEtherealness. The fiend uses magic to move between the Material Plane and the Ethereal Plane.",
+        "Forms": "A succubus and an incubus are forms of the same fiend. It can switch between them and typically prefers one. The book gives both forms a shared stat block.",
+        "Printed source": "Monster Manual (2014), pp. 284–285. Damage resistance wording follows the official errata."
+      }
+    }
+  },
+  {
+    "name": "Grick",
+    "statBlock": {
+      "name": "Grick",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium monstrosity, neutral",
+      "ac": 14,
+      "hp": 27,
+      "hitDice": "6d8",
+      "speed": "30 ft., climb 30 ft.",
+      "cr": "2",
+      "xp": 450,
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "passivePerception": 12,
+      "description": "A mottled cave predator that rests among rubble or on ledges. Four barbed tentacles open around its beak when prey approaches.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Senses": "Darkvision 60 ft., passive Perception 12.",
+        "Languages": "None.",
+        "Traits": "Stone Camouflage. The grick has advantage on Dexterity (Stealth) checks to hide in rocky terrain.",
+        "Actions": "Multiattack. Make one Tentacles attack. On a hit, the grick can make a Beak attack against the same target.\nTentacles. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 9 (2d6 + 2) slashing damage.\nBeak. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 5 (1d6 + 2) piercing damage.",
+        "Printed source": "Monster Manual (2014), p. 173. Damage resistance wording follows the official errata."
+      }
+    }
+  },
+  {
+    "name": "Will-o'-Wisp",
+    "statBlock": {
+      "name": "Will-o'-Wisp",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Tiny undead, chaotic evil",
+      "ac": 19,
+      "hp": 22,
+      "hitDice": "9d4",
+      "speed": "0 ft., fly 50 ft. (hover)",
+      "cr": "2",
+      "xp": 450,
+      "abilities": {
+        "Str": {
+          "score": 1
+        },
+        "Dex": {
+          "score": 28
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "passivePerception": 12,
+      "description": "A drifting undead light that looks like a lantern at a distance. It draws travelers toward bogs, pits, and monster lairs.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Damage resistances": "Acid, cold, fire, necrotic, and thunder. Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Damage immunities": "Lightning and poison.",
+        "Condition immunities": "Exhaustion, Grappled, Paralyzed, Poisoned, Prone, Restrained, and Unconscious.",
+        "Senses": "Darkvision 120 ft., passive Perception 12.",
+        "Languages": "The languages it knew in life.",
+        "Traits": "Ephemeral. The wisp cannot wear or carry anything.\nIncorporeal Movement. Moving through creatures or objects counts as difficult terrain. The wisp takes 5 (1d10) force damage if it ends its turn inside an object.\nVariable Illumination. The wisp sheds bright light in a radius it sets between 5 and 20 ft., with dim light for the same distance beyond it.\nUndead Nature. The wisp needs no air, drink, or sleep.",
+        "Actions": "Shock. Melee spell attack, +4 to hit, reach 5 ft., one creature. Hit 9 (2d8) lightning damage.\nInvisibility. The wisp and its light become magically Invisible. This lasts until it attacks, uses Consume Life, or loses Concentration as if concentrating on a spell.",
+        "Bonus actions": "Consume Life. Choose one visible living creature within 5 ft. that has 0 hit points. It makes a DC 10 Constitution save against this magic. On a failure, it dies and the wisp regains 10 (3d6) hit points.\nVariable Illumination. Change the radius of the wisp's light.",
+        "Printed source": "Monster Manual (2014), p. 301. The official errata corrects the Invisibility reference to Consume Life and updates the damage resistance wording."
+      }
+    }
+  },
+  {
+    "name": "Yeti",
+    "statBlock": {
+      "name": "Yeti",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large monstrosity, chaotic evil",
+      "ac": 12,
+      "hp": 51,
+      "hitDice": "6d10 + 18",
+      "speed": "40 ft., climb 40 ft.",
+      "cr": "3",
+      "xp": 700,
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "passivePerception": 13,
+      "skills": {
+        "Perception": 3,
+        "Stealth": 3
+      },
+      "description": "A white-furred alpine hunter that tracks prey by scent and blends in with snow. Its gaze can freeze a victim in place.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage immunities": "Cold.",
+        "Senses": "Darkvision 60 ft., passive Perception 13.",
+        "Languages": "Yeti.",
+        "Traits": "Fear of Fire. If the yeti takes fire damage, it has disadvantage on attack rolls and ability checks until the end of its next turn.\nKeen Smell. The yeti has advantage on Wisdom (Perception) checks based on smell.\nSnow Camouflage. The yeti has advantage on Dexterity (Stealth) checks to hide in snowy terrain.",
+        "Actions": "Multiattack. The yeti makes two Claw attacks and can also use Chilling Gaze.\nClaw. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit 7 (1d6 + 4) slashing damage plus 3 (1d6) cold damage.\nChilling Gaze. Choose one visible creature within 30 ft. If it can see the yeti, it makes a DC 13 Constitution save against this magic. On a failure, it takes 10 (3d6) cold damage and becomes Paralyzed for 1 minute. Cold immunity prevents both effects. It can repeat the save at the end of each of its turns to end the effect on a success. If it succeeds on a save or the effect on it ends, it is immune to the Chilling Gaze of all normal yetis for 1 hour. The hour of immunity does not apply to abominable yetis.",
+        "Printed source": "Monster Manual (2014), p. 305."
+      }
+    }
+  },
+  {
+    "name": "Sahuagin",
+    "statBlock": {
+      "name": "Sahuagin",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (sahuagin), lawful evil",
+      "ac": 12,
+      "hp": 22,
+      "hitDice": "4d8 + 4",
+      "speed": "30 ft., swim 40 ft.",
+      "cr": "1/2",
+      "xp": 100,
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "passivePerception": 15,
+      "skills": {
+        "Perception": 5
+      },
+      "description": "An aquatic raider that worships the shark god Sekolah. A hunting party sounds a conch horn and can command sharks to join a raid.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft., passive Perception 15.",
+        "Languages": "Sahuagin.",
+        "Traits": "Blood Frenzy. The sahuagin has advantage on melee attack rolls against creatures below their hit point maximum.\nLimited Amphibiousness. It can breathe air and water. It must submerge at least once every 4 hours to avoid suffocating.\nShark Telepathy. The sahuagin can give magical telepathic commands to any shark within 120 ft.",
+        "Actions": "Multiattack. Make two melee attacks, one Bite and either Claws or Spear.\nBite. Melee weapon attack, +3 to hit, reach 5 ft., one target. Hit 3 (1d4 + 1) piercing damage.\nClaws. Melee weapon attack, +3 to hit, reach 5 ft., one target. Hit 3 (1d4 + 1) slashing damage.\nSpear. Melee or ranged weapon attack, +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing damage with a two-handed melee attack.",
+        "Printed source": "Monster Manual (2014), p. 263."
+      }
+    }
+  }
+]

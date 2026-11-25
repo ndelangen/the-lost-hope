@@ -1,0 +1,46 @@
+[
+  {
+    "entityKind": "monster",
+    "name": "Red Plume Soldier (Thug)",
+    "publication": "DDEX3-09 - The Waydown",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/red-plume-soldier-thug/thug-2014-related.webp",
+    "artist": "Related Thug art · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "99e066e16b05e732c209c9286e1f0dee6773b1a893069437614d9f5a70961013",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/MM/Thug.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Red Plume Soldier (Thug)",
+    "publication": "DDEX3-09 - The Waydown",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/red-plume-soldier-thug/guard-riccardo-moscatello-related.webp",
+    "artist": "Related Guard art by Riccardo Moscatello · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "afff9225f6f48fabf80cc09755a1972b209c770dda74a61db2dec98bd51333c9",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Guards.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Fiendish Doppelganger",
+    "publication": "DDEX3-12 - Hillsfar Reclaimed",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/fiendish-doppelganger/doppelganger-2014-related.webp",
+    "artist": "Related Doppelganger art · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "b272792a72d5ed2257cfa40ff9153383b36a96fbee0e12688da441bb27d08592",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/MM/Doppelganger.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Fiendish Doppelganger",
+    "publication": "DDEX3-12 - Hillsfar Reclaimed",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/fiendish-doppelganger/doppelganger-sean-murray-related.webp",
+    "artist": "Related Doppelganger art by Sean Murray · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "d03c0e2867690da0df24d62061be5f7ce6c63bd5f880723e827429ed0c78f438",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Doppelganger.webp"
+  }
+]

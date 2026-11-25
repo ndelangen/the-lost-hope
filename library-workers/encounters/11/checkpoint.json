@@ -1,0 +1,78 @@
+{
+  "commit": "42bfb179030f2b46db623aaa17bebc5d63381d29",
+  "encounterVersions": 18,
+  "fullStatBlocks": 18,
+  "canonicalFolioVersions": 36,
+  "generatedPortraitsInstalled": 18,
+  "draftsBackedUp": 21,
+  "allRecentVersionsWithGeneratedPortrait": 457,
+  "visualComparison": "output/dm-library/review/encounters-11-before-after.jpg",
+  "nextSourcePublication": "Mordenkainen Presents: Monsters of the Multiverse",
+  "unverifiedNextCandidates": [
+    {
+      "name": "Amnizu (Summoner Variant)",
+      "source": "https://www.dndbeyond.com/monsters/2560719-amnizu-summoner-variant",
+      "challenge": "18"
+    },
+    {
+      "name": "Black Guard Drake",
+      "source": "https://www.dndbeyond.com/monsters/2560740-black-guard-drake",
+      "challenge": "2"
+    },
+    {
+      "name": "Blue Guard Drake",
+      "source": "https://www.dndbeyond.com/monsters/2560743-blue-guard-drake",
+      "challenge": "2"
+    },
+    {
+      "name": "Drow Inquisitor (Summoner Variant)",
+      "source": "https://www.dndbeyond.com/monsters/2560785-drow-inquisitor-summoner-variant",
+      "challenge": "14"
+    },
+    {
+      "name": "Drow Mother of Rebellion",
+      "source": "https://www.dndbeyond.com/monsters/2560788-drow-mother-of-rebellion",
+      "challenge": "20"
+    },
+    {
+      "name": "Drow Shadowblade (Summoner Variant)",
+      "source": "https://www.dndbeyond.com/monsters/2560789-drow-shadowblade-summoner-variant",
+      "challenge": "11"
+    },
+    {
+      "name": "Gazer (Familiar Variant)",
+      "source": "https://www.dndbeyond.com/monsters/2560820-gazer-familiar-variant",
+      "challenge": "1/2"
+    },
+    {
+      "name": "Geryon (Variant)",
+      "source": "https://www.dndbeyond.com/monsters/2560822-geryon-variant",
+      "challenge": "22"
+    },
+    {
+      "name": "Giff (Gunpowder Keg Variant)",
+      "source": "https://www.dndbeyond.com/monsters/2560825-giff-gunpowder-keg-variant",
+      "challenge": "3"
+    },
+    {
+      "name": "Green Guard Drake",
+      "source": "https://www.dndbeyond.com/monsters/2560839-green-guard-drake",
+      "challenge": "2"
+    },
+    {
+      "name": "Molydeus (Summoner Variant)",
+      "source": "https://www.dndbeyond.com/monsters/2560876-molydeus-summoner-variant",
+      "challenge": "21"
+    },
+    {
+      "name": "Red Guard Drake",
+      "source": "https://www.dndbeyond.com/monsters/2560903-red-guard-drake",
+      "challenge": "2"
+    },
+    {
+      "name": "White Guard Drake",
+      "source": "https://www.dndbeyond.com/monsters/2560960-white-guard-drake",
+      "challenge": "2"
+    }
+  ]
+}

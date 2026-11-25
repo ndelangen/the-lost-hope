@@ -1,0 +1,202 @@
+[
+  {
+    "name": "Ape",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "D&D Basic Rules v1.0, November 2018 ",
+    "printedPage": 117,
+    "printedPages": [
+      117
+    ],
+    "pdfPage": 117,
+    "viewerPages": [
+      117
+    ],
+    "section": "Chapter 12, Monsters",
+    "sourceUrl": "",
+    "url": "",
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3",
+    "appearanceEvidence": "The fur and stance describe the approved portrait. The print gives Medium size, a climb speed and a fist attack.",
+    "habitatEvidence": "Forest and woodland canopy are suggested encounters based on the animal in the approved portrait and its climb speed.",
+    "habitatSourceKind": "Editorial encounter suggestions. The printed stat block supplies no habitat field.",
+    "reusedPortrait": {
+      "source": "beast-ready-batch-02/parts/b02_01/portraits/ape.png",
+      "sha256": "683ff046deaecf0d5e7c01d3839332dfd0c985c1919f16b56a540bf4aa2de9e2"
+    },
+    "mechanicsNotes": [
+      "The printed Multiattack names two Fist attacks. Rock is a separate action."
+    ]
+  },
+  {
+    "name": "Axe Beak",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "D&D Basic Rules v1.0, November 2018 ",
+    "printedPage": 118,
+    "printedPages": [
+      118
+    ],
+    "pdfPage": 118,
+    "viewerPages": [
+      118
+    ],
+    "section": "Chapter 12, Monsters",
+    "sourceUrl": "",
+    "url": "",
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3",
+    "appearanceEvidence": "Page 118 describes a tall, strong-legged flightless bird with a wedge-shaped beak. Plumage color comes from the approved portrait.",
+    "habitatEvidence": "Grassland and hills are encounter suggestions for the large running bird described on p. 118.",
+    "habitatSourceKind": "Editorial encounter suggestions. The printed stat block supplies no habitat field.",
+    "reusedPortrait": {
+      "source": "beast-ready-batch-02/parts/b02_01/portraits/axe-beak.png",
+      "sha256": "ea8cf70690b3a785a19ef44161d50544ffc3a91d65dddc8196f9f1df9d53d67c"
+    }
+  },
+  {
+    "name": "Baboon",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "D&D Basic Rules v1.0, November 2018 ",
+    "printedPage": 118,
+    "printedPages": [
+      118
+    ],
+    "pdfPage": 118,
+    "viewerPages": [
+      118
+    ],
+    "section": "Chapter 12, Monsters",
+    "sourceUrl": "",
+    "url": "",
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3",
+    "appearanceEvidence": "Muzzle, ruff, fur and tail describe the approved portrait. The printed block gives Small size, a climb speed and a bite.",
+    "habitatEvidence": "Forest, grassland and hills are suggested encounters based on the pictured animal.",
+    "habitatSourceKind": "Editorial encounter suggestions. The printed stat block supplies no habitat field.",
+    "reusedPortrait": {
+      "source": "beast-ready-batch-02/parts/b02_02/portraits/baboon.png",
+      "sha256": "5bda8b7e87181eca0f2d68c20b3ced39cd6cba032980e635c429c790184d20cd"
+    }
+  },
+  {
+    "name": "Badger",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "D&D Basic Rules v1.0, November 2018 ",
+    "printedPage": 118,
+    "printedPages": [
+      118
+    ],
+    "pdfPage": 118,
+    "viewerPages": [
+      118
+    ],
+    "section": "Chapter 12, Monsters",
+    "sourceUrl": "",
+    "url": "",
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3",
+    "appearanceEvidence": "The color, face stripes and claws describe the approved portrait. The block gives Tiny size and a burrow speed.",
+    "habitatEvidence": "Forest and grassland are suggested encounters for the depicted animal. Its printed burrow speed informs the Burrows tag.",
+    "habitatSourceKind": "Editorial encounter suggestions. The printed stat block supplies no habitat field.",
+    "reusedPortrait": {
+      "source": "beast-ready-batch-02/parts/b02_02/portraits/badger.png",
+      "sha256": "75809f0e89a216a04e58bc0c66ba4df421319cad328164c66ca2a75f0fe0d20e"
+    },
+    "layoutEvidence": "The stat block starts at the bottom of the left column of p. 118. Its Bite continues at the top of the right column, above the Banshee."
+  },
+  {
+    "name": "Boar",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "D&D Basic Rules v1.0, November 2018 ",
+    "printedPage": 120,
+    "printedPages": [
+      120
+    ],
+    "pdfPage": 120,
+    "viewerPages": [
+      120
+    ],
+    "section": "Chapter 12, Monsters",
+    "sourceUrl": "",
+    "url": "",
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3",
+    "appearanceEvidence": "The block gives Medium size and a tusk attack. Bristles, tusk color and tail describe the approved portrait.",
+    "habitatEvidence": "Woodlands, grasslands and hills are editorial encounters for the depicted wild boar.",
+    "habitatSourceKind": "Editorial encounter suggestions. The printed stat block supplies no habitat field.",
+    "reusedPortrait": {
+      "source": "beast-ready-batch-02/parts/b02_03/portraits/boar.png",
+      "sha256": "b4688f0bf40d1e05ae32f0d82c0cc0d4508e20d4cca842c2544f8e191d0fb22f"
+    },
+    "conditionRules": "",
+    "mechanicsNotes": [
+      "Charge adds damage against any target. Only a creature rolls the Strength save against prone. The printed damage type is slashing."
+    ]
+  },
+  {
+    "name": "Camel",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "D&D Basic Rules v1.0, November 2018 ",
+    "printedPage": 121,
+    "printedPages": [
+      121
+    ],
+    "pdfPage": 121,
+    "viewerPages": [
+      121
+    ],
+    "section": "Chapter 12, Monsters",
+    "sourceUrl": "",
+    "url": "",
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3",
+    "appearanceEvidence": "The block gives Large size and a bite. The coat, single hump, neck and feet describe the approved portrait.",
+    "habitatEvidence": "Desert and dry steppe are editorial encounter suggestions for the depicted dromedary.",
+    "habitatSourceKind": "Editorial encounter suggestions. The printed stat block supplies no habitat field.",
+    "reusedPortrait": {
+      "source": "beast-ready-batch-02/parts/b02_04/portraits/camel.png",
+      "sha256": "bae753a3f850f569686f845b8f5db464cdd7341b0f819f5e320ee1bf0e5ceffd"
+    },
+    "mechanicsNotes": [
+      "The printed Bite gives +5 to hit and 2 (1d4) bludgeoning damage. Use the listed damage without an added modifier."
+    ]
+  },
+  {
+    "name": "Cat",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "D&D Basic Rules v1.0, November 2018 ",
+    "printedPage": 121,
+    "printedPages": [
+      121
+    ],
+    "pdfPage": 121,
+    "viewerPages": [
+      121
+    ],
+    "section": "Chapter 12, Monsters",
+    "sourceUrl": "",
+    "url": "",
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3",
+    "appearanceEvidence": "The striped coat, curled posture and face describe the indexed Cat portrait specified in the roster. The block gives Tiny size and a claws attack.",
+    "habitatEvidence": "Settlements, farms and woodland edges are suggested encounters for the depicted domestic cat.",
+    "habitatSourceKind": "Editorial encounter suggestions. The printed stat block supplies no habitat field.",
+    "reusedPortrait": {
+      "source": "indexed:images/monsters/cat/parchment-portrait.webp",
+      "sha256": "f5931b59d47a2719402053c0e91fde2b60b6ae056ce18bccb64eb2d0488d78de"
+    }
+  }
+]

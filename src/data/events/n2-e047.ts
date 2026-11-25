@@ -11,4 +11,5 @@ export default createEvent({
       'The party stepped from an elevator into a busy underground mining operation. Workers shoved them aside as they took in the slave pit, collars, and human overseers holding elves, orcs, and half-orcs captive.',
     ],
   ],
+  illustrations: ['/assets/scenes/the-elevator-opens-into-a-slave-mine.png'],
 })

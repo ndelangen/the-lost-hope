@@ -1,0 +1,221 @@
+[
+  {
+    "name": "Abjurer Wizard",
+    "statBlock": {
+      "name": "Abjurer Wizard",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 260,
+      "classification": "Medium humanoid, any alignment",
+      "ac": 12,
+      "hp": 104,
+      "hitDice": "16d8 + 32",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 9
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "9",
+      "xp": 5000,
+      "passivePerception": 11,
+      "description": "A defensive mage who can ward an ally against damage and drive enemies back with a blast of force.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Int": 8,
+        "Wis": 5
+      },
+      "skills": {
+        "Arcana": 8,
+        "History": 8
+      },
+      "sections": {
+        "Languages": "Any four languages.",
+        "Actions": "Multiattack. Make three Arcane Burst attacks.\nArcane Burst. Melee or ranged spell attack, +8 to hit, reach 5 ft. or range 120 ft., one target. A hit deals 20 (3d10 + 4) force damage.\nForce Blast. Each creature in a 20-ft. cube originating from the abjurer makes a DC 16 Constitution save. On a failure, it takes 36 (8d8) force damage and is pushed up to 10 ft. away from the abjurer. On a success, it takes half damage and stays in place.",
+        "Spellcasting": "As an action, cast one of the following spells using Intelligence (spell save DC 16).\nAt will. Dancing Lights, Mage Hand, Message, Prestidigitation.\n2/day each. Dispel Magic, Lightning Bolt, Mage Armor.\n1/day each. Arcane Lock, Banishment, Globe of Invulnerability, Invisibility, Wall of Force.",
+        "Reactions": "Arcane Ward (Recharge 4–6). When the abjurer takes damage or sees a creature within 30 ft. take damage, it can create a barrier around the creature taking damage. The barrier reduces that damage by 26 (4d10 + 4), to a minimum of 0, then vanishes.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 260."
+      }
+    }
+  },
+  {
+    "name": "Adult Kruthik",
+    "statBlock": {
+      "name": "Adult Kruthik",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 169,
+      "classification": "Medium monstrosity, unaligned",
+      "ac": 18,
+      "hp": 39,
+      "hitDice": "6d8 + 12",
+      "speed": "40 ft., burrow 20 ft., climb 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 7
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 15,
+      "description": "A rock-burrowing monstrosity that hunts in packs and can fire spikes at distant prey.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 5
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft., tremorsense 60 ft.",
+        "Languages": "Kruthik.",
+        "Traits": "Pack Tactics. The kruthik has advantage on an attack roll against a creature if at least one of the kruthik's allies is within 5 ft. of that creature and that ally isn't incapacitated.\nTunneler. The kruthik can burrow through solid rock at half its burrowing speed, leaving a tunnel 5 ft. across.",
+        "Actions": "Multiattack. Make two Stab or Spike attacks.\nStab. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 6 (1d6 + 3) piercing damage.\nSpike. Ranged weapon attack, +5 to hit, range 20/60 ft., one target. A hit deals 5 (1d4 + 3) piercing damage.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 169."
+      }
+    }
+  },
+  {
+    "name": "Adult Oblex",
+    "statBlock": {
+      "name": "Adult Oblex",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 198,
+      "classification": "Medium ooze, typically lawful evil",
+      "ac": 14,
+      "hp": 75,
+      "hitDice": "10d8 + 30",
+      "speed": "20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 8
+        },
+        "Dex": {
+          "score": 19
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 19
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 14,
+      "description": "A memory-eating ooze that can mimic its victims through slime-tethered doubles.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Int": 7,
+        "Cha": 5
+      },
+      "skills": {
+        "Deception": 5,
+        "Perception": 4
+      },
+      "sections": {
+        "Senses": "Blindsight 60 ft. The oblex is blind beyond this range.",
+        "Languages": "Common plus two other languages.",
+        "Condition immunities": "Blinded, charmed, deafened, exhaustion, prone.",
+        "Traits": "Amorphous. The oblex moves through openings as narrow as 1 inch without squeezing.\nAversion to Fire. Fire damage gives the oblex disadvantage on attack rolls and ability checks until the end of its next turn.\nUnusual Nature. The oblex needs no sleep.",
+        "Actions": "Multiattack. Make two Pseudopod attacks and use Eat Memories.\nPseudopod. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 11 (2d6 + 4) bludgeoning damage plus 7 (2d6) psychic damage.\nEat Memories. Choose one visible creature within 5 ft. It makes a DC 15 Wisdom save. Constructs, Oozes, Plants, and Undead succeed automatically. On a failure, the target takes 18 (4d8) psychic damage and is memory drained. A short or long rest, Greater Restoration, or Heal ends the drain. While drained, the target rolls a d4 and subtracts the result from its ability checks and attack rolls. Each further drain increases the die by one size through d6, d8, d10, d12, then d20. When the die reaches d20, the target falls unconscious for 1 hour. The effect then ends. The oblex learns the drained creature's languages and gains all its skill proficiencies.",
+        "Spellcasting": "Spellcasting (Psionics). As an action, cast one of the following spells using Intelligence (spell save DC 15). No components are required.\n3/day each. Charm Person at 5th level, Detect Thoughts, Hypnotic Pattern.",
+        "Bonus actions": "Sulfurous Impersonation. The oblex produces a double of a Medium or smaller creature whose memories it stole. It looks, feels, and sounds like that creature but smells faintly of sulfur. The oblex can impersonate 1d4 + 1 distinct creatures. A slime tether up to 120 ft. long links each double to the oblex. The oblex occupies its own space and the doubles' spaces at the same time. The tether is immune to damage. If no opening at least 1 inch wide connects the double to the body, the tether severs and the double disappears.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 198.",
+        "Skill choice": "Choose one of Arcana, History, Nature, or Religion. The oblex has a +7 bonus in that skill."
+      }
+    }
+  },
+  {
+    "name": "Air Elemental Myrmidon",
+    "statBlock": {
+      "name": "Air Elemental Myrmidon",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 122,
+      "classification": "Medium elemental, typically neutral",
+      "ac": 18,
+      "hp": 117,
+      "hitDice": "18d8 + 36",
+      "speed": "30 ft., fly 30 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 9
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "7",
+      "xp": 2900,
+      "passivePerception": 10,
+      "description": "An air elemental bound inside plate armor, wielding a flail that can stun with lightning.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Plate armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Auran and one language chosen by its creator.",
+        "Damage resistances": "Lightning, thunder, and bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Paralyzed, petrified, poisoned, prone.",
+        "Actions": "Multiattack. Make three Flail attacks.\nFlail. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 8 (1d8 + 4) force damage.\nLightning Strike (Recharge 6). Make one Flail attack. On a hit, it deals an extra 18 (4d8) lightning damage. The target makes a DC 13 Constitution save or is stunned until the end of the myrmidon's next turn.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 122."
+      }
+    }
+  }
+]

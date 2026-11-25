@@ -1,0 +1,64 @@
+[
+  {
+    "name": "Ape",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra for the 2014 fifth-edition rules. Dungeon Masters Guild, Monstrous Races v2, p. 219.",
+      "Medium Beast. Strength and Constitution each increase by 2. Walk and climb at 30 ft. Speak, read and write Common.",
+      "Fist makes an unarmed strike for 1d6 bludgeoning damage. Throw a rock or similar object for 1d6 bludgeoning at a range of 30/60 ft. Treat the rock as if it had the thrown property.",
+      "Giant Ape uses these same player traits in the book’s p. 232 cross-reference."
+    ]
+  },
+  {
+    "name": "Awakened Tree",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra for the 2014 fifth-edition rules. Dungeon Masters Guild, Monstrous Races v2, p. 220.",
+      "Small Plant. Strength and Constitution each increase by 2. Walk 30 ft. Speak, read and write Common.",
+      "For False Appearance, stand motionless and maintain concentration as if on a spell for one minute. After that, the tree resembles a mundane tree for as long as it remains still.",
+      "Flammable makes the tree vulnerable to fire damage. Slam is an unarmed strike for 1d6 bludgeoning damage."
+    ]
+  },
+  {
+    "name": "Baboon",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra for the 2014 fifth-edition rules. Dungeon Masters Guild, Monstrous Races v2, p. 221.",
+      "Small Beast. Dexterity increases by 1. Walk and climb at 30 ft. Speak, read and write Common.",
+      "Bite is an unarmed strike for 1d6 slashing damage.",
+      "Pack Tactics uses a bonus action. Your next attack this turn has advantage if a non-incapacitated ally is within 5 ft. of the target."
+    ]
+  },
+  {
+    "name": "Badger",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra for the 2014 fifth-edition rules. Dungeon Masters Guild, Monstrous Races v2, p. 221.",
+      "Small Beast. Constitution and Wisdom each increase by 1. Walk 25 ft. and burrow 5 ft. Speak, read and write Common.",
+      "Bite and Claws gives an unarmed strike for 1d6 piercing or slashing damage.",
+      "Darkvision reaches 60 ft. Keen Smell gives advantage on Wisdom (Perception) checks that rely on smell.",
+      "No Hands prevents using weapons, shields or objects that require manipulation, such as tools, wands and spellcasting foci."
+    ]
+  },
+  {
+    "name": "Bat",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra for the 2014 fifth-edition rules. Dungeon Masters Guild, Monstrous Races v2, p. 222.",
+      "Tiny Beast. Dexterity increases by 1. Walk 30 ft. and fly 30 ft. Speak, read and write Common.",
+      "Blindsight reaches 60 ft. Echolocation makes that sense unavailable while deafened. Keen Hearing gives advantage on Wisdom (Perception) checks based on hearing.",
+      "Bite is an unarmed strike for 1d4 piercing. Dexterity can replace Strength for its attack and damage. It counts as a finesse weapon for effects that require one.",
+      "Flight is unavailable in medium or heavy armor. No Hands bars wielded weapons, shields and items requiring manipulation, such as tools, wands and spellcasting foci."
+    ]
+  }
+]

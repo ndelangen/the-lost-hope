@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Baloth",
+    "publication": "Plane Shift: Zendikar",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "author": "James Wyatt",
+    "printing": "First printing, April 2016",
+    "printedPages": [
+      33
+    ],
+    "pageNumbering": "One-based page number, including the cover.",
+    "url": "",
+    "reskinReference": {
+      "name": "Triceratops",
+      "publication": "Monster Manual (2014)",
+      "printedPages": [
+        80
+      ],
+      "rulesReadUrl": "https://www.dndbeyond.com/monsters/17039-triceratops",
+      "verification": "Rules checked against the official D&D Beyond 2014 Basic Rules listing. Monster Manual folio checked against the 5etools source index."
+    },
+    "appearanceSource": "p. 33 describes horns, plates and spines and depicts a rampaging baloth. Portrait anatomy and colors are an original interpretation.",
+    "habitatSource": "p. 33 describes baloth herds stampeding over the Onduan plains. Zendikar wilds is an editorial search term."
+  },
+  {
+    "name": "Drake (Large)",
+    "publication": "Plane Shift: Zendikar",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "author": "James Wyatt",
+    "printing": "First printing, April 2016",
+    "printedPages": [
+      24
+    ],
+    "pageNumbering": "One-based page number, including the cover.",
+    "url": "",
+    "reskinReference": {
+      "name": "Giant Eagle",
+      "publication": "Monster Manual (2014)",
+      "printedPages": [
+        324
+      ],
+      "rulesReadUrl": "https://www.dndbeyond.com/monsters/16881-giant-eagle",
+      "verification": "Rules checked against the official D&D Beyond 2014 Basic Rules listing. Monster Manual folio checked against the 5etools source index."
+    },
+    "appearanceSource": "p. 24 describes reptilian bodies, two legs and leathery wings, and illustrates a blue drake. Crest and scale colors are editorial choices.",
+    "habitatSource": "p. 24 places drakes in Akoum above and farther north than dragons and associates them with air and sea. Coastal air is editorial."
+  },
+  {
+    "name": "Drake (Small)",
+    "publication": "Plane Shift: Zendikar",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "author": "James Wyatt",
+    "printing": "First printing, April 2016",
+    "printedPages": [
+      24
+    ],
+    "pageNumbering": "One-based page number, including the cover.",
+    "url": "",
+    "reskinReference": {
+      "name": "Pteranodon",
+      "publication": "Monster Manual (2014)",
+      "printedPages": [
+        80
+      ],
+      "rulesReadUrl": "https://www.dndbeyond.com/monsters/17093-pteranodon",
+      "verification": "Rules checked against the official D&D Beyond 2014 Basic Rules listing. Monster Manual folio checked against the 5etools source index."
+    },
+    "appearanceSource": "p. 24 describes reptilian bodies, two legs and leathery wings. The illustration is shared with the Large Drake as editorial art.",
+    "habitatSource": "p. 24 places drakes in Akoum above and farther north than dragons and associates them with air and sea. Coastal air is editorial."
+  },
+  {
+    "name": "Gnarlid",
+    "publication": "Plane Shift: Zendikar",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "author": "James Wyatt",
+    "printing": "First printing, April 2016",
+    "printedPages": [
+      34
+    ],
+    "pageNumbering": "One-based page number, including the cover.",
+    "url": "",
+    "reskinReference": {
+      "name": "Brown Bear",
+      "publication": "Monster Manual (2014)",
+      "printedPages": [
+        319
+      ],
+      "rulesReadUrl": "https://www.dndbeyond.com/monsters/16816-brown-bear",
+      "verification": "Rules checked against the official D&D Beyond 2014 Basic Rules listing. Monster Manual folio checked against the 5etools source index."
+    },
+    "appearanceSource": "p. 34 describes the bearlike and wolverinelike shape, horns, possible spikes and growth. Coat color and shoulder-spine placements are original art choices.",
+    "habitatSource": "Forest habitat is inferred from the discussion of beasts drawing on green mana on p. 33 and the gnarlid growth description on p. 34. The gnarlid paragraph gives no named locality."
+  },
+  {
+    "name": "Great Cat",
+    "publication": "Plane Shift: Zendikar",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "author": "James Wyatt",
+    "printing": "First printing, April 2016",
+    "printedPages": [
+      34
+    ],
+    "pageNumbering": "One-based page number, including the cover.",
+    "url": "",
+    "reskinReference": {
+      "name": "Saber-Toothed Tiger",
+      "publication": "Monster Manual (2014)",
+      "printedPages": [
+        336
+      ],
+      "rulesReadUrl": "https://www.dndbeyond.com/monsters/17002-saber-toothed-tiger",
+      "verification": "Rules checked against the official D&D Beyond 2014 Basic Rules listing. Monster Manual folio checked against the 5etools source index."
+    },
+    "appearanceSource": "p. 34 describes at least two kinds with enormous blades pointing back from the forelegs and compares them with the Saber-Toothed Tiger. The image at the foot of the page shows a spotted felid. Upper canines in the portrait are an editorial adaptation of the comparison.",
+    "habitatSource": "p. 34 says great cats use their foreleg blades to cut through heavy undergrowth. Zendikar woodlands is an inferred search term."
+  }
+]

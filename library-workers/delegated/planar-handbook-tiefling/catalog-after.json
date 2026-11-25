@@ -1,0 +1,913 @@
+[
+  {
+    "name": "Tiefling",
+    "kind": "species",
+    "group": "2014 fifth edition",
+    "groups": [
+      "2014 fifth edition",
+      "2024 fifth edition",
+      "3.5 edition"
+    ],
+    "global": true,
+    "fifth": true,
+    "browseRow": {
+      "id": "species-090aff131cc6474d4575d8c2",
+      "name": "Tiefling",
+      "kind": "species",
+      "group": "Playable species",
+      "image": {
+        "url": "",
+        "credit": "Player's Handbook (2014)"
+      },
+      "caption": "5 versions"
+    },
+    "version": {
+      "key": "f2d50ee1a2e6edc9c4895256",
+      "publication": "Planar Handbook (2004)",
+      "edition": "3.5 edition",
+      "source": "https://obnb.uk/p13133209-planar-handbook-a-players-guide-to-the-planes",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Outsider (Native)"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Medium Outsider (Native) from the Material Plane. The book gives the Extraplanar subtype away from the Material Plane. Under the core rules, creatures lack the Extraplanar subtype on transitive planes. Humanoid-only effects such as charm person do not affect a Tiefling.",
+            "+2 Dexterity, +2 Intelligence, and −2 Charisma. Land speed 30 ft., darkvision 60 ft., and +2 racial bonuses on Bluff and Hide.",
+            "Cold resistance 5, electricity resistance 5, and fire resistance 5.",
+            "Darkness (Sp) once per day. Caster level equals character level, excluding level adjustment. One touched object produces shadowy illumination for 10 minutes per caster level in a 20-ft. radius. Creatures in the area have concealment (20% miss chance), including against darkvision.",
+            "Automatic languages are Common and Infernal. Bonus languages are Draconic, Dwarven, Elven, Gnome, Goblin, Halfling, and Orc. Favored class Rogue. LA +1. No racial Hit Dice are listed."
+          ]
+        },
+        {
+          "title": "Original NPC · Sella Cinderlock",
+          "lines": [
+            "Lockhouse runner and Rogue.",
+            "Motive. Reopen the floodgate without springing the trap.",
+            "Hook. Sella has a copper marker for the crossing and can check the lock.",
+            "Tiefling lockhouse runner, Rogue 1 · Provisional CR 2. ECL 2 (1 class HD, LA +1). · Medium Outsider (Native)",
+            "AC 16 · HP 8 (1d6+2) · Speed 30 ft."
+          ]
+        },
+        {
+          "title": "Original NPC · Verren Vale",
+          "lines": [
+            "Smokeway guard and Fighter.",
+            "Motive. Hold the gate long enough for the workers to clear the passage.",
+            "Hook. Verren needs someone to lead the last workers to the cross-passage.",
+            "Tiefling smokeway guard, Fighter 1 · Provisional CR 2. ECL 2 (1 class HD, LA +1). · Medium Outsider (Native)",
+            "AC 17 · HP 12 (1d10+2) · Speed 30 ft."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Sella Cinderlock": [
+          {
+            "start": 15,
+            "end": 31,
+            "target": {
+              "name": "Sella Cinderlock",
+              "group": "Tiefling",
+              "publication": "Tiefling lockhouse runner, Rogue 1",
+              "local": {
+                "entry": "npc-27d635a525178bd7a16a6eda",
+                "version": "c3f29dfd2d2166791dae5ad9"
+              }
+            }
+          }
+        ],
+        "Original NPC · Verren Vale": [
+          {
+            "start": 15,
+            "end": 26,
+            "target": {
+              "name": "Verren Vale",
+              "group": "Tiefling",
+              "publication": "Tiefling smokeway guard, Fighter 1",
+              "local": {
+                "entry": "npc-c93b75ce1d06c7a11f69aa43",
+                "version": "d9fb02021efc168f85b340ff"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [
+      {
+        "key": "d026f10892825b1c272e4512",
+        "publication": "Player’s Handbook",
+        "edition": "2024 fifth edition",
+        "source": "https://5e.tools/races.html#tiefling_xphb",
+        "artwork": "https://www.dndbeyond.com/avatars/thumbnails/43940/586/340/340/638607451956352471.png",
+        "status": "Traits summary",
+        "images": [
+          {
+            "url": "",
+            "credit": "John Grello · Player’s Handbook"
+          },
+          {
+            "url": "",
+            "credit": "Jodie Muir · Player’s Handbook"
+          },
+          {
+            "url": "",
+            "credit": "Clint Cearley · Player’s Handbook"
+          }
+        ],
+        "stats": [
+          [
+            "Size",
+            "Small, Medium"
+          ],
+          [
+            "Speed",
+            "30 ft."
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Species traits",
+            "lines": [
+              "Size Small or Medium.",
+              "Walking speed 30 feet.",
+              "Darkvision 60 feet.",
+              "Source traits include Darkvision, Fiendish Legacy, Otherworldly Presence."
+            ]
+          },
+          {
+            "title": "Original NPC · Mina Letterturn",
+            "lines": [
+              "Provisional clerk and guardian",
+              "Motive. Keep a locked archive available to people who are still appealing a decision.",
+              "Hook. Mina asks the group to serve as reading witnesses after the usual keeper stops answering messages.",
+              "Ward tender · Provisional CR 1/2 (100 XP) · Medium Humanoid",
+              "AC 12 · HP 22 · Speed 30 ft."
+            ]
+          },
+          {
+            "title": "Sections",
+            "lines": [
+              "Darkvision",
+              "Fiendish Legacy",
+              "Otherworldly Presence"
+            ]
+          }
+        ],
+        "sourceCode": "XPHB",
+        "references": [
+          {
+            "label": "Player's Handbook (2024), p. 197",
+            "url": "https://5e.tools/races.html#tiefling_xphb"
+          },
+          {
+            "label": "Darkvision (sense)",
+            "url": "https://5e.tools/senses.html#darkvision_xphb",
+            "local": {
+              "entry": "compendium-7acfde2bf83729872c25017b",
+              "version": "XPHB:365:https://5e.tools/senses.html#darkvision_xphb"
+            },
+            "preview": {
+              "name": "Darkvision",
+              "group": "Senses",
+              "publication": "Player's Handbook (2024)",
+              "page": 365,
+              "local": {
+                "entry": "compendium-7acfde2bf83729872c25017b",
+                "version": "XPHB:365:https://5e.tools/senses.html#darkvision_xphb"
+              }
+            }
+          },
+          {
+            "label": "Poison Spray (spell)",
+            "url": "https://5e.tools/spells.html#poison%20spray_xphb",
+            "local": {
+              "entry": "compendium-b9493134f124155a29548904",
+              "version": "XPHB:306:https://5e.tools/spells.html#poison%20spray_xphb"
+            },
+            "preview": {
+              "name": "Poison Spray",
+              "group": "Spells",
+              "publication": "Player's Handbook (2024)",
+              "page": 306,
+              "description": "A necromancy cantrip.",
+              "local": {
+                "entry": "compendium-b9493134f124155a29548904",
+                "version": "XPHB:306:https://5e.tools/spells.html#poison%20spray_xphb"
+              }
+            }
+          },
+          {
+            "label": "Ray of Sickness (spell)",
+            "url": "https://5e.tools/spells.html#ray%20of%20sickness_xphb",
+            "local": {
+              "entry": "compendium-21eae31d7fe9b0c6fc27e2e5",
+              "version": "XPHB:311:https://5e.tools/spells.html#ray%20of%20sickness_xphb"
+            },
+            "preview": {
+              "name": "Ray of Sickness",
+              "group": "Spells",
+              "publication": "Player's Handbook (2024)",
+              "page": 311,
+              "description": "A level 1 necromancy spell. Can inflict Poisoned. Damage type: poison.",
+              "local": {
+                "entry": "compendium-21eae31d7fe9b0c6fc27e2e5",
+                "version": "XPHB:311:https://5e.tools/spells.html#ray%20of%20sickness_xphb"
+              }
+            }
+          },
+          {
+            "label": "Hold Person (spell)",
+            "url": "https://5e.tools/spells.html#hold%20person_xphb",
+            "local": {
+              "entry": "compendium-92720eab310d1fc7851988c3",
+              "version": "XPHB:286:https://5e.tools/spells.html#hold%20person_xphb"
+            },
+            "preview": {
+              "name": "Hold Person",
+              "group": "Spells",
+              "publication": "Player's Handbook (2024)",
+              "page": 286,
+              "description": "A visible humanoid that fails a Wisdom save becomes Paralyzed. It repeats the save at the end of each of its turns.",
+              "local": {
+                "entry": "compendium-92720eab310d1fc7851988c3",
+                "version": "XPHB:286:https://5e.tools/spells.html#hold%20person_xphb"
+              }
+            }
+          },
+          {
+            "label": "Chill Touch (spell)",
+            "url": "https://5e.tools/spells.html#chill%20touch_xphb",
+            "local": {
+              "entry": "compendium-7facb22b95d9f2f0c40fc308",
+              "version": "XPHB:249:https://5e.tools/spells.html#chill%20touch_xphb"
+            },
+            "preview": {
+              "name": "Chill Touch",
+              "group": "Spells",
+              "publication": "Player's Handbook (2024)",
+              "page": 249,
+              "description": "A necromancy cantrip.",
+              "local": {
+                "entry": "compendium-7facb22b95d9f2f0c40fc308",
+                "version": "XPHB:249:https://5e.tools/spells.html#chill%20touch_xphb"
+              }
+            }
+          },
+          {
+            "label": "False Life (spell)",
+            "url": "https://5e.tools/spells.html#false%20life_xphb",
+            "local": {
+              "entry": "compendium-a92bdf2169529acde7271e7b",
+              "version": "XPHB:271:https://5e.tools/spells.html#false%20life_xphb"
+            },
+            "preview": {
+              "name": "False Life",
+              "group": "Spells",
+              "publication": "Player's Handbook (2024)",
+              "page": 271,
+              "description": "A level 1 necromancy spell.",
+              "local": {
+                "entry": "compendium-a92bdf2169529acde7271e7b",
+                "version": "XPHB:271:https://5e.tools/spells.html#false%20life_xphb"
+              }
+            }
+          },
+          {
+            "label": "Ray of Enfeeblement (spell)",
+            "url": "https://5e.tools/spells.html#ray%20of%20enfeeblement_xphb",
+            "local": {
+              "entry": "compendium-eab5ec484a252fc1d49e8fb2",
+              "version": "XPHB:311:https://5e.tools/spells.html#ray%20of%20enfeeblement_xphb"
+            },
+            "preview": {
+              "name": "Ray of Enfeeblement",
+              "group": "Spells",
+              "publication": "Player's Handbook (2024)",
+              "page": 311,
+              "description": "A level 2 necromancy spell.",
+              "local": {
+                "entry": "compendium-eab5ec484a252fc1d49e8fb2",
+                "version": "XPHB:311:https://5e.tools/spells.html#ray%20of%20enfeeblement_xphb"
+              }
+            }
+          },
+          {
+            "label": "Fire Bolt (spell)",
+            "url": "https://5e.tools/spells.html#fire%20bolt_xphb",
+            "local": {
+              "entry": "compendium-3838d3c22b74f057eca5e764",
+              "version": "XPHB:274:https://5e.tools/spells.html#fire%20bolt_xphb"
+            },
+            "preview": {
+              "name": "Fire Bolt",
+              "group": "Spells",
+              "publication": "Player's Handbook (2024)",
+              "page": 274,
+              "description": "A evocation cantrip.",
+              "local": {
+                "entry": "compendium-3838d3c22b74f057eca5e764",
+                "version": "XPHB:274:https://5e.tools/spells.html#fire%20bolt_xphb"
+              }
+            }
+          },
+          {
+            "label": "Hellish Rebuke (spell)",
+            "url": "https://5e.tools/spells.html#hellish%20rebuke_xphb",
+            "local": {
+              "entry": "compendium-8331daa52f2ab5beb5d72ce5",
+              "version": "XPHB:284:https://5e.tools/spells.html#hellish%20rebuke_xphb"
+            },
+            "preview": {
+              "name": "Hellish Rebuke",
+              "group": "Spells",
+              "publication": "Player's Handbook (2024)",
+              "page": 284,
+              "description": "A level 1 evocation spell. Dexterity saving throw. Damage type: fire.",
+              "local": {
+                "entry": "compendium-8331daa52f2ab5beb5d72ce5",
+                "version": "XPHB:284:https://5e.tools/spells.html#hellish%20rebuke_xphb"
+              }
+            }
+          },
+          {
+            "label": "Darkness (spell)",
+            "url": "https://5e.tools/spells.html#darkness_xphb",
+            "local": {
+              "entry": "compendium-e2470a6d8a42e81c401e9c4f",
+              "version": "XPHB:260:https://5e.tools/spells.html#darkness_xphb"
+            },
+            "preview": {
+              "name": "Darkness",
+              "group": "Spells",
+              "publication": "Player's Handbook (2024)",
+              "page": 260,
+              "description": "Magical darkness fills a 15-foot-radius sphere. Nonmagical light cannot illuminate it, and Darkvision cannot see through it.",
+              "local": {
+                "entry": "compendium-e2470a6d8a42e81c401e9c4f",
+                "version": "XPHB:260:https://5e.tools/spells.html#darkness_xphb"
+              }
+            }
+          },
+          {
+            "label": "Thaumaturgy (spell)",
+            "url": "https://5e.tools/spells.html#thaumaturgy_xphb",
+            "local": {
+              "entry": "compendium-8ee2224de2e8d1135713fd78",
+              "version": "XPHB:333:https://5e.tools/spells.html#thaumaturgy_xphb"
+            },
+            "preview": {
+              "name": "Thaumaturgy",
+              "group": "Spells",
+              "publication": "Player's Handbook (2024)",
+              "page": 333,
+              "description": "A transmutation cantrip.",
+              "local": {
+                "entry": "compendium-8ee2224de2e8d1135713fd78",
+                "version": "XPHB:333:https://5e.tools/spells.html#thaumaturgy_xphb"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Size Small or Medium.": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Darkvision 60 feet.": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2024)",
+                "page": 365,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "XPHB:365:https://5e.tools/senses.html#darkvision_xphb"
+                }
+              }
+            }
+          ],
+          "Source traits include Darkvision, Fiendish Legacy, Otherworldly Presence.": [
+            {
+              "start": 22,
+              "end": 32,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2024)",
+                "page": 365,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "XPHB:365:https://5e.tools/senses.html#darkvision_xphb"
+                }
+              }
+            }
+          ],
+          "Original NPC · Mina Letterturn": [
+            {
+              "start": 15,
+              "end": 30,
+              "target": {
+                "name": "Mina Letterturn",
+                "group": "Tiefling",
+                "publication": "Ward tender",
+                "local": {
+                  "entry": "npc-076683280ed82a7d0dff3234",
+                  "version": "e6afe4214da45c0782a01938"
+                }
+              }
+            }
+          ],
+          "AC 12 · HP 22 · Speed 30 ft.": [
+            {
+              "start": 16,
+              "end": 21,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Darkvision": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2024)",
+                "page": 365,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "XPHB:365:https://5e.tools/senses.html#darkvision_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "32bc27fc48ffee3fd9b9ca4f",
+        "publication": "Player's Handbook (2014)",
+        "edition": "2014 fifth edition",
+        "source": "https://5e.tools/races.html#tiefling_phb",
+        "status": "Traits summary",
+        "images": [
+          {
+            "url": "",
+            "credit": "Player's Handbook (2014)"
+          }
+        ],
+        "stats": [
+          [
+            "Type",
+            "Humanoid"
+          ],
+          [
+            "Size",
+            "Medium"
+          ],
+          [
+            "Speed",
+            "30 ft."
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Species traits",
+            "lines": [
+              "+2 Charisma and +1 Intelligence; walking speed 30 feet, darkvision 60 feet, and resistance to fire.",
+              "Thaumaturgy at will; hellish rebuke at level 3 and darkness at level 5, once each per long rest. Spellcasting uses Charisma."
+            ]
+          },
+          {
+            "title": "Sections",
+            "lines": [
+              "Age",
+              "Size",
+              "Darkvision",
+              "Hellish Resistance",
+              "Infernal Legacy",
+              "Languages"
+            ]
+          }
+        ],
+        "sourceCode": "PHB",
+        "page": 42,
+        "references": [
+          {
+            "label": "Player's Handbook (2014), p. 42",
+            "url": "https://5e.tools/races.html#tiefling_phb"
+          },
+          {
+            "label": "Thaumaturgy (spell)",
+            "url": "https://5e.tools/spells.html#thaumaturgy_phb",
+            "local": {
+              "entry": "compendium-8ee2224de2e8d1135713fd78",
+              "version": "PHB:282:https://5e.tools/spells.html#thaumaturgy_phb"
+            },
+            "preview": {
+              "name": "Thaumaturgy",
+              "group": "Spells",
+              "publication": "Player's Handbook (2014)",
+              "page": 282,
+              "description": "A transmutation cantrip.",
+              "local": {
+                "entry": "compendium-8ee2224de2e8d1135713fd78",
+                "version": "PHB:282:https://5e.tools/spells.html#thaumaturgy_phb"
+              }
+            }
+          },
+          {
+            "label": "Hellish rebuke (spell)",
+            "url": "https://5e.tools/spells.html#hellish%20rebuke_phb",
+            "local": {
+              "entry": "compendium-8331daa52f2ab5beb5d72ce5",
+              "version": "PHB:250:https://5e.tools/spells.html#hellish%20rebuke_phb"
+            },
+            "preview": {
+              "name": "Hellish Rebuke",
+              "group": "Spells",
+              "publication": "Player's Handbook (2014)",
+              "page": 250,
+              "description": "A level 1 evocation spell. Dexterity saving throw. Damage type: fire.",
+              "local": {
+                "entry": "compendium-8331daa52f2ab5beb5d72ce5",
+                "version": "PHB:250:https://5e.tools/spells.html#hellish%20rebuke_phb"
+              }
+            }
+          },
+          {
+            "label": "Darkness (spell)",
+            "url": "https://5e.tools/spells.html#darkness_phb",
+            "local": {
+              "entry": "compendium-e2470a6d8a42e81c401e9c4f",
+              "version": "PHB:230:https://5e.tools/spells.html#darkness_phb"
+            },
+            "preview": {
+              "name": "Darkness",
+              "group": "Spells",
+              "publication": "Player's Handbook (2014)",
+              "page": 230,
+              "description": "Magical darkness fills a 15-foot-radius sphere. Nonmagical light cannot illuminate it, and Darkvision cannot see through it.",
+              "local": {
+                "entry": "compendium-e2470a6d8a42e81c401e9c4f",
+                "version": "PHB:230:https://5e.tools/spells.html#darkness_phb"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "+2 Charisma and +1 Intelligence; walking speed 30 feet, darkvision 60 feet, and resistance to fire.": [
+            {
+              "start": 56,
+              "end": 66,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2014)",
+                "page": 183,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+                }
+              }
+            }
+          ],
+          "Thaumaturgy at will; hellish rebuke at level 3 and darkness at level 5, once each per long rest. Spellcasting uses Charisma.": [
+            {
+              "start": 0,
+              "end": 11,
+              "target": {
+                "name": "Thaumaturgy",
+                "group": "Spells",
+                "publication": "Player's Handbook (2014)",
+                "page": 282,
+                "description": "A transmutation cantrip.",
+                "local": {
+                  "entry": "compendium-8ee2224de2e8d1135713fd78",
+                  "version": "PHB:282:https://5e.tools/spells.html#thaumaturgy_phb"
+                }
+              }
+            },
+            {
+              "start": 21,
+              "end": 35,
+              "target": {
+                "name": "Hellish Rebuke",
+                "group": "Spells",
+                "publication": "Player's Handbook (2014)",
+                "page": 250,
+                "description": "A level 1 evocation spell. Dexterity saving throw. Damage type: fire.",
+                "local": {
+                  "entry": "compendium-8331daa52f2ab5beb5d72ce5",
+                  "version": "PHB:250:https://5e.tools/spells.html#hellish%20rebuke_phb"
+                }
+              }
+            },
+            {
+              "start": 51,
+              "end": 59,
+              "target": {
+                "name": "Darkness",
+                "group": "Spells",
+                "publication": "Player's Handbook (2014)",
+                "page": 230,
+                "description": "Magical darkness fills a 15-foot-radius sphere. Nonmagical light cannot illuminate it, and Darkvision cannot see through it.",
+                "local": {
+                  "entry": "compendium-e2470a6d8a42e81c401e9c4f",
+                  "version": "PHB:230:https://5e.tools/spells.html#darkness_phb"
+                }
+              }
+            },
+            {
+              "start": 97,
+              "end": 109,
+              "target": {
+                "name": "Spellcasting",
+                "group": "Variant rules",
+                "publication": "Xanathar's Guide to Everything",
+                "page": 85,
+                "local": {
+                  "entry": "compendium-e713887bf7765ba7221c649e",
+                  "version": "XGE:85:https://5e.tools/variantrules.html#spellcasting_xge"
+                }
+              }
+            }
+          ],
+          "Darkvision": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2014)",
+                "page": 183,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+                }
+              }
+            }
+          ],
+          "Hellish Resistance": [
+            {
+              "start": 8,
+              "end": 18,
+              "target": {
+                "name": "Resistance",
+                "group": "Spells",
+                "publication": "Player's Handbook (2014)",
+                "page": 272,
+                "description": "A abjuration cantrip.",
+                "local": {
+                  "entry": "compendium-c5cb057b458ebd0d2d062e0f",
+                  "version": "PHB:272:https://5e.tools/spells.html#resistance_phb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "8604b0c4f79181fcb6f7fb14",
+        "publication": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Traits summary",
+        "images": [],
+        "stats": [
+          [
+            "Type",
+            "Humanoid"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Species traits",
+            "lines": [
+              "Small or Medium, walking speed 30 ft.",
+              "60 ft. darkvision and Thaumaturgy.",
+              "Choose an Abyssal, Chthonic, or Infernal legacy for one resistance and different spells at levels 1, 3, and 5."
+            ]
+          },
+          {
+            "title": "Original NPC · Mina Letterturn",
+            "lines": [
+              "Provisional clerk and guardian",
+              "Motive. Keep a locked archive available to people who are still appealing a decision.",
+              "Hook. Mina asks the group to serve as reading witnesses after the usual keeper stops answering messages.",
+              "Ward tender · Provisional CR 1/2 (100 XP) · Medium Humanoid",
+              "AC 12 · HP 22 · Speed 30 ft."
+            ]
+          }
+        ],
+        "inline": {
+          "60 ft. darkvision and Thaumaturgy.": [
+            {
+              "start": 7,
+              "end": 17,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2024)",
+                "page": 365,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "XPHB:365:https://5e.tools/senses.html#darkvision_xphb"
+                }
+              }
+            },
+            {
+              "start": 22,
+              "end": 33,
+              "target": {
+                "name": "Thaumaturgy",
+                "group": "Spells",
+                "publication": "Player's Handbook (2024)",
+                "page": 333,
+                "description": "A transmutation cantrip.",
+                "local": {
+                  "entry": "compendium-8ee2224de2e8d1135713fd78",
+                  "version": "XPHB:333:https://5e.tools/spells.html#thaumaturgy_xphb"
+                }
+              }
+            }
+          ],
+          "Original NPC · Mina Letterturn": [
+            {
+              "start": 15,
+              "end": 30,
+              "target": {
+                "name": "Mina Letterturn",
+                "group": "Tiefling",
+                "publication": "Ward tender",
+                "local": {
+                  "entry": "npc-076683280ed82a7d0dff3234",
+                  "version": "e6afe4214da45c0782a01938"
+                }
+              }
+            }
+          ],
+          "AC 12 · HP 22 · Speed 30 ft.": [
+            {
+              "start": 16,
+              "end": 21,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "e6b4093575be0519649b1e52",
+        "publication": "Basic Rules (2014)",
+        "edition": "2014 fifth edition",
+        "source": "https://www.dndbeyond.com/species/7-tiefling",
+        "artwork": "https://www.dndbeyond.com/avatars/thumbnails/4808/252/340/340/636771216810902999.png",
+        "images": [],
+        "stats": [],
+        "sections": []
+      }
+    ],
+    "queries": {
+      "Tiefling": true,
+      "tiefling darkness": true,
+      "tiefling concealment": true,
+      "tiefling lockhouse runner": true,
+      "tiefling smokeway guard": true
+    },
+    "hash": "cfc0db2a4f0ad5c2a993e04c5df1687f8577ee218306a069005003c6f0fb447a",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [
+      {
+        "url": "",
+        "credit": "Player's Handbook (2014)"
+      },
+      {
+        "url": "",
+        "credit": "John Grello · Player’s Handbook"
+      },
+      {
+        "url": "",
+        "credit": "Jodie Muir · Player’s Handbook"
+      },
+      {
+        "url": "",
+        "credit": "Clint Cearley · Player’s Handbook"
+      }
+    ],
+    "defaultPublication": "Player’s Handbook",
+    "defaultVersionKey": "d026f10892825b1c272e4512",
+    "entryImage": {
+      "url": "",
+      "credit": "Player's Handbook (2014)"
+    }
+  }
+]

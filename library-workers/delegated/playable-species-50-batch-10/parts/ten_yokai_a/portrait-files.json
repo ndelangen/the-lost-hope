@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Enkoh",
+    "file": "portraits/enkoh.png",
+    "sha256": "890d432926aae301af85109c421653fb25de7cc37333bd896b65ef435ba6ee5d",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "name": "Fuyōren",
+    "file": "portraits/fuyoren.png",
+    "sha256": "54d04432486dccf84f8a4d88d52c05dc99f965ad38d2ebe3258414f2a1a2fe05",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "name": "Hanamori",
+    "file": "portraits/hanamori.png",
+    "sha256": "ea744545f711882bddb165304845914c4f14638c71c1fa4ec8b314ab797c6e8a",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "name": "Haniwa",
+    "file": "portraits/haniwa.png",
+    "sha256": "35910752bbca9b7c64e9a7a5b67cab9a0bee66f2ad1259db8f85a7f9f2a6b6b9",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "name": "Isetsu",
+    "file": "portraits/isetsu.png",
+    "sha256": "368a5fc09d0ccb4f982821f5abfcf785ac90d865e9e8294beb908dc43ff0893a",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  }
+]

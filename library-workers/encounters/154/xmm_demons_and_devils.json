@@ -1,0 +1,420 @@
+[
+  {
+    "name": "Barlgura",
+    "statBlock": {
+      "name": "Barlgura",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 31,
+      "classification": "Large fiend (demon), chaotic evil",
+      "ac": 15,
+      "hp": 85,
+      "hitDice": "10d10 + 30",
+      "speed": "40 ft., climb 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 7
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 15,
+      "savingThrows": {
+        "Dex": 5,
+        "Con": 6
+      },
+      "skills": {
+        "Perception": 5,
+        "Stealth": 5
+      },
+      "description": "A hulking, ape-like demon that hunts intruders and batters them to the ground.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+2 (12).",
+        "Senses": "Blindsight 30 ft., Darkvision 120 ft.",
+        "Languages": "Abyssal and telepathy 120 ft.",
+        "Damage resistances": "Cold, Fire, Lightning.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Demonic Restoration. If the barlgura dies away from the Abyss, its body dissolves into ichor. A new body forms immediately in the Abyss, where it revives at full HP.",
+        "Actions": "Multiattack. Make one Tormenting Bite attack and two Thrash attacks.\nTormenting Bite. Melee attack, +7 to hit, reach 5 ft. A hit deals 11 (2d6 + 4) Piercing damage and 13 (2d12) Psychic damage.\nThrash. Melee attack, +7 to hit, reach 5 ft. A hit deals 9 (1d10 + 4) Bludgeoning damage. If the target is a Large or smaller creature, it falls Prone.",
+        "Spellcasting": "As an action, cast one spell using Wisdom, save DC 13. The spells need no material components.\n2/day each. Disguise Self and Invisibility (self only).\n1/day each. Entangle and Phantasmal Killer (level 6).",
+        "Bonus actions": "Leap. Spend 10 ft. of movement to jump up to 40 ft.",
+        "Habitats": "The Abyss.",
+        "Treasure": "Any.",
+        "Printed source": "Monster Manual (2024), p. 31."
+      }
+    }
+  },
+  {
+    "name": "Chasme",
+    "statBlock": {
+      "name": "Chasme",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 69,
+      "classification": "Large fiend (demon), chaotic evil",
+      "ac": 15,
+      "hp": 78,
+      "hitDice": "12d10 + 12",
+      "speed": "20 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "6",
+      "xp": 2300,
+      "passivePerception": 15,
+      "savingThrows": {
+        "Dex": 5,
+        "Wis": 5
+      },
+      "skills": {
+        "Perception": 5
+      },
+      "description": "A horse-sized fly demon whose drone puts victims to sleep so it can feed.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+5 (15).",
+        "Senses": "Blindsight 10 ft., Darkvision 120 ft.",
+        "Languages": "Abyssal and telepathy 120 ft.",
+        "Damage resistances": "Cold, Fire, Lightning.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Demonic Restoration. If the chasme dies away from the Abyss, its body dissolves into ichor. A new body forms immediately in the Abyss, where it revives at full HP.\nMagic Resistance. The chasme has Advantage on saving throws against spells and other magical effects.\nSpider Climb. The chasme can climb difficult surfaces, including ceilings, without an ability check.",
+        "Actions": "Proboscis. Melee attack, +5 to hit, reach 5 ft. A hit deals 16 (4d6 + 2) Piercing damage and 21 (6d6) Necrotic damage. If the target is a creature, reduce its maximum HP by the Necrotic damage it took.",
+        "Bonus actions": "Drone. Every creature in a 30-ft. Emanation from the chasme makes a DC 12 Constitution save. Demons succeed automatically. On a failure, the target becomes Unconscious and repeats the save at the end of each of its turns. It succeeds automatically after 10 minutes, if it takes damage, or if a creature within 5 ft. of it uses an action to empty a flask of Holy Water on it. A success ends the effect and grants immunity to this chasme's Drone for 24 hours.",
+        "Habitats": "The Abyss.",
+        "Treasure": "Relics.",
+        "Printed source": "Monster Manual (2024), p. 69."
+      }
+    }
+  },
+  {
+    "name": "Manes",
+    "statBlock": {
+      "name": "Manes",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 201,
+      "classification": "Small fiend (demon), chaotic evil",
+      "ac": 9,
+      "hp": 9,
+      "hitDice": "2d6 + 2",
+      "speed": "20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 9
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 8
+        },
+        "Cha": {
+          "score": 4
+        }
+      },
+      "cr": "1/8",
+      "xp": 25,
+      "passivePerception": 9,
+      "savingThrows": {},
+      "skills": {},
+      "description": "A small Abyssal demon that claws at anyone it thinks too weak to fight back.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "-1 (9).",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Understands Abyssal and cannot speak.",
+        "Damage resistances": "Cold, Fire, Lightning.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Charmed, Frightened, Poisoned.",
+        "Actions": "Claw. Melee attack, +2 to hit, reach 5 ft. A hit deals 5 (2d4) Slashing damage.",
+        "Habitats": "The Abyss.",
+        "Printed source": "Monster Manual (2024), p. 201."
+      }
+    }
+  },
+  {
+    "name": "Shadow Demon",
+    "statBlock": {
+      "name": "Shadow Demon",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 273,
+      "classification": "Medium fiend (demon), chaotic evil",
+      "ac": 14,
+      "hp": 66,
+      "hitDice": "12d8 + 12",
+      "speed": "30 ft., fly 30 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 1
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 11,
+      "savingThrows": {
+        "Dex": 5,
+        "Cha": 4
+      },
+      "skills": {
+        "Stealth": 7
+      },
+      "description": "An incorporeal remnant of a demon that could not re-form after its destruction.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+3 (13).",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Abyssal and telepathy 120 ft.",
+        "Damage vulnerabilities": "Radiant.",
+        "Damage resistances": "Acid, Bludgeoning, Cold, Fire, Lightning, Piercing, Slashing, Thunder.",
+        "Damage immunities": "Necrotic, Poison.",
+        "Condition immunities": "Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained.",
+        "Traits": "Demonic Restoration. If the shadow demon dies away from the Abyss, its body dissolves into ichor. A new body forms immediately in the Abyss, where it revives at full HP.\nIncorporeal Movement. The demon treats creatures and objects as Difficult Terrain it can move through. It takes 5 (1d10) Force damage if it ends its turn inside an object.\nLight Sensitivity. Bright Light gives the demon Disadvantage on ability checks and attack rolls.",
+        "Actions": "Umbral Claw. Melee attack, +5 to hit, reach 5 ft. A hit deals 16 (3d8 + 3) Psychic damage.",
+        "Bonus actions": "Shadow Stealth. Take the Hide action while in Dim Light or Darkness.",
+        "Habitats": "The Abyss.",
+        "Printed source": "Monster Manual (2024), p. 273."
+      }
+    }
+  },
+  {
+    "name": "Yochlol",
+    "statBlock": {
+      "name": "Yochlol",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 341,
+      "classification": "Medium fiend (demon), chaotic evil",
+      "ac": 15,
+      "hp": 153,
+      "hitDice": "18d8 + 72",
+      "speed": "30 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 19
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 17
+        }
+      },
+      "cr": "10",
+      "xp": 5900,
+      "passivePerception": 12,
+      "savingThrows": {
+        "Dex": 8,
+        "Int": 5,
+        "Wis": 6,
+        "Cha": 7
+      },
+      "skills": {
+        "Deception": 11,
+        "Insight": 6
+      },
+      "description": "A one-eyed mass of shifting tentacles that often passes for a cultist or spider.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+8 (18).",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Abyssal, Elvish, Undercommon.",
+        "Damage resistances": "Cold, Fire, Lightning.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Demonic Restoration. If the yochlol dies away from the Abyss, its body dissolves. A new body forms immediately in the Abyss, where it revives at full HP.\nMagic Resistance. The yochlol has Advantage on saving throws against spells and other magical effects.\nSpider Climb. The yochlol can climb difficult surfaces, including ceilings, without an ability check.\nWeb Walker. Webs impose no movement restrictions on the yochlol.",
+        "Actions": "Multiattack. Make two Caustic Lash attacks. The yochlol can also cast Web or Dominate Person using Spellcasting if that spell is available.\nCaustic Lash. Melee or ranged attack, +8 to hit, reach 10 ft. or range 120 ft. A hit deals 25 (6d6 + 4) Acid damage.",
+        "Spellcasting": "As an action, cast one spell using Charisma, save DC 15. The spells need no material components.\nAt will. Detect Thoughts, Gaseous Form (self only), and Web.\n1/day. Dominate Person.",
+        "Bonus actions": "Shape-Shift. Take the form of a Medium Humanoid or a Medium spider, or return to true form. The yochlol keeps its game statistics in each form. Worn and carried equipment stays as it was.",
+        "Reactions": "Toxic Escape. When an attack roll hits the yochlol, halve the attack's damage to it, rounding down. The yochlol also teleports to a visible unoccupied space within 30 ft. Every creature within 5 ft. of the destination makes a DC 15 Constitution save. On a failure, the target is Poisoned through the end of its next turn and is Incapacitated while Poisoned this way.",
+        "Habitats": "The Abyss.",
+        "Printed source": "Monster Manual (2024), p. 341."
+      }
+    }
+  },
+  {
+    "name": "Spined Devil",
+    "statBlock": {
+      "name": "Spined Devil",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 296,
+      "classification": "Small fiend (devil), lawful evil",
+      "ac": 13,
+      "hp": 45,
+      "hitDice": "10d6 + 10",
+      "speed": "20 ft., fly 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 12,
+      "savingThrows": {},
+      "skills": {},
+      "description": "A flying infernal spy that needles foes with fiery spines from beyond their reach.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+2 (12).",
+        "Senses": "Darkvision 120 ft. Magical Darkness does not block this vision.",
+        "Languages": "Infernal and telepathy 120 ft.",
+        "Damage resistances": "Cold.",
+        "Damage immunities": "Fire, Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Flyby. The spined devil provokes no Opportunity Attack when it flies out of an enemy's reach.\nMagic Resistance. The devil has Advantage on saving throws against spells and other magical effects.",
+        "Actions": "Multiattack. Make two attacks in any combination of Infernal Fork and Tail Spine.\nInfernal Fork. Melee attack, +4 to hit, reach 5 ft. A hit deals 5 (1d6 + 2) Piercing damage and 3 (1d6) Fire damage.\nTail Spine. Ranged attack, +4 to hit, range 20/80 ft. A hit deals 4 (1d4 + 2) Piercing damage and 3 (1d6) Fire damage.",
+        "Habitats": "Nine Hells.",
+        "Printed source": "Monster Manual (2024), p. 296."
+      }
+    }
+  },
+  {
+    "name": "Lemure",
+    "statBlock": {
+      "name": "Lemure",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 194,
+      "classification": "Medium fiend (devil), lawful evil",
+      "ac": 9,
+      "hp": 9,
+      "hitDice": "2d8",
+      "speed": "20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 5
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 1
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 3
+        }
+      },
+      "cr": "0",
+      "xp": 10,
+      "passivePerception": 10,
+      "savingThrows": {},
+      "skills": {},
+      "description": "A misshapen devil that obeys stronger fiends and attacks weaker creatures with poisonous slime.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "-3 (7).",
+        "Senses": "Darkvision 120 ft. Magical Darkness does not block this vision.",
+        "Languages": "Understands Infernal and cannot speak.",
+        "Damage resistances": "Cold.",
+        "Damage immunities": "Fire, Poison.",
+        "Condition immunities": "Charmed, Frightened, Poisoned.",
+        "Traits": "Hellish Restoration. A lemure that dies in the Nine Hells revives at full HP in 1d10 days. It stays dead if a creature under the effects of Bless killed it or if someone sprinkles its remains with Holy Water.",
+        "Actions": "Vile Slime. Melee attack, +2 to hit, reach 5 ft. A hit deals 2 (1d4) Poison damage.",
+        "Habitats": "Nine Hells.",
+        "Printed source": "Monster Manual (2024), p. 194."
+      }
+    }
+  }
+]

@@ -1,0 +1,270 @@
+[
+  {
+    "name": "Drake (Large)",
+    "publication": "Plane Shift: Kaladesh",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, neutral good",
+    "ac": 13,
+    "hp": 26,
+    "hitDice": "4d10 + 4",
+    "speed": "10 ft., fly 80 ft.",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Wis": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 10,
+        "modifier": 0
+      }
+    },
+    "otherStatistics": "Perception +4. Passive Perception 14. Speaks Giant Eagle and understands Common and Auran without speaking them, per the Giant Eagle base. No listed special senses.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A slim, two-legged flying reptile with a long neck and leathery wings. Its hooked claws catch prey and grip cliff faces and the hides of sky beasts.",
+    "habitats": [
+      "Kaladesh skies",
+      "Mountain crags",
+      "High elevations",
+      "Near sky whales and leviathans"
+    ],
+    "sections": {
+      "Printed source": "James Wyatt, Plane Shift: Kaladesh, first printing (February 2017), page 29.  Uses Giant Eagle, Monster Manual (2014), printed p. 324. https://www.dndbeyond.com/monsters/16881-giant-eagle",
+      "Traits": "Keen Sight. Advantage on Wisdom (Perception) checks that rely on sight.",
+      "Actions": "Multiattack. Make one Beak attack and one Talons attack.\nBeak. Melee weapon attack, +5 to hit with 5-ft. reach against one target. On a hit, deal 6 (1d6 + 3) piercing damage.\nTalons. Melee weapon attack, +5 to hit with 5-ft. reach against one target. On a hit, deal 10 (2d6 + 3) slashing damage.",
+      "At the table": "The larger drake uses the Giant Eagle statistics. Kaladesh drakes may recognize airships that have killed others in their rush."
+    }
+  },
+  {
+    "name": "Drake (Small)",
+    "publication": "Plane Shift: Kaladesh",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 13,
+    "hp": 13,
+    "hitDice": "3d8",
+    "speed": "10 ft., fly 60 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "AC from natural armor. Perception +1. Passive Perception 11. No listed languages or special senses.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A slim, two-legged flying reptile with a long neck and leathery wings. Its hooked claws catch prey and grip cliff faces and the hides of sky beasts.",
+    "habitats": [
+      "Kaladesh skies",
+      "Mountain crags",
+      "High elevations",
+      "Near sky whales and leviathans"
+    ],
+    "sections": {
+      "Printed source": "James Wyatt, Plane Shift: Kaladesh, first printing (February 2017), page 29.  Uses Pteranodon, Monster Manual (2014), printed p. 80. https://www.dndbeyond.com/monsters/17093-pteranodon",
+      "Traits": "Flyby. Leaving an enemy’s reach while flying does not provoke an opportunity attack.",
+      "Actions": "Bite. Melee weapon attack, +3 to hit with 5-ft. reach against one target. On a hit, deal 6 (2d4 + 1) piercing damage.",
+      "At the table": "This smaller drake uses the Pteranodon’s Medium size. On its turf it may hunt in a rush of up to a dozen drakes."
+    }
+  },
+  {
+    "name": "Gremlin",
+    "publication": "Plane Shift: Kaladesh",
+    "edition": "2014 fifth edition",
+    "classification": "Small Beast, unaligned",
+    "ac": 11,
+    "hp": 27,
+    "hitDice": "5d8 + 5",
+    "speed": "40 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "abilities": {
+      "Str": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Darkvision 60 ft. Passive Perception 11. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A hairless scavenger with a long snout and six legs. The dense claws on each foot cut through wood and rock and can tear into metal machinery.",
+    "habitats": [
+      "Aether-rich sites",
+      "Inventors’ laboratories",
+      "Workshops",
+      "Ghirapur"
+    ],
+    "sections": {
+      "Printed source": "James Wyatt, Plane Shift: Kaladesh, first printing (February 2017), page 26. ",
+      "Traits": "Aether Scent. Pinpoint refined or unrefined aether by smell within 30 ft.",
+      "Actions": "Claws. Melee weapon attack, +3 to hit with 5-ft. reach against one target. On a hit, deal 5 (1d8 + 1) slashing damage.\nSiphon. Choose a visible aether-powered device within 5 ft. If carried or worn, its bearer can prevent the touch with a DC 11 Dexterity save. An unattended device automatically loses aether. Reduce any bonus it grants by 1. A device with charges also loses one charge. A device without charges stops working for 1 round. Left unhindered, the gremlin can ruin a device.",
+      "At the table": "Its aether sense is useful around laboratories and airship machinery. The printed Siphon description supplies no fixed number of uses that destroys a device."
+    }
+  },
+  {
+    "name": "Sky Leviathan",
+    "publication": "Plane Shift: Kaladesh",
+    "edition": "2014 fifth edition",
+    "classification": "Gargantuan Beast, unaligned",
+    "ac": 14,
+    "hp": 247,
+    "hitDice": "15d20 + 90",
+    "speed": "Fly 50 ft. (hover)",
+    "cr": "10",
+    "xp": 5900,
+    "abilities": {
+      "Str": {
+        "score": 28,
+        "modifier": 9
+      },
+      "Dex": {
+        "score": 7,
+        "modifier": -2
+      },
+      "Con": {
+        "score": 22,
+        "modifier": 6
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "AC from natural armor. Constitution save +10, Wisdom save +3. Passive Perception 9. No listed languages or special senses.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "An enormous eel-like beast that swims through the sky. Its long body tapers behind a broad swallowing mouth.",
+    "habitats": [
+      "Aethersphere",
+      "Aether currents",
+      "Airship routes"
+    ],
+    "sections": {
+      "Printed source": "James Wyatt, Plane Shift: Kaladesh, first printing (February 2017), page 28. ",
+      "Actions": "Bite. Melee weapon attack, +9 to hit with 10-ft. reach against one target. On a hit, deal 22 (3d8 + 9) piercing damage. A Large or smaller creature hit by the bite must make a DC 18 Dexterity save or be swallowed.",
+      "Swallowed creatures": "A swallowed creature is blinded and restrained and has total cover against attacks and effects outside the leviathan. It takes 21 (6d6) acid damage at the start of each of the leviathan’s turns. If any one creature inside deals at least 30 damage to the leviathan in a single turn, the leviathan makes a DC 21 Constitution save at the end of that turn. On a failure it expels every swallowed creature. Each lands prone within 10 ft. If the leviathan dies, its swallowed creatures are no longer restrained by it and may spend 20 ft. of movement to get out of the corpse, emerging prone.",
+      "At the table": "Track the damage dealt by each creature inside on its current turn. The swallow follows the self-contained Leviathan rules."
+    }
+  },
+  {
+    "name": "Sky Whale",
+    "publication": "Plane Shift: Kaladesh",
+    "edition": "2014 fifth edition",
+    "classification": "Huge Beast, unaligned",
+    "ac": 14,
+    "hp": 85,
+    "hitDice": "9d12 + 27",
+    "speed": "30 ft., fly 50 ft. (hover), swim 50 ft.",
+    "cr": "5",
+    "xp": 1800,
+    "abilities": {
+      "Str": {
+        "score": 21,
+        "modifier": 5
+      },
+      "Dex": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Con": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "AC from natural armor. Stealth +5. Passive Perception 10. No listed languages or special senses.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A vast floating whale with a broad filtering mouth, powerful paired flippers and forked tail flukes. Its markings are slate gray and cream.",
+    "habitats": [
+      "Aethersphere",
+      "Aether currents",
+      "Skies of Kaladesh"
+    ],
+    "sections": {
+      "Printed source": "James Wyatt, Plane Shift: Kaladesh, first printing (February 2017), page 28.  Uses Giant Crocodile, Monster Manual (2014), printed p. 324. https://www.dndbeyond.com/monsters/16880-giant-crocodile",
+      "Traits": "Hold Breath. The whale can go without taking a breath for up to 30 minutes.",
+      "Actions": "Multiattack. Make one Flipper attack and one Tail attack.\nFlipper. Melee weapon attack, +8 to hit with 10-ft. reach against one target the whale is not grappling. On a hit, deal 14 (2d8 + 5) bludgeoning damage. If it is a creature, it must pass a DC 16 Strength save or fall prone.\nTail. Use the same reach, hit modifier, targeting restriction, damage and save as Flipper.",
+      "At the table": "Sky whales mostly avoid confrontations. Read the Giant Crocodile base speeds as continuing to apply because the supplement adds hover flight without removing those modes. Flipper replaces the bite and only has the effects of Tail."
+    }
+  }
+]

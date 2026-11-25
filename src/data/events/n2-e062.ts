@@ -5,6 +5,7 @@ export default createEvent({
   name: 'Jim tells the truth at the court hearing',
   day: 13,
   location: refs.locations.fairhaven_courthouse,
+  illustrations: ['/assets/scenes/jim-tells-the-truth-at-the-court-hearing.png'],
   mark: { type: 'icon', name: 'gi/GiGavel' },
   notes: [
     [

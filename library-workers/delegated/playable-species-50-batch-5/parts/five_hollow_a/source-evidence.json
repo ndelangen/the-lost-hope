@@ -1,0 +1,130 @@
+[
+  {
+    "name": "Hutaakan",
+    "publication": "Hollow World Campaign Set (1990)",
+    "edition": "Basic D&D (BECMI)",
+    "publisher": "TSR",
+    "creatureType": "Humanoid",
+    "url": "",
+    "printedPages": [
+      36,
+      37
+    ],
+    "pdfPages": [
+      38,
+      39
+    ],
+    "primaryBook": "Hollow World Campaign Set, Book Two, Player’s Guide, TSR 1054, 1990",
+    "supportingSources": {
+      "boxedSetRules": {
+        "url": "",
+        "rules": "Player’s Guide pp. 6–8, 10–20. Warrior-elf and optional shaman or wokan apprenticeship, common language, arms, technology, and General Skills."
+      },
+      "coreRules": {
+        "url": "",
+        "rules": "Ability modifiers p. 9, weapons pp. 62–63 and 65–66, armor p. 67, movement pp. 87–88, initiative pp. 102–103, attack matrix p. 106, missile modifiers p. 108, saving throws p. 109. Thief skill table p. 22."
+      }
+    },
+    "sourceDistinctions": [
+      "The Player’s Guide gives Hutaakan class progression. The entry ends at printed p. 37.",
+      "The Hutaakan entry has its own saves and gives no attack matrix. The worked 1st-level NPC uses the standard 1st-level character attack values, including 19 against AC 0.",
+      "The racial stealth abilities use the first-level thief percentages. The staff is wielded two-handed."
+    ]
+  },
+  {
+    "name": "Brute-Man",
+    "publication": "Hollow World Campaign Set (1990)",
+    "edition": "Basic D&D (BECMI)",
+    "publisher": "TSR",
+    "creatureType": "Humanoid",
+    "url": "",
+    "printedPages": [
+      31,
+      32
+    ],
+    "pdfPages": [
+      33,
+      34
+    ],
+    "primaryBook": "Hollow World Campaign Set, Book Two, Player’s Guide, TSR 1054, 1990",
+    "supportingSources": {
+      "boxedSetRules": {
+        "url": "",
+        "rules": "Player’s Guide pp. 6–8, 10–20. Warrior-elf and optional shaman or wokan apprenticeship, common language, arms, technology, and General Skills."
+      },
+      "coreRules": {
+        "url": "",
+        "rules": "Ability modifiers p. 9, weapons pp. 62–63 and 65–66, armor p. 67, movement pp. 87–88, initiative pp. 102–103, attack matrix p. 106, missile modifiers p. 108, saving throws p. 109."
+      }
+    },
+    "sourceDistinctions": [
+      "This is the Hollow World Neanderthal race-class.",
+      "The Player’s Guide provides Brute-Man saves and does not print an attack matrix. The worked 1st-level NPC uses the standard 1st-level character attack values.",
+      "Natural-looking concealed construction qualifies for the 1–3 on d6 detection. The example’s flaked stone spear uses the standard spear damage. Player’s Guide p. 11 gives equal damage for weapons of stone, bronze, iron and steel."
+    ]
+  },
+  {
+    "name": "Kubitt",
+    "publication": "Hollow World Campaign Set (1990)",
+    "edition": "Basic D&D (BECMI)",
+    "publisher": "TSR",
+    "creatureType": "Humanoid",
+    "url": "",
+    "printedPages": [
+      43,
+      44
+    ],
+    "pdfPages": [
+      45,
+      46
+    ],
+    "primaryBook": "Hollow World Campaign Set, Book Two, Player’s Guide, TSR 1054, 1990",
+    "supportingSources": {
+      "boxedSetRules": {
+        "url": "",
+        "rules": "Player’s Guide pp. 6–8, 10–20. Warrior-elf and optional shaman or wokan apprenticeship, common language, arms, technology, and General Skills."
+      },
+      "coreRules": {
+        "url": "",
+        "rules": "Ability modifiers p. 9, weapons pp. 62–63 and 65–66, armor p. 67, movement pp. 87–88, initiative pp. 102–103, attack matrix p. 106, missile modifiers p. 108, saving throws p. 109. Fighter class pp. 15–17 and thief skill table p. 22."
+      }
+    },
+    "sourceDistinctions": [
+      "The Player’s Guide is the optional player option. The valley’s encounter profile uses creature statistics.",
+      "The stat line uses the Kubitt short sword table row. That row gives a d3 realized by halving 1d6 and rounding up. Miniature chain and shield yield base AC 4 before Dexterity.",
+      "The Player’s Guide preserves human movement at equal encumbrance and gives no miniature armor weights. The NPC uses the ordinary detailed chain, shield and short sword encumbrance values for combat pacing."
+    ]
+  },
+  {
+    "name": "Schattenalfen",
+    "publication": "Hollow World Campaign Set (1990)",
+    "edition": "Basic D&D (BECMI)",
+    "publisher": "TSR",
+    "creatureType": "Humanoid",
+    "url": "",
+    "printedPages": [
+      56,
+      57
+    ],
+    "pdfPages": [
+      58,
+      59
+    ],
+    "primaryBook": "Hollow World Campaign Set, Book Two, Player’s Guide, TSR 1054, 1990",
+    "supportingSources": {
+      "boxedSetRules": {
+        "url": "",
+        "rules": "Player’s Guide pp. 6–8, 10–20. Warrior-elf and optional shaman or wokan apprenticeship, common language, arms, technology, and General Skills."
+      },
+      "coreRules": {
+        "url": "",
+        "rules": "Ability modifiers p. 9, weapons pp. 62–63 and 65–66, armor p. 67, movement pp. 87–88, initiative pp. 102–103, attack matrix p. 106, missile modifiers p. 108, saving throws p. 109. Core elf class pp. 23–26."
+      }
+    },
+    "sourceDistinctions": [
+      "Player’s Guide pp. 56–57 provide the culture and sunlight rule. The warrior-elf chassis is in pp. 6–8.",
+      "The setting lists a local language package. The NPC uses those languages and the warrior-elf’s standard elven saves, dark vision, search and immunity.",
+      "The worked warrior-elf has no spellcasting. Its cloak and hood are open in the portrait and cover exposed skin before entering direct sunlight."
+    ]
+  }
+]

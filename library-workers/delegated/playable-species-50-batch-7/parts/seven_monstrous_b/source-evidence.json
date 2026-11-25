@@ -1,0 +1,96 @@
+[
+  {
+    "name": "Basilisk",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Monstrosity",
+    "url": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "rulesReadUrl": "",
+    "printedPages": [
+      19
+    ],
+    "heading": "Basilisk Traits and Petrifying Gaze",
+    "version": "Official publisher sample",
+    "provenance": "Community-content player conversion for 2014 fifth edition by Tyler Kamstra, published on DMs Guild in 2018. The official sample covers Basilisk and Behir. Beholder and Blight use the v2 text mirror.",
+    "sourceDistinctions": "The official preview calls the stages exhaustion and makes averting eyes a reaction for creatures that are not surprised. It specifies one stage of recovery a round after a successful save. Dapplecairn uses that procedure. The v2 text mirror has older wording for averting eyes.",
+    "supportingSources": {
+      "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+      "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+      "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+      "spells": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+    }
+  },
+  {
+    "name": "Behir",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Monstrosity",
+    "url": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "rulesReadUrl": "",
+    "printedPages": [
+      20
+    ],
+    "heading": "Behir Traits, Constrict and Lightning Breath",
+    "version": "Official publisher sample",
+    "provenance": "Community-content player conversion for 2014 fifth edition by Tyler Kamstra, published on DMs Guild in 2018. The official sample covers Basilisk and Behir. Beholder and Blight use the v2 text mirror.",
+    "sourceDistinctions": "The official preview scales Lightning Breath at 5th, 11th and 17th levels. Its trait block grants no lightning resistance. The v2 text mirror has a 6th, 11th and 16th level schedule. Serrask uses the official preview and the 2014 unarmed strike rule for its two verbal Ranger spells.",
+    "supportingSources": {
+      "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+      "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+      "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+      "spells": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+    }
+  },
+  {
+    "name": "Beholder",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Aberration",
+    "url": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "rulesReadUrl": "",
+    "printedPages": [
+      21,
+      22
+    ],
+    "heading": "Beholder Traits, Eye Tyrant, Death Tyrant and Spectator",
+    "version": "v2 text mirror",
+    "provenance": "Community-content player conversion for 2014 fifth edition by Tyler Kamstra, published on DMs Guild in 2018. The official sample covers Basilisk and Behir. Beholder and Blight use the v2 text mirror.",
+    "sourceDistinctions": "Tallyglass uses Spectator. The Eye Rays give focus use but specify no spell ability or somatic method. Use Intelligence and the eyes for those racial cantrips at this table. “60-goot” in the Death Tyrant text means 60 feet. Spell Reflection declares its waiver before the roll and uses the printed target and reroll procedure.",
+    "supportingSources": {
+      "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+      "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+      "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+      "spells": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+    }
+  },
+  {
+    "name": "Blight",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Plant",
+    "url": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "rulesReadUrl": "",
+    "printedPages": [
+      23,
+      24
+    ],
+    "heading": "Blight Traits, Needle Blight, Twig Blight and Vine Blight",
+    "version": "v2 text mirror",
+    "provenance": "Community-content player conversion for 2014 fifth edition by Tyler Kamstra, published on DMs Guild in 2018. The official sample covers Basilisk and Behir. Beholder and Blight use the v2 text mirror.",
+    "sourceDistinctions": "Hedgewrit uses Vine Blight. Apply the stated 25-ft. speed in the traits block. The design commentary mentions 20 ft. and deafened immunity, which the rules block does not give. The plant exemption in Entangling Plants covers difficult terrain. The same paragraph requires a save from each creature at onset.",
+    "supportingSources": {
+      "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+      "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+      "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+      "spells": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+    }
+  }
+]

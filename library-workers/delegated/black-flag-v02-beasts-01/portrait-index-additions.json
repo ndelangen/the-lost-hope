@@ -1,0 +1,203 @@
+[
+  {
+    "entry": "beast-b63f85d0e48f64cf2f53f03e",
+    "name": "Black Bear",
+    "file": "images/beasts/bear-black/parchment-portrait.webp",
+    "sha256": "2ce8b3b947efa795ec44830802ceaf7237058f1a969c476110b3411811bd57d2",
+    "credit": "OpenAI ImageGen",
+    "reference": "",
+    "appearanceSource": "Identical Black Flag beast form cataloged under Bear, Black",
+    "subjectPrompt": "A naturalistic adult American black bear with glossy charcoal-black fur, a faint cinnamon-tan muzzle, small upright rounded ears prominent above the head, smooth shoulders without a prominent hump, and straight higher face profile. Show the whole animal on four paws, a quiet diagonal walking stride with one lifted front paw and watchful eyes turned toward viewer. Muscular but leaner and less blocky than a grizzly, practical short curved dark claws, correct bear anatomy. Use the second image as a face and coat reference only.",
+    "style": "The Lost Hope square gouache and sepia parchment"
+  },
+  {
+    "entry": "beast-888a73f2a993eb0a1bd87b13",
+    "name": "Blood Hawk",
+    "file": "images/beasts/hawk-blood/parchment-portrait.webp",
+    "sha256": "6faecf7259f4161db7865c887f73bdd53001bb48ac47cecb446299f39ae3af06",
+    "credit": "OpenAI ImageGen",
+    "reference": "",
+    "appearanceSource": "Identical Black Flag beast form cataloged under Hawk, Blood",
+    "subjectPrompt": "Full-bodied fierce blood hawk, a single natural falcon-like hawk with rich muted blood-red and russet plumage, dark wine brown across the wing tips and an ivory-brown barred pale underside of the flight feathers. Sleek proportionate head, pointed hooked gray beak, sharp small amber eyes, tucked slender clawed feet, long narrow tail, recognizable hawk shape. Show it banking, in an asymmetrical diagonal three-quarter profile with full spread wings and tail inside the frame, focused hunting gaze, red is in feathers only. No blood, wounds, scenery or prey. The second reference is for species and coloring only.",
+    "style": "The Lost Hope square gouache and sepia parchment"
+  },
+  {
+    "entry": "beast-38acbd9d4d5878ad99a8cb2b",
+    "name": "Brown Bear",
+    "file": "images/beasts/bear-brown/parchment-portrait.webp",
+    "sha256": "84dd7b07d9e13c07400ae00b59637236b95730a1253e6a8adc191ad2ed4911e8",
+    "credit": "OpenAI ImageGen",
+    "reference": "",
+    "appearanceSource": "Identical Black Flag beast form cataloged under Bear, Brown",
+    "subjectPrompt": "A big mature naturalistic brown grizzly bear with a strong raised shoulder hump, thick russet and umber woolly coat with tan grizzled tips, smaller rounded ears, a dished facial profile, very broad paws, and long gently curved ivory foreclaws. Low steady side-on four-legged posture, face turned slightly toward viewer with a calm formidable expression. Paws clearly separated and fully visible, no roaring or hand gestures, strong animal proportions. Use the second image for head and fur context only.",
+    "style": "The Lost Hope square gouache and sepia parchment"
+  },
+  {
+    "entry": "beast-83ee4e4e9e44c97ad85ef0e7",
+    "name": "Constrictor Snake",
+    "file": "images/beasts/snake-constrictor/parchment-portrait.webp",
+    "sha256": "e9370a4138802fef90921df26a9d8785412c3076b5fed6df4d468427daf40f4b",
+    "credit": "OpenAI ImageGen",
+    "reference": "",
+    "appearanceSource": "Identical Black Flag beast form cataloged under Snake, Constrictor",
+    "subjectPrompt": "One realistically drawn big muscular boa constrictor. Tawny cream-gray skin with large clearly shaped irregular cocoa brown saddle markings edged in dark chocolate, tiny subtle highlight on scales, broad non-viper bluntly tapered brown head and alert restrained amber eye. Whole snake at rest in simple low open overlapping coils, only ONE continuous snake from head to visible tapered tail tip, partly lifting its head in a natural three-quarter view. No tongue, no fangs, no plants, no branch or rock. Entire body inside square with ample margins. Use second reference for characteristic pattern only, invent new coil anatomy.",
+    "style": "The Lost Hope square gouache and sepia parchment"
+  },
+  {
+    "entry": "beast-c4979879f93833f274866528",
+    "name": "Dire Wolf",
+    "file": "images/beasts/wolf-dire/parchment-portrait.webp",
+    "sha256": "d20eed104a1438e881e4b70fcafb2fa25a3c7f872d9f0651064300a3753e71f4",
+    "credit": "OpenAI ImageGen",
+    "reference": [
+      "",
+      ""
+    ],
+    "appearanceSource": "Identical Black Flag beast form cataloged under Wolf, Dire",
+    "subjectPrompt": "One imposing thickly built dark-furred dire wolf. Heavy broad skull, russet amber eyes, huge shoulder ruff, subtly grizzled gray cheeks, and powerful canine paws. Long black charcoal and mottled smoke-gray fur, small upright ears, continuous naturally lowered bushy tail. Entire animal in a three-quarter view with head at the left and front of the composition, taking a deliberate stalking step. Nostrils and teeth visible in a restrained natural snarl, no blood. Coat and gait inspired by the subject references. Four legs only with distinct paws and unobstructed natural silhouette.",
+    "style": "The Lost Hope square gouache and sepia parchment"
+  },
+  {
+    "entry": "beast-00b8ae6b7fcad787410a7e6e",
+    "name": "Draft Horse",
+    "file": "images/beasts/horse-draft/parchment-portrait.webp",
+    "sha256": "7c88a9aaf7957b28ae85237c173a8d771d29f054983a32da76e2d05dfc0ea531",
+    "credit": "OpenAI ImageGen",
+    "reference": "",
+    "appearanceSource": "Identical Black Flag beast form cataloged under Horse, Draft",
+    "subjectPrompt": "One very strong chestnut-brown draft horse with an exceptionally broad chest, thick neck, broad hooves, short sturdy leg proportions, very visible dark feathery lower legs, coarse deep brown mane and long thick tail. A plain working animal, no equipment, with a kind and calm face. Standing steadily in a slight three-quarter view, all four hooves on the ground, head up and turned toward viewer. All anatomical proportions coherent and comfortable margins. Use second reference for a heavy working animal's coat and head, ignore token frame.",
+    "style": "The Lost Hope square gouache and sepia parchment"
+  },
+  {
+    "entry": "beast-3f916b529c3895c36c70137d",
+    "name": "Flying Snake",
+    "file": "images/beasts/snake-flying/parchment-portrait.webp",
+    "sha256": "3f3c80de23cb7db969344888e11a1a80d45777366994add8471fa38b40850477",
+    "credit": "OpenAI ImageGen",
+    "reference": "",
+    "appearanceSource": "Identical Black Flag beast form cataloged under Snake, Flying",
+    "subjectPrompt": "One small flying snake fantasy beast following the second reference: slim continuous green serpentine body, light olive golden belly and smooth emerald scales, distinct snake head with compact jaw and alert golden-brown iris. Exactly TWO compact feathered wings grow directly from opposite sides of the upper body behind head, with warm copper at the wing roots and subtly colored muted raspberry-red and deep mulberry outer feathers. No legs. Only one continuous serpentine body curving in a flowing loose S shape during flight, tapering to one single clear tail with no fork, both wings and full tail inside the margins. Plain parchment, no scene or prey, no blue circle. Fantasy feathered serpent, original stance.",
+    "style": "The Lost Hope square gouache and sepia parchment"
+  },
+  {
+    "entry": "beast-dc0c10ea37743395601afabe",
+    "name": "Giant Ape",
+    "file": "images/beasts/ape-giant/parchment-portrait.webp",
+    "sha256": "ed824c2481df3b7cc8c1efc07c2bf0f64cd05a18c81e4b5f27a50cf845b558c2",
+    "credit": "OpenAI ImageGen",
+    "reference": "",
+    "appearanceSource": "Identical Black Flag beast form cataloged under Ape, Giant",
+    "subjectPrompt": "One very large naturalistic silverback gorilla-like giant ape. Extremely broad shoulders and chest, strong forearms, textured dark charcoal-brown coat and broad streak of salt-gray hair on its back. Entire animal in full body three-quarter view, a powerful upright knuckle-walking stance on all four limbs, tension in the pose and curious fierce alert eyes, strong high-browed gorilla face, slight open mouth without screaming, no clothes, equipment or landscape. Let claws be nails and hands large with anatomically sound knuckle placement. Use the second reference for face and fur character only, and ignore its circular frame.",
+    "style": "The Lost Hope square gouache and sepia parchment"
+  },
+  {
+    "entry": "beast-6ad50d32f295ae8da87afe82",
+    "name": "Giant Badger",
+    "file": "images/beasts/badger-giant/parchment-portrait.webp",
+    "sha256": "4cfab667484e7d64855aa2e8d305464429d73309bfdca01c021ed4f769bfc04b",
+    "credit": "OpenAI ImageGen",
+    "reference": "",
+    "appearanceSource": "Identical Black Flag beast form cataloged under Badger, Giant",
+    "subjectPrompt": "One enlarged naturalistic Eurasian badger, squat powerful body, coarse silvery gray guard hairs and two distinct black stripes from snout across the eyes to short ears, creamy white cheeks and black black-brown lower legs, gentle shaggy torso with short furred tail. Its broad sturdy forepaws carry prominent ivory digging claws. Full body visible in alert low three-quarter stance, paws planted as if it has exposed something underfoot, no hole, scenery, equipment, extra limbs, round token border, or facial distortion. Feral wild animal, with substantial strength appropriate to a giant beast. Use second reference only for anatomical markings.",
+    "style": "The Lost Hope square gouache and sepia parchment"
+  },
+  {
+    "entry": "beast-9c56a844ca4260d80807d1f8",
+    "name": "Giant Bat",
+    "file": "images/beasts/bat-giant/parchment-portrait.webp",
+    "sha256": "84653e2ce0d1ee7b3515a923ad9700d3f99e2bcbc491f02bae7102cb7c6c0c59",
+    "credit": "OpenAI ImageGen",
+    "reference": "",
+    "appearanceSource": "Identical Black Flag beast form cataloged under Bat, Giant",
+    "subjectPrompt": "One giant brown-gray insectivorous fantasy bat in dynamic three-quarter flight. Dark matte leathery wings with translucent copper-brown membranes in the highlights and long articulated finger bones, bristly compact gray-brown torso with lighter throat, tall individual pointed folded ears and short blunt expressive snout. Both whole extended wings and body visible with a little padding around the largest tips. The leathery wings attach to forelimbs and flanks, no bird feathers or extra arms. Small feet with delicate claws tuck beneath the body. Subtle parchment contact shadow well below. One beast only, anatomically recognizable as a bat. Use the second reference for anatomy, ignore its token frame and electric blue backdrop.",
+    "style": "The Lost Hope square gouache and sepia parchment"
+  },
+  {
+    "entry": "beast-a3ca8d6b40a62f87f316e9cf",
+    "name": "Giant Boar",
+    "file": "images/beasts/boar-giant/parchment-portrait.webp",
+    "sha256": "d465c22a5df0bdf3ee7c8f626b812e68ea3eb109ffd60257ad49a3f28b12117f",
+    "credit": "OpenAI ImageGen",
+    "reference": "",
+    "appearanceSource": "Identical Black Flag beast form cataloged under Boar, Giant",
+    "subjectPrompt": "A giant wild boar, thickset lifted shoulders, iron-gray and dark brown coarse bristles with a rough raised mane down its neck, slim tapering hindquarters and a long dirt-brown snout. Two convincingly curved ivory tusks emerging from the lower jaw near the mouth, small angry amber eye, small upright natural ears. Entire four-legged animal angled toward the viewer with lowered head as if bracing to charge, distinct cloven hooves and short fine tail, anatomically coherent wild boar with no extra horns, weapons, or gear. Use second reference for head, tusks and type only.",
+    "style": "The Lost Hope square gouache and sepia parchment"
+  },
+  {
+    "entry": "beast-67c132dc4a89516bcaa8f433",
+    "name": "Giant Constrictor Snake",
+    "file": "images/beasts/snake-giant-constrictor/parchment-portrait.webp",
+    "sha256": "2156e2fd298bbcf5b77cd20396f6db681b701ea354830998a591eab94e62df35",
+    "credit": "OpenAI ImageGen",
+    "reference": "",
+    "appearanceSource": "Identical Black Flag beast form cataloged under Snake, Giant Constrictor",
+    "subjectPrompt": "A colossal, exceptionally heavy-bodied boa-like snake with deep olive and moss green patterned scales, broad earth-black and pale khaki saddles drawn from the face and markings of the token, and a broad gentle python-like blocky head with an amber eye and closed mouth. A huge single open U loop low across the picture, thick body curving behind on right, near head protruding low toward front left. Tail tapers alongside the open loop on the right. Substantial visual weight. Distinct green palette and low viewpoint, a very different silhouette from the brown coiled reference.",
+    "style": "The Lost Hope square gouache and sepia parchment"
+  },
+  {
+    "entry": "beast-c39025a93a39653b0147bfe8",
+    "name": "Giant Crab",
+    "file": "images/beasts/crab-giant/parchment-portrait.webp",
+    "sha256": "e4793e097140b0dd2ce7385db8566bec0f115ecb0ece56f09286229b58481564",
+    "credit": "OpenAI ImageGen",
+    "reference": "",
+    "appearanceSource": "Identical Black Flag beast form cataloged under Crab, Giant",
+    "subjectPrompt": "A huge rugged reddish coral-brown shore crab with dark red and rust patches on a broad thick textured carapace, two stalked black eyes on short stalks, two substantial red pincers (one a little larger), four leathery jointed walking legs per side with anatomically coherent attachments, mottled fringing and a few pale scrapes on old chitin. Both giant claws and all visible legs sit within square. Stands defensively angled in three-quarter view with the right claw open and higher, the other ready beside its body, clear empty margin. Realistic crustacean anatomy exaggerated only in size, no beach, rocks, sea plants, round frame or glowing aura. Use the second reference for shell character and red coloration only.",
+    "style": "The Lost Hope square gouache and sepia parchment"
+  },
+  {
+    "entry": "beast-6343e55b7b181a3b56ac2eed",
+    "name": "Giant Crocodile",
+    "file": "images/beasts/crocodile-giant/parchment-portrait.webp",
+    "sha256": "e4d6edea0beb5fefb23b7c8de138325b07a0d62a00edf70f3ddac72e4e9a3580",
+    "credit": "OpenAI ImageGen",
+    "reference": "",
+    "appearanceSource": "Identical Black Flag beast form cataloged under Crocodile, Giant",
+    "subjectPrompt": "A truly massive crocodile with a long broad predatory snout, pale yellow watchful eyes, black green-brown scales with muted bronze green highlights, clearly rendered rows of armored ridged scutes across its back, strong stocky short sprawling four legs, hooked claws and a heavy long tapered tail curving back into frame. Full body in low three-quarter pose, jaws open a little to reveal mismatched ivory teeth, mouth proportions natural for a crocodile. Distinct low mobile silhouette and slight bend in the tail, all within comfortable square margins. No water, rocks or anything else, no electric aura or round token frame. Use the second reference only for species form.",
+    "style": "The Lost Hope square gouache and sepia parchment"
+  },
+  {
+    "entry": "beast-c53f147dcb203be8f8e6c380",
+    "name": "Giant Eagle",
+    "file": "images/beasts/eagle-giant/parchment-portrait.webp",
+    "sha256": "4e2e41e58b04feb5c8eb7579a6d2a1e37e8db3812c322134a6eb4c3d910a1ac6",
+    "credit": "OpenAI ImageGen",
+    "reference": "",
+    "appearanceSource": "Identical Black Flag beast form cataloged under Eagle, Giant",
+    "subjectPrompt": "One colossal noble eagle depicted as a plausible bird of prey consistent with the second reference. Shaded white and cream crown, cool charcoal brown back and dark-tipped wings with subtle light bars, pale breast, large yellow hooked bill, amber eyes and exceptionally stout golden talons. Whole eagle in dynamic forward three-quarter view about to land, unequal rooted wing angles both complete within the picture, long layered primary feathers apart at their tips, legs flexed but tucked far enough to read as naturally avian. No human anatomy, armor or saddle. Distinct from a vulture, full feathered head and strong curved beak. Use the second reference for anatomy and coloration only.",
+    "style": "The Lost Hope square gouache and sepia parchment"
+  },
+  {
+    "entry": "beast-bec980dd9e930a157b4119e7",
+    "name": "Giant Elk",
+    "file": "images/beasts/elk-giant/parchment-portrait.webp",
+    "sha256": "61e93218ed82625c7214db58216662d779248974870152cc5085a0f34cf60429",
+    "credit": "OpenAI ImageGen",
+    "reference": "",
+    "appearanceSource": "Identical Black Flag beast form cataloged under Elk, Giant",
+    "subjectPrompt": "A very large naturalistic living bull elk, thick tawny brown muscular body, longer dark brown shaggy neck, compact proud head with black wet nose and pale rump. Wide heavy symmetrical branched elk antlers in velvety dark ivory brown, branching distinctively from each brow without little moose-style palms. Show the whole sole animal in a solemn three-quarter standing position, body angled off center and head turned alert toward viewer. All four hooves visible with anatomically sound cervid legs, antler tips comfortably below upper edge. No bridle or clothes. Use the second image only for species and coat.",
+    "style": "The Lost Hope square gouache and sepia parchment"
+  },
+  {
+    "entry": "beast-9eac7a553c5f1cd52724dc6f",
+    "name": "Giant Frog",
+    "file": "images/beasts/frog-giant/parchment-portrait.webp",
+    "sha256": "dc1c59560c0df21c88afb6cfc16c0318c915786a2cd62a8814b46155ca1cf2e3",
+    "credit": "OpenAI ImageGen",
+    "reference": "",
+    "appearanceSource": "Identical Black Flag beast form cataloged under Frog, Giant",
+    "subjectPrompt": "One giant natural-looking wetland frog. Grounded crouch, broad olive and mottled ochre-brown body, muted amphibian skin markings and earthy dark dapple, yellow gold horizontal eyes, robust folded hind legs and long webbed hind toes, shorter forelimbs with clean simple frogs' toes. Broad mouth closed and slightly crooked with alert eyes, head and body recognizably amphibian. Three-quarter view at ground level, main forelimb extended, steady head. Entire body legs and toes inside the square. No tongues, algae, rocks, reeds or puddles, no bright warning-color marks. The second reference conveys the general creature form only.",
+    "style": "The Lost Hope square gouache and sepia parchment"
+  },
+  {
+    "entry": "beast-6f3ba88f8055270588c02a34",
+    "name": "Giant Goat",
+    "file": "images/beasts/goat-giant/parchment-portrait.webp",
+    "sha256": "49b758d06d9fc514b574e5b4daed0bf19a558f3824a5b37006b0c942b4c10e9f",
+    "credit": "OpenAI ImageGen",
+    "reference": "",
+    "appearanceSource": "Identical Black Flag beast form cataloged under Goat, Giant",
+    "subjectPrompt": "One oversized naturalistic mountain billy goat with a rough brown cinnamon and cream face, shaggy paler tawny winter coat, pointed small beard, long knobbly narrow backward-swept symmetrical ibex-like horns curling a little outward into a massive distinctive silhouette, and stocky muscular forequarters. Show it from front three-quarter side with head turned warily, only one front leg flexed up and other three hooves planted. Horn tips, beard, short erect tail, and all four hooves fit comfortably inside square. Slit pupils and split hooves, no saddle, harness, clothing or rocky scene. Use second reference for animal and general horn profile, design an original figure.",
+    "style": "The Lost Hope square gouache and sepia parchment"
+  }
+]

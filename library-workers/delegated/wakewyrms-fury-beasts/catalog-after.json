@@ -1,0 +1,5221 @@
+[
+  {
+    "name": "Young Wakewyrm",
+    "version": {
+      "key": "6c90be6dbb7e7ad9e9b9ca78",
+      "publication": "Humblewood: The Wakewyrm's Fury",
+      "edition": "2014 fifth edition compatible",
+      "source": "",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "15"
+        ],
+        [
+          "Hit points",
+          "68"
+        ],
+        [
+          "Hit dice",
+          "8d10 + 24"
+        ],
+        [
+          "Challenge",
+          "2"
+        ],
+        [
+          "Size",
+          "Large"
+        ],
+        [
+          "Type",
+          "Beast"
+        ],
+        [
+          "Speed",
+          "walk 30 ft."
+        ],
+        [
+          "Passive Perception",
+          "10"
+        ],
+        [
+          "Armor class notes",
+          "Natural armor"
+        ],
+        [
+          "XP",
+          "450"
+        ],
+        [
+          "Str",
+          "16"
+        ],
+        [
+          "Dex",
+          "16"
+        ],
+        [
+          "Con",
+          "17"
+        ],
+        [
+          "Int",
+          "3"
+        ],
+        [
+          "Wis",
+          "10"
+        ],
+        [
+          "Cha",
+          "5"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Tideswell Cave",
+            "Talongrip Coast"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A juvenile eel-like sea reptile with side fins and small spines along its back."
+          ]
+        },
+        {
+          "title": "Attacks",
+          "lines": [
+            "Bite · Melee Weapon Attack · +5 to hit · reach 10 ft. · 2d6 + 3 piercing"
+          ]
+        },
+        {
+          "title": "Traits mechanics",
+          "lines": [
+            "Hold Breath · Can hold its breath for 1 hour."
+          ]
+        },
+        {
+          "title": "Bonus Actions mechanics",
+          "lines": [
+            "Plaintive Cry · The juvenile calls for its mother. If she is within 150 ft. and can hear it, she can use her reaction to move up to her speed toward the juvenile."
+          ]
+        },
+        {
+          "title": "Actions mechanics",
+          "lines": [
+            "Multiattack · 2 attacks · The juvenile makes two Bite attacks.",
+            "Bite · +5 to hit · reach 10 ft. · One creature takes 10 (2d6 + 3) piercing damage on a hit. · 2d6 + 3 piercing"
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "The adventure shows the juvenile swimming in Tideswell Cave. The card prints one speed of 30 ft. without a separate swim speed.",
+            "In the Wakewyrm’s Pool encounter, a DC 16 Wisdom (Animal Handling) check calms the juvenile. It lashes out at creatures in bite range if they fail to calm it. See adventure booklet p. 8.",
+            "Hit Point Press, The Wakewyrm's Fury, Reference Cards, p. 5."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Size": [
+          {
+            "start": 0,
+            "end": 4,
+            "target": {
+              "name": "Size",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+              }
+            }
+          }
+        ],
+        "Speed": [
+          {
+            "start": 0,
+            "end": 5,
+            "target": {
+              "name": "Speed",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-264de61edc1e2fe941187374",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+              }
+            }
+          }
+        ],
+        "Passive Perception": [
+          {
+            "start": 0,
+            "end": 18,
+            "target": {
+              "name": "Passive Perception",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 372,
+              "local": {
+                "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+              }
+            }
+          }
+        ],
+        "Bite · Melee Weapon Attack · +5 to hit · reach 10 ft. · 2d6 + 3 piercing": [
+          {
+            "start": 13,
+            "end": 26,
+            "target": {
+              "name": "Weapon Attack",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 377,
+              "local": {
+                "entry": "compendium-f8978a5da2977fc5a556ab9c",
+                "version": "XPHB:377:https://5e.tools/variantrules.html#weapon%20attack_xphb"
+              }
+            }
+          }
+        ],
+        "In the Wakewyrm’s Pool encounter, a DC 16 Wisdom (Animal Handling) check calms the juvenile. It lashes out at creatures in bite range if they fail to calm it. See adventure booklet p. 8.": [
+          {
+            "start": 50,
+            "end": 65,
+            "target": {
+              "name": "Animal Handling",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-a406aabd36e48d23cb9f5dbf",
+                "version": "PHB:178:https://5e.tools/skills.html#animal%20handling_phb"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [
+      {
+        "key": "468123675a1c8aacbdd966a0",
+        "publication": "Humblewood Tales",
+        "edition": "2014 fifth edition compatible",
+        "source": "https://www.dndbeyond.com/monsters/5174420-young-wakewyrm",
+        "artwork": "https://www.dndbeyond.com/avatars/thumbnails/46988/340/1000/1000/638735984541103657.png",
+        "images": [
+          {
+            "url": "",
+            "credit": "D&D Beyond publisher art · Humblewood Tales"
+          }
+        ],
+        "stats": [
+          [
+            "Challenge",
+            "2"
+          ],
+          [
+            "Type",
+            "Beast"
+          ]
+        ],
+        "sections": []
+      }
+    ],
+    "queries": {
+      "Young Wakewyrm": true,
+      "plaintive cry": true
+    },
+    "hash": "3757dcde638316bdafaf29dc734cf69391b5527abe9661974964376a05d65eed",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [
+      {
+        "url": "",
+        "credit": "D&D Beyond publisher art · Humblewood Tales"
+      }
+    ]
+  },
+  {
+    "name": "Wakewyrm",
+    "version": {
+      "key": "67ff0a14b0bf5f71378a133b",
+      "publication": "Humblewood: The Wakewyrm's Fury",
+      "edition": "2014 fifth edition compatible",
+      "source": "",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "16"
+        ],
+        [
+          "Hit points",
+          "136"
+        ],
+        [
+          "Hit dice",
+          "13d12 + 52"
+        ],
+        [
+          "Challenge",
+          "6"
+        ],
+        [
+          "Size",
+          "Huge"
+        ],
+        [
+          "Type",
+          "Beast"
+        ],
+        [
+          "Speed",
+          "walk 20 ft., swim 50 ft."
+        ],
+        [
+          "Passive Perception",
+          "11"
+        ],
+        [
+          "Armor class notes",
+          "Natural armor"
+        ],
+        [
+          "XP",
+          "2300"
+        ],
+        [
+          "Str",
+          "20"
+        ],
+        [
+          "Dex",
+          "14"
+        ],
+        [
+          "Con",
+          "18"
+        ],
+        [
+          "Int",
+          "3"
+        ],
+        [
+          "Wis",
+          "12"
+        ],
+        [
+          "Cha",
+          "3"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Talongrip Coast"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "An immense sea reptile with a long eel-like body and a spined ridge."
+          ]
+        },
+        {
+          "title": "Attacks",
+          "lines": [
+            "Bite · Melee Weapon Attack · +8 to hit · reach 20 ft. · 3d6 + 5 piercing",
+            "Tail · Melee Weapon Attack · +8 to hit · reach 25 ft. · 3d8 + 5 bludgeoning"
+          ]
+        },
+        {
+          "title": "Traits mechanics",
+          "lines": [
+            "Hold Breath · Can hold its breath for 1 hour."
+          ]
+        },
+        {
+          "title": "Actions mechanics",
+          "lines": [
+            "Multiattack · 2 attacks · One Bite and one Tail attack, or two Bites.",
+            "Bite · +8 to hit · reach 20 ft. · One target takes 15 (3d6 + 5) piercing damage on a hit and is grappled on a failed save (escape DC 16). The wakewyrm can grapple only one creature. While holding that creature it cannot bite another. · DC 16 Strength · 3d6 + 5 piercing",
+            "Tail · +8 to hit · reach 25 ft. · One target takes 18 (3d8 + 5) bludgeoning damage on a hit. · 3d8 + 5 bludgeoning",
+            "Swallow · The wakewyrm bites a Large or smaller creature it is grappling. On a hit the creature is swallowed and the grapple ends. The swallowed creature is blinded, restrained, and has total cover from outside effects. It takes 11 (3d6) acid damage at the start of each wakewyrm turn. If the wakewyrm takes at least 18 damage from a creature inside, it saves at the end of that turn or expels all swallowed creatures prone within 10 ft. When it dies, swallowed creatures are freed from restraint and can escape by spending 20 ft. of movement. · DC 15 Constitution · 3d6 acid"
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "The adult lingers near the coast while searching for its offspring. After death its body floats for several hours before sinking.",
+            "Hit Point Press, The Wakewyrm's Fury, Reference Cards, p. 5."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Size": [
+          {
+            "start": 0,
+            "end": 4,
+            "target": {
+              "name": "Size",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+              }
+            }
+          }
+        ],
+        "Speed": [
+          {
+            "start": 0,
+            "end": 5,
+            "target": {
+              "name": "Speed",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-264de61edc1e2fe941187374",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+              }
+            }
+          }
+        ],
+        "Passive Perception": [
+          {
+            "start": 0,
+            "end": 18,
+            "target": {
+              "name": "Passive Perception",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 372,
+              "local": {
+                "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+              }
+            }
+          }
+        ],
+        "Bite · Melee Weapon Attack · +8 to hit · reach 20 ft. · 3d6 + 5 piercing": [
+          {
+            "start": 13,
+            "end": 26,
+            "target": {
+              "name": "Weapon Attack",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 377,
+              "local": {
+                "entry": "compendium-f8978a5da2977fc5a556ab9c",
+                "version": "XPHB:377:https://5e.tools/variantrules.html#weapon%20attack_xphb"
+              }
+            }
+          }
+        ],
+        "Tail · Melee Weapon Attack · +8 to hit · reach 25 ft. · 3d8 + 5 bludgeoning": [
+          {
+            "start": 13,
+            "end": 26,
+            "target": {
+              "name": "Weapon Attack",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 377,
+              "local": {
+                "entry": "compendium-f8978a5da2977fc5a556ab9c",
+                "version": "XPHB:377:https://5e.tools/variantrules.html#weapon%20attack_xphb"
+              }
+            }
+          }
+        ],
+        "Bite · +8 to hit · reach 20 ft. · One target takes 15 (3d6 + 5) piercing damage on a hit and is grappled on a failed save (escape DC 16). The wakewyrm can grapple only one creature. While holding that creature it cannot bite another. · DC 16 Strength · 3d6 + 5 piercing": [
+          {
+            "start": 96,
+            "end": 104,
+            "target": {
+              "name": "Grappled",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+              "local": {
+                "entry": "compendium-e9c29509e4a14efaf316630f",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#grappled_phb"
+              }
+            }
+          }
+        ],
+        "Swallow · The wakewyrm bites a Large or smaller creature it is grappling. On a hit the creature is swallowed and the grapple ends. The swallowed creature is blinded, restrained, and has total cover from outside effects. It takes 11 (3d6) acid damage at the start of each wakewyrm turn. If the wakewyrm takes at least 18 damage from a creature inside, it saves at the end of that turn or expels all swallowed creatures prone within 10 ft. When it dies, swallowed creatures are freed from restraint and can escape by spending 20 ft. of movement. · DC 15 Constitution · 3d6 acid": [
+          {
+            "start": 157,
+            "end": 164,
+            "target": {
+              "name": "Blinded",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "You cannot see. Your attacks have disadvantage, and attacks against you have advantage.",
+              "local": {
+                "entry": "compendium-f2fb8e3ec2661265562faf3f",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#blinded_phb"
+              }
+            }
+          },
+          {
+            "start": 166,
+            "end": 176,
+            "target": {
+              "name": "Restrained",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "Your speed is 0. Your attacks and Dexterity saves have disadvantage, and attacks against you have advantage.",
+              "local": {
+                "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#restrained_phb"
+              }
+            }
+          },
+          {
+            "start": 418,
+            "end": 423,
+            "target": {
+              "name": "Prone",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+              "local": {
+                "entry": "compendium-6bb47020835c218b46b7d85a",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [
+      {
+        "key": "b19b19a360caac61465984d1",
+        "publication": "Humblewood Campaign Setting",
+        "edition": "2014 fifth edition compatible",
+        "source": "https://www.dndbeyond.com/monsters/4237056-wakewyrm",
+        "artwork": "https://www.dndbeyond.com/avatars/thumbnails/39918/816/1000/1000/638433706597056035.jpeg",
+        "images": [
+          {
+            "url": "",
+            "credit": "D&D Beyond publisher art · Humblewood Campaign Setting"
+          }
+        ],
+        "stats": [
+          [
+            "Challenge",
+            "6"
+          ],
+          [
+            "Type",
+            "Beast"
+          ]
+        ],
+        "sections": []
+      },
+      {
+        "key": "041f233b1ed30f3dc9ae2edd",
+        "publication": "Humblewood Tales",
+        "edition": "2014 fifth edition compatible",
+        "source": "https://www.dndbeyond.com/monsters/4237056-wakewyrm",
+        "artwork": "https://www.dndbeyond.com/avatars/thumbnails/39918/816/1000/1000/638433706597056035.jpeg",
+        "images": [
+          {
+            "url": "",
+            "credit": "D&D Beyond publisher art · Humblewood Tales"
+          }
+        ],
+        "stats": [
+          [
+            "Challenge",
+            "6"
+          ],
+          [
+            "Type",
+            "Beast"
+          ]
+        ],
+        "sections": []
+      }
+    ],
+    "queries": {
+      "Wakewyrm": true,
+      "talongrip coast": true
+    },
+    "hash": "509e63f8dd3a4b805f2bffabbd37e97342820abd33ac36010eef08b267aeb20d",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [
+      {
+        "url": "",
+        "credit": "D&D Beyond publisher art · Humblewood Tales"
+      }
+    ]
+  },
+  {
+    "name": "Hunter Shark",
+    "version": {
+      "key": "3f2771c0f3f7ad7aca31205b",
+      "publication": "Humblewood: The Wakewyrm's Fury",
+      "edition": "2014 fifth edition compatible",
+      "source": "",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "12"
+        ],
+        [
+          "Hit points",
+          "45"
+        ],
+        [
+          "Hit dice",
+          "6d10 + 12"
+        ],
+        [
+          "Challenge",
+          "2"
+        ],
+        [
+          "Size",
+          "Large"
+        ],
+        [
+          "Type",
+          "Beast"
+        ],
+        [
+          "Speed",
+          "walk 0 ft., swim 40 ft."
+        ],
+        [
+          "Passive Perception",
+          "12"
+        ],
+        [
+          "Armor class notes",
+          "Natural armor"
+        ],
+        [
+          "XP",
+          "450"
+        ],
+        [
+          "Str",
+          "18"
+        ],
+        [
+          "Dex",
+          "13"
+        ],
+        [
+          "Con",
+          "15"
+        ],
+        [
+          "Int",
+          "1"
+        ],
+        [
+          "Wis",
+          "10"
+        ],
+        [
+          "Cha",
+          "4"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Talongrip Coast",
+            "Coastal waters"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A large gray hunting shark with a pale belly and an exposed row of teeth."
+          ]
+        },
+        {
+          "title": "Senses",
+          "lines": [
+            "Blindsight 30 ft."
+          ]
+        },
+        {
+          "title": "Skills",
+          "lines": [
+            "Perception +2"
+          ]
+        },
+        {
+          "title": "Attacks",
+          "lines": [
+            "Bite · Melee Weapon Attack · +6 to hit · reach 5 ft. · 2d8 + 4 piercing"
+          ]
+        },
+        {
+          "title": "Traits mechanics",
+          "lines": [
+            "Blood Frenzy · The shark has advantage on melee attack rolls against a creature below its hit-point maximum.",
+            "Water Breathing · The shark can breathe only underwater."
+          ]
+        },
+        {
+          "title": "Actions mechanics",
+          "lines": [
+            "Bite · +6 to hit · reach 5 ft. · One target takes 13 (2d8 + 4) piercing damage on a hit. · 2d8 + 4 piercing"
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "The adventure uses three hunter sharks near the cave mouth at high tide. See adventure booklet p. 5.",
+            "Hit Point Press, The Wakewyrm's Fury, Reference Cards, p. 5."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Size": [
+          {
+            "start": 0,
+            "end": 4,
+            "target": {
+              "name": "Size",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+              }
+            }
+          }
+        ],
+        "Speed": [
+          {
+            "start": 0,
+            "end": 5,
+            "target": {
+              "name": "Speed",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-264de61edc1e2fe941187374",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+              }
+            }
+          }
+        ],
+        "Passive Perception": [
+          {
+            "start": 0,
+            "end": 18,
+            "target": {
+              "name": "Passive Perception",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 372,
+              "local": {
+                "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+              }
+            }
+          }
+        ],
+        "Blindsight 30 ft.": [
+          {
+            "start": 0,
+            "end": 10,
+            "target": {
+              "name": "Blindsight",
+              "group": "Senses",
+              "publication": "Player's Handbook (2014)",
+              "page": 183,
+              "local": {
+                "entry": "compendium-07dd97e41872842acf1183db",
+                "version": "PHB:183:https://5e.tools/senses.html#blindsight_phb"
+              }
+            }
+          }
+        ],
+        "Perception +2": [
+          {
+            "start": 0,
+            "end": 10,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          }
+        ],
+        "Bite · Melee Weapon Attack · +6 to hit · reach 5 ft. · 2d8 + 4 piercing": [
+          {
+            "start": 13,
+            "end": 26,
+            "target": {
+              "name": "Weapon Attack",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 377,
+              "local": {
+                "entry": "compendium-f8978a5da2977fc5a556ab9c",
+                "version": "XPHB:377:https://5e.tools/variantrules.html#weapon%20attack_xphb"
+              }
+            }
+          }
+        ],
+        "Blood Frenzy · The shark has advantage on melee attack rolls against a creature below its hit-point maximum.": [
+          {
+            "start": 29,
+            "end": 38,
+            "target": {
+              "name": "Advantage",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2014)",
+              "page": 173,
+              "description": "Roll two d20s and use the higher roll.",
+              "local": {
+                "entry": "compendium-694118169b5a4aef2291ff71",
+                "version": "PHB:173:https://5e.tools/book.html#PHB"
+              }
+            }
+          }
+        ],
+        "Water Breathing · The shark can breathe only underwater.": [
+          {
+            "start": 0,
+            "end": 15,
+            "target": {
+              "name": "Water Breathing",
+              "group": "Spells",
+              "publication": "Player's Handbook (2014)",
+              "page": 287,
+              "description": "A level 3 transmutation spell.",
+              "local": {
+                "entry": "compendium-6eb6ba1a9bd17b17564f4424",
+                "version": "PHB:287:https://5e.tools/spells.html#water%20breathing_phb"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [
+      {
+        "key": "e4404c0f63261ebcb4271e31",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "status": "Combat summary",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "12"
+          ],
+          [
+            "Hit points",
+            "45"
+          ],
+          [
+            "Hit dice",
+            "6d10 + 12"
+          ],
+          [
+            "Challenge",
+            "2"
+          ],
+          [
+            "Size",
+            "Large"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 0 ft., swim 40 ft."
+          ],
+          [
+            "Str",
+            "18"
+          ],
+          [
+            "Dex",
+            "13"
+          ],
+          [
+            "Con",
+            "15"
+          ],
+          [
+            "Int",
+            "1"
+          ],
+          [
+            "Wis",
+            "10"
+          ],
+          [
+            "Cha",
+            "4"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +6 to hit · reach 5 ft. · 2d8 + 4 piercing"
+            ]
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "ac41e8f6fb0c4a81fd91a44b",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "edition": "Black Flag Roleplaying",
+        "images": [],
+        "stats": [
+          [
+            "Challenge",
+            "2"
+          ],
+          [
+            "Type",
+            "Beast"
+          ]
+        ],
+        "sections": []
+      },
+      {
+        "key": "bbeb7bb56e5b70bb9132e7eb",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "description": "A Large beast with challenge rating 2. Listed habitats: underwater. Named abilities include Blood Frenzy, Water Breathing, Bite.",
+        "source": "https://5e.tools/bestiary.html#hunter%20shark_mm",
+        "status": "Encounter reference",
+        "images": [
+          {
+            "url": "",
+            "credit": "Monster Manual (2014)"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "12"
+          ],
+          [
+            "Hit points",
+            "45"
+          ],
+          [
+            "Hit dice",
+            "6d10 + 12"
+          ],
+          [
+            "Challenge",
+            "2"
+          ],
+          [
+            "Size",
+            "Large"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 0 ft., swim 40 ft."
+          ],
+          [
+            "Passive Perception",
+            "12"
+          ],
+          [
+            "Initiative",
+            "1"
+          ],
+          [
+            "Strength",
+            "18"
+          ],
+          [
+            "Dexterity",
+            "13"
+          ],
+          [
+            "Constitution",
+            "15"
+          ],
+          [
+            "Intelligence",
+            "1"
+          ],
+          [
+            "Wisdom",
+            "10"
+          ],
+          [
+            "Charisma",
+            "4"
+          ],
+          [
+            "Alignment",
+            "unaligned"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +6 to hit · reach 5 ft. · 2d8 + 4 piercing"
+            ]
+          },
+          {
+            "title": "Skills",
+            "lines": [
+              "Perception +2"
+            ]
+          },
+          {
+            "title": "Senses",
+            "lines": [
+              "blindsight 30 ft."
+            ]
+          },
+          {
+            "title": "Habitats",
+            "lines": [
+              "underwater"
+            ]
+          },
+          {
+            "title": "Traits reference",
+            "lines": [
+              "Blood Frenzy",
+              "Water Breathing"
+            ]
+          },
+          {
+            "title": "Actions reference",
+            "lines": [
+              "Bite · Melee attack · +6 to hit · 2d8 + 4 piercing damage · reach 5 ft."
+            ]
+          }
+        ],
+        "sourceCode": "MM",
+        "page": 330,
+        "references": [
+          {
+            "label": "Monster Manual (2014), p. 330",
+            "url": "https://5e.tools/bestiary.html#hunter%20shark_mm"
+          }
+        ],
+        "inline": {
+          "A Large beast with challenge rating 2. Listed habitats: underwater. Named abilities include Blood Frenzy, Water Breathing, Bite.": [
+            {
+              "start": 106,
+              "end": 121,
+              "target": {
+                "name": "Water Breathing",
+                "group": "Spells",
+                "publication": "Player's Handbook (2014)",
+                "page": 287,
+                "description": "A level 3 transmutation spell.",
+                "local": {
+                  "entry": "compendium-6eb6ba1a9bd17b17564f4424",
+                  "version": "PHB:287:https://5e.tools/spells.html#water%20breathing_phb"
+                }
+              }
+            }
+          ],
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Passive Perception": [
+            {
+              "start": 0,
+              "end": 18,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Initiative": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Initiative",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 369,
+                "local": {
+                  "entry": "compendium-f7647d543d6e04bd0782c504",
+                  "version": "XPHB:369:https://5e.tools/variantrules.html#initiative_xphb"
+                }
+              }
+            }
+          ],
+          "Alignment": [
+            {
+              "start": 0,
+              "end": 9,
+              "target": {
+                "name": "Alignment",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                }
+              }
+            }
+          ],
+          "Perception +2": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            }
+          ],
+          "blindsight 30 ft.": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Blindsight",
+                "group": "Senses",
+                "publication": "Player's Handbook (2014)",
+                "page": 183,
+                "local": {
+                  "entry": "compendium-07dd97e41872842acf1183db",
+                  "version": "PHB:183:https://5e.tools/senses.html#blindsight_phb"
+                }
+              }
+            }
+          ],
+          "Water Breathing": [
+            {
+              "start": 0,
+              "end": 15,
+              "target": {
+                "name": "Water Breathing",
+                "group": "Spells",
+                "publication": "Player's Handbook (2014)",
+                "page": 287,
+                "description": "A level 3 transmutation spell.",
+                "local": {
+                  "entry": "compendium-6eb6ba1a9bd17b17564f4424",
+                  "version": "PHB:287:https://5e.tools/spells.html#water%20breathing_phb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "e98bbbb88a0105656bf4654d",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "description": "A Large beast with challenge rating 2. Listed habitats: underwater. Named abilities include Water Breathing, Bite.",
+        "source": "https://5e.tools/bestiary.html#hunter%20shark_xmm",
+        "artwork": "https://www.dndbeyond.com/avatars/thumbnails/47138/994/1000/1000/638741964298832424.png",
+        "status": "Encounter reference",
+        "images": [
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "12"
+          ],
+          [
+            "Hit points",
+            "45"
+          ],
+          [
+            "Hit dice",
+            "6d10 + 12"
+          ],
+          [
+            "Challenge",
+            "2"
+          ],
+          [
+            "Size",
+            "Large"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 5 ft., swim 40 ft."
+          ],
+          [
+            "Passive Perception",
+            "12"
+          ],
+          [
+            "Strength",
+            "18"
+          ],
+          [
+            "Dexterity",
+            "14"
+          ],
+          [
+            "Constitution",
+            "15"
+          ],
+          [
+            "Intelligence",
+            "1"
+          ],
+          [
+            "Wisdom",
+            "10"
+          ],
+          [
+            "Charisma",
+            "4"
+          ],
+          [
+            "Alignment",
+            "unaligned"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Habitats",
+            "lines": [
+              "underwater"
+            ]
+          },
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +6 to hit · reach 5 ft. · 3d6 + 4 piercing"
+            ]
+          },
+          {
+            "title": "Skills",
+            "lines": [
+              "Perception +2"
+            ]
+          },
+          {
+            "title": "Senses",
+            "lines": [
+              "Blindsight 60 ft."
+            ]
+          },
+          {
+            "title": "Traits reference",
+            "lines": [
+              "Water Breathing"
+            ]
+          },
+          {
+            "title": "Actions reference",
+            "lines": [
+              "Bite · Melee attack · +6 to hit · 3d6 + 4 piercing damage · reach 5 ft. · Advantage · Hit Points"
+            ]
+          },
+          {
+            "title": "Lore topics in the source",
+            "lines": [
+              "Animals"
+            ]
+          }
+        ],
+        "sourceCode": "XMM",
+        "references": [
+          {
+            "label": "Monster Manual (2025), p. 363",
+            "url": "https://5e.tools/bestiary.html#hunter%20shark_xmm"
+          },
+          {
+            "label": "Advantage (rule)",
+            "url": "https://5e.tools/variantrules.html#advantage_xphb",
+            "local": {
+              "entry": "compendium-694118169b5a4aef2291ff71",
+              "version": "XPHB:360:https://5e.tools/variantrules.html#advantage_xphb"
+            },
+            "preview": {
+              "name": "Advantage",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 360,
+              "local": {
+                "entry": "compendium-694118169b5a4aef2291ff71",
+                "version": "XPHB:360:https://5e.tools/variantrules.html#advantage_xphb"
+              }
+            }
+          },
+          {
+            "label": "Hit Points (rule)",
+            "url": "https://5e.tools/variantrules.html#hit%20points_xphb",
+            "local": {
+              "entry": "compendium-5d00c0625087810d93d13966",
+              "version": "XPHB:368:https://5e.tools/variantrules.html#hit%20points_xphb"
+            },
+            "preview": {
+              "name": "Hit Points",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 368,
+              "local": {
+                "entry": "compendium-5d00c0625087810d93d13966",
+                "version": "XPHB:368:https://5e.tools/variantrules.html#hit%20points_xphb"
+              }
+            }
+          },
+          {
+            "label": "Panther (creature)",
+            "url": "https://5e.tools/bestiary.html#panther_xmm",
+            "local": {
+              "entry": "beast-346793476af7c0a55cfa62ab",
+              "version": "b2bb83792ec748263d8b7b46"
+            },
+            "preview": {
+              "name": "Panther",
+              "group": "Beast",
+              "publication": "Monster Manual (2024)",
+              "description": "A Medium beast with challenge rating 1/4. Listed habitats: forest, grassland, hill. Named abilities include Rend, Nimble Escape.",
+              "local": {
+                "entry": "beast-346793476af7c0a55cfa62ab",
+                "version": "b2bb83792ec748263d8b7b46"
+              }
+            }
+          },
+          {
+            "label": "Giant Goat (creature)",
+            "url": "https://5e.tools/bestiary.html#giant%20goat_xmm",
+            "local": {
+              "entry": "beast-6f3ba88f8055270588c02a34",
+              "version": "426fa41934a075969d8d0faf"
+            },
+            "preview": {
+              "name": "Giant Goat",
+              "group": "Beast",
+              "publication": "Monster Manual (2024)",
+              "description": "A Large beast with challenge rating 1/2. Listed habitats: grassland, hill, mountain. Named abilities include Ram.",
+              "local": {
+                "entry": "beast-6f3ba88f8055270588c02a34",
+                "version": "426fa41934a075969d8d0faf"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "A Large beast with challenge rating 2. Listed habitats: underwater. Named abilities include Water Breathing, Bite.": [
+            {
+              "start": 92,
+              "end": 107,
+              "target": {
+                "name": "Water Breathing",
+                "group": "Spells",
+                "publication": "Player's Handbook (2024)",
+                "page": 340,
+                "description": "A level 3 transmutation spell.",
+                "local": {
+                  "entry": "compendium-6eb6ba1a9bd17b17564f4424",
+                  "version": "XPHB:340:https://5e.tools/spells.html#water%20breathing_xphb"
+                }
+              }
+            }
+          ],
+          "Hit points": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Hit Points",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 368,
+                "local": {
+                  "entry": "compendium-5d00c0625087810d93d13966",
+                  "version": "XPHB:368:https://5e.tools/variantrules.html#hit%20points_xphb"
+                }
+              }
+            }
+          ],
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Passive Perception": [
+            {
+              "start": 0,
+              "end": 18,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Alignment": [
+            {
+              "start": 0,
+              "end": 9,
+              "target": {
+                "name": "Alignment",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                }
+              }
+            }
+          ],
+          "Perception +2": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2024)",
+                "page": 14,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "XPHB:14:https://5e.tools/skills.html#perception_xphb"
+                }
+              }
+            }
+          ],
+          "Blindsight 60 ft.": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Blindsight",
+                "group": "Senses",
+                "publication": "Player's Handbook (2024)",
+                "page": 361,
+                "local": {
+                  "entry": "compendium-07dd97e41872842acf1183db",
+                  "version": "XPHB:361:https://5e.tools/senses.html#blindsight_xphb"
+                }
+              }
+            }
+          ],
+          "Water Breathing": [
+            {
+              "start": 0,
+              "end": 15,
+              "target": {
+                "name": "Water Breathing",
+                "group": "Spells",
+                "publication": "Player's Handbook (2024)",
+                "page": 340,
+                "description": "A level 3 transmutation spell.",
+                "local": {
+                  "entry": "compendium-6eb6ba1a9bd17b17564f4424",
+                  "version": "XPHB:340:https://5e.tools/spells.html#water%20breathing_xphb"
+                }
+              }
+            }
+          ],
+          "Bite · Melee attack · +6 to hit · 3d6 + 4 piercing damage · reach 5 ft. · Advantage · Hit Points": [
+            {
+              "start": 74,
+              "end": 83,
+              "target": {
+                "name": "Advantage",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-694118169b5a4aef2291ff71",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#advantage_xphb"
+                }
+              }
+            },
+            {
+              "start": 86,
+              "end": 96,
+              "target": {
+                "name": "Hit Points",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 368,
+                "local": {
+                  "entry": "compendium-5d00c0625087810d93d13966",
+                  "version": "XPHB:368:https://5e.tools/variantrules.html#hit%20points_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "ca656e60267d7efe00f5d51d",
+        "publication": "SRD 5.1",
+        "edition": "2014 fifth edition",
+        "status": "Stat block",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "12"
+          ],
+          [
+            "Hit points",
+            "45"
+          ],
+          [
+            "Hit dice",
+            "6d10 + 12"
+          ],
+          [
+            "Challenge",
+            "2"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "0 ft., swim 40 ft."
+          ],
+          [
+            "XP",
+            "450"
+          ],
+          [
+            "Str",
+            "18"
+          ],
+          [
+            "Dex",
+            "13"
+          ],
+          [
+            "Con",
+            "15"
+          ],
+          [
+            "Int",
+            "1"
+          ],
+          [
+            "Wis",
+            "10"
+          ],
+          [
+            "Cha",
+            "4"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Classification",
+            "lines": [
+              "Large beast, unaligned"
+            ]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Skills Perception +2 Senses blindsight 30 ft., passive Perception 12 Languages —"
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Blood Frenzy. The shark has advantage on melee attack rolls against any creature that doesn’t have all its hit points. Water Breathing. The shark can breathe only underwater."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Bite. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) piercing damage. Smaller than a giant shark but larger and fiercer than a reef shark, a hunter shark haunts deep waters. It usually hunts alone, but multiple hunter sharks might feed in the same area. A fully grown hunter shark is 15 to 20 feet long."
+            ]
+          }
+        ],
+        "inline": {
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Skills Perception +2 Senses blindsight 30 ft., passive Perception 12 Languages —": [
+            {
+              "start": 7,
+              "end": 17,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            },
+            {
+              "start": 28,
+              "end": 38,
+              "target": {
+                "name": "Blindsight",
+                "group": "Senses",
+                "publication": "Player's Handbook (2014)",
+                "page": 183,
+                "local": {
+                  "entry": "compendium-07dd97e41872842acf1183db",
+                  "version": "PHB:183:https://5e.tools/senses.html#blindsight_phb"
+                }
+              }
+            },
+            {
+              "start": 55,
+              "end": 65,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            }
+          ],
+          "Blood Frenzy. The shark has advantage on melee attack rolls against any creature that doesn’t have all its hit points. Water Breathing. The shark can breathe only underwater.": [
+            {
+              "start": 28,
+              "end": 37,
+              "target": {
+                "name": "Advantage",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2014)",
+                "page": 173,
+                "description": "Roll two d20s and use the higher roll.",
+                "local": {
+                  "entry": "compendium-694118169b5a4aef2291ff71",
+                  "version": "PHB:173:https://5e.tools/book.html#PHB"
+                }
+              }
+            },
+            {
+              "start": 119,
+              "end": 134,
+              "target": {
+                "name": "Water Breathing",
+                "group": "Spells",
+                "publication": "Player's Handbook (2014)",
+                "page": 287,
+                "description": "A level 3 transmutation spell.",
+                "local": {
+                  "entry": "compendium-6eb6ba1a9bd17b17564f4424",
+                  "version": "PHB:287:https://5e.tools/spells.html#water%20breathing_phb"
+                }
+              }
+            }
+          ],
+          "Bite. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) piercing damage. Smaller than a giant shark but larger and fiercer than a reef shark, a hunter shark haunts deep waters. It usually hunts alone, but multiple hunter sharks might feed in the same area. A fully grown hunter shark is 15 to 20 feet long.": [
+            {
+              "start": 12,
+              "end": 25,
+              "target": {
+                "name": "Weapon Attack",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 377,
+                "local": {
+                  "entry": "compendium-f8978a5da2977fc5a556ab9c",
+                  "version": "XPHB:377:https://5e.tools/variantrules.html#weapon%20attack_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "068ab19c5bb29fd0497a9768",
+        "publication": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Stat block",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "12"
+          ],
+          [
+            "Hit points",
+            "45"
+          ],
+          [
+            "Hit dice",
+            "6d10 + 12"
+          ],
+          [
+            "Challenge",
+            "2"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "5 ft., Swim 40 ft."
+          ],
+          [
+            "XP",
+            "450"
+          ],
+          [
+            "Str",
+            "18"
+          ],
+          [
+            "Dex",
+            "14"
+          ],
+          [
+            "Con",
+            "15"
+          ],
+          [
+            "Int",
+            "1"
+          ],
+          [
+            "Wis",
+            "10"
+          ],
+          [
+            "Cha",
+            "4"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Classification",
+            "lines": [
+              "Large Beast, Unaligned"
+            ]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Skills Perception +2 Senses Blindsight 60 ft.; Passive Perception 12 Languages None"
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Water Breathing. The shark can breathe only underwater."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Bite. Melee Attack Roll: +6 (with Advantage if the target doesn’t have all its Hit Points), reach 5 ft. Hit: 14 (3d6 + 4) Piercing damage."
+            ]
+          }
+        ],
+        "inline": {
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Skills Perception +2 Senses Blindsight 60 ft.; Passive Perception 12 Languages None": [
+            {
+              "start": 7,
+              "end": 17,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2024)",
+                "page": 14,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "XPHB:14:https://5e.tools/skills.html#perception_xphb"
+                }
+              }
+            },
+            {
+              "start": 28,
+              "end": 38,
+              "target": {
+                "name": "Blindsight",
+                "group": "Senses",
+                "publication": "Player's Handbook (2024)",
+                "page": 361,
+                "local": {
+                  "entry": "compendium-07dd97e41872842acf1183db",
+                  "version": "XPHB:361:https://5e.tools/senses.html#blindsight_xphb"
+                }
+              }
+            },
+            {
+              "start": 47,
+              "end": 65,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Water Breathing. The shark can breathe only underwater.": [
+            {
+              "start": 0,
+              "end": 15,
+              "target": {
+                "name": "Water Breathing",
+                "group": "Spells",
+                "publication": "Player's Handbook (2024)",
+                "page": 340,
+                "description": "A level 3 transmutation spell.",
+                "local": {
+                  "entry": "compendium-6eb6ba1a9bd17b17564f4424",
+                  "version": "XPHB:340:https://5e.tools/spells.html#water%20breathing_xphb"
+                }
+              }
+            }
+          ],
+          "Bite. Melee Attack Roll: +6 (with Advantage if the target doesn’t have all its Hit Points), reach 5 ft. Hit: 14 (3d6 + 4) Piercing damage.": [
+            {
+              "start": 12,
+              "end": 23,
+              "target": {
+                "name": "Attack Roll",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 361,
+                "local": {
+                  "entry": "compendium-2570a567c24ef3f4b5e35b50",
+                  "version": "XPHB:361:https://5e.tools/variantrules.html#attack%20roll_xphb"
+                }
+              }
+            },
+            {
+              "start": 34,
+              "end": 43,
+              "target": {
+                "name": "Advantage",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-694118169b5a4aef2291ff71",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#advantage_xphb"
+                }
+              }
+            },
+            {
+              "start": 79,
+              "end": 89,
+              "target": {
+                "name": "Hit Points",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 368,
+                "local": {
+                  "entry": "compendium-5d00c0625087810d93d13966",
+                  "version": "XPHB:368:https://5e.tools/variantrules.html#hit%20points_xphb"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "queries": {
+      "Hunter Shark": true,
+      "blood frenzy coastal waters": true
+    },
+    "hash": "802eb1f7d0780cfdae404f354e0dbc36283458b6260c77027b4eb6e167a26179",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [
+      {
+        "url": "",
+        "credit": "Monster Manual (2014)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      }
+    ]
+  },
+  {
+    "name": "Boar",
+    "version": {
+      "key": "4dd6f0b84c593b3fb20788ed",
+      "publication": "Humblewood: The Wakewyrm's Fury",
+      "edition": "2014 fifth edition compatible",
+      "source": "",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "11"
+        ],
+        [
+          "Hit points",
+          "11"
+        ],
+        [
+          "Hit dice",
+          "2d8 + 2"
+        ],
+        [
+          "Challenge",
+          "1/4"
+        ],
+        [
+          "Size",
+          "Medium"
+        ],
+        [
+          "Type",
+          "Beast"
+        ],
+        [
+          "Speed",
+          "walk 40 ft."
+        ],
+        [
+          "Passive Perception",
+          "9"
+        ],
+        [
+          "Armor class notes",
+          "Natural armor"
+        ],
+        [
+          "XP",
+          "50"
+        ],
+        [
+          "Str",
+          "13"
+        ],
+        [
+          "Dex",
+          "11"
+        ],
+        [
+          "Con",
+          "12"
+        ],
+        [
+          "Int",
+          "2"
+        ],
+        [
+          "Wis",
+          "9"
+        ],
+        [
+          "Cha",
+          "5"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Appearance",
+          "lines": [
+            "A bristly wild pig with a high shoulder line and upturned tusks."
+          ]
+        },
+        {
+          "title": "Skills",
+          "lines": [
+            "Perception +2"
+          ]
+        },
+        {
+          "title": "Attacks",
+          "lines": [
+            "Tusk · Melee Weapon Attack · +3 to hit · reach 5 ft. · 1d6 + 1 slashing"
+          ]
+        },
+        {
+          "title": "Traits mechanics",
+          "lines": [
+            "Charge · If the boar moves 20 ft. or more straight toward a target before hitting it with Tusk on the same turn, it deals an extra 3 (1d6) slashing damage. A creature hit also falls prone on a failed save. · DC 11 Strength · 1d6 slashing",
+            "Relentless · Recharges after a short or long rest · If taking 7 damage or less would reduce the boar to 0 HP, it drops to 1 HP instead."
+          ]
+        },
+        {
+          "title": "Actions mechanics",
+          "lines": [
+            "Tusk · +3 to hit · reach 5 ft. · One target takes 4 (1d6 + 1) slashing damage on a hit. · 1d6 + 1 slashing"
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "Printed as a Wild Shape option for the pregenerated druid. The card lists Perception +2 and passive Perception 9.",
+            "Hit Point Press, The Wakewyrm's Fury, Reference Cards, p. 6."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Size": [
+          {
+            "start": 0,
+            "end": 4,
+            "target": {
+              "name": "Size",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+              }
+            }
+          }
+        ],
+        "Speed": [
+          {
+            "start": 0,
+            "end": 5,
+            "target": {
+              "name": "Speed",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-264de61edc1e2fe941187374",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+              }
+            }
+          }
+        ],
+        "Passive Perception": [
+          {
+            "start": 0,
+            "end": 18,
+            "target": {
+              "name": "Passive Perception",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 372,
+              "local": {
+                "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+              }
+            }
+          }
+        ],
+        "Perception +2": [
+          {
+            "start": 0,
+            "end": 10,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          }
+        ],
+        "Tusk · Melee Weapon Attack · +3 to hit · reach 5 ft. · 1d6 + 1 slashing": [
+          {
+            "start": 13,
+            "end": 26,
+            "target": {
+              "name": "Weapon Attack",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 377,
+              "local": {
+                "entry": "compendium-f8978a5da2977fc5a556ab9c",
+                "version": "XPHB:377:https://5e.tools/variantrules.html#weapon%20attack_xphb"
+              }
+            }
+          }
+        ],
+        "Charge · If the boar moves 20 ft. or more straight toward a target before hitting it with Tusk on the same turn, it deals an extra 3 (1d6) slashing damage. A creature hit also falls prone on a failed save. · DC 11 Strength · 1d6 slashing": [
+          {
+            "start": 182,
+            "end": 187,
+            "target": {
+              "name": "Prone",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+              "local": {
+                "entry": "compendium-6bb47020835c218b46b7d85a",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+              }
+            }
+          }
+        ],
+        "Printed as a Wild Shape option for the pregenerated druid. The card lists Perception +2 and passive Perception 9.": [
+          {
+            "start": 74,
+            "end": 84,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          },
+          {
+            "start": 100,
+            "end": 110,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [
+      {
+        "key": "b171a6a8e3f57163515714eb",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "status": "Combat summary",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "11"
+          ],
+          [
+            "Hit points",
+            "11"
+          ],
+          [
+            "Hit dice",
+            "2d8 + 2"
+          ],
+          [
+            "Challenge",
+            "1/4"
+          ],
+          [
+            "Size",
+            "Medium"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 40 ft."
+          ],
+          [
+            "Str",
+            "13"
+          ],
+          [
+            "Dex",
+            "11"
+          ],
+          [
+            "Con",
+            "12"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "9"
+          ],
+          [
+            "Cha",
+            "5"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Tusk · melee · +3 to hit · reach 5 ft. · 1d6 + 1 slashing"
+            ]
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "9e89b1d337fc581483a721f3",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "edition": "Black Flag Roleplaying",
+        "status": "Combat summary",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "11"
+          ],
+          [
+            "Hit points",
+            "15"
+          ],
+          [
+            "Challenge",
+            "1/4"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "0 4 ft., 1 0 ft., 2   ft., 3 f ft., 4 t ft., 5 . ft."
+          ]
+        ],
+        "sections": [],
+        "inline": {
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "4c3222a3e9c8f630a3adfa8a",
+        "publication": "DDEX1-11 - Dark Pyramid of Sorcerer's Isle",
+        "edition": "2014 fifth edition",
+        "status": "Combat summary",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "11"
+          ],
+          [
+            "Hit points",
+            "11"
+          ],
+          [
+            "Hit dice",
+            "2d8 + 2"
+          ],
+          [
+            "Challenge",
+            "1/4"
+          ],
+          [
+            "Size",
+            "Medium"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 40 ft."
+          ],
+          [
+            "Str",
+            "13"
+          ],
+          [
+            "Dex",
+            "11"
+          ],
+          [
+            "Con",
+            "12"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "9"
+          ],
+          [
+            "Cha",
+            "5"
+          ]
+        ],
+        "sections": [],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "59d2401a95bb62a13bd87ee1",
+        "publication": "DDEX3-02 - Shackles of Blood",
+        "edition": "2014 fifth edition",
+        "status": "Combat summary",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "11"
+          ],
+          [
+            "Hit points",
+            "11"
+          ],
+          [
+            "Hit dice",
+            "2d8 + 2"
+          ],
+          [
+            "Challenge",
+            "1/4"
+          ],
+          [
+            "Size",
+            "Medium"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 40 ft."
+          ],
+          [
+            "Str",
+            "13"
+          ],
+          [
+            "Dex",
+            "11"
+          ],
+          [
+            "Con",
+            "12"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "9"
+          ],
+          [
+            "Cha",
+            "5"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Tusk · melee · +3 to hit · reach 5 ft. · 1d6 + 1 slashing"
+            ]
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "79823a43347acfdbc2df9230",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "description": "A Medium beast with challenge rating 1/4. Listed habitats: grassland, forest, hill. Named abilities include Charge, Relentless (Recharges after a Short or Long Rest), Tusk.",
+        "source": "https://5e.tools/bestiary.html#boar_mm",
+        "status": "Encounter reference",
+        "images": [
+          {
+            "url": "",
+            "credit": "Monster Manual (2014)"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "11"
+          ],
+          [
+            "Hit points",
+            "11"
+          ],
+          [
+            "Hit dice",
+            "2d8 + 2"
+          ],
+          [
+            "Challenge",
+            "1/4"
+          ],
+          [
+            "Size",
+            "Medium"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 40 ft."
+          ],
+          [
+            "Passive Perception",
+            "9"
+          ],
+          [
+            "Initiative",
+            "0"
+          ],
+          [
+            "Strength",
+            "13"
+          ],
+          [
+            "Dexterity",
+            "11"
+          ],
+          [
+            "Constitution",
+            "12"
+          ],
+          [
+            "Intelligence",
+            "2"
+          ],
+          [
+            "Wisdom",
+            "9"
+          ],
+          [
+            "Charisma",
+            "5"
+          ],
+          [
+            "Alignment",
+            "unaligned"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Tusk · melee · +3 to hit · reach 5 ft. · 1d6 + 1 slashing"
+            ]
+          },
+          {
+            "title": "Habitats",
+            "lines": [
+              "grassland, forest, hill"
+            ]
+          },
+          {
+            "title": "Traits reference",
+            "lines": [
+              "Charge · 1d6 slashing damage · DC 11 Strength save · Prone",
+              "Relentless (Recharges after a Short or Long Rest) · 0 hit points"
+            ]
+          },
+          {
+            "title": "Actions reference",
+            "lines": [
+              "Tusk · Melee attack · +3 to hit · 1d6 + 1 slashing damage · reach 5 ft."
+            ]
+          }
+        ],
+        "sourceCode": "MM",
+        "page": 319,
+        "references": [
+          {
+            "label": "Monster Manual (2014), p. 319",
+            "url": "https://5e.tools/bestiary.html#boar_mm"
+          },
+          {
+            "label": "Prone (condition)",
+            "url": "https://5e.tools/conditionsdiseases.html#prone_phb",
+            "local": {
+              "entry": "compendium-6bb47020835c218b46b7d85a",
+              "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+            },
+            "preview": {
+              "name": "Prone",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+              "local": {
+                "entry": "compendium-6bb47020835c218b46b7d85a",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "A Medium beast with challenge rating 1/4. Listed habitats: grassland, forest, hill. Named abilities include Charge, Relentless (Recharges after a Short or Long Rest), Tusk.": [
+            {
+              "start": 155,
+              "end": 164,
+              "target": {
+                "name": "Long Rest",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 370,
+                "local": {
+                  "entry": "compendium-98495753e138034822d956bb",
+                  "version": "XPHB:370:https://5e.tools/variantrules.html#long%20rest_xphb"
+                }
+              }
+            }
+          ],
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Passive Perception": [
+            {
+              "start": 0,
+              "end": 18,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Initiative": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Initiative",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 369,
+                "local": {
+                  "entry": "compendium-f7647d543d6e04bd0782c504",
+                  "version": "XPHB:369:https://5e.tools/variantrules.html#initiative_xphb"
+                }
+              }
+            }
+          ],
+          "Alignment": [
+            {
+              "start": 0,
+              "end": 9,
+              "target": {
+                "name": "Alignment",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                }
+              }
+            }
+          ],
+          "Charge · 1d6 slashing damage · DC 11 Strength save · Prone": [
+            {
+              "start": 53,
+              "end": 58,
+              "target": {
+                "name": "Prone",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 292,
+                "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+                "local": {
+                  "entry": "compendium-6bb47020835c218b46b7d85a",
+                  "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+                }
+              }
+            }
+          ],
+          "Relentless (Recharges after a Short or Long Rest) · 0 hit points": [
+            {
+              "start": 39,
+              "end": 48,
+              "target": {
+                "name": "Long Rest",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 370,
+                "local": {
+                  "entry": "compendium-98495753e138034822d956bb",
+                  "version": "XPHB:370:https://5e.tools/variantrules.html#long%20rest_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "3aec06a1035653603f25e0a8",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "description": "A Medium beast with challenge rating 1/4. Listed habitats: forest, grassland, hill. Named abilities include Bloodied Fury, Gore.",
+        "source": "https://5e.tools/bestiary.html#boar_xmm",
+        "artwork": "https://www.dndbeyond.com/avatars/thumbnails/58415/683/1000/1000/639226665175002998.jpeg",
+        "status": "Encounter reference",
+        "images": [
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "11"
+          ],
+          [
+            "Hit points",
+            "13"
+          ],
+          [
+            "Hit dice",
+            "2d8 + 4"
+          ],
+          [
+            "Challenge",
+            "1/4"
+          ],
+          [
+            "Size",
+            "Medium"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 40 ft."
+          ],
+          [
+            "Passive Perception",
+            "9"
+          ],
+          [
+            "Strength",
+            "13"
+          ],
+          [
+            "Dexterity",
+            "11"
+          ],
+          [
+            "Constitution",
+            "14"
+          ],
+          [
+            "Intelligence",
+            "2"
+          ],
+          [
+            "Wisdom",
+            "9"
+          ],
+          [
+            "Charisma",
+            "5"
+          ],
+          [
+            "Alignment",
+            "unaligned"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Habitats",
+            "lines": [
+              "forest",
+              "grassland",
+              "hill",
+              "forest, grassland, hill"
+            ]
+          },
+          {
+            "title": "Attacks",
+            "lines": [
+              "Gore · melee · +3 to hit · reach 5 ft. · 1d6 + 1 piercing"
+            ]
+          },
+          {
+            "title": "Traits reference",
+            "lines": [
+              "Bloodied Fury · Bloodied · Advantage"
+            ]
+          },
+          {
+            "title": "Actions reference",
+            "lines": [
+              "Gore · Melee attack · +3 to hit · 1d6 + 1 piercing damage · 1d6 piercing damage · reach 5 ft. · Prone"
+            ]
+          },
+          {
+            "title": "Lore topics in the source",
+            "lines": [
+              "Animals"
+            ]
+          }
+        ],
+        "sourceCode": "XMM",
+        "references": [
+          {
+            "label": "Monster Manual (2025), p. 350",
+            "url": "https://5e.tools/bestiary.html#boar_xmm"
+          },
+          {
+            "label": "Bloodied (status)",
+            "url": "https://5e.tools/conditionsdiseases.html#bloodied_xphb",
+            "local": {
+              "entry": "compendium-fe1c64f18a10212e4033588f",
+              "version": "XPHB:362:https://5e.tools/conditionsdiseases.html#bloodied_xphb"
+            },
+            "preview": {
+              "name": "Bloodied",
+              "group": "Statuses",
+              "publication": "Player's Handbook (2024)",
+              "page": 362,
+              "local": {
+                "entry": "compendium-fe1c64f18a10212e4033588f",
+                "version": "XPHB:362:https://5e.tools/conditionsdiseases.html#bloodied_xphb"
+              }
+            }
+          },
+          {
+            "label": "Advantage (rule)",
+            "url": "https://5e.tools/variantrules.html#advantage_xphb",
+            "local": {
+              "entry": "compendium-694118169b5a4aef2291ff71",
+              "version": "XPHB:360:https://5e.tools/variantrules.html#advantage_xphb"
+            },
+            "preview": {
+              "name": "Advantage",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 360,
+              "local": {
+                "entry": "compendium-694118169b5a4aef2291ff71",
+                "version": "XPHB:360:https://5e.tools/variantrules.html#advantage_xphb"
+              }
+            }
+          },
+          {
+            "label": "Prone (condition)",
+            "url": "https://5e.tools/conditionsdiseases.html#prone_xphb",
+            "local": {
+              "entry": "compendium-6bb47020835c218b46b7d85a",
+              "version": "XPHB:372:https://5e.tools/conditionsdiseases.html#prone_xphb"
+            },
+            "preview": {
+              "name": "Prone",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2024)",
+              "page": 372,
+              "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+              "local": {
+                "entry": "compendium-6bb47020835c218b46b7d85a",
+                "version": "XPHB:372:https://5e.tools/conditionsdiseases.html#prone_xphb"
+              }
+            }
+          },
+          {
+            "label": "Panther (creature)",
+            "url": "https://5e.tools/bestiary.html#panther_xmm",
+            "local": {
+              "entry": "beast-346793476af7c0a55cfa62ab",
+              "version": "b2bb83792ec748263d8b7b46"
+            },
+            "preview": {
+              "name": "Panther",
+              "group": "Beast",
+              "publication": "Monster Manual (2024)",
+              "description": "A Medium beast with challenge rating 1/4. Listed habitats: forest, grassland, hill. Named abilities include Rend, Nimble Escape.",
+              "local": {
+                "entry": "beast-346793476af7c0a55cfa62ab",
+                "version": "b2bb83792ec748263d8b7b46"
+              }
+            }
+          },
+          {
+            "label": "Giant Goat (creature)",
+            "url": "https://5e.tools/bestiary.html#giant%20goat_xmm",
+            "local": {
+              "entry": "beast-6f3ba88f8055270588c02a34",
+              "version": "426fa41934a075969d8d0faf"
+            },
+            "preview": {
+              "name": "Giant Goat",
+              "group": "Beast",
+              "publication": "Monster Manual (2024)",
+              "description": "A Large beast with challenge rating 1/2. Listed habitats: grassland, hill, mountain. Named abilities include Ram.",
+              "local": {
+                "entry": "beast-6f3ba88f8055270588c02a34",
+                "version": "426fa41934a075969d8d0faf"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "A Medium beast with challenge rating 1/4. Listed habitats: forest, grassland, hill. Named abilities include Bloodied Fury, Gore.": [
+            {
+              "start": 108,
+              "end": 116,
+              "target": {
+                "name": "Bloodied",
+                "group": "Statuses",
+                "publication": "Player's Handbook (2024)",
+                "page": 362,
+                "local": {
+                  "entry": "compendium-fe1c64f18a10212e4033588f",
+                  "version": "XPHB:362:https://5e.tools/conditionsdiseases.html#bloodied_xphb"
+                }
+              }
+            }
+          ],
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Passive Perception": [
+            {
+              "start": 0,
+              "end": 18,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Alignment": [
+            {
+              "start": 0,
+              "end": 9,
+              "target": {
+                "name": "Alignment",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                }
+              }
+            }
+          ],
+          "Bloodied Fury · Bloodied · Advantage": [
+            {
+              "start": 0,
+              "end": 8,
+              "target": {
+                "name": "Bloodied",
+                "group": "Statuses",
+                "publication": "Player's Handbook (2024)",
+                "page": 362,
+                "local": {
+                  "entry": "compendium-fe1c64f18a10212e4033588f",
+                  "version": "XPHB:362:https://5e.tools/conditionsdiseases.html#bloodied_xphb"
+                }
+              }
+            },
+            {
+              "start": 16,
+              "end": 24,
+              "target": {
+                "name": "Bloodied",
+                "group": "Statuses",
+                "publication": "Player's Handbook (2024)",
+                "page": 362,
+                "local": {
+                  "entry": "compendium-fe1c64f18a10212e4033588f",
+                  "version": "XPHB:362:https://5e.tools/conditionsdiseases.html#bloodied_xphb"
+                }
+              }
+            },
+            {
+              "start": 27,
+              "end": 36,
+              "target": {
+                "name": "Advantage",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-694118169b5a4aef2291ff71",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#advantage_xphb"
+                }
+              }
+            }
+          ],
+          "Gore · Melee attack · +3 to hit · 1d6 + 1 piercing damage · 1d6 piercing damage · reach 5 ft. · Prone": [
+            {
+              "start": 96,
+              "end": 101,
+              "target": {
+                "name": "Prone",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+                "local": {
+                  "entry": "compendium-6bb47020835c218b46b7d85a",
+                  "version": "XPHB:372:https://5e.tools/conditionsdiseases.html#prone_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "7fdbd4f023767648cbd658ff",
+        "publication": "Monster Vault",
+        "edition": "Black Flag Roleplaying",
+        "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "images": [],
+        "stats": [
+          [
+            "Challenge",
+            "0.3"
+          ],
+          [
+            "Type",
+            "Beast"
+          ]
+        ],
+        "sections": []
+      },
+      {
+        "key": "1041d45fe0b6738a2ae31220",
+        "publication": "Revised v3.5 SRD (Monsters)",
+        "edition": "3.5 edition",
+        "status": "Combat summary",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "16"
+          ],
+          [
+            "Hit points",
+            "25"
+          ],
+          [
+            "Hit dice",
+            "3d8+12"
+          ],
+          [
+            "Challenge",
+            "2"
+          ],
+          [
+            "Size",
+            "Medium"
+          ],
+          [
+            "Type",
+            "Animal"
+          ],
+          [
+            "Speed",
+            "0 4 ft., 1 0 ft., 2   ft., 3 f ft., 4 t ft., 5 . ft."
+          ],
+          [
+            "Initiative",
+            "0"
+          ],
+          [
+            "Touch armor class",
+            "10"
+          ],
+          [
+            "Flat-footed armor class",
+            "16"
+          ],
+          [
+            "Base attack bonus",
+            "2"
+          ],
+          [
+            "Grapple modifier",
+            "4"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Saving throws",
+            "lines": [
+              "Fort +6",
+              "Ref +3",
+              "Will +2"
+            ]
+          },
+          {
+            "title": "Attacks",
+            "lines": [
+              "Gore · melee · +4 to hit"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "093d9e602b10eddeafe6dc57",
+        "publication": "SRD 5.1",
+        "edition": "2014 fifth edition",
+        "status": "Stat block",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "11"
+          ],
+          [
+            "Hit points",
+            "11"
+          ],
+          [
+            "Hit dice",
+            "2d8 + 2"
+          ],
+          [
+            "Challenge",
+            "1/4"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "40 ft."
+          ],
+          [
+            "XP",
+            "50"
+          ],
+          [
+            "Str",
+            "13"
+          ],
+          [
+            "Dex",
+            "11"
+          ],
+          [
+            "Con",
+            "12"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "9"
+          ],
+          [
+            "Cha",
+            "5"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Classification",
+            "lines": [
+              "Medium beast, unaligned"
+            ]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Senses passive Perception 9 Languages —"
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Charge. If the boar moves at least 20 feet straight toward a target and then hits it with a tusk attack on the same turn, the target takes an extra 3 (1d6) slashing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone. Relentless (Recharges after a Short or Long Rest). If the boar takes 7 damage or less that would reduce it to 0 hit points, it is reduced to 1 hit point instead."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Tusk. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) slashing damage."
+            ]
+          }
+        ],
+        "inline": {
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Senses passive Perception 9 Languages —": [
+            {
+              "start": 15,
+              "end": 25,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            }
+          ],
+          "Charge. If the boar moves at least 20 feet straight toward a target and then hits it with a tusk attack on the same turn, the target takes an extra 3 (1d6) slashing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone. Relentless (Recharges after a Short or Long Rest). If the boar takes 7 damage or less that would reduce it to 0 hit points, it is reduced to 1 hit point instead.": [
+            {
+              "start": 238,
+              "end": 250,
+              "target": {
+                "name": "Saving Throw",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2014)",
+                "page": 179,
+                "description": "Roll a d20 and add the relevant ability modifier, plus proficiency if it applies. The effect sets the DC.",
+                "local": {
+                  "entry": "compendium-c71a1b1cfda70c19953fcff6",
+                  "version": "PHB:179:https://5e.tools/book.html#PHB"
+                }
+              }
+            },
+            {
+              "start": 265,
+              "end": 270,
+              "target": {
+                "name": "Prone",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 292,
+                "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+                "local": {
+                  "entry": "compendium-6bb47020835c218b46b7d85a",
+                  "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+                }
+              }
+            },
+            {
+              "start": 311,
+              "end": 320,
+              "target": {
+                "name": "Long Rest",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 370,
+                "local": {
+                  "entry": "compendium-98495753e138034822d956bb",
+                  "version": "XPHB:370:https://5e.tools/variantrules.html#long%20rest_xphb"
+                }
+              }
+            }
+          ],
+          "Tusk. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) slashing damage.": [
+            {
+              "start": 12,
+              "end": 25,
+              "target": {
+                "name": "Weapon Attack",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 377,
+                "local": {
+                  "entry": "compendium-f8978a5da2977fc5a556ab9c",
+                  "version": "XPHB:377:https://5e.tools/variantrules.html#weapon%20attack_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "65e49e5bae8148777ba8c167",
+        "publication": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Stat block",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "11"
+          ],
+          [
+            "Hit points",
+            "13"
+          ],
+          [
+            "Hit dice",
+            "2d8 + 4"
+          ],
+          [
+            "Challenge",
+            "1/4"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "40 ft."
+          ],
+          [
+            "XP",
+            "50"
+          ],
+          [
+            "Str",
+            "13"
+          ],
+          [
+            "Dex",
+            "11"
+          ],
+          [
+            "Con",
+            "14"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "9"
+          ],
+          [
+            "Cha",
+            "5"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Classification",
+            "lines": [
+              "Medium Beast, Unaligned"
+            ]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Senses Passive Perception 9 Languages None"
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Bloodied Fury. While Bloodied, the boar has Advantage on attack rolls."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Gore. Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Piercing damage. If the target is a Medium or smaller creature and the boar moved 20+ feet straight toward it immediately before the hit, the target takes an extra 3 (1d6) Piercing damage and has the Prone condition."
+            ]
+          }
+        ],
+        "inline": {
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Senses Passive Perception 9 Languages None": [
+            {
+              "start": 7,
+              "end": 25,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Bloodied Fury. While Bloodied, the boar has Advantage on attack rolls.": [
+            {
+              "start": 0,
+              "end": 8,
+              "target": {
+                "name": "Bloodied",
+                "group": "Statuses",
+                "publication": "Player's Handbook (2024)",
+                "page": 362,
+                "local": {
+                  "entry": "compendium-fe1c64f18a10212e4033588f",
+                  "version": "XPHB:362:https://5e.tools/conditionsdiseases.html#bloodied_xphb"
+                }
+              }
+            },
+            {
+              "start": 21,
+              "end": 29,
+              "target": {
+                "name": "Bloodied",
+                "group": "Statuses",
+                "publication": "Player's Handbook (2024)",
+                "page": 362,
+                "local": {
+                  "entry": "compendium-fe1c64f18a10212e4033588f",
+                  "version": "XPHB:362:https://5e.tools/conditionsdiseases.html#bloodied_xphb"
+                }
+              }
+            },
+            {
+              "start": 44,
+              "end": 53,
+              "target": {
+                "name": "Advantage",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-694118169b5a4aef2291ff71",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#advantage_xphb"
+                }
+              }
+            }
+          ],
+          "Gore. Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Piercing damage. If the target is a Medium or smaller creature and the boar moved 20+ feet straight toward it immediately before the hit, the target takes an extra 3 (1d6) Piercing damage and has the Prone condition.": [
+            {
+              "start": 12,
+              "end": 23,
+              "target": {
+                "name": "Attack Roll",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 361,
+                "local": {
+                  "entry": "compendium-2570a567c24ef3f4b5e35b50",
+                  "version": "XPHB:361:https://5e.tools/variantrules.html#attack%20roll_xphb"
+                }
+              }
+            },
+            {
+              "start": 258,
+              "end": 263,
+              "target": {
+                "name": "Prone",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+                "local": {
+                  "entry": "compendium-6bb47020835c218b46b7d85a",
+                  "version": "XPHB:372:https://5e.tools/conditionsdiseases.html#prone_xphb"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "queries": {
+      "Boar": true,
+      "boar wild shape": true
+    },
+    "hash": "3fdc524f15069857edc3ed41479e8fa06b006eb48977fa472493736d1bd81936",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [
+      {
+        "url": "",
+        "credit": "Monster Manual (2014)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      }
+    ]
+  },
+  {
+    "name": "Weasel",
+    "version": {
+      "key": "bf2cd3f0fce0176e8eb502fb",
+      "publication": "Humblewood: The Wakewyrm's Fury",
+      "edition": "2014 fifth edition compatible",
+      "source": "",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "13"
+        ],
+        [
+          "Hit points",
+          "1"
+        ],
+        [
+          "Hit dice",
+          "1d4 - 1"
+        ],
+        [
+          "Challenge",
+          "0"
+        ],
+        [
+          "Size",
+          "Tiny"
+        ],
+        [
+          "Type",
+          "Beast"
+        ],
+        [
+          "Speed",
+          "walk 30 ft."
+        ],
+        [
+          "Passive Perception",
+          "13"
+        ],
+        [
+          "XP",
+          "10"
+        ],
+        [
+          "Str",
+          "3"
+        ],
+        [
+          "Dex",
+          "16"
+        ],
+        [
+          "Con",
+          "8"
+        ],
+        [
+          "Int",
+          "2"
+        ],
+        [
+          "Wis",
+          "12"
+        ],
+        [
+          "Cha",
+          "3"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Appearance",
+          "lines": [
+            "A slim, short-legged mustelid with a pointed muzzle."
+          ]
+        },
+        {
+          "title": "Skills",
+          "lines": [
+            "Perception +3",
+            "Stealth +5"
+          ]
+        },
+        {
+          "title": "Attacks",
+          "lines": [
+            "Bite · Melee Weapon Attack · +5 to hit · reach 5 ft. · 1 piercing"
+          ]
+        },
+        {
+          "title": "Traits mechanics",
+          "lines": [
+            "Keen Hearing and Smell · Advantage on Wisdom (Perception) checks based on hearing or smell."
+          ]
+        },
+        {
+          "title": "Actions mechanics",
+          "lines": [
+            "Bite · +5 to hit · reach 5 ft. · One target takes 1 piercing damage on a hit."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "Printed as a Wild Shape option for the pregenerated druid.",
+            "Hit Point Press, The Wakewyrm's Fury, Reference Cards, p. 7."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Size": [
+          {
+            "start": 0,
+            "end": 4,
+            "target": {
+              "name": "Size",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+              }
+            }
+          }
+        ],
+        "Speed": [
+          {
+            "start": 0,
+            "end": 5,
+            "target": {
+              "name": "Speed",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-264de61edc1e2fe941187374",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+              }
+            }
+          }
+        ],
+        "Passive Perception": [
+          {
+            "start": 0,
+            "end": 18,
+            "target": {
+              "name": "Passive Perception",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 372,
+              "local": {
+                "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+              }
+            }
+          }
+        ],
+        "Perception +3": [
+          {
+            "start": 0,
+            "end": 10,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          }
+        ],
+        "Stealth +5": [
+          {
+            "start": 0,
+            "end": 7,
+            "target": {
+              "name": "Stealth",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 177,
+              "local": {
+                "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+              }
+            }
+          }
+        ],
+        "Bite · Melee Weapon Attack · +5 to hit · reach 5 ft. · 1 piercing": [
+          {
+            "start": 13,
+            "end": 26,
+            "target": {
+              "name": "Weapon Attack",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 377,
+              "local": {
+                "entry": "compendium-f8978a5da2977fc5a556ab9c",
+                "version": "XPHB:377:https://5e.tools/variantrules.html#weapon%20attack_xphb"
+              }
+            }
+          }
+        ],
+        "Keen Hearing and Smell · Advantage on Wisdom (Perception) checks based on hearing or smell.": [
+          {
+            "start": 25,
+            "end": 34,
+            "target": {
+              "name": "Advantage",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2014)",
+              "page": 173,
+              "description": "Roll two d20s and use the higher roll.",
+              "local": {
+                "entry": "compendium-694118169b5a4aef2291ff71",
+                "version": "PHB:173:https://5e.tools/book.html#PHB"
+              }
+            }
+          },
+          {
+            "start": 46,
+            "end": 56,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [
+      {
+        "key": "42c89d630c86a0125e862ba2",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "status": "Combat summary",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "13"
+          ],
+          [
+            "Hit points",
+            "1"
+          ],
+          [
+            "Hit dice",
+            "1d4 - 1"
+          ],
+          [
+            "Challenge",
+            "0"
+          ],
+          [
+            "Size",
+            "Tiny"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 30 ft."
+          ],
+          [
+            "Str",
+            "3"
+          ],
+          [
+            "Dex",
+            "16"
+          ],
+          [
+            "Con",
+            "8"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "12"
+          ],
+          [
+            "Cha",
+            "3"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +5 to hit · reach 5 ft. · 1 piercing"
+            ]
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "a62daa8f4016fffc69a702ec",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "edition": "Black Flag Roleplaying",
+        "status": "Combat summary",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "11"
+          ],
+          [
+            "Hit points",
+            "8"
+          ],
+          [
+            "Challenge",
+            "0"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "0 3 ft., 1 0 ft., 2   ft., 3 f ft., 4 t ft., 5 . ft."
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee"
+            ]
+          }
+        ],
+        "inline": {
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "09b00f51be667a33c34fab36",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "description": "A Tiny beast with challenge rating 0. Named abilities include Keen Hearing and Smell, Bite.",
+        "source": "https://5e.tools/bestiary.html#weasel_mm",
+        "status": "Encounter reference",
+        "images": [
+          {
+            "url": "",
+            "credit": "Monster Manual (2014)"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "13"
+          ],
+          [
+            "Hit points",
+            "1"
+          ],
+          [
+            "Hit dice",
+            "1d4 - 1"
+          ],
+          [
+            "Challenge",
+            "0"
+          ],
+          [
+            "Size",
+            "Tiny"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 30 ft."
+          ],
+          [
+            "Passive Perception",
+            "13"
+          ],
+          [
+            "Initiative",
+            "3"
+          ],
+          [
+            "Strength",
+            "3"
+          ],
+          [
+            "Dexterity",
+            "16"
+          ],
+          [
+            "Constitution",
+            "8"
+          ],
+          [
+            "Intelligence",
+            "2"
+          ],
+          [
+            "Wisdom",
+            "12"
+          ],
+          [
+            "Charisma",
+            "3"
+          ],
+          [
+            "Alignment",
+            "unaligned"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +5 to hit · reach 5 ft. · 1 piercing"
+            ]
+          },
+          {
+            "title": "Skills",
+            "lines": [
+              "Perception +3, Stealth +5"
+            ]
+          },
+          {
+            "title": "Traits reference",
+            "lines": [
+              "Keen Hearing and Smell · Perception"
+            ]
+          },
+          {
+            "title": "Actions reference",
+            "lines": [
+              "Bite · Melee attack · +5 to hit · 1 piercing damage · reach 5 ft."
+            ]
+          }
+        ],
+        "sourceCode": "MM",
+        "page": 340,
+        "references": [
+          {
+            "label": "Monster Manual (2014), p. 340",
+            "url": "https://5e.tools/bestiary.html#weasel_mm"
+          },
+          {
+            "label": "Perception (skill)",
+            "url": "https://5e.tools/skills.html#perception_phb",
+            "local": {
+              "entry": "compendium-f21bfeaccf140efabf3793fe",
+              "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+            },
+            "preview": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Passive Perception": [
+            {
+              "start": 0,
+              "end": 18,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Initiative": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Initiative",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 369,
+                "local": {
+                  "entry": "compendium-f7647d543d6e04bd0782c504",
+                  "version": "XPHB:369:https://5e.tools/variantrules.html#initiative_xphb"
+                }
+              }
+            }
+          ],
+          "Alignment": [
+            {
+              "start": 0,
+              "end": 9,
+              "target": {
+                "name": "Alignment",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                }
+              }
+            }
+          ],
+          "Perception +3, Stealth +5": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            },
+            {
+              "start": 15,
+              "end": 22,
+              "target": {
+                "name": "Stealth",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 177,
+                "local": {
+                  "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                  "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+                }
+              }
+            }
+          ],
+          "Keen Hearing and Smell · Perception": [
+            {
+              "start": 25,
+              "end": 35,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "6eb3655a72cd1c70f1ae4b3a",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "description": "A Tiny beast with challenge rating 0. Listed habitats: forest, grassland, hill. Named abilities include Bite.",
+        "source": "https://5e.tools/bestiary.html#weasel_xmm",
+        "artwork": "https://www.dndbeyond.com/avatars/thumbnails/58416/836/1000/1000/639226704580244808.jpeg",
+        "status": "Encounter reference",
+        "images": [
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "13"
+          ],
+          [
+            "Hit points",
+            "1"
+          ],
+          [
+            "Hit dice",
+            "1d4 - 1"
+          ],
+          [
+            "Challenge",
+            "0"
+          ],
+          [
+            "Size",
+            "Tiny"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 30 ft., climb 30 ft."
+          ],
+          [
+            "Passive Perception",
+            "13"
+          ],
+          [
+            "Strength",
+            "3"
+          ],
+          [
+            "Dexterity",
+            "16"
+          ],
+          [
+            "Constitution",
+            "8"
+          ],
+          [
+            "Intelligence",
+            "2"
+          ],
+          [
+            "Wisdom",
+            "12"
+          ],
+          [
+            "Charisma",
+            "3"
+          ],
+          [
+            "Alignment",
+            "unaligned"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Habitats",
+            "lines": [
+              "forest",
+              "grassland",
+              "hill",
+              "forest, grassland, hill"
+            ]
+          },
+          {
+            "title": "Skills",
+            "lines": [
+              "Acrobatics +5, Perception +3, Stealth +5"
+            ]
+          },
+          {
+            "title": "Senses",
+            "lines": [
+              "Darkvision 60 ft."
+            ]
+          },
+          {
+            "title": "Actions reference",
+            "lines": [
+              "Bite · Melee attack · +5 to hit · 1 Piercing damage · reach 5 ft."
+            ]
+          },
+          {
+            "title": "Lore topics in the source",
+            "lines": [
+              "Animals"
+            ]
+          }
+        ],
+        "sourceCode": "XMM",
+        "references": [
+          {
+            "label": "Monster Manual (2025), p. 372",
+            "url": "https://5e.tools/bestiary.html#weasel_xmm"
+          },
+          {
+            "label": "Panther (creature)",
+            "url": "https://5e.tools/bestiary.html#panther_xmm",
+            "local": {
+              "entry": "beast-346793476af7c0a55cfa62ab",
+              "version": "b2bb83792ec748263d8b7b46"
+            },
+            "preview": {
+              "name": "Panther",
+              "group": "Beast",
+              "publication": "Monster Manual (2024)",
+              "description": "A Medium beast with challenge rating 1/4. Listed habitats: forest, grassland, hill. Named abilities include Rend, Nimble Escape.",
+              "local": {
+                "entry": "beast-346793476af7c0a55cfa62ab",
+                "version": "b2bb83792ec748263d8b7b46"
+              }
+            }
+          },
+          {
+            "label": "Giant Goat (creature)",
+            "url": "https://5e.tools/bestiary.html#giant%20goat_xmm",
+            "local": {
+              "entry": "beast-6f3ba88f8055270588c02a34",
+              "version": "426fa41934a075969d8d0faf"
+            },
+            "preview": {
+              "name": "Giant Goat",
+              "group": "Beast",
+              "publication": "Monster Manual (2024)",
+              "description": "A Large beast with challenge rating 1/2. Listed habitats: grassland, hill, mountain. Named abilities include Ram.",
+              "local": {
+                "entry": "beast-6f3ba88f8055270588c02a34",
+                "version": "426fa41934a075969d8d0faf"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Passive Perception": [
+            {
+              "start": 0,
+              "end": 18,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Alignment": [
+            {
+              "start": 0,
+              "end": 9,
+              "target": {
+                "name": "Alignment",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                }
+              }
+            }
+          ],
+          "Acrobatics +5, Perception +3, Stealth +5": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Acrobatics",
+                "group": "Skills",
+                "publication": "Player's Handbook (2024)",
+                "page": 14,
+                "local": {
+                  "entry": "compendium-bc59901e4cb76eeb8ee777ef",
+                  "version": "XPHB:14:https://5e.tools/skills.html#acrobatics_xphb"
+                }
+              }
+            },
+            {
+              "start": 15,
+              "end": 25,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2024)",
+                "page": 14,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "XPHB:14:https://5e.tools/skills.html#perception_xphb"
+                }
+              }
+            },
+            {
+              "start": 30,
+              "end": 37,
+              "target": {
+                "name": "Stealth",
+                "group": "Skills",
+                "publication": "Player's Handbook (2024)",
+                "page": 14,
+                "local": {
+                  "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                  "version": "XPHB:14:https://5e.tools/skills.html#stealth_xphb"
+                }
+              }
+            }
+          ],
+          "Darkvision 60 ft.": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2024)",
+                "page": 365,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "XPHB:365:https://5e.tools/senses.html#darkvision_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "f7540401414ae18b3499b644",
+        "publication": "Monster Vault",
+        "edition": "Black Flag Roleplaying",
+        "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "images": [],
+        "stats": [
+          [
+            "Challenge",
+            "0.0"
+          ],
+          [
+            "Type",
+            "Beast"
+          ]
+        ],
+        "sections": []
+      },
+      {
+        "key": "ce68a8e68c32b9fd4bf8f64c",
+        "publication": "Revised v3.5 SRD (Monsters)",
+        "edition": "3.5 edition",
+        "images": [],
+        "stats": [
+          [
+            "Challenge",
+            "1/4"
+          ],
+          [
+            "Type",
+            "Animal"
+          ]
+        ],
+        "sections": []
+      },
+      {
+        "key": "c36105d06a6e09d9d73ba5de",
+        "publication": "SRD 5.1",
+        "edition": "2014 fifth edition",
+        "status": "Stat block",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "13"
+          ],
+          [
+            "Hit points",
+            "1"
+          ],
+          [
+            "Hit dice",
+            "1d4 − 1"
+          ],
+          [
+            "Challenge",
+            "0"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "30 ft."
+          ],
+          [
+            "XP",
+            "10"
+          ],
+          [
+            "Str",
+            "3"
+          ],
+          [
+            "Dex",
+            "16"
+          ],
+          [
+            "Con",
+            "8"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "12"
+          ],
+          [
+            "Cha",
+            "3"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Classification",
+            "lines": [
+              "Tiny beast, unaligned"
+            ]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Skills Perception +3, Stealth +5 Senses passive Perception 13 Languages —"
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Keen Hearing and Smell. The weasel has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Bite. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 piercing damage."
+            ]
+          }
+        ],
+        "inline": {
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Skills Perception +3, Stealth +5 Senses passive Perception 13 Languages —": [
+            {
+              "start": 7,
+              "end": 17,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            },
+            {
+              "start": 22,
+              "end": 29,
+              "target": {
+                "name": "Stealth",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 177,
+                "local": {
+                  "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                  "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+                }
+              }
+            },
+            {
+              "start": 48,
+              "end": 58,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            }
+          ],
+          "Keen Hearing and Smell. The weasel has advantage on Wisdom (Perception) checks that rely on hearing or smell.": [
+            {
+              "start": 39,
+              "end": 48,
+              "target": {
+                "name": "Advantage",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2014)",
+                "page": 173,
+                "description": "Roll two d20s and use the higher roll.",
+                "local": {
+                  "entry": "compendium-694118169b5a4aef2291ff71",
+                  "version": "PHB:173:https://5e.tools/book.html#PHB"
+                }
+              }
+            },
+            {
+              "start": 60,
+              "end": 70,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            }
+          ],
+          "Bite. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 piercing damage.": [
+            {
+              "start": 12,
+              "end": 25,
+              "target": {
+                "name": "Weapon Attack",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 377,
+                "local": {
+                  "entry": "compendium-f8978a5da2977fc5a556ab9c",
+                  "version": "XPHB:377:https://5e.tools/variantrules.html#weapon%20attack_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "c81d7dffba30fba07efa0005",
+        "publication": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Stat block",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "13"
+          ],
+          [
+            "Hit points",
+            "1"
+          ],
+          [
+            "Hit dice",
+            "1d4 − 1"
+          ],
+          [
+            "Challenge",
+            "0"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "30 ft., Climb 30 ft."
+          ],
+          [
+            "XP",
+            "10"
+          ],
+          [
+            "Str",
+            "3"
+          ],
+          [
+            "Dex",
+            "16"
+          ],
+          [
+            "Con",
+            "8"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "12"
+          ],
+          [
+            "Cha",
+            "3"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Classification",
+            "lines": [
+              "Tiny Beast, Unaligned"
+            ]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Skills Acrobatics +5, Perception +3, Stealth +5 Senses Darkvision 60 ft.; Passive Perception 13 Languages None"
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Bite. Melee Attack Roll: +5, reach 5 ft. Hit: 1 Piercing damage."
+            ]
+          }
+        ],
+        "inline": {
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Skills Acrobatics +5, Perception +3, Stealth +5 Senses Darkvision 60 ft.; Passive Perception 13 Languages None": [
+            {
+              "start": 7,
+              "end": 17,
+              "target": {
+                "name": "Acrobatics",
+                "group": "Skills",
+                "publication": "Player's Handbook (2024)",
+                "page": 14,
+                "local": {
+                  "entry": "compendium-bc59901e4cb76eeb8ee777ef",
+                  "version": "XPHB:14:https://5e.tools/skills.html#acrobatics_xphb"
+                }
+              }
+            },
+            {
+              "start": 22,
+              "end": 32,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2024)",
+                "page": 14,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "XPHB:14:https://5e.tools/skills.html#perception_xphb"
+                }
+              }
+            },
+            {
+              "start": 37,
+              "end": 44,
+              "target": {
+                "name": "Stealth",
+                "group": "Skills",
+                "publication": "Player's Handbook (2024)",
+                "page": 14,
+                "local": {
+                  "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                  "version": "XPHB:14:https://5e.tools/skills.html#stealth_xphb"
+                }
+              }
+            },
+            {
+              "start": 55,
+              "end": 65,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2024)",
+                "page": 365,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "XPHB:365:https://5e.tools/senses.html#darkvision_xphb"
+                }
+              }
+            },
+            {
+              "start": 74,
+              "end": 92,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Bite. Melee Attack Roll: +5, reach 5 ft. Hit: 1 Piercing damage.": [
+            {
+              "start": 12,
+              "end": 23,
+              "target": {
+                "name": "Attack Roll",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 361,
+                "local": {
+                  "entry": "compendium-2570a567c24ef3f4b5e35b50",
+                  "version": "XPHB:361:https://5e.tools/variantrules.html#attack%20roll_xphb"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "queries": {
+      "Weasel": true,
+      "weasel wild shape": true
+    },
+    "hash": "0c864256a181b95441368ceddf28b50d0fd81d371143031e59a2f85424813b46",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [
+      {
+        "url": "",
+        "credit": "Monster Manual (2014)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      }
+    ]
+  }
+]

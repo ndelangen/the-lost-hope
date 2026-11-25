@@ -1,0 +1,128 @@
+[
+  {
+    "name": "Frog",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "D&D Basic Rules v1.0, November 2018",
+    "printedPages": [
+      128
+    ],
+    "pageNumbering": "Printed folio and one-based page number agree.",
+    "url": "",
+    "onlineComparisonUrl": "https://www.dndbeyond.com/monsters/16866-frog",
+    "xp": 0,
+    "xpSource": "Basic Rules (2018), and printed p. 128.",
+    "habitatSource": "Basic Rules (2018), p. 128, places frogs near water, in trees, or underground. Freshwater ponds and marshes are editorial search terms for waterside habitats.",
+    "appearanceSource": "Editorial natural-history description aligned with the selected original portrait. The printed stat block supplies the species name and size.",
+    "sourceDistinctions": [
+      "The printed stat block gives 0 XP. The D&D Beyond legacy creature page displays 10 XP. This record preserves the scoped printing.",
+      "The Basic Rules omits the toad reskin sentence from the Monster Manual description."
+    ],
+    "viewerPages": [
+      128
+    ]
+  },
+  {
+    "name": "Frog",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, September 2014",
+    "printedPages": [
+      322
+    ],
+    "pageNumbering": "Printed Monster Manual folio. The local scan puts its cover on page 1, so the viewer page is one higher.",
+    "url": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+    "onlineComparisonUrl": "https://www.dndbeyond.com/monsters/16866-frog",
+    "xp": 0,
+    "xpSource": "Monster Manual (2014), printed p. 322.",
+    "habitatSource": "Monster Manual (2014), p. 322, places frogs near water, in trees, or underground. Freshwater ponds and marshes are editorial search terms for waterside habitats.",
+    "appearanceSource": "Editorial natural-history description aligned with the selected original portrait. The printed stat block supplies the species name and size.",
+    "sourceDistinctions": [
+      "The printed stat block gives 0 XP. The D&D Beyond legacy creature page displays 10 XP. This record preserves the scoped printing.",
+      "The Monster Manual description gives the toad reskin. The official Monster Manual errata does not revise the Frog block."
+    ],
+    "viewerPages": [
+      323
+    ],
+    "errataUrl": ""
+  },
+  {
+    "name": "Pony",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "D&D Basic Rules v1.0, November 2018",
+    "printedPages": [
+      149
+    ],
+    "pageNumbering": "Printed folio and one-based page number agree.",
+    "url": "",
+    "onlineComparisonUrl": "https://www.dndbeyond.com/monsters/16984-pony",
+    "xp": 25,
+    "xpSource": "Basic Rules (2018), and printed p. 149.",
+    "habitatSource": "Pastures, farms and stables are editorial tags. The stat block gives no habitat.",
+    "appearanceSource": "Editorial natural-history description aligned with the selected original portrait. The printed stat block supplies the species name and size.",
+    "sourceDistinctions": [
+      "The November 2018 Basic Rules and September 2014 Monster Manual Pony blocks agree. The Hooves attack applies to one target."
+    ],
+    "viewerPages": [
+      149
+    ]
+  },
+  {
+    "name": "Pony",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, September 2014",
+    "printedPages": [
+      335
+    ],
+    "pageNumbering": "Printed Monster Manual folio. The local scan puts its cover on page 1, so the viewer page is one higher.",
+    "url": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+    "onlineComparisonUrl": "https://www.dndbeyond.com/monsters/16984-pony",
+    "xp": 25,
+    "xpSource": "Monster Manual (2014), printed p. 335.",
+    "habitatSource": "Pastures, farms and stables are editorial tags. The stat block gives no habitat.",
+    "appearanceSource": "Editorial natural-history description aligned with the selected original portrait. The printed stat block supplies the species name and size.",
+    "sourceDistinctions": [
+      "The November 2018 Basic Rules and September 2014 Monster Manual Pony blocks agree. The Hooves attack applies to one target.",
+      "The official Monster Manual errata does not revise the Pony block."
+    ],
+    "viewerPages": [
+      336
+    ],
+    "errataUrl": ""
+  },
+  {
+    "name": "Wolf",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, September 2014",
+    "printedPages": [
+      341
+    ],
+    "pageNumbering": "Printed Monster Manual folio. The local scan puts its cover on page 1, so the viewer page is one higher.",
+    "url": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+    "onlineComparisonUrl": "https://www.dndbeyond.com/monsters/17062-wolf",
+    "xp": 50,
+    "xpSource": "Monster Manual (2014), printed p. 341.",
+    "habitatSource": "The printed p. 341 block does not assign a habitat. Forest, grassland and hills are editorial search tags in keeping with D&D Beyond’s legacy habitat tags.",
+    "appearanceSource": "Editorial natural-history description aligned with the selected original portrait. The printed stat block supplies the species name and size.",
+    "sourceDistinctions": [
+      "The official Monster Manual errata does not revise the Wolf block. Keen Hearing and Smell is limited to hearing- or smell-based Perception checks. The block lists no darkvision."
+    ],
+    "viewerPages": [
+      342
+    ],
+    "errataUrl": ""
+  }
+]

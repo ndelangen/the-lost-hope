@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Underfolk",
+    "slug": "underfolk",
+    "caption": "Berren Shalebank · Original Underfolk NPC",
+    "id": "species-a53c3a83a6ee4a03eb2ce779:7529faa5212d92d4d752271a",
+    "entry": "species-a53c3a83a6ee4a03eb2ce779",
+    "version": "7529faa5212d92d4d752271a",
+    "suffix": "encounters-72/underfolk.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-72/underfolk.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-72/event-drafts/underfolk-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 72 2026-11-24/event-drafts/underfolk-event-v1.png",
+    "overrides": [],
+    "sha256": "f4e4b2cd855a948f6044638b7ab09b637dbfa43176590415a5bdb29ab725e0cb",
+    "bytes": 2486939
+  }
+]

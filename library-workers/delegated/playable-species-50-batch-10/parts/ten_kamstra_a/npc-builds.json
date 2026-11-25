@@ -1,0 +1,228 @@
+{
+  "builds": [
+    {
+      "id": "mr2018-shadow-sill",
+      "title": "Sill, Shadow Fighter 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR unassigned.",
+      "size": "Medium",
+      "type": "Undead",
+      "speed": "35 ft. walking",
+      "abilityScores": {
+        "STR": 15,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 10,
+        "CHA": 8
+      },
+      "ac": 13,
+      "hp": 12,
+      "hitDice": "1d10 + 2",
+      "initiative": 3,
+      "skills": [
+        "Acrobatics +5",
+        "Athletics +4",
+        "Deception +1",
+        "Stealth +5"
+      ],
+      "senses": "Darkvision 60 ft. Passive Perception 10.",
+      "languages": "Understands, reads and writes Common. Cannot speak.",
+      "traits": [
+        "Proficiency +2. Strength and Constitution saves both +4. AC 13 is 10 + Dexterity 3. Hit points are 10 + Constitution 2. Sill carries a shortsword and wears no armor or shield.",
+        "Fighter grants Acrobatics and Athletics. Criminal grants Deception, Stealth and a contact, here a lamp trimmer who works the south gate.",
+        "Undead. Immune to poison damage, exhaustion, grappled, paralyzed, petrified, poisoned and restrained. In sunlight, attacks, checks and saves have disadvantage.",
+        "Sill fits through a 1-inch gap without squeezing and writes messages in dust. Four hours of semiconscious rest replace sleep. Short-rest Hit Dice and ordinary long-rest healing work."
+      ],
+      "actions": [
+        "Strength Drain. Melee unarmed attack +4 within 5 ft. for 1d8 + 2 necrotic. A natural 20 against a living creature also forces a DC 12 Strength save. First failure gives disadvantage on Strength attacks, checks and saves until a short or long rest or lesser restoration or similar magic. Another natural 20 while drained allows another save. On failure the target drops to 0 HP and starts dying.",
+        "Shortsword. Melee weapon attack +5 within 5 ft. for 1d6 + 5 piercing. Includes Dexterity and the +2 damage from Dueling.",
+        "Shadow Stealth. Hide as a bonus action in dim light or darkness.",
+        "Second Wind. Regain 1d10 + 1 HP as a bonus action once per short or long rest."
+      ],
+      "tactics": "Sill writes warnings before approaching. If someone draws a blade, Sill circles through a crack and tries to reach cover. In an open fight Sill uses Strength Drain on a living pursuer and keeps Second Wind for a retreat."
+    },
+    {
+      "id": "mr2018-blood-hawk-bramble-eye",
+      "title": "Bramble-Eye, Blood Hawk Rogue 2",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR unassigned.",
+      "size": "Small",
+      "type": "Beast",
+      "speed": "10 ft. walking, 50 ft. flying",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 12,
+        "WIS": 14,
+        "CHA": 10
+      },
+      "ac": 13,
+      "hp": 17,
+      "hitDice": "2d8 + 4",
+      "initiative": 3,
+      "skills": [
+        "Acrobatics +5",
+        "Animal Handling +4",
+        "Insight +4",
+        "Perception +6",
+        "Stealth +7",
+        "Survival +4"
+      ],
+      "senses": "Passive Perception 16, or 21 on sight tasks where Keen Sight applies.",
+      "languages": "Common. Thieves’ cant from Rogue.",
+      "traits": [
+        "Proficiency +2. Dexterity save +5. Intelligence save +3. AC 13 is 10 + Dexterity 3 while unarmored. HP is 10 at level 1 plus 7 at level 2 using the fixed gain.",
+        "Rogue grants Acrobatics, Insight, Perception and Stealth, with Expertise in Perception and Stealth. Folk Hero grants Animal Handling and Survival.",
+        "Keen Sight grants advantage on visual Perception. No Hands bars wielded weapons, shields and tool use. Bramble-Eye travels without equipment."
+      ],
+      "actions": [
+        "Bite. Melee unarmed attack +5 within 5 ft. for 1d4 + 3 slashing. Add 1d6 slashing once per turn if the attack qualifies for Sneak Attack.",
+        "Sneak Attack. The finesse bite qualifies with advantage, or if another enemy is within 5 ft. of the target, that enemy is not incapacitated, and the attack has no disadvantage.",
+        "Pack Tactics. Bonus action. The next attack this turn has advantage if a non-incapacitated ally is within 5 ft. of the target.",
+        "Cunning Action. Bonus-action Dash, Disengage or Hide. Choose this or Pack Tactics on a given turn."
+      ],
+      "tactics": "Bramble-Eye scouts from above. If a partner corners the poacher, Bramble-Eye dives to bite. Without support, Bramble-Eye uses Cunning Action to leave melee and keep watch from a roof."
+    },
+    {
+      "id": "mr2018-flying-snake-copper-sedge",
+      "title": "Copper Sedge, Flying Snake Monk 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR unassigned.",
+      "size": "Small",
+      "type": "Beast",
+      "speed": "30 ft. walking, 30 ft. swimming, 30 ft. flying",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 15,
+        "CHA": 10
+      },
+      "ac": 15,
+      "hp": 10,
+      "hitDice": "1d8 + 2",
+      "initiative": 3,
+      "skills": [
+        "Acrobatics +5",
+        "Insight +4",
+        "Medicine +4",
+        "Religion +2"
+      ],
+      "senses": "Blindsight 10 ft. Passive Perception 12.",
+      "languages": "Common. Elvish from Hermit.",
+      "traits": [
+        "Proficiency +2. Strength save +1. Dexterity save +5. AC 15 is 10 + Dexterity 3 + Wisdom 2 from Unarmored Defense. HP is 8 + Constitution 2.",
+        "Monk grants Acrobatics and Insight. Hermit grants Medicine, Religion and Elvish. Copper Sedge has no gear it needs to handle.",
+        "Serpentine Body prevents armor, shields, weapons and manipulated items. Copper Sedge has blindsight within 10 ft. Flight uses normal opportunity-attack and falling rules."
+      ],
+      "actions": [
+        "Bite. Melee unarmed attack +5 within 5 ft. for 1d4 + 3 piercing plus 1d4 poison. Use Dexterity for the attack and apply its damage bonus to piercing.",
+        "Martial Arts tail slap. After using the Attack action for an unarmed strike, make one conventional unarmed strike as a bonus action. Melee attack +5 within 5 ft. for 1d4 + 3 bludgeoning."
+      ],
+      "tactics": "Copper Sedge swims low beside the barge and watches the mooring. If a thief closes in, Copper Sedge bites and follows with a tail slap, then flies away when it can leave reach safely."
+    },
+    {
+      "id": "mr2018-giant-centipede-thimbleback",
+      "title": "Thimbleback, Giant Centipede Rogue 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR unassigned.",
+      "size": "Small",
+      "type": "Beast",
+      "speed": "30 ft. walking, 30 ft. climbing",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 12,
+        "WIS": 12,
+        "CHA": 11
+      },
+      "ac": 14,
+      "hp": 10,
+      "hitDice": "1d8 + 2",
+      "initiative": 3,
+      "skills": [
+        "Acrobatics +5",
+        "Athletics +1",
+        "Investigation +3",
+        "Perception +5",
+        "Stealth +7",
+        "Survival +3"
+      ],
+      "senses": "Blindsight 60 ft. Passive Perception 15.",
+      "languages": "Common. Dwarvish from Outlander. Thieves’ cant from Rogue.",
+      "traits": [
+        "Proficiency +2. Dexterity save +5. Intelligence save +3. Natural Armor AC 14 is 11 + Dexterity 3. HP is 8 + Constitution 2.",
+        "Rogue grants Acrobatics, Investigation, Perception and Stealth, with Expertise in Perception and Stealth. Outlander grants Athletics, Survival and Dwarvish.",
+        "No Hands bars wielded weapons, shields and tools. The climb speed uses ordinary climbing rules and grants no special hold on ceilings."
+      ],
+      "actions": [
+        "Bite. Melee unarmed attack +5 within 5 ft. for 1d4 + 3 piercing plus 1d4 poison. Once per turn, add 1d6 piercing when the bite qualifies for Sneak Attack.",
+        "Sneak Attack. The finesse bite qualifies with advantage, or if another enemy is within 5 ft. of the target, that enemy is not incapacitated, and the attack has no disadvantage.",
+        "Hide. Use an action to attempt Stealth +7 when the situation permits."
+      ],
+      "tactics": "Thimbleback guides visitors through a ventilation crawl and stops when it senses movement ahead. In a fight it bites from concealment or while a companion holds the entrance."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Shadow",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Sill",
+      "size": "Medium",
+      "build": "mr2018-shadow-sill",
+      "role": "Night watch informant",
+      "motive": "Find the lamp trimmer before the next gate shift.",
+      "hook": "A charcoal arrow appears beneath the watch ledger every night. Tonight it points at a name someone has scraped out."
+    },
+    {
+      "species": "Blood Hawk",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Bramble-Eye",
+      "size": "Small",
+      "build": "mr2018-blood-hawk-bramble-eye",
+      "role": "Orchard lookout",
+      "motive": "Drive a poacher away from the breeding ground.",
+      "hook": "Bramble-Eye can follow a particular snare-maker by sight. The hawk asks the party to walk the ditch below and cut the first snare it finds."
+    },
+    {
+      "species": "Flying Snake",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Copper Sedge",
+      "size": "Small",
+      "build": "mr2018-flying-snake-copper-sedge",
+      "role": "Monastery landing scout",
+      "motive": "Get a missing ferry back to the landing.",
+      "hook": "Copper Sedge watched a barge go upriver with its rope still trailing. It wants someone with hands to find out who cut it loose."
+    },
+    {
+      "species": "Giant Centipede",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Thimbleback",
+      "size": "Small",
+      "build": "mr2018-giant-centipede-thimbleback",
+      "role": "Ventilation crawl guide",
+      "motive": "Keep an apprentice from opening a sealed culvert.",
+      "hook": "Thimbleback heard hammering through a bricked-up culvert and learned enough Dwarvish to know the rhythm means keep out."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+[
+  {
+    "name": "Dhampir",
+    "kind": "species",
+    "publication": "Grim Hollow: Player’s Guide",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "Choose Small or Medium. Walking speed 30 ft. A Small character can trade 5 ft. of walking speed for one extra traditional trait. The vampiric curse stops aging.",
+      "With the standard heritage method, take the eight traditional traits below. The optional customization method permits swapping traits and spending a choice to improve a trait already selected.",
+      "Natural Attack (Fangs) deals piercing damage. Natural Attack lets your damaging unarmed strike deal 1d6 plus Strength or Dexterity modifier. Draining Attack works with Natural Attack. Each hit with an unarmed strike gives temporary HP equal to the damage dealt.",
+      "Well Protected sets unarmored AC to 13 plus Dexterity modifier.",
+      "Climber gives a climb speed equal to your walking speed. Darkvision reaches 60 ft.",
+      "Eager Deceiver grants Deception proficiency. Magical Savvy teaches Friends. Magical Savant adds Charm Person from the same spell list, once per long rest without a slot. A member of the class whose list supplied the spell always has it prepared without using a preparation."
+    ]
+  },
+  {
+    "name": "Downcast",
+    "kind": "species",
+    "publication": "Grim Hollow: Player’s Guide",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "Medium, walking speed 30 ft. Downcast mature in their late teens and can live up to 800 years.",
+      "With the standard heritage method, take the eight traditional traits below. The optional customization method permits swapping traits and spending a choice to improve a trait already selected.",
+      "Divine Sangromancy lets you spend a Hit Die when an ally within 30 ft. regains HP. Increase the healing by the number rolled on that die. Touch of Life grants necrotic resistance.",
+      "Inured to the Elements gives advantage on Constitution saves against extreme heat and cold. Meditative Rest gives the benefit of eight hours of sleep after four conscious hours of meditation. Tireless gives advantage on saves tied to gaining or removing exhaustion levels.",
+      "Magical Savvy teaches Thaumaturgy. Select the Cleric list to cast it with Wisdom. Magical Savant is restricted to Cleric spells for this heritage. Choose another Cleric cantrip or a level 1 Cleric spell. The level 1 choice is free once per long rest and is always prepared if you have Cleric levels. Moved by Faith gives Religion proficiency."
+    ]
+  },
+  {
+    "name": "Wulven",
+    "kind": "species",
+    "publication": "Grim Hollow: Player’s Guide",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "Choose Small or Medium. Walking speed 30 ft. A Small character can trade 5 ft. of walking speed for one extra traditional trait. Wulven mature on the same timetable as their original heritage and stay physically fit later into life.",
+      "With the standard heritage method, take the eight traditional traits below. The optional customization method permits swapping traits and spending a choice to improve a trait already selected.",
+      "Hunter’s Instinct grants a pool of d8s equal to proficiency bonus after a long rest. Spend one die on a weapon or unarmed attack roll or its damage. For an attack roll, commit before its result is known.",
+      "Natural Attack (Claws) deals slashing damage. Natural Attack lets your damaging unarmed strike deal 1d6 plus Strength or Dexterity modifier. Pack Hunter uses your reaction to give an ally within 10 ft. advantage on an impending attack roll or saving throw. Uses equal proficiency bonus and refresh on a long rest.",
+      "Burst of Speed adds 30 ft. to your speed until your turn ends, with proficiency-bonus uses per long rest. Climber gives a climb speed equal to your walking speed.",
+      "Athlete’s Spirit gives Athletics proficiency and Inborn Perception gives Perception proficiency. Nature’s Voice uses sounds and gestures to exchange simple ideas with Beasts and Plant creatures."
+    ]
+  }
+]

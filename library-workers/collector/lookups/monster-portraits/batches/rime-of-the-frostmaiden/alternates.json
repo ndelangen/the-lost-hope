@@ -1,0 +1,90 @@
+[
+  {
+    "entityKind": "monster",
+    "name": "Cult Fanatic (Knights of the Black Sword)",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/cult-fanatic-knights-of-the-black-sword/source-knight-of-the-black-sword-idrotf.webp",
+    "artist": "Faction token: Knight of the Black Sword",
+    "kind": "token",
+    "sha256": "b651c3a2f5c11bc0ee225dd5f1ae0856967f582d0a0fd4a7ab5d02ddc892fceb",
+    "reference": "images/monsters/knight-of-the-black-sword/idrotf-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Cult Fanatic (Knights of the Black Sword)",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/cult-fanatic-knights-of-the-black-sword/source-cult-fanatic-mm.webp",
+    "artist": "Base creature art: Cult Fanatic · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "b31e3372b373d7c59e966794be789593b351976857711dee579cfc384794e58c",
+    "reference": "images/monsters/cult-fanatic/mm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Cultist (Knights of the Black Sword)",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/cultist-knights-of-the-black-sword/source-knight-of-the-black-sword-idrotf.webp",
+    "artist": "Faction token: Knight of the Black Sword",
+    "kind": "token",
+    "sha256": "b651c3a2f5c11bc0ee225dd5f1ae0856967f582d0a0fd4a7ab5d02ddc892fceb",
+    "reference": "images/monsters/knight-of-the-black-sword/idrotf-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Cultist (Knights of the Black Sword)",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/cultist-knights-of-the-black-sword/source-cultist-mm.webp",
+    "artist": "Base creature art: Cultist · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "88a64651c11e74c20574b3300a42945479d8edc89de4739dc944664f0c4b3737",
+    "reference": "images/monsters/cultist/mm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Piercer (Ice variant)",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/piercer-ice-variant/source-ice-piercer-idrotf.webp",
+    "artist": "Source token: Ice Piercer",
+    "kind": "token",
+    "sha256": "6364aa53c74cd67b360f5989d910d8b331031278bb9505991f8602f33f597daf",
+    "reference": "images/monsters/ice-piercer/idrotf-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Piercer (Ice variant)",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/piercer-ice-variant/source-piercer-xmm.webp",
+    "artist": "Related creature art: Piercer by Olivier Bernard · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "abe0cd54fc812ac213afd725df7b0537ec30af1b20935910efc7bf2f841d5b0e",
+    "reference": "images/monsters/piercer/xmm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Tribal Warrior Spore Servants",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/tribal-warrior-spore-servants/source-tribal-warrior-spore-servant-idrotf.webp",
+    "artist": "Source token: Tribal Warrior Spore Servant",
+    "kind": "token",
+    "sha256": "b5e54d4484be47eab1046a5d80e184ac6de209e73d664a42d2b96bf61d2b8eca",
+    "reference": "images/monsters/tribal-warrior-spore-servant/idrotf-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Tribal Warrior Spore Servants",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/tribal-warrior-spore-servants/source-reghed-warrior-idrotf.webp",
+    "artist": "Related character token: Reghed Warrior",
+    "kind": "token",
+    "sha256": "97b41361eb58b294928767cdee0f085b85aa8bc2fab63cb2c3d42d4dbf2f5522",
+    "reference": "images/monsters/reghed-warrior/idrotf-1.webp"
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "name": "Nothic",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "DMs Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Aberration",
+    "url": "",
+    "printedPages": [
+      158,
+      159
+    ],
+    "page": "pp. 158–159 in v2. Nothic Traits",
+    "provenance": "Read the printed v2 trait block in the PDFCoffee mirror of Tyler Kamstra's 2018 DMs Guild supplement.",
+    "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "encounterRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "sourceDistinctions": [
+      "Use Arcana and Stealth from the trait block. Vesk takes Insight as a Rogue skill and applies Expertise to it. The design note instead discusses Arcana and Insight.",
+      "Otherworldly Perception locates a moving creature. The traits do not give general truesight, and both gaze actions explicitly require a visible target."
+    ],
+    "npcExamples": [
+      "Vesk Foldnote"
+    ]
+  },
+  {
+    "name": "Otyugh",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "DMs Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Aberration",
+    "url": "",
+    "printedPages": [
+      167
+    ],
+    "page": "p. 167 in v2. Otyugh Traits",
+    "provenance": "Read the printed v2 trait block in the PDFCoffee mirror of Tyler Kamstra's 2018 DMs Guild supplement.",
+    "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "encounterRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "sourceDistinctions": [
+      "The v2 trait block specifies 120-ft. darkvision. A later design-note calculation mentions 60 ft.",
+      "After a hit, resolve a separate grapple contest as the bonus action."
+    ],
+    "npcExamples": [
+      "Grott the Drainkeeper"
+    ]
+  },
+  {
+    "name": "Peryton",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "DMs Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Monstrosity",
+    "url": "",
+    "printedPages": [
+      169
+    ],
+    "page": "p. 169 in v2. Peryton Traits",
+    "provenance": "Read the printed v2 trait block in the PDFCoffee mirror of Tyler Kamstra's 2018 DMs Guild supplement.",
+    "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "encounterRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "sourceDistinctions": [
+      "The trait block gives 30-ft. walking speed. The accompanying design note uses 20 ft.",
+      "The trait block grants language comprehension and reading. The design notes identify the player creature as handless and unable to speak, so this example relies on reactions, gestures and natural attacks.",
+      "The 2014 rules classify unarmed strikes as melee weapon attacks. That qualifies a hit for Dive Attack after the stated dive. The Monk bonus blow uses the supplement’s standard bludgeoning Martial Arts die."
+    ],
+    "npcExamples": [
+      "Bramblecrest"
+    ]
+  },
+  {
+    "name": "Rust Monster",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "DMs Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Monstrosity",
+    "url": "",
+    "printedPages": [
+      180
+    ],
+    "page": "p. 180 in v2. Rust Monster Traits",
+    "provenance": "Read the printed v2 trait block in the PDFCoffee mirror of Tyler Kamstra's 2018 DMs Guild supplement.",
+    "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "encounterRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "sourceDistinctions": [
+      "The design notes describe the Rust Monster as handless. The trait block omits a named No Hands line. Pennywort wears no armor and uses no equipment requiring hands.",
+      "Iron Scent tracks ferrous metal. Rust Metal uses the broader printed nonmagical metal condition and the stated natural 20 or natural 1 triggers."
+    ],
+    "npcExamples": [
+      "Pennywort"
+    ]
+  },
+  {
+    "name": "Shambling Mound",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "DMs Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Plant",
+    "url": "",
+    "printedPages": [
+      186
+    ],
+    "page": "p. 186 in v2. Shambling Mound Traits",
+    "provenance": "Read the printed v2 trait block in the PDFCoffee mirror of Tyler Kamstra's 2018 DMs Guild supplement.",
+    "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "encounterRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "sourceDistinctions": [
+      "The conversion gives lightning resistance. The encounter creature’s lightning healing and engulf are outside this profile.",
+      "The profile applies the printed blindsight range and deliberately keeps any weapon or shield out of this NPC’s loadout."
+    ],
+    "npcExamples": [
+      "Mosswake"
+    ]
+  }
+]

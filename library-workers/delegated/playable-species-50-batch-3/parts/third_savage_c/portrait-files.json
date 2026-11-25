@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Ghoul",
+    "file": "",
+    "sha256": "d7516e4f8c735005189a96e175aaffbfc597677f8c4f0c120bdf6ddee1ccabac",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Green Hag",
+    "file": "",
+    "sha256": "3d67e6f6e4f37dace3505530decaf92853cbef8f4621fc7e4ec04a00d6b1812d",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Griffon",
+    "file": "",
+    "sha256": "7a700ff016a101d307086ca7d7b82314da0982a4b402bd0cff4aab6ba62c5699",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Hamatula",
+    "file": "",
+    "sha256": "a24db55c78a240cf823225af3ea3b008f9c9e01ebb68f081355b67619542bb05",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Magmin",
+    "file": "",
+    "sha256": "e69b3ba8a6f87fb5e989d4206640c659fbcf29a26deab7b77c5bf87d201d68c7",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  }
+]

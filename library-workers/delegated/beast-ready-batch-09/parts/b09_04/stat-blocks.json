@@ -1,0 +1,322 @@
+[
+  {
+    "name": "Crocodile",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 12,
+    "hp": 13,
+    "hitDice": "2d10 + 2",
+    "speed": "20 ft., swim 30 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "savingThrows": {
+      "Strength": 2,
+      "Dexterity": 0,
+      "Constitution": 3,
+      "Intelligence": -4,
+      "Wisdom": 0,
+      "Charisma": -3
+    },
+    "skills": {
+      "Stealth": 2
+    },
+    "passivePerception": 10,
+    "otherStatistics": "Initiative +0 (10). Proficiency Bonus +2. Senses Passive Perception 10. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "An olive-brown crocodile with raised back scutes, a long snout and a thick, tapering tail.",
+    "habitats": [
+      "Coastal",
+      "Swamp",
+      "Urban"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast’s 2024-rules Monster Manual, p. 352, as published on D&D Beyond. https://www.dndbeyond.com/monsters/4775811-crocodile",
+      "Traits": "Hold Breath. It can hold its breath for 1 hour.",
+      "Actions": "Bite. Make a +4 melee attack within 5 ft. A hit deals 6 (1d8 + 2) piercing damage. A Medium or smaller creature hit is Grappled (escape DC 12) and remains Restrained while Grappled.",
+      "Using the grapple": "The target can use an action to escape with a DC 12 Strength (Athletics) or Dexterity (Acrobatics) check. The grapple ends if the crocodile is Incapacitated, if the target moves outside the grapple’s range, or if the crocodile releases it. Release takes no action. The crocodile must end the grapple before using its jaws against a different creature. See the 2024 rules glossary. https://www.dndbeyond.com/sources/dnd/br-2024/rules-glossary#Grappling"
+    }
+  },
+  {
+    "name": "Deer",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 13,
+    "hp": 4,
+    "hitDice": "1d8",
+    "speed": "50 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "savingThrows": {
+      "Strength": 0,
+      "Dexterity": 3,
+      "Constitution": 0,
+      "Intelligence": -4,
+      "Wisdom": 2,
+      "Charisma": -3
+    },
+    "skills": {
+      "Perception": 4
+    },
+    "passivePerception": 14,
+    "otherStatistics": "Initiative +3 (13). Proficiency Bonus +2. Senses Darkvision 60 ft., Passive Perception 14. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A tawny stag with a pale throat and underside, slender legs, and wide branching antlers.",
+    "habitats": [
+      "Forest",
+      "Grassland"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast’s 2024-rules Monster Manual, p. 352, as published on D&D Beyond. https://www.dndbeyond.com/monsters/5194966-deer",
+      "Traits": "Agile. Moving out of an enemy’s reach does not provoke an Opportunity Attack.",
+      "Actions": "Ram. Make a +2 melee attack within 5 ft. A hit deals 2 (1d4) bludgeoning damage."
+    }
+  },
+  {
+    "name": "Dire Wolf",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 14,
+    "hp": 22,
+    "hitDice": "3d10 + 6",
+    "speed": "50 ft.",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "savingThrows": {
+      "Strength": 3,
+      "Dexterity": 2,
+      "Constitution": 2,
+      "Intelligence": -4,
+      "Wisdom": 1,
+      "Charisma": -2
+    },
+    "skills": {
+      "Perception": 5,
+      "Stealth": 4
+    },
+    "passivePerception": 15,
+    "otherStatistics": "Initiative +2 (12). Proficiency Bonus +2. Senses Darkvision 60 ft., Passive Perception 15. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A heavy-built gray wolf with a thick neck ruff, pointed ears, long legs and a bushy tail.",
+    "habitats": [
+      "Forest",
+      "Hill"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast’s 2024-rules Monster Manual, p. 352, as published on D&D Beyond. https://www.dndbeyond.com/monsters/4775812-dire-wolf",
+      "Traits": "Pack Tactics. It has Advantage on an attack against a creature if at least one ally within 5 ft. of that creature does not have the Incapacitated condition.",
+      "Actions": "Bite. Make a +5 melee attack within 5 ft. A hit deals 8 (1d10 + 3) piercing damage and knocks a Large or smaller creature Prone."
+    }
+  },
+  {
+    "name": "Draft Horse",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 10,
+    "hp": 15,
+    "hitDice": "2d10 + 4",
+    "speed": "40 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "savingThrows": {
+      "Strength": 4,
+      "Dexterity": 0,
+      "Constitution": 2,
+      "Intelligence": -4,
+      "Wisdom": 0,
+      "Charisma": -2
+    },
+    "skills": {},
+    "passivePerception": 10,
+    "otherStatistics": "Initiative +0 (10). Proficiency Bonus +2. Senses Passive Perception 10. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A stocky bay workhorse with a broad chest, a dark mane and tail, and feathered lower legs.",
+    "habitats": [
+      "Urban"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast’s 2024-rules Monster Manual, p. 352, as published on D&D Beyond. https://www.dndbeyond.com/monsters/4775813-draft-horse",
+      "Actions": "Hooves. Make a +6 melee attack within 5 ft. A hit deals 6 (1d4 + 4) bludgeoning damage."
+    }
+  },
+  {
+    "name": "Eagle",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Small Beast, unaligned",
+    "ac": 12,
+    "hp": 4,
+    "hitDice": "1d6 + 1",
+    "speed": "10 ft., fly 60 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 6,
+        "modifier": -2
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "savingThrows": {
+      "Strength": -2,
+      "Dexterity": 2,
+      "Constitution": 1,
+      "Intelligence": -4,
+      "Wisdom": 2,
+      "Charisma": -2
+    },
+    "skills": {
+      "Perception": 6
+    },
+    "passivePerception": 16,
+    "otherStatistics": "Initiative +2 (12). Proficiency Bonus +2. Senses Passive Perception 16. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A brown eagle with a pale head and tail, a hooked yellow beak and dark, layered flight feathers.",
+    "habitats": [
+      "Coastal",
+      "Grassland",
+      "Hill",
+      "Mountain"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast’s 2024-rules Monster Manual, p. 353, as published on D&D Beyond. https://www.dndbeyond.com/monsters/5194979-eagle",
+      "Actions": "Talons. Make a +4 melee attack within 5 ft. A hit deals 4 (1d4 + 2) slashing damage."
+    }
+  }
+]

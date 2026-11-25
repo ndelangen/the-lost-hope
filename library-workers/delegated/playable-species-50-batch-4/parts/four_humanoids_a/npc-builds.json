@@ -1,0 +1,259 @@
+{
+  "builds": [
+    {
+      "id": "adnd2e-phbr10-aarakocra-rusk-pennon",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "AD&D 2nd edition"
+      ],
+      "size": "Medium",
+      "title": "Aarakocra ridge courier, Fighter 1",
+      "difficulty": "Level 1 fighter, descending Armor Class.",
+      "type": "Humanoid",
+      "ac": 5,
+      "hp": 8,
+      "hitDice": "1d10",
+      "initiative": 0,
+      "speed": "6 land (Monstrous Manual), Fly 36 (C).",
+      "senses": "Ordinary sight and hearing.",
+      "languages": "Aarakocra and Common.",
+      "abilityScores": {
+        "STR": 13,
+        "DEX": 16,
+        "CON": 13,
+        "INT": 11,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Proficient with javelin, dagger and dart. Carries three javelins in chest sheaths and a backup dagger."
+      ],
+      "traits": [
+        "AC 7 natural, improved to 5 by Dexterity 16. No body armor or shield. Fighter base THAC0 20. Dexterity adds +1 to missile attacks. Roll low on 1d10 for standard initiative.",
+        "Saving throws in paralyzation/poison/death, rod/staff/wand, petrification/polymorph, breath, spell order are 14/16/15/17/17. Dexterity improves applicable dodgeable saves by 2.",
+        "Rusk can hold javelins in the lower hands while flying. The wing hands cannot grasp then. Rusk takes −3 on all attack rolls in enclosed spaces."
+      ],
+      "actions": [
+        "Javelin throw. One attack, THAC0 19/21/24 at short/medium/long range, 1d6 piercing to any target size. Range bands are 20/40/60 in normal missile units. Flying adds no attack penalty.",
+        "Javelin thrust. THAC0 20, 1d6 piercing to any target size. Javelin speed factor 4 with optional individual initiative.",
+        "Dive with two javelins. After dropping at least 200 feet, roll two thrusts at THAC0 16 each. Each hit deals double ordinary javelin damage. Rusk reserves this for open air.",
+        "Talons or beak. Either two talon strikes at THAC0 20 for 1d3 each, or a single beak strike at THAC0 20 for 1d3 if cornered."
+      ],
+      "tactics": "Warn travelers from above the ravine. If attacked in open air, throw one javelin and climb. Use a two-javelin dive only with a clear drop. Retreat from a roofed fight."
+    },
+    {
+      "id": "adnd2e-phbr10-alaghi-venn-alderhand",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "AD&D 2nd edition"
+      ],
+      "size": "Large",
+      "title": "Alaghi logging-road mediator, Fighter 1",
+      "difficulty": "Level 1 fighter with +9 racial starting HP, descending Armor Class.",
+      "type": "Humanoid",
+      "ac": 4,
+      "hp": 18,
+      "hitDice": "1d10+10",
+      "initiative": 0,
+      "speed": "12 land (MC11).",
+      "senses": "Ordinary sight and hearing.",
+      "languages": "Alaghi and Common.",
+      "abilityScores": {
+        "STR": 17,
+        "DEX": 13,
+        "CON": 15,
+        "INT": 10,
+        "WIS": 13,
+        "CHA": 10
+      },
+      "skills": [
+        "Move silently 40%, hide in natural surroundings 35%. Proficient with stone hand axe, club and javelin."
+      ],
+      "traits": [
+        "Base AC 4 with no armor and no Dexterity adjustment. Each attack against Venn uses large-target damage.",
+        "HP 18 comes from an 8 on the fighter die, +1 Constitution and +9 alaghi starting HP. Fighter base THAC0 20. Strength 17 improves melee hit and damage by 1. Roll low on 1d10 for standard initiative.",
+        "Saving throws in paralyzation/poison/death, rod/staff/wand, petrification/polymorph, breath, spell order are 14/16/15/17/17."
+      ],
+      "actions": [
+        "Stone hand axe. One melee attack at THAC0 19. Damage is 1d6+1 against Small or Medium targets, or 1d4+1 against Large targets. Speed factor 4 if used.",
+        "Heavy fist. One melee attack at THAC0 19 for 2d6+1 damage against any size. This build makes one fist attack per round, the ordinary fighter rate at this level."
+      ],
+      "tactics": "Approach through woodland cover, then show the axe without raising it. Use fists if someone closes and a poor footing makes a swing impractical."
+    },
+    {
+      "id": "adnd2e-phbr10-beastman-tavin-mossstripe",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "AD&D 2nd edition"
+      ],
+      "size": "Medium",
+      "title": "Beastman snare-line guide, Fighter 1",
+      "difficulty": "Level 1 fighter with 80% magic resistance, descending Armor Class.",
+      "type": "Humanoid",
+      "ac": 5,
+      "hp": 7,
+      "hitDice": "1d10",
+      "initiative": 0,
+      "speed": "12 land (MC5).",
+      "senses": "Ordinary sight and hearing.",
+      "languages": "Beastman and Common.",
+      "abilityScores": {
+        "STR": 13,
+        "DEX": 17,
+        "CON": 13,
+        "INT": 10,
+        "WIS": 14,
+        "CHA": 9
+      },
+      "skills": [
+        "90% forest hide chance. Proficient with stone hand axe, knife and bola. Carries a knapped stone knife and a stone hand axe."
+      ],
+      "traits": [
+        "Natural AC 8 with −3 from Dexterity 17. Base fighter THAC0 20. Dexterity gives +2 to missile attacks and +2 to Tavin’s own surprise rolls. Roll low on 1d10 for standard initiative.",
+        "Saving throws in paralyzation/poison/death, rod/staff/wand, petrification/polymorph, breath, spell order are 14/16/15/17/17. Dexterity improves applicable dodgeable saves by 3.",
+        "Unaware opponents take −6 to their surprise rolls. For effects subject to magic resistance, check 80% even when the spell is helpful, unless Tavin voluntarily lowers resistance. If the effect gets through, roll any applicable save. Tavin carries no magic items."
+      ],
+      "actions": [
+        "Stone knife in melee. THAC0 20. Deals 1d3 damage against Small or Medium targets, or 1d2 against Large targets. Speed factor 2 if used.",
+        "Thrown stone hand axe. THAC0 18/20/23 at short/medium/long range. Range bands 10/20/30 in normal missile units. Damage is 1d6 against Small or Medium targets, or 1d4 against Large targets."
+      ],
+      "tactics": "Hide in forest cover, call out the safest place to step, and wait until travelers reply. If attacked, throw the axe, draw the knife and fall back."
+    },
+    {
+      "id": "adnd2e-phbr10-advanced-bullywug-krev-siltbank",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "AD&D 2nd edition"
+      ],
+      "size": "Medium",
+      "title": "Advanced bullywug crossing guard, Fighter 1",
+      "difficulty": "Level 1 fighter with a hopping spear ambush, descending Armor Class.",
+      "type": "Humanoid",
+      "ac": 4,
+      "hp": 9,
+      "hitDice": "1d10",
+      "initiative": 0,
+      "speed": "3 land, Swim 15 with shield slung (Monstrous Manual). Hop up to 30 ft. forward and 15 ft. up.",
+      "senses": "Ordinary sight and hearing.",
+      "languages": "Bullywug and Common.",
+      "abilityScores": {
+        "STR": 14,
+        "DEX": 15,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Swimming (free). Proficient with spear, dagger, club and short sword. Uses a medium wooden shield."
+      ],
+      "traits": [
+        "Natural AC 6, one better from Dexterity and one better when the shield applies. AC 5 with shield slung or against a direction it cannot cover. Fighter base THAC0 20. Roll low on 1d10 for standard initiative.",
+        "Saving throws in paralyzation/poison/death, rod/staff/wand, petrification/polymorph, breath, spell order are 14/16/15/17/17. Dexterity improves applicable dodgeable saves by 1.",
+        "75% chance to stay hidden in natural cover. On an ambush from camouflage apply −2 to enemy surprise, or −6 for a hop opening. Three full-body wettings every day, or lose 2 Constitution per missed wetting."
+      ],
+      "actions": [
+        "Spear thrust. THAC0 20. Deals 1d6 piercing to Small or Medium targets, or 1d8 to Large targets. Speed factor 6 if used.",
+        "Hop and spear. Reach a target within the hop’s limits and thrust once at THAC0 19. Double the ordinary spear damage on a hit.",
+        "Dagger backup. THAC0 20. Deals 1d4 piercing to Small or Medium targets, or 1d3 to Large targets. Speed factor 2 if used."
+      ],
+      "tactics": "Watch from natural cover and parley from the shallows. If rushed, hop to a dry footing and thrust. Keep the route back to water clear."
+    },
+    {
+      "id": "adnd2e-phbr10-fremlin-siv-roofnook",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "AD&D 2nd edition"
+      ],
+      "size": "Tiny",
+      "title": "Fremlin rafterside messenger, Mage 1",
+      "difficulty": "Level 1 mage that mundane weapons cannot hit, descending Armor Class.",
+      "type": "Humanoid",
+      "ac": 3,
+      "hp": 3,
+      "hitDice": "1d4",
+      "initiative": 0,
+      "speed": "6 land (Monstrous Manual), Fly 12 (B).",
+      "senses": "Ordinary sight and hearing.",
+      "languages": "Gremlin and Common.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 17,
+        "CON": 11,
+        "INT": 16,
+        "WIS": 10,
+        "CHA": 11
+      },
+      "skills": [
+        "Knows Sleep and Light. Sleep is prepared in Siv’s one first-level spell slot. Proficient with a scaled dagger, which Siv left at home."
+      ],
+      "traits": [
+        "Natural AC 6 with −3 from Dexterity 17. HP 3 is the wizard HD result. Base mage THAC0 20 if needed. Roll low on 1d10 for standard initiative.",
+        "Saving throws in paralyzation/poison/death, rod/staff/wand, petrification/polymorph, breath, spell order are 14/11/13/15/12. Dexterity improves applicable dodgeable saves by 3.",
+        "Mundane weapons cannot hit Siv. A +1 or better weapon can hit normally. Apply spells and other effects according to their own rules, without general magic resistance."
+      ],
+      "actions": [
+        "Sleep, once before resting and preparing again. Range 30 yd., casting time 1. Affect 2d4 HD of eligible creatures within 30 ft. of one another, lowest HD first, with no partial effect and no save. Undead and creatures of 4+3 HD or more are excluded. The effect lasts five rounds at Mage 1. Slapping or wounding wakes a creature. Awakening takes a round. Noise alone has no effect.",
+        "Break contact by flight. When the spell is spent or allies are too close, fly to a high beam or out through an open window."
+      ],
+      "tactics": "Talk from a perch. Fly clear instead of fighting if possible. Cast Sleep if cornered and the eligible targets are away from allies."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Rusk Pennon",
+      "species": "Aarakocra",
+      "size": "Medium",
+      "speciesPublication": "The Complete Book of Humanoids (1993)",
+      "edition": "AD&D 2nd edition",
+      "build": "adnd2e-phbr10-aarakocra-rusk-pennon",
+      "role": "Ridge courier and route scout.",
+      "motive": "Rehang the missing warning pennon before another caravan takes the wrong gap.",
+      "hook": "Rusk can spot the missing pennon from above if someone retrieves it from under the bridge."
+    },
+    {
+      "name": "Venn Alderhand",
+      "species": "Alaghi",
+      "size": "Large",
+      "speciesPublication": "The Complete Book of Humanoids (1993)",
+      "edition": "AD&D 2nd edition",
+      "build": "adnd2e-phbr10-alaghi-venn-alderhand",
+      "role": "Mediator at a woodland boundary.",
+      "motive": "Keep the dispute over the new logging road from turning into a fight.",
+      "hook": "Venn knows where the original boundary stones are buried and offers to show the party."
+    },
+    {
+      "name": "Tavin Mossstripe",
+      "species": "Beastman",
+      "size": "Medium",
+      "speciesPublication": "The Complete Book of Humanoids (1993)",
+      "edition": "AD&D 2nd edition",
+      "build": "adnd2e-phbr10-beastman-tavin-mossstripe",
+      "role": "Woodland snare-line guide.",
+      "motive": "Prevent travelers from blundering into a line of hunting traps.",
+      "hook": "Tavin will cut a safe path through the old snare line in return for news of the missing trapper."
+    },
+    {
+      "name": "Krev Siltbank",
+      "species": "Advanced Bullywug",
+      "size": "Medium",
+      "speciesPublication": "The Complete Book of Humanoids (1993)",
+      "edition": "AD&D 2nd edition",
+      "build": "adnd2e-phbr10-advanced-bullywug-krev-siltbank",
+      "role": "Marsh crossing guard.",
+      "motive": "Protect the stepping stones and keep the night crossing open.",
+      "hook": "Krev will explain who moved the final stone if someone brings it back from the far bank."
+    },
+    {
+      "name": "Siv Roofnook",
+      "species": "Fremlin",
+      "size": "Tiny",
+      "speciesPublication": "The Complete Book of Humanoids (1993)",
+      "edition": "AD&D 2nd edition",
+      "build": "adnd2e-phbr10-fremlin-siv-roofnook",
+      "role": "Messenger who watches a roadside inn from its rafters.",
+      "motive": "Find the sealed letter missing from a delivery satchel.",
+      "hook": "Siv saw where the letter was hidden but wants a witness before retrieving it."
+    }
+  ]
+}

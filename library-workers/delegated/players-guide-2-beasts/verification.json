@@ -1,0 +1,59 @@
+{
+  "baseline": "50d161a69955976bc72cabe9669ff8ac5adc8aaf",
+  "verifiedBeastVersions": 5,
+  "ruleset": "black-flag",
+  "profiles": [
+    {
+      "name": "Camel, Cavalry",
+      "challenge": "1/2",
+      "sourceIndexChallenge": "0.5",
+      "versionKey": "4d79fa7c05f68dae55936e72",
+      "portrait": "revised draft",
+      "portraitSha256": "08b0422f73b2faece20ced3049920d0fcf69edf2581e4447bace1a35b1ef9840",
+      "galleryImageCount": 3
+    },
+    {
+      "name": "Hound, Hunting",
+      "challenge": "1/4",
+      "sourceIndexChallenge": "0.3",
+      "versionKey": "ead3d069a28db4b74aa91ccd",
+      "portrait": "revised draft",
+      "portraitSha256": "a9018e3619dde13e86b7837587da1710198c1204daec8f0829044e0b6112bd8e",
+      "galleryImageCount": 2
+    },
+    {
+      "name": "Oliphant Warbeast",
+      "challenge": "6",
+      "sourceIndexChallenge": "6.0",
+      "versionKey": "3ada03a4bd438f88402f0685",
+      "portrait": "revised draft",
+      "portraitSha256": "4de27ef553a1564051de16dcef4eb598eb60856825f9be25ad572f3416449675",
+      "galleryImageCount": 3
+    },
+    {
+      "name": "Pig, War",
+      "challenge": "1/2",
+      "sourceIndexChallenge": "0.5",
+      "versionKey": "f84af1c5b308c3ca512861a6",
+      "portrait": "revised draft",
+      "portraitSha256": "b407c6e5db13606af722b20e50fdff4a7a7ef1d0ccb190683c8818b0bae445a9",
+      "galleryImageCount": 3
+    },
+    {
+      "name": "Pigeon, Homing",
+      "challenge": "0",
+      "sourceIndexChallenge": "0.0",
+      "versionKey": "46b46146b25de417cff99c0c",
+      "portrait": "revised draft",
+      "portraitSha256": "6b2f5ce7ab490794c9a5b413f35e96dc3d62a464c3d49226e879f97e9cf87278",
+      "galleryImageCount": 2
+    }
+  ],
+  "habitatsAndAppearanceSearchable": true,
+  "creditedAlternatesPreserved": true,
+  "reusedPortraits": 0,
+  "newDrafts": 0,
+  "revisedDrafts": 5,
+  "separateMonsterVault2EntriesUnchanged": true,
+  "exactQuarterChallengeProfiles": 1
+}

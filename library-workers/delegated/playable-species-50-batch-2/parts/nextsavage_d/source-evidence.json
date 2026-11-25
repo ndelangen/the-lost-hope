@@ -1,0 +1,77 @@
+[
+  {
+    "name": "Umber Hulk",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "publisher": "Wizards of the Coast",
+    "type": "Aberration",
+    "url": "",
+    "pages": "201–202, Table A–51 on p. 202",
+    "additionalSources": [
+      {
+        "name": "D&D Monster Manual (2000), gaze attacks",
+        "url": ""
+      },
+      {
+        "name": "D&D Dungeon Master’s Guide (2000), Confused condition",
+        "url": ""
+      }
+    ],
+    "evidence": "Table A–51 grants burrow at class level 5, gaze at 7, and Large size and 10-ft. reach at 9. At 9 the class has 6d8 Hit Dice and CR 4. The table caps tremorsense at 60 ft. at 14th level, resolving the prose’s reference to a nonexistent 17th level.",
+    "catalogStatus": "Existing monster or beast record only at the batch baseline."
+  },
+  {
+    "name": "Air Elemental",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "publisher": "Wizards of the Coast",
+    "type": "Elemental (Air)",
+    "url": "",
+    "pages": "152–153, Table A–1 on p. 152",
+    "additionalSources": [
+      {
+        "name": "D&D Monster Manual (2000), Air Elemental and Whirlwind",
+        "url": ""
+      }
+    ],
+    "evidence": "Air Elemental, Large labels the endpoint of one class. At level 5 the creature is Medium, with 4d8 Hit Dice, CR 2, Whirlwind, and a 1d6 slam. Whirlwind uses the core 3.0 rules with the damage and saving throw adjustments on p. 153.",
+    "catalogStatus": "Existing monster or beast record only at the batch baseline."
+  },
+  {
+    "name": "Imp",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "publisher": "Wizards of the Coast",
+    "type": "Outsider (Evil, Lawful)",
+    "url": "",
+    "pages": "179–180, Table A–29 on p. 180",
+    "additionalSources": [
+      {
+        "name": "D&D Monster Manual (2000), Raven, p. 200",
+        "url": ""
+      },
+      {
+        "name": "Tome and Blood (2001), polymorph self, p. 95",
+        "url": ""
+      }
+    ],
+    "evidence": "Table A–29 grants one polymorph form that persists at later tiers, and at-will self-only invisibility at class level 4. The selected class level has 3d8 Hit Dice, perfect 30-ft. fly speed, DR 5/silver or holy, and no access to regeneration or later powers.",
+    "catalogStatus": "Existing monster or beast record only at the batch baseline."
+  },
+  {
+    "name": "Rakshasa",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "publisher": "Wizards of the Coast",
+    "type": "Outsider (Evil, Lawful)",
+    "url": "",
+    "pages": "191–192, Table A–41 on p. 191",
+    "additionalSources": [],
+    "evidence": "Table A–41 separates class level from sorcerer casting. At level 8, it has 4d8 Hit Dice, CR 6, casting as Sorcerer 4, 3/day detect thoughts, alternate form at will, DR 10/+2, and immunity through 3rd-level spells. The blessed-crossbow-bolt weakness is explicit in the 3.0 player rules.",
+    "catalogStatus": "Existing monster or beast record only at the batch baseline."
+  }
+]

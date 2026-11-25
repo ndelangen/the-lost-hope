@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Giant Eagle",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Monstrous Races (2018)",
+    "traits": [
+      "Tyler Kamstra's DMs Guild player conversion for 2014 fifth edition, using the v2 printed traits.",
+      "Medium Beast. Strength +1 and Dexterity +1. Walk 10 ft. and fly 60 ft. Flight requires staying out of medium and heavy armor. Giant eagles are naturally intelligent and generally neutral good.",
+      "Keen Sight grants advantage on sight-based Wisdom (Perception) checks. Lack of hands prevents wielding weapons, using shields, or operating items that need manipulation.",
+      "Talons deal 1d8 piercing on an unarmed hit. Use Strength or Dexterity for both rolls. The talons count as a finesse weapon for qualifying features, including Sneak Attack.",
+      "Speaks, reads, and writes Giant Eagle. Understands, reads, and writes Common and Auran. Giant Eagle is the only language it can speak."
+    ]
+  },
+  {
+    "name": "Giant Frog",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Monstrous Races (2018)",
+    "traits": [
+      "Tyler Kamstra's DMs Guild player conversion for 2014 fifth edition, using the v2 printed traits.",
+      "Medium awakened Beast, typically neutral. Strength +2 and Dexterity +1. Walk and swim 30 ft. Breathes air and water.",
+      "Unarmed bites deal 1d8 piercing, using Strength or Dexterity for the attack and damage. The bite counts as a finesse weapon for qualifying features. After an unarmed hit made with the Attack action, a bonus action can initiate a grapple against the creature hit.",
+      "Cannot wield weapons, use shields, or operate items that need hands. Speaks, reads, and writes Common."
+    ]
+  },
+  {
+    "name": "Giant Hyena",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Monstrous Races (2018)",
+    "traits": [
+      "Tyler Kamstra's DMs Guild player conversion for 2014 fifth edition, using the v2 printed traits.",
+      "Medium awakened Beast, typically neutral. Strength +2 and Constitution +1. Walk 30 ft. Its unarmed bite deals 1d8 piercing.",
+      "Rampage. After reducing a creature to 0 HP with a melee attack on your turn, you may spend your bonus action to move up to half your speed and make a bite attack.",
+      "Cannot wield weapons, use shields, or operate items that need hands. Speaks, reads, and writes Common."
+    ]
+  },
+  {
+    "name": "Giant Octopus",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Monstrous Races (2018)",
+    "traits": [
+      "Tyler Kamstra's DMs Guild player conversion for 2014 fifth edition, using the v2 printed traits.",
+      "Medium awakened Beast, typically neutral. Strength +2. Walk 10 ft. and swim 60 ft. Breathes underwater only, with a one-hour breath hold. Darkvision extends 60 ft. and shows darkness in grayscale.",
+      "Amorphous. Moves through openings as narrow as 1 inch without squeezing and cannot wear armor. Its tentacles can use most objects, but it cannot wield weapons or shields. Its unarmed tentacle strike deals 1d8 bludgeoning.",
+      "Underwater camouflage grants advantage on Dexterity (Stealth) checks. Underwater, release ink in a 20-ft. radius to heavily obscure the area for 1 minute or until dispersed by a significant current. May Dash as a bonus action immediately afterward. Regains ink after a short or long rest.",
+      "Speaks, reads, and writes Common."
+    ]
+  }
+]

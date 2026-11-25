@@ -1,0 +1,242 @@
+{
+  "builds": [
+    {
+      "id": "crooked-moon-2024-v11-relicborn-ione-cordsong",
+      "title": "Ione Cordsong, Relicborn Bard 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2024 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR unassigned.",
+      "size": "Medium",
+      "type": "Undead",
+      "ac": 13,
+      "hp": 10,
+      "hitDice": "1d8 + 2",
+      "initiative": 2,
+      "speed": "30 ft. walking",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 17
+      },
+      "skills": [
+        "Acrobatics +4",
+        "Insight +3",
+        "Perception +3",
+        "Performance +5",
+        "Persuasion +5"
+      ],
+      "senses": "Passive Perception 13.",
+      "languages": "Common, Elvish and Halfling.",
+      "traits": [
+        "Proficiency +2. Dexterity save +4 and Charisma save +5. Leather armor AC 13 is 11 + 2 Dexterity. HP 10 is 8 + 2 Constitution.",
+        "Entertainer raises Charisma by 2 and Dexterity by 1, supplies Acrobatics, Performance, horn proficiency, and the Musician feat. Ione plays lute, flute and drum from Bard, bagpipes, lyre and shawm from Musician, and dulcimer from Soul of Revelry.",
+        "At the end of a short or long rest Ione can play a proficient instrument and give Heroic Inspiration to two allies who hear her. A creature can hold one Heroic Inspiration, which it can spend to reroll a die immediately and keep the new result.",
+        "Ione can go without sleep. She can complete a long rest by spending four hours playing and sharing stories. Roll spell saves against DC 13. Her instrument works as a Bard spellcasting focus. She has two 1st-level spell slots per long rest."
+      ],
+      "actions": [
+        "Dagger. +4 to hit, reach 5 ft. or thrown 20/60 ft. Hit for 1d4 + 2 piercing.",
+        "Vicious Mockery, action. Choose one creature Ione can see or hear within 60 ft. Failed Wisdom save deals 1d6 psychic and imposes disadvantage on its next attack roll before its next turn ends.",
+        "Minor Illusion, action. Create a sound or a purely visual object image within 30 ft. An image must fit inside a 5-ft. cube. The illusion lasts 1 minute and ends early if Ione casts the spell again. Touch reveals an image. A creature can take the Study action and succeed on a DC 13 Intelligence (Investigation) check to identify either illusion. It becomes faint to a creature that recognizes it.",
+        "Dissonant Whispers, action and one slot. One visible creature within 60 ft. makes a Wisdom save. Failure deals 3d6 psychic and, if it has a reaction, it uses it to move as far away as it can by the safest route. Success halves the damage.",
+        "Faerie Fire, action and one slot. Within 60 ft., objects in a 20-ft. cube and creatures there that fail a Dexterity save glow. The outline sheds dim light for 10 ft. Attacks have advantage if the attacker sees the outline, and the outlined target gains no benefit from invisibility. Concentration up to 1 minute.",
+        "Thunderwave, action and one slot. A 15-ft. cube originating from Ione deals 2d8 thunder and pushes creatures 10 ft. away if they fail a Constitution save. A success halves damage and avoids the push. Unsecured objects wholly in the cube move 10 ft. The blast can be heard 300 ft. away.",
+        "Healing Word, bonus action and one slot. One creature Ione can see within 60 ft. regains 2d4 + 3 HP.",
+        "Bardic Inspiration, bonus action, three uses per long rest. Give one d6 to another creature within 60 ft. that sees or hears Ione. It can add the die to a failed D20 Test within the next hour and can hold only one Bardic Inspiration die at a time.",
+        "Dance of Death, bonus action. Roll Performance +5 against DC 15 for advantage on her next attack roll this turn. On a check total of at least 20 she also gains 1d8 temporary HP without spending the die.",
+        "Moment of Remembrance, reaction. Add 1d4 to a failed D20 Test of another creature Ione sees within 30 ft. If it changes the outcome to a success, recharge on a short or long rest."
+      ],
+      "tactics": "Ione starts with Faerie Fire when there is room to keep her companions clear. If pinned down, she drives a foe back with Dissonant Whispers. She keeps a reaction for an ally hauling someone out of trouble."
+    },
+    {
+      "id": "crooked-moon-2024-v11-silkborn-sefra-glintreed",
+      "title": "Sefra Glintreed, Silkborn Rogue 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2024 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR unassigned.",
+      "size": "Medium",
+      "type": "Humanoid",
+      "ac": 14,
+      "hp": 10,
+      "hitDice": "1d8 + 2",
+      "initiative": 5,
+      "speed": "30 ft. walking, 30 ft. climbing",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 17,
+        "CON": 14,
+        "INT": 14,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Insight +3",
+        "Investigation +6",
+        "Perception +3",
+        "Sleight of Hand +5",
+        "Stealth +7"
+      ],
+      "senses": "Darkvision 60 ft. Passive Perception 13.",
+      "languages": "Common, Dwarvish, Common Sign Language, Thieves’ Cant and Undercommon.",
+      "traits": [
+        "Proficiency +2. Dexterity save +5 and Intelligence save +4. Leather armor AC 14 is 11 + 3 Dexterity. HP 10 is 8 + 2 Constitution.",
+        "Criminal raises Dexterity by 2 and Constitution by 1, grants Sleight of Hand, Stealth and thieves’ tools, and provides Alert. Rogue gives the other listed skills and Expertise in Investigation and Stealth.",
+        "Alert adds +2 proficiency to initiative. Immediately after rolling, Sefra can swap with a willing ally in the same fight if neither is incapacitated.",
+        "Spider Climb allows hands-free movement along walls and ceilings without a check, including on difficult climbing surfaces. Intelligence governs Thaumaturgy, her only Silken Legacy spell at this level.",
+        "Weapon Mastery selects shortsword and shortbow, both Vex. After a hit that deals damage, the next attack against the same creature gains advantage if made before the end of Sefra’s next turn."
+      ],
+      "actions": [
+        "Shortsword. +5 to hit, reach 5 ft. Hit for 1d6 + 3 piercing.",
+        "Shortbow. +5 to hit, range 80/320 ft., two-handed. Hit for 1d6 + 3 piercing.",
+        "Sneak Attack. Add 1d6 piercing to one of these hits per turn if the attack has advantage. Sefra can also use it if an ally of hers is within 5 ft. of the target, the ally is not incapacitated, and Sefra does not have disadvantage.",
+        "Thaumaturgy, action. Within 30 ft., create a brief sound, open or shut an unlocked door or window, or cause a minor display such as shaking the ground, changing her eyes, changing flames or projecting her voice. Up to three ongoing effects, each up to 1 minute.",
+        "Bejeweled Carapace, reaction when hit by an attack roll. For that roll only, increase AC from 14 to 16, possibly turning the hit into a miss. Recharge on a short or long rest."
+      ],
+      "tactics": "Sefra takes the high route with both hands free. From a ceiling she shoots the opponent already closing on her escort, using Vex to set up her next shot."
+    },
+    {
+      "id": "crooked-moon-2024-v11-stoneborn-penn-talus",
+      "title": "Penn Talus, Stoneborn Fighter 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2024 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR unassigned.",
+      "size": "Medium",
+      "type": "Construct",
+      "ac": 19,
+      "hp": 12,
+      "hitDice": "1d10 + 2",
+      "initiative": 1,
+      "speed": "30 ft. walking, 15 ft. flying",
+      "abilityScores": {
+        "STR": 17,
+        "DEX": 13,
+        "CON": 15,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +5",
+        "Insight +3",
+        "Intimidation +1",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "senses": "Passive Perception 13.",
+      "languages": "Common, Dwarvish and Giant.",
+      "traits": [
+        "Proficiency +2. Strength save +5 and Constitution save +4. Chain mail 16, shield +2 and Defense style +1 give AC 19. Chain mail imposes disadvantage on Stealth checks. HP 12 is 10 + 2 Constitution.",
+        "Soldier raises Strength by 2 and Constitution by 1. It gives Athletics, Intimidation, dice proficiency and Savage Attacker. Fighter supplies Insight and Survival. Watchful Senses gives Perception.",
+        "Savage Attacker. Once per turn when Penn hits with a weapon, roll its weapon damage dice twice and use either result. Roll bonus Argent Gleam damage separately.",
+        "Weapon Mastery. Longsword Sap imposes disadvantage on the target’s next attack roll before Penn’s next turn starts. Handaxe Vex gives Penn advantage on his next attack against the damaged target before his next turn ends. Javelin Slow reduces the damaged target’s speed by 10 ft. until Penn’s next turn starts."
+      ],
+      "actions": [
+        "Longsword. +5 to hit, reach 5 ft. Hit for 1d8 + 3 slashing with the shield equipped.",
+        "Handaxe or javelin. +5 to hit, reach 5 ft. or thrown 20/60 ft. for the handaxe and 30/120 ft. for the javelin. Hit for 1d6 + 3 slashing with the handaxe or piercing with the javelin.",
+        "Second Wind, bonus action. Regain 1d10 + 1 HP. Two uses. Regain one spent use on a short rest or both on a long rest.",
+        "Argent Gleam, bonus action, one use per long rest. Choose Path’s Grace or Zealous Charge. Path’s Grace casts Bless without materials. Up to three creatures within 30 ft. add 1d4 to attack rolls and saves for up to 1 minute with concentration. Leave the sword hand free for the somatic component. Zealous Charge Dashes and makes the target of Penn’s first attack roll this turn take 2d6 radiant damage, even if the roll misses.",
+        "Silver Bulwark, reaction after taking bludgeoning, piercing or slashing damage. Gain resistance to all three until the start of Penn’s next turn. Recharge on a short or long rest."
+      ],
+      "tactics": "Penn braces at the narrowest part of the span and uses Sap against the strongest attacker. He saves his flight for stepping past a break and uses Zealous Charge if he has to close quickly."
+    },
+    {
+      "id": "crooked-moon-2024-v11-threadborn-pella-buttonkeel",
+      "title": "Pella Buttonkeel, Threadborn Monk 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2024 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR unassigned.",
+      "size": "Small",
+      "type": "Construct",
+      "ac": 15,
+      "hp": 9,
+      "hitDice": "1d8 + 1",
+      "initiative": 3,
+      "speed": "30 ft. walking",
+      "abilityScores": {
+        "STR": 10,
+        "DEX": 17,
+        "CON": 13,
+        "INT": 8,
+        "WIS": 15,
+        "CHA": 12
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Athletics +2",
+        "Insight +4",
+        "Perception +4"
+      ],
+      "senses": "Passive Perception 14.",
+      "languages": "Common, Common Sign Language and Gnomish.",
+      "traits": [
+        "Proficiency +2. Strength save +2 and Dexterity save +5. Unarmored AC 15 is 10 + 3 Dexterity + 2 Wisdom. HP 9 is 8 + 1 Constitution.",
+        "Sailor raises Dexterity by 2 and Wisdom by 1 and supplies Acrobatics, Perception, navigator’s tools and Tavern Brawler. Monk supplies Athletics, Insight and weaver’s tools.",
+        "Pella fits through openings as narrow as 1 ft., moving as through difficult terrain. She resists psychic damage and has no need for air, food or drink.",
+        "Tavern Brawler gives proficiency with improvised weapons. Reroll a damage die of 1 on an unarmed strike, using the new result. Once per turn, an unarmed damage hit as part of the Attack action can also push the target 5 ft. away."
+      ],
+      "actions": [
+        "Unarmed Strike. +5 to hit, reach 5 ft. Hit for 1d6 + 3 bludgeoning. Or Grapple or Shove, DC 13 Strength or Dexterity save chosen by the target. Pella can make an unarmed strike as a bonus action.",
+        "Guidance, action. Touch a willing creature and choose a skill. Its checks with that skill gain 1d4 while she concentrates, up to 1 minute. Wisdom governs her species spell.",
+        "You’ve Got a Friend, reaction, twice per long rest. When a creature Pella sees within 30 ft. fails a skill check, she casts Guidance, adds its 1d4 to the triggering check, and then ends the spell."
+      ],
+      "tactics": "Pella leads a rescue through gaps in the bulkhead. In a fight, she uses the Attack action to push someone away from a jammed door and leaves her reaction for whoever is working on the rope."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Relicborn",
+      "speciesPublication": "The Crooked Moon (2024 Player v1.1)",
+      "edition": "Fifth edition compatible (2024 rules)",
+      "name": "Ione Cordsong",
+      "size": "Medium",
+      "build": "crooked-moon-2024-v11-relicborn-ione-cordsong",
+      "role": "Itinerant elegist",
+      "motive": "Learn the verses that families sing for a missing person without a grave.",
+      "hook": "Ione heard a lantern keeper sing a verse she knows only from funerals. She offers the party a night of music if they will walk up to the lantern and ask where he learned it."
+    },
+    {
+      "species": "Silkborn",
+      "speciesPublication": "The Crooked Moon (2024 Player v1.1)",
+      "edition": "Fifth edition compatible (2024 rules)",
+      "name": "Sefra Glintreed",
+      "size": "Medium",
+      "build": "crooked-moon-2024-v11-silkborn-sefra-glintreed",
+      "role": "Roof courier",
+      "motive": "Keep a private delivery route open after its owners locked the usual stair.",
+      "hook": "Sefra delivers a sealed return receipt. The signer is a roofwatcher who went missing a week ago. She wants company when she makes the next delivery."
+    },
+    {
+      "species": "Stoneborn",
+      "speciesPublication": "The Crooked Moon (2024 Player v1.1)",
+      "edition": "Fifth edition compatible (2024 rules)",
+      "name": "Penn Talus",
+      "size": "Medium",
+      "build": "crooked-moon-2024-v11-stoneborn-penn-talus",
+      "role": "Bridge warden",
+      "motive": "Keep the pedestrian span open until the stonemasons finish the new pier.",
+      "hook": "Penn found a fresh chip taken from a pier below the waterline. He needs a quiet swimmer to check the lower spandrels while he holds the bridge above."
+    },
+    {
+      "species": "Threadborn",
+      "speciesPublication": "The Crooked Moon (2024 Player v1.1)",
+      "edition": "Fifth edition compatible (2024 rules)",
+      "name": "Pella Buttonkeel",
+      "size": "Small",
+      "build": "crooked-moon-2024-v11-threadborn-pella-buttonkeel",
+      "role": "Shipboard rope inspector",
+      "motive": "Keep apprentices from risking a turn aloft on worn lines.",
+      "hook": "Every rope on a moored ship was neatly unlaid overnight. Pella can tell from the twist which ropes had been replaced before the incident, and asks the party to trace the supplier."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "artGroup": "poisonous-snake",
+    "file": "portraits/poisonous-snake.png",
+    "sha256": "0618654cb0d968dc849a9fa9e98e607562be990937f801feb4059362135124e7",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "artGroup": "polar-bear",
+    "file": "portraits/polar-bear.png",
+    "sha256": "ea58cc6437d6177f689a0f7f2202fb4a102a0d79b7470b0bf21cba879f4083b4",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  }
+]

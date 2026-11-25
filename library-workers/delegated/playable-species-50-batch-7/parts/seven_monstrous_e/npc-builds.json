@@ -1,0 +1,235 @@
+{
+  "builds": [
+    {
+      "origin": "Original DM Library NPC using Tyler Kamstra’s Monstrous Races v2 player traits",
+      "type": "Undead",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "id": "mr-crawling-claw-pell-stitchfinger-5e",
+      "title": "Crawling Claw lock keeper, Fighter 2",
+      "difficulty": "Level 2 class-built NPC. No assigned challenge rating.",
+      "size": "Tiny",
+      "ac": 16,
+      "hp": 20,
+      "hitDice": "2d10+4",
+      "initiative": 3,
+      "speed": "25 ft. walk, 20 ft. climb",
+      "senses": "Blindsight 30 ft., blind beyond that radius. Passive Perception 12.",
+      "languages": "Understands, reads, and writes Common. Cannot speak.",
+      "abilityScores": {
+        "STR": 14,
+        "DEX": 17,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 10,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +4",
+        "Deception +1",
+        "Perception +2",
+        "Stealth +5"
+      ],
+      "traits": [
+        "Proficiency +2. Saves Str +4 and Con +4. Tiny studded leather plus Dexterity and Defense gives AC 12 + 3 + 1. The 13-lb. armor weighs 3.25 lb. in this size. Carrying capacity 52.5 lb.",
+        "A Criminal background grants thieves’ tools and dragonchess proficiency. Pell can use tools or write while stationary. A turn spent walking, climbing, or swimming rules out any such manipulation.",
+        "Immune to blinded, poison damage, and poisoned. Four hours of semiconscious rest replaces eight hours of sleep. Rest restores HP. Standard Cure Wounds, Healing Word, and Heal fail on Pell."
+      ],
+      "actions": [
+        "Claw. Melee unarmed strike +4 to hit, 5-ft. reach, 1d6+2 bludgeoning or slashing.",
+        "Second Wind. Bonus action once per short or long rest, regain 1d10+2 HP.",
+        "Action Surge. Once per short or long rest, take one extra action on the same turn."
+      ],
+      "tactics": "Pell signals by tapping. If rushed, climb to a blind corner and use Action Surge for a second Claw or a retreat. Pell stays still while working on a lock."
+    },
+    {
+      "origin": "Original DM Library NPC using Tyler Kamstra’s Monstrous Races v2 player traits",
+      "type": "Giant",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "id": "mr-cyclops-ora-cairnstep-5e",
+      "title": "Cyclops shepherd, Barbarian 2",
+      "difficulty": "Level 2 class-built NPC. No assigned challenge rating.",
+      "size": "Medium",
+      "ac": 16,
+      "hp": 25,
+      "hitDice": "2d12+6",
+      "initiative": 2,
+      "speed": "30 ft. walk",
+      "senses": "Passive Perception 13.",
+      "languages": "Common, Giant, and Goblin.",
+      "abilityScores": {
+        "STR": 17,
+        "DEX": 14,
+        "CON": 16,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +5",
+        "Intimidation +1",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "traits": [
+        "Proficiency +2. Saves Str +5 and Con +5. Natural armor is 14 + 2 Dex. Powerful Build gives a 510-lb. carry limit and a 1,020-lb. push, drag, or lift limit.",
+        "Outlander. Ora can find food and drink for herself and five others each day when the land provides them. She can recall the broad layout of terrain and settlements.",
+        "Poor Depth Perception imposes disadvantage on any attack roll past 30 ft. Danger Sense gives advantage on Dexterity saves against effects Ora can see while she is neither blinded, deafened, nor incapacitated.",
+        "Reckless Attack. On the first attack of a turn, Ora can choose advantage on Strength melee weapon attacks that turn. Attack rolls against her then have advantage until her next turn."
+      ],
+      "actions": [
+        "Greatclub. Melee weapon attack +5 to hit, 5-ft. reach, 1d8+3 bludgeoning, or 1d8+5 while raging.",
+        "Javelin. Melee or thrown weapon attack +5 to hit. Reach 5 ft. or range 30/120 ft. Hit 1d6+3 piercing, or 1d6+5 in melee while raging. Attacks beyond 30 ft. have disadvantage.",
+        "Rage. Bonus action, twice per long rest. Lasts up to 1 minute. Gain advantage on Strength checks and saves, +2 damage on Strength melee weapon attacks, and resistance to bludgeoning, piercing, and slashing. Rage ends early if Ora falls unconscious or ends a turn without having attacked a hostile creature since her previous turn or taken damage in that time. She can also end it as a bonus action."
+      ],
+      "tactics": "Ora uses a javelin before closing, preferring to throw at 30 ft. or less. She rages to hold a narrow pass. She attacks recklessly only when she needs to clear a way for the flock."
+    },
+    {
+      "origin": "Original DM Library NPC using Tyler Kamstra’s Monstrous Races v2 player traits",
+      "type": "Monstrosity",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "id": "mr-darkmantle-lint-bellows-5e",
+      "title": "Darkmantle cave scout, Fighter 2",
+      "difficulty": "Level 2 class-built NPC. No assigned challenge rating.",
+      "size": "Small",
+      "ac": 14,
+      "hp": 20,
+      "hitDice": "2d10+4",
+      "initiative": 2,
+      "speed": "30 ft. walk, 30 ft. fly in light armor",
+      "senses": "Blindsight 30 ft. while hearing. Passive Perception 13.",
+      "languages": "Common and Dwarvish.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +5",
+        "Medicine +3",
+        "Perception +3",
+        "Religion +1"
+      ],
+      "traits": [
+        "Proficiency +2. Saves Str +5 and Con +4. Fitted light leather with Dexterity and Defense gives AC 11 + 2 + 1. No hands for weapons, shields, or tools.",
+        "False Appearance works after one motionless minute of concentration. Lint resembles a cave formation while motionless. Deafened disables blindsight.",
+        "The Hermit background gives Lint a discovery: a disused door carries sound between two caverns."
+      ],
+      "actions": [
+        "Crush. Melee unarmed strike +5 to hit, 5-ft. reach, 1d6+3 bludgeoning. If this hits as part of the Attack action, Lint can use a bonus action to grapple the same target if it is Medium or smaller. Contest Lint’s Athletics +5 against the target’s Athletics or Acrobatics. On success the target’s speed is 0, and it can attempt the contest again with its action to escape.",
+        "Second Wind. Bonus action once per short or long rest, regain 1d10+2 HP.",
+        "Action Surge. Once per short or long rest, take one extra action on the same turn."
+      ],
+      "tactics": "Lint stays still to listen, then drops onto an intruder who approaches alone. If a grapple succeeds, Lint can drag the target at half speed. Lint releases the target if someone brings news from the other cavern."
+    },
+    {
+      "origin": "Original DM Library NPC using Tyler Kamstra’s Monstrous Races v2 player traits",
+      "type": "Undead",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "id": "mr-demilich-aster-siltglass-5e",
+      "title": "Demilich archivist, Draconic Bloodline Sorcerer 5",
+      "difficulty": "Level 5 class-built NPC. No assigned challenge rating.",
+      "size": "Small",
+      "ac": 15,
+      "hp": 37,
+      "hitDice": "5d6+10",
+      "initiative": 2,
+      "speed": "0 ft. walk, 30 ft. fly with hover",
+      "senses": "Passive Perception 10.",
+      "languages": "Common, Draconic, Dwarvish, and Elvish.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 10,
+        "CHA": 18
+      },
+      "skills": [
+        "Arcana +3",
+        "History +3",
+        "Insight +3",
+        "Intimidation +7"
+      ],
+      "traits": [
+        "Proficiency +3. Saves Con +5 and Cha +7. Copper dragon ancestry. Draconic Resilience provides AC 13 + 2 Dex and adds 5 HP across five sorcerer levels. Double the proficiency bonus on a Charisma check against dragons whenever proficiency applies.",
+        "Resist necrotic and psychic damage. Immune to poison damage, paralysis, petrification, poisoned, and prone. Four hours of semiconscious rest replaces eight hours of sleep. Rest restores HP. Cure Wounds, Healing Word, and Heal fail on Aster.",
+        "The skull acts as its own focus. Aster cannot use armor, shields, weapons, or any item requiring direct manipulation.",
+        "Aster’s phylactery is a copper tally sealed in a silted bell. Destroying it ends Aster’s existence. Body destruction alone triggers reformation beside it in 1d10 days, followed by a memoryless return to the place of destruction. Feeding it a soul after finding it would replace Aster’s current species with the original heritage and the book’s Lich template.",
+        "Spell attack +7 and spell save DC 15. Long-rest slots 4 first, 3 second, and 2 third. Cantrips known: Fire Bolt, Ray of Frost, Chill Touch, Minor Illusion, Prestidigitation. Spells known: Magic Missile, Shield, Misty Step, Web, Counterspell, Lightning Bolt. Howl is a separate daily use."
+      ],
+      "actions": [
+        "Fire Bolt. Ranged spell attack +7, range 120 ft., 2d10 fire on hit.",
+        "Ray of Frost. Ranged spell attack +7, range 60 ft., 2d8 cold on hit and speed reduced by 10 ft. until Aster’s next turn.",
+        "Chill Touch. Ranged spell attack +7, range 120 ft., 2d8 necrotic. A hit blocks healing until Aster’s next turn. An undead target also has disadvantage on attacks against Aster until the end of Aster’s next turn.",
+        "Minor Illusion. Create a sound or a still image of an object up to a 5-ft. cube within 30 ft. for up to 1 minute. Investigation DC 15 reveals the illusion. Physical interaction exposes an image.",
+        "Prestidigitation. Within 10 ft., produce a harmless sensory effect, ignite or snuff a small flame, clean or soil an object up to 1 cubic foot, chill, warm, or flavor up to 1 pound of nonliving material, add a small mark for 1 hour, or briefly make a small trinket or image. Up to three lasting effects can coexist.",
+        "Magic Missile. At first level, three darts of 1d4+1 force each, range 120 ft. Add one dart per higher slot level. Shield blocks the darts.",
+        "Shield. Reaction to being hit or targeted by Magic Missile. AC increases to 20 through the start of Aster’s next turn, including against the triggering hit. Magic Missile deals no damage during this period.",
+        "Misty Step. Bonus action, teleport up to 30 ft. to an unoccupied space Aster can see.",
+        "Web. Concentration up to 1 hour. Range 60 ft., 20-ft. cube of difficult terrain, lightly obscured. Anchor it between solid masses or layer it 5 ft. deep over a flat surface, or it collapses at the start of the next turn. A creature that enters during its turn or starts the turn there makes a DC 15 Dex save or is restrained until it leaves or escapes with an action and a DC 15 Strength check. Fire burns a 5-ft. cube of web in one round, dealing 2d4 fire damage to creatures that start their turn in the fire.",
+        "Counterspell. Reaction when Aster sees a creature within 60 ft. casting a spell. Stop a spell of level 3 or lower. For any higher level, make a Charisma check at +4, DC 10 + the spell’s level.",
+        "Lightning Bolt. A 100-ft. by 5-ft. line from Aster deals 8d6 lightning unless a DC 15 Dex save halves it.",
+        "Howl. Once per day, cast Fear. Creatures in a 30-ft. cone save at Wis DC 15 or drop what they hold, become frightened, and Dash away on their turns if possible. Concentration up to 1 minute. A creature can retry the save when it ends its turn where it cannot see Aster.",
+        "Font of Magic. Five sorcery points per long rest. Quickened Spell converts an action spell to a bonus action for 2 points. Subtle Spell removes verbal and somatic components for 1 point. As a bonus action, create a 1st-, 2nd-, or 3rd-level slot for 2, 3, or 5 points, or spend one slot to gain points equal to its level."
+      ],
+      "tactics": "Aster opens with Web to stop visitors from reaching the records, then warns them back. If trapped, use Howl in place of Web or Misty Step to find an escape. Aster uses Counterspell only when someone threatens the archive."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Crawling Claw",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr-crawling-claw-pell-stitchfinger-5e",
+      "size": "Tiny",
+      "name": "Pell Stitchfinger",
+      "role": "An undead lock keeper who works for the night crew at a freight depot.",
+      "motive": "Pell wants the depot owner to pay the wages owed to the night crew.",
+      "hook": "Pell slides a wage ledger through a door hatch. The last worker listed never came back from their shift."
+    },
+    {
+      "species": "Cyclops",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr-cyclops-ora-cairnstep-5e",
+      "size": "Medium",
+      "name": "Ora Cairnstep",
+      "role": "Shepherd who guides flocks across a mountain saddle.",
+      "motive": "Ora wants enough help to clear a blocked pass before tomorrow’s market.",
+      "hook": "She can lead the party over the pass if they bring back the goats that vanished while she was moving a fallen tree."
+    },
+    {
+      "species": "Darkmantle",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr-darkmantle-lint-bellows-5e",
+      "size": "Small",
+      "name": "Lint Bellows",
+      "role": "A cave scout who listens for messages through a sealed stone door.",
+      "motive": "Lint wants to know who began answering the old knocking code.",
+      "hook": "Lint offers to guide visitors past a deep shaft if they pass a question through the door first."
+    },
+    {
+      "species": "Demilich",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr-demilich-aster-siltglass-5e",
+      "size": "Small",
+      "name": "Aster Siltglass",
+      "role": "An archivist who still tracks floodwater claims long after the courthouse sank.",
+      "motive": "Aster needs a living witness to recover the original deed for the abandoned courthouse.",
+      "hook": "Aster can tell the party who owned a disputed vault. First, they must read the copper entries before the rising water covers the courthouse steps."
+    }
+  ]
+}

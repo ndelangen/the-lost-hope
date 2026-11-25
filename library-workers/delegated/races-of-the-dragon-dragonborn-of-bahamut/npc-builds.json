@@ -1,0 +1,111 @@
+{
+  "builds": [
+    {
+      "id": "dragonborn-of-bahamut-ember-road-warden-35e",
+      "title": "Dragonborn of Bahamut ember road warden, Heart Paladin 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "difficulty": "Provisional CR 1. ECL 1.",
+      "size": "Medium",
+      "type": "Humanoid (Dragonblood, Human)",
+      "ac": 17,
+      "hp": 13,
+      "hitDice": "1d10+3",
+      "initiative": 1,
+      "speed": "30 ft.",
+      "abilityScores": {
+        "STR": 14,
+        "DEX": 12,
+        "CON": 16,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 14
+      },
+      "skills": [
+        "Diplomacy +6",
+        "Heal +5"
+      ],
+      "senses": "Ordinary vision.",
+      "languages": "Common, Draconic",
+      "traits": [
+        "Lawful good. Aura of good. Former human. The rite retains the 30-ft. base speed and human identity for racial effects. The human bonus feat and skill points are gone. Iron Will adds +2 Will.",
+        "Chain shirt +4, heavy wooden shield +2, and Dexterity +1. Touch 11, flat-footed 16. BAB +1, grapple +3. Fortitude +5, Reflex +1, Will +3. Armor check penalty −4.",
+        "Against attacks by Dragon-type creatures, +2 dodge AC (AC 19, touch 13 when eligible for the dodge bonus). Immune to dragons’ frightful presence. Heart is his only aspect."
+      ],
+      "actions": [
+        "Longsword +3 melee, 1d8+2 slashing, critical 19–20/×2, 5-ft. reach. Javelin +2 ranged, 1d6+2 piercing, critical ×2, 30-ft. increment.",
+        "Smite evil once per day. With his longsword, +5 melee and 1d8+3 against an evil target. On another alignment, the normal attack applies and the attempt is still spent.",
+        "Heart breath: standard action, supernatural 5-ft. line, 1d8 damage. Choose acid, cold, electricity, or fire each use. Reflex DC 13 halves. Roll 1d4 rounds before using it again.",
+        "Detect evil at will, as the spell. This Paladin level grants no spells."
+      ],
+      "tactics": "Joren guards a wagon carrying people who fled the dragon’s tribute collectors. He checks the next turn in the road for danger and saves his breath for a target he can catch without putting the wagon crew in the line."
+    },
+    {
+      "id": "dragonborn-of-bahamut-ravine-rope-guard-35e",
+      "title": "Dragonborn of Bahamut ravine rope guard, Wings Fighter 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "difficulty": "Provisional CR 1. ECL 1.",
+      "size": "Medium",
+      "type": "Humanoid (Dragonblood, Dwarf)",
+      "ac": 17,
+      "hp": 13,
+      "hitDice": "1d10+3",
+      "initiative": 5,
+      "speed": "20 ft. (glide 30 ft., average)",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 12,
+        "CON": 16,
+        "INT": 10,
+        "WIS": 10,
+        "CHA": 10
+      },
+      "skills": [
+        "Climb +3",
+        "Jump +7"
+      ],
+      "senses": "Ordinary vision.",
+      "languages": "Common, Draconic, Dwarven",
+      "traits": [
+        "Lawful good. Former dwarf. Keeps the dwarf subtype, the 20-ft. base land speed, and the dwarf +2 Constitution and −2 Charisma adjustments. Rebirth adds +2 Constitution and −2 Dexterity. The rite removes darkvision, stability, and the old armored movement perk.",
+        "Chain shirt +4, heavy wooden shield +2, and Dexterity +1. Touch 11, flat-footed 16. BAB +1, grapple +4. Fortitude +5, Reflex +1, Will +0. Armor check penalty −4. Improved Initiative adds +4. Weapon Focus (longsword) adds +1 to attack.",
+        "Against attacks by Dragon-type creatures, +2 dodge AC (AC 19, touch 13 when eligible for the dodge bonus). Immune to dragons’ frightful presence.",
+        "Wings is her only aspect. Jump +7 includes 4 ranks, +3 Strength, +10 racial, −4 armor check penalty, and −6 for her 20-ft. land speed. Her listed equipment is a light load."
+      ],
+      "actions": [
+        "Longsword +5 melee, 1d8+3 slashing, critical 19–20/×2, 5-ft. reach. Javelin +2 ranged, 1d6+3 piercing, critical ×2, 30-ft. increment.",
+        "Glide with a light load at 30 ft. with average maneuverability, moving 20 ft. forward per 5 ft. of descent and negating falling damage. Orra has no powered flight at 1 HD. If unconscious or helpless in midair, her involuntary descent limits falling damage to 1d6."
+      ],
+      "tactics": "Orra wants to replace a torn ravine rope before the last travellers arrive. She can glide down with the light messenger line while the party carries the heavier replacement rope along the ridge."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Dragonborn of Bahamut",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Races of the Dragon (2006)",
+      "name": "Joren Cindervein",
+      "build": "dragonborn-of-bahamut-ember-road-warden-35e",
+      "role": "Ember road warden and Heart Paladin.",
+      "motive": "Get refugees past the dragon’s tribute collectors.",
+      "hook": "Joren can scout the next turn if the party keeps the wagon moving."
+    },
+    {
+      "species": "Dragonborn of Bahamut",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Races of the Dragon (2006)",
+      "name": "Orra Slatefall",
+      "build": "dragonborn-of-bahamut-ravine-rope-guard-35e",
+      "role": "Ravine rope guard and Wings Fighter.",
+      "motive": "Restore the torn rope crossing before the last travellers arrive.",
+      "hook": "Orra can bring a light messenger line down from the high ledge while the party carries the heavier rope."
+    }
+  ]
+}

@@ -1,0 +1,394 @@
+[
+  {
+    "name": "Air Elemental",
+    "statBlock": {
+      "name": "Air Elemental",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 13,
+      "classification": "Large elemental, neutral",
+      "ac": 15,
+      "hp": 90,
+      "hitDice": "12d10 + 24",
+      "speed": "10 ft., fly 90 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 20
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 6
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 10,
+      "description": "A wind spirit gathers clouds and gusts into the rough shape of a body. It batters foes and whirls them away.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+5 (15).",
+        "Senses": "Darkvision 60 ft..",
+        "Damage resistances": "Bludgeoning, lightning, piercing, slashing.",
+        "Damage immunities": "Poison, thunder.",
+        "Condition immunities": "Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained, Unconscious.",
+        "Languages": "Primordial (Auran).",
+        "Traits": "Air Form. The elemental can pass through a gap as narrow as 1 inch at its usual movement cost. It can enter another creature's space and stop there.",
+        "Actions": "Multiattack. Make two Thunderous Slam attacks.\nThunderous Slam. Melee attack, +8 to hit, reach 10 ft. On a hit, deal 14 (2d8 + 5) thunder damage.\nWhirlwind (recharge 4–6). Choose one Medium or smaller creature in the elemental's space. It makes a DC 13 Strength save. On a failure, it takes 24 (4d10 + 2) thunder damage, is pushed up to 20 ft. straight away from the elemental, and falls Prone. On a success, it takes half damage.",
+        "Habitats": "Deserts, mountains, and the Elemental Plane of Air.",
+        "Treasure": "None.",
+        "Appearance (1d6)": "1. Cumulus or wisps of cirrus. 2. Swirls of bright gas. 3. An acrid cloud. 4. Clouds that form animals or simple shapes. 5. A mist that barely hides a sinister face. 6. Churning thunderclouds.",
+        "Printed source": "Monster Manual (2024), p. 13."
+      }
+    }
+  },
+  {
+    "name": "Earth Elemental",
+    "statBlock": {
+      "name": "Earth Elemental",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 108,
+      "classification": "Large elemental, neutral",
+      "ac": 17,
+      "hp": 147,
+      "hitDice": "14d10 + 70",
+      "speed": "30 ft., burrow 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 8
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 10,
+      "description": "A spirit of the Plane of Earth forms a heavy body from rock and minerals. It can move through natural stone and bring down buildings with its fists.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "-1 (9).",
+        "Senses": "Darkvision 60 ft., Tremorsense 60 ft..",
+        "Damage vulnerabilities": "Thunder.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Exhaustion, Paralyzed, Petrified, Poisoned, Unconscious.",
+        "Languages": "Primordial (Terran).",
+        "Traits": "Earth Glide. Burrow through unworked, nonmagical earth or stone without disturbing it.\nSiege Monster. The elemental deals double damage to objects and structures.",
+        "Actions": "Multiattack. Make two attacks in any combination of Slam and Rock Launch.\nSlam. Melee attack, +8 to hit, reach 10 ft. On a hit, deal 14 (2d8 + 5) bludgeoning damage.\nRock Launch. Ranged attack, +8 to hit, range 60 ft. On a hit, deal 8 (1d6 + 5) bludgeoning damage. A Large or smaller creature hit by the rock falls Prone.",
+        "Habitats": "Mountains, the Elemental Plane of Earth, and the Underdark.",
+        "Treasure": "None.",
+        "Appearance (1d8)": "1. Colorful crystals. 2. Lumps of cooled magma. 3. Moss, grass, or roots. 4. Peat or rotting matter. 5. Shells embedded in sand. 6. Broken masonry. 7. Stripes of contrasting rock. 8. Veins of ore. Composition has no effect on the stat block and gives the body no added monetary value.",
+        "Printed source": "Monster Manual (2024), p. 108."
+      }
+    }
+  },
+  {
+    "name": "Fire Elemental",
+    "statBlock": {
+      "name": "Fire Elemental",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 118,
+      "classification": "Large elemental, neutral",
+      "ac": 13,
+      "hp": 93,
+      "hitDice": "11d10 + 33",
+      "speed": "50 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 10,
+      "description": "A spirit gives shape to flame, smoke, and cinders. Even a brief brush with it can ignite a creature or object.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+3 (13).",
+        "Senses": "Darkvision 60 ft..",
+        "Damage resistances": "Bludgeoning, piercing, slashing.",
+        "Damage immunities": "Fire, poison.",
+        "Condition immunities": "Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained, Unconscious.",
+        "Languages": "Primordial (Ignan).",
+        "Traits": "Fire Aura. At the end of the elemental's turn, each creature in its 10-ft. Emanation takes 5 (1d10) fire damage. Creatures and flammable objects in the area start burning.\nFire Form. It can pass through a gap as narrow as 1 inch at its usual movement cost. It can enter a creature's space and stop there. The first time on a turn that it enters a creature's space, that creature takes 5 (1d10) fire damage.\nIllumination. It sheds Bright Light out to 30 ft. and Dim Light for another 30 ft.\nWater Susceptibility. It takes 3 (1d6) cold damage per 5 ft. of movement in water and per gallon of water splashed on it.",
+        "Actions": "Multiattack. Make two Burn attacks.\nBurn. Melee attack, +6 to hit, reach 5 ft. On a hit, deal 10 (2d6 + 3) fire damage. A creature or flammable object hit by the attack also starts burning.",
+        "Burning hazard": "A burning creature or object takes 1d4 fire damage at the start of its turns. A creature can spend an action to drop Prone and roll, putting out the fire on itself. Dousing, submerging, or smothering the fire also puts it out. See Burning in the 2024 rules glossary.",
+        "Habitats": "Deserts and the Elemental Plane of Fire.",
+        "Treasure": "None.",
+        "Appearance (1d8)": "1. Colored gas. 2. A pillar of divine or infernal fire. 3. Flames that suggest a creature or skeleton. 4. Blue, white, or other unusually colored flame. 5. A still or anguished humanoid outline. 6. Smoke that traces shapes or sigils. 7. Soot with a distinctive scent. 8. A whirl of cinders and debris.",
+        "Printed source": "Monster Manual (2024), p. 118. Burning follows Player's Handbook (2024), p. 362."
+      }
+    }
+  },
+  {
+    "name": "Water Elemental",
+    "statBlock": {
+      "name": "Water Elemental",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 322,
+      "classification": "Large elemental, neutral",
+      "ac": 14,
+      "hp": 114,
+      "hitDice": "12d10 + 48",
+      "speed": "30 ft., swim 90 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 10,
+      "description": "A spirit shapes water into a moving surge. It can flood over foes, pinning them inside its body.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+2 (12).",
+        "Senses": "Darkvision 60 ft..",
+        "Damage resistances": "Acid, fire.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained, Unconscious.",
+        "Languages": "Primordial (Aquan).",
+        "Traits": "Freeze. Cold damage reduces the elemental's Speed by 20 ft. until the end of its next turn.\nWater Form. It can pass through a gap as narrow as 1 inch at its usual movement cost. It can enter an enemy's space and stop there.",
+        "Actions": "Multiattack. Make two Slam attacks.\nSlam. Melee attack, +7 to hit, reach 5 ft. On a hit, deal 13 (2d8 + 4) bludgeoning damage. A Medium or smaller creature hit by the attack falls Prone.\nWhelm (recharge 4–6). Each creature in the elemental's space makes a DC 15 Strength save. On a failure, it takes 22 (4d8 + 4) bludgeoning damage. A Large or smaller creature that fails is also Grappled (escape DC 14). While Grappled by Whelm, the creature is Restrained, suffocates unless it can breathe water, and takes 9 (2d8) bludgeoning damage at the start of each of the elemental's turns. Whelm can hold one Large creature or up to two Medium or smaller creatures at once. A creature within 5 ft. of the elemental can spend an action and make a DC 14 Strength (Athletics) check to pull a creature out. On a successful save against Whelm, the target takes half damage.",
+        "Suffocation hazard": "A target suffocating in Whelm gains one level of Exhaustion at the end of each of its own turns. Once it can breathe again, remove the Exhaustion it gained from suffocation. See Suffocation in the 2024 rules glossary.",
+        "Habitats": "Coasts, swamps, underwater, and the Elemental Plane of Water.",
+        "Treasure": "None.",
+        "Appearance (1d4)": "1. Frigid or near boiling. 2. Bubbling. 3. Clear, muddy, or polluted. 4. Carrying seaweed or small aquatic creatures.",
+        "Printed source": "Monster Manual (2024), p. 322. Suffocation follows the 2024 rules glossary."
+      }
+    }
+  },
+  {
+    "name": "Invisible Stalker",
+    "statBlock": {
+      "name": "Invisible Stalker",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 180,
+      "classification": "Large elemental, neutral",
+      "ac": 14,
+      "hp": 97,
+      "hitDice": "13d10 + 26",
+      "speed": "50 ft., fly 50 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 19
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "6",
+      "xp": 2300,
+      "passivePerception": 18,
+      "skills": {
+        "Perception": 8,
+        "Stealth": 10
+      },
+      "description": "A bodiless air spirit tracks its quarry unseen. Spellcasters summon stalkers to kill or steal, and a faint stir in the air may be the only sign of one.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+7 (17).",
+        "Senses": "Darkvision 60 ft..",
+        "Damage resistances": "Bludgeoning, piercing, slashing.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained, Unconscious.",
+        "Languages": "Common, Primordial (Auran).",
+        "Traits": "Air Form. The stalker can pass through a gap as narrow as 1 inch at its usual movement cost. It can enter an enemy's space and stop there.\nInvisibility. The stalker has the Invisible condition.",
+        "Actions": "Multiattack. Make three Wind Swipe attacks. The stalker can replace one of those attacks with Vortex.\nWind Swipe. Melee attack, +7 to hit, reach 5 ft. On a hit, deal 11 (2d6 + 4) force damage.\nVortex. Choose one Large or smaller creature in the stalker's space. It makes a DC 14 Constitution save. On a failure, it takes 7 (1d8 + 3) thunder damage and is Grappled (escape DC 13). While Grappled by Vortex, it cannot cast spells that have a Verbal component. At the start of each of the stalker's turns, the target takes 7 (2d6) thunder damage until the grapple ends.",
+        "Habitats": "Urban areas.",
+        "Treasure": "None.",
+        "Uncontrolled stalkers (1d6)": "1. The breath of a god or monster. 2. A guardian of a portal or magical site. 3. A remnant of violent thoughts from a battle. 4. Magic that escaped control. 5. A servant of an elemental ruler such as Yan-C-Bin. 6. A stalker trying to create the conditions needed to finish an old assignment.",
+        "Printed source": "Monster Manual (2024), p. 180."
+      }
+    }
+  },
+  {
+    "name": "Shambling Mound",
+    "statBlock": {
+      "name": "Shambling Mound",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 276,
+      "classification": "Large plant, unaligned",
+      "ac": 15,
+      "hp": 110,
+      "hitDice": "13d10 + 39",
+      "speed": "30 ft., swim 20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 8
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 10,
+      "skills": {
+        "Stealth": 3
+      },
+      "description": "A mass of vegetation moves through marsh and undergrowth. It catches creatures with its vines and draws them inside to feed its growth.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "-1 (9).",
+        "Senses": "Blindsight 60 ft..",
+        "Damage resistances": "Cold, fire.",
+        "Damage immunities": "Lightning.",
+        "Condition immunities": "Deafened, Exhaustion.",
+        "Languages": "None.",
+        "Traits": "Lightning Absorption. When subjected to lightning damage, the mound regains hit points equal to the lightning damage dealt.",
+        "Actions": "Multiattack. Make three Charged Tendril attacks. The mound can replace one of those attacks with Engulf.\nCharged Tendril. Melee attack, +7 to hit, reach 10 ft. On a hit, deal 7 (1d6 + 4) bludgeoning damage plus 5 (2d4) lightning damage. If the target is a Medium or smaller creature, the mound pulls it 5 ft. straight toward itself.\nEngulf. Choose one Medium or smaller creature within 5 ft. The target makes a DC 15 Strength save. On a failure, the mound pulls it into its space and the target is Grappled (escape DC 14). While Grappled by Engulf, the target is Blinded and Restrained and takes 10 (3d6) lightning damage at the start of each of its own turns. It moves with the mound at no extra movement cost to the mound. Engulf can hold only one creature at a time.",
+        "Habitats": "Forests and swamps.",
+        "Treasure": "None.",
+        "Origins and appearance (1d6)": "1. Covered in alien flowers or Feywild blooms. 2. Carrying a rune-covered standing stone in its torso. 3. Hosting vermin or fungi. 4. A knot of vines around skeletons. 5. Mutated and leaking glowing waste. 6. The remains of an ancient tree or Treant.",
+        "Printed source": "Monster Manual (2024), p. 276."
+      }
+    }
+  },
+  {
+    "name": "Treant",
+    "statBlock": {
+      "name": "Treant",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 308,
+      "classification": "Huge plant, chaotic good",
+      "ac": 16,
+      "hp": 138,
+      "hitDice": "12d12 + 60",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 23
+        },
+        "Dex": {
+          "score": 8
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "9",
+      "xp": 5000,
+      "passivePerception": 13,
+      "description": "A living tree of great age guards its forest and calls nearby trees to help defend it.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+3 (13).",
+        "Damage vulnerabilities": "Fire.",
+        "Damage resistances": "Bludgeoning, piercing.",
+        "Languages": "Common, Druidic, Elvish, Sylvan.",
+        "Traits": "Siege Monster. The treant deals double damage to objects and structures.",
+        "Actions": "Multiattack. Make two Slam attacks.\nSlam. Melee attack, +10 to hit, reach 5 ft. On a hit, deal 16 (3d6 + 6) bludgeoning damage.\nHail of Bark. Ranged attack, +10 to hit, range 180 ft. On a hit, deal 28 (4d10 + 6) piercing damage.\nAnimate Trees (1/day). Magically animate up to two trees the treant can see within 60 ft. An animated tree uses this Treant stat block. Set its Intelligence and Charisma to 1, remove its ability to speak, and remove Animate Trees from its actions. The tree obeys the treant and takes its turn immediately after the treant on the same Initiative count. Animation lasts for 1 day and ends early if either the tree or the treant dies, or if the tree moves more than 120 ft. from the treant. When the effect ends, the tree takes root if it can.",
+        "Habitats": "Forests.",
+        "Treasure": "None.",
+        "Forest secrets (1d6)": "1. A divine blessing that lets it grow magic fruit. 2. A dungeon mouth or Feywild portal beneath its roots. 3. A community of pixies or sprites in its branches. 4. Lost druidic knowledge. 5. A hero's burial mound whose animated trees resemble questing knights. 6. A hollow that holds the bones of the person who set it on fire.",
+        "Printed source": "Monster Manual (2024), p. 308."
+      }
+    }
+  }
+]

@@ -1,0 +1,5 @@
+# Shoal Halfling from Stormwrack
+
+This batch adds the Shoal Halfling from the August 2005 first printing and two original encounters. The variant keeps the standard halfling save and Listen bonuses and the Small size attack bonus. It adds amphibious breathing and a 20-ft. swim speed. It loses the separate racial bonuses with slings and thrown weapons and to Climb, Jump, and Move Silently. [Original rules, pp. 45–46]() · [Source notes](independent-source-notes.md) · [Encounter cards](encounter-cards.md) · [Rules patch](rules.patch)
+
+Tess’s portrait uses the approved plain tan parchment. The second pass gives her a more compact silhouette and more room above her hair. The temporary copy found the Shoal Halfling by name, rule, and encounter role, returned both builds, and resolved Tess’s portrait as the new list thumbnail. The separate Halfling entry matched its before snapshot. [Portrait before and after](portrait-comparison.jpg) · [Parchment comparison](style-comparison.jpg) · [96 px thumbnail](portrait-thumbnails.jpg) · [ImageGen prompts](portrait-prompts.json) · [Verification](verification.json)

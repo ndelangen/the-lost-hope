@@ -5,6 +5,7 @@ export default createEvent({
   name: 'A phoenix feather guides the party out of the shadow realm',
   day: 9,
   location: refs.locations.shadow_realm,
+  illustrations: ['/assets/scenes/a-phoenix-feather-guides-the-party-out-of-the-shadow-realm.png'],
   mark: { type: 'icon', name: 'gi/GiFeather' },
   notes: [
     [refs.items.phoenix_feather, ' cast bright light, guiding the party to safety.'],

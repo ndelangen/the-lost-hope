@@ -1,0 +1,154 @@
+[
+  {
+    "name": "Bat",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "copyrightYear": 1993,
+    "printing": "Third printing, January 1994",
+    "productNumber": 2140,
+    "isbn": "1-56076-619-0",
+    "section": "Bat",
+    "printedColumn": "Common",
+    "printedPages": [
+      15
+    ],
+    "printScanViewer": "https://online.anyflip.com/vjcbu/qkrw/",
+    "pageImages": [
+      {
+        "printedPage": 15,
+        "viewerPage": 18,
+        "imageUrl": "https://online.anyflip.com/vjcbu/qkrw/files/large/bdd98c9a7333e11f12af09bcf01273ad.webp",
+        "sha256": "ba9d21bb53c5a2af2394a3ceef2ee27357f066bbdcab4da900fa149a1a2b9bf0"
+      }
+    ],
+    "creditsPrintScan": "https://online.anyflip.com/vjcbu/qkrw/files/large/efaf128f9ea2ed636f64e32847d3e254.webp",
+    "digitalTextCrossCheck": "",
+    "numberAppearing": "1–100",
+    "organization": "Swarm",
+    "sharedFamilyArtwork": {
+      "printedPage": 16,
+      "specificFormUnconfirmed": true,
+      "individualArtistUnconfirmed": true
+    },
+    "entryId": "beast-ca5bcec12f716f44d9745d34",
+    "versionKey": "ad5b27eaa2dbdf5434181801",
+    "slug": "bat",
+    "query": "bat swarm torches wisdom",
+    "appearanceQuery": "bat mouse-like wing bones",
+    "habitatQuery": "bat humid crevices",
+    "portraitSelection": "generated",
+    "printedHitDiceField": "1–2 hp",
+    "printedMorale": "Unreliable (2–4)",
+    "digitalMorale": "Unreliable (2–5)"
+  },
+  {
+    "name": "Giant Bat",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "copyrightYear": 1993,
+    "printing": "Third printing, January 1994",
+    "productNumber": 2140,
+    "isbn": "1-56076-619-0",
+    "section": "Bat",
+    "printedColumn": "Large (Large Bat)",
+    "printedPages": [
+      15
+    ],
+    "printScanViewer": "https://online.anyflip.com/vjcbu/qkrw/",
+    "pageImages": [
+      {
+        "printedPage": 15,
+        "viewerPage": 18,
+        "imageUrl": "https://online.anyflip.com/vjcbu/qkrw/files/large/bdd98c9a7333e11f12af09bcf01273ad.webp",
+        "sha256": "ba9d21bb53c5a2af2394a3ceef2ee27357f066bbdcab4da900fa149a1a2b9bf0"
+      }
+    ],
+    "creditsPrintScan": "https://online.anyflip.com/vjcbu/qkrw/files/large/efaf128f9ea2ed636f64e32847d3e254.webp",
+    "digitalTextCrossCheck": "",
+    "numberAppearing": "3–18",
+    "organization": "Flock",
+    "sharedFamilyArtwork": {
+      "printedPage": 16,
+      "specificFormUnconfirmed": true,
+      "individualArtistUnconfirmed": true
+    },
+    "entryId": "beast-9c56a844ca4260d80807d1f8",
+    "versionKey": "8a84fb1057acf13fa10c1c94",
+    "slug": "giant-bat",
+    "query": "giant bat land bite dexterity",
+    "appearanceQuery": "giant bat carnivorous wingspan",
+    "habitatQuery": "giant bat dark caverns underground",
+    "portraitSelection": "generated",
+    "printedHitDiceField": "1d4 hp or 1",
+    "printedThac0Field": "19 or 20"
+  },
+  {
+    "name": "Mobat",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "copyrightYear": 1993,
+    "printing": "Third printing, January 1994",
+    "productNumber": 2140,
+    "isbn": "1-56076-619-0",
+    "section": "Bat",
+    "printedColumn": "Huge (Huge Bat, Mobat)",
+    "printedPages": [
+      15,
+      16
+    ],
+    "printScanViewer": "https://online.anyflip.com/vjcbu/qkrw/",
+    "pageImages": [
+      {
+        "printedPage": 15,
+        "viewerPage": 18,
+        "imageUrl": "https://online.anyflip.com/vjcbu/qkrw/files/large/bdd98c9a7333e11f12af09bcf01273ad.webp",
+        "sha256": "ba9d21bb53c5a2af2394a3ceef2ee27357f066bbdcab4da900fa149a1a2b9bf0"
+      },
+      {
+        "printedPage": 16,
+        "viewerPage": 19,
+        "imageUrl": "https://online.anyflip.com/vjcbu/qkrw/files/large/4ef87b704dca99fd16240b23494fd32e.webp",
+        "sha256": "1c461893e1e575988c3314ff93e9cbbfa631030e48fc769edca7f437a9182ce3"
+      }
+    ],
+    "creditsPrintScan": "https://online.anyflip.com/vjcbu/qkrw/files/large/efaf128f9ea2ed636f64e32847d3e254.webp",
+    "digitalTextCrossCheck": "",
+    "numberAppearing": "1–8",
+    "organization": "Flock",
+    "sharedFamilyArtwork": {
+      "printedPage": 16,
+      "specificFormUnconfirmed": true,
+      "individualArtistUnconfirmed": true
+    },
+    "entryId": "beast-32d46d8d6fe6af093ba6a605",
+    "versionKey": "de18e79554f7a0b601ed8324",
+    "slug": "mobat",
+    "query": "mobat screech paralyzation surprise",
+    "appearanceQuery": "mobat fanged wingspan",
+    "habitatQuery": "mobat warm caves flight runways",
+    "portraitSelection": "generated",
+    "printedStatVariants": [
+      {
+        "hitDice": "4",
+        "thac0": 17,
+        "xp": 420
+      },
+      {
+        "hitDice": "5",
+        "thac0": 15,
+        "xp": 650
+      },
+      {
+        "hitDice": "6",
+        "thac0": 15,
+        "xp": 975
+      }
+    ]
+  }
+]

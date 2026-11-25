@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Awakened Shrub",
+    "file": "portraits/awakened-shrub.png",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "sha256": "2a4a4c29ae6d9d388758abc183cd83f791c540d04db320e0c0f40baac055c467"
+  },
+  {
+    "name": "Axe Beak",
+    "file": "portraits/axe-beak.png",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "sha256": "72cad449516ceb738af0cbe825b2f5a606f2147b25f8febd3c02aa604b89859a"
+  },
+  {
+    "name": "Blink Dog",
+    "file": "portraits/blink-dog.png",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "sha256": "c66b6fd21f98157be91cfd67835e96973c14be591e3c340959b5d2257d2bd4a5"
+  },
+  {
+    "name": "Death Dog",
+    "file": "portraits/death-dog.png",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "sha256": "6da424572063f4fc1ce3548c387843f994ef2de14c109e22204dad150552a34a"
+  },
+  {
+    "name": "Giant Fire Beetle",
+    "file": "portraits/giant-fire-beetle.png",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "sha256": "9fb595b5d3c4aa5d0ba116606e127a9bf55d20225f58d580fe582f55fb589662"
+  }
+]

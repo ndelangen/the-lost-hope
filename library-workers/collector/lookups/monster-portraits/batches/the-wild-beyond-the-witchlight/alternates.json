@@ -1,0 +1,79 @@
+[
+  {
+    "entityKind": "monster",
+    "name": "Shadow (Variant)",
+    "publication": "The Wild Beyond the Witchlight",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/shadow-variant/hourglass-coven-dawn-carlos.webp",
+    "artist": "Adventure illustration of Gleam’s shadow by Dawn Carlos",
+    "kind": "illustration",
+    "sha256": "15afee2b9bdcdafcc61bebbca494dee1d962a573d8e8371eac00232d216d8978",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/adventure/WBtW/016-01-002.hourglass-coven.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Shadow (Variant)",
+    "publication": "The Wild Beyond the Witchlight",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/shadow-variant/detached-shadow-wbtw-token.webp",
+    "artist": "Source token: Detached Shadow",
+    "kind": "token",
+    "sha256": "7479c02b8c674f0af2593c75341ccf08e0988a99570387c13d25d0d8c22b30a8",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/WBtW/Detached%20Shadow.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Will-o’-Wisp (Variant)",
+    "publication": "The Wild Beyond the Witchlight",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/will-o-wisp-variant/will-o-wells-wbtw-token.webp",
+    "artist": "Source token: Will-o’-Wells",
+    "kind": "token",
+    "sha256": "f35c16157aa028958c7c5aceac6e8bfdbc31b7132eb74b3d87fcf29b4c2b346b",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/WBtW/Will-o%27-Wells.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Will-o’-Wisp (Variant)",
+    "publication": "The Wild Beyond the Witchlight",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/will-o-wisp-variant/will-o-wisp-mm.webp",
+    "artist": "Base creature art: Will-o’-Wisp · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "3e6703f1e6808aeb9905fcde7cec7832b08be022424e03a4475d5b108a6c08e5",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/MM/Will-o%27-Wisp.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Witchlight Hand",
+    "publication": "The Wild Beyond the Witchlight",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/witchlight-hand/witchlight-hand-medium-wbtw-token.webp",
+    "artist": "Source token: Witchlight Hand (Medium)",
+    "kind": "token",
+    "sha256": "3fa888fb96d6fb348a6a9347de4dc4001663e28d31b180fe5cf1b30b3ca6adaa",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/WBtW/Witchlight%20Hand%20%28Medium%29.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Witchlight Hand",
+    "publication": "The Wild Beyond the Witchlight",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/witchlight-hand/witchlight-hand-small-wbtw-token.webp",
+    "artist": "Source token: Witchlight Hand (Small)",
+    "kind": "token",
+    "sha256": "aeba0cd74ecacda61b54f5790f026b9131a363ce6248354573af437bb29e698f",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/WBtW/Witchlight%20Hand%20%28Small%29.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Witchlight Hand",
+    "publication": "The Wild Beyond the Witchlight",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/witchlight-hand/fire-breather-clint-cearley.webp",
+    "artist": "Adventure illustration of the Witchlight fire-breather by Clint Cearley",
+    "kind": "illustration",
+    "sha256": "9d98a394f27840ceaa6d077412fec577d9c95784f5f234db4d8261bacacc40ac",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/adventure/WBtW/017-01-003.fire-breather.webp"
+  }
+]

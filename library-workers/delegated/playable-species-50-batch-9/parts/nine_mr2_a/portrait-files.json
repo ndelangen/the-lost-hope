@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Elder Brain",
+    "file": "portraits/elder-brain.png",
+    "sha256": "bf6074ca0021645f0751bfadc1b0c563d2c7bd154e50d46a31ffa395b8a72365",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Quickling",
+    "file": "portraits/quickling.png",
+    "sha256": "8135b5182c06dee05e3f1e08b1651ae4ac89e336049e081b2f7fbb3d34b14b5e",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Sea Spawn",
+    "file": "portraits/sea-spawn.png",
+    "sha256": "d997cd35a33d7daf9138ec53f7c4585bc559e089fd625c0368bea5a7623f4199",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Shadow Mastiff",
+    "file": "portraits/shadow-mastiff.png",
+    "sha256": "e5d4ea3cf3c7d60943f5eb0979a5957d8b8f7a58e1b19e932a3e61829079d917",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Slithering Tracker",
+    "file": "portraits/slithering-tracker.png",
+    "sha256": "0be169e7e4fb56bf591a7be13163dd46aa0a6ebd234de10f8f1edeb1fac4d4be",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  }
+]

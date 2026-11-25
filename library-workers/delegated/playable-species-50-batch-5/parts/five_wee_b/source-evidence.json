@@ -1,0 +1,224 @@
+[
+  {
+    "name": "Pooka",
+    "publication": "Tall Tales of the Wee Folk (PC1, 1989)",
+    "edition": "Basic D&D (BECMI)",
+    "publisher": "TSR",
+    "creatureType": "Fairy",
+    "url": "",
+    "printedPages": [
+      4,
+      5,
+      6,
+      24,
+      25,
+      34,
+      35,
+      36
+    ],
+    "pdfPages": [
+      6,
+      7,
+      8,
+      26,
+      27,
+      36,
+      37,
+      38,
+      99
+    ],
+    "primaryBook": "PC1 Creature Crucible, TSR 9254, 1989",
+    "supportingSources": {
+      "rulesCyclopedia": {
+        "url": "",
+        "rules": "Thief saves p. 22, monster attacks p. 107."
+      },
+      "archivedFacsimile": {
+        "url": ""
+      }
+    },
+    "sourceDistinctions": [
+      "Table 14 and the playable equipment text give the model for the worked NPC. The separately printed general monster stat block has average AC 4, and the playable profile starts from AC 7.",
+      "The book gives rabbits and a wide variety of other animal forms as examples. This NPC uses a quadrupedal hare, with no default combat attack or wearable gear. No damage or condition is assigned to the NPC’s dreams.",
+      "The printed time stop heading gives a use formula but omits its unlock level. The profile leaves the unlock unspecified."
+    ]
+  },
+  {
+    "name": "Sidhe",
+    "publication": "Tall Tales of the Wee Folk (PC1, 1989)",
+    "edition": "Basic D&D (BECMI)",
+    "publisher": "TSR",
+    "creatureType": "Fairy",
+    "url": "",
+    "printedPages": [
+      4,
+      5,
+      6,
+      24,
+      25,
+      37,
+      38,
+      41,
+      49
+    ],
+    "pdfPages": [
+      6,
+      7,
+      8,
+      26,
+      27,
+      39,
+      40,
+      43,
+      51,
+      99
+    ],
+    "primaryBook": "PC1 Creature Crucible, TSR 9254, 1989",
+    "supportingSources": {
+      "rulesCyclopedia": {
+        "url": "",
+        "rules": "Fighter saves p. 17, Detect Magic pp. 44–45, sword statistics pp. 62–63, chain armor p. 65, monster attacks p. 107."
+      },
+      "archivedFacsimile": {
+        "url": ""
+      }
+    },
+    "sourceDistinctions": [
+      "Tables 15–16 govern both paths. The warrior’s two d4 rolls at level 1 are one effective Hit Die for the attack matrix. Only the warrior was instantiated.",
+      "PC1 permits fighters’ armor made without iron. For Ivara’s bronze chain shirt, use standard chain mail AC 5 and 400 coin weight. Table 19 assigns separate statistics to bronze plate."
+    ]
+  },
+  {
+    "name": "Sprite",
+    "publication": "Tall Tales of the Wee Folk (PC1, 1989)",
+    "edition": "Basic D&D (BECMI)",
+    "publisher": "TSR",
+    "creatureType": "Fairy",
+    "url": "",
+    "printedPages": [
+      4,
+      5,
+      6,
+      24,
+      25,
+      31,
+      32,
+      33,
+      41
+    ],
+    "pdfPages": [
+      6,
+      7,
+      8,
+      26,
+      27,
+      33,
+      34,
+      35,
+      43,
+      99,
+      101
+    ],
+    "primaryBook": "PC1 Creature Crucible, TSR 9254, 1989",
+    "supportingSources": {
+      "rulesCyclopedia": {
+        "url": "",
+        "rules": "Elf saves p. 26, Magic Missile p. 45, monster attacks p. 107, cooperative curse p. 208."
+      },
+      "archivedFacsimile": {
+        "url": ""
+      }
+    },
+    "sourceDistinctions": [
+      "Uses the playable natural AC 8 with Dexterity. The standard encounter Sprite has AC 5. The 1st-level spell comes from Table 13.",
+      "Ruling handles the five-Sprite curse as the same harmless effect described in the Rules Cyclopedia, with removal by Remove Curse. The caster cannot perform it alone at the selected tier."
+    ]
+  },
+  {
+    "name": "Wood Imp",
+    "publication": "Tall Tales of the Wee Folk (PC1, 1989)",
+    "edition": "Basic D&D (BECMI)",
+    "publisher": "TSR",
+    "creatureType": "Humanoid",
+    "url": "",
+    "printedPages": [
+      4,
+      5,
+      6,
+      18,
+      19,
+      20,
+      21,
+      22,
+      49
+    ],
+    "pdfPages": [
+      6,
+      7,
+      8,
+      20,
+      21,
+      22,
+      23,
+      24,
+      51,
+      99
+    ],
+    "primaryBook": "PC1 Creature Crucible, TSR 9254, 1989",
+    "supportingSources": {
+      "rulesCyclopedia": {
+        "url": "",
+        "rules": "Fighter saves p. 17, shortbow p. 62, missile attack adjustments pp. 105–107."
+      },
+      "archivedFacsimile": {
+        "url": ""
+      }
+    },
+    "sourceDistinctions": [
+      "Playable Table 7 gives 1d4 at 0 XP. Its footnote identifies the different Creature Catalogue monster Hit Dice. The worked build is beyond that tier at 1st level with 2d4.",
+      "Apply p. 49’s miniature weapon adjustment by dropping shortbow damage from 1d6 to 1d4. The bow uses standard range bands because the miniature guidelines do not specify alternatives. Its fitted bow, six arrows and light kit weigh at most 25 cn as permitted by the DM-assigned miniature gear weight guidance."
+    ]
+  },
+  {
+    "name": "Woodrake",
+    "publication": "Tall Tales of the Wee Folk (PC1, 1989)",
+    "edition": "Basic D&D (BECMI)",
+    "publisher": "TSR",
+    "creatureType": "Fairy",
+    "url": "",
+    "printedPages": [
+      4,
+      5,
+      6,
+      24,
+      25,
+      39,
+      40
+    ],
+    "pdfPages": [
+      6,
+      7,
+      8,
+      26,
+      27,
+      41,
+      42,
+      99
+    ],
+    "primaryBook": "PC1 Creature Crucible, TSR 9254, 1989",
+    "supportingSources": {
+      "rulesCyclopedia": {
+        "url": "",
+        "rules": "Magic-user saves p. 19, thief table and backstab pp. 22–23, dagger pp. 62–63, character movement pp. 87–88, monster attack table p. 107, Wooddrake description p. 173."
+      },
+      "archivedFacsimile": {
+        "url": ""
+      }
+    },
+    "sourceDistinctions": [
+      "Table 17 gives negative XP tiers of −16,000, −12,000, and −8,000. The adjacent natural weapon and thief descriptions start their three stages at −8,000, −6,000, and −4,000. The 0 XP tier is clear in both, so the worked NPC needs no reconciliation of the juvenile milestones.",
+      "Uses optional PC1 round-based immunity and PC1 playable Armor Class. Allows one round to shapechange and has Clove set down gear, since the ability specifies neither timing nor gear treatment.",
+      "The Rules Cyclopedia’s Wooddrake supplies dark-green pigmentation and medium size. PC1 describes the true form as resembling a small red dragon. The selected art uses the original shape comparison and the explicitly printed dark-green coloring."
+    ]
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "entityKind": "monster",
+    "name": "Doom Guard",
+    "publication": "Monstrous Compendium, Appendices I & II (1996)",
+    "edition": "AD&D 2nd edition",
+    "file": "images/monsters/doom-guard/doom-guard-compendium.png",
+    "artist": "Original Compendium illustration, p. 17",
+    "kind": "illustration",
+    "sha256": "734e027782e8f817792bcdb9ba726e44f6695826b4acdb2ccf7bb96583f25476"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Doom Guard",
+    "publication": "Monstrous Compendium, Appendices I & II (1996)",
+    "edition": "AD&D 2nd edition",
+    "file": "images/monsters/doom-guard/animated-armor-2014-related.webp",
+    "artist": "Related Animated Armor art · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "2d335f3a0ac48a29c74c14072d529b998a08689aa71bc11ab5851d5311f1a483",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/MM/Animated%20Armor.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Gnome Vampire",
+    "publication": "Monstrous Compendium, Appendices I & II (1996)",
+    "edition": "AD&D 2nd edition",
+    "file": "images/monsters/gnome-vampire/gnome-vampire-compendium.png",
+    "artist": "Original Compendium illustration by Tom Baxa, p. 58",
+    "kind": "illustration",
+    "sha256": "2accb19bb292a60a1ce752a7e1619628319d8f2f25900cf7618f3e330c5f8a54"
+  }
+]

@@ -1,0 +1,168 @@
+[
+  {
+    "name": "Giant Owl",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "D&D Basic Rules v1.0, November 2018 ",
+    "printedPage": 134,
+    "printedPages": [
+      134
+    ],
+    "section": "Chapter 12, Monsters",
+    "sourceUrl": "",
+    "url": "",
+    "appearanceEvidence": "The sources give Large size, flight and talon attacks. The feather color, facial disc and stance depict the selected portrait.",
+    "habitatEvidence": "Both sources name woodland realms. Old-growth forest is an editorial suggestion within that printed habitat.",
+    "habitatSourceKind": "Editorial encounter suggestions. Where relevant they draw on printed creature and group lore.",
+    "rulesComparison": "The default Giant Owl stat block matches across the scoped printings.",
+    "pdfPage": 134,
+    "viewerPages": [
+      134
+    ],
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3",
+    "mechanicsNotes": [
+      "The language line allows the owl to speak Giant Owl. The other three languages are understood only."
+    ]
+  },
+  {
+    "name": "Giant Owl",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "2014 rules, 11th printing checked",
+    "printedPage": 327,
+    "printedPages": [
+      327
+    ],
+    "section": "Appendix A, Miscellaneous Creatures",
+    "sourceUrl": "https://anyflip.com/kqwdv/eoae/basic/301-350#p=328",
+    "url": "https://anyflip.com/kqwdv/eoae/basic/301-350#p=328",
+    "appearanceEvidence": "The sources give Large size, flight and talon attacks. The feather color, facial disc and stance depict the selected portrait.",
+    "habitatEvidence": "Both sources name woodland realms. Old-growth forest is an editorial suggestion within that printed habitat.",
+    "habitatSourceKind": "Editorial encounter suggestions. Where relevant they draw on printed creature and group lore.",
+    "rulesComparison": "The default Giant Owl stat block matches across the scoped printings.",
+    "viewerPages": [
+      328
+    ],
+    "errata": "",
+    "errataNotes": "No entry-specific correction applies to this stat block.",
+    "secondaryCrossCheck": "5etools matches the default rules visible in the printed block.",
+    "mechanicsNotes": [
+      "The language line allows the owl to speak Giant Owl. The other three languages are understood only."
+    ]
+  },
+  {
+    "name": "Giant Poisonous Snake",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "D&D Basic Rules v1.0, November 2018 ",
+    "printedPage": 134,
+    "printedPages": [
+      134
+    ],
+    "section": "Chapter 12, Monsters",
+    "sourceUrl": "",
+    "url": "",
+    "appearanceEvidence": "Both books give Medium size and a venomous bite. The coiled posture, head shape and pattern depict the selected portrait.",
+    "habitatEvidence": "Riverbanks, marshes and wet grassland are editorial encounter suggestions based on the printed swimming speed and the pictured form.",
+    "habitatSourceKind": "Editorial encounter suggestions. Where relevant they draw on printed creature and group lore.",
+    "rulesComparison": "The default Giant Poisonous Snake stat block matches across the scoped printings.",
+    "pdfPage": 134,
+    "viewerPages": [
+      134
+    ],
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3"
+  },
+  {
+    "name": "Giant Poisonous Snake",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "2014 rules, 11th printing checked",
+    "printedPage": 327,
+    "printedPages": [
+      327
+    ],
+    "section": "Appendix A, Miscellaneous Creatures",
+    "sourceUrl": "https://anyflip.com/kqwdv/eoae/basic/301-350#p=328",
+    "url": "https://anyflip.com/kqwdv/eoae/basic/301-350#p=328",
+    "appearanceEvidence": "Both books give Medium size and a venomous bite. The coiled posture, head shape and pattern depict the selected portrait.",
+    "habitatEvidence": "Riverbanks, marshes and wet grassland are editorial encounter suggestions based on the printed swimming speed and the pictured form.",
+    "habitatSourceKind": "Editorial encounter suggestions. Where relevant they draw on printed creature and group lore.",
+    "rulesComparison": "The default Giant Poisonous Snake stat block matches across the scoped printings.",
+    "viewerPages": [
+      328
+    ],
+    "errata": "",
+    "errataNotes": "No entry-specific correction applies to this stat block.",
+    "secondaryCrossCheck": "5etools matches the default rules visible in the printed block."
+  },
+  {
+    "name": "Giant Rat",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "D&D Basic Rules v1.0, November 2018 ",
+    "printedPage": 135,
+    "printedPages": [
+      135
+    ],
+    "section": "Chapter 12, Monsters",
+    "sourceUrl": "",
+    "url": "",
+    "appearanceEvidence": "The blocks give Small size and a bite. Fur, muzzle and tail describe the selected portrait.",
+    "habitatEvidence": "The Monster Manual p. 327 includes a notice describing sightings in a city. Settlements, sewers and cellars are editorial encounter tags.",
+    "habitatSourceKind": "Editorial encounter suggestions. Where relevant they draw on printed creature and group lore.",
+    "rulesComparison": "The default Giant Rat stat block matches across the scoped printings.",
+    "pdfPage": 135,
+    "viewerPages": [
+      135
+    ],
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3"
+  },
+  {
+    "name": "Giant Rat",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "2014 rules, 11th printing checked",
+    "printedPage": 327,
+    "printedPages": [
+      327
+    ],
+    "section": "Appendix A, Miscellaneous Creatures",
+    "sourceUrl": "https://anyflip.com/kqwdv/eoae/basic/301-350#p=328",
+    "url": "https://anyflip.com/kqwdv/eoae/basic/301-350#p=328",
+    "appearanceEvidence": "The blocks give Small size and a bite. Fur, muzzle and tail describe the selected portrait.",
+    "habitatEvidence": "The Monster Manual p. 327 includes a notice describing sightings in a city. Settlements, sewers and cellars are editorial encounter tags.",
+    "habitatSourceKind": "Editorial encounter suggestions. Where relevant they draw on printed creature and group lore.",
+    "rulesComparison": "The default Giant Rat stat block matches across the scoped printings.",
+    "viewerPages": [
+      328
+    ],
+    "errata": "",
+    "errataNotes": "The first-print p. 327 gives the diseased variant’s Bite +3 to hit and 3 (1d4 + 1) piercing damage. Official errata updates these to +4 and 4 (1d4 + 2). The consulted 11th printing already includes that correction. The default Bite uses +4 and 4 (1d4 + 2).",
+    "secondaryCrossCheck": "5etools matches the default rules visible in the printed block.",
+    "printedVariants": {
+      "Variant: Diseased Giant Rats": "CR 1/8 (25 XP). Replace the standard Bite with this version. Melee weapon attack, +4 to hit with 5-ft. reach against one target. Hit for 4 (1d4 + 2) piercing damage. A creature hit must pass a DC 10 Constitution save or contract a disease. While infected, the creature can regain HP only through magic and its HP maximum drops by 3 (1d6) every 24 hours. If this disease brings its maximum HP to 0, the creature dies."
+    },
+    "firstPrinting": {
+      "printedPage": 327,
+      "variantBiteAttackBonus": 3,
+      "variantBiteDamage": "3 (1d4 + 1) piercing",
+      "source": "First-print bound Monster Manual spot check and official errata v2.0, p. 1."
+    },
+    "mechanicsNotes": [
+      "Page 327 supplies the variant in its own sidebar. The 2018 Basic Rules prints the default entry on p. 135.",
+      "The variant does not state a repeat save, natural recovery interval or a timing rule for restoring the lost hit point maximum after a cure."
+    ]
+  }
+]

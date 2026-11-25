@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Bariaur",
+    "slug": "bariaur",
+    "caption": "Mara Sedgehill · Original Bariaur NPC",
+    "id": "species-cd36ac407a9591da511001b3:3734479b7aa984f1a6c42609",
+    "entry": "species-cd36ac407a9591da511001b3",
+    "version": "3734479b7aa984f1a6c42609",
+    "suffix": "encounters-107/bariaur.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-107/bariaur.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-107/event-drafts/bariaur-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 107 2026-11-24/event-drafts/bariaur-event-v1.png",
+    "overrides": [],
+    "sha256": "ca6fcd618c0aa2479ed0c1ef4fa5e9f75997a7954adc0401fd224db6957ac0c6",
+    "bytes": 2203349
+  }
+]

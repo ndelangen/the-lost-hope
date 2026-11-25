@@ -23,4 +23,5 @@ export default createEvent({
     { by: refs.pcs.jim, card: refs.cards.the_vessel },
     { by: refs.pcs.jim, card: refs.cards.the_void_walker },
   ],
+  illustrations: ['/assets/scenes/jim-draws-cage-vessel-and-voidwalker.png'],
 })

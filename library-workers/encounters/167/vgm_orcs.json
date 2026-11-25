@@ -1,0 +1,388 @@
+[
+  {
+    "name": "Neogi Hatchling",
+    "statBlock": {
+      "name": "Neogi Hatchling",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 179,
+      "classification": "Tiny aberration, lawful evil",
+      "ac": 11,
+      "hp": 7,
+      "hitDice": "3d4",
+      "speed": "20 ft., climb 20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 3
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "cr": "1/8",
+      "xp": 25,
+      "passivePerception": 10,
+      "description": "The youngest neogi hatch on the body of an elder transformed into food for the brood. They feed on the elder and on one another until the strongest remain.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "None.",
+        "Traits": "Mental Fortitude. The neogi rolls saves against being charmed or frightened with advantage and cannot be put to sleep by magic.\nSpider Climb. The neogi climbs difficult surfaces, including ceilings, without an ability check.",
+        "Actions": "Bite. Melee weapon attack, +3 to hit, reach 5 ft., one target. On a hit, deal 3 (1d4 + 1) piercing damage and 7 (2d6) poison damage. The target becomes poisoned for 1 minute on a failed DC 10 Constitution save. It repeats the save at the end of each of its turns, ending the poison on a success.",
+        "Printed source": "Volo's Guide to Monsters, p. 179."
+      }
+    }
+  },
+  {
+    "name": "Neogi Master",
+    "statBlock": {
+      "name": "Neogi Master",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 180,
+      "classification": "Medium aberration, lawful evil",
+      "ac": 15,
+      "hp": 71,
+      "hitDice": "11d8 + 22",
+      "speed": "30 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 6
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 13,
+      "description": "A neogi master commands servants through magical domination and wields warlock magic granted by entities that resemble stars.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Wis": 3
+      },
+      "skills": {
+        "Arcana": 5,
+        "Deception": 6,
+        "Intimidation": 6,
+        "Perception": 3,
+        "Persuasion": 6
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft., including through magical darkness.",
+        "Languages": "Common, Deep Speech, Undercommon, telepathy 30 ft.",
+        "Traits": "Mental Fortitude. The neogi rolls saves against being charmed or frightened with advantage and cannot be put to sleep by magic.\nSpider Climb. The neogi climbs difficult surfaces, including ceilings, without an ability check.",
+        "Spellcasting": "The neogi is a 7th-level warlock who uses Charisma (spell save DC 14, +6 to hit with spell attacks). It recovers expended spell slots after a short or long rest.\nCantrips (at will). Eldritch Blast (range 300 ft., +4 to each damage roll), Guidance, Mage Hand, Minor Illusion, Prestidigitation, Vicious Mockery.\n1st- through 4th-level spells (two 4th-level slots). Arms of Hadar, Counterspell, Dimension Door, Fear, Hold Person, Hunger of Hadar, Invisibility, Unseen Servant.",
+        "Actions": "Multiattack. Make one Bite attack and one Claws attack.\nBite. Melee weapon attack, +5 to hit, reach 5 ft., one target. On a hit, deal 6 (1d6 + 3) piercing damage and 14 (4d6) poison damage. The target becomes poisoned for 1 minute on a failed DC 12 Constitution save. It repeats the save at the end of each of its turns, ending the poison on a success.\nClaws. Melee weapon attack, +5 to hit, reach 5 ft., one target. On a hit, deal 8 (2d4 + 3) slashing damage.\nEnslave (recharges after a short or long rest). Choose one creature the neogi can see within 30 ft. On a failed DC 14 Wisdom save, the neogi magically charms it for 1 day. The charm ends early if the neogi dies or is more than 1 mile from the target. While charmed, the target obeys the neogi's orders, cannot take reactions, and shares two-way telepathy with the neogi out to 1 mile. Each time the target takes damage, it may repeat the save and end the charm on a success.",
+        "Printed source": "Volo's Guide to Monsters, p. 180."
+      }
+    }
+  },
+  {
+    "name": "Neothelid",
+    "statBlock": {
+      "name": "Neothelid",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 181,
+      "classification": "Gargantuan aberration, chaotic evil",
+      "ac": 16,
+      "hp": 325,
+      "hitDice": "21d20 + 105",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 27
+        },
+        "Dex": {
+          "score": 7
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "13",
+      "xp": 10000,
+      "passivePerception": 13,
+      "description": "This immense, slime-covered worm can emerge when the tadpoles of a ruined mind flayer colony consume one another. It hunts other creatures for their brains.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Int": 1,
+        "Wis": 8,
+        "Cha": 6
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Blindsight 120 ft.",
+        "Languages": "None.",
+        "Traits": "Creature Sense. Within 1 mile, the neothelid detects creatures with Intelligence 4 or higher. It learns their direction, distance, and Intelligence score alone. Mind Blank, Nondetection, or similar magic shields a creature from this sense.\nMagic Resistance. The neothelid rolls saves against spells and other magical effects with advantage.",
+        "Innate Spellcasting (Psionics)": "The neothelid uses Wisdom (spell save DC 16) and needs no components.\nAt will. Levitate.\n1/day each. Confusion, Feeblemind, Telekinesis.",
+        "Actions": "Tentacles. Melee weapon attack, +13 to hit, reach 15 ft., one target. On a hit, deal 21 (3d8 + 8) bludgeoning damage and 13 (3d8) psychic damage. A Large or smaller creature must pass a DC 18 Strength save or be swallowed. A swallowed creature is blinded and restrained, has total cover from attacks and other effects outside the neothelid, and takes 35 (10d6) acid damage at the start of each of the neothelid's turns. If a swallowed creature deals 30 or more damage to the neothelid on one turn, the neothelid makes a DC 18 Constitution save at the end of that turn. On a failure, it expels all swallowed creatures. They land prone in spaces within 10 ft. of it. When the neothelid dies, swallowed creatures are freed from its restraint. Each can spend 20 ft. of movement to escape the corpse, emerging prone.\nAcid Breath (recharge 5–6). Each creature in a 60-ft. cone makes a DC 18 Dexterity save, taking 35 (10d6) acid damage on a failure or half as much on a success.",
+        "Printed source": "Volo's Guide to Monsters, p. 181."
+      }
+    }
+  },
+  {
+    "name": "Nilbog",
+    "statBlock": {
+      "name": "Nilbog",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 182,
+      "classification": "Small humanoid (goblinoid), chaotic evil",
+      "ac": 13,
+      "hp": 7,
+      "hitDice": "2d6",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 8
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 8
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 9,
+      "description": "A fragment of a goblin trickster god possesses a goblin and upends the discipline of a goblinoid host. Praise and good treatment can keep the mischief in check.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Stealth": 6
+      },
+      "sections": {
+        "Armor": "Leather armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Goblin.",
+        "Traits": "Nilbogism. Before trying to damage the nilbog, a creature must pass a DC 12 Charisma save. On a failure, it is charmed until the end of its next turn and must spend its action praising the nilbog. Reversal of Fortune is the nilbog's only means of regaining hit points, even when magical healing is available.\nNimble Escape. On each of its turns, the nilbog can Disengage or Hide as a bonus action.",
+        "Innate Spellcasting": "The nilbog uses Charisma (spell save DC 12) and needs no material components.\nAt will. Mage Hand, Tasha's Hideous Laughter, Vicious Mockery.\n1/day. Confusion.",
+        "Actions": "Fool's Scepter. Melee weapon attack, +4 to hit, reach 5 ft., one target. On a hit, deal 5 (1d6 + 2) bludgeoning damage.\nShortbow. Ranged weapon attack, +4 to hit, range 80/320 ft., one target. On a hit, deal 5 (1d6 + 2) piercing damage.",
+        "Reactions": "Reversal of Fortune. When another creature deals damage to the nilbog, the nilbog can reduce that damage to 0 and regain 1d6 hit points.",
+        "Nilbog spirit (possession)": "Without a host, the invisible spirit has a flying speed of 30 ft., cannot speak or be attacked, and can take only one kind of action: attempt to possess a goblin within 5 ft. The goblin makes a DC 15 Charisma save. On a failure, its alignment becomes chaotic evil, its Charisma rises to 15 if lower, and it gains Innate Spellcasting, Nilbogism, and Reversal of Fortune from the nilbog stat block. A success prevents this spirit from possessing that goblin for 24 hours. If the host dies or magic ends the possession (such as Hallow, Magic Circle, or Protection from Evil and Good), the spirit looks for another goblin. The spirit can leave at any time but leaves willingly only if it knows of another potential host nearby. A former host reverts to its usual statistics and loses the features granted by the spirit.",
+        "Printed source": "Volo's Guide to Monsters, p. 182."
+      }
+    }
+  },
+  {
+    "name": "Orc Blade of Ilneval",
+    "statBlock": {
+      "name": "Orc Blade of Ilneval",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 183,
+      "classification": "Medium humanoid (orc), chaotic evil",
+      "ac": 18,
+      "hp": 60,
+      "hitDice": "8d8 + 24",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 13,
+      "description": "Dedicated to Gruumsh's battle captain, these tacticians advise their chiefs and direct allied soldiers while leading from the front.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Wis": 3
+      },
+      "skills": {
+        "Insight": 3,
+        "Intimidation": 4,
+        "Perception": 3
+      },
+      "sections": {
+        "Armor": "Chain mail and shield.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Orc.",
+        "Traits": "Aggressive. As a bonus action, the orc can move up to its speed toward a visible hostile creature.\nFoe Smiter of Ilneval. A successful longsword strike deals one extra damage die, already factored into the attack.",
+        "Actions": "Multiattack. Make either two melee Longsword attacks or two ranged Javelin attacks. If Ilneval's Command is available, the orc can issue it after both attacks.\nLongsword. Melee weapon attack, +5 to hit, reach 5 ft., one target. On a hit, deal 12 (2d8 + 3) slashing damage, or 14 (2d10 + 3) if wielded with two hands.\nJavelin. Melee or ranged weapon attack, +5 to hit, reach 5 ft. or range 30/120 ft., one target. On a hit, deal 6 (1d6 + 3) piercing damage.\nIlneval's Command (recharge 4–6). Select up to three allied orcs within 120 ft. that can hear the blade. Each may spend its reaction to make one weapon attack.",
+        "Printed source": "Volo's Guide to Monsters, p. 183."
+      }
+    }
+  },
+  {
+    "name": "Orc Claw of Luthic",
+    "statBlock": {
+      "name": "Orc Claw of Luthic",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 183,
+      "classification": "Medium humanoid (orc), chaotic evil",
+      "ac": 14,
+      "hp": 45,
+      "hitDice": "6d8 + 18",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 12,
+      "description": "The Cave Mother's devoted priests protect orc strongholds. A claw uses healing and warding magic and fights with the long, lacquered nails she grows in Luthic's honor.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Intimidation": 2,
+        "Medicine": 4,
+        "Survival": 4
+      },
+      "sections": {
+        "Armor": "Hide armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Orc.",
+        "Traits": "Aggressive. As a bonus action, the orc can move up to its speed toward a visible hostile creature.",
+        "Spellcasting": "The orc prepares cleric spells as a 5th-level caster using Wisdom (spell save DC 12, +4 to hit with spell attacks).\nCantrips (at will). Guidance, Mending, Resistance, Thaumaturgy.\n1st level (4 slots). Bane, Cure Wounds, Guiding Bolt.\n2nd level (3 slots). Augury, Warding Bond.\n3rd level (2 slots). Bestow Curse, Create Food and Water.",
+        "Actions": "Multiattack. Make two Claw attacks, or four if the orc has fewer than half its hit points remaining.\nClaw. Melee weapon attack, +4 to hit, reach 5 ft., one target. On a hit, deal 6 (1d8 + 2) slashing damage.",
+        "Printed source": "Volo's Guide to Monsters, p. 183."
+      }
+    }
+  },
+  {
+    "name": "Orc Hand of Yurtrus",
+    "statBlock": {
+      "name": "Orc Hand of Yurtrus",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 184,
+      "classification": "Medium humanoid (orc), chaotic evil",
+      "ac": 12,
+      "hp": 30,
+      "hitDice": "4d8 + 12",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 12,
+      "description": "These silent priests of death and disease tend to the dying and perform rites for the dead. They wear pale gloves in honor of Yurtrus.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Arcana": 2,
+        "Intimidation": 1,
+        "Medicine": 4,
+        "Religion": 2
+      },
+      "sections": {
+        "Armor": "Hide armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Understands Common and Orc. Cannot speak.",
+        "Traits": "Aggressive. As a bonus action, the orc can move up to its speed toward a visible hostile creature.",
+        "Spellcasting": "The orc prepares cleric spells as a 4th-level caster using Wisdom (spell save DC 12, +4 to hit with spell attacks). Its spells require no verbal components.\nCantrips (at will). Guidance, Mending, Resistance, Thaumaturgy.\n1st level (4 slots). Bane, Detect Magic, Inflict Wounds, Protection from Evil and Good.\n2nd level (3 slots). Blindness/Deafness, Silence.",
+        "Actions": "Touch of the White Hand. Melee weapon attack, +3 to hit, reach 5 ft., one target. On a hit, deal 9 (2d8) necrotic damage.",
+        "Printed source": "Volo's Guide to Monsters, p. 184."
+      }
+    }
+  }
+]

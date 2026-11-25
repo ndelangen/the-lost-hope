@@ -1,0 +1,5 @@
+# Seacliff Dwarf from Stormwrack
+
+This batch adds the D&D 3.5 Seacliff Dwarf from the August 2005 first printing and two original encounters. Strong Swimmers adds +2 to Swim and doubles the Constitution score used to calculate breath-holding time. The cards show the totals for the cited Dungeon Master’s Guide baseline and for the shorter underwater procedure on Stormwrack p. 11. The variant keeps its other dwarf traits and loses the racial attack bonus against orcs and goblinoids. [Original rules, p. 44]() · [Source notes](independent-source-notes.md) · [Encounter cards](encounter-cards.md) · [Rules patch](rules.patch)
+
+Brott’s portrait uses Big Linda’s plain tan parchment. The temporary copy found Seacliff Dwarf by name, rule, and role, returned both builds from both catalog commands, and resolved Brott’s portrait as the new list thumbnail. The existing Dwarf entry matched its before snapshot. [Style comparison](portrait-comparison.jpg) · [96 px thumbnail](portrait-thumbnails.jpg) · [ImageGen prompt](portrait-prompts.json) · [Verification](verification.json)

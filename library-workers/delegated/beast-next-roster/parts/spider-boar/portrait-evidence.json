@@ -1,0 +1,41 @@
+[
+  {
+    "file": "dark-pyramid-boar.png",
+    "name": "Boar",
+    "entry": "beast-5d790795330b9003623dd05d",
+    "version": "4c3222a3e9c8f630a3adfa8a",
+    "publication": "DDEX1-11 - Dark Pyramid of Sorcerer's Isle",
+    "edition": "2014 fifth edition",
+    "source": " - 5th Edition (2014)/Adventures/DDEX1-11 - Dark Pyramid of Sorcerer's ",
+    "evidence": "Printed page 12 describes animals that look like boars, each with a bone spike on the forehead. The new portrait shows one rough bone spike above the eyes and natural boar anatomy.",
+    "review": "One clearly visible forehead spike, two ordinary tusks, all four feet in frame, and a plain warm parchment field.",
+    "prompt": "Create a new original square fantasy bestiary specimen portrait in the style and on the plain warm beige parchment of the attached campaign reference. Use the reference only for medium, natural animal anatomy, subdued sepia colors and paper tone. Choose a distinct three-quarter pose, head on the right of the canvas and turned slightly toward the viewer, so the forehead and snout remain well separated. Subject: one wild boar with anatomically normal short legs, bristly brown fur, small ears, long snout, a pair of ordinary short tusks emerging from the lower jaw, and exactly one pale point of bone projecting from the very center of its forehead above the eyes. This extra forehead spike is the only mutation. Make it short, rugged, visibly bone rather than a polished or spiraling unicorn horn. Keep the entire animal in the frame with balanced margins, textured graphite pencil hatching with restrained colored washes, enough definition to read at thumbnail size, and a faint contact shadow directly under the feet. Uniform plain warm parchment behind the subject, without horizon, setting, brush, foliage, vignette, edge, lettering or borders. Square 1:1.",
+    "path": "",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "4a1f9b8cfaa7dd21b7b5d7241621793773ab7d2b3961d8829b2fe6f6fb7c6d0d",
+    "credit": "OpenAI ImageGen",
+    "placement": "alternate",
+    "styleReference": ""
+  },
+  {
+    "file": "spiderfrog.png",
+    "name": "Spiderfrog",
+    "entry": "beast-f62685740da996c35d1e6a58",
+    "version": "e86e8b1cc26a9adb462d960e",
+    "publication": "Muk's Guide To Everything He Learned From Tasha",
+    "edition": "2014 fifth edition",
+    "source": "",
+    "sourceCredit": "Emi Tanji",
+    "evidence": "The original black-and-white illustration shows a squat patterned frog with clustered spider eyes and extra limbs. The sepia and muted olive colors are an artistic choice.",
+    "review": "The frog body, eye clusters and extra jointed feet read clearly against plain warm parchment. All visible feet are in frame.",
+    "prompt": "Create a new original square, natural-history bestiary specimen portrait. The attached existing campaign illustration is a style reference only. Transfer its finely hatched graphite detail, muted natural colors, beige plain parchment and restrained isolated specimen framing to a wholly different subject and composition. Subject: one Spiderfrog. A squat, real amphibian-like body, rounded low head and frog mouth, pale mottling across a rounded back, several small spider eyes clustered above and around two larger frog-like eyes, and extra slender jointed appendages ending in webby toes. Give it its own anatomically clear low crouch in a three-quarter view, eyes easily legible at thumbnail size, fully contained within the frame. Color is subdued warm gray-brown with subtle olive patches, a discretionary natural palette. Use a perfectly plain, softly textured, uniform warm beige paper field. A small soft contact shadow directly underneath only. No scenery, horizon, foliage, stage, vignette, frame, text, second creature, or publisher composition. Square 1:1. Make it look like the same artist and paper used for the reference.",
+    "path": "",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "2c3e68cd240672c38787215fe1750945c2d000e662905db271a362cf676a3362",
+    "credit": "OpenAI ImageGen",
+    "placement": "alternate",
+    "styleReference": ""
+  }
+]

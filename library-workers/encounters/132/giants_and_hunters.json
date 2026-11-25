@@ -1,0 +1,123 @@
+[
+  {
+    "name": "Basalt Stone Giant",
+    "decision": "share",
+    "pages": "Molten Enclave, p. 117",
+    "notes": "The block matches both printings, including the cumulative slowing from Rune-Signed Blade, the pin escape check, and Stone Flesh’s restriction to nonadamantine melee weapons.",
+    "tableNote": "Molten Enclave, area Z5. Ostios oversees Hurga’s smithing. Unless the giants have been warned, a successful DC 16 group Dexterity (Stealth) check lets the party pass unnoticed."
+  },
+  {
+    "name": "Fire Giant Lightbearer",
+    "decision": "share",
+    "pages": "Molten Enclave, p. 117. Glass Cavern, p. 270. Mount Brazen, p. 280.",
+    "notes": "All three printings match the base statistics, Healing Heat and Molten Flesh, Living Blaze’s optional ricochet and disadvantage, Flamelash, and the damage and swap in Travel by Fire.",
+    "tableNote": "Molten Enclave, area Z6. One lightbearer is eating with a red fist and a hellhound. They immediately notice characters who make no effort to hide."
+  },
+  {
+    "name": "Fire Giant Red Fist",
+    "decision": "share",
+    "pages": "Molten Enclave, p. 118. Glass Cavern, p. 270. Mount Brazen, p. 281.",
+    "notes": "All three printings match the base statistics, Heat and Pressure’s fire resistance exception, two-hit blindness, and the damage reduction followed by an Unarmed Strike from Guardian Block.",
+    "tableNote": "Glass Cavern, area R3. Three red fists sleep behind the curtain unless alerted. A successful DC 16 group Dexterity (Stealth) check lets the party pass. If awake, the giants listen first, then attack hostile visitors or call Xaantikorijek to question others."
+  },
+  {
+    "name": "Fire Giant Trooper",
+    "decision": "share",
+    "pages": "Molten Enclave, p. 119. Mount Brazen, p. 281.",
+    "notes": "Both adventure printings agree on CR 12 minion, 840 XP, the Molten Flesh trigger, and the effects and damage of both group attacks.",
+    "tableNote": "Molten Enclave, area Z8. If the giants have not been alerted, fifteen troopers and one red fist are asleep across the barracks. Sneaking through a room calls for a DC 10 group Dexterity (Stealth) check."
+  },
+  {
+    "name": "Frost Giant Wind Sprinter",
+    "decision": "share",
+    "pages": "Durixaviinox’s Rest, p. 233",
+    "notes": "The standard giant block matches. Durixaviinox’s Royal Defense specifies the creature type change on his own printed block on p. 232.",
+    "tableNote": "Durixaviinox’s Rest, p. 232. The guard summoned by Royal Defense uses this block with the Undead type. It acts immediately after Durixaviinox on his commands, grants him resistance to all damage while within 60 ft., and is destroyed if he dies."
+  },
+  {
+    "name": "Troll Whelp",
+    "decision": "share",
+    "pages": "Shtriga Nonna’s Hut, p. 54",
+    "notes": "The printed minion block matches, including the acid and fire exceptions to Relentless Hunger, Ripping Claws, and when Bite restores participating whelps to full hit points.",
+    "tableNote": "Shtriga Nonna’s Hut, p. 48. Four whelps sleep with Gorfus. Crossing or searching the room takes a DC 13 group Dexterity (Stealth) check. Opening the tent calls for an individual DC 17 Dexterity (Stealth) check."
+  },
+  {
+    "name": "Crux of Frost",
+    "decision": "share",
+    "pages": "Durixaviinox’s Rest, p. 231",
+    "notes": "The two blocks agree on Frosted Reflection’s endings, the psychic rider and immunity in It Stares Back, and the reflected attack and movement effects from Convocation of Ice.",
+    "tableNote": "Durixaviinox’s Rest, p. 227, area W4. A DC 16 Wisdom (Perception) check spots the two cruxes in the water. They leap onto shore and attack when they notice intruders."
+  },
+  {
+    "name": "Kingfissure Worm",
+    "decision": "share",
+    "pages": "Glass Cavern, p. 271",
+    "notes": "The two stat blocks agree on three independently targetable tongues, the failed-save tradeoff, Swallow’s damage trigger and regurgitation check, and all three villain actions.",
+    "tableNote": "Glass Cavern, area R1. The bound worm attacks after an unauthorized creature stays on the ground for 1 minute. Treat its binding sigils as a 9th-level spell for Dispel Magic. If freed, it attacks the nearest creature it senses and flees at 100 HP. If combat lasts more than three rounds, a red fist arrives from area R3."
+  },
+  {
+    "name": "Wyvern (MCDM)",
+    "decision": "share",
+    "pages": "Cloud Fang Keep, p. 109",
+    "notes": "The printed controller matches, including the two Stubborn Rage triggers, recurring acid and remedies from Stinger, the restriction while Bite grapples a target, and Tail Sweep.",
+    "tableNote": "Cloud Fang Keep, area E5. The wyvern watches from the pedestal and waits until intruders approach the center of the garden. It favors Bite and Stinger."
+  },
+  {
+    "name": "Chimera (MCDM)",
+    "decision": "separate",
+    "pages": "Shtriga Nonna’s Hut, p. 51",
+    "notes": "The printed core block matches. Flee, Mortals! separately includes an optional Protector trait in its chimera chapter. The Where Evil Lives block and Tearmonger encounter omit that trait.",
+    "statBlock": {
+      "name": "Chimera (MCDM)",
+      "publication": "Where Evil Lives",
+      "edition": "2014 fifth edition compatible",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "hp": 119,
+      "hitDice": "14d10 + 42",
+      "xp": 2300,
+      "cr": "6",
+      "proficiencyBonus": 3,
+      "abilities": {
+        "Str": {
+          "score": 18,
+          "modifier": 4
+        },
+        "Dex": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Con": {
+          "score": 16,
+          "modifier": 3
+        },
+        "Int": {
+          "score": 3,
+          "modifier": -4
+        },
+        "Wis": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Cha": {
+          "score": 11,
+          "modifier": 0
+        }
+      },
+      "ac": 15,
+      "classification": "Large Monstrosity, typically neutral",
+      "speed": "30 ft., fly 60 ft.",
+      "otherStatistics": "Natural armor. Athletics +7, Perception +5. Immune to Frightened. Darkvision 60 ft. Passive Perception 15. Understands one language. Cannot speak.",
+      "appearance": "A young chimera with a lion’s head, a ram’s head, a dragon’s head, and a scaled tail.",
+      "sections": {
+        "Role": "Skirmisher",
+        "Traits": "Volant. After reducing a creature to 0 HP, the chimera can move up to its speed toward an enemy it can see.",
+        "Actions": "Multiattack. Make three Bite attacks. Replace up to one with either Lion’s Toss or Dragon’s Eruption if the latter is available.\nBite. Melee weapon attack +7, reach 5 ft., one target. Hit 11 (2d6 + 4) piercing damage.\nLion’s Toss. Melee weapon attack +7, reach 5 ft., one target. Hit 9 (2d4 + 4) piercing damage. The target makes a DC 15 Strength save or is moved up to 20 ft. in any direction.\nDragon’s Eruption (Recharge 6). Choose a point the chimera sees within 120 ft. Each creature in a sphere of radius 10 ft. around it makes a DC 14 Dexterity save. A failure takes 27 (6d8) fire damage and a success takes half.",
+        "Bonus Actions": "Roar. Every enemy within 60 ft. that can hear the chimera makes a DC 13 Wisdom save or becomes Frightened of it for 1 minute. Each affected creature repeats the save at the end of each of its turns, ending the effect on success. A creature that succeeds on a save against Roar or for whom the effect ends gains immunity to this chimera’s Roar for 24 hours.",
+        "Reactions": "Ram’s Defiance. When a creature within 30 ft. misses the chimera with an attack, the chimera can move in a straight line toward it up to half its speed. If the chimera ends within 5 ft. of it, the creature makes a DC 15 Strength save or falls Prone.",
+        "Printed source": "Shtriga Nonna’s Hut, p. 51",
+        "Encounter notes": "On p. 49, Tearmonger hides in the rafters. A DC 14 Wisdom (Perception) check spots her and starts the fight. If unnoticed, she waits until someone searches the books or nest or tries another door, then attacks with the party surprised."
+      }
+    }
+  }
+]

@@ -1,0 +1,278 @@
+{
+  "builds": [
+    {
+      "id": "mr1-black-bear-pitchfern",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Charcoal road keeper, Barbarian 2",
+      "difficulty": "Barbarian 2. No assigned CR.",
+      "size": "Medium",
+      "type": "Beast",
+      "speed": "40 ft., climb 30 ft.",
+      "ac": 15,
+      "hp": 25,
+      "hitDice": "2d12+6",
+      "initiative": 2,
+      "senses": "Passive Perception 13, or 18 for smell.",
+      "languages": "Common and Sylvan.",
+      "abilityScores": {
+        "STR": 17,
+        "DEX": 14,
+        "CON": 16,
+        "INT": 8,
+        "WIS": 13,
+        "CHA": 10
+      },
+      "skills": [
+        "Athletics +5",
+        "Nature +1",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "traits": [
+        "Proficiency +2. Strength save +5 and Constitution save +5. Barbarian Unarmored Defense is 10 + 2 Dexterity + 3 Constitution. Natural Armor gives AC 14 as a separate alternative. HP starts at 15 and gains 10 at 2nd level.",
+        "Barbarian supplies Nature and Perception. Outlander supplies Athletics, Survival, Sylvan, and Wanderer. Keen Smell grants advantage on smell-based Perception checks. Carries no gear.",
+        "Danger Sense gives advantage on Dexterity saves against visible effects while the bear is free of blindness, deafness, and incapacitation."
+      ],
+      "actions": [
+        "Bite or claws. Strength-based unarmed strike +5, reach 5 ft. Deals 1d8+3 piercing or slashing, respectively. Add 2 while raging.",
+        "Reckless Attack. Choose on the first attack of your turn. Strength-based melee weapon attacks gain advantage for that turn. Until your next turn, attacks against you also gain advantage.",
+        "Rage. Bonus action, twice per long rest, up to 1 minute. Advantage on Strength checks and saves, resistance to bludgeoning, piercing, and slashing damage, and +2 damage on Strength-based melee weapon attacks. Ends early on unconsciousness or if a turn ends without attacking a hostile creature or taking damage since the previous turn. Can also end it with a bonus action."
+      ],
+      "tactics": "Pitchfern circles uphill on the bank. If cutting in front of a runaway cart fails, he climbs above the bend and warns the crew coming the other way."
+    },
+    {
+      "id": "mr1-boar-gravelroot",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Orchard boundary keeper, Fighter 2",
+      "difficulty": "Fighter 2. No assigned CR.",
+      "size": "Medium",
+      "type": "Beast",
+      "speed": "40 ft.",
+      "ac": 13,
+      "hp": 18,
+      "hitDice": "2d10+2",
+      "initiative": 2,
+      "senses": "Passive Perception 13.",
+      "languages": "Common and Dwarvish.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 13,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Animal Handling +3",
+        "Athletics +5",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "traits": [
+        "Proficiency +2. Strength save +5 and Constitution save +3. Unarmored AC 11 + 2 Dexterity. HP starts at 11 and gains 7 at 2nd level.",
+        "Fighter supplies Animal Handling, Perception, and the Defense fighting style. Defense requires worn armor, so it gives no bonus on this unarmored patrol. Outlander supplies Athletics, Survival, Dwarvish, and Wanderer."
+      ],
+      "actions": [
+        "Tusk. Strength-based unarmed strike +5, reach 5 ft., 1d6+3 slashing.",
+        "Charge. Once per turn add 1d6 slashing when Gravelroot moves 15 ft. or more toward a creature and hits it with a tusk attack.",
+        "Relentless. Drop to 1 HP instead of 0 HP if reduced to 0 HP without dying outright. Recharges on a long rest.",
+        "Second Wind. Bonus action to regain 1d10+2 HP. Recharges on a short or long rest.",
+        "Action Surge. Take one extra action on the current turn. Recharges on a short or long rest. Charge still applies only once that turn."
+      ],
+      "tactics": "Gravelroot calls from behind a dry wall. If anyone tries to cross, she runs the length of the wall to charge through the gap."
+    },
+    {
+      "id": "mr1-camel-rillglass",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Salt road messenger, Monk 2",
+      "difficulty": "Monk 2. No assigned CR.",
+      "size": "Medium",
+      "type": "Beast",
+      "speed": "60 ft.",
+      "ac": 14,
+      "hp": 17,
+      "hitDice": "2d8+4",
+      "initiative": 2,
+      "senses": "Passive Perception 12.",
+      "languages": "Common and Terran.",
+      "abilityScores": {
+        "STR": 13,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 15,
+        "CHA": 10
+      },
+      "skills": [
+        "Athletics +3",
+        "History +1",
+        "Insight +4",
+        "Survival +4"
+      ],
+      "traits": [
+        "Proficiency +2. Strength save +3 and Dexterity save +4. Unarmored Defense is 10 + 2 Dexterity + 2 Wisdom. HP starts at 10 and gains 7 at 2nd level.",
+        "Monk supplies History and Insight. Rillglass trained with leatherworker's tools but cannot operate them. Outlander supplies Athletics, Survival, Terran, and Wanderer. Unarmored Movement raises the species' 50-ft. walk speed to 60 ft.",
+        "Two ki points. Regains them on a short or long rest that includes at least 30 minutes of meditation. Ki save DC 12."
+      ],
+      "actions": [
+        "Bite. Martial Arts allows a Dexterity-based unarmed strike at +4, reach 5 ft., 1d4+2 slashing.",
+        "Martial Arts. After the Attack action with an unarmed strike, take a bonus action for one conventional kick at +4 for 1d4+2 bludgeoning. This uses Kamstra's bonus-strike rule.",
+        "Flurry of Blows. Immediately after the Attack action, spend 1 ki point and the bonus action to make two conventional kicks, each +4 for 1d4+2 bludgeoning.",
+        "Patient Defense or Step of the Wind. Spend 1 ki point and the bonus action to Dodge with Patient Defense, or to Disengage or Dash with Step of the Wind. Step of the Wind doubles jump distance that turn."
+      ],
+      "tactics": "Rillglass uses Step of the Wind to Disengage from a crowd. If blocked, she kicks once and chooses Patient Defense while waiting for someone to move."
+    },
+    {
+      "id": "mr1-cat-pinwhisker",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Eaves runner, Rogue 2",
+      "difficulty": "Rogue 2. No assigned CR.",
+      "size": "Small",
+      "type": "Beast",
+      "speed": "40 ft., climb 30 ft.",
+      "ac": 13,
+      "hp": 17,
+      "hitDice": "2d8+4",
+      "initiative": 3,
+      "senses": "Passive Perception 15.",
+      "languages": "Common. Knows thieves' cant.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 17,
+        "CON": 14,
+        "INT": 12,
+        "WIS": 13,
+        "CHA": 10
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Insight +3",
+        "Investigation +3",
+        "Perception +5",
+        "Sleight of Hand +5",
+        "Stealth +7"
+      ],
+      "traits": [
+        "Proficiency +2. Dexterity save +5 and Intelligence save +3. Unarmored AC 10 + 3 Dexterity. HP starts at 10 and gains 7 at 2nd level. No gear.",
+        "Rogue supplies Acrobatics, Insight, Investigation, and Perception. Urchin supplies Sleight of Hand, Stealth, and City Secrets. Expertise doubles proficiency in Perception and Stealth. Pinwhisker cannot use the hand-dependent tools from his training."
+      ],
+      "actions": [
+        "Bite. Dexterity-based unarmed strike +5, reach 5 ft., 1d4+3 slashing. Counts as a finesse weapon for Sneak Attack.",
+        "Sneak Attack. Once per turn on a bite hit, add 1d6 with advantage. It also applies without advantage when a non-incapacitated enemy of the target is within 5 ft. of it and Pinwhisker lacks disadvantage.",
+        "Cunning Action. Use a bonus action to Dash, Disengage, or attempt to Hide."
+      ],
+      "tactics": "Pinwhisker waits under the eaves until an accomplice distracts a pursuer. After biting, he uses Cunning Action to Disengage before retreating up the wall."
+    },
+    {
+      "id": "mr1-constrictor-snake-loamcoil",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Grain tunnel keeper, Barbarian 1",
+      "difficulty": "Barbarian 1. No assigned CR.",
+      "size": "Medium",
+      "type": "Beast",
+      "speed": "30 ft.",
+      "ac": 13,
+      "hp": 13,
+      "hitDice": "1d12+1",
+      "initiative": 2,
+      "senses": "Blindsight 10 ft. Passive Perception 13.",
+      "languages": "Common and Dwarvish.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 15,
+        "CON": 13,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Athletics +5",
+        "Nature +1",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "traits": [
+        "Proficiency +2. Strength save +5 and Constitution save +3. Unarmored Defense is 10 + 2 Dexterity + 1 Constitution. Carries no gear.",
+        "Barbarian supplies Nature and Perception. Outlander supplies Athletics, Survival, Dwarvish, and Wanderer."
+      ],
+      "actions": [
+        "Bite or constrict. Strength-based unarmed strike +5, reach 5 ft. Deals 1d8+3 slashing for a bite or bludgeoning for constrict. Add 2 while raging.",
+        "Coil grip. After a constrict hit with the Attack action, spend a bonus action to grapple the target if within reach and no larger than Large. Athletics +5 contests its choice of Athletics or Acrobatics. Rage gives Loamcoil advantage. An incapacitated target within those limits is grabbed automatically.",
+        "Rage. Bonus action, twice per long rest, up to 1 minute. Advantage on Strength checks and saves, resistance to bludgeoning, piercing, and slashing damage, and +2 damage on Strength-based melee weapon attacks. Ends early on unconsciousness or if a turn ends without attacking a hostile creature or taking damage since the previous turn. Can also end it with a bonus action."
+      ],
+      "tactics": "Loamcoil waits just inside the unlit grain tunnel, then coils around the first intruder that passes the chalk line. He asks for a name before letting go."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Pitchfern",
+      "species": "Black Bear",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr1-black-bear-pitchfern",
+      "size": "Medium",
+      "role": "Keeps the downhill charcoal road clear for loaded carts.",
+      "motive": "Find where the fourth cart went after its axle snapped.",
+      "hook": "Pitchfern followed the scent of pine tar downhill until the wheel marks split apart."
+    },
+    {
+      "name": "Gravelroot",
+      "species": "Boar",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr1-boar-gravelroot",
+      "size": "Medium",
+      "role": "Patrols the old wall between two orchards.",
+      "motive": "Keep the fruit pickers away from the sinkhole by the gate.",
+      "hook": "A picker's ladder lies across the hole. Gravelroot heard someone move it from below."
+    },
+    {
+      "name": "Rillglass",
+      "species": "Camel",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr1-camel-rillglass",
+      "size": "Medium",
+      "role": "Carries spoken messages between wells on the salt road.",
+      "motive": "Find which well keeper keeps answering a question she never asked.",
+      "hook": "For three crossings, Rillglass has been told the same traveler arrived the previous evening."
+    },
+    {
+      "name": "Pinwhisker",
+      "species": "Cat",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr1-cat-pinwhisker",
+      "size": "Small",
+      "role": "Listens from the rafters above a shipping office.",
+      "motive": "Find the shipper who has been throwing food to the alley cats since winter.",
+      "hook": "Pinwhisker heard two clerks agree to sign the name of a person they buried last week."
+    },
+    {
+      "name": "Loamcoil",
+      "species": "Constrictor Snake",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr1-constrictor-snake-loamcoil",
+      "size": "Medium",
+      "role": "Keeps watch underneath a walled granary.",
+      "motive": "Find where the missing grain sacks went.",
+      "hook": "There is a fresh trail of grain dust in a wall gap too narrow for the carts."
+    }
+  ]
+}

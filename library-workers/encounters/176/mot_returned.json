@@ -1,0 +1,403 @@
+[
+  {
+    "name": "Returned Drifter",
+    "statBlock": {
+      "name": "Returned Drifter",
+      "publication": "Mythic Odysseys of Theros",
+      "edition": "2014 fifth edition",
+      "printedPage": 240,
+      "classification": "Medium undead, lawful neutral",
+      "ac": 13,
+      "hp": 11,
+      "hitDice": "2d8 + 2",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 11,
+      "description": "A restless escapee from the Underworld who seeks solitude in tombs and necropoleis.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Leather armor.",
+        "Damage resistances": "Necrotic.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Returned nature": "Those who follow the Path of Phenax escape the Underworld as undead. Their lost identities take shape as separate eidolons. Returned hide their blank faces behind gold masks and can form only short-lived new memories. A mask is worth about 100 gp, depending on the metal and workmanship, but many Therans refuse to trade in them.",
+        "Languages": "The languages it knew in life.",
+        "Traits": "Turn Resistance. The Returned makes saving throws against effects that turn undead with advantage.\nUnreadable Face. Effects that would sense its emotions or read its thoughts cannot affect the Returned. Wisdom (Insight) checks to judge its intentions or sincerity have disadvantage.",
+        "Actions": "Scimitar. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 5 (1d6 + 2) slashing damage plus 3 (1d6) poison damage.\nSling. Ranged weapon attack, +4 to hit, range 30/120 ft., one target. A hit deals 4 (1d4 + 2) bludgeoning damage.",
+        "Printed source": "Mythic Odysseys of Theros, p. 240."
+      }
+    }
+  },
+  {
+    "name": "Returned Kakomantis",
+    "statBlock": {
+      "name": "Returned Kakomantis",
+      "publication": "Mythic Odysseys of Theros",
+      "edition": "2014 fifth edition",
+      "printedPage": 240,
+      "classification": "Medium undead, chaotic evil",
+      "ac": 15,
+      "hp": 65,
+      "hitDice": "10d8 + 20",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 11,
+      "description": "A Returned spellcaster whose fascination with magic survived death.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Acrobatics": 5,
+        "Athletics": 2,
+        "Stealth": 5
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Returned Palamnite",
+          "terms": [
+            "Returned Palamnite"
+          ]
+        }
+      ],
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Necrotic.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Returned nature": "Those who follow the Path of Phenax escape the Underworld as undead. Their lost identities take shape as separate eidolons. Returned hide their blank faces behind gold masks and can form only short-lived new memories. A mask is worth about 100 gp, depending on the metal and workmanship, but many Therans refuse to trade in them.",
+        "Languages": "The languages it knew in life.",
+        "Traits": "Fleeting Anger. Damage dealt to the Returned by another creature gives the Returned advantage on attack rolls until the end of its next turn.\nTurn Resistance. The Returned makes saving throws against effects that turn undead with advantage.\nUnreadable Face. Effects that would sense its emotions or read its thoughts cannot affect the Returned. Wisdom (Insight) checks to judge its intentions or sincerity have disadvantage.",
+        "Actions": "Underworld Bolt. Ranged spell attack, +4 to hit, range 120 ft., one creature. On a hit, the target takes 13 (2d8 + 2) necrotic damage and cannot regain hit points until the start of the Returned’s next turn. If the target is below its hit point maximum, it takes 17 (2d12 + 2) necrotic damage instead. The healing restriction applies in either case.\nShortsword. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 6 (1d6 + 3) piercing damage plus 10 (3d6) poison damage.",
+        "Variant": "Use the Returned Palamnite statistics with Underworld Bolt in place of Multiattack. The Shortsword attack remains available.",
+        "Source notes": "Page 240 lists 13 damage for the normal bolt alongside 2d8 + 2. The standard rounded-down average for those dice is 11. This profile preserves both printed values.",
+        "Printed source": "Mythic Odysseys of Theros, p. 240, Returned Kakomantis variant. Base Returned Palamnite block on p. 241."
+      }
+    }
+  },
+  {
+    "name": "Returned Palamnite",
+    "statBlock": {
+      "name": "Returned Palamnite",
+      "publication": "Mythic Odysseys of Theros",
+      "edition": "2014 fifth edition",
+      "printedPage": 241,
+      "classification": "Medium undead, chaotic evil",
+      "ac": 15,
+      "hp": 65,
+      "hitDice": "10d8 + 20",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 11,
+      "description": "An enraged Returned drawn to violence. Many serve Tymaret in Odunos.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Acrobatics": 5,
+        "Athletics": 2,
+        "Stealth": 5
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Returned Kakomantis",
+          "terms": [
+            "Returned Kakomantis"
+          ]
+        }
+      ],
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Necrotic.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Returned nature": "Those who follow the Path of Phenax escape the Underworld as undead. Their lost identities take shape as separate eidolons. Returned hide their blank faces behind gold masks and can form only short-lived new memories. A mask is worth about 100 gp, depending on the metal and workmanship, but many Therans refuse to trade in them.",
+        "Languages": "The languages it knew in life.",
+        "Traits": "Fleeting Anger. Damage dealt to the Returned by another creature gives the Returned advantage on attack rolls until the end of its next turn.\nTurn Resistance. The Returned makes saving throws against effects that turn undead with advantage.\nUnreadable Face. Effects that would sense its emotions or read its thoughts cannot affect the Returned. Wisdom (Insight) checks to judge its intentions or sincerity have disadvantage.",
+        "Actions": "Multiattack. Make two Shortsword attacks.\nShortsword. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 6 (1d6 + 3) piercing damage plus 10 (3d6) poison damage.",
+        "Variant": "The Returned Kakomantis uses these statistics and replaces Multiattack with Underworld Bolt.",
+        "Printed source": "Mythic Odysseys of Theros, p. 241."
+      }
+    }
+  },
+  {
+    "name": "Returned Sentry",
+    "statBlock": {
+      "name": "Returned Sentry",
+      "publication": "Mythic Odysseys of Theros",
+      "edition": "2014 fifth edition",
+      "printedPage": 241,
+      "classification": "Medium undead, lawful evil",
+      "ac": 15,
+      "hp": 22,
+      "hitDice": "4d8 + 4",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 11,
+      "description": "A tireless guard who works with other Returned to defend a necropolis.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Leather armor and shield.",
+        "Damage resistances": "Necrotic.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Returned nature": "Those who follow the Path of Phenax escape the Underworld as undead. Their lost identities take shape as separate eidolons. Returned hide their blank faces behind gold masks and can form only short-lived new memories. A mask is worth about 100 gp, depending on the metal and workmanship, but many Therans refuse to trade in them.",
+        "Languages": "The languages it knew in life.",
+        "Traits": "Pack Tactics. The Returned gains advantage on an attack roll against a creature if at least one ally within 5 ft. of the target is not incapacitated.\nTurn Resistance. The Returned makes saving throws against effects that turn undead with advantage.\nUnreadable Face. Effects that would sense its emotions or read its thoughts cannot affect the Returned. Wisdom (Insight) checks to judge its intentions or sincerity have disadvantage.",
+        "Actions": "Spear. Melee or ranged weapon attack, +5 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 6 (1d6 + 3) piercing damage, or 7 (1d8 + 3) piercing damage when wielded with two hands for a melee attack. Either way, the attack also deals 7 (2d6) poison damage.\nSling. Ranged weapon attack, +4 to hit, range 30/120 ft., one target. A hit deals 4 (1d4 + 2) bludgeoning damage.",
+        "Printed source": "Mythic Odysseys of Theros, p. 241."
+      }
+    }
+  },
+  {
+    "name": "Satyr Reveler",
+    "statBlock": {
+      "name": "Satyr Reveler",
+      "publication": "Mythic Odysseys of Theros",
+      "edition": "2014 fifth edition",
+      "printedPage": 242,
+      "classification": "Medium fey, chaotic neutral",
+      "ac": 13,
+      "hp": 33,
+      "hitDice": "6d8 + 6",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 10,
+      "description": "A celebrant who uses music, dance, or another performance to draw rivals into the festivities.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Acrobatics": 5,
+        "Performance": 7,
+        "Stealth": 5
+      },
+      "sections": {
+        "Languages": "Common, Sylvan.",
+        "Traits": "Enthralling Performance. After at least 1 minute of performing, choose up to four humanoids within 60 ft. who watched or listened to the whole performance. Each must succeed on a DC 13 Wisdom save or be charmed, idolizing the satyr and joining its revels. The charm ends after 1 hour, if the target takes damage, if the satyr attacks it, or if it sees the satyr attack or damage one of its allies.\nMagic Resistance. The satyr has advantage on saving throws against spells and other magical effects.\nSleepless Reveler. Magic cannot put the satyr to sleep.",
+        "Actions": "Multiattack. Make two Ram attacks or two Shortbow attacks.\nRam. Melee weapon attack, +3 to hit, reach 5 ft., one target. A hit deals 6 (2d4 + 1) bludgeoning damage.\nShortbow. Ranged weapon attack, +5 to hit, range 80/320 ft., one target. A hit deals 6 (1d6 + 3) piercing damage.",
+        "Printed source": "Mythic Odysseys of Theros, p. 242."
+      }
+    }
+  },
+  {
+    "name": "Satyr Thornbearer",
+    "statBlock": {
+      "name": "Satyr Thornbearer",
+      "publication": "Mythic Odysseys of Theros",
+      "edition": "2014 fifth edition",
+      "printedPage": 243,
+      "classification": "Medium fey, chaotic neutral",
+      "ac": 15,
+      "hp": 38,
+      "hitDice": "7d8 + 7",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 15,
+      "description": "An archer of the Skola Vale who harasses intruders from the woods and disappears into cover.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 5,
+        "Performance": 6,
+        "Stealth": 6
+      },
+      "sections": {
+        "Armor": "Leather armor.",
+        "Languages": "Common, Sylvan.",
+        "Traits": "Magic Resistance. The satyr has advantage on saving throws against spells and other magical effects.\nSleepless Reveler. Magic cannot put the satyr to sleep.",
+        "Actions": "Multiattack. Make three Ram attacks or three Shortbow attacks.\nRam. Melee weapon attack, +3 to hit, reach 5 ft., one target. A hit deals 6 (2d4 + 1) bludgeoning damage.\nShortbow. Ranged weapon attack, +6 to hit, range 80/320 ft., one target. A hit deals 7 (1d6 + 4) piercing damage.\nHail of Arrows (recharges after a short or long rest). The satyr fires one arrow that magically splinters into a 30-ft. cone of missiles. Each creature in the cone makes a DC 14 Dexterity save, taking 17 (5d6) piercing damage on a failure or half as much on a success.",
+        "Printed source": "Mythic Odysseys of Theros, p. 243."
+      }
+    }
+  },
+  {
+    "name": "Setessan Hoplite",
+    "statBlock": {
+      "name": "Setessan Hoplite",
+      "publication": "Mythic Odysseys of Theros",
+      "edition": "2014 fifth edition",
+      "printedPage": 229,
+      "classification": "Medium humanoid (any), any alignment",
+      "ac": 16,
+      "hp": 58,
+      "hitDice": "9d8 + 18",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 15,
+      "description": "A Setessan hunter and soldier who uses woodland cover, coordinated distractions, and poison-treated weapons.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Acrobatics": 5,
+        "Perception": 5,
+        "Survival": 5
+      },
+      "savingThrows": {
+        "Dex": 5,
+        "Wis": 5
+      },
+      "sections": {
+        "Armor": "Leather armor and shield.",
+        "Languages": "Common.",
+        "Traits": "Pack Tactics. The hoplite gains advantage on an attack roll against a creature if at least one ally within 5 ft. of the hoplite is not incapacitated.",
+        "Actions": "Multiattack. Make two Scimitar attacks or two Longbow attacks.\nScimitar. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 6 (1d6 + 3) slashing damage plus 10 (3d6) poison damage.\nLongbow. Ranged weapon attack, +5 to hit, range 150/600 ft., one target. A hit deals 7 (1d8 + 3) piercing damage plus 10 (3d6) poison damage.",
+        "Printed source": "Mythic Odysseys of Theros, p. 229."
+      }
+    }
+  }
+]

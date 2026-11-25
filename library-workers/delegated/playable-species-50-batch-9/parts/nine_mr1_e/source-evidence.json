@@ -1,0 +1,147 @@
+[
+  {
+    "name": "Specter",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Monstrous Races (2018)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Undead",
+    "url": "",
+    "printedPages": [
+      191,
+      192
+    ],
+    "page": "v2 pp. 191–192, Specter Traits.",
+    "provenance": "Player conversion by Tyler Kamstra for 2014 fifth edition, published through Dungeon Masters Guild. This profile follows the v2 text.",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "adventuringRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/adventuring",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "spellRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells",
+    "npcExamples": [
+      "Sable"
+    ],
+    "sourceDistinctions": [
+      "The published trait gives a 30-ft. walk. The game advice and design notes discuss a design with no walk, hovering, or inability to speak. Follow the player trait block for speeds and abilities. Sable communicates in writing.",
+      "The duplicated Sunlight Sensitivity sentence gives one instance of disadvantage. Life Drain is a damage-only melee spell attack here."
+    ]
+  },
+  {
+    "name": "Stirge",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Monstrous Races (2018)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Beast",
+    "url": "",
+    "printedPages": [
+      194,
+      195
+    ],
+    "page": "v2 pp. 194–195, Stirge Traits.",
+    "provenance": "Player conversion by Tyler Kamstra for 2014 fifth edition, published through Dungeon Masters Guild. This profile follows the v2 text.",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "adventuringRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/adventuring",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "spellRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells",
+    "npcExamples": [
+      "Pip"
+    ],
+    "sourceDistinctions": [
+      "Blood Drain explicitly counts as finesse for Sneak Attack. A later attached drain uses the normal unarmed-strike damage and lacks an attack roll, so it does not apply Sneak Attack.",
+      "For encounter tracking, count ongoing attached drain toward the Constitution threshold. The source separates the triggering hit from the start-of-turn drain."
+    ]
+  },
+  {
+    "name": "Tarrasque",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Monstrous Races (2018)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Monstrosity (titan)",
+    "url": "",
+    "printedPages": [
+      196,
+      197
+    ],
+    "page": "v2 pp. 196–197, Tarrasque Traits.",
+    "provenance": "Player conversion by Tyler Kamstra for 2014 fifth edition, published through Dungeon Masters Guild. This profile follows the v2 text.",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "adventuringRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/adventuring",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "spellRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells",
+    "npcExamples": [
+      "Crag"
+    ],
+    "sourceDistinctions": [
+      "The conversion is Medium and has its own strike, defenses, and spell reflection. The encounter Tarrasque has a separate stat block.",
+      "The unarmed hit grants a bonus-action grapple while the same profile bars hand-dependent equipment. This build treats the bite or forelimbs as enough to hold for this specific feature."
+    ]
+  },
+  {
+    "name": "Unicorn",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Monstrous Races (2018)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Celestial",
+    "url": "",
+    "printedPages": [
+      202,
+      203
+    ],
+    "page": "v2 pp. 202–203, Unicorn Traits.",
+    "provenance": "Player conversion by Tyler Kamstra for 2014 fifth edition, published through Dungeon Masters Guild. This profile follows the v2 text.",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "adventuringRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/adventuring",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "spellRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells",
+    "npcExamples": [
+      "Lark"
+    ],
+    "sourceDistinctions": [
+      "The book calls the innate spell detect good and evil. The 2014 spell list titles it detect evil and good.",
+      "Healing Touch and darkvision appear in play advice or design notes without a player feature. This build’s healing comes from Paladin 1. The class action requires touch, which Lark delivers with its horn.",
+      "Core unarmed strikes are melee weapon attacks, so a Strength-based horn or hoof strike can trigger Charge."
+    ]
+  },
+  {
+    "name": "Water Weird",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Monstrous Races (2018)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Elemental",
+    "url": "",
+    "printedPages": [
+      207
+    ],
+    "page": "v2 p. 207, Water Weird Traits.",
+    "provenance": "Player conversion by Tyler Kamstra for 2014 fifth edition, published through Dungeon Masters Guild. This profile follows the v2 text.",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "adventuringRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/adventuring",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "spellRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells",
+    "npcExamples": [
+      "Undertow"
+    ],
+    "sourceDistinctions": [
+      "The player block gives a walking speed of 30 ft. and no swimming speed. Design commentary instead discusses 0 ft. walking and 50 ft. swimming. This build uses the printed speed and ordinary core swimming costs inside the bound water.",
+      "The profile supplies no racial ability adjustments or fire resistance. The build uses a conservative reading of the p. 8 immunity-at-0-HP rule."
+    ]
+  }
+]

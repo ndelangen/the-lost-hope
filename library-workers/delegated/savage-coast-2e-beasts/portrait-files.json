@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Forest Ray",
+    "entryId": "beast-bb150c7e49a74d50ae28766c",
+    "versionKey": "5af22fb759e59f5af161b1a3",
+    "file": "",
+    "sha256": "0eba1358bbfffeb36871c1473cf61e06e846fe8e7aac790c401682de3eeec9cb",
+    "width": 1254,
+    "height": 1254,
+    "repositoryPath": "assets/images/content/dm-library/savage-coast-2e-beasts/forest-ray.png"
+  },
+  {
+    "name": "Saragón Lyra Bird",
+    "entryId": "beast-52b9049fe957b252372de646",
+    "versionKey": "8abf918ae61f3d734c12cb27",
+    "file": "",
+    "sha256": "2bb3001ec1eb0f3663e795ac8b75c86ba4ad0a60d4f276d7a25f279d9d9cadc1",
+    "width": 1254,
+    "height": 1254,
+    "repositoryPath": "assets/images/content/dm-library/savage-coast-2e-beasts/saragon-lyra-bird.png"
+  },
+  {
+    "name": "Skinwing",
+    "entryId": "beast-3b1823c503946e765b442ebb",
+    "versionKey": "724976590eea5431d0d800eb",
+    "file": "",
+    "sha256": "64c6a6699b292d07f74d9440fb4d18992579dfc5027bfb09b02dd7b34cfdf993",
+    "width": 1254,
+    "height": 1254,
+    "repositoryPath": "assets/images/content/dm-library/savage-coast-2e-beasts/skinwing.png"
+  }
+]

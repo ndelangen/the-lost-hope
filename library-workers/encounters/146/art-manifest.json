@@ -1,0 +1,681 @@
+{
+  "new": {
+    "Drow": {
+      "path": "output/dm-library/encounter-batches/146/art/drow.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "f1c258e289138c925b0d1e89d24dfcda0929238cedb53dfcc1b1c8369cb65367",
+      "bytes": 2420295
+    },
+    "Ettercap": {
+      "path": "output/dm-library/encounter-batches/146/art/ettercap.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "892cdeb82df5d61c7b14e251239c56ce5805aaead7f26835bcd62a3929002c41",
+      "bytes": 2655920
+    },
+    "Ice Devil": {
+      "path": "output/dm-library/encounter-batches/146/art/ice-devil.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "47345a01c5f80477b51b8a209674d849058bf9fc4a2c75a930d98821b125d415",
+      "bytes": 2692307
+    },
+    "Ice Devil (Spear Variant)": {
+      "path": "output/dm-library/encounter-batches/146/art/ice-devil-spear-variant.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "fb303ecdca54a782fe1fefc14c3f6272ba60a0ec3a9d85399d1032d11bd4b589",
+      "bytes": 2635675
+    },
+    "Erinyes": {
+      "path": "output/dm-library/encounter-batches/146/art/erinyes.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "041265193c8e2f3f1278cbdf531acb8aa3408fd058a02535beba12ecfee2fce1",
+      "bytes": 2718114
+    },
+    "Erinyes (Rope of Entanglement)": {
+      "path": "output/dm-library/encounter-batches/146/art/erinyes-rope-of-entanglement.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "7eedaf3ae4c4da247fac3816d48fac4fa40e32e946268f1ddd63927416db65fa",
+      "bytes": 2919363
+    },
+    "Horned Devil": {
+      "path": "output/dm-library/encounter-batches/146/art/horned-devil.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "de1a8455b2c6f72c229852d4c10a9a71ec2c2956deb681f259fe8453a60b82fe",
+      "bytes": 2781281
+    },
+    "Green Hag": {
+      "path": "output/dm-library/encounter-batches/146/art/green-hag.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "636ab00c6a2d6bbe3767a8e83c546028140f58c94581b887816d61abda8cbec2",
+      "bytes": 2920210
+    },
+    "Vampire Spawn": {
+      "path": "output/dm-library/encounter-batches/146/art/vampire-spawn.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "4e36b7264020359f5ca8a31c185f99a1787590cc2a46747ab1f1e1a2b26f243f",
+      "bytes": 2357980
+    },
+    "Vampire Warrior": {
+      "path": "output/dm-library/encounter-batches/146/art/vampire-warrior.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "b2c76049735d8973466b4458b7895622c16d84ea36fa7693c1168160de600ef9",
+      "bytes": 2473532
+    },
+    "Dao": {
+      "path": "output/dm-library/encounter-batches/146/art/dao.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "1843577fc7ee6a030948a03673638ccddc1a75ee0b2397fe877e1d472f3b8dfd",
+      "bytes": 2735389
+    },
+    "Djinni": {
+      "path": "output/dm-library/encounter-batches/146/art/djinni.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "02723dd862f27b4fff93e92a158e92b47299e5d7b4fb45e23f18b234babb8d66",
+      "bytes": 2447407
+    },
+    "Efreeti": {
+      "path": "output/dm-library/encounter-batches/146/art/efreeti.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "246f663d0745f55b2d5ff65a2d70a36878302e9ada8e3a29aaa34bc18ae8cbb0",
+      "bytes": 2458908
+    },
+    "Tridrone": {
+      "path": "output/dm-library/encounter-batches/146/art/tridrone.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "28d4651d3a04637bbd28aa080104385d98e81a35c3d49125e75e6d87684ab82c",
+      "bytes": 2621184
+    },
+    "Faerie Dragon (Blue)": {
+      "path": "output/dm-library/encounter-batches/146/art/faerie-dragon-blue.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "82e00c6d1257c881c4b51592a610b7793aaf59a46e63a468318c43af16a9338f",
+      "bytes": 2882885
+    },
+    "Faerie Dragon (Green)": {
+      "path": "output/dm-library/encounter-batches/146/art/faerie-dragon-green.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "21f1d9f2ca8f8ed4ac9efbbacf3cc2f40ec6bc0d72b402244b9dd00ab4bf3039",
+      "bytes": 2979137
+    },
+    "Faerie Dragon (Indigo)": {
+      "path": "output/dm-library/encounter-batches/146/art/faerie-dragon-indigo.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "2f0f0671bef0501ad76af5175e09d45472e49b63db15d27c9caf228c895efcb0",
+      "bytes": 3021444
+    },
+    "Faerie Dragon (Orange)": {
+      "path": "output/dm-library/encounter-batches/146/art/faerie-dragon-orange.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "be67752e8afeaea4934289b7b681f0bb7351d78700d3e90372a8cbad8e06e236",
+      "bytes": 2777415
+    },
+    "Faerie Dragon (Red)": {
+      "path": "output/dm-library/encounter-batches/146/art/faerie-dragon-red.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "a00dcd0717becfaf2ad478a3f1f69ac74ef03beae12251c33d772050c330878b",
+      "bytes": 2794884
+    },
+    "Faerie Dragon (Violet)": {
+      "path": "output/dm-library/encounter-batches/146/art/faerie-dragon-violet.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "a48926f7ea03c5ff87504fb2ba8c81f6eba8d939cd41cfd399a7dc3887ba4ed2",
+      "bytes": 2899521
+    },
+    "Faerie Dragon (Yellow)": {
+      "path": "output/dm-library/encounter-batches/146/art/faerie-dragon-yellow.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "c480ec7ee786756519542641a246b329a6c4fc451d34a5e7bacbfcfd736049ad",
+      "bytes": 2727166
+    },
+    "Balor": {
+      "path": "output/dm-library/encounter-batches/146/art/balor.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "c0daec99d2c5e1089962613cf352c04d894c80eb13f1f759422b3d1549fa70f4",
+      "bytes": 2803114
+    },
+    "Glabrezu": {
+      "path": "output/dm-library/encounter-batches/146/art/glabrezu.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "eb76594eca5e5e2259d1e4b158d4b61376fbe9abfd41696e49c206a7a6fa0bf9",
+      "bytes": 2689806
+    },
+    "Hezrou": {
+      "path": "output/dm-library/encounter-batches/146/art/hezrou.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "2fe9c554f5dc281e093dce0d931f88c90a0822f4a578e56e61ef6660df644808",
+      "bytes": 2652076
+    },
+    "Nalfeshnee": {
+      "path": "output/dm-library/encounter-batches/146/art/nalfeshnee.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "2f054f171aec1d68c167cb67e13eb4d5179f959df081c1118d496c7000cd2526",
+      "bytes": 2580277
+    }
+  },
+  "added": [
+    {
+      "entry": "monster-1e096aa6ae0b354ac194a112",
+      "version": "ac66bffcc46cfd1ec175b5a4",
+      "name": "Drow",
+      "file": "images/monsters/drow/batch-146-portrait.png",
+      "sha256": "f1c258e289138c925b0d1e89d24dfcda0929238cedb53dfcc1b1c8369cb65367",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-45ed93ef2217056921a79b6e",
+      "version": "8d8d7da2d2f8c7daf5e7455b",
+      "name": "Drow (Magic Equipment)",
+      "file": "images/monsters/drow/batch-146-portrait.png",
+      "sha256": "f1c258e289138c925b0d1e89d24dfcda0929238cedb53dfcc1b1c8369cb65367",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Drow"
+    },
+    {
+      "entry": "monster-5ff9c640eab4a06efd2b70c6",
+      "version": "7487ec61cb0730af5d783478",
+      "name": "Drow Elite Warrior (Magic Equipment)",
+      "file": "images/monsters/shared-portraits-146/drow-elite-warrior-5fa1a3b0903e.png",
+      "sha256": "5fa1a3b0903e93ff131e847fec5b9d523417ad0e2e131a63ad5a09f0e7cf3bcc",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Drow Elite Warrior"
+    },
+    {
+      "entry": "monster-14e9fbc3e3ff2d2e5dd0cb80",
+      "version": "07f1b83a083756a13e423ff2",
+      "name": "Drow Priestess of Lolth (Magic Equipment)",
+      "file": "images/monsters/shared-portraits-146/drow-priestess-of-lolth-5b39ea2fa589.png",
+      "sha256": "5b39ea2fa589b975b7c4b1333a461d60249a79c0c6fa7e5e77e7fcc6582007f8",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Drow Priestess of Lolth"
+    },
+    {
+      "entry": "monster-ab19b9b0bca0a1cac04fba9a",
+      "version": "772d748b29d5bf6502fc8d22",
+      "name": "Drider",
+      "file": "images/monsters/shared-portraits-146/drider-variant-c32076c64a79.png",
+      "sha256": "c32076c64a791ed3748e4b8415ff8b54c4e6f6181e177d77b74c90ea5bd9d490",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Drider (variant)"
+    },
+    {
+      "entry": "monster-b8e3b28ab097898e7b326fa8",
+      "version": "c8d5bf81e8599ea449fdbbab",
+      "name": "Ettercap",
+      "file": "images/monsters/ettercap/batch-146-portrait.png",
+      "sha256": "892cdeb82df5d61c7b14e251239c56ce5805aaead7f26835bcd62a3929002c41",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-850672a8c9fe69a40ec7b6eb",
+      "version": "88604798cf521a55dcfd4091",
+      "name": "Ettercap (variant)",
+      "file": "images/monsters/ettercap/batch-146-portrait.png",
+      "sha256": "892cdeb82df5d61c7b14e251239c56ce5805aaead7f26835bcd62a3929002c41",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Ettercap"
+    },
+    {
+      "entry": "monster-c4b61bada3ca6d5f02271e26",
+      "version": "c8a1b4843fc78af24e497c90",
+      "name": "Ice Devil",
+      "file": "images/monsters/ice-devil/batch-146-portrait.png",
+      "sha256": "47345a01c5f80477b51b8a209674d849058bf9fc4a2c75a930d98821b125d415",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-4c8da6e8e4c515de6269d2af",
+      "version": "ad8f48a2df65477515dc3abc",
+      "name": "Ice Devil (Spear Variant)",
+      "file": "images/monsters/ice-devil-spear-variant/batch-146-portrait.png",
+      "sha256": "fb303ecdca54a782fe1fefc14c3f6272ba60a0ec3a9d85399d1032d11bd4b589",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-538c5816d18fae4b91326994",
+      "version": "7a10b4e774c5ab38feb4d922",
+      "name": "Ice Devil (Summoner Variant)",
+      "file": "images/monsters/ice-devil/batch-146-portrait.png",
+      "sha256": "47345a01c5f80477b51b8a209674d849058bf9fc4a2c75a930d98821b125d415",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Ice Devil"
+    },
+    {
+      "entry": "monster-ec074e8cbcff7375d53bee70",
+      "version": "28e673e75d920398399e8c1f",
+      "name": "Erinyes",
+      "file": "images/monsters/erinyes/batch-146-portrait.png",
+      "sha256": "041265193c8e2f3f1278cbdf531acb8aa3408fd058a02535beba12ecfee2fce1",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-c4727e547883b44d24331868",
+      "version": "a47d2185c28e76a6cb4eda46",
+      "name": "Erinyes (Rope of Entanglement)",
+      "file": "images/monsters/erinyes-rope-of-entanglement/batch-146-portrait.png",
+      "sha256": "7eedaf3ae4c4da247fac3816d48fac4fa40e32e946268f1ddd63927416db65fa",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-6bfb43d2dff86d5d880b3f36",
+      "version": "ca4f42dbce54499d8a475bcd",
+      "name": "Erinyes (Rope Variant)",
+      "file": "images/monsters/erinyes-rope-of-entanglement/batch-146-portrait.png",
+      "sha256": "7eedaf3ae4c4da247fac3816d48fac4fa40e32e946268f1ddd63927416db65fa",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Erinyes (Rope of Entanglement)"
+    },
+    {
+      "entry": "monster-deb7c23b07b78bfa7048b36b",
+      "version": "ae3535b873bd0889b2c2ae7e",
+      "name": "Erinyes (Summoner Variant)",
+      "file": "images/monsters/erinyes/batch-146-portrait.png",
+      "sha256": "041265193c8e2f3f1278cbdf531acb8aa3408fd058a02535beba12ecfee2fce1",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Erinyes"
+    },
+    {
+      "entry": "monster-a63c17cbf97841c9fb540d69",
+      "version": "5b47b997beb5913c07b7c76f",
+      "name": "Horned Devil",
+      "file": "images/monsters/horned-devil/batch-146-portrait.png",
+      "sha256": "de1a8455b2c6f72c229852d4c10a9a71ec2c2956deb681f259fe8453a60b82fe",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-886d07938e080fe8a1d17bc5",
+      "version": "754faa6de67f601d0d616397",
+      "name": "Horned Devil (Summoner Variant)",
+      "file": "images/monsters/horned-devil/batch-146-portrait.png",
+      "sha256": "de1a8455b2c6f72c229852d4c10a9a71ec2c2956deb681f259fe8453a60b82fe",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Horned Devil"
+    },
+    {
+      "entry": "monster-746b99a91a05e41690454671",
+      "version": "52631b4095b3c3dfd7c26233",
+      "name": "Green Hag",
+      "file": "images/monsters/green-hag/batch-146-portrait.png",
+      "sha256": "636ab00c6a2d6bbe3767a8e83c546028140f58c94581b887816d61abda8cbec2",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-65c78ed3d0b9c2bfad3d4e83",
+      "version": "922647409900c41620200b8b",
+      "name": "Green Hag (Coven Variant)",
+      "file": "images/monsters/green-hag/batch-146-portrait.png",
+      "sha256": "636ab00c6a2d6bbe3767a8e83c546028140f58c94581b887816d61abda8cbec2",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Green Hag"
+    },
+    {
+      "entry": "monster-1db244b0ab9364a60536b3cc",
+      "version": "cd3f77c6e725d21e1548b21b",
+      "name": "Green Hag (Coven)",
+      "file": "images/monsters/green-hag/batch-146-portrait.png",
+      "sha256": "636ab00c6a2d6bbe3767a8e83c546028140f58c94581b887816d61abda8cbec2",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Green Hag"
+    },
+    {
+      "entry": "monster-b0f4546b8b7122ff7a5ff549",
+      "version": "30f05d8e2f2e9acd5245521f",
+      "name": "Vampire Spawn",
+      "file": "images/monsters/vampire-spawn/batch-146-portrait.png",
+      "sha256": "4e36b7264020359f5ca8a31c185f99a1787590cc2a46747ab1f1e1a2b26f243f",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-a56cdbd9ee36af0fcf0d5485",
+      "version": "2e8fe1f232c2b006f7f9ce87",
+      "name": "Vampire Spellcaster",
+      "file": "images/monsters/vampire/batch-144-portrait.png",
+      "sha256": "edfb9f5a11a0a1c031ee43cc8ad60c0ec2b9a487f86c601c1fa0a469d1f87463",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Vampire"
+    },
+    {
+      "entry": "monster-8ed7d0909e1645099a721a06",
+      "version": "cc6598ebe6c4ef01cf0c0860",
+      "name": "Vampire Warrior",
+      "file": "images/monsters/vampire-warrior/batch-146-portrait.png",
+      "sha256": "b2c76049735d8973466b4458b7895622c16d84ea36fa7693c1168160de600ef9",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-6386713deb27b609daad5e2e",
+      "version": "321e2de0fbf5b158c2fd9dce",
+      "name": "Dao",
+      "file": "images/monsters/dao/batch-146-portrait.png",
+      "sha256": "1843577fc7ee6a030948a03673638ccddc1a75ee0b2397fe877e1d472f3b8dfd",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-dc3c109d401ac4a92c933747",
+      "version": "06959116434273677deeb9bb",
+      "name": "Dao (Disguises)",
+      "file": "images/monsters/dao/batch-146-portrait.png",
+      "sha256": "1843577fc7ee6a030948a03673638ccddc1a75ee0b2397fe877e1d472f3b8dfd",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Dao"
+    },
+    {
+      "entry": "monster-57686c12a75f33f557ba5fbb",
+      "version": "121f3eb93e5ced0c1b574209",
+      "name": "Dao (Wishes)",
+      "file": "images/monsters/dao/batch-146-portrait.png",
+      "sha256": "1843577fc7ee6a030948a03673638ccddc1a75ee0b2397fe877e1d472f3b8dfd",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Dao"
+    },
+    {
+      "entry": "monster-a0944b29d7c0b37b33e17e2a",
+      "version": "d471e79e16d26e285c12fc65",
+      "name": "Djinni",
+      "file": "images/monsters/djinni/batch-146-portrait.png",
+      "sha256": "02723dd862f27b4fff93e92a158e92b47299e5d7b4fb45e23f18b234babb8d66",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-a8479672492d4e6a35ec8e78",
+      "version": "c984c82861fcf2c0ef9ae5a4",
+      "name": "Djinni (Disguises)",
+      "file": "images/monsters/djinni/batch-146-portrait.png",
+      "sha256": "02723dd862f27b4fff93e92a158e92b47299e5d7b4fb45e23f18b234babb8d66",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Djinni"
+    },
+    {
+      "entry": "monster-79d5f8d13e3b240349ad8dbc",
+      "version": "226c8fcfa6f953bf84450fa5",
+      "name": "Djinni (Wishes)",
+      "file": "images/monsters/djinni/batch-146-portrait.png",
+      "sha256": "02723dd862f27b4fff93e92a158e92b47299e5d7b4fb45e23f18b234babb8d66",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Djinni"
+    },
+    {
+      "entry": "monster-7c118940efc26fd164fc5d86",
+      "version": "8ebb690862ffab5454028248",
+      "name": "Efreeti",
+      "file": "images/monsters/efreeti/batch-146-portrait.png",
+      "sha256": "246f663d0745f55b2d5ff65a2d70a36878302e9ada8e3a29aaa34bc18ae8cbb0",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-5f3c13826756ece6eb9325f5",
+      "version": "cc8b39e2da5d4fa9d4de7551",
+      "name": "Efreeti (Disguises)",
+      "file": "images/monsters/efreeti/batch-146-portrait.png",
+      "sha256": "246f663d0745f55b2d5ff65a2d70a36878302e9ada8e3a29aaa34bc18ae8cbb0",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Efreeti"
+    },
+    {
+      "entry": "monster-140ae9dec4e343b6d5d79418",
+      "version": "7fa24f1c212fe1ec8e834ea7",
+      "name": "Efreeti (Wishes)",
+      "file": "images/monsters/efreeti/batch-146-portrait.png",
+      "sha256": "246f663d0745f55b2d5ff65a2d70a36878302e9ada8e3a29aaa34bc18ae8cbb0",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Efreeti"
+    },
+    {
+      "entry": "monster-d8787ac97154a2bcd51863b3",
+      "version": "10106c815fe877d47e7d02a8",
+      "name": "Marid (Disguises)",
+      "file": "images/monsters/shared-portraits-146/marid-989643ca1c97.png",
+      "sha256": "989643ca1c977051e11080b45689472df1239d0479116faf63cfe1e4443c2bdd",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Marid"
+    },
+    {
+      "entry": "monster-a013336e346c1f5243327f30",
+      "version": "a8ff7dd5188c39ace62746c9",
+      "name": "Marid (Wishes)",
+      "file": "images/monsters/shared-portraits-146/marid-989643ca1c97.png",
+      "sha256": "989643ca1c977051e11080b45689472df1239d0479116faf63cfe1e4443c2bdd",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Marid"
+    },
+    {
+      "entry": "monster-5fb1ecfbfd949e8e665219f7",
+      "version": "395aa54dc53b89deac7f7198",
+      "name": "Tridrone",
+      "file": "images/monsters/tridrone/batch-146-portrait.png",
+      "sha256": "28d4651d3a04637bbd28aa080104385d98e81a35c3d49125e75e6d87684ab82c",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-13226f97c25df14fee1f5d6f",
+      "version": "25e30f66c03ff6d09b74b350",
+      "name": "Tridrone (Rogue)",
+      "file": "images/monsters/tridrone/batch-146-portrait.png",
+      "sha256": "28d4651d3a04637bbd28aa080104385d98e81a35c3d49125e75e6d87684ab82c",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Tridrone"
+    },
+    {
+      "entry": "monster-c260727349525ebd50fc8af2",
+      "version": "23a04a695606f8c9a54afc4d",
+      "name": "Faerie Dragon (Blue)",
+      "file": "images/monsters/faerie-dragon-blue/batch-146-portrait.png",
+      "sha256": "82e00c6d1257c881c4b51592a610b7793aaf59a46e63a468318c43af16a9338f",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-af7076ee497f5f32346b88d3",
+      "version": "1740f590c615fce0726f191c",
+      "name": "Faerie Dragon (Green)",
+      "file": "images/monsters/faerie-dragon-green/batch-146-portrait.png",
+      "sha256": "21f1d9f2ca8f8ed4ac9efbbacf3cc2f40ec6bc0d72b402244b9dd00ab4bf3039",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-b383e32fec2030d62582e6e5",
+      "version": "9c533cf98688133a525641cf",
+      "name": "Faerie Dragon (Indigo)",
+      "file": "images/monsters/faerie-dragon-indigo/batch-146-portrait.png",
+      "sha256": "2f0f0671bef0501ad76af5175e09d45472e49b63db15d27c9caf228c895efcb0",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-9792646cf40a882ac0e29146",
+      "version": "956913fcc0104f7bcc71dd8d",
+      "name": "Faerie Dragon (Orange)",
+      "file": "images/monsters/faerie-dragon-orange/batch-146-portrait.png",
+      "sha256": "be67752e8afeaea4934289b7b681f0bb7351d78700d3e90372a8cbad8e06e236",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-afeb96bdd0ef0926c46b99f9",
+      "version": "80edd196b795a72c4a677841",
+      "name": "Faerie Dragon (Red)",
+      "file": "images/monsters/faerie-dragon-red/batch-146-portrait.png",
+      "sha256": "a00dcd0717becfaf2ad478a3f1f69ac74ef03beae12251c33d772050c330878b",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-8ab7027a40919f12b489bb1e",
+      "version": "05858da77e272f86343dd91c",
+      "name": "Faerie Dragon (Violet)",
+      "file": "images/monsters/faerie-dragon-violet/batch-146-portrait.png",
+      "sha256": "a48926f7ea03c5ff87504fb2ba8c81f6eba8d939cd41cfd399a7dc3887ba4ed2",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-87059bca2f233762a68d3419",
+      "version": "61008eea8a0c62ff8b3b3066",
+      "name": "Faerie Dragon (Yellow)",
+      "file": "images/monsters/faerie-dragon-yellow/batch-146-portrait.png",
+      "sha256": "c480ec7ee786756519542641a246b329a6c4fc451d34a5e7bacbfcfd736049ad",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-3631cecfcef4865b7586aa97",
+      "version": "c75fb01d54ca0e06eeb58465",
+      "name": "Balor",
+      "file": "images/monsters/balor/batch-146-portrait.png",
+      "sha256": "c0daec99d2c5e1089962613cf352c04d894c80eb13f1f759422b3d1549fa70f4",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-f545a211e08d20f77462843c",
+      "version": "c14e0df420c250e1086cb674",
+      "name": "Balor (Summoner Variant)",
+      "file": "images/monsters/balor/batch-146-portrait.png",
+      "sha256": "c0daec99d2c5e1089962613cf352c04d894c80eb13f1f759422b3d1549fa70f4",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Balor"
+    },
+    {
+      "entry": "monster-e1bbf498be55493a97afd1e8",
+      "version": "dce3b68f3e7a7739ec5533ca",
+      "name": "Glabrezu",
+      "file": "images/monsters/glabrezu/batch-146-portrait.png",
+      "sha256": "eb76594eca5e5e2259d1e4b158d4b61376fbe9abfd41696e49c206a7a6fa0bf9",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-db6736063c8de5a23f7ffa2d",
+      "version": "42799e9299d2e090cc34d2ae",
+      "name": "Glabrezu (summoner variant)",
+      "file": "images/monsters/glabrezu/batch-146-portrait.png",
+      "sha256": "eb76594eca5e5e2259d1e4b158d4b61376fbe9abfd41696e49c206a7a6fa0bf9",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Glabrezu"
+    },
+    {
+      "entry": "monster-4a136e4c2fa9d8dc366ae1c8",
+      "version": "4e0d05e282d3e5c6bf387e3c",
+      "name": "Hezrou",
+      "file": "images/monsters/hezrou/batch-146-portrait.png",
+      "sha256": "2fe9c554f5dc281e093dce0d931f88c90a0822f4a578e56e61ef6660df644808",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-95cf0600031b1a4c3550211c",
+      "version": "7137d7e77be4d7e20d6b758d",
+      "name": "Hezrou (Summoner Variant)",
+      "file": "images/monsters/hezrou/batch-146-portrait.png",
+      "sha256": "2fe9c554f5dc281e093dce0d931f88c90a0822f4a578e56e61ef6660df644808",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Hezrou"
+    },
+    {
+      "entry": "monster-567faa78e1969c3355d3337e",
+      "version": "4e4c0c828964d1d13fc54225",
+      "name": "Nalfeshnee",
+      "file": "images/monsters/nalfeshnee/batch-146-portrait.png",
+      "sha256": "2f054f171aec1d68c167cb67e13eb4d5179f959df081c1118d496c7000cd2526",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-d165f27fef4825bb93ac2c83",
+      "version": "76e108eb4c56a0da6389a42f",
+      "name": "Nalfeshnee (Summoner Variant)",
+      "file": "images/monsters/nalfeshnee/batch-146-portrait.png",
+      "sha256": "2f054f171aec1d68c167cb67e13eb4d5179f959df081c1118d496c7000cd2526",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Nalfeshnee"
+    }
+  ]
+}

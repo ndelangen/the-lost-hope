@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Rose Durst",
+    "slug": "rose-durst",
+    "id": "monster-f92e7c0708ad9e004d10ce3f",
+    "entry": "monster-f92e7c0708ad9e004d10ce3f",
+    "version": "e740339f878b8f8ccd68355c",
+    "suffix": "encounters-25/rose-durst.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-25/rose-durst.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-25/event-drafts/rose-durst-event-v2.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 25 2026-11-23/event-drafts/rose-durst-event-v2.png",
+    "overrides": [],
+    "sha256": "8ce52f268b25f8fa17dce67539b91fd1f789c2f9d6c5945275d7cbe9402399bd",
+    "bytes": 2484769,
+    "revision": "v2",
+    "earlier": {
+      "draft": "output/dm-library/monster-portraits/batches/encounters-25/event-drafts/rose-durst-event-v1.png",
+      "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 25 2026-11-23/event-drafts/rose-durst-event-v1.png",
+      "sha256": "a99a5b68e229837ac4755a08edf6671a83abe4e92fcbc5fa8d234d0b7b5765b2",
+      "bytes": 1945077
+    }
+  },
+  {
+    "name": "Thorn Durst",
+    "slug": "thorn-durst",
+    "id": "monster-5174d50c60d32c04e4547f36",
+    "entry": "monster-5174d50c60d32c04e4547f36",
+    "version": "3c887cc865d528a5ffaf5ebb",
+    "suffix": "encounters-25/thorn-durst.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-25/thorn-durst.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-25/event-drafts/thorn-durst-event-v2.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 25 2026-11-23/event-drafts/thorn-durst-event-v2.png",
+    "overrides": [],
+    "sha256": "21ad3d2937553e81c9b65410486ec3138ef32732f9c69dbf94ed6d74ec641950",
+    "bytes": 2621396,
+    "revision": "v2",
+    "earlier": {
+      "draft": "output/dm-library/monster-portraits/batches/encounters-25/event-drafts/thorn-durst-event-v1.png",
+      "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 25 2026-11-23/event-drafts/thorn-durst-event-v1.png",
+      "sha256": "b05508268186d9932d421edbed9a855a7848169b465e5f8723c95655c064cc23",
+      "bytes": 2141044
+    }
+  },
+  {
+    "name": "Wereraven",
+    "slug": "wereraven",
+    "id": "monster-039cdd74256f00d1222f7610:bf2da89c534a874a95855169",
+    "entry": "monster-039cdd74256f00d1222f7610",
+    "version": "bf2da89c534a874a95855169",
+    "suffix": "encounters-25/wereraven.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-25/wereraven.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-25/event-drafts/wereraven-event-v2.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 25 2026-11-23/event-drafts/wereraven-event-v2.png",
+    "overrides": [],
+    "sha256": "b148d963e00bb8b51280d6fe4776bc4b77e95fe1fb901a49d18469aabaed1273",
+    "bytes": 2724472,
+    "revision": "v2",
+    "earlier": {
+      "draft": "output/dm-library/monster-portraits/batches/encounters-25/event-drafts/wereraven-event-v1.png",
+      "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 25 2026-11-23/event-drafts/wereraven-event-v1.png",
+      "sha256": "c8c40e59529138302d635957ffaa54f2f94f983aa2f207d0b10eaccb3cb584bb",
+      "bytes": 2300937
+    }
+  }
+]

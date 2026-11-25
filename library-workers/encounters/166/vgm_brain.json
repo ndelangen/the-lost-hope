@@ -1,0 +1,404 @@
+[
+  {
+    "name": "Deep Scion",
+    "statBlock": {
+      "name": "Deep Scion",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 135,
+      "classification": "Medium humanoid (shapechanger), neutral evil",
+      "ac": 11,
+      "hp": 67,
+      "hitDice": "9d8 + 27",
+      "speed": "30 ft. in humanoid form. In hybrid form, walk 20 ft., swim 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 11,
+      "description": "An agent of an undersea power. It infiltrates settlements in humanoid form and can report its memories to its master from the water.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Wis": 3,
+        "Cha": 4
+      },
+      "skills": {
+        "Deception": 6,
+        "Insight": 3,
+        "Sleight of Hand": 3,
+        "Stealth": 3
+      },
+      "sections": {
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Aquan, Common, Thieves' Cant.",
+        "Traits": "Shapechanger. As an action, polymorph into a humanoid-fish hybrid or return to true form. Only speed changes. Worn and carried equipment stays as it is. The scion returns to true form when it dies.\nAmphibious (hybrid form only). Breathe air and water.",
+        "Actions": "Multiattack. In humanoid form, make two melee attacks. In hybrid form, make one Bite and two Claw attacks.\nBattleaxe (humanoid form only). Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) with two hands.\nBite (hybrid form only). Melee weapon attack, +6 to hit, reach 5 ft., one creature. A hit deals 6 (1d4 + 4) piercing damage.\nClaw (hybrid form only). Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 7 (1d6 + 4) slashing damage.\nPsychic Screech (hybrid form only, recharges after a short or long rest). The scream carries 300 ft. Each creature within 30 ft. must succeed on a DC 13 Wisdom save or be stunned until the end of the scion's next turn. If the scion and its master are in the same body of water, a screech made in that water telepathically sends the master the scion's memories of the previous 24 hours, regardless of distance.",
+        "Printed source": "Volo's Guide to Monsters, p. 135."
+      }
+    }
+  },
+  {
+    "name": "Devourer",
+    "statBlock": {
+      "name": "Devourer",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 138,
+      "classification": "Large fiend, chaotic evil",
+      "ac": 16,
+      "hp": 178,
+      "hitDice": "17d10 + 85",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "13",
+      "xp": 10000,
+      "passivePerception": 10,
+      "description": "A creation of Orcus that traps dying humanoids in its ribcage and turns those who die there into undead.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Abyssal, telepathy 120 ft.",
+        "Damage resistances": "Cold, fire, lightning.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Fiendish Nature. It needs souls for food and can go without air, drink, or sleep.",
+        "Actions": "Multiattack. Make two Claw attacks. The devourer can also use either Imprison Soul or Soul Rend if available.\nClaw. Melee weapon attack, +10 to hit, reach 5 ft., one target. A hit deals 12 (2d6 + 5) slashing damage plus 21 (6d6) necrotic damage.\nImprison Soul. Pick one living Humanoid at 0 hit points that the devourer can see within 30 ft. The target teleports into the devourer's ribcage and is imprisoned there. It has disadvantage on death saving throws. Only one creature can be imprisoned at a time. If the captive dies, the devourer regains 25 hit points, immediately recharges Soul Rend, and gains an extra action on its next turn. At the start of that turn, it regurgitates the victim as a bonus action. A victim with 2 or fewer Hit Dice becomes a Zombie. A victim with 3 to 5 Hit Dice becomes a Ghoul. A victim with 6 or more Hit Dice becomes a Wight.\nSoul Rend (Recharge 6). Each Humanoid within 20 ft. makes a DC 18 Constitution save. On a failed save, it takes 44 (8d10) necrotic damage, plus 10 damage for each living Humanoid at 0 hit points in the area. Halve the total on a successful save.",
+        "Printed source": "Volo's Guide to Monsters, p. 138."
+      }
+    }
+  },
+  {
+    "name": "Diviner",
+    "statBlock": {
+      "name": "Diviner",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 213,
+      "classification": "Medium humanoid (any race), any alignment",
+      "ac": 12,
+      "hp": 67,
+      "hitDice": "15d8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 9
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 11,
+      "description": "A specialist wizard who uses divination to uncover secrets and influence an uncertain outcome.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Int": 7,
+        "Wis": 4
+      },
+      "skills": {
+        "Arcana": 7,
+        "History": 7
+      },
+      "sections": {
+        "Armor": "AC 15 while Mage Armor is active.",
+        "Languages": "Any four languages.",
+        "Traits": "Portent. When the diviner or a creature it can see makes an attack roll, saving throw, or ability check, the diviner can roll a d20 and choose to substitute the new roll. Portent recharges when the diviner casts a divination spell of 1st level or higher.",
+        "Actions": "Quarterstaff. Melee weapon attack, +2 to hit, reach 5 ft., one target. A hit deals 2 (1d6 - 1) bludgeoning damage, or 3 (1d8 - 1) with two hands.",
+        "Spellcasting": "The diviner is a 15th-level wizard who uses Intelligence (spell save DC 15, +7 to hit with spell attacks).\nCantrips (at will). Fire Bolt, Light, Mage Hand, Message, True Strike.\nLevel 1 (4 slots). Detect Magic (divination), Feather Fall, Mage Armor.\nLevel 2 (3 slots). Detect Thoughts (divination), Locate Object (divination), Scorching Ray.\nLevel 3 (3 slots). Clairvoyance (divination), Fly, Fireball.\nLevel 4 (3 slots). Arcane Eye (divination), Ice Storm, Stoneskin.\nLevel 5 (2 slots). Rary's Telepathic Bond (divination), Seeming.\nLevel 6 (1 slot). Mass Suggestion, True Seeing (divination).\nLevel 7 (1 slot). Delayed Blast Fireball, Teleport.\nLevel 8 (1 slot). Maze.",
+        "Printed source": "Volo's Guide to Monsters, p. 213."
+      }
+    }
+  },
+  {
+    "name": "Draegloth",
+    "statBlock": {
+      "name": "Draegloth",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 141,
+      "classification": "Large fiend (demon), chaotic evil",
+      "ac": 15,
+      "hp": 123,
+      "hitDice": "13d10 + 52",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "7",
+      "xp": 2900,
+      "passivePerception": 13,
+      "description": "A four-armed, half-drow demon raised to enforce the will of a drow house.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 3,
+        "Stealth": 5
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Abyssal, Elvish, Undercommon.",
+        "Damage resistances": "Cold, fire, lightning.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Fey Ancestry. The draegloth has advantage on saving throws against being charmed. Magic cannot put it to sleep.",
+        "Actions": "Multiattack. Make one Bite attack and two Claws attacks.\nBite. Melee weapon attack, +8 to hit, reach 5 ft., one creature. A hit deals 16 (2d10 + 5) piercing damage.\nClaws. Melee weapon attack, +8 to hit, reach 10 ft., one target. A hit deals 16 (2d10 + 5) slashing damage.",
+        "Innate spellcasting": "Use Charisma (spell save DC 11) and omit material components.\nAt will. Darkness.\n1/day each. Confusion, Dancing Lights, Faerie Fire.",
+        "Printed source": "Volo's Guide to Monsters, p. 141."
+      }
+    }
+  },
+  {
+    "name": "Elder Brain",
+    "statBlock": {
+      "name": "Elder Brain",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 173,
+      "classification": "Large aberration, lawful evil",
+      "ac": 10,
+      "hp": 210,
+      "hitDice": "20d10 + 100",
+      "speed": "Walk 5 ft., swim 10 ft.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 21
+        },
+        "Wis": {
+          "score": 19
+        },
+        "Cha": {
+          "score": 24
+        }
+      },
+      "cr": "14",
+      "xp": 11500,
+      "passivePerception": 14,
+      "description": "An elder brain lives in a brine pool at the heart of a mind flayer colony. It coordinates the colony and reaches other minds across great distances.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Int": 10,
+        "Wis": 9,
+        "Cha": 12
+      },
+      "skills": {
+        "Arcana": 10,
+        "Deception": 12,
+        "Insight": 14,
+        "Intimidation": 12,
+        "Persuasion": 12
+      },
+      "sections": {
+        "Senses": "Blindsight 120 ft.",
+        "Languages": "Understands Common, Deep Speech, and Undercommon. It communicates through telepathy with a range of 5 miles and cannot speak aloud.",
+        "Traits": "Creature Sense. Detect creatures within 5 miles whose Intelligence is at least 4. The elder brain knows their direction, distance, and Intelligence score. Mind Blank, Nondetection, and similar magic defeat this sense.\nLegendary Resistance (3/day). The elder brain can turn a failed saving throw into a success.\nMagic Resistance. The elder brain has advantage on saves against spells and other magical effects.\nTelepathic Hub. The elder brain can hold up to ten simultaneous telepathic conversations. It may let the connected creatures hear one another telepathically.",
+        "Actions": "Tentacle. Melee weapon attack, +7 to hit, reach 30 ft., one target. A hit deals 20 (4d8 + 2) bludgeoning damage. A creature of Huge size or smaller is grappled (escape DC 15) and takes 9 (1d8 + 5) psychic damage at the start of each of its turns until the grapple ends. The elder brain can grapple up to four targets.\nMind Blast (Recharge 5–6). Release magical psychic energy and choose creatures within 60 ft. Each must succeed on a DC 18 Intelligence save or take 32 (5d10 + 5) psychic damage and be stunned for 1 minute. A stunned target can repeat the save at the end of each of its turns, ending the effect on a success.\nPsychic Link. Link with one incapacitated creature detected by Creature Sense. The elder brain perceives what the target senses until the link ends. The target notices the link once it is no longer incapacitated. It can use an action on its turn to make a DC 18 Charisma save, breaking the link and taking 10 (3d6) psychic damage on a success. The brain can end the link without an action. Separation of more than 5 miles ends the link with no consequences for the target. The elder brain can maintain up to ten psychic links.\nSense Thoughts. Read a linked creature's reasoning, emotions, and foremost thoughts. The elder brain can plant a false belief or feeling by making a Charisma (Deception) check with advantage, contested by the target's Wisdom (Insight). If the elder brain wins, the target believes the deception for 1 hour or until presented with evidence of the lie.",
+        "Innate spellcasting (psionics)": "Use Intelligence (spell save DC 18). These spells require no components.\nAt will. Detect Thoughts, Levitate.\n1/day each. Dominate Monster, Plane Shift (self only).",
+        "Legendary actions": "The elder brain has 3 legendary actions. It can spend one to use one option at the end of another creature's turn. Spent uses return at the start of its turn. It cannot use legendary actions while incapacitated or otherwise unable to act. If surprised, it must finish its first turn before using one.\nTentacle (1 action). Make one Tentacle attack.\nBreak Concentration (1 action). Choose a linked creature within 120 ft. End its concentration on a spell it cast. It takes 1d4 psychic damage per level of the spell.\nPsychic Pulse (1 action). Choose a linked creature within 120 ft. Each enemy of the elder brain within 10 ft. of that target takes 10 (3d6) psychic damage.\nSever Psychic Link (1 action). End a psychic link with a creature within 120 ft. The creature has disadvantage on ability checks, attack rolls, and saving throws until the end of its next turn.",
+        "Lair actions": "While fighting in its lair, the elder brain can use one option at initiative count 20, losing ties. It cannot use the same option in consecutive rounds. It must be able to act. If surprised, it must finish its first turn before using a lair action.\nForce Wall. Cast Wall of Force.\nPsychic Inspiration. Pick a friendly creature the elder brain can sense within 120 ft. It gains advantage on one attack roll, ability check, or saving throw it makes by the end of its next turn. The benefit expires if unused.\nPsionic Anchor. Pick a creature the elder brain can sense within 120 ft. On a failed DC 18 Charisma save, the target is unable to leave its current space. It can repeat the save at the end of each of its turns, ending the effect on a success.",
+        "Regional effects": "Choose one or more effects around the lair. All end immediately when the elder brain dies.\nParanoia. Creatures within 5 miles feel that someone is following them.\nTelepathic Eavesdropping. The elder brain can overhear any telepathic conversation within 5 miles. When contact first begins, the creature that initiated it makes a DC 18 Wisdom (Insight) check. A success reveals an eavesdropper without identifying it. The elder brain can join only if it has a psychic link with the initiator.\nPsychic Whispers. Creatures linked to the elder brain hear faint, incomprehensible traces of its thoughts and the thoughts of others in the link.",
+        "Printed source": "Volo's Guide to Monsters, p. 173."
+      }
+    }
+  },
+  {
+    "name": "Enchanter",
+    "statBlock": {
+      "name": "Enchanter",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 213,
+      "classification": "Medium humanoid (any race), any alignment",
+      "ac": 12,
+      "hp": 40,
+      "hitDice": "9d8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 9
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 17
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 11,
+      "description": "A specialist wizard who uses magic to influence minds and divert attacks.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Int": 6,
+        "Wis": 4
+      },
+      "skills": {
+        "Arcana": 6,
+        "History": 6
+      },
+      "sections": {
+        "Armor": "AC 15 while Mage Armor is active.",
+        "Languages": "Any four languages.",
+        "Actions": "Quarterstaff. Melee weapon attack, +2 to hit, reach 5 ft., one target. A hit deals 2 (1d6 - 1) bludgeoning damage, or 3 (1d8 - 1) with two hands.",
+        "Reactions": "Instinctive Charm. Before an attack against the enchanter hits or misses, the enchanter can try to redirect it magically if it can see the attacker within 30 ft. The attacker makes a DC 14 Wisdom save. On a failure, it targets the creature nearest to itself, excluding the enchanter and the attacker. The attacker chooses among tied creatures. This reaction recharges when the enchanter casts an enchantment spell of 1st level or higher.",
+        "Spellcasting": "The enchanter is a 9th-level wizard who uses Intelligence (spell save DC 14, +6 to hit with spell attacks).\nCantrips (at will). Friends, Mage Hand, Mending, Message.\nLevel 1 (4 slots). Charm Person (enchantment), Mage Armor, Magic Missile.\nLevel 2 (3 slots). Hold Person (enchantment), Invisibility, Suggestion (enchantment).\nLevel 3 (3 slots). Fireball, Haste, Tongues.\nLevel 4 (3 slots). Dominate Beast (enchantment), Stoneskin.\nLevel 5 (2 slots). Hold Monster (enchantment).",
+        "Printed source": "Volo's Guide to Monsters, p. 213."
+      }
+    }
+  },
+  {
+    "name": "Evoker",
+    "statBlock": {
+      "name": "Evoker",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 214,
+      "classification": "Medium humanoid (any race), any alignment",
+      "ac": 12,
+      "hp": 66,
+      "hitDice": "12d8 + 12",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 9
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 17
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "9",
+      "xp": 5000,
+      "passivePerception": 11,
+      "description": "A specialist wizard who shapes destructive spells around creatures it wants to spare.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Int": 7,
+        "Wis": 5
+      },
+      "skills": {
+        "Arcana": 7,
+        "History": 7
+      },
+      "sections": {
+        "Armor": "AC 15 while Mage Armor is active.",
+        "Languages": "Any four languages.",
+        "Traits": "Sculpt Spells. When an evocation spell the evoker casts forces other creatures it can see to make a saving throw, it can choose up to 1 + the spell's level of those creatures. They automatically succeed. If a success would deal half damage, they take no damage.",
+        "Actions": "Quarterstaff. Melee weapon attack, +3 to hit, reach 5 ft., one target. A hit deals 2 (1d6 - 1) bludgeoning damage, or 3 (1d8 - 1) with two hands.",
+        "Spellcasting": "The evoker is a 12th-level wizard who uses Intelligence (spell save DC 15, +7 to hit with spell attacks).\nCantrips (at will). Fire Bolt (evocation), Light (evocation), Prestidigitation, Ray of Frost (evocation).\nLevel 1 (4 slots). Burning Hands (evocation), Mage Armor, Magic Missile (evocation).\nLevel 2 (3 slots). Mirror Image, Misty Step, Shatter (evocation).\nLevel 3 (3 slots). Counterspell, Fireball (evocation), Lightning Bolt (evocation).\nLevel 4 (3 slots). Ice Storm (evocation), Stoneskin.\nLevel 5 (2 slots). Bigby's Hand (evocation), Cone of Cold (evocation).\nLevel 6 (1 slot). Chain Lightning (evocation), Wall of Ice (evocation).",
+        "Printed source": "Volo's Guide to Monsters, p. 214."
+      }
+    }
+  }
+]

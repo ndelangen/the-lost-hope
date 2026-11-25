@@ -1,0 +1,51 @@
+{
+  "commit": "b1f675b4324060679ea2c9eeb94dc74c0a5399b3",
+  "publication": "Eberron Campaign Setting (2004)",
+  "edition": "3.5 edition",
+  "playableSpeciesVersions": 1,
+  "fullNpcBuilds": 2,
+  "approvedPortraitsReused": 1,
+  "defaultPreserved": {
+    "publication": "Eberron: Forge of the Artificer",
+    "version": "7ee60631531fa28b267b667c",
+    "thumbnail": {
+      "url": "",
+      "credit": "Andrea de Dominicis · Eberron: Forge of the Artificer"
+    },
+    "existingSpeciesVersions": 2,
+    "existingMonsterVersions": 1
+  },
+  "defaultRegressionReproduced": {
+    "publication": "Eberron Campaign Setting (2004)",
+    "thumbnail": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope",
+      "caption": "Seravakri · Original Kalashtar NPC"
+    }
+  },
+  "testsPassed": 899,
+  "productionBuildPassed": true,
+  "visualProof": "output/dm-library/review/kalashtar-library-printings.jpg",
+  "browser": {
+    "name": "Kalashtar",
+    "species": "species-b5ae0cd362fa6223f4be9825",
+    "edition": "3.5 edition",
+    "profiles": [
+      "Eberron Campaign Setting (2004)"
+    ],
+    "portraitSha256": "edadfc98ee16f49cab1b65ef782f0967c248e624812bc600068d4d3adcf8a629",
+    "caption": "Seravakri · Original Kalashtar NPC",
+    "npcReceipts": [
+      {
+        "name": "Seravakri",
+        "id": "npc-808a252deb7e035bef5e6bda",
+        "challenge": "Provisional CR 1. ECL 1."
+      },
+      {
+        "name": "Tarenkhad",
+        "id": "npc-d777a01706abd8a0ffb9e0e5",
+        "challenge": "Provisional CR 1/2. ECL 1."
+      }
+    ]
+  }
+}

@@ -1,0 +1,188 @@
+[
+  {
+    "name": "Azmyth",
+    "kind": "monster",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "copyrightYear": 1993,
+    "printing": "Third printing, January 1994",
+    "productNumber": 2140,
+    "isbn": "1-56076-619-0",
+    "section": "Bat",
+    "printedColumn": "Azmyth",
+    "printedPages": [
+      15,
+      16
+    ],
+    "printScanViewer": "https://online.anyflip.com/vjcbu/qkrw/",
+    "pageImages": [
+      {
+        "printedPage": 15,
+        "viewerPage": 18,
+        "imageUrl": "https://online.anyflip.com/vjcbu/qkrw/files/large/bdd98c9a7333e11f12af09bcf01273ad.webp",
+        "sha256": "ba9d21bb53c5a2af2394a3ceef2ee27357f066bbdcab4da900fa149a1a2b9bf0"
+      },
+      {
+        "printedPage": 16,
+        "viewerPage": 19,
+        "imageUrl": "https://online.anyflip.com/vjcbu/qkrw/files/large/4ef87b704dca99fd16240b23494fd32e.webp",
+        "sha256": "1c461893e1e575988c3314ff93e9cbbfa631030e48fc769edca7f437a9182ce3"
+      }
+    ],
+    "creditsPrintScan": "https://online.anyflip.com/vjcbu/qkrw/files/large/efaf128f9ea2ed636f64e32847d3e254.webp",
+    "digitalTextCrossCheck": "",
+    "originalEarlierSource": {
+      "publication": "The Drow of the Underdark (1991)",
+      "page": 113,
+      "url": "https://www.scribd.com/document/1058602637/ADnD-FOR2-Forgotten-Realms-Drow-of-the-Underdark-2nd-Edition"
+    },
+    "laterTypeRevision": {
+      "publication": "Forgotten Realms Monster Update (2004)",
+      "url": "",
+      "usedForProfileRules": false
+    },
+    "catalogType": "Magical Beast",
+    "catalogTypeReason": "Catalog classification inferred from telepathy, spell use and magic resistance in the AD&D entry.",
+    "printedFormalCreatureType": null,
+    "sharedFamilyArtwork": {
+      "printedPage": 16,
+      "specificFormUnconfirmed": true,
+      "individualArtistUnconfirmed": true
+    },
+    "entryId": "monster-96372ade67860d2b084e07f6",
+    "versionKey": "9b9fe53d5ce3c72baee6e9c1",
+    "slug": "azmyth",
+    "query": "azmyth shocking grasp invisibility",
+    "appearanceQuery": "azmyth bearded emerald",
+    "habitatQuery": "azmyth land favorite haunts",
+    "portraitSelection": "generated",
+    "portraitEvidence": "Emerald is one of three printed colors. The crest, bearded chin, white eyes, and pointed tail come from the text."
+  },
+  {
+    "name": "Night Hunter",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "copyrightYear": 1993,
+    "printing": "Third printing, January 1994",
+    "productNumber": 2140,
+    "isbn": "1-56076-619-0",
+    "section": "Bat",
+    "printedColumn": "Night Hunter",
+    "printedPages": [
+      15,
+      16
+    ],
+    "printScanViewer": "https://online.anyflip.com/vjcbu/qkrw/",
+    "pageImages": [
+      {
+        "printedPage": 15,
+        "viewerPage": 18,
+        "imageUrl": "https://online.anyflip.com/vjcbu/qkrw/files/large/bdd98c9a7333e11f12af09bcf01273ad.webp",
+        "sha256": "ba9d21bb53c5a2af2394a3ceef2ee27357f066bbdcab4da900fa149a1a2b9bf0"
+      },
+      {
+        "printedPage": 16,
+        "viewerPage": 19,
+        "imageUrl": "https://online.anyflip.com/vjcbu/qkrw/files/large/4ef87b704dca99fd16240b23494fd32e.webp",
+        "sha256": "1c461893e1e575988c3314ff93e9cbbfa631030e48fc769edca7f437a9182ce3"
+      }
+    ],
+    "creditsPrintScan": "https://online.anyflip.com/vjcbu/qkrw/files/large/efaf128f9ea2ed636f64e32847d3e254.webp",
+    "digitalTextCrossCheck": "",
+    "originalEarlierSource": {
+      "publication": "The Drow of the Underdark (1991)",
+      "page": 113,
+      "url": "https://www.scribd.com/document/1058602637/ADnD-FOR2-Forgotten-Realms-Drow-of-the-Underdark-2nd-Edition"
+    },
+    "laterTypeRevision": {
+      "publication": "Forgotten Realms Monster Update (2004)",
+      "url": "",
+      "usedForProfileRules": false
+    },
+    "catalogType": "Animal",
+    "catalogTypeReason": "Catalog classification follows the AD&D profile as a non-spellcasting predatory bat with no listed special defenses or magic resistance.",
+    "printedFormalCreatureType": null,
+    "sharedFamilyArtwork": {
+      "printedPage": 16,
+      "specificFormUnconfirmed": true,
+      "individualArtistUnconfirmed": true
+    },
+    "entryId": "beast-c566478ed13b3c7d626a5b09",
+    "versionKey": "933982f41c461da9436dc846",
+    "slug": "night-hunter",
+    "query": "night hunter dragazhar tail stab",
+    "appearanceQuery": "night hunter triangular orange eyes",
+    "habitatQuery": "night hunter double-ended caves dense woods",
+    "portraitSelection": "generated",
+    "alias": "Dragazhar",
+    "printedLairCount": "1–30",
+    "proseLairCount": "Usually over 30",
+    "portraitEvidence": "The 1994 printing gives eye colors and the triangular tail but omits the hue after “velvet.” The 1991 printing explicitly gives velvet black, including the claws."
+  },
+  {
+    "name": "Sinister",
+    "kind": "monster",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "copyrightYear": 1993,
+    "printing": "Third printing, January 1994",
+    "productNumber": 2140,
+    "isbn": "1-56076-619-0",
+    "section": "Bat",
+    "printedColumn": "Sinister",
+    "printedPages": [
+      15,
+      16
+    ],
+    "printScanViewer": "https://online.anyflip.com/vjcbu/qkrw/",
+    "pageImages": [
+      {
+        "printedPage": 15,
+        "viewerPage": 18,
+        "imageUrl": "https://online.anyflip.com/vjcbu/qkrw/files/large/bdd98c9a7333e11f12af09bcf01273ad.webp",
+        "sha256": "ba9d21bb53c5a2af2394a3ceef2ee27357f066bbdcab4da900fa149a1a2b9bf0"
+      },
+      {
+        "printedPage": 16,
+        "viewerPage": 19,
+        "imageUrl": "https://online.anyflip.com/vjcbu/qkrw/files/large/4ef87b704dca99fd16240b23494fd32e.webp",
+        "sha256": "1c461893e1e575988c3314ff93e9cbbfa631030e48fc769edca7f437a9182ce3"
+      }
+    ],
+    "creditsPrintScan": "https://online.anyflip.com/vjcbu/qkrw/files/large/efaf128f9ea2ed636f64e32847d3e254.webp",
+    "digitalTextCrossCheck": "",
+    "originalEarlierSource": {
+      "publication": "The Drow of the Underdark (1991)",
+      "page": 113,
+      "url": "https://www.scribd.com/document/1058602637/ADnD-FOR2-Forgotten-Realms-Drow-of-the-Underdark-2nd-Edition"
+    },
+    "laterTypeRevision": {
+      "publication": "Forgotten Realms Monster Update (2004)",
+      "url": "",
+      "usedForProfileRules": false
+    },
+    "catalogType": "Magical Beast",
+    "catalogTypeReason": "Catalog classification inferred from levitation, spell use, permanent missile defense and magic resistance in the AD&D entry.",
+    "printedFormalCreatureType": null,
+    "sharedFamilyArtwork": {
+      "printedPage": 16,
+      "specificFormUnconfirmed": true,
+      "individualArtistUnconfirmed": true
+    },
+    "entryId": "monster-5bd6502ccf37fa3f7db88b21",
+    "versionKey": "deb371272c89b3dbe3e2b8f4",
+    "slug": "sinister",
+    "query": "sinister hold monster magic missile",
+    "appearanceQuery": "sinister manta ray jet-black",
+    "habitatQuery": "sinister any land hunt at night",
+    "portraitSelection": "generated",
+    "printedAlignment": "Lawful evil",
+    "proseAlignment": "Non-evil",
+    "earlierPrintedAlignment": "Lawful neutral",
+    "portraitEvidence": "The printed prose describes jet black, a manta-like outline, no distinct head or neck, and no conspicuous wing fingers."
+  }
+]

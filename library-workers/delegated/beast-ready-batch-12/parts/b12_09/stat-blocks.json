@@ -1,0 +1,171 @@
+[
+  {
+    "name": "Vulture",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Medium Beast",
+    "ac": 10,
+    "hp": 8,
+    "speed": "10 ft., fly 50 ft.",
+    "cr": "0",
+    "xp": 10,
+    "printedPage": 336,
+    "otherStatistics": "Perception 13. Stealth 10. Str -2. Dex +0. Con +1. Int -4. Wis +1. Cha -3. Senses none. Languages none.",
+    "appearance": "A brown vulture with a bare gray head, pale neck ruff and partly spread wings.",
+    "habitats": [
+      "Desert",
+      "Grassland",
+      "Hills"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Cubil de Monstruos, licensed Spanish edition of Monster Vault, p. 336, Buitre.",
+      "Traits": "Carrion Sense. The vulture can pinpoint by scent any carrion, dead creature, or undead without Incorporeal Movement within 60 ft. of it.\nHeightened Sight and Smell. The vulture's Perception is 18 when using sight or smell.\nPack Tactics. The vulture has advantage on attack rolls against a creature if at least one ally of the vulture is within 5 ft. of the creature and that ally is not incapacitated.",
+      "Actions": "Beak. Melee weapon attack +2, reach 5 ft., one target. On a hit, deal 2 (1d4) piercing damage.",
+      "Reactions": "Defensive Bile. When a creature the vulture can see hits it with a melee attack from within 5 ft., the vulture can spit partially digested carrion at the attacker. The attacker is incapacitated until the end of its next turn on a failed DC 11 Constitution save."
+    }
+  },
+  {
+    "name": "Vulture, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Large Beast",
+    "ac": 10,
+    "hp": 46,
+    "speed": "10 ft., fly 60 ft.",
+    "cr": "1",
+    "xp": 200,
+    "printedPage": 336,
+    "otherStatistics": "Perception 13. Stealth 10. Str +3. Dex +0. Con +2. Int -4. Wis +1. Cha -2. Senses none. Languages none.",
+    "appearance": "A broad dark-brown vulture with a bare pink neck, a pale ruff and a heavy hooked beak.",
+    "habitats": [
+      "Desert",
+      "Grassland",
+      "Hills"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Cubil de Monstruos, licensed Spanish edition of Monster Vault, p. 336, Buitre, Gigante.",
+      "Traits": "Carrion Sense. The vulture can pinpoint by scent any carrion, dead creature, or undead without Incorporeal Movement within 60 ft. of it.\nHeightened Sight and Smell. The vulture's Perception is 18 when using sight or smell.\nPack Tactics. The vulture has advantage on attack rolls against a creature if at least one ally of the vulture is within 5 ft. of the creature and that ally is not incapacitated.",
+      "Actions": "Multiattack. Make one Beak attack and one Talons attack.\nBeak. Melee weapon attack +5, reach 5 ft., one target. On a hit, deal 6 (1d8 + 2) piercing damage.\nTalons. Melee weapon attack +5, reach 5 ft., one target. On a hit, deal 7 (2d4 + 2) slashing damage.",
+      "Reactions": "Defensive Bile. When a creature the vulture can see hits it with a melee attack from within 5 ft., the vulture can spit partially digested carrion at the attacker. On a failed DC 13 Constitution save, the attacker takes 5 (2d4) acid damage and is incapacitated until the end of its next turn."
+    }
+  },
+  {
+    "name": "Weasel",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Tiny Beast",
+    "ac": 11,
+    "hp": 8,
+    "speed": "30 ft.",
+    "cr": "0",
+    "xp": 10,
+    "printedPage": 340,
+    "otherStatistics": "Perception 13. Stealth 13. Str -4. Dex +1. Con -1. Int -4. Wis +1. Cha -4. Senses none. Languages none.",
+    "appearance": "A slim tawny weasel with short legs, a pale underside and a long tail.",
+    "habitats": [
+      "Farmland",
+      "Forest",
+      "Grassland",
+      "Hills"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Cubil de Monstruos, licensed Spanish edition of Monster Vault, p. 340, Comadreja.",
+      "Traits": "Heightened Hearing and Smell. The weasel's Perception is 18 when using hearing or smell.",
+      "Actions": "Bite. Melee weapon attack +3, reach 5 ft., one creature. On a hit, deal 3 (1d4 + 1) piercing damage or steal one item the target wears or carries. The item must weigh 5 lb. or less and fit in one hand. It cannot be a weapon or be wrapped around or firmly attached to the target."
+    }
+  },
+  {
+    "name": "Weasel, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Medium Beast",
+    "ac": 13,
+    "hp": 14,
+    "speed": "40 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "printedPage": 340,
+    "otherStatistics": "Perception 13. Stealth 15. Str +0. Dex +3. Con +0. Int -3. Wis +1. Cha -3. Senses darkvision 60 ft. Languages none.",
+    "appearance": "A large chestnut weasel with a cream throat and belly, and a raised, curling tail.",
+    "habitats": [
+      "Forest",
+      "Grassland",
+      "Hills"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Cubil de Monstruos, licensed Spanish edition of Monster Vault, pp. 340–341, Comadreja, Gigante.",
+      "Traits": "Heightened Hearing and Smell. The giant weasel's Perception is 18 when using hearing or smell.",
+      "Actions": "Bite. Melee weapon attack +5, reach 5 ft., one target. On a hit, deal 5 (1d4 + 3) piercing damage or steal one item the target wears or carries. The item must weigh 10 lb. or less. It cannot be a weapon or be wrapped around or firmly attached to the target.",
+      "Reactions": "Repellent Spray. When a creature the weasel can see moves into a space within 15 ft. of it, the weasel can spray the creature. On a failed DC 13 Constitution save, the creature is poisoned until the end of its next turn. While poisoned this way, it cannot move into a space within 5 ft. of the weasel."
+    }
+  },
+  {
+    "name": "Wolf",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Medium Beast",
+    "ac": 13,
+    "hp": 14,
+    "speed": "40 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "printedPage": 346,
+    "otherStatistics": "Perception 11. Stealth 14. Str +1. Dex +2. Con +1. Int -4. Wis +1. Cha -2. AC includes natural armor. Senses none. Languages none.",
+    "appearance": "A gray-brown wolf with upright ears, a lighter muzzle and a thick tail.",
+    "habitats": [
+      "Farmland",
+      "Forest",
+      "Grassland",
+      "Hills"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Cubil de Monstruos, licensed Spanish edition of Monster Vault, pp. 346–347, Lobo.",
+      "Traits": "Heightened Hearing and Smell. The wolf's Perception is 16 when using hearing or smell.\nPack Tactics. The wolf has advantage on attack rolls against a creature if at least one ally of the wolf is within 5 ft. of the creature and that ally is not incapacitated.",
+      "Actions": "Bite. Melee weapon attack +4, reach 5 ft., one target. On a hit, deal 6 (1d8 + 2) piercing damage. A creature hit this way falls prone on a failed DC 12 Strength save."
+    }
+  },
+  {
+    "name": "Wolf, Dire",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Large Beast",
+    "ac": 14,
+    "hp": 40,
+    "speed": "50 ft.",
+    "cr": "1",
+    "xp": 200,
+    "printedPage": 347,
+    "otherStatistics": "Perception 13. Stealth 14. Str +3. Dex +2. Con +2. Int -4. Wis +1. Cha -2. AC includes natural armor. Senses none. Languages none.",
+    "appearance": "A heavy dark-gray wolf with a broad head, thick shoulders and coarse fur.",
+    "habitats": [
+      "Farmland",
+      "Forest",
+      "Hills"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Cubil de Monstruos, licensed Spanish edition of Monster Vault, p. 347, Lobo, terrible.",
+      "Resistances": "Resistant to frightened. The wolf has advantage on checks and saves to avoid or end that condition.",
+      "Traits": "Heightened Hearing and Smell. The dire wolf's Perception is 18 when using hearing or smell.\nPack Tactics. The dire wolf has advantage on attack rolls against a creature if at least one ally of the dire wolf is within 5 ft. of the creature and that ally is not incapacitated.",
+      "Actions": "Bite. Melee weapon attack +5, reach 5 ft., one target. On a hit, deal 12 (2d8 + 3) piercing damage. A creature hit this way falls prone on a failed DC 13 Strength save.",
+      "Bonus actions": "Hungry Growl. Growl at one creature the wolf can see within 30 ft. On a failed DC 13 Wisdom save, the creature is frightened until the end of its next turn. The wolf has advantage on its next attack roll against the frightened creature."
+    }
+  }
+]

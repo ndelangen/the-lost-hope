@@ -1,0 +1,61 @@
+[
+  {
+    "name": "Dragonkin",
+    "kind": "species",
+    "publication": "Midgard Heroes (2015)",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "Medium, walking speed 25 ft., Charisma +2 and darkvision 60 ft. Heavy armor does not slow your movement. Dragonkin reach adulthood at 20 and can live past 100.",
+      "Commanding Presence grants Persuasion proficiency. Speak, read, and write Draconic and Trade Tongue.",
+      "Choose one of five dragonkin subraces. The cantrip it grants uses Charisma.",
+      "Flame or Fire grants Strength +1, produce flame and fire resistance.",
+      "Wind or Storm grants Intelligence +1, shocking grasp and lightning resistance.",
+      "Stone or Cave grants Constitution +1, blade ward and acid resistance.",
+      "Wave or Tide grants Wisdom +1, poison spray and cold resistance.",
+      "Edjet or Soldier grants Dexterity +1, shillelagh and poison resistance."
+    ]
+  },
+  {
+    "name": "Shadow Fey",
+    "kind": "species",
+    "publication": "Midgard Heroes (2015)",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "This Midgard elven subrace adds Charisma +1 to the base elf’s Dexterity +2. Medium, speed 30 ft., darkvision 60 ft. and Perception proficiency.",
+      "Fey Ancestry grants advantage on saves against charm and bars magical sleep. Trance uses four hours of meditation in place of eight hours of sleep.",
+      "Shadow Fey Weapon Training grants rapier, shortsword, shortbow, and longbow proficiency.",
+      "Path of Shadows grants misty step in dim light, darkness, or a shadow large enough to cover you. It uses Charisma. Uses equal your Charisma modifier, minimum one, and return after a long rest.",
+      "Sunlight Sensitivity imposes disadvantage on attacks and sight-based Perception checks when you, your target, or the thing you are looking for is in bright sunlight.",
+      "Traveler in Darkness grants advantage on Intelligence (Arcana) checks about how a specific fey road or shadow road works.",
+      "Speak, read, and write Common and Elvish from the base elf and Umbral from the subrace."
+    ]
+  },
+  {
+    "name": "Dust Goblin",
+    "kind": "species",
+    "publication": "Unlikely Heroes (2016)",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "Small, speed 30 ft., Dexterity +2 and Constitution +1. Darkvision 60 ft. Adulthood starts about 12, and some recorded individuals have reached 40.",
+      "Alien Mind grants advantage on saving throws against charm and fear.",
+      "Strange and Deadly Surroundings grants proficiency in Stealth and Survival.",
+      "Twisted takes effect when you attack a creature from hiding. It makes a Wisdom save against DC 8 + proficiency bonus + Dexterity modifier. Failure makes it frightened of you until the end of its next turn.",
+      "Speak, read, and write Common and Goblin. The dust goblin dialect uses pictographs."
+    ],
+    "parentSpecies": "Goblin"
+  },
+  {
+    "name": "Sahuagin",
+    "kind": "species",
+    "publication": "Unlikely Heroes (2016)",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "Medium, speed 30 ft. and swim 40 ft. Strength +2 and Wisdom +1. Adulthood starts in the late teens. The source gives no known upper lifespan.",
+      "Superior Darkvision reaches 120 ft. Limited Amphibiousness permits breathing air and water. Submerge at least once every four hours or start suffocating.",
+      "Natural Armor gives AC 12 + Dexterity modifier. Natural Attacks grants proficiency with 1d4 slashing claws and a 1d4 piercing bite.",
+      "Blood Frenzy uses a bonus action and lasts until the end of your turn. Gain advantage on melee attack rolls against a creature below its HP maximum. Uses equal your Constitution modifier, minimum one, and return after a long rest.",
+      "Shark Telepathy magically conveys simple commands to one shark within 120 ft.",
+      "Speak, read, and write Aquan and Common."
+    ]
+  }
+]

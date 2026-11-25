@@ -26,6 +26,7 @@ export const SOCIAL_PREVIEW_VERSION = 'world-window-v2'
 export type PublicPageKind =
   | 'home'
   | 'intro'
+  | 'novel'
   | 'questions'
   | 'collection'
   | 'locations'
@@ -44,6 +45,7 @@ export type PublicPageDescriptor = {
   accent: string
   softAccent: string
   imageCandidate?: string
+  imageAlt?: string
 }
 
 const KIND_COLORS: Record<EntityKind, { accent: string; softAccent: string }> = {
@@ -120,6 +122,19 @@ const STATIC_PAGES: readonly PublicPageDescriptor[] = [
     eyebrow: 'Campaign introduction',
     context: 'D&D 5e · Homebrew',
     footnote: 'Begin the story',
+    accent: '#d59b42',
+    softAccent: '#f8e7c7',
+  },
+  {
+    path: '/novel',
+    pageKind: 'novel',
+    title: 'The Novel',
+    description: 'Read The Lost Hope campaign as a comic, starting with the party’s first voyage.',
+    eyebrow: 'The Lost Hope',
+    context: 'Illustrated campaign',
+    footnote: 'Read the comic',
+    imageCandidate: events.n2_e001.illustrations[0],
+    imageAlt: 'The Lost Hope: The Novel. Jim plays his lute as William looks out to sea.',
     accent: '#d59b42',
     softAccent: '#f8e7c7',
   },
@@ -274,6 +289,11 @@ export const PUBLIC_PAGE_DESCRIPTORS: readonly PublicPageDescriptor[] = [
   ...COLLECTIONS.flatMap((kind) => allEntities(kind).map(detailDescriptor)),
 ]
 
+// The reader uses the query string to render the requested page on the server.
+export const PRERENDERED_PUBLIC_PAGE_DESCRIPTORS = PUBLIC_PAGE_DESCRIPTORS.filter(
+  ({ pageKind }) => pageKind !== 'novel',
+)
+
 export function publicPageDescriptor(path: string): PublicPageDescriptor | undefined {
   return PUBLIC_PAGE_DESCRIPTORS.find((page) => page.path === path)
 }
@@ -300,8 +320,8 @@ export function validatePublicPageDescriptors(): string[] {
     if (!page.title.trim()) errors.push(`Missing title: ${page.path}`)
     if (!page.description.trim()) errors.push(`Missing description: ${page.path}`)
   }
-  if (PUBLIC_PAGE_DESCRIPTORS.length !== 574) {
-    errors.push(`Expected 574 public pages, found ${PUBLIC_PAGE_DESCRIPTORS.length}`)
+  if (PUBLIC_PAGE_DESCRIPTORS.length !== 575) {
+    errors.push(`Expected 575 public pages, found ${PUBLIC_PAGE_DESCRIPTORS.length}`)
   }
   return errors
 }

@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Relicborn",
+    "file": "portraits/relicborn.png",
+    "sha256": "c689f30397ac066294cf2f35b6d406937a5da8163cd96c8b406b37c86a594d96",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "name": "Silkborn",
+    "file": "portraits/silkborn.png",
+    "sha256": "8f3bb1cec383c15cb39e3384186842ccdb4ec6a82c7b8561476c66aea0b011bd",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "name": "Stoneborn",
+    "file": "portraits/stoneborn.png",
+    "sha256": "ba5b67cc00d9732c4c805bfb3db8595c77419057c3d71a0614e028123030e89d",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "name": "Threadborn",
+    "file": "portraits/threadborn.png",
+    "sha256": "8b3e639da052c40de1c5687ee3a8669bb5a21f5da393db0bb439c2de26471b89",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  }
+]

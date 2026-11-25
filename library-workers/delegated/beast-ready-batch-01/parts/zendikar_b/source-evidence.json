@@ -1,0 +1,176 @@
+[
+  {
+    "name": "Heartstabber Mosquito",
+    "publication": "Plane Shift: Zendikar",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "author": "James Wyatt",
+    "printing": "First printing, April 2016",
+    "url": "",
+    "printedPages": [
+      27
+    ],
+    "pageNumbering": "page counted from the cover as page 1. Zendikar pages have no printed folio.",
+    "reskinReference": {
+      "name": "Stirge",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "publisher": "Wizards of the Coast",
+      "version": "First printing, September 2014",
+      "printedPages": [
+        284
+      ],
+      "rulesWitness": "Read the 2014 print page and compared the published 2014 legacy stat block.",
+      "url": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+      "rulesReadUrl": "https://www.dndbeyond.com/monsters/17023-stirge"
+    },
+    "adjustments": "Use the referenced block as printed.",
+    "habitatSource": "Zendikar p. 27, Venomous Vermin, names the swamps of Guul Draz.",
+    "appearanceSource": "Zendikar p. 27 describes the enormous mosquito. Its detailed anatomy is editorial, based on mosquito anatomy."
+  },
+  {
+    "name": "Oxen",
+    "publication": "Plane Shift: Zendikar",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "author": "James Wyatt",
+    "printing": "First printing, April 2016",
+    "url": "",
+    "printedPages": [
+      34
+    ],
+    "pageNumbering": "page counted from the cover as page 1. Zendikar pages have no printed folio.",
+    "reskinReference": {
+      "name": "Giant Goat",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "publisher": "Wizards of the Coast",
+      "version": "First printing, September 2014",
+      "printedPages": [
+        326
+      ],
+      "rulesWitness": "Read the 2014 print page and compared the published 2014 legacy stat block.",
+      "url": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+      "rulesReadUrl": "https://www.dndbeyond.com/monsters/16885-giant-goat"
+    },
+    "adjustments": "Use the referenced block as printed.",
+    "habitatSource": "Zendikar p. 34 names Murasa’s Pillar Plains. Grassland is an editorial search term inferred from the region.",
+    "appearanceSource": "Zendikar p. 34 identifies the oxen and their use as powerful pack animals. Their markings and detailed cattle anatomy are editorial."
+  },
+  {
+    "name": "Shoal Serpent",
+    "publication": "Plane Shift: Zendikar",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "author": "James Wyatt",
+    "printing": "First printing, April 2016",
+    "url": "",
+    "printedPages": [
+      26
+    ],
+    "pageNumbering": "page counted from the cover as page 1. Zendikar pages have no printed folio.",
+    "reskinReference": {
+      "name": "Plesiosaurus",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "publisher": "Wizards of the Coast",
+      "version": "First printing, September 2014",
+      "printedPages": [
+        80
+      ],
+      "rulesWitness": "Read the 2014 print page and compared the published 2014 legacy stat block.",
+      "url": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+      "rulesReadUrl": "https://www.dndbeyond.com/monsters/16981-plesiosaurus"
+    },
+    "adjustments": "Use the referenced block as printed.",
+    "habitatSource": "Zendikar p. 26, Other Creatures of the Seas, places it off the coast of Ondu.",
+    "appearanceSource": "Zendikar p. 26 describes its enormous size and compares it to a reef. Neck shape and dorsal plating are editorial visual details."
+  },
+  {
+    "name": "Terastodon",
+    "publication": "Plane Shift: Zendikar",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "author": "James Wyatt",
+    "printing": "First printing, April 2016",
+    "url": "",
+    "printedPages": [
+      34
+    ],
+    "pageNumbering": "page counted from the cover as page 1. Zendikar pages have no printed folio.",
+    "reskinReference": {
+      "name": "Mammoth",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "publisher": "Wizards of the Coast",
+      "version": "First printing, September 2014",
+      "printedPages": [
+        332
+      ],
+      "rulesWitness": "Read the 2014 print page and compared the published 2014 legacy stat block.",
+      "url": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+      "rulesReadUrl": "https://www.dndbeyond.com/monsters/16950-mammoth"
+    },
+    "adjustments": "Use the referenced block as printed.",
+    "habitatSource": "Flooded woodland is an editorial habitat tag inferred from the p. 34 illustration. The text specifies no range.",
+    "appearanceSource": "Zendikar p. 34 describes the elephant form, four tusks, armored hide and pointed plate. The adjacent illustration shows the beast wading."
+  },
+  {
+    "name": "Terra Stomper",
+    "publication": "Plane Shift: Zendikar",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "author": "James Wyatt",
+    "printing": "First printing, April 2016",
+    "url": "",
+    "printedPages": [
+      34
+    ],
+    "pageNumbering": "page counted from the cover as page 1. Zendikar pages have no printed folio.",
+    "reskinReference": {
+      "name": "Tyrannosaurus Rex",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "publisher": "Wizards of the Coast",
+      "version": "First printing, September 2014",
+      "printedPages": [
+        80
+      ],
+      "rulesWitness": "Read the 2014 print page and compared the published 2014 legacy stat block.",
+      "url": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+      "rulesReadUrl": "https://www.dndbeyond.com/monsters/17041-tyrannosaurus-rex"
+    },
+    "adjustments": "Use the referenced block as printed.",
+    "habitatSource": "Zendikar p. 34 names the Vastwood of Tazeem.",
+    "appearanceSource": "Zendikar p. 34 gives six legs and the size of a tree. Jaws, tail and reptilian skin are editorial shape choices informed by the referenced attack actions."
+  },
+  {
+    "name": "Woodcrasher Baloth",
+    "publication": "Plane Shift: Zendikar",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "author": "James Wyatt",
+    "printing": "First printing, April 2016",
+    "url": "",
+    "printedPages": [
+      33
+    ],
+    "pageNumbering": "page counted from the cover as page 1. Zendikar pages have no printed folio.",
+    "reskinReference": {
+      "name": "Triceratops",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "publisher": "Wizards of the Coast",
+      "version": "First printing, September 2014",
+      "printedPages": [
+        80
+      ],
+      "rulesWitness": "Read the 2014 print page and compared the published 2014 legacy stat block.",
+      "url": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+      "rulesReadUrl": "https://www.dndbeyond.com/monsters/17039-triceratops"
+    },
+    "adjustments": "The Zendikar text adds a 30-ft. climbing speed. Keep the Triceratops block’s 50-ft. walking speed and other statistics.",
+    "habitatSource": "Zendikar p. 33 places woodcrashers in Turntimber forest and describes them moving from tree to tree. Forest canopy is the editorial search tag for that behavior.",
+    "appearanceSource": "Zendikar p. 33, Baloths, describes muscular hunters with horns, spines and plates, and woodcrashers with large climbing claws."
+  }
+]

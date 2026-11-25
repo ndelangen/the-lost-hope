@@ -1,0 +1,469 @@
+[
+  {
+    "name": "Gray Slaad (control gem variant)",
+    "statBlock": {
+      "name": "Gray Slaad (control gem variant)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium aberration (shapechanger), chaotic neutral",
+      "ac": 18,
+      "hp": 127,
+      "hitDice": "17d8 + 51",
+      "passivePerception": 17,
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 17,
+          "modifier": 3
+        },
+        "Dex": {
+          "score": 17,
+          "modifier": 3
+        },
+        "Con": {
+          "score": 16,
+          "modifier": 3
+        },
+        "Int": {
+          "score": 13,
+          "modifier": 1
+        },
+        "Wis": {
+          "score": 8,
+          "modifier": -1
+        },
+        "Cha": {
+          "score": 14,
+          "modifier": 2
+        }
+      },
+      "cr": "9",
+      "xp": 5000,
+      "description": "A gray slaad can pass for a humanoid and use illusion, flight, and planar travel to choose its fights.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Damage resistances": "Acid, cold, fire, lightning, thunder.",
+        "Languages": "Slaad, telepathy 60 ft.",
+        "Senses": "Blindsight and darkvision 60 ft., passive Perception 17.",
+        "Traits": "Shapechanger. As an action, the slaad can take the form of a Small or Medium humanoid or return to its true form. Only its size changes in its statistics. Its equipment keeps its own form. It returns to its true form on death.\nMagic Resistance. The slaad has advantage on saves against spells and other magical effects.\nMagic Weapons. The slaad’s weapon attacks count as magical.\nRegeneration. At the start of its turn, the slaad regains 10 HP if it has at least 1 HP.\nControl Gem. The slaad has a magical gem in its brain. It must obey the creature that possesses the gem and is immune to being Charmed for as long as the gem controls it. Destroying the gem ends this means of control.\nSpell extraction. If the slaad fails a save against Imprisonment, the caster can have the spell move the gem to their open hand instead of imprisoning the slaad. Wish can retrieve the gem if cast in the slaad's presence with that wording. Greater Restoration cast on the slaad destroys the gem without injuring it.\nSurgical extraction. A creature proficient in Wisdom (Medicine) can remove the gem while the slaad is Incapacitated. Each attempt takes 1 minute of uninterrupted work and a DC 20 Wisdom (Medicine) check. A failure deals 22 (4d10) psychic damage to the slaad.",
+        "Innate spellcasting": "Charisma, spell save DC 14. No material components.\nAt will. Detect Magic, Detect Thoughts, Invisibility (self only), Mage Hand, Major Image.\n2/day each. Fear, Fly, Fireball, Tongues.\n1/day. Plane Shift (self only).",
+        "Actions": "Multiattack. Make one Bite and two Claw or Greatsword attacks.\nBite (slaad form only). Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit 6 (1d6 + 3) piercing damage.\nClaw (slaad form only). Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit 8 (1d10 + 3) slashing damage.\nGreatsword. Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit 10 (2d6 + 3) slashing damage.",
+        "Printed source": "Monster Manual (2014), pp. 274, 277."
+      },
+      "ruleNotes": [
+        "The Spawning Stone implants a color-matched gem in each slaad it creates. A slaad born elsewhere gains a gem only if it touches the Stone.",
+        "The printed Multiattack includes a Bite, which is available only in slaad form. In humanoid form, use the listed individual weapon attack unless another printed Multiattack option is available."
+      ],
+      "skills": {
+        "Arcana": 5,
+        "Perception": 7
+      }
+    }
+  },
+  {
+    "name": "Blue Slaad (control gem variant)",
+    "statBlock": {
+      "name": "Blue Slaad (control gem variant)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large aberration, chaotic neutral",
+      "ac": 15,
+      "hp": 123,
+      "hitDice": "13d10 + 52",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 20,
+          "modifier": 5
+        },
+        "Dex": {
+          "score": 15,
+          "modifier": 2
+        },
+        "Con": {
+          "score": 18,
+          "modifier": 4
+        },
+        "Int": {
+          "score": 7,
+          "modifier": -2
+        },
+        "Wis": {
+          "score": 7,
+          "modifier": -2
+        },
+        "Cha": {
+          "score": 9,
+          "modifier": -1
+        }
+      },
+      "cr": "7",
+      "xp": 2900,
+      "description": "A blue slaad’s hooked claws carry chaos phage, a disease that can turn a humanoid into a slaad.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Damage resistances": "Acid, cold, fire, lightning, thunder.",
+        "Languages": "Slaad, telepathy 60 ft.",
+        "Senses": "Darkvision 60 ft., passive Perception 11.",
+        "Traits": "Magic Resistance. The slaad has advantage on saves against spells and other magical effects.\nRegeneration. At the start of its turn, the slaad regains 10 HP if it has at least 1 HP.\nControl Gem. The slaad has a magical gem in its brain. It must obey the creature that possesses the gem and is immune to being Charmed for as long as the gem controls it. Destroying the gem ends this means of control.\nSpell extraction. If the slaad fails a save against Imprisonment, the caster can have the spell move the gem to their open hand instead of imprisoning the slaad. Wish can retrieve the gem if cast in the slaad's presence with that wording. Greater Restoration cast on the slaad destroys the gem without injuring it.\nSurgical extraction. A creature proficient in Wisdom (Medicine) can remove the gem while the slaad is Incapacitated. Each attempt takes 1 minute of uninterrupted work and a DC 20 Wisdom (Medicine) check. A failure deals 22 (4d10) psychic damage to the slaad.",
+        "Actions": "Multiattack. Make one Bite and two Claw attacks.\nBite. Melee weapon attack, +8 to hit, reach 5 ft., one target. Hit 12 (2d6 + 5) piercing damage.\nClaw. Melee weapon attack, +8 to hit, reach 5 ft., one target. Hit 12 (2d6 + 5) slashing damage. A humanoid hit by the claw makes a DC 15 Constitution save. On a failure it contracts chaos phage.\nChaos Phage. The infected target cannot regain HP and loses 10 (3d6) from its HP maximum every 24 hours. At a maximum of 0 HP, it immediately becomes a red slaad, or a green slaad if it can cast spells of 3rd level or higher. Only Wish reverses that transformation.",
+        "Printed source": "Monster Manual (2014), pp. 274, 276."
+      },
+      "ruleNotes": [
+        "The Spawning Stone implants a color-matched gem in each slaad it creates. A slaad born elsewhere gains a gem only if it touches the Stone.",
+        "Chaos phage is a disease. The block gives no recurring save or special cure before transformation."
+      ],
+      "skills": {
+        "Perception": 1
+      },
+      "passivePerception": 11
+    }
+  },
+  {
+    "name": "Death Slaad (control gem variant)",
+    "statBlock": {
+      "name": "Death Slaad (control gem variant)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium aberration (shapechanger), chaotic evil",
+      "ac": 18,
+      "hp": 170,
+      "hitDice": "20d8 + 80",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 20,
+          "modifier": 5
+        },
+        "Dex": {
+          "score": 15,
+          "modifier": 2
+        },
+        "Con": {
+          "score": 19,
+          "modifier": 4
+        },
+        "Int": {
+          "score": 15,
+          "modifier": 2
+        },
+        "Wis": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Cha": {
+          "score": 16,
+          "modifier": 3
+        }
+      },
+      "cr": "10",
+      "xp": 5900,
+      "description": "Death slaadi lead red and blue slaadi on raids into other planes. Necrotic energy suffuses their weapons and natural attacks.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Damage resistances": "Acid, cold, fire, lightning, thunder.",
+        "Languages": "Slaad, telepathy 60 ft.",
+        "Senses": "Blindsight and darkvision 60 ft., passive Perception 18.",
+        "Traits": "Shapechanger. As an action, the slaad can take the form of a Small or Medium humanoid or return to its true form. Only its size changes in its statistics. Its equipment keeps its own form. It returns to its true form on death.\nMagic Resistance. The slaad has advantage on saves against spells and other magical effects.\nMagic Weapons. The slaad’s weapon attacks count as magical.\nRegeneration. At the start of its turn, the slaad regains 10 HP if it has at least 1 HP.\nControl Gem. The slaad has a magical gem in its brain. It must obey the creature that possesses the gem and is immune to being Charmed for as long as the gem controls it. Destroying the gem ends this means of control.\nSpell extraction. If the slaad fails a save against Imprisonment, the caster can have the spell move the gem to their open hand instead of imprisoning the slaad. Wish can retrieve the gem if cast in the slaad's presence with that wording. Greater Restoration cast on the slaad destroys the gem without injuring it.\nSurgical extraction. A creature proficient in Wisdom (Medicine) can remove the gem while the slaad is Incapacitated. Each attempt takes 1 minute of uninterrupted work and a DC 20 Wisdom (Medicine) check. A failure deals 22 (4d10) psychic damage to the slaad.",
+        "Innate spellcasting": "Charisma, spell save DC 15, +7 to hit with spell attacks. No material components.\nAt will. Detect Magic, Detect Thoughts, Invisibility (self only), Mage Hand, Major Image.\n2/day each. Fear, Fireball, Fly, Tongues.\n1/day each. Cloudkill, Plane Shift.",
+        "Actions": "Multiattack. Make one Bite and two Claw or Greatsword attacks.\nBite (slaad form only). Melee weapon attack, +9 to hit, reach 5 ft., one target. Hit 9 (1d8 + 5) piercing damage plus 7 (2d6) necrotic damage.\nClaw (slaad form only). Melee weapon attack, +9 to hit, reach 5 ft., one target. Hit 10 (1d10 + 5) slashing damage plus 7 (2d6) necrotic damage.\nGreatsword. Melee weapon attack, +9 to hit, reach 5 ft., one target. Hit 12 (2d6 + 5) slashing damage plus 7 (2d6) necrotic damage.",
+        "Printed source": "Monster Manual (2014), pp. 274, 278."
+      },
+      "ruleNotes": [
+        "The Spawning Stone implants a color-matched gem in each slaad it creates. A slaad born elsewhere gains a gem only if it touches the Stone.",
+        "The printed Multiattack includes a Bite, which is available only in slaad form. In humanoid form, use the listed individual weapon attack unless another printed Multiattack option is available."
+      ],
+      "skills": {
+        "Arcana": 6,
+        "Perception": 8
+      },
+      "passivePerception": 18
+    }
+  },
+  {
+    "name": "Green Slaad (control gem variant)",
+    "statBlock": {
+      "name": "Green Slaad (control gem variant)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large aberration (shapechanger), chaotic neutral",
+      "ac": 16,
+      "hp": 127,
+      "hitDice": "15d10 + 45",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18,
+          "modifier": 4
+        },
+        "Dex": {
+          "score": 15,
+          "modifier": 2
+        },
+        "Con": {
+          "score": 16,
+          "modifier": 3
+        },
+        "Int": {
+          "score": 11,
+          "modifier": 0
+        },
+        "Wis": {
+          "score": 8,
+          "modifier": -1
+        },
+        "Cha": {
+          "score": 12,
+          "modifier": 1
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "description": "A green slaad can pass for a humanoid and strike with a staff or throw fire from a distance.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Damage resistances": "Acid, cold, fire, lightning, thunder.",
+        "Languages": "Slaad, telepathy 60 ft.",
+        "Senses": "Blindsight 30 ft., darkvision 60 ft., passive Perception 12.",
+        "Traits": "Shapechanger. As an action, the slaad can take the form of a Small or Medium humanoid or return to its true form. Only its size changes in its statistics. Its equipment keeps its own form. It returns to its true form on death.\nMagic Resistance. The slaad has advantage on saves against spells and other magical effects.\nRegeneration. At the start of its turn, the slaad regains 10 HP if it has at least 1 HP.\nControl Gem. The slaad has a magical gem in its brain. It must obey the creature that possesses the gem and is immune to being Charmed for as long as the gem controls it. Destroying the gem ends this means of control.\nSpell extraction. If the slaad fails a save against Imprisonment, the caster can have the spell move the gem to their open hand instead of imprisoning the slaad. Wish can retrieve the gem if cast in the slaad's presence with that wording. Greater Restoration cast on the slaad destroys the gem without injuring it.\nSurgical extraction. A creature proficient in Wisdom (Medicine) can remove the gem while the slaad is Incapacitated. Each attempt takes 1 minute of uninterrupted work and a DC 20 Wisdom (Medicine) check. A failure deals 22 (4d10) psychic damage to the slaad.",
+        "Innate spellcasting": "Charisma, spell save DC 12. No material components.\nAt will. Detect Magic, Detect Thoughts, Mage Hand.\n2/day each. Fear, Invisibility (self only).\n1/day. Fireball.",
+        "Actions": "Multiattack. Make one Bite and two Claw or Staff attacks, or use Hurl Flame twice instead.\nBite (slaad form only). Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit 11 (2d6 + 4) piercing damage.\nClaw (slaad form only). Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit 7 (1d6 + 4) slashing damage.\nStaff. Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit 11 (2d6 + 4) bludgeoning damage.\nHurl Flame. Ranged spell attack, +4 to hit, range 60 ft., one target. Hit 10 (3d6) fire damage. The flames ignite flammable objects that are not worn or carried.",
+        "Printed source": "Monster Manual (2014), pp. 274, 277."
+      },
+      "ruleNotes": [
+        "The Spawning Stone implants a color-matched gem in each slaad it creates. A slaad born elsewhere gains a gem only if it touches the Stone.",
+        "The printed Multiattack includes a Bite, which is available only in slaad form. In humanoid form, use the listed individual weapon attack unless another printed Multiattack option is available."
+      ],
+      "skills": {
+        "Arcana": 3,
+        "Perception": 2
+      },
+      "passivePerception": 12
+    }
+  },
+  {
+    "name": "Red Slaad (control gem variant)",
+    "statBlock": {
+      "name": "Red Slaad (control gem variant)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large aberration, chaotic neutral",
+      "ac": 14,
+      "hp": 93,
+      "hitDice": "11d10 + 33",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16,
+          "modifier": 3
+        },
+        "Dex": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Con": {
+          "score": 16,
+          "modifier": 3
+        },
+        "Int": {
+          "score": 6,
+          "modifier": -2
+        },
+        "Wis": {
+          "score": 6,
+          "modifier": -2
+        },
+        "Cha": {
+          "score": 7,
+          "modifier": -2
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "description": "A red slaad can leave an egg in a humanoid it claws. A growing tadpole uses that creature as its host.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Damage resistances": "Acid, cold, fire, lightning, thunder.",
+        "Languages": "Slaad, telepathy 60 ft.",
+        "Senses": "Darkvision 60 ft., passive Perception 11.",
+        "Traits": "Magic Resistance. The slaad has advantage on saves against spells and other magical effects.\nRegeneration. At the start of its turn, the slaad regains 10 HP if it has at least 1 HP.\nControl Gem. The slaad has a magical gem in its brain. It must obey the creature that possesses the gem and is immune to being Charmed for as long as the gem controls it. Destroying the gem ends this means of control.\nSpell extraction. If the slaad fails a save against Imprisonment, the caster can have the spell move the gem to their open hand instead of imprisoning the slaad. Wish can retrieve the gem if cast in the slaad's presence with that wording. Greater Restoration cast on the slaad destroys the gem without injuring it.\nSurgical extraction. A creature proficient in Wisdom (Medicine) can remove the gem while the slaad is Incapacitated. Each attempt takes 1 minute of uninterrupted work and a DC 20 Wisdom (Medicine) check. A failure deals 22 (4d10) psychic damage to the slaad.",
+        "Actions": "Multiattack. Make one Bite and two Claw attacks.\nBite. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit 8 (2d4 + 3) piercing damage.\nClaw. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit 7 (1d8 + 3) piercing damage. A humanoid hit by the claw makes a DC 14 Constitution save. On a failure it contracts a disease by receiving a slaad egg.\nSlaad Egg. A humanoid can carry only one egg to term at a time. The egg migrates to its chest and becomes a tadpole over three months. For the last 24 hours, halve the host’s speed and give it disadvantage on attack rolls, ability checks and saves. The tadpole emerges over one round and kills the host. Curing the disease before emergence destroys the unborn tadpole.",
+        "Printed source": "Monster Manual (2014), pp. 274, 276."
+      },
+      "ruleNotes": [
+        "The Spawning Stone implants a color-matched gem in each slaad it creates. A slaad born elsewhere gains a gem only if it touches the Stone."
+      ],
+      "skills": {
+        "Perception": 1
+      },
+      "passivePerception": 11
+    }
+  },
+  {
+    "name": "Gas Spore",
+    "statBlock": {
+      "name": "Gas Spore",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large plant, unaligned",
+      "ac": 5,
+      "hp": 1,
+      "hitDice": "1d10 - 4",
+      "speed": "0 ft., fly 10 ft. (hover)",
+      "passivePerception": 5,
+      "abilities": {
+        "Str": {
+          "score": 5
+        },
+        "Dex": {
+          "score": 1
+        },
+        "Con": {
+          "score": 3
+        },
+        "Int": {
+          "score": 1
+        },
+        "Wis": {
+          "score": 1
+        },
+        "Cha": {
+          "score": 1
+        }
+      },
+      "cr": "1/2",
+      "xp": 100,
+      "description": "This floating fungus resembles a beholder from a distance. Its hollow body releases infectious spores when it bursts.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Blinded, Deafened, Frightened, Paralyzed, Poisoned, Prone.",
+        "Senses": "Blindsight 30 ft. It is blind beyond that radius.",
+        "Languages": "None.",
+        "Traits": "Death Burst. When reduced to 0 HP, the gas spore explodes. Each creature within 20 ft. makes a DC 15 Constitution save. On a failure, it takes 10 (3d6) poison damage and contracts the disease below. A creature immune to being Poisoned cannot contract it.\nSpore disease. Roll 1d12 and add the infected creature's Constitution score. That is the number of hours before the disease kills it, unless removed. Halfway through, the creature becomes Poisoned for the remaining time. After it dies, 2d4 Tiny gas spores sprout from its corpse and reach full size in 7 days.\nEerie Resemblance. A creature that can see the gas spore identifies it as a fungus with a successful DC 15 Intelligence (Nature) check.",
+        "Actions": "Touch. Melee weapon attack, +0 to hit, reach 5 ft., one creature. Hit 1 poison damage. The target contracts the spore disease unless it succeeds on a DC 10 Constitution save or is immune to being Poisoned.",
+        "Printed source": "Monster Manual (2014), p. 138 (stat block), p. 137 (beholder memories)."
+      },
+      "ruleNotes": [
+        "A creature that survives inhaling spores released by a gas spore grown from a beholder corpse can inherit fragments of the dead beholder's memories. Use them for clues about its former lair and nearby creatures or locations."
+      ]
+    }
+  },
+  {
+    "name": "Gray Ooze (Psychic)",
+    "statBlock": {
+      "name": "Gray Ooze (Psychic)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium ooze, unaligned",
+      "ac": 8,
+      "hp": 22,
+      "hitDice": "3d8 + 9",
+      "speed": "10 ft., climb 10 ft.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 6
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 6
+        },
+        "Cha": {
+          "score": 2
+        }
+      },
+      "cr": "1/2",
+      "xp": 100,
+      "description": "A mature gray ooze can develop enough intelligence to attack another creature's mind.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Variant": "Uses the Gray Ooze base profile with Intelligence 6 and the additional Psychic Crush action.",
+        "Damage resistances": "Acid, cold, fire.",
+        "Condition immunities": "Blinded, Charmed, Deafened, Exhaustion, Frightened, Prone.",
+        "Senses": "Blindsight 60 ft. It is blind beyond that radius. Passive Perception 8.",
+        "Languages": "None.",
+        "Traits": "Amorphous. The ooze can pass through a gap as narrow as 1 inch without squeezing.\nCorrode Metal. After a hit from a nonmagical metal weapon, that weapon permanently loses 1 from its damage rolls. Penalties stack and destroy it at −5. Nonmagical metal ammunition is destroyed after it hits and deals damage. The ooze can eat through 2 inches of nonmagical metal in one round.\nFalse Appearance. A motionless ooze looks like an oily puddle or wet rock.\nOoze Nature. It needs no sleep.",
+        "Actions": "Pseudopod. Melee weapon attack, +3 to hit, reach 5 ft., one target. Hit 4 (1d6 + 1) bludgeoning plus 7 (2d6) acid damage. Nonmagical metal armor worn by the target takes a permanent, stacking −1 penalty to the AC it offers. The armor breaks once its AC drops to 10.\nPsychic Crush (recharge 5–6). Choose one creature it senses within 60 ft. The creature makes a DC 10 Intelligence save, taking 10 (3d6) psychic damage on failure or half on success.",
+        "Printed source": "Monster Manual (2014), pp. 240, 243."
+      },
+      "skills": {
+        "Stealth": 2
+      },
+      "passivePerception": 8
+    }
+  },
+  {
+    "name": "Gray Ooze",
+    "statBlock": {
+      "name": "Gray Ooze",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium ooze, unaligned",
+      "ac": 8,
+      "hp": 22,
+      "hitDice": "3d8 + 9",
+      "speed": "10 ft., climb 10 ft.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 6
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 1
+        },
+        "Wis": {
+          "score": 6
+        },
+        "Cha": {
+          "score": 2
+        }
+      },
+      "cr": "1/2",
+      "xp": 100,
+      "description": "A gray ooze lies motionless like a wet rock or a pool of oil, then strikes with a corrosive pseudopod.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Damage resistances": "Acid, cold, fire.",
+        "Condition immunities": "Blinded, Charmed, Deafened, Exhaustion, Frightened, Prone.",
+        "Senses": "Blindsight 60 ft. It is blind beyond that radius. Passive Perception 8.",
+        "Languages": "None.",
+        "Traits": "Amorphous. The ooze can pass through a gap as narrow as 1 inch without squeezing.\nCorrode Metal. After a hit from a nonmagical metal weapon, that weapon permanently loses 1 from its damage rolls. Penalties stack and destroy it at −5. Nonmagical metal ammunition is destroyed after it hits and deals damage. The ooze can eat through 2 inches of nonmagical metal in one round.\nFalse Appearance. A motionless ooze looks like an oily puddle or wet rock.\nOoze Nature. It needs no sleep.",
+        "Actions": "Pseudopod. Melee weapon attack, +3 to hit, reach 5 ft., one target. Hit 4 (1d6 + 1) bludgeoning plus 7 (2d6) acid damage. Nonmagical metal armor worn by the target takes a permanent, stacking −1 penalty to the AC it offers. The armor breaks once its AC drops to 10.",
+        "Printed source": "Monster Manual (2014), p. 243 (stat block), p. 240 (Ooze Nature)."
+      },
+      "skills": {
+        "Stealth": 2
+      },
+      "passivePerception": 8
+    }
+  }
+]

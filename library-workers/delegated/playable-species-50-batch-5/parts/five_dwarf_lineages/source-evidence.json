@@ -1,0 +1,201 @@
+[
+  {
+    "name": "Krugel Orc",
+    "publication": "Hollow World Campaign Set (1990)",
+    "edition": "Basic D&D (BECMI)",
+    "publisher": "TSR, Inc.",
+    "url": "https://online.anyflip.com/vjcbu/nhmz/#p=43",
+    "heading": "Krugel Orcs and New Character Race: Krugel Orcs",
+    "printedPages": [
+      41,
+      42
+    ],
+    "viewerPages": [
+      43,
+      44
+    ],
+    "pdfPages": [
+      43,
+      44
+    ],
+    "creatureType": "Humanoid (Orc)",
+    "previousCatalogCoverage": "No exact-name catalog entry.",
+    "distinction": "The player profile sets the advancement and saves and supplies no separate to-hit table. The NPC uses the Rules Cyclopedia level-1 character attack row, with ordinary spear damage, standard side initiative and coin-weight encumbrance.",
+    "supportingSources": [
+      {
+        "title": "Hollow World Campaign Set, complete set facsimile",
+        "url": "",
+        "pdfPages": [
+          43,
+          44
+        ]
+      },
+      {
+        "title": "Dungeons & Dragons Rules Cyclopedia",
+        "url": "",
+        "printedPages": [
+          10,
+          62,
+          67,
+          81,
+          82,
+          84,
+          87,
+          102,
+          103,
+          104,
+          106
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Malpheggi Lizardman",
+    "publication": "Hollow World Campaign Set (1990)",
+    "edition": "Basic D&D (BECMI)",
+    "publisher": "TSR, Inc.",
+    "url": "https://online.anyflip.com/vjcbu/nhmz/#p=47",
+    "heading": "Malpheggi Lizard Men and New Character Race: Malpheggi Lizard Men",
+    "printedPages": [
+      45,
+      46
+    ],
+    "viewerPages": [
+      47,
+      48
+    ],
+    "pdfPages": [
+      47,
+      48
+    ],
+    "creatureType": "Humanoid (Lizardfolk)",
+    "previousCatalogCoverage": "No exact-name catalog entry.",
+    "distinction": "The player profile sets cleric saves and supplies no separate to-hit table. The NPC uses the Rules Cyclopedia level-1 character attack row and the published Strength adjustment for each unarmed damage roll.",
+    "supportingSources": [
+      {
+        "title": "Hollow World Campaign Set, complete set facsimile",
+        "url": "",
+        "pdfPages": [
+          47,
+          48
+        ]
+      },
+      {
+        "title": "Dungeons & Dragons Rules Cyclopedia",
+        "url": "",
+        "printedPages": [
+          10,
+          62,
+          81,
+          82,
+          84,
+          87,
+          102,
+          103,
+          106
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Kogolor Dwarf",
+    "publication": "Hollow World Campaign Set (1990)",
+    "edition": "Basic D&D (BECMI)",
+    "publisher": "TSR, Inc.",
+    "url": "https://online.anyflip.com/vjcbu/nhmz/#p=41",
+    "heading": "Kogolor Dwarves",
+    "printedPages": [
+      39,
+      40
+    ],
+    "viewerPages": [
+      41,
+      42
+    ],
+    "pdfPages": [
+      41,
+      42
+    ],
+    "creatureType": "Humanoid (Dwarf)",
+    "previousCatalogCoverage": "No exact-name catalog entry.",
+    "distinction": "The player profile explicitly uses the standard Dwarf class. The NPC follows the printed Kogolor cultural gear and languages. The walking cane uses base club damage.",
+    "supportingSources": [
+      {
+        "title": "Hollow World Campaign Set, complete set facsimile",
+        "url": "",
+        "pdfPages": [
+          41,
+          42
+        ]
+      },
+      {
+        "title": "Dungeons & Dragons Rules Cyclopedia",
+        "url": "",
+        "printedPages": [
+          10,
+          23,
+          24,
+          62,
+          67,
+          81,
+          82,
+          83,
+          84,
+          87,
+          102,
+          103,
+          106
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Gully Dwarf",
+    "publication": "Races of Ansalon (2007)",
+    "edition": "3.5 edition",
+    "publisher": "Margaret Weis Productions, Ltd.",
+    "url": "",
+    "heading": "Gully dwarves and Gully Dwarf Racial Traits",
+    "printedPages": [
+      42,
+      43,
+      44,
+      45
+    ],
+    "pdfPages": [
+      43,
+      44,
+      45,
+      46
+    ],
+    "creatureType": "Humanoid (Dwarf)",
+    "previousCatalogCoverage": "No exact-name catalog entry.",
+    "distinction": "The printed Aghar traits replace ordinary dwarf traits. Page 45 lists no level adjustment or racial Hit Dice. The build starts at Rogue 1 and uses the 3.5 general Small size rules, including +1 size AC.",
+    "supportingSources": [
+      {
+        "title": "3.5 SRD, Rogue",
+        "url": "https://www.d20srd.org/srd/classes/rogue.htm"
+      },
+      {
+        "title": "3.5 SRD, Armor",
+        "url": "https://www.d20srd.org/srd/equipment/armor.htm"
+      },
+      {
+        "title": "3.5 SRD, Weapons",
+        "url": "https://www.d20srd.org/srd/equipment/weapons.htm"
+      },
+      {
+        "title": "3.5 SRD, Combat Statistics",
+        "url": "https://www.d20srd.org/srd/combat/combatStatistics.htm"
+      },
+      {
+        "title": "3.5 SRD, Feats",
+        "url": "https://www.d20srd.org/srd/feats.htm#improvedInitiative"
+      },
+      {
+        "title": "3.5 SRD, Monsters and Class Levels",
+        "url": "https://www.d20srd.org/srd/improvingMonsters.htm#monstersAndClassLevels"
+      }
+    ]
+  }
+]

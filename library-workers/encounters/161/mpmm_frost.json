@@ -1,0 +1,453 @@
+[
+  {
+    "name": "Frost Giant Everlasting One",
+    "statBlock": {
+      "name": "Frost Giant Everlasting One",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 131,
+      "classification": "Huge giant, typically chaotic evil",
+      "ac": 15,
+      "hp": 189,
+      "hitDice": "14d12 + 98",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 25
+        },
+        "Dex": {
+          "score": 9
+        },
+        "Con": {
+          "score": 24
+        },
+        "Int": {
+          "score": 9
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "12",
+      "xp": 8400,
+      "passivePerception": 14,
+      "description": "A frost giant who gained a troll's regenerative power by accepting Vaprak's gift.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Str": 11,
+        "Con": 11,
+        "Wis": 4
+      },
+      "skills": {
+        "Athletics": 11,
+        "Perception": 4
+      },
+      "sections": {
+        "Armor": "Patchwork armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Giant.",
+        "Damage immunities": "Cold.",
+        "Traits": "Extra Heads. Roll a 25 percent chance that the giant has more than one head. If it does, it has advantage on Wisdom (Perception) checks and on saves against becoming blinded, charmed, deafened, frightened, stunned, or unconscious.\nRegeneration. The giant regains 10 hit points at the start of its turn. Acid or fire damage suppresses the trait at the start of its next turn. It dies only if it starts its turn at 0 hit points and fails to regenerate.",
+        "Actions": "Multiattack. Make two attacks using Greataxe or Rock.\nGreataxe. Melee weapon attack, +11 to hit, reach 10 ft., one target. A hit deals 26 (3d12 + 7) slashing damage, or 30 (3d12 + 11) while raging.\nRock. Ranged weapon attack, +11 to hit, range 60/240 ft., one target. A hit deals 29 (4d10 + 7) bludgeoning damage.",
+        "Bonus actions": "Vaprak's Rage (recharges after a short or long rest). The giant rages for 1 minute or until incapacitated. During the rage it has advantage on Strength checks and Strength saves, adds +4 to damage rolls for melee weapon attacks, and resists bludgeoning, piercing, and slashing damage.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 131."
+      }
+    }
+  },
+  {
+    "name": "Frost Salamander",
+    "statBlock": {
+      "name": "Frost Salamander",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 132,
+      "classification": "Huge elemental, unaligned",
+      "ac": 17,
+      "hp": 168,
+      "hitDice": "16d12 + 64",
+      "speed": "60 ft., burrow 40 ft., climb 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 7
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "9",
+      "xp": 5000,
+      "passivePerception": 14,
+      "description": "A heat-seeking predator from the Frostfell that digs extensive networks of caves in ice.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 8,
+        "Wis": 4
+      },
+      "skills": {
+        "Perception": 4
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft., tremorsense 60 ft.",
+        "Languages": "Primordial.",
+        "Damage vulnerabilities": "Fire.",
+        "Damage immunities": "Cold.",
+        "Traits": "Burning Fury. Taking fire damage immediately recharges Freezing Breath.",
+        "Actions": "Multiattack. Make one Bite and four Claw attacks.\nBite. Melee weapon attack, +9 to hit, reach 15 ft., one target. A hit deals 9 (1d8 + 5) piercing damage plus 5 (1d10) cold damage.\nClaw. Melee weapon attack, +9 to hit, reach 10 ft., one target. A hit deals 8 (1d6 + 5) piercing damage.\nFreezing Breath (Recharge 6). Each creature in a 60-ft. cone makes a DC 17 Constitution save. It takes 44 (8d10) cold damage on a failure or half as much on a success.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 132."
+      }
+    }
+  },
+  {
+    "name": "Gauth",
+    "statBlock": {
+      "name": "Gauth",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 133,
+      "classification": "Medium aberration (beholder), typically lawful evil",
+      "ac": 15,
+      "hp": 52,
+      "hitDice": "7d8 + 21",
+      "speed": "0 ft., fly 20 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "cr": "6",
+      "xp": 2300,
+      "passivePerception": 15,
+      "description": "A beholder relative with six eyestalks and a hunger for the power stored in magic items.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Int": 5,
+        "Wis": 5,
+        "Cha": 4
+      },
+      "skills": {
+        "Perception": 5
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Deep Speech, Undercommon.",
+        "Condition immunities": "Prone.",
+        "Traits": "Stunning Gaze. When a creature starts its turn within 30 ft. and can see the central eye, the gauth can force a DC 14 Wisdom save if it can see the creature and isn't incapacitated. Failure stuns the creature until the start of its next turn. A creature that is not surprised can avert its eyes at the start of its turn to avoid the save. It then cannot see the gauth until its next turn starts, when it can avert its eyes again. Looking at the gauth sooner requires the save immediately.\nDeath Throes. The gauth releases explosive magical energy when it dies. Each creature within 10 ft. makes a DC 14 Dexterity save, taking 13 (3d8) force damage on a failure or half as much on a success.",
+        "Actions": "Bite. Melee weapon attack, +3 to hit, reach 5 ft., one target. A hit deals 9 (2d8) piercing damage.\nEye Rays. Roll three d6s, rerolling duplicates, for three magical rays. Choose one to three creatures the gauth can see within 120 ft.\n1. Devour Magic Ray. On a failed DC 14 Dexterity save, a randomly selected magic item of the target loses its magical properties until the start of the gauth's next turn. Exclude single-use items such as potions and scrolls. An item with charges also loses 1d4 charges.\n2. Enervation Ray. DC 14 Constitution save. A failure deals 18 (4d8) necrotic damage, and a success halves it.\n3. Fire Ray. A failed DC 14 Dexterity save deals 22 (4d10) fire damage.\n4. Paralyzing Ray. A failed DC 14 Constitution save paralyzes the target for 1 minute. It repeats the save at the end of each of its turns, ending the effect on a success.\n5. Pushing Ray. A failed DC 14 Strength save pushes the target up to 15 ft. away and halves its speed until the start of the gauth's next turn.\n6. Sleep Ray. A failed DC 14 Wisdom save leaves the target asleep and unconscious for 1 minute. Damage or an action from another creature to wake it ends the sleep. Constructs and undead are unaffected.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 133."
+      }
+    }
+  },
+  {
+    "name": "Gazer",
+    "statBlock": {
+      "name": "Gazer",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 134,
+      "classification": "Tiny aberration (beholder), typically neutral evil",
+      "ac": 13,
+      "hp": 13,
+      "hitDice": "3d4 + 6",
+      "speed": "0 ft., fly 30 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 3
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 14,
+      "description": "A tiny creature born from a beholder's dreams. It mimics overheard speech and follows its creator around the lair.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Wis": 2
+      },
+      "skills": {
+        "Perception": 4,
+        "Stealth": 5
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "None. It can mimic speech.",
+        "Condition immunities": "Prone.",
+        "Traits": "Mimicry. The gazer imitates simple speech sounds it has heard in any language. A listener recognizes the imitation on a successful DC 10 Wisdom (Insight) check.",
+        "Actions": "Bite. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 1 piercing damage.\nEye Rays. Roll two d4s, rerolling duplicates, for two magical rays. Choose one or two targets the gazer can see within 60 ft.\n1. Dazing Ray. A creature that fails a DC 12 Wisdom save is charmed until the start of the gazer's next turn. While charmed this way, its speed is halved and its attack rolls have disadvantage.\n2. Fear Ray. A creature that fails a DC 12 Wisdom save is frightened until the start of the gazer's next turn.\n3. Frost Ray. A failed DC 12 Dexterity save deals 10 (3d6) cold damage.\n4. Telekinetic Ray. A Medium or smaller creature that fails a DC 12 Strength save moves up to 30 ft. directly away. The gazer can move a Tiny object up to 30 ft. in any direction if the object is neither worn nor carried. It can also manipulate a simple tool or open a container.",
+        "Bonus actions": "Aggressive. Move up to its speed toward a hostile creature it can see.",
+        "Gazer familiar (optional)": "A gazer can form a telepathic bond with a willing master who is at least a 3rd-level spellcaster. The master can use the gazer's senses while the two are within 1 mile of each other. Physical harm from the master ends the gazer's service and breaks the bond.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 134."
+      }
+    }
+  },
+  {
+    "name": "Geryon",
+    "statBlock": {
+      "name": "Geryon",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 136,
+      "classification": "Huge fiend (devil), lawful evil",
+      "ac": 19,
+      "hp": 300,
+      "hitDice": "24d12 + 144",
+      "speed": "30 ft., fly 50 ft.",
+      "abilities": {
+        "Str": {
+          "score": 29
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 22
+        },
+        "Int": {
+          "score": 19
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 23
+        }
+      },
+      "cr": "22",
+      "xp": 41000,
+      "passivePerception": 20,
+      "description": "An archdevil who hunts from the fortress of Coldsteel and contests Levistus for control of Stygia.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 10,
+        "Con": 13,
+        "Wis": 10,
+        "Cha": 13
+      },
+      "skills": {
+        "Deception": 13,
+        "Intimidation": 13,
+        "Perception": 10
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "All, telepathy 120 ft.",
+        "Damage resistances": "Bludgeoning, piercing, and slashing from nonmagical attacks that are not silvered.",
+        "Damage immunities": "Cold, fire, poison.",
+        "Condition immunities": "Charmed, exhaustion, frightened, poisoned.",
+        "Traits": "Legendary Resistance (3/day). When Geryon fails a save, he can spend a use to succeed instead.\nMagic Resistance. Geryon has advantage on saves against spells and other magical effects.\nRegeneration. Geryon regains 20 hit points at the start of his turn. Radiant damage suppresses the trait at the start of his next turn. He dies only if he starts his turn at 0 hit points and does not regenerate.",
+        "Actions": "Multiattack. Make one Claw and one Stinger attack.\nClaw. Melee weapon attack, +16 to hit, reach 15 ft., one target. A hit deals 23 (4d6 + 9) cold damage. A Large or smaller target is grappled (escape DC 24) and restrained until the grapple ends. Geryon can grapple only one creature at a time. A target already in his grapple takes an extra 27 (6d8) cold damage.\nStinger. Melee weapon attack, +16 to hit, reach 20 ft., one creature. A hit deals 14 (2d4 + 9) force damage. On a failed DC 21 Constitution save, the target also takes 13 (2d12) poison damage and is poisoned until it finishes a short or long rest. Reduce its hit point maximum by half the poison damage it took until the poisoned condition ends. It dies if this reduces its hit point maximum to 0.\nTeleport. Geryon and his worn or carried equipment teleport up to 120 ft. to an unoccupied space he can see.",
+        "Spellcasting": "As an action, cast a listed spell using Charisma (spell save DC 21). No material components are required.\nAt will. Alter Self (can become Medium when changing his appearance), Detect Magic, Ice Storm, Invisibility (self only), Locate Object, Suggestion, Wall of Ice.\n1/day. Banishment.",
+        "Legendary actions": "3 actions. Spend the indicated cost for one option at the end of another creature's turn. Regain spent actions at the start of Geryon's turn. Geryon cannot use them while incapacitated or otherwise unable to act. If surprised, he must finish his first turn before using one.\nInfernal Glare (1 action). Choose one creature Geryon can see within 60 ft. A failed DC 23 Wisdom save leaves it frightened of him until the end of its next turn.\nTeleport (1 action). Use Teleport.\nSwift Sting (2 actions). Make one Stinger attack.",
+        "In its lair": "CR 23 (50,000 XP).",
+        "Lair actions": "At initiative count 20, losing ties, choose one option while Geryon is in the lair and able to act. He cannot choose the same option in consecutive rounds. If surprised, he must finish his first turn before taking a lair action.\nBanish. Cast Banishment.\nChill Blast. Choose a point Geryon can see within 120 ft. A blast of cold rises from the ground in a 10-ft. cube centered there. A creature in the cube that fails a DC 21 Constitution save takes 28 (8d6) cold damage.\nHateful Restraints. A creature Geryon can see within 60 ft. must pass a DC 21 Wisdom save or be restrained for 1 minute. The target can end the effect on itself by dealing any damage to one or more of its allies.",
+        "Regional effects": "Choose one or more effects within 1 mile of the lair.\nChilling Wind. Strong, freezing winds blow throughout the area.\nEnervating Screams. Howls fill the air. A creature that finishes a short or long rest must pass a DC 21 Wisdom save to gain any benefit.\nHellish Doorways. Sapient creatures frequently see portals that seem to lead to places they consider safe. Anyone who crosses a portal arrives somewhere in Stygia.\nThe effects fade over 1d10 days if Geryon dies.",
+        "Sound the Horn (optional)": "Once per day, Geryon can sound his horn as an action, summoning 5d4 minotaurs into unoccupied spaces he chooses within 600 ft. They roll initiative on arrival and obey him. Each remains until it dies or until Geryon uses an action to dismiss some or all of them.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 136."
+      }
+    }
+  },
+  {
+    "name": "Giant Strider",
+    "statBlock": {
+      "name": "Giant Strider",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 137,
+      "classification": "Large elemental, unaligned",
+      "ac": 14,
+      "hp": 22,
+      "hitDice": "3d10 + 6",
+      "speed": "50 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 4
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 6
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 11,
+      "description": "A fire-breathing creature with birdlike and reptilian features that firenewt warriors keep as willing mounts.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage immunities": "Fire.",
+        "Traits": "Fire Absorption. Fire damage instead restores hit points equal to half the damage dealt.",
+        "Actions": "Bite. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 8 (1d8 + 4) piercing damage.\nFire Burst (Recharge 5–6). Choose a point the strider can see within 60 ft. Each creature in a 10-ft.-radius sphere centered there makes a DC 12 Dexterity save. It takes 14 (4d6) fire damage on a failure or half as much on a success. The fire spreads around corners and ignites flammable objects that are neither worn nor carried.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 137."
+      }
+    }
+  },
+  {
+    "name": "Giff",
+    "statBlock": {
+      "name": "Giff",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 138,
+      "classification": "Medium humanoid, any alignment",
+      "ac": 16,
+      "hp": 60,
+      "hitDice": "8d8 + 24",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 11,
+      "description": "A hippopotamus-headed Wildspace mercenary whose regiment relies on muskets and grenades.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Breastplate.",
+        "Languages": "Common.",
+        "Traits": "Firearms Knowledge. Ignore the loading property when using muskets and pistols.\nHeadfirst Charge. If the giff travels at least 20 ft. in a straight line and ends within 5 ft. of a Large or smaller creature, it can force that creature to make a DC 14 Strength save. A failure deals 7 (2d6) bludgeoning damage and knocks it prone.",
+        "Actions": "Multiattack. Make two attacks using Longsword, Musket, or Pistol.\nLongsword. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 8 (1d8 + 4) slashing damage one-handed or 9 (1d10 + 4) two-handed.\nMusket. Ranged weapon attack, +4 to hit, range 40/120 ft., one target. A hit deals 8 (1d12 + 2) piercing damage.\nPistol. Ranged weapon attack, +4 to hit, range 30/90 ft., one target. A hit deals 7 (1d10 + 2) piercing damage.\nFragmentation Grenade (1/day). Throw the grenade up to 60 ft. Each creature in the resulting 20-ft.-radius sphere makes a DC 15 Dexterity save, taking 17 (5d6) piercing damage on a failure or half as much on a success.",
+        "Gunpowder keg (encounter option)": "As an action, the giff lights a keg's fuse and can throw the keg up to 15 ft. It explodes at the start of the giff's next turn. A creature within 20 ft. makes a DC 12 Dexterity save. On a failure it takes 24 (7d6) fire damage and falls prone. On a success it takes half damage and the blast does not knock it prone. Each other keg within 20 ft. of an exploding keg has a 50 percent chance to explode. Check each keg once per turn.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 138."
+      }
+    }
+  },
+  {
+    "name": "Girallon",
+    "statBlock": {
+      "name": "Girallon",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 139,
+      "classification": "Large monstrosity, unaligned",
+      "ac": 13,
+      "hp": 59,
+      "hitDice": "7d10 + 21",
+      "speed": "40 ft., climb 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 15,
+      "description": "A white-furred, four-armed predator that scales ruins and attacks from high perches.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 5,
+        "Stealth": 5
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Actions": "Multiattack. Make one Bite and four Claw attacks.\nBite. Melee weapon attack, +6 to hit, reach 5 ft., one creature. A hit deals 7 (1d6 + 4) piercing damage.\nClaw. Melee weapon attack, +6 to hit, reach 10 ft., one target. A hit deals 7 (1d6 + 4) slashing damage.",
+        "Bonus actions": "Aggressive. Move up to its speed toward a hostile creature it can see.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 139."
+      }
+    }
+  }
+]

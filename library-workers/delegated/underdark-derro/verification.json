@@ -1,0 +1,26 @@
+{
+  "baseline": "d3bcef9ea09a3d0cc251e3ee328b182541c51068",
+  "temporaryCopy": true,
+  "priorStagedPatchesCompatibilityVerified": true,
+  "playableSpecies": 1,
+  "edition": "3.5 edition",
+  "names": [
+    "Derro"
+  ],
+  "selectableProfiles": 1,
+  "publication": "Underdark (2003)",
+  "sunlightSlaAndDistinctAdvancementVerified": true,
+  "editionSpecificRulesAndSourcesVerified": true,
+  "existingMonsterVersionsPreserved": true,
+  "defaultVersionBefore": null,
+  "defaultVersionAfter": "Underdark (2003)",
+  "listThumbnailChanged": true,
+  "sourceTraitsDisplayed": 1,
+  "searchableByTraitAndNpcRole": 1,
+  "originalRunnableNpcBuilds": 2,
+  "fullBuildsReturnedByEncounterAndNpcsCommands": true,
+  "npcBuildsScopedByPublication": true,
+  "existingPlayableSpeciesAndNpcConceptsPreserved": true,
+  "distinctPortraitFiles": 1,
+  "versionPortraitsVerified": 1
+}

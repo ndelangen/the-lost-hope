@@ -1,0 +1,287 @@
+{
+  "builds": [
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ],
+      "type": "Outsider (Water)",
+      "id": "triton-iril-tidepost-30e",
+      "size": "Medium",
+      "title": "Triton harbor guide, monster class 1",
+      "difficulty": "CR 1 from Table A–48. ECL 1 with 1 class Hit Die.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 12,
+        "CON": 16,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "ac": 13,
+      "hp": 11,
+      "hitDice": "1d8+3",
+      "initiative": 1,
+      "speed": "Land 5 ft., swim 40 ft.",
+      "senses": "Darkvision 60 ft.",
+      "languages": "Common, Aquan",
+      "skills": [
+        "Craft (netmaking) +4",
+        "Hide +5",
+        "Listen +5",
+        "Profession (sailor) +5",
+        "Ride +5",
+        "Search +2",
+        "Sense Motive +3",
+        "Spot +5",
+        "Swim +13"
+      ],
+      "traits": [
+        "Neutral good. Natural armor +2. Touch 11, flat-footed 12. BAB +1, grapple +4. Fortitude +5, Reflex +3, Will +3.",
+        "Weapon Focus (trident). Breathes air and water. May take 10 on Swim even when threatened. Can only run in a straight line in water, and cannot run or charge on land."
+      ],
+      "actions": [
+        "Trident +5 melee, 1d8+3 piercing, ×2 critical. Hold it in both hands for 1d8+4."
+      ],
+      "tactics": "Iril uses the deeper channel to get around a threat and leads boats away from submerged rubble. The shell-tipped guide rod shown in the portrait marks shoals. Iril carries a trident for defense."
+    },
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ],
+      "type": "Giant",
+      "id": "troll-bral-toothpeg-30e",
+      "size": "Medium",
+      "title": "Troll bridge porter, monster class 4",
+      "difficulty": "CR 2 from Table A–49. ECL 4 with 3 class Hit Dice.",
+      "abilityScores": {
+        "STR": 21,
+        "DEX": 14,
+        "CON": 18,
+        "INT": 6,
+        "WIS": 10,
+        "CHA": 4
+      },
+      "ac": 15,
+      "hp": 30,
+      "hitDice": "3d8+12",
+      "initiative": 2,
+      "speed": "Land 30 ft.",
+      "senses": "Darkvision 90 ft., scent 10 ft.",
+      "languages": "Giant",
+      "skills": [
+        "Listen +5",
+        "Spot +5"
+      ],
+      "traits": [
+        "Neutral. Natural armor +3. Touch 12, flat-footed 13. BAB +2, grapple +7. Fortitude +7, Reflex +3, Will +1.",
+        "Alertness and Multiattack. Regeneration converts damage other than fire or acid to subdual damage and heals 1 point of it per round. Regrows lost parts in 3d6 minutes or reattaches a part by holding it to the injury."
+      ],
+      "actions": [
+        "Claw +7 melee, 1d4+5. On a full attack, use two claws at +7 and a secondary bite at +5 for 1d4+2."
+      ],
+      "tactics": "Bral keeps threats off the bridge until the wagons are across. He yields ground to open flames and keeps enough room to back away from them."
+    },
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ],
+      "type": "Outsider (Good, Lawful)",
+      "id": "trumpet-archon-orren-clearbell-30e",
+      "size": "Medium",
+      "title": "Trumpet Archon herald, monster class 4",
+      "difficulty": "CR 3 from Table A–50. ECL 4 with 3 class Hit Dice.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 12,
+        "INT": 12,
+        "WIS": 16,
+        "CHA": 14
+      },
+      "ac": 16,
+      "hp": 21,
+      "hitDice": "3d8+3",
+      "initiative": 6,
+      "speed": "Land 40 ft., fly 40 ft. (average)",
+      "senses": "Darkvision 60 ft., low-light vision",
+      "languages": "Celestial, Draconic, Infernal, tongues",
+      "skills": [
+        "Concentration +7",
+        "Craft (metalworking) +7",
+        "Hide +8",
+        "Knowledge (the planes) +7",
+        "Listen +9",
+        "Move Silently +8",
+        "Sense Motive +9",
+        "Spot +9",
+        "Escape Artist +8"
+      ],
+      "traits": [
+        "Lawful good. Natural armor +4. Touch 12, flat-footed 14. BAB +3, grapple +6. Fortitude +4, Reflex +5, Will +6. Add +4 to saves against poison.",
+        "Electricity resistance 10. Weapon Focus (greatsword), Improved Initiative. Tongues is continuous at caster level 5. It can be switched off, dispelled, or restored on Orren’s next turn as a free action.",
+        "Cleric caster level 5, spell save DC 13 + spell level. Prepared slots from 0th through 3rd are 5/4/3/2, including one bonus slot apiece at levels 1–3 from Wisdom 16."
+      ],
+      "actions": [
+        "Trumpet (Su), standard action. Each non-archon within 5 ft. rolls Fortitude DC 13 or is paralyzed for 1d4 rounds. The trumpet changes between instrument and +1 greatsword as a free action.",
+        "+1 greatsword +8 melee, 2d6+5 slashing, 19–20/×2 critical.",
+        "0th-level prepared spells. Create water twice (10 gallons per casting within 35 ft.), detect magic once (60-ft. cone, concentration up to 5 minutes), light twice (touch, 20-ft. light for 50 minutes).",
+        "1st-level prepared spells. Bless twice (+1 morale to allies’ attacks and saves against fear within 50 ft. for 5 minutes), cure light wounds twice (touch, 1d8+5 healing).",
+        "2nd-level prepared spells. Cure moderate wounds three times (touch, 2d8+5 healing).",
+        "3rd-level prepared spells. Cure serious wounds twice (touch, 3d8+5 healing).",
+        "Spell-like abilities, once per day each at caster level 3. Detect evil (60-ft. cone, concentration up to 30 minutes), continual flame (touch one object for lasting heatless light as a torch), and message (130-ft. range, up to 3 recipients, 30 minutes of whispered speech and replies)."
+      ],
+      "tactics": "Orren blesses the escort, takes the rear, and saves the trumpet blast for when the witnesses have cleared its range. He uses his flight to check the next landing."
+    },
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ],
+      "type": "Outsider (Chaotic, Evil)",
+      "id": "vrock-krev-basaltwill-30e",
+      "size": "Medium",
+      "title": "Vrock ridge watcher, monster class 7",
+      "difficulty": "CR 5 from Table A–52. ECL 7 with 4 class Hit Dice.",
+      "abilityScores": {
+        "STR": 21,
+        "DEX": 16,
+        "CON": 18,
+        "INT": 12,
+        "WIS": 14,
+        "CHA": 12
+      },
+      "ac": 21,
+      "hp": 39,
+      "hitDice": "4d8+16",
+      "initiative": 3,
+      "speed": "Land 30 ft., fly 50 ft. (average)",
+      "senses": "Darkvision 60 ft., telepathy 100 ft. with creatures that know a language",
+      "languages": "Abyssal, Celestial, Draconic",
+      "skills": [
+        "Concentration +11",
+        "Hide +10",
+        "Listen +17",
+        "Move Silently +10",
+        "Search +8",
+        "Sense Motive +9",
+        "Spellcraft +8",
+        "Spot +17"
+      ],
+      "traits": [
+        "Chaotic evil. Natural armor +8. Touch 13, flat-footed 18. BAB +4, grapple +9. Fortitude +8, Reflex +7, Will +6.",
+        "Weapon Focus (claws) and Multiattack. Poison immunity. Resistance 5 to acid, cold, electricity, and fire."
+      ],
+      "actions": [
+        "Claw +10 melee, 1d8+5. Full attack adds the second claw at +10 and a secondary bite at +7 for 1d6+2. Include two lower-claw rakes at +7 for 1d4+2 each when airborne and adjacent.",
+        "Spores (Ex), once per day. Creatures within 5 ft. take 1d8 damage immediately, then 1d2 in each of the next 10 rounds. Delay poison suspends growth during its duration. Bless, neutralize poison, remove disease, or a vial of holy water applied to a victim ends the effect.",
+        "Lesser vrock powers, caster level 8. Each usable three times per day. Darkness makes a touched object shed magical darkness in a 20-ft. radius for 80 minutes. Darkvision and mundane light do not pierce it.",
+        "Desecrate (lesser power), 45-ft. range and 20-ft. radius for 16 hours. Turning checks take a −3 profane penalty and undead gain +1 profane on attacks, damage, and saves. Undead created or summoned there gain +1 HP per HD. Double these modifiers near a permanent fixture to Krev’s patron. Consecrate cancels it.",
+        "Detect good and detect magic (lesser powers) use 60-ft. cones. Minor image (lesser power) creates a figment with limited sound within 720 ft. for concentration plus 2 rounds. Will DC 13 to disbelieve on interaction."
+      ],
+      "tactics": "Krev uses minor image to redirect trespassers, descends when they come close to the slate marker, and uses his spores if surrounded."
+    },
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ],
+      "type": "Elemental (Water)",
+      "id": "water-elemental-sillrun-30e",
+      "size": "Medium",
+      "title": "Water Elemental sluice keeper, monster class 4",
+      "difficulty": "CR 2 from Table A–53. ECL 4 with 4 class Hit Dice.",
+      "abilityScores": {
+        "STR": 19,
+        "DEX": 12,
+        "CON": 18,
+        "INT": 6,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "ac": 16,
+      "hp": 39,
+      "hitDice": "4d8+16",
+      "initiative": 1,
+      "speed": "Land 20 ft., swim 40 ft.",
+      "senses": "Darkvision 60 ft.",
+      "languages": "Aquan",
+      "skills": [
+        "Listen +7",
+        "Spot +6",
+        "Swim +12"
+      ],
+      "traits": [
+        "Neutral. Natural armor +5. Touch 11, flat-footed 15. BAB +3, grapple +7. Fortitude +8, Reflex +2, Will +2.",
+        "Alertness and Weapon Focus (slam), plus bonus Power Attack. Immune to poison, sleep, paralysis, stunning, and critical hits. Breathes air and water. Can take 10 on Swim even when threatened."
+      ],
+      "actions": [
+        "Slam +8 melee, 1d6+6. With Water Mastery, use +9 and 1d6+7 if both touch water, or +4 and 1d6+2 if either is landbound.",
+        "Drench (Ex). Any nonmagical fire of Large size or smaller goes out when Sillrun touches it. No attack roll.",
+        "Vortex (Su), once every 10 minutes and only underwater. Lasts up to 2 rounds and moves at swim speed. Choose a height of 10–30 ft., with a 5-ft.-wide base and top up to 30 ft. wide. Small or smaller creatures that touch it roll Reflex DC 16 for initial 1d6 damage, then a separate Reflex DC 16 to avoid being caught. Captives take 1d6 each round. Swimmers can save each round to escape, after the damage. Sillrun can release captives at will.",
+        "When the vortex touches bottom, a cloud half its height in diameter starts at its center. Treat vision at 5 ft. through the debris as half concealment and farther vision as total concealment. Concentration DC 16 to cast inside.",
+        "Water Mastery can overturn craft up to 20 ft. long, stop craft up to 40 ft., or halve a ship’s speed up to 80 ft. of length."
+      ],
+      "tactics": "Sillrun stays in the channel, knocks open flames into the water, and uses the vortex only once swimmers are clear of the gate."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Iril Tidepost",
+      "species": "Triton",
+      "size": "Medium",
+      "edition": "3.0 edition",
+      "speciesPublication": "Savage Species (2003)",
+      "build": "triton-iril-tidepost-30e",
+      "role": "Harbor guide.",
+      "motive": "Find out who cut the lines holding the channel markers.",
+      "hook": "Iril surfaces beside the hull with a cut marker line and motions the crew toward the deeper channel."
+    },
+    {
+      "name": "Bral Toothpeg",
+      "species": "Troll",
+      "size": "Medium",
+      "edition": "3.0 edition",
+      "speciesPublication": "Savage Species (2003)",
+      "build": "troll-bral-toothpeg-30e",
+      "role": "Bridge porter.",
+      "motive": "Get the stranded grain wagons over the river before the road washes out.",
+      "hook": "Bral props up a sagging bridge plank and asks for help before the next wagon rolls through."
+    },
+    {
+      "name": "Orren Clearbell",
+      "species": "Trumpet Archon",
+      "size": "Medium",
+      "edition": "3.0 edition",
+      "speciesPublication": "Savage Species (2003)",
+      "build": "trumpet-archon-orren-clearbell-30e",
+      "role": "Herald on escort duty.",
+      "motive": "Escort the witnesses out of the tower so they can deliver a sworn account.",
+      "hook": "Orren carries the tower’s broken signal lantern and offers to guide the witnesses down a second stair."
+    },
+    {
+      "name": "Krev Basaltwill",
+      "species": "Vrock",
+      "size": "Medium",
+      "edition": "3.0 edition",
+      "speciesPublication": "Savage Species (2003)",
+      "build": "vrock-krev-basaltwill-30e",
+      "role": "Ridge watcher.",
+      "motive": "Keep travelers away from a slate marker until the toll collector arrives.",
+      "hook": "Krev calls into the lead climber’s mind and offers to show a shorter trail in return for a toll."
+    },
+    {
+      "name": "Sillrun",
+      "species": "Water Elemental",
+      "size": "Medium",
+      "edition": "3.0 edition",
+      "speciesPublication": "Savage Species (2003)",
+      "build": "water-elemental-sillrun-30e",
+      "role": "Sluice keeper.",
+      "motive": "Get the miller to clear an old snarl of branches from the lower gate.",
+      "hook": "Sillrun rises from the water to hold the gate open, then points downstream to a branch jam."
+    }
+  ]
+}

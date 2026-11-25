@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Mongrelfolk",
+    "kind": "species",
+    "publication": "Races of Destiny (2004)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Medium Humanoid with the Human subtype and a 30-ft. base land speed. +4 Constitution, −2 Intelligence, −4 Charisma. Level adjustment +0.",
+      "Low-light vision extends to twice human distance in dim light and retains color and detail.",
+      "Emulate Race (Ex) automatically satisfies the racial requirement of a magic item for any humanoid race. A Mongrelfolk trained in Use Magic Device gets a +4 racial bonus on checks to emulate a nonhumanoid race.",
+      "Sound Imitation (Ex) reproduces any voice or sound the Mongrelfolk has heard. A listener detects the imitation with a DC 16 Will save.",
+      "Diffuse Blood gives +2 racial on saves against spells that target or exclude a particular race when the race named by the spell is human, halfling, dwarf, elf, gnome, goblin, or orc.",
+      "Immune to sleep spells and similar magical effects. +1 racial on saves against enchantment spells and effects, illusion spells and effects, and poison.",
+      "+1 racial on Appraise, Climb, Jump, Listen, Move Silently, Search, and Spot. +4 racial on Hide and Sleight of Hand.",
+      "Common is automatic. Any bonus language may be chosen. Favored class Rogue."
+    ]
+  }
+]

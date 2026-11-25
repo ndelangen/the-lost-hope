@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Black Bear",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Beast",
+    "url": "",
+    "rulesReadUrl": "",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "printedPages": [
+      222,
+      223
+    ],
+    "page": "pp. 222–223 in v2, Black Bear Traits.",
+    "heading": "Black Bear Traits",
+    "provenance": "Tyler Kamstra's DMs Guild player conversion for 2014 fifth edition, using the v2 printed traits.",
+    "sourceDistinctions": [
+      "Brown Bear refers to Black Bear on p. 225. Polar Bear has its own player trait block and is outside this profile."
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat"
+  },
+  {
+    "name": "Boar",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Beast",
+    "url": "",
+    "rulesReadUrl": "",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "printedPages": [
+      224
+    ],
+    "page": "p. 224 in v2, Boar Traits.",
+    "heading": "Boar Traits",
+    "provenance": "Tyler Kamstra's DMs Guild player conversion for 2014 fifth edition, using the v2 printed traits.",
+    "sourceDistinctions": [
+      "Giant Boar refers to Boar on p. 234. The printed Charge adds damage without the encounter boar's prone save. The design notes' optional Athletics proficiency is not a species trait."
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat"
+  },
+  {
+    "name": "Camel",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Beast",
+    "url": "",
+    "rulesReadUrl": "",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "printedPages": [
+      225
+    ],
+    "page": "p. 225 in v2, Camel Traits.",
+    "heading": "Camel Traits",
+    "provenance": "Tyler Kamstra's DMs Guild player conversion for 2014 fifth edition, using the v2 printed traits.",
+    "sourceDistinctions": [
+      "The player stat block grants no water or endurance mechanic. Rillglass takes Athletics through Outlander, not the species upgrades floated in the design notes.",
+      "Kamstra p. 7 uses conventional unarmed strikes with the monk damage die for Martial Arts and Flurry of Blows bonus attacks."
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat"
+  },
+  {
+    "name": "Cat",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Beast",
+    "url": "",
+    "rulesReadUrl": "",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "printedPages": [
+      226
+    ],
+    "page": "p. 226 in v2, Cat Traits.",
+    "heading": "Cat Traits",
+    "provenance": "Tyler Kamstra's DMs Guild player conversion for 2014 fifth edition, using the v2 printed traits.",
+    "sourceDistinctions": [
+      "The player Cat is Small and the trait block omits Keen Smell. The design notes mention Tiny size and Keen Smell, and the encounter Cat is also Tiny."
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat"
+  },
+  {
+    "name": "Constrictor Snake",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Beast",
+    "url": "",
+    "rulesReadUrl": "",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "printedPages": [
+      226
+    ],
+    "page": "p. 226 in v2, Constrictor Snake Traits.",
+    "heading": "Constrictor Snake Traits",
+    "provenance": "Tyler Kamstra's DMs Guild player conversion for 2014 fifth edition, using the v2 printed traits.",
+    "sourceDistinctions": [
+      "Giant Constrictor Snake refers to Constrictor Snake on p. 234. The printed player trait has only walking speed and does not automatically restrain a grappled target. The design notes mention a climb speed, and the encounter version has a swim speed."
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat"
+  }
+]

@@ -1,0 +1,165 @@
+[
+  {
+    "name": "Black Bear",
+    "kind": "beast",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "printing": "Revised v3.5 System Reference Document, RTF release",
+    "publisher": "Wizards of the Coast",
+    "section": "BEAR, BLACK",
+    "rtfShard": "MonstersAnimals.rtf",
+    "sourceArchive": "SRD-3.5-RTF.zip",
+    "archiveSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+    "sourceSha256": "1093f05fe6208f90475386518d27cfd67c69baddad594acb06385bb372a871e2",
+    "sourceUrl": "https://www.d20srd.org/srd/monsters/bearBlack.htm",
+    "url": "https://www.d20srd.org/srd/monsters/bearBlack.htm",
+    "readableMirror": "https://www.d20srd.org/srd/monsters/bearBlack.htm",
+    "supplementalRtf": [
+      {
+        "rtfShard": "TypesSubtypesAbilities.rtf",
+        "heading": "Animal Type, Low-Light Vision, Scent",
+        "sourceSha256": "55a8375ee6c8e65cff00ec82770122eae9dca63996980e5abab9114dc13e8dfc",
+        "readableMirror": "https://www.d20srd.org/srd/typesSubtypes.htm"
+      }
+    ],
+    "appearanceEvidence": "Editorial description of the selected original reused portrait.",
+    "habitatEvidence": "The Environment row gives temperate forests. The creature prose describes a forest-dwelling omnivore.",
+    "habitatSourceKind": "Printed SRD Environment row, with any prose inference noted.",
+    "mechanicsNotes": [],
+    "xpEvidence": "3.5 challenge XP depends on the encounter and character level. No flat creature XP is printed."
+  },
+  {
+    "name": "Dire Bear",
+    "kind": "beast",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "printing": "Revised v3.5 System Reference Document, RTF release",
+    "publisher": "Wizards of the Coast",
+    "section": "DIRE BEAR",
+    "rtfShard": "MonstersDi-Do.rtf",
+    "sourceArchive": "SRD-3.5-RTF.zip",
+    "archiveSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+    "sourceSha256": "533b046406006882de5414a4a1067df80fdde4695c6314993d3afbf4eb765141",
+    "sourceUrl": "https://www.d20srd.org/srd/monsters/direBear.htm",
+    "url": "https://www.d20srd.org/srd/monsters/direBear.htm",
+    "readableMirror": "https://www.d20srd.org/srd/monsters/direBear.htm",
+    "supplementalRtf": [
+      {
+        "rtfShard": "TypesSubtypesAbilities.rtf",
+        "heading": "Animal Type, Improved Grab, Low-Light Vision, Scent",
+        "sourceSha256": "55a8375ee6c8e65cff00ec82770122eae9dca63996980e5abab9114dc13e8dfc",
+        "readableMirror": "https://www.d20srd.org/srd/specialAbilities.htm#improvedGrab"
+      },
+      {
+        "rtfShard": "CombatII.rtf",
+        "heading": "Grapple, If You’re Grappling",
+        "sourceSha256": "3d60edee550ee53d82bed28757492ebbdc81c5edf2429260d018851166865553",
+        "readableMirror": "https://www.d20srd.org/srd/combat/specialAttacks.htm#grapple"
+      }
+    ],
+    "appearanceEvidence": "Editorial description of the selected original reused portrait.",
+    "habitatEvidence": "The Environment row gives cold forests. The creature prose describes defending food sources.",
+    "habitatSourceKind": "Printed SRD Environment row, with any prose inference noted.",
+    "mechanicsNotes": [],
+    "xpEvidence": "3.5 challenge XP depends on the encounter and character level. No flat creature XP is printed."
+  },
+  {
+    "name": "Eagle",
+    "kind": "beast",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "printing": "Revised v3.5 System Reference Document, RTF release",
+    "publisher": "Wizards of the Coast",
+    "section": "EAGLE",
+    "rtfShard": "MonstersAnimals.rtf",
+    "sourceArchive": "SRD-3.5-RTF.zip",
+    "archiveSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+    "sourceSha256": "1093f05fe6208f90475386518d27cfd67c69baddad594acb06385bb372a871e2",
+    "sourceUrl": "https://www.d20srd.org/srd/monsters/eagle.htm",
+    "url": "https://www.d20srd.org/srd/monsters/eagle.htm",
+    "readableMirror": "https://www.d20srd.org/srd/monsters/eagle.htm",
+    "supplementalRtf": [
+      {
+        "rtfShard": "TypesSubtypesAbilities.rtf",
+        "heading": "Animal Type, Fly, Low-Light Vision",
+        "sourceSha256": "55a8375ee6c8e65cff00ec82770122eae9dca63996980e5abab9114dc13e8dfc",
+        "readableMirror": "https://www.d20srd.org/srd/typesSubtypes.htm"
+      }
+    ],
+    "appearanceEvidence": "Editorial description of the selected original reused portrait.",
+    "habitatEvidence": "The Environment row gives temperate mountains. The prose says eagles inhabit many terrains and climates and prefer high secluded nesting spots.",
+    "habitatSourceKind": "Printed SRD Environment row, with any prose inference noted.",
+    "mechanicsNotes": [],
+    "xpEvidence": "3.5 challenge XP depends on the encounter and character level. No flat creature XP is printed."
+  },
+  {
+    "name": "Manta Ray",
+    "kind": "beast",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "printing": "Revised v3.5 System Reference Document, RTF release",
+    "publisher": "Wizards of the Coast",
+    "section": "MANTA RAY",
+    "rtfShard": "MonstersAnimals.rtf",
+    "sourceArchive": "SRD-3.5-RTF.zip",
+    "archiveSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+    "sourceSha256": "1093f05fe6208f90475386518d27cfd67c69baddad594acb06385bb372a871e2",
+    "sourceUrl": "https://www.d20srd.org/srd/monsters/mantaRay.htm",
+    "url": "https://www.d20srd.org/srd/monsters/mantaRay.htm",
+    "readableMirror": "https://www.d20srd.org/srd/monsters/mantaRay.htm",
+    "supplementalRtf": [
+      {
+        "rtfShard": "TypesSubtypesAbilities.rtf",
+        "heading": "Animal Type, Aquatic Subtype, Natural Weapons, Low-Light Vision",
+        "sourceSha256": "55a8375ee6c8e65cff00ec82770122eae9dca63996980e5abab9114dc13e8dfc",
+        "readableMirror": "https://www.d20srd.org/srd/typesSubtypes.htm#aquaticSubtype"
+      }
+    ],
+    "appearanceEvidence": "Editorial description of the selected original reused portrait.",
+    "habitatEvidence": "The Environment row gives warm aquatic. Feeding prose describes a filter feeder.",
+    "habitatSourceKind": "Printed SRD Environment row, with any prose inference noted.",
+    "mechanicsNotes": [
+      "The registered base is Large. The printed advancement line says 5–6 HD (Medium), retained as it appears."
+    ],
+    "xpEvidence": "3.5 challenge XP depends on the encounter and character level. No flat creature XP is printed."
+  },
+  {
+    "name": "Rat Swarm",
+    "kind": "beast",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "printing": "Revised v3.5 System Reference Document, RTF release",
+    "publisher": "Wizards of the Coast",
+    "section": "RAT SWARM",
+    "rtfShard": "MonstersS.rtf",
+    "sourceArchive": "SRD-3.5-RTF.zip",
+    "archiveSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+    "sourceSha256": "c2818165ea35b7c6adaef9a3652b82b68921c31ae5fac40a7e904dedd5ececa8",
+    "sourceUrl": "https://www.d20srd.org/srd/monsters/swarm.htm#ratSwarm",
+    "url": "https://www.d20srd.org/srd/monsters/swarm.htm#ratSwarm",
+    "readableMirror": "https://www.d20srd.org/srd/monsters/swarm.htm#ratSwarm",
+    "supplementalRtf": [
+      {
+        "rtfShard": "TypesSubtypesAbilities.rtf",
+        "heading": "Animal Type, Swarm Subtype, Swarm Attack, Scent, Low-Light Vision",
+        "sourceSha256": "55a8375ee6c8e65cff00ec82770122eae9dca63996980e5abab9114dc13e8dfc",
+        "readableMirror": "https://www.d20srd.org/srd/typesSubtypes.htm#swarmSubtype"
+      },
+      {
+        "rtfShard": "AbilitiesandConditions.rtf",
+        "heading": "Disease, Filth Fever, Nauseated",
+        "sourceSha256": "2f57fc9358d447299746a852cfa7f216c1d3614f0a8ba53e10c690b3891d1aa5",
+        "readableMirror": "https://www.d20srd.org/srd/specialAbilities.htm#disease"
+      }
+    ],
+    "appearanceEvidence": "Editorial description of the selected original reused portrait.",
+    "habitatEvidence": "The Environment row gives Any. It does not constrain the swarm to sewers or other urban sites.",
+    "habitatSourceKind": "Printed SRD Environment row, with any prose inference noted.",
+    "mechanicsNotes": [
+      "The archive’s creature block prints 4d8 (13 hp). The overlay retains the printed HP and dice.",
+      "MonstersS.rtf states Distraction for any living creature in the occupied square. TypesSubtypesAbilities.rtf specifies a living creature vulnerable to the swarm’s damage. Both wordings are shown.",
+      "The Rat Swarm skill notes repeat the +8 racial Swim bonus. The printed total is +10."
+    ],
+    "xpEvidence": "3.5 challenge XP depends on the encounter and character level. No flat creature XP is printed."
+  }
+]

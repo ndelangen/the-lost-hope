@@ -1,0 +1,401 @@
+[
+  {
+    "name": "Hell Hound",
+    "statBlock": {
+      "name": "Hell Hound",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 165,
+      "classification": "Medium fiend, lawful evil",
+      "ac": 15,
+      "hp": 58,
+      "hitDice": "9d8 + 18",
+      "speed": "50 ft.",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 6
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 15,
+      "savingThrows": {},
+      "skills": {
+        "Perception": 5
+      },
+      "description": "A cunning pack hunter from the Lower Planes. It guards cruel masters and ambushes prey with a fiery blast.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+1 (11).",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Understands Infernal but can't speak.",
+        "Damage immunities": "Fire.",
+        "Traits": "Pack Tactics. The hound has Advantage when it attacks a creature with one or more of the hound's allies within 5 ft. of it, provided at least one of those allies isn't Incapacitated.",
+        "Actions": "Multiattack. Make two Bite attacks.\nBite. Melee attack, +5 to hit, reach 5 ft. A hit deals 7 (1d8 + 3) Piercing damage plus 3 (1d6) Fire damage.\nFire Breath (recharge 5–6). Each creature in a 15-ft. Cone makes a DC 12 Dexterity save. A failed save deals 17 (5d6) Fire damage, and a success halves it.",
+        "Habitats": "Mountains, the Lower Planes, and the Underdark.",
+        "Treasure": "None.",
+        "Printed source": "Monster Manual (2024), p. 165."
+      }
+    }
+  },
+  {
+    "name": "Nightmare",
+    "statBlock": {
+      "name": "Nightmare",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 226,
+      "classification": "Large fiend, neutral evil",
+      "ac": 13,
+      "hp": 68,
+      "hitDice": "8d10 + 24",
+      "speed": "60 ft., fly 90 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 11,
+      "savingThrows": {},
+      "skills": {},
+      "description": "A fiendish horse with a burning mane and hooves. It can carry willing creatures between the Material and Ethereal Planes.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+2 (12).",
+        "Languages": "Understands Abyssal, Common, and Infernal but can't speak.",
+        "Damage immunities": "Fire.",
+        "Traits": "Confer Fire Resistance. The nightmare can give its rider Resistance to Fire damage while that rider remains mounted.\nIllumination. The nightmare sheds Bright Light for 10 ft. in all directions, then Dim Light for 10 ft. farther.",
+        "Actions": "Hooves. Melee attack, +6 to hit, reach 5 ft. A hit deals 13 (2d8 + 4) Bludgeoning damage plus 10 (3d6) Fire damage.\nEthereal Stride. Teleport between the Material Plane and the Ethereal Plane in either direction. The nightmare can bring up to three willing creatures within 5 ft. of it.",
+        "Habitats": "The Lower Planes.",
+        "Treasure": "None.",
+        "Nightmare riders": "Roll 1d6 or pick a rider.\n1. A champion or envoy of an evil deity.\n2. Imps or quasits out for a ride.\n3. An innocent soul stranded on the runaway fiend.\n4. A mage, cultist, or lich seeking lost lore.\n5. A night hag driving larvae across the planes.\n6. A wicked rider such as a death knight, erinyes, incubus, or vampire.",
+        "Printed source": "Monster Manual (2024), p. 226."
+      }
+    }
+  },
+  {
+    "name": "Oni",
+    "statBlock": {
+      "name": "Oni",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 232,
+      "classification": "Large fiend, lawful evil",
+      "ac": 17,
+      "hp": 119,
+      "hitDice": "14d10 + 42",
+      "speed": "30 ft., fly 30 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "7",
+      "xp": 2900,
+      "passivePerception": 14,
+      "savingThrows": {
+        "Dex": 3,
+        "Con": 6,
+        "Wis": 4,
+        "Cha": 5
+      },
+      "skills": {
+        "Arcana": 5,
+        "Deception": 8,
+        "Perception": 4
+      },
+      "description": "A shape-shifting fiend that slips into settlements under a disguise or the cover of invisibility.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+0 (10).",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common and Giant.",
+        "Damage resistances": "Cold.",
+        "Traits": "Regeneration. The oni heals 10 HP at the start of its turn if it has at least 1 HP.",
+        "Actions": "Multiattack. Make two Claw or Nightmare Ray attacks. The oni can use Spellcasting in place of one attack.\nClaw. Melee attack, +7 to hit, reach 10 ft. A hit deals 10 (1d12 + 4) Slashing damage plus 9 (2d8) Necrotic damage.\nNightmare Ray. Ranged attack, +5 to hit, range 60 ft. A hit deals 9 (2d6 + 2) Psychic damage and leaves the target Frightened until the start of the oni's next turn.\nShape-Shift. Become a Small or Medium Humanoid or a Large Giant, or return to the oni's true form. Size is the only game statistic that changes between forms. Worn and carried gear keeps its original form.",
+        "Spellcasting": "As an action, cast one spell using Charisma, save DC 13. The spells need no Material components.\n1/day each. Charm Person at level 2, Darkness, Gaseous Form, and Sleep.",
+        "Bonus actions": "Invisibility. The oni casts Invisibility on itself using Charisma without spell components.",
+        "Habitats": "Forests and settlements.",
+        "Treasure": "Armaments.",
+        "Oni troubles": "Roll 1d4 or pick a scheme.\n1. Charm someone into playing a cruel trick.\n2. Seize a bridge, gate, shrine, or trail and threaten to eat anyone who approaches.\n3. Draw other monsters to town.\n4. Drum at night to keep the town awake.",
+        "Printed source": "Monster Manual (2024), p. 232."
+      }
+    }
+  },
+  {
+    "name": "Salamander",
+    "statBlock": {
+      "name": "Salamander",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 267,
+      "classification": "Large elemental, neutral evil",
+      "ac": 15,
+      "hp": 90,
+      "hitDice": "12d10 + 24",
+      "speed": "30 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 10,
+      "savingThrows": {},
+      "skills": {},
+      "description": "A serpentine fire elemental that fights with a returning spear and wraps its coils around prey.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+2 (12).",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Primordial (Ignan).",
+        "Damage vulnerabilities": "Cold.",
+        "Damage immunities": "Fire.",
+        "Traits": "Fire Aura. At the end of each of the salamander's turns, it chooses creatures in a 5-ft. Emanation centered on itself. Each chosen creature takes 7 (2d6) Fire damage.",
+        "Actions": "Multiattack. Make two Flame Spear attacks. The salamander can use Constrict in place of one attack.\nFlame Spear. Melee or ranged attack, +7 to hit, reach 5 ft. or range 20/60 ft. A hit deals 13 (2d8 + 4) Piercing damage plus 7 (2d6) Fire damage. After a ranged attack, the spear returns to the salamander's hand immediately by magic.\nConstrict. One visible creature within 10 ft. that is Large or smaller makes a DC 15 Strength save. On a failure it takes 11 (2d6 + 4) Bludgeoning damage plus 7 (2d6) Fire damage and becomes Grappled (escape DC 14). It remains Restrained until that grapple ends.",
+        "Habitats": "The Elemental Plane of Fire and the Underdark.",
+        "Treasure": "Armaments.",
+        "Printed source": "Monster Manual (2024), p. 267."
+      }
+    }
+  },
+  {
+    "name": "Troglodyte",
+    "statBlock": {
+      "name": "Troglodyte",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 309,
+      "classification": "Medium monstrosity, chaotic evil",
+      "ac": 11,
+      "hp": 13,
+      "hitDice": "2d8 + 4",
+      "speed": "30 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 6
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 10,
+      "savingThrows": {},
+      "skills": {
+        "Stealth": 4
+      },
+      "description": "A cave hunter that climbs walls to ambush prey. Its stench may give it away before it strikes.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+0 (10).",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Troglodyte.",
+        "Traits": "Stench. Any creature other than a troglodyte makes a DC 12 Constitution save when it starts its turn in a 5-ft. Emanation centered on the troglodyte. Failure leaves the creature Poisoned until the start of its next turn. Success makes it immune to the Stench of all troglodytes for 1 hour.\nSunlight Sensitivity. In sunlight, the troglodyte has Disadvantage on ability checks and attack rolls.",
+        "Actions": "Rend. Melee attack, +4 to hit, reach 5 ft. A hit deals 5 (1d6 + 2) Slashing damage.",
+        "Habitats": "The Underdark.",
+        "Treasure": "Armaments.",
+        "Printed source": "Monster Manual (2024), p. 309."
+      }
+    }
+  },
+  {
+    "name": "Vrock",
+    "statBlock": {
+      "name": "Vrock",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 319,
+      "classification": "Large fiend (demon), chaotic evil",
+      "ac": 15,
+      "hp": 152,
+      "hitDice": "16d10 + 64",
+      "speed": "40 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "6",
+      "xp": 2300,
+      "passivePerception": 11,
+      "savingThrows": {
+        "Dex": 5,
+        "Wis": 4,
+        "Cha": 2
+      },
+      "skills": {},
+      "description": "A vulturelike demon from the Abyss. Its filthy feathers release poisonous spores, and its screech can stun nearby creatures.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+2 (12).",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Abyssal and telepathy 120 ft.",
+        "Damage resistances": "Cold, Fire, Lightning.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Demonic Restoration. If the vrock dies outside the Abyss, its body dissolves into ichor and it immediately revives at full HP in a new body somewhere in the Abyss.\nMagic Resistance. The vrock has Advantage on saves against spells and other magical effects.",
+        "Actions": "Multiattack. Make two Shred attacks.\nShred. Melee attack, +6 to hit, reach 5 ft. A hit deals 10 (2d6 + 3) Piercing damage plus 10 (3d6) Poison damage.\nSpores (recharge 6). Each creature in a 20-ft. Emanation centered on the vrock makes a DC 15 Constitution save. On a failure it becomes Poisoned, takes 5 (1d10) Poison damage at the start of each of its turns, and repeats the save at the end of each of those turns to end the effect on a success. Pouring a flask of Holy Water over the affected creature also ends the effect.\nStunning Screech (1/day). Each creature in a 20-ft. Emanation centered on the vrock makes a DC 15 Constitution save. Demons succeed automatically. On a failure, the creature takes 10 (3d6) Thunder damage and is Stunned until the end of the vrock's next turn.",
+        "Habitats": "The Abyss.",
+        "Treasure": "Armaments.",
+        "Printed source": "Monster Manual (2024), p. 319."
+      }
+    }
+  },
+  {
+    "name": "Worg",
+    "statBlock": {
+      "name": "Worg",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 335,
+      "classification": "Large fey, neutral evil",
+      "ac": 13,
+      "hp": 26,
+      "hitDice": "4d10 + 4",
+      "speed": "50 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 7
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 14,
+      "savingThrows": {},
+      "skills": {
+        "Perception": 4
+      },
+      "description": "A cunning, wolf-like Fey that hunts in forests and open country. It speaks both Goblin and Worg.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+1 (11).",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Goblin and Worg.",
+        "Actions": "Bite. Melee attack, +5 to hit, reach 5 ft. A hit deals 7 (1d8 + 3) Piercing damage. The next attack roll against that target has Advantage if it occurs before the start of the worg's next turn.",
+        "Habitats": "Forests, grasslands, hills, and the Feywild.",
+        "Printed source": "Monster Manual (2024), p. 335."
+      }
+    }
+  }
+]

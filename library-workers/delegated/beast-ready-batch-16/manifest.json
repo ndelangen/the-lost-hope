@@ -1,0 +1,3563 @@
+{
+  "baseline": "fc571f1afdad9d795dc0814d296e84bcc4f0f041",
+  "profiles": 50,
+  "fixedProfiles": 32,
+  "scalableProfiles": 18,
+  "generatedPortraits": 16,
+  "reusedExistingPortraits": 22,
+  "entries": [
+    {
+      "owner": "b16_01",
+      "name": "Beast of the Land",
+      "kind": "beast",
+      "publication": "Tasha's Cauldron of Everything",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "",
+      "art_group": "primal-beast-land",
+      "art_owner": "b16_01",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "",
+      "credit": "",
+      "rules_style": "scalable profile",
+      "printed_cr": null,
+      "portrait": {
+        "file": "parts/b16_01/portraits/primal-beast-land.png",
+        "sha256": "329a28cbf2547515866c413063347fbc44315724de50ed00171459375fc79912",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Beast of the Land",
+        "kind": "beast",
+        "publication": "Tasha's Cauldron of Everything",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, November 2020",
+        "isbn": "978-0-7869-6702-5",
+        "section": "Chapter 1, Beast Master Companions and Primal Companion",
+        "printedPage": 61,
+        "printedPages": [
+          61
+        ],
+        "pdfPage": 62,
+        "pdfPages": [
+          62
+        ],
+        "pdfSha256": "8e7550f9c5ba60ec0311f6349ac6a7eb2e902c6078654b4927457202e2d65d97",
+        "sourceUrl": "",
+        "url": "",
+        "sourceWitness": "The print-layout supplies the full rules; the page index is one ahead of the printed folio.",
+        "officialProductPage": "https://www.dndbeyond.com/sources/dnd/tcoe",
+        "publisherRulesUrl": "https://www.dndbeyond.com/sources/tcoe/ranger#BeastMasterCompanions",
+        "publisherAccessState": "Anonymous access redirects to the book marketplace.",
+        "publisherRedirectTarget": "https://marketplace.dndbeyond.com/all-rulebooks/tashas-cauldron-of-everything",
+        "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/tashas-cauldron-of-everything",
+        "officialErrataPdf": "",
+        "officialErrataPdfSha256": "471b401d7c44c23c3f880fa2ca5d1e9b26abd87cc673a27ba614c9fea371dbd9",
+        "errataEvidence": "The December 2021 official errata contains no change to Primal Companion, Summon Beast, or the linked stat blocks.",
+        "appearanceEvidence": "The print lets the ranger or caster choose an appropriate animal. The staged portrait is one illustration of that choice.",
+        "scalableRecord": {
+          "file": "dm-library/bestiary/scalable-encounters.json",
+          "sha256": "63c06041778e53c7194820ab4094f4cd868db9a2e96d7c1c4731d9c9d3e6e0b0",
+          "verifiedFields": "Size, ability scores, senses, passive Perception, languages, movement, AC, hit points, Hit Dice and proficiency formulas, attack to-hit formula and damage.",
+          "notes": [
+            "The Primal Bond row is names-only in the scalable recipe. The companion’s checks and saves use the printed PB rule.",
+            "The combat initiative modifier is the Dexterity modifier. Printed companions act during their ranger’s turn.",
+            "The scaler accepts level inputs from 1 through 20. The feature’s eligibility starts at ranger level 3, and the hit point and Hit Dice formulas use ranger class level.",
+            "The printed command, action, revival, replacement and disappearance rules are recorded here as prose.",
+            "Charge records 1d6 slashing and Prone. Its 20-ft straight approach, same-turn hit, and caster spell-save DC are expressed in the printed procedure rather than the recipe."
+          ]
+        }
+      }
+    },
+    {
+      "owner": "b16_01",
+      "name": "Beast of the Sea",
+      "kind": "beast",
+      "publication": "Tasha's Cauldron of Everything",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "",
+      "art_group": "primal-beast-sea",
+      "art_owner": "b16_01",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "",
+      "credit": "",
+      "rules_style": "scalable profile",
+      "printed_cr": null,
+      "portrait": {
+        "file": "parts/b16_01/portraits/primal-beast-sea.png",
+        "sha256": "549b1e7112dc8d87a83e74eb5f58cb760e591b7e38b5cb7097e9d390209b9ab5",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Beast of the Sea",
+        "kind": "beast",
+        "publication": "Tasha's Cauldron of Everything",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, November 2020",
+        "isbn": "978-0-7869-6702-5",
+        "section": "Chapter 1, Beast Master Companions and Primal Companion",
+        "printedPage": 61,
+        "printedPages": [
+          61
+        ],
+        "pdfPage": 62,
+        "pdfPages": [
+          62
+        ],
+        "pdfSha256": "8e7550f9c5ba60ec0311f6349ac6a7eb2e902c6078654b4927457202e2d65d97",
+        "sourceUrl": "",
+        "url": "",
+        "sourceWitness": "The print-layout supplies the full rules; the page index is one ahead of the printed folio.",
+        "officialProductPage": "https://www.dndbeyond.com/sources/dnd/tcoe",
+        "publisherRulesUrl": "https://www.dndbeyond.com/sources/tcoe/ranger#BeastMasterCompanions",
+        "publisherAccessState": "Anonymous access redirects to the book marketplace.",
+        "publisherRedirectTarget": "https://marketplace.dndbeyond.com/all-rulebooks/tashas-cauldron-of-everything",
+        "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/tashas-cauldron-of-everything",
+        "officialErrataPdf": "",
+        "officialErrataPdfSha256": "471b401d7c44c23c3f880fa2ca5d1e9b26abd87cc673a27ba614c9fea371dbd9",
+        "errataEvidence": "The December 2021 official errata contains no change to Primal Companion, Summon Beast, or the linked stat blocks.",
+        "appearanceEvidence": "The print lets the ranger or caster choose an appropriate animal. The staged portrait is one illustration of that choice.",
+        "scalableRecord": {
+          "file": "dm-library/bestiary/scalable-encounters.json",
+          "sha256": "63c06041778e53c7194820ab4094f4cd868db9a2e96d7c1c4731d9c9d3e6e0b0",
+          "verifiedFields": "Size, ability scores, senses, passive Perception, languages, movement, AC, hit points, Hit Dice and proficiency formulas, attack to-hit formula and damage.",
+          "notes": [
+            "The Primal Bond row is names-only in the scalable recipe. The companion’s checks and saves use the printed PB rule.",
+            "The combat initiative modifier is the Dexterity modifier. Printed companions act during their ranger’s turn.",
+            "The scaler accepts level inputs from 1 through 20. The feature’s eligibility starts at ranger level 3, and the hit point and Hit Dice formulas use ranger class level.",
+            "The printed command, action, revival, replacement and disappearance rules are recorded here as prose.",
+            "Binding Strike has two alternative damage rolls and records Grappled. The printed escape DC equals the caster’s spell save DC, and the attack is limited to the current target while the grapple lasts."
+          ]
+        }
+      }
+    },
+    {
+      "owner": "b16_01",
+      "name": "Beast of the Sky",
+      "kind": "beast",
+      "publication": "Tasha's Cauldron of Everything",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "",
+      "art_group": "primal-beast-sky",
+      "art_owner": "b16_01",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "",
+      "credit": "",
+      "rules_style": "scalable profile",
+      "printed_cr": null,
+      "portrait": {
+        "file": "parts/b16_01/portraits/primal-beast-sky.png",
+        "sha256": "a78e800e108aa4c1b1892405dc35414c82005e26784294d1208ee3ae7584a8ad",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Beast of the Sky",
+        "kind": "beast",
+        "publication": "Tasha's Cauldron of Everything",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, November 2020",
+        "isbn": "978-0-7869-6702-5",
+        "section": "Chapter 1, Beast Master Companions and Primal Companion",
+        "printedPage": 61,
+        "printedPages": [
+          61
+        ],
+        "pdfPage": 62,
+        "pdfPages": [
+          62
+        ],
+        "pdfSha256": "8e7550f9c5ba60ec0311f6349ac6a7eb2e902c6078654b4927457202e2d65d97",
+        "sourceUrl": "",
+        "url": "",
+        "sourceWitness": "The print-layout supplies the full rules; the page index is one ahead of the printed folio.",
+        "officialProductPage": "https://www.dndbeyond.com/sources/dnd/tcoe",
+        "publisherRulesUrl": "https://www.dndbeyond.com/sources/tcoe/ranger#BeastMasterCompanions",
+        "publisherAccessState": "Anonymous access redirects to the book marketplace.",
+        "publisherRedirectTarget": "https://marketplace.dndbeyond.com/all-rulebooks/tashas-cauldron-of-everything",
+        "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/tashas-cauldron-of-everything",
+        "officialErrataPdf": "",
+        "officialErrataPdfSha256": "471b401d7c44c23c3f880fa2ca5d1e9b26abd87cc673a27ba614c9fea371dbd9",
+        "errataEvidence": "The December 2021 official errata contains no change to Primal Companion, Summon Beast, or the linked stat blocks.",
+        "appearanceEvidence": "The print lets the ranger or caster choose an appropriate animal. The staged portrait is one illustration of that choice.",
+        "scalableRecord": {
+          "file": "dm-library/bestiary/scalable-encounters.json",
+          "sha256": "63c06041778e53c7194820ab4094f4cd868db9a2e96d7c1c4731d9c9d3e6e0b0",
+          "verifiedFields": "Size, ability scores, senses, passive Perception, languages, movement, AC, hit points, Hit Dice and proficiency formulas, attack to-hit formula and damage.",
+          "notes": [
+            "The Primal Bond row is names-only in the scalable recipe. The companion’s checks and saves use the printed PB rule.",
+            "The combat initiative modifier is the Dexterity modifier. Printed companions act during their ranger’s turn.",
+            "The scaler accepts level inputs from 1 through 20. The feature’s eligibility starts at ranger level 3, and the hit point and Hit Dice formulas use ranger class level.",
+            "The printed command, action, revival, replacement and disappearance rules are recorded here as prose.",
+            "The printed and stored Hit Dice are d6s."
+          ]
+        }
+      }
+    },
+    {
+      "owner": "b16_01",
+      "name": "Bestial Spirit",
+      "kind": "beast",
+      "publication": "Tasha's Cauldron of Everything",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "",
+      "art_group": "bestial-spirit",
+      "art_owner": "b16_01",
+      "reuse_source": "beast-ready-batch-02/parts/b02_10/portraits/wolf.png",
+      "reuse_sha256": "aabb9d05cfea3f0070408b27bca9705475414773b058e88008ef333d2da9b135",
+      "runtime_file": "images/beast-ready-batch-02/wolf.png",
+      "rules_url": "",
+      "credit": "Original portrait generated with built-in OpenAI ImageGen",
+      "rules_style": "scalable profile",
+      "printed_cr": null,
+      "portrait": {
+        "file": "reused-portraits/bestial-spirit.png",
+        "sha256": "aabb9d05cfea3f0070408b27bca9705475414773b058e88008ef333d2da9b135",
+        "credit": "Original portrait generated with built-in OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Bestial Spirit",
+        "kind": "beast",
+        "publication": "Tasha's Cauldron of Everything",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, November 2020",
+        "isbn": "978-0-7869-6702-5",
+        "section": "Chapter 3, Summon Beast and Bestial Spirit",
+        "printedPage": 109,
+        "printedPages": [
+          109,
+          110
+        ],
+        "pdfPage": 110,
+        "pdfPages": [
+          110,
+          111
+        ],
+        "pdfSha256": "8e7550f9c5ba60ec0311f6349ac6a7eb2e902c6078654b4927457202e2d65d97",
+        "sourceUrl": "",
+        "url": "",
+        "sourceWitness": "The print-layout supplies the full rules; the page index is one ahead of the printed folio.",
+        "officialProductPage": "https://www.dndbeyond.com/sources/dnd/tcoe",
+        "publisherRulesUrl": "https://www.dndbeyond.com/sources/tcoe/magical-miscellany#SummonBeast",
+        "publisherAccessState": "Anonymous access redirects to the book marketplace.",
+        "publisherRedirectTarget": "https://marketplace.dndbeyond.com/all-rulebooks/tashas-cauldron-of-everything",
+        "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/tashas-cauldron-of-everything",
+        "officialErrataPdf": "",
+        "officialErrataPdfSha256": "471b401d7c44c23c3f880fa2ca5d1e9b26abd87cc673a27ba614c9fea371dbd9",
+        "errataEvidence": "The December 2021 official errata contains no change to Primal Companion, Summon Beast, or the linked stat blocks.",
+        "appearanceEvidence": "The print lets the ranger or caster choose an appropriate animal. The staged portrait is one illustration of that choice.",
+        "scalableRecord": {
+          "file": "dm-library/bestiary/scalable-encounters.json",
+          "sha256": "63c06041778e53c7194820ab4094f4cd868db9a2e96d7c1c4731d9c9d3e6e0b0",
+          "verifiedFields": "One selector with Air, Land and Water forms, common ability scores, senses, passive Perception and languages, conditional movement and form traits, attack count and Maul formulas.",
+          "notes": [
+            "Only Bestial Spirit is a printed stat-block title. The named Air, Land and Water records expose its conditional subprofiles.",
+            "The general recipe hands off to a selected form. Different movement and starting HP depend on that choice.",
+            "The printed block uses caster PB and shared initiative. See each form’s recipe comparison for displayed proficiency and turn behavior."
+          ]
+        },
+        "reusedPortrait": {
+          "source": "beast-ready-batch-02/parts/b02_10/portraits/wolf.png",
+          "sha256": "aabb9d05cfea3f0070408b27bca9705475414773b058e88008ef333d2da9b135"
+        }
+      }
+    },
+    {
+      "owner": "b16_01",
+      "name": "Bestial Spirit (Air)",
+      "kind": "beast",
+      "publication": "Tasha's Cauldron of Everything",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "",
+      "art_group": "bestial-spirit-air",
+      "art_owner": "b16_01",
+      "reuse_source": "beast-ready-batch-04/parts/b04_06/portraits/giant-eagle.png",
+      "reuse_sha256": "45aad2129dd6054a5dc59f4da0d0001e9ac2724bfe415cc19d32fd3cb08c5445",
+      "runtime_file": "images/beast-ready-batch-04/giant-eagle.png",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "rules_style": "scalable profile",
+      "printed_cr": null,
+      "portrait": {
+        "file": "reused-portraits/bestial-spirit-air.png",
+        "sha256": "45aad2129dd6054a5dc59f4da0d0001e9ac2724bfe415cc19d32fd3cb08c5445",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Bestial Spirit (Air)",
+        "kind": "beast",
+        "publication": "Tasha's Cauldron of Everything",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, November 2020",
+        "isbn": "978-0-7869-6702-5",
+        "section": "Chapter 3, Summon Beast and Bestial Spirit",
+        "printedPage": 109,
+        "printedPages": [
+          109,
+          110
+        ],
+        "pdfPage": 110,
+        "pdfPages": [
+          110,
+          111
+        ],
+        "pdfSha256": "8e7550f9c5ba60ec0311f6349ac6a7eb2e902c6078654b4927457202e2d65d97",
+        "sourceUrl": "",
+        "url": "",
+        "sourceWitness": "The print-layout supplies the full rules; the page index is one ahead of the printed folio.",
+        "officialProductPage": "https://www.dndbeyond.com/sources/dnd/tcoe",
+        "publisherRulesUrl": "https://www.dndbeyond.com/sources/tcoe/magical-miscellany#SummonBeast",
+        "publisherAccessState": "Anonymous access redirects to the book marketplace.",
+        "publisherRedirectTarget": "https://marketplace.dndbeyond.com/all-rulebooks/tashas-cauldron-of-everything",
+        "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/tashas-cauldron-of-everything",
+        "officialErrataPdf": "",
+        "officialErrataPdfSha256": "471b401d7c44c23c3f880fa2ca5d1e9b26abd87cc673a27ba614c9fea371dbd9",
+        "errataEvidence": "The December 2021 official errata contains no change to Primal Companion, Summon Beast, or the linked stat blocks.",
+        "appearanceEvidence": "The print lets the ranger or caster choose an appropriate animal. The staged portrait is one illustration of that choice.",
+        "scalableRecord": {
+          "file": "dm-library/bestiary/scalable-encounters.json",
+          "sha256": "63c06041778e53c7194820ab4094f4cd868db9a2e96d7c1c4731d9c9d3e6e0b0",
+          "verifiedFields": "Small size, all ability scores, senses, passive Perception and languages, movement and traits for this form, AC, HP and attack formulas including 2nd-level availability.",
+          "notes": [
+            "The form recipe omits a PB field even though the printed block uses the caster’s proficiency bonus.",
+            "The formula for attack count rounds down. The spell uses the selected level for Maul, AC, HP growth and attack count.",
+            "The stored Dexterity initiative modifier is +0. The spell uses the caster’s initiative count and the spirit acts after the caster.",
+            "The printed spell’s command, concentration, appearance and disappearance rules are recorded here as prose."
+          ]
+        },
+        "printedTemplate": "Bestial Spirit",
+        "reusedPortrait": {
+          "source": "beast-ready-batch-04/parts/b04_06/portraits/giant-eagle.png",
+          "sha256": "45aad2129dd6054a5dc59f4da0d0001e9ac2724bfe415cc19d32fd3cb08c5445"
+        }
+      }
+    },
+    {
+      "owner": "b16_01",
+      "name": "Bestial Spirit (Land)",
+      "kind": "beast",
+      "publication": "Tasha's Cauldron of Everything",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "",
+      "art_group": "bestial-spirit-land",
+      "art_owner": "b16_01",
+      "reuse_source": "beast-ready-batch-02/parts/b02_10/portraits/wolf.png",
+      "reuse_sha256": "aabb9d05cfea3f0070408b27bca9705475414773b058e88008ef333d2da9b135",
+      "runtime_file": "images/beast-ready-batch-02/wolf.png",
+      "rules_url": "",
+      "credit": "Original portrait generated with built-in OpenAI ImageGen",
+      "rules_style": "scalable profile",
+      "printed_cr": null,
+      "portrait": {
+        "file": "reused-portraits/bestial-spirit.png",
+        "sha256": "aabb9d05cfea3f0070408b27bca9705475414773b058e88008ef333d2da9b135",
+        "credit": "Original portrait generated with built-in OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Bestial Spirit (Land)",
+        "kind": "beast",
+        "publication": "Tasha's Cauldron of Everything",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, November 2020",
+        "isbn": "978-0-7869-6702-5",
+        "section": "Chapter 3, Summon Beast and Bestial Spirit",
+        "printedPage": 109,
+        "printedPages": [
+          109,
+          110
+        ],
+        "pdfPage": 110,
+        "pdfPages": [
+          110,
+          111
+        ],
+        "pdfSha256": "8e7550f9c5ba60ec0311f6349ac6a7eb2e902c6078654b4927457202e2d65d97",
+        "sourceUrl": "",
+        "url": "",
+        "sourceWitness": "The print-layout supplies the full rules; the page index is one ahead of the printed folio.",
+        "officialProductPage": "https://www.dndbeyond.com/sources/dnd/tcoe",
+        "publisherRulesUrl": "https://www.dndbeyond.com/sources/tcoe/magical-miscellany#SummonBeast",
+        "publisherAccessState": "Anonymous access redirects to the book marketplace.",
+        "publisherRedirectTarget": "https://marketplace.dndbeyond.com/all-rulebooks/tashas-cauldron-of-everything",
+        "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/tashas-cauldron-of-everything",
+        "officialErrataPdf": "",
+        "officialErrataPdfSha256": "471b401d7c44c23c3f880fa2ca5d1e9b26abd87cc673a27ba614c9fea371dbd9",
+        "errataEvidence": "The December 2021 official errata contains no change to Primal Companion, Summon Beast, or the linked stat blocks.",
+        "appearanceEvidence": "The print lets the ranger or caster choose an appropriate animal. The staged portrait is one illustration of that choice.",
+        "scalableRecord": {
+          "file": "dm-library/bestiary/scalable-encounters.json",
+          "sha256": "63c06041778e53c7194820ab4094f4cd868db9a2e96d7c1c4731d9c9d3e6e0b0",
+          "verifiedFields": "Small size, all ability scores, senses, passive Perception and languages, movement and traits for this form, AC, HP and attack formulas including 2nd-level availability.",
+          "notes": [
+            "The form recipe omits a PB field even though the printed block uses the caster’s proficiency bonus.",
+            "The formula for attack count rounds down. The spell uses the selected level for Maul, AC, HP growth and attack count.",
+            "The stored Dexterity initiative modifier is +0. The spell uses the caster’s initiative count and the spirit acts after the caster.",
+            "The printed spell’s command, concentration, appearance and disappearance rules are recorded here as prose."
+          ]
+        },
+        "printedTemplate": "Bestial Spirit",
+        "reusedPortrait": {
+          "source": "beast-ready-batch-02/parts/b02_10/portraits/wolf.png",
+          "sha256": "aabb9d05cfea3f0070408b27bca9705475414773b058e88008ef333d2da9b135"
+        }
+      }
+    },
+    {
+      "owner": "b16_01",
+      "name": "Bestial Spirit (Water)",
+      "kind": "beast",
+      "publication": "Tasha's Cauldron of Everything",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "",
+      "art_group": "bestial-spirit-water",
+      "art_owner": "b16_01",
+      "reuse_source": "playable-species-50-batch-11/parts/eleven_c/portraits/crocodile.png",
+      "reuse_sha256": "59d89f960b0d454186062c1e6ac82c844f886020dc2f3839973390e9b9287be6",
+      "runtime_file": "images/playable-species-50-batch-11/crocodile.png",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "rules_style": "scalable profile",
+      "printed_cr": null,
+      "portrait": {
+        "file": "reused-portraits/bestial-spirit-water.png",
+        "sha256": "59d89f960b0d454186062c1e6ac82c844f886020dc2f3839973390e9b9287be6",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Bestial Spirit (Water)",
+        "kind": "beast",
+        "publication": "Tasha's Cauldron of Everything",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, November 2020",
+        "isbn": "978-0-7869-6702-5",
+        "section": "Chapter 3, Summon Beast and Bestial Spirit",
+        "printedPage": 109,
+        "printedPages": [
+          109,
+          110
+        ],
+        "pdfPage": 110,
+        "pdfPages": [
+          110,
+          111
+        ],
+        "pdfSha256": "8e7550f9c5ba60ec0311f6349ac6a7eb2e902c6078654b4927457202e2d65d97",
+        "sourceUrl": "",
+        "url": "",
+        "sourceWitness": "The print-layout supplies the full rules; the page index is one ahead of the printed folio.",
+        "officialProductPage": "https://www.dndbeyond.com/sources/dnd/tcoe",
+        "publisherRulesUrl": "https://www.dndbeyond.com/sources/tcoe/magical-miscellany#SummonBeast",
+        "publisherAccessState": "Anonymous access redirects to the book marketplace.",
+        "publisherRedirectTarget": "https://marketplace.dndbeyond.com/all-rulebooks/tashas-cauldron-of-everything",
+        "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/tashas-cauldron-of-everything",
+        "officialErrataPdf": "",
+        "officialErrataPdfSha256": "471b401d7c44c23c3f880fa2ca5d1e9b26abd87cc673a27ba614c9fea371dbd9",
+        "errataEvidence": "The December 2021 official errata contains no change to Primal Companion, Summon Beast, or the linked stat blocks.",
+        "appearanceEvidence": "The print lets the ranger or caster choose an appropriate animal. The staged portrait is one illustration of that choice.",
+        "scalableRecord": {
+          "file": "dm-library/bestiary/scalable-encounters.json",
+          "sha256": "63c06041778e53c7194820ab4094f4cd868db9a2e96d7c1c4731d9c9d3e6e0b0",
+          "verifiedFields": "Small size, all ability scores, senses, passive Perception and languages, movement and traits for this form, AC, HP and attack formulas including 2nd-level availability.",
+          "notes": [
+            "The form recipe omits a PB field even though the printed block uses the caster’s proficiency bonus.",
+            "The formula for attack count rounds down. The spell uses the selected level for Maul, AC, HP growth and attack count.",
+            "The stored Dexterity initiative modifier is +0. The spell uses the caster’s initiative count and the spirit acts after the caster.",
+            "The printed spell’s command, concentration, appearance and disappearance rules are recorded here as prose."
+          ]
+        },
+        "printedTemplate": "Bestial Spirit",
+        "reusedPortrait": {
+          "source": "playable-species-50-batch-11/parts/eleven_c/portraits/crocodile.png",
+          "sha256": "59d89f960b0d454186062c1e6ac82c844f886020dc2f3839973390e9b9287be6"
+        }
+      }
+    },
+    {
+      "owner": "b16_02",
+      "name": "Beast of the Land",
+      "kind": "beast",
+      "publication": "Player’s Handbook",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "",
+      "art_group": "primal-beast-land",
+      "art_owner": "b16_01",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "",
+      "credit": "",
+      "rules_style": "scalable profile",
+      "printed_cr": null,
+      "portrait": {
+        "file": "parts/b16_01/portraits/primal-beast-land.png",
+        "sha256": "329a28cbf2547515866c413063347fbc44315724de50ed00171459375fc79912",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Beast of the Land",
+        "edition": "2024 fifth edition",
+        "publication": "Player’s Handbook",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, September 2024, alternate-cover hardcover ISBN 978-0-7869-6982-1.",
+        "isbn": "978-0-7869-6982-1",
+        "section": "Ranger, Beast Master, Primal Companion",
+        "printedPages": [
+          122,
+          123
+        ],
+        "viewerPages": [
+          123,
+          124
+        ],
+        "sourceUrl": "https://online.anyflip.com/acscv/btgw/mobile/index.html#p=124",
+        "url": "https://online.anyflip.com/acscv/btgw/mobile/index.html#p=124",
+        "pageWitnesses": [
+          {
+            "printedPage": 2,
+            "viewerPage": 3,
+            "sourceUrl": "https://online.anyflip.com/acscv/btgw/files/large/71b7de12aeff356d86ad5e169ea4bf1b.webp",
+            "sha256": "08cd314aa3fa46c76851b6acee7a4edb0d940cdd2c596157ecf78b22b851b4a5"
+          },
+          {
+            "printedPage": 122,
+            "viewerPage": 123,
+            "sourceUrl": "https://online.anyflip.com/acscv/btgw/files/large/6a43a317de23d7824c371f90f2138e2b.webp",
+            "sha256": "31fa4691164c0bfc2cdb39e71ad865e2c12c9c232249572d32e14bf9beaaa1be"
+          },
+          {
+            "printedPage": 123,
+            "viewerPage": 124,
+            "sourceUrl": "https://online.anyflip.com/acscv/btgw/files/large/5521571d28aed37a029060521ab85029.webp",
+            "sha256": "2a0e90819ce42f28066e9c5ef095c4d1cd5f8d042cab5ab02ce492d25328ab2d"
+          }
+        ],
+        "publisherSourceUrl": "https://www.dndbeyond.com/sources/dnd/phb-2024",
+        "artGroup": "primal-beast-land",
+        "appearanceEvidence": "The ranger chooses an animal suited to this form. It bears visible primal markings. The portrait shows a wolf.",
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/players-handbook",
+        "errataEvidence": "The official Player’s Handbook errata lists no change to this feature, spell or stat block.",
+        "ruleComparison": "The registry’s numerical inputs and strike match. Command, restoration, Primal Bond and subclass advancement procedures are supplied as source prose.",
+        "mechanicsNotes": [
+          "The extra 1d6 applies regardless of size. The Large-or-smaller limit applies only to Prone."
+        ],
+        "scalableRecord": {
+          "file": "dm-library/bestiary/scalable-encounters.json",
+          "sha256": "63c06041778e53c7194820ab4094f4cd868db9a2e96d7c1c4731d9c9d3e6e0b0",
+          "notes": [
+            "The registry’s numerical inputs and strike match. Command, restoration, Primal Bond and subclass advancement procedures are supplied as source prose."
+          ]
+        },
+        "portraitSharedOwner": "b16_01",
+        "portraitSharedPath": "beast-ready-batch-16/parts/b16_01/portraits/primal-beast-land.png",
+        "portraitSharedSha256": "329a28cbf2547515866c413063347fbc44315724de50ed00171459375fc79912"
+      }
+    },
+    {
+      "owner": "b16_02",
+      "name": "Beast of the Sea",
+      "kind": "beast",
+      "publication": "Player’s Handbook",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "",
+      "art_group": "primal-beast-sea",
+      "art_owner": "b16_01",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "",
+      "credit": "",
+      "rules_style": "scalable profile",
+      "printed_cr": null,
+      "portrait": {
+        "file": "parts/b16_01/portraits/primal-beast-sea.png",
+        "sha256": "549b1e7112dc8d87a83e74eb5f58cb760e591b7e38b5cb7097e9d390209b9ab5",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Beast of the Sea",
+        "edition": "2024 fifth edition",
+        "publication": "Player’s Handbook",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, September 2024, alternate-cover hardcover ISBN 978-0-7869-6982-1.",
+        "isbn": "978-0-7869-6982-1",
+        "section": "Ranger, Beast Master, Primal Companion",
+        "printedPages": [
+          122,
+          123,
+          124
+        ],
+        "viewerPages": [
+          123,
+          124,
+          125
+        ],
+        "sourceUrl": "https://online.anyflip.com/acscv/btgw/mobile/index.html#p=125",
+        "url": "https://online.anyflip.com/acscv/btgw/mobile/index.html#p=125",
+        "pageWitnesses": [
+          {
+            "printedPage": 2,
+            "viewerPage": 3,
+            "sourceUrl": "https://online.anyflip.com/acscv/btgw/files/large/71b7de12aeff356d86ad5e169ea4bf1b.webp",
+            "sha256": "08cd314aa3fa46c76851b6acee7a4edb0d940cdd2c596157ecf78b22b851b4a5"
+          },
+          {
+            "printedPage": 122,
+            "viewerPage": 123,
+            "sourceUrl": "https://online.anyflip.com/acscv/btgw/files/large/6a43a317de23d7824c371f90f2138e2b.webp",
+            "sha256": "31fa4691164c0bfc2cdb39e71ad865e2c12c9c232249572d32e14bf9beaaa1be"
+          },
+          {
+            "printedPage": 123,
+            "viewerPage": 124,
+            "sourceUrl": "https://online.anyflip.com/acscv/btgw/files/large/5521571d28aed37a029060521ab85029.webp",
+            "sha256": "2a0e90819ce42f28066e9c5ef095c4d1cd5f8d042cab5ab02ce492d25328ab2d"
+          },
+          {
+            "printedPage": 124,
+            "viewerPage": 125,
+            "sourceUrl": "https://online.anyflip.com/acscv/btgw/files/large/722286d8ee070a52ba57877560ed360b.webp",
+            "sha256": "53927231c0f0993c859ff422b4552d3526f0aaf050680f88368a0f1c6286f04c"
+          }
+        ],
+        "publisherSourceUrl": "https://www.dndbeyond.com/sources/dnd/phb-2024",
+        "artGroup": "primal-beast-sea",
+        "appearanceEvidence": "The ranger chooses an animal suited to this form. It bears visible primal markings. The portrait shows a crocodile.",
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/players-handbook",
+        "errataEvidence": "The official Player’s Handbook errata lists no change to this feature, spell or stat block.",
+        "ruleComparison": "The read-only registry’s strike lists Piercing only and omits the escape DC. The ability array and scaling inputs match this first printing.",
+        "mechanicsNotes": [
+          "The print gives Bludgeoning or Piercing and an escape DC equal to the ranger’s spell save DC. The Grappled condition is applied on the hit."
+        ],
+        "scalableRecord": {
+          "file": "dm-library/bestiary/scalable-encounters.json",
+          "sha256": "63c06041778e53c7194820ab4094f4cd868db9a2e96d7c1c4731d9c9d3e6e0b0",
+          "notes": [
+            "The read-only registry’s strike lists Piercing only and omits the escape DC. The ability array and scaling inputs match this first printing."
+          ]
+        },
+        "portraitSharedOwner": "b16_01",
+        "portraitSharedPath": "beast-ready-batch-16/parts/b16_01/portraits/primal-beast-sea.png",
+        "portraitSharedSha256": "549b1e7112dc8d87a83e74eb5f58cb760e591b7e38b5cb7097e9d390209b9ab5",
+        "digitalWitness": {
+          "archivedCaptureUrl": "",
+          "note": "The September 2024 digital snapshot uses the opposite form’s ability array for Sea and Sky. This entry follows the printed page. A D&D Beyond moderator confirmed that a digital correction shipped on February 18, 2025.",
+          "correctionDiscussionUrl": "https://www.dndbeyond.com/forums/d-d-beyond-general/bugs-support/215922-2024-primal-companion-stat-block-discrepancy"
+        }
+      }
+    },
+    {
+      "owner": "b16_02",
+      "name": "Beast of the Sky",
+      "kind": "beast",
+      "publication": "Player’s Handbook",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "",
+      "art_group": "primal-beast-sky",
+      "art_owner": "b16_01",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "",
+      "credit": "",
+      "rules_style": "scalable profile",
+      "printed_cr": null,
+      "portrait": {
+        "file": "parts/b16_01/portraits/primal-beast-sky.png",
+        "sha256": "a78e800e108aa4c1b1892405dc35414c82005e26784294d1208ee3ae7584a8ad",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Beast of the Sky",
+        "edition": "2024 fifth edition",
+        "publication": "Player’s Handbook",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, September 2024, alternate-cover hardcover ISBN 978-0-7869-6982-1.",
+        "isbn": "978-0-7869-6982-1",
+        "section": "Ranger, Beast Master, Primal Companion",
+        "printedPages": [
+          122,
+          123,
+          124
+        ],
+        "viewerPages": [
+          123,
+          124,
+          125
+        ],
+        "sourceUrl": "https://online.anyflip.com/acscv/btgw/mobile/index.html#p=125",
+        "url": "https://online.anyflip.com/acscv/btgw/mobile/index.html#p=125",
+        "pageWitnesses": [
+          {
+            "printedPage": 2,
+            "viewerPage": 3,
+            "sourceUrl": "https://online.anyflip.com/acscv/btgw/files/large/71b7de12aeff356d86ad5e169ea4bf1b.webp",
+            "sha256": "08cd314aa3fa46c76851b6acee7a4edb0d940cdd2c596157ecf78b22b851b4a5"
+          },
+          {
+            "printedPage": 122,
+            "viewerPage": 123,
+            "sourceUrl": "https://online.anyflip.com/acscv/btgw/files/large/6a43a317de23d7824c371f90f2138e2b.webp",
+            "sha256": "31fa4691164c0bfc2cdb39e71ad865e2c12c9c232249572d32e14bf9beaaa1be"
+          },
+          {
+            "printedPage": 123,
+            "viewerPage": 124,
+            "sourceUrl": "https://online.anyflip.com/acscv/btgw/files/large/5521571d28aed37a029060521ab85029.webp",
+            "sha256": "2a0e90819ce42f28066e9c5ef095c4d1cd5f8d042cab5ab02ce492d25328ab2d"
+          },
+          {
+            "printedPage": 124,
+            "viewerPage": 125,
+            "sourceUrl": "https://online.anyflip.com/acscv/btgw/files/large/722286d8ee070a52ba57877560ed360b.webp",
+            "sha256": "53927231c0f0993c859ff422b4552d3526f0aaf050680f88368a0f1c6286f04c"
+          }
+        ],
+        "publisherSourceUrl": "https://www.dndbeyond.com/sources/dnd/phb-2024",
+        "artGroup": "primal-beast-sky",
+        "appearanceEvidence": "The ranger chooses an animal suited to this form. It bears visible primal markings. The portrait shows a hawk.",
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/players-handbook",
+        "errataEvidence": "The official Player’s Handbook errata lists no change to this feature, spell or stat block.",
+        "ruleComparison": "The registry numerical inputs and strike match the first print. Command, restoration, Flyby, Primal Bond and subclass advancement procedures are supplied as source prose.",
+        "mechanicsNotes": [
+          "The Sky form uses d6 Hit Dice and 4 HP per ranger level."
+        ],
+        "scalableRecord": {
+          "file": "dm-library/bestiary/scalable-encounters.json",
+          "sha256": "63c06041778e53c7194820ab4094f4cd868db9a2e96d7c1c4731d9c9d3e6e0b0",
+          "notes": [
+            "The registry numerical inputs and strike match the first print. Command, restoration, Flyby, Primal Bond and subclass advancement procedures are supplied as source prose."
+          ]
+        },
+        "portraitSharedOwner": "b16_01",
+        "portraitSharedPath": "beast-ready-batch-16/parts/b16_01/portraits/primal-beast-sky.png",
+        "portraitSharedSha256": "a78e800e108aa4c1b1892405dc35414c82005e26784294d1208ee3ae7584a8ad",
+        "digitalWitness": {
+          "archivedCaptureUrl": "",
+          "note": "The September 2024 digital snapshot uses the opposite form’s ability array for Sea and Sky. This entry follows the printed page. A D&D Beyond moderator confirmed that a digital correction shipped on February 18, 2025.",
+          "correctionDiscussionUrl": "https://www.dndbeyond.com/forums/d-d-beyond-general/bugs-support/215922-2024-primal-companion-stat-block-discrepancy"
+        }
+      }
+    },
+    {
+      "owner": "b16_02",
+      "name": "Bestial Spirit",
+      "kind": "beast",
+      "publication": "Player’s Handbook",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "",
+      "art_group": "bestial-spirit",
+      "art_owner": "b16_02",
+      "reuse_source": "beast-ready-batch-02/parts/b02_10/portraits/wolf.png",
+      "reuse_sha256": "aabb9d05cfea3f0070408b27bca9705475414773b058e88008ef333d2da9b135",
+      "runtime_file": "images/beast-ready-batch-02/wolf.png",
+      "rules_url": "",
+      "credit": "Original portrait generated with built-in OpenAI ImageGen",
+      "rules_style": "scalable profile",
+      "printed_cr": null,
+      "portrait": {
+        "file": "reused-portraits/bestial-spirit.png",
+        "sha256": "aabb9d05cfea3f0070408b27bca9705475414773b058e88008ef333d2da9b135",
+        "credit": "Original portrait generated with built-in OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Bestial Spirit",
+        "edition": "2024 fifth edition",
+        "publication": "Player’s Handbook",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, September 2024, alternate-cover hardcover ISBN 978-0-7869-6982-1.",
+        "isbn": "978-0-7869-6982-1",
+        "section": "Summon Beast and Bestial Spirit",
+        "printedPages": [
+          322,
+          323
+        ],
+        "viewerPages": [
+          323,
+          324
+        ],
+        "sourceUrl": "https://online.anyflip.com/acscv/btgw/mobile/index.html#p=324",
+        "url": "https://online.anyflip.com/acscv/btgw/mobile/index.html#p=324",
+        "pageWitnesses": [
+          {
+            "printedPage": 2,
+            "viewerPage": 3,
+            "sourceUrl": "https://online.anyflip.com/acscv/btgw/files/large/71b7de12aeff356d86ad5e169ea4bf1b.webp",
+            "sha256": "08cd314aa3fa46c76851b6acee7a4edb0d940cdd2c596157ecf78b22b851b4a5"
+          },
+          {
+            "printedPage": 322,
+            "viewerPage": 323,
+            "sourceUrl": "https://online.anyflip.com/acscv/btgw/files/large/4eb6809eadc8f8c98d49d92e1f5a0655.webp",
+            "sha256": "c02fea86114068fa2d132c10294d79dffb700cb226adad9d3faf10eb052266eb"
+          },
+          {
+            "printedPage": 323,
+            "viewerPage": 324,
+            "sourceUrl": "https://online.anyflip.com/acscv/btgw/files/large/d59601f7194d2b018d17f4fbfdc16025.webp",
+            "sha256": "850e6bb9c7186a61a97e943ccf83376b56de771da52fea976c68bb2681886c93"
+          }
+        ],
+        "publisherSourceUrl": "https://www.dndbeyond.com/sources/dnd/phb-2024",
+        "artGroup": "bestial-spirit",
+        "appearanceEvidence": "The caster chooses a native animal for the selected environment. The portrait shows a wolf as one Land example.",
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/players-handbook",
+        "errataEvidence": "The official Player’s Handbook errata lists no change to this feature, spell or stat block.",
+        "ruleComparison": "AC, HP and Rend scale by slot level as printed. The calculator rounds down for Multiattack. The registry carries a Dexterity-derived initiative value. In play the spell uses the caster’s initiative count and its own turn immediately after the caster.",
+        "mechanicsNotes": [
+          "Printed parent stat block.",
+          "The spell gives the spirit the caster’s initiative count and a turn immediately after the caster."
+        ],
+        "scalableRecord": {
+          "file": "dm-library/bestiary/scalable-encounters.json",
+          "sha256": "63c06041778e53c7194820ab4094f4cd868db9a2e96d7c1c4731d9c9d3e6e0b0",
+          "notes": [
+            "AC, HP and Rend scale by slot level as printed. The calculator rounds down for Multiattack. The registry carries a Dexterity-derived initiative value. In play the spell uses the caster’s initiative count and its own turn immediately after the caster."
+          ]
+        },
+        "portraitReuseSource": "beast-ready-batch-02/parts/b02_10/portraits/wolf.png",
+        "portraitReuseSha256": "aabb9d05cfea3f0070408b27bca9705475414773b058e88008ef333d2da9b135"
+      }
+    },
+    {
+      "owner": "b16_02",
+      "name": "Bestial Spirit (Air)",
+      "kind": "beast",
+      "publication": "Player’s Handbook",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "",
+      "art_group": "bestial-spirit-air",
+      "art_owner": "b16_02",
+      "reuse_source": "beast-ready-batch-04/parts/b04_06/portraits/giant-eagle.png",
+      "reuse_sha256": "45aad2129dd6054a5dc59f4da0d0001e9ac2724bfe415cc19d32fd3cb08c5445",
+      "runtime_file": "images/beast-ready-batch-04/giant-eagle.png",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "rules_style": "scalable profile",
+      "printed_cr": null,
+      "portrait": {
+        "file": "reused-portraits/bestial-spirit-air.png",
+        "sha256": "45aad2129dd6054a5dc59f4da0d0001e9ac2724bfe415cc19d32fd3cb08c5445",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Bestial Spirit (Air)",
+        "edition": "2024 fifth edition",
+        "publication": "Player’s Handbook",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, September 2024, alternate-cover hardcover ISBN 978-0-7869-6982-1.",
+        "isbn": "978-0-7869-6982-1",
+        "section": "Summon Beast and Bestial Spirit",
+        "printedPages": [
+          322,
+          323
+        ],
+        "viewerPages": [
+          323,
+          324
+        ],
+        "sourceUrl": "https://online.anyflip.com/acscv/btgw/mobile/index.html#p=324",
+        "url": "https://online.anyflip.com/acscv/btgw/mobile/index.html#p=324",
+        "pageWitnesses": [
+          {
+            "printedPage": 2,
+            "viewerPage": 3,
+            "sourceUrl": "https://online.anyflip.com/acscv/btgw/files/large/71b7de12aeff356d86ad5e169ea4bf1b.webp",
+            "sha256": "08cd314aa3fa46c76851b6acee7a4edb0d940cdd2c596157ecf78b22b851b4a5"
+          },
+          {
+            "printedPage": 322,
+            "viewerPage": 323,
+            "sourceUrl": "https://online.anyflip.com/acscv/btgw/files/large/4eb6809eadc8f8c98d49d92e1f5a0655.webp",
+            "sha256": "c02fea86114068fa2d132c10294d79dffb700cb226adad9d3faf10eb052266eb"
+          },
+          {
+            "printedPage": 323,
+            "viewerPage": 324,
+            "sourceUrl": "https://online.anyflip.com/acscv/btgw/files/large/d59601f7194d2b018d17f4fbfdc16025.webp",
+            "sha256": "850e6bb9c7186a61a97e943ccf83376b56de771da52fea976c68bb2681886c93"
+          }
+        ],
+        "publisherSourceUrl": "https://www.dndbeyond.com/sources/dnd/phb-2024",
+        "artGroup": "bestial-spirit-air",
+        "appearanceEvidence": "The caster chooses a native air animal. The portrait shows an eagle.",
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/players-handbook",
+        "errataEvidence": "The official Player’s Handbook errata lists no change to this feature, spell or stat block.",
+        "ruleComparison": "AC, HP and Rend scale by slot level as printed. The calculator rounds down for Multiattack. The registry carries a Dexterity-derived initiative value. In play the spell uses the caster’s initiative count and its own turn immediately after the caster.",
+        "mechanicsNotes": [
+          "Catalog form of the single printed Bestial Spirit stat block.",
+          "The spell gives the spirit the caster’s initiative count and a turn immediately after the caster."
+        ],
+        "scalableRecord": {
+          "file": "dm-library/bestiary/scalable-encounters.json",
+          "sha256": "63c06041778e53c7194820ab4094f4cd868db9a2e96d7c1c4731d9c9d3e6e0b0",
+          "notes": [
+            "AC, HP and Rend scale by slot level as printed. The calculator rounds down for Multiattack. The registry carries a Dexterity-derived initiative value. In play the spell uses the caster’s initiative count and its own turn immediately after the caster."
+          ]
+        },
+        "portraitReuseSource": "beast-ready-batch-04/parts/b04_06/portraits/giant-eagle.png",
+        "portraitReuseSha256": "45aad2129dd6054a5dc59f4da0d0001e9ac2724bfe415cc19d32fd3cb08c5445"
+      }
+    },
+    {
+      "owner": "b16_02",
+      "name": "Bestial Spirit (Land)",
+      "kind": "beast",
+      "publication": "Player’s Handbook",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "",
+      "art_group": "bestial-spirit-land",
+      "art_owner": "b16_02",
+      "reuse_source": "beast-ready-batch-02/parts/b02_10/portraits/wolf.png",
+      "reuse_sha256": "aabb9d05cfea3f0070408b27bca9705475414773b058e88008ef333d2da9b135",
+      "runtime_file": "images/beast-ready-batch-02/wolf.png",
+      "rules_url": "",
+      "credit": "Original portrait generated with built-in OpenAI ImageGen",
+      "rules_style": "scalable profile",
+      "printed_cr": null,
+      "portrait": {
+        "file": "reused-portraits/bestial-spirit.png",
+        "sha256": "aabb9d05cfea3f0070408b27bca9705475414773b058e88008ef333d2da9b135",
+        "credit": "Original portrait generated with built-in OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Bestial Spirit (Land)",
+        "edition": "2024 fifth edition",
+        "publication": "Player’s Handbook",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, September 2024, alternate-cover hardcover ISBN 978-0-7869-6982-1.",
+        "isbn": "978-0-7869-6982-1",
+        "section": "Summon Beast and Bestial Spirit",
+        "printedPages": [
+          322,
+          323
+        ],
+        "viewerPages": [
+          323,
+          324
+        ],
+        "sourceUrl": "https://online.anyflip.com/acscv/btgw/mobile/index.html#p=324",
+        "url": "https://online.anyflip.com/acscv/btgw/mobile/index.html#p=324",
+        "pageWitnesses": [
+          {
+            "printedPage": 2,
+            "viewerPage": 3,
+            "sourceUrl": "https://online.anyflip.com/acscv/btgw/files/large/71b7de12aeff356d86ad5e169ea4bf1b.webp",
+            "sha256": "08cd314aa3fa46c76851b6acee7a4edb0d940cdd2c596157ecf78b22b851b4a5"
+          },
+          {
+            "printedPage": 322,
+            "viewerPage": 323,
+            "sourceUrl": "https://online.anyflip.com/acscv/btgw/files/large/4eb6809eadc8f8c98d49d92e1f5a0655.webp",
+            "sha256": "c02fea86114068fa2d132c10294d79dffb700cb226adad9d3faf10eb052266eb"
+          },
+          {
+            "printedPage": 323,
+            "viewerPage": 324,
+            "sourceUrl": "https://online.anyflip.com/acscv/btgw/files/large/d59601f7194d2b018d17f4fbfdc16025.webp",
+            "sha256": "850e6bb9c7186a61a97e943ccf83376b56de771da52fea976c68bb2681886c93"
+          }
+        ],
+        "publisherSourceUrl": "https://www.dndbeyond.com/sources/dnd/phb-2024",
+        "artGroup": "bestial-spirit-land",
+        "appearanceEvidence": "The caster chooses a native land animal. The portrait shows a wolf.",
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/players-handbook",
+        "errataEvidence": "The official Player’s Handbook errata lists no change to this feature, spell or stat block.",
+        "ruleComparison": "AC, HP and Rend scale by slot level as printed. The calculator rounds down for Multiattack. The registry carries a Dexterity-derived initiative value. In play the spell uses the caster’s initiative count and its own turn immediately after the caster.",
+        "mechanicsNotes": [
+          "Catalog form of the single printed Bestial Spirit stat block.",
+          "The spell gives the spirit the caster’s initiative count and a turn immediately after the caster."
+        ],
+        "scalableRecord": {
+          "file": "dm-library/bestiary/scalable-encounters.json",
+          "sha256": "63c06041778e53c7194820ab4094f4cd868db9a2e96d7c1c4731d9c9d3e6e0b0",
+          "notes": [
+            "AC, HP and Rend scale by slot level as printed. The calculator rounds down for Multiattack. The registry carries a Dexterity-derived initiative value. In play the spell uses the caster’s initiative count and its own turn immediately after the caster."
+          ]
+        },
+        "portraitReuseSource": "beast-ready-batch-02/parts/b02_10/portraits/wolf.png",
+        "portraitReuseSha256": "aabb9d05cfea3f0070408b27bca9705475414773b058e88008ef333d2da9b135"
+      }
+    },
+    {
+      "owner": "b16_02",
+      "name": "Bestial Spirit (Water)",
+      "kind": "beast",
+      "publication": "Player’s Handbook",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "",
+      "art_group": "bestial-spirit-water",
+      "art_owner": "b16_02",
+      "reuse_source": "playable-species-50-batch-11/parts/eleven_c/portraits/crocodile.png",
+      "reuse_sha256": "59d89f960b0d454186062c1e6ac82c844f886020dc2f3839973390e9b9287be6",
+      "runtime_file": "images/playable-species-50-batch-11/crocodile.png",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "rules_style": "scalable profile",
+      "printed_cr": null,
+      "portrait": {
+        "file": "reused-portraits/bestial-spirit-water.png",
+        "sha256": "59d89f960b0d454186062c1e6ac82c844f886020dc2f3839973390e9b9287be6",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Bestial Spirit (Water)",
+        "edition": "2024 fifth edition",
+        "publication": "Player’s Handbook",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, September 2024, alternate-cover hardcover ISBN 978-0-7869-6982-1.",
+        "isbn": "978-0-7869-6982-1",
+        "section": "Summon Beast and Bestial Spirit",
+        "printedPages": [
+          322,
+          323
+        ],
+        "viewerPages": [
+          323,
+          324
+        ],
+        "sourceUrl": "https://online.anyflip.com/acscv/btgw/mobile/index.html#p=324",
+        "url": "https://online.anyflip.com/acscv/btgw/mobile/index.html#p=324",
+        "pageWitnesses": [
+          {
+            "printedPage": 2,
+            "viewerPage": 3,
+            "sourceUrl": "https://online.anyflip.com/acscv/btgw/files/large/71b7de12aeff356d86ad5e169ea4bf1b.webp",
+            "sha256": "08cd314aa3fa46c76851b6acee7a4edb0d940cdd2c596157ecf78b22b851b4a5"
+          },
+          {
+            "printedPage": 322,
+            "viewerPage": 323,
+            "sourceUrl": "https://online.anyflip.com/acscv/btgw/files/large/4eb6809eadc8f8c98d49d92e1f5a0655.webp",
+            "sha256": "c02fea86114068fa2d132c10294d79dffb700cb226adad9d3faf10eb052266eb"
+          },
+          {
+            "printedPage": 323,
+            "viewerPage": 324,
+            "sourceUrl": "https://online.anyflip.com/acscv/btgw/files/large/d59601f7194d2b018d17f4fbfdc16025.webp",
+            "sha256": "850e6bb9c7186a61a97e943ccf83376b56de771da52fea976c68bb2681886c93"
+          }
+        ],
+        "publisherSourceUrl": "https://www.dndbeyond.com/sources/dnd/phb-2024",
+        "artGroup": "bestial-spirit-water",
+        "appearanceEvidence": "The caster chooses a native water animal. The portrait shows a crocodile.",
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/players-handbook",
+        "errataEvidence": "The official Player’s Handbook errata lists no change to this feature, spell or stat block.",
+        "ruleComparison": "AC, HP and Rend scale by slot level as printed. The calculator rounds down for Multiattack. The registry carries a Dexterity-derived initiative value. In play the spell uses the caster’s initiative count and its own turn immediately after the caster.",
+        "mechanicsNotes": [
+          "Catalog form of the single printed Bestial Spirit stat block.",
+          "The spell gives the spirit the caster’s initiative count and a turn immediately after the caster."
+        ],
+        "scalableRecord": {
+          "file": "dm-library/bestiary/scalable-encounters.json",
+          "sha256": "63c06041778e53c7194820ab4094f4cd868db9a2e96d7c1c4731d9c9d3e6e0b0",
+          "notes": [
+            "AC, HP and Rend scale by slot level as printed. The calculator rounds down for Multiattack. The registry carries a Dexterity-derived initiative value. In play the spell uses the caster’s initiative count and its own turn immediately after the caster."
+          ]
+        },
+        "portraitReuseSource": "playable-species-50-batch-11/parts/eleven_c/portraits/crocodile.png",
+        "portraitReuseSha256": "59d89f960b0d454186062c1e6ac82c844f886020dc2f3839973390e9b9287be6"
+      }
+    },
+    {
+      "owner": "b16_03",
+      "name": "Giant Insect",
+      "kind": "beast",
+      "publication": "Player’s Handbook",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "",
+      "art_group": "giant-insect",
+      "art_owner": "b16_03",
+      "reuse_source": "srd-giant-insects/portraits/giant-insect-draft.png",
+      "reuse_sha256": "e18bf105507255bbc522ad312fc88a62fbbf2241f191902cebe2cd7e7ca98414",
+      "runtime_file": "images/srd-giant-insect-drafts/giant-insect.png",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "rules_style": "scalable profile",
+      "printed_cr": null,
+      "portrait": {
+        "file": "reused-portraits/giant-insect.png",
+        "sha256": "e18bf105507255bbc522ad312fc88a62fbbf2241f191902cebe2cd7e7ca98414",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Insect",
+        "publication": "Player’s Handbook",
+        "edition": "2024 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, September 2024, alternate cover colophon",
+        "isbn": "978-0-7869-6982-1",
+        "printedPages": [
+          279
+        ],
+        "readerSheets": [
+          280
+        ],
+        "sourceUrl": "https://www.dndbeyond.com/spells/2618944-giant-insect",
+        "facsimileUrl": "https://online.anyflip.com/acscv/btgw/mobile/index.html#p=280",
+        "colophonUrl": "https://online.anyflip.com/acscv/btgw/mobile/index.html#p=3",
+        "sourceWitness": "Visually checked the first-print folio and colophon. The corrected spell page on D&D Beyond confirms the remainder of the mechanics and identifies Player’s Handbook p. 279.",
+        "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/players-handbook",
+        "officialErrataPdf": "",
+        "errataEvidence": "The first printing lists 30 HP plus 10 per spell level. Publisher errata limits the increment to levels above 4. The corrected formula is used in the encounter prose.",
+        "scopeEvidence": "Base summon using the book’s three form choices.",
+        "parallelSrd": {
+          "publication": "System Reference Document 5.2.1",
+          "pages": [
+            135,
+            136
+          ],
+          "url": "",
+          "pdfSha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+          "role": "Independently checked the corrected rules. The SRD publication is handled by the existing standalone staged handoff."
+        },
+        "scalableRecipeEvidence": "Matched the existing Player’s Handbook recipe by publication, name, and edition. Printed prose supplies form constraints, shared caster initiative, and the effects of Web Bolt and Venomous Spew where applicable.",
+        "appearanceEvidence": "Editorial comparison of the three forms. The spell summons one chosen creature per casting. Reused portrait at srd-giant-insects/portraits/giant-insect-draft.png.",
+        "habitatEvidence": "The spell specifies a visible, unoccupied manifestation location in range. It gives no natural habitat for the summoned forms."
+      }
+    },
+    {
+      "owner": "b16_03",
+      "name": "Giant Insect (Centipede)",
+      "kind": "beast",
+      "publication": "Player’s Handbook",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "",
+      "art_group": "giant-insect-centipede",
+      "art_owner": "b16_03",
+      "reuse_source": "beast-ready-batch-04/parts/b04_05/portraits/giant-centipede.png",
+      "reuse_sha256": "b57d1dbbcc8f32643b9bc5a88d1fcbe6a64503d2776ebf07daca5b51bd1e5b01",
+      "runtime_file": "images/beast-ready-batch-04/giant-centipede.png",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "rules_style": "scalable profile",
+      "printed_cr": null,
+      "portrait": {
+        "file": "reused-portraits/giant-insect-centipede.png",
+        "sha256": "b57d1dbbcc8f32643b9bc5a88d1fcbe6a64503d2776ebf07daca5b51bd1e5b01",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Insect (Centipede)",
+        "publication": "Player’s Handbook",
+        "edition": "2024 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, September 2024, alternate cover colophon",
+        "isbn": "978-0-7869-6982-1",
+        "printedPages": [
+          279
+        ],
+        "readerSheets": [
+          280
+        ],
+        "sourceUrl": "https://www.dndbeyond.com/spells/2618944-giant-insect",
+        "facsimileUrl": "https://online.anyflip.com/acscv/btgw/mobile/index.html#p=280",
+        "colophonUrl": "https://online.anyflip.com/acscv/btgw/mobile/index.html#p=3",
+        "sourceWitness": "Visually checked the first-print folio and colophon. The corrected spell page on D&D Beyond confirms the remainder of the mechanics and identifies Player’s Handbook p. 279.",
+        "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/players-handbook",
+        "officialErrataPdf": "",
+        "errataEvidence": "The first printing lists 30 HP plus 10 per spell level. Publisher errata limits the increment to levels above 4. The corrected formula is used in the encounter prose.",
+        "scopeEvidence": "The centipede is a selectable form of the shared Giant Insect stat block on p. 279.",
+        "parallelSrd": {
+          "publication": "System Reference Document 5.2.1",
+          "pages": [
+            135,
+            136
+          ],
+          "url": "",
+          "pdfSha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+          "role": "Independently checked the corrected rules. The SRD publication is handled by the existing standalone staged handoff."
+        },
+        "scalableRecipeEvidence": "Matched the existing Player’s Handbook recipe by publication, name, and edition. Printed prose supplies form constraints, shared caster initiative, and the effects of Web Bolt and Venomous Spew where applicable.",
+        "appearanceEvidence": "Editorial portrait of a reddish segmented centipede with long antennae and paired legs. Reused portrait at beast-ready-batch-04/parts/b04_05/portraits/giant-centipede.png.",
+        "habitatEvidence": "The spell specifies a visible, unoccupied manifestation location in range. It gives no natural habitat for the summoned forms."
+      }
+    },
+    {
+      "owner": "b16_03",
+      "name": "Giant Insect (Spider)",
+      "kind": "beast",
+      "publication": "Player’s Handbook",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "",
+      "art_group": "giant-insect-spider",
+      "art_owner": "b16_03",
+      "reuse_source": "srd-giant-insects/portraits/spider-draft.png",
+      "reuse_sha256": "7fd7182ff9c8441f472cfe981a4304e773c3f950348e81d55d231164700f6efd",
+      "runtime_file": "images/srd-giant-insect-drafts/spider.png",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "rules_style": "scalable profile",
+      "printed_cr": null,
+      "portrait": {
+        "file": "reused-portraits/giant-insect-spider.png",
+        "sha256": "7fd7182ff9c8441f472cfe981a4304e773c3f950348e81d55d231164700f6efd",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Insect (Spider)",
+        "publication": "Player’s Handbook",
+        "edition": "2024 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, September 2024, alternate cover colophon",
+        "isbn": "978-0-7869-6982-1",
+        "printedPages": [
+          279
+        ],
+        "readerSheets": [
+          280
+        ],
+        "sourceUrl": "https://www.dndbeyond.com/spells/2618944-giant-insect",
+        "facsimileUrl": "https://online.anyflip.com/acscv/btgw/mobile/index.html#p=280",
+        "colophonUrl": "https://online.anyflip.com/acscv/btgw/mobile/index.html#p=3",
+        "sourceWitness": "Visually checked the first-print folio and colophon. The corrected spell page on D&D Beyond confirms the remainder of the mechanics and identifies Player’s Handbook p. 279.",
+        "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/players-handbook",
+        "officialErrataPdf": "",
+        "errataEvidence": "The first printing lists 30 HP plus 10 per spell level. Publisher errata limits the increment to levels above 4. The corrected formula is used in the encounter prose.",
+        "scopeEvidence": "The spider is a selectable form of the shared Giant Insect stat block on p. 279.",
+        "parallelSrd": {
+          "publication": "System Reference Document 5.2.1",
+          "pages": [
+            135,
+            136
+          ],
+          "url": "",
+          "pdfSha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+          "role": "Independently checked the corrected rules. The SRD publication is handled by the existing standalone staged handoff."
+        },
+        "scalableRecipeEvidence": "Matched the existing Player’s Handbook recipe by publication, name, and edition. Printed prose supplies form constraints, shared caster initiative, and the effects of Web Bolt and Venomous Spew where applicable.",
+        "appearanceEvidence": "Editorial portrait of an eight-legged spider with a rounded reddish-brown abdomen. Reused portrait at srd-giant-insects/portraits/spider-draft.png.",
+        "habitatEvidence": "The spell specifies a visible, unoccupied manifestation location in range. It gives no natural habitat for the summoned forms."
+      }
+    },
+    {
+      "owner": "b16_03",
+      "name": "Giant Insect (Wasp)",
+      "kind": "beast",
+      "publication": "Player’s Handbook",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "",
+      "art_group": "giant-insect-wasp",
+      "art_owner": "b16_03",
+      "reuse_source": "srd-giant-insects/portraits/wasp-draft.png",
+      "reuse_sha256": "c401c2abb5ee459cb96c6de8515e77b29f4d52bfab4afdfc6b87e8224b9c8320",
+      "runtime_file": "images/srd-giant-insect-drafts/wasp.png",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "rules_style": "scalable profile",
+      "printed_cr": null,
+      "portrait": {
+        "file": "reused-portraits/giant-insect-wasp.png",
+        "sha256": "c401c2abb5ee459cb96c6de8515e77b29f4d52bfab4afdfc6b87e8224b9c8320",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Insect (Wasp)",
+        "publication": "Player’s Handbook",
+        "edition": "2024 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, September 2024, alternate cover colophon",
+        "isbn": "978-0-7869-6982-1",
+        "printedPages": [
+          279
+        ],
+        "readerSheets": [
+          280
+        ],
+        "sourceUrl": "https://www.dndbeyond.com/spells/2618944-giant-insect",
+        "facsimileUrl": "https://online.anyflip.com/acscv/btgw/mobile/index.html#p=280",
+        "colophonUrl": "https://online.anyflip.com/acscv/btgw/mobile/index.html#p=3",
+        "sourceWitness": "Visually checked the first-print folio and colophon. The corrected spell page on D&D Beyond confirms the remainder of the mechanics and identifies Player’s Handbook p. 279.",
+        "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/players-handbook",
+        "officialErrataPdf": "",
+        "errataEvidence": "The first printing lists 30 HP plus 10 per spell level. Publisher errata limits the increment to levels above 4. The corrected formula is used in the encounter prose.",
+        "scopeEvidence": "The wasp is a selectable form of the shared Giant Insect stat block on p. 279.",
+        "parallelSrd": {
+          "publication": "System Reference Document 5.2.1",
+          "pages": [
+            135,
+            136
+          ],
+          "url": "",
+          "pdfSha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+          "role": "Independently checked the corrected rules. The SRD publication is handled by the existing standalone staged handoff."
+        },
+        "scalableRecipeEvidence": "Matched the existing Player’s Handbook recipe by publication, name, and edition. Printed prose supplies form constraints, shared caster initiative, and the effects of Web Bolt and Venomous Spew where applicable.",
+        "appearanceEvidence": "Editorial portrait of a flying yellow-and-black wasp with translucent wings. Reused portrait at srd-giant-insects/portraits/wasp-draft.png.",
+        "habitatEvidence": "The spell specifies a visible, unoccupied manifestation location in range. It gives no natural habitat for the summoned forms."
+      }
+    },
+    {
+      "owner": "b16_03",
+      "name": "Mastiff",
+      "kind": "beast",
+      "publication": "DDEX3-14 - Death on the Wall",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/8",
+      "art_group": "mastiff",
+      "art_owner": "b16_03",
+      "reuse_source": "beast-ready-batch-02/parts/b02_06/portraits/mastiff.png",
+      "reuse_sha256": "9a6c2a70aa39b8d341f35ebb2d881a3904c22c4944e7400f959eca50e1a204eb",
+      "runtime_file": "images/beast-ready-batch-02/mastiff.png",
+      "rules_url": "",
+      "credit": "Original portrait generated with OpenAI ImageGen",
+      "rules_style": "stat block",
+      "printed_cr": "1/8",
+      "portrait": {
+        "file": "reused-portraits/mastiff.png",
+        "sha256": "9a6c2a70aa39b8d341f35ebb2d881a3904c22c4944e7400f959eca50e1a204eb",
+        "credit": "Original portrait generated with OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Mastiff",
+        "publication": "DDEX3-14 - Death on the Wall",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "March 1, 2016 release as dated on its cover",
+        "adventureCode": "DDEX3-14",
+        "author": "Greg Marks",
+        "debutDate": "2016-02-05",
+        "releaseDate": "2016-03-01",
+        "printedPages": [
+          23
+        ],
+        "pdfPages": [
+          23
+        ],
+        "encounterPages": [
+          11,
+          12,
+          20
+        ],
+        "sourcePdf": "DDEX3-14 - Death on the ",
+        "sourcePdfPageCount": 31,
+        "sourcePdfSha256": "a93ea569f49cde84a3fca937356db4bf78976832294b6251b59c230dfcc4a7d7",
+        "sourceUrl": "",
+        "sourceWitness": "Visually checked the p. 23 Mastiff stat block and read the local original ’s patrol, kennel, and XP pages. Page labels and page numbers match.",
+        "officialErrata": "",
+        "errataEvidence": "The Adventurers League FAQ’s adventure errata does not list DDEX3-14. The module’s p. 20 combat award agrees with its p. 23 Mastiff block.",
+        "appearanceEvidence": "The original text describes large guard dogs without specifying their markings. The reused fawn mastiff at beast-ready-batch-02/parts/b02_06/portraits/mastiff.png provides the editorial image details.",
+        "habitatEvidence": "Urban is an editorial tag for a domesticated dog at the military encampment around Yûlash’s ruins. The native range is unspecified."
+      }
+    },
+    {
+      "owner": "b16_04",
+      "name": "Winter Wolf",
+      "kind": "beast",
+      "publication": "DDAL04-12 - The Raven",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "3",
+      "art_group": "winter-wolf",
+      "art_owner": "b16_04",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "",
+      "credit": "",
+      "rules_style": "stat block",
+      "printed_cr": "3",
+      "portrait": {
+        "file": "parts/b16_04/portraits/winter-wolf.png",
+        "sha256": "d77ef8deffb11436cb78444442932a8c7657588bfe8a92d7b15782b0a8893543",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "publication": "DDAL04-12 - The Raven",
+        "edition": "2014 fifth edition",
+        "name": "Winter Wolf",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast, D&D Adventurers League",
+        "printedTitle": "The Raven",
+        "printing": "2016 English , version 1.0",
+        "author": "Matt Hudson",
+        "section": "Appendix, Monster/NPC Statistics, Winter Wolf",
+        "printedPages": [
+          22
+        ],
+        "pdfPages": [
+          22
+        ],
+        "supportingPrintedPages": [
+          11,
+          12,
+          16,
+          18
+        ],
+        "sourceUrl": "https://www.scribd.com/document/496189802/DDAL04-12-The-Raven-5e-9367545",
+        "url": "https://www.scribd.com/document/496189802/DDAL04-12-The-Raven-5e-9367545",
+        "officialPreviewUrl": "",
+        "publisherCatalogUrl": "",
+        "localPrintWitness": " - 5th Edition (2014)/Adventures/DDAL04-12 - The ",
+        "localPrintSha256": "69354e059d55c7637cdafc83b8e1c97c8fbb2c8db9e03dee76a49a0f5c4db093",
+        "sourceAccess": "Visually verified p. 22 in the local original, including the Cold Breath continuation in the right column. The publisher preview confirms edition and credits. The linked public transcription corroborates the block.",
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae",
+        "errataEvidence": "No official correction for this standalone adventure block was located.",
+        "operationalEvidence": "The p. 22 appendix establishes Large Beast, cold immunity, all traits and actions, and 3 (700 XP). Page 12 gives tactics, count, pelt check and party-strength adjustments. Page 18 also lists 700 XP.",
+        "sourceDiscrepancies": "The adventure prints Large Beast, while the Monster Manual’s own Winter Wolf is a Monstrosity. The adventure Bite prints 11 (2d6 + 3), Cold Breath prints 18 4d8) without an opening parenthesis and without its Monster Manual recharge. The adventure’s printed values and action label are retained. The encounter calls the area dire wolf territory and its Very Weak line says to remove two Dire Wolves, but No Escape! lists six Winter Wolves.",
+        "appearanceEvidence": "The staged portrait adapts the indexed shaggy wolf to the burning red eyes named on p. 12.",
+        "habitatEvidence": "Editorial tags based on the p. 11–12 terrain and route.",
+        "artGroup": "winter-wolf",
+        "portraitReferenceSha256": "cee1873dc5e6bafd53c33a97f35f5514a71745daaa58e93b57617f03022d940b"
+      }
+    },
+    {
+      "owner": "b16_05",
+      "name": "Deathjump Spider",
+      "kind": "beast",
+      "publication": "Scepter Tower of Spellgard",
+      "edition": "4th edition",
+      "indexed_cr": "Level 4 Skirmisher",
+      "art_group": "deathjump-spider",
+      "art_owner": "b16_05",
+      "reuse_source": "beast-ready-batch-08/reused-portraits/deathjump-spider.webp",
+      "reuse_sha256": "033c73c9e3369952909c5c44a5095dcbcca27255f7ebaa305afb8158bb71c593",
+      "runtime_file": "images/beasts/deathjump-spider/parchment-portrait.webp",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "rules_style": "stat block",
+      "printed_cr": null,
+      "portrait": {
+        "file": "reused-portraits/deathjump-spider.webp",
+        "sha256": "033c73c9e3369952909c5c44a5095dcbcca27255f7ebaa305afb8158bb71c593",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Deathjump Spider",
+        "publication": "Scepter Tower of Spellgard",
+        "edition": "4th edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast, Inc.",
+        "printing": "First printing, September 2008",
+        "copyrightYear": 2008,
+        "designers": [
+          "David Noonan",
+          "Greg A. Vaughan"
+        ],
+        "isbn": "978-0-7869-4954-0",
+        "productCode": "620-21764740-003 EN",
+        "section": "Adventure Book Two, T1, Tower Stores. T12, Battlement. T13, Secure Storerooms. T15, Rooftop Battlement",
+        "printedHeadings": [
+          "3 Deathjump Spiders (S)",
+          "2 Deathjump Spiders (S)",
+          "4 Deathjump Spiders (S)",
+          "Deathjump Spider (S)"
+        ],
+        "printedPages": [
+          41,
+          59,
+          60,
+          63
+        ],
+        "pdfPages": [
+          73,
+          91,
+          92,
+          95
+        ],
+        "encounterContextPages": [
+          40,
+          41,
+          58,
+          59,
+          60,
+          61,
+          63
+        ],
+        "encounterContextPdfPages": [
+          72,
+          73,
+          90,
+          91,
+          92,
+          93,
+          95
+        ],
+        "creditsPdfPage": 3,
+        "pageNumbering": "Adventure Book Two starts on sheet 33. Add 32 to its numbered folios for one-based sheet numbers.",
+        "sourceSha256": "479c64a84ad11f64b44244771841e5e257f6e9a96b4419f813f406f78592c876",
+        "sourceUrl": "",
+        "productUrl": "https://www.dmsguild.com/product/165543/FR1-Scepter-Tower-of-Spellgard-4e",
+        "sourceUrlRole": "The official store preview confirms credits and printing. The rules were visually checked on folios in the full original local .",
+        "officialErrata": "https://media.wizards.com/2014/downloads/dnd/4ECollectedErrataFAQ.zip",
+        "errataUpdatesPdfSha256": "9f379d02b34d69267fd9763b02b004488cc5dab22aba893d28e087d3326231ab",
+        "errataFaqPdfSha256": "eaa8a710f545244c8db913877855c1ca6f64862b838762422ac62b45b39bd42a",
+        "errataEvidence": "No scoped correction was located in the official 4e Updates or Collected FAQ.",
+        "level": 4,
+        "role": "Skirmisher",
+        "xp": 175,
+        "initiative": 8,
+        "defenses": {
+          "AC": 20,
+          "Fortitude": 17,
+          "Reflex": 18,
+          "Will": 16
+        },
+        "bloodied": 27,
+        "printedAbilityModifiers": {
+          "Str": 5,
+          "Dex": 6,
+          "Con": 4,
+          "Int": -3,
+          "Wis": 4,
+          "Cha": 1
+        },
+        "habitatEvidence": "Encounter locations from the adventure.",
+        "artGroup": "deathjump-spider",
+        "appearanceEvidence": "The reused portrait shows the patterned abdomen, eight legs and prominent mouthparts.",
+        "artworkSource": "beast-ready-batch-08/reused-portraits/deathjump-spider.webp",
+        "artworkSha256": "033c73c9e3369952909c5c44a5095dcbcca27255f7ebaa305afb8158bb71c593",
+        "artworkCredit": "OpenAI ImageGen",
+        "portraitReuseSource": "beast-ready-batch-08/reused-portraits/deathjump-spider.webp",
+        "portraitReuseSha256": "033c73c9e3369952909c5c44a5095dcbcca27255f7ebaa305afb8158bb71c593",
+        "sourceNotes": [
+          "Identical Deathjump Spider blocks appear on four Book Two folios. The Book One p. 30 illustration shows the T12 spider. The Book Two p. 41 prose gives its human-sized body, eight eyes and fangs."
+        ],
+        "illustration": {
+          "book": "Adventure Book One",
+          "printedPage": 30,
+          "pdfPage": 31
+        }
+      }
+    },
+    {
+      "owner": "b16_05",
+      "name": "Fire Beetles",
+      "kind": "beast",
+      "publication": "Scepter Tower of Spellgard",
+      "edition": "4th edition",
+      "indexed_cr": "Level 1 Brute",
+      "art_group": "fire-beetles",
+      "art_owner": "b16_05",
+      "reuse_source": "indexed:images/beasts/fire-beetles/parchment-portrait.webp",
+      "reuse_sha256": "69935e2171f2c5a2383cd46f334911bd711eda4dc60cd3f1b16c6f56fc59bccd",
+      "runtime_file": "images/beasts/fire-beetles/parchment-portrait.webp",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "rules_style": "stat block",
+      "printed_cr": null,
+      "portrait": {
+        "file": "reused-portraits/fire-beetles.webp",
+        "sha256": "69935e2171f2c5a2383cd46f334911bd711eda4dc60cd3f1b16c6f56fc59bccd",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Fire Beetles",
+        "publication": "Scepter Tower of Spellgard",
+        "edition": "4th edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast, Inc.",
+        "printing": "First printing, September 2008",
+        "copyrightYear": 2008,
+        "designers": [
+          "David Noonan",
+          "Greg A. Vaughan"
+        ],
+        "isbn": "978-0-7869-4954-0",
+        "productCode": "620-21764740-003 EN",
+        "section": "Adventure Book Two, R2, Lookout",
+        "printedHeadings": [
+          "5 Fire Beetles (B)"
+        ],
+        "printedPages": [
+          7
+        ],
+        "pdfPages": [
+          39
+        ],
+        "encounterContextPages": [
+          7
+        ],
+        "encounterContextPdfPages": [
+          39
+        ],
+        "creditsPdfPage": 3,
+        "pageNumbering": "Adventure Book Two starts on sheet 33. Add 32 to its numbered folios for one-based sheet numbers.",
+        "sourceSha256": "479c64a84ad11f64b44244771841e5e257f6e9a96b4419f813f406f78592c876",
+        "sourceUrl": "",
+        "productUrl": "https://www.dmsguild.com/product/165543/FR1-Scepter-Tower-of-Spellgard-4e",
+        "sourceUrlRole": "The official store preview confirms credits and printing. The rules were visually checked on folios in the full original local .",
+        "officialErrata": "https://media.wizards.com/2014/downloads/dnd/4ECollectedErrataFAQ.zip",
+        "errataUpdatesPdfSha256": "9f379d02b34d69267fd9763b02b004488cc5dab22aba893d28e087d3326231ab",
+        "errataFaqPdfSha256": "eaa8a710f545244c8db913877855c1ca6f64862b838762422ac62b45b39bd42a",
+        "errataEvidence": "No scoped correction was located in the official 4e Updates or Collected FAQ.",
+        "level": 1,
+        "role": "Brute",
+        "xp": 100,
+        "initiative": 1,
+        "defenses": {
+          "AC": 13,
+          "Fortitude": 13,
+          "Reflex": 12,
+          "Will": 11
+        },
+        "bloodied": 16,
+        "printedAbilityModifiers": {
+          "Str": 2,
+          "Dex": 1,
+          "Con": 1,
+          "Int": -5,
+          "Wis": 0,
+          "Cha": -1
+        },
+        "habitatEvidence": "Encounter locations from the adventure.",
+        "artGroup": "fire-beetles",
+        "appearanceEvidence": "The reused group portrait shows five dark orange beetles with ember-like marks. The printed red light is described separately.",
+        "artworkSource": "indexed:images/beasts/fire-beetles/parchment-portrait.webp",
+        "artworkSha256": "69935e2171f2c5a2383cd46f334911bd711eda4dc60cd3f1b16c6f56fc59bccd",
+        "artworkCredit": "OpenAI ImageGen",
+        "portraitReuseSource": "indexed:images/beasts/fire-beetles/parchment-portrait.webp",
+        "portraitReuseSha256": "69935e2171f2c5a2383cd46f334911bd711eda4dc60cd3f1b16c6f56fc59bccd",
+        "sourceNotes": [
+          "The page lists five trained beetles and XP 100 each. The read-aloud describes black and red carapaces with light from the eyes and abdomen. The torchlike light is in the encounter text."
+        ]
+      }
+    },
+    {
+      "owner": "b16_05",
+      "name": "Gray Wolves",
+      "kind": "beast",
+      "publication": "Scepter Tower of Spellgard",
+      "edition": "4th edition",
+      "indexed_cr": "Level 2 Skirmisher",
+      "art_group": "gray-wolves",
+      "art_owner": "b16_05",
+      "reuse_source": "indexed:images/beasts/gray-wolves/parchment-portrait.webp",
+      "reuse_sha256": "665be0ad0fbc644e52f14152ed72b358ca1f8d40480d6a2114e537409474c63c",
+      "runtime_file": "images/beasts/gray-wolves/parchment-portrait.webp",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "rules_style": "stat block",
+      "printed_cr": null,
+      "portrait": {
+        "file": "reused-portraits/gray-wolves.webp",
+        "sha256": "665be0ad0fbc644e52f14152ed72b358ca1f8d40480d6a2114e537409474c63c",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Gray Wolves",
+        "publication": "Scepter Tower of Spellgard",
+        "edition": "4th edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast, Inc.",
+        "printing": "First printing, September 2008",
+        "copyrightYear": 2008,
+        "designers": [
+          "David Noonan",
+          "Greg A. Vaughan"
+        ],
+        "isbn": "978-0-7869-4954-0",
+        "productCode": "620-21764740-003 EN",
+        "section": "Adventure Book Two, R6, Kennel",
+        "printedHeadings": [
+          "5 Gray Wolves (G)"
+        ],
+        "printedPages": [
+          11
+        ],
+        "pdfPages": [
+          43
+        ],
+        "encounterContextPages": [
+          11
+        ],
+        "encounterContextPdfPages": [
+          43
+        ],
+        "creditsPdfPage": 3,
+        "pageNumbering": "Adventure Book Two starts on sheet 33. Add 32 to its numbered folios for one-based sheet numbers.",
+        "sourceSha256": "479c64a84ad11f64b44244771841e5e257f6e9a96b4419f813f406f78592c876",
+        "sourceUrl": "",
+        "productUrl": "https://www.dmsguild.com/product/165543/FR1-Scepter-Tower-of-Spellgard-4e",
+        "sourceUrlRole": "The official store preview confirms credits and printing. The rules were visually checked on folios in the full original local .",
+        "officialErrata": "https://media.wizards.com/2014/downloads/dnd/4ECollectedErrataFAQ.zip",
+        "errataUpdatesPdfSha256": "9f379d02b34d69267fd9763b02b004488cc5dab22aba893d28e087d3326231ab",
+        "errataFaqPdfSha256": "eaa8a710f545244c8db913877855c1ca6f64862b838762422ac62b45b39bd42a",
+        "errataEvidence": "No scoped correction was located in the official 4e Updates or Collected FAQ.",
+        "level": 2,
+        "role": "Skirmisher",
+        "xp": 125,
+        "initiative": 5,
+        "defenses": {
+          "AC": 16,
+          "Fortitude": 14,
+          "Reflex": 14,
+          "Will": 13
+        },
+        "bloodied": 19,
+        "printedAbilityModifiers": {
+          "Str": 2,
+          "Dex": 3,
+          "Con": 3,
+          "Int": -3,
+          "Wis": 2,
+          "Cha": 1
+        },
+        "habitatEvidence": "Encounter locations from the adventure.",
+        "artGroup": "gray-wolves",
+        "appearanceEvidence": "The reused portrait shows three lean gray wolves. The Kennel encounter deploys five and describes their visible ribs and chains. The chains are room equipment.",
+        "artworkSource": "indexed:images/beasts/gray-wolves/parchment-portrait.webp",
+        "artworkSha256": "665be0ad0fbc644e52f14152ed72b358ca1f8d40480d6a2114e537409474c63c",
+        "artworkCredit": "OpenAI ImageGen",
+        "portraitReuseSource": "indexed:images/beasts/gray-wolves/parchment-portrait.webp",
+        "portraitReuseSha256": "665be0ad0fbc644e52f14152ed72b358ca1f8d40480d6a2114e537409474c63c",
+        "sourceNotes": [
+          "The Kennel prints five gray wolves at 125 XP each. Book One p. 11 also places four wolves in a caravan encounter and points to a different Book Two page. The actual gray-wolf stat block is Book Two p. 11."
+        ]
+      }
+    },
+    {
+      "owner": "b16_05",
+      "name": "Spitting Drake",
+      "kind": "beast",
+      "publication": "Scepter Tower of Spellgard",
+      "edition": "4th edition",
+      "indexed_cr": "Level 3 Artillery",
+      "art_group": "spitting-drake",
+      "art_owner": "b16_05",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "",
+      "credit": "",
+      "rules_style": "stat block",
+      "printed_cr": null,
+      "portrait": {
+        "file": "parts/b16_05/portraits/spitting-drake.png",
+        "sha256": "9ce1393db9b988c23426a919f6ecadec3e85dbf5706428e9547a691daf8e2860",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Spitting Drake",
+        "publication": "Scepter Tower of Spellgard",
+        "edition": "4th edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast, Inc.",
+        "printing": "First printing, September 2008",
+        "copyrightYear": 2008,
+        "designers": [
+          "David Noonan",
+          "Greg A. Vaughan"
+        ],
+        "isbn": "978-0-7869-4954-0",
+        "productCode": "620-21764740-003 EN",
+        "section": "Adventure Book Two, R4, Bunkroom",
+        "printedHeadings": [
+          "2 Spitting Drakes (S)"
+        ],
+        "printedPages": [
+          8
+        ],
+        "pdfPages": [
+          40
+        ],
+        "encounterContextPages": [
+          8,
+          9
+        ],
+        "encounterContextPdfPages": [
+          40,
+          41
+        ],
+        "creditsPdfPage": 3,
+        "pageNumbering": "Adventure Book Two starts on sheet 33. Add 32 to its numbered folios for one-based sheet numbers.",
+        "sourceSha256": "479c64a84ad11f64b44244771841e5e257f6e9a96b4419f813f406f78592c876",
+        "sourceUrl": "",
+        "productUrl": "https://www.dmsguild.com/product/165543/FR1-Scepter-Tower-of-Spellgard-4e",
+        "sourceUrlRole": "The official store preview confirms credits and printing. The rules were visually checked on folios in the full original local .",
+        "officialErrata": "https://media.wizards.com/2014/downloads/dnd/4ECollectedErrataFAQ.zip",
+        "errataUpdatesPdfSha256": "9f379d02b34d69267fd9763b02b004488cc5dab22aba893d28e087d3326231ab",
+        "errataFaqPdfSha256": "eaa8a710f545244c8db913877855c1ca6f64862b838762422ac62b45b39bd42a",
+        "errataEvidence": "No scoped correction was located in the official 4e Updates or Collected FAQ.",
+        "level": 3,
+        "role": "Artillery",
+        "xp": 150,
+        "initiative": 5,
+        "defenses": {
+          "AC": 17,
+          "Fortitude": 14,
+          "Reflex": 16,
+          "Will": 14
+        },
+        "bloodied": 19,
+        "printedAbilityModifiers": {
+          "Str": 3,
+          "Dex": 5,
+          "Con": 3,
+          "Int": -3,
+          "Wis": 3,
+          "Cha": 2
+        },
+        "habitatEvidence": "Encounter locations from the adventure.",
+        "artGroup": "spitting-drake",
+        "appearanceEvidence": "Original bronze drake portrait based on the Book Two p. 8 description.",
+        "artworkSource": "portraits/spitting-drake.png",
+        "artworkSha256": "9ce1393db9b988c23426a919f6ecadec3e85dbf5706428e9547a691daf8e2860",
+        "artworkCredit": "OpenAI ImageGen",
+        "sourceNotes": [
+          "The p. 8 read-aloud describes bronze, dragonlike creatures the size of lions. The stat block lists two drakes at 150 XP each."
+        ]
+      }
+    },
+    {
+      "owner": "b16_06",
+      "name": "Dire Bear",
+      "kind": "beast",
+      "publication": "King of the Trollhaunt Warrens",
+      "edition": "4th edition",
+      "indexed_cr": "Level 11 Elite Brute",
+      "art_group": "dire-bear",
+      "art_owner": "b16_06",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "",
+      "credit": "",
+      "rules_style": "stat block",
+      "printed_cr": null,
+      "portrait": {
+        "file": "parts/b16_06/portraits/dire-bear.png",
+        "sha256": "a2923e488874b6d31babed448320cb03ec551657c25e7620f02dc496698d7707",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Dire Bear",
+        "publication": "King of the Trollhaunt Warrens",
+        "edition": "4th edition",
+        "kind": "beast",
+        "printing": "First printing, October 2008",
+        "publisher": "Wizards of the Coast",
+        "isbn": "978-0-7869-4928-1",
+        "printedHeading": "Dire Bear (B)",
+        "book": "Adventure Book Two",
+        "section": "Encounter W4, Mound of Skulls",
+        "printedPages": [
+          16,
+          17
+        ],
+        "statBlockPage": 17,
+        "pdfPage": 50,
+        "viewerPages": [
+          49,
+          50
+        ],
+        "matchingPageNumbering": "In the combined , add 33 to Adventure Book Two folios. Add 1 to Book One folios.",
+        "sourceWitness": " - 4th Edition/Adventures/P1 - King of the Trollhaunt ",
+        "sourceSha256": "6b8a6f4ededbccd2ca9ad00b37bb48a8c4fb0ac6a94b179da1b2ef2c02f3310b",
+        "sourceUrl": "",
+        "creditsViewerPage": 3,
+        "officialErrataIndex": "https://dnd-support.wizards.com/hc/en-us/articles/360000962623-Dungeons-Dragons-3rd-3-5-and-4th-Edition-Rules-Questions",
+        "officialErrataArchive": "https://media.wizards.com/2014/downloads/dnd/4ECollectedErrataFAQ.zip",
+        "officialErrataPdfSha256": "9f379d02b34d69267fd9763b02b004488cc5dab22aba893d28e087d3326231ab",
+        "errataEvidence": "The August 2012 collected update for this adventure on p. 116 changes only the Eladrin Ring of Passage rarity.",
+        "level": 11,
+        "role": "Elite Brute",
+        "xp": 1200,
+        "encounterCount": 1,
+        "printedInitiative": 8,
+        "printedBloodied": 138,
+        "defenses": {
+          "AC": 25,
+          "Fortitude": 25,
+          "Reflex": 22,
+          "Will": 23
+        },
+        "powersRecharge": "All three powers are at-will.",
+        "habitatEvidence": "Encounter W4 takes place in the Mound of Skulls cavern at Great Warren Location 4.",
+        "appearanceEvidence": "Book One p. 27 depicts a massive brown bear with pale thornlike projections on its shoulders. Book Two p. 16 describes its size and massive jaws. The portrait uses a new pose.",
+        "appearancePrintedBook": "Adventure Book One",
+        "appearancePrintedPage": 27,
+        "appearanceViewerPage": 28,
+        "artworkSource": "beast-ready-batch-16/parts/b16_06/portraits/dire-bear.png",
+        "artworkSha256": "a2923e488874b6d31babed448320cb03ec551657c25e7620f02dc496698d7707",
+        "styleReference": "drakkenheim-beasts/portraits/big-linda-draft.png",
+        "styleReferenceSha256": "e103c5b32438eaa346d699b0317dcdaa31c3764f5637513bb6909e490aa046da",
+        "sourceNotes": [
+          "The elite block grants +2 to saving throws and 1 action point. Maul’s secondary attack targets AC. Ursine Crush requires a grabbed creature."
+        ]
+      }
+    },
+    {
+      "owner": "b16_06",
+      "name": "Redspawn Firebelcher",
+      "kind": "beast",
+      "publication": "King of the Trollhaunt Warrens",
+      "edition": "4th edition",
+      "indexed_cr": "Level 12 Artillery",
+      "art_group": "redspawn-firebelcher",
+      "art_owner": "b16_06",
+      "reuse_source": "indexed:images/beasts/redspawn-firebelcher/parchment-portrait.webp",
+      "reuse_sha256": "a9ecfc55941a4b3840f7bf2f213123c504c33a542c0a914d8b0cad1585a35f1d",
+      "runtime_file": "images/beasts/redspawn-firebelcher/parchment-portrait.webp",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "rules_style": "stat block",
+      "printed_cr": null,
+      "portrait": {
+        "file": "reused-portraits/redspawn-firebelcher.webp",
+        "sha256": "a9ecfc55941a4b3840f7bf2f213123c504c33a542c0a914d8b0cad1585a35f1d",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Redspawn Firebelcher",
+        "publication": "King of the Trollhaunt Warrens",
+        "edition": "4th edition",
+        "kind": "beast",
+        "printing": "First printing, October 2008",
+        "publisher": "Wizards of the Coast",
+        "isbn": "978-0-7869-4928-1",
+        "printedHeading": "Redspawn Firebelcher (R)",
+        "book": "Adventure Book Two",
+        "section": "Encounter W7, The Foundry",
+        "printedPages": [
+          24,
+          25
+        ],
+        "statBlockPage": 25,
+        "pdfPage": 58,
+        "viewerPages": [
+          57,
+          58
+        ],
+        "matchingPageNumbering": "In the combined , add 33 to Adventure Book Two folios. Add 1 to Book One folios.",
+        "sourceWitness": " - 4th Edition/Adventures/P1 - King of the Trollhaunt ",
+        "sourceSha256": "6b8a6f4ededbccd2ca9ad00b37bb48a8c4fb0ac6a94b179da1b2ef2c02f3310b",
+        "sourceUrl": "",
+        "creditsViewerPage": 3,
+        "officialErrataIndex": "https://dnd-support.wizards.com/hc/en-us/articles/360000962623-Dungeons-Dragons-3rd-3-5-and-4th-Edition-Rules-Questions",
+        "officialErrataArchive": "https://media.wizards.com/2014/downloads/dnd/4ECollectedErrataFAQ.zip",
+        "officialErrataPdfSha256": "9f379d02b34d69267fd9763b02b004488cc5dab22aba893d28e087d3326231ab",
+        "errataEvidence": "The August 2012 collected update for this adventure on p. 116 changes only the Eladrin Ring of Passage rarity.",
+        "level": 12,
+        "role": "Artillery",
+        "xp": 700,
+        "encounterCount": 1,
+        "printedInitiative": 7,
+        "printedBloodied": 48,
+        "defenses": {
+          "AC": 25,
+          "Fortitude": 25,
+          "Reflex": 22,
+          "Will": 21
+        },
+        "powersRecharge": "Fire Burst recharges on 5–6. Bite and Fire Belch are at-will.",
+        "habitatEvidence": "P. 24 places the firebelcher below the escarpment of the foundry at Great Warren Location 15.",
+        "appearanceEvidence": "The encounter identifies the creature as a dragonspawn and its stat block gives the reptile subtype. The approved portrait supplies the wingless, red-scaled appearance.",
+        "artworkSource": "indexed:images/beasts/redspawn-firebelcher/parchment-portrait.webp",
+        "artworkSha256": "a9ecfc55941a4b3840f7bf2f213123c504c33a542c0a914d8b0cad1585a35f1d",
+        "sourceNotes": [
+          "Fire Within protects allies in aura 5. The firebelcher’s own resistance is 20 fire. Each listed attack has the Fire keyword, and the text explicitly assigns fire to the ongoing damage."
+        ]
+      }
+    },
+    {
+      "owner": "b16_06",
+      "name": "Wyverns",
+      "kind": "beast",
+      "publication": "King of the Trollhaunt Warrens",
+      "edition": "4th edition",
+      "indexed_cr": "Level 10 Skirmisher",
+      "art_group": "wyverns",
+      "art_owner": "b16_06",
+      "reuse_source": "indexed:images/beasts/wyverns/parchment-portrait.webp",
+      "reuse_sha256": "84dea5d07f564fa43767526ba1560c29a76d56171d44f41fc6f5051e58c8e8bf",
+      "runtime_file": "images/beasts/wyverns/parchment-portrait.webp",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "rules_style": "stat block",
+      "printed_cr": null,
+      "portrait": {
+        "file": "reused-portraits/wyverns.webp",
+        "sha256": "84dea5d07f564fa43767526ba1560c29a76d56171d44f41fc6f5051e58c8e8bf",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Wyverns",
+        "publication": "King of the Trollhaunt Warrens",
+        "edition": "4th edition",
+        "kind": "beast",
+        "printing": "First printing, October 2008",
+        "publisher": "Wizards of the Coast",
+        "isbn": "978-0-7869-4928-1",
+        "printedHeading": "3 Wyverns (W)",
+        "book": "Adventure Book Two",
+        "section": "Encounter R3, Airborne Assault",
+        "printedPages": [
+          42,
+          43
+        ],
+        "statBlockPage": 42,
+        "pdfPage": 75,
+        "viewerPages": [
+          75,
+          76
+        ],
+        "matchingPageNumbering": "In the combined , add 33 to Adventure Book Two folios. Add 1 to Book One folios.",
+        "sourceWitness": " - 4th Edition/Adventures/P1 - King of the Trollhaunt ",
+        "sourceSha256": "6b8a6f4ededbccd2ca9ad00b37bb48a8c4fb0ac6a94b179da1b2ef2c02f3310b",
+        "sourceUrl": "",
+        "creditsViewerPage": 3,
+        "officialErrataIndex": "https://dnd-support.wizards.com/hc/en-us/articles/360000962623-Dungeons-Dragons-3rd-3-5-and-4th-Edition-Rules-Questions",
+        "officialErrataArchive": "https://media.wizards.com/2014/downloads/dnd/4ECollectedErrataFAQ.zip",
+        "officialErrataPdfSha256": "9f379d02b34d69267fd9763b02b004488cc5dab22aba893d28e087d3326231ab",
+        "errataEvidence": "The August 2012 collected update for this adventure on p. 116 changes only the Eladrin Ring of Passage rarity.",
+        "level": 10,
+        "role": "Skirmisher",
+        "xp": 500,
+        "encounterCount": 3,
+        "printedInitiative": 10,
+        "printedBloodied": 53,
+        "defenses": {
+          "AC": 24,
+          "Fortitude": 24,
+          "Reflex": 20,
+          "Will": 19
+        },
+        "powersRecharge": "The five powers are at-will. Claws requires flight, and Aerial Agility requires flight and a rider of level 10 or higher.",
+        "habitatEvidence": "P. 42 places the aerial assault over Moonstair’s Old Troll Wall.",
+        "appearanceEvidence": "P. 42 describes three dragonlike beasts with tail stingers. The Book One p. 30 illustration depicts the winged, two-legged forms. The reused portrait shows two brown poses on one plate. The printed illustration uses an olive-green body and reddish wing membranes.",
+        "appearancePrintedBook": "Adventure Book One",
+        "appearancePrintedPage": 30,
+        "appearanceViewerPage": 31,
+        "artworkSource": "indexed:images/beasts/wyverns/parchment-portrait.webp",
+        "artworkSha256": "84dea5d07f564fa43767526ba1560c29a76d56171d44f41fc6f5051e58c8e8bf",
+        "sourceNotes": [
+          "The heading counts three creatures and awards 500 XP per wyvern. Each creature uses the same block. Claws and Bite both carry the melee-basic icon."
+        ]
+      }
+    },
+    {
+      "owner": "b16_07",
+      "name": "Female Steeder",
+      "kind": "beast",
+      "publication": "Out of the Abyss - D&D Encounters",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1",
+      "art_group": "female-steeder",
+      "art_owner": "b16_07",
+      "reuse_source": "beast-ready-batch-13/parts/b13_10/portraits/female-steeder.png",
+      "reuse_sha256": "b11c39c63ec3f19c38c7ba3467c5a5a397272abcd27a936bf3ae10fe24081e23",
+      "runtime_file": "images/beast-ready-batch-13/female-steeder.png",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "rules_style": "stat block",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "reused-portraits/female-steeder.png",
+        "sha256": "b11c39c63ec3f19c38c7ba3467c5a5a397272abcd27a936bf3ae10fe24081e23",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Female Steeder",
+        "publication": "Out of the Abyss - D&D Encounters",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "sourceFile": " - 5th Edition (2014)/Adventures/Out of the Abyss - D&D ",
+        "sourceSha256": "2e2d1a6b82eb1c74b2ca8e54a87c4762860cd5c0cd8e5e50cb96e175bbb74239",
+        "copyrightYear": 2015,
+        "printing": "2015 introductory D&D Encounters edition",
+        "sourceUrl": "https://wpn.wizards.com/en/products/out-of-the-abyss",
+        "url": "https://wpn.wizards.com/en/products/out-of-the-abyss",
+        "section": "Appendix C: Creatures",
+        "sourceHeading": "Female Steeder",
+        "printedPages": [
+          62
+        ],
+        "pdfPages": [
+          62
+        ],
+        "encounterPrintedPages": [
+          62
+        ],
+        "sourceRole": "The local original adventure is the rules and encounter source. The public link identifies the publisher’s edition or errata.",
+        "sourceDistinctions": [
+          "The Encounters block explicitly gives a 90-ft. maximum and a 30-ft. minimum speed for Leap. The Maerimydra block has its own wording."
+        ],
+        "appearanceEvidence": "The Encounters edition describes female steeders as large Underdark tarantulas trained as mounts. The portrait depicts that form.",
+        "habitatEvidence": "Appendix C p. 62 describes Underdark steeders trained by duergar.",
+        "artGroup": "female-steeder",
+        "artOwner": "b16_07",
+        "artworkSource": "beast-ready-batch-13/parts/b13_10/portraits/female-steeder.png",
+        "artworkRuntimeFile": "images/beast-ready-batch-13/female-steeder.png",
+        "reuseSha256": "b11c39c63ec3f19c38c7ba3467c5a5a397272abcd27a936bf3ae10fe24081e23"
+      }
+    },
+    {
+      "owner": "b16_07",
+      "name": "Male Steeder",
+      "kind": "beast",
+      "publication": "Out of the Abyss - D&D Encounters",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "male-steeder",
+      "art_owner": "b16_07",
+      "reuse_source": "beast-ready-batch-13/parts/b13_11/portraits/male-steeder.png",
+      "reuse_sha256": "6748921dc42237002428aa5006da263caa0eb9ecf20a4b11a25c2d83fe0f600a",
+      "runtime_file": "images/beast-ready-batch-13/male-steeder.png",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "rules_style": "stat block",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "reused-portraits/male-steeder.png",
+        "sha256": "6748921dc42237002428aa5006da263caa0eb9ecf20a4b11a25c2d83fe0f600a",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Male Steeder",
+        "publication": "Out of the Abyss - D&D Encounters",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "sourceFile": " - 5th Edition (2014)/Adventures/Out of the Abyss - D&D ",
+        "sourceSha256": "2e2d1a6b82eb1c74b2ca8e54a87c4762860cd5c0cd8e5e50cb96e175bbb74239",
+        "copyrightYear": 2015,
+        "printing": "2015 introductory D&D Encounters edition",
+        "sourceUrl": "https://wpn.wizards.com/en/products/out-of-the-abyss",
+        "url": "https://wpn.wizards.com/en/products/out-of-the-abyss",
+        "section": "Appendix C: Creatures",
+        "sourceHeading": "Male Steeder",
+        "printedPages": [
+          62,
+          63
+        ],
+        "pdfPages": [
+          62,
+          63
+        ],
+        "encounterPrintedPages": [
+          62
+        ],
+        "sourceRole": "The local original adventure is the rules and encounter source. The public link identifies the publisher’s edition or errata.",
+        "sourceDistinctions": [
+          "The actions continue on p. 63. The printed Bite line gives average 7 and roll 1d8 + 2. Both printed figures are preserved."
+        ],
+        "appearanceEvidence": "Appendix C p. 62 describes males as Underdark tarantulas as big as ponies.",
+        "habitatEvidence": "Appendix C p. 62 describes Underdark steeders trained by duergar.",
+        "artGroup": "male-steeder",
+        "artOwner": "b16_07",
+        "artworkSource": "beast-ready-batch-13/parts/b13_11/portraits/male-steeder.png",
+        "artworkRuntimeFile": "images/beast-ready-batch-13/male-steeder.png",
+        "reuseSha256": "6748921dc42237002428aa5006da263caa0eb9ecf20a4b11a25c2d83fe0f600a"
+      }
+    },
+    {
+      "owner": "b16_07",
+      "name": "Female Steeder",
+      "kind": "beast",
+      "publication": "DDEX3-16 - Assault on Maerimydra",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1",
+      "art_group": "female-steeder",
+      "art_owner": "b16_07",
+      "reuse_source": "beast-ready-batch-13/parts/b13_10/portraits/female-steeder.png",
+      "reuse_sha256": "b11c39c63ec3f19c38c7ba3467c5a5a397272abcd27a936bf3ae10fe24081e23",
+      "runtime_file": "images/beast-ready-batch-13/female-steeder.png",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "rules_style": "stat block",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "reused-portraits/female-steeder.png",
+        "sha256": "b11c39c63ec3f19c38c7ba3467c5a5a397272abcd27a936bf3ae10fe24081e23",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Female Steeder",
+        "publication": "DDEX3-16 - Assault on Maerimydra",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "sourceFile": " - 5th Edition (2014)/Adventures/DDEX3-16 - Assault on ",
+        "sourceSha256": "a5b3b7bbae1a03e19022a6172eb5cbe9b70689c0d06462c1f6d74f6a49149708",
+        "copyrightYear": 2016,
+        "printing": "March 1, 2016 release",
+        "sourceUrl": "",
+        "url": "",
+        "section": "Monster/NPC Statistics appendix",
+        "sourceHeading": "Female Steeder",
+        "printedPages": [
+          54
+        ],
+        "pdfPages": [
+          54
+        ],
+        "encounterPrintedPages": [
+          23,
+          28
+        ],
+        "sourceRole": "The local original adventure is the rules and encounter source. The public link identifies the publisher’s edition or errata.",
+        "sourceDistinctions": [
+          "Page 54 gives a 120-ft. Leap and gives no minimum speed."
+        ],
+        "appearanceEvidence": "The Encounters edition describes female steeders as large Underdark tarantulas trained as mounts. The portrait depicts that form.",
+        "habitatEvidence": "The adventure places female steeders at the Maerimydra assault and provides two available mounts on p. 28.",
+        "artGroup": "female-steeder",
+        "artOwner": "b16_07",
+        "artworkSource": "beast-ready-batch-13/parts/b13_10/portraits/female-steeder.png",
+        "artworkRuntimeFile": "images/beast-ready-batch-13/female-steeder.png",
+        "reuseSha256": "b11c39c63ec3f19c38c7ba3467c5a5a397272abcd27a936bf3ae10fe24081e23"
+      }
+    },
+    {
+      "owner": "b16_07",
+      "name": "Spider King",
+      "kind": "beast",
+      "publication": "Out of the Abyss",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1",
+      "art_group": "spider-king",
+      "art_owner": "b16_07",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "",
+      "credit": "",
+      "rules_style": "stat block",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "parts/b16_07/portraits/spider-king.png",
+        "sha256": "648b76539a7e398f4c5d99cea78d25be03d5ad4fe3668b7675a4a72a05bd0817",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Spider King",
+        "publication": "Out of the Abyss",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "sourceFile": " - 5th Edition (2014)/Adventures/Out of the ",
+        "sourceSha256": "1c25226f893f9e71e4504df165dbfbd33f2665855054407726418db7911af0ae",
+        "copyrightYear": 2015,
+        "printing": "2015 hardcover edition",
+        "sourceUrl": "https://www.dndbeyond.com/sources/dnd/oota",
+        "url": "https://www.dndbeyond.com/sources/dnd/oota",
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/out-of-the-abyss",
+        "section": "Chapter 4: Gracklstugh",
+        "sourceHeading": "6. Dire Den",
+        "printedPages": [
+          74
+        ],
+        "pdfPages": [
+          75
+        ],
+        "encounterPrintedPages": [
+          74
+        ],
+        "sourceRole": "The local original adventure is the rules and encounter source. The public link identifies the publisher’s edition or errata.",
+        "sourceDistinctions": [
+          "The adventure sets fixed HP to 44 and changes Perception, passive Perception and two saves. It adds the two-head advantages and protection from surprise by intruders in its domain. The base giant spider block has 26 (4d10 + 4) HP. The publisher adventure errata list no change to the Spider King."
+        ],
+        "inheritedStatBlock": {
+          "name": "Giant Spider",
+          "publication": "Monster Manual (2014)",
+          "printedPages": [
+            328
+          ],
+          "pdfPages": [
+            329
+          ],
+          "sourceFile": " - 5th Edition (2014)/Rules/Monster ",
+          "sourceSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+          "relatedErrataUrl": ""
+        },
+        "appearanceEvidence": "Page 74 explicitly describes the two heads and vaguely humanoid shape. Chitin and coloration are editorial portrait details.",
+        "habitatEvidence": "The Dire Den encounter is in the Whorlstone Tunnels on p. 74.",
+        "artGroup": "spider-king",
+        "artOwner": "b16_07",
+        "artworkSource": "portraits/spider-king.png",
+        "artworkSha256": "648b76539a7e398f4c5d99cea78d25be03d5ad4fe3668b7675a4a72a05bd0817"
+      }
+    },
+    {
+      "owner": "b16_07",
+      "name": "Young Bulette",
+      "kind": "beast",
+      "publication": "Princes of the Apocalypse",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "2",
+      "art_group": "young-bulette",
+      "art_owner": "b16_07",
+      "reuse_source": "beast-ready-batch-15/parts/b15_01/portraits/young-bulette.png",
+      "reuse_sha256": "3211a9b3d2b38c82a079f553636dfdb551e0dbf66e0729341948d17f569726b6",
+      "runtime_file": "images/beast-ready-batch-15/young-bulette.png",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "rules_style": "stat block",
+      "printed_cr": "2",
+      "portrait": {
+        "file": "reused-portraits/young-bulette.png",
+        "sha256": "3211a9b3d2b38c82a079f553636dfdb551e0dbf66e0729341948d17f569726b6",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Young Bulette",
+        "publication": "Princes of the Apocalypse",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "sourceFile": " - 5th Edition (2014)/Adventures/Princes of the ",
+        "sourceSha256": "34d53a2a8807d06ad02c72499a863ba1299ad6fa599fa730c1552387c5075d30",
+        "copyrightYear": 2015,
+        "printing": "2015 hardcover edition",
+        "sourceUrl": "https://www.dndbeyond.com/sources/dnd/pota",
+        "url": "https://www.dndbeyond.com/sources/dnd/pota",
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/princes-of-the-apocalypse",
+        "section": "Chapter 5: Temple of the Elder Elemental Eye",
+        "sourceHeading": "G13. Bulette Kennels",
+        "printedPages": [
+          139
+        ],
+        "pdfPages": [
+          140
+        ],
+        "encounterPrintedPages": [
+          139
+        ],
+        "sourceRole": "The local original adventure is the rules and encounter source. The public link identifies the publisher’s edition or errata.",
+        "sourceDistinctions": [
+          "The publisher adventure errata list no change to the Bulette Kennels.",
+          "Area G13 calls for the Rhinoceros statistics with Bite in place of Gore. The Beast type comes from that proxy. The adventure supplies no separate damage type, so Bite retains the proxy’s bludgeoning damage."
+        ],
+        "inheritedStatBlock": {
+          "name": "Rhinoceros",
+          "publication": "Monster Manual (2014)",
+          "printedPages": [
+            336
+          ],
+          "pdfPages": [
+            337
+          ],
+          "sourceFile": " - 5th Edition (2014)/Rules/Monster ",
+          "sourceSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+          "relatedErrataUrl": ""
+        },
+        "appearanceEvidence": "Area G13 identifies the juvenile bulettes. Armored anatomy is an editorial depiction of the juvenile from its reused portrait.",
+        "habitatEvidence": "The three young bulettes are in the northern pens of area G13 on p. 139.",
+        "artGroup": "young-bulette",
+        "artOwner": "b16_07",
+        "artworkSource": "beast-ready-batch-15/parts/b15_01/portraits/young-bulette.png",
+        "artworkRuntimeFile": "images/beast-ready-batch-15/young-bulette.png",
+        "reuseSha256": "3211a9b3d2b38c82a079f553636dfdb551e0dbf66e0729341948d17f569726b6"
+      }
+    },
+    {
+      "owner": "b16_07",
+      "name": "Golden Stag",
+      "kind": "beast",
+      "publication": "Hoard of the Dragon Queen",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "golden-stag",
+      "art_owner": "b16_07",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "",
+      "credit": "",
+      "rules_style": "stat block",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "parts/b16_07/portraits/golden-stag.png",
+        "sha256": "f08a64bca203c144a7011ce9cea5341d00d832ab4d38707fc99bd6808ff0157c",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Golden Stag",
+        "publication": "Hoard of the Dragon Queen",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "sourceFile": " - 5th Edition (2014)/Adventures/Hoard of the Dragon ",
+        "sourceSha256": "84ef3b5f4fb48b6a0f969d1d060fb9b73167c29e36155ac5d4cd461fdd707b55",
+        "copyrightYear": 2014,
+        "printing": "2014 hardcover edition",
+        "sourceUrl": "https://www.dndbeyond.com/sources/dnd/hotdq",
+        "url": "https://www.dndbeyond.com/sources/dnd/hotdq",
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/hoard-of-the-dragon-queen",
+        "section": "Episode 4: On the Road",
+        "sourceHeading": "The Golden Stag",
+        "printedPages": [
+          35
+        ],
+        "pdfPages": [
+          36
+        ],
+        "encounterPrintedPages": [
+          35
+        ],
+        "sourceRole": "The local original adventure is the rules and encounter source. The public link identifies the publisher’s edition or errata.",
+        "sourceDistinctions": [
+          "The local adventure text already uses The Golden Stag as the heading. The road-event table retains The Golden Hind.",
+          "The p. 35 encounter directs the DM to use Elk statistics. The publisher errata changes the older table label The Golden Hind to The Golden Stag. The Elk supplement gives no separate damage type for the additional Charge dice."
+        ],
+        "inheritedStatBlock": {
+          "name": "Elk",
+          "publication": "Hoard of the Dragon Queen Online Supplement",
+          "printing": "Version 1, August 8, 2014",
+          "printedPages": [
+            8
+          ],
+          "pdfPages": [
+            8
+          ],
+          "sourceFile": " - 5th Edition (2014)/Reference/Hoard of the Dragon Queen - Online ",
+          "sourceSha256": "894d25529fef979335b2848d77973761ee19d8fc16d1b96f37ce6585f8c3e0b7",
+          "publicReference": "",
+          "publicReferenceRole": "Wizards v0.3 reprints the same Elk rules on p. 7."
+        },
+        "appearanceEvidence": "The gold coat and platinum-looking antlers are explicitly described on p. 35.",
+        "habitatEvidence": "The p. 35 encounter begins with a deer herd on a hill and leads through woods to a moss-grown ruin.",
+        "artGroup": "golden-stag",
+        "artOwner": "b16_07",
+        "artworkSource": "portraits/golden-stag.png",
+        "artworkSha256": "f08a64bca203c144a7011ce9cea5341d00d832ab4d38707fc99bd6808ff0157c"
+      }
+    },
+    {
+      "owner": "b16_08",
+      "name": "Giant Fly",
+      "kind": "beast",
+      "publication": "Dungeon Master's Guide (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "",
+      "art_group": "giant-fly",
+      "art_owner": "b16_08",
+      "reuse_source": "black-flag-ebony-fly/portraits/giant-fly-draft.png",
+      "reuse_sha256": "e6653abc2af1443c5cc4dda410957bd4e2a5ce8242ee6b5af56084919706255c",
+      "runtime_file": "images/black-flag-ebony-fly/giant-fly.png",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "rules_style": "stat block",
+      "printed_cr": "Not listed",
+      "portrait": {
+        "file": "reused-portraits/giant-fly.png",
+        "sha256": "e6653abc2af1443c5cc4dda410957bd4e2a5ce8242ee6b5af56084919706255c",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Fly",
+        "publication": "Dungeon Master's Guide (2014)",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "section": "Chapter 7, Figurine of Wondrous Power",
+        "pdfPages": [
+          169
+        ],
+        "sourceSha256": "fb470671dc5def35bf09897c11d4971161c70b3c5558cd792dc164cef2668f44",
+        "sourceMethod": "Visually inspected the original folio in the local facsimile. The publisher item link is a reference.",
+        "errataUrl": "",
+        "errataEvidence": "The official 2021 DMG errata has no entry for Ebony Fly.",
+        "appearanceEvidence": "The Ebony Fly item describes a horsefly statuette. The reused portrait supplies coloration and visible detail.",
+        "habitatEvidence": "The magic item text describes the realized mount without specifying a habitat.",
+        "printedPages": [
+          169
+        ],
+        "url": "https://www.dndbeyond.com/magic-items/4831-figurine-of-wondrous-power-ebony-fly",
+        "rulesUrl": "https://www.dndbeyond.com/magic-items/4831-figurine-of-wondrous-power-ebony-fly",
+        "artGroup": "giant-fly",
+        "portraitSha256": "e6653abc2af1443c5cc4dda410957bd4e2a5ce8242ee6b5af56084919706255c",
+        "sourceDistinctions": [
+          "The printed Giant Fly box ends with Languages and gives no CR, XP, or attack."
+        ]
+      }
+    },
+    {
+      "owner": "b16_08",
+      "name": "Giant Fly",
+      "kind": "beast",
+      "publication": "Dungeon Master's Guide (2024)",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "0",
+      "art_group": "giant-fly",
+      "art_owner": "b16_08",
+      "reuse_source": "black-flag-ebony-fly/portraits/giant-fly-draft.png",
+      "reuse_sha256": "e6653abc2af1443c5cc4dda410957bd4e2a5ce8242ee6b5af56084919706255c",
+      "runtime_file": "images/black-flag-ebony-fly/giant-fly.png",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "rules_style": "stat block",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "reused-portraits/giant-fly.png",
+        "sha256": "e6653abc2af1443c5cc4dda410957bd4e2a5ce8242ee6b5af56084919706255c",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Fly",
+        "publication": "Dungeon Master's Guide (2024)",
+        "edition": "2024 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "section": "Chapter 7, Figurine of Wondrous Power",
+        "sourceMethod": "Publisher D&D Beyond item page reproduces the stat block and credits p. 261.",
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/dungeon-masters-guide",
+        "errataEvidence": "The official revised DMG errata has no entry for Ebony Fly.",
+        "appearanceEvidence": "The Ebony Fly item describes a horsefly statuette. The reused portrait supplies coloration and visible detail.",
+        "habitatEvidence": "The magic item text describes the realized mount without specifying a habitat.",
+        "printedPages": [
+          261
+        ],
+        "url": "https://www.dndbeyond.com/magic-items/9228613-figurine-of-wondrous-power-ebony-fly",
+        "rulesUrl": "https://www.dndbeyond.com/magic-items/9228613-figurine-of-wondrous-power-ebony-fly",
+        "artGroup": "giant-fly",
+        "portraitSha256": "e6653abc2af1443c5cc4dda410957bd4e2a5ce8242ee6b5af56084919706255c",
+        "sourceDistinctions": [
+          "The stat block prints CR 0 (0 XP), initiative, and an individual saving throw for each ability. The activated fly follows the item’s turn order. The block lists no specific attack."
+        ]
+      }
+    },
+    {
+      "owner": "b16_08",
+      "name": "Wolf of the Overworld",
+      "kind": "beast",
+      "publication": "Monstrous Compendium Vol. 3: Minecraft Creatures",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "wolf-of-the-overworld",
+      "art_owner": "b16_08",
+      "reuse_source": "beast-ready-batch-02/parts/b02_10/portraits/wolf.png",
+      "reuse_sha256": "aabb9d05cfea3f0070408b27bca9705475414773b058e88008ef333d2da9b135",
+      "runtime_file": "images/beast-ready-batch-02/wolf.png",
+      "rules_url": "https://www.dndbeyond.com/forums/d-d-beyond-general/release-issues-support/168084-monstrous-compendium-volume-three-minecraft",
+      "credit": "Original portrait generated with built-in OpenAI ImageGen",
+      "rules_style": "stat block",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "reused-portraits/bestial-spirit.png",
+        "sha256": "aabb9d05cfea3f0070408b27bca9705475414773b058e88008ef333d2da9b135",
+        "credit": "Original portrait generated with built-in OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Wolf of the Overworld",
+        "publication": "Monstrous Compendium Vol. 3: Minecraft Creatures",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast with Mojang Studios",
+        "section": "Wolf of the Overworld",
+        "pdfPages": [
+          7
+        ],
+        "alternateUrl": "",
+        "sourceMethod": "Compared Mojang’s original and revised . The p. 7 stat block agrees in both.",
+        "errataEvidence": "The official revised retains the original wolf stats.",
+        "appearanceEvidence": "The p. 7 text calls it a gray-furred wolf. The naturalistic reuse depicts the text. The publisher’s illustration has block-shaped anatomy.",
+        "habitatEvidence": "The text places the wolf in the Overworld’s forests and cold taiga.",
+        "printedPages": [
+          7
+        ],
+        "url": "",
+        "rulesUrl": "",
+        "artGroup": "wolf-of-the-overworld",
+        "portraitSha256": "aabb9d05cfea3f0070408b27bca9705475414773b058e88008ef333d2da9b135",
+        "sourceDistinctions": [
+          "The block uses Perception +5 and passive Perception 15. Pack Tactics is the listed trait."
+        ]
+      }
+    },
+    {
+      "owner": "b16_08",
+      "name": "Hippocampus",
+      "kind": "beast",
+      "publication": "Black Flag Roleplaying Reference Document v0.2",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "1",
+      "art_group": "hippocampus",
+      "art_owner": "b16_08",
+      "reuse_source": "beast-ready-batch-11/reused-portraits/hippocampus.webp",
+      "reuse_sha256": "92d835bad956a8a6f483042f9a70f1acfd5fbc14e46106c439960a0a53f5fdbd",
+      "runtime_file": "images/beasts/hippocampus/parchment-portrait.webp",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "rules_style": "stat block",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "reused-portraits/hippocampus.webp",
+        "sha256": "92d835bad956a8a6f483042f9a70f1acfd5fbc14e46106c439960a0a53f5fdbd",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Hippocampus",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "edition": "Black Flag Roleplaying",
+        "kind": "beast",
+        "publisher": "Open Design LLC d/b/a Kobold Press",
+        "section": "Monsters",
+        "pdfPages": [
+          305,
+          306
+        ],
+        "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+        "sourceMethod": "The inspected local v0.2 folios and the publisher have the same SHA-256.",
+        "errataEvidence": "Version v0.2 is the exact rules witness.",
+        "appearanceEvidence": "Editorial description of the reused portrait, which has warmer orange parchment than the other portraits in the part.",
+        "habitatEvidence": "Editorial tags based on the creature’s amphibious nature and swimming anatomy.",
+        "xpTablePage": 229,
+        "printedPages": [
+          305,
+          306
+        ],
+        "url": "",
+        "rulesUrl": "",
+        "artGroup": "hippocampus",
+        "portraitSha256": "92d835bad956a8a6f483042f9a70f1acfd5fbc14e46106c439960a0a53f5fdbd",
+        "sourceDistinctions": [
+          "The heading and fixed scores appear on p. 305. The modifiers, traits and actions continue on p. 306."
+        ]
+      }
+    },
+    {
+      "owner": "b16_08",
+      "name": "Orca",
+      "kind": "beast",
+      "publication": "Black Flag Roleplaying Reference Document v0.2",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "3",
+      "art_group": "orca",
+      "art_owner": "b16_08",
+      "reuse_source": "beast-ready-batch-12/reused-portraits/orca.png",
+      "reuse_sha256": "3a68624f9ba1ca68b9d20c7cb6173fee959e3d9cdb293daf996eaa5fb9925cd3",
+      "runtime_file": "images/beast-ready-batch-05/killer-whale.png",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "rules_style": "stat block",
+      "printed_cr": "3",
+      "portrait": {
+        "file": "reused-portraits/orca.png",
+        "sha256": "3a68624f9ba1ca68b9d20c7cb6173fee959e3d9cdb293daf996eaa5fb9925cd3",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Orca",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "edition": "Black Flag Roleplaying",
+        "kind": "beast",
+        "publisher": "Open Design LLC d/b/a Kobold Press",
+        "section": "Monsters",
+        "pdfPages": [
+          365
+        ],
+        "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+        "sourceMethod": "The inspected local v0.2 folios and the publisher have the same SHA-256.",
+        "errataEvidence": "Version v0.2 is the exact rules witness.",
+        "appearanceEvidence": "Editorial description of the reused orca portrait.",
+        "habitatEvidence": "Editorial tags based on the marine animal and its cold resistance.",
+        "xpTablePage": 229,
+        "printedPages": [
+          365
+        ],
+        "url": "",
+        "rulesUrl": "",
+        "artGroup": "orca",
+        "portraitSha256": "3a68624f9ba1ca68b9d20c7cb6173fee959e3d9cdb293daf996eaa5fb9925cd3",
+        "sourceDistinctions": [
+          "Tail Slap is a bonus action with no listed damage. The failure-by-5 rider adds stunned."
+        ]
+      }
+    },
+    {
+      "owner": "b16_09",
+      "name": "Birdsquirrel",
+      "kind": "beast",
+      "publication": "Adventure with Muk",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "birdsquirrel",
+      "art_owner": "b16_09",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "",
+      "credit": "",
+      "rules_style": "stat block",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "parts/b16_09/portraits/birdsquirrel.png",
+        "sha256": "15d056f509371ea34333f5402ef01d423934993b2cdcaf40d06a1b93c83a0d18",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Birdsquirrel",
+        "publication": "Adventure with Muk",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "Facsimile of the original Wizards activity book, ©2019.",
+        "printedPages": [],
+        "pdfPages": [
+          30
+        ],
+        "section": "Monsters",
+        "sourceFile": "",
+        "sourceSha256": "f00358fdc296094a1b3a79c68738e330bab55ce85a3ed9ee66521bb7cd2837e2",
+        "sourceUrl": "",
+        "sourceUrlRole": "Facsimile of the original Wizards activity book, ©2019.",
+        "errataResult": "No official correction to this scoped entry was located.",
+        "appearanceEvidence": "The body shape follows the book’s illustrated bird with a squirrel-like tail. The portrait’s color is editorial.",
+        "habitatEvidence": "The source description or encounter placement.",
+        "portraitSource": "portraits/birdsquirrel.png",
+        "portraitSha256": "15d056f509371ea34333f5402ef01d423934993b2cdcaf40d06a1b93c83a0d18",
+        "sourceDistinctions": [
+          "The printed Initiative badge is -3. The Dexterity modifier in the same panel is +2.",
+          "The simplified block gives fixed HP, CR 1/4 and attack entries. It omits Hit Dice, XP and attack reach."
+        ],
+        "encounterPdfPages": [
+          26,
+          28
+        ]
+      }
+    },
+    {
+      "owner": "b16_09",
+      "name": "Boontu Monkey",
+      "kind": "beast",
+      "publication": "Adventure with Muk",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "0",
+      "art_group": "boontu-monkey",
+      "art_owner": "b16_09",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "",
+      "credit": "",
+      "rules_style": "stat block",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "parts/b16_09/portraits/boontu-monkey.png",
+        "sha256": "ecf4f857363ddc93c741f02ce3dc80868fc0c3d1029e5b1c464b9a3ebed68823",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Boontu Monkey",
+        "publication": "Adventure with Muk",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "Facsimile of the original Wizards activity book, ©2019.",
+        "printedPages": [],
+        "pdfPages": [
+          30
+        ],
+        "section": "Monsters",
+        "sourceFile": "",
+        "sourceSha256": "f00358fdc296094a1b3a79c68738e330bab55ce85a3ed9ee66521bb7cd2837e2",
+        "sourceUrl": "",
+        "sourceUrlRole": "Facsimile of the original Wizards activity book, ©2019.",
+        "errataResult": "No official correction to this scoped entry was located.",
+        "appearanceEvidence": "The book describes a tiny monkey that lives in the sacred Boontu tree. The face, coat and tail are editorial.",
+        "habitatEvidence": "The source description or encounter placement.",
+        "portraitSource": "portraits/boontu-monkey.png",
+        "portraitSha256": "ecf4f857363ddc93c741f02ce3dc80868fc0c3d1029e5b1c464b9a3ebed68823",
+        "sourceDistinctions": [
+          "The simplified block gives fixed HP and CR 0. It omits Hit Dice, XP and Bite reach."
+        ],
+        "encounterPdfPages": [
+          28
+        ]
+      }
+    },
+    {
+      "owner": "b16_09",
+      "name": "Two-Headed Plesiosaurus",
+      "kind": "beast",
+      "publication": "The Tortle Package",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "4",
+      "art_group": "two-headed-plesiosaurus",
+      "art_owner": "b16_09",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "",
+      "credit": "",
+      "rules_style": "stat block",
+      "printed_cr": "4",
+      "portrait": {
+        "file": "parts/b16_09/portraits/two-headed-plesiosaurus.png",
+        "sha256": "78a611a91b6f63bfb1e6376e9128f3a00325841ec4193560b3c4aaf5c72fa5d7",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Two-Headed Plesiosaurus",
+        "publication": "The Tortle Package",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "Facsimile of the original Wizards 2017 supplement.",
+        "printedPages": [
+          18,
+          19
+        ],
+        "pdfPages": [
+          18,
+          19
+        ],
+        "section": "High Horn",
+        "sourceFile": "",
+        "sourceSha256": "6784815399fa584421050e1f6b1138bc1b3cf71e6246530d565b18efa322fc51",
+        "sourceUrl": "",
+        "sourceUrlRole": "Facsimile of the original Wizards 2017 supplement.",
+        "errataResult": "No official correction to this scoped entry was located.",
+        "appearanceEvidence": "The supplement gives two heads. The base Monster Manual describes a compact body, flippers and long flexible neck.",
+        "habitatEvidence": "The source description or encounter placement.",
+        "portraitSource": "portraits/two-headed-plesiosaurus.png",
+        "portraitSha256": "78a611a91b6f63bfb1e6376e9128f3a00325841ec4193560b3c4aaf5c72fa5d7",
+        "sourceDistinctions": [
+          "The supplement gives fixed 100 HP and CR 4 (1,100 XP). It supplies no revised Hit Dice formula."
+        ],
+        "baseRules": {
+          "publication": "Monster Manual (2014)",
+          "entry": "Plesiosaurus",
+          "printedPage": 80,
+          "sourceFile": " - 5th Edition (2014)/Rules/Monster ",
+          "sourceSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+          "errataUrl": "",
+          "errataResult": "The 2018 Monster Manual errata lists no correction to the base Plesiosaurus."
+        }
+      }
+    },
+    {
+      "owner": "b16_09",
+      "name": "Wolf",
+      "kind": "beast",
+      "publication": "DDEX1-01 - Defiance in Phlan",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "wolf",
+      "art_owner": "b16_09",
+      "reuse_source": "beast-ready-batch-02/parts/b02_10/portraits/wolf.png",
+      "reuse_sha256": "aabb9d05cfea3f0070408b27bca9705475414773b058e88008ef333d2da9b135",
+      "runtime_file": "images/beast-ready-batch-02/wolf.png",
+      "rules_url": "",
+      "credit": "Original portrait generated with built-in OpenAI ImageGen",
+      "rules_style": "stat block",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "reused-portraits/bestial-spirit.png",
+        "sha256": "aabb9d05cfea3f0070408b27bca9705475414773b058e88008ef333d2da9b135",
+        "credit": "Original portrait generated with built-in OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Wolf",
+        "publication": "DDEX1-01 - Defiance in Phlan",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "The official Wizards matches the local byte for byte.",
+        "printedPages": [
+          15,
+          31
+        ],
+        "pdfPages": [
+          15,
+          31
+        ],
+        "section": "Missions 2 and 5, Monster/NPC Statistics",
+        "sourceFile": " - 5th Edition (2014)/Adventures/DDEX1-01 - Defiance in ",
+        "sourceSha256": "07994a6c82735a2b692b09743fbbe641e10953eb507dcaf66f9257e3ab2823cc",
+        "sourceUrl": "",
+        "sourceUrlRole": "The official Wizards matches the local byte for byte.",
+        "errataResult": "No official correction to this scoped entry was located.",
+        "appearanceEvidence": "Editorial description of the selected portrait.",
+        "habitatEvidence": "The source description or encounter placement.",
+        "portraitSource": "beast-ready-batch-02/parts/b02_10/portraits/wolf.png",
+        "portraitSha256": "aabb9d05cfea3f0070408b27bca9705475414773b058e88008ef333d2da9b135",
+        "sourceDistinctions": [
+          "Both adventure appendices print Bite damage 7 (2d4 + 2) and DC 11 to avoid falling prone."
+        ],
+        "encounterPdfPages": [
+          13,
+          28
+        ]
+      }
+    },
+    {
+      "owner": "b16_10",
+      "name": "Clawfoot",
+      "kind": "beast",
+      "publication": "Eberron: Rising from the Last War",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1",
+      "art_group": "clawfoot",
+      "art_owner": "b16_10",
+      "reuse_source": "beast-ready-batch-07/parts/b07_02/portraits/deinonychus.png",
+      "reuse_sha256": "906e39e0317fbb67825e5e946b4ec28002ef373aaee0c4223aa3a7258eaac35d",
+      "runtime_file": "images/beast-ready-batch-07/deinonychus.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/561380-clawfoot",
+      "credit": "OpenAI ImageGen",
+      "rules_style": "stat block",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "reused-portraits/clawfoot.png",
+        "sha256": "906e39e0317fbb67825e5e946b4ec28002ef373aaee0c4223aa3a7258eaac35d",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Clawfoot",
+        "kind": "beast",
+        "publication": "Eberron: Rising from the Last War",
+        "edition": "2014 fifth edition",
+        "section": "Chapter 6, Friends and Foes, Dinosaurs",
+        "statBlockPage": 289,
+        "sourceUrl": "https://www.dndbeyond.com/sources/dnd/erftlw/friends-and-foes#Dinosaurs",
+        "url": "https://www.dndbeyond.com/sources/dnd/erftlw/friends-and-foes#Dinosaurs",
+        "officialCreatureUrl": "https://www.dndbeyond.com/monsters/561380-clawfoot",
+        "habitatEvidence": "Editorial search terms from the book’s creature account or its adventure encounter.",
+        "appearanceEvidence": "The printed creature description and the portrait selected in the batch roster.",
+        "artworkSource": "beast-ready-batch-07/parts/b07_02/portraits/deinonychus.png",
+        "artworkSha256": "906e39e0317fbb67825e5e946b4ec28002ef373aaee0c4223aa3a7258eaac35d",
+        "artworkCredit": "OpenAI ImageGen",
+        "artworkNote": "Reuses the earlier Deinonychus portrait for the bipedal silhouette, sharp teeth, and sickle-shaped toe claws stated in the Eberron entry.",
+        "sourceNotes": [
+          "Charisma is 6 (−2) in the printed block. The indexed summary gives 10."
+        ],
+        "publisher": "Wizards of the Coast LLC",
+        "leadDesigners": [
+          "Jeremy Crawford",
+          "James Wyatt",
+          "Keith Baker"
+        ],
+        "copyrightYear": 2019,
+        "printing": "First printing, November 2019",
+        "isbn": "978-0-7869-6692-9",
+        "productCode": "620C7287000001 EN",
+        "creditsPdfPage": 3,
+        "printedPages": [
+          289
+        ],
+        "pdfPage": 290,
+        "viewerPages": [
+          290
+        ],
+        "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/erftlw",
+        "officialPublisherProduct": "https://wpn.wizards.com/en/products/eberron-rising-from-the-last-war-",
+        "sourcePageKind": "The publisher contents index links to the Dinosaurs section. Unauthenticated access to the rules redirected to the book purchase page.",
+        "sourceWitness": "Original first-printing English book facsimile, rendered pp. 3 and 290.",
+        "sourceWitnessUrl": "",
+        "sourceSha256": "77b5eb22ec5a0c2691f57b11ea3050fe0938b2f3969700d70e4a6da7cdd06682",
+        "publicFolioPreview": "https://online.anyflip.com/tqblu/xfac/files/basic-html/page290.html",
+        "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/eberron-rising-from-the-last-war",
+        "officialErrataPdf": "",
+        "officialErrataPdfSha256": "94f194059290862f626f883fac83866e665655c7b4987405e17d71a9d4b4026d",
+        "errataEvidence": "No applicable change to these creatures in the publisher’s Eberron errata."
+      }
+    },
+    {
+      "owner": "b16_10",
+      "name": "Fastieth",
+      "kind": "beast",
+      "publication": "Eberron: Rising from the Last War",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "fastieth",
+      "art_owner": "b16_10",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "https://www.dndbeyond.com/monsters/487586-fastieth",
+      "credit": "",
+      "rules_style": "stat block",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "parts/b16_10/portraits/fastieth.png",
+        "sha256": "a3017c0bafb6606006e3e6079478eeb08f5af725cb66e15b298e532c3157e070",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Fastieth",
+        "kind": "beast",
+        "publication": "Eberron: Rising from the Last War",
+        "edition": "2014 fifth edition",
+        "section": "Chapter 6, Friends and Foes, Dinosaurs",
+        "statBlockPage": 289,
+        "sourceUrl": "https://www.dndbeyond.com/sources/dnd/erftlw/friends-and-foes#Dinosaurs",
+        "url": "https://www.dndbeyond.com/sources/dnd/erftlw/friends-and-foes#Dinosaurs",
+        "officialCreatureUrl": "https://www.dndbeyond.com/monsters/487586-fastieth",
+        "habitatEvidence": "Editorial search terms from the book’s creature account or its adventure encounter.",
+        "appearanceEvidence": "The printed creature description and the portrait selected in the batch roster.",
+        "artworkSource": "portraits/fastieth.png",
+        "artworkSha256": "a3017c0bafb6606006e3e6079478eeb08f5af725cb66e15b298e532c3157e070",
+        "artworkCredit": "OpenAI ImageGen",
+        "artworkNote": "New square OpenAI ImageGen portrait in the plain tan parchment style.",
+        "sourceNotes": [
+          "The p. 289 block prints Quickness under traits. It uses a bonus action and recharges on 5–6."
+        ],
+        "publisher": "Wizards of the Coast LLC",
+        "leadDesigners": [
+          "Jeremy Crawford",
+          "James Wyatt",
+          "Keith Baker"
+        ],
+        "copyrightYear": 2019,
+        "printing": "First printing, November 2019",
+        "isbn": "978-0-7869-6692-9",
+        "productCode": "620C7287000001 EN",
+        "creditsPdfPage": 3,
+        "printedPages": [
+          289
+        ],
+        "pdfPage": 290,
+        "viewerPages": [
+          290
+        ],
+        "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/erftlw",
+        "officialPublisherProduct": "https://wpn.wizards.com/en/products/eberron-rising-from-the-last-war-",
+        "sourcePageKind": "The publisher contents index links to the Dinosaurs section. Unauthenticated access to the rules redirected to the book purchase page.",
+        "sourceWitness": "Original first-printing English book facsimile, rendered pp. 3 and 290.",
+        "sourceWitnessUrl": "",
+        "sourceSha256": "77b5eb22ec5a0c2691f57b11ea3050fe0938b2f3969700d70e4a6da7cdd06682",
+        "publicFolioPreview": "https://online.anyflip.com/tqblu/xfac/files/basic-html/page290.html",
+        "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/eberron-rising-from-the-last-war",
+        "officialErrataPdf": "",
+        "officialErrataPdfSha256": "94f194059290862f626f883fac83866e665655c7b4987405e17d71a9d4b4026d",
+        "errataEvidence": "No applicable change to these creatures in the publisher’s Eberron errata."
+      }
+    },
+    {
+      "owner": "b16_10",
+      "name": "Two-Headed Crocodile",
+      "kind": "beast",
+      "publication": "Infernal Machine Rebuild",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1",
+      "art_group": "two-headed-crocodile",
+      "art_owner": "b16_10",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "",
+      "credit": "",
+      "rules_style": "stat block",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "parts/b16_10/portraits/two-headed-crocodile.png",
+        "sha256": "feac625a082ac879c0308ec69f5c5f5f90e5a371183502fbd7388924aea820dc",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Two-Headed Crocodile",
+        "kind": "beast",
+        "publication": "Infernal Machine Rebuild",
+        "edition": "2014 fifth edition",
+        "section": "Appendix B, NPCs and Monsters",
+        "statBlockPage": 89,
+        "sourceUrl": "https://www.dndbeyond.com/sources/imr/npcs-and-monsters",
+        "url": "https://www.dndbeyond.com/sources/imr/npcs-and-monsters",
+        "officialCreatureUrl": null,
+        "habitatEvidence": "Editorial search terms from the book’s creature account or its adventure encounter.",
+        "appearanceEvidence": "The printed creature description and the portrait selected in the batch roster.",
+        "artworkSource": "portraits/two-headed-crocodile.png",
+        "artworkSha256": "feac625a082ac879c0308ec69f5c5f5f90e5a371183502fbd7388924aea820dc",
+        "artworkCredit": "OpenAI ImageGen",
+        "artworkNote": "New square OpenAI ImageGen portrait in the plain tan parchment style.",
+        "sourceNotes": [
+          "The appendix gives a standalone Large Beast block. The bite restriction applies to the head maintaining the grapple."
+        ],
+        "publisher": "Wizards of the Coast LLC",
+        "leadDesigner": "Bart Carroll",
+        "copyrightYear": 2019,
+        "printing": "Original Extra Life 2019 digital adventure",
+        "printedPages": [
+          29,
+          89
+        ],
+        "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/imr",
+        "officialCreatureIndex": "https://www.dndbeyond.com/monsters?page=166",
+        "sourcePageKind": "Public D&D Beyond contents and creature indexes confirm the source and Beast scope. The official appendix redirects to purchase.",
+        "sourceWitness": "Complete text extraction of the original Extra Life 2019 module, with original p. 29 and p. 89 folio breaks and credits. The facsimile image payload was unavailable during verification.",
+        "sourceWitnessUrl": "",
+        "textWitnessSha256": "3654a659f9ff7d1fc149738e11e5bc5fed0b74d0e89dec379fbcdeed0c42be9b",
+        "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae",
+        "errataEvidence": "No title entry in the official errata index and no applicable published correction located."
+      }
+    },
+    {
+      "owner": "b16_10",
+      "name": "Chimeric Fox",
+      "kind": "beast",
+      "publication": "NERDS Restoring Harmony: A Voice in the Wilderness",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "0",
+      "art_group": "chimeric-fox",
+      "art_owner": "b16_10",
+      "reuse_source": "beast-ready-batch-13/parts/b13_01/portraits/chimeric-fox.png",
+      "reuse_sha256": "2730def9de283410cd05e0859fad60c8bfacca172595d056a48c37da23969eab",
+      "runtime_file": "images/beast-ready-batch-13/chimeric-fox.png",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "rules_style": "stat block",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "reused-portraits/chimeric-fox.png",
+        "sha256": "2730def9de283410cd05e0859fad60c8bfacca172595d056a48c37da23969eab",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Chimeric Fox",
+        "kind": "beast",
+        "publication": "NERDS Restoring Harmony: A Voice in the Wilderness",
+        "edition": "2014 fifth edition",
+        "section": "Adventure 2, Monster/NPC Statistics",
+        "statBlockPage": 8,
+        "sourceUrl": "",
+        "url": "",
+        "officialCreatureUrl": null,
+        "habitatEvidence": "Editorial search terms from the book’s creature account or its adventure encounter.",
+        "appearanceEvidence": "The printed creature description and the portrait selected in the batch roster.",
+        "artworkSource": "beast-ready-batch-13/parts/b13_01/portraits/chimeric-fox.png",
+        "artworkSha256": "2730def9de283410cd05e0859fad60c8bfacca172595d056a48c37da23969eab",
+        "artworkCredit": "OpenAI ImageGen",
+        "artworkNote": "Reuses the color-shifting Chimeric Fox portrait from the Frostmaiden group. The same fur effect and body plan are present in this adventure.",
+        "sourceNotes": [
+          "The supplies a complete Tiny Beast block on unnumbered sheet 8. The NERDS encounter on sheet 5 describes the fox choosing to follow Red after kind treatment."
+        ],
+        "publisher": "Wizards of the Coast LLC",
+        "collaborator": "Ferrara Candy Company",
+        "adventureDesigners": [
+          "Kat Kruger",
+          "Adam Lee"
+        ],
+        "copyrightYear": 2021,
+        "printing": "2021 Dungeons & Dragons and NERDS promotional , Adventure 2",
+        "creditsPdfPage": 12,
+        "printedPages": [],
+        "pdfPage": 8,
+        "viewerPages": [
+          5,
+          8,
+          12
+        ],
+        "officialCampaignUrl": "https://dnd.wizards.com/nerds",
+        "sourcePageKind": "Mirror of the original unnumbered free Wizards of the Coast and NERDS . The original promotion URL now redirects to the D&D Beyond home page.",
+        "sourceWitness": "Original 2021 , rendered sheets 5, 8, and 12.",
+        "sourceWitnessUrl": "",
+        "sourceSha256": "1f5664320019dadbe0975b3979fcad74afefd157fb3150f23d1723eef13685a5",
+        "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae",
+        "errataEvidence": "No NERDS title entry or applicable published correction found in the official errata index."
+      }
+    },
+    {
+      "owner": "b16_11",
+      "name": "Panther",
+      "kind": "beast",
+      "publication": "DDEX1-08 - Tales Trees Tell",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "panther",
+      "art_owner": "b16_11",
+      "reuse_source": "beast-ready-batch-02/parts/b02_10/portraits/panther.png",
+      "reuse_sha256": "1a2466b8f2d3dad4acb20892748afed4a834ac9b835af737f365a3ce3ea68b0c",
+      "runtime_file": "images/beast-ready-batch-02/panther.png",
+      "rules_url": "",
+      "credit": "Original portrait generated with built-in OpenAI ImageGen",
+      "rules_style": "stat block",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "reused-portraits/panther.png",
+        "sha256": "1a2466b8f2d3dad4acb20892748afed4a834ac9b835af737f365a3ce3ea68b0c",
+        "credit": "Original portrait generated with built-in OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Panther",
+        "publication": "DDEX1-08 - Tales Trees Tell",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast LLC",
+        "printing": "November 1, 2014 release",
+        "language": "English",
+        "printedPages": [
+          26
+        ],
+        "statBlockPage": 26,
+        "section": "Appendix, Monster/NPC Statistics",
+        "sourceUrl": "",
+        "url": "",
+        "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+        "officialChangelog": "https://www.dndbeyond.com/changelog/",
+        "conditionRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/appendix-a-conditions",
+        "errataEvidence": "No official correction for this creature located in the publisher’s errata index or changelog.",
+        "sourceNotes": [
+          "The appendix contains the complete Panther stat block. The printed adventure code is DDEX1-8. Its catalog name retains the roster’s DDEX1-08 spelling.",
+          "The pounce attack requires the same-turn approach and Claw hit. The bonus-action Bite checks whether the target is prone."
+        ],
+        "designer": "Thomas Reid",
+        "releaseDate": "2014-11-01",
+        "copyrightYear": 2014,
+        "productCode": "DDEX1-8",
+        "pdfPage": 26,
+        "creditsPdfPage": 1,
+        "sourceSha256": "a8ef66a09285d990147d4c546f809b4af63b59132d8672f3806af51a37e00e68",
+        "sourceWitness": "Original Wizards of the Coast . The existing local Books copy matches the publisher file byte for byte.",
+        "officialSourceIndex": "",
+        "supportingPrintedPages": [
+          18,
+          23
+        ],
+        "habitatEvidence": "The adventure encounter adjustment is set in the Quivering Forest.",
+        "appearanceEvidence": "Editorial observation of the existing black panther portrait.",
+        "artworkSource": "beast-ready-batch-02/parts/b02_10/portraits/panther.png",
+        "artworkSha256": "1a2466b8f2d3dad4acb20892748afed4a834ac9b835af737f365a3ce3ea68b0c",
+        "artworkCredit": "Original portrait generated with built-in OpenAI ImageGen",
+        "artworkNote": "Previously staged square parchment portrait reused."
+      }
+    },
+    {
+      "owner": "b16_11",
+      "name": "Relic Sloth",
+      "kind": "beast",
+      "publication": "Strixhaven: A Curriculum of Chaos",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "2",
+      "art_group": "relic-sloth",
+      "art_owner": "b16_11",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "",
+      "credit": "",
+      "rules_style": "stat block",
+      "printed_cr": "2",
+      "portrait": {
+        "file": "parts/b16_11/portraits/relic-sloth.png",
+        "sha256": "87cb1fa8a4008a51e758589e83b0c81319fd51b6b95ed65c03bd6e107fc28761",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Relic Sloth",
+        "publication": "Strixhaven: A Curriculum of Chaos",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast LLC",
+        "printing": "first printing, November 2021",
+        "language": "English",
+        "printedPages": [
+          210
+        ],
+        "statBlockPage": 210,
+        "section": "chapter 7, Friends and Foes",
+        "sourceUrl": "https://online.anyflip.com/usqxr/xjis/files/large/4b4ebc7af65997f4196bafa5ebd13056.webp",
+        "url": "https://online.anyflip.com/usqxr/xjis/files/large/4b4ebc7af65997f4196bafa5ebd13056.webp",
+        "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+        "officialChangelog": "https://www.dndbeyond.com/changelog/",
+        "conditionRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/appendix-a-conditions",
+        "errataEvidence": "No official correction for this creature located in the publisher’s errata index or changelog.",
+        "sourceNotes": [
+          "Slow but Sturdy is a reaction. Claws is one attack against one target, with a maximum of two simultaneous grapples."
+        ],
+        "leadDesigner": "Amanda Hamon",
+        "copyrightYear": 2021,
+        "isbn": "978-0-7869-6744-5",
+        "productCode": "620D0147000001 EN",
+        "viewerPages": [
+          212
+        ],
+        "creditsViewerPage": 4,
+        "creditsPageUrl": "https://online.anyflip.com/usqxr/xjis/files/large/eff759b169c826e5a0a9fc1feb263abb.webp",
+        "creditsPageSha256": "faf90deea480c3c9fccfbf42e713b2f77af5ceb1a4cc9b45a7ecf0dfb0db5234",
+        "sourcePageSha256": "a9ff9aa3698ae79a5eeab928a3ca2a8306e17a37dc22f42a6c55dfc495ae5823",
+        "sourceWitness": "Page image of the English first printing and its credits page.",
+        "publisherListing": "https://wpn.wizards.com/en/products/strixhaven-a-curriculum-of-chaos",
+        "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/sacoc",
+        "officialCreatureIndex": "https://www.dndbeyond.com/monsters/2160326-relic-sloth",
+        "sourcePageKind": "D&D Beyond public index confirms name, publication and Beast classification. Creature and book details require access.",
+        "habitatEvidence": "Crumbling ruins are explicitly mentioned in the creature account.",
+        "appearanceEvidence": "Printed text identifies sickle-shaped foreclaws. The long neck and draft-animal proportions are visible in the printed illustration. The staged portrait is an original interpretation.",
+        "artworkCredit": "Original portrait generated with built-in OpenAI ImageGen",
+        "artworkSource": "portraits/relic-sloth.png",
+        "artworkSha256": "87cb1fa8a4008a51e758589e83b0c81319fd51b6b95ed65c03bd6e107fc28761",
+        "artworkNote": "Original square plain-parchment portrait."
+      }
+    },
+    {
+      "owner": "b16_11",
+      "name": "Swarm of Maggots",
+      "kind": "beast",
+      "publication": "Van Richten’s Guide to Ravenloft",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "2",
+      "art_group": "swarm-of-maggots",
+      "art_owner": "b16_11",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "",
+      "credit": "",
+      "rules_style": "stat block",
+      "printed_cr": "2",
+      "portrait": {
+        "file": "parts/b16_11/portraits/swarm-of-maggots.png",
+        "sha256": "d19fb3c7ea9f4ef60addea7ab5c0ec45d64c04f2bd48075ef3412bffec5500a0",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Swarm of Maggots",
+        "publication": "Van Richten’s Guide to Ravenloft",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast LLC",
+        "printing": "first printing, May 2021",
+        "language": "English",
+        "printedPages": [
+          247
+        ],
+        "statBlockPage": 247,
+        "section": "chapter 5, Monsters of Ravenloft, Swarms",
+        "sourceUrl": "https://online.anyflip.com/npkza/fwfi/files/mobile/248.webp",
+        "url": "https://online.anyflip.com/npkza/fwfi/files/mobile/248.webp",
+        "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+        "officialChangelog": "https://www.dndbeyond.com/changelog/",
+        "conditionRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/appendix-a-conditions",
+        "errataEvidence": "No official correction for this creature located in the publisher’s errata index or changelog.",
+        "sourceNotes": [
+          "The original stat block omits an alignment. It uses blindsight 10 ft. and grants swim speed 20 ft.",
+          "Disease onset is a Constitution save after the swarm deals damage. Its symptom roll is made at the end of a long rest."
+        ],
+        "projectLead": "F. Wesley Schneider",
+        "copyrightYear": 2021,
+        "isbn": "978-0-7869-6725-4",
+        "productCode": "620C9280000001 EN",
+        "viewerPages": [
+          248
+        ],
+        "creditsViewerPage": 3,
+        "creditsPageUrl": "https://online.anyflip.com/npkza/fwfi/files/mobile/3.webp",
+        "creditsPageSha256": "6367233c1141c9d944f0201582590c8c55cc814a774e271ac7fd003f0bb83bbc",
+        "sourcePageSha256": "47eb16636276d13bac1a099fec1f33597fdc58d04d21e4fe03113ae1502a5282",
+        "sourceWitness": "Page image of the English first printing and its credits page.",
+        "publisherListing": "https://wpn.wizards.com/en/products/van-richtens-guide-to-ravenloft",
+        "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/vrgor",
+        "sourcePageKind": "The public D&D Beyond catalog lists the swarms as Medium Beasts. The creature links redirect to the purchase page.",
+        "habitatEvidence": "The account describes surges of scavenging swarms in lands under malign influence. Domains of Dread is setting context.",
+        "officialCreatureIndex": "https://www.dndbeyond.com/monsters/1680947-swarm-of-maggots",
+        "appearanceEvidence": "Soft, pale fly larvae provide a natural maggot silhouette. The artwork depicts an original swarm.",
+        "artworkCredit": "Original portrait generated with built-in OpenAI ImageGen",
+        "artworkSource": "portraits/swarm-of-maggots.png",
+        "artworkSha256": "d19fb3c7ea9f4ef60addea7ab5c0ec45d64c04f2bd48075ef3412bffec5500a0",
+        "artworkNote": "Original square plain-parchment portrait."
+      }
+    },
+    {
+      "owner": "b16_11",
+      "name": "Swarm of Scarabs",
+      "kind": "beast",
+      "publication": "Van Richten’s Guide to Ravenloft",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "3",
+      "art_group": "swarm-of-scarabs",
+      "art_owner": "b16_11",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "",
+      "credit": "",
+      "rules_style": "stat block",
+      "printed_cr": "3",
+      "portrait": {
+        "file": "parts/b16_11/portraits/swarm-of-scarabs.png",
+        "sha256": "04b51cb17df12b1349fdadf1e0bd2c63ff92ed8130db37a853bd9635f6e9ffa6",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Swarm of Scarabs",
+        "publication": "Van Richten’s Guide to Ravenloft",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast LLC",
+        "printing": "first printing, May 2021",
+        "language": "English",
+        "printedPages": [
+          247
+        ],
+        "statBlockPage": 247,
+        "section": "chapter 5, Monsters of Ravenloft, Swarms",
+        "sourceUrl": "https://online.anyflip.com/npkza/fwfi/files/mobile/248.webp",
+        "url": "https://online.anyflip.com/npkza/fwfi/files/mobile/248.webp",
+        "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+        "officialChangelog": "https://www.dndbeyond.com/changelog/",
+        "conditionRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/appendix-a-conditions",
+        "errataEvidence": "No official correction for this creature located in the publisher’s errata index or changelog.",
+        "sourceNotes": [
+          "The original stat block omits an alignment. It uses tremorsense 60 ft. and has separate walking, burrowing and climbing speeds.",
+          "The printed attack gives no saving throw against its continuing damage. Any creature can spend an action to remove the scarabs."
+        ],
+        "projectLead": "F. Wesley Schneider",
+        "copyrightYear": 2021,
+        "isbn": "978-0-7869-6725-4",
+        "productCode": "620C9280000001 EN",
+        "viewerPages": [
+          248
+        ],
+        "creditsViewerPage": 3,
+        "creditsPageUrl": "https://online.anyflip.com/npkza/fwfi/files/mobile/3.webp",
+        "creditsPageSha256": "6367233c1141c9d944f0201582590c8c55cc814a774e271ac7fd003f0bb83bbc",
+        "sourcePageSha256": "47eb16636276d13bac1a099fec1f33597fdc58d04d21e4fe03113ae1502a5282",
+        "sourceWitness": "Page image of the English first printing and its credits page.",
+        "publisherListing": "https://wpn.wizards.com/en/products/van-richtens-guide-to-ravenloft",
+        "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/vrgor",
+        "sourcePageKind": "The public D&D Beyond catalog lists the swarms as Medium Beasts. The creature links redirect to the purchase page.",
+        "habitatEvidence": "The account describes surges of scavenging swarms in lands under malign influence. Domains of Dread is setting context.",
+        "officialCreatureIndex": "https://www.dndbeyond.com/monsters/1680948-swarm-of-scarabs",
+        "appearanceEvidence": "The beetles use natural oval scarab anatomy in an original portrayal.",
+        "artworkCredit": "Original portrait generated with built-in OpenAI ImageGen",
+        "artworkSource": "portraits/swarm-of-scarabs.png",
+        "artworkSha256": "04b51cb17df12b1349fdadf1e0bd2c63ff92ed8130db37a853bd9635f6e9ffa6",
+        "artworkNote": "Original square plain-parchment portrait."
+      }
+    }
+  ]
+}

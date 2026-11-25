@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Large Spider",
+    "file": "",
+    "selection": "generated",
+    "sha256": "6cf5d82b058652637b9d9432852edcf9bd24978dde9efc1c9dd810d9290ff070",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "name": "Huge Spider",
+    "file": "",
+    "selection": "generated",
+    "sha256": "ec75d44ed6ed99b4266241aa0ef665f3cce6428deeb101b711b328d28457886d",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "name": "Giant Spider",
+    "file": "",
+    "selection": "generated",
+    "sha256": "4e46c5e7fa2b4ca7318f53bbc8e67f0c7db9d6fd2dd63a942439165a19babb51",
+    "width": 1254,
+    "height": 1254
+  }
+]

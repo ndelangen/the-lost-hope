@@ -1,0 +1,2465 @@
+diff --git a/dm-library/bestiary/stat-blocks.json b/dm-library/bestiary/stat-blocks.json
+index e36252d..65b2072 100644
+--- a/dm-library/bestiary/stat-blocks.json
++++ b/dm-library/bestiary/stat-blocks.json
+@@ -3195,6 +3195,2460 @@
+     },
+     "publication": "SRD 5.1"
+   },
++  {
++    "name": "Allosaurus",
++    "publication": "Basic Rules (2018)",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 13,
++    "hp": 51,
++    "hitDice": "6d10 + 18",
++    "speed": "60 ft.",
++    "cr": "2",
++    "xp": 450,
++    "abilities": {
++      "Str": {
++        "score": 19,
++        "modifier": 4
++      },
++      "Dex": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Con": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 5,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Natural armor. Perception +5. Passive Perception 15. Languages none.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A long-legged bipedal predator with ochre-brown scales, low ridges above its eyes, clawed forelimbs, and a long balancing tail.",
++    "habitats": [
++      "Open ground",
++      "Remote mountain valleys",
++      "Isolated plateaus",
++      "Tropical islands",
++      "Deep fens"
++    ],
++    "sections": {
++      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0 (November 2018), Chapter 12, p. 116. ",
++      "Traits": "Pounce. Move at least 30 ft. straight toward a creature and hit it with Claw that turn. The target must pass a DC 13 Strength save or fall prone. If that target is prone, the allosaurus can make one Bite attack against it as a bonus action.",
++      "Actions": "Bite. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit for 15 (2d10 + 4) piercing damage.\nClaw. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit for 8 (1d8 + 4) slashing damage."
++    }
++  },
++  {
++    "name": "Allosaurus",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 13,
++    "hp": 51,
++    "hitDice": "6d10 + 18",
++    "speed": "60 ft.",
++    "cr": "2",
++    "xp": 450,
++    "abilities": {
++      "Str": {
++        "score": 19,
++        "modifier": 4
++      },
++      "Dex": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Con": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 5,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Natural armor. Perception +5. Passive Perception 15. Languages none.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A long-legged bipedal predator with ochre-brown scales, low ridges above its eyes, clawed forelimbs, and a long balancing tail.",
++    "habitats": [
++      "Open ground",
++      "Remote mountain valleys",
++      "Isolated plateaus",
++      "Tropical islands",
++      "Deep fens"
++    ],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Monster Manual (2014), 11th printing, Dinosaurs, p. 79. https://anyflip.com/kqwdv/eoae/basic/51-100#p=80",
++      "Traits": "Pounce. Move at least 30 ft. straight toward a creature and hit it with Claw that turn. The target must pass a DC 13 Strength save or fall prone. If that target is prone, the allosaurus can make one Bite attack against it as a bonus action.",
++      "Actions": "Bite. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit for 15 (2d10 + 4) piercing damage.\nClaw. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit for 8 (1d8 + 4) slashing damage."
++    }
++  },
++  {
++    "name": "Ankylosaurus",
++    "publication": "Basic Rules (2018)",
++    "edition": "2014 fifth edition",
++    "classification": "Huge Beast, unaligned",
++    "ac": 15,
++    "hp": 68,
++    "hitDice": "8d12 + 16",
++    "speed": "30 ft.",
++    "cr": "3",
++    "xp": 700,
++    "abilities": {
++      "Str": {
++        "score": 19,
++        "modifier": 4
++      },
++      "Dex": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 5,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Natural armor. Passive Perception 11. Languages none.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A low four-legged dinosaur with a broad beaked head, rounded armor plates, and a heavy bony club at the tip of its tail.",
++    "habitats": ["Remote mountain valleys", "Isolated plateaus", "Tropical islands", "Deep fens"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0 (November 2018), Chapter 12, p. 117. ",
++      "Actions": "Tail. Melee weapon attack, +7 to hit, reach 10 ft., one target. Hit for 18 (4d6 + 4) bludgeoning damage. A creature hit by the tail must pass a DC 14 Strength save or fall prone."
++    }
++  },
++  {
++    "name": "Ankylosaurus",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Huge Beast, unaligned",
++    "ac": 15,
++    "hp": 68,
++    "hitDice": "8d12 + 16",
++    "speed": "30 ft.",
++    "cr": "3",
++    "xp": 700,
++    "abilities": {
++      "Str": {
++        "score": 19,
++        "modifier": 4
++      },
++      "Dex": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 5,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Natural armor. Passive Perception 11. Languages none.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A low four-legged dinosaur with a broad beaked head, rounded armor plates, and a heavy bony club at the tip of its tail.",
++    "habitats": ["Remote mountain valleys", "Isolated plateaus", "Tropical islands", "Deep fens"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Monster Manual (2014), 11th printing, Dinosaurs, p. 79. https://anyflip.com/kqwdv/eoae/basic/51-100#p=80",
++      "Actions": "Tail. Melee weapon attack, +7 to hit, reach 10 ft., one target. Hit for 18 (4d6 + 4) bludgeoning damage. A creature hit by the tail must pass a DC 14 Strength save or fall prone.",
++      "Spiked-tail variety": "The Monster Manual describes some ankylosaurs with spiked tails that deal piercing damage in place of bludgeoning. The portrait depicts the standard club-tailed form."
++    }
++  },
++  {
++    "name": "Black Bear",
++    "publication": "Basic Rules (2018)",
++    "edition": "2014 fifth edition",
++    "classification": "Medium Beast, unaligned",
++    "ac": 11,
++    "hp": 19,
++    "hitDice": "3d8 + 6",
++    "speed": "40 ft., climb 30 ft.",
++    "cr": "1/2",
++    "xp": 100,
++    "abilities": {
++      "Str": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Dex": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 7,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Natural armor. Perception +3. Passive Perception 13. Languages none.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A black-furred bear with rounded ears, a cinnamon-brown muzzle, and a gently rounded back.",
++    "habitats": ["Forests", "Woodland edges", "Forested foothills"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0 (November 2018), Chapter 12, p. 119. ",
++      "Traits": "Keen Smell. The bear has advantage on Wisdom (Perception) checks that depend on scent.",
++      "Actions": "Multiattack. Make one Bite attack and one Claws attack.\nBite. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit for 5 (1d6 + 2) piercing damage.\nClaws. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit for 7 (2d4 + 2) slashing damage."
++    }
++  },
++  {
++    "name": "Black Bear",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Medium Beast, unaligned",
++    "ac": 11,
++    "hp": 19,
++    "hitDice": "3d8 + 6",
++    "speed": "40 ft., climb 30 ft.",
++    "cr": "1/2",
++    "xp": 100,
++    "abilities": {
++      "Str": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Dex": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 7,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Natural armor. Perception +3. Passive Perception 13. Languages none.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A black-furred bear with rounded ears, a cinnamon-brown muzzle, and a gently rounded back.",
++    "habitats": ["Forests", "Woodland edges", "Forested foothills"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Monster Manual (2014), 11th printing, Appendix A, Miscellaneous Creatures, p. 318. https://anyflip.com/kqwdv/eoae/basic/301-350#p=319",
++      "Traits": "Keen Smell. The bear has advantage on Wisdom (Perception) checks that depend on scent.",
++      "Actions": "Multiattack. Make one Bite attack and one Claws attack.\nBite. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit for 5 (1d6 + 2) piercing damage.\nClaws. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit for 7 (2d4 + 2) slashing damage."
++    }
++  },
++  {
++    "name": "Blood Hawk",
++    "publication": "Basic Rules (2018)",
++    "edition": "2014 fifth edition",
++    "classification": "Small Beast, unaligned",
++    "ac": 12,
++    "hp": 7,
++    "speed": "10 ft., fly 60 ft.",
++    "hitDice": "2d6",
++    "cr": "1/8",
++    "xp": 25,
++    "abilities": {
++      "Str": {
++        "score": 6,
++        "modifier": -2
++      },
++      "Dex": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 3,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Cha": {
++        "score": 5,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Perception +4. Passive Perception 14. No listed languages or special senses.",
++    "appearance": "A small bird of prey with crimson feathers, dark wing bars, and a sharply hooked beak.",
++    "habitats": ["Arctic", "Coastal", "Forest", "Grassland", "Hill", "Mountain"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, D&D Basic Rules, version 1.0, November 2018 , printed p. 120. ",
++      "Traits": "Keen Sight. The hawk has advantage on Wisdom (Perception) checks that depend on sight.\nPack Tactics. The hawk has advantage on an attack roll against a creature if a non-incapacitated ally is within 5 ft. of that creature.",
++      "Actions": "Beak. Melee weapon attack, +4 to hit, 5-ft. reach, one target. On a hit, deal 4 (1d4 + 2) piercing damage."
++    }
++  },
++  {
++    "name": "Blood Hawk",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Small Beast, unaligned",
++    "ac": 12,
++    "hp": 7,
++    "speed": "10 ft., fly 60 ft.",
++    "hitDice": "2d6",
++    "cr": "1/8",
++    "xp": 25,
++    "abilities": {
++      "Str": {
++        "score": 6,
++        "modifier": -2
++      },
++      "Dex": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 3,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Cha": {
++        "score": 5,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Perception +4. Passive Perception 14. No listed languages or special senses.",
++    "appearance": "A small bird of prey with crimson feathers, dark wing bars, and a sharply hooked beak.",
++    "habitats": ["Arctic", "Coastal", "Forest", "Grassland", "Hill", "Mountain"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, Monster Manual, first printing, September 2014, printed p. 319. https://www.dndbeyond.com/monsters/16810-blood-hawk",
++      "Traits": "Keen Sight. The hawk has advantage on Wisdom (Perception) checks that depend on sight.\nPack Tactics. The hawk has advantage on an attack roll against a creature if a non-incapacitated ally is within 5 ft. of that creature.",
++      "Actions": "Beak. Melee weapon attack, +4 to hit, 5-ft. reach, one target. On a hit, deal 4 (1d4 + 2) piercing damage."
++    }
++  },
++  {
++    "name": "Brown Bear",
++    "publication": "Basic Rules (2018)",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 11,
++    "hp": 34,
++    "speed": "40 ft., climb 30 ft.",
++    "hitDice": "4d10 + 12",
++    "cr": "1",
++    "xp": 200,
++    "abilities": {
++      "Str": {
++        "score": 19,
++        "modifier": 4
++      },
++      "Dex": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 16,
++        "modifier": 3
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 7,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Natural armor. Perception +3. Passive Perception 13. No listed languages or special senses.",
++    "appearance": "A heavy brown bear with a pronounced shoulder hump, grizzled brown fur, and wide clawed paws.",
++    "habitats": ["Arctic", "Forest", "Hill"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, D&D Basic Rules, version 1.0, November 2018 , printed p. 120. ",
++      "Traits": "Keen Smell. The bear has advantage on Wisdom (Perception) checks that depend on smell.",
++      "Actions": "Multiattack. Make one Bite and one Claws attack.\nBite. Melee weapon attack, +6 to hit, 5-ft. reach, one target. On a hit, deal 8 (1d8 + 4) piercing damage.\nClaws. Melee weapon attack, +6 to hit, 5-ft. reach, one target. On a hit, deal 11 (2d6 + 4) slashing damage."
++    }
++  },
++  {
++    "name": "Brown Bear",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 11,
++    "hp": 34,
++    "speed": "40 ft., climb 30 ft.",
++    "hitDice": "4d10 + 12",
++    "cr": "1",
++    "xp": 200,
++    "abilities": {
++      "Str": {
++        "score": 19,
++        "modifier": 4
++      },
++      "Dex": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 16,
++        "modifier": 3
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 7,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Natural armor. Perception +3. Passive Perception 13. No listed languages or special senses.",
++    "appearance": "A heavy brown bear with a pronounced shoulder hump, grizzled brown fur, and wide clawed paws.",
++    "habitats": ["Arctic", "Forest", "Hill"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, Monster Manual, first printing, September 2014, printed p. 319. https://www.dndbeyond.com/monsters/16816-brown-bear Uses Brown Bear’s corrected attack bonus from Monster Manual errata v2.0. ",
++      "Traits": "Keen Smell. The bear has advantage on Wisdom (Perception) checks that depend on smell.",
++      "Actions": "Multiattack. Make one Bite and one Claws attack.\nBite. Melee weapon attack, +6 to hit, 5-ft. reach, one target. On a hit, deal 8 (1d8 + 4) piercing damage.\nClaws. Melee weapon attack, +6 to hit, 5-ft. reach, one target. On a hit, deal 11 (2d6 + 4) slashing damage.",
++      "At the table": "The first printing gives +5 to hit for Bite and Claws. Publisher errata v2.0 corrects both to +6."
++    }
++  },
++  {
++    "name": "Constrictor Snake",
++    "publication": "Basic Rules (2018)",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 12,
++    "hp": 13,
++    "speed": "30 ft., swim 30 ft.",
++    "hitDice": "2d10 + 2",
++    "cr": "1/4",
++    "xp": 50,
++    "abilities": {
++      "Str": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Dex": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 1,
++        "modifier": -5
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 3,
++        "modifier": -4
++      }
++    },
++    "otherStatistics": "Blindsight 10 ft. Passive Perception 10. No listed languages.",
++    "appearance": "A broad-headed snake with heavy, muscular coils and dark brown markings on olive scales.",
++    "habitats": ["Desert", "Forest", "Swamp", "Underwater"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, D&D Basic Rules, version 1.0, November 2018 , printed p. 122. ",
++      "Actions": "Bite. Melee weapon attack, +4 to hit, 5-ft. reach, one creature. On a hit, deal 5 (1d6 + 2) piercing damage.\nConstrict. Melee weapon attack, +4 to hit, 5-ft. reach, one creature. On a hit, deal 6 (1d8 + 2) bludgeoning damage and grapple it (escape DC 14). The target remains restrained until the grapple ends. While holding it, the snake cannot constrict another target."
++    }
++  },
++  {
++    "name": "Constrictor Snake",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 12,
++    "hp": 13,
++    "speed": "30 ft., swim 30 ft.",
++    "hitDice": "2d10 + 2",
++    "cr": "1/4",
++    "xp": 50,
++    "abilities": {
++      "Str": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Dex": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 1,
++        "modifier": -5
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 3,
++        "modifier": -4
++      }
++    },
++    "otherStatistics": "Blindsight 10 ft. Passive Perception 10. No listed languages.",
++    "appearance": "A broad-headed snake with heavy, muscular coils and dark brown markings on olive scales.",
++    "habitats": ["Desert", "Forest", "Swamp", "Underwater"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, Monster Manual, first printing, September 2014, printed p. 320. https://www.dndbeyond.com/monsters/16830-constrictor-snake",
++      "Actions": "Bite. Melee weapon attack, +4 to hit, 5-ft. reach, one creature. On a hit, deal 5 (1d6 + 2) piercing damage.\nConstrict. Melee weapon attack, +4 to hit, 5-ft. reach, one creature. On a hit, deal 6 (1d8 + 2) bludgeoning damage and grapple it (escape DC 14). The target remains restrained until the grapple ends. While holding it, the snake cannot constrict another target."
++    }
++  },
++  {
++    "name": "Dire Wolf",
++    "publication": "Basic Rules (2018)",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 14,
++    "hp": 37,
++    "hitDice": "5d10 + 10",
++    "speed": "50 ft.",
++    "cr": "1",
++    "xp": 200,
++    "abilities": {
++      "Str": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Dex": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 3,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 7,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Natural armor. Perception +3 and Stealth +4. Passive Perception 13. No listed special senses or languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A heavy gray wolf with a broad muzzle, thick shoulders, large paws, and a low bushy tail.",
++    "habitats": ["Forest", "Hills"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, D&D Basic Rules, Version 1.0 (November 2018), p. 123. ",
++      "Traits": "Keen Hearing and Smell. Apply advantage on Wisdom (Perception) checks based on either hearing or smell.\nPack Tactics. The wolf has advantage on an attack roll against a creature if an ally of the wolf is within 5 ft. of the target and is not incapacitated.",
++      "Actions": "Bite. +5 to hit in melee, reach 5 ft., one target. Hit for 10 (2d6 + 3) piercing damage. A creature hit by Bite must pass a DC 13 Strength save or fall prone."
++    }
++  },
++  {
++    "name": "Dire Wolf",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 14,
++    "hp": 37,
++    "hitDice": "5d10 + 10",
++    "speed": "50 ft.",
++    "cr": "1",
++    "xp": 200,
++    "abilities": {
++      "Str": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Dex": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 3,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 7,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Natural armor. Perception +3 and Stealth +4. Passive Perception 13. No listed special senses or languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A heavy gray wolf with a broad muzzle, thick shoulders, large paws, and a low bushy tail.",
++    "habitats": ["Forest", "Hills"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Monster Manual (2014), p. 321. https://online.anyflip.com/pqhqn/sezy/files/basic-html/page322.html",
++      "Traits": "Keen Hearing and Smell. Apply advantage on Wisdom (Perception) checks based on either hearing or smell.\nPack Tactics. The wolf has advantage on an attack roll against a creature if an ally of the wolf is within 5 ft. of the target and is not incapacitated.",
++      "Actions": "Bite. +5 to hit in melee, reach 5 ft., one target. Hit for 10 (2d6 + 3) piercing damage. A creature hit by Bite must pass a DC 13 Strength save or fall prone."
++    }
++  },
++  {
++    "name": "Draft Horse",
++    "publication": "Basic Rules (2018)",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 10,
++    "hp": 19,
++    "hitDice": "3d10 + 3",
++    "speed": "40 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "abilities": {
++      "Str": {
++        "score": 18,
++        "modifier": 4
++      },
++      "Dex": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 7,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Passive Perception 10. No listed skills, special senses, or languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A heavy bay workhorse with a broad chest, dark mane and tail, and pale feathering at the fetlocks.",
++    "habitats": ["Urban", "Farms", "Trade roads"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, D&D Basic Rules, Version 1.0 (November 2018), p. 124. ",
++      "Actions": "Hooves. +6 to hit in melee, reach 5 ft., one target. Hit for 9 (2d4 + 4) bludgeoning damage."
++    }
++  },
++  {
++    "name": "Draft Horse",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 10,
++    "hp": 19,
++    "hitDice": "3d10 + 3",
++    "speed": "40 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "abilities": {
++      "Str": {
++        "score": 18,
++        "modifier": 4
++      },
++      "Dex": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 7,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Passive Perception 10. No listed skills, special senses, or languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A heavy bay workhorse with a broad chest, dark mane and tail, and pale feathering at the fetlocks.",
++    "habitats": ["Urban", "Farms", "Trade roads"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Monster Manual (2014), p. 321. https://online.anyflip.com/pqhqn/sezy/files/basic-html/page322.html",
++      "Actions": "Hooves. +6 to hit in melee, reach 5 ft., one target. Hit for 9 (2d4 + 4) bludgeoning damage."
++    }
++  },
++  {
++    "name": "Flying Snake",
++    "publication": "Basic Rules (2018)",
++    "edition": "2014 fifth edition",
++    "classification": "Tiny Beast, unaligned",
++    "ac": 14,
++    "hp": 5,
++    "hitDice": "2d4",
++    "speed": "30 ft., fly 60 ft., swim 30 ft.",
++    "cr": "1/8",
++    "xp": 25,
++    "abilities": {
++      "Str": {
++        "score": 4,
++        "modifier": -3
++      },
++      "Dex": {
++        "score": 18,
++        "modifier": 4
++      },
++      "Con": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 5,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Blindsight 10 ft. Passive Perception 11. No listed skills or languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A small jade-green serpent with muted gold banding and a pair of tapered reptilian wings.",
++    "habitats": ["Remote jungle", "Forest", "Grassland", "Desert", "Urban"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, D&D Basic Rules, Version 1.0 (November 2018), p. 128. ",
++      "Traits": "Flyby. Leaving an enemy’s reach while flying does not provoke an opportunity attack from that enemy.",
++      "Actions": "Bite. +6 to hit in melee, reach 5 ft., one target. Hit for 1 piercing damage and 7 (3d4) poison damage. The poison is part of the hit and has no saving throw."
++    }
++  },
++  {
++    "name": "Flying Snake",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Tiny Beast, unaligned",
++    "ac": 14,
++    "hp": 5,
++    "hitDice": "2d4",
++    "speed": "30 ft., fly 60 ft., swim 30 ft.",
++    "cr": "1/8",
++    "xp": 25,
++    "abilities": {
++      "Str": {
++        "score": 4,
++        "modifier": -3
++      },
++      "Dex": {
++        "score": 18,
++        "modifier": 4
++      },
++      "Con": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 5,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Blindsight 10 ft. Passive Perception 11. No listed skills or languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A small jade-green serpent with muted gold banding and a pair of tapered reptilian wings.",
++    "habitats": ["Remote jungle", "Forest", "Grassland", "Desert", "Urban"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Monster Manual (2014), p. 322. https://online.anyflip.com/pqhqn/sezy/files/basic-html/page323.html",
++      "Traits": "Flyby. Leaving an enemy’s reach while flying does not provoke an opportunity attack from that enemy.",
++      "Actions": "Bite. +6 to hit in melee, reach 5 ft., one target. Hit for 1 piercing damage and 7 (3d4) poison damage. The poison is part of the hit and has no saving throw."
++    }
++  },
++  {
++    "name": "Giant Ape",
++    "publication": "Basic Rules (2018)",
++    "edition": "2014 fifth edition",
++    "classification": "Huge Beast, unaligned",
++    "ac": 12,
++    "hp": 157,
++    "hitDice": "15d12 + 60",
++    "speed": "40 ft., climb 40 ft.",
++    "cr": "7",
++    "xp": 2900,
++    "abilities": {
++      "Str": {
++        "score": 23,
++        "modifier": 6
++      },
++      "Dex": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 18,
++        "modifier": 4
++      },
++      "Int": {
++        "score": 7,
++        "modifier": -2
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 7,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Athletics +9 and Perception +4. Passive Perception 14. No listed special senses or languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A huge gorilla-like ape with silver-grey back fur, a heavy brow, and long muscular forearms that end in broad knuckles.",
++    "habitats": ["Forests", "Jungles", "Wooded slopes"],
++    "sections": {
++      "Printed source": "D&D Basic Rules, v1.0 (November 2018), Chapter 12, p. 130. ",
++      "Actions": "Multiattack. Make two Fist attacks.\nFist. Melee weapon attack, +9 to hit against one target within 10 ft. On a hit, deal 22 (3d10 + 6) bludgeoning damage.\nRock. Ranged weapon attack, +9 to hit against one target, range 50/100 ft. On a hit, deal 30 (7d6 + 6) bludgeoning damage.",
++      "At the table": "Choose Rock as its own action. At distances beyond 50 ft. and up to 100 ft., roll it with disadvantage for long range."
++    }
++  },
++  {
++    "name": "Giant Ape",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Huge Beast, unaligned",
++    "ac": 12,
++    "hp": 157,
++    "hitDice": "15d12 + 60",
++    "speed": "40 ft., climb 40 ft.",
++    "cr": "7",
++    "xp": 2900,
++    "abilities": {
++      "Str": {
++        "score": 23,
++        "modifier": 6
++      },
++      "Dex": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 18,
++        "modifier": 4
++      },
++      "Int": {
++        "score": 7,
++        "modifier": -2
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 7,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Athletics +9 and Perception +4. Passive Perception 14. No listed special senses or languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A huge gorilla-like ape with silver-grey back fur, a heavy brow, and long muscular forearms that end in broad knuckles.",
++    "habitats": ["Forests", "Jungles", "Wooded slopes"],
++    "sections": {
++      "Printed source": "Monster Manual, first printing (September 2014), Appendix A, printed p. 323. https://online.anyflip.com/pqhqn/sezy/index.html#p=324",
++      "Actions": "Multiattack. Make two Fist attacks.\nFist. Melee weapon attack, +9 to hit against one target within 10 ft. On a hit, deal 22 (3d10 + 6) bludgeoning damage.\nRock. Ranged weapon attack, +9 to hit against one target, range 50/100 ft. On a hit, deal 30 (7d6 + 6) bludgeoning damage.",
++      "At the table": "Choose Rock as its own action. At distances beyond 50 ft. and up to 100 ft., roll it with disadvantage for long range."
++    }
++  },
++  {
++    "name": "Giant Badger",
++    "publication": "Basic Rules (2018)",
++    "edition": "2014 fifth edition",
++    "classification": "Medium Beast, unaligned",
++    "ac": 10,
++    "hp": 13,
++    "hitDice": "2d8 + 4",
++    "speed": "30 ft., burrow 10 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "abilities": {
++      "Str": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Dex": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 5,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Darkvision 30 ft. and passive Perception 11. No listed skills or languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A stocky giant badger with a black-and-white striped face, grizzled grey fur, broad shoulders, and long ivory digging claws.",
++    "habitats": ["Forests", "Woodland edges", "Burrows"],
++    "sections": {
++      "Printed source": "D&D Basic Rules, v1.0 (November 2018), Chapter 12, p. 130. ",
++      "Traits": "Keen Smell. Roll Wisdom (Perception) checks with advantage when they depend on scent.",
++      "Actions": "Multiattack. Make one Bite and one Claws attack.\nBite. Melee weapon attack, +3 to hit against one target within 5 ft. On a hit, deal 4 (1d6 + 1) piercing damage.\nClaws. Melee weapon attack, +3 to hit against one target within 5 ft. On a hit, deal 6 (2d4 + 1) slashing damage."
++    }
++  },
++  {
++    "name": "Giant Badger",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Medium Beast, unaligned",
++    "ac": 10,
++    "hp": 13,
++    "hitDice": "2d8 + 4",
++    "speed": "30 ft., burrow 10 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "abilities": {
++      "Str": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Dex": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 5,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Darkvision 30 ft. and passive Perception 11. No listed skills or languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A stocky giant badger with a black-and-white striped face, grizzled grey fur, broad shoulders, and long ivory digging claws.",
++    "habitats": ["Forests", "Woodland edges", "Burrows"],
++    "sections": {
++      "Printed source": "Monster Manual, first printing (September 2014), Appendix A, printed p. 323. https://online.anyflip.com/pqhqn/sezy/index.html#p=324",
++      "Traits": "Keen Smell. Roll Wisdom (Perception) checks with advantage when they depend on scent.",
++      "Actions": "Multiattack. Make one Bite and one Claws attack.\nBite. Melee weapon attack, +3 to hit against one target within 5 ft. On a hit, deal 4 (1d6 + 1) piercing damage.\nClaws. Melee weapon attack, +3 to hit against one target within 5 ft. On a hit, deal 6 (2d4 + 1) slashing damage."
++    }
++  },
++  {
++    "name": "Giant Bat",
++    "publication": "Basic Rules (2018)",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 13,
++    "hp": 22,
++    "hitDice": "4d10",
++    "speed": "10 ft., fly 60 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "abilities": {
++      "Str": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Dex": {
++        "score": 16,
++        "modifier": 3
++      },
++      "Con": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Blindsight 60 ft. and passive Perception 11. No listed skills or languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A large airborne bat with sooty brown fur, high ridged ears, and broad leathery wings that stretch between elongated fingers.",
++    "habitats": ["Caves", "Forests", "Underdark"],
++    "sections": {
++      "Printed source": "D&D Basic Rules, v1.0 (November 2018), Chapter 12, p. 130. ",
++      "Traits": "Echolocation. Deafened shuts off the bat's blindsight.\nKeen Hearing. Roll Wisdom (Perception) checks with advantage when they depend on hearing.",
++      "Actions": "Bite. Melee weapon attack, +4 to hit against one creature within 5 ft. On a hit, deal 5 (1d6 + 2) piercing damage."
++    }
++  },
++  {
++    "name": "Giant Bat",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 13,
++    "hp": 22,
++    "hitDice": "4d10",
++    "speed": "10 ft., fly 60 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "abilities": {
++      "Str": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Dex": {
++        "score": 16,
++        "modifier": 3
++      },
++      "Con": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Blindsight 60 ft. and passive Perception 11. No listed skills or languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A large airborne bat with sooty brown fur, high ridged ears, and broad leathery wings that stretch between elongated fingers.",
++    "habitats": ["Caves", "Forests", "Underdark"],
++    "sections": {
++      "Printed source": "Monster Manual, first printing (September 2014), Appendix A, printed p. 323. https://online.anyflip.com/pqhqn/sezy/index.html#p=324",
++      "Traits": "Echolocation. Deafened shuts off the bat's blindsight.\nKeen Hearing. Roll Wisdom (Perception) checks with advantage when they depend on hearing.",
++      "Actions": "Bite. Melee weapon attack, +4 to hit against one creature within 5 ft. On a hit, deal 5 (1d6 + 2) piercing damage."
++    }
++  },
++  {
++    "name": "Giant Boar",
++    "publication": "Basic Rules (2018)",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 12,
++    "hp": 42,
++    "hitDice": "5d10 + 15",
++    "speed": "40 ft.",
++    "cr": "2",
++    "xp": 450,
++    "otherStatistics": "Natural armor. Proficiency bonus +2. Passive Perception 8. No listed skill proficiencies, special senses or languages.",
++    "appearance": "A massive wild boar with heavy shoulders, a ridge of dark bristles, a blunt snout and thick, upward-curving tusks.",
++    "habitats": ["Forest", "Grassland", "Hills"],
++    "abilities": {
++      "Str": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Dex": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 16,
++        "modifier": 3
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 7,
++        "modifier": -2
++      },
++      "Cha": {
++        "score": 5,
++        "modifier": -3
++      }
++    },
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0 (2018), Chapter 12, p. 131. ",
++      "Traits": "Charge. Move at least 20 ft. in a straight line toward a target, then hit it with Tusk on that turn to deal an extra 7 (2d6) slashing damage. If the target is a creature, it makes a DC 13 Strength save or falls prone.\nRelentless. When damage of 10 or less would reduce the boar to 0 HP, it drops to 1 HP instead. This trait recharges after a short or long rest.",
++      "Actions": "Tusk. Melee weapon attack, +5 to hit against one target within 5 ft. On a hit, deal 10 (2d6 + 3) slashing damage.",
++      "At the table": "Charge adds damage on a qualifying hit. The save only determines whether a creature falls prone."
++    }
++  },
++  {
++    "name": "Giant Boar",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 12,
++    "hp": 42,
++    "hitDice": "5d10 + 15",
++    "speed": "40 ft.",
++    "cr": "2",
++    "xp": 450,
++    "otherStatistics": "Natural armor. Proficiency bonus +2. Passive Perception 8. No listed skill proficiencies, special senses or languages.",
++    "appearance": "A massive wild boar with heavy shoulders, a ridge of dark bristles, a blunt snout and thick, upward-curving tusks.",
++    "habitats": ["Forest", "Grassland", "Hills"],
++    "abilities": {
++      "Str": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Dex": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 16,
++        "modifier": 3
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 7,
++        "modifier": -2
++      },
++      "Cha": {
++        "score": 5,
++        "modifier": -3
++      }
++    },
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, Monster Manual (2014), Appendix A, p. 323. Official online reference: https://www.dndbeyond.com/monsters/16876-giant-boar",
++      "Traits": "Charge. Move at least 20 ft. in a straight line toward a target, then hit it with Tusk on that turn to deal an extra 7 (2d6) slashing damage. If the target is a creature, it makes a DC 13 Strength save or falls prone.\nRelentless. When damage of 10 or less would reduce the boar to 0 HP, it drops to 1 HP instead. This trait recharges after a short or long rest.",
++      "Actions": "Tusk. Melee weapon attack, +5 to hit against one target within 5 ft. On a hit, deal 10 (2d6 + 3) slashing damage.",
++      "At the table": "Charge adds damage on a qualifying hit. The save only determines whether a creature falls prone."
++    }
++  },
++  {
++    "name": "Giant Centipede",
++    "publication": "Basic Rules (2018)",
++    "edition": "2014 fifth edition",
++    "classification": "Small Beast, unaligned",
++    "ac": 13,
++    "hp": 4,
++    "hitDice": "1d6 + 1",
++    "speed": "30 ft., climb 30 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "otherStatistics": "Natural armor. Proficiency bonus +2. Blindsight 30 ft., passive Perception 8. No listed skill proficiencies or languages.",
++    "appearance": "A flattened, mahogany-brown centipede with orange jointed legs, long antennae and curved venom claws at the head.",
++    "habitats": ["Underdark", "Urban"],
++    "abilities": {
++      "Str": {
++        "score": 5,
++        "modifier": -3
++      },
++      "Dex": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 1,
++        "modifier": -5
++      },
++      "Wis": {
++        "score": 7,
++        "modifier": -2
++      },
++      "Cha": {
++        "score": 3,
++        "modifier": -4
++      }
++    },
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0 (2018), Chapter 12, p. 131. ",
++      "Actions": "Bite. Melee weapon attack, +4 to hit against one creature within 5 ft. On a hit, deal 4 (1d4 + 2) piercing damage. The target makes a DC 11 Constitution save and takes 10 (3d6) poison damage on a failure. If that poison damage reduces it to 0 HP, the creature is stable and poisoned for 1 hour. It is paralyzed for as long as it is poisoned by this effect, which persists if it regains HP.",
++      "At the table": "A successful Constitution save avoids the poison damage. The one-hour poisoned and paralyzed effect requires the poison damage to reduce the creature to 0 HP. The block gives no repeat save."
++    }
++  },
++  {
++    "name": "Giant Centipede",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Small Beast, unaligned",
++    "ac": 13,
++    "hp": 4,
++    "hitDice": "1d6 + 1",
++    "speed": "30 ft., climb 30 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "otherStatistics": "Natural armor. Proficiency bonus +2. Blindsight 30 ft., passive Perception 8. No listed skill proficiencies or languages.",
++    "appearance": "A flattened, mahogany-brown centipede with orange jointed legs, long antennae and curved venom claws at the head.",
++    "habitats": ["Underdark", "Urban"],
++    "abilities": {
++      "Str": {
++        "score": 5,
++        "modifier": -3
++      },
++      "Dex": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 1,
++        "modifier": -5
++      },
++      "Wis": {
++        "score": 7,
++        "modifier": -2
++      },
++      "Cha": {
++        "score": 3,
++        "modifier": -4
++      }
++    },
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, Monster Manual (2014), Appendix A, p. 323. Official online reference: https://www.dndbeyond.com/monsters/16877-giant-centipede",
++      "Actions": "Bite. Melee weapon attack, +4 to hit against one creature within 5 ft. On a hit, deal 4 (1d4 + 2) piercing damage. The target makes a DC 11 Constitution save and takes 10 (3d6) poison damage on a failure. If that poison damage reduces it to 0 HP, the creature is stable and poisoned for 1 hour. It is paralyzed for as long as it is poisoned by this effect, which persists if it regains HP.",
++      "At the table": "A successful Constitution save avoids the poison damage. The one-hour poisoned and paralyzed effect requires the poison damage to reduce the creature to 0 HP. The block gives no repeat save."
++    }
++  },
++  {
++    "name": "Giant Constrictor Snake",
++    "publication": "Basic Rules (2018)",
++    "edition": "2014 fifth edition",
++    "classification": "Huge Beast, unaligned",
++    "ac": 12,
++    "hp": 60,
++    "hitDice": "8d12 + 8",
++    "speed": "30 ft., swim 30 ft.",
++    "cr": "2",
++    "xp": 450,
++    "otherStatistics": "Proficiency bonus +2. Perception +2. Blindsight 10 ft., passive Perception 12. No listed languages.",
++    "appearance": "A heavy-bodied, pythonlike snake with brown saddle markings, a blunt head and thick coils.",
++    "habitats": ["Desert", "Forest", "Swamp", "Underdark", "Underwater"],
++    "abilities": {
++      "Str": {
++        "score": 19,
++        "modifier": 4
++      },
++      "Dex": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 1,
++        "modifier": -5
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 3,
++        "modifier": -4
++      }
++    },
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0 (2018), Chapter 12, p. 131. ",
++      "Actions": "Bite. Melee weapon attack, +6 to hit against one creature within 10 ft. On a hit, deal 11 (2d6 + 4) piercing damage.\nConstrict. Melee weapon attack, +6 to hit against one creature within 5 ft. On a hit, deal 13 (2d8 + 4) bludgeoning damage and grapple it (escape DC 16). The creature is restrained for the duration of the grapple. The snake cannot constrict another target while holding it.",
++      "At the table": "Constrict applies its grapple on a hit. The target can spend an action on a DC 16 Strength (Athletics) or Dexterity (Acrobatics) check to escape. The stat block gives no automatic damage on later turns."
++    }
++  },
++  {
++    "name": "Giant Constrictor Snake",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Huge Beast, unaligned",
++    "ac": 12,
++    "hp": 60,
++    "hitDice": "8d12 + 8",
++    "speed": "30 ft., swim 30 ft.",
++    "cr": "2",
++    "xp": 450,
++    "otherStatistics": "Proficiency bonus +2. Perception +2. Blindsight 10 ft., passive Perception 12. No listed languages.",
++    "appearance": "A heavy-bodied, pythonlike snake with brown saddle markings, a blunt head and thick coils.",
++    "habitats": ["Desert", "Forest", "Swamp", "Underdark", "Underwater"],
++    "abilities": {
++      "Str": {
++        "score": 19,
++        "modifier": 4
++      },
++      "Dex": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 1,
++        "modifier": -5
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 3,
++        "modifier": -4
++      }
++    },
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, Monster Manual (2014), Appendix A, p. 324. Official online reference: https://www.dndbeyond.com/monsters/16878-giant-constrictor-snake",
++      "Actions": "Bite. Melee weapon attack, +6 to hit against one creature within 10 ft. On a hit, deal 11 (2d6 + 4) piercing damage.\nConstrict. Melee weapon attack, +6 to hit against one creature within 5 ft. On a hit, deal 13 (2d8 + 4) bludgeoning damage and grapple it (escape DC 16). The creature is restrained for the duration of the grapple. The snake cannot constrict another target while holding it.",
++      "At the table": "Constrict applies its grapple on a hit. The target can spend an action on a DC 16 Strength (Athletics) or Dexterity (Acrobatics) check to escape. The stat block gives no automatic damage on later turns."
++    }
++  },
++  {
++    "name": "Giant Crab",
++    "publication": "Basic Rules (2018)",
++    "edition": "2014 fifth edition",
++    "classification": "Medium Beast, unaligned",
++    "ac": 15,
++    "hp": 13,
++    "hitDice": "3d8",
++    "speed": "30 ft., swim 30 ft.",
++    "cr": "1/8",
++    "xp": 25,
++    "abilities": {
++      "Str": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Dex": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 1,
++        "modifier": -5
++      },
++      "Wis": {
++        "score": 9,
++        "modifier": -1
++      },
++      "Cha": {
++        "score": 3,
++        "modifier": -4
++      }
++    },
++    "otherStatistics": "Natural armor. Stealth +4. Blindsight 30 ft. Passive Perception 9. No listed languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A broad-shelled crab with a mottled rust and slate carapace, compact stalked eyes, long jointed walking legs and two heavy pincers.",
++    "habitats": ["Coastal shallows", "Tide pools", "Underwater"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Basic Rules (2018), D&D Basic Rules v1.0, November 2018, and printed p. 131. ",
++      "Traits": "Amphibious. The crab can breathe in air or water.",
++      "Actions": "Claw. Melee weapon attack, +3 to hit with 5-ft. reach against one target. A hit deals 4 (1d6 + 1) bludgeoning damage and grapples the target. The escape DC is 11. Each of the crab’s two claws can grapple one target."
++    }
++  },
++  {
++    "name": "Giant Crab",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Medium Beast, unaligned",
++    "ac": 15,
++    "hp": 13,
++    "hitDice": "3d8",
++    "speed": "30 ft., swim 30 ft.",
++    "cr": "1/8",
++    "xp": 25,
++    "abilities": {
++      "Str": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Dex": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 1,
++        "modifier": -5
++      },
++      "Wis": {
++        "score": 9,
++        "modifier": -1
++      },
++      "Cha": {
++        "score": 3,
++        "modifier": -4
++      }
++    },
++    "otherStatistics": "Natural armor. Stealth +4. Blindsight 30 ft. Passive Perception 9. No listed languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A broad-shelled crab with a mottled rust and slate carapace, compact stalked eyes, long jointed walking legs and two heavy pincers.",
++    "habitats": ["Coastal shallows", "Tide pools", "Underwater"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Monster Manual (2014), First printing, September 2014, printed p. 324. https://www.dndbeyond.com/sources/dnd/mm-2014",
++      "Traits": "Amphibious. The crab can breathe in air or water.",
++      "Actions": "Claw. Melee weapon attack, +3 to hit with 5-ft. reach against one target. A hit deals 4 (1d6 + 1) bludgeoning damage and grapples the target. The escape DC is 11. Each of the crab’s two claws can grapple one target."
++    }
++  },
++  {
++    "name": "Giant Crocodile",
++    "publication": "Basic Rules (2018)",
++    "edition": "2014 fifth edition",
++    "classification": "Huge Beast, unaligned",
++    "ac": 14,
++    "hp": 85,
++    "hitDice": "9d12 + 27",
++    "speed": "30 ft., swim 50 ft.",
++    "cr": "5",
++    "xp": 1800,
++    "abilities": {
++      "Str": {
++        "score": 21,
++        "modifier": 5
++      },
++      "Dex": {
++        "score": 9,
++        "modifier": -1
++      },
++      "Con": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 7,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Natural armor. Stealth +5. Passive Perception 10. No listed special senses or languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A huge dark olive-brown crocodile with a wide toothed muzzle, a thick scuted back, stocky clawed feet and a long tapered tail.",
++    "habitats": ["Rivers", "Marshes", "Wetlands"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Basic Rules (2018), D&D Basic Rules v1.0, November 2018, and printed p. 132. ",
++      "Traits": "Hold Breath. The crocodile can hold its breath for 30 minutes.",
++      "Actions": "Multiattack. Make one Bite and one Tail attack.\nBite. Melee weapon attack, +8 to hit with 5-ft. reach against one target. A hit deals 21 (3d10 + 5) piercing damage and grapples the target, with escape DC 16. Until the grapple ends, the target is restrained and the crocodile cannot Bite another target.\nTail. Melee weapon attack, +8 to hit with 10-ft. reach against one target the crocodile is not grappling. A hit deals 14 (2d8 + 5) bludgeoning damage. A creature hit this way must pass a DC 16 Strength save or fall prone."
++    }
++  },
++  {
++    "name": "Giant Crocodile",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Huge Beast, unaligned",
++    "ac": 14,
++    "hp": 85,
++    "hitDice": "9d12 + 27",
++    "speed": "30 ft., swim 50 ft.",
++    "cr": "5",
++    "xp": 1800,
++    "abilities": {
++      "Str": {
++        "score": 21,
++        "modifier": 5
++      },
++      "Dex": {
++        "score": 9,
++        "modifier": -1
++      },
++      "Con": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 7,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Natural armor. Stealth +5. Passive Perception 10. No listed special senses or languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A huge dark olive-brown crocodile with a wide toothed muzzle, a thick scuted back, stocky clawed feet and a long tapered tail.",
++    "habitats": ["Rivers", "Marshes", "Wetlands"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Monster Manual (2014), First printing, September 2014, printed p. 324. https://www.dndbeyond.com/sources/dnd/mm-2014",
++      "Traits": "Hold Breath. The crocodile can hold its breath for 30 minutes.",
++      "Actions": "Multiattack. Make one Bite and one Tail attack.\nBite. Melee weapon attack, +8 to hit with 5-ft. reach against one target. A hit deals 21 (3d10 + 5) piercing damage and grapples the target, with escape DC 16. Until the grapple ends, the target is restrained and the crocodile cannot Bite another target.\nTail. Melee weapon attack, +8 to hit with 10-ft. reach against one target the crocodile is not grappling. A hit deals 14 (2d8 + 5) bludgeoning damage. A creature hit this way must pass a DC 16 Strength save or fall prone."
++    }
++  },
++  {
++    "name": "Giant Eagle",
++    "publication": "Basic Rules (2018)",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, neutral good",
++    "ac": 13,
++    "hp": 26,
++    "hitDice": "4d10 + 4",
++    "speed": "10 ft., fly 80 ft.",
++    "cr": "1",
++    "xp": 200,
++    "abilities": {
++      "Str": {
++        "score": 16,
++        "modifier": 3
++      },
++      "Dex": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Con": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 8,
++        "modifier": -1
++      },
++      "Wis": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Cha": {
++        "score": 10,
++        "modifier": 0
++      }
++    },
++    "otherStatistics": "Perception +4. Passive Perception 14. Speaks Giant Eagle. Understands Common and Auran without speaking them. No listed special senses.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A golden-brown raptor with tawny neck feathers, a hooked beak, broad dark wings and powerful talons.",
++    "habitats": ["Mountains", "Cliffs", "Open skies"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Basic Rules (2018), D&D Basic Rules v1.0, November 2018, and printed p. 132. ",
++      "Traits": "Keen Sight. The eagle has advantage on Wisdom (Perception) checks that rely on sight.",
++      "Actions": "Multiattack. Make one Beak and one Talons attack.\nBeak. Melee weapon attack, +5 to hit with 5-ft. reach against one target. A hit deals 6 (1d6 + 3) piercing damage.\nTalons. Melee weapon attack, +5 to hit with 5-ft. reach against one target. A hit deals 10 (2d6 + 3) slashing damage."
++    }
++  },
++  {
++    "name": "Giant Eagle",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, neutral good",
++    "ac": 13,
++    "hp": 26,
++    "hitDice": "4d10 + 4",
++    "speed": "10 ft., fly 80 ft.",
++    "cr": "1",
++    "xp": 200,
++    "abilities": {
++      "Str": {
++        "score": 16,
++        "modifier": 3
++      },
++      "Dex": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Con": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 8,
++        "modifier": -1
++      },
++      "Wis": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Cha": {
++        "score": 10,
++        "modifier": 0
++      }
++    },
++    "otherStatistics": "Perception +4. Passive Perception 14. Speaks Giant Eagle. Understands Common and Auran without speaking them. No listed special senses.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A golden-brown raptor with tawny neck feathers, a hooked beak, broad dark wings and powerful talons.",
++    "habitats": ["Mountains", "Cliffs", "Open skies"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Monster Manual (2014), First printing, September 2014, printed p. 324. https://www.dndbeyond.com/sources/dnd/mm-2014",
++      "Traits": "Keen Sight. The eagle has advantage on Wisdom (Perception) checks that rely on sight.",
++      "Actions": "Multiattack. Make one Beak and one Talons attack.\nBeak. Melee weapon attack, +5 to hit with 5-ft. reach against one target. A hit deals 6 (1d6 + 3) piercing damage.\nTalons. Melee weapon attack, +5 to hit with 5-ft. reach against one target. A hit deals 10 (2d6 + 3) slashing damage.",
++      "Nesting": "A mated pair typically has up to four eggs or young. Use the ordinary Eagle statistics for its young."
++    }
++  },
++  {
++    "name": "Giant Elk",
++    "publication": "Basic Rules (2018)",
++    "edition": "2014 fifth edition",
++    "classification": "Huge Beast, unaligned",
++    "ac": 14,
++    "hp": 42,
++    "hitDice": "5d12 + 10",
++    "speed": "60 ft.",
++    "cr": "2",
++    "xp": 450,
++    "abilities": {
++      "Str": {
++        "score": 19,
++        "modifier": 4
++      },
++      "Dex": {
++        "score": 16,
++        "modifier": 3
++      },
++      "Con": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 7,
++        "modifier": -2
++      },
++      "Wis": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Cha": {
++        "score": 10,
++        "modifier": 0
++      }
++    },
++    "otherStatistics": "Natural armor. Perception +4, passive Perception 14. Speaks Giant Elk and understands Common, Elvish, and Sylvan without speaking them.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A huge elk with a dark shaggy neck, a tawny coat, and broad branching antlers.",
++    "habitats": ["Forest", "Meadows", "Mountain slopes"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0 (November 2018), p. 132, Giant Elk. ",
++      "Traits": "Charge. Move at least 20 ft. straight toward a target and hit it with Ram on the same turn to deal an extra 7 (2d6) damage. A creature hit must also succeed on a DC 14 Strength save or fall prone.",
++      "Actions": "Ram. Melee weapon attack, +6 to hit, reach 10 ft., one target. A hit deals 11 (2d6 + 4) bludgeoning damage.\nHooves. Melee weapon attack, +6 to hit, reach 5 ft., one prone creature. A hit deals 22 (4d8 + 4) bludgeoning damage.",
++      "At the table": "Charge damage applies to a qualifying Ram hit even on a successful save. Hooves is a separate action against a prone creature within 5 ft."
++    }
++  },
++  {
++    "name": "Giant Elk",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Huge Beast, unaligned",
++    "ac": 14,
++    "hp": 42,
++    "hitDice": "5d12 + 10",
++    "speed": "60 ft.",
++    "cr": "2",
++    "xp": 450,
++    "abilities": {
++      "Str": {
++        "score": 19,
++        "modifier": 4
++      },
++      "Dex": {
++        "score": 16,
++        "modifier": 3
++      },
++      "Con": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 7,
++        "modifier": -2
++      },
++      "Wis": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Cha": {
++        "score": 10,
++        "modifier": 0
++      }
++    },
++    "otherStatistics": "Natural armor. Perception +4, passive Perception 14. Speaks Giant Elk and understands Common, Elvish, and Sylvan without speaking them.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A huge elk with a dark shaggy neck, a tawny coat, and broad branching antlers.",
++    "habitats": ["Forest", "Meadows", "Mountain slopes"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Monster Manual (2014), p. 325, Giant Elk. https://online.anyflip.com/sqwmo/hxog/mobile/index.html#p=326",
++      "Traits": "Charge. Move at least 20 ft. straight toward a target and hit it with Ram on the same turn to deal an extra 7 (2d6) damage. A creature hit must also succeed on a DC 14 Strength save or fall prone.",
++      "Actions": "Ram. Melee weapon attack, +6 to hit, reach 10 ft., one target. A hit deals 11 (2d6 + 4) bludgeoning damage.\nHooves. Melee weapon attack, +6 to hit, reach 5 ft., one prone creature. A hit deals 22 (4d8 + 4) bludgeoning damage.",
++      "At the table": "Charge damage applies to a qualifying Ram hit even on a successful save. Hooves is a separate action against a prone creature within 5 ft."
++    }
++  },
++  {
++    "name": "Giant Fire Beetle",
++    "publication": "Basic Rules (2018)",
++    "edition": "2014 fifth edition",
++    "classification": "Small Beast, unaligned",
++    "ac": 13,
++    "hp": 4,
++    "hitDice": "1d6 + 1",
++    "speed": "30 ft.",
++    "cr": "0",
++    "xp": 10,
++    "abilities": {
++      "Str": {
++        "score": 8,
++        "modifier": -1
++      },
++      "Dex": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 1,
++        "modifier": -5
++      },
++      "Wis": {
++        "score": 7,
++        "modifier": -2
++      },
++      "Cha": {
++        "score": 3,
++        "modifier": -4
++      }
++    },
++    "otherStatistics": "Natural armor. Blindsight 30 ft., passive Perception 8. No listed skills or languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A large dark beetle with six jointed legs, curved antennae, and two luminous glands.",
++    "habitats": ["Underground", "Dark forests"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0 (November 2018), p. 132, Giant Fire Beetle. ",
++      "Traits": "Illumination. The beetle sheds bright light within 10 ft. of itself and dim light for another 10 ft.",
++      "Actions": "Bite. Melee weapon attack, +1 to hit, reach 5 ft., one target. A hit deals 2 (1d6 − 1) slashing damage.",
++      "At the table": "The beetle has two light-producing glands. They continue giving off light for 1d6 days after it dies."
++    }
++  },
++  {
++    "name": "Giant Fire Beetle",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Small Beast, unaligned",
++    "ac": 13,
++    "hp": 4,
++    "hitDice": "1d6 + 1",
++    "speed": "30 ft.",
++    "cr": "0",
++    "xp": 10,
++    "abilities": {
++      "Str": {
++        "score": 8,
++        "modifier": -1
++      },
++      "Dex": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 1,
++        "modifier": -5
++      },
++      "Wis": {
++        "score": 7,
++        "modifier": -2
++      },
++      "Cha": {
++        "score": 3,
++        "modifier": -4
++      }
++    },
++    "otherStatistics": "Natural armor. Blindsight 30 ft., passive Perception 8. No listed skills or languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A large dark beetle with six jointed legs, curved antennae, and two luminous glands.",
++    "habitats": ["Underground", "Dark forests"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Monster Manual (2014), p. 325, Giant Fire Beetle. https://online.anyflip.com/sqwmo/hxog/mobile/index.html#p=326",
++      "Traits": "Illumination. The beetle sheds bright light within 10 ft. of itself and dim light for another 10 ft.",
++      "Actions": "Bite. Melee weapon attack, +1 to hit, reach 5 ft., one target. A hit deals 2 (1d6 − 1) slashing damage.",
++      "At the table": "The beetle has two light-producing glands. They continue giving off light for 1d6 days after it dies."
++    }
++  },
++  {
++    "name": "Giant Frog",
++    "publication": "Basic Rules (2018)",
++    "edition": "2014 fifth edition",
++    "classification": "Medium Beast, unaligned",
++    "ac": 11,
++    "hp": 18,
++    "hitDice": "4d8",
++    "speed": "30 ft., swim 30 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "abilities": {
++      "Str": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Dex": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Con": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 3,
++        "modifier": -4
++      }
++    },
++    "otherStatistics": "Perception +2, Stealth +3. Darkvision 30 ft., passive Perception 12. No languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A broad-headed, mottled frog with thick folded hind legs and webbed toes.",
++    "habitats": ["Wetlands", "Ponds", "Marshes"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0 (November 2018), p. 133, Giant Frog. ",
++      "Traits": "Amphibious. The frog can breathe in both air and water.\nStanding Leap. The frog can long jump up to 20 ft. and high jump up to 10 ft., with or without a run-up.",
++      "Actions": "Bite. Melee weapon attack, +3 to hit, reach 5 ft., one target. A hit deals 4 (1d6 + 1) piercing damage and grapples the target (escape DC 11). The target is restrained while grappled. The frog cannot bite a different target until that grapple ends.\nSwallow. Make one Bite attack against a Small or smaller target the frog already grapples. A hit ends the grapple and swallows the target. The swallowed target is blinded and restrained, has total cover against attacks and other effects from outside the frog, and takes 5 (2d4) acid damage at the start of each of the frog’s turns. The frog can hold one swallowed target. If the frog dies, the target is no longer restrained by it and can spend 5 ft. of movement to leave the corpse, emerging prone.",
++      "At the table": "Use Bite to establish the grapple and Swallow as a separate action. Swallow requires a new attack roll and works only on a Small or smaller grappled target."
++    }
++  },
++  {
++    "name": "Giant Frog",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Medium Beast, unaligned",
++    "ac": 11,
++    "hp": 18,
++    "hitDice": "4d8",
++    "speed": "30 ft., swim 30 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "abilities": {
++      "Str": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Dex": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Con": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 3,
++        "modifier": -4
++      }
++    },
++    "otherStatistics": "Perception +2, Stealth +3. Darkvision 30 ft., passive Perception 12. No languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A broad-headed, mottled frog with thick folded hind legs and webbed toes.",
++    "habitats": ["Wetlands", "Ponds", "Marshes"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Monster Manual (2014), p. 325, Giant Frog. https://online.anyflip.com/sqwmo/hxog/mobile/index.html#p=326",
++      "Traits": "Amphibious. The frog can breathe in both air and water.\nStanding Leap. The frog can long jump up to 20 ft. and high jump up to 10 ft., with or without a run-up.",
++      "Actions": "Bite. Melee weapon attack, +3 to hit, reach 5 ft., one target. A hit deals 4 (1d6 + 1) piercing damage and grapples the target (escape DC 11). The target is restrained while grappled. The frog cannot bite a different target until that grapple ends.\nSwallow. Make one Bite attack against a Small or smaller target the frog already grapples. A hit ends the grapple and swallows the target. The swallowed target is blinded and restrained, has total cover against attacks and other effects from outside the frog, and takes 5 (2d4) acid damage at the start of each of the frog’s turns. The frog can hold one swallowed target. If the frog dies, the target is no longer restrained by it and can spend 5 ft. of movement to leave the corpse, emerging prone.",
++      "At the table": "Use Bite to establish the grapple and Swallow as a separate action. Swallow requires a new attack roll and works only on a Small or smaller grappled target."
++    }
++  },
++  {
++    "name": "Giant Goat",
++    "publication": "Basic Rules (2018)",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 11,
++    "hp": 19,
++    "hitDice": "3d10 + 3",
++    "speed": "40 ft.",
++    "cr": "1/2",
++    "xp": 100,
++    "abilities": {
++      "Str": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Dex": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 3,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "AC from natural armor. Passive Perception 11. No listed languages or special senses.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A large, thick-coated goat with a beard, split hooves, a short tail, and a pair of swept-back horns.",
++    "habitats": ["Mountains", "Hills", "Upland grassland"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Basic Rules (2018), and printed page 133. ",
++      "Traits": "Charge. Move at least 20 ft. directly toward a target and hit it with Ram on the same turn. The hit deals an extra 5 (2d4) bludgeoning damage. If the target is a creature, it must make a DC 13 Strength save or fall prone.\nSure-Footed. The goat has advantage on Strength and Dexterity saves against effects that would knock it prone.",
++      "Actions": "Ram. Melee weapon attack, +5 to hit against one target within 5 ft. A hit deals 8 (2d4 + 3) bludgeoning damage.",
++      "At the table": "A charging Ram deals 13 (4d4 + 3) total bludgeoning damage. The creature’s save determines whether it falls prone."
++    }
++  },
++  {
++    "name": "Giant Goat",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 11,
++    "hp": 19,
++    "hitDice": "3d10 + 3",
++    "speed": "40 ft.",
++    "cr": "1/2",
++    "xp": 100,
++    "abilities": {
++      "Str": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Dex": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 3,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "AC from natural armor. Passive Perception 11. No listed languages or special senses.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A large, thick-coated goat with a beard, split hooves, a short tail, and a pair of swept-back horns.",
++    "habitats": ["Mountains", "Hills", "Upland grassland"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Monster Manual (2014), printed p. 326. https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/328/",
++      "Traits": "Charge. Move at least 20 ft. directly toward a target and hit it with Ram on the same turn. The hit deals an extra 5 (2d4) bludgeoning damage. If the target is a creature, it must make a DC 13 Strength save or fall prone.\nSure-Footed. The goat has advantage on Strength and Dexterity saves against effects that would knock it prone.",
++      "Actions": "Ram. Melee weapon attack, +5 to hit against one target within 5 ft. A hit deals 8 (2d4 + 3) bludgeoning damage.",
++      "At the table": "A charging Ram deals 13 (4d4 + 3) total bludgeoning damage. The creature’s save determines whether it falls prone."
++    }
++  },
++  {
++    "name": "Giant Hyena",
++    "publication": "Basic Rules (2018)",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 12,
++    "hp": 45,
++    "hitDice": "6d10 + 12",
++    "speed": "50 ft.",
++    "cr": "1",
++    "xp": 200,
++    "abilities": {
++      "Str": {
++        "score": 16,
++        "modifier": 3
++      },
++      "Dex": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 7,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Perception +3. Passive Perception 13. No listed languages or special senses.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A large spotted hyena with broad jaws and round ears. Its powerful front shoulders stand above the hindquarters and carry a short dark mane.",
++    "habitats": ["Grassland", "Savanna", "Dry scrub", "Open woodland"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Basic Rules (2018), and printed page 133. ",
++      "Traits": "Rampage. On its own turn, if the hyena drops a creature to 0 HP with a melee attack, it can use a bonus action to move up to half its speed and make a Bite attack.",
++      "Actions": "Bite. Melee weapon attack, +5 to hit against one target within 5 ft. A hit deals 10 (2d6 + 3) piercing damage.",
++      "At the table": "At its printed 50-ft. speed, the hyena can move up to 25 ft. as part of Rampage, then make the Bite."
++    }
++  },
++  {
++    "name": "Giant Hyena",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 12,
++    "hp": 45,
++    "hitDice": "6d10 + 12",
++    "speed": "50 ft.",
++    "cr": "1",
++    "xp": 200,
++    "abilities": {
++      "Str": {
++        "score": 16,
++        "modifier": 3
++      },
++      "Dex": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 7,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Perception +3. Passive Perception 13. No listed languages or special senses.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A large spotted hyena with broad jaws and round ears. Its powerful front shoulders stand above the hindquarters and carry a short dark mane.",
++    "habitats": ["Grassland", "Savanna", "Dry scrub", "Open woodland"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Monster Manual (2014), printed p. 326. https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/328/",
++      "Traits": "Rampage. On its own turn, if the hyena drops a creature to 0 HP with a melee attack, it can use a bonus action to move up to half its speed and make a Bite attack.",
++      "Actions": "Bite. Melee weapon attack, +5 to hit against one target within 5 ft. A hit deals 10 (2d6 + 3) piercing damage.",
++      "At the table": "At its printed 50-ft. speed, the hyena can move up to 25 ft. as part of Rampage, then make the Bite."
++    }
++  },
++  {
++    "name": "Giant Lizard",
++    "publication": "Basic Rules (2018)",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 12,
++    "hp": 19,
++    "hitDice": "3d10 + 3",
++    "speed": "30 ft., climb 30 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "abilities": {
++      "Str": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Dex": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Con": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 5,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "AC from natural armor. Darkvision 30 ft. Passive Perception 10. No listed languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A low, mount-sized lizard with pebbled olive-gray scales, four clawed limbs, a wedge-shaped head, and a long tapering tail.",
++    "habitats": ["Underdark", "Caverns", "Woodland", "Wetlands"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Basic Rules (2018), and printed page 134. ",
++      "Actions": "Bite. Melee weapon attack, +4 to hit against one target within 5 ft. A hit deals 6 (1d8 + 2) piercing damage.",
++      "At the table": "Residents of the Underdark and reptilian humanoids use giant lizards as riding and draft animals."
++    }
++  },
++  {
++    "name": "Giant Lizard",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 12,
++    "hp": 19,
++    "hitDice": "3d10 + 3",
++    "speed": "30 ft., climb 30 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "abilities": {
++      "Str": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Dex": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Con": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 5,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "AC from natural armor. Darkvision 30 ft. Passive Perception 10. No listed languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A low, mount-sized lizard with pebbled olive-gray scales, four clawed limbs, a wedge-shaped head, and a long tapering tail.",
++    "habitats": ["Underdark", "Caverns", "Woodland", "Wetlands"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Monster Manual (2014), printed p. 326. https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/328/",
++      "Actions": "Bite. Melee weapon attack, +4 to hit against one target within 5 ft. A hit deals 6 (1d8 + 2) piercing damage.",
++      "At the table": "Residents of the Underdark and reptilian humanoids use giant lizards as riding and draft animals.",
++      "Optional traits": "The Monster Manual allows either or both of these traits for an individual.\nHold Breath. The lizard can hold its breath for 15 minutes. Add a 30-ft. swim speed.\nSpider Climb. It can climb difficult surfaces, including across ceilings upside down, without an ability check."
++    }
++  },
++  {
++    "name": "Giant Octopus",
++    "publication": "Basic Rules (2018)",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 11,
++    "hp": 52,
++    "hitDice": "8d10 + 8",
++    "speed": "10 ft., swim 60 ft.",
++    "cr": "1",
++    "xp": 200,
++    "abilities": {
++      "Str": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Dex": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Con": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 4,
++        "modifier": -3
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 4,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Perception +4, Stealth +5. Darkvision 60 ft. Passive Perception 14. No languages.",
++    "appearance": "A massive octopus with a mottled burgundy mantle and eight muscular arms lined with pale suction cups.",
++    "habitats": ["Underwater", "Rocky reefs", "Kelp forests"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, Basic Rules (2018), Chapter 12, Monsters, printed p. 134. ",
++      "Traits": "Hold Breath. Out of water, the octopus can hold its breath for 1 hour.\nUnderwater Camouflage. Gain advantage on Dexterity (Stealth) checks while underwater.\nWater Breathing. The octopus only breathes underwater.",
++      "Actions": "Tentacles. Melee weapon attack, +5 to hit with 15-ft. reach against one target. On a hit, deal 10 (2d6 + 3) bludgeoning damage. A creature hit is grappled (escape DC 16) and restrained until the grapple ends. While that grapple lasts, the octopus cannot use Tentacles on another target.\nInk Cloud. When underwater, fill a 20-ft. radius around the octopus with ink. The area is heavily obscured for 1 minute, or until a significant current clears it. After releasing the ink, the octopus can Dash as a bonus action. Recharge after a short or long rest.",
++      "At the table": "The Tentacles hit applies the grapple and restraint. The DC is for an escape attempt. The grappled target can use its action to escape with a successful DC 16 Strength (Athletics) or Dexterity (Acrobatics) check. Ink Cloud obscures vision in its area."
++    }
++  },
++  {
++    "name": "Giant Octopus",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 11,
++    "hp": 52,
++    "hitDice": "8d10 + 8",
++    "speed": "10 ft., swim 60 ft.",
++    "cr": "1",
++    "xp": 200,
++    "abilities": {
++      "Str": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Dex": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Con": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 4,
++        "modifier": -3
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 4,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Perception +4, Stealth +5. Darkvision 60 ft. Passive Perception 14. No languages.",
++    "appearance": "A massive octopus with a mottled burgundy mantle and eight muscular arms lined with pale suction cups.",
++    "habitats": ["Underwater", "Rocky reefs", "Kelp forests"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, Monster Manual (2014), Appendix A, Miscellaneous Creatures, printed p. 326. https://online.anyflip.com/pqhqn/sezy/files/basic-html/page327.html",
++      "Traits": "Hold Breath. Out of water, the octopus can hold its breath for 1 hour.\nUnderwater Camouflage. Gain advantage on Dexterity (Stealth) checks while underwater.\nWater Breathing. The octopus only breathes underwater.",
++      "Actions": "Tentacles. Melee weapon attack, +5 to hit with 15-ft. reach against one target. On a hit, deal 10 (2d6 + 3) bludgeoning damage. A creature hit is grappled (escape DC 16) and restrained until the grapple ends. While that grapple lasts, the octopus cannot use Tentacles on another target.\nInk Cloud. When underwater, fill a 20-ft. radius around the octopus with ink. The area is heavily obscured for 1 minute, or until a significant current clears it. After releasing the ink, the octopus can Dash as a bonus action. Recharge after a short or long rest.",
++      "At the table": "The Tentacles hit applies the grapple and restraint. The DC is for an escape attempt. The grappled target can use its action to escape with a successful DC 16 Strength (Athletics) or Dexterity (Acrobatics) check. Ink Cloud obscures vision in its area."
++    }
++  },
+   {
+     "name": "Ancient Black Dragon",
+     "classification": "Gargantuan dragon, chaotic evil",

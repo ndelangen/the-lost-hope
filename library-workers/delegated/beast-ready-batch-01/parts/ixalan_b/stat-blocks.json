@@ -1,0 +1,261 @@
+[
+  {
+    "name": "Brontodon",
+    "publication": "Plane Shift: Ixalan",
+    "edition": "2014 fifth edition",
+    "classification": "Gargantuan Beast, unaligned",
+    "ac": 15,
+    "hp": 121,
+    "hitDice": "9d20 + 27",
+    "speed": "30 ft.",
+    "cr": "5",
+    "xp": 1800,
+    "abilities": {
+      "Str": {
+        "score": 21,
+        "modifier": 5
+      },
+      "Dex": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Con": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Natural armor. Constitution save +6. Passive Perception 10. No listed languages or special senses.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "An enormous long-necked herd dinosaur with a heavy green-scaled body, four pillar-like legs, a long tail, and blue quills near the head.",
+    "habitats": [
+      "Sun Coast plains",
+      "Sparse forests",
+      "Ixalan grasslands"
+    ],
+    "sections": {
+      "Printed source": "James Wyatt, Plane Shift: Ixalan, first printing (January 2018), page 27, The Rumbling Herds.  Use the Brontosaurus stat block in Volo's Guide to Monsters, first printing, november 2016, printed p. 139. ",
+      "Actions": "Stomp. Melee weapon attack, +8 to hit, 20-ft. reach, one target. On a hit, deal 27 (5d8 + 5) bludgeoning damage. The target makes a DC 14 Strength save or falls prone.\nTail. Melee weapon attack, +8 to hit, 20-ft. reach, one target. On a hit, deal 32 (6d8 + 5) bludgeoning damage."
+    }
+  },
+  {
+    "name": "Ceratops",
+    "publication": "Plane Shift: Ixalan",
+    "edition": "2014 fifth edition",
+    "classification": "Huge Beast, unaligned",
+    "ac": 13,
+    "hp": 95,
+    "hitDice": "10d12 + 30",
+    "speed": "50 ft.",
+    "cr": "5",
+    "xp": 1800,
+    "abilities": {
+      "Str": {
+        "score": 22,
+        "modifier": 6
+      },
+      "Dex": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Con": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Natural armor. Passive Perception 10. No listed languages or special senses.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A four-legged herbivore with a low sturdy body, a beak, enormous facial horns and a broad feathered frill protecting its neck.",
+    "habitats": [
+      "Ixalan plains",
+      "Grasslands",
+      "Sun Empire"
+    ],
+    "sections": {
+      "Printed source": "James Wyatt, Plane Shift: Ixalan, first printing (January 2018), page 28, Horned Herbivores.  Use the Triceratops stat block in Monster Manual, first printing, september 2014, printed p. 80. https://www.dndbeyond.com/monsters/17039-triceratops",
+      "Traits": "Trampling Charge. If the ceratops travels at least 20 ft. straight toward a creature and hits it with Gore on the same turn, that creature must pass a DC 13 Strength save or fall prone. If the target is prone, the ceratops can Stomp it once as a bonus action.",
+      "Actions": "Gore. Melee weapon attack, +9 to hit, 5-ft. reach, one target. On a hit, deal 24 (4d8 + 6) piercing damage.\nStomp. Melee weapon attack, +9 to hit, 5-ft. reach, one prone creature. On a hit, deal 22 (3d10 + 6) bludgeoning damage."
+    }
+  },
+  {
+    "name": "Ferocidon",
+    "publication": "Plane Shift: Ixalan",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 13,
+    "hp": 51,
+    "hitDice": "6d10 + 18",
+    "speed": "60 ft.",
+    "cr": "2",
+    "xp": 450,
+    "abilities": {
+      "Str": {
+        "score": 19,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Natural armor. Perception +5. Passive Perception 15. No listed languages or special senses.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "An allosaur-shaped raptor relative with a long balancing tail, powerful hind legs, a narrow toothy head, and clawed forelimbs.",
+    "habitats": [
+      "Ixalan grasslands",
+      "Open ground",
+      "Jungle edges"
+    ],
+    "sections": {
+      "Printed source": "James Wyatt, Plane Shift: Ixalan, first printing (January 2018), page 30, Teeth and Frills.  Use the Allosaurus stat block in Monster Manual, first printing, september 2014, printed p. 79. https://www.dndbeyond.com/monsters/17087-allosaurus",
+      "Traits": "Pounce. If the ferocidon travels at least 30 ft. straight toward a creature and hits it with Claw on the same turn, that creature must pass a DC 13 Strength save or fall prone. If the target is prone, the ferocidon can Bite it once as a bonus action.",
+      "Actions": "Bite. Melee weapon attack, +6 to hit, 5-ft. reach, one target. On a hit, deal 15 (2d10 + 4) piercing damage.\nClaw. Melee weapon attack, +6 to hit, 5-ft. reach, one target. On a hit, deal 8 (1d8 + 4) slashing damage."
+    }
+  },
+  {
+    "name": "Gishath, Sun's Avatar",
+    "publication": "Plane Shift: Ixalan",
+    "edition": "2014 fifth edition",
+    "classification": "Gargantuan Beast, unaligned",
+    "ac": 16,
+    "hp": 203,
+    "hitDice": "14d20 + 56",
+    "speed": "40 ft.",
+    "cr": "10",
+    "xp": 5900,
+    "abilities": {
+      "Str": {
+        "score": 24,
+        "modifier": 7
+      },
+      "Dex": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Int": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Wis": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Natural armor. Saves Strength +11, Constitution +8, Wisdom +7, Charisma +2. Perception +7. Passive Perception 17. No listed languages or special senses.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A towering tyrannosaur-like dinosaur with heavy hind legs, a massive tooth-lined head, short front limbs, neck spines, and a feather ruff.",
+    "habitats": [
+      "Ixalan jungle",
+      "Sun Empire"
+    ],
+    "sections": {
+      "Printed source": "James Wyatt, Plane Shift: Ixalan, first printing (January 2018), page 32, Gishath, Sun's Avatar. ",
+      "Traits": "Legendary Resistance (3/day). Gishath can turn a failed saving throw into a success.",
+      "Actions": "Multiattack. Make one Bite and one Stomp or Tail attack. The two attacks must have different targets.\nBite. Melee weapon attack, +11 to hit, 15-ft. reach, one target. On a hit, deal 39 (5d12 + 7) piercing damage. A Large or smaller creature hit must pass a DC 19 Dexterity save or be grappled (escape DC 19). The creature is restrained during the grapple, and Gishath cannot Bite another target until the grapple ends.\nSwallow. Make one Bite attack against a Large or smaller creature Gishath is grappling. On a hit, apply the Bite damage, swallow the creature, and end the grapple. A swallowed creature is blinded and restrained, has total cover from attacks and effects originating outside Gishath, and takes 21 (6d6) acid damage at the start of each of Gishath’s turns.\nIf an individual swallowed creature deals at least 30 damage to Gishath in one turn, Gishath must make a DC 18 Constitution save at that turn’s end. On a failure, it ejects every swallowed creature. Each lands prone in a space within 10 ft. of it. If Gishath dies, a swallowed creature is no longer restrained by it and can spend 20 ft. of movement to exit the body prone.\nStomp. Melee weapon attack, +11 to hit, 10-ft. reach, one target. On a hit, deal 29 (5d8 + 7) bludgeoning damage. The target must pass a DC 19 Strength save or fall prone.\nTail. Melee weapon attack, +11 to hit, 15-ft. reach, one target. On a hit, deal 25 (4d8 + 7) bludgeoning damage.",
+      "Legendary actions": "Gishath has 3 legendary actions. Spend them one option at a time at the end of another creature’s turn. Gishath recovers spent actions at the start of its own turn.\nAttack (1 action). Make one Stomp or Tail attack.\nRoar (2 actions). Any creature within 120 ft. that can hear Gishath makes a DC 19 Wisdom save. Failure frightens it for 1 minute. An affected creature can repeat the save at the end of each of its turns and ends the effect on a success. A creature becomes immune to this Roar for 24 hours when it succeeds on a save or the effect ends for it."
+    }
+  },
+  {
+    "name": "Hadrosaur",
+    "publication": "Plane Shift: Ixalan",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 11,
+    "hp": 19,
+    "hitDice": "3d10 + 3",
+    "speed": "40 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Natural armor. Perception +2. Passive Perception 12. No listed languages or special senses.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A duck-billed herbivore with a bony crest on its head, sturdy hindquarters, smaller front limbs, and a long balancing tail.",
+    "habitats": [
+      "Ixalan grasslands",
+      "Wetlands",
+      "Swamps"
+    ],
+    "sections": {
+      "Printed source": "James Wyatt, Plane Shift: Ixalan, first printing (January 2018), page 29, Scales, Spikes, and Hammers continuation.  Use the Hadrosaurus stat block in Volo's Guide to Monsters, first printing, november 2016, printed p. 140. ",
+      "Actions": "Tail. Melee weapon attack, +4 to hit, 5-ft. reach, one target. On a hit, deal 7 (1d10 + 2) bludgeoning damage.",
+      "At the table": "The base description says a hadrosaur raised from hatching can be trained as a mount for a Small or Medium rider. This is lore on p. 139."
+    }
+  }
+]

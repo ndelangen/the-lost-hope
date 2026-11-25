@@ -1,0 +1,68 @@
+[
+  {
+    "entityKind": "monster",
+    "name": "Anomollusk",
+    "publication": "Monsters of Drakkenheim",
+    "edition": "2024 fifth edition compatible",
+    "file": "images/monsters/anomollusk/source-related-flail-snail.webp",
+    "artist": "Related creature art: Flail Snail by Cory Trego-Erdner · Mordenkainen Presents: Monsters of the Multiverse",
+    "kind": "illustration",
+    "sha256": "df0cd65c1907fb65dbfebf4630fe666ec5de5cbe1eaf4ef99adc2f267183c1ef",
+    "reference": "images/monsters/flail-snail/mpmm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Apex",
+    "publication": "Monsters of Drakkenheim",
+    "edition": "2024 fifth edition compatible",
+    "file": "images/monsters/apex/source-related-mutagenist.webp",
+    "artist": "Precursor creature art: Mutagenist",
+    "kind": "illustration",
+    "sha256": "7d965c9191cbf785c1c170814e799ef80146da5c1dd89a87b6b691f15169aec8",
+    "reference": "images/monsters/mutagenist/publisher-f84b296e90799a8c.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Chorus",
+    "publication": "Monsters of Drakkenheim",
+    "edition": "2024 fifth edition compatible",
+    "file": "images/monsters/chorus/source-related-graffiti.webp",
+    "artist": "Summoning creature art: Graffiti",
+    "kind": "illustration",
+    "sha256": "538a5ccf5578227148a217d5882aec40c906310018376a417a1a9021c74f23ee",
+    "reference": "images/monsters/graffiti/publisher-b09af39aa69d7f27.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Grasping Shadow",
+    "publication": "Monsters of Drakkenheim",
+    "edition": "2024 fifth edition compatible",
+    "file": "images/monsters/grasping-shadow/source-related-executioner.webp",
+    "artist": "Summoning creature art: Executioner",
+    "kind": "illustration",
+    "sha256": "ca0b305edb6f0f7ba55854332291e0741dbab27b36e0248675cf9619ce1dcf98",
+    "reference": "images/monsters/executioner/publisher-6e2029737a6e0750.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Mind Leech",
+    "publication": "Monsters of Drakkenheim",
+    "edition": "2024 fifth edition compatible",
+    "file": "images/monsters/mind-leech/source-related-blood-leech.webp",
+    "artist": "Base creature art: Blood Leech",
+    "kind": "illustration",
+    "sha256": "63546caa347023d5de56edf66b62f7852e345ab0dc6ceea85457529952ce633d",
+    "reference": "images/monsters/blood-leech/publisher-28f5d41d34ac2e22.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Spell Leech",
+    "publication": "Monsters of Drakkenheim",
+    "edition": "2024 fifth edition compatible",
+    "file": "images/monsters/spell-leech/source-related-blood-leech.webp",
+    "artist": "Base creature art: Blood Leech",
+    "kind": "illustration",
+    "sha256": "63546caa347023d5de56edf66b62f7852e345ab0dc6ceea85457529952ce633d",
+    "reference": "images/monsters/blood-leech/publisher-28f5d41d34ac2e22.webp"
+  }
+]

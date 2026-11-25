@@ -1,0 +1,383 @@
+{
+  "result": [
+    {
+      "name": "Forest Ray",
+      "version": {
+        "key": "5af22fb759e59f5af161b1a3",
+        "publication": "Savage Coast Monstrous Compendium Appendix",
+        "edition": "AD&D 2nd edition",
+        "status": "Combat summary",
+        "images": [
+          {
+            "url": "",
+            "credit": "TSR source illustration, p. 93 · Savage Coast Monstrous Compendium Appendix"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "6"
+          ],
+          [
+            "Hit dice",
+            "8–11"
+          ],
+          [
+            "Size",
+            "G, 16–20 ft. wingspan"
+          ],
+          [
+            "Movement",
+            "Fl 18 (E)"
+          ],
+          [
+            "THAC0 notes",
+            "13 at 8 HD, 11 at 9–10 HD, or 9 at 11 HD."
+          ],
+          [
+            "Attacks per round",
+            "1"
+          ],
+          [
+            "Damage per attack",
+            "3d4 bite or 2d10 sting"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Habitats",
+            "lines": [
+              "Forest",
+              "Jungle",
+              "Heavy undergrowth"
+            ]
+          },
+          {
+            "title": "Appearance",
+            "lines": [
+              "A huge, flat flying ray with a dark mottled green back, broad batlike fins, a pale underside with a second pair of eyes, and a short stinging tail."
+            ]
+          },
+          {
+            "title": "Attack options",
+            "lines": [
+              "Choose one Bite or one Sting."
+            ]
+          },
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · 3d4",
+              "Sting · melee · 2d10"
+            ]
+          },
+          {
+            "title": "Trait mechanics",
+            "lines": [
+              "Buried ambush · A buried ray imposes the printed +2 bonus to surprise opponents. It cannot fly above the treetops and may turn sideways between trees. Its body takes several days to change color for camouflage.",
+              "Red Curse Legacy · A ray has a 25% chance of having a Legacy. The source usually assigns a Region 4 Legacy and gives a 10% chance of a Region 3 Legacy. It requires no cinnabryl."
+            ]
+          },
+          {
+            "title": "Special attack mechanics",
+            "lines": [
+              "Swallow · On a Bite that beats the required attack roll by more than 2, swallow a man-sized or smaller target. A swallowed creature dies after 6 rounds. It can attack the ray from inside with a dagger or short sword at −4, against the ray’s normal AC.",
+              "Stun · A Sting hit deals 2d10 damage. The victim saves vs. paralyzation or is stunned for 2d4 rounds."
+            ]
+          },
+          {
+            "title": "Example Legacy mechanics",
+            "lines": [
+              "Duplicate · Create a controllable or programmed illusory copy within 10 yards for 2 rounds per level.",
+              "Regenerate · Regain HP equal to Hit Dice at 1 HP per round. Small body parts can regrow."
+            ]
+          },
+          {
+            "title": "Table notes",
+            "lines": [
+              "The Swallow prose says the attack must exceed the required roll by more than 2. Its example says 16 suffices when 14 was required. The displayed rule follows the prose.",
+              "XP by Hit Dice. 8 HD 3,000, 9 HD 4,000, 10 HD 5,000, 11 HD 6,000. Add 1,000 XP for a ray with a Legacy.",
+              "Rare, solitary, active at any time, carnivore, nonintelligent (0), neutral. Number appearing 1. Treasure J–N ×10, Q ×5, X. Morale elite (13–14). No magic resistance.",
+              "TSR, Savage Coast Monstrous Compendium Appendix (1996), pp. 93–94.",
+              "The Appendix describes the selected example Legacies on pp. 7–8. Ready Legacies are generally usable three times per day."
+            ]
+          }
+        ]
+      },
+      "queries": {
+        "Forest": true,
+        "A huge, flat flying ray": true
+      },
+      "gallery": [
+        {
+          "url": "",
+          "credit": "OpenAI ImageGen · The Lost Hope"
+        },
+        {
+          "url": "",
+          "credit": "TSR source illustration, p. 93 · Savage Coast Monstrous Compendium Appendix"
+        }
+      ],
+      "portraitHash": "0eba1358bbfffeb36871c1473cf61e06e846fe8e7aac790c401682de3eeec9cb"
+    },
+    {
+      "name": "Saragón Lyra Bird",
+      "version": {
+        "key": "8abf918ae61f3d734c12cb27",
+        "publication": "Savage Coast Monstrous Compendium Appendix",
+        "edition": "AD&D 2nd edition",
+        "status": "Combat summary",
+        "images": [
+          {
+            "url": "",
+            "credit": "TSR source illustration, p. 71 · Savage Coast Monstrous Compendium Appendix"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "7"
+          ],
+          [
+            "Hit points",
+            "1"
+          ],
+          [
+            "Size",
+            "T"
+          ],
+          [
+            "Movement",
+            "Fl 18 (A)"
+          ],
+          [
+            "Attacks per round",
+            "0"
+          ],
+          [
+            "XP",
+            "65"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Habitats",
+            "lines": [
+              "Temperate plains",
+              "Subtropical plains"
+            ]
+          },
+          {
+            "title": "Appearance",
+            "lines": [
+              "An iridescent, hummingbird-shaped songbird with a long pointed beak, metallic green or blue feathers, a pale belly and a bright throat on the male."
+            ]
+          },
+          {
+            "title": "Attack options",
+            "lines": [
+              "No physical attacks. The bird uses its aura and songs, then flees."
+            ]
+          },
+          {
+            "title": "Trait mechanics",
+            "lines": [
+              "Protection from Evil · Continuously produces the AD&D 2e Protection from Evil effect in a 10 ft. radius.",
+              "Symbiosis · The bird reduces its host’s parasite infestation by one percentage point per day to a floor of 5%, then moves on. It dies after a week without parasites to eat.",
+              "Red Curse · Lyra birds never acquire Legacies or require cinnabryl."
+            ]
+          },
+          {
+            "title": "Special attack mechanics",
+            "lines": [
+              "Charm songs · While singing, the bird can use Charm Person, Charm Monster or Charm Plant. The appendix says three times per day and gives no separate use count for each spell. Resolve the selected spell using its AD&D 2e rules. Charmed creatures defend the bird as best they can."
+            ]
+          },
+          {
+            "title": "Encounter mechanics",
+            "lines": [
+              "XP award · Award 65 XP for a significant encounter, such as hearing the bird sing or hosting it. Killing or defeating it does not grant the award.",
+              "Rumored curses · The book presents these as optional consequences. Killing a bird may impose −2 to combat rolls and saving throws or −4 to proficiency checks, removable by druid-directed penance. Death in captivity is rumored to cause a permanent debilitating Affliction."
+            ]
+          },
+          {
+            "title": "Table notes",
+            "lines": [
+              "The descriptive text calls the creature hummingbird-sized. The table prints T and a length of 4–5 ft. The profile keeps the Tiny size category and the portrait follows the prose.",
+              "Very rare, usually solitary, active by day, insectivore, animal intelligence (1), neutral. Number appearing 1. No treasure or magic resistance. Morale unreliable (2–4). THAC0 and physical attack damage are listed as nil.",
+              "TSR, Savage Coast Monstrous Compendium Appendix (1996), pp. 71–72."
+            ]
+          }
+        ]
+      },
+      "queries": {
+        "Temperate plains": true,
+        "An iridescent, hummingbird-shaped songbird with": true
+      },
+      "gallery": [
+        {
+          "url": "",
+          "credit": "OpenAI ImageGen · The Lost Hope"
+        },
+        {
+          "url": "",
+          "credit": "TSR source illustration, p. 71 · Savage Coast Monstrous Compendium Appendix"
+        }
+      ],
+      "portraitHash": "2bb3001ec1eb0f3663e795ac8b75c86ba4ad0a60d4f276d7a25f279d9d9cadc1"
+    },
+    {
+      "name": "Skinwing",
+      "version": {
+        "key": "724976590eea5431d0d800eb",
+        "publication": "Savage Coast Monstrous Compendium Appendix",
+        "edition": "AD&D 2nd edition",
+        "status": "Combat summary",
+        "images": [
+          {
+            "url": "",
+            "credit": "TSR source illustration, p. 96 · Savage Coast Monstrous Compendium Appendix"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "3"
+          ],
+          [
+            "Hit dice",
+            "4–7"
+          ],
+          [
+            "Size",
+            "H, 12–21 ft. wingspan"
+          ],
+          [
+            "Movement",
+            "6, Fl 15 (C)"
+          ],
+          [
+            "THAC0 notes",
+            "17 at 4 HD, 15 at 5–6 HD, or 13 at 7 HD."
+          ],
+          [
+            "Attacks per round",
+            "2"
+          ],
+          [
+            "Damage per attack",
+            "1d4/1d4 claws or 2d4 bite"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Habitats",
+            "lines": [
+              "Tropical land",
+              "Subtropical land",
+              "Caves",
+              "Dark buildings",
+              "Dense forests"
+            ]
+          },
+          {
+            "title": "Appearance",
+            "lines": [
+              "A reptilian flyer with a small body, dirty brown scales, large black eyes, broad hairless leathery wings and sharp claws."
+            ]
+          },
+          {
+            "title": "Attack options",
+            "lines": [
+              "Two Claws in a flying rake, or one Bite while landed or flying very slowly."
+            ]
+          },
+          {
+            "title": "Alternate armor classes",
+            "lines": [
+              "7 · While using the Bite attack mode"
+            ]
+          },
+          {
+            "title": "Attacks",
+            "lines": [
+              "Claw · melee · 1d4",
+              "Bite · melee · 2d4"
+            ]
+          },
+          {
+            "title": "Trait mechanics",
+            "lines": [
+              "Flying mount · Needs a drop-off to launch when carrying a rider. It can carry about 30 lb. per Hit Die. It cannot attack while ridden. Every half hour of ridden flight it must save vs. paralyzation or land immediately from exhaustion.",
+              "Flight limits · Flies no higher than about 1,000 ft. At 50% or more damage it loses flight until fully healed. A trained skinwing has +1 morale.",
+              "Red Curse Legacy · 25% have a Region 3 Legacy, commonly Anti-Missile or Gaseous Form. Skinwings require no cinnabryl."
+            ]
+          },
+          {
+            "title": "Special attack mechanics",
+            "lines": [
+              "Flying rake · Make two Claws attacks for 1d4 each and fly out of range before the prey can retaliate. If both hit a target lighter than half the skinwing’s carrying capacity, it can lift the victim and deals 2d4 damage per round afterward.",
+              "Bite · Land or fly very slowly to attack once with Bite for 2d4 damage. AC is 7 in this attack mode."
+            ]
+          },
+          {
+            "title": "Example Legacy mechanics",
+            "lines": [
+              "Anti-Missile · Nonmagical missiles hit it only on a natural 20 for 1 round per level.",
+              "Gaseous Form · Become gaseous for 1 round per level, with movement rate 3 and maneuverability B."
+            ]
+          },
+          {
+            "title": "Table notes",
+            "lines": [
+              "XP by Hit Dice, followed by XP with a Legacy. 4 HD 175 or 270, 5 HD 270 or 420, 6 HD 420 or 650, 7 HD 650 or 975.",
+              "Rare, flock, active at any time and mainly feeds by day, carnivore, semi-intelligent (2–4), neutral with evil tendencies. Number appearing 2d4. No treasure or magic resistance. Morale steady (11–12).",
+              "A skinwing will usually avoid man-sized or larger prey unless trained. A hungry flock may attack larger prey and typically focuses on one target.",
+              "TSR, Savage Coast Monstrous Compendium Appendix (1996), pp. 96–97.",
+              "The Appendix describes the selected example Legacies on pp. 7–8. Ready Legacies are generally usable three times per day."
+            ]
+          }
+        ]
+      },
+      "queries": {
+        "Tropical land": true,
+        "A reptilian flyer with a": true
+      },
+      "gallery": [
+        {
+          "url": "",
+          "credit": "OpenAI ImageGen · The Lost Hope"
+        },
+        {
+          "url": "",
+          "credit": "TSR source illustration, p. 96 · Savage Coast Monstrous Compendium Appendix"
+        }
+      ],
+      "portraitHash": "64c6a6699b292d07f74d9440fb4d18992579dfc5027bfb09b02dd7b34cfdf993"
+    }
+  ],
+  "comparison": {
+    "key": "7025cb57479b15938fb7e052",
+    "publication": "Monsters of Drakkenheim",
+    "edition": "2024 fifth edition compatible",
+    "source": "https://www.dndbeyond.com/monsters/5525119-skinwing",
+    "artwork": "https://www.dndbeyond.com/avatars/thumbnails/49561/733/1000/1000/638844714260262647.png",
+    "images": [
+      {
+        "url": "",
+        "credit": "D&D Beyond publisher art · Monsters of Drakkenheim"
+      }
+    ],
+    "stats": [
+      [
+        "Challenge",
+        "4"
+      ],
+      [
+        "Type",
+        "Monstrosity"
+      ]
+    ],
+    "sections": []
+  }
+}

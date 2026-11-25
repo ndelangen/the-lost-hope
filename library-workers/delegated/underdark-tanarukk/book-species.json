@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Tanarukk",
+    "kind": "species",
+    "publication": "Underdark (2003)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Medium Outsider (Native). +4 Strength, +2 Dexterity, −2 Wisdom, −4 Charisma. Land speed 20 ft. Darkvision 60 ft. and +4 natural armor.",
+      "Fire resistance 10. Spell resistance is 14 + class levels.",
+      "Proficient with all martial weapons.",
+      "The natural bite deals 1d6 bludgeoning, piercing, and slashing damage before Strength. In a full attack with a weapon, apply a −5 penalty to the bite attack and add half the Strength bonus to its damage.",
+      "Control Flame (Sp), 1/day, caster level 5. As a standard action, change an existing nonmagical fire within 10 ft. Dim it to coals or brighten it to daylight brightness and twice its normal illumination radius. The effect lasts 5 minutes. Heat output and fuel consumption stay the same.",
+      "Orc Blood allows the tanarukk to use or create items with orc-specific powers as an orc.",
+      "Five racial Hit Dice (5d8) grant BAB +5, base Fortitude +4, Reflex +4, Will +4, and two feats. Racial skill points are 8 × (8 + Intelligence modifier). The racial class skills are Hide, Intimidate, Listen, Search, and Spot.",
+      "LA +3. ECL 8 before class levels and ECL 9 with one class level. Favored class Barbarian.",
+      "Abyssal and Orc are automatic. Add the home region’s automatic languages and choose bonus languages by region. The original entry describes tanarukks as illiterate until they take a PC class other than Barbarian.",
+      "Underdark supplies the 3.5 advancement entry and refers to Races of Faerûn for the detailed playable rules."
+    ]
+  }
+]

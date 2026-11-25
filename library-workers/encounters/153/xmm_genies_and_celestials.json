@@ -1,0 +1,422 @@
+[
+  {
+    "name": "Dao",
+    "statBlock": {
+      "name": "Dao",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 89,
+      "classification": "Large elemental (genie), neutral",
+      "ac": 18,
+      "hp": 200,
+      "hitDice": "16d10 + 112",
+      "speed": "30 ft., burrow 30 ft., fly 30 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 23
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 24
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "11",
+      "xp": 7200,
+      "passivePerception": 11,
+      "savingThrows": {
+        "Dex": 5,
+        "Wis": 5
+      },
+      "skills": {},
+      "description": "An earth genie that glides through unworked stone and bargains for gems, metalwork, or fossils.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+1 (11).",
+        "Condition immunities": "Petrified.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Primordial (Terran).",
+        "Traits": "Earth Glide. The dao can burrow through unworked, nonmagical earth and stone without disturbing it.\nElemental Restoration. If the genie dies outside the Elemental Plane of Earth, its body dissolves into dirt. It returns at full HP in a new body somewhere on that plane after 1d4 days.\nMagic Resistance. Roll saving throws against spells and other magical effects with Advantage.\nWishes. Roll a 30 percent chance that this genie knows Wish. It can cast the spell solely on behalf of a non-genie who expresses a wish it understands. Casting this way causes the genie no stress from the spell. After three castings, it must wait 365 days before casting Wish again.",
+        "Actions": "Multiattack. Make three Earthen Maul attacks or two Earth Burst attacks.\nEarthen Maul. Melee attack, +10 to hit, reach 5 ft. A hit deals 20 (4d6 + 6) bludgeoning damage and knocks a Large or smaller creature Prone.\nEarth Burst. Ranged attack, +10 to hit, range 120 ft. A hit deals 15 (2d8 + 6) bludgeoning damage. Hit or miss, a blast erupts from the target's space. The target and each other creature in the 10-ft. Emanation centered there make a DC 16 Dexterity save. A failed save deals 10 (3d6) thunder damage.",
+        "Spellcasting": "Spellcasting. As an action, cast one listed spell with Charisma and no Material components. Spell save DC 16.\nAt will. Detect Evil and Good, Detect Magic, Stone Shape.\n1/day each. Gaseous Form, Invisibility, Move Earth, Passwall, Plane Shift, Tongues, Wall of Stone.",
+        "Habitats": "Elemental Plane of Earth, Underdark.",
+        "Treasure": "Implements.",
+        "Printed source": "Monster Manual (2024), p. 89."
+      }
+    }
+  },
+  {
+    "name": "Djinni",
+    "statBlock": {
+      "name": "Djinni",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 99,
+      "classification": "Large elemental (genie), chaotic good",
+      "ac": 17,
+      "hp": 218,
+      "hitDice": "19d10 + 114",
+      "speed": "30 ft., fly 90 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 21
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 22
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 20
+        }
+      },
+      "cr": "11",
+      "xp": 7200,
+      "passivePerception": 13,
+      "savingThrows": {
+        "Dex": 6,
+        "Wis": 7
+      },
+      "skills": {},
+      "description": "An air genie that roams stormy coasts and cloud palaces. It may trade stories for lore from other worlds.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+2 (12).",
+        "Damage immunities": "Lightning, thunder.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Primordial (Auran).",
+        "Traits": "Elemental Restoration. If the genie dies outside the Elemental Plane of Air, its body dissolves into mist. It returns at full HP in a new body somewhere on that plane after 1d4 days.\nMagic Resistance. Roll saving throws against spells and other magical effects with Advantage.\nWishes. Roll a 30 percent chance that this genie knows Wish. It can cast the spell solely on behalf of a non-genie who expresses a wish it understands. Casting this way causes the genie no stress from the spell. After three castings, it must wait 365 days before casting Wish again.",
+        "Actions": "Multiattack. Make three attacks using any mix of Storm Blade and Storm Bolt.\nStorm Blade. Melee attack, +9 to hit, reach 5 ft. A hit deals 12 (2d6 + 5) slashing damage plus 7 (2d6) lightning damage.\nStorm Bolt. Ranged attack, +9 to hit, range 120 ft. A hit deals 13 (3d8) thunder damage and knocks a Large or smaller creature Prone.\nCreate Whirlwind. Choose a visible point within 120 ft. The whirlwind fills a 20-ft.-radius, 60-ft.-high Cylinder at that point and lasts until the djinni's Concentration ends. At the start of each of its turns, the djinni can move the whirlwind up to 20 ft. When a creature enters the whirlwind or the whirlwind enters its space, it makes a DC 17 Strength save, at most once per turn. The djinni is unaffected. On a failure, the target is Restrained while in the whirlwind and moves with it. While Restrained this way, it takes 21 (6d6) thunder damage at the start of each of its turns and repeats the save at the end of each of its turns. Success ends the effect on that creature.",
+        "Spellcasting": "Spellcasting. As an action, cast one listed spell with Charisma and no Material components. Spell save DC 17.\nAt will. Detect Evil and Good, Detect Magic.\n2/day each. Create Food and Water (can make wine instead of water), Tongues, Wind Walk.\n1/day each. Creation, Gaseous Form, Invisibility, Major Image, Plane Shift.",
+        "Habitats": "Coasts, Elemental Plane of Air.",
+        "Treasure": "Arcana.",
+        "Printed source": "Monster Manual (2024), p. 99."
+      }
+    }
+  },
+  {
+    "name": "Efreeti",
+    "statBlock": {
+      "name": "Efreeti",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 109,
+      "classification": "Large elemental (genie), neutral",
+      "ac": 17,
+      "hp": 212,
+      "hitDice": "17d10 + 119",
+      "speed": "40 ft., fly 60 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 22
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 24
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 19
+        }
+      },
+      "cr": "11",
+      "xp": 7200,
+      "passivePerception": 12,
+      "savingThrows": {
+        "Wis": 6,
+        "Cha": 8
+      },
+      "skills": {},
+      "description": "A fire genie that can fight with a burning blade or hurl flame from a distance.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+1 (11).",
+        "Damage immunities": "Fire.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Primordial (Ignan).",
+        "Traits": "Elemental Restoration. If the genie dies outside the Elemental Plane of Fire, its body dissolves into ash. It returns at full HP in a new body somewhere on that plane after 1d4 days.\nMagic Resistance. Roll saving throws against spells and other magical effects with Advantage.\nWishes. Roll a 30 percent chance that this genie knows Wish. It can cast the spell solely on behalf of a non-genie who expresses a wish it understands. Casting this way causes the genie no stress from the spell. After three castings, it must wait 365 days before casting Wish again.",
+        "Actions": "Multiattack. Make three attacks using any mix of Heated Blade and Hurl Flame.\nHeated Blade. Melee attack, +10 to hit, reach 5 ft. A hit deals 13 (2d6 + 6) slashing damage plus 13 (2d12) fire damage.\nHurl Flame. Ranged attack, +8 to hit, range 120 ft. A hit deals 24 (7d6) fire damage.",
+        "Spellcasting": "Spellcasting. As an action, cast one listed spell with Charisma and no Material components. Spell save DC 16.\nAt will. Detect Magic, Elementalism.\n1/day each. Gaseous Form, Invisibility, Major Image, Plane Shift, Tongues, Wall of Fire (level 7).",
+        "Habitats": "Deserts, Elemental Plane of Fire.",
+        "Treasure": "Armaments.",
+        "Printed source": "Monster Manual (2024), p. 109."
+      }
+    }
+  },
+  {
+    "name": "Marid",
+    "statBlock": {
+      "name": "Marid",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 203,
+      "classification": "Large elemental (genie), chaotic neutral",
+      "ac": 17,
+      "hp": 229,
+      "hitDice": "17d10 + 136",
+      "speed": "30 ft., fly 60 ft., swim 90 ft.",
+      "abilities": {
+        "Str": {
+          "score": 22
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 26
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 17
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "11",
+      "xp": 7200,
+      "passivePerception": 13,
+      "savingThrows": {
+        "Dex": 5,
+        "Cha": 8
+      },
+      "skills": {},
+      "description": "A water genie at home on coasts and beneath the waves. It can hide in mist and knock enemies back with a jet of water.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+5 (15).",
+        "Damage resistances": "Acid, cold, lightning.",
+        "Senses": "Blindsight 30 ft., Darkvision 120 ft.",
+        "Languages": "Primordial (Aquan).",
+        "Traits": "Amphibious. The marid breathes air and water.\nElemental Restoration. If the genie dies outside the Elemental Plane of Water, its body dissolves into brine. It returns at full HP in a new body somewhere on that plane after 1d4 days.\nWishes. Roll a 30 percent chance that this genie knows Wish. It can cast the spell solely on behalf of a non-genie who expresses a wish it understands. Casting this way causes the genie no stress from the spell. After three castings, it must wait 365 days before casting Wish again.",
+        "Actions": "Multiattack. Make three Aquatic Lash attacks.\nAquatic Lash. Melee attack, +10 to hit, reach 15 ft. A hit deals 15 (2d8 + 6) slashing damage plus 9 (2d8) cold damage.\nWater Jet. Each creature in a 60-ft.-long, 10-ft.-wide Line makes a DC 18 Dexterity save. Failure deals 31 (9d6) cold damage. A Huge or smaller creature that fails also falls Prone and can be pushed up to 20 ft. straight away from the marid. Success halves the damage and avoids the other effects.",
+        "Spellcasting": "Spellcasting. As an action, cast one listed spell with Charisma and no Material components. Spell save DC 16.\nAt will. Create or Destroy Water, Detect Evil and Good, Detect Magic, Purify Food and Drink.\n1/day each. Control Water, Gaseous Form, Invisibility, Plane Shift, Tongues.",
+        "Bonus actions": "Misty Veil (recharge 5–6). Cast Fog Cloud using Charisma, as in Spellcasting.",
+        "Habitats": "Coasts, Elemental Plane of Water, underwater.",
+        "Treasure": "Relics.",
+        "Printed source": "Monster Manual (2024), p. 203."
+      }
+    }
+  },
+  {
+    "name": "Deva",
+    "statBlock": {
+      "name": "Deva",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 97,
+      "classification": "Medium celestial (angel), lawful good",
+      "ac": 17,
+      "hp": 229,
+      "hitDice": "27d8 + 108",
+      "speed": "30 ft., fly 90 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 17
+        },
+        "Wis": {
+          "score": 20
+        },
+        "Cha": {
+          "score": 20
+        }
+      },
+      "cr": "10",
+      "xp": 5900,
+      "passivePerception": 19,
+      "savingThrows": {
+        "Wis": 9,
+        "Cha": 9
+      },
+      "skills": {
+        "Insight": 9,
+        "Perception": 9
+      },
+      "description": "A divine messenger that takes the form of a beast or a winged mortal. It often gives mortals something to deliver on its behalf.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+4 (14).",
+        "Damage resistances": "Radiant.",
+        "Condition immunities": "Charmed, exhaustion, frightened.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "all, telepathy 120 ft.",
+        "Traits": "Exalted Restoration. If the angel dies away from Mount Celestia, its body vanishes and it immediately returns at full HP in a new body somewhere on Mount Celestia.\nMagic Resistance. Roll saving throws against spells and other magical effects with Advantage.",
+        "Actions": "Multiattack. Make two Holy Mace attacks.\nHoly Mace. Melee attack, +8 to hit, reach 5 ft. A hit deals 7 (1d6 + 4) bludgeoning damage plus 18 (4d8) radiant damage.",
+        "Spellcasting": "Spellcasting. As an action, cast one listed spell with Charisma and no Material components. Spell save DC 17.\nAt will. Detect Evil and Good, Shapechange (only Beast or Humanoid forms. The spell grants no Temporary Hit Points, and maintaining it requires neither Temporary Hit Points nor Concentration).\n1/day each. Commune, Raise Dead.",
+        "Bonus actions": "Divine Aid (2/day total). Cast Cure Wounds, Lesser Restoration, or Remove Curse using Charisma, as in Spellcasting.",
+        "Habitats": "Upper Planes.",
+        "Treasure": "Relics.",
+        "Printed source": "Monster Manual (2024), p. 97."
+      }
+    }
+  },
+  {
+    "name": "Planetar",
+    "statBlock": {
+      "name": "Planetar",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 245,
+      "classification": "Large celestial (angel), lawful good",
+      "ac": 19,
+      "hp": 262,
+      "hitDice": "21d10 + 147",
+      "speed": "40 ft., fly 120 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 24
+        },
+        "Dex": {
+          "score": 20
+        },
+        "Con": {
+          "score": 24
+        },
+        "Int": {
+          "score": 19
+        },
+        "Wis": {
+          "score": 22
+        },
+        "Cha": {
+          "score": 25
+        }
+      },
+      "cr": "16",
+      "xp": 15000,
+      "passivePerception": 21,
+      "savingThrows": {
+        "Str": 12,
+        "Con": 12,
+        "Wis": 11,
+        "Cha": 12
+      },
+      "skills": {
+        "Perception": 11
+      },
+      "description": "A celestial champion whose sword carries radiant power. It recognizes lies and can call down bursts of holy light.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+10 (20).",
+        "Damage resistances": "Radiant.",
+        "Condition immunities": "Charmed, exhaustion, frightened.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "all, telepathy 120 ft.",
+        "Traits": "Divine Awareness. The angel recognizes a lie when it hears one.\nExalted Restoration. If the angel dies away from Mount Celestia, its body vanishes and it immediately returns at full HP in a new body somewhere on Mount Celestia.\nMagic Resistance. Roll saving throws against spells and other magical effects with Advantage.",
+        "Actions": "Multiattack. Make three Radiant Sword attacks or use Holy Burst twice.\nRadiant Sword. Melee attack, +12 to hit, reach 10 ft. A hit deals 14 (2d6 + 7) slashing damage plus 18 (4d8) radiant damage.\nHoly Burst. Choose a visible point within 120 ft. Each enemy in a 20-ft.-radius Sphere centered there makes a DC 20 Dexterity save. Failure deals 24 (7d6) radiant damage. Success halves it.",
+        "Spellcasting": "Spellcasting. As an action, cast one listed spell with Charisma and no Material components. Spell save DC 20.\nAt will. Detect Evil and Good.\n1/day each. Commune, Control Weather, Dispel Evil and Good, Raise Dead.",
+        "Bonus actions": "Divine Aid (2/day total). Cast Cure Wounds, Invisibility, Lesser Restoration, or Remove Curse using Charisma, as in Spellcasting.",
+        "Habitats": "Upper Planes.",
+        "Treasure": "Relics.",
+        "Printed source": "Monster Manual (2024), p. 245."
+      }
+    }
+  },
+  {
+    "name": "Solar",
+    "statBlock": {
+      "name": "Solar",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 288,
+      "classification": "Large celestial (angel), lawful good",
+      "ac": 21,
+      "hp": 297,
+      "hitDice": "22d10 + 176",
+      "speed": "50 ft., fly 150 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 26
+        },
+        "Dex": {
+          "score": 22
+        },
+        "Con": {
+          "score": 26
+        },
+        "Int": {
+          "score": 25
+        },
+        "Wis": {
+          "score": 25
+        },
+        "Cha": {
+          "score": 30
+        }
+      },
+      "cr": "21",
+      "xp": 33000,
+      "passivePerception": 24,
+      "savingThrows": {},
+      "skills": {
+        "Perception": 14
+      },
+      "description": "A celestial commander that can lead angelic hosts or restore a fallen mortal to life to enlist their aid.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+20 (30).",
+        "Damage immunities": "Poison, radiant.",
+        "Condition immunities": "Charmed, exhaustion, frightened, poisoned.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "all, telepathy 120 ft.",
+        "Traits": "Divine Awareness. The angel recognizes a lie when it hears one.\nExalted Restoration. If the angel dies away from Mount Celestia, its body vanishes and it immediately returns at full HP in a new body somewhere on Mount Celestia.\nLegendary Resistance (4/day). Turn a failed saving throw into a success.\nMagic Resistance. Roll saving throws against spells and other magical effects with Advantage.",
+        "Actions": "Multiattack. Make two Flying Sword attacks. The solar can replace one of those attacks with Slaying Bow.\nFlying Sword. Melee or ranged attack, +15 to hit, reach 10 ft. or range 120 ft. A hit deals 22 (4d6 + 8) slashing damage plus 36 (8d8) radiant damage. After a ranged attack, the sword immediately returns by magic to the solar's hand or hovers within 5 ft. of it.\nSlaying Bow. One visible creature within 600 ft. makes a DC 21 Dexterity save. A creature that fails dies if it has 100 HP or fewer. A creature with more than 100 HP that fails takes 24 (4d8 + 6) piercing damage plus 36 (8d8) radiant damage.",
+        "Spellcasting": "Spellcasting. As an action, cast one listed spell with Charisma and no Material components. Spell save DC 25.\nAt will. Detect Evil and Good.\n1/day each. Commune, Control Weather, Dispel Evil and Good, Resurrection.",
+        "Bonus actions": "Divine Aid (3/day total). Cast Cure Wounds at level 2, Lesser Restoration, or Remove Curse using Charisma, as in Spellcasting.",
+        "Legendary actions": "3 uses. Spend one use immediately after another creature's turn. Recover all uses at the start of the solar's turn. The solar cannot use these actions while Incapacitated or otherwise unable to act.\nBlinding Gaze. One creature the solar can see within 120 ft. makes a DC 25 Constitution save. Failure leaves it Blinded for 1 minute. The solar cannot use this option again until the start of its next turn, regardless of the result.\nRadiant Teleport. The solar teleports up to 60 ft. to a visible unoccupied space. Each creature in the 10-ft. Emanation from the solar's destination makes a DC 25 Dexterity save. Failure deals 11 (2d10) radiant damage. Success halves it.",
+        "Habitats": "Upper Planes.",
+        "Treasure": "Any.",
+        "Printed source": "Monster Manual (2024), p. 288."
+      }
+    }
+  }
+]

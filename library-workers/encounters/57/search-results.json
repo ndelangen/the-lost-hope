@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Human Death Acolyte",
+    "query": "bone pendant hidden shrines death chant transfer life",
+    "condition": "Incapacitated",
+    "alternates": [
+      {
+        "credit": "OpenAI ImageGen · The Lost Hope",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Human Death Cultist",
+    "query": "oxblood ceremonial scythe desecrated temples blackfire blessing",
+    "condition": "Unconscious",
+    "alternates": [
+      {
+        "credit": "D&D Beyond publisher art · Flee, Mortals!",
+        "url": ""
+      }
+    ]
+  }
+]

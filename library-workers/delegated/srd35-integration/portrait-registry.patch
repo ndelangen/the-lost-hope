@@ -1,0 +1,46 @@
+diff --git a/scripts/image-sources.ts b/scripts/image-sources.ts
+--- a/scripts/image-sources.ts
++++ b/scripts/image-sources.ts
+@@ -2911,6 +2911,42 @@
+ 
+ export const DM_LIBRARY_IMAGE_SOURCES: readonly ResponsiveImageSource[] = [
+   {
++    id: 'beast-ca5bcec12f716f44d9745d34',
++    role: 'avatar',
++    logicalSource: '/assets/dm-library/srd35-beasts-02-event-style/bat.png',
++    repositoryPath: `${DM_LIBRARY_IMAGE_DIRECTORY}/srd35-beasts-02-event-style/bat.png`,
++  },
++  {
++    id: 'beast-77af778b51abd4a3c51c5ddd',
++    role: 'avatar',
++    logicalSource: '/assets/dm-library/srd35-beasts-02-event-style/cat.png',
++    repositoryPath: `${DM_LIBRARY_IMAGE_DIRECTORY}/srd35-beasts-02-event-style/cat.png`,
++  },
++  {
++    id: 'beast-67c132dc4a89516bcaa8f433',
++    role: 'avatar',
++    logicalSource: '/assets/dm-library/srd35-beasts-02-event-style/giant-constrictor-snake.png',
++    repositoryPath: `${DM_LIBRARY_IMAGE_DIRECTORY}/srd35-beasts-02-event-style/giant-constrictor-snake.png`,
++  },
++  {
++    id: 'beast-b95cbcfe0cd25ed09eef3612',
++    role: 'avatar',
++    logicalSource: '/assets/dm-library/srd35-beasts-02-event-style/lizard.png',
++    repositoryPath: `${DM_LIBRARY_IMAGE_DIRECTORY}/srd35-beasts-02-event-style/lizard.png`,
++  },
++  {
++    id: 'beast-9950cec246ece55e46c9929e',
++    role: 'avatar',
++    logicalSource: '/assets/dm-library/srd35-beasts-02-event-style/rat.png',
++    repositoryPath: `${DM_LIBRARY_IMAGE_DIRECTORY}/srd35-beasts-02-event-style/rat.png`,
++  },
++  {
++    id: 'beast-1349d5e18426092e5708ce21',
++    role: 'avatar',
++    logicalSource: '/assets/dm-library/srd35-beasts-02-event-style/weasel.png',
++    repositoryPath: `${DM_LIBRARY_IMAGE_DIRECTORY}/srd35-beasts-02-event-style/weasel.png`,
++  },
++  {
+     id: 'monster-5183762149aabf2284eeab36',
+     role: 'avatar',
+     logicalSource: '/assets/dm-library/encounters-09/athar-null.png',

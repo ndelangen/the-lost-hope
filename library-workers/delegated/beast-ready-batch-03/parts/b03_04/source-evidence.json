@@ -1,0 +1,145 @@
+[
+  {
+    "name": "Eagle",
+    "kind": "beast",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      124
+    ],
+    "sourceUrl": "",
+    "url": "",
+    "section": "Chapter 12, Monsters",
+    "printing": "Version 1.0, November 2018",
+    "appearanceEvidence": "Editorial description based on the real-world animal and its approved existing parchment portrait. The source supplies the creature name and size.",
+    "habitatEvidence": "Editorial tags based on familiar eagle habitat and open flight paths. The printed blocks specify flying speed but no habitat.",
+    "sourceComparison": "The 2014 Monster Manual and 2018 Basic Rules print the same encounter statistics, traits, and actions.",
+    "pdfPage": 124,
+    "pdfPages": [
+      124
+    ],
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3",
+    "pageNumbering": "Printed folio matches the one-based page number of the official ."
+  },
+  {
+    "name": "Eagle",
+    "kind": "beast",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      322
+    ],
+    "sourceUrl": "https://www.dndbeyond.com/monsters/16852-eagle",
+    "url": "https://www.dndbeyond.com/monsters/16852-eagle",
+    "section": "Appendix A, Miscellaneous Creatures",
+    "printing": "2014 Monster Manual",
+    "appearanceEvidence": "Editorial description based on the real-world animal and its approved existing parchment portrait. The source supplies the creature name and size.",
+    "habitatEvidence": "Editorial tags based on familiar eagle habitat and open flight paths. The printed blocks specify flying speed but no habitat.",
+    "sourceComparison": "The 2014 Monster Manual and 2018 Basic Rules print the same encounter statistics, traits, and actions.",
+    "printedPageWitness": "https://online.anyflip.com/pqhqn/sezy/files/basic-html/page323.html",
+    "pageNumbering": "The printed folio is one lower than the mirror's page viewer number.",
+    "mmErrataUrl": "",
+    "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014",
+    "errataEvidence": "The official Monster Manual errata do not list a change to this creature.",
+    "secondaryCrossCheck": "The local 5etools index agrees with the printed Monster Manual block. The print witness determines these rules."
+  },
+  {
+    "name": "Octopus",
+    "kind": "beast",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      146
+    ],
+    "sourceUrl": "",
+    "url": "",
+    "section": "Chapter 12, Monsters",
+    "printing": "Version 1.0, November 2018",
+    "appearanceEvidence": "Editorial description based on the real-world animal and its approved existing parchment portrait. The source supplies the creature name and size.",
+    "habitatEvidence": "The underwater tag follows Water Breathing and Underwater Camouflage. Coastal waters and reefs are editorial tags based on familiar octopus habitat.",
+    "sourceComparison": "The 2014 Monster Manual and 2018 Basic Rules print the same encounter statistics, traits, and actions.",
+    "pdfPage": 146,
+    "pdfPages": [
+      146
+    ],
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3",
+    "pageNumbering": "Printed folio matches the one-based page number of the official .",
+    "generalRulesPages": [
+      68,
+      75,
+      114
+    ]
+  },
+  {
+    "name": "Octopus",
+    "kind": "beast",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      333
+    ],
+    "sourceUrl": "https://www.dndbeyond.com/monsters/16968-octopus",
+    "url": "https://www.dndbeyond.com/monsters/16968-octopus",
+    "section": "Appendix A, Miscellaneous Creatures",
+    "printing": "2014 Monster Manual",
+    "appearanceEvidence": "Editorial description based on the real-world animal and its approved existing parchment portrait. The source supplies the creature name and size.",
+    "habitatEvidence": "The underwater tag follows Water Breathing and Underwater Camouflage. Coastal waters and reefs are editorial tags based on familiar octopus habitat.",
+    "sourceComparison": "The 2014 Monster Manual and 2018 Basic Rules print the same encounter statistics, traits, and actions.",
+    "printedPageWitness": "https://online.anyflip.com/pqhqn/sezy/files/basic-html/page334.html",
+    "pageNumbering": "The printed folio is one lower than the mirror's page viewer number.",
+    "mmErrataUrl": "",
+    "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014",
+    "errataEvidence": "The official Monster Manual errata do not list a change to this creature.",
+    "secondaryCrossCheck": "The local 5etools index agrees with the printed Monster Manual block. The print witness determines these rules."
+  },
+  {
+    "name": "Vulture",
+    "kind": "beast",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      157
+    ],
+    "sourceUrl": "",
+    "url": "",
+    "section": "Chapter 12, Monsters",
+    "printing": "Version 1.0, November 2018",
+    "appearanceEvidence": "Editorial description based on the real-world animal and its approved existing parchment portrait. The source supplies the creature name and size.",
+    "habitatEvidence": "Editorial tags based on familiar vulture habitat and soaring behavior. The printed blocks specify flying speed but no habitat.",
+    "sourceComparison": "The 2014 Monster Manual and 2018 Basic Rules print the same encounter statistics, traits, and actions.",
+    "pdfPage": 157,
+    "pdfPages": [
+      157
+    ],
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3",
+    "pageNumbering": "Printed folio matches the one-based page number of the official ."
+  },
+  {
+    "name": "Vulture",
+    "kind": "beast",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      339
+    ],
+    "sourceUrl": "https://www.dndbeyond.com/monsters/17048-vulture",
+    "url": "https://www.dndbeyond.com/monsters/17048-vulture",
+    "section": "Appendix A, Miscellaneous Creatures",
+    "printing": "2014 Monster Manual",
+    "appearanceEvidence": "Editorial description based on the real-world animal and its approved existing parchment portrait. The source supplies the creature name and size.",
+    "habitatEvidence": "Editorial tags based on familiar vulture habitat and soaring behavior. The printed blocks specify flying speed but no habitat.",
+    "sourceComparison": "The 2014 Monster Manual and 2018 Basic Rules print the same encounter statistics, traits, and actions.",
+    "printedPageWitness": "https://online.anyflip.com/pqhqn/sezy/files/basic-html/page340.html",
+    "pageNumbering": "The printed folio is one lower than the mirror's page viewer number.",
+    "mmErrataUrl": "",
+    "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014",
+    "errataEvidence": "The official Monster Manual errata do not list a change to this creature.",
+    "secondaryCrossCheck": "The local 5etools index agrees with the printed Monster Manual block. The print witness determines these rules."
+  }
+]

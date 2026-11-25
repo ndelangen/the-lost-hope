@@ -1,0 +1,386 @@
+[
+  {
+    "name": "Merfolk Skirmisher",
+    "statBlock": {
+      "name": "Merfolk Skirmisher",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 209,
+      "classification": "Medium elemental, neutral",
+      "ac": 11,
+      "hp": 11,
+      "hitDice": "2d8 + 2",
+      "speed": "10 ft., swim 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "1/8",
+      "xp": 25,
+      "passivePerception": 12,
+      "description": "A merfolk defender who guards its settlement against aquatic predators and raiders from the surface.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+1 (11).",
+        "Languages": "Common, Primordial (Aquan).",
+        "Traits": "Amphibious. The merfolk breathes air and water.",
+        "Actions": "Ocean Spear. Melee or ranged attack, +2 to hit, reach 5 ft. or range 20/60 ft. A hit deals 3 (1d6) piercing damage plus 2 (1d4) cold damage. If the target is a creature, reduce its Speed by 10 ft. through the end of its next turn. After a ranged attack, the spear magically returns to the merfolk's hand immediately.",
+        "Habitats": "Coastal, underwater.",
+        "Treasure": "Individual.",
+        "Printed source": "Monster Manual (2024), p. 209."
+      }
+    }
+  },
+  {
+    "name": "Merfolk Wavebender",
+    "statBlock": {
+      "name": "Merfolk Wavebender",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 209,
+      "classification": "Medium elemental, neutral",
+      "ac": 14,
+      "hp": 97,
+      "hitDice": "15d8 + 30",
+      "speed": "10 ft., swim 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 19
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "savingThrows": {
+        "Dex": 7,
+        "Con": 5,
+        "Wis": 7,
+        "Cha": 5
+      },
+      "skills": {
+        "Perception": 7
+      },
+      "cr": "6",
+      "xp": 2300,
+      "passivePerception": 17,
+      "description": "A merfolk mage who calls on currents, storms, and sea creatures.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+4 (14).",
+        "Languages": "Common, Primordial (Aquan).",
+        "Damage resistances": "cold.",
+        "Traits": "Amphibious. The merfolk breathes air and water.",
+        "Actions": "Multiattack. Make two Aquatic Burst attacks.\nAquatic Burst. Melee or ranged attack, +7 to hit, reach 5 ft. or range 60 ft. A hit deals 20 (3d10 + 4) cold damage. A Large or smaller creature hit also falls Prone.",
+        "Spellcasting": "As an action, cast one listed spell with Wisdom (save DC 15). Omit material components.\nAt will. Elementalism, Light.\n1/day each. Control Water, Create or Destroy Water.",
+        "Reactions": "Watery Rebuke. When an enemy the merfolk can see enters a space within 5 ft. of it, the enemy makes a DC 15 Strength save. On a failure, it takes 14 (4d6) cold damage. If it is Large or smaller and fails the save, a rush of conjured water pushes it up to 30 ft. directly away from the merfolk.",
+        "Habitats": "Coastal, underwater.",
+        "Treasure": "Individual.",
+        "Printed source": "Monster Manual (2024), p. 209."
+      }
+    }
+  },
+  {
+    "name": "Sahuagin Warrior",
+    "statBlock": {
+      "name": "Sahuagin Warrior",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 264,
+      "classification": "Medium fiend, lawful evil",
+      "ac": 12,
+      "hp": 22,
+      "hitDice": "4d8 + 4",
+      "speed": "30 ft., swim 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "skills": {
+        "Perception": 5
+      },
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 15,
+      "description": "A sea devil raider who hunts with sharks and keeps fighting once its claws draw blood.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+0 (10).",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Sahuagin.",
+        "Damage resistances": "acid, cold.",
+        "Traits": "Blood Frenzy. Attack rolls against creatures below their maximum HP have Advantage.\nLimited Amphibiousness. The sahuagin breathes air and water. It must submerge at least once every 4 hours to avoid suffocating out of water.\nShark Telepathy. The sahuagin uses magical telepathy to control sharks within 120 ft. of itself.",
+        "Actions": "Multiattack. Make two Claw attacks.\nClaw. Melee attack, +3 to hit, reach 5 ft. A hit deals 4 (1d6 + 1) slashing damage.",
+        "Bonus actions": "Aquatic Charge. Swim in a straight line toward a visible enemy, up to the sahuagin's Swim Speed.",
+        "Habitats": "Coastal, underwater.",
+        "Treasure": "Any.",
+        "Printed source": "Monster Manual (2024), p. 264."
+      }
+    }
+  },
+  {
+    "name": "Ogrillon Ogre",
+    "statBlock": {
+      "name": "Ogrillon Ogre",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 231,
+      "classification": "Large giant, chaotic evil",
+      "ac": 12,
+      "hp": 52,
+      "hitDice": "7d10 + 14",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 7
+        },
+        "Wis": {
+          "score": 9
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 9,
+      "description": "A curse changes a Humanoid into an ogre-like giant over 8 feet tall. The ogrillon retains features of its former self and feels a constant, supernatural anger.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+0 (10).",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Giant.",
+        "Gear": "Battleaxe and three javelins.",
+        "Actions": "Battleaxe. Melee attack, +5 to hit, reach 5 ft. A hit deals 7 (1d8 + 3) slashing damage.\nJavelin. Melee or ranged attack, +5 to hit, reach 5 ft. or range 30/120 ft. A hit deals 6 (1d6 + 3) piercing damage.",
+        "Habitats": "Arctic, desert, forest, grassland, hill, mountain, swamp, Underdark.",
+        "Treasure": "Armaments.",
+        "Printed source": "Monster Manual (2024), p. 231."
+      }
+    }
+  },
+  {
+    "name": "Grick Ancient",
+    "statBlock": {
+      "name": "Grick Ancient",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 158,
+      "classification": "Large aberration, unaligned",
+      "ac": 18,
+      "hp": 135,
+      "hitDice": "18d10 + 36",
+      "speed": "30 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 4
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "skills": {
+        "Stealth": 6
+      },
+      "cr": "7",
+      "xp": 2900,
+      "passivePerception": 12,
+      "description": "A grick that has grown to immense size over centuries. It seeks out prey and may eat smaller gricks.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+3 (13).",
+        "Senses": "Darkvision 60 ft.",
+        "Actions": "Multiattack. Make one Beak attack, one Slam attack, and one Tentacles attack.\nBeak. Melee attack, +7 to hit, reach 10 ft. A hit deals 22 (4d8 + 4) piercing damage.\nSlam. Melee attack, +7 to hit, reach 10 ft. A hit deals 7 (1d6 + 4) bludgeoning damage. A Large or smaller creature hit also falls Prone.\nTentacles. Melee attack, +7 to hit, reach 10 ft. A hit deals 15 (2d10 + 4) slashing damage. If the target is a Large or smaller creature, all four tentacles Grapple it (escape DC 14).",
+        "Habitats": "Forest, Underdark.",
+        "Treasure": "Any.",
+        "Printed source": "Monster Manual (2024), p. 158."
+      }
+    }
+  },
+  {
+    "name": "Lacedon Ghoul",
+    "statBlock": {
+      "name": "Lacedon Ghoul",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 132,
+      "classification": "Medium undead, chaotic evil",
+      "ac": 12,
+      "hp": 22,
+      "hitDice": "5d8",
+      "speed": "30 ft., swim 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 7
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 6
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 10,
+      "description": "A loose-skinned ghoul that hunts in water. Some lacedons rise from drowned pirates or castaways who starved.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+2 (12).",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common.",
+        "Damage resistances": "cold.",
+        "Damage immunities": "poison.",
+        "Condition immunities": "Charmed, Exhaustion, Poisoned.",
+        "Actions": "Multiattack. Make two Icy Bite attacks.\nIcy Bite. Melee attack, +4 to hit, reach 5 ft. A hit deals 9 (2d6 + 2) cold damage and reduces the target's Speed by 5 ft. until the start of the ghoul's next turn.\nClaw. Melee attack, +4 to hit, reach 5 ft. A hit deals 4 (1d4 + 2) slashing damage. An affected creature makes a DC 10 Constitution save unless it is Undead or an elf. On a failed save, it is Paralyzed until the end of its next turn.",
+        "Bonus actions": "Watery Rush. While underwater, move up to half the ghoul's Swim Speed without provoking Opportunity Attacks.",
+        "Habitats": "Swamp, Underdark, urban.",
+        "Treasure": "Any.",
+        "Printed source": "Monster Manual (2024), p. 132."
+      }
+    }
+  },
+  {
+    "name": "Yuan-ti Infiltrator",
+    "statBlock": {
+      "name": "Yuan-ti Infiltrator",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 342,
+      "classification": "Medium monstrosity, neutral evil",
+      "ac": 11,
+      "hp": 40,
+      "hitDice": "9d8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "skills": {
+        "Deception": 5,
+        "Perception": 4,
+        "Stealth": 3
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 14,
+      "description": "A yuan-ti spy whose scales or forked tongue can pass unnoticed. Infiltrators gain access to rivals so other yuan-ti can act on what they learn.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+1 (11).",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Abyssal, Common, Draconic.",
+        "Damage immunities": "poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Magic Resistance. The yuan-ti has Advantage on saving throws against spells and other magical effects.",
+        "Actions": "Multiattack. Make two Scimitar attacks.\nScimitar. Melee attack, +3 to hit, reach 5 ft. A hit deals 4 (1d6 + 1) slashing damage.\nPoison Ray. Ranged attack, +4 to hit, range 120 ft. A hit deals 9 (2d6 + 2) poison damage.",
+        "Spellcasting": "As an action, cast one listed spell with Wisdom (save DC 12). Omit material components.\nAt will. Animal Friendship (snakes only).\n2/day. Suggestion.",
+        "Habitats": "Desert, forest, swamp, urban.",
+        "Treasure": "Relics.",
+        "Printed source": "Monster Manual (2024), p. 342."
+      }
+    }
+  }
+]

@@ -1,0 +1,110 @@
+{
+  "builds": [
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ],
+      "size": "Medium",
+      "type": "Monstrous Humanoid",
+      "senses": "Darkvision 60 ft.",
+      "languages": "Common, Goblin, Undercommon",
+      "id": "dekanter-goblin-flintnose-gallery-lookout-30e",
+      "title": "Dekanter Goblin gallery lookout, racial Hit Dice only",
+      "difficulty": "Provisional CR 2. ECL 6 (2 racial HD, LA +4).",
+      "ac": 16,
+      "hp": 22,
+      "hitDice": "2d8+8",
+      "initiative": 2,
+      "speed": "20 ft.",
+      "abilityScores": {
+        "STR": 20,
+        "DEX": 14,
+        "CON": 18,
+        "INT": 10,
+        "WIS": 14,
+        "CHA": 8
+      },
+      "skills": [
+        "Climb +9",
+        "Listen +5",
+        "Spot +5"
+      ],
+      "traits": [
+        "Neutral. Dexterity +2, natural armor +4. Touch 12, flat-footed 14. BAB +2, grapple +7. Fortitude +4, Reflex +5, Will +5.",
+        "Cold resistance 5 and fast healing 3. Recover 3 HP per round from damage the ability can heal.",
+        "Power Attack can trade up to 2 points of melee attack bonus for the same damage bonus."
+      ],
+      "actions": [
+        "Horn +7 melee, 1d6+5 piercing, critical ×3. Full attack with the horn and two secondary claws at +2 each for 1d4+2 each, critical ×2."
+      ],
+      "tactics": "Orrik watches the higher gallery. He prefers to stay by the narrow bend if a fight breaks out, where he has room to use his claws."
+    },
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ],
+      "size": "Medium",
+      "type": "Monstrous Humanoid",
+      "senses": "Darkvision 60 ft.",
+      "languages": "Common, Goblin, Undercommon",
+      "id": "dekanter-goblin-slatecall-cold-passage-guard-30e",
+      "title": "Dekanter Goblin cold passage guard, Barbarian 1",
+      "difficulty": "Provisional CR 3. ECL 7 (2 racial HD, 1 class HD, LA +4).",
+      "ac": 19,
+      "hp": 32,
+      "hitDice": "2d8+1d12+12",
+      "initiative": 6,
+      "speed": "30 ft. with fast movement, base 20 ft.",
+      "abilityScores": {
+        "STR": 22,
+        "DEX": 14,
+        "CON": 18,
+        "INT": 10,
+        "WIS": 14,
+        "CHA": 8
+      },
+      "skills": [
+        "Climb +9",
+        "Listen +5",
+        "Spot +5",
+        "Wilderness Lore +6"
+      ],
+      "traits": [
+        "Neutral good. Studded leather +3, Dexterity +2, natural armor +4. Touch 12, flat-footed 17, armor check penalty −1. BAB +3, grapple +9. Fortitude +6, Reflex +5, Will +5.",
+        "Cold resistance 5 and fast healing 3. Recover 3 HP per round from damage the ability can heal.",
+        "Improved Initiative adds +4. Power Attack can trade up to 3 points of melee attack bonus for the same damage bonus. Fast movement and illiteracy."
+      ],
+      "actions": [
+        "One-handed battleaxe +9 melee, 1d8+6 slashing, critical ×3. Add one secondary horn at +4 for 1d6+3, critical ×3, or one secondary claw at +4 for 1d4+3, critical ×2, on a full attack.",
+        "Rage 1/day for up to 9 rounds. AC 17, full HP 38, grapple +11. Fortitude +8, Reflex +5, Will +7. Battleaxe +11 for 1d8+8. The secondary horn or claw is +6, with 1d6+4 or 1d4+4 damage respectively. Lose the 6 rage HP and become fatigued for the rest of the encounter when rage ends."
+      ],
+      "tactics": "Tavra listens for the first returning crew before she opens the cold passage. She stays between the crew and the older branch of the mine."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Dekanter Goblin",
+      "size": "Medium",
+      "edition": "3.0 edition",
+      "speciesPublication": "Races of Faerûn (2003)",
+      "name": "Orrik Flintnose",
+      "build": "dekanter-goblin-flintnose-gallery-lookout-30e",
+      "role": "Gallery lookout and climber.",
+      "motive": "Find out why the lift has stopped before sending anyone down.",
+      "hook": "Orrik signals from the high gallery that a rope is missing from the shaft."
+    },
+    {
+      "species": "Dekanter Goblin",
+      "size": "Medium",
+      "edition": "3.0 edition",
+      "speciesPublication": "Races of Faerûn (2003)",
+      "name": "Tavra Slatecall",
+      "build": "dekanter-goblin-slatecall-cold-passage-guard-30e",
+      "role": "Cold passage guard and Barbarian.",
+      "motive": "Keep the lower passage open for the returning crew.",
+      "hook": "Tavra waits by the shutter and asks for news from the older branch."
+    }
+  ]
+}

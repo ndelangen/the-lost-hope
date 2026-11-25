@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Avariel",
+    "kind": "species",
+    "publication": "Races of Faerûn (2003)",
+    "edition": "3.5 edition",
+    "book": "Races of Faerûn",
+    "publisher": "Wizards of the Coast",
+    "authors": [
+      "Eric L. Boyd",
+      "James Jacobs",
+      "Matt Forbeck"
+    ],
+    "firstPrinting": "March 2003",
+    "isbn": "0-7869-2896-4",
+    "printedPages": {
+      "playableSpecies": [
+        31,
+        32,
+        33,
+        34
+      ],
+      "racialTraits": [
+        32
+      ],
+      "region": [
+        34
+      ]
+    },
+    "primaryBookPdfPageOffset": 1,
+    "primaryBookScan": "",
+    "primaryBookSha256": "80254e0054d127cf9e32e8e8e7b403e2f3e0477bc3695bbe96cf4ea595ba761d",
+    "coreElf": "https://www.d20srd.org/srd/races.htm#elves",
+    "coreFlight": "https://www.d20srd.org/srd/combat/movementPositionAndDistance.htm#tacticalAerialMovement",
+    "sourceDistinctions": [
+      "The species-specific dive requires a 30-ft. descent and a piercing weapon. Core tactical aerial movement supplies the maneuverability rules.",
+      "Rapier or longsword is a choice. Both lasso and bolas proficiencies are granted. Standard Elf weapon proficiencies are replaced.",
+      "Auran is automatic in the Avariel region. Other home regions use their own languages."
+    ],
+    "entryId": "species-434f961e26afa03cb7a0699d",
+    "versionKey": "afed235ae4b2cd331dfc35b5",
+    "slug": "avariel",
+    "portraitSelection": "generated",
+    "portraitForm": "Sael Frostpinion, an original Avariel ridge sentry",
+    "npcExamples": [
+      "Sael Frostpinion",
+      "Iri Windward"
+    ]
+  }
+]

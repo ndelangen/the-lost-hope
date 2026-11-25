@@ -1,0 +1,16 @@
+# Beast rules recovery
+
+The frozen roster contains 43 distinct Beast IDs. Source recovery verified additional details for several entries, but yielded no complete new stat block. Forty-two entries need source access. The Dark Pyramid Boar needs an official correction. [Frozen roster](roster.json) · [Per-entry decisions](source-disposition.json)
+
+| Holds | Source needed |
+| ---: | --- |
+| 21 | *Monster Vault 2*, Black Flag Roleplaying. The final Animals appendix, pp. 322–329, covers 17. The two Death Butterfly Swarm and two Rattus Eel forms need their main bestiary blocks. The public Fantasy Grounds library adds some AC and HP values, and Kobold Press's index identifies the Medium CR 1/2 War Pig among two similar entries. The full blocks require the or a licensed digital module. A qualifying print purchase may carry a digital copy through Bits and Mortar. [Source review](parts/mv2/source-recheck.md) · [Bits and Mortar](https://bits-and-mortar.com/publisher/kobold-press) |
+| 18 | *Humblewood Tales*. The collected Appendix A from v.18, the matching hardcover, or the licensed digital edition. The publisher reviewed the text after distributing the early . The source review maps all 18 names to their official Appendix A headings. Exact print folios remain unverified. [Source review](parts/hwt/source-recheck.md) |
+| 1 | Ghamoo-Ra. *D&D: World of Warcraft*, Chapter 6, Blackfathom Deeps, indexed p. 175. The public footage confirms the header. The full actions and legendary actions require the complete page. [Source review](parts/wow-drakk/source-recovery.md) |
+| 1 | Swarm of Contaminated Insects. *Monsters of Drakkenheim*, Chapter 1, Bloated Hive, final indexed p. 33. The beta cannot confirm the final stat block. [Source review](parts/wow-drakk/source-recovery.md) |
+| 1 | Spiderfrog. *Muk's Guide to Everything He Learned From Tasha*, indexed p. 33. The publisher's preview ends at p. 5. [Source review](parts/spider-boar/source-review.md) |
+| 1 | Boar. *Dark Pyramid of Sorcerer's Isle*, p. 33. Charge refers to Tusk, and both local copies omit that action. The 2014 Basic Rules Boar supplies a separate playable fallback. Exact adventure rules need a correction or explicit publisher guidance. [Source review](parts/spider-boar/source-review.md) |
+
+All 43 entries have square generated portraits across 42 distinct files. The two Dusktail forms share one portrait, and the audit verified all 15 alternate mappings from the last stage. It checked the stored file hashes and the credited art in the disposable copy. The manual Library check opened *Humblewood Tales* Glassbeetle and *Monster Vault 2* Giant Hedgehog through their Beast records. Both portraits loaded, both displayed the requested printing, and the browser logged no warnings or errors. [Portrait review](portrait-review.json)
+
+This batch stages only the roster, decisions, and verification evidence. The last committed catalog checked was `a1e4049`, which contains no exact stat block for any of the 43 roster scopes. The sponsored *Humblewood Tales* review at 11:14 remains an uninspected lead because the public video fetch was throttled. [Review timestamp](https://www.youtube.com/watch?v=QVjLHR35nms&t=674s)

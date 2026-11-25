@@ -1,0 +1,142 @@
+[
+  {
+    "name": "Bat",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "D&D Basic Rules v1.0, November 2018 ",
+    "printedPage": 119,
+    "printedPages": [
+      119
+    ],
+    "section": "Chapter 12, Monsters",
+    "sourceUrl": "",
+    "url": "",
+    "appearanceEvidence": "The block gives Tiny size and a fly speed. Brown fur, large ears and wing shape describe the selected portrait.",
+    "habitatEvidence": "Caves, woodland roosts and attics are suggested roosts for the bat depicted in the selected portrait.",
+    "habitatSourceKind": "Editorial encounter suggestions. The stat block gives no habitat.",
+    "rulesComparison": "The Bat stat block matches its scoped 2014 Monster Manual and 2018 Basic Rules print sources.",
+    "pdfPage": 119,
+    "viewerPages": [
+      119
+    ],
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3",
+    "conditionRules": ""
+  },
+  {
+    "name": "Bat",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "2014 rules, 11th printing checked",
+    "printedPage": 318,
+    "printedPages": [
+      318
+    ],
+    "section": "Appendix A, Miscellaneous Creatures",
+    "sourceUrl": "https://anyflip.com/kqwdv/eoae/basic/301-350",
+    "url": "https://anyflip.com/kqwdv/eoae/basic/301-350",
+    "appearanceEvidence": "The block gives Tiny size and a fly speed. Brown fur, large ears and wing shape describe the selected portrait.",
+    "habitatEvidence": "Caves, woodland roosts and attics are suggested roosts for the bat depicted in the selected portrait.",
+    "habitatSourceKind": "Editorial encounter suggestions. The stat block gives no habitat.",
+    "rulesComparison": "The Bat stat block matches its scoped 2014 Monster Manual and 2018 Basic Rules print sources.",
+    "errata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014",
+    "errataNotes": "No entry-specific change applies to this stat block.",
+    "secondaryCrossCheck": "The 5etools Monster Manual index agrees with the printed block.",
+    "conditionRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/appendix-a-conditions#Deafened"
+  },
+  {
+    "name": "Lizard",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "D&D Basic Rules v1.0, November 2018 ",
+    "printedPage": 142,
+    "printedPages": [
+      142
+    ],
+    "section": "Chapter 12, Monsters",
+    "sourceUrl": "",
+    "url": "",
+    "appearanceEvidence": "The block gives Tiny size and a climb speed. Color, splayed legs and tail shape describe the selected portrait.",
+    "habitatEvidence": "Rocky ground, dry scrub and stone walls are suggested encounters for the depicted lizard based on its body shape and climb speed.",
+    "habitatSourceKind": "Editorial encounter suggestions. The stat block gives no habitat.",
+    "rulesComparison": "The Lizard stat block matches its scoped 2014 Monster Manual and 2018 Basic Rules print sources.",
+    "pdfPage": 142,
+    "viewerPages": [
+      142
+    ],
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3"
+  },
+  {
+    "name": "Lizard",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "2014 rules, 11th printing checked",
+    "printedPage": 332,
+    "printedPages": [
+      332
+    ],
+    "section": "Appendix A, Miscellaneous Creatures",
+    "sourceUrl": "https://anyflip.com/kqwdv/eoae/basic/301-350",
+    "url": "https://anyflip.com/kqwdv/eoae/basic/301-350",
+    "appearanceEvidence": "The block gives Tiny size and a climb speed. Color, splayed legs and tail shape describe the selected portrait.",
+    "habitatEvidence": "Rocky ground, dry scrub and stone walls are suggested encounters for the depicted lizard based on its body shape and climb speed.",
+    "habitatSourceKind": "Editorial encounter suggestions. The stat block gives no habitat.",
+    "rulesComparison": "The Lizard stat block matches its scoped 2014 Monster Manual and 2018 Basic Rules print sources.",
+    "errata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014",
+    "errataNotes": "No entry-specific change applies to this stat block.",
+    "secondaryCrossCheck": "The 5etools Monster Manual index agrees with the printed block."
+  },
+  {
+    "name": "Spider",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "D&D Basic Rules v1.0, November 2018 ",
+    "printedPage": 153,
+    "printedPages": [
+      153
+    ],
+    "section": "Chapter 12, Monsters",
+    "sourceUrl": "",
+    "url": "",
+    "appearanceEvidence": "The block gives Tiny size and the web traits. Bristled legs, mottled brown colors and the abdominal marking describe the selected portrait.",
+    "habitatEvidence": "Woodland undergrowth, cellars and ruins are suggested sites where the spider can hide and use its web traits.",
+    "habitatSourceKind": "Editorial encounter suggestions. The stat block gives no habitat.",
+    "rulesComparison": "The Spider stat block matches its scoped 2014 Monster Manual and 2018 Basic Rules print sources.",
+    "pdfPage": 153,
+    "viewerPages": [
+      153
+    ],
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3"
+  },
+  {
+    "name": "Spider",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "2014 rules, 11th printing checked",
+    "printedPage": 337,
+    "printedPages": [
+      337
+    ],
+    "section": "Appendix A, Miscellaneous Creatures",
+    "sourceUrl": "https://anyflip.com/kqwdv/eoae/basic/301-350",
+    "url": "https://anyflip.com/kqwdv/eoae/basic/301-350",
+    "appearanceEvidence": "The block gives Tiny size and the web traits. Bristled legs, mottled brown colors and the abdominal marking describe the selected portrait.",
+    "habitatEvidence": "Woodland undergrowth, cellars and ruins are suggested sites where the spider can hide and use its web traits.",
+    "habitatSourceKind": "Editorial encounter suggestions. The stat block gives no habitat.",
+    "rulesComparison": "The Spider stat block matches its scoped 2014 Monster Manual and 2018 Basic Rules print sources.",
+    "errata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014",
+    "errataNotes": "No entry-specific change applies to this stat block.",
+    "secondaryCrossCheck": "The 5etools Monster Manual index agrees with the printed block."
+  }
+]

@@ -29,4 +29,5 @@ export default createEvent({
       ' drew a lunge from the serpent. The impact shook the cavern, broke parts of the platforms, and threw adventurers into the water. Waves made climbing back out difficult.',
     ],
   ],
+  illustrations: ['/assets/scenes/the-lake-serpent-disrupts-the-crossing.png'],
 })

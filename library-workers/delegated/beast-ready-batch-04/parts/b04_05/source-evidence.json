@@ -1,0 +1,101 @@
+[
+  {
+    "name": "Giant Boar",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "D&D Basic Rules v1.0 (November 2018)",
+    "printedPages": [
+      131
+    ],
+    "pageNumbering": "Printed page and one-based page match.",
+    "url": "",
+    "officialOnlineReference": "https://www.dndbeyond.com/monsters/16876-giant-boar",
+    "verification": "Read the official 2018 .",
+    "appearanceSource": "The printings give Large size and a Tusk attack. Bristles, color, and body proportions are editorial natural-history details in the original portrait.",
+    "habitatSource": "Forest, grassland and hill are tagged in the official D&D Beyond legacy listing. The printed blocks give no habitat list."
+  },
+  {
+    "name": "Giant Boar",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "September 2014 first printing",
+    "printedPages": [
+      323
+    ],
+    "pageNumbering": "Printed Appendix A folio.",
+    "url": "https://www.dndbeyond.com/monsters/16876-giant-boar",
+    "officialOnlineReference": "https://www.dndbeyond.com/monsters/16876-giant-boar",
+    "verification": "Read the actual first printing and checked the official 2018 Monster Manual errata for creature-specific changes.",
+    "appearanceSource": "The printings give Large size and a Tusk attack. Bristles, color, and body proportions are editorial natural-history details in the original portrait.",
+    "habitatSource": "Forest, grassland and hill are tagged in the official D&D Beyond legacy listing. The printed blocks give no habitat list.",
+    "errataUrl": ""
+  },
+  {
+    "name": "Giant Centipede",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "D&D Basic Rules v1.0 (November 2018)",
+    "printedPages": [
+      131
+    ],
+    "pageNumbering": "Printed page and one-based page match.",
+    "url": "",
+    "officialOnlineReference": "https://www.dndbeyond.com/monsters/16877-giant-centipede",
+    "verification": "Read the official 2018 .",
+    "appearanceSource": "The printings give Small size and a venomous bite. The carapace, antennae and limb colors are original natural-history choices.",
+    "habitatSource": "Underdark and urban are tagged in the official D&D Beyond legacy listing. The printed blocks give no habitat list."
+  },
+  {
+    "name": "Giant Centipede",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "September 2014 first printing",
+    "printedPages": [
+      323
+    ],
+    "pageNumbering": "Printed Appendix A folio.",
+    "url": "https://www.dndbeyond.com/monsters/16877-giant-centipede",
+    "officialOnlineReference": "https://www.dndbeyond.com/monsters/16877-giant-centipede",
+    "verification": "Read the actual first printing and checked the official 2018 Monster Manual errata for creature-specific changes.",
+    "appearanceSource": "The printings give Small size and a venomous bite. The carapace, antennae and limb colors are original natural-history choices.",
+    "habitatSource": "Underdark and urban are tagged in the official D&D Beyond legacy listing. The printed blocks give no habitat list.",
+    "errataUrl": ""
+  },
+  {
+    "name": "Giant Constrictor Snake",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "D&D Basic Rules v1.0 (November 2018)",
+    "printedPages": [
+      131
+    ],
+    "pageNumbering": "Printed page and one-based page match.",
+    "url": "",
+    "officialOnlineReference": "https://www.dndbeyond.com/monsters/16878-giant-constrictor-snake",
+    "verification": "Read the official 2018 .",
+    "appearanceSource": "The printings give Huge size, swimming and a constriction attack. Its pythonlike coloration and anatomy are editorial choices for the original portrait.",
+    "habitatSource": "Desert, forest, swamp, Underdark and underwater are tagged in the official D&D Beyond legacy listing. The printed blocks give no habitat list."
+  },
+  {
+    "name": "Giant Constrictor Snake",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "September 2014 first printing",
+    "printedPages": [
+      324
+    ],
+    "pageNumbering": "Printed Appendix A folio.",
+    "url": "https://www.dndbeyond.com/monsters/16878-giant-constrictor-snake",
+    "officialOnlineReference": "https://www.dndbeyond.com/monsters/16878-giant-constrictor-snake",
+    "verification": "Read the actual first printing and checked the official 2018 Monster Manual errata for creature-specific changes.",
+    "appearanceSource": "The printings give Huge size, swimming and a constriction attack. Its pythonlike coloration and anatomy are editorial choices for the original portrait.",
+    "habitatSource": "Desert, forest, swamp, Underdark and underwater are tagged in the official D&D Beyond legacy listing. The printed blocks give no habitat list.",
+    "errataUrl": ""
+  }
+]

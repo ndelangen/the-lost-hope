@@ -1,0 +1,141 @@
+[
+  {
+    "name": "Horse, Riding",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Large Beast",
+    "ac": 10,
+    "hp": 15,
+    "speed": "60 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "printedPage": 337,
+    "otherStatistics": "Perception 10. Stealth 10. Str +3. Dex +0. Con +1. Int -4. Wis +0. Cha -2. Senses none. Languages none.",
+    "appearance": "A light bay horse with a dark mane, tail and lower legs.",
+    "habitats": [
+      "Farmland",
+      "Grassland",
+      "Urban"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Cubil de Monstruos, licensed Spanish edition of Monster Vault, p. 337, Caballo, de monta.",
+      "Vulnerabilities": "Vulnerable to frightened. The horse has disadvantage on checks and saves to avoid or end that condition.",
+      "Traits": "Easy Gait. A creature riding the horse has advantage on saves against exhaustion from a Forced March. See Travel in chapter 6 of the Player's Guide.",
+      "Actions": "Hooves. Melee weapon attack +5, reach 5 ft., one target. On a hit, deal 6 (1d6 + 3) bludgeoning damage."
+    }
+  },
+  {
+    "name": "Horse, War",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Large Beast",
+    "ac": 15,
+    "hp": 22,
+    "speed": "60 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "printedPage": 337,
+    "otherStatistics": "Perception 11. Stealth 11. Str +4. Dex +1. Con +1. Int -4. Wis +1. Cha -2. AC includes scale mail barding. Senses none. Languages none.",
+    "appearance": "A sturdy light bay horse with a dark mane, tail and lower legs.",
+    "habitats": [
+      "Farmland",
+      "Urban"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Cubil de Monstruos, licensed Spanish edition of Monster Vault, p. 337, Caballo, de guerra.",
+      "Traits": "Trampling Charge. Move at least 30 ft. straight toward a creature and hit it with Hooves on the same turn. On a failed DC 14 Strength save, the target falls prone. If the target is prone, the horse can make another Hooves attack against it as a bonus action.",
+      "Actions": "Hooves. Melee weapon attack +6, reach 5 ft., one target. On a hit, deal 8 (1d8 + 4) bludgeoning damage.",
+      "Reactions": "Trained Shift. When an effect would knock the rider prone or dismount them, the horse can shift its body to help. The rider has advantage on the check or save to avoid that effect."
+    }
+  },
+  {
+    "name": "Hyena",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Medium Beast",
+    "ac": 10,
+    "hp": 8,
+    "speed": "50 ft.",
+    "cr": "0",
+    "xp": 10,
+    "printedPage": 342,
+    "otherStatistics": "Perception 13. Stealth 10. Str +0. Dex +0. Con +1. Int -4. Wis +1. Cha -3. Senses none. Languages none.",
+    "appearance": "A spotted gray-tan hyena with a dark muzzle, rounded ears and a sloping back.",
+    "habitats": [
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hills"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Cubil de Monstruos, licensed Spanish edition of Monster Vault, pp. 342–343, Hiena.",
+      "Traits": "Cackling Chorus. When three or more hyenas are all within 30 ft. of each other, their calls form a deafening chorus. A creature starting its turn within 10 ft. of a participating hyena makes a Constitution save. On a failure, it is deafened until the start of its next turn. The book gives the DC as both 10 and 8 plus the number of participating hyenas.\nPack Tactics. The hyena has advantage on attacks against a creature if one of the hyena's allies is within 5 ft. of the creature and that ally is not incapacitated.",
+      "Actions": "Bite. Melee weapon attack +2, reach 5 ft., one creature. On a hit, deal 3 (1d6) piercing damage."
+    }
+  },
+  {
+    "name": "Hyena, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Large Beast",
+    "ac": 12,
+    "hp": 42,
+    "speed": "50 ft.",
+    "cr": "1",
+    "xp": 200,
+    "printedPage": 343,
+    "otherStatistics": "Perception 13. Stealth 12. Str +3. Dex +2. Con +2. Int -4. Wis +1. Cha -2. Senses none. Languages none.",
+    "appearance": "A broad-headed gray-tan hyena with dark spots, a raised mane and rounded ears.",
+    "habitats": [
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hills"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Cubil de Monstruos, licensed Spanish edition of Monster Vault, p. 343, Hiena, Gigante.",
+      "Traits": "Cackling Chorus. When three or more hyenas are all within 30 ft. of each other, their calls form a deafening chorus. A creature starting its turn within 10 ft. of a participating hyena makes a Constitution save. On a failure, it is deafened until the start of its next turn. The book gives the DC as both 10 and 8 plus the number of participating hyenas.",
+      "Actions": "Bite. Melee weapon attack +5, reach 5 ft., one creature. On a hit, deal 10 (2d6 + 3) piercing damage.",
+      "Bonus actions": "Warning Yip. Warn one friendly hyena or gnoll the giant hyena can see within 30 ft. The next attack roll against that target before the start of the giant hyena's turn has disadvantage.",
+      "Reactions": "Rampage. When the giant hyena reduces a creature to 0 HP, it can move up to half its speed and make one Bite attack. If it does, attack rolls against it have advantage until the start of its next turn."
+    }
+  },
+  {
+    "name": "Insect, Giant Centipede",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Small Beast",
+    "ac": 13,
+    "hp": 14,
+    "speed": "30 ft., climb 30 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "printedPage": 343,
+    "otherStatistics": "Perception 10. Stealth 12. Str -3. Dex +2. Con +1. Int -5. Wis -2. Cha -4. AC includes natural armor. Senses keensense 30 ft. Languages none.",
+    "appearance": "A long reddish-brown centipede curled into an S, with thin antennae and pale amber legs.",
+    "habitats": [
+      "Underground"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Cubil de Monstruos, licensed Spanish edition of Monster Vault, pp. 343–344, Insecto, Ciempiés Gigante.",
+      "Resistances": "Resistant to prone. The centipede has advantage on checks and saves to avoid or end that condition.",
+      "Actions": "Bite. Melee weapon attack +4, reach 5 ft., one creature. On a hit, deal 5 (1d6 + 2) piercing damage. The target takes 7 (2d6) poison damage on a failed DC 11 Constitution save. If the poison damage reduces the target to 0 HP, the target is stable and poisoned for 1 hour, even if it regains HP. It is paralyzed while poisoned this way.",
+      "Bonus actions": "Swift Hunter. Move up to the centipede's speed toward a hostile creature it can see."
+    }
+  }
+]

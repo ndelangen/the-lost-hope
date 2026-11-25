@@ -1,0 +1,118 @@
+[
+  {
+    "name": "Skarn",
+    "kind": "species",
+    "group": "3.5 edition",
+    "groups": [
+      "3.5 edition"
+    ],
+    "global": true,
+    "version": {
+      "key": "449e8610b621d1e88fb54612",
+      "publication": "Magic of Incarnum (2005)",
+      "edition": "3.5 edition",
+      "source": "https://openlibrary.org/books/OL8144462M",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Humanoid (Reptilian)"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Medium Humanoid with the Reptilian subtype. +2 Strength, −2 Dexterity. Base land speed 30 ft. The racial traits grant no essentia pool. Gaining a pool from a class or feat adds the Incarnum subtype.",
+            "Natural Weapon: One arm-spine attack per round under the base racial rule. It deals 1d6 piercing. An off-hand spine attack takes the ordinary off-hand penalties and adds only half a positive Strength modifier to damage.",
+            "An arm cannot attack with both its spines and a weapon it wields in the same round. Attacking with spines on an arm carrying a shield removes that shield’s AC bonus until the start of your next turn.",
+            "Binding a soulmeld to the arms chakra makes spine attacks count as lawful for overcoming damage reduction.",
+            "+2 racial bonus to Intimidate and Climb. Common is automatic. Bonus languages are Draconic, Elf (Elven), Celestial, Abyssal, and Infernal. Favored class Incarnate. The published examples list LA +0 and use class Hit Dice.",
+            "Skarn are solidly built and humanlike, with rows of spines on their forearms, calves, and upper back. The spines can lie flush against the body and do not retract.",
+            "Choose the optional Skarn Monk substitutions at Monk 1, 5, and 10 independently. Each uses a d8 Hit Die and adds Intimidate as a class skill at that level.",
+            "Monk 1 replaces the unarmed strike class feature with Spine Strike. Treat arm spines as unarmed strikes for Monk class features such as flurry of blows and ki strike. Medium Monk damage with spines rises to 1d8 at Monk 4 and 1d10 at Monk 8.",
+            "Monk 5 grants one essentia and Defensive Insight, replacing the standard level-based Monk AC bonus. Gain +1 insight AC per invested point. It applies to touch AC and while flat-footed, immobilized, or helpless, and works with armor, shield, or heavy load. The normal Wisdom-to-AC rules still apply separately.",
+            "Monk 10 replaces ki strike (lawful) with one daily soulmeld from the Soulborn list if Constitution is at least 11, plus the ability to bind a soulmeld to the arms chakra. Meldshaper level is half Monk level. Save DC is 10 + invested essentia + Wisdom modifier."
+          ]
+        },
+        {
+          "title": "Original NPC · Corven Ashstep",
+          "lines": [
+            "Stone stair marshal and Monk.",
+            "Motive. Get the last climbers off a cracked landing.",
+            "Hook. Corven asks the party to lead the climbers down while he keeps the stair clear.",
+            "Skarn stone stair marshal, Monk 1 substitution · Provisional CR 1. ECL 1. · Medium Humanoid (Reptilian)",
+            "AC 13 · HP 10 (1d8+2) · Speed 30 ft."
+          ]
+        },
+        {
+          "title": "Original NPC · Sera Flintward",
+          "lines": [
+            "Lockgate inspector and Fighter.",
+            "Motive. Keep the lockgate clear until the crew can reach the jammed chain.",
+            "Hook. Sera can hold the gate and tell the party how to reach the chain from the bank.",
+            "Skarn lockgate inspector, Fighter 1 · Provisional CR 1. ECL 1. · Medium Humanoid (Incarnum, Reptilian)",
+            "AC 17 · HP 12 (1d10+2) · Speed 30 ft."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Corven Ashstep": [
+          {
+            "start": 15,
+            "end": 29,
+            "target": {
+              "name": "Corven Ashstep",
+              "group": "Skarn",
+              "publication": "Skarn stone stair marshal, Monk 1 substitution",
+              "local": {
+                "entry": "npc-04d62f29b055bf7fc62a5d66",
+                "version": "0d885173ba47e9470a79ad25"
+              }
+            }
+          }
+        ],
+        "Original NPC · Sera Flintward": [
+          {
+            "start": 15,
+            "end": 29,
+            "target": {
+              "name": "Sera Flintward",
+              "group": "Skarn",
+              "publication": "Skarn lockgate inspector, Fighter 1",
+              "local": {
+                "entry": "npc-12c0a531a2589586b8c37b2e",
+                "version": "0ad8ec9d43e4bf1af5902fb9"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Skarn": true,
+      "skarn arm spine": true,
+      "skarn defensive insight": true,
+      "skarn stone stair marshal": true,
+      "skarn lockgate inspector": true
+    },
+    "hash": "9a677be37ab0d0595628e2eb38be946ed27aa69fd8a7ea522b8fd3979c343fff",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Magic of Incarnum (2005)",
+    "defaultVersionKey": "449e8610b621d1e88fb54612",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  }
+]

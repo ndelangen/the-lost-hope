@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Aasimar",
+    "species": "species-706d5c6daf1f4f2a406b0119",
+    "edition": "3.5 edition",
+    "profiles": [
+      "Planar Handbook (2004)"
+    ],
+    "portraitSha256": "f0beda1919d6b7976e375aa8aa446ac7465928d97356196d2fc7c4284a23364d",
+    "caption": "Iona Vale · Original Aasimar NPC",
+    "npcReceipts": [
+      {
+        "name": "Iona Vale",
+        "id": "npc-0cc0b463ec8806eb8f2aca7d",
+        "challenge": "Provisional CR 2. ECL 2 (1 class HD, LA +1)."
+      },
+      {
+        "name": "Teren Mere",
+        "id": "npc-4bf86b19f14080a5e1a0f3c2",
+        "challenge": "Provisional CR 2. ECL 2 (1 class HD, LA +1)."
+      }
+    ]
+  }
+]

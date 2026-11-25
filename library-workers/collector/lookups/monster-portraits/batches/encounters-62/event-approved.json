@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Maenad",
+    "slug": "maenad",
+    "caption": "Vara Flintshore · Original Maenad NPC",
+    "id": "species-f57cb770bc61ca5ac608f197:7f9a974316dfd03426ac0668",
+    "entry": "species-f57cb770bc61ca5ac608f197",
+    "version": "7f9a974316dfd03426ac0668",
+    "suffix": "encounters-62/maenad.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-62/maenad.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-62/event-drafts/maenad-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 62 2026-11-24/event-drafts/maenad-event-v1.png",
+    "overrides": [],
+    "sha256": "ab6b3e17a1c3575bb18f1b378de57682fe25b92695dc8fb032b7692396eb2458",
+    "bytes": 2322309
+  }
+]

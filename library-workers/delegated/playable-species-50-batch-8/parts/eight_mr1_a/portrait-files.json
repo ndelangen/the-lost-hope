@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Empyrean",
+    "file": "portraits/empyrean.png",
+    "sha256": "8b4c47d31038119f19877adbe3c20a6cf31411420c8ed69653db124b6b4a46b1",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original illustration generated with OpenAI ImageGen"
+  },
+  {
+    "name": "Ettin",
+    "file": "portraits/ettin.png",
+    "sha256": "0f3ede3735f1d2662f877af4f97e5f7836de09996fc0e9268f00cadc0e212a20",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original illustration generated with OpenAI ImageGen"
+  },
+  {
+    "name": "Faerie Dragon",
+    "file": "portraits/faerie-dragon.png",
+    "sha256": "fb73d7b1ee501ebfaa63fe86db692e073f5ca04a2054c6bb3ec3a5561310f313",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original illustration generated with OpenAI ImageGen"
+  },
+  {
+    "name": "Flameskull",
+    "file": "portraits/flameskull.png",
+    "sha256": "b5c98c048b94fb90300a02486267c66bf8efc57959fe86ba9d73ef1d267837df",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original illustration generated with OpenAI ImageGen"
+  },
+  {
+    "name": "Flumph",
+    "file": "portraits/flumph.png",
+    "sha256": "479d28a15d8fd7ea0d38087b47d0c15bf69be1098bcac3ff9574f8a798df39cc",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original illustration generated with OpenAI ImageGen"
+  }
+]

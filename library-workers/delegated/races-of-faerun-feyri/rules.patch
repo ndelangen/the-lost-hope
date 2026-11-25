@@ -1,0 +1,174 @@
+diff --git a/dm-library/bestiary/book-catalog.json b/dm-library/bestiary/book-catalog.json
+--- a/dm-library/bestiary/book-catalog.json
++++ b/dm-library/bestiary/book-catalog.json
+@@ -315798,6 +315798,25 @@
+       ]
+     },
+     {
++      "name": "Fey’ri",
++      "kind": "species",
++      "publication": "Races of Faerûn (2003)",
++      "edition": "3.5 edition",
++      "traits": [
++        "Medium Outsider (Native). +2 Dexterity, +2 Intelligence, −2 Constitution. Land speed 30 ft. Darkvision 60 ft. and low-light vision.",
++        "The natural winged form has a 40-ft. fly speed with poor maneuverability. Core flight requires a light load or less.",
++        "Immune to magic sleep. +2 racial bonus on Will saves against enchantment spells and effects.",
++        "Elven Blood makes the fey’ri count as an elf for elf-specific effects and items.",
++        "+2 racial bonus on Bluff, Hide, Listen, Search, and Spot.",
++        "Change Shape (Su). At will as a standard action, assume a humanoid form. The new form supplies its size and movement modes. Retain the original type, ability scores, Hit Dice, hit points, saves, and spellcasting. Gain +10 on Disguise when using the ability for a disguise.",
++        "The 2003 player rules use at-will alter self (Sp) for an indefinite humanoid form. This 3.5 adaptation uses Change Shape from the 2004 conversion of the earlier monster. True seeing reveals the natural form, and Change Shape cannot assume a templated form.",
++        "Choose four Demonic Abilities total. Options are charm person, clairaudience/clairvoyance, darkness, detect thoughts, dimension door, enervation, suggestion, DR 10/magic, fire resistance 10, +2 racial on saves against electricity, or +2 racial on saves against poison.",
++        "Each selected spell-like ability is usable once per day, with caster level equal to character level and Charisma-based save DCs.",
++        "Choose at most one of DR 10/magic, dimension door, and enervation. Taking one raises LA from +2 to +3. The original 2003 DR option was 10/+1. The player entry has no racial Hit Dice.",
++        "Common, Elven, and Abyssal are the languages named in the book. The language section also describes learning Gnoll, Goblin, Sylvan, and Draconic. Favored class Sorcerer."
++      ]
++    },
++    {
+       "edition": "Black Flag Roleplaying",
+       "publication": "Black Flag Roleplaying Reference Document v0.2",
+       "kind": "species",
+diff --git a/dm-library/bestiary/npc-encounters.json b/dm-library/bestiary/npc-encounters.json
+--- a/dm-library/bestiary/npc-encounters.json
++++ b/dm-library/bestiary/npc-encounters.json
+@@ -5416,6 +5416,101 @@
+       "origin": "Original DM Library NPC",
+       "editions": ["3.5 edition"],
+       "size": "Medium",
++      "type": "Outsider (Native)",
++      "senses": "Darkvision 60 ft. and low-light vision.",
++      "speed": "30 ft.; fly 40 ft. (poor) in natural winged form",
++      "id": "feyri-ashthread-canopy-scout-35e",
++      "title": "Fey’ri canopy scout, Rogue 1",
++      "difficulty": "Provisional CR 2. ECL 3 (1 class HD, LA +2).",
++      "ac": 16,
++      "hp": 7,
++      "hitDice": "1d6+1",
++      "initiative": 8,
++      "languages": "Abyssal, Common, Elven, Goblin, Sylvan",
++      "abilityScores": {
++        "STR": 10,
++        "DEX": 18,
++        "CON": 12,
++        "INT": 14,
++        "WIS": 12,
++        "CHA": 10
++      },
++      "skills": [
++        "Balance +8",
++        "Bluff +6",
++        "Disguise +4 (+14 with Change Shape)",
++        "Hide +10",
++        "Listen +7",
++        "Move Silently +8",
++        "Search +8",
++        "Spot +7",
++        "Tumble +8",
++        "Use Rope +8"
++      ],
++      "traits": [
++        "Neutral. Leather armor +2 and Dexterity +4. Touch 14, flat-footed 12. BAB +0, grapple +0. Fortitude +1, Reflex +6, Will +1. Improved Initiative adds +4.",
++        "Immune to magic sleep. +2 racial bonus on Will saves against enchantment spells and effects.",
++        "Change Shape (Su). At will as a standard action, assume a humanoid form. The new form supplies its size and movement modes. Retain the original type, ability scores, Hit Dice, hit points, saves, and spellcasting. Gain +10 on Disguise when using the ability for a disguise.",
++        "The natural winged form has a 40-ft. fly speed with poor maneuverability. Core flight requires a light load or less.",
++        "Elven Blood makes the fey’ri count as an elf for elf-specific effects and items.",
++        "Four Demonic Abilities are darkness 1/day, detect thoughts 1/day, fire resistance 10, and +2 racial on saves against poison. Caster level 1. Trapfinding and Sneak Attack +1d6."
++      ],
++      "actions": [
++        "Shortbow +4 ranged for 1d6 piercing, critical ×3, range increment 60 ft. Rapier +0 melee for 1d6 piercing, critical 18–20/×2.",
++        "Detect thoughts is Will DC 12. Darkness uses caster level 1. Both are racial spell-like abilities.",
++        "Assume a human disguise at Disguise +14. The human form moves 30 ft. on land. Return to natural form before taking off at fly 40 ft. with poor maneuverability."
++      ],
++      "tactics": "Vaelis approaches the checkpoint in a human disguise. Once past the watch, she returns to her natural shape before crossing the broad gap on the wing. She keeps her load light and leaves enough room to turn."
++    },
++    {
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
++      "size": "Medium",
++      "type": "Outsider (Native)",
++      "senses": "Darkvision 60 ft. and low-light vision.",
++      "speed": "30 ft.; fly 40 ft. (poor) in natural winged form",
++      "id": "feyri-duskmantle-courtyard-courier-35e",
++      "title": "Fey’ri courtyard courier, Sorcerer 1",
++      "difficulty": "Provisional CR 2. ECL 4 (1 class HD, LA +3).",
++      "ac": 13,
++      "hp": 5,
++      "hitDice": "1d4+1",
++      "initiative": 7,
++      "languages": "Abyssal, Common, Draconic, Elven, Sylvan",
++      "abilityScores": {
++        "STR": 10,
++        "DEX": 16,
++        "CON": 12,
++        "INT": 14,
++        "WIS": 10,
++        "CHA": 16
++      },
++      "skills": [
++        "Concentration +5",
++        "Craft (calligraphy) +6",
++        "Disguise +3 (+13 with Change Shape)",
++        "Knowledge (arcana) +6",
++        "Spellcraft +6"
++      ],
++      "traits": [
++        "Neutral. Unarmored, Dexterity +3. Touch 13, flat-footed 10. BAB +0, grapple +0. Fortitude +1, Reflex +3, Will +2. Improved Initiative adds +4. No familiar is present.",
++        "Immune to magic sleep. +2 racial bonus on Will saves against enchantment spells and effects.",
++        "Change Shape (Su). At will as a standard action, assume a humanoid form. The new form supplies its size and movement modes. Retain the original type, ability scores, Hit Dice, hit points, saves, and spellcasting. Gain +10 on Disguise when using the ability for a disguise.",
++        "The natural winged form has a 40-ft. fly speed with poor maneuverability. Core flight requires a light load or less.",
++        "Elven Blood makes the fey’ri count as an elf for elf-specific effects and items.",
++        "Four Demonic Abilities are dimension door 1/day, charm person 1/day, detect thoughts 1/day, and fire resistance 10. Dimension door is the marked choice, giving LA +3. Caster level 1."
++      ],
++      "actions": [
++        "Light crossbow +3 ranged for 1d8 piercing, critical 19–20/×2, range increment 80 ft.",
++        "Dimension door reaches 440 ft. at caster level 1. Its passenger allowance starts at caster level 3. After using it, Nyrel can take no further actions until the next turn. Charm person is Will DC 14 and detect thoughts is Will DC 15.",
++        "Sorcerer spells known, CL 1. Detect magic, mage hand, message, and prestidigitation share five cantrip slots. Mage armor and grease share four 1st-level slots. Mage armor raises AC to 17 for 1 hour, touch 13, flat-footed 14. Grease is Reflex DC 14 and lasts 1 round."
++      ],
++      "tactics": "Nyrel scouts the courtyard in a humanoid guise, then uses dimension door to carry the message across the closed gate after the party clears the far side."
++    },
++    {
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
++      "size": "Medium",
+       "type": "Humanoid (Reptilian)",
+       "senses": "Darkvision 90 ft.",
+       "speed": "30 ft.",
+@@ -7070,6 +7165,28 @@
+       "hook": "Veyric can examine the rubbing from the far side of the threshold and tell the party which mark the crew covered."
+     },
+     {
++      "species": "Fey’ri",
++      "size": "Medium",
++      "edition": "3.5 edition",
++      "speciesPublication": "Races of Faerûn (2003)",
++      "name": "Vaelis Ashthread",
++      "build": "feyri-ashthread-canopy-scout-35e",
++      "role": "Canopy scout and Rogue.",
++      "motive": "Find a route across the gap before the checkpoint changes shift.",
++      "hook": "Vaelis waits on the far side of the checkpoint in a human disguise."
++    },
++    {
++      "species": "Fey’ri",
++      "size": "Medium",
++      "edition": "3.5 edition",
++      "speciesPublication": "Races of Faerûn (2003)",
++      "name": "Nyrel Duskmantle",
++      "build": "feyri-duskmantle-courtyard-courier-35e",
++      "role": "Courtyard courier and Sorcerer.",
++      "motive": "Get the message to the far side of the gate before it seals.",
++      "hook": "Nyrel can cross the gate once the party confirms a clear landing."
++    },
++    {
+       "species": "Dvati",
+       "size": "Medium",
+       "edition": "3.5 edition",
+diff --git a/dm-library/bestiary/entries.tsv b/dm-library/bestiary/entries.tsv
+--- a/dm-library/bestiary/entries.tsv
++++ b/dm-library/bestiary/entries.tsv
+@@ -3460,6 +3460,7 @@
+ Feymire Crocodiles	monster	Huge fey beast (reptile)	King of the Trollhaunt Warrens	4th edition	Wizards of the Coast		Level 10 Elite Soldier
+ Feymount Raccoon	beast	Beast	Monster Vault 2	Black Flag Roleplaying	Kobold Press	https://koboldpress.com/tools/search-tov-kobold-press-monsters/	2.0
+ Feyr	monster	Aberration	Spelljammer: Adventures in Space	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/2821164-feyr	5
++Fey’ri	species	Outsider (Native)	Races of Faerûn (2003)	3.5 edition	Wizards of the Coast	https://books.google.com/books?id=yjoCAAAACAAJ	
+ Fhenimore	monster	Humanoid	Locathah Rising	2014 fifth edition	Wizards of the Coast		5
+ Fidelio	monster	Undead	Waterdeep: Dungeon of the Mad Mage	2014 fifth edition	Wizards of the Coast		4
+ Fiend Cultist	monster	Humanoid	Monster Manual (2024)	2024 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/5194993-fiend-cultist	8

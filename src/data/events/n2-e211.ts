@@ -32,4 +32,5 @@ export default createEvent({
     [refs.pcs.swift_starblade, ' also gathered ', refs.pcs.jim, '’s ordinary bard’s equipment.'],
     [refs.pcs.swift_starblade, ' picked up two suits he did not recognise as well.'],
   ],
+  illustrations: ['/assets/scenes/swift-retrieves-jim-s-pages-and-weapons.png'],
 })

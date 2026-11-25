@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Banderhobb",
+    "file": "portraits/banderhobb.png",
+    "sha256": "65ef4511739ba6d61a5cd7f307bad285c41821abbef8e97d9fed7be82e910a13",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "name": "Bodak",
+    "file": "portraits/bodak.png",
+    "sha256": "56790bb5f68110144568c0b3e00fa5c957ebeb1bec54c2057e788d322aed67b5",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "name": "Boggle",
+    "file": "portraits/boggle.png",
+    "sha256": "4d94e2fca410032af7683e324bc5587cf2c7d2212dfc2be5d77f96b2dad27615",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "name": "Catoblepas",
+    "file": "portraits/catoblepas.png",
+    "sha256": "f906c141296bcf0877aebf73da2413b197c76aa2850fafd1416723df905916db",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "name": "Cave Fisher",
+    "file": "portraits/cave-fisher.png",
+    "sha256": "4527572941fa020b6e3cc565617553533a079feecdccd6c9e6742bd58243dfd1",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  }
+]

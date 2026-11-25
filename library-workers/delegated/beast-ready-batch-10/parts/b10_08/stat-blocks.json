@@ -1,0 +1,312 @@
+[
+  {
+    "name": "Tyrannosaurus Rex",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Huge Beast (Dinosaur), unaligned",
+    "ac": 13,
+    "hp": 136,
+    "hitDice": "13d12 + 52",
+    "initiative": 3,
+    "speed": "50 ft.",
+    "cr": "8",
+    "xp": 3900,
+    "proficiencyBonus": 3,
+    "abilities": {
+      "Str": {
+        "score": 25,
+        "modifier": 7
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 19,
+        "modifier": 4
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 9,
+        "modifier": -1
+      }
+    },
+    "savingThrows": {
+      "Str": 10,
+      "Dex": 0,
+      "Con": 4,
+      "Int": -4,
+      "Wis": 4,
+      "Cha": -1
+    },
+    "otherStatistics": "Initiative +3 (13). Proficiency bonus +3. Perception +4. Passive Perception 14. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A broad-jawed, ochre-brown dinosaur with short forelimbs, heavy hind legs, and a long tapering tail.",
+    "habitats": [
+      "Grassland"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, revised Monster Manual (2025 release, 2024 rules), Appendix A, p. 372. https://www.dndbeyond.com/monsters/5195243-tyrannosaurus-rex",
+      "Actions": "Multiattack. Make one Bite attack and one Tail attack.\n\nBite. Melee attack roll +10, reach 10 ft. On a hit, deal 33 (4d12 + 7) piercing damage. A Large or smaller creature hit by the Bite is grappled (escape DC 17). While this grapple lasts, the target is restrained and cannot be targeted by the tyrannosaurus’s Tail.\n\nTail. Melee attack roll +10, reach 15 ft. On a hit, deal 25 (4d8 + 7) bludgeoning damage. A Huge or smaller creature hit by the Tail falls prone."
+    }
+  },
+  {
+    "name": "Venomous Snake",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 12,
+    "hp": 5,
+    "hitDice": "2d4",
+    "initiative": 2,
+    "speed": "30 ft., Swim 30 ft.",
+    "cr": "1/8",
+    "xp": 25,
+    "proficiencyBonus": 2,
+    "abilities": {
+      "Str": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "savingThrows": {
+      "Str": -4,
+      "Dex": 2,
+      "Con": 0,
+      "Int": -5,
+      "Wis": 0,
+      "Cha": -4
+    },
+    "otherStatistics": "Initiative +2 (12). Proficiency bonus +2. Blindsight 10 ft. Passive Perception 10. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A slender snake with alternating ochre, dark gray, and russet bands, shown in a loose coil.",
+    "habitats": [
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Swamp"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, revised Monster Manual (2025 release, 2024 rules), Appendix A, p. 372. https://www.dndbeyond.com/monsters/4775847-venomous-snake",
+      "Actions": "Bite. Melee attack roll +4, reach 5 ft. On a hit, deal 4 (1d4 + 2) piercing damage plus 3 (1d6) poison damage."
+    }
+  },
+  {
+    "name": "Vulture",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 10,
+    "hp": 5,
+    "hitDice": "1d8 + 1",
+    "initiative": 0,
+    "speed": "10 ft., Fly 50 ft.",
+    "cr": "0",
+    "xp": 10,
+    "proficiencyBonus": 2,
+    "abilities": {
+      "Str": {
+        "score": 7,
+        "modifier": -2
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "savingThrows": {
+      "Str": -2,
+      "Dex": 0,
+      "Con": 1,
+      "Int": -4,
+      "Wis": 1,
+      "Cha": -3
+    },
+    "otherStatistics": "Initiative +0 (10). Proficiency bonus +2. Perception +3. Passive Perception 13. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A heavy brown bird with a pale bare head, hooked bill, scruffy neck ruff, and layered wing feathers.",
+    "habitats": [
+      "Desert",
+      "Grassland",
+      "Hill"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, revised Monster Manual (2025 release, 2024 rules), Appendix A, p. 372. https://www.dndbeyond.com/monsters/5195256-vulture",
+      "Traits": "Pack Tactics. The vulture gains advantage when attacking a creature within 5 ft. of one of its allies, provided that ally is not incapacitated.",
+      "Actions": "Beak. Melee attack roll +2, reach 5 ft. On a hit, deal 2 (1d4) piercing damage."
+    }
+  },
+  {
+    "name": "Warhorse",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 11,
+    "hp": 19,
+    "hitDice": "3d10 + 3",
+    "initiative": 1,
+    "speed": "60 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "proficiencyBonus": 2,
+    "abilities": {
+      "Str": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "savingThrows": {
+      "Str": 4,
+      "Dex": 1,
+      "Con": 1,
+      "Int": -4,
+      "Wis": 3,
+      "Cha": -2
+    },
+    "otherStatistics": "Initiative +1 (11). Proficiency bonus +2. Passive Perception 11. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A muscular bay horse with a black mane, dark lower legs, and a long black tail.",
+    "habitats": [
+      "Urban"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, revised Monster Manual (2025 release, 2024 rules), Appendix A, p. 373. https://www.dndbeyond.com/monsters/4775848-warhorse",
+      "Actions": "Hooves. Melee attack roll +6, reach 5 ft. On a hit, deal 9 (2d4 + 4) bludgeoning damage. If the horse moved at least 20 ft. straight toward a Large or smaller creature immediately before hitting it, deal another 5 (2d4) bludgeoning damage and knock that creature prone."
+    }
+  },
+  {
+    "name": "Weasel",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 13,
+    "hp": 1,
+    "hitDice": "1d4 - 1",
+    "initiative": 3,
+    "speed": "30 ft., Climb 30 ft.",
+    "cr": "0",
+    "xp": 10,
+    "proficiencyBonus": 2,
+    "abilities": {
+      "Str": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "savingThrows": {
+      "Str": -4,
+      "Dex": 3,
+      "Con": -1,
+      "Int": -4,
+      "Wis": 1,
+      "Cha": -4
+    },
+    "otherStatistics": "Initiative +3 (13). Proficiency bonus +2. Acrobatics +5, Perception +3, Stealth +5. Darkvision 60 ft. Passive Perception 13. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A low, long-bodied brown weasel with a cream throat and belly, short rounded ears, and a narrow tail.",
+    "habitats": [
+      "Forest",
+      "Grassland",
+      "Hill"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, revised Monster Manual (2025 release, 2024 rules), Appendix A, p. 373. D&D Beyond displays a p. 372 byline. The printed block is on p. 373. https://www.dndbeyond.com/monsters/4775849-weasel",
+      "Actions": "Bite. Melee attack roll +5, reach 5 ft. A hit deals 1 piercing damage."
+    }
+  }
+]

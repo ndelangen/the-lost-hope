@@ -19,4 +19,5 @@ export default createEvent({
       'The conversation included conflicting statements about his age and time in the crystal. The party also discussed whether travelling into the past was possible; this did not establish a successful journey by any of them.',
     ],
   ],
+  illustrations: ['/assets/scenes/sarogarth-opens-a-portal-back-to-skynet.png'],
 })

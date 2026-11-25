@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Burrowing Owl",
+    "kind": "beast",
+    "publication": "Caravans",
+    "edition": "AD&D 2nd edition",
+    "section": "Campaign Guide",
+    "printedPages": [
+      27,
+      28
+    ],
+    "pdfPages": [
+      29,
+      30
+    ],
+    "entryId": "beast-fee58352ff0c2231bf7b6493",
+    "versionKey": "ec09baec6aea2f3d4dbbc1a7",
+    "slug": "burrowing-owl",
+    "query": "burrowing owl marching camels",
+    "publisher": "TSR",
+    "year": 1994,
+    "productNumber": 9459,
+    "adventureAuthor": "Rick Swan",
+    "archivedPublisherDownload": "https://web.archive.org/web/20101014100000id_/http://www.wizards.com/dnd/files/tsr9459caravans.zip",
+    "originalPdfSha256": "a92cf9d3fb154daf1cb3042ccaa16fa213f6e4d7f2e83636de1918d131c2e9b5",
+    "originalPdfPath": "",
+    "portraitSelection": "generated",
+    "archivedPdfMatchesLocal": true,
+    "archivedZipSha256": "317ab82c41e4183b034710f2f4ab741cb6554abde6f31d35701003b83fd43512",
+    "archiveMember": ""
+  },
+  {
+    "name": "Black Sand Adder",
+    "kind": "beast",
+    "publication": "Caravans",
+    "edition": "AD&D 2nd edition",
+    "section": "Adventure Book",
+    "printedPages": [
+      7,
+      9
+    ],
+    "pdfPages": [
+      42,
+      44
+    ],
+    "entryId": "beast-c65d4c0c5454de5ed5733a52",
+    "versionKey": "e4e54bac714cec9e2d3c9deb",
+    "slug": "black-sand-adder",
+    "query": "black sand adder treatment room",
+    "publisher": "TSR",
+    "year": 1994,
+    "productNumber": 9459,
+    "adventureAuthor": "Rick Swan",
+    "archivedPublisherDownload": "https://web.archive.org/web/20101014100000id_/http://www.wizards.com/dnd/files/tsr9459caravans.zip",
+    "originalPdfSha256": "a92cf9d3fb154daf1cb3042ccaa16fa213f6e4d7f2e83636de1918d131c2e9b5",
+    "originalPdfPath": "",
+    "portraitSelection": "generated",
+    "summaryPdfPage": 34,
+    "rulesPrintedPage": 9,
+    "rulesPdfPage": 44,
+    "chosenHitPoints": [
+      21
+    ],
+    "summaryHitPoints": 15,
+    "archivedPdfMatchesLocal": true,
+    "archivedZipSha256": "317ab82c41e4183b034710f2f4ab741cb6554abde6f31d35701003b83fd43512",
+    "archiveMember": ""
+  },
+  {
+    "name": "Dune Viper",
+    "kind": "beast",
+    "publication": "Caravans",
+    "edition": "AD&D 2nd edition",
+    "section": "Adventure Book",
+    "printedPages": [
+      7,
+      10,
+      11,
+      12
+    ],
+    "pdfPages": [
+      42,
+      45,
+      46,
+      47
+    ],
+    "entryId": "beast-9ad90f308c1284265edf1386",
+    "versionKey": "ff7aea0840eb1b3008d37f46",
+    "slug": "dune-viper",
+    "query": "dune viper bed frame",
+    "publisher": "TSR",
+    "year": 1994,
+    "productNumber": 9459,
+    "adventureAuthor": "Rick Swan",
+    "archivedPublisherDownload": "https://web.archive.org/web/20101014100000id_/http://www.wizards.com/dnd/files/tsr9459caravans.zip",
+    "originalPdfSha256": "a92cf9d3fb154daf1cb3042ccaa16fa213f6e4d7f2e83636de1918d131c2e9b5",
+    "originalPdfPath": "",
+    "portraitSelection": "generated",
+    "summaryPdfPage": 34,
+    "rulesPrintedPage": 10,
+    "rulesPdfPage": 45,
+    "chosenHitPoints": [
+      13,
+      15
+    ],
+    "summaryHitPoints": 9,
+    "archivedPdfMatchesLocal": true,
+    "archivedZipSha256": "317ab82c41e4183b034710f2f4ab741cb6554abde6f31d35701003b83fd43512",
+    "archiveMember": ""
+  },
+  {
+    "name": "Giant Cobra",
+    "kind": "beast",
+    "publication": "Caravans",
+    "edition": "AD&D 2nd edition",
+    "section": "Adventure Book",
+    "printedPages": [
+      10,
+      11,
+      12
+    ],
+    "pdfPages": [
+      45,
+      46,
+      47
+    ],
+    "entryId": "beast-dee6a293668a1095f8b1b31b",
+    "versionKey": "5e377afbd67b94f622d65a13",
+    "slug": "giant-cobra",
+    "query": "giant cobra hypnotic stare",
+    "publisher": "TSR",
+    "year": 1994,
+    "productNumber": 9459,
+    "adventureAuthor": "Rick Swan",
+    "archivedPublisherDownload": "https://web.archive.org/web/20101014100000id_/http://www.wizards.com/dnd/files/tsr9459caravans.zip",
+    "originalPdfSha256": "a92cf9d3fb154daf1cb3042ccaa16fa213f6e4d7f2e83636de1918d131c2e9b5",
+    "originalPdfPath": "",
+    "portraitSelection": "generated",
+    "summaryPdfPage": 34,
+    "rulesPrintedPage": 11,
+    "rulesPdfPage": 46,
+    "encounterIllustrationPdfPage": 45,
+    "adventureBookInteriorArtCredit": "Karl Waller",
+    "chosenHitPoints": [
+      27
+    ],
+    "summaryHitPoints": 23,
+    "archivedPdfMatchesLocal": true,
+    "archivedZipSha256": "317ab82c41e4183b034710f2f4ab741cb6554abde6f31d35701003b83fd43512",
+    "archiveMember": ""
+  }
+]

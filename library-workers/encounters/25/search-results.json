@@ -1,0 +1,49 @@
+[
+  {
+    "name": "Rose Durst",
+    "query": "rose durst older girl dollhouse withering",
+    "term": "Dispel Evil and Good",
+    "parent": "Ghost",
+    "publication": "Monster Manual (2014)",
+    "alternates": [
+      {
+        "credit": "Curse of Strahd",
+        "url": ""
+      },
+      {
+        "credit": "D&D Beyond publisher art · Curse of Strahd",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Thorn Durst",
+    "query": "thorn durst hooded coat doll withering",
+    "term": "Dispel Evil and Good",
+    "parent": "Ghost",
+    "publication": "Monster Manual (2014)",
+    "alternates": [
+      {
+        "credit": "Curse of Strahd",
+        "url": ""
+      },
+      {
+        "credit": "D&D Beyond publisher art · Curse of Strahd",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Wereraven",
+    "query": "barovian black feathers wizard of wines lycanthropy",
+    "term": "Insight",
+    "parent": "Wereraven",
+    "publication": "Van Richten’s Guide to Ravenloft",
+    "alternates": [
+      {
+        "credit": "D&D Beyond publisher art · Curse of Strahd",
+        "url": ""
+      }
+    ]
+  }
+]

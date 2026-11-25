@@ -1,0 +1,60 @@
+[
+  {
+    "name": "Mimic Mimiature",
+    "kind": "monster",
+    "type": "Monstrosity",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "source": "https://www.dndbeyond.com/monsters/4485948-mimic-mimiature",
+    "entry": "monster-20ef58614066ed2a6a2e2c1e",
+    "version": "a7a44510a6c889df9f66e88d",
+    "slug": "mimic-mimiature",
+    "mode": "existing",
+    "challenge": "1",
+    "generated": true,
+    "status": "Stat block",
+    "primaryPortraitSha256": "2120f12794d7772b5af69ef072d35f9ac24ec4c09fb481407d4b21efe8213a53",
+    "encounterStatus": "local-stat-block",
+    "role": "Minion",
+    "query": "palm-sized lockbox storerooms sticky swarm minion",
+    "alternate": {
+      "credit": "OpenAI ImageGen · The Lost Hope",
+      "url": ""
+    },
+    "appearance": "A small amorphous shapechanger that can masquerade as a palm-sized lockbox, with tiny teeth and sticky pseudopods.",
+    "habitats": [
+      "Dungeons",
+      "Markets",
+      "Storerooms"
+    ]
+  },
+  {
+    "name": "Mimic Companion",
+    "kind": "monster",
+    "type": "Monstrosity",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "source": "https://www.dndbeyond.com/sources/dnd/fm",
+    "entry": "monster-726b8cebe8804f34171b7ed0",
+    "version": "e569a27cc276b649db6cf041",
+    "slug": "mimic-companion",
+    "mode": "new",
+    "challenge": null,
+    "generated": true,
+    "status": "Stat block",
+    "primaryPortraitSha256": "431d8a5e9039d353ed421a7b8dc5f31be4961b84ce3b9fbb4b8b2a24f03840ab",
+    "encounterStatus": "local-stat-block",
+    "role": "Companion",
+    "query": "traveling cloak settlements wearable companion",
+    "alternate": {
+      "credit": "Related Mimic (MCDM) illustration · D&D Beyond publisher art · Flee, Mortals!",
+      "url": ""
+    },
+    "appearance": "An amorphous companion that can wrap itself around its caregiver in the guise of clothing, such as a folded traveling cloak.",
+    "habitats": [
+      "Dungeons",
+      "Settlements",
+      "Markets"
+    ]
+  }
+]

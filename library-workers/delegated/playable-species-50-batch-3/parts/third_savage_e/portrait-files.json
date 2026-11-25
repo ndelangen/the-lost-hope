@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Triton",
+    "file": "",
+    "sha256": "d468287309d2efb483485946bad4f6092eb65585ad9b2838cd91ff0a57822483",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Troll",
+    "file": "",
+    "sha256": "682272162016947362296f4667f59c55fbbdc9b9fd12fad632da7cba359c31e5",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Trumpet Archon",
+    "file": "",
+    "sha256": "1cf1bd6926e0a4db80f35d45c4c342f56a40ba316a310bf840de789c1f4b92d0",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Vrock",
+    "file": "",
+    "sha256": "7395876528ba53f45e832ec991bd7245d9477ef569baa177c098000027f55cca",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Water Elemental",
+    "file": "",
+    "sha256": "f544326fb3dac2db0890503537de9a2092cba4442b39a61e6c086361ba6015d4",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  }
+]

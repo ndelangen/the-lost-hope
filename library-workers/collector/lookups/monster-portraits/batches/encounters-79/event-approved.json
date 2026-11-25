@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Whisper Gnome",
+    "slug": "whisper-gnome",
+    "caption": "Nella Sedgefold · Original Whisper Gnome NPC",
+    "id": "species-e6afa4533fd02005e8e393a7:9caa043c27200fd9fb213fa2",
+    "entry": "species-e6afa4533fd02005e8e393a7",
+    "version": "9caa043c27200fd9fb213fa2",
+    "suffix": "encounters-79/whisper-gnome.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-79/whisper-gnome.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-79/event-drafts/whisper-gnome-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 79 2026-11-24/event-drafts/whisper-gnome-event-v1.png",
+    "overrides": [],
+    "sha256": "a1d21eff2d78268ef5272d9dc1cc0e064ceab273214687d729d6a173b5de7ce4",
+    "bytes": 1888182
+  }
+]

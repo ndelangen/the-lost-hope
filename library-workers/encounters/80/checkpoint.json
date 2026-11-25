@@ -1,0 +1,43 @@
+{
+  "commit": "0f9ae3b00f063f22d509f42746c43906a30ddc98",
+  "publication": "Races of Stone (2004)",
+  "edition": "3.5 edition",
+  "playableSpecies": 1,
+  "fullNpcBuilds": 2,
+  "approvedPortraitsReused": 1,
+  "groundedCasterLevel": {
+    "divinations": 2,
+    "entangle": 1
+  },
+  "dwarfGrouping": {
+    "dwarf": "species-9a283fd012b06e2e7d4e8fcd",
+    "default": "Black Flag Roleplaying Reference Document v0.2",
+    "versions": 12,
+    "dream": "species-15c16dad6f37b561b26d2ade"
+  },
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "visualProof": "output/dm-library/review/encounters-80-dream dwarf-species.png",
+  "browser": {
+    "name": "Dream Dwarf",
+    "species": "species-15c16dad6f37b561b26d2ade",
+    "edition": "3.5 edition",
+    "profiles": [
+      "Races of Stone (2004)"
+    ],
+    "portraitSha256": "4c6e66faf607227fb85c7dac33dc9ec8d09462cb931a3641294cb9bd89257d4d",
+    "caption": "Maera Dol-Vel · Original Dream Dwarf NPC",
+    "npcReceipts": [
+      {
+        "name": "Maera Dol-Vel",
+        "id": "npc-9cec00f549035a2f6b422793",
+        "challenge": "Provisional CR 1. ECL 1."
+      },
+      {
+        "name": "Ornek Tarn-Iol",
+        "id": "npc-d1c8841460114869e6d155f9",
+        "challenge": "Provisional CR 1/2. ECL 1."
+      }
+    ]
+  }
+}

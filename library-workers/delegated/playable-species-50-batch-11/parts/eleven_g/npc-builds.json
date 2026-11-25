@@ -1,0 +1,283 @@
+{
+  "builds": [
+    {
+      "id": "mr2018-killer-whale-bellfin",
+      "title": "Bellfin, Killer Whale Barbarian 2",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR unassigned.",
+      "size": "Medium",
+      "type": "Beast",
+      "ac": 13,
+      "hp": 21,
+      "hitDice": "2d12 + 2",
+      "initiative": 2,
+      "speed": "0 ft. walking, 50 ft. swimming",
+      "abilityScores": {
+        "STR": 17,
+        "DEX": 14,
+        "CON": 13,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +5",
+        "Nature +2",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "senses": "Blindsight 60 ft. except while deafened. Passive Perception 13.",
+      "languages": "Common, Primordial (Aquan dialect), and Elvish.",
+      "traits": [
+        "Proficiency +2. Strength save +5 and Constitution save +3. Unarmored Defense is 10 + 2 Dexterity + 1 Constitution. HP 21 is 13 at 1st level and 8 at 2nd.",
+        "Barbarian supplies Athletics and Perception. The custom pilot background keeps Sailor’s Ship’s Passage and supplies Nature, Survival, Primordial (Aquan dialect), and Elvish.",
+        "Can hold breath for 30 minutes. No weapons, shield, or gear that requires manipulation. The swim speed avoids the normal underwater penalty on melee weapon attacks.",
+        "Danger Sense gives advantage on Dexterity saves against effects Bellfin can see while neither blinded, deafened, nor incapacitated."
+      ],
+      "actions": [
+        "Bite. Unarmed strike, +5 to hit, reach 5 ft. Hit for 1d8 + 3 slashing, or 1d8 + 5 while raging.",
+        "Rage. Begin as a bonus action, twice per long rest. For up to 1 minute, gain advantage on Strength checks and saves, +2 damage on Strength-based melee weapon attacks, and resistance to bludgeoning, piercing, and slashing. Ends early if unconscious or if a turn ends without having attacked a hostile creature since the previous turn or taken damage in that time.",
+        "Reckless Attack. Decide on the first attack of Bellfin’s turn. Gain advantage on Strength-based melee weapon attacks that turn, and attack rolls against Bellfin have advantage until Bellfin’s next turn."
+      ],
+      "tactics": "Bellfin surfaces to speak, then dives along the deepest side of the channel. If something follows a boat too closely, Bellfin turns and drives it away from the rudder."
+    },
+    {
+      "id": "mr2018-lion-kedge",
+      "title": "Kedge, Lion Barbarian 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR unassigned.",
+      "size": "Medium",
+      "type": "Beast",
+      "ac": 13,
+      "hp": 13,
+      "hitDice": "1d12 + 1",
+      "initiative": 2,
+      "speed": "50 ft. walking",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 13,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Athletics +5",
+        "Intimidation +2",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "senses": "Passive Perception 13, or 18 when smell applies.",
+      "languages": "Common, Elvish, and Sylvan.",
+      "traits": [
+        "Proficiency +2. Strength save +5 and Constitution save +3. Unarmored Defense is 10 + 2 Dexterity + 1 Constitution. HP 13 is 12 + 1 Constitution.",
+        "Barbarian supplies Perception and Intimidation. The custom watch background uses Outlander’s Wanderer and supplies Athletics, Survival, Elvish, and Sylvan.",
+        "Advantage on Perception checks that rely on smell. A 10-ft. run-up allows a 25-ft. long jump. Movement still pays for the run and each foot of the jump."
+      ],
+      "actions": [
+        "Bite or claw. Unarmed strike, +5 to hit, reach 5 ft. Hit for 1d8 + 3 piercing or slashing, or 1d8 + 5 while raging.",
+        "Pack Tactics. Bonus action. Gain advantage on the next attack roll this turn against a target if an ally who is not incapacitated is within 5 ft. of it.",
+        "Pounce. Move at least 15 ft. straight toward a foe and hit it with an unarmed strike on the same turn. Then use a bonus action to try to shove it prone. Contest Athletics +5 against the target’s Athletics or Acrobatics. The target must be within reach and at most one size larger than Kedge. The shove automatically succeeds against an incapacitated target.",
+        "Rage. Begin as a bonus action, twice per long rest. For up to 1 minute, gain advantage on Strength checks and saves, +2 damage on Strength-based melee weapon attacks, and resistance to bludgeoning, piercing, and slashing. Ends early if unconscious or if a turn ends without having attacked a hostile creature since the previous turn or taken damage in that time."
+      ],
+      "tactics": "Kedge opens with a charge and pounce when there is room. When a partner has already pinned the target in place, he uses Pack Tactics instead. Rage, Pack Tactics, and Pounce each need the same single bonus action."
+    },
+    {
+      "id": "mr2018-mastiff-cinder",
+      "title": "Cinder, Mastiff Monk 2",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR unassigned.",
+      "size": "Medium",
+      "type": "Beast",
+      "ac": 15,
+      "hp": 15,
+      "hitDice": "2d8 + 2",
+      "initiative": 3,
+      "speed": "50 ft. walking",
+      "abilityScores": {
+        "STR": 14,
+        "DEX": 16,
+        "CON": 13,
+        "INT": 8,
+        "WIS": 14,
+        "CHA": 10
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Perception +4",
+        "Stealth +5",
+        "Survival +4"
+      ],
+      "senses": "Passive Perception 14, or 19 when hearing or smell applies.",
+      "languages": "Common, Dwarvish, and Elvish.",
+      "traits": [
+        "Proficiency +2. Strength save +4 and Dexterity save +5. AC 15 is 10 + 3 Dexterity + 2 Wisdom, with no armor. HP 15 is 9 at 1st level and 6 at 2nd.",
+        "Monk grants Acrobatics and Stealth. Cinder has flute proficiency but cannot use it. The custom rescue background retains Outlander’s Wanderer and supplies Perception, Survival, Dwarvish, and Elvish.",
+        "Keen Hearing and Smell gives advantage on Perception checks using those senses. Unarmored Movement adds 10 ft. to the printed 40-ft. walking speed.",
+        "Two ki points return on a short or long rest that includes at least 30 minutes of meditation. Ki save DC 12."
+      ],
+      "actions": [
+        "Bite. Unarmed strike, +5 to hit with Dexterity through Martial Arts, reach 5 ft. Hit for 1d8 + 3 piercing.",
+        "Martial Arts. After taking the Attack action and biting, Cinder can make one bonus-action forepaw thump at +5 to hit for 1d4 + 3 bludgeoning. Flurry of Blows instead costs 1 ki and gives two such thumps as a bonus action immediately after the Attack action.",
+        "Patient Defense. Spend 1 ki to Dodge as a bonus action. Step of the Wind. Spend 1 ki to Dash or Disengage as a bonus action. Jump distances double for the turn."
+      ],
+      "tactics": "Cinder listens where the street noise falls away. She bites a threat that closes on a trapped traveler, then uses Step of the Wind to get back to the rescue rope."
+    },
+    {
+      "id": "mr2018-mule-beam",
+      "title": "Beam, Mule Fighter 2",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR unassigned.",
+      "size": "Medium",
+      "type": "Beast",
+      "ac": 15,
+      "hp": 20,
+      "hitDice": "2d10 + 4",
+      "initiative": 2,
+      "speed": "40 ft. walking",
+      "abilityScores": {
+        "STR": 17,
+        "DEX": 14,
+        "CON": 15,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Animal Handling +3",
+        "Athletics +5",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "senses": "Passive Perception 13.",
+      "languages": "Common.",
+      "traits": [
+        "Proficiency +2. Strength save +5 and Constitution save +4. AC 15 is 12 for fitted hide barding + 2 Dexterity + 1 Defense. HP 20 is 12 at 1st level and 8 at 2nd.",
+        "Fighter supplies Athletics and Perception. Folk Hero supplies Animal Handling, Survival, leatherworker’s tools, and land-vehicle proficiency. Beam needs a partner for work that requires hands.",
+        "Beast of Burden gives 510 lb. carrying and 1,020 lb. pushing, dragging, or lifting with Strength 17. Loads count the weight of barding and packs. With the normal carrying rules, speed falls to 5 ft. while pushing or dragging more than 510 lb.",
+        "Advantage on Strength and Dexterity saves and checks against being knocked prone."
+      ],
+      "actions": [
+        "Hooves. Unarmed strike, +5 to hit, reach 5 ft. Hit for 1d8 + 3 bludgeoning.",
+        "Second Wind. Use a bonus action to heal 1d10 + 2 HP. Recharges on a short or long rest.",
+        "Action Surge. Take one additional action on Beam’s turn. Recharges on a short or long rest."
+      ],
+      "tactics": "Beam braces rather than bolting when a load slides. Once the ropes are secure, Beam holds the narrow trail with quick kicks."
+    },
+    {
+      "id": "mr2018-octopus-knots",
+      "title": "Knots, Octopus Rogue 2",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR unassigned.",
+      "size": "Medium",
+      "type": "Beast",
+      "ac": 13,
+      "hp": 17,
+      "hitDice": "2d8 + 4",
+      "initiative": 3,
+      "speed": "5 ft. walking, 30 ft. swimming",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 17,
+        "CON": 14,
+        "INT": 12,
+        "WIS": 13,
+        "CHA": 10
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Insight +3",
+        "Investigation +5",
+        "Perception +3",
+        "Sleight of Hand +5",
+        "Stealth +7"
+      ],
+      "senses": "Darkvision 30 ft. Passive Perception 13.",
+      "languages": "Common, Dwarvish, and Thieves’ Cant.",
+      "traits": [
+        "Proficiency +2. Dexterity save +5 and Intelligence save +3. Unarmored AC 13 is 10 + 3 Dexterity. HP 17 is 10 at 1st level and 7 at 2nd.",
+        "Rogue supplies Acrobatics, Insight, Investigation, Stealth, and thieves’ tools. The custom lock-keeper background keeps Guild Membership, with Perception, Sleight of Hand, smith’s tools, and Dwarvish. Expertise applies to Stealth and Investigation.",
+        "Swims with advantage on underwater Dexterity (Stealth) checks. Knots can use the hand tools needed to service a gate or lock. Armor, weapons, and shields are unavailable.",
+        "Breathes water only and can hold breath for up to 1 hour. Can pass through a gap an inch wide without squeezing."
+      ],
+      "actions": [
+        "Tentacle. Finesse-qualified unarmed strike, +5 to hit, reach 5 ft. Hit for 1d4 + 3 bludgeoning. Sneak Attack adds 1d6 once per turn if Knots attacks with advantage or a non-incapacitated enemy of the target is within 5 ft. of it and Knots has no disadvantage.",
+        "Ink Cloud. For this build, spend an action while underwater to heavily obscure a 20-ft. radius for up to 1 minute. A significant current disperses the cloud. Knots can Dash as a bonus action immediately after the release. Recharges on a short or long rest.",
+        "Cunning Action. Dash, Disengage, or Hide as a bonus action."
+      ],
+      "tactics": "Knots hides near the channel lock until the last swimmer is through. If a fight draws close to the gates, Knots releases ink and escapes down the maintenance culvert."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Killer Whale",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Bellfin",
+      "size": "Medium",
+      "build": "mr2018-killer-whale-bellfin",
+      "role": "Harbor pilot",
+      "motive": "Lead the night ferry through the cut before the tide falls.",
+      "hook": "Bellfin can hear a mooring chain dragging across the channel bed. Two boat crews both swear the chain belongs to the other."
+    },
+    {
+      "species": "Lion",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Kedge",
+      "size": "Medium",
+      "build": "mr2018-lion-kedge",
+      "role": "Road sentinel",
+      "motive": "Find the missing pack pony before its owners cross the high pass.",
+      "hook": "Kedge knows the pony’s scent. It leads up a stair that he can reach in one jump but the party has to climb."
+    },
+    {
+      "species": "Mastiff",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Cinder",
+      "size": "Medium",
+      "build": "mr2018-mastiff-cinder",
+      "role": "Search-and-rescue scout",
+      "motive": "Find the child still hiding after the fire brigade called off its search.",
+      "hook": "Cinder heard a familiar whistle through a locked cellar vent. She has to keep the watch from boarding it over before daybreak."
+    },
+    {
+      "species": "Mule",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Beam",
+      "size": "Medium",
+      "build": "mr2018-mule-beam",
+      "role": "Trail carrier",
+      "motive": "Carry the valley’s last intact grain scale to its weekly market.",
+      "hook": "Beam refuses to unload near a particular milestone. Someone has been moving it every night to send traders down a washed-out road."
+    },
+    {
+      "species": "Octopus",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Knots",
+      "size": "Medium",
+      "build": "mr2018-octopus-knots",
+      "role": "Lock keeper",
+      "motive": "Repair the gate before the upper canal drains into the salt marsh.",
+      "hook": "Knots saw a brass latch spin away after someone forced the gate. They can show the party where it snagged but need help dislodging it from the grate."
+    }
+  ]
+}

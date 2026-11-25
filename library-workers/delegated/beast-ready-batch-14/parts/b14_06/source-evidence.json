@@ -1,0 +1,231 @@
+[
+  {
+    "name": "Giant Dragonfly",
+    "publication": "The Wild Beyond the Witchlight",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, August 2021",
+    "isbn": "978-0-7869-6728-5",
+    "section": "Appendix C, Creatures",
+    "heading": "Giant Dragonfly",
+    "printedPages": [
+      234
+    ],
+    "viewerPages": [
+      235
+    ],
+    "sourceWitness": "Page images of the printed edition. Viewer page 3 contains the copyright and printing line.",
+    "sourceFolios": [
+      {
+        "printedPage": 234,
+        "viewerPage": 235,
+        "url": "https://online.anyflip.com/njbp/aszi/files/large/4c43ceeb62ccbc919808e2daaa60b7c3.webp",
+        "sha256": "85e51498a5d117e64fb7c4d08bd7abcbc85fcbcb081221982d6ca1ee41bae81d"
+      }
+    ],
+    "editionCredits": {
+      "viewerPage": 3,
+      "url": "https://online.anyflip.com/njbp/aszi/files/large/7471eb4acd6aa5460582ffd9fa5e7eac.webp",
+      "sha256": "8dc0f08b2e0539d22f26a8b2d302c464301263800f400c74263ffda6d2a6f31e"
+    },
+    "supportingPages": [
+      36
+    ],
+    "supportingFolios": [
+      {
+        "printedPage": 36,
+        "viewerPage": 37,
+        "url": "https://online.anyflip.com/njbp/aszi/files/large/3bb71e6388402d8b3d04636ae5b9f1d9.webp",
+        "sha256": "9b1561e30c13f9e70b015e4ce0f753231ed1603dc85d7c06a1c87c555eff35c5"
+      }
+    ],
+    "url": "https://www.dndbeyond.com/sources/dnd/twbtw",
+    "sourceUrl": "https://www.dndbeyond.com/sources/dnd/twbtw",
+    "indexedCreatureUrl": "https://www.dndbeyond.com/monsters/1979781-giant-dragonfly",
+    "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+    "errataEvidence": "The publisher’s Sage Advice & Errata index has no entry for this adventure.",
+    "habitatEvidence": "The Dragonfly Rides attraction on p. 36 uses a pool’s floating lily pads as landing platforms.",
+    "appearanceEvidence": "Editorial description of the selected portrait, checked against the printed setting or creature illustration.",
+    "artworkSource": "beast-ready-batch-08/parts/b08_11/portraits/giant-dragonfly.png",
+    "artworkSha256": "bf7e624f93e2e8b70203ca79976e58e0f12b276dea68deea8795e68095997426",
+    "sourceNotes": [
+      "The opening description describes hovering as ordinary behavior. The Speed line prints a 60-ft. fly speed with no mechanical hover modifier. Drone gives an audible range."
+    ]
+  },
+  {
+    "name": "Giant Snail",
+    "publication": "The Wild Beyond the Witchlight",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, August 2021",
+    "isbn": "978-0-7869-6728-5",
+    "section": "Appendix C, Creatures",
+    "heading": "Giant Snail",
+    "printedPages": [
+      234
+    ],
+    "viewerPages": [
+      235
+    ],
+    "sourceWitness": "Page images of the printed edition. Viewer page 3 contains the copyright and printing line.",
+    "sourceFolios": [
+      {
+        "printedPage": 234,
+        "viewerPage": 235,
+        "url": "https://online.anyflip.com/njbp/aszi/files/large/4c43ceeb62ccbc919808e2daaa60b7c3.webp",
+        "sha256": "85e51498a5d117e64fb7c4d08bd7abcbc85fcbcb081221982d6ca1ee41bae81d"
+      }
+    ],
+    "editionCredits": {
+      "viewerPage": 3,
+      "url": "https://online.anyflip.com/njbp/aszi/files/large/7471eb4acd6aa5460582ffd9fa5e7eac.webp",
+      "sha256": "8dc0f08b2e0539d22f26a8b2d302c464301263800f400c74263ffda6d2a6f31e"
+    },
+    "supportingPages": [
+      46,
+      47
+    ],
+    "supportingFolios": [
+      {
+        "printedPage": 46,
+        "viewerPage": 47,
+        "url": "https://online.anyflip.com/njbp/aszi/files/large/42780217458fc07c2009aadfd25e7422.webp",
+        "sha256": "d7af9dfde8598810038fed261d6c07d2e1e8d2998fd48c2b3e6f5b297a2849d2"
+      },
+      {
+        "printedPage": 47,
+        "viewerPage": 48,
+        "url": "https://online.anyflip.com/njbp/aszi/files/large/9e30cefacd5259549789e4e74b50aeb4.webp",
+        "sha256": "79ecb6e5f072b38b93c3d3d8930d688e43d9eae52eeb545b53962af9de02a66a"
+      }
+    ],
+    "url": "https://www.dndbeyond.com/sources/dnd/twbtw",
+    "sourceUrl": "https://www.dndbeyond.com/sources/dnd/twbtw",
+    "indexedCreatureUrl": "https://www.dndbeyond.com/monsters/1979782-giant-snail",
+    "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+    "errataEvidence": "The publisher’s Sage Advice & Errata index has no entry for this adventure.",
+    "habitatEvidence": "Chapter 1 depicts giant snails at the carnival’s racecourse on pp. 46–47.",
+    "appearanceEvidence": "Editorial description of the selected portrait, checked against the printed setting or creature illustration.",
+    "artworkSource": "beast-ready-batch-14/parts/b14_06/portraits/giant-snail.png",
+    "artworkSha256": "1ef5c2e1dd40b167689a96996ebe6b80ef277b7eaf6dff4d7d0912508a9c699d",
+    "sourceNotes": [
+      "The encounter stat block uses 10-ft. walking and climbing speeds. The 80-ft.-per-round movement occurs in the Chapter 1 snail race rules on p. 47."
+    ],
+    "styleReference": "drakkenheim-beasts/portraits/big-linda-draft.png",
+    "styleReferenceSha256": "e103c5b32438eaa346d699b0317dcdaa31c3764f5637513bb6909e490aa046da"
+  },
+  {
+    "name": "Giant Swan",
+    "publication": "The Wild Beyond the Witchlight",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, August 2021",
+    "isbn": "978-0-7869-6728-5",
+    "section": "Chapter 1, Witchlight Carnival",
+    "heading": "Gondola Swans",
+    "printedPages": [
+      38
+    ],
+    "viewerPages": [
+      39
+    ],
+    "sourceWitness": "Page images of the printed edition. Viewer page 3 contains the copyright and printing line.",
+    "sourceFolios": [
+      {
+        "printedPage": 38,
+        "viewerPage": 39,
+        "url": "https://online.anyflip.com/njbp/aszi/files/large/f2318692f430e0e4a5e181e26ce20191.webp",
+        "sha256": "2a5a62548af1db50deb96cba0ab4ae001a6f52c7e103d817a301f1e5020c8f90"
+      }
+    ],
+    "editionCredits": {
+      "viewerPage": 3,
+      "url": "https://online.anyflip.com/njbp/aszi/files/large/7471eb4acd6aa5460582ffd9fa5e7eac.webp",
+      "sha256": "8dc0f08b2e0539d22f26a8b2d302c464301263800f400c74263ffda6d2a6f31e"
+    },
+    "supportingPages": [],
+    "supportingFolios": [],
+    "url": "https://www.dndbeyond.com/sources/dnd/twbtw",
+    "sourceUrl": "https://www.dndbeyond.com/sources/dnd/twbtw",
+    "indexedCreatureUrl": "https://www.dndbeyond.com/monsters/1979783-giant-swan",
+    "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+    "errataEvidence": "The publisher’s Sage Advice & Errata index has no entry for this adventure.",
+    "habitatEvidence": "The gondolas follow the river around the carnival in the p. 38 encounter.",
+    "appearanceEvidence": "Editorial description of the selected portrait, checked against the printed setting or creature illustration.",
+    "artworkSource": "beast-ready-batch-14/parts/b14_06/portraits/giant-swan.png",
+    "artworkSha256": "0db71079a06d7ad7d94ad7ceb73bb3b749d7a4824bcb277f35577a72da775eda",
+    "sourceNotes": [
+      "This is a printed variant instruction in Gondola Swans. The listed armor class, hit points, speeds, ability scores, CR, Perception, Keen Sight and individual Beak statistics come from 2014 Monster Manual Giant Eagle, p. 324.",
+      "The water scene describes the swans towing gondolas and supplies no swim-speed value. The DC 10 Dexterity save in the scene is for passengers when Feathereen rocks the gondola."
+    ],
+    "relatedRules": {
+      "publication": "Monster Manual (2014)",
+      "name": "Giant Eagle",
+      "printedPage": 324,
+      "publisherReference": "https://www.dndbeyond.com/monsters/16881-giant-eagle",
+      "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+      "errataEvidence": "No Giant Eagle correction in the 2014 Monster Manual errata."
+    },
+    "styleReference": "drakkenheim-beasts/portraits/big-linda-draft.png",
+    "styleReferenceSha256": "e103c5b32438eaa346d699b0317dcdaa31c3764f5637513bb6909e490aa046da"
+  },
+  {
+    "name": "Pollenella the Honeybee",
+    "publication": "The Wild Beyond the Witchlight",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, August 2021",
+    "isbn": "978-0-7869-6728-5",
+    "section": "Chapter 4, Yon, Amidor and Gleam",
+    "heading": "Pollenella the Honeybee",
+    "printedPages": [
+      135
+    ],
+    "viewerPages": [
+      136
+    ],
+    "sourceWitness": "Page images of the printed edition. Viewer page 3 contains the copyright and printing line.",
+    "sourceFolios": [
+      {
+        "printedPage": 135,
+        "viewerPage": 136,
+        "url": "https://online.anyflip.com/njbp/aszi/files/large/c364d9b22d69e746c6d757e9e5e5ba63.webp",
+        "sha256": "1f24e5dcf2dc9fdbc6696efa963e2298fdcf979f699ec70c3679202c5ca2b9df"
+      }
+    ],
+    "editionCredits": {
+      "viewerPage": 3,
+      "url": "https://online.anyflip.com/njbp/aszi/files/large/7471eb4acd6aa5460582ffd9fa5e7eac.webp",
+      "sha256": "8dc0f08b2e0539d22f26a8b2d302c464301263800f400c74263ffda6d2a6f31e"
+    },
+    "supportingPages": [
+      134
+    ],
+    "supportingFolios": [
+      {
+        "printedPage": 134,
+        "viewerPage": 135,
+        "url": "https://online.anyflip.com/njbp/aszi/files/large/824c8e8b892b158cbf6d4c5c710f299c.webp",
+        "sha256": "53067c4bb4a7ac1c4c034da29691861da7a8c644a747b9e39b2b0436858d156a"
+      }
+    ],
+    "url": "https://www.dndbeyond.com/sources/dnd/twbtw",
+    "sourceUrl": "https://www.dndbeyond.com/sources/dnd/twbtw",
+    "indexedCreatureUrl": "https://www.dndbeyond.com/monsters/1979800-pollenella-the-honeybee",
+    "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+    "errataEvidence": "The publisher’s Sage Advice & Errata index has no entry for this adventure.",
+    "habitatEvidence": "Amidor and Gleam meet the party on an outcrop in Yon on p. 134.",
+    "appearanceEvidence": "Editorial description of the selected portrait, checked against the printed setting or creature illustration.",
+    "artworkSource": "beast-ready-batch-14/parts/b14_06/portraits/pollenella-the-honeybee.png",
+    "artworkSha256": "a0680f2d80584d77976a9d0b58fb74c564a6db5603c846e79eea220735620d32",
+    "sourceNotes": [
+      "The left-hand Pollenella block prints flat piercing damage. The Speak with Beasts and Plants trait in the neighboring column belongs to Amidor, whose block is separate."
+    ],
+    "styleReference": "drakkenheim-beasts/portraits/big-linda-draft.png",
+    "styleReferenceSha256": "e103c5b32438eaa346d699b0317dcdaa31c3764f5637513bb6909e490aa046da"
+  }
+]

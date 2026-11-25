@@ -1,0 +1,89 @@
+[
+  {
+    "name": "Elephant",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "D&D Basic Rules v1.0 (November 2018)",
+    "printedPages": [
+      125
+    ],
+    "pageNumbering": "Printed page and one-based page match.",
+    "url": "",
+    "officialOnlineReference": "https://www.dndbeyond.com/monsters/16855-elephant",
+    "verification": "Read the official 2018 .",
+    "appearanceSource": "The reused editorial portrait depicts a savanna elephant. The printed Gore action supports the tusks.",
+    "habitatSource": "Grassland is tagged in the official legacy listing at https://www.dndbeyond.com/monsters/16855-elephant. Savannas and open woodlands are editorial habitat tags. The print stat block lists no habitat.",
+    "printingNote": "The 2018 uses +5 in both damage formulas. Its current D&D Beyond counterpart displays the corrected Monster Manual damage. This entry follows the scoped ."
+  },
+  {
+    "name": "Elephant",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "September 2014 first printing",
+    "printedPages": [
+      322
+    ],
+    "pageNumbering": "Printed Appendix A folio.",
+    "url": "https://www.dndbeyond.com/monsters/16855-elephant",
+    "officialOnlineReference": "https://www.dndbeyond.com/monsters/16855-elephant",
+    "verification": "Read the September 2014 first-print page and checked official Monster Manual errata.",
+    "appearanceSource": "The reused editorial portrait depicts a savanna elephant. The printed Gore action supports the tusks.",
+    "habitatSource": "Grassland is tagged in the official legacy listing at https://www.dndbeyond.com/monsters/16855-elephant. Savannas and open woodlands are editorial habitat tags. The print stat block lists no habitat.",
+    "errataUrl": "",
+    "printingNote": "The first printing has +5 in both damage formulas. Official Monster Manual errata v2.0 specifically applies the +6 values to this block.",
+    "officialCorrection": "Errata v2.0, p. 1, updates Monster Manual p. 322 Gore from 18 (3d8 + 5) to 19 (3d8 + 6) and Stomp from 21 (3d10 + 5) to 22 (3d10 + 6). The save DC and hit bonuses are unchanged."
+  },
+  {
+    "name": "Owl",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "D&D Basic Rules v1.0 (November 2018)",
+    "printedPages": [
+      147
+    ],
+    "pageNumbering": "Printed page and one-based page match.",
+    "url": "",
+    "officialOnlineReference": "https://www.dndbeyond.com/monsters/16974-owl",
+    "verification": "Read the official 2018 .",
+    "appearanceSource": "The reused editorial portrait depicts a barn owl. The block does not specify an owl species.",
+    "habitatSource": "Arctic and forest are tagged in the official legacy listing at https://www.dndbeyond.com/monsters/16974-owl. Open fields is editorial for the depicted form. The print stat block lists no habitat."
+  },
+  {
+    "name": "Owl",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "September 2014 first printing",
+    "printedPages": [
+      333
+    ],
+    "pageNumbering": "Printed Appendix A folio.",
+    "url": "https://www.dndbeyond.com/monsters/16974-owl",
+    "officialOnlineReference": "https://www.dndbeyond.com/monsters/16974-owl",
+    "verification": "Read the September 2014 first-print page and checked official Monster Manual errata.",
+    "appearanceSource": "The reused editorial portrait depicts a barn owl. The block does not specify an owl species.",
+    "habitatSource": "Arctic and forest are tagged in the official legacy listing at https://www.dndbeyond.com/monsters/16974-owl. Open fields is editorial for the depicted form. The print stat block lists no habitat.",
+    "errataUrl": ""
+  },
+  {
+    "name": "Weasel",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "September 2014 first printing",
+    "printedPages": [
+      340
+    ],
+    "pageNumbering": "Printed Appendix A folio.",
+    "url": "https://www.dndbeyond.com/monsters/17052-weasel",
+    "officialOnlineReference": "https://www.dndbeyond.com/monsters/17052-weasel",
+    "verification": "Read the September 2014 first-print page and checked official Monster Manual errata.",
+    "appearanceSource": "The reused editorial portrait supplies the coat and proportions. The stat block does not describe its appearance.",
+    "habitatSource": "Editorial habitat tags for the animal depicted. The print stat block lists no habitat.",
+    "errataUrl": "",
+    "printingNote": "The printed Bite targets one creature. The online listing says one target. This entry follows the scoped print page."
+  }
+]

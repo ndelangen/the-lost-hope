@@ -1,0 +1,34 @@
+{
+  "commit": "86ec01300f3c5683c0d60e55279e744e4de42fca",
+  "publication": "Phandelver and Below: The Shattered Obelisk",
+  "encounterVersions": 2,
+  "fullStatBlocks": 2,
+  "phandelverRecordsWithLocalRules": 80,
+  "generatedPortraitsInstalled": 2,
+  "firstGeneratedPortraits": 1,
+  "revisedGeneratedPortraits": 1,
+  "creditedGalleriesVerified": 2,
+  "allRecentVersionsWithGeneratedPortrait": 534,
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "visualComparison": "output/dm-library/review/encounters-26-before-after.jpg",
+  "styleReferenceSheet": "output/dm-library/review/encounters-26-style-reference.jpg",
+  "styleDirection": "Use actual campaign event and stage illustrations for lighting and rendering. Keep the portraits square on light, subtly textured neutral parchment.",
+  "results": "output/dm-library/encounter-batches/26/results.json",
+  "searchResults": "output/dm-library/encounter-batches/26/search-results.json",
+  "aliasesVerified": "output/dm-library/encounter-batches/26/alias-results.json",
+  "nextSourcePublication": "Spelljammer: Adventures in Space",
+  "unverifiedNextCandidates": [
+    {
+      "name": "Agony the Ghost",
+      "source": "https://www.dndbeyond.com/monsters/2821146-agony-the-ghost",
+      "challenge": "4"
+    },
+    {
+      "name": "Flapjack the Flumph",
+      "source": "https://www.dndbeyond.com/monsters/2821165-flapjack-the-flumph",
+      "challenge": "1/8"
+    }
+  ],
+  "verificationBasis": "The publisher variant pages require access. Printed Collectors’ Nook and Archer Post rules identify the variants and supply their exact changes."
+}

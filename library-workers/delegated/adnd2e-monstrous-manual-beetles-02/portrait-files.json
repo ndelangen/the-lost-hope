@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Giant Rhinoceros Beetle",
+    "file": "",
+    "selection": "generated",
+    "sha256": "beaa4925f29fa7fdcc6be5f5d9a6d9c6a7685d1bdaccc8ec8044599ccdb9fb8c",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "name": "Giant Stag Beetle",
+    "file": "",
+    "selection": "generated",
+    "sha256": "f47186a58ab65d0f1c9369b8180f0b93e2fa43233e54e595a93507d99755e4c8",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "name": "Giant Water Beetle",
+    "file": "",
+    "selection": "generated",
+    "sha256": "484eed35844edbe085e97f396c7b437c27b0b3ec0ae4498cb86fdca6aa7472db",
+    "width": 1254,
+    "height": 1254
+  }
+]

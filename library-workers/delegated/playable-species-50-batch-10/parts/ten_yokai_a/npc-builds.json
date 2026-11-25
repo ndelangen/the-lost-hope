@@ -1,0 +1,289 @@
+{
+  "builds": [
+    {
+      "id": "ryoko-v100-toma-snowpin",
+      "title": "Toma Snowpin, Enkoh Fighter 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR unassigned.",
+      "size": "Medium",
+      "type": "Humanoid",
+      "ac": 16,
+      "hp": 12,
+      "hitDice": "1d10 + 2",
+      "initiative": 2,
+      "speed": "30 ft. walking and climbing",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 12,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +5",
+        "Investigation +3",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "senses": "Passive Perception 13.",
+      "languages": "Common, Giant, and Dwarvish from the customized travel guide background.",
+      "traits": [
+        "Hulking Enkoh. Proficiency +2. Strength save +5 and Constitution save +4. AC 16 is leather 11 + 2 Dexterity + 2 shield + 1 Defense. HP 12 is 10 + 2 Constitution.",
+        "Ice Craft provides mason’s tools proficiency and advantage when shaping ice with them. Fighter supplies Athletics and Perception. The customized travel guide background supplies Investigation, Survival, a horn, and Dwarvish. Use the Outlander’s Wanderer feature.",
+        "Cold resistance. Counts as one size larger for carrying, pushing, dragging, and lifting.",
+        "Rest meal. Spend at least 1 sp on ingredients during either rest. Up to four Medium or smaller diners at the end of the rest each recover one spent Hit Die and gain 1d6 + 2 temporary HP."
+      ],
+      "actions": [
+        "Spear. +5 to hit, reach 5 ft. or thrown range 20/60 ft. Hit for 1d6 + 3 piercing one-handed.",
+        "Chest Beating. Bonus action. Gain resistance to bludgeoning, piercing, and slashing damage and advantage on Intimidation checks until the start of Toma’s next turn. Two uses per long rest.",
+        "Second Wind. Bonus action to heal 1d10 + 1 HP. Recharges on a short or long rest."
+      ],
+      "tactics": "Toma holds the narrowest part of the path while others fall back. He uses Chest Beating before he expects a heavy blow and cooks for the party when it reaches shelter."
+    },
+    {
+      "id": "ryoko-v100-reedstep",
+      "title": "Reedstep, Fuyōren Rogue 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR unassigned.",
+      "size": "Medium",
+      "type": "Plant",
+      "ac": 14,
+      "hp": 10,
+      "hitDice": "1d8 + 2",
+      "initiative": 3,
+      "speed": "35 ft. walking",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 17,
+        "CON": 14,
+        "INT": 12,
+        "WIS": 14,
+        "CHA": 10
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Athletics +1",
+        "Insight +4",
+        "Investigation +3",
+        "Perception +6",
+        "Stealth +7",
+        "Survival +4"
+      ],
+      "senses": "Passive Perception 16.",
+      "languages": "Common, Sylvan, and Thieves’ Cant.",
+      "traits": [
+        "Proficiency +2. Dexterity save +5 and Intelligence save +3. AC 14 is leather 11 + 3 Dexterity. HP 10 is 8 + 2 Constitution.",
+        "Rogue supplies Acrobatics, Insight, Investigation, Stealth, and thieves’ tools. Sailor supplies Athletics, Perception, navigator’s tools, and water vehicles. Nature Warden supplies Survival. Expertise applies to Perception and Stealth.",
+        "Advantage on saves to avoid or end restraint, paralysis, or petrification. Cross or wait on a fluid surface without sinking. Hazardous contact can still harm Reedstep.",
+        "Sneak Attack adds 1d6 once per turn on a ranged or finesse weapon hit with advantage. It can also apply when another enemy of the target is within 5 ft. of it, that enemy is not incapacitated, and Reedstep lacks disadvantage."
+      ],
+      "actions": [
+        "Shortbow. +5 to hit, range 80/320 ft., two-handed. Hit for 1d6 + 3 piercing.",
+        "Dagger. +5 to hit, reach 5 ft. or thrown range 20/60 ft. Hit for 1d4 + 3 piercing.",
+        "Water Magic. Perform a 10-minute ritual to make one vial of holy water, poison remedy, hydration for one Large or smaller creature for 24 hours, or 1d4 HP healing water. The vial stays potent for 24 hours. Two uses per long rest. Reedstep carries one healing vial made this morning and has one use left."
+      ],
+      "tactics": "Reedstep stays near the bank and crosses open water as soon as a pursuer comes close. They have a healing vial ready for the person waiting at the next landing."
+    },
+    {
+      "id": "ryoko-v100-sumi-emberpetal",
+      "title": "Sumi Emberpetal, Hanamori Monk 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR unassigned.",
+      "size": "Medium",
+      "type": "Plant",
+      "ac": 15,
+      "hp": 10,
+      "hitDice": "1d8 + 2",
+      "initiative": 3,
+      "speed": "30 ft. walking",
+      "abilityScores": {
+        "STR": 12,
+        "DEX": 16,
+        "CON": 15,
+        "INT": 8,
+        "WIS": 14,
+        "CHA": 10
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Insight +4",
+        "Medicine +4",
+        "Nature +1",
+        "Religion +1"
+      ],
+      "senses": "Passive Perception 12.",
+      "languages": "Common, Sylvan, and Celestial from Hermit.",
+      "traits": [
+        "Proficiency +2. Strength save +3 and Dexterity save +5. Unarmored Defense gives AC 15 from 10 + 3 Dexterity + 2 Wisdom. Rugged gives an alternate AC 14. The calculations do not combine. HP 10 is 8 + 2 Constitution.",
+        "Monk gives Acrobatics, Insight, and woodcarver’s tools. Hermit gives Medicine, Religion, and herbalism kit proficiency. Gaze of Death gives Nature.",
+        "Advantage on saves to avoid or end the frightened or stunned condition. No armor or shield."
+      ],
+      "actions": [
+        "Quarterstaff. +5 to hit, reach 5 ft. Hit for 1d8 + 3 bludgeoning held in two hands or 1d6 + 3 held in one.",
+        "Martial Arts. After taking the Attack action with a monk weapon or unarmed strike, make one unarmed strike as a bonus action. It has +5 to hit, reach 5 ft., and deals 1d4 + 3 bludgeoning.",
+        "Essence Capture. React when a CR 1 or lower creature dies within 10 ft. Borrow one eligible ability score other than Constitution, one special sense other than truesight, resistance from one of its damage resistances or immunities, or one of its condition immunities other than exhaustion. Ends at the next long rest, which also restores the use. If Sumi captures a giant spider’s 10-ft. blindsight after it dies, it stays until that rest."
+      ],
+      "tactics": "Sumi clears a path for mourners and stays within staff reach of a threat. After a nearby death, she looks for an essence that will help her get people to safety."
+    },
+    {
+      "id": "ryoko-v100-kae-kilnmark",
+      "title": "Kae Kilnmark, Haniwa Fighter 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR unassigned.",
+      "size": "Medium",
+      "type": "Construct",
+      "ac": 18,
+      "hp": 12,
+      "hitDice": "1d10 + 2",
+      "initiative": 0,
+      "speed": "30 ft. walking",
+      "abilityScores": {
+        "STR": 15,
+        "DEX": 10,
+        "CON": 15,
+        "INT": 12,
+        "WIS": 15,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +4",
+        "History +3",
+        "Insight +4",
+        "Investigation +3",
+        "Perception +4",
+        "Religion +3"
+      ],
+      "senses": "Passive Perception 14.",
+      "languages": "Common, Celestial, and Dwarvish and Primordial from Sage.",
+      "traits": [
+        "Proficiency +2. Strength and Constitution saves +4. AC 18 is chain mail 16 + 2 shield. Strength 15 meets the chain mail requirement. The armor gives disadvantage on Stealth checks. HP 12 is 10 + 2 Constitution.",
+        "Tombkeeper supplies Religion and Perception. Fighter supplies Athletics and Insight. Sage supplies History and Arcana. Kae uses the standard background customization to choose Investigation in place of Arcana and retains the Researcher feature.",
+        "Soul Shell. Kae needs no air, food, or drink, and has advantage on saves against disease and against becoming or remaining poisoned. Healing spells that normally exclude Constructs can restore Kae’s HP.",
+        "Companion. Kae can make a clay hound during a long rest. It uses the 2014 Mastiff stat block, with Construct type and Soul Shell. It has AC 12, 5 HP, speed 40 ft., Perception +3, and advantage on checks relying on smell or hearing. It Dodges in combat without a command. It crumbles at 0 HP or on replacement."
+      ],
+      "actions": [
+        "Mace. +4 to hit, reach 5 ft. Hit for 1d6 + 2 bludgeoning. Counts as magical against resistance and immunity.",
+        "Protection style. While holding a shield, use a reaction to impose disadvantage when a creature Kae can see attacks someone else within 5 ft. of Kae.",
+        "Second Wind. Bonus action to regain 1d10 + 1 HP. Recharges on a short or long rest.",
+        "Grave Guardian. Wisdom DC 12. One use of each spell per long rest. Stow the mace to handle the mosaic tile or small silver mirror. Earthen uppercut takes an action and raises stone in a 30-ft. line that is 10 ft. wide and high. A failed Dexterity save deals 1d10 bludgeoning and flings the target 10 ft. in a direction Kae chooses, landing prone. A success halves damage and prevents the fling. Sanctuary takes a bonus action, wards a creature within 30 ft. for 1 minute, and forces a targeted attacker or harmful spellcaster to succeed on a Wisdom save or retarget or lose the attack or spell. It does not stop area effects. The ward ends if the warded creature attacks, casts a spell that affects an enemy, or damages another creature.",
+        "Command clay hound. Bonus action. Its bite has +3 to hit and deals 1d6 + 1 piercing within 5 ft. A creature it hits falls prone if it fails a DC 11 Strength save."
+      ],
+      "tactics": "Kae stays beside the person most exposed. They ward a bystander with sanctuary and send the hound around the side if there is room."
+    },
+    {
+      "id": "ryoko-v100-mako-tidebrace",
+      "title": "Mako Tidebrace, Isetsu Barbarian 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR unassigned.",
+      "size": "Medium",
+      "type": "Humanoid",
+      "ac": 16,
+      "hp": 14,
+      "hitDice": "1d12 + 2",
+      "initiative": 2,
+      "speed": "30 ft. walking",
+      "abilityScores": {
+        "STR": 17,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Animal Handling +3",
+        "Athletics +5",
+        "Intimidation +2",
+        "Nature +1",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "senses": "Darkvision 60 ft. Passive Perception 13.",
+      "languages": "Common, Primordial, and Giant from Outlander.",
+      "traits": [
+        "Proficiency +2. Strength save +5 and Constitution save +4. HP 14 is 12 + 2 Constitution. Base AC 14 is 12 + 2 Constitution from Natural Armour. Unarmored Defense would also give 14. Start at AC 16 with Brittle Shell. When hit, return to AC 14 until the shell refreshes on a short or long rest.",
+        "Barbarian supplies Animal Handling and Intimidation. Isetsu supplies Athletics and Perception. Outlander supplies Survival, a drum, and Giant. The duplicated Athletics proficiency becomes Nature under the 2014 background rules.",
+        "Breathe underwater. Underwater combat does not impose disadvantage on Mako’s weapon attack rolls. Movement underwater follows the 2014 rules for a creature without a listed swimming speed.",
+        "Fortune Favoured. Reroll one missed attack or failed ability check or save per long rest. The printed level-5 grab is unavailable to Mako."
+      ],
+      "actions": [
+        "Claw. Unarmed strike, +5 to hit, reach 5 ft. Hit for 1d6 + 3 piercing, or 1d6 + 5 while raging. The 2014 unarmed strike is a melee weapon attack for Rage.",
+        "Rage. Bonus action, twice per long rest. Lasts up to 1 minute. Grants advantage on Strength checks and saves, +2 damage on Strength-based melee weapon attacks, and resistance to bludgeoning, piercing, and slashing. Ends early if Mako falls unconscious or ends a turn without attacking a hostile creature since their last turn or taking damage since then."
+      ],
+      "tactics": "Mako braces on the downcurrent side of anyone tangled in rope. If a fight starts, they rage and intercept the closest threat with their claws."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Enkoh",
+      "speciesPublication": "Ryoko’s Guide to the Yokai Realms (v1.00)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Toma Snowpin",
+      "size": "Medium",
+      "build": "ryoko-v100-toma-snowpin",
+      "role": "Ice-road warden",
+      "motive": "Get the last travelers across before closing the road.",
+      "hook": "Toma found a crack beneath the bridge that only opens when a loaded wagon crosses. He needs someone underneath to watch it while he tests the span."
+    },
+    {
+      "species": "Fuyōren",
+      "speciesPublication": "Ryoko’s Guide to the Yokai Realms (v1.00)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Reedstep",
+      "size": "Medium",
+      "build": "ryoko-v100-reedstep",
+      "role": "Reedbed courier",
+      "motive": "Deliver a fever remedy to a house that can only be reached by water.",
+      "hook": "A river gate has been shut across Reedstep’s route. They ask the party to find the missing gatekeeper while they take a passenger around it."
+    },
+    {
+      "species": "Hanamori",
+      "speciesPublication": "Ryoko’s Guide to the Yokai Realms (v1.00)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Sumi Emberpetal",
+      "size": "Medium",
+      "build": "ryoko-v100-sumi-emberpetal",
+      "role": "Funeral witness",
+      "motive": "Bring a family’s account of a collapsed mine home intact.",
+      "hook": "Sumi was the last person on the rope when the mine went quiet. She can draw the shaft from memory if someone helps her return the dead crew’s effects."
+    },
+    {
+      "species": "Haniwa",
+      "speciesPublication": "Ryoko’s Guide to the Yokai Realms (v1.00)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Kae Kilnmark",
+      "size": "Medium",
+      "build": "ryoko-v100-kae-kilnmark",
+      "role": "Tomb watchkeeper",
+      "motive": "Recover a clay seal displaced from its burial niche.",
+      "hook": "Kae knows the missing seal is genuine because it bears their own firing mark. They need a witness when they ask the antiques dealer for it back."
+    },
+    {
+      "species": "Isetsu",
+      "speciesPublication": "Ryoko’s Guide to the Yokai Realms (v1.00)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Mako Tidebrace",
+      "size": "Medium",
+      "build": "ryoko-v100-mako-tidebrace",
+      "role": "Breakwater rescue guard",
+      "motive": "Keep people clear of the flooded lower steps until the tide turns.",
+      "hook": "Mako has tied a rope across the flooded stair. Something keeps tugging back whenever they try to pull it taut."
+    }
+  ]
+}

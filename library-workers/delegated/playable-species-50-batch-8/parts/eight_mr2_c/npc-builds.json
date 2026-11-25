@@ -1,0 +1,283 @@
+{
+  "builds": [
+    {
+      "id": "mr2-giant-strider-emberstep",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Kiln road guide, Barbarian 2",
+      "difficulty": "Barbarian 2",
+      "size": "Medium",
+      "type": "Monstrosity",
+      "speed": "40 ft.",
+      "ac": 15,
+      "hp": 25,
+      "hitDice": "2d12+6",
+      "initiative": 2,
+      "senses": "Passive Perception 12.",
+      "languages": "Ignan and Common.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 16,
+        "INT": 8,
+        "WIS": 10,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +5",
+        "Survival +2",
+        "Animal Handling +2",
+        "Perception +2"
+      ],
+      "traits": [
+        "Proficiency +2. Strength and Constitution saves +5. Natural AC 12 + 2 Dexterity gives 14. Emberstep uses Unarmored Defense for AC 15 from 10 + 2 Dexterity + 3 Constitution. HP 15 at 1st level and 10 at 2nd.",
+        "Outlander gives Athletics, Survival, Common and Wanderer. Barbarian gives Animal Handling and Perception. Unused musical instrument proficiency. Emberstep wears no armor and wields no gear.",
+        "Immune to fire damage. Fire Absorption can spend its reaction and one available d12 when subjected to fire damage. It takes no fire damage and heals the rolled number without adding Constitution.",
+        "Danger Sense grants advantage on Dexterity saves against visible effects while able to see and free of the blinded, deafened and incapacitated conditions."
+      ],
+      "actions": [
+        "Bite. Strength-based unarmed strike +5 to hit, reach 5 ft. Hit for 1d8+3 piercing or 1d8+5 while raging.",
+        "Rage. Bonus action up to twice per long rest. For up to 1 minute, gain advantage on Strength checks and saves and resistance to bludgeoning, piercing and slashing damage. Add 2 to Strength-based melee weapon attack damage, including unarmed strikes. Rage ends early on unconsciousness or if its turn ends and it has neither attacked a hostile creature nor taken damage since its last turn.",
+        "Reckless Attack. On the first attack of its own turn, choose advantage on Strength-based melee weapon attacks that turn. Attacks against it gain advantage until the start of its next turn."
+      ],
+      "tactics": "Emberstep circles across hot ground and bites at anyone who blocks the kiln passage. It saves its reaction for fire when already injured."
+    },
+    {
+      "id": "mr2-flail-snail-clink",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Archive porter, Barbarian 1",
+      "difficulty": "Barbarian 1",
+      "size": "Medium",
+      "type": "Elemental",
+      "speed": "20 ft.",
+      "ac": 17,
+      "hp": 14,
+      "hitDice": "1d12+2",
+      "initiative": 2,
+      "senses": "Darkvision 60 ft., passive Perception 12.",
+      "languages": "Common through Hermit.",
+      "abilityScores": {
+        "STR": 15,
+        "DEX": 14,
+        "CON": 15,
+        "INT": 8,
+        "WIS": 10,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +4",
+        "Perception +2",
+        "Medicine +2",
+        "Religion +1"
+      ],
+      "traits": [
+        "Proficiency +2. Strength and Constitution saves +4. The shell gives AC 17 and the withdrawn shell gives AC 21. HP 12 + 2 Constitution. Clink wears no armor and carries no wielded gear.",
+        "Hermit gives Medicine, Religion, Common and Discovery. Barbarian gives Athletics and Perception. Unused herbalism kit proficiency.",
+        "Antimagic Shell. Against a line spell with a natural 20 on its save or a spell with a natural 1 on its ranged attack, roll 1d6. On 1–2 Clink avoids the effect and reflects it using the caster’s original spell statistics. On 3–4 there is no extra effect. On 5–6 every creature within 30 ft., including Clink, takes 1d6 force per spell level, with a DC 15 Constitution save for half. The spell otherwise resolves normally on 3–6."
+      ],
+      "actions": [
+        "Tentacle. Strength-based unarmed strike +4 to hit, reach 5 ft. Hit for 1d8+2 piercing or 1d8+4 while raging.",
+        "Shell Defense. Withdraw as an action. AC becomes 21, Clink is blinded and restrained, and it cannot take the Attack action or target creatures or objects with effects requiring sight. Emerge with a bonus action.",
+        "Shell Light. Toggle the shell’s bright light with a bonus action. It shines bright for 10 ft. and dim for another 10 ft.",
+        "Rage. Bonus action up to twice per long rest. For up to 1 minute, gain advantage on Strength checks and saves and resistance to bludgeoning, piercing and slashing damage. Add 2 to Strength-based melee weapon attack damage, including unarmed strikes. Rage ends early on unconsciousness or if its turn ends and it has neither attacked a hostile creature nor taken damage since its last turn."
+      ],
+      "tactics": "Clink warns visitors with its light before withdrawing into its shell at the archive threshold. If they press into the stacks, it emerges and defends the doorway."
+    },
+    {
+      "id": "mr2-froghemoth-fenhook",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Reed bridge collector, Barbarian 2",
+      "difficulty": "Barbarian 2",
+      "size": "Medium",
+      "type": "Monstrosity",
+      "speed": "30 ft., swim 30 ft.",
+      "ac": 15,
+      "hp": 25,
+      "hitDice": "2d12+6",
+      "initiative": 2,
+      "senses": "Darkvision 60 ft., passive Perception 12.",
+      "languages": "Common.",
+      "abilityScores": {
+        "STR": 17,
+        "DEX": 14,
+        "CON": 16,
+        "INT": 8,
+        "WIS": 10,
+        "CHA": 8
+      },
+      "skills": [
+        "Animal Handling +2",
+        "Survival +2",
+        "Athletics +5",
+        "Perception +2"
+      ],
+      "traits": [
+        "Proficiency +2. Strength and Constitution saves +5. AC is 13 + 2 Dexterity, which ties Unarmored Defense. HP 15 at 1st level and 10 at 2nd.",
+        "Folk Hero gives Animal Handling, Survival and Rustic Hospitality. Barbarian gives Athletics and Perception. Unused leatherworker’s tools and land vehicle proficiencies. Fenhook wears no armor and wields no gear.",
+        "Fenhook can hold its breath for 4 minutes. When it takes lightning damage, attacks against it gain advantage, its speed is halved and its Dexterity saves have disadvantage until the end of its next turn. In that interval it cannot react and can take either an action or a bonus action on its turn.",
+        "Danger Sense grants advantage on Dexterity saves against visible effects while able to see and free of the blinded, deafened and incapacitated conditions."
+      ],
+      "actions": [
+        "Bite. Strength-based unarmed strike +5 to hit, reach 5 ft. Hit for 1d8+3 piercing or 1d8+5 while raging. After a successful unarmed strike using the Attack action, attempt a grapple as a bonus action with Athletics +5 against the target’s Athletics or Acrobatics. The target must be within reach and Large or smaller.",
+        "Tongue. Action, +5 to hit, one creature within 15 ft. Hit for 1d8+3 necrotic or 1d8+5 while raging. Pull the target into an open adjacent space. After a successful pull, Fenhook can try the same grapple as a bonus action.",
+        "Rage. Bonus action up to twice per long rest. For up to 1 minute, gain advantage on Strength checks and saves and resistance to bludgeoning, piercing and slashing damage. Add 2 to Strength-based melee weapon attack damage, including unarmed strikes. Rage ends early on unconsciousness or if its turn ends and it has neither attacked a hostile creature nor taken damage since its last turn.",
+        "Reckless Attack. On the first attack of its own turn, choose advantage on Strength-based melee weapon attacks that turn. Attacks against it gain advantage until the start of its next turn."
+      ],
+      "tactics": "Fenhook opens with the tongue to draw a threat away from the bridge. After pulling it adjacent, Fenhook grapples if able and forces the conversation to resume."
+    },
+    {
+      "id": "mr2-girallon-brace",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Bridge rigger, Fighter 2",
+      "difficulty": "Fighter 2",
+      "size": "Medium",
+      "type": "Monstrosity",
+      "speed": "30 ft., climb 30 ft.",
+      "ac": 16,
+      "hp": 22,
+      "hitDice": "2d10+6",
+      "initiative": 2,
+      "senses": "Darkvision 60 ft., passive Perception 12. Advantage on smell-based Perception checks.",
+      "languages": "Common and Giant.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 16,
+        "INT": 8,
+        "WIS": 10,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +5",
+        "History +1",
+        "Animal Handling +2",
+        "Perception +2"
+      ],
+      "traits": [
+        "Proficiency +2. Strength and Constitution saves +5. Hide armor gives 12 + 2 Dexterity and a worn shield gives +2 for AC 16. AC is 14 after making the off-hand bonus attack, until the start of Brace’s next turn. HP 13 at 1st level and 9 at 2nd.",
+        "Customized Guild Artisan background grants History, Animal Handling, carpenter’s tools, Giant and Guild Membership. Fighter grants Athletics and Perception. Brace uses two handaxes, a round shield and an empty lower hand.",
+        "Four Arms applies to the normal Attack action and held items. Brace has no Extra Attack at Fighter 2. Two-Weapon Fighting style adds Strength to the bonus axe damage."
+      ],
+      "actions": [
+        "Handaxe. +5 to hit, reach 5 ft. or thrown range 20/60 ft. Hit for 1d6+3 slashing.",
+        "Two-weapon attack. After an axe attack with the Attack action, use a bonus action to attack with the other held handaxe, +5 for 1d6+3 slashing. Either axe may be thrown. Brace loses the shield’s +2 AC until the start of its next turn when it uses this bonus attack.",
+        "Natural strike. Unarmed strike +5 to hit, reach 5 ft. Hit for 1d6+3 piercing or slashing.",
+        "Aggressive. Bonus action to move up to 30 feet toward a visible hostile creature. Second Wind also takes a bonus action and restores 1d10+2 HP once per short or long rest.",
+        "Action Surge. Once per short or long rest, take one additional action."
+      ],
+      "tactics": "Brace climbs to protect the rigging and keeps the shield active while holding the line. It commits the second axe only when the climb is clear."
+    },
+    {
+      "id": "mr2-guard-drake-brinejaw",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Black Guard Drake towpath sentry, Barbarian 2",
+      "difficulty": "Barbarian 2",
+      "size": "Medium",
+      "type": "Dragon",
+      "speed": "30 ft., swim 30 ft.",
+      "ac": 16,
+      "hp": 25,
+      "hitDice": "2d12+6",
+      "initiative": 2,
+      "senses": "Passive Perception 12.",
+      "languages": "Draconic and Common.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 16,
+        "INT": 8,
+        "WIS": 10,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +5",
+        "Survival +2",
+        "Perception +2",
+        "Animal Handling +2"
+      ],
+      "traits": [
+        "Proficiency +2. Strength and Constitution saves +5. Natural AC 14 + 2 Dexterity gives 16. The alternate Unarmored Defense gives 15. HP 15 at 1st level, then 10 at 2nd.",
+        "Black Guard Drake has acid resistance and breathes both air and water. It wields no gear and wears no armor.",
+        "Outlander gives Athletics, Survival, Common and Wanderer. Barbarian gives Perception and Animal Handling. Unused musical instrument proficiency.",
+        "Danger Sense grants advantage on Dexterity saves against visible effects while able to see and free of the blinded, deafened and incapacitated conditions."
+      ],
+      "actions": [
+        "Bite or tail. Strength-based unarmed strike +5 to hit, reach 5 ft. Hit for 1d8+3 piercing with bite or bludgeoning with tail. Use 1d8+5 while raging.",
+        "Rage. Bonus action up to twice per long rest. For up to 1 minute, gain advantage on Strength checks and saves and resistance to bludgeoning, piercing and slashing damage. Add 2 to Strength-based melee weapon attack damage, including unarmed strikes. Rage ends early on unconsciousness or if its turn ends and it has neither attacked a hostile creature nor taken damage since its last turn.",
+        "Reckless Attack. On the first attack of its own turn, choose advantage on Strength-based melee weapon attacks that turn. Attacks against it gain advantage until the start of its next turn."
+      ],
+      "tactics": "Brinejaw enters the water to get between intruders and the towline. It bites if they keep advancing and retreats down the current if injured."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Emberstep",
+      "species": "Giant Strider",
+      "speciesPublication": "Monstrous Races 2",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr2-giant-strider-emberstep",
+      "size": "Medium",
+      "role": "An awakened runner who guides crews through abandoned kilns.",
+      "motive": "Recover the potters’ missing route markers before the next crew enters.",
+      "hook": "Emberstep offers a safer route if somebody can read the oldest kiln signs out loud."
+    },
+    {
+      "name": "Clink",
+      "species": "Flail Snail",
+      "speciesPublication": "Monstrous Races 2",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr2-flail-snail-clink",
+      "size": "Medium",
+      "role": "An awakened archive porter who recognizes book carts by their squeaky wheels.",
+      "motive": "Find who keeps replacing the warning tablets with blank ones.",
+      "hook": "Clink can describe the last borrowed cart from the sound of its front axle."
+    },
+    {
+      "name": "Fenhook",
+      "species": "Froghemoth",
+      "speciesPublication": "Monstrous Races 2",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr2-froghemoth-fenhook",
+      "size": "Medium",
+      "role": "An awakened amphibian that keeps a reed bridge open through the floods.",
+      "motive": "Get visitors to bring back the rope markers carried off by the flood.",
+      "hook": "Fenhook asks for rope instead of coin and offers to retrieve a dropped pack from under the bridge."
+    },
+    {
+      "name": "Brace",
+      "species": "Girallon",
+      "speciesPublication": "Monstrous Races 2",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr2-girallon-brace",
+      "size": "Medium",
+      "role": "An awakened bridge rigger with a guild voucher signed in four different inks.",
+      "motive": "Keep the up-river suspension bridge intact until a replacement girder arrives.",
+      "hook": "Brace catches a loose plank with its free hand, then offers work hauling spare lines to the high anchor."
+    },
+    {
+      "name": "Brinejaw",
+      "species": "Guard Drake",
+      "speciesPublication": "Monstrous Races 2",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr2-guard-drake-brinejaw",
+      "size": "Medium",
+      "role": "An awakened black drake paid to watch the lock gates.",
+      "motive": "Find someone who will help settle a wage dispute with the lock keeper.",
+      "hook": "Brinejaw offers to show visitors the drowned route marker as proof that the old towpath is still passable."
+    }
+  ]
+}

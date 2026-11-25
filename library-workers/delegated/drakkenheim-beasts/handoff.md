@@ -1,0 +1,9 @@
+# Big Linda in Dungeons of Drakkenheim
+
+This patch completes the existing Beast record for Big Linda from the English v1.1 printing. Page 163 adds CR 9, acid immunity, 30-ft. blindsight, and Acid Spew to the 2014 Tyrannosaurus Rex. Big Linda keeps the original Bite, Tail, and Multiattack. Acid Spew recharges on 5–6 and deals the printed 49 (11d8) acid damage in a 30-ft. cone, with a DC 15 Dexterity save for half. I checked the encounter page and the original base rules. [Ghostfire Gaming product](https://ghostfiregaming.com/product/dungeons-of-drakkenheim-book/) · [Encounter page scan](https://online.anyflip.com/wuzfu/tkrx/files/large/83da799e4554cb327ae575969f9fd9e7.webp) · [SRD 5.1, p. 279]()
+
+The published encounter also describes the Queen of Thieves' permanent charm, spoken commands, and whistle. The adventure gives Big Linda a challenge rating but does not print an award in XP. The separate *Monsters of Drakkenheim* record has its own rules. [Rules patch](rules.patch) · [Exact page, hash, and base reference](source-evidence.json) · [Independent source check](independent-source-notes.md)
+
+The new portrait was made with built-in ImageGen using the publisher illustration to check anatomy and the approved Giant Fly draft for the plain parchment style. The publisher illustration keeps its original gallery credit. The version-level portrait is staged alongside the patch. [Before and after](portrait-comparison.jpg) · [Generation prompts](portrait-prompts.json) · [Portrait index addition](portrait-index-preview.json)
+
+The temporary-copy check found Big Linda by name and by “Court of Thieves.” It verified the arena rules, the new portrait hash, the original gallery credit, and the separate Monstrosity record. The primary checkout and R2 were left alone. [Verification](verification.json) · [Before](catalog-before.json) · [After](catalog-after.json)

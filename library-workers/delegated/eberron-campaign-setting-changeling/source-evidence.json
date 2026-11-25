@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Changeling",
+    "kind": "species",
+    "publication": "Eberron Campaign Setting (2004)",
+    "edition": "3.5 edition",
+    "book": "Eberron Campaign Setting",
+    "authors": [
+      "Keith Baker",
+      "Bill Slavicsek",
+      "James Wyatt"
+    ],
+    "publisher": "Wizards of the Coast",
+    "firstPrinting": "June 2004",
+    "productCode": "620-86400-001-EN",
+    "isbn": "0-7869-3274-0",
+    "printedPages": {
+      "entryAndArt": 12,
+      "playableTraits": 13,
+      "rousSample": 80,
+      "wayfinderSample": 247
+    },
+    "pdfPages": {
+      "entryAndArt": 15,
+      "playableTraits": 16,
+      "rousSample": 83,
+      "wayfinderSample": 250
+    },
+    "primaryBookScan": "",
+    "primaryBookSha256": "1d1d1c83e7bba94f7e3e8967def180f564d339dedbd8e85b1abcc6bf48a98922",
+    "officialErrata": "",
+    "officialFaq": "https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP",
+    "printedArtCredit": "Andrew Jones, unnamed Changeling, p. 12 (AJ signature).",
+    "sourceDistinctions": [
+      "Minor Change Shape changes the body, with no changes to clothing or possessions. It uses a full-round action at will and grants +10 circumstance on Disguise checks when used to disguise.",
+      "The first printing applies the disguise self size and body-plan limits. The FAQ allows a Warforged appearance within those limits.",
+      "The p. 13 Dragonmarks paragraph limits the Changeling to copying a mark’s appearance. It cannot use a mark’s power.",
+      "This is the June 2004 playable printing. Later playable editions and earlier or later monster entries have their own profile."
+    ],
+    "entryId": "species-2d1d83250720679fb609f8fc",
+    "versionKey": "4dbc55abd304587b2e3bad7f",
+    "slug": "changeling",
+    "portraitSelection": "generated",
+    "portraitForm": "Rem, an original Changeling Expert",
+    "npcExamples": [
+      "Rem",
+      "Serr"
+    ]
+  }
+]

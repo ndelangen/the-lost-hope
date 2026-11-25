@@ -1,0 +1,175 @@
+[
+  {
+    "name": "Cave Badger",
+    "publication": "Out of the Abyss",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 12,
+    "hp": 13,
+    "hitDice": "2d8 + 4",
+    "speed": "30 ft., burrow 15 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "passivePerception": 11,
+    "otherStatistics": "Natural armor. Darkvision 30 ft., tremorsense 60 ft.. Passive Perception 11. No languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A low, broad badger with a striped face, coarse fur, and heavy digging claws.",
+    "habitats": [
+      "Underdark"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast and Green Ronin Publishing, Out of the Abyss, first printing, September 2015, Chapter 6, Blingdenstone, p. 96. Use the Giant Badger base block in the 2014 Monster Manual, p. 323, with the adventure changes below. https://www.dndbeyond.com/monsters/274103-cave-badger",
+      "Traits": "Keen Smell. The badger has advantage on Wisdom (Perception) checks based on smell.\nTunneling. The badger leaves tunnels behind as it burrows.",
+      "Actions": "Multiattack. Make one Bite attack and one Claws attack.\nBite. Melee weapon attack, +3 to hit, 5 ft. reach, one target. A hit deals 4 (1d6 + 1) piercing damage.\nClaws. Melee weapon attack, +3 to hit, 5 ft. reach, one target. A hit deals 6 (2d4 + 1) slashing damage.",
+      "Encounter ecology": "The svirfneblin put these badgers to work digging in Blingdenstone.",
+      "Encounter placement": "A 12 on the Blingdenstone encounter table produces 1d4 + 2 cave badgers.",
+      "Source notes": "The adventure gives AC 12 from natural armor, 60 ft. tremorsense, and a 15-ft. burrow speed. Darkvision comes from the inherited Giant Badger block."
+    }
+  },
+  {
+    "name": "Female Steeder",
+    "publication": "Out of the Abyss",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 14,
+    "hp": 30,
+    "hitDice": "4d10 + 8",
+    "speed": "30 ft., climb 30 ft.",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "skills": {
+      "Stealth": 7
+    },
+    "passivePerception": 10,
+    "otherStatistics": "Natural armor. Stealth +7. Darkvision 120 ft.. Passive Perception 10. No languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A broad-bodied tarantula with bristled legs, clustered eyes, and dark pads at the tips of its feet.",
+    "habitats": [
+      "Underdark"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast and Green Ronin Publishing, Out of the Abyss, first printing, September 2015, Appendix C, Creatures, Steeders, p. 231. https://www.dndbeyond.com/monsters/17401-female-steeder",
+      "Traits": "Spider Climb. The steeder climbs difficult surfaces and crosses ceilings upside down without an ability check.\nLeap. If its speed is at least 30 ft., the steeder can spend all its movement for the turn to jump up to 90 ft. vertically or horizontally.",
+      "Actions": "Bite. Melee weapon attack, +5 to hit, 5 ft. reach, one creature. A hit deals 7 (1d8 + 3) piercing damage and calls for a DC 12 Constitution saving throw. A creature takes 9 (2d8) acid damage on a failure or half on a success.\nSticky Leg. Melee weapon attack, +5 to hit, 5 ft. reach, one Medium or smaller creature. A hit sticks the creature to a leg and grapples it until it escapes, DC 12. The action recharges when the steeder has no creatures grappled.",
+      "Encounter ecology": "Duergar use the larger female steeders as mounts. The animals grip walls, ceilings, and prey with a sticky secretion from their legs.",
+      "Encounter placement": "When a Duergar Kavalrachni hits with a melee attack while riding a female steeder, the steeder can use its reaction to make a melee attack against the same target.",
+      "Source notes": "Appendix C p. 231 gives a Large Beast. The encounter-specific Cavalry Training on p. 226 belongs to the Duergar Kavalrachni rider."
+    }
+  },
+  {
+    "name": "Fiendish Giant Spider",
+    "publication": "Out of the Abyss",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 13,
+    "hp": 11,
+    "hitDice": "2d8 + 2",
+    "speed": "40 ft., climb 40 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "abilities": {
+      "Str": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "skills": {
+      "Perception": 3,
+      "Stealth": 7
+    },
+    "passivePerception": 13,
+    "otherStatistics": "Perception +3, Stealth +7. Blindsight 10 ft., darkvision 60 ft.. Passive Perception 13. No languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A mottled brown hunting spider with striped legs. The adventure describes the former drow servants as burning with baleful energy.",
+    "habitats": [
+      "Underdark"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast and Green Ronin Publishing, Out of the Abyss, first printing, September 2015, Chapter 6, Blingdenstone, p. 97. Use the Giant Wolf Spider base block in the 2014 Monster Manual, p. 330, with the adventure changes below. https://www.dndbeyond.com/monsters/274108-fiendish-giant-spider",
+      "Defenses": "Resists cold, fire, and lightning damage. Immune to poison damage and the poisoned condition.",
+      "Traits": "Spider Climb. The spider climbs difficult surfaces and crosses ceilings upside down without an ability check.\nWeb Sense. Touching a web tells the spider the exact location of every other creature touching that web.\nWeb Walker. Webbing imposes no movement restrictions on the spider.",
+      "Actions": "Bite. Melee weapon attack, +3 to hit, 5 ft. reach, one creature. A hit deals 4 (1d6 + 1) piercing damage. The creature makes a DC 11 Constitution saving throw, taking 7 (2d6) poison damage on a failure or half on a success. If this poison drops it to 0 HP, it is stable and poisoned for 1 hour, even if it regains HP. It is paralyzed while poisoned this way.",
+      "Encounter ecology": "Former servants of the drow turn up among the tunnels and ruins of Blingdenstone.",
+      "Encounter placement": "A 15 on the Blingdenstone encounter table produces 1d4 + 2 fiendish giant spiders.",
+      "Source notes": "The adventure changes challenge and defenses. The 2014 Giant Wolf Spider base retains the Medium Beast type and unaligned alignment. D&D Beyond independently lists the adventure entry as a Beast."
+    }
+  }
+]

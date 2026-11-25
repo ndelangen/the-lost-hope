@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Devil Adjudicator",
+    "source": "https://www.dndbeyond.com/monsters/4485817-devil-adjudicator",
+    "challenge": "14",
+    "entry": "monster-7bfad120d539b1125de86df6",
+    "version": "7937b22e5cb5a8b2b68678e3",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "slug": "devil-adjudicator",
+    "kind": "monster",
+    "type": "Fiend",
+    "encounterStatus": "local-stat-block",
+    "generated": true,
+    "primaryPortraitSha256": "ef5880036a089e13f34e9ee4cccfa0a2a63da1ced26cf002b181719764396c55",
+    "status": "Stat block",
+    "appearance": "A stout, horned infernal judge with a tapering scaled tail, bat wings and gold-embroidered burgundy robes.",
+    "habitats": [
+      "Hell",
+      "Seven Cities of Hell"
+    ]
+  },
+  {
+    "name": "Devil Jurist",
+    "source": "https://www.dndbeyond.com/monsters/4485818-devil-jurist",
+    "challenge": "10",
+    "entry": "monster-0599e17dd1b9ad5bf542fb12",
+    "version": "4aacdd664f13105e05dbc1ef",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "slug": "devil-jurist",
+    "kind": "monster",
+    "type": "Fiend",
+    "encounterStatus": "local-stat-block",
+    "generated": true,
+    "primaryPortraitSha256": "8dd7c3ff701d7aea5459dcca2e6d0f466c4744a98752eabac172f1ec1ecab1b9",
+    "status": "Stat block",
+    "appearance": "A lean blue-gray infernal magistrate with a pair of hooked horns, tattered wings and purple-red court armor.",
+    "habitats": [
+      "Hell",
+      "Seven Cities of Hell"
+    ]
+  }
+]

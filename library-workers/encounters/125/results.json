@@ -1,0 +1,27 @@
+{
+  "entryId": "monster-0fe588b91d5e2e0d5c6accf6",
+  "versionKey": "356f3e6f22e2f2511c4489c0",
+  "artHash": "62b2fddbe4262e56cafe9ac0284ca696a27e93de69c42da11ae6986205a1ec13",
+  "art": {
+    "url": "",
+    "credit": "D&D Beyond publisher art · Where Evil Lives"
+  },
+  "stats": {
+    "Armor class": "20",
+    "Hit points": "187",
+    "Hit dice": "22d10 + 66",
+    "Challenge": "13",
+    "Type": "Celestial",
+    "Speed": "60 ft.",
+    "XP": "10000",
+    "Str": "24",
+    "Dex": "16",
+    "Con": "16",
+    "Int": "18",
+    "Wis": "20",
+    "Cha": "20"
+  },
+  "linkedTerms": [
+    "Exhaustion"
+  ]
+}

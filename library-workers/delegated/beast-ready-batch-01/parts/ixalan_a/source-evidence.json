@@ -1,0 +1,155 @@
+[
+  {
+    "name": "Aegisaur",
+    "publication": "Plane Shift: Ixalan",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "printing": "First printing, January 2018",
+    "copyrightYear": 2017,
+    "author": "James Wyatt",
+    "publisher": "Wizards of the Coast",
+    "pdfPage": 28,
+    "pageNumbering": "viewer pages, counted from the cover. Base stat block pages are printed folios.",
+    "section": "An Ixalan Bestiary, Scales, Spikes, and Hammers",
+    "sourceUrl": "",
+    "sourceSha256": "56c0f5a90d4c396b88358fc2156f3dd14e29eb0cc77d344246747403dd85a411",
+    "reskinReference": {
+      "name": "Ankylosaurus",
+      "publication": "Monster Manual",
+      "year": 2014,
+      "edition": "2014 fifth edition",
+      "printedPage": 79,
+      "url": "",
+      "publisherReprint": "https://www.dndbeyond.com/monsters/17088-ankylosaurus"
+    },
+    "secondaryCrossCheck": "5etools indexed statistics checked against the named 2014 rules print sources.",
+    "appearanceEvidence": "p. 28 describes shell-like armored scales and a bony tail club. Bellowing Aegisaur shows the broad, low armored body and colorful neck scales.",
+    "habitatEvidence": "p. 28 groups Aegisaur with armored Ixalan plains herbivores. Grassland is the editorial search equivalent.",
+    "creditedArt": "Craig J. Spearing, Bellowing Aegisaur, p. 28.",
+    "sourceDistinctions": [
+      "The 2014 print gives +7 to hit. The numerical attack bonus follows print."
+    ]
+  },
+  {
+    "name": "Aerosaur (Large)",
+    "publication": "Plane Shift: Ixalan",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "printing": "First printing, January 2018",
+    "copyrightYear": 2017,
+    "author": "James Wyatt",
+    "publisher": "Wizards of the Coast",
+    "pdfPage": 29,
+    "pageNumbering": "viewer pages, counted from the cover. Base stat block pages are printed folios.",
+    "section": "An Ixalan Bestiary, Soaring Flocks",
+    "sourceUrl": "",
+    "sourceSha256": "56c0f5a90d4c396b88358fc2156f3dd14e29eb0cc77d344246747403dd85a411",
+    "reskinReference": {
+      "name": "Quetzalcoatlus",
+      "publication": "Volo’s Guide to Monsters",
+      "year": 2016,
+      "edition": "2014 fifth edition",
+      "printedPage": 140,
+      "url": "https://online.anyflip.com/tqblu/upsf/files/basic-html/page141.html",
+      "publisherPageIndex": ""
+    },
+    "secondaryCrossCheck": "5etools indexed statistics checked against the named 2014 rules print sources.",
+    "appearanceEvidence": "p. 29 describes leathery-winged reptiles, including pterodons and sunwings. A crested beak is visible in Shining Aerosaur. The gliding pose and palette are original portrait choices.",
+    "habitatEvidence": "High perches and coastal updrafts are both named on p. 29. Ixalan coast is the editorial search tag for the coastal setting.",
+    "creditedArt": "Dan Scott, Shining Aerosaur, and Johann Bodin, Sky Terror, appear on p. 29.",
+    "sourceDistinctions": [
+      "Large is the catalog’s relative form label. The Quetzalcoatlus rules classify it as Huge.",
+      "The printed Dive Attack adds damage without naming a separate damage type."
+    ]
+  },
+  {
+    "name": "Aerosaur (Small)",
+    "publication": "Plane Shift: Ixalan",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "printing": "First printing, January 2018",
+    "copyrightYear": 2017,
+    "author": "James Wyatt",
+    "publisher": "Wizards of the Coast",
+    "pdfPage": 29,
+    "pageNumbering": "viewer pages, counted from the cover. Base stat block pages are printed folios.",
+    "section": "An Ixalan Bestiary, Soaring Flocks",
+    "sourceUrl": "",
+    "sourceSha256": "56c0f5a90d4c396b88358fc2156f3dd14e29eb0cc77d344246747403dd85a411",
+    "reskinReference": {
+      "name": "Pteranodon",
+      "publication": "Monster Manual",
+      "year": 2014,
+      "edition": "2014 fifth edition",
+      "printedPage": 80,
+      "url": "",
+      "publisherReprint": "https://www.dndbeyond.com/monsters/17093-pteranodon"
+    },
+    "secondaryCrossCheck": "5etools indexed statistics checked against the named 2014 rules print sources.",
+    "appearanceEvidence": "p. 29 describes leathery-winged reptiles, including pterodons and sunwings. A crested beak is visible in Shining Aerosaur. The gliding pose and palette are original portrait choices.",
+    "habitatEvidence": "High perches and coastal updrafts are both named on p. 29. Ixalan coast is the editorial search tag for the coastal setting.",
+    "creditedArt": "Dan Scott, Shining Aerosaur, and Johann Bodin, Sky Terror, appear on p. 29.",
+    "sourceDistinctions": [
+      "Small is the catalog’s relative form label. The Pteranodon rules classify it as Medium. Its listed flight speed applies normally."
+    ]
+  },
+  {
+    "name": "Altisaur",
+    "publication": "Plane Shift: Ixalan",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "printing": "First printing, January 2018",
+    "copyrightYear": 2017,
+    "author": "James Wyatt",
+    "publisher": "Wizards of the Coast",
+    "pdfPage": 27,
+    "pageNumbering": "viewer pages, counted from the cover. Base stat block pages are printed folios.",
+    "section": "An Ixalan Bestiary, The Rumbling Herds",
+    "sourceUrl": "",
+    "sourceSha256": "56c0f5a90d4c396b88358fc2156f3dd14e29eb0cc77d344246747403dd85a411",
+    "reskinReference": {
+      "name": "Brontosaurus",
+      "publication": "Volo’s Guide to Monsters",
+      "year": 2016,
+      "edition": "2014 fifth edition",
+      "printedPage": 139,
+      "url": "https://online.anyflip.com/tqblu/upsf/files/basic-html/page140.html",
+      "publisherPageIndex": ""
+    },
+    "secondaryCrossCheck": "5etools indexed statistics checked against the named 2014 rules print sources.",
+    "appearanceEvidence": "p. 27 groups Altisaurs with enormous long-necked herbivores. A four-legged build and powerful tail follow the Brontosaurus model. The pose and pigments are original.",
+    "habitatEvidence": "p. 27 places Altisaurs on the Sun Coast plains and in sparse forests where they browse the tops of trees.",
+    "creditedArt": "Keep any existing Altisaur book art reference and credit.",
+    "sourceDistinctions": [
+      "The Ixalan text assigns the same Brontosaurus base to Altisaurs and Brontodons. This entry keeps the Altisaur name and setting description."
+    ]
+  },
+  {
+    "name": "Armasaur",
+    "publication": "Plane Shift: Ixalan",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "printing": "First printing, January 2018",
+    "copyrightYear": 2017,
+    "author": "James Wyatt",
+    "publisher": "Wizards of the Coast",
+    "pdfPage": 28,
+    "pageNumbering": "viewer pages, counted from the cover. Base stat block pages are printed folios.",
+    "section": "An Ixalan Bestiary, Scales, Spikes, and Hammers",
+    "sourceUrl": "",
+    "sourceSha256": "56c0f5a90d4c396b88358fc2156f3dd14e29eb0cc77d344246747403dd85a411",
+    "reskinReference": {
+      "name": "Stegosaurus",
+      "publication": "Volo’s Guide to Monsters",
+      "year": 2016,
+      "edition": "2014 fifth edition",
+      "printedPage": 140,
+      "url": "https://online.anyflip.com/tqblu/upsf/files/basic-html/page141.html",
+      "publisherPageIndex": ""
+    },
+    "secondaryCrossCheck": "5etools indexed statistics checked against the named 2014 rules print sources.",
+    "appearanceEvidence": "p. 28 describes jutting back plates and a whiplike tail with defensive spikes. Steadfast Armasaur shows the four-legged silhouette.",
+    "habitatEvidence": "p. 28 groups Armasaur with armored Ixalan plains herbivores. Grassland is the editorial search equivalent.",
+    "creditedArt": "Greg Opalanski, Steadfast Armasaur, p. 28."
+  }
+]

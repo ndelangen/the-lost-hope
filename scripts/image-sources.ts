@@ -1,5 +1,7 @@
 import { join } from 'node:path'
 
+import libraryImageSources from './library-image-sources.json'
+
 export const RESPONSIVE_IMAGE_WIDTHS = [
   32, 64, 128, 192, 256, 384, 512, 640, 768, 960, 1024, 1280, 1536,
 ] as const
@@ -17,9 +19,20 @@ export type ResponsiveImageSource = {
   role: 'avatar' | 'map' | 'illustration'
   logicalSource: string
   repositoryPath: string
+  maxWidth?: number
+  widths?: readonly number[]
+  archived?: boolean
 }
 
-export const RESPONSIVE_IMAGE_SOURCES: readonly ResponsiveImageSource[] = [
+export const ORIGINAL_IMAGE_SOURCES: readonly ResponsiveImageSource[] = [
+  ...libraryImageSources.map((source) => ({
+    ...source,
+    role: 'illustration' as const,
+    maxWidth: 768,
+    ...(source.logicalSource.startsWith('/assets/library/worker-art/')
+      ? { widths: [32, 384, 768] }
+      : {}),
+  })),
   {
     id: 'npcs-durgan-ashfang-portrait',
     role: 'avatar',
@@ -55,6 +68,444 @@ export const RESPONSIVE_IMAGE_SOURCES: readonly ResponsiveImageSource[] = [
     role: 'illustration',
     logicalSource: '/assets/scenes/chaos-on-the-sky-islands.png',
     repositoryPath: 'assets/images/content/scenes/chaos-on-the-sky-islands.png',
+  },
+  {
+    id: 'scenes-month-long-boat-journey',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/month-long-boat-journey.png',
+    repositoryPath: 'assets/images/content/scenes/month-long-boat-journey.png',
+  },
+  {
+    id: 'scenes-jim-receives-a-letter-from-light',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/jim-receives-a-letter-from-light.png',
+    repositoryPath: 'assets/images/content/scenes/jim-receives-a-letter-from-light.png',
+  },
+  {
+    id: 'scenes-william-diverts-to-a-tavern',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/william-diverts-to-a-tavern.png',
+    repositoryPath: 'assets/images/content/scenes/william-diverts-to-a-tavern.png',
+  },
+  {
+    id: 'scenes-night-falls-tavern-closes-up',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/night-falls-tavern-closes-up.png',
+    repositoryPath: 'assets/images/content/scenes/night-falls-tavern-closes-up.png',
+  },
+  {
+    id: 'scenes-meet-bob-the-gate-troll',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/meet-bob-the-gate-troll.png',
+    repositoryPath: 'assets/images/content/scenes/meet-bob-the-gate-troll.png',
+  },
+  {
+    id: 'scenes-two-zombies-attack-at-the-docks',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/two-zombies-attack-at-the-docks.png',
+    repositoryPath: 'assets/images/content/scenes/two-zombies-attack-at-the-docks.png',
+  },
+  {
+    id: 'scenes-shadowy-tentacles-grab-the-dwarf',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/shadowy-tentacles-grab-the-dwarf.png',
+    repositoryPath: 'assets/images/content/scenes/shadowy-tentacles-grab-the-dwarf.png',
+  },
+  {
+    id: 'scenes-children-s-laughter-outside',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/children-s-laughter-outside.png',
+    repositoryPath: 'assets/images/content/scenes/children-s-laughter-outside.png',
+  },
+  {
+    id: 'scenes-day-2-city-looks-normal',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/day-2-city-looks-normal.png',
+    repositoryPath: 'assets/images/content/scenes/day-2-city-looks-normal.png',
+  },
+  {
+    id: 'scenes-meet-light-13th-marshal-at-the-guildhall',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/meet-light-13th-marshal-at-the-guildhall.png',
+    repositoryPath: 'assets/images/content/scenes/meet-light-13th-marshal-at-the-guildhall.png',
+  },
+  {
+    id: 'scenes-the-guild-tattoo-ritual',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-guild-tattoo-ritual.png',
+    repositoryPath: 'assets/images/content/scenes/the-guild-tattoo-ritual.png',
+  },
+  {
+    id: 'scenes-bulletin-board-pick-a-quest',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/bulletin-board-pick-a-quest.png',
+    repositoryPath: 'assets/images/content/scenes/bulletin-board-pick-a-quest.png',
+  },
+  {
+    id: 'scenes-visit-the-exotic-animal-dealer',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/visit-the-exotic-animal-dealer.png',
+    repositoryPath: 'assets/images/content/scenes/visit-the-exotic-animal-dealer.png',
+  },
+  {
+    id: 'scenes-enter-the-tunnel-via-trapdoor',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/enter-the-tunnel-via-trapdoor.png',
+    repositoryPath: 'assets/images/content/scenes/enter-the-tunnel-via-trapdoor.png',
+  },
+  {
+    id: 'scenes-find-a-phoenix-feather-in-an-offshoot',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/find-a-phoenix-feather-in-an-offshoot.png',
+    repositoryPath: 'assets/images/content/scenes/find-a-phoenix-feather-in-an-offshoot.png',
+  },
+  {
+    id: 'scenes-giant-spider-guarding-a-young-phoenix',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/giant-spider-guarding-a-young-phoenix.png',
+    repositoryPath: 'assets/images/content/scenes/giant-spider-guarding-a-young-phoenix.png',
+  },
+  {
+    id: 'scenes-return-phoenix-to-the-dealer-animal-1-3',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/return-phoenix-to-the-dealer-animal-1-3.png',
+    repositoryPath: 'assets/images/content/scenes/return-phoenix-to-the-dealer-animal-1-3.png',
+  },
+  {
+    id: 'scenes-recover-a-displacer-beast-animal-2-3',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/recover-a-displacer-beast-animal-2-3.png',
+    repositoryPath: 'assets/images/content/scenes/recover-a-displacer-beast-animal-2-3.png',
+  },
+  {
+    id: 'scenes-return-to-the-guildhall-with-2-of-3-animals',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/return-to-the-guildhall-with-2-of-3-animals.png',
+    repositoryPath: 'assets/images/content/scenes/return-to-the-guildhall-with-2-of-3-animals.png',
+  },
+  {
+    id: 'scenes-jim-receives-a-final-warning-letter',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/jim-receives-a-final-warning-letter.png',
+    repositoryPath: 'assets/images/content/scenes/jim-receives-a-final-warning-letter.png',
+  },
+  {
+    id: 'scenes-jim-speaks-with-light-1-1',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/jim-speaks-with-light-1-1.png',
+    repositoryPath: 'assets/images/content/scenes/jim-speaks-with-light-1-1.png',
+  },
+  {
+    id: 'scenes-william-s-bathroom-experience',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/william-s-bathroom-experience.png',
+    repositoryPath: 'assets/images/content/scenes/william-s-bathroom-experience.png',
+  },
+  {
+    id: 'scenes-mr-peace-joins-for-one-session',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/mr-peace-joins-for-one-session.png',
+    repositoryPath: 'assets/images/content/scenes/mr-peace-joins-for-one-session.png',
+  },
+  {
+    id: 'scenes-friendly-goblin-grass-keepers-try-to-kidnap-mr-peace',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/friendly-goblin-grass-keepers-try-to-kidnap-mr-peace.png',
+    repositoryPath:
+      'assets/images/content/scenes/friendly-goblin-grass-keepers-try-to-kidnap-mr-peace.png',
+  },
+  {
+    id: 'scenes-fajanet-s-5-day-festival-no-tentacles-at-night',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/fajanet-s-5-day-festival-no-tentacles-at-night.png',
+    repositoryPath:
+      'assets/images/content/scenes/fajanet-s-5-day-festival-no-tentacles-at-night.png',
+  },
+  {
+    id: 'scenes-bob-gives-the-party-special-daggers',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/bob-gives-the-party-special-daggers.png',
+    repositoryPath: 'assets/images/content/scenes/bob-gives-the-party-special-daggers.png',
+  },
+  {
+    id: 'scenes-devan-joins-while-swift-continues-with-the-party',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/devan-joins-while-swift-continues-with-the-party.png',
+    repositoryPath:
+      'assets/images/content/scenes/devan-joins-while-swift-continues-with-the-party.png',
+  },
+  {
+    id: 'scenes-meet-light-in-the-morning-and-leave-fajanet',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/meet-light-in-the-morning-and-leave-fajanet.png',
+    repositoryPath: 'assets/images/content/scenes/meet-light-in-the-morning-and-leave-fajanet.png',
+  },
+  {
+    id: 'scenes-light-instructs-the-party-to-use-the-trapdoor',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/light-instructs-the-party-to-use-the-trapdoor.png',
+    repositoryPath:
+      'assets/images/content/scenes/light-instructs-the-party-to-use-the-trapdoor.png',
+  },
+  {
+    id: 'scenes-lost-in-the-shadow-realm',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/lost-in-the-shadow-realm.png',
+    repositoryPath: 'assets/images/content/scenes/lost-in-the-shadow-realm.png',
+  },
+  {
+    id: 'scenes-a-phoenix-feather-guides-the-party-out-of-the-shadow-realm',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/a-phoenix-feather-guides-the-party-out-of-the-shadow-realm.png',
+    repositoryPath:
+      'assets/images/content/scenes/a-phoenix-feather-guides-the-party-out-of-the-shadow-realm.png',
+  },
+  {
+    id: 'scenes-reach-a-cliff-with-a-sign',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/reach-a-cliff-with-a-sign.png',
+    repositoryPath: 'assets/images/content/scenes/reach-a-cliff-with-a-sign.png',
+  },
+  {
+    id: 'scenes-pass-through-a-holy-site-into-the-mountains',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/pass-through-a-holy-site-into-the-mountains.png',
+    repositoryPath: 'assets/images/content/scenes/pass-through-a-holy-site-into-the-mountains.png',
+  },
+  {
+    id: 'scenes-puzzle-room-with-5-elements-chasing-each-other',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/puzzle-room-with-5-elements-chasing-each-other.png',
+    repositoryPath:
+      'assets/images/content/scenes/puzzle-room-with-5-elements-chasing-each-other.png',
+  },
+  {
+    id: 'scenes-meet-the-angel-and-the-dragon-husband-and-wife',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/meet-the-angel-and-the-dragon-husband-and-wife.png',
+    repositoryPath:
+      'assets/images/content/scenes/meet-the-angel-and-the-dragon-husband-and-wife.png',
+  },
+  {
+    id: 'scenes-zone-of-truth-each-pc-questioned',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/zone-of-truth-each-pc-questioned.png',
+    repositoryPath: 'assets/images/content/scenes/zone-of-truth-each-pc-questioned.png',
+  },
+  {
+    id: 'scenes-pirate-asks-the-dragon-children-to-fly-the-party-down',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/pirate-asks-the-dragon-children-to-fly-the-party-down.png',
+    repositoryPath:
+      'assets/images/content/scenes/pirate-asks-the-dragon-children-to-fly-the-party-down.png',
+  },
+  {
+    id: 'scenes-the-dwarf-and-the-pirate-go-missing',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-dwarf-and-the-pirate-go-missing.png',
+    repositoryPath: 'assets/images/content/scenes/the-dwarf-and-the-pirate-go-missing.png',
+  },
+  {
+    id: 'scenes-meet-victor-the-lumberjack-and-abraham-the-donkey',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/meet-victor-the-lumberjack-and-abraham-the-donkey.png',
+    repositoryPath:
+      'assets/images/content/scenes/meet-victor-the-lumberjack-and-abraham-the-donkey.png',
+  },
+  {
+    id: 'scenes-dinos-ridden-toward-fairhaven',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/dinos-ridden-toward-fairhaven.png',
+    repositoryPath: 'assets/images/content/scenes/dinos-ridden-toward-fairhaven.png',
+  },
+  {
+    id: 'scenes-hunted-by-a-small-group-of-dinos',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/hunted-by-a-small-group-of-dinos.png',
+    repositoryPath: 'assets/images/content/scenes/hunted-by-a-small-group-of-dinos.png',
+  },
+  {
+    id: 'scenes-reach-badesh-victor-s-hometown',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/reach-badesh-victor-s-hometown.png',
+    repositoryPath: 'assets/images/content/scenes/reach-badesh-victor-s-hometown.png',
+  },
+  {
+    id: 'scenes-the-party-is-arrested-for-reckless-donkey-driving',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-party-is-arrested-for-reckless-donkey-driving.png',
+    repositoryPath:
+      'assets/images/content/scenes/the-party-is-arrested-for-reckless-donkey-driving.png',
+  },
+  {
+    id: 'scenes-board-the-boat-to-fairhaven',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/board-the-boat-to-fairhaven.png',
+    repositoryPath: 'assets/images/content/scenes/board-the-boat-to-fairhaven.png',
+  },
+  {
+    id: 'scenes-the-party-takes-celeste-from-a-shore-side-fight',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-party-takes-celeste-from-a-shore-side-fight.png',
+    repositoryPath:
+      'assets/images/content/scenes/the-party-takes-celeste-from-a-shore-side-fight.png',
+  },
+  {
+    id: 'scenes-guild-tattoos-pass-for-papers-at-the-gate',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/guild-tattoos-pass-for-papers-at-the-gate.png',
+    repositoryPath: 'assets/images/content/scenes/guild-tattoos-pass-for-papers-at-the-gate.png',
+  },
+  {
+    id: 'scenes-victor-receives-his-guild-tattoo-and-asks-a-favor',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/victor-receives-his-guild-tattoo-and-asks-a-favor.png',
+    repositoryPath:
+      'assets/images/content/scenes/victor-receives-his-guild-tattoo-and-asks-a-favor.png',
+  },
+  {
+    id: 'scenes-meet-the-lucky-palm-at-the-fairhaven-guildhall',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/meet-the-lucky-palm-at-the-fairhaven-guildhall.png',
+    repositoryPath:
+      'assets/images/content/scenes/meet-the-lucky-palm-at-the-fairhaven-guildhall.png',
+  },
+  {
+    id: 'scenes-consult-the-fairhaven-guildhall-quest-board',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/consult-the-fairhaven-guildhall-quest-board.png',
+    repositoryPath: 'assets/images/content/scenes/consult-the-fairhaven-guildhall-quest-board.png',
+  },
+  {
+    id: 'scenes-giggles-hires-the-party-against-a-rival-alchemist',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/giggles-hires-the-party-against-a-rival-alchemist.png',
+    repositoryPath:
+      'assets/images/content/scenes/giggles-hires-the-party-against-a-rival-alchemist.png',
+  },
+  {
+    id: 'scenes-penelope-shows-the-party-her-original-recipes',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/penelope-shows-the-party-her-original-recipes.png',
+    repositoryPath:
+      'assets/images/content/scenes/penelope-shows-the-party-her-original-recipes.png',
+  },
+  {
+    id: 'scenes-green-cloaked-shadows-lead-to-a-gambling-den',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/green-cloaked-shadows-lead-to-a-gambling-den.png',
+    repositoryPath: 'assets/images/content/scenes/green-cloaked-shadows-lead-to-a-gambling-den.png',
+  },
+  {
+    id: 'scenes-devan-drinks-with-borris-and-receives-the-endless-flask',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/devan-drinks-with-borris-and-receives-the-endless-flask.png',
+    repositoryPath:
+      'assets/images/content/scenes/devan-drinks-with-borris-and-receives-the-endless-flask.png',
+  },
+  {
+    id: 'scenes-jim-wakes-william-with-light-s-unidentified-drops',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/jim-wakes-william-with-light-s-unidentified-drops.png',
+    repositoryPath:
+      'assets/images/content/scenes/jim-wakes-william-with-light-s-unidentified-drops.png',
+  },
+  {
+    id: 'scenes-the-party-breaks-into-mortimer-s-shop',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-party-breaks-into-mortimer-s-shop.png',
+    repositoryPath: 'assets/images/content/scenes/the-party-breaks-into-mortimer-s-shop.png',
+  },
+  {
+    id: 'scenes-the-party-escapes-mortimer-s-chimera-and-time-bomb',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-party-escapes-mortimer-s-chimera-and-time-bomb.png',
+    repositoryPath:
+      'assets/images/content/scenes/the-party-escapes-mortimer-s-chimera-and-time-bomb.png',
+  },
+  {
+    id: 'scenes-mortimer-s-shop-explodes-and-the-party-is-arrested',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/mortimer-s-shop-explodes-and-the-party-is-arrested.png',
+    repositoryPath:
+      'assets/images/content/scenes/mortimer-s-shop-explodes-and-the-party-is-arrested.png',
+  },
+  {
+    id: 'scenes-jim-tells-the-truth-at-the-court-hearing',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/jim-tells-the-truth-at-the-court-hearing.png',
+    repositoryPath: 'assets/images/content/scenes/jim-tells-the-truth-at-the-court-hearing.png',
+  },
+  {
+    id: 'scenes-swift-tames-a-demon-possessed-flying-broom',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/swift-tames-a-demon-possessed-flying-broom.png',
+    repositoryPath: 'assets/images/content/scenes/swift-tames-a-demon-possessed-flying-broom.png',
+  },
+  {
+    id: 'scenes-swift-disrupts-the-festival-of-the-heroes-announcement',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/swift-disrupts-the-festival-of-the-heroes-announcement.png',
+    repositoryPath:
+      'assets/images/content/scenes/swift-disrupts-the-festival-of-the-heroes-announcement.png',
+  },
+  {
+    id: 'scenes-swift-refuses-the-demon-broom-for-100-gp',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/swift-refuses-the-demon-broom-for-100-gp.png',
+    repositoryPath: 'assets/images/content/scenes/swift-refuses-the-demon-broom-for-100-gp.png',
+  },
+  {
+    id: 'scenes-fix-joins-lucky-palm-and-the-guild-under-a-fake-tattoo',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/fix-joins-lucky-palm-and-the-guild-under-a-fake-tattoo.png',
+    repositoryPath:
+      'assets/images/content/scenes/fix-joins-lucky-palm-and-the-guild-under-a-fake-tattoo.png',
+  },
+  {
+    id: 'scenes-devan-drunkenly-reveals-jim-s-name-to-fix',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/devan-drunkenly-reveals-jim-s-name-to-fix.png',
+    repositoryPath: 'assets/images/content/scenes/devan-drunkenly-reveals-jim-s-name-to-fix.png',
+  },
+  {
+    id: 'scenes-monster-summoning-wizards-destroy-fairhaven',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/monster-summoning-wizards-destroy-fairhaven.png',
+    repositoryPath: 'assets/images/content/scenes/monster-summoning-wizards-destroy-fairhaven.png',
+  },
+  {
+    id: 'scenes-swift-frees-and-steals-the-demon-broom',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/swift-frees-and-steals-the-demon-broom.png',
+    repositoryPath: 'assets/images/content/scenes/swift-frees-and-steals-the-demon-broom.png',
+  },
+  {
+    id: 'scenes-jim-and-victor-rescue-abraham-from-the-guildhall-stables',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/jim-and-victor-rescue-abraham-from-the-guildhall-stables.png',
+    repositoryPath:
+      'assets/images/content/scenes/jim-and-victor-rescue-abraham-from-the-guildhall-stables.png',
+  },
+  {
+    id: 'scenes-the-party-evacuates-civilians-aboard-the-third-ship',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-party-evacuates-civilians-aboard-the-third-ship.png',
+    repositoryPath:
+      'assets/images/content/scenes/the-party-evacuates-civilians-aboard-the-third-ship.png',
+  },
+  {
+    id: 'scenes-three-adventurers-win-a-cage-fight-to-the-death',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/three-adventurers-win-a-cage-fight-to-the-death.png',
+    repositoryPath:
+      'assets/images/content/scenes/three-adventurers-win-a-cage-fight-to-the-death.png',
+  },
+  {
+    id: 'scenes-the-survivors-sail-for-verdant-haven',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-survivors-sail-for-verdant-haven.png',
+    repositoryPath: 'assets/images/content/scenes/the-survivors-sail-for-verdant-haven.png',
   },
   {
     id: 'scenes-picking-up-swift-at-nimbus',
@@ -1469,7 +1920,998 @@ export const RESPONSIVE_IMAGE_SOURCES: readonly ResponsiveImageSource[] = [
     logicalSource: '/assets/handouts/book-of-gruumsh-page-4.jpg',
     repositoryPath: 'assets/images/handouts/book-of-gruumsh-page-4.png',
   },
+  {
+    id: 'novel-adventurers-guild-tattoo',
+    role: 'illustration',
+    logicalSource: '/assets/novel/adventurers-guild-tattoo.png',
+    repositoryPath: 'assets/images/content/novel/adventurers-guild-tattoo.png',
+  },
+  {
+    id: 'scenes-verdant-haven-houses-the-fairhaven-survivors',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/verdant-haven-houses-the-fairhaven-survivors.png',
+    repositoryPath: 'assets/images/content/scenes/verdant-haven-houses-the-fairhaven-survivors.png',
+  },
+  {
+    id: 'scenes-the-party-rescues-roberto-from-a-faceless-shadow',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-party-rescues-roberto-from-a-faceless-shadow.png',
+    repositoryPath:
+      'assets/images/content/scenes/the-party-rescues-roberto-from-a-faceless-shadow.png',
+  },
+  {
+    id: 'scenes-the-cursed-sword-decays-verdant-haven-forest',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-cursed-sword-decays-verdant-haven-forest.png',
+    repositoryPath: 'assets/images/content/scenes/the-cursed-sword-decays-verdant-haven-forest.png',
+  },
+  {
+    id: 'scenes-the-cursed-sword-breaks-verdant-haven-s-ward',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-cursed-sword-breaks-verdant-haven-s-ward.png',
+    repositoryPath: 'assets/images/content/scenes/the-cursed-sword-breaks-verdant-haven-s-ward.png',
+  },
+  {
+    id: 'scenes-roberto-s-maps-reveal-the-father-s-order-to-find-jim-alive',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/roberto-s-maps-reveal-the-father-s-order-to-find-jim-alive.png',
+    repositoryPath:
+      'assets/images/content/scenes/roberto-s-maps-reveal-the-father-s-order-to-find-jim-alive.png',
+  },
+  {
+    id: 'scenes-devan-interrogates-and-kills-roberto',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/devan-interrogates-and-kills-roberto.png',
+    repositoryPath: 'assets/images/content/scenes/devan-interrogates-and-kills-roberto.png',
+  },
+  {
+    id: 'scenes-light-sends-cassian-to-watch-over-the-party',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/light-sends-cassian-to-watch-over-the-party.png',
+    repositoryPath: 'assets/images/content/scenes/light-sends-cassian-to-watch-over-the-party.png',
+  },
+  {
+    id: 'scenes-the-party-sees-fairhaven-s-smoking-crater',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-party-sees-fairhaven-s-smoking-crater.png',
+    repositoryPath: 'assets/images/content/scenes/the-party-sees-fairhaven-s-smoking-crater.png',
+  },
+  {
+    id: 'scenes-the-cursed-sword-s-shadow-nearly-kills-jim',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-cursed-sword-s-shadow-nearly-kills-jim.png',
+    repositoryPath: 'assets/images/content/scenes/the-cursed-sword-s-shadow-nearly-kills-jim.png',
+  },
+  {
+    id: 'scenes-the-party-spots-an-unidentified-floating-island',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-party-spots-an-unidentified-floating-island.png',
+    repositoryPath:
+      'assets/images/content/scenes/the-party-spots-an-unidentified-floating-island.png',
+  },
+  {
+    id: 'scenes-the-party-meets-worshippers-of-the-12th-marshal',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-party-meets-worshippers-of-the-12th-marshal.png',
+    repositoryPath:
+      'assets/images/content/scenes/the-party-meets-worshippers-of-the-12th-marshal.png',
+  },
+  {
+    id: 'scenes-the-party-takes-the-mountain-elevator-down',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-party-takes-the-mountain-elevator-down.png',
+    repositoryPath: 'assets/images/content/scenes/the-party-takes-the-mountain-elevator-down.png',
+  },
+  {
+    id: 'scenes-the-elevator-opens-into-a-slave-mine',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-elevator-opens-into-a-slave-mine.png',
+    repositoryPath: 'assets/images/content/scenes/the-elevator-opens-into-a-slave-mine.png',
+  },
+  {
+    id: 'scenes-the-party-encounters-fix-s-potion-delivery',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-party-encounters-fix-s-potion-delivery.png',
+    repositoryPath: 'assets/images/content/scenes/the-party-encounters-fix-s-potion-delivery.png',
+  },
+  {
+    id: 'scenes-borris-welcomes-the-party-and-delivers-crowy',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/borris-welcomes-the-party-and-delivers-crowy.png',
+    repositoryPath: 'assets/images/content/scenes/borris-welcomes-the-party-and-delivers-crowy.png',
+  },
+  {
+    id: 'scenes-the-party-examines-crowy-s-contract',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-party-examines-crowy-s-contract.png',
+    repositoryPath: 'assets/images/content/scenes/the-party-examines-crowy-s-contract.png',
+  },
+  {
+    id: 'scenes-fix-delivers-potions-to-lord-malachar',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/fix-delivers-potions-to-lord-malachar.png',
+    repositoryPath: 'assets/images/content/scenes/fix-delivers-potions-to-lord-malachar.png',
+  },
+  {
+    id: 'scenes-two-dire-wolf-pups-are-stolen-from-the-stables',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/two-dire-wolf-pups-are-stolen-from-the-stables.png',
+    repositoryPath:
+      'assets/images/content/scenes/two-dire-wolf-pups-are-stolen-from-the-stables.png',
+  },
+  {
+    id: 'scenes-devan-buys-an-enslaved-child-s-freedom',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/devan-buys-an-enslaved-child-s-freedom.png',
+    repositoryPath: 'assets/images/content/scenes/devan-buys-an-enslaved-child-s-freedom.png',
+  },
+  {
+    id: 'scenes-devan-punches-the-foreman-and-starts-a-mine-fight',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/devan-punches-the-foreman-and-starts-a-mine-fight.png',
+    repositoryPath:
+      'assets/images/content/scenes/devan-punches-the-foreman-and-starts-a-mine-fight.png',
+  },
+  {
+    id: 'scenes-the-controlling-crystal-is-shattered',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-controlling-crystal-is-shattered.png',
+    repositoryPath: 'assets/images/content/scenes/the-controlling-crystal-is-shattered.png',
+  },
+  {
+    id: 'scenes-fix-dies-and-a-shadow-revives-her',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/fix-dies-and-a-shadow-revives-her.png',
+    repositoryPath: 'assets/images/content/scenes/fix-dies-and-a-shadow-revives-her.png',
+  },
+  {
+    id: 'scenes-abraham-s-cart-leads-the-escape',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/abraham-s-cart-leads-the-escape.png',
+    repositoryPath: 'assets/images/content/scenes/abraham-s-cart-leads-the-escape.png',
+  },
+  {
+    id: 'scenes-crowy-directs-the-party-toward-the-feywild',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/crowy-directs-the-party-toward-the-feywild.png',
+    repositoryPath: 'assets/images/content/scenes/crowy-directs-the-party-toward-the-feywild.png',
+  },
+  {
+    id: 'scenes-jim-buys-abraham-and-makes-him-a-promise',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/jim-buys-abraham-and-makes-him-a-promise.png',
+    repositoryPath: 'assets/images/content/scenes/jim-buys-abraham-and-makes-him-a-promise.png',
+  },
+  {
+    id: 'scenes-the-party-repairs-the-crater-bridge-beneath-an-approaching-shadow',
+    role: 'illustration',
+    logicalSource:
+      '/assets/scenes/the-party-repairs-the-crater-bridge-beneath-an-approaching-shadow.png',
+    repositoryPath:
+      'assets/images/content/scenes/the-party-repairs-the-crater-bridge-beneath-an-approaching-shadow.png',
+  },
+  {
+    id: 'scenes-sylvia-offers-the-party-passage-toward-the-feywild',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/sylvia-offers-the-party-passage-toward-the-feywild.png',
+    repositoryPath:
+      'assets/images/content/scenes/sylvia-offers-the-party-passage-toward-the-feywild.png',
+  },
+  {
+    id: 'scenes-the-party-boards-the-flying-whale',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-party-boards-the-flying-whale.png',
+    repositoryPath: 'assets/images/content/scenes/the-party-boards-the-flying-whale.png',
+  },
+  {
+    id: 'scenes-the-party-reunites-with-bob-the-merchant',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-party-reunites-with-bob-the-merchant.png',
+    repositoryPath: 'assets/images/content/scenes/the-party-reunites-with-bob-the-merchant.png',
+  },
+  {
+    id: 'scenes-bob-s-bargains-change-wolfie-and-bind-jim-to-a-contract',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/bob-s-bargains-change-wolfie-and-bind-jim-to-a-contract.png',
+    repositoryPath:
+      'assets/images/content/scenes/bob-s-bargains-change-wolfie-and-bind-jim-to-a-contract.png',
+  },
+  {
+    id: 'scenes-the-party-reunites-with-bessy-and-trades-equipment',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-party-reunites-with-bessy-and-trades-equipment.png',
+    repositoryPath:
+      'assets/images/content/scenes/the-party-reunites-with-bessy-and-trades-equipment.png',
+  },
+  {
+    id: 'scenes-alberto-warns-swift-against-returning-to-the-sea',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/alberto-warns-swift-against-returning-to-the-sea.png',
+    repositoryPath:
+      'assets/images/content/scenes/alberto-warns-swift-against-returning-to-the-sea.png',
+  },
+  {
+    id: 'scenes-sylvia-reveals-the-starblade-family-s-bloody-history',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/sylvia-reveals-the-starblade-family-s-bloody-history.png',
+    repositoryPath:
+      'assets/images/content/scenes/sylvia-reveals-the-starblade-family-s-bloody-history.png',
+  },
+  {
+    id: 'scenes-cassian-ruins-sylvia-s-caviar-and-works-off-the-damage',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/cassian-ruins-sylvia-s-caviar-and-works-off-the-damage.png',
+    repositoryPath:
+      'assets/images/content/scenes/cassian-ruins-sylvia-s-caviar-and-works-off-the-damage.png',
+  },
+  {
+    id: 'scenes-steve-awakens-as-a-magical-mace-of-returning',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/steve-awakens-as-a-magical-mace-of-returning.png',
+    repositoryPath: 'assets/images/content/scenes/steve-awakens-as-a-magical-mace-of-returning.png',
+  },
+  {
+    id: 'scenes-jim-poisons-forty-one-guests-and-is-fired-as-ship-s-cook',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/jim-poisons-forty-one-guests-and-is-fired-as-ship-s-cook.png',
+    repositoryPath:
+      'assets/images/content/scenes/jim-poisons-forty-one-guests-and-is-fired-as-ship-s-cook.png',
+  },
+  {
+    id: 'scenes-the-party-reaches-level-five',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-party-reaches-level-five.png',
+    repositoryPath: 'assets/images/content/scenes/the-party-reaches-level-five.png',
+  },
+  {
+    id: 'scenes-sylvia-sponsors-the-party-s-first-dungeon',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/sylvia-sponsors-the-party-s-first-dungeon.png',
+    repositoryPath: 'assets/images/content/scenes/sylvia-sponsors-the-party-s-first-dungeon.png',
+  },
+  {
+    id: 'scenes-cassian-discovers-his-ring-s-hunger',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/cassian-discovers-his-ring-s-hunger.png',
+    repositoryPath: 'assets/images/content/scenes/cassian-discovers-his-ring-s-hunger.png',
+  },
+  {
+    id: 'scenes-the-party-plays-three-rounds-with-the-fiddler',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-party-plays-three-rounds-with-the-fiddler.png',
+    repositoryPath:
+      'assets/images/content/scenes/the-party-plays-three-rounds-with-the-fiddler.png',
+  },
+  {
+    id: 'scenes-the-party-pays-the-fiddler-to-release-cassian',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-party-pays-the-fiddler-to-release-cassian.png',
+    repositoryPath:
+      'assets/images/content/scenes/the-party-pays-the-fiddler-to-release-cassian.png',
+  },
+  {
+    id: 'scenes-the-party-finds-cassian-in-the-lower-stables',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-party-finds-cassian-in-the-lower-stables.png',
+    repositoryPath: 'assets/images/content/scenes/the-party-finds-cassian-in-the-lower-stables.png',
+  },
+  {
+    id: 'scenes-cassian-reclaims-his-possessions-from-the-fiddler-s-table',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/cassian-reclaims-his-possessions-from-the-fiddler-s-table.png',
+    repositoryPath:
+      'assets/images/content/scenes/cassian-reclaims-his-possessions-from-the-fiddler-s-table.png',
+  },
+  {
+    id: 'scenes-cassian-buys-the-bag-of-holding-from-bob',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/cassian-buys-the-bag-of-holding-from-bob.png',
+    repositoryPath: 'assets/images/content/scenes/cassian-buys-the-bag-of-holding-from-bob.png',
+  },
+  {
+    id: 'scenes-bob-s-skeletal-appearance-triggers-a-final-warning',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/bob-s-skeletal-appearance-triggers-a-final-warning.png',
+    repositoryPath:
+      'assets/images/content/scenes/bob-s-skeletal-appearance-triggers-a-final-warning.png',
+  },
+  {
+    id: 'scenes-sir-fabulous-becomes-devan-s-divine-steed',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/sir-fabulous-becomes-devan-s-divine-steed.png',
+    repositoryPath: 'assets/images/content/scenes/sir-fabulous-becomes-devan-s-divine-steed.png',
+  },
+  {
+    id: 'scenes-the-party-arrives-on-nimbus',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-party-arrives-on-nimbus.png',
+    repositoryPath: 'assets/images/content/scenes/the-party-arrives-on-nimbus.png',
+  },
+  {
+    id: 'scenes-the-party-travels-from-nimbus-to-skynet',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-party-travels-from-nimbus-to-skynet.png',
+    repositoryPath: 'assets/images/content/scenes/the-party-travels-from-nimbus-to-skynet.png',
+  },
+  {
+    id: 'scenes-the-party-takes-rooms-sixty-feet-apart',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-party-takes-rooms-sixty-feet-apart.png',
+    repositoryPath: 'assets/images/content/scenes/the-party-takes-rooms-sixty-feet-apart.png',
+  },
+  {
+    id: 'scenes-jim-finds-the-jaded-amulet-in-a-pie',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/jim-finds-the-jaded-amulet-in-a-pie.png',
+    repositoryPath: 'assets/images/content/scenes/jim-finds-the-jaded-amulet-in-a-pie.png',
+  },
+  {
+    id: 'scenes-the-eyeless-hand-reveals-it-can-still-find-jim',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-eyeless-hand-reveals-it-can-still-find-jim.png',
+    repositoryPath:
+      'assets/images/content/scenes/the-eyeless-hand-reveals-it-can-still-find-jim.png',
+  },
+  {
+    id: 'scenes-jim-s-lightning-curse-reveals-his-human-identity',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/jim-s-lightning-curse-reveals-his-human-identity.png',
+    repositoryPath:
+      'assets/images/content/scenes/jim-s-lightning-curse-reveals-his-human-identity.png',
+  },
+  {
+    id: 'scenes-crowy-becomes-the-bird-of-gluttony',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/crowy-becomes-the-bird-of-gluttony.png',
+    repositoryPath: 'assets/images/content/scenes/crowy-becomes-the-bird-of-gluttony.png',
+  },
+  {
+    id: 'scenes-the-party-prepares-for-its-first-dungeon',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-party-prepares-for-its-first-dungeon.png',
+    repositoryPath: 'assets/images/content/scenes/the-party-prepares-for-its-first-dungeon.png',
+  },
+  {
+    id: 'scenes-the-party-presents-the-dungeon-pass-at-the-serpent-eclipse-entrance',
+    role: 'illustration',
+    logicalSource:
+      '/assets/scenes/the-party-presents-the-dungeon-pass-at-the-serpent-eclipse-entrance.png',
+    repositoryPath:
+      'assets/images/content/scenes/the-party-presents-the-dungeon-pass-at-the-serpent-eclipse-entrance.png',
+  },
+  {
+    id: 'scenes-the-serpent-eclipse-attendants-brief-the-party',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-serpent-eclipse-attendants-brief-the-party.png',
+    repositoryPath:
+      'assets/images/content/scenes/the-serpent-eclipse-attendants-brief-the-party.png',
+  },
+  {
+    id: 'scenes-the-party-chooses-the-left-door-at-the-blood-fed-altar',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-party-chooses-the-left-door-at-the-blood-fed-altar.png',
+    repositoryPath:
+      'assets/images/content/scenes/the-party-chooses-the-left-door-at-the-blood-fed-altar.png',
+  },
+  {
+    id: 'scenes-the-party-crosses-the-silenced-left-door-passage',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-party-crosses-the-silenced-left-door-passage.png',
+    repositoryPath:
+      'assets/images/content/scenes/the-party-crosses-the-silenced-left-door-passage.png',
+  },
+  {
+    id: 'scenes-the-party-survives-the-serpent-eclipse-shadow-arena',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-party-survives-the-serpent-eclipse-shadow-arena.png',
+    repositoryPath:
+      'assets/images/content/scenes/the-party-survives-the-serpent-eclipse-shadow-arena.png',
+  },
+  {
+    id: 'scenes-the-dragon-horn-becomes-the-serpent-eclipse-trial-disk',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-dragon-horn-becomes-the-serpent-eclipse-trial-disk.png',
+    repositoryPath:
+      'assets/images/content/scenes/the-dragon-horn-becomes-the-serpent-eclipse-trial-disk.png',
+  },
+  {
+    id: 'scenes-the-party-returns-to-the-serpent-eclipse-reception-hall',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-party-returns-to-the-serpent-eclipse-reception-hall.png',
+    repositoryPath:
+      'assets/images/content/scenes/the-party-returns-to-the-serpent-eclipse-reception-hall.png',
+  },
+  {
+    id: 'scenes-devan-brings-the-party-to-the-gruumsh-war-temple',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/devan-brings-the-party-to-the-gruumsh-war-temple.png',
+    repositoryPath:
+      'assets/images/content/scenes/devan-brings-the-party-to-the-gruumsh-war-temple.png',
+  },
+  {
+    id: 'scenes-the-high-priest-removes-cassian-s-curse',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-high-priest-removes-cassian-s-curse.png',
+    repositoryPath: 'assets/images/content/scenes/the-high-priest-removes-cassian-s-curse.png',
+  },
+  {
+    id: 'scenes-the-high-priest-frees-jim-from-pain-and-cleanses-the-shadow-sword',
+    role: 'illustration',
+    logicalSource:
+      '/assets/scenes/the-high-priest-frees-jim-from-pain-and-cleanses-the-shadow-sword.png',
+    repositoryPath:
+      'assets/images/content/scenes/the-high-priest-frees-jim-from-pain-and-cleanses-the-shadow-sword.png',
+  },
+  {
+    id: 'scenes-the-party-feasts-in-the-gruumsh-temple-blood-hall',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-party-feasts-in-the-gruumsh-temple-blood-hall.png',
+    repositoryPath:
+      'assets/images/content/scenes/the-party-feasts-in-the-gruumsh-temple-blood-hall.png',
+  },
+  {
+    id: 'scenes-cassian-learns-the-ring-is-turning-him-into-a-werewolf',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/cassian-learns-the-ring-is-turning-him-into-a-werewolf.png',
+    repositoryPath:
+      'assets/images/content/scenes/cassian-learns-the-ring-is-turning-him-into-a-werewolf.png',
+  },
+  {
+    id: 'scenes-jim-wakes-to-another-lightning-strike',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/jim-wakes-to-another-lightning-strike.png',
+    repositoryPath: 'assets/images/content/scenes/jim-wakes-to-another-lightning-strike.png',
+  },
+  {
+    id: 'scenes-swift-summons-a-rainbow-parrot',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/swift-summons-a-rainbow-parrot.png',
+    repositoryPath: 'assets/images/content/scenes/swift-summons-a-rainbow-parrot.png',
+  },
+  {
+    id: 'scenes-cassian-tests-his-luck-with-cheesecake',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/cassian-tests-his-luck-with-cheesecake.png',
+    repositoryPath: 'assets/images/content/scenes/cassian-tests-his-luck-with-cheesecake.png',
+  },
+  {
+    id: 'scenes-cassian-understands-wolfie',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/cassian-understands-wolfie.png',
+    repositoryPath: 'assets/images/content/scenes/cassian-understands-wolfie.png',
+  },
+  {
+    id: 'scenes-the-party-passes-the-dungeon-memorial',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-party-passes-the-dungeon-memorial.png',
+    repositoryPath: 'assets/images/content/scenes/the-party-passes-the-dungeon-memorial.png',
+  },
+  {
+    id: 'scenes-the-trial-disk-closes-the-first-door',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-trial-disk-closes-the-first-door.png',
+    repositoryPath: 'assets/images/content/scenes/the-trial-disk-closes-the-first-door.png',
+  },
+  {
+    id: 'scenes-jim-eats-a-golden-apple-and-cannot-stop',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/jim-eats-a-golden-apple-and-cannot-stop.png',
+    repositoryPath: 'assets/images/content/scenes/jim-eats-a-golden-apple-and-cannot-stop.png',
+  },
+  {
+    id: 'scenes-fire-earth-and-wind-open-the-maze-passage',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/fire-earth-and-wind-open-the-maze-passage.png',
+    repositoryPath: 'assets/images/content/scenes/fire-earth-and-wind-open-the-maze-passage.png',
+  },
+  {
+    id: 'scenes-a-safety-rope-saves-swift-when-the-vine-breaks',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/a-safety-rope-saves-swift-when-the-vine-breaks.png',
+    repositoryPath:
+      'assets/images/content/scenes/a-safety-rope-saves-swift-when-the-vine-breaks.png',
+  },
+  {
+    id: 'scenes-the-lake-serpent-disrupts-the-crossing',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-lake-serpent-disrupts-the-crossing.png',
+    repositoryPath: 'assets/images/content/scenes/the-lake-serpent-disrupts-the-crossing.png',
+  },
+  {
+    id: 'scenes-jim-briefly-incapacitates-the-serpent',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/jim-briefly-incapacitates-the-serpent.png',
+    repositoryPath: 'assets/images/content/scenes/jim-briefly-incapacitates-the-serpent.png',
+  },
+  {
+    id: 'scenes-the-birds-help-the-party-escape-the-serpent',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-birds-help-the-party-escape-the-serpent.png',
+    repositoryPath: 'assets/images/content/scenes/the-birds-help-the-party-escape-the-serpent.png',
+  },
+  {
+    id: 'scenes-devan-seals-the-serpent-behind-a-rockfall',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/devan-seals-the-serpent-behind-a-rockfall.png',
+    repositoryPath: 'assets/images/content/scenes/devan-seals-the-serpent-behind-a-rockfall.png',
+  },
+  {
+    id: 'scenes-the-party-takes-a-short-rest-beyond-the-serpent-pool',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-party-takes-a-short-rest-beyond-the-serpent-pool.png',
+    repositoryPath:
+      'assets/images/content/scenes/the-party-takes-a-short-rest-beyond-the-serpent-pool.png',
+  },
+  {
+    id: 'scenes-the-party-carries-the-sleeping-cassian-in-the-bag-of-holding',
+    role: 'illustration',
+    logicalSource:
+      '/assets/scenes/the-party-carries-the-sleeping-cassian-in-the-bag-of-holding.png',
+    repositoryPath:
+      'assets/images/content/scenes/the-party-carries-the-sleeping-cassian-in-the-bag-of-holding.png',
+  },
+  {
+    id: 'scenes-the-party-chooses-the-anti-magic-passage',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-party-chooses-the-anti-magic-passage.png',
+    repositoryPath: 'assets/images/content/scenes/the-party-chooses-the-anti-magic-passage.png',
+  },
+  {
+    id: 'scenes-dax-explains-how-the-dungeon-feeds-on-souls',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/dax-explains-how-the-dungeon-feeds-on-souls.png',
+    repositoryPath: 'assets/images/content/scenes/dax-explains-how-the-dungeon-feeds-on-souls.png',
+  },
+  {
+    id: 'scenes-the-party-breaks-the-crystal-and-wakes-sarogarth',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-party-breaks-the-crystal-and-wakes-sarogarth.png',
+    repositoryPath:
+      'assets/images/content/scenes/the-party-breaks-the-crystal-and-wakes-sarogarth.png',
+  },
+  {
+    id: 'scenes-jim-survives-the-zodiac-dagger-and-rejects-a-soul-bargain',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/jim-survives-the-zodiac-dagger-and-rejects-a-soul-bargain.png',
+    repositoryPath:
+      'assets/images/content/scenes/jim-survives-the-zodiac-dagger-and-rejects-a-soul-bargain.png',
+  },
+  {
+    id: 'scenes-sarogarth-opens-a-portal-back-to-the-altar',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/sarogarth-opens-a-portal-back-to-the-altar.png',
+    repositoryPath: 'assets/images/content/scenes/sarogarth-opens-a-portal-back-to-the-altar.png',
+  },
+  {
+    id: 'scenes-the-party-kills-the-dungeon-and-escapes-with-the-green-rod',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-party-kills-the-dungeon-and-escapes-with-the-green-rod.png',
+    repositoryPath:
+      'assets/images/content/scenes/the-party-kills-the-dungeon-and-escapes-with-the-green-rod.png',
+  },
+  {
+    id: 'scenes-sarogarth-entrusts-grimgor-relics-to-devan',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/sarogarth-entrusts-grimgor-relics-to-devan.png',
+    repositoryPath: 'assets/images/content/scenes/sarogarth-entrusts-grimgor-relics-to-devan.png',
+  },
+  {
+    id: 'scenes-devan-becomes-a-wandering-priest-and-meets-grimgor',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/devan-becomes-a-wandering-priest-and-meets-grimgor.png',
+    repositoryPath:
+      'assets/images/content/scenes/devan-becomes-a-wandering-priest-and-meets-grimgor.png',
+  },
+  {
+    id: 'scenes-the-party-gives-sarogarth-a-room-at-the-inn',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-party-gives-sarogarth-a-room-at-the-inn.png',
+    repositoryPath: 'assets/images/content/scenes/the-party-gives-sarogarth-a-room-at-the-inn.png',
+  },
+  {
+    id: 'scenes-swift-resummons-captain-squawk-after-the-dungeon',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/swift-resummons-captain-squawk-after-the-dungeon.png',
+    repositoryPath:
+      'assets/images/content/scenes/swift-resummons-captain-squawk-after-the-dungeon.png',
+  },
+  {
+    id: 'scenes-the-green-rod-protects-jim-from-the-morning-lightning',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-green-rod-protects-jim-from-the-morning-lightning.png',
+    repositoryPath:
+      'assets/images/content/scenes/the-green-rod-protects-jim-from-the-morning-lightning.png',
+  },
+  {
+    id: 'scenes-sarogarth-corrects-devan-s-holy-text',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/sarogarth-corrects-devan-s-holy-text.png',
+    repositoryPath: 'assets/images/content/scenes/sarogarth-corrects-devan-s-holy-text.png',
+  },
+  {
+    id: 'scenes-jim-retrieves-the-shadow-sword-after-the-temple-departs',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/jim-retrieves-the-shadow-sword-after-the-temple-departs.png',
+    repositoryPath:
+      'assets/images/content/scenes/jim-retrieves-the-shadow-sword-after-the-temple-departs.png',
+  },
+  {
+    id: 'scenes-the-party-plans-a-crossroads-ritual-for-swift-s-broom',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-party-plans-a-crossroads-ritual-for-swift-s-broom.png',
+    repositoryPath:
+      'assets/images/content/scenes/the-party-plans-a-crossroads-ritual-for-swift-s-broom.png',
+  },
+  {
+    id: 'scenes-the-party-prepares-to-travel-to-tempest-with-sarogarth',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-party-prepares-to-travel-to-tempest-with-sarogarth.png',
+    repositoryPath:
+      'assets/images/content/scenes/the-party-prepares-to-travel-to-tempest-with-sarogarth.png',
+  },
+  {
+    id: 'scenes-cassian-returns-from-the-bag-of-holding',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/cassian-returns-from-the-bag-of-holding.png',
+    repositoryPath: 'assets/images/content/scenes/cassian-returns-from-the-bag-of-holding.png',
+  },
+  {
+    id: 'scenes-the-broom-ritual-calls-for-the-heart-of-an-innocent',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-broom-ritual-calls-for-the-heart-of-an-innocent.png',
+    repositoryPath:
+      'assets/images/content/scenes/the-broom-ritual-calls-for-the-heart-of-an-innocent.png',
+  },
+  {
+    id: 'scenes-an-armed-escort-summons-the-party-to-tempest',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/an-armed-escort-summons-the-party-to-tempest.png',
+    repositoryPath: 'assets/images/content/scenes/an-armed-escort-summons-the-party-to-tempest.png',
+  },
+  {
+    id: 'scenes-a-drake-carriage-carries-the-party-to-tempest',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/a-drake-carriage-carries-the-party-to-tempest.png',
+    repositoryPath:
+      'assets/images/content/scenes/a-drake-carriage-carries-the-party-to-tempest.png',
+  },
+  {
+    id: 'scenes-the-party-breakfasts-at-onana-tempest-s-estate',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-party-breakfasts-at-onana-tempest-s-estate.png',
+    repositoryPath:
+      'assets/images/content/scenes/the-party-breakfasts-at-onana-tempest-s-estate.png',
+  },
+  {
+    id: 'scenes-onana-rewards-the-party-and-forbids-further-dungeon-deaths',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/onana-rewards-the-party-and-forbids-further-dungeon-deaths.png',
+    repositoryPath:
+      'assets/images/content/scenes/onana-rewards-the-party-and-forbids-further-dungeon-deaths.png',
+  },
+  {
+    id: 'scenes-onana-offers-cheaper-lodging-and-pays-the-inn-bill',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/onana-offers-cheaper-lodging-and-pays-the-inn-bill.png',
+    repositoryPath:
+      'assets/images/content/scenes/onana-offers-cheaper-lodging-and-pays-the-inn-bill.png',
+  },
+  {
+    id: 'scenes-onana-describes-the-tempest-family-and-debt-slavery',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/onana-describes-the-tempest-family-and-debt-slavery.png',
+    repositoryPath:
+      'assets/images/content/scenes/onana-describes-the-tempest-family-and-debt-slavery.png',
+  },
+  {
+    id: 'scenes-sarogarth-opens-a-portal-back-to-skynet',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/sarogarth-opens-a-portal-back-to-skynet.png',
+    repositoryPath: 'assets/images/content/scenes/sarogarth-opens-a-portal-back-to-skynet.png',
+  },
+  {
+    id: 'scenes-the-party-helps-sarogarth-sell-an-ancient-coin',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-party-helps-sarogarth-sell-an-ancient-coin.png',
+    repositoryPath:
+      'assets/images/content/scenes/the-party-helps-sarogarth-sell-an-ancient-coin.png',
+  },
+  {
+    id: 'scenes-cassian-buys-a-protective-cloak-and-a-spell-storing-ring',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/cassian-buys-a-protective-cloak-and-a-spell-storing-ring.png',
+    repositoryPath:
+      'assets/images/content/scenes/cassian-buys-a-protective-cloak-and-a-spell-storing-ring.png',
+  },
+  {
+    id: 'scenes-the-party-connects-the-fiddler-s-questions-to-their-future',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-party-connects-the-fiddler-s-questions-to-their-future.png',
+    repositoryPath:
+      'assets/images/content/scenes/the-party-connects-the-fiddler-s-questions-to-their-future.png',
+  },
+  {
+    id: 'scenes-sarogarth-s-tracking-ritual-produces-two-smoke-trails',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/sarogarth-s-tracking-ritual-produces-two-smoke-trails.png',
+    repositoryPath:
+      'assets/images/content/scenes/sarogarth-s-tracking-ritual-produces-two-smoke-trails.png',
+  },
+  {
+    id: 'scenes-the-party-commissions-an-airship-for-gold-and-two-favors',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-party-commissions-an-airship-for-gold-and-two-favors.png',
+    repositoryPath:
+      'assets/images/content/scenes/the-party-commissions-an-airship-for-gold-and-two-favors.png',
+  },
+  {
+    id: 'scenes-the-shipwright-explains-the-ents-final-voyages',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-shipwright-explains-the-ents-final-voyages.png',
+    repositoryPath:
+      'assets/images/content/scenes/the-shipwright-explains-the-ents-final-voyages.png',
+  },
+  {
+    id: 'scenes-jim-talks-with-an-old-holly-ent',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/jim-talks-with-an-old-holly-ent.png',
+    repositoryPath: 'assets/images/content/scenes/jim-talks-with-an-old-holly-ent.png',
+  },
+  {
+    id: 'scenes-the-shipwright-describes-grievances-against-the-tempests',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-shipwright-describes-grievances-against-the-tempests.png',
+    repositoryPath:
+      'assets/images/content/scenes/the-shipwright-describes-grievances-against-the-tempests.png',
+  },
+  {
+    id: 'scenes-cassian-proposes-seeking-onana-s-backing',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/cassian-proposes-seeking-onana-s-backing.png',
+    repositoryPath: 'assets/images/content/scenes/cassian-proposes-seeking-onana-s-backing.png',
+  },
+  {
+    id: 'scenes-a-local-gang-describes-the-tempest-siblings',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/a-local-gang-describes-the-tempest-siblings.png',
+    repositoryPath: 'assets/images/content/scenes/a-local-gang-describes-the-tempest-siblings.png',
+  },
+  {
+    id: 'scenes-the-gang-tells-the-party-about-barbara',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-gang-tells-the-party-about-barbara.png',
+    repositoryPath: 'assets/images/content/scenes/the-gang-tells-the-party-about-barbara.png',
+  },
+  {
+    id: 'scenes-the-party-follows-the-smoke-back-to-nimbus',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-party-follows-the-smoke-back-to-nimbus.png',
+    repositoryPath: 'assets/images/content/scenes/the-party-follows-the-smoke-back-to-nimbus.png',
+  },
+  {
+    id: 'scenes-borris-welcomes-the-party-to-his-nimbus-casino',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/borris-welcomes-the-party-to-his-nimbus-casino.png',
+    repositoryPath:
+      'assets/images/content/scenes/borris-welcomes-the-party-to-his-nimbus-casino.png',
+  },
+  {
+    id: 'scenes-cassian-and-swift-rig-roulette-and-gain-vip-access',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/cassian-and-swift-rig-roulette-and-gain-vip-access.png',
+    repositoryPath:
+      'assets/images/content/scenes/cassian-and-swift-rig-roulette-and-gain-vip-access.png',
+  },
+  {
+    id: 'scenes-the-party-stakes-another-game-with-the-fiddler',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-party-stakes-another-game-with-the-fiddler.png',
+    repositoryPath:
+      'assets/images/content/scenes/the-party-stakes-another-game-with-the-fiddler.png',
+  },
+  {
+    id: 'scenes-the-first-draws-bring-flight-hunger-whispers-and-a-cloak',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-first-draws-bring-flight-hunger-whispers-and-a-cloak.png',
+    repositoryPath:
+      'assets/images/content/scenes/the-first-draws-bring-flight-hunger-whispers-and-a-cloak.png',
+  },
+  {
+    id: 'scenes-jim-draws-cage-vessel-and-voidwalker',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/jim-draws-cage-vessel-and-voidwalker.png',
+    repositoryPath: 'assets/images/content/scenes/jim-draws-cage-vessel-and-voidwalker.png',
+  },
+  {
+    id: 'scenes-swift-gains-the-mask-card',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/swift-gains-the-mask-card.png',
+    repositoryPath: 'assets/images/content/scenes/swift-gains-the-mask-card.png',
+  },
+  {
+    id: 'scenes-cassian-loses-his-magic-items-and-wins-a-treasure-chest',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/cassian-loses-his-magic-items-and-wins-a-treasure-chest.png',
+    repositoryPath:
+      'assets/images/content/scenes/cassian-loses-his-magic-items-and-wins-a-treasure-chest.png',
+  },
+  {
+    id: 'scenes-devan-buys-cassian-a-replacement-bag-for-the-winnings',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/devan-buys-cassian-a-replacement-bag-for-the-winnings.png',
+    repositoryPath:
+      'assets/images/content/scenes/devan-buys-cassian-a-replacement-bag-for-the-winnings.png',
+  },
+  {
+    id: 'scenes-sarogarth-draws-permanent-blight-and-loses-an-attunement-slot',
+    role: 'illustration',
+    logicalSource:
+      '/assets/scenes/sarogarth-draws-permanent-blight-and-loses-an-attunement-slot.png',
+    repositoryPath:
+      'assets/images/content/scenes/sarogarth-draws-permanent-blight-and-loses-an-attunement-slot.png',
+  },
+  {
+    id: 'scenes-the-fiddler-gains-a-knight-and-survives-the-avatar-of-death',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-fiddler-gains-a-knight-and-survives-the-avatar-of-death.png',
+    repositoryPath:
+      'assets/images/content/scenes/the-fiddler-gains-a-knight-and-survives-the-avatar-of-death.png',
+  },
+  {
+    id: 'scenes-cassian-pays-to-remove-jim-s-confinement-and-lightning-storm',
+    role: 'illustration',
+    logicalSource:
+      '/assets/scenes/cassian-pays-to-remove-jim-s-confinement-and-lightning-storm.png',
+    repositoryPath:
+      'assets/images/content/scenes/cassian-pays-to-remove-jim-s-confinement-and-lightning-storm.png',
+  },
+  {
+    id: 'scenes-jim-loses-his-amulet-and-sarogarth-loses-sylf',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/jim-loses-his-amulet-and-sarogarth-loses-sylf.png',
+    repositoryPath:
+      'assets/images/content/scenes/jim-loses-his-amulet-and-sarogarth-loses-sylf.png',
+  },
+  {
+    id: 'scenes-the-fiddler-leaves-more-hints-about-jim-s-future',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-fiddler-leaves-more-hints-about-jim-s-future.png',
+    repositoryPath:
+      'assets/images/content/scenes/the-fiddler-leaves-more-hints-about-jim-s-future.png',
+  },
+  {
+    id: 'scenes-devan-reports-a-southern-direction-beyond-nimbus',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/devan-reports-a-southern-direction-beyond-nimbus.png',
+    repositoryPath:
+      'assets/images/content/scenes/devan-reports-a-southern-direction-beyond-nimbus.png',
+  },
+  {
+    id: 'scenes-stefanio-tests-a-spirit-cannon-on-jim',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/stefanio-tests-a-spirit-cannon-on-jim.png',
+    repositoryPath: 'assets/images/content/scenes/stefanio-tests-a-spirit-cannon-on-jim.png',
+  },
+  {
+    id: 'scenes-cassian-funds-devan-s-new-armour-from-bessy',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/cassian-funds-devan-s-new-armour-from-bessy.png',
+    repositoryPath: 'assets/images/content/scenes/cassian-funds-devan-s-new-armour-from-bessy.png',
+  },
+  {
+    id: 'scenes-cassian-replaces-the-meat-and-buys-ritual-goats',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/cassian-replaces-the-meat-and-buys-ritual-goats.png',
+    repositoryPath:
+      'assets/images/content/scenes/cassian-replaces-the-meat-and-buys-ritual-goats.png',
+  },
+  {
+    id: 'scenes-the-second-smoke-trail-points-to-the-flying-fortress-and-the-party-splits',
+    role: 'illustration',
+    logicalSource:
+      '/assets/scenes/the-second-smoke-trail-points-to-the-flying-fortress-and-the-party-splits.png',
+    repositoryPath:
+      'assets/images/content/scenes/the-second-smoke-trail-points-to-the-flying-fortress-and-the-party-splits.png',
+  },
+  {
+    id: 'scenes-cassian-and-devan-find-wolfie-walking-and-talking',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/cassian-and-devan-find-wolfie-walking-and-talking.png',
+    repositoryPath:
+      'assets/images/content/scenes/cassian-and-devan-find-wolfie-walking-and-talking.png',
+  },
+  {
+    id: 'scenes-the-fortress-pulse-breaks-bonds-with-jim-novel',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-fortress-pulse-breaks-bonds-with-jim-novel.png',
+    repositoryPath:
+      'assets/images/content/scenes/the-fortress-pulse-breaks-bonds-with-jim-novel.png',
+  },
+  {
+    id: 'scenes-silas-offers-swift-a-place-in-the-eyeless-hand',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/silas-offers-swift-a-place-in-the-eyeless-hand.png',
+    repositoryPath:
+      'assets/images/content/scenes/silas-offers-swift-a-place-in-the-eyeless-hand.png',
+  },
+  {
+    id: 'scenes-jim-disappears-in-the-second-fortress-beam',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/jim-disappears-in-the-second-fortress-beam.png',
+    repositoryPath: 'assets/images/content/scenes/jim-disappears-in-the-second-fortress-beam.png',
+  },
+  {
+    id: 'scenes-swift-retrieves-jim-s-pages-and-weapons',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/swift-retrieves-jim-s-pages-and-weapons.png',
+    repositoryPath: 'assets/images/content/scenes/swift-retrieves-jim-s-pages-and-weapons.png',
+  },
+  {
+    id: 'scenes-devan-and-cassian-ride-to-the-crowded-ferry-landing-novel',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/devan-and-cassian-ride-to-the-crowded-ferry-landing-novel.png',
+    repositoryPath:
+      'assets/images/content/scenes/devan-and-cassian-ride-to-the-crowded-ferry-landing-novel.png',
+  },
+  {
+    id: 'scenes-the-party-reunites-and-helps-rescue-nimbus-residents-novel',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-party-reunites-and-helps-rescue-nimbus-residents-novel.png',
+    repositoryPath:
+      'assets/images/content/scenes/the-party-reunites-and-helps-rescue-nimbus-residents-novel.png',
+  },
+  {
+    id: 'scenes-auren-accepts-the-zodiac-dagger',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/auren-accepts-the-zodiac-dagger.png',
+    repositoryPath: 'assets/images/content/scenes/auren-accepts-the-zodiac-dagger.png',
+  },
+  {
+    id: 'scenes-the-party-decodes-jim-s-farewell-and-warning-about-light',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-party-decodes-jim-s-farewell-and-warning-about-light.png',
+    repositoryPath:
+      'assets/images/content/scenes/the-party-decodes-jim-s-farewell-and-warning-about-light.png',
+  },
+  {
+    id: 'scenes-auren-explains-how-the-hand-s-records-led-him-to-jim',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/auren-explains-how-the-hand-s-records-led-him-to-jim.png',
+    repositoryPath:
+      'assets/images/content/scenes/auren-explains-how-the-hand-s-records-led-him-to-jim.png',
+  },
+  {
+    id: 'scenes-onana-questions-the-party-aboard-master-of-puppets-novel',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/onana-questions-the-party-aboard-master-of-puppets-novel.png',
+    repositoryPath:
+      'assets/images/content/scenes/onana-questions-the-party-aboard-master-of-puppets-novel.png',
+  },
+  {
+    id: 'scenes-onana-sends-the-party-to-recover-ride-the-lightning',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/onana-sends-the-party-to-recover-ride-the-lightning.png',
+    repositoryPath:
+      'assets/images/content/scenes/onana-sends-the-party-to-recover-ride-the-lightning.png',
+  },
+  {
+    id: 'scenes-the-party-boards-ride-the-lightning-through-two-entry-rooms-novel',
+    role: 'illustration',
+    logicalSource:
+      '/assets/scenes/the-party-boards-ride-the-lightning-through-two-entry-rooms-novel.png',
+    repositoryPath:
+      'assets/images/content/scenes/the-party-boards-ride-the-lightning-through-two-entry-rooms-novel.png',
+  },
+  {
+    id: 'scenes-the-party-clears-ride-the-lightning-s-boarding-rooms',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-party-clears-ride-the-lightning-s-boarding-rooms.png',
+    repositoryPath:
+      'assets/images/content/scenes/the-party-clears-ride-the-lightning-s-boarding-rooms.png',
+  },
 ]
+
+export const RESPONSIVE_IMAGE_SOURCES = ORIGINAL_IMAGE_SOURCES.filter((source) => !source.archived)
 
 const SOURCE_BY_LOGICAL_PATH = new Map(
   RESPONSIVE_IMAGE_SOURCES.map((source) => [source.logicalSource, source]),

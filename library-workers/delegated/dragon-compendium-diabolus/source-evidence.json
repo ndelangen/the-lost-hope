@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Diabolus",
+    "kind": "species",
+    "publication": "Dragon Compendium, Volume I (2005)",
+    "edition": "3.5 edition",
+    "book": "Dragon Compendium, Volume I",
+    "authors": [
+      "Mike McArtor (Diabolus article)"
+    ],
+    "editor": "Mike McArtor",
+    "publisher": "Paizo Publishing",
+    "firstPrinting": "October 2005",
+    "isbn": "0-9770071-4-6",
+    "printedPages": {
+      "playableSpecies": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "racialTraits": 10,
+      "tailCode": [
+        8,
+        9
+      ],
+      "illustration": [
+        8,
+        9
+      ]
+    },
+    "pdfPageOffset": 4,
+    "primaryBookScan": "",
+    "primaryBookSha256": "58d2b16e59dd48778cdc8367ae6f87fbd42aab66e76870010a7d8f32597d9d15",
+    "earlierPlayablePrinting": {
+      "publication": "Dragon #327",
+      "author": "Mike McArtor",
+      "release": "January 2005",
+      "printedPages": [
+        62,
+        63,
+        64,
+        65
+      ],
+      "pdfPageOffset": 0,
+      "url": "",
+      "sha256": "a8c57a75624c8d16d95ff0bf1877adb6afd1b4c36f67cfee4fe70516e70cf1a8"
+    },
+    "officialErrataArchive": "",
+    "errataSha256": "464458b024d0c68ae2d38bcb328bb67f3a5ef7a93a050cf7822f9770f2c77900",
+    "printedArtCredit": "Niklas Jannsen, Diabolus full-body illustration, p. 9.",
+    "sourceDistinctions": [
+      "The January 2005 article is the earlier playable 3.5 printing. The October Compendium adds level adjustment +1 and a daily tail poison dose count.",
+      "The original magazine explicitly exempts dealings with other Diaboli from its described skill adjustments. That qualifier is absent from the Compendium profile.",
+      "The staged builds use the Compendium rules. Native Outsider and Chaotic subtype are distinct from the characters’ actual alignment."
+    ],
+    "entryId": "species-e23787a7b61a2b1c63a49f5c",
+    "versionKey": "a8cd9b208091cf8ccbb5412c",
+    "slug": "diabolus",
+    "portraitSelection": "generated",
+    "portraitForm": "Zareth Flintmere, an original Diabolus Fighter",
+    "npcExamples": [
+      "Zareth Flintmere",
+      "Vessa Nettle"
+    ]
+  }
+]

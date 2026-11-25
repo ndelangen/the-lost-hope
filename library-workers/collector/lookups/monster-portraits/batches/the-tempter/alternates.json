@@ -1,0 +1,24 @@
+[
+  {
+    "entityKind": "monster",
+    "name": "Banshee (Lady Marilena Fidatov)",
+    "publication": "DDAL04-09 - The Tempter",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/banshee-lady-marilena-fidatov/marilena-nonvmx-igpy.jpg",
+    "artist": "Fan portrait of Lady Marilena by nonvmx, edited by Igpy",
+    "kind": "illustration",
+    "sha256": "687980ab8b24be9eca5d3e32ee2e4ca4a63b36124793eff434111510d43e26db",
+    "reference": "https://www.worldanvil.com/w/suicide-strahd-dmigp/a/lady-marilena-fidatov-person"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Banshee (Lady Marilena Fidatov)",
+    "publication": "DDAL04-09 - The Tempter",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/banshee-lady-marilena-fidatov/banshee-2014-tomas-giorello.webp",
+    "artist": "Base creature art: Banshee by Tomas Giorello · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "0218f180e05d1e65d216c6ed2d92862e92df1a0a7df7dff2e641ee6241395410",
+    "reference": "https://www.dndbeyond.com/monsters/17089-banshee"
+  }
+]

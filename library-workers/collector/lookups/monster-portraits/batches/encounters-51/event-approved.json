@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Human Brawler",
+    "slug": "human-brawler",
+    "id": "monster-e6c2865f9ce96e4e63f4e5b0:304af7e644d3f752ead79679",
+    "entry": "monster-e6c2865f9ce96e4e63f4e5b0",
+    "version": "304af7e644d3f752ead79679",
+    "suffix": "encounters-51/human-brawler.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-51/human-brawler.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-51/event-drafts/human-brawler-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 51 2026-11-23/event-drafts/human-brawler-event-v1.png",
+    "overrides": [],
+    "sha256": "ae22bc02b71bfa6ce0702929a9509163d8db173dcb74fa3cf5298d47179da799",
+    "bytes": 2281656
+  },
+  {
+    "name": "Human Storm Wizard",
+    "slug": "human-storm-wizard",
+    "id": "monster-a5544cf0b59339f0ef15df2b:dcdca09eac8a72f4bad308e6",
+    "entry": "monster-a5544cf0b59339f0ef15df2b",
+    "version": "dcdca09eac8a72f4bad308e6",
+    "suffix": "encounters-51/human-storm-wizard.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-51/human-storm-wizard.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-51/event-drafts/human-storm-wizard-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 51 2026-11-23/event-drafts/human-storm-wizard-event-v1.png",
+    "overrides": [],
+    "sha256": "6df0e652aa8ee5345bab1942543c49029a8ac2325a71a8ee55cb8b1fa0a94cf7",
+    "bytes": 2601376
+  }
+]

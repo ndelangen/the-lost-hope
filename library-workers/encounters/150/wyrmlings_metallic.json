@@ -1,0 +1,295 @@
+[
+  {
+    "name": "Brass Dragon Wyrmling",
+    "statBlock": {
+      "name": "Brass Dragon Wyrmling",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium dragon, chaotic good",
+      "ac": 16,
+      "hp": 16,
+      "hitDice": "3d8 + 3",
+      "speed": "30 ft., burrow 15 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "savingThrows": {
+        "Dex": 2,
+        "Con": 3,
+        "Wis": 2,
+        "Cha": 3
+      },
+      "skills": {
+        "Perception": 4,
+        "Stealth": 2
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 14,
+      "description": "Mottled brown scales and a broad plate across its forehead mark this wyrmling. It seeks heat, sunshine, and conversation.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor class notes": "Natural armor.",
+        "Damage immunities": "Fire.",
+        "Senses": "Blindsight 10 ft., darkvision 60 ft.",
+        "Languages": "Draconic.",
+        "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 7 (1d10 + 2) piercing damage.\nBreath Weapons (recharge 5–6). Choose one breath.\nFire Breath. Each creature in a 20-ft. line that is 5 ft. wide makes a DC 11 Dexterity save. On a failure, it takes 14 (4d6) fire damage. On a success, it takes half.\nSleep Breath. Each creature in a 15-ft. cone makes a DC 11 Constitution save. On a failure, it falls Unconscious for 1 minute. Taking damage or having another creature use an action to wake it ends the effect.",
+        "Printed source": "Monster Manual (2014), p. 106."
+      }
+    }
+  },
+  {
+    "name": "Bronze Dragon Wyrmling",
+    "statBlock": {
+      "name": "Bronze Dragon Wyrmling",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium dragon, lawful good",
+      "ac": 17,
+      "hp": 32,
+      "hitDice": "5d8 + 10",
+      "speed": "30 ft., fly 60 ft., swim 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "savingThrows": {
+        "Dex": 2,
+        "Con": 4,
+        "Wis": 2,
+        "Cha": 4
+      },
+      "skills": {
+        "Perception": 4,
+        "Stealth": 2
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 14,
+      "description": "This coastal wyrmling has webbed feet, yellow-green scales, and a ridged crest.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor class notes": "Natural armor.",
+        "Damage immunities": "Lightning.",
+        "Senses": "Blindsight 10 ft., darkvision 60 ft.",
+        "Languages": "Draconic.",
+        "Traits": "Amphibious. The wyrmling can breathe air and water.",
+        "Actions": "Bite. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 8 (1d10 + 3) piercing damage.\nBreath Weapons (recharge 5–6). Choose one breath.\nLightning Breath. Each creature in a 40-ft. line that is 5 ft. wide makes a DC 12 Dexterity save. On a failure, it takes 16 (3d10) lightning damage. On a success, it takes half.\nRepulsion Breath. Each creature in a 30-ft. cone makes a DC 12 Strength save. On a failure, it is pushed 30 ft. away from the dragon.",
+        "Printed source": "Monster Manual (2014), p. 109."
+      }
+    }
+  },
+  {
+    "name": "Copper Dragon Wyrmling",
+    "statBlock": {
+      "name": "Copper Dragon Wyrmling",
+      "publication": "Monster Manual (2014)",
+      "printedPage": 112,
+      "edition": "2014 fifth edition",
+      "classification": "Medium dragon, chaotic good",
+      "ac": 16,
+      "hp": 22,
+      "hitDice": "4d8 + 4",
+      "speed": "30 ft., climb 30 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "savingThrows": {
+        "Dex": 3,
+        "Con": 3,
+        "Wis": 2,
+        "Cha": 3
+      },
+      "skills": {
+        "Perception": 4,
+        "Stealth": 3
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 14,
+      "description": "This rocky upland wyrmling likes jokes and riddles. It prizes metal and gems.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor class notes": "Natural armor.",
+        "Damage immunities": "Acid.",
+        "Senses": "Blindsight 10 ft., darkvision 60 ft.",
+        "Languages": "Draconic.",
+        "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 7 (1d10 + 2) piercing damage.\nBreath Weapons (recharge 5–6). Choose one breath.\nAcid Breath. Each creature in a 20-ft. line that is 5 ft. wide makes a DC 11 Dexterity save. On a failure, it takes 18 (4d8) acid damage. On a success, it takes half.\nSlowing Breath. Each creature in a 15-ft. cone makes a DC 11 Constitution save. On a failure, for 1 minute it loses its reactions, its speed is halved, and on its turn it can make at most one attack. On each of those turns, it can use at most one action or bonus action. It repeats the save at the end of each of its turns, ending the effect on a success.",
+        "Printed source": "Monster Manual (2014), p. 112."
+      }
+    }
+  },
+  {
+    "name": "Gold Dragon Wyrmling",
+    "statBlock": {
+      "name": "Gold Dragon Wyrmling",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium dragon, lawful good",
+      "ac": 17,
+      "hp": 60,
+      "hitDice": "8d8 + 24",
+      "speed": "30 ft., fly 60 ft., swim 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "savingThrows": {
+        "Dex": 4,
+        "Con": 5,
+        "Wis": 2,
+        "Cha": 5
+      },
+      "skills": {
+        "Perception": 4,
+        "Stealth": 4
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 14,
+      "description": "Metal flecks show in the wyrmling’s dark yellow scales. Long whiskers frame its face.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor class notes": "Natural armor.",
+        "Damage immunities": "Fire.",
+        "Senses": "Blindsight 10 ft., darkvision 60 ft.",
+        "Languages": "Draconic.",
+        "Traits": "Amphibious. The wyrmling can breathe air and water.",
+        "Actions": "Bite. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit 9 (1d10 + 4) piercing damage.\nBreath Weapons (recharge 5–6). Choose one breath.\nFire Breath. Each creature in a 15-ft. cone makes a DC 13 Dexterity save. On a failure, it takes 22 (4d10) fire damage. On a success, it takes half.\nWeakening Breath. Each creature in a 15-ft. cone makes a DC 13 Strength save. On a failure, it has disadvantage on Strength-based attack rolls, Strength checks, and Strength saves for 1 minute. It repeats the save at the end of each of its turns, ending the effect on a success.",
+        "Printed source": "Monster Manual (2014), p. 115. The official errata corrects the Constitution save to +5."
+      }
+    }
+  },
+  {
+    "name": "Silver Dragon Wyrmling",
+    "statBlock": {
+      "name": "Silver Dragon Wyrmling",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium dragon, lawful good",
+      "ac": 17,
+      "hp": 45,
+      "hitDice": "6d8 + 18",
+      "speed": "30 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "savingThrows": {
+        "Dex": 2,
+        "Con": 5,
+        "Wis": 2,
+        "Cha": 4
+      },
+      "skills": {
+        "Perception": 4,
+        "Stealth": 2
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 14,
+      "description": "Silver highlights mark this wyrmling’s blue-gray scales. A spiny crest runs from its head down its back.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor class notes": "Natural armor.",
+        "Damage immunities": "Cold.",
+        "Senses": "Blindsight 10 ft., darkvision 60 ft.",
+        "Languages": "Draconic.",
+        "Actions": "Bite. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit 9 (1d10 + 4) piercing damage.\nBreath Weapons (recharge 5–6). Choose one breath.\nCold Breath. Each creature in a 15-ft. cone makes a DC 13 Constitution save. On a failure, it takes 18 (4d8) cold damage. On a success, it takes half.\nParalyzing Breath. Each creature in a 15-ft. cone makes a DC 13 Constitution save. On a failure, it is Paralyzed for 1 minute. It repeats the save at the end of each of its turns, ending the effect on a success.",
+        "Printed source": "Monster Manual (2014), p. 118."
+      }
+    }
+  }
+]

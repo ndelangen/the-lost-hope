@@ -1,0 +1,43 @@
+[
+  {
+    "name": "Aurumvas",
+    "source": "https://www.dndbeyond.com/monsters/4485781-aurumvas",
+    "challenge": "14",
+    "entry": "monster-461c4772a770bcb5ddd6ad8c",
+    "version": "0bdeaa29b5c8b66644a5fd42",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "slug": "aurumvas",
+    "kind": "monster",
+    "type": "Fiend",
+    "encounterStatus": "local-stat-block",
+    "generated": true,
+    "primaryPortraitSha256": "a4bdb64ce1ea4e768b091f5ddb5f1e05f438c75970db26f2678c6c0a1996b51e",
+    "status": "Stat block",
+    "appearance": "A towering reptilian fiend in an open gold robe with a stack of crowns and several clawed hands.",
+    "habitats": [
+      "Abyssal Wasteland",
+      "Abyssal vaults"
+    ]
+  },
+  {
+    "name": "Pitling",
+    "source": "https://www.dndbeyond.com/monsters/4485977-pitling",
+    "challenge": "4",
+    "entry": "monster-ccd26b7e16a1ef84cca261ec",
+    "version": "274be6059ac0cd3d3389e998",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "slug": "pitling",
+    "kind": "monster",
+    "type": "Fiend",
+    "encounterStatus": "local-stat-block",
+    "generated": true,
+    "primaryPortraitSha256": "0fb059e80171400092bd7df65b7a24299274e67250923366187a97af5659ffc9",
+    "status": "Stat block",
+    "appearance": "A tiny verminlike demon with green eyes and wiry tendrils, whose shape resembles local pests.",
+    "habitats": [
+      "Abyssal Wasteland"
+    ]
+  }
+]

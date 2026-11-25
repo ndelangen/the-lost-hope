@@ -1,0 +1,23 @@
+{
+  "name": "Frilled Deathspitter",
+  "kind": "beast",
+  "publication": "Plane Shift: Ixalan",
+  "edition": "2014 fifth edition",
+  "printing": "First printing, January 2018",
+  "copyrightYear": 2017,
+  "author": "James Wyatt",
+  "publisher": "Wizards of the Coast",
+  "pdfPage": 30,
+  "section": "An Ixalan Bestiary, The Flesh-Eaters",
+  "sourceUrl": "",
+  "sourceSha256": "56c0f5a90d4c396b88358fc2156f3dd14e29eb0cc77d344246747403dd85a411",
+  "conditionRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/appendix-a-conditions#Blinded",
+  "rangedAttackRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat#RangedAttacks",
+  "baseline": "aabd36163299ebeeba6f819da8cb3c1a93d6b470",
+  "existingStatus": "book-combat-profile",
+  "appearanceEvidence": "The credited Frilled Deathspitter illustration on p. 30 shows the frill, feathers, scales, limbs and tail.",
+  "habitatEvidence": "Jungle and jungle ruins are editorial habitat tags inferred from the Ixalan setting and the p. 30 illustration. The stat block has no formal habitat field.",
+  "creditedArt": "Zoltan Boros, Frilled Deathspitter. Keep the existing book reference and artwork credit.",
+  "entry": "beast-3b653747ea20aff4bca6ed8d",
+  "version": "4b534188424505a8db6cf13f"
+}

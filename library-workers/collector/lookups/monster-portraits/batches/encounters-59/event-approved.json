@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Human Apprentice Mage",
+    "slug": "human-apprentice-mage",
+    "id": "monster-9a1a166d64d970eea40b72dc:2bb2d3de82fc6e63ffc76cea",
+    "entry": "monster-9a1a166d64d970eea40b72dc",
+    "version": "2bb2d3de82fc6e63ffc76cea",
+    "suffix": "encounters-59/human-apprentice-mage.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-59/human-apprentice-mage.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-59/event-drafts/human-apprentice-mage-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 59 2026-11-23/event-drafts/human-apprentice-mage-event-v1.png",
+    "overrides": [],
+    "sha256": "9a92904f434be74c3d235472c87f44690cb18592b9480c494156fd35c4e080ff",
+    "bytes": 2355777
+  },
+  {
+    "name": "Human Raider",
+    "slug": "human-raider",
+    "id": "monster-1651d4c30c471edb5896c76c:ada871a7e08b1055ef463e39",
+    "entry": "monster-1651d4c30c471edb5896c76c",
+    "version": "ada871a7e08b1055ef463e39",
+    "suffix": "encounters-59/human-raider.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-59/human-raider.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-59/event-drafts/human-raider-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 59 2026-11-23/event-drafts/human-raider-event-v1.png",
+    "overrides": [],
+    "sha256": "b0a1e5b192685d099fe64d48bb4cc98d2b2afc75b684fc67d9dffb667cac1a58",
+    "bytes": 2478040
+  }
+]

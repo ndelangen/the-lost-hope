@@ -1,0 +1,173 @@
+[
+  {
+    "name": "Saber-Toothed Tiger",
+    "entryId": "beast-4048966770801f16dd341807",
+    "versionKey": "8c08735b8482d303d31c325a",
+    "sameFormDonorName": "Tiger, Saber-Toothed",
+    "donorEntryId": "beast-cf809a48af7b19c7daa14a1b",
+    "reviewImage": "",
+    "reviewSha256": "aaa36d1e4f31303023f9b194f9b263ab625229962d28424d91326c9de1a3e05e",
+    "registeredOriginalPath": "assets/images/content/dm-library/monster-vault-beasts-13/tiger-saber-toothed.png",
+    "originalSha256": "ec4cb558a5e580f9e27f9402fb5e5d3707ab6b910e5dbf42962d60db7bd7a5c6",
+    "status": "verified equivalent generated portrait available for reuse",
+    "styleGap": "saturated orange parchment in existing portrait; replacement is a separate art task",
+    "existingTargetPortrait": false,
+    "selectedPortrait": {
+      "entryId": "beast-4048966770801f16dd341807",
+      "file": "images/beasts/tiger-saber-toothed/parchment-portrait.webp",
+      "sha256": "aaa36d1e4f31303023f9b194f9b263ab625229962d28424d91326c9de1a3e05e"
+    }
+  },
+  {
+    "name": "Scorpion Insect",
+    "entryId": "beast-6352452049bd9c133b571361",
+    "versionKey": "8779398bb005e104a5156b39",
+    "sameFormDonorName": "Insect, Scorpion",
+    "donorEntryId": "beast-de117c67dda99bb3dcd53062",
+    "reviewImage": "",
+    "reviewSha256": "6997e27e56ec82a2ab5e782331ab55a6bb0da6035841b12543ac124098ea1d57",
+    "registeredOriginalPath": "assets/images/content/dm-library/monster-vault-beasts-8/insect-scorpion.png",
+    "originalSha256": "81d33f825300c76aa1ef634c289c6d626c2391a2b2083093fccf1eae2d623d3b",
+    "status": "verified equivalent generated portrait available for reuse",
+    "styleGap": "The existing portrait uses muted gray-tan paper with softer pencil shading.",
+    "existingTargetPortrait": true,
+    "selectedPortrait": {
+      "entryId": "beast-6352452049bd9c133b571361",
+      "file": "images/beasts/scorpion-insect/parchment-portrait.webp",
+      "sha256": "b937f3b86b2bd76cc6bcfaa35cd4521f841b41302747b25c0d6db06241410f3e"
+    }
+  },
+  {
+    "name": "Swarm of Bats",
+    "entryId": "beast-9b10029fdb104074fd926e87",
+    "versionKey": "8a47389ffe6795b14a3f899d",
+    "sameFormDonorName": "Bat, Swarm of Bats",
+    "donorEntryId": "beast-1f011faa61242b87671ebf8b",
+    "reviewImage": "",
+    "reviewSha256": "959d40966bc013e3db8d83476988542904a59b925f6ea419d69225995d2e9fda",
+    "registeredOriginalPath": "assets/images/content/dm-library/monster-vault-beasts-1/swarm-of-bats.webp",
+    "originalSha256": "959d40966bc013e3db8d83476988542904a59b925f6ea419d69225995d2e9fda",
+    "status": "verified equivalent generated portrait available for reuse",
+    "styleGap": "The existing portrait uses yellow parchment and softer pencil shading than the current reference.",
+    "existingTargetPortrait": false,
+    "selectedPortrait": {
+      "entryId": "beast-9b10029fdb104074fd926e87",
+      "file": "images/monsters/swarm-of-bats/parchment-portrait.webp",
+      "sha256": "959d40966bc013e3db8d83476988542904a59b925f6ea419d69225995d2e9fda"
+    }
+  },
+  {
+    "name": "Swarm of Insects",
+    "entryId": "beast-3dda0539047e0c2d32d2056b",
+    "versionKey": "4755087a3a32c55aaccc5905",
+    "sameFormDonorName": "Insect, Swarm of Insects",
+    "donorEntryId": "beast-38ad703e30d3953e35d795e7",
+    "reviewImage": "",
+    "reviewSha256": "b3f1d6781c24af1e1ebb0e2126fd4c153d4f1d552dbcb8dc880c34b416bc7952",
+    "registeredOriginalPath": "assets/images/content/dm-library/monster-vault-beasts-8/swarm-of-insects.webp",
+    "originalSha256": "b3f1d6781c24af1e1ebb0e2126fd4c153d4f1d552dbcb8dc880c34b416bc7952",
+    "status": "verified equivalent generated portrait available for reuse",
+    "styleGap": "The existing portrait uses yellow parchment and softer pencil shading than the current reference.",
+    "existingTargetPortrait": false,
+    "selectedPortrait": {
+      "entryId": "beast-3dda0539047e0c2d32d2056b",
+      "file": "images/monsters/swarm-of-insects/parchment-portrait.webp",
+      "sha256": "b3f1d6781c24af1e1ebb0e2126fd4c153d4f1d552dbcb8dc880c34b416bc7952"
+    }
+  },
+  {
+    "name": "Swarm of Poisonous Snakes",
+    "entryId": "beast-305b5bd24b513ff9b13296f9",
+    "versionKey": "48049ae9489d65520641f6fe",
+    "sameFormDonorName": "Snake, Swarm of Poisonous Snakes",
+    "donorEntryId": "beast-5723973e6d9f3b40c444590c",
+    "reviewImage": "",
+    "reviewSha256": "18df6dd4f89faf20f147ea6c0293bed5ab449232b36e689ddf3a99735637b7fe",
+    "registeredOriginalPath": "assets/images/content/dm-library/monster-vault-beasts-12/swarm-of-poisonous-snakes.webp",
+    "originalSha256": "18df6dd4f89faf20f147ea6c0293bed5ab449232b36e689ddf3a99735637b7fe",
+    "status": "verified equivalent generated portrait available for reuse",
+    "styleGap": "The existing portrait uses yellow parchment and softer pencil shading than the current reference.",
+    "existingTargetPortrait": false,
+    "selectedPortrait": {
+      "entryId": "beast-305b5bd24b513ff9b13296f9",
+      "file": "images/monsters/swarm-of-poisonous-snakes/parchment-portrait.webp",
+      "sha256": "18df6dd4f89faf20f147ea6c0293bed5ab449232b36e689ddf3a99735637b7fe"
+    }
+  },
+  {
+    "name": "Swarm of Quippers",
+    "entryId": "beast-437bf30b25850b9c1f2cfc5a",
+    "versionKey": "552c442a70d5d290ed781804",
+    "sameFormDonorName": "Quipper, Swarm of Quippers",
+    "donorEntryId": "beast-03cf8a6616db46989f5528dc",
+    "reviewImage": "",
+    "reviewSha256": "f132cee85b7a4e3daa3a7546dd1acb855312b06d6a6dfb029a76a16e3adf850d",
+    "registeredOriginalPath": "assets/images/content/dm-library/monster-vault-beasts-9/swarm-of-quippers.webp",
+    "originalSha256": "f132cee85b7a4e3daa3a7546dd1acb855312b06d6a6dfb029a76a16e3adf850d",
+    "status": "verified equivalent generated portrait available for reuse",
+    "styleGap": "The existing portrait uses yellow parchment and softer pencil shading than the current reference.",
+    "existingTargetPortrait": false,
+    "selectedPortrait": {
+      "entryId": "beast-437bf30b25850b9c1f2cfc5a",
+      "file": "images/monsters/swarm-of-quippers/parchment-portrait.webp",
+      "sha256": "f132cee85b7a4e3daa3a7546dd1acb855312b06d6a6dfb029a76a16e3adf850d"
+    }
+  },
+  {
+    "name": "Swarm of Rats",
+    "entryId": "beast-5941966f457fe4f6c60c3939",
+    "versionKey": "3d06d99f60a01405687d2d75",
+    "sameFormDonorName": "Rat, Swarm of Rats",
+    "donorEntryId": "beast-e3d406b1afda39b80412965c",
+    "reviewImage": "",
+    "reviewSha256": "5b6ae220f17f9412aac3df79a093ce52d564070282afe080f924a35d88b8a6b5",
+    "registeredOriginalPath": "assets/images/content/dm-library/monster-vault-beasts-10/swarm-of-rats.webp",
+    "originalSha256": "5b6ae220f17f9412aac3df79a093ce52d564070282afe080f924a35d88b8a6b5",
+    "status": "verified equivalent generated portrait available for reuse",
+    "styleGap": "The existing portrait uses yellow parchment and softer pencil shading than the current reference.",
+    "existingTargetPortrait": false,
+    "selectedPortrait": {
+      "entryId": "beast-5941966f457fe4f6c60c3939",
+      "file": "images/monsters/swarm-of-rats/parchment-portrait.webp",
+      "sha256": "5b6ae220f17f9412aac3df79a093ce52d564070282afe080f924a35d88b8a6b5"
+    }
+  },
+  {
+    "name": "Swarm of Ravens",
+    "entryId": "beast-eff4cac94120f8733a73e333",
+    "versionKey": "f49dff7812f6a7c9c0cf5d5c",
+    "sameFormDonorName": "Raven, Swarm of Ravens",
+    "donorEntryId": "beast-256b2b8f154071f94b1a637f",
+    "reviewImage": "",
+    "reviewSha256": "7907e3b0b64b1147e2d20e36276188dd7baa00a9289e3782d5064c0eddd20e9b",
+    "registeredOriginalPath": "assets/images/content/dm-library/monster-vault-beasts-10/swarm-of-ravens.webp",
+    "originalSha256": "7907e3b0b64b1147e2d20e36276188dd7baa00a9289e3782d5064c0eddd20e9b",
+    "status": "verified equivalent generated portrait available for reuse",
+    "styleGap": "The existing portrait uses yellow parchment and softer pencil shading than the current reference.",
+    "existingTargetPortrait": false,
+    "selectedPortrait": {
+      "entryId": "beast-eff4cac94120f8733a73e333",
+      "file": "images/monsters/swarm-of-ravens/parchment-portrait.webp",
+      "sha256": "7907e3b0b64b1147e2d20e36276188dd7baa00a9289e3782d5064c0eddd20e9b"
+    }
+  },
+  {
+    "name": "War Horse",
+    "entryId": "beast-3f9454125ca694f7cbcd65dd",
+    "versionKey": "65fcc7f0b8d315e88dd30df5",
+    "sameFormDonorName": "Horse, War",
+    "donorEntryId": "beast-e81a8f9a31b64e09c50d0918",
+    "reviewImage": "",
+    "reviewSha256": "aa42463d8e7abcb5eee4d220006bbc9d055eff54859b52451e3fd2790d80fdd5",
+    "registeredOriginalPath": "assets/images/content/dm-library/monster-vault-beasts-6/horse-war.png",
+    "originalSha256": "c06d1eb973c4e6d2ff3168bae1015e313c4ed33ff18d38a7729dd81cf5f0a095",
+    "status": "verified equivalent generated portrait available for reuse",
+    "styleGap": "The existing portrait uses muted gray-tan paper with softer pencil shading.",
+    "existingTargetPortrait": true,
+    "selectedPortrait": {
+      "entryId": "beast-3f9454125ca694f7cbcd65dd",
+      "file": "images/beasts/war-horse/parchment-portrait.webp",
+      "sha256": "7ded40bd2e7457833f9a02fb4298dcbb1fac17a4211c01811e384d066a7741ca"
+    }
+  }
+]

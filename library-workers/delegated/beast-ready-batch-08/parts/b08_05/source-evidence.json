@@ -1,0 +1,101 @@
+[
+  {
+    "name": "Trosip",
+    "kind": "beast",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "printing": "1996 TSR text, v1.0 (June 2006)",
+    "sourcePdfSha256": "23842cf99946ca1fe98c367774e290075fab1ac757c15dbe9985a34daf9f17ac",
+    "printedPages": [
+      112,
+      113
+    ],
+    "viewerPages": [
+      113,
+      114
+    ],
+    "pageNumbering": "The page number is one greater than the printed folio.",
+    "url": "",
+    "sourceUrl": "",
+    "verification": "Read the actual Appendix entry and checked the continuation against the page columns.",
+    "appearanceSource": "Appendix pp. 112–113 describe dark grey dust-bunny shapes. The reused portrait depicts several dusty clumps.",
+    "habitatSource": "Appendix p. 112 Climate/Terrain, plus household, cave and dungeon interiors in the prose.",
+    "printingNote": "The p. 112 table combines Tiny size with a 6′–9′ diameter. The scan visibly uses foot marks. The entry does not specify a correction."
+  },
+  {
+    "name": "Voat",
+    "kind": "beast",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "printing": "1996 TSR text, v1.0 (June 2006)",
+    "sourcePdfSha256": "23842cf99946ca1fe98c367774e290075fab1ac757c15dbe9985a34daf9f17ac",
+    "printedPages": [
+      115,
+      116
+    ],
+    "viewerPages": [
+      116,
+      117
+    ],
+    "pageNumbering": "The page number is one greater than the printed folio.",
+    "url": "",
+    "sourceUrl": "",
+    "verification": "Read the actual Appendix entry and checked the continuation against the page columns.",
+    "appearanceSource": "Appendix pp. 115–116 describe the ratlike body, coarse grey fur, ears, snout, teeth and tail. The reused portrait depicts the general appearance.",
+    "habitatSource": "The table gives any terrain. The prose names ships, warehouses, food stores and caves with scarlet pimpernel.",
+    "supportingRules": "Appendix pp. 6–8 and Savage Coast Campaign Book Part 2 pp. 85 and 99 for uses, minimum effective level and Phase.",
+    "supportingSourceUrl": ""
+  },
+  {
+    "name": "Vulturehound",
+    "kind": "beast",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "printing": "1996 TSR text, v1.0 (June 2006)",
+    "sourcePdfSha256": "23842cf99946ca1fe98c367774e290075fab1ac757c15dbe9985a34daf9f17ac",
+    "printedPages": [
+      117,
+      118
+    ],
+    "viewerPages": [
+      118,
+      119
+    ],
+    "pageNumbering": "The page number is one greater than the printed folio.",
+    "url": "",
+    "sourceUrl": "",
+    "verification": "Read the actual Appendix entry and checked the continuation against the page columns.",
+    "appearanceSource": "Appendix p. 118 describes the vulture head, shaggy dog body, hooked beak, feathered wings and doglike taloned legs, all visible in the reused portrait.",
+    "habitatSource": "Appendix pp. 117–118 gives steppe climates and locates populations in Renardy and the Yazak Steppes.",
+    "supportingRules": "Appendix pp. 4, 6–8 and Savage Coast Campaign Book Part 2 pp. 85, 96 and 104 for Class C flight and Legacy procedures.",
+    "supportingSourceUrl": ""
+  },
+  {
+    "name": "Wynzet",
+    "kind": "beast",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "printing": "1996 TSR text, v1.0 (June 2006)",
+    "sourcePdfSha256": "23842cf99946ca1fe98c367774e290075fab1ac757c15dbe9985a34daf9f17ac",
+    "printedPages": [
+      122,
+      123
+    ],
+    "viewerPages": [
+      123,
+      124
+    ],
+    "pageNumbering": "The page number is one greater than the printed folio.",
+    "url": "",
+    "sourceUrl": "",
+    "verification": "Read the actual Appendix entry and checked the continuation against the page columns.",
+    "appearanceSource": "Appendix pp. 122–123 describes grey squirrel and rabbit forms, fluffy fur and wide eyes. The reused portrait depicts the squirrel form.",
+    "habitatSource": "Appendix p. 122 lists any forest and notes abundance in Robrenn.",
+    "supportingRules": "Appendix pp. 6–7 and Savage Coast Campaign Book Part 2 pp. 85 and 88 for uses, effective level and general Bite duration.",
+    "supportingSourceUrl": ""
+  }
+]

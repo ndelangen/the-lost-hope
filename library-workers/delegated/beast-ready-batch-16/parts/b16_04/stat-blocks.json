@@ -1,0 +1,67 @@
+[
+  {
+    "publication": "DDAL04-12 - The Raven",
+    "edition": "2014 fifth edition",
+    "name": "Winter Wolf",
+    "classification": "Large Beast, unaligned",
+    "ac": 13,
+    "hp": 75,
+    "hitDice": "10d10 + 20",
+    "speed": "50 ft.",
+    "cr": "3",
+    "xp": 700,
+    "abilities": {
+      "Str": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 7,
+        "modifier": -2
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 8,
+        "modifier": -1
+      }
+    },
+    "skills": {
+      "Perception": 5,
+      "Stealth": 3
+    },
+    "passivePerception": 15,
+    "otherStatistics": "Natural armor. Passive Perception 15. Languages Common, Giant and Winter Wolf.",
+    "appearance": "A great shaggy wolf with a heavy white-gray coat and a broad muzzle. The encounter describes burning red eyes.",
+    "habitats": [
+      "Barovia",
+      "Vanishing Hills",
+      "Trank River",
+      "Snowy terrain",
+      "Icy woodland"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "DDAL04-12 The Raven, version 1.0, p. 22. The encounter and party adjustments are on pp. 11–12.",
+      "Damage immunities": "Cold.",
+      "Traits": "Keen Hearing and Smell. Advantage on Wisdom (Perception) checks that rely on hearing or smell.\nPack Tactics. It has advantage on attack rolls against a creature if one of its allies is within 5 ft. of that creature and the ally is not incapacitated.\nSnow Camouflage. It has advantage on Dexterity (Stealth) checks made to hide in snowy terrain.",
+      "Actions": "Bite. Make a +6 melee weapon attack against one target within 5 ft. A hit deals 11 piercing damage. The printed dice expression is 2d6 + 3. A creature hit must succeed on a DC 14 Strength save or fall Prone.\nCold Breath. Each creature in a 15-ft. cone makes a DC 12 Dexterity save. On a failure it takes 18 (4d8) cold damage. On a success it takes half as much.",
+      "Encounter": "Six winter wolves attack from the mist. They retreat into cover between attacks and focus on prone characters. The icy ground is difficult terrain and imposes disadvantage on saves to avoid falling prone. The wolves circle a fortified camp, harry sentries and prevent sleep. Characters who cannot sleep gain one level of exhaustion. If any reach two levels of exhaustion, the wolves attack. The pack gives up if the party gets 8 miles from the campsite. To run for it, count the party as having traveled 8 hours. At the end of each additional hour, each character makes a Constitution save at DC 10 plus hours traveled past 8 or gains one exhaustion level. Eluding the wolves awards 250 XP per character.",
+      "Party strength": "The encounter adjustments do not stack. Weak removes one Winter Wolf. Strong increases Cold Breath to a DC 13 save and 27 cold damage. Very Strong makes the same breath change and adds one Winter Wolf. The Very Weak line says to remove two Dire Wolves even though the main encounter lists six Winter Wolves.",
+      "Treasure": "A successful DC 11 Dexterity (Survival) check skins a killed wolf without ruining its pelt. Each intact pelt is worth 50 gp. If the party skins every killed wolf in the encounter, see p. 16 for Larga’s barter terms for a full set of pelts.",
+      "Source notes": "The appendix calls this a Beast. Bite’s printed fixed damage and dice expression disagree, so this profile uses the fixed 11 and records the printed roll. Cold Breath has no printed recharge. The Strong and Very Strong breath adjustments give a fixed damage number without dice."
+    }
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Dhampir",
+    "kind": "species",
+    "publication": "Grim Hollow: Player’s Guide",
+    "edition": "Fifth edition compatible",
+    "publisher": "Ghostfire Gaming",
+    "year": 2025,
+    "creatureType": "Humanoid",
+    "url": "https://www.dndbeyond.com/species/1987212-dhampir",
+    "primaryBookText": "https://fliphtml5.com/lxnee/xhim/GH2_Players_guide__Digital_Edition/",
+    "printPage": 25,
+    "viewerPage": 29,
+    "printedPages": [
+      25
+    ],
+    "sharedPrintedRules": [
+      "10–13",
+      "30–47",
+      "217"
+    ],
+    "heading": "Dhampir Base Traits and Traditional Dhampir Traits",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-classes",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-origins",
+    "settingLanguages": "Language assignments use Etharis regional names and core standard language choices where relevant. Etharis has no universal Common language.",
+    "rulesCompatibility": "The revised 2025 book credits SRD 5.2.1 and the examples use 2024 core classes.",
+    "sourceDistinctions": [
+      "The example takes all eight traditional traits. Natural Attack and the first-tier Draining Attack provide fangs and temporary HP. Charm Person and Friends both use the Warlock list."
+    ],
+    "npcExamples": [
+      "Mara Vell"
+    ]
+  },
+  {
+    "name": "Downcast",
+    "kind": "species",
+    "publication": "Grim Hollow: Player’s Guide",
+    "edition": "Fifth edition compatible",
+    "publisher": "Ghostfire Gaming",
+    "year": 2025,
+    "creatureType": "Humanoid",
+    "url": "https://www.dndbeyond.com/species/1987214-downcast",
+    "primaryBookText": "https://fliphtml5.com/lxnee/xhim/GH2_Players_guide__Digital_Edition/",
+    "printPage": 27,
+    "viewerPage": 31,
+    "printedPages": [
+      27
+    ],
+    "sharedPrintedRules": [
+      "10–13",
+      "30–47",
+      "217"
+    ],
+    "heading": "Downcast Base Traits and Traditional Downcast Traits",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-classes",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-origins",
+    "settingLanguages": "Language assignments use Etharis regional names and core standard language choices where relevant. Etharis has no universal Common language.",
+    "rulesCompatibility": "The revised 2025 book credits SRD 5.2.1 and the examples use 2024 core classes.",
+    "sourceDistinctions": [
+      "Touch of Life grants resistance. Divine Sangromancy provides the extra healing. The example takes Thaumaturgy and Sanctuary from the Cleric list."
+    ],
+    "npcExamples": [
+      "Adra Senn"
+    ]
+  },
+  {
+    "name": "Wulven",
+    "kind": "species",
+    "publication": "Grim Hollow: Player’s Guide",
+    "edition": "Fifth edition compatible",
+    "publisher": "Ghostfire Gaming",
+    "year": 2025,
+    "creatureType": "Humanoid",
+    "url": "https://www.dndbeyond.com/species/1987226-wulven",
+    "primaryBookText": "https://fliphtml5.com/lxnee/xhim/GH2_Players_guide__Digital_Edition/",
+    "printPage": 29,
+    "viewerPage": 33,
+    "printedPages": [
+      29
+    ],
+    "sharedPrintedRules": [
+      "10–13",
+      "30–47",
+      "217"
+    ],
+    "heading": "Wulven Base Traits and Traditional Wulven Traits",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-classes",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-origins",
+    "settingLanguages": "Language assignments use Etharis regional names and core standard language choices where relevant. Etharis has no universal Common language.",
+    "rulesCompatibility": "The revised 2025 book credits SRD 5.2.1 and the examples use 2024 core classes.",
+    "sourceDistinctions": [
+      "The example takes all eight traditional traits, including Hunter’s Instinct, Pack Hunter and Natural Attack (Claws). This is the playable heritage rather than a Transformation."
+    ],
+    "npcExamples": [
+      "Kellan Rook"
+    ]
+  }
+]

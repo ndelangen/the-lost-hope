@@ -1,0 +1,480 @@
+[
+  {
+    "name": "Dragon Turtle",
+    "statBlock": {
+      "name": "Dragon Turtle",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 103,
+      "classification": "Gargantuan dragon, neutral",
+      "ac": 20,
+      "hp": 356,
+      "hitDice": "23d20 + 115",
+      "speed": "20 ft., swim 50 ft.",
+      "abilities": {
+        "Str": {
+          "score": 25
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "17",
+      "xp": 18000,
+      "passivePerception": 11,
+      "savingThrows": {
+        "Con": 11,
+        "Wis": 7
+      },
+      "description": "Dragon turtles patrol stretches of sea, claim passing cargo and guard submerged hoards. Some guide sailors or trade stories for a share of the treasure.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+6 (16).",
+        "Damage resistances": "Fire.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Draconic, Primordial (Aquan).",
+        "Habitats": "Coastal, underwater.",
+        "Treasure": "Any.",
+        "Traits": "Amphibious. The dragon breathes both air and water.",
+        "Actions": "Multiattack. Make three Bite attacks. The dragon can substitute one Tail attack.\nBite. Melee attack, +13 to hit, reach 15 ft. A hit deals 23 (3d10 + 7) Piercing damage plus 7 (2d6) Fire damage. Being underwater grants no Resistance to this Fire damage.\nTail. Melee attack, +13 to hit, reach 15 ft. A hit deals 18 (2d10 + 7) Bludgeoning damage and knocks a Huge or smaller creature Prone.\nSteam Breath (recharge 5–6). Each creature in a 60-ft. Cone makes a DC 19 Constitution save. It takes 56 (16d6) Fire damage on a failure or half on a success. Being underwater grants no Resistance to this Fire damage.",
+        "Printed source": "Monster Manual (2024), p. 103."
+      }
+    }
+  },
+  {
+    "name": "Young Brass Dragon",
+    "statBlock": {
+      "name": "Young Brass Dragon",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 54,
+      "classification": "Large dragon (metallic), chaotic good",
+      "ac": 17,
+      "hp": 110,
+      "hitDice": "13d10 + 39",
+      "speed": "40 ft., burrow 20 ft., fly 80 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "6",
+      "xp": 2300,
+      "passivePerception": 16,
+      "savingThrows": {
+        "Dex": 3,
+        "Wis": 3
+      },
+      "skills": {
+        "Perception": 6,
+        "Persuasion": 5,
+        "Stealth": 3
+      },
+      "description": "Young brass dragons roam for years between visits to their lairs. Some carry news between metallic dragons.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+3 (13).",
+        "Damage immunities": "Fire.",
+        "Senses": "Blindsight 30 ft., Darkvision 120 ft.",
+        "Languages": "Common, Draconic.",
+        "Habitats": "Desert.",
+        "Treasure": "Arcana.",
+        "Actions": "Multiattack. Make three Rend attacks. The dragon can substitute one use of Sleep Breath for two attacks.\nRend. Melee attack, +7 to hit, reach 10 ft. A hit deals 15 (2d10 + 4) Slashing damage.\nFire Breath (recharge 5–6). Each creature in a 40-ft. Line 5 ft. wide makes a DC 14 Dexterity save. It takes 38 (11d6) Fire damage on a failure or half on a success.\nSleep Breath. Each creature in a 30-ft. Cone makes a DC 14 Constitution save. On a failure it is Incapacitated until the end of its next turn, when it repeats the save. A second failure leaves it Unconscious for 1 minute. Damage wakes it, and a creature within 5 ft. can also wake it by taking an action.",
+        "Printed source": "Monster Manual (2024), p. 54."
+      }
+    }
+  },
+  {
+    "name": "Young Bronze Dragon",
+    "statBlock": {
+      "name": "Young Bronze Dragon",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 58,
+      "classification": "Large dragon (metallic), lawful good",
+      "ac": 17,
+      "hp": 142,
+      "hitDice": "15d10 + 60",
+      "speed": "40 ft., fly 80 ft., swim 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 21
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 19
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 17
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 17,
+      "savingThrows": {
+        "Dex": 3,
+        "Wis": 4
+      },
+      "skills": {
+        "Insight": 4,
+        "Perception": 7,
+        "Stealth": 3
+      },
+      "description": "A young bronze dragon often takes up a local cause, such as protecting a port from raiders. It seeks friends who bring skills it lacks.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+3 (13).",
+        "Damage immunities": "Lightning.",
+        "Senses": "Blindsight 30 ft., Darkvision 120 ft.",
+        "Languages": "Common, Draconic.",
+        "Habitats": "Coastal.",
+        "Treasure": "Implements.",
+        "Traits": "Amphibious. The dragon breathes both air and water.",
+        "Actions": "Multiattack. Make three Rend attacks. The dragon can substitute one use of Repulsion Breath for one attack.\nRend. Melee attack, +8 to hit, reach 10 ft. A hit deals 16 (2d10 + 5) Slashing damage.\nLightning Breath (recharge 5–6). Each creature in a 60-ft. Line 5 ft. wide makes a DC 15 Dexterity save. It takes 49 (9d10) Lightning damage on a failure or half on a success.\nRepulsion Breath. Each creature in a 30-ft. Cone makes a DC 15 Strength save. On a failure it is pushed up to 40 ft. directly away from the dragon and falls Prone.",
+        "Printed source": "Monster Manual (2024), p. 58."
+      }
+    }
+  },
+  {
+    "name": "Young Copper Dragon",
+    "statBlock": {
+      "name": "Young Copper Dragon",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 78,
+      "classification": "Large dragon (metallic), chaotic good",
+      "ac": 17,
+      "hp": 119,
+      "hitDice": "14d10 + 42",
+      "speed": "40 ft., climb 40 ft., fly 80 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "7",
+      "xp": 2900,
+      "passivePerception": 17,
+      "savingThrows": {
+        "Dex": 4,
+        "Wis": 4
+      },
+      "skills": {
+        "Deception": 5,
+        "Perception": 7,
+        "Stealth": 4
+      },
+      "description": "Young copper dragons make close friends and move quickly from one artistic pursuit to the next.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+4 (14).",
+        "Damage immunities": "Acid.",
+        "Senses": "Blindsight 30 ft., Darkvision 120 ft.",
+        "Languages": "Common, Draconic.",
+        "Habitats": "Hills.",
+        "Treasure": "Arcana.",
+        "Actions": "Multiattack. Make three Rend attacks. The dragon can substitute one use of Slowing Breath for one attack.\nRend. Melee attack, +7 to hit, reach 10 ft. A hit deals 15 (2d10 + 4) Slashing damage.\nAcid Breath (recharge 5–6). Each creature in a 40-ft. Line 5 ft. wide makes a DC 14 Dexterity save. It takes 40 (9d8) Acid damage on a failure or half on a success.\nSlowing Breath. Each creature in a 30-ft. Cone makes a DC 14 Constitution save. On a failure its Speed is halved and it cannot take Reactions. On its turn it can take an action or a Bonus Action, with a limit of one of the two. The effect lasts until the end of that creature's next turn.",
+        "Printed source": "Monster Manual (2024), p. 78."
+      }
+    }
+  },
+  {
+    "name": "Young Gold Dragon",
+    "statBlock": {
+      "name": "Young Gold Dragon",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 144,
+      "classification": "Large dragon (metallic), lawful good",
+      "ac": 18,
+      "hp": 178,
+      "hitDice": "17d10 + 85",
+      "speed": "40 ft., fly 80 ft., swim 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 23
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 20
+        }
+      },
+      "cr": "10",
+      "xp": 5900,
+      "passivePerception": 19,
+      "savingThrows": {
+        "Dex": 6,
+        "Wis": 5
+      },
+      "skills": {
+        "Insight": 5,
+        "Perception": 9,
+        "Persuasion": 9,
+        "Stealth": 6
+      },
+      "description": "Young gold dragons confront evils they have seen firsthand and often prefer direct action.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+6 (16).",
+        "Damage immunities": "Fire.",
+        "Senses": "Blindsight 30 ft., Darkvision 120 ft.",
+        "Languages": "Common, Draconic.",
+        "Habitats": "Forests, grassland.",
+        "Treasure": "Arcana.",
+        "Traits": "Amphibious. The dragon breathes both air and water.",
+        "Actions": "Multiattack. Make three Rend attacks. The dragon can substitute one use of Weakening Breath for one attack.\nRend. Melee attack, +10 to hit, reach 10 ft. A hit deals 17 (2d10 + 6) Slashing damage.\nFire Breath (recharge 5–6). Each creature in a 30-ft. Cone makes a DC 17 Dexterity save. It takes 55 (10d10) Fire damage on a failure or half on a success.\nWeakening Breath. Each creature in a 30-ft. Cone that is free of this breath's effects makes a DC 17 Strength save. On a failure it has Disadvantage on Strength-based D20 Tests and subtracts 3 (1d6) from its damage rolls. It saves again at the end of each of its turns. A success ends the effect, and it succeeds automatically after 1 minute.",
+        "Printed source": "Monster Manual (2024), p. 144."
+      }
+    }
+  },
+  {
+    "name": "Young Red Dragon",
+    "statBlock": {
+      "name": "Young Red Dragon",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 254,
+      "classification": "Large dragon (chromatic), chaotic evil",
+      "ac": 18,
+      "hp": 178,
+      "hitDice": "17d10 + 85",
+      "speed": "40 ft., climb 40 ft., fly 80 ft.",
+      "abilities": {
+        "Str": {
+          "score": 23
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 19
+        }
+      },
+      "cr": "10",
+      "xp": 5900,
+      "passivePerception": 18,
+      "savingThrows": {
+        "Dex": 4,
+        "Wis": 4
+      },
+      "skills": {
+        "Perception": 8,
+        "Stealth": 4
+      },
+      "description": "Young red dragons raid for treasure and seize land where they can demand obedience.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+4 (14).",
+        "Damage immunities": "Fire.",
+        "Senses": "Blindsight 30 ft., Darkvision 120 ft.",
+        "Languages": "Common, Draconic.",
+        "Habitats": "Hills, mountains.",
+        "Treasure": "Any.",
+        "Actions": "Multiattack. Make three Rend attacks.\nRend. Melee attack, +10 to hit, reach 10 ft. A hit deals 13 (2d6 + 6) Slashing damage plus 3 (1d6) Fire damage.\nFire Breath (recharge 5–6). Each creature in a 30-ft. Cone makes a DC 17 Dexterity save. It takes 56 (16d6) Fire damage on a failure or half on a success.",
+        "Printed source": "Monster Manual (2024), p. 254."
+      }
+    }
+  },
+  {
+    "name": "Young Silver Dragon",
+    "statBlock": {
+      "name": "Young Silver Dragon",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 278,
+      "classification": "Large dragon (metallic), lawful good",
+      "ac": 18,
+      "hp": 168,
+      "hitDice": "16d10 + 80",
+      "speed": "40 ft., fly 80 ft.",
+      "abilities": {
+        "Str": {
+          "score": 23
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 19
+        }
+      },
+      "cr": "9",
+      "xp": 5000,
+      "passivePerception": 18,
+      "savingThrows": {
+        "Dex": 4,
+        "Wis": 4
+      },
+      "skills": {
+        "History": 6,
+        "Perception": 8,
+        "Stealth": 4
+      },
+      "description": "Young silver dragons seek out heroes and older metallic dragons. They often carry messages or speak for those allies.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+4 (14).",
+        "Damage immunities": "Cold.",
+        "Senses": "Blindsight 30 ft., Darkvision 120 ft.",
+        "Languages": "Common, Draconic.",
+        "Habitats": "Mountains, urban.",
+        "Treasure": "Arcana.",
+        "Actions": "Multiattack. Make three Rend attacks. The dragon can substitute one use of Paralyzing Breath for one attack.\nRend. Melee attack, +10 to hit, reach 10 ft. A hit deals 15 (2d8 + 6) Slashing damage.\nCold Breath (recharge 5–6). Each creature in a 30-ft. Cone makes a DC 17 Constitution save. It takes 49 (11d8) Cold damage on a failure or half on a success.\nParalyzing Breath. Each creature in a 30-ft. Cone makes a DC 17 Constitution save. On a failure it is Incapacitated until the end of its next turn, when it saves again. A second failure leaves it Paralyzed. A Paralyzed target repeats the save at the end of each of its turns. A success ends the effect, and it succeeds automatically after 1 minute.",
+        "Printed source": "Monster Manual (2024), p. 278."
+      }
+    }
+  },
+  {
+    "name": "Young White Dragon",
+    "statBlock": {
+      "name": "Young White Dragon",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 328,
+      "classification": "Large dragon (chromatic), chaotic evil",
+      "ac": 17,
+      "hp": 123,
+      "hitDice": "13d10 + 52",
+      "speed": "40 ft., burrow 20 ft., fly 80 ft., swim 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "6",
+      "xp": 2300,
+      "passivePerception": 16,
+      "savingThrows": {
+        "Dex": 3,
+        "Wis": 3
+      },
+      "skills": {
+        "Perception": 6,
+        "Stealth": 3
+      },
+      "description": "Young white dragons defend their hunting grounds. Nearby communities may leave food and treasure to keep them from hunting closer to home.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+3 (13).",
+        "Damage immunities": "Cold.",
+        "Senses": "Blindsight 30 ft., Darkvision 120 ft.",
+        "Languages": "Common, Draconic.",
+        "Habitats": "Arctic.",
+        "Treasure": "Arcana.",
+        "Traits": "Ice Walk. The dragon can cross or climb ice without an ability check. Ice and snow that count as Difficult Terrain cost it no extra movement.",
+        "Actions": "Multiattack. Make three Rend attacks.\nRend. Melee attack, +7 to hit, reach 10 ft. A hit deals 9 (2d4 + 4) Slashing damage plus 2 (1d4) Cold damage.\nCold Breath (recharge 5–6). Each creature in a 30-ft. Cone makes a DC 15 Constitution save. It takes 40 (9d8) Cold damage on a failure or half on a success.",
+        "Printed source": "Monster Manual (2024), p. 328."
+      }
+    }
+  }
+]

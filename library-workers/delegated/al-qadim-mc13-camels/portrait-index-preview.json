@@ -1,0 +1,34 @@
+[
+  {
+    "entry": "beast-6feefa4f44f78d3f523c3d11",
+    "version": "84fddb81e21ee223739b340a",
+    "name": "Desert Camel",
+    "file": "images/al-qadim-mc13-camels/desert-camel.png",
+    "sha256": "01f932ad5e078f9d38fba6fa5692c7887426b46c56c7cacaf8834a07c2c01b9d",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-ac603e2d84877be279b739c7",
+    "version": "fe81f712d41889e545d2a2ec",
+    "name": "Mountain Camel",
+    "file": "images/al-qadim-mc13-camels/mountain-camel.png",
+    "sha256": "b21f3469f1d7ceabc00aa6bf7fc0b702f572aaf234519709674757fe2534afca",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-29b65c43e8f293bb7eb24cd9",
+    "version": "f5fc71c3fadb233976771118",
+    "name": "Racing Camel",
+    "file": "images/al-qadim-mc13-camels/racing-camel.png",
+    "sha256": "0eb21e1bdd89e6fe113555198f20f34db7a618992f2e3ffe360610913457d23f",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-829d7108350a2b63d197f316",
+    "version": "8fa600b0d682a4724465e6b3",
+    "name": "War Camel",
+    "file": "images/al-qadim-mc13-camels/war-camel.png",
+    "sha256": "2a1c04b59fa8bd5dfabb14e5f1fc83ae9b7800b23c853e70f197b7991e5366e5",
+    "credit": "OpenAI ImageGen"
+  }
+]

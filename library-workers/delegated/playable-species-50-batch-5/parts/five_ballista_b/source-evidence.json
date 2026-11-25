@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Pegataur",
+    "publication": "Top Ballista (PC2, 1989)",
+    "edition": "Basic D&D (BECMI)",
+    "publisher": "TSR",
+    "url": "",
+    "creatureType": "Winged centaur",
+    "printedPages": "DM’s Booklet pp. 3–5 and 23–24, including Table 8. pp. 6–8 and 26–27.",
+    "sourceDistinctions": [
+      "Separate player-creature class from Centaur and Pegasus.",
+      "Shared Table 2 gives AC 6. The species chapter calls AC 5 natural and says to retain it even in inferior armor. The NPC follows that more specific text.",
+      "The original monster entry supplies ground speed and the option to attack with a pair of hooves. The NPC uses the PC2 spell progression and saves."
+    ],
+    "primaryBookScan": "",
+    "supportingSources": [
+      {
+        "title": "Creature Catalogue (AC9, 1986)",
+        "url": "",
+        "pages": "Printed p. 74, p. 75."
+      },
+      {
+        "title": "Rules Cyclopedia (1991)",
+        "url": "",
+        "pages": "Printed pp. 9, 22–23, 44, 62, 102 and 106–109."
+      }
+    ]
+  },
+  {
+    "name": "Sphinx",
+    "publication": "Top Ballista (PC2, 1989)",
+    "edition": "Basic D&D (BECMI)",
+    "publisher": "TSR",
+    "url": "",
+    "creatureType": "Winged leonine creature",
+    "printedPages": "DM’s Booklet pp. 3–5 and 25–27, including Table 9. pp. 6–8 and 28–30.",
+    "sourceDistinctions": [
+      "Uses the playable PC2 progression. Rules Cyclopedia contributes ground movement and core attack/saving tables.",
+      "Table 9 gives AC 0 at the normal-monster tier, superseding general Table 2’s AC 2.",
+      "For the NPC’s 4-HD tier, Table 9 prints fear as 1d8 rounds, although the preceding prose groups that tier with 1d4 rounds. The build follows the explicit row."
+    ],
+    "primaryBookScan": "",
+    "supportingSources": [
+      {
+        "title": "Rules Cyclopedia (1991)",
+        "url": "",
+        "pages": "Printed pp. 9, 17, 102, 107–109, 150 and 205."
+      }
+    ]
+  },
+  {
+    "name": "Tabi",
+    "publication": "Top Ballista (PC2, 1989)",
+    "edition": "Basic D&D (BECMI)",
+    "publisher": "TSR",
+    "url": "",
+    "creatureType": "Winged ape-like creature",
+    "printedPages": "DM’s Booklet pp. 3–5 and 28–30, including Tables 10–11. pp. 6–8 and 31–33.",
+    "sourceDistinctions": [
+      "Separate from Phanaton and Gremlin. Creature Catalogue supplies land movement, while PC2 supplies the playable AC, venom and abilities.",
+      "The level-one row has 45%/50%/50% skills and one spell in the first level band. The corresponding normal-monster Hide in Shadows entry appears to have a missing zero."
+    ],
+    "primaryBookScan": "",
+    "supportingSources": [
+      {
+        "title": "Creature Catalogue (AC9, 1986)",
+        "url": "",
+        "pages": "Printed p. 79, p. 80."
+      },
+      {
+        "title": "Rules Cyclopedia (1991)",
+        "url": "",
+        "pages": "Printed pp. 9, 19, 44–45, 102 and 107–109."
+      }
+    ]
+  },
+  {
+    "name": "Pterran",
+    "publication": "Dark Sun Campaign Setting, Expanded and Revised (1995)",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "url": "",
+    "creatureType": "Reptilian humanoid",
+    "printedPages": "The Age of Heroes pp. 7–8, 17–20, 42 and 54. pp. 139–140, 149–152, 174 and 186. The Way of the Psionicist pp. 18–19 (pp. 248–249).",
+    "sourceDistinctions": [
+      "Uses the 1995 expanded and revised character profile. Separate from Saurial and the pterrax creature.",
+      "The metaplot and PC paths come from The Age of Heroes. The NPC uses a standard third-level fighter with no specialization. The book indicates many NPCs have a wild talent and leaves room for an NPC without one."
+    ],
+    "primaryBookScan": "",
+    "supportingSources": [
+      {
+        "title": "AD&D 2e Player’s Handbook, revised (1995)",
+        "url": "",
+        "pages": "Tables 1, 2, 3, 5, 14, 15, 34, 44, 45, 53 and 60."
+      }
+    ]
+  }
+]

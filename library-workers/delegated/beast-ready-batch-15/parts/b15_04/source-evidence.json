@@ -1,0 +1,200 @@
+[
+  {
+    "name": "Brown Bear",
+    "publication": "DDAL04-14 - The Darklord",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast, D&D Adventurers League",
+    "printedTitle": "The Dark Lord",
+    "printing": "2016 , version 1.0 on the cover",
+    "author": "Greg Marks",
+    "section": "Appendix monster statistics, Brown Bear",
+    "encounterHeading": "Part 2, Do You Have Any Candy?",
+    "printedPages": [
+      30
+    ],
+    "pdfPages": [
+      30
+    ],
+    "supportingPrintedPages": [
+      14
+    ],
+    "sourceUrl": "",
+    "url": "",
+    "encounterWitnessUrls": [
+      ""
+    ],
+    "localPrintWitness": " - 5th Edition (2014)/Adventures/DDAL04-14 - The ",
+    "localPrintSha256": "4713759b735ff9d13280b1330045d61812505766d320ec928f5ba3e30e9367d9",
+    "publisherCatalogUrl": "",
+    "productUrl": "https://www.dmsguild.com/product/186787/DDAL0414-The-Darklord-5e",
+    "sourceAccess": "Read the 2016 local adventure and visually checked the relevant folio. The linked full-text corroborates the adventure version.",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae",
+    "errataEvidence": "No official correction for this standalone adventure block was located.",
+    "separateMonsterManualErrataUrl": "",
+    "operationalEvidence": "Printed p. 30 gives both Bite figures and +5 to hit for each attack. The encounter sidebar on p. 14 specifies both uses of the bear.",
+    "sourceDiscrepancies": "The Bite line prints 8 (1d8 + 8). The average and the dice expression disagree. Use the printed fixed 8 for a direct reading and retain the recorded dice wording. The 2014 Monster Manual errata changes that book’s Brown Bear to +6 to hit. This adventure prints +5.",
+    "appearanceEvidence": "Editorial description based on verified reused art. Adventure-specific morphology is recorded in the encounter prose.",
+    "habitatEvidence": "Tags from the printed encounter location.",
+    "artGroup": "brown-bear",
+    "reuseSha256": "4520d535cfed0d405c01c6c3c8e7b067f0ef1b157f66dd148b6398f59190d953"
+  },
+  {
+    "name": "Giant Ape",
+    "publication": "DDAL04-14 - The Darklord",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast, D&D Adventurers League",
+    "printedTitle": "The Dark Lord",
+    "printing": "2016 , version 1.0 on the cover",
+    "author": "Greg Marks",
+    "section": "Appendix monster statistics, Giant Ape",
+    "encounterHeading": "Part 2, Do You Have Any Candy?",
+    "printedPages": [
+      32
+    ],
+    "pdfPages": [
+      32
+    ],
+    "supportingPrintedPages": [
+      14
+    ],
+    "sourceUrl": "",
+    "url": "",
+    "encounterWitnessUrls": [
+      ""
+    ],
+    "localPrintWitness": " - 5th Edition (2014)/Adventures/DDAL04-14 - The ",
+    "localPrintSha256": "4713759b735ff9d13280b1330045d61812505766d320ec928f5ba3e30e9367d9",
+    "publisherCatalogUrl": "",
+    "productUrl": "https://www.dmsguild.com/product/186787/DDAL0414-The-Darklord-5e",
+    "sourceAccess": "Read the 2016 local adventure and visually checked the relevant folio. The linked full-text corroborates the adventure version.",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae",
+    "errataEvidence": "No official correction for this standalone adventure block was located.",
+    "operationalEvidence": "The Giant Ape stand-alone block supplies Fist, Rock and its two-Fist Multiattack. The encounter supplies the toy transformation, behavior and party-strength changes.",
+    "appearanceEvidence": "Editorial description based on verified reused art. Adventure-specific morphology is recorded in the encounter prose.",
+    "habitatEvidence": "Tags from the printed encounter location.",
+    "artGroup": "giant-ape",
+    "reuseSha256": "9b0f85a5cfa152fa78795b774ea683000cc0bc57d28f58a6bc94bb301dbb8024"
+  },
+  {
+    "name": "Giant Crocodile",
+    "publication": "DDAL04-14 - The Darklord",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast, D&D Adventurers League",
+    "printedTitle": "The Dark Lord",
+    "printing": "2016 , version 1.0 on the cover",
+    "author": "Greg Marks",
+    "section": "Appendix monster statistics, Giant Crocodile",
+    "encounterHeading": "Part 2, Do You Have Any Candy?",
+    "printedPages": [
+      32
+    ],
+    "pdfPages": [
+      32
+    ],
+    "supportingPrintedPages": [
+      14
+    ],
+    "sourceUrl": "",
+    "url": "",
+    "encounterWitnessUrls": [
+      ""
+    ],
+    "localPrintWitness": " - 5th Edition (2014)/Adventures/DDAL04-14 - The ",
+    "localPrintSha256": "4713759b735ff9d13280b1330045d61812505766d320ec928f5ba3e30e9367d9",
+    "publisherCatalogUrl": "",
+    "productUrl": "https://www.dmsguild.com/product/186787/DDAL0414-The-Darklord-5e",
+    "sourceAccess": "Read the 2016 local adventure and visually checked the relevant folio. The linked full-text corroborates the adventure version.",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae",
+    "errataEvidence": "No official correction for this standalone adventure block was located.",
+    "operationalEvidence": "Folio 32 prints walk 40 ft. and swim 50 ft. Bite and Tail continue across both columns. Tail cannot target a creature held in the crocodile’s Bite grapple.",
+    "sourceDiscrepancies": "The adventure gives a 40-ft. walking speed. The 2014 Monster Manual p. 324 gives 30 ft. This encounter uses the adventure’s speed.",
+    "appearanceEvidence": "Editorial description based on verified reused art. Adventure-specific morphology is recorded in the encounter prose.",
+    "habitatEvidence": "Tags from the printed encounter location.",
+    "artGroup": "giant-crocodile",
+    "reuseSha256": "47c163be19bce15b8b378a7d363eda71a9907de6d79a6c7d6fea03c06c0ee96b"
+  },
+  {
+    "name": "Brown Bear",
+    "publication": "DDAL04-05 - The Seer",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast, D&D Adventurers League",
+    "printedTitle": "The Seer",
+    "printing": "2016 English , with no version number on the cover",
+    "author": "Ron Lundeen",
+    "section": "Appendix monster statistics, Brown Bear",
+    "encounterHeading": "Part 1, Snow Falling Upon the Cedars and Mysterious Drumming",
+    "printedPages": [
+      18
+    ],
+    "pdfPages": [
+      18
+    ],
+    "supportingPrintedPages": [
+      9
+    ],
+    "sourceUrl": "",
+    "url": "",
+    "encounterWitnessUrls": [
+      ""
+    ],
+    "localPrintWitness": " - 5th Edition (2014)/Adventures/DDAL04-05 - The ",
+    "localPrintSha256": "7996064702776bddb88afd06656ebf629e4593013e70e355e9ea3dd0573d75e0",
+    "publisherCatalogUrl": "",
+    "productUrl": "https://www.drivethrurpg.com/product/178796/DDAL0405-The-Seer-5e",
+    "sourceAccess": "Read the 2016 local adventure and visually checked the relevant folio. The linked full-text corroborates the adventure version.",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae",
+    "errataEvidence": "No official correction for this standalone adventure block was located.",
+    "separateMonsterManualErrataUrl": "",
+    "operationalEvidence": "Folio 9 supplies the original wilderness encounter, surprise exceptions, noncumulative adjustments and drumming. The Bear’s statistics and attacks are on p. 18.",
+    "sourceDiscrepancies": "The adventure prints +5 to hit for both attacks. The 2014 Monster Manual errata changes that book’s Brown Bear to +6.",
+    "appearanceEvidence": "Editorial description based on verified reused art. Adventure-specific morphology is recorded in the encounter prose.",
+    "habitatEvidence": "Tags from the printed encounter location.",
+    "artGroup": "brown-bear",
+    "reuseSha256": "4520d535cfed0d405c01c6c3c8e7b067f0ef1b157f66dd148b6398f59190d953"
+  },
+  {
+    "name": "Dire Wolf",
+    "publication": "DDAL04-05 - The Seer",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast, D&D Adventurers League",
+    "printedTitle": "The Seer",
+    "printing": "2016 English , with no version number on the cover",
+    "author": "Ron Lundeen",
+    "section": "Appendix monster statistics, Dire Wolf",
+    "encounterHeading": "Part 3, The Standing Stones, and Combat Awards",
+    "printedPages": [
+      18
+    ],
+    "pdfPages": [
+      18
+    ],
+    "supportingPrintedPages": [
+      14,
+      16
+    ],
+    "sourceUrl": "",
+    "url": "",
+    "encounterWitnessUrls": [
+      "",
+      ""
+    ],
+    "localPrintWitness": " - 5th Edition (2014)/Adventures/DDAL04-05 - The ",
+    "localPrintSha256": "7996064702776bddb88afd06656ebf629e4593013e70e355e9ea3dd0573d75e0",
+    "publisherCatalogUrl": "",
+    "productUrl": "https://www.drivethrurpg.com/product/178796/DDAL0405-The-Seer-5e",
+    "sourceAccess": "Read the 2016 local adventure and visually checked the relevant folio. The linked full-text corroborates the adventure version.",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae",
+    "errataEvidence": "No official correction for this standalone adventure block was located.",
+    "operationalEvidence": "Folio 18 prints the full Dire Wolf stat block across its two columns. It is also in the combat award table on p. 16. Folio 14 mentions lurking wolves and wolf tracks but gives no encounter roster.",
+    "sourceDiscrepancies": "The adventure references lurking wolves but gives no exact group size or placement for the Dire Wolf.",
+    "appearanceEvidence": "Editorial description based on verified reused art. Adventure-specific morphology is recorded in the encounter prose.",
+    "habitatEvidence": "Editorial tags from the adventure’s forest route and its reference to lurking wolves and wolf tracks.",
+    "artGroup": "dire-wolf",
+    "reuseSha256": "1158da2a59e3af0d967ea0daa3f16602fa8f678eefbb51e591e495f955732c5c"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "baseline": "4c7663a9927069b4a62397016d64b1c37e2d64ac",
+  "temporaryCopy": true,
+  "exactProfiles": 2,
+  "printedCombatProfilesVerified": 2,
+  "searchableByNameRuleAppearanceHabitat": 2,
+  "globalSearchResults": 2,
+  "distinctAdventureVersionKeys": true,
+  "testedAlongsideEachOlderAdventurePatch": true,
+  "existingDefaults": {
+    "Crocodile": "Basic Rules (2018)",
+    "Giant Crocodile": "Basic Rules (2018)"
+  },
+  "existingDefaultThumbnailsPreserved": true,
+  "existingPublicationVersionsPreserved": true,
+  "publisherGalleriesPreserved": true,
+  "compatibleWithPreviouslyStagedMonstrousManualPatches": true,
+  "printedGiantEncounterRangesPreserved": true,
+  "versionPortraitsVerified": 2,
+  "newPortraitDrafts": 2,
+  "noChallengeImported": true,
+  "selectedPublication": "Monstrous Manual (1994 third printing)"
+}

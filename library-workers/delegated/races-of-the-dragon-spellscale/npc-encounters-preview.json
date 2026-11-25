@@ -1,0 +1,257 @@
+{
+  "Spellscale": {
+    "profiles": [
+      {
+        "name": "Spellscale",
+        "imageKey": "species:spellscale",
+        "kind": "species",
+        "type": "Humanoid (Dragonblood)",
+        "publication": "Races of the Dragon (2006)",
+        "edition": "3.5 edition",
+        "publisher": "Wizards of the Coast",
+        "source": "https://www.drivethrurpg.com/en/product/28750/races-of-the-dragon-3-5",
+        "challenge": "",
+        "images": [],
+        "speciesRulesStatus": "local-summary",
+        "speciesTraits": [
+          "Medium Humanoid with the Dragonblood subtype. +2 Charisma, −2 Constitution. Base land speed 30 ft. Low-light vision preserves color and detail in dim light at twice human range.",
+          "A Spellscale counts as a dragon for racial effects. The subtype also affects eligibility for dragon-specific abilities, feats, and items, and makes the Spellscale subject to harmful dragon-targeted effects. The creature type remains Humanoid.",
+          "Common and Draconic are automatic. Bonus languages are Dwarven, Elven, Gnome, and Halfling. Favored class Sorcerer. No racial Hit Dice or level adjustment are added.",
+          "Blood Quickening takes one hour and grants the benefits of one chosen dragon deity for 24 hours. Choose at most one meditation per day. A check bonus is racial and equals half character level, rounded down. Borrowed feats cannot meet prerequisites and still use the normal feat rules.",
+          "Aasterinian grants a Disguise bonus and three uses of Improved Counterspell. Astilabor grants an Appraise bonus and Eschew Materials all day. Chronepsis grants a Listen bonus and Silent Spell for the day.",
+          "Bahamut adds 2d6 damage to one evil creature targeted by or in the area of the spell, up to three times. Tiamat works the same way against a good creature.",
+          "Falazure treats inflict spells as on your spell list for spell completion and spell trigger items. Tamara does the same for cure spells. These meditations allow item use and grant no spells known.",
+          "Garyx grants two uses of Widen Spell. Hlal provides a Perform (storytelling) bonus and three uses of Heighten Spell. Io gives a Spellcraft bonus and three uses of Empower Spell. Lendys gives a Concentration bonus and Still Spell for the day.",
+          "The optional Rite of Spellscale Assumption converts a willing nondraconic Humanoid. Over seven consecutive days the officiating Spellscale must be able to cast polymorph and have 10 ranks in Knowledge (arcana). Materials cost 2,000 gp. The rite replaces racial traits and removes former racial Hit Dice and level adjustment. Existing languages and favored classes are retained, with Draconic and Sorcerer added."
+        ],
+        "npcStatus": "original-build",
+        "npcBuilds": [
+          {
+            "species": "Spellscale",
+            "size": "Medium",
+            "edition": "3.5 edition",
+            "speciesPublication": "Races of the Dragon (2006)",
+            "name": "Isette Mossglass",
+            "build": {
+              "id": "spellscale-sluice-rescue-sorcerer-35e",
+              "title": "Spellscale sluice rescue, Sorcerer 1",
+              "origin": "Original DM Library NPC",
+              "editions": [
+                "3.5 edition"
+              ],
+              "difficulty": "Provisional CR 1. ECL 1.",
+              "size": "Medium",
+              "type": "Humanoid (Dragonblood)",
+              "ac": 12,
+              "hp": 5,
+              "hitDice": "1d4+1",
+              "initiative": 6,
+              "speed": "30 ft.",
+              "abilityScores": {
+                "STR": 10,
+                "DEX": 14,
+                "CON": 12,
+                "INT": 12,
+                "WIS": 10,
+                "CHA": 17
+              },
+              "skills": [
+                "Concentration +5",
+                "Knowledge (arcana) +5",
+                "Spellcraft +5"
+              ],
+              "senses": "Low-light vision.",
+              "languages": "Common, Draconic, Elven",
+              "traits": [
+                "Neutral good. Unarmored, Dexterity +2. Touch 12, flat-footed 10. BAB +0, grapple +0. Fortitude +1, Reflex +2, Will +2. Improved Initiative adds +4.",
+                "Sorcerer caster level 1. Casts spontaneously. Five 0-level slots and four 1st-level slots per day. Save DC 13 or 14 respectively. Carries a spell component pouch and has no familiar.",
+                "Blood Quickening: Bahamut active after one hour of meditation. Up to three times during the next 24 hours, choose one evil creature targeted by or in the area of a spell she casts and add 2d6 damage to that creature."
+              ],
+              "actions": [
+                "Quarterstaff +0 melee, 1d6 bludgeoning, critical ×2, 5-ft. reach. Light crossbow +2 ranged, 1d8 piercing, critical 19–20/×2, 80-ft. increment. Reload as a move action.",
+                "Magic missile (1st): standard action, one creature within 110 ft., 1d4+1 force, no attack roll or save. Spell resistance applies. With Bahamut active and a use spent on an evil creature, add 2d6 damage.",
+                "Mage armor (1st): standard action, touch, 1 hour. On Isette it raises AC to 16 and flat-footed AC to 14. Ordinary touch AC remains 12. The force armor applies against incorporeal touch attacks.",
+                "Cantrips known: detect magic (concentration, up to 1 minute, 60-ft. cone), light (object touched, 10 minutes), mage hand (one unattended nonmagical object weighing at most 5 lb. within 25 ft. while concentrating), and read magic."
+              ],
+              "tactics": "Isette wants to open an inspection sluice to reach two missing workers. She casts mage armor before entering and asks the party to keep a rope on the dry side. She saves her meditation’s damage for an evil creature blocking the way."
+            },
+            "role": "Sluice rescue Sorcerer.",
+            "motive": "Reach two workers who failed to return from a sluice inspection.",
+            "hook": "Isette asks the party to hold a line from the dry side while she goes down the steps."
+          },
+          {
+            "species": "Spellscale",
+            "size": "Medium",
+            "edition": "3.5 edition",
+            "speciesPublication": "Races of the Dragon (2006)",
+            "name": "Meren Thistlekey",
+            "build": {
+              "id": "spellscale-waystation-storyteller-35e",
+              "title": "Spellscale waystation storyteller, Bard 2",
+              "origin": "Original DM Library NPC",
+              "editions": [
+                "3.5 edition"
+              ],
+              "difficulty": "Provisional CR 2. ECL 2.",
+              "size": "Medium",
+              "type": "Humanoid (Dragonblood)",
+              "ac": 15,
+              "hp": 12,
+              "hitDice": "2d6+2",
+              "initiative": 2,
+              "speed": "30 ft.",
+              "abilityScores": {
+                "STR": 10,
+                "DEX": 14,
+                "CON": 12,
+                "INT": 10,
+                "WIS": 12,
+                "CHA": 16
+              },
+              "skills": [
+                "Bluff +8",
+                "Diplomacy +12",
+                "Listen +6",
+                "Perform (storytelling) +12 with Hlal, +11 otherwise",
+                "Sense Motive +6",
+                "Tumble +6"
+              ],
+              "senses": "Low-light vision.",
+              "languages": "Common, Draconic",
+              "traits": [
+                "Chaotic good. Studded leather +3 and Dexterity +2. Touch 12, flat-footed 13. BAB +1, grapple +1. Fortitude +1, Reflex +5, Will +4. Light armor leaves bard spells usable. Armor check penalty −1.",
+                "Skill Focus (Perform [storytelling]) adds +3. Bardic knowledge +2. Bard caster level 2. Casts spontaneously, with three 0-level slots and one 1st-level slot per day. Save DC 13 or 14 respectively. Carries a spell component pouch.",
+                "Blood Quickening: Hlal active. At level 2 it adds +1 racial to Perform (storytelling) and grants three uses of Heighten Spell that day. He has one 1st-level slot to spend on a heightened cantrip or a 1st-level spell."
+              ],
+              "actions": [
+                "Rapier +1 melee, 1d6 piercing, critical 18–20/×2, 5-ft. reach. Shortbow +3 ranged, 1d6 piercing, critical ×3, 60-ft. increment.",
+                "Bardic music 2/day, standard action to start. Inspire courage grants +1 morale on attack rolls, weapon damage, and saves against charm and fear while heard and for 5 rounds afterward.",
+                "Countersong lets listeners within 30 ft. use his Perform check instead of a lower save against magical attacks that are sonic or language-dependent, for up to 10 rounds. An ongoing eligible effect grants another save using the Perform result. Fascinate affects one attentive creature within 90 ft. outside combat distractions. It uses his Perform result as the Will DC and lasts up to 2 rounds with concentration.",
+                "Daze (0): standard action, one Humanoid of 4 HD or less within 30 ft. It takes no actions for 1 round on failed DC 13 Will. Spell resistance applies. Hlal allows Heighten Spell with his sole 1st-level slot for DC 14 and a full-round casting action.",
+                "Other cantrips known: detect magic (60-ft. cone), light (object touched, 20 minutes), mage hand (one unattended nonmagical object weighing at most 5 lb. within 30 ft. while concentrating), and prestidigitation.",
+                "Cure light wounds (1st): standard action, touch, heals 1d8+2 on a willing living target. Expeditious retreat (1st): standard action, personal, increases land speed to 60 ft. for 2 minutes."
+              ],
+              "tactics": "Meren is keeping families together after the outbound wagons failed to arrive. He tells a story so they can count who is present. He keeps his only 1st-level slot for an injured traveler unless a hostile Humanoid needs to be stopped immediately."
+            },
+            "role": "Waystation storyteller and Bard.",
+            "motive": "Keep the waiting families together until the missing wagons come in.",
+            "hook": "Meren knows the last driver to use the road and offers to check the passenger roll with the party."
+          }
+        ]
+      }
+    ],
+    "npcs": [
+      {
+        "species": "Spellscale",
+        "size": "Medium",
+        "edition": "3.5 edition",
+        "speciesPublication": "Races of the Dragon (2006)",
+        "name": "Isette Mossglass",
+        "build": {
+          "id": "spellscale-sluice-rescue-sorcerer-35e",
+          "title": "Spellscale sluice rescue, Sorcerer 1",
+          "origin": "Original DM Library NPC",
+          "editions": [
+            "3.5 edition"
+          ],
+          "difficulty": "Provisional CR 1. ECL 1.",
+          "size": "Medium",
+          "type": "Humanoid (Dragonblood)",
+          "ac": 12,
+          "hp": 5,
+          "hitDice": "1d4+1",
+          "initiative": 6,
+          "speed": "30 ft.",
+          "abilityScores": {
+            "STR": 10,
+            "DEX": 14,
+            "CON": 12,
+            "INT": 12,
+            "WIS": 10,
+            "CHA": 17
+          },
+          "skills": [
+            "Concentration +5",
+            "Knowledge (arcana) +5",
+            "Spellcraft +5"
+          ],
+          "senses": "Low-light vision.",
+          "languages": "Common, Draconic, Elven",
+          "traits": [
+            "Neutral good. Unarmored, Dexterity +2. Touch 12, flat-footed 10. BAB +0, grapple +0. Fortitude +1, Reflex +2, Will +2. Improved Initiative adds +4.",
+            "Sorcerer caster level 1. Casts spontaneously. Five 0-level slots and four 1st-level slots per day. Save DC 13 or 14 respectively. Carries a spell component pouch and has no familiar.",
+            "Blood Quickening: Bahamut active after one hour of meditation. Up to three times during the next 24 hours, choose one evil creature targeted by or in the area of a spell she casts and add 2d6 damage to that creature."
+          ],
+          "actions": [
+            "Quarterstaff +0 melee, 1d6 bludgeoning, critical ×2, 5-ft. reach. Light crossbow +2 ranged, 1d8 piercing, critical 19–20/×2, 80-ft. increment. Reload as a move action.",
+            "Magic missile (1st): standard action, one creature within 110 ft., 1d4+1 force, no attack roll or save. Spell resistance applies. With Bahamut active and a use spent on an evil creature, add 2d6 damage.",
+            "Mage armor (1st): standard action, touch, 1 hour. On Isette it raises AC to 16 and flat-footed AC to 14. Ordinary touch AC remains 12. The force armor applies against incorporeal touch attacks.",
+            "Cantrips known: detect magic (concentration, up to 1 minute, 60-ft. cone), light (object touched, 10 minutes), mage hand (one unattended nonmagical object weighing at most 5 lb. within 25 ft. while concentrating), and read magic."
+          ],
+          "tactics": "Isette wants to open an inspection sluice to reach two missing workers. She casts mage armor before entering and asks the party to keep a rope on the dry side. She saves her meditation’s damage for an evil creature blocking the way."
+        },
+        "role": "Sluice rescue Sorcerer.",
+        "motive": "Reach two workers who failed to return from a sluice inspection.",
+        "hook": "Isette asks the party to hold a line from the dry side while she goes down the steps."
+      },
+      {
+        "species": "Spellscale",
+        "size": "Medium",
+        "edition": "3.5 edition",
+        "speciesPublication": "Races of the Dragon (2006)",
+        "name": "Meren Thistlekey",
+        "build": {
+          "id": "spellscale-waystation-storyteller-35e",
+          "title": "Spellscale waystation storyteller, Bard 2",
+          "origin": "Original DM Library NPC",
+          "editions": [
+            "3.5 edition"
+          ],
+          "difficulty": "Provisional CR 2. ECL 2.",
+          "size": "Medium",
+          "type": "Humanoid (Dragonblood)",
+          "ac": 15,
+          "hp": 12,
+          "hitDice": "2d6+2",
+          "initiative": 2,
+          "speed": "30 ft.",
+          "abilityScores": {
+            "STR": 10,
+            "DEX": 14,
+            "CON": 12,
+            "INT": 10,
+            "WIS": 12,
+            "CHA": 16
+          },
+          "skills": [
+            "Bluff +8",
+            "Diplomacy +12",
+            "Listen +6",
+            "Perform (storytelling) +12 with Hlal, +11 otherwise",
+            "Sense Motive +6",
+            "Tumble +6"
+          ],
+          "senses": "Low-light vision.",
+          "languages": "Common, Draconic",
+          "traits": [
+            "Chaotic good. Studded leather +3 and Dexterity +2. Touch 12, flat-footed 13. BAB +1, grapple +1. Fortitude +1, Reflex +5, Will +4. Light armor leaves bard spells usable. Armor check penalty −1.",
+            "Skill Focus (Perform [storytelling]) adds +3. Bardic knowledge +2. Bard caster level 2. Casts spontaneously, with three 0-level slots and one 1st-level slot per day. Save DC 13 or 14 respectively. Carries a spell component pouch.",
+            "Blood Quickening: Hlal active. At level 2 it adds +1 racial to Perform (storytelling) and grants three uses of Heighten Spell that day. He has one 1st-level slot to spend on a heightened cantrip or a 1st-level spell."
+          ],
+          "actions": [
+            "Rapier +1 melee, 1d6 piercing, critical 18–20/×2, 5-ft. reach. Shortbow +3 ranged, 1d6 piercing, critical ×3, 60-ft. increment.",
+            "Bardic music 2/day, standard action to start. Inspire courage grants +1 morale on attack rolls, weapon damage, and saves against charm and fear while heard and for 5 rounds afterward.",
+            "Countersong lets listeners within 30 ft. use his Perform check instead of a lower save against magical attacks that are sonic or language-dependent, for up to 10 rounds. An ongoing eligible effect grants another save using the Perform result. Fascinate affects one attentive creature within 90 ft. outside combat distractions. It uses his Perform result as the Will DC and lasts up to 2 rounds with concentration.",
+            "Daze (0): standard action, one Humanoid of 4 HD or less within 30 ft. It takes no actions for 1 round on failed DC 13 Will. Spell resistance applies. Hlal allows Heighten Spell with his sole 1st-level slot for DC 14 and a full-round casting action.",
+            "Other cantrips known: detect magic (60-ft. cone), light (object touched, 20 minutes), mage hand (one unattended nonmagical object weighing at most 5 lb. within 30 ft. while concentrating), and prestidigitation.",
+            "Cure light wounds (1st): standard action, touch, heals 1d8+2 on a willing living target. Expeditious retreat (1st): standard action, personal, increases land speed to 60 ft. for 2 minutes."
+          ],
+          "tactics": "Meren is keeping families together after the outbound wagons failed to arrive. He tells a story so they can count who is present. He keeps his only 1st-level slot for an injured traveler unless a hostile Humanoid needs to be stopped immediately."
+        },
+        "role": "Waystation storyteller and Bard.",
+        "motive": "Keep the waiting families together until the missing wagons come in.",
+        "hook": "Meren knows the last driver to use the road and offers to check the passenger roll with the party."
+      }
+    ]
+  }
+}

@@ -1,0 +1,3869 @@
+{
+  "snapshot": "5e.tools v2.41.0",
+  "sourceItemRows": 2837,
+  "itemGroups": 127,
+  "variantTemplates": 230,
+  "nameFamilies": 2125,
+  "matchedExistingFamilies": 235,
+  "stockBefore": 818,
+  "added": 153,
+  "stockAfter": 971,
+  "sourcePrices": 62,
+  "housePrices": 91,
+  "existingPriceDifferences": 41,
+  "addedStock": [
+    {
+      "name": "Basket",
+      "shops": [
+        "general-store"
+      ],
+      "category": "containers",
+      "tier": "mundane",
+      "price": "4 sp",
+      "priceCp": 40,
+      "pricing": "source",
+      "source": "PHB",
+      "pageUrl": "https://5e.tools/items.html#basket_phb",
+      "detail": "Open carry basket for produce, pottery, or loose supplies."
+    },
+    {
+      "name": "Bucket",
+      "shops": [
+        "general-store"
+      ],
+      "category": "containers",
+      "tier": "mundane",
+      "price": "5 cp",
+      "priceCp": 5,
+      "pricing": "source",
+      "source": "PHB",
+      "pageUrl": "https://5e.tools/items.html#bucket_phb",
+      "detail": "Useful for drawing water, bailing, or carrying rubble."
+    },
+    {
+      "name": "Iron Pot",
+      "shops": [
+        "general-store"
+      ],
+      "category": "containers",
+      "tier": "mundane",
+      "price": "2 gp",
+      "priceCp": 200,
+      "pricing": "source",
+      "source": "PHB",
+      "pageUrl": "https://5e.tools/items.html#iron%20pot_phb",
+      "detail": "Camp cookware for a group meal."
+    },
+    {
+      "name": "Pitcher",
+      "shops": [
+        "general-store"
+      ],
+      "category": "containers",
+      "tier": "mundane",
+      "price": "2 cp",
+      "priceCp": 2,
+      "pricing": "source",
+      "source": "PHB",
+      "pageUrl": "https://5e.tools/items.html#pitcher_phb",
+      "detail": "A wide-mouthed serving vessel."
+    },
+    {
+      "name": "Grappling Hook",
+      "shops": [
+        "general-store",
+        "toolwright"
+      ],
+      "category": "hardware",
+      "tier": "mundane",
+      "price": "2 gp",
+      "priceCp": 200,
+      "pricing": "source",
+      "source": "PHB",
+      "pageUrl": "https://5e.tools/items.html#grappling%20hook_phb",
+      "detail": "Rig a line for a climb or haul."
+    },
+    {
+      "name": "Ladder (10-foot)",
+      "shops": [
+        "general-store",
+        "toolwright"
+      ],
+      "category": "hardware",
+      "tier": "mundane",
+      "price": "1 sp",
+      "priceCp": 10,
+      "pricing": "source",
+      "source": "PHB",
+      "pageUrl": "https://5e.tools/items.html#ladder%20(10-foot)_phb",
+      "detail": "Fixed-length ladder for roofs and short drops."
+    },
+    {
+      "name": "Fishing Tackle",
+      "shops": [
+        "general-store",
+        "fishmonger"
+      ],
+      "category": "travel",
+      "tier": "mundane",
+      "price": "1 gp",
+      "priceCp": 100,
+      "pricing": "source",
+      "source": "PHB",
+      "pageUrl": "https://5e.tools/items.html#fishing%20tackle_phb",
+      "detail": "A kit for catching a meal where fishing is possible."
+    },
+    {
+      "name": "Burglar's Pack",
+      "shops": [
+        "general-store"
+      ],
+      "category": "travel",
+      "tier": "mundane",
+      "price": "16 gp",
+      "priceCp": 1600,
+      "pricing": "source",
+      "source": "PHB",
+      "pageUrl": "https://5e.tools/items.html#burglar's%20pack_phb",
+      "detail": "Ready-packed supplies for a break-in. Check the source for contents."
+    },
+    {
+      "name": "Entertainer's Pack",
+      "shops": [
+        "general-store"
+      ],
+      "category": "travel",
+      "tier": "mundane",
+      "price": "40 gp",
+      "priceCp": 4000,
+      "pricing": "source",
+      "source": "PHB",
+      "pageUrl": "https://5e.tools/items.html#entertainer's%20pack_phb",
+      "detail": "Ready-packed equipment for a traveling performer."
+    },
+    {
+      "name": "Priest's Pack",
+      "shops": [
+        "general-store"
+      ],
+      "category": "travel",
+      "tier": "mundane",
+      "price": "19 gp",
+      "priceCp": 1900,
+      "pricing": "source",
+      "source": "PHB",
+      "pageUrl": "https://5e.tools/items.html#priest's%20pack_phb",
+      "detail": "Field supplies for a traveling priest."
+    },
+    {
+      "name": "Traveler's Clothes",
+      "shops": [
+        "general-store"
+      ],
+      "category": "travel",
+      "tier": "mundane",
+      "price": "2 gp",
+      "priceCp": 200,
+      "pricing": "source",
+      "source": "PHB",
+      "pageUrl": "https://5e.tools/items.html#traveler's%20clothes_phb",
+      "detail": "A durable traveling outfit."
+    },
+    {
+      "name": "Silk Rope (50 feet)",
+      "shops": [
+        "general-store"
+      ],
+      "category": "travel",
+      "tier": "mundane",
+      "price": "10 gp",
+      "priceCp": 1000,
+      "pricing": "source",
+      "source": "PHB",
+      "pageUrl": "https://5e.tools/items.html#silk%20rope%20(50%20feet)_phb",
+      "detail": "A lighter alternative to the store's hemp rope."
+    },
+    {
+      "name": "Soap",
+      "shops": [
+        "general-store"
+      ],
+      "category": "travel",
+      "tier": "mundane",
+      "price": "2 cp",
+      "priceCp": 2,
+      "pricing": "source",
+      "source": "PHB",
+      "pageUrl": "https://5e.tools/items.html#soap_phb",
+      "detail": "A bar for cleaning hands, clothing, or gear."
+    },
+    {
+      "name": "Component Pouch",
+      "shops": [
+        "general-store",
+        "emporium"
+      ],
+      "category": "supplies",
+      "tier": "mundane",
+      "price": "25 gp",
+      "priceCp": 2500,
+      "pricing": "source",
+      "source": "PHB",
+      "pageUrl": "https://5e.tools/items.html#component%20pouch_phb",
+      "detail": "Holds ordinary spell components. Buy specific components separately when a spell calls for them."
+    },
+    {
+      "name": "Calligrapher's Supplies",
+      "shops": [
+        "scribe"
+      ],
+      "category": "writing supplies",
+      "tier": "mundane",
+      "price": "10 gp",
+      "priceCp": 1000,
+      "pricing": "source",
+      "source": "PHB",
+      "pageUrl": "https://5e.tools/items.html#calligrapher's%20supplies_phb",
+      "detail": "Tools for professional lettering and inscription."
+    },
+    {
+      "name": "Paper (one sheet)",
+      "shops": [
+        "scribe"
+      ],
+      "category": "writing supplies",
+      "tier": "mundane",
+      "price": "2 sp",
+      "priceCp": 20,
+      "pricing": "source",
+      "source": "PHB",
+      "pageUrl": "https://5e.tools/items.html#paper%20(one%20sheet)_phb",
+      "detail": "A sheet for letters or notes."
+    },
+    {
+      "name": "Forgery Kit",
+      "shops": [
+        "toolwright"
+      ],
+      "category": "tools",
+      "tier": "mundane",
+      "price": "15 gp",
+      "priceCp": 1500,
+      "pricing": "source",
+      "source": "PHB",
+      "pageUrl": "https://5e.tools/items.html#forgery%20kit_phb",
+      "detail": "Tools for producing convincing credentials and documents."
+    },
+    {
+      "name": "Disguise Kit",
+      "shops": [
+        "toolwright"
+      ],
+      "category": "tools",
+      "tier": "mundane",
+      "price": "25 gp",
+      "priceCp": 2500,
+      "pricing": "source",
+      "source": "PHB",
+      "pageUrl": "https://5e.tools/items.html#disguise%20kit_phb",
+      "detail": "Supplies for changing a person's outward appearance."
+    },
+    {
+      "name": "Thieves' Tools",
+      "shops": [
+        "toolwright"
+      ],
+      "category": "tools",
+      "tier": "mundane",
+      "price": "25 gp",
+      "priceCp": 2500,
+      "pricing": "source",
+      "source": "PHB",
+      "pageUrl": "https://5e.tools/items.html#thieves'%20tools_phb",
+      "detail": "Fine tools for locks and mechanical traps."
+    },
+    {
+      "name": "Herbalism Kit",
+      "shops": [
+        "herbalist"
+      ],
+      "category": "tools",
+      "tier": "mundane",
+      "price": "5 gp",
+      "priceCp": 500,
+      "pricing": "source",
+      "source": "PHB",
+      "pageUrl": "https://5e.tools/items.html#herbalism%20kit_phb",
+      "detail": "Kit for identifying and preparing medicinal plants."
+    },
+    {
+      "name": "Poisoner's Kit",
+      "shops": [
+        "alchemist"
+      ],
+      "category": "tools",
+      "tier": "mundane",
+      "price": "50 gp",
+      "priceCp": 5000,
+      "pricing": "source",
+      "source": "PHB",
+      "pageUrl": "https://5e.tools/items.html#poisoner's%20kit_phb",
+      "detail": "Tools for handling fictional toxins in an alchemy scene."
+    },
+    {
+      "name": "Navigator's Tools",
+      "shops": [
+        "shipwright",
+        "toolwright"
+      ],
+      "category": "tools",
+      "tier": "mundane",
+      "price": "25 gp",
+      "priceCp": 2500,
+      "pricing": "source",
+      "source": "PHB",
+      "pageUrl": "https://5e.tools/items.html#navigator's%20tools_phb",
+      "detail": "Equipment for finding a course and tracking position."
+    },
+    {
+      "name": "Spyglass",
+      "shops": [
+        "shipwright",
+        "instrument maker"
+      ],
+      "category": "travel",
+      "tier": "mundane",
+      "price": "1000 gp",
+      "priceCp": 100000,
+      "pricing": "source",
+      "source": "PHB",
+      "pageUrl": "https://5e.tools/items.html#spyglass_phb",
+      "detail": "Study an object, shoreline, or sail from a distance."
+    },
+    {
+      "name": "Stabling (per day)",
+      "shops": [
+        "stables"
+      ],
+      "category": "services",
+      "tier": "mundane",
+      "price": "5 sp",
+      "priceCp": 50,
+      "pricing": "source",
+      "source": "PHB",
+      "pageUrl": "https://5e.tools/items.html#stabling%20(per%20day)_phb",
+      "detail": "A night's berth and care for one mount."
+    },
+    {
+      "name": "Goat",
+      "shops": [
+        "butcher",
+        "grocer"
+      ],
+      "category": "livestock",
+      "tier": "mundane",
+      "price": "1 gp",
+      "priceCp": 100,
+      "pricing": "source",
+      "source": "PHB",
+      "pageUrl": "https://5e.tools/items.html#goat_phb",
+      "detail": "One live goat for a household or homestead."
+    },
+    {
+      "name": "Pig",
+      "shops": [
+        "butcher",
+        "grocer"
+      ],
+      "category": "livestock",
+      "tier": "mundane",
+      "price": "3 gp",
+      "priceCp": 300,
+      "pricing": "source",
+      "source": "PHB",
+      "pageUrl": "https://5e.tools/items.html#pig_phb",
+      "detail": "One live pig."
+    },
+    {
+      "name": "Cow",
+      "shops": [
+        "butcher",
+        "grocer"
+      ],
+      "category": "livestock",
+      "tier": "mundane",
+      "price": "10 gp",
+      "priceCp": 1000,
+      "pricing": "source",
+      "source": "PHB",
+      "pageUrl": "https://5e.tools/items.html#cow_phb",
+      "detail": "One live cow."
+    },
+    {
+      "name": "Ox",
+      "shops": [
+        "stables"
+      ],
+      "category": "livestock",
+      "tier": "mundane",
+      "price": "15 gp",
+      "priceCp": 1500,
+      "pricing": "source",
+      "source": "PHB",
+      "pageUrl": "https://5e.tools/items.html#ox_phb",
+      "detail": "A draft animal for heavy loads."
+    },
+    {
+      "name": "Cinnamon",
+      "shops": [
+        "grocer"
+      ],
+      "category": "spices",
+      "tier": "mundane",
+      "price": "2 gp",
+      "priceCp": 200,
+      "pricing": "source",
+      "source": "PHB",
+      "pageUrl": "https://5e.tools/items.html#cinnamon_phb",
+      "detail": "Sold by the pound."
+    },
+    {
+      "name": "Cloves",
+      "shops": [
+        "grocer"
+      ],
+      "category": "spices",
+      "tier": "mundane",
+      "price": "3 gp",
+      "priceCp": 300,
+      "pricing": "source",
+      "source": "PHB",
+      "pageUrl": "https://5e.tools/items.html#cloves_phb",
+      "detail": "Sold by the pound."
+    },
+    {
+      "name": "Ginger",
+      "shops": [
+        "grocer"
+      ],
+      "category": "spices",
+      "tier": "mundane",
+      "price": "1 gp",
+      "priceCp": 100,
+      "pricing": "source",
+      "source": "PHB",
+      "pageUrl": "https://5e.tools/items.html#ginger_phb",
+      "detail": "Sold by the pound."
+    },
+    {
+      "name": "Pepper",
+      "shops": [
+        "grocer"
+      ],
+      "category": "spices",
+      "tier": "mundane",
+      "price": "2 gp",
+      "priceCp": 200,
+      "pricing": "source",
+      "source": "PHB",
+      "pageUrl": "https://5e.tools/items.html#pepper_phb",
+      "detail": "Sold by the pound."
+    },
+    {
+      "name": "Saffron",
+      "shops": [
+        "grocer"
+      ],
+      "category": "spices",
+      "tier": "mundane",
+      "price": "15 gp",
+      "priceCp": 1500,
+      "pricing": "source",
+      "source": "PHB",
+      "pageUrl": "https://5e.tools/items.html#saffron_phb",
+      "detail": "Sold by the pound."
+    },
+    {
+      "name": "Canvas (1 sq. yd.)",
+      "shops": [
+        "tailor"
+      ],
+      "category": "cloth",
+      "tier": "mundane",
+      "price": "1 sp",
+      "priceCp": 10,
+      "pricing": "source",
+      "source": "PHB",
+      "pageUrl": "https://5e.tools/items.html#canvas%20(1%20sq.%20yd.)_phb",
+      "detail": "Heavy cloth for bags, awnings, and sail repairs."
+    },
+    {
+      "name": "Cotton Cloth (1 sq. yd.)",
+      "shops": [
+        "tailor"
+      ],
+      "category": "cloth",
+      "tier": "mundane",
+      "price": "5 sp",
+      "priceCp": 50,
+      "pricing": "source",
+      "source": "PHB",
+      "pageUrl": "https://5e.tools/items.html#cotton%20cloth%20(1%20sq.%20yd.)_phb",
+      "detail": "Light cloth for garments and linings."
+    },
+    {
+      "name": "Linen (1 sq. yd.)",
+      "shops": [
+        "tailor"
+      ],
+      "category": "cloth",
+      "tier": "mundane",
+      "price": "5 gp",
+      "priceCp": 500,
+      "pricing": "source",
+      "source": "PHB",
+      "pageUrl": "https://5e.tools/items.html#linen%20(1%20sq.%20yd.)_phb",
+      "detail": "Cloth for shirts, household linens, and warm-weather layers."
+    },
+    {
+      "name": "Silk (1 sq. yd.)",
+      "shops": [
+        "tailor"
+      ],
+      "category": "cloth",
+      "tier": "mundane",
+      "price": "10 gp",
+      "priceCp": 1000,
+      "pricing": "source",
+      "source": "PHB",
+      "pageUrl": "https://5e.tools/items.html#silk%20(1%20sq.%20yd.)_phb",
+      "detail": "Fine cloth for dressmaking and decorative work."
+    },
+    {
+      "name": "Light Hammer",
+      "shops": [
+        "blacksmith"
+      ],
+      "category": "weapons",
+      "tier": "mundane",
+      "price": "2 gp",
+      "priceCp": 200,
+      "pricing": "source",
+      "source": "PHB",
+      "pageUrl": "https://5e.tools/items.html#light%20hammer_phb",
+      "detail": "A small purpose-built throwing weapon."
+    },
+    {
+      "name": "Hand Crossbow",
+      "shops": [
+        "blacksmith"
+      ],
+      "category": "weapons",
+      "tier": "mundane",
+      "price": "75 gp",
+      "priceCp": 7500,
+      "pricing": "source",
+      "source": "PHB",
+      "pageUrl": "https://5e.tools/items.html#hand%20crossbow_phb",
+      "detail": "A compact crossbow that fires one-handed and needs a free hand to reload."
+    },
+    {
+      "name": "Crossbow Bolt Case",
+      "shops": [
+        "blacksmith",
+        "general-store"
+      ],
+      "category": "hardware",
+      "tier": "mundane",
+      "price": "1 gp",
+      "priceCp": 100,
+      "pricing": "source",
+      "source": "PHB",
+      "pageUrl": "https://5e.tools/items.html#crossbow%20bolt%20case_phb",
+      "detail": "Holds crossbow ammunition separately from an arrow quiver."
+    },
+    {
+      "name": "Bagpipes",
+      "shops": [
+        "instrument maker"
+      ],
+      "category": "instruments",
+      "tier": "mundane",
+      "price": "30 gp",
+      "priceCp": 3000,
+      "pricing": "source",
+      "source": "PHB",
+      "pageUrl": "https://5e.tools/items.html#bagpipes_phb",
+      "detail": "Suited to marching and performances outdoors."
+    },
+    {
+      "name": "Viol",
+      "shops": [
+        "instrument maker"
+      ],
+      "category": "instruments",
+      "tier": "mundane",
+      "price": "30 gp",
+      "priceCp": 3000,
+      "pricing": "source",
+      "source": "PHB",
+      "pageUrl": "https://5e.tools/items.html#viol_phb",
+      "detail": "A bowed instrument sold with its bow."
+    },
+    {
+      "name": "Three-Dragon Ante Set",
+      "shops": [
+        "tavern"
+      ],
+      "category": "games",
+      "tier": "mundane",
+      "price": "1 gp",
+      "priceCp": 100,
+      "pricing": "source",
+      "source": "PHB",
+      "pageUrl": "https://5e.tools/items.html#three-dragon%20ante%20set_phb",
+      "detail": "A dedicated deck for the named tavern game."
+    },
+    {
+      "name": "Signet Ring",
+      "shops": [
+        "jeweler",
+        "scribe"
+      ],
+      "category": "insignia",
+      "tier": "mundane",
+      "price": "5 gp",
+      "priceCp": 500,
+      "pricing": "source",
+      "source": "PHB",
+      "pageUrl": "https://5e.tools/items.html#signet%20ring_phb",
+      "detail": "A personal seal for stamped correspondence."
+    },
+    {
+      "name": "Alexandrite",
+      "shops": [
+        "gem merchant"
+      ],
+      "category": "gemstones",
+      "tier": "mundane",
+      "price": "500 gp",
+      "priceCp": 50000,
+      "pricing": "source",
+      "source": "DMG",
+      "pageUrl": "https://5e.tools/items.html#alexandrite_dmg",
+      "detail": "A cut gem that can appear a different color under different light."
+    },
+    {
+      "name": "Azurite",
+      "shops": [
+        "gem merchant"
+      ],
+      "category": "gemstones",
+      "tier": "mundane",
+      "price": "10 gp",
+      "priceCp": 1000,
+      "pricing": "source",
+      "source": "DMG",
+      "pageUrl": "https://5e.tools/items.html#azurite_dmg",
+      "detail": "A low-cost deep-blue stone."
+    },
+    {
+      "name": "Chalcedony",
+      "shops": [
+        "gem merchant"
+      ],
+      "category": "gemstones",
+      "tier": "mundane",
+      "price": "50 gp",
+      "priceCp": 5000,
+      "pricing": "source",
+      "source": "DMG",
+      "pageUrl": "https://5e.tools/items.html#chalcedony_dmg",
+      "detail": "A pale, translucent carving stone."
+    },
+    {
+      "name": "Fire Opal",
+      "shops": [
+        "gem merchant"
+      ],
+      "category": "gemstones",
+      "tier": "mundane",
+      "price": "1000 gp",
+      "priceCp": 100000,
+      "pricing": "source",
+      "source": "DMG",
+      "pageUrl": "https://5e.tools/items.html#fire%20opal_dmg",
+      "detail": "A bright stone for high-value jewelry or trade."
+    },
+    {
+      "name": "Jacinth",
+      "shops": [
+        "gem merchant"
+      ],
+      "category": "gemstones",
+      "tier": "mundane",
+      "price": "5000 gp",
+      "priceCp": 500000,
+      "pricing": "source",
+      "source": "DMG",
+      "pageUrl": "https://5e.tools/items.html#jacinth_dmg",
+      "detail": "A high-value orange gem."
+    },
+    {
+      "name": "Malachite",
+      "shops": [
+        "gem merchant"
+      ],
+      "category": "gemstones",
+      "tier": "mundane",
+      "price": "10 gp",
+      "priceCp": 1000,
+      "pricing": "source",
+      "source": "DMG",
+      "pageUrl": "https://5e.tools/items.html#malachite_dmg",
+      "detail": "A banded green stone for carving or small inlays."
+    },
+    {
+      "name": "Rhodochrosite",
+      "shops": [
+        "gem merchant"
+      ],
+      "category": "gemstones",
+      "tier": "mundane",
+      "price": "10 gp",
+      "priceCp": 1000,
+      "pricing": "source",
+      "source": "DMG",
+      "pageUrl": "https://5e.tools/items.html#rhodochrosite_dmg",
+      "detail": "A pink ornamental stone."
+    },
+    {
+      "name": "Sardonyx",
+      "shops": [
+        "gem merchant"
+      ],
+      "category": "gemstones",
+      "tier": "mundane",
+      "price": "50 gp",
+      "priceCp": 5000,
+      "pricing": "source",
+      "source": "DMG",
+      "pageUrl": "https://5e.tools/items.html#sardonyx_dmg",
+      "detail": "Layered stone suited to engraving a cameo."
+    },
+    {
+      "name": "Spinel",
+      "shops": [
+        "gem merchant"
+      ],
+      "category": "gemstones",
+      "tier": "mundane",
+      "price": "100 gp",
+      "priceCp": 10000,
+      "pricing": "source",
+      "source": "DMG",
+      "pageUrl": "https://5e.tools/items.html#spinel_dmg",
+      "detail": "A cut gem for jewelry or trade."
+    },
+    {
+      "name": "Zircon",
+      "shops": [
+        "gem merchant"
+      ],
+      "category": "gemstones",
+      "tier": "mundane",
+      "price": "50 gp",
+      "priceCp": 5000,
+      "pricing": "source",
+      "source": "DMG",
+      "pageUrl": "https://5e.tools/items.html#zircon_dmg",
+      "detail": "A comparatively affordable stone for a ring or pendant."
+    },
+    {
+      "name": "Acid (vial)",
+      "shops": [
+        "alchemist"
+      ],
+      "category": "supplies",
+      "tier": "mundane",
+      "price": "25 gp",
+      "priceCp": 2500,
+      "pricing": "source",
+      "source": "PHB",
+      "pageUrl": "https://5e.tools/items.html#acid%20(vial)_phb",
+      "detail": "One dose sold in its throw-ready container."
+    },
+    {
+      "name": "Alchemist's Fire (flask)",
+      "shops": [
+        "alchemist"
+      ],
+      "category": "supplies",
+      "tier": "mundane",
+      "price": "50 gp",
+      "priceCp": 5000,
+      "pricing": "source",
+      "source": "PHB",
+      "pageUrl": "https://5e.tools/items.html#alchemist's%20fire%20(flask)_phb",
+      "detail": "A single-use flask of persistent flame."
+    },
+    {
+      "name": "Holy Water (flask)",
+      "shops": [
+        "alchemist"
+      ],
+      "category": "supplies",
+      "tier": "mundane",
+      "price": "25 gp",
+      "priceCp": 2500,
+      "pricing": "source",
+      "source": "PHB",
+      "pageUrl": "https://5e.tools/items.html#holy%20water%20(flask)_phb",
+      "detail": "One flask for a temple rite or an encounter with the undead."
+    },
+    {
+      "name": "Muroosa Balm",
+      "shops": [
+        "herbalist",
+        "alchemist"
+      ],
+      "category": "remedies",
+      "tier": "mundane",
+      "price": "100 gp",
+      "priceCp": 10000,
+      "pricing": "source",
+      "source": "EGW",
+      "pageUrl": "https://5e.tools/items.html#muroosa%20balm_egw",
+      "detail": "Apply over 1 minute to gain fire resistance for 1 hour."
+    },
+    {
+      "name": "Olisuba Leaf",
+      "shops": [
+        "herbalist",
+        "alchemist"
+      ],
+      "category": "remedies",
+      "tier": "mundane",
+      "price": "50 gp",
+      "priceCp": 5000,
+      "pricing": "source",
+      "source": "EGW",
+      "pageUrl": "https://5e.tools/items.html#olisuba%20leaf_egw",
+      "detail": "A prepared infusion for a night spent recovering from exhaustion."
+    },
+    {
+      "name": "Theki Root",
+      "shops": [
+        "herbalist",
+        "alchemist"
+      ],
+      "category": "remedies",
+      "tier": "mundane",
+      "price": "3 gp",
+      "priceCp": 300,
+      "pricing": "source",
+      "source": "EGW",
+      "pageUrl": "https://5e.tools/items.html#theki%20root_egw",
+      "detail": "Chew before an encounter where poison is expected."
+    },
+    {
+      "name": "Willowshade Oil",
+      "shops": [
+        "herbalist",
+        "alchemist"
+      ],
+      "category": "remedies",
+      "tier": "mundane",
+      "price": "30 gp",
+      "priceCp": 3000,
+      "pricing": "source",
+      "source": "EGW",
+      "pageUrl": "https://5e.tools/items.html#willowshade%20oil_egw",
+      "detail": "Ends petrification if applied within 1 minute of the creature becoming petrified."
+    },
+    {
+      "name": "Clockwork Amulet",
+      "shops": [
+        "oddities dealer"
+      ],
+      "category": "curiosities",
+      "tier": "specialty",
+      "price": "120 gp",
+      "priceCp": 12000,
+      "pricing": "house",
+      "source": "XGE",
+      "pageUrl": "https://5e.tools/items.html#clockwork%20amulet_xge",
+      "detail": "Once per day, use a fixed attack roll of 10 before modifiers."
+    },
+    {
+      "name": "Mystery Key",
+      "shops": [
+        "oddities dealer"
+      ],
+      "category": "curiosities",
+      "tier": "specialty",
+      "price": "85 gp",
+      "priceCp": 8500,
+      "pricing": "house",
+      "source": "XGE",
+      "pageUrl": "https://5e.tools/items.html#mystery%20key_xge",
+      "detail": "Test it on a lock that lacks its key. It vanishes once it opens one."
+    },
+    {
+      "name": "Orb of Direction",
+      "shops": [
+        "oddities dealer"
+      ],
+      "category": "curiosities",
+      "tier": "specialty",
+      "price": "75 gp",
+      "priceCp": 7500,
+      "pricing": "house",
+      "source": "XGE",
+      "pageUrl": "https://5e.tools/items.html#orb%20of%20direction_xge",
+      "detail": "Check which way is north while on the Material Plane."
+    },
+    {
+      "name": "Orb of Time",
+      "shops": [
+        "oddities dealer"
+      ],
+      "category": "curiosities",
+      "tier": "specialty",
+      "price": "65 gp",
+      "priceCp": 6500,
+      "pricing": "house",
+      "source": "XGE",
+      "pageUrl": "https://5e.tools/items.html#orb%20of%20time_xge",
+      "detail": "Check the time of day on the Material Plane."
+    },
+    {
+      "name": "Hat of Vermin",
+      "shops": [
+        "oddities dealer"
+      ],
+      "category": "curiosities",
+      "tier": "specialty",
+      "price": "95 gp",
+      "priceCp": 9500,
+      "pricing": "house",
+      "source": "XGE",
+      "pageUrl": "https://5e.tools/items.html#hat%20of%20vermin_xge",
+      "detail": "A magician's hat that can produce small harmless animals."
+    },
+    {
+      "name": "Talking Doll",
+      "shops": [
+        "oddities dealer"
+      ],
+      "category": "curiosities",
+      "tier": "specialty",
+      "price": "150 gp",
+      "priceCp": 15000,
+      "pricing": "house",
+      "source": "XGE",
+      "pageUrl": "https://5e.tools/items.html#talking%20doll_xge",
+      "detail": "Teach it phrases and set conditions for when it repeats them."
+    },
+    {
+      "name": "Pipe of Smoke Monsters",
+      "shops": [
+        "oddities dealer"
+      ],
+      "category": "curiosities",
+      "tier": "specialty",
+      "price": "60 gp",
+      "priceCp": 6000,
+      "pricing": "house",
+      "source": "XGE",
+      "pageUrl": "https://5e.tools/items.html#pipe%20of%20smoke%20monsters_xge",
+      "detail": "Make a short-lived smoke outline for a story or demonstration."
+    },
+    {
+      "name": "Charlatan's Die",
+      "shops": [
+        "oddities dealer"
+      ],
+      "category": "curiosities",
+      "tier": "specialty",
+      "price": "180 gp",
+      "priceCp": 18000,
+      "pricing": "house",
+      "source": "XGE",
+      "pageUrl": "https://5e.tools/items.html#charlatan's%20die_xge",
+      "detail": "The attuned holder can choose how it lands."
+    },
+    {
+      "name": "Dust of Deliciousness",
+      "shops": [
+        "oddities dealer"
+      ],
+      "category": "curiosities",
+      "tier": "specialty",
+      "price": "140 gp",
+      "priceCp": 14000,
+      "pricing": "house",
+      "source": "EGW",
+      "pageUrl": "https://5e.tools/items.html#dust%20of%20deliciousness_egw",
+      "detail": "Flavors up to six servings. Gives diners disadvantage on Wisdom checks and saves for 1 hour."
+    },
+    {
+      "name": "Pole of Collapsing",
+      "shops": [
+        "toolwright",
+        "oddities dealer"
+      ],
+      "category": "travel",
+      "tier": "specialty",
+      "price": "100 gp",
+      "priceCp": 10000,
+      "pricing": "house",
+      "source": "XGE",
+      "pageUrl": "https://5e.tools/items.html#pole%20of%20collapsing_xge",
+      "detail": "Carry a long probing pole in a much shorter form."
+    },
+    {
+      "name": "Rope of Mending",
+      "shops": [
+        "toolwright",
+        "oddities dealer"
+      ],
+      "category": "travel",
+      "tier": "specialty",
+      "price": "120 gp",
+      "priceCp": 12000,
+      "pricing": "house",
+      "source": "XGE",
+      "pageUrl": "https://5e.tools/items.html#rope%20of%20mending_xge",
+      "detail": "Rejoin its severed pieces by command."
+    },
+    {
+      "name": "Lock of Trickery",
+      "shops": [
+        "toolwright",
+        "oddities dealer"
+      ],
+      "category": "travel",
+      "tier": "specialty",
+      "price": "140 gp",
+      "priceCp": 14000,
+      "pricing": "house",
+      "source": "XGE",
+      "pageUrl": "https://5e.tools/items.html#lock%20of%20trickery_xge",
+      "detail": "A guard for a door or trunk that is harder to pick than a standard lock."
+    },
+    {
+      "name": "Immovable Rod",
+      "shops": [
+        "toolwright",
+        "oddities dealer"
+      ],
+      "category": "travel",
+      "tier": "specialty",
+      "price": "850 gp",
+      "priceCp": 85000,
+      "pricing": "house",
+      "source": "DMG",
+      "pageUrl": "https://5e.tools/items.html#immovable%20rod_dmg",
+      "detail": "Press its button to hold it in place. Useful as an anchor or temporary foothold."
+    },
+    {
+      "name": "Rope of Climbing",
+      "shops": [
+        "toolwright",
+        "oddities dealer"
+      ],
+      "category": "travel",
+      "tier": "specialty",
+      "price": "550 gp",
+      "priceCp": 55000,
+      "pricing": "house",
+      "source": "DMG",
+      "pageUrl": "https://5e.tools/items.html#rope%20of%20climbing_dmg",
+      "detail": "Send one end of the rope toward an anchor by command."
+    },
+    {
+      "name": "Pole of Angling",
+      "shops": [
+        "fishmonger",
+        "toolwright"
+      ],
+      "category": "travel",
+      "tier": "specialty",
+      "price": "90 gp",
+      "priceCp": 9000,
+      "pricing": "house",
+      "source": "XGE",
+      "pageUrl": "https://5e.tools/items.html#pole%20of%20angling_xge",
+      "detail": "Carry a short pole that can change into a fishing rod."
+    },
+    {
+      "name": "Candle of the Deep",
+      "shops": [
+        "chandler",
+        "shipwright"
+      ],
+      "category": "lighting",
+      "tier": "specialty",
+      "price": "90 gp",
+      "priceCp": 9000,
+      "pricing": "house",
+      "source": "XGE",
+      "pageUrl": "https://5e.tools/items.html#candle%20of%20the%20deep_xge",
+      "detail": "Gives light while submerged instead of going out."
+    },
+    {
+      "name": "Everbright Lantern",
+      "shops": [
+        "chandler",
+        "shipwright"
+      ],
+      "category": "lighting",
+      "tier": "specialty",
+      "price": "150 gp",
+      "priceCp": 15000,
+      "pricing": "house",
+      "source": "ERLW",
+      "pageUrl": "https://5e.tools/items.html#everbright%20lantern_erlw",
+      "detail": "Provides steady illumination without burning oil."
+    },
+    {
+      "name": "Boots of False Tracks",
+      "shops": [
+        "tailor"
+      ],
+      "category": "clothing",
+      "tier": "specialty",
+      "price": "130 gp",
+      "priceCp": 13000,
+      "pricing": "house",
+      "source": "XGE",
+      "pageUrl": "https://5e.tools/items.html#boots%20of%20false%20tracks_xge",
+      "detail": "Leave prints belonging to a different humanoid of the same size."
+    },
+    {
+      "name": "Cloak of Many Fashions",
+      "shops": [
+        "tailor"
+      ],
+      "category": "clothing",
+      "tier": "specialty",
+      "price": "130 gp",
+      "priceCp": 13000,
+      "pricing": "house",
+      "source": "XGE",
+      "pageUrl": "https://5e.tools/items.html#cloak%20of%20many%20fashions_xge",
+      "detail": "Change the cloak's style, color, and apparent quality."
+    },
+    {
+      "name": "Clothes of Mending",
+      "shops": [
+        "tailor"
+      ],
+      "category": "clothing",
+      "tier": "specialty",
+      "price": "80 gp",
+      "priceCp": 8000,
+      "pricing": "house",
+      "source": "XGE",
+      "pageUrl": "https://5e.tools/items.html#clothes%20of%20mending_xge",
+      "detail": "Repair small rips and tears in the garment over time."
+    },
+    {
+      "name": "Common Glamerweave",
+      "shops": [
+        "tailor"
+      ],
+      "category": "clothing",
+      "tier": "specialty",
+      "price": "130 gp",
+      "priceCp": 13000,
+      "pricing": "house",
+      "source": "ERLW",
+      "pageUrl": "https://5e.tools/items.html#common%20glamerweave_erlw",
+      "detail": "Cloth with a moving decorative illusion."
+    },
+    {
+      "name": "Shiftweave",
+      "shops": [
+        "tailor"
+      ],
+      "category": "clothing",
+      "tier": "specialty",
+      "price": "150 gp",
+      "priceCp": 15000,
+      "pricing": "house",
+      "source": "ERLW",
+      "pageUrl": "https://5e.tools/items.html#shiftweave_erlw",
+      "detail": "Switch between several outfits stored in one garment."
+    },
+    {
+      "name": "Cloak of Elvenkind",
+      "shops": [
+        "tailor"
+      ],
+      "category": "clothing",
+      "tier": "specialty",
+      "price": "800 gp",
+      "priceCp": 80000,
+      "pricing": "house",
+      "source": "DMG",
+      "pageUrl": "https://5e.tools/items.html#cloak%20of%20elvenkind_dmg",
+      "detail": "Helps the wearer hide from observers using sight."
+    },
+    {
+      "name": "Boots of Elvenkind",
+      "shops": [
+        "tailor"
+      ],
+      "category": "clothing",
+      "tier": "specialty",
+      "price": "650 gp",
+      "priceCp": 65000,
+      "pricing": "house",
+      "source": "DMG",
+      "pageUrl": "https://5e.tools/items.html#boots%20of%20elvenkind_dmg",
+      "detail": "Quiet the wearer's footsteps."
+    },
+    {
+      "name": "Boots of the Winterlands",
+      "shops": [
+        "tailor"
+      ],
+      "category": "clothing",
+      "tier": "specialty",
+      "price": "750 gp",
+      "priceCp": 75000,
+      "pricing": "house",
+      "source": "DMG",
+      "pageUrl": "https://5e.tools/items.html#boots%20of%20the%20winterlands_dmg",
+      "detail": "Footwear for cold environments and snowy travel."
+    },
+    {
+      "name": "Slippers of Spider Climbing",
+      "shops": [
+        "tailor"
+      ],
+      "category": "clothing",
+      "tier": "specialty",
+      "price": "850 gp",
+      "priceCp": 85000,
+      "pricing": "house",
+      "source": "DMG",
+      "pageUrl": "https://5e.tools/items.html#slippers%20of%20spider%20climbing_dmg",
+      "detail": "Free both hands while moving across suitable walls or ceilings."
+    },
+    {
+      "name": "Perfume of Bewitching",
+      "shops": [
+        "perfumer",
+        "oddities dealer"
+      ],
+      "category": "toiletries",
+      "tier": "specialty",
+      "price": "75 gp",
+      "priceCp": 7500,
+      "pricing": "house",
+      "source": "XGE",
+      "pageUrl": "https://5e.tools/items.html#perfume%20of%20bewitching_xge",
+      "detail": "A short-lived social aid when dealing with humanoids of low challenge."
+    },
+    {
+      "name": "Instrument of Illusions",
+      "shops": [
+        "instrument maker"
+      ],
+      "category": "instruments",
+      "tier": "specialty",
+      "price": "140 gp",
+      "priceCp": 14000,
+      "pricing": "house",
+      "source": "XGE",
+      "pageUrl": "https://5e.tools/items.html#instrument%20of%20illusions_xge",
+      "detail": "Add brief visual images to a musical performance."
+    },
+    {
+      "name": "Instrument of Scribing",
+      "shops": [
+        "instrument maker"
+      ],
+      "category": "instruments",
+      "tier": "specialty",
+      "price": "140 gp",
+      "priceCp": 14000,
+      "pricing": "house",
+      "source": "XGE",
+      "pageUrl": "https://5e.tools/items.html#instrument%20of%20scribing_xge",
+      "detail": "Write short messages as part of a performance."
+    },
+    {
+      "name": "Horn of Silent Alarm",
+      "shops": [
+        "instrument maker"
+      ],
+      "category": "instruments",
+      "tier": "specialty",
+      "price": "130 gp",
+      "priceCp": 13000,
+      "pricing": "house",
+      "source": "XGE",
+      "pageUrl": "https://5e.tools/items.html#horn%20of%20silent%20alarm_xge",
+      "detail": "Signal one chosen nearby listener without broadcasting the call."
+    },
+    {
+      "name": "Staff of Birdcalls",
+      "shops": [
+        "instrument maker"
+      ],
+      "category": "instruments",
+      "tier": "specialty",
+      "price": "80 gp",
+      "priceCp": 8000,
+      "pricing": "house",
+      "source": "XGE",
+      "pageUrl": "https://5e.tools/items.html#staff%20of%20birdcalls_xge",
+      "detail": "Reproduce selected bird sounds to cue a friend or entertain a crowd."
+    },
+    {
+      "name": "Tankard of Sobriety",
+      "shops": [
+        "tavern",
+        "oddities dealer"
+      ],
+      "category": "curiosities",
+      "tier": "specialty",
+      "price": "100 gp",
+      "priceCp": 10000,
+      "pricing": "house",
+      "source": "XGE",
+      "pageUrl": "https://5e.tools/items.html#tankard%20of%20sobriety_xge",
+      "detail": "Drink alcohol from this vessel without getting drunk."
+    },
+    {
+      "name": "Amulet of the Drunkard",
+      "shops": [
+        "tavern",
+        "oddities dealer"
+      ],
+      "category": "curiosities",
+      "tier": "specialty",
+      "price": "160 gp",
+      "priceCp": 16000,
+      "pricing": "house",
+      "source": "EGW",
+      "pageUrl": "https://5e.tools/items.html#amulet%20of%20the%20drunkard_egw",
+      "detail": "Once a day, drinking alcohol can restore some hit points."
+    },
+    {
+      "name": "Enduring Spellbook",
+      "shops": [
+        "bookseller",
+        "scribe"
+      ],
+      "category": "writing supplies",
+      "tier": "specialty",
+      "price": "130 gp",
+      "priceCp": 13000,
+      "pricing": "house",
+      "source": "XGE",
+      "pageUrl": "https://5e.tools/items.html#enduring%20spellbook_xge",
+      "detail": "A spellbook built to withstand fire, water, and time."
+    },
+    {
+      "name": "Emerald Pen",
+      "shops": [
+        "bookseller",
+        "scribe"
+      ],
+      "category": "writing supplies",
+      "tier": "specialty",
+      "price": "150 gp",
+      "priceCp": 15000,
+      "pricing": "house",
+      "source": "FTD",
+      "pageUrl": "https://5e.tools/items.html#emerald%20pen_ftd",
+      "detail": "Write without ink or cast Illusory Script without material components."
+    },
+    {
+      "name": "Scribe's Pen",
+      "shops": [
+        "bookseller",
+        "scribe"
+      ],
+      "category": "writing supplies",
+      "tier": "specialty",
+      "price": "120 gp",
+      "priceCp": 12000,
+      "pricing": "house",
+      "source": "ERLW",
+      "pageUrl": "https://5e.tools/items.html#scribe's%20pen_erlw",
+      "detail": "Write without carrying ink."
+    },
+    {
+      "name": "Spellshard",
+      "shops": [
+        "bookseller",
+        "scribe"
+      ],
+      "category": "writing supplies",
+      "tier": "specialty",
+      "price": "140 gp",
+      "priceCp": 14000,
+      "pricing": "house",
+      "source": "ERLW",
+      "pageUrl": "https://5e.tools/items.html#spellshard_erlw",
+      "detail": "Store writing in a crystal instead of on paper."
+    },
+    {
+      "name": "Illuminator's Tattoo",
+      "shops": [
+        "tattooist"
+      ],
+      "category": "tattoos",
+      "tier": "specialty",
+      "price": "160 gp",
+      "priceCp": 16000,
+      "pricing": "house",
+      "source": "TCE",
+      "pageUrl": "https://5e.tools/items.html#illuminator's%20tattoo_tce",
+      "detail": "Write from a fingertip and temporarily conceal one piece of writing."
+    },
+    {
+      "name": "Masquerade Tattoo",
+      "shops": [
+        "tattooist"
+      ],
+      "category": "tattoos",
+      "tier": "specialty",
+      "price": "190 gp",
+      "priceCp": 19000,
+      "pricing": "house",
+      "source": "TCE",
+      "pageUrl": "https://5e.tools/items.html#masquerade%20tattoo_tce",
+      "detail": "Restyle the tattoo or use it to change your appearance briefly."
+    },
+    {
+      "name": "Coiling Grasp Tattoo",
+      "shops": [
+        "tattooist"
+      ],
+      "category": "tattoos",
+      "tier": "specialty",
+      "price": "650 gp",
+      "priceCp": 65000,
+      "pricing": "house",
+      "source": "TCE",
+      "pageUrl": "https://5e.tools/items.html#coiling%20grasp%20tattoo_tce",
+      "detail": "Extend a magical grip at range."
+    },
+    {
+      "name": "Eldritch Claw Tattoo",
+      "shops": [
+        "tattooist"
+      ],
+      "category": "tattoos",
+      "tier": "specialty",
+      "price": "750 gp",
+      "priceCp": 75000,
+      "pricing": "house",
+      "source": "TCE",
+      "pageUrl": "https://5e.tools/items.html#eldritch%20claw%20tattoo_tce",
+      "detail": "Enhance unarmed attacks and briefly extend their reach."
+    },
+    {
+      "name": "Shield of Expression",
+      "shops": [
+        "blacksmith",
+        "oddities dealer"
+      ],
+      "category": "armor",
+      "tier": "specialty",
+      "price": "130 gp",
+      "priceCp": 13000,
+      "pricing": "house",
+      "source": "XGE",
+      "pageUrl": "https://5e.tools/items.html#shield%20of%20expression_xge",
+      "detail": "A shield face with an expression the bearer can change."
+    },
+    {
+      "name": "Battering Shield",
+      "shops": [
+        "blacksmith",
+        "oddities dealer"
+      ],
+      "category": "armor",
+      "tier": "specialty",
+      "price": "1800 gp",
+      "priceCp": 180000,
+      "pricing": "house",
+      "source": "EGW",
+      "pageUrl": "https://5e.tools/items.html#battering%20shield_egw",
+      "detail": "Turn a successful shove into a stronger displacement."
+    },
+    {
+      "name": "Arrow-Catching Shield",
+      "shops": [
+        "blacksmith",
+        "oddities dealer"
+      ],
+      "category": "armor",
+      "tier": "specialty",
+      "price": "1900 gp",
+      "priceCp": 190000,
+      "pricing": "house",
+      "source": "DMG",
+      "pageUrl": "https://5e.tools/items.html#arrow-catching%20shield_dmg",
+      "detail": "Protect nearby allies from some ranged weapon attacks."
+    },
+    {
+      "name": "Potion of Diminution",
+      "shops": [
+        "alchemist"
+      ],
+      "category": "potion",
+      "tier": "specialty",
+      "price": "250 gp",
+      "priceCp": 25000,
+      "pricing": "house",
+      "source": "DMG",
+      "pageUrl": "https://5e.tools/items.html#potion%20of%20diminution_dmg",
+      "detail": "Temporarily shrink for an infiltration or escape."
+    },
+    {
+      "name": "Potion of Flying",
+      "shops": [
+        "alchemist"
+      ],
+      "category": "potion",
+      "tier": "specialty",
+      "price": "600 gp",
+      "priceCp": 60000,
+      "pricing": "house",
+      "source": "DMG",
+      "pageUrl": "https://5e.tools/items.html#potion%20of%20flying_dmg",
+      "detail": "A single-use flight option. Stock it at shops capable of sourcing exceptional potions."
+    },
+    {
+      "name": "Potion of Invisibility",
+      "shops": [
+        "alchemist"
+      ],
+      "category": "potion",
+      "tier": "specialty",
+      "price": "500 gp",
+      "priceCp": 50000,
+      "pricing": "house",
+      "source": "DMG",
+      "pageUrl": "https://5e.tools/items.html#potion%20of%20invisibility_dmg",
+      "detail": "Grants invisibility for up to 1 hour. Attacking or casting a spell ends it early."
+    },
+    {
+      "name": "Potion of Speed",
+      "shops": [
+        "alchemist"
+      ],
+      "category": "potion",
+      "tier": "specialty",
+      "price": "500 gp",
+      "priceCp": 50000,
+      "pricing": "house",
+      "source": "DMG",
+      "pageUrl": "https://5e.tools/items.html#potion%20of%20speed_dmg",
+      "detail": "A limited burst of haste without tying up a caster."
+    },
+    {
+      "name": "Potion of Vitality",
+      "shops": [
+        "alchemist"
+      ],
+      "category": "potion",
+      "tier": "specialty",
+      "price": "650 gp",
+      "priceCp": 65000,
+      "pricing": "house",
+      "source": "DMG",
+      "pageUrl": "https://5e.tools/items.html#potion%20of%20vitality_dmg",
+      "detail": "A recovery potion for exhaustion and other ailments."
+    },
+    {
+      "name": "Elixir of Health",
+      "shops": [
+        "alchemist"
+      ],
+      "category": "potion",
+      "tier": "specialty",
+      "price": "280 gp",
+      "priceCp": 28000,
+      "pricing": "house",
+      "source": "DMG",
+      "pageUrl": "https://5e.tools/items.html#elixir%20of%20health_dmg",
+      "detail": "Carry an answer to a selection of disabling conditions."
+    },
+    {
+      "name": "Alchemy Jug",
+      "shops": [
+        "alchemist",
+        "emporium"
+      ],
+      "category": "magic item",
+      "tier": "specialty",
+      "price": "600 gp",
+      "priceCp": 60000,
+      "pricing": "house",
+      "source": "DMG",
+      "pageUrl": "https://5e.tools/items.html#alchemy%20jug_dmg",
+      "detail": "Produce one of its listed liquids each day."
+    },
+    {
+      "name": "Decanter of Endless Water",
+      "shops": [
+        "alchemist",
+        "emporium"
+      ],
+      "category": "magic item",
+      "tier": "specialty",
+      "price": "900 gp",
+      "priceCp": 90000,
+      "pricing": "house",
+      "source": "DMG",
+      "pageUrl": "https://5e.tools/items.html#decanter%20of%20endless%20water_dmg",
+      "detail": "Issue a stream or a forceful jet of water by command."
+    },
+    {
+      "name": "Eversmoking Bottle",
+      "shops": [
+        "alchemist",
+        "emporium"
+      ],
+      "category": "magic item",
+      "tier": "specialty",
+      "price": "450 gp",
+      "priceCp": 45000,
+      "pricing": "house",
+      "source": "DMG",
+      "pageUrl": "https://5e.tools/items.html#eversmoking%20bottle_dmg",
+      "detail": "Produce enough smoke to break sightlines."
+    },
+    {
+      "name": "Dust of Dryness",
+      "shops": [
+        "alchemist",
+        "emporium"
+      ],
+      "category": "magic item",
+      "tier": "specialty",
+      "price": "180 gp",
+      "priceCp": 18000,
+      "pricing": "house",
+      "source": "DMG",
+      "pageUrl": "https://5e.tools/items.html#dust%20of%20dryness_dmg",
+      "detail": "Turn a large amount of water into a pellet that can be broken later."
+    },
+    {
+      "name": "Dust of Disappearance",
+      "shops": [
+        "alchemist",
+        "emporium"
+      ],
+      "category": "magic item",
+      "tier": "specialty",
+      "price": "240 gp",
+      "priceCp": 24000,
+      "pricing": "house",
+      "source": "DMG",
+      "pageUrl": "https://5e.tools/items.html#dust%20of%20disappearance_dmg",
+      "detail": "A single-use way to hide several nearby creatures at once."
+    },
+    {
+      "name": "Folding Boat",
+      "shops": [
+        "shipwright",
+        "emporium"
+      ],
+      "category": "magic item",
+      "tier": "specialty",
+      "price": "2200 gp",
+      "priceCp": 220000,
+      "pricing": "house",
+      "source": "DMG",
+      "pageUrl": "https://5e.tools/items.html#folding%20boat_dmg",
+      "detail": "Carry a small box and deploy it as a boat when needed."
+    },
+    {
+      "name": "Cloak of the Manta Ray",
+      "shops": [
+        "shipwright",
+        "emporium"
+      ],
+      "category": "magic item",
+      "tier": "specialty",
+      "price": "750 gp",
+      "priceCp": 75000,
+      "pricing": "house",
+      "source": "DMG",
+      "pageUrl": "https://5e.tools/items.html#cloak%20of%20the%20manta%20ray_dmg",
+      "detail": "Swim and breathe underwater while its hood is up."
+    },
+    {
+      "name": "Cap of Water Breathing",
+      "shops": [
+        "shipwright",
+        "emporium"
+      ],
+      "category": "magic item",
+      "tier": "specialty",
+      "price": "500 gp",
+      "priceCp": 50000,
+      "pricing": "house",
+      "source": "DMG",
+      "pageUrl": "https://5e.tools/items.html#cap%20of%20water%20breathing_dmg",
+      "detail": "Breathe underwater while wearing the cap."
+    },
+    {
+      "name": "Horseshoes of Speed",
+      "shops": [
+        "stables",
+        "emporium"
+      ],
+      "category": "magic item",
+      "tier": "specialty",
+      "price": "1600 gp",
+      "priceCp": 160000,
+      "pricing": "house",
+      "source": "DMG",
+      "pageUrl": "https://5e.tools/items.html#horseshoes%20of%20speed_dmg",
+      "detail": "Increase the pace of a horse or similar mount."
+    },
+    {
+      "name": "Horseshoes of a Zephyr",
+      "shops": [
+        "stables",
+        "emporium"
+      ],
+      "category": "magic item",
+      "tier": "specialty",
+      "price": "2600 gp",
+      "priceCp": 260000,
+      "pricing": "house",
+      "source": "DMG",
+      "pageUrl": "https://5e.tools/items.html#horseshoes%20of%20a%20zephyr_dmg",
+      "detail": "Move a mount just above the ground or water."
+    },
+    {
+      "name": "Brooch of Shielding",
+      "shops": [
+        "jeweler",
+        "emporium"
+      ],
+      "category": "magic item",
+      "tier": "specialty",
+      "price": "850 gp",
+      "priceCp": 85000,
+      "pricing": "house",
+      "source": "DMG",
+      "pageUrl": "https://5e.tools/items.html#brooch%20of%20shielding_dmg",
+      "detail": "Protect against force damage and magic missile."
+    },
+    {
+      "name": "Periapt of Wound Closure",
+      "shops": [
+        "jeweler",
+        "emporium"
+      ],
+      "category": "magic item",
+      "tier": "specialty",
+      "price": "850 gp",
+      "priceCp": 85000,
+      "pricing": "house",
+      "source": "DMG",
+      "pageUrl": "https://5e.tools/items.html#periapt%20of%20wound%20closure_dmg",
+      "detail": "Stabilize more reliably and recover more from spent Hit Dice."
+    },
+    {
+      "name": "Periapt of Health",
+      "shops": [
+        "jeweler",
+        "emporium"
+      ],
+      "category": "magic item",
+      "tier": "specialty",
+      "price": "650 gp",
+      "priceCp": 65000,
+      "pricing": "house",
+      "source": "DMG",
+      "pageUrl": "https://5e.tools/items.html#periapt%20of%20health_dmg",
+      "detail": "Protect against disease while wearing it."
+    },
+    {
+      "name": "Ring of Water Walking",
+      "shops": [
+        "jeweler",
+        "emporium"
+      ],
+      "category": "magic item",
+      "tier": "specialty",
+      "price": "850 gp",
+      "priceCp": 85000,
+      "pricing": "house",
+      "source": "DMG",
+      "pageUrl": "https://5e.tools/items.html#ring%20of%20water%20walking_dmg",
+      "detail": "Cross supported liquids on foot."
+    },
+    {
+      "name": "Ring of Swimming",
+      "shops": [
+        "jeweler",
+        "emporium"
+      ],
+      "category": "magic item",
+      "tier": "specialty",
+      "price": "650 gp",
+      "priceCp": 65000,
+      "pricing": "house",
+      "source": "DMG",
+      "pageUrl": "https://5e.tools/items.html#ring%20of%20swimming_dmg",
+      "detail": "Gain a swim speed without using a spell."
+    },
+    {
+      "name": "Ring of Feather Falling",
+      "shops": [
+        "jeweler",
+        "emporium"
+      ],
+      "category": "magic item",
+      "tier": "specialty",
+      "price": "1500 gp",
+      "priceCp": 150000,
+      "pricing": "house",
+      "source": "DMG",
+      "pageUrl": "https://5e.tools/items.html#ring%20of%20feather%20falling_dmg",
+      "detail": "Fall more slowly when the wearer drops."
+    },
+    {
+      "name": "Ring of Jumping",
+      "shops": [
+        "jeweler",
+        "emporium"
+      ],
+      "category": "magic item",
+      "tier": "specialty",
+      "price": "700 gp",
+      "priceCp": 70000,
+      "pricing": "house",
+      "source": "DMG",
+      "pageUrl": "https://5e.tools/items.html#ring%20of%20jumping_dmg",
+      "detail": "Use a magic-assisted jump when climbing alone will not do."
+    },
+    {
+      "name": "Ring of Mind Shielding",
+      "shops": [
+        "jeweler",
+        "emporium"
+      ],
+      "category": "magic item",
+      "tier": "specialty",
+      "price": "950 gp",
+      "priceCp": 95000,
+      "pricing": "house",
+      "source": "DMG",
+      "pageUrl": "https://5e.tools/items.html#ring%20of%20mind%20shielding_dmg",
+      "detail": "Screen thoughts and certain magical attempts to identify the wearer."
+    },
+    {
+      "name": "Driftglobe",
+      "shops": [
+        "emporium"
+      ],
+      "category": "magic item",
+      "tier": "specialty",
+      "price": "650 gp",
+      "priceCp": 65000,
+      "pricing": "house",
+      "source": "DMG",
+      "pageUrl": "https://5e.tools/items.html#driftglobe_dmg",
+      "detail": "Carry a light that can float beside the party."
+    },
+    {
+      "name": "Chime of Opening",
+      "shops": [
+        "emporium"
+      ],
+      "category": "magic item",
+      "tier": "specialty",
+      "price": "1800 gp",
+      "priceCp": 180000,
+      "pricing": "house",
+      "source": "DMG",
+      "pageUrl": "https://5e.tools/items.html#chime%20of%20opening_dmg",
+      "detail": "Open doors or containers from a distance using a limited number of charges."
+    },
+    {
+      "name": "Goggles of Night",
+      "shops": [
+        "emporium"
+      ],
+      "category": "magic item",
+      "tier": "specialty",
+      "price": "650 gp",
+      "priceCp": 65000,
+      "pricing": "house",
+      "source": "DMG",
+      "pageUrl": "https://5e.tools/items.html#goggles%20of%20night_dmg",
+      "detail": "Extend or provide darkvision for scouting."
+    },
+    {
+      "name": "Eyes of the Eagle",
+      "shops": [
+        "emporium"
+      ],
+      "category": "magic item",
+      "tier": "specialty",
+      "price": "650 gp",
+      "priceCp": 65000,
+      "pricing": "house",
+      "source": "DMG",
+      "pageUrl": "https://5e.tools/items.html#eyes%20of%20the%20eagle_dmg",
+      "detail": "Spot visual details at long range."
+    },
+    {
+      "name": "Eyes of Minute Seeing",
+      "shops": [
+        "emporium"
+      ],
+      "category": "magic item",
+      "tier": "specialty",
+      "price": "550 gp",
+      "priceCp": 55000,
+      "pricing": "house",
+      "source": "DMG",
+      "pageUrl": "https://5e.tools/items.html#eyes%20of%20minute%20seeing_dmg",
+      "detail": "Inspect small details at close range."
+    },
+    {
+      "name": "Hat of Disguise",
+      "shops": [
+        "emporium"
+      ],
+      "category": "magic item",
+      "tier": "specialty",
+      "price": "750 gp",
+      "priceCp": 75000,
+      "pricing": "house",
+      "source": "DMG",
+      "pageUrl": "https://5e.tools/items.html#hat%20of%20disguise_dmg",
+      "detail": "Reuse a visual disguise for infiltration and social encounters."
+    },
+    {
+      "name": "Lantern of Revealing",
+      "shops": [
+        "emporium"
+      ],
+      "category": "magic item",
+      "tier": "specialty",
+      "price": "850 gp",
+      "priceCp": 85000,
+      "pricing": "house",
+      "source": "DMG",
+      "pageUrl": "https://5e.tools/items.html#lantern%20of%20revealing_dmg",
+      "detail": "Its light can expose invisible creatures and objects."
+    },
+    {
+      "name": "Stone of Good Luck",
+      "shops": [
+        "emporium"
+      ],
+      "category": "magic item",
+      "tier": "specialty",
+      "price": "900 gp",
+      "priceCp": 90000,
+      "pricing": "house",
+      "source": "DMG",
+      "pageUrl": "https://5e.tools/items.html#stone%20of%20good%20luck_dmg",
+      "detail": "A carried charm that improves checks and saves."
+    },
+    {
+      "name": "Wand of Secrets",
+      "shops": [
+        "emporium"
+      ],
+      "category": "magic item",
+      "tier": "specialty",
+      "price": "550 gp",
+      "priceCp": 55000,
+      "pricing": "house",
+      "source": "DMG",
+      "pageUrl": "https://5e.tools/items.html#wand%20of%20secrets_dmg",
+      "detail": "Find the closest nearby secret door or trap with charges."
+    },
+    {
+      "name": "Coin of Delving",
+      "shops": [
+        "emporium"
+      ],
+      "category": "magic item",
+      "tier": "specialty",
+      "price": "85 gp",
+      "priceCp": 8500,
+      "pricing": "house",
+      "source": "EGW",
+      "pageUrl": "https://5e.tools/items.html#coin%20of%20delving_egw",
+      "detail": "Drop it to estimate the depth of a hole or shaft."
+    },
+    {
+      "name": "Breathing Bubble",
+      "shops": [
+        "emporium"
+      ],
+      "category": "magic item",
+      "tier": "specialty",
+      "price": "95 gp",
+      "priceCp": 9500,
+      "pricing": "house",
+      "source": "EGW",
+      "pageUrl": "https://5e.tools/items.html#breathing%20bubble_egw",
+      "detail": "Maintain breathable air around the wearer's head."
+    },
+    {
+      "name": "Needle of Mending",
+      "shops": [
+        "emporium"
+      ],
+      "category": "magic item",
+      "tier": "specialty",
+      "price": "190 gp",
+      "priceCp": 19000,
+      "pricing": "house",
+      "source": "EGW",
+      "pageUrl": "https://5e.tools/items.html#needle%20of%20mending_egw",
+      "detail": "Repair a torn object using the needle."
+    },
+    {
+      "name": "Ring of Obscuring",
+      "shops": [
+        "emporium"
+      ],
+      "category": "magic item",
+      "tier": "specialty",
+      "price": "650 gp",
+      "priceCp": 65000,
+      "pricing": "house",
+      "source": "EGW",
+      "pageUrl": "https://5e.tools/items.html#ring%20of%20obscuring_egw",
+      "detail": "Raise a patch of fog for concealment."
+    },
+    {
+      "name": "+1 All-Purpose Tool",
+      "shops": [
+        "artificer"
+      ],
+      "category": "magic item",
+      "tier": "specialty",
+      "price": "750 gp",
+      "priceCp": 75000,
+      "pricing": "house",
+      "source": "TCE",
+      "pageUrl": "https://5e.tools/items.html#%2b1%20all-purpose%20tool_tce",
+      "detail": "Change between artisan's tools and loan the artificer a cantrip."
+    },
+    {
+      "name": "Prosthetic Limb",
+      "shops": [
+        "artificer"
+      ],
+      "category": "magic item",
+      "tier": "specialty",
+      "price": "100 gp",
+      "priceCp": 10000,
+      "pricing": "house",
+      "source": "TCE",
+      "pageUrl": "https://5e.tools/items.html#prosthetic%20limb_tce",
+      "detail": "A wearable replacement limb that functions for ordinary tasks."
+    },
+    {
+      "name": "Cleansing Stone",
+      "shops": [
+        "artificer"
+      ],
+      "category": "magic item",
+      "tier": "specialty",
+      "price": "90 gp",
+      "priceCp": 9000,
+      "pricing": "house",
+      "source": "ERLW",
+      "pageUrl": "https://5e.tools/items.html#cleansing%20stone_erlw",
+      "detail": "Remove dirt and grime from a creature and its clothing."
+    },
+    {
+      "name": "Living Gloves",
+      "shops": [
+        "artificer"
+      ],
+      "category": "magic item",
+      "tier": "specialty",
+      "price": "700 gp",
+      "priceCp": 70000,
+      "pricing": "house",
+      "source": "ERLW",
+      "pageUrl": "https://5e.tools/items.html#living%20gloves_erlw",
+      "detail": "Lend proficiency in one supported manual skill or tool."
+    },
+    {
+      "name": "Keycharm",
+      "shops": [
+        "artificer"
+      ],
+      "category": "magic item",
+      "tier": "specialty",
+      "price": "95 gp",
+      "priceCp": 9500,
+      "pricing": "house",
+      "source": "ERLW",
+      "pageUrl": "https://5e.tools/items.html#keycharm_erlw",
+      "detail": "Ties into certain ward spells for a qualifying character."
+    },
+    {
+      "name": "Paper Bird",
+      "shops": [
+        "scribe",
+        "emporium"
+      ],
+      "category": "magic item",
+      "tier": "specialty",
+      "price": "55 gp",
+      "priceCp": 5500,
+      "pricing": "house",
+      "source": "WDH",
+      "pageUrl": "https://5e.tools/items.html#paper%20bird_wdh",
+      "detail": "Send up to 50 words to a named recipient on the same plane."
+    },
+    {
+      "name": "Pot of Awakening",
+      "shops": [
+        "herbalist",
+        "potter"
+      ],
+      "category": "curiosities",
+      "tier": "specialty",
+      "price": "160 gp",
+      "priceCp": 16000,
+      "pricing": "house",
+      "source": "XGE",
+      "pageUrl": "https://5e.tools/items.html#pot%20of%20awakening_xge",
+      "detail": "Raise a mundane shrub into a small awakened companion over time."
+    },
+    {
+      "name": "Staff of Flowers",
+      "shops": [
+        "herbalist",
+        "potter"
+      ],
+      "category": "curiosities",
+      "tier": "specialty",
+      "price": "90 gp",
+      "priceCp": 9000,
+      "pricing": "house",
+      "source": "XGE",
+      "pageUrl": "https://5e.tools/items.html#staff%20of%20flowers_xge",
+      "detail": "Grow a flower from suitable ground using a charge."
+    },
+    {
+      "name": "Moorbounder",
+      "shops": [
+        "stables"
+      ],
+      "category": "mounts",
+      "tier": "mundane",
+      "price": "400 gp",
+      "priceCp": 40000,
+      "pricing": "source",
+      "source": "EGW",
+      "pageUrl": "https://5e.tools/items.html#moorbounder_egw",
+      "detail": "A powerful jumping mount for buyers who can handle a large predator."
+    },
+    {
+      "name": "Goggles of Object Reading",
+      "shops": [
+        "emporium",
+        "artificer"
+      ],
+      "category": "magic item",
+      "tier": "specialty",
+      "price": "700 gp",
+      "priceCp": 70000,
+      "pricing": "house",
+      "source": "EGW",
+      "pageUrl": "https://5e.tools/items.html#goggles%20of%20object%20reading_egw",
+      "detail": "Aid Arcana checks on visible creatures or objects and cast Identify once per dawn."
+    },
+    {
+      "name": "Barrier Tattoo (Small)",
+      "shops": [
+        "tattooist"
+      ],
+      "category": "tattoos",
+      "tier": "specialty",
+      "price": "850 gp",
+      "priceCp": 85000,
+      "pricing": "house",
+      "source": "TCE",
+      "pageUrl": "https://5e.tools/items.html#barrier%20tattoo%20(small)_tce",
+      "detail": "While attuned and unarmored, use AC 12 plus Dexterity modifier. A shield still works."
+    }
+  ],
+  "matchedExisting": [
+    {
+      "sourceName": "Abacus",
+      "stockName": "Wooden abacus"
+    },
+    {
+      "sourceName": "Alchemist's Supplies",
+      "stockName": "Alchemist's supplies"
+    },
+    {
+      "sourceName": "Amethyst",
+      "stockName": "Amethyst"
+    },
+    {
+      "sourceName": "Antitoxin",
+      "stockName": "Antitoxin"
+    },
+    {
+      "sourceName": "Antitoxin (vial)",
+      "stockName": "Antitoxin"
+    },
+    {
+      "sourceName": "Aquamarine",
+      "stockName": "Aquamarine"
+    },
+    {
+      "sourceName": "Arrows (20)",
+      "stockName": "Arrows (20)"
+    },
+    {
+      "sourceName": "Backpack",
+      "stockName": "Backpack"
+    },
+    {
+      "sourceName": "Bag of Holding",
+      "stockName": "Bag of Holding"
+    },
+    {
+      "sourceName": "Ball Bearings",
+      "stockName": "Ball bearings (1000)"
+    },
+    {
+      "sourceName": "Ball Bearings (bag of 1,000)",
+      "stockName": "Ball bearings (1000)"
+    },
+    {
+      "sourceName": "Barrel",
+      "stockName": "Barrel"
+    },
+    {
+      "sourceName": "Battleaxe",
+      "stockName": "Battleaxe"
+    },
+    {
+      "sourceName": "Bedroll",
+      "stockName": "Bedroll"
+    },
+    {
+      "sourceName": "Bell",
+      "stockName": "Bell"
+    },
+    {
+      "sourceName": "Bit and bridle",
+      "stockName": "Bit and bridle"
+    },
+    {
+      "sourceName": "Black Pearl",
+      "stockName": "Black pearl"
+    },
+    {
+      "sourceName": "Block and Tackle",
+      "stockName": "Block and tackle"
+    },
+    {
+      "sourceName": "Bloodstone",
+      "stockName": "Bloodstone"
+    },
+    {
+      "sourceName": "Blowgun",
+      "stockName": "Blowgun"
+    },
+    {
+      "sourceName": "Blowgun Needles (50)",
+      "stockName": "Blowgun needles (50)"
+    },
+    {
+      "sourceName": "Bolts (20)",
+      "stockName": "Crossbow bolts (20)"
+    },
+    {
+      "sourceName": "Breastplate",
+      "stockName": "Breastplate"
+    },
+    {
+      "sourceName": "Brewer's Supplies",
+      "stockName": "Brewing supplies"
+    },
+    {
+      "sourceName": "Bullseye Lantern",
+      "stockName": "Bullseye lantern"
+    },
+    {
+      "sourceName": "Caltrops",
+      "stockName": "Caltrops (20)"
+    },
+    {
+      "sourceName": "Caltrops (bag of 20)",
+      "stockName": "Caltrops (20)"
+    },
+    {
+      "sourceName": "Camel",
+      "stockName": "Camel"
+    },
+    {
+      "sourceName": "Candle",
+      "stockName": "Candle"
+    },
+    {
+      "sourceName": "Carpenter's Tools",
+      "stockName": "Carpentry tools"
+    },
+    {
+      "sourceName": "Carriage",
+      "stockName": "Carriage"
+    },
+    {
+      "sourceName": "Cart",
+      "stockName": "Handcart"
+    },
+    {
+      "sourceName": "Cartographer's Tools",
+      "stockName": "Cartography tools"
+    },
+    {
+      "sourceName": "Chain",
+      "stockName": "Chain (10 ft)"
+    },
+    {
+      "sourceName": "Chain (10 feet)",
+      "stockName": "Chain (10 ft)"
+    },
+    {
+      "sourceName": "Chain Mail",
+      "stockName": "Chain mail"
+    },
+    {
+      "sourceName": "Chain Shirt",
+      "stockName": "Chain shirt"
+    },
+    {
+      "sourceName": "Chalk (1 piece)",
+      "stockName": "Chalk"
+    },
+    {
+      "sourceName": "Chariot",
+      "stockName": "Chariot"
+    },
+    {
+      "sourceName": "Chest",
+      "stockName": "Chest"
+    },
+    {
+      "sourceName": "Chicken",
+      "stockName": "Live chicken"
+    },
+    {
+      "sourceName": "Circlet of Blasting",
+      "stockName": "Circlet of Blasting"
+    },
+    {
+      "sourceName": "Citrine",
+      "stockName": "Citrine"
+    },
+    {
+      "sourceName": "Climber's Kit",
+      "stockName": "Climbing kit"
+    },
+    {
+      "sourceName": "Cloak of Protection",
+      "stockName": "Cloak of Protection"
+    },
+    {
+      "sourceName": "Club",
+      "stockName": "Club"
+    },
+    {
+      "sourceName": "Cobbler's Tools",
+      "stockName": "Cobbler's tools"
+    },
+    {
+      "sourceName": "Common Clothes",
+      "stockName": "Common clothes"
+    },
+    {
+      "sourceName": "Cook's Utensils",
+      "stockName": "Cooking utensils"
+    },
+    {
+      "sourceName": "Costume",
+      "stockName": "Costume clothes"
+    },
+    {
+      "sourceName": "Costume Clothes",
+      "stockName": "Costume clothes"
+    },
+    {
+      "sourceName": "Covered Wagon",
+      "stockName": "Covered wagon"
+    },
+    {
+      "sourceName": "Crossbow Bolts (20)",
+      "stockName": "Crossbow bolts (20)"
+    },
+    {
+      "sourceName": "Crowbar",
+      "stockName": "Crowbar"
+    },
+    {
+      "sourceName": "Dagger",
+      "stockName": "Dagger"
+    },
+    {
+      "sourceName": "Deck of Illusions",
+      "stockName": "Deck of Illusions"
+    },
+    {
+      "sourceName": "Diamond",
+      "stockName": "Diamond"
+    },
+    {
+      "sourceName": "Dice Set",
+      "stockName": "Dice"
+    },
+    {
+      "sourceName": "Diplomat's Pack",
+      "stockName": "Diplomat's pack"
+    },
+    {
+      "sourceName": "Donkey",
+      "stockName": "Donkey"
+    },
+    {
+      "sourceName": "Draft Horse",
+      "stockName": "Draft horse"
+    },
+    {
+      "sourceName": "Dragonchess Set",
+      "stockName": "Dragonchess set"
+    },
+    {
+      "sourceName": "Drum",
+      "stockName": "Drum"
+    },
+    {
+      "sourceName": "Dulcimer",
+      "stockName": "Dulcimer"
+    },
+    {
+      "sourceName": "Dungeoneer's Pack",
+      "stockName": "Dungeoneer's pack"
+    },
+    {
+      "sourceName": "Elephant",
+      "stockName": "Elephant"
+    },
+    {
+      "sourceName": "Exotic Saddle",
+      "stockName": "Exotic saddle"
+    },
+    {
+      "sourceName": "Explorer's Pack",
+      "stockName": "Explorer's pack"
+    },
+    {
+      "sourceName": "Feed (per day)",
+      "stockName": "Animal feed (one day)"
+    },
+    {
+      "sourceName": "Fine Clothes",
+      "stockName": "Fine clothes"
+    },
+    {
+      "sourceName": "Fine Wine (bottle)",
+      "stockName": "Fine wine (bottle)"
+    },
+    {
+      "sourceName": "Flail",
+      "stockName": "Flail"
+    },
+    {
+      "sourceName": "Flask",
+      "stockName": "Empty flask"
+    },
+    {
+      "sourceName": "Flute",
+      "stockName": "Flute"
+    },
+    {
+      "sourceName": "Galley",
+      "stockName": "Galley"
+    },
+    {
+      "sourceName": "Garnet",
+      "stockName": "Garnet"
+    },
+    {
+      "sourceName": "Glaive",
+      "stockName": "Glaive"
+    },
+    {
+      "sourceName": "Glassblower's Tools",
+      "stockName": "Glassblower's tools"
+    },
+    {
+      "sourceName": "Glass Bottle",
+      "stockName": "Glass bottle"
+    },
+    {
+      "sourceName": "Greataxe",
+      "stockName": "Greataxe"
+    },
+    {
+      "sourceName": "Greatclub",
+      "stockName": "Greatclub"
+    },
+    {
+      "sourceName": "Greatsword",
+      "stockName": "Greatsword"
+    },
+    {
+      "sourceName": "Halberd",
+      "stockName": "Halberd"
+    },
+    {
+      "sourceName": "Half Plate Armor",
+      "stockName": "Half plate"
+    },
+    {
+      "sourceName": "Hammer",
+      "stockName": "Hammer"
+    },
+    {
+      "sourceName": "Handaxe",
+      "stockName": "Handaxe"
+    },
+    {
+      "sourceName": "Healer's Kit",
+      "stockName": "Healer's kit"
+    },
+    {
+      "sourceName": "Heavy Crossbow",
+      "stockName": "Heavy crossbow"
+    },
+    {
+      "sourceName": "Hematite",
+      "stockName": "Hematite"
+    },
+    {
+      "sourceName": "Hempen Rope (50 feet)",
+      "stockName": "Rope (50 ft)"
+    },
+    {
+      "sourceName": "Hide Armor",
+      "stockName": "Hide armor"
+    },
+    {
+      "sourceName": "Hooded Lantern",
+      "stockName": "Hooded lantern"
+    },
+    {
+      "sourceName": "Hourglass",
+      "stockName": "Hourglass"
+    },
+    {
+      "sourceName": "Hunting Trap",
+      "stockName": "Hunting trap"
+    },
+    {
+      "sourceName": "Ink",
+      "stockName": "Ink"
+    },
+    {
+      "sourceName": "Ink (1-ounce bottle)",
+      "stockName": "Ink"
+    },
+    {
+      "sourceName": "Ink Pen",
+      "stockName": "Dip pen"
+    },
+    {
+      "sourceName": "Iron Spikes",
+      "stockName": "Iron spikes (10)"
+    },
+    {
+      "sourceName": "Iron Spikes (10)",
+      "stockName": "Iron spikes (10)"
+    },
+    {
+      "sourceName": "Jeweler's Tools",
+      "stockName": "Jeweler's tools"
+    },
+    {
+      "sourceName": "Jug",
+      "stockName": "Jug"
+    },
+    {
+      "sourceName": "Keelboat",
+      "stockName": "Keelboat"
+    },
+    {
+      "sourceName": "Keoghtom's Ointment",
+      "stockName": "Restorative ointment"
+    },
+    {
+      "sourceName": "Lamp",
+      "stockName": "Oil lamp"
+    },
+    {
+      "sourceName": "Lance",
+      "stockName": "Lance"
+    },
+    {
+      "sourceName": "Lapis Lazuli",
+      "stockName": "Lapis lazuli"
+    },
+    {
+      "sourceName": "Leather Armor",
+      "stockName": "Leather armor"
+    },
+    {
+      "sourceName": "Leatherworker's Tools",
+      "stockName": "Leatherworker's tools"
+    },
+    {
+      "sourceName": "Light Crossbow",
+      "stockName": "Light crossbow"
+    },
+    {
+      "sourceName": "Lock",
+      "stockName": "Padlock"
+    },
+    {
+      "sourceName": "Longbow",
+      "stockName": "Longbow"
+    },
+    {
+      "sourceName": "Longship",
+      "stockName": "Longship"
+    },
+    {
+      "sourceName": "Longsword",
+      "stockName": "Longsword"
+    },
+    {
+      "sourceName": "Lute",
+      "stockName": "Lute"
+    },
+    {
+      "sourceName": "Lyre",
+      "stockName": "Lyre"
+    },
+    {
+      "sourceName": "Mace",
+      "stockName": "Mace"
+    },
+    {
+      "sourceName": "Magnifying Glass",
+      "stockName": "Magnifying glass"
+    },
+    {
+      "sourceName": "Manacles",
+      "stockName": "Manacles"
+    },
+    {
+      "sourceName": "Map",
+      "stockName": "Local map"
+    },
+    {
+      "sourceName": "Map or Scroll Case",
+      "stockName": "Map case"
+    },
+    {
+      "sourceName": "Mason's Tools",
+      "stockName": "Mason's tools"
+    },
+    {
+      "sourceName": "Mastiff",
+      "stockName": "Mastiff"
+    },
+    {
+      "sourceName": "Maul",
+      "stockName": "Maul"
+    },
+    {
+      "sourceName": "Merchant's Scale",
+      "stockName": "Balance scales"
+    },
+    {
+      "sourceName": "Mess Kit",
+      "stockName": "Mess kit"
+    },
+    {
+      "sourceName": "Military Saddle",
+      "stockName": "Military saddle"
+    },
+    {
+      "sourceName": "Miner's Pick",
+      "stockName": "Miner's pick"
+    },
+    {
+      "sourceName": "Mirror",
+      "stockName": "Steel mirror"
+    },
+    {
+      "sourceName": "Monster Hunter's Pack",
+      "stockName": "Monster hunter's pack"
+    },
+    {
+      "sourceName": "Moonstone",
+      "stockName": "Moonstone"
+    },
+    {
+      "sourceName": "Morningstar",
+      "stockName": "Morningstar"
+    },
+    {
+      "sourceName": "Mule",
+      "stockName": "Mule"
+    },
+    {
+      "sourceName": "Net",
+      "stockName": "Hunting net"
+    },
+    {
+      "sourceName": "Oil",
+      "stockName": "Lamp oil (flask)"
+    },
+    {
+      "sourceName": "Oil (flask)",
+      "stockName": "Lamp oil (flask)"
+    },
+    {
+      "sourceName": "Oil of Etherealness",
+      "stockName": "Oil of Etherealness"
+    },
+    {
+      "sourceName": "Oil of Slipperiness",
+      "stockName": "Oil of Slipperiness"
+    },
+    {
+      "sourceName": "Pack Saddle",
+      "stockName": "Pack saddle"
+    },
+    {
+      "sourceName": "Padded Armor",
+      "stockName": "Padded armor"
+    },
+    {
+      "sourceName": "Painter's Supplies",
+      "stockName": "Painter's supplies"
+    },
+    {
+      "sourceName": "Pan Flute",
+      "stockName": "Pan flute"
+    },
+    {
+      "sourceName": "Parchment",
+      "stockName": "Parchment sheet"
+    },
+    {
+      "sourceName": "Parchment (one sheet)",
+      "stockName": "Parchment sheet"
+    },
+    {
+      "sourceName": "Perfume",
+      "stockName": "Perfume vial"
+    },
+    {
+      "sourceName": "Perfume (vial)",
+      "stockName": "Perfume vial"
+    },
+    {
+      "sourceName": "Peridot",
+      "stockName": "Peridot"
+    },
+    {
+      "sourceName": "Philter of Love",
+      "stockName": "Philter of Love"
+    },
+    {
+      "sourceName": "Pike",
+      "stockName": "Pike"
+    },
+    {
+      "sourceName": "Piton",
+      "stockName": "Piton"
+    },
+    {
+      "sourceName": "Plate Armor",
+      "stockName": "Plate armor"
+    },
+    {
+      "sourceName": "Playing Cards",
+      "stockName": "Playing cards"
+    },
+    {
+      "sourceName": "Playing Card Set",
+      "stockName": "Playing cards"
+    },
+    {
+      "sourceName": "Pole",
+      "stockName": "Pole (10 ft)"
+    },
+    {
+      "sourceName": "Pole (10-foot)",
+      "stockName": "Pole (10 ft)"
+    },
+    {
+      "sourceName": "Pony",
+      "stockName": "Pony"
+    },
+    {
+      "sourceName": "Portable Ram",
+      "stockName": "Portable ram"
+    },
+    {
+      "sourceName": "Potion of Animal Friendship",
+      "stockName": "Potion of Animal Friendship"
+    },
+    {
+      "sourceName": "Potion of Clairvoyance",
+      "stockName": "Potion of Clairvoyance"
+    },
+    {
+      "sourceName": "Potion of Climbing",
+      "stockName": "Potion of Climbing"
+    },
+    {
+      "sourceName": "Potion of Fire Breath",
+      "stockName": "Potion of Fire Breath"
+    },
+    {
+      "sourceName": "Potion of Gaseous Form",
+      "stockName": "Potion of Gaseous Form"
+    },
+    {
+      "sourceName": "Potion of Greater Healing",
+      "stockName": "Potion of Greater Healing"
+    },
+    {
+      "sourceName": "Potion of Growth",
+      "stockName": "Potion of Growth"
+    },
+    {
+      "sourceName": "Potion of Healing",
+      "stockName": "Potion of Healing"
+    },
+    {
+      "sourceName": "Potion of Heroism",
+      "stockName": "Potion of Heroism"
+    },
+    {
+      "sourceName": "Potion of Invulnerability",
+      "stockName": "Potion of Invulnerability"
+    },
+    {
+      "sourceName": "Potion of Mind Reading",
+      "stockName": "Potion of Mind Reading"
+    },
+    {
+      "sourceName": "Potion of Superior Healing",
+      "stockName": "Potion of Superior Healing"
+    },
+    {
+      "sourceName": "Potion of Water Breathing",
+      "stockName": "Potion of Water Breathing"
+    },
+    {
+      "sourceName": "Potter's Tools",
+      "stockName": "Potter's tools"
+    },
+    {
+      "sourceName": "Pouch",
+      "stockName": "Belt pouch"
+    },
+    {
+      "sourceName": "Quarterstaff",
+      "stockName": "Quarterstaff"
+    },
+    {
+      "sourceName": "Quiver",
+      "stockName": "Quiver"
+    },
+    {
+      "sourceName": "Rapier",
+      "stockName": "Rapier"
+    },
+    {
+      "sourceName": "Rations",
+      "stockName": "Trail rations (one day)"
+    },
+    {
+      "sourceName": "Rations (1 day)",
+      "stockName": "Trail rations (one day)"
+    },
+    {
+      "sourceName": "Riding Horse",
+      "stockName": "Riding horse"
+    },
+    {
+      "sourceName": "Riding Saddle",
+      "stockName": "Riding saddle"
+    },
+    {
+      "sourceName": "Ring Mail",
+      "stockName": "Ring mail"
+    },
+    {
+      "sourceName": "Robe",
+      "stockName": "Common robes"
+    },
+    {
+      "sourceName": "Robe of Useful Items",
+      "stockName": "Robe of Useful Items"
+    },
+    {
+      "sourceName": "Robes",
+      "stockName": "Common robes"
+    },
+    {
+      "sourceName": "Rope",
+      "stockName": "Rope (50 ft)"
+    },
+    {
+      "sourceName": "Rowboat",
+      "stockName": "Rowboat"
+    },
+    {
+      "sourceName": "Sack",
+      "stockName": "Sack"
+    },
+    {
+      "sourceName": "Saddlebags",
+      "stockName": "Saddlebags"
+    },
+    {
+      "sourceName": "Sailing Ship",
+      "stockName": "Sailing ship"
+    },
+    {
+      "sourceName": "Scale Mail",
+      "stockName": "Scale mail"
+    },
+    {
+      "sourceName": "Scholar's Pack",
+      "stockName": "Scholar's pack"
+    },
+    {
+      "sourceName": "Scimitar",
+      "stockName": "Scimitar"
+    },
+    {
+      "sourceName": "Sealing Wax",
+      "stockName": "Sealing wax"
+    },
+    {
+      "sourceName": "Sending Stones",
+      "stockName": "Sending Stones"
+    },
+    {
+      "sourceName": "Shawm",
+      "stockName": "Shawm"
+    },
+    {
+      "sourceName": "Sheep",
+      "stockName": "Live sheep"
+    },
+    {
+      "sourceName": "Shield",
+      "stockName": "Shield"
+    },
+    {
+      "sourceName": "Shortbow",
+      "stockName": "Shortbow"
+    },
+    {
+      "sourceName": "Shortsword",
+      "stockName": "Shortsword"
+    },
+    {
+      "sourceName": "Shovel",
+      "stockName": "Shovel"
+    },
+    {
+      "sourceName": "Sickle",
+      "stockName": "Sickle"
+    },
+    {
+      "sourceName": "Signal Whistle",
+      "stockName": "Signal whistle"
+    },
+    {
+      "sourceName": "Sled",
+      "stockName": "Sled"
+    },
+    {
+      "sourceName": "Sledgehammer",
+      "stockName": "Sledgehammer"
+    },
+    {
+      "sourceName": "Sling",
+      "stockName": "Sling"
+    },
+    {
+      "sourceName": "Sling Bullets (20)",
+      "stockName": "Sling bullets (20)"
+    },
+    {
+      "sourceName": "Smith's Tools",
+      "stockName": "Smith's tools"
+    },
+    {
+      "sourceName": "Spear",
+      "stockName": "Spear"
+    },
+    {
+      "sourceName": "Spellbook",
+      "stockName": "Blank spellbook"
+    },
+    {
+      "sourceName": "Spiked Armor",
+      "stockName": "Spiked armor"
+    },
+    {
+      "sourceName": "Splint Armor",
+      "stockName": "Splint armor"
+    },
+    {
+      "sourceName": "Star Sapphire",
+      "stockName": "Star sapphire"
+    },
+    {
+      "sourceName": "Steel Mirror",
+      "stockName": "Steel mirror"
+    },
+    {
+      "sourceName": "String",
+      "stockName": "String (10 ft)"
+    },
+    {
+      "sourceName": "Studded Leather Armor",
+      "stockName": "Studded leather armor"
+    },
+    {
+      "sourceName": "Tankard",
+      "stockName": "Tankard"
+    },
+    {
+      "sourceName": "Tent",
+      "stockName": "Two-person tent"
+    },
+    {
+      "sourceName": "Tinderbox",
+      "stockName": "Tinderbox"
+    },
+    {
+      "sourceName": "Tinker's Tools",
+      "stockName": "Tinker's tools"
+    },
+    {
+      "sourceName": "Topaz",
+      "stockName": "Topaz"
+    },
+    {
+      "sourceName": "Torch",
+      "stockName": "Torch"
+    },
+    {
+      "sourceName": "Totem",
+      "stockName": "Totem"
+    },
+    {
+      "sourceName": "Trident",
+      "stockName": "Trident"
+    },
+    {
+      "sourceName": "Two-Person Tent",
+      "stockName": "Two-person tent"
+    },
+    {
+      "sourceName": "Vial",
+      "stockName": "Empty vial"
+    },
+    {
+      "sourceName": "Wand of Magic Detection",
+      "stockName": "Wand of Detect Magic"
+    },
+    {
+      "sourceName": "Wand of Magic Missiles",
+      "stockName": "Wand of Magic Missiles"
+    },
+    {
+      "sourceName": "Wand of Web",
+      "stockName": "Wand of Web"
+    },
+    {
+      "sourceName": "Warhammer",
+      "stockName": "Warhammer"
+    },
+    {
+      "sourceName": "Warhorse",
+      "stockName": "Warhorse"
+    },
+    {
+      "sourceName": "War Pick",
+      "stockName": "War pick"
+    },
+    {
+      "sourceName": "Warship",
+      "stockName": "Warship"
+    },
+    {
+      "sourceName": "Waterskin",
+      "stockName": "Waterskin"
+    },
+    {
+      "sourceName": "Weaver's Tools",
+      "stockName": "Weaver's tools"
+    },
+    {
+      "sourceName": "Whetstone",
+      "stockName": "Whetstone"
+    },
+    {
+      "sourceName": "Whip",
+      "stockName": "Whip"
+    },
+    {
+      "sourceName": "Woodcarver's Tools",
+      "stockName": "Woodcarver's tools"
+    }
+  ],
+  "skippedSelected": [
+    [
+      "Wand of Magic Detection",
+      "already stocked",
+      "Wand of Detect Magic"
+    ]
+  ],
+  "existingPricesToCompare": [
+    {
+      "stockName": "Amethyst",
+      "currentPriceCp": 5000,
+      "comparisonPriceCp": 10000,
+      "comparisonSource": "DMG"
+    },
+    {
+      "stockName": "Aquamarine",
+      "currentPriceCp": 10000,
+      "comparisonPriceCp": 50000,
+      "comparisonSource": "DMG"
+    },
+    {
+      "stockName": "Arrows (20)",
+      "currentPriceCp": 5,
+      "comparisonPriceCp": 100,
+      "comparisonSource": "PHB"
+    },
+    {
+      "stockName": "Backpack",
+      "currentPriceCp": 500,
+      "comparisonPriceCp": 200,
+      "comparisonSource": "PHB"
+    },
+    {
+      "stockName": "Black pearl",
+      "currentPriceCp": 10000,
+      "comparisonPriceCp": 50000,
+      "comparisonSource": "DMG"
+    },
+    {
+      "stockName": "Blowgun needles (50)",
+      "currentPriceCp": 2,
+      "comparisonPriceCp": 100,
+      "comparisonSource": "PHB"
+    },
+    {
+      "stockName": "Chain shirt",
+      "currentPriceCp": 2000,
+      "comparisonPriceCp": 5000,
+      "comparisonSource": "PHB"
+    },
+    {
+      "stockName": "Citrine",
+      "currentPriceCp": 2500,
+      "comparisonPriceCp": 5000,
+      "comparisonSource": "DMG"
+    },
+    {
+      "stockName": "Cobbler's tools",
+      "currentPriceCp": 1000,
+      "comparisonPriceCp": 500,
+      "comparisonSource": "PHB"
+    },
+    {
+      "stockName": "Covered wagon",
+      "currentPriceCp": 3500,
+      "comparisonPriceCp": 25000,
+      "comparisonSource": "FRHoF"
+    },
+    {
+      "stockName": "Crossbow bolts (20)",
+      "currentPriceCp": 5,
+      "comparisonPriceCp": 100,
+      "comparisonSource": "PHB"
+    },
+    {
+      "stockName": "Diamond",
+      "currentPriceCp": 100000,
+      "comparisonPriceCp": 500000,
+      "comparisonSource": "DMG"
+    },
+    {
+      "stockName": "Diplomat's pack",
+      "currentPriceCp": 2500,
+      "comparisonPriceCp": 3900,
+      "comparisonSource": "PHB"
+    },
+    {
+      "stockName": "Donkey",
+      "currentPriceCp": 500,
+      "comparisonPriceCp": 800,
+      "comparisonSource": "PHB"
+    },
+    {
+      "stockName": "Dungeoneer's pack",
+      "currentPriceCp": 2500,
+      "comparisonPriceCp": 1200,
+      "comparisonSource": "PHB"
+    },
+    {
+      "stockName": "Explorer's pack",
+      "currentPriceCp": 2500,
+      "comparisonPriceCp": 1000,
+      "comparisonSource": "PHB"
+    },
+    {
+      "stockName": "Flute",
+      "currentPriceCp": 1000,
+      "comparisonPriceCp": 200,
+      "comparisonSource": "PHB"
+    },
+    {
+      "stockName": "Garnet",
+      "currentPriceCp": 5000,
+      "comparisonPriceCp": 10000,
+      "comparisonSource": "DMG"
+    },
+    {
+      "stockName": "Greatclub",
+      "currentPriceCp": 200,
+      "comparisonPriceCp": 20,
+      "comparisonSource": "PHB"
+    },
+    {
+      "stockName": "Handaxe",
+      "currentPriceCp": 5,
+      "comparisonPriceCp": 500,
+      "comparisonSource": "PHB"
+    },
+    {
+      "stockName": "Healer's kit",
+      "currentPriceCp": 3000,
+      "comparisonPriceCp": 500,
+      "comparisonSource": "PHB"
+    },
+    {
+      "stockName": "Hematite",
+      "currentPriceCp": 500,
+      "comparisonPriceCp": 1000,
+      "comparisonSource": "DMG"
+    },
+    {
+      "stockName": "Hourglass",
+      "currentPriceCp": 1000,
+      "comparisonPriceCp": 2500,
+      "comparisonSource": "PHB"
+    },
+    {
+      "stockName": "Jug",
+      "currentPriceCp": 200,
+      "comparisonPriceCp": 2,
+      "comparisonSource": "PHB"
+    },
+    {
+      "stockName": "Leatherworker's tools",
+      "currentPriceCp": 1500,
+      "comparisonPriceCp": 500,
+      "comparisonSource": "PHB"
+    },
+    {
+      "stockName": "Mason's tools",
+      "currentPriceCp": 1500,
+      "comparisonPriceCp": 1000,
+      "comparisonSource": "PHB"
+    },
+    {
+      "stockName": "Monster hunter's pack",
+      "currentPriceCp": 2500,
+      "comparisonPriceCp": 3300,
+      "comparisonSource": "VRGR"
+    },
+    {
+      "stockName": "Painter's supplies",
+      "currentPriceCp": 1500,
+      "comparisonPriceCp": 1000,
+      "comparisonSource": "PHB"
+    },
+    {
+      "stockName": "Pan flute",
+      "currentPriceCp": 1000,
+      "comparisonPriceCp": 1200,
+      "comparisonSource": "PHB"
+    },
+    {
+      "stockName": "Peridot",
+      "currentPriceCp": 2500,
+      "comparisonPriceCp": 50000,
+      "comparisonSource": "DMG"
+    },
+    {
+      "stockName": "Potter's tools",
+      "currentPriceCp": 1500,
+      "comparisonPriceCp": 1000,
+      "comparisonSource": "PHB"
+    },
+    {
+      "stockName": "Scholar's pack",
+      "currentPriceCp": 2500,
+      "comparisonPriceCp": 4000,
+      "comparisonSource": "PHB"
+    },
+    {
+      "stockName": "Shawm",
+      "currentPriceCp": 2000,
+      "comparisonPriceCp": 200,
+      "comparisonSource": "PHB"
+    },
+    {
+      "stockName": "Sickle",
+      "currentPriceCp": 10,
+      "comparisonPriceCp": 100,
+      "comparisonSource": "PHB"
+    },
+    {
+      "stockName": "Spear",
+      "currentPriceCp": 10,
+      "comparisonPriceCp": 100,
+      "comparisonSource": "PHB"
+    },
+    {
+      "stockName": "Spiked armor",
+      "currentPriceCp": 1000,
+      "comparisonPriceCp": 7500,
+      "comparisonSource": "SCAG"
+    },
+    {
+      "stockName": "Star sapphire",
+      "currentPriceCp": 50000,
+      "comparisonPriceCp": 100000,
+      "comparisonSource": "DMG"
+    },
+    {
+      "stockName": "Tinker's tools",
+      "currentPriceCp": 1500,
+      "comparisonPriceCp": 5000,
+      "comparisonSource": "PHB"
+    },
+    {
+      "stockName": "Topaz",
+      "currentPriceCp": 10000,
+      "comparisonPriceCp": 50000,
+      "comparisonSource": "DMG"
+    },
+    {
+      "stockName": "Weaver's tools",
+      "currentPriceCp": 1500,
+      "comparisonPriceCp": 100,
+      "comparisonSource": "PHB"
+    },
+    {
+      "stockName": "Woodcarver's tools",
+      "currentPriceCp": 1500,
+      "comparisonPriceCp": 100,
+      "comparisonSource": "PHB"
+    }
+  ],
+  "existingPriceReview": {
+    "reviewed": 41,
+    "corrected": 30,
+    "keptHouse": 11,
+    "newlyLabeledHouse": 3,
+    "entries": [
+      {
+        "stockName": "Amethyst",
+        "currentPriceCp": 5000,
+        "comparisonPriceCp": 10000,
+        "comparisonSource": "DMG",
+        "previousStockSource": "950541065126922138",
+        "decision": "kept-house",
+        "finalPriceCp": 5000,
+        "finalPricing": "house",
+        "reason": "Keep the existing house estimate. The DMG treasure table values a specimen of a particular grade."
+      },
+      {
+        "stockName": "Aquamarine",
+        "currentPriceCp": 10000,
+        "comparisonPriceCp": 50000,
+        "comparisonSource": "DMG",
+        "previousStockSource": "950541065126922138",
+        "decision": "kept-house",
+        "finalPriceCp": 10000,
+        "finalPricing": "house",
+        "reason": "Keep the existing house estimate. The DMG treasure table values a specimen of a particular grade."
+      },
+      {
+        "stockName": "Arrows (20)",
+        "currentPriceCp": 5,
+        "comparisonPriceCp": 100,
+        "comparisonSource": "PHB",
+        "previousStockSource": "444941638209698795",
+        "decision": "corrected",
+        "finalPriceCp": 100,
+        "finalPricing": "source",
+        "reason": "Use the published price for the complete bundle."
+      },
+      {
+        "stockName": "Backpack",
+        "currentPriceCp": 500,
+        "comparisonPriceCp": 200,
+        "comparisonSource": "PHB",
+        "previousStockSource": "4925880839572821",
+        "decision": "corrected",
+        "finalPriceCp": 200,
+        "finalPricing": "source",
+        "reason": "Use the published price for the named equipment."
+      },
+      {
+        "stockName": "Black pearl",
+        "currentPriceCp": 10000,
+        "comparisonPriceCp": 50000,
+        "comparisonSource": "DMG",
+        "previousStockSource": "753930793917415886",
+        "decision": "labeled-house",
+        "finalPriceCp": 10000,
+        "finalPricing": "house",
+        "reason": "Keep the emporium’s component grade at 100 gp. The comparison is a 500 gp treasure specimen."
+      },
+      {
+        "stockName": "Blowgun needles (50)",
+        "currentPriceCp": 2,
+        "comparisonPriceCp": 100,
+        "comparisonSource": "PHB",
+        "previousStockSource": "444941638209698795",
+        "decision": "corrected",
+        "finalPriceCp": 100,
+        "finalPricing": "source",
+        "reason": "Use the published price for the complete bundle."
+      },
+      {
+        "stockName": "Chain shirt",
+        "currentPriceCp": 2000,
+        "comparisonPriceCp": 5000,
+        "comparisonSource": "PHB",
+        "previousStockSource": "444941638209698795",
+        "decision": "corrected",
+        "finalPriceCp": 5000,
+        "finalPricing": "source",
+        "reason": "Use the published price for the named equipment."
+      },
+      {
+        "stockName": "Citrine",
+        "currentPriceCp": 2500,
+        "comparisonPriceCp": 5000,
+        "comparisonSource": "DMG",
+        "previousStockSource": "950541065126922138",
+        "decision": "kept-house",
+        "finalPriceCp": 2500,
+        "finalPricing": "house",
+        "reason": "Keep the existing house estimate. The DMG treasure table values a specimen of a particular grade."
+      },
+      {
+        "stockName": "Cobbler's tools",
+        "currentPriceCp": 1000,
+        "comparisonPriceCp": 500,
+        "comparisonSource": "PHB",
+        "previousStockSource": "4925880839572821",
+        "decision": "corrected",
+        "finalPriceCp": 500,
+        "finalPricing": "source",
+        "reason": "Use the published price for the named equipment."
+      },
+      {
+        "stockName": "Covered wagon",
+        "currentPriceCp": 3500,
+        "comparisonPriceCp": 25000,
+        "comparisonSource": "FRHoF",
+        "previousStockSource": "4925880839572826",
+        "decision": "labeled-house",
+        "finalPriceCp": 3500,
+        "finalPricing": "house",
+        "reason": "Keep the local 35 gp wagon price. The newer 250 gp entry is a distinct vehicle with a three-quarters-cover rule."
+      },
+      {
+        "stockName": "Crossbow bolts (20)",
+        "currentPriceCp": 5,
+        "comparisonPriceCp": 100,
+        "comparisonSource": "PHB",
+        "previousStockSource": "444941638209698795",
+        "decision": "corrected",
+        "finalPriceCp": 100,
+        "finalPricing": "source",
+        "reason": "Use the published price for the complete bundle."
+      },
+      {
+        "stockName": "Diamond",
+        "currentPriceCp": 100000,
+        "comparisonPriceCp": 500000,
+        "comparisonSource": "DMG",
+        "previousStockSource": "753930793917415886",
+        "decision": "labeled-house",
+        "finalPriceCp": 100000,
+        "finalPricing": "house",
+        "reason": "Keep the emporium’s 1,000 gp component grade. The comparison is a 5,000 gp treasure specimen."
+      },
+      {
+        "stockName": "Diplomat's pack",
+        "currentPriceCp": 2500,
+        "comparisonPriceCp": 3900,
+        "comparisonSource": "PHB",
+        "previousStockSource": "4925880839572821",
+        "decision": "corrected",
+        "finalPriceCp": 3900,
+        "finalPricing": "source",
+        "reason": "Use the published price for the named equipment."
+      },
+      {
+        "stockName": "Donkey",
+        "currentPriceCp": 500,
+        "comparisonPriceCp": 800,
+        "comparisonSource": "PHB",
+        "previousStockSource": "4925880839572826",
+        "decision": "corrected",
+        "finalPriceCp": 800,
+        "finalPricing": "source",
+        "reason": "Use the published price for the named equipment."
+      },
+      {
+        "stockName": "Dungeoneer's pack",
+        "currentPriceCp": 2500,
+        "comparisonPriceCp": 1200,
+        "comparisonSource": "PHB",
+        "previousStockSource": "4925880839572821",
+        "decision": "corrected",
+        "finalPriceCp": 1200,
+        "finalPricing": "source",
+        "reason": "Use the published price for the named equipment."
+      },
+      {
+        "stockName": "Explorer's pack",
+        "currentPriceCp": 2500,
+        "comparisonPriceCp": 1000,
+        "comparisonSource": "PHB",
+        "previousStockSource": "4925880839572821",
+        "decision": "corrected",
+        "finalPriceCp": 1000,
+        "finalPricing": "source",
+        "reason": "Use the published price for the named equipment."
+      },
+      {
+        "stockName": "Flute",
+        "currentPriceCp": 1000,
+        "comparisonPriceCp": 200,
+        "comparisonSource": "PHB",
+        "previousStockSource": "4925880839572821",
+        "decision": "corrected",
+        "finalPriceCp": 200,
+        "finalPricing": "source",
+        "reason": "Use the published price for the named equipment."
+      },
+      {
+        "stockName": "Garnet",
+        "currentPriceCp": 5000,
+        "comparisonPriceCp": 10000,
+        "comparisonSource": "DMG",
+        "previousStockSource": "950541065126922138",
+        "decision": "kept-house",
+        "finalPriceCp": 5000,
+        "finalPricing": "house",
+        "reason": "Keep the existing house estimate. The DMG treasure table values a specimen of a particular grade."
+      },
+      {
+        "stockName": "Greatclub",
+        "currentPriceCp": 200,
+        "comparisonPriceCp": 20,
+        "comparisonSource": "PHB",
+        "previousStockSource": "444941638209698795",
+        "decision": "corrected",
+        "finalPriceCp": 20,
+        "finalPricing": "source",
+        "reason": "Use the published price for the named equipment."
+      },
+      {
+        "stockName": "Handaxe",
+        "currentPriceCp": 5,
+        "comparisonPriceCp": 500,
+        "comparisonSource": "PHB",
+        "previousStockSource": "444941638209698795",
+        "decision": "corrected",
+        "finalPriceCp": 500,
+        "finalPricing": "source",
+        "reason": "Use the published price for the named equipment."
+      },
+      {
+        "stockName": "Healer's kit",
+        "currentPriceCp": 3000,
+        "comparisonPriceCp": 500,
+        "comparisonSource": "PHB",
+        "previousStockSource": "4925880839572821",
+        "decision": "corrected",
+        "finalPriceCp": 500,
+        "finalPricing": "source",
+        "reason": "Use the published price for the named equipment."
+      },
+      {
+        "stockName": "Hematite",
+        "currentPriceCp": 500,
+        "comparisonPriceCp": 1000,
+        "comparisonSource": "DMG",
+        "previousStockSource": "950541065126922138",
+        "decision": "kept-house",
+        "finalPriceCp": 500,
+        "finalPricing": "house",
+        "reason": "Keep the existing house estimate. The DMG treasure table values a specimen of a particular grade."
+      },
+      {
+        "stockName": "Hourglass",
+        "currentPriceCp": 1000,
+        "comparisonPriceCp": 2500,
+        "comparisonSource": "PHB",
+        "previousStockSource": "4925880839572821",
+        "decision": "corrected",
+        "finalPriceCp": 2500,
+        "finalPricing": "source",
+        "reason": "Use the published price for the named equipment."
+      },
+      {
+        "stockName": "Jug",
+        "currentPriceCp": 200,
+        "comparisonPriceCp": 2,
+        "comparisonSource": "PHB",
+        "previousStockSource": "4925880839572821",
+        "decision": "corrected",
+        "finalPriceCp": 2,
+        "finalPricing": "source",
+        "reason": "Use the published price for the named equipment."
+      },
+      {
+        "stockName": "Leatherworker's tools",
+        "currentPriceCp": 1500,
+        "comparisonPriceCp": 500,
+        "comparisonSource": "PHB",
+        "previousStockSource": "4925880839572821",
+        "decision": "corrected",
+        "finalPriceCp": 500,
+        "finalPricing": "source",
+        "reason": "Use the published price for the named equipment."
+      },
+      {
+        "stockName": "Mason's tools",
+        "currentPriceCp": 1500,
+        "comparisonPriceCp": 1000,
+        "comparisonSource": "PHB",
+        "previousStockSource": "4925880839572821",
+        "decision": "corrected",
+        "finalPriceCp": 1000,
+        "finalPricing": "source",
+        "reason": "Use the published price for the named equipment."
+      },
+      {
+        "stockName": "Monster hunter's pack",
+        "currentPriceCp": 2500,
+        "comparisonPriceCp": 3300,
+        "comparisonSource": "VRGR",
+        "previousStockSource": "4925880839572821",
+        "decision": "corrected",
+        "finalPriceCp": 3300,
+        "finalPricing": "source",
+        "reason": "Use the published price for the named equipment."
+      },
+      {
+        "stockName": "Painter's supplies",
+        "currentPriceCp": 1500,
+        "comparisonPriceCp": 1000,
+        "comparisonSource": "PHB",
+        "previousStockSource": "4925880839572821",
+        "decision": "corrected",
+        "finalPriceCp": 1000,
+        "finalPricing": "source",
+        "reason": "Use the published price for the named equipment."
+      },
+      {
+        "stockName": "Pan flute",
+        "currentPriceCp": 1000,
+        "comparisonPriceCp": 1200,
+        "comparisonSource": "PHB",
+        "previousStockSource": "4925880839572821",
+        "decision": "corrected",
+        "finalPriceCp": 1200,
+        "finalPricing": "source",
+        "reason": "Use the published price for the named equipment."
+      },
+      {
+        "stockName": "Peridot",
+        "currentPriceCp": 2500,
+        "comparisonPriceCp": 50000,
+        "comparisonSource": "DMG",
+        "previousStockSource": "950541065126922138",
+        "decision": "kept-house",
+        "finalPriceCp": 2500,
+        "finalPricing": "house",
+        "reason": "Keep the existing house estimate. The DMG treasure table values a specimen of a particular grade."
+      },
+      {
+        "stockName": "Potter's tools",
+        "currentPriceCp": 1500,
+        "comparisonPriceCp": 1000,
+        "comparisonSource": "PHB",
+        "previousStockSource": "4925880839572821",
+        "decision": "corrected",
+        "finalPriceCp": 1000,
+        "finalPricing": "source",
+        "reason": "Use the published price for the named equipment."
+      },
+      {
+        "stockName": "Scholar's pack",
+        "currentPriceCp": 2500,
+        "comparisonPriceCp": 4000,
+        "comparisonSource": "PHB",
+        "previousStockSource": "4925880839572821",
+        "decision": "corrected",
+        "finalPriceCp": 4000,
+        "finalPricing": "source",
+        "reason": "Use the published price for the named equipment."
+      },
+      {
+        "stockName": "Shawm",
+        "currentPriceCp": 2000,
+        "comparisonPriceCp": 200,
+        "comparisonSource": "PHB",
+        "previousStockSource": "4925880839572821",
+        "decision": "corrected",
+        "finalPriceCp": 200,
+        "finalPricing": "source",
+        "reason": "Use the published price for the named equipment."
+      },
+      {
+        "stockName": "Sickle",
+        "currentPriceCp": 10,
+        "comparisonPriceCp": 100,
+        "comparisonSource": "PHB",
+        "previousStockSource": "444941638209698795",
+        "decision": "corrected",
+        "finalPriceCp": 100,
+        "finalPricing": "source",
+        "reason": "Use the published price for the named equipment."
+      },
+      {
+        "stockName": "Spear",
+        "currentPriceCp": 10,
+        "comparisonPriceCp": 100,
+        "comparisonSource": "PHB",
+        "previousStockSource": "444941638209698795",
+        "decision": "corrected",
+        "finalPriceCp": 100,
+        "finalPricing": "source",
+        "reason": "Use the published price for the named equipment."
+      },
+      {
+        "stockName": "Spiked armor",
+        "currentPriceCp": 1000,
+        "comparisonPriceCp": 7500,
+        "comparisonSource": "SCAG",
+        "previousStockSource": "444941638209698795",
+        "decision": "corrected",
+        "finalPriceCp": 7500,
+        "finalPricing": "source",
+        "reason": "Use the published price for the named equipment."
+      },
+      {
+        "stockName": "Star sapphire",
+        "currentPriceCp": 50000,
+        "comparisonPriceCp": 100000,
+        "comparisonSource": "DMG",
+        "previousStockSource": "950541065126922138",
+        "decision": "kept-house",
+        "finalPriceCp": 50000,
+        "finalPricing": "house",
+        "reason": "Keep the existing house estimate. The DMG treasure table values a specimen of a particular grade."
+      },
+      {
+        "stockName": "Tinker's tools",
+        "currentPriceCp": 1500,
+        "comparisonPriceCp": 5000,
+        "comparisonSource": "PHB",
+        "previousStockSource": "4925880839572821",
+        "decision": "corrected",
+        "finalPriceCp": 5000,
+        "finalPricing": "source",
+        "reason": "Use the published price for the named equipment."
+      },
+      {
+        "stockName": "Topaz",
+        "currentPriceCp": 10000,
+        "comparisonPriceCp": 50000,
+        "comparisonSource": "DMG",
+        "previousStockSource": "950541065126922138",
+        "decision": "kept-house",
+        "finalPriceCp": 10000,
+        "finalPricing": "house",
+        "reason": "Keep the existing house estimate. The DMG treasure table values a specimen of a particular grade."
+      },
+      {
+        "stockName": "Weaver's tools",
+        "currentPriceCp": 1500,
+        "comparisonPriceCp": 100,
+        "comparisonSource": "PHB",
+        "previousStockSource": "4925880839572821",
+        "decision": "corrected",
+        "finalPriceCp": 100,
+        "finalPricing": "source",
+        "reason": "Use the published price for the named equipment."
+      },
+      {
+        "stockName": "Woodcarver's tools",
+        "currentPriceCp": 1500,
+        "comparisonPriceCp": 100,
+        "comparisonSource": "PHB",
+        "previousStockSource": "4925880839572821",
+        "decision": "corrected",
+        "finalPriceCp": 100,
+        "finalPricing": "source",
+        "reason": "Use the published price for the named equipment."
+      }
+    ]
+  }
+}

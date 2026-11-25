@@ -1,0 +1,238 @@
+{
+  "builds": [
+    {
+      "id": "ryoko-kitsune-sumi-wickstep",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Night courier, Rogue 1",
+      "difficulty": "Rogue 1. No assigned CR.",
+      "size": "Medium",
+      "type": "Fey",
+      "speed": "35 ft.",
+      "ac": 14,
+      "hp": 10,
+      "hitDice": "1d8+2",
+      "initiative": 3,
+      "senses": "Darkvision 60 ft., passive Perception 14.",
+      "languages": "Common, Kitsune, and Sylvan.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 10,
+        "CHA": 16
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Deception +5",
+        "Investigation +2",
+        "Perception +4",
+        "Persuasion +5",
+        "Sleight of Hand +5",
+        "Stealth +7"
+      ],
+      "traits": [
+        "Proficiency +2. Dexterity save +5, Intelligence save +2. Leather AC 11 + 3 Dexterity.",
+        "Criminal grants Deception, Stealth, dice proficiency, and Criminal Contact. Sumi trades the duplicate thieves’ tools proficiency for disguise kit proficiency. Rogue grants Acrobatics, Investigation, Perception, Sleight of Hand, thieves’ tools, and thieves’ cant. Kitsune Guile grants Persuasion. Expertise applies to Perception and Stealth. Has a shortbow, 20 arrows, a rapier, and thieves’ tools.",
+        "Sneak Attack. Once per turn add 1d6 to a finesse or ranged weapon hit with advantage, or when an enemy of the target is within 5 ft. of it and is not incapacitated. Disadvantage prevents using Sneak Attack.",
+        "Language of Motion. With 1 minute of gestures, Sumi can pass a simple message to Kitsune speakers who see her within 60 ft."
+      ],
+      "actions": [
+        "Shortbow. Ranged weapon attack +5, range 80/320 ft., 1d6+3 piercing. Two hands.",
+        "Rapier. Melee weapon attack +5, reach 5 ft., 1d8+3 piercing.",
+        "Fox’s Wedding. Charisma-based spell attack +5. Produce flame lights 10 ft. brightly and the next 10 ft. dimly for up to 10 minutes. Hurl it at a creature within 30 ft. when casting or with a later action. The attack deals 1d8 fire on a hit and ends the flame. Druidcraft provides small signs, sensory tricks, plant growth effects limited to opening blossoms or seedpods, and can light or snuff a candle, torch, or small campfire. Both cantrips require somatic components.",
+        "Ascendant Form. Action, once per long rest, lasts 1 hour or until ended as a bonus action. Pierces magical darkness with bright light out to 10 ft. and dim light another 10 ft. Chosen creatures in the light add 1d4 to Intimidation, Perception, and Persuasion checks. When a creature within 10 ft. misses an attack or fails a save during the form, Sumi can use her reaction to add 1d4 to that roll.",
+        "Fox form. Action to turn into a Tiny or Small fox and action to revert. Equipment melds and provides no benefit, reducing AC to 13. Still speaks and can concentrate but cannot cast spells with somatic or material components."
+      ],
+      "tactics": "Sumi fires from cover when a companion has drawn attention. In a blocked alley she turns fox and slips through a gap."
+    },
+    {
+      "id": "ryoko-oniborne-iori-reedjaw",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Blue bridge warden, Fighter 1",
+      "difficulty": "Fighter 1. No assigned CR.",
+      "size": "Medium",
+      "type": "Humanoid",
+      "speed": "30 ft.",
+      "ac": 19,
+      "hp": 13,
+      "hitDice": "1d10+3",
+      "initiative": 0,
+      "senses": "Passive Perception 14.",
+      "languages": "Common and Giant.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 10,
+        "CON": 16,
+        "INT": 10,
+        "WIS": 14,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +5",
+        "Insight +4",
+        "Intimidation +1",
+        "Perception +4",
+        "Persuasion +1",
+        "Survival +4"
+      ],
+      "traits": [
+        "Proficiency +2. Strength and Constitution saves +5. Chain mail 16, shield +2, Defense fighting style +1.",
+        "Soldier grants Athletics, Intimidation, Military Rank, dice proficiency, and land vehicle proficiency. Fighter grants Perception and Survival. Gift of Empathy grants Insight and Persuasion.",
+        "Powerful Build. Treat Iori as Large to determine how much he can carry, push, drag, or lift. Carries chain mail, a shield, and a longsword."
+      ],
+      "actions": [
+        "Longsword. Melee weapon attack +5, reach 5 ft., 1d8+3 slashing while using the shield.",
+        "Crunching Maw. Unarmed strike +5, reach 5 ft., 1d6+3 piercing.",
+        "Savage Bite. When a creature within 5 ft. damages Iori, he can use his reaction to target it with Crunching Maw. This attack crits on 18–20. Twice per long rest.",
+        "Compassionate Heart. Help as a bonus action twice per long rest. When helping with either an action or bonus action, Iori can spend his single Hit Die if available to grant an ally within 5 ft. 1d10+3 temporary HP.",
+        "Second Wind. Bonus action to regain 1d10+1 HP, once per short or long rest."
+      ],
+      "tactics": "Iori braces in the narrowest part of the bridge and helps an ally clear the way. He saves his bite for anyone who gets through the shield."
+    },
+    {
+      "id": "ryoko-ryokido-gen-tidemark",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Lion turtle foot messenger, Fighter 1",
+      "difficulty": "Fighter 1. No assigned CR.",
+      "size": "Medium",
+      "type": "Humanoid",
+      "speed": "30 ft.",
+      "ac": 16,
+      "hp": 12,
+      "hitDice": "1d10+2",
+      "initiative": 0,
+      "senses": "Darkvision 60 ft., passive Perception 14.",
+      "languages": "Common, Dwarvish, and Sylvan.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 10,
+        "CON": 15,
+        "INT": 8,
+        "WIS": 14,
+        "CHA": 11
+      },
+      "skills": [
+        "Athletics +5",
+        "History +1",
+        "Insight +4",
+        "Perception +4",
+        "Survival +4"
+      ],
+      "traits": [
+        "Proficiency +2. Strength save +5, Constitution save +4. Tough Shell AC 12 + 2 Constitution + 2 shield. Carries a spear and shield and wears no armor. Dueling adds 2 to spear damage while wielding it with one hand and no other weapon.",
+        "Outlander grants Athletics, Survival, Sylvan, a flute, and Wanderer. Fighter grants History and Perception. Lionheart grants Insight.",
+        "Heavy Shell. Advantage on checks and saves against being knocked prone. Standing up from prone costs his bonus action and the usual movement."
+      ],
+      "actions": [
+        "Spear. Melee or ranged weapon attack +5, reach 5 ft. or range 20/60 ft., 1d6+5 piercing while wielded one-handed with the shield. If thrown, he must retrieve it before using it again.",
+        "Slashing Claws. Strength-based unarmed strike +5, reach 5 ft., 1d6+3 slashing. Requires a free claw.",
+        "Telepathic Bond. Use an action to link with one willing creature Gen can see within 100 ft. for 1 hour. Exchange thoughts despite language differences. A creature with no language can exchange basic ideas, imagery, and feelings. The link ends early on bonding to someone else or moving more than 100 ft. apart.",
+        "Brace for a fall. React to subtract up to 100 ft. when calculating falling damage. Once per long rest.",
+        "Second Wind. Bonus action to regain 1d10+1 HP, once per short or long rest."
+      ],
+      "tactics": "Gen establishes a bond before entering a guarded area. When forced to fight he keeps his shield up and his spear in hand."
+    },
+    {
+      "id": "ryoko-tatsumi-nami-reedscale",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Nishikin snag scout, Fighter 2",
+      "difficulty": "Fighter 2. No assigned CR.",
+      "size": "Medium",
+      "type": "Humanoid",
+      "speed": "30 ft., swim 30 ft.",
+      "ac": 14,
+      "hp": 20,
+      "hitDice": "2d10+4",
+      "initiative": 3,
+      "senses": "Passive Perception 15.",
+      "languages": "Common, Aquan, and Sylvan.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 16,
+        "CHA": 10
+      },
+      "skills": [
+        "Athletics +1",
+        "Insight +5",
+        "Perception +5",
+        "Survival +5"
+      ],
+      "traits": [
+        "Proficiency +2. Strength save +1, Constitution save +4. Leather AC 11 + 3 Dexterity. Archery adds 2 to ranged weapon attack rolls. HP 12 at level 1 and 8 more at level 2.",
+        "White-primary Nishikin. Breathes air and water. Counts as one size larger when carrying, pushing, dragging, or lifting. Advantage on checks and saves to avoid or escape grapples.",
+        "Outlander grants Athletics, Survival, Sylvan, a flute, and Wanderer. Fighter grants Insight and Perception. Has a shortbow, 20 arrows, and a dagger."
+      ],
+      "actions": [
+        "Shortbow. Ranged weapon attack +7, range 80/320 ft., 1d6+3 piercing. Two hands. Underwater the shot has disadvantage within 80 ft. and misses automatically beyond 80 ft.",
+        "Dagger. Melee or ranged weapon attack +5, reach 5 ft. or range 20/60 ft., 1d4+3 piercing.",
+        "Moonblessed. Bonus action in moonlight. Spend two available Hit Dice to regain 2d10+2 HP. Excess beyond full HP becomes temporary HP. Once per long rest.",
+        "Slumbering Dragon. Reaction to add 1d6 to Nami’s own Wisdom check or Wisdom save after rolling the d20 and before the outcome. Twice per short or long rest. Her current attacks use Dexterity and receive no bonus.",
+        "Second Wind. Bonus action to regain 1d10+2 HP, once per short or long rest.",
+        "Action Surge. One additional action on her turn, once per short or long rest."
+      ],
+      "tactics": "Nami uses the shortbow from shore and switches to the dagger after diving. She keeps close enough to the snag to force a pursuer into the weeds."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Sumi Wickstep",
+      "species": "Kitsune",
+      "speciesPublication": "Ryoko’s Guide to the Yokai Realms (v1.00)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "ryoko-kitsune-sumi-wickstep",
+      "size": "Medium",
+      "role": "Carries letters between kitchens after dark.",
+      "motive": "Find the sender whose letters keep turning up with broken seals.",
+      "hook": "Hands the party an unopened letter addressed to someone standing beside them."
+    },
+    {
+      "name": "Iori Reedjaw",
+      "species": "Oniborne",
+      "speciesPublication": "Ryoko’s Guide to the Yokai Realms (v1.00)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "ryoko-oniborne-iori-reedjaw",
+      "size": "Medium",
+      "role": "A Blue Oniborne who oversees a crossing.",
+      "motive": "Return the bridge bell before the next fog.",
+      "hook": "Its rope is still hanging, but the iron bell is gone. Iori offers to help search below the bridge."
+    },
+    {
+      "name": "Gen Tidemark",
+      "species": "Ryokido",
+      "speciesPublication": "Ryoko’s Guide to the Yokai Realms (v1.00)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "ryoko-ryokido-gen-tidemark",
+      "size": "Medium",
+      "role": "A foot messenger who accepts routes other couriers decline.",
+      "motive": "Find out who has been moving a route marker at night.",
+      "hook": "Gen stays on the path and points out the imprint where the marker stood yesterday."
+    },
+    {
+      "name": "Nami Reedscale",
+      "species": "Tatsumi",
+      "speciesPublication": "Ryoko’s Guide to the Yokai Realms (v1.00)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "ryoko-tatsumi-nami-reedscale",
+      "size": "Medium",
+      "role": "A white-primary Nishikin who scouts snags and submerged boat wrecks.",
+      "motive": "Recover a diver’s loaned knife from a wreck before the river rises.",
+      "hook": "A lantern lit beneath the wreck by itself. Nami wants another pair of eyes on the boat before she dives."
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+[
+  {
+    "name": "Giant Spider",
+    "kind": "beast",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "Version 1.0, November 2018 ",
+    "printedPages": [
+      136
+    ],
+    "section": "Chapter 12, Monsters",
+    "sourceUrl": "",
+    "rulesCrossCheck": "https://www.dndbeyond.com/monsters/16895-giant-spider",
+    "appearanceEvidence": "The Monster Manual describes a web-building spider. The orb-weaver shape, leg proportions, and coloration are editorial choices for the original portrait.",
+    "habitatEvidence": "The Monster Manual text places giant spiders most often underground, on ceilings or in web-filled cracks. Caves is an editorial search term. Underdark, forest, swamp, urban, and desert are habitats from the legacy D&D Beyond listing.",
+    "pdfPage": 136,
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3",
+    "rechargeReference": ""
+  },
+  {
+    "name": "Giant Spider",
+    "kind": "beast",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "2014 fifth-edition printing",
+    "printedPages": [
+      328
+    ],
+    "section": "Appendix A, Miscellaneous Creatures",
+    "sourceUrl": "https://online.anyflip.com/pqhqn/sezy/files/basic-html/page329.html",
+    "rulesCrossCheck": "https://www.dndbeyond.com/monsters/16895-giant-spider",
+    "appearanceEvidence": "The Monster Manual describes a web-building spider. The orb-weaver shape, leg proportions, and coloration are editorial choices for the original portrait.",
+    "habitatEvidence": "The Monster Manual text places giant spiders most often underground, on ceilings or in web-filled cracks. Caves is an editorial search term. Underdark, forest, swamp, urban, and desert are habitats from the legacy D&D Beyond listing.",
+    "sourceWitness": "Page-specific reproduction of the printed Monster Manual. The viewer numbers pages one ahead of the book folios.",
+    "officialErrata": "",
+    "printingNotes": [
+      "No creature-specific change in the published 2014 Monster Manual errata."
+    ],
+    "rechargeReference": ""
+  },
+  {
+    "name": "Giant Toad",
+    "kind": "beast",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "Version 1.0, November 2018 ",
+    "printedPages": [
+      136
+    ],
+    "section": "Chapter 12, Monsters",
+    "sourceUrl": "",
+    "rulesCrossCheck": "https://www.dndbeyond.com/monsters/16896-giant-toad",
+    "appearanceEvidence": "The warts, colors, and proportions are editorial choices for the original portrait. The printed stat blocks give no physical description.",
+    "habitatEvidence": "The legacy D&D Beyond listing gives coastal, desert, forest, swamp, and Underdark. The printed stat blocks give no explicit habitat.",
+    "pdfPage": 136,
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3",
+    "layoutNotes": "The stat block starts at the bottom of the left column and continues at the top of the right column on p. 136."
+  },
+  {
+    "name": "Giant Toad",
+    "kind": "beast",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "2014 fifth-edition printing",
+    "printedPages": [
+      329
+    ],
+    "section": "Appendix A, Miscellaneous Creatures",
+    "sourceUrl": "https://online.anyflip.com/pqhqn/sezy/files/basic-html/page330.html",
+    "rulesCrossCheck": "https://www.dndbeyond.com/monsters/16896-giant-toad",
+    "appearanceEvidence": "The warts, colors, and proportions are editorial choices for the original portrait. The printed stat blocks give no physical description.",
+    "habitatEvidence": "The legacy D&D Beyond listing gives coastal, desert, forest, swamp, and Underdark. The printed stat blocks give no explicit habitat.",
+    "sourceWitness": "Page-specific reproduction of the printed Monster Manual. The viewer numbers pages one ahead of the book folios.",
+    "officialErrata": "",
+    "printingNotes": [
+      "No creature-specific change in the published 2014 Monster Manual errata."
+    ]
+  },
+  {
+    "name": "Giant Vulture",
+    "kind": "beast",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "Version 1.0, November 2018 ",
+    "printedPages": [
+      136
+    ],
+    "section": "Chapter 12, Monsters",
+    "sourceUrl": "",
+    "rulesCrossCheck": "https://www.dndbeyond.com/monsters/16897-giant-vulture",
+    "appearanceEvidence": "Head, ruff, and plumage are editorial details in the original portrait, drawn from a lappet-faced vulture silhouette.",
+    "habitatEvidence": "The legacy D&D Beyond listing gives desert and grassland. The printed stat blocks give no explicit habitat.",
+    "pdfPage": 136,
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3"
+  },
+  {
+    "name": "Giant Vulture",
+    "kind": "beast",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "2014 fifth-edition printing",
+    "printedPages": [
+      329
+    ],
+    "section": "Appendix A, Miscellaneous Creatures",
+    "sourceUrl": "https://online.anyflip.com/pqhqn/sezy/files/basic-html/page330.html",
+    "rulesCrossCheck": "https://www.dndbeyond.com/monsters/16897-giant-vulture",
+    "appearanceEvidence": "Head, ruff, and plumage are editorial details in the original portrait, drawn from a lappet-faced vulture silhouette.",
+    "habitatEvidence": "The legacy D&D Beyond listing gives desert and grassland. The printed stat blocks give no explicit habitat.",
+    "sourceWitness": "Page-specific reproduction of the printed Monster Manual. The viewer numbers pages one ahead of the book folios.",
+    "officialErrata": "",
+    "printingNotes": [
+      "No creature-specific change in the published 2014 Monster Manual errata."
+    ],
+    "layoutNotes": "Talons continues at the top of the right column on printed p. 329."
+  }
+]

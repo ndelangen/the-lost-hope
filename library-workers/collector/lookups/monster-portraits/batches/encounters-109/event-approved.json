@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Aasimar",
+    "slug": "aasimar",
+    "caption": "Iona Vale · Original Aasimar NPC",
+    "id": "species-706d5c6daf1f4f2a406b0119:7cfe3bd97e9941804ce557b0",
+    "entry": "species-706d5c6daf1f4f2a406b0119",
+    "version": "7cfe3bd97e9941804ce557b0",
+    "suffix": "encounters-109/aasimar.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-109/aasimar.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-109/event-drafts/aasimar-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 109 2026-11-24/event-drafts/aasimar-event-v1.png",
+    "overrides": [],
+    "sha256": "f0beda1919d6b7976e375aa8aa446ac7465928d97356196d2fc7c4284a23364d",
+    "bytes": 2066630
+  }
+]

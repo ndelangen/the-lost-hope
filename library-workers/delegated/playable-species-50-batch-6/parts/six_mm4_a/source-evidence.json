@@ -1,0 +1,141 @@
+[
+  {
+    "name": "Briarvex",
+    "publication": "Monster Manual IV (2006)",
+    "edition": "3.5 edition",
+    "kind": "species",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Plant",
+    "url": "",
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 0,
+    "primaryBookSha256": "95710cc35f6d7d9d2c590da13e35a6a6a21b3206ce56b948276b78b13d2374de",
+    "printedPages": [
+      26,
+      27
+    ],
+    "page": "pp. 26–27, Briarvex and Briarvexes with Class Levels",
+    "sourceDistinctions": [
+      "The original entry lists +4 LA and calls briarvexes generally unsuitable as PCs. Saltburr is built as a classed NPC.",
+      "Druid spells do not stack with the racial entangle. CR 6 is an encounter estimate using a nonassociated first class level. The class Hit Die has a recorded roll of 5."
+    ],
+    "supportingSources": [
+      {
+        "name": "Wizards of the Coast Revised v3.5 System Reference Document. Classes, feats, spell descriptions, equipment and improving monsters.",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Nagatha",
+    "publication": "Monster Manual IV (2006)",
+    "edition": "3.5 edition",
+    "kind": "species",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Monstrous humanoid",
+    "url": "",
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 0,
+    "primaryBookSha256": "95710cc35f6d7d9d2c590da13e35a6a6a21b3206ce56b948276b78b13d2374de",
+    "printedPages": [
+      102,
+      103
+    ],
+    "page": "pp. 102–103, Nagatha and Advanced Nagathas",
+    "sourceDistinctions": [
+      "The ECL table on p. 204 independently confirms 8 racial HD, +2 LA and base ECL 10. The bite DC is unchanged at 9 total HD. The class Hit Die has a recorded roll of 6."
+    ],
+    "supportingSources": [
+      {
+        "name": "Wizards of the Coast Revised v3.5 System Reference Document. Classes, feats, spell descriptions, equipment and improving monsters.",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Corruptor of Fate",
+    "publication": "Monster Manual IV (2006)",
+    "edition": "3.5 edition",
+    "kind": "species",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Outsider",
+    "url": "",
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 0,
+    "primaryBookSha256": "95710cc35f6d7d9d2c590da13e35a6a6a21b3206ce56b948276b78b13d2374de",
+    "printedPages": [
+      190,
+      191,
+      192
+    ],
+    "page": "pp. 190–192, Yugoloth, Corruptor of Fate and Corruptors of Fate with Class Levels",
+    "sourceDistinctions": [
+      "Yugoloth is the original source grouping. No parentSpecies link is used for this catalog entry.",
+      "The book’s classed assassin example confirms that curse caster level and both racial save DCs key off total HD. The rogue class Hit Die has a recorded roll of 4. The +1 Dexterity increase at 8 HD is included in all affected numbers."
+    ],
+    "supportingSources": [
+      {
+        "name": "Wizards of the Coast Revised v3.5 System Reference Document. Classes, feats, spell descriptions, equipment and improving monsters.",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Windblade",
+    "publication": "Monster Manual IV (2006)",
+    "edition": "3.5 edition",
+    "kind": "species",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Outsider",
+    "url": "",
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 0,
+    "primaryBookSha256": "95710cc35f6d7d9d2c590da13e35a6a6a21b3206ce56b948276b78b13d2374de",
+    "printedPages": [
+      176,
+      177,
+      178,
+      179
+    ],
+    "page": "pp. 176–179, Windrazor, Windscythe and Windblades as Characters",
+    "sourceDistinctions": [
+      "Windscythe uses the dedicated p. 179 package’s +5 LA as the primary reading, with the p. 204 ECL table disagreement recorded explicitly. The NPC is Windrazor.",
+      "The entry supplies no shaken duration on Fearsome Critical. The NPC uses one round as a declared table ruling. Its class Hit Die has a recorded roll of 5."
+    ],
+    "supportingSources": [
+      {
+        "name": "Wizards of the Coast Revised v3.5 System Reference Document. Classes, feats, spell descriptions, equipment and improving monsters.",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Varag",
+    "publication": "Monster Manual IV (2006)",
+    "edition": "3.5 edition",
+    "kind": "species",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Humanoid",
+    "url": "",
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 0,
+    "primaryBookSha256": "95710cc35f6d7d9d2c590da13e35a6a6a21b3206ce56b948276b78b13d2374de",
+    "printedPages": [
+      168,
+      169,
+      170,
+      171
+    ],
+    "page": "pp. 168–171, Varag and For Player Characters: The Varag Racial Class",
+    "sourceDistinctions": [
+      "The ECL table on p. 204 confirms base ECL 5. The NPC uses the p. 168 adult monster route and its 60-ft. speed. The p. 171 character progression starts with 40 ft. and has no printed speed increase.",
+      "The +1 Strength increase at 4 HD is included. The class Hit Die has a recorded roll of 6."
+    ],
+    "supportingSources": [
+      {
+        "name": "Wizards of the Coast Revised v3.5 System Reference Document. Classes, feats, spell descriptions, equipment and improving monsters.",
+        "url": ""
+      }
+    ]
+  }
+]

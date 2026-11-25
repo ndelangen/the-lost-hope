@@ -1,0 +1,199 @@
+[
+  {
+    "entry": "beast-0189051e9c344907b1e47af9",
+    "name": "Giant Hyena",
+    "file": "images/beasts/hyena-giant/parchment-portrait.webp",
+    "sha256": "8d08d4181ef580c2acda8facb76ef4e039e7f0f594e3fc4769d847d759ca3c75",
+    "credit": "OpenAI ImageGen",
+    "reference": "",
+    "appearanceSource": "Identical Black Flag beast form cataloged under Hyena, Giant",
+    "subjectPrompt": "One very large naturalistic spotted hyena. Characteristic sloping back, conspicuously high muscular shoulders and powerful forequarters, rounded ears, brown-gray coarse fur with sparse dark brown spots, a short rough crest and a low shaggy tail. Heavy neck and wide black muzzle, realistic canine-like paws anatomically coherent and all visible. Slightly open mouth suggesting curiosity and powerful jaw, low wary three-quarter standing pose. Overall taupe brown and dark gray. Use second reference for the sloping silhouette and head shape only. No scars, gore, prey, scene or circular frame.",
+    "style": "The Lost Hope square gouache and sepia parchment"
+  },
+  {
+    "entry": "beast-06c7d9e76691615246d03075",
+    "name": "Giant Lizard",
+    "file": "images/beasts/lizard-giant/parchment-portrait.webp",
+    "sha256": "e104c2d92ea6df0d0c4baec94fd9e3eda5c10d83757f3dc8ee7825419ae47d89",
+    "credit": "OpenAI ImageGen",
+    "reference": "",
+    "appearanceSource": "Identical Black Flag beast form cataloged under Lizard, Giant",
+    "subjectPrompt": "One huge sturdy monitor-like fantasy lizard. Large strong four limbs with splayed toes, green and deep olive mottled pebbled scales, elongated charcoal-marked broad lizard snout and a slightly heavy twig-brown lower jaw, wary dark amber eyes. Subtle elongated upper corner teeth visible along a mostly closed jaw, as a restrained nod to the token's saber-shaped teeth, not a crocodile or dragon. Muscular long tapering flexible tail bending upward behind the body. Three-quarter walking pose with head lifted and four limbs clear, toe tips and whole tail comfortably inside square. No armor plates, spines, two tails, long reptilian tongue, flame, beasts or scenery. Use the second reference for head and coat style only, ignore its circular frame.",
+    "style": "The Lost Hope square gouache and sepia parchment"
+  },
+  {
+    "entry": "beast-480ac3aac24a0886e1281a94",
+    "name": "Giant Octopus",
+    "file": "images/beasts/octopus-giant/parchment-portrait.webp",
+    "sha256": "a22bdb33b47b5f17814118391208f33b482a38fa54b276f5e6cc13fa5979de4c",
+    "credit": "OpenAI ImageGen",
+    "reference": "",
+    "appearanceSource": "Identical Black Flag beast form cataloged under Octopus, Giant",
+    "subjectPrompt": "One giant naturalistic orange-rust octopus. Clearly shaped smooth broad rounded mantle, watchful amber lateral eye, small speckled skin freckles, warm burnt umber at the outer surfaces and mauve shadows under arms. Exactly EIGHT distinct tapering arms visibly attached beneath the head, each single unbranched arm ending in one unambiguous tip, spread around the animal with gently varied curves and a couple of visible underside rows of pale round suckers. Keep complete anatomy internally consistent and separate enough that the eight tips can be counted, with deliberate negative space between arms and breathing room around all tips. Creature is sitting in a three-quarter frontal view, resting on low soft shadow. No water, sand, other animals, round border or landscape. Second reference gives copper-purple coloring and head form only.",
+    "style": "The Lost Hope square gouache and sepia parchment"
+  },
+  {
+    "entry": "beast-38122971530a3d7e4e9548f0",
+    "name": "Giant Owl",
+    "file": "images/beasts/owl-giant/parchment-portrait.webp",
+    "sha256": "ab0d25636c2d775c69a44a7369fe32efec0993dd0a67ab3241268bb750df154f",
+    "credit": "OpenAI ImageGen",
+    "reference": "",
+    "appearanceSource": "Identical Black Flag beast form cataloged under Owl, Giant",
+    "subjectPrompt": "One giant horned owl in controlled flight, broadly rounded wings with individually separated feather tips, beautiful dusty warm gray and fawn barred feathers, fluffy body with cream throat, peaked ear tufts and a distinctive large round owl facial disk with orange gold eyes and compact hooked beak. Tail visibly short, two taloned feet tucked to land. Full body of the bird in clear three-quarter front view, wings open and slightly uneven in a quiet diagonal downward glide. Entire wing feathers, tufts and feet fit square with comfortable margins, faint shadow below. No eagle characteristics, no prey or rocks. Use second reference only for owl species and color, design a new composition.",
+    "style": "The Lost Hope square gouache and sepia parchment"
+  },
+  {
+    "entry": "beast-3d3e89ddbc50a6648579db8a",
+    "name": "Giant Poisonous Snake",
+    "file": "images/beasts/snake-giant-poisonous/parchment-portrait.webp",
+    "sha256": "5503a0af95e2109343aefb33914083fe1f74af286dde62658d301ac51eb1bc72",
+    "credit": "OpenAI ImageGen",
+    "reference": "",
+    "appearanceSource": "Identical Black Flag beast form cataloged under Snake, Giant Poisonous",
+    "subjectPrompt": "A huge fantastical copper-red viper with dark burgundy and charcoal diamond saddles and a terracotta neck, like the creature in the token. A winding S-shaped upper body rises high from one thick broad open coil, triangular angular scaled head pointed authoritatively to the left in readable side profile. Single closed mouth and an amber eye. Short taper before the narrow tip at the bottom right. No rattles, horns, cobra hood, lightning, or added objects.",
+    "style": "The Lost Hope square gouache and sepia parchment"
+  },
+  {
+    "entry": "beast-d52fae2d1ea07a53f2c1ee64",
+    "name": "Giant Rat",
+    "file": "images/beasts/rat-giant/parchment-portrait.webp",
+    "sha256": "3e30f432990da5cab5507c07a63d69d555b5f31fd28fc4c1a0f0e6f202b50bd9",
+    "credit": "OpenAI ImageGen",
+    "reference": "",
+    "appearanceSource": "Identical Black Flag beast form cataloged under Rat, Giant",
+    "subjectPrompt": "One oversized grizzled black brown rat, distinct long pointed muzzle with twitching pale whiskers, fully rodent-like broad pink-gray ears, small bright watchful black eyes, shaggy charcoal and warm umber banded fur tufted along the spine. Low crouched three-quarter walking pose, all four distinct rat feet with exquisitely illustrated toes, long bare finely scaled dark pink-brown tail curling fully into the square. Stern predatory look with slight parting of lips and modest rodent incisors, realistic proportions and intact anatomy. Entire specimen and tail with breathing room. No prey, filth, blood or environmental context. Use second reference for the rat's dark coarse coat and feral character only.",
+    "style": "The Lost Hope square gouache and sepia parchment"
+  },
+  {
+    "entry": "beast-e3eaf40b6de775c6fce99915",
+    "name": "Giant Seahorse",
+    "file": "images/beasts/seahorse-giant/parchment-portrait.webp",
+    "sha256": "91b2d6e0084ee78cf1c121b61015d453c05a90149f042e5cda2c790bab6cb3cd",
+    "credit": "OpenAI ImageGen",
+    "reference": "",
+    "appearanceSource": "Identical Black Flag beast form cataloged under Seahorse, Giant",
+    "subjectPrompt": "One gigantic fantasy seahorse with credible seahorse anatomy. Body oriented upright, slight three-quarter turn, the whole silhouette clearly visible. Curved narrow head with tapered tubular snout, angular knobby little coronet, armored plate-like rings along a thick upper torso tapering to fully visible curled prehensile tail. Light delicate translucent dorsal fin on back, restrained spiked ridges along crest and neck based on the second reference. Sulfur olive-green and muted antique yellow-ochre underbelly with subtle teal flecks, highly detailed natural shading. No horse legs or additional appendages, no sail or dragon wings, no bubbles or water setting, no rider or gear. New quiet poised composition with loose tail curl and blank margins.",
+    "style": "The Lost Hope square gouache and sepia parchment"
+  },
+  {
+    "entry": "beast-719fa718ae318f8daf6470f2",
+    "name": "Giant Shark",
+    "file": "images/beasts/shark-giant/parchment-portrait.webp",
+    "sha256": "6f25152dfad729848372c45bf1cf578f8ebd0fa172fc96901ed665a93eec2935",
+    "credit": "OpenAI ImageGen",
+    "reference": "",
+    "appearanceSource": "Identical Black Flag beast form cataloged under Shark, Giant",
+    "subjectPrompt": "One immense naturalistic megalodon-like shark, stocky torpedo body, massive broad blunt triangular head, slate blue-gray dorsal coloring, weathered gray green shading, pale cream underside, lateral gill slits, black alert eye. Correct shark fin attachments: distinct dorsal fin, two tapering pectoral fins, full powerful tall crescent tail. Slightly parted jaw just enough to glimpse a sparse natural row of pointed triangular teeth, no giant smile. Swimming diagonally forward in a convincing oblique three-quarter profile, full body and tail in frame, majestic threatening stillness. No bubbles, sea floor, water, gore, prey, human divers, or scenery. The second reference establishes color and morphology only; design a distinct pose.",
+    "style": "The Lost Hope square gouache and sepia parchment"
+  },
+  {
+    "entry": "beast-4faf39ec43fe20a78415c96d",
+    "name": "Giant Spider",
+    "file": "images/beasts/spider-giant/parchment-portrait.webp",
+    "sha256": "1c60104648897277089910b73073e8aa7b59cad981b7d6248fd0a6681e966a09",
+    "credit": "OpenAI ImageGen",
+    "reference": [
+      ""
+    ],
+    "appearanceSource": "Identical Black Flag beast form cataloged under Spider, Giant",
+    "subjectPrompt": "A tall long-legged fantasy orb weaver with a large rounded wine-purple oval abdomen, subtle dorsal spots, compact forebody, and eight thin curved russet-purple walking legs. Raised body and arching knees with clear gaps. Study at a three-quarter side angle, looking left. Compose so all four leg tips on each side are individually distinguishable. Two small pedipalps close to its jaw, clearly much shorter than the legs. Realistic spider anatomy. No horns. No web.",
+    "style": "The Lost Hope square gouache and sepia parchment"
+  },
+  {
+    "entry": "beast-56c629d135c9204067f328c1",
+    "name": "Giant Vulture",
+    "file": "images/beasts/vulture-giant/parchment-portrait.webp",
+    "sha256": "e586cb9345eadfe6e4d6f971d735b6c3b5166e507cbe3c86735afd268704c91f",
+    "credit": "OpenAI ImageGen",
+    "reference": [
+      "",
+      ""
+    ],
+    "appearanceSource": "Identical Black Flag beast form cataloged under Vulture, Giant",
+    "subjectPrompt": "A massive dark gray brown vulture with broad raptor wings, long splayed primary tips, a bald dusky red head, curved ivory-gray beak, and cream neck ruff. Flight three-quarter view, slightly banking left with both wings open, dark tapered tail fanned behind and two talons tucked in. Illustrate anatomically coherent shoulder-to-wing connections and readable feather groups. No branch, ground, prey, badge, or extra birds.",
+    "style": "The Lost Hope square gouache and sepia parchment"
+  },
+  {
+    "entry": "beast-2ec74424823cd72a41730106",
+    "name": "Giant Weasel",
+    "file": "images/beasts/weasel-giant/parchment-portrait.webp",
+    "sha256": "0b8089dff87ed8f230378f67ade8d6ef58f058dd50eb69e242a09d4a3b512eaf",
+    "credit": "OpenAI ImageGen",
+    "reference": [
+      "",
+      ""
+    ],
+    "appearanceSource": "Identical Black Flag beast form cataloged under Weasel, Giant",
+    "subjectPrompt": "One giant long-tailed weasel with a stretched tubular body, narrow russet head and rounded ears, gleaming black eyes, cinnamon chestnut coat and clear ivory underbelly rising along the neck. Full-body alert, low prowl on all four short paws with its long tapered furry tail bent outward, facing right in a three-quarter view. Fine whiskers, tiny rounded paws, and the proportions and curious expression of a real long-tailed weasel. No harness, spear, or other equipment.",
+    "style": "The Lost Hope square gouache and sepia parchment"
+  },
+  {
+    "entry": "beast-b5e267e657124c38d7df68cf",
+    "name": "Giant Wolf Spider",
+    "file": "images/beasts/spider-giant-wolf/parchment-portrait.webp",
+    "sha256": "31c99f8b34b3046fb3087f7cfbf5e10e376f9397750c462959de4745346b231f",
+    "credit": "OpenAI ImageGen",
+    "reference": [
+      ""
+    ],
+    "appearanceSource": "Identical Black Flag beast form cataloged under Spider, Giant Wolf",
+    "subjectPrompt": "A stocky, low-slung dark brown wolf spider, conspicuous coarse hairs, broad charcoal bands on the legs, copper tones and subtle buff stripes on the back. Four short robust walking legs on each side; arrange the eight leg tips so they are easy to count. Centered slightly overhead front three-quarter view, head toward the bottom left, abdomen toward the upper right. Pair of shining large forward-facing eyes, smaller eyes nearby. Two small fuzzy pedipalps held in beside mouth. No rocks or web. Strong spiky silhouette.",
+    "style": "The Lost Hope square gouache and sepia parchment"
+  },
+  {
+    "entry": "beast-e942f96aa397498fac01a0f2",
+    "name": "Hunter Shark",
+    "file": "images/beasts/shark-hunter/parchment-portrait.webp",
+    "sha256": "87ad37d588f2dbe23955a72cfad761fa080e68bce0fec3c8a11fae5bcb1f16e4",
+    "credit": "OpenAI ImageGen",
+    "reference": "",
+    "appearanceSource": "Identical Black Flag beast form cataloged under Shark, Hunter",
+    "subjectPrompt": "One large naturalistic hunter shark, fast pelagic mako-like silhouette inspired by the second reference. A long tightly tapered pointed snout, streamlined deep indigo-gray and slate-blue upper body, muted steel side markings, cream belly, dark dark eye and a glimpse of teeth through a slightly open jaw. Show a powerful curving three-quarter swim bank with the head angled toward left of frame, entire fins and tail within the square. Correct gill slits and fin attachments, longer more graceful than the chunky giant shark in first reference. Minimal chiaroscuro, no water or scenery, no blood or prey. Borrow cool color and sharp snout from second reference, ignore circular frame.",
+    "style": "The Lost Hope square gouache and sepia parchment"
+  },
+  {
+    "entry": "beast-c49fe6f6e60c679a216740c6",
+    "name": "Poisonous Snake",
+    "file": "images/beasts/snake-poisonous/parchment-portrait.webp",
+    "sha256": "a8c91177876de18beee8ac076bd5500c1327f92353bb23448807bc21a508af6f",
+    "credit": "OpenAI ImageGen",
+    "reference": "",
+    "appearanceSource": "Identical Black Flag beast form cataloged under Snake, Poisonous",
+    "subjectPrompt": "An ordinary slender dark slate blue-black viper with very subtle soot-colored chevrons, a pale charcoal throat, one golden eye in profile and a delicate triangular head. Inspired by the black snake in the token. Show its full length, arranged diagonally in two low open, graceful S bends from the fine tip at lower left to the raised alert head at upper right, head turning slightly inward. Its mouth is closed. Each bend is visibly separate with parchment between. No hood, spikes or rattle. Clearly a delicate modestly sized animal.",
+    "style": "The Lost Hope square gouache and sepia parchment"
+  },
+  {
+    "entry": "beast-d2a82dc14e67c579eed05073",
+    "name": "Polar Bear",
+    "file": "images/beasts/bear-polar/parchment-portrait.webp",
+    "sha256": "560ef43f27b4927c9a059fede335cd85e3d427262c072e22667846b165578417",
+    "credit": "OpenAI ImageGen",
+    "reference": "",
+    "appearanceSource": "Identical Black Flag beast form cataloged under Bear, Polar",
+    "subjectPrompt": "A large naturalistic adult polar bear with thick cream-white fur, a long streamlined neck and narrow tapering head, small low-biased rounded ears, glossy black nose and small dark eyes. Walking toward and slightly across the viewer in a strong calm three-quarter pose. Broad insulated paws all visible, weighted and correct, one forepaw just lifting, realistic gray sepia shading within white fur for contrast and clear body outline on amber paper. No ice or ground scene. Use second image solely for species and features, with a new pose.",
+    "style": "The Lost Hope square gouache and sepia parchment"
+  },
+  {
+    "entry": "beast-b7b3eb6d0996ca1aa1e23c9d",
+    "name": "Reef Shark",
+    "file": "images/beasts/shark-reef/parchment-portrait.webp",
+    "sha256": "60e9cdbb91fbbc824f11a3538f89d404eafd78713826e8662ba82581b430b165",
+    "credit": "OpenAI ImageGen",
+    "reference": "",
+    "appearanceSource": "Identical Black Flag beast form cataloged under Shark, Reef",
+    "subjectPrompt": "One realistic small agile gray reef shark with distinctly dark charcoal tips on its short pointed fins, smooth slender body, a softly rounded head and small round blue-dark eye, muted warm gray-brown back with cream underbody. A tranquil yet attentive three-quarter view swimming toward the right from the side, tail trailing back in a gentle S bend, mouth mostly closed with a few teeth at most. Distinguish from a bulky giant shark or pelagic mako using its curved compact proportions and darker fin tips. Exact believable fish anatomy and every part of its tail and fins within the square. No coral or water, no rocks, air bubbles or extra animals. Second reference is for a related reef shark, draw a different pose.",
+    "style": "The Lost Hope square gouache and sepia parchment"
+  },
+  {
+    "entry": "beast-c2c4fd37578229cbf8fc7dad",
+    "name": "Riding Horse",
+    "file": "images/beasts/horse-riding/parchment-portrait.webp",
+    "sha256": "3aa832ecfa411b702bcbbce13e4a86a324c21def311ea2bef0b38241490315c1",
+    "credit": "OpenAI ImageGen",
+    "reference": "",
+    "appearanceSource": "Identical Black Flag beast form cataloged under Horse, Riding",
+    "subjectPrompt": "One alert graceful dark bay or warm chestnut riding horse with a longer slim neck and elegant strong riding conformation, dark mane and tail, a small white forehead marking, and one subtle white pastern. Conservative worn brown leather bridle, neat looped reins, plain medieval riding saddle and muted olive saddle blanket; exact straps anatomically attached. Full body three-quarter view standing lightly on three legs in an unhurried walking step, ears alert. Show horse entire from muzzle and ears to tail and every hoof. No person, weapon, heavy armor or scenery. Second reference gives the riding tack and bay coat only.",
+    "style": "The Lost Hope square gouache and sepia parchment"
+  }
+]

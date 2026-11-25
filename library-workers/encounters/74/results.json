@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Mongrelfolk",
+    "species": "species-f3f96e7947bfb1b3277b5490",
+    "edition": "3.5 edition",
+    "profiles": [
+      "Races of Destiny (2004)"
+    ],
+    "portraitSha256": "bc472884378d622743a2bf9b0d508db4db5051d240cfc03457813a2f27567050",
+    "caption": "Mara Fir Vale · Original Mongrelfolk NPC",
+    "npcReceipts": [
+      {
+        "name": "Mara Fir Vale",
+        "id": "npc-b83f4ff45d8c155f587c0520",
+        "challenge": "Provisional CR 1. ECL 1."
+      },
+      {
+        "name": "Tavin Nek Reed",
+        "id": "npc-df477aaf95540cc75e75cc3e",
+        "challenge": "Provisional CR 1/2. ECL 1."
+      }
+    ]
+  }
+]

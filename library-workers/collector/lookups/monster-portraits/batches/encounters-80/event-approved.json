@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Dream Dwarf",
+    "slug": "dream-dwarf",
+    "caption": "Maera Dol-Vel · Original Dream Dwarf NPC",
+    "id": "species-15c16dad6f37b561b26d2ade:5ed3cce1a272c1d73d7dbe78",
+    "entry": "species-15c16dad6f37b561b26d2ade",
+    "version": "5ed3cce1a272c1d73d7dbe78",
+    "suffix": "encounters-80/dream-dwarf.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-80/dream-dwarf.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-80/event-drafts/dream-dwarf-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 80 2026-11-24/event-drafts/dream-dwarf-event-v1.png",
+    "overrides": [],
+    "sha256": "4c6e66faf607227fb85c7dac33dc9ec8d09462cb931a3641294cb9bd89257d4d",
+    "bytes": 2092306
+  }
+]

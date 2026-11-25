@@ -1,0 +1,533 @@
+[
+  {
+    "name": "Empowered Bog Body",
+    "decision": "separate",
+    "pages": "Coronal Hollow, p. 242",
+    "notes": "Coronal Hollow prints an empowered bog body with its own statistics and actions.",
+    "statBlock": {
+      "name": "Empowered Bog Body",
+      "publication": "Where Evil Lives",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium Undead, typically neutral evil",
+      "ac": 18,
+      "hp": 75,
+      "speed": "30 ft., swim 30 ft.",
+      "cr": "3",
+      "xp": 700,
+      "proficiencyBonus": 2,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 26,
+          "modifier": 8
+        },
+        "Dex": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Con": {
+          "score": 16,
+          "modifier": 3
+        },
+        "Int": {
+          "score": 5,
+          "modifier": -3
+        },
+        "Wis": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Cha": {
+          "score": 6,
+          "modifier": -2
+        }
+      },
+      "otherStatistics": "Natural armor. Perception +2, Stealth +5. Immune to acid and poison damage and to the Poisoned condition. Blindsight 60 ft., passive Perception 12. Understands its languages from life and cannot speak.",
+      "description": "This corpse hides in bog water and pulls victims under.",
+      "sections": {
+        "Role": "Ambusher",
+        "Traits": "Acidic Blood. When a creature within 5 ft. deals piercing or slashing damage to the bog body, that creature takes 3 (1d6) acid damage.",
+        "Actions": "Slam. Melee weapon attack, +10 to hit, reach 5 ft., one target. Hit 11 (1d6 + 8) bludgeoning damage. A Medium or smaller creature hit this way is Grappled (escape DC 18). The bog body can Slam only that creature until the grapple ends.\nSling Mud. Ranged weapon attack, +10 to hit, range 30 ft., one target. Hit 10 (1d4 + 8) bludgeoning plus 3 (1d6) acid damage.\nSubmerge. In swampy terrain, the bog body can sink into the water and mud to become heavily obscured. It takes any creature it is grappling down with it. The creature is heavily obscured, Restrained, and unable to breathe while submerged. It takes 4 (1d8) acid damage at the start of each of its turns.",
+        "Bonus Actions": "Resurface. The bog body returns to the surface with any target it still has Grappled.",
+        "Printed source": "Coronal Hollow, p. 242",
+        "Encounter notes": "Coronal Hollow (p. 237, B2). If the rot angels fight, six empowered bog bodies surface at the start of the second round."
+      },
+      "hitDice": "10d8 + 30",
+      "relatedCreatures": [
+        {
+          "name": "Rot Angel",
+          "kind": "monster",
+          "terms": [
+            "rot angels"
+          ]
+        }
+      ]
+    },
+    "tableNote": "Coronal Hollow (p. 237, B2). If the rot angels fight, six empowered bog bodies surface at the start of the second round."
+  },
+  {
+    "name": "Goblin Underboss Slime Servant",
+    "decision": "separate",
+    "pages": "Ruins of Wrathrock, p. 134",
+    "notes": "The lair prints a self-contained profile for this altered servant.",
+    "statBlock": {
+      "name": "Goblin Underboss Slime Servant",
+      "publication": "Where Evil Lives",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Small Humanoid (Goblin), any alignment",
+      "ac": 17,
+      "hp": 36,
+      "speed": "30 ft., climb 20 ft., swim 30 ft.",
+      "cr": "2",
+      "xp": 450,
+      "proficiencyBonus": 2,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Dex": {
+          "score": 16,
+          "modifier": 3
+        },
+        "Con": {
+          "score": 13,
+          "modifier": 1
+        },
+        "Int": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Wis": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Cha": {
+          "score": 10,
+          "modifier": 0
+        }
+      },
+      "otherStatistics": "Studded leather and shield. Saves Dex +5, Wis +3. Insight +3, Intimidation +2, Stealth +5. Immune to Charmed and Frightened. Darkvision 60 ft., passive Perception 11. Speaks Common and Goblin.",
+      "description": "This slime servant directs Ithu’rath’s patrols and uses its allies for cover.",
+      "sections": {
+        "Role": "Support",
+        "Traits": "Amphibious. The servant breathes air and water.\nCrafty. Leaving an enemy’s reach does not provoke opportunity attacks.\nServant Senses. Ithu’rath shares the servant’s senses and can use the servant’s body to speak.",
+        "Actions": "Multiattack. Make two Shortsword attacks or two Shortbow attacks. Command can replace one attack.\nShortsword. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 6 (1d6 + 3) piercing damage.\nShortbow. Ranged weapon attack, +5 to hit, range 80/320 ft., one target. Hit 6 (1d6 + 3) piercing damage.\nCommand. Choose a visible ally within 30 ft. that can hear the underboss. That ally can spend its reaction to move up to its speed or make a weapon attack.",
+        "Bonus Actions": "Get Reckless (recharge 6). Each willing ally within 30 ft. that can hear the underboss gains advantage on attack rolls until the start of the underboss’s next turn. Attacks against those allies also have advantage during that time.",
+        "Reactions": "Cowardly Commander. When an attacker the underboss can see hits it, the underboss can redirect the hit to a willing ally within 5 ft.",
+        "Printed source": "Ruins of Wrathrock, p. 134",
+        "Encounter notes": "Ruins of Wrathrock (p. 123). The standard slime servant patrol has three orc ramparts, a goblin underboss, and a lizardfolk bloodeye. Patrols end once Ithu’rath is defeated."
+      },
+      "hitDice": "8d6 + 8",
+      "relatedCreatures": [
+        {
+          "name": "Ithu’rath",
+          "kind": "monster",
+          "terms": [
+            "Ithu’rath"
+          ]
+        },
+        {
+          "name": "Orc Rampart Slime Servant",
+          "kind": "monster",
+          "terms": [
+            "orc ramparts"
+          ]
+        },
+        {
+          "name": "Lizardfolk Bloodeye Slime Servant",
+          "kind": "monster",
+          "terms": [
+            "lizardfolk bloodeye"
+          ]
+        }
+      ]
+    },
+    "tableNote": "Ruins of Wrathrock (p. 123). The standard slime servant patrol has three orc ramparts, a goblin underboss, and a lizardfolk bloodeye. Patrols end once Ithu’rath is defeated."
+  },
+  {
+    "name": "Human Brawler Slime Servant",
+    "decision": "separate",
+    "pages": "Ruins of Wrathrock, p. 134",
+    "notes": "The lair prints a self-contained profile for this altered servant.",
+    "statBlock": {
+      "name": "Human Brawler Slime Servant",
+      "publication": "Where Evil Lives",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium Humanoid (Human), any alignment",
+      "ac": 14,
+      "hp": 52,
+      "speed": "30 ft., swim 30 ft.",
+      "cr": "2",
+      "xp": 450,
+      "proficiencyBonus": 2,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 17,
+          "modifier": 3
+        },
+        "Dex": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Con": {
+          "score": 16,
+          "modifier": 3
+        },
+        "Int": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Wis": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Cha": {
+          "score": 12,
+          "modifier": 1
+        }
+      },
+      "otherStatistics": "Studded leather. Athletics +5, Intimidation +3. Immune to Charmed and Frightened. Passive Perception 10. Speaks Common.",
+      "description": "The brawler wrestles intruders to the ground and shields itself with whoever it catches.",
+      "sections": {
+        "Role": "Brute",
+        "Traits": "Amphibious. The servant breathes air and water.\nExploit Opening (3/day). The servant can make an attack with advantage.\nServant Senses. Ithu’rath shares the servant’s senses and can use the servant’s body to speak.",
+        "Actions": "Multiattack. Make two attacks in any combination of Grab and Haymaker.\nGrab. Melee weapon attack, +5 to hit, reach 5 ft., one Medium or smaller creature. Hit 5 (1d4 + 3) bludgeoning damage and Grappled (escape DC 13). The brawler cannot Grab a second creature while the grapple lasts.\nHaymaker. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 5 (1d4 + 3) bludgeoning damage, or 10 (3d4 + 3) if the target is Grappled.\nThrow. Hurl one Grappled creature of Medium size or smaller, or one held object, up to 30 ft. horizontally. A thrown creature falls Prone. If the thrown target would enter the space of a creature or solid object no more than one size smaller than itself, it collides, comes to rest in the nearest open space, and takes 3 (1d6) bludgeoning damage per 10 ft. thrown. A creature of Large size or smaller struck by the thrown target makes a DC 13 Dexterity save or takes the same damage and falls Prone.",
+        "Reactions": "Meat Shield. While grappling a target, the brawler can add +2 AC against a ranged attack that hits it if it can see the attacker. If the bonus turns the hit into a miss, the grappled target takes the hit instead.",
+        "Printed source": "Ruins of Wrathrock, p. 134",
+        "Encounter notes": "In the surface ruins (p. 123), two brawlers and two trickshots patrol together. A DC 17 group Dexterity (Stealth) check lets the characters avoid the patrol or surprise it."
+      },
+      "hitDice": "7d8 + 21",
+      "relatedCreatures": [
+        {
+          "name": "Ithu’rath",
+          "kind": "monster",
+          "terms": [
+            "Ithu’rath"
+          ]
+        },
+        {
+          "name": "Human Trickshot Slime Servant",
+          "kind": "monster",
+          "terms": [
+            "trickshots"
+          ]
+        }
+      ]
+    },
+    "tableNote": "In the surface ruins (p. 123), two brawlers and two trickshots patrol together. A DC 17 group Dexterity (Stealth) check lets the characters avoid the patrol or surprise it."
+  },
+  {
+    "name": "Human Trickshot Slime Servant",
+    "decision": "separate",
+    "pages": "Ruins of Wrathrock, p. 135",
+    "notes": "The lair prints a self-contained profile for this altered servant.",
+    "statBlock": {
+      "name": "Human Trickshot Slime Servant",
+      "publication": "Where Evil Lives",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium Humanoid (Human), any alignment",
+      "ac": 14,
+      "hp": 39,
+      "speed": "30 ft., swim 30 ft.",
+      "cr": "2",
+      "xp": 450,
+      "proficiencyBonus": 2,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Dex": {
+          "score": 18,
+          "modifier": 4
+        },
+        "Con": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Int": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Wis": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Cha": {
+          "score": 14,
+          "modifier": 2
+        }
+      },
+      "otherStatistics": "Perception +4, Stealth +6. Immune to Charmed and Frightened. Passive Perception 14. Speaks Common.",
+      "description": "This slime servant backs up Ithu’rath’s patrols with a bayonet and a heavy crossbow.",
+      "sections": {
+        "Role": "Artillery",
+        "Traits": "Amphibious. The servant breathes air and water.\nExploit Opening (3/day). The servant can make an attack with advantage.\nPoint Blank Shooting. A ranged weapon hit against a creature within 30 ft. deals 7 (2d6) extra piercing damage. An enemy within 5 ft. does not impose disadvantage on the trickshot’s ranged attacks.\nServant Senses. Ithu’rath shares the servant’s senses and can use the servant’s body to speak.",
+        "Actions": "Heavy Crossbow. Ranged weapon attack, +6 to hit, range 100/400 ft., one target. Hit 9 (1d10 + 4) piercing damage.\nBayonet. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit 7 (1d6 + 4) piercing damage.\nRicochet Bolt (recharge 5–6). Make one Heavy Crossbow attack against a target within 100 ft. Make a second Heavy Crossbow attack against a different target within 30 ft. of the first target.",
+        "Printed source": "Ruins of Wrathrock, p. 135",
+        "Encounter notes": "In the surface ruins (p. 123), two brawlers and two trickshots patrol together. A DC 17 group Dexterity (Stealth) check lets the characters avoid the patrol or surprise it."
+      },
+      "hitDice": "6d8 + 12",
+      "relatedCreatures": [
+        {
+          "name": "Ithu’rath",
+          "kind": "monster",
+          "terms": [
+            "Ithu’rath"
+          ]
+        },
+        {
+          "name": "Human Brawler Slime Servant",
+          "kind": "monster",
+          "terms": [
+            "brawlers"
+          ]
+        }
+      ]
+    },
+    "tableNote": "In the surface ruins (p. 123), two brawlers and two trickshots patrol together. A DC 17 group Dexterity (Stealth) check lets the characters avoid the patrol or surprise it."
+  },
+  {
+    "name": "Lizardfolk Bloodeye Slime Servant",
+    "decision": "separate",
+    "pages": "Ruins of Wrathrock, p. 135",
+    "notes": "The lair prints a self-contained profile for this altered servant.",
+    "statBlock": {
+      "name": "Lizardfolk Bloodeye Slime Servant",
+      "publication": "Where Evil Lives",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium Humanoid (Lizardfolk), any alignment",
+      "ac": 16,
+      "hp": 44,
+      "speed": "30 ft., swim 30 ft.",
+      "cr": "2",
+      "xp": 450,
+      "proficiencyBonus": 2,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 16,
+          "modifier": 3
+        },
+        "Dex": {
+          "score": 15,
+          "modifier": 2
+        },
+        "Con": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Int": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Wis": {
+          "score": 16,
+          "modifier": 3
+        },
+        "Cha": {
+          "score": 11,
+          "modifier": 0
+        }
+      },
+      "otherStatistics": "Natural armor. Save Str +5. Athletics +5, Perception +5. Immune to Charmed and Frightened. Passive Perception 15. Speaks Common and Draconic.",
+      "description": "The bloodeye snares intruders with a bola and uses its gaze to cut them off from their allies.",
+      "sections": {
+        "Role": "Controller",
+        "Traits": "Amphibious. The servant breathes air and water.\nServant Senses. Ithu’rath shares the servant’s senses and can use the servant’s body to speak.",
+        "Actions": "Multiattack. Make one Bite or Bola attack, then use Bloodeye Bolt or Mesmeric Lure if available.\nBite. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 6 (1d6 + 3) piercing damage.\nBola. Ranged weapon attack, +5 to hit, range 20/60 ft., one target. Hit 7 (1d8 + 3) bludgeoning damage and the bola Restrains the target. A creature can spend an action to attempt a DC 10 Strength check to free itself or another creature within reach. The bola has AC 10 and breaks after taking 5 slashing damage, freeing the target without hurting it.\nBloodeye Bolt (3/day). Choose a creature the bloodeye can see within 30 ft. On a failed DC 13 Constitution save, it is Blinded for 1 minute. It can repeat the save at the end of each of its turns.\nMesmeric Lure (3/day). Choose a creature the bloodeye can see within 30 ft. On a failed DC 13 Wisdom save, every creature except the bloodeye becomes Invisible to the target until the end of the bloodeye’s next turn.",
+        "Reactions": "Reptilian Escape (1/day). On a failed Strength or Dexterity save, the bloodeye can shed its tail to succeed instead. Its tail grows back after a long rest.",
+        "Printed source": "Ruins of Wrathrock, p. 135",
+        "Encounter notes": "Ruins of Wrathrock (p. 123). The standard slime servant patrol has three orc ramparts, a goblin underboss, and a lizardfolk bloodeye. Patrols end once Ithu’rath is defeated."
+      },
+      "hitDice": "8d8 + 8",
+      "relatedCreatures": [
+        {
+          "name": "Ithu’rath",
+          "kind": "monster",
+          "terms": [
+            "Ithu’rath"
+          ]
+        },
+        {
+          "name": "Goblin Underboss Slime Servant",
+          "kind": "monster",
+          "terms": [
+            "goblin underboss"
+          ]
+        }
+      ]
+    },
+    "tableNote": "Ruins of Wrathrock (p. 123). The standard slime servant patrol has three orc ramparts, a goblin underboss, and a lizardfolk bloodeye. Patrols end once Ithu’rath is defeated."
+  },
+  {
+    "name": "Minotaur Lackey Slime Servant",
+    "decision": "separate",
+    "pages": "Ruins of Wrathrock, p. 136",
+    "notes": "The lair prints a self-contained profile for this altered servant.",
+    "statBlock": {
+      "name": "Minotaur Lackey Slime Servant",
+      "publication": "Where Evil Lives",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium Monstrosity, typically chaotic neutral",
+      "ac": 12,
+      "hp": 10,
+      "speed": "40 ft., swim 40 ft.",
+      "cr": "3",
+      "xp": 140,
+      "proficiencyBonus": 2,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 17,
+          "modifier": 3
+        },
+        "Dex": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Con": {
+          "score": 15,
+          "modifier": 2
+        },
+        "Int": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Wis": {
+          "score": 13,
+          "modifier": 1
+        },
+        "Cha": {
+          "score": 8,
+          "modifier": -1
+        }
+      },
+      "otherStatistics": "Immune to Charmed and Frightened. Darkvision 60 ft., passive Perception 11. Speaks Common.",
+      "description": "These horned slime servants rush intruders in groups, on land or underwater.",
+      "sections": {
+        "Role": "Minion",
+        "Traits": "Amphibious. The servant breathes air and water.\nGoring Run. If the lackey moves at least 20 ft. straight toward an enemy and finishes within 5 ft. of that enemy, it deals 1 piercing damage.\nMinion. Damage from an attack or a failed saving throw drops the lackey to 0 HP. Damage from another source kills it if that damage meets or exceeds its maximum HP. Otherwise it takes no damage.\nServant Senses. Ithu’rath shares the servant’s senses and can use the servant’s body to speak.",
+        "Actions": "Goring Horns (group attack). Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 3 piercing damage. If at least two lackeys joined the attack, the target makes a Strength save with DC 10 plus the number of participants. On a failure, move the target horizontally 5 ft. per participating lackey.",
+        "MCDM minion rules": "Minions with the same stat block can share a turn. They use fixed damage, cannot score critical hits, and have no Hit Dice.\nGroup attacks. Two to five minions sharing a turn can spend their actions on a single attack against a target in every participant’s range or reach. Add +1 to the roll per participant. On a hit, multiply the listed damage by the number of participants. Only use advantage or disadvantage when it applies to everyone involved. Split groups if the target has different cover or concealment from different attackers.\nA minion attacking alone uses its printed bonus and damage. Eligible minions can each spend a reaction to join the same group opportunity attack. If a reaction or similar effect from the target would affect one attacker, the target chooses which participant it affects.\nOverkill. A weapon attack that deals more damage than the minion’s maximum HP can apply the excess to another minion with the same block. Keep subtracting each extra target’s HP from the excess to find what carries over. Extra melee targets must be in reach. Extra ranged targets must be on the attack’s line and within the weapon’s short range. An opportunity attack cannot overkill.",
+        "Printed source": "Ruins of Wrathrock, p. 136",
+        "Encounter notes": "Ruins of Wrathrock (p. 125, J2). In the flooded caverns, the party can keep its distance with a DC 16 group Dexterity (Stealth) or Charisma (Deception) check. Each character chooses their check and rolls with disadvantage if using a source of bright light. On a failed group check, fifteen lackeys attack. Ten more arrive every third round until the party wins or retreats."
+      },
+      "relatedCreatures": [
+        {
+          "name": "Ithu’rath",
+          "kind": "monster",
+          "terms": [
+            "Ithu’rath"
+          ]
+        }
+      ]
+    },
+    "tableNote": "Ruins of Wrathrock (p. 125, J2). In the flooded caverns, the party can keep its distance with a DC 16 group Dexterity (Stealth) or Charisma (Deception) check. Each character chooses their check and rolls with disadvantage if using a source of bright light. On a failed group check, fifteen lackeys attack. Ten more arrive every third round until the party wins or retreats."
+  },
+  {
+    "name": "Orc Rampart Slime Servant",
+    "decision": "separate",
+    "pages": "Ruins of Wrathrock, p. 136",
+    "notes": "The lair prints a self-contained profile for this altered servant.",
+    "statBlock": {
+      "name": "Orc Rampart Slime Servant",
+      "publication": "Where Evil Lives",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium Humanoid (Orc), any alignment",
+      "ac": 18,
+      "hp": 42,
+      "speed": "35 ft., swim 35 ft.",
+      "cr": "2",
+      "xp": 450,
+      "proficiencyBonus": 2,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 18,
+          "modifier": 4
+        },
+        "Dex": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Con": {
+          "score": 18,
+          "modifier": 4
+        },
+        "Int": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Wis": {
+          "score": 11,
+          "modifier": 0
+        },
+        "Cha": {
+          "score": 12,
+          "modifier": 1
+        }
+      },
+      "otherStatistics": "Chain mail and shield. Athletics +6, Perception +2. Immune to Charmed and Frightened. Darkvision 60 ft., passive Perception 12. Speaks Common and Orc.",
+      "description": "The rampart guards its patrol and forces nearby enemies to deal with its spear.",
+      "sections": {
+        "Role": "Soldier",
+        "Traits": "Amphibious. The servant breathes air and water.\nRelentless (1/turn). If the rampart would drop to 0 HP without dying outright and is not Incapacitated, it can attack an enemy before the HP loss takes effect. It needs no action for this attack. If the attack brings the target to 0 HP, the rampart drops to 1 HP instead of 0 HP.\nServant Senses. Ithu’rath shares the servant’s senses and can use the servant’s body to speak.",
+        "Actions": "Multiattack. Make two Spear attacks. If both target the same creature, that creature has disadvantage on attack rolls against anyone except the rampart until the start of the rampart’s next turn.\nSpear. Melee or ranged weapon attack, +6 to hit, reach 5 ft. or range 20/60 ft., one target. Hit 7 (1d6 + 4) piercing damage, or 8 (1d8 + 4) on a melee hit using both hands.",
+        "Reactions": "No! When an enemy within 5 ft. targets another creature with an attack, redirect the attack to the rampart.",
+        "Printed source": "Ruins of Wrathrock, p. 136",
+        "Encounter notes": "Ruins of Wrathrock (p. 123). The standard slime servant patrol has three orc ramparts, a goblin underboss, and a lizardfolk bloodeye. Patrols end once Ithu’rath is defeated."
+      },
+      "hitDice": "5d8 + 20",
+      "relatedCreatures": [
+        {
+          "name": "Ithu’rath",
+          "kind": "monster",
+          "terms": [
+            "Ithu’rath"
+          ]
+        },
+        {
+          "name": "Goblin Underboss Slime Servant",
+          "kind": "monster",
+          "terms": [
+            "goblin underboss"
+          ]
+        }
+      ]
+    },
+    "tableNote": "Ruins of Wrathrock (p. 123). The standard slime servant patrol has three orc ramparts, a goblin underboss, and a lizardfolk bloodeye. Patrols end once Ithu’rath is defeated."
+  },
+  {
+    "name": "Gibbering Mouther (MCDM)",
+    "decision": "share",
+    "pages": "Eyes of the Mountain, p. 258",
+    "notes": "The printed stat lines, transformation sequence, terrain radius, and three action entries match across both books.",
+    "tableNote": "Eyes of the Mountain (p. 252, N1). The four mouthers in the central pit obey Yserthrax. They attack intruders who descend at least 60 ft. into the pit, except Yserthrax and the voiceless talkers. They stay in the pit unless Yserthrax orders otherwise."
+  },
+  {
+    "name": "Swamp Dryad",
+    "decision": "share",
+    "pages": "Boughs of Eternity, p. 314",
+    "notes": "The printed statistics, traits, action economy, poison and petrification rules, and Swamp Medicine match across both books. The ally protection for Entangling Roots appears in the adventure room text.",
+    "tableNote": "Boughs of Eternity (p. 303, L1). Sealh and Salix guard the entrance together. A DC 25 Charisma (Deception or Persuasion) check persuades them to admit the party without an appointment. They can spare their allies when using Entangling Roots here."
+  },
+  {
+    "name": "Essence of Tides",
+    "decision": "share",
+    "pages": "Ash Queen’s Reliquary, p. 297",
+    "notes": "The two printed blocks agree on all stats and features, including Water Glide, the two-hit lightning vulnerability, the lightning push, and both Convocation of Water options.",
+    "tableNote": "Ash Queen’s Reliquary (p. 291, A3). An Elemental can activate the three memorial statues with an action or bonus action. One summons an essence of tides that fights intruders until destroyed. Destroying its statue dismisses it."
+  }
+]

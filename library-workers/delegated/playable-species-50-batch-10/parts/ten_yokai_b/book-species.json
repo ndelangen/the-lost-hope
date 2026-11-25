@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Kitsune",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Ryoko’s Guide to the Yokai Realms (v1.00)",
+    "traits": [
+      "Loot Tavern, Ryoko's Guide to the Yokai Realms v1.00, chapter 8. This profile uses the final 2014-compatible player rules.",
+      "Medium Fey. Dexterity +1 and Charisma +2. Walk 35 ft. and darkvision 60 ft. Adulthood is around 20 and life can span 1,000 years. A kitsune has two arms, two legs, and one to nine tails, growing another tail for each century lived.",
+      "Ascendant Form. With an action, radiate light for up to 1 hour. End it early with a bonus action. The bright light reaches 10 ft., then dim light reaches another 10 ft. and penetrates magical darkness. Chosen creatures in the light can add 1d4 to Intimidation, Perception, and Persuasion checks. During the form, when a creature within 10 ft. misses an attack or fails a saving throw, use your reaction to add 1d4 to that result. The form recharges on a long rest.",
+      "Fox's Wedding. Learn druidcraft and produce flame. From level 3, cast disguise self at 1st level once per long rest and with appropriate spell slots. Choose Intelligence, Wisdom, or Charisma at character creation for these spells.",
+      "Kitsune Guile. Choose proficiency in Deception, Persuasion, or Stealth. Speak, read, and write Common, Kitsune, and a language agreed with the GM. To signal a simple message, move your ears and tails for 1 minute. It can contradict your speech. Kitsune speakers who can see you within 60 ft. can understand it. Others miss the signal.",
+      "Shapeshifter. Take a Tiny or Small fox form with an action and choose your appearance. Gear joins the form and confers no benefits. Retain your other statistics, speech, and concentration, but cannot cast spells with somatic or material components. Revert with an action or upon death."
+    ]
+  },
+  {
+    "name": "Oniborne",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Ryoko’s Guide to the Yokai Realms (v1.00)",
+    "traits": [
+      "Loot Tavern, Ryoko's Guide to the Yokai Realms v1.00, chapter 8. This profile uses the final 2014-compatible player rules.",
+      "Medium Humanoid. Constitution +2, walk 30 ft., and count as one size larger for carrying, lifting, pushing, and dragging. Adulthood is around 21 and a life can span 400 years. Speak, read, and write Common and one language agreed with the GM. Choose Red, Blue, or Green.",
+      "Red. Wisdom +1 and Intimidation proficiency. In 1 minute, or during a Harvesting check, shape one hard part of a corpse into any melee or Thrown weapon. It is magical for you alone and gives +1 to attack and damage rolls, increasing to +2 at level 9 and +3 at 17. Making another ends the magic on earlier weapons.",
+      "Red Weeping Magic. Learn prestidigitation. Gain cure wounds at level 3 and enhance ability at level 5. Each leveled spell can be cast once with the trait per long rest and using appropriate spell slots. Choose Intelligence, Wisdom, or Charisma for these spells. Their casting brings tears to your eyes.",
+      "Blue. Strength +1, Insight and Persuasion proficiency, and a bite unarmed strike for 1d6 + Strength modifier piercing. When a creature within 5 ft. damages you, use a reaction to bite it with a critical on 18–20. Uses equal proficiency bonus per long rest.",
+      "Blue Compassionate Heart. Take Help as a bonus action a number of times equal to proficiency bonus per long rest. When taking Help as either an action or bonus action, you can spend one Hit Die to grant an ally within 5 ft. temporary HP equal to the roll plus your Constitution modifier, minimum 1.",
+      "Green. Charisma +1 and Performance proficiency. Learn thaumaturgy, then hellish rebuke at level 3 and enlarge/reduce at level 5. Each leveled spell can be cast once with the trait per long rest and using appropriate spell slots. Choose Intelligence, Wisdom, or Charisma for these spells. Their casting warms and moistens the air around you.",
+      "Green Ghastly Visage. After you take the Attack action on your turn, you may use a bonus action on one creature within 5 ft. It must pass a Wisdom save against 8 + Constitution modifier + proficiency bonus or be frightened of you for 1 minute. It can repeat the save when it ends a turn more than 30 ft. away. Uses equal proficiency bonus per long rest."
+    ]
+  },
+  {
+    "name": "Ryokido",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Ryoko’s Guide to the Yokai Realms (v1.00)",
+    "traits": [
+      "Loot Tavern, Ryoko's Guide to the Yokai Realms v1.00, chapter 8. This profile uses the final 2014-compatible player rules.",
+      "Also spelled Ryōkido and known in the book as a lion turtle. Medium Humanoid with two arms, two legs, and a tail. Strength, Wisdom, and Charisma +1 each. Walk 30 ft., darkvision 60 ft., and speak Common and one language agreed with the GM. Considered young until 80 and can live up to 600 years.",
+      "Heavy Shell. Advantage on checks and saves against being knocked prone. Getting up costs a bonus action as well as the usual movement.",
+      "Lionheart. Choose one proficiency from Acrobatics, Athletics, Insight, and Intimidation. Unarmed claw strikes deal 1d6 + Strength modifier slashing.",
+      "Telepathic Bond. Use an action to link with one willing creature you can see within 100 ft. for 1 hour. Both can communicate without sharing a language. When the other creature has no language the exchange is limited to simple ideas, images, and feelings. The link ends early if the pair separates by more than 100 ft. or you bond with someone else.",
+      "Tough Shell. Use unarmored AC 12 + Constitution modifier. A shield is allowed. When falling, a reaction can reduce the distance used to calculate damage by up to 100 ft. This reaction recharges on a long rest."
+    ]
+  },
+  {
+    "name": "Tatsumi",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Ryoko’s Guide to the Yokai Realms (v1.00)",
+    "traits": [
+      "Loot Tavern, Ryoko's Guide to the Yokai Realms v1.00, chapter 8. This profile uses the final 2014-compatible player rules.",
+      "Medium Humanoid with two arms, two legs, and a tail. Dexterity, Constitution, and Wisdom +1 each. Walk 30 ft., swim at walking speed, and breathe both air and water. Speak, read, and write Common and Aquan. Adults from age 14, with lifespans around 200 years. Choose Nishikin or Ryūjin.",
+      "Primary color sets an ability and, for Ryūjin, a cantrip list. Red is Strength and Sorcerer. Gold is Dexterity and Druid. Black is Constitution and Warlock. Silver is Intelligence and Wizard. White is Wisdom and Cleric. Blue is Charisma and Bard.",
+      "Nishikin Moonblessed. In moonlight, use a bonus action to spend exactly as many Hit Dice as your proficiency bonus. Heal the rolled total plus Constitution modifier once, with surplus above maximum becoming temporary HP. Recharges on a long rest.",
+      "Nishikin Powerful Build raises carry, lift, push, and drag limits by treating you as one size larger. Slippery grants advantage on checks and saves to avoid or end a grapple on yourself. Slumbering Dragon adds 1d6 as a reaction to your own attack roll, check, or save using your color ability. Decide after the d20 roll and before the outcome. Uses equal proficiency bonus per short or long rest.",
+      "Nishikin can choose to become Ryūjin at level 7 or at a GM-approved major achievement or loss. Keep class, level, color, and other statistics, and replace the Nishikin traits with the Ryūjin traits. Only wish can reverse the change.",
+      "Ryūjin Cloudstep. With a bonus action, gain fly speed equal to half walking speed for 10 minutes. Recharges on a long rest. Learn one cantrip from your color’s class list using that color’s ability. In sunlight, have advantage on saves against being put to sleep and to avoid or end the frightened, paralyzed, or stunned conditions.",
+      "Ryūjin Heartening Breath. As an action, use a 30-ft. cone to bolster yourself and up to your proficiency bonus in chosen creatures in the cone. Add 1d4 to attack rolls and to checks and saves that use your color ability. Lasts up to 1 minute with concentration. Uses equal proficiency bonus per long rest."
+    ]
+  }
+]

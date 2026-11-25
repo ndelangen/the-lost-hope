@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Dryadborn",
+    "file": "portraits/dryadborn.png",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "sha256": "07b6a608937dc3c9dea1460e900a6341be631157230a10a3d9059d658a4682ef"
+  },
+  {
+    "name": "Galeoni",
+    "file": "portraits/galeoni.png",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "sha256": "7586a9068d4b0f4f4178a5361120336dd7a9e7197f1f66c8fd8c5c422c952d23"
+  },
+  {
+    "name": "Garoul",
+    "file": "portraits/garoul.png",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "sha256": "142b4511250bda681341bb72ac0f314f2088aab2d2a66751873f929fe53c4042"
+  },
+  {
+    "name": "Madrai",
+    "file": "portraits/madrai.png",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "sha256": "ac05f5178419e15937c0578575381843016b5fbfb1e52b949bbddd963c3009be"
+  },
+  {
+    "name": "Oxfolk",
+    "file": "portraits/oxfolk.png",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "sha256": "b21ea1acc5ad156e2c9e6ff2ac9deabb07029ff34d6f288d40afaf26e0c15bc9"
+  }
+]

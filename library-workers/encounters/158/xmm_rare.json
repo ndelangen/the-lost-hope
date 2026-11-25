@@ -1,0 +1,417 @@
+[
+  {
+    "name": "Vampire Nightbringer",
+    "statBlock": {
+      "name": "Vampire Nightbringer",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 316,
+      "classification": "Small or Medium undead, neutral evil",
+      "ac": 16,
+      "hp": 142,
+      "hitDice": "19d8 + 57",
+      "speed": "30 ft., fly 30 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "savingThrows": {
+        "Dex": 7,
+        "Wis": 5
+      },
+      "skills": {
+        "Perception": 5,
+        "Stealth": 7
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 15,
+      "description": "A vampire born from necromancy or a plane steeped in negative energy. It stalks through shadows and drains life with its bite.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+4 (14).",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Common plus one other language.",
+        "Damage immunities": "Cold, Necrotic.",
+        "Condition immunities": "Charmed, Exhaustion, Frightened.",
+        "Traits": "Sunlight Hypersensitivity. At the start of its turn in sunlight, the vampire takes 10 Radiant damage. Sunlight also gives it Disadvantage on attack rolls and ability checks.",
+        "Actions": "Multiattack. Make one Bite and one Shadow Strike.\nBite. Melee attack, +7 to hit, reach 5 ft. A hit deals 7 (1d6 + 4) Piercing damage and 10 (3d6) Necrotic damage. Reduce the target’s HP maximum by the Necrotic damage it actually took and restore that many HP to the vampire.\nShadow Strike. Melee attack, +7 to hit, reach 5 ft. A hit deals 7 (1d6 + 4) Slashing damage and 14 (4d6) Cold damage.",
+        "Bonus actions": "Shadow Stealth. Take the Hide action while in Dim Light or Darkness.",
+        "Habitats": "Underdark, Urban.",
+        "Treasure": "Any.",
+        "Printed source": "Monster Manual (2024), p. 316."
+      }
+    }
+  },
+  {
+    "name": "Vampire Umbral Lord",
+    "statBlock": {
+      "name": "Vampire Umbral Lord",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 318,
+      "classification": "Small or Medium undead, lawful evil",
+      "ac": 16,
+      "hp": 187,
+      "hitDice": "22d8 + 88",
+      "speed": "40 ft., climb 40 ft., fly 40 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 19
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 21
+        }
+      },
+      "savingThrows": {
+        "Str": 10,
+        "Dex": 9,
+        "Wis": 8,
+        "Cha": 10
+      },
+      "skills": {
+        "Arcana": 9,
+        "Perception": 13,
+        "Stealth": 9
+      },
+      "cr": "15",
+      "xp": 13000,
+      "passivePerception": 23,
+      "description": "A vampire that barters with powers of darkness for forbidden magic. Choose a concealed resting place when you prepare its lair.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+14 (24).",
+        "Senses": "Blindsight 120 ft.",
+        "Languages": "Common plus three other languages.",
+        "Damage immunities": "Cold, Necrotic.",
+        "Condition immunities": "Charmed, Exhaustion.",
+        "Traits": "Legendary Resistance (3/day, or 4/day in its lair). After failing a save, the vampire can spend one use to succeed.\nShadow Escape. If the vampire reaches 0 HP away from its resting place, it teleports there. If it can’t teleport, it is destroyed. It can’t teleport this way in sunlight or running water. After teleporting, it is Paralyzed for 1 hour, then recovers 1 HP.\nVampire Weakness. It needs an occupant’s invitation to enter a residence. It takes 20 Acid damage if it ends its turn in running water. If someone drives a weapon that deals Piercing damage into its heart while it is Incapacitated in its resting place, it remains Paralyzed until the weapon comes out. At the start of its turn in sunlight, it takes 20 Radiant damage. Sunlight gives it Disadvantage on attack rolls and ability checks.",
+        "Actions": "Multiattack. Make two attacks using any combination of Grave Strike and Sickening Ray.\nGrave Strike. Melee attack, +10 to hit, reach 5 ft. A hit deals 9 (1d8 + 5) Slashing damage and 13 (3d8) Necrotic damage.\nSickening Ray. Ranged attack, +10 to hit, range 120 ft. A hit deals 16 (2d10 + 5) Necrotic damage and leaves the target Poisoned until the start of the vampire’s next turn.\nHunger of Hadar (Recharge 5–6). Cast Hunger of Hadar at level 5 without components, using Charisma with spell save DC 18.",
+        "Bonus actions": "Sanguine Drain. Choose a creature the vampire can see within 30 ft. that is neither a Construct nor an Undead. On a failed DC 18 Constitution save, it takes 14 (4d6) Necrotic damage. Reduce its HP maximum by the damage it actually took and restore that many HP to the vampire.",
+        "Legendary actions": "3 uses, or 4 in its lair. Spend one immediately after another creature’s turn to select one option. The vampire recovers spent uses at the start of its turn and cannot use them while Incapacitated or otherwise unable to act.\nBeguile. Cast Command without components, using Charisma with spell save DC 18. Beguile then becomes unavailable until the vampire’s next turn starts.\nUmbral Strike. Move up to half its Speed and make one Grave Strike or Sickening Ray attack.",
+        "In its lair": "15,000 XP. Legendary Resistance increases to 4/day and Legendary Actions increase to 4 uses.",
+        "Regional effects": "Children of the Night. From dusk to dawn, Beasts of Medium size or smaller are Charmed while within 1 mile of the lair.\nLooming Shadows. Shadows appear to move on their own. A creature that finishes a Short Rest within 1 mile must pass a DC 15 Wisdom save to benefit from that rest. The vampire and its allies are exempt.\nMists. Persistent fog makes the area within 1 mile Lightly Obscured. The vampire and creatures it chooses ignore the fog.\nAll three effects end as soon as the vampire dies or moves its lair.",
+        "Habitats": "Underdark, Urban.",
+        "Treasure": "Any.",
+        "Printed source": "Monster Manual (2024), pp. 316 and 318. The stat block is on p. 318 and the regional effects are on p. 316."
+      }
+    }
+  },
+  {
+    "name": "Graveyard Revenant",
+    "statBlock": {
+      "name": "Graveyard Revenant",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 260,
+      "classification": "Huge undead, neutral",
+      "ac": 14,
+      "hp": 161,
+      "hitDice": "14d12 + 70",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "savingThrows": {
+        "Str": 8,
+        "Con": 8,
+        "Wis": 6,
+        "Cha": 7
+      },
+      "cr": "7",
+      "xp": 2900,
+      "passivePerception": 13,
+      "description": "A vengeful spirit pulls many corpses together into one body. It may hunt the people or institutions responsible for their deaths.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+2 (12).",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Common plus two other languages.",
+        "Damage resistances": "Necrotic, Psychic.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Charmed, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned, Stunned, Unconscious.",
+        "Traits": "Undead Restoration. Unless Dispel Evil and Good is cast on its remains, the revenant revives after 24 hours. It animates a different group of corpses elsewhere on the same plane, changes appearance, and returns at full HP with this stat block.",
+        "Actions": "Multiattack. Make two Suffocate attacks.\nSuffocate. Melee attack, +8 to hit, reach 10 ft. A hit deals 10 (1d10 + 5) Bludgeoning damage and 10 (3d6) Necrotic damage. A Large or smaller creature hit is also Grappled (escape DC 15) and suffocates until that grapple ends. The revenant can grapple up to two targets with this attack at once.\nHaunting Glare (Recharge 5–6). Every creature in a 30-ft. Emanation from the revenant makes a DC 15 Wisdom save. On failure, the creature is Paralyzed. It repeats the save at the end of each of its turns, ending the condition on a success. After 1 minute, it succeeds automatically.",
+        "Habitats": "Forest, Swamp, Urban.",
+        "Treasure": "Any.",
+        "Printed source": "Monster Manual (2024), p. 260."
+      }
+    }
+  },
+  {
+    "name": "Haunting Revenant",
+    "statBlock": {
+      "name": "Haunting Revenant",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 260,
+      "classification": "Gargantuan undead, neutral",
+      "ac": 20,
+      "hp": 203,
+      "hitDice": "14d20 + 56",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 18
+        },
+        "Cha": {
+          "score": 20
+        }
+      },
+      "savingThrows": {
+        "Con": 8,
+        "Wis": 8
+      },
+      "cr": "10",
+      "xp": 5900,
+      "passivePerception": 14,
+      "description": "A spirit possesses a ruin, wreck, or other abandoned place linked to its death. It waits for enemies to come close, then traps them inside.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+5 (15).",
+        "Senses": "Truesight 60 ft.",
+        "Languages": "Common plus two other languages.",
+        "Damage resistances": "Necrotic, Psychic.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Charmed, Exhaustion, Frightened, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained, Unconscious.",
+        "Traits": "Haunted Zone. A creature casting a spell inside the revenant’s space must pass a DC 17 Constitution save. On failure, the spell fails and is wasted.\nUndead Restoration. Unless Dispel Evil and Good is cast on its remains, the revenant revives after 24 hours. It animates a different Gargantuan object or structure elsewhere on the same plane, changes appearance, and returns at full HP with this stat block.",
+        "Actions": "Multiattack. Make two Object Slam attacks and use Invitation.\nObject Slam. Melee or ranged attack, +9 to hit, reach 10 ft. or range 30/90 ft. Roll with Advantage against targets inside the revenant’s space. A hit deals 27 (5d8 + 5) Bludgeoning damage.\nInvitation. Every creature in a 60-ft. Cone makes a DC 17 Charisma save. On failure, the creature teleports into the revenant’s space and is swallowed. Swallowed creatures have Total Cover against attacks and effects from outside the revenant. As long as the revenant has HP, a swallowed creature can escape its space only through magic that enables planar travel, such as Plane Shift.",
+        "Habitats": "Forest, Swamp, Urban.",
+        "Treasure": "Any.",
+        "Printed source": "Monster Manual (2024), p. 260."
+      }
+    }
+  },
+  {
+    "name": "Death Knight Aspirant",
+    "statBlock": {
+      "name": "Death Knight Aspirant",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 93,
+      "classification": "Small or Medium undead, chaotic evil",
+      "ac": 20,
+      "hp": 178,
+      "hitDice": "21d8 + 84",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "savingThrows": {
+        "Dex": 4,
+        "Wis": 5
+      },
+      "cr": "11",
+      "xp": 7200,
+      "passivePerception": 11,
+      "description": "A follower who shared a death knight’s curse. The aspirant leads other Undead into battle and carries out the death knight’s orders.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+4 (14).",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Abyssal, Common.",
+        "Damage immunities": "Necrotic, Poison.",
+        "Condition immunities": "Exhaustion, Frightened, Poisoned.",
+        "Traits": "Magic Resistance. The aspirant has Advantage on saves against spells and other magical effects.\nMarshal Undead. Chosen Undead other than the aspirant have Advantage on attack rolls and saving throws while in a 60-ft. Emanation from the aspirant. This trait stops working while the aspirant is Incapacitated.",
+        "Actions": "Multiattack. Make three Dread Blade attacks.\nDread Blade. Melee attack, +9 to hit, reach 5 ft. A hit deals 14 (2d8 + 5) Slashing damage and 10 (3d6) Necrotic damage.\nHellfire Orb (Recharge 5–6). Choose a point the aspirant can see within 120 ft. Each creature in a Sphere of 20-ft. radius centered there makes a DC 15 Dexterity save. On a failure it takes 21 (6d6) Fire damage and 21 (6d6) Necrotic damage. Success halves both.",
+        "Spellcasting": "Cast one listed spell as an action, using Charisma with spell save DC 15.\nAt will. Phantom Steed.\n1/day each. Destructive Wave (Necrotic) and Dispel Magic.",
+        "Reactions": "Parry. When a melee attack hits the aspirant while it holds a weapon, it can add 4 to its AC against that attack, potentially turning it into a miss.",
+        "Habitats": "Any.",
+        "Treasure": "Armaments.",
+        "Printed source": "Monster Manual (2024), p. 93."
+      }
+    }
+  },
+  {
+    "name": "Will-o’-Wisp",
+    "statBlock": {
+      "name": "Will-o’-Wisp",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 333,
+      "classification": "Tiny undead, chaotic evil",
+      "ac": 19,
+      "hp": 27,
+      "hitDice": "11d4",
+      "speed": "5 ft., fly 50 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 1
+        },
+        "Dex": {
+          "score": 28
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 12,
+      "description": "A wandering spirit that looks like a lantern. It lures travelers into danger and feeds when they fall.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+9 (19).",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Common plus one other language.",
+        "Damage resistances": "Acid, Bludgeoning, Cold, Fire, Necrotic, Piercing, Slashing.",
+        "Damage immunities": "Lightning, Poison.",
+        "Condition immunities": "Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained, Unconscious.",
+        "Traits": "Ephemeral. The wisp cannot wear or carry anything.\nIllumination. It sheds Bright Light out to 20 ft. and Dim Light for another 20 ft.\nIncorporeal Movement. Creatures and objects count as Difficult Terrain for the wisp as it moves through them. If it ends its turn inside an object, it takes 5 (1d10) Force damage.",
+        "Actions": "Shock. Melee attack, +4 to hit, reach 5 ft. A hit deals 11 (2d8 + 2) Lightning damage.",
+        "Bonus actions": "Consume Life. One living creature the wisp can see within 5 ft. with 0 HP makes a DC 10 Constitution save. On failure, the creature dies and the wisp regains 10 (3d6) HP.\nVanish. The wisp and its light become Invisible while it maintains Concentration. The effect also ends immediately after the wisp makes an attack roll or uses Consume Life.",
+        "Ambush ideas": "A 1d6 roll can pick the danger the wisp leads travelers toward. 1. A building on the verge of collapse. 2. Waiting ghouls or vampires. 3. Ruins that curse intruders. 4. A predator’s den, such as a bear’s or wyvern’s. 5. Brown mold or green slime. 6. Quicksand or a pool under thin ice.",
+        "Habitats": "Forest, Swamp, Urban.",
+        "Treasure": "None.",
+        "Printed source": "Monster Manual (2024), p. 333."
+      }
+    }
+  },
+  {
+    "name": "Troll Limb",
+    "statBlock": {
+      "name": "Troll Limb",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 310,
+      "classification": "Small giant, chaotic evil",
+      "ac": 13,
+      "hp": 14,
+      "hitDice": "4d6",
+      "speed": "20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 1
+        },
+        "Wis": {
+          "score": 9
+        },
+        "Cha": {
+          "score": 1
+        }
+      },
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 9,
+      "description": "A severed troll limb that moves, attacks, and can grow into a new troll.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+1 (11).",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "None.",
+        "Traits": "Regeneration. The limb regains 5 HP at the start of its turn. Acid or Fire damage stops this trait on its next turn. It dies only if it starts its turn at 0 HP and does not regenerate.\nTroll Spawn. A severed limb senses its surroundings as a whole troll would. If it survives 24 hours, roll a d12. On a 12 it becomes a Troll. On any other result, it withers away.",
+        "Actions": "Rend. Melee attack, +6 to hit, reach 5 ft. A hit deals 9 (2d4 + 4) Slashing damage.",
+        "Severed by a troll": "A limb created by a Troll’s Loathsome Limbs trait appears in the troll’s space and takes its turn immediately after the troll.",
+        "Habitats": "Arctic, Forest, Hill, Mountain, Swamp, Underdark.",
+        "Treasure": "None.",
+        "Printed source": "Monster Manual (2024), p. 310."
+      }
+    }
+  }
+]

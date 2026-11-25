@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Spawn of Kyuss",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Monstrous Races 2",
+    "traits": [
+      "Player conversion by Tyler Kamstra for 2014 fifth edition, published on DMs Guild in Monstrous Races 2.",
+      "Also called Kyuss Spawn. Medium undead. Strength and Constitution each rise by 1. Walk 30 ft. Immune to poison damage and the poisoned condition. Needs no air, food, drink, or sleep. Four hours in a semiconscious resting state replace sleep.",
+      "Claws deal 1d4 slashing as unarmed strikes. Understand, read, and write Common and another humanoid language. Cannot speak or use verbal spell components.",
+      "Spend a Hit Die as a bonus action to heal. Acid, fire, and radiant damage are vulnerabilities and each shuts off regeneration through the end of your next turn. A short or long rest restores spent Hit Dice up to half your total, rounded up.",
+      "Burrowing Worm targets a humanoid within 10 ft. as an action. The target makes a Constitution save at DC 8 + proficiency + your Constitution modifier. Piercing resistance grants advantage on the save and piercing immunity grants immunity to the effect. On a failure it takes 1 piercing and receives a worm. At the end of each of its turns it takes 2d6 necrotic while that worm is alive and attached. The worm detaches and dies after this damage once, twice from level 5, three times from level 11, or four times from level 17.",
+      "The worm is Tiny undead with AC 6, 1 HP, every ability score 2, and speed 1 ft. Any creature within reach can scrape off all worms on the target as an action. Worms can also be destroyed by attacks or by a disease cure or curse removal targeting their host. The same treatment targeting the Spawn disables Burrowing Worm until it finishes a long rest."
+    ]
+  },
+  {
+    "name": "Trapper",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Monstrous Races 2",
+    "traits": [
+      "Player conversion by Tyler Kamstra for 2014 fifth edition, published on DMs Guild in Monstrous Races 2.",
+      "Medium awakened monstrosity. Strength and Constitution each rise by 1. Walk and climb 10 ft. and use blindsight out to 30 ft. Speak, read, and write Common.",
+      "Flat Body bars armor, shields, weapons, and hand-dependent items. Natural AC is 13 + Dexterity while unarmored. Spider Climb lets you traverse difficult walls and ceilings without an ability check.",
+      "False Appearance takes one minute motionless with concentration. While still, resemble the matching ceiling, floor, or wall. An observer can detect the deception with DC 20 Investigation or Nature using Intelligence.",
+      "Smother deals 1d8 bludgeoning on an unarmed hit, or 1d8 acid if already grappling that target. A successful unarmed strike during the Attack action enables a bonus-action grapple even without hands."
+    ]
+  },
+  {
+    "name": "Vargouille",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Monstrous Races 2",
+    "traits": [
+      "Player conversion by Tyler Kamstra for 2014 fifth edition, published on DMs Guild in Monstrous Races 2.",
+      "Tiny fiend. The printed ability increase line is blank. Walk 5 ft. Fly 40 ft. without medium or heavy armor. The trait block grants poison damage and condition immunity and the concluding play advice mentions darkvision without a trait entry or range.",
+      "The bite deals 1d4 piercing plus 1d4 poison on an unarmed hit. You may use Dexterity for attacks and damage and the bite counts as finesse. No hands for weapons, shields, or items requiring manipulation. Understand, read, and write Abyssal and Infernal. Cannot speak or supply verbal spell components.",
+      "Kiss uses an action on a visible creature within 5 ft. On a failed Charisma save the target has disadvantage on Charisma checks and saves for up to a day, with an end-of-turn repeat save. Restoration or curse removal ends it. If it dies cursed, its head becomes a vargouille and shifts to the Abyss one round later. Recharge on a short or long rest.",
+      "Shriek uses an action. Creatures within 30 ft. make a Wisdom save or are frightened through the end of your next turn. The sound carries 300 ft. and the action recharges on a long rest. Both DCs use 8 + proficiency + your Constitution modifier."
+    ]
+  },
+  {
+    "name": "Vegepygmy",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Monstrous Races 2",
+    "traits": [
+      "Player conversion by Tyler Kamstra for 2014 fifth edition, published on DMs Guild in Monstrous Races 2.",
+      "Vegepygmy or Vegepygmies. Plant creature, walk 30 ft., darkvision 60 ft., and advantage on Stealth to hide in sufficiently dense vegetation. Speak, read, and write Vegepygmy.",
+      "Spend a Hit Die as a bonus action to heal. Cold, fire, and necrotic are vulnerabilities and each prevents regeneration through the end of your next turn. A short or long rest restores spent Hit Dice up to half your total, rounded up.",
+      "Standard form is Small and gains +1 Dexterity. Its claws deal 1d6 slashing. Its unarmored AC is 12 + Dexterity.",
+      "The Medium Thorny gains +1 to Strength, Dexterity, or Constitution. Its bite deals 1d8 piercing and its unarmored AC is 13 + Dexterity. At the start of its turn it deals 1d4 piercing to creatures grappling it. Its lack of hands prevents wielding weapons or shields or using hand-dependent items.",
+      "Vegepygmy Chief is a feat for the standard form. It increases Strength, Dexterity, or Constitution by 1 to 20 at most. Once per long rest, use an action and maintain concentration to poison nonplants in a 5-ft. radius on a failed Constitution save at DC 8 + proficiency + Constitution. Poisoned targets take 1d8 poison at the start of their turns and repeat the save at each turn end. The cloud can extend around corners. At levels 5, 11, and 17 the radius becomes 10, 15, and 20 ft. Damage rises to 2d8 at level 11."
+    ]
+  },
+  {
+    "name": "Xvart",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Monstrous Races 2",
+    "traits": [
+      "Player conversion by Tyler Kamstra for 2014 fifth edition, published on DMs Guild in Monstrous Races 2.",
+      "Small humanoid. Dexterity rises by 2. Walk 30 ft. and use darkvision to 60 ft. Speak, read, and write Abyssal and gain Stealth proficiency.",
+      "Low Cunning gives bonus-action Disengage. Overbearing Pack uses a bonus action to grant advantage on your next Strength check to shove a target this turn if an ally who can act is within 5 ft. of that target.",
+      "Raxivort’s Tongue permits communication with normal and giant rats and bats. The Warlock of Raxivort guidance uses regular warlock levels and suggests Armor of Shadows and Eldritch Sight. The text leaves patron choice open."
+    ]
+  }
+]

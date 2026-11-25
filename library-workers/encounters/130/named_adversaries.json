@@ -1,0 +1,617 @@
+[
+  {
+    "name": "Dohma Raskovar",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Medium Humanoid (Orc), lawful evil",
+    "ac": 14,
+    "hp": 93,
+    "hitDice": "11d8 + 44",
+    "speed": "35 ft.",
+    "cr": "5",
+    "xp": 1800,
+    "proficiencyBonus": 3,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Int": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Wis": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 16,
+        "modifier": 3
+      }
+    },
+    "otherStatistics": "Chain shirt. Saves Str +6, Con +7, Wis +5. Skills Athletics +6, Deception +6, Insight +5, Intimidation +6, Perception +5. Darkvision 60 ft., passive Perception 15. Common and Orc.",
+    "description": "The Ivory Throne’s mercenary commander calls in reinforcements and drives his troops into grappling range.",
+    "sections": {
+      "Role": "Leader",
+      "Printed source": "Stat block, p. 213.",
+      "Traits": "Adrenaline Rush. After failing a save, Raskovar can succeed by spending one use of Dohma Rally without receiving its benefits. This takes no action.\nRelentless (1/turn). If Raskovar would fall to 0 HP without dying outright and is not Incapacitated, he can attack an enemy before the loss of HP resolves, without an action. If the attack hits and drops the enemy to 0 HP, Raskovar drops to 1 HP instead.",
+      "Actions": "Multiattack. Make three Repeating Crossbow attacks or two War Mace attacks.\nWar Mace. Melee weapon attack +6, reach 5 ft., one target. Hit 8 (2d4 + 3) bludgeoning damage and Daze the target until the end of its next turn.\nRepeating Crossbow. Ranged weapon attack +4, range 30/120 ft., one target. Hit 7 (1d12 + 1) piercing damage and reduce the target's speed by 10 ft. until the end of its next turn.\nReinforcements (1/day). Take the Dodge action. Ten Orc Blitzers appear in unoccupied spaces within 30 ft. of Raskovar.",
+      "Bonus Actions": "Dohma Rally (3/day). Regain 20 HP and gain resistance to bludgeoning, piercing, and slashing damage until the end of Raskovar's next turn.",
+      "Reactions": "On the House. After a visible creature within 30 ft. fails a check or misses with an attack roll, that creature can reroll and choose either result.",
+      "Villain Actions": "Each villain action is available once per encounter. Use one at most per round, in any order, immediately after an enemy's turn.\n1. Close In. Each ally within 60 ft. who can hear Raskovar can move up to its speed. Afterward, each enemy within 5 ft. of at least one ally who moved makes a DC 15 Wisdom save. On a failure, the enemy is Frightened of Raskovar for 1 minute, with an end-of-turn save.\n2. Lockdown. Each ally within 60 ft. who can hear Raskovar can attempt a Strength (Athletics) check with advantage to grapple an enemy it can reach, without an action. Raskovar can then move up to his speed.\n3. Do It Myself. Move up to Raskovar's speed without provoking opportunity attacks, then make up to five War Mace attacks with advantage.",
+      "Dazed (MCDM)": "On its turn a Dazed creature can move, take an action, or take a bonus action. It chooses one. Becoming Dazed during its turn ends the turn. Extra actions from effects such as Haste or Action Surge are still available. Cure Ailment, Lesser Restoration, and Greater Restoration can remove Dazed."
+    },
+    "relatedCreatures": [
+      {
+        "name": "Orc Blitzer",
+        "kind": "monster",
+        "terms": [
+          "Orc Blitzers"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ithu’rath",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Large Aberration, chaotic evil",
+    "ac": 19,
+    "hp": 255,
+    "hitDice": "30d10 + 90",
+    "speed": "30 ft., fly 60 ft. (hover), swim 60 ft.",
+    "cr": "16",
+    "xp": 15000,
+    "proficiencyBonus": 5,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 23,
+        "modifier": 6
+      },
+      "Dex": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Con": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 23,
+        "modifier": 6
+      },
+      "Wis": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 18,
+        "modifier": 4
+      }
+    },
+    "otherStatistics": "Natural armor. Saves Con +8, Int +11, Wis +7, Cha +9. Skills History +11, Insight +12, Intimidation +9, Perception +12. Condition immunities Charmed, Flanked, Frightened, Prone. Blindsight 60 ft., darkvision 120 ft., passive Perception 22. Common, Deep Speech, Undercommon, telepathy 120 ft.",
+    "description": "An olothec called the All-Seeing breeds slime servants in the flooded ruins of Castle Wrathrock.",
+    "sections": {
+      "Role": "Solo",
+      "Printed source": "Olothec lairs, p. 200. Slime servants, p. 201. Stat block, p. 202.",
+      "Traits": "Amphibious. Ithu’rath breathes air and water.\nImmutable Form. Its shape cannot be changed by powers, spells, or other effects.\nSlimy Resistance (3/day). Ithu’rath can turn a failed save into a success. Targets have advantage on the save against Devolving Tentacle until the end of Ithu’rath’s next turn.\nSupernatural Resistance. Ithu’rath has advantage on saves against powers, spells, and other supernatural effects.",
+      "Actions": "Multiattack. Make six Devolving Tentacle attacks and use Piscine Transformation.\nDevolving Tentacle. Melee weapon attack +11, reach 20 ft., one target. Hit 16 (3d6 + 6) piercing damage. On the first hit against a creature each turn, it must make a DC 19 Constitution save or become slimed. It subtracts a d4 from each attack roll and ability check. The penalty die increases one step at the end of each of its turns, from d4 to d6, d8, d10, then d12. The target can repeat the save at the end of each turn. Cure Ailment or Lesser Restoration also ends the slime.\nPiscine Transformation (3rd-order power). Choose one visible creature within 60 ft. with a head, legs, or torso. On a failed DC 19 Wisdom save, choose one transformation. A fish head prevents speech. Fins reduce walking speed to 10 ft. if it was higher and give a 30-ft. swim speed. A fish torso allows breathing only in water and grants the ability to hold breath for 1 hour. If it gains a torso out of water, it begins suffocating. A 4th-order or higher Cure Ailment or Greater Restoration ends one change. All three changes together permanently make a fishlike hybrid, reversible by Wish or a similar supernatural effect.",
+      "Bonus Actions": "Jaunt (3rd-order power). Teleport 30 ft. to a visible, unoccupied space.",
+      "Reactions": "Liquefy (3rd-order power). When a creature within 30 ft. hits Ithu’rath with an attack, it must pass a DC 19 Constitution save or be pushed 5 ft. away and Restrained until the end of its next turn.",
+      "Villain Actions": "Each villain action is available once per encounter. Use one at most per round, in any order, immediately after an enemy's turn.\n1. Skeletal Collapse. Choose one or more creatures with skeletons within 60 ft. On a failed DC 19 Constitution save a target takes 18 (4d8) necrotic damage and has disadvantage on Strength- and Dexterity-based checks, attacks, and saves for 1 minute, with an end-of-turn save.\n2. Psychic Pulse. Each enemy within 60 ft. must pass a DC 19 Strength save or take 18 (4d8) force damage and be moved up to 30 ft. in a direction Ithu’rath chooses.\n3. Slime Storm. Each creature within 60 ft., except olothecs and slime servants, makes a DC 19 Constitution save. A failure deals 45 (10d8) piercing damage and Blinds the target until the end of its next turn. A successful save halves the damage and avoids blindness.",
+      "Lair Rules": "Use the Olothec lair actions when running Ithu’rath in its lair. The three options retain the DC 15 saves listed in the Olothec chapter. The same chapter gives the Slime Servant template.",
+      "Psionic Powers (MCDM)": "Psionic powers require no components. Antimagic Field, Counterspell, and Dispel Magic do not stop powers. Melee power attacks can be used for opportunity attacks.",
+      "Flanked (MCDM)": "When using the optional flanking rules, the immunity prevents enemies from flanking Ithu’rath."
+    },
+    "relatedCreatures": [
+      {
+        "name": "Olothec",
+        "kind": "monster",
+        "terms": [
+          "olothecs"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lady Emer",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Medium Monstrosity, lawful evil",
+    "ac": 17,
+    "hp": 190,
+    "hitDice": "20d8 + 100",
+    "speed": "40 ft.",
+    "cr": "11",
+    "xp": 7200,
+    "proficiencyBonus": 4,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 24,
+        "modifier": 7
+      },
+      "Con": {
+        "score": 20,
+        "modifier": 5
+      },
+      "Int": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Wis": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Cha": {
+        "score": 18,
+        "modifier": 4
+      }
+    },
+    "otherStatistics": "Saves Str +8, Dex +11, Con +9, Wis +7. Skills Athletics +8, Deception +8, Perception +7, Persuasion +8, Stealth +11, Survival +7. Immune to poison damage and the Poisoned condition. Darkvision 60 ft., passive Perception 17. Common and Elvish.",
+    "description": "A former scout who serves the Order of the Ouroboros as a covert assassin. She keeps some of her petrified targets in her courtyard.",
+    "sections": {
+      "Role": "Solo",
+      "Printed source": "Stat block, pp. 190–191.",
+      "Traits": "Stone Sacrifice (3/day). Emer can turn a failed save into a success by ending her Stone Gaze on a creature of her choice within 300 ft.",
+      "Actions": "Multiattack. Use Pinning Shot or make three attacks in any combination of Snake Bite and Longbow. Also use Stone Gaze or Envenomed Stone if available.\nSnake Bite. Melee weapon attack +11, reach 10 ft., one creature. Hit 17 (5d6) poison damage. On a failed DC 17 Constitution save the target is Poisoned and cannot take reactions until the end of Emer's next turn.\nLongbow. Ranged weapon attack +11, range 150/600 ft., one target. Hit 11 (1d8 + 7) piercing plus 14 (4d6) poison damage.\nPinning Shot. Make three Longbow attacks against a creature touching the ground within 150 ft. Two or more hits Restrain it with arrows. The target or a creature that can reach it can use an action to remove the arrows and end the effect.\nStone Gaze. Up to three visible creatures within 60 ft. make DC 17 Constitution saves. A first failure starts petrification, reduces speed by 10 ft., and gives disadvantage on Dexterity checks and saves. While turning to stone, an end-of-turn save ends the effect. If targeted by another Stone Gaze, a second failure cuts speed by another 10 ft. and Dazes the target. A third failure Petrifies the target and removes its repeat saves. Stone Sacrifice, Cure Ailment of at least 4th order, Greater Restoration, or a similar supernatural effect can reverse the completed petrification.\nEnvenomed Stone (Recharge 5–6). Each creature within 60 ft. turning to stone from Stone Gaze makes a DC 17 Constitution save, taking 44 (8d10) poison damage on a failure or half on a success.",
+      "Bonus Actions": "Mesmerizing Eyes. Choose one creature Emer can see within 60 ft. that can also see her. On a failed DC 17 Wisdom save, it is Charmed until the start of its next turn and must immediately spend its reaction, if available, to move up to its speed in a direction Emer chooses.",
+      "Reactions": "Blinding Mucus. When a creature Emer can see within 5 ft. hits her with a melee attack, that creature must pass a DC 17 Dexterity save or take 7 (2d6) acid damage and become Blinded until the start of its next turn.",
+      "Villain Actions": "Each villain action is available once per encounter. Use one at most per round, in any order, immediately after an enemy's turn.\n1. I See You! Use Stone Gaze on every visible enemy within 60 ft.\n2. Medusa's Evolution. Gain a flying speed of 40 ft. for 1 minute, then move up to speed without provoking opportunity attacks.\n3. Stone Puppets. Emer and each creature turning to stone from her Stone Gaze move up to their speeds and each make a weapon attack against a creature Emer chooses, without an action.",
+      "Dazed (MCDM)": "On its turn a Dazed creature can move, take an action, or take a bonus action. It chooses one. Becoming Dazed during its turn ends the turn. Extra actions from effects such as Haste or Action Surge are still available. Cure Ailment, Lesser Restoration, and Greater Restoration can remove Dazed."
+    },
+    "relatedCreatures": [
+      {
+        "name": "Medusa (MCDM)",
+        "kind": "monster",
+        "terms": [
+          "Medusa"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lamasombra",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Medium Monstrosity, unaligned",
+    "ac": 16,
+    "hp": 204,
+    "hitDice": "24d8 + 96",
+    "speed": "60 ft., climb 60 ft.",
+    "cr": "13",
+    "xp": 10000,
+    "proficiencyBonus": 5,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 22,
+        "modifier": 6
+      },
+      "Con": {
+        "score": 19,
+        "modifier": 4
+      },
+      "Int": {
+        "score": 7,
+        "modifier": -2
+      },
+      "Wis": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 8,
+        "modifier": -1
+      }
+    },
+    "otherStatistics": "Saves Dex +11, Con +9. Skills Perception +7, Stealth +16, Survival +7. Blindsight 120 ft., passive Perception 17. No languages.",
+    "description": "An eight-legged cave hunter that pulls victims within biting range and tracks anyone its bite infects.",
+    "sections": {
+      "Role": "Ambusher",
+      "Printed source": "Stat block, p. 296.",
+      "Traits": "Cave Apex. Tremorsense cannot detect the lamasombra. It is Invisible to creatures with darkvision while in darkness or dim light. Creatures without darkvision can see it in dim light.\nSpider Climb. Climb difficult surfaces and ceilings without a check.",
+      "Actions": "Multiattack. Make one Bite and one Tongue attack.\nBite. Melee weapon attack +11, reach 5 ft., one target. Hit 33 (6d8 + 6) piercing damage. A creature hit by the bite must pass a DC 17 Constitution save or contract boiling wastes disease. Until cured, it cannot regain HP and the lamasombra can sense its direction when both are on the same plane.\nTongue. Melee weapon attack +11, reach 20 ft., one target. Hit 27 (6d6 + 6) bludgeoning damage, or 37 (9d6 + 6) against a creature that cannot see the lamasombra. Pull a Large or smaller creature up to 15 ft. directly toward the lamasombra.",
+      "Bonus Actions": "Nightmarish Cunning. Take the Dash, Disengage, or Hide action."
+    }
+  },
+  {
+    "name": "Marvorok",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Large Monstrosity, chaotic evil",
+    "ac": 18,
+    "hp": 230,
+    "hitDice": "20d10 + 120",
+    "speed": "40 ft., climb 40 ft.",
+    "cr": "17",
+    "xp": 18000,
+    "proficiencyBonus": 6,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 23,
+        "modifier": 6
+      },
+      "Con": {
+        "score": 23,
+        "modifier": 6
+      },
+      "Int": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Wis": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Cha": {
+        "score": 12,
+        "modifier": 1
+      }
+    },
+    "otherStatistics": "Natural armor. Saves Str +9, Dex +12, Wis +10. Skills Athletics +9, Perception +16, Stealth +12. Blindsight 300 ft., passive Perception 26. Deep Speech.",
+    "description": "A deep-cave predator that can seize two targets and vanish with both before they can call for help.",
+    "sections": {
+      "Role": "Ambusher",
+      "Printed source": "Stat block, p. 342.",
+      "Traits": "Scent Reliance. If the marvorok cannot breathe or smell, it cannot use its blindsight.",
+      "Actions": "Multiattack. Make three Claw attacks and one Eviscerate attack.\nClaw. Melee weapon attack +12, reach 5 ft., one target. Hit 19 (3d8 + 6) slashing damage. A Large or smaller target is Grappled (escape DC 17) and Restrained while grappled. The marvorok can grapple up to two creatures.\nEviscerate. Melee weapon attack +12, reach 5 ft., one creature grappled by the marvorok. Hit 17 (2d10 + 6) piercing plus 17 (2d10 + 6) slashing damage.",
+      "Bonus Actions": "Taste the Air. Make a Wisdom (Perception) check.\nUnderground Stalker. Teleport up to 30 ft. to a visible, unoccupied space with any creatures the marvorok is grappling. In dim light or darkness, it can Hide as part of the teleport, and grappled creatures cannot speak or make noise until the end of the marvorok's next turn."
+    }
+  },
+  {
+    "name": "Qar, Master of Jackals",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Medium Humanoid (Human), lawful evil",
+    "ac": 18,
+    "hp": 71,
+    "hitDice": "11d8 + 22",
+    "speed": "50 ft.",
+    "cr": "3",
+    "xp": 700,
+    "proficiencyBonus": 2,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 20,
+        "modifier": 5
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Wis": {
+        "score": 20,
+        "modifier": 5
+      },
+      "Cha": {
+        "score": 10,
+        "modifier": 0
+      }
+    },
+    "otherStatistics": "Natural armor. Saves Str +3, Dex +7, Wis +7. Skills Acrobatics +7, Athletics +3, Perception +7, Stealth +7. Passive Perception 17. Common.",
+    "description": "A former watch captain who uses stolen martial techniques to run down weakened enemies for the Black Iron Pact.",
+    "sections": {
+      "Role": "Skirmisher",
+      "Printed source": "Black Iron Pact actions, p. 364. Stat block, p. 365.",
+      "Traits": "Evasion. For a Dexterity save that would halve damage, Qar takes none on a success and half on a failure.\nExploit Opening (3/day). Gain advantage on an attack roll Qar makes.\nSupernatural Resistance. Qar has advantage on saves against powers, spells, and other supernatural effects.",
+      "Actions": "Multiattack. Make three Unarmed Strikes. If the same creature is hit by all three, it is Dazed until the end of its next turn.\nUnarmed Strike. Melee weapon attack +7, reach 5 ft., one target. Hit 8 (1d6 + 5) bludgeoning damage.\nIron Ring (2/day). Teleport to the Cyst. From inside the Cyst, teleport to somewhere Qar has visited.",
+      "Reactions": "No Survivors. When a visible enemy within 40 ft. drops to 0 HP, move up to Qar's speed. If he ends that move within 5 ft. of an enemy, he can make an Unarmed Strike against that enemy.\nVoice Stealer (3/day). When an enemy within 30 ft. that Qar can hear finishes casting a spell with a verbal component, it must pass a DC 15 Intelligence save or lose the ability to speak for 1 minute, with an end-of-turn save.",
+      "Villain Party Action": "Black Iron Pact. The party may use one villain party action per round after an enemy's turn. Each action is available once per encounter, in any order, and requires its performer to be present and able to act.\nAction 1. Party Tactics. Qar and each ally within 60 ft. who can see or hear him can move up to their speed.",
+      "Dazed (MCDM)": "On its turn a Dazed creature can move, take an action, or take a bonus action. It chooses one. Becoming Dazed during its turn ends the turn. Extra actions from effects such as Haste or Action Surge are still available. Cure Ailment, Lesser Restoration, and Greater Restoration can remove Dazed."
+    },
+    "relatedCreatures": [
+      {
+        "name": "Lord Erasmus Deseo",
+        "kind": "monster",
+        "terms": [
+          "Erasmus"
+        ]
+      },
+      {
+        "name": "Lady Avalla Deseo",
+        "kind": "monster",
+        "terms": [
+          "Avalla"
+        ]
+      },
+      {
+        "name": "Canon Athenodorus",
+        "kind": "monster",
+        "terms": [
+          "Athenodorus"
+        ]
+      },
+      {
+        "name": "Cloak",
+        "kind": "monster"
+      }
+    ]
+  },
+  {
+    "name": "Scyza",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Gargantuan Monstrosity, unaligned",
+    "ac": 14,
+    "hp": 108,
+    "hitDice": "8d20 + 24",
+    "speed": "40 ft.",
+    "cr": "4",
+    "xp": 1100,
+    "proficiencyBonus": 2,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 21,
+        "modifier": 5
+      },
+      "Dex": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Con": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 5,
+        "modifier": -3
+      },
+      "Wis": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Natural armor. Saves Str +7, Con +5. Immune to Frightened. Darkvision 120 ft., passive Perception 10. No languages.",
+    "description": "A towering bipedal lizard that can carry a whole orc fighting company in a war harness.",
+    "sections": {
+      "Role": "Brute",
+      "Printed source": "Stat block, p. 212.",
+      "Traits": "Siege Monster. Deal double damage to objects and structures.\nWar Harness. A harness lets the scyza carry up to 36 Medium or smaller creatures.",
+      "Actions": "Multiattack. Make two Claw attacks.\nClaw. Melee weapon attack +7, reach 5 ft., one target. Hit 12 (2d6 + 5) slashing damage and knock the target Prone.\nTail Whip. Melee weapon attack +7, reach 20 ft., one target. Hit 14 (2d8 + 5) bludgeoning damage. A target on the scyza falls off and lands Prone.\nHead Crest. Melee weapon attack +7, reach 10 ft., one target. Hit 23 (4d8 + 5) bludgeoning damage. A creature that can hear is Dazed until the end of its next turn.\nClaw Twister (Recharge 6). Chosen creatures within 5 ft. make DC 15 Dexterity saves. On a failure, a target takes 13 (3d8) slashing damage, falls Prone, and is Blinded by dust until the start of the scyza's next turn. On a success, the target takes half damage and neither condition.",
+      "Dazed (MCDM)": "On its turn a Dazed creature can move, take an action, or take a bonus action. It chooses one. Becoming Dazed during its turn ends the turn. Extra actions from effects such as Haste or Action Surge are still available. Cure Ailment, Lesser Restoration, and Greater Restoration can remove Dazed."
+    }
+  },
+  {
+    "name": "Sylphise",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Medium Fey, chaotic evil",
+    "ac": 17,
+    "hp": 77,
+    "hitDice": "14d8 + 14",
+    "speed": "40 ft.",
+    "cr": "4",
+    "xp": 1100,
+    "proficiencyBonus": 2,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Dex": {
+        "score": 20,
+        "modifier": 5
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 22,
+        "modifier": 6
+      }
+    },
+    "otherStatistics": "Natural armor. Saves Dex +7, Wis +3, Cha +8. Skills Acrobatics +7, Perception +3, Stealth +7. Resistant to bludgeoning, piercing, and slashing from mundane attacks. Immune to Charmed and Frightened. Darkvision 60 ft., passive Perception 13. Common, Elvish, Sylvan, telepathy 60 ft.",
+    "description": "The Wilderkith’s nymph skirmisher slips between planes and slashes through a group before it can strike back.",
+    "sections": {
+      "Role": "Skirmisher",
+      "Printed source": "Wilderkith actions, p. 369. Stat block, p. 370.",
+      "Traits": "Fey Countenance (1/turn). A creature that can see Sylphise and targets her with an attack, power, or spell must pass a DC 16 Wisdom save or become Blinded until the start of its next turn. This takes no action.\nSpeak with Beasts and Plants. Communicate with Beasts and Plants as though they shared a language.\nSupernatural Resistance. Sylphise has advantage on saves against powers, spells, and other supernatural effects.",
+      "Actions": "Multiattack. Make three Claw attacks or use Sibilant Whispers twice.\nClaw. Melee weapon attack +7, reach 5 ft., one target. Hit 8 (1d6 + 5) slashing plus 3 (1d6) psychic damage.\nSibilant Whispers. One visible creature within 60 ft. must pass a DC 16 Charisma save or take 10 (3d6) psychic damage.\nEtherealness. Enter the Ethereal Plane from the Mundane World, or return from the Ethereal Plane.",
+      "Reactions": "Too Slow! When a creature misses Sylphise with an attack, she can move up to her speed without provoking opportunity attacks from that creature.",
+      "Villain Party Action": "Wilderkith. The party may use one villain party action per round after an enemy's turn. Each action is available once per encounter, in any order, and requires its performer to be present and able to act.\nAction 3. Blood-Soaked Daisies. Sylphise moves up to her speed without provoking opportunity attacks. Make one Claw attack against each enemy she passes within 5 ft. of during that move."
+    },
+    "relatedCreatures": [
+      {
+        "name": "Anthracia, Princess of Venom",
+        "kind": "monster",
+        "terms": [
+          "Anthracia"
+        ]
+      },
+      {
+        "name": "Logger",
+        "kind": "monster"
+      },
+      {
+        "name": "Tuval-Uthriar",
+        "kind": "monster"
+      },
+      {
+        "name": "Vali",
+        "kind": "monster"
+      }
+    ]
+  },
+  {
+    "name": "Tusker Demon",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Huge Fiend (Demon, Category 2), typically chaotic evil",
+    "ac": 13,
+    "hp": 138,
+    "hitDice": "12d12 + 60",
+    "speed": "40 ft.",
+    "cr": "7",
+    "xp": 2900,
+    "proficiencyBonus": 3,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 22,
+        "modifier": 6
+      },
+      "Dex": {
+        "score": 6,
+        "modifier": -2
+      },
+      "Con": {
+        "score": 20,
+        "modifier": 5
+      },
+      "Int": {
+        "score": 5,
+        "modifier": -3
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 8,
+        "modifier": -1
+      }
+    },
+    "otherStatistics": "Natural armor. Saves Wis +3, Cha +2. Resistant to bludgeoning, piercing, and slashing from mundane attacks. Immune to poison damage and to Blinded, Deafened, and Poisoned. Blindsight 60 ft. (blind beyond that distance), soulsight 30 ft., passive Perception 10. Understands Abyssal but cannot speak.",
+    "description": "A huge demon that tramples smaller foes and spends souls to rush anyone who draws its blood.",
+    "sections": {
+      "Role": "Skirmisher",
+      "Printed source": "Stat block, pp. 122–123.",
+      "Traits": "Starting souls. Use 2 souls or roll 1d4.\nTrample. Move through the spaces of Large or smaller creatures as difficult terrain. The first time the demon enters a creature's space on its own turn, it can make a Stomp attack against that creature without an action. It can end its turn in the space of a Prone Medium or smaller creature. That creature cannot stand while it remains in the demon's space.",
+      "Actions": "Gore. Melee weapon attack +9, reach 10 ft., one target. Hit 19 (3d8 + 6) piercing damage. Spend 1 soul to push the target up to 40 ft. directly away.\nStomp. Melee weapon attack +9, reach 5 ft., one target. Hit 13 (2d6 + 6) bludgeoning damage. A Medium or smaller creature must pass a DC 17 Strength save or fall Prone.\nTongue. Melee weapon attack +9, reach 15 ft., one target. Hit 16 (3d6 + 6) slashing damage. A creature must pass a DC 17 Strength save or be pulled up to 10 ft. toward the demon.",
+      "Reactions": "Vengeful Charge (1 soul). When an enemy within 40 ft. deals damage to the demon, move up to the demon's speed straight toward that enemy. If the demon ends within 10 ft. of the enemy, it can make a Gore attack against it."
+    },
+    "sharedRules": [
+      "MCDM demon soul rules"
+    ]
+  },
+  {
+    "name": "Tuval-Uthriar",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Medium Humanoid (Elf), lawful evil",
+    "ac": 20,
+    "hp": 84,
+    "hitDice": "13d8 + 26",
+    "speed": "30 ft.",
+    "cr": "4",
+    "xp": 1100,
+    "proficiencyBonus": 2,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 20,
+        "modifier": 5
+      },
+      "Dex": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Wis": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 20,
+        "modifier": 5
+      }
+    },
+    "otherStatistics": "Mithral plate and shield. Saves Str +7, Con +4, Wis +2. Skills Athletics +7, Perception +4, Stealth +5, Survival +4. Darkvision 60 ft., passive Perception 14. Common, Elvish, Sylvan.",
+    "description": "The Wilderkith’s paladin commander anchors the front line and uses his gauntlet to blast defenders and structures.",
+    "sections": {
+      "Role": "Soldier",
+      "Printed source": "Wilderkith actions, p. 369. Stat block, p. 371.",
+      "Traits": "Elf Glamour (1/day). When a creature targets Tuval-Uthriar with an attack, power, or spell, it must pass a DC 15 Wisdom save or become Charmed by him until the end of his next turn. This takes no action.\nSupernatural Resistance. Tuval-Uthriar has advantage on saves against powers, spells, and other supernatural effects.\nWheel of Ire. Enemies within 30 ft. have disadvantage on attacks against creatures other than Tuval-Uthriar.",
+      "Actions": "Multiattack. Make three Longsword attacks.\nLongsword. Melee weapon attack +7, reach 5 ft., one target. Hit 9 (1d8 + 5) slashing damage, or 10 (1d10 + 5) wielded with two hands.\nCall Lightning (3/day, 3rd-level spell). Choose a visible point within 120 ft. Creatures within 5 ft. of it make DC 15 Dexterity saves, taking 16 (3d10) lightning damage on a failure or half on a success.\nEye of Sunrise (1/day). The gauntlet blasts a 30-ft. cone, audible 300 ft. away. Creatures in the cone make DC 15 Dexterity saves, taking 17 (5d6) fire plus 17 (5d6) force damage on a failure or half on a success. Structures and unattended mundane objects in the cone take 35 (10d6) fire plus 35 (10d6) force damage.",
+      "Bonus Actions": "Healing Word (2nd-level spell). Restore 8 (2d4 + 3) HP to one visible creature within 60 ft. that is neither a Construct nor Undead.",
+      "Utility Spells": "Charisma, save DC 15. Each spell takes an action.\nAt will. Light, Mage Hand, Message.\n3/day each. Detect Magic, Speak with Animals.\n1/day each. Detect Thoughts, Find Traps, Pass without Trace.",
+      "Villain Party Action": "Wilderkith. The party may use one villain party action per round after an enemy's turn. Each action is available once per encounter, in any order, and requires its performer to be present and able to act.\nAction 4. Tactical Push. Each member of the Inner Circle within 60 ft. who can hear Tuval-Uthriar may make one attack or move up to its speed, without an action."
+    },
+    "relatedCreatures": [
+      {
+        "name": "Anthracia, Princess of Venom",
+        "kind": "monster",
+        "terms": [
+          "Anthracia"
+        ]
+      },
+      {
+        "name": "Logger",
+        "kind": "monster"
+      },
+      {
+        "name": "Sylphise",
+        "kind": "monster"
+      },
+      {
+        "name": "Vali",
+        "kind": "monster"
+      }
+    ]
+  }
+]

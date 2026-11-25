@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Dust Devil",
+    "imageKey": "monster:dust-devil",
+    "kind": "monster",
+    "type": "Elemental",
+    "publication": "Basic Rules (2014)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "source": "https://www.dndbeyond.com/monsters/804867-dust-devil",
+    "challenge": "5",
+    "images": [],
+    "encounterStatus": "local-stat-block",
+    "statBlockUrl": "https://www.dndbeyond.com/monsters/804867-dust-devil",
+    "slug": "dust-devil",
+    "entry": "monster-2a3072ca73ce655e55a81b54",
+    "version": "ed525570882265943f7e3e49",
+    "generated": true,
+    "primaryPortraitSha256": "d13be42e2abaff95aab4afd007ba4a723edb5567a4987ca041295a35a3f5ef7e",
+    "status": "Stat block",
+    "appearance": "A twisting funnel of dust and grit with a faint resemblance to a face in the swirling cloud.",
+    "habitats": [
+      "Deserts",
+      "Mountains",
+      "Blue dragon lairs"
+    ]
+  }
+]

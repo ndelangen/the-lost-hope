@@ -1,0 +1,126 @@
+[
+  {
+    "name": "Killoren",
+    "kind": "species",
+    "publication": "Races of the Wild (2005) · Ancient",
+    "edition": "3.5 edition",
+    "book": "Races of the Wild",
+    "author": "Skip Williams",
+    "publisher": "Wizards of the Coast",
+    "firstPrinting": "February 2005",
+    "productCode": "620-17928-001-EN",
+    "isbn": "0-7869-3438-7",
+    "printedPages": {
+      "introduction": 102,
+      "playableTraits": 103,
+      "sampleTraveler": [
+        105,
+        106
+      ],
+      "ageTable": 106,
+      "aspectFeats": 151
+    },
+    "printedArtCredit": "James Zhang, Killoren illustrations in the printed entry",
+    "primaryBookScan": "",
+    "primaryBookViewer": "https://device.report/m/a19fc6194e232256830fa5890b21ec0c6dc8a1e0a3432dd2c26f6b473ab4906a",
+    "primaryBookSha256": "b9f7210842634a2cf9dc20223203708eb79795657acee820e6f919eb06272ed5",
+    "officialErrataArchive": "https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP",
+    "sourceDistinctions": [
+      "The three selectable reference versions are a single species with one active aspect at a time.",
+      "The printed Destroyer smite does not specify an attack mode. Daranvar demonstrates it with melee weapons.",
+      "The playable list supplies no level-adjustment field. The new builds use ECL equal to class level based on no stated adjustment.",
+      "The published CR 2 traveler is a separate Ranger 1/Rogue 1 example and is not reproduced."
+    ],
+    "aspect": "Ancient",
+    "entryId": "species-0b916e3b299992d5b315a18c",
+    "versionKey": "d8ed31dc5f0c81ba7f24fcdb",
+    "slug": "killoren",
+    "portraitSelection": "generated",
+    "portraitForm": "Irimel, representative Hunter aspect",
+    "npcExamples": []
+  },
+  {
+    "name": "Killoren",
+    "kind": "species",
+    "publication": "Races of the Wild (2005) · Destroyer",
+    "edition": "3.5 edition",
+    "book": "Races of the Wild",
+    "author": "Skip Williams",
+    "publisher": "Wizards of the Coast",
+    "firstPrinting": "February 2005",
+    "productCode": "620-17928-001-EN",
+    "isbn": "0-7869-3438-7",
+    "printedPages": {
+      "introduction": 102,
+      "playableTraits": 103,
+      "sampleTraveler": [
+        105,
+        106
+      ],
+      "ageTable": 106,
+      "aspectFeats": 151
+    },
+    "printedArtCredit": "James Zhang, Killoren illustrations in the printed entry",
+    "primaryBookScan": "",
+    "primaryBookViewer": "https://device.report/m/a19fc6194e232256830fa5890b21ec0c6dc8a1e0a3432dd2c26f6b473ab4906a",
+    "primaryBookSha256": "b9f7210842634a2cf9dc20223203708eb79795657acee820e6f919eb06272ed5",
+    "officialErrataArchive": "https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP",
+    "sourceDistinctions": [
+      "The three selectable reference versions are a single species with one active aspect at a time.",
+      "The printed Destroyer smite does not specify an attack mode. Daranvar demonstrates it with melee weapons.",
+      "The playable list supplies no level-adjustment field. The new builds use ECL equal to class level based on no stated adjustment.",
+      "The published CR 2 traveler is a separate Ranger 1/Rogue 1 example and is not reproduced."
+    ],
+    "aspect": "Destroyer",
+    "entryId": "species-0b916e3b299992d5b315a18c",
+    "versionKey": "7ba17e7f30119a0d389d679c",
+    "slug": "killoren",
+    "portraitSelection": "generated",
+    "portraitForm": "Irimel, representative Hunter aspect",
+    "npcExamples": [
+      "Daranvar"
+    ]
+  },
+  {
+    "name": "Killoren",
+    "kind": "species",
+    "publication": "Races of the Wild (2005) · Hunter",
+    "edition": "3.5 edition",
+    "book": "Races of the Wild",
+    "author": "Skip Williams",
+    "publisher": "Wizards of the Coast",
+    "firstPrinting": "February 2005",
+    "productCode": "620-17928-001-EN",
+    "isbn": "0-7869-3438-7",
+    "printedPages": {
+      "introduction": 102,
+      "playableTraits": 103,
+      "sampleTraveler": [
+        105,
+        106
+      ],
+      "ageTable": 106,
+      "aspectFeats": 151
+    },
+    "printedArtCredit": "James Zhang, Killoren illustrations in the printed entry",
+    "primaryBookScan": "",
+    "primaryBookViewer": "https://device.report/m/a19fc6194e232256830fa5890b21ec0c6dc8a1e0a3432dd2c26f6b473ab4906a",
+    "primaryBookSha256": "b9f7210842634a2cf9dc20223203708eb79795657acee820e6f919eb06272ed5",
+    "officialErrataArchive": "https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP",
+    "sourceDistinctions": [
+      "The three selectable reference versions are a single species with one active aspect at a time.",
+      "The printed Destroyer smite does not specify an attack mode. Daranvar demonstrates it with melee weapons.",
+      "The playable list supplies no level-adjustment field. The new builds use ECL equal to class level based on no stated adjustment.",
+      "The published CR 2 traveler is a separate Ranger 1/Rogue 1 example and is not reproduced."
+    ],
+    "aspect": "Hunter",
+    "entryId": "species-0b916e3b299992d5b315a18c",
+    "versionKey": "24fb1ad6b012af3ac6434f33",
+    "slug": "killoren",
+    "portraitSelection": "generated",
+    "portraitForm": "Irimel, representative Hunter aspect",
+    "npcExamples": [
+      "Irimel"
+    ]
+  }
+]

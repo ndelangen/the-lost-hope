@@ -1,0 +1,121 @@
+{
+  "builds": [
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "difficulty": "Provisional CR 1. ECL 1 (1 class HD, LA +0).",
+      "size": "Medium",
+      "type": "Humanoid (Human)",
+      "senses": "Normal vision.",
+      "languages": "Common",
+      "id": "neanderthal-hearthward-passage-keeper-35e",
+      "title": "Neanderthal passage keeper, Barbarian 1",
+      "ac": 13,
+      "hp": 15,
+      "hitDice": "1d12+3",
+      "initiative": 1,
+      "speed": "40 ft. in light armor with a light load",
+      "abilityScores": {
+        "STR": 18,
+        "DEX": 12,
+        "CON": 16,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Climb +8",
+        "Jump +12",
+        "Listen +9",
+        "Spot +5",
+        "Survival +7"
+      ],
+      "traits": [
+        "Chaotic good. Leather armor +2, Dexterity +1. Touch 11, flat-footed 12. BAB +1, grapple +5. Fortitude +5, Reflex +1, Will +1. Fast movement raises land speed to 40 ft. with this gear and adds +4 to Jump.",
+        "Climate Tolerant (Ex) waives environmental Fortitude saves between −20°F and 140°F. It gives no protection from fire or cold damage and counts as Cold Endurance only for feat and prestige-class prerequisites.",
+        "+2 racial on Listen, Spot, and Survival.",
+        "Human Blood treats the Neanderthal as human for race-based effects and human-only items. The profile gives no human bonus feat or skill points.",
+        "Primitive Weapon Mastery adds +1 to greatclub and javelin attacks. Barbarian proficiency covers both weapons. Alertness adds +2 to Listen and Spot. Oren is illiterate.",
+        "Rage 1/day lasts 8 rounds with the improved Constitution modifier. It gives +4 Strength, +4 Constitution, +2 morale on Will saves, and −2 AC. HP rises by 2, Fortitude becomes +7, Will becomes +3, and AC drops to 11. Oren is fatigued when rage ends."
+      ],
+      "actions": [
+        "Greatclub +6 melee with two hands for 1d10+6 bludgeoning, critical ×2. While raging, greatclub +8 for 1d10+9.",
+        "Javelin +3 thrown for 1d6+4 piercing, critical ×2, range increment 30 ft. While raging, javelin stays +3 and deals 1d6+6."
+      ],
+      "tactics": "Oren waits by the shelter passage while the party brings people in from the cold. His climate trait covers the ambient cold within its range. Resolve fire or cold attacks normally."
+    },
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "difficulty": "Provisional CR 1. ECL 1 (1 class HD, LA +0).",
+      "size": "Medium",
+      "type": "Humanoid (Human)",
+      "senses": "Normal vision.",
+      "languages": "Common",
+      "id": "neanderthal-ridgewatch-cairn-scout-35e",
+      "title": "Neanderthal cairn scout, Ranger 1",
+      "ac": 15,
+      "hp": 10,
+      "hitDice": "1d8+2",
+      "initiative": 3,
+      "speed": "30 ft.",
+      "abilityScores": {
+        "STR": 14,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 14,
+        "CHA": 8
+      },
+      "skills": [
+        "Hide +7",
+        "Listen +8",
+        "Move Silently +7",
+        "Search +2",
+        "Spot +8",
+        "Survival +8"
+      ],
+      "traits": [
+        "Neutral good. Leather armor +2, Dexterity +3. Touch 13, flat-footed 12. BAB +1, grapple +3. Fortitude +4, Reflex +5, Will +2.",
+        "Climate Tolerant (Ex) waives environmental Fortitude saves between −20°F and 140°F. It gives no protection from fire or cold damage and counts as Cold Endurance only for feat and prestige-class prerequisites.",
+        "+2 racial on Listen, Spot, and Survival.",
+        "Human Blood treats the Neanderthal as human for race-based effects and human-only items. The profile gives no human bonus feat or skill points.",
+        "Vela spends 2 skill points to read and write Common. Primitive Weapon Mastery adds +1 to shortbow and shortspear attack rolls. Her Ranger proficiencies cover both weapons.",
+        "Track is a Ranger bonus feat. Wild empathy +0. Favored enemy animals adds +2 to Bluff, Listen, Sense Motive, Spot, Survival, and weapon damage rolls against animals."
+      ],
+      "actions": [
+        "Shortbow +5 for 1d6 piercing, critical ×3, range increment 60 ft. Point Blank Shot raises it to +6 for 1d6+1 within 30 ft.",
+        "Shortspear +4 melee for 1d6+2 piercing, critical ×2. A longsword +3 for 1d8+2 slashing provides a comparison because it is outside the mastery list."
+      ],
+      "tactics": "Vela follows tracks between the cairns and reads an old Common warning marker where the route forks. She guides the party through the sheltered cut before the wind rises."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Neanderthal",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Frostburn (2004)",
+      "name": "Oren Hearthward",
+      "build": "neanderthal-hearthward-passage-keeper-35e",
+      "role": "Passage keeper and Barbarian.",
+      "motive": "Keep the shelter passage clear until the last travelers arrive.",
+      "hook": "Oren is waiting at the entrance while the snow blocks the upper path."
+    },
+    {
+      "species": "Neanderthal",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Frostburn (2004)",
+      "name": "Vela Ridgewatch",
+      "build": "neanderthal-ridgewatch-cairn-scout-35e",
+      "role": "Cairn scout and Ranger.",
+      "motive": "Find the right fork of the trail before the wind covers the tracks.",
+      "hook": "Vela can read the cairn marker and guide the party through the cut."
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+diff --git a/dm-library/bestiary/book-catalog.json b/dm-library/bestiary/book-catalog.json
+--- a/dm-library/bestiary/book-catalog.json
++++ b/dm-library/bestiary/book-catalog.json
+@@ -312664,6 +312664,25 @@
+       ]
+     },
+     {
++      "name": "Dvati",
++      "kind": "species",
++      "publication": "Dragon Compendium, Volume I (2005)",
++      "edition": "3.5 edition",
++      "traits": [
++        "A Dvati character has two identical bodies sharing one soul. Each is a Medium Humanoid with 30-ft. land speed and darkvision 60 ft. The species has no racial ability adjustments or racial Hit Dice. LA +1 applies to the one character.",
++        "Both twins use the same level, classes, feats, skill ranks, and XP total. The pair counts as one PC for XP. The two bodies move and act separately, within the restrictions on their shared abilities and spellcasting.",
++        "Roll each Hit Die once. Each twin adds half the die result and the full Constitution modifier to their own hit points. Track damage and healing on each body. Both save and take damage separately when caught in an ordinary area effect.",
++        "Class uses and spell slots are one shared pool. Both twins normally take the casting actions together, with one providing materials. One twin can cast alone if the other takes no actions during the casting. Even a free action by the other twin ruins the attempt and loses the spell.",
++        "Personal spells affect both twins when they share a plane, or only the caster when on different planes. Ordinary touch spells affect the twin touched. Spell Conductor can shift an ongoing harmless touch spell to the other twin on the same plane as a move action. The pair can transfer a spell it casts as part of casting, and the text disallows transferring spells used by others.",
++        "Most effects stay with the body affected. A mind-affecting spell or ability affecting one twin affects both. If a single such effect targets both at once, use one save. Negative levels and levels lost through return to life apply to both. Use one save to remove a negative level.",
++        "Pair telepathy works across any distance and across planes. The twins do not share senses. A full-round action reveals the other twin’s current hit points and mental state, plus their direction and distance when on the same plane.",
++        "If a twin dies, each elapsed day deals 1d4 Constitution and Wisdom damage to the survivor and adds a cumulative −1 to attacks, skill checks, and saves. This damage and penalty cannot be removed while the survivor lives and their twin is dead. Both vanish immediately upon the missing twin’s return to life.",
++        "Pair Link gives both twins +3 to hit when they flank the same foe together. When one twin successfully aids the other’s attack or AC, the bonus is +4.",
++        "Echo Attack requires both twins to spend a move action speaking while flanking the same creature. Make one Perform (sing) check for the Will save DC. On a failed save choose +1 to both twins’ attacks against that creature or +1 to their AC against its attacks for one round. A creature must be able to hear and be flanked.",
++        "Common and Dvati are automatic. Any bonus language is eligible. Speaking Dvati takes two simultaneous speakers. Favored class Bard."
++      ]
++    },
++    {
+       "edition": "2014 fifth edition",
+       "publication": "Plane Shift: Kaladesh",
+       "name": "Human (Kaladesh)",
+diff --git a/dm-library/bestiary/npc-encounters.json b/dm-library/bestiary/npc-encounters.json
+--- a/dm-library/bestiary/npc-encounters.json
++++ b/dm-library/bestiary/npc-encounters.json
+@@ -1729,6 +1729,93 @@
+       "tactics": "Orrin wants help drying out the flooded lantern stock before the procession arrives. He uses mage armor if the work area is threatened and protection from law at the first sign of trouble from a lawful summoned creature."
+     },
+     {
++      "id": "dvati-crossroad-chorus-35e",
++      "title": "Dvati crossroad chorus, Bard 2 twin pair",
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
++      "difficulty": "Provisional CR 3 for the pair. ECL 3 (2 class HD, LA +1).",
++      "size": "Medium",
++      "type": "Humanoid",
++      "ac": 15,
++      "hp": 9,
++      "hitDice": "2d6 shared, +4 Constitution per twin",
++      "initiative": 2,
++      "speed": "30 ft.",
++      "abilityScores": {
++        "STR": 10,
++        "DEX": 14,
++        "CON": 14,
++        "INT": 12,
++        "WIS": 10,
++        "CHA": 16
++      },
++      "skills": [
++        "Bluff +8",
++        "Concentration +7",
++        "Diplomacy +12",
++        "Listen +5",
++        "Perform (sing) +11",
++        "Sense Motive +5",
++        "Spellcraft +6"
++      ],
++      "senses": "Darkvision 60 ft. per twin.",
++      "languages": "Common, Dvati, Elven",
++      "traits": [
++        "Chaotic good. The listed combat stats are per twin. One Hit Die roll per level, using 6 and 4 on d6s. Each twin gets 5 from the dice and 4 from Constitution, for 9 HP each. Track each body’s hit points independently.",
++        "Each has studded leather +3 and Dexterity +2. Touch 12, flat-footed 13. BAB +1, grapple +1. Fortitude +2, Reflex +5, Will +3. Armor check penalty −1. Skill Focus (Perform [sing]) adds +3. Bardic knowledge +3.",
++        "One shared pool of two bardic music uses, three 0-level spell slots, and one 1st-level slot per day. Bard caster level 2. Both carry components. Both twins normally take the casting actions together, with one providing materials. One twin can cast alone if the other takes no actions during the casting. Even a free action by the other twin ruins the attempt and loses the spell.",
++        "Pair Link gives both twins +3 to hit when they flank the same foe together. When one twin successfully aids the other’s attack or AC, the bonus is +4.",
++        "Echo Attack requires both twins to spend a move action speaking while flanking the same creature. Make one Perform (sing) check for the Will save DC. On a failed save choose +1 to both twins’ attacks against that creature or +1 to their AC against its attacks for one round. A creature must be able to hear and be flanked.",
++        "Table ruling for these encounters. Roll initiative once for the pair and resolve both turns on that count. Declare shared casting and Echo Attack together."
++      ],
++      "actions": [
++        "Each twin has a short sword +1, 1d6 piercing, critical 19–20/×2, and a shortbow +3, 1d6 piercing, critical ×3, 60-ft. increment. When both flank with swords, each is +4 to hit, or +5 with the Echo Attack bonus to attack.",
++        "Inspire courage starts as a standard action and spends one shared music use. +1 morale on attacks, weapon damage, and saves against charm and fear for allies who hear it, while it is heard and for five rounds afterward. Countersong helps listeners within 30 ft. use their Perform result against sonic or language-dependent magical attacks. Fascinate affects one attentive target within 90 ft. outside combat distractions and uses one Perform (sing) check as the Will DC.",
++        "Expeditious retreat (1st): standard action, personal, base land speed rises to 60 ft. for 2 minutes. Both twins benefit on the same plane. It spends their one shared 1st-level slot.",
++        "Cure light wounds (1st): standard action, touch, restores 1d8+2 HP to one willing living target, including one twin. It uses the same shared 1st-level slot as expeditious retreat.",
++        "Cantrips known: detect magic, light, mage hand, message, and prestidigitation."
++      ],
++      "tactics": "Aven and Iven are directing travellers along a forked road. If they need to reach both ends quickly, they declare one shared casting of expeditious retreat. If a traveller is hurt, they keep the same slot for cure light wounds instead."
++    },
++    {
++      "id": "dvati-split-floodgate-wardens-35e",
++      "title": "Dvati split floodgate wardens, Fighter 1 twin pair",
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
++      "difficulty": "Provisional CR 2 for the pair. ECL 2 (1 class HD, LA +1).",
++      "size": "Medium",
++      "type": "Humanoid",
++      "ac": 15,
++      "hp": 7,
++      "hitDice": "1d10 shared, +2 Constitution per twin",
++      "initiative": 5,
++      "speed": "30 ft.",
++      "abilityScores": {
++        "STR": 16,
++        "DEX": 12,
++        "CON": 14,
++        "INT": 10,
++        "WIS": 12,
++        "CHA": 10
++      },
++      "skills": ["Jump +5", "Perform (sing) +2"],
++      "senses": "Darkvision 60 ft. per twin.",
++      "languages": "Common, Dvati",
++      "traits": [
++        "Lawful good. The listed combat stats are per twin. Both share the maximum first Hit Die result of 10. Each gets 5 from the die and 2 from Constitution, for 7 HP each. Damage to either twin is tracked separately.",
++        "Each has a chain shirt +4 and Dexterity +1. Touch 11, flat-footed 14. BAB +1, grapple +4. Fortitude +4, Reflex +1, Will +1. Armor check penalty −2. Improved Initiative adds +4, and Weapon Focus (spear) adds +1 to spear attacks.",
++        "Pair Link gives both twins +3 to hit when they flank the same foe together. When one twin successfully aids the other’s attack or AC, the bonus is +4.",
++        "Echo Attack requires both twins to spend a move action speaking while flanking the same creature. Make one Perform (sing) check for the Will save DC. On a failed save choose +1 to both twins’ attacks against that creature or +1 to their AC against its attacks for one round. A creature must be able to hear and be flanked.",
++        "Table ruling for these encounters. Roll initiative once for the pair and resolve both turns on that count. Declare shared casting and Echo Attack together."
++      ],
++      "actions": [
++        "Each twin has a spear +5 melee, 1d8+4 piercing, critical ×3, 5-ft. reach. Thrown spear +3, 1d8+3 piercing, critical ×3, 20-ft. increment.",
++        "When both flank the same foe, each spear is +8. On a failed Echo Attack save against one shared 1d20+2 Perform (sing) check, choose +9 spear attacks against that foe or AC 16 against its attacks for one round.",
++        "Aid Another as a standard action in melee. Make a spear attack roll against AC 10 to give the other twin +4 on the relevant attack or to AC against the next attack from that opponent."
++      ],
++      "tactics": "Mara and Sera guard two pin wheels on opposite sides of the floodgate. They can warn each other through the stone telepathically. If a creature forces the crossing, they take both sides of it or have one help the other secure a clear strike."
++    },
++    {
+       "id": "chaos-gnome-roadside-mediator-35e",
+       "title": "Chaos Gnome roadside mediator, Cleric 1",
+       "origin": "Original DM Library NPC",
+@@ -3373,6 +3460,28 @@
+       "hook": "Veyric can examine the rubbing from the far side of the threshold and tell the party which mark the crew covered."
+     },
+     {
++      "species": "Dvati",
++      "size": "Medium",
++      "edition": "3.5 edition",
++      "speciesPublication": "Dragon Compendium, Volume I (2005)",
++      "name": "Aven and Iven Threadwell",
++      "build": "dvati-crossroad-chorus-35e",
++      "role": "Crossroad chorus and Bard pair.",
++      "motive": "Get separated travellers back to the right side of a road closure.",
++      "hook": "Aven and Iven can cover both forks while the party checks the road for late travellers."
++    },
++    {
++      "species": "Dvati",
++      "size": "Medium",
++      "edition": "3.5 edition",
++      "speciesPublication": "Dragon Compendium, Volume I (2005)",
++      "name": "Mara and Sera Reedbank",
++      "build": "dvati-split-floodgate-wardens-35e",
++      "role": "Split floodgate wardens and Fighter pair.",
++      "motive": "Keep two pin wheels turning until the maintenance crew is out of the channel.",
++      "hook": "Mara and Sera can coordinate through the stone while the party watches the crossing."
++    },
++    {
+       "species": "Ravenite Dragonborn",
+       "size": "Medium",
+       "edition": "2014 fifth edition",
+diff --git a/dm-library/bestiary/entries.tsv b/dm-library/bestiary/entries.tsv
+--- a/dm-library/bestiary/entries.tsv
++++ b/dm-library/bestiary/entries.tsv
+@@ -2967,6 +2967,7 @@
+ Dust Mephit (Summoner Variant)	monster	Elemental	Monster Manual (2014)	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/301781-dust-mephit-summoner-variant	1/2
+ Dustcloak	monster	Elemental	Monster Vault 2	Black Flag Roleplaying	Kobold Press	https://koboldpress.com/tools/search-tov-kobold-press-monsters/	8.0
+ Duvessa Shane	monster	Humanoid	Storm King's Thunder	2014 fifth edition	Wizards of the Coast		
++Dvati	species	Humanoid	Dragon Compendium, Volume I (2005)	3.5 edition	Paizo Publishing	https://books.google.com/books/about/Dragon_Compendium.html?id=zeQhAAAACAAJ	
+ Dwarf	species		Grim Hollow: Player’s Guide	Fifth edition compatible	Ghostfire Gaming	https://www.dndbeyond.com/species/1987217-dwarf	
+ Dwarf	species		Black Flag Roleplaying Reference Document v0.2	Black Flag Roleplaying	Kobold Press		
+ Dwarf	species		Basic Rules (2014)	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/species/13-dwarf	

@@ -1,0 +1,25 @@
+{
+  "commit": "b44e249badd8bbaddcdcc41462c4a61ab0625055",
+  "publication": "Expanded Psionics Handbook (2004)",
+  "edition": "3.5 edition",
+  "playableSpecies": 1,
+  "profiles": 4,
+  "fullNpcBuilds": 2,
+  "generatedPortraitsInstalled": 1,
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "visualComparison": "output/dm-library/review/encounters-58-before-after.jpg",
+  "results": "output/dm-library/encounter-batches/58/results.json",
+  "unverifiedNextCandidates": [
+    {
+      "name": "Human Apprentice Mage",
+      "source": "https://www.dndbeyond.com/monsters/4485891-human-apprentice-mage",
+      "challenge": "6"
+    },
+    {
+      "name": "Human Raider",
+      "source": "https://www.dndbeyond.com/monsters/4485897-human-raider",
+      "challenge": "1/2"
+    }
+  ]
+}

@@ -1,0 +1,459 @@
+{
+  "Tiefling": {
+    "profiles": [
+      {
+        "name": "Tiefling",
+        "imageKey": "species:tiefling",
+        "kind": "species",
+        "type": "",
+        "publication": "Basic Rules (2014)",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "source": "https://www.dndbeyond.com/species/7-tiefling",
+        "challenge": "",
+        "images": [],
+        "publisherArtwork": "https://www.dndbeyond.com/avatars/thumbnails/4808/252/340/340/636771216810902999.png",
+        "illustrationReference": "https://www.dndbeyond.com/species/7-tiefling",
+        "speciesRulesStatus": "source-lookup",
+        "npcStatus": "missing",
+        "npcBuilds": []
+      },
+      {
+        "name": "Tiefling",
+        "imageKey": "species:tiefling",
+        "kind": "species",
+        "type": "",
+        "publication": "Player’s Handbook",
+        "edition": "2024 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "source": "https://www.dndbeyond.com/species/1751443-tiefling",
+        "challenge": "",
+        "images": [],
+        "publisherArtwork": "https://www.dndbeyond.com/avatars/thumbnails/43940/586/340/340/638607451956352471.png",
+        "illustrationReference": "https://www.dndbeyond.com/species/1751443-tiefling",
+        "speciesRulesStatus": "local-summary",
+        "speciesTraits": [
+          "Size Small or Medium.",
+          "Walking speed 30 feet.",
+          "Darkvision 60 feet.",
+          "Source traits include Darkvision, Fiendish Legacy, Otherworldly Presence."
+        ],
+        "npcStatus": "original-build",
+        "npcBuilds": [
+          {
+            "species": "Tiefling",
+            "size": "Medium",
+            "edition": "2024 fifth edition",
+            "name": "Mina Letterturn",
+            "build": {
+              "id": "ward-tender",
+              "title": "Ward tender",
+              "origin": "Original DM Library NPC",
+              "editions": [
+                "2014 fifth edition",
+                "2024 fifth edition"
+              ],
+              "difficulty": "Provisional CR 1/2 (100 XP)",
+              "size": "Use the concept's size",
+              "type": "Humanoid",
+              "ac": 12,
+              "hp": 22,
+              "initiative": 1,
+              "speed": "30 ft.",
+              "abilityScores": {
+                "STR": 8,
+                "DEX": 12,
+                "CON": 10,
+                "INT": 14,
+                "WIS": 14,
+                "CHA": 12
+              },
+              "skills": [
+                "Arcana +4",
+                "Insight +4"
+              ],
+              "senses": "Passive Perception 12",
+              "languages": "Common and one local language",
+              "traits": [
+                "Can identify the visible maker's mark on a local ward without rolling."
+              ],
+              "actions": [
+                "Ward spark. Ranged spell attack +4, range 60 ft., one target. Hit 7 (2d6) radiant damage.",
+                "Hold the threshold (1/day). Choose a 5-foot square within 30 ft. Each creature there makes a DC 12 Dexterity save. On a failure, it takes 7 (2d6) force damage and its speed becomes 0 until the end of its next turn. On a success, it takes half damage only."
+              ],
+              "tactics": "Protects a door or witness and leaves by a prepared route when challenged in the open."
+            },
+            "role": "Provisional clerk and guardian",
+            "motive": "Keep a locked archive available to people who are still appealing a decision.",
+            "hook": "Mina asks the group to serve as reading witnesses after the usual keeper stops answering messages."
+          }
+        ],
+        "bookReference": {
+          "pageUrl": "https://5e.tools/races.html#tiefling_xphb",
+          "artwork": [
+            {
+              "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/races/XPHB/Tiefling.webp",
+              "artist": "Clint Cearley",
+              "kind": "illustration"
+            },
+            {
+              "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/races/XPHB/156-05-029.infernal-chthonic-abyssal.webp",
+              "artist": "John Grello",
+              "kind": "illustration"
+            },
+            {
+              "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/races/XPHB/157-05-028.armored-tiefling.webp",
+              "artist": "Jodie Muir",
+              "kind": "illustration"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Tiefling",
+        "imageKey": "species:tiefling",
+        "kind": "species",
+        "type": "Humanoid",
+        "publication": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "challenge": "",
+        "images": [],
+        "speciesRulesStatus": "local-summary",
+        "speciesTraits": [
+          "Small or Medium, walking speed 30 ft.",
+          "60 ft. darkvision and Thaumaturgy.",
+          "Choose an Abyssal, Chthonic, or Infernal legacy for one resistance and different spells at levels 1, 3, and 5."
+        ],
+        "npcStatus": "original-build",
+        "npcBuilds": [
+          {
+            "species": "Tiefling",
+            "size": "Medium",
+            "edition": "2024 fifth edition",
+            "name": "Mina Letterturn",
+            "build": {
+              "id": "ward-tender",
+              "title": "Ward tender",
+              "origin": "Original DM Library NPC",
+              "editions": [
+                "2014 fifth edition",
+                "2024 fifth edition"
+              ],
+              "difficulty": "Provisional CR 1/2 (100 XP)",
+              "size": "Use the concept's size",
+              "type": "Humanoid",
+              "ac": 12,
+              "hp": 22,
+              "initiative": 1,
+              "speed": "30 ft.",
+              "abilityScores": {
+                "STR": 8,
+                "DEX": 12,
+                "CON": 10,
+                "INT": 14,
+                "WIS": 14,
+                "CHA": 12
+              },
+              "skills": [
+                "Arcana +4",
+                "Insight +4"
+              ],
+              "senses": "Passive Perception 12",
+              "languages": "Common and one local language",
+              "traits": [
+                "Can identify the visible maker's mark on a local ward without rolling."
+              ],
+              "actions": [
+                "Ward spark. Ranged spell attack +4, range 60 ft., one target. Hit 7 (2d6) radiant damage.",
+                "Hold the threshold (1/day). Choose a 5-foot square within 30 ft. Each creature there makes a DC 12 Dexterity save. On a failure, it takes 7 (2d6) force damage and its speed becomes 0 until the end of its next turn. On a success, it takes half damage only."
+              ],
+              "tactics": "Protects a door or witness and leaves by a prepared route when challenged in the open."
+            },
+            "role": "Provisional clerk and guardian",
+            "motive": "Keep a locked archive available to people who are still appealing a decision.",
+            "hook": "Mina asks the group to serve as reading witnesses after the usual keeper stops answering messages."
+          }
+        ]
+      },
+      {
+        "name": "Tiefling",
+        "imageKey": "species:tiefling",
+        "kind": "species",
+        "type": "Humanoid",
+        "publication": "Player's Handbook (2014)",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "challenge": "",
+        "images": [],
+        "speciesRulesStatus": "local-summary",
+        "speciesTraits": [
+          "+2 Charisma and +1 Intelligence; walking speed 30 feet, darkvision 60 feet, and resistance to fire.",
+          "Thaumaturgy at will; hellish rebuke at level 3 and darkness at level 5, once each per long rest. Spellcasting uses Charisma."
+        ],
+        "npcStatus": "missing",
+        "npcBuilds": [],
+        "bookReference": {
+          "pageUrl": "https://5e.tools/races.html#tiefling_phb",
+          "artwork": [
+            {
+              "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/races/PHB/Tiefling.webp",
+              "kind": "illustration"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Tiefling",
+        "imageKey": "species:tiefling",
+        "kind": "species",
+        "type": "Outsider (Native)",
+        "publication": "Planar Handbook (2004)",
+        "edition": "3.5 edition",
+        "publisher": "Wizards of the Coast",
+        "source": "https://obnb.uk/p13133209-planar-handbook-a-players-guide-to-the-planes",
+        "challenge": "",
+        "images": [],
+        "speciesRulesStatus": "local-summary",
+        "speciesTraits": [
+          "Medium Outsider (Native) from the Material Plane. The book gives the Extraplanar subtype away from the Material Plane. Under the core rules, creatures lack the Extraplanar subtype on transitive planes. Humanoid-only effects such as charm person do not affect a Tiefling.",
+          "+2 Dexterity, +2 Intelligence, and −2 Charisma. Land speed 30 ft., darkvision 60 ft., and +2 racial bonuses on Bluff and Hide.",
+          "Cold resistance 5, electricity resistance 5, and fire resistance 5.",
+          "Darkness (Sp) once per day. Caster level equals character level, excluding level adjustment. One touched object produces shadowy illumination for 10 minutes per caster level in a 20-ft. radius. Creatures in the area have concealment (20% miss chance), including against darkvision.",
+          "Automatic languages are Common and Infernal. Bonus languages are Draconic, Dwarven, Elven, Gnome, Goblin, Halfling, and Orc. Favored class Rogue. LA +1. No racial Hit Dice are listed."
+        ],
+        "npcStatus": "original-build",
+        "npcBuilds": [
+          {
+            "species": "Tiefling",
+            "size": "Medium",
+            "edition": "3.5 edition",
+            "speciesPublication": "Planar Handbook (2004)",
+            "name": "Sella Cinderlock",
+            "build": {
+              "origin": "Original DM Library NPC",
+              "editions": [
+                "3.5 edition"
+              ],
+              "difficulty": "Provisional CR 2. ECL 2 (1 class HD, LA +1).",
+              "size": "Medium",
+              "type": "Outsider (Native)",
+              "senses": "Darkvision 60 ft.",
+              "speed": "30 ft.",
+              "id": "tiefling-cinderlock-lockhouse-runner-35e",
+              "title": "Tiefling lockhouse runner, Rogue 1",
+              "ac": 16,
+              "hp": 8,
+              "hitDice": "1d6+2",
+              "initiative": 4,
+              "languages": "Common, Infernal, Draconic, Dwarven, Elven",
+              "abilityScores": {
+                "STR": 12,
+                "DEX": 18,
+                "CON": 14,
+                "INT": 16,
+                "WIS": 10,
+                "CHA": 8
+              },
+              "skills": [
+                "Balance +8",
+                "Bluff +5",
+                "Disable Device +7",
+                "Hide +10",
+                "Listen +4",
+                "Move Silently +8",
+                "Open Lock +8",
+                "Search +7",
+                "Sense Motive +4",
+                "Spot +4",
+                "Tumble +8"
+              ],
+              "traits": [
+                "Neutral good. Material Plane. Leather armor +2 and Dexterity +4. Touch 14, flat-footed 12. BAB +0, grapple +1. Fortitude +2, Reflex +6, Will +0.",
+                "Cold resistance 5, electricity resistance 5, and fire resistance 5.",
+                "Trapfinding. Sneak attack +1d6 when a target is denied Dexterity bonus to AC or when Sella flanks it. Ranged sneak attack requires a target within 30 ft. A target with concealment cannot be sneak attacked."
+              ],
+              "actions": [
+                "Rapier +1 melee, 1d6+1 piercing, critical 18–20/×2. Shortbow +4 ranged, 1d6 piercing, critical ×3, range increment 60 ft. Within 30 ft. Point Blank Shot gives +5 to hit for 1d6+1.",
+                "Darkness (Sp), 1/day at CL 1 from character level. Standard action, touch one object. Shadowy illumination in a 20-ft. radius for 10 minutes, dismissible. Creatures in the area have concealment (20% miss chance), even against darkvision, including the Tiefling’s own. A lightproof cover over the object blocks the effect until removed."
+              ],
+              "tactics": "Sella checks the floodgate for a trap and picks the lock if the gate is safe. If the party needs to retreat, she uses darkness on a copper token and leaves it at the bend. She looks for sneak attacks where the target has no concealment. A lightproof pouch can cover the token before the duration ends."
+            },
+            "role": "Lockhouse runner and Rogue.",
+            "motive": "Reopen the floodgate without springing the trap.",
+            "hook": "Sella has a copper marker for the crossing and can check the lock."
+          },
+          {
+            "species": "Tiefling",
+            "size": "Medium",
+            "edition": "3.5 edition",
+            "speciesPublication": "Planar Handbook (2004)",
+            "name": "Verren Vale",
+            "build": {
+              "origin": "Original DM Library NPC",
+              "editions": [
+                "3.5 edition"
+              ],
+              "difficulty": "Provisional CR 2. ECL 2 (1 class HD, LA +1).",
+              "size": "Medium",
+              "type": "Outsider (Native)",
+              "senses": "Darkvision 60 ft.",
+              "speed": "30 ft.",
+              "id": "tiefling-vale-smokeway-guard-35e",
+              "title": "Tiefling smokeway guard, Fighter 1",
+              "ac": 17,
+              "hp": 12,
+              "hitDice": "1d10+2",
+              "initiative": 2,
+              "languages": "Common, Infernal, Dwarven, Orc",
+              "abilityScores": {
+                "STR": 16,
+                "DEX": 14,
+                "CON": 14,
+                "INT": 14,
+                "WIS": 10,
+                "CHA": 8
+              },
+              "skills": [
+                "Bluff +1",
+                "Climb +4",
+                "Hide +1",
+                "Jump +4",
+                "Ride +6",
+                "Swim +1"
+              ],
+              "traits": [
+                "Neutral good. Material Plane. Chain shirt +4, light wooden shield +1, Dexterity +2. Touch 12, flat-footed 15. Total armor check penalty −3. BAB +1, grapple +4. Fortitude +4, Reflex +2, Will +0.",
+                "Cold resistance 5, electricity resistance 5, and fire resistance 5.",
+                "Weapon Focus (longsword) is the Fighter bonus feat. When a melee attack misses because of concealment, Blind-Fight lets Verren reroll the miss chance once. His ranged attacks gain no reroll."
+              ],
+              "actions": [
+                "Longsword +5 melee, 1d8+3 slashing, critical 19–20/×2. Javelin +3 ranged, 1d6+3 piercing, critical ×2, range increment 30 ft.",
+                "Darkness (Sp), 1/day at CL 1 from character level. Standard action, touch one object. Shadowy illumination in a 20-ft. radius for 10 minutes, dismissible. Creatures in the area have concealment (20% miss chance), even against darkvision, including the Tiefling’s own. A lightproof cover over the object blocks the effect until removed."
+              ],
+              "tactics": "Verren guides the last workers to the cross-passage and holds the gate. He can put darkness on the gate latch when a pursuer enters the straight passage. He stays close enough to use his longsword and applies his Blind-Fight reroll only to a melee miss caused by concealment."
+            },
+            "role": "Smokeway guard and Fighter.",
+            "motive": "Hold the gate long enough for the workers to clear the passage.",
+            "hook": "Verren needs someone to lead the last workers to the cross-passage."
+          }
+        ]
+      }
+    ],
+    "npcs": [
+      {
+        "species": "Tiefling",
+        "size": "Medium",
+        "edition": "3.5 edition",
+        "speciesPublication": "Planar Handbook (2004)",
+        "name": "Sella Cinderlock",
+        "build": {
+          "origin": "Original DM Library NPC",
+          "editions": [
+            "3.5 edition"
+          ],
+          "difficulty": "Provisional CR 2. ECL 2 (1 class HD, LA +1).",
+          "size": "Medium",
+          "type": "Outsider (Native)",
+          "senses": "Darkvision 60 ft.",
+          "speed": "30 ft.",
+          "id": "tiefling-cinderlock-lockhouse-runner-35e",
+          "title": "Tiefling lockhouse runner, Rogue 1",
+          "ac": 16,
+          "hp": 8,
+          "hitDice": "1d6+2",
+          "initiative": 4,
+          "languages": "Common, Infernal, Draconic, Dwarven, Elven",
+          "abilityScores": {
+            "STR": 12,
+            "DEX": 18,
+            "CON": 14,
+            "INT": 16,
+            "WIS": 10,
+            "CHA": 8
+          },
+          "skills": [
+            "Balance +8",
+            "Bluff +5",
+            "Disable Device +7",
+            "Hide +10",
+            "Listen +4",
+            "Move Silently +8",
+            "Open Lock +8",
+            "Search +7",
+            "Sense Motive +4",
+            "Spot +4",
+            "Tumble +8"
+          ],
+          "traits": [
+            "Neutral good. Material Plane. Leather armor +2 and Dexterity +4. Touch 14, flat-footed 12. BAB +0, grapple +1. Fortitude +2, Reflex +6, Will +0.",
+            "Cold resistance 5, electricity resistance 5, and fire resistance 5.",
+            "Trapfinding. Sneak attack +1d6 when a target is denied Dexterity bonus to AC or when Sella flanks it. Ranged sneak attack requires a target within 30 ft. A target with concealment cannot be sneak attacked."
+          ],
+          "actions": [
+            "Rapier +1 melee, 1d6+1 piercing, critical 18–20/×2. Shortbow +4 ranged, 1d6 piercing, critical ×3, range increment 60 ft. Within 30 ft. Point Blank Shot gives +5 to hit for 1d6+1.",
+            "Darkness (Sp), 1/day at CL 1 from character level. Standard action, touch one object. Shadowy illumination in a 20-ft. radius for 10 minutes, dismissible. Creatures in the area have concealment (20% miss chance), even against darkvision, including the Tiefling’s own. A lightproof cover over the object blocks the effect until removed."
+          ],
+          "tactics": "Sella checks the floodgate for a trap and picks the lock if the gate is safe. If the party needs to retreat, she uses darkness on a copper token and leaves it at the bend. She looks for sneak attacks where the target has no concealment. A lightproof pouch can cover the token before the duration ends."
+        },
+        "role": "Lockhouse runner and Rogue.",
+        "motive": "Reopen the floodgate without springing the trap.",
+        "hook": "Sella has a copper marker for the crossing and can check the lock."
+      },
+      {
+        "species": "Tiefling",
+        "size": "Medium",
+        "edition": "3.5 edition",
+        "speciesPublication": "Planar Handbook (2004)",
+        "name": "Verren Vale",
+        "build": {
+          "origin": "Original DM Library NPC",
+          "editions": [
+            "3.5 edition"
+          ],
+          "difficulty": "Provisional CR 2. ECL 2 (1 class HD, LA +1).",
+          "size": "Medium",
+          "type": "Outsider (Native)",
+          "senses": "Darkvision 60 ft.",
+          "speed": "30 ft.",
+          "id": "tiefling-vale-smokeway-guard-35e",
+          "title": "Tiefling smokeway guard, Fighter 1",
+          "ac": 17,
+          "hp": 12,
+          "hitDice": "1d10+2",
+          "initiative": 2,
+          "languages": "Common, Infernal, Dwarven, Orc",
+          "abilityScores": {
+            "STR": 16,
+            "DEX": 14,
+            "CON": 14,
+            "INT": 14,
+            "WIS": 10,
+            "CHA": 8
+          },
+          "skills": [
+            "Bluff +1",
+            "Climb +4",
+            "Hide +1",
+            "Jump +4",
+            "Ride +6",
+            "Swim +1"
+          ],
+          "traits": [
+            "Neutral good. Material Plane. Chain shirt +4, light wooden shield +1, Dexterity +2. Touch 12, flat-footed 15. Total armor check penalty −3. BAB +1, grapple +4. Fortitude +4, Reflex +2, Will +0.",
+            "Cold resistance 5, electricity resistance 5, and fire resistance 5.",
+            "Weapon Focus (longsword) is the Fighter bonus feat. When a melee attack misses because of concealment, Blind-Fight lets Verren reroll the miss chance once. His ranged attacks gain no reroll."
+          ],
+          "actions": [
+            "Longsword +5 melee, 1d8+3 slashing, critical 19–20/×2. Javelin +3 ranged, 1d6+3 piercing, critical ×2, range increment 30 ft.",
+            "Darkness (Sp), 1/day at CL 1 from character level. Standard action, touch one object. Shadowy illumination in a 20-ft. radius for 10 minutes, dismissible. Creatures in the area have concealment (20% miss chance), even against darkvision, including the Tiefling’s own. A lightproof cover over the object blocks the effect until removed."
+          ],
+          "tactics": "Verren guides the last workers to the cross-passage and holds the gate. He can put darkness on the gate latch when a pursuer enters the straight passage. He stays close enough to use his longsword and applies his Blind-Fight reroll only to a melee miss caused by concealment."
+        },
+        "role": "Smokeway guard and Fighter.",
+        "motive": "Hold the gate long enough for the workers to clear the passage.",
+        "hook": "Verren needs someone to lead the last workers to the cross-passage."
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "commit": "aa8e37dbe6f146c44e80bdd9b0576ed22315dc79",
+  "encounterVersions": 31,
+  "matchedPublishedVersions": 27,
+  "separatePlaytestVersions": 4,
+  "distinctCreatures": 26,
+  "generatedPortraitsInstalled": 22,
+  "draftsBackedUp": 24,
+  "allRecentVersionsWithGeneratedPortrait": 381,
+  "remainingRecentPortraits": 0,
+  "visualComparison": "output/dm-library/review/encounters-08-before-after.jpg",
+  "rulesComparison": "output/dm-library/review/encounters-08-piercer-before-after.jpg"
+}

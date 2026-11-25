@@ -1,0 +1,133 @@
+[
+  {
+    "name": "Illumian",
+    "kind": "species",
+    "group": "3.5 edition",
+    "global": true,
+    "version": {
+      "key": "993088a2fa1e1d57476b6cf8",
+      "publication": "Races of Destiny (2004)",
+      "edition": "3.5 edition",
+      "source": "https://openlibrary.org/books/OL8144441M",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Humanoid (Human)"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Medium Humanoid with the Human subtype. Base land speed 30 ft. The entry lists no ability adjustments, racial Hit Dice, or level adjustment.",
+            "Luminous Sigils (Su) orbit the head and give candlelight. Douse them as a standard action to suspend power sigil bonuses and word abilities. Restore them as a free action.",
+            "Sigils are insubstantial and disappear into matter they touch. A change of form keeps the sigils if the new form preserves the Illumian’s supernatural abilities.",
+            "Glyphic Resonance (Ex) applies when a spell’s name includes glyph, rune, sigil, or symbol. If the Illumian’s character level is below the spell’s caster level, take a −4 racial penalty on its saves. At or above that caster level, gain immunity to the spell.",
+            "Power Sigils (Su) grant one choice at 1st level for a +1 bonus. The rule gives a second distinct sigil at 2nd level in any class, raising both bonuses to +2. The printed Bard 1/Fighter 1 example has two +2 sigils at character level 2. Spot DC 10 distinguishes a power sigil and Knowledge (arcana) DC 15 identifies it.",
+            "Aesh adds to Strength checks and Strength-based skill checks. Hoon adds to Constitution and Wisdom checks and skills based on either ability. Naen adds to Intelligence checks and Intelligence-based skill checks.",
+            "Uur adds to Dexterity checks and Dexterity-based skill checks. Vaul adds to Charisma checks and Charisma-based skill checks. Krau adds to caster level for spells and spell-like abilities, capped at character level.",
+            "Illumian Words (Su) come from combining two power sigils. When a word calls for an unprepared spell slot, a slot that holds a prepared spell is ineligible.",
+            "Aeshkrau and Uurkrau allow Strength and Dexterity respectively to determine bonus spells for a high ability score in any or all of the Illumian’s spellcasting classes.",
+            "Aeshoon spends a turn or rebuke attempt as a swift action, twice per day, to add the Wisdom bonus to damage with Weapon Focus weapons until the next turn begins.",
+            "Aeshuur grants a +2 dodge bonus to AC against a target damaged by the Illumian’s sneak attack or critical hit, until the Illumian’s next turn begins.",
+            "Hoonkrau uses a swift action and a turn attempt to add 1d8 healing to cure spells, or a rebuke attempt to add 1d8 damage to inflict spells. The effect lasts through the end of the next turn. Use twice per day.",
+            "Hoonvaul spends a spell slot as a swift action, twice per day, to add its level to turning checks and turning damage and to a smite attack’s attack and damage rolls until the next turn begins.",
+            "Naenaesh can leave up to two slots empty during preparation. Until the next preparation, those slots stay empty and other spells prepared at their levels can be cast with Still Spell.",
+            "Naenhoon uses a swift action, twice per day, to apply a metamagic feat the Illumian has. Spend turn or rebuke attempts equal to the feat’s level adjustment. Casting time and the slot used stay the same. Heighten costs one turn attempt per level added, up to spell level 9.",
+            "Naenkrau can leave up to two slots empty during preparation, at different levels if choosing two. Other spells of those levels gain +1 to their save DC, including spells from other classes. The slots stay empty and the bonus lasts until next preparation.",
+            "Uurhoon spends a slot as a swift action, twice per day. For one minute per slot level, apply the Wisdom bonus as an insight bonus to Reflex saves and the Dexterity bonus as an insight bonus to caster level checks against spell resistance.",
+            "Uurnaen can leave one 1st- or 2nd-level slot empty during preparation. Until next preparation, the slot stays empty and its level gives an insight bonus on attack rolls for unarmed strikes and sneak attacks.",
+            "Vaulaesh spends a slot as a swift action, twice per day. Its level is an insight bonus to AC and to Weapon Focus weapon damage until the Illumian’s next turn begins.",
+            "Vaulkrau spends a slot as an immediate action, twice per day. Its level is an insight bonus on the next save made before the Illumian’s next turn begins.",
+            "Vaulnaen uses an available slot twice per day to cast any prepared spell of the same level spontaneously, at the caster level of the class that prepared it.",
+            "Vauluur spends a slot as a swift action, twice per day, to add 1d6 per slot level to unarmed strike damage and sneak attack damage until the Illumian’s next turn begins.",
+            "Final Utterance (Ex) releases audible Illumian syllables at death for 1 round per Hit Die, even if the body is destroyed. Anyone within earshot can hear it.",
+            "+2 racial bonus on saves against spells with the shadow descriptor.",
+            "Superior Literacy means every Illumian is literate and Speak Language is always a class skill. Common and Illumian are automatic. Any nonsecret language may be taken as a bonus language.",
+            "Favored class Any. Exclude the highest class when figuring multiclass XP penalties. An Illumian monk or paladin can return to that class after multiclassing."
+          ]
+        },
+        {
+          "title": "Original NPC · Glassweir Eshara",
+          "lines": [
+            "Lock surveyor and Rogue.",
+            "Motive. Map the bypass gate before the weighmaster orders the chamber flooded.",
+            "Hook. Eshara can open the bypass hatch if the party prevents the inspection winch from moving.",
+            "Illumian lock surveyor, Rogue 2 · Provisional CR 2. ECL 2. · Medium Humanoid (Human)",
+            "AC 14 · HP 12 (2d6+2) · Speed 30 ft."
+          ]
+        },
+        {
+          "title": "Original NPC · Latchwater Veyric",
+          "lines": [
+            "Inscription reader and Wizard.",
+            "Motive. Recover a missing rubbing of an inscribed threshold before the crew tries to clear it.",
+            "Hook. Veyric can examine the rubbing from the far side of the threshold and tell the party which mark the crew covered.",
+            "Illumian inscription reader, Wizard 1 · Provisional CR 1. ECL 1. · Medium Humanoid (Human)",
+            "AC 11 · HP 5 (1d4+1) · Speed 30 ft."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Glassweir Eshara": [
+          {
+            "start": 15,
+            "end": 31,
+            "target": {
+              "name": "Glassweir Eshara",
+              "group": "Illumian",
+              "publication": "Illumian lock surveyor, Rogue 2",
+              "local": {
+                "entry": "npc-68335b444ceb411787569df5",
+                "version": "3ee2ec38ade376d8350be0c7"
+              }
+            }
+          }
+        ],
+        "Original NPC · Latchwater Veyric": [
+          {
+            "start": 15,
+            "end": 32,
+            "target": {
+              "name": "Latchwater Veyric",
+              "group": "Illumian",
+              "publication": "Illumian inscription reader, Wizard 1",
+              "local": {
+                "entry": "npc-90b7a5c094e78e295df9cb67",
+                "version": "d51101ba540e7a5a9e0582cd"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Illumian": true,
+      "illumian glyphic resonance": true,
+      "illumian power sigils": true,
+      "illumian aeshuur": true,
+      "illumian final utterance": true,
+      "illumian lock surveyor": true,
+      "illumian inscription reader": true
+    },
+    "hash": "64c517fa48b467d7ad1b184a895ed90222dd1036daf1f780f17a877e4d26e953",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Races of Destiny (2004)",
+    "defaultVersionKey": "993088a2fa1e1d57476b6cf8",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  }
+]

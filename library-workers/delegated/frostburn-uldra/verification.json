@@ -1,0 +1,24 @@
+{
+  "baseline": "8513e27da39c44422ef512b799fed29efd1cf938",
+  "temporaryCopy": true,
+  "priorStagedPatchesCompatibilityVerified": true,
+  "playableSpecies": 1,
+  "edition": "3.5 edition",
+  "names": [
+    "Uldra"
+  ],
+  "selectableProfiles": 1,
+  "publication": "Frostburn (2004)",
+  "coldEnvironmentFrostyTouchAndSpellLikeAbilitiesVerified": true,
+  "defaultVersionBefore": null,
+  "defaultVersionAfter": "Frostburn (2004)",
+  "listThumbnailChanged": true,
+  "sourceTraitsDisplayed": 1,
+  "searchableByTraitAndNpcRole": 1,
+  "originalRunnableNpcBuilds": 2,
+  "fullBuildsReturnedByEncounterAndNpcsCommands": true,
+  "npcBuildsScopedByPublication": true,
+  "existingPlayableSpeciesAndNpcConceptsPreserved": true,
+  "distinctPortraitFiles": 1,
+  "versionPortraitsVerified": 1
+}

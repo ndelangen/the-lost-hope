@@ -1,0 +1,217 @@
+[
+  {
+    "name": "Batracine",
+    "edition": "AD&D 2nd edition",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "kind": "beast",
+    "publisher": "TSR, Inc.",
+    "printing": "TSR 2524, ©1996. June 2006 version 1.0.",
+    "sourceUrl": "",
+    "url": "",
+    "localPrintWitness": " - 2nd Edition/Rules/Savage Coast Monstrous Compendium ",
+    "localPrintSha256": "23842cf99946ca1fe98c367774e290075fab1ac757c15dbe9985a34daf9f17ac",
+    "sourceSha256": "23842cf99946ca1fe98c367774e290075fab1ac757c15dbe9985a34daf9f17ac",
+    "printedPages": [
+      14,
+      15
+    ],
+    "viewerPages": [
+      15,
+      16
+    ],
+    "section": "Batracine",
+    "hpEvidence": "The stat block has no fixed HP. Printed p. 4 explains the d8 Hit Dice convention.",
+    "habitatEvidence": "The printed Climate/Terrain line and Habitat/Society prose supply these habitat tags.",
+    "appearanceEvidence": "The printed description and illustration supply the creature’s anatomy. The original portrait chooses the pose and painting treatment.",
+    "mechanicsNotes": [
+      "Bite’s 1d4 is the only attack damage listed. The tongue description does not specify a separate roll or combat condition.",
+      "Leap distance uses 2 Hit Dice rather than the +2 HP bonus."
+    ],
+    "artGroup": "batracine",
+    "relatedRules": [
+      {
+        "section": "Monster Legacies and Leap",
+        "printedPages": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "sourceUrl": ""
+      },
+      {
+        "section": "Parasite, Cardinal Tick",
+        "printedPages": [
+          85
+        ],
+        "sourceUrl": ""
+      }
+    ]
+  },
+  {
+    "name": "Caniquine",
+    "edition": "AD&D 2nd edition",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "kind": "beast",
+    "publisher": "TSR, Inc.",
+    "printing": "TSR 2524, ©1996. June 2006 version 1.0.",
+    "sourceUrl": "",
+    "url": "",
+    "localPrintWitness": " - 2nd Edition/Rules/Savage Coast Monstrous Compendium ",
+    "localPrintSha256": "23842cf99946ca1fe98c367774e290075fab1ac757c15dbe9985a34daf9f17ac",
+    "sourceSha256": "23842cf99946ca1fe98c367774e290075fab1ac757c15dbe9985a34daf9f17ac",
+    "printedPages": [
+      15,
+      16
+    ],
+    "viewerPages": [
+      16,
+      17
+    ],
+    "section": "Caniquine",
+    "hpEvidence": "The stat block has no fixed HP. Printed p. 4 explains the d8 Hit Dice convention.",
+    "habitatEvidence": "The printed Climate/Terrain line and Habitat/Society prose supply these habitat tags.",
+    "appearanceEvidence": "The printed description and illustration supply the creature’s anatomy. The original portrait chooses the pose and painting treatment.",
+    "mechanicsNotes": [
+      "The kick is an extra trained-mount option, with a stationary restriction and a signal requirement if combined with bite.",
+      "Base XP 270. With a Legacy, 420 XP."
+    ],
+    "artGroup": "caniquine",
+    "relatedRules": [
+      {
+        "section": "Monster Legacies and example powers",
+        "printedPages": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "sourceUrl": ""
+      }
+    ]
+  },
+  {
+    "name": "Cinnavixen",
+    "edition": "AD&D 2nd edition",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "kind": "beast",
+    "publisher": "TSR, Inc.",
+    "printing": "TSR 2524, ©1996. June 2006 version 1.0.",
+    "sourceUrl": "",
+    "url": "",
+    "localPrintWitness": " - 2nd Edition/Rules/Savage Coast Monstrous Compendium ",
+    "localPrintSha256": "23842cf99946ca1fe98c367774e290075fab1ac757c15dbe9985a34daf9f17ac",
+    "sourceSha256": "23842cf99946ca1fe98c367774e290075fab1ac757c15dbe9985a34daf9f17ac",
+    "printedPages": [
+      17,
+      18
+    ],
+    "viewerPages": [
+      18,
+      19
+    ],
+    "section": "Cinnavixen",
+    "hpEvidence": "The stat block has no fixed HP. Printed p. 4 explains the d8 Hit Dice convention.",
+    "habitatEvidence": "The printed Climate/Terrain line and Habitat/Society prose supply these habitat tags.",
+    "appearanceEvidence": "The printed description and illustration supply the creature’s anatomy. The original portrait chooses the pose and painting treatment.",
+    "mechanicsNotes": [
+      "The printed bleed rate is 1 HP per round per bite. Pressure must stay in place through more than 24 hours of bandaging.",
+      "Bite infection chance and the separate parasite saving-throw procedure are each preserved. The source does not explicitly specify their interaction."
+    ],
+    "artGroup": "cinnavixen",
+    "relatedRules": [
+      {
+        "section": "Parasite, Cardinal Tick and Vermilia",
+        "printedPages": [
+          85,
+          86
+        ],
+        "sourceUrl": ""
+      }
+    ]
+  },
+  {
+    "name": "Echyan",
+    "edition": "AD&D 2nd edition",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "kind": "beast",
+    "publisher": "TSR, Inc.",
+    "printing": "TSR 2524, ©1996. June 2006 version 1.0.",
+    "sourceUrl": "",
+    "url": "",
+    "localPrintWitness": " - 2nd Edition/Rules/Savage Coast Monstrous Compendium ",
+    "localPrintSha256": "23842cf99946ca1fe98c367774e290075fab1ac757c15dbe9985a34daf9f17ac",
+    "sourceSha256": "23842cf99946ca1fe98c367774e290075fab1ac757c15dbe9985a34daf9f17ac",
+    "printedPages": [
+      26
+    ],
+    "viewerPages": [
+      27
+    ],
+    "section": "Echyan",
+    "hpEvidence": "The stat block has no fixed HP. Printed p. 4 explains the d8 Hit Dice convention.",
+    "habitatEvidence": "The printed Climate/Terrain line and Habitat/Society prose supply these habitat tags.",
+    "appearanceEvidence": "The printed description and illustration supply the creature’s anatomy. The original portrait chooses the pose and painting treatment.",
+    "mechanicsNotes": [
+      "The source does not define the condition for AC 10.",
+      "The recurring attached damage is separate from the unspecified Swallow Whole resolution.",
+      "Base XP 1,400. With a Legacy, 2,000 XP."
+    ],
+    "artGroup": "echyan",
+    "relatedRules": [
+      {
+        "section": "Monster Legacies",
+        "printedPages": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "sourceUrl": ""
+      }
+    ]
+  },
+  {
+    "name": "Feliquine",
+    "edition": "AD&D 2nd edition",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "kind": "beast",
+    "publisher": "TSR, Inc.",
+    "printing": "TSR 2524, ©1996. June 2006 version 1.0.",
+    "sourceUrl": "",
+    "url": "",
+    "localPrintWitness": " - 2nd Edition/Rules/Savage Coast Monstrous Compendium ",
+    "localPrintSha256": "23842cf99946ca1fe98c367774e290075fab1ac757c15dbe9985a34daf9f17ac",
+    "sourceSha256": "23842cf99946ca1fe98c367774e290075fab1ac757c15dbe9985a34daf9f17ac",
+    "printedPages": [
+      32,
+      33
+    ],
+    "viewerPages": [
+      33,
+      34
+    ],
+    "section": "Feliquine",
+    "hpEvidence": "The stat block has no fixed HP. Printed p. 4 explains the d8 Hit Dice convention.",
+    "habitatEvidence": "The printed Climate/Terrain line and Habitat/Society prose supply these habitat tags.",
+    "appearanceEvidence": "The printed description and illustration supply the creature’s anatomy. The original portrait chooses the pose and painting treatment.",
+    "mechanicsNotes": [
+      "The entry gives THAC0 15 explicitly.",
+      "A hind-leg kick rules out front claw attacks in its round. The kick text does not bar a bite or require a rider signal.",
+      "Base XP 270. With a Legacy, 420 XP."
+    ],
+    "artGroup": "feliquine",
+    "relatedRules": [
+      {
+        "section": "Monster Legacies",
+        "printedPages": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "sourceUrl": ""
+      }
+    ]
+  }
+]

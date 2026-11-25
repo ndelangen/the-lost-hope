@@ -1,0 +1,219 @@
+[
+  {
+    "name": "Riding Horse",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 10,
+    "hp": 13,
+    "hitDice": "2d10 + 2",
+    "speed": "60 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Passive Perception 10. No listed skills, special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A mature light-bay horse with a sturdy build, black mane and tail, dark lower legs and a small pale forehead star.",
+    "habitats": [
+      "Grassland",
+      "Pastures",
+      "Stables",
+      "Roads",
+      "Settlements"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Basic Rules (2018), Chapter 12, Monsters, printed p. 151. ",
+      "Actions": "Hooves. Melee weapon attack, +5 to hit, 5-ft. reach, one target. A hit deals 8 (2d4 + 3) bludgeoning damage.",
+      "At the table": "A rider controlling the mount limits its action options to Dash, Disengage and Dodge. An independent mount acts on its own initiative and can use its listed attacks."
+    }
+  },
+  {
+    "name": "Riding Horse",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 10,
+    "hp": 13,
+    "hitDice": "2d10 + 2",
+    "speed": "60 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Passive Perception 10. No listed skills, special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A mature light-bay horse with a sturdy build, black mane and tail, dark lower legs and a small pale forehead star.",
+    "habitats": [
+      "Grassland",
+      "Pastures",
+      "Stables",
+      "Roads",
+      "Settlements"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), Appendix A, Miscellaneous Creatures, printed p. 336. https://online.anyflip.com/pqhqn/sezy/files/basic-html/page337.html Official errata v2.0 corrects Hooves from +2 to +5 to hit. ",
+      "Actions": "Hooves. Melee weapon attack, +5 to hit, 5-ft. reach, one target. A hit deals 8 (2d4 + 3) bludgeoning damage.",
+      "At the table": "A rider controlling the mount limits its action options to Dash, Disengage and Dodge. An independent mount acts on its own initiative and can use its listed attacks."
+    }
+  },
+  {
+    "name": "Warhorse",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 11,
+    "hp": 19,
+    "hitDice": "3d10 + 3",
+    "speed": "60 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "abilities": {
+      "Str": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Passive Perception 11. No listed skills, special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A mature light-bay horse with a sturdy build, black mane and tail, dark lower legs and a small pale forehead star.",
+    "habitats": [
+      "Stables",
+      "Training grounds",
+      "Military camps",
+      "Battlefields"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Basic Rules (2018), Chapter 12, Monsters, printed p. 157. ",
+      "Traits": "Trampling Charge. If the horse goes at least 20 ft. straight toward a creature and hits it with Hooves on the same turn, the creature makes a DC 14 Strength save or falls prone. If the target is prone, the horse can make another Hooves attack against it as a bonus action.",
+      "Actions": "Hooves. Melee weapon attack, +6 to hit, 5-ft. reach, one target. A hit deals 11 (2d6 + 4) bludgeoning damage.",
+      "At the table": "A rider controlling the mount limits its action options to Dash, Disengage and Dodge. An independent mount acts on its own initiative and can use its listed attacks."
+    }
+  },
+  {
+    "name": "Warhorse",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 11,
+    "hp": 19,
+    "hitDice": "3d10 + 3",
+    "speed": "60 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "abilities": {
+      "Str": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Passive Perception 11. No listed skills, special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A mature light-bay horse with a sturdy build, black mane and tail, dark lower legs and a small pale forehead star.",
+    "habitats": [
+      "Stables",
+      "Training grounds",
+      "Military camps",
+      "Battlefields"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), Appendix A, Miscellaneous Creatures, printed p. 340. https://online.anyflip.com/pqhqn/sezy/files/basic-html/page341.html Official errata v2.0 corrects Hooves from +4 to +6 to hit. ",
+      "Traits": "Trampling Charge. If the horse goes at least 20 ft. straight toward a creature and hits it with Hooves on the same turn, the creature makes a DC 14 Strength save or falls prone. If the target is prone, the horse can make another Hooves attack against it as a bonus action.",
+      "Actions": "Hooves. Melee weapon attack, +6 to hit, 5-ft. reach, one target. A hit deals 11 (2d6 + 4) bludgeoning damage.",
+      "Warhorse Armor": "The Monster Manual lists warhorse AC 12 in leather, 13 in studded leather, 14 in ring mail, 15 in scale mail, 16 in chain mail, 17 in splint and 18 in plate. These numbers include the Dexterity modifier where applicable. Barding leaves the warhorse at CR 1/2.",
+      "At the table": "A rider controlling the mount limits its action options to Dash, Disengage and Dodge. An independent mount acts on its own initiative and can use its listed attacks."
+    }
+  }
+]

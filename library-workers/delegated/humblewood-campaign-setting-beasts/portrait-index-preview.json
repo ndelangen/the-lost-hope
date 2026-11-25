@@ -1,0 +1,42 @@
+[
+  {
+    "entry": "beast-290e0eed3ece195969b5d786",
+    "version": "3276a246f495bf5a87f4d081",
+    "name": "Emberbat",
+    "file": "images/humblewood-campaign-setting/emberbat.png",
+    "sha256": "43a3071cd52b0902129bf274b7463ae666b0126e606a866aca5bfe0613111b6a",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-8533e66c279f31df25f221e4",
+    "version": "38cced9d47071c2f27a47a5f",
+    "name": "Swarm of Emberbats",
+    "file": "images/beasts/swarm-of-emberbats/parchment-portrait.webp",
+    "sha256": "cadd4320db049b7b873199eef3d291c0d40c57043547f79e0423f3d3cfdc0978",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-6cdadee98f2f89e12d67c959",
+    "version": "b634b65777f1a2771b08b77a",
+    "name": "Forest Prowler",
+    "file": "images/humblewood-campaign-setting/forest-prowler.png",
+    "sha256": "1c380787e815f435ddab9496ba60256246c69cd8435345fc001d5a14d595f831",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-6e6b8dad0c23e50776ef8d91",
+    "version": "2ffafcce5713f0627d4fb294",
+    "name": "Mountain Lion",
+    "file": "images/humblewood-campaign-setting/mountain-lion.png",
+    "sha256": "3a90c25c404fd00883b4de6af3f87a12a50d9fc962694229a7dfd3ed4795d43c",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-332e587050a0c943d6c5baae",
+    "version": "b19b19a360caac61465984d1",
+    "name": "Wakewyrm",
+    "file": "images/humblewood-campaign-setting/wakewyrm.png",
+    "sha256": "509e63f8dd3a4b805f2bffabbd37e97342820abd33ac36010eef08b267aeb20d",
+    "credit": "OpenAI ImageGen"
+  }
+]

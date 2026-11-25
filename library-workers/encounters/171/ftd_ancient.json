@@ -1,0 +1,402 @@
+[
+  {
+    "name": "Amethyst Dragon Wyrmling",
+    "statBlock": {
+      "name": "Amethyst Dragon Wyrmling",
+      "publication": "Fizban's Treasury of Dragons",
+      "edition": "2014 fifth edition",
+      "printedPage": 162,
+      "classification": "Medium dragon (gem), typically neutral",
+      "ac": 17,
+      "hp": 75,
+      "hitDice": "10d8 + 30",
+      "speed": "30 ft., fly 60 ft. (hover), swim 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 17
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 15,
+      "description": "A purple gem dragon whose opaque scales will turn translucent with age. It uses psionics to manipulate gravity and can swim and breathe underwater.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Arcana": 7,
+        "Perception": 5,
+        "Persuasion": 5,
+        "Stealth": 2
+      },
+      "savingThrows": {
+        "Dex": 2,
+        "Con": 5,
+        "Wis": 3,
+        "Cha": 5
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Force, psychic.",
+        "Condition immunities": "Frightened, prone.",
+        "Senses": "Blindsight 10 ft., darkvision 120 ft.",
+        "Languages": "Draconic, telepathy 120 ft..",
+        "Traits": "Amphibious. The dragon breathes air and water.",
+        "Actions": "Bite. Melee weapon attack, +6 to hit, reach 5 ft., one target. On a hit, deal 9 (1d10 + 4) piercing damage plus 4 (1d8) force damage.\nSingularity Breath (Recharge 5–6). Each creature in a 15-ft. cone makes a DC 13 Strength save. Failure deals 22 (5d8) force damage and sets the creature's speed to 0 until the start of the dragon's next turn. Success halves the damage and preserves movement.",
+        "Optional dragon customization": "Adjust languages, skills or tool proficiencies to suit the individual dragon. Double selected skill proficiency bonuses where appropriate.\nSpellcasting. The Monster Manual's optional innate casting rule grants a number of spells equal to the dragon's Charisma modifier (minimum one). Each is usable once per day without material components. A spell's level cannot exceed one-third of the dragon's challenge rating rounded down. Use Charisma for spell save DC and spell attack rolls. Consider increasing CR for stronger spells that deal damage or impose conditions.\nOther traits. Consider giving a younger dragon the Change Shape action, granting Flyby or Mimicry, or binding the dragon's essence to an object so it can return after destruction. You can upgrade blindsight to truesight or grant a burrower tremorsense or Tunneler. One example of damage absorption lets a fire-immune dragon recover HP from fire.",
+        "Spellcasting (Psionics)": "As an action, the dragon casts one listed spell using Intelligence (save DC 13) without components.\n1/day each. Protection from Evil and Good, Tenser's Floating Disk, Unseen Servant.",
+        "Optional young lair guidance": "The DM may give a wyrmling reduced regional effects or lair actions despite its age. Consider a smaller area and lower DCs. Regional effects have no effect on CR; adding lair actions to a dragon without legendary actions can raise CR by 1 or more. See p. 65.",
+        "Printed source": "Fizban's Treasury of Dragons, p. 162. Dragon customization on p. 34."
+      }
+    }
+  },
+  {
+    "name": "Amethyst Greatwyrm",
+    "statBlock": {
+      "name": "Amethyst Greatwyrm",
+      "publication": "Fizban's Treasury of Dragons",
+      "edition": "2014 fifth edition",
+      "printedPage": 201,
+      "classification": "Gargantuan dragon (gem), typically neutral",
+      "ac": 21,
+      "hp": 507,
+      "hitDice": "26d20 + 234",
+      "speed": "60 ft., burrow 60 ft., fly 120 ft. (hover), swim 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 28
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 29
+        },
+        "Int": {
+          "score": 30
+        },
+        "Wis": {
+          "score": 24
+        },
+        "Cha": {
+          "score": 25
+        }
+      },
+      "cr": "26",
+      "xp": 90000,
+      "passivePerception": 25,
+      "description": "A gem dragon whose echoes across the Material Plane have grown into a single being of immense psionic power. Its jaw, claws and breath channel crushing force.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Arcana": 26,
+        "History": 18,
+        "Perception": 15
+      },
+      "savingThrows": {
+        "Dex": 10,
+        "Con": 17,
+        "Wis": 15,
+        "Cha": 15
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage immunities": "Force.",
+        "Condition immunities": "Charmed, frightened, poisoned, prone.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Common, Draconic.",
+        "Traits": "Gem Awakening (recharges after a short or long rest). When the greatwyrm would fall to 0 HP, set it to 400 HP instead, recharge its Breath Weapon, and restore all uses of Legendary Resistance. Mass Telekinesis is available for the next hour. Defeating the greatwyrm after this happens awards 90,000 extra XP (180,000 total).\nLegendary Resistance (4/day). The greatwyrm can turn a failed save into a success.\nUnusual Nature. The greatwyrm requires no food or drink.",
+        "Actions": "Multiattack. Make one Bite attack and two Claw attacks.\nBite. Melee weapon attack, +17 to hit, reach 15 ft., one target. On a hit, deal 20 (2d10 + 9) piercing damage plus 16 (3d10) force damage.\nClaw. Melee weapon attack, +17 to hit, reach 10 ft., one target. On a hit, deal 18 (2d8 + 9) slashing damage. A Huge or smaller creature hit is grappled (escape DC 19) and restrained until the grapple ends. Only one creature can be grappled in this way at a time.\nBreath Weapon (Recharge 5–6). Each creature in a 300-ft. cone makes a DC 25 Dexterity save. Failure deals 71 (11d12) force damage and knocks the target prone. Success halves the damage and avoids falling prone. Either way, speed becomes 0 until the end of the creature's next turn.\nMass Telekinesis (Gem Awakening only, recharges after a short or long rest). Choose any number of visible creatures and unattended objects within 120 ft. that each weigh at most 4,000 lb. Each creature makes a DC 26 Strength save or is restrained. At the end of each of its turns, it can repeat the save to break free. At the end of the greatwyrm's turn, it can move each held creature or object up to 60 ft. in any direction within its 120-ft. range. It can also deal 45 (7d12) force damage to any number of creatures restrained by the grip.",
+        "Bonus actions": "Change Shape. Magically assume any Small or Medium creature's form while keeping all statistics except size. Return to dragon form at 0 HP or by taking a bonus action.\nPsychic Step. Magically teleport to a visible unoccupied space within 60 ft.",
+        "Legendary actions": "The dragon has 3 legendary actions and regains spent actions at the start of its turn. It can use one option at a time at the end of another creature's turn.\nClaw (1 action). Make one Claw attack.\nPsionics (2 actions). Use Psychic Step or Spellcasting.\nPsychic Beam (3 actions). Each creature in a 90-ft. line 10 ft. wide makes a DC 26 Intelligence save. Failure deals 27 (5d10) psychic damage. Success halves the damage.",
+        "Optional dragon customization": "Adjust languages, skills or tool proficiencies to suit the individual dragon. Double selected skill proficiency bonuses where appropriate.\nSpellcasting. The Monster Manual's optional innate casting rule grants a number of spells equal to the dragon's Charisma modifier (minimum one). Each is usable once per day without material components. A spell's level cannot exceed one-third of the dragon's challenge rating rounded down. Use Charisma for spell save DC and spell attack rolls. Consider increasing CR for stronger spells that deal damage or impose conditions.\nOther traits. Consider giving a younger dragon the Change Shape action, granting Flyby or Mimicry, or binding the dragon's essence to an object so it can return after destruction. You can upgrade blindsight to truesight or grant a burrower tremorsense or Tunneler. One example of damage absorption lets a fire-immune dragon recover HP from fire.",
+        "Spellcasting (Psionics)": "As an action, the greatwyrm casts one listed spell using Intelligence (save DC 26, +18 to hit with spell attacks) without components.\n1/day each. Dispel Magic, Forcecage, Plane Shift, Reverse Gravity, Time Stop.",
+        "Printed source": "Fizban's Treasury of Dragons, p. 201, the amethyst form of the shared Gem Greatwyrm block. Dragon customization on p. 34."
+      }
+    }
+  },
+  {
+    "name": "Ancient Amethyst Dragon",
+    "statBlock": {
+      "name": "Ancient Amethyst Dragon",
+      "publication": "Fizban's Treasury of Dragons",
+      "edition": "2014 fifth edition",
+      "printedPage": 160,
+      "classification": "Gargantuan dragon (gem), typically neutral",
+      "ac": 20,
+      "hp": 444,
+      "hitDice": "24d20 + 192",
+      "speed": "40 ft., fly 80 ft. (hover), swim 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 26
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 27
+        },
+        "Int": {
+          "score": 26
+        },
+        "Wis": {
+          "score": 19
+        },
+        "Cha": {
+          "score": 23
+        }
+      },
+      "cr": "23",
+      "xp": 50000,
+      "passivePerception": 28,
+      "description": "Translucent purple crystals hover behind its head. The dragon studies gravity, planes and distant worlds and often makes a lair in flooded caverns.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Arcana": 22,
+        "Perception": 18,
+        "Persuasion": 13,
+        "Stealth": 9
+      },
+      "savingThrows": {
+        "Dex": 9,
+        "Con": 15,
+        "Wis": 11,
+        "Cha": 13
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Force, psychic.",
+        "Condition immunities": "Frightened, prone.",
+        "Senses": "Blindsight 60 ft., darkvision 120 ft.",
+        "Languages": "Common, Draconic, telepathy 120 ft..",
+        "Traits": "Amphibious. The dragon breathes air and water.\nLegendary Resistance (3/day). The dragon can turn a failed save into a success.",
+        "Actions": "Multiattack. Make one Bite attack and two Claw attacks.\nBite. Melee weapon attack, +15 to hit, reach 15 ft., one target. On a hit, deal 19 (2d10 + 8) piercing damage plus 13 (3d8) force damage.\nClaw. Melee weapon attack, +15 to hit, reach 10 ft., one target. On a hit, deal 15 (2d6 + 8) slashing damage.\nSingularity Breath (Recharge 5–6). Each creature in a 90-ft. cone makes a DC 23 Strength save. Failure deals 63 (14d8) force damage and sets the creature's speed to 0 until the start of the dragon's next turn. Success halves the damage and preserves movement.",
+        "Bonus actions": "Change Shape. Magically assume any Small or Medium creature's form while keeping all statistics except size. Return to dragon form at 0 HP or by taking a bonus action.\nPsychic Step. Magically teleport to a visible unoccupied space within 60 ft.",
+        "Legendary actions": "The dragon has 3 legendary actions and regains spent actions at the start of its turn. It can use one option at a time at the end of another creature's turn.\nClaw (1 action). Make one Claw attack.\nPsionics (2 actions). Use Psychic Step or Spellcasting.\nExplosive Crystal (3 actions). The dragon detonates an amethyst at a visible point within 60 ft. Each creature in a 20-ft.-radius sphere centered there makes a DC 23 Dexterity save. Failure deals 18 (4d8) force damage and knocks the creature prone.",
+        "Lair actions": "The dragon is CR 24 (62,000 XP) in its lair.\nOn initiative count 20, losing ties, choose one option. The same option cannot be used in consecutive rounds.\nBeguiling Whisper. One creature within the dragon's telepathy range makes a DC 15 Wisdom save. Failure charms it until initiative count 20 of the next round. It obeys the dragon to the best of its ability, except for directly harmful commands.\nImprisoning Force. Cast Forcecage at the dragon's spell save DC without components. The spell ends early when the dragon uses this action again or dies.\nSpatial Projection. Until initiative count 20 next round, the dragon simultaneously occupies its space and one chosen space in the lair large enough to fit it. Choose which body moves or acts each time it moves or acts. An attack or effect that can reach both spaces affects it only once.",
+        "Regional effects": "Use one or more of these effects around the lair.\nBackground Check. Once per day the dragon can cast Legend Lore without components to learn about a person, place or object within 1 mile.\nCrystal Profusion. Amethysts and geodes form in mud on shores and lakebeds within 6 miles.\nThriving Wildlife. Fish and other aquatic Beasts thrive and reproduce quickly within 6 miles. Foraging in these waters yields double the usual food.\nWatery Sight. As an action, the dragon can cast Clairvoyance without components targeting any body of water within 6 miles.\nAt its death, aquatic populations return to normal over 1d10 days. Existing crystals remain and new ones form at the normal rate.",
+        "Optional dragon customization": "Adjust languages, skills or tool proficiencies to suit the individual dragon. Double selected skill proficiency bonuses where appropriate.\nSpellcasting. The Monster Manual's optional innate casting rule grants a number of spells equal to the dragon's Charisma modifier (minimum one). Each is usable once per day without material components. A spell's level cannot exceed one-third of the dragon's challenge rating rounded down. Use Charisma for spell save DC and spell attack rolls. Consider increasing CR for stronger spells that deal damage or impose conditions.\nOther traits. Consider giving a younger dragon the Change Shape action, granting Flyby or Mimicry, or binding the dragon's essence to an object so it can return after destruction. You can upgrade blindsight to truesight or grant a burrower tremorsense or Tunneler. One example of damage absorption lets a fire-immune dragon recover HP from fire.",
+        "Spellcasting (Psionics)": "As an action, the dragon casts one listed spell using Intelligence (save DC 23, +15 to hit with spell attacks) without components.\n1/day each. Blink, Control Water, Dispel Magic, Freedom of Movement, Globe of Invulnerability, Plane Shift, Protection from Evil and Good, Sending.",
+        "Printed source": "Fizban's Treasury of Dragons, pp. 159–160. Dragon customization on p. 34."
+      }
+    }
+  },
+  {
+    "name": "Ancient Crystal Dragon",
+    "statBlock": {
+      "name": "Ancient Crystal Dragon",
+      "publication": "Fizban's Treasury of Dragons",
+      "edition": "2014 fifth edition",
+      "printedPage": 170,
+      "classification": "Gargantuan dragon (gem), typically chaotic neutral",
+      "ac": 20,
+      "hp": 222,
+      "hitDice": "12d20 + 96",
+      "speed": "40 ft., burrow 40 ft., climb 40 ft., fly 80 ft.",
+      "abilities": {
+        "Str": {
+          "score": 25
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 26
+        },
+        "Int": {
+          "score": 20
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 21
+        }
+      },
+      "cr": "19",
+      "xp": 22000,
+      "passivePerception": 25,
+      "description": "A gem dragon with sparkling quartz-like scales. Its radiance can sear foes and shield the dragon itself.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 15,
+        "Stealth": 13,
+        "Survival": 9
+      },
+      "savingThrows": {
+        "Dex": 7,
+        "Con": 14,
+        "Wis": 9,
+        "Cha": 11
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold, radiant.",
+        "Senses": "Blindsight 60 ft., darkvision 120 ft.",
+        "Languages": "Common, Draconic, telepathy 120 ft..",
+        "Traits": "Legendary Resistance (3/day). The dragon can turn a failed save into a success.",
+        "Actions": "Multiattack. Make one Bite attack and two Claw attacks.\nBite. Melee weapon attack, +13 to hit, reach 15 ft., one target. On a hit, deal 18 (2d10 + 7) piercing damage plus 9 (2d8) radiant damage.\nClaw. Melee weapon attack, +13 to hit, reach 10 ft., one target. On a hit, deal 14 (2d6 + 7) slashing damage.\nScintillating Breath (Recharge 5–6). Each creature in a 90-ft. cone makes a DC 22 Constitution save. Failure deals 49 (11d8) radiant damage, and success halves the damage. The dragon then gains 25 temporary HP.",
+        "Bonus actions": "Change Shape. Magically assume any Small or Medium creature's form while keeping all statistics except size. Return to dragon form at 0 HP or by taking a bonus action.\nPsychic Step. Magically teleport to a visible unoccupied space within 60 ft.",
+        "Legendary actions": "The dragon has 3 legendary actions and regains spent actions at the start of its turn. It can use one option at a time at the end of another creature's turn.\nClaw (1 action). Make one Claw attack.\nPsionics (2 actions). Use Psychic Step or Spellcasting.\nStarlight Strike (3 actions). One visible creature within 60 ft. makes a DC 19 Dexterity save or takes 38 (11d6) radiant damage.",
+        "Lair actions": "The dragon is CR 20 (25,000 XP) in its lair.\nOn initiative count 20, losing ties, choose one option. The same option cannot be used in consecutive rounds.\nBeguiling Whisper. One creature within the dragon's telepathy range makes a DC 15 Wisdom save. Failure charms it until initiative count 20 of the next round. It obeys the dragon to the best of its ability, except for directly harmful commands.\nIce Passage. Open a passage through ice or snow up to 5 ft. thick. The passage can be up to 30 ft. wide and high.\nStarlight's Gleam. Choose a visible point in the lair and fill a 10-ft.-radius sphere centered there with dim light. Each creature other than the dragon already in the sphere makes a DC 15 Dexterity save. Failure deals 13 (2d12) radiant damage and outlines the creature in light. Attacks against outlined creatures have advantage. An outlined creature cannot hide or benefit from invisibility. The sphere and outlines fade at initiative count 20 of the next round.",
+        "Regional effects": "Use one or more of these effects around the lair.\nClear Skies. Over the lair, skies remain clear and dry unless changed by magic. Breezes are gentle, and visibility is as clear as the time of day permits.\nCrystal Profusion. Quartz grows in natural stone within 6 miles, especially in naturally lit areas.\nIcy Sight. As an action, the dragon can cast Clairvoyance without components targeting ice or quartz within 6 miles.\nPositive Energy. Creatures completing a long rest within 6 miles recover two extra spent Hit Dice.\nThriving Wildlife. Animals flourish within 6 miles. Checks to forage by hunting, fishing, or trapping have advantage.\nAt its death, bonus Hit Die recovery stops immediately and wildlife returns to normal over 1d10 days. Existing quartz remains and new crystals grow at the normal rate.",
+        "Optional dragon customization": "Adjust languages, skills or tool proficiencies to suit the individual dragon. Double selected skill proficiency bonuses where appropriate.\nSpellcasting. The Monster Manual's optional innate casting rule grants a number of spells equal to the dragon's Charisma modifier (minimum one). Each is usable once per day without material components. A spell's level cannot exceed one-third of the dragon's challenge rating rounded down. Use Charisma for spell save DC and spell attack rolls. Consider increasing CR for stronger spells that deal damage or impose conditions.\nOther traits. Consider giving a younger dragon the Change Shape action, granting Flyby or Mimicry, or binding the dragon's essence to an object so it can return after destruction. You can upgrade blindsight to truesight or grant a burrower tremorsense or Tunneler. One example of damage absorption lets a fire-immune dragon recover HP from fire.",
+        "Spellcasting (Psionics)": "As an action, the dragon casts one listed spell using Intelligence (save DC 19) without components.\nAt will. Dancing Lights, Guidance.\n1/day each. Command, Divination, Greater Restoration, Hypnotic Pattern, Invisibility.",
+        "Printed source": "Fizban's Treasury of Dragons, pp. 170–171. Dragon customization on p. 34."
+      }
+    }
+  },
+  {
+    "name": "Ancient Deep Dragon",
+    "statBlock": {
+      "name": "Ancient Deep Dragon",
+      "publication": "Fizban's Treasury of Dragons",
+      "edition": "2014 fifth edition",
+      "printedPage": 173,
+      "classification": "Gargantuan dragon, typically neutral evil",
+      "ac": 20,
+      "hp": 201,
+      "hitDice": "13d20 + 65",
+      "speed": "40 ft., burrow 40 ft., fly 80 ft., swim 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 23
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 19
+        },
+        "Wis": {
+          "score": 18
+        },
+        "Cha": {
+          "score": 21
+        }
+      },
+      "cr": "18",
+      "xp": 20000,
+      "passivePerception": 20,
+      "description": "An Underdark dragon that gathers knowledge and uses spores to sow terror, turn foes against one another, or poison prey.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 10,
+        "Persuasion": 17,
+        "Stealth": 15
+      },
+      "savingThrows": {
+        "Dex": 9,
+        "Con": 11,
+        "Wis": 10,
+        "Cha": 11
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Poison, psychic.",
+        "Condition immunities": "Charmed, frightened, poisoned.",
+        "Senses": "Blindsight 60 ft., darkvision 300 ft.",
+        "Languages": "Common, Draconic, Undercommon.",
+        "Traits": "Legendary Resistance (3/day). The dragon can turn a failed save into a success.",
+        "Actions": "Multiattack. Make one Bite attack and two Claw attacks.\nBite. Melee weapon attack, +12 to hit, reach 10 ft., one target. On a hit, deal 17 (2d10 + 6) piercing damage plus 11 (2d10) poison damage.\nClaw. Melee weapon attack, +12 to hit, reach 5 ft., one target. On a hit, deal 13 (2d6 + 6) slashing damage.\nTail. Melee weapon attack, +12 to hit, reach 15 ft., one target. On a hit, deal 10 (1d8 + 6) bludgeoning damage. A creature hit makes a DC 20 Strength save or falls prone.\nChange Shape. Magically assume any Small or Medium creature's form while keeping all statistics except size. Return to dragon form at 0 HP or by taking an action.\nNightmare Breath (Recharge 5–6). Each creature in a 90-ft. cone makes a DC 19 Wisdom save. Failure deals 49 (9d10) psychic damage and frightens the creature of the dragon for 1 minute. Success halves the damage and avoids fear. At the end of each of its turns, a frightened creature can repeat the save to end the effect.",
+        "Legendary actions": "The dragon has 3 legendary actions and regains spent actions at the start of its turn. It can use one option at a time at the end of another creature's turn.\nCommanding Spores (1 action). A visible creature within 30 ft. makes a DC 19 Wisdom save. On a failure, it must spend its reaction on one melee weapon attack against a random creature in reach. If it cannot take a reaction or has no creature in reach, it takes 11 (2d10) psychic damage instead.\nTail (1 action). Make one Tail attack.\nSpore Salvo (2 actions). A visible creature within 30 ft. makes a DC 19 Constitution save. Failure deals 28 (8d6) poison damage and poisons the target for 1 minute. It can repeat the save at the end of each of its turns, ending the condition on a success.",
+        "Lair actions": "The dragon is CR 19 (22,000 XP) in its lair.\nOn initiative count 20, losing ties, choose one option. The same option cannot be used in consecutive rounds.\nDeep Torpor. Cast Slow without components, using Charisma (save DC 16). The spell ends early when the dragon uses this action again or dies.\nMossy Sludge. Moss makes the lair's floor, walls and ceiling difficult terrain until initiative count 20 next round.\nToxic Spores. Choose a visible 20-ft. cube within 120 ft. Each creature there makes a DC 15 Constitution save. Failure deals 14 (4d6) poison damage and poisons the creature until the end of its next turn.",
+        "Regional effects": "Use one or more of these effects around the lair.\nPreservation of Knowledge. Within 6 miles, physical writings become impervious to nonmagical damage.\nRestless Sleep. A creature finishing a long rest within 6 miles must succeed on a DC 10 Constitution save to reduce exhaustion. Creatures immune to the poisoned condition are exempt from this effect.\nVerdant Growth. Plants and fungi expand and grow rapidly within 6 miles. Foraging yields double the usual food.\nAt the dragon's death, these effects fade over 1d10 days.",
+        "Optional dragon customization": "Adjust languages, skills or tool proficiencies to suit the individual dragon. Double selected skill proficiency bonuses where appropriate.\nSpellcasting. The Monster Manual's optional innate casting rule grants a number of spells equal to the dragon's Charisma modifier (minimum one). Each is usable once per day without material components. A spell's level cannot exceed one-third of the dragon's challenge rating rounded down. Use Charisma for spell save DC and spell attack rolls. Consider increasing CR for stronger spells that deal damage or impose conditions.\nOther traits. Consider giving a younger dragon the Change Shape action, granting Flyby or Mimicry, or binding the dragon's essence to an object so it can return after destruction. You can upgrade blindsight to truesight or grant a burrower tremorsense or Tunneler. One example of damage absorption lets a fire-immune dragon recover HP from fire.",
+        "Optional innate spellcasting": "The p. 107 example uses Charisma (save DC 19, +11 to hit with spell attacks). Once per day each, without material components: Command, Dissonant Whispers, Faerie Fire, Passwall, Water Breathing.",
+        "Printed source": "Fizban's Treasury of Dragons, pp. 173–174, with optional spellcasting on p. 107. Dragon customization on p. 34."
+      }
+    }
+  },
+  {
+    "name": "Ancient Dragon Turtle",
+    "statBlock": {
+      "name": "Ancient Dragon Turtle",
+      "publication": "Fizban's Treasury of Dragons",
+      "edition": "2014 fifth edition",
+      "printedPage": 191,
+      "classification": "Gargantuan dragon, typically neutral",
+      "ac": 22,
+      "hp": 409,
+      "hitDice": "21d20 + 189",
+      "speed": "30 ft., swim 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 28
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 29
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 19
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "24",
+      "xp": 62000,
+      "passivePerception": 21,
+      "description": "A mountainous ocean dragon with a heavy shell and a bite crackling with lightning. Its mythic awakening brings a second surge of vitality.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 11
+      },
+      "savingThrows": {
+        "Dex": 8,
+        "Con": 16,
+        "Wis": 11
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage immunities": "Cold, fire.",
+        "Condition immunities": "Charmed, frightened, poisoned.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Aquan, Draconic.",
+        "Traits": "Amphibious. The dragon breathes air and water.\nLegendary Resistance (3/day). The dragon can turn a failed save into a success.\nBlessing of the Sea (recharges after a short or long rest). When the turtle would fall to 0 HP, set it to 350 HP instead and recharge Steam Breath. It can use its mythic options for the next hour. Defeating it after this happens awards 62,000 extra XP (124,000 total).\nUnusual Nature. The dragon turtle requires no food or drink.",
+        "Actions": "Multiattack. Make one Bite or Tail attack and two Claw attacks.\nBite. Melee weapon attack, +16 to hit, reach 15 ft., one target. On a hit, deal 15 (1d12 + 9) piercing damage plus 13 (2d12) lightning damage.\nClaw. Melee weapon attack, +16 to hit, reach 15 ft., one target. On a hit, deal 18 (2d8 + 9) slashing damage.\nTail. Melee weapon attack, +16 to hit, reach 15 ft., one target. On a hit, deal 20 (2d10 + 9) bludgeoning damage. A creature hit makes a DC 24 Strength save or falls prone.\nSteam Breath (Recharge 5–6). Each creature in a 90-ft. cone makes a DC 24 Constitution save. Failure deals 67 (15d8) fire damage, and success halves the damage. Water does not confer resistance to this fire damage.",
+        "Legendary actions": "The dragon has 3 legendary actions and regains spent actions at the start of its turn. It can use one option at a time at the end of another creature's turn.\nAttack (1 action). Make one Claw or Tail attack.\nMove (1 action). Move up to speed. Swimming this way does not provoke opportunity attacks.\nBoiling Aura (3 actions). Until the start of the turtle's next turn, any creature starting its turn within 20 ft. must succeed on a DC 24 Constitution save or take 40 (9d8) fire damage. Water does not confer resistance to this fire damage.",
+        "Mythic actions": "For the hour after Blessing of the Sea activates, these options are available as legendary actions.\nBite (1 action). Make one Bite attack.\nArmor of Storms (2 actions). Gain 40 temporary HP until the start of the turtle's next turn. While any of these temporary HP remain, a creature that touches the turtle or hits it with a melee attack takes 26 (4d12) lightning damage.",
+        "Lair actions": "The DM may grant these lair actions to an ancient dragon turtle, raising it to CR 25 (75,000 XP) in its lair.\nOn initiative count 20, losing ties, choose one option. The same option cannot be used in consecutive rounds.\nBlasting Current. Each creature within 30 ft. makes a DC 15 Strength save. The turtle moves each creature 30 ft. in a direction it chooses on a failure, or 10 ft. on a success.\nEntangling Kelp. Choose a visible point in the lair. Each creature in a 20-ft.-radius sphere centered there makes a DC 15 Strength save. Failure restrains it until the end of its next turn.\nSteam Eruption. Choose a visible point on the ground within 120 ft. Each creature in a 15-ft. cone from that point makes a DC 15 Constitution save. Failure deals 21 (6d6) fire damage, and success halves the damage. Water does not confer resistance to this fire damage.",
+        "Regional effects": "Use one or more of these effects around the lair.\nDiverting Currents. Currents steer unwanted visitors away. Each foot swum in them costs 1 extra foot, or 2 extra feet in difficult terrain, even with a swim speed.\nElemental Portals. Seafloor crevasses within 1 mile open two-way portals to the Elemental Plane of Water.\nHot Water. Vents heat the water within 6 miles to 100°F.\nAt the turtle's death, these effects fade over 1d10 days.",
+        "Optional dragon customization": "Adjust languages, skills or tool proficiencies to suit the individual dragon. Double selected skill proficiency bonuses where appropriate.\nSpellcasting. The Monster Manual's optional innate casting rule grants a number of spells equal to the dragon's Charisma modifier (minimum one). Each is usable once per day without material components. A spell's level cannot exceed one-third of the dragon's challenge rating rounded down. Use Charisma for spell save DC and spell attack rolls. Consider increasing CR for stronger spells that deal damage or impose conditions.\nOther traits. Consider giving a younger dragon the Change Shape action, granting Flyby or Mimicry, or binding the dragon's essence to an object so it can return after destruction. You can upgrade blindsight to truesight or grant a burrower tremorsense or Tunneler. One example of damage absorption lets a fire-immune dragon recover HP from fire.",
+        "Optional innate spellcasting": "The p. 110 example uses Charisma (save DC 17, +9 to hit with spell attacks). Choose up to two suggested spells: Control Water, Control Weather, or Fog Cloud. The turtle casts each selected spell once per day without material components. Control Weather has a casting time longer than one action.",
+        "Printed source": "Fizban's Treasury of Dragons, p. 191, with optional spellcasting on p. 110 and lair rules on pp. 112–113. Dragon customization on p. 34."
+      }
+    }
+  }
+]

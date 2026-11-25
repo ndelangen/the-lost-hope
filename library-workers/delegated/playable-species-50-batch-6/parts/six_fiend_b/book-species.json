@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Keeper",
+    "publication": "Fiend Folio (2003)",
+    "edition": "3.0 edition",
+    "kind": "species",
+    "traits": [
+      "Medium extraplanar outsider with 4d8 racial Hit Dice, speed 40 ft., climb 20 ft. and +4 natural armor. The p. 9 racial adjustments are Str +8, Dex +6, Con +4, Int +4, Wis −2 and Cha −4.",
+      "Favored class rogue. The player paragraph gives ECL equal to class levels +7. Four racial HD and +3 level adjustment produce that result.",
+      "The eyeless Keeper uses 200-ft. sonar blindsight, which silence negates. It also has scent, spell resistance 13, DR 10/+1, and resistance 10 to acid, cold, electricity, fire and sonic damage.",
+      "Form one arm into a witnessed melee weapon of Medium size or smaller. Fuse both arms for a Large or double weapon within normal wielding limits. These weapons follow their ordinary weapon profiles and count as natural attacks, so they cannot be disarmed and do not gain iterative attacks. A second mimicked weapon attacks at −5 without ordinary two-weapon penalties.",
+      "Spit contact poison in a 20-ft. cone once every 1d4 rounds. Fortitude DC 14 negates nausea for 2d6 rounds initially and 2d6 Constitution damage one minute later. A dead Keeper, or a captive still helpless after 10 rounds, dissolves into the same poison.",
+      "Keepers within 500 ft. share danger awareness and coordinate their defenses. As a standard action, two living Keepers in that range can exchange places, even when the second Keeper is unconscious or dying.",
+      "Immune to mind-affecting effects, poison, sleep, paralysis, stunning, disease, death and necromantic effects, and Fortitude effects that cannot target objects. Immune to critical hits, sneak attacks, subdual damage, ability damage, ability drain, energy drain and death from massive damage. Racial bonuses +8 to Climb, Jump and Escape Artist. Can take 10 on Climb under pressure."
+    ]
+  },
+  {
+    "name": "Rilmani",
+    "publication": "Fiend Folio (2003)",
+    "edition": "3.0 edition",
+    "kind": "species",
+    "traits": [
+      "Extraplanar outsiders of the Outlands. All have darkvision 60 ft., immunity to electricity and poison, and acid and sonic resistance 20. They can take a Small or Medium humanoid shape and use magic for languages, detection and sanctuary. Each form also has its own spell-like abilities and a daily summon.",
+      "Ferrumach. Medium, 8d8 racial HD, speed 30 ft. before armor and +7 natural armor. Racial adjustments are Str +14, Dex +2, Con +18, Int +4, Wis +2 and Cha +10. Favored class fighter. LA +5 gives ECL equal to class levels +13. DR 10/+1 and SR 20. A 15-ft. fear aura and a possible summon of 1d2 ferrumachs make this the martial form.",
+      "Cuprilach. Medium, 12d8 racial HD, speed 40 ft., climb 20 ft. and +15 natural armor. Racial adjustments are Str +8, Dex +14, Con +10, Int +8, Wis +8 and Cha +12. Favored class rogue. LA +5 gives ECL equal to class levels +17. DR 20/+2 and SR 25. It can hide near another shadow, take a full attack as a standard action, and add 3d6 to a qualifying melee sneak attack. Trap sense, uncanny dodge and a possible summon of 1d3 ferrumachs round out the scouting form.",
+      "Aurumach. Large, 16d8 racial HD, speed 50 ft. and +14 natural armor. Racial adjustments are Str +12, Dex +8, Con +14, Int +12, Wis +14 and Cha +16. Favored class cleric. LA +9 gives ECL equal to class levels +25. DR 30/+3, SR 30 and fast healing 5. It calls its own +3 halberd and gains +4 full plate against attacks. Antithesis adds damage for each non-neutral alignment component. Its automatic summon calls 2d4 ferrumachs or 1d2 cuprilachs."
+    ]
+  },
+  {
+    "name": "Yuan-ti Anathema",
+    "publication": "Fiend Folio (2003)",
+    "edition": "3.0 edition",
+    "kind": "species",
+    "traits": [
+      "Huge aberration with 22d8 racial HD, +20 natural armor, 15-ft. space and reach, and speeds of 40 ft. on land and 20 ft. climbing or swimming. Racial adjustments are Str +16, Dex +2, Con +18, Int +14, Wis +14 and Cha +12.",
+      "The Anathema player paragraph gives ECL equal to class levels +28. This is 22 racial HD and LA +6. A first-level cleric is ECL 29. Cleric is favored, and a priest of Merrshaulk chooses two domains from Chaos, Destruction, Evil and Plant.",
+      "The six heads grant all-around vision, +4 racial Search and Spot, and immunity to flanking. It has scent, darkvision 60 ft., acid and poison immunity, electricity and fire resistance 10, DR 30/+3 and SR 26. Regeneration 5 is bypassed by force effects and adamantine weapons.",
+      "The natural attack routine has two claws and six poisonous bites. A bite can start a grapple with a smaller target and lead to constriction. Each head can hold a target separately at a −20 grapple penalty. The printed bite poison uses Fortitude DC 30 and deals 1d4 Constitution damage on each failed save in anathema form.",
+      "At-will psionics change its color, detect poison, repel creatures from snakes, change its form to a viper or viper swarm, and produce a dissolving touch. The touch deals 7d6 acid, or 10d6 against a grappled or constricted target. The racial spell-like list includes daily blasphemy and unholy aura at caster level 20.",
+      "It can attach up to eight yuan-ti grafts per day at one uninterrupted hour per graft. Climb and Swim each have a +8 racial bonus for the printed uses and can take 10 in danger. Following a trail by scent gives +8 to Survival."
+    ],
+    "parentSpecies": "Yuan-ti"
+  }
+]

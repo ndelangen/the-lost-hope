@@ -20,4 +20,5 @@ export default createEvent({
       ', with the objective of finding a flag.',
     ],
   ],
+  illustrations: ['/assets/scenes/the-trial-disk-closes-the-first-door.png'],
 })

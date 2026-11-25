@@ -1,0 +1,8 @@
+# Five revised v3.5 SRD beasts
+
+I checked five entries against the publisher’s original RTF archive. Boar and Rhinoceros are in MonstersAnimals.rtf. Dire Boar, Elasmosaurus and Megaraptor are in MonstersDi-Do.rtf. All five reused portrait hashes match the roster. [Stat blocks](stat-blocks.json) · [Source evidence](source-evidence.json)
+
+- **Boar and Dire Boar.** Ferocity lets both keep fighting while disabled or dying. The Medium Boar has AC 16 and 25 HP. The Large Dire Boar has AC 15 and 52 HP. Both occupy temperate forests. [Boar rules](https://palikhov.github.io/srd-v3.5/monsters/monsters-animals.html#boar) · [Dire Boar rules](https://palikhov.github.io/srd-v3.5/monsters/monsters-di-do.html#dire-boar)
+- **Elasmosaurus.** Huge, AC 13, 111 HP, swim 50 ft. It breathes air and gains +8 on Hide checks in water. Bite is +13 at 10-ft. reach and deals 2d8 + 12. [Elasmosaurus rules](https://palikhov.github.io/srd-v3.5/monsters/monsters-di-do.html#elasmosaurus)
+- **Megaraptor.** The original SRD gives Huge size, AC 16, 79 HP, grapple +19, 10-ft. reach and talons +9 for 2d8 + 5. Pounce allows its full attack after charging. The separate February 17, 2006 Monster Manual errata for book p. 60 gives a Large version, recorded in the printing note. Both sources print Fortitude +10. The usual Animal progression would give +11. [Original SRD table](https://palikhov.github.io/srd-v3.5/monsters/monsters-di-do.html#megaraptor) · [Monster Manual errata, printed p. 3]()
+- **Rhinoceros.** Large, AC 16 and 76 HP. A normal Gore hit deals 2d6 + 12. Powerful Charge deals 4d6 + 24 total. [Rhinoceros rules](https://palikhov.github.io/srd-v3.5/monsters/monsters-animals.html#rhinoceros)

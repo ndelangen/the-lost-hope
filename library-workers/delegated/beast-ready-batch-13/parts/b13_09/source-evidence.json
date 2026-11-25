@@ -1,0 +1,192 @@
+[
+  {
+    "name": "Guthash",
+    "publication": "Tales from the Yawning Portal",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, April 2017",
+    "printedPages": [
+      21
+    ],
+    "pdfPages": [
+      22
+    ],
+    "section": "The Sunless Citadel, area 30, Mama Rat",
+    "sourceFile": "",
+    "sourceSha256": "a13aafb622d65175e57fb25bb092f3aa5ce540353aed11450eca03f1b5f0c499",
+    "sourceUrl": "",
+    "sourceUrlRole": "Facsimile of the April 2017 first printing.",
+    "errataUrl": "",
+    "errataResult": "The official 2021 v1.0 Tales from the Yawning Portal errata lists no change to this encounter.",
+    "baseRules": {
+      "entry": "Giant Rat, Diseased Giant Rat variant",
+      "publication": "Monster Manual (2014)",
+      "printedPage": 327,
+      "sourceFile": " - 5th Edition (2014)/Rules/Monster ",
+      "sourceSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+      "errataUrl": "",
+      "errataResult": "The 2016 v1.1 and 2018 errata correct Diseased Giant Rat Bite to +4 and 4 (1d4 + 2). The adventure expressly changes the attack roll to +5.",
+      "earlierErrataUrl": ""
+    },
+    "habitatEvidence": "Encounter placement in Tales from the Yawning Portal.",
+    "appearanceEvidence": "Editorial description of the selected portrait and printed encounter.",
+    "portraitSource": "beast-ready-batch-05/parts/b05_01/portraits/giant-rat.png",
+    "portraitSha256": "5b455816adf4ba786df1b5c86dc4f0e11857271c6551819ae01f0d69f72d3d73",
+    "sourceDistinctions": [
+      "The adventure lists a fixed 16 HP and no corresponding Hit Dice formula.",
+      "Use the official Monster Manual errata for the base damage and the adventure for the +5 attack bonus."
+    ]
+  },
+  {
+    "name": "Huge Giant Crab",
+    "publication": "Tales from the Yawning Portal",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, April 2017",
+    "printedPages": [
+      103
+    ],
+    "pdfPages": [
+      104
+    ],
+    "section": "White Plume Mountain, area 17, The Boiling Bubble",
+    "sourceFile": "",
+    "sourceSha256": "a13aafb622d65175e57fb25bb092f3aa5ce540353aed11450eca03f1b5f0c499",
+    "sourceUrl": "",
+    "sourceUrlRole": "Facsimile of the April 2017 first printing.",
+    "errataUrl": "",
+    "errataResult": "The official 2021 v1.0 Tales from the Yawning Portal errata lists no change to this encounter.",
+    "baseRules": {
+      "entry": "Giant Crab",
+      "publication": "Monster Manual (2014)",
+      "printedPage": 324,
+      "sourceFile": " - 5th Edition (2014)/Rules/Monster ",
+      "sourceSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+      "errataUrl": "",
+      "errataResult": "No errata applies to this base stat block."
+    },
+    "habitatEvidence": "Encounter placement in Tales from the Yawning Portal.",
+    "appearanceEvidence": "Editorial description of the selected portrait and printed encounter.",
+    "portraitSource": "beast-ready-batch-04/parts/b04_06/portraits/giant-crab.png",
+    "portraitSha256": "95e07738ab5dfb1de4a6131bf6631c68eddcc9a420c9d2666469ff5760d56e4f",
+    "sourceDistinctions": [
+      "The adventure prints +9 for Claw and escape DC 14. It lists no change to the base Giant Crab Stealth +4.",
+      "The index recalculates Stealth to +5."
+    ]
+  },
+  {
+    "name": "Huge Polar Bear",
+    "publication": "Tales from the Yawning Portal",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, April 2017",
+    "printedPages": [
+      187
+    ],
+    "pdfPages": [
+      188
+    ],
+    "section": "Against the Giants, Glacial Rift lower level, area 17, Kennel Cave",
+    "sourceFile": "",
+    "sourceSha256": "a13aafb622d65175e57fb25bb092f3aa5ce540353aed11450eca03f1b5f0c499",
+    "sourceUrl": "",
+    "sourceUrlRole": "Facsimile of the April 2017 first printing.",
+    "errataUrl": "",
+    "errataResult": "The official 2021 v1.0 Tales from the Yawning Portal errata lists no change to this encounter.",
+    "baseRules": {
+      "entry": "Polar Bear",
+      "publication": "Monster Manual (2014)",
+      "printedPage": 334,
+      "sourceFile": " - 5th Edition (2014)/Rules/Monster ",
+      "sourceSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+      "errataUrl": "",
+      "errataResult": "No errata applies to this base stat block."
+    },
+    "habitatEvidence": "Encounter placement in Tales from the Yawning Portal.",
+    "appearanceEvidence": "Editorial description of the selected portrait and printed encounter.",
+    "portraitSource": "beast-ready-batch-05/parts/b05_06/portraits/polar-bear.png",
+    "portraitSha256": "ea58cc6437d6177f689a0f7f2202fb4a102a0d79b7470b0bf21cba879f4083b4",
+    "sourceDistinctions": [
+      "The Kennel Cave gives Huge size and 65 HP for each bear. The adventure gives no revised Hit Dice formula."
+    ]
+  },
+  {
+    "name": "Snow Leopard",
+    "publication": "Tales from the Yawning Portal",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, April 2017",
+    "printedPages": [
+      183
+    ],
+    "pdfPages": [
+      184
+    ],
+    "section": "Against the Giants, Glacial Rift upper level, area 15, Ice Cave",
+    "sourceFile": "",
+    "sourceSha256": "a13aafb622d65175e57fb25bb092f3aa5ce540353aed11450eca03f1b5f0c499",
+    "sourceUrl": "",
+    "sourceUrlRole": "Facsimile of the April 2017 first printing.",
+    "errataUrl": "",
+    "errataResult": "The official 2021 v1.0 Tales from the Yawning Portal errata lists no change to this encounter.",
+    "baseRules": {
+      "entry": "Tiger",
+      "publication": "Monster Manual (2014)",
+      "printedPage": 339,
+      "sourceFile": " - 5th Edition (2014)/Rules/Monster ",
+      "sourceSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+      "errataUrl": "",
+      "errataResult": "No errata applies to this base stat block."
+    },
+    "habitatEvidence": "Encounter placement in Tales from the Yawning Portal.",
+    "appearanceEvidence": "Editorial description of the selected portrait and printed encounter.",
+    "portraitSource": "portraits/snow-leopard.png",
+    "portraitSha256": "bc5529680d4428cf6acc8e9b11f302fcd48d8bc3d7f8ee6158f26f18c93afa31",
+    "sourceDistinctions": [
+      "The encounter expressly assigns the Tiger stat block to both snow leopards."
+    ]
+  },
+  {
+    "name": "Young Winter Wolf",
+    "publication": "Tales from the Yawning Portal",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, April 2017",
+    "printedPages": [
+      181
+    ],
+    "pdfPages": [
+      182
+    ],
+    "section": "Against the Giants, Glacial Rift upper level, area 4, Small Ice Cave",
+    "sourceFile": "",
+    "sourceSha256": "a13aafb622d65175e57fb25bb092f3aa5ce540353aed11450eca03f1b5f0c499",
+    "sourceUrl": "",
+    "sourceUrlRole": "Facsimile of the April 2017 first printing.",
+    "errataUrl": "",
+    "errataResult": "The official 2021 v1.0 Tales from the Yawning Portal errata lists no change to this encounter.",
+    "baseRules": {
+      "entry": "Dire Wolf",
+      "publication": "Monster Manual (2014)",
+      "printedPage": 321,
+      "sourceFile": " - 5th Edition (2014)/Rules/Monster ",
+      "sourceSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+      "errataUrl": "",
+      "errataResult": "No errata applies to this base stat block."
+    },
+    "habitatEvidence": "Encounter placement in Tales from the Yawning Portal.",
+    "appearanceEvidence": "Editorial description of the selected portrait and printed encounter.",
+    "portraitSource": "portraits/young-winter-wolf.png",
+    "portraitSha256": "0aaa450103737fc435d7be5b53de20fba7a0c5ccbe24a083e4374506a6812012",
+    "sourceDistinctions": [
+      "The adventure expressly assigns the Dire Wolf stat block to the pups.",
+      "The white coat and pale blue eyes follow the 2014 Winter Wolf species description in Monster Manual p. 340."
+    ],
+    "appearanceReferenceUrl": "https://www.dndbeyond.com/monsters/17061-winter-wolf"
+  }
+]

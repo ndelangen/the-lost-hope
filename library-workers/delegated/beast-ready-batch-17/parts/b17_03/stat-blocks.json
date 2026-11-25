@@ -1,0 +1,301 @@
+[
+  {
+    "name": "Hellwasp Grub",
+    "publication": "Baldur's Gate: Descent Into Avernus",
+    "edition": "2014 fifth edition",
+    "classification": "Small beast, unaligned",
+    "ac": 13,
+    "hp": 4,
+    "hitDice": "1d6 + 1",
+    "speed": "30 ft., climb 30 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "printedPage": 95,
+    "description": "A squat rust-brown grub with no wings, overlapping segments, short legs under the forebody, and prominent jaws.",
+    "abilities": {
+      "Str": {
+        "score": 5,
+        "modifier": -3
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 7,
+        "modifier": -2
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "appearance": "A squat rust-brown grub with no wings, overlapping segments, short legs under the forebody, and prominent jaws.",
+    "habitats": [
+      "Avernus",
+      "Hellwasp Nest"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Baldur's Gate: Descent into Avernus, N3. Hellwasp Larvae, p. 95. Uses Giant Centipede from Monster Manual (2014), p. 323.",
+      "Actions": "Bite. Melee weapon attack +4, reach 5 ft., one creature. Hit for 4 (1d4 + 2) piercing damage. The target makes a DC 11 Constitution save or takes 10 (3d6) poison damage. If this poison damage brings the target to 0 HP, it is stable, poisoned for 1 hour even after healing, and paralyzed while poisoned by this attack.",
+      "Encounter": "Roll 2d6 hostile grubs when a character moves within 5 ft. of an angel carcass or takes piercing or slashing damage within 15 ft. of it. The carcass bursts and releases the grubs. Three adult hellwasps also guard that level and use their separate printed rules."
+    },
+    "passivePerception": 8,
+    "otherStatistics": "Natural armor. Blindsight 30 ft. No languages."
+  },
+  {
+    "name": "Peacock",
+    "publication": "Baldur's Gate: Descent Into Avernus",
+    "edition": "2014 fifth edition",
+    "classification": "Medium beast, unaligned",
+    "ac": 10,
+    "hp": 5,
+    "hitDice": "1d8 + 1",
+    "speed": "10 ft., fly 50 ft.",
+    "cr": "0",
+    "xp": 10,
+    "printedPage": 195,
+    "description": "A male peafowl with a blue crested head, blue neck, and an eyespotted green train.",
+    "abilities": {
+      "Str": {
+        "score": 7,
+        "modifier": -2
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "appearance": "A male peafowl with a blue crested head, blue neck, and an eyespotted green train.",
+    "habitats": [
+      "Baldur’s Gate",
+      "Outer City"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Baldur's Gate: Descent into Avernus, Baldur’s Gate Gazetteer, Table H result 7, p. 195. Uses Vulture from Monster Manual (2014), p. 339.",
+      "Traits": "Keen Sight and Smell. The peacock has advantage on Wisdom (Perception) checks that use sight or smell.\nPack Tactics. The peacock has advantage on attacks against targets within 5 ft. of a non-incapacitated ally of the peacock.",
+      "Actions": "Beak. Melee weapon attack +2, reach 5 ft., one target. Hit for 2 (1d4) piercing damage.",
+      "Encounter": "Outer City Denizens result 7 has 1d4 commoners herding 2d8 goats and one peacock. The encounter uses the Vulture statistics unchanged."
+    },
+    "skills": {
+      "Perception": 3
+    },
+    "passivePerception": 13
+  },
+  {
+    "name": "Traxigor",
+    "publication": "Baldur's Gate: Descent Into Avernus",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny beast, chaotic good",
+    "ac": 12,
+    "hp": 99,
+    "hitDice": "18d8 + 18",
+    "speed": "30 ft.",
+    "cr": "12",
+    "xp": 8400,
+    "printedPage": 50,
+    "description": "A small brown otter in a red cassock.",
+    "abilities": {
+      "Str": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 20,
+        "modifier": 5
+      },
+      "Wis": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 16,
+        "modifier": 3
+      }
+    },
+    "appearance": "A small brown otter in a red cassock.",
+    "habitats": [
+      "Traxigor’s Tower",
+      "Avernus"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Baldur's Gate: Descent into Avernus, Getting to Avernus, Traxigor’s Tower, p. 50. Uses Archmage from Monster Manual (2014), p. 342.",
+      "Traits": "Magic Resistance. Traxigor has advantage on saves against spells and other magical effects.",
+      "Spellcasting": "Traxigor is an 18th-level Intelligence spellcaster with save DC 17 and +9 to hit with spell attacks. He casts Disguise Self and Invisibility at will. The prepared spells use the Archmage list with Plane Shift replacing Teleport. Cantrips are Fire Bolt, Light, Mage Hand, Prestidigitation, and Shocking Grasp. Level 1, four slots: Detect Magic, Identify, Mage Armor, Magic Missile. Level 2, three slots: Detect Thoughts, Mirror Image, Misty Step. Level 3, three slots: Counterspell, Fly, Lightning Bolt. Level 4, three slots: Banishment, Fire Shield, Stoneskin. Level 5, three slots: Cone of Cold, Scrying, Wall of Force. Level 6, one slot: Globe of Invulnerability. Level 7, one slot: Plane Shift. Level 8, one slot: Mind Blank. Level 9, one slot: Time Stop. The Archmage block calls for Mage Armor, Stoneskin and Mind Blank before combat.",
+      "Actions": "Dagger. Melee or ranged weapon attack +6, reach 5 ft. or range 20/60 ft., one target. Hit for 4 (1d4 + 2) piercing damage.",
+      "Encounter": "Traxigor’s otter form was made permanent by Wish. His tuning fork is keyed to the Nine Hells. He needs to recover it to take the group to Elturel with Plane Shift."
+    },
+    "savingThrows": {
+      "Intelligence": 9,
+      "Wisdom": 6
+    },
+    "skills": {
+      "Arcana": 13,
+      "History": 13
+    },
+    "passivePerception": 12,
+    "otherStatistics": "AC 15 with Mage Armor. Resistance to damage from spells, and to nonmagical bludgeoning, piercing, and slashing damage while Stoneskin is active. Languages are Common, Draconic, Dwarvish, Gnomish, Halfling, and Troglodyte."
+  },
+  {
+    "name": "Enormous Tentacle",
+    "publication": "The Orrery of the Wanderer",
+    "edition": "2014 fifth edition",
+    "classification": "Huge beast, unaligned",
+    "ac": 12,
+    "hp": 60,
+    "hitDice": "8d12 + 8",
+    "speed": "30 ft., swim 30 ft.",
+    "cr": "2",
+    "xp": 450,
+    "printedPage": 94,
+    "description": "A single long green tentacle that tapers to a curved point.",
+    "abilities": {
+      "Str": {
+        "score": 19,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "appearance": "A single long green tentacle that tapers to a curved point.",
+    "habitats": [
+      "Waterdeep",
+      "Cesspool",
+      "Demiplane of Filth"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Acquisitions Incorporated, The Orrery of the Wanderer, area 8 Tentacle, pp. 93–94. Uses Giant Constrictor Snake from Monster Manual (2014), p. 324.",
+      "Actions": "Constrict. Melee weapon attack +6 against one creature anywhere in the room. Hit for 13 (2d8 + 4) bludgeoning damage and grapple the creature, escape DC 16. The target is restrained while grappled. The tentacle can hold only one creature with this attack. It loses the Giant Constrictor Snake’s Bite.",
+      "Encounter": "The creature on the far side senses arrivals through tremors in the room. Each character makes a DC 10 Wisdom (Perception) check to notice the water ripple before the tentacle appears. A character who knows the room’s story or detects the local magic gets advantage. Failure leaves the character surprised. On a grapple the tentacle immediately pulls the target into sewage 3 ft. deep. If the grapple persists on the following round, it pulls the target underwater in the 10-ft. section. It then has three-quarters cover, and the target cannot breathe. An unconscious target grappled underwater is pulled through the planar rupture and devoured.",
+      "Source notes": "The block uses Beast from the explicit combat proxy. The adventure leaves the creature on the other side unidentified. The snake’s normal movement is inherited data. The encounter depicts the appendage reaching through the rift and attacking within this room."
+    },
+    "skills": {
+      "Perception": 2
+    },
+    "passivePerception": 12,
+    "otherStatistics": "Proxy blindsight 10 ft. The encounter’s unquantified tremorsense detects arrivals in the room. No languages."
+  },
+  {
+    "name": "Onyx",
+    "publication": "The Orrery of the Wanderer",
+    "edition": "2014 fifth edition",
+    "classification": "Huge beast relative to the shrunken party, unaligned",
+    "ac": 12,
+    "hp": 2,
+    "hitDice": "1d4",
+    "speed": "400 ft., climb 200 ft. relative to the shrunken party",
+    "cr": "0",
+    "xp": 10,
+    "printedPage": 186,
+    "description": "A brown domestic cat with bright blue eyes.",
+    "abilities": {
+      "Str": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "appearance": "A brown domestic cat with bright blue eyes.",
+    "habitats": [
+      "Dran & Courtier",
+      "Test Market"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Acquisitions Incorporated, The Orrery of the Wanderer, Onyx Ascendant, pp. 185–187. Uses Cat from Monster Manual (2014), p. 320.",
+      "Traits": "Keen Smell. Onyx has advantage on Wisdom (Perception) checks that rely on smell. She also has advantage on all ability checks and saving throws during the encounter. Any incoming damage is reduced to 0.",
+      "Actions": "Claws. Melee weapon attack +7, reach 20 ft., one target. Hit for 11 (2d10) slashing damage. Onyx attacks a random eligible character on her turn.",
+      "Encounter": "At the end of each character’s turn, roll on the printed Cat Chase Complications table. A hit against AC 12 makes contact without lasting damage. An attack or effect that would deal at least 10 damage gives Onyx disadvantage on attack rolls through the end of her next turn. Spell-imposed conditions end automatically at the end of her next turn. To end the chase, all living characters must hide. A passive Perception of 15 spots the mouse hole within view of the fireplace. A character looking for a ground-level hiding place can attempt a DC 15 Wisdom (Perception) check with advantage from anywhere in the room.",
+      "Source notes": "The adventure treats the cat as Huge relative to the shrunken characters. It explicitly gives climb 200 ft. even though multiplying the standard Cat’s 30-ft. climb by 10 gives 300 ft. The hit points come from the Cat block. The chase rules prevent damage from reducing them."
+    },
+    "skills": {
+      "Perception": 3,
+      "Stealth": 4
+    },
+    "passivePerception": 13,
+    "encounterProcedure": true
+  }
+]

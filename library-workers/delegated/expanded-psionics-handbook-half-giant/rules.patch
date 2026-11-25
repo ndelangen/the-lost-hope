@@ -1,0 +1,146 @@
+diff --git a/dm-library/bestiary/book-catalog.json b/dm-library/bestiary/book-catalog.json
+--- a/dm-library/bestiary/book-catalog.json
++++ b/dm-library/bestiary/book-catalog.json
+@@ -310312,6 +310312,21 @@
+       ]
+     },
+     {
++      "name": "Half-Giant",
++      "kind": "species",
++      "publication": "Expanded Psionics Handbook (2004)",
++      "edition": "3.5 edition",
++      "traits": [
++        "Medium Giant with the Psionic subtype. Strength +2, Constitution +2, Dexterity −2. Base land speed 30 ft. Low-light vision extends human vision in dim light to twice the distance and retains color and detail. Humanoid-only effects such as charm person do not apply.",
++        "Fire Acclimated grants +2 racial bonus on saving throws against fire spells and effects.",
++        "Powerful Build treats a Half-Giant as one size category larger when a size modifier to an opposed check is advantageous, such as grapple, bull rush, or trip. Use the larger category when determining whether a size-based special attack, such as improved grab or swallow whole, can affect the Half-Giant.",
++        "Powerful Build allows weapons designed for creatures one size larger. Actual size determines space and reach. A Medium Half-Giant normally has 5-ft. space and reach. Powerful Build stacks with effects such as Expansion that change actual size.",
++        "Naturally Psionic grants 2 bonus power points at 1st level. Manifesting powers requires an additional source, such as a psionic class.",
++        "Racial Stomp is a psi-like ability usable once per day at half Hit Dice in manifester levels, rounded down, minimum 1. Standard action, 20-ft. cone-shaped spread along the ground. A grounded creature that fails its Reflex save falls prone and takes 1d4 nonlethal damage per racial manifester level. A success negates both effects. Save DC 11 + Charisma modifier. Power resistance does not apply. Automatic psi-like augmentation spends no PP.",
++        "Automatic language Common. Bonus languages Draconic, Giant, Gnoll, Ignan. Favored class Psychic Warrior. Level adjustment +1."
++      ]
++    },
++    {
+       "edition": "2014 fifth edition",
+       "publication": "Elemental Evil Player's Companion",
+       "name": "Earth Genasi",
+diff --git a/dm-library/bestiary/npc-encounters.json b/dm-library/bestiary/npc-encounters.json
+--- a/dm-library/bestiary/npc-encounters.json
++++ b/dm-library/bestiary/npc-encounters.json
+@@ -199,6 +199,77 @@
+       "tactics": "Ask the party to clear the square before freeing the jammed lantern counterweight. Use Burst to reach the far stair once the platform is clear. Keep the mind blade in hand if needed."
+     },
+     {
++      "id": "half-giant-pass-rescuer-35e",
++      "title": "Half-Giant desert pass rescuer, Psychic Warrior 1",
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
++      "difficulty": "Provisional CR 1. ECL 2.",
++      "size": "Medium, Large during Expansion",
++      "type": "Giant (Psionic)",
++      "ac": 14,
++      "hp": 11,
++      "hitDice": "1d8+3",
++      "initiative": 4,
++      "speed": "30 ft.",
++      "abilityScores": {
++        "STR": 17,
++        "DEX": 10,
++        "CON": 16,
++        "INT": 10,
++        "WIS": 13,
++        "CHA": 8
++      },
++      "skills": ["Climb +5", "Jump +5", "Listen +3", "Spot +3"],
++      "senses": "Low-light vision",
++      "languages": "Common",
++      "traits": [
++        "Chain shirt +4, touch 10, flat-footed 14. BAB +0, grapple +7 with Powerful Build. Fortitude +5, Reflex +0, Will +1. Fire Acclimated adds +2 on saves against fire effects.",
++        "Alertness and Psychic Warrior bonus Improved Initiative. Naturally Psionic supplies both daily PP. Psychic Warrior 1 and Wisdom 13 contribute 0. Manifester level 1.",
++        "With Expansion: Large size, 10-ft. space/reach, Str 19, Dex 8, AC 12, touch 8, flat-footed 12, Reflex −1, grapple +12 with Powerful Build. Climb and Jump each +6. The enlarged weapon follows the power and Powerful Build uses the next size category."
++      ],
++      "actions": [
++        "Large longsword, wielded two-handed: +3 melee, 2d6+4 slashing, critical 19–20/×2, 5-ft. reach. With Expansion the sword becomes Huge: +3 melee, 3d6+6 slashing, same critical, 10-ft. reach.",
++        "Racial Stomp once per day. Standard action, 20-ft. cone-shaped spread, grounded creatures only. Reflex DC 10 negates prone and 1d4 nonlethal damage. No power resistance, manifester level 1, no PP cost.",
++        "Expansion: 1 PP, standard action, personal, 1 round at manifester level 1. Enlarge by one size category with the carried gear. The effect ends before her next turn. The expanded attack applies to an attack of opportunity in that window. The longer duration is beyond this build’s manifester-level limit."
++      ],
++      "tactics": "Mark the stable ledge and keep the party clear while planning the lift. Use Expansion and the remaining move action to get the rescue line within reach before the effect ends. Use Stomp only after the party clears the cone."
++    },
++    {
++      "id": "half-giant-kiln-watch-35e",
++      "title": "Half-Giant glassworks kiln watch, Fighter 1",
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
++      "difficulty": "Provisional CR 1. ECL 2.",
++      "size": "Medium",
++      "type": "Giant (Psionic)",
++      "ac": 15,
++      "hp": 15,
++      "hitDice": "1d10+2",
++      "initiative": 1,
++      "speed": "30 ft.",
++      "abilityScores": {
++        "STR": 16,
++        "DEX": 12,
++        "CON": 15,
++        "INT": 10,
++        "WIS": 12,
++        "CHA": 10
++      },
++      "skills": ["Climb +5", "Jump +5"],
++      "senses": "Low-light vision",
++      "languages": "Common",
++      "traits": [
++        "Studded leather +3, light wooden shield +1, Dexterity +1. Touch 11, flat-footed 14. BAB +1, grapple +8 with Powerful Build. Fortitude +4, Reflex +1, Will +1. Against fire effects the saves are +6, +3, and +3.",
++        "Toughness adds 3 HP. Fighter bonus Weapon Focus (warhammer). Climb and Jump include the combined −2 armor check penalty.",
++        "Naturally Psionic provides 2 PP. The racial Stomp has its own daily use. Actual space and reach are 5 ft."
++      ],
++      "actions": [
++        "Large warhammer +5 melee, 2d6+3 bludgeoning one-handed, critical ×3, reach 5 ft.",
++        "Racial Stomp once per day. Standard action, 20-ft. cone-shaped spread, grounded creatures only. Reflex DC 11 negates prone and 1d4 nonlethal damage. No power resistance, manifester level 1, no PP cost."
++      ],
++      "tactics": "Clear the glassworks and keep the kiln passage open while the crew covers the hot channel. If the evacuation is interrupted, stand at the threshold and reserve the cone until workers are clear."
++    },
++    {
+       "id": "xeph-reserve-tracker-35e",
+       "title": "Xeph woodland reserve tracker, Ranger 1",
+       "origin": "Original DM Library NPC",
+@@ -782,6 +853,28 @@
+       "hook": "Sura can identify which release pin was replaced if the party keeps the walkway clear."
+     },
+     {
++      "species": "Half-Giant",
++      "size": "Medium",
++      "edition": "3.5 edition",
++      "speciesPublication": "Expanded Psionics Handbook (2004)",
++      "name": "Anet Copperstep",
++      "build": "half-giant-pass-rescuer-35e",
++      "role": "Desert pass rescuer and Psychic Warrior.",
++      "motive": "Get a trapped traveler off a narrow ledge before the scree slips.",
++      "hook": "Anet has the line and can reach the ledge if the party holds the upper anchor."
++    },
++    {
++      "species": "Half-Giant",
++      "size": "Medium",
++      "edition": "3.5 edition",
++      "speciesPublication": "Expanded Psionics Handbook (2004)",
++      "name": "Nadi Flintwell",
++      "build": "half-giant-kiln-watch-35e",
++      "role": "Glassworks kiln watch and evacuation lead.",
++      "motive": "Clear the furnace passage before the glassworking crew loses its exit.",
++      "hook": "Nadi can guide workers through the side passage if the party moves the empty racks out of the way."
++    },
++    {
+       "species": "Dromite",
+       "size": "Small",
+       "edition": "3.5 edition",
+diff --git a/dm-library/bestiary/entries.tsv b/dm-library/bestiary/entries.tsv
+--- a/dm-library/bestiary/entries.tsv
++++ b/dm-library/bestiary/entries.tsv
+@@ -4869,6 +4869,7 @@
+ Half-Elf (Variant; Wood Elf Descent; Mask of the Wild)	species		Sword Coast Adventurer's Guide	2014 fifth edition	Wizards of the Coast		
+ Half-Elf (Variant; Wood Elf Descent; Skill Versatility)	species		Sword Coast Adventurer's Guide	2014 fifth edition	Wizards of the Coast		
+ Half-Elf Priest	monster	Humanoid	DDEX1-10 - Tyranny in Phlan	2014 fifth edition	Wizards of the Coast		2
++Half-Giant	species	Giant (Psionic)	Expanded Psionics Handbook (2004)	3.5 edition	Wizards of the Coast	https://www.dndtools.one/expanded-psionics-handbook	
+ Half-Green Dragon Assassin	monster	Humanoid	Rise of Tiamat	2014 fifth edition	Wizards of the Coast		8
+ Half-Ogre	monster	Giant	Dragonlance: Shadow of the Dragon Queen	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/17185-half-ogre	1
+ Half-Ogre	monster	Giant	Icewind Dale: Rime of the Frostmaiden	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/17185-half-ogre	1

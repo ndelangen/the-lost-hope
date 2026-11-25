@@ -1,0 +1,63 @@
+[
+  {
+    "name": "Tanarukk",
+    "kind": "species",
+    "publication": "Underdark (2003)",
+    "edition": "3.5 edition",
+    "book": "Races of Faerûn",
+    "authors": [
+      "Eric L. Boyd",
+      "James Jacobs",
+      "Matt Forbeck"
+    ],
+    "publisher": "Wizards of the Coast",
+    "firstPrinting": "March 2003",
+    "productCode": "620-88578-001-EN",
+    "isbn": "0-7869-2896-4",
+    "printedPages": {
+      "playableSpecies": [
+        123,
+        124,
+        125
+      ],
+      "racialTraits": 124,
+      "illustration": 123,
+      "underdarkReference": [
+        19,
+        20
+      ],
+      "monsterRevision": 5
+    },
+    "primaryBookPdfPageOffset": 1,
+    "underdarkPdfPageOffset": 1,
+    "revisionGuide": "",
+    "revisionGuideSha256": "cf7330becd93e73876cf4a081ade396666f9db7301f0094850f19cf666863a18",
+    "earlierMonsterProfile": "",
+    "regionalRules": "",
+    "editionReference": "",
+    "primaryBookScan": "",
+    "primaryBookSha256": "80254e0054d127cf9e32e8e8e7b403e2f3e0477bc3695bbe96cf4ea595ba761d",
+    "editionReferenceSha256": "a7651db6f6506ac8abfd1b49f0b8f96e4d4d33ee2d62c9889720d6bbdcf601be",
+    "officialErrataArchive": "https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP",
+    "errataFilename": null,
+    "faqFilename": "",
+    "faqSha256": "312db30e76d5342b9f9e319d66aa60d86042a25535ba7524cba3193ae0bb08c6",
+    "printedArtCredit": "Vinod Rams, p. 123.",
+    "sourceDistinctions": [
+      "Races of Faerûn provides the detailed player traits. Underdark confirms 5 racial Hit Dice, LA +3, favored class Barbarian, and ECL 8.",
+      "Use the player version of Control Flame. It is spell-like, once daily, and caster level 5. The 2001 monster uses a supernatural ability twice daily; the 2004 monster conversion does not explicitly revise that line.",
+      "Spell resistance adds class levels to the base 14. Racial Hit Dice and level adjustment do not increase the total.",
+      "The 2004 monster conversion confirms the Native subtype, fire resistance 10, and revised spell resistance. The player-specific skill list comes from Races of Faerûn.",
+      "Both NPCs use the Northdark region and the 3.5 campaign rule that player characters know Common. The collected archive and FAQ give no direct correction to the Tanarukk player traits."
+    ],
+    "entryId": "species-4305f8554eddb445b1fccfa1",
+    "versionKey": "e4e2ca80c3c024bea8b74d6b",
+    "slug": "tanarukk",
+    "portraitSelection": "generated",
+    "portraitForm": "Khar Ashridge, an original Tanarukk with a battleaxe and no armor",
+    "npcExamples": [
+      "Khar Ashridge",
+      "Varka Coalvein"
+    ]
+  }
+]

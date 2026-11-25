@@ -1,0 +1,70 @@
+[
+  {
+    "name": "Dreamlands Cat",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Sandy Petersen’s Cthulhu Mythos for 5e",
+    "traits": [
+      "Petersen Games player option for the 2014 fifth-edition rules. ISBN 978-0-9995390-4-0.",
+      "Tiny Beast with 5-ft. reach, Dexterity +2, darkvision 60 ft., walking speed 40 ft., and climb 30 ft. Typically chaotic. Matures at one year and can live nearly 25 years.",
+      "Unarmed attacks are proficient. Bite is light and finesse, with base piercing damage of 1 when Tiny or 1d4 when Small or Medium. Claws are light, with base slashing damage of 2 and finesse when Tiny or base damage of 2d4 without finesse when Small or Medium. Both can be used for two-weapon fighting.",
+      "A Dreamlands cat can sense an available Gate of Slumber and, when unobserved, pass into the Dreamlands through it. The GM determines whether one is nearby. Return is usually within 1 mile of departure. Tiny carried and worn items can cross with the cat. It can choose Intelligence 2 or its full intellect when returning to its body.",
+      "In the Dreamlands, Moon Jump takes an action and 2d6 minutes in transit between a planet and its moon. It provokes opportunity attacks. Two uses per long rest. Four cats can take one passenger up to one size larger, or eight cats can take one up to two sizes larger. A return trip arrives within 1 mile of departure.",
+      "Nine Lives restores the cat after 1d3 days of Dreamlands rest, up to eight times over its life. Other resurrection methods are tracked separately.",
+      "Cat Equipment allows tailored armor, a Tiny object or wand held in the mouth, and magic wearables that resize. Hand-dependent gear such as weapons and shields is unavailable. Whiskers and tail supply somatic components, cat sounds supply verbal components, and eligible materials or focus can be held in the mouth or used within 5 ft. with the carrier’s consent if needed.",
+      "Magic Item Melding can merge an eligible Tiny weapon, armor suit, wand, rod, staff, or worn wondrous item into a suitable body part on entry to the Dreamlands. Meet attunement and armor proficiency requirements. One item can occupy each part. A cat can separate a melded item on leaving. See pp. 11–12 for identification, equipment activation, and loss of the corresponding body part.",
+      "Speaks Cat and understands and reads a nearby predominant language such as Common. Speaking or writing a non-Cat language requires magic. A week spent with an individual cat lets someone understand that cat’s speech.",
+      "Terran adds Charisma +1 and Strength −2, Perception and Stealth proficiency, advantage on smell-based Perception, and Dexterity-based Athletics. As a reaction on a fall shorter than 60 ft., remove 1d6 falling damage. On a fall of 60 ft. or more, reduce the damage to 1d6. If damaged, land upright on a DC 10 Dexterity save.",
+      "Martian adds Wisdom +1 and Strength −2, Perception and Acrobatics proficiency, advantage on smell-based Perception, triple jump distance, an upright landing when jumping intentionally, and Dexterity-based Athletics.",
+      "Saturnian is Medium, has a retractable object-manipulating tail, and can spend 10 minutes concentrating to change between four and seven legs once per long rest. Four can knock a target prone with claws after a 20-ft. straight approach and a failed Strength save (DC 8 + proficiency bonus + Strength modifier). Five or seven legs deal 3d4 with claws. Six or seven legs raise walking speed to 50 ft. and impose a −2 penalty on Constitution saves. Six legs climb 40 ft. Seven legs climb 50 ft. and also take −2 on Dexterity saves.",
+      "Uranian is Medium, adds Strength +1, walks 30 ft., and climbs 20 ft. It has unarmored AC 13 + Dexterity, sees ethereal creatures and objects within 60 ft., and can check for magic in a visible object within 60 ft. as a bonus action."
+    ]
+  },
+  {
+    "name": "Mythos Ghoul",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Sandy Petersen’s Cthulhu Mythos for 5e",
+    "traits": [
+      "Petersen Games player option for the 2014 fifth-edition rules. ISBN 978-0-9995390-4-0.",
+      "Living Medium Monstrosity. Constitution and Intelligence each increase by 1. Walk 30 ft. Darkvision 60 ft. Born ghouls reach adulthood at about 10 years and can live into their sixth century. Common.",
+      "Grave Nose grants advantage on Wisdom (Perception) checks using smell to notice corpses, meat, decay, or undead. Nonmagical diseases have no effect. Saves against magical diseases have advantage.",
+      "Bite and claws are light, finesse unarmed strikes dealing 1d4 piercing. Bite is explicitly usable for two-weapon fighting.",
+      "Psychic Feast. Spend 1 minute feeding on a humanoid or monstrosity corpse with flesh that has been dead for at least 24 hours. Choose a skill or tool you think it knew. If it lacked that proficiency, the GM chooses the insight instead. Add half your proficiency bonus for checks you lack proficiency in, or one and a half times the bonus when already proficient. Normally one insight per corpse and at most three in total. Replace an old insight if full. The GM may grant stronger insights from ancient corpses.",
+      "Raised by Ghouls adds Ghoul, burrow 10 ft. through sand, earth, mud, or ice, and advantage to Perception and Investigation checks to find hidden or buried objects. A tunnel remains in suitably solid material. Hold your breath if leaving no tunnel.",
+      "Raised by Dwarves adds Dwarvish, four dwarf weapon proficiencies, smith’s tools, brewer’s supplies, or mason’s tools, and double proficiency on History checks about the origin of stonework.",
+      "Raised by Elves adds Elvish and the chosen elf subrace’s own traits except ability score increases. Raised by Half-Elves adds Elvish and two skill proficiencies. Raised by Half-Orcs adds Orc, Intimidation proficiency, and an extra weapon damage die on melee weapon attack critical hits.",
+      "Raised by Humans adds +1 each to two different scores chosen from Strength, Dexterity, Wisdom, and Charisma."
+    ]
+  },
+  {
+    "name": "Gnorri",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Sandy Petersen’s Cthulhu Mythos for 5e",
+    "traits": [
+      "Petersen Games player option for the 2014 fifth-edition rules. ISBN 978-0-9995390-4-0.",
+      "Large amphibious Monstrosity. Walk 25 ft. and swim 35 ft. Darkvision 60 ft. or 120 ft. underwater. Usually neutral. Reaches adulthood before age seven and can live over five centuries. Common and Gnorri.",
+      "Moves through a 5-ft.-wide space without squeezing and can squeeze through a 2-ft.-wide space. Immune to water pressure. Uses Medium weapons and lacks legs and feet for equipment.",
+      "Gnorri Science grants either Medicine or Nature proficiency, plus alchemist’s supplies, herbalism kit, or poisoner’s kit.",
+      "Limb Allocation. Once per day concentrate for 10 minutes to change the number of arms. A failed concentration attempt can be restarted. Two arms grant +1 on Strength-based weapon damage. Three give no modifier. Four impose −1 to Constitution saves.",
+      "Builder Magic replaces Gnorri Science. Use Mending on stone. With Wisdom 13 or higher, cast one eligible spell from the table on p. 26 per long rest using Wisdom. Each spell has a character-level minimum and usually requires nearby gnorri without Builder Magic. The ally requirement is waived when the character could know or prepare the spell at that level in their class.",
+      "Black adds Intelligence +2 and Constitution +1, and sees through magical darkness. Blue adds Wisdom +2 and Constitution +1, and can turn a critical hit against itself into a normal hit as a reaction once per short or long rest.",
+      "Mottled adds Wisdom +2 and Constitution +1, and walks 30 ft. Red adds Constitution +2 and Wisdom +1, has unarmored AC 13 + Dexterity, and cannot gain a fourth arm. White adds Wisdom +2 and Constitution +1, cold resistance, and fire vulnerability."
+    ]
+  },
+  {
+    "name": "Zoog",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Sandy Petersen’s Cthulhu Mythos for 5e",
+    "traits": [
+      "Petersen Games player option for the 2014 fifth-edition rules. ISBN 978-0-9995390-4-0.",
+      "Small rodentlike Humanoid with the zoog tag. Dexterity +2 and Intelligence +1. Matures at age five and rarely lives past forty. Most are chaotic. Reads, writes, and speaks Common. Speaks Zoog, which is unwritten.",
+      "Walk and climb 25 ft. using at least three empty hands. Walk or climb 15 ft. with two empty hands. Pass held objects among hands, face tendrils, and tail without an action or object interaction. Burrow 10 ft. through sand, earth, mud, or ice. In suitably stable material a tunnel can remain. Hold your breath if leaving no tunnel.",
+      "Darkvision 60 ft. Perception proficiency. A light, finesse bite deals 1d4 piercing as an unarmed strike and can be used for two-weapon fighting.",
+      "Facial tentacles can manipulate one palm-sized object and can wield a blowgun or similar device. The tail can hold items and use tools but cannot wield weapons or shields. Two pouches each fit a cup-sized item or four palm-sized items. Retrieve an item from a pouch as a bonus action with a facial tentacle or the tail.",
+      "Trap Culture grants the relevant proficiency when using artisan’s tools to build a trap, thieves’ tools to disable one, or making a saving throw against a trap."
+    ]
+  }
+]

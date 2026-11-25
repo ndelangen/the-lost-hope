@@ -1,0 +1,338 @@
+{
+  "builds": [
+    {
+      "id": "hcs-cervan-bracken-mossbell-5e",
+      "origin": "Original DM Library NPC",
+      "title": "Flood-route surveyor, Ranger 2, Grove",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "difficulty": "Classed NPC using the player species profile. Challenge rating depends on the encounter.",
+      "size": "Medium",
+      "type": "Humanoid",
+      "ac": 15,
+      "hp": 20,
+      "hitDice": "2d10+4",
+      "initiative": 3,
+      "speed": "35 ft. walk",
+      "abilityScores": {
+        "STR": 12,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 14,
+        "CHA": 10
+      },
+      "skills": [
+        "Animal Handling +4",
+        "Athletics +3",
+        "Nature +2",
+        "Perception +4",
+        "Stealth +5",
+        "Survival +4"
+      ],
+      "senses": "Normal vision",
+      "languages": "Birdfolk, Cervan (spoken)",
+      "traits": [
+        "Studded leather; passive Perception 14. Proficiency +2. Strength save +3, Dexterity save +5. Archery fighting style.",
+        "Grove Cervan. Long jump 30 ft. and high jump 15 ft. with or without a running start, spending movement normally. Opportunity attacks against Bracken have disadvantage.",
+        "Surge of Vigor once per long rest. An attack dealing more than half current HP immediately triggers healing of 1d12+2, including a hit that drops Bracken to 0 HP.",
+        "Favored Enemy beasts and Natural Explorer forest. Speaks Birdfolk and spoken Cervan."
+      ],
+      "actions": [
+        "Longbow +7 to hit, range 150/600 ft., 1d8+3 piercing. Shortsword +5 to hit, reach 5 ft., 1d6+3 piercing.",
+        "Spellcasting. Two 1st-level slots per long rest. Cure wounds restores 1d8+2 HP to a touched creature. Hunter’s mark requires concentration and adds 1d6 damage to weapon hits against the marked target."
+      ],
+      "tactics": "Bracken leaps across a gap to secure the line. She leaves melee through the clearest route and uses her bow from across the washout."
+    },
+    {
+      "id": "hcs-cervan-hollis-shadebuck-5e",
+      "origin": "Original DM Library NPC",
+      "title": "Bridge barricade guard, Fighter 2, Pronghorn",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "difficulty": "Classed NPC using the player species profile. Challenge rating depends on the encounter.",
+      "size": "Medium",
+      "type": "Humanoid",
+      "ac": 18,
+      "hp": 22,
+      "hitDice": "2d10+6",
+      "initiative": 1,
+      "speed": "30 ft. walk",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 12,
+        "CON": 16,
+        "INT": 10,
+        "WIS": 10,
+        "CHA": 10
+      },
+      "skills": [
+        "Athletics +5",
+        "Intimidation +2",
+        "Perception +2",
+        "Survival +2"
+      ],
+      "senses": "Normal vision",
+      "languages": "Birdfolk, Cervan (spoken)",
+      "traits": [
+        "Scale mail, shield, Defense fighting style. Proficiency +2. Strength and Constitution saves +5. Disadvantage on Stealth.",
+        "Pronghorn Cervan. Carry up to 480 lb. Push, drag, or lift up to 960 lb.",
+        "Surge of Vigor once per long rest. An attack dealing more than half current HP immediately triggers healing of 1d12+3, including a hit that drops Hollis to 0 HP."
+      ],
+      "actions": [
+        "Longsword +5 to hit, reach 5 ft., 1d8+3 slashing with shield equipped. Antlers +5 to hit, reach 5 ft., 1d6+3 piercing.",
+        "Charge. After moving at least 20 ft. in a straight line toward the opponent, spend a bonus action for an extra 1d6 piercing on the gore. Large or smaller targets must make a DC 13 Strength save or be pushed 10 ft. away into a space Hollis chooses.",
+        "Action Surge grants one extra action. Second Wind restores 1d10+2 HP as a bonus action. Each recharges on a short or long rest."
+      ],
+      "tactics": "Hollis leaves a clear rush lane, starts behind the barricade, and uses the antlers to drive a foe away from the rigging crew."
+    },
+    {
+      "id": "hcs-hedge-rowan-burrowfinch-5e",
+      "origin": "Original DM Library NPC",
+      "title": "Burrow mediator, Bard 2",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "difficulty": "Classed NPC using the player species profile. Challenge rating depends on the encounter.",
+      "size": "Small",
+      "type": "Humanoid",
+      "ac": 16,
+      "hp": 15,
+      "hitDice": "2d8+2",
+      "initiative": 3,
+      "speed": "25 ft. walk, 15 ft. burrow through soil",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 14,
+        "CON": 12,
+        "INT": 10,
+        "WIS": 14,
+        "CHA": 16
+      },
+      "skills": [
+        "Animal Handling +4",
+        "Deception +5",
+        "Insight +4",
+        "Nature +2",
+        "Persuasion +5"
+      ],
+      "senses": "Normal vision",
+      "languages": "Birdfolk, Hedge",
+      "traits": [
+        "Quill AC 14 + Dexterity modifier. Dexterity save +4, Charisma save +5. Jack of All Trades gives +1 to initiative and other ability checks that do not already include proficiency.",
+        "Speak With Bugs conveys simple ideas to Beast insects, spiders, worms, and similar creatures. Song of Rest lets a friendly creature spending Hit Dice in a short rest regain an extra 1d6 HP."
+      ],
+      "actions": [
+        "Rapier +4 to hit, reach 5 ft., 1d8+2 piercing. Bard spell save DC 13, spell attack +5, three 1st-level slots. Cantrips mage hand and vicious mockery. Known spells cure wounds, faerie fire, healing word, speak with animals, and thunderwave.",
+        "Bardic Inspiration. Three times per long rest, bonus action to grant a d6 to another creature within 60 ft. that can hear Rowan. Healing word restores 1d4+3 HP at range 60 ft. as a bonus action using a spell slot.",
+        "Forest Magic grants druidcraft and one 2nd-level casting of animal messenger per short or long rest.",
+        "Curl Up as an action. AC 19, no Dexterity bonus. Rowan cannot move, attack, or cast spells with somatic components. Each creature missing him with a melee attack takes 2d4 piercing. A hit knocks him prone at the end of the turn. Rowan may uncurl on his turn."
+      ],
+      "tactics": "Rowan sends word before taking sides. If pinned down on soil, he burrows out of reach or curls up to hold the passage."
+    },
+    {
+      "id": "hcs-jerbeen-tansy-pipwake-5e",
+      "origin": "Original DM Library NPC",
+      "title": "Ropeway courier, Rogue 2",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "difficulty": "Classed NPC using the player species profile. Challenge rating depends on the encounter.",
+      "size": "Small",
+      "type": "Humanoid",
+      "ac": 14,
+      "hp": 17,
+      "hitDice": "2d8+4",
+      "initiative": 3,
+      "speed": "30 ft. walk",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 14
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Deception +4",
+        "Insight +3",
+        "Investigation +2",
+        "Perception +3",
+        "Sleight of Hand +5",
+        "Stealth +7",
+        "Thieves’ tools +7 if using Dexterity"
+      ],
+      "senses": "Normal vision",
+      "languages": "Birdfolk, Jerbeen",
+      "traits": [
+        "Leather armor, proficiency +2, passive Perception 13. Dexterity save +5, Intelligence save +2. Expertise in Stealth and thieves’ tools.",
+        "Standing Leap. Long jump 30 ft. or high jump 15 ft., with or without a running start, spending movement normally. Can move through a larger creature’s space.",
+        "Take Heart. Advantage on Strength saves and saves against being frightened with an ally within 5 ft. who is visible, audible, neither frightened nor incapacitated."
+      ],
+      "actions": [
+        "Shortbow +5 to hit, range 80/320 ft., 1d6+3 piercing. Dagger +5 to hit, reach 5 ft. or range 20/60 ft., 1d4+3 piercing.",
+        "Sneak Attack adds 1d6 once per turn on a qualifying finesse or ranged weapon hit. Use the bonus action for Dash, Disengage, Hide, or Help. For combat Help, Tansy must be within 5 ft. of the target when she aids the ally."
+      ],
+      "tactics": "Tansy jumps across, keeps an ally close when facing fear, and uses bonus-action Help to line up the ally’s next strike when in range."
+    },
+    {
+      "id": "hcs-mapach-kestrel-pinshank-5e",
+      "origin": "Original DM Library NPC",
+      "title": "Pulley repairer, Life Cleric 2",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "difficulty": "Classed NPC using the player species profile. Challenge rating depends on the encounter.",
+      "size": "Medium",
+      "type": "Humanoid",
+      "ac": 16,
+      "hp": 17,
+      "hitDice": "2d8+4",
+      "initiative": 1,
+      "speed": "30 ft. walk, 20 ft. climb",
+      "abilityScores": {
+        "STR": 12,
+        "DEX": 12,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 16,
+        "CHA": 10
+      },
+      "skills": [
+        "Insight +5",
+        "Medicine +5",
+        "Religion +2",
+        "Tinker’s tools proficient"
+      ],
+      "senses": "Darkvision 60 ft.",
+      "languages": "Birdfolk, Mapach",
+      "traits": [
+        "Chain shirt and shield, proficiency +2, Wisdom save +5, Charisma save +2.",
+        "Resilience. Advantage on saves against poison and resistance to poison damage. Advantage on Dexterity (Stealth) checks in dim light and darkness.",
+        "Scroungecraft produces a temporary tool or adventuring item up to 30 gp in 10 minutes with suitable materials. Temporary tools are single-use. Other items generally last an hour. A repair with suitable materials holds as long as the GM decides.",
+        "Disciple of Life adds 2 + spell level to HP restored by spells of 1st level or higher."
+      ],
+      "actions": [
+        "Mace +3 to hit, reach 5 ft., 1d6+1 bludgeoning. Sacred flame DC 13 Dexterity save or 1d8 radiant.",
+        "Cleric spell save DC 13, spell attack +5, three 1st-level slots. Cantrips guidance, mending, and sacred flame. Prepared spells detect poison and disease, guiding bolt, healing word, sanctuary, and shield of faith. Domain spells bless and cure wounds are also prepared.",
+        "At 1st level, cure wounds restores 1d8+6 HP and healing word restores 1d4+6 HP with Disciple of Life.",
+        "Channel Divinity once per short or long rest. Preserve Life can allocate 10 HP among creatures within 30 ft., limited to half each target’s max HP and excluding undead and constructs. Turn Undead forces undead within 30 ft. that can see or hear Kestrel to save against DC 13 Wisdom or be turned for 1 minute or until damaged."
+      ],
+      "tactics": "Kestrel climbs to the winch, improvises a tool when materials allow, and keeps healing word in reserve for anyone pinned below."
+    },
+    {
+      "id": "hcs-vulpin-lark-ashplume-5e",
+      "origin": "Original DM Library NPC",
+      "title": "Disputed-toll negotiator, Illusion Wizard 5",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "difficulty": "Classed NPC using the player species profile. Challenge rating depends on the encounter.",
+      "size": "Medium",
+      "type": "Humanoid",
+      "ac": 15,
+      "hp": 32,
+      "hitDice": "5d6+10",
+      "initiative": 2,
+      "speed": "30 ft. walk",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 16,
+        "WIS": 10,
+        "CHA": 12
+      },
+      "skills": [
+        "Arcana +6",
+        "Insight +3",
+        "Investigation +6",
+        "Persuasion +4"
+      ],
+      "senses": "Darkvision 60 ft.",
+      "languages": "Birdfolk, Vulpin, Mapach",
+      "traits": [
+        "AC 15 with mage armor already cast, otherwise AC 12. Proficiency +3. Intelligence save +6, Wisdom save +3. Evasive gives Dexterity save +5 including Intelligence modifier.",
+        "Improved Minor Illusion allows both image and sound with one casting of minor illusion. Arcane Recovery can recover up to 3 combined spell-slot levels after one short rest per day."
+      ],
+      "actions": [
+        "Bite +5 to hit, reach 5 ft., 1d6+2 piercing. Fire bolt +6 to hit, range 120 ft., 2d10 fire.",
+        "Wizard spell save DC 14, spell attack +6. Slots 4/3/2 by spell level, with one 1st-level slot spent if mage armor is active. Cantrips fire bolt, mage hand, message, minor illusion, and prestidigitation.",
+        "Prepared spells. 1st level detect magic, mage armor, shield. 2nd level mirror image, misty step, web. 3rd level counterspell, hypnotic pattern.",
+        "Bewitching Guile supplies charm person, 2nd-level ambush prey, and fear independently once each per long rest at DC 14 where applicable. Ambush prey grants invisibility for up to 1 hour and ends if Lark moves at least 5 ft. from the casting point or makes the first attack against an unaware target, which adds 1d6 damage."
+      ],
+      "tactics": "Lark opens with negotiation. Under threat, she uses ambush prey only when she can hold position, or drops web between herself and her pursuers before using misty step on a later turn."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Bracken Mossbell",
+      "species": "Cervan",
+      "speciesPublication": "Humblewood Campaign Setting",
+      "edition": "Fifth edition compatible",
+      "size": "Medium",
+      "build": "hcs-cervan-bracken-mossbell-5e",
+      "role": "Flood-route surveyor",
+      "motive": "Flag a dry crossing before the supply cart reaches the flooded ford.",
+      "hook": "Bracken needs someone to hold the survey line while she jumps the washout."
+    },
+    {
+      "name": "Hollis Shadebuck",
+      "species": "Cervan",
+      "speciesPublication": "Humblewood Campaign Setting",
+      "edition": "Fifth edition compatible",
+      "size": "Medium",
+      "build": "hcs-cervan-hollis-shadebuck-5e",
+      "role": "Bridge barricade guard",
+      "motive": "Keep the washed-out bridge clear until rope crews can reach the far side.",
+      "hook": "Hollis asks the party to move away from the bridge mouth, leaving him room to drive a hostile creature back."
+    },
+    {
+      "name": "Rowan Burrowfinch",
+      "species": "Hedge",
+      "speciesPublication": "Humblewood Campaign Setting",
+      "edition": "Fifth edition compatible",
+      "size": "Small",
+      "build": "hcs-hedge-rowan-burrowfinch-5e",
+      "role": "Burrow mediator",
+      "motive": "Send a message to both camps before a quarrel reaches the village.",
+      "hook": "Rowan asks a beetle which camp crossed the garden wall, then offers to pass on what it saw."
+    },
+    {
+      "name": "Tansy Pipwake",
+      "species": "Jerbeen",
+      "speciesPublication": "Humblewood Campaign Setting",
+      "edition": "Fifth edition compatible",
+      "size": "Small",
+      "build": "hcs-jerbeen-tansy-pipwake-5e",
+      "role": "Ropeway courier",
+      "motive": "Get the guild ledger over the old ropeway before the lower trail closes.",
+      "hook": "Tansy points to a shorter crossing and asks who will tie off the line after she jumps."
+    },
+    {
+      "name": "Kestrel Pinshank",
+      "species": "Mapach",
+      "speciesPublication": "Humblewood Campaign Setting",
+      "edition": "Fifth edition compatible",
+      "size": "Medium",
+      "build": "hcs-mapach-kestrel-pinshank-5e",
+      "role": "Pulley repairer",
+      "motive": "Restart the lift before its last passengers run out of drinking water.",
+      "hook": "Kestrel can brace the stalled pulley with a temporary tool, but needs someone to keep the cargo platform steady."
+    },
+    {
+      "name": "Lark Ashplume",
+      "species": "Vulpin",
+      "speciesPublication": "Humblewood Campaign Setting",
+      "edition": "Fifth edition compatible",
+      "size": "Medium",
+      "build": "hcs-vulpin-lark-ashplume-5e",
+      "role": "Disputed-toll negotiator",
+      "motive": "Recover a route contract taken during a dispute over the road toll.",
+      "hook": "Lark makes the case for releasing the courier while quietly preparing an escape route."
+    }
+  ]
+}

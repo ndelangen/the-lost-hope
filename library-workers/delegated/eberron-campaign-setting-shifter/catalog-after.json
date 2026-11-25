@@ -1,0 +1,1228 @@
+[
+  {
+    "name": "Shifter",
+    "kind": "species",
+    "group": "2024 fifth edition",
+    "groups": [
+      "2024 fifth edition",
+      "2014 fifth edition",
+      "3.5 edition"
+    ],
+    "otherEntry": {
+      "id": "monster-eafeb6ad20d21c0b52c44806",
+      "name": "Shifter",
+      "kind": "monster",
+      "group": "Humanoid",
+      "groups": [
+        "Humanoid"
+      ],
+      "images": [
+        {
+          "url": "",
+          "credit": "Cory Trego-Erdner · Eberron: Rising from the Last War"
+        }
+      ],
+      "versions": [
+        {
+          "key": "aea374a864669aead2e5f3ce",
+          "publication": "Eberron: Rising from the Last War",
+          "edition": "2014 fifth edition",
+          "description": "A Medium humanoid with challenge rating 1/2. Named abilities include Shifting (Recharges after a Short or Long Rest), Shortsword, Bite.",
+          "source": "https://5e.tools/bestiary.html#shifter_erlw",
+          "artwork": "https://www.dndbeyond.com/avatars/thumbnails/7726/686/1000/1000/637091742736803848.png",
+          "status": "Encounter reference",
+          "images": [
+            {
+              "url": "",
+              "credit": "Cory Trego-Erdner · Eberron: Rising from the Last War"
+            }
+          ],
+          "stats": [
+            [
+              "Armor class",
+              "14"
+            ],
+            [
+              "Hit points",
+              "19"
+            ],
+            [
+              "Hit dice",
+              "3d8 + 6"
+            ],
+            [
+              "Challenge",
+              "1/2"
+            ],
+            [
+              "Size",
+              "Medium"
+            ],
+            [
+              "Type",
+              "Humanoid"
+            ],
+            [
+              "Speed",
+              "walk 30 ft."
+            ],
+            [
+              "Passive Perception",
+              "14"
+            ],
+            [
+              "Strength",
+              "12"
+            ],
+            [
+              "Dexterity",
+              "16"
+            ],
+            [
+              "Constitution",
+              "14"
+            ],
+            [
+              "Intelligence",
+              "11"
+            ],
+            [
+              "Wisdom",
+              "15"
+            ],
+            [
+              "Charisma",
+              "10"
+            ],
+            [
+              "Creature tags",
+              "shifter"
+            ],
+            [
+              "Alignment",
+              "any alignment"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Attacks",
+              "lines": [
+                "Shortsword · melee · +5 to hit · reach 5 ft. · 1d6 + 3 piercing",
+                "Bite · melee · +5 to hit · reach 5 ft. · 1d4 + 3 piercing"
+              ]
+            },
+            {
+              "title": "Skills",
+              "lines": [
+                "Acrobatics +5, Insight +4, Nature +2, Perception +4"
+              ]
+            },
+            {
+              "title": "Senses",
+              "lines": [
+                "darkvision 60 ft."
+              ]
+            },
+            {
+              "title": "Languages",
+              "lines": [
+                "Common"
+              ]
+            },
+            {
+              "title": "Traits reference",
+              "lines": [
+                "Shifting (Recharges after a Short or Long Rest) · 1 minute · 5 temporary hit points"
+              ]
+            },
+            {
+              "title": "Actions reference",
+              "lines": [
+                "Shortsword · Melee attack · +5 to hit · 1d6 + 3 piercing damage · reach 5 ft.",
+                "Bite · Melee attack · +5 to hit · 1d4 + 3 piercing damage · reach 5 ft."
+              ]
+            }
+          ],
+          "sourceCode": "ERLW",
+          "page": 319,
+          "references": [
+            {
+              "label": "Eberron: Rising from the Last War, p. 319",
+              "url": "https://5e.tools/bestiary.html#shifter_erlw"
+            },
+            {
+              "label": "Leather armor (item)",
+              "url": "https://5e.tools/items.html#leather%20armor_phb",
+              "local": {
+                "entry": "item-cebdf9513c0fd232b63036a4",
+                "version": "PHB:144:https://5e.tools/items.html#leather%20armor_phb"
+              },
+              "preview": {
+                "name": "Leather armor",
+                "group": "blacksmith",
+                "publication": "Player's Handbook (2014)",
+                "page": 144,
+                "description": "A light armor.",
+                "local": {
+                  "entry": "item-cebdf9513c0fd232b63036a4",
+                  "version": "PHB:144:https://5e.tools/items.html#leather%20armor_phb"
+                }
+              }
+            }
+          ],
+          "inline": {
+            "A Medium humanoid with challenge rating 1/2. Named abilities include Shifting (Recharges after a Short or Long Rest), Shortsword, Bite.": [
+              {
+                "start": 106,
+                "end": 115,
+                "target": {
+                  "name": "Long Rest",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 370,
+                  "local": {
+                    "entry": "compendium-98495753e138034822d956bb",
+                    "version": "XPHB:370:https://5e.tools/variantrules.html#long%20rest_xphb"
+                  }
+                }
+              }
+            ],
+            "Size": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ],
+            "Passive Perception": [
+              {
+                "start": 0,
+                "end": 18,
+                "target": {
+                  "name": "Passive Perception",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 372,
+                  "local": {
+                    "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                    "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                  }
+                }
+              }
+            ],
+            "Creature tags": [
+              {
+                "start": 0,
+                "end": 8,
+                "target": {
+                  "name": "Creature",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 364,
+                  "local": {
+                    "entry": "compendium-41ace94d9abdf138cb1e633b",
+                    "version": "XPHB:364:https://5e.tools/variantrules.html#creature_xphb"
+                  }
+                }
+              }
+            ],
+            "Alignment": [
+              {
+                "start": 0,
+                "end": 9,
+                "target": {
+                  "name": "Alignment",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 360,
+                  "local": {
+                    "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                    "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                  }
+                }
+              }
+            ],
+            "Acrobatics +5, Insight +4, Nature +2, Perception +4": [
+              {
+                "start": 0,
+                "end": 10,
+                "target": {
+                  "name": "Acrobatics",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 176,
+                  "local": {
+                    "entry": "compendium-bc59901e4cb76eeb8ee777ef",
+                    "version": "PHB:176:https://5e.tools/skills.html#acrobatics_phb"
+                  }
+                }
+              },
+              {
+                "start": 15,
+                "end": 22,
+                "target": {
+                  "name": "Insight",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 178,
+                  "local": {
+                    "entry": "compendium-1f9e2774a7c5b7ca92d7bde8",
+                    "version": "PHB:178:https://5e.tools/skills.html#insight_phb"
+                  }
+                }
+              },
+              {
+                "start": 27,
+                "end": 33,
+                "target": {
+                  "name": "Nature",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 178,
+                  "local": {
+                    "entry": "compendium-2e87c255d6edb78d6a115c06",
+                    "version": "PHB:178:https://5e.tools/skills.html#nature_phb"
+                  }
+                }
+              },
+              {
+                "start": 38,
+                "end": 48,
+                "target": {
+                  "name": "Perception",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 178,
+                  "local": {
+                    "entry": "compendium-f21bfeaccf140efabf3793fe",
+                    "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                  }
+                }
+              }
+            ],
+            "darkvision 60 ft.": [
+              {
+                "start": 0,
+                "end": 10,
+                "target": {
+                  "name": "Darkvision",
+                  "group": "Senses",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 183,
+                  "local": {
+                    "entry": "compendium-7acfde2bf83729872c25017b",
+                    "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+                  }
+                }
+              }
+            ],
+            "Shifting (Recharges after a Short or Long Rest) · 1 minute · 5 temporary hit points": [
+              {
+                "start": 37,
+                "end": 46,
+                "target": {
+                  "name": "Long Rest",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 370,
+                  "local": {
+                    "entry": "compendium-98495753e138034822d956bb",
+                    "version": "XPHB:370:https://5e.tools/variantrules.html#long%20rest_xphb"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "image": {
+        "url": "",
+        "credit": "Cory Trego-Erdner · Eberron: Rising from the Last War"
+      }
+    },
+    "global": true,
+    "version": {
+      "key": "1d115a0b4620e6bd6b651752",
+      "publication": "Eberron Campaign Setting (2004)",
+      "edition": "3.5 edition",
+      "source": "https://openlibrary.org/books/OL8144376M",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Humanoid (Shapechanger)"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Medium Humanoid with the Shapechanger subtype. Base land speed 30 ft. +2 Dexterity, −2 Intelligence, −2 Charisma. The setting entry gives no racial Hit Dice or level adjustment.",
+            "Low-light vision doubles human range and preserves color and detail. +2 racial on Balance, Climb, and Jump.",
+            "Common is automatic. Bonus languages are Elven, Gnome, Halfling, and Sylvan. Favored class Ranger.",
+            "Shifting (Su) is a free action once per day. It lasts 3 rounds + the current Constitution modifier, counting an increase from shifting. Each shifter feat adds one round per use, and each pair of shifter feats adds one daily use.",
+            "Choose one of the six original traits at character creation. Its active benefits apply while shifting. Shifting is innate and cannot be transmitted by bites or claws.",
+            "Beasthide gives +2 Constitution and a +2 natural armor bonus to AC.",
+            "Cliffwalk gives +2 Dexterity and a climb speed of 20 ft.",
+            "Longstride gives +2 Dexterity and +10 ft. to base land speed.",
+            "Longtooth gives +2 Strength and a bite with a printed base die of 1d6 and +1 damage per four character levels. Bite once per round. When paired with a weapon, the bite is a secondary natural attack with −5 on the bite attack roll and half the Strength bonus to damage.",
+            "Razorclaw gives +2 Strength and two primary claws with printed base damage 1d4 +1 per four character levels per claw. Use one claw as a standard action or both as a full attack. Each claw attacks at most once per round. In the first printing, using a claw as a light off-hand weapon with a manufactured primary weapon applies −2 to all attacks that round.",
+            "Wildhunt gives +2 Constitution and scent while shifting. Outside shifting, Wildhunt gives +2 to Survival checks.",
+            "Wildhunt scent detects a creature at 30 ft., 60 ft. upwind, or 15 ft. downwind. Double those ranges for strong odors and triple them for overpowering odors. A move action identifies direction. Within 5 ft., pinpoint the source.",
+            "While shifting, a Wildhunt Shifter with Track can follow scent using Survival. A typical fresh trail is DC 10 and adds +2 per hour, with adjustments for odor and group size. Ignore surface and poor-visibility modifiers."
+          ]
+        },
+        {
+          "title": "Original NPC · Iona Fernridge",
+          "lines": [
+            "Wildhunt trail ranger.",
+            "Motive. Locate a missing pack train before its tracks wash away.",
+            "Hook. Iona can follow a familiar scent across bare stone if the party identifies the right bundle of gear.",
+            "Shifter Wildhunt trail ranger, Ranger 1 · Provisional CR 1. ECL 1. · Medium Humanoid (Shapechanger)",
+            "AC 15 · HP 10 (1d8+2) · Speed 30 ft."
+          ]
+        },
+        {
+          "title": "Original NPC · Dane Millward",
+          "lines": [
+            "Razorclaw latchguard and Fighter.",
+            "Motive. Get the repairers through a warped mill gate before it gives way.",
+            "Hook. Dane can keep watch at the opening if the party helps secure the worn latch.",
+            "Shifter Razorclaw latchguard, Fighter 1 · Provisional CR 1. ECL 1. · Medium Humanoid (Shapechanger)",
+            "AC 15 · HP 12 (1d10+2) · Speed 30 ft."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Iona Fernridge": [
+          {
+            "start": 15,
+            "end": 29,
+            "target": {
+              "name": "Iona Fernridge",
+              "group": "Shifter",
+              "publication": "Shifter Wildhunt trail ranger, Ranger 1",
+              "local": {
+                "entry": "npc-4bdb23ba73dd684774b02b51",
+                "version": "7f9a93460fa62e7cd8b73058"
+              }
+            }
+          }
+        ],
+        "Original NPC · Dane Millward": [
+          {
+            "start": 15,
+            "end": 28,
+            "target": {
+              "name": "Dane Millward",
+              "group": "Shifter",
+              "publication": "Shifter Razorclaw latchguard, Fighter 1",
+              "local": {
+                "entry": "npc-918f6b549a50be4ca351fee4",
+                "version": "f47f852bffb417d94a1332d3"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [
+      {
+        "key": "9bf9164545dae95a700ecdaa",
+        "publication": "Eberron: Forge of the Artificer",
+        "edition": "2024 fifth edition",
+        "source": "https://5e.tools/races.html#shifter_efa",
+        "artwork": "https://www.dndbeyond.com/avatars/thumbnails/52994/775/340/340/638996059017540274.png",
+        "status": "Traits summary",
+        "images": [
+          {
+            "url": "",
+            "credit": "John Thack · Eberron: Forge of the Artificer"
+          }
+        ],
+        "stats": [
+          [
+            "Size",
+            "Small, Medium"
+          ],
+          [
+            "Speed",
+            "30 ft."
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Species traits",
+            "lines": [
+              "Size Small or Medium.",
+              "Walking speed 30 feet.",
+              "Darkvision 60 feet.",
+              "Source traits include Bestial Instincts, Darkvision, Shifting."
+            ]
+          },
+          {
+            "title": "Sections",
+            "lines": [
+              "Bestial Instincts",
+              "Darkvision",
+              "Shifting"
+            ]
+          }
+        ],
+        "sourceCode": "EFA",
+        "page": 37,
+        "references": [
+          {
+            "label": "Eberron: Forge of the Artificer, p. 37",
+            "url": "https://5e.tools/races.html#shifter_efa"
+          },
+          {
+            "label": "Acrobatics (skill)",
+            "url": "https://5e.tools/skills.html#acrobatics_xphb",
+            "local": {
+              "entry": "compendium-bc59901e4cb76eeb8ee777ef",
+              "version": "XPHB:14:https://5e.tools/skills.html#acrobatics_xphb"
+            },
+            "preview": {
+              "name": "Acrobatics",
+              "group": "Skills",
+              "publication": "Player's Handbook (2024)",
+              "page": 14,
+              "local": {
+                "entry": "compendium-bc59901e4cb76eeb8ee777ef",
+                "version": "XPHB:14:https://5e.tools/skills.html#acrobatics_xphb"
+              }
+            }
+          },
+          {
+            "label": "Athletics (skill)",
+            "url": "https://5e.tools/skills.html#athletics_xphb",
+            "local": {
+              "entry": "compendium-4d6b054f7ceab43099a939e1",
+              "version": "XPHB:14:https://5e.tools/skills.html#athletics_xphb"
+            },
+            "preview": {
+              "name": "Athletics",
+              "group": "Skills",
+              "publication": "Player's Handbook (2024)",
+              "page": 14,
+              "local": {
+                "entry": "compendium-4d6b054f7ceab43099a939e1",
+                "version": "XPHB:14:https://5e.tools/skills.html#athletics_xphb"
+              }
+            }
+          },
+          {
+            "label": "Intimidation (skill)",
+            "url": "https://5e.tools/skills.html#intimidation_xphb",
+            "local": {
+              "entry": "compendium-a7e769241bd92cb3d60ad83b",
+              "version": "XPHB:14:https://5e.tools/skills.html#intimidation_xphb"
+            },
+            "preview": {
+              "name": "Intimidation",
+              "group": "Skills",
+              "publication": "Player's Handbook (2024)",
+              "page": 14,
+              "local": {
+                "entry": "compendium-a7e769241bd92cb3d60ad83b",
+                "version": "XPHB:14:https://5e.tools/skills.html#intimidation_xphb"
+              }
+            }
+          },
+          {
+            "label": "Survival (skill)",
+            "url": "https://5e.tools/skills.html#survival_xphb",
+            "local": {
+              "entry": "compendium-487cfdbc0b0439af434c2d21",
+              "version": "XPHB:14:https://5e.tools/skills.html#survival_xphb"
+            },
+            "preview": {
+              "name": "Survival",
+              "group": "Skills",
+              "publication": "Player's Handbook (2024)",
+              "page": 14,
+              "local": {
+                "entry": "compendium-487cfdbc0b0439af434c2d21",
+                "version": "XPHB:14:https://5e.tools/skills.html#survival_xphb"
+              }
+            }
+          },
+          {
+            "label": "Darkvision (sense)",
+            "url": "https://5e.tools/senses.html#darkvision_xphb",
+            "local": {
+              "entry": "compendium-7acfde2bf83729872c25017b",
+              "version": "XPHB:365:https://5e.tools/senses.html#darkvision_xphb"
+            },
+            "preview": {
+              "name": "Darkvision",
+              "group": "Senses",
+              "publication": "Player's Handbook (2024)",
+              "page": 365,
+              "local": {
+                "entry": "compendium-7acfde2bf83729872c25017b",
+                "version": "XPHB:365:https://5e.tools/senses.html#darkvision_xphb"
+              }
+            }
+          },
+          {
+            "label": "Opportunity Attack (action)",
+            "url": "https://5e.tools/actions.html#opportunity%20attack_xphb",
+            "terms": [
+              "Opportunity Attacks"
+            ],
+            "local": {
+              "entry": "compendium-a05ec14a1e820d13424c67ff",
+              "version": "XPHB:371:https://5e.tools/actions.html#opportunity%20attack_xphb"
+            },
+            "preview": {
+              "name": "Opportunity Attack",
+              "group": "Actions",
+              "publication": "Player's Handbook (2024)",
+              "page": 371,
+              "local": {
+                "entry": "compendium-a05ec14a1e820d13424c67ff",
+                "version": "XPHB:371:https://5e.tools/actions.html#opportunity%20attack_xphb"
+              }
+            }
+          },
+          {
+            "label": "Incapacitated (condition)",
+            "url": "https://5e.tools/conditionsdiseases.html#incapacitated_xphb",
+            "local": {
+              "entry": "compendium-b982916d13c7b1a5bf750c36",
+              "version": "XPHB:369:https://5e.tools/conditionsdiseases.html#incapacitated_xphb"
+            },
+            "preview": {
+              "name": "Incapacitated",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2024)",
+              "page": 369,
+              "description": "You cannot take actions or reactions.",
+              "local": {
+                "entry": "compendium-b982916d13c7b1a5bf750c36",
+                "version": "XPHB:369:https://5e.tools/conditionsdiseases.html#incapacitated_xphb"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Size Small or Medium.": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Darkvision 60 feet.": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2024)",
+                "page": 365,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "XPHB:365:https://5e.tools/senses.html#darkvision_xphb"
+                }
+              }
+            }
+          ],
+          "Source traits include Bestial Instincts, Darkvision, Shifting.": [
+            {
+              "start": 41,
+              "end": 51,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2024)",
+                "page": 365,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "XPHB:365:https://5e.tools/senses.html#darkvision_xphb"
+                }
+              }
+            }
+          ],
+          "Darkvision": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2024)",
+                "page": 365,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "XPHB:365:https://5e.tools/senses.html#darkvision_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "aea374a864669aead2e5f3ce",
+        "publication": "Eberron: Rising from the Last War",
+        "edition": "2014 fifth edition",
+        "source": "https://5e.tools/races.html#shifter_erlw",
+        "artwork": "https://www.dndbeyond.com/avatars/thumbnails/7744/803/340/340/637093441072378104.png",
+        "status": "Traits summary",
+        "images": [
+          {
+            "url": "",
+            "credit": "Eberron: Rising from the Last War"
+          }
+        ],
+        "stats": [
+          [
+            "Size",
+            "Medium"
+          ],
+          [
+            "Speed",
+            "30 ft."
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Species traits",
+            "lines": [
+              "Size Medium.",
+              "Walking speed 30 feet.",
+              "Darkvision 60 feet.",
+              "Source traits include Age, Alignment, Size, Speed, Darkvision, Shifting, Languages."
+            ]
+          },
+          {
+            "title": "Sections",
+            "lines": [
+              "Age",
+              "Alignment",
+              "Size",
+              "Speed",
+              "Darkvision",
+              "Shifting",
+              "Languages"
+            ]
+          }
+        ],
+        "sourceCode": "ERLW",
+        "page": 33,
+        "references": [
+          {
+            "label": "Eberron: Rising from the Last War, p. 33",
+            "url": "https://5e.tools/races.html#shifter_erlw"
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Size Medium.": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Darkvision 60 feet.": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2014)",
+                "page": 183,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+                }
+              }
+            }
+          ],
+          "Source traits include Age, Alignment, Size, Speed, Darkvision, Shifting, Languages.": [
+            {
+              "start": 27,
+              "end": 36,
+              "target": {
+                "name": "Alignment",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                }
+              }
+            },
+            {
+              "start": 38,
+              "end": 42,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            },
+            {
+              "start": 44,
+              "end": 49,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            },
+            {
+              "start": 51,
+              "end": 61,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2014)",
+                "page": 183,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+                }
+              }
+            }
+          ],
+          "Alignment": [
+            {
+              "start": 0,
+              "end": 9,
+              "target": {
+                "name": "Alignment",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                }
+              }
+            }
+          ],
+          "Darkvision": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2014)",
+                "page": 183,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "295b9ad8ee7e2edc0f30f223",
+        "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+        "edition": "2014 fifth edition",
+        "source": "https://5e.tools/races.html#shifter_mpmm",
+        "artwork": "https://www.dndbeyond.com/avatars/thumbnails/25746/881/340/340/637880558359995408.png",
+        "status": "Traits summary",
+        "images": [
+          {
+            "url": "",
+            "credit": "Eric Belisle · Mordenkainen Presents: Monsters of the Multiverse"
+          }
+        ],
+        "stats": [
+          [
+            "Size",
+            "Medium"
+          ],
+          [
+            "Speed",
+            "30 ft."
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Species traits",
+            "lines": [
+              "Size Medium.",
+              "Walking speed 30 feet.",
+              "Darkvision 60 feet.",
+              "Source traits include Bestial Instincts, Darkvision, Shifting."
+            ]
+          },
+          {
+            "title": "Sections",
+            "lines": [
+              "Bestial Instincts",
+              "Darkvision",
+              "Shifting"
+            ]
+          }
+        ],
+        "sourceCode": "MPMM",
+        "page": 32,
+        "references": [
+          {
+            "label": "Mordenkainen Presents: Monsters of the Multiverse, p. 32",
+            "url": "https://5e.tools/races.html#shifter_mpmm"
+          },
+          {
+            "label": "Acrobatics (skill)",
+            "url": "https://5e.tools/skills.html#acrobatics_phb",
+            "local": {
+              "entry": "compendium-bc59901e4cb76eeb8ee777ef",
+              "version": "PHB:176:https://5e.tools/skills.html#acrobatics_phb"
+            },
+            "preview": {
+              "name": "Acrobatics",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 176,
+              "local": {
+                "entry": "compendium-bc59901e4cb76eeb8ee777ef",
+                "version": "PHB:176:https://5e.tools/skills.html#acrobatics_phb"
+              }
+            }
+          },
+          {
+            "label": "Athletics (skill)",
+            "url": "https://5e.tools/skills.html#athletics_phb",
+            "local": {
+              "entry": "compendium-4d6b054f7ceab43099a939e1",
+              "version": "PHB:175:https://5e.tools/skills.html#athletics_phb"
+            },
+            "preview": {
+              "name": "Athletics",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 175,
+              "local": {
+                "entry": "compendium-4d6b054f7ceab43099a939e1",
+                "version": "PHB:175:https://5e.tools/skills.html#athletics_phb"
+              }
+            }
+          },
+          {
+            "label": "Intimidation (skill)",
+            "url": "https://5e.tools/skills.html#intimidation_phb",
+            "local": {
+              "entry": "compendium-a7e769241bd92cb3d60ad83b",
+              "version": "PHB:179:https://5e.tools/skills.html#intimidation_phb"
+            },
+            "preview": {
+              "name": "Intimidation",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 179,
+              "local": {
+                "entry": "compendium-a7e769241bd92cb3d60ad83b",
+                "version": "PHB:179:https://5e.tools/skills.html#intimidation_phb"
+              }
+            }
+          },
+          {
+            "label": "Survival (skill)",
+            "url": "https://5e.tools/skills.html#survival_phb",
+            "local": {
+              "entry": "compendium-487cfdbc0b0439af434c2d21",
+              "version": "PHB:178:https://5e.tools/skills.html#survival_phb"
+            },
+            "preview": {
+              "name": "Survival",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-487cfdbc0b0439af434c2d21",
+                "version": "PHB:178:https://5e.tools/skills.html#survival_phb"
+              }
+            }
+          },
+          {
+            "label": "Incapacitated (condition)",
+            "url": "https://5e.tools/conditionsdiseases.html#incapacitated_phb",
+            "local": {
+              "entry": "compendium-b982916d13c7b1a5bf750c36",
+              "version": "PHB:290:https://5e.tools/conditionsdiseases.html#incapacitated_phb"
+            },
+            "preview": {
+              "name": "Incapacitated",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "You cannot take actions or reactions.",
+              "local": {
+                "entry": "compendium-b982916d13c7b1a5bf750c36",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#incapacitated_phb"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Size Medium.": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Darkvision 60 feet.": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2014)",
+                "page": 183,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+                }
+              }
+            }
+          ],
+          "Source traits include Bestial Instincts, Darkvision, Shifting.": [
+            {
+              "start": 41,
+              "end": 51,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2014)",
+                "page": 183,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+                }
+              }
+            }
+          ],
+          "Darkvision": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2014)",
+                "page": 183,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "queries": {
+      "Shifter": true,
+      "shifter beasthide": true,
+      "shifter cliffwalk": true,
+      "shifter longstride": true,
+      "shifter longtooth": true,
+      "shifter razorclaw": true,
+      "shifter wildhunt": true,
+      "shifter trail ranger": true,
+      "shifter latchguard": true
+    },
+    "hash": "742b99f9636d1bdba9d082e3b83861c8bede901c22bb11a8e18440075507e233",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [
+      {
+        "url": "",
+        "credit": "John Thack · Eberron: Forge of the Artificer"
+      },
+      {
+        "url": "",
+        "credit": "Eberron: Rising from the Last War"
+      },
+      {
+        "url": "",
+        "credit": "Eric Belisle · Mordenkainen Presents: Monsters of the Multiverse"
+      }
+    ],
+    "defaultPublication": "Eberron Campaign Setting (2004)",
+    "defaultVersionKey": "1d115a0b4620e6bd6b651752",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  }
+]

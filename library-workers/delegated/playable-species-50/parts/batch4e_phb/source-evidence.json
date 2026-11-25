@@ -1,0 +1,162 @@
+[
+  {
+    "name": "Deva",
+    "publication": "Player's Handbook 2 (4e)",
+    "edition": "4th edition",
+    "publisher": "Wizards of the Coast",
+    "type": "Immortal humanoid",
+    "url": "",
+    "primaryBookScan": "",
+    "printedPages": [
+      8,
+      9
+    ],
+    "primaryBookPdfPageOffset": 1,
+    "primaryBookSha256": "eeef56430c1f7d3672cf675ebb1868039033d60269bf35503ff5e32156974dd0",
+    "sourceDistinctions": [
+      "PHB2 p. 8 gives 1d6 for the baseline racial power. Auspicious Lineage is a separate option and Selian does not take it.",
+      "Astral Majesty is checked against the attacker’s bloodied status."
+    ],
+    "supportingSources": [
+      {
+        "title": "Player’s Handbook 2, Invoker",
+        "url": "",
+        "pages": [
+          100,
+          101,
+          102,
+          103,
+          104
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Githzerai",
+    "publication": "Player's Handbook 3 (4e)",
+    "edition": "4th edition",
+    "publisher": "Wizards of the Coast",
+    "type": "Humanoid",
+    "url": "",
+    "primaryBookScan": "",
+    "printedPages": [
+      8,
+      9
+    ],
+    "primaryBookPdfPageOffset": 1,
+    "primaryBookSha256": "a8727e1940b246e5fcf232b7c4393c713b3a50e1289c42bc67cf99cdfd3fadbd",
+    "sourceDistinctions": [
+      "PHB3 gives 4e Iron Mind as a defense interrupt and ties the shift to second wind."
+    ],
+    "supportingSources": [
+      {
+        "title": "Player’s Handbook 3, Monk",
+        "url": "",
+        "pages": [
+          62,
+          63,
+          64,
+          65,
+          66
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Minotaur",
+    "publication": "Player's Handbook 3 (4e)",
+    "edition": "4th edition",
+    "publisher": "Wizards of the Coast",
+    "type": "Humanoid",
+    "url": "",
+    "primaryBookScan": "",
+    "printedPages": [
+      10,
+      11
+    ],
+    "primaryBookPdfPageOffset": 1,
+    "primaryBookSha256": "a8727e1940b246e5fcf232b7c4393c713b3a50e1289c42bc67cf99cdfd3fadbd",
+    "sourceDistinctions": [
+      "Inspected the p. 10 scan visually. Paragon damage is 2d6 despite one text layer reading 1d6.",
+      "The PHB3 player option specifies Medium size. Brann adds the normal charge bonus to Goring Charge and uses the race-specific flat number in place of normal level/proficiency math."
+    ],
+    "supportingSources": [
+      {
+        "title": "Player’s Handbook (2008), Fighter and equipment",
+        "url": "",
+        "pages": [
+          75,
+          76,
+          77,
+          78,
+          214,
+          218,
+          287
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Shardmind",
+    "publication": "Player's Handbook 3 (4e)",
+    "edition": "4th edition",
+    "publisher": "Wizards of the Coast",
+    "type": "Immortal humanoid (living construct)",
+    "url": "",
+    "primaryBookScan": "",
+    "printedPages": [
+      12,
+      13
+    ],
+    "primaryBookPdfPageOffset": 1,
+    "primaryBookSha256": "a8727e1940b246e5fcf232b7c4393c713b3a50e1289c42bc67cf99cdfd3fadbd",
+    "sourceDistinctions": [
+      "The six-hour extended rest is on p. 13. Lack of a need to sleep does not itself give immunity to every sleep effect.",
+      "Shard Swarm applies combat advantage before teleporting."
+    ],
+    "supportingSources": [
+      {
+        "title": "Player’s Handbook (2008), Wizard",
+        "url": "",
+        "pages": [
+          156,
+          157,
+          158,
+          159,
+          160
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Wilden",
+    "publication": "Player's Handbook 3 (4e)",
+    "edition": "4th edition",
+    "publisher": "Wizards of the Coast",
+    "type": "Fey humanoid",
+    "url": "",
+    "primaryBookScan": "",
+    "printedPages": [
+      14,
+      15
+    ],
+    "primaryBookPdfPageOffset": 1,
+    "primaryBookSha256": "a8727e1940b246e5fcf232b7c4393c713b3a50e1289c42bc67cf99cdfd3fadbd",
+    "sourceDistinctions": [
+      "All three aspects are abilities of one race. Each extended rest sets which single encounter power is available. Briar begins with Hunter."
+    ],
+    "supportingSources": [
+      {
+        "title": "Player’s Handbook 2, Warden",
+        "url": "",
+        "pages": [
+          152,
+          153,
+          154,
+          155,
+          156
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,310 @@
+[
+  {
+    "name": "Hunter Shark",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 12,
+    "hp": 45,
+    "hitDice": "6d10 + 12",
+    "speed": "0 ft., swim 40 ft.",
+    "cr": "2",
+    "xp": 450,
+    "otherStatistics": "Natural armor. Proficiency bonus +2. Perception +2. Blindsight 30 ft., passive Perception 12. No listed languages.",
+    "appearance": "A robust shark, about 15 to 20 ft. long as an adult. The portrait shows a wide, blunt snout, a pale belly and charcoal tiger bars across slate-grey flanks.",
+    "habitats": [
+      "Deep water",
+      "Underwater"
+    ],
+    "abilities": {
+      "Str": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0 (2018), Chapter 12, p. 140. ",
+      "Traits": "Blood Frenzy. The shark has advantage on melee attack rolls against a creature below its hit point maximum.\nWater Breathing. It can breathe underwater only.",
+      "Actions": "Bite. Melee weapon attack, +6 to hit against one target within 5 ft. On a hit, deal 13 (2d8 + 4) piercing damage."
+    }
+  },
+  {
+    "name": "Hunter Shark",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 12,
+    "hp": 45,
+    "hitDice": "6d10 + 12",
+    "speed": "0 ft., swim 40 ft.",
+    "cr": "2",
+    "xp": 450,
+    "otherStatistics": "Natural armor. Proficiency bonus +2. Perception +2. Blindsight 30 ft., passive Perception 12. No listed languages.",
+    "appearance": "A robust shark, about 15 to 20 ft. long as an adult. The portrait shows a wide, blunt snout, a pale belly and charcoal tiger bars across slate-grey flanks.",
+    "habitats": [
+      "Deep water",
+      "Underwater"
+    ],
+    "abilities": {
+      "Str": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), Appendix A, p. 330. Official online reference: https://www.dndbeyond.com/monsters/16928-hunter-shark",
+      "Traits": "Blood Frenzy. The shark has advantage on melee attack rolls against a creature below its hit point maximum.\nWater Breathing. It can breathe underwater only.",
+      "Actions": "Bite. Melee weapon attack, +6 to hit against one target within 5 ft. On a hit, deal 13 (2d8 + 4) piercing damage."
+    }
+  },
+  {
+    "name": "Killer Whale",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Huge Beast, unaligned",
+    "ac": 12,
+    "hp": 90,
+    "hitDice": "12d12 + 12",
+    "speed": "0 ft., swim 60 ft.",
+    "cr": "3",
+    "xp": 700,
+    "otherStatistics": "Natural armor. Proficiency bonus +2. Perception +3. Blindsight 120 ft., passive Perception 13. No listed languages.",
+    "appearance": "A black-and-white orca with a rounded head, pale eye patches, a tall dorsal fin and broad horizontal tail flukes.",
+    "habitats": [
+      "Underwater",
+      "Coastal waters",
+      "Open ocean"
+    ],
+    "abilities": {
+      "Str": {
+        "score": 19,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0 (2018), Chapter 12, p. 142. ",
+      "Traits": "Echolocation. Being deafened prevents the whale from using its blindsight.\nHold Breath. The whale can hold its breath for 30 minutes.\nKeen Hearing. Roll Wisdom (Perception) checks with advantage when they depend on hearing.",
+      "Actions": "Bite. Melee weapon attack, +6 to hit against one target within 5 ft. On a hit, deal 21 (5d6 + 4) piercing damage."
+    }
+  },
+  {
+    "name": "Killer Whale",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Huge Beast, unaligned",
+    "ac": 12,
+    "hp": 90,
+    "hitDice": "12d12 + 12",
+    "speed": "0 ft., swim 60 ft.",
+    "cr": "3",
+    "xp": 700,
+    "otherStatistics": "Natural armor. Proficiency bonus +2. Perception +3. Blindsight 120 ft., passive Perception 13. No listed languages.",
+    "appearance": "A black-and-white orca with a rounded head, pale eye patches, a tall dorsal fin and broad horizontal tail flukes.",
+    "habitats": [
+      "Underwater",
+      "Coastal waters",
+      "Open ocean"
+    ],
+    "abilities": {
+      "Str": {
+        "score": 19,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), Appendix A, p. 331. Official online reference: https://www.dndbeyond.com/monsters/16937-killer-whale",
+      "Traits": "Echolocation. Being deafened prevents the whale from using its blindsight.\nHold Breath. The whale can hold its breath for 30 minutes.\nKeen Hearing. Roll Wisdom (Perception) checks with advantage when they depend on hearing.",
+      "Actions": "Bite. Melee weapon attack, +6 to hit against one target within 5 ft. On a hit, deal 21 (5d6 + 4) piercing damage."
+    }
+  },
+  {
+    "name": "Plesiosaurus",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 13,
+    "hp": 68,
+    "hitDice": "8d10 + 24",
+    "speed": "20 ft., swim 40 ft.",
+    "cr": "2",
+    "xp": 450,
+    "otherStatistics": "Natural armor. Proficiency bonus +2. Perception +3, Stealth +4. Passive Perception 13. No listed special senses or languages.",
+    "appearance": "A marine reptile with a small head on a long flexible neck. It has a compact slate-grey body, four broad flippers and a short tail.",
+    "habitats": [
+      "Coastal waters",
+      "Underwater"
+    ],
+    "abilities": {
+      "Str": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0 (2018), Chapter 12, p. 149. ",
+      "Traits": "Hold Breath. The plesiosaurus can hold its breath for 1 hour.",
+      "Actions": "Bite. Melee weapon attack, +6 to hit against one target within 10 ft. On a hit, deal 14 (3d6 + 4) piercing damage."
+    }
+  },
+  {
+    "name": "Plesiosaurus",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 13,
+    "hp": 68,
+    "hitDice": "8d10 + 24",
+    "speed": "20 ft., swim 40 ft.",
+    "cr": "2",
+    "xp": 450,
+    "otherStatistics": "Natural armor. Proficiency bonus +2. Perception +3, Stealth +4. Passive Perception 13. No listed special senses or languages.",
+    "appearance": "A marine reptile with a small head on a long flexible neck. It has a compact slate-grey body, four broad flippers and a short tail.",
+    "habitats": [
+      "Coastal waters",
+      "Underwater"
+    ],
+    "abilities": {
+      "Str": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), Dinosaurs, p. 80. Official online reference: https://www.dndbeyond.com/monsters/16981-plesiosaurus",
+      "Traits": "Hold Breath. The plesiosaurus can hold its breath for 1 hour.",
+      "Actions": "Bite. Melee weapon attack, +6 to hit against one target within 10 ft. On a hit, deal 14 (3d6 + 4) piercing damage."
+    }
+  }
+]

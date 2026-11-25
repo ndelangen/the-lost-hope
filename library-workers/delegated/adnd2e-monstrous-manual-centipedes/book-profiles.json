@@ -1,0 +1,183 @@
+[
+  {
+    "name": "Giant Centipede",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "ruleset": "adnd-2e",
+    "appearance": "A long, segmented centipede with chitinous backplates. Forest specimens are brown or red, those in rocky areas are gray, and underground specimens are black.",
+    "combat": {
+      "habitats": [
+        "Any terrain",
+        "Forest, rocky areas, and underground"
+      ],
+      "creatureType": "Animal",
+      "numberOfAttacks": 1,
+      "armorClass": 9,
+      "movement": "15",
+      "hitPoints": 2,
+      "thac0": 20,
+      "damageDice": "Nil",
+      "xp": 35,
+      "size": "Tiny, 1 ft."
+    },
+    "mechanics": {
+      "Combat": [
+        {
+          "name": "Paralytic bite",
+          "effectNote": "The bite inflicts no direct damage. The victim saves vs. poison with a +4 bonus. On a failed save it is paralyzed for 2d6 hours. The Giant Centipede takes a −1 penalty to all its own saving throws."
+        },
+        {
+          "name": "Camouflaged ambush",
+          "effectNote": "It relies on coloration to hide, drops from above or emerges from cover, and fights independently even when several are present."
+        }
+      ]
+    },
+    "notes": [
+      "2–24 appearing. Common. No intelligence (0). Unsteady (5–7) morale. Active at any time, carnivorous, and neutral. No special defenses or magic resistance.",
+      "Organization and treasure are Nil. The Hit Dice field gives 2 HP. The size field gives 1 ft. The prose says over 1 ft.",
+      "Monstrous Manual, TSR 2140, January 1994 third printing, p. 42."
+    ]
+  },
+  {
+    "name": "Huge Centipede",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "ruleset": "adnd-2e",
+    "appearance": "A six-inch, many-legged centipede with chitinous body segments. It shares the Giant Centipede’s camouflage, including rocky gray and underground black specimens.",
+    "combat": {
+      "habitats": [
+        "Any terrain",
+        "Forest, rocky areas, and underground"
+      ],
+      "creatureType": "Animal",
+      "numberOfAttacks": 1,
+      "armorClass": 9,
+      "movement": "21",
+      "hitPoints": 1,
+      "thac0": 20,
+      "damageDice": "Nil",
+      "xp": 35,
+      "size": "Tiny, 6 in."
+    },
+    "mechanics": {
+      "Combat": [
+        {
+          "name": "Paralytic bite",
+          "effectNote": "The bite inflicts no direct damage. A victim that fails its save vs. poison is immobilized for 1d6 hours. The prose treats this form as the Giant Centipede with exceptions, so the victim’s +4 save bonus carries over by reference."
+        },
+        {
+          "name": "Own saving throws",
+          "effectNote": "The Huge Centipede takes a −2 penalty to its own saving throws."
+        }
+      ]
+    },
+    "notes": [
+      "5–30 appearing. Common. No intelligence (0). Unsteady (5–7) morale. Active at any time, carnivorous, and neutral. No special defenses or magic resistance.",
+      "Organization and treasure are Nil. The Hit Dice field gives 1 HP. Despite its title, this form is smaller than the Giant Centipede.",
+      "Monstrous Manual, TSR 2140, January 1994 third printing, p. 42."
+    ]
+  },
+  {
+    "name": "Megalo-centipede",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "ruleset": "adnd-2e",
+    "appearance": "A five-foot centipede with a long, segmented body and chitinous armor.",
+    "combat": {
+      "habitats": [
+        "Any terrain",
+        "Wilderness where it hunts deer-sized prey, and subterranean areas"
+      ],
+      "creatureType": "Animal",
+      "numberOfAttacks": 1,
+      "armorClass": 5,
+      "movement": "18",
+      "hitDice": "3",
+      "thac0": 17,
+      "damageDice": "1–3",
+      "xp": 175,
+      "size": "M, 5 ft."
+    },
+    "mechanics": {
+      "Combat": [
+        {
+          "name": "Acidic bite",
+          "effectNote": "The table gives 1–3 bite damage. The poison save receives no bonus. Failure means death. On a successful save, the acid deals 2d4 damage."
+        },
+        {
+          "name": "Own saving throws",
+          "effectNote": "The Megalo-centipede has no penalty to its own saving throws."
+        }
+      ],
+      "Behavior": [
+        {
+          "name": "Solitary hunter",
+          "effectNote": "It stalks larger animals in the wilderness and humanoid-sized or smaller prey underground. Individuals do not hunt together."
+        }
+      ]
+    },
+    "notes": [
+      "1–4 appearing. Very rare. Animal intelligence (1). Average (8–10) morale. Active at any time, carnivorous, and neutral. No special defenses or magic resistance.",
+      "Organization and treasure are Nil.",
+      "Monstrous Manual, TSR 2140, January 1994 third printing, p. 42."
+    ]
+  },
+  {
+    "name": "Tunnel Worm",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "ruleset": "adnd-2e",
+    "appearance": "A burrowing relative of the giant centipede at least 25 feet long, with powerful mandibles.",
+    "combat": {
+      "habitats": [
+        "Subterranean areas, hidden burrows, and lairs"
+      ],
+      "creatureType": "Animal",
+      "numberOfAttacks": 1,
+      "armorClass": 4,
+      "movement": "6",
+      "hitDice": "9+3",
+      "thac0": 11,
+      "damageDice": "2–8",
+      "xp": 1400,
+      "size": "G, 25+ ft."
+    },
+    "mechanics": {
+      "Combat": [
+        {
+          "name": "Burrow lunge",
+          "effectNote": "A lunge from its hidden burrow gets +2 to hit. A hit seizes the target in its mandibles. The lunge causes no damage until it chews through the armor."
+        },
+        {
+          "name": "Armor breach",
+          "effectNote": "Leather or worse takes one round. Armor tougher than leather through chain mail takes two. Armor tougher than chain mail takes three. Once the armor is breached, the worm deals 2d8 damage automatically each round."
+        },
+        {
+          "name": "Retreat",
+          "effectNote": "It releases the victim and retreats to its lair after taking at least 15 points of fire damage or losing 60% of its HP."
+        }
+      ],
+      "Lair": [
+        {
+          "name": "Carrion and treasure",
+          "effectNote": "It eats carrion, lays eggs in it, and may leave treasure from former victims in its lair."
+        }
+      ],
+      "Appearance notes": [
+        {
+          "name": "Body plan",
+          "effectNote": "The segmented body and short walking legs depict its stated kinship with centipedes. The book does not specify a palette for this form."
+        }
+      ]
+    },
+    "notes": [
+      "1–6 appearing. Rare. No intelligence (0). Steady (12) morale. Active at any time, carnivorous, and neutral. No special defenses or magic resistance.",
+      "Swarm organization. Treasure (M, N, Q). The attack table gives 2–8. The lunge text instead specifies automatic 2d8 per round after breaching armor.",
+      "Monstrous Manual, TSR 2140, January 1994 third printing, p. 42."
+    ]
+  }
+]

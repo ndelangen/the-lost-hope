@@ -1,0 +1,119 @@
+[
+  {
+    "name": "Rilkan",
+    "kind": "species",
+    "group": "3.5 edition",
+    "groups": [
+      "3.5 edition"
+    ],
+    "global": true,
+    "version": {
+      "key": "a136d6c1b213a238d16b5938",
+      "publication": "Magic of Incarnum (2005)",
+      "edition": "3.5 edition",
+      "source": "https://openlibrary.org/books/OL8144462M",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Humanoid (Reptilian)"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Medium Humanoid with the Reptilian subtype. +2 Dexterity, −2 Strength. Base land speed 30 ft. The racial traits grant no essentia pool. Gaining an essentia pool from a class or feat adds the Incarnum subtype.",
+            "Racial Knowledge treats all Knowledge checks as trained, even without ranks. Its +1 competence bonus on Knowledge and bardic knowledge checks increases by +1 per two soulmelds currently shaped.",
+            "+2 racial bonus to Bluff and Diplomacy.",
+            "Racial Aid gives +3 to the roll of another Rilkan when you successfully aid them. Use the ordinary bonus when aiding a creature of another species.",
+            "Common is automatic. Bonus languages can be any nonsecret language. Favored class Incarnate. The published examples list LA +0 and use class Hit Dice.",
+            "Rilkans resemble humans with bands of pebbly scales on the neck and forearms. The book describes single-color bands in males and patterned multicolor bands in females.",
+            "Choose the optional Rilkan Rogue substitutions at Rogue 1, 3, and 10 independently. Each uses a d6 Hit Die and adds Speak Language as a class skill at that level.",
+            "Rogue 1 keeps trapfinding and trades 1st-level sneak attack for Improved Flanking. Sneak attack begins at Rogue 3 and stays 1d6 below the standard progression if this substitution is taken.",
+            "Improved Flanking gives the Rilkan Rogue +4 to attacks when flanking in place of the usual +2. Other Rilkans flanking that same foe also get +4. Allies of other species use the usual flanking bonus.",
+            "The Rogue 3 substitution grants bardic knowledge and a bonus feat. It replaces trap sense and prevents gaining it from later rogue levels. Use rogue level plus Intelligence modifier for bardic knowledge, and apply Racial Knowledge. The feat choices are Deceitful, Diligent, Investigator, Negotiator, and Persuasive.",
+            "Rogue 10 can replace that level’s special ability with Fortunate Reflexes. Reroll a failed Reflex save unless the original die was a natural 1, and keep the new result. Taking this option gives up improved evasion from rogue levels."
+          ]
+        },
+        {
+          "title": "Original NPC · Kesra Tarn",
+          "lines": [
+            "Warehouse roof scout and Rogue.",
+            "Motive. Get two apprentices out before the warehouse is sealed.",
+            "Hook. Kesra can check the roof hatch and get the party inside while the loading doors are watched.",
+            "Rilkan warehouse roof scout, Rogue 1 substitution · Provisional CR 1. ECL 1. · Medium Humanoid (Reptilian)",
+            "AC 16 · HP 8 (1d6+2) · Speed 30 ft."
+          ]
+        },
+        {
+          "title": "Original NPC · Bren Carrow",
+          "lines": [
+            "Quay cargo inspector and Incarnate.",
+            "Motive. Find the shipment loaded under another family’s seal.",
+            "Hook. Bren can walk the party through the manifest, then help Kesra check the warehouse.",
+            "Rilkan quay cargo inspector, Incarnate 1 · Provisional CR 1. ECL 1. · Medium Humanoid (Incarnum, Reptilian)",
+            "AC 17 · HP 8 (1d6+2) · Speed 30 ft."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Kesra Tarn": [
+          {
+            "start": 15,
+            "end": 25,
+            "target": {
+              "name": "Kesra Tarn",
+              "group": "Rilkan",
+              "publication": "Rilkan warehouse roof scout, Rogue 1 substitution",
+              "local": {
+                "entry": "npc-d66f6a979f8b352483eb2970",
+                "version": "bcf65e9e160b098a70d99971"
+              }
+            }
+          }
+        ],
+        "Original NPC · Bren Carrow": [
+          {
+            "start": 15,
+            "end": 26,
+            "target": {
+              "name": "Bren Carrow",
+              "group": "Rilkan",
+              "publication": "Rilkan quay cargo inspector, Incarnate 1",
+              "local": {
+                "entry": "npc-6b340249902e99cb832516d0",
+                "version": "02ca00ec0d9ae09ae82fe1ce"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Rilkan": true,
+      "rilkan racial knowledge": true,
+      "rilkan improved flanking": true,
+      "rilkan warehouse roof scout": true,
+      "rilkan quay cargo inspector": true
+    },
+    "hash": "ef32e921f219679f1220b829308fe02aaca08895c041013c43a865cd3ad41858",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Magic of Incarnum (2005)",
+    "defaultVersionKey": "a136d6c1b213a238d16b5938",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  }
+]

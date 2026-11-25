@@ -1,0 +1,513 @@
+[
+  {
+    "name": "Mister Threadneedle",
+    "statBlock": {
+      "name": "Mister Threadneedle",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 183,
+      "classification": "Medium construct, chaotic evil",
+      "ac": 11,
+      "hp": 36,
+      "hitDice": "8d8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 10,
+      "description": "The Sewn Sisters' silent servant lays out a feast in the Trial of the Pentagon. An illusion makes him look like a gaunt man in a worn black suit.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Understands Common. Communicates with gestures and facial expressions.",
+        "Damage vulnerabilities": "Fire.",
+        "Damage resistances": "Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Charmed, exhaustion, frightened, paralyzed, poisoned, unconscious.",
+        "Traits": "False Appearance. While motionless in his true form, he passes for an ordinary scarecrow.\nConstruct Nature. He does not need air, food, drink, or sleep.",
+        "Actions": "Multiattack. Make two Claw attacks.\nClaw. Melee weapon attack, +3 to hit, reach 5 ft., one target. A hit deals 6 (2d4 + 1) slashing damage. A creature hit must succeed on a DC 11 Wisdom save or remain frightened until the end of his next turn.\nTerrifying Glare. Choose one creature he can see within 30 ft. If it can see him, it must succeed on a DC 11 Wisdom save or become magically frightened until the end of his next turn. The target is paralyzed while frightened by the glare.",
+        "Pentagon trial": "Detect Magic reveals the illusion. Dispel Magic exposes his true form with a successful DC 16 check. He attacks only in response to an attack or at the hags’ command. He carries their Hag Eye, the key to the cage in area 71, and a black marble that activates the Ebon Pool in area 81.",
+        "Printed source": "Tomb of Annihilation, ch. 5, pp. 180 and 182–183 (areas 71 and 74) and p. 189 (area 81). Use the Scarecrow combat rules from Monster Manual (2014), p. 268."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Scarecrow",
+          "terms": [
+            "Scarecrow"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#scarecrow_mm"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Musharib",
+    "statBlock": {
+      "name": "Musharib",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 34,
+      "classification": "Medium humanoid (dwarf), lawful good",
+      "ac": 13,
+      "hp": 30,
+      "hitDice": "4d8 + 12",
+      "speed": "25 ft.",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 14,
+      "description": "Musharib guides travelers out of Port Nyanzaru while looking for help reclaiming Hrakhamar. He wears dinosaur-bone armor and carries a wooden maul he calls Skullbash.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 4,
+        "Stealth": 3,
+        "Survival": 4
+      },
+      "sections": {
+        "Armor": "Hide armor made from dinosaur bones.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Dwarvish.",
+        "Damage resistances": "Poison.",
+        "Traits": "Dwarven Resilience. Roll saves against poison with advantage.",
+        "Innate spellcasting": "Wisdom. He can cast Hunter's Mark, Jump, Pass without Trace, Speak with Animals, and Speak with Plants once each per day without material components.",
+        "Actions": "Handaxe. Melee or ranged weapon attack, +3 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 4 (1d6 + 1) slashing damage.",
+        "Hrakhamar": "His standard fee is 5 gp per day. He hopes to recruit the party to reclaim the forge or recover Moradin’s Gauntlet. Musharib has the smith’s tools proficiency needed to make copies of the two treasury keys with Hrakhamar’s equipment. The attempt requires a DC 10 Intelligence check. Three failed attempts ruin the impressions.",
+        "Equipment note": "The encounter gives Musharib Skullbash, a wooden Maul. The Albino Dwarf Spirit Warrior profile supplies the Handaxe action. If you use Skullbash instead, apply the normal 2014 Maul rule (2d6 bludgeoning plus Strength), adding proficiency to hit if you treat him as proficient with his personal weapon.",
+        "Printed source": "Tomb of Annihilation, ch. 1, p. 34, ch. 2, p. 62 (Hrakhamar), and appendix D, p. 210 (Albino Dwarf Spirit Warrior)."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Albino Dwarf Spirit Warrior",
+          "terms": [
+            "Albino Dwarf Spirit Warrior"
+          ],
+          "printing": {
+            "publication": "Tomb of Annihilation",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#albino%20dwarf%20spirit%20warrior_toa"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Nanny Pu'pu",
+    "statBlock": {
+      "name": "Nanny Pu'pu",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 73,
+      "classification": "Medium fey, neutral evil",
+      "ac": 17,
+      "hp": 82,
+      "hitDice": "11d8 + 33",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 14,
+      "description": "A green hag who poses as Mbala's last survivor. She wants the nearby pterafolk driven out and prefers to lure victims away from their companions.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Arcana": 3,
+        "Deception": 4,
+        "Perception": 4,
+        "Stealth": 3
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Draconic, Sylvan.",
+        "Traits": "Amphibious. She breathes air and water.\nMimicry. She can copy animal sounds or humanoid voices. A listener identifies the imitation with a successful DC 14 Wisdom (Insight) check.",
+        "Innate spellcasting": "Charisma, save DC 12. At will without material components, cast Dancing Lights, Minor Illusion, or Vicious Mockery.",
+        "Actions": "Claws. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 13 (2d8 + 4) slashing damage.\nIllusory Appearance. Use magic to disguise herself and her gear as a creature of similar size and humanoid shape. The illusion ends at her death or when she dismisses it as a bonus action. Physical contact exposes the disguise. A creature can also spend an action to study it and make a DC 20 Intelligence (Investigation) check.\nInvisible Passage. She and her gear become magically invisible until she attacks, casts a spell, or loses concentration as though concentrating on a spell. She leaves no physical traces while invisible and can only be tracked by magic.",
+        "Mbala allies": "Her whistle calls 2d6 Flying Monkeys that fetch food and supplies but refuse to fight for her. If she commands the Flesh Golem buried beside her hut to attack, it rises as a bonus action.",
+        "Rite of Stolen Life": "The rite takes one hour and uses an intact or mostly intact humanoid corpse, a gemstone worth 100 gp or more, and the sacrifice of another humanoid. The sacrifice’s spirit reanimates the corpse and takes on its knowledge and personality. Restore the returned character to full HP and keep its statistics. Change its type to Undead and remove the need to eat, drink, breathe, or sleep. Reduce its maximum HP by 1d4 at each dawn, and no effect can stop or reverse this decay. At a maximum of 0 HP, the gemstone breaks and the body dies again. If later raised or resurrected, the character keeps levels and XP earned during the rite’s effect and forgets that period. The hag asks the party to deal with the Pterafolk and may demand a token from Niles Breakbone or Saja N’baza as well.",
+        "Printed source": "Tomb of Annihilation, ch. 2, pp. 72–73 (Mbala and the Rite of Stolen Life). The Green Hag rules come from Monster Manual (2014), p. 177."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Green Hag",
+          "terms": [
+            "Green Hag",
+            "green hag"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#green%20hag_mm"
+          }
+        },
+        {
+          "kind": "beast",
+          "name": "Flying Monkey",
+          "terms": [
+            "Flying Monkey",
+            "Flying Monkeys"
+          ],
+          "printing": {
+            "publication": "Tomb of Annihilation",
+            "edition": "2014 fifth edition",
+            "source": "https://www.dndbeyond.com/monsters/33025-flying-monkey"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Flesh Golem",
+          "terms": [
+            "Flesh Golem"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#flesh%20golem_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Pterafolk",
+          "terms": [
+            "Pterafolk"
+          ],
+          "printing": {
+            "publication": "Tomb of Annihilation",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#pterafolk_toa"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Niles Breakbone",
+          "terms": [
+            "Niles Breakbone"
+          ],
+          "printing": {
+            "publication": "Tomb of Annihilation",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#niles%20breakbone_toa"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Nepartak",
+    "statBlock": {
+      "name": "Nepartak",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 137,
+      "classification": "Tiny undead, neutral evil",
+      "ac": 13,
+      "hp": 40,
+      "hitDice": "9d4 + 18",
+      "speed": "0 ft., fly 40 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 1
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 12,
+      "description": "Napaka's granddaughter speaks into visitors' minds from a skull sealed in a crystal box in Moa's tomb. Panic can drive her to break the box and attack.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Arcana": 5,
+        "Perception": 2
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Telepathy 30 ft.",
+        "Damage resistances": "Lightning, necrotic, piercing.",
+        "Damage immunities": "Cold, fire, poison.",
+        "Condition immunities": "Charmed, frightened, paralyzed, poisoned, prone.",
+        "Traits": "Illumination. Choose dim light in a 15-ft. radius, or bright light in that radius with dim light 15 ft. farther out. Switching modes takes an action.\nMagic Resistance. Roll saves against spells and other magic with advantage.\nRejuvenation. After destruction she returns at full HP in one hour unless her remains are sprinkled with Holy Water or targeted by Dispel Magic or Remove Curse.\nUndead Nature. She does not need air, food, drink, or sleep.",
+        "Actions": "Multiattack. Use Fire Ray twice.\nFire Ray. Ranged spell attack, +5 to hit, range 30 ft., one target. A hit deals 10 (3d6) fire damage.",
+        "Spellcasting": "5th-level Intelligence spellcaster, save DC 13 and +5 to hit. The inherited Flameskull spellcasting needs no somatic or material components.\nCantrip at will. Mage Hand.\n1st level, 3 slots. Magic Missile, Shield.\n2nd level, 2 slots. Blur, Flaming Sphere.\n3rd level, 1 slot. Fireball.",
+        "Moa’s tomb": "She senses intruders and questions them by telepathy. A lie takes a DC 12 Charisma (Deception) check. Ignoring her, telling her she is only a skull, or failing three Deception checks makes her break out and attack. Six Swarms of Insects (Spiders) enter from the niches at the start of the following round. Use the ordinary spider swarm statistics and allow effects that target Undead to affect them. The passages admit Tiny creatures freely and Small creatures if they squeeze.",
+        "Printed source": "Tomb of Annihilation, ch. 5, p. 137 (area 14), with the Flameskull from Monster Manual (2014), p. 134. The adventure replaces spoken language with telepathy."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Flameskull",
+          "terms": [
+            "Flameskull"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#flameskull_mm"
+          }
+        },
+        {
+          "kind": "beast",
+          "name": "Swarm of Insects (Spiders)",
+          "terms": [
+            "Swarm of Insects (Spiders)",
+            "Swarms of Insects (Spiders)"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://www.dndbeyond.com/monsters/301414-swarm-of-insects-spiders"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Niles Breakbone",
+    "statBlock": {
+      "name": "Niles Breakbone",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 47,
+      "classification": "Medium humanoid (human), lawful good",
+      "ac": 15,
+      "hp": 9,
+      "hitDice": "2d8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "1/8",
+      "xp": 25,
+      "passivePerception": 12,
+      "description": "A Chondathan templar of Tyr and commander of Camp Vengeance. His two captains keep the fort running when he retreats to his command tent.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Deception": 5,
+        "Insight": 4,
+        "Persuasion": 5
+      },
+      "sections": {
+        "Armor": "Breastplate.",
+        "Languages": "Any two languages, as for the printed Noble.",
+        "Actions": "Rapier. Melee weapon attack, +3 to hit, reach 5 ft., one target. A hit deals 5 (1d8 + 1) piercing damage.",
+        "Reactions": "Parry. When a melee attack would hit him, add 2 to AC against that attack if he can see the attacker and holds a melee weapon.",
+        "Camp Vengeance": "Parties arriving by boat are ordered to ferry messages and seven sick soldiers downriver to Port Nyanzaru. The soldiers have Blue Mist Fever, Shivering Sickness, or Throat Leeches. Parties arriving over land are ordered to lead four Guards and four Tribal Warriors on a two-week undead patrol back the way they came. Refusal brings arrest and trial. A guilty verdict means confiscation of gear and abandonment in the jungle. Undril Silvertusk can intercede for a party that earned her respect. Otherwise, a sound argument and a successful DC 15 Charisma (Persuasion) check with each of Ord Firebeard and Perne Salhana can prevent judgment.",
+        "Printed source": "Tomb of Annihilation, ch. 2, pp. 47–48 (Camp Vengeance and Command Tent), using the Noble from Monster Manual (2014), p. 348. Uses the official Blue Mist Fever erratum."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Noble",
+          "terms": [
+            "Noble"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#noble_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Guard",
+          "terms": [
+            "Guard",
+            "Guards"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#guard_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Tribal Warrior",
+          "terms": [
+            "Tribal Warrior",
+            "Tribal Warriors"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#tribal%20warrior_mm"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Orvex Ocrammas",
+    "statBlock": {
+      "name": "Orvex Ocrammas",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 96,
+      "classification": "Medium humanoid (human), neutral",
+      "ac": 12,
+      "hp": 27,
+      "hitDice": "6d8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 16,
+      "description": "A Red Wizard expedition's scribe and translator, trapped beneath a wall after the attack on its compound in Omu. He can read Old Omuan and knows the legend of the nine trickster gods.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Deception": 5,
+        "Insight": 4,
+        "Investigation": 5,
+        "Perception": 6,
+        "Persuasion": 5,
+        "Sleight of Hand": 4,
+        "Stealth": 4
+      },
+      "sections": {
+        "Languages": "Common, Grung. He can translate Old Omuan.",
+        "Traits": "Sneak Attack (once per turn). A weapon hit deals an extra 7 (2d6) damage if Orvex has advantage. It can also deal the extra damage if an ally who is not incapacitated is within 5 ft. of the target and Orvex does not have disadvantage.",
+        "Actions": "Multiattack. Make two melee attacks.\nShortsword. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 5 (1d6 + 2) piercing damage.\nHand Crossbow. Ranged weapon attack, +4 to hit, range 30/120 ft., one target. A hit deals 5 (1d6 + 2) piercing damage.",
+        "Bonus actions": "Cunning Action. On each of his turns, Orvex can Dash, Disengage, or Hide as a bonus action.",
+        "First encounter": "Orvex starts with 3 of 27 HP and three levels of exhaustion. Under the 2014 rules, reduce his speed to 15 ft. and give him disadvantage on ability checks, attacks, and saving throws. If rescued and befriended, he can negotiate a truce with surviving Red Wizards and recount Omu’s legend once healed and rested.",
+        "Printed source": "Tomb of Annihilation, ch. 3, p. 96 (Omu, area 2). Use the Spy from Monster Manual (2014), p. 349, with the adventure’s starting injuries, exhaustion, alignment, and languages."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Spy",
+          "terms": [
+            "Spy"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#spy_mm"
+          }
+        }
+      ]
+    }
+  }
+]

@@ -14,4 +14,5 @@ export default createEvent({
       '’s Sleep spell, called itself the “Bird of Gluttony,” and said the change also made it much hungrier. The exact effect and limits of consuming the spell remain unknown.',
     ],
   ],
+  illustrations: ['/assets/scenes/crowy-becomes-the-bird-of-gluttony.png'],
 })

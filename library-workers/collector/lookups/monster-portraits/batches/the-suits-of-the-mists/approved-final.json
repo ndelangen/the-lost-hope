@@ -1,0 +1,22 @@
+[
+  {
+    "slug": "elf-scout",
+    "name": "Elf Scout",
+    "entryId": "monster-36c73eec9d9691d5e2464a92",
+    "input": "",
+    "reference": "/scout/mm-1.webp",
+    "subjectPrompt": "One alert Greenhall elf scout of the Quivering Forest in a plain olive brown leather armor and ragged wool ranger cloak, visibly elven pointed ears, tied back dark chestnut hair, a watchful tense expression and eyes faintly pale from the mist. Small purple wooden pendant on a thin cord clearly visible on chest. A longbow held diagonally in a relaxed, ready position and a plain short sword sheathed at belt; all limbs and weapons fit inside the frame. Only a hint of gray mist near the boots, no dog or scenery.",
+    "prompt": "Use first attachment strictly for parchment and rendering technique, and second attachment only for the creature family visual cues. Create one original square fantasy bestiary portrait. Fine sepia ink, textured muted gouache and colored pencil on uniform warm gold parchment from edge to edge. Single isolated full figure centered with a generous blank margin and plain untouched corners. Legible at thumbnail size. Diffuse light, soft grounding shadow. No scenes, insets, border, extra silhouettes, text, title or watermark. One alert Greenhall elf scout of the Quivering Forest in a plain olive brown leather armor and ragged wool ranger cloak, visibly elven pointed ears, tied back dark chestnut hair, a watchful tense expression and eyes faintly pale from the mist. Small purple wooden pendant on a thin cord clearly visible on chest. A longbow held diagonally in a relaxed, ready position and a plain short sword sheathed at belt; all limbs and weapons fit inside the frame. Only a hint of gray mist near the boots, no dog or scenery.",
+    "appearanceSource": "DDAL04-01 - The Suits of the Mists"
+  },
+  {
+    "slug": "mist-zombie-lesser-strahd-zombie",
+    "name": "Mist Zombie (Lesser Strahd Zombie)",
+    "entryId": "monster-e118f0b3b7d26fa53686dc3f",
+    "input": "",
+    "reference": "/strahd-zombie/publisher-d98a395e8e944a1b.webp",
+    "subjectPrompt": "An eerie human undead emerging from thin pale gray mist pooled around its feet, bony outline, sunken empty dark eye sockets, feral crooked grin and long jagged fingernails. Worn faded burgundy and soot-brown travel clothes with a ragged knee and loose patterned belt, water-stained leather boots, slightly stooped cautious shambling posture. A trace of mist curls around one hand. Original silhouette and pose. Keep the appearance dry and non-graphic, no blood, open wounds, severed limbs or other people.",
+    "prompt": "Use first attachment strictly for parchment and rendering technique, and second attachment only for the creature family visual cues. Create one original square fantasy bestiary portrait. Fine sepia ink, textured muted gouache and colored pencil on uniform warm gold parchment from edge to edge. Single isolated full figure centered with a generous blank margin and plain untouched corners. Legible at thumbnail size. Diffuse light, soft grounding shadow. No scenes, insets, border, extra silhouettes, text, title or watermark. An eerie human undead emerging from thin pale gray mist pooled around its feet, bony outline, sunken empty dark eye sockets, feral crooked grin and long jagged fingernails. Worn faded burgundy and soot-brown travel clothes with a ragged knee and loose patterned belt, water-stained leather boots, slightly stooped cautious shambling posture. A trace of mist curls around one hand. Original silhouette and pose. Keep the appearance dry and non-graphic, no blood, open wounds, severed limbs or other people.",
+    "appearanceSource": "DDAL04-01 - The Suits of the Mists"
+  }
+]

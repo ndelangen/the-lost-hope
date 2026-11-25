@@ -1,0 +1,126 @@
+{
+  "builds": [
+    {
+      "id": "shadowswyft-covered-stair-runner-35e",
+      "title": "Shadowswyft covered stair runner, Rogue 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "difficulty": "Provisional CR 2. ECL 2 (1 class HD, LA +1).",
+      "size": "Medium",
+      "type": "Outsider (Extraplanar)",
+      "ac": 16,
+      "hp": 7,
+      "hitDice": "1d6+1",
+      "initiative": 9,
+      "speed": "40 ft.",
+      "abilityScores": {
+        "STR": 12,
+        "DEX": 16,
+        "CON": 12,
+        "INT": 12,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Disable Device +5",
+        "Hide +10",
+        "Jump +8",
+        "Listen +5",
+        "Move Silently +10",
+        "Open Lock +7",
+        "Search +5",
+        "Spot +5",
+        "Tumble +6"
+      ],
+      "senses": "Darkvision 120 ft. and low-light vision.",
+      "languages": "Shadowswyft, Common, Elven",
+      "traits": [
+        "Chaotic good. This encounter takes place on the Material Plane. Studded leather +3 and Dexterity +3. Touch 13, flat-footed 13. BAB +0, grapple +1. Fortitude +1, Reflex +5, Will +1. Armor check penalty −1. Initiative includes Improved Initiative +4 and the species bonus +2.",
+        "Trapfinding and sneak attack +1d6. She can Search for traps above DC 20 and use Disable Device on magical traps. The 40-ft. land speed adds +4 to Jump.",
+        "Light Blindness is extraordinary. Abrupt exposure to bright light, such as sunlight or a daylight spell, blinds the Shadowswyft for 1 round. Afterward, it remains dazzled while in the affected area.",
+        "While blinded, AC 11 and touch AC 8 after losing Dexterity AC and taking −2 AC. Move at half speed, 20 ft. Sight-dependent checks fail. Search and most Strength- or Dexterity-based skill checks take −4 when they can be attempted. Opponents have total concealment (50% miss chance).",
+        "Dazzled in bright light after the first round. AC 16 and movement 40 ft. Short sword +0, light crossbow +2, Search +4, and Spot +4."
+      ],
+      "actions": [
+        "Short sword +1 melee, 1d6+1 piercing, critical 19–20/×2, 5-ft. reach.",
+        "Light crossbow +3 ranged, 1d8 piercing, critical 19–20/×2, 80-ft. increment. Reload as a move action.",
+        "Sneak attack adds +1d6 when the target is otherwise eligible and denied Dexterity AC or flanked by her melee attack. Ranged attack requires a target within 30 ft. Total concealment from blindness prevents the sneak attack while she cannot see the target’s vital area."
+      ],
+      "tactics": "Mheer is carrying the stairs’ spare key before the watch closes the covered passage. She can check the landing in dim light. If the upper shutter opens suddenly onto the sun, she feels for the rail and asks the party to guide her toward shade."
+    },
+    {
+      "id": "shadowswyft-gloam-road-lookout-35e",
+      "title": "Shadowswyft gloam road lookout, Ranger 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "difficulty": "Provisional CR 2. ECL 2 (1 class HD, LA +1).",
+      "size": "Medium",
+      "type": "Outsider (Extraplanar)",
+      "ac": 16,
+      "hp": 9,
+      "hitDice": "1d8+1",
+      "initiative": 5,
+      "speed": "40 ft.",
+      "abilityScores": {
+        "STR": 12,
+        "DEX": 16,
+        "CON": 12,
+        "INT": 12,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Climb +4",
+        "Hide +10",
+        "Listen +5",
+        "Move Silently +10",
+        "Search +5",
+        "Spot +5",
+        "Survival +5"
+      ],
+      "senses": "Darkvision 120 ft. and low-light vision.",
+      "languages": "Shadowswyft, Common, Celestial",
+      "traits": [
+        "Chaotic good. This encounter takes place on the Material Plane. Studded leather +3 and Dexterity +3. Touch 13, flat-footed 13. BAB +1, grapple +2. Fortitude +3, Reflex +5, Will +1. Armor check penalty −1. Initiative includes the species bonus +2.",
+        "Point Blank Shot adds +1 to ranged attack and damage within 30 ft. Favored enemy undead adds +2 to weapon damage and Bluff, Listen, Sense Motive, Spot, and Survival against undead. Track is a bonus feat. Wild empathy +0. No spells at Ranger 1.",
+        "Light Blindness is extraordinary. Abrupt exposure to bright light, such as sunlight or a daylight spell, blinds the Shadowswyft for 1 round. Afterward, it remains dazzled while in the affected area.",
+        "While blinded, AC 11 and touch AC 8 after losing Dexterity AC and taking −2 AC. Move at half speed, 20 ft. Sight-dependent checks fail. Search and most Strength- or Dexterity-based skill checks take −4 when they can be attempted. Opponents have total concealment (50% miss chance).",
+        "Dazzled in bright light after the first round. AC 16 and movement 40 ft. Longsword +1, longbow +3 or +4 within 30 ft. before range modifiers, Search +4, and Spot +4."
+      ],
+      "actions": [
+        "Longsword +2 melee, 1d8+1 slashing, critical 19–20/×2, 5-ft. reach.",
+        "Longbow +4 ranged, 1d8 piercing, critical ×3, 100-ft. increment. Point Blank Shot gives +5 and 1d8+1 within 30 ft.",
+        "A longbow hit against undead within 30 ft. deals 1d8+3 with Point Blank Shot and Favored Enemy. When dazzled that shot is +4 and deals the same damage."
+      ],
+      "tactics": "Pohl watches for undead along a road where two stone arches give cover after dusk. He asks the party to walk the late travellers through the arches. If daylight blinds him, he backs away from the road on the first round and resumes watching when he can see."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Shadowswyft",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Planar Handbook (2004)",
+      "name": "Mheer Wink",
+      "build": "shadowswyft-covered-stair-runner-35e",
+      "role": "Covered stair runner and Rogue.",
+      "motive": "Get the spare key to the watch before the covered passage closes.",
+      "hook": "Mheer can check the dark landing while the party works the shutter from below."
+    },
+    {
+      "species": "Shadowswyft",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Planar Handbook (2004)",
+      "name": "Pohl Nod",
+      "build": "shadowswyft-gloam-road-lookout-35e",
+      "role": "Gloam road lookout and Ranger.",
+      "motive": "Get the late travellers off the road before undead reach the arches.",
+      "hook": "Pohl can watch the approaches while the party moves the travellers from arch to arch."
+    }
+  ]
+}

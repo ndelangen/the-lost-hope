@@ -1,0 +1,20 @@
+{
+  "baseline": "2326a3bc9a6e4a8208beae98fd5e1ec541580472",
+  "temporaryCopy": true,
+  "playableSpecies": 1,
+  "edition": "3.5 edition",
+  "names": [
+    "Raptoran"
+  ],
+  "selectableProfiles": 1,
+  "publication": "Races of the Wild (2005)",
+  "glidingFlightAndFootbowVerified": true,
+  "sourceTraitsDisplayed": 1,
+  "searchableByTraitAndNpcRole": 1,
+  "originalRunnableNpcBuilds": 2,
+  "fullBuildsReturnedByEncounterAndNpcsCommands": true,
+  "npcBuildsScopedByPublication": true,
+  "existingPlayableSpeciesAndNpcConceptsPreserved": true,
+  "distinctPortraitFiles": 1,
+  "versionPortraitsVerified": 1
+}

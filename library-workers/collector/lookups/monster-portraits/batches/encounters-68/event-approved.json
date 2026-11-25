@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Hobgoblin Smokebinder",
+    "slug": "hobgoblin-smokebinder",
+    "id": "monster-2d44c7c8ef9f2e82965faeb6:6e3b2439b7c223cda5cfa57e",
+    "entry": "monster-2d44c7c8ef9f2e82965faeb6",
+    "version": "6e3b2439b7c223cda5cfa57e",
+    "suffix": "encounters-68/hobgoblin-smokebinder.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-68/hobgoblin-smokebinder.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-68/event-drafts/hobgoblin-smokebinder-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 68 2026-11-24/event-drafts/hobgoblin-smokebinder-event-v1.png",
+    "overrides": [],
+    "sha256": "d587799634743485b1ff0c8de734fa60955639bdd225a66e34d5326d1466b19b",
+    "bytes": 2506967
+  },
+  {
+    "name": "Hobgoblin Recruit",
+    "slug": "hobgoblin-recruit",
+    "id": "monster-08ca07ce0c35a37bfdc6be22:f6f796b3e1ac9e7660165f1d",
+    "entry": "monster-08ca07ce0c35a37bfdc6be22",
+    "version": "f6f796b3e1ac9e7660165f1d",
+    "suffix": "encounters-68/hobgoblin-recruit.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-68/hobgoblin-recruit.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-68/event-drafts/hobgoblin-recruit-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 68 2026-11-24/event-drafts/hobgoblin-recruit-event-v1.png",
+    "overrides": [],
+    "sha256": "d9ecc193abc04cfd831e2163fc30e53cb0944a92c74b9ca96992f1d08f65601a",
+    "bytes": 2350804
+  }
+]

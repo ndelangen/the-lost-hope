@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Angulotl Tadpole",
+    "source": "https://www.dndbeyond.com/monsters/4485771-angulotl-tadpole",
+    "challenge": "1/4",
+    "entry": "monster-e9205914b4a91599237c1d1b",
+    "version": "4c678d6d751f694bd6303823",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "slug": "angulotl-tadpole",
+    "kind": "monster",
+    "type": "Humanoid",
+    "encounterStatus": "local-stat-block",
+    "generated": true,
+    "primaryPortraitSha256": "056ffb8db9399f7fae6981411387eb23da5cf1276a867a3f92b107424bff400b",
+    "status": "Stat block",
+    "appearance": "An amphibious frogfolk larva with a finned tail, dark round eyes and small webbed feet.",
+    "habitats": [
+      "Freshwater marshes",
+      "Swamps",
+      "Jungle rivers"
+    ]
+  },
+  {
+    "name": "Clawfish",
+    "source": "https://www.dndbeyond.com/monsters/4485807-clawfish",
+    "challenge": "1/8",
+    "entry": "beast-ab6302dee642c6fbd5a7a26f",
+    "version": "17dadfed12325f07c83aac51",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "slug": "clawfish",
+    "kind": "beast",
+    "type": "Beast",
+    "encounterStatus": "local-stat-block",
+    "generated": true,
+    "primaryPortraitSha256": "585ae2364a6ff396e45179900d374955d950955f44e521b2e580e8e9c22818fb",
+    "status": "Stat block",
+    "appearance": "An eel-like river beast with eight reptilian legs, a moray head and rippling fins.",
+    "habitats": [
+      "Freshwater rivers",
+      "Riverbanks",
+      "Jungle rivers"
+    ]
+  }
+]

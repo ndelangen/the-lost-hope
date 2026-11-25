@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Hobgoblin Death Captain",
+    "query": "violet-edged camp firefield lead the charge hidden gift",
+    "condition": "Invisible",
+    "alternates": [
+      {
+        "credit": "D&D Beyond publisher art · Flee, Mortals!",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Hobgoblin War Mage",
+    "query": "bone-inlaid camp firefield unhallowed ground spell siphon",
+    "condition": null,
+    "alternates": [
+      {
+        "credit": "D&D Beyond publisher art · Flee, Mortals!",
+        "url": ""
+      }
+    ]
+  }
+]

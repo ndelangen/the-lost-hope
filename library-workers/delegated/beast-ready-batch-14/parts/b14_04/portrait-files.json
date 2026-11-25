@@ -1,0 +1,18 @@
+[
+  {
+    "artGroup": "giant-flying-spider",
+    "file": "portraits/giant-flying-spider.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "aecc41d9327a73f2f199116ee721fb900718460c3524e12211f79eb50b2447f3",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "artGroup": "haungharassk",
+    "file": "portraits/haungharassk.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "b050838094122f2a89ff8943d384642be2e3fe7131dbe882921581ff7baf089b",
+    "credit": "OpenAI ImageGen"
+  }
+]

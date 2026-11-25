@@ -1,0 +1,41 @@
+[
+  {
+    "slug": "cheetah",
+    "name": "Cheetah",
+    "entryId": "beast-65ef5c0a2693179c203283f6",
+    "kind": "beast",
+    "input": "",
+    "reference": [
+      ""
+    ],
+    "subjectPrompt": "One naturalistic adult cheetah, showing clearly the very slender long-legged build, small round head, dark tear marks, tawny gold coat with individual black spots, and long low tail with black rings near the tip. Graceful side profile walking toward the right with its head turned slightly toward the viewer, following field-observed cheetah anatomy. Show its entire body, all four grounded or gently lifted paws, and tail without cropping. Distinctively light narrow frame and small rounded ears.",
+    "prompt": "Make an original square fantasy bestiary portrait. First image is the series style reference only. Later images are visual references for the subject. Match the warm amber-gold aged parchment edge to edge, lifelike pencil and fine ink rendering, and soft diffuse contact shadow. Isolate the subject, centered with breathing room, no clipped ears, tail or feet. No scene, border, lettering, labels or watermark. One naturalistic adult cheetah, showing clearly the very slender long-legged build, small round head, dark tear marks, tawny gold coat with individual black spots, and long low tail with black rings near the tip. Graceful side profile walking toward the right with its head turned slightly toward the viewer, following field-observed cheetah anatomy. Show its entire body, all four grounded or gently lifted paws, and tail without cropping. Distinctively light narrow frame and small rounded ears.",
+    "appearanceSource": "Rob Qld's CC BY 2.0 cheetah photograph from Wikimedia Commons"
+  },
+  {
+    "slug": "dire-ape",
+    "name": "Dire Ape",
+    "entryId": "beast-571e61b7377df70147abe5a5",
+    "kind": "beast",
+    "input": "",
+    "reference": [
+      ""
+    ],
+    "subjectPrompt": "One massive fantasy dire ape in a gorilla-like body plan with thick coarse deep charcoal and brown fur, silver streaks high on the shoulders, slate leathery face, deep-set eyes, exceptionally long strong forearms, wide shoulders, heavy brow. Full body in a broad knuckle-walking stance at a frontal three-quarter angle, head slightly down looking out from under its brow, both hands and both feet anatomically readable. Emphasize the scale with its powerful forearms and bulk. Isolate the ape: no creature from the background of the reference, no humanoid clothing, wings, rocks, or scenery.",
+    "prompt": "Make an original square fantasy bestiary portrait. First image is the series style reference only. Later images are visual references for the subject. Match the warm amber-gold aged parchment edge to edge, lifelike pencil and fine ink rendering, and soft diffuse contact shadow. Isolate the subject, centered with breathing room, no clipped ears, tail or feet. No scene, border, lettering, labels or watermark. One massive fantasy dire ape in a gorilla-like body plan with thick coarse deep charcoal and brown fur, silver streaks high on the shoulders, slate leathery face, deep-set eyes, exceptionally long strong forearms, wide shoulders, heavy brow. Full body in a broad knuckle-walking stance at a frontal three-quarter angle, head slightly down looking out from under its brow, both hands and both feet anatomically readable. Emphasize the scale with its powerful forearms and bulk. Isolate the ape: no creature from the background of the reference, no humanoid clothing, wings, rocks, or scenery.",
+    "appearanceSource": "Related D&D Giant Ape illustration by Dario Jelusic"
+  },
+  {
+    "slug": "dire-badger",
+    "name": "Dire Badger",
+    "entryId": "beast-ab82d2cfa0d86b5de5114110",
+    "kind": "beast",
+    "input": "",
+    "reference": [
+      ""
+    ],
+    "subjectPrompt": "One giant heavy-set low-slung badger with a wedge-shaped head, bold cream-white facial stripes alternating with dark bands through both eyes, short rounded ears, grizzled silver-gray back, blackish legs, and substantial curved claws on the broad forepaws. Naturalistic stocky ground-digging anatomy, one short furry tail. Full-body, low three-quarter perspective with the head facing down-left and the short hindquarters behind to the right. The muzzle is stern and closed, all paws attached. No foliage, den, dirt piles, rocks or other objects.",
+    "prompt": "Make an original square fantasy bestiary portrait. First image is the series style reference only. Later images are visual references for the subject. Match the warm amber-gold aged parchment edge to edge, lifelike pencil and fine ink rendering, and soft diffuse contact shadow. Isolate the subject, centered with breathing room, no clipped ears, tail or feet. No scene, border, lettering, labels or watermark. One giant heavy-set low-slung badger with a wedge-shaped head, bold cream-white facial stripes alternating with dark bands through both eyes, short rounded ears, grizzled silver-gray back, blackish legs, and substantial curved claws on the broad forepaws. Naturalistic stocky ground-digging anatomy, one short furry tail. Full-body, low three-quarter perspective with the head facing down-left and the short hindquarters behind to the right. The muzzle is stern and closed, all paws attached. No foliage, den, dirt piles, rocks or other objects.",
+    "appearanceSource": "Related D&D Giant Badger illustration from the 2024 rules Monster Manual"
+  }
+]

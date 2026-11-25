@@ -1,0 +1,324 @@
+[
+  {
+    "name": "Deathlock Mastermind (Archfey Patron)",
+    "statBlock": {
+      "name": "Deathlock Mastermind (Archfey Patron)",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 129,
+      "classification": "Medium undead, neutral evil",
+      "ac": 13,
+      "hp": 110,
+      "hitDice": "20d8 + 20",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 17
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 14,
+      "description": "A powerful Deathlock with enough freedom to plan its own tactics. It recruits servants and builds conspiracies to carry out its patron’s orders.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Arcana": 5,
+        "History": 5,
+        "Perception": 4
+      },
+      "savingThrows": {
+        "Int": 5,
+        "Cha": 6
+      },
+      "sections": {
+        "Senses": "Darkvision 120 ft., including magical darkness.",
+        "Languages": "The languages it knew in life.",
+        "Damage resistances": "Necrotic. Bludgeoning, piercing and slashing from nonmagical attacks made without silvered weapons.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Exhaustion and poisoned.",
+        "Traits": "Turn Resistance. The Deathlock has advantage on saves against effects that turn undead.",
+        "Undead nature": "The Deathlock does not need to breathe, eat, drink or sleep.",
+        "Innate Spellcasting": "The Deathlock uses Charisma (save DC 14) for its innate spells. It needs no material components.\nAt will. Detect Magic, Disguise Self, Mage Armor.",
+        "Spellcasting": "A 10th-level warlock spellcaster using Charisma (save DC 14, +6 to hit with spell attacks). It regains spent slots after a short or long rest.\nCantrips (at will). Chill Touch, Mage Hand, Minor Illusion, Poison Spray.\n1st through 5th level (two 5th-level slots). Blink, Dominate Beast, Dominate Person, Faerie Fire, Greater Invisibility, Hunger of Hadar, Hypnotic Pattern, Phantasmal Force, Seeming, Sleep.",
+        "Actions": "Deathly Claw. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 13 (3d6 + 3) necrotic damage.\nGrave Bolts. Ranged spell attack, +6 to hit, range 120 ft., one or two targets. A hit deals 18 (4d8) necrotic damage. A Large or smaller target hit by a bolt must pass a DC 16 Strength save or be restrained by shadowy tendrils for 1 minute. A restrained target can use its action to repeat the save and end the effect on a success.",
+        "Patron-specific spells": "This profile uses the full example list for its patron. The sidebar also lets a DM replace only some of the leveled warlock spells. Keep the original cantrips, innate spells, and spell slots.",
+        "Printed source": "Mordenkainen’s Tome of Foes, pp. 128–129, Deathlock Mastermind and Patron-Specific Spells sidebar."
+      }
+    }
+  },
+  {
+    "name": "Deathlock Mastermind (Fiend Patron)",
+    "statBlock": {
+      "name": "Deathlock Mastermind (Fiend Patron)",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 129,
+      "classification": "Medium undead, neutral evil",
+      "ac": 13,
+      "hp": 110,
+      "hitDice": "20d8 + 20",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 17
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 14,
+      "description": "A powerful Deathlock with enough freedom to plan its own tactics. It recruits servants and builds conspiracies to carry out its patron’s orders.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Arcana": 5,
+        "History": 5,
+        "Perception": 4
+      },
+      "savingThrows": {
+        "Int": 5,
+        "Cha": 6
+      },
+      "sections": {
+        "Senses": "Darkvision 120 ft., including magical darkness.",
+        "Languages": "The languages it knew in life.",
+        "Damage resistances": "Necrotic. Bludgeoning, piercing and slashing from nonmagical attacks made without silvered weapons.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Exhaustion and poisoned.",
+        "Traits": "Turn Resistance. The Deathlock has advantage on saves against effects that turn undead.",
+        "Undead nature": "The Deathlock does not need to breathe, eat, drink or sleep.",
+        "Innate Spellcasting": "The Deathlock uses Charisma (save DC 14) for its innate spells. It needs no material components.\nAt will. Detect Magic, Disguise Self, Mage Armor.",
+        "Spellcasting": "A 10th-level warlock spellcaster using Charisma (save DC 14, +6 to hit with spell attacks). It regains spent slots after a short or long rest.\nCantrips (at will). Chill Touch, Mage Hand, Minor Illusion, Poison Spray.\n1st through 5th level (two 5th-level slots). Blindness/Deafness, Burning Hands, Command, Fire Shield, Fireball, Flame Strike, Hellish Rebuke, Scorching Ray, Stinking Cloud, Wall of Fire.",
+        "Actions": "Deathly Claw. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 13 (3d6 + 3) necrotic damage.\nGrave Bolts. Ranged spell attack, +6 to hit, range 120 ft., one or two targets. A hit deals 18 (4d8) necrotic damage. A Large or smaller target hit by a bolt must pass a DC 16 Strength save or be restrained by shadowy tendrils for 1 minute. A restrained target can use its action to repeat the save and end the effect on a success.",
+        "Patron-specific spells": "This profile uses the full example list for its patron. The sidebar also lets a DM replace only some of the leveled warlock spells. Keep the original cantrips, innate spells, and spell slots.",
+        "Printed source": "Mordenkainen’s Tome of Foes, pp. 128–129, Deathlock Mastermind and Patron-Specific Spells sidebar."
+      }
+    }
+  },
+  {
+    "name": "Deathlock Mastermind (Great Old One Patron)",
+    "statBlock": {
+      "name": "Deathlock Mastermind (Great Old One Patron)",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 129,
+      "classification": "Medium undead, neutral evil",
+      "ac": 13,
+      "hp": 110,
+      "hitDice": "20d8 + 20",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 17
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 14,
+      "description": "A powerful Deathlock with enough freedom to plan its own tactics. It recruits servants and builds conspiracies to carry out its patron’s orders.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Arcana": 5,
+        "History": 5,
+        "Perception": 4
+      },
+      "savingThrows": {
+        "Int": 5,
+        "Cha": 6
+      },
+      "sections": {
+        "Senses": "Darkvision 120 ft., including magical darkness.",
+        "Languages": "The languages it knew in life.",
+        "Damage resistances": "Necrotic. Bludgeoning, piercing and slashing from nonmagical attacks made without silvered weapons.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Exhaustion and poisoned.",
+        "Traits": "Turn Resistance. The Deathlock has advantage on saves against effects that turn undead.",
+        "Undead nature": "The Deathlock does not need to breathe, eat, drink or sleep.",
+        "Innate Spellcasting": "The Deathlock uses Charisma (save DC 14) for its innate spells. It needs no material components.\nAt will. Detect Magic, Disguise Self, Mage Armor.",
+        "Spellcasting": "A 10th-level warlock spellcaster using Charisma (save DC 14, +6 to hit with spell attacks). It regains spent slots after a short or long rest.\nCantrips (at will). Chill Touch, Mage Hand, Minor Illusion, Poison Spray.\n1st through 5th level (two 5th-level slots). Clairvoyance, Detect Thoughts, Dissonant Whispers, Dominate Person, Evard's Black Tentacles, Hunger of Hadar, Phantasmal Force, Sending, Tasha's Hideous Laughter, Telekinesis.",
+        "Actions": "Deathly Claw. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 13 (3d6 + 3) necrotic damage.\nGrave Bolts. Ranged spell attack, +6 to hit, range 120 ft., one or two targets. A hit deals 18 (4d8) necrotic damage. A Large or smaller target hit by a bolt must pass a DC 16 Strength save or be restrained by shadowy tendrils for 1 minute. A restrained target can use its action to repeat the save and end the effect on a success.",
+        "Patron-specific spells": "This profile uses the full example list for its patron. The sidebar also lets a DM replace only some of the leveled warlock spells. Keep the original cantrips, innate spells, and spell slots.",
+        "Printed source": "Mordenkainen’s Tome of Foes, pp. 128–129, Deathlock Mastermind and Patron-Specific Spells sidebar."
+      }
+    }
+  },
+  {
+    "name": "Demonic Cambion (Baphomet)",
+    "statBlock": {
+      "name": "Demonic Cambion (Baphomet)",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "classification": "Medium fiend, any evil alignment",
+      "ac": 19,
+      "hp": 82,
+      "hitDice": "11d8 + 33",
+      "speed": "30 ft., fly 60 ft.",
+      "cr": "5",
+      "xp": 1800,
+      "description": "A winged champion of Baphomet who singles out an enemy so an ally can strike.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "skills": {
+        "Deception": 6,
+        "Intimidation": 6,
+        "Perception": 4,
+        "Stealth": 7
+      },
+      "savingThrows": {
+        "Str": 7,
+        "Con": 6,
+        "Int": 5,
+        "Cha": 6
+      },
+      "passivePerception": 14,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Scale mail. The listed AC includes Fiendish Blessing.",
+        "Damage resistances": "Cold, fire, lightning, and poison. Bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Abyssal, Common, Infernal.",
+        "Traits": "Fiendish Blessing. Add its Charisma bonus to AC.\nHorned One's Call. If both attacks from the cambion’s Multiattack target the same creature, the cambion can choose a visible ally within 30 ft. That ally can spend its reaction to make one melee attack against a target it chooses.",
+        "Innate spellcasting": "Charisma is its spellcasting ability (save DC 14). It casts these spells without material components.\n3/day each. Alter Self, Command, Detect Magic.\n1/day. Plane Shift (self only).",
+        "Actions": "Multiattack. Make two melee attacks or use Fire Ray twice.\nSpear. Melee or ranged weapon attack, +7 to hit, reach 5 ft. or range 20/60 ft., one target. Hit 7 (1d6 + 4) piercing damage, or 8 (1d8 + 4) piercing damage for a two-handed melee hit. Add 3 (1d6) fire damage to either.\nFire Ray. Ranged spell attack, +7 to hit, range 120 ft., one target. Hit 10 (3d6) fire damage.",
+        "Optional signature spells": "As an option, replace Command or Detect Magic with Hunter's Mark. It can also replace Alter Self with Beast Sense. Each replacement spell is usable once per day. Slow is also a 3rd-level signature spell, but the standard cambion has no 3rd-level spell to exchange for it.",
+        "Optional demonic boon": "Baphomet’s boon can grant these traits.\nUnerring Tracker. As a bonus action, the cambion magically links to a visible creature. For up to 1 hour, it can spend a bonus action to learn the target’s distance and direction if they are on the same plane. The link ends if the cambion becomes incapacitated or links to another target.\nIncite the Hunters (Recharges after a Short or Long Rest). As an action, the cambion lets each ally within 30 ft. that has Unerring Tracker spend its reaction to make one weapon attack against the creature that ally is tracking.\nLabyrinthine Recall. The cambion recalls any route it has traveled.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 32, Demonic Cambions, with optional boons on pp. 30–31. Base statistics and resistance errata follow the 2014 Monster Manual, p. 36."
+      },
+      "printedPage": 32
+    }
+  },
+  {
+    "name": "Demonic Cambion (Orcus)",
+    "statBlock": {
+      "name": "Demonic Cambion (Orcus)",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "classification": "Medium fiend, any evil alignment",
+      "ac": 19,
+      "hp": 82,
+      "hitDice": "11d8 + 33",
+      "speed": "30 ft., fly 60 ft.",
+      "cr": "5",
+      "xp": 1800,
+      "description": "A winged champion of Orcus who raises corpses and bolsters nearby undead as it fights.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "skills": {
+        "Deception": 6,
+        "Intimidation": 6,
+        "Perception": 4,
+        "Stealth": 7
+      },
+      "savingThrows": {
+        "Str": 7,
+        "Con": 6,
+        "Int": 5,
+        "Cha": 6
+      },
+      "passivePerception": 14,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Scale mail. The listed AC includes Fiendish Blessing.",
+        "Damage resistances": "Cold, fire, lightning, and poison. Bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Abyssal, Common, Infernal.",
+        "Traits": "Fiendish Blessing. Add its Charisma bonus to AC.\nSpawn of the Grave. At the end of each of the cambion’s turns, if it is not incapacitated, choose any number of undead it can see within 30 ft. Each gains 10 temporary hit points.",
+        "Innate spellcasting": "Charisma is its spellcasting ability (save DC 14). It casts these spells without material components.\n3/day each. Alter Self, Animate Dead, Command, Detect Magic.\n1/day. Plane Shift (self only).",
+        "Actions": "Multiattack. Make two melee attacks or use Fire Ray twice.\nSpear. Melee or ranged weapon attack, +7 to hit, reach 5 ft. or range 20/60 ft., one target. Hit 7 (1d6 + 4) piercing damage, or 8 (1d8 + 4) piercing damage for a two-handed melee hit. Add 3 (1d6) fire damage to either.\nFire Ray. Ranged spell attack, +7 to hit, range 120 ft., one target. Hit 10 (3d6) fire damage.",
+        "Optional signature spells": "As an option, replace Command or Detect Magic with False Life. It can also replace Alter Self with Ray of Enfeeblement. Each replacement spell is usable once per day. Animate Dead is already included above through Spawn of the Grave.",
+        "Optional demonic boon": "Orcus’s boon can grant these traits.\nUndying Soul (Recharges after a Short or Long Rest). When reduced to 0 hit points, the cambion immediately makes a DC 10 Constitution save. On a success, it drops to 1 hit point instead.\nAura of Death. While the cambion is not incapacitated, it projects an aura out to 30 ft. from its space. Total cover blocks it. Within the aura, the cambion and friendly undead are immune to being frightened and resist radiant damage. Enemies within the aura have disadvantage on death saving throws.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 32, Demonic Cambions, with optional boons on pp. 30–31. Base statistics and resistance errata follow the 2014 Monster Manual, p. 36."
+      },
+      "printedPage": 32
+    }
+  }
+]

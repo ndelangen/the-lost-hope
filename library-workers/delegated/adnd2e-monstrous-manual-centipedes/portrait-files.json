@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Giant Centipede",
+    "file": "",
+    "selection": "generated",
+    "sha256": "5e2e82268d4c3d9523235cfb88d61daed5c59796b33c88563701ec03105cb190",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "name": "Huge Centipede",
+    "file": "",
+    "selection": "generated",
+    "sha256": "79df2781c9e99983bb2c22808842cad9a757a94bb70c1d8bd036d9d398f31489",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "name": "Megalo-centipede",
+    "file": "",
+    "selection": "generated",
+    "sha256": "8e1b7064444b685a3bec7dc1470321b6a0fe3582ff6e98a6e7133fcf621742fa",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "name": "Tunnel Worm",
+    "file": "",
+    "selection": "generated",
+    "sha256": "a7589fb2e3126cb05d583dbed589276d8ef88aed330a59faee40250eff0d7068",
+    "width": 1254,
+    "height": 1254
+  }
+]

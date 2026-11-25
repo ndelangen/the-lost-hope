@@ -1,0 +1,113 @@
+{
+  "builds": [
+    {
+      "id": "skarn-stone-stair-marshal-35e",
+      "title": "Skarn stone stair marshal, Monk 1 substitution",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "difficulty": "Provisional CR 1. ECL 1.",
+      "size": "Medium",
+      "type": "Humanoid (Reptilian)",
+      "ac": 13,
+      "hp": 10,
+      "hitDice": "1d8+2",
+      "initiative": 5,
+      "speed": "30 ft.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 12,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 14,
+        "CHA": 8
+      },
+      "skills": [
+        "Climb +9",
+        "Intimidate +5",
+        "Jump +7",
+        "Tumble +5"
+      ],
+      "senses": "Ordinary vision.",
+      "languages": "Common",
+      "traits": [
+        "Lawful good. Unarmored, Dexterity +1 and Wisdom +2. Touch 13, flat-footed 12. BAB +0, grapple +3. Fortitude +4, Reflex +3, Will +4. Improved Initiative adds +4.",
+        "Spine Strike replaces Monk unarmed strike. Monk features such as flurry of blows and Stunning Fist work with his arm spines. The Medium Monk 1 damage die is 1d6. He has no essentia pool."
+      ],
+      "actions": [
+        "Arm spine +3 melee, 1d6+3 piercing, critical ×2, 5-ft. reach.",
+        "Flurry of blows as a full attack: two arm spine attacks at +1/+1, each 1d6+3 piercing. The −2 attack penalty also applies to his other attacks until just before his next turn.",
+        "Stunning Fist once per day as his Monk bonus feat. Declare before the spine attack roll. On a hit, Fortitude DC 12 or stunned for 1 round. A missed attack or an immune target expends the use. Constructs, oozes, plants, undead, incorporeal creatures, and creatures immune to critical hits cannot be stunned by it.",
+        "Shuriken +1 ranged, 1d2+3 piercing, critical ×2, 10-ft. increment."
+      ],
+      "tactics": "Corven is clearing the stone stair after a landing has started to give way. If a pursuer catches him in place, he tries to stun it and asks the party to get the last climbers around the crack."
+    },
+    {
+      "id": "skarn-lockgate-inspector-35e",
+      "title": "Skarn lockgate inspector, Fighter 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "difficulty": "Provisional CR 1. ECL 1.",
+      "size": "Medium",
+      "type": "Humanoid (Incarnum, Reptilian)",
+      "ac": 17,
+      "hp": 12,
+      "hitDice": "1d10+2",
+      "initiative": 1,
+      "speed": "30 ft.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 12,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Climb +5",
+        "Intimidate +6"
+      ],
+      "senses": "Ordinary vision.",
+      "languages": "Common",
+      "traits": [
+        "Lawful neutral. Chain shirt +4, heavy wooden shield +2, Dexterity +1. Touch 11, flat-footed 16. BAB +1, grapple +4. Fortitude +4, Reflex +1, Will +1. Armor check penalty −4.",
+        "Power Attack is the Fighter bonus feat. Cobalt Power supplies one essentia and the Incarnum subtype. Capacity is 1. Invest the point in Cobalt Power once per day for 24 hours.",
+        "Cobalt Power grants +1 insight on attack rolls or ability checks to succeed at a bull rush, overrun, or sunder. It also adds up to +1 insight damage on Power Attack, capped by the attack penalty taken.",
+        "An arm cannot attack with both its spines and a weapon it wields in the same round. Attacking with spines on an arm carrying a shield removes that shield’s AC bonus until the start of your next turn."
+      ],
+      "actions": [
+        "Longsword +4 melee, 1d8+3 slashing, critical 19–20/×2, 5-ft. reach. With Power Attack set to −1 and Cobalt Power invested: +3 melee, 1d8+5. Choose Power Attack before making attack rolls. Its modifier lasts until her next turn.",
+        "Primary arm spine +4 melee, 1d6+3 piercing, critical ×2, 5-ft. reach. As a single attack, use the sword arm’s spines in place of the sword to keep the shield bonus. Using the shield arm costs 2 AC until the start of her next turn, leaving AC 15 and flat-footed AC 14.",
+        "Javelin +2 ranged, 1d6+3 piercing, critical ×2, 30-ft. increment."
+      ],
+      "tactics": "Sera is holding the lockgate while the crew checks a jammed chain. She keeps her shield up if the lane is crowded and uses a sword-arm spine if someone knocks the sword from her hand."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Skarn",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Magic of Incarnum (2005)",
+      "name": "Corven Ashstep",
+      "build": "skarn-stone-stair-marshal-35e",
+      "role": "Stone stair marshal and Monk.",
+      "motive": "Get the last climbers off a cracked landing.",
+      "hook": "Corven asks the party to lead the climbers down while he keeps the stair clear."
+    },
+    {
+      "species": "Skarn",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Magic of Incarnum (2005)",
+      "name": "Sera Flintward",
+      "build": "skarn-lockgate-inspector-35e",
+      "role": "Lockgate inspector and Fighter.",
+      "motive": "Keep the lockgate clear until the crew can reach the jammed chain.",
+      "hook": "Sera can hold the gate and tell the party how to reach the chain from the bank."
+    }
+  ]
+}

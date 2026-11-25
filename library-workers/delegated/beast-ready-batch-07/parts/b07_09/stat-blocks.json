@@ -1,0 +1,270 @@
+[
+  {
+    "name": "Boar",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "classification": "Medium Animal, always neutral",
+    "ac": 16,
+    "hp": 25,
+    "hitDice": "3d8 + 12",
+    "speed": "40 ft. (8 squares)",
+    "cr": "2",
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Initiative +0. AC 16 (+6 natural), touch 10, flat-footed 16. Base attack +2, grapple +4. Space/reach 5 ft./5 ft. Fort +6, Ref +3, Will +2.",
+    "appearance": "A low, bristly wild pig with a dark mane, long snout and upward-curving tusks.",
+    "habitats": [
+      "Temperate forests"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast Revised v3.5 SRD, MonstersAnimals.rtf, Boar. https://palikhov.github.io/srd-v3.5/monsters/monsters-animals.html#boar",
+      "Attack": "Gore +4 melee (1d8 + 3).",
+      "Full attack": "Gore +4 melee (1d8 + 3).",
+      "Special attacks": "Ferocity (Ex). The boar keeps fighting without the normal penalties for being disabled or dying.",
+      "Special qualities": "Low-light vision. In dim light it sees twice as far as a human and still distinguishes color and detail.\nScent. Detect a typical nearby opponent by odor at 30 ft. Use a move action to find its direction and pinpoint it within 5 ft.",
+      "Skills and feats": "Skills Listen +7, Spot +5.\nFeats Alertness, Toughness.",
+      "Encounter ecology": "Solitary or herd of 5–8. Advancement 4–5 HD (Medium). No level adjustment. The Animal type supplies always neutral alignment and no treasure."
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true
+  },
+  {
+    "name": "Dire Boar",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "classification": "Large Animal, always neutral",
+    "ac": 15,
+    "hp": 52,
+    "hitDice": "7d8 + 21",
+    "speed": "40 ft. (8 squares)",
+    "cr": "4",
+    "abilities": {
+      "Str": {
+        "score": 27,
+        "modifier": 8
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 8,
+        "modifier": -1
+      }
+    },
+    "otherStatistics": "Initiative +0. AC 15 (−1 size, +6 natural), touch 9, flat-footed 15. Base attack +5, grapple +17. Space/reach 10 ft./5 ft. Fort +8, Ref +5, Will +8.",
+    "appearance": "A hulking brown boar with a raised ridge of bristles, heavy shoulders and broad ivory tusks.",
+    "habitats": [
+      "Temperate forests"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast Revised v3.5 SRD, MonstersDi-Do.rtf, Dire Boar. https://palikhov.github.io/srd-v3.5/monsters/monsters-di-do.html#dire-boar",
+      "Attack": "Gore +12 melee (1d8 + 12).",
+      "Full attack": "Gore +12 melee (1d8 + 12).",
+      "Special attacks": "Ferocity (Ex). The boar keeps fighting without the normal penalties for being disabled or dying.",
+      "Special qualities": "Low-light vision. In dim light it sees twice as far as a human and still distinguishes color and detail.\nScent. Detect a typical nearby opponent by odor at 30 ft. Use a move action to find its direction and pinpoint it within 5 ft.",
+      "Skills and feats": "Skills Listen +8, Spot +8.\nFeats Alertness, Endurance, Iron Will.",
+      "Encounter ecology": "Solitary or herd of 5–8. No treasure or level adjustment. Advancement 8–16 HD (Large) or 17–21 HD (Huge). These omnivores can reach 12 ft. long and 2,000 lb.",
+      "At the table": "The printed combat prose describes charging with the tusks. Use ordinary charge rules with Gore."
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true
+  },
+  {
+    "name": "Elasmosaurus",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "classification": "Huge Animal, always neutral",
+    "ac": 13,
+    "hp": 111,
+    "hitDice": "10d8 + 66",
+    "speed": "20 ft. (4 squares), swim 50 ft.",
+    "cr": "7",
+    "abilities": {
+      "Str": {
+        "score": 26,
+        "modifier": 8
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 22,
+        "modifier": 6
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 9,
+        "modifier": -1
+      }
+    },
+    "otherStatistics": "Initiative +2. AC 13 (−2 size, +2 Dex, +3 natural), touch 10, flat-footed 11. Base attack +7, grapple +23. Space/reach 15 ft./10 ft. Fort +15, Ref +9, Will +4.",
+    "appearance": "A long-necked marine reptile with a small narrow head, blue-green back, pale underside and four broad flippers.",
+    "habitats": [
+      "Warm aquatic"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast Revised v3.5 SRD, MonstersDi-Do.rtf, Dinosaur, Elasmosaurus. https://palikhov.github.io/srd-v3.5/monsters/monsters-di-do.html#elasmosaurus",
+      "Attack": "Bite +13 melee (2d8 + 12).",
+      "Full attack": "Bite +13 melee (2d8 + 12).",
+      "Special qualities": "Low-light vision. In dim light it sees twice as far as a human and still distinguishes color and detail.\nScent. Detect a typical nearby opponent by odor at 30 ft. Use a move action to find its direction and pinpoint it within 5 ft.\nAir breathing. It lives chiefly in water and breathes air.",
+      "Skills and feats": "Skills Hide −4, Listen +4, Spot +9, Swim +16. Add a +8 racial bonus to Hide checks in water.\nFeats Dodge, Great Fortitude, Toughness twice.",
+      "Encounter ecology": "Solitary, pair or herd of 5–8. No treasure or level adjustment. Advancement 11–20 HD (Huge) or 21–30 HD (Gargantuan). It reaches about 30 ft. and 5,000 lb.",
+      "At the table": "When hunting, it moves with its head above water and snaps down at prey. The attack uses the printed 10-ft. reach."
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true
+  },
+  {
+    "name": "Megaraptor",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "classification": "Huge Animal, always neutral",
+    "ac": 16,
+    "hp": 79,
+    "hitDice": "8d8 + 43",
+    "speed": "60 ft. (12 squares)",
+    "cr": "6",
+    "abilities": {
+      "Str": {
+        "score": 21,
+        "modifier": 5
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 21,
+        "modifier": 5
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 10,
+        "modifier": 0
+      }
+    },
+    "otherStatistics": "Initiative +2. AC 16 (−2 size, +2 Dex, +6 natural), touch 10, flat-footed 14. Base attack +6, grapple +19. Space/reach 15 ft./10 ft. Fort +10, Ref +8, Will +4.",
+    "appearance": "A tall, long-tailed predator with rust-dark plumage, a long toothed snout, grasping forelimbs and enlarged hind talons.",
+    "habitats": [
+      "Warm forests"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast Revised v3.5 SRD, MonstersDi-Do.rtf, Dinosaur, Megaraptor. https://palikhov.github.io/srd-v3.5/monsters/monsters-di-do.html#megaraptor",
+      "Attack": "Talons +9 melee (2d8 + 5).",
+      "Full attack": "Talons +9 melee (2d8 + 5), two foreclaws +4 melee each (1d4 + 2 each), and bite +4 melee (2d6 + 2).",
+      "Special attacks": "Pounce (Ex). After charging, the megaraptor can make its full attack. The talons count as one attack.",
+      "Special qualities": "Low-light vision. In dim light it sees twice as far as a human and still distinguishes color and detail.\nScent. Detect a typical nearby opponent by odor at 30 ft. Use a move action to find its direction and pinpoint it within 5 ft.",
+      "Skills and feats": "Skills Hide +5, Jump +27, Listen +12, Spot +12, Survival +12. The prose identifies a +8 racial bonus behind each of those five skill totals.\nFeats Run, Toughness, Track.",
+      "Encounter ecology": "Solitary, pair or pack of 3–6. No treasure or level adjustment. Advancement 9–16 HD (Huge) or 17–24 HD (Gargantuan). The prose gives about 12 ft. tall and 24 ft. long.",
+      "At the table": "When following a scent trail with Track, the typical DC for a fresh trail is 10. Odor strength, age and the number of creatures can change it.",
+      "Printing notes": "The RTF prints Fort +10. The usual 8-HD good Fortitude base of +6 with Constitution +5 would give +11. The printed +10 is used here.\nThe separate February 17, 2006 Monster Manual v.3.5 errata for book p. 60 gives a Large version. It has AC 17, touch 11, flat-footed 15, grapple +15 and space/reach 10 ft./5 ft. Its full attack is talons +10 (2d6 + 5), two foreclaws +5 each (1d4 + 2 each) and bite +5 (1d8 + 2). Hide becomes +9 and advancement is 9–16 HD (Large) or 17–24 HD (Huge). The errata also prints Fort +10. "
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true
+  },
+  {
+    "name": "Rhinoceros",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "classification": "Large Animal, always neutral",
+    "ac": 16,
+    "hp": 76,
+    "hitDice": "8d8 + 40",
+    "speed": "30 ft. (6 squares)",
+    "cr": "4",
+    "abilities": {
+      "Str": {
+        "score": 26,
+        "modifier": 8
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 21,
+        "modifier": 5
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 2,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Initiative +0. AC 16 (−1 size, +7 natural), touch 9, flat-footed 16. Base attack +6, grapple +18. Space/reach 10 ft./5 ft. Fort +11, Ref +6, Will +3.",
+    "appearance": "A heavy gray-brown rhinoceros with folded hide, wide feet and two nasal horns.",
+    "habitats": [
+      "Warm plains"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast Revised v3.5 SRD, MonstersAnimals.rtf, Rhinoceros. https://palikhov.github.io/srd-v3.5/monsters/monsters-animals.html#rhinoceros",
+      "Attack": "Gore +13 melee (2d6 + 12).",
+      "Full attack": "Gore +13 melee (2d6 + 12).",
+      "Special attacks": "Powerful Charge (Ex). The successful charge deals 4d6 + 24 damage total.",
+      "Special qualities": "Low-light vision. In dim light it sees twice as far as a human and still distinguishes color and detail.",
+      "Skills and feats": "Skills Listen +14, Spot +3.\nFeats Alertness, Endurance, Improved Natural Attack (gore).",
+      "Encounter ecology": "Solitary or herd of 2–12. Advancement 9–12 HD (Large) or 13–24 HD (Huge). No level adjustment. The Animal type supplies always neutral alignment and no treasure. The entry models the African black rhinoceros."
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true
+  }
+]

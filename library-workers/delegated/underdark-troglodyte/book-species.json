@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Troglodyte",
+    "kind": "species",
+    "publication": "Underdark (2003)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Medium Humanoid (Reptilian). −2 Dexterity, +4 Constitution, −2 Intelligence. Land speed 30 ft. Darkvision 90 ft. and +6 natural armor.",
+      "Stench (Ex). Anger or fear triggers the musk. Living creatures within 30 ft. other than troglodytes make a Fortitude save or become sickened for 10 rounds. The DC is 10 + half the racial Hit Dice + the Constitution modifier. A successful save protects the creature from that individual troglodyte’s stench for 24 hours.",
+      "Poison immunity prevents the effect. Apply normal bonuses against poison to the save. Delay poison or neutralize poison removes the sickness.",
+      "Sickened creatures take −2 on attack rolls, weapon damage rolls, saving throws, skill checks, and ability checks.",
+      "Color-changing skin gives +4 on Hide checks, rising to +8 in rocky or underground surroundings.",
+      "Two claw attacks deal 1d4 piercing and slashing damage each and the bite deals 1d4 bludgeoning, piercing, and slashing damage before Strength. Bonus Multiattack reduces the secondary attack penalty from −5 to −2.",
+      "Two racial Hit Dice (2d8) grant BAB +1, base Fortitude +3, Reflex +0, Will +0, and one feat. Racial skill points are five times (2 + Intelligence modifier), with a minimum of 1 point per Hit Die before the first-Hit-Die multiplier. Hide and Listen are racial class skills.",
+      "Draconic is automatic. Bonus languages are Common, Giant, Goblin, and Orc. LA +2, so ECL 4 before class levels. Favored class Cleric.",
+      "Underdark lists the advancement entry and refers to the Monster Manual for the playable racial traits."
+    ]
+  }
+]

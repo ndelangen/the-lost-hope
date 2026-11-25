@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Shadowswyft",
+    "species": "species-32ec8686825b6736e180e63d",
+    "edition": "3.5 edition",
+    "profiles": [
+      "Planar Handbook (2004)"
+    ],
+    "portraitSha256": "f8369d6fc298ddfd235b425e38b2ec9cb2f6e0d54bc9686e7e6e0f78cc5ec6be",
+    "caption": "Mheer Wink · Original Shadowswyft NPC",
+    "npcReceipts": [
+      {
+        "name": "Mheer Wink",
+        "id": "npc-111123a456875e628b108b96",
+        "challenge": "Provisional CR 2. ECL 2 (1 class HD, LA +1)."
+      },
+      {
+        "name": "Pohl Nod",
+        "id": "npc-921dbc4b620814a9850593b4",
+        "challenge": "Provisional CR 2. ECL 2 (1 class HD, LA +1)."
+      }
+    ]
+  }
+]

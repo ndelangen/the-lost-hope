@@ -1,0 +1,105 @@
+diff --git a/dm-library/bestiary/book-catalog.json b/dm-library/bestiary/book-catalog.json
+--- a/dm-library/bestiary/book-catalog.json
++++ b/dm-library/bestiary/book-catalog.json
+@@ -309489,6 +309489,78 @@
+           }
+         ]
+       }
++    },
++    {
++      "name": "Giant Marble Snake",
++      "kind": "beast",
++      "publication": "Palace of the Silver Princess (orange cover)",
++      "edition": "Basic D&D",
++      "ruleset": "basic-dnd",
++      "appearance": "A giant milk-white snake with a gold mane of facial hair, long fangs, multifaceted eyes, and translucent patches that show veins.",
++      "combat": {
++        "armorClass": 8,
++        "hitDice": "3",
++        "movement": "150 ft. (50 ft.)",
++        "numberOfAttacks": 1,
++        "damageDice": "1–6",
++        "habitats": ["Sunny high ground, rocky ledges, and ruined fortresses"]
++      },
++      "mechanics": {
++        "Special attacks": [
++          {
++            "name": "Whistling charm",
++            "effectNote": "The snake whistles to draw a target to it. The target makes a save vs. Spell. The snake’s first successful strike against that target ends the charm. The bite is nonvenomous."
++          }
++        ],
++        "Encounters": [
++          {
++            "name": "Room 29, ballroom",
++            "effectNote": "The snake hides in the suspended bell with 16 HP. Every creature that hears its whistle must save vs. Spell or be charmed."
++          }
++        ]
++      },
++      "notes": [
++        "1–4 appearing. Saves as Fighter 3. Morale 8. Treasure type C. Neutral.",
++        "Jean Wells, Palace of the Silver Princess (orange cover, TSR, 1981), pp. 25 and 27."
++      ]
++    },
++    {
++      "name": "Giant Marmoset",
++      "kind": "beast",
++      "publication": "Palace of the Silver Princess (orange cover)",
++      "edition": "Basic D&D",
++      "ruleset": "basic-dnd",
++      "appearance": "A giant jungle monkey with a sharp, furry tail spike. The two Cell D guards are 8 feet tall when upright and have 12-foot tails.",
++      "combat": {
++        "armorClass": 5,
++        "hitDice": "3",
++        "movement": "180 ft. (60 ft.)",
++        "numberOfAttacks": 4,
++        "damageDice": "1–6 / 1–6 / 1–8 / 1–4",
++        "habitats": ["Jungle trees and cliffs"]
++      },
++      "mechanics": {
++        "Attacks": [
++          {
++            "name": "Claws, bite, and tail spike",
++            "effectNote": "The printed damage sequence is 1–6, 1–6, 1–8, and 1–4. The marmoset uses the 1–4 tail spike on the ground. In the trees, it hangs by its tail and fights with its claws and bite."
++          },
++          {
++            "name": "Thrown stones",
++            "effectNote": "From cliffs the marmosets prefer to throw large stones at prey below. The entry gives no damage or range for the stones."
++          }
++        ],
++        "Encounters": [
++          {
++            "name": "Room 32, Cell D",
++            "effectNote": "Two Chaotic guards with 10 HP each attack anyone who enters except Travis. The general profile lists Neutral."
++          }
++        ]
++      },
++      "notes": [
++        "2–8 appearing. Saves as Fighter 3. Morale 8. Treasure type J. Neutral.",
++        "Jean Wells, Palace of the Silver Princess (orange cover, TSR, 1981), pp. 16 and 28."
++      ]
+     }
+   ],
+   "species": [
+diff --git a/dm-library/bestiary/book-catalog.ts b/dm-library/bestiary/book-catalog.ts
+--- a/dm-library/bestiary/book-catalog.ts
++++ b/dm-library/bestiary/book-catalog.ts
+@@ -11,6 +11,7 @@
+ 
+ type BookProfile = Entry & {
+   ruleset:
++    | 'basic-dnd'
+     | 'adnd-1e'
+     | 'adnd-2e'
+     | 'dnd-3.5'
+diff --git a/dm-library/bestiary/entries.tsv b/dm-library/bestiary/entries.tsv
+--- a/dm-library/bestiary/entries.tsv
++++ b/dm-library/bestiary/entries.tsv
+@@ -4026,6 +4026,8 @@
+ Giant Lizard (variant)	beast	Beast	Monster Manual (2014)	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/275699-giant-lizard-variant	1/4
+ Giant Lizard (variant)	beast	Beast	Waterdeep: Dungeon of the Mad Mage	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/275699-giant-lizard-variant	1/4
+ Giant Lynx	monster	Fey	Bigby Presents: Glory of the Giants	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/3731026-giant-lynx	1/2
++Giant Marble Snake	beast	Animal	Palace of the Silver Princess (orange cover)	Basic D&D	TSR Hobbies, Inc.	https://web.archive.org/web/20030823060503/http://www.wizards.com/dnd/article.asp?x=dnd/dx20020121x7	
++Giant Marmoset	beast	Animal	Palace of the Silver Princess (orange cover)	Basic D&D	TSR Hobbies, Inc.	https://web.archive.org/web/20030823060503/http://www.wizards.com/dnd/article.asp?x=dnd/dx20020121x7	
+ Giant Mimic	monster	Monstrosity	Waterdeep: Dragon Heist	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/285320-giant-mimic	3
+ Giant Mimic	monster	Monstrosity	Waterdeep: Dungeon of the Mad Mage	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/285320-giant-mimic	3
+ Giant Octopus	beast	Beast	Black Flag Roleplaying Reference Document v0.2	Black Flag Roleplaying	Kobold Press		1

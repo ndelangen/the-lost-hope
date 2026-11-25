@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Giant Owl",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Tyler Kamstra's DMs Guild player rules for 2014 fifth edition, using the v2 printing.",
+      "Medium Beast. Increase Dexterity by 1. Walking speed 5 ft., fly speed 60 ft. Flight is unavailable in medium or heavy armor.",
+      "Flyby allows Disengage as a bonus action. Sight- and hearing-based Wisdom (Perception) checks have advantage. Darkvision extends to 120 ft. and shows only shades of gray in darkness.",
+      "The owl has no hands and cannot wield weapons or shields. The printed No Hands line has an apparent anatomy error about tentacles.",
+      "Talons deal 1d8 piercing as an unarmed strike. Dexterity can replace Strength for its attack and damage rolls, and the strike counts as a finesse weapon for effects such as Sneak Attack.",
+      "Speaks, reads, and writes Giant Owl. Understands, reads, and writes Common, Elvish, and Sylvan. Giant Owl is its only spoken language."
+    ]
+  },
+  {
+    "name": "Giant Poisonous Snake",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Tyler Kamstra's DMs Guild player rules for 2014 fifth edition, using the v2 printing.",
+      "Medium Beast. Increase Dexterity by 2. Walking and swim speeds 30 ft. Blindsight 10 ft.",
+      "Bite deals 1d4 piercing plus 1d4 poison as an unarmed strike. Dexterity can replace Strength for its attack and damage rolls, and the strike counts as a finesse weapon for effects such as Sneak Attack.",
+      "Serpentine Body prevents the snake from wearing armor, wielding weapons or shields, and using items it would have to manipulate, including spellcasting foci, wands, and tools.",
+      "Speaks, reads, and writes Common. Giant Venomous Snake is a descriptive search name for this profile."
+    ]
+  },
+  {
+    "name": "Giant Spider",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Tyler Kamstra's DMs Guild player rules for 2014 fifth edition, using the v2 printing.",
+      "Medium Beast. Increase Strength by 1 and Dexterity by 2. Walking and climb speeds 30 ft., darkvision 60 ft. Unarmored AC is 11 + Dexterity modifier.",
+      "Spider Climb covers difficult surfaces and ceilings without a check. Web Walker ignores the movement limits of webs. The spider lacks hands for weapons, shields, foci, wands, tools, and other items that require manipulation.",
+      "Bite deals 1d4 piercing plus 1d4 poison as an unarmed strike. Dexterity can replace Strength for its attack and damage rolls, and the strike counts as a finesse weapon for effects such as Sneak Attack.",
+      "Web is a ranged weapon attack at 30/60 ft. that restrains a creature on a hit. The creature can use its action to escape with a Strength check against 8 + proficiency bonus + Constitution modifier.",
+      "Destroying the web ends the restraint. The web has AC 10, 5 HP, resistance to bludgeoning, and immunity to poison and psychic damage. The trait gives no recharge or use limit.",
+      "Speaks, reads, and writes Common."
+    ]
+  },
+  {
+    "name": "Giant Wasp",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Tyler Kamstra's DMs Guild player rules for 2014 fifth edition, using the v2 printing.",
+      "Medium Beast. Increase Dexterity by 2. Walking speed 10 ft., fly speed 50 ft. Flight is unavailable in medium or heavy armor.",
+      "The wasp has no hands for weapons, shields, foci, wands, tools, or other items that need manual manipulation.",
+      "Sting deals 1d4 piercing plus 1d4 poison as an unarmed strike. Dexterity can replace Strength for its attack and damage rolls, and the strike counts as a finesse weapon for effects such as Sneak Attack.",
+      "Speaks, reads, and writes Common."
+    ]
+  }
+]

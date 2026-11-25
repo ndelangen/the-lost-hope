@@ -1,0 +1,168 @@
+[
+  {
+    "name": "Mohrg",
+    "publication": "Libris Mortis: The Book of Undead (2004)",
+    "edition": "3.5 edition",
+    "kind": "species",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Undead",
+    "url": "",
+    "page": "pp. 36–37, Table 2–4 and Mohrg class features",
+    "printedPages": [
+      36,
+      37
+    ],
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 0,
+    "primaryBookSha256": "42e456abbf6582e4588ca7c29a6c1e4279222f5cd6dcea22eb5d475c6d1ac874",
+    "firstPrinting": "October 2004",
+    "sourceDistinctions": [
+      "The printed slams, improved grab and tongue timing are from the monster class. The base progression has one slam and the level 12 build has no spawn feature.",
+      "Uses the Human bonus feat and skill point rules, retaining applicable Human features per Libris Mortis p. 34. Human skill benefits are applied on HD-bearing levels only. The two ordinary score increases use the 4th and 8th Hit Dice and both go to Strength."
+    ],
+    "supportingSources": [
+      {
+        "name": "Libris Mortis, undead monster-class rules, pp. 34–35",
+        "url": ""
+      },
+      {
+        "name": "Libris Mortis, undead diet and optional hunger, pp. 9–10",
+        "url": ""
+      },
+      {
+        "name": "Savage Species, p. 27 and table 2–5, HD-based separately earned benefits",
+        "url": ""
+      },
+      {
+        "name": "Revised 3.5 SRD, Human racial traits",
+        "url": "https://www.d20srd.org/srd/races.htm#humans"
+      },
+      {
+        "name": "Revised 3.5 SRD, feats",
+        "url": "https://www.d20srd.org/srd/feats.htm"
+      },
+      {
+        "name": "Revised 3.5 SRD, special abilities",
+        "url": "https://www.d20srd.org/srd/specialAbilities.htm"
+      },
+      {
+        "name": "Revised 3.5 SRD, grapple rules",
+        "url": "https://www.d20srd.org/srd/combat/specialAttacks.htm#grapple"
+      }
+    ]
+  },
+  {
+    "name": "Vampire Spawn",
+    "publication": "Libris Mortis: The Book of Undead (2004)",
+    "edition": "3.5 edition",
+    "kind": "species",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Undead",
+    "url": "",
+    "page": "pp. 38–40, Table 2–6 and Vampire Spawn class features",
+    "printedPages": [
+      38,
+      39,
+      40
+    ],
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 0,
+    "primaryBookSha256": "42e456abbf6582e4588ca7c29a6c1e4279222f5cd6dcea22eb5d475c6d1ac874",
+    "firstPrinting": "October 2004",
+    "sourceDistinctions": [
+      "The class gives domination CL 12 and gaseous form CL 5. Use these values even where the SRD stock Vampire Spawn entry gives different caster levels. The class refers to the Monster Manual for vampiric weaknesses.",
+      "The human bonus feat applies at the first Hit Die. The +1 ability gain at 4 HD goes to Charisma. Human skill points are granted only at levels that gain Hit Dice. Intelligence rises at monster-class level 7 and only increases the skill points granted at that level.",
+      "Libris Mortis pp. 9–10 classifies vampire spawn as blood-dependent with a life-force craving. The optional hunger check is off in this encounter."
+    ],
+    "supportingSources": [
+      {
+        "name": "Libris Mortis, undead monster-class rules, pp. 34–35",
+        "url": ""
+      },
+      {
+        "name": "Libris Mortis, undead diet and optional hunger, pp. 9–10",
+        "url": ""
+      },
+      {
+        "name": "Savage Species, p. 27 and table 2–5, HD-based separately earned benefits",
+        "url": ""
+      },
+      {
+        "name": "Revised 3.5 SRD, Human racial traits",
+        "url": "https://www.d20srd.org/srd/races.htm#humans"
+      },
+      {
+        "name": "Revised 3.5 SRD, feats",
+        "url": "https://www.d20srd.org/srd/feats.htm"
+      },
+      {
+        "name": "Revised 3.5 SRD, special abilities",
+        "url": "https://www.d20srd.org/srd/specialAbilities.htm"
+      },
+      {
+        "name": "Revised 3.5 SRD, grapple rules",
+        "url": "https://www.d20srd.org/srd/combat/specialAttacks.htm#grapple"
+      },
+      {
+        "name": "Revised 3.5 SRD, Vampire Spawn and vampire weaknesses",
+        "url": "https://www.d20srd.org/srd/monsters/vampire.htm#vampireSpawn"
+      },
+      {
+        "name": "Revised 3.5 SRD, spells",
+        "url": "https://www.d20srd.org/srd/spells/gaseousForm.htm"
+      }
+    ]
+  },
+  {
+    "name": "Wight",
+    "publication": "Libris Mortis: The Book of Undead (2004)",
+    "edition": "3.5 edition",
+    "kind": "species",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Undead",
+    "url": "",
+    "page": "p. 40, Table 2–7 and Wight class features",
+    "printedPages": [
+      40
+    ],
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 0,
+    "primaryBookSha256": "42e456abbf6582e4588ca7c29a6c1e4279222f5cd6dcea22eb5d475c6d1ac874",
+    "firstPrinting": "October 2004",
+    "sourceDistinctions": [
+      "The level 8 row gives energy drain and create spawn. Start with no controlled spawn.",
+      "The human bonus feat applies at the first Hit Die. The +1 ability gain at 4 HD goes to Dexterity. Human skill points are granted only at levels that gain Hit Dice. Search is cross-class.",
+      "Libris Mortis pp. 9–10 classifies wights as craving life force. The optional hunger check is off in this encounter."
+    ],
+    "supportingSources": [
+      {
+        "name": "Libris Mortis, undead monster-class rules, pp. 34–35",
+        "url": ""
+      },
+      {
+        "name": "Libris Mortis, undead diet and optional hunger, pp. 9–10",
+        "url": ""
+      },
+      {
+        "name": "Savage Species, p. 27 and table 2–5, HD-based separately earned benefits",
+        "url": ""
+      },
+      {
+        "name": "Revised 3.5 SRD, Human racial traits",
+        "url": "https://www.d20srd.org/srd/races.htm#humans"
+      },
+      {
+        "name": "Revised 3.5 SRD, feats",
+        "url": "https://www.d20srd.org/srd/feats.htm"
+      },
+      {
+        "name": "Revised 3.5 SRD, special abilities",
+        "url": "https://www.d20srd.org/srd/specialAbilities.htm"
+      },
+      {
+        "name": "Revised 3.5 SRD, grapple rules",
+        "url": "https://www.d20srd.org/srd/combat/specialAttacks.htm#grapple"
+      }
+    ]
+  }
+]

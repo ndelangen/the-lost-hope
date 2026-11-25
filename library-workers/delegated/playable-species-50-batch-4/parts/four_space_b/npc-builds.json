@@ -1,0 +1,243 @@
+{
+  "builds": [
+    {
+      "id": "dnd35-dracotaur-drezhal-stonewake",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "size": "Large",
+      "type": "Dragon",
+      "title": "Dracotaur marsh outrider, Fighter 1",
+      "difficulty": "Fighter 1 plus 3 racial HD, LA +5, ECL 9.",
+      "ac": 21,
+      "hp": 46,
+      "hitDice": "3d12+15 plus 1d10+5",
+      "initiative": 7,
+      "speed": "50 ft.",
+      "senses": "Low-light vision, darkvision 60 ft.",
+      "languages": "Draconic and Common.",
+      "abilityScores": {
+        "STR": 24,
+        "DEX": 17,
+        "CON": 20,
+        "INT": 12,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Balance +5",
+        "Climb +6",
+        "Intimidate +7",
+        "Jump +24",
+        "Listen +7",
+        "Sense Motive +7",
+        "Spot +7",
+        "Survival +7",
+        "Swim +7",
+        "Use Magic Device +6"
+      ],
+      "traits": [
+        "Large, 10-ft. space and 5-ft. reach. BAB +4, grapple +15. Fortitude +10, Reflex +6, Will +6.",
+        "AC 21 consists of −1 size, +3 Dex, +5 natural, +2 leather armor and +2 heavy wooden shield. Touch AC 12, flat-footed AC 18.",
+        "Iron Will and Improved Initiative come from racial HD. Fighter bonus feat Weapon Focus (club). The fourth-Hit-Die ability increase goes to Strength.",
+        "Immune to magical sleep and paralysis. Shield armor check penalty −2 (doubled on Swim). Jump includes the +8 speed bonus and +4 racial bonus.",
+        "HP uses racial die results 7, 6 and 7 plus Fighter die result 6. Constitution adds 5 per Hit Die."
+      ],
+      "actions": [
+        "Large club +11 melee, 1d8+7 bludgeoning, ×2. Bite alone +10 melee, 1d8+7 piercing, slashing and bludgeoning.",
+        "Full attack with shield equipped: club +11 (1d8+7), bite +5 (1d8+3) and tail slap +5 (1d8+10). The tail uses the damage multiplier shown in both printed examples.",
+        "Spit Fire (Su), standard action, +6 ranged touch, 20-ft. increment. A direct hit deals 2d6 fire. Splash deals 1d4 fire to creatures within 5 ft. of the impact apart from a direct-hit target. No ongoing fire. Recharges after 1 minute."
+      ],
+      "tactics": "Begin with fire if the party crowds the ramp. Hold the causeway with the shield and use the full attack when an opponent stays in reach."
+    },
+    {
+      "id": "adnd2-rastipede-chirr-ambercoil",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "AD&D 2nd edition"
+      ],
+      "size": "Medium",
+      "type": "Insectoid humanoid",
+      "title": "Rastipede lock pilot, Mage 4",
+      "difficulty": "Mage 4. Helm operates as Mage 12.",
+      "ac": 1,
+      "hp": 15,
+      "hitDice": "4d4+4",
+      "initiative": 0,
+      "speed": "15 unencumbered.",
+      "senses": "Cannot be surprised from behind by a creature whose odor it can sense.",
+      "languages": "Rastipede, Common, Giff, Elven and Dwarven.",
+      "abilityScores": {
+        "STR": 11,
+        "DEX": 16,
+        "CON": 15,
+        "INT": 16,
+        "WIS": 13,
+        "CHA": 11
+      },
+      "skills": [
+        "Spelljamming 14 (2 slots)",
+        "Spacemanship 17",
+        "Direction Sense 14",
+        "Navigation (Wildspace) 14",
+        "Navigation (Phlogiston) 14",
+        "Cartography 14",
+        "Appraising 16 (2 slots)",
+        "Spellcraft 14"
+      ],
+      "traits": [
+        "Descending AC 1 comes from shell AC 3 and Dexterity −2. No armor or shield. THAC0 19. Saves in standard order are 14/11/13/15/12.",
+        "Apply Dexterity −1 and Constitution +1 to generated Dex 17 and Con 14. Rolled wizard HP dice 3, 3, 2 and 3, with +1 HP per die.",
+        "Detect depth or grade and check for unsafe surfaces after one round of concentration per check. Use the printed 1d6/1d10 thresholds.",
+        "Treat Chirr as Mage 12 for the helm alone. Resolve normal helm usage and spell availability independently. The Spelljamming proficiency gives −1 to ship initiative rolls and can improve either ship rating by one or maneuverability for one turn on a successful check. The wooden tally rod in the portrait has no combat or magical effect.",
+        "Prepared wizard spells: Light, Magic Missile and Shield, plus Invisibility and Web. Each listed spell is ready once."
+      ],
+      "actions": [
+        "Single claw: THAC0 19, 1d4 damage. This mage uses one claw under the core class restriction on weapon pairs. Dagger is the one weapon proficiency and deals 1d4 against small or man-sized foes, 1d3 against Large ones, speed 2.",
+        "Light, casting time 1, range 60 yd. for 4 turns, as torchlight in a 20-ft. radius. Uses phosphorescent moss. Chirr normally centers it on a lock or marker.",
+        "Magic Missile, casting time 1, range 100 yd. Two darts deal 1d4+1 each, divide among known visible or otherwise detected targets. No save.",
+        "Shield, casting time 1, self, 20 rounds. From the front it negates Magic Missile and gives +1 on saves. Apply equivalent AC 2 versus thrown missiles, 3 versus launched missiles or 4 otherwise only if it improves the applicable defense.",
+        "Invisibility, casting time 2, touch, no save. Target is unseen but can still make sound. Ends on attack, cancellation or dispel, or after 24 hours.",
+        "Web, casting time 2, range 20 yd., lasts 8 turns. Attach a mass of up to eight 10-ft. cubes and at least 10 ft. thick to opposed solid anchors. Save vs. spell at −2. Success escapes if room or halves the binding force. In full-strength web, Str under 13 cannot break free, Str 13–17 breaks 1 ft./round, Str 18+ breaks 2 ft./round. Halve the minimum threshold to Str 7 and double break rates for half-strength web. Fire consumes it in a round and deals 2d4 to trapped creatures."
+      ],
+      "tactics": "Negotiate with the party from the lock controls. Use Light to mark the safe crate, Web to close the gangplank if pressed, and Invisibility to escape rather than contesting a crowd."
+    },
+    {
+      "id": "adnd2-scro-garrun-flintjaw",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "AD&D 2nd edition"
+      ],
+      "size": "Medium",
+      "type": "Humanoid (Scro)",
+      "title": "Scro dock marshal, Fighter 3",
+      "difficulty": "Fighter 3. Specialized battleaxe gives 3 attacks per 2 rounds.",
+      "ac": 3,
+      "hp": 29,
+      "hitDice": "3d10+9",
+      "initiative": 0,
+      "speed": "12 unencumbered (standard humanoid movement).",
+      "senses": "Infravision 60 ft. No daylight penalty.",
+      "languages": "Scro (Orcish), Common and Elven.",
+      "abilityScores": {
+        "STR": 17,
+        "DEX": 15,
+        "CON": 17,
+        "INT": 13,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Spacemanship 16",
+        "Rope Use 15",
+        "Blind-fighting (2 slots)",
+        "Direction Sense 13",
+        "Armorer 11 (2 slots)"
+      ],
+      "traits": [
+        "Descending AC 3 is chain mail and medium shield for AC 4, plus Dexterity −1. AC 4 wherever only chain and Dexterity apply. THAC0 18 and saves 13/15/14/16/16 in standard order.",
+        "Generated Strength 16 becomes 17. Fighter HP rolls 6, 7 and 7, then add +3 per die from Constitution.",
+        "Battleaxe specialization takes two weapon slots in total. Remaining weapon proficiencies are dagger, hand axe and light crossbow. Garrun carries 67 lb. of armor, shield, axe and supplies, below the Str 17 normal allowance of 85 lb."
+      ],
+      "actions": [
+        "Specialized battleaxe: THAC0 16 after +1 Strength and +1 specialization. Damage 1d8+3 against Small/Medium or Large targets. Speed 7. Alternate one and two attacks while using the axe.",
+        "Bite: THAC0 17, 1d3 damage. Garrun uses this as a separate attack option and keeps the printed racial damage die without a Strength damage rider."
+      ],
+      "tactics": "Garrun sets a line at the gangplank. He tells the party which crew can pass, then guards that gap with his shield. He uses the bite in close quarters when the axe is awkward."
+    },
+    {
+      "id": "adnd2-xixchil-vesh-claspneedle",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "AD&D 2nd edition"
+      ],
+      "size": "Medium",
+      "type": "Insectoid humanoid",
+      "title": "Xixchil hull surgeon, Mage 2",
+      "difficulty": "Mage 2. Uses both unmodified natural blades.",
+      "ac": 3,
+      "hp": 10,
+      "hitDice": "2d4+4",
+      "initiative": 0,
+      "speed": "12 unencumbered (standard humanoid movement).",
+      "senses": "Ordinary sight.",
+      "languages": "Xixchil, Common, Elven and Dwarven.",
+      "abilityScores": {
+        "STR": 11,
+        "DEX": 16,
+        "CON": 16,
+        "INT": 15,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Body Manipulation 13 (2 slots)",
+        "Spacemanship 17",
+        "Reading/Writing Common 16",
+        "Herbalism 13 (2 slots)",
+        "Cooking 15",
+        "Direction Sense 13"
+      ],
+      "traits": [
+        "Descending AC 3 comes from shell AC 5 and Dexterity −2. Raw scores Dex 15, Con 15 and Cha 12 receive racial adjustments. Rolled HP dice 3 and 3, plus 2 HP per die. THAC0 20 and saves 14/11/13/15/12 in standard order.",
+        "Prepared spells are Sleep and Spider Climb. Carries surgical tools and components. No weapon graft or surgical AC upgrades.",
+        "Track three combined poison/anesthetic secretions per day. Sample a creature after a hit, then allow one round for the secretion to form. After Vesh lands a successful hit, permit tasting the affected blade without a separate action. The book does not assign a separate action to that sample."
+      ],
+      "actions": [
+        "Natural blades: one attack per forelimb at THAC0 20, 2d4 damage each against Small/Medium or 2d6 against Large. Use weapon speed 9 from glaive-guisarme for optional individual initiative.",
+        "Poisoned bite: THAC0 20, 1d4 base damage. On a failed poison save at −4, add 10 poison damage. Poisoned blade, same saving throw, doubles damage of the blow on failure. Target becomes immune to Vesh’s subsequent poison attempts if it saves.",
+        "Anesthetic: use a prepared secretion through a successful bite or blade hit. Failed save vs. poison paralyzes for 1d6 turns. The section does not state a save penalty for anesthetic, so use an unmodified save. Targets of level/HD 3 or higher or Large size or larger are immune.",
+        "Sleep, casting time 1, range 30 yd. For up to 10 rounds, affects 2d4 total HD in a cluster whose members are at most 30 ft. apart. Lowest HD first with no partial targets, no save. Undead and creatures with HD 4+3 or greater are excluded. A slap or wound wakes a creature, taking a round.",
+        "Spider Climb, casting time 1, touch, 5 rounds. Bare gripping limbs climb walls or ceilings at movement 6, or 3 while encumbered. Small objects stick to gripping limbs and impede casting. An unwilling target saves vs. spell."
+      ],
+      "tactics": "Use Sleep to stop a rush at the ward door. Climb around a jammed hatch once the tools are secured. Use anesthetic only against an eligible creature Vesh has sampled."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Drezhal Stonewake",
+      "species": "Dracotaur",
+      "size": "Large",
+      "speciesPublication": "Monster Manual III (3.5, 2004)",
+      "edition": "3.5 edition",
+      "build": "dnd35-dracotaur-drezhal-stonewake",
+      "role": "Outrider guarding a raised causeway.",
+      "motive": "Keep the marsh causeway open while a late caravan crosses.",
+      "hook": "Drezhal can name the shallow crossings if the party helps unpin a wagon from the old floodgate."
+    },
+    {
+      "name": "Chirr Ambercoil",
+      "species": "Rastipede",
+      "size": "Medium",
+      "speciesPublication": "The Complete Spacefarer's Handbook (1992)",
+      "edition": "AD&D 2nd edition",
+      "build": "adnd2-rastipede-chirr-ambercoil",
+      "role": "Independent pilot and broker at a freight lock.",
+      "motive": "Keep a cargo route open until the crews stranded below can come through.",
+      "hook": "Chirr offers a fare if the party can unjam the freight lock before a rival crew seals it."
+    },
+    {
+      "name": "Garrun Flintjaw",
+      "species": "Scro",
+      "size": "Medium",
+      "speciesPublication": "The Complete Spacefarer's Handbook (1992)",
+      "edition": "AD&D 2nd edition",
+      "build": "adnd2-scro-garrun-flintjaw",
+      "role": "Retired boarding officer serving as a dock marshal.",
+      "motive": "Stop two ship crews from turning a dock dispute into a boarding action.",
+      "hook": "Garrun recognizes the rigging knot on a stolen armor chest and can say who last checked it in."
+    },
+    {
+      "name": "Vesh Claspneedle",
+      "species": "Xixchil",
+      "size": "Medium",
+      "speciesPublication": "The Complete Spacefarer's Handbook (1992)",
+      "edition": "AD&D 2nd edition",
+      "build": "adnd2-xixchil-vesh-claspneedle",
+      "role": "Hull surgeon who works close to the air envelope.",
+      "motive": "Find out who has been taking the station’s surgical instruments.",
+      "hook": "Vesh offers a ledger of the missing tools if the party recovers a marked satchel from a derelict tender."
+    }
+  ]
+}

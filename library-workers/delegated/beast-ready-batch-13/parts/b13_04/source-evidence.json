@@ -1,0 +1,125 @@
+[
+  {
+    "name": "Aurochs",
+    "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, October 2021. The title released in 2022.",
+    "isbn": "978-0-7869-6743-8",
+    "chapter": "Chapter 2, Bestiary",
+    "section": "Cattle, Aurochs",
+    "printedPages": [
+      71
+    ],
+    "pdfPages": [
+      71
+    ],
+    "localPrintWitness": "",
+    "localPrintSha256": "837394168a6ded0f6954b262aecd7671331bc1ddb0ecbf612d2fab6a3420d92e",
+    "sourceUrl": "https://www.dndbeyond.com/monsters/2560728-aurochs",
+    "url": "https://www.dndbeyond.com/monsters/2560728-aurochs",
+    "publisherIndexUrl": "https://www.dndbeyond.com/sources/dnd/motm",
+    "publisherBlockAnchor": "https://www.dndbeyond.com/sources/motm/bestiary#Aurochs",
+    "sourceAccess": "Official index confirms the entry. The publisher creature link redirects to the marketplace without entitlement. Rules verified against the printed folio in the local .",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae",
+    "errataEvidence": "Wizards’ Sage Advice & Errata index lists no dedicated Monsters of the Multiverse correction sheet. No official correction to this entry was located.",
+    "operationalEvidence": "Left column of p. 71 gives the Gore attack and its immediate straight-run condition. The extra damage is applied to the target. A creature can also fall prone on a failed Strength save.",
+    "appearanceEvidence": "Editorial description based on anatomy in the printed entry or its illustration and checked against the selected portrait.",
+    "habitatEvidence": "Terrain tags from the Appendix Monster Lists, printed p. 287.",
+    "artGroup": "aurochs",
+    "reuseSha256": "ec87d80c9f5b366160f4d7ed396d76d91b718215de5c1a6abbaab8cb38248b61"
+  },
+  {
+    "name": "Deep Rothé",
+    "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, October 2021. The title released in 2022.",
+    "isbn": "978-0-7869-6743-8",
+    "chapter": "Chapter 2, Bestiary",
+    "section": "Cattle, Deep Rothé",
+    "printedPages": [
+      71
+    ],
+    "pdfPages": [
+      71
+    ],
+    "localPrintWitness": "",
+    "localPrintSha256": "837394168a6ded0f6954b262aecd7671331bc1ddb0ecbf612d2fab6a3420d92e",
+    "sourceUrl": "https://www.dndbeyond.com/monsters/2560768-deep-rothe",
+    "url": "https://www.dndbeyond.com/monsters/2560768-deep-rothe",
+    "publisherIndexUrl": "https://www.dndbeyond.com/sources/dnd/motm",
+    "publisherBlockAnchor": "https://www.dndbeyond.com/sources/motm/bestiary#DeepRothe",
+    "sourceAccess": "Official index confirms the entry. The publisher creature link redirects to the marketplace without entitlement. Rules verified against the printed folio in the local .",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae",
+    "errataEvidence": "Wizards’ Sage Advice & Errata index lists no dedicated Monsters of the Multiverse correction sheet. No official correction to this entry was located.",
+    "operationalEvidence": "Right column of p. 71 gives darkvision, Beast of Burden, Gore with conditional extra damage, and component-free Wisdom casting of dancing lights.",
+    "supportingSpellUrl": "https://www.dndbeyond.com/spells/2057-dancing-lights",
+    "appearanceEvidence": "Editorial description based on anatomy in the printed entry or its illustration and checked against the selected portrait.",
+    "habitatEvidence": "Terrain tags from the Appendix Monster Lists, printed p. 288.",
+    "artGroup": "deep-rothe"
+  },
+  {
+    "name": "Dolphin",
+    "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, October 2021. The title released in 2022.",
+    "isbn": "978-0-7869-6743-8",
+    "chapter": "Chapter 2, Bestiary",
+    "section": "Dolphins, Dolphin",
+    "printedPages": [
+      97
+    ],
+    "pdfPages": [
+      97
+    ],
+    "localPrintWitness": "",
+    "localPrintSha256": "837394168a6ded0f6954b262aecd7671331bc1ddb0ecbf612d2fab6a3420d92e",
+    "sourceUrl": "https://www.dndbeyond.com/monsters/2560780-dolphin",
+    "url": "https://www.dndbeyond.com/monsters/2560780-dolphin",
+    "publisherIndexUrl": "https://www.dndbeyond.com/sources/dnd/motm",
+    "publisherBlockAnchor": "https://www.dndbeyond.com/sources/motm/bestiary#Dolphin",
+    "sourceAccess": "Official index confirms the entry. The publisher creature link redirects to the marketplace without entitlement. Rules verified against the printed folio in the local .",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae",
+    "errataEvidence": "Wizards’ Sage Advice & Errata index lists no dedicated Monsters of the Multiverse correction sheet. No official correction to this entry was located.",
+    "operationalEvidence": "Top-left block of p. 97 is the ordinary Dolphin. Blindsight, Hold Breath and the 30-ft. Slam condition come from this block.",
+    "appearanceEvidence": "Editorial description based on anatomy in the printed entry or its illustration and checked against the selected portrait.",
+    "habitatEvidence": "Terrain tags from the Appendix Monster Lists, printed pp. 286 and 288.",
+    "artGroup": "dolphin",
+    "reuseSha256": "04ad7363d846e0cd251984a105536d7694657f73a3a29b2b6e2852950fc1dd86"
+  },
+  {
+    "name": "Ox",
+    "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, October 2021. The title released in 2022.",
+    "isbn": "978-0-7869-6743-8",
+    "chapter": "Chapter 2, Bestiary",
+    "section": "Cattle, Ox",
+    "printedPages": [
+      72
+    ],
+    "pdfPages": [
+      72
+    ],
+    "localPrintWitness": "",
+    "localPrintSha256": "837394168a6ded0f6954b262aecd7671331bc1ddb0ecbf612d2fab6a3420d92e",
+    "sourceUrl": "https://www.dndbeyond.com/monsters/2560899-ox",
+    "url": "https://www.dndbeyond.com/monsters/2560899-ox",
+    "publisherIndexUrl": "https://www.dndbeyond.com/sources/dnd/motm",
+    "publisherBlockAnchor": "https://www.dndbeyond.com/sources/motm/bestiary#Ox",
+    "sourceAccess": "Official index confirms the entry. The publisher creature link redirects to the marketplace without entitlement. Rules verified against the printed folio in the local .",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae",
+    "errataEvidence": "Wizards’ Sage Advice & Errata index lists no dedicated Monsters of the Multiverse correction sheet. No official correction to this entry was located.",
+    "operationalEvidence": "The Ox is the left-column block on p. 72. Its Beast of Burden applies to carrying capacity. Gore gains damage after the immediate 20-ft. straight approach.",
+    "appearanceEvidence": "Editorial description based on anatomy in the printed entry or its illustration and checked against the selected portrait.",
+    "habitatEvidence": "Terrain tags from the Appendix Monster Lists, printed pp. 287–288.",
+    "artGroup": "ox"
+  }
+]

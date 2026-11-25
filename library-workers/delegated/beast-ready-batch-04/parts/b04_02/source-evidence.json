@@ -1,0 +1,168 @@
+[
+  {
+    "name": "Blood Hawk",
+    "kind": "beast",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "printing": "D&D Basic Rules, version 1.0, November 2018 ",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      120
+    ],
+    "viewerPages": [
+      120
+    ],
+    "section": "Chapter 12, Monsters",
+    "sourceUrl": "",
+    "url": "",
+    "appearanceEvidence": "Both books describe a red-feathered hawk with a sharp beak. The dark bars and feather pattern are choices for the shared portrait.",
+    "habitatEvidence": "The 2014 legacy D&D Beyond entry supplies these six habitat tags. The two printed sources describe the hawk’s behavior without a habitat field.",
+    "habitatSourceKind": "Search tags based on the publisher’s legacy D&D Beyond habitat labels and any marked editorial examples.",
+    "dndBeyondCrossCheck": "https://www.dndbeyond.com/monsters/16810-blood-hawk",
+    "mechanicsNotes": [
+      "Pack Tactics requires an eligible ally near the target. It applies without spending a bonus action."
+    ],
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3"
+  },
+  {
+    "name": "Blood Hawk",
+    "kind": "beast",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "printing": "Monster Manual, first printing, September 2014",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      319
+    ],
+    "viewerPages": [
+      320
+    ],
+    "section": "Appendix A, Miscellaneous Creatures",
+    "sourceUrl": "https://www.dndbeyond.com/monsters/16810-blood-hawk",
+    "url": "https://www.dndbeyond.com/monsters/16810-blood-hawk",
+    "appearanceEvidence": "Both books describe a red-feathered hawk with a sharp beak. The dark bars and feather pattern are choices for the shared portrait.",
+    "habitatEvidence": "The 2014 legacy D&D Beyond entry supplies these six habitat tags. The two printed sources describe the hawk’s behavior without a habitat field.",
+    "habitatSourceKind": "Search tags based on the publisher’s legacy D&D Beyond habitat labels and any marked editorial examples.",
+    "dndBeyondCrossCheck": "https://www.dndbeyond.com/monsters/16810-blood-hawk",
+    "mechanicsNotes": [
+      "Pack Tactics requires an eligible ally near the target. It applies without spending a bonus action."
+    ],
+    "printedSource": "Monster Manual, ISBN 978-0-7869-6561-8, local copy",
+    "errataUrl": "",
+    "errataEvidence": "The publisher’s 2018 Monster Manual errata v2.0 has no correction for Blood Hawk."
+  },
+  {
+    "name": "Brown Bear",
+    "kind": "beast",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "printing": "D&D Basic Rules, version 1.0, November 2018 ",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      120
+    ],
+    "viewerPages": [
+      120
+    ],
+    "section": "Chapter 12, Monsters",
+    "sourceUrl": "",
+    "url": "",
+    "appearanceEvidence": "The creature’s size and Claws attack come from both books. The shoulder hump and grizzled fur are editorial details from the shared portrait.",
+    "habitatEvidence": "The 2014 legacy D&D Beyond entry supplies these three habitat tags. Neither printed block specifies habitat.",
+    "habitatSourceKind": "Search tags based on the publisher’s legacy D&D Beyond habitat labels and any marked editorial examples.",
+    "dndBeyondCrossCheck": "https://www.dndbeyond.com/monsters/16816-brown-bear",
+    "mechanicsNotes": [
+      "Basic Rules (2018) prints +6 to hit for Bite and Claws. Official Monster Manual errata v2.0 makes the same +6 correction to the 2014 block, whose first printing read +5."
+    ],
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3"
+  },
+  {
+    "name": "Brown Bear",
+    "kind": "beast",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "printing": "Monster Manual, first printing, September 2014",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      319
+    ],
+    "viewerPages": [
+      320
+    ],
+    "section": "Appendix A, Miscellaneous Creatures",
+    "sourceUrl": "https://www.dndbeyond.com/monsters/16816-brown-bear",
+    "url": "https://www.dndbeyond.com/monsters/16816-brown-bear",
+    "appearanceEvidence": "The creature’s size and Claws attack come from both books. The shoulder hump and grizzled fur are editorial details from the shared portrait.",
+    "habitatEvidence": "The 2014 legacy D&D Beyond entry supplies these three habitat tags. Neither printed block specifies habitat.",
+    "habitatSourceKind": "Search tags based on the publisher’s legacy D&D Beyond habitat labels and any marked editorial examples.",
+    "dndBeyondCrossCheck": "https://www.dndbeyond.com/monsters/16816-brown-bear",
+    "mechanicsNotes": [
+      "Basic Rules (2018) prints +6 to hit for Bite and Claws. Official Monster Manual errata v2.0 makes the same +6 correction to the 2014 block, whose first printing read +5."
+    ],
+    "printedSource": "Monster Manual, ISBN 978-0-7869-6561-8, local copy",
+    "errataUrl": "",
+    "errataEvidence": "Errata v2.0, first page, Brown Bear (p. 319): both Bite and Claws change from +5 to +6 to hit. The summary uses +6.",
+    "firstPrintingAttackBonus": {
+      "Bite": 5,
+      "Claws": 5
+    },
+    "appliedCorrection": {
+      "Bite": 6,
+      "Claws": 6
+    }
+  },
+  {
+    "name": "Constrictor Snake",
+    "kind": "beast",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "printing": "D&D Basic Rules, version 1.0, November 2018 ",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      122
+    ],
+    "viewerPages": [
+      122
+    ],
+    "section": "Chapter 12, Monsters",
+    "sourceUrl": "",
+    "url": "",
+    "appearanceEvidence": "The size and constricting behavior come from both printed blocks. The python-like head and scale markings are editorial details from the shared portrait.",
+    "habitatEvidence": "The 2014 legacy D&D Beyond entry supplies these four habitat tags. Neither printed block specifies habitat.",
+    "habitatSourceKind": "Search tags based on the publisher’s legacy D&D Beyond habitat labels and any marked editorial examples.",
+    "dndBeyondCrossCheck": "https://www.dndbeyond.com/monsters/16830-constrictor-snake",
+    "mechanicsNotes": [
+      "Constrict applies its grapple on the hit without a separate saving throw. Escape DC 14 applies to ending the grapple. The attack lists one creature and states no additional size cap."
+    ],
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3",
+    "conditionRules": ""
+  },
+  {
+    "name": "Constrictor Snake",
+    "kind": "beast",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "printing": "Monster Manual, first printing, September 2014",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      320
+    ],
+    "viewerPages": [
+      321
+    ],
+    "section": "Appendix A, Miscellaneous Creatures",
+    "sourceUrl": "https://www.dndbeyond.com/monsters/16830-constrictor-snake",
+    "url": "https://www.dndbeyond.com/monsters/16830-constrictor-snake",
+    "appearanceEvidence": "The size and constricting behavior come from both printed blocks. The python-like head and scale markings are editorial details from the shared portrait.",
+    "habitatEvidence": "The 2014 legacy D&D Beyond entry supplies these four habitat tags. Neither printed block specifies habitat.",
+    "habitatSourceKind": "Search tags based on the publisher’s legacy D&D Beyond habitat labels and any marked editorial examples.",
+    "dndBeyondCrossCheck": "https://www.dndbeyond.com/monsters/16830-constrictor-snake",
+    "mechanicsNotes": [
+      "Constrict applies its grapple on the hit without a separate saving throw. Escape DC 14 applies to ending the grapple. The attack lists one creature and states no additional size cap."
+    ],
+    "printedSource": "Monster Manual, ISBN 978-0-7869-6561-8, local copy",
+    "errataUrl": "",
+    "errataEvidence": "The publisher’s 2018 Monster Manual errata v2.0 has no correction for Constrictor Snake.",
+    "conditionRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/appendix-a-conditions"
+  }
+]

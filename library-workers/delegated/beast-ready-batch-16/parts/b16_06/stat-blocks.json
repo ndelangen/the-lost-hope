@@ -1,0 +1,159 @@
+[
+  {
+    "name": "Dire Bear",
+    "publication": "King of the Trollhaunt Warrens",
+    "edition": "4th edition",
+    "classification": "Large natural beast, unaligned",
+    "ac": 25,
+    "hp": 276,
+    "xp": 1200,
+    "speed": "8 squares",
+    "abilities": {
+      "Str": {
+        "score": 23,
+        "modifier": 11
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 8
+      },
+      "Con": {
+        "score": 18,
+        "modifier": 9
+      },
+      "Int": {
+        "score": 2,
+        "modifier": 1
+      },
+      "Wis": {
+        "score": 18,
+        "modifier": 9
+      },
+      "Cha": {
+        "score": 16,
+        "modifier": 8
+      }
+    },
+    "printedPage": 17,
+    "otherStatistics": "Level 11 Elite Brute. Initiative +8. Fortitude 25, Reflex 22, Will 23. Bloodied 138. Perception +9. Saving throws +2. 1 action point. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A massive tawny brown bear with a heavy shoulder hump, broad paws and small ivory projections along its upper back.",
+    "habitats": [
+      "Great Warren",
+      "Mound of Skulls",
+      "Cavern"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, King of the Trollhaunt Warrens, first printing, October 2008, Adventure Book Two, Encounter W4, Mound of Skulls, stat block p. 17 and encounter pp. 16–17. ",
+      "Printed powers": "Claw. Melee basic attack, standard, at-will. Reach 2. +15 vs. AC. Hit for 2d8 + 6 damage.\nMaul. Melee, standard, at-will. Make two Claw attacks. If both hit the same target, make a secondary attack against it at +13 vs. AC. A hit grabs the target until escape.\nUrsine Crush. Melee, standard, at-will. Deal 4d8 + 6 damage to a grabbed creature without an attack roll.",
+      "Encounter": "Norgg’s bear lies below the ledge and gnaws on bones. In combat it attacks the closest target, using Maul to establish a grab before Ursine Crush. Norgg and the bear stay in the chamber if the party flees."
+    }
+  },
+  {
+    "name": "Redspawn Firebelcher",
+    "publication": "King of the Trollhaunt Warrens",
+    "edition": "4th edition",
+    "classification": "Large natural beast (reptile), unaligned",
+    "ac": 25,
+    "hp": 97,
+    "xp": 700,
+    "speed": "4 squares",
+    "abilities": {
+      "Str": {
+        "score": 18,
+        "modifier": 10
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 7
+      },
+      "Con": {
+        "score": 19,
+        "modifier": 10
+      },
+      "Int": {
+        "score": 2,
+        "modifier": 2
+      },
+      "Wis": {
+        "score": 13,
+        "modifier": 6
+      },
+      "Cha": {
+        "score": 8,
+        "modifier": 5
+      }
+    },
+    "printedPage": 25,
+    "otherStatistics": "Level 12 Artillery. Initiative +7. Fortitude 25, Reflex 22, Will 21. Bloodied 48. Perception +6, low-light vision. Resist 20 fire. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A squat, wingless russet reptile with a broad jaw, heavy legs, spined back and long curved tail.",
+    "habitats": [
+      "Great Warren",
+      "Foundry",
+      "Lower cavern"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, King of the Trollhaunt Warrens, first printing, October 2008, Adventure Book Two, Encounter W7, The Foundry, stat block p. 25 and encounter pp. 24–25. ",
+      "Aura": "Fire Within, Fire, aura 5. Allies inside the aura gain resist 10 fire.",
+      "Printed powers": "Bite. Melee basic attack, standard, at-will, Fire. +16 vs. AC. Hit for 1d10 + 4 damage and ongoing 5 fire damage (save ends).\nFire Belch. Ranged, standard, at-will, Fire. Range 12. +15 vs. Reflex. Hit for 2d6 + 1 damage and ongoing 5 fire damage (save ends).\nFire Burst. Area, standard, recharge 5–6, Fire. Area burst 2 within 10. +15 vs. Reflex. Hit for 3d6 + 1 damage and ongoing 5 fire damage (save ends). On a miss, deal half damage and no ongoing fire damage.",
+      "Encounter": "The firebelcher starts out of sight below the escarpment. If battle alerts it, it rolls initiative and enters in round two. It fires from near the top of the steps. Thurk stays close enough to gain its aura’s protection. The firebelcher flees if it is bloodied and Thurk falls."
+    }
+  },
+  {
+    "name": "Wyverns",
+    "publication": "King of the Trollhaunt Warrens",
+    "edition": "4th edition",
+    "classification": "Large natural beast (mount, reptile), unaligned",
+    "ac": 24,
+    "hp": 106,
+    "xp": 500,
+    "speed": "4 squares, fly 8 (hover)",
+    "abilities": {
+      "Str": {
+        "score": 24,
+        "modifier": 12
+      },
+      "Dex": {
+        "score": 17,
+        "modifier": 8
+      },
+      "Con": {
+        "score": 18,
+        "modifier": 9
+      },
+      "Int": {
+        "score": 2,
+        "modifier": 1
+      },
+      "Wis": {
+        "score": 15,
+        "modifier": 7
+      },
+      "Cha": {
+        "score": 8,
+        "modifier": 4
+      }
+    },
+    "printedPage": 42,
+    "otherStatistics": "Level 10 Skirmisher. Initiative +10. Fortitude 24, Reflex 20, Will 19. Bloodied 53. Perception +12, low-light vision. No listed languages. The encounter fields three wyverns worth 500 XP each.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "Two studies of a brown, two-legged wyvern with leathery wings, a narrow head and a long tail ending in a curved stinger.",
+    "habitats": [
+      "Moonstair",
+      "Old Troll Wall"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, King of the Trollhaunt Warrens, first printing, October 2008, Adventure Book Two, Encounter R3, Airborne Assault, stat block p. 42 and encounter pp. 42–43. ",
+      "Printed powers": "Bite. Melee basic attack, standard, at-will. Reach 2. +15 vs. AC. Hit for 1d8 + 7 damage.\nClaws. Melee basic attack, standard, at-will. Only while flying. +15 vs. AC. Hit for 1d6 + 7 damage and knock the target prone.\nSting. Melee, standard, at-will, Poison. Reach 2. +15 vs. AC. Hit for 1d6 + 4 damage, then make a secondary attack against the same target at +13 vs. Fortitude. A secondary hit deals ongoing 10 poison damage (save ends).\nFlyby Attack. Melee, standard, at-will. Fly up to 8 squares and make one melee basic attack at any point during the movement. It provokes no opportunity attacks while moving away from the target of that attack.",
+      "Mount": "Aerial Agility +2, at-will, Mount. While the wyvern is flying with a rider of level 10 or higher, that rider gains +2 to all defenses.",
+      "Encounter": "All three wyverns fly over the Old Troll Wall. They go after the adventurers once the adventurers attack. They use Claws from the air and land to help the other attackers if those allies are engaged in melee, alternating Bite and Sting. The troglodyte remounts a wyvern if its manticore is killed first."
+    }
+  }
+]

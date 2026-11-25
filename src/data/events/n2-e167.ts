@@ -20,4 +20,5 @@ export default createEvent({
       'The instructions called for the heart of an innocent in the candlelit centre of the circle. The party did not perform the ritual.',
     ],
   ],
+  illustrations: ['/assets/scenes/the-broom-ritual-calls-for-the-heart-of-an-innocent.png'],
 })

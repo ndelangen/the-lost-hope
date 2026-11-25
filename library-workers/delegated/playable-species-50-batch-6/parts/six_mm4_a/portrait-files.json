@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Briarvex",
+    "file": "portraits/briarvex.png",
+    "sha256": "a376a899426d344cc2df54d10970b1710b61bed87cc7ccd09d9815a77c13967e",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original AI-assisted art, OpenAI ImageGen"
+  },
+  {
+    "name": "Nagatha",
+    "file": "portraits/nagatha.png",
+    "sha256": "e9a9e85dcbc5e8bb691dc0d1954e4620688038eb7456678837f818ae6feb762e",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original AI-assisted art, OpenAI ImageGen"
+  },
+  {
+    "name": "Corruptor of Fate",
+    "file": "portraits/corruptor-of-fate.png",
+    "sha256": "e052f7d6472333ec1a53cc44f755db702d1c8d23641bc7bc3ad09bf035fff38c",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original AI-assisted art, OpenAI ImageGen"
+  },
+  {
+    "name": "Windblade",
+    "file": "portraits/windblade.png",
+    "sha256": "d44d861644ff16a4444ae1a5180cb13fb0ae5e405a8152117cea348eff9dcb0b",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original AI-assisted art, OpenAI ImageGen"
+  },
+  {
+    "name": "Varag",
+    "file": "portraits/varag.png",
+    "sha256": "10a1fd513154b249df152f9dcd0255589bae3f6b3468b8067b969acf97fa89a3",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original AI-assisted art, OpenAI ImageGen"
+  }
+]

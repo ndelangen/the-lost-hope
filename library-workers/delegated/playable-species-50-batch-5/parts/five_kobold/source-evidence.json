@@ -1,0 +1,123 @@
+[
+  {
+    "name": "Dragonkin",
+    "kind": "species",
+    "publication": "Midgard Heroes (2015)",
+    "edition": "Fifth edition compatible",
+    "publisher": "Kobold Press / Open Design",
+    "heading": "Dragonkin Traits and the five subrace entries",
+    "printedPages": [
+      5,
+      6
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "sourceDistinctions": [
+      "The 2015 Open Design original has four elemental kinds and the mixed-heritage Edjet option in one player profile.",
+      "Karrash uses Flame. The profile is distinct from the core Dragonborn ancestry and the Pathfinder Advanced Races printing."
+    ],
+    "year": 2015,
+    "authors": [
+      "Dan Dillon"
+    ],
+    "url": "https://anyflip.com/usqxr/igmp/basic/",
+    "primaryBookText": "https://anyflip.com/usqxr/igmp/basic/",
+    "publisherSample": "",
+    "publisherPage": "https://koboldpress.com/kpstore/product/midgard-heroes-for-5th-edition/",
+    "npcExamples": [
+      "Karrash Emberseal"
+    ]
+  },
+  {
+    "name": "Shadow Fey",
+    "kind": "species",
+    "publication": "Midgard Heroes (2015)",
+    "edition": "Fifth edition compatible",
+    "publisher": "Kobold Press / Open Design",
+    "heading": "Shadow Fey and Shadow Fey Traits",
+    "printedPages": [
+      15,
+      16
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "sourceDistinctions": [
+      "Midgard Heroes (2015) is the original booklet, distinct from the 2018 Midgard Heroes Handbook. The 2015 Traveler in Darkness text covers both fey roads and shadow roads.",
+      "The source calls this an elf subrace and uses the 2014 elf base traits. The catalog recognizes Shadow Fey as its own exact publication entry.",
+      "Shade and Shadar-kai refer to separate playable profiles."
+    ],
+    "year": 2015,
+    "authors": [
+      "Dan Dillon"
+    ],
+    "url": "https://anyflip.com/usqxr/igmp/basic/",
+    "primaryBookText": "https://anyflip.com/usqxr/igmp/basic/",
+    "publisherSample": "",
+    "publisherPage": "https://koboldpress.com/kpstore/product/midgard-heroes-for-5th-edition/",
+    "npcExamples": [
+      "Vesha Gloamchart"
+    ]
+  },
+  {
+    "name": "Dust Goblin",
+    "kind": "species",
+    "publication": "Unlikely Heroes (2016)",
+    "edition": "Fifth edition compatible",
+    "publisher": "Kobold Press / Open Design",
+    "heading": "Dust Goblin, Dust Goblin Traits and Twisted continuation",
+    "printedPages": [
+      8,
+      9,
+      10
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "sourceDistinctions": [
+      "This is the 2016 player ancestry. Group it under Goblin while keeping its own playable version and edition link.",
+      "Twisted uses the attack trigger, so Kethrek applies the save even when the attack misses. The trait has no printed use limit.",
+      "The 2014 duplicate proficiency rule lets Kethrek replace the overlap between racial Survival and background Survival with Nature."
+    ],
+    "year": 2016,
+    "authors": [
+      "Dan Dillon",
+      "Wolfgang Baur"
+    ],
+    "url": "https://anyflip.com/lphgc/hojw/basic",
+    "primaryBookText": "https://www.scribd.com/document/424641862/Unlikely-Heroes",
+    "publisherPage": "https://koboldpress.com/kpstore/product/unlikely-heroes-for-5th-edition/",
+    "npcExamples": [
+      "Kethrek Flintstep"
+    ]
+  },
+  {
+    "name": "Sahuagin",
+    "kind": "species",
+    "publication": "Unlikely Heroes (2016)",
+    "edition": "Fifth edition compatible",
+    "publisher": "Kobold Press / Open Design",
+    "heading": "Sahuagin and Sahuagin Traits",
+    "printedPages": [
+      17,
+      18,
+      19
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "sourceDistinctions": [
+      "Use the player character entry. Sea devil names this species. The player frenzy spends a bonus action and has a long-rest limit.",
+      "Vekatal is a standard two-armed Sahuagin with legs. The book discusses malenti and other mutations without granting them separate player trait packages here.",
+      "The natural attack entry provides a damage die. Vekatal applies the standard melee Strength modifier. AC uses the natural formula and a shield."
+    ],
+    "year": 2016,
+    "authors": [
+      "Dan Dillon",
+      "Wolfgang Baur"
+    ],
+    "url": "https://anyflip.com/lphgc/hojw/basic",
+    "primaryBookText": "https://www.scribd.com/document/424641862/Unlikely-Heroes",
+    "publisherPage": "https://koboldpress.com/kpstore/product/unlikely-heroes-for-5th-edition/",
+    "npcExamples": [
+      "Vekatal Saltmark"
+    ]
+  }
+]

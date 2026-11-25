@@ -20,4 +20,5 @@ export default createEvent({
       ' cast Suggestion to keep him from eating the apples for up to eight hours.',
     ],
   ],
+  illustrations: ['/assets/scenes/jim-eats-a-golden-apple-and-cannot-stop.png'],
 })

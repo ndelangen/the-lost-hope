@@ -1,0 +1,276 @@
+{
+  "builds": [
+    {
+      "id": "mr2018-ape-flint-palm",
+      "title": "Flint Palm, Ape Barbarian 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR unassigned.",
+      "size": "Medium",
+      "type": "Beast",
+      "speed": "30 ft. walking, 30 ft. climbing",
+      "abilityScores": {
+        "STR": 17,
+        "DEX": 14,
+        "CON": 16,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "ac": 15,
+      "hp": 15,
+      "hitDice": "1d12 + 3",
+      "initiative": 2,
+      "skills": [
+        "Athletics +5",
+        "Nature +1",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "senses": "Passive Perception 13.",
+      "languages": "Common. Dwarvish from Outlander.",
+      "traits": [
+        "Proficiency +2. Strength and Constitution saves both +5. AC 15 is 10 + Dexterity 2 + Constitution 3. HP is 12 + Constitution 3.",
+        "Barbarian grants Nature and Perception. Outlander grants Athletics, Survival and Dwarvish. Flint carries two suitable rocks and wears no armor or shield."
+      ],
+      "actions": [
+        "Fist. Melee unarmed attack +5 within 5 ft. for 1d6 + 3 bludgeoning, or 1d6 + 5 while raging.",
+        "Rock. Throw one carried rock. Ranged weapon attack +4, range 30/60 ft., for 1d6 + 2 bludgeoning. Rage damage applies to Strength-based melee attacks and does not add to this throw.",
+        "Rage. Bonus action, twice per long rest, for up to 1 minute. Advantage on Strength checks and saves, +2 damage on qualifying Strength-based melee weapon attacks, and resistance to bludgeoning, piercing and slashing. Rage ends early on unconsciousness or if a turn ends without having attacked a hostile creature since the previous turn or taken damage in that time. Flint can end it as a bonus action."
+      ],
+      "tactics": "Flint climbs the stonework to see who is removing the bridge pins. If the culprit charges, Flint rages and blocks the crossing. At range Flint throws a rock."
+    },
+    {
+      "id": "mr2018-awakened-tree-split-willow",
+      "title": "Split Willow, Awakened Tree Monk 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR unassigned.",
+      "size": "Small",
+      "type": "Plant",
+      "speed": "30 ft. walking",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 15,
+        "CHA": 8
+      },
+      "ac": 14,
+      "hp": 10,
+      "hitDice": "1d8 + 2",
+      "initiative": 2,
+      "skills": [
+        "Acrobatics +4",
+        "Insight +4",
+        "Medicine +4",
+        "Religion +1"
+      ],
+      "senses": "Passive Perception 12.",
+      "languages": "Common. Elvish from Hermit.",
+      "traits": [
+        "Proficiency +2. Strength save +5. Dexterity save +4. AC 14 is 10 + Dexterity 2 + Wisdom 2. HP is 8 + Constitution 2. Split Willow wears no armor or shield.",
+        "Monk grants Acrobatics and Insight. Hermit grants Medicine, Religion and Elvish. Fire vulnerability doubles incoming fire damage.",
+        "False Appearance takes effect after one motionless minute spent concentrating. It lasts while Split Willow holds the pose."
+      ],
+      "actions": [
+        "Slam. Melee unarmed attack +5 within 5 ft. for 1d6 + 3 bludgeoning, using Strength.",
+        "Martial Arts root kick. After using the Attack action to slam, make one conventional unarmed strike as a bonus action. Melee attack +5 within 5 ft. for 1d4 + 3 bludgeoning."
+      ],
+      "tactics": "Split Willow waits beside the footpath, indistinguishable from a tree. If the charcoal burner reaches for a torch, the tree reveals itself with a warning and backs toward damp ground."
+    },
+    {
+      "id": "mr2018-baboon-spindle",
+      "title": "Spindle, Baboon Fighter 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR unassigned.",
+      "size": "Small",
+      "type": "Beast",
+      "speed": "30 ft. walking, 30 ft. climbing",
+      "abilityScores": {
+        "STR": 10,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 13,
+        "CHA": 10
+      },
+      "ac": 13,
+      "hp": 12,
+      "hitDice": "1d10 + 2",
+      "initiative": 3,
+      "skills": [
+        "Acrobatics +5",
+        "Athletics +2",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "senses": "Passive Perception 13.",
+      "languages": "Common.",
+      "traits": [
+        "Proficiency +2. Strength save +2. Constitution save +4. AC 13 is 10 + Dexterity 3. HP is 10 + Constitution 2.",
+        "Fighter grants Acrobatics and Survival. Sailor grants Athletics and Perception. Spindle carries a shortbow and 20 arrows and wears no armor or shield.",
+        "Archery adds +2 to shortbow attack rolls."
+      ],
+      "actions": [
+        "Shortbow. Ranged weapon attack +7, range 80/320 ft., for 1d6 + 3 piercing. Includes the Archery Fighting Style.",
+        "Bite. Melee unarmed attack +2 within 5 ft. for 1d6 slashing.",
+        "Pack Tactics. Bonus action. Gain advantage on the next attack this turn if a non-incapacitated ally is within 5 ft. of the target.",
+        "Second Wind. Bonus action, regain 1d10 + 1 HP once per short or long rest."
+      ],
+      "tactics": "Spindle climbs out of reach, takes a shot when a deckhand pins the raider down, and spends the bonus action on Second Wind if wounded."
+    },
+    {
+      "id": "mr2018-badger-ashsnout",
+      "title": "Ashsnout, Badger Barbarian 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR unassigned.",
+      "size": "Small",
+      "type": "Beast",
+      "speed": "25 ft. walking, 5 ft. burrowing",
+      "abilityScores": {
+        "STR": 15,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 13,
+        "CHA": 8
+      },
+      "ac": 14,
+      "hp": 14,
+      "hitDice": "1d12 + 2",
+      "initiative": 2,
+      "skills": [
+        "Animal Handling +3",
+        "Athletics +4",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "senses": "Darkvision 60 ft. Passive Perception 13, or 18 when Keen Smell applies.",
+      "languages": "Common.",
+      "traits": [
+        "Proficiency +2. Strength and Constitution saves both +4. AC 14 is 10 + Dexterity 2 + Constitution 2. HP is 12 + Constitution 2.",
+        "Barbarian grants Athletics and Perception. Folk Hero grants Animal Handling and Survival. Ashsnout relies on unarmed strikes and uses no equipment.",
+        "Keen Smell gives advantage on Perception that relies on smell. No Hands bars wielded weapons, shields and tool use."
+      ],
+      "actions": [
+        "Bite or claw. Melee unarmed attack +4 within 5 ft. for 1d6 + 2 piercing or slashing. During Rage use 1d6 + 4 damage of the chosen type.",
+        "Rage. Bonus action, twice per long rest, for up to 1 minute. Advantage on Strength checks and saves, +2 damage on qualifying Strength-based melee weapon attacks, and resistance to bludgeoning, piercing and slashing. It ends early on unconsciousness or if a turn ends without having attacked a hostile creature since the previous turn or taken damage in that time. Ashsnout can end it as a bonus action."
+      ],
+      "tactics": "Ashsnout smells for fresh digging, then pushes up through loose earth if cornered. Rage is for opponents who follow him into the burrow."
+    },
+    {
+      "id": "mr2018-bat-eavespin",
+      "title": "Eavespin, Bat Rogue 2",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR unassigned.",
+      "size": "Tiny",
+      "type": "Beast",
+      "speed": "30 ft. walking, 30 ft. flying",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 12,
+        "WIS": 14,
+        "CHA": 8
+      },
+      "ac": 13,
+      "hp": 17,
+      "hitDice": "2d8 + 4",
+      "initiative": 3,
+      "skills": [
+        "Acrobatics +5",
+        "Athletics +1",
+        "Investigation +3",
+        "Perception +6",
+        "Stealth +7",
+        "Survival +4"
+      ],
+      "senses": "Blindsight 60 ft., disabled while deafened. Passive Perception 16, or 21 when Keen Hearing applies.",
+      "languages": "Common. Dwarvish from Outlander. Thieves’ cant from Rogue.",
+      "traits": [
+        "Proficiency +2. Dexterity save +5. Intelligence save +3. AC 13 is 10 + Dexterity 3. HP is 10 at level 1 plus the fixed gain of 7 at level 2.",
+        "Rogue grants Acrobatics, Investigation, Perception and Stealth. Expertise doubles proficiency in Perception and Stealth. Outlander grants Athletics, Survival and Dwarvish.",
+        "No Hands bars wielded weapons, shields and tool use. Eavespin has no equipment and uses ordinary flight. The supplement’s Tiny rules limit carrying, lifting and pushing to one quarter of the normal amounts."
+      ],
+      "actions": [
+        "Bite. Melee unarmed attack +5 within 5 ft. for 1d4 + 3 piercing. Add 1d6 piercing once per turn when the bite qualifies for Sneak Attack.",
+        "Sneak Attack. The finesse bite qualifies with advantage. It also qualifies if another enemy is within 5 ft. of the target, that enemy is not incapacitated, and the attack has no disadvantage.",
+        "Cunning Action. Bonus-action Dash, Disengage or Hide."
+      ],
+      "tactics": "Eavespin listens from the rafters and descends when a companion has the intruder occupied. It uses a bonus-action Disengage before returning to the rafters."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Ape",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Flint Palm",
+      "size": "Medium",
+      "build": "mr2018-ape-flint-palm",
+      "role": "Ravine crossing keeper",
+      "motive": "Get the bridge pins back before the drovers arrive.",
+      "hook": "Flint held the bridge steady with both hands while the last cart rolled off. Someone is already chopping at the rope on the far side."
+    },
+    {
+      "species": "Awakened Tree",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Split Willow",
+      "size": "Small",
+      "build": "mr2018-awakened-tree-split-willow",
+      "role": "Old orchard caretaker",
+      "motive": "Bring back the apple grafts before the kilns are lit.",
+      "hook": "The charcoal burner assumes the last tree is dead. It steps out of the woodpile after dark to ask for a wagon."
+    },
+    {
+      "species": "Baboon",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Spindle",
+      "size": "Small",
+      "build": "mr2018-baboon-spindle",
+      "role": "Rigging lookout",
+      "motive": "Find the deckhand who vanished in the fog.",
+      "hook": "Spindle heard two knocks from below a buoy. He can point out the rope that was cut, but he needs someone who can dive."
+    },
+    {
+      "species": "Badger",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Ashsnout",
+      "size": "Small",
+      "build": "mr2018-badger-ashsnout",
+      "role": "Burrow warden",
+      "motive": "Keep the turnip cellar from collapsing into the old den.",
+      "hook": "Ashsnout smells wet clay underneath a dry floor. He wants the cellar opened from above before the tenants light the stove."
+    },
+    {
+      "species": "Bat",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Eavespin",
+      "size": "Tiny",
+      "build": "mr2018-bat-eavespin",
+      "role": "Bell loft eavesdropper",
+      "motive": "Stop someone from ringing the cracked warning bell.",
+      "hook": "Eavespin recognizes the locksmith by his uneven footfall. It asks the party to hide beneath the bell rope before he comes back."
+    }
+  ]
+}

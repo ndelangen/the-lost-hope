@@ -1,0 +1,272 @@
+{
+  "Chaos Gnome": {
+    "profiles": [
+      {
+        "name": "Chaos Gnome",
+        "imageKey": "species:chaos-gnome",
+        "kind": "species",
+        "type": "Humanoid (Gnome)",
+        "publication": "Races of Stone (2004)",
+        "edition": "3.5 edition",
+        "publisher": "Wizards of the Coast",
+        "source": "https://openlibrary.org/books/OL8144379M",
+        "challenge": "",
+        "images": [],
+        "speciesRulesStatus": "local-summary",
+        "speciesTraits": [
+          "Small Humanoid (Gnome), also called imago. Base land speed 20 ft. +2 Dexterity, +2 Constitution, +2 Charisma, −2 Strength.",
+          "Small size gives +1 to AC and attacks and +4 size on Hide. Use Small weapons and three-quarters of Medium lifting and carrying capacity.",
+          "Low-light vision doubles normal human range and preserves color and detail.",
+          "Weapon Familiarity makes the gnome hooked hammer a martial weapon.",
+          "+4 dodge AC against Giant-type creatures while retaining the Dexterity bonus to AC.",
+          "+2 racial bonus on Listen checks and immunity to confusion effects.",
+          "Luck of Chaos (Ex) allows one reroll per day of a roll the gnome just made, before the DM announces success or failure. Keep the new result even if it is worse.",
+          "Spell Power adds +1 effective caster level to spells with the chaos descriptor. It applies to level-dependent spell variables and caster level checks and stacks with other Spell Power abilities.",
+          "Entropic shield is available 1/day regardless of Charisma. At Charisma 10 or higher, daze, flare, and prestidigitation are also available 1/day each. These are caster level 1. Save DC where applicable is 10 + Charisma modifier + spell level.",
+          "Common and Gnome are automatic. Bonus languages are Any. Favored class Sorcerer. Level adjustment +1. The entry grants no racial Hit Dice."
+        ],
+        "npcStatus": "original-build",
+        "npcBuilds": [
+          {
+            "species": "Chaos Gnome",
+            "size": "Small",
+            "edition": "3.5 edition",
+            "speciesPublication": "Races of Stone (2004)",
+            "name": "Orrin Redwick",
+            "build": {
+              "id": "chaos-gnome-lantern-mender-35e",
+              "title": "Chaos Gnome lantern mender, Sorcerer 1",
+              "origin": "Original DM Library NPC",
+              "editions": [
+                "3.5 edition"
+              ],
+              "difficulty": "Provisional CR 2. ECL 2.",
+              "size": "Small",
+              "type": "Humanoid (Gnome)",
+              "ac": 14,
+              "hp": 6,
+              "hitDice": "1d4+2",
+              "initiative": 3,
+              "speed": "20 ft.",
+              "abilityScores": {
+                "STR": 8,
+                "DEX": 16,
+                "CON": 14,
+                "INT": 12,
+                "WIS": 10,
+                "CHA": 16
+              },
+              "skills": [
+                "Concentration +6",
+                "Craft (paperworking) +5",
+                "Listen +2",
+                "Spellcraft +8"
+              ],
+              "senses": "Low-light vision.",
+              "languages": "Common, Gnome, Elven",
+              "traits": [
+                "Unarmored, Dexterity +3 and size +1. Touch 14, flat-footed 11. BAB +0, grapple −5. Fortitude +2, Reflex +3, Will +2.",
+                "+4 dodge AC against Giant-type creatures while retaining the Dexterity bonus to AC.",
+                "Against Giant-type creatures, AC 18 or AC 22 with mage armor while able to dodge. Touch 18 includes the dodge bonus. Skill Focus (Spellcraft) and racial Listen bonus are included. Immune to confusion effects. Familiar slot open.",
+                "Luck of Chaos (Ex) allows one reroll per day of a roll the gnome just made, before the DM announces success or failure. Keep the new result even if it is worse.",
+                "Spell Power adds +1 effective caster level to spells with the chaos descriptor. It applies to level-dependent spell variables and caster level checks and stacks with other Spell Power abilities."
+              ],
+              "actions": [
+                "Small light crossbow +4 ranged, 1d6 piercing, critical 19–20/×2, 80-ft. increment. Reload as a move action.",
+                "Small dagger +0 melee, 1d3−1 piercing or slashing, minimum 1 damage, critical 19–20/×2.",
+                "Five 0-level slots and four 1st-level slots per day. Known 0-level spells are detect magic, light, message, and ray of frost. Known 1st-level spells are mage armor and protection from law. Base caster level 1 and spell save DC 13 + spell level.",
+                "Mage armor gives AC 18, flat-footed 15, for 1 hour. Ray of frost is a +4 ranged touch attack within 25 ft. for 1d3 cold damage. Spell Power casts protection from law at caster level 2 for 2 minutes.",
+                "Protection from law grants +2 deflection AC and +2 resistance on saves against lawful creatures’ attacks or effects. It wards against possession and mental control and blocks contact by lawful summoned creatures. The contact ward ends if the subject attacks a blocked creature or forces the barrier against it. Spell resistance can bypass the contact ward.",
+                "Entropic shield 1/day at caster level 1. The personal effect lasts 1 minute and gives ranged attacks that require an attack roll a 20% miss chance.",
+                "Daze, flare, and prestidigitation 1/day each at caster level 1. Daze is Will DC 13 against a humanoid of 4 HD or less. Flare is Fortitude DC 13 or dazzled for 1 minute."
+              ],
+              "tactics": "Orrin wants help drying out the flooded lantern stock before the procession arrives. He uses mage armor if the work area is threatened and protection from law at the first sign of trouble from a lawful summoned creature."
+            },
+            "role": "Lantern mender and Sorcerer.",
+            "motive": "Salvage the paper lanterns that were left under a leaking roof before the procession assembles.",
+            "hook": "Orrin can repair the route lanterns if the party finds him somewhere dry to work."
+          },
+          {
+            "species": "Chaos Gnome",
+            "size": "Small",
+            "edition": "3.5 edition",
+            "speciesPublication": "Races of Stone (2004)",
+            "name": "Pella Reedchime",
+            "build": {
+              "id": "chaos-gnome-roadside-mediator-35e",
+              "title": "Chaos Gnome roadside mediator, Cleric 1",
+              "origin": "Original DM Library NPC",
+              "editions": [
+                "3.5 edition"
+              ],
+              "difficulty": "Provisional CR 2. ECL 2.",
+              "size": "Small",
+              "type": "Humanoid (Gnome)",
+              "ac": 18,
+              "hp": 10,
+              "hitDice": "1d8+2",
+              "initiative": 1,
+              "speed": "20 ft.",
+              "abilityScores": {
+                "STR": 10,
+                "DEX": 12,
+                "CON": 14,
+                "INT": 10,
+                "WIS": 15,
+                "CHA": 12
+              },
+              "skills": [
+                "Concentration +6",
+                "Diplomacy +8",
+                "Listen +4"
+              ],
+              "senses": "Low-light vision.",
+              "languages": "Common, Gnome",
+              "traits": [
+                "Chain shirt +4, heavy wooden shield +2, Dexterity +1, size +1. Touch 12, flat-footed 17. BAB +0, grapple −4. Fortitude +4, Reflex +1, Will +4.",
+                "+4 dodge AC against Giant-type creatures while retaining the Dexterity bonus to AC.",
+                "Against Giant-type creatures, AC 22 and touch 16 while able to dodge. Skill Focus (Diplomacy) and racial Listen bonus are included. Immune to confusion effects.",
+                "Luck of Chaos (Ex) allows one reroll per day of a roll the gnome just made, before the DM announces success or failure. Keep the new result even if it is worse.",
+                "A chaotic good cleric devoted to the ideals of freedom and charity. Chaos and Good domains add +1 caster level to chaos and good spells respectively. The Chaos domain bonus stacks with racial Spell Power."
+              ],
+              "actions": [
+                "Small light mace +1 melee, 1d4 bludgeoning, critical ×2.",
+                "Small dart +2 ranged, 1d3 piercing, critical ×2, 20-ft. increment.",
+                "Prepared 0-level spells are detect magic, guidance, and light. Prepared 1st-level spells are bless and cure light wounds, with protection from law in the domain slot. Base caster level 1 and spell save DC 12 + spell level. Spontaneously trade non-domain prepared spells for cures of the same level or lower.",
+                "Protection from law uses effective caster level 3 and lasts 3 minutes.",
+                "Turn undead 4/day. Turning check 1d20+1 and turning damage 2d6+2, as a 1st-level cleric.",
+                "Protection from law grants +2 deflection AC and +2 resistance on saves against lawful creatures’ attacks or effects. It wards against possession and mental control and blocks contact by lawful summoned creatures. The contact ward ends if the subject attacks a blocked creature or forces the barrier against it. Spell resistance can bypass the contact ward.",
+                "Entropic shield 1/day at caster level 1. The personal effect lasts 1 minute and gives ranged attacks that require an attack roll a 20% miss chance.",
+                "Daze, flare, and prestidigitation 1/day each at caster level 1. Daze is Will DC 11 against a humanoid of 4 HD or less. Flare is Fortitude DC 11 or dazzled for 1 minute."
+              ],
+              "tactics": "Pella has stopped both wagons at the bridge until the damaged cargo is counted. She asks the party to hear each driver’s claim. If a lawful summoned guard intervenes, Pella casts protection from law on the person closest to it."
+            },
+            "role": "Roadside mediator and Cleric.",
+            "motive": "Resolve a dispute over damaged cargo before sunset strands both wagons at the bridge.",
+            "hook": "Pella can keep the crossing open if the party helps count the damaged goods in front of both drivers."
+          }
+        ]
+      }
+    ],
+    "npcs": [
+      {
+        "species": "Chaos Gnome",
+        "size": "Small",
+        "edition": "3.5 edition",
+        "speciesPublication": "Races of Stone (2004)",
+        "name": "Orrin Redwick",
+        "build": {
+          "id": "chaos-gnome-lantern-mender-35e",
+          "title": "Chaos Gnome lantern mender, Sorcerer 1",
+          "origin": "Original DM Library NPC",
+          "editions": [
+            "3.5 edition"
+          ],
+          "difficulty": "Provisional CR 2. ECL 2.",
+          "size": "Small",
+          "type": "Humanoid (Gnome)",
+          "ac": 14,
+          "hp": 6,
+          "hitDice": "1d4+2",
+          "initiative": 3,
+          "speed": "20 ft.",
+          "abilityScores": {
+            "STR": 8,
+            "DEX": 16,
+            "CON": 14,
+            "INT": 12,
+            "WIS": 10,
+            "CHA": 16
+          },
+          "skills": [
+            "Concentration +6",
+            "Craft (paperworking) +5",
+            "Listen +2",
+            "Spellcraft +8"
+          ],
+          "senses": "Low-light vision.",
+          "languages": "Common, Gnome, Elven",
+          "traits": [
+            "Unarmored, Dexterity +3 and size +1. Touch 14, flat-footed 11. BAB +0, grapple −5. Fortitude +2, Reflex +3, Will +2.",
+            "+4 dodge AC against Giant-type creatures while retaining the Dexterity bonus to AC.",
+            "Against Giant-type creatures, AC 18 or AC 22 with mage armor while able to dodge. Touch 18 includes the dodge bonus. Skill Focus (Spellcraft) and racial Listen bonus are included. Immune to confusion effects. Familiar slot open.",
+            "Luck of Chaos (Ex) allows one reroll per day of a roll the gnome just made, before the DM announces success or failure. Keep the new result even if it is worse.",
+            "Spell Power adds +1 effective caster level to spells with the chaos descriptor. It applies to level-dependent spell variables and caster level checks and stacks with other Spell Power abilities."
+          ],
+          "actions": [
+            "Small light crossbow +4 ranged, 1d6 piercing, critical 19–20/×2, 80-ft. increment. Reload as a move action.",
+            "Small dagger +0 melee, 1d3−1 piercing or slashing, minimum 1 damage, critical 19–20/×2.",
+            "Five 0-level slots and four 1st-level slots per day. Known 0-level spells are detect magic, light, message, and ray of frost. Known 1st-level spells are mage armor and protection from law. Base caster level 1 and spell save DC 13 + spell level.",
+            "Mage armor gives AC 18, flat-footed 15, for 1 hour. Ray of frost is a +4 ranged touch attack within 25 ft. for 1d3 cold damage. Spell Power casts protection from law at caster level 2 for 2 minutes.",
+            "Protection from law grants +2 deflection AC and +2 resistance on saves against lawful creatures’ attacks or effects. It wards against possession and mental control and blocks contact by lawful summoned creatures. The contact ward ends if the subject attacks a blocked creature or forces the barrier against it. Spell resistance can bypass the contact ward.",
+            "Entropic shield 1/day at caster level 1. The personal effect lasts 1 minute and gives ranged attacks that require an attack roll a 20% miss chance.",
+            "Daze, flare, and prestidigitation 1/day each at caster level 1. Daze is Will DC 13 against a humanoid of 4 HD or less. Flare is Fortitude DC 13 or dazzled for 1 minute."
+          ],
+          "tactics": "Orrin wants help drying out the flooded lantern stock before the procession arrives. He uses mage armor if the work area is threatened and protection from law at the first sign of trouble from a lawful summoned creature."
+        },
+        "role": "Lantern mender and Sorcerer.",
+        "motive": "Salvage the paper lanterns that were left under a leaking roof before the procession assembles.",
+        "hook": "Orrin can repair the route lanterns if the party finds him somewhere dry to work."
+      },
+      {
+        "species": "Chaos Gnome",
+        "size": "Small",
+        "edition": "3.5 edition",
+        "speciesPublication": "Races of Stone (2004)",
+        "name": "Pella Reedchime",
+        "build": {
+          "id": "chaos-gnome-roadside-mediator-35e",
+          "title": "Chaos Gnome roadside mediator, Cleric 1",
+          "origin": "Original DM Library NPC",
+          "editions": [
+            "3.5 edition"
+          ],
+          "difficulty": "Provisional CR 2. ECL 2.",
+          "size": "Small",
+          "type": "Humanoid (Gnome)",
+          "ac": 18,
+          "hp": 10,
+          "hitDice": "1d8+2",
+          "initiative": 1,
+          "speed": "20 ft.",
+          "abilityScores": {
+            "STR": 10,
+            "DEX": 12,
+            "CON": 14,
+            "INT": 10,
+            "WIS": 15,
+            "CHA": 12
+          },
+          "skills": [
+            "Concentration +6",
+            "Diplomacy +8",
+            "Listen +4"
+          ],
+          "senses": "Low-light vision.",
+          "languages": "Common, Gnome",
+          "traits": [
+            "Chain shirt +4, heavy wooden shield +2, Dexterity +1, size +1. Touch 12, flat-footed 17. BAB +0, grapple −4. Fortitude +4, Reflex +1, Will +4.",
+            "+4 dodge AC against Giant-type creatures while retaining the Dexterity bonus to AC.",
+            "Against Giant-type creatures, AC 22 and touch 16 while able to dodge. Skill Focus (Diplomacy) and racial Listen bonus are included. Immune to confusion effects.",
+            "Luck of Chaos (Ex) allows one reroll per day of a roll the gnome just made, before the DM announces success or failure. Keep the new result even if it is worse.",
+            "A chaotic good cleric devoted to the ideals of freedom and charity. Chaos and Good domains add +1 caster level to chaos and good spells respectively. The Chaos domain bonus stacks with racial Spell Power."
+          ],
+          "actions": [
+            "Small light mace +1 melee, 1d4 bludgeoning, critical ×2.",
+            "Small dart +2 ranged, 1d3 piercing, critical ×2, 20-ft. increment.",
+            "Prepared 0-level spells are detect magic, guidance, and light. Prepared 1st-level spells are bless and cure light wounds, with protection from law in the domain slot. Base caster level 1 and spell save DC 12 + spell level. Spontaneously trade non-domain prepared spells for cures of the same level or lower.",
+            "Protection from law uses effective caster level 3 and lasts 3 minutes.",
+            "Turn undead 4/day. Turning check 1d20+1 and turning damage 2d6+2, as a 1st-level cleric.",
+            "Protection from law grants +2 deflection AC and +2 resistance on saves against lawful creatures’ attacks or effects. It wards against possession and mental control and blocks contact by lawful summoned creatures. The contact ward ends if the subject attacks a blocked creature or forces the barrier against it. Spell resistance can bypass the contact ward.",
+            "Entropic shield 1/day at caster level 1. The personal effect lasts 1 minute and gives ranged attacks that require an attack roll a 20% miss chance.",
+            "Daze, flare, and prestidigitation 1/day each at caster level 1. Daze is Will DC 11 against a humanoid of 4 HD or less. Flare is Fortitude DC 11 or dazzled for 1 minute."
+          ],
+          "tactics": "Pella has stopped both wagons at the bridge until the damaged cargo is counted. She asks the party to hear each driver’s claim. If a lawful summoned guard intervenes, Pella casts protection from law on the person closest to it."
+        },
+        "role": "Roadside mediator and Cleric.",
+        "motive": "Resolve a dispute over damaged cargo before sunset strands both wagons at the bridge.",
+        "hook": "Pella can keep the crossing open if the party helps count the damaged goods in front of both drivers."
+      }
+    ]
+  }
+}

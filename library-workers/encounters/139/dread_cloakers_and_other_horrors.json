@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Plains Cat",
+    "decision": "separate",
+    "pages": "pp. 46–47",
+    "notes": "Uses the printed 3.5 edition encounter.",
+    "statBlock": {
+      "name": "Plains Cat",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Large Animal",
+      "ac": 15,
+      "hp": 30,
+      "hitDice": "4d8 + 12",
+      "speed": "40 ft.",
+      "cr": "3",
+      "abilities": {
+        "Str": {
+          "score": 21
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 2
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "otherStatistics": "Initiative +3. AC components −1 size, +3 Dex, +3 natural. Touch AC 12, flat-footed AC 12. Base attack +3, grapple +12. Space 5 ft., reach 5 ft. Fort +4, Ref +7, Will +2.",
+      "description": "The cat hunts the grasslands of Nova Vaasa. Its hunting cry sounds enough like a human scream to draw would-be rescuers near.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack. Claw +7 melee (1d6 + 5).\nFull attack. Two claws +7 melee (1d6 + 5 each) and bite +2 melee (1d8 + 2).\nPounce (Ex). On a charge, make a full attack and add two rakes, each +7 melee for 1d8 + 2 damage.\nStartle (Ex). At will, roar in place of a bite. Enemies within 30 ft. who hear it make an immediate DC 10 Fear save or are stunned for 1 round. After that save, the same cat’s roar cannot affect them again for one day.",
+        "Traits": "Scent. It fights if threatened or if intruders enter its territory.",
+        "Skills and feats": "Balance +5, Climb +5, Hide +7, Jump +9, Move Silently +7. The +4 racial Hide bonus rises to +12 in tall grass or dense underbrush, raising total Hide to +15. Balance and Move Silently each include a +4 racial bonus. Feat: Dodge.",
+        "Encounter details": "Temperate plains. Solitary. Always neutral. No treasure. Advancement 5–8 HD (Large).",
+        "Printed source": "pp. 46–47"
+      }
+    }
+  },
+  {
+    "name": "Resplendent Cloaker",
+    "decision": "separate",
+    "pages": "pp. 50–52",
+    "notes": "Uses the printed 3.5 edition encounter.",
+    "statBlock": {
+      "name": "Resplendent Cloaker",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Large Aberration",
+      "ac": 17,
+      "hp": 35,
+      "hitDice": "6d8 + 20",
+      "speed": "10 ft., fly 40 ft. (average)",
+      "cr": "5",
+      "abilities": {
+        "Str": {
+          "score": 21
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "otherStatistics": "Initiative +7. AC components −1 size, +3 Dex, +5 natural. Touch AC 12, flat-footed AC 14. Base attack +4. Space 10 ft., reach 10 ft. Fort +9, Ref +5, Will +7. Standard treasure.",
+      "description": "A jewel-bright cloaker waits on furniture for a suitable host. It feeds by mending wounds, and its glow draws unwanted eyes.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack. Attach +8 melee touch (no damage).\nFull attack. Attach +8 melee touch (no damage) and bite +3 melee (1d4 + 2), as printed.\nColor Spray (Su). Release a burst that works like color spray from a 6th-level sorcerer. DC 16 Will negates.\nAttach (Su). If the spray stuns or knocks out a human-shaped living creature at least one size smaller, attempt a touch attack to make it a host.\nHit Point Drain (Su). As a free action each round, heal up to 5 HP of damage to either the cloaker or its host. For every 2 HP it heals on the host, it feeds on 1 HP of that damage. When it heals itself from its host, the host takes 2 damage for each HP the cloaker regains. It cannot heal damage it inflicted. If it fails to feed on at least 1 HP of damage in a day, it takes 1 damage.",
+        "Shared dread cloaker rules": "Shared damage reduction (Su). While draped on a host, the cloaker grants that host its DR 10/magic against physical attacks other than area attacks.\nEngulf (Ex). As a standard action, envelop a creature at least one size category smaller. Its host is engulfed automatically. Against a different target, make a grapple attempt without provoking an attack of opportunity. The target is pinned. If the cloaker has no host, its bite against the engulfed creature gains a +4 attack bonus. Divide damage from attacks on the cloaker equally between it and the victim. Area spells deal full damage to both.",
+        "Host and vulnerabilities": "It detaches if the host dies, if either the host or the cloaker receives magical healing, or if it goes four days without feeding. A DC 15 Strength check can tear it free. Both make DC 14 Fortitude saves or die, and a surviving host is stunned for 1d8 minutes. The cloaker loses 1 HD per week without a host and recovers 1 HD per day of feeding on a new host. Magical darkness deals 1 damage per round to the cloaker. Healing magic applied to the cloaker deals the amount that would be healed to both it and its host.",
+        "Skills and feats": "Hide +12, Listen +11, Move Silently +12, Spot +11. Its glow grants observers a +10 circumstance bonus to Spot it except in very bright light. Feats: Alertness, Improved Initiative.",
+        "Encounter details": "Underground. Solitary. Usually chaotic neutral. Advancement 7–9 HD (Large), 10–18 HD (Huge).",
+        "Printed source": "pp. 50–52"
+      },
+      "ruleNotes": [
+        "The stat block gives both 6d8 + 20 and 35 HP. Use its listed HP for the printed specimen. The Base Attack/Grapple row gives +4 alone."
+      ]
+    }
+  },
+  {
+    "name": "Shadow Cloaker",
+    "decision": "separate",
+    "pages": "pp. 50–51",
+    "notes": "Uses the printed 3.5 edition encounter.",
+    "statBlock": {
+      "name": "Shadow Cloaker",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Large Aberration",
+      "ac": 19,
+      "hp": 34,
+      "hitDice": "6d8 + 18",
+      "speed": "10 ft., fly 40 ft. (average)",
+      "cr": "5",
+      "abilities": {
+        "Str": {
+          "score": 21
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "otherStatistics": "Initiative +7. AC components −1 size, +3 Dex, +7 natural. Touch AC 12, flat-footed AC 16. Base attack +4. Space 10 ft., reach 10 ft. (5 ft. with bite). Fort +9, Ref +5, Will +7. Standard treasure.",
+      "description": "This cloaker moves like a patch of darkness, then latches onto a lone traveler’s shadow and feeds through their touch.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack. Tail slap +8 melee (1d6 + 5).\nFull attack. Tail slap +8 melee (1d6 + 5) and bite +3 melee (1d4 + 2). It can use the tail on another target while engulfing and can use the tail while attached.\nAttach (Su). On a bite that hits a human-shaped living creature at least one size smaller, attach to its shadow. It cannot bite while attached. This ends when either dies or when a daylight, sunbeam, or sunburst spell targets the cloaker. Without a host it loses 1 HD per week, recovering 1 HD per day of feeding through a new host.\nConstitution Drain (Su). The cloaker feeds once per day. Its host’s contact with a living creature deals 1 point of Constitution drain to that creature 2d8 minutes later. Against an unwilling creature, the host must make a touch attack. If the host touches no living creature for 24 hours, the cloaker feeds from the host. A creature drained to Constitution 0 dies and rises as a shadow 24 hours later.\nShadow Shift (Su). The cloaker and its host gain concealment (20% miss chance) for 1d4 rounds.",
+        "Shared dread cloaker rules": "Shared damage reduction (Su). While draped on a host, the cloaker grants that host its DR 10/magic against physical attacks other than area attacks.\nEngulf (Ex). As a standard action, envelop a creature at least one size category smaller. Its host is engulfed automatically. Against a different target, make a grapple attempt without provoking an attack of opportunity. The target is pinned. If the cloaker has no host, its bite against the engulfed creature gains a +4 attack bonus. Divide damage from attacks on the cloaker equally between it and the victim. Area spells deal full damage to both.",
+        "Skills and feats": "Hide +12, Listen +11, Move Silently +12, Spot +11. In shadowy areas it gains a +5 racial bonus on Hide checks (total +17), and a host also gains that +5 racial bonus. A successful Move Silently check lets the cloaker gain surprise when it attacks. Feats: Alertness, Improved Initiative.",
+        "Encounter details": "Underground. Solitary. Always chaotic neutral. Advancement 7–9 HD (Large), 10–18 HD (Huge).",
+        "Printed source": "pp. 50–51"
+      },
+      "ruleNotes": [
+        "The stat block gives both 6d8 + 18 and 34 HP. Use its listed HP for the printed specimen. The Base Attack/Grapple row gives +4 alone."
+      ]
+    }
+  },
+  {
+    "name": "Corpse Candle",
+    "decision": "separate",
+    "pages": "p. 53",
+    "notes": "Uses the printed 3.5 edition encounter.",
+    "statBlock": {
+      "name": "Corpse Candle",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium Undead (Incorporeal)",
+      "ac": 15,
+      "hp": 39,
+      "hitDice": "6d12",
+      "speed": "30 ft., fly 60 ft. (good)",
+      "cr": "6",
+      "abilities": {
+        "Dex": {
+          "score": 16
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "otherStatistics": "Initiative +3. AC components +3 Dex, +2 deflection. Touch AC 15, flat-footed AC 12. Base attack +3, grapple +3 as listed. Space 5 ft., reach 5 ft. Fort +2, Ref +4, Will +8.",
+      "description": "A murder victim’s spirit waits over its body until someone sees the glow in its dead eyes and becomes a witness to the killing.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack or full attack. Incorporeal touch +5 (1d6 spiritual flame damage).\nControl Flame (Su). Take hold of a nearby flame and make someone see the killer’s face in fire. A tendril from the fire can reach up to 10 ft., deal 1d6 damage, or ignite flammable material.\nDeath Vision (Su). The first person to look into the corpse’s eyes makes a DC 16 Will save. Success gives immunity to this power for one day. On failure, the person relives the victim’s last moments in a trance, which often calls for a Ravenloft Horror save. They see who killed the victim and feel driven to bring the killer to justice.",
+        "Traits": "Incorporeal subtype, undead traits, +2 turn resistance. The spirit is naturally invisible. Magic that reveals invisible or ethereal creatures can show it as mist over its body or as an image of the dead person riding its chosen agent’s shoulders. The agent’s eyes glow slightly in the dark.",
+        "Skills and feats": "Intimidate +15, Spot +15, Survival +15. Feats: Alertness, Blind-Fight, Iron Will, Track.",
+        "Encounter details": "Any land and underground. Solitary. Usually chaotic neutral. No treasure. Advancement 8–12 HD (Medium).",
+        "Printed source": "p. 53"
+      }
+    }
+  },
+  {
+    "name": "Crimson Bones",
+    "decision": "separate",
+    "pages": "p. 54",
+    "notes": "Uses the printed 3.5 edition encounter.",
+    "statBlock": {
+      "name": "Crimson Bones",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium Undead",
+      "ac": 15,
+      "hp": 15,
+      "hitDice": "2d12",
+      "speed": "30 ft.",
+      "cr": "2",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 6
+        }
+      },
+      "otherStatistics": "Initiative +7. AC components +3 Dex, +2 natural. Touch AC 13, flat-footed AC 12. Base attack +1, grapple +3. Space 5 ft., reach 5 ft. Fort +3, Ref +3, Will +4.",
+      "description": "This blood-dripping skeleton rises from a flaying victim and attacks the living until destroyed.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack. Claw +2 melee (1d4 + 3).\nFull attack. Two claws +2 melee (1d4 + 3 each) and bite −3 melee (1d8 + 2).\nBlood Poisoning (Ex). An adjacent attacker who hits makes a DC 14 Reflex save to avoid a splash. A living attacker splashed then makes a DC 13 Fortitude save or takes 1 damage each round until death or treatment with neutralize poison or an equivalent effect.\nBurning Blood (Su). The bite transmits a supernatural disease on a failed DC 13 Fortitude save. After a 1-day incubation, it deals 1 Constitution drain. Standard recovery saves do not end it. It continues until the victim dies at Constitution 0 or receives remove disease or similar magic.",
+        "Traits": "Undead traits, DR 5/bludgeoning, cold immunity. It can be turned but cannot be rebuked or commanded by evil clerics. Sithkin changelings or arcane casters using control undead can control it. It does not understand or speak languages.",
+        "Skills and feats": "No skills listed. Feat: Improved Initiative.",
+        "Encounter details": "Any land, any organization. Always chaotic evil. No treasure. Advancement 3–7 HD (Large), 8–14 HD (Huge).",
+        "Printed source": "p. 54"
+      }
+    }
+  },
+  {
+    "name": "Dreamweaver",
+    "decision": "separate",
+    "pages": "p. 61",
+    "notes": "Uses the printed 3.5 edition encounter.",
+    "statBlock": {
+      "name": "Dreamweaver",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Diminutive Outsider (Lawful)",
+      "ac": 17,
+      "hp": 2,
+      "hitDice": "1/4d8",
+      "speed": "20 ft., climb 20 ft.",
+      "cr": "1/2",
+      "abilities": {
+        "Str": {
+          "score": 6
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 7
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 3
+        }
+      },
+      "otherStatistics": "Initiative +7. AC components +3 Dex, +4 size. Touch AC 17, flat-footed AC 14. Base attack +0, grapple −14. Space 1 ft., reach 0 ft. Fort +2, Ref +5, Will +2.",
+      "description": "These small spiders spin dreams. The pale ones bring rest, while black ones weave nightmares. Both communicate only through dreams.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack or full attack. Bite +3 melee (1d2 − 2 plus poison).\nPoison (Ex). DC 11 Fortitude. Initial damage 1d6 Wisdom, secondary damage 2d6 Wisdom. At Wisdom 0, the victim cannot be awakened until their Wisdom goes above 0.\nWeb (Su). It spins around sleepers within 50 ft. A light dreamweaver relieves Ravenloft’s nightmares horror effect. A sleeper free of that effect gains a full night’s rest in four hours. A dark dreamweaver imposes the nightmares effect while the creature sleeps near its silk.",
+        "Traits": "Natural sunlight causes it to fade away permanently. It fights only when cornered.",
+        "Skills and feats": "Hide +10, Move Silently +6, Spot +2. Feat: Improved Initiative.",
+        "Encounter details": "Any land or underground, usually in dreams. Solitary, colony (2–5), or swarm (6–11). Usually a colony has only light or only dark dreamweavers. Always lawful neutral. No treasure.",
+        "Printed source": "p. 61",
+        "Nightmares": "The victim is shaken for 5d6 rounds. Each attempt to sleep ends after 5d6 minutes, preventing rest, natural healing, and recovery of arcane spells. Each full day without rest adds a cumulative −1 morale penalty to attack rolls, saves, skill checks, and ability checks, up to −4. A sleep spell allows dreamless rest and clears the accumulated penalties, but the nightmares return on nights without it. Elves are normally immune. The optional waking dream during meditation instead works like major image and permits a Will save to disbelieve. See Ravenloft Player’s Handbook, p. 81."
+      },
+      "ruleNotes": [
+        "The attack lines assign poison to the bite. The poison paragraph calls it a sting but gives no separate sting attack.",
+        "Nightmares refers to the horror effect in the Ravenloft Player’s Handbook, Chapter Three."
+      ]
+    }
+  },
+  {
+    "name": "Drownling",
+    "decision": "separate",
+    "pages": "p. 62",
+    "notes": "Uses the printed 3.5 edition encounter.",
+    "statBlock": {
+      "name": "Drownling",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Small Fey (Aquatic)",
+      "ac": 15,
+      "hp": 9,
+      "hitDice": "2d6 + 2",
+      "speed": "20 ft., swim 30 ft.",
+      "cr": "3",
+      "abilities": {
+        "Str": {
+          "score": 9
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "otherStatistics": "Initiative +4. AC components +4 Dex, +1 size. Touch AC 15, flat-footed AC 11. Base attack +1, grapple −4. Space 5 ft., reach 5 ft. Fort +1, Ref +5, Will +1.",
+      "description": "Three drownlings stage a drowning to lure strangers into stagnant water. One asks for help while the others make the scene convincing.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack. Claw +1 melee (1d4 − 1).\nFull attack. Two claws +1 melee (1d4 − 1 each).\nImproved Grab (Ex). Hit a swimming target of Medium size or smaller with both claws to start a grapple. On a hold, try to pin the victim and drag them below the surface. The other drownlings use aid another to help maintain the pin until the victim drowns.\nSpell-like abilities. Each 1/day at caster level 8th: charm person, confusion, dancing lights, detect magic, entangle. Save DC 12 + spell level.",
+        "Traits": "DR 5/silver. It breathes air and water.\nUnified Spirits (Su). Divide damage to one evenly among its covey of three. When one reaches 0 HP, the others flee. In their native waters they cannot die unless all three reach −10 HP. There they automatically stabilize and regain 1 HP per hour.\nWater Dependency (Ex). Each hour on dry land deals 1d4 Strength damage. In its native waters the drownling recovers 1 point of lost Strength per minute.",
+        "Skills and feats": "Bluff +10, Hide +15, Listen +6, Move Silently +7, Sense Motive +8, Spot +6. Feats: Alertness (bonus feat), Dodge.",
+        "Encounter details": "Aquatic and marsh terrain or anywhere near water, including underground. Covey (3). Covey members communicate telepathically and speak other languages. Always chaotic evil. Standard treasure.",
+        "Printed source": "p. 62"
+      }
+    }
+  }
+]

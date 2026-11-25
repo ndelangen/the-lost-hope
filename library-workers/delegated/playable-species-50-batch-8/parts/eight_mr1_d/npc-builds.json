@@ -1,0 +1,279 @@
+{
+  "builds": [
+    {
+      "id": "mr2018-intellect-devourer-quill",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR not assigned.",
+      "title": "Quill, Intellect Devourer Rogue 1",
+      "size": "Tiny",
+      "type": "Aberration",
+      "ac": 14,
+      "hp": 10,
+      "hitDice": "1d8 + 2",
+      "initiative": 3,
+      "speed": "35 ft. walking",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 14,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Arcana +4",
+        "History +4",
+        "Insight +3",
+        "Investigation +4",
+        "Perception +5",
+        "Stealth +7"
+      ],
+      "senses": "Blindsight 30 ft. and blind beyond that range, passive Perception 15",
+      "languages": "Reads and understands Undercommon. Sage adds Common and Deep Speech, used through telepathy where relevant. Telepathy 30 ft. to creatures that know a language.",
+      "traits": [
+        "Proficiency +2. Dexterity save +5 and Intelligence save +4. Fitted Tiny leather armor gives AC 11 + 3 Dexterity. A helper fitted the straps beforehand. Claws need no gear.",
+        "Sage background grants Arcana, History, and two languages. Rogue skills are Insight, Investigation, Perception and Stealth, with expertise in Perception and Stealth. Quill knows Thieves’ Cant. Its player language line does not provide speech.",
+        "Quill has no hands and is blind beyond blindsight. Its Tiny carrying capacity is 30 lb. It cannot manipulate equipment."
+      ],
+      "actions": [
+        "Claws. Melee unarmed strike +5, reach 5 ft. Hit 1d8 + 3 slashing. Add 1d6 Sneak Attack once per turn if Quill has advantage, or if another enemy of the target is within 5 ft. of it and is not incapacitated and Quill lacks disadvantage.",
+        "Devour Intellect. One creature with a brain Quill can perceive within 10 ft. makes a DC 12 Intelligence save or takes 1d6 psychic damage.",
+        "Body Thief, once per short or long rest. If Devour Intellect would drop a humanoid to 0 HP, Quill can substitute the possession attempt as a bonus action. Roll Quill’s Intelligence check at +2 opposed by the target’s Intelligence. On a win, replace the damage with brain consumption and possession. On a loss the triggering psychic damage still applies. Quill is behind total cover and otherwise uses the host’s statistics while retaining mental scores, traits, speech knowledge listed by the feature and telepathy. Duration up to host Intelligence score in rounds. Each round Quill can use one host spell at normal casting time, speak one host language freely, or recall one host fact as a bonus action."
+      ],
+      "tactics": "Quill tracks voices from low cover and uses the claws from hiding or beside a partner. It keeps possession for an emergency. Decide host exit and any resulting state at the table before using Body Thief."
+    },
+    {
+      "id": "mr2018-invisible-stalker-sift",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR not assigned.",
+      "title": "Sift, Invisible Stalker Barbarian 1",
+      "size": "Medium",
+      "type": "Elemental",
+      "ac": 14,
+      "hp": 14,
+      "hitDice": "1d12 + 2",
+      "initiative": 2,
+      "speed": "30 ft. walking, 30 ft. flying, hover",
+      "abilityScores": {
+        "STR": 15,
+        "DEX": 15,
+        "CON": 15,
+        "INT": 8,
+        "WIS": 10,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +4",
+        "Nature +1",
+        "Perception +2",
+        "Survival +2, or +4 when tracking a creature or finding an object on the same plane"
+      ],
+      "senses": "Darkvision 60 ft., passive Perception 12",
+      "languages": "Auran and Elvish. Understands Common. Outlander supplies Elvish.",
+      "traits": [
+        "Proficiency +2. Strength and Constitution saves +4. Unarmored Defense gives AC 10 + 2 Dexterity + 2 Constitution. Unstable Form rules out armor, and there are no hands for gear or shields.",
+        "Air Body grants immunity to exhaustion, grappled, petrified, prone, restrained and unconscious. Sift dies at 0 HP under the supplement rule. Advantage against poison and resistance to poison damage.",
+        "Rage twice per long rest. Start as a bonus action for up to 1 minute. Sift has advantage on Strength checks and saves and resists bludgeoning, piercing, and slashing damage. Rage ends if a turn finishes without an attack against a hostile creature or damage taken since the previous turn. It can end early as a bonus action.",
+        "Outlander grants Athletics, Survival and a language. Barbarian grants Nature and Perception. Sift travels without manipulating equipment."
+      ],
+      "actions": [
+        "Slam. Melee unarmed strike +4, reach 5 ft. Hit 1d8 + 2 bludgeoning. While raging it deals 1d8 + 4.",
+        "Hidden Step. Bonus action, once per short or long rest. Become invisible until the next turn starts or until Sift attacks, makes a damage roll, or forces a save."
+      ],
+      "tactics": "Sift hovers at a doorway or sweeps the room for a marked object. Use Hidden Step to reposition before a slam. It cannot start Rage and use Hidden Step on the same turn."
+    },
+    {
+      "id": "mr2018-jackalwere-fen-copper",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR not assigned.",
+      "title": "Fen-Copper, Jackalwere Rogue 2",
+      "size": "Medium",
+      "type": "Humanoid (shapechanger)",
+      "ac": 14,
+      "hp": 17,
+      "hitDice": "2d8 + 4",
+      "initiative": 3,
+      "speed": "35 ft. walking",
+      "abilityScores": {
+        "STR": 10,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 13,
+        "CHA": 10
+      },
+      "skills": [
+        "Deception +2",
+        "Insight +3",
+        "Investigation +2",
+        "Perception +5",
+        "Sleight of Hand +5",
+        "Stealth +7"
+      ],
+      "senses": "Passive Perception 15, or 20 for hearing- and smell-based checks",
+      "languages": "Common. The Small jackal form cannot speak.",
+      "traits": [
+        "Proficiency +2. Dexterity save +5 and Intelligence save +2. Leather armor gives AC 14 to the hybrid in the portrait. Without armor, AC 13.",
+        "Criminal grants Deception and Stealth. Rogue choices are Insight, Investigation, Perception and Sleight of Hand. Perception and Stealth have expertise. Proficient with thieves’ tools and dice.",
+        "Keen Hearing and Smell gives advantage on Perception relying on either sense. Cunning Action can Dash, Disengage, or Hide as a bonus action.",
+        "Pack Tactics takes a bonus action. The next attack that turn has advantage if aimed at a target within 5 ft. of a non-incapacitated ally."
+      ],
+      "actions": [
+        "Shortbow. Ranged weapon attack +5, range 80/320 ft. Hit 1d6 + 3 piercing. Rapier. Melee weapon attack +5, reach 5 ft. Hit 1d8 + 3 piercing. Either can add 1d6 Sneak Attack once per turn if Fen has advantage or if another enemy of the target within 5 ft. is not incapacitated and Fen lacks disadvantage.",
+        "Bite in jackal or hybrid form. Melee unarmed strike +2, reach 5 ft. Hit 1d4 piercing. No Sneak Attack with this bite.",
+        "Shapechanger. Action to become a specific Medium human, Medium hybrid or true Small jackal. Gear does not resize. Small jackal cannot speak, fire the bow, or use hand-dependent items. On death, return to true form."
+      ],
+      "tactics": "Fen first tries to divert trouble by talking. If pressed, they use the shortbow from cover. Spend the bonus action on Pack Tactics when an ally creates the opening, or Cunning Action when getting away matters more."
+    },
+    {
+      "id": "mr2018-kraken-brinewake",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR not assigned.",
+      "title": "Brinewake, Kraken Barbarian 1",
+      "size": "Medium",
+      "type": "Monstrosity",
+      "ac": 14,
+      "hp": 14,
+      "hitDice": "1d12 + 2",
+      "initiative": 2,
+      "speed": "15 ft. walking, 40 ft. swimming",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 10,
+        "CHA": 12
+      },
+      "skills": [
+        "Athletics +5",
+        "Nature +1",
+        "Perception +2",
+        "Survival +2"
+      ],
+      "senses": "Darkvision 60 ft., passive Perception 12",
+      "languages": "Abyssal, Celestial, Infernal, Primordial. Outlander grants Common.",
+      "traits": [
+        "Proficiency +2. Strength save +5 and Constitution save +4. Natural Armor and Barbarian Unarmored Defense each give AC 14. Neither adds to the other. No shield, armor or handheld equipment.",
+        "Lightning resistance. Brinewake can hold its breath for 3 minutes under the ordinary breathing rule, using Constitution +2. It surfaces between dives.",
+        "Outlander grants Athletics, Survival and Common. Barbarian grants Nature and Perception. Rage twice per long rest, for up to 1 minute, as a bonus action. Advantage on Strength checks and saves and resistance to bludgeoning, piercing and slashing. Rage ends on unconsciousness, or at the end of a turn without attacking a hostile creature or taking damage since the previous turn. A bonus action can end it early."
+      ],
+      "actions": [
+        "Bite or Tentacles. Melee unarmed strike +5, reach 5 ft. Hit 1d8 + 3 piercing or bludgeoning. Raging adds 2 damage.",
+        "Lightning Storm. As an action, target one visible creature within 30 ft. DC 11 Dexterity save or 1d8 lightning. The printed trait gives no recharge limit. This is not an attack roll and does not by itself keep Rage going."
+      ],
+      "tactics": "Brinewake guards a ladder in the shallows. It surfaces to warn off intruders and uses Lightning Storm at range. It rages when forced into close combat."
+    },
+    {
+      "id": "mr2018-manticore-cinder-sill",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR not assigned.",
+      "title": "Cinder-Sill, Manticore Fighter 2",
+      "size": "Medium",
+      "type": "Monstrosity",
+      "ac": 13,
+      "hp": 20,
+      "hitDice": "2d10 + 4",
+      "initiative": 2,
+      "speed": "30 ft. walking, 30 ft. flying",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Athletics +5",
+        "Intimidation +2",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "senses": "Darkvision 60 ft., passive Perception 13",
+      "languages": "Common.",
+      "traits": [
+        "Proficiency +2. Strength save +5, Constitution save +4. Natural Armor gives AC 11 + 2 Dexterity. Defense style is inactive without worn armor. The build uses no armor or shield.",
+        "Soldier background grants Athletics and Intimidation. Fighter grants Perception and Survival. Action Surge provides one additional action on the turn once per short or long rest."
+      ],
+      "actions": [
+        "Bite or Claws. Melee unarmed strike +5, reach 5 ft. Hit 1d8 + 3 piercing or slashing.",
+        "Tail Spikes. Ranged weapon attack +4, range 30/60 ft. Hit 1d8 + 2 piercing. This build treats the species as proficient with its own tail and uses Dexterity for the attack and damage. The trait gives no ammunition cap.",
+        "Second Wind. Bonus action, once per short or long rest. Regain 1d10 + 2 HP."
+      ],
+      "tactics": "Cinder-Sill prefers to talk from a position it can fly away from. It fires one volley if attacked, then uses Action Surge for a second strike or to Dash toward cover."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Intellect Devourer",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Quill",
+      "size": "Tiny",
+      "build": "mr2018-intellect-devourer-quill",
+      "role": "Tunnel archivist",
+      "motive": "Recover a census lost during a collapse.",
+      "hook": "Quill offers to replay names it heard in the old archive if someone escorts it through a tunnel it cannot perceive from the entrance."
+    },
+    {
+      "species": "Invisible Stalker",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Sift",
+      "size": "Medium",
+      "build": "mr2018-invisible-stalker-sift",
+      "role": "Escaped tracker",
+      "motive": "Find the last person who has a copy of its binding contract.",
+      "hook": "Sift leaves the same smudged track on a shop window each morning. It will trade one search for a lead on the signature that bound it."
+    },
+    {
+      "species": "Jackalwere",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Fen-Copper",
+      "size": "Medium",
+      "build": "mr2018-jackalwere-fen-copper",
+      "role": "Caravan lookout",
+      "motive": "Keep an old footbridge open to travelers on both sides of a toll dispute.",
+      "hook": "Fen will describe who took the missing planks if someone agrees to watch the near end of the crossing overnight."
+    },
+    {
+      "species": "Kraken",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Brinewake",
+      "size": "Medium",
+      "build": "mr2018-kraken-brinewake",
+      "role": "Tidal ladder keeper",
+      "motive": "Keep salvagers from taking the bells that mark shallow water.",
+      "hook": "Brinewake has a witness to a cut marker line and will guide a safe recovery on the next falling tide."
+    },
+    {
+      "species": "Manticore",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Cinder-Sill",
+      "size": "Medium",
+      "build": "mr2018-manticore-cinder-sill",
+      "role": "Pass courier",
+      "motive": "Get a sealed payroll pouch to an isolated trail camp.",
+      "hook": "A traveler took Cinder-Sill’s pouch by mistake. The manticore needs someone who can knock on doors without drawing a crowd."
+    }
+  ]
+}

@@ -33,4 +33,7 @@ export default createEvent({
     { by: refs.npcs.sarogarth, card: refs.cards.the_blight },
     { by: refs.npcs.sarogarth, card: refs.cards.the_guardian },
   ],
+  illustrations: [
+    '/assets/scenes/sarogarth-draws-permanent-blight-and-loses-an-attunement-slot.png',
+  ],
 })

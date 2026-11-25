@@ -1,0 +1,25 @@
+{
+  "baseline": "fa674129b4035142dfae5034597f35aa4035699a",
+  "temporaryCopy": true,
+  "exactBeastProfiles": 2,
+  "testedConditionalRuleProfiles": 2,
+  "existingPublicationVersionsPreserved": true,
+  "publisherGalleriesPreserved": true,
+  "searchableByNameAndSourceHabitatOrAppearance": 2,
+  "portraitCoverage": {
+    "Rat": "generated",
+    "Medium Monstrous Spider": "generated"
+  },
+  "versionPortraitsVerified": 2,
+  "newPortraitDrafts": 2,
+  "printedMovementRatesPreserved": true,
+  "originalEditionSavesAndAttacksVerified": true,
+  "encounterLevelDistinctFromIndividualCr": true,
+  "individualRatHpDistributionVerified": true,
+  "spiderBaseAndEncounterSkillsDistinguished": true,
+  "publisherAndLocalTextMatch": true,
+  "ratDefaultBefore": "Basic Rules (2018)",
+  "ratDefaultAfter": "Basic Rules (2018)",
+  "ratDefaultThumbnailPreserved": true,
+  "ratSelectableAdventurePublication": "A Dark and Stormy Knight"
+}

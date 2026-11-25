@@ -1,0 +1,20 @@
+{
+  "baseline": "ecc78744bfb422c0d6d64a39b16fe5c6f18f42bc",
+  "temporaryCopy": true,
+  "playableSpecies": 1,
+  "edition": "3.5 edition",
+  "names": [
+    "Underfolk"
+  ],
+  "selectableProfiles": 1,
+  "publication": "Races of Destiny (2004)",
+  "camouflageDazzledAndWeaponFamiliarityVerified": true,
+  "sourceTraitsDisplayed": 1,
+  "searchableByTraitAndNpcRole": 1,
+  "originalRunnableNpcBuilds": 2,
+  "fullBuildsReturnedByEncounterAndNpcsCommands": true,
+  "npcBuildsScopedByPublication": true,
+  "existingPlayableSpeciesAndNpcConceptsPreserved": true,
+  "distinctPortraitFiles": 1,
+  "versionPortraitsVerified": 1
+}

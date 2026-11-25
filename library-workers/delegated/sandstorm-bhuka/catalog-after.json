@@ -1,0 +1,115 @@
+[
+  {
+    "name": "Bhuka",
+    "kind": "species",
+    "group": "3.5 edition",
+    "groups": [
+      "3.5 edition"
+    ],
+    "global": true,
+    "version": {
+      "key": "6578ff04ae7f50568a808d2c",
+      "publication": "Sandstorm (2005)",
+      "edition": "3.5 edition",
+      "source": "https://search.worldcat.org/title/58722791",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Humanoid (Goblinoid)"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Medium Humanoid (Goblinoid). −2 Strength, +2 Dexterity. Land speed 30 ft. LA +0.",
+            "Sure Feet (Ex) treats shallow sand as normal terrain, costing 1 square per square entered, and deep sand as shallow sand, costing 2 squares for a Medium Bhuka.",
+            "Glare Resistance (Ex) prevents the dazzled condition from bright sunlight.",
+            "Water Sense (Ex) uses Survival to detect drinkable water within 100 ft. The DC depends on depth. Surface DC 10, up to 10 ft. deep DC 12, 11–20 ft. DC 15, 21–40 ft. DC 20, 41–70 ft. DC 25, and 71–100 ft. DC 30.",
+            "+2 racial on Constitution checks or Fortitude saves against harmful heat and dehydration. Bonus feat Heat Endurance gives +2 on saves against fire effects, heat protection level 1, and comfort through 120°F.",
+            "+2 racial on Knowledge (nature), which is always a class skill.",
+            "Bhuka and Common are automatic. Bonus languages are Draconic and Goblin. Favored class Druid."
+          ]
+        },
+        {
+          "title": "Original NPC · Akari of the Reed Well",
+          "lines": [
+            "Dry-channel guide and Druid.",
+            "Motive. Find drinkable water for the party at the dry channel.",
+            "Hook. Akari suspects a seep lies under the bend in the channel.",
+            "Bhuka dry-channel guide, Druid 1 · Provisional CR 1. ECL 1 (1 class HD, LA +0). · Medium Humanoid (Goblinoid)",
+            "AC 14 · HP 10 (1d8+2) · Speed 30 ft."
+          ]
+        },
+        {
+          "title": "Original NPC · Taren of High Shelf",
+          "lines": [
+            "Duneline scout and Ranger.",
+            "Motive. Mark a crossing before the afternoon wind obscures the trail.",
+            "Hook. Taren can guide the group along the dune’s shallow shoulder.",
+            "Bhuka duneline scout, Ranger 1 · Provisional CR 1. ECL 1 (1 class HD, LA +0). · Medium Humanoid (Goblinoid)",
+            "AC 15 · HP 10 (1d8+2) · Speed 30 ft."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Akari of the Reed Well": [
+          {
+            "start": 15,
+            "end": 37,
+            "target": {
+              "name": "Akari of the Reed Well",
+              "group": "Bhuka",
+              "publication": "Bhuka dry-channel guide, Druid 1",
+              "local": {
+                "entry": "npc-37d11709a14c1b899d7c63be",
+                "version": "b1bd00932b636bc58f8b63a2"
+              }
+            }
+          }
+        ],
+        "Original NPC · Taren of High Shelf": [
+          {
+            "start": 15,
+            "end": 34,
+            "target": {
+              "name": "Taren of High Shelf",
+              "group": "Bhuka",
+              "publication": "Bhuka duneline scout, Ranger 1",
+              "local": {
+                "entry": "npc-52a989bd12aee5d3c1a4ff9f",
+                "version": "5233c615f4d60e19715e72d4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Bhuka": true,
+      "bhuka water sense": true,
+      "bhuka sure feet": true,
+      "bhuka dry-channel guide": true,
+      "bhuka duneline scout": true
+    },
+    "hash": "b51b2dd74f4a16df36a3a45fdec631d13dfb44a2683a1771beed3245ec004577",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Sandstorm (2005)",
+    "defaultVersionKey": "6578ff04ae7f50568a808d2c",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  }
+]

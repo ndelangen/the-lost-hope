@@ -1,0 +1,390 @@
+[
+  {
+    "name": "Dread Wight",
+    "decision": "separate",
+    "pages": "pp. 221–222",
+    "notes": "Uses the 3.5 printing of Denizens of Dread.",
+    "statBlock": {
+      "name": "Dread Wight",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium Undead",
+      "ac": 17,
+      "hp": 35,
+      "hitDice": "5d12 + 3",
+      "cr": "4",
+      "speed": "30 ft. (6 squares)",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A dread wight can pass for the person it once was until it gets close. Greater dread wights send their lesser kin into the fight first.",
+      "otherStatistics": "Any land or underground. Solitary, gang of 2–5, or pack of 6–11. Always lawful evil. No treasure. Common advancement 6–9 HD (Medium).",
+      "sections": {
+        "Combat statistics": "Initiative +2. AC +2 Dex and +5 natural. Touch 12, flat-footed 15. Base attack +2, grapple +4. Space and reach 5 ft. each. Fort +1, Ref +3, Will +5.",
+        "Skills and feats": "Climb +8, Hide +10, Listen +8, Move Silently +20, Search +7, Spot +8. Blind-Fight, Toughness. Dread wights have a +8 racial bonus on Move Silently, already reflected in the listed modifier.",
+        "Traits": "DR 5/magic and undead traits.",
+        "Actions": "Attack or full attack. Slam +5 melee for 1d6 + 3 plus energy drain.\nEnergy Drain (Su). A living creature hit by the slam gains one negative level. Use DC 14 for the later Fortitude save to remove it.\nCreate Spawn (Su). A humanoid slain by the wight rises as a dread wight in 1d4 rounds. It loses its former abilities and serves its creator until that creator dies.",
+        "Greater dread wight": "Large Undead, CR 6. 10d12 + 3 (68 HP), initiative +2, speed 40 ft. (8 squares), AC 20 (−1 size, +2 Dex, +9 natural), touch 11, flat-footed 18. Base attack +5, grapple +12. Use the printed 5-ft. space and 10-ft. reach. Fort +3, Ref +5, Will +9. Str 25, Dex 14, Int 13, Wis 14, Cha 17. Climb +12, Hide +10, Intimidate +8, Listen +10, Move Silently +22, Search +10, Spot +10. Blind-Fight, Cleave, Power Attack, Toughness. DR 10/magic, +1 turn resistance, and undead traits. Advancement 11–14 HD (Large).\nSlam +12 melee for 1d8 + 10 plus energy drain, or make two such slams as a full attack. Each hit on a living creature applies one negative level, Fortitude DC 18 to remove. As for a common dread wight, humanoid victims rise in 1d4 rounds. A giant slain by the greater wight becomes a greater dread wight. It controls its spawn until destroyed.",
+        "Printed source": "pp. 221–222"
+      },
+      "ruleNotes": [
+        "The greater wight is Large but prints a 5-ft. space. Both the table and its stat line give that value."
+      ]
+    }
+  },
+  {
+    "name": "Ghoul Lord",
+    "decision": "separate",
+    "pages": "pp. 90–91",
+    "notes": "Uses the 3.5 printing of Denizens of Dread.",
+    "statBlock": {
+      "name": "Ghoul Lord",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium Undead (Augmented Humanoid)",
+      "ac": 21,
+      "hp": 39,
+      "hitDice": "6d12",
+      "cr": "8",
+      "speed": "30 ft. (6 squares)",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A ghoul lord rules a feeding ground such as a graveyard or battlefield. Its ghasts and ghouls bring it flesh and spread its influence.",
+      "otherStatistics": "Any land or underground. Solitary or accompanied by 2–4 ghasts and 7–12 ghouls. Always chaotic evil. Standard treasure. Advances by character class. The sample is a 6th-level human fighter. It knows its languages from life and communicates telepathically with ghouls and ghasts within 100 ft.",
+      "sections": {
+        "Combat statistics": "Initiative +7. AC +3 Dex, +4 natural, +4 masterwork chain shirt. Touch 13, flat-footed 18. Base attack +6, grapple +10. Space and reach 5 ft. each. Fort +5, Ref +5, Will +4.",
+        "Skills and feats": "Climb +10, Hide +12, Jump +10, Listen +11, Move Silently +12, Ride +9, Search +10, Spot +11, Swim +10. Cleave, Dodge (bonus), Exotic Weapon Proficiency (bastard sword), Great Cleave, Improved Initiative (bonus), Multiattack, Power Attack, Weapon Focus (bastard sword), Weapon Specialization (bastard sword).",
+        "Traits": "Undead traits and +2 turn resistance.\nMiasma (Su). Good-aligned creatures within 60 ft. make a DC 14 Will save or suffer a −4 morale penalty on attacks, checks, and saves until they leave the radius. This is a fear effect.",
+        "Actions": "Attack. Bite +8 melee for 1d6 + 2.\nFull attack. Bite +8 melee for 1d6 + 2 and two claws +10 melee for 1d4 + 4 each. Alternatively, use the masterwork bastard sword +14 melee for 1d10 + 8 or the masterwork shortbow +10 ranged for 1d6. The bite carries paralysis and fever, and the claws carry paralysis.\nParalysis (Su). A bite or claw hit requires a DC 14 Fortitude save or paralysis lasts 1d6 + 6 minutes.\nCreate Spawn (Su). A humanoid or monstrous humanoid killed by fever at Constitution 0 rises as a ghoul lord after 24 hours if the body has not been destroyed. Someone slain directly by a bite or claw rises as a ghast after 1d4 days. Spawn serve their creator until it dies.",
+        "Ravenous fever": "A bite can spread this supernatural disease. Fortitude DC 20, incubation 1d4 days, damage 1d4 Constitution. Once infected, a victim needs raw flesh daily. The amounts in pounds, Fine through Colossal, are 1/8, 1/4, 1/2, 1, 2, 4, 8, 16, and 32. After more than 2 Constitution damage from the disease only humanoid flesh suffices. After more than 5 only flesh from living humanoids suffices. Going hungry for a day deals 1d4 temporary Constitution damage and calls for a Madness save, DC 10 + the Constitution damage suffered. Failure temporarily compels the victim to try to feed. Only heal cures the disease.",
+        "Adapting the encounter": "For a different humanoid or monstrous humanoid base, change its type to undead, keep size, speed, and saves, convert current and future Hit Dice to d12, and add +4 natural armor. A base creature with a swim speed retains it and is called a lacedon lord. Keep base attacks and add missing claws and bite. Base bite/claw damage by size, Fine to Colossal: 1/none, 1d2/1, 1d3/1d2, 1d4/1d3, 1d6/1d4, 1d8/1d6, 2d6/2d4, 2d8/2d6, 4d6/2d8. Use better existing natural damage if applicable. Str +2, Dex +4, Int +2, Wis +2, Cha +4. Remove Con. Add Multiattack and +8 racial bonuses to Hide, Listen, Move Silently, Search, and Spot. CR increases by 2. Miasma and paralysis DCs are 10 + half HD + Cha modifier.",
+        "Printed source": "pp. 90–91"
+      },
+      "ruleNotes": [
+        "The sample prints one attack for each weapon in its full-attack alternatives, despite its +6 base attack. The listed sample routines preserve the printed values."
+      ]
+    }
+  },
+  {
+    "name": "Jolly Roger",
+    "decision": "separate",
+    "pages": "pp. 121–122",
+    "notes": "Uses the 3.5 printing of Denizens of Dread.",
+    "statBlock": {
+      "name": "Jolly Roger",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium Undead",
+      "ac": 11,
+      "hp": 35,
+      "hitDice": "5d12 + 3",
+      "cr": "6",
+      "speed": "20 ft. (4 squares), swim 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 8
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "The laughing carcass of a drowned captain keeps a wreck afloat by force of will. Its zombie crew follows it on raids against anchored ships and coastal settlements.",
+      "otherStatistics": "Any sea. Solitary in the stat line, often with its zombie crew. Always chaotic evil. Double standard treasure. Advancement 6–9 HD (Medium). Communicates telepathically with its own zombies.",
+      "sections": {
+        "Combat statistics": "Initiative −1. AC −1 Dex and +2 natural. Touch 9, flat-footed 12. Base attack +2, grapple +3. Space and reach 5 ft. each. Fort +1, Ref +0, Will +4.",
+        "Skills and feats": "Balance +7, Climb +6, Listen +2, Profession (sailor) +5, Spot +2, Survival +6, Use Rope +7. Improved Unarmed Strike, Toughness.",
+        "Traits": "DR 5/magic, fire resistance 20, immunity to water- and cold-based spells, and undead traits. Destroying the captain sinks its ship in 2d4 minutes.",
+        "Actions": "Attack or full attack. Touch +3 melee.\nCackling Touch (Su). On a touch hit, a living target makes a DC 14 Fortitude save. Success means 1d6 hit point damage only. On failure, apply Tasha’s hideous laughter as from a 7th-level caster, except it lasts until dispelled or the victim dies and costs the victim 1d4 Constitution points each round.\nGrinning Gaze (Sp). Anyone within 30 ft. subject to its gaze and able to hear the captain makes a DC 14 Will save or suffers Tasha’s hideous laughter at caster level 7.\nCreate Spawn (Su). A humanoid killed by the touch rises as a waterlogged zombie after 24 hours unless blessed and given a traditional burial at sea.",
+        "Tactics": "The captain opens with its gaze and chuckling to pin down the crew, then moves in to use its touch. It carries weapons as part of its old outfit but does not attack with them.",
+        "Printed source": "pp. 121–122"
+      },
+      "ruleNotes": [
+        "The touch says the target loses Constitution points without specifying damage or drain. Treating the loss as Constitution damage is a table ruling."
+      ]
+    }
+  },
+  {
+    "name": "Lebendtod",
+    "decision": "separate",
+    "pages": "pp. 124–125",
+    "notes": "Uses the 3.5 printing of Denizens of Dread.",
+    "statBlock": {
+      "name": "Lebendtod",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium Undead (Augmented Humanoid)",
+      "ac": 13,
+      "hp": 13,
+      "hitDice": "2d12",
+      "cr": "2",
+      "speed": "30 ft. (6 squares)",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 9
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A lebendtod plays the part of the same worker or neighbor it was in life. When its master calls, the disguise drops and the entire household can turn on intruders.",
+      "otherStatistics": "Any land on Graben Island. Solitary, pair, family of 5–8, or community of 40–60. Always neutral evil. Standard treasure. Advances by character class. The sample is a 2nd-level human commoner. Knows its languages from life.",
+      "sections": {
+        "Combat statistics": "Initiative −1. AC −1 Dex, +2 natural, and +2 leather armor. Touch 9, flat-footed 14. Base attack +1, grapple +2. Space and reach 5 ft. each. Fort +0, Ref −1, Will +2.",
+        "Skills and feats": "Bluff +6, Disguise +8, Profession (farmer) +5, Sense Motive +4. Iron Will (bonus), Skill Focus (Disguise).",
+        "Traits": "DR 10/magic and undead traits. Lifespan runs ten times that of the base creature. It normally fights only on its master’s orders.",
+        "Actions": "Attack. Claw +2 melee for 1d4 + 1 or sickle +2 melee for 1d6 + 1. Full attack makes two claws +2 melee for 1d4 + 1 each and a bite −3 melee for 1d3 + 1, or uses the sickle.\nDetachable Limbs (Ex). It can remove or reattach any extremity unharmed as a standard action and still sense and control it when detached. Seeing it take off its head or use an arm as a club prompts a DC 15 Horror save except for the most callous witnesses.\nDisguise Self (Sp). Twice per day at caster level 12, assume its appearance on the day it died. A free action maintains the disguise indefinitely. Magical or supernatural damage ends it immediately.\nCreate Spawn (Su). As a full-round action that provokes attacks of opportunity, breathe into the mouth of a dying humanoid below 0 HP as the target takes its last breath. Isolate the body for 72 hours. It rises as a lebendtod if left untouched, or as a ghast with none of its former abilities if disturbed but largely intact. Either serves the lebendtod’s master until that master dies.",
+        "Adapting the encounter": "For a different humanoid base, keep its size, speed, base attack, saves, and skill points. Make it undead, convert Hit Dice to d12, add +2 natural armor, and add missing claw and bite attacks. Claw/bite base damage from Fine through Colossal: none/none, 1/none, 1d2/1, 1d3/1d2, 1d4/1d3, 1d6/1d4, 2d4/1d6, 2d6/1d8, 2d8/2d6. Use better existing damage. Str +2, Dex −2, Int −2. Remove Con. Add Iron Will and +5 racial bonuses to Bluff and Disguise. CR increases by 1. A clerical lebendtod rebukes instead of turning and cannot rebuke its master or the master’s other lebendtod.",
+        "Printed source": "pp. 124–125"
+      },
+      "ruleNotes": [
+        "DR 10/magic appears in the sample stat block. The general template does not list it as a benefit."
+      ]
+    }
+  },
+  {
+    "name": "Odem",
+    "decision": "separate",
+    "pages": "pp. 157–158",
+    "notes": "Uses the 3.5 printing of Denizens of Dread.",
+    "statBlock": {
+      "name": "Odem",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Small Undead (Incorporeal)",
+      "ac": 16,
+      "hp": 26,
+      "hitDice": "4d12",
+      "cr": "5",
+      "speed": "30 ft. (6 squares), fly 60 ft. (perfect)",
+      "abilities": {
+        "Dex": {
+          "score": 16
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 17
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "An odem drains a victim’s judgment before taking control. The host stays aware as the spirit acts through the body.",
+      "otherStatistics": "Any land or underground. Solitary. Always chaotic evil. No treasure. Advancement 6–10 HD (Small). Speaks the languages it knew in life. A viewer who can see ethereal creatures sees a faint white aura around a possessed face.",
+      "sections": {
+        "Combat statistics": "Initiative +7. AC +1 size, +3 Dex, and +2 deflection. Printed touch 14, flat-footed 13. Base attack +2, printed grapple +2. Space and reach 5 ft. each. Fort +1, Ref +4, Will +6.",
+        "Skills and feats": "Hide +14, Intimidate +12, Listen +10, Search +8, Sense Motive +12, Spot +10. Dodge, Flyby Attack, Improved Initiative (bonus), Weapon Finesse (bonus).",
+        "Traits": "Undead and incorporeal traits and +3 turn resistance.\nNatural Invisibility (Su). Continually invisible, even while attacking. Invisibility purge does not suppress it.\nUnnatural Aura (Su). Animals sense it within 30 ft. even when it is possessing a creature. They refuse to approach and panic while forced to stay inside the radius.",
+        "Actions": "Attack or full attack. Incorporeal touch +6 melee. A living target hit makes a DC 15 Fortitude save or suffers 1d6 Wisdom drain, which requires magical restoration.\nPossession (Su). Once per round as a standard action, merge with a creature on the Material Plane as magic jar at caster level 10 without a receptacle. DC 15 Will negates and gives one day of immunity to possession by that odem. On failure the odem controls the body. The host stays conscious and can take purely mental actions. The odem cannot be turned or rebuked while inside the host, and damage to the host does not harm the odem. The host is immune to nonlethal damage and stunning. The odem is expelled if the host dies.",
+        "Printed source": "pp. 157–158"
+      },
+      "ruleNotes": [
+        "The printed touch AC is 14 even though the listed bonuses would produce 16 under the usual touch rules. The printed grapple bonus is also retained, although incorporeal creatures normally cannot physically grapple corporeal creatures."
+      ]
+    }
+  },
+  {
+    "name": "Valpurleiche",
+    "decision": "separate",
+    "pages": "pp. 196–197",
+    "notes": "Uses the 3.5 printing of Denizens of Dread.",
+    "statBlock": {
+      "name": "Valpurleiche",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium Undead",
+      "ac": 14,
+      "hp": 52,
+      "hitDice": "8d12",
+      "cr": "9",
+      "speed": "20 ft. (4 squares)",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 8
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "This hanged revenant hunts the people it blames for its execution. If it died unjustly, evidence of its innocence can lay it to rest.",
+      "otherStatistics": "Any land. Solitary. Always chaotic evil. Standard treasure. Advancement 9–11 HD (Medium) or 12–15 HD (Large). Understands its old languages and speaks only to whisper the accusations against it.",
+      "sections": {
+        "Combat statistics": "Initiative −1. AC −1 Dex and +5 natural. Printed touch 13, flat-footed 14. Base attack +4, grapple +8. Space and reach 5 ft. each. Fort +4, Ref +1, Will +7.",
+        "Skills and feats": "Intimidate +8, Listen +10, Move Silently +8, Sense Motive +12, Spot +10. Great Fortitude, Power Attack, Weapon Focus (slam).",
+        "Traits": "Undead traits.\nRegeneration 5 (Su). Only the attack forms it was accused of using or, if it was guilty, attacks by its former victims deal normal damage. It cannot regrow severed parts, but pressing one to its stump reattaches it immediately. Severed parts can act independently and can retain a hold they already had.\nRestless (Su). An unjustly hanged valpurleiche reforms at full health 2d4 days after being slain. Presenting exonerating evidence to an authority reduces it to dust for good.",
+        "Actions": "Attack. Slam +9 melee for 1d6 + 4. Full attack makes two slams.\nAnimate Rope (Su). Three times per day at caster level 8.\nImproved Grab (Ex). After hitting a Medium or smaller target with both slams, it can start a grapple. After a successful hold, Strangle (Ex) automatically deals 2d6 + 4 damage each round the hold lasts. Its victim cannot breathe and follows the 3.5 suffocation rules.",
+        "Printed source": "pp. 196–197"
+      },
+      "ruleNotes": [
+        "Touch AC 13 and flat-footed AC 14 are printed, even though the listed Dex and natural armor produce different numbers under ordinary AC calculations."
+      ]
+    }
+  },
+  {
+    "name": "Zombie Fog",
+    "decision": "separate",
+    "pages": "pp. 229–231",
+    "notes": "Uses the 3.5 printing of Denizens of Dread.",
+    "statBlock": {
+      "name": "Zombie Fog",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Colossal Undead",
+      "ac": 12,
+      "hp": 42,
+      "hitDice": "6d12",
+      "cr": "7",
+      "speed": "Fly 10 ft. (perfect), cannot run",
+      "abilities": {
+        "Dex": {
+          "score": 6
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "This green-lit fog drifts over graves after dark. Its cadavers draw attention away from the cloud itself, which feeds on the dying.",
+      "otherStatistics": "Any land. Solitary. Always neutral evil. No treasure. Advancement 7–12 HD (Colossal). It does not communicate.",
+      "sections": {
+        "Combat statistics": "Initiative −2. AC −2 Dex, −8 size, and +12 deflection. Touch 12, flat-footed 14. No base attack or grapple listed. Printed space 60 ft., reach 0 ft. Fort +2, Ref +2, Will +5.",
+        "Skills and feats": "Listen +6, Search +5, Spot +6. Toughness.",
+        "Traits": "DR 15/magic, SR 12, and undead traits. The cloud fills an area 25 ft. square and 10 ft. deep per HD.\nVaporous (Ex). Passes through tiny cracks, makes no movement noise, cannot enter liquids, and automatically fails saves against damaging air or wind effects. The cloud gives concealment at 5 ft. and total concealment beyond 5 ft. Its cadavers can see through it.\nUnnatural Aura (Su). Animals refuse to approach within 30 ft. and panic while inside that range if forced to enter.\nDaylight Powerlessness (Ex). In natural sunlight the fog hangs motionless and its cadavers drop lifeless until sundown. A daylight spell does not have this effect.",
+        "Actions": "Animate Cadaver (Su). Animate humanoid corpses inside the cloud, even buried corpses unless blessed at burial or interred in sanctified ground. Raise up to 10 per round, including previously defeated cadavers at full HP. The number active at once cannot exceed the fog’s current HP.\nDespair (Su). A creature that sees the fog makes a DC 13 Fear save or stays shaken until it has spent 10 minutes completely out of sight. Whatever the result, that fog cannot affect it with despair again for one day.\nLife Drain (Su). A creature at negative HP in the cloud loses 1 additional HP each round, even after stabilizing. The drain stops at 0 HP or higher. Protection from evil prevents it.",
+        "Fog cadaver": "Medium Undead, CR 1/2. 2d12 + 3 (16 HP), initiative −1, speed 20 ft. (4 squares). AC 10 (−1 Dex, +1 natural), touch 9, flat-footed 10. Base attack and grapple are unlisted. Space and reach 5 ft. each. Fort +0, Ref −1, Will +3. Str 11, Dex 9, Wis 10, Cha 1. Toughness, +4 turn resistance, undead traits. Always neutral, no treasure. The printed mob is 9–73.\nAttack or full attack. Slam +1 melee for 1d6. The cadaver can move or attack in a round, doing both only as part of a charge. Dreadful Moan (Ex) requires a DC 12 Fear save within 10 ft. Cadavers collapse if taken out of the fog or exposed to natural sunlight.",
+        "Feeding and advancement": "If fewer creatures die in it during a week than its current HD, it loses 1 HD. If at least twice its HD die inside it during a week, it gains 1 HD.",
+        "Printed source": "pp. 229–231"
+      },
+      "ruleNotes": [
+        "For the 6-HD fog, use the printed 60-ft. combat space and the description’s per-HD coverage for situational extent. A printed mob can exceed the sample fog’s 42-cadaver cap, so use current HP to determine how many the individual fog controls.",
+        "The cadaver’s moan gives a Fear save without a special failure effect or a repeat interval. Use the normal Ravenloft Fear result for the failed save."
+      ]
+    }
+  },
+  {
+    "name": "Zombie Lord",
+    "decision": "separate",
+    "pages": "pp. 231–233",
+    "notes": "Uses the 3.5 printing of Denizens of Dread.",
+    "statBlock": {
+      "name": "Zombie Lord",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium Undead",
+      "ac": 18,
+      "hp": 42,
+      "hitDice": "6d12 + 3",
+      "cr": "9",
+      "speed": "30 ft. (6 squares)",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "This decaying spellcaster directs other zombies from a distance and sees through their eyes. The sample is a 6th-level human adept with a toad familiar.",
+      "otherStatistics": "Any land. Solitary. Usually neutral evil. Standard treasure. Advances by character class.",
+      "sections": {
+        "Combat statistics": "Initiative +2. AC +2 Dex, +4 natural, and +2 leather armor. Touch 12, flat-footed 16. Base attack +3, grapple +5. Space and reach 5 ft. each. Fort +2, Ref +4, Will +8.",
+        "Skills and feats": "Concentration +7, Knowledge (arcana) +7, Knowledge (nature) +7, Listen +5, Profession (herbalist) +8, Spot +5, Search +3, Survival +12. Alertness, Brew Potion, Scribe Scroll, Toughness, Track.",
+        "Traits": "Undead traits and toad familiar.\nAura of Death (Su). In the first round a living creature comes within 90 ft., it makes a DC 12 Fortitude save. Failure imposes a disease chosen by the zombie lord as contagion. A save failed by more than 10 kills the target and raises it as a zombie under the lord’s control. The lord cannot suppress the aura.\nSpeech of the Dead (Su). Speak telepathically with undead, which usually only report basic facts about their former lives and recent experiences. Use speak with dead at will by touching a corpse as a standard action.",
+        "Actions": "Attack. Slam +5 melee for 1d8 + 2. Full attack makes two such slams or a sling attack +5 ranged for 1d4.\nZombie Master (Su). Command zombies in sight mentally as a free action at will. The lord can see or otherwise sense through any zombie within a mile.\nAwaken the Dead (Su). Use animate dead at caster level 12 to create zombies only.\nZombify (Su). On a successful touch attack against a living creature, a failed DC 12 Fortitude save kills the target. It rises after 1d4 rounds as a controlled zombie. Awaken the Dead and Zombify share one use per day.",
+        "Spellcasting": "Adept divine slots 4/3/2 for spell levels 0–2. Save DC 13 + spell level. The source leaves spell preparation to the DM.",
+        "Adapting the encounter": "Apply to a humanoid or monstrous humanoid base. Its type becomes undead, Hit Dice become d12, and natural armor increases by +4. Keep speed, saves, skills, and base attacks. Add two slams if it had none. If armed, use the weapon as the primary attack and a slam as secondary. Slam base damage from Fine through Colossal: 1d2, 1d3, 1d4, 1d6, 1d8, 2d6, 2d8, 4d6, 4d8. Keep stronger original damage. Str +4, no Con. Add Toughness and increase CR by 3. Aura of Death and Zombify use DC 10 + half HD + Cha modifier.",
+        "Printed source": "pp. 231–233"
+      },
+      "ruleNotes": [
+        "The printed sample gives a single sling attack as the alternative to two slams. The general template allows a weapon attack with a secondary slam."
+      ]
+    }
+  }
+]

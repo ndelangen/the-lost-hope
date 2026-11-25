@@ -20,4 +20,5 @@ export default createEvent({
       ' to reclaim the memory rather than lose that part of himself.',
     ],
   ],
+  illustrations: ['/assets/scenes/the-party-crosses-the-silenced-left-door-passage.png'],
 })

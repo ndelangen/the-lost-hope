@@ -1,0 +1,26 @@
+[
+  {
+    "artGroup": "giant-elk",
+    "file": "portraits/giant-elk.png",
+    "sha256": "7c4d9668b327a21ce3b19ebb2f822f2d59f574ec743deb242a13eacc6ef84670",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "artGroup": "giant-fire-beetle",
+    "file": "portraits/giant-fire-beetle.png",
+    "sha256": "47a8ac3d770c6807dbce160373c8b7dc38a34c6cb8a9d053572da11e72767006",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "artGroup": "giant-frog",
+    "file": "portraits/giant-frog.png",
+    "sha256": "9a7d088b8678ccf62b0ec08cf5278c20d901556d304348de7e229309ddf3e89e",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  }
+]

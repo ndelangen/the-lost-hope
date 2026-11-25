@@ -85109,7 +85109,9 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/arm.html",
-      "usedIn": []
+      "usedIn": [
+        "src/components/library/library-creature-statistics.tsx"
+      ]
     },
     {
       "id": "gi/GiArmadillo",
@@ -98870,6 +98872,7 @@
       "duplicateOf": "lucide/Brain",
       "sourceUrl": "https://game-icons.net/1x1/lorc/brain.html",
       "usedIn": [
+        "src/components/library/library-creature-statistics.tsx",
         "src/data/npcs/onana-tempest.ts",
         "src/data/npcs/the-11th-marshal.ts",
         "src/data/pcs/cassian-veyl.ts",
@@ -100028,6 +100031,7 @@
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/broadsword.html",
       "usedIn": [
+        "src/components/library/library-ability-card.tsx",
         "src/data/npcs/blackbeard.ts",
         "src/data/npcs/captain-garran.ts",
         "src/data/npcs/faceless-shadow.ts",
@@ -116841,10 +116845,12 @@
       "sourceUrl": "https://game-icons.net/1x1/lorc/conversation.html",
       "usedIn": [
         "src/components/dm/scene-branches.test.tsx",
+        "src/components/library/library-creature-statistics.tsx",
         "src/data/npcs/onana-tempest.ts",
         "src/data/pcs/cassian-veyl.ts",
         "src/data/scenes/a-fleet-on-an-empty-sea.ts",
         "src/data/scenes/boarded-by-the-battle-cruiser.ts",
+        "src/data/scenes/bob-returns-cassian-s-ring.ts",
         "src/data/scenes/borris-shutters-the-casino.ts",
         "src/data/scenes/chaos-on-the-sky-islands.ts",
         "src/data/scenes/crowy-brings-up-onana-s-letter.ts",
@@ -131391,6 +131397,7 @@
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/echo-ripples.html",
       "usedIn": [
+        "src/components/library/library-ability-card.tsx",
         "src/data/npcs/silas-wren.ts",
         "src/lib/ability-icons.tsx"
       ]
@@ -155290,6 +155297,7 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/heart-beats.html",
       "usedIn": [
+        "src/components/library/library-creature-statistics.tsx",
         "src/data/effects/excruciating-pain.ts",
         "src/lib/effect-icons.tsx"
       ]
@@ -188680,7 +188688,9 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/owl.html",
-      "usedIn": []
+      "usedIn": [
+        "src/components/library/library-creature-statistics.tsx"
+      ]
     },
     {
       "id": "gi/GiOyster",
@@ -190965,6 +190975,7 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/paw.html",
       "usedIn": [
+        "src/components/library/library-ability-card.tsx",
         "src/data/beasts/displacer-beast.ts",
         "src/data/beasts/wolfie.ts",
         "src/data/npcs/lord-malachar.ts",
@@ -200169,6 +200180,7 @@
         "src/data/events/n2-e177.ts",
         "src/data/locations/puzzle-room.ts",
         "src/data/scenes/a-fleet-on-an-empty-sea.ts",
+        "src/data/scenes/bob-returns-cassian-s-ring.ts",
         "src/data/scenes/down-through-the-rubble.ts",
         "src/data/scenes/questions-for-light.ts",
         "src/data/scenes/the-bard-s-new-song.ts",
@@ -214297,6 +214309,7 @@
       "sourceUrl": "https://game-icons.net/1x1/delapouite/shrug.html",
       "usedIn": [
         "src/data/scenes/boarded-by-the-battle-cruiser.ts",
+        "src/data/scenes/bob-returns-cassian-s-ring.ts",
         "src/data/scenes/hex-loses-patience.ts",
         "src/lib/outcome-icons.tsx"
       ]
@@ -217560,7 +217573,8 @@
         "src/data/npcs/giggles.ts",
         "src/data/npcs/goblin-grass-keepers.ts",
         "src/data/npcs/the-father.ts",
-        "src/lib/ability-icons.tsx"
+        "src/lib/ability-icons.tsx",
+        "src/lib/published-creature-sheet.test.ts"
       ]
     },
     {
@@ -221702,6 +221716,7 @@
       "classification": "useful",
       "classificationReason": "Manually classified as useful from the /_icons review page.",
       "usedIn": [
+        "src/components/library/library-ability-card.tsx",
         "src/data/npcs/korrag-stonevow.ts",
         "src/data/npcs/silas-wren.ts",
         "src/lib/ability-icons.tsx"
@@ -234769,7 +234784,8 @@
         "src/data/beasts/displacer-beast.ts",
         "src/data/npcs/the-11th-marshal.ts",
         "src/data/pcs/cassian-veyl.ts",
-        "src/lib/ability-icons.tsx"
+        "src/lib/ability-icons.tsx",
+        "src/lib/published-creature-sheet.test.ts"
       ]
     },
     {
@@ -246860,6 +246876,7 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/walk.html",
       "usedIn": [
+        "src/data/scenes/a-fleet-on-an-empty-sea.ts",
         "src/data/scenes/boarded-by-the-battle-cruiser.ts",
         "src/data/scenes/borris-shutters-the-casino.ts",
         "src/data/scenes/fix-s-last-delivery.ts",
@@ -248544,6 +248561,7 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/water-splash.html",
       "usedIn": [
+        "src/components/library/library-ability-card.tsx",
         "src/data/beasts/dragon-children.ts",
         "src/data/beasts/serpent-eclipse-lake-serpent.ts",
         "src/data/creatures/pirate-captain.ts",
@@ -251713,6 +251731,7 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/wizard-staff.html",
       "usedIn": [
+        "src/components/library/library-ability-card.tsx",
         "src/data/npcs/frog-medicine-man-of-verdant-haven.ts",
         "src/data/pcs/swift-starblade.ts",
         "src/lib/ability-icons.tsx"
@@ -262043,6 +262062,7 @@
         "src/components/dm/encounter/dm-screen.tsx",
         "src/components/dm/encounter/encounter-toolbar.tsx",
         "src/components/home-action-card.test.tsx",
+        "src/components/library/library-browse.tsx",
         "src/routes/index.tsx"
       ]
     },
@@ -262171,7 +262191,10 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/book-open-text",
-      "usedIn": []
+      "usedIn": [
+        "src/components/campaign-shell/sidebar-rail.tsx",
+        "src/components/campaign-shell/sidebar.tsx"
+      ]
     },
     {
       "id": "lucide/BookPlus",
@@ -267696,7 +267719,8 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/chevron-left",
       "usedIn": [
-        "src/components/dm/fight-sim-replay.tsx"
+        "src/components/dm/fight-sim-replay.tsx",
+        "src/components/novel/novel-reader.tsx"
       ]
     },
     {
@@ -267743,6 +267767,7 @@
         "src/components/dm/dm-past-scenes.tsx",
         "src/components/dm/fight-sim-replay.tsx",
         "src/components/locations-index.tsx",
+        "src/components/novel/novel-reader.tsx",
         "src/components/player-screen/player-screen-dock.tsx",
         "src/components/questions-page.tsx",
         "src/routes/dm/scenes/$slug.tsx"
@@ -275135,6 +275160,7 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/crosshair",
       "usedIn": [
+        "src/components/dm/encounter/combatant-plan.tsx",
         "src/components/player-screen/player-screen-dock.tsx",
         "src/components/player-screen/pointing-view.tsx"
       ]
@@ -287985,7 +288011,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/image-off",
-      "usedIn": []
+      "usedIn": [
+        "src/components/library/library-browse.tsx"
+      ]
     },
     {
       "id": "lucide/ImagePlay",
@@ -290879,6 +290907,7 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/library",
       "usedIn": [
+        "src/components/dm/dm-quick-links.tsx",
         "src/lib/location-icons.tsx"
       ]
     },
@@ -291230,6 +291259,7 @@
         "src/routes/dm/scenes/$slug.tsx",
         "src/routes/events/replay.$slug.tsx",
         "src/routes/index.tsx",
+        "src/routes/library/$type.$slug.tsx",
         "src/routes/pcs/detail.$slug_.play.tsx"
       ]
     },
@@ -306268,6 +306298,7 @@
       "usedIn": [
         "src/components/campaign-shell.tsx",
         "src/components/campaign-shell/sidebar-data.ts",
+        "src/components/novel/novel-reader.tsx",
         "src/lib/entity-kind-visuals.ts"
       ]
     },

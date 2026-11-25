@@ -36,4 +36,5 @@ export default createEvent({
     { by: refs.pcs.cassian_veyl, card: refs.cards.the_talons },
     { by: refs.pcs.cassian_veyl, card: refs.cards.the_treasure },
   ],
+  illustrations: ['/assets/scenes/cassian-loses-his-magic-items-and-wins-a-treasure-chest.png'],
 })

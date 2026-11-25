@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Shoal Halfling",
+    "kind": "species",
+    "publication": "Stormwrack (2005)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Small Humanoid with the Aquatic and Halfling subtypes. +2 Dexterity, −2 Strength. Land speed 20 ft. and swim speed 20 ft. LA +0.",
+      "Small size gives +1 AC and attack rolls, +4 Hide, and three-quarters of normal carrying capacity. The shoal halfling uses Small weapons.",
+      "Amphibious (Ex). Breathes air and water equally.",
+      "Swim speed grants +8 racial on Swim checks for special actions or hazards. Take 10 even when distracted or endangered. A swimming run follows a straight line.",
+      "+1 racial on all saving throws. A +2 morale bonus on saves against fear stacks with the racial save bonus. The +2 racial bonus on Listen checks is retained.",
+      "The variant loses the halfling racial +1 on attack rolls with thrown weapons and slings and the racial +2 on Climb, Jump, and Move Silently. The Small size attack bonus still applies.",
+      "Common and Halfling are automatic. Bonus languages are Dwarven, Elven, Gnome, Goblin, and Orc. Favored class Rogue."
+    ]
+  }
+]

@@ -1,0 +1,173 @@
+[
+  {
+    "name": "Swarm of Insects",
+    "edition": "2014 fifth edition",
+    "publication": "Monster Manual (2014)",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, September 2014, with Monster Manual errata v2.0",
+    "printedPages": [
+      338
+    ],
+    "viewerPages": [
+      339
+    ],
+    "pageNumbering": "Monster Manual printed folio 338 is page 339 in the cover-inclusive local scan.",
+    "heading": "Swarm of Insects",
+    "url": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+    "errataUrl": "",
+    "errataVersion": "2.0, 2018",
+    "xp": 100,
+    "xpSource": "Monster Manual p. 338, Swarm of Insects.",
+    "appearanceSource": "Editorial description of the selected existing artwork and the relevant insect form from the printed name.",
+    "habitatSource": "Editorial encounter tags. The printed generic block assigns no habitat.",
+    "sourceDistinctions": [
+      "The September 2014 printed block omits grappled from condition immunities. The 2018 official Monster Manual errata v2.0 adds grappled immunity to all swarms on pp. 337–339.",
+      "The p. 338 base print has walking and climbing speeds. Winged insects visible in the existing portrait are illustrative."
+    ]
+  },
+  {
+    "name": "Swarm of Beetles",
+    "edition": "2014 fifth edition",
+    "publication": "Monster Manual (2014)",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, September 2014, with Monster Manual errata v2.0",
+    "printedPages": [
+      338
+    ],
+    "viewerPages": [
+      339
+    ],
+    "pageNumbering": "Monster Manual printed folio 338 is page 339 in the cover-inclusive local scan.",
+    "heading": "Variant: Insect Swarms / Swarm of Beetles",
+    "url": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+    "errataUrl": "",
+    "errataVersion": "2.0, 2018",
+    "xp": 100,
+    "xpSource": "Monster Manual p. 338, Swarm of Insects.",
+    "appearanceSource": "Editorial description of the selected existing artwork and the relevant insect form from the printed name.",
+    "habitatSource": "Editorial habitat tags informed by beetle behavior and the printed 5-ft. burrowing speed.",
+    "sourceDistinctions": [
+      "The September 2014 printed block omits grappled from condition immunities. The 2018 official Monster Manual errata v2.0 adds grappled immunity to all swarms on pp. 337–339.",
+      "The printed sidebar calls the variant Swarm of Beetles. This row preserves the roster title and applies that variant to the p. 338 generic block.",
+      "Burrowing speed 5 ft. The swarm keeps its 20-ft. walk and 20-ft. climb."
+    ],
+    "derivedFrom": {
+      "name": "Swarm of Insects",
+      "printedPages": [
+        338
+      ],
+      "sidebar": "Variant: Insect Swarms",
+      "printedVariantName": "Swarm of Beetles"
+    }
+  },
+  {
+    "name": "Swarm of Insects (Beetles)",
+    "edition": "2014 fifth edition",
+    "publication": "Monster Manual (2014)",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, September 2014, with Monster Manual errata v2.0",
+    "printedPages": [
+      338
+    ],
+    "viewerPages": [
+      339
+    ],
+    "pageNumbering": "Monster Manual printed folio 338 is page 339 in the cover-inclusive local scan.",
+    "heading": "Variant: Insect Swarms / Swarm of Beetles",
+    "url": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+    "errataUrl": "",
+    "errataVersion": "2.0, 2018",
+    "xp": 100,
+    "xpSource": "Monster Manual p. 338, Swarm of Insects.",
+    "appearanceSource": "Editorial description of the selected existing artwork and the relevant insect form from the printed name.",
+    "habitatSource": "Editorial habitat tags informed by beetle behavior and the printed 5-ft. burrowing speed.",
+    "sourceDistinctions": [
+      "The September 2014 printed block omits grappled from condition immunities. The 2018 official Monster Manual errata v2.0 adds grappled immunity to all swarms on pp. 337–339.",
+      "The printed sidebar calls the variant Swarm of Beetles. This row preserves the roster title and applies that variant to the p. 338 generic block.",
+      "Burrowing speed 5 ft. The swarm keeps its 20-ft. walk and 20-ft. climb."
+    ],
+    "derivedFrom": {
+      "name": "Swarm of Insects",
+      "printedPages": [
+        338
+      ],
+      "sidebar": "Variant: Insect Swarms",
+      "printedVariantName": "Swarm of Beetles"
+    }
+  },
+  {
+    "name": "Swarm of Centipedes",
+    "edition": "2014 fifth edition",
+    "publication": "Monster Manual (2014)",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, September 2014, with Monster Manual errata v2.0",
+    "printedPages": [
+      338
+    ],
+    "viewerPages": [
+      339
+    ],
+    "pageNumbering": "Monster Manual printed folio 338 is page 339 in the cover-inclusive local scan.",
+    "heading": "Variant: Insect Swarms / Swarm of Centipedes",
+    "url": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+    "errataUrl": "",
+    "errataVersion": "2.0, 2018",
+    "xp": 100,
+    "xpSource": "Monster Manual p. 338, Swarm of Insects.",
+    "appearanceSource": "Editorial description of the selected existing artwork and the relevant insect form from the printed name.",
+    "habitatSource": "Editorial search terms based on centipede habitat. The printed sidebar assigns no habitat.",
+    "sourceDistinctions": [
+      "The September 2014 printed block omits grappled from condition immunities. The 2018 official Monster Manual errata v2.0 adds grappled immunity to all swarms on pp. 337–339.",
+      "The printed sidebar calls the variant Swarm of Centipedes. This row preserves the roster title and applies that variant to the p. 338 generic block.",
+      "A creature this swarm reduces to 0 HP becomes stable and poisoned for 1 hour. The poison persists if the creature regains HP. The creature is paralyzed while poisoned by this effect."
+    ],
+    "derivedFrom": {
+      "name": "Swarm of Insects",
+      "printedPages": [
+        338
+      ],
+      "sidebar": "Variant: Insect Swarms",
+      "printedVariantName": "Swarm of Centipedes"
+    }
+  },
+  {
+    "name": "Swarm of Insects (Centipedes)",
+    "edition": "2014 fifth edition",
+    "publication": "Monster Manual (2014)",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, September 2014, with Monster Manual errata v2.0",
+    "printedPages": [
+      338
+    ],
+    "viewerPages": [
+      339
+    ],
+    "pageNumbering": "Monster Manual printed folio 338 is page 339 in the cover-inclusive local scan.",
+    "heading": "Variant: Insect Swarms / Swarm of Centipedes",
+    "url": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+    "errataUrl": "",
+    "errataVersion": "2.0, 2018",
+    "xp": 100,
+    "xpSource": "Monster Manual p. 338, Swarm of Insects.",
+    "appearanceSource": "Editorial description of the selected existing artwork and the relevant insect form from the printed name.",
+    "habitatSource": "Editorial search terms based on centipede habitat. The printed sidebar assigns no habitat.",
+    "sourceDistinctions": [
+      "The September 2014 printed block omits grappled from condition immunities. The 2018 official Monster Manual errata v2.0 adds grappled immunity to all swarms on pp. 337–339.",
+      "The printed sidebar calls the variant Swarm of Centipedes. This row preserves the roster title and applies that variant to the p. 338 generic block.",
+      "A creature this swarm reduces to 0 HP becomes stable and poisoned for 1 hour. The poison persists if the creature regains HP. The creature is paralyzed while poisoned by this effect."
+    ],
+    "derivedFrom": {
+      "name": "Swarm of Insects",
+      "printedPages": [
+        338
+      ],
+      "sidebar": "Variant: Insect Swarms",
+      "printedVariantName": "Swarm of Centipedes"
+    }
+  }
+]

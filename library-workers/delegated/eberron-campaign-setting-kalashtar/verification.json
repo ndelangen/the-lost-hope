@@ -1,0 +1,25 @@
+{
+  "baseline": "8f83fe7bec4d31fd61c13944c8b4778dd6fa73f9",
+  "temporaryCopy": true,
+  "playableSpecies": 1,
+  "edition": "3.5 edition",
+  "names": [
+    "Kalashtar"
+  ],
+  "selectableProfiles": 1,
+  "publication": "Eberron Campaign Setting (2004)",
+  "mindlinkModesRacialPowerPointsAndDreamScopeVerified": true,
+  "existingMonsterEntryPreserved": true,
+  "existingFifthEditionProfilesPreserved": 2,
+  "defaultVersionBefore": "Eberron: Forge of the Artificer",
+  "defaultVersionAfter": "Eberron Campaign Setting (2004)",
+  "listThumbnailChanged": true,
+  "sourceTraitsDisplayed": 1,
+  "searchableByTraitAndNpcRole": 1,
+  "originalRunnableNpcBuilds": 2,
+  "fullBuildsReturnedByEncounterAndNpcsCommands": true,
+  "npcBuildsScopedByPublication": true,
+  "existingPlayableSpeciesAndNpcConceptsPreserved": true,
+  "distinctPortraitFiles": 1,
+  "versionPortraitsVerified": 1
+}

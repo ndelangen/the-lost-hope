@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Roc",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Tyler Kamstra’s DMs Guild player conversion for the 2014 fifth-edition rules, using the v2 text.",
+      "Medium monstrosity with +1 Strength and +1 Constitution. Walk 20 ft. and fly 50 ft. without medium or heavy armor.",
+      "An unarmored roc has AC 13 + Dexterity modifier. Its talons deal 1d8 piercing on an unarmed hit.",
+      "Sight-based Wisdom (Perception) checks have advantage. Count as one size larger for carrying, pushing, dragging, and lifting.",
+      "Rocs have no hands. They cannot wield weapons or shields or use items that rely on manipulation. They speak, read, and write Common."
+    ]
+  },
+  {
+    "name": "Roper",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Tyler Kamstra’s DMs Guild player conversion for the 2014 fifth-edition rules, using the v2 text.",
+      "Medium monstrosity with +1 Strength, walking speed 20 ft., and darkvision 60 ft. Unarmored AC is 15 + Dexterity modifier. Its bite is a 1d8 piercing unarmed strike.",
+      "Spend one minute motionless while concentrating to pass for a natural cave formation. A roper understands and reads Common. Its tendrils do not provide hands for weapons, shields, or items requiring manipulation.",
+      "Grasping Tendrils replaces an attack in the Attack action with a grapple against a creature up to 50 ft. away. Normal grapple restrictions apply. Separation beyond 50 ft. ends the grab.",
+      "A roper has up to six tendrils. Each has AC 20 and 10 HP and is immune to poison and psychic damage. A creature can use its action to break a tendril with a Strength check against 8 + proficiency bonus + the roper’s Constitution modifier. Losing a tendril does not hurt the roper. A bonus action grows a replacement.",
+      "Reel replaces an attack in the Attack action. Roll Athletics and contest it with Athletics from each creature the roper has grappled by tendril. Each creature it beats moves up to 25 ft. straight toward the roper. The roper can then spend a bonus action on one unarmed strike against a pulled creature within its normal reach."
+    ]
+  },
+  {
+    "name": "Scarecrow",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Tyler Kamstra’s DMs Guild player conversion for the 2014 fifth-edition rules, using the v2 text.",
+      "Medium construct with +1 Dexterity and +1 Charisma and a 30-ft. walk. Its claw is a 1d4 slashing unarmed strike. It has 60-ft. darkvision.",
+      "It needs no air, food, drink, or sleep, and four semiconscious hours provide the benefit of a human’s eight hours of sleep. Immune to exhaustion, paralysis, poisoning, unconsciousness, and poison damage. Fire damage is doubled by vulnerability. Under the supplement’s rule for immunity to unconsciousness, dropping to 0 HP kills it outright.",
+      "Spend a motionless minute concentrating to pass as an ordinary scarecrow. The stray reference to a stalagmite is treated as a copy error.",
+      "Terrifying Gaze takes an action. One creature within 60 ft. must be visible to the scarecrow and able to see it. On a failed Wisdom save against 8 + proficiency bonus + Charisma modifier, it is frightened through the end of the scarecrow’s next turn. Once per short or long rest.",
+      "A scarecrow understands, reads, and writes Common and one other chosen language, but communicates without speech."
+    ]
+  },
+  {
+    "name": "Shield Guardian",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Tyler Kamstra’s DMs Guild player conversion for the 2014 fifth-edition rules, using the v2 text.",
+      "Medium construct with +1 Strength and +1 Constitution and walking speed 30 ft. A freed guardian begins without its old controlling amulet.",
+      "It needs no air, food, drink, or sleep, and four semiconscious hours provide the benefit of a human’s eight hours of sleep. It is immune to charm, exhaustion, fear, and paralysis.",
+      "Natural armor gives AC 18. A guardian can equip a shield, but cannot wear armor. Its fists deal 1d8 bludgeoning as unarmed strikes.",
+      "When an attacker targets an ally within 5 ft. of the guardian, it can use its reaction to give that ally +2 AC against the attack.",
+      "Understands spoken commands in any language and reads and writes Common. It cannot speak or use verbal spell components."
+    ]
+  },
+  {
+    "name": "Slaad",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Tyler Kamstra’s DMs Guild player conversion for the 2014 fifth-edition rules, using the v2 text.",
+      "Slaad and Slaadi are the singular and plural. All are aberrations with a 30-ft. walk. Choose Blue, Red, Green/Gray/Death, or Tadpole. Gray and Death use the same character statistics as Green.",
+      "Blue Slaad. Medium with +1 Strength and +1 Constitution, 60-ft. darkvision, and a bite or claw that deals 1d8 piercing on an unarmed hit. Can speak, read, and write Slaad and communicate telepathically within 30 ft. with creatures that know a language. Once per day, a hit with an unarmed strike on a humanoid can impose Chaos Phage on a failed Constitution save against 8 + proficiency bonus + Constitution modifier. The infected creature cannot regain HP and loses 3d6 maximum HP each day. At a maximum of 0, it becomes a red slaad, or a green slaad if it could cast spells of 3rd level or higher. Only wish reverses the transformation.",
+      "Red Slaad. Medium with +2 Strength and +1 Constitution, 60-ft. darkvision, a 1d8 piercing unarmed bite or claw, the same 30-ft. telepathy, and spoken and written Slaad. Once per day, an unarmed hit on a humanoid can implant one egg on a failed Constitution save against 8 + proficiency bonus + Constitution modifier. A host carries one egg to term in three months. For the final 24 hours, its speed halves and its attacks, checks, and saves have disadvantage. Emergence takes one round and kills the host. Curing the disease before emergence destroys the unborn tadpole.",
+      "Green, Gray, or Death Slaad. Medium with +1 Strength. Innate fire bolt and mage hand use Charisma. Detect magic becomes usable once per day at 3rd level. An action changes between true form and one particular Small or Medium humanoid identity. Only size changes mechanically, equipment stays separate, and death ends the disguise. In true form the claw deals 1d6 slashing as an unarmed strike. This form has 30-ft. language-dependent telepathy and spoken and written Slaad.",
+      "Green can discover how to become Gray. Gray can become Death by consuming a death slaad’s entire corpse. These progressions alter appearance and standing, with no stat changes.",
+      "Slaad Tadpole. Tiny with +2 Dexterity, a 1d4 piercing unarmed bite, and receptive reading and understanding of Slaad. It has no hands or arms and cannot wear armor or use a shield. Over 2d12 hours after emergence it grows into a blue slaad, or green if the host could cast spells of 3rd level or higher."
+    ]
+  }
+]

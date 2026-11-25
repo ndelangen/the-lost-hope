@@ -1,0 +1,1547 @@
+[
+  {
+    "name": "Fire Lizard",
+    "kind": "beast",
+    "group": "Animal",
+    "otherKindExists": false,
+    "global": true,
+    "version": {
+      "key": "b4418656523483d2cbfc7dea",
+      "publication": "Monstrous Manual (1994 third printing)",
+      "edition": "AD&D 2nd edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "3"
+        ],
+        [
+          "Hit dice",
+          "10"
+        ],
+        [
+          "Size",
+          "G, 30 ft."
+        ],
+        [
+          "Type",
+          "Animal"
+        ],
+        [
+          "Movement",
+          "9"
+        ],
+        [
+          "THAC0",
+          "11"
+        ],
+        [
+          "Attacks per round",
+          "3"
+        ],
+        [
+          "Damage per attack",
+          "1–8 / 1–8 / 2–16"
+        ],
+        [
+          "XP",
+          "3000"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Any warm land",
+            "Subterranean lairs"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A 30-foot lizard that resembles a wingless red dragon. It has gray scales, a back mottled with red and brown, and a reddish underside. Hatchlings are light gray and darken with age."
+          ]
+        },
+        {
+          "title": "Damage immunities",
+          "lines": [
+            "Fire"
+          ]
+        },
+        {
+          "title": "Combat mechanics",
+          "lines": [
+            "Claws and bite · Its regular attacks are two raking claws and a bite.",
+            "Fiery cone · It can breathe fire simultaneously with its claws and bite. The cone is 15 feet long, 5 feet wide at the mouth, and 10 feet wide at the end. It deals 2–12 fire damage, halved by a successful save vs. breath weapon.",
+            "Fire immunity · It is immune to fire-based attacks."
+          ]
+        },
+        {
+          "title": "Lair mechanics",
+          "lines": [
+            "Hunting cycle · It sleeps about half the time and leaves its lair every fortnight to hunt. It carries prey back and collects shiny objects.",
+            "Eggs · A lair has a 10% chance to contain 1–4 eggs. Young lizards leave to hunt after hatching."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "1–4 appearing. Very rare. Solitary organization. Day activity. Carnivorous and neutral.",
+            "Animal intelligence (1). Treasure B, Q (×10), S, T. Steady (11–12) morale. Magic resistance Nil.",
+            "Monstrous Manual, TSR 2140, January 1994 third printing, p. 226."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Fire Lizard": true,
+      "fire lizard cone simultaneously fire": true,
+      "fire lizard wingless mottled gray": true,
+      "fire lizard warm land subterranean lairs": true
+    },
+    "hash": "b6ef88a35d815e44ae1f452ce323faf4adc88fd9d7f9d98ed75b84f508f320ad",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Monstrous Manual (1994 third printing)",
+    "defaultVersionKey": "b4418656523483d2cbfc7dea",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  },
+  {
+    "name": "Giant Lizard",
+    "kind": "beast",
+    "group": "Beast",
+    "otherKindExists": false,
+    "global": true,
+    "version": {
+      "key": "3264242d1a4127e9ab4cd07b",
+      "publication": "Monstrous Manual (1994 third printing)",
+      "edition": "AD&D 2nd edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "5"
+        ],
+        [
+          "Hit dice",
+          "3+1"
+        ],
+        [
+          "Size",
+          "H, 15 ft."
+        ],
+        [
+          "Type",
+          "Animal"
+        ],
+        [
+          "Movement",
+          "15"
+        ],
+        [
+          "THAC0",
+          "17"
+        ],
+        [
+          "Attacks per round",
+          "1"
+        ],
+        [
+          "Damage per attack",
+          "1–8"
+        ],
+        [
+          "XP",
+          "175"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Any warm land",
+            "Marshes and swamps"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A relatively normal lizard scaled up to 15 feet long, with a low body, four walking legs, and a long tail."
+          ]
+        },
+        {
+          "title": "Combat mechanics",
+          "lines": [
+            "Jaw trap · An attack score of 20 traps the victim in its mouth. The bite doubles to 2–16, then deals 2–16 damage each round thereafter."
+          ]
+        },
+        {
+          "title": "Behavior mechanics",
+          "lines": [
+            "Swamp hunter · It attacks edible creatures that wander by. Black dragons share its swamps. Lizardfolk sometimes domesticate it as a mount, pack animal, or food."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "2–12 (2d6) appearing. Uncommon. Solitary organization. Day activity. Carnivorous and neutral.",
+            "No intelligence (0). Treasure Nil. Average (8–10) morale. Magic resistance Nil.",
+            "Monstrous Manual, TSR 2140, January 1994 third printing, p. 226."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [
+      {
+        "key": "df8924f70d17dd2d67f554f9",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "status": "Combat summary",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "12"
+          ],
+          [
+            "Hit points",
+            "19"
+          ],
+          [
+            "Hit dice",
+            "3d10 + 3"
+          ],
+          [
+            "Challenge",
+            "1/4"
+          ],
+          [
+            "Size",
+            "Large"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 30 ft., climb 30 ft."
+          ],
+          [
+            "Str",
+            "15"
+          ],
+          [
+            "Dex",
+            "12"
+          ],
+          [
+            "Con",
+            "13"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "10"
+          ],
+          [
+            "Cha",
+            "5"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +4 to hit · reach 5 ft. · 1d8 + 2 piercing"
+            ]
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "1e66df4cb8ac531f8b531bd1",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "edition": "Black Flag Roleplaying",
+        "images": [],
+        "stats": [
+          [
+            "Challenge",
+            "1/4"
+          ],
+          [
+            "Type",
+            "Beast"
+          ]
+        ],
+        "sections": []
+      },
+      {
+        "key": "1084c374a1a9b395e2b62171",
+        "publication": "Hoard of the Dragon Queen - Online Supplement",
+        "edition": "2014 fifth edition",
+        "status": "Combat summary",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "12"
+          ],
+          [
+            "Hit points",
+            "19"
+          ],
+          [
+            "Hit dice",
+            "3d10 + 3"
+          ],
+          [
+            "Challenge",
+            "1/4"
+          ],
+          [
+            "Size",
+            "Large"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 30 ft., climb 30 ft."
+          ],
+          [
+            "Str",
+            "15"
+          ],
+          [
+            "Dex",
+            "12"
+          ],
+          [
+            "Con",
+            "13"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "10"
+          ],
+          [
+            "Cha",
+            "5"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +4 to hit · reach 5 ft. · 1d8 + 2 piercing"
+            ]
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "d60ae2ed370fe500375b216a",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "description": "A Large beast with challenge rating 1/4. Listed habitats: underdark, forest, swamp, desert, coastal. Named abilities include Bite.",
+        "source": "https://5e.tools/bestiary.html#giant%20lizard_mm",
+        "status": "Encounter reference",
+        "images": [
+          {
+            "url": "",
+            "credit": "Monster Manual (2014)"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "12"
+          ],
+          [
+            "Hit points",
+            "19"
+          ],
+          [
+            "Hit dice",
+            "3d10 + 3"
+          ],
+          [
+            "Challenge",
+            "1/4"
+          ],
+          [
+            "Size",
+            "Large"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 30 ft., climb 30 ft."
+          ],
+          [
+            "Passive Perception",
+            "10"
+          ],
+          [
+            "Initiative",
+            "1"
+          ],
+          [
+            "Strength",
+            "15"
+          ],
+          [
+            "Dexterity",
+            "12"
+          ],
+          [
+            "Constitution",
+            "13"
+          ],
+          [
+            "Intelligence",
+            "2"
+          ],
+          [
+            "Wisdom",
+            "10"
+          ],
+          [
+            "Charisma",
+            "5"
+          ],
+          [
+            "Alignment",
+            "unaligned"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +4 to hit · reach 5 ft. · 1d8 + 2 piercing"
+            ]
+          },
+          {
+            "title": "Senses",
+            "lines": [
+              "darkvision 30 ft."
+            ]
+          },
+          {
+            "title": "Habitats",
+            "lines": [
+              "underdark, forest, swamp, desert, coastal"
+            ]
+          },
+          {
+            "title": "Actions reference",
+            "lines": [
+              "Bite · Melee attack · +4 to hit · 1d8 + 2 piercing damage · reach 5 ft."
+            ]
+          },
+          {
+            "title": "Lore topics in the source",
+            "lines": [
+              "Variant: Giant Lizard Traits",
+              "Hold Breath",
+              "Spider Climb"
+            ]
+          }
+        ],
+        "sourceCode": "MM",
+        "page": 326,
+        "references": [
+          {
+            "label": "Monster Manual (2014), p. 326",
+            "url": "https://5e.tools/bestiary.html#giant%20lizard_mm"
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Passive Perception": [
+            {
+              "start": 0,
+              "end": 18,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Initiative": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Initiative",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 369,
+                "local": {
+                  "entry": "compendium-f7647d543d6e04bd0782c504",
+                  "version": "XPHB:369:https://5e.tools/variantrules.html#initiative_xphb"
+                }
+              }
+            }
+          ],
+          "Alignment": [
+            {
+              "start": 0,
+              "end": 9,
+              "target": {
+                "name": "Alignment",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                }
+              }
+            }
+          ],
+          "darkvision 30 ft.": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2014)",
+                "page": 183,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+                }
+              }
+            }
+          ],
+          "Spider Climb": [
+            {
+              "start": 0,
+              "end": 12,
+              "target": {
+                "name": "Spider Climb",
+                "group": "Spells",
+                "publication": "Player's Handbook (2014)",
+                "page": 277,
+                "description": "A level 2 transmutation spell.",
+                "local": {
+                  "entry": "compendium-8d902b4c716289d9471f0690",
+                  "version": "PHB:277:https://5e.tools/spells.html#spider%20climb_phb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "eb97c2c4354fe46c2afc4474",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "description": "A Large beast with challenge rating 1/4. Listed habitats: coastal, desert, forest, swamp, underdark. Named abilities include Spider Climb, Bite.",
+        "source": "https://5e.tools/bestiary.html#giant%20lizard_xmm",
+        "artwork": "https://www.dndbeyond.com/avatars/thumbnails/47138/870/1000/1000/638741964124668470.png",
+        "status": "Encounter reference",
+        "images": [
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Jonathan Kuo · Monster Manual (2024)"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "12"
+          ],
+          [
+            "Hit points",
+            "19"
+          ],
+          [
+            "Hit dice",
+            "3d10 + 3"
+          ],
+          [
+            "Challenge",
+            "1/4"
+          ],
+          [
+            "Size",
+            "Large"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 40 ft., climb 40 ft."
+          ],
+          [
+            "Passive Perception",
+            "10"
+          ],
+          [
+            "Strength",
+            "15"
+          ],
+          [
+            "Dexterity",
+            "12"
+          ],
+          [
+            "Constitution",
+            "13"
+          ],
+          [
+            "Intelligence",
+            "2"
+          ],
+          [
+            "Wisdom",
+            "10"
+          ],
+          [
+            "Charisma",
+            "5"
+          ],
+          [
+            "Alignment",
+            "unaligned"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Saving throws",
+            "lines": [
+              "Dex +3",
+              "Dexterity +3"
+            ]
+          },
+          {
+            "title": "Habitats",
+            "lines": [
+              "coastal",
+              "desert",
+              "forest",
+              "swamp",
+              "underdark",
+              "coastal, desert, forest, swamp, underdark"
+            ]
+          },
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +4 to hit · reach 5 ft. · 1d8 + 2 piercing"
+            ]
+          },
+          {
+            "title": "Senses",
+            "lines": [
+              "Darkvision 60 ft."
+            ]
+          },
+          {
+            "title": "Traits reference",
+            "lines": [
+              "Spider Climb"
+            ]
+          },
+          {
+            "title": "Actions reference",
+            "lines": [
+              "Bite · Melee attack · +4 to hit · 1d8 + 2 piercing damage · reach 5 ft."
+            ]
+          },
+          {
+            "title": "Lore topics in the source",
+            "lines": [
+              "Animals"
+            ]
+          }
+        ],
+        "sourceCode": "XMM",
+        "references": [
+          {
+            "label": "Monster Manual (2025), p. 358",
+            "url": "https://5e.tools/bestiary.html#giant%20lizard_xmm"
+          },
+          {
+            "label": "Panther (creature)",
+            "url": "https://5e.tools/bestiary.html#panther_xmm",
+            "local": {
+              "entry": "beast-346793476af7c0a55cfa62ab",
+              "version": "b2bb83792ec748263d8b7b46"
+            },
+            "preview": {
+              "name": "Panther",
+              "group": "Beast",
+              "publication": "Monster Manual (2024)",
+              "description": "A Medium beast with challenge rating 1/4. Listed habitats: forest, grassland, hill. Named abilities include Rend, Nimble Escape.",
+              "local": {
+                "entry": "beast-346793476af7c0a55cfa62ab",
+                "version": "b2bb83792ec748263d8b7b46"
+              }
+            }
+          },
+          {
+            "label": "Giant Goat (creature)",
+            "url": "https://5e.tools/bestiary.html#giant%20goat_xmm",
+            "local": {
+              "entry": "beast-6f3ba88f8055270588c02a34",
+              "version": "426fa41934a075969d8d0faf"
+            },
+            "preview": {
+              "name": "Giant Goat",
+              "group": "Beast",
+              "publication": "Monster Manual (2024)",
+              "description": "A Large beast with challenge rating 1/2. Listed habitats: grassland, hill, mountain. Named abilities include Ram.",
+              "local": {
+                "entry": "beast-6f3ba88f8055270588c02a34",
+                "version": "426fa41934a075969d8d0faf"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "A Large beast with challenge rating 1/4. Listed habitats: coastal, desert, forest, swamp, underdark. Named abilities include Spider Climb, Bite.": [
+            {
+              "start": 125,
+              "end": 137,
+              "target": {
+                "name": "Spider Climb",
+                "group": "Spells",
+                "publication": "Player's Handbook (2024)",
+                "page": 319,
+                "description": "A level 2 transmutation spell.",
+                "local": {
+                  "entry": "compendium-8d902b4c716289d9471f0690",
+                  "version": "XPHB:319:https://5e.tools/spells.html#spider%20climb_xphb"
+                }
+              }
+            }
+          ],
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Passive Perception": [
+            {
+              "start": 0,
+              "end": 18,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Alignment": [
+            {
+              "start": 0,
+              "end": 9,
+              "target": {
+                "name": "Alignment",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                }
+              }
+            }
+          ],
+          "Darkvision 60 ft.": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2024)",
+                "page": 365,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "XPHB:365:https://5e.tools/senses.html#darkvision_xphb"
+                }
+              }
+            }
+          ],
+          "Spider Climb": [
+            {
+              "start": 0,
+              "end": 12,
+              "target": {
+                "name": "Spider Climb",
+                "group": "Spells",
+                "publication": "Player's Handbook (2024)",
+                "page": 319,
+                "description": "A level 2 transmutation spell.",
+                "local": {
+                  "entry": "compendium-8d902b4c716289d9471f0690",
+                  "version": "XPHB:319:https://5e.tools/spells.html#spider%20climb_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "cc6902988d47a9c0a80e14eb",
+        "publication": "SRD 5.1",
+        "edition": "2014 fifth edition",
+        "status": "Stat block",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "12"
+          ],
+          [
+            "Hit points",
+            "19"
+          ],
+          [
+            "Hit dice",
+            "3d10 + 3"
+          ],
+          [
+            "Challenge",
+            "1/4"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "30 ft., climb 30 ft."
+          ],
+          [
+            "XP",
+            "50"
+          ],
+          [
+            "Str",
+            "15"
+          ],
+          [
+            "Dex",
+            "12"
+          ],
+          [
+            "Con",
+            "13"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "10"
+          ],
+          [
+            "Cha",
+            "5"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Classification",
+            "lines": [
+              "Large beast, unaligned"
+            ]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Senses darkvision 30 ft., passive Perception 10 Languages —"
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage. A giant lizard can be ridden or used as a draft animal. Lizardfolk also keep them as pets, and subterranean giant lizards are used as mounts and pack animals by drow, duergar, and others."
+            ]
+          }
+        ],
+        "inline": {
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Senses darkvision 30 ft., passive Perception 10 Languages —": [
+            {
+              "start": 7,
+              "end": 17,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2014)",
+                "page": 183,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+                }
+              }
+            },
+            {
+              "start": 34,
+              "end": 44,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            }
+          ],
+          "Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage. A giant lizard can be ridden or used as a draft animal. Lizardfolk also keep them as pets, and subterranean giant lizards are used as mounts and pack animals by drow, duergar, and others.": [
+            {
+              "start": 12,
+              "end": 25,
+              "target": {
+                "name": "Weapon Attack",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 377,
+                "local": {
+                  "entry": "compendium-f8978a5da2977fc5a556ab9c",
+                  "version": "XPHB:377:https://5e.tools/variantrules.html#weapon%20attack_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "02e8256aac69cc62e14eeb92",
+        "publication": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Stat block",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "12"
+          ],
+          [
+            "Hit points",
+            "19"
+          ],
+          [
+            "Hit dice",
+            "3d10 + 3"
+          ],
+          [
+            "Challenge",
+            "1/4"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "40 ft., Climb 40 ft."
+          ],
+          [
+            "XP",
+            "50"
+          ],
+          [
+            "Str",
+            "15"
+          ],
+          [
+            "Dex",
+            "12"
+          ],
+          [
+            "Con",
+            "13"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "10"
+          ],
+          [
+            "Cha",
+            "5"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Classification",
+            "lines": [
+              "Large Beast, Unaligned"
+            ]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Senses Darkvision 60 ft.; Passive Perception 10 Languages None"
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Spider Climb. The lizard can climb difficult surfaces, including along ceilings, without needing to make an ability check."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Piercing damage."
+            ]
+          }
+        ],
+        "inline": {
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Senses Darkvision 60 ft.; Passive Perception 10 Languages None": [
+            {
+              "start": 7,
+              "end": 17,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2024)",
+                "page": 365,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "XPHB:365:https://5e.tools/senses.html#darkvision_xphb"
+                }
+              }
+            },
+            {
+              "start": 26,
+              "end": 44,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Spider Climb. The lizard can climb difficult surfaces, including along ceilings, without needing to make an ability check.": [
+            {
+              "start": 0,
+              "end": 12,
+              "target": {
+                "name": "Spider Climb",
+                "group": "Spells",
+                "publication": "Player's Handbook (2024)",
+                "page": 319,
+                "description": "A level 2 transmutation spell.",
+                "local": {
+                  "entry": "compendium-8d902b4c716289d9471f0690",
+                  "version": "XPHB:319:https://5e.tools/spells.html#spider%20climb_xphb"
+                }
+              }
+            }
+          ],
+          "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Piercing damage.": [
+            {
+              "start": 12,
+              "end": 23,
+              "target": {
+                "name": "Attack Roll",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 361,
+                "local": {
+                  "entry": "compendium-2570a567c24ef3f4b5e35b50",
+                  "version": "XPHB:361:https://5e.tools/variantrules.html#attack%20roll_xphb"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "queries": {
+      "Giant Lizard": true,
+      "giant lizard attack score doubles traps": true,
+      "giant lizard normal lizard scaled": true,
+      "giant lizard marshes swamps": true
+    },
+    "hash": "0a484d2d5a73289ab2340f297153b919d87bc430000059a12b1945a14a380a1b",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [
+      {
+        "url": "",
+        "credit": "Monster Manual (2014)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Jonathan Kuo · Monster Manual (2024)"
+      }
+    ],
+    "defaultPublication": "Basic Rules (2018)",
+    "defaultVersionKey": "df8924f70d17dd2d67f554f9",
+    "entryImage": {
+      "url": "",
+      "credit": "Monster Manual (2014)"
+    }
+  },
+  {
+    "name": "Minotaur Lizard",
+    "kind": "beast",
+    "group": "Animal",
+    "otherKindExists": false,
+    "global": true,
+    "version": {
+      "key": "6362c9a084cbbaf8252a493e",
+      "publication": "Monstrous Manual (1994 third printing)",
+      "edition": "AD&D 2nd edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "5"
+        ],
+        [
+          "Hit dice",
+          "8"
+        ],
+        [
+          "Size",
+          "G, 40 ft."
+        ],
+        [
+          "Type",
+          "Animal"
+        ],
+        [
+          "Movement",
+          "6"
+        ],
+        [
+          "THAC0",
+          "13"
+        ],
+        [
+          "Attacks per round",
+          "3"
+        ],
+        [
+          "Damage per attack",
+          "2–12 / 2–12 / 3–18"
+        ],
+        [
+          "XP",
+          "975"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Tropical hills and mountains",
+            "Areas near copper and red dragons"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A 40-foot lizard with sharp claws and teeth. The male has display horns resembling those of a minotaur."
+          ]
+        },
+        {
+          "title": "Combat mechanics",
+          "lines": [
+            "Ambush · Opponents take a −5 penalty on their surprise rolls.",
+            "Jaw trap · An attack roll of 20 traps the victim in its jaws. It deals 3–18 damage automatically each round thereafter until the victim escapes or dies. The victim cannot attack the following round.",
+            "Display horns · The male’s horns are believed to attract a mate. Its attacks use claws and teeth."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "1–8 appearing. Rare. Solitary organization. Day activity. Carnivorous and neutral.",
+            "No intelligence (0). Treasure J–N, Q, C (magic). Average (8–10) morale. Magic resistance Nil.",
+            "Monstrous Manual, TSR 2140, January 1994 third printing, p. 226."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Minotaur Lizard": true,
+      "minotaur lizard surprise jaw following round": true,
+      "minotaur lizard display horns claws": true,
+      "minotaur lizard tropical hills mountains": true
+    },
+    "hash": "a8bd73549f9cd5d2818d8cf81a68c3c8a56e189f6cb469417440adeef84c2d81",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Monstrous Manual (1994 third printing)",
+    "defaultVersionKey": "6362c9a084cbbaf8252a493e",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  },
+  {
+    "name": "Subterranean Lizard",
+    "kind": "beast",
+    "group": "Animal",
+    "otherKindExists": false,
+    "global": true,
+    "version": {
+      "key": "ac387d8287fc115487de5413",
+      "publication": "Monstrous Manual (1994 third printing)",
+      "edition": "AD&D 2nd edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "5"
+        ],
+        [
+          "Hit dice",
+          "6"
+        ],
+        [
+          "Size",
+          "H, 20 ft."
+        ],
+        [
+          "Type",
+          "Animal"
+        ],
+        [
+          "Movement",
+          "12"
+        ],
+        [
+          "THAC0",
+          "15"
+        ],
+        [
+          "Attacks per round",
+          "1"
+        ],
+        [
+          "Damage per attack",
+          "2–12"
+        ],
+        [
+          "XP",
+          "650"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Any subterranean terrain",
+            "Caves with walls and ceilings it can climb"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A 20-foot lizard with suction pads on its toes for crossing walls and ceilings. Some cave forms are albino. Other forms have a long tongue."
+          ]
+        },
+        {
+          "title": "Combat mechanics",
+          "lines": [
+            "Jaw clamp · An attack roll of 20 traps the victim in its jaws and doubles the bite to 4–24. The trapped victim automatically takes 2–12 additional damage each following round."
+          ]
+        },
+        {
+          "title": "Printed variants mechanics",
+          "lines": [
+            "Albino form · Some forms are albino, shun light, and attack at −1 in daylight or its equivalent.",
+            "Long-tongued form · Other forms have tongues up to 20 feet long. A seized man-sized or smaller victim is drawn into its mouth and bitten next round unless a bend bars roll succeeds."
+          ]
+        },
+        {
+          "title": "Behavior mechanics",
+          "lines": [
+            "Cave movement · It can run across walls and ceilings and does not leave its cave voluntarily."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "1–6 appearing. Uncommon. Solitary organization. Day activity. Carnivorous and neutral.",
+            "No intelligence (0). Treasure O, P, Q (×5). Average (8–10) morale. Magic resistance Nil.",
+            "Monstrous Manual, TSR 2140, January 1994 third printing, p. 226."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Subterranean Lizard": true,
+      "subterranean lizard bend bars tongue daylight": true,
+      "subterranean lizard suction toe pads albino": true,
+      "subterranean lizard caves walls ceilings": true
+    },
+    "hash": "1cb387f2b1e49530b47bdd4d1ec9187b7d38bc9b20002eb996e4c5aaa2e0dc01",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Monstrous Manual (1994 third printing)",
+    "defaultVersionKey": "ac387d8287fc115487de5413",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  }
+]

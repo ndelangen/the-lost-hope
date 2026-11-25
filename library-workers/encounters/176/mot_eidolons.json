@@ -1,0 +1,392 @@
+[
+  {
+    "name": "Eater of Hope",
+    "statBlock": {
+      "name": "Eater of Hope",
+      "publication": "Mythic Odysseys of Theros",
+      "edition": "2014 fifth edition",
+      "printedPage": 220,
+      "classification": "Large fiend, lawful evil",
+      "ac": 17,
+      "hp": 90,
+      "hitDice": "12d10 + 24",
+      "speed": "30 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "6",
+      "xp": 2300,
+      "passivePerception": 10,
+      "description": "An Underworld fiend that hoards gold to tempt mortals and waits for despair to wear them down before it attacks.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 5,
+        "Cha": 6
+      },
+      "skills": {
+        "Deception": 6,
+        "Intimidation": 6,
+        "Persuasion": 6
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold and necrotic.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Abyssal, Common, Infernal.",
+        "Traits": "Insatiable Greed. It senses gold within 1,000 ft., can pick out the direction of the largest concentration, and knows which way moving gold is traveling. A layer of clay or lead of any thickness blocks the sense if it lies directly between the fiend and the gold.\nMagic Resistance. It has advantage on saving throws against spells and other magical effects.\nImmortal Nature. It needs no food, drink, or sleep.",
+        "Actions": "Multiattack. Make two Claws attacks.\nClaws. Melee weapon attack, +7 to hit, reach 5 ft., one target. On a hit, deal 8 (1d8 + 4) slashing damage plus 7 (2d6) necrotic damage.\nBreath of Hopelessness (Recharge 5–6). Each creature in a 30-ft. cone makes a DC 14 Charisma save. On a failure, it takes 26 (4d12) necrotic damage and is cursed for 1 minute. While cursed, it takes an extra 6 (1d12) necrotic damage each time this eater of hope hits it with an attack. A success halves the breath damage and prevents the curse.",
+        "Printed source": "Mythic Odysseys of Theros, p. 220."
+      }
+    }
+  },
+  {
+    "name": "Fleecemane Lion",
+    "statBlock": {
+      "name": "Fleecemane Lion",
+      "publication": "Mythic Odysseys of Theros",
+      "edition": "2014 fifth edition",
+      "printedPage": 223,
+      "classification": "Large monstrosity, unaligned",
+      "ac": 15,
+      "hp": 45,
+      "hitDice": "6d10 + 12",
+      "speed": "50 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 14,
+      "description": "An enormous lion with a shining silver or gold mane that prowls places touched by Nyx.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Str": 6,
+        "Con": 4
+      },
+      "skills": {
+        "Perception": 4,
+        "Stealth": 5
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Languages": "None.",
+        "Traits": "Keen Smell. The lion has advantage on Wisdom (Perception) checks that depend on smell.\nPounce. After moving at least 20 ft. straight toward a creature and hitting it with Claw on the same turn, the lion forces it to make a DC 14 Strength save or fall prone. If the target is prone, the lion can make one Bite attack against it as a bonus action.\nRunning Leap. A running start of at least 10 ft. lets the lion long jump up to 25 ft.\nSpell Turning. The lion has advantage on saves against spells that target it alone, excluding area spells. If it succeeds against a spell of 4th level or lower, the spell leaves the lion unaffected and targets its caster instead.",
+        "Actions": "Multiattack. Make one Bite attack and one Claw attack.\nBite. Melee weapon attack, +6 to hit, reach 5 ft., one target. On a hit, deal 8 (1d8 + 4) piercing damage.\nClaw. Melee weapon attack, +6 to hit, reach 5 ft., one target. On a hit, deal 7 (1d6 + 4) slashing damage.",
+        "Legendary actions": "The lion has two legendary actions and regains spent actions at the start of its turn. It can use one option at the end of another creature’s turn.\nClaw (1 action). Make one Claw attack.\nRoar (2 actions). Each creature within 60 ft. that hears the magical roar must make a DC 12 Wisdom save or be frightened of the lion until the end of the lion’s next turn.",
+        "Printed source": "Mythic Odysseys of Theros, p. 223."
+      }
+    }
+  },
+  {
+    "name": "Flitterstep Eidolon",
+    "statBlock": {
+      "name": "Flitterstep Eidolon",
+      "publication": "Mythic Odysseys of Theros",
+      "edition": "2014 fifth edition",
+      "printedPage": 222,
+      "classification": "Medium undead, any alignment",
+      "ac": 14,
+      "hp": 44,
+      "hitDice": "8d8 + 8",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 8
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 13,
+      "description": "A wandering spirit born from the identity a Returned relinquished to leave the Underworld.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 3,
+        "Stealth": 8
+      },
+      "sections": {
+        "Damage resistances": "Necrotic. Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, restrained.",
+        "Languages": "The languages the eidolon knew in life.",
+        "Traits": "Blurred Form. Attacks against the eidolon have disadvantage unless it is incapacitated.\nEvasion. When a Dexterity save would normally halve damage, the eidolon takes no damage on a success and half on a failure. It loses this benefit while incapacitated.\nIncorporeal Movement. The eidolon can move through creatures and objects as difficult terrain. If it ends its turn inside an object, it takes 5 (1d10) force damage.\nTurn Resistance. It has advantage on saves against effects that turn undead.\nUndead Nature. The eidolon needs no air, food, drink, or sleep.",
+        "Actions": "Multiattack. Make two melee attacks. If available, Flitterstep can be used immediately before or after one of the attacks.\nFlickering Dagger. Melee weapon attack, +6 to hit, reach 5 ft., one target. On a hit, deal 6 (1d4 + 4) piercing damage plus 3 (1d6) psychic damage.\nFlitterstep (Recharge 5–6). Magically teleport to an unoccupied space the eidolon can see within 30 ft. An attack it makes immediately after teleporting has advantage.",
+        "Printed source": "Mythic Odysseys of Theros, p. 222."
+      }
+    }
+  },
+  {
+    "name": "Ghostblade Eidolon",
+    "statBlock": {
+      "name": "Ghostblade Eidolon",
+      "publication": "Mythic Odysseys of Theros",
+      "edition": "2014 fifth edition",
+      "printedPage": 222,
+      "classification": "Medium undead, any alignment",
+      "ac": 12,
+      "hp": 55,
+      "hitDice": "10d8 + 10",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 14,
+      "description": "A lost identity shed by a Returned warrior, still fighting battles it believes never ended.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Acrobatics": 5,
+        "Athletics": 6,
+        "Perception": 4
+      },
+      "sections": {
+        "Damage resistances": "Necrotic. Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, restrained.",
+        "Languages": "The languages the eidolon knew in life.",
+        "Traits": "Blurred Form. Attacks against the eidolon have disadvantage unless it is incapacitated.\nIncorporeal Movement. The eidolon can move through creatures and objects as difficult terrain. If it ends its turn inside an object, it takes 5 (1d10) force damage.\nTurn Resistance. It has advantage on saves against effects that turn undead.\nUndead Nature. The eidolon needs no air, food, drink, or sleep.",
+        "Actions": "Multiattack. Make two Ghostblade attacks.\nGhostblade. Melee weapon attack, +6 to hit, reach 5 ft., one target. On a hit, deal 8 (1d8 + 3) slashing damage plus 11 (2d10) force damage.",
+        "Printed source": "Mythic Odysseys of Theros, p. 222."
+      }
+    }
+  },
+  {
+    "name": "Gold-Forged Sentinel",
+    "statBlock": {
+      "name": "Gold-Forged Sentinel",
+      "publication": "Mythic Odysseys of Theros",
+      "edition": "2014 fifth edition",
+      "printedPage": 211,
+      "classification": "Large construct, unaligned",
+      "ac": 16,
+      "hp": 76,
+      "hitDice": "8d10 + 32",
+      "speed": "40 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 19
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 16,
+      "description": "One of Purphoros’s early anvilwroughts. It may stand still for decades before resuming a mission known only to itself.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 6
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage immunities": "Fire and poison.",
+        "Condition immunities": "Charmed, exhaustion, paralyzed, petrified, poisoned.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Understands one language of its creator and cannot speak.",
+        "Traits": "Charge. If the sentinel travels at least 20 ft. straight toward a target and hits it with Ram that turn, the hit deals 10 (3d6) extra bludgeoning damage. A creature hit must also make a DC 15 Strength save or fall prone.\nSpell Turning. The sentinel has advantage on saves against spells that target it alone, excluding area spells. If it succeeds against a spell of 4th level or lower, the spell leaves the sentinel unaffected and targets its caster instead.\nConstructed Nature. The sentinel needs no air, food, drink, or sleep.",
+        "Actions": "Multiattack. Make two Ram attacks.\nRam. Melee weapon attack, +7 to hit, reach 5 ft., one target. On a hit, deal 13 (2d8 + 4) bludgeoning damage.\nFire Breath (Recharge 5–6). Each creature in a 15-ft. cone makes a DC 15 Dexterity save, taking 27 (6d8) fire damage on a failure or half as much on a success.",
+        "Printed source": "Mythic Odysseys of Theros, p. 211, with Constructed Nature on p. 209."
+      }
+    }
+  },
+  {
+    "name": "Hippocamp",
+    "statBlock": {
+      "name": "Hippocamp",
+      "publication": "Mythic Odysseys of Theros",
+      "edition": "2014 fifth edition",
+      "printedPage": 227,
+      "classification": "Large monstrosity, chaotic good",
+      "ac": 13,
+      "hp": 22,
+      "hitDice": "4d10",
+      "speed": "20 ft., swim 50 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 6
+        }
+      },
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 10,
+      "description": "An aquatic steed that travels in herds and serves as a guide or mount for tritons and other seafarers.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "None.",
+        "Traits": "Amphibious. The hippocamp breathes air and water.\nCharge. If it moves at least 20 ft. straight toward a target and then hits with Ram that turn, the hit deals 7 (2d6) extra bludgeoning damage. A creature hit must also make a DC 12 Strength save or fall prone.",
+        "Actions": "Hooves. Melee weapon attack, +4 to hit, reach 5 ft., one target. On a hit, deal 9 (2d6 + 2) bludgeoning damage.\nRam. Melee weapon attack, +4 to hit, reach 5 ft., one target. On a hit, deal 5 (1d6 + 2) bludgeoning damage.",
+        "Printed source": "Mythic Odysseys of Theros, p. 227."
+      }
+    }
+  },
+  {
+    "name": "Hundred-Handed One",
+    "statBlock": {
+      "name": "Hundred-Handed One",
+      "publication": "Mythic Odysseys of Theros",
+      "edition": "2014 fifth edition",
+      "printedPage": 225,
+      "classification": "Huge giant, lawful neutral",
+      "ac": 15,
+      "hp": 243,
+      "hitDice": "18d12 + 126",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 26
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 25
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "15",
+      "xp": 13000,
+      "passivePerception": 18,
+      "description": "A giant artisan with pairs of arms orbiting its body. These giants carve monuments and memories into remote cliffs.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 12,
+        "Wis": 8
+      },
+      "skills": {
+        "Intimidation": 8,
+        "Perception": 8
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Condition immunities": "Frightened.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Giant.",
+        "Traits": "Reactive. The giant can take one reaction on each turn in combat.\nVigilant. The giant cannot be surprised.",
+        "Actions": "Multiattack. Make four Longsword attacks or two Rock attacks.\nLongsword. Melee weapon attack, +13 to hit, reach 15 ft., one target. On a hit, deal 21 (3d8 + 8) slashing damage.\nRock. Ranged weapon attack, +13 to hit, range 60/240 ft., one target. On a hit, deal 30 (4d10 + 8) bludgeoning damage. A creature hit must make a DC 21 Strength save or fall prone.",
+        "Reactions": "Deflect Attack. When a weapon attack would hit the giant, it can add 5 to its AC against that attack if it can see the attacker and is wielding a melee weapon.",
+        "Printed source": "Mythic Odysseys of Theros, p. 225."
+      }
+    }
+  }
+]

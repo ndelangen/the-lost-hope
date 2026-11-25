@@ -5,6 +5,7 @@ export default createEvent({
   name: 'Day 2 — city looks normal',
   day: 2,
   location: refs.locations.fajanet,
+  illustrations: ['/assets/scenes/day-2-city-looks-normal.png'],
   mark: { type: 'icon', name: 'gi/GiSunrise' },
   notes: [
     [

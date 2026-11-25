@@ -1,0 +1,329 @@
+[
+  {
+    "name": "Adult Blue Dracolich",
+    "statBlock": {
+      "name": "Adult Blue Dracolich",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Huge undead, lawful evil",
+      "ac": 19,
+      "hp": 225,
+      "hitDice": "18d12 + 108",
+      "speed": "40 ft., burrow 30 ft., fly 80 ft.",
+      "cr": "17",
+      "xp": 18000,
+      "abilities": {
+        "Str": {
+          "score": 25
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 23
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 19
+        }
+      },
+      "savingThrows": {
+        "Dex": 6,
+        "Con": 12,
+        "Wis": 8,
+        "Cha": 10
+      },
+      "skills": {
+        "Perception": 14,
+        "Stealth": 6
+      },
+      "passivePerception": 24,
+      "description": "An adult blue dragon whose spirit animates its own bones through a phylactery gem.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Necrotic.",
+        "Damage immunities": "Lightning and poison.",
+        "Condition immunities": "Charmed, Exhaustion, Frightened, Paralyzed and Poisoned.",
+        "Senses": "Blindsight 60 ft., darkvision 120 ft.",
+        "Languages": "Common and Draconic.",
+        "Traits": "Legendary Resistance (3/day). Turn a failed saving throw into a success.\nMagic Resistance. Roll saving throws against spells and other magical effects with advantage.\nUndead Nature. It needs no air, food, drink or sleep.",
+        "Actions": "Multiattack. The dracolich may use Frightful Presence, then makes one Bite and two Claw attacks.\nBite. Melee weapon attack, +13 to hit, reach 10 ft., one target. Hit 18 (2d10 + 7) piercing plus 5 (1d10) lightning damage.\nClaw. Melee weapon attack, +13 to hit, reach 5 ft., one target. Hit 14 (2d6 + 7) slashing damage.\nTail. Melee weapon attack, +13 to hit, reach 15 ft., one target. Hit 16 (2d8 + 7) bludgeoning damage.\nFrightful Presence. The dracolich chooses creatures within 120 ft. that are aware of it. Each makes a DC 18 Wisdom save. On a failure, the creature is Frightened for 1 minute. It can repeat the save at the end of each of its turns, ending the effect on a success. A creature that succeeds or whose fear ends is immune to this dracolich's Frightful Presence for 24 hours.\nLightning Breath (recharge 5–6). Each creature in a 90-ft. line 5 ft. wide makes a DC 20 Dexterity save. Failure deals 66 (12d10) lightning damage. Success halves it.",
+        "Legendary actions": "The dracolich has 3 legendary actions. It uses one option at a time, at the end of another creature's turn, and regains spent actions at the start of its own turn. It can't use them while Incapacitated or otherwise unable to act. If surprised, it must wait until after its first turn.\nDetect (1 action). Make a Wisdom (Perception) check.\nTail Attack (1 action). Make a Tail attack.\nWing Attack (2 actions). Each creature within 10 ft. makes a DC 21 Dexterity save. On a failure, it takes 14 (2d6 + 7) bludgeoning damage and falls Prone. The dracolich can then fly up to half its flying speed.",
+        "Phylactery": "When the body is destroyed, the spirit returns to its gem if the gem and body are on the same plane. If the gem then touches another dragon's corpse, the spirit can animate that body and return as a dracolich. If the gem is on another plane when the body is destroyed, the spirit passes into the afterlife.",
+        "Lair options": "The printed example has no listed lair actions. The template lets the DM keep, remove, or replace the base dragon's lair actions.",
+        "Printed source": "Monster Manual (2014), pp. 83–84. The official errata corrects saves, skills, passive Perception and weapon attack bonuses."
+      }
+    }
+  },
+  {
+    "name": "Adult Red Dracolich",
+    "statBlock": {
+      "name": "Adult Red Dracolich",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Huge undead, chaotic evil",
+      "ac": 19,
+      "hp": 256,
+      "hitDice": "19d12 + 133",
+      "speed": "40 ft., climb 40 ft., fly 80 ft.",
+      "cr": "17",
+      "xp": 18000,
+      "abilities": {
+        "Str": {
+          "score": 27
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 25
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 21
+        }
+      },
+      "description": "An adult red dragon restored to its own skeleton by the spirit bound to its phylactery gem.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Template": "Apply the printed dracolich template to the Adult Red Dragon. Change its type to undead and add the listed resistances, immunities and Magic Resistance. The book gives no separate red dracolich stat block or CR or XP adjustment. This profile carries over the base dragon's CR 17 and 18,000 XP.",
+        "Armor": "Natural armor.",
+        "Damage resistances": "Necrotic.",
+        "Damage immunities": "Fire and poison.",
+        "Condition immunities": "Charmed, Exhaustion, Frightened, Paralyzed and Poisoned.",
+        "Senses": "Blindsight 60 ft., darkvision 120 ft.",
+        "Languages": "Common and Draconic.",
+        "Traits": "Legendary Resistance (3/day). Turn a failed saving throw into a success.\nMagic Resistance. Roll saving throws against spells and other magical effects with advantage.\nUndead Nature. It needs no air, food, drink or sleep.",
+        "Actions": "Multiattack. The dracolich may first use Frightful Presence. It then makes one Bite and two Claw attacks.\nBite. Melee weapon attack, +14 to hit, reach 10 ft., one target. Hit 19 (2d10 + 8) piercing damage plus 7 (2d6) fire damage.\nClaw. Melee weapon attack, +14 to hit, reach 5 ft., one target. Hit 15 (2d6 + 8) slashing damage.\nTail. Melee weapon attack, +14 to hit, reach 15 ft., one target. Hit 17 (2d8 + 8) bludgeoning damage.\nFrightful Presence. Choose any creatures within 120 ft. that are aware of the dracolich. Each makes a DC 19 Wisdom save or is Frightened for 1 minute. A target can repeat the save at the end of each of its turns, ending the effect on a success. A creature that saves or whose fear ends is immune to this dracolich's Frightful Presence for 24 hours.\nFire Breath (recharge 5–6). Creatures in a 60-ft. cone make a DC 21 Dexterity save. Failure deals 63 (18d6) fire damage. Success halves it.",
+        "Legendary actions": "The dracolich has 3 legendary actions and spends them one option at a time at the end of another creature's turn. It regains them at the start of its turn. It can't use them while incapacitated or otherwise unable to act, or before its first turn if surprised.\nDetect (1 action). Make a Wisdom (Perception) check.\nTail Attack (1 action). Make a Tail attack.\nWing Attack (2 actions). Each creature within 10 ft. makes a DC 22 Dexterity save. On a failure, it takes 15 (2d6 + 8) bludgeoning damage and falls Prone. The dracolich can then fly up to half its flying speed.",
+        "Phylactery": "When the body is destroyed, the spirit returns to its gem if the gem and body are on the same plane. If the gem then touches another dragon's corpse, the spirit can animate that body and return as a dracolich. If the gem is on another plane when the body is destroyed, the spirit passes into the afterlife.",
+        "Lair actions": "If the DM retains the adult red dragon's lair actions, use these options. The template also allows the DM to remove them or substitute new ones.\nOn initiative count 20, losing ties, choose one option that was not used the previous round. The creature can't use a lair action while incapacitated or otherwise unable to act, or before its first turn if surprised.\nMagma Geyser. Choose a ground point the dracolich can see within 120 ft. Magma erupts in a 5-ft.-radius, 20-ft.-high column. Each creature in it makes a DC 15 Dexterity save. Failure deals 21 (6d6) fire damage. Success halves it.\nTremor. Each other creature on the ground within 60 ft. of the dracolich makes a DC 15 Dexterity save or falls Prone.\nVolcanic Gas. Choose a visible point within 120 ft. A 20-ft.-radius sphere of gas spreads around corners and is lightly obscured. It lasts until initiative count 20 of the next round. Each creature starting its turn inside makes a DC 13 Constitution save or is Poisoned until the end of its turn. A creature poisoned this way is also Incapacitated.",
+        "Regional effects": "If using the original lair's regional effects, small earthquakes are common within 6 miles of the lair. Water sources within 1 mile are unnaturally warm and sulfurous. Rocky fissures within 1 mile form portals to the Elemental Plane of Fire and admit creatures from that plane. These effects fade over 1d10 days after the dracolich is destroyed.",
+        "Variant spellcasting": "Under the optional dragon spellcasting rule, choose five spells of 5th level or lower. The dracolich can cast each once per day without material components. Its Charisma spell save DC is 19 and its spell attack bonus is +11. The book leaves the spell choices to the DM.",
+        "Printed source": "Monster Manual (2014), p. 83 for the template, pp. 98–99 for the adult red dragon and lair, and p. 86 for optional dragon spellcasting."
+      },
+      "savingThrows": {
+        "Dex": 6,
+        "Con": 13,
+        "Wis": 7,
+        "Cha": 11
+      },
+      "skills": {
+        "Perception": 13,
+        "Stealth": 6
+      },
+      "passivePerception": 23
+    }
+  },
+  {
+    "name": "Demilich (Trap Soul)",
+    "statBlock": {
+      "name": "Demilich (Trap Soul)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Tiny undead, neutral evil",
+      "ac": 20,
+      "hp": 80,
+      "hitDice": "32d4",
+      "speed": "0 ft., fly 30 ft. (hover)",
+      "cr": "21",
+      "xp": 33000,
+      "abilities": {
+        "Str": {
+          "score": 1,
+          "modifier": -5
+        },
+        "Dex": {
+          "score": 20,
+          "modifier": 5
+        },
+        "Con": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Int": {
+          "score": 20,
+          "modifier": 5
+        },
+        "Wis": {
+          "score": 17,
+          "modifier": 3
+        },
+        "Cha": {
+          "score": 20,
+          "modifier": 5
+        }
+      },
+      "description": "Acererak and other demiliches of his tradition set soul gems into their skulls to feed their phylacteries.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Traits": "Avoidance. If a saving throw would normally halve damage on a success, the demilich takes none on a success and half on a failure.\nLegendary Resistance (3/day). Turn a failed saving throw into a success.\nTurn Immunity. Immune to effects that turn Undead.\nUndead Nature. It needs no air, food, drink or sleep. Use the printed 80 HP.\nEnduring Existence. An intact phylactery restores the destroyed skull in 1d10 days. A demilich that still has the will to feed a soul to its phylactery can return to lich form by doing so.",
+        "Actions": "Howl (Recharge 5–6). Every creature within 30 ft. that can hear the howl makes a DC 15 Constitution save. Failure drops it to 0 HP. Success leaves it Frightened until the end of its next turn.\nLife Drain. Choose up to three visible creatures within 10 ft. Each makes a DC 19 Constitution save or takes 21 (6d6) necrotic damage. The demilich heals HP equal to the total damage dealt.\nTrap Soul. Choose one visible creature within 30 ft. It makes a DC 19 Charisma save. On a failure, magic traps its soul in one of the demilich's gems and its body and carried equipment disappear. On a success, it takes 24 (7d6) necrotic damage, which still traps its soul if it brings the creature to 0 HP. The demilich devours an imprisoned soul after 24 hours. At 0 HP the demilich crumbles to powder and leaves its gems behind. Crushing a gem frees any soul still inside. Its body reforms in the nearest unoccupied space in the same state it was in when trapped.",
+        "Legendary actions": "Three legendary actions. Spend one option at the end of another creature’s turn. Regain spent actions at the start of this creature’s turn. It cannot use them while Incapacitated or otherwise unable to act, or before its first turn if surprised.\nFlight (1 action). Fly up to half its flying speed.\nCloud of Dust (1 action). Each creature within 10 ft., even around a corner, makes a DC 15 Constitution save or is Blinded until the end of the demilich’s next turn. On a success that creature is immune to this effect until the end of the demilich’s next turn.\nEnergy Drain (2 actions). Every creature within 30 ft. makes a DC 15 Constitution save. On a failure, reduce maximum HP by 10 (3d6). A target dies if its maximum falls to 0. Greater Restoration or similar magic can restore the lost maximum.\nVile Curse (3 actions). One visible creature within 30 ft. makes a DC 15 Wisdom save. On failure it is magically cursed and has disadvantage on attack rolls and saves. It repeats the save at the end of each turn and ends the curse on success.",
+        "Lair actions": "In its lair, the demilich is CR 23 (50,000 XP). Act on initiative count 20, losing ties. No lair action while Incapacitated or otherwise unable to act, or before the first turn if surprised. Roll a d20. On 11 or higher, choose an effect. Never repeat the same effect on consecutive rounds.\nTremor. Each creature on the tomb floor makes a DC 19 Dexterity save or falls Prone.\nAntimagic. Choose one visible creature within 60 ft. Antimagic Field fills its space and moves with it until initiative count 20 next round.\nSeal Healing. Choose any number of visible creatures within 30 ft. They cannot regain HP until initiative count 20 next round.",
+        "Lair traits": "Use any of these optional tomb traits. A non-evil creature takes 16 (3d10) necrotic damage the first time it enters. Monsters in the tomb have advantage on saves against Charmed, Frightened and turning. A ward prevents unauthorized creatures from using teleportation or planar travel to enter or leave, but allows such movement entirely within the tomb.\nAfter the demilich is destroyed, these effects fade over 10 days.",
+        "Printed source": "Monster Manual (2014), pp. 48–49. Use the Acererak and His Disciples sidebar and the corrected Hit Dice.",
+        "Variant": "This is the Acererak and His Disciples variant. The library also lists it as Demilich (Variant).",
+        "Armor": "Natural armor.",
+        "Damage resistances": "Bludgeoning, piercing and slashing from magic weapons.",
+        "Damage immunities": "Necrotic, poison and psychic. Bludgeoning, piercing and slashing from nonmagical attacks.",
+        "Condition immunities": "Charmed, Deafened, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned, Prone and Stunned.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "None."
+      },
+      "ruleNotes": [
+        "The lair introduction mentions extra uses for legendary actions, but this printing does not specify a different action budget. The stat block gives three each round.",
+        "The Undead Nature prose says to maximize the Hit Dice. The official errata gives 80 HP with 32d4, which matches the average. Use the listed 80 HP for this profile."
+      ],
+      "savingThrows": {
+        "Con": 6,
+        "Int": 11,
+        "Wis": 9,
+        "Cha": 11
+      },
+      "passivePerception": 13
+    }
+  },
+  {
+    "name": "Demilich (Variant)",
+    "statBlock": {
+      "name": "Demilich (Variant)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Tiny undead, neutral evil",
+      "ac": 20,
+      "hp": 80,
+      "hitDice": "32d4",
+      "speed": "0 ft., fly 30 ft. (hover)",
+      "cr": "21",
+      "xp": 33000,
+      "abilities": {
+        "Str": {
+          "score": 1,
+          "modifier": -5
+        },
+        "Dex": {
+          "score": 20,
+          "modifier": 5
+        },
+        "Con": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Int": {
+          "score": 20,
+          "modifier": 5
+        },
+        "Wis": {
+          "score": 17,
+          "modifier": 3
+        },
+        "Cha": {
+          "score": 20,
+          "modifier": 5
+        }
+      },
+      "description": "Acererak and other demiliches of his tradition set soul gems into their skulls to feed their phylacteries.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Traits": "Avoidance. If a saving throw would normally halve damage on a success, the demilich takes none on a success and half on a failure.\nLegendary Resistance (3/day). Turn a failed saving throw into a success.\nTurn Immunity. Immune to effects that turn Undead.\nUndead Nature. It needs no air, food, drink or sleep. Use the printed 80 HP.\nEnduring Existence. An intact phylactery restores the destroyed skull in 1d10 days. A demilich that still has the will to feed a soul to its phylactery can return to lich form by doing so.",
+        "Actions": "Howl (Recharge 5–6). Every creature within 30 ft. that can hear the howl makes a DC 15 Constitution save. Failure drops it to 0 HP. Success leaves it Frightened until the end of its next turn.\nLife Drain. Choose up to three visible creatures within 10 ft. Each makes a DC 19 Constitution save or takes 21 (6d6) necrotic damage. The demilich heals HP equal to the total damage dealt.\nTrap Soul. Choose one visible creature within 30 ft. It makes a DC 19 Charisma save. On a failure, magic traps its soul in one of the demilich's gems and its body and carried equipment disappear. On a success, it takes 24 (7d6) necrotic damage, which still traps its soul if it brings the creature to 0 HP. The demilich devours an imprisoned soul after 24 hours. At 0 HP the demilich crumbles to powder and leaves its gems behind. Crushing a gem frees any soul still inside. Its body reforms in the nearest unoccupied space in the same state it was in when trapped.",
+        "Legendary actions": "Three legendary actions. Spend one option at the end of another creature’s turn. Regain spent actions at the start of this creature’s turn. It cannot use them while Incapacitated or otherwise unable to act, or before its first turn if surprised.\nFlight (1 action). Fly up to half its flying speed.\nCloud of Dust (1 action). Each creature within 10 ft., even around a corner, makes a DC 15 Constitution save or is Blinded until the end of the demilich’s next turn. On a success that creature is immune to this effect until the end of the demilich’s next turn.\nEnergy Drain (2 actions). Every creature within 30 ft. makes a DC 15 Constitution save. On a failure, reduce maximum HP by 10 (3d6). A target dies if its maximum falls to 0. Greater Restoration or similar magic can restore the lost maximum.\nVile Curse (3 actions). One visible creature within 30 ft. makes a DC 15 Wisdom save. On failure it is magically cursed and has disadvantage on attack rolls and saves. It repeats the save at the end of each turn and ends the curse on success.",
+        "Lair actions": "In its lair, the demilich is CR 23 (50,000 XP). Act on initiative count 20, losing ties. No lair action while Incapacitated or otherwise unable to act, or before the first turn if surprised. Roll a d20. On 11 or higher, choose an effect. Never repeat the same effect on consecutive rounds.\nTremor. Each creature on the tomb floor makes a DC 19 Dexterity save or falls Prone.\nAntimagic. Choose one visible creature within 60 ft. Antimagic Field fills its space and moves with it until initiative count 20 next round.\nSeal Healing. Choose any number of visible creatures within 30 ft. They cannot regain HP until initiative count 20 next round.",
+        "Lair traits": "Use any of these optional tomb traits. A non-evil creature takes 16 (3d10) necrotic damage the first time it enters. Monsters in the tomb have advantage on saves against Charmed, Frightened and turning. A ward prevents unauthorized creatures from using teleportation or planar travel to enter or leave, but allows such movement entirely within the tomb.\nAfter the demilich is destroyed, these effects fade over 10 days.",
+        "Printed source": "Monster Manual (2014), pp. 48–49. Use the Acererak and His Disciples sidebar and the corrected Hit Dice.",
+        "Variant": "This is the Acererak and His Disciples variant. The library also lists it as Demilich (Trap Soul).",
+        "Armor": "Natural armor.",
+        "Damage resistances": "Bludgeoning, piercing and slashing from magic weapons.",
+        "Damage immunities": "Necrotic, poison and psychic. Bludgeoning, piercing and slashing from nonmagical attacks.",
+        "Condition immunities": "Charmed, Deafened, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned, Prone and Stunned.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "None."
+      },
+      "ruleNotes": [
+        "The lair introduction mentions extra uses for legendary actions, but this printing does not specify a different action budget. The stat block gives three each round.",
+        "The Undead Nature prose says to maximize the Hit Dice. The official errata gives 80 HP with 32d4, which matches the average. Use the listed 80 HP for this profile."
+      ],
+      "savingThrows": {
+        "Con": 6,
+        "Int": 11,
+        "Wis": 9,
+        "Cha": 11
+      },
+      "passivePerception": 13
+    }
+  },
+  {
+    "name": "Drider Spellcaster",
+    "statBlock": {
+      "name": "Drider Spellcaster",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large monstrosity, chaotic evil",
+      "ac": 19,
+      "hp": 123,
+      "hitDice": "13d10 + 52",
+      "speed": "30 ft., climb 30 ft.",
+      "cr": "6",
+      "xp": 2300,
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "description": "A former drow cleric whose magic survived the transformation into a drider.",
+      "otherStatistics": "Natural armor. Darkvision 120 ft. Elvish, Undercommon.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Traits": "Fey Ancestry. The creature has advantage on saving throws against being Charmed. Magic cannot put it to sleep.\nSpider Climb. The drider climbs difficult surfaces and ceilings without an ability check.\nSunlight Sensitivity. In sunlight, the creature has disadvantage on attack rolls and sight-based Wisdom (Perception) checks.\nWeb Walker. Webbing does not restrict the drider’s movement.",
+        "Innate spellcasting": "Wisdom (spell save DC 14), with no material components. At will: Dancing Lights. 1/day each: Darkness, Faerie Fire.",
+        "Spellcasting": "7th-level cleric spellcaster. Wisdom (spell save DC 14, +6 to hit with spell attacks). Prepared spells:\nCantrips at will: Poison Spray, Thaumaturgy.\n1st level (4 slots): Bane, Detect Magic, Sanctuary.\n2nd level (3 slots): Hold Person, Silence.\n3rd level (3 slots): Clairvoyance, Dispel Magic.\n4th level (2 slots): Divination, Freedom of Movement.",
+        "Variant": "This is the cleric example listed elsewhere in the library as Drider (variant). It keeps the Drider's base traits and adds cleric Spellcasting. Wisdom 16 raises Perception, passive Perception and the innate spell save DC by 1. The sidebar has no separate CR.",
+        "Actions": "Multiattack. Make three longsword attacks or three longbow attacks. One of them can be replaced with a bite.\nBite. Melee weapon attack, +6 to hit, reach 5 ft., one creature. Hit 2 (1d4) piercing plus 9 (2d8) poison damage.\nLongsword. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) with two hands.\nLongbow. Ranged weapon attack, +6 to hit, range 150/600 ft., one target. Hit 7 (1d8 + 3) piercing plus 4 (1d8) poison damage.",
+        "Printed source": "Monster Manual (2014), p. 120, including the spellcasting variant and official range errata."
+      },
+      "passivePerception": 16,
+      "skills": {
+        "Perception": 6,
+        "Stealth": 9
+      },
+      "savingThrows": {}
+    }
+  }
+]

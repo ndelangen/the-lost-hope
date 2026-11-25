@@ -1,0 +1,207 @@
+{
+  "builds": [
+    {
+      "id": "becmi-hw-hutaakan-kisita",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Basic D&D (BECMI)"
+      ],
+      "size": "Medium",
+      "title": "Hutaakan shrine courier, Hutaakan 1",
+      "difficulty": "First-level Hutaakan at 0 XP. Uses descending Armor Class.",
+      "type": "Humanoid",
+      "ac": 8,
+      "hp": 4,
+      "hitDice": "1d4",
+      "initiative": 0,
+      "speed": "90′ per dungeon turn and 30′ per encounter round.",
+      "senses": "Ordinary sight and hearing.",
+      "languages": "Hutaakan, Neathar, Orc and Gnoll.",
+      "abilityScores": {
+        "STR": 11,
+        "DEX": 12,
+        "CON": 12,
+        "INT": 11,
+        "WIS": 12,
+        "CHA": 12
+      },
+      "skills": [
+        "Move Silently 20% and Hide in Shadows 10%. The DM rolls quietly when appropriate. Hiding in shadows requires cover by shadow and stillness.",
+        "General Skills are Honor Pflarr 12 (Wisdom), Healing 11 (Intelligence), Tracking 11 (Intelligence) and Fire-Building 11 (Intelligence). Roll d20 at or below the listed score when called for. A natural 20 fails."
+      ],
+      "traits": [
+        "Neutral. Starting Strength 12 became 11 and starting Wisdom 11 became 12. One roll of 4 on 1d4 gives 4 HP. Ordinary robes and no shield leave natural AC 8.",
+        "Save numbers in death ray or poison, magic wands, paralysis or stone, dragon breath, and rod/staff/spell order are 11/12/14/16/15. Group initiative is high on 1d6. The staff loses individual initiative to characters using one-handed weapons."
+      ],
+      "actions": [
+        "Staff. One two-handed melee attack at THAC0 19 for 1d6 damage."
+      ],
+      "tactics": "Listen in shadow before stepping out to speak. Fight with the staff only if someone blocks the route to the shrine."
+    },
+    {
+      "id": "becmi-hw-brute-man-gat-kor",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Basic D&D (BECMI)"
+      ],
+      "size": "Medium",
+      "title": "Brute-Man cave-mouth scout, Brute-Man 1",
+      "difficulty": "First-level Brute-Man at 0 XP. Uses descending Armor Class.",
+      "type": "Humanoid",
+      "ac": 7,
+      "hp": 8,
+      "hitDice": "1d8+1",
+      "initiative": 1,
+      "speed": "120′ per dungeon turn and 40′ per encounter round with a light load.",
+      "senses": "Superior hearing. Ambushes never surprise Gat-Kor.",
+      "languages": "Ka-na-to and Neathar.",
+      "abilityScores": {
+        "STR": 14,
+        "DEX": 12,
+        "CON": 14,
+        "INT": 11,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "General Skills are Fire-Building 11, Survival (mountains and hills) 11, Hiding (mountains and hills) 11 and Danger Sense 12. The first three use Intelligence and Danger Sense uses Wisdom.",
+        "Roll d20 at or below the listed score when a skill roll is called for. A natural 20 fails. Fire-Building needs a roll only in difficult conditions. The DM rolls Danger Sense secretly."
+      ],
+      "traits": [
+        "Leather vest and no shield give AC 7. Starting Intelligence 12 became 11 and starting Constitution 13 became 14. A roll of 7 on 1d8 plus 1 for Constitution gives 8 HP.",
+        "Save numbers in death ray or poison, magic wands, paralysis or stone, dragon breath, and rod/staff/spell order are 11/12/14/16/15.",
+        "Detect secret doors, traps and similar constructions disguised as natural objects on 1–3 on d6. Use normal detection for other features.",
+        "Group initiative is high on 1d6. Add the class’s +1 only when rolling individual initiative. Strength 14 supplies +1 to melee attack and damage and to thrown spear damage."
+      ],
+      "actions": [
+        "Flaked-stone spear, one-handed thrust. One melee attack at THAC0 18 for 1d6+1 damage.",
+        "Flaked-stone spear, throw. One missile attack for 1d6+1 damage, with effective THAC0 18/19/20 at short/medium/long range. Range bands are 20/40/60 feet indoors or yards outdoors."
+      ],
+      "tactics": "Watch visitors from a natural recess and call out when they approach the cave. Keep the spear in hand until an escape route opens."
+    },
+    {
+      "id": "becmi-hw-kubitt-vanorva",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Basic D&D (BECMI)"
+      ],
+      "size": "Tiny",
+      "title": "Kubitt tree-bridge guard, Fighter 1",
+      "difficulty": "First-level Kubitt fighter at 0 XP. Uses descending Armor Class.",
+      "type": "Humanoid",
+      "ac": 3,
+      "hp": 6,
+      "hitDice": "1d8",
+      "initiative": 1,
+      "speed": "90′ per dungeon turn and 30′ per encounter round with chain, shield and short sword. Runs in 6-foot bounds.",
+      "senses": "Ordinary sight and hearing.",
+      "languages": "Alphatian, Neathar, Nixie and Dryad.",
+      "abilityScores": {
+        "STR": 13,
+        "DEX": 14,
+        "CON": 12,
+        "INT": 12,
+        "WIS": 12,
+        "CHA": 11
+      },
+      "skills": [
+        "Move Silently 20% and Hide in Shadows 10%. The DM rolls quietly when appropriate.",
+        "General Skills are Hiding (forest and jungle) 12 and Snares 12 (Intelligence), plus Riding (fox) 14 and Treewalking 14 (Dexterity). Roll d20 at or below the listed score when called for. A natural 20 fails."
+      ],
+      "traits": [
+        "Strength 13 is the highest possible roll on 2d6+1. Dexterity 12 became 14. Black miniature chain and shield give base AC 4. Dexterity lowers it to AC 3. One roll of 6 on 1d8 gives 6 HP.",
+        "Save numbers in death ray or poison, magic wands, paralysis or stone, dragon breath, and rod/staff/spell order are 12/13/14/15/16. Group initiative is high on 1d6. Optional Dexterity adjustment to individual initiative is +1.",
+        "Ordinary reach ends 2 feet above the floor. The equipment load uses standard chain, shield and short sword coin-weights for movement."
+      ],
+      "actions": [
+        "Miniature short sword. One melee attack at THAC0 18. Roll 1d6, halve it and round up, then add 1 for Strength. Damage is 1d3+1."
+      ],
+      "tactics": "Warn intruders from an overhead branch and keep the shield between them and the nearest rope bridge. Drop out of reach when outmatched."
+    },
+    {
+      "id": "becmi-hw-schattenalfen-elthir",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Basic D&D (BECMI)"
+      ],
+      "size": "Medium",
+      "title": "Schattenalfen cavern scout, Warrior-Elf 1",
+      "difficulty": "First-level warrior-elf at 0 XP. Uses descending Armor Class.",
+      "type": "Humanoid",
+      "ac": 7,
+      "hp": 5,
+      "hitDice": "1d6",
+      "initiative": 0,
+      "speed": "120′ per dungeon turn and 40′ per encounter round with a light load.",
+      "senses": "Infravision to 60′ in darkness.",
+      "languages": "Elvish, Neathar, Azcan, Traldar and Malpheggi.",
+      "abilityScores": {
+        "STR": 13,
+        "DEX": 12,
+        "CON": 12,
+        "INT": 12,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "General Skills are Caving 12 (Wisdom), Craftsman (leatherworking) 12 (Intelligence), Stealth (indoors and caves) 12 (Dexterity) and Tracking 12 (Intelligence). Roll d20 at or below the listed score when called for. A natural 20 fails.",
+        "Caving recalls the route taken. Roll for Caving after disorientation. When deliberately looking, detect a secret or concealed door on 1–2 on d6."
+      ],
+      "traits": [
+        "Leather armor and no shield give AC 7. One roll of 5 on 1d6 gives 5 HP.",
+        "Save numbers in death ray or poison, magic wands, paralysis or stone, dragon breath, and rod/staff/spell order are 12/13/13/15/15. Immune to ghoul paralysis. Group initiative is high on 1d6.",
+        "Intelligence 12 selects the warrior-elf chassis. Elthir casts no spells. Direct sun deals 1 HP per hour to exposed skin, so cover up completely with the heavy cloak, hood, gloves and face wrap before surfacing."
+      ],
+      "actions": [
+        "Short sword. One melee attack at THAC0 18 for 1d6+1 damage."
+      ],
+      "tactics": "Read the tunnel floor before entering an occupied hall. Draw the sword if the exit is cut off and retreat into darkness at the first opening."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Kisita",
+      "species": "Hutaakan",
+      "size": "Medium",
+      "speciesPublication": "Hollow World Campaign Set (1990)",
+      "edition": "Basic D&D (BECMI)",
+      "build": "becmi-hw-hutaakan-kisita",
+      "role": "Courier carrying sealed offerings between isolated shrines.",
+      "motive": "Deliver a mourning household’s first offering before the next ceremony.",
+      "hook": "Kisita offers a guide’s fee to anyone who can show where the missing bridge planks were taken."
+    },
+    {
+      "name": "Gat-Kor",
+      "species": "Brute-Man",
+      "size": "Medium",
+      "speciesPublication": "Hollow World Campaign Set (1990)",
+      "edition": "Basic D&D (BECMI)",
+      "build": "becmi-hw-brute-man-gat-kor",
+      "role": "Scout sent to meet travelers at the mouth of a cave camp.",
+      "motive": "Keep a visiting group from startling the families gathering food below the ridge.",
+      "hook": "A boulder that should shelter the lower trail has been moved. Gat-Kor asks the party to follow its drag marks."
+    },
+    {
+      "name": "Vanorva",
+      "species": "Kubitt",
+      "size": "Tiny",
+      "speciesPublication": "Hollow World Campaign Set (1990)",
+      "edition": "Basic D&D (BECMI)",
+      "build": "becmi-hw-kubitt-vanorva",
+      "role": "Guard assigned to a rope bridge at the approach to the Kubitt canopy settlement.",
+      "motive": "Learn why the normal signs of a stalking fox have disappeared.",
+      "hook": "Vanorva has found a torn patrol sash in a branch no Kubitt could have reached from below."
+    },
+    {
+      "name": "Elthir",
+      "species": "Schattenalfen",
+      "size": "Medium",
+      "speciesPublication": "Hollow World Campaign Set (1990)",
+      "edition": "Basic D&D (BECMI)",
+      "build": "becmi-hw-schattenalfen-elthir",
+      "role": "Scout who inspects the cavern pass above a long-unused trading route.",
+      "motive": "Find the missing leatherworker before a patrol blames the southern merchants.",
+      "hook": "Elthir trades a sketch of the shaded passage for news about three missing supply sacks."
+    }
+  ]
+}

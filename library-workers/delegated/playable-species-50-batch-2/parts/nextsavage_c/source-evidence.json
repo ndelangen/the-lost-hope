@@ -1,0 +1,75 @@
+[
+  {
+    "name": "Kyton",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "publisher": "Wizards of the Coast",
+    "type": "Outsider (Evil, Lawful)",
+    "url": "",
+    "pages": "Appendix 1, pp. 181–182. Table A–31.",
+    "additionalSources": [],
+    "evidence": "The player class separates chain reach at 1st level, the 5-ft. gaze at 3rd, and control of one chain at 4th. The 4th-level row has 3 HD and CR 1. Regeneration, damage reduction, and spell resistance arrive later.",
+    "catalogStatus": "Missing playable profile at batch baseline."
+  },
+  {
+    "name": "Lillend",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "publisher": "Wizards of the Coast",
+    "type": "Outsider (Chaotic, Good)",
+    "url": "",
+    "pages": "Appendix 1, pp. 182–183. Table A–32.",
+    "additionalSources": [
+      "",
+      "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Feather_Fall",
+      "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Grease"
+    ],
+    "evidence": "The contents label differs from the class heading. The class table grants the tail slap at level 3, constrict and talk powers at 5, and flight at 6. Large size and 10-ft. reach are level 8 features. For the NPC’s fourth Hit Die, the Table 2–5 ability increase goes to Charisma. Bard abilities use the original 3.0 rules.",
+    "catalogStatus": "Missing playable profile at batch baseline."
+  },
+  {
+    "name": "Medusa",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "publisher": "Wizards of the Coast",
+    "type": "Monstrous Humanoid",
+    "url": "",
+    "pages": "Appendix 1, pp. 184–185. Table A–34.",
+    "additionalSources": [],
+    "evidence": "At class level 6, the gaze is one active use per day against one target within 10 ft. The mature constant gaze arrives at 10. The prose specifies two feats at 1st level, while the table lists a feat generically. This NPC uses the explicit count from the prose and assigns the Table 2–5 fourth-Hit-Die ability increase to Charisma.",
+    "catalogStatus": "Missing playable profile at batch baseline."
+  },
+  {
+    "name": "Nixie",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "publisher": "Wizards of the Coast",
+    "type": "Fey (Aquatic)",
+    "url": "",
+    "pages": "Appendix 1, p. 188. Table A–37.",
+    "additionalSources": [
+      "",
+      "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Charm_Person",
+      "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Water_Breathing"
+    ],
+    "evidence": "Separate class from Grig and Pixie. The 2nd-level player row has one Hit Die and one daily charm person use. Dodge arrives at level 3 and spell resistance at level 4. The explicit one-half carrying limit follows the nixie’s racial entry.",
+    "catalogStatus": "Missing playable profile at batch baseline."
+  },
+  {
+    "name": "Sea Hag",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "publisher": "Wizards of the Coast",
+    "type": "Monstrous Humanoid (Aquatic)",
+    "url": "",
+    "pages": "Appendix 1, p. 193. Table A–43.",
+    "additionalSources": [],
+    "evidence": "The 2nd-level class has one Hit Die and deals exactly 1 point of Strength damage with Horrific Appearance. The NPC uses that tier. The later Evil Eye grant disagrees between the table and the prose, so the profile omits its unlock level and the NPC does not use it.",
+    "catalogStatus": "Missing playable profile at batch baseline."
+  }
+]

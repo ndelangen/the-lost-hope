@@ -1,0 +1,296 @@
+[
+  {
+    "name": "Crystal Dragon Wyrmling",
+    "statBlock": {
+      "name": "Crystal Dragon Wyrmling",
+      "publication": "Fizban's Treasury of Dragons",
+      "edition": "2014 fifth edition",
+      "printedPage": 172,
+      "classification": "Medium dragon (gem), typically chaotic neutral",
+      "ac": 14,
+      "hp": 32,
+      "hitDice": "5d8 + 10",
+      "speed": "30 ft., burrow 15 ft., climb 30 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 15,
+      "description": "A young gem dragon with pale scales and crystalline points. Its breath shines with energy from the Positive Plane.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 5,
+        "Stealth": 5,
+        "Survival": 3
+      },
+      "savingThrows": {
+        "Dex": 3,
+        "Con": 4,
+        "Wis": 3,
+        "Cha": 4
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold, radiant.",
+        "Senses": "Blindsight 10 ft., darkvision 60 ft.",
+        "Languages": "Draconic, telepathy 120 ft.",
+        "Actions": "Bite. Melee weapon attack, +4 to hit, reach 10 ft., one target. A hit deals 7 (1d10 + 2) piercing damage plus 2 (1d4) radiant damage.\nScintillating Breath (Recharge 5–6). Each creature in a 15-ft. cone makes a DC 12 Constitution save, taking 18 (4d8) radiant damage on a failure or half as much on a success. The wyrmling then gains 5 temporary hit points.\nSpellcasting (Psionics). As an action, cast Dancing Lights or Guidance at will, using Intelligence and requiring no components.",
+        "Optional customization": "Fizban’s customization guidance (p. 34) allows changes to languages, skill and tool proficiencies, senses, and traits. Its examples include Change Shape, Flyby, Mimicry, Rejuvenation and Tunneler.",
+        "Printed source": "Fizban's Treasury of Dragons, p. 172."
+      }
+    }
+  },
+  {
+    "name": "Crystal Greatwyrm",
+    "statBlock": {
+      "name": "Crystal Greatwyrm",
+      "publication": "Fizban's Treasury of Dragons",
+      "edition": "2014 fifth edition",
+      "printedPage": 201,
+      "classification": "Gargantuan dragon (gem), typically neutral",
+      "ac": 21,
+      "hp": 507,
+      "hitDice": "26d20 + 234",
+      "speed": "60 ft., burrow 60 ft., fly 120 ft. (hover), swim 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 28
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 29
+        },
+        "Int": {
+          "score": 30
+        },
+        "Wis": {
+          "score": 24
+        },
+        "Cha": {
+          "score": 25
+        }
+      },
+      "cr": "26",
+      "xp": 90000,
+      "passivePerception": 25,
+      "description": "Traces of the greatwyrm’s many lives across the Material Plane come together in a body that gleams like cut crystal.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Arcana": 26,
+        "History": 18,
+        "Perception": 15
+      },
+      "savingThrows": {
+        "Dex": 10,
+        "Con": 17,
+        "Wis": 15,
+        "Cha": 15
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage immunities": "Radiant.",
+        "Condition immunities": "Charmed, frightened, poisoned, prone.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Common, Draconic.",
+        "Traits": "Gem Awakening (Recharges after a Short or Long Rest). When the greatwyrm would drop to 0 hit points, it instead resets to 400 hit points, recharges Breath Weapon and recovers all spent Legendary Resistance uses. It can use Mass Telekinesis for the next hour. Defeating it after Gem Awakening grants an extra 90,000 XP, or 180,000 XP total.\nLegendary Resistance (4/day). The greatwyrm can turn a failed save into a success.\nUnusual Nature. The greatwyrm needs no food or drink.",
+        "Actions": "Multiattack. Make one Bite attack and two Claw attacks.\nBite. Melee weapon attack, +17 to hit, reach 15 ft., one target. A hit deals 20 (2d10 + 9) piercing damage plus 16 (3d10) force damage.\nClaw. Melee weapon attack, +17 to hit, reach 10 ft., one target. A hit deals 18 (2d8 + 9) slashing damage. A Huge or smaller creature hit is grappled (escape DC 19) and restrained until the grapple ends. The greatwyrm can grapple only one creature this way at a time.\nBreath Weapon (Recharge 5–6). Each creature in a 300-ft. cone makes a DC 25 Dexterity save. A failure deals 71 (11d12) force damage and knocks the creature prone. A success halves the damage. The creature’s speed is 0 until the end of its next turn on either result.\nMass Telekinesis (Gem Awakening Only, Recharges after a Short or Long Rest). Choose any number of visible creatures or objects within 120 ft., each weighing at most 4,000 lb. Worn or carried objects are ineligible. Each chosen creature must pass a DC 26 Strength save or be restrained in the greatwyrm’s grip. It can repeat the save at the end of each of its turns, escaping on a success. At the end of each of the greatwyrm’s turns, it can move each target still in its grip up to 60 ft. in any direction, within 120 ft. of itself. It can also deal 45 (7d12) force damage to each restrained creature it chooses.\nSpellcasting (Psionics). As an action, cast one spell using Intelligence (spell save DC 26, +18 to hit) and requiring no components. Dispel Magic, Forcecage, Plane Shift, Reverse Gravity and Time Stop are each usable once per day.",
+        "Bonus actions": "Change Shape. Magically take the shape of a Small or Medium creature. Only size changes. The transformation ends when the greatwyrm drops to 0 hit points or spends a bonus action to end it.\nPsychic Step. Magically teleport to a visible unoccupied space within 60 ft.",
+        "Legendary actions": "The greatwyrm has three legendary actions and recovers spent actions at the start of its turn. Use one option at a time at the end of another creature’s turn.\nClaw (1 action). Make one Claw attack.\nPsionics (2 actions). Use Psychic Step or Spellcasting.\nPsychic Beam (3 actions). Each creature in a 90-ft. line 10 ft. wide makes a DC 26 Intelligence save, taking 27 (5d10) psychic damage on a failure or half as much on a success.",
+        "Optional customization": "Fizban’s customization guidance (p. 34) allows changes to languages, skill and tool proficiencies, senses, and traits. Its examples include Change Shape, Flyby, Mimicry, Rejuvenation and Tunneler.",
+        "Printed source": "Fizban's Treasury of Dragons, p. 201, Gem Greatwyrm stat block, crystal variant."
+      }
+    }
+  },
+  {
+    "name": "Deep Dragon Wyrmling",
+    "statBlock": {
+      "name": "Deep Dragon Wyrmling",
+      "publication": "Fizban's Treasury of Dragons",
+      "edition": "2014 fifth edition",
+      "printedPage": 175,
+      "classification": "Medium dragon, typically neutral evil",
+      "ac": 15,
+      "hp": 27,
+      "hitDice": "5d8 + 5",
+      "speed": "30 ft., burrow 15 ft., fly 60 ft., swim 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 13,
+      "description": "An Underdark dragon with a narrow frame that slips through tight spaces. Its breath is a cloud of nightmare-inducing spores.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 3,
+        "Persuasion": 3,
+        "Stealth": 4
+      },
+      "savingThrows": {
+        "Dex": 2,
+        "Con": 3,
+        "Wis": 3,
+        "Cha": 3
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Poison, psychic.",
+        "Condition immunities": "Charmed, frightened, poisoned.",
+        "Senses": "Blindsight 10 ft., darkvision 90 ft.",
+        "Languages": "Draconic.",
+        "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 7 (1d10 + 2) piercing damage.\nNightmare Breath (Recharge 5–6). Each creature in a 15-ft. cone makes a DC 11 Wisdom save. A failure deals 5 (1d10) psychic damage and leaves the creature frightened of the wyrmling for 1 minute. A success halves the damage and prevents the fright. A frightened creature can repeat the save at the end of each of its turns, ending the effect on a success.",
+        "Optional customization": "Fizban’s customization guidance (p. 34) allows changes to languages, skill and tool proficiencies, senses, and traits. Its examples include Change Shape, Flyby, Mimicry, Rejuvenation and Tunneler. The chapter 3 spellcasting variant is optional. This printed block has no spell actions.",
+        "Printed source": "Fizban's Treasury of Dragons, p. 175."
+      }
+    }
+  },
+  {
+    "name": "Dracohydra",
+    "statBlock": {
+      "name": "Dracohydra",
+      "publication": "Fizban's Treasury of Dragons",
+      "edition": "2014 fifth edition",
+      "printedPage": 176,
+      "classification": "Huge monstrosity, typically chaotic evil",
+      "ac": 17,
+      "hp": 218,
+      "hitDice": "19d12 + 95",
+      "speed": "30 ft., fly 30 ft., swim 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "11",
+      "xp": 7200,
+      "passivePerception": 19,
+      "description": "A winged, many-tailed hydra made in an attempt to reproduce Tiamat’s power. Its five heads feed constantly and can pour their breath into a single cone.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 9
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Understands Draconic but can't speak.",
+        "Traits": "Multiple Heads. The dracohydra starts with five heads. While it has more than one, it has advantage on saving throws against being blinded, charmed, deafened, frightened, stunned or knocked unconscious. Whenever it takes 30 or more damage in one turn, one head dies. It dies if it loses all its heads. At the end of its turn, it grows two heads for each one that died since its last turn and regains 10 hit points per head grown. Radiant damage taken since its last turn prevents this regrowth.\nReactive Heads. For each head beyond the first, it has an extra reaction usable only for opportunity attacks.\nWakeful. At least one head stays awake while the dracohydra sleeps.",
+        "Actions": "Multiattack. Make one Bite attack per living head.\nBite. Melee weapon attack, +9 to hit, reach 10 ft., one target. A hit deals 10 (1d10 + 5) damage. Choose acid, cold, fire, lightning or poison.\nPrismatic Breath (Recharge 4–6). All heads exhale together in a 60-ft. cone. Choose acid, cold, fire, lightning or poison. Each creature in the cone makes a DC 17 Dexterity save, taking 33 (6d10) damage of that type on a failure or half as much on a success.",
+        "Printed source": "Fizban's Treasury of Dragons, p. 176."
+      }
+    }
+  },
+  {
+    "name": "Draconian Dreadnought",
+    "statBlock": {
+      "name": "Draconian Dreadnought",
+      "publication": "Fizban's Treasury of Dragons",
+      "edition": "2014 fifth edition",
+      "printedPage": 177,
+      "classification": "Large monstrosity, any alignment",
+      "ac": 16,
+      "hp": 57,
+      "hitDice": "6d10 + 24",
+      "speed": "30 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 10,
+      "description": "A powerful draconian born from a magically warped dragon egg. It fights with a serrated blade and can take the shape of a slain humanoid.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Str": 6,
+        "Wis": 2
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Draconic.",
+        "Traits": "Death Throes. At 0 hit points, the dreadnought burns to ash. Each creature within 10 ft. must pass a DC 13 Dexterity save or take 10 (3d6) fire damage.",
+        "Actions": "Multiattack. Make two Serrated Sword attacks and one Tail attack.\nSerrated Sword. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 13 (2d8 + 4) slashing damage.\nTail. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 8 (1d8 + 4) bludgeoning damage. A Large or smaller creature hit must pass a DC 14 Strength save or fall prone.",
+        "Reactions": "Shape Theft. After killing a Medium or smaller humanoid, the dreadnought can magically take on that creature’s look and feel. It retains its statistics except size. The change lasts until the dreadnought dies or spends an action to end it.",
+        "Printed source": "Fizban's Treasury of Dragons, p. 177."
+      }
+    }
+  }
+]

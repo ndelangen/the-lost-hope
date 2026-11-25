@@ -1,0 +1,780 @@
+{
+  "catalogSnapshot": "16409d50b697e222868b27ebb05df023a9d68758",
+  "latestCatalogCommitChecked": "a1e4049f5a5ff9184c7b3a7402821841078571cf",
+  "counts": {
+    "Needs exact source access": 42,
+    "Needs official correction": 1
+  },
+  "promoted": 0,
+  "records": [
+    {
+      "entry": "beast-38aafab0fefde84df1623179",
+      "version": "18696ef8d6ea9ccc0cf9df65",
+      "name": "Ghamoo-Ra",
+      "publication": "D&D: World of Warcraft",
+      "edition": "2024 fifth edition",
+      "decision": "Needs exact source access",
+      "needed": "D&D: World of Warcraft, Chapter 6, Blackfathom Deeps, indexed p. 175",
+      "evidence": "../beast-rules-recovery/parts/wow-drakk/source-recovery.md",
+      "accessNeeded": "Official World of Warcraft book access, Blackfathom Deeps p. 175",
+      "accessLinks": [
+        "https://www.dndbeyond.com/monsters/6888405-ghamoo-ra"
+      ],
+      "rulesStatus": "Incomplete",
+      "includeInRunnableBatch": false
+    },
+    {
+      "entry": "beast-5d790795330b9003623dd05d",
+      "version": "4c3222a3e9c8f630a3adfa8a",
+      "name": "Boar",
+      "publication": "DDEX1-11 - Dark Pyramid of Sorcerer's Isle",
+      "edition": "2014 fifth edition",
+      "decision": "Needs official correction",
+      "needed": "Dark Pyramid of Sorcerer's Isle, corrected p. 33 or official Tusk erratum",
+      "evidence": "../beast-rules-recovery/parts/spider-boar/source-review.md",
+      "accessNeeded": "Corrected DMs Guild 170470 p. 33 or explicit Wizards or Adventurers League Tusk guidance",
+      "accessLinks": [
+        "https://www.dmsguild.com/product/170470/DDEX111-Dark-Pyramid-of-Sorcerers-Isle-5e",
+        "https://dnd-support.wizards.com/hc/en-us/articles/360049986451-D-D-Adventurers-League-FAQ"
+      ],
+      "rulesStatus": "Incomplete",
+      "includeInRunnableBatch": false
+    },
+    {
+      "entry": "beast-808d0a43170b4f2ad13f4eb3",
+      "version": "82bf1cbe70e50e6958b60a0b",
+      "name": "Caterpede",
+      "publication": "Humblewood Tales",
+      "edition": "2014 fifth edition compatible",
+      "decision": "Needs exact source access",
+      "needed": "Collected Appendix A, v.18 or matching licensed edition",
+      "evidence": "../beast-rules-recovery/parts/hwt/source-recheck.md",
+      "accessNeeded": "Final collected Appendix A in v.18, hardcover, or licensed digital source",
+      "accessLinks": [
+        "https://www.dndbeyond.com/sources/dnd/hwt/bestiary",
+        "https://help.backerkit.com/article/662-where-can-i-find-my-digital-downloads",
+        "https://hitpointpress.itch.io/humblewood-tales"
+      ],
+      "rulesStatus": "Incomplete",
+      "includeInRunnableBatch": false
+    },
+    {
+      "entry": "beast-b46b3fc2d83f648ca2aeeb45",
+      "version": "257c4e2939138eabbb142c32",
+      "name": "Cosmoth",
+      "publication": "Humblewood Tales",
+      "edition": "2014 fifth edition compatible",
+      "decision": "Needs exact source access",
+      "needed": "Collected Appendix A, v.18 or matching licensed edition",
+      "evidence": "../beast-rules-recovery/parts/hwt/source-recheck.md",
+      "accessNeeded": "Final collected Appendix A in v.18, hardcover, or licensed digital source",
+      "accessLinks": [
+        "https://www.dndbeyond.com/sources/dnd/hwt/bestiary",
+        "https://help.backerkit.com/article/662-where-can-i-find-my-digital-downloads",
+        "https://hitpointpress.itch.io/humblewood-tales"
+      ],
+      "rulesStatus": "Incomplete",
+      "includeInRunnableBatch": false
+    },
+    {
+      "entry": "beast-c00474fed236d68211b673b3",
+      "version": "400aeec0fefe7c60c717e09e",
+      "name": "Dusktail",
+      "publication": "Humblewood Tales",
+      "edition": "2014 fifth edition compatible",
+      "decision": "Needs exact source access",
+      "needed": "Collected Appendix A, v.18 or matching licensed edition",
+      "evidence": "../beast-rules-recovery/parts/hwt/source-recheck.md",
+      "accessNeeded": "Final collected Appendix A in v.18, hardcover, or licensed digital source",
+      "accessLinks": [
+        "https://www.dndbeyond.com/sources/dnd/hwt/bestiary",
+        "https://help.backerkit.com/article/662-where-can-i-find-my-digital-downloads",
+        "https://hitpointpress.itch.io/humblewood-tales"
+      ],
+      "rulesStatus": "Incomplete",
+      "includeInRunnableBatch": false
+    },
+    {
+      "entry": "beast-290e0eed3ece195969b5d786",
+      "version": "b02829e509ab3e9928435085",
+      "name": "Emberbat",
+      "publication": "Humblewood Tales",
+      "edition": "2014 fifth edition compatible",
+      "decision": "Needs exact source access",
+      "needed": "Collected Appendix A, v.18 or matching licensed edition",
+      "evidence": "../beast-rules-recovery/parts/hwt/source-recheck.md",
+      "accessNeeded": "Final collected Appendix A in v.18, hardcover, or licensed digital source",
+      "accessLinks": [
+        "https://www.dndbeyond.com/sources/dnd/hwt/bestiary",
+        "https://help.backerkit.com/article/662-where-can-i-find-my-digital-downloads",
+        "https://hitpointpress.itch.io/humblewood-tales"
+      ],
+      "rulesStatus": "Incomplete",
+      "includeInRunnableBatch": false
+    },
+    {
+      "entry": "beast-bf2c76d0a8b9d80f8a68a453",
+      "version": "5d54e6f9052341f98bece08f",
+      "name": "Everbug",
+      "publication": "Humblewood Tales",
+      "edition": "2014 fifth edition compatible",
+      "decision": "Needs exact source access",
+      "needed": "Collected Appendix A, v.18 or matching licensed edition",
+      "evidence": "../beast-rules-recovery/parts/hwt/source-recheck.md",
+      "accessNeeded": "Final collected Appendix A in v.18, hardcover, or licensed digital source",
+      "accessLinks": [
+        "https://www.dndbeyond.com/sources/dnd/hwt/bestiary",
+        "https://help.backerkit.com/article/662-where-can-i-find-my-digital-downloads",
+        "https://hitpointpress.itch.io/humblewood-tales"
+      ],
+      "rulesStatus": "Incomplete",
+      "includeInRunnableBatch": false
+    },
+    {
+      "entry": "beast-117d667c3fa1f36d8d02e41b",
+      "version": "23f3a4fad062b6fc6db5f363",
+      "name": "Firelance",
+      "publication": "Humblewood Tales",
+      "edition": "2014 fifth edition compatible",
+      "decision": "Needs exact source access",
+      "needed": "Collected Appendix A, v.18 or matching licensed edition",
+      "evidence": "../beast-rules-recovery/parts/hwt/source-recheck.md",
+      "accessNeeded": "Final collected Appendix A in v.18, hardcover, or licensed digital source",
+      "accessLinks": [
+        "https://www.dndbeyond.com/sources/dnd/hwt/bestiary",
+        "https://help.backerkit.com/article/662-where-can-i-find-my-digital-downloads",
+        "https://hitpointpress.itch.io/humblewood-tales"
+      ],
+      "rulesStatus": "Incomplete",
+      "includeInRunnableBatch": false
+    },
+    {
+      "entry": "beast-6cdadee98f2f89e12d67c959",
+      "version": "cf611ae61da891e1051e0687",
+      "name": "Forest Prowler",
+      "publication": "Humblewood Tales",
+      "edition": "2014 fifth edition compatible",
+      "decision": "Needs exact source access",
+      "needed": "Collected Appendix A, v.18 or matching licensed edition",
+      "evidence": "../beast-rules-recovery/parts/hwt/source-recheck.md",
+      "accessNeeded": "Final collected Appendix A in v.18, hardcover, or licensed digital source",
+      "accessLinks": [
+        "https://www.dndbeyond.com/sources/dnd/hwt/bestiary",
+        "https://help.backerkit.com/article/662-where-can-i-find-my-digital-downloads",
+        "https://hitpointpress.itch.io/humblewood-tales"
+      ],
+      "rulesStatus": "Incomplete",
+      "includeInRunnableBatch": false
+    },
+    {
+      "entry": "beast-08ae1aa700e497d6a08fc794",
+      "version": "530ede547b761a805a8a9c89",
+      "name": "Gargath",
+      "publication": "Humblewood Tales",
+      "edition": "2014 fifth edition compatible",
+      "decision": "Needs exact source access",
+      "needed": "Collected Appendix A, v.18 or matching licensed edition",
+      "evidence": "../beast-rules-recovery/parts/hwt/source-recheck.md",
+      "accessNeeded": "Final collected Appendix A in v.18, hardcover, or licensed digital source",
+      "accessLinks": [
+        "https://www.dndbeyond.com/sources/dnd/hwt/bestiary",
+        "https://help.backerkit.com/article/662-where-can-i-find-my-digital-downloads",
+        "https://hitpointpress.itch.io/humblewood-tales"
+      ],
+      "rulesStatus": "Incomplete",
+      "includeInRunnableBatch": false
+    },
+    {
+      "entry": "beast-bfb3ab058bc9ee58d6e31bb2",
+      "version": "1312759214f9bfce39ed8f2c",
+      "name": "Glassbeetle",
+      "publication": "Humblewood Tales",
+      "edition": "2014 fifth edition compatible",
+      "decision": "Needs exact source access",
+      "needed": "Collected Appendix A, v.18 or matching licensed edition",
+      "evidence": "../beast-rules-recovery/parts/hwt/source-recheck.md",
+      "accessNeeded": "Final collected Appendix A in v.18, hardcover, or licensed digital source",
+      "accessLinks": [
+        "https://www.dndbeyond.com/sources/dnd/hwt/bestiary",
+        "https://help.backerkit.com/article/662-where-can-i-find-my-digital-downloads",
+        "https://hitpointpress.itch.io/humblewood-tales"
+      ],
+      "rulesStatus": "Incomplete",
+      "includeInRunnableBatch": false
+    },
+    {
+      "entry": "beast-219525ba97e3a58845e74b14",
+      "version": "f842c8c6a07c2a9cb6b5e769",
+      "name": "Juvenile Forest Prowler",
+      "publication": "Humblewood Tales",
+      "edition": "2014 fifth edition compatible",
+      "decision": "Needs exact source access",
+      "needed": "Collected Appendix A, v.18 or matching licensed edition",
+      "evidence": "../beast-rules-recovery/parts/hwt/source-recheck.md",
+      "accessNeeded": "Final collected Appendix A in v.18, hardcover, or licensed digital source",
+      "accessLinks": [
+        "https://www.dndbeyond.com/sources/dnd/hwt/bestiary",
+        "https://help.backerkit.com/article/662-where-can-i-find-my-digital-downloads",
+        "https://hitpointpress.itch.io/humblewood-tales"
+      ],
+      "rulesStatus": "Incomplete",
+      "includeInRunnableBatch": false
+    },
+    {
+      "entry": "beast-ab310c3f5c5d0b6cf65f82bb",
+      "version": "509b359c9bb24f0b6dab67c6",
+      "name": "Slicar",
+      "publication": "Humblewood Tales",
+      "edition": "2014 fifth edition compatible",
+      "decision": "Needs exact source access",
+      "needed": "Collected Appendix A, v.18 or matching licensed edition",
+      "evidence": "../beast-rules-recovery/parts/hwt/source-recheck.md",
+      "accessNeeded": "Final collected Appendix A in v.18, hardcover, or licensed digital source",
+      "accessLinks": [
+        "https://www.dndbeyond.com/sources/dnd/hwt/bestiary",
+        "https://help.backerkit.com/article/662-where-can-i-find-my-digital-downloads",
+        "https://hitpointpress.itch.io/humblewood-tales"
+      ],
+      "rulesStatus": "Incomplete",
+      "includeInRunnableBatch": false
+    },
+    {
+      "entry": "beast-557cf9b8927b4c7488120931",
+      "version": "a75880108cc07275cb1bd327",
+      "name": "Swarm of Bluebees",
+      "publication": "Humblewood Tales",
+      "edition": "2014 fifth edition compatible",
+      "decision": "Needs exact source access",
+      "needed": "Collected Appendix A, v.18 or matching licensed edition",
+      "evidence": "../beast-rules-recovery/parts/hwt/source-recheck.md",
+      "accessNeeded": "Final collected Appendix A in v.18, hardcover, or licensed digital source",
+      "accessLinks": [
+        "https://www.dndbeyond.com/sources/dnd/hwt/bestiary",
+        "https://help.backerkit.com/article/662-where-can-i-find-my-digital-downloads",
+        "https://hitpointpress.itch.io/humblewood-tales"
+      ],
+      "rulesStatus": "Incomplete",
+      "includeInRunnableBatch": false
+    },
+    {
+      "entry": "beast-930832df402332d22a479e95",
+      "version": "0abf1a7d26818d7def7056f7",
+      "name": "Swarm of Dusktails",
+      "publication": "Humblewood Tales",
+      "edition": "2014 fifth edition compatible",
+      "decision": "Needs exact source access",
+      "needed": "Collected Appendix A, v.18 or matching licensed edition",
+      "evidence": "../beast-rules-recovery/parts/hwt/source-recheck.md",
+      "accessNeeded": "Final collected Appendix A in v.18, hardcover, or licensed digital source",
+      "accessLinks": [
+        "https://www.dndbeyond.com/sources/dnd/hwt/bestiary",
+        "https://help.backerkit.com/article/662-where-can-i-find-my-digital-downloads",
+        "https://hitpointpress.itch.io/humblewood-tales"
+      ],
+      "rulesStatus": "Incomplete",
+      "includeInRunnableBatch": false
+    },
+    {
+      "entry": "beast-681ea05944c42f0a73edaa53",
+      "version": "23bc6d72a4f524f050d41b9c",
+      "name": "Swarm of Gimlet Larvae",
+      "publication": "Humblewood Tales",
+      "edition": "2014 fifth edition compatible",
+      "decision": "Needs exact source access",
+      "needed": "Collected Appendix A, v.18 or matching licensed edition",
+      "evidence": "../beast-rules-recovery/parts/hwt/source-recheck.md",
+      "accessNeeded": "Final collected Appendix A in v.18, hardcover, or licensed digital source",
+      "accessLinks": [
+        "https://www.dndbeyond.com/sources/dnd/hwt/bestiary",
+        "https://help.backerkit.com/article/662-where-can-i-find-my-digital-downloads",
+        "https://hitpointpress.itch.io/humblewood-tales"
+      ],
+      "rulesStatus": "Incomplete",
+      "includeInRunnableBatch": false
+    },
+    {
+      "entry": "beast-d2837e6d235004aae7facd88",
+      "version": "83f708d5a1d4e6d922732e01",
+      "name": "Swarm of Gimlets",
+      "publication": "Humblewood Tales",
+      "edition": "2014 fifth edition compatible",
+      "decision": "Needs exact source access",
+      "needed": "Collected Appendix A, v.18 or matching licensed edition",
+      "evidence": "../beast-rules-recovery/parts/hwt/source-recheck.md",
+      "accessNeeded": "Final collected Appendix A in v.18, hardcover, or licensed digital source",
+      "accessLinks": [
+        "https://www.dndbeyond.com/sources/dnd/hwt/bestiary",
+        "https://help.backerkit.com/article/662-where-can-i-find-my-digital-downloads",
+        "https://hitpointpress.itch.io/humblewood-tales"
+      ],
+      "rulesStatus": "Incomplete",
+      "includeInRunnableBatch": false
+    },
+    {
+      "entry": "beast-441a67273858472cbca85926",
+      "version": "bb106f671c56714513a7954a",
+      "name": "Toxic Caterpede",
+      "publication": "Humblewood Tales",
+      "edition": "2014 fifth edition compatible",
+      "decision": "Needs exact source access",
+      "needed": "Collected Appendix A, v.18 or matching licensed edition",
+      "evidence": "../beast-rules-recovery/parts/hwt/source-recheck.md",
+      "accessNeeded": "Final collected Appendix A in v.18, hardcover, or licensed digital source",
+      "accessLinks": [
+        "https://www.dndbeyond.com/sources/dnd/hwt/bestiary",
+        "https://help.backerkit.com/article/662-where-can-i-find-my-digital-downloads",
+        "https://hitpointpress.itch.io/humblewood-tales"
+      ],
+      "rulesStatus": "Incomplete",
+      "includeInRunnableBatch": false
+    },
+    {
+      "entry": "beast-332e587050a0c943d6c5baae",
+      "version": "041f233b1ed30f3dc9ae2edd",
+      "name": "Wakewyrm",
+      "publication": "Humblewood Tales",
+      "edition": "2014 fifth edition compatible",
+      "decision": "Needs exact source access",
+      "needed": "Collected Appendix A, v.18 or matching licensed edition",
+      "evidence": "../beast-rules-recovery/parts/hwt/source-recheck.md",
+      "accessNeeded": "Final collected Appendix A in v.18, hardcover, or licensed digital source",
+      "accessLinks": [
+        "https://www.dndbeyond.com/sources/dnd/hwt/bestiary",
+        "https://help.backerkit.com/article/662-where-can-i-find-my-digital-downloads",
+        "https://hitpointpress.itch.io/humblewood-tales"
+      ],
+      "rulesStatus": "Incomplete",
+      "includeInRunnableBatch": false
+    },
+    {
+      "entry": "beast-9165cfcf0107ab4561393816",
+      "version": "468123675a1c8aacbdd966a0",
+      "name": "Young Wakewyrm",
+      "publication": "Humblewood Tales",
+      "edition": "2014 fifth edition compatible",
+      "decision": "Needs exact source access",
+      "needed": "Collected Appendix A, v.18 or matching licensed edition",
+      "evidence": "../beast-rules-recovery/parts/hwt/source-recheck.md",
+      "accessNeeded": "Final collected Appendix A in v.18, hardcover, or licensed digital source",
+      "accessLinks": [
+        "https://www.dndbeyond.com/sources/dnd/hwt/bestiary",
+        "https://help.backerkit.com/article/662-where-can-i-find-my-digital-downloads",
+        "https://hitpointpress.itch.io/humblewood-tales"
+      ],
+      "rulesStatus": "Incomplete",
+      "includeInRunnableBatch": false
+    },
+    {
+      "entry": "beast-bb36e7071007248658e5ff6d",
+      "version": "bcc66c5d1fbeac57d73d0e38",
+      "name": "Axolotl, Giant",
+      "publication": "Monster Vault 2",
+      "edition": "Black Flag Roleplaying",
+      "decision": "Needs exact source access",
+      "needed": "Final Animals appendix, pp. 322–329",
+      "evidence": "../beast-rules-recovery/parts/mv2/source-recheck.md",
+      "accessNeeded": "Final KOB-6159-or corresponding licensed VTT book and NPC compendium",
+      "accessLinks": [
+        "https://koboldpress.com/kpstore/my-account/downloads/",
+        "https://foundryvtt.com/packages/kp-tov-monster-vault-2",
+        "https://www.fantasygrounds.com/store/product.php?id=KPFGTOVMV2"
+      ],
+      "rulesStatus": "Incomplete",
+      "includeInRunnableBatch": false
+    },
+    {
+      "entry": "beast-68cdd43848e4e20436bb4f62",
+      "version": "cbd156eebe2ef6d14085793a",
+      "name": "Cavalry Camel",
+      "publication": "Monster Vault 2",
+      "edition": "Black Flag Roleplaying",
+      "decision": "Needs exact source access",
+      "needed": "Final Animals appendix, pp. 322–329",
+      "evidence": "../beast-rules-recovery/parts/mv2/source-recheck.md",
+      "accessNeeded": "Final KOB-6159-or corresponding licensed VTT book and NPC compendium",
+      "accessLinks": [
+        "https://koboldpress.com/kpstore/my-account/downloads/",
+        "https://foundryvtt.com/packages/kp-tov-monster-vault-2",
+        "https://www.fantasygrounds.com/store/product.php?id=KPFGTOVMV2"
+      ],
+      "rulesStatus": "Incomplete",
+      "includeInRunnableBatch": false
+    },
+    {
+      "entry": "beast-ea1f038dd1ecf0e761f81e53",
+      "version": "20e84728364db23c4985fe2e",
+      "name": "Death Butterfly Swarm",
+      "publication": "Monster Vault 2",
+      "edition": "Black Flag Roleplaying",
+      "decision": "Needs exact source access",
+      "needed": "Final main bestiary entry",
+      "evidence": "../beast-rules-recovery/parts/mv2/source-recheck.md",
+      "accessNeeded": "Final KOB-6159-or corresponding licensed VTT book and NPC compendium",
+      "accessLinks": [
+        "https://koboldpress.com/kpstore/my-account/downloads/",
+        "https://foundryvtt.com/packages/kp-tov-monster-vault-2",
+        "https://www.fantasygrounds.com/store/product.php?id=KPFGTOVMV2"
+      ],
+      "rulesStatus": "Incomplete",
+      "includeInRunnableBatch": false
+    },
+    {
+      "entry": "beast-32fbd2481039c9fa51117e62",
+      "version": "6609add5e46a08fd7f18b1c7",
+      "name": "Death Butterfly Swarm, Greater",
+      "publication": "Monster Vault 2",
+      "edition": "Black Flag Roleplaying",
+      "decision": "Needs exact source access",
+      "needed": "Final main bestiary entry",
+      "evidence": "../beast-rules-recovery/parts/mv2/source-recheck.md",
+      "accessNeeded": "Final KOB-6159-or corresponding licensed VTT book and NPC compendium",
+      "accessLinks": [
+        "https://koboldpress.com/kpstore/my-account/downloads/",
+        "https://foundryvtt.com/packages/kp-tov-monster-vault-2",
+        "https://www.fantasygrounds.com/store/product.php?id=KPFGTOVMV2"
+      ],
+      "rulesStatus": "Incomplete",
+      "includeInRunnableBatch": false
+    },
+    {
+      "entry": "beast-89ba7b5988fbd8383091fea4",
+      "version": "a5cd4963dfe40e6401b1ca4b",
+      "name": "Feymount Raccoon",
+      "publication": "Monster Vault 2",
+      "edition": "Black Flag Roleplaying",
+      "decision": "Needs exact source access",
+      "needed": "Final Animals appendix, pp. 322–329",
+      "evidence": "../beast-rules-recovery/parts/mv2/source-recheck.md",
+      "accessNeeded": "Final KOB-6159-or corresponding licensed VTT book and NPC compendium",
+      "accessLinks": [
+        "https://koboldpress.com/kpstore/my-account/downloads/",
+        "https://foundryvtt.com/packages/kp-tov-monster-vault-2",
+        "https://www.fantasygrounds.com/store/product.php?id=KPFGTOVMV2"
+      ],
+      "rulesStatus": "Incomplete",
+      "includeInRunnableBatch": false
+    },
+    {
+      "entry": "beast-d959be40df0ef46062799da5",
+      "version": "ae686f3c159f01ef0beaba46",
+      "name": "Hammberbill Goose",
+      "publication": "Monster Vault 2",
+      "edition": "Black Flag Roleplaying",
+      "decision": "Needs exact source access",
+      "needed": "Final Animals appendix, pp. 322–329",
+      "evidence": "../beast-rules-recovery/parts/mv2/source-recheck.md",
+      "accessNeeded": "Final KOB-6159-or corresponding licensed VTT book and NPC compendium",
+      "accessLinks": [
+        "https://koboldpress.com/kpstore/my-account/downloads/",
+        "https://foundryvtt.com/packages/kp-tov-monster-vault-2",
+        "https://www.fantasygrounds.com/store/product.php?id=KPFGTOVMV2"
+      ],
+      "rulesStatus": "Incomplete",
+      "includeInRunnableBatch": false
+    },
+    {
+      "entry": "beast-abf74dc23bbf69ccee105cbe",
+      "version": "2c195736975c8e497740729e",
+      "name": "Hedgehog, Giant",
+      "publication": "Monster Vault 2",
+      "edition": "Black Flag Roleplaying",
+      "decision": "Needs exact source access",
+      "needed": "Final Animals appendix, pp. 322–329",
+      "evidence": "../beast-rules-recovery/parts/mv2/source-recheck.md",
+      "accessNeeded": "Final KOB-6159-or corresponding licensed VTT book and NPC compendium",
+      "accessLinks": [
+        "https://koboldpress.com/kpstore/my-account/downloads/",
+        "https://foundryvtt.com/packages/kp-tov-monster-vault-2",
+        "https://www.fantasygrounds.com/store/product.php?id=KPFGTOVMV2"
+      ],
+      "rulesStatus": "Incomplete",
+      "includeInRunnableBatch": false
+    },
+    {
+      "entry": "beast-5d1340b59c52f9f7f74090bb",
+      "version": "e8d25d6a827d18b17a67fdfb",
+      "name": "Honey Bee, Giant",
+      "publication": "Monster Vault 2",
+      "edition": "Black Flag Roleplaying",
+      "decision": "Needs exact source access",
+      "needed": "Final Animals appendix, pp. 322–329",
+      "evidence": "../beast-rules-recovery/parts/mv2/source-recheck.md",
+      "accessNeeded": "Final KOB-6159-or corresponding licensed VTT book and NPC compendium",
+      "accessLinks": [
+        "https://koboldpress.com/kpstore/my-account/downloads/",
+        "https://foundryvtt.com/packages/kp-tov-monster-vault-2",
+        "https://www.fantasygrounds.com/store/product.php?id=KPFGTOVMV2"
+      ],
+      "rulesStatus": "Incomplete",
+      "includeInRunnableBatch": false
+    },
+    {
+      "entry": "beast-91d138a79d21b5c0d822db3c",
+      "version": "26fd7b4eb379626ed7046cf7",
+      "name": "Honey Bee, Swarm of Bees",
+      "publication": "Monster Vault 2",
+      "edition": "Black Flag Roleplaying",
+      "decision": "Needs exact source access",
+      "needed": "Final Animals appendix, pp. 322–329",
+      "evidence": "../beast-rules-recovery/parts/mv2/source-recheck.md",
+      "accessNeeded": "Final KOB-6159-or corresponding licensed VTT book and NPC compendium",
+      "accessLinks": [
+        "https://koboldpress.com/kpstore/my-account/downloads/",
+        "https://foundryvtt.com/packages/kp-tov-monster-vault-2",
+        "https://www.fantasygrounds.com/store/product.php?id=KPFGTOVMV2"
+      ],
+      "rulesStatus": "Incomplete",
+      "includeInRunnableBatch": false
+    },
+    {
+      "entry": "beast-f0aed47a9def80dd410ddf0c",
+      "version": "c49fa94e7bf08c97d8b99742",
+      "name": "Millipede, Giant",
+      "publication": "Monster Vault 2",
+      "edition": "Black Flag Roleplaying",
+      "decision": "Needs exact source access",
+      "needed": "Final Animals appendix, pp. 322–329",
+      "evidence": "../beast-rules-recovery/parts/mv2/source-recheck.md",
+      "accessNeeded": "Final KOB-6159-or corresponding licensed VTT book and NPC compendium",
+      "accessLinks": [
+        "https://koboldpress.com/kpstore/my-account/downloads/",
+        "https://foundryvtt.com/packages/kp-tov-monster-vault-2",
+        "https://www.fantasygrounds.com/store/product.php?id=KPFGTOVMV2"
+      ],
+      "rulesStatus": "Incomplete",
+      "includeInRunnableBatch": false
+    },
+    {
+      "entry": "beast-52edb8d8b047944fdf4d4b15",
+      "version": "00cf6c3fe3249b267bbcda58",
+      "name": "Nightwing",
+      "publication": "Monster Vault 2",
+      "edition": "Black Flag Roleplaying",
+      "decision": "Needs exact source access",
+      "needed": "Final Animals appendix, pp. 322–329",
+      "evidence": "../beast-rules-recovery/parts/mv2/source-recheck.md",
+      "accessNeeded": "Final KOB-6159-or corresponding licensed VTT book and NPC compendium",
+      "accessLinks": [
+        "https://koboldpress.com/kpstore/my-account/downloads/",
+        "https://foundryvtt.com/packages/kp-tov-monster-vault-2",
+        "https://www.fantasygrounds.com/store/product.php?id=KPFGTOVMV2"
+      ],
+      "rulesStatus": "Incomplete",
+      "includeInRunnableBatch": false
+    },
+    {
+      "entry": "beast-ba7f874470750071505ee3a3",
+      "version": "f58cbf238c88bfdd986a395e",
+      "name": "Oliphaunt Warbeast",
+      "publication": "Monster Vault 2",
+      "edition": "Black Flag Roleplaying",
+      "decision": "Needs exact source access",
+      "needed": "Final Animals appendix, pp. 322–329",
+      "evidence": "../beast-rules-recovery/parts/mv2/source-recheck.md",
+      "accessNeeded": "Final KOB-6159-or corresponding licensed VTT book and NPC compendium",
+      "accessLinks": [
+        "https://koboldpress.com/kpstore/my-account/downloads/",
+        "https://foundryvtt.com/packages/kp-tov-monster-vault-2",
+        "https://www.fantasygrounds.com/store/product.php?id=KPFGTOVMV2"
+      ],
+      "rulesStatus": "Incomplete",
+      "includeInRunnableBatch": false
+    },
+    {
+      "entry": "beast-c9d1b4158aeee6db473bd528",
+      "version": "272a193147de65295e93073c",
+      "name": "Opossum",
+      "publication": "Monster Vault 2",
+      "edition": "Black Flag Roleplaying",
+      "decision": "Needs exact source access",
+      "needed": "Final Animals appendix, pp. 322–329",
+      "evidence": "../beast-rules-recovery/parts/mv2/source-recheck.md",
+      "accessNeeded": "Final KOB-6159-or corresponding licensed VTT book and NPC compendium",
+      "accessLinks": [
+        "https://koboldpress.com/kpstore/my-account/downloads/",
+        "https://foundryvtt.com/packages/kp-tov-monster-vault-2",
+        "https://www.fantasygrounds.com/store/product.php?id=KPFGTOVMV2"
+      ],
+      "rulesStatus": "Incomplete",
+      "includeInRunnableBatch": false
+    },
+    {
+      "entry": "beast-272e21104f920283d2449277",
+      "version": "84484e80c4fb4a3424186196",
+      "name": "Opossum, Giant",
+      "publication": "Monster Vault 2",
+      "edition": "Black Flag Roleplaying",
+      "decision": "Needs exact source access",
+      "needed": "Final Animals appendix, pp. 322–329",
+      "evidence": "../beast-rules-recovery/parts/mv2/source-recheck.md",
+      "accessNeeded": "Final KOB-6159-or corresponding licensed VTT book and NPC compendium",
+      "accessLinks": [
+        "https://koboldpress.com/kpstore/my-account/downloads/",
+        "https://foundryvtt.com/packages/kp-tov-monster-vault-2",
+        "https://www.fantasygrounds.com/store/product.php?id=KPFGTOVMV2"
+      ],
+      "rulesStatus": "Incomplete",
+      "includeInRunnableBatch": false
+    },
+    {
+      "entry": "beast-384de0ea5642de952c020f3e",
+      "version": "8e9658b97f1ce46f666df8ea",
+      "name": "Rattus Eel",
+      "publication": "Monster Vault 2",
+      "edition": "Black Flag Roleplaying",
+      "decision": "Needs exact source access",
+      "needed": "Final main bestiary entry",
+      "evidence": "../beast-rules-recovery/parts/mv2/source-recheck.md",
+      "accessNeeded": "Final KOB-6159-or corresponding licensed VTT book and NPC compendium",
+      "accessLinks": [
+        "https://koboldpress.com/kpstore/my-account/downloads/",
+        "https://foundryvtt.com/packages/kp-tov-monster-vault-2",
+        "https://www.fantasygrounds.com/store/product.php?id=KPFGTOVMV2"
+      ],
+      "rulesStatus": "Incomplete",
+      "includeInRunnableBatch": false
+    },
+    {
+      "entry": "beast-de1bfefab956a6c0853d6053",
+      "version": "891cfcf8527de82bdd51e21c",
+      "name": "Rattus Eel, Swarm of Rattus Eels",
+      "publication": "Monster Vault 2",
+      "edition": "Black Flag Roleplaying",
+      "decision": "Needs exact source access",
+      "needed": "Final main bestiary entry",
+      "evidence": "../beast-rules-recovery/parts/mv2/source-recheck.md",
+      "accessNeeded": "Final KOB-6159-or corresponding licensed VTT book and NPC compendium",
+      "accessLinks": [
+        "https://koboldpress.com/kpstore/my-account/downloads/",
+        "https://foundryvtt.com/packages/kp-tov-monster-vault-2",
+        "https://www.fantasygrounds.com/store/product.php?id=KPFGTOVMV2"
+      ],
+      "rulesStatus": "Incomplete",
+      "includeInRunnableBatch": false
+    },
+    {
+      "entry": "beast-73b4a96391f0dcf28ef73c4b",
+      "version": "eba2a75504474830b4c749fa",
+      "name": "Skunk",
+      "publication": "Monster Vault 2",
+      "edition": "Black Flag Roleplaying",
+      "decision": "Needs exact source access",
+      "needed": "Final Animals appendix, pp. 322–329",
+      "evidence": "../beast-rules-recovery/parts/mv2/source-recheck.md",
+      "accessNeeded": "Final KOB-6159-or corresponding licensed VTT book and NPC compendium",
+      "accessLinks": [
+        "https://koboldpress.com/kpstore/my-account/downloads/",
+        "https://foundryvtt.com/packages/kp-tov-monster-vault-2",
+        "https://www.fantasygrounds.com/store/product.php?id=KPFGTOVMV2"
+      ],
+      "rulesStatus": "Incomplete",
+      "includeInRunnableBatch": false
+    },
+    {
+      "entry": "beast-4351b2f8d4b6d3935dba1cb5",
+      "version": "215362b88dd685b5ac214629",
+      "name": "Skunk, Giant",
+      "publication": "Monster Vault 2",
+      "edition": "Black Flag Roleplaying",
+      "decision": "Needs exact source access",
+      "needed": "Final Animals appendix, pp. 322–329",
+      "evidence": "../beast-rules-recovery/parts/mv2/source-recheck.md",
+      "accessNeeded": "Final KOB-6159-or corresponding licensed VTT book and NPC compendium",
+      "accessLinks": [
+        "https://koboldpress.com/kpstore/my-account/downloads/",
+        "https://foundryvtt.com/packages/kp-tov-monster-vault-2",
+        "https://www.fantasygrounds.com/store/product.php?id=KPFGTOVMV2"
+      ],
+      "rulesStatus": "Incomplete",
+      "includeInRunnableBatch": false
+    },
+    {
+      "entry": "beast-4f8e918efe842f31ac6e77ea",
+      "version": "537a6a95ab8066782d430825",
+      "name": "Tress Lizard",
+      "publication": "Monster Vault 2",
+      "edition": "Black Flag Roleplaying",
+      "decision": "Needs exact source access",
+      "needed": "Final Animals appendix, pp. 322–329",
+      "evidence": "../beast-rules-recovery/parts/mv2/source-recheck.md",
+      "accessNeeded": "Final KOB-6159-or corresponding licensed VTT book and NPC compendium",
+      "accessLinks": [
+        "https://koboldpress.com/kpstore/my-account/downloads/",
+        "https://foundryvtt.com/packages/kp-tov-monster-vault-2",
+        "https://www.fantasygrounds.com/store/product.php?id=KPFGTOVMV2"
+      ],
+      "rulesStatus": "Incomplete",
+      "includeInRunnableBatch": false
+    },
+    {
+      "entry": "beast-824225a12d3c8e6f8e9c72f5",
+      "version": "097e4ef7b31814f91929431e",
+      "name": "War Pig",
+      "publication": "Monster Vault 2",
+      "edition": "Black Flag Roleplaying",
+      "decision": "Needs exact source access",
+      "needed": "Final Animals appendix, pp. 322–329",
+      "evidence": "../beast-rules-recovery/parts/mv2/source-recheck.md",
+      "accessNeeded": "Final KOB-6159-or corresponding licensed VTT book and NPC compendium",
+      "accessLinks": [
+        "https://koboldpress.com/kpstore/my-account/downloads/",
+        "https://foundryvtt.com/packages/kp-tov-monster-vault-2",
+        "https://www.fantasygrounds.com/store/product.php?id=KPFGTOVMV2"
+      ],
+      "rulesStatus": "Incomplete",
+      "includeInRunnableBatch": false
+    },
+    {
+      "entry": "beast-9045adbd287a169ee1105355",
+      "version": "e893f942061a2b630f40cf3a",
+      "name": "Wooly Hippopotamus",
+      "publication": "Monster Vault 2",
+      "edition": "Black Flag Roleplaying",
+      "decision": "Needs exact source access",
+      "needed": "Final Animals appendix, pp. 322–329",
+      "evidence": "../beast-rules-recovery/parts/mv2/source-recheck.md",
+      "accessNeeded": "Final KOB-6159-or corresponding licensed VTT book and NPC compendium",
+      "accessLinks": [
+        "https://koboldpress.com/kpstore/my-account/downloads/",
+        "https://foundryvtt.com/packages/kp-tov-monster-vault-2",
+        "https://www.fantasygrounds.com/store/product.php?id=KPFGTOVMV2"
+      ],
+      "rulesStatus": "Incomplete",
+      "includeInRunnableBatch": false
+    },
+    {
+      "entry": "beast-df1bfdea7451d735855a3d3e",
+      "version": "4d286d230f55e203747d5613",
+      "name": "Swarm of Contaminated Insects",
+      "publication": "Monsters of Drakkenheim",
+      "edition": "2024 fifth edition compatible",
+      "decision": "Needs exact source access",
+      "needed": "Monsters of Drakkenheim, Chapter 1, Bloated Hive, final indexed p. 33",
+      "evidence": "../beast-rules-recovery/parts/wow-drakk/source-recovery.md",
+      "accessNeeded": "Final Drakkenheim or licensed VTT, indexed p. 33",
+      "accessLinks": [
+        "",
+        "https://marketplace.roll20.net/browse/bundle/38615/monsters-of-drakkenheim/"
+      ],
+      "rulesStatus": "Incomplete",
+      "includeInRunnableBatch": false
+    },
+    {
+      "entry": "beast-f62685740da996c35d1e6a58",
+      "version": "e86e8b1cc26a9adb462d960e",
+      "name": "Spiderfrog",
+      "publication": "Muk's Guide To Everything He Learned From Tasha",
+      "edition": "2014 fifth edition",
+      "decision": "Needs exact source access",
+      "needed": "Muk's Guide to Everything He Learned From Tasha, indexed p. 33",
+      "evidence": "../beast-rules-recovery/parts/spider-boar/source-review.md",
+      "accessNeeded": "Owned DMs Guild 337964, indexed p. 33",
+      "accessLinks": [
+        "https://www.dmsguild.com/product/337964/Muks-Guide-to-Everything-He-Learned-From-Tasha"
+      ],
+      "rulesStatus": "Incomplete",
+      "includeInRunnableBatch": false
+    }
+  ],
+  "incomplete": 43
+}

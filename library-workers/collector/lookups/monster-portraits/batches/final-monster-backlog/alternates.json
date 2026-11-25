@@ -1,0 +1,89 @@
+[
+  {
+    "entityKind": "monster",
+    "name": "Cultist, Void",
+    "publication": "Hidden Tomb of Nargoth",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/cultist-void/cultist-fanatic-kobold-press-related.webp",
+    "artist": "Related Cultist Fanatic token · Monster Vault · Kobold Press",
+    "kind": "token",
+    "sha256": "5bc67f1de97dad7a5cd89aeaadab007a63d77d702c2260861fad8e7d293244a4",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/fanatic.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Cultist, Void",
+    "publication": "Hidden Tomb of Nargoth",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/cultist-void/cult-fanatic-2014-related.webp",
+    "artist": "Related Cult Fanatic art · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "b31e3372b373d7c59e966794be789593b351976857711dee579cfc384794e58c",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/MM/Cult%20Fanatic.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Lightning Quasi-Elemental",
+    "publication": "The Land Beyond the Magic Mirror",
+    "edition": "AD&D 1st edition",
+    "file": "images/monsters/lightning-quasi-elemental/lightning-quasi-elemental-ex2.png",
+    "artist": "Lightning Quasi-Elemental · The Land Beyond the Magic Mirror (1983), p. 29 · TSR",
+    "kind": "illustration",
+    "sha256": "8b7620ee77a2e8f37c21af27bd8b793056d6d13d4764b9bead22606b774f6c62"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Lightning Quasi-Elemental",
+    "publication": "The Land Beyond the Magic Mirror",
+    "edition": "AD&D 1st edition",
+    "file": "images/monsters/lightning-quasi-elemental/lightning-hulk-related.webp",
+    "artist": "Related Lightning Hulk art · Bigby Presents: Glory of the Giants",
+    "kind": "illustration",
+    "sha256": "7d8bbee4c22ea5ab9487edf4592c4264f18907926e8cd831a146c4accd90e8ef",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/BGG/Lightning%20Hulk.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Remnant",
+    "publication": "More Prepared",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/remnant/specter-2014-related.webp",
+    "artist": "Related Specter art · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "185b51ca7a598c771d1ece73ba6b9d3fcbd83bbbdac0b591f735371835fe15a2",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/MM/Specter.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Remnant",
+    "publication": "More Prepared",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/remnant/wraith-alex-brock-related.webp",
+    "artist": "Related Wraith art by Alex Brock · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "b04d6efb39871b9adf526ba17037e9209a7467be4a0f7d26d55c1132b0b76246",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Wraith.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Vulture, Troll",
+    "publication": "Trollfall",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/vulture-troll/vulture-2014-related.webp",
+    "artist": "Related Vulture token · Monster Manual (2014)",
+    "kind": "token",
+    "sha256": "955efa3f91dfce8c0c567e016d6c90bdd4f6c3abe4eafa618550ac2db3f0536d",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/MM/Vulture.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Vulture, Troll",
+    "publication": "Trollfall",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/vulture-troll/troll-2014-related.webp",
+    "artist": "Related Troll art · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "ed9fd0beda6aacee040f7e7010209b82d6942732d77d2c4b695322324a9ac94d",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/MM/Troll.webp"
+  }
+]

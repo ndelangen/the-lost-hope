@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Chimeron",
+    "query": "violet crest abyssal wasteland chimeron soul resistance",
+    "condition": "Prone",
+    "alternates": [
+      {
+        "credit": "D&D Beyond publisher art · Flee, Mortals!",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Wobalas",
+    "query": "organic recurve bow abyssal wasteland despair bolt",
+    "condition": "Frightened",
+    "alternates": [
+      {
+        "credit": "D&D Beyond publisher art · Flee, Mortals!",
+        "url": ""
+      }
+    ]
+  }
+]

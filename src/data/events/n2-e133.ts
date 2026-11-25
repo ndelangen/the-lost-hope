@@ -28,4 +28,5 @@ export default createEvent({
       ' intensely hungry despite having eaten heavily earlier. He preferred raw meat and could identify different animals by the scent of their blood.',
     ],
   ],
+  illustrations: ['/assets/scenes/the-party-feasts-in-the-gruumsh-temple-blood-hall.png'],
 })

@@ -1,0 +1,397 @@
+[
+  {
+    "name": "Stone Giant Dreamwalker",
+    "statBlock": {
+      "name": "Stone Giant Dreamwalker",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 234,
+      "classification": "Huge giant, typically chaotic neutral",
+      "ac": 18,
+      "hp": 161,
+      "hitDice": "14d12 + 70",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 23
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 8
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "10",
+      "xp": 5900,
+      "passivePerception": 13,
+      "description": "Stone giants who lose themselves in the surface world treat it like a dream. Other stone giants value them as guides. As they travel, peculiar treasures and petrified creatures accumulate on their bodies.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 6,
+        "Con": 9,
+        "Wis": 3
+      },
+      "skills": {
+        "Athletics": 14,
+        "Perception": 3
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Giant.",
+        "Condition immunities": "Charmed, frightened.",
+        "Traits": "Dreamwalker's Charm. An enemy that starts its turn within 30 ft. must make a DC 13 Charisma save unless the giant is incapacitated. On a failure, the enemy is charmed by the giant and can repeat the save at the end of each of its turns, ending the charm on a success. A creature that succeeds on the save is immune to this giant's Dreamwalker's Charm for 24 hours.",
+        "Actions": "Multiattack. Make two attacks using Greatclub or Rock.\nGreatclub. Melee weapon attack, +10 to hit, reach 15 ft., one target. A hit deals 24 (4d8 + 6) bludgeoning damage.\nRock. Ranged weapon attack, +10 to hit, range 60/240 ft., one target. A hit deals 22 (3d10 + 6) bludgeoning damage. If the target is a creature, it falls prone unless it succeeds on a DC 17 Strength save.\nPetrifying Touch. Touch one Medium or smaller creature within 10 ft. that the giant has charmed. On a failed DC 17 Constitution save, the target is petrified, and the giant can attach it to its body. For a petrified creature attached this way, Greater Restoration and other magic that reverses petrification work only after the giant dies. Successful magic then frees the creature and ends the petrification.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 234."
+      }
+    }
+  },
+  {
+    "name": "Storm Giant Quintessent",
+    "statBlock": {
+      "name": "Storm Giant Quintessent",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 235,
+      "classification": "Huge giant, typically chaotic good",
+      "ac": 12,
+      "hp": 230,
+      "hitDice": "20d12 + 100",
+      "speed": "50 ft., fly 50 ft. (hover), swim 50 ft.",
+      "abilities": {
+        "Str": {
+          "score": 29
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 17
+        },
+        "Wis": {
+          "score": 20
+        },
+        "Cha": {
+          "score": 19
+        }
+      },
+      "cr": "16",
+      "xp": 15000,
+      "passivePerception": 20,
+      "description": "A storm giant near the end of its life may disperse into a lasting storm. It resumes giant form briefly to speak, perform a task, or defend its lair.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Str": 14,
+        "Con": 10,
+        "Wis": 10,
+        "Cha": 9
+      },
+      "skills": {
+        "Arcana": 8,
+        "History": 8,
+        "Perception": 10
+      },
+      "sections": {
+        "Senses": "Truesight 60 ft.",
+        "Languages": "Common, Giant.",
+        "Damage resistances": "Cold. Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Damage immunities": "Lightning, thunder.",
+        "Traits": "Amphibious. The giant can breathe air and water.\nLegendary Resistance (1/day). When the giant fails a saving throw, it can choose to succeed.",
+        "Actions": "Multiattack. Make two Lightning Sword attacks or use Wind Javelin twice.\nLightning Sword. Melee weapon attack, +14 to hit, reach 15 ft., one target. A hit deals 40 (9d6 + 9) lightning damage.\nWind Javelin. Choose a creature the giant can see within 600 ft. The javelin strikes automatically for 19 (3d6 + 9) force damage and disappears.",
+        "Legendary actions": "The giant has 3 legendary actions, which it regains at the start of its turn. Spend the listed cost to take one option just after another creature's turn. It must be able to act. If surprised, it can begin using these options after its first turn.\nGust (1 action). Choose a creature the giant can see within 60 ft. On a failed DC 18 Strength save, a magical gust moves the creature up to 20 ft. in a horizontal direction of the giant's choice.\nThunderbolt (2 actions). Choose a creature the giant can see within 600 ft. The creature takes 22 (4d10) thunder damage on a failed DC 18 Dexterity save, or half as much on a success.\nOne with the Storm (3 actions). The giant vanishes into its lair's storm and can choose to reappear anywhere in the lair at the start of any of its turns. While dispersed, it can take only lair actions and cannot be targeted by attacks, spells, or other effects. It can disperse only in its lair, and only if another creature is not quelling the storm with Control Weather or similar magic.",
+        "Lair actions": "On initiative count 20, after creatures tied at that count, use one option in giant or storm form. Choose a different option from the one used in the prior round. The giant must be able to act and, if surprised, must finish its first turn before using a lair action.\nDeafening Boom. Choose a point in the lair. Each creature within 20 ft. of it must succeed on a DC 18 Constitution save or become deafened until the end of its next turn.\nFog. Choose a point in the lair and create a 20-ft.-radius sphere of fog, or murky water underwater. It spreads around corners and heavily obscures its area. Wind cannot disperse it. It lasts until the giant ends it without spending an action.\nGale. Create a line of wind, or current underwater, 60 ft. long and 10 ft. wide from a point in the lair. Each creature in the line must succeed on a DC 18 Strength save or be pushed 15 ft. in its direction. The gale clears gas and vapor and extinguishes exposed flames. Each protected flame has a 50 percent chance of going out.",
+        "Regional effects": "One or more of these effects surround the lair.\nDownpour. Rain, snow, blowing dust, or blowing sand is constant within 1 mile, as appropriate for the region. Rain fills or overflows waterways. Snow, dust, and sand build deep drifts or dunes.\nLightning. Lightning and thunder are constant within 5 miles, day and night.\nWinds. High winds within 1 mile prevent fires from being lit in unprotected places.\nWhen the giant dies, lightning, thunder, and high winds cease immediately. Rain, snow, and blowing dust taper off within 1d8 days.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, pp. 235–236."
+      }
+    }
+  },
+  {
+    "name": "Summer Eladrin",
+    "statBlock": {
+      "name": "Summer Eladrin",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 116,
+      "classification": "Medium fey (elf), typically chaotic neutral",
+      "ac": 19,
+      "hp": 165,
+      "hitDice": "22d8 + 66",
+      "speed": "50 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 21
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "10",
+      "xp": 5900,
+      "passivePerception": 11,
+      "description": "Anger can draw an eladrin into its summer aspect. Its magic feeds the fighting form's quick movement and fiery attacks.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Athletics": 8,
+        "Intimidation": 8
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Elvish, Sylvan.",
+        "Damage resistances": "Fire.",
+        "Traits": "Fearsome Presence. A creature other than an eladrin that starts its turn within 60 ft. must make a DC 16 Wisdom save. On a failure, it is frightened of this eladrin for 1 minute. It can repeat the save at the end of each of its turns, ending the fear on a success. A successful save or the end of the effect gives it immunity to every eladrin's Fearsome Presence for 24 hours.\nMagic Resistance. The eladrin has advantage on saves against spells and other magical effects.",
+        "Changeable Natures mechanics": "After finishing a long rest, an eladrin that is not incapacitated can adopt another season's stat block. Carry over its damage taken, conditions, and other ongoing effects.",
+        "Actions": "Multiattack. Make two attacks using Longsword or Longbow.\nLongsword. Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 13 (2d8 + 4) slashing damage, or 15 (2d10 + 4) slashing damage with two hands, plus 9 (2d8) fire damage either way.\nLongbow. Ranged weapon attack, +9 to hit, range 150/600 ft., one target. A hit deals 14 (2d8 + 5) piercing damage and 9 (2d8) fire damage.",
+        "Bonus actions": "Fey Step (Recharge 4–6). Teleport up to 30 ft. to an unoccupied space the eladrin can see, taking its worn and carried equipment.",
+        "Reactions": "Parry. The eladrin adds 3 to its AC against a melee attack that would hit it if it can see the attacker and is wielding a melee weapon.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 116."
+      }
+    }
+  },
+  {
+    "name": "Swarm of Cranium Rats",
+    "statBlock": {
+      "name": "Swarm of Cranium Rats",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 83,
+      "classification": "Medium swarm of Tiny aberrations, typically lawful evil",
+      "ac": 12,
+      "hp": 76,
+      "hitDice": "17d8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 9
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 10,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Senses": "Darkvision 30 ft.",
+        "Languages": "Telepathy 30 ft.",
+        "Damage resistances": "Bludgeoning, piercing, slashing.",
+        "Condition immunities": "Charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned.",
+        "Traits": "Swarm. The swarm can share a creature's space and fit through openings a Tiny rat could use. It cannot regain hit points or gain temporary hit points.\nTelepathic Shroud. No effect can sense the swarm's emotions or read its thoughts. It is immune to all divination spells.",
+        "Actions": "Bites. Melee weapon attack, +5 to hit, reach 0 ft., one target in the swarm's space. A hit deals 14 (4d6) piercing damage, or 7 (2d6) piercing damage when the swarm has half its hit points or fewer, plus 22 (5d8) psychic damage in either case.",
+        "Spellcasting": "Spellcasting (Psionics). As an action while above half its hit points, the swarm casts one listed spell using Intelligence (save DC 13), with no components.\nAt will. Command, Comprehend Languages, Detect Thoughts.\n1/day each. Confusion, Dominate Monster.",
+        "Bonus actions": "Illumination. The swarm makes its brains shed dim light within 5 ft., shed bright light to a chosen radius from 5 to 20 ft. and dim light that much farther, or stop shedding light.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 83."
+      }
+    }
+  },
+  {
+    "name": "Swashbuckler",
+    "statBlock": {
+      "name": "Swashbuckler",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 238,
+      "classification": "Medium humanoid, any alignment",
+      "ac": 17,
+      "hp": 66,
+      "hitDice": "12d8 + 12",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 10,
+      "description": "A showy duelist with a personal code and a taste for notoriety. Many sail as pirates or corsairs.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Acrobatics": 8,
+        "Athletics": 5,
+        "Persuasion": 6
+      },
+      "sections": {
+        "Armor": "Leather armor and Suave Defense.",
+        "Languages": "Any one language, usually Common.",
+        "Traits": "Suave Defense. Add the swashbuckler's Charisma modifier to its AC while it wears light armor or no armor and wields no shield.",
+        "Actions": "Multiattack. Make one Dagger attack and two Rapier attacks.\nDagger. Melee or ranged weapon attack, +6 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 6 (1d4 + 4) piercing damage.\nRapier. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 8 (1d8 + 4) piercing damage.",
+        "Bonus actions": "Lightfooted. Take the Dash or Disengage action.",
+        "Swashbuckler flourishes": "Choose a signature flourish or roll a d8.\n1. Wink and smile.\n2. Make a theatrical bow.\n3. Flip a dagger repeatedly.\n4. Interrupt conversation with a booming laugh.\n5. Sing sea shanties.\n6. Walk a silver coin across the knuckles.\n7. Toss out inventive insults.\n8. Add an elaborate sweep to each rapier strike.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 238."
+      }
+    }
+  },
+  {
+    "name": "Sword Wraith Commander",
+    "statBlock": {
+      "name": "Sword Wraith Commander",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 239,
+      "classification": "Medium undead, typically lawful evil",
+      "ac": 18,
+      "hp": 127,
+      "hitDice": "15d8 + 60",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 14,
+      "description": "A battlefield ghost that answers insults to its courage with violence. It may show favor to those who praise its valor.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 4
+      },
+      "sections": {
+        "Armor": "Breastplate and shield.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "The languages it knew in life.",
+        "Damage resistances": "Necrotic. Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Exhaustion, frightened, poisoned, unconscious.",
+        "Traits": "Turning Defiance. The commander and other sword wraiths within 30 ft. of it have advantage on saving throws against effects that turn Undead.\nUnusual Nature. It needs no air, food, drink, or sleep.",
+        "Actions": "Multiattack. Make two attacks using Longsword or Longbow.\nLongsword. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) with two hands.\nLongbow. Ranged weapon attack, +5 to hit, range 150/600 ft., one target. A hit deals 6 (1d8 + 2) piercing damage.\nCall to Honor (1/day). The commander must have taken damage during this combat. It gains advantage on attack rolls until the end of its next turn and brings forth 1d4 + 1 Sword Wraith Warriors in unoccupied spaces within 30 ft. of it. They take their turns just after the commander on the same initiative count and last until they reach 0 hit points.",
+        "Bonus actions": "Martial Fury. Make one Longsword or Longbow attack, dealing an extra 9 (2d8) necrotic damage on a hit. Attack rolls against the commander have advantage until the start of its next turn.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 239."
+      }
+    }
+  },
+  {
+    "name": "Sword Wraith Warrior",
+    "statBlock": {
+      "name": "Sword Wraith Warrior",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 239,
+      "classification": "Medium undead, typically lawful evil",
+      "ac": 16,
+      "hp": 45,
+      "hitDice": "6d8 + 18",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 9
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 9,
+      "description": "A ghost of a soldier slain after being surrounded. Sword wraiths haunt the battlefields where they died.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Chain shirt and shield.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "The languages it knew in life.",
+        "Damage resistances": "Necrotic. Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Exhaustion, frightened, poisoned, unconscious.",
+        "Traits": "Unusual Nature. It needs no air, food, drink, or sleep.",
+        "Actions": "Battleaxe. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) with two hands.\nLongbow. Ranged weapon attack, +3 to hit, range 150/600 ft., one target. A hit deals 5 (1d8 + 1) piercing damage.",
+        "Bonus actions": "Martial Fury. Make one Battleaxe or Longbow attack. Attack rolls against the warrior have advantage until the start of its next turn.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 239."
+      }
+    }
+  }
+]

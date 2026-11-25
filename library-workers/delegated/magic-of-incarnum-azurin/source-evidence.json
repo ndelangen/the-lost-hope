@@ -1,0 +1,61 @@
+[
+  {
+    "name": "Azurin",
+    "kind": "species",
+    "publication": "Magic of Incarnum (2005)",
+    "edition": "3.5 edition",
+    "book": "Magic of Incarnum",
+    "authors": [
+      "James Wyatt",
+      "Frank Brunner",
+      "Stephen Schubert"
+    ],
+    "publisher": "Wizards of the Coast",
+    "firstPrinting": "September 2005",
+    "productCode": "620-88579720-001-EN",
+    "isbn": "0-7869-3701-7",
+    "printedPages": {
+      "racialTraits": [
+        7,
+        8
+      ],
+      "illustration": 8,
+      "capacity": 19,
+      "soulborn": [
+        25,
+        26
+      ],
+      "incarnumFeats": 34,
+      "cobaltCharge": 35,
+      "healingSoul": 38,
+      "midnightDodge": 39,
+      "sapphireSmite": 40,
+      "investment": 50,
+      "incarnumSubtype": 169,
+      "publishedSamples": [
+        170,
+        171
+      ]
+    },
+    "pdfPageOffset": 0,
+    "primaryBookScan": "",
+    "primaryBookSha256": "176c0415edfe8216d7d4915d5fcc8459c3c6ee84d89ffe4beaa875739b91a823",
+    "officialErrataArchive": "https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP",
+    "printedArtCredit": "Mark Poole, female and male Azurin illustration, p. 8.",
+    "sourceDistinctions": [
+      "Azurins retain the 1st-level bonus feat. The racial traits grant a permanent extra essentia point and do not grant human bonus skill points.",
+      "Soulborn meldshaping starts at 4th level and class essentia starts at 6th. Race and feats can give earlier essentia.",
+      "Incarnum feat investments are set for 24 hours. Midnight Dodge can change the designated opponent each turn without changing its investment.",
+      "The published examples are a Warrior, Cleric, and Soulborn. Both staged NPCs are original."
+    ],
+    "entryId": "species-95aba34cc8388ba29d8118fe",
+    "versionKey": "5f07c75f1964951bf35432b2",
+    "slug": "azurin",
+    "portraitSelection": "generated",
+    "portraitForm": "Lysa Vale, an original Azurin Soulborn",
+    "npcExamples": [
+      "Lysa Vale",
+      "Rena Marr"
+    ]
+  }
+]

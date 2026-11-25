@@ -1,0 +1,161 @@
+[
+  {
+    "name": "Dire Weasel",
+    "kind": "beast",
+    "publication": "The Burning Plague",
+    "edition": "3.0 edition",
+    "ruleset": "dnd-3.0",
+    "appearance": "A five-foot-long dire weasel.",
+    "combat": {
+      "armorClass": 16,
+      "hitPoints": 12,
+      "hitDice": "3d8+0",
+      "size": "Medium-size (5 ft. long)",
+      "initiativeModifier": 4,
+      "speed": {
+        "walk": 40
+      },
+      "abilities": {
+        "Str": 14,
+        "Dex": 19,
+        "Con": 6,
+        "Int": 2,
+        "Wis": 12,
+        "Cha": 11
+      },
+      "fortitude": 1,
+      "reflex": 7,
+      "will": 4,
+      "skills": {
+        "Hide": 9,
+        "Move Silently": 10,
+        "Spot": 5
+      },
+      "senses": [
+        "Scent"
+      ],
+      "habitats": [
+        "Mines of Duvik’s Pass"
+      ],
+      "creatureType": "Animal",
+      "attacks": [
+        {
+          "name": "Bite",
+          "mode": "melee",
+          "hitBonus": 7,
+          "damage": [
+            {
+              "dice": "1d6+3"
+            }
+          ]
+        }
+      ],
+      "challenge": "2"
+    },
+    "mechanics": {
+      "Special attacks and qualities": [
+        {
+          "name": "Attach",
+          "effectNote": "On a successful bite, the dire weasel latches onto the target. It loses its Dexterity bonus to Armor Class while attached, leaving it at AC 12."
+        },
+        {
+          "name": "Blood drain",
+          "effectNote": "The dire weasel deals 2d4 temporary Constitution damage each round it remains attached."
+        }
+      ],
+      "Encounters": [
+        {
+          "name": "Southwestern sacks",
+          "effectNote": "The dire weasel hides in the southwestern sack pile. After two rounds it attacks the nearest character on round three. A character spots it by winning an opposed Spot check against its Hide roll. It leaves its kobold handlers alone."
+        },
+        {
+          "name": "Contagious in this adventure",
+          "effectNote": "A creature that comes into contact with this animal must make a DC 13 Fortitude save against the Burning Plague. See the adventure’s disease rules on pp. 3–4."
+        }
+      ]
+    },
+    "notes": [
+      "Neutral. Weapon Finesse (bite).",
+      "The encounter prints HD 3d8+0 and Constitution 6.",
+      "Miguel Duran, The Burning Plague (Wizards of the Coast, 2000), Area 4: The Larder, pp. 7–8."
+    ]
+  },
+  {
+    "name": "Rat",
+    "kind": "beast",
+    "publication": "The Burning Plague",
+    "edition": "3.0 edition",
+    "ruleset": "dnd-3.0",
+    "appearance": "A tiny rat from the larder at Duvik’s Pass.",
+    "combat": {
+      "armorClass": 14,
+      "hitPoints": 1,
+      "hitDice": "1/4 d8 - 1",
+      "size": "Tiny",
+      "initiativeModifier": 2,
+      "speed": {
+        "walk": 15,
+        "climb": 15
+      },
+      "abilities": {
+        "Str": 2,
+        "Dex": 15,
+        "Con": 8,
+        "Int": 2,
+        "Wis": 12,
+        "Cha": 2
+      },
+      "fortitude": 1,
+      "reflex": 4,
+      "will": 1,
+      "skills": {
+        "Climb": 12,
+        "Hide": 18,
+        "Move Silently": 10
+      },
+      "senses": [
+        "Scent"
+      ],
+      "habitats": [
+        "Mines of Duvik’s Pass"
+      ],
+      "creatureType": "Animal",
+      "attacks": [
+        {
+          "name": "Bite",
+          "mode": "melee",
+          "hitBonus": 4,
+          "damage": [
+            {
+              "dice": "1d3 - 4"
+            }
+          ]
+        }
+      ]
+    },
+    "mechanics": {
+      "Special attacks and qualities": [
+        {
+          "name": "Scent",
+          "effectNote": "The rat detects nearby enemies by smell. The adventure refers to the Dungeon Master’s Guide for the general scent rules."
+        }
+      ],
+      "Encounters": [
+        {
+          "name": "Barrels 2 and 5",
+          "effectNote": "Four rats hide in each barrel. They stay inside until disturbed, then attack. Each of the eight rats has 1 HP."
+        },
+        {
+          "name": "Contagious in this adventure",
+          "effectNote": "A creature that comes into contact with this animal must make a DC 13 Fortitude save against the Burning Plague. See the adventure’s disease rules on pp. 3–4."
+        }
+      ]
+    },
+    "notes": [
+      "Neutral. Weapon Finesse (bite).",
+      "The adventure prints CR 1 on the collective Rats (8) line. It gives no CR for a single rat.",
+      "The rat’s printed bite is 1d3 - 4. Its Hide modifier is +18.",
+      "Miguel Duran, The Burning Plague (Wizards of the Coast, 2000), Area 4: The Larder, pp. 7–8."
+    ]
+  }
+]

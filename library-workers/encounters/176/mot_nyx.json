@@ -1,0 +1,356 @@
+[
+  {
+    "name": "Nightmare Shepherd",
+    "statBlock": {
+      "name": "Nightmare Shepherd",
+      "publication": "Mythic Odysseys of Theros",
+      "edition": "2014 fifth edition",
+      "printedPage": 221,
+      "classification": "Large fiend, lawful evil",
+      "ac": 18,
+      "hp": 133,
+      "hitDice": "14d10 + 56",
+      "speed": "30 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 17
+        },
+        "Cha": {
+          "score": 20
+        }
+      },
+      "cr": "11",
+      "xp": 7200,
+      "passivePerception": 17,
+      "description": "A winged fiend of Erebos that drives the dead toward their assigned wards and preys on souls that stray.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Arcana": 6,
+        "Deception": 9,
+        "Perception": 7,
+        "Persuasion": 9
+      },
+      "savingThrows": {
+        "Con": 8,
+        "Wis": 7
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Abyssal, Common, Infernal.",
+        "Damage resistances": "Cold and necrotic.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Aura of Nightmares. Undead within 30 ft. of the shepherd get +5 to attack and damage rolls. When a creature other than the shepherd, an undead, or a construct starts its turn within 30 ft. of the shepherd, it must pass a DC 17 Wisdom save or take 11 (2d10) psychic damage.\nMagic Resistance. The shepherd has advantage on saves against spells and other magical effects.\nImmortal Nature. It needs no food, drink, or sleep.",
+        "Innate Spellcasting": "Charisma is the spellcasting ability (save DC 17). The shepherd needs no material components.\n1/day each. Confusion, Dispel Magic, Hold Person, Suggestion.",
+        "Actions": "Multiattack. Make one Claws attack and one Staff attack.\nClaws. Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 13 (2d8 + 4) slashing damage plus 16 (3d10) necrotic damage.\nStaff. Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 11 (2d6 + 4) bludgeoning damage when used one-handed or 13 (2d8 + 4) when used two-handed. Either hit also deals 26 (4d12) psychic damage.\nHerd the Underworld (recharges after a short or long rest). Summon 1d6 Shadows without Sunlight Weakness in unoccupied spaces within 20 ft. of the shepherd. The Shadows act immediately after the shepherd on its initiative count and fight until destroyed. They disappear if the shepherd dies.",
+        "Printed source": "Mythic Odysseys of Theros, p. 221."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Shadow",
+          "terms": [
+            "Shadow",
+            "Shadows"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#shadow_mm"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Nyx-Fleece Ram",
+    "statBlock": {
+      "name": "Nyx-Fleece Ram",
+      "publication": "Mythic Odysseys of Theros",
+      "edition": "2014 fifth edition",
+      "printedPage": 233,
+      "classification": "Medium monstrosity, unaligned",
+      "ac": 14,
+      "hp": 27,
+      "hitDice": "5d8 + 5",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 11,
+      "description": "A mountain ram whose wool can carry a blessing. Divine servants guard the few herds that live high in Theros’s peaks.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Traits": "Charge. If the ram moves at least 20 ft. straight toward a target and hits it with Ram on the same turn, the hit deals an extra 5 (2d4) bludgeoning damage. A creature hit this way must pass a DC 13 Strength save or fall prone.\nMagic Resistance. The ram has advantage on saves against spells and other magical effects.\nSure-Footed. The ram has advantage on Strength and Dexterity saves against effects that would knock it prone.",
+        "Actions": "Ram. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 8 (2d4 + 3) bludgeoning damage plus 3 (1d6) force damage.",
+        "Powers of the Fleece": "Shear the ram unharmed and turn its wool into a garment. Roll a d6 for the new garment’s power. A wearer must attune to it to gain the benefit.\n1. Protection. Gain +1 to AC and saving throws.\n2. Power of Nyx. Gain advantage on Charisma (Persuasion) checks.\n3. Calming Presence. Cast Calm Emotions once per day (save DC 13).\n4. Trail of Flowers. Flowers magically grow wherever the wearer walks and wilt after 1 hour.\n5. Animal Affinity. A non-evil wearer can cast Animal Friendship once per day (save DC 13).\n6. Abundance of Food. Cast Create Food and Water once per day.",
+        "Printed source": "Mythic Odysseys of Theros, p. 233."
+      }
+    }
+  },
+  {
+    "name": "Oracle",
+    "statBlock": {
+      "name": "Oracle",
+      "publication": "Mythic Odysseys of Theros",
+      "edition": "2014 fifth edition",
+      "printedPage": 238,
+      "classification": "Medium humanoid (any), any alignment",
+      "ac": 15,
+      "hp": 44,
+      "hitDice": "8d8 + 8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 13,
+      "description": "A mortal interpreter of Nyx. Some oracles speak for one god, while others read the night sky for signs of what lies ahead.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Insight": 5,
+        "Persuasion": 4,
+        "Religion": 5
+      },
+      "savingThrows": {
+        "Wis": 5,
+        "Cha": 4
+      },
+      "sections": {
+        "Armor": "The listed AC includes Blessings of the Gods.",
+        "Languages": "Celestial, Common.",
+        "Traits": "Blessings of the Gods. Add the oracle’s Wisdom modifier to its AC while it wears no armor and uses no shield. A creature within 5 ft. that hits the oracle with a melee attack takes 9 (2d8) force damage.",
+        "Innate Spellcasting": "Wisdom is the spellcasting ability (save DC 13, +5 to hit with spell attacks). The oracle needs no material components.\nAt will. Guidance, Light, Thaumaturgy.\n3/day each. Bless, Guiding Bolt, Healing Word, Hold Person.\n1/day each. Augury, Scrying.",
+        "Actions": "Eldritch Touch. Melee spell attack, +5 to hit, reach 5 ft., one target. A hit deals 6 (1d6 + 3) force damage.",
+        "Reactions": "Divine Insight (3/day). When the oracle or a creature it can see makes an attack roll, a saving throw, or an ability check, the oracle can give that roll advantage or disadvantage.",
+        "Printed source": "Mythic Odysseys of Theros, p. 238."
+      }
+    }
+  },
+  {
+    "name": "Oread",
+    "statBlock": {
+      "name": "Oread",
+      "publication": "Mythic Odysseys of Theros",
+      "edition": "2014 fifth edition",
+      "printedPage": 237,
+      "classification": "Medium fey, chaotic evil",
+      "ac": 16,
+      "hp": 49,
+      "hitDice": "9d8 + 9",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 11,
+      "description": "A nymph of mountain crags and volcanoes. Oreads revel in eruptions and avalanches and avoid deliberately destroying another nymph’s home.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Acrobatics": 4,
+        "Athletics": 4,
+        "Performance": 6
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Languages": "Common, Sylvan.",
+        "Damage immunities": "Fire and poison.",
+        "Condition immunities": "Charmed, frightened, poisoned.",
+        "Traits": "Invisible in Fire. The oread is invisible whenever fire completely surrounds it.\nMagic Resistance. The oread has advantage on saves against spells and other magical effects.\nImmortal Nature. It needs no food, drink, or sleep.",
+        "Innate Spellcasting": "Charisma is the spellcasting ability (save DC 14, +6 to hit with spell attacks). The oread needs no material components.\nAt will. Fire Bolt (see Actions).\n3/day. Burning Hands.\n1/day each. Hellish Rebuke (see Reactions), Scorching Ray.",
+        "Actions": "Multiattack. Attack twice with Fiery Touch or Fire Bolt.\nFiery Touch. Melee spell attack, +6 to hit, reach 5 ft., one target. A hit deals 9 (1d10 + 4) fire damage.\nFire Bolt (cantrip). Ranged spell attack, +6 to hit, range 120 ft., one target. A hit deals 5 (1d10) fire damage.",
+        "Reactions": "Hellish Rebuke (2nd-level spell, 1/day). If a visible creature within 60 ft. damages the oread, that creature makes a DC 14 Dexterity save. On a failure, it takes 16 (3d10) fire damage. On a success, it takes half as much.",
+        "Printed source": "Mythic Odysseys of Theros, p. 237."
+      }
+    }
+  },
+  {
+    "name": "Phylaskia",
+    "statBlock": {
+      "name": "Phylaskia",
+      "publication": "Mythic Odysseys of Theros",
+      "edition": "2014 fifth edition",
+      "printedPage": 239,
+      "classification": "Large undead, lawful neutral",
+      "ac": 18,
+      "hp": 104,
+      "hitDice": "11d10 + 44",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "9",
+      "xp": 5000,
+      "passivePerception": 17,
+      "description": "An armored skeletal guard that watches the borders between the wards of the Underworld and challenges those who would cross.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Insight": 7,
+        "Perception": 7
+      },
+      "savingThrows": {
+        "Con": 8,
+        "Wis": 7
+      },
+      "sections": {
+        "Armor": "Plate armor.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "All.",
+        "Damage immunities": "Necrotic and poison.",
+        "Condition immunities": "Blinded, charmed, deafened, exhaustion, frightened, poisoned.",
+        "Traits": "Gatekeeper’s Aura. When a creature starts its turn within 10 ft. of the phylaskia, it makes a DC 15 Wisdom save. A success grants immunity to this aura for 24 hours. On a failure, the creature has disadvantage on saves and half its usual speed until the start of its next turn.\nUndead Fortitude. When damage reduces the phylaskia to 0 HP, it makes a Constitution save against DC 5 + the damage taken. On a success, it falls to 1 HP instead. Radiant damage and critical hits bypass this save.\nVigilant. The phylaskia can’t be surprised.\nUndead Nature. The phylaskia needs no air, food, drink, or sleep.",
+        "Actions": "Multiattack. Make two Longsword attacks and use Strength Drain once.\nLongsword. Melee weapon attack, +9 to hit, reach 10 ft., one target. A hit deals 14 (2d8 + 5) slashing damage when used one-handed or 16 (2d10 + 5) when used two-handed. Either hit also deals 11 (2d10) necrotic damage.\nStrength Drain. Melee weapon attack, +9 to hit, reach 5 ft., one creature. A hit deals 12 (2d6 + 5) necrotic damage. If the target lacks immunity to necrotic damage, reduce its Strength by 1d4 until it finishes a short or long rest. The target dies if this reduces its Strength to 0.",
+        "Printed source": "Mythic Odysseys of Theros, p. 239."
+      }
+    }
+  },
+  {
+    "name": "Polukranos",
+    "statBlock": {
+      "name": "Polukranos",
+      "publication": "Mythic Odysseys of Theros",
+      "edition": "2014 fifth edition",
+      "printedPage": 231,
+      "classification": "Gargantuan monstrosity, unaligned",
+      "ac": 17,
+      "hp": 232,
+      "hitDice": "15d20 + 75",
+      "speed": "50 ft., swim 50 ft.",
+      "abilities": {
+        "Str": {
+          "score": 25
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 4
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "19",
+      "xp": 22000,
+      "passivePerception": 24,
+      "description": "The World Eater is an incarnation of the hydra’s eternal form. Its return portends strife among the gods and danger for Theros.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 14
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft.",
+        "Damage immunities": "Acid.",
+        "Traits": "Acidic Blood. After Polukranos takes piercing or slashing damage, each creature within 5 ft. of it takes 10 (3d6) acid damage.\nHold Breath. Polukranos can go without a breath for up to 1 hour.\nLegendary Resistance (3/day). Polukranos can turn a failed saving throw into a success.\nMultiple Heads. Polukranos starts with five heads. While it has more than one, it has advantage on saves against being blinded, charmed, deafened, frightened, stunned, or knocked unconscious. Taking 40 or more damage during a single turn kills one head. Losing every head kills Polukranos. At the end of its own turn, it grows two heads for each head lost since its last turn, unless it has taken at least 40 fire damage since its last turn. It heals 20 HP for each head it regrows.\nReactive Heads. Each head beyond the first grants an extra reaction for opportunity attacks only.\nSiege Monster. Polukranos deals double damage to objects and structures.\nWakeful. At least one head remains awake when Polukranos sleeps.",
+        "Actions": "Multiattack. Make one Bite attack per living head.\nBite. Melee weapon attack, +13 to hit, reach 15 ft., one target. A hit deals 18 (2d10 + 7) piercing damage.\nStomp. Melee weapon attack, +13 to hit, reach 15 ft., one target. A hit deals 16 (2d8 + 7) bludgeoning damage.\nTail. Melee weapon attack, +13 to hit, reach 15 ft., one target. A hit deals 18 (2d10 + 7) bludgeoning damage. A creature hit must pass a DC 21 Strength save or be pushed up to 20 ft. away from Polukranos.",
+        "Legendary actions": "Polukranos has three legendary actions and recovers spent actions at the start of its turn. It can use one option at the end of another creature’s turn.\nDetect (1 action). Make a Wisdom (Perception) check.\nTail Swipe (1 action). Make a Tail attack.\nTrampling Charge (3 actions). Move up to 50 ft. in a straight line. Polukranos can pass through spaces occupied by Huge or smaller creatures. The first time Polukranos enters each creature’s space during this move, it can make a Stomp attack against that creature.",
+        "Printed source": "Mythic Odysseys of Theros, p. 231."
+      }
+    }
+  }
+]

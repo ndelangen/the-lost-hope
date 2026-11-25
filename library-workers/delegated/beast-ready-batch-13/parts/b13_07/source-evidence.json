@@ -1,0 +1,160 @@
+[
+  {
+    "name": "Ox",
+    "publication": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, November 2016",
+    "copyrightYear": 2016,
+    "isbn": "978-0-7869-6601-1",
+    "section": "Appendix A: Assorted Beasts",
+    "sourceHeading": "Cow and Ox",
+    "printedPages": [
+      207,
+      208
+    ],
+    "pdfPages": [
+      208,
+      209
+    ],
+    "sourceFile": "",
+    "sourceSha256": "dfb296846f6fe2ce8adba02474d7cb434f96950aef208fceae4823283337456f",
+    "sourceUrl": "https://www.dndbeyond.com/sources/dnd/vgtm",
+    "url": "https://www.dndbeyond.com/sources/dnd/vgtm",
+    "publisherListing": "https://www.dndbeyond.com/sources/dnd/vgtm",
+    "publisherCatalog": "",
+    "digitalReference": "https://www.dndbeyond.com/monsters/24001-ox",
+    "sourceRole": "The local first-printing supplies the rules. Publisher indexes corroborate identity.",
+    "errataUrl": "",
+    "errataWebUrl": "https://www.dndbeyond.com/sources/dnd/sae/volos-guide-to-monsters",
+    "errataEvidence": "The Wizards 2021 v3.0 errata list no change to this profile.",
+    "sourceDistinctions": [
+      "Page 207 directs the reader to use the Cow block for all cattle variants and apply the changes on p. 208. The base Charge adds damage without a saving throw.",
+      "Beast of Burden treats the Large ox as Huge solely for carrying capacity."
+    ],
+    "appearanceEvidence": "Page 208 describes the ox as cattle kept chiefly for draft work. The draft-bovine silhouette is an editorial portrait choice.",
+    "habitatEvidence": "The publisher’s legacy monster catalog lists Grassland. Farmland is editorial based on the draft work noted on p. 208.",
+    "artGroup": "ox",
+    "artOwner": "b13_04"
+  },
+  {
+    "name": "Rothé",
+    "publication": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, November 2016",
+    "copyrightYear": 2016,
+    "isbn": "978-0-7869-6601-1",
+    "section": "Appendix A: Assorted Beasts",
+    "sourceHeading": "Cow and Rothé",
+    "printedPages": [
+      207,
+      208
+    ],
+    "pdfPages": [
+      208,
+      209
+    ],
+    "sourceFile": "",
+    "sourceSha256": "dfb296846f6fe2ce8adba02474d7cb434f96950aef208fceae4823283337456f",
+    "sourceUrl": "https://www.dndbeyond.com/sources/dnd/vgtm",
+    "url": "https://www.dndbeyond.com/sources/dnd/vgtm",
+    "publisherListing": "https://www.dndbeyond.com/sources/dnd/vgtm",
+    "publisherCatalog": "",
+    "digitalReference": "https://www.dndbeyond.com/monsters/24005-rothe",
+    "sourceRole": "The local first-printing supplies the rules. Publisher indexes corroborate identity.",
+    "errataUrl": "",
+    "errataWebUrl": "https://www.dndbeyond.com/sources/dnd/sae/volos-guide-to-monsters",
+    "errataEvidence": "The Wizards 2021 v3.0 errata list no change to this profile.",
+    "sourceDistinctions": [
+      "Page 207 directs the reader to use the Cow block for all cattle variants and apply the changes on p. 208. The base Charge adds damage without a saving throw.",
+      "Ordinary Rothé gains 30-ft. Darkvision. The Medium size, 13 (2d8 + 4) HP, 60-ft. Darkvision, and innate dancing lights on the same page belong to Deep Rothé."
+    ],
+    "appearanceEvidence": "Page 208 compares the ordinary Rothé to a musk ox. Fur and horn details describe the assigned portrait.",
+    "habitatEvidence": "The publisher’s legacy monster catalog tags the ordinary Rothé as Grassland. The p. 208 Underdark entry refers to Deep Rothé.",
+    "artGroup": "rothe",
+    "artOwner": "b13_07",
+    "artworkSource": "portraits/rothe.png",
+    "artworkSha256": "a7fc5db80e0fb8b7126d12c478a9714b9c2ffe0a43483284a4ee9ea2cc945480"
+  },
+  {
+    "name": "Stench Kow",
+    "publication": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, November 2016",
+    "copyrightYear": 2016,
+    "isbn": "978-0-7869-6601-1",
+    "section": "Appendix A: Assorted Beasts",
+    "sourceHeading": "Cow and Stench Kow",
+    "printedPages": [
+      207,
+      208
+    ],
+    "pdfPages": [
+      208,
+      209
+    ],
+    "sourceFile": "",
+    "sourceSha256": "dfb296846f6fe2ce8adba02474d7cb434f96950aef208fceae4823283337456f",
+    "sourceUrl": "https://www.dndbeyond.com/sources/dnd/vgtm",
+    "url": "https://www.dndbeyond.com/sources/dnd/vgtm",
+    "publisherListing": "https://www.dndbeyond.com/sources/dnd/vgtm",
+    "publisherCatalog": "",
+    "digitalReference": "https://www.dndbeyond.com/monsters/24007-stench-kow",
+    "sourceRole": "The local first-printing supplies the rules. Publisher indexes corroborate identity.",
+    "errataUrl": "",
+    "errataWebUrl": "https://www.dndbeyond.com/sources/dnd/sae/volos-guide-to-monsters",
+    "errataEvidence": "The Wizards 2021 v3.0 errata list no change to this profile.",
+    "sourceDistinctions": [
+      "Page 207 directs the reader to use the Cow block for all cattle variants and apply the changes on p. 208. The base Charge adds damage without a saving throw.",
+      "A successful Stench save protects a creature from the Stench of all stench kows for 1 hour."
+    ],
+    "appearanceEvidence": "Page 208 specifies a misshapen orange and green bison. The exact shape and placement of colors are editorial choices in the assigned portrait.",
+    "habitatEvidence": "Page 208 identifies the Lower Planes as its native habitat.",
+    "artGroup": "stench-kow",
+    "artOwner": "b13_07",
+    "artworkSource": "portraits/stench-kow.png",
+    "artworkSha256": "3220893e5100a3e39c78e296f80c933830b66d3a95d70b79a483a99331942cd8"
+  },
+  {
+    "name": "Swarm of Rot Grubs",
+    "publication": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, November 2016",
+    "copyrightYear": 2016,
+    "isbn": "978-0-7869-6601-1",
+    "section": "Appendix A: Assorted Beasts",
+    "sourceHeading": "Swarm of Rot Grubs",
+    "printedPages": [
+      208
+    ],
+    "pdfPages": [
+      209
+    ],
+    "sourceFile": "",
+    "sourceSha256": "dfb296846f6fe2ce8adba02474d7cb434f96950aef208fceae4823283337456f",
+    "sourceUrl": "https://www.dndbeyond.com/sources/dnd/vgtm",
+    "url": "https://www.dndbeyond.com/sources/dnd/vgtm",
+    "publisherListing": "https://www.dndbeyond.com/sources/dnd/vgtm",
+    "publisherCatalog": "",
+    "digitalReference": "https://www.dndbeyond.com/monsters/17323-swarm-of-rot-grubs",
+    "sourceRole": "The local first-printing supplies the rules. Publisher indexes corroborate identity.",
+    "errataUrl": "",
+    "errataWebUrl": "https://www.dndbeyond.com/sources/dnd/sae/volos-guide-to-monsters",
+    "errataEvidence": "The Wizards 2021 v3.0 errata list no change to this profile.",
+    "sourceDistinctions": [
+      "The swarm’s Bites infests on an attack hit without a separate save. The DC 10 DEX contact rule in the preceding prose is for one grub, which has no separate stat block.",
+      "The printed swarm only resists piercing and slashing, with no Stunned immunity line. Its Bites have no reduced damage at half HP."
+    ],
+    "appearanceEvidence": "Page 208 specifies finger-sized maggots. Segmentation is an editorial depiction of the larvae.",
+    "habitatEvidence": "Page 208 identifies corpses and decaying piles as infestation sites. The publisher’s legacy monster catalog also lists Swamp.",
+    "artGroup": "swarm-of-rot-grubs",
+    "artOwner": "b13_05"
+  }
+]

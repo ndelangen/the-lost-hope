@@ -1,0 +1,205 @@
+[
+  {
+    "name": "Giant Eagle",
+    "publication": "DDEP1 - Corruption in Kryptgarden",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "adventureCode": "DDEP1-1",
+    "printing": "limited release, debut August 16, 2014",
+    "copyrightYear": 2014,
+    "section": "Appendix Track 3: Monster/NPC Statistics",
+    "sourceHeading": "Giant Eagle",
+    "printedPages": [
+      46
+    ],
+    "pdfPages": [
+      46
+    ],
+    "encounterPrintedPages": [
+      39
+    ],
+    "encounterPdfPages": [
+      39
+    ],
+    "sourceFile": " - 5th Edition (2014)/Adventures/DDEP1 - Corruption in ",
+    "sourceSha256": "048950702c9b6c4e93b4adedcfa38db58b68d49b783f7739dda7bbc22d9639d2",
+    "sourceUrl": "",
+    "url": "",
+    "publisherListing": "",
+    "sourceRole": "The original adventure supplies the stat block and encounter. The Wizards adventure index confirms the publication identity.",
+    "sourceDistinctions": [
+      "The appendix prints neutral good. The encounter identifies a corrupted specimen and supplies the aerial tactics."
+    ],
+    "appearanceEvidence": "The Aerial Battle on p. 39 describes emaciated flying forms and identifies the corrupted giant eagle among the foes.",
+    "habitatEvidence": "The Aerial Battle on p. 39 takes place above the treeline near the forest stronghold.",
+    "artGroup": "kryptgarden-giant-eagle",
+    "artOwner": "b15_07",
+    "artworkSource": "portraits/kryptgarden-giant-eagle.png",
+    "artworkSha256": "d2e302ad06847383fe3b03957c16417d8128dbc1225857c73d4b4eeeaa3cd49b"
+  },
+  {
+    "name": "Giant Owl",
+    "publication": "DDEP1 - Corruption in Kryptgarden",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "adventureCode": "DDEP1-1",
+    "printing": "limited release, debut August 16, 2014",
+    "copyrightYear": 2014,
+    "section": "Appendix Track 3: Monster/NPC Statistics",
+    "sourceHeading": "Giant Owl",
+    "printedPages": [
+      46
+    ],
+    "pdfPages": [
+      46
+    ],
+    "encounterPrintedPages": [
+      39
+    ],
+    "encounterPdfPages": [
+      39
+    ],
+    "sourceFile": " - 5th Edition (2014)/Adventures/DDEP1 - Corruption in ",
+    "sourceSha256": "048950702c9b6c4e93b4adedcfa38db58b68d49b783f7739dda7bbc22d9639d2",
+    "sourceUrl": "",
+    "url": "",
+    "publisherListing": "",
+    "sourceRole": "The original adventure supplies the stat block and encounter. The Wizards adventure index confirms the publication identity.",
+    "sourceDistinctions": [
+      "The appendix gives the Giant Owl the same p. 46 folio as the Giant Eagle."
+    ],
+    "appearanceEvidence": "Page 39 describes the aerial interceptors as emaciated and identifies two as giant owls.",
+    "habitatEvidence": "The Aerial Battle on p. 39 places the giant owls over the forest near the stronghold.",
+    "artGroup": "kryptgarden-giant-owl",
+    "artOwner": "b15_07",
+    "artworkSource": "portraits/kryptgarden-giant-owl.png",
+    "artworkSha256": "5a986cd463741a04c04c707fb1e58443a989b1dd6337d5a89ad5b9ee5a083dbd"
+  },
+  {
+    "name": "Wolf",
+    "publication": "DDEP1 - Corruption in Kryptgarden",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "adventureCode": "DDEP1-1",
+    "printing": "limited release, debut August 16, 2014",
+    "copyrightYear": 2014,
+    "section": "Appendix Track 3: Monster/NPC Statistics",
+    "sourceHeading": "Wolf",
+    "printedPages": [
+      48
+    ],
+    "pdfPages": [
+      48
+    ],
+    "encounterPrintedPages": [
+      36,
+      37
+    ],
+    "encounterPdfPages": [
+      36,
+      37
+    ],
+    "sourceFile": " - 5th Edition (2014)/Adventures/DDEP1 - Corruption in ",
+    "sourceSha256": "048950702c9b6c4e93b4adedcfa38db58b68d49b783f7739dda7bbc22d9639d2",
+    "sourceUrl": "",
+    "url": "",
+    "publisherListing": "",
+    "sourceRole": "The original adventure supplies the stat block and encounter. The Wizards adventure index confirms the publication identity.",
+    "sourceDistinctions": [
+      "The adventure gives a corrupted appearance for the encounter and prints the Wolf block with its ordinary abilities."
+    ],
+    "appearanceEvidence": "The Foes and Tactics text across pp. 36–37 gives the details of the corrupted pack’s appearance.",
+    "habitatEvidence": "The Corrupted Hills encounter on pp. 36–37 places the pack in forest underbrush.",
+    "artGroup": "kryptgarden-wolf",
+    "artOwner": "b15_07",
+    "artworkSource": "portraits/kryptgarden-wolf.png",
+    "artworkSha256": "daa18511ed1ba746492017ed57118d5e3fbcdd1fd1897f51139203570792e737"
+  },
+  {
+    "name": "Giant Goat",
+    "publication": "DDEX1-13 - Pool of Radiance Resurgent",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "adventureCode": "DDEX1-13",
+    "printing": "March 1, 2015 release",
+    "copyrightYear": 2015,
+    "section": "Appendix 1: Monster/NPC Statistics",
+    "sourceHeading": "Giant Goat",
+    "printedPages": [
+      26
+    ],
+    "pdfPages": [
+      26
+    ],
+    "encounterPrintedPages": [
+      12
+    ],
+    "encounterPdfPages": [
+      12
+    ],
+    "sourceFile": " - 5th Edition (2014)/Adventures/DDEX1-13 - Pool of Radiance ",
+    "sourceSha256": "dacb6a3ec15cff2c14afea440c74e42c055781ffba031783a5ced5dfc13f7038",
+    "sourceUrl": "",
+    "url": "",
+    "publisherListing": "",
+    "sourceRole": "The original adventure supplies the stat block and encounter. The Wizards adventure index confirms the publication identity.",
+    "sourceDistinctions": [
+      "The rules identity is Giant Goat. The travel encounter substitutes bison appearance and herd behavior."
+    ],
+    "appearanceEvidence": "The p. 26 stat block names Giant Goat. The p. 12 encounter explicitly uses it for bison. Goat anatomy is editorial for the base stat block.",
+    "habitatEvidence": "The bison entry in the p. 12 travel table uses the Giant Goat block in the hills toward Kranun’s Crater.",
+    "artGroup": "giant-goat",
+    "artOwner": "b15_07",
+    "artworkSource": "beast-ready-batch-04/parts/b04_08/portraits/giant-goat.png",
+    "artworkRuntimeFile": "images/beast-ready-batch-04/giant-goat.png",
+    "reuseSha256": "45321fd1c552698a553455a5a226f10c2220a57d892bec18c5eb5c7c845450ce"
+  },
+  {
+    "name": "Saber-­‐Toothed Tiger",
+    "publication": "DDEX1-13 - Pool of Radiance Resurgent",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "adventureCode": "DDEX1-13",
+    "printing": "March 1, 2015 release",
+    "copyrightYear": 2015,
+    "section": "Appendix 1: Monster/NPC Statistics",
+    "sourceHeading": "Saber-Toothed Tiger",
+    "printedPages": [
+      29
+    ],
+    "pdfPages": [
+      29
+    ],
+    "encounterPrintedPages": [
+      12
+    ],
+    "encounterPdfPages": [
+      12
+    ],
+    "sourceFile": " - 5th Edition (2014)/Adventures/DDEX1-13 - Pool of Radiance ",
+    "sourceSha256": "dacb6a3ec15cff2c14afea440c74e42c055781ffba031783a5ced5dfc13f7038",
+    "sourceUrl": "",
+    "url": "",
+    "publisherListing": "",
+    "sourceRole": "The original adventure supplies the stat block and encounter. The Wizards adventure index confirms the publication identity.",
+    "sourceDistinctions": [
+      "The printed heading uses an ordinary hyphen. The indexed identity retains the roster’s distinct Unicode punctuation.",
+      "Page 29 prints STR 18 (+4) and +6 to hit, with +5 in the damage formula for both attacks. This profile uses the printed formulas."
+    ],
+    "appearanceEvidence": "The printed heading names a saber-toothed tiger. The cat’s build and fang shape are editorial portrait details.",
+    "habitatEvidence": "The p. 12 travel table places the saber-toothed tigers with stone giants on the way to Kranun’s Crater.",
+    "artGroup": "saber-toothed-tiger",
+    "artOwner": "b15_07",
+    "artworkSource": "beast-ready-batch-06/reused-portraits/saber-toothed-tiger.webp",
+    "artworkRuntimeFile": "images/beasts/saber-toothed-tiger/parchment-portrait.webp",
+    "reuseSha256": "b493c15e6f2dbf1de2b14f86655593a8d41fdf84507bcfbe6cb72a3c96014434",
+    "searchAliases": [
+      "Saber-Toothed Tiger"
+    ]
+  }
+]

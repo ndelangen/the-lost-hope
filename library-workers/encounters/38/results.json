@@ -1,0 +1,45 @@
+[
+  {
+    "name": "Ankheg (MCDM)",
+    "source": "https://www.dndbeyond.com/monsters/4485772-ankheg-mcdm",
+    "challenge": "2",
+    "entry": "monster-9c8ce4e0841bb15dd15f88a7",
+    "version": "47a6b8cae90a819972324ba9",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "slug": "ankheg",
+    "kind": "monster",
+    "type": "Monstrosity",
+    "encounterStatus": "local-stat-block",
+    "generated": true,
+    "primaryPortraitSha256": "3c5563b7b2c900499faac86d786560d1ea476741e8e0f7c40bcc5c88fe63c659",
+    "status": "Stat block",
+    "appearance": "A giant burrowing insect with a ridged exoskeleton, curved mandibles and long crooked feelers.",
+    "habitats": [
+      "Roadside earth",
+      "Woodland edges",
+      "Burrows"
+    ]
+  },
+  {
+    "name": "Basilisk (MCDM)",
+    "source": "https://www.dndbeyond.com/monsters/4485784-basilisk-mcdm",
+    "challenge": "3",
+    "entry": "monster-a776016db6e659e2db5e8699",
+    "version": "a18fba4a83ed4b9db00fe822",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "slug": "basilisk",
+    "kind": "monster",
+    "type": "Monstrosity",
+    "encounterStatus": "local-stat-block",
+    "generated": true,
+    "primaryPortraitSha256": "0c1262f7b529c3ed8e33978fdec03208c45c53606d461059473b45e61e9a3788",
+    "status": "Stat block",
+    "appearance": "A squat, eight-legged reptile with rough stone-like scales, sharp teeth and watchful eyes.",
+    "habitats": [
+      "Damp caves",
+      "Rocky dens"
+    ]
+  }
+]

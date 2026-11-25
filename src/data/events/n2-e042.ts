@@ -5,6 +5,7 @@ export default createEvent({
   name: 'Guild tattoos pass for papers at the gate',
   day: 12,
   location: refs.locations.fairhaven_city_gate,
+  illustrations: ['/assets/scenes/guild-tattoos-pass-for-papers-at-the-gate.png'],
   mark: { type: 'icon', name: 'gi/GiPassport' },
   notes: [
     [

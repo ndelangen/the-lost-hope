@@ -1,0 +1,40 @@
+{
+  "baseline": "5bd898647ba14c5de2719d7c9c2c78969ec598d0",
+  "verifiedBeastVersions": 3,
+  "ruleset": "black-flag",
+  "profiles": [
+    {
+      "name": "Moose",
+      "challenge": "1/2",
+      "sourceIndexChallenge": "0.5",
+      "versionKey": "32a5a2e406b584959d3f12b8",
+      "portrait": "existing parchment portrait",
+      "portraitSha256": "cf8867f3684ca8abd7224751ecaff33666624e04387b102427d86b33ea6cd040",
+      "galleryImageCount": 2
+    },
+    {
+      "name": "Reindeer",
+      "challenge": "1/4",
+      "sourceIndexChallenge": "0.3",
+      "versionKey": "ff655e3a11dcf1e96ef5a86b",
+      "portrait": "new draft",
+      "portraitSha256": "e20ecf6fb5a414890320eecaeed403ac17067559ccd8cfd86f815fe8357e0c96",
+      "galleryImageCount": 1
+    },
+    {
+      "name": "Sea Serpent",
+      "challenge": "3",
+      "sourceIndexChallenge": "3.0",
+      "versionKey": "88fb84ce49a772c818242b9a",
+      "portrait": "revised draft",
+      "portraitSha256": "8f79b68fd73e0353e6823e8628bf841b8149873424e6b96f46bc847c42cb6be3",
+      "galleryImageCount": 2
+    }
+  ],
+  "habitatsAndAppearanceSearchable": true,
+  "creditedAlternatesPreserved": true,
+  "reusedPortraits": 1,
+  "newDrafts": 1,
+  "revisedDrafts": 1,
+  "exactQuarterChallengeProfiles": 1
+}

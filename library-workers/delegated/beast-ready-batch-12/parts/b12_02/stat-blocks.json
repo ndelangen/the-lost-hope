@@ -1,0 +1,132 @@
+[
+  {
+    "name": "Mastiff",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Medium Beast",
+    "ac": 12,
+    "hp": 9,
+    "speed": "40 ft.",
+    "cr": "1/8",
+    "xp": 25,
+    "otherStatistics": "Str +1, Dex +2, Con +1, Int -4, Wis +1, Cha -2. Perception 11. Stealth 12. No special senses. Languages none.",
+    "appearance": "A muscular fawn mastiff with a broad dark muzzle and dropped ears.",
+    "habitats": [
+      "Farmland",
+      "Forest",
+      "Hills",
+      "Urban"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Cubil de Monstruos, licensed Nosolorol Spanish edition of Monster Vault, p. 347. Entry heading “Mastín”. https://www.nosolorol.com/talesofthevaliant",
+      "Traits": "Heightened Hearing and Smell. Perception rises to 16 when relying on hearing or smell.",
+      "Actions": "Bite. Make a melee weapon attack at +4 against one target within 5 ft. A hit deals 4 (1d4 + 2) piercing damage. A creature hit must pass a DC 12 Strength save or fall Prone.",
+      "Reactions": "Protect Friend. When a creature within 5 ft. of the mastiff hits a friendly Humanoid the mastiff can see with an attack, the mastiff may make one Bite attack against the attacker."
+    }
+  },
+  {
+    "name": "Mule",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Medium Beast",
+    "ac": 10,
+    "hp": 10,
+    "speed": "40 ft.",
+    "cr": "1/8",
+    "xp": 25,
+    "otherStatistics": "Str +2, Dex +0, Con +1, Int -4, Wis +0, Cha -3. Perception 10. Stealth 10. No special senses. Resistant to Exhaustion and Prone. Languages none.",
+    "appearance": "A brown mule with upright ears, a pale muzzle and short dark mane.",
+    "habitats": [
+      "Grassland",
+      "Hills",
+      "Urban"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Cubil de Monstruos, licensed Nosolorol Spanish edition of Monster Vault, pp. 347–348. Entry heading “Mula”. https://www.nosolorol.com/talesofthevaliant",
+      "Traits": "Beast of Burden. Treat the mule as Large when determining carrying capacity.",
+      "Actions": "Hooves. Make a melee weapon attack at +4 against one target within 5 ft. A hit deals 4 (1d4 + 2) bludgeoning damage."
+    }
+  },
+  {
+    "name": "Octopus",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Small Beast",
+    "ac": 11,
+    "hp": 8,
+    "speed": "5 ft., swim 60 ft.",
+    "cr": "0",
+    "xp": 10,
+    "otherStatistics": "Str -3, Dex +1, Con +0, Int -4, Wis +0, Cha -3. Perception 12. Stealth 13. Darkvision 30 ft. Languages none.",
+    "appearance": "An octopus with a rounded mantle and curling, sucker-lined arms.",
+    "habitats": [
+      "Underwater"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Cubil de Monstruos, licensed Nosolorol Spanish edition of Monster Vault, p. 351. Entry heading “Pulpo”. https://www.nosolorol.com/talesofthevaliant",
+      "Traits": "Hold Breath. Outside water, the octopus can hold its breath for 30 minutes.\nUnderwater Camouflage. Underwater, its Stealth score is 18.\nWater Breathing. The octopus breathes only underwater.",
+      "Actions": "Tentacles. Make a melee weapon attack at +3 against one target within 5 ft. A hit deals 3 (1d4 + 1) bludgeoning damage. A Medium or smaller creature hit is Grappled (escape DC 11). Until that grapple ends, the octopus cannot use Tentacles against another target.",
+      "Reactions": "Ink Dash (Recharge 6). When a creature the octopus can see damages it, the octopus can release a 5-ft.-radius cloud of ink centered on itself if it is underwater. The cloud heavily obscures the area until the end of the octopus’s next turn. A strong current can disperse it. The octopus can then swim up to its swim speed. If it swims, it immediately releases every creature it is grappling."
+    }
+  },
+  {
+    "name": "Octopus, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Large Beast",
+    "ac": 11,
+    "hp": 44,
+    "speed": "10 ft., swim 30 ft.",
+    "cr": "1",
+    "xp": 200,
+    "otherStatistics": "Str +3, Dex +1, Con +1, Int -3, Wis +0, Cha -3. Perception 14. Stealth 13. Darkvision 60 ft. Languages none.",
+    "appearance": "A giant octopus with a bulbous mantle and long sucker-lined arms.",
+    "habitats": [
+      "Underwater"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Cubil de Monstruos, licensed Nosolorol Spanish edition of Monster Vault, p. 352. Entry heading “Pulpo gigante”. https://www.nosolorol.com/talesofthevaliant",
+      "Traits": "Hold Breath. Outside water, the octopus can hold its breath for 1 hour.\nUnderwater Camouflage. Underwater, its Stealth score is 18.\nWater Breathing. The octopus breathes only underwater.",
+      "Actions": "Tentacles. Make a melee weapon attack at +5 against one target within 15 ft. A hit deals 10 (2d6 + 3) bludgeoning damage. A Huge or smaller creature hit is Grappled (escape DC 13) and Restrained until the grapple ends. The octopus can grapple up to two creatures at once.",
+      "Bonus Actions": "Tentacle Slam. Slam one Medium or smaller creature the octopus is grappling against a solid surface. The creature makes a DC 13 Strength save, taking 7 (2d6) bludgeoning damage on a failure or half as much on a success.",
+      "Reactions": "Ink Dash (Recharge 4–6). When a creature the octopus can see damages it, the octopus can release a 20-ft.-radius cloud of ink centered on itself if it is underwater. The cloud heavily obscures the area until the end of the octopus’s next turn. A strong current can disperse it. The octopus can then swim up to its swim speed. If it swims, it immediately releases every creature it is grappling."
+    }
+  },
+  {
+    "name": "Orca",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Huge Beast",
+    "ac": 12,
+    "hp": 80,
+    "speed": "0 ft., swim 60 ft.",
+    "cr": "3",
+    "xp": 700,
+    "otherStatistics": "Str +4, Dex +0, Con +1, Int -4, Wis +1, Cha -2. Perception 13. Stealth 10. Natural armor. Resistant to cold damage. Keensense 120 ft. Languages none.",
+    "appearance": "A black-and-white orca with a tall dorsal fin and broad tail flukes.",
+    "habitats": [
+      "Underwater"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Cubil de Monstruos, licensed Nosolorol Spanish edition of Monster Vault, pp. 348–349. Entry heading “Orca”. https://www.nosolorol.com/talesofthevaliant",
+      "Traits": "Echolocation. Deafened prevents the orca from using Keensense.\nHeightened Hearing. Perception rises to 18 when relying on hearing.\nHold Breath. The orca can hold its breath for 30 minutes.",
+      "Actions": "Multiattack. Make two Bite attacks.\nBite. Make a melee weapon attack at +6 against one creature within 5 ft. A hit deals 14 (3d6 + 4) piercing damage.",
+      "Bonus Actions": "Tail Slap. Choose one creature the orca can see within 15 ft. of its tail. The target makes a DC 14 Strength save. On a failure it is pushed up to 15 ft. away from the orca and knocked Prone. On a failure by 5 or more it is also Stunned until the end of its next turn."
+    }
+  }
+]

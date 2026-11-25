@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Blood Hound",
+    "version": {
+      "key": "529b7fd06ca71593a6be0516",
+      "publication": "Blood Spawn: Creatures of Light and Shadow",
+      "edition": "AD&D 2nd edition",
+      "status": "Combat summary",
+      "images": [
+        {
+          "url": "",
+          "credit": "Related Dire Wolf illustration · Monster Manual (2014) · Blood Spawn: Creatures of Light and Shadow"
+        }
+      ],
+      "stats": [
+        [
+          "Armor class",
+          "6"
+        ],
+        [
+          "Hit dice",
+          "3+2"
+        ],
+        [
+          "Size",
+          "M, 4–6 ft. long"
+        ],
+        [
+          "Movement",
+          "12"
+        ],
+        [
+          "THAC0",
+          "19"
+        ],
+        [
+          "Attacks per round",
+          "1"
+        ],
+        [
+          "Damage per attack",
+          "2d4"
+        ],
+        [
+          "XP",
+          "120"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Cerilia",
+            "Anuire",
+            "Kennels"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A large wolfhound or mastiff with a distinct patch of red fur called a Bloodmark."
+          ]
+        },
+        {
+          "title": "Attacks",
+          "lines": [
+            "Bite · melee · 2d4"
+          ]
+        },
+        {
+          "title": "Tracking mechanics",
+          "lines": [
+            "Within one mile · Automatically picks up the scent of a blooded individual within 1 mile, or one that passed through the area in the last 5 days if it has not rained.",
+            "Within five miles · 50% chance to pick up a scion’s trail within 5 miles or if the scion passed within 5 miles in the last 2 days. Add 15 percentage points for matching bloodline derivation, 15 for a specific quarry’s personal item, and 10 for a quarry with a great bloodline.",
+            "Choosing a quarry · Its master can name a target or have it find any scion. For an open search, it excludes members of the hunting party and favors a scion of its own bloodline derivation over a nearer one of a different derivation. It has a 50% chance to locate a specific unblooded commoner within 1 mile."
+          ]
+        },
+        {
+          "title": "Trait mechanics",
+          "lines": [
+            "Imprinting · A breeder imprints the hound on a blooded master. Mistreatment, the master’s death, or an imprinting transfer with the old and new masters can end that bond.",
+            "Bloodmark · It has a tainted bloodline of strength 1d3. There is a 5% chance it also has one minor blood ability. The book lists Courage, Detect Illusion, Detect Life, Direction Sense, Iron Will, Long Life, Poison Sense and Resistance as options, chosen with its derivation in mind.",
+            "The Seeming · The hound can sense something amiss with a creature cloaked by the Seeming. It learns no further detail."
+          ]
+        },
+        {
+          "title": "Encounter mechanics",
+          "lines": [
+            "Defending its master · It usually pins or corners quarry and bites if attacked, ordered, or if it senses a threat to its master. A hound of the same bloodline derivation as its master has morale 20. It fights to the death if it believes its master is in danger, unless its master calls it off.",
+            "Vos hound · The book describes a wild variant that hunts blooded quarry. It appears in packs of 3d6, has neutral evil alignment, and bites for 2d6. The book presents bloodtheft as a rumor."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "The table on p. 15 lists Bite damage as 2d4. The combat prose on p. 14 gives 2d4 + 1 for a provoked Bite. This profile uses the table value.",
+            "Very rare, solitary, neutral, omnivorous, active at any time, semi-intelligent (2–4). Number appearing 1d4. Morale 11–12 unless its master shares its derivation. No special attacks, special defenses, treasure, or magic resistance.",
+            "The source places the breed in Cerilia, especially Anuire. Ordinary Blood Hounds are raised in kennels. Handlers train them for four to five years.",
+            "Wizards of the Coast, Blood Spawn: Creatures of Light and Shadow (2000), pp. 13–15."
+          ]
+        }
+      ]
+    },
+    "queries": {
+      "Cerilia": true,
+      "Anuire": true,
+      "Kennels": true,
+      "patch of red fur": true
+    },
+    "gallery": [
+      {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      {
+        "url": "",
+        "credit": "Related Dire Wolf illustration · Monster Manual (2014) · Blood Spawn: Creatures of Light and Shadow"
+      }
+    ],
+    "portraitHash": "69a2d95c00afdae37b00aa7d04e99383a6a3d5635e853bf6c16c336112604e7e"
+  }
+]

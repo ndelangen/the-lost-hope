@@ -1,0 +1,370 @@
+[
+  {
+    "name": "Aerosaur",
+    "statBlock": {
+      "name": "Aerosaur",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 128,
+      "classification": "Gargantuan monstrosity, unaligned",
+      "ac": 14,
+      "hp": 155,
+      "hitDice": "10d20 + 50",
+      "speed": "20 ft., fly 120 ft.",
+      "abilities": {
+        "Str": {
+          "score": 26
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "cr": "10",
+      "xp": 5900,
+      "passivePerception": 14,
+      "description": "A colossal pterosaur with a wingspan near 200 feet. Lightning-like markings trace its scales, and its wingbeats unleash thunder.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 4
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Traits": "Magic Resistance. The creature rolls with advantage on saves against spells and other magical effects.",
+        "Actions": "Multiattack. Make one Bite attack and one Talons attack.\nBite. Melee weapon attack, +12 to hit, reach 10 ft., one target. A hit deals 27 (3d12 + 8) piercing damage. A Huge or smaller creature hit is grappled (escape DC 18) and restrained for the duration of the grapple. The aerosaur cannot bite another target while this grapple lasts.\nTalons. Melee weapon attack, +12 to hit, reach 10 ft., one target. A hit deals 24 (3d10 + 8) slashing damage.\nWing Gusts (Recharge 5–6). Each creature within 10 ft. makes a DC 20 Strength save. On a failure, it takes 38 (7d10) thunder damage, is pushed up to 30 ft. horizontally away from the aerosaur, and falls prone. On a success, it takes half damage and is pushed up to 15 ft. horizontally away from the aerosaur.",
+        "Languages": "None.",
+        "Printed source": "Bigby Presents: Glory of the Giants, p. 128."
+      }
+    }
+  },
+  {
+    "name": "Altisaur",
+    "statBlock": {
+      "name": "Altisaur",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 129,
+      "classification": "Gargantuan monstrosity, unaligned",
+      "ac": 15,
+      "hp": 198,
+      "hitDice": "12d20 + 72",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 28
+        },
+        "Dex": {
+          "score": 6
+        },
+        "Con": {
+          "score": 23
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "13",
+      "xp": 10000,
+      "passivePerception": 21,
+      "description": "An eight-legged sauropod with a ridged back and glowing seams in its hide. Its tail can gouge a channel through the ground.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 11
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Traits": "Magic Resistance. The creature rolls with advantage on saves against spells and other magical effects.",
+        "Actions": "Multiattack. Make one Stomp attack and one Tail attack against different targets.\nStomp. Melee weapon attack, +14 to hit, reach 10 ft., one target. A hit deals 33 (7d6 + 9) bludgeoning damage. A Huge or smaller creature hit must pass a DC 22 Strength save or fall prone.\nTail. Melee weapon attack, +14 to hit, reach 20 ft., one target. A hit deals 45 (8d8 + 9) bludgeoning damage and pushes the target up to 20 ft. horizontally away from the altisaur.",
+        "Languages": "None.",
+        "Printed source": "Bigby Presents: Glory of the Giants, p. 129."
+      }
+    }
+  },
+  {
+    "name": "Bag Jelly",
+    "statBlock": {
+      "name": "Bag Jelly",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 120,
+      "classification": "Medium ooze, unaligned",
+      "ac": 8,
+      "hp": 42,
+      "hitDice": "5d8 + 20",
+      "speed": "10 ft., climb 10 ft.",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 6
+        },
+        "Con": {
+          "score": 19
+        },
+        "Int": {
+          "score": 2
+        },
+        "Wis": {
+          "score": 7
+        },
+        "Cha": {
+          "score": 2
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 8,
+      "description": "An olive-colored ooze that feeds on scraps in giant bags. Its adhesive surface can trap a thief long enough to wake the owner.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Senses": "Blindsight 60 ft. The jelly cannot see beyond that range.",
+        "Damage resistances": "Acid and bludgeoning.",
+        "Condition immunities": "Exhaustion.",
+        "Traits": "Amorphous. The jelly can pass through a gap as narrow as 1 inch without squeezing.",
+        "Actions": "Multiattack. Make two Pseudopod attacks.\nPseudopod. Melee weapon attack, +3 to hit, reach 5 ft., one target. A hit deals 8 (2d6 + 1) acid damage and grapples the target if it is a Medium or smaller creature (escape DC 11). The target has disadvantage on ability checks to escape that grapple.",
+        "Languages": "None.",
+        "Printed source": "Bigby Presents: Glory of the Giants, p. 120."
+      }
+    }
+  },
+  {
+    "name": "Barrowghast",
+    "statBlock": {
+      "name": "Barrowghast",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 121,
+      "classification": "Huge undead, typically chaotic evil",
+      "ac": 12,
+      "hp": 138,
+      "hitDice": "12d12 + 60",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 21
+        },
+        "Dex": {
+          "score": 8
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 9
+        },
+        "Cha": {
+          "score": 6
+        }
+      },
+      "cr": "7",
+      "xp": 2900,
+      "passivePerception": 9,
+      "description": "A hill giant may rise as a barrowghast after dying hungry and furious. It feeds on life energy and often seeks out people it knew.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Giant.",
+        "Damage resistances": "Necrotic and poison.",
+        "Condition immunities": "Exhaustion and poisoned.",
+        "Traits": "Stench. A creature that starts its turn within 10 ft. must make a DC 16 Constitution save. Failure poisons it for 1 minute and prevents it from regaining HP while poisoned this way. Success makes it immune to all barrowghast Stench traits for 24 hours.",
+        "Actions": "Multiattack. Make two Slam attacks, or make one Slam and one Life Drain attack.\nSlam. Melee weapon attack, +8 to hit, reach 10 ft., one target. A hit deals 18 (2d12 + 5) bludgeoning damage.\nLife Drain. Melee weapon attack, +8 to hit, reach 10 ft., one creature. A hit deals 9 (1d8 + 5) necrotic damage. On a failed DC 16 Constitution save, reduce its maximum HP by the damage it took until it finishes a long rest. It dies if this reduction brings its maximum HP to 0. A Humanoid killed by Life Drain immediately rises as a zombie ally of the barrowghast and acts independently.",
+        "Reactions": "Noxious Wound. Immediately after the barrowghast takes piercing or slashing damage, each creature within 5 ft. makes a DC 16 Dexterity save against the ichor it sprays. A creature takes 10 (3d6) poison damage on a failure or half as much on a success.",
+        "Printed source": "Bigby Presents: Glory of the Giants, p. 121."
+      }
+    }
+  },
+  {
+    "name": "Cairnwight",
+    "statBlock": {
+      "name": "Cairnwight",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 122,
+      "classification": "Huge undead, typically neutral",
+      "ac": 19,
+      "hp": 138,
+      "hitDice": "12d12 + 60",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 23
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "cr": "9",
+      "xp": 5000,
+      "passivePerception": 15,
+      "description": "A stone giant that dies while carving a masterwork may rise to finish and guard it. Its lichen-covered body blends into the cavern.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Athletics": 10,
+        "Perception": 5,
+        "Stealth": 8
+      },
+      "savingThrows": {
+        "Con": 9,
+        "Wis": 5
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Giant.",
+        "Condition immunities": "Charmed, exhaustion, frightened, and petrified.",
+        "Actions": "Multiattack. Make two Slam attacks or two Rock attacks. Also use Petrifying Touch if it is available.\nSlam. Melee weapon attack, +10 to hit, reach 10 ft., one target. A hit deals 22 (3d10 + 6) bludgeoning damage.\nRock. Ranged weapon attack, +10 to hit, range 60/240 ft., one target. A hit deals 19 (3d8 + 6) bludgeoning damage. The target must pass a DC 17 Strength save or fall prone.\nPetrifying Touch (Recharge 5–6). Touch one visible creature within 10 ft. It must make a DC 17 Constitution save. On a failure, it takes 26 (4d12) force damage and becomes restrained as it turns to stone. The affected creature repeats the save at the end of its next turn. Success ends the effect. Failure replaces restrained with petrified.",
+        "Printed source": "Bigby Presents: Glory of the Giants, p. 122."
+      }
+    }
+  },
+  {
+    "name": "Ceratops",
+    "statBlock": {
+      "name": "Ceratops",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 129,
+      "classification": "Gargantuan monstrosity, unaligned",
+      "ac": 16,
+      "hp": 139,
+      "hitDice": "9d20 + 45",
+      "speed": "50 ft.",
+      "abilities": {
+        "Str": {
+          "score": 24
+        },
+        "Dex": {
+          "score": 8
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 4
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "9",
+      "xp": 5000,
+      "passivePerception": 10,
+      "description": "A horned monstrosity more than 200 feet long, with green light running through its thick scales. A charging ceratops can trample a forest.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Traits": "Magic Resistance. The creature rolls with advantage on saves against spells and other magical effects.",
+        "Actions": "Multiattack. Make one Gore attack and one Stomp attack.\nGore. Melee weapon attack, +11 to hit, reach 10 ft., one target. A hit deals 29 (4d10 + 7) piercing damage. If the ceratops moved at least 20 ft. straight toward the target immediately before hitting, the hit deals another 11 (2d10) piercing damage. A creature hit after that charge must also pass a DC 19 Strength save or be pushed up to 20 ft. away and fall prone.\nStomp. Melee weapon attack, +11 to hit, reach 5 ft., one target. A hit deals 29 (4d10 + 7) bludgeoning damage.",
+        "Languages": "None.",
+        "Printed source": "Bigby Presents: Glory of the Giants, p. 129."
+      }
+    }
+  },
+  {
+    "name": "Cinder Hulk",
+    "statBlock": {
+      "name": "Cinder Hulk",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 123,
+      "classification": "Large elemental, typically chaotic evil",
+      "ac": 16,
+      "hp": 84,
+      "hitDice": "8d10 + 40",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 9
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "7",
+      "xp": 2900,
+      "passivePerception": 15,
+      "description": "A descendant of fire giants whose body has become a shifting mass of ash and embers. It collapses into a cloud of searing smoke when it dies.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 5
+      },
+      "savingThrows": {
+        "Dex": 4,
+        "Con": 8,
+        "Wis": 5
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Languages": "Giant and Ignan.",
+        "Damage immunities": "Fire and poison.",
+        "Condition immunities": "Exhaustion and poisoned.",
+        "Traits": "Death Burst. On death, a 10-ft.-radius sphere of cinders and smoke forms around the hulk’s space. The sphere is heavily obscured. A creature that moves into it for the first time on a turn or starts its turn there must pass a DC 16 Constitution save or take 10 (3d6) fire damage. The cloud lasts for 1 minute unless a strong wind disperses it sooner.",
+        "Actions": "Multiattack. Make two Slam attacks.\nSlam. Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 16 (2d10 + 5) bludgeoning damage plus 10 (3d6) fire damage.\nWave of Cinders (Recharge 5–6). Each creature in a 30-ft. cone makes a DC 16 Dexterity save. On a failure, it takes 31 (7d8) fire damage and is blinded until the end of its next turn. On a success, it takes half damage.",
+        "Printed source": "Bigby Presents: Glory of the Giants, p. 123."
+      }
+    }
+  }
+]

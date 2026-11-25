@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Uldra",
+    "kind": "species",
+    "publication": "Frostburn (2004)",
+    "edition": "3.5 edition",
+    "book": "Frostburn",
+    "authors": [
+      "Wolfgang Baur",
+      "James Jacobs",
+      "George Strayton"
+    ],
+    "publisher": "Wizards of the Coast",
+    "firstPrinting": "September 2004",
+    "productCode": "620-17758-001-EN",
+    "isbn": "0-7869-2896-4",
+    "printedPages": {
+      "playableSpecies": [
+        38,
+        39,
+        40
+      ],
+      "racialTraits": 40,
+      "illustration": 39,
+      "warrior": [
+        158,
+        159
+      ],
+      "namedExample": 186
+    },
+    "pdfPageOffset": 0,
+    "primaryBookScan": "",
+    "primaryBookSha256": "4e794d5f13557e3d925ad925c710ad5c924454fe07fff4e818c52e7bfc6b84da",
+    "officialErrataArchive": "https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP",
+    "errataFilename": "",
+    "errataSha256": "bd74b7b46036f60d8df4f20eef61b38d2a1fdf7b7b80d06b050563ab69dcd4ec",
+    "faqFilename": "",
+    "faqSha256": "312db30e76d5342b9f9e319d66aa60d86042a25535ba7524cba3193ae0bb08c6",
+    "printedArtCredit": "David Griffith, Frostfell races (Uldra), p. 39.",
+    "sourceDistinctions": [
+      "Cold environment protection extends to equipment. Against cold attacks the racial trait gives resistance 5.",
+      "Frosty Touch uses a free action and applies to unarmed and held melee weapons, without stacking with magic weapon cold damage.",
+      "Racial spell-like caster level is Hit Dice. The text specifies Wisdom-based DCs. The separate Warrior and Grimsickle stat blocks have their own values.",
+      "Wizards’ February 2006 Frostburn errata does not change Uldra."
+    ],
+    "entryId": "species-d736dce46017b4e060f0985f",
+    "versionKey": "ef17c3277a32bc20095487d0",
+    "slug": "uldra",
+    "portraitSelection": "generated",
+    "portraitForm": "Rimewillow, an original Uldra Druid",
+    "npcExamples": [
+      "Rimewillow",
+      "Stillrime"
+    ]
+  }
+]

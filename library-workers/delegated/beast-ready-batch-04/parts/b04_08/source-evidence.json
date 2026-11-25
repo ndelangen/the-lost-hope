@@ -1,0 +1,164 @@
+[
+  {
+    "name": "Giant Goat",
+    "kind": "beast",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "printing": "D&D Basic Rules, Version 1.0 (2018)",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      133
+    ],
+    "viewerPages": [
+      133
+    ],
+    "section": "Chapter 12, Monsters",
+    "sourceUrl": "",
+    "url": "",
+    "artGroup": "giant-goat",
+    "appearanceEvidence": "Editorial description of the naturalistic beast depicted in the corresponding original portrait.",
+    "habitatEvidence": "Editorial habitat suggestions for an enlarged mountain goat. The habitat tags do not come from the printed stat blocks.",
+    "habitatSourceKind": "Editorial tags unless supported by book lore as noted.",
+    "mechanicsNotes": [
+      "Charge adds damage on the hit. The DC 13 Strength save applies to a creature and only prevents prone. Sure-Footed covers Strength and Dexterity saves against falling prone."
+    ],
+    "pdfPage": 133,
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3"
+  },
+  {
+    "name": "Giant Goat",
+    "kind": "beast",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "printing": "2014 Monster Manual",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      326
+    ],
+    "viewerPages": [
+      328
+    ],
+    "section": "Appendix A, Miscellaneous Creatures",
+    "sourceUrl": "https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/328/",
+    "url": "https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/328/",
+    "artGroup": "giant-goat",
+    "appearanceEvidence": "Editorial description of the naturalistic beast depicted in the corresponding original portrait.",
+    "habitatEvidence": "Editorial habitat suggestions for an enlarged mountain goat. The habitat tags do not come from the printed stat blocks.",
+    "habitatSourceKind": "Editorial tags unless supported by book lore as noted.",
+    "mechanicsNotes": [
+      "Charge adds damage on the hit. The DC 13 Strength save applies to a creature and only prevents prone. Sure-Footed covers Strength and Dexterity saves against falling prone."
+    ],
+    "printWitness": "https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/328/",
+    "publicationPage": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+    "officialErrata": "",
+    "errataEvidence": "Monster Manual errata v2.0 lists no change to the Giant Goat block."
+  },
+  {
+    "name": "Giant Hyena",
+    "kind": "beast",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "printing": "D&D Basic Rules, Version 1.0 (2018)",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      133
+    ],
+    "viewerPages": [
+      133
+    ],
+    "section": "Chapter 12, Monsters",
+    "sourceUrl": "",
+    "url": "",
+    "artGroup": "giant-hyena",
+    "appearanceEvidence": "Editorial description of the naturalistic beast depicted in the corresponding original portrait.",
+    "habitatEvidence": "Editorial habitat suggestions based on the spotted hyena chosen for the portrait. The printed stat blocks supply no habitat list.",
+    "habitatSourceKind": "Editorial tags unless supported by book lore as noted.",
+    "mechanicsNotes": [
+      "Rampage triggers on the hyena’s turn and costs its bonus action. It uses half its current speed and includes a Bite."
+    ],
+    "pdfPage": 133,
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3"
+  },
+  {
+    "name": "Giant Hyena",
+    "kind": "beast",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "printing": "2014 Monster Manual",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      326
+    ],
+    "viewerPages": [
+      328
+    ],
+    "section": "Appendix A, Miscellaneous Creatures",
+    "sourceUrl": "https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/328/",
+    "url": "https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/328/",
+    "artGroup": "giant-hyena",
+    "appearanceEvidence": "Editorial description of the naturalistic beast depicted in the corresponding original portrait.",
+    "habitatEvidence": "Editorial habitat suggestions based on the spotted hyena chosen for the portrait. The printed stat blocks supply no habitat list.",
+    "habitatSourceKind": "Editorial tags unless supported by book lore as noted.",
+    "mechanicsNotes": [
+      "Rampage triggers on the hyena’s turn and costs its bonus action. It uses half its current speed and includes a Bite."
+    ],
+    "printWitness": "https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/328/",
+    "publicationPage": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+    "officialErrata": "",
+    "errataEvidence": "Monster Manual errata v2.0 lists no change to the Giant Hyena block."
+  },
+  {
+    "name": "Giant Lizard",
+    "kind": "beast",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "printing": "D&D Basic Rules, Version 1.0 (2018)",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      134
+    ],
+    "viewerPages": [
+      134
+    ],
+    "section": "Chapter 12, Monsters",
+    "sourceUrl": "",
+    "url": "",
+    "artGroup": "giant-lizard",
+    "appearanceEvidence": "Editorial description of the naturalistic beast depicted in the corresponding original portrait.",
+    "habitatEvidence": "Both books describe use by Underdark residents. Caverns, woodland, and wetlands are editorial encounter placements.",
+    "habitatSourceKind": "Editorial tags unless supported by book lore as noted.",
+    "mechanicsNotes": [
+      "The base Giant Lizard figures and Bite match. The Monster Manual adds optional traits in a sidebar on the same folio. The 2018 Basic Rules block has only walk and climb speeds."
+    ],
+    "pdfPage": 134,
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3"
+  },
+  {
+    "name": "Giant Lizard",
+    "kind": "beast",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "printing": "2014 Monster Manual",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      326
+    ],
+    "viewerPages": [
+      328
+    ],
+    "section": "Appendix A, Miscellaneous Creatures",
+    "sourceUrl": "https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/328/",
+    "url": "https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/328/",
+    "artGroup": "giant-lizard",
+    "appearanceEvidence": "Editorial description of the naturalistic beast depicted in the corresponding original portrait.",
+    "habitatEvidence": "Both books describe use by Underdark residents. Caverns, woodland, and wetlands are editorial encounter placements.",
+    "habitatSourceKind": "Editorial tags unless supported by book lore as noted.",
+    "mechanicsNotes": [
+      "The base Giant Lizard figures and Bite match. The Monster Manual adds optional traits in a sidebar on the same folio. The 2018 Basic Rules block has only walk and climb speeds."
+    ],
+    "printWitness": "https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/328/",
+    "publicationPage": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+    "officialErrata": "",
+    "errataEvidence": "Monster Manual errata v2.0 lists no change to the Giant Lizard block."
+  }
+]

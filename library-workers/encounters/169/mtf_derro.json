@@ -1,0 +1,223 @@
+[
+  {
+    "name": "Derro",
+    "statBlock": {
+      "name": "Derro",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 158,
+      "classification": "Small humanoid (derro), chaotic evil",
+      "ac": 13,
+      "hp": 13,
+      "hitDice": "3d6 + 3",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 5
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 7,
+      "description": "Bands of derro shelter in the Underdark. They prey on weaker travelers, back down before stronger foes, and look to their sorcerous savants for leadership.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Stealth": 4
+      },
+      "sections": {
+        "Armor": "Leather armor.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Dwarvish, Undercommon.",
+        "Traits": "Magic Resistance. The derro makes saves against spells and other magical effects with advantage.\nSunlight Sensitivity. In sunlight, the derro has disadvantage on attack rolls and on Wisdom (Perception) checks made using sight.",
+        "Actions": "Hooked Spear. Melee weapon attack, +2 to hit, reach 5 ft., one target. A hit deals 3 (1d6) piercing damage. On a hit against a Medium or smaller creature, the derro can knock it prone instead of dealing damage.\nLight Crossbow. Ranged weapon attack, +4 to hit, range 80/320 ft., one target. A hit deals 6 (1d8 + 2) piercing damage.",
+        "Roleplaying": "The Derro Savant profile includes an optional d20 table for roleplaying any derro.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 158."
+      }
+    }
+  },
+  {
+    "name": "Derro Savant",
+    "statBlock": {
+      "name": "Derro Savant",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 159,
+      "classification": "Small humanoid (derro), chaotic evil",
+      "ac": 13,
+      "hp": 36,
+      "hitDice": "8d6 + 8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 9
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 5
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 7,
+      "description": "Derro revere their sorcerers as leaders blessed by Diirinka. A savant can turn rival bands against a common foe by claiming to carry a message from that god.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Stealth": 4
+      },
+      "sections": {
+        "Armor": "Leather armor.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Dwarvish, Undercommon.",
+        "Traits": "Magic Resistance. The savant makes saves against spells and other magical effects with advantage.\nSunlight Sensitivity. In sunlight, the savant has disadvantage on attack rolls and on Wisdom (Perception) checks made using sight.",
+        "Spellcasting": "The savant casts as a 5th-level sorcerer using Charisma (spell save DC 12, +4 to hit with spell attacks).\nCantrips (at will). Acid Splash, Mage Hand, Message, Prestidigitation, Ray of Frost.\n1st level (4 slots). Burning Hands, Chromatic Orb, Sleep.\n2nd level (3 slots). Invisibility, Spider Climb.\n3rd level (2 slots). Lightning Bolt.",
+        "Actions": "Quarterstaff. Melee weapon attack, +1 to hit, reach 5 ft., one target. A hit deals 2 (1d6 - 1) bludgeoning damage.",
+        "Roleplaying": "Roll a d20 one or more times to give any derro an optional mannerism.\n1. Avoids washing or fresh clothes.\n2. Fidgets with their hair or mustache.\n3. Talks to an absent companion.\n4. Walks backward when they can.\n5. Avoids eye contact.\n6. Grinds their teeth between sentences.\n7. Spits out part of every bite and sip.\n8. Opens conversations with an insult.\n9. Puts a hand on anyone they talk to.\n10. Sees spirits rise from the newly dead.\n11. Passes out at their first exposure to bright light.\n12. Licks their palms repeatedly.\n13. Hears voices.\n14. Fears the sight of written words.\n15. Tastes whatever they pick up.\n16. Crowds people when they speak.\n17. Breathes noisily.\n18. Drools all the time.\n19. Speaks under their breath.\n20. Gets around by hopping.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 159."
+      }
+    }
+  },
+  {
+    "name": "Dhergoloth",
+    "statBlock": {
+      "name": "Dhergoloth",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 248,
+      "classification": "Medium fiend (yugoloth), neutral evil",
+      "ac": 15,
+      "hp": 119,
+      "hitDice": "14d8 + 56",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 19
+        },
+        "Int": {
+          "score": 7
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "cr": "7",
+      "xp": 2900,
+      "passivePerception": 10,
+      "description": "A squat yugoloth with five pairs of claws, the dhergoloth takes contracts to disperse crowds, put down revolts, or hunt scouts. It follows simple orders and tends to forget the rest.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Str": 6
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold, fire, lightning, and bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Damage immunities": "Acid and poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Blindsight 60 ft. and darkvision 60 ft.",
+        "Languages": "Abyssal, Infernal, telepathy 60 ft.",
+        "Traits": "Magic Resistance. The dhergoloth makes saves against spells and other magical effects with advantage.\nMagic Weapons. Its weapon attacks count as magical.",
+        "Innate Spellcasting": "The dhergoloth casts using Charisma (spell save DC 10) without material components.\nAt will. Darkness, Fear.\n3/day. Sleep.",
+        "Actions": "Multiattack. Make two Claw attacks.\nClaw. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 12 (2d8 + 3) slashing damage.\nFlailing Claws (Recharge 5–6). Move in a straight line up to the dhergoloth’s walking speed. Each creature within 5 ft. of it at any point during this move makes a DC 14 Dexterity save. On a failure, it takes 22 (3d12 + 3) slashing damage.\nTeleport. The dhergoloth magically teleports up to 60 ft. to a visible, unoccupied space, bringing its worn and carried gear.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 248."
+      }
+    }
+  },
+  {
+    "name": "Dire Troll",
+    "statBlock": {
+      "name": "Dire Troll",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 243,
+      "classification": "Huge giant, chaotic evil",
+      "ac": 15,
+      "hp": 172,
+      "hitDice": "15d12 + 75",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 22
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 9
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "cr": "13",
+      "xp": 10000,
+      "passivePerception": 15,
+      "description": "A dire troll grows by feeding on other trolls and grafting stolen flesh onto its wounds. Its regeneration can incorporate extra eyes and arms, leaving it with more claws than its prey can fend off.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 5
+      },
+      "savingThrows": {
+        "Wis": 5,
+        "Cha": 2
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Condition immunities": "Frightened and poisoned.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Giant.",
+        "Traits": "Keen Senses. The troll makes Wisdom (Perception) checks using smell or sight with advantage.\nRegeneration. The troll regains 10 HP at the start of its turn. If it takes acid or fire damage, it regains 5 HP at the start of its next turn instead. It dies only if an attack deals at least 10 acid or fire damage to it while it has 0 HP.",
+        "Actions": "Multiattack. Make one Bite attack and four Claws attacks.\nBite. Melee weapon attack, +11 to hit, reach 10 ft., one target. A hit deals 10 (1d8 + 6) piercing damage plus 5 (1d10) poison damage.\nClaws. Melee weapon attack, +11 to hit, reach 10 ft., one target. A hit deals 16 (3d6 + 6) slashing damage.\nWhirlwind of Claws (Recharge 5–6). Each creature within 10 ft. of the troll makes a DC 19 Dexterity save. On a failure, it takes 44 (8d10) slashing damage. On a success, it takes half as much.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 243."
+      }
+    }
+  }
+]

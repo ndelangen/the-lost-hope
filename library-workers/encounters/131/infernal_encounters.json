@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Devil Adjudicator",
+    "decision": "share",
+    "pages": "pp. 201, 310",
+    "notes": "The Eighth City Advocacy Services and Boughs of Eternity printings match Flee, Mortals! p. 66. The two books agree on AC 18, 204 HP, CR 14, Infernal Injunction, Interdiction, Bad Deal, True Name and Devilish Charm.",
+    "tableNote": "At Eighth City Advocacy Services, Akistos guards the Vault of Leverage. He offers to help a party willing to take on Lazivos.",
+    "evidenceLines": [
+      "10066–10110",
+      "15269–15310"
+    ]
+  },
+  {
+    "name": "Devil Jurist",
+    "decision": "share",
+    "pages": "p. 202",
+    "notes": "Matches Flee, Mortals! p. 67. Both printings give AC 16, 156 HP, CR 10, Hellfire, Fire and Brimstone with festering wounds, Inferno, Ashes to Ashes, True Name and Devilish Charm.",
+    "tableNote": "In the Eighth City Advocacy Services guard station, Aemilios spends the first two rounds finishing a report if the party starts the fight before he orders the guards to attack.",
+    "evidenceLines": [
+      "10113–10168"
+    ]
+  },
+  {
+    "name": "Devil Legate",
+    "decision": "share",
+    "pages": "pp. 202, 311",
+    "notes": "The Eighth City Advocacy Services and Boughs of Eternity printings match Flee, Mortals! p. 68. Both give AC 17, 127 HP, CR 8, Hellish Resistance, True Name, both Infernal Pike attacks and their three rider choices, and Devilish Charm.",
+    "tableNote": "In Eighth City Advocacy Services, reward someone who knows a guard's true name. The adventure allows revealing the name through investigation or bargaining.",
+    "evidenceLines": [
+      "10113–10168",
+      "15312–15338"
+    ]
+  },
+  {
+    "name": "Devil Magistrate",
+    "decision": "share",
+    "pages": "pp. 203, 217, 311",
+    "notes": "The Eighth City Advocacy Services, Shadowkeep, and Boughs of Eternity printings match Flee, Mortals! p. 69. Both books give AC 18, 182 HP, CR 12, two Infernal Knife attacks and one Obsidian Kris, True Name and Devilish Charm.",
+    "tableNote": "Lazivos calls a magistrate and eight notaries to his side as soon as the fight starts in his office.",
+    "evidenceLines": [
+      "10171–10216",
+      "10877–10921",
+      "15339–15367"
+    ]
+  },
+  {
+    "name": "Devil Notary",
+    "decision": "share",
+    "pages": "pp. 75, 203",
+    "notes": "The Camp Firefield and Eighth City Advocacy Services printings match Flee, Mortals! p. 69. Both books give AC 15, 13 HP, CR 6 with 285 minion XP, the cumulative Importunity bonus, the Minion and True Name traits, and Brimstone at +6 and 4 fire damage per participant.",
+    "tableNote": "Thrubwell handles client intake in Eighth City Advocacy Services. At Camp Firefield, Mixlax can offer passage to the next circle in exchange for letting the devil place a curse.",
+    "evidenceLines": [
+      "4082–4105",
+      "10171–10204"
+    ]
+  },
+  {
+    "name": "Infernal Chancellor Lazivos",
+    "decision": "share",
+    "pages": "p. 204",
+    "notes": "The existing Flee, Mortals! summary already uses the v1.1 repair to Diabolic Deposition. Where Evil Lives prints that same 30-ft. range, a requirement to hear Lazivos, and a DC 20 Wisdom save. Flee, Mortals! v1.0 p. 70 omits that opening clause. The rest of the block, including all three villain actions, AC 19, 238 HP and CR 16, agrees with the current summary.",
+    "tableNote": "In Eighth City Advocacy Services, Lazivos calls a devil magistrate and eight notaries when combat begins. He flees at 75 HP or fewer. The paintings in his office can interfere with characters subjected to soul mining.",
+    "evidenceLines": [
+      "10218–10272",
+      "9981–10010"
+    ]
+  },
+  {
+    "name": "Aurumvas",
+    "decision": "share",
+    "pages": "p. 160",
+    "notes": "Matches Flee, Mortals! p. 62. The two printings agree on AC 18, 273 HP, CR 14, five starting souls (2d4), Lethe, Soul Devourer, Soul Weapons, Abyssal Resistance, the two attacks, Greed Is Good, Absorb Soul and all three villain actions.",
+    "tableNote": "In area D8 of Canyon of the Tower Crown, Aurumvas opens with Time Is Money beside two ruinants and ten pitlings. At 50 HP he tries to escape with his crown, which works as a helm of teleportation.",
+    "evidenceLines": [
+      "8223–8273",
+      "8117–8126"
+    ]
+  },
+  {
+    "name": "Chimeron",
+    "decision": "share",
+    "pages": "p. 161",
+    "notes": "Matches Flee, Mortals! p. 58. Both printings agree on AC 17, 230 HP, CR 12, five starting souls (2d4), Soul Resistance at two souls, the four bite options, Pain Absorption and the shared demon soul traits.",
+    "tableNote": "In Canyon of the Tower Crown, Gorgonash evaluates Aurumvas's acquisitions. The party can slip past while he works.",
+    "evidenceLines": [
+      "8282–8325",
+      "8059–8073"
+    ]
+  },
+  {
+    "name": "Ruinant",
+    "decision": "share",
+    "pages": "p. 163",
+    "notes": "Matches Flee, Mortals! p. 59. Both printings agree on AC 15, 105 HP, CR 6, two starting souls (1d4), three Bloodletting Claws attacks, Salt Wounds, Corrupt Healing and the shared demon soul traits.",
+    "tableNote": "In Canyon of the Tower Crown, Xaxos and Zeron fight beside Aurumvas. Venash can help the party defeat him and escape the canyon.",
+    "evidenceLines": [
+      "8385–8418",
+      "8042–8048",
+      "8117–8123"
+    ]
+  }
+]

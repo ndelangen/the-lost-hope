@@ -1,0 +1,286 @@
+[
+  {
+    "name": "Giant Two-Headed Goat",
+    "publication": "DDEX3-01 - Harried in Hillsfar",
+    "edition": "2014 fifth edition",
+    "classification": "Large beast, unaligned",
+    "ac": 11,
+    "hp": 19,
+    "hitDice": "3d10 + 3",
+    "printedPage": 14,
+    "speed": "40 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "abilities": {
+      "Str": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "passivePerception": 11,
+    "otherStatistics": "AC includes natural armor. Languages none.",
+    "appearance": "A horse-sized red-furred goat with two heads and curved, pitchfork-like horns.",
+    "habitats": [
+      "Farbough Farm",
+      "Barnyard"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Harried in Hillsfar, DDEX3-1, 2015, p. 14. The Birth, Demon Goats.",
+      "Traits": "Charge. Move at least 20 ft. straight toward a target and hit it with Ram on the same turn. The target takes 5 (2d4) extra bludgeoning damage. If it is a creature, it falls prone on a failed DC 13 Strength saving throw.\nSure-Footed. The goat has advantage on Strength and Dexterity saving throws against effects that would knock it prone.",
+      "Actions": "Multiattack. Make two Ram attacks against different targets.\nRam. Melee weapon attack +5, reach 5 ft., one target. On a hit, deal 8 (2d4 + 3) bludgeoning damage.",
+      "Encounter": "The barnyard fight starts about 40 ft. away after the goats leave the barn. The default group is one giant two-headed goat and six goats. Saving Jovee removes three goats unless the party refuses Verner and attacks the newborns. If the party attacks the newborns, the goats grow immediately and the characters have advantage on their first attacks. For a weak party, the encounter adjustment removes four goats. The goats charge when they can. For a strong or very strong party, double the giant goat's hit points."
+    }
+  },
+  {
+    "name": "Goat",
+    "publication": "DDEX3-01 - Harried in Hillsfar",
+    "edition": "2014 fifth edition",
+    "classification": "Medium beast, unaligned",
+    "ac": 10,
+    "hp": 4,
+    "hitDice": "1d8",
+    "printedPage": 14,
+    "speed": "40 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "passivePerception": 10,
+    "otherStatistics": "Languages none.",
+    "appearance": "The encounter goats have red fur. The ordinary goat portrait shows a pale coat and slender horns.",
+    "habitats": [
+      "Farbough Farm",
+      "Barnyard"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Harried in Hillsfar, DDEX3-1, 2015, p. 14. The Birth, Demon Goats.",
+      "Traits": "Charge. Move at least 20 ft. straight toward a target and hit it with Ram on the same turn. The target takes 2 (1d4) extra bludgeoning damage. If it is a creature, it falls prone on a failed DC 10 Strength saving throw.\nSure-Footed. The goat has advantage on Strength and Dexterity saving throws against effects that would knock it prone.",
+      "Actions": "Ram. Melee weapon attack +3, reach 5 ft., one target. On a hit, deal 3 (1d4 + 1) bludgeoning damage.",
+      "Encounter": "The barnyard fight starts about 40 ft. away after the goats leave the barn. The default group is one giant two-headed goat and six goats. Saving Jovee removes three goats unless the party refuses Verner and attacks the newborns. If the party attacks the newborns, the goats grow immediately and the characters have advantage on their first attacks. For a weak party, the encounter adjustment removes four goats. The goats charge when they can."
+    }
+  },
+  {
+    "name": "Jackal",
+    "publication": "DDEX3-01 - Harried in Hillsfar",
+    "edition": "2014 fifth edition",
+    "classification": "Small beast, unaligned",
+    "ac": 12,
+    "hp": 3,
+    "hitDice": "1d6",
+    "printedPage": 29,
+    "speed": "40 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "passivePerception": 13,
+    "otherStatistics": "Languages none.",
+    "appearance": "A tawny jackal with a dark saddle, upright ears and a narrow muzzle.",
+    "habitats": [
+      "Cormanthor Forest",
+      "Spring of Blessed Life"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Harried in Hillsfar, DDEX3-1, 2015, p. 29. The Life, Battling the Jackalweres.",
+      "Traits": "Keen Hearing and Smell. The beast has advantage on Wisdom (Perception) checks that rely on hearing or smell.\nPack Tactics. The beast has advantage on an attack roll against a creature if one of its allies is within 5 ft. of that creature and the ally is not incapacitated.",
+      "Actions": "Bite. Melee weapon attack +1, reach 5 ft., one target. On a hit, deal 1 (1d4 - 1) piercing damage.",
+      "Encounter": "Three jackals join and attack at the end of round two. Three more join at the end of round three. For a strong or very strong party, an additional jackalwere and three jackals arrive at the end of round three."
+    },
+    "skills": {
+      "Perception": 3
+    }
+  },
+  {
+    "name": "Wild Dog",
+    "publication": "DDEX3-01 - Harried in Hillsfar",
+    "edition": "2014 fifth edition",
+    "classification": "Medium beast, unaligned",
+    "ac": 12,
+    "hp": 5,
+    "hitDice": "1d8 + 1",
+    "printedPage": 14,
+    "speed": "40 ft.",
+    "cr": "1/8",
+    "xp": 25,
+    "abilities": {
+      "Str": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "passivePerception": 13,
+    "otherStatistics": "Languages none.",
+    "appearance": "A lean wild dog with rounded ears and a patchwork black, brown and cream coat.",
+    "habitats": [
+      "Farbough Farm",
+      "Far pasture"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Harried in Hillsfar, DDEX3-1, 2015, p. 14. The Birth, Rescuing Pynroth.",
+      "Traits": "Keen Hearing and Smell. The beast has advantage on Wisdom (Perception) checks that rely on hearing or smell.",
+      "Actions": "Bite. Melee weapon attack +3, reach 5 ft., one target. On a hit, deal 4 (1d6 + 1) piercing damage.",
+      "Encounter": "Five wild dogs pin down Beralt and Pynroth in the far pasture. If a character attacks a dog or moves adjacent to a dog or either victim, the dogs turn on the party. Once the alpha and at least half the other dogs are defeated, remaining dogs Disengage and flee. Remove three wild dogs for a weak party or add three for a strong or very strong party. The party has advantage on initiative if the first DC 10 Charisma check to get Pynroth's location succeeds, or disadvantage if it fails by more than 5."
+    },
+    "skills": {
+      "Perception": 3
+    }
+  },
+  {
+    "name": "Wild Dog Alpha",
+    "publication": "DDEX3-01 - Harried in Hillsfar",
+    "edition": "2014 fifth edition",
+    "classification": "Large beast, unaligned",
+    "ac": 12,
+    "hp": 26,
+    "hitDice": "4d10 + 4",
+    "printedPage": 14,
+    "speed": "50 ft.",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 8,
+        "modifier": -1
+      }
+    },
+    "passivePerception": 13,
+    "otherStatistics": "Languages none.",
+    "appearance": "A larger wild dog with upright ears, a dark muzzle and a mottled brown-and-black coat.",
+    "habitats": [
+      "Farbough Farm",
+      "Far pasture"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Harried in Hillsfar, DDEX3-1, 2015, p. 14. The Birth, Rescuing Pynroth.",
+      "Traits": "Keen Hearing and Smell. The beast has advantage on Wisdom (Perception) checks that rely on hearing or smell.\nPack Tactics. The beast has advantage on an attack roll against a creature if one of its allies is within 5 ft. of that creature and the ally is not incapacitated.\nPounce. Move at least 20 ft. straight toward a creature and hit it with Bite on the same turn. On a failed DC 13 Strength saving throw, the creature falls prone. If the target is prone, the alpha can make one additional Bite against it as a bonus action.\nRunning Leap. With a 10-ft. run-up, the alpha can long jump up to 25 ft.",
+      "Actions": "Bite. Melee weapon attack +5, reach 5 ft., one target. On a hit, deal 7 (1d8 + 3) piercing damage.",
+      "Encounter": "The alpha hides among weeping willows and attacks at the end of the first round in which the party engages the smaller dogs. A successful Wisdom (Perception) check spots it. On a failure, it has advantage on its first attack. For a weak party, it starts combat in plain view."
+    },
+    "skills": {
+      "Perception": 3
+    }
+  }
+]

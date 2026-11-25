@@ -47,4 +47,5 @@ export default createEvent({
       outcome: { type: 'cameTrue', event: refs.events.n2_e115 },
     },
   ],
+  illustrations: ['/assets/scenes/bob-s-bargains-change-wolfie-and-bind-jim-to-a-contract.png'],
 })

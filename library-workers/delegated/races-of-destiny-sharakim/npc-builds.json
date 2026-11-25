@@ -1,0 +1,124 @@
+{
+  "builds": [
+    {
+      "id": "sharakim-seed-vault-warden-35e",
+      "title": "Sharakim seed vault keeper, Wizard 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "difficulty": "Provisional CR 2. ECL 2.",
+      "size": "Medium",
+      "type": "Humanoid (Human)",
+      "ac": 11,
+      "hp": 5,
+      "hitDice": "1d4+1",
+      "initiative": 0,
+      "speed": "30 ft.",
+      "abilityScores": {
+        "STR": 12,
+        "DEX": 10,
+        "CON": 13,
+        "INT": 17,
+        "WIS": 12,
+        "CHA": 6
+      },
+      "skills": [
+        "Concentration +5",
+        "Decipher Script +7",
+        "Knowledge (arcana) +7",
+        "Knowledge (architecture and engineering) +7",
+        "Search +3",
+        "Spellcraft +10",
+        "Spot +1"
+      ],
+      "senses": "Darkvision 60 ft.; Shadow Affinity in darkness or shadowy illumination",
+      "languages": "Common, Dwarven, Elven, Gnome",
+      "traits": [
+        "Natural armor +1. Touch 10, flat-footed 11. BAB +0, grapple +1. Fortitude +1, Reflex +0, Will +3.",
+        "In darkness or shadowy illumination, add +2 to Hide, Move Silently, Search, and Spot. Attacks suffer −1 in bright sunlight or inside daylight, and gain +1 against orcs and half-orcs. Apply both attack modifiers if both conditions hold.",
+        "Generalist Wizard at caster level 1. Scribe Scroll as a class feat, Skill Focus (Spellcraft) as the 1st-level feat. She has no summoned familiar. She carries a spell component pouch.",
+        "Prepared spells are three 0-level and two 1st-level spells, including one Intelligence bonus slot. Save DC 13 + spell level. Spellbook: Wizard cantrips and the 1st-level spells alarm, comprehend languages, endure elements, grease, magic missile, and unseen servant."
+      ],
+      "actions": [
+        "Quarterstaff +1 melee using one end with two hands, 1d6+1 bludgeoning, critical ×2, 5-ft. reach. Light crossbow +0 ranged, 1d8 piercing, critical 19–20/×2, 80-ft. range increment.",
+        "Prepared cantrips: detect magic, mage hand, ray of frost. Ray of Frost +0 ranged touch within 25 ft., 1d3 cold, no save and spell resistance applies. The lighting and target modifiers apply to the ray.",
+        "Prepared 1st-level spells: grease and magic missile. Grease covers a 10-ft. square within 25 ft. for 1 round at caster level 1. Spell resistance does not apply. A creature caught in the area must make Reflex DC 14 or fall. Move through at half speed with Balance DC 10. Magic Missile deals 1d4+1 force within 110 ft. without an attack roll or saving throw. Spell resistance applies to Magic Missile."
+      ],
+      "tactics": "Keep the lamp hooded while checking the seed vault’s hinges and disturbed locks. Use Mage Hand for a light object out of reach. If pressed, use Grease to delay pursuit or Magic Missile when bright light would hinder a ray."
+    },
+    {
+      "id": "sharakim-cistern-inspector-35e",
+      "title": "Sharakim cistern inspector, Rogue 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "difficulty": "Provisional CR 2. ECL 2.",
+      "size": "Medium",
+      "type": "Humanoid (Human)",
+      "ac": 14,
+      "hp": 7,
+      "hitDice": "1d6+1",
+      "initiative": 1,
+      "speed": "30 ft.",
+      "abilityScores": {
+        "STR": 14,
+        "DEX": 13,
+        "CON": 13,
+        "INT": 14,
+        "WIS": 12,
+        "CHA": 6
+      },
+      "skills": [
+        "Climb +6",
+        "Disable Device +6",
+        "Hide +5",
+        "Listen +5",
+        "Move Silently +5",
+        "Open Lock +5",
+        "Search +9",
+        "Sense Motive +5",
+        "Spot +5",
+        "Tumble +5"
+      ],
+      "senses": "Darkvision 60 ft.; Shadow Affinity in darkness or shadowy illumination",
+      "languages": "Common, Dwarven, Gnome",
+      "traits": [
+        "Leather armor +2, Dexterity +1 and natural armor +1. Touch 11, flat-footed 13. BAB +0, grapple +2. Fortitude +1, Reflex +3, Will +1.",
+        "In darkness or shadowy illumination, add +2 to Hide, Move Silently, Search, and Spot. Attacks suffer −1 in bright sunlight or inside daylight, and gain +1 against orcs and half-orcs. Apply both attack modifiers if both conditions hold.",
+        "Skill Focus (Search) adds +3. In darkness or shadowy illumination, Hide +7, Move Silently +7, Search +11, and Spot +7.",
+        "Trapfinding permits searching for traps with DC above 20 and using Disable Device on magical traps. He carries ordinary thieves’ tools. Sneak Attack +1d6 on eligible hits, within 30 ft. for ranged attacks."
+      ],
+      "actions": [
+        "Short sword +2 melee, 1d6+2 piercing, critical 19–20/×2, 5-ft. reach.",
+        "Light crossbow +1 ranged, 1d8 piercing, critical 19–20/×2, 80-ft. range increment. Reload as a move action."
+      ],
+      "tactics": "Inspect the dark cistern steps before anyone pulls the main lever. Keep one route lit for the party and use the shadowed side passage to spot traps or tampering."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Sharakim",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Races of Destiny (2004)",
+      "name": "Maren Eldermere",
+      "build": "sharakim-seed-vault-warden-35e",
+      "role": "Seed vault keeper and generalist Wizard.",
+      "motive": "Find out who entered the seed vault before a delayed spring shipment is reopened.",
+      "hook": "Maren can study the damaged catches if the party keeps the room clear and brings the missing inventory board."
+    },
+    {
+      "species": "Sharakim",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Races of Destiny (2004)",
+      "name": "Oswin Fenlock",
+      "build": "sharakim-cistern-inspector-35e",
+      "role": "Cistern inspector and Rogue.",
+      "motive": "Find what keeps tripping the cistern gate before the next water draw.",
+      "hook": "Oswin can inspect the dark maintenance stair if the party keeps the main lever still."
+    }
+  ]
+}

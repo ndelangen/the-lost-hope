@@ -1,0 +1,344 @@
+{
+  "builds": [
+    {
+      "id": "dark-stalker-venn-ashveil-30e",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ],
+      "size": "Medium",
+      "type": "Humanoid",
+      "title": "Dark Stalker ferryman, rogue 1",
+      "difficulty": "ECL 6 under the printed PC paragraph. 3 racial HD and 1 rogue HD.",
+      "senses": "Blindsight 60 ft.",
+      "languages": "Dark One. Understands Undercommon.",
+      "speed": "30 ft.",
+      "ac": 20,
+      "hp": 25,
+      "hitDice": "3d8+1d6+8",
+      "initiative": 10,
+      "abilityScores": {
+        "STR": 18,
+        "DEX": 22,
+        "CON": 15,
+        "INT": 14,
+        "WIS": 14,
+        "CHA": 14
+      },
+      "skills": [
+        "Hide +11 (+19 in shadows)",
+        "Move Silently +11 (+15 in shadows)",
+        "Listen +7",
+        "Spot +7",
+        "Tumble +10",
+        "Bluff +6",
+        "Disable Device +6",
+        "Search +4"
+      ],
+      "traits": [
+        "Chaotic neutral. Touch AC 16, flat-footed AC 14. BAB +2, grapple +6. Fortitude +3, Reflex +13, Will +3. Leather armor, Improved Initiative, Lightning Reflexes.",
+        "In daylight or equivalent apply –2 morale to attacks, saves, checks and damage. Racial and rogue melee sneak attacks together add 4d6 when flanking or when the target is denied its Dexterity bonus to AC. Rogue sneak attack alone adds 1d6 out to 30 ft. with a qualifying ranged attack.",
+        "Venn starts with one dose of shadow essence on his shortsword. On a hit, the target makes a Fortitude DC 17 save against 1 Strength drain and another DC 17 save 1 minute later against 2d6 Strength damage."
+      ],
+      "actions": [
+        "Shortsword +6 melee (1d6+4 piercing, 19–20/×2), or javelin +8 ranged (1d6+4 piercing, ×2, 30-ft. range increment).",
+        "Shadow Cloak (Su), 3/day, standard action. For 10 rounds, attacks against Venn have 40% miss chance in shadow or darkness, or 20% in bright light. Vision that penetrates magical darkness bypasses it.",
+        "Fog Cloud (Sp), 2/day, standard action, CL 5. Within 150 ft., create a 30-ft.-radius fog bank 20 ft. high for 50 minutes. Attacks within 5 ft. have 20% miss chance. Beyond 5 ft. the fog blocks sight and gives 50% miss chance. Moderate wind disperses it in 4 rounds and strong wind in 1 round. It cannot form underwater."
+      ],
+      "tactics": "Turn out the lantern and warn intruders once. Use the cloak to hold a landing and fog to withdraw behind the rope gate."
+    },
+    {
+      "id": "kaorti-irix-vell-30e",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ],
+      "size": "Medium",
+      "type": "Outsider (Evil, Extraplanar)",
+      "title": "Kaorti exile, sorcerer 1",
+      "difficulty": "ECL 5. 2 outsider HD, 1 sorcerer HD, LA +2.",
+      "senses": "Darkvision 60 ft.",
+      "languages": "Kaorti, Common, Sylvan.",
+      "speed": "30 ft.",
+      "ac": 19,
+      "hp": 15,
+      "hitDice": "2d8+1d4+3",
+      "initiative": 4,
+      "abilityScores": {
+        "STR": 4,
+        "DEX": 18,
+        "CON": 13,
+        "INT": 16,
+        "WIS": 10,
+        "CHA": 21
+      },
+      "skills": [
+        "Concentration +7",
+        "Craft (resin) +9",
+        "Knowledge (arcana) +9",
+        "Spellcraft +9",
+        "Heal +13",
+        "Profession (herbalist) +1"
+      ],
+      "traits": [
+        "Neutral evil. Touch AC 13, flat-footed AC 16. BAB +2, grapple –1. Fortitude +4, Reflex +7, Will +5. Poison immunity. Resin suit grants +4 armor, allows at most +3 Dex to AC, and has a –4 armor check penalty and 25% arcane spell failure.",
+        "The resin suit protects Irix on the Material Plane. When exposed, use the profile’s hourly Fortitude check and fatigue. A kaorti cyst also protects him. Vile Transformation takes eight hours and requires uninterrupted contact, so it has no combat action here.",
+        "Sorcerer 1, CL 1. Five cantrips and five 1st-level slots daily. Spell save DC 15 + level. Known cantrips detect magic, read magic, prestidigitation and light. Known 1st-level spells magic missile and true strike. Apply 25% failure to ordinary spells with somatic components, and none to spell-like abilities."
+      ],
+      "actions": [
+        "Ribbon dagger –1 melee (1d4–3 piercing, ×4, minimum 1 damage, +2 to disarm attacks) or dart +6 ranged (1d4–3 piercing, ×2, minimum 1 damage, 20-ft. range increment). Bite –1 melee (1d6–3, ×2, minimum 1 damage).",
+        "Color Spray (Sp), 1/day, CL 2, standard action. 30-ft. cone, Will DC 15 negates. Affects the nearest 1d6 creatures. At up to 2 HD, living targets fall unconscious for 2d4 rounds, then suffer blindness for 1d4 rounds and stun for 1 round in succession. At 3–4 HD, blindness lasts 1d4 rounds followed by stun for 1 round. At 5+ HD, stun lasts 1 round. Sightless creatures are unaffected.",
+        "Ray of Enfeeblement (Sp), 1/day, CL 2. Ranged touch +6 out to 30 ft. applies a 1d6+1 enhancement penalty to Strength, minimum Strength 1, for 2 minutes. Fortitude DC 15 negates.",
+        "Other innate spells, each 1/day at CL 2. Change self gives a visual disguise for 20 minutes. Feather fall is a free action out to 30 ft. and slows up to 600 lb. of falling creatures or objects in a 10-ft. radius for 2 rounds or until they land. Reduce shrinks a creature or object up to 20 cubic ft. within 30 ft. by up to 20% for 2 minutes. Each 10% reduction applies a –1 penalty to Strength, minimum Strength 1. Spider climb gives half-speed climb movement for 20 minutes, with bare hands and feet.",
+        "Magic Missile, 1st-level slot, standard action. One missile automatically hits for 1d4+1 force out to 110 ft. True Strike, 1st-level slot, gives the next single attack made by the end of next round +20 insight and ignores concealment miss chance."
+      ],
+      "tactics": "Talk from behind the resin-covered door. Use the ray on a charging guard or color spray to make an opening. Keep the resin suit intact and retreat toward the crossing."
+    },
+    {
+      "id": "khaasta-keth-marr-30e",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ],
+      "size": "Medium",
+      "type": "Monstrous Humanoid (Extraplanar, Reptilian)",
+      "title": "Khaasta caravan escort, fighter 1",
+      "difficulty": "ECL 4. 3 racial HD and 1 fighter HD.",
+      "senses": "Darkvision 60 ft.",
+      "languages": "Common, Draconic.",
+      "speed": "30 ft.",
+      "ac": 22,
+      "hp": 35,
+      "hitDice": "3d8+1d10+16",
+      "initiative": 2,
+      "abilityScores": {
+        "STR": 24,
+        "DEX": 15,
+        "CON": 18,
+        "INT": 14,
+        "WIS": 10,
+        "CHA": 8
+      },
+      "skills": [
+        "Climb +12",
+        "Handle Animal +4",
+        "Jump +6",
+        "Ride +8",
+        "Spot +5",
+        "Wilderness Lore +4"
+      ],
+      "traits": [
+        "Chaotic neutral. Touch AC 12, flat-footed AC 20. BAB +4, grapple +11. Fortitude +7, Reflex +5, Will +3. Chain shirt, Point Blank Shot, Power Attack and Weapon Focus (halberd).",
+        "Power Attack may trade up to 4 melee attack points for an equal damage bonus under the original 3.0 feat. The halberd already uses one and a half times the Strength modifier for damage."
+      ],
+      "actions": [
+        "Halberd +12 melee (1d10+10 slashing or piercing, ×3), or bite +11 melee (1d4+7 piercing, ×2).",
+        "Full attack, halberd +12 (1d10+10) and secondary bite +6 (1d4+3). Both attacks require a target within 5 ft.",
+        "Longbow +6 ranged (1d8 piercing, ×3, 100-ft. range increment). Within 30 ft. Point Blank Shot makes it +7 for 1d8+1."
+      ],
+      "tactics": "Hold beside a loaded cart and announce the terms before drawing a weapon. If pressed, use the halberd and reserve the secondary bite for a full attack."
+    },
+    {
+      "id": "ophidian-sesis-coilwater-30e",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ],
+      "size": "Medium",
+      "type": "Monstrous Humanoid (Reptilian)",
+      "title": "Ophidian floodgate warden, fighter 1",
+      "difficulty": "4 total HD, 3 racial and 1 fighter. Printed ECL unspecified.",
+      "senses": "Darkvision 60 ft.",
+      "languages": "Common, Yuan-Ti.",
+      "speed": "20 ft., climb 15 ft., swim 50 ft.",
+      "ac": 19,
+      "hp": 20,
+      "hitDice": "3d8+1d10",
+      "initiative": 4,
+      "abilityScores": {
+        "STR": 17,
+        "DEX": 19,
+        "CON": 10,
+        "INT": 10,
+        "WIS": 13,
+        "CHA": 8
+      },
+      "skills": [
+        "Climb +14",
+        "Hide +4 (+14 in forest or underground)",
+        "Listen +5",
+        "Move Silently +4",
+        "Spot +5",
+        "Swim +12 before gear weight"
+      ],
+      "traits": [
+        "Chaotic neutral. Large wooden shield, no body armor. Touch AC 14, flat-footed AC 15. BAB +4, grapple +7. Fortitude +3, Reflex +7, Will +4.",
+        "Alertness, Dodge and Weapon Focus (scimitar). Designate one opponent for +1 dodge AC against its attacks. Climb includes the shield’s –2 armor check penalty. Apply carried gear weight separately to 3.0 Swim.",
+        "Can take 10 on Climb and Swim checks under pressure. Serpentine Curse has no immediate combat damage beyond the bite."
+      ],
+      "actions": [
+        "Scimitar +8 melee (1d6+3 slashing, 18–20/×2), or bite +7 melee (1d4+3 piercing, ×2 and Serpentine Curse).",
+        "Full attack, scimitar +8 (1d6+3) and secondary bite +2 (1d4+1 and Serpentine Curse).",
+        "Serpentine Curse (Su), on bite against a humanoid, Fortitude DC 11 negates. Changes start in 1d4+1 days and finish after two weeks, leaving the new ophidian without its former memories. Remove disease or remove curse halts incomplete transformation. Heal, regeneration, limited wish, wish or miracle reverses existing changes. Once complete, only wish or miracle reverses it."
+      ],
+      "tactics": "Keep shield and gate wheel between the party and the drop. Start with the scimitar and use the bite only when forced into close quarters."
+    },
+    {
+      "id": "selkie-mara-kelplight-30e",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ],
+      "size": "Medium",
+      "type": "Humanoid (Aquatic, Shapechanger)",
+      "title": "Selkie harbor singer, bard 1",
+      "difficulty": "ECL 5. 3 racial HD, 1 bard HD, LA +1.",
+      "senses": "Ordinary sight.",
+      "languages": "Common, Aquan.",
+      "speed": "Humanoid land 30 ft., seal swim 90 ft.",
+      "ac": 17,
+      "hp": 20,
+      "hitDice": "3d8+1d6+4",
+      "initiative": 3,
+      "abilityScores": {
+        "STR": 11,
+        "DEX": 16,
+        "CON": 12,
+        "INT": 12,
+        "WIS": 8,
+        "CHA": 18
+      },
+      "skills": [
+        "Perform (song) +11",
+        "Listen +5",
+        "Spot +4",
+        "Swim +13 before gear weight",
+        "Craft (weaving) +3",
+        "Diplomacy +6"
+      ],
+      "traits": [
+        "Neutral good. BAB +2, grapple +2. Fortitude +2, Reflex +8, Will +2. Humanoid AC 17 (+4 mithral shirt, +3 Dex), touch 13, flat-footed 14. Seal AC 18 (+5 natural, +3 Dex), touch 13, flat-footed 15.",
+        "Alertness and Weapon Finesse (bite). Bard’s chosen martial proficiency is longsword. Bardic Knowledge +2. Bardic music 1/day. Cast two 0-level spells daily at CL 1, DC 14 if applicable. Four known cantrips are detect magic, light, mage hand and read magic. The light mithral shirt does not add bard arcane spell failure.",
+        "Use humanoid form on land and seal form in the sea. At the coast’s transitional edge choose either form as a free action. Gear melds into the seal form, where it grants no benefit."
+      ],
+      "actions": [
+        "Land form longsword +2 melee (1d8 slashing, 19–20/×2). Seal form bite +5 melee (1d6 piercing, ×2).",
+        "Inspire Courage (Su), one daily music use. After a full round hearing the song, allies gain +2 morale on saves against charm and fear and +1 morale on attacks and weapon damage. Benefits last while they can hear the song and for five rounds after. Mara can fight and sing but cannot cast while singing.",
+        "Countersong, alternative daily music use. For up to 10 rounds, Mara rolls Perform each round. A creature within 30 ft. can substitute the result for a worse save against a sonic or language-dependent magical attack.",
+        "Fascinate, alternative daily music use. With mutual sight and the target hearing her within 90 ft., a willing-to-listen creature outside combat makes a Will save against her Perform check. On failure it listens for one round at –4 to Spot and Listen. Obvious threats break it. Inspire Competence is also available at 6 Perform ranks, giving one ally within 30 ft. +2 competence on an appropriate skill while she performs, for up to 2 minutes."
+      ],
+      "tactics": "Use song to delay a dispute or support a rescue on land. If driven from the beach, switch to seal form in the shallows and swim clear."
+    },
+    {
+      "id": "yurian-brakk-shellmark-30e",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ],
+      "size": "Medium",
+      "type": "Monstrous Humanoid (Aquatic)",
+      "title": "Yurian reef courier, barbarian 1",
+      "difficulty": "ECL 5 under the printed PC paragraph. 3 racial HD and 1 barbarian HD.",
+      "senses": "Darkvision 60 ft.",
+      "languages": "Aquan.",
+      "speed": "Land 40 ft. with fast movement, swim 20 ft.",
+      "ac": 18,
+      "hp": 30,
+      "hitDice": "3d8+1d12+12",
+      "initiative": 2,
+      "abilityScores": {
+        "STR": 20,
+        "DEX": 14,
+        "CON": 17,
+        "INT": 10,
+        "WIS": 10,
+        "CHA": 6
+      },
+      "skills": [
+        "Hide +10",
+        "Listen +7",
+        "Spot +4",
+        "Swim +17 (+19 while raging)",
+        "Wilderness Lore +1"
+      ],
+      "traits": [
+        "Chaotic good. Touch AC 12, flat-footed AC 16. BAB +4, grapple +9. Fortitude +8, Reflex +5, Will +1. Alertness and Power Attack.",
+        "Fast movement adds 10 ft. to the unarmored land speed. Limited Regeneration regrows lost parts when their damage is healed by any means. Can take 10 with Swim under pressure.",
+        "Power Attack may trade up to 4 melee attack points for an equal damage bonus according to the 3.0 feat."
+      ],
+      "actions": [
+        "Claw +9 melee (1d6+5 slashing, ×2). Full attack, two claws +9 each, each dealing 1d6+5.",
+        "Rage (Ex), 1/day for up to 8 rounds. Strength 24, Constitution 21. Current and maximum HP rise by 8, AC falls to 16 (touch 10, flat-footed 14), Will improves to +3, Fortitude improves to +10, grapple improves to +11 and claws become +11 for 1d6+7. At the end lose the 8 added HP and become fatigued for the rest of the encounter."
+      ],
+      "tactics": "Pull civilians away from the surge before fighting. Rage when an enemy blocks the path, keep both claws clear and withdraw toward the water once the route opens."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Venn Ashveil",
+      "species": "Dark Stalker",
+      "speciesPublication": "Fiend Folio (2003)",
+      "edition": "3.0 edition",
+      "build": "dark-stalker-venn-ashveil-30e",
+      "size": "Medium",
+      "role": "Subterranean ferryman who knows the back route through an abandoned cistern.",
+      "motive": "Keep traffic away from the tunnel where his crew is resting.",
+      "hook": "Venn wants help identifying who copied his landing marks and is willing to arrange a quiet crossing."
+    },
+    {
+      "name": "Irix Vell",
+      "species": "Kaorti",
+      "speciesPublication": "Fiend Folio (2003)",
+      "edition": "3.0 edition",
+      "build": "kaorti-irix-vell-30e",
+      "size": "Medium",
+      "role": "Exile who maps planar crossings and sells safe passage.",
+      "motive": "Repair his resin suit away from his former cyst.",
+      "hook": "Irix can identify the portal’s cycle if someone recovers the lantern he left on the far side."
+    },
+    {
+      "name": "Keth Marr",
+      "species": "Khaasta",
+      "speciesPublication": "Fiend Folio (2003)",
+      "edition": "3.0 edition",
+      "build": "khaasta-keth-marr-30e",
+      "size": "Medium",
+      "role": "Caravan escort who keeps rival merchants from fighting at the weigh station.",
+      "motive": "Earn enough trust to set up an independent caravan.",
+      "hook": "Keth needs someone to check whether a pack lizard’s missing load was stolen or miscounted."
+    },
+    {
+      "name": "Sesis Coilwater",
+      "species": "Ophidian",
+      "speciesPublication": "Fiend Folio (2003)",
+      "edition": "3.0 edition",
+      "build": "ophidian-sesis-coilwater-30e",
+      "size": "Medium",
+      "role": "Floodgate warden who can climb the stonework when the stairs are submerged.",
+      "motive": "Protect the sluice system from tampering.",
+      "hook": "Sesis found a bent gate key that fits only an upstream lock and asks the party to find its owner."
+    },
+    {
+      "name": "Mara Kelplight",
+      "species": "Selkie",
+      "speciesPublication": "Fiend Folio (2003)",
+      "edition": "3.0 edition",
+      "build": "selkie-mara-kelplight-30e",
+      "size": "Medium",
+      "role": "Port singer who runs messages between an island and its harbor.",
+      "motive": "Protect a quiet beach where the crossing is safest.",
+      "hook": "Mara will guide the party to a stranded crew after they extinguish the false beacon."
+    },
+    {
+      "name": "Brakk Shellmark",
+      "species": "Yurian",
+      "speciesPublication": "Fiend Folio (2003)",
+      "edition": "3.0 edition",
+      "build": "yurian-brakk-shellmark-30e",
+      "size": "Medium",
+      "role": "Reef courier who recovers cargo before a rising tide.",
+      "motive": "Keep the tidal caves open as neutral meeting ground.",
+      "hook": "Brakk wants help moving a grounded boat before it breaks against the rocks."
+    }
+  ]
+}

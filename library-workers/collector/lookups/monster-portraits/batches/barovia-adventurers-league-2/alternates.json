@@ -1,0 +1,68 @@
+[
+  {
+    "entityKind": "monster",
+    "name": "Burgomaster Ivan Randovich",
+    "publication": "DDAL04-10 - The Artifact",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/burgomaster-ivan-randovich/noble-daniel-landerman.webp",
+    "artist": "Related Noble art by Daniel Landerman · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "dbef3a3ea8bd305b97152389b2b7e876dfd8c3e90c44bea8cacd760cd9b7ae51",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/MM/Noble.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Burgomaster Ivan Randovich",
+    "publication": "DDAL04-10 - The Artifact",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/burgomaster-ivan-randovich/noble-riccardo-moscatello.webp",
+    "artist": "Related Noble art by Riccardo Moscatello · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "9d974fc79f6ff660209cd80551df0712138047e9a398889a207886db5510ff52",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Nobles.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Orc Blood Shaman (Orc War Chief)",
+    "publication": "DDAL04-12 - The Raven",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/orc-blood-shaman-orc-war-chief/orc-war-chief-conceptopolis.webp",
+    "artist": "Related Orc War Chief art by Conceptopolis · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "0691ddcb0715fc7c32dfc73fb78f3b2c59b9a46d110133dd43e84ccd06c1914e",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/MM/Orc.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Orc Blood Shaman (Orc War Chief)",
+    "publication": "DDAL04-12 - The Raven",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/orc-blood-shaman-orc-war-chief/orc-claw-of-luthic-related.webp",
+    "artist": "Related Orc Claw of Luthic art · Volo's Guide to Monsters",
+    "kind": "illustration",
+    "sha256": "1c9ea67f3d1c4783a282678fab406e0836b1ba0e0518fc5ed5f1a8fabdf94c5a",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/VGM/Orc%20Claw%20of%20Luthic.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Esmae Amarantha",
+    "publication": "DDAL04-14 - The Darklord",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/esmae-amarantha/barovian-witch-related.webp",
+    "artist": "Related Barovian Witch art · Curse of Strahd",
+    "kind": "illustration",
+    "sha256": "969b3a32e44496bdc37e030cfad8f457399cafc468729f6027ba169089a7a69a",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/CoS/Barovian%20Witch.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Esmae Amarantha",
+    "publication": "DDAL04-14 - The Darklord",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/esmae-amarantha/archmage-2014-related.webp",
+    "artist": "Related Archmage art · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "f4cf4e545b9f7e436c4bdabca003a8ef02723f767dd949378b6d8c03fdfff8d8",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/MM/Archmage.webp"
+  }
+]

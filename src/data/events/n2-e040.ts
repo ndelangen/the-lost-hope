@@ -5,6 +5,7 @@ export default createEvent({
   name: "Reach Badesh, Victor's hometown",
   day: 10,
   location: refs.locations.badesh,
+  illustrations: ['/assets/scenes/reach-badesh-victor-s-hometown.png'],
   mark: { type: 'icon', name: 'gi/GiHutsVillage' },
   notes: [
     [

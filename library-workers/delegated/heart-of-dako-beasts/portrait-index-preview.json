@@ -1,0 +1,18 @@
+[
+  {
+    "entry": "beast-0a6d9f0cb86471ca36a074a6",
+    "version": "a5d8a5c4bfbf54098523398e",
+    "name": "Kappu",
+    "file": "images/heart-of-dako-beasts/kappu.png",
+    "sha256": "a2adf187767b0549d9e82d7fecce07c1d5de877b09b0123e5db9f22889d4db28",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-2c86d8b3e012e48f8ded34ce",
+    "version": "742fc8f4964f71257e398ee8",
+    "name": "Swarm of Tanglewasps",
+    "file": "images/heart-of-dako-beasts/swarm-of-tanglewasps.png",
+    "sha256": "035c65f2060158b4563c1425eb84d1a0c451ce4fec004ba7eb432b4b3a98710b",
+    "credit": "OpenAI ImageGen"
+  }
+]

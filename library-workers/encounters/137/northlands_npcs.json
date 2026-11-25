@@ -1,0 +1,388 @@
+[
+  {
+    "name": "Jarl",
+    "decision": "separate",
+    "pages": "Chapter 8, p. 266",
+    "notes": "Standalone stat block from the printed Northlands Bestiary.",
+    "statBlock": {
+      "name": "Jarl",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium or Small Humanoid",
+      "ac": 18,
+      "hp": 112,
+      "speed": "30 ft.",
+      "cr": "7",
+      "otherStatistics": "Perception 14, Stealth 12. Immune to Charmed and Frightened. Languages Common and three others.",
+      "description": "A jarl lends courage to nearby allies and slips away from dangerous blows when wounded.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +4, Dex +2, Con +6, Int +1, Wis +2, Cha +3",
+        "Traits": "Aura of Command. The jarl and allies within 10 ft. cannot be Charmed or Frightened while the jarl lacks the Incapacitated condition.\nMental Fortitude. Effects cannot read the jarl’s thoughts or sense its emotions. It has advantage on Wisdom (Insight) checks to gauge sincerity or intent.\nResilient Leader (recharges after a short or long rest). Reroll a failed save and use the new result.",
+        "Actions": "Multiattack. Make three attacks in any combination of Longsword and Longbow.\nLongsword. Melee weapon attack, +7 to hit, reach 5 ft. Hit 8 (1d8 + 4) slashing damage plus 7 (2d6) force.\nLongbow. Ranged weapon attack, +5 to hit, range 150/600 ft. Hit 7 (1d8 + 2) piercing damage plus 7 (2d6) force.",
+        "Bonus Actions": "Loyal Heroism. Choose up to two visible allies within 30 ft. Each has advantage on the next attack roll or save it makes before the jarl’s next turn starts.",
+        "Reactions": "Evade. When hit at half maximum HP or below, add 3 to AC against the attack. If the attack misses, move up to half speed away from the attacker without provoking opportunity attacks.",
+        "Printed source": "Chapter 8, p. 266"
+      }
+    }
+  },
+  {
+    "name": "Merchant",
+    "decision": "separate",
+    "pages": "Chapter 8, p. 267",
+    "notes": "Standalone stat block from the printed Northlands Bestiary.",
+    "statBlock": {
+      "name": "Merchant",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium or Small Humanoid",
+      "ac": 14,
+      "hp": 55,
+      "speed": "30 ft.",
+      "cr": "3",
+      "otherStatistics": "Perception 13, Stealth 13.",
+      "description": "A trader can charm the person across the counter and call on nearby help when a deal turns violent.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +0, Dex +3, Con +1, Int +2, Wis +3, Cha +3",
+        "Traits": "Trader’s Eye. Advantage on Intelligence (Investigation) checks to spot poor-quality or counterfeit wares and on Wisdom (Insight) checks to tell when someone is trying to sell such wares to the trader.",
+        "Actions": "Multiattack. Make two attacks in any combination of Shortsword and Quip.\nShortsword. Melee weapon attack, +5 to hit, reach 5 ft. Hit 12 (2d8 + 3) piercing damage.\nQuip. Ranged spell attack, +5 to hit, range 60 ft. Hit 13 (3d6 + 3) psychic damage.",
+        "Bonus Actions": "Best Bargain. One visible creature within 30 ft. makes a DC 13 Charisma save. On failure, it is Charmed until the merchant’s next turn starts.\nDismiss Allies. Dismiss the allies summoned by Call for Aid.",
+        "Reactions": "Call for Aid (1/day). When hit in a populated area, choose 1d4 Bandits or 1d4 Guards. They arrive at initiative count 20 of the following round and defend the merchant as allies. They stay for 1 hour, until the merchant dies, or until dismissed.",
+        "Printed source": "Chapter 8, p. 267"
+      }
+    }
+  },
+  {
+    "name": "Merchant Captain",
+    "decision": "separate",
+    "pages": "Chapter 8, p. 267",
+    "notes": "Standalone stat block from the printed Northlands Bestiary.",
+    "statBlock": {
+      "name": "Merchant Captain",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium or Small Humanoid",
+      "ac": 16,
+      "hp": 102,
+      "speed": "30 ft.",
+      "cr": "6",
+      "otherStatistics": "Perception 14, Stealth 13. Languages Common and three others.",
+      "description": "A merchant captain reads a bad deal quickly and uses practiced banter to unsettle opponents.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +0, Dex +3, Con +4, Int +3, Wis +4, Cha +7",
+        "Traits": "Trader’s Eye. Advantage on Intelligence (Investigation) checks to spot poor-quality or counterfeit wares and on Wisdom (Insight) checks to tell when someone is trying to sell such wares to the trader.",
+        "Actions": "Multiattack. Make four attacks in any combination of Shortsword and Quip.\nShortsword. Melee weapon attack, +6 to hit, reach 5 ft. Hit 12 (2d8 + 3) piercing damage.\nQuip. Ranged spell attack, +7 to hit, range 60 ft. Hit 14 (3d6 + 4) psychic damage.",
+        "Spellcasting": "Uses Charisma, save DC 15.\nAt will: Comprehend Languages, Mage Hand, Mending.\n3/day each: Calm Emotions, Enthrall, Heroism.\n1/day each: Confusion, Freedom of Movement.",
+        "Bonus Actions": "Fast Talk. A visible creature within 30 ft. makes a DC 15 Charisma save. On failure, its next attack roll or save before the captain’s next turn starts has disadvantage.",
+        "Reactions": "Banter (4/day). When a creature within 30 ft. fails an attack roll, ability check, or save, it can reroll and must keep the new result.",
+        "Printed source": "Chapter 8, p. 267"
+      }
+    }
+  },
+  {
+    "name": "Merchant Hunter",
+    "decision": "separate",
+    "pages": "Chapter 8, pp. 267–268",
+    "notes": "The indexed Merchant Hunter is printed as Northern Hunter. The printed Spear lists both melee and ranged use but gives only melee reach.",
+    "statBlock": {
+      "name": "Northern Hunter",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium or Small Humanoid",
+      "ac": 17,
+      "hp": 171,
+      "speed": "30 ft.",
+      "cr": "10",
+      "otherStatistics": "Perception 12, Stealth 13. Resists cold damage. Immune to Frightened. Languages Common and two others.",
+      "description": "The Northern Hunter tracks prey through the snow and slows it with poisoned arrows.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +5, Dex +3, Con +5, Int +2, Wis +7, Cha +0",
+        "Traits": "Arctic Tracker. Advantage on Wisdom (Survival) checks to track through forest, cold grassland, and glacial terrain. Snow and ice do not cost extra movement as difficult terrain.",
+        "Actions": "Multiattack. Make four attacks in any combination of Longbow and Spear. For each, the hunter may replace the weapon’s usual damage type with force.\nLongbow. Ranged weapon attack, +7 to hit, range 80/320 ft. Hit 12 (2d8 + 3) piercing damage plus 3 (1d6) poison. Reduce the target’s speed by 10 ft. until the hunter’s next turn starts. This reduction does not stack.\nSpear. Melee or ranged weapon attack, +9 to hit, reach 5 ft. The printing lists no ranged distance. Hit 12 (2d6 + 5) slashing damage. The target has disadvantage on its next attack roll before the hunter’s next turn starts.",
+        "Bonus Actions": "Slayer (3/day). The hunter’s next attack bypasses damage resistances and immunities.\nSwift Hunter. Move up to full speed toward an enemy the hunter can see.",
+        "Reactions": "No Escape. When a visible creature within 40 ft. moves into a space more than 10 ft. away, the hunter throws a bola or similar object. The creature falls Prone on a failed DC 16 Strength save.",
+        "Printed source": "Chapter 8, pp. 267–268"
+      }
+    }
+  },
+  {
+    "name": "Shaman",
+    "decision": "separate",
+    "pages": "Chapter 8, p. 268",
+    "notes": "Standalone stat block from the printed Northlands Bestiary.",
+    "statBlock": {
+      "name": "Shaman",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium or Small Humanoid",
+      "ac": 15,
+      "hp": 84,
+      "speed": "30 ft.",
+      "cr": "4",
+      "otherStatistics": "Perception 15, Stealth 11. Languages Common and one other.",
+      "description": "A shaman poisons foes with curses and gives companions a burst of ferocity.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +2, Dex +1, Con +2, Int +0, Wis +3, Cha +1",
+        "Actions": "Multiattack. Make three attacks in any combination of Ritual Staff and Cursed Bolt.\nRitual Staff. Melee weapon attack, +4 to hit, reach 5 ft. Hit 6 (1d8 + 2) bludgeoning damage plus 7 (2d6) poison.\nCursed Bolt. Ranged spell attack, +5 to hit, range 60 ft. Hit 10 (2d6 + 3) necrotic damage. The target is Poisoned until its next turn ends.",
+        "Spellcasting": "Uses Wisdom, save DC 15.\nAt will: Druidcraft, Guidance, Mending.\n2/day each: Cure Wounds, Entangle, Fog Cloud.\n1/day each: Flaming Sphere, Plant Growth.",
+        "Bonus Actions": "Inspire Ferocity (recharge 4–6). Choose up to three visible creatures. Each gains 10 temporary HP and has advantage on attack rolls and saves until the shaman’s next turn ends.",
+        "Reactions": "Minor Elemental Absorption (3/day). Gain resistance against one instance of incoming acid, cold, fire, lightning, or thunder damage.",
+        "Printed source": "Chapter 8, p. 268"
+      }
+    }
+  },
+  {
+    "name": "Shield-Maiden",
+    "decision": "separate",
+    "pages": "Chapter 8, p. 268",
+    "notes": "Standalone stat block from the printed Northlands Bestiary.",
+    "statBlock": {
+      "name": "Shield-Maiden",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium or Small Humanoid",
+      "ac": 16,
+      "hp": 65,
+      "speed": "30 ft.",
+      "cr": "3",
+      "otherStatistics": "Perception 13, Stealth 12. Languages Common and one other.",
+      "description": "The shield-maiden fights beside allies, deflecting a blow and striking back if it misses.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +3, Dex +2, Con +4, Int +0, Wis +1, Cha +1",
+        "Actions": "Multiattack. Make three attacks in any combination of Longsword and Javelin. Shield Bash can replace one attack.\nLongsword. Melee weapon attack, +5 to hit, reach 5 ft. Hit 7 (1d8 + 3) slashing damage.\nJavelin. Ranged weapon attack, +5 to hit, range 30/120 ft. Hit 6 (1d6 + 3) piercing damage.\nShield Bash. Choose one visible creature within 5 ft. It makes a DC 12 Strength save. On failure, it takes 5 (1d4 + 3) bludgeoning damage. A Medium or smaller target falls Prone.",
+        "Bonus Actions": "Call to Arms (recharge 6). Choose up to three creatures within 30 ft. that can hear the shield-maiden. They gain advantage on attack rolls until her next turn starts.",
+        "Reactions": "Interpose Shield. When a creature within 5 ft. is hit by a melee attack, it can add 2 to its AC against that attack. If the attack misses, the shield-maiden can make one weapon attack against the attacker.",
+        "Printed source": "Chapter 8, p. 268"
+      }
+    }
+  },
+  {
+    "name": "Skald",
+    "decision": "separate",
+    "pages": "Chapter 8, p. 269",
+    "notes": "Standalone stat block from the printed Northlands Bestiary.",
+    "statBlock": {
+      "name": "Skald",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium or Small Humanoid",
+      "ac": 14,
+      "hp": 97,
+      "speed": "30 ft.",
+      "cr": "5",
+      "otherStatistics": "Perception 14, Stealth 13. Languages Common and one other.",
+      "description": "A skald uses stories and spells to steady an ally in a fight.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +0, Dex +3, Con +2, Int +2, Wis +1, Cha +7",
+        "Actions": "Multiattack. Make either two Shortsword attacks or two Shortbow attacks.\nShortsword. Melee weapon attack, +6 to hit, reach 5 ft. Hit 10 (2d6 + 3) piercing damage.\nShortbow. Ranged weapon attack, +6 to hit, range 80/320 ft. Hit 10 (2d6 + 3) piercing damage.",
+        "Spellcasting": "Uses Charisma, save DC 15. No material components required.\nAt will: Message, Prestidigitation.\n2/day each: Heroism, Hideous Laughter.\n1/day: Enthrall.",
+        "Bonus Actions": "Heroic Oration (recharge 5–6). Choose one creature within 30 ft. that can hear the skald. It has advantage on attack rolls and ability checks until the skald’s next turn starts.",
+        "Printed source": "Chapter 8, p. 269"
+      }
+    }
+  },
+  {
+    "name": "Viking",
+    "decision": "separate",
+    "pages": "Chapter 8, p. 270",
+    "notes": "The printed Multiattack names Longbow, but the only bow attack listed is Shortbow. Use the listed Shortbow attack.",
+    "statBlock": {
+      "name": "Viking",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium or Small Humanoid",
+      "ac": 14,
+      "hp": 39,
+      "speed": "30 ft.",
+      "cr": "1",
+      "otherStatistics": "Perception 11, Stealth 11. Language Common.",
+      "description": "A viking is most dangerous when another raider closes in on the same foe.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +3, Dex +1, Con +4, Int -1, Wis +1, Cha +0",
+        "Traits": "Pack Tactics. The viking has advantage on an attack against a target if an ally within 5 ft. of it is not Incapacitated.",
+        "Actions": "Multiattack. Make two attacks in any combination of Battleaxe and Shortbow. The text names Longbow, but prints only a Shortbow attack.\nBattleaxe. Melee weapon attack, +5 to hit, reach 5 ft. Hit 7 (1d8 + 3) slashing damage.\nShortbow. Ranged weapon attack, +3 to hit, range 80/320 ft. Hit 5 (1d6 + 1) piercing damage.",
+        "Printed source": "Chapter 8, p. 270"
+      }
+    }
+  },
+  {
+    "name": "Wandering Druid",
+    "decision": "separate",
+    "pages": "Chapter 8, p. 270",
+    "notes": "Standalone stat block from the printed Northlands Bestiary.",
+    "statBlock": {
+      "name": "Wandering Druid",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium or Small Humanoid",
+      "ac": 17,
+      "hp": 84,
+      "speed": "30 ft.",
+      "cr": "6",
+      "otherStatistics": "Perception 17, Stealth 13. Languages Common and one other.",
+      "description": "This traveling druid can turn into a beast and bring down enemies with radiant claws.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +1, Dex +3, Con +2, Int +4, Wis +7, Cha +1",
+        "Traits": "Primal Strike. After hitting on its own turn, the druid can add 1d8 cold, fire, lightning, or thunder damage to the hit. It chooses the type on the hit and can do this once per turn.",
+        "Actions": "Multiattack. Make three attacks or cast a spell.\nFang and Claw (beast form only). Melee weapon attack, +7 to hit, reach 5 ft. Hit 17 (4d6 + 3) radiant damage and the target falls Prone.\nHand Axe (humanoid form only). Melee weapon attack, +4 to hit, reach 5 ft. Hit 8 (2d6 + 1) slashing damage.\nShort Bow (humanoid form only). Ranged weapon attack, +6 to hit, range 80/320 ft. Hit 10 (2d6 + 3) piercing damage.\nVerdant Bolt. Ranged spell attack, +7 to hit, range 90 ft. Hit 14 (3d6 + 4) radiant damage.",
+        "Spellcasting": "Humanoid form only. Uses Wisdom, save DC 15.\nAt will: Barkskin (included in AC), Detect Magic, Guidance, Message, Speak with Animals.\n2/day each: Call Lightning, Cure Wounds.\n1/day each: Blight, Revivify.",
+        "Bonus Actions": "Wild Shape. Shift into a beast or back to humanoid form. Statistics stay the same except for rules marked by form. When the druid becomes a beast, it gains 18 temporary HP and its worn and carried equipment merges into its body.",
+        "Printed source": "Chapter 8, p. 270"
+      }
+    }
+  },
+  {
+    "name": "War Chaplain",
+    "decision": "separate",
+    "pages": "Chapter 8, p. 271",
+    "notes": "Standalone stat block from the printed Northlands Bestiary.",
+    "statBlock": {
+      "name": "War Chaplain",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium or Small Humanoid",
+      "ac": 16,
+      "hp": 65,
+      "speed": "30 ft.",
+      "cr": "3",
+      "otherStatistics": "Perception 14, Stealth 10. Languages Common and two others.",
+      "description": "A battlefield priest patches up a nearby ally and calls for another blow against a foe already under attack.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +2, Dex +0, Con +2, Int +0, Wis +4, Cha +2",
+        "Actions": "Multiattack. Make two attacks in any combination of Longsword and Radiant Bolt.\nLongsword. Melee weapon attack, +4 to hit, reach 5 ft. Hit 6 (1d8 + 2) piercing damage plus 7 (2d6) radiant.\nRadiant Bolt. Ranged spell attack, +4 to hit, range 90 ft. Hit 13 (2d10 + 2) radiant damage.\nWar God’s Healing (recharge 5–6). One ally within 30 ft. regains 10 (3d6) HP.",
+        "Bonus Actions": "Divine Orders. Choose an ally within 30 ft. It can spend its reaction to attack a creature the chaplain attacked this round.",
+        "Printed source": "Chapter 8, p. 271"
+      }
+    }
+  },
+  {
+    "name": "Warlord",
+    "decision": "separate",
+    "pages": "Chapter 8, p. 271",
+    "notes": "Standalone stat block from the printed Northlands Bestiary.",
+    "statBlock": {
+      "name": "Warlord",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium or Small Humanoid",
+      "ac": 18,
+      "hp": 112,
+      "speed": "30 ft.",
+      "cr": "5",
+      "otherStatistics": "Perception 15, Stealth 12. Languages Common and one other.",
+      "description": "The warlord directs attacks at a distance and counters anyone who gets close enough to strike.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +4, Dex +2, Con +6, Int +0, Wis +2, Cha +3",
+        "Actions": "Multiattack. Make three attacks in any combination of Battleaxe and Longbow.\nBattleaxe. Melee weapon attack, +7 to hit, reach 5 ft. Hit 13 (2d8 + 4) slashing damage.\nLongbow. Ranged weapon attack, +5 to hit, range 150/600 ft. Hit 11 (2d8 + 2) piercing damage.",
+        "Bonus Actions": "Command. Choose an ally within 60 ft. that can see and hear the warlord. It can immediately spend its reaction to make one melee or ranged weapon attack against a target of the warlord’s choice.\nIntimidate. A visible creature within 30 ft. makes a DC 14 Wisdom save. On failure, its attack rolls have disadvantage until the warlord’s next turn starts.",
+        "Reactions": "Reflexive Strike. When an attack roll hits the warlord, it can make one Battleaxe attack against the attacker. If the counterattack hits, the attacker falls Prone unless it passes a DC 15 Strength (Athletics) check.",
+        "Printed source": "Chapter 8, p. 271"
+      }
+    }
+  },
+  {
+    "name": "Warpriest",
+    "decision": "separate",
+    "pages": "Chapter 8, p. 271",
+    "notes": "Standalone stat block from the printed Northlands Bestiary.",
+    "statBlock": {
+      "name": "Warpriest",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium or Small Humanoid",
+      "ac": 18,
+      "hp": 142,
+      "speed": "30 ft.",
+      "cr": "8",
+      "otherStatistics": "Perception 17, Stealth 10. Immune to Frightened. Languages Common and two others.",
+      "description": "A warpriest can call on divine power to make an ally’s strike hit harder.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +3, Dex +0, Con +6, Int +0, Wis +7, Cha +1",
+        "Actions": "Multiattack. Make three attacks in any combination of Blessed Warhammer and Divine Flame.\nBlessed Warhammer. Melee weapon attack, +6 to hit, reach 5 ft. Hit 7 (1d8 + 3) bludgeoning damage plus 13 (3d8) radiant or necrotic damage, chosen by the warpriest.\nDivine Flame. Ranged spell attack, +7 to hit, range 120 ft. Hit 18 (4d6 + 4) radiant or necrotic damage, chosen by the warpriest.",
+        "Spellcasting": "Uses Wisdom, save DC 15. No spell components required.\nAt will: Guidance, Light, Spare the Dying, Thaumaturgy.\n2/day each: Command, Cure Wounds, Hold, Spiritual Weapon.\n1/day each: Guardian of Faith, Protection from Energy.",
+        "Bonus Actions": "Divine Aid (3/day). Cast Bless, Dispel Magic, Healing Word, or Restoration.",
+        "Reactions": "War Blessing. When a visible creature within 30 ft. hits with a melee weapon attack, the warpriest can add 9 (2d8) radiant or necrotic damage to the hit. The warpriest chooses the type.",
+        "Printed source": "Chapter 8, p. 271"
+      }
+    }
+  },
+  {
+    "name": "Witch",
+    "decision": "separate",
+    "pages": "Chapter 8, p. 272",
+    "notes": "Standalone stat block from the printed Northlands Bestiary.",
+    "statBlock": {
+      "name": "Witch",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium Humanoid",
+      "ac": 17,
+      "hp": 136,
+      "speed": "30 ft.",
+      "cr": "9",
+      "otherStatistics": "Perception 16, Stealth 13. Languages Common and three others.",
+      "description": "This witch can turn a successful roll sour or bind an attacker in sudden vines.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +0, Dex +3, Con +2, Int +4, Wis +2, Cha +8",
+        "Actions": "Multiattack. Make three attacks in any combination of Dagger and Eldritch Burst.\nDagger. Melee or ranged weapon attack, +7 to hit, reach 5 ft. or range 20/60 ft. Hit 10 (2d4 + 3) piercing damage plus 14 (4d6) poison.\nEldritch Burst. Melee or ranged spell attack, +8 to hit, reach 5 ft. or range 120 ft. Hit 18 (4d6 + 4) force damage.",
+        "Spellcasting": "Uses Charisma, save DC 16. No spell components required.\nAt will: Bane, Barkskin (included in AC), Druidcraft, Mage Hand, Minor Illusion.\n2/day each: Charm Person, Hex, Invisibility.\n1/day each: Blight, Polymorph.",
+        "Bonus Actions": "Misty Step. Cast Misty Step.",
+        "Reactions": "Retributive Vines. When a visible attacker deals at least 5 damage to the witch, vines make the attacker Restrained until the start of its next turn.\nReflexive Hex. When a visible creature within 60 ft. succeeds on an ability check, attack roll, or save, it must roll 1d6 and subtract the result from the triggering roll.",
+        "Printed source": "Chapter 8, p. 272"
+      }
+    }
+  },
+  {
+    "name": "Witch, Apprentice",
+    "decision": "separate",
+    "pages": "Chapter 8, p. 272",
+    "notes": "Standalone stat block from the printed Northlands Bestiary.",
+    "statBlock": {
+      "name": "Witch, Apprentice",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium Humanoid",
+      "ac": 17,
+      "hp": 58,
+      "speed": "30 ft.",
+      "cr": "3",
+      "otherStatistics": "Perception 13, Stealth 12. Languages Common and two others.",
+      "description": "The apprentice combines poisoned steel with force magic and has one short teleport to escape a close fight.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +0, Dex +2, Con +2, Int +2, Wis +1, Cha +3",
+        "Actions": "Multiattack. Make two attacks in any combination of Dagger and Eldritch Burst.\nDagger. Melee or ranged weapon attack, +4 to hit, reach 5 ft. or range 20/60 ft. Hit 4 (1d4 + 2) piercing damage plus 7 (2d6) poison.\nEldritch Burst. Melee or ranged spell attack, +5 to hit, reach 5 ft. or range 120 ft. Hit 11 (2d6 + 4) force damage.",
+        "Spellcasting": "Uses Charisma, save DC 13. No spell components required.\nAt will: Barkskin (included in AC), Druidcraft, Mage Hand, Minor Illusion.\n2/day each: Bane, Hex.",
+        "Bonus Actions": "Misty Step (1/day). Cast Misty Step.",
+        "Reactions": "Reflexive Hex. When a visible creature within 60 ft. makes an ability check, attack roll, or save, it must roll 1d4 and subtract the result from the triggering roll.",
+        "Printed source": "Chapter 8, p. 272"
+      }
+    }
+  }
+]

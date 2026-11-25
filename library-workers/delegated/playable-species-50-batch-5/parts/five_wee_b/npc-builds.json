@@ -1,0 +1,257 @@
+{
+  "builds": [
+    {
+      "id": "becmi-pc1-pooka-brindlewake",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Basic D&D (BECMI)"
+      ],
+      "size": "Small",
+      "title": "Pooka ferryman’s acquaintance",
+      "difficulty": "Normal-monster tier, 0 XP. Descending Armor Class.",
+      "type": "Fairy",
+      "ac": 6,
+      "hp": 9,
+      "hitDice": "2d8",
+      "initiative": 0,
+      "speed": "120 ft./turn or 40 ft./round at up to 400 cn.",
+      "senses": "Second sight can recognize invisible or disguised fairies.",
+      "languages": "Fairy, local trade tongue and Chaotic. Communicates with animals.",
+      "abilityScores": {
+        "STR": 9,
+        "DEX": 13,
+        "CON": 12,
+        "INT": 12,
+        "WIS": 12,
+        "CHA": 13
+      },
+      "skills": [],
+      "traits": [
+        "Fixed black hare form at this tier. No hands, armor or shield. Natural AC 7 improves to 6 from Dexterity 13. Hit Dice rolled 4 and 5.",
+        "Base THAC0 18 from 2 HD if needed. Saves as a 2nd-level thief. Death/poison 13, wands 14, paralysis/stone 13, breath 16, rod/staff/spell 15.",
+        "Immune to ghoul paralysis, natural disease and aging. A splash of holy water deals 1d4 damage."
+      ],
+      "actions": [
+        "Selective invisibility at will. Choose who among mortals sees Brindlewake. Beings with second sight can recognize him.",
+        "Age an inanimate object at will by touch. Accelerate natural aging such as turning fresh cider sour or drying a wooden wedge. The referee decides the amount and local effect.",
+        "Send a dream to a sleeper. Save vs. spells to resist (use the target’s saving throw). The dream cannot deal damage or impose a condition at this tier."
+      ],
+      "tactics": "Appears to the person he trusts. Tries to say his piece before bolting. Given a chance, exposes the ferryman’s forged marker by aging the fresh paint on it."
+    },
+    {
+      "id": "becmi-pc1-sidhe-ivara-reedglass",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Basic D&D (BECMI)"
+      ],
+      "size": "Medium",
+      "title": "Warrior Sidhe sluice warden",
+      "difficulty": "Warrior 1, 2,500 XP. Descending Armor Class.",
+      "type": "Fairy",
+      "ac": 4,
+      "hp": 7,
+      "hitDice": "1d8 equivalent (2d4 rolled)",
+      "initiative": 0,
+      "speed": "90 ft./turn or 30 ft./round, carrying 401–800 cn. Can breathe underwater.",
+      "senses": "Second sight can recognize invisible or disguised fairies.",
+      "languages": "Fairy, local trade tongue, Dryad, Elvish, Gnome, Treant and Neutral. Communicates with animals.",
+      "abilityScores": {
+        "STR": 13,
+        "DEX": 13,
+        "CON": 12,
+        "INT": 13,
+        "WIS": 11,
+        "CHA": 12
+      },
+      "skills": [],
+      "traits": [
+        "First-level warrior totals 7 HP from the 0 XP d4 roll of 4 and the first-level d4 roll of 3. They count together as one Hit Die for attack.",
+        "Bronze chain mail AC 5 improves to AC 4 from Dexterity 13. No shield. Base THAC0 19. Strength 13 gives +1 to melee attack rolls and damage.",
+        "First-level fighter saves. Death/poison 12, wands 13, paralysis/stone 14, breath 15, rod/staff/spell 16.",
+        "Breathes water or air. Iron poisons through prolonged exposure. Iron weapon hits deal standard damage.",
+        "Immune to ghoul paralysis, natural disease and aging. A splash of holy water deals 1d4 damage."
+      ],
+      "actions": [
+        "Bronze short sword. One attack at effective THAC0 18 for 1d6+1 damage. Roll the sharpening interval as 1d6+6 melee rounds. Once dull, it deals 1 point less until sharpened, minimum 1.",
+        "Detect Magic. One 1st-level fairy charm until replenished through communion with nature. For 2 turns, visible magic within 60 ft. of Ivara glows to them.",
+        "Invisibility to mortals at will. A creature Ivara attacks sees them. Second sight and Detect Invisible can reveal them."
+      ],
+      "tactics": "Volunteer information if someone shows concern for the people downstream. Step into the water for cover if threatened. Draw the bronze sword if someone tries to force the gate."
+    },
+    {
+      "id": "becmi-pc1-sprite-tansy-duskwick",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Basic D&D (BECMI)"
+      ],
+      "size": "Tiny",
+      "title": "Sprite orchard lookout",
+      "difficulty": "Sprite 1, 2,000 XP. Descending Armor Class.",
+      "type": "Fairy",
+      "ac": 7,
+      "hp": 5,
+      "hitDice": "2d4",
+      "initiative": 0,
+      "speed": "Land 60 ft./turn or 20 ft./round at up to 25 cn. Fly 180 ft./turn or 60 ft./round at up to 3 cn.",
+      "senses": "Second sight can recognize invisible or disguised fairies.",
+      "languages": "Fairy, local trade tongue, Elvish, Gnome, Halfling and Neutral. Communicates with animals.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 13,
+        "CON": 12,
+        "INT": 14,
+        "WIS": 11,
+        "CHA": 12
+      },
+      "skills": [],
+      "traits": [
+        "Natural AC 8 improves to AC 7 with Dexterity 13. Carries no weapon, armor or shield. Hit Dice rolled 2 and 3. Base THAC0 18 from 2 HD.",
+        "Second-level elf saves. Death/poison 12, wands 13, paralysis/stone 13, breath 15, rod/staff/spell 15.",
+        "If loaded above 3 cn, use the slower flying speed from Table 18a and rest for one turn after three turns of flight.",
+        "Immune to ghoul paralysis, natural disease and aging. A splash of holy water deals 1d4 damage."
+      ],
+      "actions": [
+        "Invisibility to mortals at will. A creature Tansy attacks sees them. Second sight and Detect Invisible can reveal them.",
+        "Magic Missile. One 1st-level fairy charm until replenished by communion with nature. One missile automatically hits one visible target within 150 ft. for 1d6+1 damage. No saving throw. Use in its one-round duration.",
+        "Group curse. With four other sprites acting together, cast one harmless prank curse. A Remove Curse can undo it. Tansy cannot cast the curse alone."
+      ],
+      "tactics": "Watch from a high branch while invisible. If threatened, distract the intruder and fly away. Cast Magic Missile only to stop an immediate attack on someone else."
+    },
+    {
+      "id": "becmi-pc1-wood-imp-nettle-bracken",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Basic D&D (BECMI)"
+      ],
+      "size": "Tiny",
+      "title": "Wood Imp trail watch, fighter path",
+      "difficulty": "Wood Imp 1, 800 XP. Descending Armor Class.",
+      "type": "Humanoid",
+      "ac": 7,
+      "hp": 5,
+      "hitDice": "2d4",
+      "initiative": 0,
+      "speed": "90 ft./turn or 30 ft./round at up to 25 cn.",
+      "senses": "Ordinary sight and hearing.",
+      "languages": "Wood Imp, local trade tongue and Chaotic. Communicates with spiders and other arachnids.",
+      "abilityScores": {
+        "STR": 12,
+        "DEX": 16,
+        "CON": 12,
+        "INT": 10,
+        "WIS": 11,
+        "CHA": 10
+      },
+      "skills": [],
+      "traits": [
+        "No effective armor or shield. Unarmored AC 9 improves to 7 from Dexterity 16. Hit Dice rolled 2 and 3.",
+        "First-level fighter saves. Death/poison 12, wands 13, paralysis/stone 14, breath 15, rod/staff/spell 16.",
+        "In a forest, Nettle gains surprise on 1–3 on 1d6. Dexterity 16 gives +2 on ranged attack rolls."
+      ],
+      "actions": [
+        "Miniature shortbow. Base THAC0 18. Effective THAC0 15/16/17 at short/medium/long range after Dexterity and range adjustments. On a hit, 1d4 damage. Range bands 50/100/150 ft. indoors or yards outdoors. Carries six unpoisoned arrows.",
+        "Call to a nearby spider in its own language. It can respond or decline according to its interests."
+      ],
+      "tactics": "Looks for trouble from the edge of woodland cover. If an enemy closes inside the bow’s effective range, retreat toward brush and watch for pursuit."
+    },
+    {
+      "id": "becmi-pc1-woodrake-clove-barrow",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Basic D&D (BECMI)"
+      ],
+      "size": "Medium",
+      "title": "Woodrake lock thief",
+      "difficulty": "Normal-monster tier, 0 XP. Descending Armor Class.",
+      "type": "Fairy",
+      "ac": 1,
+      "hp": 18,
+      "hitDice": "4d8",
+      "initiative": 0,
+      "speed": "Drake land 120 ft./turn or 40 ft./round at up to 500 cn. Fly 30 ft./turn or 10 ft./round at up to 200 cn. Unarmored elf/halfling 120 ft./turn or 40 ft./round at up to 400 cn.",
+      "senses": "Second sight can recognize invisible or disguised fairies.",
+      "languages": "Fairy, local trade tongue, Elvish, Halfling and Chaotic. Communicates with animals.",
+      "abilityScores": {
+        "STR": 12,
+        "DEX": 13,
+        "CON": 12,
+        "INT": 13,
+        "WIS": 12,
+        "CHA": 11
+      },
+      "skills": [
+        "5th-level thief skills. Open locks 35%, find traps 30%, remove traps 30%, climb walls 91%, move silently 40%, hide in shadows 28%, pick pockets 40%, hear noise 50%. Use the applicable form for the task."
+      ],
+      "traits": [
+        "Natural drake AC 2 improves to AC 1 with Dexterity 13. Unarmored elf or halfling uses AC 8. Hit Dice rolled 4, 5, 4 and 5. Base THAC0 16.",
+        "8th-level magic-user saves from double Hit Dice. Death/poison 11, wands 12, paralysis/stone 11, breath 14, rod/staff/spell 12.",
+        "Use the book’s optional spell immunity. Announce before the round starts, up to two rounds per day. Ignore spells of 4th level or lower for that round.",
+        "Invisibility to mortals opens at 2nd level. Clove can still recognize other fairies with second sight.",
+        "Immune to ghoul paralysis, natural disease and aging. A splash of holy water deals 1d4 damage."
+      ],
+      "actions": [
+        "Drake attack. Roll both claws and the bite separately at THAC0 16. Each claw deals 1d2 and the bite deals 1d8.",
+        "Shapechange at will between drake, elf, and halfling. Allow one round to change. Between forms, Clove’s dagger and lockpicks must be set down or picked up again.",
+        "Dagger in elf or halfling form. One melee attack at THAC0 16 for 1d4. If backstabbing a victim unaware of the approach, add +4 to hit and double the damage."
+      ],
+      "tactics": "Approach doors as a halfling locksmith. If surrounded in a confined room, use the drake shape once there is room and withdraw. Declare spell immunity when an opposing caster has a clear shot."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Brindlewake",
+      "species": "Pooka",
+      "size": "Small",
+      "speciesPublication": "Tall Tales of the Wee Folk (PC1, 1989)",
+      "edition": "Basic D&D (BECMI)",
+      "build": "becmi-pc1-pooka-brindlewake",
+      "role": "Reluctant witness",
+      "motive": "Protect a ferryman who once sheltered him from hounds.",
+      "hook": "A passenger insists a black hare sat on the ferry rail and called the toll keeper by his childhood name."
+    },
+    {
+      "name": "Ivara Reedglass",
+      "species": "Sidhe",
+      "size": "Medium",
+      "speciesPublication": "Tall Tales of the Wee Folk (PC1, 1989)",
+      "edition": "Basic D&D (BECMI)",
+      "build": "becmi-pc1-sidhe-ivara-reedglass",
+      "role": "Sluice warden",
+      "motive": "Keep the floodgate operational until the spawning run has passed.",
+      "hook": "The iron gate key fell into the pool. The warden will guide a diver to it but asks someone else to carry it."
+    },
+    {
+      "name": "Tansy Duskwick",
+      "species": "Sprite",
+      "size": "Tiny",
+      "speciesPublication": "Tall Tales of the Wee Folk (PC1, 1989)",
+      "edition": "Basic D&D (BECMI)",
+      "build": "becmi-pc1-sprite-tansy-duskwick",
+      "role": "Orchard lookout",
+      "motive": "Find who has been breaking the boughs after harvest.",
+      "hook": "An unseen voice offers to show the party a snapped branch with a metal splinter in it."
+    },
+    {
+      "name": "Nettle Bracken",
+      "species": "Wood Imp",
+      "size": "Tiny",
+      "speciesPublication": "Tall Tales of the Wee Folk (PC1, 1989)",
+      "edition": "Basic D&D (BECMI)",
+      "build": "becmi-pc1-wood-imp-nettle-bracken",
+      "role": "Woodland watch",
+      "motive": "Keep travelers from trampling a patch of spider egg sacs.",
+      "hook": "Someone firing warning shots from the undergrowth is trying to turn a wagon away from a verge full of white silk."
+    },
+    {
+      "name": "Clove Barrow",
+      "species": "Woodrake",
+      "size": "Medium",
+      "speciesPublication": "Tall Tales of the Wee Folk (PC1, 1989)",
+      "edition": "Basic D&D (BECMI)",
+      "build": "becmi-pc1-woodrake-clove-barrow",
+      "role": "Lock thief",
+      "motive": "Open an old vault simply to see whether its lock can be picked.",
+      "hook": "A locksmith approaches with a delicate set of picks and asks the party who has the legal right to open the ruined tollhouse vault."
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+[
+  {
+    "name": "Blood Hawk",
+    "publication": "DDEX2-01 - City of Danger",
+    "edition": "2014 fifth edition",
+    "classification": "Small Beast, Unaligned",
+    "ac": 12,
+    "hp": 7,
+    "hitDice": "2d6",
+    "speed": "10 ft., fly 60 ft.",
+    "cr": "1/8",
+    "xp": 25,
+    "abilities": {
+      "Str": {
+        "score": 6,
+        "modifier": -2
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Perception +4. Passive Perception 14. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A compact raptor with russet feathers, a sharp hooked beak, and strong talons.",
+    "habitats": [
+      "Urban",
+      "Planar"
+    ],
+    "sections": {
+      "Printed source": "DDEX2-1 City of Danger, 2015 release , p. 12. Adventure context on pp. 10, 11. ",
+      "Traits": "Keen Sight. The hawk has advantage on Wisdom (Perception) checks that use sight.\nPack Tactics. The hawk has advantage on attacks against a creature if an ally of the hawk is within 5 ft. of that creature and the ally is not incapacitated.",
+      "Actions": "Beak. Melee weapon attack, +4 to hit, 5-ft. reach, one target. Hit for 4 (1d4 + 2) piercing damage.",
+      "Adventure encounter": "Eight blood hawks swarm the characters at the tower and try to fight in pairs. A successful DC 10 Intelligence (Arcana) check identifies their origin on the Elemental Plane of Air. For a weak party, remove four blood hawks and two guards."
+    }
+  },
+  {
+    "name": "Giant Badger",
+    "publication": "DDEX2-01 - City of Danger",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, Unaligned",
+    "ac": 10,
+    "hp": 13,
+    "hitDice": "2d8 + 4",
+    "speed": "30 ft., burrow 10 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Darkvision 30 ft. Passive Perception 11. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A large striped badger with sharp black teeth and claws that look like obsidian.",
+    "habitats": [
+      "Underground"
+    ],
+    "sections": {
+      "Printed source": "DDEX2-1 City of Danger, 2015 release , p. 25. Adventure context on pp. 22, 23. ",
+      "Traits": "Keen Smell. The badger has advantage on Wisdom (Perception) checks that use smell.",
+      "Actions": "Multiattack. Make one Bite and one Claws attack.\nBite. Melee weapon attack, +3 to hit, 5-ft. reach, one target. Hit for 4 (1d6 + 1) piercing damage.\nClaws. Melee weapon attack, +3 to hit, 5-ft. reach, one target. Hit for 6 (2d4 + 1) slashing damage.",
+      "Mad Badgers encounter": "The Cult of the Black Earth has enchanted four giant badgers to patrol the mine and tunnels. They automatically surprise characters who failed at least two checks while navigating the maze. Otherwise, determine initiative normally. A DC 10 Intelligence (Nature) check reveals behavior consistent with a magical compulsion. On a successful DC 15 Wisdom (Animal Handling) check, the badgers have disadvantage on all attacks until the end of their next turn."
+    }
+  },
+  {
+    "name": "Giant Frog",
+    "publication": "DDEX2-01 - City of Danger",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, Unaligned",
+    "ac": 11,
+    "hp": 18,
+    "hitDice": "4d8",
+    "speed": "30 ft., swim 30 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Perception +2 and Stealth +3. Darkvision 30 ft. Passive Perception 12. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A broad-mouthed frog with mottled skin, large eyes, and folded powerful hind legs.",
+    "habitats": [
+      "Underground",
+      "Underwater"
+    ],
+    "sections": {
+      "Printed source": "DDEX2-1 City of Danger, 2015 release , p. 32. Adventure context on pp. 30, 31. ",
+      "Traits": "Amphibious. The frog breathes air and water.\nStanding Leap. It can long jump up to 20 ft. or high jump up to 10 ft., with or without a running start.",
+      "Actions": "Bite. Melee weapon attack, +3 to hit, 5-ft. reach, one target. Hit for 4 (1d6 + 1) piercing damage and grapple the target (escape DC 11). While that grapple lasts, the target is restrained and the frog cannot bite a different target.\nSwallow. Make one Bite attack against a Small or smaller target the frog is grappling. On a hit, the target is swallowed and the grapple ends. The frog can hold one swallowed creature at a time. That creature is blinded and restrained, has total cover from attacks and effects outside the frog, and takes 5 (2d4) acid damage at the start of each of the frog’s turns. When the frog dies, it stops restraining the swallowed creature. That creature can use 5 ft. of movement to escape the corpse and emerges prone.",
+      "Deep Guardians encounter": "Two giant frogs and four bullywugs patrol the partly submerged grotto below Mulmaster Bay. The guardians investigate when the trap is triggered. Add one giant frog for a strong or very strong party."
+    }
+  },
+  {
+    "name": "Giant Badger",
+    "publication": "DDEX2-07 - Bounty in the Bog",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, Unaligned",
+    "ac": 10,
+    "hp": 13,
+    "hitDice": "2d8 + 4",
+    "speed": "30 ft., burrow 10 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Darkvision 30 ft. Passive Perception 11. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A stocky burrowing badger with dark fur, pale facial stripes, and strong digging claws.",
+    "habitats": [
+      "Underground",
+      "Swamp"
+    ],
+    "sections": {
+      "Printed source": "DDEX2-7 Bounty in the Bog, 2015 release , p. 22. Adventure context on pp. 14, 15, 18. ",
+      "Traits": "Keen Smell. The badger has advantage on Wisdom (Perception) checks that use smell.",
+      "Actions": "Multiattack. Make one Bite and one Claws attack.\nBite. Melee weapon attack, +3 to hit, 5-ft. reach, one target. Hit for 4 (1d6 + 1) piercing damage.\nClaws. Melee weapon attack, +3 to hit, 5-ft. reach, one target. Hit for 6 (2d4 + 1) slashing damage.",
+      "Grotto encounter": "The badger with the Sacred Stone monks attacks the closest target and fights to the death. The encounter adjustment removes the badger for a weak or very weak party."
+    }
+  },
+  {
+    "name": "Giant Wasp",
+    "publication": "DDEX2-07 - Bounty in the Bog",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, Unaligned",
+    "ac": 12,
+    "hp": 13,
+    "hitDice": "3d8",
+    "speed": "10 ft., fly 50 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "abilities": {
+      "Str": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Passive Perception 10. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A large, narrow-waisted wasp with a banded abdomen, translucent wings, and a curved stinger.",
+    "habitats": [
+      "Forest",
+      "Swamp"
+    ],
+    "sections": {
+      "Printed source": "DDEX2-7 Bounty in the Bog, 2015 release , p. 21. Adventure context on pp. 10, 11, 13, 18. ",
+      "Actions": "Sting. Melee weapon attack, +4 to hit, 5-ft. reach, one creature. Hit for 5 (1d6 + 2) piercing damage. The target must make a DC 11 Constitution save, taking 10 (3d6) poison damage on a failure or half on a success. If the poison damage drops the target to 0 HP, the target is stable and poisoned for 1 hour, even after regaining HP. It is paralyzed while poisoned by this effect.",
+      "Flooded Forest encounter": "Three wasps emerge from the nest. A creature can spend an action applying one dose of the bandits’ repellent to itself or someone else. Wasps ignore a character treated in the prior 2 hours. They also ignore a character treated shortly before the lizardfolk encounter if the group has not since taken a long rest. A treated character forfeits that protection by attacking a wasp. If Sting paralyzes an adventurer, a wasp carries that adventurer back to the nest. The wasps fight to the death."
+    }
+  }
+]

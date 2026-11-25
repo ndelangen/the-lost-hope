@@ -1,0 +1,18 @@
+[
+  {
+    "artGroup": "fastieth",
+    "file": "portraits/fastieth.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "a3017c0bafb6606006e3e6079478eeb08f5af725cb66e15b298e532c3157e070",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "artGroup": "two-headed-crocodile",
+    "file": "portraits/two-headed-crocodile.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "feac625a082ac879c0308ec69f5c5f5f90e5a371183502fbd7388924aea820dc",
+    "credit": "OpenAI ImageGen"
+  }
+]

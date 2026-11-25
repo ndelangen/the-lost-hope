@@ -1,0 +1,15 @@
+[
+  {
+    "entry": "beast-5c599616ac500daae9e6b0bc",
+    "slug": "sheep",
+    "name": "Sheep",
+    "revision": "v1",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-19/event-drafts/sheep-event-v1.png",
+    "saved": " Backups/Encounter Batch 19 2026-11-23/event-drafts/sheep-event-v1.png",
+    "path": "encounters-19/sheep.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-19/sheep.png",
+    "overrides": [],
+    "sha256": "a7e8c33a26f0869dfbf725000bc94c4d17928918a48cc48a5ec79ba8238f0f6f",
+    "bytes": 2185546
+  }
+]

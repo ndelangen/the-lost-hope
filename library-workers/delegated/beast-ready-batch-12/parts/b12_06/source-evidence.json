@@ -1,0 +1,276 @@
+[
+  {
+    "name": "Shark, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "publisher": "Kobold Press / Open Design LLC",
+    "rulesWitnessPublisher": "Nosolorol",
+    "rulesWitness": "Cubil de Monstruos",
+    "printing": "Kobold Press Monster Vault ©2024, Nosolorol Spanish edition ©2025",
+    "language": "Spanish",
+    "translator": "Andrea Iglesias",
+    "license": "Licensed Spanish translation published by Nosolorol.",
+    "isbn": "979-13-87882-04-4",
+    "heading": "Tiburón, Gigante",
+    "printedPages": [
+      358,
+      359
+    ],
+    "viewerPages": [
+      360,
+      361
+    ],
+    "pageNumbering": "Printed folio plus two gives the one-based page.",
+    "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "url": "https://www.nosolorol.com/talesofthevaliant",
+    "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "errataUrl": "https://koboldpress.com/errata/",
+    "catalogCR": "5.0",
+    "cr": "5",
+    "catalogRole": "Kobold Press’s English index confirms scope, indexed name, size, habitat and displayed challenge rating. The licensed Spanish book supplies the encounter mechanics.",
+    "firstPartyErrata": "Checked the Kobold Press Monster Vault errata dated May 29, 2025. It lists no changes specific to these creature blocks.",
+    "fixedValues": {
+      "Perception": 13,
+      "Stealth": 10
+    },
+    "abilityModifiers": {
+      "STR": 6,
+      "DEX": 0,
+      "CON": 5,
+      "INT": -5,
+      "WIS": 0,
+      "CHA": -3
+    },
+    "hpEvidence": "The profile gives fixed HP and omits a Hit Dice formula.",
+    "xp": 1800,
+    "xpSource": "Cubil de Monstruos challenge-to-experience table, printed p. 17 (p. 19).",
+    "supportingPages": [
+      17,
+      23
+    ],
+    "habitatSource": "Kobold Press official English Monster Vault catalog habitat column. https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "appearanceSource": "Editorial details from the roster’s existing portrait, consistent with the animal form and size.",
+    "sourceDistinctions": [
+      "The Actions and Bonus actions begin on printed p. 359 above the Tiger heading. Blood Sense pinpoints creatures below maximum HP within 120 ft. Bite can target a creature or object."
+    ]
+  },
+  {
+    "name": "Shark, Hunter",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "publisher": "Kobold Press / Open Design LLC",
+    "rulesWitnessPublisher": "Nosolorol",
+    "rulesWitness": "Cubil de Monstruos",
+    "printing": "Kobold Press Monster Vault ©2024, Nosolorol Spanish edition ©2025",
+    "language": "Spanish",
+    "translator": "Andrea Iglesias",
+    "license": "Licensed Spanish translation published by Nosolorol.",
+    "isbn": "979-13-87882-04-4",
+    "heading": "Tiburón, Cazador",
+    "printedPages": [
+      357,
+      358
+    ],
+    "viewerPages": [
+      359,
+      360
+    ],
+    "pageNumbering": "Printed folio plus two gives the one-based page.",
+    "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "url": "https://www.nosolorol.com/talesofthevaliant",
+    "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "errataUrl": "https://koboldpress.com/errata/",
+    "catalogCR": "2.0",
+    "cr": "2",
+    "catalogRole": "Kobold Press’s English index confirms scope, indexed name, size, habitat and displayed challenge rating. The licensed Spanish book supplies the encounter mechanics.",
+    "firstPartyErrata": "Checked the Kobold Press Monster Vault errata dated May 29, 2025. It lists no changes specific to these creature blocks.",
+    "fixedValues": {
+      "Perception": 12,
+      "Stealth": 11
+    },
+    "abilityModifiers": {
+      "STR": 3,
+      "DEX": 1,
+      "CON": 2,
+      "INT": -5,
+      "WIS": 0,
+      "CHA": -3
+    },
+    "hpEvidence": "The profile gives fixed HP and omits a Hit Dice formula.",
+    "xp": 450,
+    "xpSource": "Cubil de Monstruos challenge-to-experience table, printed p. 17 (p. 19).",
+    "supportingPages": [
+      17,
+      23
+    ],
+    "habitatSource": "Kobold Press official English Monster Vault catalog habitat column. https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "appearanceSource": "Editorial details from the roster’s existing portrait, consistent with the animal form and size.",
+    "sourceDistinctions": [
+      "The block starts on printed p. 357. Blood Sense pinpoints within 60 ft. and the Bite targets one creature."
+    ]
+  },
+  {
+    "name": "Shark, Reef",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "publisher": "Kobold Press / Open Design LLC",
+    "rulesWitnessPublisher": "Nosolorol",
+    "rulesWitness": "Cubil de Monstruos",
+    "printing": "Kobold Press Monster Vault ©2024, Nosolorol Spanish edition ©2025",
+    "language": "Spanish",
+    "translator": "Andrea Iglesias",
+    "license": "Licensed Spanish translation published by Nosolorol.",
+    "isbn": "979-13-87882-04-4",
+    "heading": "Tiburón, de Arrecife",
+    "printedPages": [
+      358
+    ],
+    "viewerPages": [
+      360
+    ],
+    "pageNumbering": "Printed folio plus two gives the one-based page.",
+    "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "url": "https://www.nosolorol.com/talesofthevaliant",
+    "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "errataUrl": "https://koboldpress.com/errata/",
+    "catalogCR": "0.5",
+    "cr": "1/2",
+    "catalogRole": "Kobold Press’s English index confirms scope, indexed name, size, habitat and displayed challenge rating. The licensed Spanish book supplies the encounter mechanics.",
+    "firstPartyErrata": "Checked the Kobold Press Monster Vault errata dated May 29, 2025. It lists no changes specific to these creature blocks.",
+    "fixedValues": {
+      "Perception": 12,
+      "Stealth": 11
+    },
+    "abilityModifiers": {
+      "STR": 2,
+      "DEX": 1,
+      "CON": 1,
+      "INT": -5,
+      "WIS": 0,
+      "CHA": -3
+    },
+    "hpEvidence": "The profile gives fixed HP and omits a Hit Dice formula.",
+    "xp": 100,
+    "xpSource": "Cubil de Monstruos challenge-to-experience table, printed p. 17 (p. 19).",
+    "supportingPages": [
+      17,
+      23
+    ],
+    "habitatSource": "Kobold Press official English Monster Vault catalog habitat column. https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "appearanceSource": "Editorial details from the roster’s existing portrait, consistent with the animal form and size.",
+    "sourceDistinctions": [
+      "The reef shark uses Pack Tactics and can Hide as a bonus action. Its Actions list one Bite."
+    ]
+  },
+  {
+    "name": "Snake, Constrictor",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "publisher": "Kobold Press / Open Design LLC",
+    "rulesWitnessPublisher": "Nosolorol",
+    "rulesWitness": "Cubil de Monstruos",
+    "printing": "Kobold Press Monster Vault ©2024, Nosolorol Spanish edition ©2025",
+    "language": "Spanish",
+    "translator": "Andrea Iglesias",
+    "license": "Licensed Spanish translation published by Nosolorol.",
+    "isbn": "979-13-87882-04-4",
+    "heading": "Serpiente, constrictora",
+    "printedPages": [
+      355
+    ],
+    "viewerPages": [
+      357
+    ],
+    "pageNumbering": "Printed folio plus two gives the one-based page.",
+    "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "url": "https://www.nosolorol.com/talesofthevaliant",
+    "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "errataUrl": "https://koboldpress.com/errata/",
+    "catalogCR": "0.3",
+    "cr": "1/4",
+    "catalogRole": "Kobold Press’s English index confirms scope, indexed name, size, habitat and displayed challenge rating. The licensed Spanish book supplies the encounter mechanics.",
+    "firstPartyErrata": "Checked the Kobold Press Monster Vault errata dated May 29, 2025. It lists no changes specific to these creature blocks.",
+    "fixedValues": {
+      "Perception": 10,
+      "Stealth": 12
+    },
+    "abilityModifiers": {
+      "STR": 2,
+      "DEX": 2,
+      "CON": 1,
+      "INT": -5,
+      "WIS": 0,
+      "CHA": -4
+    },
+    "hpEvidence": "The profile gives fixed HP and omits a Hit Dice formula.",
+    "xp": 50,
+    "xpSource": "Cubil de Monstruos challenge-to-experience table, printed p. 17 (p. 19).",
+    "supportingPages": [
+      17,
+      23
+    ],
+    "habitatSource": "Kobold Press official English Monster Vault catalog habitat column. https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "appearanceSource": "Editorial details from the roster’s existing portrait, consistent with the animal form and size.",
+    "sourceDistinctions": [
+      "The left-column constrictor uses escape and Crush DC 12. The separate giant constrictor has its own block in the right column. The printed CR is 1/4."
+    ]
+  },
+  {
+    "name": "Snake, Flying",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "publisher": "Kobold Press / Open Design LLC",
+    "rulesWitnessPublisher": "Nosolorol",
+    "rulesWitness": "Cubil de Monstruos",
+    "printing": "Kobold Press Monster Vault ©2024, Nosolorol Spanish edition ©2025",
+    "language": "Spanish",
+    "translator": "Andrea Iglesias",
+    "license": "Licensed Spanish translation published by Nosolorol.",
+    "isbn": "979-13-87882-04-4",
+    "heading": "Serpiente, voladora",
+    "printedPages": [
+      356
+    ],
+    "viewerPages": [
+      358
+    ],
+    "pageNumbering": "Printed folio plus two gives the one-based page.",
+    "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "url": "https://www.nosolorol.com/talesofthevaliant",
+    "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "errataUrl": "https://koboldpress.com/errata/",
+    "catalogCR": "0.1",
+    "cr": "1/8",
+    "catalogRole": "Kobold Press’s English index confirms scope, indexed name, size, habitat and displayed challenge rating. The licensed Spanish book supplies the encounter mechanics.",
+    "firstPartyErrata": "Checked the Kobold Press Monster Vault errata dated May 29, 2025. It lists no changes specific to these creature blocks.",
+    "fixedValues": {
+      "Perception": 11,
+      "Stealth": 13
+    },
+    "abilityModifiers": {
+      "STR": -3,
+      "DEX": 1,
+      "CON": 0,
+      "INT": -4,
+      "WIS": 1,
+      "CHA": -3
+    },
+    "hpEvidence": "The profile gives fixed HP and omits a Hit Dice formula.",
+    "xp": 25,
+    "xpSource": "Cubil de Monstruos challenge-to-experience table, printed p. 17 (p. 19).",
+    "supportingPages": [
+      17,
+      23
+    ],
+    "habitatSource": "Kobold Press official English Monster Vault catalog habitat column. https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "appearanceSource": "Editorial details from the roster’s existing portrait, consistent with the animal form and size.",
+    "sourceDistinctions": [
+      "Reflexive Escape triggers on an attack by a visible creature. The Bite gives a save to avoid poison damage. The printed CR is 1/8."
+    ]
+  }
+]

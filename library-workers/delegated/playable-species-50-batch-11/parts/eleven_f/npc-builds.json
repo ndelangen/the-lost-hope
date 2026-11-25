@@ -1,0 +1,279 @@
+{
+  "builds": [
+    {
+      "id": "mr2018-giant-weasel-cinder-turnroot",
+      "title": "Cinder Turnroot, Giant Weasel Monk 2",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR unassigned.",
+      "type": "Beast",
+      "size": "Medium",
+      "ac": 15,
+      "hp": 15,
+      "hitDice": "2d8 + 2",
+      "initiative": 3,
+      "speed": "45 ft. walking",
+      "abilityScores": {
+        "STR": 10,
+        "DEX": 17,
+        "CON": 13,
+        "INT": 8,
+        "WIS": 14,
+        "CHA": 12
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Athletics +2",
+        "Stealth +5",
+        "Survival +4"
+      ],
+      "senses": "Darkvision 60 ft. Passive Perception 12, or 17 for hearing and smell.",
+      "languages": "Common and Dwarvish from Outlander.",
+      "traits": [
+        "Proficiency +2. Strength save +2, Dexterity save +5. Unarmored Defense gives AC 15 from 10 + 3 Dexterity + 2 Wisdom. HP 15 is 9 at level 1 and 6 at level 2.",
+        "Monk gives Acrobatics and Stealth. Outlander gives Athletics, Survival and horn proficiency. Cinder leaves the horn to his patrol. Unarmored Movement adds 10 ft. to his base walk.",
+        "Wisdom (Perception) checks based on hearing or smell have advantage. Cinder has no hands for weapons, shields or tools."
+      ],
+      "actions": [
+        "Bite, unarmed strike. +5 to hit, reach 5 ft., 1d6 + 3 slashing. After taking the Attack action and using the bite, Martial Arts permits a bonus-action body strike at +5 for 1d4 + 3 bludgeoning.",
+        "Ki, 2 points. Recover both on a short or long rest with at least 30 minutes of meditation. Immediately after the Attack action, spend 1 point for two bonus-action body strikes at +5 for 1d4 + 3 bludgeoning each. Alternatively, spend 1 point for a bonus-action Dodge, or for a bonus-action Disengage or Dash with doubled jumping distance that turn."
+      ],
+      "tactics": "Cinder listens from beyond the bend. If a threat gets past him, he spends ki on Step of the Wind to cut it off at the next hatch."
+    },
+    {
+      "id": "mr2018-giant-wolf-spider-mica-understep",
+      "title": "Mica Understep, Giant Wolf Spider Rogue 2",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR unassigned.",
+      "type": "Beast",
+      "size": "Medium",
+      "ac": 14,
+      "hp": 17,
+      "hitDice": "2d8 + 4",
+      "initiative": 3,
+      "speed": "40 ft. walking, 40 ft. climbing",
+      "abilityScores": {
+        "STR": 11,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 12,
+        "WIS": 13,
+        "CHA": 8
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Arcana +3",
+        "History +3",
+        "Investigation +3",
+        "Perception +5",
+        "Stealth +7"
+      ],
+      "senses": "Darkvision 60 ft. Passive Perception 15.",
+      "languages": "Common, Dwarvish and Gnomish from Sage, and Thieves’ Cant.",
+      "traits": [
+        "Proficiency +2. Dexterity save +5, Intelligence save +3. Natural armor AC 14 is 11 + 3 Dexterity. HP 17 is 10 at level 1 and 7 at level 2.",
+        "Rogue gives Acrobatics, Investigation, Perception and Stealth. Expertise doubles proficiency for Perception and Stealth. Sage gives Arcana and History.",
+        "Climb difficult surfaces and ceilings without a check. Ignore restrictions from webbing. Mica cannot wield weapons, use a shield, or manipulate tools."
+      ],
+      "actions": [
+        "Bite, unarmed strike. +5 to hit, reach 5 ft., 1d4 + 3 piercing plus 1d4 poison.",
+        "Sneak Attack. Once per turn add 1d6 piercing on a bite that hits with advantage. Also qualifies if the target has a non-incapacitated enemy within 5 ft. and Mica does not have disadvantage on the roll.",
+        "Cunning Action. Dash, Disengage or Hide as a bonus action."
+      ],
+      "tactics": "Mica stays on the ceiling until an intruder reaches the party. After a bite she can Disengage and move back across the webbing."
+    },
+    {
+      "id": "mr2018-hawk-gale-quill",
+      "title": "Gale Quill, Hawk Ranger 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR unassigned.",
+      "type": "Beast",
+      "size": "Tiny",
+      "ac": 13,
+      "hp": 12,
+      "hitDice": "1d10 + 2",
+      "initiative": 3,
+      "speed": "10 ft. walking, 60 ft. flying",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 17,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 14,
+        "CHA": 12
+      },
+      "skills": [
+        "Medicine +4",
+        "Perception +4",
+        "Religion +2",
+        "Stealth +5",
+        "Survival +4"
+      ],
+      "senses": "Passive Perception 14, or 19 for sight. Apply any relevant forest proficiency bonus separately.",
+      "languages": "Common, Orc from Favored Enemy, and Elvish from Hermit.",
+      "traits": [
+        "Proficiency +2. Strength save +1, Dexterity save +5. Unarmored AC 13 is 10 + 3 Dexterity. HP 12 is 10 + 2 Constitution.",
+        "Ranger gives Perception, Stealth and Survival. Hermit gives Medicine, Religion and herbalism kit proficiency. Gale has no hands to use the kit, weapons, or shields. The Tiny carrying limit is 30 lb.",
+        "Advantage on sight-based Wisdom (Perception) checks. She flies 60 ft. without medium or heavy armor.",
+        "Favored Enemy, orcs and goblins. Gale has advantage on Wisdom (Survival) checks to track them and on Intelligence checks to recall information about them.",
+        "Natural Explorer, forest. Double proficiency on proficient Intelligence or Wisdom checks related to the forest. During forest travel of at least an hour, difficult ground does not slow the party, they can only become lost by magic, and Gale can keep watch while occupied. She can travel stealthily at a normal pace alone, gather twice the usual food while foraging, and learn tracked creatures’ exact number, sizes and time since passage."
+      ],
+      "actions": [
+        "Talons, unarmed strike. +5 to hit, reach 5 ft., 1d4 + 3 slashing. Counts as finesse for applicable effects."
+      ],
+      "tactics": "Gale spots lookout routes from the air and calls them down to an escort. When forced to fight, she flies in to rake an exposed foe. She avoids passing within reach again without disengaging."
+    },
+    {
+      "id": "mr2018-hunter-shark-slate-notch",
+      "title": "Slate Notch, Hunter Shark Barbarian 2",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR unassigned.",
+      "type": "Beast",
+      "size": "Medium",
+      "ac": 13,
+      "hp": 23,
+      "hitDice": "2d12 + 4",
+      "initiative": 1,
+      "speed": "0 ft. walking, 40 ft. swimming",
+      "abilityScores": {
+        "STR": 17,
+        "DEX": 13,
+        "CON": 15,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Animal Handling +3",
+        "Athletics +5",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "senses": "Blindsight 30 ft. Passive Perception 13.",
+      "languages": "Common.",
+      "traits": [
+        "Proficiency +2. Strength save +5, Constitution save +4. Unarmored Defense grants AC 13 from 10 + 1 Dexterity + 2 Constitution. This is higher than natural armor AC 12. HP 23 is 14 at level 1 and 9 at level 2.",
+        "Barbarian gives Animal Handling and Survival. Sailor gives Athletics, Perception, navigator’s tools and water vehicles. Slate leaves tools and controls to the crew. He breathes only underwater.",
+        "Danger Sense gives advantage on Dexterity saves against effects Slate can see. It requires him to be neither blinded, deafened nor incapacitated.",
+        "Reckless Attack may be chosen on his first attack on his turn. It grants advantage on Strength-based melee weapon attack rolls that turn, and attack rolls against Slate gain advantage until his next turn."
+      ],
+      "actions": [
+        "Bite, unarmed strike. +5 to hit, reach 5 ft., 1d8 + 3 piercing, or 1d8 + 5 while raging. After Slate hits with an unarmed strike as part of the Attack action, Blood Frenzy permits one bonus-action bite at the same target.",
+        "Rage, bonus action, twice per long rest. For up to 1 minute gain advantage on Strength checks and saves, +2 damage on Strength-based melee weapon attacks, and resistance to bludgeoning, piercing and slashing. It ends early if Slate falls unconscious, ends it as a bonus action, or finishes a turn without attacking a hostile creature since his last turn or taking damage since then."
+      ],
+      "tactics": "Slate lets the crew clear his path before he charges. If he spends the opening bonus action on Rage, he waits for a later turn to follow a bite with Blood Frenzy."
+    },
+    {
+      "id": "mr2018-jackal-rill-sandear",
+      "title": "Rill Sandear, Jackal Rogue 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR unassigned.",
+      "type": "Beast",
+      "size": "Small",
+      "ac": 13,
+      "hp": 10,
+      "hitDice": "1d8 + 2",
+      "initiative": 3,
+      "speed": "40 ft. walking",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 17,
+        "CON": 14,
+        "INT": 12,
+        "WIS": 14,
+        "CHA": 10
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Deception +2",
+        "Insight +4",
+        "Perception +6",
+        "Sleight of Hand +5",
+        "Stealth +7"
+      ],
+      "senses": "Passive Perception 16.",
+      "languages": "Common and Thieves’ Cant.",
+      "traits": [
+        "Proficiency +2. Dexterity save +5, Intelligence save +3. Unarmored AC 13 is 10 + 3 Dexterity. HP 10 is 8 + 2 Constitution.",
+        "Rogue gives Acrobatics, Insight, Perception and Stealth. Expertise doubles proficiency for Perception and Stealth. Charlatan gives Deception and Sleight of Hand. Rill has no hands to use its kit proficiencies."
+      ],
+      "actions": [
+        "Bite, unarmed strike. +5 to hit, reach 5 ft., 1d4 + 3 slashing.",
+        "Pack Tactics, bonus action. Gain advantage on Rill’s next attack this turn if one of his non-incapacitated allies is within 5 ft. of the target.",
+        "Sneak Attack. Once per turn add 1d6 slashing to a bite hit with advantage, or use it if a non-incapacitated enemy of the target is within 5 ft. of it and Rill does not have disadvantage."
+      ],
+      "tactics": "Rill waits where the caravan passes through a bottleneck. He circles in to bite once an ally is beside the intruder and returns to watch the wagons when the path clears."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Giant Weasel",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Cinder Turnroot",
+      "size": "Medium",
+      "build": "mr2018-giant-weasel-cinder-turnroot",
+      "role": "Night culvert lookout",
+      "motive": "Find who has been diverting runoff toward the hatch where his patrol shelters.",
+      "hook": "Cinder can hear stone being scraped from inside a dry culvert. His patrol never uses that entrance. He asks someone to watch the far mouth before he goes in."
+    },
+    {
+      "species": "Giant Wolf Spider",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Mica Understep",
+      "size": "Medium",
+      "build": "mr2018-giant-wolf-spider-mica-understep",
+      "role": "Ceiling route surveyor",
+      "motive": "Keep the old passage open to the neighbors who use it as an escape route.",
+      "hook": "The plaster has fallen from a tunnel ceiling and exposed ten fresh screwholes. Mica can point out the holes and wants help finding what was removed."
+    },
+    {
+      "species": "Hawk",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Gale Quill",
+      "size": "Tiny",
+      "build": "mr2018-hawk-gale-quill",
+      "role": "Firewatch scout",
+      "motive": "Find a route that lets the watch reach the far grove before another signal goes out.",
+      "hook": "Gale saw someone snuff the upper signal lantern at noon. She can follow the route the figure took and asks the party to come on foot."
+    },
+    {
+      "species": "Hunter Shark",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Slate Notch",
+      "size": "Medium",
+      "build": "mr2018-hunter-shark-slate-notch",
+      "role": "Harbor salvage escort",
+      "motive": "Get the salvage crews past the broken rudder without letting them disturb the nearby nursery.",
+      "hook": "Slate found the missing rudder wedged beneath a ledge. He can lead the party there, provided someone comes who can free it with tools."
+    },
+    {
+      "species": "Jackal",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Rill Sandear",
+      "size": "Small",
+      "build": "mr2018-jackal-rill-sandear",
+      "role": "Caravan night escort",
+      "motive": "Find the caravan helper whose chalk marks stopped appearing at the night stops.",
+      "hook": "Rill has found the same chalk mark on three water troughs that the helper never serviced. He offers to guide the party to the next one after the market shuts."
+    }
+  ]
+}

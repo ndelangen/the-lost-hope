@@ -1,0 +1,18 @@
+{
+  "baseline": "685641b6f4492c244db5c7c46b5f9a9f0ec44b98",
+  "temporaryCopy": true,
+  "exactBeastProfiles": 2,
+  "testedConditionalRuleProfiles": 2,
+  "existingPublicationVersionsPreserved": true,
+  "publisherGalleriesPreserved": true,
+  "searchableByNameAndSourceHabitatOrAppearance": 2,
+  "portraitCoverage": {
+    "Giant Marble Snake": "generated",
+    "Giant Marmoset": "generated"
+  },
+  "versionPortraitsVerified": 2,
+  "newPortraitDrafts": 2,
+  "printedMovementRatesPreserved": true,
+  "encounterHitPointsKeptInEncounterNotes": true,
+  "noChallengeImported": true
+}

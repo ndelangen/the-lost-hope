@@ -118,9 +118,10 @@ export function CampaignShell({ initialPreferences }: { initialPreferences: UiPr
   )
 
   // The player screen is a bare picture on the players' monitor.
-  // Full-window screens: the player screen, event replays, and a player's play sheet.
+  // Full-window screens: the player screen, event replays, the novel reader, and a player's play sheet.
   if (
     pathname === '/display' ||
+    pathname === '/novel' ||
     pathname.startsWith('/events/replay/') ||
     /^\/pcs\/detail\/[^/]+\/play$/.test(pathname)
   )

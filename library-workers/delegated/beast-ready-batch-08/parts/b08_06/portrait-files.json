@@ -1,0 +1,34 @@
+[
+  {
+    "artGroup": "almiraj",
+    "file": "portraits/almiraj.png",
+    "sha256": "b8bc228dad2a7fe595ce9de19a3c1024dbe14a0054b23c19a59d03fa5d238c53",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "artGroup": "brontosaurus",
+    "file": "portraits/brontosaurus.png",
+    "sha256": "149c7c9f76a91e37a7f6fc25edae86fb66195bb048044e4bce9a00701d11fbd7",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "artGroup": "dimetrodon",
+    "file": "portraits/dimetrodon.png",
+    "sha256": "bf9f8e99b77e74bef6bf95689c42001b77eef5ae4a6901697aad1ccd128209ce",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "artGroup": "flying-monkey",
+    "file": "portraits/flying-monkey.png",
+    "sha256": "3154dcbc49c9d07e425980718ce0d9e694327d349cd697d3e77b6878397ce57c",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  }
+]

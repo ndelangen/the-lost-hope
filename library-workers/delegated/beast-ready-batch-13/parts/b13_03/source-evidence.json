@@ -1,0 +1,252 @@
+[
+  {
+    "name": "Knucklehead Trout",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, August 2020, alternate hardcover colophon",
+    "isbn": "978-0-7869-6705-6",
+    "printedPages": [
+      295
+    ],
+    "readerSheets": [
+      296
+    ],
+    "sourceUrl": "https://www.dndbeyond.com/monsters/1123107-knucklehead-trout",
+    "publisherPublicationUrl": "https://www.dndbeyond.com/sources/dnd/idrotf",
+    "publisherAccess": "The public D&D Beyond URL resolves to the purchase page.",
+    "facsimileUrl": "https://online.anyflip.com/jjlbf/giys/mobile/index.html#p=296",
+    "colophonUrl": "https://online.anyflip.com/jjlbf/giys/mobile/index.html#p=3",
+    "facsimilePages": [
+      {
+        "printedPage": 11,
+        "readerSheet": 12,
+        "url": "https://online.anyflip.com/jjlbf/giys/mobile/index.html#p=12"
+      },
+      {
+        "printedPage": 295,
+        "readerSheet": 296,
+        "url": "https://online.anyflip.com/jjlbf/giys/mobile/index.html#p=296"
+      }
+    ],
+    "sourceWitness": "Visually read the original printed page facsimile. The reader sheet number is one greater than the printed page.",
+    "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+    "publisherReleaseSupport": "https://www.dndbeyond.com/forums/d-d-beyond-general/release-issues-support/81555-icewind-dale-rime-of-the-frostmaiden-issues-and",
+    "errataEvidence": "No relevant entry correction appeared in the publisher errata index or the publisher’s pinned release notes. The summary follows the first printing.",
+    "appearanceEvidence": "Original Big Linda-style portrait based on p. 295’s painted morphology.",
+    "habitatEvidence": "p. 11 identifies the freshwater lakes of Icewind Dale.",
+    "printingNotes": [
+      "The fishing advantage is limited to the p. 11 contest. The Appendix C stat block gives no general Strength-check advantage."
+    ]
+  },
+  {
+    "name": "Mountain Goat",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, August 2020, alternate hardcover colophon",
+    "isbn": "978-0-7869-6705-6",
+    "printedPages": [
+      304
+    ],
+    "readerSheets": [
+      305
+    ],
+    "sourceUrl": "https://www.dndbeyond.com/monsters/1123114-mountain-goat",
+    "publisherPublicationUrl": "https://www.dndbeyond.com/sources/dnd/idrotf",
+    "publisherAccess": "The public D&D Beyond URL resolves to the purchase page.",
+    "facsimileUrl": "https://online.anyflip.com/jjlbf/giys/mobile/index.html#p=305",
+    "colophonUrl": "https://online.anyflip.com/jjlbf/giys/mobile/index.html#p=3",
+    "facsimilePages": [
+      {
+        "printedPage": 304,
+        "readerSheet": 305,
+        "url": "https://online.anyflip.com/jjlbf/giys/mobile/index.html#p=305"
+      }
+    ],
+    "sourceWitness": "Visually read the original printed page facsimile. The reader sheet number is one greater than the printed page.",
+    "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+    "publisherReleaseSupport": "https://www.dndbeyond.com/forums/d-d-beyond-general/release-issues-support/81555-icewind-dale-rime-of-the-frostmaiden-issues-and",
+    "errataEvidence": "No relevant entry correction appeared in the publisher errata index or the publisher’s pinned release notes. The summary follows the first printing.",
+    "appearanceEvidence": "Original Big Linda-style portrait based on the pale coat and narrow dark horns shown on p. 304.",
+    "habitatEvidence": "p. 304 describes the Spine of the World and slopes of Kelvin’s Cairn.",
+    "printingNotes": [
+      "The printed speed line includes a climb speed. The prose describes insulation from extreme cold, with no listed resistance to cold damage."
+    ]
+  },
+  {
+    "name": "Reindeer",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, August 2020, alternate hardcover colophon",
+    "isbn": "978-0-7869-6705-6",
+    "printedPages": [
+      11,
+      107,
+      268,
+      307
+    ],
+    "readerSheets": [
+      12,
+      108,
+      269,
+      308
+    ],
+    "sourceUrl": "https://www.dndbeyond.com/sources/idrotf/appendix-c-creatures",
+    "publisherPublicationUrl": "https://www.dndbeyond.com/sources/dnd/idrotf",
+    "publisherAccess": "The public D&D Beyond URL resolves to the purchase page.",
+    "facsimileUrl": "https://online.anyflip.com/jjlbf/giys/mobile/index.html#p=308",
+    "colophonUrl": "https://online.anyflip.com/jjlbf/giys/mobile/index.html#p=3",
+    "facsimilePages": [
+      {
+        "printedPage": 11,
+        "readerSheet": 12,
+        "url": "https://online.anyflip.com/jjlbf/giys/mobile/index.html#p=12"
+      },
+      {
+        "printedPage": 107,
+        "readerSheet": 108,
+        "url": "https://online.anyflip.com/jjlbf/giys/mobile/index.html#p=108"
+      },
+      {
+        "printedPage": 268,
+        "readerSheet": 269,
+        "url": "https://online.anyflip.com/jjlbf/giys/mobile/index.html#p=269"
+      },
+      {
+        "printedPage": 307,
+        "readerSheet": 308,
+        "url": "https://online.anyflip.com/jjlbf/giys/mobile/index.html#p=308"
+      }
+    ],
+    "sourceWitness": "Visually read the original printed page facsimile. The reader sheet number is one greater than the printed page.",
+    "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+    "publisherReleaseSupport": "https://www.dndbeyond.com/forums/d-d-beyond-general/release-issues-support/81555-icewind-dale-rime-of-the-frostmaiden-issues-and",
+    "errataEvidence": "No relevant entry correction appeared in the publisher errata index or the publisher’s pinned release notes. The summary follows the first printing.",
+    "appearanceEvidence": "Editorial description of the selected portrait at northlands-worldbook-beasts/portraits/reindeer-draft.png.",
+    "habitatEvidence": "p. 307 describes Icewind Dale herds followed by Reghed nomads. The tundra tag reflects their local range.",
+    "printingNotes": [
+      "The adventure directs use of the 2014 Monster Manual Elk on pp. 268 and 307. The core block is on p. 322, including Charge and Actions at the head of the second column. Rime p. 307 adds acclimation and the optional light trait. The awakened reindeer on p. 107 is an encounter-specific case."
+    ],
+    "baseRules": {
+      "publication": "Monster Manual (2014)",
+      "entry": "Elk",
+      "printedPage": 322,
+      "officialParallelUrl": "https://www.dndbeyond.com/monsters/16857-elk",
+      "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014",
+      "scope": "Printed Monster Manual Elk ability scores, traits and actions, corroborated by the official Basic Rules listing. The published Monster Manual errata has no Elk entry."
+    }
+  },
+  {
+    "name": "Seal",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, August 2020, alternate hardcover colophon",
+    "isbn": "978-0-7869-6705-6",
+    "printedPages": [
+      308
+    ],
+    "readerSheets": [
+      309
+    ],
+    "sourceUrl": "https://www.dndbeyond.com/monsters/1123121-seal",
+    "publisherPublicationUrl": "https://www.dndbeyond.com/sources/dnd/idrotf",
+    "publisherAccess": "The public D&D Beyond URL resolves to the purchase page.",
+    "facsimileUrl": "https://online.anyflip.com/jjlbf/giys/mobile/index.html#p=309",
+    "colophonUrl": "https://online.anyflip.com/jjlbf/giys/mobile/index.html#p=3",
+    "facsimilePages": [
+      {
+        "printedPage": 308,
+        "readerSheet": 309,
+        "url": "https://online.anyflip.com/jjlbf/giys/mobile/index.html#p=309"
+      }
+    ],
+    "sourceWitness": "Visually read the original printed page facsimile. The reader sheet number is one greater than the printed page.",
+    "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+    "publisherReleaseSupport": "https://www.dndbeyond.com/forums/d-d-beyond-general/release-issues-support/81555-icewind-dale-rime-of-the-frostmaiden-issues-and",
+    "errataEvidence": "No relevant entry correction appeared in the publisher errata index or the publisher’s pinned release notes. The summary follows the first printing.",
+    "appearanceEvidence": "Editorial description of the selected portrait at beast-ready-batch-12/parts/b12_05/portraits/seal.png.",
+    "habitatEvidence": "p. 308 names the Sea of Moving Ice, ice floes, and rocky shorelines.",
+    "printingNotes": [
+      "Bite deals a fixed 1 piercing damage. Cold acclimation is stated in the surrounding prose."
+    ]
+  },
+  {
+    "name": "Sperm Whale",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, August 2020, alternate hardcover colophon",
+    "isbn": "978-0-7869-6705-6",
+    "printedPages": [
+      309
+    ],
+    "readerSheets": [
+      310
+    ],
+    "sourceUrl": "https://www.dndbeyond.com/monsters/1123126-sperm-whale",
+    "publisherPublicationUrl": "https://www.dndbeyond.com/sources/dnd/idrotf",
+    "publisherAccess": "The public D&D Beyond URL resolves to the purchase page.",
+    "facsimileUrl": "https://online.anyflip.com/jjlbf/giys/mobile/index.html#p=310",
+    "colophonUrl": "https://online.anyflip.com/jjlbf/giys/mobile/index.html#p=3",
+    "facsimilePages": [
+      {
+        "printedPage": 309,
+        "readerSheet": 310,
+        "url": "https://online.anyflip.com/jjlbf/giys/mobile/index.html#p=310"
+      }
+    ],
+    "sourceWitness": "Visually read the original printed page facsimile. The reader sheet number is one greater than the printed page.",
+    "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+    "publisherReleaseSupport": "https://www.dndbeyond.com/forums/d-d-beyond-general/release-issues-support/81555-icewind-dale-rime-of-the-frostmaiden-issues-and",
+    "errataEvidence": "No relevant entry correction appeared in the publisher errata index or the publisher’s pinned release notes. The summary follows the first printing.",
+    "appearanceEvidence": "Original Big Linda-style portrait following the book’s description of a large toothed whale and recognizable sperm whale anatomy.",
+    "habitatEvidence": "p. 309 describes an aquatic mammal. Arctic tags its appearance in Icewind Dale, with no restriction on the species elsewhere.",
+    "printingNotes": [
+      "The native block runs across both columns of p. 309. Its swallow effect grants total cover, applies acid at the start of the whale’s turn, and gives the whale the specified end-of-turn regurgitation save."
+    ]
+  },
+  {
+    "name": "Walrus",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, August 2020, alternate hardcover colophon",
+    "isbn": "978-0-7869-6705-6",
+    "printedPages": [
+      312
+    ],
+    "readerSheets": [
+      313
+    ],
+    "sourceUrl": "https://www.dndbeyond.com/monsters/1123134-walrus",
+    "publisherPublicationUrl": "https://www.dndbeyond.com/sources/dnd/idrotf",
+    "publisherAccess": "The public D&D Beyond URL resolves to the purchase page.",
+    "facsimileUrl": "https://online.anyflip.com/jjlbf/giys/mobile/index.html#p=313",
+    "colophonUrl": "https://online.anyflip.com/jjlbf/giys/mobile/index.html#p=3",
+    "facsimilePages": [
+      {
+        "printedPage": 312,
+        "readerSheet": 313,
+        "url": "https://online.anyflip.com/jjlbf/giys/mobile/index.html#p=313"
+      }
+    ],
+    "sourceWitness": "Visually read the original printed page facsimile. The reader sheet number is one greater than the printed page.",
+    "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+    "publisherReleaseSupport": "https://www.dndbeyond.com/forums/d-d-beyond-general/release-issues-support/81555-icewind-dale-rime-of-the-frostmaiden-issues-and",
+    "errataEvidence": "No relevant entry correction appeared in the publisher errata index or the publisher’s pinned release notes. The summary follows the first printing.",
+    "appearanceEvidence": "Shares the b13_02 Giant Walrus portrait for the common species anatomy. The standard Walrus uses its own size and rules.",
+    "habitatEvidence": "p. 312 describes a marine animal favoring arctic climates. Coastal and Underwater are editorial tags for that habitat.",
+    "printingNotes": [
+      "p. 312 prints the standard Walrus and Giant Walrus as separate blocks. The standard Walrus only shares the portrait."
+    ]
+  }
+]

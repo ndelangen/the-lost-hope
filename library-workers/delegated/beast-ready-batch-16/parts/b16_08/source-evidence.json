@@ -1,0 +1,134 @@
+[
+  {
+    "name": "Giant Fly",
+    "publication": "Dungeon Master's Guide (2014)",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "section": "Chapter 7, Figurine of Wondrous Power",
+    "pdfPages": [
+      169
+    ],
+    "sourceSha256": "fb470671dc5def35bf09897c11d4971161c70b3c5558cd792dc164cef2668f44",
+    "sourceMethod": "Visually inspected the original folio in the local facsimile. The publisher item link is a reference.",
+    "errataUrl": "",
+    "errataEvidence": "The official 2021 DMG errata has no entry for Ebony Fly.",
+    "appearanceEvidence": "The Ebony Fly item describes a horsefly statuette. The reused portrait supplies coloration and visible detail.",
+    "habitatEvidence": "The magic item text describes the realized mount without specifying a habitat.",
+    "printedPages": [
+      169
+    ],
+    "url": "https://www.dndbeyond.com/magic-items/4831-figurine-of-wondrous-power-ebony-fly",
+    "rulesUrl": "https://www.dndbeyond.com/magic-items/4831-figurine-of-wondrous-power-ebony-fly",
+    "artGroup": "giant-fly",
+    "portraitSha256": "e6653abc2af1443c5cc4dda410957bd4e2a5ce8242ee6b5af56084919706255c",
+    "sourceDistinctions": [
+      "The printed Giant Fly box ends with Languages and gives no CR, XP, or attack."
+    ]
+  },
+  {
+    "name": "Giant Fly",
+    "publication": "Dungeon Master's Guide (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "section": "Chapter 7, Figurine of Wondrous Power",
+    "sourceMethod": "Publisher D&D Beyond item page reproduces the stat block and credits p. 261.",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/dungeon-masters-guide",
+    "errataEvidence": "The official revised DMG errata has no entry for Ebony Fly.",
+    "appearanceEvidence": "The Ebony Fly item describes a horsefly statuette. The reused portrait supplies coloration and visible detail.",
+    "habitatEvidence": "The magic item text describes the realized mount without specifying a habitat.",
+    "printedPages": [
+      261
+    ],
+    "url": "https://www.dndbeyond.com/magic-items/9228613-figurine-of-wondrous-power-ebony-fly",
+    "rulesUrl": "https://www.dndbeyond.com/magic-items/9228613-figurine-of-wondrous-power-ebony-fly",
+    "artGroup": "giant-fly",
+    "portraitSha256": "e6653abc2af1443c5cc4dda410957bd4e2a5ce8242ee6b5af56084919706255c",
+    "sourceDistinctions": [
+      "The stat block prints CR 0 (0 XP), initiative, and an individual saving throw for each ability. The activated fly follows the item’s turn order. The block lists no specific attack."
+    ]
+  },
+  {
+    "name": "Wolf of the Overworld",
+    "publication": "Monstrous Compendium Vol. 3: Minecraft Creatures",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast with Mojang Studios",
+    "section": "Wolf of the Overworld",
+    "pdfPages": [
+      7
+    ],
+    "alternateUrl": "",
+    "sourceMethod": "Compared Mojang’s original and revised . The p. 7 stat block agrees in both.",
+    "errataEvidence": "The official revised retains the original wolf stats.",
+    "appearanceEvidence": "The p. 7 text calls it a gray-furred wolf. The naturalistic reuse depicts the text. The publisher’s illustration has block-shaped anatomy.",
+    "habitatEvidence": "The text places the wolf in the Overworld’s forests and cold taiga.",
+    "printedPages": [
+      7
+    ],
+    "url": "",
+    "rulesUrl": "",
+    "artGroup": "wolf-of-the-overworld",
+    "portraitSha256": "aabb9d05cfea3f0070408b27bca9705475414773b058e88008ef333d2da9b135",
+    "sourceDistinctions": [
+      "The block uses Perception +5 and passive Perception 15. Pack Tactics is the listed trait."
+    ]
+  },
+  {
+    "name": "Hippocampus",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "publisher": "Open Design LLC d/b/a Kobold Press",
+    "section": "Monsters",
+    "pdfPages": [
+      305,
+      306
+    ],
+    "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+    "sourceMethod": "The inspected local v0.2 folios and the publisher have the same SHA-256.",
+    "errataEvidence": "Version v0.2 is the exact rules witness.",
+    "appearanceEvidence": "Editorial description of the reused portrait, which has warmer orange parchment than the other portraits in the part.",
+    "habitatEvidence": "Editorial tags based on the creature’s amphibious nature and swimming anatomy.",
+    "xpTablePage": 229,
+    "printedPages": [
+      305,
+      306
+    ],
+    "url": "",
+    "rulesUrl": "",
+    "artGroup": "hippocampus",
+    "portraitSha256": "92d835bad956a8a6f483042f9a70f1acfd5fbc14e46106c439960a0a53f5fdbd",
+    "sourceDistinctions": [
+      "The heading and fixed scores appear on p. 305. The modifiers, traits and actions continue on p. 306."
+    ]
+  },
+  {
+    "name": "Orca",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "publisher": "Open Design LLC d/b/a Kobold Press",
+    "section": "Monsters",
+    "pdfPages": [
+      365
+    ],
+    "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+    "sourceMethod": "The inspected local v0.2 folios and the publisher have the same SHA-256.",
+    "errataEvidence": "Version v0.2 is the exact rules witness.",
+    "appearanceEvidence": "Editorial description of the reused orca portrait.",
+    "habitatEvidence": "Editorial tags based on the marine animal and its cold resistance.",
+    "xpTablePage": 229,
+    "printedPages": [
+      365
+    ],
+    "url": "",
+    "rulesUrl": "",
+    "artGroup": "orca",
+    "portraitSha256": "3a68624f9ba1ca68b9d20c7cb6173fee959e3d9cdb293daf996eaa5fb9925cd3",
+    "sourceDistinctions": [
+      "Tail Slap is a bonus action with no listed damage. The failure-by-5 rider adds stunned."
+    ]
+  }
+]

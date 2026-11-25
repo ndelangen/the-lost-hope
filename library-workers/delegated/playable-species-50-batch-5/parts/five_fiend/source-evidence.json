@@ -1,0 +1,272 @@
+[
+  {
+    "name": "Dark Stalker",
+    "publication": "Fiend Folio (2003)",
+    "edition": "3.0 edition",
+    "kind": "species",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Humanoid",
+    "url": "",
+    "page": "pp. 37–39",
+    "printedPages": [
+      37,
+      38,
+      39
+    ],
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 0,
+    "primaryBookSha256": "c5af323e0838d882b85f67afadff54ac07fcef409ce042422b4610c8b728d4f7",
+    "isbn": "0-7869-2780-1",
+    "firstPrinting": "April 2003",
+    "sourceDistinctions": [
+      "Dark One is the family heading. This profile uses the Dark Stalker rules and excludes Dark Creeper.",
+      "The NPC uses the dedicated p. 39 PC example for ECL and retains all three racial Hit Dice. The stat-block label yields a different result under p. 11. The build records Dark One as the spoken language and Undercommon as understood only.",
+      "The cloak has a listed daily frequency and miss chances. The example uses a standard action and a ten-round duration because the entry supplies neither an activation action nor a duration."
+    ],
+    "supportingSources": [
+      {
+        "name": "Savage Species (2003), building a monster character, pp. 5–13",
+        "url": ""
+      },
+      {
+        "name": "3.0 SRD, Rogue",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Rogue"
+      },
+      {
+        "name": "3.0 SRD, Fog Cloud",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Fog_Cloud"
+      }
+    ]
+  },
+  {
+    "name": "Kaorti",
+    "publication": "Fiend Folio (2003)",
+    "edition": "3.0 edition",
+    "kind": "species",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Outsider (Evil, Extraplanar)",
+    "url": "",
+    "page": "pp. 108–110",
+    "printedPages": [
+      108,
+      109,
+      110
+    ],
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 0,
+    "primaryBookSha256": "c5af323e0838d882b85f67afadff54ac07fcef409ce042422b4610c8b728d4f7",
+    "isbn": "0-7869-2780-1",
+    "firstPrinting": "April 2003",
+    "sourceDistinctions": [
+      "The example deliberately uses 2 outsider HD plus +2 adjustment, as supported by the p. 110 PC example, despite the resin-suit sidebar’s passing reference to ordinary 1-HD kaorti.",
+      "The April book prints an appearance-disguise name that differs from the 3.0 change self heading. This build uses the equivalent 3.0 visual-disguise operation.",
+      "Irix buys Light Armor Proficiency with the racial feat and takes the printed ribbon-dagger bonus proficiency. He keeps armor spell failure and has no animal familiar."
+    ],
+    "supportingSources": [
+      {
+        "name": "Savage Species (2003), building a monster character, pp. 5–13",
+        "url": ""
+      },
+      {
+        "name": "3.0 SRD, Sorcerer",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Sorcerer"
+      },
+      {
+        "name": "3.0 SRD, Color Spray",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Color_Spray"
+      },
+      {
+        "name": "3.0 SRD, Ray of Enfeeblement",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Ray_of_Enfeeblement"
+      },
+      {
+        "name": "3.0 SRD, Change Self",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Change_Self"
+      },
+      {
+        "name": "3.0 SRD, Feather Fall",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Feather_Fall"
+      },
+      {
+        "name": "3.0 SRD, Reduce",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Reduce"
+      },
+      {
+        "name": "3.0 SRD, Spider Climb",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Spider_Climb"
+      },
+      {
+        "name": "3.0 SRD, Magic Missile",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Magic_Missile"
+      },
+      {
+        "name": "3.0 SRD, True Strike",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:True_Strike"
+      }
+    ]
+  },
+  {
+    "name": "Khaasta",
+    "publication": "Fiend Folio (2003)",
+    "edition": "3.0 edition",
+    "kind": "species",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Monstrous Humanoid (Extraplanar, Reptilian)",
+    "url": "",
+    "page": "pp. 115–116",
+    "printedPages": [
+      115,
+      116
+    ],
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 0,
+    "primaryBookSha256": "c5af323e0838d882b85f67afadff54ac07fcef409ce042422b4610c8b728d4f7",
+    "isbn": "0-7869-2780-1",
+    "firstPrinting": "April 2003",
+    "sourceDistinctions": [
+      "Khaasta is a standalone player profile. The combat paragraph explicitly allows a secondary bite while wielding a manufactured weapon.",
+      "The PC paragraph gives ECL 4 for a 1st-level fighter. Using the three printed racial Hit Dice leaves no additional adjustment for this example."
+    ],
+    "supportingSources": [
+      {
+        "name": "Savage Species (2003), building a monster character, pp. 5–13",
+        "url": ""
+      },
+      {
+        "name": "3.0 SRD, Fighter",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Fighter"
+      },
+      {
+        "name": "3.0 SRD, Weapons",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Weapons"
+      },
+      {
+        "name": "3.0 SRD, Feats",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Feats"
+      }
+    ]
+  },
+  {
+    "name": "Ophidian",
+    "publication": "Fiend Folio (2003)",
+    "edition": "3.0 edition",
+    "kind": "species",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Monstrous Humanoid (Reptilian)",
+    "url": "",
+    "page": "pp. 133–134",
+    "printedPages": [
+      133,
+      134
+    ],
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 0,
+    "primaryBookSha256": "c5af323e0838d882b85f67afadff54ac07fcef409ce042422b4610c8b728d4f7",
+    "isbn": "0-7869-2780-1",
+    "firstPrinting": "April 2003",
+    "sourceDistinctions": [
+      "The example derives an NPC’s combat rolls from the three printed racial Hit Dice and Fighter 1. The entry explicitly discusses ophidian characters but prints no numeric level adjustment or ECL formula.",
+      "Sesis uses printed curse DC 11 with Constitution 10. The art shows the source’s legless serpent body with two humanoid arms."
+    ],
+    "supportingSources": [
+      {
+        "name": "Savage Species (2003), building a monster character, pp. 5–13",
+        "url": ""
+      },
+      {
+        "name": "3.0 SRD, Fighter",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Fighter"
+      },
+      {
+        "name": "3.0 SRD, Swim",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Swim"
+      },
+      {
+        "name": "3.0 SRD, Weapons",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Weapons"
+      }
+    ]
+  },
+  {
+    "name": "Selkie",
+    "publication": "Fiend Folio (2003)",
+    "edition": "3.0 edition",
+    "kind": "species",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Humanoid (Aquatic, Shapechanger)",
+    "url": "",
+    "page": "pp. 148–149",
+    "printedPages": [
+      148,
+      149
+    ],
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 0,
+    "primaryBookSha256": "c5af323e0838d882b85f67afadff54ac07fcef409ce042422b4610c8b728d4f7",
+    "isbn": "0-7869-2780-1",
+    "firstPrinting": "April 2003",
+    "sourceDistinctions": [
+      "One entry covers both published forms. The worked NPC uses land form for the portrait and includes separate combat and AC notes for the sea form.",
+      "The stat block lists one shared speed line. This example assigns the printed swift swim rate to seal form, uses ordinary swimming in humanoid form, and keeps the listed land speed in humanoid form. Land form receives armor AC whereas seal form receives the printed +5 natural armor."
+    ],
+    "supportingSources": [
+      {
+        "name": "Savage Species (2003), building a monster character, pp. 5–13",
+        "url": ""
+      },
+      {
+        "name": "3.0 SRD, Bard",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Bard"
+      },
+      {
+        "name": "3.0 SRD, Bard Spell List",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Bard_Spell_List"
+      },
+      {
+        "name": "3.0 SRD, Weapons",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Weapons"
+      }
+    ]
+  },
+  {
+    "name": "Yurian",
+    "publication": "Fiend Folio (2003)",
+    "edition": "3.0 edition",
+    "kind": "species",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Monstrous Humanoid (Aquatic)",
+    "url": "",
+    "page": "pp. 198–199",
+    "printedPages": [
+      198,
+      199
+    ],
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 0,
+    "primaryBookSha256": "c5af323e0838d882b85f67afadff54ac07fcef409ce042422b4610c8b728d4f7",
+    "isbn": "0-7869-2780-1",
+    "firstPrinting": "April 2003",
+    "sourceDistinctions": [
+      "The example uses the dedicated p. 199 PC ECL and retains the three printed racial Hit Dice. The printed racial save bases are inferred by subtracting the printed ability modifiers, per Savage Species character creation.",
+      "The small pair of pincers is represented as manipulators. The example uses the ordinary matched claws, so the optional enlarged claw never changes its damage."
+    ],
+    "supportingSources": [
+      {
+        "name": "Savage Species (2003), building a monster character, pp. 5–13",
+        "url": ""
+      },
+      {
+        "name": "3.0 SRD, Barbarian",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Barbarian"
+      },
+      {
+        "name": "3.0 SRD, Feats",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Feats"
+      },
+      {
+        "name": "3.0 SRD, Swim",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Swim"
+      }
+    ]
+  }
+]

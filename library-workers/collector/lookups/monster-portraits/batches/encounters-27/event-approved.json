@@ -1,0 +1,44 @@
+[
+  {
+    "entry": "monster-6aab0d20e2d638a902878a99",
+    "slug": "agony-the-ghost",
+    "name": "Agony the Ghost",
+    "revision": "v1",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-27/event-drafts/agony-the-ghost-event-v1.png",
+    "saved": " Backups/Encounter Batch 27 2026-11-23/event-drafts/agony-the-ghost-event-v1.png",
+    "path": "encounters-27/agony-the-ghost.png",
+    "registeredPath": "assets/images/content/dm-library/agony-raptor-geryon/agony-the-ghost.png",
+    "previous": {
+      "sha256": "bf6c10cda38f65f90618890fde0583793d8d8fe44255dbd54aaca8b61f26c18e",
+      "bytes": 2454631
+    },
+    "overrides": [
+      {
+        "entry": "monster-6aab0d20e2d638a902878a99",
+        "name": "Agony the Ghost",
+        "file": "images/monsters/agony-the-ghost/parchment-portrait.webp",
+        "sha256": "249e8f43d58f33e8421da040cf633e4c45c62e243a4214c1ed18b44877d7f57e",
+        "credit": "OpenAI ImageGen",
+        "reference": "",
+        "appearanceSource": "Light of Xaryxis and related tiefling artwork from Spelljammer",
+        "subjectPrompt": "The ghost of a mutinous tiefling sailor aboard a fantasy space galleon. One lean androgynous adult tiefling spirit with two swept-back weathered horns, peaked ears, long dark wind-loosened hair, a crooked sardonic smile and pale luminous lavender eyes. Historically plausible worn maritime clothes: loose linen shirt, worn dark aubergine short sailor's coat with a copper clasp, dark breeches, a knotted sash and a short frayed belt rope. Ghostly smoky blue-plum tint, softly fading edges on feet, coat hems and slim pointed tail, with the fully visible head and torso crisp and well defined. Float gently above a faint ground shadow, one open hand slightly raised as if addressing a crew. No hat, no armor, no weapons. The second reference only establishes tiefling anatomy and local clothing vocabulary; create an entirely separate character.",
+        "style": "The Lost Hope square gouache and sepia parchment"
+      }
+    ],
+    "sha256": "6a2e668a95c81a5952e8bfbd06f33aa7b88b2cd43fc14d1bbbd8d334bc7faf75",
+    "bytes": 2640763
+  },
+  {
+    "entry": "monster-5a9d29e1d33190a1a0da938d",
+    "slug": "flapjack-the-flumph",
+    "name": "Flapjack the Flumph",
+    "revision": "v1",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-27/event-drafts/flapjack-the-flumph-event-v1.png",
+    "saved": " Backups/Encounter Batch 27 2026-11-23/event-drafts/flapjack-the-flumph-event-v1.png",
+    "path": "encounters-27/flapjack-the-flumph.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-27/flapjack-the-flumph.png",
+    "overrides": [],
+    "sha256": "5e274c91abba183c7158337de8f30aab82be0e6f945d8621b435d9552a8830b5",
+    "bytes": 2682929
+  }
+]

@@ -1,0 +1,147 @@
+[
+  {
+    "name": "Raptoran",
+    "kind": "species",
+    "group": "3.5 edition",
+    "otherKindExists": false,
+    "global": true,
+    "version": {
+      "key": "fd4e2742e570dfc1a5a77b7d",
+      "publication": "Races of the Wild (2005)",
+      "edition": "3.5 edition",
+      "source": "https://books.google.co.uk/books/about/Races_of_the_Wild.html?id=kjsBAAAACAAJ",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Humanoid (Raptoran)"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Medium Humanoid with the Raptoran subtype. Base land speed 30 ft. The playable entry gives no racial ability-score adjustment or level adjustment.",
+            "Wing-Aided Movement gives +10 racial bonus to Jump checks. +2 racial bonus to Climb and Spot. Low-light vision reaches twice human distance in dim light and retains color and detail.",
+            "Gliding (Ex) uses 40-ft. speed and average maneuverability. Descend 5 ft. per 20 ft. traveled forward. Gliding prevents falling damage and never allows hovering. A medium or heavy load prevents gliding.",
+            "If unconscious or helpless in midair, the wings stiffen and unfold. The Raptoran descends in a corkscrew and takes only 1d6 falling damage regardless of distance.",
+            "At 5 Hit Dice, Flight (Ex) grants a 40-ft. fly speed with average maneuverability. A medium or heavy load, fatigue, or exhaustion prevents powered flight.",
+            "At 5–9 Hit Dice, fly safely for a number of consecutive rounds equal to your Constitution modifier, minimum 1. You can fly for up to twice that many rounds, becoming fatigued at the end of the flight. You also become fatigued after more than 10 minutes total powered flight in a day. Glide before, after, or between rounds of powered flight.",
+            "At 10 Hit Dice, keep the 40-ft. average fly speed and fly with no more exertion than walking or running. The playable text leaves the daily cutoff implicit, while several 10+ HD sample NPCs still list fatigue after 10 minutes.",
+            "Once powered flight is available at 5 Hit Dice, it permits a straight-line run and a diving charge with a piercing weapon. The dive must move at least 30 ft. and descend at least 10 ft. A hit deals double damage.",
+            "Pact with Wind Lords gives +1 caster level when casting air-descriptor spells. Unerring Direction senses north even underground on the Material Plane.",
+            "A footbow is a martial weapon for a Raptoran. Its 110-ft. range increment, Strength rating, and rules for gripping it with the feet and shooting prone are on p. 165.",
+            "Common and Tuilvilanuue are automatic. Bonus languages Draconic, Elven, Gnome, Goblin, Orc, Sylvan. Favored class Cleric."
+          ]
+        },
+        {
+          "title": "Original NPC · Avilli",
+          "lines": [
+            "Glider and ropeway rigger who carries a light messenger line.",
+            "Motive. Reconnect a ropeway before travellers reach the damaged span.",
+            "Hook. Avilli can glide a messenger line down from the upper landing if someone holds the near anchor.",
+            "Raptoran glider and ropeway rigger, Expert 1 · Provisional CR 1/2. ECL 1. · Medium Humanoid (Raptoran)",
+            "AC 14 · HP 7 (1d6+1) · Speed Walk 30 ft. Glide 40 ft. (average)."
+          ]
+        },
+        {
+          "title": "Original NPC · Tarinel",
+          "lines": [
+            "Beacon sentry and footbow specialist with limited flight.",
+            "Motive. Get both cliff beacons back in sight of each other before the pass closes.",
+            "Hook. Tarinel can reach the far platform in a short powered bout if the party clears the lower perch.",
+            "Raptoran beacon sentry, Fighter 5 · Provisional CR 5. ECL 5. · Medium Humanoid (Raptoran)",
+            "AC 17 · HP 42 (5d10+10) · Speed Walk 30 ft. Fly or glide 40 ft. (average)."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Avilli": [
+          {
+            "start": 15,
+            "end": 21,
+            "target": {
+              "name": "Avilli",
+              "group": "Raptoran",
+              "publication": "Raptoran glider and ropeway rigger, Expert 1",
+              "local": {
+                "entry": "npc-b59555fb8fc20f0f042ab151",
+                "version": "bbdc83fc6ae8ce2c823b5938"
+              }
+            }
+          }
+        ],
+        "Hook. Avilli can glide a messenger line down from the upper landing if someone holds the near anchor.": [
+          {
+            "start": 6,
+            "end": 12,
+            "target": {
+              "name": "Avilli",
+              "group": "Raptoran",
+              "publication": "Raptoran glider and ropeway rigger, Expert 1",
+              "local": {
+                "entry": "npc-b59555fb8fc20f0f042ab151",
+                "version": "bbdc83fc6ae8ce2c823b5938"
+              }
+            }
+          }
+        ],
+        "Original NPC · Tarinel": [
+          {
+            "start": 15,
+            "end": 22,
+            "target": {
+              "name": "Tarinel",
+              "group": "Raptoran",
+              "publication": "Raptoran beacon sentry, Fighter 5",
+              "local": {
+                "entry": "npc-7d261bd23993e6ddca239e1e",
+                "version": "2ad5e2d513c9a41402dcd2a2"
+              }
+            }
+          }
+        ],
+        "Hook. Tarinel can reach the far platform in a short powered bout if the party clears the lower perch.": [
+          {
+            "start": 6,
+            "end": 13,
+            "target": {
+              "name": "Tarinel",
+              "group": "Raptoran",
+              "publication": "Raptoran beacon sentry, Fighter 5",
+              "local": {
+                "entry": "npc-7d261bd23993e6ddca239e1e",
+                "version": "2ad5e2d513c9a41402dcd2a2"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Raptoran": true,
+      "raptoran gliding": true,
+      "raptoran footbow": true,
+      "raptoran ropeway rigger": true,
+      "raptoran beacon sentry": true
+    },
+    "hash": "6e74c9795f0145dd63c1d50ac2db6eac3e7bea5ff50903c4d78b3b91338c78cb",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Races of the Wild (2005)",
+    "defaultVersionKey": "fd4e2742e570dfc1a5a77b7d",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  }
+]

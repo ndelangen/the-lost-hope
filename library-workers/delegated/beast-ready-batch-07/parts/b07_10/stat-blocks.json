@@ -1,0 +1,300 @@
+[
+  {
+    "name": "Brown Bear",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "classification": "Large Animal, always neutral",
+    "ac": 15,
+    "hp": 51,
+    "hitDice": "6d8 + 24",
+    "speed": "40 ft. (8 squares)",
+    "cr": "4",
+    "abilities": {
+      "Str": {
+        "score": 27,
+        "modifier": 8
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 19,
+        "modifier": 4
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "savingThrows": {
+      "Fortitude": 9,
+      "Reflex": 6,
+      "Will": 3
+    },
+    "otherStatistics": "Initiative +1. AC 15 (−1 size, +1 Dexterity, +5 natural), touch 10, flat-footed 14. Base attack +4, grapple +16. Space 10 ft., reach 5 ft. Fort +9, Ref +6, Will +3.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A heavy brown bear with a rounded head, shaggy shoulders, powerful forelegs, and broad clawed paws.",
+    "habitats": [
+      "Cold forests"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersAnimals.rtf, BEAR, BROWN. https://www.d20srd.org/srd/monsters/bearBrown.htm",
+      "Attack": "Claw +11 melee, 1d8 + 8 piercing and slashing.",
+      "Full attack": "Two claws +11 melee each, 1d8 + 8 each. Bite +6 melee, 2d6 + 4.",
+      "Special attacks": "Improved Grab (Ex). After a claw hit on a Medium or smaller foe, attempt a grapple at +16 as a free action without a touch attack or attack of opportunity. A hold pulls the foe into the attacker’s space without provoking. Use the ordinary grapple or hold only with the striking limb or mouth at −20 on grapple checks. In the latter case the animal keeps its Dexterity bonus to AC, still threatens, and may use its remaining attacks against other foes. The first hold adds no damage by itself. A successful grapple check in later rounds automatically deals the damage of the attack used to grab. The animal can move with the foe if it can drag its weight. The foe escapes by winning an opposed grapple check in place of an attack, or by using Escape Artist as a standard action against the grapple check.",
+      "Special qualities": "Low-light vision. In dim illumination, sees twice as far as a human and keeps color and detail.\nScent. Detect ordinary creatures within 30 ft., 60 ft. upwind, or 15 ft. downwind. Double those distances for strong odors and triple them for overpowering odors. A move action identifies the direction, and within 5 ft. the animal pinpoints the source.\nTrack by scent. Take the Track feat’s usual checks, with DC 10 for a typical fresh trail and +2 DC per hour since it was left. Surface conditions and poor visibility do not affect scent tracking. Odor strength and number of creatures can shift the DC.",
+      "Skills and feats": "Listen +4, Spot +7, Swim +12. Feats. Endurance, Run, Track.\nSwim checks have a +4 racial bonus, included in Swim +12.",
+      "Encounter ecology": "Cold forests. Solitary or pair. Always neutral, no treasure. Advancement 7–10 HD (Large). No level adjustment.\nA territorial bear can fight with its claws before securing a hold. The SRD suggests this block for other large bears, including grizzlies."
+    }
+  },
+  {
+    "name": "Dire Lion",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "classification": "Large Animal, always neutral",
+    "ac": 15,
+    "hp": 60,
+    "hitDice": "8d8 + 24",
+    "speed": "40 ft. (8 squares)",
+    "cr": "5",
+    "abilities": {
+      "Str": {
+        "score": 25,
+        "modifier": 7
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 10,
+        "modifier": 0
+      }
+    },
+    "savingThrows": {
+      "Fortitude": 9,
+      "Reflex": 8,
+      "Will": 7
+    },
+    "otherStatistics": "Initiative +2. AC 15 (−1 size, +2 Dexterity, +4 natural), touch 11, flat-footed 13. Base attack +6, grapple +17. Space 10 ft., reach 5 ft. Fort +9, Ref +8, Will +7.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A large tawny lion with a thick dark mane, broad forequarters, large paws, and a tufted tail.",
+    "habitats": [
+      "Warm plains"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersDi-Do.rtf, DIRE LION. https://www.d20srd.org/srd/monsters/direLion.htm",
+      "Attack": "Claw +13 melee, 1d6 + 7 piercing and slashing.",
+      "Full attack": "Two claws +13 melee each, 1d6 + 7 each. Bite +7 melee, 1d8 + 3.",
+      "Special attacks": "Improved Grab (Ex). After a bite hit on a Medium or smaller foe, attempt a grapple at +17 as a free action without a touch attack or attack of opportunity. A hold pulls the foe into the attacker’s space without provoking. Use the ordinary grapple or hold only with the striking limb or mouth at −20 on grapple checks. In the latter case the animal keeps its Dexterity bonus to AC, still threatens, and may use its remaining attacks against other foes. The first hold adds no damage by itself. A successful grapple check in later rounds automatically deals the damage of the attack used to grab. The animal can move with the foe if it can drag its weight. The foe escapes by winning an opposed grapple check in place of an attack, or by using Escape Artist as a standard action against the grapple check.\nPounce (Ex). A charge ends in the full attack plus two rakes. Follow the normal movement restrictions and AC penalty for charging.\nRake (Ex). Two additional rear-claw attacks against a grappled target, each +12 melee for 1d6 + 3, without the ordinary −4 natural-attack penalty in a grapple. The shared rake rule calls for starting the turn already grappling. Pounce explicitly adds two rakes to the charge.",
+      "Special qualities": "Low-light vision. In dim illumination, sees twice as far as a human and keeps color and detail.\nScent. Detect ordinary creatures within 30 ft., 60 ft. upwind, or 15 ft. downwind. Double those distances for strong odors and triple them for overpowering odors. A move action identifies the direction, and within 5 ft. the animal pinpoints the source.",
+      "Skills and feats": "Hide +2, Listen +7, Move Silently +5, Spot +7. Feats. Alertness, Run, Weapon Focus (claw).\nHide and Move Silently include +4 racial bonuses. Tall grass or heavy undergrowth raises the racial Hide bonus to +8, for Hide +6 total.",
+      "Encounter ecology": "Warm plains. Solitary, pair, or pride of 6–10. Always neutral, no treasure. Advancement 9–16 HD (Large) or 17–24 HD (Huge). No level adjustment.\nDire lions wait for prey and can take larger animals. The SRD gives lengths up to 15 ft. and weights up to 3,500 lb.",
+      "Source notes": "The entry says a successful bite grab establishes a hold and allows Rake. The shared Rake text requires an existing grapple at the start of the turn. Pounce expressly allows two immediate rakes. For a bite grab outside a pounce, the summary uses the shared start-of-turn rule.\nThe description mentions leaping at larger prey. The Improved Grab rule still uses the normal size limit because the entry gives no explicit size exception."
+    }
+  },
+  {
+    "name": "Elephant",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "classification": "Huge Animal, always neutral",
+    "ac": 15,
+    "hp": 104,
+    "hitDice": "11d8 + 55",
+    "speed": "40 ft. (8 squares)",
+    "cr": "7",
+    "abilities": {
+      "Str": {
+        "score": 30,
+        "modifier": 10
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 21,
+        "modifier": 5
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "savingThrows": {
+      "Fortitude": 12,
+      "Reflex": 7,
+      "Will": 6
+    },
+    "otherStatistics": "Initiative +0. AC 15 (−2 size, +7 natural), touch 8, flat-footed 15. Base attack +8, grapple +26. Space 15 ft., reach 10 ft. Fort +12, Ref +7, Will +6.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A gray elephant with large fan-shaped ears, a curling trunk, two long tusks, and columnar legs.",
+    "habitats": [
+      "Warm plains"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersAnimals.rtf, ELEPHANT. https://www.d20srd.org/srd/monsters/elephant.htm",
+      "Attack": "Gore +16 melee, 2d8 + 15 piercing.",
+      "Full attack": "Choose slam +16 melee (2d6 + 10) and two stamps +11 melee each (2d6 + 5 each), or one gore +16 melee (2d8 + 15).",
+      "Special attacks": "Trample (Ex). Spend a full-round action to move up to 80 ft. and pass completely over the spaces of Large or smaller opponents. Each affected opponent takes 2d8 + 15 bludgeoning damage at most once that round. It can make an attack of opportunity at −4, or forgo that attack and make a DC 25 Reflex save for half damage. Passing over only part of a creature’s space allows the attack of opportunity at −4 and does not trample it. If the elephant ends in an illegal space, move it back to its last legal space or to a closer legal space if available. The DC is Strength-based.",
+      "Special qualities": "Low-light vision. In dim illumination, sees twice as far as a human and keeps color and detail.\nScent. Detect ordinary creatures within 30 ft., 60 ft. upwind, or 15 ft. downwind. Double those distances for strong odors and triple them for overpowering odors. A move action identifies the direction, and within 5 ft. the animal pinpoints the source.",
+      "Skills and feats": "Listen +12, Spot +10. Feats. Alertness, Endurance, Iron Will, Skill Focus (Listen).",
+      "Encounter ecology": "Warm plains. Solitary or herd of 6–30. Always neutral, no treasure. Advancement 12–22 HD (Huge). No level adjustment.\nThe default block describes an African elephant. The source gives an Indian elephant Strength 28 and Wisdom 15 and suggests the block for mammoths or mastodons. It does not supply a separate full variant block. Elephants may serve as mounts or load bearers and often charge threats.",
+      "Source notes": "Use the elephant’s explicit Trample dice, 2d8 + 15. The shared Trample formula refers to slam damage, whose printed base dice here differ."
+    }
+  },
+  {
+    "name": "Monitor Lizard",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "classification": "Medium Animal, always neutral",
+    "ac": 15,
+    "hp": 22,
+    "hitDice": "3d8 + 9",
+    "speed": "30 ft. (6 squares), swim 30 ft.",
+    "cr": "2",
+    "abilities": {
+      "Str": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 2,
+        "modifier": -4
+      }
+    },
+    "savingThrows": {
+      "Fortitude": 8,
+      "Reflex": 5,
+      "Will": 2
+    },
+    "otherStatistics": "Initiative +2. AC 15 (+2 Dexterity, +3 natural), touch 12, flat-footed 13. Base attack +2, grapple +5. Space 5 ft., reach 5 ft. Fort +8, Ref +5, Will +2.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A low, elongated lizard with a narrow head, patterned gray-brown scales, clawed feet, and a long tapering tail.",
+    "habitats": [
+      "Warm forests"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersAnimals.rtf, LIZARD, MONITOR. https://www.d20srd.org/srd/monsters/lizardMonitor.htm",
+      "Attack": "Bite +5 melee, 1d8 + 4 piercing, slashing, and bludgeoning.",
+      "Full attack": "One bite +5 melee, 1d8 + 4.",
+      "Special attacks": "None listed.",
+      "Special qualities": "Low-light vision. In dim illumination, sees twice as far as a human and keeps color and detail.",
+      "Skills and feats": "Climb +7, Hide +6, Listen +4, Move Silently +6, Spot +4, Swim +11. Feats. Alertness, Great Fortitude.\nThe lizard has +4 racial bonuses on Hide and Move Silently. Forest or overgrowth improves the racial Hide bonus to +8, for Hide +10 total. The +8 racial Swim bonus applies to special maneuvers and hazards. It can take 10 even when distracted or in danger, and can run while swimming in a straight line.",
+      "Encounter ecology": "Warm forests. Solitary. Always neutral, no treasure. Advancement 4–5 HD (Medium). No level adjustment.\nA 3- to 5-ft. carnivorous lizard that defends itself or takes prey with its jaws."
+    }
+  },
+  {
+    "name": "Riding Dog",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "classification": "Medium Animal, always neutral",
+    "ac": 16,
+    "hp": 13,
+    "hitDice": "2d8 + 4",
+    "speed": "40 ft. (8 squares)",
+    "cr": "1",
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "savingThrows": {
+      "Fortitude": 5,
+      "Reflex": 5,
+      "Will": 1
+    },
+    "otherStatistics": "Initiative +2. AC 16 (+2 Dexterity, +4 natural), touch 12, flat-footed 14. Base attack +1, grapple +3. Space 5 ft., reach 5 ft. Fort +5, Ref +5, Will +1.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A sturdy white-and-brown working dog with a dark facial mask, drooping ears, thick paws, and a fitted riding saddle.",
+    "habitats": [
+      "Temperate plains"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersAnimals.rtf, DOG, RIDING. https://www.d20srd.org/srd/monsters/dogRiding.htm",
+      "Attack": "Bite +3 melee, 1d6 + 3 piercing, slashing, and bludgeoning.",
+      "Full attack": "One bite +3 melee, 1d6 + 3.",
+      "Special attacks": "War-trained Trip (Ex). A war-trained riding dog can attempt a trip as a free action after a bite hit, without a touch attack or attack of opportunity. Target a Large or smaller foe. Use the dog’s Strength check at +2 against the defender’s better Strength or Dexterity check, with the usual size and stability modifiers. A win makes the target prone. Failure grants the foe no counter-trip. Mounted combat. The dog can attack while carrying a rider. A rider on a war-trained mount can make a DC 10 Ride check as a free action to also attack.",
+      "Special qualities": "Low-light vision. In dim illumination, sees twice as far as a human and keeps color and detail.\nScent. Detect ordinary creatures within 30 ft., 60 ft. upwind, or 15 ft. downwind. Double those distances for strong odors and triple them for overpowering odors. A move action identifies the direction, and within 5 ft. the animal pinpoints the source.\nTrack by scent. Take the Track feat’s usual checks, with DC 10 for a typical fresh trail and +2 DC per hour since it was left. Surface conditions and poor visibility do not affect scent tracking. Odor strength and number of creatures can shift the DC.",
+      "Skills and feats": "Jump +8, Listen +5, Spot +5, Swim +3, Survival +1. Feats. Alertness, Track (bonus feat).\nThe entry prints a +4 racial Jump bonus and Jump +8 in the table. Survival has a +4 racial bonus when tracking by scent, for +5 total.",
+      "Encounter ecology": "Temperate plains. Solitary or pack of 5–12. Always neutral, no treasure. No advancement listed. No level adjustment.\nCovers breeds such as collies, huskies and St. Bernards. Light load up to 100 lb., medium 101–200 lb., heavy 201–300 lb., and maximum drag 1,500 lb.",
+      "Source notes": "The skills table prints Jump +8. At 40 ft. speed, the shared Jump rule would add +4 to the dog’s +2 Strength and +4 racial bonus even before ranks. The summary retains the printed +8.\nThe dog entry references Wolf for the procedure. The +2 trip check uses the dog’s own Strength and Medium size. The wolf’s printed +1 is wolf-specific."
+    }
+  }
+]

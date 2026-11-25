@@ -1,0 +1,60 @@
+[
+  {
+    "name": "Swarm of Infesting Insects",
+    "publication": "Ravenloft: The Horrors Within",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "section": "Chapter 5, Denizens of the Mists, Swarms of Insects",
+    "sourceUrl": "https://www.scribd.com/document/1054815014/Ravenloft-The-Horrors-Within-Neat-and-Tidy-Edition-1",
+    "url": "https://www.scribd.com/document/1054815014/Ravenloft-The-Horrors-Within-Neat-and-Tidy-Edition-1",
+    "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/rthw",
+    "sourceWitness": "Published D&D Beyond content in a paginated 444-sheet digital export. The digital sheet count is distinct from the hardcover folio.",
+    "verifiedDigitalExportPages": [
+      400,
+      401
+    ],
+    "supportingDigitalExportPages": [
+      59
+    ],
+    "secondaryPrintedPage": 271,
+    "secondaryPrintedPageSource": "https://dnd.huijiwiki.com/wiki/%E6%80%AA%E7%89%A9/RHW/%E4%BE%B5%E6%89%B0%E6%98%86%E8%99%AB%E9%9B%86%E7%BE%A4",
+    "artGroup": "ravenloft-insect-swarms",
+    "appearanceEvidence": "Olive-green, segmented insect larvae with rust-red heads mingle with darker adults with translucent wings.",
+    "artworkCredit": "Alexandre Honoré",
+    "artworkSource": "Local read-only copy of the publisher artwork, images/beasts/swarm-of-infesting-insects/rhw-1.webp",
+    "artworkSha256": "ff52492d472a4cfcfe8e47d220ab9cc55fec2ab1ed5a5c9cbc8bbc6ffb6678c0",
+    "artworkNote": "The published chapter illustration has larvae and winged adults in a tall room scene. Both variants share a new square specimen study with the creature features on plain parchment.",
+    "habitatEvidence": "The shared Swarms of Insects chapter heading lists Coastal, Forest, Grassland, Swamp, and Urban. Treasure is None.",
+    "conditionRules": "The attack imposes Poisoned immediately. A DC 11 Constitution save occurs after one hour if the same condition remains. On failure, the 1d6 result determines the effect."
+  },
+  {
+    "name": "Swarm of Ravenous Insects",
+    "publication": "Ravenloft: The Horrors Within",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "section": "Chapter 5, Denizens of the Mists, Swarms of Insects",
+    "sourceUrl": "https://www.scribd.com/document/1054815014/Ravenloft-The-Horrors-Within-Neat-and-Tidy-Edition-1",
+    "url": "https://www.scribd.com/document/1054815014/Ravenloft-The-Horrors-Within-Neat-and-Tidy-Edition-1",
+    "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/rthw",
+    "sourceWitness": "Published D&D Beyond content in a paginated 444-sheet digital export. The digital sheet count is distinct from the hardcover folio.",
+    "verifiedDigitalExportPages": [
+      401
+    ],
+    "supportingDigitalExportPages": [
+      400,
+      266
+    ],
+    "secondaryPrintedPage": 271,
+    "secondaryPrintedPageSource": "https://dnd.huijiwiki.com/wiki/%E6%80%AA%E7%89%A9/RHW/%E4%BE%B5%E6%89%B0%E6%98%86%E8%99%AB%E9%9B%86%E7%BE%A4",
+    "artGroup": "ravenloft-insect-swarms",
+    "appearanceEvidence": "Olive-green, segmented insect larvae with rust-red heads mingle with darker adults with translucent wings.",
+    "artworkCredit": "Alexandre Honoré",
+    "artworkSource": "Local read-only copy of the publisher artwork, images/beasts/swarm-of-infesting-insects/rhw-1.webp",
+    "artworkSha256": "ff52492d472a4cfcfe8e47d220ab9cc55fec2ab1ed5a5c9cbc8bbc6ffb6678c0",
+    "artworkNote": "The published chapter illustration has larvae and winged adults in a tall room scene. Both variants share a new square specimen study with the creature features on plain parchment.",
+    "habitatEvidence": "The shared Swarms of Insects chapter heading lists Coastal, Forest, Grassland, Swamp, and Urban. Treasure is None.",
+    "conditionRules": "The attack applies one minute of Poisoned with no save. Restoring HP ends it early. Ongoing piercing damage can kill at 0 HP. Skeletonize affects Large or smaller corpses at the beginning of the swarm’s own turn."
+  }
+]

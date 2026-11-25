@@ -1,0 +1,123 @@
+{
+  "builds": [
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "difficulty": "Provisional CR 1. ECL 1 (1 class HD, LA +0).",
+      "size": "Medium",
+      "type": "Humanoid",
+      "senses": "Normal vision. Body Lamp senses solid objects to 60 ft. in loose soil while active.",
+      "id": "asherati-dustline-sandlock-scout-35e",
+      "title": "Asherati sandlock scout, Rogue 1",
+      "ac": 16,
+      "hp": 8,
+      "hitDice": "1d6+2",
+      "initiative": 3,
+      "speed": "30 ft., sandswim 30 ft. in leather armor with a light load",
+      "languages": "Asherati, Common, Bhuka",
+      "abilityScores": {
+        "STR": 12,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 12,
+        "WIS": 10,
+        "CHA": 14
+      },
+      "skills": [
+        "Climb +5",
+        "Disable Device +5",
+        "Hide +9 (+11 in sand when unlit)",
+        "Listen +6",
+        "Move Silently +9",
+        "Search +5",
+        "Spot +6",
+        "Tumble +7",
+        "Use Rope +7"
+      ],
+      "traits": [
+        "Chaotic good. Leather armor +2, Dexterity +3, natural armor +1. Touch 13, flat-footed 13. BAB +0, grapple +1. Fortitude +2, Reflex +5, Will +0. Alertness adds +2 Listen and Spot.",
+        "Sandswim (Su) works in sand, dust, ash, and softsand. Slipsand, packed dirt, and rock are excluded. Under sand it allows normal breathing. It gives no protection from water or dangerous gases.",
+        "The player entry gives land speed in light armor or with a light load. Heavier armor or a medium load limits it to 5 ft. A heavy load prevents movement.",
+        "Body Lamp (Su) glows at will, with bright light to 60 ft. and shadowy illumination to 120 ft. In loose soil the Asherati can make out solid objects to 60 ft. for navigation and general identification. Other creatures in the sand see an orange glow. The glow confers no finer perception or advantage against invisibility or concealment. The Asherati cannot Hide while glowing.",
+        "Bonus feat Heat Endurance gives +2 on saves against fire effects and heat protection level 1, with no heat saves needed through 120°F.",
+        "Water Vulnerability. Completely wet causes −1 on attack rolls, ability checks, and skill checks. Immersion prevents breath-holding and immediately triggers Constitution checks against drowning.",
+        "Hide and Move Silently each include +2 racial. Sand adds another +2 to Hide when unlit. Trapfinding. Sneak attack +1d6 against a flanked target or one denied Dexterity to AC, if there is no concealment. Ranged sneak attack is limited to 30 ft."
+      ],
+      "actions": [
+        "Short sword +1 melee, 1d6+1 piercing, critical 19–20/×2. Shortbow +3 for 1d6 piercing, critical ×3, range increment 60 ft.",
+        "Body Lamp flash, 1/day as a free action. All creatures within 30 ft. must pass Fortitude DC 12 or be dazzled for 1 minute (−1 on attack rolls, Search, and Spot)."
+      ],
+      "tactics": "Rashen follows loose sand to a blocked sandlock. He turns on Body Lamp to find the release frame below the sand. On the surface he extinguishes the glow before hiding. He warns the party to clear the radius before flashing."
+    },
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "difficulty": "Provisional CR 1. ECL 1 (1 class HD, LA +0).",
+      "size": "Medium",
+      "type": "Humanoid",
+      "senses": "Normal vision. Body Lamp senses solid objects to 60 ft. in loose soil while active.",
+      "id": "asherati-glassbank-cistern-guard-35e",
+      "title": "Asherati cistern guard, Fighter 1",
+      "ac": 17,
+      "hp": 12,
+      "hitDice": "1d10+2",
+      "initiative": 5,
+      "speed": "20 ft. in breastplate, sandswim 5 ft. in breastplate",
+      "languages": "Asherati, Common",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 12,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 10,
+        "CHA": 12
+      },
+      "skills": [
+        "Climb +3",
+        "Craft (glassmaking) +4"
+      ],
+      "traits": [
+        "Neutral good. Breastplate +5, Dexterity +1, natural armor +1. Touch 11, flat-footed 16. Armor check penalty −4. BAB +1, grapple +4. Fortitude +4, Reflex +1, Will +0. Improved Initiative adds +4.",
+        "Sandswim (Su) works in sand, dust, ash, and softsand. Slipsand, packed dirt, and rock are excluded. Under sand it allows normal breathing. It gives no protection from water or dangerous gases.",
+        "The player entry gives land speed in light armor or with a light load. Heavier armor or a medium load limits it to 5 ft. A heavy load prevents movement.",
+        "Body Lamp (Su) glows at will, with bright light to 60 ft. and shadowy illumination to 120 ft. In loose soil the Asherati can make out solid objects to 60 ft. for navigation and general identification. Other creatures in the sand see an orange glow. The glow confers no finer perception or advantage against invisibility or concealment. The Asherati cannot Hide while glowing.",
+        "Bonus feat Heat Endurance gives +2 on saves against fire effects and heat protection level 1, with no heat saves needed through 120°F.",
+        "Water Vulnerability. Completely wet causes −1 on attack rolls, ability checks, and skill checks. Immersion prevents breath-holding and immediately triggers Constitution checks against drowning.",
+        "The breastplate is medium armor and limits Sandswim to 5 ft. The eagle’s claw counts as martial for Asheratis. Weapon Focus (eagle’s claw) is the Fighter bonus feat."
+      ],
+      "actions": [
+        "Eagle’s claw +5 melee, 1d6+3 slashing and piercing, critical 18–20/×2. Javelin +2 for 1d6+3 piercing, critical ×2, range increment 30 ft.",
+        "Body Lamp flash, 1/day as a free action. All creatures within 30 ft. must pass Fortitude DC 11 or be dazzled for 1 minute (−1 on attack rolls, Search, and Spot)."
+      ],
+      "tactics": "Neral guards the dry landing beside a cistern overflow. He can move through the sand beside the landing at 5 ft. while armored. He takes the dry route around the overflow and keeps his allies outside the flash radius before using it."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Asherati",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Sandstorm (2005)",
+      "name": "Rashen Dustline",
+      "build": "asherati-dustline-sandlock-scout-35e",
+      "role": "Sandlock scout and Rogue.",
+      "motive": "Find the jammed release without letting sand fill the room.",
+      "hook": "Rashen can reach the release frame from outside the sandlock."
+    },
+    {
+      "species": "Asherati",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Sandstorm (2005)",
+      "name": "Neral Glassbank",
+      "build": "asherati-glassbank-cistern-guard-35e",
+      "role": "Cistern guard and Fighter.",
+      "motive": "Keep the dry exit open while the overflow is stopped.",
+      "hook": "Neral can reach the landing from the sand beside the cistern wall."
+    }
+  ]
+}

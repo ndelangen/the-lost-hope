@@ -1,0 +1,83 @@
+[
+  {
+    "name": "Dragonborn",
+    "publication": "Labyrinth Worldbook",
+    "edition": "Black Flag Roleplaying",
+    "publisher": "Kobold Press",
+    "url": "https://www.scribd.com/document/897921400/Labyrinth-Worldbook-Mpzq99",
+    "publisherUrl": "",
+    "printedPages": "136–137",
+    "heading": "Dragonborn Lineage Traits",
+    "coreRulesUrl": "",
+    "scope": "Adds a playable Labyrinth Worldbook profile. Existing encounter monsters and playable Dragonborn printings have different source scopes.",
+    "decisions": [
+      "The bonus-action breath offers a line or cone on each use, uses a CON-based DEX save, and includes void necrotic and yellow radiant ancestry choices.",
+      "The ancestry sentence names Natural Adaptation, but the section prints only the breath, hide, and sight effects. No inferred fourth trait."
+    ]
+  },
+  {
+    "name": "Gearforged",
+    "publication": "Labyrinth Worldbook",
+    "edition": "Black Flag Roleplaying",
+    "publisher": "Kobold Press",
+    "url": "https://www.scribd.com/document/897921400/Labyrinth-Worldbook-Mpzq99",
+    "publisherUrl": "",
+    "printedPages": "137–139",
+    "heading": "Gearforged Lineage Traits",
+    "coreRulesUrl": "",
+    "scope": "Adds the playable Labyrinth Worldbook Gearforged.",
+    "decisions": [
+      "Hybrid Humanoid keeps the Humanoid type and adds specific benefits.",
+      "The chassis sets size; an Upgrade is a separate choice. Always Armed text uses willingly in its disarming restriction."
+    ]
+  },
+  {
+    "name": "Satyr",
+    "publication": "Labyrinth Worldbook",
+    "edition": "Black Flag Roleplaying",
+    "publisher": "Kobold Press",
+    "url": "https://www.scribd.com/document/897921400/Labyrinth-Worldbook-Mpzq99",
+    "publisherUrl": "",
+    "printedPages": "140",
+    "heading": "Satyr Lineage Traits",
+    "coreRulesUrl": "",
+    "scope": "Adds a Black Flag playable Satyr profile. The existing D&D options and Black Flag encounter monster have distinct mechanics.",
+    "decisions": [
+      "Bounding Leap costs a reaction after a melee or unarmed hit. The 1d8 horns use STR or DEX by choice at creation.",
+      "Black Flag condition resistance grants advantage on checks and saves to avoid or end that condition. See BFRD p. 250 or Resistant in the Monster Statistics chapter."
+    ]
+  },
+  {
+    "name": "Syderean",
+    "publication": "Labyrinth Worldbook · Spellborn",
+    "edition": "Black Flag Roleplaying",
+    "publisher": "Kobold Press",
+    "url": "https://www.scribd.com/document/897921400/Labyrinth-Worldbook-Mpzq99",
+    "publisherUrl": "",
+    "printedPages": "141–142",
+    "heading": "Syderean Lineage Expanded: Spellborn",
+    "baseLineageUrl": "https://anyflip.com/fflfu/egji/basic/101-150",
+    "baseLineagePrintedPage": "110",
+    "coreRulesUrl": "",
+    "scope": "One canonical Syderean species record. This profile uses the Spellborn Natural Adaptation alongside base lineage traits from the Player’s Guide.",
+    "decisions": [
+      "Energy Form adds physical resistance and restraint immunity during transformation. The selected elemental type replaces damage for one attack or spell on each of the character’s turns, and grants no matching elemental resistance by itself."
+    ]
+  },
+  {
+    "name": "Sapopova",
+    "publication": "Tales of the Valiant Player's Guide 2 Preview",
+    "edition": "Black Flag Roleplaying",
+    "publisher": "Kobold Press",
+    "url": "",
+    "publisherUrl": "",
+    "printedPages": "16–17",
+    "pdfPage": 17,
+    "heading": "Sapopova Lineage Traits",
+    "coreRulesUrl": "",
+    "scope": "One playable lineage with Frogkin and Toadfolk equipment and movement choices. Source is the full lineage treatment in the publisher’s preview.",
+    "decisions": [
+      "The Frogkin rules remove the launch run for long jumps. The Toadfolk rules permit three Tiny items while maintaining speech and state the launched-object range and damage formula."
+    ]
+  }
+]

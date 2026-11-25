@@ -1,0 +1,281 @@
+{
+  "builds": [
+    {
+      "id": "fire-elemental-vell-30e",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ],
+      "title": "Kiln brazier tender, Fire Elemental 2",
+      "difficulty": "CR 1, ECL 2, 2 HD",
+      "type": "Elemental (Fire)",
+      "size": "Small",
+      "senses": "Darkvision 60 ft.",
+      "languages": "Ignan",
+      "speed": "50 ft.",
+      "ac": 19,
+      "hp": 17,
+      "hitDice": "2d8+4",
+      "initiative": 9,
+      "abilityScores": {
+        "STR": 12,
+        "DEX": 20,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Hide +9",
+        "Listen +4",
+        "Spot +3"
+      ],
+      "traits": [
+        "Neutral. AC 19, touch 16, flat-footed 14. BAB +1, grapple −2. Fort +2, Ref +8, Will +1.",
+        "Feats are Dodge and the table’s bonus feats Improved Initiative and Weapon Finesse (slam). Choose one foe for the +1 dodge bonus to AC.",
+        "Immune to fire, poison, sleep, paralysis, stunning, and critical hits. Apply −10 on saves against cold attacks. Cold deals double damage when no save is allowed. Cannot cross a nonflammable liquid unless able to step or jump over it."
+      ],
+      "actions": [
+        "Slam +7 melee (5-ft. reach), 1d4+1 bludgeoning plus 1d4 fire. Roll Reflex DC 13 for Burn.",
+        "Burn. A failed save leaves the target on fire for 1d4 rounds under the catching-on-fire rules. A burning creature can spend a move-equivalent action to extinguish the flames. An attacker that hits Vell with a natural or unarmed attack takes 1d4 fire and makes the same Reflex save against ignition."
+      ],
+      "tactics": "Choose Dodge against the most dangerous melee attacker. Slam from the dry side of the kiln trench and use the narrow path to limit who can take a swing."
+    },
+    {
+      "id": "fire-giant-dorran-emberkeel-30e",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ],
+      "title": "Forge escort, Fire Giant 6",
+      "difficulty": "CR 3, ECL 6, 5 HD",
+      "type": "Giant (Fire)",
+      "size": "Medium",
+      "senses": "Darkvision 60 ft.",
+      "languages": "Common, Giant",
+      "speed": "40 ft.",
+      "ac": 17,
+      "hp": 41,
+      "hitDice": "5d8+15",
+      "initiative": 1,
+      "abilityScores": {
+        "STR": 24,
+        "DEX": 12,
+        "CON": 16,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Climb +11",
+        "Craft (metalworking) +4",
+        "Listen +3",
+        "Spot +7"
+      ],
+      "traits": [
+        "Lawful neutral. AC 17, touch 11, flat-footed 16. Leather armor +2, natural armor +4. BAB +3, grapple +10. Fort +7, Ref +2, Will +2.",
+        "Alertness and Weapon Focus (falchion). Immune to fire. Apply −10 on saving throws against cold attacks. Cold deals double damage when there is no saving throw."
+      ],
+      "actions": [
+        "Falchion +11 melee (5-ft. reach), 2d4+10 slashing, 18–20/×2.",
+        "Rock +5 ranged, 1d6+7 bludgeoning. Carries three rocks. Range increment 30 ft., maximum 150 ft. The attack includes the class’s +1 rock-throwing bonus.",
+        "Rock catching. Aware and ready once per round, make a free Reflex save to catch a rock or similar projectile that would hit. DC 15 Small, 20 Medium, 25 Large, plus the projectile’s magic attack bonus if any."
+      ],
+      "tactics": "Throw from the choke point while the wagons pass, then draw the falchion and cover the crew’s retreat."
+    },
+    {
+      "id": "flesh-golem-sedge-30e",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ],
+      "title": "Storehouse sentinel, Flesh Golem 3",
+      "difficulty": "CR 2, ECL 3, 3 HD",
+      "type": "Construct",
+      "size": "Medium",
+      "senses": "Darkvision 60 ft.",
+      "languages": "Common",
+      "speed": "30 ft. (cannot run)",
+      "ac": 14,
+      "hp": 21,
+      "hitDice": "3d10",
+      "initiative": 0,
+      "abilityScores": {
+        "STR": 18,
+        "DEX": 10,
+        "INT": 4,
+        "WIS": 12,
+        "CHA": 1
+      },
+      "skills": [
+        "Listen +3",
+        "Spot +3"
+      ],
+      "traits": [
+        "Neutral. AC 14, touch 10, flat-footed 14, natural armor +4. BAB +2, grapple +6. Fort +1, Ref +1, Will +4. Alertness and Iron Will. Skill modifiers are untrained.",
+        "SR 13. Sedge has no Constitution score. As an intelligent player-style construct, heals with rest. Destroyed instantly at 0 hp.",
+        "Immune to mind-affecting effects, poison, disease, critical hits, subdual damage, ability damage, energy drain, and lethal massive damage. Ignores Fortitude-save effects unless they also affect objects.",
+        "Immune to acid, cold, electricity, fire, and sonic damage. Magical cold and fire slow Sedge for 2d6 rounds. Magical electricity heals one third of the damage it otherwise would have dealt. Sedge never saves against electricity."
+      ],
+      "actions": [
+        "Slam +6 melee (5-ft. reach), 1d6+4 bludgeoning. Full attack allows two slams at +6 each.",
+        "Berserk. Round 1 of combat has a 1% chance, round 2 has 2%, and so on. If berserk, hit the nearest living creature or smash a smaller object if nobody is in reach. End when there are no eligible targets in sight. The creator can instead make a DC 19 Charisma check each round from within 60 ft. One minute of rest resets the chance."
+      ],
+      "tactics": "Block the doorway without charging into the room. If berserk, the safest way to clear the hall is to get every living target and loose object out of sight."
+    },
+    {
+      "id": "frost-giant-yrsa-paleledge-30e",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ],
+      "title": "High pass escort, Frost Giant 11",
+      "difficulty": "CR 5, ECL 11, 8 HD",
+      "type": "Giant (Cold)",
+      "size": "Large",
+      "senses": "Darkvision 60 ft.",
+      "languages": "Common, Giant",
+      "speed": "40 ft.",
+      "ac": 19,
+      "hp": 68,
+      "hitDice": "8d8+32",
+      "initiative": 0,
+      "abilityScores": {
+        "STR": 28,
+        "DEX": 11,
+        "CON": 19,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Climb +17",
+        "Hide −4",
+        "Craft (leatherworking) +8",
+        "Listen +3",
+        "Spot +9"
+      ],
+      "traits": [
+        "Neutral. AC 19, touch 9, flat-footed 19. Natural armor +8, leather armor +2, size −1. BAB +6/+1, grapple +19. Fort +10, Ref +2, Will +5.",
+        "Alertness, Weapon Focus (greataxe), and Iron Will. Space 10 ft., reach 10 ft. Immune to cold. Apply −10 on saving throws against fire attacks. Fire deals double damage when there is no saving throw."
+      ],
+      "actions": [
+        "Oversized greataxe +15 melee, or +15/+10 when making a full attack (10-ft. reach), 3d6+13 slashing, ×3 on a critical hit. It is one size category above a standard greataxe for a human.",
+        "Rock +6 ranged, 1d8+9 bludgeoning. Carries three rocks. Range increment 60 ft., maximum 300 ft. The attack includes the class’s +1 rock-throwing bonus.",
+        "Rock catching. Aware and ready once per round, make a free Reflex save to catch a rock or similar projectile that would hit. DC 15 Small, 20 Medium, 25 Large, plus the projectile’s magic attack bonus if any."
+      ],
+      "tactics": "Cover the pass from behind a rock shoulder. Hurl stones between groups as traffic climbs past, and draw the axe if anyone tries to block the travelers."
+    },
+    {
+      "id": "ghaele-lethiren-30e",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ],
+      "title": "Witness courier, Ghaele 7",
+      "difficulty": "CR 4, ECL 7, 6 HD",
+      "type": "Outsider (Chaotic, Good)",
+      "size": "Medium",
+      "senses": "Darkvision 60 ft., low-light vision",
+      "languages": "Celestial, Infernal, Draconic, tongues",
+      "speed": "50 ft. or fly 150 ft. (perfect) in globe form",
+      "ac": 18,
+      "hp": 40,
+      "hitDice": "6d8+6",
+      "initiative": 6,
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 12,
+        "INT": 12,
+        "WIS": 17,
+        "CHA": 14
+      },
+      "skills": [
+        "Concentration +10",
+        "Craft (calligraphy) +8",
+        "Escape Artist +6",
+        "Hide +6",
+        "Knowledge (arcana) +9",
+        "Knowledge (the planes) +10",
+        "Listen +14",
+        "Move Silently +6",
+        "Sense Motive +11",
+        "Spot +12"
+      ],
+      "traits": [
+        "Chaotic good. Humanoid AC 18, touch 12, flat-footed 16. Chain shirt +4, natural armor +2. Globe AC 14, touch 14, flat-footed 12, using Dexterity +2 and incorporeal deflection +2. BAB +6/+1, corporeal grapple +9. Fort +6, Ref +7, Will +8, and +4 on saves against poison.",
+        "Alertness, Armor Proficiency (Light), and Improved Initiative. SR 15. Resist acid, cold, and electricity 5 each. Lethiren uses the same hp and initiative in both forms.",
+        "Protective aura (free action, CL 6). The 20-ft. aura gives allies +4 deflection AC and +4 resistance on saves against evil attacks and protects against mental control and bodily contact by summoned creatures as magic circle against evil. If dispelled, it can return on Lethiren’s next turn."
+      ],
+      "actions": [
+        "Greatsword +9 melee or +9/+4 on a humanoid full attack (5-ft. reach), 2d6+4 slashing, 19–20/×2.",
+        "Alternate form (standard action). Shift between humanoid and a 5-ft. incorporeal globe. The globe flies, fires rays and uses spell-like abilities. Prepared spells, gaze and sword require humanoid form. Dispel magic does not reverse either form.",
+        "Light rays (globe only). Up to two per round, +8 ranged touch each, 2d6 damage each, range 300 ft.",
+        "Gaze (humanoid only). Will DC 15 within 5 ft. An evil creature with at most 1 HD dies on a failed save and suffers fear for 2d10 rounds on success. An evil creature above 1 HD or a nonevil creature of at most 1 HD suffers fear for 2d10 rounds only on failure. Nonevil creatures above 1 HD are outside the printed gaze conditions.",
+        "Lesser spell-like abilities (CL 6, DC 12 + spell level). Each 3/day: aid, alter self, color spray, comprehend languages, continual flame, cure light wounds, dancing lights, detect evil, detect thoughts, and see invisibility. Cure light wounds heals 1d8+5 by touch.",
+        "Ghaele powers (CL 6, DC 12 + spell level). Each 1/day: chain lightning, charm monster, dispel magic, hold monster, improved invisibility (self only), major image, and wall of force. Improved invisibility lasts 6 minutes and persists while attacking. Wall of force lasts 6 minutes and can form a vertical sheet of up to six 10-ft. squares or a sphere or hemisphere up to 6 ft. in radius.",
+        "Prepared divine spells (CL 7, DC 13 + spell level). 0: cure minor wounds ×3, detect magic ×2, light. 1st: bless, cure light wounds ×3, sanctuary. 2nd: cure moderate wounds ×2, find traps, silence. 3rd: cure serious wounds ×2 and dispel magic. 4th: cure critical wounds. Domain bonus slots and powers are omitted under the spell-list interpretation explained in the source notes.",
+        "Quick spell effects. Bless gives allies in 50 ft. +1 morale on attacks and fear saves for 7 minutes. Cure moderate heals 2d8+7, cure serious heals 3d8+7, and cure critical heals 4d8+7. Standard targeted dispel uses 1d20+7 against DC 11 + the opposing caster level."
+      ],
+      "tactics": "Open with the protective aura. Use a prepared cure or wall of force to keep an evacuee out of reach. Take globe form to scout a route or cross a gap, then return to humanoid form before healing."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Fire Elemental",
+      "size": "Small",
+      "edition": "3.0 edition",
+      "speciesPublication": "Savage Species (2003)",
+      "name": "Vell",
+      "build": "fire-elemental-vell-30e",
+      "role": "Brazier tender who keeps intruders away from kiln stores.",
+      "motive": "Keep the kiln burning until the new brick cures.",
+      "hook": "Vell needs a runner to carry a clay seam gauge across a stretch of flooded floor."
+    },
+    {
+      "species": "Fire Giant",
+      "size": "Medium",
+      "edition": "3.0 edition",
+      "speciesPublication": "Savage Species (2003)",
+      "name": "Dorran Emberkeel",
+      "build": "fire-giant-dorran-emberkeel-30e",
+      "role": "Forge escort and stone thrower.",
+      "motive": "Recover a missing iron delivery before the next shift.",
+      "hook": "Dorran can take the service track to the foundry if the party will help identify the wagons."
+    },
+    {
+      "species": "Flesh Golem",
+      "size": "Medium",
+      "edition": "3.0 edition",
+      "speciesPublication": "Savage Species (2003)",
+      "name": "Sedge",
+      "build": "flesh-golem-sedge-30e",
+      "role": "Storehouse sentinel keeping track of the night keys.",
+      "motive": "Find the former keeper who knows the code written on the inventory board.",
+      "hook": "Sedge offers to protect the unlocked door while the party asks around for the keeper."
+    },
+    {
+      "species": "Frost Giant",
+      "size": "Large",
+      "edition": "3.0 edition",
+      "speciesPublication": "Savage Species (2003)",
+      "name": "Yrsa Paleledge",
+      "build": "frost-giant-yrsa-paleledge-30e",
+      "role": "Pass escort who can screen travelers from sling fire.",
+      "motive": "Lead a delayed salt train over the ridge without losing anyone.",
+      "hook": "Yrsa offers to find a second route if the party first checks a route marker that has been moved."
+    },
+    {
+      "species": "Ghaele",
+      "size": "Medium",
+      "edition": "3.0 edition",
+      "speciesPublication": "Savage Species (2003)",
+      "name": "Lethiren",
+      "build": "ghaele-lethiren-30e",
+      "role": "Planar courier and protector of returning witnesses.",
+      "motive": "Bring a hidden witness to a safe place without exposing the witness’s route.",
+      "hook": "Lethiren asks the party to hold a landing while taking a second route to look for the witness."
+    }
+  ]
+}

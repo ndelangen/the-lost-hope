@@ -1,0 +1,37 @@
+[
+  {
+    "id": "beast-c2f9254f0eff241069a57f57",
+    "name": "Giant Fire Beetle Insect",
+    "base": "beast-b359e53f99b08d9b00d9d408",
+    "shared": "monster-vault-beasts-7/giant-fire-beetle.webp",
+    "input": ""
+  },
+  {
+    "id": "beast-4caed90fefeeaffecc39044f",
+    "name": "Giant Wasp Insect",
+    "base": "beast-588d37a5a259da732d938449",
+    "shared": "monster-vault-beasts-8/giant-wasp.webp",
+    "input": ""
+  },
+  {
+    "id": "beast-a6a8333a8f15784c93b7c37d",
+    "name": "Camel, Cavalry",
+    "base": "beast-68cdd43848e4e20436bb4f62",
+    "shared": "beasts-50-01/cavalry-camel.png",
+    "input": ""
+  },
+  {
+    "id": "beast-62059d921279d86f24ede4c5",
+    "name": "Oliphant Warbeast",
+    "base": "beast-ba7f874470750071505ee3a3",
+    "shared": "beasts-50-01/oliphaunt-warbeast.png",
+    "input": ""
+  },
+  {
+    "id": "beast-3905d2fb20251aaacfbbc145",
+    "name": "Pig, War",
+    "base": "beast-824225a12d3c8e6f8e9c72f5",
+    "shared": "beasts-50-01/war-pig.png",
+    "input": ""
+  }
+]

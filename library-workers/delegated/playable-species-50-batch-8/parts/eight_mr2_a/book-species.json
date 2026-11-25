@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Banderhobb",
+    "kind": "species",
+    "publication": "Monstrous Races 2",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "traits": [
+      "Player conversion by Tyler Kamstra, published through Dungeon Masters Guild for 2014 fifth edition.",
+      "Medium monstrosity with Strength and Constitution each increased by 1. Walking speed 30 ft., darkvision 60 ft. and unarmored AC 12 + Dexterity modifier.",
+      "A bite is an unarmed strike of 1d8 piercing. A successful unarmed strike during the Attack action lets the banderhobb attempt to grapple the target as a bonus action.",
+      "Tongue takes an action to attack a target within 15 ft. Apply the unarmed strike damage as necrotic and pull the target into an adjacent empty space. A successful pull permits a bonus-action grapple.",
+      "In dim light or darkness, Hide as a bonus action. Holding a fragment of a creature or an item it carries reveals the shortest route to that creature or item within 1 mile.",
+      "Understands, reads and writes Common. Its inability to speak also prevents verbal spell components."
+    ]
+  },
+  {
+    "name": "Bodak",
+    "kind": "species",
+    "publication": "Monstrous Races 2",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "traits": [
+      "Player conversion by Tyler Kamstra, published through Dungeon Masters Guild for 2014 fifth edition.",
+      "Medium undead with Strength, Dexterity and Constitution each increased by 1. Walking speed 30 ft., darkvision 60 ft. and unarmored AC 12 + Dexterity modifier.",
+      "Death Gaze takes an action and targets one creature within 120 ft. that can see you and that you can see. A failed Constitution save deals 1d10 necrotic damage. The DC uses Constitution and proficiency. Increase the damage by 1d10 at levels 5, 11 and 17. The trait also labels Charisma its spellcasting ability.",
+      "An unsurprised target can spend a reaction to look away and avoid the save. Until the end of your next turn it has disadvantage on attacks against you and you have advantage on attacks against it. Looking back early triggers the save at once.",
+      "Fists are 1d4 bludgeoning unarmed strikes. Lightning resistance, poison damage immunity and immunity to the poisoned condition.",
+      "Speaks, reads and writes Abyssal. Four hours of semiconscious rest substitute for sleep. It needs no food, drink or air. Healing from rests follows the supplement's common rules for undead."
+    ]
+  },
+  {
+    "name": "Boggle",
+    "kind": "species",
+    "publication": "Monstrous Races 2",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "traits": [
+      "Player conversion by Tyler Kamstra, published through Dungeon Masters Guild for 2014 fifth edition.",
+      "Small fey with Dexterity increased by 1. Walking and climbing speeds 30 ft., darkvision 60 ft. and a 1d4 bludgeoning unarmed strike.",
+      "Choose slippery or sticky skin oil. Switch as a bonus action. Slippery oil gives advantage on Dexterity (Acrobatics) checks to escape bonds or grapples and squeeze. Sticky oil gives advantage on Strength (Athletics) checks to grapple and checks to maintain a hold. Sticky oil lets the boggle climb difficult surfaces and ceilings without an ability check.",
+      "Dimensional Rift takes a bonus action. Enter a visible, immobile enclosed frame within 5 ft. and emerge through a suitable frame within 30 ft. of the first frame. The printed trait gives no recharge.",
+      "Oil Puddle takes an action once per long rest. The current oil fills a 10-ft. square for 1 hour as difficult terrain for creatures other than boggles. Entering or starting a turn there triggers a Dexterity save against falling prone in slippery oil or a Strength save against restraint in sticky oil. A restrained creature can spend an action to make a Strength check to escape to the nearest safe empty space. All three DCs use Constitution and proficiency.",
+      "Speaks, reads and writes Sylvan."
+    ]
+  },
+  {
+    "name": "Catoblepas",
+    "kind": "species",
+    "publication": "Monstrous Races 2",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "traits": [
+      "Player conversion by Tyler Kamstra, published through Dungeon Masters Guild for 2014 fifth edition.",
+      "Medium monstrosity with Strength and Constitution each increased by 1. Walking speed 30 ft., darkvision 60 ft. and unarmored AC 13 + Dexterity modifier. Perception checks that use smell have advantage.",
+      "Death Ray takes an action and targets a creature you see within 30 ft. It deals 1d8 necrotic on a failed Constitution save. The DC uses Intelligence and proficiency. Add 1d8 damage at levels 5, 11 and 17.",
+      "Stench takes a bonus action once per short or long rest. Concentrate for up to 1 minute. A creature starting its turn within 5 ft. that fails a Constitution save becomes poisoned until the start of its next turn. The DC uses Constitution and proficiency. Breaking concentration ends poison applied by this trait.",
+      "The tail is a 1d8 bludgeoning unarmed strike. It lacks hands for weapons, shields, implements and tools that require manipulation.",
+      "Speaks, reads and writes Common."
+    ]
+  },
+  {
+    "name": "Cave Fisher",
+    "kind": "species",
+    "publication": "Monstrous Races 2",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "traits": [
+      "Player conversion by Tyler Kamstra, published through Dungeon Masters Guild for 2014 fifth edition.",
+      "Medium monstrosity, walking speed 20 ft. and unarmored AC 14 + Dexterity modifier. Spider Climb removes the ability check for difficult surfaces and ceilings. No separate climb speed is printed.",
+      "Claws are unarmed strikes of either 1d8 piercing or 1d8 slashing. Speak, read and write Undercommon. At half HP or below, its flammable blood gives vulnerability to fire.",
+      "Fire a filament as an action along a 60-ft. line. Total cover blocks it. Contest Athletics against each creature caught with its Athletics or Acrobatics. Half or three-quarters cover gives the target advantage at this initial contest. A creature that loses is grappled and can try to escape on later turns with the ordinary contest.",
+      "Filament AC equals 8 + proficiency bonus + Constitution modifier. Its HP equal total Hit Dice plus Constitution modifier. It is immune to poison and psychic damage and uses the fisher's Strength and Constitution saves. Other saves fail. The fisher can release it as a reaction. Movement, incapacitation or death also releases it. Attached creatures remain attached and have advantage on escape checks and attacks against the released line.",
+      "Starting the turn while holding a line allows a reel action against one attached creature or unattended object within carrying capacity. Other targets release. A creature contests Athletics again. On a win, pull it within 5 ft. to an empty space, keep it grappled and follow up with a bonus-action unarmed strike."
+    ]
+  }
+]

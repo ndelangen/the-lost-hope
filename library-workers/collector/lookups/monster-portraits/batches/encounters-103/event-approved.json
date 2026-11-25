@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Neraph",
+    "slug": "neraph",
+    "caption": "Teo Spent River · Original Neraph NPC",
+    "id": "species-45af444a4ef5476f17cd037d:80bbcdfc8623dc5d226caac2",
+    "entry": "species-45af444a4ef5476f17cd037d",
+    "version": "80bbcdfc8623dc5d226caac2",
+    "suffix": "encounters-103/neraph.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-103/neraph.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-103/event-drafts/neraph-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 103 2026-11-24/event-drafts/neraph-event-v1.png",
+    "overrides": [],
+    "sha256": "462bc7365a9fb10fd0e752d14fd0e2708974c8de4bb8af36810a3b9842320db7",
+    "bytes": 2172691
+  }
+]

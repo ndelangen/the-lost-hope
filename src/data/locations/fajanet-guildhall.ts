@@ -15,7 +15,7 @@ export default createLocation({
       refs.organizations.adventurers_guild,
       ' tattoo ceremony, and ',
       refs.npcs.light_13th_marshal,
-      "'s office.",
+      "'s office, where shelves upon shelves are packed with paperwork.",
     ],
   ],
   map: { url: '/assets/locations/fajanet-guildhall.png', width: 1200, height: 800 },

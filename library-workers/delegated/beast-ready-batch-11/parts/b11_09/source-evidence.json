@@ -1,0 +1,197 @@
+[
+  {
+    "name": "Horse, Riding",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "publisher": "Kobold Press",
+    "printing": "Nosolorol Spanish edition, 2025, of Kobold Press Monster Vault, 2024",
+    "translationLanguage": "Spanish",
+    "translationLicense": "Licensed Spanish publication by Nosolorol Ediciones.",
+    "isbn": "979-13-87882-04-4",
+    "spanishHeading": "Caballo, de monta",
+    "printedPages": [
+      337
+    ],
+    "pdfPages": [
+      339
+    ],
+    "sourceFile": "",
+    "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+    "sourceUrlRole": "The publisher page identifies the Spanish edition. Rules were checked against the local Spanish .",
+    "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "englishCatalogRole": "Official English names, publication, creature types, habitat tags and decimal CR display. Use the printed fractions for rules.",
+    "xpEvidence": "XP by challenge rating table in Cubil de Monstruos, printed p. 17, p. 19.",
+    "errataUrl": "https://koboldpress.com/errata/",
+    "errataResult": "Kobold Press Monster Vault errata dated May 29, 2025 lists no correction to this entry.",
+    "habitatEvidence": "Cubil de Monstruos terrain tables and Kobold Press English catalog.",
+    "habitatPrintedPages": [
+      377,
+      378,
+      380
+    ],
+    "appearanceEvidence": "Editorial description of the reused portrait.",
+    "portraitSource": "beast-ready-batch-05/parts/b05_09/portraits/riding-warhorse.png",
+    "portraitSha256": "14f25a324412d031c2036a64ad7a6d3e71e18c81cf5aec291568dcc05d351daf",
+    "sourceDistinctions": [
+      "The Spanish stat block lists CR 1/4. The English catalog displays 0.3."
+    ]
+  },
+  {
+    "name": "Horse, War",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "publisher": "Kobold Press",
+    "printing": "Nosolorol Spanish edition, 2025, of Kobold Press Monster Vault, 2024",
+    "translationLanguage": "Spanish",
+    "translationLicense": "Licensed Spanish publication by Nosolorol Ediciones.",
+    "isbn": "979-13-87882-04-4",
+    "spanishHeading": "Caballo, de guerra",
+    "printedPages": [
+      337
+    ],
+    "pdfPages": [
+      339
+    ],
+    "sourceFile": "",
+    "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+    "sourceUrlRole": "The publisher page identifies the Spanish edition. Rules were checked against the local Spanish .",
+    "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "englishCatalogRole": "Official English names, publication, creature types, habitat tags and decimal CR display. Use the printed fractions for rules.",
+    "xpEvidence": "XP by challenge rating table in Cubil de Monstruos, printed p. 17, p. 19.",
+    "errataUrl": "https://koboldpress.com/errata/",
+    "errataResult": "Kobold Press Monster Vault errata dated May 29, 2025 lists no correction to this entry.",
+    "habitatEvidence": "Cubil de Monstruos terrain tables and Kobold Press English catalog.",
+    "habitatPrintedPages": [
+      377,
+      380
+    ],
+    "appearanceEvidence": "Editorial description of the reused portrait.",
+    "portraitSource": "beast-ready-batch-05/parts/b05_09/portraits/riding-warhorse.png",
+    "portraitSha256": "14f25a324412d031c2036a64ad7a6d3e71e18c81cf5aec291568dcc05d351daf",
+    "sourceDistinctions": [
+      "The Spanish Monster Vault prints a 30-ft. Trampling Charge trigger. The English BFRD lists 20 ft."
+    ]
+  },
+  {
+    "name": "Hyena",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "publisher": "Kobold Press",
+    "printing": "Nosolorol Spanish edition, 2025, of Kobold Press Monster Vault, 2024",
+    "translationLanguage": "Spanish",
+    "translationLicense": "Licensed Spanish publication by Nosolorol Ediciones.",
+    "isbn": "979-13-87882-04-4",
+    "spanishHeading": "Hiena",
+    "printedPages": [
+      342,
+      343
+    ],
+    "pdfPages": [
+      344,
+      345
+    ],
+    "sourceFile": "",
+    "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+    "sourceUrlRole": "The publisher page identifies the Spanish edition. Rules were checked against the local Spanish .",
+    "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "englishCatalogRole": "Official English names, publication, creature types, habitat tags and decimal CR display. Use the printed fractions for rules.",
+    "xpEvidence": "XP by challenge rating table in Cubil de Monstruos, printed p. 17, p. 19.",
+    "errataUrl": "https://koboldpress.com/errata/",
+    "errataResult": "Kobold Press Monster Vault errata dated May 29, 2025 lists no correction to this entry.",
+    "habitatEvidence": "Cubil de Monstruos terrain tables and Kobold Press English catalog.",
+    "habitatPrintedPages": [
+      377,
+      378
+    ],
+    "appearanceEvidence": "Editorial description of the reused portrait.",
+    "portraitSource": "beast-ready-batch-02/parts/b02_05/portraits/hyena.png",
+    "portraitSha256": "e24a6fe211e6b15c7caccbc705b80719b31e8f4008842f1d4f1048c7dc1da118",
+    "sourceDistinctions": [
+      "The printed Constitution save gives DC 10 and also defines it as 8 + the number of participating hyenas. With at least three participants the two instructions conflict."
+    ]
+  },
+  {
+    "name": "Hyena, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "publisher": "Kobold Press",
+    "printing": "Nosolorol Spanish edition, 2025, of Kobold Press Monster Vault, 2024",
+    "translationLanguage": "Spanish",
+    "translationLicense": "Licensed Spanish publication by Nosolorol Ediciones.",
+    "isbn": "979-13-87882-04-4",
+    "spanishHeading": "Hiena, Gigante",
+    "printedPages": [
+      343
+    ],
+    "pdfPages": [
+      345
+    ],
+    "sourceFile": "",
+    "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+    "sourceUrlRole": "The publisher page identifies the Spanish edition. Rules were checked against the local Spanish .",
+    "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "englishCatalogRole": "Official English names, publication, creature types, habitat tags and decimal CR display. Use the printed fractions for rules.",
+    "xpEvidence": "XP by challenge rating table in Cubil de Monstruos, printed p. 17, p. 19.",
+    "errataUrl": "https://koboldpress.com/errata/",
+    "errataResult": "Kobold Press Monster Vault errata dated May 29, 2025 lists no correction to this entry.",
+    "habitatEvidence": "Cubil de Monstruos terrain tables and Kobold Press English catalog.",
+    "habitatPrintedPages": [
+      377,
+      378
+    ],
+    "appearanceEvidence": "Editorial description of the reused portrait.",
+    "portraitSource": "beast-ready-batch-04/parts/b04_08/portraits/giant-hyena.png",
+    "portraitSha256": "e79074ef555e40476e5421598c04d12275d705c347c1d518118f1db43eb7e59b",
+    "sourceDistinctions": [
+      "The printed Constitution save gives DC 10 and also defines it as 8 + the number of participating hyenas. With at least three participants the two instructions conflict.",
+      "The English BFRD giant hyena lists only the formula. The Spanish Monster Vault gives both DCs."
+    ]
+  },
+  {
+    "name": "Insect, Giant Centipede",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "publisher": "Kobold Press",
+    "printing": "Nosolorol Spanish edition, 2025, of Kobold Press Monster Vault, 2024",
+    "translationLanguage": "Spanish",
+    "translationLicense": "Licensed Spanish publication by Nosolorol Ediciones.",
+    "isbn": "979-13-87882-04-4",
+    "spanishHeading": "Insecto, Ciempiés Gigante",
+    "printedPages": [
+      343,
+      344
+    ],
+    "pdfPages": [
+      345,
+      346
+    ],
+    "sourceFile": "",
+    "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+    "sourceUrlRole": "The publisher page identifies the Spanish edition. Rules were checked against the local Spanish .",
+    "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "englishCatalogRole": "Official English names, publication, creature types, habitat tags and decimal CR display. Use the printed fractions for rules.",
+    "xpEvidence": "XP by challenge rating table in Cubil de Monstruos, printed p. 17, p. 19.",
+    "errataUrl": "https://koboldpress.com/errata/",
+    "errataResult": "Kobold Press Monster Vault errata dated May 29, 2025 lists no correction to this entry.",
+    "habitatEvidence": "Cubil de Monstruos terrain tables and Kobold Press English catalog.",
+    "habitatPrintedPages": [
+      379
+    ],
+    "appearanceEvidence": "Editorial description of the reused portrait.",
+    "portraitSource": "beast-ready-batch-04/parts/b04_05/portraits/giant-centipede.png",
+    "portraitSha256": "b57d1dbbcc8f32643b9bc5a88d1fcbe6a64503d2776ebf07daca5b51bd1e5b01",
+    "sourceDistinctions": [
+      "The Bite text and Swift Hunter continue onto p. 344. The stable, poisoned and paralyzed effects require poison damage to reduce the target to 0 HP."
+    ]
+  }
+]

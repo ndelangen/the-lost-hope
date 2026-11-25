@@ -5,6 +5,7 @@ export default createEvent({
   name: 'Night falls; tavern closes up',
   day: 1,
   location: refs.locations.the_nest,
+  illustrations: ['/assets/scenes/night-falls-tavern-closes-up.png'],
   mark: { type: 'icon', name: 'gi/GiBarricade' },
   notes: [
     [

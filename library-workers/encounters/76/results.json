@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Illumian",
+    "species": "species-f0d9c32556a057a0fe2eba66",
+    "edition": "3.5 edition",
+    "profiles": [
+      "Races of Destiny (2004)"
+    ],
+    "portraitSha256": "64c517fa48b467d7ad1b184a895ed90222dd1036daf1f780f17a877e4d26e953",
+    "caption": "Glassweir Eshara · Original Illumian NPC",
+    "npcReceipts": [
+      {
+        "name": "Glassweir Eshara",
+        "id": "npc-68335b444ceb411787569df5",
+        "challenge": "Provisional CR 2. ECL 2."
+      },
+      {
+        "name": "Latchwater Veyric",
+        "id": "npc-90b7a5c094e78e295df9cb67",
+        "challenge": "Provisional CR 1. ECL 1."
+      }
+    ]
+  }
+]

@@ -1,0 +1,60 @@
+{
+  "commit": "5a0c3c809b15106cbbdca562393a923578dbfda8",
+  "publication": "Lost Mine of Phandelver",
+  "encounterVersions": 6,
+  "fullStatBlocks": 6,
+  "lostMineMonsterRecordsWithLocalRules": 15,
+  "generatedPortraitsInstalled": 6,
+  "generatedDraftsBackedUp": 6,
+  "replacedPortraitsBackedUp": 6,
+  "replacedFormatsBackedUp": 12,
+  "creditedGalleriesVerified": 6,
+  "allRecentVersionsWithGeneratedPortrait": 502,
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "visualComparison": "output/dm-library/review/encounters-16-before-after.jpg",
+  "portraitSheet": "output/dm-library/review/encounters-16-portraits.jpg",
+  "results": "output/dm-library/encounter-batches/16/results.json",
+  "nextSourcePublication": "Lost Mine of Phandelver",
+  "unverifiedNextCandidates": [
+    {
+      "name": "Snarl",
+      "source": "https://www.dndbeyond.com/monsters/287859-snarl",
+      "challenge": "1/4",
+      "kind": "beast"
+    }
+  ],
+  "followingSourcePublication": "Icewind Dale: Rime of the Frostmaiden",
+  "followingCandidates": [
+    {
+      "name": "Brain in a Jar",
+      "source": "https://www.dndbeyond.com/monsters/1123069-brain-in-a-jar",
+      "challenge": "3"
+    },
+    {
+      "name": "Crag Cat",
+      "source": "https://www.dndbeyond.com/monsters/17348-crag-cat",
+      "challenge": "1"
+    },
+    {
+      "name": "Cult Fanatic (Knights of the Black Sword)",
+      "source": "https://www.dndbeyond.com/monsters/1123106-cult-fanatic-knights-of-the-black-sword",
+      "challenge": "2"
+    },
+    {
+      "name": "Cultist (Knights of the Black Sword)",
+      "source": "https://www.dndbeyond.com/monsters/1128460-cultist-knights-of-the-black-sword",
+      "challenge": "1/8"
+    },
+    {
+      "name": "Piercer (Ice variant)",
+      "source": "https://www.dndbeyond.com/monsters/1123098-piercer-ice-variant",
+      "challenge": "1/2"
+    },
+    {
+      "name": "Tribal Warrior Spore Servants",
+      "source": "https://www.dndbeyond.com/monsters/1123130-tribal-warrior-spore-servants",
+      "challenge": "1/8"
+    }
+  ]
+}

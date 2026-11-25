@@ -1,0 +1,272 @@
+{
+  "builds": [
+    {
+      "origin": "Original DM Library Rogue using Tyler Kamstra's Monstrous Races 2 player traits",
+      "type": "Beast",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "size": "Tiny",
+      "ac": 13,
+      "hp": 15,
+      "hitDice": "2d8+2",
+      "initiative": 3,
+      "speed": "30 ft. walk",
+      "senses": "Darkvision 30 ft. Passive Perception 16, or 21 if the check relies on smell.",
+      "languages": "Common. Telepathy 30 ft. with a creature that knows a language.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 17,
+        "CON": 13,
+        "INT": 12,
+        "WIS": 14,
+        "CHA": 10
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Insight +4",
+        "Investigation +3",
+        "Perception +6",
+        "Stealth +7"
+      ],
+      "traits": [
+        "Proficiency +2. Saves Dex +5, Int +3. Expertise in Perception and Stealth. Unarmored AC 10 + 3 Dex. Carrying capacity 30 lb. under the Tiny rule, though Pinch lacks hands for object manipulation.",
+        "Keen Smell grants advantage on smell-based Perception. Telepathic Shroud blocks emotional detection, thought reading, and divination spells.",
+        "Cunning Action. Use a bonus action to Dash, Disengage, or Hide. Sneak Attack adds 1d6 once per turn on a qualifying bite with advantage or an active enemy of the target within 5 ft. of it. Disadvantage prevents the extra damage."
+      ],
+      "actions": [
+        "Bite. Melee unarmed strike, +5 to hit, 5-ft. reach, 4 piercing damage. The species trait makes it finesse."
+      ],
+      "tactics": "Pinch shares a warning silently, hides if terrain permits, and bites only when a larger ally can distract the target.",
+      "id": "mr2-cranium-rat-pinch-5e",
+      "title": "Cranium Rat passage scout, Rogue 2",
+      "difficulty": "Rogue 2 class-built NPC. No assigned challenge rating."
+    },
+    {
+      "origin": "Original DM Library Rogue using Tyler Kamstra's Monstrous Races 2 player traits",
+      "type": "Fey",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "size": "Small",
+      "ac": 15,
+      "hp": 17,
+      "hitDice": "2d8+4",
+      "initiative": 3,
+      "speed": "30 ft. walk",
+      "senses": "Blindsight 30 ft., darkvision 120 ft. Passive Perception 15, or 10 for sight in bright light.",
+      "languages": "Elvish, Sylvan.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 12,
+        "WIS": 13,
+        "CHA": 10
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Deception +2",
+        "Perception +5",
+        "Sleight of Hand +5",
+        "Stealth +7"
+      ],
+      "traits": [
+        "Proficiency +2. Saves Dex +5, Int +3. Studded leather under the wraps gives AC 12 + 3 Dex. Expertise in Perception and Stealth. Disadvantage on attack rolls and sight-based Perception in bright light.",
+        "Run Nim with death saves. At 0 HP, creatures within 10 ft. that see the nonmagical flash make a DC 12 Con save or are blinded through the end of their next turn. While dying, Nim sheds 10 ft. bright light and 10 ft. further dim light. Stabilizing or healing Nim ends it. Death consumes the body and carried or worn gear, except metal or magic items.",
+        "Cunning Action. Bonus action to Dash, Disengage, or Hide. Sneak Attack adds 1d6 once per turn with advantage or an active enemy of the target within 5 ft. of it. Disadvantage prevents the extra damage."
+      ],
+      "actions": [
+        "Dagger. +5 to hit, 5-ft. reach or thrown 20/60 ft., 1d4+3 piercing. With two drawn light daggers, Nim can use a bonus action for the second attack, which deals 1d4 piercing."
+      ],
+      "tactics": "Nim draws the fight into shade, uses a bonus action to slip away when cornered, and attacks only while a companion is close enough to help.",
+      "id": "mr2-darkling-nim-cinderstitch-5e",
+      "title": "Darkling night courier, Rogue 2",
+      "difficulty": "Rogue 2 class-built NPC. No assigned challenge rating."
+    },
+    {
+      "origin": "Original DM Library Barbarian using Tyler Kamstra's Monstrous Races 2 player traits",
+      "type": "Fiend",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "size": "Medium",
+      "ac": 15,
+      "hp": 25,
+      "hitDice": "2d12+6",
+      "initiative": 2,
+      "speed": "30 ft. walk",
+      "senses": "Darkvision 60 ft. Passive Perception 11.",
+      "languages": "Abyssal.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 16,
+        "INT": 8,
+        "WIS": 8,
+        "CHA": 10
+      },
+      "skills": [
+        "Athletics +5",
+        "Intimidation +2",
+        "Perception +1"
+      ],
+      "traits": [
+        "Proficiency +2. Saves Str +5, Con +5. Natural armor and Unarmored Defense each give AC 15. Use the natural armor formula. To touch a captive, overcome AC 20 including three-quarters cover.",
+        "Rage twice per long rest as a bonus action. For up to 1 minute gain resistance to bludgeoning, piercing, and slashing, advantage on Strength checks and saves, and +2 damage on Strength-based melee weapon attacks. Rage ends early if unconscious or if Vorr ends a turn without attacking a hostile creature or taking damage since the previous turn.",
+        "Reckless Attack. On the first attack of the turn, choose advantage on Strength melee weapon attacks for the turn. Attacks against Vorr then have advantage until the start of Vorr's next turn. Danger Sense grants advantage on Dexterity saves against visible effects while Vorr is neither blinded, deafened, nor incapacitated."
+      ],
+      "actions": [
+        "Claw. Melee unarmed strike, +5 to hit, 5-ft. reach, 1d8+3 slashing, or 1d8+5 while raging.",
+        "Imprison Soul. Action, one living intelligent creature at 0 HP within 30 ft. It teleports inside Vorr's ribs and resumes dying if stable. While captive, it makes death saves with disadvantage and has three-quarters cover. Only one captive fits. Vorr can attempt a targeted spell's save for the captive, or a Charisma save if none is listed, negating the spell on a success. If Vorr falls to 0 HP or the target regains HP, it appears in a random adjacent open space. Vorr can also release it into an adjacent open space as a bonus action.",
+        "Soul Rend. If the captive dies, release the body as a bonus action at the start of Vorr's turn. Choose either to spend one Hit Die and regain 1d12+3 HP, or to deal 1d6 necrotic to each living, intelligent creature within 30 ft., half on a successful DC 10 Con save. Check all eligible creatures in the area."
+      ],
+      "tactics": "Vorr closes barehanded, uses Rage when pressed, and saves Imprison Soul for a downed foe while an ally holds off rescuers.",
+      "id": "mr2-devourer-vorr-5e",
+      "title": "Devourer shrine guard, Barbarian 2",
+      "difficulty": "Barbarian 2 class-built NPC. No assigned challenge rating."
+    },
+    {
+      "origin": "Original DM Library Fighter using Tyler Kamstra's Monstrous Races 2 player traits",
+      "type": "Fiend (Demon)",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "size": "Medium",
+      "ac": 17,
+      "hp": 12,
+      "hitDice": "1d10+2",
+      "initiative": 3,
+      "speed": "30 ft. walk",
+      "senses": "Darkvision 120 ft. Passive Perception 12.",
+      "languages": "Abyssal, Elvish, Undercommon.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 10,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +5",
+        "Intimidation +1",
+        "Perception +2"
+      ],
+      "traits": [
+        "Proficiency +2. Saves Str +5, Con +4. Natural armor 12 + 3 Dex + 2 shield gives AC 17. AC is 15 through the start of the next turn after a two-weapon bonus attack. The two shortswords and shield are held in separate hands.",
+        "Advantage on saves against charm. Magical sleep fails. Two-Weapon Fighting style adds Strength to the off-hand shortsword damage."
+      ],
+      "actions": [
+        "Shortsword. Melee weapon attack, +5 to hit, 5-ft. reach, 1d6+3 piercing. After attacking with one shortsword, Ril may swing the other as a bonus action for the same damage and forfeit shield AC until the start of the next turn.",
+        "Claw. Melee unarmed strike, +5 to hit, 5-ft. reach, 1d8+3 slashing. The claw lacks the light weapon property.",
+        "Second Wind. Bonus action once per short or long rest, regain 1d10+1 HP."
+      ],
+      "tactics": "Ril keeps the shield up while escorting others and takes the two-sword opening when a foe is already committed to another target.",
+      "id": "mr2-draegloth-ril-ashthread-5e",
+      "title": "Draegloth passage guard, Fighter 1",
+      "difficulty": "Fighter 1 class-built NPC. No assigned challenge rating."
+    },
+    {
+      "origin": "Original DM Library Fighter using Tyler Kamstra's Monstrous Races 2 player traits",
+      "type": "Humanoid (Firenewt)",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "size": "Medium",
+      "ac": 15,
+      "hp": 20,
+      "hitDice": "2d10+4",
+      "initiative": 3,
+      "speed": "30 ft. walk",
+      "senses": "Passive Perception 13.",
+      "languages": "Draconic, Ignan.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 17,
+        "CON": 15,
+        "INT": 10,
+        "WIS": 13,
+        "CHA": 12
+      },
+      "skills": [
+        "Insight +3",
+        "Perception +3",
+        "Stealth +5",
+        "Survival +3"
+      ],
+      "traits": [
+        "Proficiency +2. Saves Str +1, Con +4. Studded leather gives AC 12 + 3 Dex. Archery style gives +2 to ranged weapon attack rolls. A custom cistern-keeper background supplies Stealth and Survival proficiency.",
+        "Amphibious and immune to fire damage. The species grants no swim speed, so swimming normally costs extra movement."
+      ],
+      "actions": [
+        "Shortbow. Ranged weapon attack, +7 to hit, range 80/320 ft., 1d6+3 piercing.",
+        "Shortsword. Melee weapon attack, +5 to hit, 5-ft. reach, 1d6+3 piercing.",
+        "Spite Fire. Action, one visible target within 10 ft., DC 12 Dexterity save, 2d8 fire damage on a failure or half on a success. Recharges on a short or long rest. Dexterity and fire are table rulings for omissions in the player trait.",
+        "Second Wind. Bonus action once per short or long rest, regain 1d10+2 HP.",
+        "Action Surge. Once per short or long rest, take one additional action this turn."
+      ],
+      "tactics": "Sere fires from the rim of the cistern, then uses Spite Fire only if a foe closes to the walkway.",
+      "id": "mr2-firenewt-sere-emberwell-5e",
+      "title": "Firenewt cistern keeper, Fighter 2",
+      "difficulty": "Fighter 2 class-built NPC. No assigned challenge rating."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Cranium Rat",
+      "speciesPublication": "Monstrous Races 2",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr2-cranium-rat-pinch-5e",
+      "size": "Tiny",
+      "name": "Pinch",
+      "role": "A rat courier who maps the gaps between grain-store walls.",
+      "motive": "Pinch wants the colony to have an exit above the next flood.",
+      "hook": "A voice under a loose floorboard offers a dry way out in exchange for lifting a stuck grate."
+    },
+    {
+      "species": "Darkling",
+      "speciesPublication": "Monstrous Races 2",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr2-darkling-nim-cinderstitch-5e",
+      "size": "Small",
+      "name": "Nim Cinderstitch",
+      "role": "A courier who works the hours just before the charcoal market opens.",
+      "motive": "Nim wants to get a sealed warning past the guild that hired the courier.",
+      "hook": "Nim asks the party to escort a sealed purse through the lamplighters' rounds without opening it."
+    },
+    {
+      "species": "Devourer",
+      "speciesPublication": "Monstrous Races 2",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr2-devourer-vorr-5e",
+      "size": "Medium",
+      "name": "Vorr",
+      "role": "A skeletal guard who tends the iron grate around a sealed shrine.",
+      "motive": "Vorr wants the shrine left closed until the other sentry returns.",
+      "hook": "Vorr offers the party safe passage if they bring back the dropped key before it reaches the shrine."
+    },
+    {
+      "species": "Draegloth",
+      "speciesPublication": "Monstrous Races 2",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr2-draegloth-ril-ashthread-5e",
+      "size": "Medium",
+      "name": "Ril Ashthread",
+      "role": "A passage guard helping the servants of a drow household leave through its old quarry.",
+      "motive": "Ril wants to get the last servants out before the quarry gate closes.",
+      "hook": "Ril asks the party to carry one end of a supply crate through a narrow side passage."
+    },
+    {
+      "species": "Firenewt",
+      "speciesPublication": "Monstrous Races 2",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr2-firenewt-sere-emberwell-5e",
+      "size": "Medium",
+      "name": "Sere Emberwell",
+      "role": "A cistern keeper responsible for the masonry around a hot spring.",
+      "motive": "Sere wants someone to locate a break in the channel before the water reaches a sleeping cellar.",
+      "hook": "Sere asks the party to find which sluice is leaking and mark it with chalk."
+    }
+  ]
+}

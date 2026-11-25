@@ -1,0 +1,101 @@
+[
+  {
+    "entityKind": "monster",
+    "name": "Sensa Prince",
+    "publication": "Journeys through the Radiant Citadel",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/sensa-prince/prince-kirina-related.webp",
+    "artist": "Related Sensa prince Kirina by Brian Valeza · Gold for Fools and Princes",
+    "kind": "illustration",
+    "sha256": "0fd302f8aa589be14b878446a3b55dd83616aa94e3bae8e16ac29c32390d983e",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/JttRC/059-07-001.twilight-dune-scorpions.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Sensa Prince",
+    "publication": "Journeys through the Radiant Citadel",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/sensa-prince/kedjou-kamal-related.webp",
+    "artist": "Related Sensa high priest Kedjou Kamal by Kniio · Gold for Fools and Princes",
+    "kind": "illustration",
+    "sha256": "a92e11f1310f2288d0603367683a1bdbb884cc8c15b37a1d3bde8f5c011f906a",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/JttRC/061-07-003.high-priest-kedjou.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Unspeakable Horror (Customized)",
+    "publication": "Van Richten's Guide to Ravenloft",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/unspeakable-horror-customized/unspeakable-horror-christopher-burdett.webp",
+    "artist": "Unspeakable Horror by Christopher Burdett · Van Richten’s Guide to Ravenloft",
+    "kind": "illustration",
+    "sha256": "68e351f7d6c8366ba3b3d8da6ec1ba87003ba4e1e93adbe94a1cb40bc58dbb8b",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/VRGR/Unspeakable%20Horror.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Unspeakable Horror (Customized)",
+    "publication": "Van Richten's Guide to Ravenloft",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/unspeakable-horror-customized/unspeakable-horror-valera-lutfullina.webp",
+    "artist": "Unspeakable Horror by Valera Lutfullina · Ravenloft: The Horrors Within",
+    "kind": "illustration",
+    "sha256": "faa5a8f4783ebff0e72341d81c5c25a76ca7c5e21b8812936ebb58935a280c65",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/RHW/Unspeakable%20Horror.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Volothamp \"Volo\" Geddarm",
+    "publication": "Tomb of Annihilation",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/volothamp-volo-geddarm/toa-1.webp",
+    "artist": "Volothamp Geddarm token · Tomb of Annihilation",
+    "kind": "token",
+    "sha256": "6f679de4c284e84a431be07350d24a1e2779bf70ed435b4d626e386abf569862",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/ToA/Volothamp%20Volo%20Geddarm.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Volothamp \"Volo\" Geddarm",
+    "publication": "Tomb of Annihilation",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/volothamp-volo-geddarm/volo-regular.png",
+    "artist": "Volo by Zoltan Boros · Adventures in the Forgotten Realms",
+    "kind": "illustration",
+    "sha256": "9cd2c4225ab4e601b676edb271e892ebccb39dd193722cf748ececf0f3437b03",
+    "reference": "https://magic.wizards.com/en/news/feature/legends-adventures-forgotten-realms-2021-07-16"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Volothamp \"Volo\" Geddarm",
+    "publication": "Tomb of Annihilation",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/volothamp-volo-geddarm/volo-showcase.png",
+    "artist": "Volo by Jeff Dee · Adventures in the Forgotten Realms",
+    "kind": "illustration",
+    "sha256": "8c543d2ec3bc14d29bbeefdb08d070c8d46b9a54d293e7f2aff03000274cd65d",
+    "reference": "https://magic.wizards.com/en/news/feature/legends-adventures-forgotten-realms-2021-07-16"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Volothamp “Volo” Geddarm",
+    "publication": "Tomb of Annihilation",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/volothamp-volo-geddarm/volo-regular.png",
+    "artist": "Volo by Zoltan Boros · Adventures in the Forgotten Realms",
+    "kind": "illustration",
+    "sha256": "9cd2c4225ab4e601b676edb271e892ebccb39dd193722cf748ececf0f3437b03",
+    "reference": "https://magic.wizards.com/en/news/feature/legends-adventures-forgotten-realms-2021-07-16"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Volothamp “Volo” Geddarm",
+    "publication": "Tomb of Annihilation",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/volothamp-volo-geddarm/volo-showcase.png",
+    "artist": "Volo by Jeff Dee · Adventures in the Forgotten Realms",
+    "kind": "illustration",
+    "sha256": "8c543d2ec3bc14d29bbeefdb08d070c8d46b9a54d293e7f2aff03000274cd65d",
+    "reference": "https://magic.wizards.com/en/news/feature/legends-adventures-forgotten-realms-2021-07-16"
+  }
+]

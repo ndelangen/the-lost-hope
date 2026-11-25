@@ -1,0 +1,315 @@
+[
+  {
+    "name": "Giant Lizard",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 12,
+    "hp": 19,
+    "hitDice": "3d10 + 3",
+    "initiative": 1,
+    "speed": "40 ft., Climb 40 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "proficiencyBonus": 2,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "savingThrows": {
+      "Str": 2,
+      "Dex": 3,
+      "Con": 1,
+      "Int": -4,
+      "Wis": 0,
+      "Cha": -3
+    },
+    "otherStatistics": "Initiative +1 (11). Proficiency bonus +2. Darkvision 60 ft. Passive Perception 10. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A broad, low lizard with a wedge-shaped head, pebbled olive-gray scales, four clawed feet, and a thick curling tail.",
+    "habitats": [
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Swamp",
+      "Underdark"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, revised Monster Manual (2025 release, 2024 rules), p. 358. https://www.dndbeyond.com/monsters/5195022-giant-lizard",
+      "Traits": "Spider Climb. The lizard can climb difficult surfaces, including moving upside down on ceilings, without an ability check.",
+      "Actions": "Bite. Melee attack roll +4, reach 5 ft. On a hit, deal 6 (1d8 + 2) piercing damage."
+    }
+  },
+  {
+    "name": "Giant Octopus",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 11,
+    "hp": 45,
+    "hitDice": "7d10 + 7",
+    "initiative": 1,
+    "speed": "10 ft., Swim 60 ft.",
+    "cr": "1",
+    "xp": 200,
+    "proficiencyBonus": 2,
+    "abilities": {
+      "Str": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 5,
+        "modifier": -3
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "savingThrows": {
+      "Str": 3,
+      "Dex": 1,
+      "Con": 1,
+      "Int": -3,
+      "Wis": 0,
+      "Cha": -3
+    },
+    "otherStatistics": "Initiative +1 (11). Proficiency bonus +2. Skills Perception +4 and Stealth +5. Darkvision 60 ft. Passive Perception 14. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A mottled reddish-brown octopus with a broad mantle and coils of sucker-lined arms.",
+    "habitats": [
+      "Underwater"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, revised Monster Manual (2025 release, 2024 rules), p. 358. https://www.dndbeyond.com/monsters/5195023-giant-octopus",
+      "Traits": "Water Breathing. The octopus can breathe only underwater. It can hold its breath for 1 hour out of water.",
+      "Actions": "Tentacles. Melee attack roll +5, reach 10 ft. On a hit, deal 10 (2d6 + 3) bludgeoning damage. If the target is a Medium or smaller creature, all eight tentacles grapple it (escape DC 13). The creature is restrained until this grapple ends.",
+      "Reactions": "Ink Cloud (1/Day). When the octopus takes damage while underwater, it releases ink in a 10-foot cube centered on itself and moves up to its Swim Speed. The cube is heavily obscured for 1 minute or until a strong current or similar effect disperses the ink."
+    }
+  },
+  {
+    "name": "Giant Rat",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Small Beast, unaligned",
+    "ac": 13,
+    "hp": 7,
+    "hitDice": "2d6",
+    "initiative": 3,
+    "speed": "30 ft., Climb 30 ft.",
+    "cr": "1/8",
+    "xp": 25,
+    "proficiencyBonus": 2,
+    "abilities": {
+      "Str": {
+        "score": 7,
+        "modifier": -2
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "savingThrows": {
+      "Str": -2,
+      "Dex": 5,
+      "Con": 0,
+      "Int": -4,
+      "Wis": 0,
+      "Cha": -3
+    },
+    "otherStatistics": "Initiative +3 (13). Proficiency bonus +2. Skill Perception +2. Darkvision 60 ft. Passive Perception 12. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A stocky, shaggy brown rat with round ears, fine whiskers, and a long bare tail.",
+    "habitats": [
+      "Forest",
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, revised Monster Manual (2025 release, 2024 rules), p. 358. https://www.dndbeyond.com/monsters/5195025-giant-rat",
+      "Traits": "Pack Tactics. The rat has advantage on an attack roll against a creature if at least one of the rat’s allies is within 5 ft. of that creature and the ally is not incapacitated.",
+      "Actions": "Bite. Melee attack roll +5, reach 5 ft. On a hit, deal 5 (1d4 + 3) piercing damage."
+    }
+  },
+  {
+    "name": "Giant Scorpion",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 15,
+    "hp": 52,
+    "hitDice": "7d10 + 14",
+    "initiative": 1,
+    "speed": "40 ft.",
+    "cr": "3",
+    "xp": 700,
+    "proficiencyBonus": 2,
+    "abilities": {
+      "Str": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "savingThrows": {
+      "Str": 3,
+      "Dex": 1,
+      "Con": 2,
+      "Int": -5,
+      "Wis": -1,
+      "Cha": -4
+    },
+    "otherStatistics": "Initiative +1 (11). Proficiency bonus +2. Blindsight 60 ft. Passive Perception 9. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "An ochre scorpion with a thick segmented body, broad pincers, and a curved tail tipped with a raised stinger.",
+    "habitats": [
+      "Desert"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, revised Monster Manual (2025 release, 2024 rules), p. 359. https://www.dndbeyond.com/monsters/5195026-giant-scorpion",
+      "Actions": "Multiattack. Make two Claw attacks and one Sting attack.\n\nClaw. Melee attack roll +5, reach 5 ft. On a hit, deal 6 (1d6 + 3) bludgeoning damage. A Large or smaller creature is grappled by one of the scorpion’s two claws (escape DC 13).\n\nSting. Melee attack roll +5, reach 5 ft. On a hit, deal 7 (1d8 + 3) piercing damage plus 11 (2d10) poison damage."
+    }
+  },
+  {
+    "name": "Giant Seahorse",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 14,
+    "hp": 16,
+    "hitDice": "3d10",
+    "initiative": 1,
+    "speed": "5 ft., Swim 40 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "proficiencyBonus": 2,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "savingThrows": {
+      "Str": 2,
+      "Dex": 1,
+      "Con": 0,
+      "Int": -4,
+      "Wis": 1,
+      "Cha": -3
+    },
+    "otherStatistics": "Initiative +1 (11). Proficiency bonus +2. Passive Perception 11. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "An olive-gray seahorse with a narrow tubular snout, overlapping ridged plates, and a tightly coiled tail.",
+    "habitats": [
+      "Underwater"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, revised Monster Manual (2025 release, 2024 rules), p. 359. https://www.dndbeyond.com/monsters/4775820-giant-seahorse",
+      "Traits": "Water Breathing. The seahorse can breathe only underwater.",
+      "Actions": "Ram. Melee attack roll +4, reach 5 ft. On a hit, deal 9 (2d6 + 2) bludgeoning damage. If the seahorse moved at least 20 ft. straight toward the target immediately before the hit, deal 11 (2d8 + 2) bludgeoning damage instead.",
+      "Bonus actions": "Bubble Dash. While underwater, the seahorse can move up to half its Swim Speed without provoking opportunity attacks."
+    }
+  }
+]

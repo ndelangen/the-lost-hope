@@ -1,0 +1,424 @@
+[
+  {
+    "name": "Drake, Nidhogg-Blooded",
+    "decision": "separate",
+    "pages": "Chapter 8, p. 234.",
+    "notes": "The published Black Flag Roleplaying stat block is a distinct encounter.",
+    "statBlock": {
+      "name": "Drake, Nidhogg-Blooded",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium Dragon",
+      "ac": 14,
+      "hp": 95,
+      "speed": "30 ft., burrow 20 ft., fly 60 ft.",
+      "cr": "4",
+      "abilities": {
+        "Str": {
+          "modifier": 4
+        },
+        "Dex": {
+          "modifier": 2
+        },
+        "Con": {
+          "modifier": 6
+        },
+        "Int": {
+          "modifier": 1
+        },
+        "Wis": {
+          "modifier": 0
+        },
+        "Cha": {
+          "modifier": 2
+        }
+      },
+      "otherStatistics": "Natural armor. Perception 14, Stealth 12. Immune to poison damage and the Poisoned condition. Darkvision 60 ft., keensense 20 ft. Languages Common, Northern Tongue, and Draconic.",
+      "description": "These wolf-sized drakes pick up Nidhogg’s corruption near his prison beneath Yggdrasil. Their narrow legs support jaws lined with rows of tiny teeth.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +4, Dex +2, Con +6, Int +1, Wis +0, Cha +2",
+        "Traits": "Ancient Imprisonment. The drake has disadvantage on saves against effects that would Grapple, Restrain, or otherwise trap it.",
+        "Actions": "Multiattack. Make one Bite and two Claw attacks.\nBite. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit 11 (2d6 + 4) piercing and 5 (1d10) poison damage. The target is Poisoned until the drake’s next turn starts.\nClaw. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit 8 (1d8 + 4) slashing damage.\nVenom Spit (recharge 4–6). Ranged weapon attack, +4 to hit, range 30/60 ft., one target. Hit 35 (6d10 + 2) poison damage.",
+        "Bonus Actions": "Earth Wyrm. Move up to the drake’s burrow speed.",
+        "Printed source": "Chapter 8, p. 234."
+      }
+    }
+  },
+  {
+    "name": "Giant, Jotun",
+    "decision": "separate",
+    "pages": "Chapter 8, pp. 239–240.",
+    "notes": "The published Black Flag Roleplaying stat block is a distinct encounter.",
+    "statBlock": {
+      "name": "Giant, Jotun",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Gargantuan Giant",
+      "ac": 20,
+      "hp": 422,
+      "speed": "60 ft.",
+      "cr": "22",
+      "abilities": {
+        "Str": {
+          "modifier": 14
+        },
+        "Dex": {
+          "modifier": -1
+        },
+        "Con": {
+          "modifier": 13
+        },
+        "Int": {
+          "modifier": 4
+        },
+        "Wis": {
+          "modifier": 12
+        },
+        "Cha": {
+          "modifier": 9
+        }
+      },
+      "otherStatistics": "Natural armor. Perception 15, Stealth 16. Immune to cold and to bludgeoning, piercing, and slashing damage from nonmagical attacks. Darkvision 120 ft. Languages Common and Giant.",
+      "description": "Jotun claim the oldest mountain and glacier halls in the North. The giants keep secrets from before the present age and plot against the gods who displaced them.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +14, Dex -1, Con +13, Int +4, Wis +12, Cha +9",
+        "Traits": "Giant Attributes. Resistant to Stunned and vulnerable to Prone. It has advantage on checks and saves to avoid or end Stunned, and disadvantage on checks and saves to avoid or end Prone.\nLegendary Resistance (3/day). Turn a failed save into a success.\nMagic Resistance. The jotun has advantage on saves against spells and other magical effects.\nMaterial Bound. Effects cannot force the jotun off the Material Plane against its will. It has disadvantage on saves against effects that would return it there from another plane.\nToo Big to Notice. Stealth becomes 21 while the jotun holds still in nonmagical natural terrain.",
+        "Actions": "Multiattack. Make three attacks using Greatclub or Rock in any combination. One can be replaced with Icy Sweep or a casting of Fear.\nGreatclub. Melee weapon attack, +14 to hit, reach 15 ft., one target. Hit 25 (4d8 + 7) bludgeoning and 36 (8d8) cold damage.\nRock. Ranged weapon attack, +14 to hit, range 60/240 ft., one target. Hit 29 (4d10 + 7) bludgeoning and 36 (8d8) cold damage.\nIcy Sweep (recharge 5–6). Each creature in a 20-ft. radius centered on the jotun makes a DC 21 Dexterity save. On a failure, it takes 54 (12d8) cold damage, is pushed up to 15 ft. away, and falls Prone. On a success, it takes half damage and stays in place on its feet.\nSpellcasting. Wisdom (spell save DC 20), no material components. At will: Bestow Curse, Earthquake, Fear, Gust of Wind, and Speak with Animals.",
+        "Reactions": "Rock Catching. When a ranged weapon attack hits the jotun, it can catch the weapon or ammunition to reduce the attack’s damage by 38 (1d20 + 28). If this brings the damage to zero, it can throw what it caught at a creature within 60 ft., using the original attack roll and damage.",
+        "Legendary Actions": "The jotun has three legendary actions. It can use one option at the end of another creature’s turn and regains spent actions at the start of its turn.\nHurl. Make one Rock attack.\nSmash. Make one Greatclub attack.\nTitanic Power. Use Spellcasting or an available Icy Sweep.",
+        "Printed source": "Chapter 8, pp. 239–240."
+      }
+    }
+  },
+  {
+    "name": "Giant, Lightning",
+    "decision": "separate",
+    "pages": "Chapter 8, pp. 240–241.",
+    "notes": "The published Black Flag Roleplaying stat block is a distinct encounter.",
+    "statBlock": {
+      "name": "Giant, Lightning",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Large Giant",
+      "ac": 16,
+      "hp": 126,
+      "speed": "40 ft., fly 60 ft. (hover)",
+      "cr": "6",
+      "abilities": {
+        "Str": {
+          "modifier": 6
+        },
+        "Dex": {
+          "modifier": 7
+        },
+        "Con": {
+          "modifier": 5
+        },
+        "Int": {
+          "modifier": 2
+        },
+        "Wis": {
+          "modifier": 4
+        },
+        "Cha": {
+          "modifier": 2
+        }
+      },
+      "otherStatistics": "Natural armor. Perception 14, Stealth 17. Immune to lightning and thunder damage. Darkvision 60 ft. Languages Auran, Common, and Giant.",
+      "description": "Lightning giants rear huge goats and keep dire wolves in stormy mountain country. A giant can draw the electricity that plays over its skin into a glowing staff.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +6, Dex +7, Con +5, Int +2, Wis +4, Cha +2",
+        "Traits": "Electrifying Flesh. A creature that hits the giant with a melee weapon makes a DC 16 Constitution save. On a failure, it takes 3 (1d6) lightning damage, or 5 (1d10) if the weapon is conductive metal.\nGiant Attributes. Resistant to Stunned and vulnerable to Prone. It has advantage on checks and saves to avoid or end Stunned, and disadvantage on checks and saves to avoid or end Prone.",
+        "Actions": "Multiattack. Make two Lightning Staff or Static Fling attacks in any combination.\nLightning Staff. Melee weapon attack, +9 to hit, reach 10 ft., one target. Hit 13 (2d6 + 6) bludgeoning and 9 (2d8) lightning damage.\nStatic Fling. Ranged weapon attack, +7 to hit, range 120 ft., one target. Hit 22 (4d8 + 4) lightning damage. The giant can push the target up to 15 ft.\nStatic Discharge (recharge 6 or Absorb Lightning). Each creature in a 20-ft.-radius sphere centered on the giant makes a DC 15 Constitution save. Failure deals 21 (6d6) lightning damage and leaves the creature Stunned until the end of its next turn. Success halves the damage and avoids Stunned.",
+        "Bonus Actions": "The giant can suppress Electrifying Flesh.",
+        "Reactions": "Absorb Lightning. When a creature the giant can see within 60 ft. deals lightning damage to another creature, the giant can absorb that damage into its staff. The original target takes none of that lightning damage, and Static Discharge recharges.",
+        "Printed source": "Chapter 8, pp. 240–241."
+      }
+    }
+  },
+  {
+    "name": "Giant, Thrudgelmir",
+    "decision": "separate",
+    "pages": "Chapter 8, pp. 241–242.",
+    "notes": "The stat line gives immunity to Stunned. Giant Attributes also lists resistance to it. The profile uses the immunity.",
+    "statBlock": {
+      "name": "Giant, Thrudgelmir",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Huge Giant",
+      "ac": 18,
+      "hp": 194,
+      "speed": "50 ft.",
+      "cr": "10",
+      "abilities": {
+        "Str": {
+          "modifier": 10
+        },
+        "Dex": {
+          "modifier": 0
+        },
+        "Con": {
+          "modifier": 10
+        },
+        "Int": {
+          "modifier": 2
+        },
+        "Wis": {
+          "modifier": 7
+        },
+        "Cha": {
+          "modifier": 4
+        }
+      },
+      "otherStatistics": "Natural armor. Perception 22, Stealth 10. Cold damage resistance. Immune to Blinded, Charmed, Deafened, Frightened, Stunned, and Unconscious. Darkvision 120 ft. Languages Common and Giant.",
+      "description": "A thrudgelmir hunts alone across the far north. Six heads let it stay on watch constantly, while runes tattooed across its skin feed elemental power into its iron mauls.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +10, Dex +0, Con +10, Int +2, Wis +7, Cha +4",
+        "Traits": "Ever Vigilant. At least two of the giant’s heads are always awake. Perception 22.\nGiant Attributes. The trait lists resistance to Stunned and vulnerability to Prone. The stat line grants immunity to Stunned. It has disadvantage on checks and saves to avoid or end Prone.\nMagic Resistance. The giant has advantage on saves against spells and other magical effects.\nRunic Tattoos. Treat the tattoos as a 5th-circle spell for Dispel Magic. A successful dispel suppresses the tattoos for 1 minute, removing Magic Resistance and Elemental Hammer’s extra elemental damage.",
+        "Actions": "Multiattack. Make two Elemental Hammer attacks.\nElemental Hammer. Melee weapon attack, +12 to hit, reach 10 ft., one target. Hit 24 (4d8 + 6) bludgeoning damage plus 13 (2d12) extra damage. Roll 1d6 for the extra type: 1 acid, 2 cold, 3 fire, 4 lightning, 5 poison, 6 thunder.\nFaces of Evil (recharge 5–6). Every creature within 30 ft. that can see the giant makes a DC 16 Charisma save. On a failure, roll 1d6 for the effect. Ongoing effects last through the end of the giant’s next turn.\n1. Sad. Disadvantage on ability checks, attack rolls, and saves.\n2. Angry. The creature treats its allies as foes and the giant as an ally. It attacks its nearest perceived foe on its turn.\n3. Happy. Charmed.\n4. Sleepy. Unconscious.\n5. Pained. 14 (4d6) psychic damage.\n6. Scared. Frightened.",
+        "Printed source": "Chapter 8, pp. 241–242."
+      }
+    }
+  },
+  {
+    "name": "Giant, Thursir",
+    "decision": "separate",
+    "pages": "Chapter 8, p. 243.",
+    "notes": "The published Black Flag Roleplaying stat block is a distinct encounter.",
+    "statBlock": {
+      "name": "Giant, Thursir",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Large Giant",
+      "ac": 13,
+      "hp": 83,
+      "speed": "40 ft.",
+      "cr": "3",
+      "abilities": {
+        "Str": {
+          "modifier": 4
+        },
+        "Dex": {
+          "modifier": 0
+        },
+        "Con": {
+          "modifier": 5
+        },
+        "Int": {
+          "modifier": 1
+        },
+        "Wis": {
+          "modifier": 2
+        },
+        "Cha": {
+          "modifier": 0
+        }
+      },
+      "otherStatistics": "Natural armor. Perception 14, Stealth 10. Darkvision 60 ft. Languages Common, Dwarven, and Giant.",
+      "description": "Thursir smiths work in workshops under frozen mountains. Their craft draws customers from other giants, and wrestling and feasting fill the hours away from the forge.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +4, Dex +0, Con +5, Int +1, Wis +2, Cha +0",
+        "Traits": "Cast Iron Stomach. A thursir has advantage on saves to avoid or end the Poisoned condition.",
+        "Actions": "Thurs Rune Warhammer. Melee weapon attack, +6 to hit, reach 10 ft., one target. Hit 15 (2d10 + 4) bludgeoning and 11 (2d10) lightning damage. The target loses its reactions until the start of the giant’s next turn.\nRock. Ranged weapon attack, +6 to hit, range 60/240 ft., one target. Hit 26 (4d10 + 4) bludgeoning damage.",
+        "Printed source": "Chapter 8, p. 243."
+      }
+    }
+  },
+  {
+    "name": "Gnoll, Tundra",
+    "decision": "separate",
+    "pages": "Chapter 8, pp. 243–244.",
+    "notes": "The published Black Flag Roleplaying stat block is a distinct encounter.",
+    "statBlock": {
+      "name": "Gnoll, Tundra",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium Fiend",
+      "ac": 15,
+      "hp": 38,
+      "speed": "30 ft.",
+      "cr": "1",
+      "abilities": {
+        "Str": {
+          "modifier": 2
+        },
+        "Dex": {
+          "modifier": 2
+        },
+        "Con": {
+          "modifier": 1
+        },
+        "Int": {
+          "modifier": -2
+        },
+        "Wis": {
+          "modifier": 3
+        },
+        "Cha": {
+          "modifier": -2
+        }
+      },
+      "otherStatistics": "Natural armor. Perception 13, Stealth 14. Immune to cold damage. Darkvision 60 ft. Language Gnoll.",
+      "description": "White-furred tundra gnolls wait in snowbanks for prey. They form small hunting bands across tundra, pine barrens, and snowy hills.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +2, Dex +2, Con +1, Int -2, Wis +3, Cha -2",
+        "Traits": "Arctic Camouflage. Stealth becomes 19 in snow or ice.",
+        "Actions": "Multiattack. Make two Bone Axe attacks or two Bone Bow attacks.\nBone Axe. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 6 (1d8 + 2) slashing damage.\nBone Bow. Ranged weapon attack, +4 to hit, range 150/600 ft., one target. Hit 7 (1d10 + 2) piercing damage.\nFreezing Glare. Choose one creature the gnoll can see within 20 ft. It must pass a DC 12 Wisdom save or its speed becomes 0 through the end of its next turn.",
+        "Bonus Actions": "Rampage (2/day). When the gnoll damages a creature at half its hit points or fewer, the gnoll can move up to half speed and make a Bone Axe attack.",
+        "Printed source": "Chapter 8, pp. 243–244."
+      }
+    }
+  },
+  {
+    "name": "Jorumungkyn",
+    "decision": "separate",
+    "pages": "Chapter 8, pp. 248–249.",
+    "notes": "The published Black Flag Roleplaying stat block is a distinct encounter.",
+    "statBlock": {
+      "name": "Jorumungkyn",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Gargantuan Dragon",
+      "ac": 14,
+      "hp": 230,
+      "speed": "5 ft., swim 80 ft.",
+      "cr": "10",
+      "abilities": {
+        "Str": {
+          "modifier": 7
+        },
+        "Dex": {
+          "modifier": -1
+        },
+        "Con": {
+          "modifier": 9
+        },
+        "Int": {
+          "modifier": -3
+        },
+        "Wis": {
+          "modifier": 2
+        },
+        "Cha": {
+          "modifier": -1
+        }
+      },
+      "otherStatistics": "Perception 12, Stealth 9. Resistant to bludgeoning damage. Immune to cold, poison, and psychic damage and to Charmed and Poisoned. Darkvision 120 ft. Understands Draconic and cannot speak.",
+      "description": "This spiny sea dragon rises from frigid trenches to pull ships under. It sheds a poisonous film onto the surface of the water. Aboleths sometimes try to make servants of them.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +7, Dex -1, Con +9, Int -3, Wis +2, Cha -1",
+        "Traits": "Poisonous Secretions. A creature that starts its turn within 10 ft. of the dragon, or within 30 ft. in water, takes 3 (1d6) poison damage.",
+        "Actions": "Multiattack. Make a Bite attack and a Tail attack, then use Constrict.\nBite. Melee weapon attack, +11 to hit, reach 15 ft. Hit 25 (4d8 + 7) piercing and 7 (2d6) poison damage.\nTail. Melee weapon attack, +11 to hit, reach 15 ft. Hit 21 (4d6 + 7) bludgeoning and 7 (2d6) poison damage.\nConstrict. Target one visible Huge or smaller creature within 15 ft. It makes a DC 19 Strength save. Failure deals 21 (4d6 + 7) bludgeoning and 7 (2d6) poison damage, and leaves the target Grappled (escape DC 19) and Restrained until the grapple ends.",
+        "Bonus Actions": "Glare of the Deep (2/day). Choose one creature the dragon can see within 60 ft. On a failed DC 14 Intelligence save, the creature takes 21 (6d6) psychic damage and is Charmed for 1 minute. While Charmed, it is Incapacitated, and on its turn moves by the most direct route to within 5 ft. of the dragon if farther away. It repeats the save before entering damaging terrain or when damaged by another source. Success ends the effect and grants immunity to this dragon’s Glare for 24 hours.",
+        "Printed source": "Chapter 8, pp. 248–249."
+      }
+    }
+  },
+  {
+    "name": "Ogre, Great",
+    "decision": "separate",
+    "pages": "Chapter 8, p. 251.",
+    "notes": "Hideous Belch’s success clause names Stunned, although the failure and repeat-save clauses both name Poisoned. The profile applies Poisoned only on a failed save.",
+    "statBlock": {
+      "name": "Ogre, Great",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Huge Giant",
+      "ac": 13,
+      "hp": 95,
+      "speed": "40 ft.",
+      "cr": "4",
+      "abilities": {
+        "Str": {
+          "modifier": 5
+        },
+        "Dex": {
+          "modifier": -1
+        },
+        "Con": {
+          "modifier": 3
+        },
+        "Int": {
+          "modifier": -2
+        },
+        "Wis": {
+          "modifier": -1
+        },
+        "Cha": {
+          "modifier": -1
+        }
+      },
+      "otherStatistics": "Perception 11, Stealth 9. Darkvision 60 ft. Languages Common and Giant.",
+      "description": "Angrboda and Bergelmir tried to outdo each other by making a stronger ogre. The result was big enough to swing trees and anchors and still liked to smash whatever caught its eye.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +5, Dex -1, Con +3, Int -2, Wis -1, Cha -1",
+        "Traits": "Massive Frame. The great ogre has advantage on Strength saves and Strength (Athletics) checks.",
+        "Actions": "Multiattack. Make two Greatclub attacks or throw two Javelins.\nGreatclub. Melee weapon attack, +7 to hit, reach 10 ft. Hit 19 (4d6 + 5) bludgeoning damage.\nJavelin. Melee or ranged weapon attack, +7 to hit, reach 10 ft. or range 50/200 ft. Hit 14 (2d8 + 5) piercing damage.\nHideous Belch (recharge 6). Each creature in a 15-ft. cone makes a DC 13 Constitution save. On a failure, it takes 14 (4d6) poison damage and is Poisoned for 1 minute. Success halves the damage and avoids Poisoned. An affected creature repeats the save at the end of each turn, ending the condition on a success.",
+        "Reactions": "Tense Muscles (recharge 6). When an attack hits the ogre and deals bludgeoning, piercing, or slashing damage, the ogre can halve the attack’s damage.",
+        "Printed source": "Chapter 8, p. 251."
+      }
+    }
+  },
+  {
+    "name": "Sea Serpent",
+    "decision": "separate",
+    "pages": "Chapter 8, p. 264.",
+    "notes": "The published Black Flag Roleplaying stat block is a distinct encounter.",
+    "statBlock": {
+      "name": "Sea Serpent",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Huge Beast",
+      "ac": 13,
+      "hp": 76,
+      "speed": "0 ft., swim 50 ft.",
+      "cr": "3",
+      "abilities": {
+        "Str": {
+          "modifier": 6
+        },
+        "Dex": {
+          "modifier": 3
+        },
+        "Con": {
+          "modifier": 3
+        },
+        "Int": {
+          "modifier": -4
+        },
+        "Wis": {
+          "modifier": 1
+        },
+        "Cha": {
+          "modifier": -3
+        }
+      },
+      "otherStatistics": "Perception 13, Stealth 15. No special senses or languages.",
+      "description": "The fins along a sea serpent’s back show above the surface like a row of sails. Wild ones hunt in open water. Hatchlings can imprint on a keeper and grow into ship guards or mounts.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +6, Dex +3, Con +3, Int -4, Wis +1, Cha -3",
+        "Traits": "Constrictor. After hitting with Bite, the serpent can use Constrict as a bonus action.",
+        "Actions": "Bite. Melee weapon attack, +8 to hit, reach 10 ft., one creature. Hit 19 (3d8 + 6) piercing damage.\nConstrict. Choose a visible Huge or smaller creature within 10 ft. It makes a DC 14 Strength save. Failure deals 10 (4d4) bludgeoning damage and leaves the target Grappled (escape DC 16).",
+        "Printed source": "Chapter 8, p. 264."
+      }
+    }
+  }
+]

@@ -1,0 +1,55 @@
+[
+  {
+    "name": "Deep Imaskari",
+    "kind": "species",
+    "publication": "Underdark (2003)",
+    "edition": "3.5 edition",
+    "book": "Underdark",
+    "authors": [
+      "Bruce R. Cordell",
+      "Gwendolyn F. M. Kestrel",
+      "Jeff Quick"
+    ],
+    "publisher": "Wizards of the Coast",
+    "firstPrinting": "October 2003",
+    "productCode": "620-88581-001-EN",
+    "isbn": "0-7869-3053-5",
+    "printedPages": {
+      "playableSpecies": [
+        9,
+        10
+      ],
+      "racialTraits": [
+        9,
+        10
+      ],
+      "illustration": 8,
+      "abilitySummary": 6,
+      "region": 23,
+      "namedExamples": 138
+    },
+    "pdfPageOffset": 1,
+    "primaryBookScan": "",
+    "primaryBookSha256": "a7651db6f6506ac8abfd1b49f0b8f96e4d4d33ee2d62c9889720d6bbdcf601be",
+    "officialErrataArchive": "https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP",
+    "errataFilename": null,
+    "faqFilename": "",
+    "faqSha256": "312db30e76d5342b9f9e319d66aa60d86042a25535ba7524cba3193ae0bb08c6",
+    "printedArtCredit": "Vance Kovacs, p. 8.",
+    "sourceDistinctions": [
+      "Table 1–1 on p. 6 lists −2 Strength. The racial traits on p. 9 specify −2 Dexterity. This profile uses the racial text.",
+      "The book describes a human subrace. Medium Humanoid (Human) follows from that description. No racial Hit Dice or positive level adjustment is listed.",
+      "Spell Clutch re-prepares a previously prepared and cast 1st-level spell. The standard-action activation follows the core supernatural ability rule.",
+      "Wizards’ collected archive has no Underdark errata file. The official FAQ has no Deep Imaskari or Spell Clutch entry."
+    ],
+    "entryId": "species-90e672d8b7419f25679b0c89",
+    "versionKey": "8f4c45c78be3da4835f24257",
+    "slug": "deep-imaskari",
+    "portraitSelection": "generated",
+    "portraitForm": "Neris Vell, an original Deep Imaskari Wizard",
+    "npcExamples": [
+      "Neris Vell",
+      "Serran Thale"
+    ]
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Gazer Familiar",
+    "query": "floating eyestalks telekinetic ray spellcaster",
+    "term": "Charmed",
+    "parent": "Gazer",
+    "publication": "Volo's Guide to Monsters",
+    "alternates": [
+      {
+        "credit": "D&D Beyond publisher art · Volo's Guide to Monsters",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Guard Drake",
+    "query": "wingless strongholds tail chromatic",
+    "term": null,
+    "parent": "Blue Guard Drake",
+    "publication": "Volo's Guide to Monsters",
+    "alternates": [
+      {
+        "credit": "D&D Beyond publisher art · Volo's Guide to Monsters",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Mind Flayer Lich (Illithilich)",
+    "query": "mummified illithid mind blast phylactery",
+    "term": "Levitate",
+    "parent": "Lich",
+    "publication": "Monster Manual (2014)",
+    "alternates": [
+      {
+        "credit": "Base creature illustration: Mind Flayer · Monster Manual (2014) · Volo's Guide to Monsters",
+        "url": ""
+      }
+    ]
+  }
+]

@@ -5,6 +5,7 @@ export default createEvent({
   name: 'Dinos ridden toward Fairhaven',
   day: 10,
   location: refs.locations.badesh_forest,
+  illustrations: ['/assets/scenes/dinos-ridden-toward-fairhaven.png'],
   mark: { type: 'icon', name: 'gi/GiDinosaurRex' },
   notes: [
     [

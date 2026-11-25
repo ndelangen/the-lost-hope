@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Umber Hulk",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "traits": [
+      "A 14-level aberration monster class. Starts Medium with 20-ft. land speed, darkvision 60 ft., +2 Strength, +2 Constitution, and −2 Intelligence. Speaks Umber Hulk and is proficient with simple weapons.",
+      "Starts with two claws, a bite, and +3 natural armor. Claws add full Strength and the secondary bite adds half. Natural armor rises to +5 at 4th level and +7 at 7th.",
+      "Gains tremorsense at 4th level (10 ft.) and burrow 20 ft. at 5th. By the end of the progression, tremorsense locates creatures or objects touching the ground within 60 ft.",
+      "Confusing Gaze starts with a 5-ft. radius at 7th level, rising to 30 ft. at 13th. It applies confusion at caster level 8 on a failed Will save. DC equals 10 + half the class Hit Dice + Charisma modifier.",
+      "Becomes Large with 10-ft. reach at 9th level. At 14th level the class has 8d8 Hit Dice, ECL 14, and CR 7."
+    ]
+  },
+  {
+    "name": "Air Elemental",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "traits": [
+      "A 14-level elemental monster class. Starts Small with +4 Dexterity and −4 Intelligence, fly speed 100 ft. (perfect), darkvision 60 ft., and Auran.",
+      "Immune to poison, sleep, paralysis, stunning, and critical hits. Starts with +3 natural armor, a slam that adds 1½ times Strength, and bonus Flyby Attack and Improved Initiative.",
+      "At 2nd level gains bonus Weapon Finesse (slam), Air Mastery, and Whirlwind. Airborne opponents take −1 on attack and damage rolls against the elemental.",
+      "Whirlwind uses the air elemental rules from the original Monster Manual. Damage equals the slam dice without Strength. The Reflex DC is 10 + half the class Hit Dice + Constitution modifier.",
+      "Becomes Medium at 4th level and Large with 10-ft. reach at 13th. Gets damage reduction 5/+1 at 9th. At 14th level the class has 8d8 Hit Dice, ECL 14, and CR 5."
+    ]
+  },
+  {
+    "name": "Imp",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "traits": [
+      "A seven-level Tiny outsider monster class. Starts with +2 Dexterity, 20-ft. land speed, immunity to poison, and darkvision 60 ft. that works in magical darkness. Speaks Celestial, Draconic, and Infernal.",
+      "Starts with a venomous sting. At 2nd level gains bonus Weapon Finesse (sting) and at-will detect good and detect magic. The class spell-like abilities other than commune use twice the class Hit Dice as caster level.",
+      "At 3rd level gains flight, fire resistance 5, and one alternate form up to Medium, usable at will as polymorph self at caster level 12. Adds a second form at 6th.",
+      "At 4th level gains self-only invisibility at will and damage reduction 5/silver or holy. Higher tiers add regeneration, daily suggestion, weekly commune, and fast healing. At 7th level the class has 3d8 Hit Dice, ECL 7, and CR 2.",
+      "Sting applies Dexterity damage. Its Fortitude DC is 10 + half the class Hit Dice + Constitution modifier + 2. The table raises the dice as the class progresses."
+    ]
+  },
+  {
+    "name": "Rakshasa",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "traits": [
+      "A 14-level outsider monster class. Starts Medium with +2 Constitution, +2 Charisma, 40-ft. land speed, darkvision 60 ft., two claws, and Common, Infernal, and Undercommon.",
+      "Alternate Form starts at 1/day for one hour, rises to 3/day for up to two hours at 4th level, and becomes at will at 8th. It uses the original alter self spell at caster level 18, limited to humanoid forms.",
+      "Gains a bite and spells at 2nd level. Casts as a sorcerer of level equal to the class Hit Dice and may learn 1st-level cleric spells as arcane spells. Detect thoughts starts at 3rd level and uses class level + 4 as caster level and DC 12 + Charisma modifier.",
+      "At 4th level gains immunity to 1st-level spell effects. Later levels raise the maximum spell level affected. May suppress immunity to accept spells. Later tiers also grant damage reduction.",
+      "Any hit from a blessed crossbow bolt instantly kills the rakshasa. At 14th level the class has 7d8 Hit Dice, ECL 14, and CR 8."
+    ]
+  }
+]

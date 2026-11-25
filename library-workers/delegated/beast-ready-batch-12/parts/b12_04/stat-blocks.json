@@ -1,0 +1,145 @@
+[
+  {
+    "name": "Quipper, Swarm of Quippers",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Medium swarm of Tiny Beasts",
+    "ac": 13,
+    "hp": 34,
+    "speed": "0 ft., swim 40 ft.",
+    "cr": "1",
+    "xp": 200,
+    "otherStatistics": "Str +1, Dex +3, Con +0, Int -5, Wis +0, Cha -4. Fixed Perception 10. Fixed Stealth 13. Darkvision 60 ft. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "Several sharply toothed fish crowded into a single school.",
+    "habitats": [
+      "Underwater"
+    ],
+    "sections": {
+      "Printed source": "Cubil de Monstruos, licensed Spanish translation of Monster Vault, p. 351, Piraña, Enjambre de Pirañas. XP from the CR table on p. 17.",
+      "Traits": "Blood Frenzy. It has advantage on melee attack rolls against creatures below their hit point maximum.\nHeightened Smell. It uses Perception 15 when relying on smell.\nSwarm. It can share space with other creatures, and they can share its space. It fits through openings large enough for a single Tiny quipper. It cannot regain hit points or gain temporary hit points.\nWater Breathing. It can breathe only underwater.",
+      "Damage resistances": "Bludgeoning, piercing and slashing damage.",
+      "Condition immunities": "Charmed, frightened, grappled, paralyzed, petrified, prone, restrained and stunned.",
+      "Actions": "Bites. Melee weapon attack, +5 to hit one creature in the swarm’s space, reach 0 ft. A hit deals 18 (4d8) piercing damage above half hit points, or 9 (2d8) at half hit points or fewer. The target makes a DC 13 Dexterity save. On a failure it is left with a bleeding wound and loses 4 (1d8) hit points at the start of each of its turns. Any creature can take an action to close the wound by succeeding on a DC 10 Wisdom (Medicine) check. Magical healing received by the target also closes the wound."
+    }
+  },
+  {
+    "name": "Rat",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Tiny Beast",
+    "ac": 10,
+    "hp": 9,
+    "speed": "20 ft., swim 20 ft.",
+    "cr": "0",
+    "xp": 10,
+    "otherStatistics": "Str -4, Dex +0, Con -1, Int -4, Wis +0, Cha -3. Fixed Perception 10. Fixed Stealth 12. Darkvision 30 ft. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A brown rat with rounded ears, a pointed whiskered nose and a long bare tail.",
+    "habitats": [
+      "Farmland",
+      "Forest",
+      "Swamp",
+      "Underground",
+      "Urban"
+    ],
+    "sections": {
+      "Printed source": "Cubil de Monstruos, licensed Spanish translation of Monster Vault, p. 353, Rata. XP from the CR table on p. 17.",
+      "Traits": "Accustomed to Filth. It has advantage on saving throws against diseases.\nHeightened Smell. It uses Perception 15 when relying on smell.",
+      "Actions": "Bite. Melee weapon attack, +2 to hit one target within 5 ft. A hit deals 2 (1d4) piercing damage."
+    }
+  },
+  {
+    "name": "Rat, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Small Beast",
+    "ac": 13,
+    "hp": 14,
+    "speed": "30 ft., swim 30 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "otherStatistics": "Str -2, Dex +3, Con +0, Int -4, Wis +0, Cha -3. Fixed Perception 10. Fixed Stealth 15. Darkvision 60 ft. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "An oversized dark brown rat with a bristly back, rounded ears and a long bare tail.",
+    "habitats": [
+      "Farmland",
+      "Forest",
+      "Swamp",
+      "Underground",
+      "Urban"
+    ],
+    "sections": {
+      "Printed source": "Cubil de Monstruos, licensed Spanish translation of Monster Vault, p. 354, Rata, Gigante. XP from the CR table on p. 17.",
+      "Traits": "Accustomed to Filth. It has advantage on saving throws against diseases.\nHeightened Smell. It uses Perception 15 when relying on smell.\nPack Tactics. It has advantage on attacks against a creature if one of its allies is within 5 ft. of that creature and the ally is not incapacitated.",
+      "Actions": "Bite. Melee weapon attack, +5 to hit one target within 5 ft. A hit deals 5 (1d4 + 3) piercing damage. A creature hit makes a DC 13 Constitution save. On a failure the GM chooses whether it contracts Rat Plague or is Poisoned until the end of its next turn.",
+      "Rat plague": "Rat Plague. Rats are immune to this disease’s effects. An infected creature is Poisoned and can regain hit points only through magic. After every 24 hours, repeat the Constitution save at the infecting Bite’s DC. Success cures the disease. On a failure, reduce the creature’s hit point maximum by 3 (1d6). This reduction lasts until it finishes a long rest after being cured. The creature dies if the disease reduces its hit point maximum to 0.",
+      "Source notes": "The Beast overview on p. 33 lists 1/8. The actual Giant Rat stat block on p. 354 gives 1/4, consistent with the English Monster Vault catalog display of 0.3. The profile uses the stat block and 50 XP."
+    }
+  },
+  {
+    "name": "Rat, Swarm of Rats",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Medium swarm of Tiny Beasts",
+    "ac": 10,
+    "hp": 14,
+    "speed": "30 ft., swim 30 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "otherStatistics": "Str -1, Dex +0, Con -1, Int -4, Wis +0, Cha -4. Fixed Perception 10. Fixed Stealth 12. Darkvision 30 ft. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A clustered mass of brown rats with rounded ears and long bare tails.",
+    "habitats": [
+      "Farmland",
+      "Forest",
+      "Swamp",
+      "Underground",
+      "Urban"
+    ],
+    "sections": {
+      "Printed source": "Cubil de Monstruos, licensed Spanish translation of Monster Vault, pp. 353–354, Rata, Enjambre de ratas. XP from the CR table on p. 17.",
+      "Traits": "Accustomed to Filth. It has advantage on saving throws against diseases.\nHeightened Smell. It uses Perception 15 when relying on smell.\nSwarm. It can share space with other creatures, and they can share its space. It fits through openings large enough for a single Tiny rat. It cannot regain hit points or gain temporary hit points.",
+      "Damage resistances": "Bludgeoning, piercing and slashing damage.",
+      "Condition immunities": "Charmed, frightened, grappled, paralyzed, petrified, prone, restrained and stunned.",
+      "Actions": "Bites. Melee weapon attack, +2 to hit one creature in the swarm’s space, reach 0 ft. A hit deals 7 (2d6) piercing damage above half hit points, or 3 (1d6) at half hit points or fewer. The target makes a DC 9 Constitution save. On a failure the GM chooses whether it contracts Rat Plague or is Poisoned until the end of its next turn.",
+      "Rat plague": "Rat Plague. Rats are immune to this disease’s effects. An infected creature is Poisoned and can regain hit points only through magic. After every 24 hours, repeat the Constitution save at the infecting Bite’s DC. Success cures the disease. On a failure, reduce the creature’s hit point maximum by 3 (1d6). This reduction lasts until it finishes a long rest after being cured. The creature dies if the disease reduces its hit point maximum to 0."
+    }
+  },
+  {
+    "name": "Raven",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Tiny Beast",
+    "ac": 11,
+    "hp": 8,
+    "speed": "10 ft., fly 50 ft.",
+    "cr": "0",
+    "xp": 10,
+    "otherStatistics": "Str -4, Dex +1, Con -1, Int -3, Wis +1, Cha +0. Fixed Perception 13. Fixed Stealth 11. No special senses. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A black raven with layered blue-black feathers, a heavy curved bill and a shaggy throat.",
+    "habitats": [
+      "Farmland",
+      "Forest",
+      "Hills",
+      "Swamp",
+      "Urban"
+    ],
+    "sections": {
+      "Printed source": "Cubil de Monstruos, licensed Spanish translation of Monster Vault, p. 341, Cuervo. XP from the CR table on p. 17.",
+      "Traits": "Carrion Sense. By scent, it can pinpoint carrion, dead creatures and Undead without Incorporeal Movement within 60 ft.\nMimicry. It can copy simple sounds it has heard. A listener can recognize the imitation with a successful DC 10 Wisdom (Insight) check.\nRecollection. It knows up to 20 words in any language it has heard. It uses Mimicry to repeat those words in the voices it heard.",
+      "Actions": "Beak. Melee weapon attack, +3 to hit one target within 5 ft. A hit deals 3 (1d4 + 1) piercing damage."
+    }
+  }
+]

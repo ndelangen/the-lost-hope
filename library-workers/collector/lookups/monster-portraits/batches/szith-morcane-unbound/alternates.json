@@ -1,0 +1,101 @@
+[
+  {
+    "entityKind": "monster",
+    "name": "Azer Acolyte",
+    "publication": "DDEX3-15 - Szith Morcane Unbound",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/azer-acolyte/source-azer-mm.webp",
+    "artist": "Base creature art: Azer · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "183833a883715b624c0b82d33da7e079e81a7c04d10aecee18015d0aebb6e83a",
+    "reference": "images/monsters/azer/mm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Azer Acolyte",
+    "publication": "DDEX3-15 - Szith Morcane Unbound",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/azer-acolyte/source-azer-pyromancer-xmm.webp",
+    "artist": "Related creature art: Azer Pyromancer by Kai Carpenter · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "3fb4c61f5eaa0df5113f77a94d65404190b6ee1de334fbb445a49d803ce43ece",
+    "reference": "images/monsters/azer-pyromancer/xmm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Azer Priest",
+    "publication": "DDEX3-15 - Szith Morcane Unbound",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/azer-priest/source-azer-mm.webp",
+    "artist": "Base creature art: Azer · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "183833a883715b624c0b82d33da7e079e81a7c04d10aecee18015d0aebb6e83a",
+    "reference": "images/monsters/azer/mm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Azer Priest",
+    "publication": "DDEX3-15 - Szith Morcane Unbound",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/azer-priest/source-azer-pyromancer-xmm.webp",
+    "artist": "Related creature art: Azer Pyromancer by Kai Carpenter · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "3fb4c61f5eaa0df5113f77a94d65404190b6ee1de334fbb445a49d803ce43ece",
+    "reference": "images/monsters/azer-pyromancer/xmm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Dengor Bloodheart",
+    "publication": "DDEX3-15 - Szith Morcane Unbound",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/dengor-bloodheart/source-fire-giant-mm.webp",
+    "artist": "Base creature art: Fire Giant · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "1d8744e490697951e86cd320eda3debc4460269316cdc3b498d9df72307316e7",
+    "reference": "images/monsters/fire-giant/mm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Dengor Bloodheart",
+    "publication": "DDEX3-15 - Szith Morcane Unbound",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/dengor-bloodheart/source-fire-giant-xmm.webp",
+    "artist": "Base creature art: Fire Giant by Robson Michel · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "2024c1e93f6784679246e572d729624f9e5557737ae6bb158db09ff7a2e45d71",
+    "reference": "images/monsters/fire-giant/xmm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Shadow Dragon",
+    "publication": "DDEX3-15 - Szith Morcane Unbound",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/shadow-dragon/source-young-red-shadow-dragon-mm.webp",
+    "artist": "Related creature art: Young Red Shadow Dragon · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "b01f3316f79583dad055a065e703c5652465b216d32e418abb8fb38e2cf84ae2",
+    "reference": "images/monsters/young-red-shadow-dragon/mm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Shadow Dragon",
+    "publication": "DDEX3-15 - Szith Morcane Unbound",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/shadow-dragon/source-adult-bronze-dragon-mm.webp",
+    "artist": "Related creature art: Adult Bronze Dragon · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "905e4dc443571492c57e3b9cb810daaa7664bbc9999ce3fa2ffbe9f7cc27b639",
+    "reference": "images/monsters/adult-bronze-dragon/mm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Shadow Dragon",
+    "publication": "DDEX3-15 - Szith Morcane Unbound",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/shadow-dragon/source-shadow-dragon-large-xmm.webp",
+    "artist": "Related creature art: Shadow Dragon (Large) · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "14aaf2240e3556c9bc2f3580686b7e182a99c6c3acbf2805dbca49cf8a4def3b",
+    "reference": "images/monsters/shadow-dragon-large/publisher-c3d7a285912bbbd1.webp"
+  }
+]

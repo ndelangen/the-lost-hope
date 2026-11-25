@@ -1,0 +1,279 @@
+{
+  "builds": [
+    {
+      "id": "mr1-owl-pip-brasscall",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Night courier, Rogue 2",
+      "difficulty": "Rogue 2. No assigned CR.",
+      "size": "Tiny",
+      "type": "Beast",
+      "speed": "5 ft., fly 60 ft.",
+      "ac": 13,
+      "hp": 17,
+      "hitDice": "2d8+4",
+      "initiative": 3,
+      "senses": "Darkvision 120 ft., passive Perception 16 or 21 for hearing or sight.",
+      "languages": "Common, Auran, and thieves’ cant.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 14,
+        "CHA": 12
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Athletics +1",
+        "Insight +4",
+        "Perception +6",
+        "Stealth +7",
+        "Survival +4"
+      ],
+      "traits": [
+        "Proficiency +2. Dexterity save +5 and Intelligence save +2. Unarmored AC 10 + 3 Dexterity. HP 10 at level 1 and 7 more at level 2.",
+        "Rogue grants Acrobatics, Insight, Perception, and Stealth. Expertise applies to Perception and Stealth. Outlander grants Athletics, Survival, Auran, and Wanderer. As an owl, Pip has no usable tools and carries no weapons or armor.",
+        "Keen Hearing and Sight. Advantage on Perception checks using hearing or sight. His Tiny carrying capacity is 30 lb. under the supplement."
+      ],
+      "actions": [
+        "Talons. Dexterity-based finesse unarmed strike +5, reach 5 ft., 1d4+3 piercing.",
+        "Sneak Attack. Once per turn add 1d6 piercing if the attack has advantage or an enemy of the target is within 5 ft. of it and that enemy is not incapacitated. Disadvantage prevents this damage.",
+        "Flyby or Cunning Action. Disengage as a bonus action. Cunning Action can instead Dash or Hide. Pip can take one bonus action per turn."
+      ],
+      "tactics": "Pip circles until an ally draws attention, sweeps in with his talons, then Disengages and flies back up."
+    },
+    {
+      "id": "mr1-panther-coalwhisk",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Canopy scout, Rogue 1",
+      "difficulty": "Rogue 1. No assigned CR.",
+      "size": "Medium",
+      "type": "Beast",
+      "speed": "50 ft., climb 40 ft.",
+      "ac": 13,
+      "hp": 10,
+      "hitDice": "1d8+2",
+      "initiative": 3,
+      "senses": "Passive Perception 13 or 18 for smell.",
+      "languages": "Common, Elvish, and thieves’ cant.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Athletics +7",
+        "Insight +3",
+        "Perception +3",
+        "Stealth +7",
+        "Survival +3"
+      ],
+      "traits": [
+        "Proficiency +2. Dexterity save +5 and Intelligence save +1. Unarmored AC 10 + 3 Dexterity.",
+        "Outlander supplies Athletics, Survival, Elvish, and Wanderer. Rogue supplies Acrobatics, Insight, Perception, and Stealth. Expertise applies to Athletics and Stealth. Coalwhisk is unarmored and cannot manipulate tools or equipment.",
+        "Keen Smell grants advantage on Perception checks relying on smell."
+      ],
+      "actions": [
+        "Bite or claw. Dexterity-based finesse unarmed strike +5, reach 5 ft. Choose 1d8+3 piercing for bite or 1d8+3 slashing for claw.",
+        "Sneak Attack. Once per turn add 1d6 piercing or slashing, matching the hit, if the attack has advantage or an enemy of the target is within 5 ft. of it and that enemy is not incapacitated. Disadvantage prevents this damage.",
+        "Pounce. If Coalwhisk moves 15 ft. or more straight toward a creature and hits it with an unarmed strike that turn, use a bonus action to try to topple it. The target must be Large or smaller and within reach. Contest Athletics +7 against its choice of Athletics or Acrobatics. An eligible incapacitated target falls prone automatically."
+      ],
+      "tactics": "Coalwhisk drops to the ground and lines up a straight rush if a lookout sees her. She knocks the lookout down and keeps the climb route clear."
+    },
+    {
+      "id": "mr1-phase-spider-seamstep",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Underbridge sentinel, Barbarian 1",
+      "difficulty": "Barbarian 1. No assigned CR.",
+      "size": "Medium",
+      "type": "Monstrosity",
+      "speed": "30 ft., climb 30 ft.",
+      "ac": 15,
+      "hp": 14,
+      "hitDice": "1d12+2",
+      "initiative": 3,
+      "senses": "Darkvision 60 ft., passive Perception 12.",
+      "languages": "None.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 10,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +5",
+        "Intimidation +1",
+        "Perception +2",
+        "Survival +2"
+      ],
+      "traits": [
+        "Proficiency +2. Strength save +5 and Constitution save +4. Unarmored Defense AC 10 + 3 Dexterity + 2 Constitution. Natural armor gives AC 14 as an alternative. The formulas do not stack.",
+        "Soldier grants Athletics and Intimidation. Barbarian grants Perception and Survival. No hands for tools, weapons, or shields. Communicates intent by body posture and pointing with its forelegs.",
+        "Spider Climb covers difficult surfaces and ceilings without a check. Web Walker ignores movement restrictions caused by webs."
+      ],
+      "actions": [
+        "Bite. Strength-based finesse unarmed strike +5, reach 5 ft., 1d4+3 piercing plus 1d4 poison. While raging the piercing becomes 1d4+5.",
+        "Ethereal Jaunt. Bonus action to switch to the Ethereal Plane from the Material Plane or vice versa. Returns to the plane where it started as its next turn begins. Once per short or long rest.",
+        "Rage. Bonus action, twice per long rest, for up to 1 minute. Advantage on Strength checks and saves, resistance to bludgeoning, piercing, and slashing, and +2 damage on Strength-based melee weapon attacks. It ends early upon unconsciousness or if the turn ends without attacking a hostile creature or taking damage since the previous turn. Can end it with a bonus action."
+      ],
+      "tactics": "Seamstep hangs below the approach. It uses Jaunt when it needs to cross a barrier and plans an unobstructed place to return before doing so."
+    },
+    {
+      "id": "mr1-poisonous-snake-rushcoil",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Sluice guardian, Monk 1",
+      "difficulty": "Monk 1. No assigned CR.",
+      "size": "Medium",
+      "type": "Beast",
+      "speed": "30 ft., climb 30 ft.",
+      "ac": 15,
+      "hp": 10,
+      "hitDice": "1d8+2",
+      "initiative": 3,
+      "senses": "Blindsight 10 ft., passive Perception 12.",
+      "languages": "Common and Sylvan.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 15,
+        "CHA": 10
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Athletics +1",
+        "Insight +4",
+        "Survival +4"
+      ],
+      "traits": [
+        "Proficiency +2. Strength save +1 and Dexterity save +5. Unarmored Defense AC 10 + 3 Dexterity + 2 Wisdom. No armor, shield, or weapon.",
+        "Martial Arts allows Dexterity for Rushcoil’s unarmed strikes. The supplement p. 7 reserves the Martial Arts bonus strike for a conventional bludgeoning strike.",
+        "Outlander grants Athletics, Survival, Sylvan, and Wanderer. Monk grants Acrobatics and Insight. With no manipulators, Rushcoil does not use the tool or instrument proficiencies available through class and background."
+      ],
+      "actions": [
+        "Bite. Dexterity-based unarmed strike +5, reach 5 ft., 1d8+3 poison. No save or poisoned condition. Use on the Attack action.",
+        "Headbutt. Conventional Dexterity-based unarmed strike +5, reach 5 ft., 1d4+3 bludgeoning. Use on the Attack action or as the Martial Arts bonus strike after taking the Attack action and making an unarmed strike."
+      ],
+      "tactics": "Rushcoil warns intruders from the top of the gate and climbs down to block the crank. Against a foe that ignores venom, she strikes with her head."
+    },
+    {
+      "id": "mr1-polar-bear-driftmark",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Coldwater ferry warden, Barbarian 2",
+      "difficulty": "Barbarian 2. No assigned CR.",
+      "size": "Medium",
+      "type": "Beast",
+      "speed": "40 ft., swim 30 ft.",
+      "ac": 15,
+      "hp": 25,
+      "hitDice": "2d12+6",
+      "initiative": 2,
+      "senses": "Passive Perception 13 or 18 for smell.",
+      "languages": "Common and Dwarvish.",
+      "abilityScores": {
+        "STR": 17,
+        "DEX": 14,
+        "CON": 16,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Animal Handling +3",
+        "Athletics +5",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "traits": [
+        "Proficiency +2. Strength and Constitution saves +5. Unarmored Defense AC 10 + 2 Dexterity + 3 Constitution. Natural armor gives AC 14 as an alternative. HP 15 at level 1 and 10 more at level 2.",
+        "Outlander grants Athletics, Survival, Dwarvish, and Wanderer. Barbarian grants Animal Handling and Perception. Driftmark cannot wield weapons or manipulate tools and wears no armor.",
+        "Keen Smell grants advantage on Perception checks using smell. Danger Sense grants advantage on Dexterity saves against visible effects while able to see and free of the blinded, deafened, and incapacitated conditions."
+      ],
+      "actions": [
+        "Bite or claw. Strength-based unarmed strike +5, reach 5 ft. Choose 1d8+3 piercing or slashing, respectively. Add 2 damage while raging.",
+        "Rage. Bonus action, twice per long rest, for up to 1 minute. Advantage on Strength checks and saves, resistance to bludgeoning, piercing, and slashing, and +2 damage on Strength-based melee weapon attacks. It ends early upon unconsciousness or if the turn ends without attacking a hostile creature or taking damage since the previous turn. Can end it with a bonus action.",
+        "Reckless Attack. When making the first attack on the turn, choose to give Strength-based melee weapon attacks advantage that turn. Attacks against Driftmark have advantage until Driftmark’s next turn."
+      ],
+      "tactics": "Driftmark begins at the waterside and swims to cut off anyone who reaches the ferry line. When a foe turns away from the boat, Driftmark puts the rope between them."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Pip Brasscall",
+      "species": "Owl",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr1-owl-pip-brasscall",
+      "size": "Tiny",
+      "role": "A Tiny awakened courier who takes the late shift.",
+      "motive": "Find out why his return route suddenly smells of tallow.",
+      "hook": "He insists the party cover their lanterns before he shows them where the last courier vanished."
+    },
+    {
+      "name": "Coalwhisk",
+      "species": "Panther",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr1-panther-coalwhisk",
+      "size": "Medium",
+      "role": "An awakened black panther who scouts above an overgrown trade road.",
+      "motive": "Find the wagon whose driver left fresh bootprints halfway up a tree.",
+      "hook": "Coalwhisk shows the prints and points out where the trail ends beside empty air."
+    },
+    {
+      "name": "Seamstep",
+      "species": "Phase Spider",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr1-phase-spider-seamstep",
+      "size": "Medium",
+      "role": "A phase spider that keeps watch under an old bridge.",
+      "motive": "Recover the sun-warmed roof tile it uses as a resting place.",
+      "hook": "Seamstep points with a foreleg at the missing tile’s outline, then settles in front of the path toward the river."
+    },
+    {
+      "name": "Rushcoil",
+      "species": "Poisonous Snake",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr1-poisonous-snake-rushcoil",
+      "size": "Medium",
+      "role": "An awakened snake that watches a sluice carved through an orchard wall.",
+      "motive": "Keep the last spillway open until the young trees take root.",
+      "hook": "She has coiled around the gate handle and says the orchard keeper can explain why it must stay open."
+    },
+    {
+      "name": "Driftmark",
+      "species": "Polar Bear",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr1-polar-bear-driftmark",
+      "size": "Medium",
+      "role": "An awakened polar bear who keeps the ferry line clear of new ice.",
+      "motive": "Retrieve a severed ferry rope before its freight drifts downriver.",
+      "hook": "Driftmark swims alongside the party’s boat and offers to lead them to the abandoned ferry."
+    }
+  ]
+}

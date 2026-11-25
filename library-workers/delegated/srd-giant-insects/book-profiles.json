@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Giant Fly",
+    "kind": "beast",
+    "publication": "SRD 5.1",
+    "edition": "2014 fifth edition",
+    "ruleset": "dnd-5e-2014",
+    "appearance": "A rideable giant horsefly brought to life from the Ebony Fly figurine.",
+    "combat": {
+      "armorClass": 11,
+      "hitPoints": 19,
+      "hitDice": "3d10 + 3",
+      "creatureType": "Beast",
+      "size": "Large",
+      "speed": {
+        "walk": 30,
+        "fly": 60
+      },
+      "abilities": {
+        "Str": 14,
+        "Dex": 13,
+        "Con": 13,
+        "Int": 2,
+        "Wis": 10,
+        "Cha": 3
+      },
+      "passivePerception": 10,
+      "senses": [
+        "Darkvision 60 ft."
+      ]
+    },
+    "mechanics": {
+      "Figurine": [
+        {
+          "name": "Activation",
+          "effectNote": "Use an action to speak the command word and throw the figurine to a point on the ground within 60 ft. The fly appears if the space is free and large enough."
+        },
+        {
+          "name": "Mount and commands",
+          "effectNote": "The fly is friendly, understands the activator’s languages through the item, and follows spoken commands. Without orders it limits itself to self-defense. It can carry a rider for up to 12 hours."
+        },
+        {
+          "name": "Reversion and reuse",
+          "effectNote": "The fly becomes a figurine again at the end of 12 hours, at 0 HP, or if the activator uses an action to repeat the command word while touching it. Wait two days before using it again."
+        }
+      ]
+    },
+    "notes": [
+      "Unaligned. The stat block lists no languages. The figurine rules give the fly its understanding of spoken commands.",
+      "The 5.1 block supplies no actions, challenge rating, XP, proficiency bonus, or initiative value. The 5.2.1 version supplies CR 0 and is a separate printing.",
+      "Source: Wizards of the Coast, System Reference Document 5.1, pp. 221–222."
+    ]
+  }
+]

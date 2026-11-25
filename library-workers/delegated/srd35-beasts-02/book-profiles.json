@@ -1,0 +1,1649 @@
+[
+  {
+    "name": "Bat",
+    "kind": "beast",
+    "edition": "3.5 edition",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "ruleset": "dnd-3.5",
+    "appearance": "A small insect-eating bat with short fur and thin membranes stretched between its elongated wing fingers.",
+    "combat": {
+      "armorClass": 16,
+      "armorClassNote": "+4 size, +2 Dex",
+      "touchArmorClass": 16,
+      "flatFootedArmorClass": 14,
+      "hitPoints": 1,
+      "hitDice": "1/4 d8",
+      "challenge": "1/10",
+      "size": "Diminutive",
+      "creatureType": "Animal",
+      "speed": {
+        "walk": 5,
+        "fly": 40
+      },
+      "initiativeModifier": 2,
+      "baseAttackBonus": 0,
+      "grappleModifier": -17,
+      "savingThrows": {
+        "Fort": 2,
+        "Ref": 4,
+        "Will": 2
+      },
+      "abilities": {
+        "STR": 1,
+        "DEX": 15,
+        "CON": 10,
+        "INT": 2,
+        "WIS": 14,
+        "CHA": 4
+      },
+      "skills": {
+        "Hide": 14,
+        "Listen": 8,
+        "Move Silently": 6,
+        "Spot": 8
+      },
+      "habitats": [
+        "Temperate deserts"
+      ],
+      "senses": [
+        "Blindsense 20 ft.",
+        "low-light vision"
+      ],
+      "attackOptions": "Space 1 ft. and reach 0 ft. No attack or full attack is listed.",
+      "speedConditions": {
+        "fly": "Good maneuverability."
+      }
+    },
+    "notes": [
+      "Always neutral. Organization as printed: Colony (10–40) or crowd (10–50).",
+      "Feats: Alertness.",
+      "Small nocturnal insect-eater. The SRD supplies no natural attack."
+    ],
+    "mechanics": {
+      "Trait": [
+        {
+          "name": "Blindsense (Ex)",
+          "effectNote": "Within 20 ft. and with line of effect the bat can locate creatures without relying on sight. A creature it cannot see still has total concealment. The bat loses the +4 racial bonus included in both Listen and Spot when it loses blindsense."
+        }
+      ]
+    }
+  },
+  {
+    "name": "Cat",
+    "kind": "beast",
+    "edition": "3.5 edition",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "ruleset": "dnd-3.5",
+    "appearance": "A housecat with striped fur, a flexible body, a long tail and retractile claws.",
+    "combat": {
+      "armorClass": 14,
+      "armorClassNote": "+2 size, +2 Dex",
+      "touchArmorClass": 14,
+      "flatFootedArmorClass": 12,
+      "hitPoints": 2,
+      "hitDice": "1/2 d8",
+      "challenge": "1/4",
+      "size": "Tiny",
+      "creatureType": "Animal",
+      "speed": {
+        "walk": 30
+      },
+      "initiativeModifier": 2,
+      "baseAttackBonus": 0,
+      "grappleModifier": -12,
+      "savingThrows": {
+        "Fort": 2,
+        "Ref": 4,
+        "Will": 1
+      },
+      "abilities": {
+        "STR": 3,
+        "DEX": 15,
+        "CON": 10,
+        "INT": 2,
+        "WIS": 12,
+        "CHA": 7
+      },
+      "skills": {
+        "Balance": 10,
+        "Climb": 6,
+        "Hide": 14,
+        "Jump": 10,
+        "Listen": 3,
+        "Move Silently": 6,
+        "Spot": 3
+      },
+      "habitats": [
+        "Temperate plains"
+      ],
+      "senses": [
+        "Low-light vision",
+        "scent"
+      ],
+      "attackOptions": "Space 2-1/2 ft. and reach 0 ft. Attack: Claw +4 melee (1d2–4). Full attack: 2 claws +4 melee (1d2–4) and bite –1 melee (1d3–4).",
+      "attacks": [
+        {
+          "name": "Claw",
+          "mode": "melee",
+          "hitBonus": 4,
+          "reach": 0,
+          "damage": [
+            {
+              "dice": "1d2-4",
+              "type": "piercing and slashing"
+            }
+          ]
+        },
+        {
+          "name": "Bite",
+          "mode": "melee",
+          "hitBonus": -1,
+          "reach": 0,
+          "damage": [
+            {
+              "dice": "1d3-4",
+              "type": "piercing, slashing and bludgeoning"
+            }
+          ]
+        }
+      ]
+    },
+    "notes": [
+      "Always neutral. Organization as printed: Domesticated or solitary.",
+      "Feats: Weapon Finesse.",
+      "The common housecat stalks prey. Its 0 ft. reach requires entering the target’s space for melee attacks.",
+      "Monster Manual errata grants Stealthy and makes Weapon Finesse a bonus feat. It raises Hide to +16, or +20 in tall grass or heavy undergrowth, and Move Silently to +8. Use the original SRD values for this printing.",
+      "A hit whose printed damage roll falls below 1 deals a minimum of 1 damage before defenses."
+    ],
+    "mechanics": {
+      "Trait": [
+        {
+          "name": "Scent (Ex)",
+          "effectNote": "Detect creatures by smell within 30 ft., 60 ft. if upwind or 15 ft. if downwind. Use a move action to find the direction. Pinpoint the creature within 5 ft."
+        },
+        {
+          "name": "Cat skills",
+          "effectNote": "Includes +4 racial to Climb, Hide and Move Silently, and +8 racial to Balance and Jump. Use Dexterity for Climb and Jump. Hide increases from +14 to +18 in tall grass or heavy undergrowth."
+        }
+      ]
+    }
+  },
+  {
+    "name": "Dog",
+    "kind": "beast",
+    "edition": "3.5 edition",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "ruleset": "dnd-3.5",
+    "appearance": "A small dog weighing about 20 to 50 pounds, with a narrow muzzle, four padded paws and a mobile tail.",
+    "combat": {
+      "armorClass": 15,
+      "armorClassNote": "+1 size, +3 Dex, +1 natural",
+      "touchArmorClass": 14,
+      "flatFootedArmorClass": 12,
+      "hitPoints": 6,
+      "hitDice": "1d8+2",
+      "challenge": "1/3",
+      "size": "Small",
+      "creatureType": "Animal",
+      "speed": {
+        "walk": 40
+      },
+      "initiativeModifier": 3,
+      "baseAttackBonus": 0,
+      "grappleModifier": -3,
+      "savingThrows": {
+        "Fort": 4,
+        "Ref": 5,
+        "Will": 1
+      },
+      "abilities": {
+        "STR": 13,
+        "DEX": 17,
+        "CON": 15,
+        "INT": 2,
+        "WIS": 12,
+        "CHA": 6
+      },
+      "skills": {
+        "Jump": 7,
+        "Listen": 5,
+        "Spot": 5,
+        "Survival": 1
+      },
+      "habitats": [
+        "Temperate plains"
+      ],
+      "senses": [
+        "Low-light vision",
+        "scent"
+      ],
+      "attackOptions": "Space 5 ft. and reach 5 ft. Attack and full attack each use one Bite attack.",
+      "attacks": [
+        {
+          "name": "Bite",
+          "mode": "melee",
+          "hitBonus": 2,
+          "reach": 5,
+          "damage": [
+            {
+              "dice": "1d4+1",
+              "type": "piercing, slashing and bludgeoning"
+            }
+          ]
+        }
+      ]
+    },
+    "notes": [
+      "Always neutral. Organization as printed: Solitary or pack (5–12).",
+      "Feats: Alertness, Track as a bonus feat.",
+      "The SRD prints CR 1/3. The catalog previously had a blank CR. Dogs may chase prey in packs."
+    ],
+    "mechanics": {
+      "Trait": [
+        {
+          "name": "Scent (Ex)",
+          "effectNote": "Detect creatures by smell within 30 ft., 60 ft. if upwind or 15 ft. if downwind. Use a move action to find the direction. Pinpoint the creature within 5 ft."
+        },
+        {
+          "name": "Tracking",
+          "effectNote": "The dog has Track as a bonus feat. Its +4 racial bonus when tracking by scent raises Survival from +1 to +5. Its Jump score includes +4 racial."
+        }
+      ]
+    }
+  },
+  {
+    "name": "Giant Constrictor Snake",
+    "kind": "beast",
+    "edition": "3.5 edition",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "ruleset": "dnd-3.5",
+    "appearance": "An enormous, thick-bodied snake with overlapping scales. Its muscular coils are broad enough to wrap around large prey.",
+    "combat": {
+      "armorClass": 15,
+      "armorClassNote": "-2 size, +3 Dex, +4 natural",
+      "touchArmorClass": 11,
+      "flatFootedArmorClass": 12,
+      "hitPoints": 63,
+      "hitDice": "11d8+14",
+      "challenge": "5",
+      "size": "Huge",
+      "creatureType": "Animal",
+      "speed": {
+        "walk": 20,
+        "climb": 20,
+        "swim": 20
+      },
+      "initiativeModifier": 3,
+      "baseAttackBonus": 8,
+      "grappleModifier": 23,
+      "savingThrows": {
+        "Fort": 8,
+        "Ref": 10,
+        "Will": 4
+      },
+      "abilities": {
+        "STR": 25,
+        "DEX": 17,
+        "CON": 13,
+        "INT": 1,
+        "WIS": 12,
+        "CHA": 2
+      },
+      "skills": {
+        "Balance": 11,
+        "Climb": 17,
+        "Hide": 10,
+        "Listen": 9,
+        "Spot": 9,
+        "Swim": 16
+      },
+      "habitats": [
+        "Warm forests"
+      ],
+      "senses": [
+        "Scent",
+        "Low-light vision"
+      ],
+      "attackOptions": "Space 15 ft. and reach 10 ft. Attack and full attack each use one Bite attack.",
+      "attacks": [
+        {
+          "name": "Bite",
+          "mode": "melee",
+          "hitBonus": 13,
+          "reach": 10,
+          "damage": [
+            {
+              "dice": "1d8+10",
+              "type": "piercing, slashing and bludgeoning"
+            }
+          ]
+        }
+      ]
+    },
+    "notes": [
+      "Always neutral. Organization as printed: Solitary.",
+      "Feats: Alertness, Endurance, Skill Focus (Hide), Toughness.",
+      "Endurance grants +4 on endurance and exposure checks and saves, including Swim to resist nonlethal damage and Constitution checks for continuing to run, forced marches, holding breath, and avoiding starvation or thirst.",
+      "Advancement: 12–16 HD (Huge); 17–33 HD (Gargantuan).",
+      "The giant entry gives the damage and uses the constrictor family rules to resolve the hold."
+    ],
+    "mechanics": {
+      "Special attack": [
+        {
+          "name": "Improved Grab (Ex)",
+          "effectNote": "After hitting with Bite, start a grapple as a free action against a smaller target without provoking an attack of opportunity. Win the grapple check to pull the target into the snake’s space. It can hold using only its mouth at a −20 grapple penalty and avoid taking the grappled penalties."
+        },
+        {
+          "name": "Constrict (Ex)",
+          "effectNote": "A successful grapple check deals 1d8+10 constriction damage. Apply the normal improved-grab weapon damage on later successful grapple checks to maintain the hold as well."
+        }
+      ],
+      "Trait": [
+        {
+          "name": "Scent (Ex)",
+          "effectNote": "Detect creatures by smell within 30 ft., 60 ft. if upwind or 15 ft. if downwind. Use a move action to find the direction. Pinpoint the creature within 5 ft."
+        },
+        {
+          "name": "Snake skills",
+          "effectNote": "The listed modifiers include +4 racial to Hide, Listen and Spot, and +8 racial to Balance and Climb. Use the higher of Strength or Dexterity for Climb. The snake can take 10 on Climb even when rushed or threatened."
+        },
+        {
+          "name": "Swim",
+          "effectNote": "The listed modifier includes the +8 racial bonus for hazards or special maneuvers. Take 10 even when threatened or distracted. It can run while swimming in a straight line."
+        }
+      ]
+    }
+  },
+  {
+    "name": "Heavy Horse",
+    "kind": "beast",
+    "edition": "3.5 edition",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "ruleset": "dnd-3.5",
+    "appearance": "A large working horse with a broad chest, powerful shoulders and a heavy build like a Clydesdale.",
+    "combat": {
+      "armorClass": 13,
+      "armorClassNote": "-1 size, +1 Dex, +3 natural",
+      "touchArmorClass": 10,
+      "flatFootedArmorClass": 12,
+      "hitPoints": 19,
+      "hitDice": "3d8+6",
+      "challenge": "1",
+      "size": "Large",
+      "creatureType": "Animal",
+      "speed": {
+        "walk": 50
+      },
+      "initiativeModifier": 1,
+      "baseAttackBonus": 2,
+      "grappleModifier": 9,
+      "savingThrows": {
+        "Fort": 5,
+        "Ref": 4,
+        "Will": 2
+      },
+      "abilities": {
+        "STR": 16,
+        "DEX": 13,
+        "CON": 15,
+        "INT": 2,
+        "WIS": 12,
+        "CHA": 6
+      },
+      "skills": {
+        "Listen": 4,
+        "Spot": 4
+      },
+      "habitats": [
+        "Temperate plains"
+      ],
+      "senses": [
+        "Low-light vision",
+        "scent"
+      ],
+      "attackOptions": "Space 10 ft. and reach 5 ft. Attack: Hoof –1 melee (1d6+1). Full attack: 2 hooves –1 melee (1d6+1).",
+      "attacks": [
+        {
+          "name": "Hoof",
+          "mode": "melee",
+          "hitBonus": -1,
+          "reach": 5,
+          "damage": [
+            {
+              "dice": "1d6+1",
+              "type": "bludgeoning"
+            }
+          ]
+        }
+      ]
+    },
+    "notes": [
+      "Always neutral. Organization as printed: Domesticated.",
+      "Feats: Endurance, Run.",
+      "Endurance grants +4 on endurance and exposure checks and saves, including Swim to resist nonlethal damage and Constitution checks for continuing to run, forced marches, holding breath, and avoiding starvation or thirst."
+    ],
+    "mechanics": {
+      "Trait": [
+        {
+          "name": "Scent (Ex)",
+          "effectNote": "Detect creatures by smell within 30 ft., 60 ft. if upwind or 15 ft. if downwind. Use a move action to find the direction. Pinpoint the creature within 5 ft."
+        },
+        {
+          "name": "Carrying capacity",
+          "effectNote": "Light up to 200 lb., medium 201–400 lb., heavy 401–600 lb. Can drag 3,000 lb."
+        },
+        {
+          "name": "Mounted combat",
+          "effectNote": "The horse cannot fight while carrying a rider. It rarely attacks with its hooves. The listed secondary hoof attack adds half its Strength modifier to damage. A rider controlling it in battle makes a DC 20 Ride check as a move action."
+        },
+        {
+          "name": "Run",
+          "effectNote": "Run at five times speed with up to medium armor and load, or four times with heavy armor or load. Add +4 to Jump with a running start. Keep the Dexterity bonus to AC."
+        }
+      ]
+    }
+  },
+  {
+    "name": "Heavy Warhorse",
+    "kind": "beast",
+    "edition": "3.5 edition",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "ruleset": "dnd-3.5",
+    "appearance": "A broad-chested warhorse bred for strength, with a heavy neck and powerful hindquarters.",
+    "combat": {
+      "armorClass": 14,
+      "armorClassNote": "-1 size, +1 Dex, +4 natural",
+      "touchArmorClass": 10,
+      "flatFootedArmorClass": 13,
+      "hitPoints": 30,
+      "hitDice": "4d8+12",
+      "challenge": "2",
+      "size": "Large",
+      "creatureType": "Animal",
+      "speed": {
+        "walk": 50
+      },
+      "initiativeModifier": 1,
+      "baseAttackBonus": 3,
+      "grappleModifier": 11,
+      "savingThrows": {
+        "Fort": 7,
+        "Ref": 5,
+        "Will": 2
+      },
+      "abilities": {
+        "STR": 18,
+        "DEX": 13,
+        "CON": 17,
+        "INT": 2,
+        "WIS": 13,
+        "CHA": 6
+      },
+      "skills": {
+        "Listen": 5,
+        "Spot": 4
+      },
+      "habitats": [
+        "Temperate plains"
+      ],
+      "senses": [
+        "Low-light vision",
+        "scent"
+      ],
+      "attackOptions": "Space 10 ft. and reach 5 ft. Attack: Hoof +6 melee (1d6+4). Full attack: 2 hooves +6 melee (1d6+4) and bite +1 melee (1d4+2).",
+      "attacks": [
+        {
+          "name": "Hoof",
+          "mode": "melee",
+          "hitBonus": 6,
+          "reach": 5,
+          "damage": [
+            {
+              "dice": "1d6+4",
+              "type": "bludgeoning"
+            }
+          ]
+        },
+        {
+          "name": "Bite",
+          "mode": "melee",
+          "hitBonus": 1,
+          "reach": 5,
+          "damage": [
+            {
+              "dice": "1d4+2",
+              "type": "piercing, slashing and bludgeoning"
+            }
+          ]
+        }
+      ]
+    },
+    "notes": [
+      "Always neutral. Organization as printed: Domesticated.",
+      "Feats: Endurance, Run.",
+      "Endurance grants +4 on endurance and exposure checks and saves, including Swim to resist nonlethal damage and Constitution checks for continuing to run, forced marches, holding breath, and avoiding starvation or thirst."
+    ],
+    "mechanics": {
+      "Trait": [
+        {
+          "name": "Scent (Ex)",
+          "effectNote": "Detect creatures by smell within 30 ft., 60 ft. if upwind or 15 ft. if downwind. Use a move action to find the direction. Pinpoint the creature within 5 ft."
+        },
+        {
+          "name": "Carrying capacity",
+          "effectNote": "Light up to 300 lb., medium 301–600 lb., heavy 601–900 lb. Can drag 4,500 lb."
+        },
+        {
+          "name": "Mounted combat",
+          "effectNote": "The warhorse can attack while ridden. A DC 10 Ride check as a free action lets the rider and mount both attack."
+        },
+        {
+          "name": "Run",
+          "effectNote": "Run at five times speed with up to medium armor and load, or four times with heavy armor or load. Add +4 to Jump with a running start. Keep the Dexterity bonus to AC."
+        }
+      ]
+    }
+  },
+  {
+    "name": "Huge Viper Snake",
+    "kind": "beast",
+    "edition": "3.5 edition",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "ruleset": "dnd-3.5",
+    "appearance": "An enormous viper with broad coils, a distinct head and hinged venomous fangs.",
+    "combat": {
+      "armorClass": 15,
+      "armorClassNote": "-2 size, +2 Dex, +5 natural",
+      "touchArmorClass": 10,
+      "flatFootedArmorClass": 15,
+      "hitPoints": 33,
+      "hitDice": "6d8+6",
+      "challenge": "3",
+      "size": "Huge",
+      "creatureType": "Animal",
+      "speed": {
+        "walk": 20,
+        "climb": 20,
+        "swim": 20
+      },
+      "initiativeModifier": 6,
+      "baseAttackBonus": 4,
+      "grappleModifier": 15,
+      "savingThrows": {
+        "Fort": 6,
+        "Ref": 7,
+        "Will": 3
+      },
+      "abilities": {
+        "STR": 16,
+        "DEX": 15,
+        "CON": 13,
+        "INT": 1,
+        "WIS": 12,
+        "CHA": 2
+      },
+      "skills": {
+        "Balance": 10,
+        "Climb": 11,
+        "Hide": 3,
+        "Listen": 7,
+        "Spot": 7,
+        "Swim": 11
+      },
+      "habitats": [
+        "Temperate marshes"
+      ],
+      "senses": [
+        "Scent",
+        "Low-light vision"
+      ],
+      "attackOptions": "Space 15 ft. and reach 10 ft. Attack and full attack each use one Bite attack.",
+      "attacks": [
+        {
+          "name": "Bite",
+          "mode": "melee",
+          "hitBonus": 6,
+          "reach": 10,
+          "damage": [
+            {
+              "dice": "1d6+4",
+              "type": "piercing, slashing and bludgeoning"
+            }
+          ]
+        }
+      ]
+    },
+    "notes": [
+      "Always neutral. Organization as printed: Solitary.",
+      "Feats: Improved Initiative, Run, Weapon Focus (bite).",
+      "Advancement: 7–18 HD (Huge).",
+      "The RTF, and linked HTML print flat-footed AC 15. Subtracting its +2 Dexterity from AC 15 gives 13. Use the printed 15 for this record."
+    ],
+    "mechanics": {
+      "Special attack": [
+        {
+          "name": "Poison (Ex)",
+          "effectNote": "After a damaging bite, save immediately and again 1 minute later even if the first save succeeds. Each failure deals 1d6 Constitution damage. The viper is immune to its own venom and that of others of its kind.",
+          "saves": [
+            {
+              "ability": "Fortitude",
+              "dc": 14
+            }
+          ]
+        }
+      ],
+      "Trait": [
+        {
+          "name": "Scent (Ex)",
+          "effectNote": "Detect creatures by smell within 30 ft., 60 ft. if upwind or 15 ft. if downwind. Use a move action to find the direction. Pinpoint the creature within 5 ft."
+        },
+        {
+          "name": "Snake skills",
+          "effectNote": "The listed modifiers include +4 racial to Hide, Listen and Spot, and +8 racial to Balance and Climb. Use the higher of Strength or Dexterity for Climb. The snake can take 10 on Climb even when rushed or threatened."
+        },
+        {
+          "name": "Swim",
+          "effectNote": "The listed modifier includes the +8 racial bonus for hazards or special maneuvers. Take 10 even when threatened or distracted. It can run while swimming in a straight line."
+        }
+      ]
+    }
+  },
+  {
+    "name": "Large Shark",
+    "kind": "beast",
+    "edition": "3.5 edition",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "ruleset": "dnd-3.5",
+    "appearance": "A heavy-bodied shark about 15 feet long, with a triangular dorsal fin and powerful jaws.",
+    "combat": {
+      "armorClass": 15,
+      "armorClassNote": "-1 size, +2 Dex, +4 natural",
+      "touchArmorClass": 11,
+      "flatFootedArmorClass": 13,
+      "hitPoints": 38,
+      "hitDice": "7d8+7",
+      "challenge": "2",
+      "size": "Large",
+      "creatureType": "Animal (Aquatic)",
+      "speed": {
+        "walk": 60
+      },
+      "initiativeModifier": 6,
+      "baseAttackBonus": 5,
+      "grappleModifier": 12,
+      "savingThrows": {
+        "Fort": 8,
+        "Ref": 7,
+        "Will": 3
+      },
+      "abilities": {
+        "STR": 17,
+        "DEX": 15,
+        "CON": 13,
+        "INT": 1,
+        "WIS": 12,
+        "CHA": 2
+      },
+      "skills": {
+        "Listen": 8,
+        "Spot": 7,
+        "Swim": 11
+      },
+      "habitats": [
+        "Cold aquatic"
+      ],
+      "senses": [
+        "Blindsense",
+        "keen scent",
+        "Low-light vision"
+      ],
+      "attackOptions": "Space 10 ft. and reach 5 ft. Attack and full attack each use one Bite attack.",
+      "attacks": [
+        {
+          "name": "Bite",
+          "mode": "melee",
+          "hitBonus": 7,
+          "reach": 5,
+          "damage": [
+            {
+              "dice": "1d8+4",
+              "type": "piercing, slashing and bludgeoning"
+            }
+          ]
+        }
+      ]
+    },
+    "notes": [
+      "Always neutral. Organization as printed: Solitary, school (2–5), or pack (6–11).",
+      "Feats: Alertness, Great Fortitude, Improved Initiative.",
+      "Advancement: 8–9 HD (Large)."
+    ],
+    "mechanics": {
+      "Trait": [
+        {
+          "name": "Blindsense (Ex)",
+          "effectNote": "While underwater, locate underwater creatures within 30 ft. and line of effect. Unseen creatures still have total concealment."
+        },
+        {
+          "name": "Keen Scent (Ex)",
+          "effectNote": "Detect creatures by scent within 180 ft. and blood in water up to 1 mile away."
+        },
+        {
+          "name": "Aquatic subtype",
+          "effectNote": "Breathes underwater and cannot breathe air. Ordinary swimming requires no Swim check."
+        },
+        {
+          "name": "Swim",
+          "effectNote": "The listed modifier includes the +8 racial bonus for hazards or special maneuvers. Take 10 even when threatened or distracted. It can run while swimming in a straight line."
+        }
+      ]
+    }
+  },
+  {
+    "name": "Large Viper Snake",
+    "kind": "beast",
+    "edition": "3.5 edition",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "ruleset": "dnd-3.5",
+    "appearance": "A thick-bodied viper with a tapering tail, dark markings and hinged venomous fangs.",
+    "combat": {
+      "armorClass": 15,
+      "armorClassNote": "-1 size, +3 Dex, +3 natural",
+      "touchArmorClass": 12,
+      "flatFootedArmorClass": 12,
+      "hitPoints": 13,
+      "hitDice": "3d8",
+      "challenge": "2",
+      "size": "Large",
+      "creatureType": "Animal",
+      "speed": {
+        "walk": 20,
+        "climb": 20,
+        "swim": 20
+      },
+      "initiativeModifier": 7,
+      "baseAttackBonus": 2,
+      "grappleModifier": 6,
+      "savingThrows": {
+        "Fort": 3,
+        "Ref": 6,
+        "Will": 2
+      },
+      "abilities": {
+        "STR": 10,
+        "DEX": 17,
+        "CON": 11,
+        "INT": 1,
+        "WIS": 12,
+        "CHA": 2
+      },
+      "skills": {
+        "Balance": 11,
+        "Climb": 11,
+        "Hide": 8,
+        "Listen": 5,
+        "Spot": 6,
+        "Swim": 8
+      },
+      "habitats": [
+        "Temperate marshes"
+      ],
+      "senses": [
+        "Scent",
+        "Low-light vision"
+      ],
+      "attackOptions": "Space 10 ft. and reach 5 ft. Attack and full attack each use one Bite attack.",
+      "attacks": [
+        {
+          "name": "Bite",
+          "mode": "melee",
+          "hitBonus": 4,
+          "reach": 5,
+          "damage": [
+            {
+              "dice": "1d4",
+              "type": "piercing, slashing and bludgeoning"
+            }
+          ]
+        }
+      ]
+    },
+    "notes": [
+      "Always neutral. Organization as printed: Solitary.",
+      "Feats: Improved Initiative, Weapon Finesse."
+    ],
+    "mechanics": {
+      "Special attack": [
+        {
+          "name": "Poison (Ex)",
+          "effectNote": "After a damaging bite, save immediately and again 1 minute later even if the first save succeeds. Each failure deals 1d6 Constitution damage. The viper is immune to its own venom and that of others of its kind.",
+          "saves": [
+            {
+              "ability": "Fortitude",
+              "dc": 11
+            }
+          ]
+        }
+      ],
+      "Trait": [
+        {
+          "name": "Scent (Ex)",
+          "effectNote": "Detect creatures by smell within 30 ft., 60 ft. if upwind or 15 ft. if downwind. Use a move action to find the direction. Pinpoint the creature within 5 ft."
+        },
+        {
+          "name": "Snake skills",
+          "effectNote": "The listed modifiers include +4 racial to Hide, Listen and Spot, and +8 racial to Balance and Climb. Use the higher of Strength or Dexterity for Climb. The snake can take 10 on Climb even when rushed or threatened."
+        },
+        {
+          "name": "Swim",
+          "effectNote": "The listed modifier includes the +8 racial bonus for hazards or special maneuvers. Take 10 even when threatened or distracted. It can run while swimming in a straight line."
+        }
+      ]
+    }
+  },
+  {
+    "name": "Light Horse",
+    "kind": "beast",
+    "edition": "3.5 edition",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "ruleset": "dnd-3.5",
+    "appearance": "A lighter riding horse with a leaner build, long legs, a mane and a flowing tail.",
+    "combat": {
+      "armorClass": 13,
+      "armorClassNote": "-1 size, +1 Dex, +3 natural",
+      "touchArmorClass": 10,
+      "flatFootedArmorClass": 12,
+      "hitPoints": 19,
+      "hitDice": "3d8+6",
+      "challenge": "1",
+      "size": "Large",
+      "creatureType": "Animal",
+      "speed": {
+        "walk": 60
+      },
+      "initiativeModifier": 1,
+      "baseAttackBonus": 2,
+      "grappleModifier": 8,
+      "savingThrows": {
+        "Fort": 5,
+        "Ref": 4,
+        "Will": 2
+      },
+      "abilities": {
+        "STR": 14,
+        "DEX": 13,
+        "CON": 15,
+        "INT": 2,
+        "WIS": 12,
+        "CHA": 6
+      },
+      "skills": {
+        "Listen": 4,
+        "Spot": 4
+      },
+      "habitats": [
+        "Temperate plains"
+      ],
+      "senses": [
+        "Low-light vision",
+        "scent"
+      ],
+      "attackOptions": "Space 10 ft. and reach 5 ft. Attack: Hoof –2 melee (1d4+1). Full attack: 2 hooves –2 melee (1d4+1).",
+      "attacks": [
+        {
+          "name": "Hoof",
+          "mode": "melee",
+          "hitBonus": -2,
+          "reach": 5,
+          "damage": [
+            {
+              "dice": "1d4+1",
+              "type": "bludgeoning"
+            }
+          ]
+        }
+      ]
+    },
+    "notes": [
+      "Always neutral. Organization as printed: Domesticated or herd (6–30).",
+      "Feats: Endurance, Run.",
+      "Endurance grants +4 on endurance and exposure checks and saves, including Swim to resist nonlethal damage and Constitution checks for continuing to run, forced marches, holding breath, and avoiding starvation or thirst."
+    ],
+    "mechanics": {
+      "Trait": [
+        {
+          "name": "Scent (Ex)",
+          "effectNote": "Detect creatures by smell within 30 ft., 60 ft. if upwind or 15 ft. if downwind. Use a move action to find the direction. Pinpoint the creature within 5 ft."
+        },
+        {
+          "name": "Carrying capacity",
+          "effectNote": "Light up to 150 lb., medium 151–300 lb., heavy 301–450 lb. Can drag 2,250 lb."
+        },
+        {
+          "name": "Mounted combat",
+          "effectNote": "The horse cannot fight while carrying a rider. It rarely attacks with its hooves. The listed secondary hoof attack adds half its Strength modifier to damage. A rider controlling it in battle makes a DC 20 Ride check as a move action."
+        },
+        {
+          "name": "Run",
+          "effectNote": "Run at five times speed with up to medium armor and load, or four times with heavy armor or load. Add +4 to Jump with a running start. Keep the Dexterity bonus to AC."
+        }
+      ]
+    }
+  },
+  {
+    "name": "Light Warhorse",
+    "kind": "beast",
+    "edition": "3.5 edition",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "ruleset": "dnd-3.5",
+    "appearance": "A lightly built warhorse with long legs and the muscular neck and shoulders of a trained riding mount.",
+    "combat": {
+      "armorClass": 14,
+      "armorClassNote": "-1 size, +1 Dex, +4 natural",
+      "touchArmorClass": 10,
+      "flatFootedArmorClass": 13,
+      "hitPoints": 22,
+      "hitDice": "3d8+9",
+      "challenge": "1",
+      "size": "Large",
+      "creatureType": "Animal",
+      "speed": {
+        "walk": 60
+      },
+      "initiativeModifier": 1,
+      "baseAttackBonus": 2,
+      "grappleModifier": 9,
+      "savingThrows": {
+        "Fort": 6,
+        "Ref": 4,
+        "Will": 2
+      },
+      "abilities": {
+        "STR": 16,
+        "DEX": 13,
+        "CON": 17,
+        "INT": 2,
+        "WIS": 13,
+        "CHA": 6
+      },
+      "skills": {
+        "Listen": 4,
+        "Spot": 4
+      },
+      "habitats": [
+        "Temperate plains"
+      ],
+      "senses": [
+        "Low-light vision",
+        "scent"
+      ],
+      "attackOptions": "Space 10 ft. and reach 5 ft. Attack: Hoof +4 melee (1d4+3). Full attack: 2 hooves +4 melee (1d4+3) and bite –1 melee (1d3+1).",
+      "attacks": [
+        {
+          "name": "Hoof",
+          "mode": "melee",
+          "hitBonus": 4,
+          "reach": 5,
+          "damage": [
+            {
+              "dice": "1d4+3",
+              "type": "bludgeoning"
+            }
+          ]
+        },
+        {
+          "name": "Bite",
+          "mode": "melee",
+          "hitBonus": -1,
+          "reach": 5,
+          "damage": [
+            {
+              "dice": "1d3+1",
+              "type": "piercing, slashing and bludgeoning"
+            }
+          ]
+        }
+      ]
+    },
+    "notes": [
+      "Always neutral. Organization as printed: Domesticated.",
+      "Feats: Endurance, Run.",
+      "Endurance grants +4 on endurance and exposure checks and saves, including Swim to resist nonlethal damage and Constitution checks for continuing to run, forced marches, holding breath, and avoiding starvation or thirst."
+    ],
+    "mechanics": {
+      "Trait": [
+        {
+          "name": "Scent (Ex)",
+          "effectNote": "Detect creatures by smell within 30 ft., 60 ft. if upwind or 15 ft. if downwind. Use a move action to find the direction. Pinpoint the creature within 5 ft."
+        },
+        {
+          "name": "Carrying capacity",
+          "effectNote": "Light up to 230 lb., medium 231–460 lb., heavy 461–690 lb. Can drag 3,450 lb."
+        },
+        {
+          "name": "Mounted combat",
+          "effectNote": "The warhorse can attack while ridden. A DC 10 Ride check as a free action lets the rider and mount both attack."
+        },
+        {
+          "name": "Run",
+          "effectNote": "Run at five times speed with up to medium armor and load, or four times with heavy armor or load. Add +4 to Jump with a running start. Keep the Dexterity bonus to AC."
+        }
+      ]
+    }
+  },
+  {
+    "name": "Lizard",
+    "kind": "beast",
+    "edition": "3.5 edition",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "ruleset": "dnd-3.5",
+    "appearance": "A small, nonvenomous lizard, roughly one to two feet long, with four clawed feet and a long tail.",
+    "combat": {
+      "armorClass": 14,
+      "armorClassNote": "+2 size, +2 Dex",
+      "touchArmorClass": 14,
+      "flatFootedArmorClass": 12,
+      "hitPoints": 2,
+      "hitDice": "1/2 d8",
+      "challenge": "1/6",
+      "size": "Tiny",
+      "creatureType": "Animal",
+      "speed": {
+        "walk": 20,
+        "climb": 20
+      },
+      "initiativeModifier": 2,
+      "baseAttackBonus": 0,
+      "grappleModifier": -12,
+      "savingThrows": {
+        "Fort": 2,
+        "Ref": 4,
+        "Will": 1
+      },
+      "abilities": {
+        "STR": 3,
+        "DEX": 15,
+        "CON": 10,
+        "INT": 1,
+        "WIS": 12,
+        "CHA": 2
+      },
+      "skills": {
+        "Balance": 10,
+        "Climb": 12,
+        "Hide": 10,
+        "Listen": 3,
+        "Spot": 3
+      },
+      "habitats": [
+        "Warm forests"
+      ],
+      "senses": [
+        "Low-light vision"
+      ],
+      "attackOptions": "Space 2-1/2 ft. and reach 0 ft. Attack and full attack each use one Bite attack.",
+      "attacks": [
+        {
+          "name": "Bite",
+          "mode": "melee",
+          "hitBonus": 4,
+          "reach": 0,
+          "damage": [
+            {
+              "dice": "1d4-4",
+              "type": "piercing, slashing and bludgeoning"
+            }
+          ]
+        }
+      ]
+    },
+    "notes": [
+      "Always neutral. Organization as printed: Solitary.",
+      "Feats: Weapon Finesse.",
+      "It usually flees and bites if cornered.",
+      "Monster Manual errata grants Stealthy and makes Weapon Finesse a bonus feat. It gives Hide +12 and Move Silently +4. Use the original SRD values for this printing.",
+      "A hit whose printed damage roll falls below 1 deals a minimum of 1 damage before defenses.",
+      "With 0 ft. of reach, it must enter the target’s space to make its melee attack."
+    ],
+    "mechanics": {
+      "Trait": [
+        {
+          "name": "Lizard skills",
+          "effectNote": "Includes +8 racial to Balance and Climb. Use Dexterity for Climb and take 10 even when rushed or threatened."
+        }
+      ]
+    }
+  },
+  {
+    "name": "Medium Shark",
+    "kind": "beast",
+    "edition": "3.5 edition",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "ruleset": "dnd-3.5",
+    "appearance": "A shark about five to eight feet long, with a tapered body, prominent dorsal fin and rows of teeth.",
+    "combat": {
+      "armorClass": 15,
+      "armorClassNote": "+2 Dex, +3 natural",
+      "touchArmorClass": 12,
+      "flatFootedArmorClass": 13,
+      "hitPoints": 16,
+      "hitDice": "3d8+3",
+      "challenge": "1",
+      "size": "Medium",
+      "creatureType": "Animal (Aquatic)",
+      "speed": {
+        "walk": 60
+      },
+      "initiativeModifier": 2,
+      "baseAttackBonus": 2,
+      "grappleModifier": 3,
+      "savingThrows": {
+        "Fort": 4,
+        "Ref": 5,
+        "Will": 2
+      },
+      "abilities": {
+        "STR": 13,
+        "DEX": 15,
+        "CON": 13,
+        "INT": 1,
+        "WIS": 12,
+        "CHA": 2
+      },
+      "skills": {
+        "Listen": 6,
+        "Spot": 6,
+        "Swim": 9
+      },
+      "habitats": [
+        "Cold aquatic"
+      ],
+      "senses": [
+        "Blindsense",
+        "keen scent",
+        "Low-light vision"
+      ],
+      "attackOptions": "Space 5 ft. and reach 5 ft. Attack and full attack each use one Bite attack.",
+      "attacks": [
+        {
+          "name": "Bite",
+          "mode": "melee",
+          "hitBonus": 4,
+          "reach": 5,
+          "damage": [
+            {
+              "dice": "1d6+1",
+              "type": "piercing, slashing and bludgeoning"
+            }
+          ]
+        }
+      ]
+    },
+    "notes": [
+      "Always neutral. Organization as printed: Solitary, school (2–5), or pack (6–11).",
+      "Feats: Alertness, Weapon Finesse.",
+      "Advancement: 4–6 HD (Medium)."
+    ],
+    "mechanics": {
+      "Trait": [
+        {
+          "name": "Blindsense (Ex)",
+          "effectNote": "While underwater, locate underwater creatures within 30 ft. and line of effect. Unseen creatures still have total concealment."
+        },
+        {
+          "name": "Keen Scent (Ex)",
+          "effectNote": "Detect creatures by scent within 180 ft. and blood in water up to 1 mile away."
+        },
+        {
+          "name": "Aquatic subtype",
+          "effectNote": "Breathes underwater and cannot breathe air. Ordinary swimming requires no Swim check."
+        },
+        {
+          "name": "Swim",
+          "effectNote": "The listed modifier includes the +8 racial bonus for hazards or special maneuvers. Take 10 even when threatened or distracted. It can run while swimming in a straight line."
+        }
+      ]
+    }
+  },
+  {
+    "name": "Rat",
+    "kind": "beast",
+    "edition": "3.5 edition",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "ruleset": "dnd-3.5",
+    "appearance": "A small rodent with coarse gray-brown fur, rounded ears, long whiskers and a nearly hairless tail.",
+    "combat": {
+      "armorClass": 14,
+      "armorClassNote": "+2 size, +2 Dex",
+      "touchArmorClass": 14,
+      "flatFootedArmorClass": 12,
+      "hitPoints": 1,
+      "hitDice": "1/4 d8",
+      "challenge": "1/8",
+      "size": "Tiny",
+      "creatureType": "Animal",
+      "speed": {
+        "walk": 15,
+        "climb": 15,
+        "swim": 15
+      },
+      "initiativeModifier": 2,
+      "baseAttackBonus": 0,
+      "grappleModifier": -12,
+      "savingThrows": {
+        "Fort": 2,
+        "Ref": 4,
+        "Will": 1
+      },
+      "abilities": {
+        "STR": 2,
+        "DEX": 15,
+        "CON": 10,
+        "INT": 2,
+        "WIS": 12,
+        "CHA": 2
+      },
+      "skills": {
+        "Balance": 10,
+        "Climb": 12,
+        "Hide": 14,
+        "Move Silently": 10,
+        "Swim": 10
+      },
+      "habitats": [
+        "Any"
+      ],
+      "senses": [
+        "Low-light vision",
+        "scent"
+      ],
+      "attackOptions": "Space 2-1/2 ft. and reach 0 ft. Attack and full attack each use one Bite attack.",
+      "attacks": [
+        {
+          "name": "Bite",
+          "mode": "melee",
+          "hitBonus": 4,
+          "reach": 0,
+          "damage": [
+            {
+              "dice": "1d3-4",
+              "type": "piercing, slashing and bludgeoning"
+            }
+          ]
+        }
+      ]
+    },
+    "notes": [
+      "Always neutral. Organization as printed: Plague (10–100).",
+      "Feats: Weapon Finesse.",
+      "It usually flees and bites as a last resort.",
+      "Monster Manual errata grants Stealthy and makes Weapon Finesse a bonus feat. It gives Hide +16 and raises the original Move Silently +10 to +12. The d20srd.org reprint shows Hide +16 and still lists Move Silently +10. Use the original SRD values for this printing.",
+      "A hit whose printed damage roll falls below 1 deals a minimum of 1 damage before defenses.",
+      "With 0 ft. of reach, it must enter the target’s space to make its melee attack."
+    ],
+    "mechanics": {
+      "Trait": [
+        {
+          "name": "Scent (Ex)",
+          "effectNote": "Detect creatures by smell within 30 ft., 60 ft. if upwind or 15 ft. if downwind. Use a move action to find the direction. Pinpoint the creature within 5 ft."
+        },
+        {
+          "name": "Rat skills",
+          "effectNote": "Includes +4 racial to Hide and Move Silently and +8 racial to Balance, Climb and Swim. Use Dexterity for Climb and Swim. Take 10 on Climb even when rushed or threatened. The repeated +8 Swim entry is the same racial bonus."
+        },
+        {
+          "name": "Swim",
+          "effectNote": "The listed modifier includes the +8 racial bonus for hazards or special maneuvers. Take 10 even when threatened or distracted. It can run while swimming in a straight line."
+        }
+      ]
+    }
+  },
+  {
+    "name": "Raven",
+    "kind": "beast",
+    "edition": "3.5 edition",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "ruleset": "dnd-3.5",
+    "appearance": "A glossy black bird about two feet long with a wingspan of about four feet and a heavy bill.",
+    "combat": {
+      "armorClass": 14,
+      "armorClassNote": "+2 size, +2 Dex",
+      "touchArmorClass": 14,
+      "flatFootedArmorClass": 12,
+      "hitPoints": 1,
+      "hitDice": "1/4 d8",
+      "challenge": "1/6",
+      "size": "Tiny",
+      "creatureType": "Animal",
+      "speed": {
+        "walk": 10,
+        "fly": 40
+      },
+      "initiativeModifier": 2,
+      "baseAttackBonus": 0,
+      "grappleModifier": -13,
+      "savingThrows": {
+        "Fort": 2,
+        "Ref": 4,
+        "Will": 2
+      },
+      "abilities": {
+        "STR": 1,
+        "DEX": 15,
+        "CON": 10,
+        "INT": 2,
+        "WIS": 14,
+        "CHA": 6
+      },
+      "skills": {
+        "Listen": 3,
+        "Spot": 5
+      },
+      "habitats": [
+        "Temperate forests"
+      ],
+      "senses": [
+        "Low-light vision"
+      ],
+      "attackOptions": "Space 2-1/2 ft. and reach 0 ft. Attack and full attack each use one combined Claws attack.",
+      "speedConditions": {
+        "fly": "Average maneuverability."
+      },
+      "attacks": [
+        {
+          "name": "Claw",
+          "mode": "melee",
+          "hitBonus": 4,
+          "reach": 0,
+          "damage": [
+            {
+              "dice": "1d2-5",
+              "type": "piercing and slashing"
+            }
+          ]
+        }
+      ]
+    },
+    "notes": [
+      "Always neutral. Organization as printed: Solitary.",
+      "Feats: Weapon Finesse.",
+      "Both claws are resolved together as one attack.",
+      "Monster Manual errata grants Alertness and makes Weapon Finesse a bonus feat. It gives Listen +5 and Spot +7. Use the original SRD values for this printing.",
+      "A hit whose printed damage roll falls below 1 deals a minimum of 1 damage before defenses.",
+      "With 0 ft. of reach, it must enter the target’s space to make its melee attack."
+    ]
+  },
+  {
+    "name": "Roc",
+    "kind": "beast",
+    "edition": "3.5 edition",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "ruleset": "dnd-3.5",
+    "appearance": "An enormous bird of prey with dark-brown or golden plumage. The SRD gives a body length of 30 feet and wingspan up to 80 feet.",
+    "combat": {
+      "armorClass": 17,
+      "armorClassNote": "-4 size, +2 Dex, +9 natural",
+      "touchArmorClass": 8,
+      "flatFootedArmorClass": 15,
+      "hitPoints": 207,
+      "hitDice": "18d8+126",
+      "challenge": "9",
+      "size": "Gargantuan",
+      "creatureType": "Animal",
+      "speed": {
+        "walk": 20,
+        "fly": 80
+      },
+      "initiativeModifier": 2,
+      "baseAttackBonus": 13,
+      "grappleModifier": 37,
+      "savingThrows": {
+        "Fort": 18,
+        "Ref": 13,
+        "Will": 9
+      },
+      "abilities": {
+        "STR": 34,
+        "DEX": 15,
+        "CON": 24,
+        "INT": 2,
+        "WIS": 13,
+        "CHA": 11
+      },
+      "skills": {
+        "Hide": -3,
+        "Listen": 10,
+        "Spot": 14
+      },
+      "habitats": [
+        "Warm mountains"
+      ],
+      "senses": [
+        "Low-light vision"
+      ],
+      "attackOptions": "Space 20 ft. and reach 15 ft. Attack: Talon +21 melee (2d6+12). Full attack: 2 talons +21 melee (2d6+12) and bite +19 melee (2d8+6).",
+      "speedConditions": {
+        "fly": "Average maneuverability."
+      },
+      "attacks": [
+        {
+          "name": "Talon",
+          "mode": "melee",
+          "hitBonus": 21,
+          "reach": 15,
+          "damage": [
+            {
+              "dice": "2d6+12",
+              "type": "piercing and slashing"
+            }
+          ]
+        },
+        {
+          "name": "Bite",
+          "mode": "melee",
+          "hitBonus": 19,
+          "reach": 15,
+          "damage": [
+            {
+              "dice": "2d8+6",
+              "type": "piercing, slashing and bludgeoning"
+            }
+          ]
+        }
+      ]
+    },
+    "notes": [
+      "Always neutral. Organization as printed: Solitary or pair.",
+      "Feats: Alertness, Flyby Attack, Iron Will, Multiattack, Power Attack, Snatch, Wingover.",
+      "Advancement: 19–32 HD (Gargantuan); 33–54 (Colossal).",
+      "A hunting roc swoops down on prey. Paired rocs defend their nests together."
+    ],
+    "mechanics": {
+      "Trait": [
+        {
+          "name": "Spot",
+          "effectNote": "The listed Spot bonus includes +4 racial."
+        }
+      ],
+      "Feat": [
+        {
+          "name": "Flyby Attack",
+          "effectNote": "While flying, take a standard action at any point during one move. The roc cannot take a second move action that round."
+        },
+        {
+          "name": "Snatch",
+          "effectNote": "On a talon or bite hit, the roc can start a grapple as with Improved Grab. Against a target three or more sizes smaller, it deals automatic damage from the grabbing weapon each round. It can drop the target as a free action or fling it 1d6 × 10 ft. as a standard action. Fling damage is 1d6 per 10 ft. traveled, or falling damage if greater while airborne."
+        },
+        {
+          "name": "Wingover",
+          "effectNote": "Once per round while flying, spend 10 ft. of movement to turn up to 180 degrees as a free action. It may dive during a wingover but cannot gain altitude that round."
+        },
+        {
+          "name": "Power Attack",
+          "effectNote": "Before attack rolls, trade up to 13 points of melee attack bonus for an equal bonus to melee damage until the roc’s next turn. The secondary Bite’s listed penalty already reflects Multiattack."
+        }
+      ]
+    }
+  },
+  {
+    "name": "Toad",
+    "kind": "beast",
+    "edition": "3.5 edition",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "ruleset": "dnd-3.5",
+    "appearance": "A small, squat amphibian with mottled, bumpy skin and broad-set eyes.",
+    "combat": {
+      "armorClass": 15,
+      "armorClassNote": "+4 size, +1 Dex",
+      "touchArmorClass": 15,
+      "flatFootedArmorClass": 14,
+      "hitPoints": 1,
+      "hitDice": "1/4 d8",
+      "challenge": "1/10",
+      "size": "Diminutive",
+      "creatureType": "Animal",
+      "speed": {
+        "walk": 5
+      },
+      "initiativeModifier": 1,
+      "baseAttackBonus": 0,
+      "grappleModifier": -17,
+      "savingThrows": {
+        "Fort": 2,
+        "Ref": 3,
+        "Will": 2
+      },
+      "abilities": {
+        "STR": 1,
+        "DEX": 12,
+        "CON": 11,
+        "INT": 1,
+        "WIS": 14,
+        "CHA": 4
+      },
+      "skills": {
+        "Hide": 21,
+        "Listen": 4,
+        "Spot": 4
+      },
+      "habitats": [
+        "Temperate marshes"
+      ],
+      "senses": [
+        "low-light vision"
+      ],
+      "attackOptions": "Space 1 ft. and reach 0 ft. No attack or full attack is listed."
+    },
+    "notes": [
+      "Always neutral. Organization as printed: Swarm (10–100).",
+      "Feats: Alertness.",
+      "Swarm is its organization in the table. A single toad uses the Animal type and has no listed attack."
+    ],
+    "mechanics": {
+      "Trait": [
+        {
+          "name": "Amphibious",
+          "effectNote": "The toad can breathe air and water. Its stat block gives a 5 ft. land speed and no swim speed."
+        },
+        {
+          "name": "Camouflage",
+          "effectNote": "Its coloration gives the included +4 racial bonus to Hide."
+        }
+      ]
+    }
+  },
+  {
+    "name": "Weasel",
+    "kind": "beast",
+    "edition": "3.5 edition",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "ruleset": "dnd-3.5",
+    "appearance": "A slender, short-legged mammal with a long flexible body, rounded ears and a pale throat. The same stats can describe a ferret.",
+    "combat": {
+      "armorClass": 14,
+      "armorClassNote": "+2 size, +2 Dex",
+      "touchArmorClass": 14,
+      "flatFootedArmorClass": 12,
+      "hitPoints": 2,
+      "hitDice": "1/2 d8",
+      "challenge": "1/4",
+      "size": "Tiny",
+      "creatureType": "Animal",
+      "speed": {
+        "walk": 20,
+        "climb": 20
+      },
+      "initiativeModifier": 2,
+      "baseAttackBonus": 0,
+      "grappleModifier": -12,
+      "savingThrows": {
+        "Fort": 2,
+        "Ref": 4,
+        "Will": 1
+      },
+      "abilities": {
+        "STR": 3,
+        "DEX": 15,
+        "CON": 10,
+        "INT": 2,
+        "WIS": 12,
+        "CHA": 5
+      },
+      "skills": {
+        "Balance": 10,
+        "Climb": 10,
+        "Hide": 11,
+        "Move Silently": 8,
+        "Spot": 3
+      },
+      "habitats": [
+        "Temperate hills"
+      ],
+      "senses": [
+        "Low-light vision",
+        "scent"
+      ],
+      "attackOptions": "Space 2-1/2 ft. and reach 0 ft. Attack and full attack each use one Bite attack.",
+      "attacks": [
+        {
+          "name": "Bite",
+          "mode": "melee",
+          "hitBonus": 4,
+          "reach": 0,
+          "damage": [
+            {
+              "dice": "1d3-4",
+              "type": "piercing, slashing and bludgeoning"
+            }
+          ]
+        }
+      ]
+    },
+    "notes": [
+      "Always neutral. Organization as printed: Solitary.",
+      "Feats: Weapon Finesse.",
+      "The weasel hunts smaller prey.",
+      "Monster Manual errata grants Agile and makes Weapon Finesse a bonus feat. It gives Balance +12 and Escape Artist +4. Use the original SRD values for this printing.",
+      "A hit whose printed damage roll falls below 1 deals a minimum of 1 damage before defenses.",
+      "With 0 ft. of reach, it must enter the target’s space to make its melee attack."
+    ],
+    "mechanics": {
+      "Special attack": [
+        {
+          "name": "Attach (Ex)",
+          "effectNote": "A successful Bite lets the weasel attach. It deals Bite damage automatically each round it remains attached. AC drops to 12. It can be struck or grappled. A grappler must pin it to remove it."
+        }
+      ],
+      "Trait": [
+        {
+          "name": "Scent (Ex)",
+          "effectNote": "Detect creatures by smell within 30 ft., 60 ft. if upwind or 15 ft. if downwind. Use a move action to find the direction. Pinpoint the creature within 5 ft."
+        },
+        {
+          "name": "Weasel skills",
+          "effectNote": "Includes +4 racial to Move Silently and +8 racial to Balance and Climb. Use Dexterity for Climb and take 10 even when rushed or threatened."
+        }
+      ]
+    }
+  }
+]

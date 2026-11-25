@@ -1,0 +1,17 @@
+# Blood Hound source notes
+
+Blood Hound is catalog entry `beast-3eb2f1acd3df7fc0a803d5ed`, version `529b7fd06ca71593a6be0516`, in *Blood Spawn: Creatures of Light and Shadow*, AD&D 2nd edition. The archived download from Wizards of the Coast matches the local 83-page byte for byte. Both copies have SHA-256 `e13446909f4383a7be2b1ef4e06021ee04b4a7b1c0e632b0dd6ec5ca0eabf5e6`. The printed pages and page numbers agree for this entry. [Archived publisher , p. 13]()
+
+## Blood hound and Vos hound
+
+- The ordinary blood hound is a Medium, neutral, very rare war dog, 4–6 ft. long. The table gives AC 6, movement 12, Hit Dice 3+2, THAC0 19, one attack, morale 11–12 or 20 and 120 XP. It lists solitary organization and 1d4 appearing. It leaves special attacks, special defenses, magic resistance and treasure at nil. The bloodline is tainted, varies in derivation and has a score of 1d3. The listed blood ability is Bloodmark. [Stat table, p. 15]()
+- The table gives **2d4** damage. The combat prose gives **2d4+1** when a provoked blood hound bites. The book leaves the discrepancy unresolved. Use the table value for the catalog and record the prose value in a note. The hound usually tries to pin its quarry and bites if attacked, commanded to do so or if it perceives a threat to its master. No separate pin procedure is provided. A hound with its master's bloodline derivation has morale 20 and fights to the death if it believes the master is in danger, unless the master calls it off. [Combat, p. 14]() · [Stat table, p. 15]()
+- Vos hounds are a wild variant. They hunt blooded prey in packs, are neutral evil, appear in groups of 3d6 and deal 2d6 damage. They serve no master. The book presents their ability to commit bloodtheft as a rumor. They share the entry and have no separate catalog row in this printing. [Vos hound description, p. 14]() · [Variant values, p. 15]()
+- The usual appearance is a large wolfhound or mastiff marked with a patch of red fur. The book associates the ordinary dogs with specialist kennels in Cerilia, generally Anuire. A breeder imprints a hound on a blooded master. Mistreatment, the master's death or an imprinting transfer can end the bond. An exceptional hound has a 5% chance of one additional minor blood ability, chosen by the DM to suit its bloodline. [Appearance and kennels, p. 13]() · [Imprinting, p. 14]()
+
+## Tracking
+
+- The hound automatically catches a blooded individual's scent within one mile or if they passed through the area in the previous five days. The book adds a no-rain proviso to the five-day trail clause.
+- It has a 50% chance to find a scion's trail within five miles or if they passed within five miles in the previous two days. Add 15 percentage points for matching bloodline derivation and another 15 if the hound is pursuing a specific scion and has a personal item carrying their scent. A great bloodline adds 10 points. All three bonuses can apply, for a maximum of 90% on this branch.
+- When sent to find any scion, it excludes members of the hunting party. It leads to the nearest qualifying scion unless another scion in the area shares its bloodline derivation and the nearest one does not. It has a 50% chance to find a specific unblooded commoner within one mile.
+- It can sense that something is off about a creature cloaked in the Seeming. The entry gives it no further information about the disguise. [Tracking and Seeming, p. 15]()

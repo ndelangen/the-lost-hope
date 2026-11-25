@@ -1,0 +1,171 @@
+{
+  "builds": [
+    {
+      "id": "lm-mohrg-orven-glassjaw-35e",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "size": "Medium",
+      "type": "Undead",
+      "title": "Mohrg toll keeper, monster class 12",
+      "difficulty": "ECL 12. 8 undead HD, with level adjustment included in the 12-step class at this point.",
+      "senses": "Darkvision 60 ft.",
+      "speed": "30 ft.",
+      "languages": "Common.",
+      "ac": 18,
+      "hp": 58,
+      "hitDice": "8d12",
+      "initiative": 7,
+      "abilityScores": {
+        "STR": 22,
+        "DEX": 17,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 14
+      },
+      "skills": [
+        "Climb +17",
+        "Hide +14",
+        "Listen +15",
+        "Move Silently +14",
+        "Spot +12",
+        "Swim +6"
+      ],
+      "traits": [
+        "Former human, chaotic evil. Touch AC 13, flat-footed AC 15, 5-ft. space and reach. BAB +4, grapple +14. Fortitude +2, Reflex +5, Will +7. Improved Unarmed Strike, Improved Grapple, Skill Focus (Listen), Improved Initiative.",
+        "Undead traits. No Constitution score. Immune to effects requiring a Fortitude save unless they affect objects or are harmless. Immune to mind-affecting effects, poison, sleep, paralysis, stunning, disease, death effects, ability drain, physical ability damage, energy drain, fatigue and exhaustion. Unaffected by critical hits or nonlethal damage. Healed by negative energy. Destroyed at 0 hp.",
+        "Unarmored. He has no spawn to command. The ability arrives at monster-class level 20."
+      ],
+      "actions": [
+        "Slam +10 melee (1d4+9 bludgeoning). A successful slam against a Medium or smaller creature permits a grapple check at +14 without provoking.",
+        "Paralyzing touch (Su), 1/day. One melee touch attack at +10. On a hit, the target makes a Fortitude DC 16 save or is paralyzed for 1d4 minutes.",
+        "Grapple. An improved grab hold pulls the target into Orven’s space. On later rounds every successful grapple check against the hold deals 1d4+9 bludgeoning from the slam that started it. He can pin with an opposed grapple check."
+      ],
+      "tactics": "Orven demands his old toll. If challenged, he grabs the lead traveler. Before grappling, he can use the tongue to disable a likely rescuer."
+    },
+    {
+      "id": "lm-vampire-spawn-vessa-dain-35e",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "size": "Medium",
+      "type": "Undead",
+      "title": "Free-willed Vampire Spawn porter, monster class 8",
+      "difficulty": "ECL 8. 4 undead HD, with LA +4 included in the class.",
+      "senses": "Darkvision 60 ft.",
+      "speed": "30 ft.",
+      "languages": "Common.",
+      "ac": 16,
+      "hp": 33,
+      "hitDice": "4d12",
+      "initiative": 7,
+      "abilityScores": {
+        "STR": 20,
+        "DEX": 16,
+        "INT": 12,
+        "WIS": 14,
+        "CHA": 22
+      },
+      "skills": [
+        "Bluff +17",
+        "Hide +14",
+        "Listen +12",
+        "Move Silently +14",
+        "Search +5",
+        "Sense Motive +13",
+        "Spot +12"
+      ],
+      "traits": [
+        "Former human, neutral evil. Touch AC 13, flat-footed AC 13, 5-ft. space and reach. BAB +2, grapple +11. Fortitude +1, Reflex +6, Will +6. Improved Unarmed Strike, Improved Grapple, Weapon Focus (slam), Alertness, Lightning Reflexes, Improved Initiative.",
+        "Undead traits. No Constitution score. Immune to effects requiring a Fortitude save unless they affect objects or are harmless. Immune to mind-affecting effects, poison, sleep, paralysis, stunning, disease, death effects, ability drain, physical ability damage, energy drain, fatigue and exhaustion. Unaffected by critical hits or nonlethal damage. Healed by negative energy. +2 turn resistance, damage reduction 5/silver, resistance 10 to cold and electricity, fast healing 2 while above 0 hp. Spider climb lets her move on walls and ceilings at up to 20 ft.",
+        "At 0 hp from combat Vessa automatically becomes gaseous and must reach her coffin within two hours. She regains 1 hp after an hour resting there, then heals 2 hp per round.",
+        "She cannot enter garlic-laced areas. Presenting a mirror or holy symbol as a standard action keeps Vessa 5 ft. away and blocks her melee attacks against its bearer for the encounter. She needs an authorized invitation to enter a private building. In direct sun she can take one move or attack action and is destroyed the next round if she stays exposed. She cannot cross running water except aboard a ship or in her coffin. Immersion deals one-third maximum hp each round and destroys her after three rounds. A wooden stake through the heart slays her until someone removes it or destroys the body."
+      ],
+      "actions": [
+        "Slam +8 melee (1d6+7 bludgeoning). A living target also gains one negative level, and Vessa gains 5 temporary hp for up to an hour. The Fortitude recovery save is DC 18. A negative level gives –1 on attacks, saves, skills and ability checks, costs 5 hp and 1 effective level for level-based effects, and can cost a top-level prepared spell or spell slot. Negative levels equal to Hit Dice kill. Check Fortitude after 24 hours for each level that remains.",
+        "Blood drain (Ex). Start a grapple with a +7 melee touch attack and an opposed check at +11. Pin a living target with a further opposed check. Each round she maintains the pin, the target loses 1d4 Constitution to drain and Vessa gains 5 temporary hp for up to an hour.",
+        "Domination (Su), standard action, range 30 ft. One humanoid that meets her gaze makes Will DC 18. On failure Vessa commands the target as with dominate person (CL 12, duration 12 days). Commands against the target’s nature allow another save at +2. Obviously self-destructive commands fail.",
+        "Gaseous form (Su), at will as a standard action, CL 5. Fly 20 ft. with perfect maneuverability and stay gaseous indefinitely. She can pass through cracks. Her armor and natural armor do not protect her in that form, and she cannot physically attack. Apply the spell’s DR 10/magic and its limits on entering liquid."
+      ],
+      "tactics": "Vessa tries to dominate the person managing the lantern. She grapples an isolated foe and keeps the coffin route clear."
+    },
+    {
+      "id": "lm-wight-harl-fenmark-35e",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "size": "Medium",
+      "type": "Undead",
+      "title": "Wight bridge clerk, monster class 8",
+      "difficulty": "ECL 8. 4 undead HD, with LA +4 included in the class.",
+      "senses": "Darkvision 60 ft.",
+      "speed": "30 ft.",
+      "languages": "Common.",
+      "ac": 17,
+      "hp": 32,
+      "hitDice": "4d12",
+      "initiative": 7,
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 16,
+        "INT": 10,
+        "WIS": 14,
+        "CHA": 16
+      },
+      "skills": [
+        "Hide +10",
+        "Listen +11",
+        "Move Silently +18",
+        "Search +3",
+        "Spot +11"
+      ],
+      "traits": [
+        "Former human, lawful evil. Touch AC 13, flat-footed AC 14, 5-ft. space and reach. BAB +2, grapple +5. Fortitude +1, Reflex +4, Will +6. Improved Initiative, Alertness, Weapon Focus (slam).",
+        "Undead traits. No Constitution score. Immune to effects requiring a Fortitude save unless they affect objects or are harmless. Immune to mind-affecting effects, poison, sleep, paralysis, stunning, disease, death effects, ability drain, physical ability damage, energy drain, fatigue and exhaustion. Unaffected by critical hits or nonlethal damage. Healed by negative energy. Destroyed at 0 hp."
+      ],
+      "actions": [
+        "Slam +6 melee (1d4+4 bludgeoning). A living target gains one negative level. Harl gains 5 temporary hp for up to an hour. The Fortitude recovery save is DC 15. A negative level gives –1 on attacks, saves, skills and ability checks, costs 5 hp and 1 effective level for level-based effects, and can cost a top-level prepared spell or spell slot. Negative levels equal to Hit Dice kill. Check Fortitude after 24 hours for each level that remains.",
+        "Create spawn (Su). A humanoid slain by Harl rises as a Wight under his control after 1d4 rounds. The spawn loses its former abilities and remains enslaved until Harl dies."
+      ],
+      "tactics": "Harl listens under the bridge deck, approaches quietly, and tries to pull the fight out of sight of the watch. He prefers a victim he can kill and raise before the next patrol."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Orven Glassjaw",
+      "species": "Mohrg",
+      "speciesPublication": "Libris Mortis: The Book of Undead (2004)",
+      "edition": "3.5 edition",
+      "build": "lm-mohrg-orven-glassjaw-35e",
+      "size": "Medium",
+      "role": "Undead keeper of a turnpike once abandoned after a series of disappearances.",
+      "motive": "Orven wants to retrieve the old toll register, which ties him to the people he killed.",
+      "hook": "Orven will lift the road chain if someone brings him the register. The families named in it want a chance to read it first."
+    },
+    {
+      "name": "Vessa Dain",
+      "species": "Vampire Spawn",
+      "speciesPublication": "Libris Mortis: The Book of Undead (2004)",
+      "edition": "3.5 edition",
+      "build": "lm-vampire-spawn-vessa-dain-35e",
+      "size": "Medium",
+      "role": "Former tollhouse porter who has taken the night shift back from the living.",
+      "motive": "Find and destroy the old master whose agents still know where her coffin lies.",
+      "hook": "Vessa will name the daytime road to her former master if someone agrees to move her coffin before the next nightfall."
+    },
+    {
+      "name": "Harl Fenmark",
+      "species": "Wight",
+      "speciesPublication": "Libris Mortis: The Book of Undead (2004)",
+      "edition": "3.5 edition",
+      "build": "lm-wight-harl-fenmark-35e",
+      "size": "Medium",
+      "role": "Watch clerk who remembers the tide tables and the disused walkways under the river bridge.",
+      "motive": "Keep his former captain from draining the old watch cellars.",
+      "hook": "Harl can recover a missing ferryman’s ledger if the party marks the sluice control without telling the captain."
+    }
+  ]
+}

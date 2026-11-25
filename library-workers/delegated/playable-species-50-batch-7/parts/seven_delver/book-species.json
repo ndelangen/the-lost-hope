@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Motley",
+    "kind": "species",
+    "publication": "Dungeon Delver's Guide",
+    "edition": "Level Up: Advanced 5th Edition",
+    "traits": [
+      "Medium patchwork heritage with 30-ft. Speed and darkvision 60 ft. Perception proficiency comes with an expertise die. Choose piercing, slashing, or bludgeoning for a natural weapon that sets your unarmed strike damage to 1d6 + Strength modifier.",
+      "Choose one gift. Long Arms extends melee weapon reach by 5 ft. on your turn. Long Legs changes your Speed to 40 ft. and grants expertise on saves against being knocked prone. Prehensile Tail handles objects of at most 5 lb., cannot wield a weapon or shield, gives expertise on balance, climb and Sleight of Hand checks, and gives advantage on saves against falling.",
+      "At level 10 choose a second Motley gift and one paragon option. Brachiator gives a climb speed equal to your Speed and Athletics expertise. Predator Weapons makes unarmed strikes magical, increases them to 1d8 + Strength modifier, and lets you grapple a creature your size or smaller on a hit. Fishkind lets you breathe air and water, swim at your Speed, and add an expertise die to checks and saves to escape grapples."
+    ]
+  },
+  {
+    "name": "Mycelial",
+    "kind": "species",
+    "publication": "Dungeon Delver's Guide",
+    "edition": "Level Up: Advanced 5th Edition",
+    "traits": [
+      "Small, 30-ft. Speed, darkvision 60 ft. Count as Plant and Humanoid. Rocks and soil can replace food, but you still need water. During exploration, one Supply every other day is enough before fatigue sets in. Soft Bodied lets you squeeze as one size smaller.",
+      "As a bonus action release a lightly obscuring spore cloud in a 5-ft. radius centered on you. It lasts 1 minute in air or water unless strong wind or current clears it. Non-Plants entering for the first time on a turn or starting their turn there make a Constitution save, DC 8 + proficiency + Constitution. Failure deals 1d6 poison and poisons through the end of the creature's next turn. Damage rises to 2d6 at level 4, 3d6 at 9, 4d6 at 14, and 5d6 at 19. Affected creatures gain 24-hour immunity. You get proficiency-bonus uses per long rest.",
+      "Choose Adaptability or Overactive Enzymes. Adaptability adds poison resistance and lets you choose one form at each long rest. Amphibious adds water breathing and a swim speed equal to walking speed. Arboreal adds an equal climb speed and a reaction that prevents fall damage. Cold Adapted or Heat Adapted gives resistance to the corresponding damage type. The form lasts until changed.",
+      "Overactive Enzymes grants component-free acid splash. Choose Intelligence, Wisdom, Charisma, or Constitution as its casting ability. It also grants a 10-ft. burrow through nonmagical earth and stone, excluding solid rock. It leaves no tunnel unless you shore it up at the printed slower pace of 5 ft. per 15 minutes.",
+      "At level 10 Specialized Spores removes the immunity granted by prior exposure. Once per day when you release a cloud, choose charmed, confused, or frightened. The chosen condition applies while the cloud poisons a creature."
+    ]
+  },
+  {
+    "name": "Oozefolk",
+    "kind": "species",
+    "publication": "Dungeon Delver's Guide",
+    "edition": "Level Up: Advanced 5th Edition",
+    "traits": [
+      "A first Hit Die of d6 or d8 makes you Small. A larger first Hit Die makes you Medium. Speed 30 ft., darkvision 60 ft., and advantage on saves against effects that alter your form. You can speak mentally to one visible creature within 30 ft. at a time if you share a language.",
+      "Choose two gifts. While unarmored and carrying nothing, Amorphous Body lets you pass through an inch-wide gap without squeezing. Jelly-Faced gives Deception expertise and permits additional die steps from d8 to d10 and d10 to d12. Psychic Resistance grants psychic damage resistance and proficiency in Intelligence saves.",
+      "At level 10 any climb speed you already have works on difficult surfaces and ceilings. Choose one further paragon trait. Corrosive Body switches on or off as a bonus action. While it is on, creatures that touch you or hit you in melee within 5 ft. take acid damage equal to proficiency, and your natural weapons and unarmed strikes add 1d4 acid.",
+      "Transparent Body allows an action of invisibility lasting 1 minute with concentration, once per short or long rest. It covers carried equipment and items. While unarmored, you have advantage on Stealth checks to hide from creatures that are unaware of you."
+    ]
+  },
+  {
+    "name": "Ratling",
+    "kind": "species",
+    "publication": "Dungeon Delver's Guide",
+    "edition": "Level Up: Advanced 5th Edition",
+    "traits": [
+      "Small, 30-ft. Speed, darkvision 60 ft. You are proficient in Perception and add an expertise die if the check relies on smell. You are immune to poison that you ingest.",
+      "Choose one gift. Bottomless Appetite lets you spend an action eating one Supply to gain temporary HP equal to twice your proficiency bonus, with proficiency-bonus uses per long rest.",
+      "Strength in Numbers allows advantage on one ability check made as part of a group check per short or long rest. It also lets you reroll an attack roll once on your turn against a target within 30 ft. if another creature has attacked it in melee since your last turn ended. You get proficiency-bonus rerolls per long rest.",
+      "At level 10 Lucky Escape adds half your proficiency bonus, rounded down, to saving throws in which you lack proficiency."
+    ]
+  },
+  {
+    "name": "Rockborn",
+    "kind": "species",
+    "publication": "Dungeon Delver's Guide",
+    "edition": "Level Up: Advanced 5th Edition",
+    "traits": [
+      "Medium, 30-ft. Speed, darkvision 60 ft., and immunity to petrification. Curl into a boulder as a bonus action and uncurl as an action. In boulder form your Speed is 0. You cannot use a shield or your arms, attack, or cast spells that have seen components.",
+      "While curled, an action rolls you in a straight line up to 30 ft., or 60 ft. downhill. Creatures up to one size larger in your path make a Dexterity save against your maneuver DC. Failure deals 1d4 + Strength modifier bludgeoning to a creature or object. A successful save stops you before entering that creature's space.",
+      "Choose Rockamouflage or Stone Armaments. Rockamouflage gives Stealth proficiency and expertise when hiding among rocks. The die also applies to companions you can see within 30 ft. Stone Armaments lets you repair stone armor and weapons with DC 15 mason's tools and increases an existing attack expertise die one step when you use a stone weapon.",
+      "At level 10 choose Rocking Roll or Stonemeld. Rocking Roll changes damage to 1d12 + Strength modifier, doubles damage to objects, and knocks a creature prone on a failed save. Once per turn a DC 15 Acrobatics or Athletics check lets you turn up to 180 degrees during the roll. Stonemeld gives a burrow speed of half your Speed through unworked nonmagical earth and stone, leaving the surface undisturbed."
+    ]
+  }
+]

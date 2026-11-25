@@ -1,0 +1,214 @@
+[
+  {
+    "name": "Greenspawn Zealot",
+    "publication": "Monster Manual V (2007)",
+    "edition": "3.5 edition",
+    "kind": "species",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Monstrous humanoid (dragonblood)",
+    "url": "",
+    "page": "pp. 74–75",
+    "printedPages": [
+      74,
+      75
+    ],
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 1,
+    "primaryBookSha256": "93245965670f442f17c507b5720b811ab41b44846c3fba5ab0da4a6a96e0c72e",
+    "isbn": "978-0-7869-4115-5",
+    "firstPrinting": "July 2007",
+    "sourceDistinctions": [
+      "Printed p. 4 gives explicit ECL and numeric LA. On p. 6 the introduction describes the class-level heading as advancement for creatures unsuitable for player use. The glossary on p. 213 defines numeric LA for player characters or cohorts. Treat the profile as a DM-approved monster conversion. The NPC follows the printed class advancement.",
+      "This claim uses the green-scaled chaplain in Monster Manual V. Earlier green dragonspawn such as the greenspawn sneak are different entries.",
+      "The build adds cleric 1 to the printed typical specimen. The class contributes +2 Fort and Will base saves and 2 Concentration ranks. Hit points are printed 45 plus a 4 on the cleric die and +3 Constitution. The evil domain slot uses protection from good and spontaneous inflict conversion excludes that slot.",
+      "The source prints the 18-point touch pool. The example adds no class-based pool scaling. The supernatural touch save remains 10 + 3 + 3 = 16 with this build."
+    ],
+    "supportingSources": [
+      {
+        "name": "Monster Manual V, ECL table, p. 4",
+        "url": ""
+      },
+      {
+        "name": "Monster Manual V, description of entry headings, p. 6",
+        "url": ""
+      },
+      {
+        "name": "Monster Manual V, level adjustment glossary, p. 213",
+        "url": ""
+      },
+      {
+        "name": "Revised System Reference Document, Monsters as Races",
+        "url": "https://www.d20srd.org/srd/monstersAsRaces.htm"
+      },
+      {
+        "name": "Revised System Reference Document, armor and shield rules",
+        "url": "https://www.d20srd.org/srd/equipment/armor.htm"
+      },
+      {
+        "name": "Revised System Reference Document, Cleric",
+        "url": "https://www.d20srd.org/srd/classes/cleric.htm"
+      },
+      {
+        "name": "Draconomicon, Tiamat’s domains, p. 31",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Shaedling",
+    "publication": "Monster Manual V (2007)",
+    "edition": "3.5 edition",
+    "kind": "species",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Fey",
+    "url": "",
+    "page": "pp. 148–149",
+    "printedPages": [
+      148,
+      149
+    ],
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 1,
+    "primaryBookSha256": "93245965670f442f17c507b5720b811ab41b44846c3fba5ab0da4a6a96e0c72e",
+    "isbn": "978-0-7869-4115-5",
+    "firstPrinting": "July 2007",
+    "sourceDistinctions": [
+      "Printed p. 4 gives explicit ECL and numeric LA. On p. 6 the introduction describes the class-level heading as advancement for creatures unsuitable for player use. The glossary on p. 213 defines numeric LA for player characters or cohorts. Treat the profile as a DM-approved monster conversion. The NPC follows the printed class advancement.",
+      "The stat block on p. 148 limits Sleeping Curse to its struck target. A Lore result mentions secondary victims, but supplies no procedure. The build uses the stat-block rule. Javelin damage uses the normal gossamer javelin in this encounter.",
+      "p. 148 does not state Wall of Darkness height, placement range or duration. The example sets these at 10 ft., 30 ft. and 5 rounds for table use. Standard action follows the normal supernatural action rule.",
+      "The printed typical specimen has three named feats at four racial Hit Dice without designating a bonus feat. The NPC retains the listed feats. Rogue 1 adds +2 base Reflex, 9 skill ranks, trapfinding and sneak attack. The selected ranks are Hide +1, Move Silently +1, Listen +3, Spot +3 and Tumble +1. HP is printed 22 plus a 4 on the class die and +2 Constitution."
+    ],
+    "supportingSources": [
+      {
+        "name": "Monster Manual V, ECL table, p. 4",
+        "url": ""
+      },
+      {
+        "name": "Monster Manual V, description of entry headings, p. 6",
+        "url": ""
+      },
+      {
+        "name": "Monster Manual V, level adjustment glossary, p. 213",
+        "url": ""
+      },
+      {
+        "name": "Revised System Reference Document, Monsters as Races",
+        "url": "https://www.d20srd.org/srd/monstersAsRaces.htm"
+      },
+      {
+        "name": "Revised System Reference Document, armor and shield rules",
+        "url": "https://www.d20srd.org/srd/equipment/armor.htm"
+      },
+      {
+        "name": "Revised System Reference Document, Rogue",
+        "url": "https://www.d20srd.org/srd/classes/rogue.htm"
+      }
+    ]
+  },
+  {
+    "name": "Bladerager Troll",
+    "publication": "Monster Manual V (2007)",
+    "edition": "3.5 edition",
+    "kind": "species",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Giant",
+    "url": "",
+    "page": "pp. 180–181",
+    "printedPages": [
+      180,
+      181
+    ],
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 1,
+    "primaryBookSha256": "93245965670f442f17c507b5720b811ab41b44846c3fba5ab0da4a6a96e0c72e",
+    "isbn": "978-0-7869-4115-5",
+    "firstPrinting": "July 2007",
+    "sourceDistinctions": [
+      "Printed p. 4 gives explicit ECL and numeric LA. On p. 6 the introduction describes the class-level heading as advancement for creatures unsuitable for player use. The glossary on p. 213 defines numeric LA for player characters or cohorts. Treat the profile as a DM-approved monster conversion. The NPC follows the printed class advancement.",
+      "The original two-page entry describes the operation that makes a troll into this subtype. The catalog groups this source-defined operation under Troll.",
+      "Fighter 1 adds +1 BAB, +2 base Fort, 1 rank in Intimidate and Weapon Focus (claw) as its fighter bonus feat. HP is printed 81 plus a 5 on the fighter die and +9 Constitution.",
+      "The death burst stays DC 22. The large giant attack math is BAB 5, Strength +9, size −1, Weapon Focus +1 for the claws and Multiattack −2 for the bite. Power Attack applies to the natural weapon hits."
+    ],
+    "supportingSources": [
+      {
+        "name": "Monster Manual V, ECL table, p. 4",
+        "url": ""
+      },
+      {
+        "name": "Monster Manual V, description of entry headings, p. 6",
+        "url": ""
+      },
+      {
+        "name": "Monster Manual V, level adjustment glossary, p. 213",
+        "url": ""
+      },
+      {
+        "name": "Revised System Reference Document, Monsters as Races",
+        "url": "https://www.d20srd.org/srd/monstersAsRaces.htm"
+      },
+      {
+        "name": "Revised System Reference Document, armor and shield rules",
+        "url": "https://www.d20srd.org/srd/equipment/armor.htm"
+      },
+      {
+        "name": "Revised System Reference Document, Fighter",
+        "url": "https://www.d20srd.org/srd/classes/fighter.htm"
+      }
+    ]
+  },
+  {
+    "name": "Ushemoi",
+    "publication": "Monster Manual V (2007)",
+    "edition": "3.5 edition",
+    "kind": "species",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Monstrous humanoid",
+    "url": "",
+    "page": "pp. 184–189",
+    "printedPages": [
+      184,
+      185,
+      186,
+      187,
+      188,
+      189
+    ],
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 1,
+    "primaryBookSha256": "93245965670f442f17c507b5720b811ab41b44846c3fba5ab0da4a6a96e0c72e",
+    "isbn": "978-0-7869-4115-5",
+    "firstPrinting": "July 2007",
+    "sourceDistinctions": [
+      "Printed p. 4 gives explicit ECL and numeric LA. On p. 6 the introduction describes the class-level heading as advancement for creatures unsuitable for player use. The glossary on p. 213 defines numeric LA for player characters or cohorts. Treat the profile as a DM-approved monster conversion. The NPC follows the printed class advancement.",
+      "Core claim groups all four printed Ushemoi forms. The Hadrimoi DR uses “and” in its stat block while the other forms either have no such distinction or use “or”. The Turlemoi stat block places Rising Courage on its immunity line. The ability text clarifies the immunity requires a +3 attack bonus from Strength from Pain.",
+      "Barbarian 1 adds +1 BAB, +2 base Fort, one Listen rank and 10 ft. fast movement. At total HD 3, take Toughness for +3 HP. HP is printed 15 plus a 7 on the class die, +3 Constitution and +3 Toughness. Rage adds 2 HP per Hit Die for a total of 6 temporary increase to current and maximum HP, lost when rage ends.",
+      "Toughness is the normal 3 HD feat. Rage rounds are 3 plus the improved +5 Constitution modifier. The pain steps and rage do not change the listed level adjustment."
+    ],
+    "supportingSources": [
+      {
+        "name": "Monster Manual V, ECL table, p. 4",
+        "url": ""
+      },
+      {
+        "name": "Monster Manual V, description of entry headings, p. 6",
+        "url": ""
+      },
+      {
+        "name": "Monster Manual V, level adjustment glossary, p. 213",
+        "url": ""
+      },
+      {
+        "name": "Revised System Reference Document, Monsters as Races",
+        "url": "https://www.d20srd.org/srd/monstersAsRaces.htm"
+      },
+      {
+        "name": "Revised System Reference Document, armor and shield rules",
+        "url": "https://www.d20srd.org/srd/equipment/armor.htm"
+      },
+      {
+        "name": "Revised System Reference Document, Barbarian",
+        "url": "https://www.d20srd.org/srd/classes/barbarian.htm"
+      }
+    ]
+  }
+]

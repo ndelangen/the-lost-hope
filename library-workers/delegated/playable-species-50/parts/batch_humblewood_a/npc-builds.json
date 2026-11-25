@@ -1,0 +1,294 @@
+{
+  "builds": [
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "type": "Humanoid",
+      "languages": "Birdfolk. Understands spoken Auran.",
+      "id": "humblewood-corvum-inkquill-appraiser-5e",
+      "title": "Dusk Corvum appraiser, Rogue 2",
+      "difficulty": "Provisional CR 1/2.",
+      "size": "Medium",
+      "ac": 14,
+      "hp": 17,
+      "hitDice": "2d8+4",
+      "initiative": 3,
+      "speed": "30 ft.",
+      "senses": "Passive Perception 13.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 14,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Arcana +4",
+        "Insight +3",
+        "Investigation +4",
+        "Perception +3",
+        "Stealth +7",
+        "Thieves’ tools +7"
+      ],
+      "traits": [
+        "Neutral. Leather armor. Proficiency bonus +2. Saving throws Dex +5 and Int +4.",
+        "Dusk Skulker gives advantage on Stealth in dim light or darkness. Expertise with Stealth and thieves’ tools. Elusive in a crowd.",
+        "Cunning Action lets Miren Dash, Disengage, or Hide as a bonus action. Appraising Eye examines one object as an action to learn its magical properties, how to activate them, and an estimated market price. Recharge after a short or long rest.",
+        "Glide. React while falling to descend at 60 ft. per round and land without fall damage. If the fall is at least 10 ft., glide in one direction up to movement speed, without gaining height, and land at the end. Heavy weapons, shields, heavy armor, and encumbrance prevent gliding. You can drop held gear as part of the reaction.",
+        "Talons. Unarmed strikes deal 1d4 piercing. You have advantage on Strength (Athletics) checks to climb surfaces your talons can grip."
+      ],
+      "actions": [
+        "Rapier +5 to hit, 5-ft. reach, 1d8+3 piercing.",
+        "Shortbow +5 to hit, range 80/320 ft., 1d6+3 piercing.",
+        "Talons +5 to hit, 5-ft. reach, 1d4+3 piercing. Use Dexterity under the appendix’s NPC rules.",
+        "Sneak Attack adds 1d6 once on a turn when a finesse or ranged attack has advantage or an eligible ally is next to the target. Attacks with disadvantage cannot use the ally condition."
+      ],
+      "tactics": "Miren offers to inspect an object before naming a price. If the deal turns ugly, she uses cover and Cunning Action to withdraw through the stacks."
+    },
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "type": "Humanoid",
+      "languages": "Birdfolk. Understands spoken Auran.",
+      "id": "humblewood-gallus-brackenrow-orchard-keeper-5e",
+      "title": "Huden Gallus orchard keeper, Druid 1",
+      "difficulty": "Provisional CR 1/4.",
+      "size": "Medium",
+      "ac": 13,
+      "hp": 10,
+      "hitDice": "1d8+2",
+      "initiative": 2,
+      "speed": "30 ft.",
+      "senses": "Passive Perception 15.",
+      "abilityScores": {
+        "STR": 10,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 16,
+        "CHA": 10
+      },
+      "skills": [
+        "Medicine +5",
+        "Nature +2",
+        "Perception +5",
+        "Carpenter’s tools"
+      ],
+      "traits": [
+        "Neutral good. Leather armor. Proficiency bonus +2. Saving throws Int +2 and Wis +5.",
+        "Seedspeech exchanges simple ideas with living plants through speech and touch. Communal gives History +4 for local community and cultural history.",
+        "Spellcasting uses Wisdom. Spell save DC 13 and spell attack +5. Cantrips guidance and shillelagh. Two 1st-level slots, with animal friendship, entangle, goodberry, and healing word prepared.",
+        "Glide. React while falling to descend at 60 ft. per round and land without fall damage. If the fall is at least 10 ft., glide in one direction up to movement speed, without gaining height, and land at the end. Heavy weapons, shields, heavy armor, and encumbrance prevent gliding. You can drop held gear as part of the reaction.",
+        "Wing Flap. As a bonus action, rise up to half your movement speed. You can combine this with a jump, and use it only outside a glide."
+      ],
+      "actions": [
+        "Quarterstaff +2 to hit, 5-ft. reach, 1d6 bludgeoning one-handed or 1d8 two-handed.",
+        "Shillelagh (bonus action). For 1 minute, the staff is magical and attacks at +5 for 1d8+3 bludgeoning.",
+        "Entangle. Creatures in the 20-ft. square make a DC 13 Strength save or become restrained. A restrained creature can spend an action to try a DC 13 Strength check. Concentration up to 1 minute.",
+        "Healing word (bonus action). A creature within 60 ft. regains 1d4+3 HP."
+      ],
+      "tactics": "Edda asks the roots what was dragged across the orchard path. If a pursuer arrives, she uses entangle to cover the party’s retreat."
+    },
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "type": "Humanoid",
+      "languages": "Birdfolk. Understands spoken Auran.",
+      "id": "humblewood-luma-ashdown-songkeeper-5e",
+      "title": "Sera Luma songkeeper, Bard 2",
+      "difficulty": "Provisional CR 1/2.",
+      "size": "Small",
+      "ac": 13,
+      "hp": 15,
+      "hitDice": "2d8+2",
+      "initiative": 3,
+      "speed": "25 ft.",
+      "senses": "Passive Perception 12.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 14,
+        "CON": 12,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 16
+      },
+      "skills": [
+        "Insight +3",
+        "Performance +5",
+        "Persuasion +5",
+        "Sleight of Hand +4"
+      ],
+      "traits": [
+        "Chaotic good. Leather armor. Proficiency bonus +2. Saving throws Dex +4 and Cha +5. Jack of All Trades adds +1 to otherwise untrained ability checks, including initiative.",
+        "Fated rerolls one attack, ability check, or save after seeing the roll and before learning the outcome. Recharge after a long rest.",
+        "Spellcasting uses Charisma. Spell save DC 13 and spell attack +5. Cantrips mage hand and vicious mockery, plus light from Touched. Three 1st-level slots. Known spells are detect magic, dissonant whispers, healing word, heroism, and thunderwave.",
+        "Bardic Inspiration (bonus action, 3/long rest). An ally within 60 ft. who can hear Tavi gains a d6 for one check, attack, or save within 10 minutes. Song of Rest adds 1d6 healing for allies spending Hit Dice during a short rest.",
+        "Glide. React while falling to descend at 60 ft. per round and land without fall damage. If the fall is at least 10 ft., glide in one direction up to movement speed, without gaining height, and land at the end. Heavy weapons, shields, heavy armor, and encumbrance prevent gliding. You can drop held gear as part of the reaction.",
+        "Wing Flap. As a bonus action, rise up to half your movement speed. You can combine this with a jump, and use it only outside a glide."
+      ],
+      "actions": [
+        "Dagger +4 to hit, 5-ft. reach or range 20/60 ft., 1d4+2 piercing.",
+        "Songbird. While performing, cast charm person (Wisdom DC 13) without somatic components once per long rest.",
+        "Vicious mockery. One target within 60 ft. that can hear Tavi makes a DC 13 Wisdom save or takes 1d4 psychic damage and has disadvantage on its next attack roll before the end of its next turn.",
+        "Dissonant whispers. One creature within 60 ft. makes a DC 13 Wisdom save. On failure it takes 3d6 psychic damage and uses its reaction, if available, to move away. Success halves the damage and prevents that movement."
+      ],
+      "tactics": "Tavi uses a tune to settle a dispute at the shelter door. If someone threatens the guests, they force that creature back with dissonant whispers."
+    },
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "type": "Humanoid",
+      "languages": "Birdfolk. Understands spoken Auran.",
+      "id": "humblewood-raptor-reedwing-canopy-lookout-5e",
+      "title": "Mistral Raptor canopy lookout, Ranger 2",
+      "difficulty": "Provisional CR 1/2.",
+      "size": "Small",
+      "ac": 14,
+      "hp": 20,
+      "hitDice": "2d10+4",
+      "initiative": 3,
+      "speed": "25 ft.",
+      "senses": "Passive Perception 14.",
+      "abilityScores": {
+        "STR": 10,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 14,
+        "CHA": 10
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Nature +2",
+        "Perception +4",
+        "Stealth +5",
+        "Survival +4"
+      ],
+      "traits": [
+        "Neutral. Leather armor. Proficiency bonus +2. Saving throws Str +2 and Dex +5.",
+        "Archery adds +2 to ranged weapon attacks. Woodland Hunter treats half cover as no cover and three-quarters cover as half cover. The longbow does not count as heavy for Senn.",
+        "Aerial Defense imposes disadvantage on attacks against Senn while falling, gliding, or jumping. Favored Enemy beasts and Natural Explorer forest.",
+        "Spellcasting uses Wisdom. Spell save DC 12 and spell attack +4. Two 1st-level slots. Known spells are cure wounds and hunter’s mark.",
+        "Glide. React while falling to descend at 60 ft. per round and land without fall damage. If the fall is at least 10 ft., glide in one direction up to movement speed, without gaining height, and land at the end. Heavy weapons, shields, heavy armor, and encumbrance prevent gliding. You can drop held gear as part of the reaction.",
+        "Talons. Unarmed strikes deal 1d4 piercing. You have advantage on Strength (Athletics) checks to climb surfaces your talons can grip."
+      ],
+      "actions": [
+        "Longbow +7 to hit, range 150/600 ft., 1d8+3 piercing.",
+        "Talons +5 to hit, 5-ft. reach, 1d4+3 piercing. Use Dexterity under the appendix’s NPC rules.",
+        "Hunter’s mark (bonus action). Mark a visible creature within 90 ft. Weapon hits on it add 1d6 damage. Concentration up to 1 hour. Cure wounds heals a touched creature for 1d8+2 HP."
+      ],
+      "tactics": "Senn watches the trail through the canopy and warns strangers away from a broken bridge. In a fight, they look for angles through cover and glide to a lower branch when pressed."
+    },
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "type": "Humanoid",
+      "languages": "Birdfolk. Understands spoken Auran.",
+      "id": "humblewood-strig-barkmantle-bridge-keeper-5e",
+      "title": "Stout Strig bridge keeper, Fighter 2",
+      "difficulty": "Provisional CR 1/2.",
+      "size": "Medium",
+      "ac": 15,
+      "hp": 22,
+      "hitDice": "2d10+6",
+      "initiative": 1,
+      "speed": "30 ft.",
+      "senses": "Darkvision 60 ft., passive Perception 13.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 12,
+        "CON": 16,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +5",
+        "Intimidation +1",
+        "Perception +3"
+      ],
+      "traits": [
+        "Neutral good. Chain shirt and Defense fighting style. Proficiency bonus +2. Saving throws Str +5 and Con +5.",
+        "Patterned Feathers gives advantage on Stealth checks to hide in a forest. Imposing grants Intimidation proficiency.",
+        "Second Wind (bonus action) restores 1d10+2 HP. Action Surge provides one extra action on Orla’s turn. Both recharge after short or long rests.",
+        "Glide. React while falling to descend at 60 ft. per round and land without fall damage. If the fall is at least 10 ft., glide in one direction up to movement speed, without gaining height, and land at the end. Heavy weapons, shields, heavy armor, and encumbrance prevent gliding. You can drop held gear as part of the reaction.",
+        "Talons. Unarmed strikes deal 1d4 piercing. You have advantage on Strength (Athletics) checks to climb surfaces your talons can grip."
+      ],
+      "actions": [
+        "Light hammer +5 to hit, 5-ft. reach or range 20/60 ft., 1d4+3 bludgeoning.",
+        "Talons +5 to hit, 5-ft. reach, 1d4+3 piercing. Use Strength under the appendix’s NPC rules.",
+        "Brawler (bonus action after a talon hit). With a free hand, grapple that target using Athletics +5 against its choice of Athletics or Acrobatics. The target can be at most one size larger."
+      ],
+      "tactics": "Orla lets evacuees pass first. She tries to restrain someone rushing the bridge so the people behind her have time to cross."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Corvum",
+      "speciesPublication": "Humblewood Campaign Setting",
+      "edition": "Fifth edition compatible",
+      "size": "Medium",
+      "name": "Miren Inkquill",
+      "build": "humblewood-corvum-inkquill-appraiser-5e",
+      "role": "Dusk Corvum appraiser",
+      "motive": "Recover a missing collection ledger.",
+      "hook": "Miren offers to identify the object if the party helps recover her ledger."
+    },
+    {
+      "species": "Gallus",
+      "speciesPublication": "Humblewood Campaign Setting",
+      "edition": "Fifth edition compatible",
+      "size": "Medium",
+      "name": "Edda Brackenrow",
+      "build": "humblewood-gallus-brackenrow-orchard-keeper-5e",
+      "role": "Huden Gallus orchard keeper",
+      "motive": "Find what damaged the orchard path.",
+      "hook": "Edda asks the bent roots what crossed the path that morning."
+    },
+    {
+      "species": "Luma",
+      "speciesPublication": "Humblewood Campaign Setting",
+      "edition": "Fifth edition compatible",
+      "size": "Small",
+      "name": "Tavi Ashdown",
+      "build": "humblewood-luma-ashdown-songkeeper-5e",
+      "role": "Sera Luma songkeeper",
+      "motive": "Keep the shelter open to both sides of a local dispute.",
+      "hook": "Tavi waves the party inside while a disagreement builds at the shelter door."
+    },
+    {
+      "species": "Raptor",
+      "speciesPublication": "Humblewood Campaign Setting",
+      "edition": "Fifth edition compatible",
+      "size": "Small",
+      "name": "Senn Reedwing",
+      "build": "humblewood-raptor-reedwing-canopy-lookout-5e",
+      "role": "Mistral Raptor canopy lookout",
+      "motive": "Keep travelers from stepping onto a damaged span.",
+      "hook": "Senn calls down a warning just before the path gives way."
+    },
+    {
+      "species": "Strig",
+      "speciesPublication": "Humblewood Campaign Setting",
+      "edition": "Fifth edition compatible",
+      "size": "Medium",
+      "name": "Orla Barkmantle",
+      "build": "humblewood-strig-barkmantle-bridge-keeper-5e",
+      "role": "Stout Strig bridge keeper",
+      "motive": "Hold the bridge until the last evacuee crosses.",
+      "hook": "Orla waves the party through as the bridge starts to shake."
+    }
+  ]
+}

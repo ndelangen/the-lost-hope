@@ -1,0 +1,101 @@
+[
+  {
+    "entityKind": "monster",
+    "name": "Dragonborn Mage",
+    "publication": "DDEX1-11 - Dark Pyramid of Sorcerer's Isle",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/dragonborn-mage/source-dragonborn-phb.webp",
+    "artist": "Species art: Dragonborn · Player's Handbook (2014)",
+    "kind": "illustration",
+    "sha256": "c0c38cd1cee876a7cdbe6c70d6d8954c820e06ed61b1414db46e7ef229df5e67",
+    "reference": "images/species/dragonborn/phb-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Dragonborn Mage",
+    "publication": "DDEX1-11 - Dark Pyramid of Sorcerer's Isle",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/dragonborn-mage/source-mage-mm.webp",
+    "artist": "Related stat block token: Mage · Monster Manual (2014)",
+    "kind": "token",
+    "sha256": "515d0f9f4904770d22bdef9d4be32d7640873f2ac7a06dc5781a814cd6ef56da",
+    "reference": "images/monsters/mage/mm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Dragonborn Thug",
+    "publication": "DDEX1-11 - Dark Pyramid of Sorcerer's Isle",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/dragonborn-thug/source-dragonborn-phb.webp",
+    "artist": "Species art: Dragonborn · Player's Handbook (2014)",
+    "kind": "illustration",
+    "sha256": "c0c38cd1cee876a7cdbe6c70d6d8954c820e06ed61b1414db46e7ef229df5e67",
+    "reference": "images/species/dragonborn/phb-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Dragonborn Thug",
+    "publication": "DDEX1-11 - Dark Pyramid of Sorcerer's Isle",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/dragonborn-thug/source-thug-mm.webp",
+    "artist": "Related stat block illustration: Thug · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "99e066e16b05e732c209c9286e1f0dee6773b1a893069437614d9f5a70961013",
+    "reference": "images/monsters/thug/mm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Elf Druid",
+    "publication": "DDEX1-11 - Dark Pyramid of Sorcerer's Isle",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/elf-druid/source-druid-mm.webp",
+    "artist": "Base creature art: Druid · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "d2268c0866d7aea5c3e870bdf866a4868fc70a03b263cd386caf282e64f595d8",
+    "reference": "images/monsters/druid/mm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Poltergeist (Specter Variant)",
+    "publication": "DDEX1-11 - Dark Pyramid of Sorcerer's Isle",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/poltergeist-specter-variant/source-poltergeist-mm.webp",
+    "artist": "Base creature token: Poltergeist · Monster Manual (2014)",
+    "kind": "token",
+    "sha256": "7a1b887a7ddb98505c10dc965e6e679423d54dd09d17023764b9bcfbef67d33e",
+    "reference": "images/monsters/poltergeist/mm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Poltergeist (Specter Variant)",
+    "publication": "DDEX1-11 - Dark Pyramid of Sorcerer's Isle",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/poltergeist-specter-variant/source-poltergeist-xmm.webp",
+    "artist": "Poltergeist by Anna Pavleeva · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "1815fc63ddb2a6ecc7ebabc42e07b87d0870e8164f742ff69f046d3459f14aee",
+    "reference": "images/monsters/poltergeist/xmm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Winged Kobold (Urd)",
+    "publication": "DDEX1-11 - Dark Pyramid of Sorcerer's Isle",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/winged-kobold-urd/source-kobold-mm.webp",
+    "artist": "Related creature art: Kobold by Conceptopolis · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "2750ec6cde1e0a2db1e5dfeed12bb136d5308d4a73214b6ddab854a9fd704d8d",
+    "reference": "images/monsters/kobold/mm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Winged Kobold (Urd)",
+    "publication": "DDEX1-11 - Dark Pyramid of Sorcerer's Isle",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/winged-kobold-urd/source-winged-kobold-xmm.webp",
+    "artist": "Kobolds including a winged kobold by Viktor Titov · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "32e607e469e40d146e6605c946609b748e840db1c478f93b8013c9be3153268c",
+    "reference": "images/monsters/kobold-warrior/xmm-1.webp"
+  }
+]

@@ -1,0 +1,301 @@
+{
+  "builds": [
+    {
+      "id": "phb4e-human-iven-crossbar",
+      "title": "Human bridge watch leader, Fighter 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "4th edition"
+      ],
+      "difficulty": "4e level 1, built as a player character.",
+      "size": "Medium",
+      "type": "Natural humanoid",
+      "abilityScores": {
+        "STR": 18,
+        "CON": 14,
+        "DEX": 12,
+        "INT": 10,
+        "WIS": 13,
+        "CHA": 11
+      },
+      "ac": 17,
+      "hp": 34,
+      "initiative": 1,
+      "speed": "5 squares in chainmail",
+      "senses": "Normal vision. Passive Perception 11.",
+      "languages": "Common, Dwarven",
+      "skills": [
+        "Athletics +8",
+        "Endurance +6",
+        "Heal +6",
+        "Streetwise +5"
+      ],
+      "traits": [
+        "Unaligned. Chainmail, spear, and light shield. Fortitude 17, Reflex 13, Will 12. Bloodied 17. Eleven healing surges at 8 HP each.",
+        "Toughness grants 5 HP, included above. Human bonus choices are Strength, Streetwise, Reaping Strike, and Action Surge. Action Surge gives +3 to attack rolls made during the extra action he buys with an action point.",
+        "Combat Challenge. An attack can mark its target through the end of your next turn, hit or miss. The mark gives the target −2 on attacks that omit you. When an adjacent marked enemy shifts or attacks without targeting you, make a melee basic attack against it as an immediate interrupt.",
+        "One-handed Fighter Weapon Talent adds +1 to attacks and is included below. Combat Superiority adds +1 to opportunity attacks and stops movement if an opportunity attack provoked by moving hits."
+      ],
+      "actions": [
+        "Spear basic attack, at-will standard. Melee 1, +7 vs. AC for 1d8+4.",
+        "Tide of Iron, at-will standard. Melee 1, +7 vs. AC for 1d8+4. The light shield lets Iven push a Large or smaller target 1 square. He can then shift into the vacated square.",
+        "Cleave, at-will standard. Melee 1, +7 vs. AC for 1d8+4. On a hit, a different enemy adjacent to Iven takes 4 damage.",
+        "Reaping Strike, Human bonus at-will standard. Melee 1, +7 vs. AC for 1d8+4. On a miss, deal 2 damage while using the spear one-handed.",
+        "Covering Attack, encounter standard. Melee 1, +7 vs. AC for 2d8+4. On a hit, an ally adjacent to the target can shift 2 squares.",
+        "Villain’s Menace, daily standard. Melee 1, +7 vs. AC for 2d8+4. Until encounter end, gain a +2 power bonus to attacks and +4 to damage rolls against the target on a hit. On a miss, those bonuses are +1 and +2.",
+        "Second Wind, encounter standard. Spend a healing surge and gain +2 to all defenses until the start of your next turn."
+      ],
+      "tactics": "Hold the center of the bridge with Tide of Iron. Use Covering Attack when an ally needs to step out of reach and Reaping Strike against an armored foe who is already close to falling."
+    },
+    {
+      "id": "phb4e-tiefling-maris-emberlock",
+      "title": "Tiefling ward defender, Paladin 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "4th edition"
+      ],
+      "difficulty": "4e level 1, built as a player character.",
+      "size": "Medium",
+      "type": "Natural humanoid",
+      "abilityScores": {
+        "STR": 11,
+        "CON": 12,
+        "DEX": 13,
+        "INT": 12,
+        "WIS": 14,
+        "CHA": 18
+      },
+      "ac": 18,
+      "hp": 32,
+      "initiative": 1,
+      "speed": "5 squares in scale armor",
+      "senses": "Low-light vision. Passive Perception 12 and Insight 17.",
+      "languages": "Common, Draconic",
+      "skills": [
+        "Diplomacy +9",
+        "History +6",
+        "Insight +7",
+        "Religion +6",
+        "Bluff +6 (untrained)",
+        "Stealth +2 (untrained)"
+      ],
+      "traits": [
+        "Lawful good paladin of Bahamut. Scale armor, longsword, light shield, and holy symbol. Fortitude 12, Reflex 13, Will 15. Bloodied 16. Eleven healing surges at 8 HP each. Toughness grants 5 HP, included above.",
+        "Bloodhunt gives +1 to attacks against bloodied foes, separate from the listed attack bonuses. Resist fire 5.",
+        "Channel Divinity allows one of Divine Mettle or Divine Strength per encounter."
+      ],
+      "actions": [
+        "Longsword basic attack, at-will standard. Melee 1, +3 vs. AC for 1d8.",
+        "Bolstering Strike, at-will standard. Melee 1, +7 vs. AC for 1d8+4. A hit grants Maris 2 temporary HP.",
+        "Enfeebling Strike, at-will standard. Melee 1, +7 vs. AC for 1d8+4. On a hit against her marked target, it takes −2 to attack rolls until the end of her next turn.",
+        "Fearsome Smite, encounter standard. Melee 1, +7 vs. AC for 2d8+4. On a hit, impose −2 to the target’s attack rolls until the end of Maris’s next turn.",
+        "Radiant Delirium, daily standard. Ranged 5, +4 vs. Reflex for 3d8+4 radiant. The target is dazed until the end of Maris’s next turn on either result. On a hit it also takes −2 to AC (save ends). Miss deals half damage.",
+        "Infernal Wrath, encounter minor. The next attack against an enemy that hit Maris since her last turn gets a +1 power bonus. If it hits and deals damage, it deals 4 extra damage.",
+        "Divine Challenge, at-will minor, close burst 5, one target, once per turn. Mark an enemy that is free of any Divine Challenge. Its attacks that omit Maris take −2, and the first such attack before her next turn costs it 7 radiant damage. To maintain the mark, she must attack it or end her turn next to it. If she does neither and does not challenge someone else, the mark ends and she cannot challenge on her next turn.",
+        "Lay on Hands, minor touch, twice per day and once per round. Spend one of Maris’s healing surges so the target regains its own surge value.",
+        "Divine Mettle, Channel Divinity minor, close burst 10. One creature in the burst makes a saving throw with +4.",
+        "Divine Strength, Channel Divinity minor, personal. Adds Strength modifier to the next attack’s damage this turn, which is +0 for this build.",
+        "Second Wind, encounter standard. Spend a healing surge and gain +2 to all defenses until the start of your next turn."
+      ],
+      "tactics": "Challenge a foe threatening civilians and stay adjacent to hold the mark. After that foe lands a hit, use Infernal Wrath before retaliating with Fearsome Smite or Enfeebling Strike."
+    },
+    {
+      "id": "phb24e-half-orc-dera-flintreach",
+      "title": "Half-orc trail guard, Fighter 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "4th edition"
+      ],
+      "difficulty": "4e level 1, built as a player character.",
+      "size": "Medium",
+      "type": "Natural humanoid",
+      "abilityScores": {
+        "STR": 18,
+        "CON": 14,
+        "DEX": 15,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 11
+      },
+      "ac": 16,
+      "hp": 29,
+      "initiative": 2,
+      "speed": "6 squares, 8 when charging",
+      "senses": "Low-light vision. Passive Perception 11.",
+      "languages": "Common, Giant",
+      "skills": [
+        "Athletics +8",
+        "Endurance +8",
+        "Intimidate +7"
+      ],
+      "traits": [
+        "Unaligned. Hide armor, battleaxe, and light shield. Fortitude 16, Reflex 13, Will 11. Bloodied 14. Eleven healing surges at 7 HP each.",
+        "Half-Orc Resilience gives 5 temporary HP the first time Dera becomes bloodied in the encounter. Swift Charge adds 2 speed when charging.",
+        "Weapon Focus (axe) adds +1 to battleaxe damage rolls, included below.",
+        "Combat Challenge. An attack can mark its target through the end of your next turn, hit or miss. The mark gives the target −2 on attacks that omit you. When an adjacent marked enemy shifts or attacks without targeting you, make a melee basic attack against it as an immediate interrupt.",
+        "One-handed Fighter Weapon Talent adds +1 to attacks and is included below. Combat Superiority adds +1 to opportunity attacks and stops movement if an opportunity attack provoked by moving hits."
+      ],
+      "actions": [
+        "Battleaxe basic attack, at-will standard. Melee 1, +7 vs. AC for 1d10+5. A charge uses this attack at +8 vs. AC.",
+        "Tide of Iron, at-will standard. Melee 1, +7 vs. AC for 1d10+5. With her shield, Dera can push a Large or smaller target 1 square and shift into the vacated space.",
+        "Sure Strike, at-will standard. Melee 1, +9 vs. AC for 1d10+1.",
+        "Spinning Sweep, encounter standard. Melee 1, +7 vs. AC for 1d10+5 and knocks the target prone on a hit.",
+        "Brute Strike, daily standard, reliable. Melee 1, +7 vs. AC for 3d10+5. A miss preserves the use.",
+        "Furious Assault, encounter free action on hitting an enemy. Add 1d10 damage to a battleaxe hit.",
+        "Second Wind, encounter standard. Spend a healing surge and gain +2 to all defenses until the start of your next turn."
+      ],
+      "tactics": "Charge into reach of a creature threatening the convoy. Use Spinning Sweep near a bend in the trail, then add Furious Assault to a hit when the extra damage matters."
+    },
+    {
+      "id": "mm4e-goblin-pell-reedstep",
+      "title": "Goblin quay guard, Rogue 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "4th edition"
+      ],
+      "difficulty": "4e level 1, built as a player character.",
+      "size": "Small",
+      "type": "Natural humanoid",
+      "abilityScores": {
+        "STR": 13,
+        "CON": 12,
+        "DEX": 18,
+        "INT": 10,
+        "WIS": 11,
+        "CHA": 16
+      },
+      "ac": 16,
+      "hp": 24,
+      "initiative": 8,
+      "speed": "6 squares",
+      "senses": "Low-light vision. Passive Perception 15 and Insight 15.",
+      "languages": "Common, Goblin",
+      "skills": [
+        "Acrobatics +9",
+        "Athletics +6",
+        "Insight +5",
+        "Perception +5",
+        "Stealth +11",
+        "Thievery +11"
+      ],
+      "traits": [
+        "Unaligned. Leather armor and short sword. Fortitude 11, Reflex 17, Will 13. Bloodied 12. Seven healing surges at 6 HP each.",
+        "Goblin Reflexes adds +1 to Reflex, included above. Improved Initiative adds +4 to initiative, included above.",
+        "Artful Dodger gives +3 AC against opportunity attacks, for AC 19. First Strike gives combat advantage against creatures that have not acted in the first round. With the short sword and combat advantage, add 2d6 to a hit once per round under the original printed Sneak Attack."
+      ],
+      "actions": [
+        "Short sword basic attack, at-will standard. Melee 1, +4 vs. AC for 1d6+1.",
+        "Deft Strike, at-will standard. Move up to 2 squares before attacking. Melee 1, +7 vs. AC for 1d6+4.",
+        "Sly Flourish, at-will standard. Melee 1, +7 vs. AC for 1d6+7.",
+        "Dazing Strike, encounter standard. Melee 1, +7 vs. AC for 1d6+4. On a hit, the target is dazed until the end of Pell’s next turn.",
+        "Trick Strike, daily standard. Melee 1, +7 vs. AC for 3d6+4. A hit slides the target 1 square. For the rest of the encounter, Pell slides that target 1 square each time he hits it.",
+        "Goblin Tactics, at-will immediate reaction when a melee attack misses Pell. Shift 1 square. The normal immediate-action limits still apply.",
+        "Second Wind, encounter standard. Spend a healing surge and gain +2 to all defenses until the start of your next turn."
+      ],
+      "tactics": "Move around cover with Deft Strike. When a melee attack misses, shift into a flank or away from the water’s edge with Goblin Tactics."
+    },
+    {
+      "id": "mm4e-orc-korr-deepstone",
+      "title": "Orc gate runner, Fighter 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "4th edition"
+      ],
+      "difficulty": "4e level 1, built as a player character.",
+      "size": "Medium",
+      "type": "Natural humanoid",
+      "abilityScores": {
+        "STR": 18,
+        "CON": 16,
+        "DEX": 13,
+        "INT": 11,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "ac": 15,
+      "hp": 31,
+      "initiative": 1,
+      "speed": "6 squares. Run or charge up to 10 squares.",
+      "senses": "Low-light vision. Passive Perception 11.",
+      "languages": "Common, Giant",
+      "skills": [
+        "Athletics +8",
+        "Endurance +7",
+        "Intimidate +5"
+      ],
+      "traits": [
+        "Unaligned. Hide armor, warhammer, and light shield. Fortitude 16, Reflex 12, Will 11. Bloodied 15. Twelve healing surges at 7 HP each.",
+        "Running Charge adds 2 speed when charging. Fast Runner adds 2 speed when charging or running. Both apply to the charge because they are untyped bonuses. The run action moves up to his boosted speed of 8 plus 2. Running grants enemies combat advantage and gives Korr −5 to attacks until the start of his next turn.",
+        "Combat Challenge. An attack can mark its target through the end of your next turn, hit or miss. The mark gives the target −2 on attacks that omit you. When an adjacent marked enemy shifts or attacks without targeting you, make a melee basic attack against it as an immediate interrupt.",
+        "One-handed Fighter Weapon Talent adds +1 to attacks and is included below. Combat Superiority adds +1 to opportunity attacks and stops movement if an opportunity attack provoked by moving hits."
+      ],
+      "actions": [
+        "Warhammer basic attack, at-will standard. Melee 1, +7 vs. AC for 1d10+4. A charge uses this attack at +8 vs. AC.",
+        "Tide of Iron, at-will standard. Melee 1, +7 vs. AC for 1d10+4. With his shield, Korr can push a Large or smaller target 1 square and shift into the vacated space.",
+        "Cleave, at-will standard. Melee 1, +7 vs. AC for 1d10+4. On a hit, a different enemy adjacent to Korr takes 4 damage.",
+        "Steel Serpent Strike, encounter standard. Melee 1, +7 vs. AC for 2d10+4. On a hit, slow the target and prevent it from shifting through the end of Korr’s next turn.",
+        "Comeback Strike, daily standard, reliable. Melee 1, +7 vs. AC for 2d10+4. On a hit, Korr can spend a healing surge. A miss preserves the use.",
+        "Warrior’s Surge, encounter standard. Melee 1, +7 vs. AC for 1d10+4. On a hit, Korr can spend a healing surge.",
+        "Second Wind, encounter standard. Spend a healing surge and gain +2 to all defenses until the start of your next turn."
+      ],
+      "tactics": "Use the long charge to reach a gate before it closes. Save Warrior’s Surge until hurt, then use Steel Serpent Strike if someone tries to pull away."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Human",
+      "size": "Medium",
+      "edition": "4th edition",
+      "speciesPublication": "Player's Handbook (4e, 2008)",
+      "name": "Iven Crossbar",
+      "build": "phb4e-human-iven-crossbar",
+      "role": "Bridge watch leader who shields workers and keeps the crossing clear.",
+      "motive": "Keep the bridge open long enough to unload a late grain cart before a storm.",
+      "hook": "Iven offers a toll waiver if the party escorts the last cart while he holds the bridge."
+    },
+    {
+      "species": "Tiefling",
+      "size": "Medium",
+      "edition": "4th edition",
+      "speciesPublication": "Player's Handbook (4e, 2008)",
+      "name": "Maris Emberlock",
+      "build": "phb4e-tiefling-maris-emberlock",
+      "role": "Ward defender who confronts threats at close range.",
+      "motive": "Give the residents time to leave a block that the city guard has closed.",
+      "hook": "Maris asks the party to walk through the closed streets with an apothecary carrying supplies."
+    },
+    {
+      "species": "Half-Orc",
+      "size": "Medium",
+      "edition": "4th edition",
+      "speciesPublication": "Player's Handbook 2 (4e)",
+      "name": "Dera Flintreach",
+      "build": "phb24e-half-orc-dera-flintreach",
+      "role": "Trail guard who closes distance quickly and stops a pursuit at a bend.",
+      "motive": "Keep a steep footpath clear while a survey crew returns from the pass.",
+      "hook": "Dera can point out a dry route for the party’s mounts if they help her watch the trail."
+    },
+    {
+      "species": "Goblin",
+      "size": "Small",
+      "edition": "4th edition",
+      "speciesPublication": "Monster Manual (4e, 2008)",
+      "name": "Pell Reedstep",
+      "build": "mm4e-goblin-pell-reedstep",
+      "role": "Mobile quay guard who can slip past a poorly aimed blow.",
+      "motive": "Protect the workers hauling in the last boats before the tide turns.",
+      "hook": "Pell offers a place on a dawn ferry if the party helps recover a stolen mooring line."
+    },
+    {
+      "species": "Orc",
+      "size": "Medium",
+      "edition": "4th edition",
+      "speciesPublication": "Monster Manual (4e, 2008)",
+      "name": "Korr Deepstone",
+      "build": "mm4e-orc-korr-deepstone",
+      "role": "Gate runner who crosses open ground quickly and can recover while fighting.",
+      "motive": "Reach an understaffed gate before a market crowd presses through.",
+      "hook": "Korr asks the party to hold the wicket while he finds the missing watch sergeant."
+    }
+  ]
+}

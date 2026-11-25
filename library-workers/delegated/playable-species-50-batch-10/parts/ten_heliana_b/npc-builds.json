@@ -1,0 +1,292 @@
+{
+  "builds": [
+    {
+      "id": "heliana-fen-stitch",
+      "title": "Fen Stitch, Mycelian Fighter 1",
+      "ac": 17,
+      "hp": 13,
+      "hitDice": "1d10+3",
+      "initiative": 2,
+      "speed": "25 ft. walk.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 16,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +5",
+        "Medicine +3",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "senses": "Darkvision 60 ft. Passive Perception 13.",
+      "languages": "Common, Dwarvish.",
+      "traits": [
+        "Proficiency +2. Strength save +5, Constitution save +5. Studded leather AC 12 + Dexterity 2 + shield 2 + Defense fighting style 1.",
+        "Dwarf host. Counts as Plant as well as Humanoid for relevant rules. Advantage on saves against poison and resistance to poison damage from Dwarven Resilience.",
+        "Insporeation. On death within 100 ft. of an eligible humanoid corpse, roll d100 against the distance in feet. A success gives a new body in 2d6 days with the benefits of a long rest and new host adaptations."
+      ],
+      "actions": [
+        "Shortsword. Melee weapon attack +5 to hit, reach 5 ft., one target. Hit for 1d6 + 3 piercing.",
+        "Spore Spray. Reaction when hit by a melee attack from within 10 ft., twice per long rest. Attacker makes a DC 13 Constitution save. On failure it takes 1d8 poison damage and is poisoned through the end of its next turn.",
+        "Second Wind. Bonus action, once per short or long rest. Regain 1d10 + 1 hit points."
+      ],
+      "tactics": "Fen braces by the exit and lets travelers pass behind the shield. Fen saves the spores for a committed melee attacker.",
+      "type": "Humanoid",
+      "size": "Medium",
+      "origin": "Original DM Library NPC",
+      "difficulty": "Tier 1 class-built NPC. No assigned CR.",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ]
+    },
+    {
+      "id": "heliana-aster-sill",
+      "title": "Aster Sill, Ombrask Rogue 2",
+      "ac": 14,
+      "hp": 15,
+      "hitDice": "2d8+2",
+      "initiative": 3,
+      "speed": "30 ft. walk.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 17,
+        "CON": 13,
+        "INT": 15,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Deception +2",
+        "Insight +3",
+        "Investigation +4",
+        "Perception +3",
+        "Persuasion +2",
+        "Stealth +7"
+      ],
+      "senses": "Darkvision 60 ft. Passive Perception 13.",
+      "languages": "Common, Undercommon, thieves’ cant. Speaks in one memorized voice and can read and write Common and Undercommon.",
+      "traits": [
+        "Proficiency +2. Dexterity save +5, Intelligence save +4. Leather armor AC 11 + Dexterity 3. Expertise in Stealth and thieves’ tools.",
+        "Radiant resistance and advantage on saves to avoid blindness. Trackless supplies Stealth proficiency.",
+        "Sneak Attack. Add 1d6 to a rapier hit once per turn with advantage, or when an enemy of the target that is not incapacitated is within 5 ft. of it and Aster has no disadvantage."
+      ],
+      "actions": [
+        "Rapier. Melee weapon attack +5 to hit, reach 5 ft., one target. Hit for 1d8 + 3 piercing.",
+        "Cunning Action. Dash, Disengage, or Hide as a bonus action.",
+        "Voice Thief. Reaction when a creature capable of speech dies within 30 ft. Retain its voice and speech mannerisms indefinitely. Keep up to two voices. Once per long rest."
+      ],
+      "tactics": "Aster approaches with both hands visible. If someone draws a weapon, Aster breaks line of sight and uses Cunning Action to hide.",
+      "type": "Humanoid",
+      "size": "Medium",
+      "origin": "Original DM Library NPC",
+      "difficulty": "Tier 1 class-built NPC. No assigned CR.",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ]
+    },
+    {
+      "id": "heliana-brine-button",
+      "title": "Brine Button, Oozekin Fighter 3",
+      "ac": 16,
+      "hp": 28,
+      "hitDice": "3d10+6",
+      "initiative": 2,
+      "speed": "30 ft. walk. 15 ft. in either alternate form.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 15,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Athletics +5",
+        "Insight +3",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "senses": "Darkvision 60 ft. Passive Perception 13.",
+      "languages": "Common, Undercommon.",
+      "traits": [
+        "Proficiency +2. Strength save +5, Constitution save +4. Studded leather AC 12 + Dexterity 2 + shield 2. Without shield, AC 14. In either transformed form with gear dropped or stowed, AC 12. Dueling adds 2 damage to a one-handed mace strike.",
+        "Champion Improved Critical. Weapon attacks crit on a 19 or 20.",
+        "Acid resistance. Counts as Ooze as well as Humanoid for relevant rules. An action sheds enough material to become Small and the lost bulk grows back over 2d4 days."
+      ],
+      "actions": [
+        "Mace. Melee weapon attack +5 to hit, reach 5 ft., one target. Hit for 1d6 + 5 bludgeoning.",
+        "Grapple. Use the Attack action’s attack and a free hand against a target within reach, no more than one size larger. Contest Athletics +5 against the target’s Athletics or Acrobatics.",
+        "Acid Splash. Action, V and S, range 60 ft. One creature, or two within 5 ft. of each other, each attempt a DC 12 Dexterity save or take 1d6 acid. A target Brine grapples or is grappled by automatically fails. Brine needs a free hand for the somatic component.",
+        "Second Wind. Bonus action, once per short or long rest, regain 1d10 + 3 hit points. Action Surge. Once per short or long rest, gain one additional action on the turn.",
+        "Reshapeable. Action, once per long rest, for up to 1 hour. Become a 5-ft. cube or 5-ft.-wide puddle. In either form, Brine has 15-ft. walk and cannot talk, manipulate objects, attack, or cast spells. End it early with another action.",
+        "Cube Form. Stow equipment inside safely and give creatures directly behind Brine three-quarters cover from attacks from the opposite side. As an action, Engulf moves Brine up to 15 ft. and can enter the space of one Medium or smaller creature. DC 13 Dexterity save. On a failure, if Brine holds no other grapple, the target is grappled and restrained and takes 1d6 acid at the start of each of its turns. On success Brine spends its movement but stays in the starting space.",
+        "Puddle Form. Drop all gear and carry nothing. Squeeze-free travel through 1-inch openings and nonmagical spider climb. Attacks from over 5 ft. away have disadvantage."
+      ],
+      "tactics": "Brine uses a mace and shield at first. Before setting up a grapple followed by acid splash, Brine doffs the shield and stows the mace so a hand remains free while grappling. When guarding a retreat, Brine uses Cube Form to cover the next person in line.",
+      "type": "Humanoid",
+      "size": "Medium",
+      "origin": "Original DM Library NPC",
+      "difficulty": "Tier 1 class-built NPC. No assigned CR.",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ]
+    },
+    {
+      "id": "heliana-bobbin-rush",
+      "title": "Bobbin Rush, Opteran Bard 1",
+      "ac": 13,
+      "hp": 9,
+      "hitDice": "1d8+1",
+      "initiative": 2,
+      "speed": "25 ft. walk.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 14,
+        "CON": 13,
+        "INT": 12,
+        "WIS": 10,
+        "CHA": 17
+      },
+      "skills": [
+        "Insight +2",
+        "Perception +2",
+        "Performance +5",
+        "Persuasion +5",
+        "Survival +2"
+      ],
+      "senses": "Passive Perception 12.",
+      "languages": "Common, Sylvan.",
+      "traits": [
+        "Proficiency +2. Dexterity save +4, Charisma save +5. Leather armor AC 11 + Dexterity 2.",
+        "Larval opteran. Counted as Fey as well as Humanoid for relevant rules. Advantage on balance checks and on checks and saving throws to avoid being knocked prone.",
+        "Spellcasting. Charisma, DC 13, spell attack +5. Two 1st-level slots per long rest. Wooden recorder is a spellcasting focus."
+      ],
+      "actions": [
+        "Dagger. Melee or thrown weapon attack +4 to hit. Reach 5 ft. or range 20/60 ft. Hit for 1d4 + 2 piercing.",
+        "String Shot. Action, twice per short or long rest. A visible creature within 15 ft. makes a DC 11 Dexterity save or is restrained for 1 minute. A creature can use its action for a DC 11 Strength check to free itself or another restrained creature in reach.",
+        "Bardic Inspiration. Bonus action, three times per long rest. One other creature within 60 ft. that hears Bobbin gets 1d6 to add to one attack roll, ability check or save within 10 minutes, after rolling but before the outcome is declared.",
+        "Vicious Mockery. Action, one visible creature within 60 ft. that can hear Bobbin. On a failed DC 13 Wisdom save it takes 1d4 psychic and has disadvantage on its next attack before the end of its next turn.",
+        "Minor Illusion. Action, range 30 ft. Create a small object image or a sound for up to 1 minute. A creature can use an action to examine it against DC 13 Investigation. Touch reveals an image.",
+        "Healing Word. Bonus action, 1st-level slot, restore 1d4 + 3 HP to a visible living creature within 60 ft. The spell has no effect on Constructs or Undead.",
+        "Dissonant Whispers. Action, 1st-level slot, target one creature within 60 ft. On a failed DC 13 Wisdom save, it takes 3d6 psychic and uses its reaction if available to move as far away as its speed allows without entering obvious danger. A success halves damage and prevents movement. A deafened creature succeeds automatically.",
+        "Faerie Fire. Action, 1st-level slot, range 60 ft., 20-ft. cube. Concentration up to 1 minute. Outline objects and creatures that fail a DC 13 Dexterity save. Affected targets shed dim light for 10 ft., cannot benefit from invisibility, and can be attacked with advantage if the attacker sees them.",
+        "Thunderwave. Action, 1st-level slot, 15-ft. cube originating from Bobbin. DC 13 Constitution save. Failure deals 2d8 thunder and pushes 10 ft. from Bobbin. Success halves the damage and prevents the push. Unsecured objects fully in the cube move 10 ft. away. Audible within 300 ft."
+      ],
+      "tactics": "Bobbin uses String Shot to hold someone back before the fight spreads. If the group can leave safely, Bobbin favors spending a slot on Healing Word over forcing a chase.",
+      "type": "Humanoid",
+      "size": "Small",
+      "origin": "Original DM Library NPC",
+      "difficulty": "Tier 1 class-built NPC. No assigned CR.",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ]
+    },
+    {
+      "id": "heliana-tansy-bolt",
+      "title": "Tansy Bolt, Rakin Rogue 1",
+      "ac": 14,
+      "hp": 10,
+      "hitDice": "1d8+2",
+      "initiative": 3,
+      "speed": "30 ft. walk and climb.",
+      "abilityScores": {
+        "STR": 10,
+        "DEX": 17,
+        "CON": 15,
+        "INT": 12,
+        "WIS": 13,
+        "CHA": 8
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Deception +3",
+        "Medicine +3",
+        "Perception +3",
+        "Sleight of Hand +5",
+        "Stealth +7"
+      ],
+      "senses": "Darkvision 60 ft. Passive Perception 13.",
+      "languages": "Common, Halfling, thieves’ cant.",
+      "traits": [
+        "Proficiency +2. Dexterity save +5, Intelligence save +3. Leather armor AC 11 + Dexterity 3. Expertise in Deception and Stealth.",
+        "Posskin Scavenger. Advantage on saves against poison or disease and resistance to poison damage.",
+        "Sneak Attack. Add 1d6 to a rapier hit once per turn with advantage, or when an enemy of the target that is not incapacitated is within 5 ft. of it and Tansy has no disadvantage."
+      ],
+      "actions": [
+        "Rapier. Melee weapon attack +5 to hit, reach 5 ft., one target. Hit for 1d8 + 3 piercing.",
+        "Bite. Melee unarmed strike +2 to hit, reach 5 ft., one target. Hit for 1d6 slashing.",
+        "Play Dead. Reaction when damage drops Tansy to 5 HP or less and Tansy can still take a reaction. Tansy falls prone and appears dead to casual observers for up to an hour. Within 5 ft., a creature can use its action for Intelligence (Investigation) contested by Tansy’s Constitution (Deception) +6. Tansy can end the ruse early as a bonus action. Once per short or long rest."
+      ],
+      "tactics": "Tansy scouts the visible rafters first. If cornered, Tansy draws the rapier and uses Play Dead only when it might make the attacker turn away.",
+      "type": "Humanoid",
+      "size": "Small",
+      "origin": "Original DM Library NPC",
+      "difficulty": "Tier 1 class-built NPC. No assigned CR.",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ]
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Fen Stitch",
+      "role": "Flood tunnel guard",
+      "motive": "Find a way to reopen the dry route around a collapsed sump.",
+      "hook": "Fen marks the height of the last flood on the wall and asks the party to fetch the surveyor before it rains again.",
+      "species": "Mycelian",
+      "speciesPublication": "Heliana’s Guide to Monster Hunting (first printing)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "size": "Medium",
+      "build": "heliana-fen-stitch"
+    },
+    {
+      "name": "Aster Sill",
+      "role": "Underground courier",
+      "motive": "Find the intended recipient of a note whose address vanished in the rain.",
+      "hook": "Aster asks for directions in an old ferryman’s voice. The brass token on the note is the only legible clue.",
+      "species": "Ombrask",
+      "speciesPublication": "Heliana’s Guide to Monster Hunting (first printing)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "size": "Medium",
+      "build": "heliana-aster-sill"
+    },
+    {
+      "name": "Brine Button",
+      "role": "Lock tender",
+      "motive": "Get a jammed spillway open before the upstream turn of the tide.",
+      "hook": "Brine can reach the gate’s pin in puddle form and asks someone to stay topside with the tools.",
+      "species": "Oozekin",
+      "speciesPublication": "Heliana’s Guide to Monster Hunting (first printing)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "size": "Medium",
+      "build": "heliana-brine-button"
+    },
+    {
+      "name": "Bobbin Rush",
+      "role": "Canopy piper",
+      "motive": "Recover a recorder case caught under a bridge before the next river surge.",
+      "hook": "Bobbin has marked the snag with a thread and offers to carry a warning to the upper platforms if the party can reach it.",
+      "species": "Opteran",
+      "speciesPublication": "Heliana’s Guide to Monster Hunting (first printing)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "size": "Small",
+      "build": "heliana-bobbin-rush"
+    },
+    {
+      "name": "Tansy Bolt",
+      "role": "Roadside salvager",
+      "motive": "Return the names from a scattered ledger to their families.",
+      "hook": "Tansy offers a shortcut across the slate roofs to anyone willing to help collect the pages before the vendors sweep them away.",
+      "species": "Rakin",
+      "speciesPublication": "Heliana’s Guide to Monster Hunting (first printing)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "size": "Small",
+      "build": "heliana-tansy-bolt"
+    }
+  ]
+}

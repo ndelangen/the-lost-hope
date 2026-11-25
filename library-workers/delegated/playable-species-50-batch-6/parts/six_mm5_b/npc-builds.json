@@ -1,0 +1,225 @@
+{
+  "builds": [
+    {
+      "id": "mmv-kharven-reedscale-35e",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "size": "Medium",
+      "type": "Monstrous humanoid (dragonblood)",
+      "title": "Greenspawn toll chaplain, cleric 1",
+      "difficulty": "CR 6 for encounter use. ECL 9 = 6 racial HD + 1 cleric level + 2 LA.",
+      "senses": "Darkvision 60 ft.",
+      "languages": "Common, Draconic",
+      "speed": "20 ft. in banded mail, 30 ft. unarmored",
+      "ac": 21,
+      "hp": 52,
+      "hitDice": "6d8+1d8+21",
+      "initiative": 4,
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 11,
+        "CON": 16,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 12
+      },
+      "skills": [
+        "Concentration +5",
+        "Listen +1",
+        "Sense Motive +10",
+        "Spot +10",
+        "Armor check penalty −8"
+      ],
+      "traits": [
+        "Lawful evil. Touch AC 10, flat-footed 21. BAB +6, grapple +9. Fort +7, Ref +5, Will +10. Banded mail, heavy steel shield, heavy mace and light crossbow with ten bolts. Improved Initiative, Iron Will and Weapon Focus (heavy mace).",
+        "Immune to acid. His favored enemy grants +2 weapon damage and +2 to relevant Bluff, Listen, Sense Motive, Spot and Survival checks against humans. He gains +2 on saves when adjacent to another zealot. Once per day, use an immediate action to reroll a save.",
+        "Cleric of Tiamat with Destruction and Evil domains, CL 1 or 2 for evil spells. Destruction smite 1/day grants +4 on a declared melee attack and +1 damage on a hit. Rebuke or command undead 4/day, turning check 1d20+1 and turning damage 2d6+2."
+      ],
+      "actions": [
+        "Heavy mace +10/+5 (1d8+3, ×2) or light crossbow +6 (1d8, 19–20/×2, 80-ft. range increment) with the shield stowed. Add +2 weapon damage against humans.",
+        "Touch of Tiamat +9 melee touch, standard action. Choose an amount from the remaining 18-point daily pool. The living target halves on Will DC 16. One dragon or dragonblood creature within 30 ft., including Kharven, heals the damage actually dealt.",
+        "Prepared orisons are detect magic, guidance and resistance. Bane affects enemies within 50 ft. for 1 minute. Will DC 12 negates −1 on attacks and fear saves. Divine favor gives +1 luck on attacks and weapon damage for 1 minute. The Evil domain spell protection from good lasts 1 minute, grants +2 deflection AC and +2 resistance saves against good creatures, and wards against mental control and bodily contact from summoned creatures other than evil ones.",
+        "Spontaneous inflict light wounds spends a non-domain spell slot (+9 touch, 1d8+1, Will DC 12 half). It can also restore the actual damage dealt to a dragon or dragonblood creature within 30 ft. through Touch of Tiamat."
+      ],
+      "tactics": "Open with bane if the tollhouse is threatened. Let the levy hold the doorway while Kharven uses his touch to heal wounded dragonspawn. Spend smite when he needs to push someone back from the gate."
+    },
+    {
+      "id": "mmv-irix-sootthread-35e",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "size": "Medium",
+      "type": "Fey",
+      "title": "Aerial shadow-silk thief, rogue 1",
+      "difficulty": "CR 3 for encounter use. ECL 8 = 4 racial HD + 1 rogue level + 3 LA.",
+      "senses": "Darkvision 60 ft., low-light vision",
+      "languages": "Common, Sylvan",
+      "speed": "30 ft., fly 60 ft. (good)",
+      "ac": 15,
+      "hp": 28,
+      "hitDice": "4d6+1d6+10",
+      "initiative": 4,
+      "abilityScores": {
+        "STR": 10,
+        "DEX": 18,
+        "CON": 15,
+        "INT": 13,
+        "WIS": 13,
+        "CHA": 16
+      },
+      "skills": [
+        "Bluff +10",
+        "Craft (weaponsmithing) +8",
+        "Hide +12",
+        "Listen +7",
+        "Move Silently +12",
+        "Spot +7",
+        "Tumble +5"
+      ],
+      "traits": [
+        "Chaotic evil. Touch AC 14, flat-footed 11. BAB +2, grapple +2. Fort +3, Ref +10, Will +5. Shadow-gossamer buckler, Combat Reflexes, Point Blank Shot and Weapon Finesse. DR 5/cold iron.",
+        "Sneak attack +1d6 while flanking or when the defender is denied its Dexterity bonus, if the attack qualifies. Ranged sneak attack works within 30 ft. Trapfinding enables Search DCs over 20 and disarming magical traps.",
+        "Use a swift action to form one shadow-gossamer object weighing no more than 15 lb. Irix is proficient with its weapons. Such weapons add 10 ft. to range increment and such shields reduce armor check penalty by 1. Items dissipate after more than one round out of a shaedling’s hands."
+      ],
+      "actions": [
+        "Shadow-gossamer javelin +6 ranged (1d6, ×2, 40-ft. increment) or spiked chain +6 melee (2d4, ×2, 10-ft. reach, may also strike adjacent). With buckler still on that arm, the two-handed chain attacks at +5 and she has AC 14 for the rest of that round. Bolas +6 ranged (1d4 nonlethal, ×2, 20-ft. increment), or make a ranged trip attempt. Add +1 to ranged weapon attack and damage within 30 ft. from Point Blank Shot.",
+        "Sleeping Curse, 1/day. Throw one special gossamer javelin at a foe within 30 ft. at +7 (1d6+1 piercing on a hit in this example). On a hit, the target makes Fortitude DC 15 or falls asleep for 1d6 rounds. Remove curse ends it.",
+        "Wall of Darkness, 1/day, standard action. Create a wall up to 30 ft. long. A creature with darkvision can see through it. This encounter uses a 10-ft. height, placement within 30 ft. and a 5-round duration because the entry supplies no height, duration or placement range."
+      ],
+      "tactics": "Keep moving above melee reach. Open with a sleeping javelin against a guard who can sound an alarm. Place the shadow wall across a sightline if the theft is discovered, then fly away below the roofline."
+    },
+    {
+      "id": "mmv-brakk-rivetjaw-35e",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "size": "Large",
+      "type": "Giant",
+      "title": "Escaped quarry shock trooper, fighter 1",
+      "difficulty": "CR 9 for encounter use. ECL 12 = 6 racial HD + 1 fighter level + 5 LA.",
+      "senses": "Darkvision 60 ft., low-light vision, scent",
+      "languages": "Giant",
+      "speed": "20 ft.",
+      "ac": 25,
+      "hp": 95,
+      "hitDice": "6d8+1d10+63",
+      "initiative": 3,
+      "abilityScores": {
+        "STR": 28,
+        "DEX": 16,
+        "CON": 28,
+        "INT": 6,
+        "WIS": 14,
+        "CHA": 9
+      },
+      "skills": [
+        "Intimidate +0",
+        "Listen +6",
+        "Spot +7"
+      ],
+      "traits": [
+        "Chaotic evil. Touch AC 12, flat-footed 22. BAB +5, grapple +18. Fort +16, Ref +7, Will +4. Space and reach 10 ft. Lightning Reflexes, Multiattack, Power Attack and Weapon Focus (claw).",
+        "Regeneration 5. Fire and acid deal lethal damage. Reattach a severed part by holding it to its stump, or regrow it over five minutes.",
+        "Immune to mind-affecting spells and abilities. A creature that directly contacts Brakk’s mind takes 1d4 Wisdom damage.",
+        "When he dies, resolve a 30-ft. burst centered on him. It deals 5d6 piercing, Reflex DC 22 half."
+      ],
+      "actions": [
+        "Two claws +14 melee (2d6+9, ×2) and secondary bite +11 melee (2d6+4, ×2). If both claws hit one creature, rend it for another 4d6+13 damage.",
+        "Pounce allows this full attack after a charge, with the normal +2 on attack rolls and −2 AC until his next turn.",
+        "Power Attack. Subtract up to 5 from melee attack rolls until his next turn. Add the same amount to each successful natural weapon damage roll. The separate rend damage does not gain that bonus in this encounter."
+      ],
+      "tactics": "Warn intruders from the far side of a trench. If someone attempts to pen him in, charge the least protected exit and use pounce on anyone who blocks it."
+    },
+    {
+      "id": "mmv-vask-burlhide-35e",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "size": "Medium",
+      "type": "Monstrous humanoid",
+      "title": "Lashemoi bridge guard, barbarian 1",
+      "difficulty": "CR 2 for encounter use. ECL 5 = 2 racial HD + 1 barbarian level + 2 LA.",
+      "senses": "Low-light vision",
+      "languages": "Common",
+      "speed": "40 ft.",
+      "ac": 12,
+      "hp": 28,
+      "hitDice": "2d8+1d12+9, plus 3 Toughness",
+      "initiative": 0,
+      "abilityScores": {
+        "STR": 12,
+        "DEX": 11,
+        "CON": 16,
+        "INT": 5,
+        "WIS": 11,
+        "CHA": 8
+      },
+      "skills": [
+        "Hide +3",
+        "Listen +1",
+        "Spot +2"
+      ],
+      "traits": [
+        "Neutral evil. Touch AC 10, flat-footed 12. BAB +3, grapple +4. Fort +5, Ref +3, Will +3. Weapon Focus (claw), Toughness and DR 5/slashing or piercing. Fast movement is included.",
+        "Broken Courage imposes −4 on fear saves and the check against Intimidate. Fear effects can affect him regardless of their normal Hit Dice limits.",
+        "Lesser Strength from Pain. When damage gets through, add one step, including for separate damage events in the same round. Each step adds +1 on attacks, damage and natural armor. Cap at five steps. Clear all steps one minute after the round containing the first damage event, then begin again when next damaged.",
+        "Rage 1/day for up to 8 rounds. Strength 16 and Constitution 20. Gain +6 current and maximum HP, +2 Fort and +2 morale on Will saves. Base AC 10, touch 8, flat-footed 10 while raging before pain steps. Rage ends with fatigue (−2 Strength and Dexterity, no running or charging) for the encounter."
+      ],
+      "actions": [
+        "Two claws +5 each (1d4+1, ×2) before pain steps. During rage use +7 each (1d4+3, ×2). Add current Lesser Strength from Pain steps to each hit roll and damage roll."
+      ],
+      "tactics": "Keep an escape route open. Rage after taking an injury if the party threatens the bridge or comes between Vask and the rope."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Kharven Reedscale",
+      "species": "Greenspawn Zealot",
+      "speciesPublication": "Monster Manual V (2007)",
+      "edition": "3.5 edition",
+      "build": "mmv-kharven-reedscale-35e",
+      "size": "Medium",
+      "role": "Chaplain of a dragonspawn levy that has claimed an abandoned tollhouse.",
+      "motive": "Recover the slate on which a deserter recorded which recruits he let walk away.",
+      "hook": "Kharven offers a night pass through the levy’s roadblock to anyone who retrieves the slate. The deserter offers the party a different account of who opened the cell."
+    },
+    {
+      "name": "Irix Sootthread",
+      "species": "Shaedling",
+      "speciesPublication": "Monster Manual V (2007)",
+      "edition": "3.5 edition",
+      "build": "mmv-irix-sootthread-35e",
+      "size": "Medium",
+      "role": "An aerial thief who makes weapons from shadow silk and sells the goods she steals.",
+      "motive": "Get a stolen copper seal back before the collector who hired her notices she gave him a copy.",
+      "hook": "Irix knows where the party’s missing supplies went. She asks for the seal before she tells them."
+    },
+    {
+      "name": "Brakk Rivetjaw",
+      "species": "Bladerager Troll",
+      "speciesPublication": "Monster Manual V (2007)",
+      "edition": "3.5 edition",
+      "build": "mmv-brakk-rivetjaw-35e",
+      "size": "Large",
+      "role": "An escaped shock trooper bivouacking in a quarry shed near the old blasting trenches.",
+      "motive": "Keep the quartermaster who bolted on his jaw from finding where he sleeps.",
+      "hook": "A mule driver saw Brakk pull a steel bolt from his own shoulder. He offers to tell the party who supplied it if they clear the quarry road so he can leave."
+    },
+    {
+      "name": "Vask Burlhide",
+      "species": "Ushemoi",
+      "speciesPublication": "Monster Manual V (2007)",
+      "edition": "3.5 edition",
+      "build": "mmv-vask-burlhide-35e",
+      "size": "Medium",
+      "role": "A Lashemoi track minder who guards a narrow footbridge for an absent gang leader.",
+      "motive": "Get his promised share of a toll chest before the gang leaves for the winter.",
+      "hook": "The wind has rolled the chest into the ravine. Vask has a coil of rope and will share the coins with anyone who helps retrieve it."
+    }
+  ]
+}

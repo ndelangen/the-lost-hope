@@ -1,0 +1,2417 @@
+{
+  "baseline": "467bc27ec62d06c0c2a113362b9f5496f8696ec8",
+  "profiles": 50,
+  "generatedPortraits": 38,
+  "reusedExistingPortraits": 0,
+  "entries": [
+    {
+      "owner": "b02_01",
+      "name": "Ape",
+      "kind": "beast",
+      "publication": "Black Flag Roleplaying Reference Document v0.2",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "1/2",
+      "art_group": "ape",
+      "printed_cr": "1/2",
+      "portrait": {
+        "file": "parts/b02_01/portraits/ape.png",
+        "sha256": "683ff046deaecf0d5e7c01d3839332dfd0c985c1919f16b56a540bf4aa2de9e2",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Ape",
+        "kind": "beast",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "edition": "Black Flag Roleplaying",
+        "printing": "Reference Document v0.2, May 2024 ",
+        "publisher": "Open Design LLC d/b/a Kobold Press",
+        "pdfPage": 350,
+        "printedPages": [
+          350
+        ],
+        "section": "Monsters, Animals",
+        "sourceUrl": "",
+        "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+        "supportingPages": [
+          229,
+          232
+        ],
+        "appearanceEvidence": "The source names an ape. The gray mantle, fur tone, and gorilla-like build are editorial choices in the original portrait.",
+        "habitatEvidence": "The v0.2 block has no habitat line. The legacy Ape rules page lists forest. Woodland canopy is an editorial search tag based on its climbing speed.",
+        "printingNotes": [
+          "The native stat block supplies ability modifiers and fixed Perception and Stealth. It does not supply ability scores or Hit Dice. XP comes from the native CR table."
+        ]
+      }
+    },
+    {
+      "owner": "b02_01",
+      "name": "Ape",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/2",
+      "art_group": "ape",
+      "printed_cr": "1/2",
+      "portrait": {
+        "file": "parts/b02_01/portraits/ape.png",
+        "sha256": "683ff046deaecf0d5e7c01d3839332dfd0c985c1919f16b56a540bf4aa2de9e2",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Ape",
+        "kind": "beast",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "2014 fifth-edition Monster Manual",
+        "printedPages": [
+          317
+        ],
+        "section": "Appendix A, Miscellaneous Creatures",
+        "sourceUrl": "https://anyflip.com/ifxnk/qjfj/basic/301-350",
+        "sourceWitness": "Indexable mirror of the authored Monster Manual text.",
+        "rulesCrossCheck": "https://www.dndbeyond.com/monsters/16788-ape",
+        "srdCrossCheck": "",
+        "officialErrata": "",
+        "appearanceEvidence": "The source names an ape. The gray mantle, fur tone, and gorilla-like build are editorial choices in the original portrait.",
+        "habitatEvidence": "The legacy Ape rules page lists forest. Woodland canopy is an editorial search tag based on its climbing speed."
+      }
+    },
+    {
+      "owner": "b02_01",
+      "name": "Axe Beak",
+      "kind": "beast",
+      "publication": "Black Flag Roleplaying Reference Document v0.2",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "1/4",
+      "art_group": "axe-beak",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "parts/b02_01/portraits/axe-beak.png",
+        "sha256": "ea8cf70690b3a785a19ef44161d50544ffc3a91d65dddc8196f9f1df9d53d67c",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Axe Beak",
+        "kind": "beast",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "edition": "Black Flag Roleplaying",
+        "printing": "Reference Document v0.2, May 2024 ",
+        "publisher": "Open Design LLC d/b/a Kobold Press",
+        "pdfPage": 351,
+        "printedPages": [
+          351
+        ],
+        "section": "Monsters, Animals",
+        "sourceUrl": "",
+        "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+        "supportingPages": [
+          229
+        ],
+        "appearanceEvidence": "The 2014 Monster Manual describes a tall, flightless bird with strong legs and a heavy, wedge-shaped bill. Its blue-gray plumage is editorial.",
+        "habitatEvidence": "The v0.2 block has no habitat line. Grassland and hills are editorial search tags for this edition, based on the habitats listed with the legacy Axe Beak rules.",
+        "printingNotes": [
+          "The native stat block supplies ability modifiers and fixed Perception and Stealth. It does not supply ability scores or Hit Dice. XP comes from the native CR table."
+        ]
+      }
+    },
+    {
+      "owner": "b02_01",
+      "name": "Axe Beak",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "axe-beak",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "parts/b02_01/portraits/axe-beak.png",
+        "sha256": "ea8cf70690b3a785a19ef44161d50544ffc3a91d65dddc8196f9f1df9d53d67c",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Axe Beak",
+        "kind": "beast",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "2014 fifth-edition Monster Manual",
+        "printedPages": [
+          317
+        ],
+        "section": "Appendix A, Miscellaneous Creatures",
+        "sourceUrl": "https://anyflip.com/ifxnk/qjfj/basic/301-350",
+        "sourceWitness": "Indexable mirror of the authored Monster Manual text.",
+        "rulesCrossCheck": "https://www.dndbeyond.com/monsters/16793-axe-beak",
+        "srdCrossCheck": "",
+        "officialErrata": "",
+        "appearanceEvidence": "The 2014 Monster Manual describes a tall, flightless bird with strong legs and a heavy, wedge-shaped bill. Its blue-gray plumage is editorial.",
+        "habitatEvidence": "The legacy Axe Beak rules page lists grassland and hill. The 2014 entry gives no habitat line."
+      }
+    },
+    {
+      "owner": "b02_01",
+      "name": "Bat",
+      "kind": "beast",
+      "publication": "Black Flag Roleplaying Reference Document v0.2",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "0",
+      "art_group": "bat",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "parts/b02_01/portraits/bat.png",
+        "sha256": "166fc642f25c5e161871ef22d9c1575aa8c20d306d23f3528e0da795e7286ac0",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Bat",
+        "kind": "beast",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "edition": "Black Flag Roleplaying",
+        "printing": "Reference Document v0.2, May 2024 ",
+        "publisher": "Open Design LLC d/b/a Kobold Press",
+        "pdfPage": 352,
+        "printedPages": [
+          352
+        ],
+        "section": "Monsters, Animals",
+        "sourceUrl": "",
+        "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+        "supportingPages": [
+          229,
+          127,
+          232
+        ],
+        "appearanceEvidence": "The source identifies a bat with echolocation. Its brown fur, broad ears, and wing pose are editorial visual details.",
+        "habitatEvidence": "Caves and forest are editorial search tags based on ordinary roosting and foraging habitats. The v0.2 block gives no habitat line.",
+        "printingNotes": [
+          "The native stat block supplies ability modifiers and fixed Perception and Stealth. It does not supply ability scores or Hit Dice. XP comes from the native CR table."
+        ]
+      }
+    },
+    {
+      "owner": "b02_02",
+      "name": "Baboon",
+      "kind": "beast",
+      "publication": "Black Flag Roleplaying Reference Document v0.2",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "1/8",
+      "art_group": "baboon",
+      "printed_cr": "1/8",
+      "portrait": {
+        "file": "parts/b02_02/portraits/baboon.png",
+        "sha256": "5bda8b7e87181eca0f2d68c20b3ced39cd6cba032980e635c429c790184d20cd",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with built-in OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Baboon",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "edition": "Black Flag Roleplaying",
+        "kind": "beast",
+        "printedPages": [
+          351
+        ],
+        "sourceUrl": "",
+        "appearanceEvidence": "Editorial description of the original olive-baboon study. The rules printings use the common animal name without specifying a species.",
+        "habitatEvidence": "Editorial tags for forest, savanna grassland and rocky hillsides, using natural baboon habitats.",
+        "habitatSourceUrl": "https://animals.sandiegozoo.org/animals/monkey",
+        "publisher": "Kobold Press",
+        "printing": "Reference Document v0.2, May 2024",
+        "pdfPages": [
+          351
+        ],
+        "pdfPageNumbering": "One-based numbering matches the printed pages.",
+        "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+        "xpPrintedPage": 229,
+        "xpSourceUrl": "",
+        "abilityModifiers": {
+          "STR": -1,
+          "DEX": 1,
+          "CON": 0,
+          "INT": -3,
+          "WIS": 1,
+          "CHA": -2
+        },
+        "fixedValues": {
+          "Perception": 11,
+          "Stealth": 11
+        },
+        "omittedInPrint": [
+          "Hit Dice",
+          "raw ability scores",
+          "alignment"
+        ]
+      }
+    },
+    {
+      "owner": "b02_02",
+      "name": "Baboon",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "0",
+      "art_group": "baboon",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "parts/b02_02/portraits/baboon.png",
+        "sha256": "5bda8b7e87181eca0f2d68c20b3ced39cd6cba032980e635c429c790184d20cd",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with built-in OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Baboon",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "printedPages": [
+          318
+        ],
+        "sourceUrl": "https://online.anyflip.com/pqhqn/sezy/files/basic-html/page319.html",
+        "appearanceEvidence": "Editorial description of the original olive-baboon study. The rules printings use the common animal name without specifying a species.",
+        "habitatEvidence": "Editorial tags for forest, savanna grassland and rocky hillsides, using natural baboon habitats.",
+        "habitatSourceUrl": "https://animals.sandiegozoo.org/animals/monkey",
+        "publisher": "Wizards of the Coast",
+        "printing": "2014 fifth-edition book",
+        "pageNumbering": "Printed page 318, viewer sheet 319.",
+        "secondaryOfficialWitness": "",
+        "errataUrl": "",
+        "errata": "No listed correction to this creature in the 2018 Monster Manual errata."
+      }
+    },
+    {
+      "owner": "b02_02",
+      "name": "Badger",
+      "kind": "beast",
+      "publication": "Black Flag Roleplaying Reference Document v0.2",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "0",
+      "art_group": "badger",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "parts/b02_02/portraits/badger.png",
+        "sha256": "75809f0e89a216a04e58bc0c66ba4df421319cad328164c66ca2a75f0fe0d20e",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with built-in OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Badger",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "edition": "Black Flag Roleplaying",
+        "kind": "beast",
+        "printedPages": [
+          351
+        ],
+        "sourceUrl": "",
+        "appearanceEvidence": "Editorial description of the original European-badger study. The rules printings use the common animal name without specifying a species.",
+        "habitatEvidence": "Editorial tags drawn from European badger habitats, including woodland setts and nearby fields and meadows.",
+        "habitatSourceUrl": "https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/animals/mammals/badger/",
+        "publisher": "Kobold Press",
+        "printing": "Reference Document v0.2, May 2024",
+        "pdfPages": [
+          351
+        ],
+        "pdfPageNumbering": "One-based numbering matches the printed pages.",
+        "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+        "xpPrintedPage": 229,
+        "xpSourceUrl": "",
+        "abilityModifiers": {
+          "STR": -3,
+          "DEX": 0,
+          "CON": 1,
+          "INT": -4,
+          "WIS": 1,
+          "CHA": -3
+        },
+        "fixedValues": {
+          "Perception": 11,
+          "Stealth": 10
+        },
+        "omittedInPrint": [
+          "Hit Dice",
+          "raw ability scores",
+          "alignment"
+        ]
+      }
+    },
+    {
+      "owner": "b02_02",
+      "name": "Badger",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "0",
+      "art_group": "badger",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "parts/b02_02/portraits/badger.png",
+        "sha256": "75809f0e89a216a04e58bc0c66ba4df421319cad328164c66ca2a75f0fe0d20e",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with built-in OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Badger",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "printedPages": [
+          318
+        ],
+        "sourceUrl": "https://online.anyflip.com/pqhqn/sezy/files/basic-html/page319.html",
+        "appearanceEvidence": "Editorial description of the original European-badger study. The rules printings use the common animal name without specifying a species.",
+        "habitatEvidence": "Editorial tags drawn from European badger habitats, including woodland setts and nearby fields and meadows.",
+        "habitatSourceUrl": "https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/animals/mammals/badger/",
+        "publisher": "Wizards of the Coast",
+        "printing": "2014 fifth-edition book",
+        "pageNumbering": "Printed page 318, viewer sheet 319.",
+        "secondaryOfficialWitness": "",
+        "errataUrl": "",
+        "errata": "No listed correction to this creature in the 2018 Monster Manual errata."
+      }
+    },
+    {
+      "owner": "b02_02",
+      "name": "Crab",
+      "kind": "beast",
+      "publication": "Black Flag Roleplaying Reference Document v0.2",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "0",
+      "art_group": "crab",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "parts/b02_02/portraits/crab.png",
+        "sha256": "69ff170a4280d382c521c0b2e631ef0563dad74e9046fc30929e8f992d5d5b8f",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with built-in OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Crab",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "edition": "Black Flag Roleplaying",
+        "kind": "beast",
+        "printedPages": [
+          354,
+          355
+        ],
+        "sourceUrl": "",
+        "appearanceEvidence": "Editorial description of the original shore-crab study. The Black Flag block uses the common animal name without specifying a species.",
+        "habitatEvidence": "Editorial tags drawn from the common shore crab’s coastal and estuarine range. The ruleblock lists movement and Amphibious but supplies no habitat field.",
+        "habitatSourceUrl": "https://www.marlin.ac.uk/species/detail/1497/1000",
+        "publisher": "Kobold Press",
+        "printing": "Reference Document v0.2, May 2024",
+        "pdfPages": [
+          354,
+          355
+        ],
+        "pdfPageNumbering": "One-based numbering matches the printed pages.",
+        "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+        "xpPrintedPage": 229,
+        "xpSourceUrl": "",
+        "abilityModifiers": {
+          "STR": -4,
+          "DEX": 0,
+          "CON": 0,
+          "INT": -5,
+          "WIS": -1,
+          "CHA": -4
+        },
+        "fixedValues": {
+          "Perception": 9,
+          "Stealth": 12
+        },
+        "omittedInPrint": [
+          "Hit Dice",
+          "raw ability scores",
+          "alignment"
+        ],
+        "keensenseRules": ""
+      }
+    },
+    {
+      "owner": "b02_03",
+      "name": "Boar",
+      "kind": "beast",
+      "publication": "Black Flag Roleplaying Reference Document v0.2",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "1/4",
+      "art_group": "boar",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "parts/b02_03/portraits/boar.png",
+        "sha256": "b4688f0bf40d1e05ae32f0d82c0cc0d4508e20d4cca842c2544f8e191d0fb22f",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Boar",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "edition": "Black Flag Roleplaying",
+        "publisher": "Open Design LLC d/b/a Kobold Press",
+        "printing": "Version 0.2, May 2024 ",
+        "printedPages": [
+          353,
+          354
+        ],
+        "pageNumbering": "Printed pages match one-based page numbers.",
+        "url": "",
+        "experienceSource": "",
+        "supportingPages": [],
+        "numericalScope": "The creature block gives fixed HP, ability modifiers, Perception and Stealth. It does not give Hit Dice, raw ability scores or alignment.",
+        "appearanceSource": "The Tusk action establishes the tusks. Bristles, color and palette are original natural-history choices.",
+        "habitatSource": "Editorial habitat tags based on ordinary wild boar behavior. Pages 353–354 do not list habitat."
+      }
+    },
+    {
+      "owner": "b02_03",
+      "name": "Boar",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "boar",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "parts/b02_03/portraits/boar.png",
+        "sha256": "b4688f0bf40d1e05ae32f0d82c0cc0d4508e20d4cca842c2544f8e191d0fb22f",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Boar",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "2014 Monster Manual, 2014 fifth edition",
+        "printedPages": [
+          319
+        ],
+        "pageNumbering": "Printed Appendix A folio.",
+        "url": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/monster-stat-blocks-b#Boar",
+        "verification": "Read the actual 2014 Monster Manual print page and cross-checked the official 2014 Basic Rules. The 2018 published errata has no Boar-specific changes.",
+        "errataUrl": "",
+        "appearanceSource": "Monster Manual p. 319 gives a Tusk attack. Other appearance details come from the original portrait.",
+        "habitatSource": "Editorial habitat tags based on ordinary wild boar behavior. Page 319 does not list habitat."
+      }
+    },
+    {
+      "owner": "b02_03",
+      "name": "Deer",
+      "kind": "beast",
+      "publication": "Black Flag Roleplaying Reference Document v0.2",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "0",
+      "art_group": "deer",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "parts/b02_03/portraits/deer.png",
+        "sha256": "cf63ea699acc175d9d838d957ec0f26cd6cb3cc38b717cdb0561936c11605242",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Deer",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "edition": "Black Flag Roleplaying",
+        "publisher": "Open Design LLC d/b/a Kobold Press",
+        "printing": "Version 0.2, May 2024 ",
+        "printedPages": [
+          355,
+          356
+        ],
+        "pageNumbering": "Printed pages match one-based page numbers.",
+        "url": "",
+        "experienceSource": "",
+        "supportingPages": [
+          232
+        ],
+        "numericalScope": "The creature block gives fixed HP, ability modifiers, Perception and Stealth. It does not give Hit Dice, raw ability scores or alignment.",
+        "appearanceSource": "Editorial natural-history portrait depicts a red deer stag. The stat block supplies no antler attack.",
+        "habitatSource": "Editorial habitat tags based on the depicted deer. The source lists no habitat."
+      }
+    },
+    {
+      "owner": "b02_03",
+      "name": "Eagle",
+      "kind": "beast",
+      "publication": "Black Flag Roleplaying Reference Document v0.2",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "0",
+      "art_group": "eagle",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "parts/b02_03/portraits/eagle.png",
+        "sha256": "5afbbb2846bbd876b515e7226034b341d8a78d7f425145451029812c5babc65b",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Eagle",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "edition": "Black Flag Roleplaying",
+        "publisher": "Open Design LLC d/b/a Kobold Press",
+        "printing": "Version 0.2, May 2024 ",
+        "printedPages": [
+          356
+        ],
+        "pageNumbering": "Printed pages match one-based page numbers.",
+        "url": "",
+        "experienceSource": "",
+        "supportingPages": [
+          132,
+          232
+        ],
+        "numericalScope": "The creature block gives fixed HP, ability modifiers, Perception and Stealth. It does not give Hit Dice, raw ability scores or alignment.",
+        "appearanceSource": "Page 356 gives the Seabird trait and Talons. The pale head and body colors are original natural-history interpretation.",
+        "habitatSource": "Page 356 names a ship and beach as landing examples. Coasts and coastal waters are editorial inferences from Seabird."
+      }
+    },
+    {
+      "owner": "b02_03",
+      "name": "Elephant",
+      "kind": "beast",
+      "publication": "Black Flag Roleplaying Reference Document v0.2",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "4",
+      "art_group": "elephant",
+      "printed_cr": "4",
+      "portrait": {
+        "file": "parts/b02_03/portraits/elephant.png",
+        "sha256": "dba093158ae121c1425fbe1f1791b15d208abb9f3c606b5b628e39a9e8372029",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Elephant",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "edition": "Black Flag Roleplaying",
+        "publisher": "Open Design LLC d/b/a Kobold Press",
+        "printing": "Version 0.2, May 2024 ",
+        "printedPages": [
+          356
+        ],
+        "pageNumbering": "Printed pages match one-based page numbers.",
+        "url": "",
+        "experienceSource": "",
+        "supportingPages": [
+          232
+        ],
+        "numericalScope": "The creature block gives fixed HP, ability modifiers, Perception and Stealth. It does not give Hit Dice, raw ability scores or alignment.",
+        "appearanceSource": "Page 356 establishes Gore and Trunk Grab. The portrait depicts a savanna elephant with broad ears and tusks.",
+        "habitatSource": "Editorial habitat tags based on the depicted elephant. The source lists no habitat."
+      }
+    },
+    {
+      "owner": "b02_04",
+      "name": "Camel",
+      "kind": "beast",
+      "publication": "Black Flag Roleplaying Reference Document v0.2",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "1/8",
+      "art_group": "camel",
+      "printed_cr": "1/8",
+      "portrait": {
+        "file": "parts/b02_04/portraits/camel.png",
+        "sha256": "bae753a3f850f569686f845b8f5db464cdd7341b0f819f5e320ee1bf0e5ceffd",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Camel",
+        "kind": "beast",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "edition": "Black Flag Roleplaying",
+        "printing": "Reference Document v0.2, May 2024 ",
+        "publisher": "Open Design LLC d/b/a Kobold Press",
+        "pdfPage": 354,
+        "printedPages": [
+          354
+        ],
+        "viewerPages": [
+          354
+        ],
+        "sourceUrl": "",
+        "url": "",
+        "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+        "xp": 25,
+        "xpSource": "",
+        "fixedValues": {
+          "Perception": 9,
+          "Stealth": 10
+        },
+        "abilityModifiers": {
+          "STR": 2,
+          "DEX": 0,
+          "CON": 2,
+          "INT": -4,
+          "WIS": -1,
+          "CHA": -3
+        },
+        "hitDiceEvidence": "The v0.2 block gives fixed HP without Hit Dice.",
+        "appearanceEvidence": "Editorial description of the dromedary drawn in the shared original portrait. Both books identify the same ordinary animal.",
+        "habitatEvidence": "Editorial encounter placements based on the dromedary and the Black Flag water-use trait.",
+        "habitatSourceKind": "Editorial encounter suggestions. The v0.2 stat block has no habitat field.",
+        "mechanicsNotes": [
+          "The p. 354 camel heading is near the foot of the first column. Its traits and actions continue at the top of the second.",
+          "Camel Resilience follows native condition resistance on page 232."
+        ]
+      }
+    },
+    {
+      "owner": "b02_04",
+      "name": "Camel",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/8",
+      "art_group": "camel",
+      "printed_cr": "1/8",
+      "portrait": {
+        "file": "parts/b02_04/portraits/camel.png",
+        "sha256": "bae753a3f850f569686f845b8f5db464cdd7341b0f819f5e320ee1bf0e5ceffd",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Camel",
+        "kind": "beast",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "printing": "2014 Monster Manual",
+        "publisher": "Wizards of the Coast",
+        "printedPages": [
+          320
+        ],
+        "viewerPages": [
+          322
+        ],
+        "section": "Appendix A, Miscellaneous Creatures",
+        "sourceUrl": "https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/322/",
+        "url": "https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/322/",
+        "printWitness": "https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/322/",
+        "publicationPage": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+        "officialCrossCheck": "https://www.dndbeyond.com/monsters/16819-camel",
+        "officialErrata": "",
+        "errataEvidence": "Wizards of the Coast Monster Manual errata v2.0 contains no Camel change.",
+        "appearanceEvidence": "Editorial description of the dromedary drawn in the shared original portrait. Both books identify the same ordinary animal.",
+        "habitatEvidence": "Editorial encounter placements based on the dromedary and the Black Flag water-use trait.",
+        "habitatSourceKind": "Editorial encounter suggestions. The 2014 print block has no habitat field. The D&D Beyond Legacy record also tags Desert.",
+        "mechanicsNotes": [
+          "The printed 2014 Bite uses 1d4 without adding a damage modifier. Camel Resilience and Bile Spit come from the separate Black Flag entry."
+        ]
+      }
+    },
+    {
+      "owner": "b02_04",
+      "name": "Frog",
+      "kind": "beast",
+      "publication": "Black Flag Roleplaying Reference Document v0.2",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "0",
+      "art_group": "frog",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "parts/b02_04/portraits/frog.png",
+        "sha256": "2d8bb529958ace2d23046d6f813e49205cd13da686988305fee08900411ca0a5",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Frog",
+        "kind": "beast",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "edition": "Black Flag Roleplaying",
+        "printing": "Reference Document v0.2, May 2024 ",
+        "publisher": "Open Design LLC d/b/a Kobold Press",
+        "pdfPage": 357,
+        "printedPages": [
+          357
+        ],
+        "viewerPages": [
+          357
+        ],
+        "sourceUrl": "",
+        "url": "",
+        "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+        "xp": 10,
+        "xpSource": "",
+        "fixedValues": {
+          "Perception": 11,
+          "Stealth": 10
+        },
+        "abilityModifiers": {
+          "STR": -5,
+          "DEX": 0,
+          "CON": -1,
+          "INT": -5,
+          "WIS": -1,
+          "CHA": -4
+        },
+        "hitDiceEvidence": "The v0.2 block gives fixed HP without Hit Dice.",
+        "appearanceEvidence": "Editorial description of the original portrait and ordinary pond-frog anatomy.",
+        "habitatEvidence": "Ponds and marshes are inferred from Amphibious and its printed swim speed.",
+        "habitatSourceKind": "Editorial encounter suggestions. The v0.2 stat block has no habitat field.",
+        "mechanicsNotes": [
+          "The Black Flag frog has its own Bite. The Giant Frog’s swallow and tongue abilities belong to separate blocks."
+        ]
+      }
+    },
+    {
+      "owner": "b02_04",
+      "name": "Goat",
+      "kind": "beast",
+      "publication": "Black Flag Roleplaying Reference Document v0.2",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "0",
+      "art_group": "goat",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "parts/b02_04/portraits/goat.png",
+        "sha256": "3d9ebe807d3471a32e50e0516f6439b7f34340af62f545da120602096372ad39",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Goat",
+        "kind": "beast",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "edition": "Black Flag Roleplaying",
+        "printing": "Reference Document v0.2, May 2024 ",
+        "publisher": "Open Design LLC d/b/a Kobold Press",
+        "pdfPage": 358,
+        "printedPages": [
+          358,
+          359
+        ],
+        "viewerPages": [
+          358,
+          359
+        ],
+        "sourceUrl": "",
+        "url": "",
+        "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+        "xp": 10,
+        "xpSource": "",
+        "fixedValues": {
+          "Perception": 10,
+          "Stealth": 10
+        },
+        "abilityModifiers": {
+          "STR": 1,
+          "DEX": 0,
+          "CON": 0,
+          "INT": -4,
+          "WIS": 0,
+          "CHA": -3
+        },
+        "hitDiceEvidence": "The v0.2 block gives fixed HP without Hit Dice.",
+        "appearanceEvidence": "Editorial description of the original portrait and domestic goat anatomy.",
+        "habitatEvidence": "Rocky hills and mountain pasture are editorial encounter suggestions for the animal depicted.",
+        "habitatSourceKind": "Editorial encounter suggestions. The v0.2 stat block has no habitat field.",
+        "mechanicsNotes": [
+          "The goat’s reaction continues at the top of the left column on p. 359. Its repeat protection applies to creatures that were frightened."
+        ]
+      }
+    },
+    {
+      "owner": "b02_04",
+      "name": "Hawk",
+      "kind": "beast",
+      "publication": "Black Flag Roleplaying Reference Document v0.2",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "0",
+      "art_group": "hawk",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "parts/b02_04/portraits/hawk.png",
+        "sha256": "1ca7918af66d2f5b9784b5b444f91740c758abed387ba9880040743bc2c3fa96",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Hawk",
+        "kind": "beast",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "edition": "Black Flag Roleplaying",
+        "printing": "Reference Document v0.2, May 2024 ",
+        "publisher": "Open Design LLC d/b/a Kobold Press",
+        "pdfPage": 359,
+        "printedPages": [
+          359
+        ],
+        "viewerPages": [
+          359
+        ],
+        "sourceUrl": "",
+        "url": "",
+        "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+        "xp": 10,
+        "xpSource": "",
+        "fixedValues": {
+          "Perception": 14,
+          "Stealth": 11
+        },
+        "abilityModifiers": {
+          "STR": -3,
+          "DEX": 1,
+          "CON": -1,
+          "INT": -4,
+          "WIS": 2,
+          "CHA": -2
+        },
+        "hitDiceEvidence": "The v0.2 block gives fixed HP without Hit Dice.",
+        "appearanceEvidence": "Editorial description of the original portrait, with the printed flight and Talons confirming the body plan.",
+        "habitatEvidence": "Open country and woodland edges are editorial locations with clear sight lines for a hunting hawk.",
+        "habitatSourceKind": "Editorial encounter suggestions. The v0.2 stat block has no habitat field.",
+        "mechanicsNotes": [
+          "Hawk and Blood Hawk have distinct blocks. The ordinary Hawk uses printed Heightened Sight 19 for vision and fixed Perception 14 otherwise."
+        ]
+      }
+    },
+    {
+      "owner": "b02_05",
+      "name": "Cat",
+      "kind": "beast",
+      "publication": "Black Flag Roleplaying Reference Document v0.2",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "0",
+      "art_group": "cat",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "parts/b02_05/portraits/cat.png",
+        "sha256": "839ed684fa8a9c5c401ebc55bb2d03fc167263b9a82fc9bc8acb98981874dfc7",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with built-in OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Cat",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "edition": "Black Flag Roleplaying",
+        "kind": "beast",
+        "printing": "Reference Document v0.2, May 2024 ",
+        "publisher": "Open Design LLC d/b/a Kobold Press",
+        "pdfPage": 354,
+        "printedPages": [
+          354
+        ],
+        "viewerPages": [
+          354
+        ],
+        "pageNumbering": "Printed and viewer pages match.",
+        "section": "Monsters",
+        "sourceUrl": "",
+        "url": "",
+        "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+        "xp": 10,
+        "xpSource": "",
+        "fixedValues": {
+          "Perception": 13,
+          "Stealth": 13
+        },
+        "abilityModifiers": {
+          "STR": -4,
+          "DEX": 1,
+          "CON": 0,
+          "INT": -4,
+          "WIS": 1,
+          "CHA": -2
+        },
+        "hitDiceEvidence": "The v0.2 block gives fixed HP without Hit Dice.",
+        "appearanceEvidence": "The stat block gives Tiny size and the Claws attack. Tabby coat, proportions and color are editorial choices in the shared portrait.",
+        "habitatEvidence": "Settlements, farms and woodland edges are suggested encounter locations for an ordinary domestic cat.",
+        "habitatSourceKind": "Editorial encounter suggestions. The native stat block gives no habitat.",
+        "mechanicsNotes": []
+      }
+    },
+    {
+      "owner": "b02_05",
+      "name": "Cat",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "0",
+      "art_group": "cat",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "parts/b02_05/portraits/cat.png",
+        "sha256": "839ed684fa8a9c5c401ebc55bb2d03fc167263b9a82fc9bc8acb98981874dfc7",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with built-in OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Cat",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "printing": "2014 rules, 11th printing checked",
+        "publisher": "Wizards of the Coast",
+        "printedPage": 320,
+        "printedPages": [
+          320
+        ],
+        "section": "Appendix A, Miscellaneous Creatures",
+        "sourceUrl": "https://anyflip.com/kqwdv/eoae/basic/301-350",
+        "url": "https://anyflip.com/kqwdv/eoae/basic/301-350",
+        "publisherReprint": "https://www.dndbeyond.com/monsters/16820-cat",
+        "errata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014",
+        "appearanceEvidence": "The printed block gives Tiny size and a Claws attack. Tabby coat, proportions and color are editorial choices in the shared portrait.",
+        "habitatEvidence": "Settlements, farms and woodland edges are suggested encounter locations for an ordinary domestic cat.",
+        "habitatSourceKind": "Editorial encounter suggestions. The printed block gives no habitat.",
+        "secondaryCrossCheck": "5etools matched the printed Cat numbers.",
+        "mechanicsNotes": [
+          "The printed +0 Claws attack and fixed 1 slashing damage agree with the official legacy Basic Rules reprint."
+        ]
+      }
+    },
+    {
+      "owner": "b02_05",
+      "name": "Hyena",
+      "kind": "beast",
+      "publication": "Black Flag Roleplaying Reference Document v0.2",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "0",
+      "art_group": "hyena",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "parts/b02_05/portraits/hyena.png",
+        "sha256": "e24a6fe211e6b15c7caccbc705b80719b31e8f4008842f1d4f1048c7dc1da118",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with built-in OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Hyena",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "edition": "Black Flag Roleplaying",
+        "kind": "beast",
+        "printing": "Reference Document v0.2, May 2024 ",
+        "publisher": "Open Design LLC d/b/a Kobold Press",
+        "pdfPage": 360,
+        "printedPages": [
+          360
+        ],
+        "viewerPages": [
+          360
+        ],
+        "pageNumbering": "Printed and viewer pages match.",
+        "section": "Monsters",
+        "sourceUrl": "",
+        "url": "",
+        "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+        "xp": 10,
+        "xpSource": "",
+        "fixedValues": {
+          "Perception": 13,
+          "Stealth": 10
+        },
+        "abilityModifiers": {
+          "STR": 0,
+          "DEX": 0,
+          "CON": 1,
+          "INT": -4,
+          "WIS": 1,
+          "CHA": -3
+        },
+        "hitDiceEvidence": "The v0.2 block gives fixed HP without Hit Dice.",
+        "appearanceEvidence": "Spotted-hyena coloring and silhouette are ordinary-animal editorial choices. The v0.2 entry gives Medium size and a Bite.",
+        "habitatEvidence": "The suggested savanna, open grassland and dry scrub encounters follow the spotted hyena represented in the portrait.",
+        "habitatSourceKind": "Editorial encounter suggestions. The native stat block gives no habitat.",
+        "mechanicsNotes": [
+          "The printed p. 360 trait has incompatible DC expressions. A minimum of three participants gives DC 11 under 8 + number of hyenas, while the preceding sentence gives DC 10. Both expressions are preserved."
+        ]
+      }
+    },
+    {
+      "owner": "b02_05",
+      "name": "Jackal",
+      "kind": "beast",
+      "publication": "Black Flag Roleplaying Reference Document v0.2",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "0",
+      "art_group": "jackal",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "parts/b02_05/portraits/jackal.png",
+        "sha256": "66c9481708f015a826f9e056b92959e20bce51d0db7e0665a29f658dbd4ad37d",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with built-in OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Jackal",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "edition": "Black Flag Roleplaying",
+        "kind": "beast",
+        "printing": "Reference Document v0.2, May 2024 ",
+        "publisher": "Open Design LLC d/b/a Kobold Press",
+        "pdfPage": 362,
+        "printedPages": [
+          362
+        ],
+        "viewerPages": [
+          362
+        ],
+        "pageNumbering": "Printed and viewer pages match.",
+        "section": "Monsters",
+        "sourceUrl": "",
+        "url": "",
+        "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+        "xp": 10,
+        "xpSource": "",
+        "fixedValues": {
+          "Perception": 13,
+          "Stealth": 11
+        },
+        "abilityModifiers": {
+          "STR": -1,
+          "DEX": 1,
+          "CON": 0,
+          "INT": -4,
+          "WIS": 1,
+          "CHA": -2
+        },
+        "hitDiceEvidence": "The v0.2 block gives fixed HP without Hit Dice.",
+        "appearanceEvidence": "Black-backed jackal traits and colors are ordinary-animal editorial choices for this Small Beast.",
+        "habitatEvidence": "Savanna, dry scrub and open grassland are suggested encounter locations for the animal in the portrait.",
+        "habitatSourceKind": "Editorial encounter suggestions. The native stat block gives no habitat.",
+        "mechanicsNotes": [
+          "The 2014 Jackal has its own rules. The Black Flag v0.2 Jackal’s Bite includes the printed disease."
+        ]
+      }
+    },
+    {
+      "owner": "b02_05",
+      "name": "Lizard",
+      "kind": "beast",
+      "publication": "Black Flag Roleplaying Reference Document v0.2",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "0",
+      "art_group": "lizard",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "parts/b02_05/portraits/lizard.png",
+        "sha256": "2c5b9354701098d6759da60bca173f75d4d1445a7e595964e4580d34aa01f782",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with built-in OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Lizard",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "edition": "Black Flag Roleplaying",
+        "kind": "beast",
+        "printing": "Reference Document v0.2, May 2024 ",
+        "publisher": "Open Design LLC d/b/a Kobold Press",
+        "pdfPage": 363,
+        "printedPages": [
+          363
+        ],
+        "viewerPages": [
+          363
+        ],
+        "pageNumbering": "Printed and viewer pages match.",
+        "section": "Monsters",
+        "sourceUrl": "",
+        "url": "",
+        "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+        "xp": 10,
+        "xpSource": "",
+        "fixedValues": {
+          "Perception": 9,
+          "Stealth": 12
+        },
+        "abilityModifiers": {
+          "STR": -4,
+          "DEX": 0,
+          "CON": 0,
+          "INT": -5,
+          "WIS": -1,
+          "CHA": -4
+        },
+        "hitDiceEvidence": "The v0.2 block gives fixed HP without Hit Dice.",
+        "appearanceEvidence": "Tiny size and the detachable tail come from the v0.2 block. The color, pebbled scales and silhouette are editorial portrait choices.",
+        "habitatEvidence": "Rocky ground, scrub and walls are suggested encounter locations based on the pictured lizard and its climb speed.",
+        "habitatSourceKind": "Editorial encounter suggestions. The native stat block gives no habitat.",
+        "mechanicsNotes": [
+          "The printed reaction gives a 5 HP threshold and a short or long rest recharge. It supplies no additional tail regrowth timing."
+        ]
+      }
+    },
+    {
+      "owner": "b02_06",
+      "name": "Crocodile",
+      "kind": "beast",
+      "publication": "Black Flag Roleplaying Reference Document v0.2",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "1/2",
+      "art_group": "crocodile",
+      "printed_cr": "1/2",
+      "portrait": {
+        "file": "parts/b02_06/portraits/crocodile.png",
+        "sha256": "e1ce18257a00e51ed62d9595c6d622ba7d0edf9c7cc52076337532c67b9b8b4a",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Crocodile",
+        "kind": "beast",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "edition": "Black Flag Roleplaying",
+        "publisher": "Kobold Press",
+        "printing": "Reference Document v0.2, May 2024",
+        "printedPages": [
+          355
+        ],
+        "pdfPages": [
+          355
+        ],
+        "pdfPage": 355,
+        "pageNumbering": "Printed folios match 1-based pages.",
+        "section": "Monsters, Beasts",
+        "url": "",
+        "sourceUrl": "",
+        "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+        "xpTablePage": 229,
+        "xpSourceUrl": "",
+        "generalRulesPages": [
+          232
+        ],
+        "omittedFields": "The stat block prints hit points and ability modifiers. Ability scores, Hit Dice, and alignment are unspecified.",
+        "nativeStatistics": "Perception and Stealth are fixed values printed by Black Flag.",
+        "artGroup": "crocodile",
+        "habitatEvidence": "Editorial habitat tags based on a real crocodile's semiaquatic ecology and the printed swim speed and Hold Breath trait.",
+        "appearanceEvidence": "Editorial description of the original portrait using the recognizable real-world animal. The source supplies the creature name and size."
+      }
+    },
+    {
+      "owner": "b02_06",
+      "name": "Crocodile",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/2",
+      "art_group": "crocodile",
+      "printed_cr": "1/2",
+      "portrait": {
+        "file": "parts/b02_06/portraits/crocodile.png",
+        "sha256": "e1ce18257a00e51ed62d9595c6d622ba7d0edf9c7cc52076337532c67b9b8b4a",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Crocodile",
+        "kind": "beast",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "2014 Monster Manual",
+        "printedPages": [
+          320
+        ],
+        "section": "Appendix A, Miscellaneous Creatures",
+        "url": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/monster-stat-blocks-c#Crocodile",
+        "sourceUrl": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/monster-stat-blocks-c#Crocodile",
+        "printedPageWitness": "https://online.anyflip.com/pqhqn/sezy/files/basic-html/page321.html",
+        "secondaryCrossCheck": "Compared the 2014 Monster Manual entry in the local 5etools extract to the printed page and Wizards' 2014 Basic Rules.",
+        "artGroup": "crocodile",
+        "appearanceEvidence": "Editorial description of the shared original crocodile portrait, based on the real-world animal.",
+        "habitatEvidence": "Editorial habitat tags based on a real crocodile's semiaquatic ecology and the printed swim speed and Hold Breath trait."
+      }
+    },
+    {
+      "owner": "b02_06",
+      "name": "Mastiff",
+      "kind": "beast",
+      "publication": "Black Flag Roleplaying Reference Document v0.2",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "1/8",
+      "art_group": "mastiff",
+      "printed_cr": "1/8",
+      "portrait": {
+        "file": "parts/b02_06/portraits/mastiff.png",
+        "sha256": "9a6c2a70aa39b8d341f35ebb2d881a3904c22c4944e7400f959eca50e1a204eb",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Mastiff",
+        "kind": "beast",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "edition": "Black Flag Roleplaying",
+        "publisher": "Kobold Press",
+        "printing": "Reference Document v0.2, May 2024",
+        "printedPages": [
+          363,
+          364
+        ],
+        "pdfPages": [
+          363,
+          364
+        ],
+        "pdfPage": 363,
+        "pageNumbering": "Printed folios match 1-based pages.",
+        "section": "Monsters, Beasts",
+        "url": "",
+        "sourceUrl": "",
+        "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+        "xpTablePage": 229,
+        "xpSourceUrl": "",
+        "generalRulesPages": [],
+        "omittedFields": "The stat block prints hit points and ability modifiers. Ability scores, Hit Dice, and alignment are unspecified.",
+        "nativeStatistics": "Perception and Stealth are fixed values printed by Black Flag.",
+        "artGroup": "mastiff",
+        "habitatEvidence": "Editorial habitat tags based on domestic guard dogs and the printed Protect Friend reaction, which pairs the dog with a friendly Humanoid.",
+        "appearanceEvidence": "Editorial description of the original portrait using the recognizable real-world animal. The source supplies the creature name and size."
+      }
+    },
+    {
+      "owner": "b02_06",
+      "name": "Mule",
+      "kind": "beast",
+      "publication": "Black Flag Roleplaying Reference Document v0.2",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "1/8",
+      "art_group": "mule",
+      "printed_cr": "1/8",
+      "portrait": {
+        "file": "parts/b02_06/portraits/mule.png",
+        "sha256": "91664dfb304860eea5bec0a747378764006c4fb65006b48e91f95a3f2b6f749b",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Mule",
+        "kind": "beast",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "edition": "Black Flag Roleplaying",
+        "publisher": "Kobold Press",
+        "printing": "Reference Document v0.2, May 2024",
+        "printedPages": [
+          364
+        ],
+        "pdfPages": [
+          364
+        ],
+        "pdfPage": 364,
+        "pageNumbering": "Printed folios match 1-based pages.",
+        "section": "Monsters, Beasts",
+        "url": "",
+        "sourceUrl": "",
+        "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+        "xpTablePage": 229,
+        "xpSourceUrl": "",
+        "generalRulesPages": [
+          232
+        ],
+        "omittedFields": "The stat block prints hit points and ability modifiers. Ability scores, Hit Dice, and alignment are unspecified.",
+        "nativeStatistics": "Perception and Stealth are fixed values printed by Black Flag.",
+        "artGroup": "mule",
+        "habitatEvidence": "Editorial habitat tags based on the use of mules as domestic pack animals and the printed Beast of Burden trait.",
+        "appearanceEvidence": "Editorial description of the original portrait using the recognizable real-world animal. The source supplies the creature name and size."
+      }
+    },
+    {
+      "owner": "b02_06",
+      "name": "Octopus",
+      "kind": "beast",
+      "publication": "Black Flag Roleplaying Reference Document v0.2",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "0",
+      "art_group": "octopus",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "parts/b02_06/portraits/octopus.png",
+        "sha256": "ed66d3c271ec9083c0c12cdd3279faf0e952361b0e774730c3fc85dc86449e93",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Octopus",
+        "kind": "beast",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "edition": "Black Flag Roleplaying",
+        "publisher": "Kobold Press",
+        "printing": "Reference Document v0.2, May 2024",
+        "printedPages": [
+          364
+        ],
+        "pdfPages": [
+          364
+        ],
+        "pdfPage": 364,
+        "pageNumbering": "Printed folios match 1-based pages.",
+        "section": "Monsters, Beasts",
+        "url": "",
+        "sourceUrl": "",
+        "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+        "xpTablePage": 229,
+        "xpSourceUrl": "",
+        "generalRulesPages": [
+          235
+        ],
+        "omittedFields": "The stat block prints hit points and ability modifiers. Ability scores, Hit Dice, and alignment are unspecified.",
+        "nativeStatistics": "Perception and Stealth are fixed values printed by Black Flag.",
+        "artGroup": "octopus",
+        "habitatEvidence": "Underwater follows the printed physiology. Coastal waters and reefs are editorial habitat tags based on common octopus ecology.",
+        "appearanceEvidence": "Editorial description of the original portrait using the recognizable real-world animal. The source supplies the creature name and size."
+      }
+    },
+    {
+      "owner": "b02_07",
+      "name": "Elk",
+      "kind": "beast",
+      "publication": "Black Flag Roleplaying Reference Document v0.2",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "1/4",
+      "art_group": "elk",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "parts/b02_07/portraits/elk.png",
+        "sha256": "a4a384c0fb3a24bf541af50be5654854a67c61789097f9c73e72183cdb2660ab",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Elk",
+        "kind": "beast",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "edition": "Black Flag Roleplaying",
+        "printing": "Reference Document v0.2, May 2024 ",
+        "publisher": "Open Design LLC d/b/a Kobold Press",
+        "pdfPage": 357,
+        "printedPages": [
+          357
+        ],
+        "viewerPages": [
+          357
+        ],
+        "section": "Monsters",
+        "sourceUrl": "",
+        "url": "",
+        "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+        "xp": 50,
+        "xpSource": "",
+        "fixedValues": {
+          "Perception": 10,
+          "Stealth": 10
+        },
+        "abilityModifiers": {
+          "STR": 2,
+          "DEX": 0,
+          "CON": 1,
+          "INT": -4,
+          "WIS": 0,
+          "CHA": -2
+        },
+        "hitDiceEvidence": "The v0.2 block gives fixed HP with no Hit Dice or ability scores.",
+        "appearanceEvidence": "Editorial description of the shared wapiti portrait, informed by the U.S. National Park Service species profile. https://www.nps.gov/mnrr/learn/nature/elk.htm",
+        "habitatEvidence": "Forests, grasslands and hills match the 2014 D&D Beyond habitat tags. Meadows are based on the U.S. National Park Service profile. https://www.dndbeyond.com/monsters/16857-elk https://www.nps.gov/mnrr/learn/nature/elk.htm",
+        "habitatSourceKind": "Editorial encounter tags. The v0.2 block has no habitat field.",
+        "mechanicsNotes": []
+      }
+    },
+    {
+      "owner": "b02_07",
+      "name": "Elk",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "elk",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "parts/b02_07/portraits/elk.png",
+        "sha256": "a4a384c0fb3a24bf541af50be5654854a67c61789097f9c73e72183cdb2660ab",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Elk",
+        "kind": "beast",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "printing": "First printing, September 2014",
+        "publisher": "Wizards of the Coast",
+        "section": "Appendix A, Miscellaneous Creatures",
+        "printedPages": [
+          322
+        ],
+        "viewerPages": [
+          323
+        ],
+        "printedSource": "Monster Manual, ISBN 978-0-7869-6561-8, local copy",
+        "sourceUrl": "https://www.dndbeyond.com/monsters/16857-elk",
+        "url": "https://www.dndbeyond.com/monsters/16857-elk",
+        "errataUrl": "",
+        "errataEvidence": "The official Monster Manual v2.0 errata has no entry for Elk.",
+        "appearanceEvidence": "Editorial description of the shared wapiti portrait, informed by the U.S. National Park Service species profile. https://www.nps.gov/mnrr/learn/nature/elk.htm",
+        "habitatEvidence": "Forest, Grassland and Hill are the official 2014 D&D Beyond habitat tags. Meadow is an editorial encounter tag based on the U.S. National Park Service profile. https://www.nps.gov/mnrr/learn/nature/elk.htm",
+        "mechanicsNotes": [
+          "The printed Charge does not specify a damage type for its extra damage. Hooves targets one prone creature and is a separate action."
+        ]
+      }
+    },
+    {
+      "owner": "b02_07",
+      "name": "Owl",
+      "kind": "beast",
+      "publication": "Black Flag Roleplaying Reference Document v0.2",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "0",
+      "art_group": "owl",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "parts/b02_07/portraits/owl.png",
+        "sha256": "5c3783ed45aacc6ae1c16e0c483f7fac413c03249df01bdea10f732b22d36d37",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Owl",
+        "kind": "beast",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "edition": "Black Flag Roleplaying",
+        "printing": "Reference Document v0.2, May 2024 ",
+        "publisher": "Open Design LLC d/b/a Kobold Press",
+        "pdfPage": 365,
+        "printedPages": [
+          365
+        ],
+        "viewerPages": [
+          365
+        ],
+        "section": "Monsters",
+        "sourceUrl": "",
+        "url": "",
+        "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+        "xp": 10,
+        "xpSource": "",
+        "fixedValues": {
+          "Perception": 13,
+          "Stealth": 13
+        },
+        "abilityModifiers": {
+          "STR": -4,
+          "DEX": 1,
+          "CON": -1,
+          "INT": -4,
+          "WIS": 1,
+          "CHA": -2
+        },
+        "hitDiceEvidence": "The v0.2 block gives fixed HP with no Hit Dice or ability scores.",
+        "appearanceEvidence": "Editorial choice of a barn owl for the portrait. Its face and plumage draw on the Cornell Lab of Ornithology identification material. https://www.allaboutbirds.org/guide/barn_owl/lifehistory",
+        "habitatEvidence": "Editorial barn-owl habitat tags based on Cornell Lab’s description of its hunting grounds and roosts. https://www.allaboutbirds.org/guide/barn_owl/lifehistory",
+        "habitatSourceKind": "Editorial encounter tags. The v0.2 block has no habitat field.",
+        "mechanicsNotes": []
+      }
+    },
+    {
+      "owner": "b02_07",
+      "name": "Pony",
+      "kind": "beast",
+      "publication": "Black Flag Roleplaying Reference Document v0.2",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "1/8",
+      "art_group": "pony",
+      "printed_cr": "1/8",
+      "portrait": {
+        "file": "parts/b02_07/portraits/pony.png",
+        "sha256": "38d3cd71d5950f88ec7488ade5ea1568d33a849fc7fc3be2bc41aea96291e444",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Pony",
+        "kind": "beast",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "edition": "Black Flag Roleplaying",
+        "printing": "Reference Document v0.2, May 2024 ",
+        "publisher": "Open Design LLC d/b/a Kobold Press",
+        "pdfPage": 366,
+        "printedPages": [
+          366
+        ],
+        "viewerPages": [
+          366
+        ],
+        "section": "Monsters",
+        "sourceUrl": "",
+        "url": "",
+        "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+        "xp": 25,
+        "xpSource": "",
+        "fixedValues": {
+          "Perception": 10,
+          "Stealth": 10
+        },
+        "abilityModifiers": {
+          "STR": 2,
+          "DEX": 0,
+          "CON": 1,
+          "INT": -4,
+          "WIS": 0,
+          "CHA": -2
+        },
+        "hitDiceEvidence": "The v0.2 block gives fixed HP with no Hit Dice or ability scores.",
+        "appearanceEvidence": "Editorial description of the original chestnut pony portrait. The print supplies size and the Hooves attack.",
+        "habitatEvidence": "Editorial encounter tags based on a domesticated working pony. No location or range is specified by the print.",
+        "habitatSourceKind": "Editorial encounter tags. The v0.2 block has no habitat field.",
+        "mechanicsNotes": [
+          "Draft Animal is printed inside the Pony stat block but the sentence names a draft horse. The per-entry summary applies the multiplier to Pony as an editorial reading. No unprinted Strength score or absolute carrying load is supplied."
+        ]
+      }
+    },
+    {
+      "owner": "b02_07",
+      "name": "Quipper",
+      "kind": "beast",
+      "publication": "Black Flag Roleplaying Reference Document v0.2",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "0",
+      "art_group": "quipper",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "parts/b02_07/portraits/quipper.png",
+        "sha256": "b10ee08895edf0ca1fa8a26c25a82fc0cad37aeffb44ca84127dcceea84bbcd4",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Quipper",
+        "kind": "beast",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "edition": "Black Flag Roleplaying",
+        "printing": "Reference Document v0.2, May 2024 ",
+        "publisher": "Open Design LLC d/b/a Kobold Press",
+        "pdfPage": 366,
+        "printedPages": [
+          366
+        ],
+        "viewerPages": [
+          366
+        ],
+        "section": "Monsters",
+        "sourceUrl": "",
+        "url": "",
+        "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+        "xp": 10,
+        "xpSource": "",
+        "fixedValues": {
+          "Perception": 8,
+          "Stealth": 10
+        },
+        "abilityModifiers": {
+          "STR": -4,
+          "DEX": 0,
+          "CON": 0,
+          "INT": -5,
+          "WIS": -2,
+          "CHA": -4
+        },
+        "hitDiceEvidence": "The v0.2 block gives fixed HP with no Hit Dice or ability scores.",
+        "appearanceEvidence": "The sharp teeth match Wizards of the Coast’s legacy Quipper description. The jaw shape and color come from the original portrait. https://www.dndbeyond.com/monsters/16989-quipper",
+        "habitatEvidence": "Underwater follows the printed Water Breathing trait. Rivers, lakes and subterranean water are editorial examples informed by the legacy Quipper description. https://www.dndbeyond.com/monsters/16989-quipper",
+        "habitatSourceKind": "Editorial encounter tags. The v0.2 block has no habitat field.",
+        "mechanicsNotes": []
+      }
+    },
+    {
+      "owner": "b02_08",
+      "name": "Lion",
+      "kind": "beast",
+      "publication": "Black Flag Roleplaying Reference Document v0.2",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "1",
+      "art_group": "lion",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "parts/b02_08/portraits/lion.png",
+        "sha256": "58af8be859b901dd0dfcc9caa7f02ddf4dc0d5a23b09cba2f8d60cf2cb67e9b4",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Lion",
+        "kind": "beast",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "edition": "Black Flag Roleplaying",
+        "printing": "Reference Document v0.2, May 2024 ",
+        "publisher": "Open Design LLC d/b/a Kobold Press",
+        "section": "Monsters, Miscellaneous Creatures",
+        "pdfPage": 362,
+        "printedPages": [
+          362
+        ],
+        "viewerPages": [
+          362
+        ],
+        "sourceUrl": "",
+        "url": "",
+        "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+        "artGroup": "lion",
+        "xp": 200,
+        "xpSource": "",
+        "fixedValues": {
+          "Perception": 13,
+          "Stealth": 16
+        },
+        "abilityModifiers": {
+          "STR": 3,
+          "DEX": 2,
+          "CON": 1,
+          "INT": -4,
+          "WIS": 1,
+          "CHA": -1
+        },
+        "hitDiceEvidence": "The v0.2 stat block gives fixed HP without Hit Dice.",
+        "appearanceEvidence": "Editorial description of the ordinary lion illustrated in the original portrait.",
+        "habitatEvidence": "Editorial habitat tags for an ordinary lion. The 2014 digital listing also tags grassland. Neither printed stat block has a habitat field.",
+        "habitatSourceKind": "Editorial encounter suggestions. The v0.2 stat block has no habitat field.",
+        "mechanicsNotes": [
+          "Heightened Smell supplies fixed Perception 18 for smelling rather than a skill bonus.",
+          "The native BFRD Lion includes Multiattack and Rattling Roar.",
+          "Recharge notation follows Limited Usage, p. 235."
+        ]
+      }
+    },
+    {
+      "owner": "b02_08",
+      "name": "Lion",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1",
+      "art_group": "lion",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "parts/b02_08/portraits/lion.png",
+        "sha256": "58af8be859b901dd0dfcc9caa7f02ddf4dc0d5a23b09cba2f8d60cf2cb67e9b4",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Lion",
+        "kind": "beast",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "printing": "2014 Monster Manual",
+        "publisher": "Wizards of the Coast",
+        "printedPages": [
+          331
+        ],
+        "viewerPages": [
+          333
+        ],
+        "section": "Appendix A, Miscellaneous Creatures",
+        "sourceUrl": "https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/333/",
+        "url": "https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/333/",
+        "artGroup": "lion",
+        "printWitness": "https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/333/",
+        "publicationPage": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+        "officialCrossCheck": "https://www.dndbeyond.com/monsters/16944-lion",
+        "officialErrata": "",
+        "errataEvidence": "The official Monster Manual v2.0 errata has no Lion entry.",
+        "appearanceEvidence": "Editorial description of the ordinary lion in the shared original portrait.",
+        "habitatEvidence": "Editorial habitat tags for an ordinary lion. The 2014 digital listing also tags grassland. Neither printed stat block has a habitat field.",
+        "habitatSourceKind": "Editorial encounter suggestions.",
+        "mechanicsNotes": [
+          "The printed 2014 Lion uses Keen Smell and does not list Multiattack or Rattling Roar. Its Pounce uses the printed Claw action."
+        ]
+      }
+    },
+    {
+      "owner": "b02_08",
+      "name": "Rat",
+      "kind": "beast",
+      "publication": "Black Flag Roleplaying Reference Document v0.2",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "0",
+      "art_group": "rat",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "parts/b02_08/portraits/rat.png",
+        "sha256": "3ecfd8f4bf0d5b6a80a7ee87784606d46b0d414790f550d836a939c56b71be71",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Rat",
+        "kind": "beast",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "edition": "Black Flag Roleplaying",
+        "printing": "Reference Document v0.2, May 2024 ",
+        "publisher": "Open Design LLC d/b/a Kobold Press",
+        "section": "Monsters, Miscellaneous Creatures",
+        "pdfPage": 366,
+        "printedPages": [
+          366
+        ],
+        "viewerPages": [
+          366
+        ],
+        "sourceUrl": "",
+        "url": "",
+        "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+        "artGroup": "rat",
+        "xp": 10,
+        "xpSource": "",
+        "fixedValues": {
+          "Perception": 10,
+          "Stealth": 12
+        },
+        "abilityModifiers": {
+          "STR": -4,
+          "DEX": 0,
+          "CON": -1,
+          "INT": -4,
+          "WIS": 0,
+          "CHA": -3
+        },
+        "hitDiceEvidence": "The v0.2 stat block gives fixed HP without Hit Dice.",
+        "appearanceEvidence": "Editorial description of the ordinary rat illustrated in the original portrait.",
+        "habitatEvidence": "Editorial tags for an ordinary rat in settlements and close to water. The printed swim speed supports the water encounter placement.",
+        "habitatSourceKind": "Editorial encounter suggestions. The v0.2 stat block has no habitat field.",
+        "mechanicsNotes": [
+          "The ordinary Rat’s Bite has no disease or poison rider in the printed block. The Giant Rat’s separate block prints one."
+        ]
+      }
+    },
+    {
+      "owner": "b02_08",
+      "name": "Raven",
+      "kind": "beast",
+      "publication": "Black Flag Roleplaying Reference Document v0.2",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "0",
+      "art_group": "raven",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "parts/b02_08/portraits/raven.png",
+        "sha256": "81a7246537c76b587f468500b948c8c6df493567126883ec627d6266b3cf15f8",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Raven",
+        "kind": "beast",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "edition": "Black Flag Roleplaying",
+        "printing": "Reference Document v0.2, May 2024 ",
+        "publisher": "Open Design LLC d/b/a Kobold Press",
+        "section": "Monsters, Miscellaneous Creatures",
+        "pdfPage": 367,
+        "printedPages": [
+          367
+        ],
+        "viewerPages": [
+          367
+        ],
+        "sourceUrl": "",
+        "url": "",
+        "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+        "artGroup": "raven",
+        "xp": 10,
+        "xpSource": "",
+        "fixedValues": {
+          "Perception": 13,
+          "Stealth": 11
+        },
+        "abilityModifiers": {
+          "STR": -4,
+          "DEX": 1,
+          "CON": -1,
+          "INT": -3,
+          "WIS": 1,
+          "CHA": 0
+        },
+        "hitDiceEvidence": "The v0.2 stat block gives fixed HP without Hit Dice.",
+        "appearanceEvidence": "Editorial description of the ordinary raven illustrated in the original portrait.",
+        "habitatEvidence": "Editorial encounter tags based on ordinary raven behavior and the book’s Carrion Sense trait.",
+        "habitatSourceKind": "Editorial encounter suggestions. The v0.2 stat block has no habitat field.",
+        "mechanicsNotes": [
+          "The Languages line is blank. Recollection allows repetition of words through Mimicry. Carrion Sense is a separate trait."
+        ]
+      }
+    },
+    {
+      "owner": "b02_08",
+      "name": "Rhinoceros",
+      "kind": "beast",
+      "publication": "Black Flag Roleplaying Reference Document v0.2",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "2",
+      "art_group": "rhinoceros",
+      "printed_cr": "2",
+      "portrait": {
+        "file": "parts/b02_08/portraits/rhinoceros.png",
+        "sha256": "52429ef13ba662e36f9383e708925849fe7bdbfc98390dbbd428c41e6e55badb",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Rhinoceros",
+        "kind": "beast",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "edition": "Black Flag Roleplaying",
+        "printing": "Reference Document v0.2, May 2024 ",
+        "publisher": "Open Design LLC d/b/a Kobold Press",
+        "section": "Monsters, Miscellaneous Creatures",
+        "pdfPage": 368,
+        "printedPages": [
+          368
+        ],
+        "viewerPages": [
+          368
+        ],
+        "sourceUrl": "",
+        "url": "",
+        "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+        "artGroup": "rhinoceros",
+        "xp": 450,
+        "xpSource": "",
+        "fixedValues": {
+          "Perception": 11,
+          "Stealth": 9
+        },
+        "abilityModifiers": {
+          "STR": 5,
+          "DEX": -1,
+          "CON": 2,
+          "INT": -4,
+          "WIS": 1,
+          "CHA": -2
+        },
+        "hitDiceEvidence": "The v0.2 stat block gives fixed HP without Hit Dice.",
+        "appearanceEvidence": "Editorial description of the ordinary rhinoceros illustrated in the original portrait.",
+        "habitatEvidence": "Editorial encounter tags based on the two-horned African rhinoceros chosen as the portrait subject.",
+        "habitatSourceKind": "Editorial encounter suggestions. The v0.2 stat block has no habitat field.",
+        "mechanicsNotes": [
+          "Gore deals the printed bludgeoning damage. A Charge-triggering hit adds piercing damage.",
+          "Condition resistance follows the native rules on p. 232."
+        ]
+      }
+    },
+    {
+      "owner": "b02_09",
+      "name": "Mammoth",
+      "kind": "beast",
+      "publication": "Black Flag Roleplaying Reference Document v0.2",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "6",
+      "art_group": "mammoth",
+      "printed_cr": "6",
+      "portrait": {
+        "file": "parts/b02_09/portraits/mammoth.png",
+        "sha256": "d198e56e3e1f34d9d8138d8092323ba96166b4a14ceb486a67c1ad6703181f29",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with built-in OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Mammoth",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "edition": "Black Flag Roleplaying",
+        "kind": "beast",
+        "publisher": "Open Design LLC d/b/a Kobold Press",
+        "printing": "Reference Document v0.2, May 2024 ",
+        "printedPages": [
+          363
+        ],
+        "viewerPages": [
+          363
+        ],
+        "pageNumbering": "Printed folio and one-based page number agree.",
+        "url": "",
+        "sourceUrl": "",
+        "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+        "xp": 2300,
+        "xpSource": "",
+        "fixedValues": {
+          "Perception": 13,
+          "Stealth": 9
+        },
+        "abilityModifiers": {
+          "STR": 6,
+          "DEX": -1,
+          "CON": 5,
+          "INT": -4,
+          "WIS": 0,
+          "CHA": -2
+        },
+        "hitDiceEvidence": "Fixed HP. No Hit Dice formula appears in this printing.",
+        "appearanceSource": "The Black Flag block gives the name and Huge size. The detailed woolly mammoth body, coat and tusks are editorial natural-history cues, shared with the 2014 portrait.",
+        "habitatSource": "Cold steppe and tundra are editorial tags based on woolly mammoth habitat and the native block’s cold resistance.",
+        "sourceDistinctions": [
+          "The source prints both cold and prone under Resistant. The prone entry is condition resistance under p. 232.",
+          "CR 6 is worth 2,300 XP under the native table. Use the printed Gore and Stomp numbers, even though the 2014 block assigns different bonuses and dice."
+        ],
+        "supportingRules": [
+          {
+            "page": 232,
+            "url": ""
+          }
+        ]
+      }
+    },
+    {
+      "owner": "b02_09",
+      "name": "Mammoth",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "6",
+      "art_group": "mammoth",
+      "printed_cr": "6",
+      "portrait": {
+        "file": "parts/b02_09/portraits/mammoth.png",
+        "sha256": "d198e56e3e1f34d9d8138d8092323ba96166b4a14ceb486a67c1ad6703181f29",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with built-in OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Mammoth",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, September 2014",
+        "printedPages": [
+          332
+        ],
+        "pageNumbering": "Printed Monster Manual folio.",
+        "url": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+        "rulesReadUrl": "https://www.dndbeyond.com/monsters/16950-mammoth",
+        "errataUrl": "",
+        "xp": 2300,
+        "xpSource": "Monster Manual, p. 332.",
+        "appearanceSource": "The p. 332 description gives thick fur, long tusks and a stocky elephantine build. The domed head, coat color and illustration are editorial.",
+        "habitatSource": "The p. 332 description gives a range of climates from subarctic to subtropical. Cold steppe and tundra are editorial tags for cold habitats.",
+        "sourceDistinctions": [
+          "Read the first-printing stat block on p. 332 and checked the 2014 D&D Beyond listing. The official Monster Manual errata has no Mammoth-specific adjustment."
+        ]
+      }
+    },
+    {
+      "owner": "b02_09",
+      "name": "Seahorse",
+      "kind": "beast",
+      "publication": "Black Flag Roleplaying Reference Document v0.2",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "0",
+      "art_group": "seahorse",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "parts/b02_09/portraits/seahorse.png",
+        "sha256": "52d51a66b31b0494b4cb70ac5c80b2730a9380f04673a18752ce54c7924c3b33",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with built-in OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Seahorse",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "edition": "Black Flag Roleplaying",
+        "kind": "beast",
+        "publisher": "Open Design LLC d/b/a Kobold Press",
+        "printing": "Reference Document v0.2, May 2024 ",
+        "printedPages": [
+          368
+        ],
+        "viewerPages": [
+          368
+        ],
+        "pageNumbering": "Printed folio and one-based page number agree.",
+        "url": "",
+        "sourceUrl": "",
+        "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+        "xp": 10,
+        "xpSource": "",
+        "fixedValues": {
+          "Perception": 10,
+          "Stealth": 12
+        },
+        "abilityModifiers": {
+          "STR": -5,
+          "DEX": 0,
+          "CON": -1,
+          "INT": -5,
+          "WIS": 0,
+          "CHA": -4
+        },
+        "hitDiceEvidence": "Fixed HP. No Hit Dice formula appears in this printing.",
+        "appearanceSource": "Editorial natural-history description of a seahorse. The p. 368 stat block supplies the name and Tiny size.",
+        "habitatSource": "Coastal shallows, seagrass beds and reefs are editorial habitat tags. The p. 368 source explicitly gives Water Breathing and Underwater Camouflage.",
+        "sourceDistinctions": [
+          "The separate Seahorse, Giant stat block has its own rules. CR 0 uses 10 XP from the native table."
+        ]
+      }
+    },
+    {
+      "owner": "b02_09",
+      "name": "Spider",
+      "kind": "beast",
+      "publication": "Black Flag Roleplaying Reference Document v0.2",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "0",
+      "art_group": "spider",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "parts/b02_09/portraits/spider.png",
+        "sha256": "036b54df3da6210578f4165a36f19e9cd0d054c350745076eb5708b2f86eb341",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with built-in OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Spider",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "edition": "Black Flag Roleplaying",
+        "kind": "beast",
+        "publisher": "Open Design LLC d/b/a Kobold Press",
+        "printing": "Reference Document v0.2, May 2024 ",
+        "printedPages": [
+          371
+        ],
+        "viewerPages": [
+          371
+        ],
+        "pageNumbering": "Printed folio and one-based page number agree.",
+        "url": "",
+        "sourceUrl": "",
+        "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+        "xp": 10,
+        "xpSource": "",
+        "fixedValues": {
+          "Perception": 10,
+          "Stealth": 14
+        },
+        "abilityModifiers": {
+          "STR": -4,
+          "DEX": 0,
+          "CON": -1,
+          "INT": -5,
+          "WIS": 0,
+          "CHA": -4
+        },
+        "hitDiceEvidence": "Fixed HP. No Hit Dice formula appears in this printing.",
+        "appearanceSource": "The p. 371 stat block gives the name and Tiny size. The orb-weaver anatomy and markings are editorial portrait choices.",
+        "habitatSource": "Woodland, gardens and sheltered corners are editorial places to encounter small web-building spiders.",
+        "sourceDistinctions": [
+          "The print gives a 10-ft. speed reduction and removal by an action. It supplies no timed expiry, and the effect inflicts no separate condition."
+        ],
+        "supportingRules": [
+          {
+            "page": 235,
+            "url": ""
+          }
+        ]
+      }
+    },
+    {
+      "owner": "b02_09",
+      "name": "Tiger",
+      "kind": "beast",
+      "publication": "Black Flag Roleplaying Reference Document v0.2",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "1",
+      "art_group": "tiger",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "parts/b02_09/portraits/tiger.png",
+        "sha256": "18c27e5dc246321344267e149b854194345c611973ff923201f76938bdc949d5",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with built-in OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Tiger",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "edition": "Black Flag Roleplaying",
+        "kind": "beast",
+        "publisher": "Open Design LLC d/b/a Kobold Press",
+        "printing": "Reference Document v0.2, May 2024 ",
+        "printedPages": [
+          372
+        ],
+        "viewerPages": [
+          372
+        ],
+        "pageNumbering": "Printed folio and one-based page number agree.",
+        "url": "",
+        "sourceUrl": "",
+        "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+        "xp": 200,
+        "xpSource": "",
+        "fixedValues": {
+          "Perception": 13,
+          "Stealth": 16
+        },
+        "abilityModifiers": {
+          "STR": 3,
+          "DEX": 2,
+          "CON": 2,
+          "INT": -4,
+          "WIS": 1,
+          "CHA": -1
+        },
+        "hitDiceEvidence": "Fixed HP. No Hit Dice formula appears in this printing.",
+        "appearanceSource": "The p. 372 stat block gives the name and Large size. Its coat and shape are editorial natural-history cues.",
+        "habitatSource": "Forest, jungle and tall grass are editorial habitat tags based on the real animal.",
+        "sourceDistinctions": [
+          "Multiattack can hit the same creature with both attacks. The bleed check is at the start of the target’s next turn. The block gives no subsequent bleed rolls."
+        ]
+      }
+    },
+    {
+      "owner": "b02_10",
+      "name": "Panther",
+      "kind": "beast",
+      "publication": "Black Flag Roleplaying Reference Document v0.2",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "1/4",
+      "art_group": "panther",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "parts/b02_10/portraits/panther.png",
+        "sha256": "1a2466b8f2d3dad4acb20892748afed4a834ac9b835af737f365a3ce3ea68b0c",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with built-in OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Panther",
+        "kind": "beast",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "edition": "Black Flag Roleplaying",
+        "publisher": "Open Design LLC d/b/a Kobold Press",
+        "printing": "Reference Document v0.2",
+        "pdfPage": 365,
+        "printedPages": [
+          365,
+          366
+        ],
+        "pageNumbering": "Printed and page numbers agree.",
+        "url": "",
+        "sourceUrl": "",
+        "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+        "xpPage": 229,
+        "xpSource": "",
+        "monsterStatisticRules": "",
+        "sourceDistinctions": [
+          "Page 366 continues the Panther block with the Stealthy Hunter bonus action.",
+          "Use fixed Perception and Stealth."
+        ],
+        "artGroup": "panther",
+        "appearanceEvidence": "Original illustration and description use editorial animal anatomy. The native stat block does not describe appearance.",
+        "habitatEvidence": "Editorial search tags based on animal behavior and encounter context. The native stat block does not give habitats. Tags: Forest, Jungle, Rocky hills."
+      }
+    },
+    {
+      "owner": "b02_10",
+      "name": "Panther",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "panther",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "parts/b02_10/portraits/panther.png",
+        "sha256": "1a2466b8f2d3dad4acb20892748afed4a834ac9b835af737f365a3ce3ea68b0c",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with built-in OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Panther",
+        "kind": "beast",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "2014 Monster Manual",
+        "printedPages": [
+          333
+        ],
+        "pageNumbering": "Printed folio 333 corresponds to mobile document page 334.",
+        "url": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/monster-stat-blocks-p#Panther",
+        "sourceUrl": "https://online.anyflip.com/sqwmo/hxog/mobile/index.html#p=334",
+        "errata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014",
+        "sourceDistinctions": [
+          "The 2014 Monster Manual folio and official 2014 Basic Rules agree. The official errata lists no Panther-specific change.",
+          "Use the 2014 skill bonuses and Keen Smell advantage. The Black Flag continuation is exclusive to its own printing."
+        ],
+        "artGroup": "panther",
+        "appearanceEvidence": "Editorial description and portrait treat the unspecified panther as a melanistic leopard.",
+        "habitatEvidence": "Forest, jungle, and rocky hills are editorial tags for a climbing big cat."
+      }
+    },
+    {
+      "owner": "b02_10",
+      "name": "Vulture",
+      "kind": "beast",
+      "publication": "Black Flag Roleplaying Reference Document v0.2",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "0",
+      "art_group": "vulture",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "parts/b02_10/portraits/vulture.png",
+        "sha256": "91e2cc580129d056d862570c6b97055617743aa5a69576757219a4531bc2a1e7",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with built-in OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Vulture",
+        "kind": "beast",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "edition": "Black Flag Roleplaying",
+        "publisher": "Open Design LLC d/b/a Kobold Press",
+        "printing": "Reference Document v0.2",
+        "pdfPage": 373,
+        "printedPages": [
+          373
+        ],
+        "pageNumbering": "Printed and page numbers agree.",
+        "url": "",
+        "sourceUrl": "",
+        "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+        "xpPage": 229,
+        "xpSource": "",
+        "monsterStatisticRules": "",
+        "sourceDistinctions": [
+          "The layout on p. 373 pairs two vulture blocks across columns. This is the CR 0 Vulture with 8 HP, plain Beak, and the DC 11 bile reaction."
+        ],
+        "artGroup": "vulture",
+        "appearanceEvidence": "Original illustration and description use editorial animal anatomy. The native stat block does not describe appearance.",
+        "habitatEvidence": "Editorial search tags based on animal behavior and encounter context. The native stat block does not give habitats. Tags: Open grassland, Rocky cliffs."
+      }
+    },
+    {
+      "owner": "b02_10",
+      "name": "Weasel",
+      "kind": "beast",
+      "publication": "Black Flag Roleplaying Reference Document v0.2",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "0",
+      "art_group": "weasel",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "parts/b02_10/portraits/weasel.png",
+        "sha256": "60b6e72cf0d592bacfc78131055c534a8784c3feae98885551f44433590c5a7a",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with built-in OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Weasel",
+        "kind": "beast",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "edition": "Black Flag Roleplaying",
+        "publisher": "Open Design LLC d/b/a Kobold Press",
+        "printing": "Reference Document v0.2",
+        "pdfPage": 373,
+        "printedPages": [
+          373
+        ],
+        "pageNumbering": "Printed and page numbers agree.",
+        "url": "",
+        "sourceUrl": "",
+        "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+        "xpPage": 229,
+        "xpSource": "",
+        "monsterStatisticRules": "",
+        "sourceDistinctions": [
+          "The theft option belongs to the ordinary Weasel. Repellent Spray belongs to the separate Giant Weasel."
+        ],
+        "artGroup": "weasel",
+        "appearanceEvidence": "Original illustration and description use editorial animal anatomy. The native stat block does not describe appearance.",
+        "habitatEvidence": "Editorial search tags based on animal behavior and encounter context. The native stat block does not give habitats. Tags: Meadows, Woodland edges, Hedgerows."
+      }
+    },
+    {
+      "owner": "b02_10",
+      "name": "Wolf",
+      "kind": "beast",
+      "publication": "Black Flag Roleplaying Reference Document v0.2",
+      "edition": "Black Flag Roleplaying",
+      "indexed_cr": "1/4",
+      "art_group": "wolf",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "parts/b02_10/portraits/wolf.png",
+        "sha256": "aabb9d05cfea3f0070408b27bca9705475414773b058e88008ef333d2da9b135",
+        "width": 1254,
+        "height": 1254,
+        "credit": "Original portrait generated with built-in OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Wolf",
+        "kind": "beast",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "edition": "Black Flag Roleplaying",
+        "publisher": "Open Design LLC d/b/a Kobold Press",
+        "printing": "Reference Document v0.2",
+        "pdfPage": 374,
+        "printedPages": [
+          374
+        ],
+        "pageNumbering": "Printed and page numbers agree.",
+        "url": "",
+        "sourceUrl": "",
+        "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+        "xpPage": 229,
+        "xpSource": "",
+        "monsterStatisticRules": "",
+        "sourceDistinctions": [
+          "Use the printed attack values and fixed Perception. The adjacent Dire Wolf is a separate block."
+        ],
+        "artGroup": "wolf",
+        "appearanceEvidence": "Original illustration and description use editorial animal anatomy. The native stat block does not describe appearance.",
+        "habitatEvidence": "Editorial search tags based on animal behavior and encounter context. The native stat block does not give habitats. Tags: Forest, Grassland, Plains."
+      }
+    }
+  ]
+}

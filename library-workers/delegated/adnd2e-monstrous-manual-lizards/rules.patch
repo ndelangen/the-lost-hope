@@ -1,0 +1,226 @@
+diff --git a/dm-library/bestiary/book-catalog.json b/dm-library/bestiary/book-catalog.json
+--- a/dm-library/bestiary/book-catalog.json
++++ b/dm-library/bestiary/book-catalog.json
+@@ -1741,6 +1741,187 @@
+           }
+         ]
+       }
++    },
++    {
++      "name": "Fire Lizard",
++      "kind": "beast",
++      "publication": "Monstrous Manual (1994 third printing)",
++      "edition": "AD&D 2nd edition",
++      "ruleset": "adnd-2e",
++      "appearance": "A 30-foot lizard that resembles a wingless red dragon. It has gray scales, a back mottled with red and brown, and a reddish underside. Hatchlings are light gray and darken with age.",
++      "combat": {
++        "habitats": ["Any warm land", "Subterranean lairs"],
++        "creatureType": "Animal",
++        "armorClass": 3,
++        "movement": "9",
++        "hitDice": "10",
++        "thac0": 11,
++        "numberOfAttacks": 3,
++        "damageDice": "1–8 / 1–8 / 2–16",
++        "size": "G, 30 ft.",
++        "xp": 3000,
++        "immunities": ["Fire"]
++      },
++      "mechanics": {
++        "Combat": [
++          {
++            "name": "Claws and bite",
++            "effectNote": "Its regular attacks are two raking claws and a bite."
++          },
++          {
++            "name": "Fiery cone",
++            "effectNote": "It can breathe fire simultaneously with its claws and bite. The cone is 15 feet long, 5 feet wide at the mouth, and 10 feet wide at the end. It deals 2–12 fire damage, halved by a successful save vs. breath weapon."
++          },
++          {
++            "name": "Fire immunity",
++            "effectNote": "It is immune to fire-based attacks."
++          }
++        ],
++        "Lair": [
++          {
++            "name": "Hunting cycle",
++            "effectNote": "It sleeps about half the time and leaves its lair every fortnight to hunt. It carries prey back and collects shiny objects."
++          },
++          {
++            "name": "Eggs",
++            "effectNote": "A lair has a 10% chance to contain 1–4 eggs. Young lizards leave to hunt after hatching."
++          }
++        ]
++      },
++      "notes": [
++        "1–4 appearing. Very rare. Solitary organization. Day activity. Carnivorous and neutral.",
++        "Animal intelligence (1). Treasure B, Q (×10), S, T. Steady (11–12) morale. Magic resistance Nil.",
++        "Monstrous Manual, TSR 2140, January 1994 third printing, p. 226."
++      ]
++    },
++    {
++      "name": "Giant Lizard",
++      "kind": "beast",
++      "publication": "Monstrous Manual (1994 third printing)",
++      "edition": "AD&D 2nd edition",
++      "ruleset": "adnd-2e",
++      "appearance": "A relatively normal lizard scaled up to 15 feet long, with a low body, four walking legs, and a long tail.",
++      "combat": {
++        "habitats": ["Any warm land", "Marshes and swamps"],
++        "creatureType": "Animal",
++        "armorClass": 5,
++        "movement": "15",
++        "hitDice": "3+1",
++        "thac0": 17,
++        "numberOfAttacks": 1,
++        "damageDice": "1–8",
++        "size": "H, 15 ft.",
++        "xp": 175
++      },
++      "mechanics": {
++        "Combat": [
++          {
++            "name": "Jaw trap",
++            "effectNote": "An attack score of 20 traps the victim in its mouth. The bite doubles to 2–16, then deals 2–16 damage each round thereafter."
++          }
++        ],
++        "Behavior": [
++          {
++            "name": "Swamp hunter",
++            "effectNote": "It attacks edible creatures that wander by. Black dragons share its swamps. Lizardfolk sometimes domesticate it as a mount, pack animal, or food."
++          }
++        ]
++      },
++      "notes": [
++        "2–12 (2d6) appearing. Uncommon. Solitary organization. Day activity. Carnivorous and neutral.",
++        "No intelligence (0). Treasure Nil. Average (8–10) morale. Magic resistance Nil.",
++        "Monstrous Manual, TSR 2140, January 1994 third printing, p. 226."
++      ]
++    },
++    {
++      "name": "Minotaur Lizard",
++      "kind": "beast",
++      "publication": "Monstrous Manual (1994 third printing)",
++      "edition": "AD&D 2nd edition",
++      "ruleset": "adnd-2e",
++      "appearance": "A 40-foot lizard with sharp claws and teeth. The male has display horns resembling those of a minotaur.",
++      "combat": {
++        "habitats": ["Tropical hills and mountains", "Areas near copper and red dragons"],
++        "creatureType": "Animal",
++        "armorClass": 5,
++        "movement": "6",
++        "hitDice": "8",
++        "thac0": 13,
++        "numberOfAttacks": 3,
++        "damageDice": "2–12 / 2–12 / 3–18",
++        "size": "G, 40 ft.",
++        "xp": 975
++      },
++      "mechanics": {
++        "Combat": [
++          {
++            "name": "Ambush",
++            "effectNote": "Opponents take a −5 penalty on their surprise rolls."
++          },
++          {
++            "name": "Jaw trap",
++            "effectNote": "An attack roll of 20 traps the victim in its jaws. It deals 3–18 damage automatically each round thereafter until the victim escapes or dies. The victim cannot attack the following round."
++          },
++          {
++            "name": "Display horns",
++            "effectNote": "The male’s horns are believed to attract a mate. Its attacks use claws and teeth."
++          }
++        ]
++      },
++      "notes": [
++        "1–8 appearing. Rare. Solitary organization. Day activity. Carnivorous and neutral.",
++        "No intelligence (0). Treasure J–N, Q, C (magic). Average (8–10) morale. Magic resistance Nil.",
++        "Monstrous Manual, TSR 2140, January 1994 third printing, p. 226."
++      ]
++    },
++    {
++      "name": "Subterranean Lizard",
++      "kind": "beast",
++      "publication": "Monstrous Manual (1994 third printing)",
++      "edition": "AD&D 2nd edition",
++      "ruleset": "adnd-2e",
++      "appearance": "A 20-foot lizard with suction pads on its toes for crossing walls and ceilings. Some cave forms are albino. Other forms have a long tongue.",
++      "combat": {
++        "habitats": ["Any subterranean terrain", "Caves with walls and ceilings it can climb"],
++        "creatureType": "Animal",
++        "armorClass": 5,
++        "movement": "12",
++        "hitDice": "6",
++        "thac0": 15,
++        "numberOfAttacks": 1,
++        "damageDice": "2–12",
++        "size": "H, 20 ft.",
++        "xp": 650
++      },
++      "mechanics": {
++        "Combat": [
++          {
++            "name": "Jaw clamp",
++            "effectNote": "An attack roll of 20 traps the victim in its jaws and doubles the bite to 4–24. The trapped victim automatically takes 2–12 additional damage each following round."
++          }
++        ],
++        "Printed variants": [
++          {
++            "name": "Albino form",
++            "effectNote": "Some forms are albino, shun light, and attack at −1 in daylight or its equivalent."
++          },
++          {
++            "name": "Long-tongued form",
++            "effectNote": "Other forms have tongues up to 20 feet long. A seized man-sized or smaller victim is drawn into its mouth and bitten next round unless a bend bars roll succeeds."
++          }
++        ],
++        "Behavior": [
++          {
++            "name": "Cave movement",
++            "effectNote": "It can run across walls and ceilings and does not leave its cave voluntarily."
++          }
++        ]
++      },
++      "notes": [
++        "1–6 appearing. Uncommon. Solitary organization. Day activity. Carnivorous and neutral.",
++        "No intelligence (0). Treasure O, P, Q (×5). Average (8–10) morale. Magic resistance Nil.",
++        "Monstrous Manual, TSR 2140, January 1994 third printing, p. 226."
++      ]
+     },
+     {
+       "edition": "2014 fifth edition",
+diff --git a/dm-library/bestiary/entries.tsv b/dm-library/bestiary/entries.tsv
+--- a/dm-library/bestiary/entries.tsv
++++ b/dm-library/bestiary/entries.tsv
+@@ -3504,6 +3504,7 @@
+ Fire Guardian	monster	Elemental	Plane Shift: Ixalan	2014 fifth edition	Wizards of the Coast		5
+ Fire Hellion	monster	Fiend	Bigby Presents: Glory of the Giants	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/3731013-fire-hellion	11
+ Fire Kraken	monster	Elemental	Chains of Asmodeus	2014 fifth edition	Wizards of the Coast		21
++Fire Lizard	beast	Animal	Monstrous Manual (1994 third printing)	AD&D 2nd edition	TSR		
+ Fire Mephit	monster	Outsider	Revised v3.5 SRD (Monsters)	3.5 edition	Wizards of the Coast		3
+ Fire Snake	monster	Elemental	Journeys through the Radiant Citadel	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/17199-fire-snake	1
+ Fire Snake	monster	Elemental	Monster Manual (2014)	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/17199-fire-snake	1
+@@ -4026,6 +4027,7 @@
+ Giant Lizard	beast	Beast	SRD 5.2.1	2024 fifth edition	Wizards of the Coast		1/4
+ Giant Lizard	beast	Beast	Hoard of the Dragon Queen - Online Supplement	2014 fifth edition	Wizards of the Coast		1/4
+ Giant Lizard	beast	Beast	Basic Rules (2018)	2014 fifth edition	Wizards of the Coast		1/4
++Giant Lizard	beast	Animal	Monstrous Manual (1994 third printing)	AD&D 2nd edition	TSR		
+ Giant Lizard (Hold Breath and Spider Climb)	beast	Beast	Monster Manual (2014)	2014 fifth edition	Wizards of the Coast		1/4
+ Giant Lizard (variant)	beast	Beast	Monster Manual (2014)	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/275699-giant-lizard-variant	1/4
+ Giant Lizard (variant)	beast	Beast	Waterdeep: Dungeon of the Mad Mage	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/275699-giant-lizard-variant	1/4
+@@ -6637,6 +6639,7 @@
+ Minotaur Lackey	monster	Monstrosity	Flee, Mortals!	2014 fifth edition compatible	MCDM	https://www.dndbeyond.com/monsters/4485951-minotaur-lackey	
+ Minotaur Lackey Slime Servant	monster	Monstrosity	Where Evil Lives	2014 fifth edition compatible	MCDM	https://www.dndbeyond.com/monsters/4516793-minotaur-lackey-slime-servant	
+ Minotaur Living Crystal Statue	monster	Construct	Ghosts of Saltmarsh	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/316553-minotaur-living-crystal-statue	6
++Minotaur Lizard	beast	Animal	Monstrous Manual (1994 third printing)	AD&D 2nd edition	TSR		
+ Minotaur of Baphomet	monster	Monstrosity	Monster Manual (2024)	2024 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/5195126-minotaur-of-baphomet	3
+ Minotaur of Baphomet	monster	Monstrosity	SRD 5.2.1	2024 fifth edition	Wizards of the Coast		3
+ Minotaur Skeleton	monster	Undead	Monster Manual (2014)	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/16959-minotaur-skeleton	2
+@@ -9089,6 +9092,7 @@
+ Su-monster	monster	Monstrosity	Tomb of Annihilation	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/33257-su-monster	1
+ Subdweller	monster		Denizens of Darkness	3.0 edition	Sword & Sorcery		
+ Subdweller	monster		Denizens of Dread	3.5 edition	Sword & Sorcery		
++Subterranean Lizard	beast	Animal	Monstrous Manual (1994 third printing)	AD&D 2nd edition	TSR		
+ Succubus	monster	Fiend (Shapechanger)	Monster Vault	Black Flag Roleplaying	Kobold Press	https://koboldpress.com/tools/search-tov-kobold-press-monsters/	4.0
+ Succubus	monster	Fiend	Monster Manual (2014)	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/17027-succubus	4
+ Succubus	monster	Fiend	Monster Manual (2024)	2024 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/4904865-succubus	4

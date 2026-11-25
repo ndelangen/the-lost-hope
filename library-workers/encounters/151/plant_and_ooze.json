@@ -1,0 +1,351 @@
+[
+  {
+    "name": "Awakened Shrub",
+    "statBlock": {
+      "name": "Awakened Shrub",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Small plant, unaligned",
+      "ac": 9,
+      "hp": 10,
+      "hitDice": "3d6",
+      "speed": "20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 3
+        },
+        "Dex": {
+          "score": 8
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 6
+        }
+      },
+      "cr": "0",
+      "xp": 10,
+      "passivePerception": 10,
+      "description": "Magic gives this ordinary shrub a mind and the ability to move.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Damage vulnerabilities": "Fire.",
+        "Damage resistances": "Piercing.",
+        "Languages": "One language its creator knows.",
+        "Traits": "False Appearance. It looks exactly like an ordinary shrub while it stays motionless.",
+        "Actions": "Rake. Melee weapon attack, +1 to hit, reach 5 ft., one target. Hit 1 (1d4 − 1) slashing damage.",
+        "Printed source": "Monster Manual (2014), p. 317."
+      }
+    }
+  },
+  {
+    "name": "Awakened Tree",
+    "statBlock": {
+      "name": "Awakened Tree",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Huge plant, unaligned",
+      "ac": 13,
+      "hp": 59,
+      "hitDice": "7d12 + 14",
+      "speed": "20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 6
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 10,
+      "description": "An ordinary tree made sentient and mobile by magic. It can strike a target with its branches.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage vulnerabilities": "Fire.",
+        "Damage resistances": "Bludgeoning and piercing.",
+        "Languages": "One language its creator knows.",
+        "Traits": "False Appearance. It looks exactly like an ordinary tree while it stays motionless.",
+        "Actions": "Slam. Melee weapon attack, +6 to hit, reach 10 ft., one target. Hit 14 (3d6 + 4) bludgeoning damage.",
+        "Printed source": "Monster Manual (2014), p. 317."
+      }
+    }
+  },
+  {
+    "name": "Black Pudding",
+    "statBlock": {
+      "name": "Black Pudding",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large ooze, unaligned",
+      "ac": 7,
+      "hp": 85,
+      "hitDice": "10d10 + 30",
+      "speed": "20 ft., climb 20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 5
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 1
+        },
+        "Wis": {
+          "score": 6
+        },
+        "Cha": {
+          "score": 1
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 8,
+      "description": "This dark, caustic ooze can crawl along a ceiling and ruin ordinary armor and weapons.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Damage immunities": "Acid, cold, lightning, and slashing.",
+        "Condition immunities": "Blinded, Charmed, Deafened, Exhaustion, Frightened, Prone.",
+        "Senses": "Blindsight 60 ft. It is Blind beyond that radius.",
+        "Languages": "None.",
+        "Traits": "Amorphous. It can pass through openings as narrow as 1 inch without squeezing.\nCorrosive Form. A creature takes 4 (1d8) acid damage if it touches the pudding or hits it with a melee attack from within 5 ft. A nonmagical metal or wooden weapon that hits takes a permanent, cumulative −1 penalty to damage rolls after dealing damage. Destroy the weapon once the total penalty reaches −5. Nonmagical metal or wooden ammunition that hits is destroyed after dealing damage. The pudding can eat through nonmagical wood or metal 2 inches thick in 1 round.\nSpider Climb. It can climb difficult surfaces, including ceilings, without an ability check.\nOoze Nature. It does not need sleep.",
+        "Actions": "Pseudopod. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 6 (1d6 + 3) bludgeoning damage plus 18 (4d8) acid damage. Nonmagical armor the target wears takes a permanent, cumulative −1 penalty to the AC the armor provides. Destroy it if the penalty reduces that AC to 10.",
+        "Reactions": "Split. When subjected to lightning or slashing damage while Medium or larger and at 10 HP or more, the ooze can split into two oozes. Each is one size smaller and has half the original’s current HP, rounded down.",
+        "Printed source": "Monster Manual (2014), pp. 240–241."
+      }
+    }
+  },
+  {
+    "name": "Ochre Jelly",
+    "statBlock": {
+      "name": "Ochre Jelly",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large ooze, unaligned",
+      "ac": 8,
+      "hp": 45,
+      "hitDice": "6d10 + 12",
+      "speed": "10 ft., climb 10 ft.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 6
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 2
+        },
+        "Wis": {
+          "score": 6
+        },
+        "Cha": {
+          "score": 1
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 8,
+      "description": "A yellow-brown ooze that follows prey at a distance and digests flesh without corroding ordinary gear.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Damage resistances": "Acid.",
+        "Damage immunities": "Lightning and slashing.",
+        "Condition immunities": "Blinded, Charmed, Deafened, Exhaustion, Frightened, Prone.",
+        "Senses": "Blindsight 60 ft. It is Blind beyond that radius.",
+        "Languages": "None.",
+        "Traits": "Amorphous. It can pass through openings as narrow as 1 inch without squeezing.\nSpider Climb. It can climb difficult surfaces, including ceilings, without an ability check.\nOoze Nature. It does not need sleep.",
+        "Actions": "Pseudopod. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 9 (2d6 + 2) bludgeoning damage plus 3 (1d6) acid damage.",
+        "Reactions": "Split. When subjected to lightning or slashing damage while Medium or larger and at 10 HP or more, the ooze can split into two oozes. Each is one size smaller and has half the original’s current HP, rounded down.",
+        "Printed source": "Monster Manual (2014), pp. 240–241 and 243."
+      }
+    }
+  },
+  {
+    "name": "Shrieker",
+    "statBlock": {
+      "name": "Shrieker",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium plant, unaligned",
+      "ac": 5,
+      "hp": 13,
+      "hitDice": "3d8",
+      "speed": "0 ft.",
+      "abilities": {
+        "Str": {
+          "score": 1
+        },
+        "Dex": {
+          "score": 1
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 1
+        },
+        "Wis": {
+          "score": 3
+        },
+        "Cha": {
+          "score": 1
+        }
+      },
+      "cr": "0",
+      "xp": 10,
+      "passivePerception": 6,
+      "description": "A stationary mushroom that sounds an alarm when a creature or bright light comes near.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Condition immunities": "Blinded, Deafened, Frightened.",
+        "Senses": "Blindsight 30 ft. It is Blind beyond that radius.",
+        "Languages": "None.",
+        "Traits": "False Appearance. It looks exactly like ordinary fungus while it stays motionless.",
+        "Actions": "The stat block lists no actions. Use Shriek as a reaction.",
+        "Reactions": "Shriek. While any creature or bright light is within 30 ft., the shrieker can react by emitting a shriek audible within 300 ft. It keeps shrieking as long as the disturbance is within range, then for 1d4 of its own turns after the disturbance leaves.",
+        "Printed source": "Monster Manual (2014), pp. 137–138."
+      }
+    }
+  },
+  {
+    "name": "Twig Blight",
+    "statBlock": {
+      "name": "Twig Blight",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Small plant, neutral evil",
+      "ac": 13,
+      "hp": 4,
+      "hitDice": "1d6 + 1",
+      "speed": "20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 6
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 4
+        },
+        "Wis": {
+          "score": 8
+        },
+        "Cha": {
+          "score": 3
+        }
+      },
+      "cr": "1/8",
+      "xp": 25,
+      "passivePerception": 9,
+      "description": "Dry branches twist into limbs when this blight uproots itself. It often waits near camps or watering holes.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Stealth": 3
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage vulnerabilities": "Fire.",
+        "Condition immunities": "Blinded and Deafened.",
+        "Senses": "Blindsight 60 ft. It is Blind beyond that radius.",
+        "Languages": "Understands Common and cannot speak.",
+        "Traits": "False Appearance. It looks exactly like a dead shrub while it stays motionless.",
+        "Actions": "Claws. Melee weapon attack, +3 to hit, reach 5 ft., one target. Hit 3 (1d4 + 1) piercing damage.",
+        "Printed source": "Monster Manual (2014), pp. 31–32."
+      }
+    }
+  },
+  {
+    "name": "Violet Fungus",
+    "statBlock": {
+      "name": "Violet Fungus",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium plant, unaligned",
+      "ac": 5,
+      "hp": 18,
+      "hitDice": "4d8",
+      "speed": "5 ft.",
+      "abilities": {
+        "Str": {
+          "score": 3
+        },
+        "Dex": {
+          "score": 1
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 1
+        },
+        "Wis": {
+          "score": 3
+        },
+        "Cha": {
+          "score": 1
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 6,
+      "description": "A slow purple mushroom that lashes out with stalks capable of rotting flesh.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Condition immunities": "Blinded, Deafened, Frightened.",
+        "Senses": "Blindsight 30 ft. It is Blind beyond that radius.",
+        "Languages": "None.",
+        "Traits": "False Appearance. It looks exactly like ordinary fungus while it stays motionless.",
+        "Actions": "Multiattack. Roll 1d4 and make that many Rotting Touch attacks.\nRotting Touch. Melee weapon attack, +2 to hit, reach 10 ft., one creature. Hit 4 (1d8) necrotic damage.",
+        "After the encounter": "A creature the fungus kills decomposes quickly. A new violet fungus sprouts from the corpse and reaches full size in 2d6 days.",
+        "Printed source": "Monster Manual (2014), p. 138."
+      }
+    }
+  }
+]

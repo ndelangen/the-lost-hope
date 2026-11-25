@@ -1,0 +1,747 @@
+{
+  "new": {
+    "Sea Spawn": {
+      "path": "output/dm-library/encounter-batches/164/art/sea-spawn.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "8bf7fc813f7cc629db6397d712178cca3b998384733a68cedbad1d517a1d10a6",
+      "bytes": 2701352
+    },
+    "Shadar-kai Gloom Weaver": {
+      "path": "output/dm-library/encounter-batches/164/art/shadar-kai-gloom-weaver.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "d9f9a1945fd4af3fe096ae734aec447a178e6a8f52990f23abdc4f2211619b3d",
+      "bytes": 2793532
+    },
+    "Shadar-kai Shadow Dancer": {
+      "path": "output/dm-library/encounter-batches/164/art/shadar-kai-shadow-dancer.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "a7a08f1fad45d01dafb49e8b6aceb0602c624776376534fb1d4a3afd6e00f869",
+      "bytes": 2687107
+    },
+    "Shadar-kai Soul Monger": {
+      "path": "output/dm-library/encounter-batches/164/art/shadar-kai-soul-monger.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "5ab20afa15c1f22949cf9fcb2d3deab4dc29d4b859601a9b4dd08849e97207b6",
+      "bytes": 2622407
+    },
+    "Shadow Mastiff": {
+      "path": "output/dm-library/encounter-batches/164/art/shadow-mastiff.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "c8cc7d2060ee50ce7e62c53e9c776f2e77f349dd44d8550fefa56c951be09c08",
+      "bytes": 2681976
+    },
+    "Shoosuva": {
+      "path": "output/dm-library/encounter-batches/164/art/shoosuva.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "ae11f7a12f7bdbc427e9b09380c8428c8785a5694fb94c8c3ebc8512b56fb86f",
+      "bytes": 3136639
+    },
+    "Sibriex": {
+      "path": "output/dm-library/encounter-batches/164/art/sibriex.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "8c99347dff288a91892739e931c2f24cc3ccd046b25f17f669c9077fe2a59b25",
+      "bytes": 3046426
+    },
+    "Skulk": {
+      "path": "output/dm-library/encounter-batches/164/art/skulk.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "87ad6e53c87d20640063cde5bb8505635ccbb37d523f187b8d32977b2438d08e",
+      "bytes": 2536728
+    },
+    "Skull Lord": {
+      "path": "output/dm-library/encounter-batches/164/art/skull-lord.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "e85cb3196bd8fde96e64b44fb700913ede2bf55229ef7e38b95bc1bdeee7b157",
+      "bytes": 2700702
+    },
+    "Slithering Tracker": {
+      "path": "output/dm-library/encounter-batches/164/art/slithering-tracker.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "78b70e4494095b9814fcb7f05481569d1242607d286e1883f9e8f642118c3e99",
+      "bytes": 2821501
+    },
+    "Spawn of Kyuss": {
+      "path": "output/dm-library/encounter-batches/164/art/spawn-of-kyuss.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "4e592374c671d2f3dd041b42d4cdb93317d0e62c0aa3a0502355960f266bca2e",
+      "bytes": 2744719
+    },
+    "Spirit Troll": {
+      "path": "output/dm-library/encounter-batches/164/art/spirit-troll.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "78b3937544eea5428a12a7023e5a75cae288c05015206bbe9c79ff42f6c220d0",
+      "bytes": 2746083
+    },
+    "Spring Eladrin": {
+      "path": "output/dm-library/encounter-batches/164/art/spring-eladrin.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "f77b93b70097032d9d71838f4bf227e34bb41800ac983e9f34be1ee5b4f8ebdd",
+      "bytes": 2828011
+    },
+    "Star Spawn Grue": {
+      "path": "output/dm-library/encounter-batches/164/art/star-spawn-grue.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "7fd8c39cb1b7d2eaf54b1eff47847a7d4904750033891674038ccbb66d73b721",
+      "bytes": 2687899
+    },
+    "Star Spawn Hulk": {
+      "path": "output/dm-library/encounter-batches/164/art/star-spawn-hulk.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "f597a02379c38de8afc9c6e4fad00f9f9433d1335ad82d1506ee57a5083bd692",
+      "bytes": 2730662
+    },
+    "Star Spawn Larva Mage": {
+      "path": "output/dm-library/encounter-batches/164/art/star-spawn-larva-mage.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "b752b4037dfba2fb201a91dc5091db9a250187800bdd9c03828a79b1e621ab14",
+      "bytes": 2803084
+    },
+    "Star Spawn Mangler": {
+      "path": "output/dm-library/encounter-batches/164/art/star-spawn-mangler.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "e070585e375cff6a586c033e62cbf7f2956c32c94db88950be86bec56de6f500",
+      "bytes": 2845478
+    },
+    "Star Spawn Seer": {
+      "path": "output/dm-library/encounter-batches/164/art/star-spawn-seer.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "4ad5f92326c9e98d73b1466bd32fa5ffdc46c34b08ca09c719bc5c4cc33dd156",
+      "bytes": 2701688
+    },
+    "Steel Predator": {
+      "path": "output/dm-library/encounter-batches/164/art/steel-predator.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "05fa494c82d9b142e237f58995bd68d84f445e7d979cbd743a53d9a0bf05d25a",
+      "bytes": 2871635
+    },
+    "Stench Kow": {
+      "path": "output/dm-library/encounter-batches/164/art/stench-kow.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "fd6b0c1c40d5a14142e9f53c395ddd9af3e7f11bf23ca68c0bcf6472a4485454",
+      "bytes": 3093015
+    },
+    "Stone Cursed": {
+      "path": "output/dm-library/encounter-batches/164/art/stone-cursed.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "4204c4c11d8c8d41674af7eecf6598238f686d21f94984fb237fb08420c918e2",
+      "bytes": 2933591
+    },
+    "Stone Giant Dreamwalker": {
+      "path": "output/dm-library/encounter-batches/164/art/stone-giant-dreamwalker.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "8548334b931e4a3db527f5d792cbf0013f6fd385fd8856c9bf88b2ca32215787",
+      "bytes": 2879812
+    },
+    "Summer Eladrin": {
+      "path": "output/dm-library/encounter-batches/164/art/summer-eladrin.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "581e6fda837544679b01c17ef82870ffe7a86066a4205daa441d202a272ff355",
+      "bytes": 2975703
+    },
+    "Swarm of Cranium Rats": {
+      "path": "output/dm-library/encounter-batches/164/art/swarm-of-cranium-rats.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "fc652617ce3f9b8439842ef3ee7e540a24f6604945432c6239cf5dafb379e430",
+      "bytes": 3102544
+    },
+    "Tanarukk": {
+      "path": "output/dm-library/encounter-batches/164/art/tanarukk.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "362889796c9f2b5c153542a3121b6ad4fc82dc8e6f6c9c9fc349a4d2b6081618",
+      "bytes": 2759019
+    },
+    "Thorny Vegepygmy": {
+      "path": "output/dm-library/encounter-batches/164/art/thorny-vegepygmy.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "c61390a5e6d51bc8ab776039f443f36a73b54809c909aff9958674674ac6f96b",
+      "bytes": 3082711
+    },
+    "Titivilus": {
+      "path": "output/dm-library/encounter-batches/164/art/titivilus.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "3d270b32d932a6de969eb51ea1184e817d4a586c440cf4f5346c1d34281c8ee7",
+      "bytes": 2872187
+    },
+    "Tlincalli": {
+      "path": "output/dm-library/encounter-batches/164/art/tlincalli.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "bde8c185f28c14b34c9851c8bb007b120e884cdc2b7fc4d2e252ca5f8102748d",
+      "bytes": 3054561
+    },
+    "Tortle": {
+      "path": "output/dm-library/encounter-batches/164/art/tortle.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "db0215b380a23414d9ec31014a8c2367e24e872f796ee47372973e3ced065440",
+      "bytes": 3094725
+    },
+    "Tortle Druid": {
+      "path": "output/dm-library/encounter-batches/164/art/tortle-druid.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "d293a081de9b48cab54093b28e50c5503853d12220c3e301097ad509c58720e9",
+      "bytes": 3219688
+    },
+    "Transmuter Wizard": {
+      "path": "output/dm-library/encounter-batches/164/art/transmuter-wizard.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "32c5d5b137e0a77f1ef22bdb1a54e45a5ee94cde739688e4cf1b0840aff65796",
+      "bytes": 2913191
+    },
+    "Trapper": {
+      "path": "output/dm-library/encounter-batches/164/art/trapper.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "5b99945de8d6007dd3759dde2139d1761e663b4e8af6392f95d7e556d1ffecfa",
+      "bytes": 2538334
+    },
+    "Vampiric Mist": {
+      "path": "output/dm-library/encounter-batches/164/art/vampiric-mist.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "cdfab549599c0414558f6e708c220b2e836bb85df7b90f0466bf02226824b9aa",
+      "bytes": 2739895
+    },
+    "Vargouille": {
+      "path": "output/dm-library/encounter-batches/164/art/vargouille.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "a4aa3f4da1c50210019027e58ef1baa4f09adc95c784af2f060684530d910cde",
+      "bytes": 2569346
+    },
+    "Vegepygmy Chief": {
+      "path": "output/dm-library/encounter-batches/164/art/vegepygmy-chief.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "dce4b54f7990c1919d2e2b3e231c2d8bf962f10e19505263e2ded933753fd616",
+      "bytes": 2724889
+    },
+    "Venom Troll": {
+      "path": "output/dm-library/encounter-batches/164/art/venom-troll.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "173b736654ebda64845bda52c3e761b5faaeadeb9be813a7191be05497b2f83d",
+      "bytes": 3100440
+    },
+    "War Priest": {
+      "path": "output/dm-library/encounter-batches/164/art/war-priest.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "da3e7efe592e709468c2a109fafa5281b6abfb4c43e68c63845bfdb91a418b21",
+      "bytes": 2803196
+    },
+    "Warlock of the Archfey": {
+      "path": "output/dm-library/encounter-batches/164/art/warlock-of-the-archfey.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "5901d6f08071b9eea5c9d1b0392255c23d425adaaa0f4c1ec0011cb8def5552e",
+      "bytes": 2695040
+    },
+    "Warlock of the Fiend": {
+      "path": "output/dm-library/encounter-batches/164/art/warlock-of-the-fiend.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "f0c8bcb9ee9dc44fe9be166f822d5ddd746f504df858c8e2ae799a5cea99dbad",
+      "bytes": 2589928
+    },
+    "Warlock of the Great Old One": {
+      "path": "output/dm-library/encounter-batches/164/art/warlock-of-the-great-old-one.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "f19b9100ff7d59b8207074acb1b7c27641e69f85013f3d7683daaffc70fdadba",
+      "bytes": 2729230
+    },
+    "Warlord": {
+      "path": "output/dm-library/encounter-batches/164/art/warlord.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "f1ce819e239143e6dd4c493d25b65ae30a754a8e909b66d796da8bbcf3ed26f1",
+      "bytes": 2960093
+    },
+    "Wastrilith": {
+      "path": "output/dm-library/encounter-batches/164/art/wastrilith.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "574a41ba975df0dee6d5ee0a0e8cdbd7e39107df95c039fadcc28f651e543453",
+      "bytes": 3028829
+    },
+    "Water Elemental Myrmidon": {
+      "path": "output/dm-library/encounter-batches/164/art/water-elemental-myrmidon.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "b46ab810c0eab101915526315354715c7fe6270e1871b582cda21b059407dbe1",
+      "bytes": 3084509
+    }
+  },
+  "added": [
+    {
+      "entry": "monster-c5948fd207f32db9dd73f696",
+      "version": "63fc775269d016f88a8e755c",
+      "name": "Sea Spawn",
+      "file": "images/monsters/sea-spawn/batch-164-portrait.png",
+      "sha256": "8bf7fc813f7cc629db6397d712178cca3b998384733a68cedbad1d517a1d10a6",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-834ad9b0479edbbe2e4de3fd",
+      "version": "34ff6abb245c96eeb773c417",
+      "name": "Shadar-kai Gloom Weaver",
+      "file": "images/monsters/shadar-kai-gloom-weaver/batch-164-portrait.png",
+      "sha256": "d9f9a1945fd4af3fe096ae734aec447a178e6a8f52990f23abdc4f2211619b3d",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-f961172c0c166cf3811c3bf1",
+      "version": "5696d6aeaadb1b57e6768690",
+      "name": "Shadar-kai Shadow Dancer",
+      "file": "images/monsters/shadar-kai-shadow-dancer/batch-164-portrait.png",
+      "sha256": "a7a08f1fad45d01dafb49e8b6aceb0602c624776376534fb1d4a3afd6e00f869",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-e432b76cd7db22f0ed69af7d",
+      "version": "a0697e68018a694d54fe186f",
+      "name": "Shadar-kai Soul Monger",
+      "file": "images/monsters/shadar-kai-soul-monger/batch-164-portrait.png",
+      "sha256": "5ab20afa15c1f22949cf9fcb2d3deab4dc29d4b859601a9b4dd08849e97207b6",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-7a9528317ff4d3db864ff434",
+      "version": "bb404da4fff6405b1516f2b1",
+      "name": "Shadow Mastiff",
+      "file": "images/monsters/shadow-mastiff/batch-164-portrait.png",
+      "sha256": "c8cc7d2060ee50ce7e62c53e9c776f2e77f349dd44d8550fefa56c951be09c08",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-3973c4e9958b0074d4612db2",
+      "version": "57d2aba93740e35fd3518960",
+      "name": "Shadow Mastiff Alpha",
+      "file": "images/monsters/shadow-mastiff/batch-164-portrait.png",
+      "sha256": "c8cc7d2060ee50ce7e62c53e9c776f2e77f349dd44d8550fefa56c951be09c08",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Shadow Mastiff"
+    },
+    {
+      "entry": "monster-15519fc14bfa916a39ee9d7b",
+      "version": "703ed1e702f8b98ac26326f4",
+      "name": "Shoosuva",
+      "file": "images/monsters/shoosuva/batch-164-portrait.png",
+      "sha256": "ae11f7a12f7bdbc427e9b09380c8428c8785a5694fb94c8c3ebc8512b56fb86f",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-e9dc8379c8d7866431aa9ff4",
+      "version": "c4dc1aa41b8d9417baad680f",
+      "name": "Sibriex",
+      "file": "images/monsters/sibriex/batch-164-portrait.png",
+      "sha256": "8c99347dff288a91892739e931c2f24cc3ccd046b25f17f669c9077fe2a59b25",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-0f39d798a0f9329af7d82185",
+      "version": "3fed4e5de74380850e976431",
+      "name": "Skulk",
+      "file": "images/monsters/skulk/batch-164-portrait.png",
+      "sha256": "87ad6e53c87d20640063cde5bb8505635ccbb37d523f187b8d32977b2438d08e",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-2f825b8464d5edb436f36ac3",
+      "version": "7c41918ff0870d59f0dd5252",
+      "name": "Skull Lord",
+      "file": "images/monsters/skull-lord/batch-164-portrait.png",
+      "sha256": "e85cb3196bd8fde96e64b44fb700913ede2bf55229ef7e38b95bc1bdeee7b157",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-d53d6b4f1b7a4c0eb693af52",
+      "version": "04506f03b5111f655a930ea5",
+      "name": "Slithering Tracker",
+      "file": "images/monsters/slithering-tracker/batch-164-portrait.png",
+      "sha256": "78b70e4494095b9814fcb7f05481569d1242607d286e1883f9e8f642118c3e99",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-65b5e4ee2f362e2cf4692638",
+      "version": "f56fced99fc0a98023165f8c",
+      "name": "Spawn of Kyuss",
+      "file": "images/monsters/spawn-of-kyuss/batch-164-portrait.png",
+      "sha256": "4e592374c671d2f3dd041b42d4cdb93317d0e62c0aa3a0502355960f266bca2e",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-29fe148b146d927f5ca72162",
+      "version": "1860655368635620d545190d",
+      "name": "Spirit Troll",
+      "file": "images/monsters/spirit-troll/batch-164-portrait.png",
+      "sha256": "78b3937544eea5428a12a7023e5a75cae288c05015206bbe9c79ff42f6c220d0",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-26c915c1a3f1086dbf3f2310",
+      "version": "c8cefc24d4e354aabf7477c6",
+      "name": "Spring Eladrin",
+      "file": "images/monsters/spring-eladrin/batch-164-portrait.png",
+      "sha256": "f77b93b70097032d9d71838f4bf227e34bb41800ac983e9f34be1ee5b4f8ebdd",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-6295a5ca78fd14b2e626e51e",
+      "version": "2084977ad6e606a076df53bd",
+      "name": "Star Spawn Grue",
+      "file": "images/monsters/star-spawn-grue/batch-164-portrait.png",
+      "sha256": "7fd8c39cb1b7d2eaf54b1eff47847a7d4904750033891674038ccbb66d73b721",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-74a712cfce45968af1641bb1",
+      "version": "ae8a896cbdf7ae4d1abd01e9",
+      "name": "Star Spawn Hulk",
+      "file": "images/monsters/star-spawn-hulk/batch-164-portrait.png",
+      "sha256": "f597a02379c38de8afc9c6e4fad00f9f9433d1335ad82d1506ee57a5083bd692",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-24e82d8b55a2d9b3f6604733",
+      "version": "83ee9ef014052be62d6073c9",
+      "name": "Star Spawn Larva Mage",
+      "file": "images/monsters/star-spawn-larva-mage/batch-164-portrait.png",
+      "sha256": "b752b4037dfba2fb201a91dc5091db9a250187800bdd9c03828a79b1e621ab14",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-4487a92b1f654ae8ae797664",
+      "version": "696fa15838b2ffc483923fc3",
+      "name": "Star Spawn Mangler",
+      "file": "images/monsters/star-spawn-mangler/batch-164-portrait.png",
+      "sha256": "e070585e375cff6a586c033e62cbf7f2956c32c94db88950be86bec56de6f500",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-b5ff248376f8a8b756c14bbe",
+      "version": "d9320aa538d580af1907da61",
+      "name": "Star Spawn Seer",
+      "file": "images/monsters/star-spawn-seer/batch-164-portrait.png",
+      "sha256": "4ad5f92326c9e98d73b1466bd32fa5ffdc46c34b08ca09c719bc5c4cc33dd156",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-4150eda3a89489c3861c8618",
+      "version": "c49514121cc730c0e054ba92",
+      "name": "Steel Predator",
+      "file": "images/monsters/steel-predator/batch-164-portrait.png",
+      "sha256": "05fa494c82d9b142e237f58995bd68d84f445e7d979cbd743a53d9a0bf05d25a",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-04eb45af3f3c758b370045c0",
+      "version": "e794fbd9668f548db44ad888",
+      "name": "Stench Kow",
+      "file": "images/monsters/stench-kow/batch-164-portrait.png",
+      "sha256": "fd6b0c1c40d5a14142e9f53c395ddd9af3e7f11bf23ca68c0bcf6472a4485454",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-f6b28879cef68d4aca9ed0e0",
+      "version": "3d9f9c18037e283951415e68",
+      "name": "Stone Cursed",
+      "file": "images/monsters/stone-cursed/batch-164-portrait.png",
+      "sha256": "4204c4c11d8c8d41674af7eecf6598238f686d21f94984fb237fb08420c918e2",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-a4ce1d86b94a4bb3fefd0c10",
+      "version": "ec9ee364773611dafcd18a68",
+      "name": "Stone Giant Dreamwalker",
+      "file": "images/monsters/stone-giant-dreamwalker/batch-164-portrait.png",
+      "sha256": "8548334b931e4a3db527f5d792cbf0013f6fd385fd8856c9bf88b2ca32215787",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-b318597ce37451909cb4de59",
+      "version": "c5f2d83173379b885b419dba",
+      "name": "Summer Eladrin",
+      "file": "images/monsters/summer-eladrin/batch-164-portrait.png",
+      "sha256": "581e6fda837544679b01c17ef82870ffe7a86066a4205daa441d202a272ff355",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-3a4f22798d9d7e966ab7fa27",
+      "version": "bec429d01bd38105da464595",
+      "name": "Swarm of Cranium Rats",
+      "file": "images/monsters/swarm-of-cranium-rats/batch-164-portrait.png",
+      "sha256": "fc652617ce3f9b8439842ef3ee7e540a24f6604945432c6239cf5dafb379e430",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-4305f8554eddb445b1fccfa1",
+      "version": "c81802718af94816ddc90c7d",
+      "name": "Tanarukk",
+      "file": "images/monsters/tanarukk/batch-164-portrait.png",
+      "sha256": "362889796c9f2b5c153542a3121b6ad4fc82dc8e6f6c9c9fc349a4d2b6081618",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-ead27ce51f9cc60e8013b963",
+      "version": "47f78c2da010f9e1bb133a4c",
+      "name": "Thorny Vegepygmy",
+      "file": "images/monsters/thorny-vegepygmy/batch-164-portrait.png",
+      "sha256": "c61390a5e6d51bc8ab776039f443f36a73b54809c909aff9958674674ac6f96b",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-7316c62f919b84b90cdc6b54",
+      "version": "5a7430671a00fb53104f232d",
+      "name": "Titivilus",
+      "file": "images/monsters/titivilus/batch-164-portrait.png",
+      "sha256": "3d270b32d932a6de969eb51ea1184e817d4a586c440cf4f5346c1d34281c8ee7",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-5b0aa6945b4b7b0ed755ff72",
+      "version": "79753985ef8f7dcdae1ecdab",
+      "name": "Tlincalli",
+      "file": "images/monsters/tlincalli/batch-164-portrait.png",
+      "sha256": "bde8c185f28c14b34c9851c8bb007b120e884cdc2b7fc4d2e252ca5f8102748d",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-e07c20aa7091c32e63ea7863",
+      "version": "ca3a4ea2c8aebaee3fa10cfd",
+      "name": "Tortle",
+      "file": "images/monsters/tortle/batch-164-portrait.png",
+      "sha256": "db0215b380a23414d9ec31014a8c2367e24e872f796ee47372973e3ced065440",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-1aa35d6cb539f69aa12ec4fa",
+      "version": "63d5001fcef7c5926fbeb06c",
+      "name": "Tortle Druid",
+      "file": "images/monsters/tortle-druid/batch-164-portrait.png",
+      "sha256": "d293a081de9b48cab54093b28e50c5503853d12220c3e301097ad509c58720e9",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-b80af9f510b401bc0dda72ad",
+      "version": "29013e78f5abab1df2b3aa31",
+      "name": "Transmuter Wizard",
+      "file": "images/monsters/transmuter-wizard/batch-164-portrait.png",
+      "sha256": "32c5d5b137e0a77f1ef22bdb1a54e45a5ee94cde739688e4cf1b0840aff65796",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-e9ce6c6ef7d71740f40b2641",
+      "version": "dd6e1e300381fbe5c790acf8",
+      "name": "Trapper",
+      "file": "images/monsters/trapper/batch-164-portrait.png",
+      "sha256": "5b99945de8d6007dd3759dde2139d1761e663b4e8af6392f95d7e556d1ffecfa",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-fe4fac26a9a2fb66b4a311f5",
+      "version": "d783f3a45e93eaba3b11aa8b",
+      "name": "Vampiric Mist",
+      "file": "images/monsters/vampiric-mist/batch-164-portrait.png",
+      "sha256": "cdfab549599c0414558f6e708c220b2e836bb85df7b90f0466bf02226824b9aa",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-082cd66914944e89d6193f99",
+      "version": "0d2fc2af987f373d4e086e87",
+      "name": "Vargouille",
+      "file": "images/monsters/vargouille/batch-164-portrait.png",
+      "sha256": "a4aa3f4da1c50210019027e58ef1baa4f09adc95c784af2f060684530d910cde",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-a5d9cbbfdd280788bca8f54a",
+      "version": "26536e079c4c1b99ab76c4c3",
+      "name": "Vegepygmy Chief",
+      "file": "images/monsters/vegepygmy-chief/batch-164-portrait.png",
+      "sha256": "dce4b54f7990c1919d2e2b3e231c2d8bf962f10e19505263e2ded933753fd616",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-60df0f11f1a8750292e622c4",
+      "version": "7e6f16e9528fe89317cff867",
+      "name": "Venom Troll",
+      "file": "images/monsters/venom-troll/batch-164-portrait.png",
+      "sha256": "173b736654ebda64845bda52c3e761b5faaeadeb9be813a7191be05497b2f83d",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-234ccf83e0406afc0f276380",
+      "version": "d4350d143aff1ab74ec3280f",
+      "name": "War Priest",
+      "file": "images/monsters/war-priest/batch-164-portrait.png",
+      "sha256": "da3e7efe592e709468c2a109fafa5281b6abfb4c43e68c63845bfdb91a418b21",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-a8670c9f04d5b5dde80789d8",
+      "version": "1e118d3874e6dab121fb4f98",
+      "name": "Warlock of the Archfey",
+      "file": "images/monsters/warlock-of-the-archfey/batch-164-portrait.png",
+      "sha256": "5901d6f08071b9eea5c9d1b0392255c23d425adaaa0f4c1ec0011cb8def5552e",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-dcdef5a51fbde939781753d9",
+      "version": "675e9a1b47b3eadc05e91a55",
+      "name": "Warlock of the Fiend",
+      "file": "images/monsters/warlock-of-the-fiend/batch-164-portrait.png",
+      "sha256": "f0c8bcb9ee9dc44fe9be166f822d5ddd746f504df858c8e2ae799a5cea99dbad",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-d537bac988c51a904bcc4517",
+      "version": "6a97a13ebe04da8033ac66c8",
+      "name": "Warlock of the Great Old One",
+      "file": "images/monsters/warlock-of-the-great-old-one/batch-164-portrait.png",
+      "sha256": "f19b9100ff7d59b8207074acb1b7c27641e69f85013f3d7683daaffc70fdadba",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-90b69be848db91f56c1d97e2",
+      "version": "65d9c853c08d6f936ea2838d",
+      "name": "Warlord",
+      "file": "images/monsters/warlord/batch-164-portrait.png",
+      "sha256": "f1ce819e239143e6dd4c493d25b65ae30a754a8e909b66d796da8bbcf3ed26f1",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-820c83688f648e1632ec1f1c",
+      "version": "7b0c8f2ad7c3cbedae1ddc72",
+      "name": "Wastrilith",
+      "file": "images/monsters/wastrilith/batch-164-portrait.png",
+      "sha256": "574a41ba975df0dee6d5ee0a0e8cdbd7e39107df95c039fadcc28f651e543453",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-2d1f7eb03918d07b00133051",
+      "version": "0608db7f624fa07835513181",
+      "name": "Water Elemental Myrmidon",
+      "file": "images/monsters/water-elemental-myrmidon/batch-164-portrait.png",
+      "sha256": "b46ab810c0eab101915526315354715c7fe6270e1871b582cda21b059407dbe1",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    }
+  ]
+}

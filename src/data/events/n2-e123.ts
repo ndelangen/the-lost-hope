@@ -32,4 +32,7 @@ export default createEvent({
       ', and the attendants accepted the party’s authorization.',
     ],
   ],
+  illustrations: [
+    '/assets/scenes/the-party-presents-the-dungeon-pass-at-the-serpent-eclipse-entrance.png',
+  ],
 })

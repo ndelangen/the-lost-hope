@@ -1,0 +1,310 @@
+{
+  "new": {
+    "Bone Devil": {
+      "path": "output/dm-library/encounter-batches/145/art/bone-devil.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "b708d80fcc55c248c9e798eba31710f544fc41f427648b95f8013787fb86e520",
+      "bytes": 2791577
+    },
+    "Adult Red Dracolich": {
+      "path": "output/dm-library/encounter-batches/145/art/adult-red-dracolich.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "2622d879732bfb5c0dd8c9b41719bb7f8639d5a81fda7f3d94495081c7d87406",
+      "bytes": 2922363
+    }
+  },
+  "added": [
+    {
+      "entry": "monster-bd94c88e0259efd30addeb25",
+      "version": "196aff18193097d3f7dd5bd9",
+      "name": "Barlgura (summoner variant)",
+      "file": "images/monsters/shared-portraits-145/barlgura-46d7ea5e4b43.png",
+      "sha256": "46d7ea5e4b4364da1484d5bf0f51a038020684090dd6af57ec3433824e7ab036",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Barlgura"
+    },
+    {
+      "entry": "monster-72aaad4110ef9b996deec79e",
+      "version": "c8421af5c239cf58b9f6a725",
+      "name": "Chasme (summoner variant)",
+      "file": "images/monsters/shared-portraits-145/chasme-bdc224b74fd5.png",
+      "sha256": "bdc224b74fd5496fffef253b764a6016a5fbc2d9695f24526da3f5321f5f891c",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Chasme"
+    },
+    {
+      "entry": "monster-ddd5ac8e188ed72989b3b264",
+      "version": "4377436bfc47ac4865085053",
+      "name": "Mezzoloth (summoner variant)",
+      "file": "images/monsters/shared-portraits-145/mezzoloth-ec3dd0b64601.png",
+      "sha256": "ec3dd0b64601db1d545b3deeed7e8302837da66fd65730071ec1541eb465375c",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Mezzoloth"
+    },
+    {
+      "entry": "monster-c13b7e5be7bb07a8f6ddb3b7",
+      "version": "33e180ac98ced789c93d2aaa",
+      "name": "Yochlol (Summoner Variant)",
+      "file": "images/monsters/shared-portraits-145/yochlol-35e8a4449cd2.png",
+      "sha256": "35e8a4449cd2e71d2033949897c4bc4dde945d58715936e5c6c89fb368fd8daf",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Yochlol"
+    },
+    {
+      "entry": "monster-81aaf6043621573992151b8b",
+      "version": "9aaf52c1f443055a551d24b6",
+      "name": "Bone Devil",
+      "file": "images/monsters/bone-devil/batch-145-portrait.png",
+      "sha256": "b708d80fcc55c248c9e798eba31710f544fc41f427648b95f8013787fb86e520",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-d33209fdcd0dc32866eb8e6c",
+      "version": "837848aff01266877546b64f",
+      "name": "Bone Devil (Summoner Variant)",
+      "file": "images/monsters/bone-devil/batch-145-portrait.png",
+      "sha256": "b708d80fcc55c248c9e798eba31710f544fc41f427648b95f8013787fb86e520",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Bone Devil"
+    },
+    {
+      "entry": "monster-b593addb979c6b2bbfc133fd",
+      "version": "f1b19e65ede2ed47972f1bbb",
+      "name": "Night Hag (Coven)",
+      "file": "images/monsters/shared-portraits-145/night-hag-coven-variant-5b02ae7ac1fc.png",
+      "sha256": "5b02ae7ac1fc3762b97bc459f0889a596c32eb1685ecfbb0b843ab0d37efbbed",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Night Hag (Coven Variant)"
+    },
+    {
+      "entry": "monster-1e234d32060b0960b2db68b4",
+      "version": "0d99b2a9e76b879efb464ff2",
+      "name": "Night Hag",
+      "file": "images/monsters/shared-portraits-145/night-hag-coven-variant-5b02ae7ac1fc.png",
+      "sha256": "5b02ae7ac1fc3762b97bc459f0889a596c32eb1685ecfbb0b843ab0d37efbbed",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Night Hag (Coven Variant)"
+    },
+    {
+      "entry": "monster-a5e42b14a2bdf40e059ec6e0",
+      "version": "066371c5fa2e502a1a0c06d2",
+      "name": "Sea Hag (Coven)",
+      "file": "images/monsters/shared-portraits-145/sea-hag-coven-variant-b0e445398c00.png",
+      "sha256": "b0e445398c00cf2aff31404bd53106f25ccdebbd89322f4066067067668f81cf",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Sea Hag (Coven Variant)"
+    },
+    {
+      "entry": "monster-f2b2f35b1bf1d43354a052b9",
+      "version": "7dcfbded93cd38db99444e38",
+      "name": "Sea Hag",
+      "file": "images/monsters/shared-portraits-145/sea-hag-coven-variant-b0e445398c00.png",
+      "sha256": "b0e445398c00cf2aff31404bd53106f25ccdebbd89322f4066067067668f81cf",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Sea Hag (Coven Variant)"
+    },
+    {
+      "entry": "monster-42c104abbe1c341766657940",
+      "version": "3f6086889cf4f6e6ddccae7a",
+      "name": "Blue Slaad (control gem variant)",
+      "file": "images/monsters/shared-portraits-145/blue-slaad-34f97abf1770.png",
+      "sha256": "34f97abf177049618fb3b5cbbf1199363fbfb4dad5a5450accfe98b8c9eb9617",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Blue Slaad"
+    },
+    {
+      "entry": "monster-8704a97279320b30a10b8cc4",
+      "version": "266f28f9631906754ab9bfdc",
+      "name": "Death Slaad (control gem variant)",
+      "file": "images/monsters/shared-portraits-145/death-slaad-a1b683e77735.png",
+      "sha256": "a1b683e7773549118b22830543e10b394689fa4ca42d4918f42a5def53f671c3",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Death Slaad"
+    },
+    {
+      "entry": "monster-0c2706893d878ad6129711dd",
+      "version": "4764e9cde92fe482f2edebe8",
+      "name": "Green Slaad (control gem variant)",
+      "file": "images/monsters/shared-portraits-145/green-slaad-18739d5d1376.png",
+      "sha256": "18739d5d1376e4b28660ac1b5e1487aa1dbfd35f225ec87af88187994f18587a",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Green Slaad"
+    },
+    {
+      "entry": "monster-148fdf810f798e299ffaa90d",
+      "version": "7719f5745e4bad66449efc08",
+      "name": "Red Slaad (control gem variant)",
+      "file": "images/monsters/shared-portraits-145/red-slaad-b1ecafffb5e1.png",
+      "sha256": "b1ecafffb5e16658379a1f3415267cf58cf12ddaaac6b08a0629407a038aca46",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Red Slaad"
+    },
+    {
+      "entry": "monster-a0dfaa53f4ca51c6b74d064c",
+      "version": "2f468977a578a0e1c9b7caa5",
+      "name": "Gray Ooze (Psychic)",
+      "file": "images/monsters/shared-portraits-145/psychic-gray-ooze-fd858cfc5f29.png",
+      "sha256": "fd858cfc5f2917c892ea5b7c5966d0780b8965be20fb5d40373923fbf0c407ed",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Psychic Gray Ooze"
+    },
+    {
+      "entry": "monster-62568cf650f515b1487df75c",
+      "version": "9591a84403b68ceb0bc14d64",
+      "name": "Gray Ooze",
+      "file": "images/monsters/shared-portraits-145/psychic-gray-ooze-fd858cfc5f29.png",
+      "sha256": "fd858cfc5f2917c892ea5b7c5966d0780b8965be20fb5d40373923fbf0c407ed",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Psychic Gray Ooze"
+    },
+    {
+      "entry": "monster-c80feba4c94a92e5f79b3f4e",
+      "version": "c74ee688cd64a051d0916630",
+      "name": "Thri-kreen (psionics variant)",
+      "file": "images/monsters/shared-portraits-145/thri-kreen-3aa6ee1b3aa5.png",
+      "sha256": "3aa6ee1b3aa5a2079cf958695a3a216c965d3d29711836a5a6d003759b8f2a63",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Thri-kreen"
+    },
+    {
+      "entry": "monster-8c5babc31727202468347528",
+      "version": "220f59ba68659772c11bba53",
+      "name": "Thri-kreen (Weapons and Psionics)",
+      "file": "images/monsters/shared-portraits-145/thri-kreen-3aa6ee1b3aa5.png",
+      "sha256": "3aa6ee1b3aa5a2079cf958695a3a216c965d3d29711836a5a6d003759b8f2a63",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Thri-kreen"
+    },
+    {
+      "entry": "monster-c1e78afa43a6c37aa0ff9628",
+      "version": "540572a03456f87f2940bd22",
+      "name": "Thri-kreen (weapons variant)",
+      "file": "images/monsters/shared-portraits-145/thri-kreen-3aa6ee1b3aa5.png",
+      "sha256": "3aa6ee1b3aa5a2079cf958695a3a216c965d3d29711836a5a6d003759b8f2a63",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Thri-kreen"
+    },
+    {
+      "entry": "monster-551916735aeecf1474109865",
+      "version": "f162c5754f60e35fe390b137",
+      "name": "Troll",
+      "file": "images/monsters/shared-portraits-145/troll-variant-1c2732adaaf8.png",
+      "sha256": "1c2732adaaf8ad8d46206eaf61f4d8bc3470205f0a5ed2dc8feaf942ab332c6a",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Troll (variant)"
+    },
+    {
+      "entry": "monster-131f54fb455bea67db136f1f",
+      "version": "288dc997b30466f73e2a4fd0",
+      "name": "Monodrone (Rogue)",
+      "file": "images/monsters/shared-portraits-145/monodrone-50b27a7e49c1.png",
+      "sha256": "50b27a7e49c157e132bed9e07a913e3b93785fc23fa496a7447f0d188748b9b3",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Monodrone"
+    },
+    {
+      "entry": "monster-1e4ba38d94428ef63342bd0c",
+      "version": "78904939870f9d1186c82db9",
+      "name": "Quadrone (Rogue)",
+      "file": "images/monsters/shared-portraits-145/quadrone-e3e18cb67846.png",
+      "sha256": "e3e18cb67846ecd346df182ad2e3c1c8f141bcbebd1a22bf272846674b7839ed",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Quadrone"
+    },
+    {
+      "entry": "monster-70e4f7f9f7a74da1739d29bd",
+      "version": "fc698ba5c476fb2494a53ac1",
+      "name": "Pentadrone (Rogue)",
+      "file": "images/monsters/shared-portraits-145/pentadrone-7a15775d49c0.png",
+      "sha256": "7a15775d49c0a106ab099ddc32cd7e6613120d88d8498ed5d329d06ca9e7e8ee",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Pentadrone"
+    },
+    {
+      "entry": "monster-b5e11059ad7b4d8e887b3c38",
+      "version": "472c07b76921cab278868f3a",
+      "name": "Mud Mephit (Summoner Variant)",
+      "file": "images/monsters/shared-portraits-145/mud-mephit-cbdbb7deae8d.png",
+      "sha256": "cbdbb7deae8d8d7074f816250ef65af0071d02a97e5bb330c8e911921a91a0e9",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Mud Mephit"
+    },
+    {
+      "entry": "monster-7dc831057de042e5c2592d33",
+      "version": "650e2ddf49f10caf02134d7b",
+      "name": "Smoke Mephit (Summoner Variant)",
+      "file": "images/monsters/shared-portraits-145/smoke-mephit-34e723d3a17c.png",
+      "sha256": "34e723d3a17c392a5f21f4d84eb01dbbc68cac587078dbd11b32fbca15ab9397",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Smoke Mephit"
+    },
+    {
+      "entry": "monster-b6c9cefb7ff678c4ef225345",
+      "version": "601092747687c59a36e3be87",
+      "name": "Adult Red Dracolich",
+      "file": "images/monsters/adult-red-dracolich/batch-145-portrait.png",
+      "sha256": "2622d879732bfb5c0dd8c9b41719bb7f8639d5a81fda7f3d94495081c7d87406",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-7cfe80e023368f1caceebae4",
+      "version": "64da03f2191539d91e52eeaf",
+      "name": "Demilich (Trap Soul)",
+      "file": "images/monsters/shared-portraits-145/demilich-a638c220178a.png",
+      "sha256": "a638c220178a1dd0e81c059ee4d11d56c7452a0af276e60434ea0fd836941c15",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Demilich"
+    },
+    {
+      "entry": "monster-a416c00dbbe8a2ac2a21b6a6",
+      "version": "54cda7bd0e4528da762aba01",
+      "name": "Demilich (Variant)",
+      "file": "images/monsters/shared-portraits-145/demilich-a638c220178a.png",
+      "sha256": "a638c220178a1dd0e81c059ee4d11d56c7452a0af276e60434ea0fd836941c15",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Demilich"
+    },
+    {
+      "entry": "monster-a45282b31fdc4b748b7ad3ab",
+      "version": "63b139c58c7db07c3960e585",
+      "name": "Drider Spellcaster",
+      "file": "images/monsters/shared-portraits-145/drider-variant-c32076c64a79.png",
+      "sha256": "c32076c64a791ed3748e4b8415ff8b54c4e6f6181e177d77b74c90ea5bd9d490",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Drider (variant)"
+    }
+  ]
+}

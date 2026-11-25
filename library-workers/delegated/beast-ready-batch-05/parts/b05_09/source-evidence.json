@@ -1,0 +1,84 @@
+[
+  {
+    "name": "Riding Horse",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "printing": "Version 1.0, 2018",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      151
+    ],
+    "section": "Chapter 12, Monsters",
+    "sourceUrl": "",
+    "appearanceEvidence": "Editorial description of the original portrait. Both stat blocks specify a Large horse, with no required coat color.",
+    "habitatEvidence": "Editorial encounter locations inferred from the horse’s domestic use. The stat block has no habitat field.",
+    "mountedCombatSource": "",
+    "pdfPage": 151,
+    "pdfPageNumbering": "One-based numbering matches the printed folio.",
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3",
+    "attackBonusWitness": "The 2018 already prints Hooves +5 to hit."
+  },
+  {
+    "name": "Riding Horse",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "printing": "2014 fifth-edition book with official errata",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      336
+    ],
+    "section": "Appendix A, Miscellaneous Creatures",
+    "sourceUrl": "https://online.anyflip.com/pqhqn/sezy/files/basic-html/page337.html",
+    "appearanceEvidence": "Editorial description of the original portrait. Both stat blocks specify a Large horse, with no required coat color.",
+    "habitatEvidence": "Editorial encounter locations inferred from the horse’s domestic use. The stat block has no habitat field.",
+    "mountedCombatSource": "",
+    "viewerPage": 337,
+    "pageNumbering": "Printed folio is one lower than the viewer page.",
+    "errataUrl": "",
+    "errata": "Official Monster Manual errata v2.0, p. 2, corrects Hooves to +5 from +2."
+  },
+  {
+    "name": "Warhorse",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "printing": "Version 1.0, 2018",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      157
+    ],
+    "section": "Chapter 12, Monsters",
+    "sourceUrl": "",
+    "appearanceEvidence": "Editorial description of the original portrait. Both stat blocks specify a Large horse, with no required coat color.",
+    "habitatEvidence": "Editorial encounter locations inferred from the horse’s domestic use. The stat block has no habitat field.",
+    "mountedCombatSource": "",
+    "pdfPage": 157,
+    "pdfPageNumbering": "One-based numbering matches the printed folio.",
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3",
+    "attackBonusWitness": "The 2018 already prints Hooves +6 to hit."
+  },
+  {
+    "name": "Warhorse",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "printing": "2014 fifth-edition book with official errata",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      340
+    ],
+    "section": "Appendix A, Miscellaneous Creatures",
+    "sourceUrl": "https://online.anyflip.com/pqhqn/sezy/files/basic-html/page341.html",
+    "appearanceEvidence": "Editorial description of the original portrait. Both stat blocks specify a Large horse, with no required coat color.",
+    "habitatEvidence": "Editorial encounter locations inferred from the horse’s domestic use. The stat block has no habitat field.",
+    "mountedCombatSource": "",
+    "viewerPage": 341,
+    "pageNumbering": "Printed folio is one lower than the viewer page.",
+    "errataUrl": "",
+    "errata": "Official Monster Manual errata v2.0, p. 2, corrects Hooves to +6 from +4.",
+    "printingDistinction": "The Warhorse Armor table appears beside the Warhorse block on the same Monster Manual folio. The Basic Rules version includes the unarmored block without this table.",
+    "bardingRules": ""
+  }
+]

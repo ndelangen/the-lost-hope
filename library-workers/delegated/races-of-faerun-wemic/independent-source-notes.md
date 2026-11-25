@@ -1,0 +1,8 @@
+# Wemic rules sources
+
+- The March 2003 *Races of Faerûn* gives the playable Wemic 5d8 racial Hit Dice, LA +3, favored class Barbarian, and ECL 8 before class levels. The 2004 monster conversion confirms a 10-ft. space and 5-ft. reach. The player entry specifies twice Medium carrying limits. This profile keeps that value. The general 3.5 rule for a Large quadruped gives three times Medium. [Player traits, pp. 150–151]() · [Monster Update, p. 6]() · [Core carrying capacity](https://www.d20srd.org/srd/carryingCapacity.htm#biggerandSmallerCreatures)
+- The playable Wemic can make two 1d6 claw attacks or add one secondary claw to a one-handed weapon attack routine. The earlier *Monsters of Faerûn* monster adds two secondary foreclaws. The playable entry also allows choosing Spirited Charge or Trample without the usual prerequisites. [Playable natural attacks, p. 151]() · [Optional feats, p. 149]() · [Earlier monster, p. 84]()
+- The racial +8 on Jump stacks with the 3.5 speed bonus. That bonus is +4 at 40 ft. and +8 at 50 ft. Jumping uses movement, and a long jump without the 20-ft. approach uses double the listed DC. The older fixed leap distances come from AD&D. [Wemic racial traits, p. 150]() · [3.5 Jump](https://www.d20srd.org/srd/skills/jump.htm)
+- Nasha takes Shaaran as a regional bonus language. Both CRs are provisional estimates for the original NPCs. [Wemic region, p. 30]()
+
+Tavaro’s lion body, upright torso, dark mane, and tufted tail follow the book’s description. Mike Dutton illustrated the Wemic in the original book. [Description, p. 149]() · [Illustration, p. 150]()

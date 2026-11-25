@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Brontodon",
+    "kind": "beast",
+    "publication": "Plane Shift: Ixalan",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "author": "James Wyatt",
+    "printing": "First printing, January 2018",
+    "copyrightYear": 2017,
+    "pdfPage": 27,
+    "printedPages": [
+      27
+    ],
+    "section": "An Ixalan Bestiary, The Rumbling Herds",
+    "sourceUrl": "",
+    "sourceSha256": "56c0f5a90d4c396b88358fc2156f3dd14e29eb0cc77d344246747403dd85a411",
+    "appearanceEvidence": "The long neck and bulk are described on Ixalan p. 27. The green scales and head quills come from Dan Scott’s Belligerent Brontodon illustration on that page.",
+    "habitatEvidence": "The source places the long-necked herd dinosaurs in tall-tree feeding grounds. Sun Coast plains and sparse forests are explicit for Altisaur in the same passage and are inferred tags for Brontodon.",
+    "reskinReference": {
+      "name": "Brontosaurus",
+      "publication": "Volo's Guide to Monsters",
+      "printing": "First printing, November 2016",
+      "printedPage": 139,
+      "printedPages": [
+        139
+      ],
+      "publicationUrl": "",
+      "rulesReadUrl": "",
+      "rulesReadWitness": "",
+      "publisher": "Wizards of the Coast"
+    },
+    "creditedArt": "Dan Scott, Belligerent Brontodon, Ixalan page 27."
+  },
+  {
+    "name": "Ceratops",
+    "kind": "beast",
+    "publication": "Plane Shift: Ixalan",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "author": "James Wyatt",
+    "printing": "First printing, January 2018",
+    "copyrightYear": 2017,
+    "pdfPage": 28,
+    "printedPages": [
+      28
+    ],
+    "section": "An Ixalan Bestiary, Horned Herbivores",
+    "sourceUrl": "",
+    "sourceSha256": "56c0f5a90d4c396b88358fc2156f3dd14e29eb0cc77d344246747403dd85a411",
+    "appearanceEvidence": "Ixalan p. 28 describes the horns and feathered frill. Zezhou Chen’s Goring Ceratops supplies the scale and plumage reference.",
+    "habitatEvidence": "Ixalan p. 28 explicitly places the horned herbivores on the plains. Sun Empire is a setting tag for the people who ride them.",
+    "reskinReference": {
+      "name": "Triceratops",
+      "publication": "Monster Manual",
+      "printing": "First printing, September 2014",
+      "printedPage": 80,
+      "printedPages": [
+        80
+      ],
+      "publicationUrl": "https://www.dndbeyond.com/monsters/17039-triceratops",
+      "rulesReadUrl": "https://www.dndbeyond.com/monsters/17039-triceratops",
+      "rulesReadWitness": "Local Monster Manual , printed p. 80",
+      "publisher": "Wizards of the Coast"
+    },
+    "creditedArt": "Zezhou Chen, Goring Ceratops, Ixalan page 28."
+  },
+  {
+    "name": "Ferocidon",
+    "kind": "beast",
+    "publication": "Plane Shift: Ixalan",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "author": "James Wyatt",
+    "printing": "First printing, January 2018",
+    "copyrightYear": 2017,
+    "pdfPage": 30,
+    "printedPages": [
+      30
+    ],
+    "section": "An Ixalan Bestiary, Teeth and Frills",
+    "sourceUrl": "",
+    "sourceSha256": "56c0f5a90d4c396b88358fc2156f3dd14e29eb0cc77d344246747403dd85a411",
+    "appearanceEvidence": "Ixalan p. 30 identifies a vicious raptor relative that hunts larger prey. Allosaur shape follows the base creature, and the colors and head feathers in the new portrait are editorial design.",
+    "habitatEvidence": "Open ground follows the Allosaurus description and its official D&D Beyond grassland tag. The Ixalan and jungle-edge tags apply the p. 27 setting overview to this predator.",
+    "reskinReference": {
+      "name": "Allosaurus",
+      "publication": "Monster Manual",
+      "printing": "First printing, September 2014",
+      "printedPage": 79,
+      "printedPages": [
+        79
+      ],
+      "publicationUrl": "https://www.dndbeyond.com/monsters/17087-allosaurus",
+      "rulesReadUrl": "https://www.dndbeyond.com/monsters/17087-allosaurus",
+      "rulesReadWitness": "Local Monster Manual , printed p. 79",
+      "publisher": "Wizards of the Coast"
+    }
+  },
+  {
+    "name": "Gishath, Sun's Avatar",
+    "kind": "beast",
+    "publication": "Plane Shift: Ixalan",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "author": "James Wyatt",
+    "printing": "First printing, January 2018",
+    "copyrightYear": 2017,
+    "pdfPage": 32,
+    "printedPages": [
+      32
+    ],
+    "section": "An Ixalan Bestiary, Gishath, Sun's Avatar",
+    "sourceUrl": "",
+    "sourceSha256": "56c0f5a90d4c396b88358fc2156f3dd14e29eb0cc77d344246747403dd85a411",
+    "appearanceEvidence": "The build, feathers and bony spines follow Zack Stella’s credited Gishath portrait on p. 32.",
+    "habitatEvidence": "Ixalan jungle and Sun Empire are setting tags inferred from the landscape in the p. 32 art and the broader dinosaur description on p. 27. Gishath has no printed habitat field.",
+    "creditedArt": "Zack Stella, Gishath, Sun’s Avatar, Ixalan page 32."
+  },
+  {
+    "name": "Hadrosaur",
+    "kind": "beast",
+    "publication": "Plane Shift: Ixalan",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "author": "James Wyatt",
+    "printing": "First printing, January 2018",
+    "copyrightYear": 2017,
+    "pdfPage": 29,
+    "printedPages": [
+      29
+    ],
+    "section": "An Ixalan Bestiary, Scales, Spikes, and Hammers continuation",
+    "sourceUrl": "",
+    "sourceSha256": "56c0f5a90d4c396b88358fc2156f3dd14e29eb0cc77d344246747403dd85a411",
+    "appearanceEvidence": "Volo’s Guide to Monsters p. 139 describes the bony head crests and partly quadrupedal posture. The bill shape is an editorial reconstruction of a hadrosaur.",
+    "habitatEvidence": "Ixalan p. 29 names Hadrosaurus as an example of an herbivore relying on speed, stealth, or numbers. Grassland, wetland, and swamp are editorial tags consistent with the base creature’s indexed grassland and swamp habitats.",
+    "reskinReference": {
+      "name": "Hadrosaurus",
+      "publication": "Volo's Guide to Monsters",
+      "printing": "First printing, November 2016",
+      "printedPage": 140,
+      "printedPages": [
+        140
+      ],
+      "publicationUrl": "",
+      "rulesReadUrl": "",
+      "rulesReadWitness": "",
+      "publisher": "Wizards of the Coast"
+    }
+  }
+]

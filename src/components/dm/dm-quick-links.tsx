@@ -4,6 +4,7 @@ import {
   ChartBar,
   Layers,
   LayoutDashboard,
+  Library,
   ScrollText,
   Swords,
   Sword,
@@ -49,6 +50,9 @@ export function DmQuickLinks({ stackAt = 'lg' }: { stackAt?: 'lg' | 'xl' | 'neve
       </Link>
       <Link to="/dm/tools/fight-sims" className={linkClass}>
         <ChartBar className="size-4" /> Fight sims
+      </Link>
+      <Link to="/library" search={{ dm: true }} className={linkClass}>
+        <Library className="size-4" /> Library
       </Link>
       {import.meta.env.DEV ? (
         <Link to="/dm/npcs/new" className={linkClass}>

@@ -35,4 +35,5 @@ export default createEvent({
       ' roamed and protected the forest at night, making nocturnal travel dangerous.',
     ],
   ],
+  illustrations: ['/assets/scenes/verdant-haven-houses-the-fairhaven-survivors.png'],
 })

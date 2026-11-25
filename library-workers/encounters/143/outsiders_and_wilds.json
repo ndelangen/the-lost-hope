@@ -1,0 +1,351 @@
+[
+  {
+    "name": "Marid",
+    "pages": "p. 146",
+    "statBlock": {
+      "name": "Marid",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large elemental, chaotic neutral",
+      "ac": 17,
+      "hp": 229,
+      "hitDice": "17d10 + 136",
+      "speed": "30 ft., fly 60 ft., swim 90 ft.",
+      "cr": "11",
+      "xp": 7200,
+      "abilities": {
+        "Str": {
+          "score": 22
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 26
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 17
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "description": "A powerful water genie that expects mortals to recognize its rank.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Defenses": "Resists acid, cold, and lightning.",
+        "Senses": "Blindsight 30 ft., darkvision 120 ft., passive Perception 13.",
+        "Languages": "Aquan.",
+        "Traits": "Amphibious. It breathes air and water.\nElemental Demise. When it dies, it bursts into water and foam, leaving its worn and carried equipment.",
+        "Innate spellcasting": "Charisma. Spell save DC 16, +8 to hit with spell attacks. It casts without material components.\nAt will. Create or Destroy Water, Detect Evil and Good, Detect Magic, Fog Cloud, Purify Food and Drink.\n3/day each. Tongues, Water Breathing, Water Walk.\n1/day each. Conjure Elemental (water elemental only), Control Water, Gaseous Form, Invisibility, Plane Shift.",
+        "Actions": "Multiattack. Make two Trident attacks.\nTrident. Melee or ranged weapon attack, +10 to hit, reach 5 ft. or range 20/60 ft., one target. Hit 13 (2d6 + 6) piercing, or 15 (2d8 + 6) piercing when wielded in two hands in melee.\nWater Jet. Each creature in a 60-ft. line, 5 ft. wide, makes a DC 16 Dexterity save. Failure deals 21 (6d6) bludgeoning damage and pushes a Huge or smaller target up to 20 ft. away from the marid and knocks it Prone. Success halves the damage and prevents the push and knockdown.",
+        "Printed source": "Monster Manual (2014), p. 146.",
+        "Saves": "Dexterity +5, Wisdom +7, Charisma +8."
+      }
+    }
+  },
+  {
+    "name": "Mezzoloth",
+    "pages": "p. 313",
+    "statBlock": {
+      "name": "Mezzoloth",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium fiend (yugoloth), neutral evil",
+      "ac": 18,
+      "hp": 75,
+      "hitDice": "10d8 + 30",
+      "speed": "40 ft.",
+      "cr": "5",
+      "xp": 1800,
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 7
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "description": "The foot soldier of yugoloth armies, armed with a trident and protected by a thick chitinous shell.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Skills": "Perception +3.",
+        "Defenses": "Resists cold, fire, lightning, and bludgeoning, piercing, and slashing from nonmagical weapons. Immune to acid and poison damage. Immune to the Poisoned condition.",
+        "Senses": "Blindsight 60 ft., darkvision 60 ft., passive Perception 13.",
+        "Languages": "Abyssal, Infernal, telepathy 60 ft.",
+        "Traits": "Magic Resistance. Advantage on saves against spells and other magical effects.\nMagic Weapons. Its weapon attacks are magical.\nBack to Gehenna. If it dies elsewhere, its body dissolves into ichor. It reforms at full strength on Gehenna, where it can be killed permanently.",
+        "Innate spellcasting": "Charisma, spell save DC 11. It casts without material components.\n2/day each. Darkness and Dispel Magic.\n1/day. Cloudkill.",
+        "Actions": "Multiattack. Make one Claws attack and one Trident attack.\nClaws. Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit 9 (2d4 + 4) slashing.\nTrident. Melee or ranged weapon attack, +7 to hit, reach 5 ft. or range 20/60 ft., one target. Hit 7 (1d6 + 4) piercing, or 8 (1d8 + 4) piercing with two hands in melee.\nTeleport. It and its worn or carried equipment magically move up to 60 ft. to a visible unoccupied space.",
+        "Printed source": "Monster Manual (2014), p. 313. Back to Gehenna, p. 312."
+      }
+    }
+  },
+  {
+    "name": "Nycaloth",
+    "pages": "p. 314",
+    "statBlock": {
+      "name": "Nycaloth",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large fiend (yugoloth), neutral evil",
+      "ac": 18,
+      "hp": 123,
+      "hitDice": "13d10 + 52",
+      "speed": "40 ft., fly 60 ft.",
+      "cr": "9",
+      "xp": 5000,
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 19
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "description": "A winged mercenary that strikes at close range, then teleports out of reach.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Skills": "Intimidation +6, Perception +4, Stealth +4.",
+        "Defenses": "Resists cold, fire, lightning, and bludgeoning, piercing, and slashing from nonmagical weapons. Immune to acid and poison damage. Immune to the Poisoned condition.",
+        "Senses": "Blindsight 60 ft., darkvision 60 ft., passive Perception 14.",
+        "Languages": "Abyssal, Infernal, telepathy 60 ft.",
+        "Traits": "Magic Resistance. Advantage on saves against spells and other magical effects.\nMagic Weapons. Its weapon attacks are magical.\nBack to Gehenna. If it dies elsewhere, its body dissolves into ichor. It reforms at full strength on Gehenna, where it can be killed permanently.",
+        "Innate spellcasting": "Charisma. It casts without material components.\nAt will. Darkness, Detect Magic, Dispel Magic, Invisibility (self only), Mirror Image.",
+        "Actions": "Multiattack. Make two melee attacks, or make one melee attack and Teleport before or after it.\nClaw. Melee weapon attack, +9 to hit, reach 5 ft., one target. Hit 12 (2d6 + 5) slashing. A creature must succeed on a DC 16 Constitution save or suffer a wound that deals 5 (2d4) slashing damage at the start of each of its turns. Each further hit with Claw on the wounded creature increases the recurring damage by 5 (2d4). Any creature can spend an action to attempt a DC 13 Wisdom (Medicine) check, closing the wound on success. Magical healing also closes it.\nGreataxe. Melee weapon attack, +9 to hit, reach 5 ft., one target. Hit 18 (2d12 + 5) slashing.\nTeleport. It and its worn or carried equipment magically move up to 60 ft. to a visible unoccupied space.",
+        "Printed source": "Monster Manual (2014), p. 314. Back to Gehenna, p. 312."
+      }
+    }
+  },
+  {
+    "name": "Ultroloth",
+    "pages": "p. 314",
+    "statBlock": {
+      "name": "Ultroloth",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium fiend (yugoloth), neutral evil",
+      "ac": 19,
+      "hp": 153,
+      "hitDice": "18d8 + 72",
+      "speed": "30 ft., fly 60 ft.",
+      "cr": "13",
+      "xp": 10000,
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 19
+        }
+      },
+      "description": "A yugoloth commander whose luminous eyes can freeze a foe in place.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Skills": "Intimidation +9, Perception +7, Stealth +8.",
+        "Defenses": "Resists cold, fire, lightning, and bludgeoning, piercing, and slashing from nonmagical weapons. Immune to acid and poison damage. Immune to Charmed, Frightened, and Poisoned.",
+        "Senses": "Truesight 120 ft., passive Perception 17.",
+        "Languages": "Abyssal, Infernal, telepathy 120 ft.",
+        "Traits": "Magic Resistance. Advantage on saves against spells and other magical effects.\nMagic Weapons. Its weapon attacks are magical.\nBack to Gehenna. If it dies elsewhere, its body dissolves into ichor. It reforms at full strength on Gehenna, where it can be killed permanently.",
+        "Innate spellcasting": "Charisma, spell save DC 17. It casts without material components.\nAt will. Alter Self, Clairvoyance, Darkness, Detect Magic, Detect Thoughts, Dispel Magic, Invisibility (self only), Suggestion.\n3/day each. Dimension Door, Fear, Wall of Fire.\n1/day each. Fire Storm and Mass Suggestion.",
+        "Actions": "Multiattack. It can use Hypnotic Gaze and makes three melee attacks.\nLongsword. Melee weapon attack, +8 to hit, reach 5 ft., one target. Hit 7 (1d8 + 3) slashing, or 8 (1d10 + 3) slashing with two hands.\nHypnotic Gaze. Choose one visible creature within 30 ft. If it can see the ultroloth, it makes a DC 17 Wisdom save. Failure leaves it Charmed and Stunned until the end of the ultroloth’s next turn. A successful save grants it immunity to this ultroloth’s gaze for 24 hours.\nTeleport. It and its worn or carried equipment magically move up to 60 ft. to a visible unoccupied space.",
+        "Printed source": "Monster Manual (2014), p. 314. Back to Gehenna, p. 312."
+      }
+    }
+  },
+  {
+    "name": "Fomorian",
+    "pages": "p. 136",
+    "statBlock": {
+      "name": "Fomorian",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Huge giant, chaotic evil",
+      "ac": 14,
+      "hp": 149,
+      "hitDice": "13d12 + 65",
+      "speed": "30 ft.",
+      "cr": "8",
+      "xp": 3900,
+      "abilities": {
+        "Str": {
+          "score": 23
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 9
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 6
+        }
+      },
+      "description": "A giant of the Underdark that can pass on the fey curse that twisted its own body.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Skills": "Perception +8, Stealth +3.",
+        "Senses": "Darkvision 120 ft., passive Perception 18.",
+        "Languages": "Giant and Undercommon.",
+        "Actions": "Multiattack. Make two Greatclub attacks, or one Greatclub attack and one Evil Eye.\nGreatclub. Melee weapon attack, +9 to hit, reach 15 ft., one target. Hit 19 (3d8 + 6) bludgeoning.\nEvil Eye. One visible creature within 60 ft. makes a DC 14 Charisma save against magic. Failure deals 27 (6d8) psychic damage. Success halves the damage.\nCurse of the Evil Eye (recharges after a short or long rest). Use Evil Eye. On a failed save, the creature also becomes Cursed with magical deformities. Its speed is halved, and it has disadvantage on Strength and Dexterity ability checks, saves, and attack rolls. It can repeat the save after finishing a long rest, ending the curse on a success.",
+        "Printed source": "Monster Manual (2014), p. 136."
+      }
+    }
+  },
+  {
+    "name": "Flumph",
+    "pages": "p. 135",
+    "statBlock": {
+      "name": "Flumph",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Small aberration, lawful good",
+      "ac": 12,
+      "hp": 7,
+      "hitDice": "2d6",
+      "speed": "5 ft., fly 30 ft.",
+      "cr": "1/8",
+      "xp": 25,
+      "abilities": {
+        "Str": {
+          "score": 6
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "description": "A floating Underdark creature that feeds on psionic energy and shares what it learns with allies.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Skills": "Arcana +4, History +4, Religion +4.",
+        "Defenses": "Vulnerable to psychic damage.",
+        "Senses": "Darkvision 60 ft., passive Perception 12.",
+        "Languages": "Understands Undercommon without speaking. Telepathy 60 ft.",
+        "Traits": "Advanced Telepathy. It can perceive the content of any telepathic communication within 60 ft. Creatures with any form of telepathy cannot surprise it.\nProne Deficiency. When knocked Prone, roll a die. On an odd result it lands upside down and becomes Incapacitated. At the end of each turn it can attempt a DC 10 Dexterity save to right itself and end the incapacitation.\nTelepathic Shroud. It is immune to divination spells and effects that sense its emotions or read its thoughts.",
+        "Actions": "Tendrils. Melee weapon attack, +4 to hit, reach 5 ft., one creature. Hit 4 (1d4 + 2) piercing plus 2 (1d4) acid. At the end of each of its turns, the creature must make a DC 10 Constitution save. It takes 2 (1d4) acid on a failure. Success or Lesser Restoration ends the recurring damage.\nStench Spray (1/day). Each creature in a 15-ft. cone makes a DC 10 Dexterity save. Failure coats the creature in a liquid that stinks for 1d4 hours. The coated creature is Poisoned for the duration. Other creatures are Poisoned while within 5 ft. of it. A creature can remove the stench from itself by spending a short rest bathing in water, alcohol, or vinegar.",
+        "Printed source": "Monster Manual (2014), p. 135."
+      }
+    }
+  },
+  {
+    "name": "Water Weird",
+    "pages": "p. 299",
+    "statBlock": {
+      "name": "Water Weird",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large elemental, neutral",
+      "ac": 13,
+      "hp": 58,
+      "hitDice": "9d10 + 9",
+      "speed": "0 ft., swim 60 ft.",
+      "cr": "3",
+      "xp": 700,
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "description": "An elemental guardian bound to a pool or fountain, invisible until it breaks the surface.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Defenses": "Resists fire and bludgeoning, piercing, and slashing from nonmagical weapons. Immune to poison damage and to Exhaustion, Grappled, Paralyzed, Poisoned, Restrained, Prone, and Unconscious.",
+        "Senses": "Blindsight 30 ft., passive Perception 10.",
+        "Languages": "Understands Aquan without speaking.",
+        "Traits": "Invisible in Water. It is Invisible while fully immersed in water.\nWater Bound. It dies if it leaves its bound water or that water is destroyed.\nElemental Nature. It does not need air, food, drink, or sleep. A weird turned evil by fouled water loses that alignment if the water is cleansed with Purify Food and Drink.",
+        "Actions": "Constrict. Melee weapon attack, +5 to hit, reach 10 ft., one creature. Hit 13 (3d6 + 3) bludgeoning. A Medium or smaller target is also Grappled (escape DC 13) and pulled 5 ft. toward the weird. While that grapple lasts the target is Restrained, the weird tries to drown it, and the weird cannot constrict anyone else.",
+        "Printed source": "Monster Manual (2014), p. 299."
+      }
+    }
+  }
+]

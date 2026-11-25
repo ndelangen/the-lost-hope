@@ -1,0 +1,55 @@
+[
+  {
+    "name": "Aberrant Zealot (Variant)",
+    "imageKey": "monster:aberrant-zealot-variant",
+    "kind": "monster",
+    "type": "Aberration",
+    "publication": "Phandelver and Below: The Shattered Obelisk",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "source": "https://www.dndbeyond.com/monsters/3805735-aberrant-zealot-variant",
+    "challenge": "8",
+    "images": [],
+    "encounterStatus": "local-stat-block",
+    "statBlockUrl": "https://www.dndbeyond.com/monsters/3805735-aberrant-zealot-variant",
+    "slug": "aberrant-zealot-variant",
+    "entry": "monster-1d3af2975f7fd4759cd2be32",
+    "version": "d70731a65c29ca6abe945abe",
+    "generated": true,
+    "primaryPortraitSha256": "3e0801d8fc40563fa242c1368875e51533ab4751b4875916b2def0ac17494223",
+    "status": "Stat block",
+    "appearance": "A violet-skinned aberration in studded leather, with facial tentacles and a pair of shortswords.",
+    "habitats": [
+      "Briny Maze",
+      "Collectors’ Nook",
+      "Far Realm"
+    ]
+  },
+  {
+    "name": "Goblin Boss (Variant)",
+    "imageKey": "monster:goblin-boss-variant",
+    "kind": "monster",
+    "type": "Humanoid",
+    "publication": "Phandelver and Below: The Shattered Obelisk",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "source": "https://www.dndbeyond.com/monsters/3805745-goblin-boss-variant",
+    "challenge": "1",
+    "images": [],
+    "publisherArtwork": "https://www.dndbeyond.com/avatars/thumbnails/36576/576/1000/1000/638291908515391719.png",
+    "encounterStatus": "local-stat-block",
+    "statBlockUrl": "https://www.dndbeyond.com/monsters/3805745-goblin-boss-variant",
+    "slug": "goblin-boss-variant",
+    "entry": "monster-d97d5d8fc29df9373f274601",
+    "version": "df0e68987109e048bc0c995c",
+    "generated": true,
+    "primaryPortraitSha256": "fd6ca18617bb5bcc3264f5f35f7726a7049297d7b7b87d41ba9457db57bf4338",
+    "status": "Stat block",
+    "appearance": "A small goblin sentry with mismatched armor and a shortbow.",
+    "habitats": [
+      "Cragmaw Castle",
+      "Archer Post",
+      "Neverwinter Wood"
+    ]
+  }
+]

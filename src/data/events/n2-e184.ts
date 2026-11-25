@@ -18,4 +18,5 @@ export default createEvent({
       '.',
     ],
   ],
+  illustrations: ['/assets/scenes/the-gang-tells-the-party-about-barbara.png'],
 })

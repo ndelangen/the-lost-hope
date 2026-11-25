@@ -1,0 +1,92 @@
+[
+  {
+    "entityKind": "beast",
+    "name": "Bat Swarm",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/bat-swarm/swarm-of-bats-2014.webp",
+    "artist": "Related Swarm of Bats illustration · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "bf1171e9eedff6d6636f50d907a023915f6fc8b830a25efc232b59b918187f9f",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/MM/Swarm%20of%20Bats.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Bat Swarm",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/bat-swarm/kobold-press-bat-swarm.webp",
+    "artist": "Related Bat Swarm · Kobold Press Foundry token",
+    "kind": "token",
+    "sha256": "d2f7e9151a829bd157771301f98ede564b0c8a3df8c254e8bba240680404b1ff",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/bat-swarm.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Cheetah",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/cheetah/cheetah-rob-qld.jpg",
+    "artist": "Cheetah photograph by Rob Qld · CC BY 2.0",
+    "kind": "photograph",
+    "sha256": "8a2f3b86a8eee183dc96aaf5ecb9ee247461bbfb46b1dd51d20601a330bd1c63",
+    "reference": "https://commons.wikimedia.org/wiki/File:Acinonyx_jubatus_walking_Flickr.jpg",
+    "license": "https://creativecommons.org/licenses/by/2.0/"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Cheetah",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/cheetah/cheetah-bernard-dupont.jpg",
+    "artist": "Cheetah photograph by Bernard DUPONT · CC BY-SA 2.0",
+    "kind": "photograph",
+    "sha256": "f2841918505926c568d83f8b28b008ec300176194b897727d09dfade016700da",
+    "reference": "https://commons.wikimedia.org/wiki/File:Cheetah_(Acinonyx_jubatus)_male_..._(52483493133).jpg",
+    "license": "https://creativecommons.org/licenses/by-sa/2.0/"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Dire Ape",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/dire-ape/giant-ape-dario-jelusic.webp",
+    "artist": "Related Giant Ape illustration by Dario Jelusic · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "b553c277be3ef8ff31e0ef94f64de8bd5deaa0edd6d42cdb165b33a7a5d1f71f",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Giant%20Ape%20and%20Giant%20Bat.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Dire Ape",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/dire-ape/giant-ape-2014.webp",
+    "artist": "Related Giant Ape token · Monster Manual (2014)",
+    "kind": "token",
+    "sha256": "f766135a2004f326b2e51ae2310a5e346982fee692ee0f7da83e88b9e77ebeb3",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/MM/Giant%20Ape.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Dire Badger",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/dire-badger/giant-badger-2024.webp",
+    "artist": "Related Giant Badger illustration · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "5bd1b2eb0a99dcc0dbac7cad250dfa1746981da75c86f6e0f1fc35570af3d0b7",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Giant%20Badger.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Dire Badger",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/dire-badger/kobold-press-badger-giant.webp",
+    "artist": "Related Giant Badger · Kobold Press Foundry token",
+    "kind": "token",
+    "sha256": "453de69d60a341469d7dca20d86b5c7d34303cf7e9dc8d175f1268bba72b8a86",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/badger-giant.webp"
+  }
+]

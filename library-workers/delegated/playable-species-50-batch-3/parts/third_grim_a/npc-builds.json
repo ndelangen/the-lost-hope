@@ -1,0 +1,191 @@
+{
+  "builds": [
+    {
+      "id": "grim-transformed-grudgel-orven-vale",
+      "title": "Grudgel traveling artisan, Fighter 1",
+      "origin": "Original DM Library NPC using 2024 class rules",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "difficulty": "Tier 1 class-built NPC · no assigned CR",
+      "size": "Medium",
+      "type": "Humanoid",
+      "ac": 17,
+      "hp": 12,
+      "hitDice": "1d10+2",
+      "initiative": 2,
+      "speed": "30 ft.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 15,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +5",
+        "Investigation +2",
+        "Perception +3",
+        "Persuasion +1"
+      ],
+      "senses": "Darkvision 60 ft., passive Perception 13",
+      "languages": "Valiki, Dwarvish, Giant",
+      "traits": [
+        "Proficiency +2. Strength save +5 and Constitution save +4. Scale mail and the Defense fighting style give AC 17. Scale mail imposes disadvantage on Stealth checks.",
+        "Artisan background. +2 Strength and +1 Dexterity. Investigation, Persuasion, and smith’s tools proficiency. Crafter adds carpenter’s tools, leatherworker’s tools, and mason’s tools. Its 20 percent mundane purchase discount applies, and finishing a long rest can produce one item on the feat’s Fast Crafting table with matching tools, such as a ladder using carpenter’s tools. That item lasts until the next long rest.",
+        "Artisanal Focus grants glassblower’s tools proficiency. Impromptu Artisan uses a short rest, proficient tools and suitable materials and equipment to create one mundane item worth up to 10 gp. GM determines saleability.",
+        "Battlefield Control adds entry into Orven’s reach as an opportunity attack trigger. Normal limits for reactions and opportunity attacks still apply.",
+        "Powerful Build treats Orven as Large when measuring his load. At Strength 16 he can carry 480 lb. and lift, drag, or push 960 lb. Tireless grants advantage on saves to gain or remove exhaustion.",
+        "Weapon Mastery choices are spear (Sap), handaxe (Vex), and light crossbow (Slow)."
+      ],
+      "actions": [
+        "Spear. Melee or thrown weapon attack +5, reach 5 ft. or range 20/60 ft. Hit 1d6 + 3 piercing, or 1d8 + 3 in two hands in melee. Sap gives the target disadvantage on its next attack before the start of Orven’s next turn.",
+        "Handaxe. Melee or thrown weapon attack +5, reach 5 ft. or range 20/60 ft. Hit 1d6 + 3 slashing. On a damaging hit, Vex gives Orven advantage on his next attack against that target before the end of his next turn.",
+        "Light crossbow. Ranged weapon attack +4, range 80/320 ft. Hit 1d8 + 2 piercing. Slow reduces the target’s speed by 10 ft. until the start of Orven’s next turn on a damaging hit. The crossbow is two-handed and has Loading.",
+        "Centered. Bonus action before the chosen roll. Gain advantage on one attack or ability check before the start of Orven’s next turn. Two uses per long rest.",
+        "Second Wind. Bonus action. Heal 1d10 + 1 HP. Two uses, with one recovered on a short rest and both recovered on a long rest.",
+        "Mending. Magical Savvy cantrip from the wizard list, using Intelligence. Takes 1 minute, touches the target, and repairs one break or tear no larger than 1 ft. in any dimension. Requires two lodestones."
+      ],
+      "tactics": "Orven saves Centered for the first risky tool check or spear attack. Once fighting starts, he holds a lane and keeps his reaction ready for a foe entering spear reach."
+    },
+    {
+      "id": "grim-transformed-accursed-sella-wren",
+      "title": "Accursed relic fence, Rogue 2",
+      "origin": "Original DM Library NPC using 2024 class rules",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "difficulty": "Tier 1 class-built NPC · no assigned CR",
+      "size": "Medium",
+      "type": "Humanoid",
+      "ac": 15,
+      "hp": 17,
+      "hitDice": "2d8+4",
+      "initiative": 5,
+      "speed": "30 ft., climb 30 ft.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 17,
+        "CON": 14,
+        "INT": 14,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Deception +2",
+        "Insight +3",
+        "Investigation +6",
+        "Perception +3",
+        "Sleight of Hand +5",
+        "Stealth +7"
+      ],
+      "senses": "Darkvision 60 ft., passive Perception 13",
+      "languages": "Low Burach, Elvish, Dwarvish, Halfling, Thieves’ Cant",
+      "traits": [
+        "Proficiency +2. Dexterity save +5 and Intelligence save +4. Studded leather gives AC 12 + Dexterity modifier.",
+        "Criminal background. +2 Dexterity and +1 Intelligence. Sleight of Hand, Stealth, thieves’ tools, and Alert. Alert adds +2 to initiative and lets Sella swap initiative with one willing ally in the same combat immediately after rolling if neither is incapacitated.",
+        "Rogue Expertise applies to Investigation and Stealth. Masterful Aptitude gives Expertise with thieves’ tools for a +7 Dexterity check using them. Eager Deceiver grants Deception proficiency.",
+        "Sneak Attack. Once per turn add 1d6 damage to a finesse or ranged weapon hit with advantage. An ally within 5 ft. of the target also qualifies if the ally is not incapacitated and Sella does not have disadvantage.",
+        "Burst of Speed adds 30 ft. to walking speed for the current turn, twice per long rest. Climber gives a climb speed equal to walking speed.",
+        "Lucky. When Sella rolls a natural 1 on a D20 Test, she can reroll and must accept the new roll. Two uses per long rest. This is the heritage trait.",
+        "Weapon Mastery choices are dagger (Nick) and shortbow (Vex)."
+      ],
+      "actions": [
+        "Dagger. Melee or thrown weapon attack +5, reach 5 ft. or range 20/60 ft. Hit 1d4 + 3 piercing. With a second dagger, Nick moves the Light property’s extra attack into the Attack action once per turn. The extra attack deals 1d4 damage.",
+        "Shortbow. Ranged weapon attack +5, range 80/320 ft. Hit 1d6 + 3 piercing. On a damaging hit, Vex gives Sella advantage on her next attack against that target before the end of her next turn.",
+        "Centered. Bonus action before the chosen roll. Gain advantage on one attack or ability check before the start of Sella’s next turn. Two uses per long rest.",
+        "Cunning Action. Bonus action each turn to Dash, Disengage, or Hide.",
+        "Minor Illusion. Magical Savvy cantrip from the wizard list, Intelligence spell DC 12. As a Magic action, creates a sound or an image of an object within 30 ft. for up to 1 minute. An image fits in a 5-ft. cube and is revealed by physical interaction. A creature can use the Study action to make a DC 12 Intelligence (Investigation) check. If it succeeds, the illusion becomes faint to it. Requires fleece and a somatic component."
+      ],
+      "tactics": "Sella uses Minor Illusion to draw attention away from a relic. If cornered, she uses Centered to set up a first Sneak Attack or spends the bonus action on Disengage and climbs out of reach."
+    },
+    {
+      "id": "grim-transformed-arisen-tamsin-reed",
+      "title": "Arisen workshop escort, Fighter 2",
+      "origin": "Original DM Library NPC using 2024 class rules",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "difficulty": "Tier 1 class-built NPC · no assigned CR",
+      "size": "Medium",
+      "type": "Construct",
+      "ac": 18,
+      "hp": 22,
+      "hitDice": "2d10+4",
+      "initiative": 3,
+      "speed": "30 ft.",
+      "abilityScores": {
+        "STR": 17,
+        "DEX": 12,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 14,
+        "CHA": 8
+      },
+      "skills": [
+        "Arcana +2",
+        "Athletics +5",
+        "History +2",
+        "Insight +4",
+        "Perception +4",
+        "Survival +4"
+      ],
+      "senses": "Passive Perception 14",
+      "languages": "Low Burach, Dwarvish, Elvish",
+      "traits": [
+        "Proficiency +2. Strength save +5 and Constitution save +4. Breastplate, shield and the Defense fighting style give AC 18. Toughness contributes 2 HP on top of 20 from Fighter levels and Constitution.",
+        "Guard background. +2 Strength and +1 Wisdom. Athletics, Perception, and dice set proficiency. Alert adds +2 to initiative and lets Tamsin swap initiative with one willing ally in the same combat immediately after rolling if neither is incapacitated.",
+        "Artificial Form makes Tamsin a Construct that can receive healing spells and spend Hit Dice for recovery. Tamsin does without food, drink, sleep, or air and needs eight inactive hours to take a long rest.",
+        "Magical Fortification grants advantage on Wisdom saves against spells and magical effects. Inured to the Elements grants advantage on Constitution saves against extreme heat or cold. Tenacious grants advantage on death saves.",
+        "Embrace the Past and Magical Insight grant History and Arcana proficiency. During a long rest Unnatural Healer can restore severed parts with matching anatomy. When using the optional wound rules, it also reverses grievous wounds.",
+        "Weapon Mastery choices are shortsword (Vex), spear (Sap), and javelin (Slow)."
+      ],
+      "actions": [
+        "Shortsword. Melee weapon attack +5, reach 5 ft. Hit 1d6 + 3 piercing. On a damaging hit, Vex gives Tamsin advantage on the next attack against that target before the end of her next turn.",
+        "Spear. Melee or thrown weapon attack +5, reach 5 ft. or range 20/60 ft. Hit 1d6 + 3 piercing. Sap gives the target disadvantage on its next attack before the start of Tamsin’s next turn.",
+        "Javelin. Melee or thrown weapon attack +5, reach 5 ft. or range 30/120 ft. Hit 1d6 + 3 piercing. Slow reduces speed by 10 ft. until the start of Tamsin’s next turn on a damaging hit.",
+        "Second Wind. Bonus action. Heal 1d10 + 2 HP. Two uses, with one recovered on a short rest and both recovered on a long rest.",
+        "Action Surge. On Tamsin’s turn, take one additional action other than the Magic action. Once per short or long rest.",
+        "Tactical Mind. After a failed ability check, roll 1d10 and add it to the check using one Second Wind use. Keep the use if the adjusted check still fails."
+      ],
+      "tactics": "Tamsin keeps her shield up and saves Action Surge for the moment an ally needs an open exit. If reaching that exit takes a hard Athletics check, she spends a Second Wind use on Tactical Mind."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Grudgel",
+      "size": "Medium",
+      "edition": "Fifth edition compatible",
+      "speciesPublication": "Grim Hollow: Player’s Guide",
+      "name": "Orven Vale",
+      "build": "grim-transformed-grudgel-orven-vale",
+      "role": "Traveling artisan",
+      "motive": "Raise enough to replace a kiln that a flood pulled apart.",
+      "hook": "Orven can fix a jammed ferry winch. His only price is escort for a crate of brittle stryllum glass."
+    },
+    {
+      "species": "Accursed",
+      "size": "Medium",
+      "edition": "Fifth edition compatible",
+      "speciesPublication": "Grim Hollow: Player’s Guide",
+      "name": "Sella Wren",
+      "build": "grim-transformed-accursed-sella-wren",
+      "role": "Relic fence",
+      "motive": "Find out whether the maker of a ceramic seal can explain the marks on her hands.",
+      "hook": "Sella offers to return a stolen seal if the party comes with her to identify the buyer."
+    },
+    {
+      "species": "Arisen",
+      "size": "Medium",
+      "edition": "Fifth edition compatible",
+      "speciesPublication": "Grim Hollow: Player’s Guide",
+      "name": "Tamsin Reed",
+      "build": "grim-transformed-arisen-tamsin-reed",
+      "role": "Workshop escort",
+      "motive": "Keep the workshop open after its owner left town without warning.",
+      "hook": "Tamsin needs a witness when she escorts an apprentice out of the workshop with the last working set of plans."
+    }
+  ]
+}

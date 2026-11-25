@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Mycelian",
+    "file": "portraits/mycelian.png",
+    "sha256": "db371e2949835ada204ed79d756926633da52821903aa18c79f4fb7ab2fdbc1b",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Ombrask",
+    "file": "portraits/ombrask.png",
+    "sha256": "6a9be202ce1efd6365818d24764d8dd51648bcb61c235284db1e85da191323d4",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Oozekin",
+    "file": "portraits/oozekin.png",
+    "sha256": "ff4cda766f9b6101a65cc9ace093f870fc77d0e9a4357168019d4f7e5f584dc9",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Opteran",
+    "file": "portraits/opteran.png",
+    "sha256": "16daf33bdafe6f0f0534ae268a219016bed16fee240f0d7e6cd73c6a3014e5ef",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Rakin",
+    "file": "portraits/rakin.png",
+    "sha256": "f8eca9cdfdfdb132e41005893e3b4c4316feed5f8caa7dc1484f6c09e40f4e08",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  }
+]

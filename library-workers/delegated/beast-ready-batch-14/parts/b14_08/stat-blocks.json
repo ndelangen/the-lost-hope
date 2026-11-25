@@ -1,0 +1,264 @@
+[
+  {
+    "name": "Elk",
+    "publication": "DDAL04-01 - The Suits of the Mists",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 10,
+    "hp": 13,
+    "hitDice": "2d10 + 2",
+    "speed": "50 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Passive Perception 10. No languages or special senses.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A gold-brown elk with a dark mane, branching antlers, and a pale rump.",
+    "habitats": [
+      "Forest"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast D&D Adventurers League, Shawn Merwin, Suits of the Mists (DDAL4-01, ©2016), Mission 4, Glyphs, Appendix: Monster/NPC Statistics, printed and p. 36. https://www.dmsguild.com/product/177576/DDAL401-Suits-of-the-Mists-5e",
+      "Traits": "Charge. If the elk moves at least 20 ft. straight toward a target and then hits it with Ram on the same turn, deal an additional 7 (2d6) damage. A creature hit this way must succeed on a DC 13 Strength save or fall prone.",
+      "Actions": "Ram. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 6 (1d6 + 3) bludgeoning damage.\n\nHooves. Melee weapon attack, +5 to hit, reach 5 ft., one prone target. A hit deals 8 (2d4 + 3) bludgeoning damage.",
+      "Encounter notes": "Five golden elk drink from an icy stream in the Quivering Forest. One is dying and can be separated from the herd."
+    }
+  },
+  {
+    "name": "Fire Stirge",
+    "publication": "DDAL04-01 - The Suits of the Mists",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 14,
+    "hp": 2,
+    "hitDice": "1d4",
+    "speed": "10 ft., Fly 40 ft.",
+    "cr": "1/8",
+    "xp": 25,
+    "abilities": {
+      "Str": {
+        "score": 4,
+        "modifier": -3
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "AC includes natural armor. Cold damage vulnerability. Fire damage resistance. Darkvision 60 ft. Passive Perception 9. No languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A reddish brown flying creature with leathery wings, jointed legs, and a long pointed proboscis.",
+    "habitats": [
+      "Cave",
+      "Underground"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast D&D Adventurers League, Shawn Merwin, Suits of the Mists (DDAL4-01, ©2016), Mission 1, Stars, Appendix: Monster/NPC Statistics, printed and p. 14. https://www.dmsguild.com/product/177576/DDAL401-Suits-of-the-Mists-5e",
+      "Actions": "Blood Drain. Melee weapon attack, +5 to hit, reach 5 ft., one creature. A hit deals 5 (1d4 + 3) piercing damage and the stirge attaches to the target. While attached it does not attack. At the start of each of the stirge’s turns the target loses 5 (1d4 + 3) HP to blood loss. The stirge can detach by spending 5 ft. of its movement. It does so after draining 10 HP of blood from the target or if the target dies. Any creature, including the target, can take an action to detach it.\n\nFlare (Recharge 6). The stirge exhales fire into a 5-foot square adjacent to itself. A creature in the square makes a DC 10 Dexterity save, taking 5 (2d4) damage on a failure and no damage on a success.",
+      "Encounter notes": "Four fire stirges initially harass Hricu. Four more join the fight in the third round."
+    }
+  },
+  {
+    "name": "Giant Bat",
+    "publication": "DDAL04-01 - The Suits of the Mists",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 13,
+    "hp": 22,
+    "hitDice": "4d10",
+    "speed": "10 ft., Fly 60 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Blindsight 60 ft. Passive Perception 11. No languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A heavy brown bat with large ears and broad leathery wings extended in flight.",
+    "habitats": [
+      "Forest",
+      "Urban"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast D&D Adventurers League, Shawn Merwin, Suits of the Mists (DDAL4-01, ©2016), Mission 5, Mists, Appendix: Monster/NPC Statistics, printed and p. 42. https://www.dmsguild.com/product/177576/DDAL401-Suits-of-the-Mists-5e",
+      "Traits": "Echolocation. The bat loses use of its blindsight while deafened.\n\nKeen Hearing. The bat has advantage on Wisdom (Perception) checks that rely on hearing.",
+      "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one creature. A hit deals 5 (1d6 + 2) piercing damage.",
+      "Encounter notes": "Four giant bats emerge from Barovia. They use the fog to conceal their movement as they swoop past the children and attack the characters."
+    }
+  },
+  {
+    "name": "Ice Cat",
+    "publication": "DDAL04-01 - The Suits of the Mists",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 12,
+    "hp": 13,
+    "hitDice": "3d8",
+    "speed": "50 ft., Climb 40 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Perception +4. Stealth +6. Fire damage vulnerability. Cold damage resistance. Passive Perception 14. No languages or special senses.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A pale spotted feline with a thick coat, tufted ears, and a thick ringed tail.",
+    "habitats": [
+      "Arctic",
+      "Hills"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast D&D Adventurers League, Shawn Merwin, Suits of the Mists (DDAL4-01, ©2016), Mission 1, Stars, Appendix: Monster/NPC Statistics, printed and p. 14. https://www.dmsguild.com/product/177576/DDAL401-Suits-of-the-Mists-5e",
+      "Traits": "Ice Walk. The cat can cross and climb ice without making an ability check. Ice or snow difficult terrain costs no extra movement.\n\nKeen Smell. The cat has advantage on Wisdom (Perception) checks that rely on smell.\n\nPounce. If the cat moves at least 20 ft. straight toward a creature and hits it with Claw on the same turn, the creature must succeed on a DC 12 Strength save or fall prone. If the target is prone, the cat can make one Bite against it as a bonus action.",
+      "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 5 (1d6 + 2) piercing damage.\n\nClaw. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 4 (1d4 + 2) slashing damage.",
+      "Encounter notes": "Four cats rest among boulders at the top of an icy slope. They can pursue prey onto the ice and prefer to avoid the flame thistles."
+    }
+  },
+  {
+    "name": "Mastiff",
+    "publication": "DDAL04-01 - The Suits of the Mists",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 12,
+    "hp": 5,
+    "hitDice": "1d8 + 1",
+    "speed": "40 ft.",
+    "cr": "1/8",
+    "xp": 25,
+    "abilities": {
+      "Str": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Perception +3. Passive Perception 13. No languages or special senses.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A tall, muscular tawny dog with a short coat, heavy muzzle, and dark facial mask.",
+    "habitats": [
+      "Forest"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast D&D Adventurers League, Shawn Merwin, Suits of the Mists (DDAL4-01, ©2016), Mission 4, Glyphs, Appendix: Monster/NPC Statistics, printed and p. 35. https://www.dmsguild.com/product/177576/DDAL401-Suits-of-the-Mists-5e",
+      "Traits": "Keen Hearing and Smell. The mastiff has advantage on Wisdom (Perception) checks that rely on hearing or smell.",
+      "Actions": "Bite. Melee weapon attack, +3 to hit, reach 5 ft., one target. A hit deals 4 (1d6 + 1) piercing damage. A creature hit must succeed on a DC 11 Strength save or fall prone.",
+      "Encounter notes": "Four Cooshee use this block during the Mad Elves encounter. The adventure describes them as large elven hounds with greenish coats mottled brown. Its mission rewards table lists 50 XP per mastiff. The printed creature remains CR 1/8 (25 XP)."
+    }
+  }
+]

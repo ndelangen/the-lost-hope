@@ -1,0 +1,407 @@
+[
+  {
+    "name": "Hythonia",
+    "statBlock": {
+      "name": "Hythonia",
+      "publication": "Mythic Odysseys of Theros",
+      "edition": "2014 fifth edition",
+      "printedPage": 252,
+      "classification": "Large monstrosity, lawful evil",
+      "ac": 17,
+      "hp": 199,
+      "hitDice": "21d10 + 84",
+      "speed": "40 ft., climb 40 ft., swim 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 21
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 19
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "17",
+      "xp": 18000,
+      "passivePerception": 19,
+      "description": "A medusa who rules the island of Skathos from a throne made of petrified devotees. She trades divine secrets for someone to add to it.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Deception": 10,
+        "Insight": 9,
+        "Perception": 9,
+        "Stealth": 9
+      },
+      "savingThrows": {
+        "Str": 11,
+        "Con": 10,
+        "Cha": 10
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Common.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Charmed, frightened, poisoned.",
+        "Traits": "Legendary Resistance (3/Day). Hythonia can turn a failed saving throw into a success.\nPetrifying Gaze. When a creature starts its turn within 30 ft. and can see Hythonia’s eyes, she can force a DC 18 Constitution save if she can see the creature and is not incapacitated. Failure by 5 or more petrifies the creature immediately. A lesser failure restrains it as it turns to stone. It repeats the save at the end of its next turn. Success ends the effect and failure petrifies it. Greater Restoration or other magic can end the petrification. A creature that is not surprised can avert its eyes at the start of its turn to avoid the save. It cannot see Hythonia until its next turn starts and must make the save immediately if it looks before then. Seeing her reflection on a polished surface within 30 ft. in bright light subjects Hythonia to her own gaze.\nShed Skin (Mythic Trait, Recharges after a Short or Long Rest). At 0 HP, Hythonia sheds her skin, regains 199 HP, and moves up to her speed without provoking opportunity attacks. She stays conscious and alive.",
+        "Innate Spellcasting": "Charisma sets spell save DC 18. Hythonia casts Animate Objects once per day with no material components.",
+        "Actions": "Multiattack. Make one Claws attack, one Constrict attack, and one Snaky Hair attack.\nClaws. Melee weapon attack, +11 to hit, reach 5 ft., one target. Hit: 9 (1d8 + 5) slashing damage plus 4 (1d8) poison damage.\nConstrict. Melee weapon attack, +11 to hit, reach 15 ft., one Large or smaller creature. Hit: 16 (2d10 + 5) bludgeoning damage and grappled (escape DC 19). The target is restrained until the grapple ends and takes 15 (3d6 + 5) bludgeoning damage at the start of each of its turns. Hythonia cannot constrict a second target while this grapple lasts.\nSnaky Hair. Melee weapon attack, +11 to hit, reach 10 ft., one target. Hit: 31 (4d12 + 5) bludgeoning damage. Hythonia may also pull a Large or smaller creature up to 5 ft. closer.",
+        "Legendary actions": "Hythonia has 3 legendary actions per round. She can use one option at the end of another creature’s turn and regains spent actions at the start of her turn.\nMove (1 Action). Move up to her speed without provoking opportunity attacks.\nSnaky Hair (1 Action). Make one Snaky Hair attack.\nPetrified Earth (2 Actions). Stone spikes make the ground in a 30-ft. radius around Hythonia difficult terrain until the start of her next turn. Other creatures take 9 (2d8) piercing damage for every 5 ft. they move across the spikes.",
+        "Mythic actions": "Hythonia can spend legendary actions on these options for 1 hour after using Shed Skin. Award 36,000 XP in total if the party defeats her after she uses Shed Skin.\nNumbing Claws (1 Action). Make two Claws attacks. If both hit the same creature, it takes an additional 7 (2d6) poison damage and must make a DC 18 Constitution save. On a failure it is paralyzed until the start of Hythonia’s next turn.\nLook at Me (3 Actions). Force one sighted creature Hythonia has grappled to look into her eyes and face her Petrifying Gaze.",
+        "Lair actions": "On initiative count 20, after any creature tied at 20, Hythonia can choose one effect. She cannot choose the same effect in consecutive rounds.\nAnimated Statues. Briefly animate creatures petrified by her gaze. Each statue attacks one creature within 5 ft. at +11 to hit for 10 (3d6) bludgeoning damage. A Medium or smaller creature that takes this damage is also grappled (escape DC 15).\nSpectral Snakes. Choose a point Hythonia can see within 150 ft. Each creature within 20 ft. of it makes a DC 19 Constitution save. On a failure it takes 5 (2d4) piercing damage and is poisoned until the end of its next turn. While poisoned this way, it has disadvantage on Intelligence checks and saves and acts as if affected by Confusion.",
+        "Regional effects": "One or more effects can manifest around the lair.\nSnakes are abundant in the region.\nTrees within 1 mile are petrified wood. A plant that remains within 500 ft. of the lair for a day turns to stone.\nSmall bodies of water within 1 mile are poisonous. A creature that drinks the water must make a DC 19 Constitution save or be poisoned for 8 hours. It can repeat the save at the end of each hour to end the poison early.",
+        "Printed source": "Mythic Odysseys of Theros, p. 252."
+      }
+    }
+  },
+  {
+    "name": "Ironscale Hydra",
+    "statBlock": {
+      "name": "Ironscale Hydra",
+      "publication": "Mythic Odysseys of Theros",
+      "edition": "2014 fifth edition",
+      "printedPage": 231,
+      "classification": "Gargantuan monstrosity, unaligned",
+      "ac": 17,
+      "hp": 181,
+      "hitDice": "11d20 + 66",
+      "speed": "40 ft., swim 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 22
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 22
+        },
+        "Int": {
+          "score": 2
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "12",
+      "xp": 8400,
+      "passivePerception": 18,
+      "description": "A huge, acid-blooded hydra that stalks lakes and bog caverns in the wilds of Theros.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 8
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "None.",
+        "Damage immunities": "Acid.",
+        "Traits": "Acidic Blood. Whenever the hydra takes piercing or slashing damage, every creature within 5 ft. takes 9 (2d8) acid damage.\nHold Breath. The hydra can hold its breath for 1 hour.\nMultiple Heads. It begins with five heads. While it has more than one, it has advantage on saves against being blinded, charmed, deafened, frightened, stunned, or knocked unconscious. If it takes at least 35 damage in a single turn, one head dies. The hydra dies if it loses every head. At the end of its turn, it grows two heads for each head lost since its last turn and regains 10 HP per head grown. Any fire damage since its last turn prevents regrowth that turn.\nReactive Heads. Each head beyond the first grants an extra reaction usable only for an opportunity attack.\nWakeful. At least one head stays awake while the hydra sleeps.",
+        "Actions": "Multiattack. Make one Bite attack for each head.\nBite. Melee weapon attack, +10 to hit, reach 15 ft., one target. Hit: 17 (2d10 + 6) piercing damage.",
+        "Printed source": "Mythic Odysseys of Theros, p. 231."
+      }
+    }
+  },
+  {
+    "name": "Lampad",
+    "statBlock": {
+      "name": "Lampad",
+      "publication": "Mythic Odysseys of Theros",
+      "edition": "2014 fifth edition",
+      "printedPage": 235,
+      "classification": "Medium fey, neutral evil",
+      "ac": 15,
+      "hp": 52,
+      "hitDice": "8d8 + 16",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 11,
+      "description": "A nymph of shadowed tombs and Underworld crossings. Lampads help Athreos guide the dead and retrieve souls that try to return to the living.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Deception": 6,
+        "Intimidation": 6
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Languages": "Common, Sylvan.",
+        "Damage resistances": "Necrotic.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Charmed, frightened, poisoned.",
+        "Traits": "Corpse Stride. Once on its turn, the lampad can spend 10 ft. of movement to enter a corpse within reach and emerge in an unoccupied space within 5 ft. of a second corpse. The two corpses must be within 60 ft. of each other and both must be Medium or larger.\nMagic Resistance. The lampad has advantage on saving throws against spells and other magical effects.\nImmortal Nature. The nymph needs no food, drink, or sleep.",
+        "Innate Spellcasting": "Charisma grants +6 to spell attacks. These spells require no material components.\nAt will. Chill Touch, Gentle Repose.",
+        "Actions": "Multiattack. Make two attacks using Necrotic Touch or Chill Touch.\nNecrotic Touch. Melee spell attack, +6 to hit, reach 5 ft., one target. Hit: 9 (1d10 + 4) necrotic damage.\nChill Touch (Cantrip). Ranged spell attack, +6 to hit, range 120 ft., one creature. Hit: 9 (2d8) necrotic damage. The target cannot regain HP until the start of the lampad’s next turn. If it is undead, it has disadvantage on attacks against the lampad until the end of the lampad’s next turn.",
+        "Printed source": "Mythic Odysseys of Theros, p. 235."
+      }
+    }
+  },
+  {
+    "name": "Leonin Iconoclast",
+    "statBlock": {
+      "name": "Leonin Iconoclast",
+      "publication": "Mythic Odysseys of Theros",
+      "edition": "2014 fifth edition",
+      "printedPage": 232,
+      "classification": "Medium humanoid (leonin), any alignment",
+      "ac": 17,
+      "hp": 67,
+      "hitDice": "9d8 + 27",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 17
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 13,
+      "description": "A hunter from Oreskos who protects leonin prides by pursuing servants of the gods and creatures born of Nyx.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Arcana": 4,
+        "Insight": 6,
+        "Intimidation": 3,
+        "Stealth": 7,
+        "Survival": 6
+      },
+      "savingThrows": {
+        "Dex": 7,
+        "Wis": 6
+      },
+      "sections": {
+        "Armor": "Unarmored defense.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Leonin.",
+        "Traits": "Evasion. On a Dexterity save that normally halves damage on success, take no damage on success and half damage on failure. Evasion does not work while the iconoclast is incapacitated.\nUnarmored Defense. Add the iconoclast’s Wisdom modifier to AC while it wears no armor and carries no shield.",
+        "Innate Spellcasting": "Wisdom sets spell save DC 14. These spells require no material components.\n1/day each. Banishment, Detect Evil and Good.",
+        "Actions": "Multiattack. Make three weapon attacks.\nClaws. Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage plus 7 (2d6) force damage.\nDart. Ranged weapon attack, +7 to hit, range 20/60 ft., one target. Hit: 6 (1d4 + 4) piercing damage.",
+        "Printed source": "Mythic Odysseys of Theros, p. 232."
+      }
+    }
+  },
+  {
+    "name": "Medusa",
+    "statBlock": {
+      "name": "Medusa",
+      "publication": "Mythic Odysseys of Theros",
+      "edition": "2014 fifth edition",
+      "printedPage": 206,
+      "classification": "Medium monstrosity, lawful evil",
+      "ac": 15,
+      "hp": 127,
+      "hitDice": "17d8 + 51",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "6",
+      "xp": 2300,
+      "passivePerception": 14,
+      "description": "On Theros, a medusa has serpentine coils in place of legs. These servants of Pharika guard knowledge of medicine and immortality, sometimes offering it in exchange for a dangerous service.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Deception": 5,
+        "Insight": 4,
+        "Perception": 4,
+        "Stealth": 5
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common.",
+        "Traits": "Petrifying Gaze. When a creature starts its turn within 30 ft. and can see the medusa’s eyes, it can force a DC 14 Constitution save if it can see the creature and is not incapacitated. Failure by 5 or more petrifies the creature immediately. A lesser failure restrains it as it turns to stone. It repeats the save at the end of its next turn. Success ends the effect and failure petrifies it. Greater Restoration or other magic can end the petrification. A creature that is not surprised can avert its eyes at the start of its turn to avoid the save. It cannot see the medusa until its next turn starts and must make the save immediately if it looks before then. Seeing its reflection on a polished surface within 30 ft. in bright light subjects the medusa to its own gaze.",
+        "Actions": "Multiattack. Make one Snake Hair attack, one Constrict attack, and one Shortsword attack, or make two Longbow attacks.\nSnake Hair. Melee weapon attack, +5 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) piercing damage plus 14 (4d6) poison damage.\nConstrict. Melee weapon attack, +3 to hit, reach 10 ft., one target. Hit: 7 (2d6) bludgeoning damage. A Large or smaller creature is also grappled (escape DC 11) and restrained until the grapple ends. The medusa cannot constrict another target while this grapple lasts.\nShortsword. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.\nLongbow. Ranged weapon attack, +5 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage plus 7 (2d6) poison damage.",
+        "Printed source": "Mythic Odysseys of Theros, p. 206. Use the 2014 Monster Manual medusa (p. 214) with the Theros Multiattack and Constrict."
+      }
+    }
+  },
+  {
+    "name": "Meletian Hoplite",
+    "statBlock": {
+      "name": "Meletian Hoplite",
+      "publication": "Mythic Odysseys of Theros",
+      "edition": "2014 fifth edition",
+      "printedPage": 229,
+      "classification": "Medium humanoid, any alignment",
+      "ac": 18,
+      "hp": 49,
+      "hitDice": "9d8 + 9",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 13,
+      "description": "A soldier of Meletis who combines spear and shield with wizard magic. The Reverent Army uses this training in flexible formations.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Arcana": 5,
+        "History": 5,
+        "Perception": 3
+      },
+      "savingThrows": {
+        "Dex": 4,
+        "Int": 5
+      },
+      "sections": {
+        "Armor": "Breastplate and shield.",
+        "Languages": "Common.",
+        "Spellcasting": "A 3rd-level Intelligence spellcaster with spell save DC 13 and +5 to spell attacks. Prepared wizard spells:\nCantrips (at will). Mage Hand, Minor Illusion, Ray of Frost.\n1st level (4 slots). Color Spray, Expeditious Retreat, Sleep.\n2nd level (2 slots). Blur, Cloud of Daggers, Invisibility.",
+        "Actions": "Multiattack. Make three weapon attacks. The hoplite may replace one with Ray of Frost.\nSpear. Melee or ranged weapon attack, +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 6 (1d6 + 3) piercing damage, or 7 (1d8 + 3) piercing damage for a two-handed melee attack.\nShield Bash. Melee weapon attack, +5 to hit, reach 5 ft., one creature. Hit: 5 (1d4 + 3) bludgeoning damage. A Medium or smaller target must make a DC 13 Strength save or fall prone.\nRay of Frost (Cantrip). Ranged spell attack, +5 to hit, range 60 ft., one creature. Hit: 4 (1d8) cold damage, and the target’s speed drops by 10 ft. until the start of the hoplite’s next turn.",
+        "Printed source": "Mythic Odysseys of Theros, p. 229. The printed Spear action lists only the melee reach. Its ranged attack uses the standard spear’s 20/60-ft. thrown range."
+      }
+    }
+  },
+  {
+    "name": "Naiad",
+    "statBlock": {
+      "name": "Naiad",
+      "publication": "Mythic Odysseys of Theros",
+      "edition": "2014 fifth edition",
+      "printedPage": 236,
+      "classification": "Medium fey, chaotic neutral",
+      "ac": 15,
+      "hp": 31,
+      "hitDice": "7d8",
+      "speed": "30 ft., swim 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 10,
+      "description": "A guardian nymph bound to a stretch of water. Naiads collect curiosities from wrecks and are said to know hidden routes through Theros’s waters.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Persuasion": 6,
+        "Sleight Of Hand": 5
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Languages": "Common, Sylvan.",
+        "Damage resistances": "Psychic.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Charmed, frightened, poisoned.",
+        "Traits": "Amphibious. The naiad breathes air and water.\nInvisible in Water. While fully submerged, the naiad is invisible.\nMagic Resistance. The naiad has advantage on saving throws against spells and other magical effects.\nImmortal Nature. The nymph needs no food, drink, or sleep.",
+        "Innate Spellcasting": "Charisma sets spell save DC 14. These spells require no material components.\nAt will. Minor Illusion.\n3/day. Phantasmal Force.\n1/day each. Fly, Hypnotic Pattern.",
+        "Actions": "Multiattack. Make two Psychic Touch attacks.\nPsychic Touch. Melee spell attack, +6 to hit, reach 5 ft., one target. Hit: 9 (1d10 + 4) psychic damage.",
+        "Printed source": "Mythic Odysseys of Theros, p. 236."
+      }
+    }
+  }
+]

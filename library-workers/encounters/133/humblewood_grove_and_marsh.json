@@ -1,0 +1,461 @@
+[
+  {
+    "name": "Ashsnake",
+    "decision": "separate",
+    "pages": "Appendix A, Bestiary, p. 177",
+    "notes": "Independent stat block from the campaign book.",
+    "statBlock": {
+      "name": "Ashsnake",
+      "publication": "Humblewood Campaign Setting",
+      "edition": "2014 fifth edition compatible",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "classification": "Huge Monstrosity, unaligned",
+      "ac": 14,
+      "hp": 67,
+      "hitDice": "7d12 + 21",
+      "speed": "40 ft., burrow 30 ft.",
+      "cr": "4",
+      "xp": 1100,
+      "proficiencyBonus": 2,
+      "abilities": {
+        "Str": {
+          "score": 16,
+          "modifier": 3
+        },
+        "Dex": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Con": {
+          "score": 16,
+          "modifier": 3
+        },
+        "Int": {
+          "score": 4,
+          "modifier": -3
+        },
+        "Wis": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Cha": {
+          "score": 4,
+          "modifier": -3
+        }
+      },
+      "otherStatistics": "Natural armor. AC 18 under ash. Vulnerable to cold and resistant to fire. Blindsight 30 ft. (blind beyond this radius), tremorsense 60 ft., passive Perception 11. Understands Ignan without speaking it.",
+      "appearance": "A giant serpent with charcoal scales and heat glowing through its empty eye sockets.",
+      "sections": {
+        "Role": "Ambusher",
+        "Traits": "Ash Cover. While burrowing through ash, the ashsnake has advantage on Dexterity (Stealth) checks and gains +4 AC.\nEruption. When it emerges from a burrow, any creature within 5 ft. that is at least one size smaller must succeed on a DC 14 Dexterity save or fall Prone.",
+        "Actions": "Multiattack. Make one Bite and either one Constrict or one Crush.\nBite. Melee weapon attack +5, reach 10 ft., one target. Hit for 8 (1d10 + 3) piercing damage.\nConstrict. Melee weapon attack +5, reach 10 ft., one target. Hit for 11 (2d8 + 3) bludgeoning damage and grapple the target (escape DC 14). While Grappled this way, the target is Restrained, and the ashsnake cannot use Constrict or Crush on another target. It can release the target at any time during its turn.\nCrush. Deal 11 (2d8 + 3) bludgeoning damage to the target the ashsnake is grappling.\nAshen Breath (Recharge 5–6). Each creature in a 15-ft. cone makes a DC 14 Dexterity save. It takes 11 (2d10) fire damage on a failure or half as much on a success.",
+        "Printed source": "Appendix A, Bestiary, p. 177"
+      }
+    }
+  },
+  {
+    "name": "Aspect of Fire",
+    "decision": "separate",
+    "pages": "Appendix A, Bestiary, p. 179",
+    "notes": "Independent v1.04 profile. Magma Barrage’s self-damage clause is flagged in the rules notes.",
+    "statBlock": {
+      "name": "Aspect of Fire",
+      "publication": "Humblewood Campaign Setting",
+      "edition": "2014 fifth edition compatible",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "classification": "Gargantuan Elemental, unaligned",
+      "ac": 15,
+      "hp": 174,
+      "hitDice": "12d20 + 48",
+      "speed": "40 ft.",
+      "cr": "12",
+      "xp": 8400,
+      "proficiencyBonus": 4,
+      "abilities": {
+        "Str": {
+          "score": 21,
+          "modifier": 5
+        },
+        "Dex": {
+          "score": 13,
+          "modifier": 1
+        },
+        "Con": {
+          "score": 18,
+          "modifier": 4
+        },
+        "Int": {
+          "score": 6,
+          "modifier": -2
+        },
+        "Wis": {
+          "score": 15,
+          "modifier": 2
+        },
+        "Cha": {
+          "score": 14,
+          "modifier": 2
+        }
+      },
+      "otherStatistics": "Natural armor. Wisdom saves +6. Resistant to bludgeoning, piercing, and slashing damage from nonmagical weapons. Immune to fire and poison damage and to Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Restrained, and Unconscious. Darkvision 120 ft., passive Perception 12. Speaks Ignan.",
+      "appearance": "A mountain-sized elemental body of molten rock and open flame.",
+      "sections": {
+        "Role": "Solo",
+        "Traits": "Legendary Resistance (3/day). On a failed save, the aspect can choose to succeed.\nMolten Skin. A creature takes 11 (2d10) fire damage if it touches the aspect, attacks the aspect in melee from within 5 ft., or ends its turn within 5 ft. Flammable objects within 5 ft. ignite.\nNatural Light. Bright light extends 60 ft. from the aspect and dim light extends another 60 ft.\nCooling. Taking at least 50 cold damage in one round reduces the aspect’s speed to 0 until the end of its next turn.\nFuel for the Fire. Plant life does not slow its movement as difficult terrain. If it starts a turn occupying plants that provide cover, it burns away the plants in its occupied spaces and regains 1d4 HP per 5-ft. square consumed. Regaining at least 17 HP this way recharges Magma Throw.",
+        "Actions": "Multiattack. Make two Molten Fist attacks.\nMolten Fist. Melee weapon attack +9, reach 15 ft., one target. Hit for 16 (2d10 + 5) fire damage.\nStomp. Melee weapon attack +9, reach 5 ft., one target. Hit for 20 (3d10 + 5) fire damage. The target falls Prone on a failed DC 17 Constitution save.\nMagma Throw (Recharge 5–6). Choose a point within 60 ft. Each creature within 15 ft. of that point makes a DC 17 Dexterity save, taking 22 (4d10) fire damage on a failure or half as much on a success.",
+        "Legendary Actions": "The aspect has three legendary actions and recovers spent actions at the start of its turn. It can use one option at a time at the end of another creature’s turn.\nDetect. Make a Wisdom (Perception) check.\nMolten Fist. Make one Molten Fist attack.\nMagma Barrage (costs 2 actions). Use Magma Throw. If Magma Throw has yet to recharge, the aspect can take 17 cold damage to use it anyway.",
+        "Printed source": "Appendix A, Bestiary, p. 179"
+      },
+      "ruleNotes": [
+        "Magma Barrage’s v1.04 wording is ambiguous. For play, treat the 17 cold damage as the cost of using Magma Throw when it has yet to recharge."
+      ]
+    }
+  },
+  {
+    "name": "Caustic Slime",
+    "decision": "separate",
+    "pages": "Appendix A, Bestiary, p. 186",
+    "notes": "Independent stat block from the campaign book.",
+    "statBlock": {
+      "name": "Caustic Slime",
+      "publication": "Humblewood Campaign Setting",
+      "edition": "2014 fifth edition compatible",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "classification": "Medium Ooze, unaligned",
+      "ac": 8,
+      "hp": 22,
+      "hitDice": "3d8 + 9",
+      "speed": "20 ft., climb 20 ft.",
+      "cr": "1/4",
+      "xp": 50,
+      "proficiencyBonus": 2,
+      "abilities": {
+        "Str": {
+          "score": 15,
+          "modifier": 2
+        },
+        "Dex": {
+          "score": 6,
+          "modifier": -2
+        },
+        "Con": {
+          "score": 16,
+          "modifier": 3
+        },
+        "Int": {
+          "score": 1,
+          "modifier": -5
+        },
+        "Wis": {
+          "score": 6,
+          "modifier": -2
+        },
+        "Cha": {
+          "score": 1,
+          "modifier": -5
+        }
+      },
+      "otherStatistics": "Immune to acid damage. Immune to Blinded, Charmed, Deafened, Exhaustion, Frightened, and Prone. Blindsight 60 ft. (blind beyond this radius), passive Perception 8. No languages.",
+      "appearance": "A pale green ooze with partly dissolved remains visible inside.",
+      "sections": {
+        "Role": "Contact hazard",
+        "Traits": "Amorphous. Move through a gap as narrow as 1 inch without squeezing.\nSpider Climb. Climb difficult surfaces, including walls and ceilings, without a check.\nCaustic. A creature that touches the slime or hits it in melee from within 5 ft. takes 2 (1d4) acid damage on a failed DC 12 Dexterity save.",
+        "Actions": "Pseudopod. Melee weapon attack +4, reach 5 ft., one target. Hit for 5 (1d6 + 2) acid damage.",
+        "Reactions": "Split. If a hit deals slashing damage while the slime is Medium or larger and has at least 10 HP, it divides into two slimes. Each is one size smaller and has half the original’s HP, rounded down.",
+        "Printed source": "Appendix A, Bestiary, p. 186"
+      }
+    }
+  },
+  {
+    "name": "Emberbat",
+    "decision": "separate",
+    "pages": "Appendix A, Bestiary, p. 182",
+    "notes": "Independent stat block from the campaign book.",
+    "statBlock": {
+      "name": "Emberbat",
+      "publication": "Humblewood Campaign Setting",
+      "edition": "2014 fifth edition compatible",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "classification": "Tiny Beast, unaligned",
+      "ac": 12,
+      "hp": 2,
+      "hitDice": "1d4",
+      "speed": "5 ft., fly 30 ft.",
+      "cr": "0",
+      "xp": 10,
+      "proficiencyBonus": 2,
+      "abilities": {
+        "Str": {
+          "score": 2,
+          "modifier": -4
+        },
+        "Dex": {
+          "score": 15,
+          "modifier": 2
+        },
+        "Con": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Int": {
+          "score": 2,
+          "modifier": -4
+        },
+        "Wis": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Cha": {
+          "score": 5,
+          "modifier": -3
+        }
+      },
+      "otherStatistics": "Blindsight 60 ft., passive Perception 11. No languages.",
+      "appearance": "A tiny bat with ash-colored fur and a flame at the tip of its nose.",
+      "sections": {
+        "Role": "Flying scout",
+        "Traits": "Echolocation. Deafened prevents the emberbat from using blindsight.\nKeen Hearing. It has advantage on Wisdom (Perception) checks that depend on hearing.\nEmber Flame. It can light its nose at will and end the flame at any time. The flame sheds bright light for 5 ft. and dim light for 5 ft. farther. The flame adds the fire damage listed in Bite.",
+        "Actions": "Bite. Melee weapon attack +0, reach 5 ft., one target. Hit for 1 piercing damage plus 1 fire damage while its flame is lit.",
+        "Printed source": "Appendix A, Bestiary, p. 182"
+      },
+      "relatedCreatures": [
+        {
+          "name": "Swarm of Emberbats",
+          "kind": "beast"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Shifting Slime",
+    "decision": "separate",
+    "pages": "Appendix A, Bestiary, p. 187",
+    "notes": "Independent stat block from the campaign book.",
+    "statBlock": {
+      "name": "Shifting Slime",
+      "publication": "Humblewood Campaign Setting",
+      "edition": "2014 fifth edition compatible",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "classification": "Large Ooze, unaligned",
+      "ac": 9,
+      "hp": 31,
+      "hitDice": "3d10 + 15",
+      "speed": "20 ft., climb 20 ft.",
+      "cr": "1/2",
+      "xp": 100,
+      "proficiencyBonus": 2,
+      "abilities": {
+        "Str": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Dex": {
+          "score": 8,
+          "modifier": -1
+        },
+        "Con": {
+          "score": 20,
+          "modifier": 5
+        },
+        "Int": {
+          "score": 1,
+          "modifier": -5
+        },
+        "Wis": {
+          "score": 6,
+          "modifier": -2
+        },
+        "Cha": {
+          "score": 1,
+          "modifier": -5
+        }
+      },
+      "otherStatistics": "Adaptive determines its damage immunity. Immune to Blinded, Charmed, Deafened, Exhaustion, Frightened, and Prone. Blindsight 60 ft. (blind beyond this radius), passive Perception 8. No languages.",
+      "appearance": "An iridescent ooze that changes color after absorbing a damaging spell.",
+      "sections": {
+        "Role": "Controller",
+        "Traits": "Amorphous. Move through a gap as narrow as 1 inch without squeezing.\nSpider Climb. Climb difficult surfaces, including walls and ceilings, without a check.",
+        "Actions": "Pseudopod. Melee weapon attack +4, reach 5 ft., one target. Hit for 5 (1d6 + 2) acid damage and grapple the target (escape DC 13). The target is Restrained until the grapple ends. The slime cannot use Pseudopod on another target while the grapple lasts.\nSwallow. Make a Pseudopod attack against a grappled target at least one size smaller than the slime. On a hit, the grapple ends and the target is swallowed. A swallowed target is Restrained and has total cover against attacks and effects from outside the slime. At the start of each of the target’s turns it makes a DC 13 Constitution save, taking 3 (1d6) acid damage on a failure. If Adaptive gives the slime damage immunity, use that damage type instead. The slime can keep one creature swallowed. If the slime dies, the target is free to move and is no longer Restrained.",
+        "Reactions": "Split. If a hit deals slashing damage while the slime is Medium or larger and has at least 10 HP, it divides into two slimes. Each is one size smaller and has half the original’s HP, rounded down. Both new slimes retain Adaptive and inherit the parent’s current immunity.\nAdaptive. When hit by a damaging spell, the slime can gain immunity to that damage type for 1 hour. A new immunity replaces the existing one and changes the slime’s color.",
+        "Adaptive colors": "Acid is lime green, cold ice blue, fire bright crimson, force clear, lightning bright yellow, necrotic black, poison dark green, psychic bright violet, radiant warm orange, and thunder bright white.",
+        "Printed source": "Appendix A, Bestiary, p. 187"
+      }
+    }
+  },
+  {
+    "name": "Sticky Slime",
+    "decision": "separate",
+    "pages": "Appendix A, Bestiary, p. 188",
+    "notes": "Independent stat block from the campaign book.",
+    "statBlock": {
+      "name": "Sticky Slime",
+      "publication": "Humblewood Campaign Setting",
+      "edition": "2014 fifth edition compatible",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "classification": "Medium Ooze, unaligned",
+      "ac": 6,
+      "hp": 13,
+      "hitDice": "2d8 + 4",
+      "speed": "15 ft., climb 15 ft.",
+      "cr": "1/8",
+      "xp": 25,
+      "proficiencyBonus": 2,
+      "abilities": {
+        "Str": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Dex": {
+          "score": 3,
+          "modifier": -4
+        },
+        "Con": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Int": {
+          "score": 1,
+          "modifier": -5
+        },
+        "Wis": {
+          "score": 6,
+          "modifier": -2
+        },
+        "Cha": {
+          "score": 1,
+          "modifier": -5
+        }
+      },
+      "otherStatistics": "Resistant to bludgeoning, piercing, and slashing damage. Immune to Blinded, Charmed, Deafened, Exhaustion, Frightened, and Prone. Blindsight 60 ft. (blind beyond this radius), passive Perception 8. No languages.",
+      "appearance": "A rubbery ooze that drags a trail of sticky residue behind it.",
+      "sections": {
+        "Role": "Terrain hazard",
+        "Traits": "Amorphous. Move through a gap as narrow as 1 inch without squeezing.\nSlime Trail. The slime’s trail remains sticky for up to 15 minutes. A creature that steps in the trail becomes Restrained on a failed DC 12 Strength save. The creature repeats the save at the end of each of its turns and ends the effect on a success.\nMucus. When an attacker hits the slime in melee, their weapon sticks on a failed DC 12 Strength save. A creature can use an action to free it with a DC 12 Strength (Athletics) check. All stuck weapons can be recovered once the slime dies.",
+        "Actions": "Pseudopod. Melee weapon attack +3, reach 5 ft., one target. Hit for 3 (1d4 + 1) bludgeoning damage.",
+        "Printed source": "Appendix A, Bestiary, p. 188"
+      }
+    }
+  },
+  {
+    "name": "Swarm of Emberbats",
+    "decision": "separate",
+    "pages": "Appendix A, Bestiary, p. 182",
+    "notes": "The printed page image confirms that both emberbat blocks appear on p. 182.",
+    "statBlock": {
+      "name": "Swarm of Emberbats",
+      "publication": "Humblewood Campaign Setting",
+      "edition": "2014 fifth edition compatible",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "classification": "Medium Swarm of Tiny Beasts, unaligned",
+      "ac": 12,
+      "hp": 22,
+      "hitDice": "5d8",
+      "speed": "0 ft., fly 30 ft.",
+      "cr": "1/2",
+      "xp": 100,
+      "proficiencyBonus": 2,
+      "abilities": {
+        "Str": {
+          "score": 5,
+          "modifier": -3
+        },
+        "Dex": {
+          "score": 15,
+          "modifier": 2
+        },
+        "Con": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Int": {
+          "score": 3,
+          "modifier": -4
+        },
+        "Wis": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Cha": {
+          "score": 5,
+          "modifier": -3
+        }
+      },
+      "otherStatistics": "Resistant to bludgeoning, piercing, and slashing damage. Immune to Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained, and Stunned. Blindsight 60 ft., passive Perception 10. No languages.",
+      "appearance": "A dense cloud of emberbats whose small flames warm the air around the colony.",
+      "sections": {
+        "Role": "Flying swarm",
+        "Traits": "Echolocation. Deafened prevents the swarm from using blindsight.\nKeen Hearing. The swarm has advantage on Wisdom (Perception) checks that depend on hearing.\nFlame Essence. A creature that starts its turn within 5 ft. of the swarm takes 2 (1d4) fire damage on a failed DC 10 Constitution save.\nSwarm. Creatures can share the swarm’s space, and the swarm can pass through any gap a Tiny bat fits through. The swarm cannot regain HP or gain temporary HP.",
+        "Actions": "Bites. Melee weapon attack +4, reach 0 ft., one creature sharing the swarm’s space. Hit for 5 (2d4) piercing damage, reduced to 2 (1d4) at half HP or below.",
+        "Printed source": "Appendix A, Bestiary, p. 182"
+      },
+      "relatedCreatures": [
+        {
+          "name": "Emberbat",
+          "kind": "beast"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Wakewyrm",
+    "decision": "separate",
+    "pages": "Appendix A, Bestiary, p. 189",
+    "notes": "The printed page image confirms p. 189 and all three printed damage averages, including the 11 (3d6) Swallow damage.",
+    "statBlock": {
+      "name": "Wakewyrm",
+      "publication": "Humblewood Campaign Setting",
+      "edition": "2014 fifth edition compatible",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "classification": "Huge Beast, unaligned",
+      "ac": 16,
+      "hp": 136,
+      "hitDice": "13d12 + 52",
+      "speed": "20 ft., swim 50 ft.",
+      "cr": "6",
+      "xp": 2300,
+      "proficiencyBonus": 3,
+      "abilities": {
+        "Str": {
+          "score": 20,
+          "modifier": 5
+        },
+        "Dex": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Con": {
+          "score": 18,
+          "modifier": 4
+        },
+        "Int": {
+          "score": 3,
+          "modifier": -4
+        },
+        "Wis": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Cha": {
+          "score": 3,
+          "modifier": -4
+        }
+      },
+      "otherStatistics": "Natural armor. Passive Perception 11. No languages.",
+      "appearance": "An enormous sea reptile with an eel-like body and a long, lashing tail.",
+      "sections": {
+        "Role": "Aquatic ambusher",
+        "Traits": "Hold Breath. The wakewyrm can hold its breath for 1 hour.",
+        "Actions": "Multiattack. Make one Bite and one Tail attack, or two Bite attacks.\nBite. Melee weapon attack +8, reach 20 ft., one target. Hit for 15 (3d6 + 5) piercing damage. On a failed DC 16 Strength save, the target is Grappled (escape DC 16). While grappling a creature, the wakewyrm cannot grapple a second creature or Bite a different target.\nTail. Melee weapon attack +8, reach 25 ft., one target. Hit for 18 (3d8 + 5) bludgeoning damage.\nSwallow. Make a Bite attack against a Large or smaller creature the wakewyrm is grappling. On a hit, the grapple ends and the target is swallowed. It is Blinded and Restrained, has total cover against attacks and effects outside the wakewyrm, and takes 11 (3d6) acid damage at the start of each of the wakewyrm’s turns. If a creature inside deals at least 18 damage to the wakewyrm, the wakewyrm must make a DC 15 Constitution save at the end of that creature’s turn. On a failure, the wakewyrm disgorges every swallowed creature, and each falls Prone in a space within 10 ft. If the wakewyrm dies, swallowed creatures are no longer Restrained by it and can spend 20 ft. of movement to escape. Its body floats for several hours before gradually sinking.",
+        "Printed source": "Appendix A, Bestiary, p. 189"
+      }
+    }
+  }
+]

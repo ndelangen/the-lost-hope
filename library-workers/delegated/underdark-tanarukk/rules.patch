@@ -1,0 +1,168 @@
+diff --git a/dm-library/bestiary/book-catalog.json b/dm-library/bestiary/book-catalog.json
+--- a/dm-library/bestiary/book-catalog.json
++++ b/dm-library/bestiary/book-catalog.json
+@@ -315435,6 +315435,24 @@
+       ]
+     },
+     {
++      "name": "Tanarukk",
++      "kind": "species",
++      "publication": "Underdark (2003)",
++      "edition": "3.5 edition",
++      "traits": [
++        "Medium Outsider (Native). +4 Strength, +2 Dexterity, −2 Wisdom, −4 Charisma. Land speed 20 ft. Darkvision 60 ft. and +4 natural armor.",
++        "Fire resistance 10. Spell resistance is 14 + class levels.",
++        "Proficient with all martial weapons.",
++        "The natural bite deals 1d6 bludgeoning, piercing, and slashing damage before Strength. In a full attack with a weapon, apply a −5 penalty to the bite attack and add half the Strength bonus to its damage.",
++        "Control Flame (Sp), 1/day, caster level 5. As a standard action, change an existing nonmagical fire within 10 ft. Dim it to coals or brighten it to daylight brightness and twice its normal illumination radius. The effect lasts 5 minutes. Heat output and fuel consumption stay the same.",
++        "Orc Blood allows the tanarukk to use or create items with orc-specific powers as an orc.",
++        "Five racial Hit Dice (5d8) grant BAB +5, base Fortitude +4, Reflex +4, Will +4, and two feats. Racial skill points are 8 × (8 + Intelligence modifier). The racial class skills are Hide, Intimidate, Listen, Search, and Spot.",
++        "LA +3. ECL 8 before class levels and ECL 9 with one class level. Favored class Barbarian.",
++        "Abyssal and Orc are automatic. Add the home region’s automatic languages and choose bonus languages by region. The original entry describes tanarukks as illiterate until they take a PC class other than Barbarian.",
++        "Underdark supplies the 3.5 advancement entry and refers to Races of Faerûn for the detailed playable rules."
++      ]
++    },
++    {
+       "edition": "2024 fifth edition",
+       "publication": "Player’s Handbook",
+       "name": "Tiefling; Chthonic Legacy",
+diff --git a/dm-library/bestiary/npc-encounters.json b/dm-library/bestiary/npc-encounters.json
+--- a/dm-library/bestiary/npc-encounters.json
++++ b/dm-library/bestiary/npc-encounters.json
+@@ -5287,6 +5287,96 @@
+       "tactics": "Verren guides the last workers to the cross-passage and holds the gate. He can put darkness on the gate latch when a pursuer enters the straight passage. He stays close enough to use his longsword and applies his Blind-Fight reroll only to a melee miss caused by concealment."
+     },
+     {
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
++      "size": "Medium",
++      "type": "Outsider (Native)",
++      "senses": "Darkvision 60 ft.",
++      "speed": "20 ft.",
++      "languages": "Abyssal, Common, Orc",
++      "id": "tanarukk-ashridge-coal-gate-sentry-35e",
++      "title": "Tanarukk coal-gate sentry, racial Hit Dice only",
++      "difficulty": "Provisional CR 3. ECL 8 (5 racial HD, LA +3).",
++      "ac": 16,
++      "hp": 36,
++      "hitDice": "5d8+10",
++      "initiative": 2,
++      "abilityScores": {
++        "STR": 18,
++        "DEX": 14,
++        "CON": 14,
++        "INT": 8,
++        "WIS": 12,
++        "CHA": 6
++      },
++      "skills": [
++        "Climb +8",
++        "Hide +10",
++        "Intimidate +6",
++        "Listen +11",
++        "Move Silently +6",
++        "Search +7",
++        "Spot +11"
++      ],
++      "traits": [
++        "Neutral. Unarmored, Dexterity +2 and natural armor +4. Touch 12, flat-footed 14. BAB +5, grapple +9. Fortitude +6, Reflex +6, Will +5.",
++        "Fire resistance 10 and spell resistance 14. Alertness adds +2 to Listen and Spot. Weapon Focus (battleaxe) adds +1 on battleaxe attacks. Illiterate.",
++        "Control Flame (Sp), 1/day, caster level 5. As a standard action, change an existing nonmagical fire within 10 ft. Dim it to coals or brighten it to daylight brightness and twice its normal illumination radius. The effect lasts 5 minutes. Heat output and fuel consumption stay the same.",
++        "The natural bite deals 1d6 bludgeoning, piercing, and slashing damage before Strength. In a full attack with a weapon, apply a −5 penalty to the bite attack and add half the Strength bonus to its damage.",
++        "Orc Blood allows the tanarukk to use or create items with orc-specific powers as an orc."
++      ],
++      "actions": [
++        "Battleaxe +10 melee in two hands for 1d8+6 slashing, critical ×3. On a full attack, add bite +4 for 1d6+2, critical ×2. Bite alone +9 for 1d6+6, critical ×2.",
++        "Use the one daily activation to dim the coal gate’s nearest brazier from within 10 ft."
++      ],
++      "tactics": "Khar dims the brazier by the passage and watches the first landing with darkvision. If challenged, he uses the battleaxe and adds a bite when he can make a full attack."
++    },
++    {
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
++      "size": "Medium",
++      "type": "Outsider (Native)",
++      "senses": "Darkvision 60 ft.",
++      "speed": "20 ft.",
++      "languages": "Abyssal, Common, Orc",
++      "id": "tanarukk-coalvein-ember-gallery-scout-35e",
++      "title": "Tanarukk ember-gallery scout, Rogue 1",
++      "difficulty": "Provisional CR 4. ECL 9 (5 racial HD, 1 class HD, LA +3).",
++      "ac": 20,
++      "hp": 42,
++      "hitDice": "5d8+1d6+12",
++      "initiative": 8,
++      "abilityScores": {
++        "STR": 16,
++        "DEX": 18,
++        "CON": 14,
++        "INT": 8,
++        "WIS": 10,
++        "CHA": 6
++      },
++      "skills": [
++        "Balance +8",
++        "Hide +12",
++        "Intimidate +6",
++        "Listen +10",
++        "Move Silently +13",
++        "Search +8",
++        "Spot +11"
++      ],
++      "traits": [
++        "Neutral. Leather armor +2, Dexterity +4 and natural armor +4. Touch 14, flat-footed 16. BAB +5, grapple +8. Fortitude +6, Reflex +10, Will +4.",
++        "Fire resistance 10 and spell resistance 15. Alertness adds +2 to Listen and Spot. Improved Initiative adds +4. Weapon Finesse applies to the rapier and bite. Trapfinding. Sneak Attack adds 1d6 on eligible hits.",
++        "Control Flame (Sp), 1/day, caster level 5. As a standard action, change an existing nonmagical fire within 10 ft. Dim it to coals or brighten it to daylight brightness and twice its normal illumination radius. The effect lasts 5 minutes. Heat output and fuel consumption stay the same.",
++        "The natural bite deals 1d6 bludgeoning, piercing, and slashing damage before Strength. In a full attack with a weapon, apply a −5 penalty to the bite attack and add half the Strength bonus to its damage.",
++        "Orc Blood allows the tanarukk to use or create items with orc-specific powers as an orc."
++      ],
++      "actions": [
++        "Rapier +9 melee for 1d6+3 piercing, critical 18–20/×2. On a full attack, add bite +4 for 1d6+1, critical ×2. Bite alone +9 for 1d6+4, critical ×2.",
++        "Within 10 ft. of a nonmagical signal flame, brighten it for 5 minutes to show the group which route is open. The flame’s heat and fuel consumption stay the same."
++      ],
++      "tactics": "Varka leads the way through the dim gallery and brightens the signal flame once the escape route is open. She uses the rapier and follows with a bite when a full attack is possible."
++    },
++    {
+       "id": "raptoran-flying-beacon-sentry-35e",
+       "title": "Raptoran beacon sentry, Fighter 5",
+       "origin": "Original DM Library NPC",
+@@ -6455,6 +6545,28 @@
+       "role": "Lantern mender and Sorcerer.",
+       "motive": "Salvage the paper lanterns that were left under a leaking roof before the procession assembles.",
+       "hook": "Orrin can repair the route lanterns if the party finds him somewhere dry to work."
++    },
++    {
++      "species": "Tanarukk",
++      "size": "Medium",
++      "edition": "3.5 edition",
++      "speciesPublication": "Underdark (2003)",
++      "name": "Khar Ashridge",
++      "build": "tanarukk-ashridge-coal-gate-sentry-35e",
++      "role": "Coal-gate sentry.",
++      "motive": "Keep the gate clear until a work crew gets inside.",
++      "hook": "Khar waits beside the brazier that lights the coal gate."
++    },
++    {
++      "species": "Tanarukk",
++      "size": "Medium",
++      "edition": "3.5 edition",
++      "speciesPublication": "Underdark (2003)",
++      "name": "Varka Coalvein",
++      "build": "tanarukk-coalvein-ember-gallery-scout-35e",
++      "role": "Ember-gallery scout and Rogue.",
++      "motive": "Signal the party once the escape route opens.",
++      "hook": "Varka agrees to brighten a flame beside the safe passage."
+     },
+     {
+       "species": "Buomman",
+diff --git a/dm-library/bestiary/entries.tsv b/dm-library/bestiary/entries.tsv
+--- a/dm-library/bestiary/entries.tsv
++++ b/dm-library/bestiary/entries.tsv
+@@ -9312,6 +9312,7 @@
+ Talon Beast	monster	Monstrosity	The Book of Many Things	2014 fifth edition	Wizards of the Coast		7
+ Tanarukk	monster	Fiend	Mordenkainen Presents: Monsters of the Multiverse	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/2560937-tanarukk	5
+ Tanarukk	monster	Fiend	Volo's Guide to Monsters	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/17298-tanarukk	5
++Tanarukk	species	Outsider (Native)	Underdark (2003)	3.5 edition	Wizards of the Coast	https://campusstore.miamioh.edu/underdark-cordell-bruce-rkestrel/bk/9780786930531	
+ Tanazir Quandrix	monster	Dragon	Strixhaven: A Curriculum of Chaos	2014 fifth edition	Wizards of the Coast		24
+ Tanker	monster	Construct	Monsters of Drakkenheim	2024 fifth edition compatible	Ghostfire Gaming	https://www.dndbeyond.com/monsters/5525130-tanker	5
+ Tarak	monster	Humanoid	Dragons of Stormwreck Isle	2014 fifth edition	Wizards of the Coast		1

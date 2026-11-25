@@ -1,0 +1,27 @@
+{
+  "baseline": "f744e113e5071d614f6ce1f07bdf3e7a20cb1ac0",
+  "temporaryCopy": true,
+  "exactBeastProfiles": 3,
+  "testedConditionalRuleProfiles": 3,
+  "existingPublicationVersionsPreserved": true,
+  "publisherGalleriesPreserved": true,
+  "searchableByNameAndSourceHabitatOrAppearance": 3,
+  "portraitCoverage": {
+    "Giant Rhinoceros Beetle": "generated",
+    "Giant Stag Beetle": "generated",
+    "Giant Water Beetle": "generated"
+  },
+  "versionPortraitsVerified": 3,
+  "newPortraitDrafts": 3,
+  "printedMovementRatesPreserved": true,
+  "printedAttackRangesPreserved": true,
+  "otherKindVerminDefaultAndGalleryPreserved": true,
+  "noChallengeImported": true,
+  "selectedPublications": {
+    "Giant Rhinoceros Beetle": "Monstrous Manual (1994 third printing)",
+    "Giant Stag Beetle": "Monstrous Manual (1994 third printing)",
+    "Giant Water Beetle": "Monstrous Manual (1994 third printing)"
+  },
+  "stagMonsterDefaultBefore": "Revised v3.5 SRD (Monsters)",
+  "stagMonsterDefaultAfter": "Revised v3.5 SRD (Monsters)"
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "entityKind": "monster",
+    "name": "Fire Giant Whelp",
+    "publication": "DDEX3-04 - It's All in the Blood",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/fire-giant-whelp/fire-giant-2014-related.webp",
+    "artist": "Related Fire Giant art · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "1d8744e490697951e86cd320eda3debc4460269316cdc3b498d9df72307316e7",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/MM/Fire%20Giant.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Fire Giant Whelp",
+    "publication": "DDEX3-04 - It's All in the Blood",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/fire-giant-whelp/fire-giant-2024-robson-michel.webp",
+    "artist": "Related Fire Giant art by Robson Michel · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "2024c1e93f6784679246e572d729624f9e5557737ae6bb158db09ff7a2e45d71",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Fire%20Giant.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Grabber Forth",
+    "publication": "DDEX3-04 - It's All in the Blood",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/grabber-forth/deep-gnome-2014-related.webp",
+    "artist": "Related Deep Gnome art · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "33f0a7dc2e760692fd53744426095f85564f629bf7db0e5d52667c5d82e6cfbf",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/MM/Deep%20Gnome%20%28Svirfneblin%29.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Grabber Forth",
+    "publication": "DDEX3-04 - It's All in the Blood",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/grabber-forth/deep-gnome-mpmm-babbey-lawson.webp",
+    "artist": "Related Deep Gnome art credited to Tom Babbey and Olly Lawson · Monsters of the Multiverse",
+    "kind": "illustration",
+    "sha256": "2147367fc540f120043c503580f84c935189b42b5caa9863d9f3e683ebb3e960",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/races/MPMM/Deep%20Gnome.webp"
+  }
+]

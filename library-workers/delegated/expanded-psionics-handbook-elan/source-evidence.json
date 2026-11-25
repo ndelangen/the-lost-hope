@@ -1,0 +1,60 @@
+[
+  {
+    "name": "Elan",
+    "kind": "species",
+    "publication": "Expanded Psionics Handbook (2004)",
+    "edition": "3.5 edition",
+    "book": "Expanded Psionics Handbook",
+    "author": "Bruce R. Cordell",
+    "publisher": "Wizards of the Coast",
+    "firstPrinting": "April 2004",
+    "productCode": "620-96666-001-EN",
+    "isbn": "0-7869-3301-3",
+    "printedPages": {
+      "appearanceAndTrance": 9,
+      "playableTraits": 10,
+      "ageTable": 16,
+      "psion": [
+        18,
+        19,
+        20
+      ],
+      "immediateActions": [
+        59,
+        60
+      ],
+      "npcPowers": [
+        82,
+        91,
+        92,
+        113
+      ],
+      "psionicSubtype": 183,
+      "warrior": [
+        196,
+        197
+      ]
+    },
+    "printedArtCredit": "Wayne Reynolds, p. 7 lineup; Steven Belledin, p. 197 Elan",
+    "primaryBookScan": "",
+    "primaryBookSha256": "de565bb7b273801a1a4595a157657a96ca52e2f4162d1e7101e609cbdd4b0943",
+    "errata2006": "",
+    "errataCorrections": [
+      "Page 16: no maximum age. Retain age-effect thresholds.",
+      "Page 197: 2 racial PP at 1st level, matching playable p. 10."
+    ],
+    "sourceDistinctions": [
+      "Use playable p. 10 Resistance duration. The monster text says next turn.",
+      "The published warrior’s CR 1/2 is specific to that warrior."
+    ],
+    "entryId": "species-dcdf07418875b14942de0d45",
+    "versionKey": "5488d99ac99c1d1b1996bf8e",
+    "slug": "elan",
+    "portraitSelection": "generated",
+    "portraitForm": "Teva Alder, an original Elan example",
+    "npcExamples": [
+      "Teva Alder",
+      "Corren Vale"
+    ]
+  }
+]

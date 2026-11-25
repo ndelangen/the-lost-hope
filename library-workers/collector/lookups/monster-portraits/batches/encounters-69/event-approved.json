@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Catfolk",
+    "slug": "catfolk",
+    "caption": "Tavira of the Sun Reed · Original Catfolk NPC",
+    "id": "species-93839c4d7c9b6b6e016bea36:2201434d139b4bb86049afdf",
+    "entry": "species-93839c4d7c9b6b6e016bea36",
+    "version": "2201434d139b4bb86049afdf",
+    "suffix": "encounters-69/catfolk.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-69/catfolk.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-69/event-drafts/catfolk-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 69 2026-11-24/event-drafts/catfolk-event-v1.png",
+    "overrides": [],
+    "sha256": "e4f35117d06c991ad6f12db44e726e02743bcafc572695d1b6d2ea2c1ed85b3c",
+    "bytes": 2435650
+  }
+]

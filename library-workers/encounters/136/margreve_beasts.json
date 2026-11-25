@@ -1,0 +1,381 @@
+[
+  {
+    "name": "Alligator",
+    "decision": "separate",
+    "pages": "Appendix, p. 215",
+    "notes": "Independent stat block in the Black Flag appendix.",
+    "statBlock": {
+      "name": "Alligator",
+      "publication": "The Old Margreve",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium Beast",
+      "ac": 13,
+      "hp": 14,
+      "speed": "20 ft., swim 30 ft.",
+      "cr": "1/4",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A river predator that seizes prey from the water’s edge.",
+      "otherStatistics": "Natural armor. Perception 10. Stealth 12. Resistant to Grappled. No special senses or languages.",
+      "sections": {
+        "Ability modifiers": "STR +2 · DEX +0 · CON +1 · INT -4 · WIS +0 · CHA -5",
+        "Traits": "Hold Breath. It can hold its breath for 15 minutes.",
+        "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 5 (1d6 + 2) piercing damage. The target is Grappled (escape DC 12) and Restrained while held. The alligator cannot bite another target until this grapple ends.",
+        "Bonus Actions": "High Walk. Take the Dash action. This bonus action is unavailable while swimming.",
+        "Printed source": "Appendix, p. 215"
+      }
+    }
+  },
+  {
+    "name": "Alligator Turtle",
+    "decision": "separate",
+    "pages": "Appendix, p. 215",
+    "notes": "Independent stat block in the Black Flag appendix.",
+    "statBlock": {
+      "name": "Alligator Turtle",
+      "publication": "The Old Margreve",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium Beast",
+      "ac": 15,
+      "hp": 12,
+      "speed": "20 ft., swim 30 ft.",
+      "cr": "1/4",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "An irritable turtle with a long neck and a beak that can reach farther than its shell suggests.",
+      "otherStatistics": "Natural armor. Perception 11. Stealth 13. Resistant to Prone. No special senses or languages.",
+      "sections": {
+        "Ability modifiers": "STR +2 · DEX +1 · CON +1 · INT -4 · WIS +1 · CHA -2",
+        "Traits": "False Appearance. While motionless underwater with its mouth open, it looks like a rock with a worm protruding from it.\nHold Breath. It can hold its breath for 1 hour.",
+        "Actions": "Bite. Melee weapon attack, +4 to hit, reach 10 ft., one target. Hit 5 (1d6 + 2) slashing damage. The target is Grappled (escape DC 12). The turtle cannot bite a different target while the grapple lasts.",
+        "Reactions": "Spiky Shell. When a visible creature within 5 ft. hits it with an attack, the turtle reduces the damage by 5 (2d4). The attacker takes 2 (1d4) piercing damage.",
+        "Printed source": "Appendix, p. 215"
+      }
+    }
+  },
+  {
+    "name": "Baboon, Howler",
+    "decision": "separate",
+    "pages": "Appendix, p. 232",
+    "notes": "Independent stat block in the Black Flag appendix.",
+    "statBlock": {
+      "name": "Baboon, Howler",
+      "publication": "The Old Margreve",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium Beast",
+      "ac": 12,
+      "hp": 15,
+      "speed": "30 ft., climb 30 ft.",
+      "cr": "1/4",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A territorial primate that calls its troop to defend the woods and hills.",
+      "otherStatistics": "Perception 13. Stealth 12. Resistant to Deafened. No special senses or languages.",
+      "sections": {
+        "Ability modifiers": "STR +2 · DEX +2 · CON +2 · INT -2 · WIS +1 · CHA -2",
+        "Traits": "Pack Tactics. The baboon has advantage on attack rolls against a creature if a non-Incapacitated ally is within 5 ft. of that creature.",
+        "Actions": "Fist. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 5 (1d6 + 2) bludgeoning damage.\nRock. Ranged weapon attack, +4 to hit, range 20/60 ft., one target. Hit 5 (1d6 + 2) bludgeoning damage.",
+        "Bonus Actions": "Challenging Howl. One visible creature within 30 ft. makes a DC 12 Charisma save. On a failure the baboon chooses one effect. The target has disadvantage on its next attack roll before the start of the baboon’s next turn, or its next attack before that time must target the baboon.",
+        "Printed source": "Appendix, p. 232"
+      }
+    }
+  },
+  {
+    "name": "Bat, Strossen",
+    "decision": "separate",
+    "pages": "Appendix, p. 239",
+    "notes": "Independent stat block in the Black Flag appendix.",
+    "statBlock": {
+      "name": "Bat, Strossen",
+      "publication": "The Old Margreve",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Small Beast",
+      "ac": 13,
+      "hp": 14,
+      "speed": "5 ft., fly 40 ft.",
+      "cr": "1/4",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A black, blood-drinking bat with a pale stripe across its eyes.",
+      "otherStatistics": "Perception 12. Stealth 15. Vulnerable to Deafened. Resistant to Blinded. Keensense 60 ft. No languages.",
+      "sections": {
+        "Ability modifiers": "STR -2 · DEX +3 · CON +0 · INT -5 · WIS +0 · CHA -4",
+        "Traits": "Echolocation. Being Deafened disables its keensense.\nHeightened Hearing. Perception 17 for hearing.",
+        "Actions": "Bite. Melee weapon attack, +5 to hit, reach 5 ft., one creature. Hit 5 (1d4 + 3) piercing damage, and the bat attaches. While attached it cannot attack and moves with the target without spending movement. At the start of each of the bat’s turns, the target loses 5 (1d4 + 3) HP from blood loss. The bat can detach by spending 5 ft. of movement on its turn. It detaches after draining 15 HP or if the target dies. Any creature, including the target, can use its action to pull the bat off.",
+        "Bonus Actions": "Haunting Screech. One creature within 10 ft. that can hear the screech must succeed on a DC 13 Wisdom save or become Frightened until the end of its next turn.",
+        "Printed source": "Appendix, p. 239"
+      }
+    }
+  },
+  {
+    "name": "Beetle, Giant Bombardier",
+    "decision": "separate",
+    "pages": "Appendix, p. 226",
+    "notes": "Independent stat block in the Black Flag appendix.",
+    "statBlock": {
+      "name": "Beetle, Giant Bombardier",
+      "publication": "The Old Margreve",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium Beast",
+      "ac": 14,
+      "hp": 12,
+      "speed": "30 ft.",
+      "cr": "1/4",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A forest-floor herbivore that sprays boiling liquid when cornered.",
+      "otherStatistics": "Natural armor. Perception 10. Stealth 12. Vulnerable to Frightened. Resistant to fire damage. Keensense 30 ft. No languages.",
+      "sections": {
+        "Ability modifiers": "STR +0 · DEX +2 · CON +2 · INT -4 · WIS +0 · CHA -4",
+        "Traits": "Forest Camouflage. Stealth 17 in forests.",
+        "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 5 (1d6 + 2) slashing damage.\nSpray (Recharge 5–6). One visible creature within 15 ft. makes a DC 12 Dexterity save. It takes 5 (2d4) fire damage on a failure or half on a success.",
+        "Reactions": "Defensive Spray (7 HP or fewer). When the beetle takes damage, its Spray recharges and it can use it immediately.",
+        "Printed source": "Appendix, p. 226"
+      }
+    }
+  },
+  {
+    "name": "Bull",
+    "decision": "separate",
+    "pages": "Appendix, p. 219",
+    "notes": "Independent stat block in the Black Flag appendix.",
+    "statBlock": {
+      "name": "Bull",
+      "publication": "The Old Margreve",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Large Beast",
+      "ac": 11,
+      "hp": 25,
+      "speed": "40 ft.",
+      "cr": "1/2",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A territorial animal that charges challengers head-on.",
+      "otherStatistics": "Perception 9. Stealth 11. No special senses or languages.",
+      "sections": {
+        "Ability modifiers": "STR +3 · DEX +1 · CON +3 · INT -4 · WIS -1 · CHA -2",
+        "Traits": "Charge. After moving at least 20 ft. straight toward a target, a Gore hit against that target on the same turn deals 3 (1d6) extra piercing damage. A creature hit this way makes a DC 13 Strength save or falls Prone.",
+        "Actions": "Gore. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 10 (2d6 + 3) piercing damage.\nHooves. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 8 (2d4 + 3) bludgeoning damage.",
+        "Printed source": "Appendix, p. 219"
+      }
+    }
+  },
+  {
+    "name": "Forest Falcon",
+    "decision": "separate",
+    "pages": "Appendix, p. 226",
+    "notes": "Independent stat block in the Black Flag appendix.",
+    "statBlock": {
+      "name": "Forest Falcon",
+      "publication": "The Old Margreve",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium Beast",
+      "ac": 13,
+      "hp": 25,
+      "speed": "20 ft., fly 60 ft.",
+      "cr": "1/2",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A raptor that hunts under the canopy, diving from a perch or pursuing prey on foot.",
+      "otherStatistics": "Perception 14. Stealth 13. Vulnerable to Blinded. No special senses or languages.",
+      "sections": {
+        "Ability modifiers": "STR -2 · DEX +3 · CON +1 · INT -4 · WIS +2 · CHA -3",
+        "Traits": "Falcon Dive. After diving at least 20 ft. straight toward a target while flying, the falcon has advantage on its next Beak attack against that target before the turn ends. A hit deals 2 (1d4) extra piercing damage.\nHeightened Sight. Perception 19 for sight.",
+        "Actions": "Beak. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 8 (2d4 + 3) piercing damage.",
+        "Printed source": "Appendix, p. 226"
+      }
+    }
+  },
+  {
+    "name": "Grove Bear",
+    "decision": "separate",
+    "pages": "Appendix, p. 229",
+    "notes": "Independent stat block in the Black Flag appendix.",
+    "statBlock": {
+      "name": "Grove Bear",
+      "publication": "The Old Margreve",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium Beast",
+      "ac": 13,
+      "hp": 14,
+      "speed": "40 ft., climb 30 ft.",
+      "cr": "1/4",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A quick, blond-snouted bear that wrestles rivals to the ground.",
+      "otherStatistics": "Natural armor. Perception 13. Stealth 11. Resistant to Grappled. No special senses or languages.",
+      "sections": {
+        "Ability modifiers": "STR +3 · DEX +1 · CON +2 · INT -4 · WIS +1 · CHA -2",
+        "Traits": "Grappler. The bear has advantage on attack rolls against creatures it is grappling.\nHeightened Smell. Perception 18 for smell.",
+        "Actions": "Claws. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 5 (1d4 + 3) slashing damage. The target is Grappled (escape DC 13). The bear cannot use Claws on another target until this grapple ends.",
+        "Bonus Actions": "Pin. A creature Grappled by the bear makes a DC 13 Strength save or becomes Restrained until the grapple ends.",
+        "Printed source": "Appendix, p. 229"
+      }
+    }
+  },
+  {
+    "name": "Leech, Giant",
+    "decision": "separate",
+    "pages": "Appendix, p. 227",
+    "notes": "Independent stat block in the Black Flag appendix.",
+    "statBlock": {
+      "name": "Leech, Giant",
+      "publication": "The Old Margreve",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Small Beast",
+      "ac": 13,
+      "hp": 14,
+      "speed": "15 ft., swim 30 ft.",
+      "cr": "1/4",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "An amphibious blood feeder that tracks vibrations through dark water.",
+      "otherStatistics": "Perception 10. Stealth 15. Tremorsense 30 ft. No languages.",
+      "sections": {
+        "Ability modifiers": "STR -2 · DEX +3 · CON +0 · INT -5 · WIS +0 · CHA -4",
+        "Traits": "Amphibious. It breathes air and water.",
+        "Actions": "Bite. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 5 (1d4 + 3) piercing damage, and the leech attaches. While attached it cannot attack and moves with the target without spending movement. At the start of each of its turns, the target loses 5 (1d4 + 3) HP from blood loss. The leech can detach by spending 5 ft. of movement on its turn. It detaches after draining 10 HP or if the target dies. Any creature, including the target, can use its action to remove the leech.",
+        "Printed source": "Appendix, p. 227"
+      }
+    }
+  },
+  {
+    "name": "Lizard, Giant Frilled",
+    "decision": "separate",
+    "pages": "Appendix, p. 227",
+    "notes": "Independent stat block in the Black Flag appendix.",
+    "statBlock": {
+      "name": "Lizard, Giant Frilled",
+      "publication": "The Old Margreve",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Large Beast",
+      "ac": 16,
+      "hp": 114,
+      "speed": "30 ft., climb 30 ft.",
+      "cr": "5",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A territorial climber that flares its neck frill when it rushes an intruder.",
+      "otherStatistics": "Natural armor. Perception 14. Stealth 14. Resistant to poison damage and Poisoned. Darkvision 60 ft. No languages.",
+      "sections": {
+        "Ability modifiers": "STR +2 · DEX +4 · CON +2 · INT -4 · WIS +1 · CHA +0",
+        "Actions": "Multiattack. Make one Bite attack and one Tail attack.\nBite. Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit 13 (2d8 + 4) piercing damage plus 10 (4d4) poison damage.\nTail. Melee weapon attack, +7 to hit, reach 10 ft., one target. Hit 15 (2d10 + 4) bludgeoning damage. A Large or smaller creature hit must make a DC 15 Strength save or fall Prone.",
+        "Bonus Actions": "Intimidating Dash. Move up to 20 ft. toward a visible creature within 60 ft. without provoking opportunity attacks. If this brings the lizard within 30 ft. of the target, it must succeed on a DC 15 Charisma save or be Frightened until the start of the lizard’s next turn. It has disadvantage on the save if the move brings the lizard within 5 ft.",
+        "Reactions": "Detach Tail (63 HP or fewer, recharges after a short or long rest). On taking damage, detach the tail to reduce the damage by 9 (2d8) and immediately move up to its speed without provoking opportunity attacks. It cannot make Tail attacks again until the reaction recharges.",
+        "Printed source": "Appendix, p. 227"
+      }
+    }
+  },
+  {
+    "name": "Margreve Hound",
+    "decision": "separate",
+    "pages": "Appendix, p. 235",
+    "notes": "Independent stat block in the Black Flag appendix.",
+    "statBlock": {
+      "name": "Margreve Hound",
+      "publication": "The Old Margreve",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium Beast",
+      "ac": 12,
+      "hp": 14,
+      "speed": "40 ft.",
+      "cr": "1/4",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A stout hunting dog whose bark helps caravans ward off fey.",
+      "otherStatistics": "Natural armor. Perception 13. Stealth 13. Resistant to Charmed and Frightened. No special senses or languages.",
+      "sections": {
+        "Ability modifiers": "STR +2 · DEX +1 · CON +1 · INT -4 · WIS +1 · CHA -2",
+        "Traits": "Fearsome Mien. A Fey attacking the hound makes a DC 12 Wisdom save or has disadvantage on the attack roll.\nHeightened Hearing and Smell. Perception 18 when using smell.\nMagic Resistance. Advantage on saves against spells and other magical effects.",
+        "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 5 (1d6 + 2) piercing damage. The target is Grappled (escape DC 12), and the hound cannot bite another target while holding it.",
+        "Bonus Actions": "Warning Bark. Choose a visible creature within 30 ft. It makes a DC 12 Wisdom save or cannot move closer to the hound until the start of the hound’s next turn. Fey have disadvantage on the save.",
+        "Printed source": "Appendix, p. 235"
+      },
+      "ruleNotes": [
+        "The printed Heightened Hearing and Smell trait gives a higher Perception value for smell only."
+      ]
+    }
+  },
+  {
+    "name": "Margreve Stag",
+    "decision": "separate",
+    "pages": "Appendix, pp. 235–236",
+    "notes": "Independent stat block in the Black Flag appendix.",
+    "statBlock": {
+      "name": "Margreve Stag",
+      "publication": "The Old Margreve",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Large Beast",
+      "ac": 12,
+      "hp": 25,
+      "speed": "50 ft.",
+      "cr": "1/2",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A swift deer native to the Margreve that bolts or leaps clear of danger.",
+      "otherStatistics": "Perception 10. Stealth 12. Vulnerable to Frightened. Resistant to Exhaustion. No special senses. Understands Sylvan but cannot speak.",
+      "sections": {
+        "Ability modifiers": "STR +2 · DEX +2 · CON +1 · INT -3 · WIS +0 · CHA -1",
+        "Traits": "Charge. After moving at least 20 ft. straight toward a target, a Ram hit against it on the same turn deals 2 (1d4) extra damage. A creature hit this way makes a DC 12 Strength save or falls Prone.\nHeightened Hearing. Perception 15 for hearing.\nStanding Leap. The stag can long jump up to 20 ft. or high jump up to 10 ft., with or without a running start.",
+        "Actions": "Ram. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 7 (2d4 + 2) piercing damage.\nKick. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 9 (2d6 + 2) bludgeoning damage.",
+        "Bonus Actions": "Skittish. Take the Dash or Disengage action.",
+        "Reactions": "Will of the Margreve. After failing a save, the stag can reroll it and must use the new result.",
+        "Printed source": "Appendix, pp. 235–236"
+      }
+    }
+  },
+  {
+    "name": "Mongoose, Giant",
+    "decision": "separate",
+    "pages": "Appendix, pp. 227–228",
+    "notes": "Independent stat block in the Black Flag appendix.",
+    "statBlock": {
+      "name": "Mongoose, Giant",
+      "publication": "The Old Margreve",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium Beast",
+      "ac": 13,
+      "hp": 12,
+      "speed": "30 ft.",
+      "cr": "1/4",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A woodland predator that dodges sudden strikes with quick rolls.",
+      "otherStatistics": "Perception 12. Stealth 15. Resistant to poison damage and Poisoned. Darkvision 60 ft. No languages.",
+      "sections": {
+        "Ability modifiers": "STR +0 · DEX +3 · CON +2 · INT -4 · WIS +2 · CHA -2",
+        "Traits": "Heightened Hearing and Smell. Perception 17 for hearing or smell.",
+        "Actions": "Bite. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 6 (1d6 + 3) piercing damage.",
+        "Reactions": "Evasive Roll. Add 2 to AC against one attack that would hit, provided the mongoose can see the attacker.",
+        "Printed source": "Appendix, pp. 227–228"
+      }
+    }
+  },
+  {
+    "name": "Owl, Great Gray",
+    "decision": "separate",
+    "pages": "Appendix, p. 229",
+    "notes": "Independent stat block in the Black Flag appendix.",
+    "statBlock": {
+      "name": "Owl, Great Gray",
+      "publication": "The Old Margreve",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Small Beast",
+      "ac": 14,
+      "hp": 36,
+      "speed": "5 ft., fly 60 ft.",
+      "cr": "1",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A quiet owl that stays motionless on low perches as creatures pass by.",
+      "otherStatistics": "Perception 14. Stealth 16. Darkvision 120 ft. No languages.",
+      "sections": {
+        "Ability modifiers": "STR -3 · DEX +4 · CON +0 · INT -4 · WIS +2 · CHA -2",
+        "Traits": "Flyby. Flying out of an enemy’s reach does not provoke opportunity attacks.\nHeightened Hearing and Sight. Perception 19 for hearing or sight.\nQuiet Wings. Stealth 21 while flying.",
+        "Actions": "Multiattack. Make two Talon attacks.\nTalon. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit 7 (1d6 + 4) slashing damage.",
+        "Bonus Actions": "Intense Gaze. One visible creature within 30 ft. makes a DC 14 Wisdom save. On a failure the owl has advantage on its next attack roll against that creature before the start of the owl’s next turn.",
+        "Printed source": "Appendix, p. 229"
+      }
+    }
+  }
+]

@@ -1,0 +1,147 @@
+[
+  {
+    "name": "Pony",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Beast",
+    "url": "",
+    "rulesReadUrl": "",
+    "version": "v2 authored player traits, read in a text mirror",
+    "printedPages": [
+      258
+    ],
+    "heading": "Pony Traits",
+    "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "generalRulesPrintedPages": [
+      7,
+      8
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "sourceDistinctions": [
+      "The three horse entries explicitly point to Pony. Their encounter versions and art remain distinct.",
+      "The Outlander background’s musical instrument and any other hand-operated gear are unavailable under No Hands."
+    ],
+    "printedCrossReferences": {
+      "Draft Horse": 229,
+      "Riding Horse": 262,
+      "Warhorse": 266
+    }
+  },
+  {
+    "name": "Quipper",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Beast",
+    "url": "",
+    "rulesReadUrl": "",
+    "version": "v2 authored player traits, read in a text mirror",
+    "printedPages": [
+      259
+    ],
+    "heading": "Quipper Traits",
+    "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "generalRulesPrintedPages": [
+      7,
+      8
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "sourceDistinctions": [
+      "This is the individual Quipper. Swarm of Quippers has no role in this build.",
+      "The supplement’s Tiny equipment rules apply to equipment and carrying capacity. The printed natural bite keeps its listed damage and Finesse treatment."
+    ]
+  },
+  {
+    "name": "Reef Shark",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Beast",
+    "url": "",
+    "rulesReadUrl": "",
+    "version": "v2 authored player traits, read in a text mirror",
+    "printedPages": [
+      261
+    ],
+    "heading": "Reef Shark Traits",
+    "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "generalRulesPrintedPages": [
+      7,
+      8
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "sourceDistinctions": [
+      "This printing grants +1 Strength, 30-ft. blindsight and Pack Tactics as a bonus action. It grants no natural armor. The separate Hunter Shark and Giant Shark publication scope is outside this profile."
+    ]
+  },
+  {
+    "name": "Rhinoceros",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Beast",
+    "url": "",
+    "rulesReadUrl": "",
+    "version": "v2 authored player traits, read in a text mirror",
+    "printedPages": [
+      261,
+      262
+    ],
+    "heading": "Rhinoceros Traits",
+    "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "generalRulesPrintedPages": [
+      7,
+      8
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "sourceDistinctions": [
+      "Player Rhinoceros is Medium. This charge uses the core contested shove instead of a monster save DC.",
+      "The 1st-level monk’s bonus kick uses the Martial Arts die and bludgeoning damage under Monstrous Races v2 p. 7. Natural Armor changes the AC calculation but does not count as worn armor."
+    ]
+  },
+  {
+    "name": "Scorpion",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Beast",
+    "url": "",
+    "rulesReadUrl": "",
+    "version": "v2 authored player traits, read in a text mirror",
+    "printedPages": [
+      262
+    ],
+    "heading": "Scorpion Traits",
+    "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "generalRulesPrintedPages": [
+      7,
+      8
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "sourceDistinctions": [
+      "The Giant Scorpion has separate player rules. The ordinary Scorpion gives no darkvision or monster-sting save.",
+      "Use the Tiny carrying capacity rule. The natural sting keeps its printed damage and Finesse treatment."
+    ]
+  }
+]

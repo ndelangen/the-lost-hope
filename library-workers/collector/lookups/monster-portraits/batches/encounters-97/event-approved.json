@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Dragonborn of Bahamut",
+    "slug": "dragonborn-of-bahamut",
+    "caption": "Orra Slatefall · Original Dragonborn of Bahamut NPC",
+    "id": "species-0098b4737e086c64f298d7f9:c28871ac424fca3730fc6058",
+    "entry": "species-0098b4737e086c64f298d7f9",
+    "version": "c28871ac424fca3730fc6058",
+    "suffix": "encounters-97/dragonborn-of-bahamut.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-97/dragonborn-of-bahamut.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-97/event-drafts/dragonborn-of-bahamut-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 97 2026-11-24/event-drafts/dragonborn-of-bahamut-event-v1.png",
+    "overrides": [],
+    "sha256": "13a4f2d2dac320bd417b41cd84c9e9363fea98e1cbda3cba0867706eb50ecc7a",
+    "bytes": 2237274
+  }
+]

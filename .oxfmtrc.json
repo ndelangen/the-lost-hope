@@ -10,6 +10,7 @@
     "dist/**",
     "node_modules/**",
     "output/**",
+    "library-workers/**",
     "src/routeTree.gen.ts",
     "src/icon-catalog/catalog.json",
     "src/lib/sims/ride-the-lightning.json",

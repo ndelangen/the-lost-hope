@@ -1,0 +1,430 @@
+[
+  {
+    "name": "Archpriest",
+    "statBlock": {
+      "name": "Archpriest",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 248,
+      "classification": "Small or Medium humanoid (cleric), neutral",
+      "ac": 16,
+      "hp": 240,
+      "hitDice": "32d8 + 96",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 21
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "12",
+      "xp": 8400,
+      "passivePerception": 19,
+      "description": "A senior cleric who channels radiant power and supports allies with divine magic.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Str": 7,
+        "Con": 7,
+        "Int": 6,
+        "Wis": 9
+      },
+      "skills": {
+        "Insight": 9,
+        "Medicine": 9,
+        "Perception": 9,
+        "Religion": 10
+      },
+      "sections": {
+        "Initiative": "+5 (15).",
+        "Languages": "Common plus two other languages.",
+        "Gear": "Chain Mail, Holy Symbol.",
+        "Actions": "Multiattack. Make three Radiant Burst attacks.\nRadiant Burst. Melee or ranged attack, +9 to hit, reach 5 ft. or range 60 ft. A hit deals 27 (4d10 + 5) radiant damage.\nHoly Word (recharge 4–6). Each enemy in a 20-ft. Emanation from the archpriest makes a DC 17 Wisdom save. On a failure, it takes 21 (6d6) radiant damage and is Stunned until the end of the archpriest's next turn. On a success, it takes half damage only.",
+        "Spellcasting": "Cast one listed spell as an action using Wisdom (spell save DC 17). These castings require no Material components.\nAt will. Light, Thaumaturgy.\n1/day each. Flame Strike (level 6), Greater Restoration, Raise Dead, Zone of Truth.",
+        "Bonus actions": "Divine Aid (3/day total). Cast Bless, Dispel Magic, Healing Word, or Lesser Restoration using Wisdom (spell save DC 17).",
+        "Habitats": "Any.",
+        "Treasure": "Individual, Relics.",
+        "Printed source": "Monster Manual (2024), p. 248."
+      }
+    }
+  },
+  {
+    "name": "Cultist Fanatic",
+    "statBlock": {
+      "name": "Cultist Fanatic",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 85,
+      "classification": "Small or Medium humanoid, neutral",
+      "ac": 13,
+      "hp": 44,
+      "hitDice": "8d8 + 8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 12,
+      "description": "A devoted member of a cult who fights with a necrotic pact blade and divine magic.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Wis": 4
+      },
+      "skills": {
+        "Deception": 3,
+        "Persuasion": 3,
+        "Religion": 2
+      },
+      "sections": {
+        "Initiative": "+2 (12).",
+        "Languages": "Common.",
+        "Gear": "Holy Symbol, Leather Armor.",
+        "Actions": "Pact Blade. Melee attack, +4 to hit, reach 5 ft. A hit deals 6 (1d8 + 2) slashing damage and 7 (2d6) necrotic damage.",
+        "Spellcasting": "Cast one listed spell as an action using Wisdom (spell save DC 12, +4 to hit with spell attacks).\nAt will. Light, Thaumaturgy.\n2/day. Command.\n1/day. Hold Person.",
+        "Bonus actions": "Spiritual Weapon (2/day). Cast Spiritual Weapon using Wisdom (+4 to hit with spell attacks).",
+        "Habitats": "Any.",
+        "Treasure": "Individual, Relics.",
+        "Printed source": "Monster Manual (2024), p. 85."
+      }
+    }
+  },
+  {
+    "name": "Cultist Hierophant",
+    "statBlock": {
+      "name": "Cultist Hierophant",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 85,
+      "classification": "Small or Medium humanoid, neutral",
+      "ac": 16,
+      "hp": 144,
+      "hitDice": "17d8 + 68",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 20
+        }
+      },
+      "cr": "10",
+      "xp": 5900,
+      "passivePerception": 17,
+      "description": "A cult leader who wields radiant attacks, a magical storm, and mass enchantment.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Wis": 7,
+        "Cha": 9
+      },
+      "skills": {
+        "Perception": 7,
+        "Persuasion": 9,
+        "Religion": 5
+      },
+      "sections": {
+        "Initiative": "+8 (18).",
+        "Languages": "Celestial, Common.",
+        "Gear": "Breastplate, Holy Symbol.",
+        "Actions": "Multiattack. Make three attacks, choosing Pact Blade or Radiant Ray for each.\nPact Blade. Melee attack, +9 to hit, reach 5 ft. A hit deals 12 (2d6 + 5) slashing damage and 18 (4d8) radiant damage.\nRadiant Ray. Ranged attack, +9 to hit, range 120 ft. A hit deals 31 (4d12 + 5) radiant damage.",
+        "Spellcasting": "Cast one listed spell as an action using Charisma (spell save DC 17).\nAt will. Thaumaturgy.\n1/day each. Jallarzi's Storm of Radiance (level 7), Mass Suggestion.",
+        "Habitats": "Any.",
+        "Treasure": "Individual, Relics.",
+        "Printed source": "Monster Manual (2024), p. 85."
+      }
+    }
+  },
+  {
+    "name": "Aberrant Cultist",
+    "statBlock": {
+      "name": "Aberrant Cultist",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 86,
+      "classification": "Small or Medium humanoid, neutral evil",
+      "ac": 14,
+      "hp": 137,
+      "hitDice": "25d8 + 25",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 19
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 18
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 17,
+      "description": "A cultist who ensnares enemies with two tentacles and attacks their minds with psychic magic.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Int": 6,
+        "Wis": 7
+      },
+      "skills": {
+        "Arcana": 6,
+        "Perception": 7,
+        "Religion": 6
+      },
+      "sections": {
+        "Initiative": "+7 (17).",
+        "Senses": "Darkvision 90 ft.",
+        "Languages": "Common, Deep Speech. Telepathy 30 ft.",
+        "Actions": "Multiattack. Make two Tentacle Lash attacks. Either or both attacks can be replaced by a use of Mind Rot.\nTentacle Lash. Melee attack, +7 to hit, reach 10 ft. A hit deals 7 (1d6 + 4) slashing damage and 14 (4d6) psychic damage. If the target is a Large or smaller creature, one of the cultist's two tentacles Grapples it (escape DC 14). It is Restrained until the grapple ends.\nMind Rot. One creature the cultist can see within 90 ft. makes a DC 15 Wisdom save. On a failure, it takes 27 (6d8) psychic damage and is Poisoned until the start of the cultist's next turn. On a success, it takes half damage only.",
+        "Spellcasting": "Cast one listed spell as an action using Wisdom (spell save DC 15).\nAt will. Detect Thoughts, Minor Illusion.",
+        "Reactions": "Counterspell (2/day). Cast Counterspell on the spell's normal trigger, using Wisdom (spell save DC 15).",
+        "Habitats": "Any.",
+        "Treasure": "Individual, Relics.",
+        "Printed source": "Monster Manual (2024), p. 86."
+      }
+    }
+  },
+  {
+    "name": "Death Cultist",
+    "statBlock": {
+      "name": "Death Cultist",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 86,
+      "classification": "Small or Medium humanoid, neutral evil",
+      "ac": 17,
+      "hp": 127,
+      "hitDice": "15d8 + 60",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 16,
+      "description": "A cultist in splint armor who wounds with necrotic magic and summons a frightening wail.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 7,
+        "Wis": 6
+      },
+      "skills": {
+        "Insight": 6,
+        "Perception": 6,
+        "Religion": 4
+      },
+      "sections": {
+        "Initiative": "+4 (14).",
+        "Languages": "Common.",
+        "Gear": "Splint Armor.",
+        "Actions": "Multiattack. Make three attacks, choosing Dread Scythe or Deathly Ray for each.\nDread Scythe. Melee attack, +7 to hit, reach 10 ft. A hit deals 9 (1d10 + 4) slashing damage and 11 (2d10) necrotic damage. The target cannot regain Hit Points until the end of the target's next turn.\nDeathly Ray. Ranged attack, +6 to hit, range 120 ft. A hit deals 22 (4d10) necrotic damage.",
+        "Spellcasting": "Cast one listed spell as an action using Wisdom (spell save DC 14).\nAt will. Speak with Dead, Thaumaturgy.",
+        "Bonus actions": "Spirit Wail (recharge 5–6). Each creature in a 20-ft. Emanation from the cultist makes a DC 14 Wisdom save. On a failure, it takes 14 (4d6) psychic damage and is Frightened until the end of that creature's next turn. On a success, it takes half damage only.",
+        "Habitats": "Any.",
+        "Treasure": "Individual, Relics.",
+        "Printed source": "Monster Manual (2024), p. 86."
+      }
+    }
+  },
+  {
+    "name": "Elemental Cultist",
+    "statBlock": {
+      "name": "Elemental Cultist",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 87,
+      "classification": "Small or Medium humanoid, chaotic evil",
+      "ac": 16,
+      "hp": 135,
+      "hitDice": "18d8 + 54",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 18
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 17,
+      "description": "A cultist who can vary the element behind its attacks and move enemies from a distance.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 6,
+        "Wis": 7
+      },
+      "skills": {
+        "Arcana": 5,
+        "Perception": 7,
+        "Religion": 5
+      },
+      "sections": {
+        "Initiative": "+4 (14).",
+        "Languages": "Common, Primordial.",
+        "Gear": "Chain Mail.",
+        "Actions": "Multiattack. Make three attacks, choosing Elemental Flail or Elemental Claw for each.\nElemental Flail. Melee attack, +7 to hit, reach 5 ft. A hit deals 25 (6d6 + 4) damage. The cultist chooses acid, cold, fire, lightning, or thunder for the damage type.\nElemental Claw. Ranged attack, +7 to hit, range 120 ft. A hit deals 22 (4d10) damage. The cultist chooses acid, cold, fire, lightning, or thunder for the damage type. On a hit against a Medium or smaller creature, the cultist can move it up to 10 ft. straight toward or away from the cultist.",
+        "Spellcasting": "Cast one listed spell as an action using Wisdom (spell save DC 15).\nAt will. Elementalism, Mage Hand.",
+        "Reactions": "Elemental Absorption (1/day). When the cultist takes acid, cold, fire, lightning, or thunder damage, it gains Resistance to that instance of damage and gains 10 Temporary Hit Points.",
+        "Habitats": "Any.",
+        "Treasure": "Individual, Relics.",
+        "Printed source": "Monster Manual (2024), p. 87."
+      }
+    }
+  },
+  {
+    "name": "Fiend Cultist",
+    "statBlock": {
+      "name": "Fiend Cultist",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 87,
+      "classification": "Small or Medium humanoid, neutral evil",
+      "ac": 16,
+      "hp": 127,
+      "hitDice": "17d8 + 51",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 18
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 17,
+      "description": "A cultist with a burning pact axe who can see through magical Darkness and retaliate with fire.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 6,
+        "Wis": 7
+      },
+      "skills": {
+        "Perception": 7,
+        "Religion": 4
+      },
+      "sections": {
+        "Initiative": "+5 (15).",
+        "Senses": "Darkvision 90 ft. that works in magical Darkness.",
+        "Languages": "Abyssal, Common, Infernal.",
+        "Gear": "Breastplate.",
+        "Actions": "Multiattack. Make three Pact Axe attacks.\nPact Axe. Melee attack, +7 to hit, reach 5 ft. A hit deals 10 (1d12 + 4) slashing damage and 13 (3d8) fire damage.",
+        "Spellcasting": "Cast one listed spell as an action using Wisdom (spell save DC 15, +7 to hit with spell attacks).\nAt will. Scorching Ray (level 5), Thaumaturgy.\n2/day. Fireball (level 6).",
+        "Reactions": "Hellish Rebuke (at will). Cast Hellish Rebuke on the spell's normal trigger using Wisdom (spell save DC 15).",
+        "Habitats": "Any.",
+        "Treasure": "Individual, Relics.",
+        "Printed source": "Monster Manual (2024), p. 87."
+      }
+    }
+  }
+]

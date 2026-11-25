@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Birdfolk",
+    "file": "portraits/birdfolk.png",
+    "sha256": "53c82c9d8260c577202af9389a4fc55cb4b9dc5d47f6685678e84d946e76f23d",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Cervid",
+    "file": "portraits/cervid.png",
+    "sha256": "d20f553a818b60cc80e03d1b04e5db4229dfabb3b8c31760bd9085f862917518",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Chrysalian",
+    "file": "portraits/chrysalian.png",
+    "sha256": "3da0d1056f0990545f3383d46775cc5c2ca0dcfdf965718410ce21e94ea214b9",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Constructed",
+    "file": "portraits/constructed.png",
+    "sha256": "79bb7a4cfc126982c7dd902b98bacc3d2f5008f703601adf2732ba8d79cf8590",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Dreamborn",
+    "file": "portraits/dreamborn.png",
+    "sha256": "8c4d55ebec35da904b068c74eeedb33d686e54985a4b7262dcc983e452d57ff4",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  }
+]

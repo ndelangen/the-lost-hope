@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Human Apprentice Mage",
+    "source": "https://www.dndbeyond.com/monsters/4485891-human-apprentice-mage",
+    "challenge": "6",
+    "entry": "monster-9a1a166d64d970eea40b72dc",
+    "version": "2bb2d3de82fc6e63ffc76cea",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "slug": "human-apprentice-mage",
+    "kind": "monster",
+    "type": "Humanoid",
+    "encounterStatus": "local-stat-block",
+    "generated": true,
+    "primaryPortraitSha256": "9a92904f434be74c3d235472c87f44690cb18592b9480c494156fd35c4e080ff",
+    "status": "Stat block",
+    "appearance": "A young mage with windswept hair, maroon studded leather, a blue cloak and an open spellbook.",
+    "habitats": [
+      "Settlements",
+      "Arcane colleges",
+      "Patrons’ estates"
+    ]
+  },
+  {
+    "name": "Human Raider",
+    "source": "https://www.dndbeyond.com/monsters/4485897-human-raider",
+    "challenge": "1/2",
+    "entry": "monster-1651d4c30c471edb5896c76c",
+    "version": "ada871a7e08b1055ef463e39",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "slug": "human-raider",
+    "kind": "monster",
+    "type": "Humanoid",
+    "encounterStatus": "local-stat-block",
+    "generated": true,
+    "primaryPortraitSha256": "b0a1e5b192685d099fe64d48bb4cc98d2b2afc75b684fc67d9dffb667cac1a58",
+    "status": "Stat block",
+    "appearance": "A close-shaven raider in a dark padded jack and russet trousers, carrying a round wooden shield and a handaxe.",
+    "habitats": [
+      "Woodland roads",
+      "Remote settlements",
+      "Bandit camps"
+    ]
+  }
+]

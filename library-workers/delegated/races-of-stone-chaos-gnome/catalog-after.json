@@ -1,0 +1,116 @@
+[
+  {
+    "name": "Chaos Gnome",
+    "kind": "species",
+    "group": "3.5 edition",
+    "global": true,
+    "version": {
+      "key": "bc9b9e779337bebf6b5b3d0c",
+      "publication": "Races of Stone (2004)",
+      "edition": "3.5 edition",
+      "source": "https://openlibrary.org/books/OL8144379M",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Humanoid (Gnome)"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Small Humanoid (Gnome), also called imago. Base land speed 20 ft. +2 Dexterity, +2 Constitution, +2 Charisma, −2 Strength.",
+            "Small size gives +1 to AC and attacks and +4 size on Hide. Use Small weapons and three-quarters of Medium lifting and carrying capacity.",
+            "Low-light vision doubles normal human range and preserves color and detail.",
+            "Weapon Familiarity makes the gnome hooked hammer a martial weapon.",
+            "+4 dodge AC against Giant-type creatures while retaining the Dexterity bonus to AC.",
+            "+2 racial bonus on Listen checks and immunity to confusion effects.",
+            "Luck of Chaos (Ex) allows one reroll per day of a roll the gnome just made, before the DM announces success or failure. Keep the new result even if it is worse.",
+            "Spell Power adds +1 effective caster level to spells with the chaos descriptor. It applies to level-dependent spell variables and caster level checks and stacks with other Spell Power abilities.",
+            "Entropic shield is available 1/day regardless of Charisma. At Charisma 10 or higher, daze, flare, and prestidigitation are also available 1/day each. These are caster level 1. Save DC where applicable is 10 + Charisma modifier + spell level.",
+            "Common and Gnome are automatic. Bonus languages are Any. Favored class Sorcerer. Level adjustment +1. The entry grants no racial Hit Dice."
+          ]
+        },
+        {
+          "title": "Original NPC · Orrin Redwick",
+          "lines": [
+            "Lantern mender and Sorcerer.",
+            "Motive. Salvage the paper lanterns that were left under a leaking roof before the procession assembles.",
+            "Hook. Orrin can repair the route lanterns if the party finds him somewhere dry to work.",
+            "Chaos Gnome lantern mender, Sorcerer 1 · Provisional CR 2. ECL 2. · Small Humanoid (Gnome)",
+            "AC 14 · HP 6 (1d4+2) · Speed 20 ft."
+          ]
+        },
+        {
+          "title": "Original NPC · Pella Reedchime",
+          "lines": [
+            "Roadside mediator and Cleric.",
+            "Motive. Resolve a dispute over damaged cargo before sunset strands both wagons at the bridge.",
+            "Hook. Pella can keep the crossing open if the party helps count the damaged goods in front of both drivers.",
+            "Chaos Gnome roadside mediator, Cleric 1 · Provisional CR 2. ECL 2. · Small Humanoid (Gnome)",
+            "AC 18 · HP 10 (1d8+2) · Speed 20 ft."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Orrin Redwick": [
+          {
+            "start": 15,
+            "end": 28,
+            "target": {
+              "name": "Orrin Redwick",
+              "group": "Chaos Gnome",
+              "publication": "Chaos Gnome lantern mender, Sorcerer 1",
+              "local": {
+                "entry": "npc-6f4618e322ae46d3beac0f5d",
+                "version": "a6adfeeddcfa4ca23d1c8c53"
+              }
+            }
+          }
+        ],
+        "Original NPC · Pella Reedchime": [
+          {
+            "start": 15,
+            "end": 30,
+            "target": {
+              "name": "Pella Reedchime",
+              "group": "Chaos Gnome",
+              "publication": "Chaos Gnome roadside mediator, Cleric 1",
+              "local": {
+                "entry": "npc-901519dfd679ec15e7762709",
+                "version": "a04b3f5c25638d1c6071f1e7"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Chaos Gnome": true,
+      "chaos gnome luck of chaos": true,
+      "chaos gnome entropic shield": true,
+      "chaos gnome spell power": true,
+      "chaos gnome lantern mender": true,
+      "chaos gnome roadside mediator": true
+    },
+    "hash": "c25b57959126cec33bcc9ae3dc442927d89efe9e6f8c4cc8c738abc58f1fedf5",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Races of Stone (2004)",
+    "defaultVersionKey": "bc9b9e779337bebf6b5b3d0c",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  }
+]

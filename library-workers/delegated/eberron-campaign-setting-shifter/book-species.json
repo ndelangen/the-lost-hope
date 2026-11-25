@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Shifter",
+    "kind": "species",
+    "publication": "Eberron Campaign Setting (2004)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Medium Humanoid with the Shapechanger subtype. Base land speed 30 ft. +2 Dexterity, −2 Intelligence, −2 Charisma. The setting entry gives no racial Hit Dice or level adjustment.",
+      "Low-light vision doubles human range and preserves color and detail. +2 racial on Balance, Climb, and Jump.",
+      "Common is automatic. Bonus languages are Elven, Gnome, Halfling, and Sylvan. Favored class Ranger.",
+      "Shifting (Su) is a free action once per day. It lasts 3 rounds + the current Constitution modifier, counting an increase from shifting. Each shifter feat adds one round per use, and each pair of shifter feats adds one daily use.",
+      "Choose one of the six original traits at character creation. Its active benefits apply while shifting. Shifting is innate and cannot be transmitted by bites or claws.",
+      "Beasthide gives +2 Constitution and a +2 natural armor bonus to AC.",
+      "Cliffwalk gives +2 Dexterity and a climb speed of 20 ft.",
+      "Longstride gives +2 Dexterity and +10 ft. to base land speed.",
+      "Longtooth gives +2 Strength and a bite with a printed base die of 1d6 and +1 damage per four character levels. Bite once per round. When paired with a weapon, the bite is a secondary natural attack with −5 on the bite attack roll and half the Strength bonus to damage.",
+      "Razorclaw gives +2 Strength and two primary claws with printed base damage 1d4 +1 per four character levels per claw. Use one claw as a standard action or both as a full attack. Each claw attacks at most once per round. In the first printing, using a claw as a light off-hand weapon with a manufactured primary weapon applies −2 to all attacks that round.",
+      "Wildhunt gives +2 Constitution and scent while shifting. Outside shifting, Wildhunt gives +2 to Survival checks.",
+      "Wildhunt scent detects a creature at 30 ft., 60 ft. upwind, or 15 ft. downwind. Double those ranges for strong odors and triple them for overpowering odors. A move action identifies direction. Within 5 ft., pinpoint the source.",
+      "While shifting, a Wildhunt Shifter with Track can follow scent using Survival. A typical fresh trail is DC 10 and adds +2 per hour, with adjustments for odor and group size. Ignore surface and poor-visibility modifiers."
+    ]
+  }
+]

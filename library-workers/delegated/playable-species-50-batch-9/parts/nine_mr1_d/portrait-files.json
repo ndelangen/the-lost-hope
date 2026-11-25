@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Roc",
+    "file": "portraits/roc.png",
+    "sha256": "fdc9f0a6410f31a3a277e3a67a8aef8e9abf7c66105e60542ed90a0ef1c5a2a9",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Roper",
+    "file": "portraits/roper.png",
+    "sha256": "bf9b39efed3639b4cfff1f6abcdc84ba39449e5fe8c0dcabda25b21093370575",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Scarecrow",
+    "file": "portraits/scarecrow.png",
+    "sha256": "c6a97c36c4fc73484ebdf41c325e6570dddd7f0a9bee6a2c2b1785aef9147837",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Shield Guardian",
+    "file": "portraits/shield-guardian.png",
+    "sha256": "3335aa10f9f8655f38127da4b0addf912c8ffebe60640d171d287664573035aa",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Slaad",
+    "file": "portraits/slaad.png",
+    "sha256": "97d918b87b55628a42c1e77652adb699f0e803d25a9ce0fc0dc429443e963201",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  }
+]

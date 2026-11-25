@@ -1,0 +1,252 @@
+{
+  "Carrion Crawler": {
+    "sha256": "86c257e59e4f4ecde5e8a4b2d890cc009aa087d55cac551614484108a4ac9c9d",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Displacer Beast": {
+    "sha256": "3381450a360789033eeda201b9d52188f4db6453b5ca4277b2bc6f94d1054ade",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Hook Horror": {
+    "sha256": "8dbd147e57e9dc329ad81801cbad2e940bcd261010f73aff3fdf835f05e7b77f",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Grick": {
+    "sha256": "e0bc9aa77285a0589bb68da779f838b483bf5e70256dbd091fd34f6da9fb862b",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Phase Spider": {
+    "sha256": "8aac8e92603aaed9f8ccaf8683eb54703e7974e1b6f6eb5a2e70d807d81657ac",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Roper": {
+    "sha256": "8a332f9b2a89586b135a5c46ca3d15a0b30ac3ea114e3aba34db268db0323d63",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Darkmantle": {
+    "sha256": "9f0cfc3684e0c959804e7d63dd9d41b08fc9955f0a33b53cc6ac230e1a891f71",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Cloud Giant": {
+    "sha256": "604c3fc7ce16b82545fb6616787a854936b4c5c4c94ef9acea687024720ff77c",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Fire Giant": {
+    "sha256": "bafcd68566d1746035ecbcc1ddaa87d990acee2cb80580781931f3783f0f7bd3",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Frost Giant": {
+    "sha256": "1ea02d8257b71e6b314c77c42019680090c52361469251099d5ef66c0abeaf7a",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Hill Giant": {
+    "sha256": "c4de51f9ade749d4f55ade83e1c6dbf15546dc45e2d77b5a03082672c2a0749b",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Stone Giant": {
+    "sha256": "e8a34ce39a2bfc5b7af1b9273d2cb903fa6899ebe9be893b3a4eeaa62d1bdcff",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Storm Giant": {
+    "sha256": "ce8a96b637cb5c690aa8f675ff6461fb2152e805080c20548d59f21772da2607",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Fomorian": {
+    "sha256": "39c3d0c014ffe3a7986c27fe0a6cce87104daa5c15691ae79151ef072db07f74",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Barbed Devil": {
+    "sha256": "d1b1db67464668122475c8356bcfea9c5b5051008c9d960197811fd4cc923df4",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Bearded Devil": {
+    "sha256": "f73c1f6fdd8f3b7ccf135e2d57da9e92374909bf423462414c52b9a587b2d7e3",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Chain Devil": {
+    "sha256": "950bf75fd35420435648ecae3f63521fede067561862a21259acb6c8279d68a4",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Arcanaloth": {
+    "sha256": "48217f0d873f968358a0035214ac782004ad5d83588f0f3b84120a16697a925c",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Mezzoloth": {
+    "sha256": "ec3dd0b64601db1d545b3deeed7e8302837da66fd65730071ec1541eb465375c",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Nycaloth": {
+    "sha256": "b14dd6f81df98a7473088d673668c5c6a288511bca0ad102ec3b6a0bc0d75d68",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Ultroloth": {
+    "sha256": "1aa3d48f75ea4312f3244bd05b807bd3f9bbe9ff849a3c817e33aeb31a614db2",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Barlgura": {
+    "sha256": "46d7ea5e4b4364da1484d5bf0f51a038020684090dd6af57ec3433824e7ab036",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Chasme": {
+    "sha256": "bdc224b74fd5496fffef253b764a6016a5fbc2d9695f24526da3f5321f5f891c",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Manes": {
+    "sha256": "a81927e109442bf7d4c6a39bed8758ca4501e0fd3930b762ef9bca0b5ece33a3",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Shadow Demon": {
+    "sha256": "1524c648a6ef833f82033c56c8425a9c958a107fc9602459a9aff65ea6bc862e",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Yochlol": {
+    "sha256": "35e8a4449cd2e71d2033949897c4bc4dde945d58715936e5c6c89fb368fd8daf",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Spined Devil": {
+    "sha256": "0e168e03ad37ba2a56bc9be4c37ed6be0ba196142fd8f62c42e3f4258cbfb1d9",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Lemure": {
+    "sha256": "4bd4c5be7e22881bc9e1edd537918d7bf070dc045f62d2a9dc9c09c7c760c4fe",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Gnoll Fang of Yeenoghu": {
+    "sha256": "c81f667da19c0658721f599b66f3b495e8b1293f7de33cf77594b661b07d4169",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Gnoll Pack Lord": {
+    "sha256": "44ecbd0623b6aafacb2266145390c7c29e85880275f20d2cbd8f9a6f0159eb0e",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Goblin Boss": {
+    "sha256": "97aec8f9c71b1b83b46bdc359cd6550b795215a6dba1a23b73fb8c2c758282a8",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Hobgoblin Captain": {
+    "sha256": "159bb45e6e16e99403bb117794f46a575be254a24b788b80fd2986c14f1a5cb7",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Hobgoblin Warlord": {
+    "sha256": "2f6c348abec49bf62cc25fdffcedd0fdbeed8a490af8ed13eabc05915247cad4",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Grimlock": {
+    "sha256": "0577e62576f77d0f2a047640acc71408f5b9f46332657284b5e3d42fec0108dc",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Kuo-toa": {
+    "sha256": "0596c2ae3487479706e150c99df1dff75034ea605f277874a3474b4e2135bf9e",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Ancient Brass Dragon": {
+    "sha256": "a414234cc51f7d7600bbe41fc368dc351bf214b2d3753b06f4ce25af059e0760",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Ancient Bronze Dragon": {
+    "sha256": "e7b18c582ddbe106d5dccfc4948a071e1d0112a227668a221abdc3b5aa837f8c",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Ancient Copper Dragon": {
+    "sha256": "d76dcae8cf2068fee744b0084a5db01a3a8ca9f33776f1ec2a4d53e9a3b457c8",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Ancient Gold Dragon": {
+    "sha256": "d8acc026f4cea2e467e98b4bf424735187107118381db0f43668ccc5b45ad36a",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Ancient Silver Dragon": {
+    "sha256": "029853120c328c04d9d5ae9be1cfaa937838b9a262112547c63143a388fd60ee",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Young Black Dragon": {
+    "sha256": "d154947fdce4f4497601e24738494627fa7f8ce120a6c2c940bcb3e60d8902f2",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Young Blue Dragon": {
+    "sha256": "4fcfcaa3afb777d887b9afadb45da30e5e9d68f77db8241dffffb02fa42a639a",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Young Green Dragon": {
+    "sha256": "7192442bcadf2e75e59fb98fba0029b245912134c44cd16e18725bbfef7dce3f",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Kuo-toa Archpriest": {
+    "sha256": "ca92ac8c767ae2cd918d5df832dcb843282a4728d05a8bdf913e57c036f91856",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Kuo-toa Monitor": {
+    "sha256": "e6eb41ae758b5c8003f30b1734806f0eab41fee7fdc153a7543b400cc89f7af0",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Kuo-toa Whip": {
+    "sha256": "512f892748e18d2c202b7ab555ba6e022ad3cd071c94cd84c0c03d95f4bd336b",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Quaggoth": {
+    "sha256": "492ac7da687276934918d0fb3eb18fd0ceff5e74c92c0db6005beac812a91235",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Quaggoth Thonot": {
+    "sha256": "dca6d95d942cd6754aa92194d8a3e85601e74e31e0e8795c828149e30565f483",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Sahuagin Baron": {
+    "sha256": "155dd27a9c069f4429cbfb96079bdaaaee90fe5765837f278534d72d82d994fa",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Merrow": {
+    "sha256": "ee4ef2d5ebf24233ef68ff1e175c6416e478a58ace87931a5a2bf03e52da576c",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  }
+}

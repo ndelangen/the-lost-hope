@@ -1,0 +1,119 @@
+[
+  {
+    "name": "Fire Elemental",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "publisher": "Wizards of the Coast",
+    "type": "Elemental (Fire)",
+    "url": "",
+    "pages": "167, Table A–16",
+    "pageBasis": "Printed and viewer page numbers coincide in this scan.",
+    "evidence": "Vell uses the second tier, the first with Burn and Weapon Finesse. The skill calculation floors the low Intelligence allotment at 1 point per HD before the first-level multiplier. The 2000 Monster Manual Fire Elemental entry supplies the duration of ignition.",
+    "additionalSources": [
+      {
+        "name": "Savage Species, skills and monster class construction",
+        "url": ""
+      },
+      {
+        "name": "Wizards of the Coast 3.0 Monster Manual, Fire Elemental, pp. 83–84",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Fire Giant",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "publisher": "Wizards of the Coast",
+    "type": "Giant (Fire)",
+    "url": "",
+    "pages": "167–168, Table A–17",
+    "pageBasis": "Printed and viewer page numbers coincide in this scan.",
+    "evidence": "Dorran uses class level 6 to have rock catching, with the 30-ft./1d6 rock attack. The class stays Medium through level 10. The encounter uses the class’s ordinary rocks and its fire subtype as printed.",
+    "additionalSources": [
+      {
+        "name": "Savage Species, class advancement and size",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Flesh Golem",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "publisher": "Wizards of the Coast",
+    "type": "Construct",
+    "url": "",
+    "pages": "169–170, Table A–19",
+    "pageBasis": "Printed and viewer page numbers coincide in this scan.",
+    "evidence": "Sedge has only spell resistance, since magic immunity begins at level 9. Use 3d10 with no Constitution modifier. The construct exception allowing natural healing and the absence of skill points are both explicit in this class.",
+    "additionalSources": []
+  },
+  {
+    "name": "Frost Giant",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "publisher": "Wizards of the Coast",
+    "type": "Giant (Cold)",
+    "url": "",
+    "pages": "170–171, Table A–20",
+    "pageBasis": "Printed and viewer page numbers coincide in this scan.",
+    "evidence": "The published first Large tier is 11. Rocks stay at the level-10 damage and range until 14. Savage Species updates both energy subtypes in its introduction and gives the Frost equivalent in the cryo template. The greataxe is built using the book’s enlarged weapon table.",
+    "additionalSources": [
+      {
+        "name": "Savage Species, subtype changes",
+        "url": ""
+      },
+      {
+        "name": "Savage Species, larger weapon damage",
+        "url": ""
+      },
+      {
+        "name": "Savage Species, Cold subtype example",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Ghaele",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "publisher": "Wizards of the Coast",
+    "type": "Outsider (Chaotic, Good)",
+    "url": "",
+    "pages": "171–173, Table A–21",
+    "pageBasis": "Printed and viewer page numbers coincide in this scan.",
+    "evidence": "Ghaele 7 has 6 racial HD, caster level 7 for cleric casting and caster level 6 for lesser spell-like abilities. The class names five domains as additions to the normal spell list without granting domain slots, powers, or turn undead explicitly. The build uses its base and Wisdom bonus slots. The monster’s attack line clarifies that the 300-ft. light rays are ranged touch attacks. Treat the globe as lacking physical gear and natural armor while incorporeal. Armor Proficiency (Light) is a selected feat for the humanoid form’s chain shirt.",
+    "additionalSources": [
+      {
+        "name": "Wizards of the Coast 3.0 SRD, cleric spell slots and preparation",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Cleric"
+      },
+      {
+        "name": "Wizards of the Coast 3.0 SRD, cure critical wounds",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Cure_Critical_Wounds"
+      },
+      {
+        "name": "Wizards of the Coast 3.0 SRD, magic circle against evil",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Magic_Circle_against_Evil"
+      },
+      {
+        "name": "Wizards of the Coast 3.0 SRD, improved invisibility",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Invisibility,_Improved"
+      },
+      {
+        "name": "Wizards of the Coast 3.0 SRD, wall of force",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Wall_of_Force"
+      },
+      {
+        "name": "Wizards of the Coast 3.0 Monster Manual, Ghaele, pp. 30–32",
+        "url": ""
+      }
+    ]
+  }
+]

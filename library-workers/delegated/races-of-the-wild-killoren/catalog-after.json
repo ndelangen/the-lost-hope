@@ -1,0 +1,635 @@
+[
+  {
+    "name": "Killoren",
+    "kind": "species",
+    "group": "3.5 edition",
+    "otherKindExists": false,
+    "global": true,
+    "version": {
+      "key": "d8ed31dc5f0c81ba7f24fcdb",
+      "publication": "Races of the Wild (2005) · Ancient",
+      "edition": "3.5 edition",
+      "source": "https://books.google.co.uk/books/about/Races_of_the_Wild.html?id=kjsBAAAACAAJ",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Fey"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Medium Fey with 30-ft. land speed. Hit Dice come from character classes. Use the first-level class progression with no racial ability-score adjustment. Humanoid-only effects such as charm person and hold person do not apply.",
+            "Low-light vision retains color and detail and reaches twice human distance in dim light. Immune to magical sleep. +2 racial bonus on saving throws against enchantment spells and effects.",
+            "+2 racial bonus to Handle Animal and Survival. Cold Iron Anathema (Su) imposes −2 on attack rolls with wholly or partly cold-iron weapons, including attacks using cold-iron arrows.",
+            "Manifest Nature’s Might (Su): choose one aspect after 10 minutes of quiet meditation at sunrise. That aspect remains active until the next morning. The catalog choices are reference views of the same species.",
+            "Common and Sylvan are automatic. Bonus languages Aquan, Auran, Elven, Gnome, Ignan, Terran. Favored class Druid.",
+            "Aging thresholds are middle age at 30 and old age at 100. Killoren have no venerable stage or maximum age.",
+            "Aspect of the Ancient: add a racial bonus to Knowledge (nature) equal to Hit Dice. Gain another +2 on saves against enchantments, stacking with the usual +2 for a total racial bonus of +4. Hair is white and eyes sky blue.",
+            "Optional Killoren Ancient feat from p. 151: after 10 minutes of uninterrupted communion over a specific question, make any Knowledge check with +4 insight. On success it yields information as a trained check would, even if you lack ranks."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [
+      {
+        "key": "7ba17e7f30119a0d389d679c",
+        "publication": "Races of the Wild (2005) · Destroyer",
+        "edition": "3.5 edition",
+        "source": "https://books.google.co.uk/books/about/Races_of_the_Wild.html?id=kjsBAAAACAAJ",
+        "status": "Traits summary",
+        "images": [],
+        "stats": [
+          [
+            "Type",
+            "Fey"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Species traits",
+            "lines": [
+              "Medium Fey with 30-ft. land speed. Hit Dice come from character classes. Use the first-level class progression with no racial ability-score adjustment. Humanoid-only effects such as charm person and hold person do not apply.",
+              "Low-light vision retains color and detail and reaches twice human distance in dim light. Immune to magical sleep. +2 racial bonus on saving throws against enchantment spells and effects.",
+              "+2 racial bonus to Handle Animal and Survival. Cold Iron Anathema (Su) imposes −2 on attack rolls with wholly or partly cold-iron weapons, including attacks using cold-iron arrows.",
+              "Manifest Nature’s Might (Su): choose one aspect after 10 minutes of quiet meditation at sunrise. That aspect remains active until the next morning. The catalog choices are reference views of the same species.",
+              "Common and Sylvan are automatic. Bonus languages Aquan, Auran, Elven, Gnome, Ignan, Terran. Favored class Druid.",
+              "Aging thresholds are middle age at 30 and old age at 100. Killoren have no venerable stage or maximum age.",
+              "Aspect of the Destroyer: choose a smite attack at most once per hour, with a daily cap equal to your Charisma bonus (minimum 1). Add the Charisma bonus to the attack and +1 damage per Hit Die. Valid targets are aberrations, constructs, humanoids, oozes, outsiders, and undead. An ineligible target still uses the hourly and daily use. Hair and eyes become lusterless black.",
+              "Optional Killoren Destroyer feat from p. 151: a foe hit by an eligible smite must make a Will save (DC 10 + half character level, rounded down, + Charisma modifier) or become dazed for 1 round."
+            ]
+          },
+          {
+            "title": "Original NPC · Daranvar",
+            "lines": [
+              "Destroyer aspect. Grove threshold steward and Fighter.",
+              "Motive. Keep a stray construct out of a seedling grove while a druid finds its control mark.",
+              "Hook. Daranvar can hold the crossing while the party checks the construct for its maker’s mark.",
+              "Destroyer Killoren grove steward, Fighter 1 · Provisional CR 1. ECL 1. · Medium Fey",
+              "AC 15 · HP 11 (1d10+1) · Speed 30 ft."
+            ]
+          }
+        ],
+        "portrait": {
+          "url": "",
+          "credit": "OpenAI ImageGen · The Lost Hope"
+        },
+        "inline": {
+          "Original NPC · Daranvar": [
+            {
+              "start": 15,
+              "end": 23,
+              "target": {
+                "name": "Daranvar",
+                "group": "Killoren",
+                "publication": "Destroyer Killoren grove steward, Fighter 1",
+                "local": {
+                  "entry": "npc-3750f51d808fc64b0475463d",
+                  "version": "16880ed61ae80cf8ed4f1341"
+                }
+              }
+            }
+          ],
+          "Hook. Daranvar can hold the crossing while the party checks the construct for its maker’s mark.": [
+            {
+              "start": 6,
+              "end": 14,
+              "target": {
+                "name": "Daranvar",
+                "group": "Killoren",
+                "publication": "Destroyer Killoren grove steward, Fighter 1",
+                "local": {
+                  "entry": "npc-3750f51d808fc64b0475463d",
+                  "version": "16880ed61ae80cf8ed4f1341"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "24fb1ad6b012af3ac6434f33",
+        "publication": "Races of the Wild (2005) · Hunter",
+        "edition": "3.5 edition",
+        "source": "https://books.google.co.uk/books/about/Races_of_the_Wild.html?id=kjsBAAAACAAJ",
+        "status": "Traits summary",
+        "images": [],
+        "stats": [
+          [
+            "Type",
+            "Fey"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Species traits",
+            "lines": [
+              "Medium Fey with 30-ft. land speed. Hit Dice come from character classes. Use the first-level class progression with no racial ability-score adjustment. Humanoid-only effects such as charm person and hold person do not apply.",
+              "Low-light vision retains color and detail and reaches twice human distance in dim light. Immune to magical sleep. +2 racial bonus on saving throws against enchantment spells and effects.",
+              "+2 racial bonus to Handle Animal and Survival. Cold Iron Anathema (Su) imposes −2 on attack rolls with wholly or partly cold-iron weapons, including attacks using cold-iron arrows.",
+              "Manifest Nature’s Might (Su): choose one aspect after 10 minutes of quiet meditation at sunrise. That aspect remains active until the next morning. The catalog choices are reference views of the same species.",
+              "Common and Sylvan are automatic. Bonus languages Aquan, Auran, Elven, Gnome, Ignan, Terran. Favored class Druid.",
+              "Aging thresholds are middle age at 30 and old age at 100. Killoren have no venerable stage or maximum age.",
+              "Aspect of the Hunter: +2 racial bonus to Hide, Listen, Move Silently, Spot, and initiative checks. Hair and eyes turn deep forest green and skin takes on a deeper brown tone.",
+              "Optional Killoren Hunter feat from p. 151: use a move action to pinpoint a living creature within 30 ft. if you have line of effect. A creature you cannot see retains total concealment."
+            ]
+          },
+          {
+            "title": "Original NPC · Irimel",
+            "lines": [
+              "Hunter aspect. Fog trail ward and Rogue.",
+              "Motive. Guide the last group of travellers around a flooded stretch before the markers go under.",
+              "Hook. Irimel can find old warning lines and pinpoint someone calling from the fog if the party keeps the trail open.",
+              "Hunter Killoren trail ward, Rogue 1 · Provisional CR 1. ECL 1. · Medium Fey",
+              "AC 14 · HP 7 (1d6+1) · Speed 30 ft."
+            ]
+          }
+        ],
+        "portrait": {
+          "url": "",
+          "credit": "OpenAI ImageGen · The Lost Hope"
+        },
+        "inline": {
+          "Original NPC · Irimel": [
+            {
+              "start": 15,
+              "end": 21,
+              "target": {
+                "name": "Irimel",
+                "group": "Killoren",
+                "publication": "Hunter Killoren trail ward, Rogue 1",
+                "local": {
+                  "entry": "npc-a32f540c3b07ac35a670eddf",
+                  "version": "17c119458234e4664625e9c8"
+                }
+              }
+            }
+          ],
+          "Hook. Irimel can find old warning lines and pinpoint someone calling from the fog if the party keeps the trail open.": [
+            {
+              "start": 6,
+              "end": 12,
+              "target": {
+                "name": "Irimel",
+                "group": "Killoren",
+                "publication": "Hunter Killoren trail ward, Rogue 1",
+                "local": {
+                  "entry": "npc-a32f540c3b07ac35a670eddf",
+                  "version": "17c119458234e4664625e9c8"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "queries": {
+      "Killoren": true,
+      "Ancient killoren": true,
+      "killoren cold iron anathema": true,
+      "killoren fog trail ward": true,
+      "killoren grove threshold steward": true
+    },
+    "hash": "4a178da1f23535bbce9eb6c906054e37faaf38c805eb2b57d61e0c051cb1bd62",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Races of the Wild (2005) · Ancient",
+    "defaultVersionKey": "d8ed31dc5f0c81ba7f24fcdb",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  },
+  {
+    "name": "Killoren",
+    "kind": "species",
+    "group": "3.5 edition",
+    "otherKindExists": false,
+    "global": true,
+    "version": {
+      "key": "7ba17e7f30119a0d389d679c",
+      "publication": "Races of the Wild (2005) · Destroyer",
+      "edition": "3.5 edition",
+      "source": "https://books.google.co.uk/books/about/Races_of_the_Wild.html?id=kjsBAAAACAAJ",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Fey"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Medium Fey with 30-ft. land speed. Hit Dice come from character classes. Use the first-level class progression with no racial ability-score adjustment. Humanoid-only effects such as charm person and hold person do not apply.",
+            "Low-light vision retains color and detail and reaches twice human distance in dim light. Immune to magical sleep. +2 racial bonus on saving throws against enchantment spells and effects.",
+            "+2 racial bonus to Handle Animal and Survival. Cold Iron Anathema (Su) imposes −2 on attack rolls with wholly or partly cold-iron weapons, including attacks using cold-iron arrows.",
+            "Manifest Nature’s Might (Su): choose one aspect after 10 minutes of quiet meditation at sunrise. That aspect remains active until the next morning. The catalog choices are reference views of the same species.",
+            "Common and Sylvan are automatic. Bonus languages Aquan, Auran, Elven, Gnome, Ignan, Terran. Favored class Druid.",
+            "Aging thresholds are middle age at 30 and old age at 100. Killoren have no venerable stage or maximum age.",
+            "Aspect of the Destroyer: choose a smite attack at most once per hour, with a daily cap equal to your Charisma bonus (minimum 1). Add the Charisma bonus to the attack and +1 damage per Hit Die. Valid targets are aberrations, constructs, humanoids, oozes, outsiders, and undead. An ineligible target still uses the hourly and daily use. Hair and eyes become lusterless black.",
+            "Optional Killoren Destroyer feat from p. 151: a foe hit by an eligible smite must make a Will save (DC 10 + half character level, rounded down, + Charisma modifier) or become dazed for 1 round."
+          ]
+        },
+        {
+          "title": "Original NPC · Daranvar",
+          "lines": [
+            "Destroyer aspect. Grove threshold steward and Fighter.",
+            "Motive. Keep a stray construct out of a seedling grove while a druid finds its control mark.",
+            "Hook. Daranvar can hold the crossing while the party checks the construct for its maker’s mark.",
+            "Destroyer Killoren grove steward, Fighter 1 · Provisional CR 1. ECL 1. · Medium Fey",
+            "AC 15 · HP 11 (1d10+1) · Speed 30 ft."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Daranvar": [
+          {
+            "start": 15,
+            "end": 23,
+            "target": {
+              "name": "Daranvar",
+              "group": "Killoren",
+              "publication": "Destroyer Killoren grove steward, Fighter 1",
+              "local": {
+                "entry": "npc-3750f51d808fc64b0475463d",
+                "version": "16880ed61ae80cf8ed4f1341"
+              }
+            }
+          }
+        ],
+        "Hook. Daranvar can hold the crossing while the party checks the construct for its maker’s mark.": [
+          {
+            "start": 6,
+            "end": 14,
+            "target": {
+              "name": "Daranvar",
+              "group": "Killoren",
+              "publication": "Destroyer Killoren grove steward, Fighter 1",
+              "local": {
+                "entry": "npc-3750f51d808fc64b0475463d",
+                "version": "16880ed61ae80cf8ed4f1341"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [
+      {
+        "key": "d8ed31dc5f0c81ba7f24fcdb",
+        "publication": "Races of the Wild (2005) · Ancient",
+        "edition": "3.5 edition",
+        "source": "https://books.google.co.uk/books/about/Races_of_the_Wild.html?id=kjsBAAAACAAJ",
+        "status": "Traits summary",
+        "images": [],
+        "stats": [
+          [
+            "Type",
+            "Fey"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Species traits",
+            "lines": [
+              "Medium Fey with 30-ft. land speed. Hit Dice come from character classes. Use the first-level class progression with no racial ability-score adjustment. Humanoid-only effects such as charm person and hold person do not apply.",
+              "Low-light vision retains color and detail and reaches twice human distance in dim light. Immune to magical sleep. +2 racial bonus on saving throws against enchantment spells and effects.",
+              "+2 racial bonus to Handle Animal and Survival. Cold Iron Anathema (Su) imposes −2 on attack rolls with wholly or partly cold-iron weapons, including attacks using cold-iron arrows.",
+              "Manifest Nature’s Might (Su): choose one aspect after 10 minutes of quiet meditation at sunrise. That aspect remains active until the next morning. The catalog choices are reference views of the same species.",
+              "Common and Sylvan are automatic. Bonus languages Aquan, Auran, Elven, Gnome, Ignan, Terran. Favored class Druid.",
+              "Aging thresholds are middle age at 30 and old age at 100. Killoren have no venerable stage or maximum age.",
+              "Aspect of the Ancient: add a racial bonus to Knowledge (nature) equal to Hit Dice. Gain another +2 on saves against enchantments, stacking with the usual +2 for a total racial bonus of +4. Hair is white and eyes sky blue.",
+              "Optional Killoren Ancient feat from p. 151: after 10 minutes of uninterrupted communion over a specific question, make any Knowledge check with +4 insight. On success it yields information as a trained check would, even if you lack ranks."
+            ]
+          }
+        ],
+        "portrait": {
+          "url": "",
+          "credit": "OpenAI ImageGen · The Lost Hope"
+        }
+      },
+      {
+        "key": "24fb1ad6b012af3ac6434f33",
+        "publication": "Races of the Wild (2005) · Hunter",
+        "edition": "3.5 edition",
+        "source": "https://books.google.co.uk/books/about/Races_of_the_Wild.html?id=kjsBAAAACAAJ",
+        "status": "Traits summary",
+        "images": [],
+        "stats": [
+          [
+            "Type",
+            "Fey"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Species traits",
+            "lines": [
+              "Medium Fey with 30-ft. land speed. Hit Dice come from character classes. Use the first-level class progression with no racial ability-score adjustment. Humanoid-only effects such as charm person and hold person do not apply.",
+              "Low-light vision retains color and detail and reaches twice human distance in dim light. Immune to magical sleep. +2 racial bonus on saving throws against enchantment spells and effects.",
+              "+2 racial bonus to Handle Animal and Survival. Cold Iron Anathema (Su) imposes −2 on attack rolls with wholly or partly cold-iron weapons, including attacks using cold-iron arrows.",
+              "Manifest Nature’s Might (Su): choose one aspect after 10 minutes of quiet meditation at sunrise. That aspect remains active until the next morning. The catalog choices are reference views of the same species.",
+              "Common and Sylvan are automatic. Bonus languages Aquan, Auran, Elven, Gnome, Ignan, Terran. Favored class Druid.",
+              "Aging thresholds are middle age at 30 and old age at 100. Killoren have no venerable stage or maximum age.",
+              "Aspect of the Hunter: +2 racial bonus to Hide, Listen, Move Silently, Spot, and initiative checks. Hair and eyes turn deep forest green and skin takes on a deeper brown tone.",
+              "Optional Killoren Hunter feat from p. 151: use a move action to pinpoint a living creature within 30 ft. if you have line of effect. A creature you cannot see retains total concealment."
+            ]
+          },
+          {
+            "title": "Original NPC · Irimel",
+            "lines": [
+              "Hunter aspect. Fog trail ward and Rogue.",
+              "Motive. Guide the last group of travellers around a flooded stretch before the markers go under.",
+              "Hook. Irimel can find old warning lines and pinpoint someone calling from the fog if the party keeps the trail open.",
+              "Hunter Killoren trail ward, Rogue 1 · Provisional CR 1. ECL 1. · Medium Fey",
+              "AC 14 · HP 7 (1d6+1) · Speed 30 ft."
+            ]
+          }
+        ],
+        "portrait": {
+          "url": "",
+          "credit": "OpenAI ImageGen · The Lost Hope"
+        },
+        "inline": {
+          "Original NPC · Irimel": [
+            {
+              "start": 15,
+              "end": 21,
+              "target": {
+                "name": "Irimel",
+                "group": "Killoren",
+                "publication": "Hunter Killoren trail ward, Rogue 1",
+                "local": {
+                  "entry": "npc-a32f540c3b07ac35a670eddf",
+                  "version": "17c119458234e4664625e9c8"
+                }
+              }
+            }
+          ],
+          "Hook. Irimel can find old warning lines and pinpoint someone calling from the fog if the party keeps the trail open.": [
+            {
+              "start": 6,
+              "end": 12,
+              "target": {
+                "name": "Irimel",
+                "group": "Killoren",
+                "publication": "Hunter Killoren trail ward, Rogue 1",
+                "local": {
+                  "entry": "npc-a32f540c3b07ac35a670eddf",
+                  "version": "17c119458234e4664625e9c8"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "queries": {
+      "Killoren": true,
+      "Destroyer killoren": true,
+      "killoren cold iron anathema": true,
+      "killoren fog trail ward": true,
+      "killoren grove threshold steward": true
+    },
+    "hash": "4a178da1f23535bbce9eb6c906054e37faaf38c805eb2b57d61e0c051cb1bd62",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Races of the Wild (2005) · Ancient",
+    "defaultVersionKey": "d8ed31dc5f0c81ba7f24fcdb",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  },
+  {
+    "name": "Killoren",
+    "kind": "species",
+    "group": "3.5 edition",
+    "otherKindExists": false,
+    "global": true,
+    "version": {
+      "key": "24fb1ad6b012af3ac6434f33",
+      "publication": "Races of the Wild (2005) · Hunter",
+      "edition": "3.5 edition",
+      "source": "https://books.google.co.uk/books/about/Races_of_the_Wild.html?id=kjsBAAAACAAJ",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Fey"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Medium Fey with 30-ft. land speed. Hit Dice come from character classes. Use the first-level class progression with no racial ability-score adjustment. Humanoid-only effects such as charm person and hold person do not apply.",
+            "Low-light vision retains color and detail and reaches twice human distance in dim light. Immune to magical sleep. +2 racial bonus on saving throws against enchantment spells and effects.",
+            "+2 racial bonus to Handle Animal and Survival. Cold Iron Anathema (Su) imposes −2 on attack rolls with wholly or partly cold-iron weapons, including attacks using cold-iron arrows.",
+            "Manifest Nature’s Might (Su): choose one aspect after 10 minutes of quiet meditation at sunrise. That aspect remains active until the next morning. The catalog choices are reference views of the same species.",
+            "Common and Sylvan are automatic. Bonus languages Aquan, Auran, Elven, Gnome, Ignan, Terran. Favored class Druid.",
+            "Aging thresholds are middle age at 30 and old age at 100. Killoren have no venerable stage or maximum age.",
+            "Aspect of the Hunter: +2 racial bonus to Hide, Listen, Move Silently, Spot, and initiative checks. Hair and eyes turn deep forest green and skin takes on a deeper brown tone.",
+            "Optional Killoren Hunter feat from p. 151: use a move action to pinpoint a living creature within 30 ft. if you have line of effect. A creature you cannot see retains total concealment."
+          ]
+        },
+        {
+          "title": "Original NPC · Irimel",
+          "lines": [
+            "Hunter aspect. Fog trail ward and Rogue.",
+            "Motive. Guide the last group of travellers around a flooded stretch before the markers go under.",
+            "Hook. Irimel can find old warning lines and pinpoint someone calling from the fog if the party keeps the trail open.",
+            "Hunter Killoren trail ward, Rogue 1 · Provisional CR 1. ECL 1. · Medium Fey",
+            "AC 14 · HP 7 (1d6+1) · Speed 30 ft."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Irimel": [
+          {
+            "start": 15,
+            "end": 21,
+            "target": {
+              "name": "Irimel",
+              "group": "Killoren",
+              "publication": "Hunter Killoren trail ward, Rogue 1",
+              "local": {
+                "entry": "npc-a32f540c3b07ac35a670eddf",
+                "version": "17c119458234e4664625e9c8"
+              }
+            }
+          }
+        ],
+        "Hook. Irimel can find old warning lines and pinpoint someone calling from the fog if the party keeps the trail open.": [
+          {
+            "start": 6,
+            "end": 12,
+            "target": {
+              "name": "Irimel",
+              "group": "Killoren",
+              "publication": "Hunter Killoren trail ward, Rogue 1",
+              "local": {
+                "entry": "npc-a32f540c3b07ac35a670eddf",
+                "version": "17c119458234e4664625e9c8"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [
+      {
+        "key": "d8ed31dc5f0c81ba7f24fcdb",
+        "publication": "Races of the Wild (2005) · Ancient",
+        "edition": "3.5 edition",
+        "source": "https://books.google.co.uk/books/about/Races_of_the_Wild.html?id=kjsBAAAACAAJ",
+        "status": "Traits summary",
+        "images": [],
+        "stats": [
+          [
+            "Type",
+            "Fey"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Species traits",
+            "lines": [
+              "Medium Fey with 30-ft. land speed. Hit Dice come from character classes. Use the first-level class progression with no racial ability-score adjustment. Humanoid-only effects such as charm person and hold person do not apply.",
+              "Low-light vision retains color and detail and reaches twice human distance in dim light. Immune to magical sleep. +2 racial bonus on saving throws against enchantment spells and effects.",
+              "+2 racial bonus to Handle Animal and Survival. Cold Iron Anathema (Su) imposes −2 on attack rolls with wholly or partly cold-iron weapons, including attacks using cold-iron arrows.",
+              "Manifest Nature’s Might (Su): choose one aspect after 10 minutes of quiet meditation at sunrise. That aspect remains active until the next morning. The catalog choices are reference views of the same species.",
+              "Common and Sylvan are automatic. Bonus languages Aquan, Auran, Elven, Gnome, Ignan, Terran. Favored class Druid.",
+              "Aging thresholds are middle age at 30 and old age at 100. Killoren have no venerable stage or maximum age.",
+              "Aspect of the Ancient: add a racial bonus to Knowledge (nature) equal to Hit Dice. Gain another +2 on saves against enchantments, stacking with the usual +2 for a total racial bonus of +4. Hair is white and eyes sky blue.",
+              "Optional Killoren Ancient feat from p. 151: after 10 minutes of uninterrupted communion over a specific question, make any Knowledge check with +4 insight. On success it yields information as a trained check would, even if you lack ranks."
+            ]
+          }
+        ],
+        "portrait": {
+          "url": "",
+          "credit": "OpenAI ImageGen · The Lost Hope"
+        }
+      },
+      {
+        "key": "7ba17e7f30119a0d389d679c",
+        "publication": "Races of the Wild (2005) · Destroyer",
+        "edition": "3.5 edition",
+        "source": "https://books.google.co.uk/books/about/Races_of_the_Wild.html?id=kjsBAAAACAAJ",
+        "status": "Traits summary",
+        "images": [],
+        "stats": [
+          [
+            "Type",
+            "Fey"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Species traits",
+            "lines": [
+              "Medium Fey with 30-ft. land speed. Hit Dice come from character classes. Use the first-level class progression with no racial ability-score adjustment. Humanoid-only effects such as charm person and hold person do not apply.",
+              "Low-light vision retains color and detail and reaches twice human distance in dim light. Immune to magical sleep. +2 racial bonus on saving throws against enchantment spells and effects.",
+              "+2 racial bonus to Handle Animal and Survival. Cold Iron Anathema (Su) imposes −2 on attack rolls with wholly or partly cold-iron weapons, including attacks using cold-iron arrows.",
+              "Manifest Nature’s Might (Su): choose one aspect after 10 minutes of quiet meditation at sunrise. That aspect remains active until the next morning. The catalog choices are reference views of the same species.",
+              "Common and Sylvan are automatic. Bonus languages Aquan, Auran, Elven, Gnome, Ignan, Terran. Favored class Druid.",
+              "Aging thresholds are middle age at 30 and old age at 100. Killoren have no venerable stage or maximum age.",
+              "Aspect of the Destroyer: choose a smite attack at most once per hour, with a daily cap equal to your Charisma bonus (minimum 1). Add the Charisma bonus to the attack and +1 damage per Hit Die. Valid targets are aberrations, constructs, humanoids, oozes, outsiders, and undead. An ineligible target still uses the hourly and daily use. Hair and eyes become lusterless black.",
+              "Optional Killoren Destroyer feat from p. 151: a foe hit by an eligible smite must make a Will save (DC 10 + half character level, rounded down, + Charisma modifier) or become dazed for 1 round."
+            ]
+          },
+          {
+            "title": "Original NPC · Daranvar",
+            "lines": [
+              "Destroyer aspect. Grove threshold steward and Fighter.",
+              "Motive. Keep a stray construct out of a seedling grove while a druid finds its control mark.",
+              "Hook. Daranvar can hold the crossing while the party checks the construct for its maker’s mark.",
+              "Destroyer Killoren grove steward, Fighter 1 · Provisional CR 1. ECL 1. · Medium Fey",
+              "AC 15 · HP 11 (1d10+1) · Speed 30 ft."
+            ]
+          }
+        ],
+        "portrait": {
+          "url": "",
+          "credit": "OpenAI ImageGen · The Lost Hope"
+        },
+        "inline": {
+          "Original NPC · Daranvar": [
+            {
+              "start": 15,
+              "end": 23,
+              "target": {
+                "name": "Daranvar",
+                "group": "Killoren",
+                "publication": "Destroyer Killoren grove steward, Fighter 1",
+                "local": {
+                  "entry": "npc-3750f51d808fc64b0475463d",
+                  "version": "16880ed61ae80cf8ed4f1341"
+                }
+              }
+            }
+          ],
+          "Hook. Daranvar can hold the crossing while the party checks the construct for its maker’s mark.": [
+            {
+              "start": 6,
+              "end": 14,
+              "target": {
+                "name": "Daranvar",
+                "group": "Killoren",
+                "publication": "Destroyer Killoren grove steward, Fighter 1",
+                "local": {
+                  "entry": "npc-3750f51d808fc64b0475463d",
+                  "version": "16880ed61ae80cf8ed4f1341"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "queries": {
+      "Killoren": true,
+      "Hunter killoren": true,
+      "killoren cold iron anathema": true,
+      "killoren fog trail ward": true,
+      "killoren grove threshold steward": true
+    },
+    "hash": "4a178da1f23535bbce9eb6c906054e37faaf38c805eb2b57d61e0c051cb1bd62",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Races of the Wild (2005) · Ancient",
+    "defaultVersionKey": "d8ed31dc5f0c81ba7f24fcdb",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  }
+]

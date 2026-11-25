@@ -1,0 +1,287 @@
+[
+  {
+    "name": "Draconian Foot Soldier",
+    "statBlock": {
+      "name": "Draconian Foot Soldier",
+      "publication": "Fizban's Treasury of Dragons",
+      "edition": "2014 fifth edition",
+      "printedPage": 178,
+      "classification": "Medium monstrosity, any alignment",
+      "ac": 14,
+      "hp": 22,
+      "hitDice": "4d8 + 4",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 8
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 9,
+      "description": "A rank-and-file draconian bred from a corrupted dragon egg. Its corpse hardens into stone and gives off a gas that can petrify nearby creatures.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Draconic.",
+        "Traits": "Controlled Fall. When the draconian falls without being incapacitated, reduce the distance used to calculate its falling damage by up to 100 ft.\nDeath Throes. At 0 HP, the draconian turns to stone and releases petrifying gas. Each creature within 5 ft. must pass a DC 11 Constitution saving throw or be restrained. A restrained creature repeats the save at the end of its next turn. A success ends the effect. A failure petrifies it for 1 minute. The draconian’s body crumbles to dust after 1 minute.",
+        "Actions": "Multiattack. Make two Shortsword attacks.\nShortsword. Melee weapon attack, +3 to hit, reach 5 ft., one target. A hit deals 4 (1d6 + 1) piercing damage.",
+        "Printed source": "Fizban's Treasury of Dragons, p. 178."
+      }
+    }
+  },
+  {
+    "name": "Draconian Infiltrator",
+    "statBlock": {
+      "name": "Draconian Infiltrator",
+      "publication": "Fizban's Treasury of Dragons",
+      "edition": "2014 fifth edition",
+      "printedPage": 178,
+      "classification": "Medium monstrosity, any alignment",
+      "ac": 15,
+      "hp": 39,
+      "hitDice": "6d8 + 12",
+      "speed": "40 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 9
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 13,
+      "description": "A draconian scout and spy that scales walls and glides from heights. Two hits from its envenomed daggers can paralyze the same target.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 3,
+        "Stealth": 7
+      },
+      "savingThrows": {
+        "Dex": 5
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Draconic.",
+        "Traits": "Death Throes. At 0 HP, the draconian dissolves into acid. Each creature within 5 ft. makes a DC 12 Dexterity saving throw. On a failure, acid coats it for 1 minute and deals 7 (2d6) acid damage at the start of each of its turns. A creature can use an action to scrape or wash the acid off itself or another creature.\nGlide. While falling and not incapacitated, subtract up to 100 ft. from the distance used to calculate falling damage. For each foot of descent, the draconian can also move up to 2 ft. horizontally.",
+        "Actions": "Multiattack. Make two Dagger attacks. If both hit the same creature, it must pass a DC 12 Constitution saving throw or be poisoned until the end of its next turn. While poisoned by this attack it is also paralyzed.\nDagger. Melee or ranged weapon attack, +5 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 5 (1d4 + 3) piercing damage plus 7 (2d6) poison damage.",
+        "Printed source": "Fizban's Treasury of Dragons, p. 178."
+      }
+    }
+  },
+  {
+    "name": "Draconian Mage",
+    "statBlock": {
+      "name": "Draconian Mage",
+      "publication": "Fizban's Treasury of Dragons",
+      "edition": "2014 fifth edition",
+      "printedPage": 179,
+      "classification": "Medium monstrosity, any alignment",
+      "ac": 15,
+      "hp": 40,
+      "hitDice": "9d8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 10,
+      "description": "A winged draconian spellcaster that fights with a trident or a ray of necrotic energy. Its bones explode when it dies.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Int": 2,
+        "Wis": 2,
+        "Cha": 4
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Draconic.",
+        "Traits": "Death Throes. At 0 HP, the draconian’s flesh and scales wither immediately and its bones explode. Each creature within 10 ft. must pass a DC 10 Dexterity saving throw or take 9 (2d8) force damage.\nGlide. While falling and not incapacitated, subtract up to 100 ft. from the distance used to calculate falling damage. For each foot of descent, the draconian can also move up to 2 ft. horizontally.",
+        "Actions": "Multiattack. Make two attacks, choosing Trident or Necrotic Ray for each.\nTrident. Melee or ranged weapon attack, +4 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing damage on a melee hit made with two hands.\nNecrotic Ray. Ranged spell attack, +4 to hit, range 60 ft., one target. A hit deals 10 (3d6) necrotic damage.\nSpellcasting. Cast Enlarge/Reduce, Invisibility, or Stinking Cloud, each once per day. Spellcasting uses Charisma (save DC 12) and requires no material components.",
+        "Printed source": "Fizban's Treasury of Dragons, p. 179."
+      }
+    }
+  },
+  {
+    "name": "Draconian Mastermind",
+    "statBlock": {
+      "name": "Draconian Mastermind",
+      "publication": "Fizban's Treasury of Dragons",
+      "edition": "2014 fifth edition",
+      "printedPage": 180,
+      "classification": "Medium monstrosity, any alignment",
+      "ac": 17,
+      "hp": 67,
+      "hitDice": "9d8 + 27",
+      "speed": "35 ft.",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 17
+        }
+      },
+      "cr": "6",
+      "xp": 2300,
+      "passivePerception": 13,
+      "description": "A cunning draconian that uses illusion and mobility to direct a fight. Its magic arcs between nearby creatures when it falls.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 3
+      },
+      "savingThrows": {
+        "Int": 5,
+        "Wis": 3,
+        "Cha": 6
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Condition immunities": "Charmed.",
+        "Senses": "Truesight 60 ft.",
+        "Languages": "Common, Draconic.",
+        "Traits": "Death Throes. At 0 HP, lightning strikes the nearest creature within 30 ft., then arcs to up to two other creatures within 15 ft. of the first. Each target makes a DC 14 Dexterity saving throw. On a failure, it takes 9 (2d8) lightning damage and is stunned until the end of its next turn. On a success, it takes half the damage and avoids the stun.",
+        "Actions": "Multiattack. Make three attacks, choosing Rend or Energy Ray for each.\nRend. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 5 (1d6 + 2) slashing damage.\nEnergy Ray. Ranged spell attack, +6 to hit, range 60 ft., one target. A hit deals 8 (1d10 + 3) force damage.\nNoxious Breath (Recharge 5–6). Each creature in a 15-ft. cone makes a DC 14 Constitution saving throw. On a failure, it takes 21 (6d6) poison damage and gains one level of exhaustion. On a success, it takes half damage, avoids exhaustion, and is immune to Noxious Breath from all draconians for 24 hours.\nSpellcasting. Cast Invisibility or Mage Hand at will, or Dimension Door, Disguise Self, or Sending twice per day each. Spellcasting uses Charisma (save DC 14) and requires no material components.",
+        "Reactions": "Magic Shield (3/day). When an attack roll hits the draconian, it can raise its AC by 5 against that attack, potentially turning the hit into a miss.",
+        "Printed source": "Fizban's Treasury of Dragons, p. 180."
+      }
+    }
+  },
+  {
+    "name": "Draconic Shard",
+    "statBlock": {
+      "name": "Draconic Shard",
+      "publication": "Fizban's Treasury of Dragons",
+      "edition": "2014 fifth edition",
+      "printedPage": 181,
+      "classification": "Huge undead, typically neutral",
+      "ac": 17,
+      "hp": 168,
+      "hitDice": "16d12 + 64",
+      "speed": "0 ft., fly 80 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 1
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 22
+        },
+        "Wis": {
+          "score": 18
+        },
+        "Cha": {
+          "score": 22
+        }
+      },
+      "cr": "17",
+      "xp": 18000,
+      "passivePerception": 26,
+      "description": "The psychic remnant of a gem dragon. It can appear as a spectral dragon or inhabit a treasure as an intelligent magic item, steering its bearer toward unfinished business.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Arcana": 12,
+        "History": 12,
+        "Perception": 16,
+        "Stealth": 7
+      },
+      "savingThrows": {
+        "Dex": 7,
+        "Int": 12,
+        "Wis": 10,
+        "Cha": 12
+      },
+      "sections": {
+        "Armor": "Deflection.",
+        "Damage resistances": "Acid and fire. Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Damage immunities": "Cold, necrotic, poison, psychic.",
+        "Condition immunities": "Charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone.",
+        "Senses": "Blindsight 60 ft., darkvision 120 ft.",
+        "Languages": "Common, Draconic, telepathy 120 ft.",
+        "Traits": "Deflection. The listed AC already includes the shard’s Intelligence modifier.\nIncorporeal Movement. The shard treats creatures and objects as difficult terrain when moving through them. It takes 5 (1d10) force damage if it ends its turn inside an object.\nLegendary Resistance (3/day). When the shard fails a saving throw, it can succeed instead.\nRejuvenation. At 0 HP, the shard disappears and leaves a Tiny cracked gemstone in its space. The gem matches the kind of dragon the shard once was. The gem has AC 20, 15 HP, and immunity to every damage type except force. After 1d20 days, an intact gem dissipates and the shard returns at full HP in that space or the nearest unoccupied space. Destroying the gem prevents its return.\nUnusual Nature. The shard requires no air, food, drink, or sleep.",
+        "Actions": "Multiattack. Make two Telekinetic Rend attacks.\nTelekinetic Rend. Melee or ranged spell attack, +12 to hit, reach 10 ft. or range 120 ft., one target. A hit deals 15 (2d8 + 6) force damage.\nInhabit Object. The shard disappears into a visible, nonsentient object of Medium size or smaller within 30 ft. Use the shard’s AC for the object and apply damage to the shard’s HP. Possession ends if the shard uses an action to leave, is turned, reaches 0 HP, or an effect such as Dispel Evil and Good ends the possession. The shard reappears in the nearest unoccupied space when it leaves. The inhabited object becomes a magic item if it was not one already, and a Tiny cracked gemstone of the shard’s ancestral kind appears on it. The shard can fly the object at its own flying speed, use its senses, speak aloud or telepathically, cast spells, and use legendary actions. If a creature wears or carries the object, the shard can give that creature resistance to psychic damage and an extra 1d8 force damage each time an attack hits.\nPsychic Crush (Recharge 5–6). Each creature the shard chooses in a 60-ft.-radius sphere centered on the shard makes a DC 20 Intelligence saving throw. On a failure, it takes 55 (10d10) psychic damage and is stunned until the end of its next turn. On a success, it takes half damage and avoids the stun.\nSpellcasting (Psionics). Cast Detect Thoughts, Invisibility, or Telekinesis at will. Spellcasting uses Intelligence (save DC 20) and requires no components.",
+        "Legendary actions": "The shard gets three legendary actions and regains them at the start of its turn. It can use one option at a time, at the end of another creature’s turn.\nRend (1 action). Make one Telekinetic Rend attack.\nCast a Spell (2 actions). Use Spellcasting.\nCommanding Thought (2 actions). One creature the shard can see within 30 ft. must pass a DC 20 Wisdom saving throw or be charmed until the end of its next turn. While charmed, it moves and acts as the shard directs telepathically. On its turn, its only action options are Dash and Attack, and the shard chooses the target of any Attack.",
+        "Printed source": "Fizban's Treasury of Dragons, p. 181."
+      }
+    }
+  }
+]

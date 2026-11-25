@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Human Knave",
+    "slug": "human-knave",
+    "id": "monster-2b4fac2793455566d0d8b68c:60fae585d7228abe70ec5935",
+    "entry": "monster-2b4fac2793455566d0d8b68c",
+    "version": "60fae585d7228abe70ec5935",
+    "suffix": "encounters-55/human-knave.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-55/human-knave.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-55/event-drafts/human-knave-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 55 2026-11-23/event-drafts/human-knave-event-v1.png",
+    "overrides": [],
+    "sha256": "a8e0092d0c0f5b46429e16eb30623387554bee9f41a9f722ebf026e104394080",
+    "bytes": 2470349
+  },
+  {
+    "name": "Human Trickshot",
+    "slug": "human-trickshot",
+    "id": "monster-4b275a042574f8df2d2787c3:3c44e6c2cddd1c753b4d8126",
+    "entry": "monster-4b275a042574f8df2d2787c3",
+    "version": "3c44e6c2cddd1c753b4d8126",
+    "suffix": "encounters-55/human-trickshot.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-55/human-trickshot.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-55/event-drafts/human-trickshot-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 55 2026-11-23/event-drafts/human-trickshot-event-v1.png",
+    "overrides": [],
+    "sha256": "f452521075e43b62ad25cad2a997d4d9bb6bb84c146416d8257f9db4f556de76",
+    "bytes": 2289095
+  }
+]

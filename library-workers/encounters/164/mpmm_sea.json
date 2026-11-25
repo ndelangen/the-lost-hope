@@ -1,0 +1,458 @@
+[
+  {
+    "name": "Sea Spawn",
+    "statBlock": {
+      "name": "Sea Spawn",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 211,
+      "classification": "Medium monstrosity, typically neutral evil",
+      "ac": 11,
+      "hp": 32,
+      "hitDice": "5d8 + 10",
+      "speed": "20 ft., swim 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 8
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 10,
+      "description": "Sea spawn were once surface dwellers. A bargain or curse can bind them to a kraken or another power beneath the waves, and their new bodies keep them close to the sea.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Understands Aquan and Common but cannot speak.",
+        "Armor": "Natural armor.",
+        "Traits": "Limited Amphibiousness. The sea spawn breathes air and water. To avoid suffocation, it must spend at least 1 minute submerged in the sea each day.",
+        "Actions": "Multiattack. Make two Unarmed Strikes and use Piscine Anatomy once.\nUnarmed Strike. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 4 (1d4 + 2) bludgeoning damage.\nPiscine Anatomy. Choose one option or roll a d6 for the attack.",
+        "Piscine anatomy mechanics": "Bite (1–2). Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 4 (1d4 + 2) piercing damage.\nPoison Quills (3–4). Melee weapon attack, +4 to hit, reach 5 ft., one creature. A hit deals 3 (1d6) poison damage. The target makes a DC 12 Constitution save or is poisoned for 1 minute. It can repeat the save at the end of each of its turns, ending the effect on a success.\nTentacle (5–6). Melee weapon attack, +4 to hit, reach 10 ft., one target. A hit deals 5 (1d6 + 2) bludgeoning damage and grapples a Medium or smaller creature (escape DC 12). The sea spawn can use that tentacle on another target once the grapple ends.",
+        "Purple Rocks": "In the Forgotten Realms, the kraken Slarkrethel claims the islands' infants and sends them back as followers. In old age they become sea spawn and return to the depths. Some have to hide partial transformations before then. Kraken priests tend the flock.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 211."
+      }
+    }
+  },
+  {
+    "name": "Shadar-kai Gloom Weaver",
+    "statBlock": {
+      "name": "Shadar-kai Gloom Weaver",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 213,
+      "classification": "Medium humanoid (elf), typically neutral evil",
+      "ac": 14,
+      "hp": 104,
+      "hitDice": "16d8 + 32",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "9",
+      "xp": 5000,
+      "passivePerception": 11,
+      "description": "A gloom weaver watches from the shadows while its presence saps the resolve of those nearby. It uses shadow magic when discovered.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 8,
+        "Con": 6
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Elvish.",
+        "Damage immunities": "Necrotic.",
+        "Condition immunities": "Charmed, exhaustion.",
+        "Traits": "Burden of Time. Beasts and Humanoids other than elves have disadvantage on saving throws within 10 ft. of the gloom weaver.\nFey Ancestry. The shadar-kai has advantage on saving throws against being charmed. Magic cannot put it to sleep.",
+        "Actions": "Multiattack. Make three Shadow Spear attacks. Spellcasting can replace one attack.\nShadow Spear. Melee or ranged weapon attack, +8 to hit, reach 5 ft. or range 30/120 ft., one target. A hit deals 7 (1d6 + 4) piercing damage plus 26 (4d12) necrotic damage. The spear magically returns to the gloom weaver's hand immediately after any ranged attack.",
+        "Spellcasting": "As an action, cast a listed spell using Charisma (spell save DC 16), without material components.\nAt will. Arcane Eye, Mage Armor, Minor Illusion, Prestidigitation, Speak with Dead.\n1/day each. Arcane Gate, Bane, Confusion, Darkness, Fear, Major Image, True Seeing.",
+        "Reactions": "Misty Escape (Recharge 6). When the gloom weaver takes damage, it becomes invisible and teleports to an unoccupied space it can see within 60 ft., carrying its equipment. The invisibility ends at the start of its next turn or when it attacks or casts a spell, whichever comes first.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 213."
+      }
+    }
+  },
+  {
+    "name": "Shadar-kai Shadow Dancer",
+    "statBlock": {
+      "name": "Shadar-kai Shadow Dancer",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 213,
+      "classification": "Medium humanoid (elf), any alignment",
+      "ac": 15,
+      "hp": 71,
+      "hitDice": "13d8 + 13",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "7",
+      "xp": 2900,
+      "passivePerception": 11,
+      "description": "These acrobats spring from dark alcoves, bind their quarry with spiked chains, and take colorful trinkets back to the Shadowfell.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 6,
+        "Cha": 4
+      },
+      "skills": {
+        "Stealth": 6
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Elvish.",
+        "Armor": "Studded leather.",
+        "Damage resistances": "Necrotic.",
+        "Condition immunities": "Charmed, exhaustion.",
+        "Traits": "Fey Ancestry. The shadar-kai has advantage on saving throws against being charmed. Magic cannot put it to sleep.",
+        "Actions": "Multiattack. Make three Spiked Chain attacks. The shadow dancer can use Shadow Jump after one of those attacks.\nSpiked Chain. Melee weapon attack, +6 to hit, reach 10 ft., one target. A hit deals 10 (2d6 + 3) piercing damage. On a failed DC 14 Dexterity save, the target suffers one effect chosen by the shadow dancer or rolled on a d6.",
+        "Spiked Chain mechanics": "Decay (1–2). The target takes 22 (4d10) necrotic damage.\nGrapple (3–4). Grapple a Medium or smaller creature (escape DC 14). The target is restrained while grappled, and the shadow dancer can grapple a new target once this grapple ends.\nTopple (5–6). The target falls prone.",
+        "Bonus actions": "Shadow Jump. Teleport, carrying all worn or carried equipment, up to 30 ft. to an unoccupied space the shadow dancer can see. Both its starting space and destination must be in dim light or darkness.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 213."
+      }
+    }
+  },
+  {
+    "name": "Shadar-kai Soul Monger",
+    "statBlock": {
+      "name": "Shadar-kai Soul Monger",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 214,
+      "classification": "Medium humanoid (elf), typically neutral evil",
+      "ac": 15,
+      "hp": 136,
+      "hitDice": "21d8 + 42",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 8
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 19
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "cr": "11",
+      "xp": 7200,
+      "passivePerception": 17,
+      "description": "A soul monger longs for memories it has lost and craves the vitality of others. Those who survive its approach remember the weight of its presence and its moan.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 7,
+        "Wis": 7,
+        "Cha": 5
+      },
+      "skills": {
+        "Perception": 7
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Elvish.",
+        "Armor": "Studded leather.",
+        "Damage immunities": "Necrotic, psychic.",
+        "Condition immunities": "Charmed, exhaustion, frightened.",
+        "Traits": "Fey Ancestry. The shadar-kai has advantage on saving throws against being charmed. Magic cannot put it to sleep.\nMagic Resistance. The soul monger has advantage on saving throws against spells and other magical effects.\nSoul Thirst. When it reduces a creature to 0 HP, the soul monger can gain temporary HP equal to half that creature's HP maximum. The soul monger has advantage on attack rolls while it has temporary HP from this trait.\nWeight of Ages. When a Beast or a non-elf Humanoid starts its turn within 5 ft. of the soul monger, reduce that creature's speed by 20 ft. until the start of its next turn.",
+        "Actions": "Multiattack. Make two Shadow Dagger attacks.\nShadow Dagger. Melee or ranged weapon attack, +7 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 13 (4d4 + 3) piercing damage plus 19 (3d12) necrotic damage. The target has disadvantage on saving throws until the end of the soul monger's next turn. The dagger magically returns to the soul monger's hand immediately after any ranged attack.\nWave of Weariness (Recharge 4–6). Every creature in a 60-ft. cube makes a DC 16 Constitution save. On a failure, it takes 45 (10d8) psychic damage and gains one level of exhaustion. On a success, it takes half damage only.",
+        "Spellcasting": "As an action, cast a listed spell using Intelligence (spell save DC 16), without material components.\n1/day each. Bestow Curse, Finger of Death, Gaseous Form, Seeming.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 214."
+      }
+    }
+  },
+  {
+    "name": "Shadow Mastiff",
+    "statBlock": {
+      "name": "Shadow Mastiff",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 215,
+      "classification": "Medium monstrosity, typically neutral evil",
+      "ac": 12,
+      "hp": 33,
+      "hitDice": "6d8 + 6",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 15,
+      "description": "Shadowfell hounds hunt in packs and shun sunlight. Some devotees of Shar summon them as guards.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 5,
+        "Stealth": 6
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "None.",
+        "Damage resistances": "Bludgeoning, piercing, and slashing damage from nonmagical attacks while in dim light or darkness.",
+        "Traits": "Ethereal Awareness. The mastiff sees ethereal creatures and objects.\nSunlight Weakness. In bright light from sunlight, the mastiff has disadvantage on attack rolls, ability checks, and saving throws.",
+        "Actions": "Bite. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 10 (2d6 + 3) piercing damage. A creature hit must pass a DC 13 Strength save or fall prone.",
+        "Bonus actions": "Shadow Blend. In dim light or darkness, the mastiff and its equipment become invisible. This lasts until it uses a bonus action to end the effect, attacks, is in bright light, or becomes incapacitated.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 215."
+      }
+    }
+  },
+  {
+    "name": "Shadow Mastiff Alpha",
+    "statBlock": {
+      "name": "Shadow Mastiff Alpha",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 215,
+      "classification": "Medium monstrosity, typically neutral evil",
+      "ac": 12,
+      "hp": 44,
+      "hitDice": "8d8 + 8",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 15,
+      "description": "A pack's most cunning hound leads the hunt. Its howl can send creatures fleeing long before they see the pack.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 5,
+        "Stealth": 6
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "None.",
+        "Damage resistances": "Bludgeoning, piercing, and slashing damage from nonmagical attacks while in dim light or darkness.",
+        "Traits": "Ethereal Awareness. The mastiff sees ethereal creatures and objects.\nSunlight Weakness. In bright light from sunlight, the mastiff has disadvantage on attack rolls, ability checks, and saving throws.",
+        "Actions": "Bite. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 10 (2d6 + 3) piercing damage. A creature hit must pass a DC 13 Strength save or fall prone.\nTerrifying Howl (Recharge 6). Any Beast or Humanoid within 300 ft. must pass a DC 11 Wisdom save or become frightened of the alpha for 1 minute. A frightened target can repeat the save at the end of each of its turns, ending the effect on a success. A target that succeeds on the save or whose fear ends gains immunity to any shadow mastiff's Terrifying Howl for 24 hours.",
+        "Bonus actions": "Shadow Blend. In dim light or darkness, the mastiff and its equipment become invisible. This lasts until it uses a bonus action to end the effect, attacks, is in bright light, or becomes incapacitated.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 215."
+      }
+    }
+  },
+  {
+    "name": "Shoosuva",
+    "statBlock": {
+      "name": "Shoosuva",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 216,
+      "classification": "Large fiend (demon), typically chaotic evil",
+      "ac": 14,
+      "hp": 136,
+      "hitDice": "16d10 + 48",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 7
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 12,
+      "description": "Yeenoghu grants this hyena demon to a favored worshiper after a great victory. It fights beside its master, using its stinger to immobilize prey for the war band.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 4,
+        "Con": 6,
+        "Wis": 5
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Abyssal, Gnoll, telepathy 120 ft.",
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold, fire, lightning.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Charmed, frightened, poisoned.",
+        "Actions": "Multiattack. Make one Bite and one Tail Stinger attack.\nBite. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 26 (4d10 + 4) piercing damage.\nTail Stinger. Melee weapon attack, +7 to hit, reach 15 ft., one creature. A hit deals 13 (2d8 + 4) piercing damage. The creature makes a DC 14 Constitution save or is poisoned and paralyzed while poisoned in this way. It can repeat the save at the end of each of its turns, ending the effect on a success.",
+        "Bonus actions": "Rampage. When the shoosuva reduces a creature to 0 HP with a melee attack on its own turn, it can move up to half its speed and make one Bite attack.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 216."
+      }
+    }
+  },
+  {
+    "name": "Sibriex",
+    "statBlock": {
+      "name": "Sibriex",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 217,
+      "classification": "Huge fiend (demon), typically chaotic evil",
+      "ac": 19,
+      "hp": 150,
+      "hitDice": "12d12 + 72",
+      "speed": "0 ft., fly 20 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 3
+        },
+        "Con": {
+          "score": 23
+        },
+        "Int": {
+          "score": 25
+        },
+        "Wis": {
+          "score": 24
+        },
+        "Cha": {
+          "score": 25
+        }
+      },
+      "cr": "18",
+      "xp": 20000,
+      "passivePerception": 23,
+      "description": "Sibriexes collect ancient knowledge in remote parts of the Abyss. Demon lords seek their advice, and those who want their bodies reshaped must offer treasure or a service in return.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Int": 13,
+        "Cha": 13
+      },
+      "skills": {
+        "Arcana": 13,
+        "History": 13,
+        "Perception": 13
+      },
+      "sections": {
+        "Senses": "Truesight 120 ft.",
+        "Languages": "All languages, telepathy 120 ft.",
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold, fire, lightning. Also bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Contamination. Vegetation withers within 30 ft. of the sibriex, and the ground there is difficult terrain for other creatures. Any creature that starts its turn in the aura must pass a DC 20 Constitution save or take 14 (4d6) poison damage. A creature that passes the save is immune to this sibriex's Contamination for 24 hours.\nLegendary Resistance (3/day). The sibriex can spend one use to succeed on a saving throw it failed.\nMagic Resistance. The sibriex has advantage on saving throws against spells and other magical effects.",
+        "Actions": "Multiattack. Make three Chain attacks and use Squirt Bile.\nChain. Melee weapon attack, +13 to hit, reach 15 ft., one target. A hit deals 20 (2d12 + 7) force damage.\nSquirt Bile. Choose one creature the sibriex can see within 120 ft. It must pass a DC 20 Dexterity save or take 31 (9d6) acid damage.\nWarp Creature. Choose up to three creatures the sibriex can see within 120 ft. Each makes a DC 20 Constitution save. A creature that passes this initial save is immune to this sibriex's Warp Creature. A creature that fails is poisoned and gains one level of exhaustion. While poisoned this way, the target repeats the save at the start of each of its turns. Each failure adds one level of exhaustion. Three successful saves end the poison. When this poison ends, remove all exhaustion it caused. A target that reaches six levels of exhaustion dies and immediately becomes a living manes under the sibriex's control. Only Wish can undo the body's transformation.",
+        "Spellcasting": "As an action, cast a listed spell using Charisma (spell save DC 21), without material components.\nAt will. Command, Dispel Magic, Hold Monster.\n1/day. Feeblemind.",
+        "Legendary actions": "The sibriex has three legendary actions and recovers them at the start of its turn. It can use one option at a time at the end of another creature's turn. It cannot use them while incapacitated or otherwise unable to act. If surprised, it must finish its first turn before using one.\nCast a Spell (1 action). Use Spellcasting.\nSpray Bile (1 action). Use Squirt Bile.\nWarp (2 actions). Use Warp Creature.",
+        "Flesh warping mechanics": "Optional rule. When a creature fails a save against Warp Creature, you can roll d100 for an extra effect. It ends when Warp Creature ends on that creature. If the creature becomes a manes, the effect stays with that body permanently. A willing creature can stay within 30 ft. of the sibriex and undergo at least 1 hour of painful warping. At the end, roll once or choose one effect. This change is permanent.\n01–05. Hair, eyes, and skin change to blue, red, yellow, or a pattern.\n06–10. The eyes extend on stalks.\n11–15. Hands grow claws that can be used as daggers.\n16–20. One leg lengthens, reducing walking speed by 10 ft.\n21–25. Open eyes give off a 15-ft. cone of dim light.\n26–30. Feathery or leathery wings grow from the back and give a flying speed of 30 ft.\n31–35. The ears detach and scamper away. The creature is deafened.\n36–40. Two teeth change into short tusks.\n41–45. Barklike scales give +1 AC and reduce Charisma by 2, to a minimum of 1.\n46–50. Arms and legs trade places. The creature moves only by crawling.\n51–55. Arms become finger-tipped tentacles, increasing reach by 5 ft.\n56–60. Long, springy legs increase walking speed by 10 ft.\n61–65. A long, thin tail grows and can be used as a whip.\n66–70. The eyes turn black and grant darkvision to 120 ft.\n71–75. The body swells to three times its weight.\n76–80. The body grows skeletal and weighs half as much.\n81–85. The head grows to three times its size.\n86–90. Wings replace the ears and give a flying speed of 5 ft.\n91–95. The brittle body becomes vulnerable to bludgeoning, piercing, and slashing damage.\n96–00. Another head grows, giving advantage on saves against being charmed, frightened, or stunned.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 217."
+      }
+    }
+  }
+]

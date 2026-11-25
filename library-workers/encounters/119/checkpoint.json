@@ -1,0 +1,35 @@
+{
+  "commit": "e13df28",
+  "batch": 119,
+  "verification": {
+    "testsPassed": 906,
+    "productionBuild": true,
+    "browser": [
+      {
+        "name": "Neanderthal",
+        "species": "species-15a68ad7dedc822af58f3204",
+        "edition": "3.5 edition",
+        "profiles": [
+          "Frostburn (2004)"
+        ],
+        "portraitSha256": "e4f751222e51a5ddc4788e7deae230a0c6d93e41ad6db62f5fedee3b889de132",
+        "caption": "Oren Hearthward · Original Neanderthal NPC",
+        "npcReceipts": [
+          {
+            "name": "Oren Hearthward",
+            "id": "npc-a5c2497e0e79c8edcd54efae",
+            "challenge": "Provisional CR 1. ECL 1 (1 class HD, LA +0)."
+          },
+          {
+            "name": "Vela Ridgewatch",
+            "id": "npc-eac4e764a54271a5ad83bfd0",
+            "challenge": "Provisional CR 1. ECL 1 (1 class HD, LA +0)."
+          }
+        ]
+      }
+    ],
+    "climateAndWeaponMasteryVerified": true,
+    "humanMatchesBaseline": true,
+    "r2AndBothLocalBackups": true
+  }
+}

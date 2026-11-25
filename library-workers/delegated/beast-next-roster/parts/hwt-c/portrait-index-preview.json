@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Wakewyrm",
+    "file": "images/wakewyrms-fury-beasts/wakewyrm.png",
+    "sha256": "509e63f8dd3a4b805f2bffabbd37e97342820abd33ac36010eef08b267aeb20d",
+    "credit": "OpenAI ImageGen",
+    "entry": "beast-332e587050a0c943d6c5baae",
+    "version": "041f233b1ed30f3dc9ae2edd",
+    "placement": "alternate"
+  },
+  {
+    "name": "Young Wakewyrm",
+    "file": "images/wakewyrms-fury-beasts/young-wakewyrm.png",
+    "sha256": "3757dcde638316bdafaf29dc734cf69391b5527abe9661974964376a05d65eed",
+    "credit": "OpenAI ImageGen",
+    "entry": "beast-9165cfcf0107ab4561393816",
+    "version": "468123675a1c8aacbdd966a0",
+    "placement": "alternate"
+  }
+]

@@ -1,0 +1,190 @@
+[
+  {
+    "name": "Giant Riding Lizard",
+    "publication": "Out of the Abyss",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast LLC with Green Ronin Publishing",
+    "leadAdventureDesigner": "Steve Kenson",
+    "storyCreators": [
+      "Christopher Perkins",
+      "Adam Lee",
+      "Richard Whitters"
+    ],
+    "copyrightYear": 2015,
+    "printing": "First printing, September 2015",
+    "isbn": "978-0-7869-6581-6",
+    "productCode": "620B2439000001 EN",
+    "section": "chapter 8, Audience in Gauntlgrym, stat cards",
+    "printedPages": [
+      131
+    ],
+    "viewerPages": [
+      132
+    ],
+    "creditsViewerPage": 3,
+    "creditsPageUrl": "https://online.anyflip.com/cmjgl/axwd/files/large/22ad38e3c1272b86438dba40f8d9e2d3.webp",
+    "creditsPageSha256": "99ae74466a17ed414aa4306731ff37ce625d0488ed6839dbe56dbccbb3f07fbb",
+    "sourcePageSha256": "8772145f6dd15a01c589cbd765098aecb6a3c8d4938a35fb6f9f0aeb9dcb27ec",
+    "sourceUrl": "https://online.anyflip.com/cmjgl/axwd/mobile/index.html#p=132",
+    "url": "https://online.anyflip.com/cmjgl/axwd/mobile/index.html#p=132",
+    "sourceWitness": "Page images of the English first printing and a separate OCR witness.",
+    "sourceWitnessUrl": "https://online.anyflip.com/cmjgl/axwd/files/large/e6d61fc908cb29d111ad98eaac4acb0b.webp",
+    "independentOCRWitness": "https://www.scribd.com/document/348775296/Out-of-the-Abyss-OCR-Bookmarked-Cropped",
+    "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/oota",
+    "publisherListing": "https://wpn.wizards.com/en/products/out-of-the-abyss",
+    "officialChapter": "https://www.dndbeyond.com/sources/oota/audience-in-gauntlgrym",
+    "officialCreatureIndex": "https://www.dndbeyond.com/monsters/26676-giant-riding-lizard",
+    "sourcePageKind": "D&D Beyond public index identifies the adventure and chapter. The chapter and standalone creature links redirect to the purchase page without access. The reproduced printed page supplies rules.",
+    "officialErrata": "",
+    "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae/out-of-the-abyss",
+    "errataEvidence": "Wizards of the Coast Out of the Abyss errata v1.1, 2020, contains no change to this Beast.",
+    "habitatEvidence": "Underdark habitat is supported by the adventure encounter and publisher catalog.",
+    "appearanceEvidence": "The p. 131 card supplies size and climbing features. Chapter 8 identifies these lizards as mounts. The reused neutral image shows the unsaddled beast.",
+    "proficiencyBonus": 2,
+    "proficiencyEvidence": "Derived from challenge rating using the 2014 Monster Manual. The book does not print a separate proficiency line.",
+    "conditionRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/appendix-a-conditions",
+    "visionRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/adventuring#VisionandLight",
+    "sourceNotes": [
+      "The adventure prints a dedicated Giant Riding Lizard card. This block uses its 30-ft. darkvision and unconditional Spider Climb directly."
+    ],
+    "statBlockPage": 131,
+    "artworkSource": "beast-ready-batch-04/parts/b04_08/portraits/giant-lizard.png",
+    "artworkSha256": "2498ee3dfe40193cbd9d2e4ca272c11cadf2b2b4c54e07ab3aae42b575ac0b09",
+    "artworkCredit": "OpenAI ImageGen",
+    "artworkNote": "Previously staged parchment portrait reused.",
+    "supportingPrintedPages": [
+      128
+    ],
+    "supportingViewerPages": [
+      129
+    ]
+  },
+  {
+    "name": "Giant Rocktopus",
+    "publication": "Out of the Abyss",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast LLC with Green Ronin Publishing",
+    "leadAdventureDesigner": "Steve Kenson",
+    "storyCreators": [
+      "Christopher Perkins",
+      "Adam Lee",
+      "Richard Whitters"
+    ],
+    "copyrightYear": 2015,
+    "printing": "First printing, September 2015",
+    "isbn": "978-0-7869-6581-6",
+    "productCode": "620B2439000001 EN",
+    "section": "chapter 2, Into Darkness, Creature Encounters, Giant “Rocktopus”",
+    "printedPages": [
+      28
+    ],
+    "viewerPages": [
+      29
+    ],
+    "creditsViewerPage": 3,
+    "creditsPageUrl": "https://online.anyflip.com/cmjgl/axwd/files/large/22ad38e3c1272b86438dba40f8d9e2d3.webp",
+    "creditsPageSha256": "99ae74466a17ed414aa4306731ff37ce625d0488ed6839dbe56dbccbb3f07fbb",
+    "sourcePageSha256": "91e467e2aaed625d547b9e2409c342a1ac5c6c958aa343d2f8c43e14c4322a3f",
+    "sourceUrl": "https://online.anyflip.com/cmjgl/axwd/mobile/index.html#p=29",
+    "url": "https://online.anyflip.com/cmjgl/axwd/mobile/index.html#p=29",
+    "sourceWitness": "Page images of the English first printing and a separate OCR witness.",
+    "sourceWitnessUrl": "https://online.anyflip.com/cmjgl/axwd/files/large/e67a27943fa66d8a332ff3a565fccc4e.webp",
+    "independentOCRWitness": "https://www.scribd.com/document/348775296/Out-of-the-Abyss-OCR-Bookmarked-Cropped",
+    "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/oota",
+    "publisherListing": "https://wpn.wizards.com/en/products/out-of-the-abyss",
+    "officialChapter": "https://www.dndbeyond.com/sources/oota/into-darkness#CreatureEncounters",
+    "officialCreatureIndex": "https://www.dndbeyond.com/monsters/273525-giant-rocktopus",
+    "sourcePageKind": "D&D Beyond public index identifies the adventure and chapter. The chapter and standalone creature links redirect to the purchase page without access. The reproduced printed page supplies rules.",
+    "officialErrata": "",
+    "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae/out-of-the-abyss",
+    "errataEvidence": "Wizards of the Coast Out of the Abyss errata v1.1, 2020, contains no change to this Beast.",
+    "habitatEvidence": "Underdark habitat is supported by the adventure encounter and publisher catalog.",
+    "appearanceEvidence": "Page 28 describes a terrestrial octopus capable of looking like rock and specifies no fixed color or change to eyes or limbs. The neutral reused image has mottled coloration and a knobbly mantle.",
+    "proficiencyBonus": 2,
+    "proficiencyEvidence": "Derived from challenge rating using the 2014 Monster Manual. The book does not print a separate proficiency line.",
+    "conditionRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/appendix-a-conditions",
+    "visionRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/adventuring#VisionandLight",
+    "sourceNotes": [
+      "The passage calls it a Giant Octopus variant and supplies walk 20 ft. and climb 10 ft. It removes Hold Breath and replaces Underwater Camouflage with unconditional Camouflage.",
+      "The passage gives no explicit replacement for swim 60 ft., Water Breathing, or Ink Cloud. Tentacles retains the base attack.",
+      "The inherited Water Breathing trait conflicts with the published land ecology. Allowing it to breathe air is a table ruling."
+    ],
+    "variantPage": 28,
+    "artworkSource": "beast-ready-batch-04/parts/b04_09/portraits/giant-octopus.png",
+    "artworkSha256": "13421ff75d696948927b4b3424f2c0652c1d5041b660fb55b0514ae416ca67aa",
+    "artworkCredit": "OpenAI ImageGen",
+    "artworkNote": "Previously staged parchment portrait reused.",
+    "referencedBlock": {
+      "name": "Giant Octopus",
+      "publication": "Monster Manual (2014)",
+      "printedPage": 326,
+      "viewerPage": 327,
+      "url": "https://online.anyflip.com/pqhqn/sezy/files/mobile/327.webp",
+      "officialAccessibleRules": "https://www.dndbeyond.com/monsters/16888-giant-octopus",
+      "sourcePageSha256": "1a456de8732240c80ce073f30bfe3ed61b8c95e33c8fc67292feff9b7017a3b6",
+      "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014",
+      "errataEvidence": "The 2014 Monster Manual errata contains no correction to Giant Octopus."
+    }
+  },
+  {
+    "name": "Male Steeder",
+    "publication": "Out of the Abyss",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast LLC with Green Ronin Publishing",
+    "leadAdventureDesigner": "Steve Kenson",
+    "storyCreators": [
+      "Christopher Perkins",
+      "Adam Lee",
+      "Richard Whitters"
+    ],
+    "copyrightYear": 2015,
+    "printing": "First printing, September 2015",
+    "isbn": "978-0-7869-6581-6",
+    "productCode": "620B2439000001 EN",
+    "section": "appendix C, Creatures, Miscellaneous Creatures, Steeders",
+    "printedPages": [
+      231
+    ],
+    "viewerPages": [
+      232
+    ],
+    "creditsViewerPage": 3,
+    "creditsPageUrl": "https://online.anyflip.com/cmjgl/axwd/files/large/22ad38e3c1272b86438dba40f8d9e2d3.webp",
+    "creditsPageSha256": "99ae74466a17ed414aa4306731ff37ce625d0488ed6839dbe56dbccbb3f07fbb",
+    "sourcePageSha256": "9164542841eb12a172888476d066e26f0cf275afe8752ded9f708111ad94c5ff",
+    "sourceUrl": "https://online.anyflip.com/cmjgl/axwd/mobile/index.html#p=232",
+    "url": "https://online.anyflip.com/cmjgl/axwd/mobile/index.html#p=232",
+    "sourceWitness": "Page images of the English first printing and a separate OCR witness.",
+    "sourceWitnessUrl": "https://online.anyflip.com/cmjgl/axwd/files/large/f41c0aec9f7704f10f336edb84c02ba0.webp",
+    "independentOCRWitness": "https://www.scribd.com/document/348775296/Out-of-the-Abyss-OCR-Bookmarked-Cropped",
+    "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/oota",
+    "publisherListing": "https://wpn.wizards.com/en/products/out-of-the-abyss",
+    "officialChapter": "https://www.dndbeyond.com/sources/oota/appendix-c-creatures#MiscellaneousCreatures",
+    "officialCreatureIndex": "https://www.dndbeyond.com/monsters/17402-male-steeder",
+    "sourcePageKind": "The official legacy creature link leads to the purchase page. Its public listing displays Monstrosity, whereas the first-printing p. 231 block explicitly says Beast.",
+    "officialErrata": "",
+    "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae/out-of-the-abyss",
+    "errataEvidence": "Wizards of the Coast Out of the Abyss errata v1.1, 2020, contains no change to this Beast.",
+    "habitatEvidence": "Underdark habitat is supported by the adventure encounter and publisher catalog.",
+    "appearanceEvidence": "Artwork morphology follows the published creature description where supplied. Color and pose are editorial.",
+    "proficiencyBonus": 2,
+    "proficiencyEvidence": "Derived from challenge rating using the 2014 Monster Manual. The book does not print a separate proficiency line.",
+    "conditionRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/appendix-a-conditions",
+    "visionRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/adventuring#VisionandLight",
+    "sourceNotes": [
+      "The September 2015 first printing identifies Male Steeder as a Medium Beast. The public legacy creature index displays Monstrosity. The original adventure stat block supplies the classification and mechanics here.",
+      "The 2015 Bite line prints 7 piercing alongside 1d8 + 2. Both are recorded as printed. Sticky Leg applies only to Small or Tiny creatures, and Leap uses a 60-ft. distance."
+    ],
+    "statBlockPage": 231,
+    "artworkCredit": "Original portrait generated with built-in OpenAI ImageGen",
+    "supportingPrintedPages": [
+      231
+    ],
+    "artworkSource": "portraits/male-steeder.png",
+    "artworkSha256": "6748921dc42237002428aa5006da263caa0eb9ecf20a4b11a25c2d83fe0f600a",
+    "artworkNote": "Original plain parchment portrait. The tarantula’s eight bristled legs and no-web silhouette reflect p. 231."
+  }
+]

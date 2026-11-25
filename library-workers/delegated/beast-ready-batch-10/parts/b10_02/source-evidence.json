@@ -1,0 +1,168 @@
+[
+  {
+    "name": "Lion",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "2024 rules revision. Hardcover released in 2025, which is the year used by the publisher’s errata.",
+    "sourceUrl": "https://www.dndbeyond.com/monsters/4775826-lion",
+    "url": "https://www.dndbeyond.com/monsters/4775826-lion",
+    "printedPages": [
+      364
+    ],
+    "section": "Appendix A, Animals",
+    "publisherByline": "Monster Manual, pg. 364",
+    "relatedRules": [
+      {
+        "section": "D&D Beyond Basic Rules, Creature Stat Blocks",
+        "sourceUrl": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks"
+      }
+    ],
+    "attributionEvidence": "The dedicated entry credits Monster Manual. The same mechanics also appear in D&D Beyond Basic Rules.",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "errataPdfUrl": "",
+    "errataEvidence": "The official 2025 Monster Manual errata v1.0 lists no change to this entry.",
+    "habitatEvidence": "Habitat labels come from the dedicated publisher entry.",
+    "appearanceEvidence": "Editorial description of the reused square portrait.",
+    "artGroup": "lion",
+    "portraitReuseSource": "beast-ready-batch-02/parts/b02_08/portraits/lion.png",
+    "portraitReuseSha256": "58af8be859b901dd0dfcc9caa7f02ddf4dc0d5a23b09cba2f8d60cf2cb67e9b4",
+    "mechanicsNotes": [
+      "Roar targets one creature and can replace one Rend in Multiattack. Frightened lasts until the start of the lion’s next turn."
+    ]
+  },
+  {
+    "name": "Lizard",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "2024 rules revision. Hardcover released in 2025, which is the year used by the publisher’s errata.",
+    "sourceUrl": "https://www.dndbeyond.com/monsters/4775827-lizard",
+    "url": "https://www.dndbeyond.com/monsters/4775827-lizard",
+    "printedPages": [
+      364
+    ],
+    "section": "Appendix A, Animals",
+    "publisherByline": "Monster Manual, pg. 364",
+    "relatedRules": [
+      {
+        "section": "D&D Beyond Basic Rules, Creature Stat Blocks",
+        "sourceUrl": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks"
+      }
+    ],
+    "attributionEvidence": "The dedicated entry credits Monster Manual. The same mechanics also appear in D&D Beyond Basic Rules.",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "errataPdfUrl": "",
+    "errataEvidence": "The official 2025 Monster Manual errata v1.0 lists no change to this entry.",
+    "habitatEvidence": "Habitat labels come from the dedicated publisher entry.",
+    "appearanceEvidence": "Editorial description of the reused square portrait.",
+    "artGroup": "lizard",
+    "portraitReuseSource": "beast-ready-batch-02/parts/b02_05/portraits/lizard.png",
+    "portraitReuseSha256": "2c5b9354701098d6759da60bca173f75d4d1445a7e595964e4580d34aa01f782",
+    "mechanicsNotes": [
+      "Spider Climb covers difficult surfaces and ceilings. Bite is +2 as published."
+    ]
+  },
+  {
+    "name": "Mammoth",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "2024 rules revision. Hardcover released in 2025, which is the year used by the publisher’s errata.",
+    "sourceUrl": "https://www.dndbeyond.com/monsters/5195112-mammoth",
+    "url": "https://www.dndbeyond.com/monsters/5195112-mammoth",
+    "printedPages": [
+      365
+    ],
+    "section": "Appendix A, Animals",
+    "publisherByline": "Monster Manual, pg. 365",
+    "relatedRules": [
+      {
+        "section": "D&D Beyond Basic Rules, Creature Stat Blocks",
+        "sourceUrl": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks"
+      }
+    ],
+    "attributionEvidence": "The dedicated entry credits Monster Manual. The same mechanics also appear in D&D Beyond Basic Rules.",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "errataPdfUrl": "",
+    "errataEvidence": "The official 2025 Monster Manual errata v1.0 lists no change to this entry.",
+    "habitatEvidence": "Habitat labels come from the dedicated publisher entry.",
+    "appearanceEvidence": "Editorial description of the reused square portrait.",
+    "artGroup": "mammoth",
+    "portraitReuseSource": "beast-ready-batch-02/parts/b02_09/portraits/mammoth.png",
+    "portraitReuseSha256": "d198e56e3e1f34d9d8138d8092323ba96166b4a14ceb486a67c1ad6703181f29",
+    "mechanicsNotes": [
+      "Initiative +2 (12) is shown alongside Dexterity modifier −1. Strength save +10 and Constitution save +8 are independent of their ability modifiers.",
+      "Gore can knock targets Prone on a qualifying hit. Trample’s independent targeting condition is one Prone creature within 5 ft."
+    ]
+  },
+  {
+    "name": "Mastiff",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "2024 rules revision. Hardcover released in 2025, which is the year used by the publisher’s errata.",
+    "sourceUrl": "https://www.dndbeyond.com/monsters/4775828-mastiff",
+    "url": "https://www.dndbeyond.com/monsters/4775828-mastiff",
+    "printedPages": [
+      365
+    ],
+    "section": "Appendix A, Animals",
+    "publisherByline": "Monster Manual, pg. 365",
+    "relatedRules": [
+      {
+        "section": "D&D Beyond Basic Rules, Creature Stat Blocks",
+        "sourceUrl": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks"
+      }
+    ],
+    "attributionEvidence": "The dedicated entry credits Monster Manual. The same mechanics also appear in D&D Beyond Basic Rules.",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "errataPdfUrl": "",
+    "errataEvidence": "The official 2025 Monster Manual errata v1.0 lists no change to this entry.",
+    "habitatEvidence": "Habitat labels come from the dedicated publisher entry.",
+    "appearanceEvidence": "Editorial description of the reused square portrait.",
+    "artGroup": "mastiff",
+    "portraitReuseSource": "beast-ready-batch-02/parts/b02_06/portraits/mastiff.png",
+    "portraitReuseSha256": "9a6c2a70aa39b8d341f35ebb2d881a3904c22c4944e7400f959eca50e1a204eb",
+    "mechanicsNotes": [
+      "The size-gated Prone effect applies on the hit without a separate save."
+    ]
+  },
+  {
+    "name": "Mule",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "2024 rules revision. Hardcover released in 2025, which is the year used by the publisher’s errata.",
+    "sourceUrl": "https://www.dndbeyond.com/monsters/4775829-mule",
+    "url": "https://www.dndbeyond.com/monsters/4775829-mule",
+    "printedPages": [
+      365
+    ],
+    "section": "Appendix A, Animals",
+    "publisherByline": "Monster Manual, pg. 365",
+    "relatedRules": [
+      {
+        "section": "D&D Beyond Basic Rules, Creature Stat Blocks",
+        "sourceUrl": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks"
+      }
+    ],
+    "attributionEvidence": "The dedicated entry credits Monster Manual. The same mechanics also appear in D&D Beyond Basic Rules.",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "errataPdfUrl": "",
+    "errataEvidence": "The official 2025 Monster Manual errata v1.0 lists no change to this entry.",
+    "habitatEvidence": "Habitat labels come from the dedicated publisher entry.",
+    "appearanceEvidence": "Editorial description of the reused square portrait.",
+    "artGroup": "mule",
+    "portraitReuseSource": "beast-ready-batch-02/parts/b02_06/portraits/mule.png",
+    "portraitReuseSha256": "91664dfb304860eea5bec0a747378764006c4fb65006b48e91f95a3f2b6f749b",
+    "mechanicsNotes": [
+      "The publisher lists Strength save +4 and Strength modifier +2. Beast of Burden changes carrying capacity only."
+    ]
+  }
+]

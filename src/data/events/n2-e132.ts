@@ -44,4 +44,7 @@ export default createEvent({
       '.',
     ],
   ],
+  illustrations: [
+    '/assets/scenes/the-high-priest-frees-jim-from-pain-and-cleanses-the-shadow-sword.png',
+  ],
 })

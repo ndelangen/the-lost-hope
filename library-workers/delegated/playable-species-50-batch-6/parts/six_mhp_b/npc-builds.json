@@ -1,0 +1,248 @@
+{
+  "builds": [
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "title": "Mouseling locksmith, Rogue 2",
+      "difficulty": "Rogue 2",
+      "id": "mhp-mousefolk-wick-hemm",
+      "size": "Small",
+      "type": "Humanoid",
+      "speed": "25 ft.",
+      "ac": 14,
+      "hp": 17,
+      "hitDice": "2d8+4",
+      "initiative": 3,
+      "senses": "Darkvision 60 ft., passive Perception 12.",
+      "languages": "Common, spoken Rodentia, Thieves’ Cant in Common.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 17,
+        "CON": 14,
+        "INT": 12,
+        "WIS": 10,
+        "CHA": 14
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Deception +4",
+        "Insight +2",
+        "Investigation +3",
+        "Perception +2",
+        "Sleight of Hand +5",
+        "Stealth +7",
+        "Thieves’ tools +7 (Dexterity)"
+      ],
+      "traits": [
+        "Proficiency bonus +2. Dexterity save +5 and Intelligence save +3. Leather armor gives 11 + Dex 3 = AC 14. HP is 8 + 2 at level 1 and 5 + 2 at level 2.",
+        "Expertise doubles proficiency for Stealth and thieves’ tools. Criminal provides Deception, Insight in place of duplicate Stealth from Mousefolk, dice set proficiency and Criminal Contact. Rogue provides Acrobatics, Investigation, Perception and Sleight of Hand.",
+        "Scurry lets Wick cross hostile spaces as difficult terrain. Wick must still end movement in an unoccupied space. Squeeze removes penalties in Tiny-sized openings. Brave gives advantage on saves against being frightened.",
+        "Sneak Attack adds 1d6 once per turn on a hit with a finesse or ranged weapon if Wick has advantage. It also works when a non-incapacitated enemy of the target is within 5 ft. of the target and Wick lacks disadvantage."
+      ],
+      "actions": [
+        "Shortsword. Melee weapon attack +5 to hit, reach 5 ft., one target. Hit 1d6+3 piercing.",
+        "Dagger. Melee or thrown weapon attack +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit 1d4+3 piercing.",
+        "Cunning Action. Dash, Disengage or Hide as a bonus action.",
+        "Nimble Escape. When a creature Wick can see makes an opportunity attack against Wick, use a reaction to impose disadvantage on that roll. Requires light armor or no armor."
+      ],
+      "tactics": "Wick gets behind cover before drawing a blade. In a cramped passage, Wick slips through the hostile line, uses Cunning Action to Disengage and urges everyone toward the exit."
+    },
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "title": "Sirine harbor caller, Bard 1",
+      "difficulty": "Bard 1",
+      "id": "mhp-sirine-nemi-glassfin",
+      "size": "Medium",
+      "type": "Fey",
+      "speed": "30 ft., swim 30 ft.",
+      "ac": 14,
+      "hp": 9,
+      "hitDice": "1d8+1",
+      "initiative": 3,
+      "senses": "Passive Perception 13.",
+      "languages": "Sylvan, Common.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 16,
+        "CON": 13,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 17
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Deception +5",
+        "Insight +3",
+        "Perception +3",
+        "Performance +5",
+        "Persuasion +5"
+      ],
+      "traits": [
+        "Proficiency bonus +2. Dexterity save +5 and Charisma save +5. Leather under the tunic gives AC 14. HP is 8 + 1.",
+        "Nemi breathes in water and air. Advantage on saves against charm and immunity to magical sleep. Nemi is a fey native to the Material Plane.",
+        "Sirine gives Performance. Entertainer gives Acrobatics, Persuasion in place of duplicate Performance, disguise kit, hand drum and By Popular Demand. Bard skills are Deception, Insight and Perception. Bard adds horn, flute and lyre proficiencies.",
+        "DC 13 and +5 to spell attacks. Two 1st-level bard slots and four known bard spells listed below. Use the drum as focus for bard spells needing ordinary material components. Charm person uses a separate species casting. Suggestion first becomes available at level 5."
+      ],
+      "actions": [
+        "Rapier. Melee weapon attack +5 to hit, reach 5 ft., one target. Hit 1d8+3 piercing.",
+        "Bardic Inspiration (bonus action, three uses per long rest). Choose another creature within 60 ft. that can hear Nemi. Once in its next 10 minutes it can add 1d6 to an ability check, save or attack after rolling the d20 and before learning the result. It may hold only one die at a time.",
+        "Vicious mockery (cantrip, action). A visible target within 60 ft. that can hear Nemi makes a DC 13 Wisdom save. Failure deals 1d4 psychic damage and imposes disadvantage on its next attack roll before the end of its next turn.",
+        "Minor illusion (cantrip, action). Make a sound or create an image of an object no larger than a 5-ft. cube within 30 ft. The illusion lasts up to 1 minute. Touch reveals an image. An action and a DC 13 Intelligence (Investigation) check can identify the illusion.",
+        "Healing word (1st-level, bonus action). One visible creature within 60 ft. regains 1d4+3 HP. Undead and constructs cannot benefit.",
+        "Faerie fire (1st-level, action, concentration up to 1 minute). In a 20-ft. cube within 60 ft., outline objects and creatures that fail DC 13 Dexterity saves. Lit creatures or objects shed dim light in a 10-ft. radius. Visible outlined targets grant advantage to attackers and cannot benefit from invisibility.",
+        "Sleep (1st-level, action). Roll 5d8 and spend the total on creatures’ current HP in ascending order within 20 ft. of a point up to 90 ft. away. Affected creatures fall unconscious for up to 1 minute, until damaged, or until someone spends an action waking them. Undead and creatures immune to charm are unaffected.",
+        "Thunderwave (1st-level, action). Creatures in a 15-ft. cube originating from Nemi make DC 13 Constitution saves. Failure deals 2d8 thunder and pushes 10 ft. away. Success deals half damage without the push. Unsecured objects wholly in the area move 10 ft. and the boom is audible up to 300 ft.",
+        "Charm person (species action, once per long rest). One visible humanoid within 30 ft. makes a DC 13 Wisdom save with advantage if Nemi or allies are fighting it. Failure charms it for up to 1 hour, or until Nemi or allies harm it. It treats Nemi as a friendly acquaintance and knows it was charmed when the spell ends."
+      ],
+      "tactics": "Nemi pulls struggling swimmers clear before casting. On land, Nemi uses Bardic Inspiration on whoever takes the lead and tries to keep frightened passengers away from thunderwave."
+    },
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "title": "Fetchling trail guide, Fighter 1",
+      "difficulty": "Fighter 1",
+      "id": "mhp-fetchling-orsen-vale",
+      "size": "Medium",
+      "type": "Humanoid",
+      "speed": "30 ft.",
+      "ac": 14,
+      "hp": 12,
+      "hitDice": "1d10+2",
+      "initiative": 3,
+      "senses": "Darkvision 120 ft., passive Perception 13, or 8 for sight checks at disadvantage from direct sunlight.",
+      "languages": "Common, Undercommon, Elvish.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 17,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 13,
+        "CHA": 13
+      },
+      "skills": [
+        "Athletics +1",
+        "Insight +3",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "traits": [
+        "Proficiency bonus +2. Strength save +1 and Constitution save +4. Leather gives AC 14. HP is 10 + 2.",
+        "Outlander grants Athletics, Survival, Elvish, horn proficiency and Wanderer. Fighter skills are Insight and Perception.",
+        "Resistant to cold damage. Direct sunlight causes disadvantage on attack rolls and sight-based Perception when Orsen, the attack target or the object of perception is in it.",
+        "Dueling adds 2 to damage with a one-handed melee weapon when wielding no other weapon. The listed shortsword damage includes it."
+      ],
+      "actions": [
+        "Shortsword. Melee weapon attack +5 to hit, reach 5 ft., one target. Hit 1d6+5 piercing if using Dueling, or 1d6+3 piercing otherwise.",
+        "Second Wind (bonus action, once per short or long rest). Regain 1d10+1 HP, up to maximum.",
+        "Evil Eye (action). A creature within 30 ft. that Orsen sees and that can see Orsen makes a DC 11 Wisdom save. Failure frightens it up to 1 minute. Repeat at the end of each of its turns, at disadvantage if it can see Orsen. A successful save ends fear and immunizes the target to this feature for 24 hours.",
+        "Recluse. Hide as a bonus action while in dim light or darkness."
+      ],
+      "tactics": "Orsen marks turns with knots and waits in the dark if pursued. If someone closes from a lit passage, Orsen withdraws into shade and uses Evil Eye to keep them from following."
+    },
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "title": "Myconid passage mediator, Druid 1",
+      "difficulty": "Druid 1",
+      "id": "mhp-myconid-ripplecap",
+      "size": "Medium",
+      "type": "Humanoid",
+      "speed": "30 ft.",
+      "ac": 14,
+      "hp": 10,
+      "hitDice": "1d8+2",
+      "initiative": 2,
+      "senses": "Passive Perception 15.",
+      "languages": "No conventional spoken language. Telepathic Rapport Spores.",
+      "abilityScores": {
+        "STR": 10,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 12,
+        "WIS": 17,
+        "CHA": 8
+      },
+      "skills": [
+        "Animal Handling +5",
+        "Nature +3",
+        "Perception +5",
+        "Survival +5"
+      ],
+      "traits": [
+        "Proficiency bonus +2. Intelligence save +3 and Wisdom save +5. Hide armor gives 12 + Dex 2 = AC 14. HP is 8 + 2.",
+        "Folk Hero grants Animal Handling, Survival, potter’s tools, land vehicles and Rustic Hospitality. Druid grants Nature, Perception, herbalism kit and Druidic. Ripplecap can leave written Druidic messages. Species communication is nonverbal.",
+        "Sun Sickness poisons Ripplecap after more than 1 minute in direct sunlight. It clears after 1 minute in dim light or darkness.",
+        "Rapport Spores allow mutual telepathy for creatures within 15 ft. with Intelligence 2 or higher, excluding undead, constructs and elementals. Ripplecap can suppress the spores at will. Nonverbal Magic allows verbal components.",
+        "A long rest with two or more other Myconids allows a meld. It restores all spent Hit Dice, plus one choice: advantage on the next save in 24 hours, ending one disease or blinded, deafened, paralyzed or poisoned on Ripplecap, or one point of inspiration.",
+        "Druid spells use DC 13 and +5 to spell attack. Four 1st-level spells prepared and two slots. The listed innate spore DCs use their own rules. Carry a component pouch and the specific plants for spells or a druidic focus where allowed."
+      ],
+      "actions": [
+        "Quarterstaff. Melee weapon attack +2 to hit, reach 5 ft., one target. Hit 1d6 bludgeoning one-handed or 1d8 two-handed. With shillelagh, +5 to hit and 1d8+3 magical bludgeoning in either grip.",
+        "Shillelagh (cantrip, bonus action). For 1 minute, use Wisdom for melee attacks and damage with the held wooden staff, turn its damage die into d8 and make it magical. Letting go ends the effect.",
+        "Produce flame (cantrip, action). Conjure a harmless flame in hand, bright and dim light each for 10 ft., for up to 10 minutes. When cast or as an action later, throw at a creature within 30 ft. at +5 to hit for 1d8 fire, ending the flame.",
+        "Pacifying Spores (action, once per long rest). One visible creature within 5 ft. that fails a DC 11 Constitution save is stunned for up to 1 minute. Repeat at end of turn to end. Undead, constructs and elementals automatically succeed.",
+        "Hallucination Spores (action). Apply minor illusion to eligible creatures within 30 ft. (excluding undead, constructs and elementals). Use a sound or an image of one object that fits in a 5-ft. cube. Concentrate for up to 1 minute. Touch reveals an image. A creature can use its action to identify it with a DC 11 Intelligence (Investigation) check.",
+        "Cure wounds (1st-level, action). Touch a creature to heal 1d8+3 HP. Undead and constructs cannot benefit.",
+        "Entangle (1st-level, action, concentration up to 1 minute). A 20-ft. square of ground within 90 ft. is difficult terrain. Creatures there when cast make DC 13 Strength saves or become restrained. A restrained creature can use an action to attempt a DC 13 Strength check to escape.",
+        "Fog cloud (1st-level, action, concentration up to 1 hour). A 20-ft.-radius sphere centered within 120 ft. spreads around corners and heavily obscures the area. Wind of at least 10 mph disperses it.",
+        "Goodberry (1st-level, action). Make up to ten berries that last 24 hours. Eating one takes an action, restores 1 HP and supplies a day’s nourishment."
+      ],
+      "tactics": "Ripplecap gives visitors a chance to explain themselves through spores. If they refuse, Ripplecap blocks a passage with entangle or fog cloud. Ripplecap uses the staff only when there is no clear way out."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Wick Hemm",
+      "species": "Mousefolk",
+      "speciesPublication": "Mage Hand Press: Mousefolk (2021)",
+      "edition": "Fifth edition compatible",
+      "build": "mhp-mousefolk-wick-hemm",
+      "size": "Small",
+      "role": "Mouseling locksmith who keeps the lock gates working.",
+      "motive": "Open the jammed lower gate before the millrace floods the workshops.",
+      "hook": "Wick can fit through a gap under the gate. Someone on the surface needs to watch the water level and give the signal to pull back."
+    },
+    {
+      "name": "Nemi Glassfin",
+      "species": "Sirine",
+      "speciesPublication": "Mage Hand Press: Sirine (2017)",
+      "edition": "Fifth edition compatible",
+      "build": "mhp-sirine-nemi-glassfin",
+      "size": "Medium",
+      "role": "Singer who calls tide changes and keeps count of returning boats.",
+      "motive": "Find which crew keeps missing the harbor’s last tide call.",
+      "hook": "A ship answered the harbor call with Nemi’s own voice, then sailed straight over the shoal."
+    },
+    {
+      "name": "Orsen Vale",
+      "species": "Fetchling",
+      "speciesPublication": "Mage Hand Press: Fetchling (2016)",
+      "edition": "Fifth edition compatible",
+      "build": "mhp-fetchling-orsen-vale",
+      "size": "Medium",
+      "role": "Fetchling guide who measures crossings with knots in a guide rope.",
+      "motive": "Bring clients home after a familiar crossing changed direction overnight.",
+      "hook": "Orsen found a second version of the group’s guide rope already tied at the far end, with one new knot."
+    },
+    {
+      "name": "Ripplecap",
+      "species": "Myconid",
+      "speciesPublication": "Mage Hand Press: Myconid (2015)",
+      "edition": "Fifth edition compatible",
+      "build": "mhp-myconid-ripplecap",
+      "size": "Medium",
+      "role": "Telepathic witness to promises made at an underground crossing.",
+      "motive": "Determine which delegation broke the promise to leave the east passage clear.",
+      "hook": "Ripplecap recognizes one party member from a meld that occurred before the party arrived."
+    }
+  ]
+}

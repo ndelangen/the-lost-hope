@@ -1,0 +1,268 @@
+[
+  {
+    "name": "Giant Space Hamster",
+    "publication": "Spelljammer: Adventures in Space",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 11,
+    "hp": 22,
+    "hitDice": "4d10",
+    "speed": "30 ft., burrow 10 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "passivePerception": 11,
+    "otherStatistics": "Proficiency bonus +2. Passive Perception 11. Languages —.",
+    "abilities": {
+      "Str": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "appearance": "A heavy golden-brown hamster with rounded ears, full cheeks, small paws and a cream belly.",
+    "habitats": [
+      "Wildspace"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Boo’s Astral Menagerie, in Spelljammer: Adventures in Space, first printing, August 2022, p. 56. https://www.dndbeyond.com/monsters/2821167-giant-space-hamster",
+      "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 7 (2d4 + 2) piercing damage.",
+      "Encounter ecology": "These bear-sized plant-eaters generally avoid other creatures. They can be trained as mounts or pack animals. Gnomish attempts to power spelljamming ships with giant hamster wheels have failed so far."
+    }
+  },
+  {
+    "name": "Space Eel",
+    "publication": "Spelljammer: Adventures in Space",
+    "edition": "2014 fifth edition",
+    "classification": "Small Beast, unaligned",
+    "ac": 14,
+    "hp": 7,
+    "hitDice": "2d6",
+    "speed": "10 ft., fly 30 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "passivePerception": 10,
+    "otherStatistics": "Proficiency bonus +2. Darkvision 60 ft. Passive Perception 10. Languages —.",
+    "abilities": {
+      "Str": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 1,
+        "modifier": -5
+      }
+    },
+    "appearance": "A blue-slate eel with a long coiled body, violet fins, a toothed mouth and a pointed tail spine.",
+    "habitats": [
+      "Wildspace"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Boo’s Astral Menagerie, in Spelljammer: Adventures in Space, first printing, August 2022, p. 55. https://www.dndbeyond.com/monsters/2821197-space-eel",
+      "Traits": "Unusual Nature. The eel does not need air.",
+      "Actions": "Multiattack. While unattached, make one Bite attack and one Tail Spine attack.\nBite. Melee weapon attack, +3 to hit, reach 5 ft., one creature. A hit deals 4 (1d6 + 1) piercing damage and attaches the eel. While attached, the eel cannot Bite. The target instead takes 4 (1d6 + 1) piercing damage at the start of each of the eel’s turns. Any creature, including the target, can use its action to remove the eel.\nTail Spine. Melee weapon attack, +3 to hit, reach 5 ft., one creature. A hit deals 3 (1d4 + 1) piercing damage. The target must pass a DC 10 Constitution saving throw or be poisoned for 1 minute. The target is paralyzed for as long as that poison lasts. It can repeat the save at the end of each of its turns, ending the effect on a success.",
+      "Bonus Actions": "Detach. The eel can use a bonus action to detach itself from its target.",
+      "Encounter ecology": "These 5-ft.-long scavengers often trail ships to feed on barnacles. They usually avoid larger creatures unless starving, and Wildspace hunters prize their meat."
+    }
+  },
+  {
+    "name": "Space Guppy",
+    "publication": "Spelljammer: Adventures in Space",
+    "edition": "2014 fifth edition",
+    "classification": "Small Beast, unaligned",
+    "ac": 13,
+    "hp": 3,
+    "hitDice": "1d6",
+    "speed": "0 ft., fly 30 ft.",
+    "cr": "0",
+    "xp": 10,
+    "passivePerception": 10,
+    "otherStatistics": "Proficiency bonus +2. Darkvision 60 ft. Passive Perception 10. Languages —.",
+    "abilities": {
+      "Str": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 1,
+        "modifier": -5
+      }
+    },
+    "appearance": "A short bronze-gold fish with a rounded face, dark blue eyes and flowing apricot fins.",
+    "habitats": [
+      "Wildspace",
+      "Astral Sea"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Boo’s Astral Menagerie, in Spelljammer: Adventures in Space, first printing, August 2022, p. 55. https://www.dndbeyond.com/monsters/2821198-space-guppy",
+      "Traits": "Air Envelope. In a vacuum, a guppy with at least 1 HP can generate an air envelope around itself. The envelope sustains the guppy and one other Tiny creature in its space indefinitely.\nFlyby. Flying out of an enemy’s reach does not provoke opportunity attacks.",
+      "Actions": "Tail Slap. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 1 bludgeoning damage.",
+      "Encounter ecology": "These 2- to 3-ft.-long flying fish sometimes serve as mounts for chwinga astronauts, sprites and other Tiny creatures."
+    }
+  },
+  {
+    "name": "Space Mollymawk",
+    "publication": "Spelljammer: Adventures in Space",
+    "edition": "2014 fifth edition",
+    "classification": "Small Beast, unaligned",
+    "ac": 12,
+    "hp": 3,
+    "hitDice": "1d6",
+    "speed": "10 ft., fly 50 ft.",
+    "cr": "0",
+    "xp": 10,
+    "passivePerception": 15,
+    "otherStatistics": "Proficiency bonus +2. Perception +5. Passive Perception 15. Languages —.",
+    "abilities": {
+      "Str": {
+        "score": 6,
+        "modifier": -2
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "appearance": "An albatross-like bird with long gray-white wings, dark flight feathers and a hooked bill.",
+    "habitats": [
+      "Wildspace"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Boo’s Astral Menagerie, in Spelljammer: Adventures in Space, first printing, August 2022, p. 57. https://www.dndbeyond.com/monsters/2821200-space-mollymawk",
+      "Traits": "Flyby. Flying out of an enemy’s reach does not provoke opportunity attacks.\nHold Breath. The mollymawk can hold its breath for 15 minutes.",
+      "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 4 (1d4 + 2) piercing damage.",
+      "Encounter ecology": "Adults are about 3 ft. tall with a 10-ft. wingspan. They scavenge around spelljamming ships and travel between their air envelopes. Some Wildspace crews consider it bad luck to kill one."
+    }
+  },
+  {
+    "name": "Space Swine",
+    "publication": "Spelljammer: Adventures in Space",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 11,
+    "hp": 22,
+    "hitDice": "4d8 + 4",
+    "speed": "40 ft., fly 40 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "passivePerception": 14,
+    "otherStatistics": "Proficiency bonus +2. AC 16 with half-plate barding. Perception +4, Survival +4. Passive Perception 14. Languages —.",
+    "abilities": {
+      "Str": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 4,
+        "modifier": -3
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "appearance": "A bristly brown boar with curved tusks, hooves and two large feathered wings.",
+    "habitats": [
+      "Wildspace"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Boo’s Astral Menagerie, in Spelljammer: Adventures in Space, first printing, August 2022, p. 57. https://www.dndbeyond.com/monsters/2821201-space-swine",
+      "Actions": "Bite. Melee weapon attack, +3 to hit, reach 5 ft., one target. A hit deals 4 (1d6 + 1) piercing damage.",
+      "Combat variant": "Battle-trained space swine are called death squealers and typically wear half-plate barding, raising AC from 11 to 16.",
+      "Encounter ecology": "Dohwars breed these winged boars to track, carry loads and serve as mounts for Small creatures. Adults stand about 3 ft. at the shoulder, are 5 to 6 ft. long and favor truffles."
+    }
+  }
+]

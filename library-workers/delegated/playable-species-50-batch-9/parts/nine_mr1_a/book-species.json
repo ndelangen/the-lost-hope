@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Bullywug",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra for 2014 fifth edition, published through Dungeon Masters Guild in Monstrous Races.",
+      "Medium Humanoid with the bullywug tag. Constitution increases by 2. Choose a 1-point increase to Strength or Dexterity. Typical alignment is neutral evil.",
+      "Walk 20 ft. and swim 40 ft. Breathe both air and water. Long jump up to 20 ft. and high jump up to 10 ft. with or without a running start.",
+      "Dexterity checks to hide in swamps have advantage. While speaking Bullywug, communicate simple ideas to frogs and toads.",
+      "Speaks, reads, and writes Common and Bullywug."
+    ]
+  },
+  {
+    "name": "Fomorian",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra for 2014 fifth edition, published through Dungeon Masters Guild in Monstrous Races.",
+      "Medium Giant. Strength increases by 2 and Constitution by 1. Typical alignment is chaotic evil. Walk 30 ft. Speaks, reads, and writes Common and Giant.",
+      "Count as one size larger for carrying capacity and for pushing, dragging, and lifting. Twisted Form prevents wearing armor. Shields work normally.",
+      "Evil Eye takes an action and targets one visible creature within 30 ft. On a failed Charisma save against 8 + proficiency bonus + Wisdom modifier it takes 1d8 psychic damage. Damage rises to 2d8 at 5th, 3d8 at 11th, and 4d8 at 17th level.",
+      "Curse of the Evil Eye uses the same action and save. On failure, choose twisted legs to reduce speed by 10 ft., warped joints to impose disadvantage on Dexterity checks, Dexterity saves and Dexterity attacks, or withered limbs to do the same for Strength. The target repeats the save at the end of every turn until it succeeds."
+    ]
+  },
+  {
+    "name": "Fungi",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra for 2014 fifth edition, published through Dungeon Masters Guild in Monstrous Races.",
+      "All three forms are Medium Plants with 60-ft. darkvision. Typical alignment is neutral. They understand, read, and write Common. They lack hands for weapons, shields, and tools or spell items that require manipulation.",
+      "Gas Spore. No walking speed. Fly 30 ft. and hover when free of medium or heavy armor. Immune to being prone. Unarmed touch deals 1d8 poison.",
+      "Gas Spore Death Burst. At 0 HP the character dies and erupts in a 20-ft. radius. A failed Constitution save against 8 + proficiency bonus + Constitution modifier deals 1d6 poison and causes a magical spore infection. Damage rises to 2d6 at 5th, 3d6 at 11th, and 4d6 at 17th. Dead creatures are unaffected and immunity to the poisoned condition wards against infection. Magical disease removal or a Wisdom (Medicine) check against the original DC cures it. Without treatment it kills the host in 1d12 + the host’s Constitution score hours. The character returns at 1 HP from the first infected creature to die. Further infected bodies produce 2d4 ordinary gas spores each, which mature in 7 days.",
+      "Shrieker. Strength and Constitution each increase by 2. Walk 30 ft., gain Perception proficiency, and deal 1d8 bludgeoning with an unarmed slam. A bright light or hostile creature within 30 ft. triggers a shriek audible at 300 ft. It continues for 1d4 rounds after the trigger leaves range. A bonus action stops it early.",
+      "Violet Fungus. Strength, Dexterity, and Constitution each increase by 1. Walk 30 ft. Unarmed Rotting Touch deals 1d6 necrotic. A body killed with this touch decomposes rapidly. If the character dies within one day of a qualifying kill, it returns with 1 HP from its oldest qualifying body after one day. Other qualifying bodies grow ordinary violet fungi in 2d6 days.",
+      "False Appearance is available to Shrieker and Violet Fungus. Remain still and concentrate for one minute to pass for an ordinary fungus."
+    ]
+  },
+  {
+    "name": "Gorgon",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra for 2014 fifth edition, published through Dungeon Masters Guild in Monstrous Races.",
+      "Medium Monstrosity. Strength and Constitution each increase by 1. Typical alignment is neutral. Walk 30 ft. Darkvision 60 ft. Reads and understands Common.",
+      "Metal Skin sets AC at 18. Worn armor provides no benefit. Hoof unarmed strikes deal 1d8 bludgeoning. No hands for weapons, shields, or implements.",
+      "Petrifying Breath takes an action and fills a 15-ft. cone. Each creature makes a Constitution save against 8 + proficiency bonus + Constitution modifier. A failed save leaves the target restrained. It repeats the save at the end of its next turn and ends the effect on a success. Creatures immune to petrification ignore it. Maintain concentration for up to 1 minute. Recharge on a short or long rest."
+    ]
+  },
+  {
+    "name": "Hell Hound",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra for 2014 fifth edition, published through Dungeon Masters Guild in Monstrous Races.",
+      "Hell Hound, also spelled Hellhound. Medium Fiend. Strength increases by 1. Typical alignment is lawful evil. Walk 40 ft., with 60-ft. darkvision. Reads and understands Infernal.",
+      "Bite unarmed strikes deal 1d4 slashing and 1d4 fire on a hit. Natural AC is 13 + Dexterity modifier when unarmored. No hands for weapons, shields, or implements.",
+      "Wisdom (Perception) checks that rely on smell or hearing have advantage.",
+      "Fire Breath takes an action and fills a 15-ft. cone. Each creature makes a Dexterity save against 8 + proficiency bonus + Constitution modifier. Failed save takes 2d6 fire damage and success halves it. Damage rises to 3d6 at 6th level, 4d6 at 11th, and 5d6 at 16th. Recharge on a short or long rest."
+    ]
+  }
+]

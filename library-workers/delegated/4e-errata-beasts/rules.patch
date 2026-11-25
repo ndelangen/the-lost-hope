@@ -1,0 +1,198 @@
+diff --git a/dm-library/bestiary/book-catalog.json b/dm-library/bestiary/book-catalog.json
+--- a/dm-library/bestiary/book-catalog.json
++++ b/dm-library/bestiary/book-catalog.json
+@@ -309929,6 +309929,194 @@
+           }
+         ]
+       }
++    },
++    {
++      "name": "Ambush Vine",
++      "kind": "beast",
++      "edition": "4th edition",
++      "publication": "Monster Manual 2 (4e) errata",
++      "ruleset": "dnd-4e",
++      "appearance": "A mass of long, thorny vines that can blend into surrounding vegetation.",
++      "combat": {
++        "size": "Large",
++        "creatureType": "Fey beast (plant)",
++        "level": 16,
++        "role": "Elite Controller",
++        "xp": 2800,
++        "initiativeModifier": 15,
++        "armorClass": 30,
++        "fortitude": 28,
++        "reflex": 30,
++        "will": 25,
++        "hitPoints": 308,
++        "bloodied": 154,
++        "movement": "6 squares (forest walk), climb 6, burrow 6, swim 6",
++        "senses": ["Perception +15", "Tremorsense 20 squares"],
++        "skills": {
++          "Athletics": 18,
++          "Stealth": 20
++        },
++        "abilities": {
++          "Str": 21,
++          "Dex": 25,
++          "Con": 18,
++          "Int": 2,
++          "Wis": 15,
++          "Cha": 12
++        },
++        "habitats": ["Feywild", "Forest", "Swamp"],
++        "powers": [
++          {
++            "name": "Poison Lash",
++            "timing": "Standard, at-will",
++            "bonus": 20,
++            "defense": "Reflex",
++            "damage": "1d8 + 6 plus ongoing 5 poison (save ends)"
++          },
++          {
++            "name": "Foot Snare",
++            "timing": "Minor, at-will",
++            "bonus": 20,
++            "defense": "Fortitude",
++            "damage": "1d8 + 6 and prone"
++          },
++          {
++            "name": "Lashing Vines",
++            "timing": "Standard, at-will",
++            "bonus": 20,
++            "defense": "Reflex",
++            "damage": "2d8 + 6, with additional effects against immobilized enemies"
++          }
++        ]
++      },
++      "mechanics": {
++        "Power details": [
++          {
++            "name": "Poison Lash",
++            "effectNote": "Melee basic attack, reach 2 squares. Poison keyword."
++          },
++          {
++            "name": "Foot Snare",
++            "effectNote": "Reach 4 squares. A hit knocks the target prone."
++          },
++          {
++            "name": "Lashing Vines",
++            "effectNote": "Healing keyword. Close burst 4 against enemies. Each hit on an immobilized target deals an extra 1d8 damage and restores 5 HP to the vine."
++          },
++          {
++            "name": "Rapid Growth",
++            "effectNote": "Encounter power. When first bloodied, the vine spawns two Ambush Vine Shoots within 4 squares. They act immediately after the vine on its initiative count."
++          },
++          {
++            "name": "Sprout Vine",
++            "effectNote": "At-will minor action. The vine takes 10 damage and spawns one Ambush Vine Shoot within 4 squares. The shoot acts immediately after the vine on its initiative count."
++          }
++        ],
++        "Ambush Vine Shoot": [
++          {
++            "name": "Level 15 Minion Controller",
++            "effectNote": "Medium fey beast (plant), 300 XP. Initiative +14, Perception +14, tremorsense 20, AC 29, Fortitude 27, Reflex 30, Will 23. Speed 6 squares and burrow 6. It has 1 HP and takes no damage from a missed attack."
++          },
++          {
++            "name": "Wrapping Vines",
++            "effectNote": "Standard at-will melee basic attack, reach 2 squares. +20 vs. Fortitude. Hit for 12 damage and restrain the target (save ends)."
++          },
++          {
++            "name": "Enwrap",
++            "effectNote": "Enemies adjacent to the shoot take a −2 penalty to saving throws against immobilized and restrained."
++          },
++          {
++            "name": "Ability scores and Stealth",
++            "effectNote": "Str 18, Dex 25, Con 16, Int 2, Wis 15, Cha 12. Stealth +19, or +24 in undergrowth, trees, or swamps. Unaligned. No languages."
++          }
++        ]
++      },
++      "notes": [
++        "August 2012 update, p. 82, corrects the parent vine’s original 1,400 XP to 2,800 XP. The shoot’s 300 XP comes from its own block.",
++        "Unaligned. No languages. Saving throws +2 and one action point. Stealth rises from +20 to +25 in undergrowth, trees or swamp.",
++        "The vine stalks prey through canopy, soil and water. It can hide underground or blend with surrounding plants.",
++        "Source: Wizards of the Coast, Monster Manual 2 (4e), pp. 204–205, with the August 2012 Rules Update, p. 82."
++      ]
++    },
++    {
++      "name": "Pseudodragon",
++      "kind": "beast",
++      "edition": "4th edition",
++      "publication": "Monster Manual (4e) errata",
++      "ruleset": "dnd-4e",
++      "appearance": "A small winged drake with a fanged muzzle, clawed feet, and a stinging tail.",
++      "combat": {
++        "size": "Small",
++        "creatureType": "Natural beast (reptile)",
++        "level": 3,
++        "role": "Lurker",
++        "xp": 150,
++        "initiativeModifier": 9,
++        "armorClass": 17,
++        "fortitude": 14,
++        "reflex": 15,
++        "will": 14,
++        "hitPoints": 40,
++        "bloodied": 20,
++        "movement": "4 squares, fly 8 (hover)",
++        "canHover": true,
++        "senses": ["Perception +8"],
++        "skills": {
++          "Insight": 8,
++          "Stealth": 10
++        },
++        "abilities": {
++          "Str": 13,
++          "Dex": 18,
++          "Con": 16,
++          "Int": 6,
++          "Wis": 15,
++          "Cha": 17
++        },
++        "habitats": ["Wilderness", "Humanoid dwellings"],
++        "powers": [
++          {
++            "name": "Bite",
++            "timing": "Standard, at-will",
++            "bonus": 8,
++            "defense": "AC",
++            "damage": "1d8 + 4"
++          },
++          {
++            "name": "Sting",
++            "timing": "Standard, recharge 4–6",
++            "bonus": 8,
++            "defense": "AC",
++            "damage": "1d8 + 4 plus ongoing 5 poison (save ends)"
++          }
++        ]
++      },
++      "mechanics": {
++        "Power details": [
++          {
++            "name": "Bite",
++            "effectNote": "Melee basic attack."
++          },
++          {
++            "name": "Sting",
++            "effectNote": "Melee basic attack with the Poison keyword."
++          },
++          {
++            "name": "Flyby Attack",
++            "effectNote": "At-will standard action. Fly up to 8 squares and make one melee basic attack along that route. Moving away from that target does not provoke its opportunity attacks."
++          },
++          {
++            "name": "Invisibility",
++            "effectNote": "Standard action with the Illusion keyword. It recharges when the pseudodragon takes damage. Invisibility lasts while the pseudodragon stays still."
++          }
++        ]
++      },
++      "notes": [
++        "August 2012 update, p. 77, changes the original size from Tiny to Small. The checked Deluxe page already shows Small.",
++        "Unaligned. No languages. It communicates with animal noises. Wild pseudodragons hunt other creatures and usually leave humanoids alone unless provoked. Some live with humanoids as pets.",
++        "The tactics use Sting during a Flyby Attack when it is available. Against a persistent enemy the pseudodragon shifts, then uses Invisibility.",
++        "Source: Wizards of the Coast, Monster Manual (4e Deluxe), pp. 90–92, with the August 2012 Rules Update, p. 77."
++      ]
+     }
+   ],
+   "species": [

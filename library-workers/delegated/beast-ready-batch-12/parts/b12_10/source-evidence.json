@@ -1,0 +1,180 @@
+[
+  {
+    "name": "Brontosaurus",
+    "kind": "beast",
+    "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast LLC",
+    "leadDesigner": "Jeremy Crawford",
+    "copyrightYear": 2021,
+    "printing": "First printing, October 2021",
+    "isbn": "978-0-7869-6743-8",
+    "productCode": "620D0149000003 EN",
+    "creditsPdfPage": 2,
+    "section": "Chapter 2, Bestiary, Dinosaurs",
+    "printedPages": [
+      95
+    ],
+    "statBlockPage": 95,
+    "pdfPage": 95,
+    "viewerPages": [
+      95
+    ],
+    "sourceUrl": "https://www.dndbeyond.com/monsters/2560746-brontosaurus",
+    "url": "https://www.dndbeyond.com/monsters/2560746-brontosaurus",
+    "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/motm",
+    "officialBestiary": "https://www.dndbeyond.com/sources/motm/bestiary",
+    "sourcePageKind": "The public D&D Beyond source index lists this creature. The chapter and creature pages redirected to the book purchase page when checked without access.",
+    "sourceWitness": "Public scan of the Wizards of the Coast English first printing. pp. 2, 95, and 96 show the credits, creature accounts, and stat blocks.",
+    "sourceWitnessUrl": "",
+    "sourceSha256": "837394168a6ded0f6954b262aecd7671331bc1ddb0ecbf612d2fab6a3420d92e",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae",
+    "officialChangelog": "https://www.dndbeyond.com/changelog/",
+    "errataEvidence": "No published correction for Brontosaurus located in the official Sage Advice & Errata index or D&D Beyond changelog. The errata index separately lists Volo’s Guide to Monsters and Mordenkainen’s Tome of Foes.",
+    "habitatSourceUrl": "https://www.dndbeyond.com/monsters?filter-armor-class-max=&filter-armor-class-min=&filter-average-hp-max=&filter-average-hp-min=&filter-cr-max=10&filter-cr-min=1&filter-has-lair=&filter-is-legendary=&filter-is-mythic=&filter-partnered-content=f&filter-search=&filter-sub-types=98&filter-type=0&filter-type=2&sort=cr",
+    "habitatEvidence": "Forest and Grassland are listed in the D&D Beyond habitat tooltip for this record.",
+    "appearanceEvidence": "Editorial description of the previously generated, square parchment portrait selected in the roster.",
+    "printedProficiencyBonus": 3,
+    "artworkSource": "beast-ready-batch-08/parts/b08_06/portraits/brontosaurus.png",
+    "artworkSha256": "149c7c9f76a91e37a7f6fc25edae86fb66195bb048044e4bce9a00701d11fbd7",
+    "artworkCredit": "OpenAI ImageGen",
+    "artworkNote": "Previously staged portrait reused at its existing runtime path.",
+    "sourceNotes": [
+      "Both attacks have a printed reach of 20 ft. Only Stomp can knock the target prone."
+    ]
+  },
+  {
+    "name": "Deinonychus",
+    "kind": "beast",
+    "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast LLC",
+    "leadDesigner": "Jeremy Crawford",
+    "copyrightYear": 2021,
+    "printing": "First printing, October 2021",
+    "isbn": "978-0-7869-6743-8",
+    "productCode": "620D0149000003 EN",
+    "creditsPdfPage": 2,
+    "section": "Chapter 2, Bestiary, Dinosaurs",
+    "printedPages": [
+      95
+    ],
+    "statBlockPage": 95,
+    "pdfPage": 95,
+    "viewerPages": [
+      95
+    ],
+    "sourceUrl": "https://www.dndbeyond.com/monsters/2560770-deinonychus",
+    "url": "https://www.dndbeyond.com/monsters/2560770-deinonychus",
+    "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/motm",
+    "officialBestiary": "https://www.dndbeyond.com/sources/motm/bestiary",
+    "sourcePageKind": "The public D&D Beyond source index lists this creature. The chapter and creature pages redirected to the book purchase page when checked without access.",
+    "sourceWitness": "Public scan of the Wizards of the Coast English first printing. pp. 2, 95, and 96 show the credits, creature accounts, and stat blocks.",
+    "sourceWitnessUrl": "",
+    "sourceSha256": "837394168a6ded0f6954b262aecd7671331bc1ddb0ecbf612d2fab6a3420d92e",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae",
+    "officialChangelog": "https://www.dndbeyond.com/changelog/",
+    "errataEvidence": "No published correction for Deinonychus located in the official Sage Advice & Errata index or D&D Beyond changelog. The errata index separately lists Volo’s Guide to Monsters and Mordenkainen’s Tome of Foes.",
+    "habitatSourceUrl": "https://www.dndbeyond.com/monsters?filter-armor-class-max=&filter-armor-class-min=&filter-average-hp-max=&filter-average-hp-min=&filter-cr-max=10&filter-cr-min=1&filter-has-lair=&filter-is-legendary=&filter-is-mythic=&filter-partnered-content=f&filter-search=&filter-sub-types=98&filter-type=0&filter-type=2&sort=cr",
+    "habitatEvidence": "Forest, Grassland, and Hill are listed in the D&D Beyond habitat tooltip for this record.",
+    "appearanceEvidence": "Editorial description of the previously generated, square parchment portrait selected in the roster.",
+    "printedProficiencyBonus": 2,
+    "artworkSource": "beast-ready-batch-07/parts/b07_02/portraits/deinonychus.png",
+    "artworkSha256": "906e39e0317fbb67825e5e946b4ec28002ef373aaee0c4223aa3a7258eaac35d",
+    "artworkCredit": "OpenAI ImageGen",
+    "artworkNote": "Previously staged portrait reused at its existing runtime path.",
+    "sourceNotes": [
+      "The bonus-action Bite keys off the target being prone after the Claw trigger. The printed text does not require that the Pounce save caused the prone condition."
+    ]
+  },
+  {
+    "name": "Dimetrodon",
+    "kind": "beast",
+    "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast LLC",
+    "leadDesigner": "Jeremy Crawford",
+    "copyrightYear": 2021,
+    "printing": "First printing, October 2021",
+    "isbn": "978-0-7869-6743-8",
+    "productCode": "620D0149000003 EN",
+    "creditsPdfPage": 2,
+    "section": "Chapter 2, Bestiary, Dinosaurs",
+    "printedPages": [
+      95
+    ],
+    "statBlockPage": 95,
+    "pdfPage": 95,
+    "viewerPages": [
+      95
+    ],
+    "sourceUrl": "https://www.dndbeyond.com/monsters/2560776-dimetrodon",
+    "url": "https://www.dndbeyond.com/monsters/2560776-dimetrodon",
+    "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/motm",
+    "officialBestiary": "https://www.dndbeyond.com/sources/motm/bestiary",
+    "sourcePageKind": "The public D&D Beyond source index lists this creature. The chapter and creature pages redirected to the book purchase page when checked without access.",
+    "sourceWitness": "Public scan of the Wizards of the Coast English first printing. pp. 2, 95, and 96 show the credits, creature accounts, and stat blocks.",
+    "sourceWitnessUrl": "",
+    "sourceSha256": "837394168a6ded0f6954b262aecd7671331bc1ddb0ecbf612d2fab6a3420d92e",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae",
+    "officialChangelog": "https://www.dndbeyond.com/changelog/",
+    "errataEvidence": "No published correction for Dimetrodon located in the official Sage Advice & Errata index or D&D Beyond changelog. The errata index separately lists Volo’s Guide to Monsters and Mordenkainen’s Tome of Foes.",
+    "habitatSourceUrl": "https://www.dndbeyond.com/monsters?filter-armor-class-max=&filter-armor-class-min=&filter-average-hp-max=&filter-average-hp-min=&filter-cr-max=10&filter-cr-min=1&filter-has-lair=&filter-is-legendary=&filter-is-mythic=&filter-partnered-content=f&filter-search=&filter-sub-types=98&filter-type=0&filter-type=2&sort=cr",
+    "habitatEvidence": "Coastal and Swamp are listed in the D&D Beyond habitat tooltip for this record. The creature account on p. 95 describes hunting in shallow water.",
+    "appearanceEvidence": "Editorial description of the previously generated, square parchment portrait selected in the roster.",
+    "printedProficiencyBonus": 2,
+    "artworkSource": "beast-ready-batch-08/parts/b08_06/portraits/dimetrodon.png",
+    "artworkSha256": "bf9f8e99b77e74bef6bf95689c42001b77eef5ae4a6901697aad1ccd128209ce",
+    "artworkCredit": "OpenAI ImageGen",
+    "artworkNote": "Previously staged portrait reused at its existing runtime path.",
+    "sourceNotes": [
+      "The creature account calls it a reptile. The stat block gives it the Dinosaur tag."
+    ]
+  },
+  {
+    "name": "Velociraptor",
+    "kind": "beast",
+    "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast LLC",
+    "leadDesigner": "Jeremy Crawford",
+    "copyrightYear": 2021,
+    "printing": "First printing, October 2021",
+    "isbn": "978-0-7869-6743-8",
+    "productCode": "620D0149000003 EN",
+    "creditsPdfPage": 2,
+    "section": "Chapter 2, Bestiary, Dinosaurs",
+    "printedPages": [
+      95,
+      96
+    ],
+    "statBlockPage": 96,
+    "pdfPage": 96,
+    "viewerPages": [
+      95,
+      96
+    ],
+    "sourceUrl": "https://www.dndbeyond.com/monsters/2560950-velociraptor",
+    "url": "https://www.dndbeyond.com/monsters/2560950-velociraptor",
+    "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/motm",
+    "officialBestiary": "https://www.dndbeyond.com/sources/motm/bestiary",
+    "sourcePageKind": "The public D&D Beyond source index lists this creature. The chapter and creature pages redirected to the book purchase page when checked without access.",
+    "sourceWitness": "Public scan of the Wizards of the Coast English first printing. pp. 2, 95, and 96 show the credits, creature accounts, and stat blocks.",
+    "sourceWitnessUrl": "",
+    "sourceSha256": "837394168a6ded0f6954b262aecd7671331bc1ddb0ecbf612d2fab6a3420d92e",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae",
+    "officialChangelog": "https://www.dndbeyond.com/changelog/",
+    "errataEvidence": "No published correction for Velociraptor located in the official Sage Advice & Errata index or D&D Beyond changelog. The errata index separately lists Volo’s Guide to Monsters and Mordenkainen’s Tome of Foes.",
+    "habitatSourceUrl": "https://www.dndbeyond.com/monsters?filter-armor-class-max=&filter-armor-class-min=&filter-average-hp-max=&filter-average-hp-min=&filter-cr-max=10&filter-cr-min=1&filter-has-lair=&filter-is-legendary=&filter-is-mythic=&filter-partnered-content=f&filter-search=&filter-sub-types=98&filter-type=0&filter-type=2&sort=cr",
+    "habitatEvidence": "Forest and Grassland are listed in the D&D Beyond habitat tooltip for this record.",
+    "appearanceEvidence": "Editorial description of the previously generated, square parchment portrait selected in the roster.",
+    "printedProficiencyBonus": 2,
+    "artworkSource": "beast-ready-batch-01/parts/black_flag/portraits/velociraptor.png",
+    "artworkSha256": "921867b38a33b9c5889c292874fa114233444a2684be9fd8e39e7475cb862747",
+    "artworkCredit": "OpenAI ImageGen",
+    "artworkNote": "Previously staged portrait reused at its existing runtime path.",
+    "sourceNotes": [
+      "The creature account begins in the right column of p. 95. The full stat block is in the lower right column of p. 96."
+    ]
+  }
+]

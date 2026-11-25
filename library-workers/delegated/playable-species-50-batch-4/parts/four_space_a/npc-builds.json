@@ -1,0 +1,216 @@
+{
+  "builds": [
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "AD&D 2nd edition"
+      ],
+      "size": "Large",
+      "type": "Humanoid (reptilian taur)",
+      "id": "cgr1-dracon-gangway-keeper-fighter1",
+      "title": "Dracon gangway keeper, Fighter 1",
+      "difficulty": "Level 1 fighter. THAC0 20 before modifiers. One weapon attack or two racial claw attacks.",
+      "ac": 4,
+      "hp": 8,
+      "initiative": 0,
+      "speed": "18 ground unencumbered",
+      "languages": "Dracon, dragon speech, Common",
+      "senses": "Ordinary vision",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 13,
+        "CON": 14,
+        "INT": 13,
+        "WIS": 11,
+        "CHA": 12
+      },
+      "skills": [
+        "Long sword",
+        "Rope Use",
+        "Seamanship"
+      ],
+      "traits": [
+        "Lawful good. HP 8 on 1d10. The original companion Dracon entry supplies innate AC 5. He wears cloth and carries a medium shield for AC 4 from the front. Dexterity 13 makes no AC adjustment.",
+        "His body counts as Large when selecting a weapon's damage column. The lighter load on his fitted back harness allows move 18.",
+        "Base saves. Paralysis/poison/death 14, rod/staff/wand 16, petrification/polymorph 15, breath 17, spell 17."
+      ],
+      "actions": [
+        "Long sword, THAC0 20. Hit for 1d8+1 against a Small or Medium target or 1d12+1 against a Large target. Speed factor 5.",
+        "Thumb-claws with both hands free, two attacks at THAC0 20. Each hit deals 1d4+1 including Strength. Stow the sword and shield first.",
+        "Shoulder a jammed door. Add 4 to the normal Strength 16 opening target of 9, for a result of 13 or less on 1d20."
+      ],
+      "tactics": "Perrin braces the gangway as the others unlash the cargo. He offers safe passage to anyone who helps get the doors open."
+    },
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "AD&D 2nd edition"
+      ],
+      "size": "Large",
+      "type": "Humanoid (hippopotamus folk)",
+      "id": "cgr1-giff-quartermaster-fighter1",
+      "title": "Giff quartermaster, Fighter 1",
+      "difficulty": "Level 1 fighter. Base THAC0 20. One attack per round.",
+      "ac": 5,
+      "hp": 10,
+      "initiative": 0,
+      "speed": "6 ground",
+      "languages": "Giff, Common, Dwarven",
+      "senses": "Ordinary vision",
+      "abilityScores": {
+        "STR": 17,
+        "DEX": 12,
+        "CON": 16,
+        "INT": 12,
+        "WIS": 10,
+        "CHA": 11
+      },
+      "skills": [
+        "Battle axe",
+        "Appraising",
+        "Rope Use"
+      ],
+      "traits": [
+        "Lawful neutral. HP 8 on 1d10 plus 2 for Constitution 16. Russet coat with no armor. Natural AC 6 improves to 5 with the medium shield.",
+        "Count as Large against weapon damage. Use 10% resistance against incoming hostile or helpful spells. Resolve unsuitable item malfunction separately. Leda carries mundane gear.",
+        "Base saves. Paralysis/poison/death 14, rod/staff/wand 16, petrification/polymorph 15, breath 17, spell 17."
+      ],
+      "actions": [
+        "Battle axe, THAC0 19. Hit for 1d8+1 against Small, Medium or Large targets. Speed factor 7.",
+        "Head-butt, THAC0 19, 2d6 damage. Use this unarmed option instead of the axe. The printed head-butt damage is used as a fixed expression."
+      ],
+      "tactics": "Leda orders the crew clear of the open hatch, holds behind the shield and keeps the manifest safe in her coat."
+    },
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "AD&D 2nd edition"
+      ],
+      "size": "Medium",
+      "type": "Humanoid (simian)",
+      "id": "cgr1-grommam-topside-rigger-fighter1",
+      "title": "Grommam topside rigger, Fighter 1",
+      "difficulty": "Level 1 fighter. Base THAC0 20. The smaller off-hand dagger grants one extra attack when both weapons are in use.",
+      "ac": 9,
+      "hp": 9,
+      "initiative": 0,
+      "speed": "9 ground, 15 in trees",
+      "languages": "Grommish, Common",
+      "senses": "Ordinary vision",
+      "abilityScores": {
+        "STR": 17,
+        "DEX": 15,
+        "CON": 14,
+        "INT": 11,
+        "WIS": 10,
+        "CHA": 11
+      },
+      "skills": [
+        "Hand axe",
+        "Dagger",
+        "Rope Use",
+        "Seamanship",
+        "Climbing rolls +25%"
+      ],
+      "traits": [
+        "Lawful good. HP 9 on 1d10. No armor or shield. Dexterity 15 improves AC 10 to 9.",
+        "The species climbing bonus is +25 percentage points when the DM calls for a percentage climbing roll. Tree movement comes from the original companion Grommam entry. Ship rigging uses normal climbing procedures.",
+        "A magic item unsuitable for his class has a 40% per-use failure chance, with the listed exceptions. He carries mundane tools.",
+        "Base saves. Paralysis/poison/death 14, rod/staff/wand 16, petrification/polymorph 15, breath 17, spell 17."
+      ],
+      "actions": [
+        "Hand axe, THAC0 19. Hit for 1d6+1 against a Small or Medium target or 1d4+1 against a Large target. Speed factor 4.",
+        "Add a dagger in the off hand for a two-weapon round. Roll one axe attack as above and one dagger attack at THAC0 19 for 1d4+1 against a Small or Medium target or 1d3+1 against a Large target. The lower attack target reflects Strength 17 and the species waiver. Dagger speed factor 2."
+      ],
+      "tactics": "Serren goes up the rigging to cut a fouled line, then covers the descent. He keeps one hand free while climbing."
+    },
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "AD&D 2nd edition"
+      ],
+      "size": "Medium",
+      "type": "Humanoid (reptilian)",
+      "id": "cgr1-hurwaeti-salvage-guard-fighter1",
+      "title": "Hurwaeti salvage guard, Fighter 1",
+      "difficulty": "Level 1 fighter. Base THAC0 20. One attack per round or use the daily fog bank.",
+      "ac": 2,
+      "hp": 8,
+      "initiative": 0,
+      "speed": "9 ground, swim 12",
+      "languages": "Hurwaeti, Common, Lizard Man",
+      "senses": "Ordinary vision",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 12,
+        "WIS": 14,
+        "CHA": 10
+      },
+      "skills": [
+        "Spear",
+        "Swimming",
+        "Rope Use",
+        "Seamanship"
+      ],
+      "traits": [
+        "Neutral. HP 8 on 1d10. Natural AC 5, medium shield −1 and Dexterity 16 −2 give AC 2 with shield facing. No worn armor. Use Dexterity's +1 reaction adjustment for surprise.",
+        "May leap 8 feet straight up or 20 feet horizontally with gear. The swim rate comes from the original companion Hurwaet entry.",
+        "Base saves. Paralysis/poison/death 14, rod/staff/wand 16, petrification/polymorph 15, breath 17, spell 17. Apply the Dexterity adjustment when the rules call for a dodgeable save."
+      ],
+      "actions": [
+        "Spear thrust, THAC0 20. Hit for 1d6+1 against a Small or Medium target or 1d8+1 against a Large target. Speed factor 6. Against the listed enemies the effective THAC0 improves to 19.",
+        "Throw spear once, THAC0 19 at short range with Dexterity's +1. Use the same damage and the same conditional racial hit bonus. Bands 10/20/30 yd. outdoors or ft. indoors, with the usual −2 and −5 at medium and long range.",
+        "Fog bank once per day. Stationary 60 × 60 × 20 ft., no save. Sight stops past 2 feet through it. For this encounter, use the PHB spell's 10 yd. placement range and 2 initiative modifier with a seven-round base duration. A strong breeze clears it in a round and a moderate one halves its duration. Dispelling does not clear it. May use the same daily fog to refresh a ship's air as described in the profile."
+      ],
+      "tactics": "Venn makes the crossing first and puts fog between the crew and onlookers when the cargo comes out."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Dracon",
+      "size": "Large",
+      "edition": "AD&D 2nd edition",
+      "speciesPublication": "The Complete Spacefarer's Handbook (1992)",
+      "build": "cgr1-dracon-gangway-keeper-fighter1",
+      "name": "Perrin Broadwake",
+      "role": "Gangway keeper",
+      "motive": "Keep a leaking hold clear while the crew moves provisions.",
+      "hook": "The emergency hatch jammed under a shifted pallet. Perrin needs a second pair of hands before he can put down his shield."
+    },
+    {
+      "species": "Giff",
+      "size": "Large",
+      "edition": "AD&D 2nd edition",
+      "speciesPublication": "The Complete Spacefarer's Handbook (1992)",
+      "build": "cgr1-giff-quartermaster-fighter1",
+      "name": "Leda Caskmark",
+      "role": "Quartermaster",
+      "motive": "Find which two crates were signed out with the wrong cargo marks.",
+      "hook": "Leda offers crew pay to recover two crates before their owners notice the mix-up."
+    },
+    {
+      "species": "Grommam",
+      "size": "Medium",
+      "edition": "AD&D 2nd edition",
+      "speciesPublication": "The Complete Spacefarer's Handbook (1992)",
+      "build": "cgr1-grommam-topside-rigger-fighter1",
+      "name": "Serren Knotwright",
+      "role": "Topside rigger",
+      "motive": "Free a tangled cargo sling without dropping it into the harbor.",
+      "hook": "Serren signals for help from above. A frayed line is holding the whole load."
+    },
+    {
+      "species": "Hurwaeti",
+      "size": "Medium",
+      "edition": "AD&D 2nd edition",
+      "speciesPublication": "The Complete Spacefarer's Handbook (1992)",
+      "build": "cgr1-hurwaeti-salvage-guard-fighter1",
+      "name": "Venn Reedstep",
+      "role": "Salvage guard",
+      "motive": "Bring a sealed logbook back before the wreck breaks loose.",
+      "hook": "Venn can screen the recovery with fog or save it for a small launch whose air is going foul."
+    }
+  ]
+}

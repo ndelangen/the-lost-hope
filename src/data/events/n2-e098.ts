@@ -28,4 +28,5 @@ export default createEvent({
       ' had sold his own ship and crew because he expected the sea to become lethally dangerous during the coming decade and wanted no responsibility for what would happen.',
     ],
   ],
+  illustrations: ['/assets/scenes/alberto-warns-swift-against-returning-to-the-sea.png'],
 })

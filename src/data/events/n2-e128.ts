@@ -23,4 +23,5 @@ export default createEvent({
       '.',
     ],
   ],
+  illustrations: ['/assets/scenes/the-dragon-horn-becomes-the-serpent-eclipse-trial-disk.png'],
 })

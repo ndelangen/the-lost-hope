@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Giant Weasel",
+    "file": "portraits/giant-weasel.png",
+    "sha256": "f8a061e75a60895c3284128793630b148a9c66f28fd7e5f0dcda5eb67575fc3a",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "name": "Giant Wolf Spider",
+    "file": "portraits/giant-wolf-spider.png",
+    "sha256": "eae158ca39e9ee01b01ad234ab7d51a8c8c73b7681da89d6f52f3ca44644c494",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "name": "Hawk",
+    "file": "portraits/hawk.png",
+    "sha256": "664b65bcb98eb5f10a8b893bc32619f625640484a96385cc99f8e0b2f41485a1",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "name": "Hunter Shark",
+    "file": "portraits/hunter-shark.png",
+    "sha256": "7eaf07ae0dfdd6bd07240c252e637363f04c440d38ed42010ea5395adaae3fd6",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "name": "Jackal",
+    "file": "portraits/jackal.png",
+    "sha256": "a2551d15c28e6356cbf6e02f3f7948882d229064df5b99ba2a707271f6ce17e2",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  }
+]

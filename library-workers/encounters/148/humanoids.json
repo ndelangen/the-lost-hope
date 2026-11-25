@@ -1,0 +1,405 @@
+[
+  {
+    "name": "Bugbear",
+    "statBlock": {
+      "name": "Bugbear",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (goblinoid), chaotic evil",
+      "ac": 16,
+      "hp": 27,
+      "hitDice": "5d8 + 5",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 10,
+      "description": "A bugbear waits out of sight until a target comes close enough for a heavy first blow.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Stealth": 6,
+        "Survival": 2
+      },
+      "sections": {
+        "Armor": "Hide armor and shield.",
+        "Senses": "Darkvision 60 ft., passive Perception 10.",
+        "Languages": "Common, Goblin.",
+        "Traits": "Brute. On a hit with a melee weapon, roll one extra weapon damage die. The attacks below already include it where applicable.\nSurprise Attack. If the bugbear surprised a creature, its hits against that creature in the first round of combat deal an extra 7 (2d6) damage.",
+        "Actions": "Morningstar. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 11 (2d8 + 2) piercing damage.\nJavelin. Melee or ranged weapon attack, +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit 9 (2d6 + 2) piercing damage in melee or 5 (1d6 + 2) piercing damage when thrown.",
+        "Printed source": "Monster Manual (2014), p. 33."
+      }
+    }
+  },
+  {
+    "name": "Gnoll",
+    "statBlock": {
+      "name": "Gnoll",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (gnoll), chaotic evil",
+      "ac": 15,
+      "hp": 22,
+      "hitDice": "5d8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 10,
+      "description": "This hyena-headed raider closes on its next prey as soon as its first target falls.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Hide armor and shield.",
+        "Senses": "Darkvision 60 ft., passive Perception 10.",
+        "Languages": "Gnoll.",
+        "Traits": "Rampage. On its turn, if the gnoll drops a creature to 0 HP with a melee attack, it can spend a bonus action to move up to half its speed and make one Bite attack.",
+        "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one creature. Hit 4 (1d4 + 2) piercing damage.\nSpear. Melee or ranged weapon attack, +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) with a two-handed melee attack.\nLongbow. Ranged weapon attack, +3 to hit, range 150/600 ft., one target. Hit 5 (1d8 + 1) piercing damage.",
+        "Printed source": "Monster Manual (2014), p. 163."
+      }
+    }
+  },
+  {
+    "name": "Goblin",
+    "statBlock": {
+      "name": "Goblin",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Small humanoid (goblinoid), neutral evil",
+      "ac": 15,
+      "hp": 7,
+      "hitDice": "2d6",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 8
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 8
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 9,
+      "description": "A shield and a shortbow let the goblin harry travelers and duck back into cover.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Stealth": 6
+      },
+      "sections": {
+        "Armor": "Leather armor and shield.",
+        "Senses": "Darkvision 60 ft., passive Perception 9.",
+        "Languages": "Common, Goblin.",
+        "Traits": "Nimble Escape. The goblin can Disengage or Hide as a bonus action on each of its turns.",
+        "Actions": "Scimitar. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 5 (1d6 + 2) slashing damage.\nShortbow. Ranged weapon attack, +4 to hit, range 80/320 ft., one target. Hit 5 (1d6 + 2) piercing damage.",
+        "Printed source": "Monster Manual (2014), p. 166."
+      }
+    }
+  },
+  {
+    "name": "Hobgoblin",
+    "statBlock": {
+      "name": "Hobgoblin",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (goblinoid), lawful evil",
+      "ac": 18,
+      "hp": 11,
+      "hitDice": "2d8 + 2",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 10,
+      "description": "An armored hobgoblin works with its allies to punish any foe they pin in place.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Chain mail and shield.",
+        "Senses": "Darkvision 60 ft., passive Perception 10.",
+        "Languages": "Common, Goblin.",
+        "Traits": "Martial Advantage. Once per turn, when the hobgoblin hits a creature with a weapon, it can deal an extra 7 (2d6) damage if one of its allies is within 5 ft. of the target and is not Incapacitated.",
+        "Actions": "Longsword. Melee weapon attack, +3 to hit, reach 5 ft., one target. Hit 5 (1d8 + 1) slashing damage, or 6 (1d10 + 1) if wielded with two hands.\nLongbow. Ranged weapon attack, +3 to hit, range 150/600 ft., one target. Hit 5 (1d8 + 1) piercing damage.",
+        "Printed source": "Monster Manual (2014), p. 186."
+      }
+    }
+  },
+  {
+    "name": "Kobold",
+    "statBlock": {
+      "name": "Kobold",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Small humanoid (kobold), lawful evil",
+      "ac": 12,
+      "hp": 5,
+      "hitDice": "2d6 - 2",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 7
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 9
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 7
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "1/8",
+      "xp": 25,
+      "passivePerception": 8,
+      "description": "A kobold fights best with allies close by, away from direct sun.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Senses": "Darkvision 60 ft., passive Perception 8.",
+        "Languages": "Common, Draconic.",
+        "Traits": "Sunlight Sensitivity. While the kobold is in sunlight, it has disadvantage on attack rolls and on Wisdom (Perception) checks that use sight.\nPack Tactics. The kobold has advantage on an attack roll against a creature if an ally within 5 ft. of that creature is not Incapacitated.",
+        "Actions": "Dagger. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 4 (1d4 + 2) piercing damage.\nSling. Ranged weapon attack, +4 to hit, range 30/120 ft., one target. Hit 4 (1d4 + 2) bludgeoning damage.",
+        "Printed source": "Monster Manual (2014), p. 195."
+      }
+    }
+  },
+  {
+    "name": "Lizardfolk",
+    "statBlock": {
+      "name": "Lizardfolk",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (lizardfolk), neutral",
+      "ac": 15,
+      "hp": 22,
+      "hitDice": "4d8 + 4",
+      "speed": "30 ft., swim 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 7
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 13,
+      "description": "Lizardfolk make armor and tools from hides, shells, and bones. They can approach a fight underwater.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 3,
+        "Stealth": 4,
+        "Survival": 5
+      },
+      "sections": {
+        "Armor": "Natural armor and shield.",
+        "Senses": "Passive Perception 13.",
+        "Languages": "Draconic.",
+        "Traits": "Hold Breath. The lizardfolk can go up to 15 minutes without taking a breath.",
+        "Actions": "Multiattack. Make two melee attacks, each with a different weapon.\nBite. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 5 (1d6 + 2) piercing damage.\nHeavy Club. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 5 (1d6 + 2) bludgeoning damage.\nJavelin. Melee or ranged weapon attack, +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit 5 (1d6 + 2) piercing damage.\nSpiked Shield. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 5 (1d6 + 2) piercing damage.",
+        "Printed source": "Monster Manual (2014), p. 204."
+      }
+    }
+  },
+  {
+    "name": "Orc",
+    "statBlock": {
+      "name": "Orc",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (orc), chaotic evil",
+      "ac": 13,
+      "hp": 15,
+      "hitDice": "2d8 + 6",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 7
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 10,
+      "description": "This lightly armored warrior carries a greataxe for close combat and a javelin for targets farther away.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Intimidation": 2
+      },
+      "sections": {
+        "Armor": "Hide armor.",
+        "Senses": "Darkvision 60 ft., passive Perception 10.",
+        "Languages": "Common, Orc.",
+        "Traits": "Aggressive. The orc can use a bonus action to move up to its speed toward a hostile creature it can see.",
+        "Actions": "Greataxe. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 9 (1d12 + 3) slashing damage.\nJavelin. Melee or ranged weapon attack, +5 to hit, reach 5 ft. or range 30/120 ft., one target. Hit 6 (1d6 + 3) piercing damage.",
+        "Printed source": "Monster Manual (2014), p. 246."
+      }
+    }
+  },
+  {
+    "name": "Grimlock",
+    "statBlock": {
+      "name": "Grimlock",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (grimlock), neutral evil",
+      "ac": 11,
+      "hp": 11,
+      "hitDice": "2d8 + 2",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 9
+        },
+        "Wis": {
+          "score": 8
+        },
+        "Cha": {
+          "score": 6
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 13,
+      "description": "An eyeless Underdark hunter that tracks prey by sound and scent.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Athletics": 5,
+        "Perception": 3,
+        "Stealth": 3
+      },
+      "sections": {
+        "Condition immunities": "Blinded.",
+        "Senses": "Blindsight 30 ft., reduced to 10 ft. while Deafened. The grimlock is blind beyond that radius. Passive Perception 13.",
+        "Languages": "Undercommon.",
+        "Traits": "Blind Senses. The grimlock loses its blindsight if it is both Deafened and unable to smell.\nKeen Hearing and Smell. The grimlock has advantage on Wisdom (Perception) checks that rely on hearing or smell.\nStone Camouflage. The grimlock has advantage on Dexterity (Stealth) checks to hide in rocky terrain.",
+        "Actions": "Spiked Bone Club. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 5 (1d4 + 3) bludgeoning damage plus 2 (1d4) piercing damage.",
+        "Printed source": "Monster Manual (2014), p. 175."
+      }
+    }
+  }
+]

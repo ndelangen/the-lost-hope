@@ -23,6 +23,7 @@ import sharp from 'sharp'
 /* oxlint-disable no-await-in-loop -- generation is intentionally deterministic and memory-bounded */
 
 import {
+  PRERENDERED_PUBLIC_PAGE_DESCRIPTORS,
   PUBLIC_PAGE_DESCRIPTORS,
   SOCIAL_PREVIEW_VERSION,
   validatePublicPageDescriptors,
@@ -98,9 +99,11 @@ function mimeType(bytes: Buffer): string {
   throw new Error('Unsupported social-preview image format')
 }
 
-function prepareBackgroundImage(bytes: Buffer): string {
+function prepareBackgroundImage(bytes: Buffer, scale = 1): string {
   const source = `data:${mimeType(bytes)};base64,${bytes.toString('base64')}`
-  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="600" height="315" viewBox="0 0 600 315"><image href="${source}" width="600" height="315" preserveAspectRatio="xMidYMin slice"/></svg>`
+  const width = 600 * scale
+  const height = 315 * scale
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}"><image href="${source}" width="${width}" height="${height}" preserveAspectRatio="xMidYMin slice"/></svg>`
   const resized = new Resvg(svg).render().asPng()
   return `data:image/png;base64,${resized.toString('base64')}`
 }
@@ -148,7 +151,76 @@ function titleSize(title: string): number {
   return 76
 }
 
+function novelCard(page: PublicPageDescriptor, imageDataUrl: string): ReactNode {
+  return (
+    <div
+      style={{
+        width: 1200,
+        height: 630,
+        display: 'flex',
+        position: 'relative',
+        background: '#07111f',
+        color: '#fff',
+        fontFamily: 'Inter',
+      }}
+    >
+      <img
+        src={imageDataUrl}
+        alt=""
+        width={1200}
+        height={630}
+        style={{ position: 'absolute', inset: 0 }}
+      />
+      <div
+        style={{
+          position: 'absolute',
+          inset: 0,
+          backgroundImage:
+            'linear-gradient(0deg, #07111f 0%, rgba(7,17,31,.94) 17%, rgba(7,17,31,.52) 35%, transparent 65%)',
+        }}
+      />
+      <div
+        style={{
+          position: 'absolute',
+          left: 54,
+          right: 54,
+          bottom: 38,
+          borderTop: `2px solid ${page.accent}`,
+          paddingTop: 22,
+          display: 'flex',
+          alignItems: 'flex-end',
+          justifyContent: 'space-between',
+        }}
+      >
+        <div style={{ display: 'flex', flexDirection: 'column', gap: 5 }}>
+          <span
+            style={{
+              color: page.softAccent,
+              fontSize: 22,
+              fontWeight: 700,
+              letterSpacing: '.18em',
+              textTransform: 'uppercase',
+            }}
+          >
+            {page.eyebrow}
+          </span>
+          <span style={{ fontSize: 86, fontWeight: 900, lineHeight: 1, letterSpacing: '-.045em' }}>
+            {page.title}
+          </span>
+        </div>
+        <span style={{ marginBottom: 8, fontSize: 21, fontWeight: 700, color: page.softAccent }}>
+          {page.context}
+        </span>
+      </div>
+    </div>
+  )
+}
+
 function card(page: PublicPageDescriptor, imageDataUrl: string | undefined): ReactNode {
+  if (page.pageKind === 'novel') {
+    if (!imageDataUrl) throw new Error('The Novel social preview requires opening voyage artwork')
+    return novelCard(page, imageDataUrl)
+  }
   const Icon = iconFor(page)
   const iconMarkup = renderToStaticMarkup(
     <Icon width={66} height={66} strokeWidth={1.7} color="#ffffff" />,
@@ -390,7 +462,9 @@ async function generate(): Promise<void> {
     const fileName = `${safeFileStem(page.path)}.${digest}.jpg`
     const publicPath = `/social-previews/${fileName}`
     if (!pathsOnly) {
-      const imageDataUrl = imageBytes ? prepareBackgroundImage(imageBytes) : undefined
+      const imageDataUrl = imageBytes
+        ? prepareBackgroundImage(imageBytes, page.pageKind === 'novel' ? 2 : 1)
+        : undefined
       const svg = await satori(card(page, imageDataUrl), {
         width: 1200,
         height: 630,
@@ -422,7 +496,7 @@ async function generate(): Promise<void> {
   )
   await writeFile(
     GENERATED_PUBLIC_PAGE_PATHS,
-    `${JSON.stringify(PUBLIC_PAGE_DESCRIPTORS.map(({ path }) => path))}\n`,
+    `${JSON.stringify(PRERENDERED_PUBLIC_PAGE_DESCRIPTORS.map(({ path }) => path))}\n`,
   )
   await writeFile(
     GENERATED_PUBLIC_ASSETS_MODULE,
@@ -443,7 +517,7 @@ async function generate(): Promise<void> {
       join(ROOT, 'public/_redirects'),
       [
         '/locations /locations/map 301',
-        ...PUBLIC_PAGE_DESCRIPTORS.filter((page) => page.path !== '/').map(
+        ...PRERENDERED_PUBLIC_PAGE_DESCRIPTORS.filter((page) => page.path !== '/').map(
           (page) => `${page.path} ${page.path}.html 200`,
         ),
         '',

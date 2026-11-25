@@ -40,4 +40,5 @@ export default createEvent({
       '.',
     ],
   ],
+  illustrations: ['/assets/scenes/the-party-encounters-fix-s-potion-delivery.png'],
 })

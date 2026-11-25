@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Ankheg (MCDM)",
+    "query": "burrowing exoskeleton roadside earth unstable tunneler",
+    "condition": "Grappled",
+    "alternates": [
+      {
+        "credit": "D&D Beyond publisher art · Flee, Mortals!",
+        "url": ""
+      },
+      {
+        "credit": "OpenAI ImageGen · The Lost Hope",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Basilisk (MCDM)",
+    "query": "eight-legged damp caves petrifying eye beams",
+    "condition": "Petrified",
+    "alternates": [
+      {
+        "credit": "D&D Beyond publisher art · Flee, Mortals!",
+        "url": ""
+      }
+    ]
+  }
+]

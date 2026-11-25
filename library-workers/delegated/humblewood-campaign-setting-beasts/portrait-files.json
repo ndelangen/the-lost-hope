@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Emberbat",
+    "file": "",
+    "selection": "generated",
+    "sha256": "43a3071cd52b0902129bf274b7463ae666b0126e606a866aca5bfe0613111b6a",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "name": "Swarm of Emberbats",
+    "file": "",
+    "selection": "reused",
+    "sha256": "cadd4320db049b7b873199eef3d291c0d40c57043547f79e0423f3d3cfdc0978",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "name": "Forest Prowler",
+    "file": "",
+    "selection": "generated",
+    "sha256": "1c380787e815f435ddab9496ba60256246c69cd8435345fc001d5a14d595f831",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "name": "Mountain Lion",
+    "file": "",
+    "selection": "generated",
+    "sha256": "3a90c25c404fd00883b4de6af3f87a12a50d9fc962694229a7dfd3ed4795d43c",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "name": "Wakewyrm",
+    "file": "",
+    "selection": "generated",
+    "sha256": "509e63f8dd3a4b805f2bffabbd37e97342820abd33ac36010eef08b267aeb20d",
+    "width": 1254,
+    "height": 1254
+  }
+]

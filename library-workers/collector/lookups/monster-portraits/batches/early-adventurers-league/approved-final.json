@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "bandit-mage",
+    "name": "Bandit Mage",
+    "entryId": "monster-bb1c29d900ba05dc92a94c7c",
+    "input": "",
+    "reference": "",
+    "subjectPrompt": "A human outlaw wizard prepared to ambush a caravan. An alert middle-aged woman with rough weathered olive skin and dark hair pulled back in a single braid. Faded spruce blue-grey traveling coat with a rust-red shoulder wrap, rope belt and stained field boots. Plain wooden quarterstaff planted in one hand, a few tiny blue sparks of shocking grasp crackling around the raised free fingers, dusty spellbook belted at her waist. Uneven patched garments and no heavy armor. Full figure in three-quarter view, low guarded stance. The second reference gives an impression of outlaw gear only; paint this distinctive wizard as described.",
+    "prompt": "Create one original square 1254 by 1254 monster portrait for a fantasy tabletop bestiary. Match the FIRST reference tightly for visual style: warm golden amber mottled parchment drawn edge to edge, with finely detailed sepia ink and painted muted gouache, soft pencil shading, sober classic RPG reference artwork. Entire full body within the square with breathing room at all edges, clean silhouette legible at thumbnail size, sparse soft ground contact shadow. Plain parchment, no scenery beyond shadow, no border or flourishes, no card design, no type, no label, no visible signature. A human outlaw wizard prepared to ambush a caravan. An alert middle-aged woman with rough weathered olive skin and dark hair pulled back in a single braid. Faded spruce blue-grey traveling coat with a rust-red shoulder wrap, rope belt and stained field boots. Plain wooden quarterstaff planted in one hand, a few tiny blue sparks of shocking grasp crackling around the raised free fingers, dusty spellbook belted at her waist. Uneven patched garments and no heavy armor. Full figure in three-quarter view, low guarded stance. The second reference gives an impression of outlaw gear only; paint this distinctive wizard as described.",
+    "appearanceSource": "Bounty in the Bog and related Bandit Captain art"
+  },
+  {
+    "slug": "gnawb",
+    "name": "Gnawb",
+    "entryId": "monster-a0df8ea63246ac64daaaa752",
+    "input": "",
+    "reference": "",
+    "subjectPrompt": "Claugiyliamatar, Old Gnawbone, a colossal ancient GREEN dragon. An alert diabolically intelligent long wedge head, sweeping blade ridges above eyes, a particularly long agile serpentine neck, moss-dark and olive scales and subtly yellow-green bony membranes, huge batlike wings and a long tapering tail wrapping down around her taloned feet. Show whole dragon stalking forward in a powerful three-quarter view, wings half raised and all extremities comfortably in frame, strong face rendered with intricate scale patterns. A clean weathered cracked bone near the front claws as a modest nod to her name. The second reference is for the dragon's color and form only.",
+    "prompt": "Create one original square 1254 by 1254 monster portrait for a fantasy tabletop bestiary. Match the FIRST reference tightly for visual style: warm golden amber mottled parchment drawn edge to edge, with finely detailed sepia ink and painted muted gouache, soft pencil shading, sober classic RPG reference artwork. Entire full body within the square with breathing room at all edges, clean silhouette legible at thumbnail size, sparse soft ground contact shadow. Plain parchment, no scenery beyond shadow, no border or flourishes, no card design, no type, no label, no visible signature. Claugiyliamatar, Old Gnawbone, a colossal ancient GREEN dragon. An alert diabolically intelligent long wedge head, sweeping blade ridges above eyes, a particularly long agile serpentine neck, moss-dark and olive scales and subtly yellow-green bony membranes, huge batlike wings and a long tapering tail wrapping down around her taloned feet. Show whole dragon stalking forward in a powerful three-quarter view, wings half raised and all extremities comfortably in frame, strong face rendered with intricate scale patterns. A clean weathered cracked bone near the front claws as a modest nod to her name. The second reference is for the dragon's color and form only.",
+    "appearanceSource": "Corruption in Kryptgarden and the published Old Gnawbone card"
+  },
+  {
+    "slug": "spernik-cult-fanatic",
+    "name": "Spernik (Cult Fanatic)",
+    "entryId": "monster-c90db1b755c4345f3854a0c6",
+    "input": "",
+    "reference": "",
+    "subjectPrompt": "A young human man disguised as a scribe, sharp slightly pinched face, noticeably protruding rounded ears, narrow suspicious beady eyes. Entirely human. Bare head with slightly disheveled brown hair. Muted brown-plum traveling clothes with an old scholar's shoulder cape, leather book satchel, book held close under one forearm, his other hand with a plain narrow dagger held low. Lean build, wary look to the side, full-length three-quarter pose, controlled menace. Muted reddish and dark browns with worn leather. The second reference is a related archetype, invent a distinctive human countenance and scribe clothing according to this description.",
+    "prompt": "Create one original square 1254 by 1254 monster portrait for a fantasy tabletop bestiary. Match the FIRST reference tightly for visual style: warm golden amber mottled parchment drawn edge to edge, with finely detailed sepia ink and painted muted gouache, soft pencil shading, sober classic RPG reference artwork. Entire full body within the square with breathing room at all edges, clean silhouette legible at thumbnail size, sparse soft ground contact shadow. Plain parchment, no scenery beyond shadow, no border or flourishes, no card design, no type, no label, no visible signature. A young human man disguised as a scribe, sharp slightly pinched face, noticeably protruding rounded ears, narrow suspicious beady eyes. Entirely human. Bare head with slightly disheveled brown hair. Muted brown-plum traveling clothes with an old scholar's shoulder cape, leather book satchel, book held close under one forearm, his other hand with a plain narrow dagger held low. Lean build, wary look to the side, full-length three-quarter pose, controlled menace. Muted reddish and dark browns with worn leather. The second reference is a related archetype, invent a distinctive human countenance and scribe clothing according to this description.",
+    "appearanceSource": "The Courting of Fire and related Cult Fanatic art"
+  }
+]

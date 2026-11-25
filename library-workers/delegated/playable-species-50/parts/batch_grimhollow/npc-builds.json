@@ -1,0 +1,294 @@
+{
+  "builds": [
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "2014 fifth edition compatible"
+      ],
+      "type": "Humanoid",
+      "id": "grimhollow-disembodied-elian-voss",
+      "title": "Disembodied missing-person investigator, Divination Wizard 3",
+      "difficulty": "Wizard 3. Proficiency bonus +2. Control and planar escape.",
+      "size": "Medium",
+      "ac": 12,
+      "hp": 20,
+      "hitDice": "3d6+6",
+      "initiative": 2,
+      "speed": "30 ft.",
+      "senses": "Passive Perception 13.",
+      "languages": "Common, Dwarvish, Elvish, and Sylvan.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 15,
+        "CON": 14,
+        "INT": 17,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Arcana +5",
+        "History +5",
+        "Insight +3",
+        "Investigation +5",
+        "Perception +3"
+      ],
+      "traits": [
+        "Intelligence save +5 and Wisdom save +3. AC 15 with mage armor active. Shield can add +5 AC as a reaction after a hit or when targeted by magic missile.",
+        "Portent. After a long rest, roll two d20s and record them. Before a visible creature or Elian makes an attack roll, save, or ability check, replace the roll with one recording. Each can be used once and only one can be used per turn.",
+        "Fade Away, once per long rest. Use an action to enter the Ethereal Plane for up to 1 minute, cut off from interactions with the Material Plane. Return as a bonus action or when it ends, at the closest free space to the departure point.",
+        "Planar Outcast. Self-only feather fall and blur each once per day through the species. Blur requires concentration for up to 1 minute.",
+        "Arcane Recovery. Once per day after a short rest, recover expended wizard spell slots totaling up to two levels."
+      ],
+      "actions": [
+        "Dagger. +4 to hit, reach 5 ft. or range 20/60 ft., 1d4+2 piercing.",
+        "Fire bolt. +5 ranged spell attack, range 120 ft., 1d10 fire. Other cantrips are mage hand and prestidigitation.",
+        "Wizard spells, DC 13 and +5 spell attack. Four 1st-level slots and two 2nd-level slots. Prepared 1st level spells are mage armor, magic missile, and shield. Prepared 2nd level spells are detect thoughts, invisibility, and misty step."
+      ],
+      "tactics": "Elian prefers to preserve a witness and escape with a statement. He uses invisibility to withdraw, or Fade Away to wait out danger near his departure point."
+    },
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "2014 fifth edition compatible"
+      ],
+      "type": "Humanoid",
+      "id": "grimhollow-dreamer-vela-stonewake",
+      "title": "Dreamer expedition archivist, Fighter 2",
+      "difficulty": "Fighter 2. Proficiency bonus +2. Exploration and defense.",
+      "size": "Medium",
+      "ac": 18,
+      "hp": 20,
+      "hitDice": "2d10+4",
+      "initiative": 2,
+      "speed": "30 ft.",
+      "senses": "Darkvision 60 ft., passive Perception 13.",
+      "languages": "Common, Dreamspeak, Dwarvish, Elvish, and Giant.",
+      "abilityScores": {
+        "STR": 14,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 14,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Arcana +4",
+        "Athletics +4",
+        "History +4",
+        "Perception +3",
+        "Cartographer’s tools +4 with Intelligence through Dreamwalking"
+      ],
+      "traits": [
+        "Strength and Constitution saves +4. Chain shirt, shield, and Defense fighting style give AC 18.",
+        "Dreamwalking. While asleep Vela can touch the dreams of others within 1 mile. Today’s choice of cartographer’s tools adds her +2 proficiency bonus to applicable rolls. Sleep does not penalize her nonvisual Perception checks.",
+        "Power Nap. Sleep for 1 hour during a short rest to remove one level of exhaustion and regain one spent Hit Die on top of the regular rest benefits.",
+        "Action Surge. Take one extra action on your turn, once per short or long rest.",
+        "Second Wind. As a bonus action, regain 1d10+2 HP, once per short or long rest."
+      ],
+      "actions": [
+        "Rapier. +4 to hit, reach 5 ft., 1d8+2 piercing.",
+        "Javelin. +4 to hit, reach 5 ft. or range 30/120 ft., 1d6+2 piercing."
+      ],
+      "tactics": "Vela blocks the passage with her shield while expedition members retreat. A safe hour lets her recover a spent die and scout for nearby dreams."
+    },
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "2014 fifth edition compatible"
+      ],
+      "type": "Humanoid",
+      "id": "grimhollow-laneshi-teral-brineford",
+      "title": "Laneshi warrior shore escort, Ranger 2",
+      "difficulty": "Ranger 2. Proficiency bonus +2. Amphibious skirmisher.",
+      "size": "Medium",
+      "ac": 17,
+      "hp": 20,
+      "hitDice": "2d10+4",
+      "initiative": 2,
+      "speed": "30 ft., swim 30 ft.",
+      "senses": "Darkvision 60 ft., passive Perception 13.",
+      "languages": "Common, Laneshi, and Aquan.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 13,
+        "CHA": 10
+      },
+      "skills": [
+        "Animal Handling +3",
+        "Athletics +5",
+        "Medicine +3",
+        "Nature +1",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "traits": [
+        "Strength save +5 and Dexterity save +4. Studded leather, shield, and Defense fighting style give AC 17.",
+        "Amphibious. Breathes air and water. Laneshi warrior training supplies Animal Handling and proficiency with spears, tridents, javelins, and light armor.",
+        "Skirmish Tactics. After hitting a hostile creature with a weapon attack, take Disengage as a bonus action before the end of the turn.",
+        "Beast Whisperers. Speak with animals once per long rest through the species.",
+        "Favored Enemy: beasts. Advantage to track beasts with Survival and to recall information on them with Intelligence checks. Natural Explorer: coast."
+      ],
+      "actions": [
+        "Trident. +5 to hit, reach 5 ft. or range 20/60 ft., 1d6+3 piercing with the shield equipped.",
+        "Ranger spells, DC 11 and +3 spell attack, two 1st-level slots. Hunter’s mark adds 1d6 on weapon hits against the marked target while concentration holds. Cure wounds restores 1d8+1 HP to a creature Teral touches."
+      ],
+      "tactics": "Teral stays within swimming distance. When he neither casts nor moves hunter’s mark with his bonus action, he can use Skirmish Tactics to leave melee after a hit."
+    },
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "2014 fifth edition compatible"
+      ],
+      "type": "Humanoid",
+      "id": "grimhollow-ogresh-marel-broadbank",
+      "title": "Ogresh informal negotiator, Bard 2",
+      "difficulty": "Bard 2. Proficiency bonus +2. Social encounter and support.",
+      "size": "Medium",
+      "ac": 13,
+      "hp": 17,
+      "hitDice": "2d8+4",
+      "initiative": 3,
+      "speed": "30 ft.",
+      "senses": "Passive Perception 12.",
+      "languages": "Common, Dwarvish, and Sylvan.",
+      "abilityScores": {
+        "STR": 10,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 11,
+        "CHA": 17
+      },
+      "skills": [
+        "Deception +5",
+        "History +2",
+        "Insight +2",
+        "Investigation +2",
+        "Perception +2",
+        "Performance +5",
+        "Persuasion +5"
+      ],
+      "traits": [
+        "Dexterity save +4 and Charisma save +5. Leather armor. Advantage on saves against being charmed and Powerful Build for moving loads.",
+        "Gift of Gab grants Insight and Persuasion. Jack of All Trades adds +1 to ability checks without proficiency, including initiative.",
+        "A Friendly Ear, DC 13 Wisdom. After at least 1 minute of conversation with a nonhostile creature, a failed save charms it for 1 hour and reveals one fact it knows about the topic, chosen by the DM. Target unaware either way. Recharges on a short rest.",
+        "Bardic Inspiration. As a bonus action, give an ally who can hear Marel within 60 ft. a d6. Within 10 minutes it can add the die to one check, attack, or save after rolling but before the result. Three uses per long rest.",
+        "Song of Rest. Allies who hear Marel and spend one or more Hit Dice during the short rest regain an extra 1d6 HP."
+      ],
+      "actions": [
+        "Rapier. +4 to hit, reach 5 ft., 1d8+2 piercing.",
+        "Bard spells, DC 13 and +5 spell attack. Cantrips are minor illusion and vicious mockery. Vicious mockery targets a creature who can hear Marel within 60 ft. and deals 1d4 psychic and imposes disadvantage on the target’s next attack before the end of its next turn on a failed Wisdom save.",
+        "Three 1st-level slots. Known spells are comprehend languages, dissonant whispers, faerie fire, healing word, and hideous laughter.",
+        "Healing word restores 1d4+3 HP to a visible creature within 60 ft. as a bonus action. Faerie fire outlines creatures that fail a Dexterity save in a 20-ft. cube within 60 ft. Attackers who can see an outlined creature have advantage. Concentration up to 1 minute."
+      ],
+      "tactics": "Marel invites the visitor to sit and talk first. In a fight, Marel marks enemies with faerie fire and uses healing word to recover an ally who has fallen."
+    },
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "2014 fifth edition compatible"
+      ],
+      "type": "Humanoid",
+      "id": "grimhollow-wechselkind-pip-cinderbutton",
+      "title": "Wechselkind infirmary runner, Rogue 2",
+      "difficulty": "Rogue 2. Proficiency bonus +2. Infiltration and evacuation.",
+      "size": "Small",
+      "ac": 14,
+      "hp": 19,
+      "hitDice": "2d8+6",
+      "initiative": 2,
+      "speed": "25 ft.",
+      "senses": "Passive Perception 10.",
+      "languages": "Common and Sylvan from Wechselkind. Dwarvish from the 2014 Noble background.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 15,
+        "CON": 16,
+        "INT": 12,
+        "WIS": 10,
+        "CHA": 14
+      },
+      "skills": [
+        "Acrobatics +6",
+        "History +3",
+        "Insight +2",
+        "Investigation +3",
+        "Persuasion +4",
+        "Sleight of Hand +4",
+        "Stealth +6"
+      ],
+      "traits": [
+        "Dexterity save +4 and Intelligence save +3. Studded leather armor. Expertise in Acrobatics and Stealth.",
+        "Artificial Form. Humanoid. Advantage against being poisoned, poison resistance, disease immunity, and no need for food, drink, sleep, or air. Magical aging has no effect.",
+        "Childish Agility. Can move through the space of larger creatures. Cunning Action allows Dash, Disengage, or Hide as a bonus action.",
+        "Sneak Attack, once per turn. Add 1d6 when a finesse or ranged weapon attack hits with advantage, or when a non-incapacitated enemy of the target is within 5 ft. of it and Pip does not have disadvantage."
+      ],
+      "actions": [
+        "Rapier. +4 to hit, reach 5 ft., 1d8+2 piercing.",
+        "Shortbow. +4 to hit, range 80/320 ft., 1d6+2 piercing.",
+        "Faerie Glamour, once per long rest. Cast disguise self (DC 12 to discern by inspection) to resemble the one child Pip was created to replace."
+      ],
+      "tactics": "Pip slips through the crowd to reach the blocked infirmary exit and uses Cunning Action to cover ground before the next patient arrives."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Disembodied",
+      "size": "Medium",
+      "edition": "2014 fifth edition compatible",
+      "speciesPublication": "Grim Hollow: The Player’s Guide (2021)",
+      "name": "Elian Voss",
+      "build": "grimhollow-disembodied-elian-voss",
+      "role": "Investigates witnesses who vanish between planes.",
+      "motive": "Identify what is unsettling the boundary beneath an abandoned wayhouse.",
+      "hook": "Elian asks the party to stand by his departure point while he checks whether the wayhouse has an Ethereal reflection."
+    },
+    {
+      "species": "Dreamer",
+      "size": "Medium",
+      "edition": "2014 fifth edition compatible",
+      "speciesPublication": "Grim Hollow: The Player’s Guide (2021)",
+      "name": "Vela Stonewake",
+      "build": "grimhollow-dreamer-vela-stonewake",
+      "role": "Maps ruins and listens for clues in nearby dreams.",
+      "motive": "Compare a dream of a sealed passage with the actual layout.",
+      "hook": "Vela asks for a watch while she sleeps within range of the missing survey team."
+    },
+    {
+      "species": "Laneshi",
+      "size": "Medium",
+      "edition": "2014 fifth edition compatible",
+      "speciesPublication": "Grim Hollow: The Player’s Guide (2021)",
+      "name": "Teral Brineford",
+      "build": "grimhollow-laneshi-teral-brineford",
+      "role": "Guides crossings and keeps attackers away from the boats.",
+      "motive": "Find the shoal animal that witnessed a missing boat’s passage.",
+      "hook": "Teral asks the party to moor while he questions an animal and checks beneath the boats."
+    },
+    {
+      "species": "Ogresh",
+      "size": "Medium",
+      "edition": "2014 fifth edition compatible",
+      "speciesPublication": "Grim Hollow: The Player’s Guide (2021)",
+      "name": "Marel Broadbank",
+      "build": "grimhollow-ogresh-marel-broadbank",
+      "role": "Steers tense negotiations and discovers one relevant secret.",
+      "motive": "Learn why the ferrymen stopped honoring a trade agreement.",
+      "hook": "Marel asks the party to stage a calm first meeting before the ferrymen choose sides."
+    },
+    {
+      "species": "Wechselkind",
+      "size": "Small",
+      "edition": "2014 fifth edition compatible",
+      "speciesPublication": "Grim Hollow: The Player’s Guide (2021)",
+      "name": "Pip Cinderbutton",
+      "build": "grimhollow-wechselkind-pip-cinderbutton",
+      "role": "Carries messages where disease or crowds stop other runners.",
+      "motive": "Get medicine and patients through a blocked infirmary entrance.",
+      "hook": "Pip asks the party to clear a second exit while they slip through the press to check the wards."
+    }
+  ]
+}

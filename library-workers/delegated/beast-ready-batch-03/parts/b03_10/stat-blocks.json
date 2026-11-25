@@ -1,0 +1,218 @@
+[
+  {
+    "name": "Jackal",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Small Beast, unaligned",
+    "ac": 12,
+    "hp": 3,
+    "hitDice": "1d6",
+    "speed": "40 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Perception +3. Passive Perception 13. No listed languages or special senses.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A slim sandy canid with tall pointed ears, a narrow muzzle, a dark saddle along the back, and a bushy tail.",
+    "habitats": [
+      "Dry grassland",
+      "Scrubland",
+      "Desert margins"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0, 2018 , Chapter 12, Monsters, p. 141. ",
+      "Traits": "Keen Hearing and Smell. Wisdom (Perception) checks using hearing or smell have advantage.\nPack Tactics. The jackal has advantage on an attack roll against a creature when an ally of the jackal within 5 ft. of that creature is not incapacitated.",
+      "Actions": "Bite. Melee weapon attack, +1 to hit, reach 5 ft., one target. On a hit, deal 1 (1d4 − 1) piercing damage.",
+      "At the table": "Use passive Perception 13 normally and 18 for a passive check that relies on hearing or smell. Pack Tactics takes no action."
+    }
+  },
+  {
+    "name": "Jackal",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Small Beast, unaligned",
+    "ac": 12,
+    "hp": 3,
+    "hitDice": "1d6",
+    "speed": "40 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Perception +3. Passive Perception 13. No listed languages or special senses.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A slim sandy canid with tall pointed ears, a narrow muzzle, a dark saddle along the back, and a bushy tail.",
+    "habitats": [
+      "Dry grassland",
+      "Scrubland",
+      "Desert margins"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), ISBN 978-0-7869-6561-8, Appendix A, Miscellaneous Creatures, p. 331. https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/333/",
+      "Traits": "Keen Hearing and Smell. Wisdom (Perception) checks using hearing or smell have advantage.\nPack Tactics. The jackal has advantage on an attack roll against a creature when an ally of the jackal within 5 ft. of that creature is not incapacitated.",
+      "Actions": "Bite. Melee weapon attack, +1 to hit, reach 5 ft., one target. On a hit, deal 1 (1d4 − 1) piercing damage.",
+      "At the table": "Use passive Perception 13 normally and 18 for a passive check that relies on hearing or smell. Pack Tactics takes no action."
+    }
+  },
+  {
+    "name": "Rhinoceros",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 11,
+    "hp": 45,
+    "hitDice": "6d10 + 12",
+    "speed": "40 ft.",
+    "cr": "2",
+    "xp": 450,
+    "abilities": {
+      "Str": {
+        "score": 21,
+        "modifier": 5
+      },
+      "Dex": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Con": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Natural armor. Passive Perception 11. No listed languages, skill bonuses, or special senses.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A stocky gray rhinoceros with folds of thick skin, two horns above the snout, and short, sturdy legs.",
+    "habitats": [
+      "Savanna",
+      "Open grassland",
+      "Scrubland"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0, 2018 , Chapter 12, Monsters, p. 151. ",
+      "Traits": "Charge. Move at least 20 ft. straight toward a target and hit it with Gore on the same turn. The hit deals an extra 9 (2d8) bludgeoning damage. If the target is a creature, it also makes a DC 15 Strength save or falls prone.",
+      "Actions": "Gore. Melee weapon attack, +7 to hit, reach 5 ft., one target. On a hit, deal 14 (2d8 + 5) bludgeoning damage.",
+      "At the table": "The charge damage is added on a hit. The save decides whether the target falls prone. A prone creature has disadvantage on attack rolls and can crawl or spend half its speed to stand. Attacks against it have advantage from within 5 ft. and disadvantage from farther away."
+    }
+  },
+  {
+    "name": "Rhinoceros",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 11,
+    "hp": 45,
+    "hitDice": "6d10 + 12",
+    "speed": "40 ft.",
+    "cr": "2",
+    "xp": 450,
+    "abilities": {
+      "Str": {
+        "score": 21,
+        "modifier": 5
+      },
+      "Dex": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Con": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Natural armor. Passive Perception 11. No listed languages, skill bonuses, or special senses.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A stocky gray rhinoceros with folds of thick skin, two horns above the snout, and short, sturdy legs.",
+    "habitats": [
+      "Savanna",
+      "Open grassland",
+      "Scrubland"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), ISBN 978-0-7869-6561-8, Appendix A, Miscellaneous Creatures, p. 336. https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/338/",
+      "Traits": "Charge. Move at least 20 ft. straight toward a target and hit it with Gore on the same turn. The hit deals an extra 9 (2d8) bludgeoning damage. If the target is a creature, it also makes a DC 15 Strength save or falls prone.",
+      "Actions": "Gore. Melee weapon attack, +7 to hit, reach 5 ft., one target. On a hit, deal 14 (2d8 + 5) bludgeoning damage.",
+      "At the table": "The charge damage is added on a hit. The save decides whether the target falls prone. A prone creature has disadvantage on attack rolls and can crawl or spend half its speed to stand. Attacks against it have advantage from within 5 ft. and disadvantage from farther away."
+    }
+  }
+]

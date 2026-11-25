@@ -1,0 +1,49 @@
+[
+  {
+    "name": "Hagborn",
+    "publication": "Book of Heroic Races: Player Races 1 (2015)",
+    "edition": "Fifth edition compatible",
+    "publisher": "Jon Brazer Enterprises",
+    "creatureType": "Humanoid",
+    "url": "",
+    "printedPages": [],
+    "heading": "Hagborn Racial Traits and Green, Night, and Sea Hagborn",
+    "sourceLocator": "Hagborn Racial Traits and Green, Night, and Sea Hagborn",
+    "primaryBookPreview": "",
+    "supportingSources": {
+      "openContentRules": "https://www.5esrd.com/database/race/hagborn",
+      "originalPublisherListing": "https://www.opengamingstore.com/collections/jon-brazer-enterprises/products/book-of-heroic-races-player-races-1-5e?lshst=collection",
+      "licensedConversion": "https://www.fantasygrounds.com/store/product.php?id=JBE04035E",
+      "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+      "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+      "equipment": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+      "spells": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+    },
+    "sourceDistinctions": "The 2015 publisher preview confirms publication and names, and declares racial traits open content. The Open Gaming Network reprint names and credits the same publication and gives the three subtypes and complete traits. The source pages themselves were outside the preview, so printed folios are unverified. The linked NPC is Sea Hagborn. It uses one claw attack per Attack action with a shield equipped, resolving the free-hand wording without inferring an extra attack."
+  },
+  {
+    "name": "Samsaran",
+    "publication": "Book of Heroic Races: Player Races 1 (2015)",
+    "edition": "Fifth edition compatible",
+    "publisher": "Jon Brazer Enterprises",
+    "creatureType": "Humanoid",
+    "url": "",
+    "printedPages": [
+      5,
+      6
+    ],
+    "heading": "Everborn Racial Traits, Companion Everborn and Dreaming Everborn",
+    "sourceLocator": "pp. 5–6, Everborn (Samsaran)",
+    "primaryBookPreview": "",
+    "supportingSources": {
+      "openContentRules": "https://www.5esrd.com/database/race/samsarans/",
+      "originalPublisherListing": "https://www.opengamingstore.com/collections/jon-brazer-enterprises/products/book-of-heroic-races-player-races-1-5e?lshst=collection",
+      "licensedConversion": "https://www.fantasygrounds.com/store/product.php?id=JBE04035E",
+      "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+      "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+      "equipment": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+      "spells": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+    },
+    "sourceDistinctions": "The 2015 publisher preview introduction (p. 1) and original retail listing name Samsaran. The actual playable traits (printed and p. 5) use Everborn as the lineage and language name, and give 60-ft. darkvision. Page 6 describes pale-blue skin and nearly white eyes. The OGN reprint and licensed 2018 conversion also use Everborn. The approved catalog and NPC species keys remain Samsaran. The NPC uses the printed Everborn language name and the Dreaming option."
+  }
+]

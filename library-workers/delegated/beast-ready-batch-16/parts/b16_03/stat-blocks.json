@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Mastiff",
+    "publication": "DDEX3-14 - Death on the Wall",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, Unaligned",
+    "ac": 12,
+    "hp": 5,
+    "hitDice": "1d8 + 1",
+    "speed": "40 ft.",
+    "cr": "1/8",
+    "xp": 25,
+    "abilities": {
+      "Str": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Perception +3. Passive Perception 13. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A fawn mastiff with a broad black muzzle, dropped ears, and a heavy chest.",
+    "habitats": [
+      "Urban"
+    ],
+    "sections": {
+      "Printed source": "DDEX3-14 Death on the Wall, March 1, 2016 release , p. 23. Patrol and kennel context on pp. 11–12. ",
+      "Traits": "Keen Hearing and Smell. The mastiff has advantage on Wisdom (Perception) checks that rely on hearing or smell.",
+      "Actions": "Bite. Melee weapon attack, +3 to hit, 5-ft. reach, one target. A hit deals 4 (1d6 + 1) piercing damage. A creature hit must succeed on a DC 11 Strength saving throw or fall prone.",
+      "Patrols and kennels": "The Yûlash camp keeps four mastiffs. One accompanies two guards on a patrol that moves through the camp. The patrol calls to unidentified people and demands identification before taking hostile action. The dogs at the kennel are tethered to a rail and cannot move more than 10 ft. from the kennel."
+    }
+  }
+]

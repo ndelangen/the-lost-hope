@@ -1,0 +1,723 @@
+{
+  "new": {
+    "Adult Amethyst Dragon": {
+      "path": "output/dm-library/encounter-batches/171/art/adult-amethyst-dragon.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "fbdc7d87e70f6c02f7955fd83ce1ca120baf0a2eeb5aa8cc3ee8b16f6d5a794f",
+      "bytes": 2699031
+    },
+    "Adult Crystal Dragon": {
+      "path": "output/dm-library/encounter-batches/171/art/adult-crystal-dragon.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "8b845760bd30c7d1af4abceebb498dc13302ca69f65f518412f014f2df3d0030",
+      "bytes": 2611603
+    },
+    "Adult Deep Dragon": {
+      "path": "output/dm-library/encounter-batches/171/art/adult-deep-dragon.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "62ada706565665e8d772d64a0cba793c7e2fafc96f77eba670904802d58c4e22",
+      "bytes": 2732766
+    },
+    "Adult Emerald Dragon": {
+      "path": "output/dm-library/encounter-batches/171/art/adult-emerald-dragon.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "144e95aa4d636e19d0c3db030fd433ca06ec5f37287e9c9607be4f92a7395f39",
+      "bytes": 2574629
+    },
+    "Adult Moonstone Dragon": {
+      "path": "output/dm-library/encounter-batches/171/art/adult-moonstone-dragon.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "0f4434727fab2fe6dc7bb963147275dcfaa4175837d2768c481f261f2a206b25",
+      "bytes": 2862691
+    },
+    "Adult Sapphire Dragon": {
+      "path": "output/dm-library/encounter-batches/171/art/adult-sapphire-dragon.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "305ca45a5a614d141ad117f27cd09ef6f873ec1e10eb1d6584f69cd662cba616",
+      "bytes": 2771655
+    },
+    "Adult Topaz Dragon": {
+      "path": "output/dm-library/encounter-batches/171/art/adult-topaz-dragon.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "8c7d65add954dbc1457ce70f42aa44cbdef4a59253a826f5a68ea389d4b2e3a1",
+      "bytes": 2870035
+    },
+    "Amethyst Dragon Wyrmling": {
+      "path": "output/dm-library/encounter-batches/171/art/amethyst-dragon-wyrmling.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "2c5224c6f3aa4f3d716e4bf44c6d82cc4836d522ed72aeaece9592bc804fc5e3",
+      "bytes": 2767927
+    },
+    "Amethyst Greatwyrm": {
+      "path": "output/dm-library/encounter-batches/171/art/amethyst-greatwyrm.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "9ed38bed30547f0502b2b901e6ac0f9e7c09adfb29f555961ad25be7c85d2464",
+      "bytes": 2982325
+    },
+    "Ancient Amethyst Dragon": {
+      "path": "output/dm-library/encounter-batches/171/art/ancient-amethyst-dragon.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "aaf98d507e404305b234a2a212e519ecf664484ed142cc58ba87ae0a9e622775",
+      "bytes": 3109478
+    },
+    "Ancient Crystal Dragon": {
+      "path": "output/dm-library/encounter-batches/171/art/ancient-crystal-dragon.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "d44136d355e6b80c65518ba7b2192652e7bee3c0f03609ab5e9555ab07ecde6c",
+      "bytes": 2863157
+    },
+    "Ancient Deep Dragon": {
+      "path": "output/dm-library/encounter-batches/171/art/ancient-deep-dragon.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "c7e8be32cf6f147e11390f8427535dfe629dbd6d4f20f3a8f7350ffefb3e6eaf",
+      "bytes": 2687651
+    },
+    "Ancient Dragon Turtle": {
+      "path": "output/dm-library/encounter-batches/171/art/ancient-dragon-turtle.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "9321d06e054bcc5f9026d8b5dc41ab9179466edb80512725d3980b3e9887806a",
+      "bytes": 2938172
+    },
+    "Ancient Emerald Dragon": {
+      "path": "output/dm-library/encounter-batches/171/art/ancient-emerald-dragon.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "e1540dbf1811d9fc5f4964c5e5afbcc95f6d33c907b10a22032f45ee6a529f0d",
+      "bytes": 3036094
+    },
+    "Ancient Moonstone Dragon": {
+      "path": "output/dm-library/encounter-batches/171/art/ancient-moonstone-dragon.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "b3c48a883e5d2b1eb42983f71ba3af26789614d82cce46c333171464e0714303",
+      "bytes": 2967485
+    },
+    "Ancient Sapphire Dragon": {
+      "path": "output/dm-library/encounter-batches/171/art/ancient-sapphire-dragon.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "b47d7ab37e790eaf579bd8c907d2edb5bb9835c1afb353fcffdc06372a449471",
+      "bytes": 2818664
+    },
+    "Ancient Sea Serpent": {
+      "path": "output/dm-library/encounter-batches/171/art/ancient-sea-serpent.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "99bc3eaf3eedcccc62e7a2aed56dc43d4a77f991938a567e25582e21233ecc89",
+      "bytes": 2909663
+    },
+    "Ancient Topaz Dragon": {
+      "path": "output/dm-library/encounter-batches/171/art/ancient-topaz-dragon.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "b6e5b36f0628222983cebc9a4828f355f3a3a8e64fa7694713161c347899cbe8",
+      "bytes": 2775469
+    },
+    "Animated Breath": {
+      "path": "output/dm-library/encounter-batches/171/art/animated-breath.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "1e3849566c4b30f958d723a5e51a21026c1ba9c700e97b451fdd89d68841f241",
+      "bytes": 2444225
+    },
+    "Aspect of Bahamut": {
+      "path": "output/dm-library/encounter-batches/171/art/aspect-of-bahamut.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "7d1185334a12825a6bfc8386ae9c2439e3bcce09642ee5064740e8df0bfdce66",
+      "bytes": 2705100
+    },
+    "Aspect of Tiamat": {
+      "path": "output/dm-library/encounter-batches/171/art/aspect-of-tiamat.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "9021e4c441a73eb076e79dc3a78a2ce174431641460128afbe7c81f3e1c47764",
+      "bytes": 3025578
+    },
+    "Black Greatwyrm": {
+      "path": "output/dm-library/encounter-batches/171/art/black-greatwyrm.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "d1c16a3f6458d4d26d0cce7253db516440bd8f24d01eb6e8bac4cf4dd075edfa",
+      "bytes": 2787836
+    },
+    "Blue Greatwyrm": {
+      "path": "output/dm-library/encounter-batches/171/art/blue-greatwyrm.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "1ee78e6fd24aab664eb9d37aef85e8124ab3dda9676d03ab8c20800e09d58b06",
+      "bytes": 3109843
+    },
+    "Brass Greatwyrm": {
+      "path": "output/dm-library/encounter-batches/171/art/brass-greatwyrm.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "d8d0b3f2c98098358ef8a621698ed0bae28ef42cfccd37472a3195b8541610d5",
+      "bytes": 2962485
+    },
+    "Bronze Greatwyrm": {
+      "path": "output/dm-library/encounter-batches/171/art/bronze-greatwyrm.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "090dfd96b59d232b1b0d5e2625927534b8cb3aa83c5ef49f48cb8123893e2f3e",
+      "bytes": 2903956
+    },
+    "Copper Greatwyrm": {
+      "path": "output/dm-library/encounter-batches/171/art/copper-greatwyrm.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "a15846de32bb55a170522485c2d687af34de59a8735bb74dac16822ad43b87e6",
+      "bytes": 3012714
+    },
+    "Crystal Dragon Wyrmling": {
+      "path": "output/dm-library/encounter-batches/171/art/crystal-dragon-wyrmling.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "e90e6c3ab0eb1813f1d437376be78cdc826cd8fc9b59a0e2e64ef18e91883959",
+      "bytes": 2766558
+    },
+    "Crystal Greatwyrm": {
+      "path": "output/dm-library/encounter-batches/171/art/crystal-greatwyrm.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "3a061f9bfb56a6af5906baa0ed3e980feed2edc0410974ee5c19eeb4bdf36c16",
+      "bytes": 3129878
+    },
+    "Deep Dragon Wyrmling": {
+      "path": "output/dm-library/encounter-batches/171/art/deep-dragon-wyrmling.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "8aec73d22841d85d3cee6724a34310f77a20dfee8126615274734a1d3c8305f4",
+      "bytes": 2723714
+    },
+    "Dracohydra": {
+      "path": "output/dm-library/encounter-batches/171/art/dracohydra.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "865f57fa1a4c2c9a993a6fcc767d2f6a4196f841e3f4f898be6f7dcda18d224f",
+      "bytes": 2855027
+    },
+    "Draconian Dreadnought": {
+      "path": "output/dm-library/encounter-batches/171/art/draconian-dreadnought.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "5e8402f3f34d59d0dcfb95b453b738d2611bbe6e6696fc915787bf4f112378ac",
+      "bytes": 2907834
+    }
+  },
+  "added": [
+    {
+      "entry": "monster-37bed389792b2f6d5c499bfe",
+      "version": "31de0f31bc3438b5eaba3f7c",
+      "name": "The Hungry",
+      "file": "images/monsters/hungry-sorrowsworn/batch-162-portrait.png",
+      "sha256": "e8c5ae28cc59e6dd9cdaa58c424ba32abfca081d82842aee88a37eac360b5082",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Hungry Sorrowsworn"
+    },
+    {
+      "entry": "monster-1515c6f73a214f245c807de7",
+      "version": "c77fa68c6cb1b74f1d1132e8",
+      "name": "The Lonely",
+      "file": "images/monsters/lonely-sorrowsworn/batch-163-portrait.png",
+      "sha256": "388a9d47e4253c015debf1d93da7c208d1923619d75484283f58cb4cce7f7ed0",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Lonely Sorrowsworn"
+    },
+    {
+      "entry": "monster-10bd8755d42a7c2c777e9742",
+      "version": "155558de26273c2cbed8a800",
+      "name": "The Lost",
+      "file": "images/monsters/lost-sorrowsworn/batch-163-portrait.png",
+      "sha256": "169b6a975279660ca9d4245285bead4fe77307d4f322f43d4ce53905e42256c1",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Lost Sorrowsworn"
+    },
+    {
+      "entry": "monster-14222d37f10e964e5969506e",
+      "version": "fabe11e5c35546d48298b5cf",
+      "name": "The Wretched",
+      "file": "images/monsters/wretched-sorrowsworn/batch-165-portrait.png",
+      "sha256": "d015acc482250791c5da76f89865af512edc1995152bc5da3ff43e2d35345f09",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Wretched Sorrowsworn"
+    },
+    {
+      "entry": "monster-7316c62f919b84b90cdc6b54",
+      "version": "03ce4ee839b32d3f99fd4bf4",
+      "name": "Titivilus",
+      "file": "images/monsters/titivilus/batch-164-portrait.png",
+      "sha256": "3d270b32d932a6de969eb51ea1184e817d4a586c440cf4f5346c1d34281c8ee7",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Titivilus"
+    },
+    {
+      "entry": "monster-e07c20aa7091c32e63ea7863",
+      "version": "d9ebd7568f2983bf0fb83d53",
+      "name": "Tortle",
+      "file": "images/monsters/tortle/batch-164-portrait.png",
+      "sha256": "db0215b380a23414d9ec31014a8c2367e24e872f796ee47372973e3ced065440",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Tortle"
+    },
+    {
+      "entry": "monster-1aa35d6cb539f69aa12ec4fa",
+      "version": "5f5aa652ed8cfb2c81bdff31",
+      "name": "Tortle Druid",
+      "file": "images/monsters/tortle-druid/batch-164-portrait.png",
+      "sha256": "d293a081de9b48cab54093b28e50c5503853d12220c3e301097ad509c58720e9",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Tortle Druid"
+    },
+    {
+      "entry": "monster-fe4fac26a9a2fb66b4a311f5",
+      "version": "473f7359a36bf81eb6212e81",
+      "name": "Vampiric Mist",
+      "file": "images/monsters/vampiric-mist/batch-164-portrait.png",
+      "sha256": "cdfab549599c0414558f6e708c220b2e836bb85df7b90f0466bf02226824b9aa",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Vampiric Mist"
+    },
+    {
+      "entry": "monster-60df0f11f1a8750292e622c4",
+      "version": "d3ccb1678dcd786c20173d2b",
+      "name": "Venom Troll",
+      "file": "images/monsters/venom-troll/batch-164-portrait.png",
+      "sha256": "173b736654ebda64845bda52c3e761b5faaeadeb9be813a7191be05497b2f83d",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Venom Troll"
+    },
+    {
+      "entry": "monster-820c83688f648e1632ec1f1c",
+      "version": "cfae7a859cc55d789a6be0e2",
+      "name": "Wastrilith",
+      "file": "images/monsters/wastrilith/batch-164-portrait.png",
+      "sha256": "574a41ba975df0dee6d5ee0a0e8cdbd7e39107df95c039fadcc28f651e543453",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Wastrilith"
+    },
+    {
+      "entry": "monster-2d1f7eb03918d07b00133051",
+      "version": "b2b196ebe9839f3eff008e0b",
+      "name": "Water Elemental Myrmidon",
+      "file": "images/monsters/water-elemental-myrmidon/batch-164-portrait.png",
+      "sha256": "b46ab810c0eab101915526315354715c7fe6270e1871b582cda21b059407dbe1",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Water Elemental Myrmidon"
+    },
+    {
+      "entry": "monster-006541a55bc5d4b8131d7a76",
+      "version": "c18d3c268971a6b69dcefcf5",
+      "name": "White Abishai",
+      "file": "images/monsters/white-abishai/batch-165-portrait.png",
+      "sha256": "562b56a6aaaecdc041ceb2907da9f425f1c07e76c7c5551c6ee543fad3b34e25",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "White Abishai"
+    },
+    {
+      "entry": "monster-98df9474ae660e3a92ca3bc9",
+      "version": "20d27c4c52d1a3949b47e912",
+      "name": "Winter Eladrin",
+      "file": "images/monsters/winter-eladrin/batch-165-portrait.png",
+      "sha256": "9dbcbe425e591b72b331e70b509e02aa805383f7e0f7ba2e431a44fb2d6e2318",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Winter Eladrin"
+    },
+    {
+      "entry": "monster-1d08260b6e79ffb8295df1f7",
+      "version": "0ca4f20ce0c8865dcf634922",
+      "name": "Yagnoloth",
+      "file": "images/monsters/yagnoloth/batch-165-portrait.png",
+      "sha256": "3b60265b76dc60dbb9884de620ab95b26faa75abb12ba78a5ac356e776eabcaa",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Yagnoloth"
+    },
+    {
+      "entry": "monster-e3b1125d269e8d35ea0d04fa",
+      "version": "1c391526c179edef26891133",
+      "name": "Yeenoghu",
+      "file": "images/monsters/yeenoghu/batch-165-portrait.png",
+      "sha256": "c4efa3b2dade06211a581692df1746d787f9b80866cd9f839a4e486243ade655",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Yeenoghu"
+    },
+    {
+      "entry": "monster-8114cae9c8245f42cf3bd9e2",
+      "version": "08a67d20288a21a586a0e34d",
+      "name": "Young Kruthik",
+      "file": "images/monsters/shared-portraits-165/kruthik-young-f12a0e45cb26.png",
+      "sha256": "f12a0e45cb2608b80b0ce639164852a0416ff082244fed26a098fffd19be3bf9",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Young Kruthik"
+    },
+    {
+      "entry": "monster-4d2b50f166c2f3df22cb14a4",
+      "version": "1e0aa9d9b263d461c65b71ac",
+      "name": "Zaratan",
+      "file": "images/monsters/zaratan/batch-165-portrait.png",
+      "sha256": "dd121dc7f24f0377cf6cb8bc8952572327e52f34f281e1c6b4499d1572afc8de",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Zaratan"
+    },
+    {
+      "entry": "monster-cfc81c66f3045710370d0641",
+      "version": "9a460dc33bec95343caf1414",
+      "name": "Zariel",
+      "file": "images/monsters/zariel/batch-165-portrait.png",
+      "sha256": "3a2451fd44c3103a5f84e91e2aba33d9562b1b5dbec8f4eca0a60dd2a58d1a22",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Zariel"
+    },
+    {
+      "entry": "monster-0941f26906366bc4353a8ba5",
+      "version": "c294d9254cc934412fbc1fb8",
+      "name": "Zuggtmoy",
+      "file": "images/monsters/zuggtmoy/batch-165-portrait.png",
+      "sha256": "9a3ade22e3c0a0cc22e6660454a8f652265e8af2aea10835409d5eea8bcba5bf",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Zuggtmoy"
+    },
+    {
+      "entry": "monster-d4a01b859f71045fc05cffea",
+      "version": "0e2391b484badb9456947112",
+      "name": "Adult Amethyst Dragon",
+      "file": "images/monsters/adult-amethyst-dragon/batch-171-portrait.png",
+      "sha256": "fbdc7d87e70f6c02f7955fd83ce1ca120baf0a2eeb5aa8cc3ee8b16f6d5a794f",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-646db4d551b9156b45acca43",
+      "version": "b5205bc599a1fabb6f1f91a8",
+      "name": "Adult Crystal Dragon",
+      "file": "images/monsters/adult-crystal-dragon/batch-171-portrait.png",
+      "sha256": "8b845760bd30c7d1af4abceebb498dc13302ca69f65f518412f014f2df3d0030",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-60323a32841c27deedf9314f",
+      "version": "3c60714246a66ace34c7382a",
+      "name": "Adult Deep Dragon",
+      "file": "images/monsters/adult-deep-dragon/batch-171-portrait.png",
+      "sha256": "62ada706565665e8d772d64a0cba793c7e2fafc96f77eba670904802d58c4e22",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-34b6e60614488523d4082285",
+      "version": "b8e4470e8c9d9b537da23f79",
+      "name": "Adult Emerald Dragon",
+      "file": "images/monsters/adult-emerald-dragon/batch-171-portrait.png",
+      "sha256": "144e95aa4d636e19d0c3db030fd433ca06ec5f37287e9c9607be4f92a7395f39",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-18abcb36691c4b2eb4d4c206",
+      "version": "918693d9909912ca2a9b9ac0",
+      "name": "Adult Moonstone Dragon",
+      "file": "images/monsters/adult-moonstone-dragon/batch-171-portrait.png",
+      "sha256": "0f4434727fab2fe6dc7bb963147275dcfaa4175837d2768c481f261f2a206b25",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-9f18631d834d4ac41930353b",
+      "version": "5f917dfbdb8c60439aff6f6c",
+      "name": "Adult Sapphire Dragon",
+      "file": "images/monsters/adult-sapphire-dragon/batch-171-portrait.png",
+      "sha256": "305ca45a5a614d141ad117f27cd09ef6f873ec1e10eb1d6584f69cd662cba616",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-73eab0ce32a5596946c5f144",
+      "version": "59e2584481ec9305e63cecdd",
+      "name": "Adult Topaz Dragon",
+      "file": "images/monsters/adult-topaz-dragon/batch-171-portrait.png",
+      "sha256": "8c7d65add954dbc1457ce70f42aa44cbdef4a59253a826f5a68ea389d4b2e3a1",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-9d1fab3af536ec2bed7dbf55",
+      "version": "aa6ecc4bcbd5c4a3f84f7fd0",
+      "name": "Amethyst Dragon Wyrmling",
+      "file": "images/monsters/amethyst-dragon-wyrmling/batch-171-portrait.png",
+      "sha256": "2c5224c6f3aa4f3d716e4bf44c6d82cc4836d522ed72aeaece9592bc804fc5e3",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-5527eb64efc8b41f62aa50b3",
+      "version": "2911ef7638a836771e62a05a",
+      "name": "Amethyst Greatwyrm",
+      "file": "images/monsters/amethyst-greatwyrm/batch-171-portrait.png",
+      "sha256": "9ed38bed30547f0502b2b901e6ac0f9e7c09adfb29f555961ad25be7c85d2464",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-1d0000faeed50b052e8b2a37",
+      "version": "9a3a73cb4ae39515886bd1eb",
+      "name": "Ancient Amethyst Dragon",
+      "file": "images/monsters/ancient-amethyst-dragon/batch-171-portrait.png",
+      "sha256": "aaf98d507e404305b234a2a212e519ecf664484ed142cc58ba87ae0a9e622775",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-62aa31f8f34edaccd91c7345",
+      "version": "b085ca615fbd5d187334127b",
+      "name": "Ancient Crystal Dragon",
+      "file": "images/monsters/ancient-crystal-dragon/batch-171-portrait.png",
+      "sha256": "d44136d355e6b80c65518ba7b2192652e7bee3c0f03609ab5e9555ab07ecde6c",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-7d47e75abd5330aebfa05087",
+      "version": "f6119f1c74941f9635cadac1",
+      "name": "Ancient Deep Dragon",
+      "file": "images/monsters/ancient-deep-dragon/batch-171-portrait.png",
+      "sha256": "c7e8be32cf6f147e11390f8427535dfe629dbd6d4f20f3a8f7350ffefb3e6eaf",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-293888cd8731408847914d61",
+      "version": "794502f5945ae0cecb756f32",
+      "name": "Ancient Dragon Turtle",
+      "file": "images/monsters/ancient-dragon-turtle/batch-171-portrait.png",
+      "sha256": "9321d06e054bcc5f9026d8b5dc41ab9179466edb80512725d3980b3e9887806a",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-410b18e7d7892c7f2f15c751",
+      "version": "ecebb3f68f078901a9c9445e",
+      "name": "Ancient Emerald Dragon",
+      "file": "images/monsters/ancient-emerald-dragon/batch-171-portrait.png",
+      "sha256": "e1540dbf1811d9fc5f4964c5e5afbcc95f6d33c907b10a22032f45ee6a529f0d",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-1b6c0f954707a0e50c906d67",
+      "version": "f746bcfae4c1d58f8484c0e3",
+      "name": "Ancient Moonstone Dragon",
+      "file": "images/monsters/ancient-moonstone-dragon/batch-171-portrait.png",
+      "sha256": "b3c48a883e5d2b1eb42983f71ba3af26789614d82cce46c333171464e0714303",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-9accc5a4f7109606921377d0",
+      "version": "03b81df0d38e80d6f9ab2d89",
+      "name": "Ancient Sapphire Dragon",
+      "file": "images/monsters/ancient-sapphire-dragon/batch-171-portrait.png",
+      "sha256": "b47d7ab37e790eaf579bd8c907d2edb5bb9835c1afb353fcffdc06372a449471",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-cecd55e56d4124d41e922611",
+      "version": "8cb6cf72395b09d946f2a605",
+      "name": "Ancient Sea Serpent",
+      "file": "images/monsters/ancient-sea-serpent/batch-171-portrait.png",
+      "sha256": "99bc3eaf3eedcccc62e7a2aed56dc43d4a77f991938a567e25582e21233ecc89",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-ab5dd5bdea6983d1a5bb851e",
+      "version": "ef413b5feba2a35cce82f69e",
+      "name": "Ancient Topaz Dragon",
+      "file": "images/monsters/ancient-topaz-dragon/batch-171-portrait.png",
+      "sha256": "b6e5b36f0628222983cebc9a4828f355f3a3a8e64fa7694713161c347899cbe8",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-2c91503580b19a630c6d6165",
+      "version": "877e9ee713f6f57154324af5",
+      "name": "Animated Breath",
+      "file": "images/monsters/animated-breath/batch-171-portrait.png",
+      "sha256": "1e3849566c4b30f958d723a5e51a21026c1ba9c700e97b451fdd89d68841f241",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-0773814e42a059110719a2c9",
+      "version": "f314e9c33fbbbb70d9cb02b2",
+      "name": "Aspect of Bahamut",
+      "file": "images/monsters/aspect-of-bahamut/batch-171-portrait.png",
+      "sha256": "7d1185334a12825a6bfc8386ae9c2439e3bcce09642ee5064740e8df0bfdce66",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-6d278492e786a55fd48fc3da",
+      "version": "b669a8d7f9f1c485676e257e",
+      "name": "Aspect of Tiamat",
+      "file": "images/monsters/aspect-of-tiamat/batch-171-portrait.png",
+      "sha256": "9021e4c441a73eb076e79dc3a78a2ce174431641460128afbe7c81f3e1c47764",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-b0c5f5ac717422153a90e3bf",
+      "version": "4f01f837597153e6d7cca778",
+      "name": "Black Greatwyrm",
+      "file": "images/monsters/black-greatwyrm/batch-171-portrait.png",
+      "sha256": "d1c16a3f6458d4d26d0cce7253db516440bd8f24d01eb6e8bac4cf4dd075edfa",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-925678b47acf70d05acbc28a",
+      "version": "a77f2ceefebe39548df27516",
+      "name": "Blue Greatwyrm",
+      "file": "images/monsters/blue-greatwyrm/batch-171-portrait.png",
+      "sha256": "1ee78e6fd24aab664eb9d37aef85e8124ab3dda9676d03ab8c20800e09d58b06",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-71c6096491454b37d30f1ff5",
+      "version": "87bcb6b0ec5296495b655f83",
+      "name": "Brass Greatwyrm",
+      "file": "images/monsters/brass-greatwyrm/batch-171-portrait.png",
+      "sha256": "d8d0b3f2c98098358ef8a621698ed0bae28ef42cfccd37472a3195b8541610d5",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-a280c0a99348436c8f0a3af6",
+      "version": "338f59c0cb60bc0819ce25a7",
+      "name": "Bronze Greatwyrm",
+      "file": "images/monsters/bronze-greatwyrm/batch-171-portrait.png",
+      "sha256": "090dfd96b59d232b1b0d5e2625927534b8cb3aa83c5ef49f48cb8123893e2f3e",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-6bddd5c0ac2a69a2a1ed8917",
+      "version": "486feb4a2018c51e76ae0f0b",
+      "name": "Copper Greatwyrm",
+      "file": "images/monsters/copper-greatwyrm/batch-171-portrait.png",
+      "sha256": "a15846de32bb55a170522485c2d687af34de59a8735bb74dac16822ad43b87e6",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-0e9fa04c06e723c6493d0cb3",
+      "version": "384fb78c683afdfb5a549651",
+      "name": "Crystal Dragon Wyrmling",
+      "file": "images/monsters/crystal-dragon-wyrmling/batch-171-portrait.png",
+      "sha256": "e90e6c3ab0eb1813f1d437376be78cdc826cd8fc9b59a0e2e64ef18e91883959",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-46b4c2a5166a92e8788ea107",
+      "version": "d2b2b7200d417ec0431a51ab",
+      "name": "Crystal Greatwyrm",
+      "file": "images/monsters/crystal-greatwyrm/batch-171-portrait.png",
+      "sha256": "3a061f9bfb56a6af5906baa0ed3e980feed2edc0410974ee5c19eeb4bdf36c16",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-004cc1e44566d44ab36dbafb",
+      "version": "ad6548b5514a85844e819d8f",
+      "name": "Deep Dragon Wyrmling",
+      "file": "images/monsters/deep-dragon-wyrmling/batch-171-portrait.png",
+      "sha256": "8aec73d22841d85d3cee6724a34310f77a20dfee8126615274734a1d3c8305f4",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-9043fb8d42b2f621b75b30be",
+      "version": "b9c62d11e2b01ab63cc4c038",
+      "name": "Dracohydra",
+      "file": "images/monsters/dracohydra/batch-171-portrait.png",
+      "sha256": "865f57fa1a4c2c9a993a6fcc767d2f6a4196f841e3f4f898be6f7dcda18d224f",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-c870e549d0cf7cb28be69b9c",
+      "version": "f8302ccf7aed869c1f0daa85",
+      "name": "Draconian Dreadnought",
+      "file": "images/monsters/draconian-dreadnought/batch-171-portrait.png",
+      "sha256": "5e8402f3f34d59d0dcfb95b453b738d2611bbe6e6696fc915787bf4f112378ac",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    }
+  ]
+}

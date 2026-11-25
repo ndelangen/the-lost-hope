@@ -1,0 +1,284 @@
+{
+  "builds": [
+    {
+      "id": "mr2018-pony-chaffstep",
+      "title": "Chaffstep, Pony Barbarian 2",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR unassigned.",
+      "size": "Medium",
+      "type": "Beast",
+      "ac": 14,
+      "hp": 23,
+      "hitDice": "2d12 + 4",
+      "initiative": 2,
+      "speed": "40 ft. walking",
+      "abilityScores": {
+        "STR": 17,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Animal Handling +3",
+        "Athletics +5",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "senses": "Passive Perception 13.",
+      "languages": "Common.",
+      "traits": [
+        "Proficiency +2. Strength save +5, Constitution save +4. Unarmored AC 14 is 10 + Dexterity 2 + Constitution 2. HP 23 is 14 at 1st level and 9 at 2nd level.",
+        "Barbarian grants Animal Handling and Perception. Outlander grants Athletics and Survival.",
+        "Rage twice per long rest. Bonus action to begin, up to 1 minute. Gain advantage on Strength checks and saves, +2 damage on Strength-based melee weapon attacks, and resistance to bludgeoning, piercing, and slashing. Rage ends early if knocked unconscious or if a turn ends without an attack on a hostile creature since last turn and without taking damage since then.",
+        "On the first attack of a turn, choose Reckless Attack to gain advantage on Strength-based melee weapon attacks that turn. Attackers gain advantage against Chaffstep until Chaffstep’s next turn. Danger Sense grants advantage on Dexterity saves against visible effects while not blinded, deafened, or incapacitated.",
+        "Cannot wield weapons or shields or use objects that require manipulation, including tools, wands and spellcasting foci."
+      ],
+      "actions": [
+        "Hooves. +5 to hit, reach 5 ft. Hit for 1d8 + 3 bludgeoning, or 1d8 + 5 while raging."
+      ],
+      "tactics": "Chaffstep stands between trouble and the youngest travelers until they get through the pass. They use Reckless Attack when the fight has to end quickly."
+    },
+    {
+      "id": "mr2018-quipper-coppergill",
+      "title": "Coppergill, Quipper Rogue 2",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR unassigned.",
+      "size": "Tiny",
+      "type": "Beast",
+      "ac": 13,
+      "hp": 17,
+      "hitDice": "2d8 + 4",
+      "initiative": 3,
+      "speed": "0 ft. walking, 40 ft. swimming",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 17,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 13,
+        "CHA": 12
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Athletics +1",
+        "Insight +3",
+        "Investigation +2",
+        "Perception +5",
+        "Stealth +7"
+      ],
+      "senses": "Passive Perception 15.",
+      "languages": "Common.",
+      "traits": [
+        "Proficiency +2. Dexterity save +5, Intelligence save +2. Unarmored AC 13 is 10 + Dexterity 3. HP 17 is 10 at 1st level and 7 at 2nd level.",
+        "Rogue grants Acrobatics, Insight, Investigation, and Stealth. Sailor grants Athletics and Perception. Expertise doubles proficiency for Perception and Stealth. Knows thieves’ cant.",
+        "The bite explicitly qualifies for Sneak Attack. Once per turn add 1d6 piercing to one bite hit if Coppergill has advantage, or an active enemy of the target is within 5 ft. of it and Coppergill has no disadvantage.",
+        "Breathe only underwater. This Tiny build has one quarter the usual carrying capacity and does not use tool proficiencies or wielded weapons.",
+        "Cannot wield weapons or shields or use objects that require manipulation, including tools, wands and spellcasting foci."
+      ],
+      "actions": [
+        "Bite. +5 to hit, reach 5 ft. Hit for 1d4 + 3 piercing.",
+        "Blood Frenzy. On a bite hit as part of the Attack action, use the bonus action to bite the same target again. Sneak Attack still applies at most once per turn.",
+        "Cunning Action. Use the bonus action to Dash, Disengage, or Hide."
+      ],
+      "tactics": "Coppergill watches from gaps in submerged pilings. One strike may be enough to drive an intruder away. Coppergill spends the bonus action on a second bite only when there is no need to withdraw."
+    },
+    {
+      "id": "mr2018-reef-shark-slatewake",
+      "title": "Slatewake, Reef Shark Barbarian 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR unassigned.",
+      "size": "Medium",
+      "type": "Beast",
+      "ac": 13,
+      "hp": 13,
+      "hitDice": "1d12 + 1",
+      "initiative": 2,
+      "speed": "0 ft. walking, 40 ft. swimming",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 13,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +5",
+        "Nature +2",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "senses": "Blindsight 30 ft. Passive Perception 13.",
+      "languages": "Common.",
+      "traits": [
+        "Proficiency +2. Strength save +5, Constitution save +3. Unarmored AC 13 is 10 + Dexterity 2 + Constitution 1. HP 13 is 12 + Constitution 1.",
+        "Barbarian grants Nature and Survival. Sailor grants Athletics and Perception. Slatewake guides ships from the water and cannot use hand-operated instruments or boat controls.",
+        "Breathe only underwater. Unarmored Defense comes from barbarian training.",
+        "Cannot wield weapons or shields or use objects that require manipulation, including tools, wands and spellcasting foci."
+      ],
+      "actions": [
+        "Bite. +5 to hit, reach 5 ft. Hit for 1d8 + 3 piercing, or 1d8 + 5 while raging.",
+        "Pack Tactics. Use a bonus action for advantage on the next attack roll this turn against a target within 5 ft. of a non-incapacitated ally.",
+        "Rage. Bonus action, twice per long rest, up to 1 minute. Gain advantage on Strength checks and saves, +2 damage on Strength-based melee weapon attacks, and resistance to bludgeoning, piercing, and slashing. Rage ends early if knocked unconscious or if a turn ends without an attack on a hostile creature since last turn and without taking damage since then."
+      ],
+      "tactics": "Slatewake attacks when another swimmer is in position for Pack Tactics. If taking repeated hits is more likely, Slatewake spends that turn’s bonus action to rage instead."
+    },
+    {
+      "id": "mr2018-rhinoceros-graysill",
+      "title": "Graysill, Rhinoceros Monk 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR unassigned.",
+      "size": "Medium",
+      "type": "Beast",
+      "ac": 14,
+      "hp": 9,
+      "hitDice": "1d8 + 1",
+      "initiative": 2,
+      "speed": "40 ft. walking",
+      "abilityScores": {
+        "STR": 17,
+        "DEX": 14,
+        "CON": 13,
+        "INT": 8,
+        "WIS": 13,
+        "CHA": 10
+      },
+      "skills": [
+        "Animal Handling +3",
+        "Athletics +5",
+        "Insight +3",
+        "Survival +3"
+      ],
+      "senses": "Passive Perception 11.",
+      "languages": "Common.",
+      "traits": [
+        "Proficiency +2. Strength save +5, Dexterity save +4. Natural AC 14 is 12 + Dexterity 2. Monk Unarmored Defense would give AC 13. HP 9 is 8 + Constitution 1.",
+        "Monk grants Athletics and Insight. Folk Hero grants Animal Handling and Survival.",
+        "The supplement limits bonus-action Martial Arts strikes to conventional unarmed attacks. Graysill uses a kick for that bonus action and retains the printed gore damage for the Attack action.",
+        "Cannot wield weapons or shields or use objects that require manipulation, including tools, wands and spellcasting foci."
+      ],
+      "actions": [
+        "Gore. +5 to hit with Strength, reach 5 ft. Hit for 1d8 + 3 piercing.",
+        "Charge. Once on a turn with at least 20 ft. of straight movement toward the creature before an unarmed hit, add 1d6 damage of the attack’s type. Then a bonus-action shove can knock that target prone. It must be within reach and at most Large. Graysill rolls Athletics +5 against the target’s choice of Athletics or Acrobatics.",
+        "Martial Arts. After an Attack action using an unarmed strike, use the bonus action for one kick. +5 to hit with Strength, reach 5 ft., for 1d4 + 3 bludgeoning."
+      ],
+      "tactics": "Graysill picks a clear line and charges to interrupt a threat. The follow-up shove costs the same bonus action as the kick, so Graysill chooses based on whether someone else can reach the fallen target."
+    },
+    {
+      "id": "mr2018-scorpion-tallowpin",
+      "title": "Tallowpin, Scorpion Rogue 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR unassigned.",
+      "size": "Tiny",
+      "type": "Beast",
+      "ac": 13,
+      "hp": 9,
+      "hitDice": "1d8 + 1",
+      "initiative": 3,
+      "speed": "10 ft. walking",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 17,
+        "CON": 13,
+        "INT": 12,
+        "WIS": 14,
+        "CHA": 10
+      },
+      "skills": [
+        "Athletics +1",
+        "Insight +4",
+        "Investigation +3",
+        "Perception +6",
+        "Stealth +7",
+        "Survival +4"
+      ],
+      "senses": "Passive Perception 16.",
+      "languages": "Common.",
+      "traits": [
+        "Proficiency +2. Dexterity save +5, Intelligence save +3. Unarmored AC 13 is 10 + Dexterity 3. HP 9 is 8 + Constitution 1.",
+        "Rogue grants Insight, Investigation, Perception and Stealth. Outlander grants Athletics and Survival. Expertise doubles proficiency for Perception and Stealth. Knows thieves’ cant.",
+        "The sting explicitly qualifies for Sneak Attack. Once per turn add 1d6 poison to a sting hit with advantage, or if an active enemy of the target is within 5 ft. of it and Tallowpin has no disadvantage.",
+        "The Tiny build uses one quarter normal carrying capacity. It carries no tools and has no printed natural armor, additional pincer attack, or automatic grapple.",
+        "Cannot wield weapons or shields or use objects that require manipulation, including tools, wands and spellcasting foci."
+      ],
+      "actions": [
+        "Sting. +5 to hit, reach 5 ft. Hit for 1d8 + 3 poison."
+      ],
+      "tactics": "Tallowpin listens through the warm brick and calls out when a patrol changes direction. In a fight Tallowpin uses one sting from cover and falls back if the target is immune to poison."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Pony",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Chaffstep",
+      "size": "Medium",
+      "build": "mr2018-pony-chaffstep",
+      "role": "Mountain post runner",
+      "motive": "Get the small bags of mail through the pass before the thaw breaks the road.",
+      "hook": "Chaffstep found a sack stamped with the crest of a post station that burned down years ago. It is still dry."
+    },
+    {
+      "species": "Quipper",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Coppergill",
+      "size": "Tiny",
+      "build": "mr2018-quipper-coppergill",
+      "role": "Sunken dock lookout",
+      "motive": "Keep the young river fish away from a fast new current under the pier.",
+      "hook": "Coppergill saw a missing mooring line caught just beyond the current. The stone it is tied to has fresh tool marks."
+    },
+    {
+      "species": "Reef Shark",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Slatewake",
+      "size": "Medium",
+      "build": "mr2018-reef-shark-slatewake",
+      "role": "Reef passage guide",
+      "motive": "Keep ferry swimmers clear of two wrecks during the turn of the tide.",
+      "hook": "Slatewake found unfamiliar anchor marks along the reef. The fresh marks lead inside a gap that was closed last week."
+    },
+    {
+      "species": "Rhinoceros",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Graysill",
+      "size": "Medium",
+      "build": "mr2018-rhinoceros-graysill",
+      "role": "Rail embankment watch",
+      "motive": "Keep carts off the old embankment until the retaining stones can be reset.",
+      "hook": "Graysill followed a new gap beneath the railway to a room lined with bricks. There is fresh steam coming from its sealed door."
+    },
+    {
+      "species": "Scorpion",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Tallowpin",
+      "size": "Tiny",
+      "build": "mr2018-scorpion-tallowpin",
+      "role": "Kiln watchkeeper",
+      "motive": "Find out why one empty kiln stays warm after the last worker goes home.",
+      "hook": "Tallowpin saw a shutter open inward from the cold side. The night crew insists there is no exit beyond that wall."
+    }
+  ]
+}

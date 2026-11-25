@@ -1,0 +1,213 @@
+[
+  {
+    "name": "Deathjump Spider",
+    "publication": "Keep on the Shadowfell (2009 revision)",
+    "edition": "4th edition",
+    "classification": "Medium natural beast (spider), unaligned",
+    "ac": 20,
+    "hp": 55,
+    "speed": "6 squares, climb 6 (spider climb)",
+    "xp": 175,
+    "abilities": {
+      "Str": {
+        "score": 17,
+        "modifier": 5
+      },
+      "Dex": {
+        "score": 18,
+        "modifier": 6
+      },
+      "Con": {
+        "score": 15,
+        "modifier": 4
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -3
+      },
+      "Wis": {
+        "score": 14,
+        "modifier": 4
+      },
+      "Cha": {
+        "score": 8,
+        "modifier": 1
+      }
+    },
+    "otherStatistics": "Level 4 Skirmisher. Initiative +8. Fortitude 17, Reflex 18, Will 16. Bloodied 27. Perception +9, tremorsense 5. Resist 5 poison. No languages.",
+    "appearance": "A human-sized brown spider with a bristled body, a patterned abdomen and eight long jointed legs.",
+    "habitats": [
+      "Shadowfell Keep",
+      "Hobgoblin Guard Room",
+      "Dungeon"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Keep on the Shadowfell (2009 revision), p. 55. Area 12, Hobgoblin Guard Room.",
+      "Printed ability modifiers": "Str +5, Dex +6, Con +4, Int -3, Wis +4, Cha +1.",
+      "Printed powers": "Bite. Melee basic, standard, at-will, Poison. +6 vs. AC. Hit for 2d6 + 3 damage. The target takes ongoing 5 poison damage and is slowed. One save ends both.\nDeath from Above. Melee, standard, at-will, Poison. Shift 6 squares and make a Bite attack. On a hit, add 1d6 damage and knock the target prone.\nProdigious Leap. Move, encounter. Shift up to 10 squares.",
+      "Traits and skills": "Soft Fall. Ignore the first 30 ft. when calculating fall damage. Athletics +10 (+20 when jumping), Stealth +11.",
+      "Encounter checks": "A DC 15 Perception check spots the cage about 70 ft. beyond the guards, in the north room. The two grunts move to the cage, begin releasing the ties the next round and take 2 rounds to free the spider. The party can interrupt them. The spider attacks if freed.\nArea 12 wells drop 30 ft. into 5-ft.-deep water. The fall deals 3d10 damage. Climb the wall at half speed with a DC 20 Athletics check for each move, or climb the rope with DC 10 Athletics. A forced creature saves immediately at the edge. A result below 10 means it falls in. On 10 or higher, it falls prone in its last square. The encounter’s bull rush uses Strength vs. Fortitude. On a hit, push 1 square and enter the vacated square."
+    }
+  },
+  {
+    "name": "Giant Rat",
+    "publication": "Keep on the Shadowfell (2009 revision)",
+    "edition": "4th edition",
+    "classification": "Small natural beast, unaligned",
+    "ac": 15,
+    "hp": 1,
+    "speed": "6 squares, climb 3",
+    "xp": 25,
+    "abilities": {
+      "Str": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Level 1 Minion. Initiative +3. Fortitude 13, Reflex 15, Will 12. Perception +5, low-light vision. No languages.",
+    "appearance": "An oversized brown rat with rounded ears, prominent whiskers and a long bare tail.",
+    "habitats": [
+      "Shadowfell Keep",
+      "Maze of Caves",
+      "Caverns"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Keep on the Shadowfell (2009 revision), p. 44. Area 9, The Maze of Caves.",
+      "Printed ability modifiers": "Str +1, Dex +3, Con +1, Int -4, Wis +0, Cha -2.",
+      "Printed powers": "Bite. Melee basic, standard, at-will. +6 vs. AC. Hit for 3 damage.",
+      "Minion": "It has 1 HP. A missed attack never damages it.",
+      "Encounter checks": "DC 12 Perception notices the rats chattering and moving among the shadows. Thirteen rats begin above the party and move in groups of three or four. They target isolated PCs, such as someone more than 4 squares from allies or out of their line of sight.\nA rat starting on the ground spends a move action to reach the stalactite ceiling. On the ceiling it uses climb speed and gains superior cover against nonadjacent opponents. The cavern’s dense rocks give rats cover against adjacent foes and can block a PC’s line of sight to a rat while the rat sees the PC. Rats can roll Stealth when they have cover and cross the encounter’s difficult terrain at normal speed.\nThe adventure offers an optional ceiling rule. A rat can share a square with a character while above them, then attack while dropping to an adjacent square. It must leave the ceiling to attack this way. A DC 20 Perception check detects the false wall of the secret chamber."
+    }
+  },
+  {
+    "name": "Guard Drake",
+    "publication": "Keep on the Shadowfell (2009 revision)",
+    "edition": "4th edition",
+    "classification": "Small natural beast (reptile), unaligned",
+    "ac": 15,
+    "hp": 48,
+    "speed": "6 squares",
+    "xp": 125,
+    "abilities": {
+      "Str": {
+        "score": 16,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 18,
+        "modifier": 5
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -3
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 12,
+        "modifier": 2
+      }
+    },
+    "otherStatistics": "Level 2 Brute. Initiative +3. Fortitude 15, Reflex 13, Will 12. Bloodied 24. Perception +7. No languages.",
+    "appearance": "A small green-scaled, dragonlike quadruped with a spined back, a broad jaw and a long tail.",
+    "habitats": [
+      "Dragon Burial Site",
+      "Shadowfell Keep",
+      "Excavation Site"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Keep on the Shadowfell (2009 revision), pp. 20, 32. Encounter A4, Burial Site, and Area 3, Excavation Site.",
+      "Printed ability modifiers": "Str +4, Dex +3, Con +5, Int -3, Wis +2, Cha +2.",
+      "Printed powers": "Bite. Melee basic, standard, at-will. +6 vs. AC. Hit for 1d10 + 3 damage, or 1d10 + 9 while the drake is within 2 squares of an ally.",
+      "Traits": "Immune to fear while within 2 squares of an ally.",
+      "Encounter A4 checks": "Agrid orders the two drakes to charge the most formidable-looking PC. An Insight check opposed by Agrid’s Bluff can expose his deception, which prompts the order to attack. Climbing the steep slope requires DC 15 Athletics and goes at half speed.",
+      "Area 3 checks": "DC 15 Perception finds the secret door that leads to Area 4. DC 10 Perception hears goblin voices, and a Goblin speaker can make DC 15 Perception to understand the argument. The two drakes help keep adventurers down in the excavation. A drop from a plank or ledge is 10 ft., deals 1d10 damage and leaves the creature prone. The earth wall requires DC 15 Athletics. On each attempt it crumbles on 1–10 on a d20, sliding the climber to the floor and leaving them prone in their starting square without damage.\nA Medium creature crossing a plank needs DC 15 Acrobatics. Heavy armor breaks the plank. A PC or goblin can push an unoccupied plank as a minor action. An occupied plank requires a DC 14 Strength check for a Small occupant or DC 17 for a Medium occupant. Rocking a plank takes a standard action and a Strength check against the occupant’s Reflex. Success drops the occupant into the excavation. Ladders take 4 squares of movement to climb 10 ft. A PC or goblin can topple one as a standard action and use a standard action with DC 10 Strength to reposition it. Guard drakes use the ramp and cannot manipulate planks or ladders."
+    }
+  },
+  {
+    "name": "Kruthik Adult",
+    "publication": "Keep on the Shadowfell (2009 revision)",
+    "edition": "4th edition",
+    "classification": "Medium natural beast (reptile), unaligned",
+    "ac": 17,
+    "hp": 67,
+    "speed": "6 squares, burrow 3 (tunneling), climb 6",
+    "xp": 175,
+    "abilities": {
+      "Str": {
+        "score": 17,
+        "modifier": 5
+      },
+      "Dex": {
+        "score": 18,
+        "modifier": 6
+      },
+      "Con": {
+        "score": 17,
+        "modifier": 5
+      },
+      "Int": {
+        "score": 4,
+        "modifier": -1
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 4
+      },
+      "Cha": {
+        "score": 8,
+        "modifier": 1
+      }
+    },
+    "otherStatistics": "Level 4 Brute. Initiative +6. Fortitude 14, Reflex 15, Will 13. Bloodied 33. Perception +4, low-light vision, tremorsense 10. No languages.",
+    "appearance": "A human-sized reptilian hunter with bony chitin plates, four long scythe-like limbs, two smaller limbs and a segmented tail.",
+    "habitats": [
+      "Shadowfell Keep",
+      "Kruthik Lair",
+      "Hive tunnels",
+      "Caverns"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Keep on the Shadowfell (2009 revision), p. 47. Area 10, Kruthik Lair.",
+      "Printed ability modifiers": "Str +5, Dex +6, Con +5, Int -1, Wis +4, Cha +1.",
+      "Printed powers": "Claw. Melee basic, standard, at-will. +8 vs. AC. Hit for 1d10 + 3 damage.\nToxic Spikes. Ranged, standard, Poison, recharge 5–6. Make two ranged 5 attacks against two different targets, each at +7 vs. AC. A hit deals 1d8 + 4 damage, inflicts ongoing 5 poison damage and slows the target. One save ends both effects on that target.",
+      "Aura": "Gnashing Horde, aura 1. An enemy ending its turn in the aura takes 2 damage.",
+      "Encounter checks": "DC 15 Nature identifies a kruthik in the open pit. DC 12 Perception catches its musk. DC 17 Perception notices raised floor sections. A PC actively searching can locate a hidden pit with DC 20 Perception. The kruthiks avoid those trap squares. A triggered trap drops a PC for 1d10 damage and works once. Climbing out takes DC 15 Athletics. Jumping over takes DC 20 Athletics from standing or DC 10 with a running start.\nThe adult opens with Toxic Spikes when the party comes into range and then closes for Claw. Prefer the power’s two different targets as printed. In the 2-ft.-wide lair tunnels Small kruthiks move at full speed and the Medium adult at half speed. Medium or larger PCs cannot fit. A Small PC can squeeze at half speed, grants combat advantage and takes a −5 penalty on attacks until back in open space. Squeezing provokes opportunity attacks from adjacent foes.",
+      "Printing notes": "The stat block prints Wisdom 12 (+4). The usual half-level calculation would give +3. Keep the printed +4. Perception is also printed as +4. The summary on p. 46 broadly says kruthiks move at full speed in their tunnels. The specific tunnel feature on p. 47 distinguishes Small kruthiks at full speed and the Medium adult at half speed."
+    }
+  }
+]

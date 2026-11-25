@@ -1,0 +1,187 @@
+[
+  {
+    "name": "Amphisbaena",
+    "publication": "Tales from the Yawning Portal",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, April 2017",
+    "isbn": "978-0-7869-6609-7",
+    "section": "The Hidden Shrine of Tamoachan, area 39, Chamber of the Second Sun",
+    "printedPages": [
+      84
+    ],
+    "pdfPages": [
+      85
+    ],
+    "contextPrintedPages": [],
+    "sourceSha256": "a13aafb622d65175e57fb25bb092f3aa5ce540353aed11450eca03f1b5f0c499",
+    "url": "https://www.dndbeyond.com/sources/dnd/tftyp",
+    "rulesUrl": "https://www.dndbeyond.com/sources/dnd/tftyp",
+    "facsimileUrl": "",
+    "errataUrl": "",
+    "errataEvidence": "Wizards v1.0 ©2021 makes no change to the creature’s rules.",
+    "appearanceEvidence": "The encounter calls it a giant two-headed snake. The opposed heads and coloration are depicted in the original portrait.",
+    "habitatEvidence": "Tags inferred from the rubble chamber in the ruined shrine on p. 84.",
+    "artGroup": "amphisbaena",
+    "sourceDistinctions": [
+      "The adventure explicitly references Giant Constrictor Snake and adds the two-attacks-per-turn rule and revised CR. The 2014 Monster Manual supplies the inherited attacks."
+    ],
+    "portraitSha256": "66433e363a8622d407759f29537ac955de2a5b5b62931a4d2a7d74c6767d478a",
+    "portraitGeneration": {
+      "mode": "Built-in OpenAI ImageGen",
+      "styleReference": "drakkenheim-beasts/portraits/big-linda-draft.png",
+      "prompt": "Square specimen portrait for an original fantasy bestiary. Attached Big Linda is the rendering and background color reference only. Render a single giant amphisbaena, a limbless snake whose one uninterrupted unbranched body has exactly one complete snake head at each of its opposite ends. One head replaces the tail tip. The body has no fork, branches or true tail anywhere. Shape the single continuous body into an open horizontal S so two separate heads, one at the left terminal and one at the right terminal, can be traced along the visible unbranched spine; bend both necks modestly upward to read in a 96px round crop, no tongue prominent. Natural olive-brown, worn umber and muted cream scales, realistic size variation and kind of antique natural history gouache with slightly dry brush details exemplified by Big Linda. Plain light muted matte tan parchment just like the reference, even from edge to edge with mild fine grain, no scenery of any kind, no illustrative vignette, no halo or glow, no frame, text, labels, decorative elements or other animals. Compact centered specimen, ample breathing room all around, every part safely within the centered circular avatar crop, diffuse consistent light with very faint grounding shadow if needed."
+    },
+    "baseProfile": {
+      "name": "Giant Constrictor Snake",
+      "publication": "Monster Manual (2014)",
+      "printedPages": [
+        324
+      ],
+      "url": "https://www.dndbeyond.com/monsters/16878-giant-constrictor-snake",
+      "errataUrl": ""
+    }
+  },
+  {
+    "name": "Elder Giant Lizard",
+    "publication": "Tales from the Yawning Portal",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, April 2017",
+    "isbn": "978-0-7869-6609-7",
+    "section": "Against the Giants, area 21, Lizards’ Lair",
+    "printedPages": [
+      176
+    ],
+    "pdfPages": [
+      177
+    ],
+    "contextPrintedPages": [],
+    "sourceSha256": "a13aafb622d65175e57fb25bb092f3aa5ce540353aed11450eca03f1b5f0c499",
+    "url": "https://www.dndbeyond.com/sources/dnd/tftyp",
+    "rulesUrl": "https://www.dndbeyond.com/sources/dnd/tftyp",
+    "facsimileUrl": "",
+    "errataUrl": "",
+    "errataEvidence": "Wizards v1.0 ©2021 makes no change to the creature’s rules.",
+    "appearanceEvidence": "The print describes exceptionally large old subterranean lizards. The scale color and body detail are editorial, from the reused portrait.",
+    "habitatEvidence": "Tags inferred from the deep hunting caverns described on p. 176.",
+    "artGroup": "elder-giant-lizard",
+    "sourceDistinctions": [
+      "The mated adults use the Giant Crocodile block with Climb 30 ft., no swim speed, and darkvision 60 ft. The young use Giant Lizard. Elder Giant Lizard is the catalog name for the adult adaptation."
+    ],
+    "portraitSha256": "2498ee3dfe40193cbd9d2e4ca272c11cadf2b2b4c54e07ab3aae42b575ac0b09",
+    "baseProfile": {
+      "name": "Giant Crocodile",
+      "publication": "Monster Manual (2014)",
+      "printedPages": [
+        324
+      ],
+      "url": "https://www.dndbeyond.com/monsters/16880-giant-crocodile",
+      "errataUrl": ""
+    }
+  },
+  {
+    "name": "Giant Crayfish",
+    "publication": "Tales from the Yawning Portal",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, April 2017",
+    "isbn": "978-0-7869-6609-7",
+    "section": "Appendix B, Creatures",
+    "printedPages": [
+      235
+    ],
+    "pdfPages": [
+      236
+    ],
+    "contextPrintedPages": [
+      66,
+      107
+    ],
+    "sourceSha256": "a13aafb622d65175e57fb25bb092f3aa5ce540353aed11450eca03f1b5f0c499",
+    "url": "https://www.dndbeyond.com/sources/dnd/tftyp",
+    "rulesUrl": "https://www.dndbeyond.com/sources/dnd/tftyp",
+    "facsimileUrl": "",
+    "errataUrl": "",
+    "errataEvidence": "Wizards v1.0 ©2021 makes no change to the creature’s rules.",
+    "appearanceEvidence": "Appendix B names the creature and gives two claws. Segmentation, antennae and tail fan follow ordinary crayfish anatomy in the original portrait.",
+    "habitatEvidence": "Editorial tags based on the damp underground guard room and the aquarium in the two printed encounters.",
+    "artGroup": "giant-crayfish",
+    "sourceDistinctions": [
+      "The Appendix B block lists no languages. The p. 66 guard uses Olman in the encounter. This language belongs to that individual."
+    ],
+    "portraitSha256": "afb3e7d796c0ad594d681bc237aa1d195b5e6b1f97b7fa02c1126de303bc4e34",
+    "portraitGeneration": {
+      "mode": "Built-in OpenAI ImageGen",
+      "styleReference": "drakkenheim-beasts/portraits/big-linda-draft.png",
+      "prompt": "Square specimen portrait for an original fantasy bestiary. Attached Big Linda is the rendering and background color reference only. Render one enormous freshwater crayfish as a realistic crayfish seen from a slightly elevated three-quarter angle. Long articulated body, ridged carapace, segmented abdomen ending in a visible flattened tail fan, two broad strong pincers on the front pair, four pairs of walking legs behind them, two sensible antennae kept in frame, tiny dark eyes, clear natural asymmetry of stance. Slightly reddish ochre-brown and olive slate mottled shell, quiet naturalistic color and linework, antique natural history gouache brush details matching the reference. Plain light muted matte tan parchment like the attached reference, even across the entire square with mild fine grain, no scenery of any kind, no illustrative vignette, halo, glow, frame, text, labels, decorative elements, or other animals. Compact centered specimen with ample margin all around so antennae, fan and claws fit within the centered circular avatar crop. Diffuse lighting and very faint grounding shadow if needed."
+    }
+  },
+  {
+    "name": "Giant Lightning Eel",
+    "publication": "Tales from the Yawning Portal",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, April 2017",
+    "isbn": "978-0-7869-6609-7",
+    "section": "Appendix B, Creatures",
+    "printedPages": [
+      236
+    ],
+    "pdfPages": [
+      237
+    ],
+    "contextPrintedPages": [
+      72
+    ],
+    "sourceSha256": "a13aafb622d65175e57fb25bb092f3aa5ce540353aed11450eca03f1b5f0c499",
+    "url": "https://www.dndbeyond.com/sources/dnd/tftyp",
+    "rulesUrl": "https://www.dndbeyond.com/sources/dnd/tftyp",
+    "facsimileUrl": "",
+    "errataUrl": "",
+    "errataEvidence": "Wizards v1.0 ©2021 makes no change to the creature’s rules.",
+    "appearanceEvidence": "The portrait supplies the coloration, form and visible sparks. Appendix B states that the eel electrifies the surrounding water.",
+    "habitatEvidence": "Editorial tags based on Chae’s underground pool in Tamoachan, p. 72.",
+    "artGroup": "giant-lightning-eel",
+    "sourceDistinctions": [
+      "Lightning Jolt applies separately from the two-Bite Multiattack. On a failed save the stun still requires the target to take some lightning damage. The reused portrait has warmer parchment and faint blue arcs around the eel."
+    ],
+    "portraitSha256": "6861b14702b7b25d03538cb35d4539770e48d79cb89768cdec40f76ef80b6e9d"
+  },
+  {
+    "name": "Giant Subterranean Lizard",
+    "publication": "Tales from the Yawning Portal",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, April 2017",
+    "isbn": "978-0-7869-6609-7",
+    "section": "Appendix B, Creatures",
+    "printedPages": [
+      236
+    ],
+    "pdfPages": [
+      237
+    ],
+    "contextPrintedPages": [
+      46
+    ],
+    "sourceSha256": "a13aafb622d65175e57fb25bb092f3aa5ce540353aed11450eca03f1b5f0c499",
+    "url": "https://www.dndbeyond.com/sources/dnd/tftyp",
+    "rulesUrl": "https://www.dndbeyond.com/sources/dnd/tftyp",
+    "facsimileUrl": "",
+    "errataUrl": "",
+    "errataEvidence": "Wizards v1.0 ©2021 makes no change to the creature’s rules.",
+    "appearanceEvidence": "Appendix B describes an enormous lizard with a powerful tail. The Forge of Fury individual on p. 46 has white scales. Its reused portrait from the earlier AD&D project depicts pale pink-white scales. Other details come from the portrait.",
+    "habitatEvidence": "Tags inferred from the streamside Scaly Lair in the Forge of Fury, p. 46.",
+    "artGroup": "giant-subterranean-lizard",
+    "sourceDistinctions": [
+      "The giant subterranean lizard has its own published stat block. The older mated lizards in Against the Giants use the separate Giant Crocodile adaptation."
+    ],
+    "portraitSha256": "1cb387f2b1e49530b47bdd4d1ec9187b7d38bc9b20002eb996e4c5aaa2e0dc01"
+  }
+]

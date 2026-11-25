@@ -1,0 +1,581 @@
+[
+  {
+    "name": "Time Raider Archon",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Medium Humanoid (Time Raider), any alignment",
+    "ac": 14,
+    "hp": 14,
+    "speed": "30 ft.",
+    "cr": "3",
+    "xp": 140,
+    "proficiencyBonus": 2,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 10,
+        "modifier": 0
+      }
+    },
+    "otherStatistics": "Studded leather. Resists psychic damage. Immune to Blinded and Charmed. Darkvision 120 ft. Passive Perception 11. Common and Kuran'zoi.",
+    "sections": {
+      "Role": "Minion",
+      "Traits": "Minion. Damage from an attack or a failed save drops this minion to 0 HP. Damage from another source kills it only if that instance meets or exceeds its maximum HP. Otherwise it takes no damage.\nPsychic Scar. Immune to effects that detect emotions, read thoughts, tell whether the raider is lying, or reveal its alignment or location.",
+      "Actions": "Brutal Flail (group attack). Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 4 bludgeoning damage per participant. If at least two archons joined, the target makes a Constitution save with a DC of 10 plus the number of participants. Failure leaves it Dazed until the end of its next turn.\nBlaster (group attack). Ranged weapon attack, +4 to hit, range 30/90 ft., one target. Hit 3 radiant damage per participant.",
+      "Minion Rules (MCDM)": "Minions of the same stat block normally share a turn. A group of two to five can spend one action each to make a single attack against a target in reach or range of every participant. Add +1 to the roll per participant and multiply the listed damage by the number of participants. Use advantage or disadvantage only if everyone has it. If a reaction would affect one attacker, the target chooses a participant. Minions can join a group opportunity attack with their reactions when the target provokes each of them. A lone minion uses its listed attack without group bonuses. Minions cannot score critical hits or spend Hit Dice. A weapon attack other than an opportunity attack can pass damage above a minion's maximum HP to another minion with the same stat block. Each additional target drops to 0 HP from any positive remainder. Subtract its maximum HP before passing on any further damage. For melee attacks, additional targets must be within the attacker's reach with that weapon. For ranged attacks, they must be on the line from the attacker toward the original target within the weapon's short range.",
+      "Dazed (MCDM)": "On its turn, a Dazed creature chooses only one: move, take an action, or take a bonus action. Becoming Dazed during its turn ends that turn. Extra actions from effects such as Haste or Action Surge remain available. Cure Ailment, Lesser Restoration, and Greater Restoration can end Dazed. The GM can allow other remedies."
+    },
+    "relatedCreatures": [
+      {
+        "name": "Time Raider Armiger",
+        "kind": "monster"
+      },
+      {
+        "name": "Time Raider Nemesis",
+        "kind": "monster"
+      },
+      {
+        "name": "Time Raider Vertex",
+        "kind": "monster"
+      }
+    ]
+  },
+  {
+    "name": "Time Raider Armiger",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Medium Humanoid (Time Raider), any alignment",
+    "ac": 16,
+    "hp": 52,
+    "speed": "30 ft.",
+    "cr": "3",
+    "xp": 700,
+    "proficiencyBonus": 2,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 10,
+        "modifier": 0
+      }
+    },
+    "otherStatistics": "Breastplate. Saves Str +5, Con +4, Int +5. Arcana +5, Athletics +5, Intimidation +2, Perception +3. Resists psychic damage. Immune to Blinded and Charmed. Darkvision 120 ft. Passive Perception 13. Common and Kuran'zoi.",
+    "sections": {
+      "Role": "Soldier",
+      "Traits": "Psychic Scar. Immune to effects that detect emotions, read thoughts, tell whether the raider is lying, or reveal its alignment or location.",
+      "Actions": "Multiattack. Make two attacks, choosing Serrated Saber or Blaster for each.\nSerrated Saber. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 7 (1d8 + 3) slashing damage. The target has disadvantage on the next attack roll it makes before the start of the armiger's next turn.\nBlaster. Ranged weapon attack, +4 to hit, range 30/90 ft., one target. Hit 5 (1d6 + 2) radiant damage.\nConcussive Slam (1st-order power). Choose a creature the armiger can see within 30 ft. If it fails a DC 13 Strength save, it takes 7 (3d4) force damage and falls Prone.",
+      "Reactions": "Sickening Sympathy (2nd-order power). When another creature the armiger can see within 30 ft. is hit by an attack, the attacker makes a DC 13 Constitution save. Failure leaves the attacker Poisoned until the end of its next turn.",
+      "Psionics (MCDM)": "Powers are supernatural and need no components. Antimagic Field, Counterspell, and Dispel Magic do not affect them. The creature can use a power as a bonus action and still use a power of 2nd order or higher as its action."
+    },
+    "hitDice": "8d8 + 16",
+    "relatedCreatures": [
+      {
+        "name": "Time Raider Archon",
+        "kind": "monster"
+      },
+      {
+        "name": "Time Raider Nemesis",
+        "kind": "monster"
+      },
+      {
+        "name": "Time Raider Vertex",
+        "kind": "monster"
+      }
+    ]
+  },
+  {
+    "name": "Time Raider Nemesis",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Medium Humanoid (Time Raider), any alignment",
+    "ac": 17,
+    "hp": 130,
+    "speed": "30 ft.",
+    "cr": "8",
+    "xp": 3900,
+    "proficiencyBonus": 3,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 10,
+        "modifier": 0
+      }
+    },
+    "otherStatistics": "Saves Str +7, Con +5, Int +7. Arcana +7, Athletics +7, Intimidation +6, Perception +4, Stealth +6. Resists psychic damage. Immune to Blinded and Charmed. Darkvision 120 ft. Passive Perception 14. Common, Kuran'zoi, and telepathy 60 ft.",
+    "sections": {
+      "Role": "Skirmisher",
+      "Traits": "Precog Reflexes. Add the nemesis's Intelligence modifier (+4) to its initiative and AC. The AC above already includes it.\nPsychic Scar. Immune to effects that detect emotions, read thoughts, tell whether the raider is lying, or reveal its alignment or location.",
+      "Actions": "Multiattack. Make two Golden Scythe attacks. One attack can be replaced with Kinetic Crush or Phase when available.\nGolden Scythe. Melee weapon attack, +7 to hit, reach 10 ft., one target. Hit 11 (2d6 + 4) slashing damage plus 13 (3d8) necrotic damage. If this reduces an astral body to 0 HP, the creature's soul returns to its material body and that body also drops to 0 HP. This includes creatures using Astral Projection.\nKinetic Crush (4th-order power). One visible creature within 60 ft. makes a DC 15 Strength save. On a failure, it takes 27 (6d8) force damage and its speed drops to 0 until the start of the nemesis's next turn. On a success, it takes half damage and keeps its speed.\nPhase (1/day, 4th-order power, concentration). For up to 1 minute, the nemesis can move through creatures and objects as difficult terrain. If it ends a turn inside an object, it takes 5 (1d10) force damage. If Phase ends while it is inside an object, it chooses a nearest unoccupied space and appears there.",
+      "Bonus Actions": "Jaunt (3/day, 3rd-order power). Teleport up to 30 ft. into an unoccupied space the nemesis can see.",
+      "Psionics (MCDM)": "Powers are supernatural and need no components. Antimagic Field, Counterspell, and Dispel Magic do not affect them. The creature can use a power as a bonus action and still use a power of 2nd order or higher as its action."
+    },
+    "hitDice": "20d8 + 40",
+    "relatedCreatures": [
+      {
+        "name": "Time Raider Archon",
+        "kind": "monster"
+      },
+      {
+        "name": "Time Raider Armiger",
+        "kind": "monster"
+      },
+      {
+        "name": "Time Raider Vertex",
+        "kind": "monster"
+      }
+    ]
+  },
+  {
+    "name": "Time Raider Vertex",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Large Humanoid (Time Raider), any alignment",
+    "ac": 18,
+    "hp": 153,
+    "speed": "0 ft., fly 30 ft. (hover)",
+    "cr": "7",
+    "xp": 2900,
+    "proficiencyBonus": 3,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Con": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 19,
+        "modifier": 4
+      },
+      "Wis": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Cha": {
+        "score": 10,
+        "modifier": 0
+      }
+    },
+    "otherStatistics": "Psionic power armor. Saves Str +7, Con +6, Int +7. Athletics +10, Perception +9. Resists psychic damage. Immune to Blinded, Charmed, and Prone. Blindsight 60 ft., darkvision 120 ft., passive Perception 19. Common, Kuran'zoi, and telepathy 120 ft.",
+    "sections": {
+      "Role": "Support",
+      "Traits": "Psychic Scar. Immune to effects that detect emotions, read thoughts, tell whether the raider is lying, or reveal its alignment or location.",
+      "Actions": "Multiattack. Make two Psionic Slam attacks.\nPsionic Slam. Melee power attack, +7 to hit, reach 5 ft., one target. Hit 11 (2d6 + 4) bludgeoning damage plus 7 (2d6) psychic damage. The next attack against the target before the start of the vertex's next turn has advantage.\nSplit Space (2/day). Choose a precise spot the vertex has seen on any plane. A portal 10 ft. across opens in an unoccupied space within 5 ft. of the vertex. Anyone who touches it immediately teleports to the unoccupied space closest to the destination. The portal ends when the vertex dies, opens another portal, spends an action to close it, or travels through it.",
+      "Bonus Actions": "Invigorated March (3rd-order power). Each time raider within 60 ft. of the vertex can spend its reaction to move up to half its speed.",
+      "Reactions": "Kinetic Defense Field. When another Medium or smaller creature within 120 ft. takes damage, the vertex can reduce the damage by 15 if it can see that creature.",
+      "Psionics (MCDM)": "Powers are supernatural and need no components. Antimagic Field, Counterspell, and Dispel Magic do not affect them. The creature can use a power as a bonus action and still use a power of 2nd order or higher as its action. The vertex can use Psionic Slam when its foe provokes an opportunity attack."
+    },
+    "hitDice": "18d10 + 54",
+    "relatedCreatures": [
+      {
+        "name": "Time Raider Archon",
+        "kind": "monster"
+      },
+      {
+        "name": "Time Raider Armiger",
+        "kind": "monster"
+      },
+      {
+        "name": "Time Raider Nemesis",
+        "kind": "monster"
+      }
+    ]
+  },
+  {
+    "name": "Troll Limbjumble",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Small Giant, unaligned",
+    "ac": 15,
+    "hp": 9,
+    "speed": "25 ft.",
+    "cr": "2",
+    "xp": 90,
+    "proficiencyBonus": 2,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 5,
+        "modifier": -3
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Natural armor. Blindsight 30 ft. and blind beyond that range, passive Perception 7. Understands Giant and cannot speak.",
+    "sections": {
+      "Role": "Minion",
+      "Traits": "Minion. Damage from an attack or a failed save drops this minion to 0 HP. Damage from another source kills it only if that instance meets or exceeds its maximum HP. Otherwise it takes no damage.",
+      "Actions": "Arm and a Leg (group attack). Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 2 bludgeoning damage per participant. A Medium or smaller target falls Prone if at least three limbjumbles joined the attack.",
+      "Minion Rules (MCDM)": "Minions of the same stat block normally share a turn. A group of two to five can spend one action each to make a single attack against a target in reach or range of every participant. Add +1 to the roll per participant and multiply the listed damage by the number of participants. Use advantage or disadvantage only if everyone has it. If a reaction would affect one attacker, the target chooses a participant. Minions can join a group opportunity attack with their reactions when the target provokes each of them. A lone minion uses its listed attack without group bonuses. Minions cannot score critical hits or spend Hit Dice. A weapon attack other than an opportunity attack can pass damage above a minion's maximum HP to another minion with the same stat block. Each additional target drops to 0 HP from any positive remainder. Subtract its maximum HP before passing on any further damage. For melee attacks, additional targets must be within the attacker's reach with that weapon. For ranged attacks, they must be on the line from the attacker toward the original target within the weapon's short range.",
+      "Encounter Options": "To add limbjumbles to a troll encounter, have one form whenever a troll takes at least 10 slashing damage from a single attack or effect."
+    },
+    "relatedCreatures": [
+      {
+        "name": "Troll (MCDM)",
+        "kind": "monster"
+      },
+      {
+        "name": "Troll Whelp",
+        "kind": "monster"
+      }
+    ]
+  },
+  {
+    "name": "Troll Whelp",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Medium Giant, typically chaotic evil",
+    "ac": 15,
+    "hp": 12,
+    "speed": "40 ft.",
+    "cr": "5",
+    "xp": 225,
+    "proficiencyBonus": 3,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 20,
+        "modifier": 5
+      },
+      "Int": {
+        "score": 7,
+        "modifier": -2
+      },
+      "Wis": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Natural armor. Save Con +8. Athletics +7, Perception +2. Darkvision 60 ft., passive Perception 12. Giant.",
+    "sections": {
+      "Role": "Minion",
+      "Traits": "Minion. Damage from an attack or a failed save drops this minion to 0 HP. Damage from another source kills it only if that instance meets or exceeds its maximum HP. Otherwise it takes no damage.\nRelentless Hunger. The whelp stays conscious and can act normally when damage other than acid or fire brings it to 0 HP. It dies if it ends its turn at 0 HP, if acid or fire drops it to 0 HP, or if acid or fire damages it while at 0 HP.\nRipping Claws. Medium or smaller enemies treat spaces within reach of one or more whelps as difficult terrain. An enemy takes 2 slashing damage when it leaves the reach of one or more whelps that can see it.",
+      "Actions": "Bite (group attack). Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit 4 piercing damage per participant. Every participating whelp heals to full HP if the target is neither a Construct, an Elemental, nor a Plant.",
+      "Minion Rules (MCDM)": "Minions of the same stat block normally share a turn. A group of two to five can spend one action each to make a single attack against a target in reach or range of every participant. Add +1 to the roll per participant and multiply the listed damage by the number of participants. Use advantage or disadvantage only if everyone has it. If a reaction would affect one attacker, the target chooses a participant. Minions can join a group opportunity attack with their reactions when the target provokes each of them. A lone minion uses its listed attack without group bonuses. Minions cannot score critical hits or spend Hit Dice. A weapon attack other than an opportunity attack can pass damage above a minion's maximum HP to another minion with the same stat block. Each additional target drops to 0 HP from any positive remainder. Subtract its maximum HP before passing on any further damage. For melee attacks, additional targets must be within the attacker's reach with that weapon. For ranged attacks, they must be on the line from the attacker toward the original target within the weapon's short range."
+    },
+    "relatedCreatures": [
+      {
+        "name": "Troll (MCDM)",
+        "kind": "monster"
+      },
+      {
+        "name": "Troll Limbjumble",
+        "kind": "monster"
+      }
+    ]
+  },
+  {
+    "name": "Stirge (MCDM)",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Tiny Monstrosity, unaligned",
+    "ac": 13,
+    "hp": 4,
+    "speed": "10 ft., fly 30 ft.",
+    "cr": "1/8",
+    "xp": 25,
+    "proficiencyBonus": 2,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 4,
+        "modifier": -3
+      },
+      "Dex": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 2,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Stealth +5. Darkvision 60 ft., passive Perception 10. No languages.",
+    "sections": {
+      "Role": "Controller",
+      "Traits": "Tiny Target. If nonpsychic damage reduces the stirge to 0 HP while it is attached, its host takes half the damage dealt to the stirge.",
+      "Actions": "Proboscis. Melee weapon attack, +5 to hit, reach 5 ft., one creature. Hit 3 piercing damage. The stirge may attach to the target and enter its space. While attached, it moves with the target and cannot use Proboscis. Any creature in reach of the stirge can use an action to detach it. It then enters a nearest unoccupied space of its choice. Becoming Grappled, Incapacitated, Prone, or Restrained also detaches it.\nDrain Essence. The stirge's host loses 3 HP and makes a DC 12 Constitution save unless it is a Construct or an Undead. On a failure, it is Poisoned until the end of the stirge's next turn. If it was already Poisoned, it is also Dazed until then.",
+      "Dazed (MCDM)": "On its turn, a Dazed creature chooses only one: move, take an action, or take a bonus action. Becoming Dazed during its turn ends that turn. Extra actions from effects such as Haste or Action Surge remain available. Cure Ailment, Lesser Restoration, and Greater Restoration can end Dazed. The GM can allow other remedies."
+    },
+    "hitDice": "1d4 + 2",
+    "relatedCreatures": [
+      {
+        "name": "Stirge Broodling",
+        "kind": "monster"
+      }
+    ]
+  },
+  {
+    "name": "Stirge Broodling",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Tiny Monstrosity, unaligned",
+    "ac": 11,
+    "hp": 2,
+    "speed": "10 ft., fly 30 ft.",
+    "cr": "1/8",
+    "xp": 5,
+    "proficiencyBonus": 2,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Cha": {
+        "score": 2,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Darkvision 60 ft., passive Perception 9. No languages.",
+    "sections": {
+      "Role": "Minion",
+      "Traits": "Minion. Damage from an attack or a failed save drops this minion to 0 HP. Damage from another source kills it only if that instance meets or exceeds its maximum HP. Otherwise it takes no damage.\nTiny Target. If nonpsychic damage drops an attached broodling to 0 HP, its host takes 1 damage of the same type.",
+      "Actions": "Proboscis (group attack). Melee or ranged weapon attack, +3 to hit, reach 5 ft., one creature. Hit 1 piercing damage per participant. Each participating broodling may attach to the target and enter its space. An attached broodling moves with the target and cannot use Proboscis. The target or a creature that can reach it may spend an action or bonus action to detach every broodling on it. Each detached broodling chooses a nearest unoccupied space. Becoming Grappled, Incapacitated, Prone, or Restrained also detaches it.\nDrain Essence. A host that is neither a Construct nor an Undead loses 1 HP.",
+      "Minion Rules (MCDM)": "Minions of the same stat block normally share a turn. A group of two to five can spend one action each to make a single attack against a target in reach or range of every participant. Add +1 to the roll per participant and multiply the listed damage by the number of participants. Use advantage or disadvantage only if everyone has it. If a reaction would affect one attacker, the target chooses a participant. Minions can join a group opportunity attack with their reactions when the target provokes each of them. A lone minion uses its listed attack without group bonuses. Minions cannot score critical hits or spend Hit Dice. A weapon attack other than an opportunity attack can pass damage above a minion's maximum HP to another minion with the same stat block. Each additional target drops to 0 HP from any positive remainder. Subtract its maximum HP before passing on any further damage. For melee attacks, additional targets must be within the attacker's reach with that weapon. For ranged attacks, they must be on the line from the attacker toward the original target within the weapon's short range."
+    },
+    "relatedCreatures": [
+      {
+        "name": "Stirge (MCDM)",
+        "kind": "monster"
+      }
+    ],
+    "ruleNotes": [
+      "The printed Proboscis lists a 5-ft. reach and gives no separate ranged distance. Use the listed 5 ft. at the table."
+    ]
+  },
+  {
+    "name": "Dragonet (Familiar Variant)",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Tiny Dragon, typically neutral good",
+    "ac": 15,
+    "hp": 14,
+    "hitDice": "4d4 + 4",
+    "speed": "10 ft., fly 30 ft., swim 20 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "proficiencyBonus": 2,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 5,
+        "modifier": -3
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 13,
+        "modifier": 1
+      }
+    },
+    "otherStatistics": "Natural armor. Arcana +4, Insight +3, Perception +3. Darkvision 60 ft., passive Perception 13. Speaks Draconic.",
+    "sections": {
+      "Role": "Support",
+      "Traits": "Arcane Acumen. Gain advantage on Intelligence (Arcana) checks to learn about visible supernatural effects and objects. The dragonet always knows when something senses its emotions or reads its thoughts, or when a divination spell targets or observes it.\nTrue Words. Gain advantage on Wisdom (Insight) checks to detect lies spoken in Draconic.\nFamiliar. The dragonet can enter a telepathic bond with a willing companion. While the pair are within 1 mile, the companion can perceive what the dragonet perceives. When the dragonet uses Truesight, the companion shares that Truesight while touching the dragonet. Either creature can break the bond at any time.",
+      "Actions": "Claw. Melee weapon attack, +5 to hit, 5-ft. reach, one target. Hit 5 (1d4 + 3) slashing.\nRevealing Breath (Recharges after a Short or Long Rest). Light coats every object in a 15-ft. cone for 1 minute. A creature in the cone is also outlined for 1 minute unless it succeeds on a DC 13 Dexterity save. Outlined targets shed dim light for 5 ft. and cannot benefit from being Invisible. Attacks against an outlined target have advantage if the attacker can see it. By looking at an outlined target that bears magic, the dragonet can identify the school, if any.\nTruesight (Recharges after a Long Rest). Gain Truesight out to 60 ft. for 1 minute."
+    },
+    "relatedCreatures": [
+      {
+        "name": "Dragonet",
+        "kind": "monster"
+      }
+    ]
+  },
+  {
+    "name": "Manticore (MCDM)",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Large Monstrosity, typically neutral",
+    "ac": 13,
+    "hp": 76,
+    "speed": "30 ft., fly 50 ft.",
+    "cr": "3",
+    "xp": 700,
+    "proficiencyBonus": 2,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Perception +3, Stealth +5. Darkvision 60 ft., passive Perception 13. Understands one language and speaks through Mimicry.",
+    "sections": {
+      "Role": "Skirmisher",
+      "Traits": "Agile Predator. A creature the manticore hits on its own turn cannot make opportunity attacks against it for the rest of that turn.\nMimicry. Repeat heard speech in a language the manticore understands. A listener can identify the imitation with a DC 10 Wisdom (Insight) check.",
+      "Actions": "Multiattack. Make one Bite and one Claw attack, or two Tail Spike attacks.\nBite. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit 8 (1d8 + 4) piercing damage. A creature Frightened of the manticore takes another 4 (1d8) piercing damage.\nClaw. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit 9 (1d10 + 4) slashing damage. The manticore can move the target up to 5 ft. horizontally.\nTail Spike. Ranged weapon attack, +5 to hit, range 60/120 ft., one target. Hit 5 (1d4 + 3) piercing damage plus 3 (1d6) poison damage. On a failed DC 13 Constitution save, the target is Poisoned until the end of its next turn.",
+      "Bonus Actions": "Trumpeting Howl (1/day). Each enemy within 120 ft. that hears the howl makes a DC 13 Wisdom save. On a failure, it is Frightened of the manticore for 1 minute and can repeat the save at the end of each of its turns to end the effect. If the initial save fails by 5 or more, the creature is also Dazed while Frightened this way.",
+      "Dazed (MCDM)": "On its turn, a Dazed creature chooses only one: move, take an action, or take a bonus action. Becoming Dazed during its turn ends that turn. Extra actions from effects such as Haste or Action Surge remain available. Cure Ailment, Lesser Restoration, and Greater Restoration can end Dazed. The GM can allow other remedies."
+    },
+    "hitDice": "9d10 + 27"
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "entityKind": "monster",
+    "name": "Crannak Smolderburn",
+    "publication": "DDEP2 - Mulmaster Undone V2",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/crannak-smolderburn/source-related-creature.webp",
+    "artist": "Related creature illustration: Derro Savant · Bryan Syme · Mordenkainen’s Tome of Foes",
+    "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/MTF/Derro%20Savant.webp",
+    "kind": "illustration",
+    "sha256": "93b5bec69477048ff12f1fab4982dd52de39665054da3777c665fd777561c136",
+    "reference": "images/monsters/derro-savant/mtf-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Crushing Wave Deceiver",
+    "publication": "DDEP2 - Mulmaster Undone V2",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/crushing-wave-deceiver/source-related-creature.webp",
+    "artist": "Related creature illustration: Crushing Wave Reaver · Princes of the Apocalypse",
+    "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/PotA/Crushing%20Wave%20Reaver.webp",
+    "kind": "illustration",
+    "sha256": "b17915f8cf9dc8c3801d2d075dcf55303933a6ffe8f2cf57b0b0a65e4cada099",
+    "reference": "images/monsters/crushing-wave-reaver/pota-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Qabara",
+    "publication": "DDEP2 - Mulmaster Undone V2",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/qabara/source-base-creature.webp",
+    "artist": "Base creature illustration: Marid · Monster Manual (2014)",
+    "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/MM/Marid.webp",
+    "kind": "illustration",
+    "sha256": "5240dd2efef3db85f6874f6252cf61b802e3ad12792e794cd2c62e707e5f666b",
+    "reference": "images/monsters/marid/mm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Razerblast Initiate",
+    "publication": "DDEP2 - Mulmaster Undone V2",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/razerblast-initiate/source-related-creature.webp",
+    "artist": "Related creature illustration: Razerblast · Princes of the Apocalypse",
+    "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/PotA/Razerblast.webp",
+    "kind": "illustration",
+    "sha256": "8bb8eb8139dae90a8f8abfb95b41c18aa23260c59962654955c9ba389e92c018",
+    "reference": "images/monsters/razerblast/pota-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Stonemelder Edo",
+    "publication": "DDEP2 - Mulmaster Undone V2",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/stonemelder-edo/source-related-creature.webp",
+    "artist": "Related creature illustration: Black Earth Priest · Princes of the Apocalypse",
+    "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/PotA/Black%20Earth%20Priest.webp",
+    "kind": "illustration",
+    "sha256": "3455c6548b12d0b6e642650668e2f9e1f4eda2455f95b07c2a730fa6608cfe93",
+    "reference": "images/monsters/black-earth-priest/pota-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Whitevane",
+    "publication": "DDEP2 - Mulmaster Undone V2",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/whitevane/source-related-creature.webp",
+    "artist": "Related creature illustration: Kenku · Zoltan Boros · Monster Manual (2014)",
+    "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/MM/Kenku.webp",
+    "kind": "illustration",
+    "sha256": "722550fb9ac4fe509b547a19637139db55470b0f5df37939cf9772ce14d93654",
+    "reference": "images/monsters/kenku/mm-1.webp"
+  }
+]

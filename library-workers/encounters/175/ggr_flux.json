@@ -1,0 +1,473 @@
+[
+  {
+    "name": "Fluxcharger",
+    "statBlock": {
+      "name": "Fluxcharger",
+      "publication": "Guildmasters’ Guide to Ravnica",
+      "edition": "2014 fifth edition",
+      "printedPage": 208,
+      "classification": "Large elemental, chaotic neutral",
+      "ac": 16,
+      "hp": 60,
+      "hitDice": "8d10 + 16",
+      "speed": "0 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "7",
+      "xp": 2900,
+      "passivePerception": 10,
+      "description": "Izzet engineers bound lightning, fire, and smoke inside an angel-shaped mizzium frame. The elemental is harder to control than its solemn faceplate suggests.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Thunder, plus bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Damage immunities": "Lightning and poison.",
+        "Condition immunities": "Exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Draconic.",
+        "Traits": "Amplify Lightning. A spell that deals lightning damage gains an extra 9 (2d8) lightning damage if its area contains at least one fluxcharger. Additional fluxchargers in the same area cause no further increase.\nElemental Nature. The weird needs no air, food, drink, or sleep.",
+        "Actions": "Multiattack. Make two Slam attacks or use Arc Lightning twice.\nSlam. Melee weapon attack, +7 to hit, reach 10 ft., one target. On a hit, deal 13 (2d8 + 4) bludgeoning damage plus 10 (3d6) fire damage.\nArc Lightning. Ranged spell attack, +7 to hit, range 30 ft., one target. On a hit, deal 16 (3d10) lightning damage. The bolt then jumps to one creature the fluxcharger can see within 30 ft. of the first target. That creature takes 13 (3d8) lightning damage on a failed DC 15 Dexterity save. After the attack resolves, the fluxcharger takes 5 (1d10) force damage whether the attack hit or missed.",
+        "Printed source": "Guildmasters’ Guide to Ravnica, p. 208."
+      }
+    }
+  },
+  {
+    "name": "Flying Horror",
+    "statBlock": {
+      "name": "Flying Horror",
+      "publication": "Guildmasters’ Guide to Ravnica",
+      "edition": "2014 fifth edition",
+      "printedPage": 203,
+      "classification": "Medium aberration, neutral evil",
+      "ac": 16,
+      "hp": 49,
+      "hitDice": "9d8 + 9",
+      "speed": "30 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 9
+        },
+        "Dex": {
+          "score": 20
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 2
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 14,
+      "description": "Dimir agents send these winged horrors after targets who would ordinarily be safe behind walls or on rooftops.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 4,
+        "Stealth": 7
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage vulnerabilities": "Radiant.",
+        "Condition immunities": "Frightened.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "None.",
+        "Traits": "Fear Frenzy. The horror has advantage on attack rolls against frightened creatures.\nSunlight Sensitivity. In sunlight, the horror has disadvantage on attacks and Wisdom (Perception) checks that rely on sight.",
+        "Actions": "Claws. Melee weapon attack, +7 to hit, reach 5 ft., one target. On a hit, deal 8 (1d6 + 5) slashing damage plus 14 (4d6) psychic damage.\nFrightening Screech (Recharge 5–6). Each creature within 30 ft. that can hear the screech must pass a DC 13 Wisdom save or become frightened of the horror for 1 minute. The creature can repeat the save at the end of each of its turns, ending the effect on a success. Once it succeeds on the save or the effect ends, it is immune to this horror’s screech for 24 hours.",
+        "Customizing a Horror": "For a customized Flying Horror, choose or roll one primary and one secondary feature on two d4s.\nPrimary 1. Avoidance. If a successful save would halve damage, take no damage on a success and half as much on a failure.\nPrimary 2. Damage Resistances. Gain resistance to necrotic and psychic damage.\nPrimary 3. Innate Spellcasting. Cast Darkness three times per day using Charisma (spell save DC 13), without material components.\nPrimary 4. Psychic Rebuke. When a melee attack deals damage to the horror, it can use its reaction to deal 3 (1d6) psychic damage to each creature within 5 ft.\nSecondary 1. Grasping Tendrils. The horror has four tendrils (AC 12 and 10 HP each). Destroying one deals no damage to the horror. As a bonus action, choose a creature it can see within 10 ft. The target makes a DC 9 Dexterity save or is grappled (escape DC 9). Each tendril can hold only one target at a time.\nSecondary 2. Indomitable Mind. Gain immunity to being charmed.\nSecondary 3. Keen Senses. Gain advantage on Wisdom (Perception) checks that rely on sight, hearing, or smell.\nSecondary 4. Mind Sight. Magical darkness does not impede the horror’s darkvision.",
+        "Horrors and Madness": "If you use the book’s optional madness rule, track each failed save against a Flying Horror’s Frightening Screech, a Shadow Horror’s claw attack, or a Skittering Horror’s Maddening Presence. After the encounter, each character with any such failures makes a DC 13 Wisdom save. Failure causes short-term madness after one tracked failure, long-term madness after two or three, or indefinite madness after four or more. Consult the Dungeon Master’s Guide for the corresponding madness rules.",
+        "Printed source": "Guildmasters’ Guide to Ravnica, p. 203. The optional customization rules appear on p. 204."
+      }
+    }
+  },
+  {
+    "name": "Frontline Medic",
+    "statBlock": {
+      "name": "Frontline Medic",
+      "publication": "Guildmasters’ Guide to Ravnica",
+      "edition": "2014 fifth edition",
+      "printedPage": 231,
+      "classification": "Medium humanoid (any race), lawful good",
+      "ac": 20,
+      "hp": 19,
+      "hitDice": "3d8 + 6",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 13,
+      "description": "Boros medics wear plate and carry shields so they can keep treating soldiers under fire.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Medicine": 5,
+        "Perception": 3
+      },
+      "sections": {
+        "Armor": "Plate and shield.",
+        "Languages": "Any one language, usually Common.",
+        "Spellcasting": "A 3rd-level Boros spellcaster using Wisdom (spell save DC 11).\nCantrips (at will). Mending, Resistance, Spare the Dying.\n1st level (4 slots). Cure Wounds, Sanctuary.\n2nd level (2 slots). Aid, Lesser Restoration.",
+        "Actions": "Spear. Melee or ranged weapon attack, +4 to hit, reach 5 ft. or range 20/60 ft., one target. On a hit, deal 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing damage when wielding it with two hands for a melee attack.",
+        "Printed source": "Guildmasters’ Guide to Ravnica, p. 231."
+      }
+    }
+  },
+  {
+    "name": "Galvanice Weird",
+    "statBlock": {
+      "name": "Galvanice Weird",
+      "publication": "Guildmasters’ Guide to Ravnica",
+      "edition": "2014 fifth edition",
+      "printedPage": 209,
+      "classification": "Medium elemental, chaotic neutral",
+      "ac": 12,
+      "hp": 22,
+      "hitDice": "3d8 + 9",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 10,
+      "description": "A rigid body of elemental ice holds a lightning core. Izzet workshops use these weirds as guards and laborers.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold and lightning, plus bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "None.",
+        "Traits": "Death Burst. When the weird dies, each creature within 10 ft. makes a DC 13 Dexterity save, taking 7 (2d6) lightning damage on a failure or half that damage on a success.\nElemental Nature. The weird needs no air, food, drink, or sleep.",
+        "Actions": "Slam. Melee weapon attack, +4 to hit, reach 5 ft., one target. On a hit, deal 5 (1d6 + 2) bludgeoning damage plus 5 (2d4) lightning damage. A creature hit must pass a DC 13 Constitution save or lose its reactions until the start of the weird’s next turn.",
+        "Printed source": "Guildmasters’ Guide to Ravnica, p. 209."
+      }
+    }
+  },
+  {
+    "name": "Gloamwing",
+    "statBlock": {
+      "name": "Gloamwing",
+      "publication": "Guildmasters’ Guide to Ravnica",
+      "edition": "2014 fifth edition",
+      "printedPage": 215,
+      "classification": "Large undead, neutral evil",
+      "ac": 16,
+      "hp": 136,
+      "hitDice": "16d10 + 48",
+      "speed": "30 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 2
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 6
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 13,
+      "description": "A Nightveil Specter’s undead mount has a ratlike skull, leathery wings, and patches of exposed bone plates.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Str": 8,
+        "Dex": 6
+      },
+      "skills": {
+        "Perception": 3,
+        "Stealth": 6
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Necrotic, plus bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Charmed, exhaustion, frightened, poisoned.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Understands Common.",
+        "Traits": "Death Link. The gloamwing is destroyed if its Nightveil Specter rider drops to 0 HP.\nFlyby. Flying out of a foe’s reach provokes no opportunity attacks.\nSunlight Sensitivity. In sunlight, the gloamwing has disadvantage on attacks and Wisdom (Perception) checks that rely on sight.\nUndead Nature. The gloamwing needs no air, food, drink, or sleep.",
+        "Actions": "Multiattack. Make one Bite attack and one Claws attack.\nBite. Melee weapon attack, +8 to hit, reach 5 ft., one target. On a hit, deal 18 (3d8 + 5) piercing damage.\nClaws. Melee weapon attack, +8 to hit, reach 5 ft., one target. On a hit, deal 15 (3d6 + 5) slashing damage.",
+        "Rider": "The Nightveil Specter’s Mount trait grants both creatures advantage on Dexterity saves while the specter is mounted and not incapacitated. See the rider’s profile for its mounting and replacement-mount rules.",
+        "Printed source": "Guildmasters’ Guide to Ravnica, p. 215. The shared Undead Nature rule appears on p. 214."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Nightveil Specter",
+          "terms": [
+            "Nightveil Specter"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "name": "Golgari Shaman",
+    "statBlock": {
+      "name": "Golgari Shaman",
+      "publication": "Guildmasters’ Guide to Ravnica",
+      "edition": "2014 fifth edition",
+      "printedPage": 236,
+      "classification": "Medium humanoid (elf), neutral evil",
+      "ac": 14,
+      "hp": 88,
+      "hitDice": "16d8 + 16",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 17
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 13,
+      "description": "The Golgari Swarm’s shamans use fungi and necromancy to teach how new life grows from death.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 4,
+        "Wis": 6
+      },
+      "skills": {
+        "Arcana": 4,
+        "Insight": 6,
+        "Nature": 4,
+        "Religion": 4
+      },
+      "sections": {
+        "Armor": "Hide armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common and Elvish.",
+        "Traits": "Fey Ancestry. The shaman has advantage on saves against being charmed, and magic cannot put it to sleep.",
+        "Spellcasting": "An 8th-level Golgari spellcaster using Wisdom (spell save DC 14, +6 to hit with spell attacks).\nCantrips (at will). Poison Spray, Shillelagh, Thorn Whip.\n1st level (4 slots). Cure Wounds, Entangle, Ray of Sickness.\n2nd level (3 slots). Pass without Trace, Ray of Enfeeblement, Spike Growth.\n3rd level (3 slots). Animate Dead, Dispel Magic, Plant Growth.\n4th level (2 slots). Blight, Giant Insect.",
+        "Actions": "Quarterstaff. Melee weapon attack, +4 to hit, reach 5 ft., one target. On a hit, deal 5 (1d6 + 2) bludgeoning damage, or 6 (1d8 + 2) bludgeoning damage when wielding it with two hands.\nFungal Rot. Melee spell attack, +6 to hit, reach 5 ft., one target. On a hit, deal 9 (2d8) necrotic damage. The target also makes a DC 14 Constitution save, taking 18 (4d8) poison damage on a failure or half that damage on a success.",
+        "Reactions": "Feed on Death. When a creature within 30 ft. drops to 0 HP, the shaman gains 5 (1d10) temporary hit points.",
+        "Lair actions": "Golgari Lairs. These actions belong to a group of six or more Golgari defending their territory. At least one defender must be Jarad Vod Savo, a Golgari Shaman, a Kraul Death Priest, an Undercity Medusa, or a Devkarin Lich. Count the lair as one additional CR 1 creature when estimating encounter difficulty.\nOn initiative count 20, losing ties, the group uses one lair action. It must choose a different option from the one used the previous round.\nSewer Overflow. Sewage spills from sewer openings the Golgari can see. A creature within 20 ft. of an affected opening must pass a DC 15 Dexterity save or fall prone and be pushed up to 20 ft. straight away from that opening.\nSpore Cloud. Center a 20-ft.-radius sphere within 120 ft. of any member of the group. The spores spread around corners and lightly obscure the area. A creature inside when the cloud appears makes a DC 15 Constitution save, taking 10 (3d6) poison damage on a failure or half that damage on a success. A creature ending its turn inside takes 10 (3d6) poison damage. The cloud lasts until a Golgari defender dismisses it as an action, the group uses this option again, or all defenders die.\nFungal Tendrils. Center a 15-ft.-radius sphere within 60 ft. of any member of the group. Creatures in it who are not allied with the group must pass a DC 15 Dexterity save or become restrained. An affected creature can use its action to end the restraint on itself with a successful DC 15 Strength check. The restraint also ends if the group uses this option again, all defenders die, or no member remains within 60 ft. of the effect.",
+        "Regional effects": "A Golgari lair produces one or both of these effects, only belowground. Moss and fungi cover underground surfaces within half a mile. When a Small or Medium humanoid dies within the lair, roll any die. On an odd result the corpse rises as a fungus drudge using the 2014 Zombie stat block after 1d8 hours, unless the body is destroyed first. If all Golgari in the lair die, its effects fade over 1d10 days.",
+        "Printed source": "Guildmasters’ Guide to Ravnica, p. 236. This page also gives the group’s lair rules."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Zombie",
+          "terms": [
+            "Zombie"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#zombie_mm"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Guardian Giant",
+    "statBlock": {
+      "name": "Guardian Giant",
+      "publication": "Guildmasters’ Guide to Ravnica",
+      "edition": "2014 fifth edition",
+      "printedPage": 201,
+      "classification": "Huge giant, lawful neutral",
+      "ac": 19,
+      "hp": 137,
+      "hitDice": "11d12 + 66",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 24
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 22
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 18
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 20,
+      "description": "Boros garrisons use these Skorskal giants as watchful gatekeepers and living cover for smaller soldiers.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 6,
+        "Wis": 7
+      },
+      "skills": {
+        "Insight": 7,
+        "Perception": 10
+      },
+      "sections": {
+        "Armor": "Half plate and shield.",
+        "Languages": "Common and Giant.",
+        "Traits": "Vigilant. The giant cannot be surprised.",
+        "Actions": "Multiattack. Make three Spear attacks.\nSpear. Melee or ranged weapon attack, +10 to hit, reach 10 ft. or range 60/240 ft., one target. On a hit, deal 17 (3d6 + 7) piercing damage, or 20 (3d8 + 7) piercing damage when wielding it with two hands for a melee attack.",
+        "Reactions": "Protection. When an attacker the giant can see rolls to hit a creature within 10 ft. of the giant, the giant can impose disadvantage on that roll.",
+        "Printed source": "Guildmasters’ Guide to Ravnica, p. 201."
+      }
+    }
+  },
+  {
+    "name": "Horncaller",
+    "statBlock": {
+      "name": "Horncaller",
+      "publication": "Guildmasters’ Guide to Ravnica",
+      "edition": "2014 fifth edition",
+      "printedPage": 253,
+      "classification": "Medium humanoid (any race), lawful good",
+      "ac": 13,
+      "hp": 39,
+      "hitDice": "6d8 + 12",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 14,
+      "description": "Horncallers tend animals in Selesnya parks and enlist wild beasts to fight alongside Selesnya troops.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Animal Handling": 4,
+        "Nature": 2,
+        "Perception": 4
+      },
+      "sections": {
+        "Armor": "Hide armor.",
+        "Languages": "Common plus any one language.",
+        "Traits": "Speak with Beasts. The horncaller can communicate with beasts as though they shared a language.",
+        "Innate Spellcasting": "The horncaller casts using Wisdom (spell save DC 14) and needs no material components. Once per day each, cast Bless or Conjure Animals.",
+        "Actions": "Multiattack. Make two Staff attacks and use One with the Worldsoul.\nStaff. Melee weapon attack, +3 to hit, reach 5 ft., one target. On a hit, deal 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) bludgeoning damage when wielding it with two hands.\nOne with the Worldsoul. Choose one beast the horncaller can see within 30 ft. If it can hear the horncaller, it spends its reaction to make one melee attack against a target the horncaller can see.",
+        "Printed source": "Guildmasters’ Guide to Ravnica, p. 253."
+      }
+    }
+  }
+]

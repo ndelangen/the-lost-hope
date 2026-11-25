@@ -1,0 +1,95 @@
+[
+  {
+    "name": "Advanced Huge Monstrous Crab",
+    "kind": "beast",
+    "publication": "White Plume Mountain (Revised)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "year": 2005,
+    "originalDesigner": "Lawrence Schick",
+    "revisionDevelopers": [
+      "Andy Collins",
+      "Gwendolyn F. M. Kestrel",
+      "James Wyatt"
+    ],
+    "creditedCartographer": "Rob Lazzaretti",
+    "creditedCreatureArtist": null,
+    "printedName": "Advanced Huge Monstrous Crab",
+    "section": "17. Ledge",
+    "printedPages": [
+      20,
+      21
+    ],
+    "pdfPages": [
+      20,
+      21
+    ],
+    "archivedPublisherDownload": "https://web.archive.org/web/20090603202048id_/http://www.wizards.com/dnd/files/WhitePlumeMountainRevised.zip",
+    "inspectedPdfSha256": "768ade718f6db1a6bd5336b17f1ded1873eb0e861988681cb9cfee3d77ffa678",
+    "archiveAndLocalBytesMatch": true,
+    "entryId": "beast-72785437344616bb8d821f9d",
+    "versionKey": "6298d3aaedc269384a78018a",
+    "slug": "advanced-huge-monstrous-crab",
+    "query": "advanced huge monstrous crab wave dome",
+    "portraitSelection": "generated",
+    "individualChallenge": "8",
+    "printedEncounterHitPoints": [
+      107
+    ],
+    "printedStatBlockPage": 21,
+    "sourcePageArt": {
+      "printedPage": 20,
+      "subject": "Crab and adventurers in the dome",
+      "artist": "Erol Otus",
+      "creditBasis": "signed illustration"
+    },
+    "referencedBase": "Stormwrack, p. 142"
+  },
+  {
+    "name": "Large Monstrous Scorpion",
+    "kind": "beast",
+    "publication": "White Plume Mountain (Revised)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "year": 2005,
+    "originalDesigner": "Lawrence Schick",
+    "revisionDevelopers": [
+      "Andy Collins",
+      "Gwendolyn F. M. Kestrel",
+      "James Wyatt"
+    ],
+    "creditedCartographer": "Rob Lazzaretti",
+    "creditedCreatureArtist": null,
+    "printedName": "Large Monstrous Scorpions (3)",
+    "section": "26C. Desert Terrace",
+    "printedPages": [
+      26,
+      27
+    ],
+    "pdfPages": [
+      26,
+      27
+    ],
+    "archivedPublisherDownload": "https://web.archive.org/web/20090603202048id_/http://www.wizards.com/dnd/files/WhitePlumeMountainRevised.zip",
+    "inspectedPdfSha256": "768ade718f6db1a6bd5336b17f1ded1873eb0e861988681cb9cfee3d77ffa678",
+    "archiveAndLocalBytesMatch": true,
+    "entryId": "beast-06785f4693c6689faff736ae",
+    "versionKey": "8ba270eae9044bb899d5ba4a",
+    "slug": "large-monstrous-scorpion",
+    "query": "large monstrous scorpion desert terrace grapple",
+    "portraitSelection": "generated",
+    "individualChallenge": "3",
+    "printedEncounterLevel": 6,
+    "printedEncounterHitPoints": [
+      32,
+      32,
+      32
+    ],
+    "printedStatBlockPage": null,
+    "referencedBase": "Monster Manual (D&D 3.5), p. 287",
+    "verifiedEquivalent": "Revised v3.5 SRD, Monstrous Scorpion, Large",
+    "baseSourceArchive": "https://www.wizards.com/default.asp?x=d20/article/srd35",
+    "baseSourcePdfPage": 276,
+    "baseSourcePdfSha256": "dd964e5d4efb42e073284b8cf78e5d3d001017988ac67e6dc1357f6f1066ab8b"
+  }
+]

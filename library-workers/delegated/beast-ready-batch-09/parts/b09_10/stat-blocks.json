@@ -1,0 +1,361 @@
+[
+  {
+    "name": "Giant Wasp",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Medium Beast, Unaligned",
+    "ac": 13,
+    "hp": 22,
+    "hitDice": "5d8",
+    "speed": "10 ft., fly 50 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "abilities": {
+      "Str": {
+        "score": 10,
+        "modifier": 0,
+        "save": 0
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2,
+        "save": 2
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0,
+        "save": 0
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5,
+        "save": -5
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0,
+        "save": 0
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4,
+        "save": -4
+      }
+    },
+    "savingThrows": {
+      "Str": 0,
+      "Dex": 2,
+      "Con": 0,
+      "Int": -5,
+      "Wis": 0,
+      "Cha": -4
+    },
+    "skills": {},
+    "passivePerception": 10,
+    "otherStatistics": "Initiative +2 (12). Proficiency Bonus +2. Senses. Passive Perception 10. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A golden-and-dark striped wasp with a narrow waist, transparent veined wings, hooked feet, and a pointed stinger.",
+    "habitats": [
+      "Forest",
+      "Grassland",
+      "Urban"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual for the 2024 rules, released in 2025, p. 361. https://www.dndbeyond.com/monsters/5195032-giant-wasp",
+      "Traits": "Flyby. Flying out of an enemy’s reach does not trigger an Opportunity Attack.",
+      "Actions": "Sting. Melee attack roll +4, reach 5 ft. A hit deals 5 (1d6 + 2) piercing damage and 5 (2d4) poison damage."
+    }
+  },
+  {
+    "name": "Giant Weasel",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Medium Beast, Unaligned",
+    "ac": 13,
+    "hp": 9,
+    "hitDice": "2d8",
+    "speed": "40 ft., climb 30 ft.",
+    "cr": "1/8",
+    "xp": 25,
+    "abilities": {
+      "Str": {
+        "score": 11,
+        "modifier": 0,
+        "save": 0
+      },
+      "Dex": {
+        "score": 17,
+        "modifier": 3,
+        "save": 3
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0,
+        "save": 0
+      },
+      "Int": {
+        "score": 4,
+        "modifier": -3,
+        "save": -3
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1,
+        "save": 1
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3,
+        "save": -3
+      }
+    },
+    "savingThrows": {
+      "Str": 0,
+      "Dex": 3,
+      "Con": 0,
+      "Int": -3,
+      "Wis": 1,
+      "Cha": -3
+    },
+    "skills": {
+      "Acrobatics": 5,
+      "Perception": 3,
+      "Stealth": 5
+    },
+    "passivePerception": 13,
+    "otherStatistics": "Initiative +3 (13). Proficiency Bonus +2. Skills. Acrobatics +5, Perception +3, Stealth +5. Senses. Darkvision 60 ft., Passive Perception 13. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A long-bodied, short-legged weasel with russet-brown fur, a pale underside, rounded ears, and a slim curled tail.",
+    "habitats": [
+      "Forest",
+      "Grassland",
+      "Hill"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual for the 2024 rules, released in 2025, p. 361. https://www.dndbeyond.com/monsters/4775822-giant-weasel",
+      "Actions": "Bite. Melee attack roll +5, reach 5 ft. A hit deals 5 (1d4 + 3) piercing damage."
+    }
+  },
+  {
+    "name": "Giant Wolf Spider",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Medium Beast, Unaligned",
+    "ac": 13,
+    "hp": 11,
+    "hitDice": "2d8 + 2",
+    "speed": "40 ft., climb 40 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 12,
+        "modifier": 1,
+        "save": 1
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3,
+        "save": 3
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1,
+        "save": 1
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4,
+        "save": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1,
+        "save": 1
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3,
+        "save": -3
+      }
+    },
+    "savingThrows": {
+      "Str": 1,
+      "Dex": 3,
+      "Con": 1,
+      "Int": -4,
+      "Wis": 1,
+      "Cha": -3
+    },
+    "skills": {
+      "Perception": 3,
+      "Stealth": 7
+    },
+    "passivePerception": 13,
+    "otherStatistics": "Initiative +3 (13). Proficiency Bonus +2. Skills. Perception +3, Stealth +7. Senses. Blindsight 10 ft., Darkvision 60 ft., Passive Perception 13. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A hairy brown spider with dark radial markings, a cluster of glossy eyes, visible fangs, and eight banded legs.",
+    "habitats": [
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual for the 2024 rules, released in 2025, p. 362. https://www.dndbeyond.com/monsters/5195033-giant-wolf-spider",
+      "Traits": "Spider Climb. The spider can scale difficult surfaces and travel along ceilings without an ability check.",
+      "Actions": "Bite. Melee attack roll +5, reach 5 ft. A hit deals 5 (1d4 + 3) piercing damage and 5 (2d4) poison damage."
+    }
+  },
+  {
+    "name": "Goat",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Medium Beast, Unaligned",
+    "ac": 10,
+    "hp": 4,
+    "hitDice": "1d8",
+    "speed": "40 ft., climb 30 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 11,
+        "modifier": 0,
+        "save": 2
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0,
+        "save": 0
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0,
+        "save": 0
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4,
+        "save": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0,
+        "save": 0
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3,
+        "save": -3
+      }
+    },
+    "savingThrows": {
+      "Str": 2,
+      "Dex": 0,
+      "Con": 0,
+      "Int": -4,
+      "Wis": 0,
+      "Cha": -3
+    },
+    "skills": {
+      "Perception": 2
+    },
+    "passivePerception": 12,
+    "otherStatistics": "Initiative +0 (10). Proficiency Bonus +2. Skills. Perception +2. Senses. Darkvision 60 ft., Passive Perception 12. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A wiry cream-and-gray goat with a short beard, narrow swept horns, horizontal pupils, and split hooves.",
+    "habitats": [
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Urban"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual for the 2024 rules, released in 2025, p. 362. https://www.dndbeyond.com/monsters/4775823-goat",
+      "Actions": "Ram. Melee attack roll +2, reach 5 ft. On a hit, deal 1 bludgeoning damage. Deal 2 (1d4) bludgeoning instead if the goat moved at least 20 ft. directly toward the target immediately before the hit."
+    }
+  },
+  {
+    "name": "Hawk",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Tiny Beast, Unaligned",
+    "ac": 13,
+    "hp": 1,
+    "hitDice": "1d4 - 1",
+    "speed": "10 ft., fly 60 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 5,
+        "modifier": -3,
+        "save": -3
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3,
+        "save": 3
+      },
+      "Con": {
+        "score": 8,
+        "modifier": -1,
+        "save": -1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4,
+        "save": -4
+      },
+      "Wis": {
+        "score": 14,
+        "modifier": 2,
+        "save": 2
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2,
+        "save": -2
+      }
+    },
+    "savingThrows": {
+      "Str": -3,
+      "Dex": 3,
+      "Con": -1,
+      "Int": -4,
+      "Wis": 2,
+      "Cha": -2
+    },
+    "skills": {
+      "Perception": 6
+    },
+    "passivePerception": 16,
+    "otherStatistics": "Initiative +3 (13). Proficiency Bonus +2. Skills. Perception +6. Senses. Passive Perception 16. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A compact brown hawk with broad shoulders, a cream breast, a hooked gray beak, and curved talons.",
+    "habitats": [
+      "Arctic",
+      "Coastal",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual for the 2024 rules, released in 2025, p. 362. https://www.dndbeyond.com/monsters/4775824-hawk",
+      "Actions": "Talons. Melee attack roll +5, reach 5 ft. A hit deals 1 slashing damage."
+    }
+  }
+]

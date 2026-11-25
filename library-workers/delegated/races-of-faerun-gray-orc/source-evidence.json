@@ -1,0 +1,49 @@
+[
+  {
+    "name": "Gray Orc",
+    "kind": "species",
+    "publication": "Races of Faerûn (2003)",
+    "edition": "3.5 edition",
+    "book": "Races of Faerûn",
+    "publisher": "Wizards of the Coast",
+    "authors": [
+      "Eric L. Boyd",
+      "James Jacobs",
+      "Matt Forbeck"
+    ],
+    "firstPrinting": "March 2003",
+    "isbn": "0-7869-2896-4",
+    "printedPages": {
+      "playableSpecies": [
+        65,
+        66,
+        67
+      ],
+      "racialTraits": [
+        66
+      ],
+      "appearance": [
+        65
+      ]
+    },
+    "primaryBookPdfPageOffset": 1,
+    "primaryBookScan": "",
+    "primaryBookSha256": "80254e0054d127cf9e32e8e8e7b403e2f3e0477bc3695bbe96cf4ea595ba761d",
+    "coreScent": "https://www.d20srd.org/srd/specialAbilities.htm#scent",
+    "luthic": "",
+    "sourceDistinctions": [
+      "The exhaustive Gray Orc entry has 40-ft. speed, Scent, Light Sensitivity, and no darkvision grant.",
+      "The printed Light Sensitivity applies a one-point penalty to attack rolls in bright sunlight or daylight.",
+      "The 3.5 core Scent, Cleric and Ranger rules supply mechanics for the two examples."
+    ],
+    "entryId": "species-6b55bf37ddd947d2e14a322e",
+    "versionKey": "b8b7f3626f7a3a4fd9428ab8",
+    "slug": "gray-orc",
+    "portraitSelection": "generated",
+    "portraitForm": "Maura Stonewick, an original Gray Orc wayhouse keeper",
+    "npcExamples": [
+      "Maura Stonewick",
+      "Keshen Trailmark"
+    ]
+  }
+]

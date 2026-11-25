@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Shadow",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra for the 2014 fifth-edition rules. Dungeon Masters Guild, Monstrous Races v2, p. 185.",
+      "Medium Undead. Dexterity increases by 1. Walk 35 ft. and see in darkness out to 60 ft. Understand, read and write Common. Cannot speak or supply verbal spell components.",
+      "Amorphous lets the Shadow pass through gaps at least 1 inch wide without squeezing. Shadow Stealth allows a bonus-action Hide in dim light or darkness.",
+      "Immune to poison damage and the exhaustion, grappled, paralyzed, petrified, poisoned and restrained conditions. In sunlight, attack rolls, ability checks and saving throws have disadvantage.",
+      "The Shadow needs no air, food, drink or sleep. Four hours of semiconscious rest replace eight hours of sleep.",
+      "Strength Drain changes unarmed strike damage to 1d8 necrotic. When an unarmed attack rolls a natural 20 against a living creature, it also forces a Strength save. The DC is 8 + proficiency bonus + Constitution modifier.",
+      "On the first failed save, Strength attacks, checks and saves have disadvantage until the target finishes a short or long rest or receives lesser restoration or comparable magic. On another natural 20 while the drain lasts, a second failed save drops the target to 0 HP and it begins dying. A successful second save leaves the first drain in place."
+    ]
+  },
+  {
+    "name": "Blood Hawk",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra for the 2014 fifth-edition rules. Dungeon Masters Guild, Monstrous Races v2, p. 224.",
+      "Small Beast. Dexterity and Wisdom each increase by 1. Walk 10 ft. and fly 50 ft. Flight is unavailable in medium or heavy armor. Speak, read and write Common.",
+      "Keen Sight gives advantage on Wisdom (Perception) checks that use sight.",
+      "The bite is an unarmed strike that deals 1d4 slashing damage. Dexterity can replace Strength for attack and damage. For rules that require finesse, the bite counts as a finesse weapon.",
+      "Pack Tactics uses a bonus action. The next attack this turn has advantage if its target is within 5 ft. of an ally who is not incapacitated.",
+      "No Hands prevents using weapons, shields and items that require manipulation, including tools and spellcasting foci."
+    ]
+  },
+  {
+    "name": "Flying Snake",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra for the 2014 fifth-edition rules. Dungeon Masters Guild, Monstrous Races v2, p. 231.",
+      "Small Beast. Dexterity increases by 2. Walk, swim and fly at 30 ft. Blindsight 10 ft. Speak, read and write Common.",
+      "Bite deals 1d4 piercing and 1d4 poison as an unarmed strike. Dexterity can replace Strength for attack and damage. The bite counts as a finesse weapon for rules that require finesse.",
+      "Serpentine Body prevents using armor, shields and weapons. Lacking arms or hands also bars items that need manipulation, including tools, wands and spellcasting foci.",
+      "The flight clause bars medium or heavy armor. Serpentine Body already rules out wearing any armor."
+    ]
+  },
+  {
+    "name": "Giant Centipede",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra for the 2014 fifth-edition rules. Dungeon Masters Guild, Monstrous Races v2, p. 234.",
+      "Small Beast. Dexterity increases by 1. Walk and climb at 30 ft. Blindsight 60 ft. Speak, read and write Common.",
+      "The bite is an unarmed strike for 1d4 piercing plus 1d4 poison. Dexterity can replace Strength for attack and damage. The bite counts as a finesse weapon for rules that require finesse.",
+      "Natural Armor gives AC 11 + Dexterity modifier when unarmored.",
+      "No Hands prevents wielding weapons or shields and using objects that require manipulation, including tools, wands and spellcasting foci."
+    ]
+  }
+]

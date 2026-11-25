@@ -1,0 +1,398 @@
+[
+  {
+    "name": "Dragonbait",
+    "statBlock": {
+      "name": "Dragonbait",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 218,
+      "classification": "Medium humanoid (saurial), lawful good",
+      "ac": 17,
+      "hp": 120,
+      "hitDice": "16d8 + 48",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 13,
+      "description": "A saurial swordsman who helps Artus Cimber search Chult. He communicates his feelings through scents and willingly puts himself in danger to help a friend.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Wis": 6,
+        "Cha": 7
+      },
+      "skills": {
+        "Athletics": 5,
+        "Medicine": 6
+      },
+      "sections": {
+        "Armor": "Breastplate and Shield.",
+        "Languages": "Understands Common but cannot speak it. His native clicks and whistles are above the human hearing range.",
+        "Traits": "Divine Health. Dragonbait is immune to disease.\nMagic Resistance Aura. While Dragonbait holds his Holy Avenger Longsword, he and friendly creatures within 10 feet of him have advantage on saves against spells and other magical effects.",
+        "Actions": "Multiattack. Make two melee weapon attacks.\nHoly Avenger (+3 Longsword). Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 9 (1d8 + 5) slashing damage when wielded in one hand, or 10 (1d10 + 5) in two hands. Against a fiend or undead, the hit also deals 11 (2d10) radiant damage.\nSense Alignment. Choose a visible creature within 60 feet and learn its alignment. This fails if magic shields that creature from divination.",
+        "Encounter context": "Dragonbait met Artus Cimber in Port Nyanzaru and helps him look for his wife, Alisanda. If Artus agrees to destroy the Soulmonger, Dragonbait joins him. He has never been to Omu and cannot guide the party there.\nScent cues. Brimstone signals confusion, roses sadness, lemon joy, bread anger, violets fear or danger, honeysuckle concern, wood smoke devotion, tar triumph, and ham worry.",
+        "Printed source": "Tomb of Annihilation, Appendix D, pp. 217–218. The stat block is on p. 218."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Artus Cimber",
+          "terms": [
+            "Artus Cimber"
+          ],
+          "printing": {
+            "publication": "Tomb of Annihilation",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#artus%20cimber_toa"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Eblis",
+    "statBlock": {
+      "name": "Eblis",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 219,
+      "classification": "Large monstrosity, neutral evil",
+      "ac": 13,
+      "hp": 26,
+      "hitDice": "4d10 + 4",
+      "speed": "30 ft., fly 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 14,
+      "description": "An intelligent eight-foot crane that can handle objects with its beak and feet. It hides treasure in a woven reed hut and entices travelers into danger.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 4
+      },
+      "sections": {
+        "Languages": "Auran and Common.",
+        "Traits": "Innate Spellcasting. Intelligence is the spellcasting ability (save DC 11). The eblis needs no material components and can cast Blur, Hypnotic Pattern, and Minor Illusion once each per day.",
+        "Actions": "Multiattack. Make two Beak attacks.\nBeak. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 5 (1d4 + 3) piercing damage.",
+        "Jungle encounter": "While traveling, the party encounters 1d4 + 1 eblis in stilt huts over a marsh or pond. They attack wounded or weak-looking travelers. A strong, armed party can buy directions to nearby landmarks for 50 gp in gems. Following those directions grants advantage on navigation checks to reach the landmarks. If the party defeats the eblis and searches the huts, roll three times on Treasure Drops. At a campsite, the eblis try to sneak in and carry away one traveler.",
+        "Printed source": "Tomb of Annihilation, Appendix D, p. 219. The jungle encounter is in Appendix B, p. 199."
+      }
+    }
+  },
+  {
+    "name": "Giant Four-Armed Gargoyle",
+    "statBlock": {
+      "name": "Giant Four-Armed Gargoyle",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 221,
+      "classification": "Large elemental, chaotic evil",
+      "ac": 17,
+      "hp": 147,
+      "hitDice": "14d10 + 70",
+      "speed": "30 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "cr": "10",
+      "xp": 5900,
+      "passivePerception": 14,
+      "description": "An eight- to nine-foot stone guardian created by Acererak. It waits on a tomb pedestal and can strike with all four claws in one turn.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Wis": 4
+      },
+      "skills": {
+        "Perception": 4
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Terran.",
+        "Damage resistances": "Bludgeoning, piercing, and slashing from nonmagical attacks unless the weapon is adamantine.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Exhaustion, petrified, and poisoned.",
+        "Traits": "False Appearance. A motionless gargoyle looks exactly like an ordinary statue.",
+        "Actions": "Multiattack. Make one Bite and four Claw attacks.\nBite. Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 11 (2d6 + 4) piercing damage.\nClaw. Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 9 (2d4 + 4) slashing damage.",
+        "Gargoyle Guardians": "Four guardians perch around the shaft in Tomb of the Nine Gods area 45. Each humanoid owes a separate payment to each pedestal before leaving: 1 cp north, 1 sp east, 1 gp south, and 1 pp west. Higher-value coins or multiple coins of sufficient total value also work. Unpaid guardians animate when the humanoid leaves and attack that humanoid. A guardian also attacks if it or its pedestal takes damage. These triggers belong to the room.",
+        "Printed source": "Tomb of Annihilation, Appendix D, p. 221. Gargoyle Guardians is in Chapter 5, p. 157."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Acererak",
+          "terms": [
+            "Acererak"
+          ],
+          "printing": {
+            "publication": "Tomb of Annihilation",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#acererak_toa"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Gargoyle",
+          "terms": [
+            "Gargoyle",
+            "Gargoyles"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#gargoyle_mm"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Girallon Zombie",
+    "statBlock": {
+      "name": "Girallon Zombie",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 240,
+      "classification": "Large undead, chaotic evil",
+      "ac": 11,
+      "hp": 59,
+      "hitDice": "7d10 + 21",
+      "speed": "30 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 7
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 8,
+      "description": "A reanimated four-armed ape with white fur. It bounds after living prey and can land a bite and four claw strikes in one turn.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Languages": "None.",
+        "Traits": "Undead Fortitude. When damage would drop the zombie to 0 HP, it makes a Constitution save with a DC of 5 plus the damage dealt. It drops to 1 HP on a success. Radiant damage or a critical hit bypasses this save.",
+        "Actions": "Multiattack. Make one Bite and four Claw attacks.\nBite. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 7 (1d6 + 4) piercing damage.\nClaw. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 6 (1d4 + 4) slashing damage.",
+        "Bonus actions": "Aggressive. The zombie can move up to its speed toward a hostile creature it sees.",
+        "Jungle encounter": "On a 6 or 7 on the Appendix B zombie encounter d10, the party encounters 1d4 girallon zombies. The smell of death and the sound of the zombies moving through the undergrowth give warning.",
+        "Printed source": "Tomb of Annihilation, Appendix D, p. 240. The zombie encounter is in Appendix B, p. 203."
+      }
+    }
+  },
+  {
+    "name": "Hew Hackinstone",
+    "statBlock": {
+      "name": "Hew Hackinstone",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 34,
+      "classification": "Medium humanoid (dwarf), chaotic neutral",
+      "ac": 13,
+      "hp": 67,
+      "hitDice": "9d8 + 27",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 9
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 10,
+      "description": "A shield dwarf guide who lost his left arm at Wyrmheart Mine. He wants to lead a party back there to kill the dragon Tinder.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Survival": 4
+      },
+      "sections": {
+        "Armor": "Hide Armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "One language, usually Common.",
+        "Damage resistances": "Poison.",
+        "Traits": "Dwarven Resilience. Hew resists poison damage and has advantage on saves against being poisoned.\nReckless. At the start of his turn, Hew can choose to roll melee weapon attacks with advantage for that turn. If he does, attacks against him have advantage until his next turn starts.",
+        "Actions": "Battleaxe. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 7 (1d8 + 3) slashing damage. Hew can wield the axe only one-handed.",
+        "Encounter context": "Hew offers his services in Port Nyanzaru and claims he can guide the party anywhere. If hired, he takes them to Wyrmheart Mine, where Tinder (Tzindelor) drove off his expedition. Use the Young Red Dragon profile for Tinder.",
+        "Printed source": "Tomb of Annihilation, Chapter 1, p. 34. The adventure modifies the 2014 Monster Manual Berserker, including the weapon and its one-handed restriction."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Berserker",
+          "terms": [
+            "Berserker"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#berserker_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Young Red Dragon",
+          "terms": [
+            "Young Red Dragon",
+            "Tinder",
+            "Tzindelor"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#young%20red%20dragon_mm"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Kamadan",
+    "statBlock": {
+      "name": "Kamadan",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 225,
+      "classification": "Large monstrosity, unaligned",
+      "ac": 13,
+      "hp": 67,
+      "hitDice": "9d10 + 18",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 14,
+      "description": "A leopardlike hunter with six snakes growing from its shoulders. It hunts alone or in pairs and uses a cloud of sleep gas before closing in.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 4,
+        "Stealth": 7
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Languages": "None.",
+        "Traits": "Keen Smell. The kamadan has advantage on Wisdom (Perception) checks based on scent.\nPounce. If it moves at least 20 feet straight toward a creature and hits it with Claw on the same turn, the target must pass a DC 13 Strength save or fall prone. If this knocks the target prone, the kamadan can use a bonus action to make one Bite and one Snakes attack against it.",
+        "Actions": "Multiattack. Make one Bite or Claw attack, plus one Snakes attack.\nBite. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 6 (1d6 + 3) piercing damage.\nClaw. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 6 (1d6 + 3) slashing damage.\nSnakes. Melee weapon attack, +5 to hit, reach 5 ft., one creature. A hit deals 6 (1d6 + 3) piercing damage. The creature also makes a DC 12 Constitution save, taking 21 (6d6) poison damage on a failure or half on a success.\nSleep Breath (recharges after a short or long rest). Each creature in a 30-ft. cone must pass a DC 12 Constitution save or fall unconscious for up to 10 minutes. Damage or an action spent waking the creature ends the effect early.",
+        "Hunting tactics": "A kamadan opens with Sleep Breath if it can, then attacks conscious enemies before turning on sleeping ones.",
+        "Printed source": "Tomb of Annihilation, Appendix D, p. 225."
+      }
+    }
+  }
+]

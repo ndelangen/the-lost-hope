@@ -1,0 +1,155 @@
+[
+  {
+    "name": "Category 1 Krasis",
+    "statBlock": {
+      "name": "Category 1 Krasis",
+      "publication": "Guildmasters’ Guide to Ravnica",
+      "edition": "2014 fifth edition",
+      "printedPage": 210,
+      "classification": "Medium monstrosity, unaligned",
+      "ac": 15,
+      "hp": 19,
+      "hitDice": "3d8 + 6",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 2
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 11,
+      "description": "A medium hybrid creature fashioned by Simic Combine biomancers. Each specimen has one major and one minor adaptation.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Traits": "Amphibious. The krasis can breathe air and water.",
+        "Actions": "Multiattack. Make one Bite attack and one Claws attack.\nBite. Melee weapon attack, +5 to hit, reach 5 ft., one creature. A hit deals 8 (1d10 + 3) piercing damage.\nClaws. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 7 (1d8 + 3) slashing damage.",
+        "Creating a krasis": "Roll a d8 or choose once on each table. Apply one major and one minor adaptation to this base stat block before running the encounter.",
+        "Major adaptations": "1. Acidic Skin. A creature that touches the krasis or hits it with a melee attack from within 5 ft. takes 2 (1d4) acid damage.\n2. Armored Hide. Natural plates or scales increase AC by 4, to 19.\n3. Bioluminescent Markings. Runelike markings grant advantage on saves against spells and other magical effects.\n4. Flight. Wings provide a flying speed equal to its walking speed (30 ft.).\n5. Grabber. A creature hit by Claws is grappled by a specialized appendage (escape DC 13). The krasis can grapple only one creature this way at a time.\n6. Hypnotic Display (Recharge 5–6). As an action, surround the krasis with shifting shapes and colors. Each creature within 15 ft. that can see it must make a DC 12 Wisdom save. On a failure, the creature is stunned for 1 minute. It can repeat the save at the end of each of its turns to end the effect. A successful save grants immunity to Hypnotic Display from any krasis for 24 hours.\n7. Venomous Sting. A creature hit by Claws must pass a DC 12 Constitution save or become poisoned for 1 minute. It can repeat the save at the end of each of its turns to end the effect.\n8. Regeneration. At the start of each of its turns, the krasis regains 2 HP if it has at least 1 HP.",
+        "Minor adaptations": "1. Amorphous Structure. The krasis can pass through a 1-inch gap without squeezing.\n2. Aquatic. A swimming speed equal to its walking speed (30 ft.).\n3. Climbing Speed. A climbing speed equal to its walking speed (30 ft.).\n4. Cryptic Skin. The krasis can shift its color to blend in. It has advantage on Dexterity (Stealth) checks to hide.\n5. Heightened Awareness. Enhanced sensory organs prevent the krasis from being surprised.\n6. Ink Cloud (Recharges after a Short or Long Rest). While underwater, the krasis can spend a bonus action to release ink and then move up to its speed. The ink stays in a 20-ft.-radius sphere centered on a point in the space the krasis occupied before moving. The sphere is heavily obscured until the ink disperses after 1 minute or a strong current clears it.\n7. Leaping Legs. The krasis can long jump 20 ft. and high jump 10 ft., with or without a running start.\n8. Stabilizing Legs. Extra crablike legs grant advantage on Strength and Dexterity saves against effects that would knock the krasis prone.",
+        "Languages": "None.",
+        "Printed source": "Guildmasters’ Guide to Ravnica, p. 210. Shared adaptation rules on pp. 210–212."
+      }
+    }
+  },
+  {
+    "name": "Category 2 Krasis",
+    "statBlock": {
+      "name": "Category 2 Krasis",
+      "publication": "Guildmasters’ Guide to Ravnica",
+      "edition": "2014 fifth edition",
+      "printedPage": 211,
+      "classification": "Large monstrosity, unaligned",
+      "ac": 15,
+      "hp": 136,
+      "hitDice": "16d10 + 48",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 2
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "6",
+      "xp": 2300,
+      "passivePerception": 11,
+      "description": "A large hybrid creature fashioned by Simic Combine biomancers. Each specimen has one major and one minor adaptation.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Traits": "Amphibious. The krasis can breathe air and water.",
+        "Actions": "Multiattack. Make one Bite attack and one Claws attack.\nBite. Melee weapon attack, +7 to hit, reach 5 ft., one creature. A hit deals 17 (2d12 + 4) piercing damage.\nClaws. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 17 (2d12 + 4) slashing damage.",
+        "Creating a krasis": "Roll a d8 or choose once on each table. Apply one major and one minor adaptation to this base stat block before running the encounter.",
+        "Major adaptations": "1. Acidic Skin. A creature that touches the krasis or hits it with a melee attack from within 5 ft. takes 4 (1d8) acid damage.\n2. Armored Hide. Natural plates or scales increase AC by 4, to 19.\n3. Bioluminescent Markings. Runelike markings grant advantage on saves against spells and other magical effects.\n4. Flight. Wings provide a flying speed equal to its walking speed (40 ft.).\n5. Grabber. A creature hit by Claws is grappled by a specialized appendage (escape DC 15). The krasis can grapple only one creature this way at a time.\n6. Hypnotic Display (Recharge 5–6). As an action, surround the krasis with shifting shapes and colors. Each creature within 15 ft. that can see it must make a DC 14 Wisdom save. On a failure, the creature is stunned for 1 minute. It can repeat the save at the end of each of its turns to end the effect. A successful save grants immunity to Hypnotic Display from any krasis for 24 hours.\n7. Venomous Sting. A creature hit by Claws must pass a DC 14 Constitution save or become poisoned for 1 minute. It is also paralyzed while poisoned by this sting. It can repeat the save at the end of each of its turns to end the effect.\n8. Regeneration. At the start of each of its turns, the krasis regains 5 HP if it has at least 1 HP.",
+        "Minor adaptations": "1. Amorphous Structure. The krasis can pass through a 1-inch gap without squeezing.\n2. Aquatic. A swimming speed equal to its walking speed (40 ft.).\n3. Climbing Speed. A climbing speed equal to its walking speed (40 ft.).\n4. Cryptic Skin. The krasis can shift its color to blend in. It has advantage on Dexterity (Stealth) checks to hide.\n5. Heightened Awareness. Enhanced sensory organs prevent the krasis from being surprised.\n6. Ink Cloud (Recharges after a Short or Long Rest). While underwater, the krasis can spend a bonus action to release ink and then move up to its speed. The ink stays in a 20-ft.-radius sphere centered on a point in the space the krasis occupied before moving. The sphere is heavily obscured until the ink disperses after 1 minute or a strong current clears it.\n7. Leaping Legs. The krasis can long jump 30 ft. and high jump 20 ft., with or without a running start.\n8. Stabilizing Legs. Extra crablike legs grant advantage on Strength and Dexterity saves against effects that would knock the krasis prone.",
+        "Languages": "None.",
+        "Printed source": "Guildmasters’ Guide to Ravnica, p. 211. Shared adaptation rules on pp. 210–212."
+      }
+    }
+  },
+  {
+    "name": "Category 3 Krasis",
+    "statBlock": {
+      "name": "Category 3 Krasis",
+      "publication": "Guildmasters’ Guide to Ravnica",
+      "edition": "2014 fifth edition",
+      "printedPage": 212,
+      "classification": "Huge monstrosity, unaligned",
+      "ac": 16,
+      "hp": 287,
+      "hitDice": "25d12 + 125",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 23
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 2
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "16",
+      "xp": 15000,
+      "passivePerception": 11,
+      "description": "A huge hybrid creature fashioned by Simic Combine biomancers. Each specimen has one major and one minor adaptation.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Traits": "Amphibious. The krasis can breathe air and water.",
+        "Actions": "Multiattack. Make one Bite attack, one Claws attack, and one Tail attack.\nBite. Melee weapon attack, +11 to hit, reach 10 ft., one creature. A hit deals 27 (6d6 + 6) piercing damage.\nClaws. Melee weapon attack, +11 to hit, reach 10 ft., one target. A hit deals 22 (3d10 + 6) slashing damage.\nTail. Melee weapon attack, +11 to hit, reach 15 ft., one target. A hit deals 33 (6d8 + 6) bludgeoning damage. A creature hit must make a DC 19 Strength save or fall prone.",
+        "Creating a krasis": "Roll a d8 or choose once on each table. Apply one major and one minor adaptation to this base stat block before running the encounter.",
+        "Major adaptations": "1. Acidic Skin. A creature that touches the krasis or hits it with a melee attack from within 5 ft. takes 6 (1d12) acid damage.\n2. Armored Hide. Natural plates or scales increase AC by 4, to 20.\n3. Bioluminescent Markings. Runelike markings grant advantage on saves against spells and other magical effects.\n4. Flight. Wings provide a flying speed equal to its walking speed (40 ft.).\n5. Grabber. A creature hit by Claws is grappled by a specialized appendage (escape DC 19). The krasis can grapple only one creature this way at a time.\n6. Hypnotic Display (Recharge 5–6). As an action, surround the krasis with shifting shapes and colors. Each creature within 15 ft. that can see it must make a DC 18 Wisdom save. On a failure, the creature is stunned for 1 minute. It can repeat the save at the end of each of its turns to end the effect. A successful save grants immunity to Hypnotic Display from any krasis for 24 hours.\n7. Venomous Sting. A creature hit by Claws must pass a DC 18 Constitution save or become poisoned for 1 minute. It is also paralyzed while poisoned by this sting. It can repeat the save at the end of each of its turns to end the effect.\n8. Regeneration. At the start of each of its turns, the krasis regains 10 HP if it has at least 1 HP.",
+        "Minor adaptations": "1. Amorphous Structure. The krasis can pass through a 1-inch gap without squeezing.\n2. Aquatic. A swimming speed equal to its walking speed (40 ft.).\n3. Climbing Speed. A climbing speed equal to its walking speed (40 ft.).\n4. Cryptic Skin. The krasis can shift its color to blend in. It has advantage on Dexterity (Stealth) checks to hide.\n5. Heightened Awareness. Enhanced sensory organs prevent the krasis from being surprised.\n6. Ink Cloud (Recharges after a Short or Long Rest). While underwater, the krasis can spend a bonus action to release ink and then move up to its speed. The ink stays in a 20-ft.-radius sphere centered on a point in the space the krasis occupied before moving. The sphere is heavily obscured until the ink disperses after 1 minute or a strong current clears it.\n7. Leaping Legs. The krasis can long jump 40 ft. and high jump 30 ft., with or without a running start.\n8. Stabilizing Legs. Extra crablike legs grant advantage on Strength and Dexterity saves against effects that would knock the krasis prone.",
+        "Languages": "None.",
+        "Printed source": "Guildmasters’ Guide to Ravnica, p. 212. Shared adaptation rules on pp. 210–212."
+      }
+    }
+  }
+]

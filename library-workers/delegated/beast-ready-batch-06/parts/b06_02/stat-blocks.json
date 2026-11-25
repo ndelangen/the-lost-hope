@@ -1,0 +1,423 @@
+[
+  {
+    "name": "Crocodile",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 12,
+    "hp": 19,
+    "hitDice": "3d10 + 3",
+    "speed": "20 ft., swim 30 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Natural armor. Stealth +2. Passive Perception 10. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A heavy crocodile with a tapered snout, interlocking teeth, dark olive-brown back scutes, and a long armored tail.",
+    "habitats": [
+      "Swamp",
+      "Urban"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0, November 2018, p. 122. ",
+      "Traits": "Hold Breath. The crocodile can hold its breath for 15 minutes.",
+      "Actions": "Bite. Melee weapon attack, +4 to hit, 5-ft. reach, one creature. On a hit, deal 7 (1d10 + 2) piercing damage and grapple the target (escape DC 12). The target is restrained during the grapple, and the crocodile cannot Bite another target until the grapple ends."
+    }
+  },
+  {
+    "name": "Elk",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 10,
+    "hp": 13,
+    "hitDice": "2d10 + 2",
+    "speed": "50 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Passive Perception 10. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A tall, heavy-bodied deer with a shaggy brown neck, pale rump, and long legs. A bull carries branching antlers.",
+    "habitats": [
+      "Forest",
+      "Grassland",
+      "Hill"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0, November 2018, p. 125. ",
+      "Traits": "Charge. If the elk moves at least 20 ft. straight toward a target and hits it with Ram on the same turn, it deals 7 (2d6) extra damage. A creature hit must pass a DC 13 Strength save or fall prone.",
+      "Actions": "Ram. Melee weapon attack, +5 to hit, 5-ft. reach, one target. On a hit, deal 6 (1d6 + 3) bludgeoning damage.\nHooves. Melee weapon attack, +5 to hit, 5-ft. reach, one prone creature. On a hit, deal 8 (2d4 + 3) bludgeoning damage."
+    }
+  },
+  {
+    "name": "Lion",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 12,
+    "hp": 26,
+    "hitDice": "4d10 + 4",
+    "speed": "50 ft.",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 8,
+        "modifier": -1
+      }
+    },
+    "otherStatistics": "Perception +3. Stealth +6. Passive Perception 13. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A large tawny cat with broad paws and a long tufted tail. The portrait depicts a male with a shaggy brown mane.",
+    "habitats": [
+      "Desert",
+      "Grassland",
+      "Hill",
+      "Mountain"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0, November 2018, p. 142. ",
+      "Traits": "Keen Smell. The lion has advantage on Wisdom (Perception) checks based on smell.\nPack Tactics. The lion has advantage on an attack roll against a creature if a non-incapacitated ally is within 5 ft. of that creature.\nPounce. If the lion moves at least 20 ft. straight toward a creature and hits it with Claw on the same turn, the target makes a DC 13 Strength save or falls prone. If it is prone, the lion can Bite it once as a bonus action.\nRunning Leap. With a 10-ft. running start, the lion can make a long jump of up to 25 ft.",
+      "Actions": "Bite. Melee weapon attack, +5 to hit, 5-ft. reach, one target. On a hit, deal 7 (1d8 + 3) piercing damage.\nClaw. Melee weapon attack, +5 to hit, 5-ft. reach, one target. On a hit, deal 6 (1d6 + 3) slashing damage."
+    }
+  },
+  {
+    "name": "Mammoth",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Huge Beast, unaligned",
+    "ac": 13,
+    "hp": 126,
+    "hitDice": "11d12 + 55",
+    "speed": "40 ft.",
+    "cr": "6",
+    "xp": 2300,
+    "abilities": {
+      "Str": {
+        "score": 24,
+        "modifier": 7
+      },
+      "Dex": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Con": {
+        "score": 21,
+        "modifier": 5
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Natural armor. Passive Perception 10. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A massive woolly elephant with a domed head, shaggy russet fur, a trunk, and two sweeping ivory tusks.",
+    "habitats": [
+      "Arctic"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0, November 2018, p. 143. ",
+      "Traits": "Trampling Charge. If the mammoth moves at least 20 ft. straight toward a creature and hits it with Gore on the same turn, the creature makes a DC 18 Strength save or falls prone. If it is prone, the mammoth can Stomp it once as a bonus action.",
+      "Actions": "Gore. Melee weapon attack, +10 to hit, 10-ft. reach, one target. On a hit, deal 25 (4d8 + 7) piercing damage.\nStomp. Melee weapon attack, +10 to hit, 5-ft. reach, one prone creature. On a hit, deal 29 (4d10 + 7) bludgeoning damage."
+    }
+  },
+  {
+    "name": "Panther",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 12,
+    "hp": 13,
+    "hitDice": "3d8",
+    "speed": "50 ft., climb 40 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Perception +4. Stealth +6. Passive Perception 14. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A black-coated climbing cat with a long tail, rounded ears, amber eyes, and faint rosettes on its flanks.",
+    "habitats": [
+      "Forest",
+      "Grassland",
+      "Hill"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0, November 2018, p. 148. ",
+      "Traits": "Keen Smell. The panther has advantage on Wisdom (Perception) checks based on smell.\nPounce. If the panther moves at least 20 ft. straight toward a creature and hits it with Claw on the same turn, the target makes a DC 12 Strength save or falls prone. If it is prone, the panther can Bite it once as a bonus action.",
+      "Actions": "Bite. Melee weapon attack, +4 to hit, 5-ft. reach, one target. On a hit, deal 5 (1d6 + 2) piercing damage.\nClaw. Melee weapon attack, +4 to hit, 5-ft. reach, one target. On a hit, deal 4 (1d4 + 2) slashing damage."
+    }
+  },
+  {
+    "name": "Saber-­‐Toothed Tiger",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 12,
+    "hp": 52,
+    "hitDice": "7d10 + 14",
+    "speed": "40 ft.",
+    "cr": "2",
+    "xp": 450,
+    "abilities": {
+      "Str": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 8,
+        "modifier": -1
+      }
+    },
+    "otherStatistics": "Perception +3. Stealth +6. Passive Perception 13. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A muscular tawny cat with long upper fangs, wide paws, a short tail and a few dark spots across its back.",
+    "habitats": [
+      "Arctic",
+      "Mountain"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0, November 2018, p. 151. ",
+      "Traits": "Keen Smell. The tiger has advantage on Wisdom (Perception) checks based on smell.\nPounce. If the tiger moves at least 20 ft. straight toward a creature and hits it with Claw on the same turn, the target makes a DC 14 Strength save or falls prone. If it is prone, the tiger can Bite it once as a bonus action.",
+      "Actions": "Bite. Melee weapon attack, +6 to hit, 5-ft. reach, one target. On a hit, deal 10 (1d10 + 5) piercing damage.\nClaw. Melee weapon attack, +6 to hit, 5-ft. reach, one target. On a hit, deal 12 (2d6 + 5) slashing damage."
+    }
+  },
+  {
+    "name": "Weasel",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 13,
+    "hp": 1,
+    "hitDice": "1d4 − 1",
+    "speed": "30 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Perception +3. Stealth +5. Passive Perception 13. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A slim brown weasel with a white throat and belly, short legs, and a narrow whiskered face.",
+    "habitats": [
+      "Forest",
+      "Grassland",
+      "Hill"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0, November 2018, p. 158. ",
+      "Traits": "Keen Hearing and Smell. The weasel has advantage on Wisdom (Perception) checks based on hearing or smell.",
+      "Actions": "Bite. Melee weapon attack, +5 to hit, 5-ft. reach, one target. On a hit, deal 1 piercing damage."
+    }
+  },
+  {
+    "name": "Wolf",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 13,
+    "hp": 11,
+    "hitDice": "2d8 + 2",
+    "speed": "40 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Natural armor. Perception +3. Stealth +4. Passive Perception 13. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A gray-brown wolf with a deep chest, long legs, pointed ears, and a bushy tail.",
+    "habitats": [
+      "Forest",
+      "Grassland",
+      "Hill"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0, November 2018, p. 159. ",
+      "Traits": "Keen Hearing and Smell. The wolf has advantage on Wisdom (Perception) checks based on hearing or smell.\nPack Tactics. The wolf has advantage on an attack roll against a creature if a non-incapacitated ally is within 5 ft. of that creature.",
+      "Actions": "Bite. Melee weapon attack, +4 to hit, 5-ft. reach, one target. On a hit, deal 7 (2d4 + 2) piercing damage. A creature hit must pass a DC 11 Strength save or fall prone."
+    }
+  }
+]

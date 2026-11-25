@@ -5,6 +5,7 @@ export default createEvent({
   name: 'Shadowy tentacles grab the dwarf',
   day: 1,
   location: refs.locations.the_nest,
+  illustrations: ['/assets/scenes/shadowy-tentacles-grab-the-dwarf.png'],
   mark: { type: 'icon', name: 'gi/GiSuckeredTentacle' },
   notes: [
     [

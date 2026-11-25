@@ -1,0 +1,428 @@
+[
+  {
+    "name": "Harmonium Peacekeeper",
+    "statBlock": {
+      "name": "Harmonium Peacekeeper",
+      "publication": "Morte's Planar Parade",
+      "edition": "2014 fifth edition",
+      "printedPage": 59,
+      "classification": "Small or Medium humanoid, any alignment",
+      "ac": 18,
+      "hp": 45,
+      "hitDice": "7d8 + 14",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 14,
+      "description": "A Sigil patrol officer in red plate armor. The jaws of its electrified polearm hold suspects in place and block an escape by teleportation.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 4
+      },
+      "sections": {
+        "Armor": "Plate armor.",
+        "Languages": "Common and one other language.",
+        "Traits": "Pack Tactics. The peacekeeper attacks with advantage if one of its allies is within 5 ft. of the target and that ally is not incapacitated.",
+        "Actions": "Electrified Mancatcher. Melee weapon attack, +5 to hit, reach 10 ft., one target. On a hit, deal 8 (1d10 + 3) piercing plus 4 (1d8) lightning damage. A Large or smaller creature hit by the attack is grappled (escape DC 13) and restrained while the grapple lasts. The target cannot teleport and takes 8 (1d10 + 3) lightning damage at the start of each of its turns until free. The peacekeeper cannot attack with the mancatcher while holding that target.",
+        "Faction": "The Harmonium enforces order through force. A Harmonium Captain leads peacekeeper patrols through Sigil.",
+        "Printed source": "Morte's Planar Parade, p. 59."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Harmonium Captain",
+          "terms": [
+            "Harmonium Captain"
+          ],
+          "printing": {
+            "publication": "Morte's Planar Parade",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#harmonium%20captain_mpp"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Heralds of Dust Remnant",
+    "statBlock": {
+      "name": "Heralds of Dust Remnant",
+      "publication": "Morte's Planar Parade",
+      "edition": "2014 fifth edition",
+      "printedPage": 59,
+      "classification": "Small or Medium humanoid, any alignment",
+      "ac": 12,
+      "hp": 45,
+      "hitDice": "7d8 + 14",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 8
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 17
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 14,
+      "description": "A Duster left between life and undeath after a failed ritual. Remnants carry messages and gather information for the Heralds of Dust.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Arcana": 5,
+        "Perception": 4,
+        "Stealth": 6
+      },
+      "sections": {
+        "Languages": "Common and three other languages.",
+        "Damage resistances": "Necrotic.",
+        "Actions": "Multiattack. Make two Necrotic Surge attacks.\nNecrotic Surge. Melee or ranged spell attack, +5 to hit, reach 5 ft. or range 120 ft., one target. A hit deals 14 (2d10 + 3) necrotic damage.",
+        "Spellcasting": "As an action, cast one listed spell.\nIntelligence, save DC 13. The remnant casts one of the following spells without material components. It can cast Mage Armor, Mage Hand, and Prestidigitation at will. Bane, Dimension Door, and Web are each available once per day.",
+        "Bonus actions": "Phase (2/Day). The remnant becomes partly incorporeal while it maintains concentration as though concentrating on a spell. It resists bludgeoning, piercing, and slashing damage until that concentration ends.",
+        "Printed source": "Morte's Planar Parade, p. 59."
+      }
+    }
+  },
+  {
+    "name": "Hexton Modron",
+    "statBlock": {
+      "name": "Hexton Modron",
+      "publication": "Morte's Planar Parade",
+      "edition": "2014 fifth edition",
+      "printedPage": 37,
+      "classification": "Huge construct, typically lawful neutral",
+      "ac": 17,
+      "hp": 209,
+      "hitDice": "22d12 + 66",
+      "speed": "40 ft., fly 40 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 19
+        },
+        "Wis": {
+          "score": 17
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "13",
+      "xp": 10000,
+      "passivePerception": 23,
+      "description": "A six-tentacled commander from Mechanus. Hextons lead modron forces in the field, including contingents of the Great Modron March.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Int": 9,
+        "Wis": 8
+      },
+      "skills": {
+        "Perception": 13
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "All languages, telepathy 120 ft.",
+        "Damage resistances": "Lightning, psychic.",
+        "Condition immunities": "Charmed, frightened.",
+        "Traits": "Axiomatic Mind. The hexton cannot be compelled to disobey its instructions or act against its nature.\nCombat Ready. Roll initiative with advantage.\nDisintegration. On death, the hexton turns to dust. It leaves behind everything it carried.\nLegendary Resistance (4/Day). The hexton can turn a failed saving throw into a success.",
+        "Actions": "Multiattack. Make one Pincer attack and two Tentacle attacks.\nPincer. Melee weapon attack, +9 to hit, reach 10 ft., one target. Deal 13 (2d8 + 4) bludgeoning plus 10 (3d6) force damage on a hit. A creature hit must pass a DC 17 Constitution save or be incapacitated through the end of its next turn.\nTentacle. Melee weapon attack, +9 to hit, reach 10 ft., one target. Deal 15 (2d10 + 4) piercing damage on a hit. A Medium or smaller creature hit is also grappled (escape DC 14). The hexton has six tentacles, each able to hold one creature. A tentacle holding a creature cannot attack another target.",
+        "Spellcasting": "As an action, cast one listed spell.\nIntelligence, save DC 17. No material components. At will, cast Detect Magic, Dispel Magic, or Mending. Mending takes an action. Plane Shift (self only) and Protection from Evil and Good are each available once per day.",
+        "Reactions": "The hexton can take three reactions per round, with a limit of one per turn.\nCounter Magic. When a creature the hexton sees casts a spell, the hexton can interrupt it. A spell of 3rd level or lower fails automatically. To stop a spell of 4th level or higher, make an Intelligence check against DC 10 + the spell level. On a success, the spell fails and has no effect.\nLightning Rebuke. When a creature within 120 ft. damages the hexton, it can retaliate with magical lightning. The attacker makes a DC 17 Dexterity save, taking 11 (2d10) lightning damage on a failure or half on a success.",
+        "Printed source": "Morte's Planar Parade, p. 37."
+      }
+    }
+  },
+  {
+    "name": "Hound Archon",
+    "statBlock": {
+      "name": "Hound Archon",
+      "publication": "Morte's Planar Parade",
+      "edition": "2014 fifth edition",
+      "printedPage": 16,
+      "classification": "Medium celestial, typically lawful good",
+      "ac": 15,
+      "hp": 65,
+      "hitDice": "10d8 + 20",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 16,
+      "description": "A soldier of Mount Celestia that guards vulnerable communities. It can watch a settlement in the shape of a dog or wolf.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Int": 2,
+        "Wis": 4
+      },
+      "skills": {
+        "Insight": 4,
+        "Perception": 6,
+        "Stealth": 3
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "All languages.",
+        "Damage immunities": "Lightning.",
+        "Condition immunities": "Exhaustion, paralyzed.",
+        "Traits": "Aura of Menace. While the archon is not incapacitated, it can choose which creatures must make a DC 12 Wisdom save when their turns start within 20 ft. of it. A failed save leaves that creature frightened until its next turn starts. A successful save grants immunity to every archon’s Aura of Menace for 24 hours.",
+        "Actions": "Multiattack. Make two Bite attacks. In true form, one Bite can be replaced with Shining Blade.\nBite. Melee weapon attack, +6 to hit, reach 5 ft., one target. Deal 7 (1d6 + 4) piercing damage on a hit. A Large or smaller creature hit must pass a DC 14 Strength save or fall prone.\nShining Blade (true form only). Melee weapon attack, +6 to hit, reach 5 ft., one target. Deal 11 (2d6 + 4) radiant damage on a hit.\nTeleport. Choose a visible, unoccupied space within 120 ft. The archon and its worn or carried equipment teleport there.",
+        "Spellcasting": "As an action, cast one listed spell.\nCharisma. No material components. Cast Detect Evil and Good at will. Aid and Continual Flame are each available once per day.",
+        "Bonus actions": "Change Shape. The archon magically takes the form of a Medium or Large dog or wolf. It retains its statistics except for its size and the loss of Shining Blade. The archon can revert with a bonus action and reverts automatically at 0 hit points.",
+        "Archons": "Lantern Archons guide travelers through Mount Celestia, and Warden Archons watch its planar paths. Their auras share the Hound Archon’s 24-hour immunity rule.",
+        "Printed source": "Morte's Planar Parade, p. 16."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Lantern Archon",
+          "terms": [
+            "Lantern Archon",
+            "Lantern Archons"
+          ],
+          "printing": {
+            "publication": "Morte's Planar Parade",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#lantern%20archon_mpp"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Warden Archon",
+          "terms": [
+            "Warden Archon",
+            "Warden Archons"
+          ],
+          "printing": {
+            "publication": "Morte's Planar Parade",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#warden%20archon_mpp"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Kelubar Demodand",
+    "statBlock": {
+      "name": "Kelubar Demodand",
+      "publication": "Morte's Planar Parade",
+      "edition": "2014 fifth edition",
+      "printedPage": 27,
+      "classification": "Medium fiend, typically neutral evil",
+      "ac": 18,
+      "hp": 187,
+      "hitDice": "22d8 + 88",
+      "speed": "30 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 22
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "13",
+      "xp": 10000,
+      "passivePerception": 12,
+      "description": "A squat, winged bureaucrat of Carceri whose skin oozes acid. Kelubars often send Farastu Demodands to fight in their place.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 6,
+        "Wis": 7
+      },
+      "skills": {
+        "Insight": 7
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Abyssal, Demodand, telepathy 120 ft.",
+        "Damage resistances": "Cold, fire.",
+        "Damage immunities": "Acid, poison.",
+        "Condition immunities": "Paralyzed, poisoned, restrained.",
+        "Traits": "Acidic Secretions. A creature that touches the kelubar or hits it with a melee attack from within 5 ft. takes 5 (2d4) acid damage.\nBoundless Movement. Difficult terrain does not slow the kelubar, and magic cannot reduce its speed. It can spend 5 ft. of movement to end the grappled condition on itself.\nMagic Resistance. The kelubar saves with advantage against spells and other magical effects.",
+        "Actions": "Multiattack. Make two Bite attacks.\nBite. Melee weapon attack, +11 to hit, reach 5 ft., one target. Deal 11 (1d10 + 6) piercing plus 18 (4d8) acid damage on a hit.\nSpit Acid. Each creature in a 60-ft. line that is 5 ft. wide makes a DC 17 Dexterity save. On a failure, it takes 27 (6d8) acid damage. On a success, it takes half.\nSummon Demodand (1/Day). The kelubar has a 40 percent chance to summon its choice of 1d2 Farastu Demodands or one Kelubar Demodand. Each summoned demodand appears in an unoccupied space within 60 ft., acts as an ally, and cannot summon demodands. A summoned ally remains for up to 1 minute. It disappears early if it or its summoner dies, or if the summoner dismisses it as an action.",
+        "Spellcasting": "As an action, cast one listed spell.\nCharisma, save DC 17. No material components. Cast Invisibility on itself at will. Dispel Magic and Scrying are each available once per day. Scrying takes an action.",
+        "Bonus actions": "Nauseating Fog (Recharge 6). Center a magical green cloud on a point within 120 ft. The 20-ft.-radius cloud is heavily obscured and counts as difficult terrain. It lasts 1 minute or until the kelubar uses this bonus action again. A creature that starts its turn in the cloud or enters it for the first time on a turn must pass a DC 17 Constitution save or be poisoned until the end of its next turn.",
+        "Demodands": "A demodand that dies outside Carceri re-forms in Carceri after 2d20 days.",
+        "Printed source": "Morte's Planar Parade, p. 27."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Farastu Demodand",
+          "terms": [
+            "Farastu Demodand",
+            "Farastu Demodands"
+          ],
+          "printing": {
+            "publication": "Morte's Planar Parade",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#farastu%20demodand_mpp"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Kolyarut",
+    "statBlock": {
+      "name": "Kolyarut",
+      "publication": "Morte's Planar Parade",
+      "edition": "2014 fifth edition",
+      "printedPage": 34,
+      "classification": "Medium construct (inevitable), typically lawful neutral",
+      "ac": 18,
+      "hp": 297,
+      "hitDice": "35d8 + 140",
+      "speed": "50 ft., fly 35 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 25
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 19
+        },
+        "Int": {
+          "score": 25
+        },
+        "Wis": {
+          "score": 22
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "20",
+      "xp": 25000,
+      "passivePerception": 22,
+      "description": "A four-armed component of the contract-forging machine at Sigil’s Hall of Concordance. It investigates disputed facts and brings its findings back to the larger machine.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Int": 13,
+        "Wis": 12,
+        "Cha": 10
+      },
+      "skills": {
+        "History": 13,
+        "Insight": 12,
+        "Perception": 12
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "All languages.",
+        "Damage resistances": "Thunder. Also bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Charmed, exhaustion, frightened, paralyzed, poisoned, unconscious.",
+        "Traits": "Immutable Form. Spells and effects cannot change the kolyarut’s form.\nLegendary Resistance (4/Day). The kolyarut can turn a failed saving throw into a success.\nMagic Resistance. It saves with advantage against spells and other magical effects.",
+        "Actions": "Multiattack. Make four Unerring Blade attacks.\nUnerring Blade. This melee weapon attack automatically hits one target within 5 ft. for 24 force damage. Choose a rider or roll 1d6. On 1–2, Disarm makes the target drop one held item of the kolyarut’s choice. On 3–4, Imbalance prevents reactions until the kolyarut’s next turn starts. On 5–6, Push moves a Large or smaller target up to 15 ft. away.\nEdict of Blades (Recharge 5–6). Move up to the kolyarut’s speed without provoking opportunity attacks. The kolyarut can use Unerring Blade once against each creature it passes. Each hit from this movement ends all spells of 5th level or lower on the target. It also leaves the target incapacitated through the end of the kolyarut’s next turn.\nPlane Shift (3/Day). Cast Plane Shift with Intelligence and no material components. The kolyarut can use the normal spell or target a visible, unwilling creature within 60 ft. In the latter case, a failed DC 18 Charisma save sends the target to a teleportation circle in Sigil’s Hall of Concordance.",
+        "Reactions": "Parry. When an attack would hit the kolyarut, it can add 6 to its AC against that roll if it sees the attacker and is wielding a melee weapon.",
+        "Inevitables": "The Kolyarut brokers planar contracts. A Marut can pursue a party that breaks one of these agreements.",
+        "Printed source": "Morte's Planar Parade, p. 34."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Marut",
+          "terms": [
+            "Marut"
+          ],
+          "printing": {
+            "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#marut_mpmm"
+          }
+        }
+      ]
+    }
+  }
+]

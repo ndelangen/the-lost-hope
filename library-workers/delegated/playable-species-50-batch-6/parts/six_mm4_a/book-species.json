@@ -1,0 +1,63 @@
+[
+  {
+    "name": "Briarvex",
+    "publication": "Monster Manual IV (2006)",
+    "edition": "3.5 edition",
+    "kind": "species",
+    "traits": [
+      "Large plant with 8 racial d8 Hit Dice, 30-ft. land speed, low-light vision, +10 natural armor, and 10-ft. space and reach. It has plant immunities, DR 5/slashing and vulnerability to fire. Common and Sylvan.",
+      "The briarvex moves freely through undergrowth, including magically altered thorns and briars. Its racial Hide bonus in forested areas is +16.",
+      "Two spiked fists deal piercing and bludgeoning damage. A hit embeds thorns. A swift action drives the thorns into one target within 100 ft. for 3d6 piercing damage. The briarvex needs line of effect, damage reduction applies and the target can spend a standard action to remove the thorns.",
+      "Its at-will supernatural entangle works for one round in a 60-ft. radius centered on itself at caster level 8. The printed Reflex DC 18 is Constitution-based. A briarvex ignores its own effect.",
+      "Druid is its favored class. The book lists level adjustment +4 and says briarvexes are generally unsuitable as player characters. Eight racial Hit Dice plus that adjustment would give a classless ECL of 12 if a DM allows an exception."
+    ]
+  },
+  {
+    "name": "Nagatha",
+    "publication": "Monster Manual IV (2006)",
+    "edition": "3.5 edition",
+    "kind": "species",
+    "traits": [
+      "Medium monstrous humanoid with 8 racial d8 Hit Dice. Its land and burrow speeds are both 10 ft. It is blind and uses blindsight within 60 ft., with immunity to gaze attacks, illusions and other visual effects.",
+      "Viper’s Speed raises land speed to 50 ft. when it takes two move actions to move or uses a full-round run. This supports a 100-ft. double move or a 200-ft. run on open ground.",
+      "Its two heavy claws are primary natural weapons and its bite delivers Wisdom-damaging poison. Fused bone claws make wielding manufactured weapons nearly impossible.",
+      "The book lists +2 LA and ECL 10 before class levels. It describes classed nagathas as fighters or barbarians and rules out spellcasting classes. It gives Abyssal and Common."
+    ]
+  },
+  {
+    "name": "Corruptor of Fate",
+    "publication": "Monster Manual IV (2006)",
+    "edition": "3.5 edition",
+    "kind": "species",
+    "traits": [
+      "Medium evil extraplanar outsider classified as a yugoloth. Seven racial d8 Hit Dice and +4 LA give base ECL 11. It favors rogue. Land speed 30 ft., darkvision 60 ft., telepathy 100 ft. and Abyssal, Draconic and Infernal.",
+      "Immune to acid, poison, energy drain, necromantic effects and negative-energy effects. Resist cold, electricity and fire 10. Spell resistance is 14 + character class levels.",
+      "Unluck forces affected attackers to roll twice for attacks and damage against the corruptor and use the lower result. The source treats it as a mind-affecting necromantic effect.",
+      "Its at-will touch or weapon contact can curse a creature (Constitution-based Will save, undead immune), forcing a 50% chance of taking no action each turn. Its 30-ft. gaze deals 1d6 damage and weakens attacks, skills and saves for 1 minute if the target fails a Charisma-based Fortitude save."
+    ]
+  },
+  {
+    "name": "Windblade",
+    "publication": "Monster Manual IV (2006)",
+    "edition": "3.5 edition",
+    "kind": "species",
+    "traits": [
+      "Windrazor (Small): Str +2, Dex +4, Int −2, Wis +2, Cha −4. Land and climb 10 ft. each, fly 40 ft. with good maneuverability. Two outsider d8 Hit Dice, BAB +2, base saves +3 each. Class skills are Climb, Knowledge (the planes), Listen, Move Silently, Spot, Survival and Tumble. At 2 racial HD it has 5 × (8 + Int modifier, minimum 1) skill points and one feat. Improved Critical (claw and bite) are bonus feats. Its favored class is ranger. LA +2 gives base ECL 4.",
+      "Windscythe (Large): Str +10, Dex +2, Con +4, Int −2, Cha −2. Land and climb 10 ft. each in the character package, fly 60 ft. with average maneuverability. Eight outsider d8 Hit Dice, BAB +8, base saves +6 each. Class skills include Windrazor’s list and Intimidate. At 8 racial HD it has 11 × (8 + Int modifier, minimum 1) skill points and three feats. Its favored class is fighter. The dedicated character package gives LA +5 (base ECL 13). Page 204 instead lists LA +3 and ECL 11. Use the dedicated package for the profile’s ECL unless the DM chooses the table reading.",
+      "Both speak Auran and Windsong, with Abyssal, Common and Undercommon as bonus languages. Both have darkvision 60 ft. and see four times as far as humans in shadowy illumination. The Windrazor has two 1d4 claws and a 1d6 bite. The Windscythe has two 1d6 claws and a 1d8 bite, and its claws threaten on 18–20 and deal triple damage on a confirmed crit.",
+      "Both rend if both claws hit one target. The printed damage is 2d4+2 for the Windrazor and 2d6+7 for the Windscythe. Fearsome Critical calls for a Charisma-based Will save from creatures within 10 ft. or they are shaken. The monster stat blocks list +8 racial and take 10 for Climb on Windrazor, and +4 natural armor on Windscythe."
+    ]
+  },
+  {
+    "name": "Varag",
+    "publication": "Monster Manual IV (2006)",
+    "edition": "3.5 edition",
+    "kind": "species",
+    "traits": [
+      "Medium goblinoid humanoid. The adult has 3 racial d8 Hit Dice and +2 LA (base ECL 5), darkvision 60 ft., scent, +3 natural armor and bonus Run and Spring Attack feats. Adult Move Silently has a +8 racial bonus and allows taking 10 even while rushed or threatened. Scent-based Survival tracking has a +4 racial bonus. Its favored class is scout.",
+      "With DM permission the racial class starts at ECL 1 and must be selected at character creation. Its first five racial levels grant 3 total HD, +2 BAB and base saves Fort +1, Ref +3, Will +1, while spreading the two points of LA over the progression. A standard class begins at racial level 6.",
+      "Racial-class progression: level 1 gives the first HD, Str +2, Int −4, +1 natural armor, darkvision and the tracking and stealth base bonuses. Level 2 adds a second HD, Dex +2, 10-ft. scent and Run. Level 3 adds Con +2, increases natural armor to +2, scent to 20 ft. and Move Silently to +8. Level 4 adds the third HD, another Dex +2 and full 30-ft. scent. Level 5 adds another Str +2, finishes natural armor at +3 and gives Spring Attack and take 10 on Move Silently.",
+      "The adult stat block prints 60-ft. land speed. The character progression gives 40 ft. and lists no later increase. Keep the chosen route explicit. Goblin is automatic in the racial class. Bonus languages are Common, Draconic, Dwarven, Infernal, Giant and Orc."
+    ]
+  }
+]

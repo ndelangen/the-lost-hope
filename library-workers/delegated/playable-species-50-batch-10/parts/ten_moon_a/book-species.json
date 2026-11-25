@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Ashborn",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2024 rules)",
+    "publication": "The Crooked Moon (2024 Player v1.1)",
+    "traits": [
+      "Avantris Entertainment's 2024 Player v1.1. Playable species traits for the 2024 fifth-edition rules. Ashborn Traits, p. 3.",
+      "Small Fiend, typically an imp-like figure with horns and a scorpion tail. Walk 30 ft. and darkvision 60 ft.",
+      "Ashen Legacy grants Minor Illusion. At character level 3, Charm Person is always prepared. Invisibility is added at level 5. Cast each leveled spell once for free per long rest or use an appropriate slot. Choose Intelligence, Wisdom, or Charisma for these spells.",
+      "Fiendish Fortune. When a noncritical attack hits you, spend a reaction to turn it into a miss. You choose a creature within 5 ft. of yourself to take force damage equal to your proficiency bonus. Recharges on a short or long rest.",
+      "Scorpion Sting. Strike unarmed with the tail using Strength or Dexterity for attack and damage. A hit deals 1d4 piercing plus that modifier. Add 1d6 poison to a hit up to proficiency bonus times. Recover one use on a short rest and all on a long rest. Poison increases to 2d6 at character level 10."
+    ]
+  },
+  {
+    "name": "Azureborn",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2024 rules)",
+    "publication": "The Crooked Moon (2024 Player v1.1)",
+    "traits": [
+      "Avantris Entertainment's 2024 Player v1.1. Playable species traits for the 2024 fifth-edition rules. Azureborn Traits, p. 4.",
+      "Medium Humanoid with avian features, feathers, and wings along the arms. Walk 30 ft. and fly at walking speed. Darkvision 60 ft.",
+      "Azure Legacy. Learn Guidance. At character level 3, Augury is always prepared and you can cast it once per long rest with no slot or material components. Appropriate slots can cast it as usual. Choose Intelligence, Wisdom, or Charisma.",
+      "Glimpse Fate. If you roll initiative while unsurprised, pick visible creatures equal in number to your proficiency bonus. They have advantage on their initiative rolls. Recharges on a short or long rest.",
+      "Winds of Magic. Bonus action. Increase fly speed by 10 ft. through the end of the turn and Dash. Uses per long rest equal to your proficiency bonus."
+    ]
+  },
+  {
+    "name": "Bogborn",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2024 rules)",
+    "publication": "The Crooked Moon (2024 Player v1.1)",
+    "traits": [
+      "Avantris Entertainment's 2024 Player v1.1. Playable species traits for the 2024 fifth-edition rules. Bogborn Traits, p. 5.",
+      "Medium Giant with a troll-like build and prominent nose and tusks. Walk 30 ft. and darkvision 60 ft.",
+      "Bog Bulk. Roll with advantage on ability checks to end the grappled condition. For carrying capacity use one size larger. Keen Senses grants Perception or Survival proficiency.",
+      "Guiding Bond. Bonus action. Mark one visible creature within 60 ft. for 1 minute. Only you see the mark. Add 1d4 to your ability checks and attack rolls against that creature. Uses per long rest equal to your proficiency bonus.",
+      "Regeneration. Bonus action. Spend and roll one Hit Point Die to recover that roll plus your Constitution modifier, at least 1 HP. Acid or fire damage stops this trait until the end of your next turn."
+    ]
+  },
+  {
+    "name": "Curseborn",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2024 rules)",
+    "publication": "The Crooked Moon (2024 Player v1.1)",
+    "traits": [
+      "Avantris Entertainment's 2024 Player v1.1. Playable species traits for the 2024 fifth-edition rules. Curseborn Traits, p. 6.",
+      "Medium Humanoid with wolf fur, teeth, and claws. Walk 35 ft. and darkvision 60 ft. Choose proficiency in Investigation, Perception, or Survival.",
+      "Cursed Claws. Strike unarmed using Strength or Dexterity for attack and damage. A hit deals 1d6 slashing plus that modifier. You may curse a creature you hit with the claws. It gives off fog and has disadvantage on D20 Tests until your next turn begins. Uses per long rest equal to your proficiency bonus.",
+      "Grey Balance. React to your failed save by succeeding instead. You then have disadvantage on D20 Tests through the end of your next turn. Recharges on a long rest."
+    ]
+  },
+  {
+    "name": "Deepborn",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2024 rules)",
+    "publication": "The Crooked Moon (2024 Player v1.1)",
+    "traits": [
+      "Avantris Entertainment's 2024 Player v1.1. Playable species traits for the 2024 fifth-edition rules. Deepborn Traits, p. 7.",
+      "Medium Aberration with fishlike features and possible traits from other sea creatures. Walk 30 ft. and swim at walking speed. Breathe in air or water and see with darkvision out to 60 ft.",
+      "Eldritch Gibbering. Learn Deep Speech. As a Magic action, choose creatures in a 30-ft. emanation from yourself. Each makes a Wisdom save against DC 8 + proficiency bonus + your chosen Intelligence, Wisdom, or Charisma modifier. Each failed save calls for its own d6 roll. On 1–2 it has disadvantage on attack rolls, 3–4 sets its speed to 0, and 5–6 prevents reactions. These effects last until your next turn begins. Once any target fails, the trait recharges on a short or long rest.",
+      "Endless Hunger. Bonus action. Until your next turn begins, you know the location of creatures within 60 ft. other than Constructs or Undead. Attack rolls against the detected creatures cannot have disadvantage. Recharges on a short or long rest."
+    ]
+  }
+]

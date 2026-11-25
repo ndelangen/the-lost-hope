@@ -1,0 +1,390 @@
+[
+  {
+    "name": "Squid",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "classification": "Medium Animal (Aquatic), always neutral",
+    "ac": 16,
+    "hp": 13,
+    "hitDice": "3d8",
+    "initiative": 3,
+    "speed": "Swim 60 ft. (12 squares)",
+    "cr": "1",
+    "abilities": {
+      "Str": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 2,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Initiative +3. AC is 16 (+3 Dex, +3 natural), touch 13, flat-footed 13. Space/reach 5 ft./5 ft.. Base attack +2. Grapple +8. Fortitude +3, Reflex +6, Will +2.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A slender reddish-brown squid with a tapered finned mantle and long curling arms and tentacles.",
+    "habitats": [
+      "Temperate aquatic"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersAnimals.rtf, Squid. https://www.d20srd.org/srd/monsters/squid.htm",
+      "Attack": "Arms +4 melee, 0 damage.",
+      "Full attack": "Arms +4 melee for 0 damage and Bite −1 melee for 1d6 + 1 damage.",
+      "Special qualities": "Low-light vision. See twice as far as a human in dim illumination while retaining color and detail.\nAquatic. It breathes water and has no ability to breathe air.\nInk Cloud (Ex). Once per minute as a free action, release a 10-ft. cube of ink. Vision inside is obscured and the cloud gives total concealment. The entry gives no duration for the cloud.\nJet (Ex). Once per round as a full-round action, move backward in a straight line at speed 240 ft. without provoking attacks of opportunity.",
+      "Skills and feats": "Skills. Listen +7, Spot +7, Swim +10. The squid has a +8 racial bonus on Swim checks for a special action or to avoid a hazard. It can take 10 while distracted or endangered, and can run when swimming in a straight line.\nFeats. Alertness, Endurance.",
+      "Encounter ecology": "Environment. Temperate aquatic. Organization. Solitary or school (6–11). Squid are aggressive free-swimming mollusks. Ink helps a squid escape a losing fight. Treasure none. Advancement. 4–6 HD (Medium), 7–11 HD (Large). Level adjustment none listed.",
+      "Special attacks": "Improved Grab (Ex). When Arms hits an opponent of any size, the squid can start a grapple as a free action with no touch attack or attack of opportunity. A successful grapple check establishes the hold and automatically deals Bite damage. The listed grapple +8 includes its +4 racial bonus."
+    }
+  },
+  {
+    "name": "Tiger",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "classification": "Large Animal, always neutral",
+    "ac": 14,
+    "hp": 45,
+    "hitDice": "6d8 + 18",
+    "initiative": 2,
+    "speed": "40 ft. (8 squares)",
+    "cr": "4",
+    "abilities": {
+      "Str": {
+        "score": 23,
+        "modifier": 6
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Initiative +2. AC is 14 (−1 size, +2 Dex, +3 natural), touch 11, flat-footed 12. Space/reach 10 ft./5 ft.. Base attack +4. Grapple +14. Fortitude +8, Reflex +7, Will +3.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A broad-shouldered tiger with tawny orange fur, dark stripes, pale cheeks and a long banded tail.",
+    "habitats": [
+      "Warm forests"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersAnimals.rtf, Tiger. https://www.d20srd.org/srd/monsters/tiger.htm",
+      "Attack": "Claw +9 melee, 1d8 + 6 damage.",
+      "Full attack": "Two Claws +9 melee for 1d8 + 6 damage each and Bite +4 melee for 2d6 + 3 damage.",
+      "Special qualities": "Low-light vision. See twice as far as a human in dim illumination while retaining color and detail.\nScent. Detect opponents by smell within 30 ft., or 60 ft. upwind and 15 ft. downwind. Strong odors double those ranges and overpowering odors triple them. A move action identifies the direction of a scent. At 5 ft. or closer, pinpoint the source.",
+      "Skills and feats": "Skills. Balance +6, Hide +3, Listen +3, Move Silently +9, Spot +3, Swim +11. The racial bonus to Balance, Hide and Move Silently is +4. The racial bonus to Hide rises to +8 in tall grass or heavy undergrowth.\nFeats. Alertness, Improved Natural Weapon (bite), Improved Natural Weapon (claw).",
+      "Encounter ecology": "Environment. Warm forests. Organization. Solitary. The creature is about 9 ft. long and 400–600 lb. Treasure none. Advancement. 7–12 HD (Large), 13–18 HD (Huge). Level adjustment none listed.",
+      "Special attacks": "Improved Grab (Ex). After hitting a Medium or smaller opponent with Claw or Bite, the tiger can try to grapple as a free action with no touch attack or attack of opportunity. A successful check establishes a hold.\nPounce (Ex). On a charge, the tiger can make its full attack and two Rakes.\nRake (Ex). Each rake is +9 melee for 1d8 + 3 damage. With an ordinary grapple, the tiger must start its turn grappling to use the two extra claw attacks. Rakes ignore the usual −4 penalty for natural attacks made in a grapple."
+    }
+  },
+  {
+    "name": "Triceratops",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "classification": "Huge Animal, always neutral",
+    "ac": 18,
+    "hp": 196,
+    "hitDice": "16d8 + 124",
+    "initiative": -1,
+    "speed": "30 ft. (6 squares)",
+    "cr": "9",
+    "abilities": {
+      "Str": {
+        "score": 30,
+        "modifier": 10
+      },
+      "Dex": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Con": {
+        "score": 25,
+        "modifier": 7
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Initiative -1. AC is 18 (−2 size, −1 Dex, +11 natural), touch 7, flat-footed 18. Space/reach 15 ft./10 ft.. Base attack +12. Grapple +30. Fortitude +19, Reflex +9, Will +6.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A massive brown quadruped with a broad bony frill, two long brow horns and a smaller nose horn.",
+    "habitats": [
+      "Temperate plains"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersDi-Do.rtf, Dinosaur, Triceratops. https://www.d20srd.org/srd/monsters/dinosaur.htm#triceratops",
+      "Attack": "Gore +20 melee, 2d8 + 15 damage.",
+      "Full attack": "One Gore +20 melee, 2d8 + 15 damage.",
+      "Special qualities": "Low-light vision. See twice as far as a human in dim illumination while retaining color and detail.\nScent. Detect opponents by smell within 30 ft., or 60 ft. upwind and 15 ft. downwind. Strong odors double those ranges and overpowering odors triple them. A move action identifies the direction of a scent. At 5 ft. or closer, pinpoint the source.",
+      "Skills and feats": "Skills. Listen +13, Spot +12.\nFeats. Alertness, Great Fortitude, Toughness (four times).",
+      "Encounter ecology": "Environment. Temperate plains. Organization. Solitary, pair, or herd (5–8). It is about 25 ft. long and can weigh about 20,000 lb. The combat prose favors charging larger intruders and trampling smaller opponents. Treasure none. Advancement. 17–32 HD (Huge), 33–48 HD (Gargantuan). Level adjustment none listed.",
+      "Special attacks": "Powerful Charge (Ex). A Gore made as part of a charge deals 4d8 + 20 damage. Apply the usual charge modifiers.\nTrample (Ex). As a full-round action, move up to twice speed, or 60 ft., and run over opponents at least one size smaller. A creature is trampled when the triceratops covers its whole space. Deal 2d12 + 15 bludgeoning damage once per target per round. A trampled opponent can make an attack of opportunity at −4, or attempt a DC 28 Reflex save for half. A partially covered larger space permits the −4 attack of opportunity without trampling. If it ends in an illegal space, return it to its most recent legal position or the nearest legal position if closer."
+    }
+  },
+  {
+    "name": "Tyrannosaurus",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "classification": "Huge Animal, always neutral",
+    "ac": 14,
+    "hp": 180,
+    "hitDice": "18d8 + 99",
+    "initiative": 1,
+    "speed": "40 ft. (8 squares)",
+    "cr": "8",
+    "abilities": {
+      "Str": {
+        "score": 28,
+        "modifier": 9
+      },
+      "Dex": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 21,
+        "modifier": 5
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 10,
+        "modifier": 0
+      }
+    },
+    "otherStatistics": "Initiative +1. AC is 14 (−2 size, +1 Dex, +5 natural), touch 9, flat-footed 13. Space/reach 15 ft./10 ft.. Base attack +13. Grapple +30. Fortitude +16, Reflex +12, Will +8.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A heavy-jawed golden-brown biped with prominent teeth, small clawed forelimbs and a long balancing tail.",
+    "habitats": [
+      "Warm plains"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersDi-Do.rtf, Dinosaur, Tyrannosaurus. https://www.d20srd.org/srd/monsters/dinosaur.htm#tyrannosaurus",
+      "Attack": "Bite +20 melee, 3d6 + 13 damage.",
+      "Full attack": "One Bite +20 melee, 3d6 + 13 damage.",
+      "Special qualities": "Low-light vision. See twice as far as a human in dim illumination while retaining color and detail.\nScent. Detect opponents by smell within 30 ft., or 60 ft. upwind and 15 ft. downwind. Strong odors double those ranges and overpowering odors triple them. A move action identifies the direction of a scent. At 5 ft. or closer, pinpoint the source.",
+      "Skills and feats": "Skills. Hide −2, Listen +14, Spot +14. It has a +2 racial bonus on Listen and Spot.\nFeats. Alertness, Improved Natural Attack (bite), Run, Toughness (three times), Track.",
+      "Encounter ecology": "Environment. Warm plains. Organization. Solitary or pair. It pursues prey, closes quickly and bites with its large jaws. Treasure none. Advancement. 19–36 HD (Huge), 37–54 HD (Gargantuan). Level adjustment none listed.",
+      "Special attacks": "Improved Grab (Ex). A Bite hit against a Large or smaller opponent lets it attempt a grapple as a free action without a touch attack or attack of opportunity. A successful grapple check establishes a hold.\nSwallow Whole (Ex). On a turn it begins holding a Medium or smaller opponent in its mouth, it can make a new grapple check as if pinning that opponent. On a win it deals Bite damage and swallows the target. Each round inside the gizzard deals 2d8 + 8 bludgeoning plus 8 acid damage.",
+      "Escape and capacity": "A swallowed creature is grappled. The tyrannosaurus is free to act. A swallowed creature can use a light slashing or piercing weapon to deal 25 damage to the gizzard (AC 12) and cut free. The opening closes afterward. A successful escape from the grapple puts the target back in the mouth. The gizzard holds 2 Medium, 8 Small, 32 Tiny, or 128 Diminutive or smaller opponents."
+    }
+  },
+  {
+    "name": "War Pony",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "classification": "Medium Animal, always neutral",
+    "ac": 13,
+    "hp": 13,
+    "hitDice": "2d8 + 4",
+    "initiative": 1,
+    "speed": "40 ft. (8 squares)",
+    "cr": "1/2",
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Initiative +1. AC is 13 (+1 Dex, +2 natural), touch 11, flat-footed 12. Space/reach 5 ft./5 ft.. Base attack +1. Grapple +3. Fortitude +5, Reflex +4, Will +0.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A sturdy dark-and-white pony with a shaggy mane and tail, a saddle and a bridle.",
+    "habitats": [
+      "Temperate plains"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersAnimals.rtf, Pony, War. https://www.d20srd.org/srd/monsters/ponyWar.htm",
+      "Attack": "Hoof +3 melee, 1d3 + 2 damage.",
+      "Full attack": "Two Hooves +3 melee for 1d3 + 2 damage each.",
+      "Special qualities": "Low-light vision. See twice as far as a human in dim illumination while retaining color and detail.\nScent. Detect opponents by smell within 30 ft., or 60 ft. upwind and 15 ft. downwind. Strong odors double those ranges and overpowering odors triple them. A move action identifies the direction of a scent. At 5 ft. or closer, pinpoint the source.",
+      "Skills and feats": "Skills. Listen +5, Spot +5.\nFeats. Endurance.",
+      "Encounter ecology": "Environment. Temperate plains. Organization. Domesticated. War ponies are bred to fight while mounted and resemble light warhorses. Treasure none. Advancement. None listed. Level adjustment none listed.",
+      "Mounted combat": "The pony can fight while carrying a rider. For the rider to attack as well, use the war-trained mount Ride check, DC 10 as a free action.",
+      "Carrying capacity": "Light load up to 100 lb. Medium load 101–200 lb. Heavy load 201–300 lb. Drag limit 1,500 lb."
+    }
+  },
+  {
+    "name": "Wolf",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "classification": "Medium Animal, always neutral",
+    "ac": 14,
+    "hp": 13,
+    "hitDice": "2d8 + 4",
+    "initiative": 2,
+    "speed": "50 ft. (10 squares)",
+    "cr": "1",
+    "abilities": {
+      "Str": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Initiative +2. AC is 14 (+2 Dex, +2 natural), touch 12, flat-footed 12. Space/reach 5 ft./5 ft.. Base attack +1. Grapple +2. Fortitude +5, Reflex +5, Will +1.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A long-legged gray wolf with upright ears, a narrow muzzle, a mottled coat and a bushy tail.",
+    "habitats": [
+      "Temperate forests"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersAnimals.rtf, Wolf. https://www.d20srd.org/srd/monsters/wolf.htm",
+      "Attack": "Bite +3 melee, 1d6 + 1 damage.",
+      "Full attack": "One Bite +3 melee, 1d6 + 1 damage.",
+      "Special qualities": "Low-light vision. See twice as far as a human in dim illumination while retaining color and detail.\nScent. Detect opponents by smell within 30 ft., or 60 ft. upwind and 15 ft. downwind. Strong odors double those ranges and overpowering odors triple them. A move action identifies the direction of a scent. At 5 ft. or closer, pinpoint the source.\nWith Track, a fresh scent trail typically starts at Survival DC 10. The DC rises by 2 per hour of age, subject to odor strength and the number of creatures. Surface and visibility modifiers do not apply to scent tracking.",
+      "Skills and feats": "Skills. Hide +2, Listen +3, Move Silently +3, Spot +3, Survival +1. Add a +4 racial bonus to Survival when tracking by scent.\nFeats. Track (bonus feat), Weapon Focus (bite).",
+      "Encounter ecology": "Environment. Temperate forests. Organization. Solitary, pair, or pack (7–16). A pack may engage from the front while others circle to the flanks or rear. Treasure none. Advancement. 3 HD (Medium), 4–6 HD (Large). Level adjustment none listed.",
+      "Special attacks": "Trip (Ex). When Bite hits, the wolf can try to trip a Large or smaller opponent as a free action. Use its +1 Strength check modifier, opposed by the target’s better Strength or Dexterity modifier, with the normal size and stability adjustments. This needs no touch attack and provokes no attack of opportunity. If it wins, the target falls prone. If it loses, the opponent gets no countertrip."
+    }
+  },
+  {
+    "name": "Wolverine",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "classification": "Medium Animal, always neutral",
+    "ac": 14,
+    "hp": 28,
+    "hitDice": "3d8 + 15",
+    "initiative": 2,
+    "speed": "30 ft. (6 squares), burrow 10 ft., climb 10 ft.",
+    "cr": "2",
+    "abilities": {
+      "Str": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 19,
+        "modifier": 4
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 10,
+        "modifier": 0
+      }
+    },
+    "otherStatistics": "Initiative +2. AC is 14 (+2 Dex, +2 natural), touch 12, flat-footed 12. Space/reach 5 ft./5 ft.. Base attack +2. Grapple +4. Fortitude +7, Reflex +5, Will +2.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A stocky dark-brown wolverine with a tan band along its sides, rounded ears and short powerful legs.",
+    "habitats": [
+      "Cold forests"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersAnimals.rtf, Wolverine. https://www.d20srd.org/srd/monsters/wolverine.htm",
+      "Attack": "Claw +4 melee, 1d4 + 2 damage.",
+      "Full attack": "Two Claws +4 melee for 1d4 + 2 damage each and Bite −1 melee for 1d6 + 1 damage.",
+      "Special qualities": "Low-light vision. See twice as far as a human in dim illumination while retaining color and detail.\nScent. Detect opponents by smell within 30 ft., or 60 ft. upwind and 15 ft. downwind. Strong odors double those ranges and overpowering odors triple them. A move action identifies the direction of a scent. At 5 ft. or closer, pinpoint the source.\nWith Track, a fresh scent trail typically starts at Survival DC 10. The DC rises by 2 per hour of age, subject to odor strength and the number of creatures. Surface and visibility modifiers do not apply to scent tracking.",
+      "Skills and feats": "Skills. Climb +10, Listen +6, Spot +6. The +8 racial bonus on Climb applies, and the wolverine can take 10 even when rushed or threatened.\nFeats. Alertness, Toughness, Track (bonus feat).",
+      "Encounter ecology": "Environment. Cold forests. Organization. Solitary. The creature has powerful claws and can climb or burrow. Treasure none. Advancement. 4–5 HD (Large). Level adjustment none listed.",
+      "Special attacks": "Rage (Ex). After it takes damage in combat, the wolverine rages on its next turn. It gains +4 Strength and +4 Constitution and takes −2 AC. It keeps fighting until it or its opponent dies and cannot end the rage voluntarily.",
+      "At the table": "While raging, the printed adjustments give AC 12, grapple +6, Fortitude +9 and 6 more HP from Constitution across 3 HD. Claws become +6 melee for 1d4 + 4 each. The secondary Bite becomes +1 melee for 1d6 + 2."
+    }
+  }
+]

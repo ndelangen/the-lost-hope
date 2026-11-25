@@ -18,4 +18,5 @@ export default createEvent({
       ': a magical mace with a polished obsidian head, an ancient-bark haft, and an enchantment that returns it to its wielder after a thrown attack.',
     ],
   ],
+  illustrations: ['/assets/scenes/steve-awakens-as-a-magical-mace-of-returning.png'],
 })

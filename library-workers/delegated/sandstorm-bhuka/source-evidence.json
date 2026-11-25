@@ -1,0 +1,53 @@
+[
+  {
+    "name": "Bhuka",
+    "kind": "species",
+    "publication": "Sandstorm (2005)",
+    "edition": "3.5 edition",
+    "book": "Sandstorm",
+    "authors": [
+      "Bruce R. Cordell",
+      "Jennifer Clarke Wilkes",
+      "JD Wiker"
+    ],
+    "publisher": "Wizards of the Coast",
+    "firstPrinting": "March 2005",
+    "productCode": "620-17739-001-EN",
+    "isbn": "0-7869-3655-X",
+    "printedPages": {
+      "playableSpecies": [
+        39,
+        40,
+        41
+      ],
+      "racialTraits": 41,
+      "illustration": 40,
+      "warrior": 141,
+      "sandTravel": 18,
+      "heatEndurance": 50
+    },
+    "pdfPageOffset": 1,
+    "primaryBookScan": "",
+    "primaryBookSha256": "daf4e22892d4ad3829dbde9de7b733ffb246547bb8d7dccedc5883544d7a0c4b",
+    "officialErrataArchive": "https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP",
+    "errataFilename": null,
+    "faqFilename": "",
+    "faqSha256": "312db30e76d5342b9f9e319d66aa60d86042a25535ba7524cba3193ae0bb08c6",
+    "printedArtCredit": "Mitch Cotie, A bhuka elder, p. 40.",
+    "sourceDistinctions": [
+      "Water Sense is a Survival check for potable water within 100 ft. The DC is based on depth, and the player entry gives no action or retry limit.",
+      "Sure Feet changes the terrain cost of shallow and deep sand. Glare Resistance addresses dazzling from bright sunlight.",
+      "The separate Warrior is at p. 141. Named prestige-class NPCs on pp. 74–76 use individual statistics.",
+      "Wizards’ collected archive has no Sandstorm errata file. The official FAQ has no Bhuka entry."
+    ],
+    "entryId": "species-5e666e3d3c1c1443f887de6c",
+    "versionKey": "6578ff04ae7f50568a808d2c",
+    "slug": "bhuka",
+    "portraitSelection": "generated",
+    "portraitForm": "Akari of the Reed Well, an original Bhuka Druid",
+    "npcExamples": [
+      "Akari of the Reed Well",
+      "Taren of High Shelf"
+    ]
+  }
+]

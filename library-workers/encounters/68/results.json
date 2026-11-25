@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Hobgoblin Smokebinder",
+    "source": "https://www.dndbeyond.com/monsters/4485887-hobgoblin-smokebinder",
+    "challenge": "2",
+    "entry": "monster-2d44c7c8ef9f2e82965faeb6",
+    "version": "6e3b2439b7c223cda5cfa57e",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "slug": "hobgoblin-smokebinder",
+    "kind": "monster",
+    "type": "Humanoid",
+    "encounterStatus": "local-stat-block",
+    "generated": true,
+    "primaryPortraitSha256": "d587799634743485b1ff0c8de734fa60955639bdd225a66e34d5326d1466b19b",
+    "status": "Stat block",
+    "appearance": "A dark red, horned hobgoblin with a battered shield and curls of gray smoke drifting from its armor.",
+    "habitats": [
+      "Camp Firefield",
+      "Fortified settlements",
+      "Foggy approaches"
+    ]
+  },
+  {
+    "name": "Hobgoblin Recruit",
+    "source": "https://www.dndbeyond.com/monsters/4485886-hobgoblin-recruit",
+    "challenge": "1/2",
+    "entry": "monster-08ca07ce0c35a37bfdc6be22",
+    "version": "f6f796b3e1ac9e7660165f1d",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "slug": "hobgoblin-recruit",
+    "kind": "monster",
+    "type": "Humanoid",
+    "encounterStatus": "local-stat-block",
+    "generated": true,
+    "primaryPortraitSha256": "d9ecc193abc04cfd831e2163fc30e53cb0944a92c74b9ca96992f1d08f65601a",
+    "status": "Stat block",
+    "appearance": "A young hobgoblin in plain leather with a cloth headband, a wooden shield and a longsword.",
+    "habitats": [
+      "Camp Firefield",
+      "War camps",
+      "Training yards"
+    ]
+  }
+]

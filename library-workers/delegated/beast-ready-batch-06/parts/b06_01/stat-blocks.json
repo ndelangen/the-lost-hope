@@ -1,0 +1,367 @@
+[
+  {
+    "name": "Ape",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 12,
+    "hp": 19,
+    "hitDice": "3d8 + 6",
+    "speed": "30 ft., climb 30 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "abilities": {
+      "Str": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 6,
+        "modifier": -2
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Athletics +5. Perception +3. Passive Perception 13. No languages listed.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A broad-shouldered ape with long forearms, dark fur, a gray mantle and a bare face.",
+    "habitats": [
+      "Forest",
+      "Woodland canopy"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0 (November 2018), Chapter 12, p. 117. ",
+      "Actions": "Multiattack. Make two Fist attacks.\nFist. Melee weapon attack, +5 to hit with 5-ft. reach against one target. Hit for 6 (1d6 + 3) bludgeoning damage.\nRock. Ranged weapon attack, +5 to hit at range 25/50 ft. against one target. Hit for 6 (1d6 + 3) bludgeoning damage."
+    }
+  },
+  {
+    "name": "Axe Beak",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 11,
+    "hp": 19,
+    "hitDice": "3d10 + 3",
+    "speed": "50 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Passive Perception 10. No languages listed.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A tall flightless bird with strong running legs, blue-gray feathers and a heavy wedge-shaped beak.",
+    "habitats": [
+      "Grassland",
+      "Hills"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0 (November 2018), Chapter 12, p. 118. ",
+      "Actions": "Beak. Melee weapon attack, +4 to hit with 5-ft. reach against one target. Hit for 6 (1d8 + 2) slashing damage."
+    }
+  },
+  {
+    "name": "Baboon",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Small Beast, unaligned",
+    "ac": 12,
+    "hp": 3,
+    "hitDice": "1d6",
+    "speed": "30 ft., climb 30 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 4,
+        "modifier": -3
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Passive Perception 11. No languages listed.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "An olive-brown baboon with a long muzzle, a shaggy ruff and an arched tail.",
+    "habitats": [
+      "Forest",
+      "Grassland",
+      "Hills"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0 (November 2018), Chapter 12, p. 118. ",
+      "Traits": "Pack Tactics. The baboon has advantage on attack rolls against a creature if a non-incapacitated ally of the baboon is within 5 ft. of that creature.",
+      "Actions": "Bite. Melee weapon attack, +1 to hit with 5-ft. reach against one target. Hit for 1 (1d4 - 1) piercing damage."
+    }
+  },
+  {
+    "name": "Badger",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 10,
+    "hp": 3,
+    "hitDice": "1d4 + 1",
+    "speed": "20 ft., burrow 5 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 4,
+        "modifier": -3
+      },
+      "Dex": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Darkvision 30 ft. Passive Perception 11. No languages listed.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A stocky gray badger with black face stripes, a broad nose and long digging claws.",
+    "habitats": [
+      "Forest",
+      "Grassland",
+      "Burrows"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0 (November 2018), Chapter 12, p. 118. ",
+      "Traits": "Keen Smell. The badger has advantage on Wisdom (Perception) checks that use smell.",
+      "Actions": "Bite. Melee weapon attack, +2 to hit with 5-ft. reach against one target. Hit for 1 piercing damage."
+    }
+  },
+  {
+    "name": "Boar",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 11,
+    "hp": 11,
+    "hitDice": "2d8 + 2",
+    "speed": "40 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Natural armor. Passive Perception 9. No languages listed.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A thickset boar with dark bristles, a short tail and pale upturned tusks.",
+    "habitats": [
+      "Woodlands",
+      "Grasslands",
+      "Hills"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0 (November 2018), Chapter 12, p. 120. ",
+      "Traits": "Charge. Move at least 20 ft. straight toward a target and hit it with Tusk on the same turn. The hit deals an additional 3 (1d6) slashing damage. A creature hit in this way must pass a DC 11 Strength save or fall prone.\nRelentless. If 7 damage or fewer would drop the boar to 0 HP, it drops to 1 HP instead. This trait recharges after a short or long rest.",
+      "Actions": "Tusk. Melee weapon attack, +3 to hit with 5-ft. reach against one target. Hit for 4 (1d6 + 1) slashing damage."
+    }
+  },
+  {
+    "name": "Camel",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 9,
+    "hp": 15,
+    "hitDice": "2d10 + 4",
+    "speed": "50 ft.",
+    "cr": "1/8",
+    "xp": 25,
+    "abilities": {
+      "Str": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Passive Perception 9. No languages listed.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A sandy dromedary with one shaggy hump, a long arched neck and broad two-toed feet.",
+    "habitats": [
+      "Desert",
+      "Dry steppe"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0 (November 2018), Chapter 12, p. 121. ",
+      "Actions": "Bite. Melee weapon attack, +5 to hit with 5-ft. reach against one target. Hit for 2 (1d4) bludgeoning damage."
+    }
+  },
+  {
+    "name": "Cat",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 12,
+    "hp": 2,
+    "hitDice": "1d4",
+    "speed": "40 ft., climb 30 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Perception +3. Stealth +4. Passive Perception 13. No languages listed.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A curled brown tabby with dark stripes, a pale chin, pointed ears and a long tail wrapped around its paws.",
+    "habitats": [
+      "Settlements",
+      "Farms",
+      "Woodland edges"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0 (November 2018), Chapter 12, p. 121. ",
+      "Traits": "Keen Smell. The cat has advantage on Wisdom (Perception) checks that use smell.",
+      "Actions": "Claws. Melee weapon attack, +0 to hit with 5-ft. reach against one target. Hit for 1 slashing damage."
+    }
+  }
+]

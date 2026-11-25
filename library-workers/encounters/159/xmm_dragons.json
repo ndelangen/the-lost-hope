@@ -1,0 +1,421 @@
+[
+  {
+    "name": "Dracolich",
+    "statBlock": {
+      "name": "Dracolich",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 102,
+      "classification": "Huge or Gargantuan undead, lawful evil",
+      "ac": 20,
+      "hp": 225,
+      "hitDice": "18d12 + 108",
+      "speed": "40 ft., burrow 30 ft., fly 80 ft.",
+      "abilities": {
+        "Str": {
+          "score": 25
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 23
+        },
+        "Int": {
+          "score": 19
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 21
+        }
+      },
+      "savingThrows": {
+        "Dex": 6,
+        "Wis": 8
+      },
+      "skills": {
+        "Perception": 14,
+        "Stealth": 6
+      },
+      "cr": "17",
+      "xp": 18000,
+      "passivePerception": 24,
+      "description": "An undead dragon bound to a soul gem. If the body is destroyed, the gem can give it a new one.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+12 (22).",
+        "Senses": "Blindsight 60 ft., Darkvision 120 ft.",
+        "Languages": "Common, Draconic.",
+        "Damage immunities": "Necrotic, Poison.",
+        "Condition immunities": "Charmed, Exhaustion, Frightened, Paralyzed, Poisoned.",
+        "Traits": "Legendary Resistance (3/day, or 4/day in its lair). After failing a save, the creature can spend a use to succeed instead.\nLife Suppression. Creatures within 60 ft. of the dracolich cannot regain HP.\nMagic Resistance. The dracolich has Advantage on saves against spells and other magical effects.\nSoul Gem. If the dracolich is destroyed while its gem is on the same plane, it reforms with full HP in 1d20 days within 5 ft. of the gem. The gem is a Tiny object with AC 20 and 50 HP. Necrotic, Poison, and Psychic damage cannot harm it. At the end of every turn it returns to full HP, but it crumbles to dust at 0 HP. If the gem is destroyed, the dracolich can make a new one with an 8-hour ritual, a gem worth at least 1,000 gp, and an additional 5,000 gp that the ritual consumes.",
+        "Actions": "Multiattack. Make three Rend attacks. The dracolich can replace one with Spellcasting to cast the level 2 version of Ray of Sickness.\nRend. Melee attack, +13 to hit, reach 10 ft. A hit deals 18 (2d10 + 7) Slashing damage and 4 (1d8) Necrotic damage.\nNecrotic Breath (Recharge 5–6). Every creature in a 60-ft. Cone makes a DC 20 Constitution save. On a failure the creature takes 52 (8d12) Necrotic damage. On a success it takes half damage.\nSpellcasting. Cast one spell using Charisma (save DC 19, +11 to hit). These spells require no Material components. At will, Detect Magic and Ray of Sickness (level 2). Once per day each, Create Undead (level 8) and Finger of Death.",
+        "Legendary actions": "3 uses, or 4 in its lair. Spend one use just after another creature's turn ends. All uses return at the start of the creature's turn. It cannot use them while Incapacitated or otherwise unable to act.\nPounce. Move up to half its Speed and make one Rend attack.\nSickening Ray. Use Spellcasting to cast Ray of Sickness at level 2. This option is then unavailable until the start of the dracolich's next turn.\nTerrifying Presence. Every creature in a 30-ft. Emanation from the dracolich makes a DC 19 Wisdom save. On a failure, the creature takes 11 (2d10) Psychic damage and is Frightened until the end of its next turn. After using this option, the dracolich cannot use it again until its next turn starts.",
+        "In its lair": "20,000 XP. Legendary Resistance increases to 4/day and Legendary Actions increase to 4 uses.",
+        "Regional effects": "Sapping Mist. Pale fog makes the area within 1 mile of the lair Lightly Obscured. A creature that finishes a Long Rest in that area must pass a DC 15 Constitution save or gain 1 Exhaustion level. The dracolich and its allies are exempt from this save.\nSoul Drain. Creatures within 1 mile of the lair make Death Saving Throws with Disadvantage.\nBoth effects end immediately if the dracolich is destroyed or moves its lair. They resume if it gains a new body.",
+        "Habitats": "Any.",
+        "Treasure": "Any.",
+        "Printed source": "Monster Manual (2024), p. 102."
+      }
+    }
+  },
+  {
+    "name": "Half-Dragon",
+    "statBlock": {
+      "name": "Half-Dragon",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 163,
+      "classification": "Medium dragon, neutral",
+      "ac": 18,
+      "hp": 105,
+      "hitDice": "14d8 + 42",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "savingThrows": {
+        "Dex": 5,
+        "Wis": 5
+      },
+      "skills": {
+        "Athletics": 7,
+        "Perception": 5,
+        "Stealth": 5
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 15,
+      "description": "A magically created warrior with a breath weapon and resistance tied to its draconic origin.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+5 (15).",
+        "Senses": "Blindsight 10 ft., Darkvision 60 ft.",
+        "Languages": "Common, Draconic.",
+        "Damage resistances": "Choose the damage type from Draconic Origin.",
+        "Traits": "Draconic Origin. Choose Acid, Cold, Fire, Lightning, or Poison for the half-dragon's origin. Its resistance, Claw damage, and Dragon's Breath use this damage type.",
+        "Actions": "Multiattack. Make two Claw attacks.\nClaw. Melee attack, +7 to hit, reach 10 ft. A hit deals 6 (1d4 + 4) Slashing damage and 7 (2d6) damage of the Draconic Origin type.\nDragon's Breath (Recharge 5–6). Every creature in a 30-ft. Cone makes a DC 14 Dexterity save. On a failure the creature takes 28 (8d6) damage of the Draconic Origin type. On a success it takes half damage.",
+        "Bonus actions": "Leap. Spend 10 ft. of movement to jump up to 30 ft.",
+        "Habitats": "Any.",
+        "Treasure": "Armaments.",
+        "Printed source": "Monster Manual (2024), p. 163."
+      }
+    }
+  },
+  {
+    "name": "Juvenile Shadow Dragon",
+    "statBlock": {
+      "name": "Juvenile Shadow Dragon",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 275,
+      "classification": "Medium dragon, chaotic evil",
+      "ac": 15,
+      "hp": 45,
+      "hitDice": "6d8 + 18",
+      "speed": "30 ft., climb 30 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "savingThrows": {
+        "Dex": 4
+      },
+      "skills": {
+        "Perception": 4,
+        "Stealth": 6
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 14,
+      "description": "A young dragon that hunts in darkness and raises a slain Humanoid as a Shadow.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+4 (14).",
+        "Senses": "Blindsight 10 ft., Darkvision 60 ft.",
+        "Languages": "Common, Draconic.",
+        "Damage immunities": "Necrotic.",
+        "Damage resistances": "Conditional resistance from Living Shadow.",
+        "Traits": "Living Shadow. While in Dim Light or Darkness, the dragon resists damage other than Force, Psychic, and Radiant.\nSunlight Sensitivity. In sunlight, the dragon makes ability checks and attack rolls with Disadvantage.",
+        "Actions": "Multiattack. Make two Rend attacks.\nRend. Melee attack, +5 to hit, reach 10 ft. A hit deals 7 (1d8 + 3) Slashing damage and 3 (1d6) Necrotic damage.\nShadow Breath (Recharge 5–6). Every creature in a 30-ft. Cone makes a DC 13 Dexterity save. On a failure the creature takes 17 (5d6) Necrotic damage. On a success it takes half damage. A Humanoid this damage reduces to 0 HP dies and a Shadow rises from its corpse. The dragon controls the Shadow. The Shadow shares its Initiative count and acts immediately after it.",
+        "Bonus actions": "Shadow Stealth. Take the Hide action while in Dim Light or Darkness.",
+        "Habitats": "Shadowfell, Underdark.",
+        "Treasure": "Any.",
+        "Printed source": "Monster Manual (2024), p. 275."
+      }
+    }
+  },
+  {
+    "name": "Shadow Dragon (Huge)",
+    "statBlock": {
+      "name": "Shadow Dragon (Huge)",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 275,
+      "classification": "Huge dragon, chaotic evil",
+      "ac": 16,
+      "hp": 189,
+      "hitDice": "18d12 + 72",
+      "speed": "40 ft., climb 40 ft., fly 80 ft.",
+      "abilities": {
+        "Str": {
+          "score": 21
+        },
+        "Dex": {
+          "score": 19
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "savingThrows": {
+        "Dex": 9,
+        "Wis": 6
+      },
+      "skills": {
+        "Perception": 11,
+        "Stealth": 14
+      },
+      "cr": "13",
+      "xp": 10000,
+      "passivePerception": 21,
+      "description": "A dragon twisted by shadow magic. Its presence dims lights and weakens healing near its lair.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+14 (24).",
+        "Senses": "Blindsight 30 ft., Darkvision 120 ft.",
+        "Languages": "Common, Draconic.",
+        "Damage immunities": "Necrotic.",
+        "Damage resistances": "Conditional resistance from Living Shadow.",
+        "Traits": "Legendary Resistance (3/day, or 4/day in its lair). After failing a save, the creature can spend a use to succeed instead.\nLiving Shadow. While in Dim Light or Darkness, the dragon resists damage other than Force, Psychic, and Radiant.\nSunlight Sensitivity. In sunlight, the dragon makes ability checks and attack rolls with Disadvantage.",
+        "Actions": "Multiattack. Make three Rend attacks.\nRend. Melee attack, +10 to hit, reach 10 ft. A hit deals 12 (2d6 + 5) Slashing damage and 3 (1d6) Necrotic damage.\nShadow Breath (Recharge 5–6). Every creature in a 60-ft. Cone makes a DC 17 Dexterity save. On a failure the creature takes 35 (10d6) Necrotic damage. On a success it takes half damage. A Humanoid this damage reduces to 0 HP dies and a Shadow rises from its corpse. The dragon controls the Shadow. The Shadow shares its Initiative count and acts immediately after it.",
+        "Bonus actions": "Shadow Stealth. Take the Hide action while in Dim Light or Darkness.",
+        "Legendary actions": "3 uses, or 4 in its lair. Spend one use just after another creature's turn ends. All uses return at the start of the creature's turn. It cannot use them while Incapacitated or otherwise unable to act.\nPounce. Move up to half its Speed and make one Rend attack.\nVeil of Shadow. Use Shadow Stealth. Choose one creature the dragon can see within 10 ft. It takes 10 (3d6) Necrotic damage. This option is then unavailable until the start of the dragon's next turn.",
+        "In its lair": "11,500 XP. Legendary Resistance increases to 4/day and Legendary Actions increase to 4 uses.",
+        "Regional effects": "Negative Energy Suffusion. Within 1 mile of the lair, subtract 1d10 from the HP a creature regains from a spell.\nStifling Shadows. Within 1 mile of the lair, effects that would create Bright Light create Dim Light. Creatures in that area make Dexterity (Stealth) checks with Advantage.\nBoth effects end immediately if the dragon dies or moves its lair.",
+        "Habitats": "Shadowfell, Underdark.",
+        "Treasure": "Any.",
+        "Printed source": "Monster Manual (2024), pp. 274–275. Regional effects are on p. 274 and the stat block is on p. 275."
+      }
+    }
+  },
+  {
+    "name": "Minotaur of Baphomet",
+    "statBlock": {
+      "name": "Minotaur of Baphomet",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 215,
+      "classification": "Large monstrosity, chaotic evil",
+      "ac": 14,
+      "hp": 85,
+      "hitDice": "10d10 + 30",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "skills": {
+        "Perception": 7,
+        "Survival": 7
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 17,
+      "description": "A devotee of the Demon Lord of Beasts that stalks intruders through mazes.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+0 (10).",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Abyssal.",
+        "Actions": "Abyssal Glaive. Melee attack, +6 to hit, reach 10 ft. A hit deals 10 (1d12 + 4) Slashing damage and 10 (3d6) Necrotic damage.\nGore (Recharge 5–6). Melee attack, +6 to hit, reach 5 ft. A hit deals 18 (4d6 + 4) Piercing damage. If the target is a Large or smaller creature and the minotaur moved at least 10 ft. straight toward it just before the hit, the target takes 10 (3d6) extra Piercing damage and falls Prone.",
+        "Habitats": "Underdark.",
+        "Treasure": "Armaments.",
+        "Printed source": "Monster Manual (2024), p. 215."
+      }
+    }
+  },
+  {
+    "name": "Pixie Wonderbringer",
+    "statBlock": {
+      "name": "Pixie Wonderbringer",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 244,
+      "classification": "Tiny fey, neutral good",
+      "ac": 15,
+      "hp": 60,
+      "hitDice": "24d4",
+      "speed": "10 ft., fly 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 2
+        },
+        "Dex": {
+          "score": 20
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "skills": {
+        "Arcana": 3,
+        "Perception": 5,
+        "Stealth": 8
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 15,
+      "description": "A winged fey whose dust and spells charm, distract, or transform intruders.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+5 (15).",
+        "Languages": "Common, Elvish, Sylvan.",
+        "Traits": "Magic Resistance. The pixie has Advantage on saves against spells and other magical effects.",
+        "Actions": "Multiattack. Make two Faerie Dust attacks.\nFaerie Dust. Melee or ranged attack, +7 to hit, reach 5 ft. or range 60 ft. A hit deals 15 (2d10 + 4) Radiant damage. The pixie chooses whether the target is Charmed or Poisoned until the start of the pixie's next turn.\nSpellcasting. Cast one spell using Charisma (save DC 15). These spells require no Material components. At will, Dancing Lights, Druidcraft, and Invisibility (self only). Once per day each, Detect Thoughts, Fly, and Major Image.",
+        "Bonus actions": "Burst of Wonder (Recharge 5–6). Cast Entangle, Polymorph, or Tasha's Hideous Laughter using Charisma (save DC 15), without Material components.",
+        "Habitats": "Forest, Feywild.",
+        "Treasure": "Arcana.",
+        "Printed source": "Monster Manual (2024), p. 244."
+      }
+    }
+  },
+  {
+    "name": "Primeval Owlbear",
+    "statBlock": {
+      "name": "Primeval Owlbear",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 234,
+      "classification": "Huge monstrosity, unaligned",
+      "ac": 16,
+      "hp": 126,
+      "hitDice": "12d12 + 48",
+      "speed": "40 ft., climb 40 ft., fly 5 ft.",
+      "abilities": {
+        "Str": {
+          "score": 22
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 19
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "savingThrows": {
+        "Con": 7,
+        "Wis": 5
+      },
+      "skills": {
+        "Perception": 8
+      },
+      "cr": "7",
+      "xp": 2900,
+      "passivePerception": 18,
+      "description": "An enormous forest owlbear that climbs, makes short flights, and lets out a thunderous screech.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+5 (15).",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "None.",
+        "Traits": "Magic Resistance. The owlbear has Advantage on saves against spells and other magical effects.",
+        "Actions": "Multiattack. Make two Ravage attacks.\nRavage. Melee attack, +9 to hit, reach 5 ft. A hit deals 15 (2d8 + 6) Slashing damage. If the target is a Huge or smaller creature and the owlbear moved at least 20 ft. straight toward it just before the hit, the target takes 9 (2d8) extra Slashing damage and falls Prone.\nScreech (Recharge 5–6). Each creature in a 30-ft. Emanation from the owlbear makes a DC 15 Constitution save. On a failure, the creature takes 27 (6d8) Thunder damage and is Incapacitated until the end of its next turn. On a success it takes half damage only.",
+        "Habitats": "Forest.",
+        "Printed source": "Monster Manual (2024), p. 234."
+      }
+    }
+  }
+]

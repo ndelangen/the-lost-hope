@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Bulette",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra for 2014 fifth edition, published on DMs Guild in Monstrous Races.",
+      "Also called a land shark. Medium Monstrosity with 30 ft. walking and burrow speeds. Darkvision reaches 60 ft. Tremorsense detects vibrations within 30 ft. when both creatures contact the same substance. It can't detect flyers or incorporeal creatures.",
+      "Unarmored AC is 13 + Dexterity modifier. A bite is a 1d8 slashing unarmed strike. The bulette has no hands, so equipment requiring grasp, including weapons and shields, is unusable.",
+      "Deadly Leap follows a jump of at least 15 ft. and takes an action. Land in an occupied space with a target no larger than the bulette and roll one unarmed strike. On a miss, land in an empty adjacent space. On a hit, the target chooses a Strength or Dexterity save against DC 8 + proficiency + Strength modifier. Failure deals the strike's damage and knocks the target prone. Success halves damage and pushes the target 5 ft. into an open space it chooses. If there is nowhere to push it, it falls prone in the landing space.",
+      "The v2 trait block lists no ability increase, language, or Standing Leap. Use normal jump distances. The design commentary mentions language and Standing Leap and discusses a different burrow speed."
+    ]
+  },
+  {
+    "name": "Cambion",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra for 2014 fifth edition, published on DMs Guild in Monstrous Races.",
+      "Medium Fiend. Add 1 to Strength and 1 to Charisma. Walking speed 30 ft., flying speed 30 ft. in light armor or unarmored, and darkvision 60 ft.",
+      "Fiend Magic uses Charisma. You know fire bolt and can cast charm person once per day from 3rd level.",
+      "Speaks, reads and writes Common, Abyssal and Infernal."
+    ]
+  },
+  {
+    "name": "Carrion Crawler",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra for 2014 fifth edition, published on DMs Guild in Monstrous Races.",
+      "Medium Monstrosity. Add 2 to Constitution. Walk and climb 30 ft. Darkvision reaches 60 ft. Spider Climb permits movement over walls, difficult surfaces and ceilings without a check. Keen Smell gives advantage on smell-based Wisdom (Perception) checks.",
+      "Unarmored AC is 11 + Dexterity modifier. The 1d8 slashing unarmed bite can use Strength or Dexterity and counts as finesse for features such as Sneak Attack. It has no hands for wielding weapons, shields or equipment that requires manipulation.",
+      "Tentacles take an action and make one unarmed strike against an adjacent creature. A hit uses the strike's damage as poison. The creature must save Constitution against DC 8 + proficiency + Constitution modifier or become both poisoned and restrained for up to 1 minute. It repeats the save at the end of each turn to end both effects. Recharge after a short or long rest.",
+      "Speaks, reads and writes Common."
+    ]
+  },
+  {
+    "name": "Chimera",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra for 2014 fifth edition, published on DMs Guild in Monstrous Races.",
+      "Medium Monstrosity. Add 1 to Strength and 1 to Constitution. Speed 30 ft. on foot and 30 ft. flying without medium or heavy armor. Darkvision reaches 60 ft. Unarmored AC is 14 + Dexterity modifier.",
+      "Claws, horns and teeth deal 1d8 bludgeoning, piercing or slashing as unarmed strikes. The chimera has no hands for weapons, shields, or other items that need a grasp. It understands, reads and writes Draconic but cannot speak or provide verbal spell components.",
+      "The default red head breathes fire in a 15-ft. cone as an action. Targets save Dexterity against DC 8 + Constitution modifier + proficiency. Damage is 2d6, rising to 3d6 at level 6, 4d6 at level 11 and 5d6 at level 16. Success halves damage. Recharge after a short or long rest.",
+      "Optional dragon heads replace the fire breath with a 2014 Dragonborn breath option. Black and Copper use acid in a 5-by-30-ft. line with a Dexterity save. Blue and Bronze use lightning in the same line with a Dexterity save. Brass uses fire in the same line with a Dexterity save.",
+      "Gold and Red use fire in a 15-ft. cone with a Dexterity save. Green uses poison in the same cone with a Constitution save. Silver and White use cold in that cone with a Constitution save. All heads remain options within this Chimera profile."
+    ]
+  }
+]

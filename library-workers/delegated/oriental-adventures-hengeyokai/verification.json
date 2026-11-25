@@ -1,0 +1,34 @@
+{
+  "baseline": "0634d6bfea5845a6321fe425b83de869bc4c41d2",
+  "temporaryCopy": true,
+  "playableSpecies": 1,
+  "edition": "3.0 edition",
+  "names": [
+    "Hengeyokai"
+  ],
+  "selectableProfiles": 13,
+  "publication": "Oriental Adventures (2001)",
+  "animalChoices": [
+    "Badger",
+    "Carp",
+    "Cat",
+    "Crab",
+    "Crane",
+    "Dog",
+    "Fox",
+    "Hare",
+    "Monkey",
+    "Raccoon Dog",
+    "Rat",
+    "Sparrow",
+    "Weasel"
+  ],
+  "sourceTraitsDisplayed": 13,
+  "searchableByFormAndNpcRole": 13,
+  "originalRunnableNpcBuilds": 2,
+  "fullBuildsReturnedByEncounterAndNpcsCommands": true,
+  "existingPlayableSpeciesAndNpcConceptsPreserved": true,
+  "threeEErrataVerified": true,
+  "distinctPortraitFiles": 1,
+  "versionPortraitsVerified": 13
+}

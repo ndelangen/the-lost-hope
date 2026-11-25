@@ -1,0 +1,22 @@
+[
+  {
+    "slug": "guild-mage",
+    "name": "Guild Mage",
+    "entryId": "monster-ed67c6255c8f77b1679d8082",
+    "input": "",
+    "reference": "",
+    "subjectPrompt": "An adult human male guild wizard from Hillsfar with a lean face, trimmed dark beard and practical dusty plum and charcoal traveling robes. Leather belt and a small sheathed dagger. On one glove a glossy black raven familiar perches, silhouette clear and small. His other hand raises a single small ember spell by his chest. He looks alert and cautious, accustomed to traveling with a merchant caravan. Full figure, in profile turned three quarters toward the viewer. Quiet human proportions, grounded cloth, no spellbook, no staff. Use reference two only for a general sense of layered wizard's robes and hand-cast magic. Keep his identity and clothing freshly designed.",
+    "prompt": "Create a new full-subject square field-guide illustration in a 1254 by 1254 composition. Use the first image for the render: its warm golden ochre lightly mottled parchment extending to the edges, delicate sepia ink lines, muted opaque gouache and colored-pencil hatching, gentle contact shadow, and empty backdrop. An adult human male guild wizard from Hillsfar with a lean face, trimmed dark beard and practical dusty plum and charcoal traveling robes. Leather belt and a small sheathed dagger. On one glove a glossy black raven familiar perches, silhouette clear and small. His other hand raises a single small ember spell by his chest. He looks alert and cautious, accustomed to traveling with a merchant caravan. Full figure, in profile turned three quarters toward the viewer. Quiet human proportions, grounded cloth, no spellbook, no staff. Use reference two only for a general sense of layered wizard's robes and hand-cast magic. Keep his identity and clothing freshly designed. Isolate the subjects. Reserve a clear margin on all four sides of roughly eight percent of the frame. Render the figure and props completely within the square. Readable at thumbnail size. No landscapes, inset pictures, corner marks, badges, panels, borders, text, watermarks or labels.",
+    "appearanceSource": "DDEX3-05 - Bane of the Tradeways"
+  },
+  {
+    "slug": "red-plume-cavalry-officer",
+    "name": "Red Plume Cavalry Officer",
+    "entryId": "monster-7898f09f33f2720ab81e60d7",
+    "input": "",
+    "reference": "",
+    "subjectPrompt": "A stern human cavalry officer of the Red Plumes of Hillsfar, in blackened steel splint armor with visibly narrow riveted iron strips, crimson tabard, and an open-faced steel helmet crested with one tall bright red feather. Chest shows a small jeweled hammer-shaped pin. He is seated upright on a still bay riding horse in red-edged saddlecloth, holding the reins and carrying his longsword in a sheathed scabbard. Compose rider and horse in three-quarter profile, showing the whole horse and all hooves inside the square with a clearly readable rider's face and crest. The reference shows a rank-and-file patrol soldier. Use it for army color, helmet crest, and rendering. Create an officer with a distinct face, armor and mounted pose.",
+    "prompt": "Create a new full-subject square field-guide illustration in a 1254 by 1254 composition. Use the first image for the render: its warm golden ochre lightly mottled parchment extending to the edges, delicate sepia ink lines, muted opaque gouache and colored-pencil hatching, gentle contact shadow, and empty backdrop. A stern human cavalry officer of the Red Plumes of Hillsfar, in blackened steel splint armor with visibly narrow riveted iron strips, crimson tabard, and an open-faced steel helmet crested with one tall bright red feather. Chest shows a small jeweled hammer-shaped pin. He is seated upright on a still bay riding horse in red-edged saddlecloth, holding the reins and carrying his longsword in a sheathed scabbard. Compose rider and horse in three-quarter profile, showing the whole horse and all hooves inside the square with a clearly readable rider's face and crest. The reference shows a rank-and-file patrol soldier. Use it for army color, helmet crest, and rendering. Create an officer with a distinct face, armor and mounted pose. Isolate the subjects. Reserve a clear margin on all four sides of roughly eight percent of the frame. Render the figure and props completely within the square. Readable at thumbnail size. No landscapes, inset pictures, corner marks, badges, panels, borders, text, watermarks or labels.",
+    "appearanceSource": "DDEX3-05 - Bane of the Tradeways"
+  }
+]

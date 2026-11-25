@@ -1,0 +1,147 @@
+[
+  {
+    "name": "Bat Swarm",
+    "kind": "beast",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "Revised v3.5 SRD RTF release",
+    "sourceArchive": "SRD-3.5-RTF.zip",
+    "archiveSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+    "sourceShard": "MonstersS.rtf",
+    "sourceHeading": "BAT SWARM",
+    "sourceShardSha256": "c2818165ea35b7c6adaef9a3652b82b68921c31ae5fac40a7e904dedd5ececa8",
+    "url": "https://www.d20srd.org/srd/monsters/swarm.htm#batSwarm",
+    "sourceUrl": "https://www.d20srd.org/srd/monsters/swarm.htm#batSwarm",
+    "relatedSources": [
+      "https://www.d20srd.org/srd/typesSubtypes.htm#animalType",
+      "https://www.d20srd.org/srd/typesSubtypes.htm#swarmSubtype",
+      "https://www.d20srd.org/srd/conditionSummary.htm#nauseated",
+      ""
+    ],
+    "sourceDistinctions": [
+      "The printed line gives AC 16 from +4 size/+2 Dexterity but lists touch 14 and flat-footed 12. Standard arithmetic yields touch 16 and flat-footed 14. The record retains the printed line.",
+      "The Bat Swarm table explicitly lists half damage from slashing and piercing. The shared subtype gives all-weapon immunity to Diminutive swarms. Wizards of the Coast’s 17 February 2006 Monster Manual v3.5 errata supports weapon immunity for play. The archive’s older line remains in evidence."
+    ],
+    "artGroup": "bat-swarm",
+    "appearanceEvidence": "The physical description incorporates the animal type and the reused portrait. Paint color and posture are editorial.",
+    "habitatEvidence": "Environment is printed as temperate deserts in MonstersS.rtf at the listed heading.",
+    "relatedRtfShards": [
+      "TypesSubtypesAbilities.rtf, Swarm Subtype",
+      "AbilitiesandConditions.rtf, Nauseated"
+    ],
+    "errata": {
+      "publisher": "Wizards of the Coast",
+      "document": "Monster Manual v3.5 Errata",
+      "date": "2006-02-17",
+      "section": "Swarms, Monster Manual pp. 237–240",
+      "url": "",
+      "effect": "The publisher clarifies that bat and spider swarms are immune to weapon damage. This supports the shared subtype rule as the table choice for the older SRD entry."
+    }
+  },
+  {
+    "name": "Dire Bat",
+    "kind": "beast",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "Revised v3.5 SRD RTF release",
+    "sourceArchive": "SRD-3.5-RTF.zip",
+    "archiveSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+    "sourceShard": "MonstersDi-Do.rtf",
+    "sourceHeading": "DIRE BAT",
+    "sourceShardSha256": "533b046406006882de5414a4a1067df80fdde4695c6314993d3afbf4eb765141",
+    "url": "https://www.d20srd.org/srd/monsters/direBat.htm",
+    "sourceUrl": "https://www.d20srd.org/srd/monsters/direBat.htm",
+    "relatedSources": [
+      "https://www.d20srd.org/srd/typesSubtypes.htm#animalType",
+      "https://www.d20srd.org/srd/specialAbilities.htm#blindsightAndBlindsense"
+    ],
+    "sourceDistinctions": [
+      "The creature’s own table lists blindsense. Low-light vision follows the general Animal traits.",
+      "The printed flight maneuverability is good."
+    ],
+    "artGroup": "dire-bat",
+    "appearanceEvidence": "The physical description incorporates the animal type and the reused portrait. Paint color and posture are editorial.",
+    "habitatEvidence": "Environment is printed as temperate deserts in MonstersDi-Do.rtf at the listed heading."
+  },
+  {
+    "name": "Donkey",
+    "kind": "beast",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "Revised v3.5 SRD RTF release",
+    "sourceArchive": "SRD-3.5-RTF.zip",
+    "archiveSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+    "sourceShard": "MonstersAnimals.rtf",
+    "sourceHeading": "DONKEY",
+    "sourceShardSha256": "1093f05fe6208f90475386518d27cfd67c69baddad594acb06385bb372a871e2",
+    "url": "https://www.d20srd.org/srd/monsters/donkey.htm",
+    "sourceUrl": "https://www.d20srd.org/srd/monsters/donkey.htm",
+    "relatedSources": [
+      "https://www.d20srd.org/srd/typesSubtypes.htm#animalType",
+      "https://www.d20srd.org/srd/specialAbilities.htm#scent"
+    ],
+    "sourceDistinctions": [],
+    "artGroup": "donkey",
+    "appearanceEvidence": "The physical description incorporates the animal type and the reused portrait. Paint color and posture are editorial.",
+    "habitatEvidence": "Environment is printed as temperate deserts in MonstersAnimals.rtf at the listed heading."
+  },
+  {
+    "name": "Lion",
+    "kind": "beast",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "Revised v3.5 SRD RTF release",
+    "sourceArchive": "SRD-3.5-RTF.zip",
+    "archiveSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+    "sourceShard": "MonstersAnimals.rtf",
+    "sourceHeading": "LION",
+    "sourceShardSha256": "1093f05fe6208f90475386518d27cfd67c69baddad594acb06385bb372a871e2",
+    "url": "https://www.d20srd.org/srd/monsters/lion.htm",
+    "sourceUrl": "https://www.d20srd.org/srd/monsters/lion.htm",
+    "relatedSources": [
+      "https://www.d20srd.org/srd/typesSubtypes.htm#animalType",
+      "https://www.d20srd.org/srd/specialAbilities.htm#scent",
+      "https://www.d20srd.org/srd/specialAbilities.htm#improvedGrab",
+      "https://www.d20srd.org/srd/specialAbilities.htm#rake"
+    ],
+    "sourceDistinctions": [
+      "The Lion entry says it can rake once it establishes a hold. The general Rake rule requires starting the turn grappling. Pounce expressly allows two rakes on its charge. The text does not expressly reconcile the timing of a newly established hold with the general limit."
+    ],
+    "artGroup": "lion",
+    "appearanceEvidence": "The physical description incorporates the animal type and the reused portrait. Paint color and posture are editorial.",
+    "habitatEvidence": "Environment is printed as warm plains in MonstersAnimals.rtf at the listed heading.",
+    "relatedRtfShards": [
+      "TypesSubtypesAbilities.rtf, Animal Type, Scent, Improved Grab, Pounce, and Rake"
+    ]
+  },
+  {
+    "name": "Porpoise",
+    "kind": "beast",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "Revised v3.5 SRD RTF release",
+    "sourceArchive": "SRD-3.5-RTF.zip",
+    "archiveSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+    "sourceShard": "MonstersAnimals.rtf",
+    "sourceHeading": "PORPOISE",
+    "sourceShardSha256": "1093f05fe6208f90475386518d27cfd67c69baddad594acb06385bb372a871e2",
+    "url": "https://www.d20srd.org/srd/monsters/porpoise.htm",
+    "sourceUrl": "https://www.d20srd.org/srd/monsters/porpoise.htm",
+    "relatedSources": [
+      "https://www.d20srd.org/srd/typesSubtypes.htm#animalType",
+      "https://www.d20srd.org/srd/specialAbilities.htm#blindsightAndBlindsense"
+    ],
+    "sourceDistinctions": [
+      "The source specifies blindsight instead of the bats’ blindsense. A silence spell negates it.",
+      "Hold Breath uses Constitution score, not modifier."
+    ],
+    "artGroup": "porpoise",
+    "appearanceEvidence": "The physical description incorporates the animal type and the reused portrait. Paint color and posture are editorial.",
+    "habitatEvidence": "Environment is printed as temperate aquatic in MonstersAnimals.rtf at the listed heading."
+  }
+]

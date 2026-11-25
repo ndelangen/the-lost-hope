@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Ruinant",
+    "slug": "ruinant",
+    "id": "monster-07b54082855320ff01a982d6:4df10fefbdb1d635c263404b",
+    "entry": "monster-07b54082855320ff01a982d6",
+    "version": "4df10fefbdb1d635c263404b",
+    "suffix": "encounters-45/ruinant.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-45/ruinant.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-45/event-drafts/ruinant-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 45 2026-11-23/event-drafts/ruinant-event-v1.png",
+    "overrides": [],
+    "sha256": "0a03a0e0b5c447ef2174de9db14009430cc26dae4e25da04defc406ceaa5df6a",
+    "bytes": 2478227
+  },
+  {
+    "name": "Tormenauk",
+    "slug": "tormenauk",
+    "id": "monster-045b660d8d231eb171c1ccfc:1b8df318d6454f9deb04b7a8",
+    "entry": "monster-045b660d8d231eb171c1ccfc",
+    "version": "1b8df318d6454f9deb04b7a8",
+    "suffix": "encounters-45/tormenauk.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-45/tormenauk.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-45/event-drafts/tormenauk-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 45 2026-11-23/event-drafts/tormenauk-event-v1.png",
+    "overrides": [],
+    "sha256": "ff96ea6c83fc9fb2ae583b00617b56444d1cbbe99832db1484c51753c8c2aef0",
+    "bytes": 2640778
+  }
+]

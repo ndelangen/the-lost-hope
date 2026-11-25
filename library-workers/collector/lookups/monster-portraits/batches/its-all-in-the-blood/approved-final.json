@@ -1,0 +1,22 @@
+[
+  {
+    "slug": "fire-giant-whelp",
+    "name": "Fire Giant Whelp",
+    "entryId": "monster-8f27d8b63e5a8a24495b37e3",
+    "input": "",
+    "reference": "",
+    "subjectPrompt": "A young fire giant, already huge and powerfully built, with a broad, youthful face, deep soot-brown skin, and short bright copper-red hair. He wears visibly segmented blackened iron splint armor: parallel narrow vertical strips riveted to dark leather over a dull brick-red tunic, with some strips overlapping at the shoulders. An oversized, forge-worn sword points diagonally down and is held loosely in both hands. Show a full figure in a three-quarter view with a purposeful, watchful expression. Warm red accents are confined to hair and cloth, with dull steel and leather everywhere else.",
+    "prompt": "Make a new square 1024 by 1024 monster field-guide portrait. First reference is for style, color and framing only. Second reference is for species anatomy and palette only. Design an original pose and costume based on the brief. A young fire giant, already huge and powerfully built, with a broad, youthful face, deep soot-brown skin, and short bright copper-red hair. He wears visibly segmented blackened iron splint armor: parallel narrow vertical strips riveted to dark leather over a dull brick-red tunic, with some strips overlapping at the shoulders. An oversized, forge-worn sword points diagonally down and is held loosely in both hands. Show a full figure in a three-quarter view with a purposeful, watchful expression. Warm red accents are confined to hair and cloth, with dull steel and leather everywhere else. Style: the first reference's warm golden ochre lightly mottled parchment reaching all four edges, delicate and precise sepia ink linework, muted opaque gouache with colored-pencil hatching, gentle painted contact shadow, centered isolated composition, full head and feet visible with generous blank parchment margin on every side. Readable at thumbnail size. No panels, landscapes, floor lines, text, marks, border, labels, framing, ornaments, or inset pictures. Keep all four corners blank parchment.",
+    "appearanceSource": "DDEX3-04 - It's All in the Blood"
+  },
+  {
+    "slug": "grabber-forth",
+    "name": "Grabber Forth",
+    "entryId": "monster-b4160741ec3e46b91689cc7b",
+    "input": "",
+    "reference": "",
+    "subjectPrompt": "Grabber Forth, a compact male deep-gnome archmage who guards an underground doorway. Slate-gray skin, bald weathered head, broad nose, prominent ears and short gnome proportions, with a crooked, cackling grin and shrewd narrowed eyes. Show his full figure in dark moss-brown and slate scholar's robes over worn boots, wearing a prominent brass amulet associated with his guardian. One open hand traces a fine few curls of pale violet magic close to the body. One figure only, relaxed and slightly stooped, grinning as he casts. Avoid generic tall elf proportions.",
+    "prompt": "Make a new square 1024 by 1024 monster field-guide portrait. First reference is for style, color and framing only. Second reference is for species anatomy and palette only. Design an original pose and costume based on the brief. Grabber Forth, a compact male deep-gnome archmage who guards an underground doorway. Slate-gray skin, bald weathered head, broad nose, prominent ears and short gnome proportions, with a crooked, cackling grin and shrewd narrowed eyes. Show his full figure in dark moss-brown and slate scholar's robes over worn boots, wearing a prominent brass amulet associated with his guardian. One open hand traces a fine few curls of pale violet magic close to the body. One figure only, relaxed and slightly stooped, grinning as he casts. Avoid generic tall elf proportions. Style: the first reference's warm golden ochre lightly mottled parchment reaching all four edges, delicate and precise sepia ink linework, muted opaque gouache with colored-pencil hatching, gentle painted contact shadow, centered isolated composition, full head and feet visible with generous blank parchment margin on every side. Readable at thumbnail size. No panels, landscapes, floor lines, text, marks, border, labels, framing, ornaments, or inset pictures. Keep all four corners blank parchment.",
+    "appearanceSource": "DDEX3-04 - It's All in the Blood"
+  }
+]

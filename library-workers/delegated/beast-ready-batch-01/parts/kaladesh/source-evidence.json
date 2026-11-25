@@ -1,0 +1,146 @@
+[
+  {
+    "name": "Drake (Large)",
+    "kind": "beast",
+    "publication": "Plane Shift: Kaladesh",
+    "edition": "2014 fifth edition",
+    "printing": "First printing, February 2017",
+    "copyrightYear": 2017,
+    "author": "James Wyatt",
+    "publisher": "Wizards of the Coast",
+    "pdfPage": 29,
+    "printedPages": [
+      29
+    ],
+    "section": "A Kaladesh Bestiary, Drakes",
+    "sourceUrl": "",
+    "sourceSha256": "c51384aaa614058a8600b2879437fe68e082f57a8d161ca5c25b269658eaf906",
+    "artGroup": "kaladesh-drake",
+    "appearanceEvidence": "p. 29 describes reptilian bodies, leathery wings and two clawed legs. Izzy’s Take Down illustration supplies the long neck and face silhouette. The rules use the same description for both sizes.",
+    "habitatEvidence": "p. 29 describes rushes hunting in Kaladesh skies, clinging to rocky crags and sky beasts, and hunting game at high elevations. Habitat tags use this setting text.",
+    "reskinReference": {
+      "name": "Giant Eagle",
+      "publication": "Monster Manual (2014)",
+      "printedPage": 324,
+      "official2014RulesUrl": "https://www.dndbeyond.com/monsters/16881-giant-eagle",
+      "printedRulesWitness": "https://anyflip.com/kqwdv/eoae/basic/301-350",
+      "publisher": "Wizards of the Coast"
+    },
+    "sourceDistinctions": [
+      "The Kaladesh text directs use of the Giant Eagle base and lists no numerical, trait, or language changes. Giant Eagle and its alignment remain printed base mechanics."
+    ],
+    "creditedArt": "Izzy, Take Down. Keep the credited book artwork and its link unchanged."
+  },
+  {
+    "name": "Drake (Small)",
+    "kind": "beast",
+    "publication": "Plane Shift: Kaladesh",
+    "edition": "2014 fifth edition",
+    "printing": "First printing, February 2017",
+    "copyrightYear": 2017,
+    "author": "James Wyatt",
+    "publisher": "Wizards of the Coast",
+    "pdfPage": 29,
+    "printedPages": [
+      29
+    ],
+    "section": "A Kaladesh Bestiary, Drakes",
+    "sourceUrl": "",
+    "sourceSha256": "c51384aaa614058a8600b2879437fe68e082f57a8d161ca5c25b269658eaf906",
+    "artGroup": "kaladesh-drake",
+    "appearanceEvidence": "p. 29 describes reptilian bodies, leathery wings and two clawed legs. Izzy’s Take Down illustration supplies the long neck and face silhouette. The rules use the same description for both sizes.",
+    "habitatEvidence": "p. 29 describes rushes hunting in Kaladesh skies, clinging to rocky crags and sky beasts, and hunting game at high elevations. Habitat tags use this setting text.",
+    "reskinReference": {
+      "name": "Pteranodon",
+      "publication": "Monster Manual (2014)",
+      "printedPage": 80,
+      "official2014RulesUrl": "https://www.dndbeyond.com/monsters/17093-pteranodon",
+      "printedRulesWitness": "https://anyflip.com/kqwdv/eoae/basic/51-100",
+      "publisher": "Wizards of the Coast"
+    },
+    "sourceDistinctions": [
+      "“Small” is the existing catalog variant label for the smaller drake. The referenced Pteranodon’s printed size is Medium."
+    ],
+    "creditedArt": "Izzy, Take Down. Keep the credited book artwork and its link unchanged."
+  },
+  {
+    "name": "Gremlin",
+    "kind": "beast",
+    "publication": "Plane Shift: Kaladesh",
+    "edition": "2014 fifth edition",
+    "printing": "First printing, February 2017",
+    "copyrightYear": 2017,
+    "author": "James Wyatt",
+    "publisher": "Wizards of the Coast",
+    "pdfPage": 26,
+    "printedPages": [
+      26
+    ],
+    "section": "A Kaladesh Bestiary, Gremlins",
+    "sourceUrl": "",
+    "sourceSha256": "c51384aaa614058a8600b2879437fe68e082f57a8d161ca5c25b269658eaf906",
+    "artGroup": "gremlin",
+    "appearanceEvidence": "p. 26 states the six-legged, long-snouted anatomy and describes the dense claws. Kev Walker’s Brazen Scourge shows the face, tall ears and textured skin.",
+    "habitatEvidence": "p. 26 describes their attraction to aether and gives laboratories and workshops as examples, with Ghirapur as a named city at risk.",
+    "sourceDistinctions": [
+      "Small size, 27 HP, and 5d8 + 5 are printed together. The climbing behavior in the setting text does not add a climb speed to the stat block."
+    ],
+    "creditedArt": "Kev Walker, Brazen Scourge. Keep the credited book artwork and its link unchanged."
+  },
+  {
+    "name": "Sky Leviathan",
+    "kind": "beast",
+    "publication": "Plane Shift: Kaladesh",
+    "edition": "2014 fifth edition",
+    "printing": "First printing, February 2017",
+    "copyrightYear": 2017,
+    "author": "James Wyatt",
+    "publisher": "Wizards of the Coast",
+    "pdfPage": 28,
+    "printedPages": [
+      28
+    ],
+    "section": "A Kaladesh Bestiary, Whales and Leviathans",
+    "sourceUrl": "",
+    "sourceSha256": "c51384aaa614058a8600b2879437fe68e082f57a8d161ca5c25b269658eaf906",
+    "artGroup": "sky-leviathan",
+    "appearanceEvidence": "p. 28 compares leviathans to enormous eels and shows Sam Burley’s Aethersquall Ancient. Mouth shape and subdued blue-gray scales in the new portrait are editorial choices.",
+    "habitatEvidence": "p. 28 describes leviathans filtering the aethersphere, moving along aether flows and feeding on drakes and airships. Airship routes is an editorial search term from that behavior.",
+    "sourceDistinctions": [
+      "The printed Bite attack modifier is +9, as listed. The Purple Worm comparison is descriptive. Use the self-contained Kaladesh stat block."
+    ],
+    "creditedArt": "Sam Burley, Aethersquall Ancient. Keep credited book artwork and its link unchanged."
+  },
+  {
+    "name": "Sky Whale",
+    "kind": "beast",
+    "publication": "Plane Shift: Kaladesh",
+    "edition": "2014 fifth edition",
+    "printing": "First printing, February 2017",
+    "copyrightYear": 2017,
+    "author": "James Wyatt",
+    "publisher": "Wizards of the Coast",
+    "pdfPage": 28,
+    "printedPages": [
+      28
+    ],
+    "section": "A Kaladesh Bestiary, Whales and Leviathans",
+    "sourceUrl": "",
+    "sourceSha256": "c51384aaa614058a8600b2879437fe68e082f57a8d161ca5c25b269658eaf906",
+    "artGroup": "sky-whale",
+    "appearanceEvidence": "p. 28 describes a flying filter-feeding whale and gives it a flipper attack. Tail shape and markings are editorial anatomy and art choices.",
+    "habitatEvidence": "p. 28 describes docile flying whales filtering organisms from aether currents. Skies of Kaladesh is an editorial search term for this setting.",
+    "reskinReference": {
+      "name": "Giant Crocodile",
+      "publication": "Monster Manual (2014)",
+      "printedPage": 324,
+      "official2014RulesUrl": "https://www.dndbeyond.com/monsters/16880-giant-crocodile",
+      "printedRulesWitness": "https://anyflip.com/kqwdv/eoae/basic/301-350",
+      "publisher": "Wizards of the Coast"
+    },
+    "sourceDistinctions": [
+      "The printed adaptation says to use Giant Crocodile statistics, replace Bite with a Flipper identical to Tail, and grant fly 50 ft. with hover. This overlay retains the base walking and swimming speeds, Hold Breath and Stealth. The prior secondary index lists only flight.",
+      "Tail and Flipper share one target restriction. Replacing Bite removes the base creature’s bite grapple and its associated restraint."
+    ]
+  }
+]

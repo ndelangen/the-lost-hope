@@ -1,5 +1,13 @@
 import { Link, useRouterState } from '@tanstack/react-router'
-import { BookOpen, ChevronDown, ChevronRight, Globe, Home, ScrollText } from 'lucide-react'
+import {
+  BookOpen,
+  BookOpenText,
+  ChevronDown,
+  ChevronRight,
+  Globe,
+  Home,
+  ScrollText,
+} from 'lucide-react'
 import { useEffect } from 'react'
 
 import { EntityReference } from '#/components/entity-reference'
@@ -50,6 +58,10 @@ export function Sidebar({ collapsed, onNavigate }: SidebarProps) {
         <NavLink to="/intro" active={pathname === '/intro'} onNavigate={onNavigate}>
           <BookOpen className="size-4 shrink-0" />
           <span>Campaign intro</span>
+        </NavLink>
+        <NavLink to="/novel" active={pathname === '/novel'} onNavigate={onNavigate}>
+          <BookOpenText className="size-4 shrink-0" aria-hidden />
+          <span>Novel</span>
         </NavLink>
       </Stack>
 

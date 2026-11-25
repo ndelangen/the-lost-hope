@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Morkoth",
+    "publication": "Monstrous Races 2",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra, published through Dungeon Masters Guild for the 2014 fifth edition.",
+      "Medium Aberration, Intelligence +1. Walk 20 ft. and swim 25 ft. Breathe air or water and see in darkness out to 60 ft.",
+      "Unarmored AC is 13 + Dexterity modifier. Tentacle unarmed strikes deal 1d8 bludgeoning. The Morkoth has no hands and cannot wield weapons, shields, foci, or tools.",
+      "The Morkoth knows no languages. It can communicate telepathically within 30 ft. with any creature that knows a language.",
+      "Hypnosis takes an action and affects all creatures in a 30-ft. cone. A failed Wisdom save against 8 + proficiency bonus + Intelligence modifier charms the target for up to 1 minute with concentration. The victim Dashes toward the Morkoth and can use actions only to approach it. It takes no further actions when within 5 ft. or as close as safely possible. It resumes approaching if the Morkoth moves. A target saves again at the end of each of its turns and whenever damaged. Hypnosis recharges on a short or long rest."
+    ]
+  },
+  {
+    "name": "Neogi",
+    "publication": "Monstrous Races 2",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra, published through Dungeon Masters Guild for the 2014 fifth edition.",
+      "Aberration with Dexterity +1 and 60-ft. darkvision. Mental Fortitude grants advantage on saves against charm and fear, and magic cannot put the Neogi to sleep. Spider Climb permits difficult climbs and ceiling travel without a check.",
+      "Hatchling. Tiny, with 20-ft. walking and climbing speeds. Knows no languages. Apply the supplement’s Tiny carrying, grappling, weapon, and armor rules.",
+      "Adult. Small, with 30-ft. walking and climbing speeds. Speaks, reads, and writes Common, Deep Speech, and Undercommon.",
+      "An adult can use its action to Enslave one visible humanoid within 30 ft. Wisdom save DC is 8 + proficiency bonus + Intelligence modifier. The target rolls with advantage if fighting the Neogi or its companions. On a failure it regards the Neogi as a friendly acquaintance for up to 1 hour per level while the Neogi concentrates. Harm from the Neogi or its companions ends the effect. The target knows it was charmed afterward. The trait block lists no use limit.",
+      "Neogi Master is an optional feat for a Neogi. Increase Charisma by 1 to a maximum of 20 and become Medium. Its unarmed strike dice are 1d4 piercing and 1d4 poison."
+    ]
+  },
+  {
+    "name": "Neothelid",
+    "publication": "Monstrous Races 2",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra, published through Dungeon Masters Guild for the 2014 fifth edition.",
+      "Medium Aberration, Strength +1 and Constitution +1. Walk 30 ft. Darkvision 60 ft. Speak, read, and write Undercommon.",
+      "Unarmored AC is 13 + Dexterity modifier. It has no hands for weapons, shields, foci, or tools. A tentacle unarmed strike deals 1d4 bludgeoning plus 1d4 psychic.",
+      "Acid Breath is an action with a 15-ft. cone. Each creature saves Dexterity against 8 + proficiency bonus + Constitution modifier, taking 2d6 acid on a failure or half on a success. Damage rises to 3d6 at level 5, 4d6 at level 11, and 5d6 at level 17. Recharge on a short or long rest.",
+      "Wisdom governs its psionics. It can cast Mage Hand once daily. At 3rd level it also gains one daily use of Levitate."
+    ]
+  },
+  {
+    "name": "Tlincalli",
+    "publication": "Monstrous Races 2",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra, published through Dungeon Masters Guild for the 2014 fifth edition.",
+      "Tlincalli are Medium scorpionfolk Monstrosities. Strength and Constitution each increase by 1. Walk 40 ft. and gain 60-ft. darkvision. Speak, read, and write Tlincalli.",
+      "Unarmored AC is 14 + Dexterity modifier. Its ordinary sting is an unarmed strike for 1d8 piercing damage.",
+      "The first successful sting after a rest injects poison. In place of the usual damage dice, use 1d4 piercing and 1d4 poison. The target makes a Constitution save against 8 + proficiency bonus + Constitution modifier or is poisoned for up to 1 minute. It saves again at each turn end. Recharge on a short or long rest after the attempt."
+    ]
+  },
+  {
+    "name": "Wood Woad",
+    "publication": "Monstrous Races 2",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra, published through Dungeon Masters Guild for the 2014 fifth edition.",
+      "Medium Plant, Strength +1 and Constitution +1. Walk and climb 30 ft. Darkvision 60 ft. and vulnerability to fire damage. Sylvan is its language.",
+      "Unarmored AC is 12 + Dexterity modifier. Immune to the charmed and frightened conditions.",
+      "Tree Stride is a bonus action once per turn. Spend at least 10 ft. of movement, in 5-ft. increments, to enter a tree at least one size larger than the Wood Woad. Emerge within 5 ft. of another tree up to twice that movement expenditure away, in a free space.",
+      "Weapons of the Forest uses a bonus action to grow a club, a shield, or both. Each withers after more than a round away from its hands, or when replaced. Starting at level 3, the club can count as magical for one minute once per short or long rest."
+    ]
+  }
+]

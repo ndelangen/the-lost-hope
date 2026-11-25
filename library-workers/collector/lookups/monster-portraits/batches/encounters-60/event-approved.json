@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Elan",
+    "slug": "elan",
+    "caption": "Teva Alder · Original Elan NPC",
+    "id": "species-dcdf07418875b14942de0d45:5488d99ac99c1d1b1996bf8e",
+    "entry": "species-dcdf07418875b14942de0d45",
+    "version": "5488d99ac99c1d1b1996bf8e",
+    "suffix": "encounters-60/elan.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-60/elan.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-60/event-drafts/elan-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 60 2026-11-23/event-drafts/elan-event-v1.png",
+    "overrides": [],
+    "sha256": "1832e439c9d24a48a8d6a8f115fc0ef256ef74d440ce5eb8990cef5d43957e79",
+    "bytes": 2261089
+  },
+  {
+    "name": "Xeph",
+    "slug": "xeph",
+    "caption": "Rovan Threadglass · Original Xeph NPC",
+    "id": "species-a4ee7610c065343d6da4f7d8:73cb5cdf28aa7257fe856689",
+    "entry": "species-a4ee7610c065343d6da4f7d8",
+    "version": "73cb5cdf28aa7257fe856689",
+    "suffix": "encounters-60/xeph.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-60/xeph.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-60/event-drafts/xeph-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 60 2026-11-23/event-drafts/xeph-event-v1.png",
+    "overrides": [],
+    "sha256": "d64b3416d0d654eb0e09c18b4ec797d89205600458b7fa9bd1920c5059c91f97",
+    "bytes": 2190315
+  }
+]

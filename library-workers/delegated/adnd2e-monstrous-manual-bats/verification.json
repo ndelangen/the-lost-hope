@@ -1,0 +1,23 @@
+{
+  "baseline": "13fe7d644ddd5646c3155506099f488922b3f43e",
+  "temporaryCopy": true,
+  "exactBeastProfiles": 3,
+  "testedConditionalRuleProfiles": 3,
+  "existingPublicationVersionsPreserved": true,
+  "publisherGalleriesPreserved": true,
+  "searchableByNameRuleAppearanceHabitat": 3,
+  "portraitCoverage": {
+    "Bat": "generated",
+    "Giant Bat": "generated",
+    "Mobat": "generated"
+  },
+  "versionPortraitsVerified": 3,
+  "newPortraitDrafts": 3,
+  "newBeastIdentity": "Mobat",
+  "noChallengeImported": true,
+  "existingDefaultsAndThumbnailsPreserved": {
+    "Bat": "Basic Rules (2018)",
+    "Giant Bat": "Basic Rules (2018)"
+  },
+  "selectedPublication": "Monstrous Manual (1994 third printing)"
+}

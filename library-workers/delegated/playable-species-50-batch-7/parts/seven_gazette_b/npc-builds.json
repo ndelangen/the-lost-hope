@@ -1,0 +1,323 @@
+{
+  "builds": [
+    {
+      "id": "a5e-dryadborn-ila-brightbough",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Level Up: Advanced 5th Edition"
+      ],
+      "title": "Blossom-Crowned Dryadborn bridge keeper, Fighter 1",
+      "size": "Medium",
+      "type": "Plant",
+      "difficulty": "Fighter 1",
+      "ac": 16,
+      "hp": 12,
+      "hitDice": "1d10+2",
+      "initiative": 1,
+      "speed": "30 ft.",
+      "senses": "Passive Perception 13. Village Watch grants a d4 while keeping watch during a rest.",
+      "languages": "Common and Sylvan, spoken, written, read, and signed.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 12,
+        "CON": 14,
+        "INT": 9,
+        "WIS": 13,
+        "CHA": 10
+      },
+      "skills": [
+        "Animal Handling +3",
+        "Athletics +5",
+        "Deception +2",
+        "History +1 or +3 through Tall Tales",
+        "Perception +3",
+        "Persuasion +2"
+      ],
+      "traits": [
+        "Proficiency bonus +2. Saves Str +5, Dex +1, Con +4, Int −1, Wis +1, Cha +0. Maneuver DC 13. Medium Plant with Blossom-Crowned gift.",
+        "AC 16 comes from a steel chain shirt (13 + Dex 1) and a medium shield (+2). The AC is 14 without her shield. Fighter equipment includes the shirt, shield, and spear, all within the 140 gp budget.",
+        "Villager grants Animal Handling, improvised weapons, Village Watch, and Wisdom in place of the normal ability for History, Nature, and Religion checks, with possible tall tales at the Narrator’s discretion.",
+        "Artisan adds +1 Intelligence and Strength, gives Persuasion, History, and carpenter’s tools, and provides access to a workshop in towns and cities. Fighter gives Athletics and Perception. Blossom-Crowned gives Deception.",
+        "Devotion. Gain inspiration by carrying through a quest, costly promise, or sacrifice that causes serious injury. Spend inspiration when Helping an ally attack a creature to impose disadvantage on that creature’s attacks against anyone but Ila until the start of her next turn.",
+        "Fighter protection style, Sanguine Knot and Mirror’s Glint, 4 exertion per short or long rest. Nightwatch allows 2 more hours of light activity during a long rest, including 1 hour of strenuous activity nearby."
+      ],
+      "actions": [
+        "Spear. +5 to hit, reach 5 ft. or thrown 20/60 ft. Hit 1d6+3 piercing. With a shield after a qualifying spear attack, use a bonus action for +1 AC until the start of her next turn or an improvised shield attack (+5, 1d4+3 bludgeoning).",
+        "Protection (reaction). While wielding her shield, impose disadvantage when a visible creature attacks an adjacent target other than Ila.",
+        "Entangle (action, once per long rest). Ground point within 120 ft. The centered 20-ft. square becomes difficult terrain while she concentrates for up to 1 minute. Creatures in it at casting must pass a Strength DC 11 save or become restrained. An affected creature uses an action and succeeds on a Strength check against DC 11 to escape.",
+        "Verdant Jaunt (bonus action, 2 uses per long rest). Spend 5 ft. of movement to pass between an adjacent plant and a visible plant of the same kind within 30 ft. Each must be Medium or larger, or a qualifying same-kind patch at least 5 ft. wide.",
+        "Fey Glamour (bonus action, 2 uses per long rest). Chosen creatures within 10 ft. that can see, hear, or smell Ila must make a Wisdom DC 10 save. Failure leaves them fixated on Ila with disadvantage on attacks until the end of her next turn. While fixated, moving away costs double, and Investigation and Perception checks involving anything but Ila have disadvantage. Creatures immune to charm are immune to fixation. A target is immune to her glamour for 24 hours after a success or when the effect ends.",
+        "Protective Petals (reaction when hit). Ila gains +5 AC against the triggering attack and until the start of her next turn. This timing applies the printed one-round duration. No usage limit is listed.",
+        "Shield Wall (bonus action, 1 exertion). Choose a shield-wielding ally within 5 ft. Both gain +2 AC until the start of your next turn while that ally stays within 5 ft. and can act.",
+        "Doubleteam (bonus action, 1 exertion). Choose a creature in reach. The next ally within 20 ft. to make a melee weapon attack against it can spend a bonus action to roll Athletics against its maneuver DC. Success grapples it or pushes it 10 ft.",
+        "Shoulder Check (reaction, 1 exertion). When a creature within reach makes a melee attack against an ally, roll Athletics against the attacker’s maneuver DC. On success shove it 10 ft. away and move 10 ft. in that direction without provoking opportunity attacks."
+      ],
+      "tactics": "Ila entangles creatures on the approach, then jaunts between the two stands of reeds if she has to cover the other end of the bridge. She uses Protection for a neighbor or Petals for herself."
+    },
+    {
+      "id": "a5e-galeoni-nerev-splitfin",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Level Up: Advanced 5th Edition"
+      ],
+      "title": "Vicious Maw Galeoni dock diver, Rogue 1",
+      "size": "Small",
+      "type": "Humanoid",
+      "difficulty": "Rogue 1",
+      "ac": 15,
+      "hp": 10,
+      "hitDice": "1d8+2",
+      "initiative": 3,
+      "speed": "25 ft., swim 35 ft.",
+      "senses": "Darkvision 90 ft. Passive Perception 15 including Cat’s Eyes.",
+      "languages": "Common and Aquan, spoken, written, read, and signed.",
+      "abilityScores": {
+        "STR": 14,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Athletics +4 with a d4",
+        "Insight +3",
+        "Investigation +2",
+        "Nature +3 with Wisdom",
+        "Perception +3 with at least a d4",
+        "Sleight of Hand +5",
+        "Stealth +5"
+      ],
+      "traits": [
+        "Proficiency bonus +2. Saves Str +2, Dex +5, Con +2, Int +2, Wis +1, Cha −1. Maneuver DC 13. Small Humanoid with Vicious Maw gift.",
+        "Padded leather gives AC 12 + 3 Dexterity. A piercing critical hit or a natural 1 on a Dexterity save breaks the padded leather.",
+        "Frenzy applies at 5 HP or below. Attacks against Nerev then have advantage and fright is blocked or suppressed. Existing fright still ticks down. He breathes on land and underwater.",
+        "Wildling Sunseeing and Water Drifter grant daylight expertise on Investigation and Perception, Wisdom for Nature, vehicle and Athletics expertise, and weather sense for coasts. Four hours foraging once per long rest supplies two people or finds up to 5 gp in reagents. On his home plane he can estimate the date within a week by observing his surroundings and knows the time of day outdoors.",
+        "Sailor adds +1 Constitution and Dexterity and gives Athletics, Acrobatics, navigator’s tools, water vehicles, and Sea Salt. Rogue gives Insight, Investigation, Sleight of Hand, Stealth, and proficiency with disguise kit, poisoner’s kit, and thieves’ tools.",
+        "Cat’s Eyes extends his darkvision from 60 to 90 ft. and adds an expertise die to Perception. Predatory Senses adds one for checks to detect blood. Daylight, blood, and Cat’s Eyes can raise the single expertise die to d6 or d8 where their conditions overlap.",
+        "Underdog. Earn inspiration for defying powerful opposition, pulling off a long shot, critically hitting a larger creature, or rolling a natural 20 on a death save. Spend inspiration as a reaction when he or a visible ally fails Insight to learn what a success would reveal."
+      ],
+      "actions": [
+        "Shortsword. +5 to hit, reach 5 ft., 1d6+3 slashing. While holding the shortsword without a shield, once before your next turn add a d4 to AC against one visible melee attacker. Parrying requires you to be free of the listed disabling conditions, including rattled and restrained.",
+        "Rending Bite. +4 to hit, reach 5 ft., 1d6+2 piercing. The target must make a Constitution DC 12 save or take 2 ongoing damage at each turn end. Apply the damage before the target repeats the save at turn end. A success ends the bleeding.",
+        "To the Bitter End (reaction). If massive damage would kill Nerev outright, make a death save. On success he instead falls unconscious and is dying.",
+        "Sneak Attack, 1d6 extra weapon damage once per turn on a finesse or ranged hit with advantage, or on such a hit without disadvantage if a capable enemy of the target stands within 5 ft. of it."
+      ],
+      "tactics": "Nerev watches the pilings from underwater. He surfaces beside an ally to set up a shortsword Sneak Attack, then uses Rending Bite if he needs to make a pursuer back away."
+    },
+    {
+      "id": "a5e-garoul-tavin-ashmuzzle",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Level Up: Advanced 5th Edition"
+      ],
+      "title": "Lupine Vigor Garoul searcher, Rogue 1",
+      "size": "Medium",
+      "type": "Humanoid and Beast",
+      "difficulty": "Rogue 1",
+      "ac": 14,
+      "hp": 9,
+      "hitDice": "1d8+1",
+      "initiative": 2,
+      "speed": "30 ft.",
+      "senses": "Darkvision 60 ft. Passive Perception 13.",
+      "languages": "Common, Elvish, Orc, and Giant, spoken, written, read, and signed.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 15,
+        "CON": 13,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Acrobatics +4",
+        "Animal Handling +3",
+        "Athletics +5",
+        "Intimidation +2",
+        "Investigation +1",
+        "Perception +3",
+        "Sleight of Hand +4",
+        "Stealth +4 with a d4",
+        "Survival +3",
+        "Deception +2"
+      ],
+      "traits": [
+        "Proficiency bonus +2. Saves Str +3, Dex +4, Con +1, Int +1, Wis +1, Cha +0. Maneuver DC 13. Medium Humanoid and Beast with Lupine Vigor.",
+        "Padded leather gives AC 12 + 2 Dexterity. A piercing critical hit or a natural 1 on a Dexterity save breaks the padded leather. Thick Hide gives an unarmored AC of 13 and works with a shield. Tavin carries none.",
+        "Bloodhound grants a d4 on checks to detect or track bloodied creatures. Wily Hunter gives Deception, and Lupine Vigor raises darkvision to 60 ft.",
+        "Nomad grants Animal Handling, Survival, Perception, land vehicles, tinker’s tools, and practical weather sense within 24 hours. Add an expertise die to land-vehicle control or navigation and repairs to a vehicle used for at least a month.",
+        "Soldier adds +1 Strength and Dexterity, gives Athletics and Intimidation, one gaming set, Orc, and Military Bearing.",
+        "Rogue grants Acrobatics, Investigation, Sleight of Hand, Stealth, disguise kit, poisoner’s kit, and thieves’ tools. Expertise Training gives Stealth one expertise die.",
+        "Devotion. Gain inspiration on completing a quest, costly promise, or seriously injurious sacrifice. Spend inspiration when Helping an ally attack a creature to give that creature disadvantage on attacks against others until the start of Tavin’s next turn."
+      ],
+      "actions": [
+        "Handaxe. +5 to hit, reach 5 ft. or thrown 20/60 ft., 1d6+3 slashing. A thrown attack can use Sneak Attack if eligible. The handaxe deals double damage to unattended wood.",
+        "Claw. +5 to hit, reach 5 ft., 1d4 slashing under the printed fixed-damage reading. As a bonus action after a qualifying main-hand attack, the other claw attacks at +5 for 1d4 slashing using the dual-wielding property.",
+        "Wolfish Fortitude (bonus action, once per long rest). Gain 1d8+1 temporary HP.",
+        "Sneak Attack, 1d6 extra weapon damage once per turn on a finesse or ranged hit with advantage, or on such a hit without disadvantage if a capable enemy of the target stands within 5 ft. of it."
+      ],
+      "tactics": "Tavin checks wounds and tracks before calling in help. He strikes from concealment and uses Wolfish Fortitude when holding an escape route."
+    },
+    {
+      "id": "a5e-madrai-kip-roadbell",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Level Up: Advanced 5th Edition"
+      ],
+      "title": "Pack Hunter Madrai courier, Rogue 1",
+      "size": "Small",
+      "type": "Humanoid",
+      "difficulty": "Rogue 1",
+      "ac": 15,
+      "hp": 10,
+      "hitDice": "1d8+2",
+      "initiative": 3,
+      "speed": "30 ft., climb 30 ft.",
+      "senses": "Passive Perception 13, or 15 when scent expertise applies.",
+      "languages": "Common, Halfling, Dwarvish, and Elvish, spoken, written, read, and signed.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 13,
+        "WIS": 13,
+        "CHA": 10
+      },
+      "skills": [
+        "Athletics +1 with a d4",
+        "Culture +3",
+        "Insight +3",
+        "Investigation +3",
+        "Perception +3",
+        "Persuasion +2 with a d4",
+        "Stealth +5",
+        "Sleight of Hand +5"
+      ],
+      "traits": [
+        "Proficiency bonus +2. Saves Str −1, Dex +5, Con +2, Int +3, Wis +1, Cha +0. Maneuver DC 13. Small Humanoid with Pack Hunter gift.",
+        "Padded leather gives AC 12 + 3 Dexterity. A piercing critical hit or a natural 1 on a Dexterity save breaks the padded leather.",
+        "Sharp Scent adds a d4 to scent Perception and other scent-critical rolls. Wagging Tail adds a d4 to Persuasion and subtracts a d4 from Deception.",
+        "Itinerant Labor Migrant gives disguise kit, calligrapher’s supplies, Culture and Athletics. The first Charisma check with strangers in unfamiliar territory gains a d4, except when someone in the group knows Kip. His selected Intelligence-based cultural checks with communities familiar for a month gain a d4. His extra connection is a veteran dock captain.",
+        "Artisan adds +1 Intelligence and Dexterity, gives Persuasion, Insight, cobbler’s tools, and Trade Mark workshop access. Rogue gives Investigation, Perception, Stealth, Sleight of Hand, disguise kit, poisoner’s kit, and thieves’ tools. Agile Athlete gives his climb speed and an Athletics expertise die.",
+        "Devotion. Gain inspiration on completing a quest, costly promise, or seriously injurious sacrifice. Spend inspiration when Helping an ally attack a creature to give that creature disadvantage on attacks against anyone but Kip until the start of his next turn."
+      ],
+      "actions": [
+        "Shortsword. +5 to hit, reach 5 ft., 1d6+3 slashing. While holding the shortsword without a shield, once before your next turn add a d4 to AC against one visible melee attacker. Parrying requires you to be free of the listed disabling conditions, including rattled and restrained.",
+        "Teamwork (bonus action). Help in combat within 30 ft. Spend the action on either another task or an eligible weapon strike. Helpful also extends normal combat Help to 30 ft.",
+        "Sneak Attack, 1d6 extra weapon damage once per turn on a finesse or ranged hit with advantage, or on such a hit without disadvantage if a capable enemy of the target stands within 5 ft. of it."
+      ],
+      "tactics": "Kip calls the party’s attention to an opening with Teamwork, then climbs to a clear ledge or uses his shortsword to defend the dispatch satchel."
+    },
+    {
+      "id": "a5e-oxfolk-mara-wheelhorn",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Level Up: Advanced 5th Edition"
+      ],
+      "title": "Pillar of Strength Oxfolk mill guardian, Fighter 1",
+      "size": "Medium",
+      "type": "Humanoid",
+      "difficulty": "Fighter 1",
+      "ac": 17,
+      "hp": 12,
+      "hitDice": "1d10+2",
+      "initiative": 1,
+      "speed": "30 ft.",
+      "senses": "Passive Perception 13.",
+      "languages": "Common, Dwarvish, Giant, and Halfling, spoken, written, read, and signed.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 13,
+        "CON": 15,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Animal Handling +3",
+        "Athletics +5",
+        "Insight +3",
+        "Intimidation +2",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "traits": [
+        "Proficiency bonus +2. Saves Str +5, Dex +1, Con +4, Int −1, Wis +1, Cha +0. Maneuver DC 13. Medium Humanoid is the table reading of the published size omission. Pillar of Strength gift.",
+        "AC 17 comes from steel chain shirt 13 + Dex 1, medium shield +2, and Defense style +1. Armor and Defense give AC 15 if she puts down the shield. Without armor, Resilient Hide gives AC 14, or 16 with shield.",
+        "Heavy Lifter counts as Large for carrying, pushing, dragging, and lifting. Hooves ignore damage and difficulty from sharp terrain. Treat other difficult terrain as Speed 25 ft. in the encounter. She cannot wear ordinary boots.",
+        "Powerful Stance adds a d4 to saves against Shove, Knockdown, Overrun, and effects that would knock her prone. Her Shove or Knockdown can affect Huge targets. Stable Footing grants advantage on saves or checks to avoid prone or handle difficult ground, and shortens her effective falls by 20 ft. Falling damage never leaves her prone.",
+        "Settler grants Insight, Survival, expertise when identifying poison, and Claim Staker. Spend the first hour of a long rest to fortify a 60-ft. radius that stays difficult terrain for nonallies during the rest. Hidden intruders make a Dexterity DC 11 save on first entry or reveal themselves.",
+        "Soldier adds +1 Strength and Constitution, gives Athletics, Intimidation, dice, Halfling, and Military Bearing. Fighter gives Animal Handling and Perception. Sanguine Knot and Mirror’s Glint, 4 exertion per short or long rest.",
+        "Excellence. Gain inspiration on an applicable natural 1. Spend inspiration for +5 to an attack, check, or save after rolling and before the outcome is known."
+      ],
+      "actions": [
+        "Club. +5 to hit, reach 5 ft., 1d4+3 bludgeoning.",
+        "Goring Horns. +5 to hit, reach 5 ft., 1d4+3 piercing.",
+        "Shove or Knockdown. Replace an attack. A target in reach up to Huge makes Strength DC 13. Failure deals 4 basic melee damage and knocks the target prone or pushes it 5 ft. plus 5 ft. for every 5 points it fails by.",
+        "Shield Wall (bonus action, 1 exertion). Choose a shield-wielding ally within 5 ft. Both gain +2 AC until the start of your next turn while that ally stays within 5 ft. and can act.",
+        "Doubleteam (bonus action, 1 exertion). Choose a creature in reach. The next ally within 20 ft. to make a melee weapon attack against it can spend a bonus action to roll Athletics against its maneuver DC. Success grapples it or pushes it 10 ft.",
+        "Shoulder Check (reaction, 1 exertion). When a creature within reach makes a melee attack against an ally, roll Athletics against the attacker’s maneuver DC. On success shove it 10 ft. away and move 10 ft. in that direction without provoking opportunity attacks."
+      ],
+      "tactics": "Mara uses terrain and the shield to keep intruders out of reach of the workers. She pushes or knocks down threats each time they reach the mill door."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Dryadborn",
+      "size": "Medium",
+      "speciesPublication": "Gate Pass Gazette #26",
+      "edition": "Level Up: Advanced 5th Edition",
+      "build": "a5e-dryadborn-ila-brightbough",
+      "name": "Ila Brightbough",
+      "role": "Cherry-bark bridge keeper with a spear, shield, and blossoms in place of hair.",
+      "motive": "Get the displaced villagers to their winter homes.",
+      "hook": "The far post on Ila’s bridge now sprouts leaves in the middle of winter, and something is trying to drag the roots loose."
+    },
+    {
+      "species": "Galeoni",
+      "size": "Small",
+      "speciesPublication": "Gate Pass Gazette #9",
+      "edition": "Level Up: Advanced 5th Edition",
+      "build": "a5e-galeoni-nerev-splitfin",
+      "name": "Nerev Splitfin",
+      "role": "Steel-blue shark-folk dock diver with a worn shortsword.",
+      "motive": "Bring home his cousin, last seen checking the tide locks.",
+      "hook": "Nerev knows a weak spot in the lock gate, but he needs someone on the quay to hold the rope."
+    },
+    {
+      "species": "Garoul",
+      "size": "Medium",
+      "speciesPublication": "Gate Pass Gazette #8",
+      "edition": "Level Up: Advanced 5th Edition",
+      "build": "a5e-garoul-tavin-ashmuzzle",
+      "name": "Tavin Ashmuzzle",
+      "role": "Gray wolf-folk searcher who keeps both handaxes sharpened.",
+      "motive": "Find a missing scout and bring them home alive.",
+      "hook": "Tavin followed the trail to a cellar door that somebody has nailed shut from the inside."
+    },
+    {
+      "species": "Madrai",
+      "size": "Small",
+      "speciesPublication": "Gate Pass Gazette #14",
+      "edition": "Level Up: Advanced 5th Edition",
+      "build": "a5e-madrai-kip-roadbell",
+      "name": "Kip Roadbell",
+      "role": "Flop-eared town courier with a leather dispatch satchel.",
+      "motive": "Deliver a contract before the market opens.",
+      "hook": "Kip heard someone behind the inn reciting the exact text of his still-sealed contract."
+    },
+    {
+      "species": "Oxfolk",
+      "size": "Medium",
+      "speciesPublication": "Gate Pass Gazette #16",
+      "edition": "Level Up: Advanced 5th Edition",
+      "build": "a5e-oxfolk-mara-wheelhorn",
+      "name": "Mara Wheelhorn",
+      "role": "Chestnut ox-folk mill guardian with a round shield and a wooden club.",
+      "motive": "Keep the mill open until the village has ground its winter grain.",
+      "hook": "The millrace is backing up, and Mara can hear someone counting behind the sluice."
+    }
+  ]
+}

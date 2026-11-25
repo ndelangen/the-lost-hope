@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Will-o’-Wisp",
+    "file": "portraits/will-o-wisp.png",
+    "sha256": "afb5f48af424fb8a3a1a62f92e42a44665000d02a058b8c429c4d6c7348b4eec",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "name": "Wraith",
+    "file": "portraits/wraith.png",
+    "sha256": "e3409ad5c65a5b13d49791031a3fb983078dcbc2be0fac7f6fd3a2804667554a",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "name": "Wyvern",
+    "file": "portraits/wyvern.png",
+    "sha256": "a8f2ddfae84052f4038618c23d4c596e68ad911decfe7f3af36056b1d7b1ff56",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "name": "Xorn",
+    "file": "portraits/xorn.png",
+    "sha256": "c4fa3c9aea95eaeb459a7b966a37cd4688500d9fd20026e3585c5a071101b067",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "name": "Yeti",
+    "file": "portraits/yeti.png",
+    "sha256": "084dfc3ee297017c8f35abc3f84d7e90643bb9634383cd6c186b6b59582b1254",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  }
+]

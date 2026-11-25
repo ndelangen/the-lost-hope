@@ -1,0 +1,75 @@
+[
+  {
+    "name": "Fireblood Dwarf",
+    "publication": "Dragon Magic (2006)",
+    "edition": "3.5 edition",
+    "kind": "species",
+    "parentSpecies": "Dwarf",
+    "traits": [
+      "Medium humanoid, dwarf and dragonblood subtypes. Constitution +2 and Charisma −2. Darkvision 60 ft. Base speed 20 ft., including in medium or heavy armor and under a medium or heavy load.",
+      "Fire resistance 5. Dragon Dodge gives +4 dodge AC against creatures of the dragon type. Lose the bonus when denied Dexterity to AC. Omit the usual dwarf dodge bonus against giants and the racial bonus on saves against poison.",
+      "Retains dwarf Stonecunning, including a +2 racial Search bonus for unusual stonework, a check when passing within 10 ft., the ability to find stonework traps as a rogue, and an innate sense of approximate depth. Gains +4 on checks to resist a bull rush or trip while firmly grounded.",
+      "Treat the dwarven waraxe and urgrosh as martial weapons. Retains +2 on saves against spells and spell-like effects, +1 on attacks against orcs and goblinoids, and +2 on Appraise and Craft checks involving stone or metal.",
+      "Starts with Common and Dwarven. Bonus languages are Giant, Gnome, Goblin, Orc, Terran, and Undercommon. Favored class Fighter. Level adjustment +0.",
+      "Dragonblood qualifies the character for dragonblood options and makes dragon-targeting effects apply. The character retains the humanoid type."
+    ]
+  },
+  {
+    "name": "Stonehunter Gnome",
+    "publication": "Dragon Magic (2006)",
+    "edition": "3.5 edition",
+    "kind": "species",
+    "parentSpecies": "Gnome",
+    "traits": [
+      "Small humanoid, gnome and dragonblood subtypes. Constitution +2 and Strength −2. Low-light vision and 20-ft. land speed. Uses Small weapons, gains +1 size to attacks and AC and +4 size to Hide, and has three-quarters the carrying capacity of a comparable Medium character.",
+      "Hunter’s Insight gives +2 racial to Climb and Survival. Removes the standard gnome’s racial save bonus against illusions and increase to save DCs for illusion spells.",
+      "Treats the gnome hooked hammer as martial. Keeps +1 racial attack against kobolds and goblinoids, +4 dodge AC against giants while eligible for Dexterity to AC, and +2 racial to Listen and Craft (alchemy).",
+      "Can speak with burrowing mammals once per day for one minute. With Charisma 10 or higher, also uses dancing lights, ghost sound, and prestidigitation once each per day. Caster level 1 and save DC 10 + Charisma modifier + spell level.",
+      "Starts with Common and Gnome. Bonus languages are Draconic, Dwarven, Elven, Giant, Goblin, and Orc. Favored class Ranger replaces Bard. Level adjustment +0.",
+      "Dragonblood qualifies the character for dragonblood options and makes dragon-targeting effects apply. The character retains the humanoid type."
+    ]
+  },
+  {
+    "name": "Glimmerskin Halfling",
+    "publication": "Dragon Magic (2006)",
+    "edition": "3.5 edition",
+    "kind": "species",
+    "parentSpecies": "Halfling",
+    "traits": [
+      "Small humanoid, halfling and dragonblood subtypes. Dexterity +2 and Strength −2. Land speed 20 ft. Uses Small weapons, gains +1 size to attacks and AC and +4 size to Hide, and has three-quarters the carrying capacity of a comparable Medium character.",
+      "Touch of Luck is usable once per day as an immediate action. Before a single saving throw is rolled, grant a +2 luck bonus to that save for yourself or an ally within 30 ft.",
+      "Heal is always a class skill. Keeps +2 racial to Climb, Jump, and Listen. Omits the ordinary halfling’s Move Silently bonus.",
+      "Keeps +1 racial on all saves, another +2 morale specifically against fear, and +1 racial to attacks using a thrown weapon or sling.",
+      "Starts with Common and Halfling. Bonus languages are Dwarven, Elven, Gnome, Goblin, and Orc. Favored class Rogue. Level adjustment +0.",
+      "Dragonblood qualifies the character for dragonblood options and makes dragon-targeting effects apply. The character retains the humanoid type."
+    ]
+  },
+  {
+    "name": "Frostblood Orc",
+    "publication": "Dragon Magic (2006)",
+    "edition": "3.5 edition",
+    "kind": "species",
+    "parentSpecies": "Orc",
+    "traits": [
+      "Medium humanoid, orc and dragonblood subtypes. Strength +4, Intelligence −2, Wisdom −2, and Charisma −2. Land speed 30 ft. and darkvision 60 ft.",
+      "Light sensitivity causes the character to be dazzled in bright sunlight or inside a daylight spell. Starts with Common and Orc. Bonus languages are Dwarven, Giant, Gnoll, Goblin, and Undercommon. Favored class Barbarian. Level adjustment +0.",
+      "Cold resistance 10 and vulnerability to fire. Apply 50% extra damage from fire.",
+      "Endurance is a bonus feat. If a later bonus feat would grant Endurance again, choose a different feat whose prerequisites the character meets.",
+      "Dragonblood qualifies the character for dragonblood options and makes dragon-targeting effects apply. The character retains the humanoid type."
+    ]
+  },
+  {
+    "name": "Frostblood Half-Orc",
+    "publication": "Dragon Magic (2006)",
+    "edition": "3.5 edition",
+    "kind": "species",
+    "parentSpecies": "Half-Orc",
+    "traits": [
+      "Medium humanoid, orc and dragonblood subtypes. Strength +2, Intelligence −2, and Charisma −2. Starting Intelligence has a minimum of 3. Land speed 30 ft. and darkvision 60 ft.",
+      "Orc Blood counts the character as an orc for race-dependent effects. Starts with Common and Orc. Bonus languages are Draconic, Giant, Gnoll, Goblin, and Abyssal. Favored class Barbarian. Level adjustment +0.",
+      "Cold resistance 10 and vulnerability to fire. Apply 50% extra damage from fire.",
+      "Endurance is a bonus feat. If a later bonus feat would grant Endurance again, choose a different feat whose prerequisites the character meets.",
+      "Dragonblood qualifies the character for dragonblood options and makes dragon-targeting effects apply. The character retains the humanoid type."
+    ]
+  }
+]

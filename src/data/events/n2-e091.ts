@@ -49,4 +49,7 @@ export default createEvent({
       ' across the repaired span. The bridge collapsed again after they crossed.',
     ],
   ],
+  illustrations: [
+    '/assets/scenes/the-party-repairs-the-crater-bridge-beneath-an-approaching-shadow.png',
+  ],
 })

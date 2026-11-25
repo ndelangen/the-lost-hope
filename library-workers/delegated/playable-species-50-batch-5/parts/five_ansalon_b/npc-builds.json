@@ -1,0 +1,171 @@
+{
+  "builds": [
+    {
+      "id": "ansalon-thanoi-orruk-hollowtusk",
+      "type": "Monstrous humanoid (cold)",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "size": "Medium",
+      "title": "Thanoi racial class 5, ice-channel sentry",
+      "difficulty": "CR 2 per racial table. ECL 5 with 3 racial Hit Dice and level adjustment +2.",
+      "speed": "20 ft., swim 40 ft.",
+      "senses": "Darkvision 60 ft.",
+      "languages": "Thanoi",
+      "ac": 16,
+      "hp": 29,
+      "hitDice": "3d8+12",
+      "initiative": 2,
+      "abilityScores": {
+        "STR": 20,
+        "DEX": 14,
+        "CON": 18,
+        "INT": 8,
+        "WIS": 8,
+        "CHA": 8
+      },
+      "skills": [
+        "Balance +4 (+12 on ice)",
+        "Survival +1",
+        "Swim +15"
+      ],
+      "traits": [
+        "BAB +3. Grapple +8. Saves Fort +5, Ref +5, Will +2. Touch AC 12, flat-footed AC 14. Wears no armor.",
+        "Power Attack and Weapon Focus (club). Immune to cold. Fire deals 50% extra damage.",
+        "Great Breath allows 30 minutes underwater before the first Constitution check. As a creature with a swim speed, Orruk can take 10 on Swim checks even under pressure. The printed +8 Swim bonus is counted once."
+      ],
+      "actions": [
+        "Club +9 melee, 1d6+5 bludgeoning. Throw at +6 ranged before range penalties, 1d6+5 bludgeoning. Range increment 10 ft., maximum range 50 ft.",
+        "Tusks +8 melee, 2d4+5 piercing. Club and tusks full attack uses club +9 for 1d6+5 and tusks +3 for 2d4+2.",
+        "Power Attack allows subtracting up to 3 from all melee attack rolls to add the same amount to melee damage until his next turn, including the natural tusk attack."
+      ],
+      "tactics": "Orruk heads into the channel when the surface path crowds. If cornered on shore, he starts with the club and adds his tusks when he can stand and full attack."
+    },
+    {
+      "id": "ansalon-ursoi-saltlistener",
+      "type": "Monstrous humanoid",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "size": "Large",
+      "title": "Ursoi racial class 7, crossing guide",
+      "difficulty": "CR 4 per racial table. ECL 7 with 5 racial Hit Dice and level adjustment +2.",
+      "speed": "30 ft.",
+      "senses": "Darkvision 60 ft., scent 20 ft.",
+      "languages": "Ursoi. Uses gestures with outsiders.",
+      "ac": 15,
+      "hp": 51,
+      "hitDice": "5d8+25",
+      "initiative": 2,
+      "abilityScores": {
+        "STR": 24,
+        "DEX": 14,
+        "CON": 20,
+        "INT": 10,
+        "WIS": 16,
+        "CHA": 6
+      },
+      "skills": [
+        "Climb +10",
+        "Listen +6",
+        "Spot +7",
+        "Survival +13",
+        "Swim +11"
+      ],
+      "traits": [
+        "BAB +5. Grapple +16. Saves Fort +6, Ref +6, Will +7. Touch AC 11, flat-footed AC 13. Natural armor +4, size −1, Dexterity +2.",
+        "10-ft. space and reach. Cold resistance 10. Power Attack and Track. He can locate a scent’s direction as a move action and pinpoint a source within 5 ft.",
+        "Scent radius is 20 ft. per the racial table, 40 ft. upwind and 10 ft. downwind for ordinary scents."
+      ],
+      "actions": [
+        "Claw +11 melee, 1d6+7 slashing. Full attack with two claws +11 each for 1d6+7 and a secondary bite +6 for 1d8+3 piercing.",
+        "Improved Grab on a claw hit against Medium or smaller. Make the +16 grapple check without a touch attack. He can use a one-claw hold and stay outside the grapple by taking −20 on grapple checks, for a modifier of −4. Successful grapple checks in later rounds deal claw damage.",
+        "Power Attack allows subtracting up to 5 from melee attack rolls to add the same amount to natural weapon damage until his next turn."
+      ],
+      "tactics": "Saltlistener stands between the travelers and the loose ice. He holds a single attacker when he can so his charges have time to back away."
+    },
+    {
+      "id": "dlcs-baaz-bress-tarn",
+      "type": "Dragon",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "size": "Medium",
+      "title": "Baaz draconian with 2 racial Hit Dice and Fighter 1",
+      "difficulty": "CR 3 estimated from the printed Baaz CR 2 plus one associated fighter level. ECL 4 with level adjustment +1.",
+      "speed": "30 ft., glide 4 ft. horizontally per foot fallen",
+      "senses": "Darkvision 60 ft., low-light vision",
+      "languages": "Common",
+      "ac": 18,
+      "hp": 34,
+      "hitDice": "2d12+1d10+9",
+      "initiative": 5,
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 12,
+        "CON": 16,
+        "INT": 10,
+        "WIS": 10,
+        "CHA": 10
+      },
+      "skills": [
+        "Bluff +5",
+        "Disguise +5",
+        "Intimidate +5",
+        "Jump +3",
+        "Listen +5",
+        "Ride +2",
+        "Spot +5"
+      ],
+      "traits": [
+        "BAB +3. Grapple +6. Saves Fort +8, Ref +4, Will +3. Touch AC 11, flat-footed AC 17. Chain shirt +4, light wooden shield +1, natural armor +2 and Dexterity +1. Armor check penalty −3.",
+        "Weapon Focus (longsword), Power Attack, Improved Initiative, Run. Spell resistance 9. Immune to sleep, paralysis and disease.",
+        "Glide negates falling damage. Inspired by Dragons grants +1 morale to attacks and saves if a dragon commander is visible or he enters battle under one. No commander is present in this encounter."
+      ],
+      "actions": [
+        "Longsword +7 melee, 1d8+3 slashing, 19–20/×2. Shield stays equipped. On a full attack he can add a secondary bite +1 melee for 1d4+1 piercing.",
+        "With both hands free, full attack with two claws +6 each, 1d4+3 slashing, and secondary bite +1, 1d4+1 piercing.",
+        "Death Throes petrifies Bress. A wielder whose slashing or piercing weapon struck the fatal blow must pass a DC 15 Reflex save or leave that weapon trapped until the stone crumbles in 1d4 minutes."
+      ],
+      "tactics": "Bress takes the narrow end of the ramp. After warning intruders once, he fights with his shield up and glides down to the lower landing if forced off the edge."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Orruk Hollowtusk",
+      "species": "Thanoi",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Races of Ansalon (2007)",
+      "build": "ansalon-thanoi-orruk-hollowtusk",
+      "role": "Ice-channel sentry.",
+      "motive": "Keep his clan’s fish racks accessible through the thaw.",
+      "hook": "A supply sledge blocks the shallow crossing. Orruk wants it pulled clear before the water climbs over the runners."
+    },
+    {
+      "name": "Saltlistener",
+      "species": "Ursoi",
+      "size": "Large",
+      "edition": "3.5 edition",
+      "speciesPublication": "Races of Ansalon (2007)",
+      "build": "ansalon-ursoi-saltlistener",
+      "role": "Guide for travelers crossing pack ice.",
+      "motive": "Bring his guests safely to the far bank.",
+      "hook": "Saltlistener lays two short sticks in an X on the snow. The old crossing has cracked and he is trying to point out the safer route."
+    },
+    {
+      "name": "Bress Tarn",
+      "species": "Draconian",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Dragonlance Campaign Setting (2003)",
+      "build": "dlcs-baaz-bress-tarn",
+      "role": "Baaz guard at a quarry landing.",
+      "motive": "Keep the lower ramp clear while the last work crew climbs out.",
+      "hook": "A quarry bell has fallen silent. Bress needs someone to reach the lower landing and find out why."
+    }
+  ]
+}

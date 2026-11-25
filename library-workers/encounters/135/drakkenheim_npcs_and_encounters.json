@@ -1,0 +1,713 @@
+[
+  {
+    "name": "Big Linda",
+    "decision": "separate",
+    "pages": "Buckledown Row, p. 163.",
+    "notes": "The source provides a named base and explicit encounter changes.",
+    "statBlock": {
+      "name": "Big Linda",
+      "publication": "Dungeons of Drakkenheim",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Huge beast, unaligned",
+      "ac": 13,
+      "hp": 136,
+      "speed": "50 ft.",
+      "hitDice": "13d12 + 52",
+      "cr": "9",
+      "xp": 5000,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 25,
+          "modifier": 7
+        },
+        "Dex": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Con": {
+          "score": 19,
+          "modifier": 4
+        },
+        "Int": {
+          "score": 2,
+          "modifier": -4
+        },
+        "Wis": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Cha": {
+          "score": 9,
+          "modifier": -1
+        }
+      },
+      "otherStatistics": "Natural armor. Perception +4. Immune to acid. Blindsight 30 ft., passive Perception 14. No languages.",
+      "description": "The Queen of Thieves brings her arena champion out of its den with a whistle.",
+      "sections": {
+        "Printed source": "Buckledown Row, p. 163.",
+        "Base stat block": "Tyrannosaurus Rex, SRD 5.1 (2014 fifth-edition rules). The arena encounter adds Acid Spew, acid immunity, blindsight, and the Queen’s charm. Use the adventure’s CR 9.",
+        "Traits": "The Queen’s Charm. Big Linda is permanently Charmed by the Queen of Thieves and generally obeys her spoken commands.",
+        "Actions": "Multiattack. Make one Bite and one Tail attack against different targets.\nBite. Melee weapon attack, +10 to hit, reach 10 ft., one target. Hit 33 (4d12 + 7) piercing damage. A Medium or smaller target is Grappled (escape DC 17) and Restrained until the grapple ends. Big Linda cannot Bite a different target during that grapple.\nTail. Melee weapon attack, +10 to hit, reach 10 ft., one target. Hit 20 (3d8 + 7) bludgeoning damage.\nAcid Spew (recharge 5–6). Creatures in a 30-ft. cone make a DC 15 Dexterity save against 49 (11d8) acid damage, halved on success."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Queen of Thieves",
+          "terms": [
+            "Queen of Thieves"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "name": "Cavalier",
+    "decision": "separate",
+    "pages": "Appendix B, p. 218.",
+    "notes": "The source provides a full standalone profile.",
+    "statBlock": {
+      "name": "Cavalier",
+      "publication": "Dungeons of Drakkenheim",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium humanoid, any alignment",
+      "ac": 19,
+      "hp": 90,
+      "speed": "30 ft.",
+      "hitDice": "12d8 + 36",
+      "cr": "5",
+      "xp": 1800,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 18,
+          "modifier": 4
+        },
+        "Dex": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Con": {
+          "score": 16,
+          "modifier": 3
+        },
+        "Int": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Wis": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Cha": {
+          "score": 15,
+          "modifier": 2
+        }
+      },
+      "otherStatistics": "Splint and shield. Wisdom +4 and Charisma +5 saves. Animal Handling +4, Athletics +7, Perception +4, Persuasion +5. Passive Perception 14. Any two languages.",
+      "description": "A knight trained to protect a mount as well as to fight from its back.",
+      "sections": {
+        "Printed source": "Appendix B, p. 218.",
+        "Traits": "Bravery. Advantage on saves against being Frightened.\nLight’s Fury. Add 9 (2d8) radiant damage to a weapon hit, already included below.\nSkilled Rider. While mounted, the cavalier can make an attack targeting its mount target the cavalier instead.",
+        "Spellcasting": "8th-level paladin spellcasting. Charisma, save DC 13, +5 to hit.\n1st level (4 slots). Bless, Command, Cure Wounds.\n2nd level (3 slots). Branding Smite, Find Steed.",
+        "Actions": "Multiattack. Make two melee attacks.\nLance. Melee weapon attack, +7 to hit, reach 10 ft., one target. Disadvantage within 5 ft. Hit 10 (1d12 + 4) piercing and 9 (2d8) radiant damage.\nJavelin. Melee or ranged weapon attack, +7 to hit, reach 5 ft. or range 30/120 ft., one target. Hit 7 (1d6 + 4) piercing and 9 (2d8) radiant damage."
+      }
+    }
+  },
+  {
+    "name": "Chaplain",
+    "decision": "separate",
+    "pages": "Appendix B, p. 219. Purge Contamination, Appendix D, p. 229.",
+    "notes": "The source provides a full standalone profile.",
+    "statBlock": {
+      "name": "Chaplain",
+      "publication": "Dungeons of Drakkenheim",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium humanoid, any alignment",
+      "ac": 18,
+      "hp": 58,
+      "speed": "30 ft.",
+      "hitDice": "9d8 + 18",
+      "cr": "6",
+      "xp": 2300,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 13,
+          "modifier": 1
+        },
+        "Dex": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Con": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Int": {
+          "score": 11,
+          "modifier": 0
+        },
+        "Wis": {
+          "score": 17,
+          "modifier": 3
+        },
+        "Cha": {
+          "score": 13,
+          "modifier": 1
+        }
+      },
+      "otherStatistics": "Chain mail and shield. Wisdom +6 and Charisma +4 saves. Insight +6, Persuasion +4, Religion +3. Passive Perception 13. Any two languages.",
+      "description": "A cleric who carries a spear into battle and has magic to remove contamination.",
+      "sections": {
+        "Printed source": "Appendix B, p. 219. Purge Contamination, Appendix D, p. 229.",
+        "Traits": "Devotion. Advantage on saves against being Charmed or Frightened.",
+        "Spellcasting": "9th-level cleric spellcasting. Wisdom, printed save DC 12, printed +4 to hit.\nAt will. Light, Mending, Sacred Flame, Spare the Dying.\n1st level (4 slots). Bless, Guiding Bolt, Healing Word.\n2nd level (3 slots). Lesser Restoration, Prayer of Healing, Spiritual Weapon.\n3rd level (3 slots). Dispel Magic, Purge Contamination, Spirit Guardians.\n4th level (3 slots). Banishment, Divination.\n5th level (1 slot). Flame Strike.",
+        "Setting spell": "Purge Contamination (3rd level). Cast for 1 hour and touch one contaminated humanoid. Consume 100 gp of alchemical fluids or holy water. Remove every contamination level and mutation, then give the target one level of Exhaustion for each level removed.",
+        "Actions": "Spear. Melee or ranged weapon attack, +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) on a two-handed melee attack."
+      },
+      "ruleNotes": [
+        "The printing explicitly lists spell save DC 12, +4 to hit with spells, and +3 to hit with the spear. The profile retains those values."
+      ]
+    }
+  },
+  {
+    "name": "Eoghan Ghostweaver",
+    "decision": "separate",
+    "pages": "Shrine of Morrigan, p. 105. Purge Contamination, Appendix D, p. 229.",
+    "notes": "The source provides a named base and explicit encounter changes.",
+    "statBlock": {
+      "name": "Eoghan Ghostweaver",
+      "publication": "Dungeons of Drakkenheim",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium humanoid (elf), any alignment",
+      "ac": 12,
+      "hp": 99,
+      "speed": "30 ft.",
+      "hitDice": "18d8 + 18",
+      "cr": "12",
+      "xp": 8400,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Dex": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Con": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Int": {
+          "score": 15,
+          "modifier": 2
+        },
+        "Wis": {
+          "score": 20,
+          "modifier": 5
+        },
+        "Cha": {
+          "score": 16,
+          "modifier": 3
+        }
+      },
+      "otherStatistics": "Intelligence +6 and Wisdom +9 saves. Medicine +9, Nature +6, Survival +9, Perception +9. Resists damage from spells. Passive Perception 19. Elven and Druidic.",
+      "description": "An elven priest who tends the Shrine of Morrigan with three treants and offers resurrection at a price.",
+      "sections": {
+        "Printed source": "Shrine of Morrigan, p. 105. Purge Contamination, Appendix D, p. 229.",
+        "Base stat block": "Archmage, SRD 5.1 (2014 fifth-edition rules). Use the adventure’s Intelligence, Wisdom, trained skills, languages, and druid spell list. The new list drops the base defenses that depended on Mage Armor and Stoneskin.",
+        "Traits": "Magic Resistance. Advantage on saves against spells and other magical effects.",
+        "Spellcasting": "18th-level druid spellcasting. Wisdom, save DC 17, +9 to hit before the staff’s bonus.\nAt will. Druidcraft, Mending, Poison Spray, Produce Flame.\n1st level (4 slots). Cure Wounds, Entangle, Faerie Fire, Speak with Animals.\n2nd level (3 slots). Animal Messenger, Beast Sense, Hold Person.\n3rd level (3 slots). Conjure Animals, Purge Contamination, Sleet Storm.\n4th level (3 slots). Ice Storm, Polymorph, Wall of Fire.\n5th level (3 slots). Commune with Nature, Cone of Cold, Greater Restoration.\n6th level (1 slot). Conjure Fey, Heal.\n7th level (1 slot). Resurrection.\n8th level (1 slot). Feeblemind.\n9th level (1 slot). Foresight.",
+        "Setting spell": "Purge Contamination (3rd level). Cast for 1 hour and touch one contaminated humanoid. Consume 100 gp of alchemical fluids or holy water. Remove every contamination level and mutation, then give the target one level of Exhaustion for each level removed.",
+        "Actions": "Staff of the Woodlands. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit 5 (1d6 + 2) bludgeoning damage, or 6 (1d8 + 2) when wielded in two hands.\nDagger. Melee or ranged weapon attack, +6 to hit, reach 5 ft. or range 20/60 ft., one target. Hit 4 (1d4 + 2) piercing damage.",
+        "Staff of the Woodlands": "While holding the staff, add +2 to spell attack rolls. The staff has 10 charges and regains 1d6 + 4 per dawn. If the last charge is spent, the staff becomes mundane on a roll of 1 on a d20.\nOne action, using Eoghan’s spell save DC. Animal Friendship (1), Awaken (5), Barkskin (2), Locate Animals or Plants (2), Speak with Animals (1), Speak with Plants (3), or Wall of Thorns (6). Pass without Trace costs no charge.\nTree Form costs one charge and one action while planting the staff in fertile ground. It grows into a 60-ft. tree with a 5-ft.-diameter trunk and a 20-ft. branch radius. Touch the tree and speak its command word as an action to return it to staff form.",
+        "Encounter notes": "Three treants defend Eoghan if he is attacked. His Resurrection ritual requires a living humanoid sacrifice whose level or CR equals or exceeds the deceased’s, a diamond or delerium substitute, and a personal offering. If he uses delerium in place of the diamond, the revived creature gains a random Drakkenheim Madness."
+      },
+      "ruleNotes": [
+        "Recomputed the inherited save proficiencies and passive Perception from the adventure’s ability scores and training. Staff attack and charge rules follow SRD 5.1."
+      ]
+    }
+  },
+  {
+    "name": "Hedge Mage",
+    "decision": "separate",
+    "pages": "Appendix B, p. 219.",
+    "notes": "The source provides a full standalone profile.",
+    "statBlock": {
+      "name": "Hedge Mage",
+      "publication": "Dungeons of Drakkenheim",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium humanoid, any alignment",
+      "ac": 12,
+      "hp": 22,
+      "speed": "30 ft.",
+      "hitDice": "4d8 + 4",
+      "cr": "1",
+      "xp": 200,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Dex": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Con": {
+          "score": 13,
+          "modifier": 1
+        },
+        "Int": {
+          "score": 15,
+          "modifier": 2
+        },
+        "Wis": {
+          "score": 11,
+          "modifier": 0
+        },
+        "Cha": {
+          "score": 11,
+          "modifier": 0
+        }
+      },
+      "otherStatistics": "AC 15 with Mage Armor. Arcana +4. Passive Perception 10. Any two languages.",
+      "description": "A mage who practices outside the Amethyst Academy.",
+      "sections": {
+        "Printed source": "Appendix B, p. 219.",
+        "Spellcasting": "4th-level wizard spellcasting. Intelligence, save DC 12, +4 to hit.\nAt will. Chill Touch, Mage Hand, Shocking Grasp.\n1st level (4 slots). False Life, Mage Armor, Magic Missile.\n2nd level (3 slots). Acid Arrow, Web.",
+        "Actions": "Dagger. Melee or ranged weapon attack, +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit 4 (1d4 + 2) piercing damage."
+      }
+    }
+  },
+  {
+    "name": "Lenore von Kessel",
+    "decision": "separate",
+    "pages": "Queen’s Park, p. 135.",
+    "notes": "The source provides a named base and explicit encounter changes.",
+    "statBlock": {
+      "name": "Lenore von Kessel",
+      "publication": "Dungeons of Drakkenheim",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium monstrosity, lawful evil",
+      "ac": 15,
+      "hp": 127,
+      "speed": "30 ft.",
+      "hitDice": "17d8 + 51",
+      "cr": "6",
+      "xp": 2300,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Dex": {
+          "score": 15,
+          "modifier": 2
+        },
+        "Con": {
+          "score": 16,
+          "modifier": 3
+        },
+        "Int": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Wis": {
+          "score": 13,
+          "modifier": 1
+        },
+        "Cha": {
+          "score": 15,
+          "modifier": 2
+        }
+      },
+      "otherStatistics": "Natural armor. Deception +5, Insight +4, Perception +4, Stealth +5. Darkvision 60 ft., passive Perception 14. Common.",
+      "description": "The missing queen-consort lives in the gardens of Queen’s Park. She covers her face with a cracked porcelain mask.",
+      "sections": {
+        "Printed source": "Queen’s Park, p. 135.",
+        "Base stat block": "Medusa, SRD 5.1 (2014 fifth-edition rules). Queen’s Park replaces the inherited Petrifying Gaze and actions with Radiant Gaze and Tentacle Hair.",
+        "Traits": "Radiant Gaze. When a creature that can see Lenore’s eyes starts its turn within 30 ft. of her, she can force a DC 14 Constitution save if she is not Incapacitated and can see it. Failure deals 22 (4d10) radiant damage and adds one contamination level. Success halves the damage.\nAvert Eyes. Unless Surprised, a creature can look away at the start of its turn to avoid the save. It cannot see Lenore until its next turn starts, when it can avert its gaze again. If it looks at her early, it immediately saves against the gaze.\nOwn Reflection. If Lenore sees herself in a polished surface within 30 ft. while in bright light, she is Blinded and Incapacitated for 1d6 hours.",
+        "Actions": "Tentacle Hair. Melee weapon attack, +5 to hit, reach 5 ft., one creature. Hit 4 (1d4 + 2) piercing and 14 (4d6) necrotic damage. The target makes a DC 14 Constitution save and gains one contamination level on failure.",
+        "Encounter notes": "Her attendants use Dryad statistics. Her own likeness and the names of her lost family provoke her."
+      },
+      "ruleNotes": [
+        "The encounter replaces the Medusa’s actions. Tentacle Hair is its only printed replacement."
+      ]
+    }
+  },
+  {
+    "name": "Minazorond",
+    "decision": "separate",
+    "pages": "Castle Drakken, pp. 181, 183. Tower Dragon traits, Appendix A, p. 198. Seals and Crown, Appendix D, p. 233.",
+    "notes": "The source provides a named base and explicit encounter changes.",
+    "statBlock": {
+      "name": "Minazorond",
+      "publication": "Dungeons of Drakkenheim",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Gargantuan dragon, lawful good",
+      "ac": 22,
+      "hp": 444,
+      "speed": "40 ft., fly 80 ft., swim 40 ft.",
+      "hitDice": "24d20 + 192",
+      "cr": "22",
+      "xp": 41000,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 29,
+          "modifier": 9
+        },
+        "Dex": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Con": {
+          "score": 27,
+          "modifier": 8
+        },
+        "Int": {
+          "score": 18,
+          "modifier": 4
+        },
+        "Wis": {
+          "score": 17,
+          "modifier": 3
+        },
+        "Cha": {
+          "score": 21,
+          "modifier": 5
+        }
+      },
+      "otherStatistics": "Natural armor. Dexterity +7, Constitution +15, Wisdom +10, Charisma +12 saves. Insight +10, Perception +17, Stealth +7. Immune to lightning. Resists poison, psychic, and bludgeoning, piercing, and slashing from attacks that are neither magical nor adamantine. Immune to Charmed, Exhaustion, Frightened, Paralyzed, Petrified, and Poisoned. Blindsight 60 ft., darkvision and truesight 120 ft., passive Perception 27. Common and Draconic. He remains silent during the palace encounter.",
+      "description": "The ancient bronze guardian of Castle Drakken treats its mutated occupants as residents and humanoid visitors as intruders.",
+      "sections": {
+        "Printed source": "Castle Drakken, pp. 181, 183. Tower Dragon traits, Appendix A, p. 198. Seals and Crown, Appendix D, p. 233.",
+        "Base stat block": "Ancient Bronze Dragon, SRD 5.1 (2014 fifth-edition rules). Add the Tower Dragon’s guardian traits from Appendix A. The palace encounter adds the trigger distance, patrol limits, and response to a Seal of Drakkenheim. Use the ancient dragon’s CR 22.",
+        "Traits": "Amphibious. Breathes air and water.\nLegendary Resistance (3/day). Turn a failed save into a success.\nConstructed Nature. Needs no food, air, drink, or sleep.\nFalse Appearance. While still, he resembles an inanimate bronze statue.\nFaultless Tracker. A creature that triggers his activation becomes his quarry. He knows where and how far away it is until it leaves Drakkenheim or he is destroyed.\nImmutable Form. Spells and effects cannot change his form.\nMagic Resistance. Advantage on saves against spells and other magical effects.\nMagic Weapons. His weapon attacks are magical.\nRejuvenation. After destruction, he returns to full HP in 1 hour unless Disintegrate is cast on his remains.",
+        "Actions": "Multiattack. May use Frightful Presence, then makes one Bite and two Claw attacks.\nBite. Melee weapon attack, +16 to hit, reach 15 ft., one target. Hit 20 (2d10 + 9) piercing damage.\nClaw. Melee weapon attack, +16 to hit, reach 10 ft., one target. Hit 16 (2d6 + 9) slashing damage.\nTail. Melee weapon attack, +16 to hit, reach 20 ft., one target. Hit 18 (2d8 + 9) bludgeoning damage.\nFrightful Presence. Chosen creatures within 120 ft. who know he is there make a DC 20 Wisdom save or are Frightened for 1 minute. Repeat at the end of each turn. Once a creature succeeds or the effect ends, it is immune to this presence for 24 hours.\nBreath Weapons (recharge 5–6). Choose Lightning Breath or Repulsion Breath.\nLightning Breath. Creatures in a 120-ft. line, 10 ft. wide, make a DC 23 Dexterity save against 88 (16d10) lightning damage, halved on success.\nRepulsion Breath. Creatures in a 30-ft. cone make a DC 23 Strength save or are pushed 60 ft. away.",
+        "Legendary Actions": "Three legendary actions. Recover all at the start of his turn and use one option at the end of another creature’s turn.\nDetect. Make a Wisdom (Perception) check.\nTail Attack. Make one Tail attack.\nWing Attack (costs 2). Creatures within 15 ft. make a DC 24 Dexterity save or take 16 (2d6 + 9) bludgeoning damage and fall Prone. He can then fly up to half his flying speed.",
+        "Encounter notes": "He attacks intruders who approach within 150 ft. of the palace. He cannot follow them inside and stops pursuit at the castle grounds. He ignores creatures attuned to a Seal of Drakkenheim unless they attack him or cast a spell on him, in which case he ignores that protection for 24 hours. An action presenting a seal within 30 ft. can rebuke him if he can see or hear the presenter and loses a contested Charisma check. He cannot move or take actions or reactions for 1 minute or until he takes damage. If he wins the check, he is immune to that creature’s rebuke for 24 hours. He obeys the wearer of the Crown of Westemär. Wish alone restores his sanity."
+      },
+      "ruleNotes": [
+        "The base dragon’s self-transformation is suppressed here because the adventure gives Minazorond Immutable Form."
+      ],
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Tower Dragon",
+          "terms": [
+            "Tower Dragon"
+          ]
+        },
+        {
+          "kind": "monster",
+          "name": "Wall Gargoyle",
+          "terms": [
+            "Wall Gargoyle"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "name": "Oscar Yoren",
+    "decision": "separate",
+    "pages": "Reed Manor, p. 99.",
+    "notes": "The source provides a named base and explicit encounter changes.",
+    "statBlock": {
+      "name": "Oscar Yoren",
+      "publication": "Dungeons of Drakkenheim",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium humanoid (human), any alignment",
+      "ac": 12,
+      "hp": 72,
+      "speed": "30 ft.",
+      "hitDice": "9d8",
+      "cr": "6",
+      "xp": 2300,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 9,
+          "modifier": -1
+        },
+        "Dex": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Con": {
+          "score": 11,
+          "modifier": 0
+        },
+        "Int": {
+          "score": 17,
+          "modifier": 3
+        },
+        "Wis": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Cha": {
+          "score": 11,
+          "modifier": 0
+        }
+      },
+      "otherStatistics": "AC 15 with Mage Armor. Intelligence +6 and Wisdom +4 saves. Arcana +6, History +6. Resists necrotic and poison. Darkvision 60 ft., passive Perception 11. Any four languages.",
+      "description": "An alchemist who hides in Reed Manor and trades potions and access to his research.",
+      "sections": {
+        "Printed source": "Reed Manor, p. 99.",
+        "Base stat block": "Mage, SRD 5.1 (2014 fifth-edition rules). Reed Manor raises the total to 72 HP, adds darkvision and damage resistances, and replaces the prepared spells.",
+        "Traits": "Haze Adaptation. Oscar can rest normally in Drakkenheim. He remains subject to contamination.",
+        "Spellcasting": "9th-level wizard spellcasting. Intelligence, save DC 14, +6 to hit.\nAt will. Chill Touch, Mage Hand, Ray of Frost.\n1st level (4 slots). False Life, Mage Armor, Magic Missile, Shield.\n2nd level (3 slots). Invisibility, Misty Step, Web.\n3rd level (3 slots). Animate Dead, Counterspell, Lightning Bolt.\n4th level (3 slots). Blight, Polymorph.\n5th level (1 slot). Cloudkill.",
+        "Spellbook": "All prepared spells, plus Alarm, Find Familiar, Glyph of Warding, Contact Other Plane, Dispel Magic, Dimension Door, Magic Circle, and Planar Binding.",
+        "Actions": "Dagger. Melee or ranged weapon attack, +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit 4 (1d4 + 2) piercing damage."
+      },
+      "ruleNotes": [
+        "The adventure gives Oscar a fixed 72 HP and supplies no replacement Hit Dice. The profile retains the base Hit Dice for effects that count them."
+      ]
+    }
+  },
+  {
+    "name": "Ratling Guttersnipe",
+    "decision": "separate",
+    "pages": "Appendix A, p. 202.",
+    "notes": "The source provides a named base and explicit encounter changes.",
+    "statBlock": {
+      "name": "Ratling Guttersnipe",
+      "publication": "Dungeons of Drakkenheim",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium monstrosity, any alignment",
+      "ac": 12,
+      "hp": 27,
+      "speed": "30 ft., climb 30 ft., swim 30 ft.",
+      "hitDice": "6d8",
+      "cr": "1",
+      "xp": 200,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Dex": {
+          "score": 15,
+          "modifier": 2
+        },
+        "Con": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Int": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Wis": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Cha": {
+          "score": 16,
+          "modifier": 3
+        }
+      },
+      "otherStatistics": "Deception +5, Insight +4, Investigation +5, Perception +6, Persuasion +5, Sleight of Hand +4, Stealth +4. Passive Perception 16. Any two languages.",
+      "description": "A ratling scout that can slip through sewers and climb out of reach.",
+      "sections": {
+        "Printed source": "Appendix A, p. 202.",
+        "Base stat block": "Spy, SRD 5.1 (2014 fifth-edition rules), with traits and Bite from the adventure’s Ratling. The variant changes the creature type to Monstrosity and adds climb and swim speeds. Size, alignment, and remaining statistics follow Spy.",
+        "Traits": "Keen Smell. Advantage on Wisdom (Perception) checks relying on smell.\nPack Tactics. Advantage against a target if a non-Incapacitated ally is within 5 ft. of it.\nSneak Attack (1/turn). A weapon hit deals 7 (2d6) extra damage if the attack had advantage, or if an ally within 5 ft. of the target is not Incapacitated and the attack did not have disadvantage.",
+        "Actions": "Multiattack. Make two melee attacks.\nShortsword. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 5 (1d6 + 2) piercing damage.\nBite. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 4 (1d4 + 2) piercing damage.\nHand Crossbow. Ranged weapon attack, +4 to hit, range 30/120 ft., one target. Hit 5 (1d6 + 2) piercing damage.",
+        "Bonus Actions": "Cunning Action. Dash, Disengage, or Hide."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Ratling",
+          "terms": [
+            "Ratling"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "name": "Scoundrel",
+    "decision": "separate",
+    "pages": "Appendix B, p. 219.",
+    "notes": "The source provides a full standalone profile.",
+    "statBlock": {
+      "name": "Scoundrel",
+      "publication": "Dungeons of Drakkenheim",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium humanoid, any alignment",
+      "ac": 14,
+      "hp": 44,
+      "speed": "30 ft.",
+      "hitDice": "8d8 + 8",
+      "cr": "3",
+      "xp": 700,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Dex": {
+          "score": 17,
+          "modifier": 3
+        },
+        "Con": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Int": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Wis": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Cha": {
+          "score": 15,
+          "modifier": 2
+        }
+      },
+      "otherStatistics": "Leather armor. Acrobatics +5, Deception +6, Sleight of Hand +5, Stealth +7. Passive Perception 10. Thieves’ Cant and any two languages.",
+      "description": "A street rogue with a few spells for escapes and ambushes.",
+      "sections": {
+        "Printed source": "Appendix B, p. 219.",
+        "Traits": "Sneak Attack (1/turn). A weapon hit deals 14 (4d6) extra damage if the attack had advantage, or if an ally within 5 ft. of the target is not Incapacitated and the attack did not have disadvantage.",
+        "Spellcasting": "3rd-level wizard spellcasting. Intelligence, save DC 12, +4 to hit.\nAt will. Mage Hand (the hand is invisible), Minor Illusion, Prestidigitation.\n1st level (4 slots). Charm Person, Disguise Self, Sleep.\n2nd level (2 slots). Invisibility, Suggestion.",
+        "Actions": "Shortsword. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 6 (1d6 + 3) piercing damage.\nHand Crossbow. Ranged weapon attack, +5 to hit, range 30/120 ft., one target. Hit 6 (1d6 + 3) piercing damage.",
+        "Bonus Actions": "Cunning Action. Dash, Disengage, or Hide."
+      },
+      "ruleNotes": [
+        "The printed level and slots are retained, including four 1st-level slots for the 3rd-level caster."
+      ]
+    }
+  },
+  {
+    "name": "Urban Ranger",
+    "decision": "separate",
+    "pages": "Appendix B, p. 220.",
+    "notes": "The source provides a full standalone profile.",
+    "statBlock": {
+      "name": "Urban Ranger",
+      "publication": "Dungeons of Drakkenheim",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium humanoid, any alignment",
+      "ac": 15,
+      "hp": 52,
+      "speed": "30 ft., climb 30 ft.",
+      "hitDice": "8d8 + 16",
+      "cr": "3",
+      "xp": 700,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Dex": {
+          "score": 17,
+          "modifier": 3
+        },
+        "Con": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Int": {
+          "score": 11,
+          "modifier": 0
+        },
+        "Wis": {
+          "score": 15,
+          "modifier": 2
+        },
+        "Cha": {
+          "score": 11,
+          "modifier": 0
+        }
+      },
+      "otherStatistics": "Studded leather. Athletics +5, Perception +6, Stealth +7, Survival +6. Passive Perception 16. Any two languages.",
+      "description": "A rooftop hunter who uses ruined streets and walls as cover.",
+      "sections": {
+        "Printed source": "Appendix B, p. 220.",
+        "Spellcasting": "8th-level ranger spellcasting. Wisdom, save DC 12, +4 to hit.\n1st level (4 slots). Cure Wounds, Fog Cloud, Hunter’s Mark.\n2nd level (3 slots). Pass without Trace, Spike Growth.",
+        "Actions": "Multiattack. Make two Shortsword or two Longbow attacks.\nShortsword. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 6 (1d6 + 3) piercing damage.\nLongbow. Ranged weapon attack, +5 to hit, range 150/600 ft., one target. Hit 7 (1d8 + 3) piercing damage."
+      }
+    }
+  },
+  {
+    "name": "Warp Witch",
+    "decision": "separate",
+    "pages": "Appendix A, p. 199.",
+    "notes": "The source provides a named base and explicit encounter changes.",
+    "statBlock": {
+      "name": "Warp Witch",
+      "publication": "Dungeons of Drakkenheim",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium undead, any alignment",
+      "ac": 11,
+      "hp": 45,
+      "speed": "0 ft., fly 40 ft. (hover)",
+      "hitDice": "10d8",
+      "cr": "4",
+      "xp": 1100,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 7,
+          "modifier": -2
+        },
+        "Dex": {
+          "score": 13,
+          "modifier": 1
+        },
+        "Con": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Int": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Wis": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Cha": {
+          "score": 17,
+          "modifier": 3
+        }
+      },
+      "otherStatistics": "Resists acid, fire, lightning, thunder, and bludgeoning, piercing, and slashing from nonmagical attacks. Immune to cold, necrotic, and poison damage. Immune to Charmed, Exhaustion, Frightened, Grappled, Paralyzed, Petrified, Poisoned, Prone, and Restrained. Darkvision 60 ft., passive Perception 11. Any languages it knew in life.",
+      "description": "A ghost whose wail overwhelms nearby minds and whose possession can leave lasting mutations.",
+      "sections": {
+        "Printed source": "Appendix A, p. 199.",
+        "Base stat block": "Ghost, SRD 5.1 (2014 fifth-edition rules). Replace Horrifying Visage with Psychic Wail and add Mutate Host. The inherited Possession remains available.",
+        "Traits": "Ethereal Sight. Can see 60 ft. into the Ethereal Plane from the Material Plane or the reverse.\nIncorporeal Movement. The witch passes through objects and creatures as difficult terrain. Ending its turn inside an object deals 5 (1d10) force damage to the witch.",
+        "Actions": "Withering Touch. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 17 (4d6 + 3) necrotic damage.\nEtherealness. Move between the Material Plane and the Border Ethereal. The witch remains visible from the other plane but cannot affect anything there or be affected by it.\nPsychic Wail (recharge 5–6). Each creature within 30 ft. makes a DC 13 Intelligence save. Failure deals 10 (3d6) psychic damage and makes the target Incapacitated until the end of the witch’s next turn.\nPossession (recharge 6). One visible humanoid within 5 ft. makes a DC 13 Charisma save. On failure the witch vanishes and controls the target’s body. The target stays aware, is Incapacitated, and cannot control its body. The witch keeps its own alignment, Intelligence, Wisdom, Charisma, and Charmed and Frightened immunities. It otherwise uses the target’s statistics without its knowledge, proficiencies, or class features. Only effects that turn Undead can target it during possession. The effect also ends if the body falls to 0 HP, the witch ends it as a bonus action, or it is turned or expelled by a spell such as Dispel Evil and Good. On ending, the witch appears in a vacant space within 5 ft. A humanoid that succeeds or is freed is immune to this witch’s Possession for 24 hours.",
+        "Bonus Actions": "Mutate Host. While possessing a creature, force it to make a DC 13 Charisma save. On failure it gains one contamination level and automatically acquires a random mutation in place of the normal mutation check."
+      }
+    }
+  }
+]

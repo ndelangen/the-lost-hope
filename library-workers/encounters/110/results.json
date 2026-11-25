@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Tiefling",
+    "species": "species-090aff131cc6474d4575d8c2",
+    "edition": "3.5 edition",
+    "profiles": [
+      "Planar Handbook (2004)"
+    ],
+    "portraitSha256": "cfc0db2a4f0ad5c2a993e04c5df1687f8577ee218306a069005003c6f0fb447a",
+    "caption": "Sella Cinderlock · Original Tiefling NPC",
+    "npcReceipts": [
+      {
+        "name": "Sella Cinderlock",
+        "id": "npc-27d635a525178bd7a16a6eda",
+        "challenge": "Provisional CR 2. ECL 2 (1 class HD, LA +1)."
+      },
+      {
+        "name": "Verren Vale",
+        "id": "npc-c93b75ce1d06c7a11f69aa43",
+        "challenge": "Provisional CR 2. ECL 2 (1 class HD, LA +1)."
+      }
+    ]
+  }
+]

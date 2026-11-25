@@ -1,0 +1,24 @@
+{
+  "baseline": "5045a9c1189d2804045a99eef614c2f645e7e69d",
+  "temporaryCopy": true,
+  "priorStagedPatchesCompatibilityVerified": true,
+  "playableSpecies": 1,
+  "edition": "3.5 edition",
+  "names": [
+    "Darfellan"
+  ],
+  "selectableProfiles": 1,
+  "publication": "Stormwrack (2005)",
+  "biteHoldBreathAndUnderwaterBlindsenseVerified": true,
+  "defaultVersionBefore": null,
+  "defaultVersionAfter": "Stormwrack (2005)",
+  "listThumbnailChanged": true,
+  "sourceTraitsDisplayed": 1,
+  "searchableByTraitAndNpcRole": 1,
+  "originalRunnableNpcBuilds": 2,
+  "fullBuildsReturnedByEncounterAndNpcsCommands": true,
+  "npcBuildsScopedByPublication": true,
+  "existingPlayableSpeciesAndNpcConceptsPreserved": true,
+  "distinctPortraitFiles": 1,
+  "versionPortraitsVerified": 1
+}

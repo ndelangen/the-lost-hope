@@ -1,0 +1,237 @@
+{
+  "builds": [
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "size": "Medium",
+      "type": "Fey",
+      "id": "mm4-35-joystealer-iri-quietglass",
+      "title": "Incorporeal witness",
+      "difficulty": "CR 5 baseline. ECL 10, with 6 racial HD and +4 level adjustment.",
+      "senses": "Low-light vision. Sense Emotions 60 ft. Listen +12, Spot +12.",
+      "languages": "Common, Sylvan, Khen-zai",
+      "speed": "Fly 30 ft. (perfect)",
+      "ac": 17,
+      "hp": 27,
+      "hitDice": "6d6+6",
+      "initiative": 7,
+      "abilityScores": {
+        "DEX": 17,
+        "CON": 12,
+        "INT": 13,
+        "WIS": 12,
+        "CHA": 19
+      },
+      "skills": [
+        "Bluff +13",
+        "Diplomacy +8",
+        "Hide +16",
+        "Listen +12",
+        "Sense Motive +10",
+        "Spot +12",
+        "Survival +10"
+      ],
+      "traits": [
+        "Neutral evil. No Strength score. Touch AC 17, flat-footed AC 14. BAB +3. Fortitude +3, Reflex +8, Will +8. Alertness, Improved Initiative, Iron Will. DR 5/cold iron.",
+        "Incorporeal. Ignore nonmagical attacks from corporeal creatures. Damaging hits from a corporeal source generally have a 50% chance to fail, with exceptions for positive or negative energy, force and ghost touch. Iri can pass through objects, staying adjacent to the exterior, and cannot grapple or manipulate ordinary physical gear.",
+        "Sense Emotions detects living creatures only. It locates them without sight within 60 ft. but does not remove concealment."
+      ],
+      "actions": [
+        "Incorporeal touch +6 melee touch. The target takes 1d4 Charisma damage.",
+        "Drain Emotions (Su), standard action. Choose a living creature Iri reduced to 0 Charisma. It loses morale bonuses and penalties, rage and other inspiration- or emotion-derived benefits, and becomes immune to fear. Destroy Iri or use remove curse within a hallow to end the effect."
+      ],
+      "tactics": "Iri listens from the far side of a partition, speaks from the doorway, and flees through a wall if threatened by force magic. Iri uses the touch only if cornered."
+    },
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "size": "Medium",
+      "type": "Fey",
+      "id": "mm4-35-verdant-prince-tern-boughsure",
+      "title": "Keeper of the ford oath",
+      "difficulty": "CR 11 baseline. ECL 20, with 16 racial HD and +4 level adjustment.",
+      "senses": "Low-light vision. Listen +12, Spot +12.",
+      "languages": "Common, Druidic, Elven, Sylvan",
+      "speed": "40 ft.",
+      "ac": 26,
+      "hp": 136,
+      "hitDice": "16d6+80 (includes Improved Toughness)",
+      "initiative": 12,
+      "abilityScores": {
+        "STR": 17,
+        "DEX": 26,
+        "CON": 18,
+        "INT": 16,
+        "WIS": 15,
+        "CHA": 21
+      },
+      "skills": [
+        "Concentration +13",
+        "Diplomacy +17",
+        "Disguise +10 (+12 acting)",
+        "Hide +15",
+        "Intimidate +17",
+        "Move Silently +15",
+        "Spellcraft +10",
+        "Survival +11 (+13 tracking or in aboveground natural environments)",
+        "Tumble +19"
+      ],
+      "traits": [
+        "Neutral. Touch AC 23, flat-footed AC 18. BAB +8, grapple +11. Fortitude +14, Reflex +23, Will +17. Evasion. DR 10/cold iron and SR 20. Cold iron doubles damage. Unearthly Grace is included.",
+        "Feats Dodge, Improved Initiative, Improved Toughness, Mobility, Skill Focus (Diplomacy), Stealthy and racial bonus Track. Dodge adds +1 AC against one declared target. Mobility adds +4 dodge AC against attacks of opportunity caused by moving out of or through threatened spaces."
+      ],
+      "actions": [
+        "Masterwork quarterstaff wielded two-handed +12/+7 melee (1d6+4 bludgeoning, ×2). One attack at +12 as a standard action, or both attacks as a full attack.",
+        "Oath Bond (Su). Tern may seal one willing bargain at a time for goods or services. The oathbreaker is sickened and takes –6 to ability scores until fulfillment. The other party knows of the breach and, on the same plane, senses distance and direction. Death, wish or miracle can end it. Antimagic suppresses it temporarily. The other party senses the end or suppression.",
+        "At will (Sp), CL 16. Disguise self lasts 160 minutes and a creature interacting with the disguise gets a DC 16 Will save. Dimension door reaches 1,040 ft. Both endpoints must be adjacent to a tree or plant creature. The teleport ends Tern’s actions that turn.",
+        "Control (Sp), CL 16, 1/day each. Wall of thorns makes up to sixteen 10-ft. cubes within 260 ft. for 160 minutes, with no save. Repel metal or stone sends movable metal or stone objects away down a 60-ft. line for up to 16 rounds. Baleful polymorph changes a target within 65 ft. into a Small or smaller animal with at most 1 HD. Fortitude DC 20 negates, then Will DC 20 to retain mental faculties.",
+        "Damage and healing (Sp), CL 16, 1/day each. Cure critical wounds heals 4d8+16 HP on touch. Call lightning storm takes 1 round to activate, then calls up to 15 bolts at one per round within 1,040 ft. Each deals 5d6 electricity, or 5d10 outdoors in stormy weather, Reflex DC 20 half. Fire seeds charges up to four touched acorns with 16d6 fire total, or up to eight touched holly berries with 1d8+16 per berry. Use the spell’s Reflex DC 21 where applicable.",
+        "Changestaff (Sp), CL 16, 1/day, takes 1 round to activate. Tern can turn the prepared quarterstaff into a treant-like ally for up to 16 hours. It cannot command trees or converse with treants. The staff is consumed if the ally is reduced to 0 HP."
+      ],
+      "tactics": "Tern offers passage in exchange for returning a stolen boundary marker. If attacked, Tern separates armed foes with wall of thorns, avoids cold iron, and escapes between trees."
+    },
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "size": "Medium",
+      "type": "Plant",
+      "id": "mm4-35-wizened-elder-burrel-waxbough",
+      "title": "Scree-path sentry, fighter 1",
+      "difficulty": "ECL 8, with 4 plant HD, 1 fighter level and +3 level adjustment.",
+      "senses": "Low-light vision. Listen +3, Spot +3.",
+      "languages": "Sylvan, speak with plants",
+      "speed": "20 ft., improved woodland stride",
+      "ac": 14,
+      "hp": 41,
+      "hitDice": "4d8+1d10+15",
+      "initiative": 4,
+      "abilityScores": {
+        "STR": 13,
+        "DEX": 10,
+        "CON": 17,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 13
+      },
+      "skills": [
+        "Climb +2",
+        "Hide +0 (+8 in forested areas)",
+        "Knowledge (nature) +4",
+        "Listen +3",
+        "Spot +3",
+        "Survival +3 (+5 in aboveground natural environments)"
+      ],
+      "traits": [
+        "Chaotic neutral. Touch and flat-footed AC 10 and 14. BAB +4, grapple +5. Fortitude +9, Reflex +1, Will +2. Alertness, Weapon Focus (slam), Improved Initiative (fighter bonus).",
+        "DR 5/slashing, cold resistance 5 and +50% damage from fire. Plant immunities cover mind-affecting effects, poison, sleep, paralysis, polymorph and stunning. Critical hits fail against this plant.",
+        "Improved Woodland Stride lets Burrel pass through natural and magically manipulated undergrowth freely."
+      ],
+      "actions": [
+        "Slam +6 melee (1d8+1 bludgeoning). Two slams at +6 each as a full attack.",
+        "Entangle (Su), at will, standard action. Plants in a 60-ft. radius around Burrel grasp creatures for 1 minute. Reflex DC 15 avoids becoming entangled, but movement through the area is half speed. A creature held can use a full-round action and a DC 20 Strength or Escape Artist check to move half speed. Plants try again each round. CL 4.",
+        "Speak with Plants (Su), at will, standard action, CL 4. Ask plants and plant creatures about things they have observed within their limited awareness. Duration 4 minutes."
+      ],
+      "tactics": "Burrel watches from among the shrubs. If armed trespassers come close, Burrel entangles the path and moves through the brush to bar the way."
+    },
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "size": "Medium",
+      "type": "Monstrous humanoid",
+      "id": "mm4-35-zern-vesk-thrum",
+      "title": "Longspear escort, fighter 1",
+      "difficulty": "ECL 16, with 8 monstrous humanoid HD, 1 fighter level and +7 level adjustment.",
+      "senses": "Darkvision 60 ft. Listen +6, Spot +7.",
+      "languages": "Common, Draconic, Dwarven, Zern",
+      "speed": "30 ft. (60 ft. in Speed Burst)",
+      "ac": 19,
+      "hp": 78,
+      "hitDice": "8d8+1d10+36",
+      "initiative": 7,
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 17,
+        "CON": 18,
+        "INT": 15,
+        "WIS": 12,
+        "CHA": 11
+      },
+      "skills": [
+        "Climb +5",
+        "Craft (flesh sculpting) +13",
+        "Escape Artist +10",
+        "Heal +12",
+        "Intimidate +6",
+        "Listen +6",
+        "Spot +7"
+      ],
+      "traits": [
+        "Neutral evil. Touch AC 13, flat-footed AC 16. BAB +9, grapple +12. Fortitude +8, Reflex +9, Will +7. SR 18, fast healing 5. Immune to poison, paralysis and stunning.",
+        "Adaptive Defenses grants immunity to effects requiring a Fortitude save unless they can affect objects, are harmless or Vesk allows the effect.",
+        "Feats Point Blank Shot, Precise Shot, Weapon Focus (warping energy), Improved Initiative, Weapon Focus (longspear, fighter bonus). Precise Shot removes the usual ranged penalty for shooting into melee."
+      ],
+      "actions": [
+        "Masterwork longspear +14/+9 melee (1d8+4 piercing, ×3). Standard attack +14 or both as a full attack. In Medium form the longspear attacks at 10 ft. and cannot target an adjacent creature.",
+        "Warping Energy (Su), standard action. Non-touch melee or ranged attack +13 (4d6+2). Ranged attack reaches 120 ft. with no range increment. Within 30 ft. add +1 to attack and damage for the ranged version only.",
+        "Malleable Form (Ex), swift action, one mode at a time until replaced. Adrenal Surge adds +2 to attacks and +4 damage. Boneless Form adds +8 Escape Artist, or +16 for tight openings. Impervious Hide gives +4 AC and DR 5/piercing. Size Shift allows Large (+2 Str, 10-ft. space and natural reach) or Small (–2 Str) plus normal size adjustments. Speed Burst adds 30 ft. to land speed.",
+        "Shifting Guise (Su), at will, standard action, CL 8. Use alter self to take a humanoid or monstrous humanoid shape. It lasts 80 minutes and normally allows forms of up to 5 HD within one size category.",
+        "Racial spells (Sp), CL 8. Reduce person at will (DC 15 Fortitude, 45 ft., 8 minutes). Baleful polymorph 1/day (DC 19 Fortitude then Will, 45 ft.). Gaseous form 1/day on touch for up to 16 minutes."
+      ],
+      "tactics": "Vesk keeps the spear at reach and switches to warping energy if a foe closes. If the road is blocked on both sides, Vesk uses Impervious Hide, then Speed Burst once there is a route out."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Joystealer",
+      "speciesPublication": "Monster Manual IV (2006)",
+      "edition": "3.5 edition",
+      "build": "mm4-35-joystealer-iri-quietglass",
+      "size": "Medium",
+      "name": "Iri Quietglass",
+      "role": "A quiet witness who listens for emotions through the walls of a shuttered counting house.",
+      "motive": "Learn who has been buying sealed court transcripts.",
+      "hook": "Iri heard a courier sob while handing over a packet and will describe the buyer if the party recovers the other copies."
+    },
+    {
+      "species": "Verdant Prince",
+      "speciesPublication": "Monster Manual IV (2006)",
+      "edition": "3.5 edition",
+      "build": "mm4-35-verdant-prince-tern-boughsure",
+      "size": "Medium",
+      "name": "Tern Boughsure",
+      "role": "Warden of a ford where travelers can cross under a witnessed bond.",
+      "motive": "Recover the carved marker that recorded a promise before the river changed course.",
+      "hook": "Two villages claim the same crossing. Tern will honor a bargain with the party before hearing either village out."
+    },
+    {
+      "species": "Wizened Elder",
+      "speciesPublication": "Monster Manual IV (2006)",
+      "edition": "3.5 edition",
+      "build": "mm4-35-wizened-elder-burrel-waxbough",
+      "size": "Medium",
+      "name": "Burrel Waxbough",
+      "role": "A lichen-bearded shrub sentry on the last pass above the tree line.",
+      "motive": "Keep pack animals from trampling the seedlings on the scree path.",
+      "hook": "Burrel offers safe passage if the party moves a fallen signpost that now directs travelers through the nursery."
+    },
+    {
+      "species": "Zern",
+      "speciesPublication": "Monster Manual IV (2006)",
+      "edition": "3.5 edition",
+      "build": "mm4-35-zern-vesk-thrum",
+      "size": "Medium",
+      "name": "Vesk Thrum",
+      "role": "A hard-nosed caravan escort who insists on walking the section of road closest to the ditch.",
+      "motive": "Keep a locked reagent case out of a former patron’s hands.",
+      "hook": "Vesk offers the party a share of the escort fee if they can spot which of three road toll collectors was sent to seize the case."
+    }
+  ]
+}

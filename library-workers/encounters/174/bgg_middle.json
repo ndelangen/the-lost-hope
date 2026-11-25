@@ -1,0 +1,435 @@
+[
+  {
+    "name": "Maw of Yeenoghu",
+    "statBlock": {
+      "name": "Maw of Yeenoghu",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 159,
+      "classification": "Huge fiend (demon), typically chaotic evil",
+      "ac": 15,
+      "hp": 161,
+      "hitDice": "14d12 + 70",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 23
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "10",
+      "xp": 5900,
+      "passivePerception": 16,
+      "description": "A hill giant transformed into a ravenous fiend by Yeenoghu. Its teeth grow fast enough to replace the ones it tears out and throws.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 9,
+        "Cha": 4
+      },
+      "skills": {
+        "Perception": 6
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "darkvision 60 ft.",
+        "Languages": "Abyssal, Giant.",
+        "Traits": "Magic Resistance. The maw has advantage on saves against spells and other magical effects.",
+        "Actions": "Multiattack. Make two attacks, choosing Bite or Fang Fling for each.\nBite. Melee weapon attack, +10 to hit, reach 10 ft., one target. A hit deals 19 (2d12 + 6) piercing damage.\nFang Fling. Ranged weapon attack, +10 to hit, range 30/90 ft., one target. A hit deals 11 (1d10 + 6) piercing damage.\nGorging Charge (Recharge 5–6). Move up to the maw’s speed without provoking opportunity attacks, including through spaces occupied by Large or smaller creatures. Each creature whose space the maw enters for the first time during this move makes a DC 18 Strength save. On a failure, it takes 25 (3d12 + 6) piercing damage and is grappled (escape DC 16). If already grappled this way, it also falls prone. The maw can hold only one creature this way at a time, and the creature is restrained until the grapple ends.",
+        "Reactions": "Fanged Rebuke. After taking damage, make one Bite attack against a random creature within 10 ft. If no creature is within reach, the maw can make two Fang Fling attacks instead.",
+        "Printed source": "Bigby Presents: Glory of the Giants, p. 159."
+      }
+    }
+  },
+  {
+    "name": "Mist Hulk",
+    "statBlock": {
+      "name": "Mist Hulk",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 160,
+      "classification": "Large elemental, typically chaotic neutral",
+      "ac": 15,
+      "hp": 94,
+      "hitDice": "9d10 + 45",
+      "speed": "0 ft., fly 40 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 21
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "6",
+      "xp": 2300,
+      "passivePerception": 14,
+      "description": "Living rain clouds in the shape of a giant. Their wails stir old regrets, and their bodies collapse into a surge of water when slain.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 8,
+        "Wis": 4,
+        "Cha": 6
+      },
+      "skills": {
+        "Perception": 4,
+        "Stealth": 8
+      },
+      "sections": {
+        "Languages": "Auran, Giant.",
+        "Damage resistances": "Thunder.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Exhaustion, paralyzed, poisoned, restrained.",
+        "Traits": "Air Form. The hulk can enter another creature’s space and stop there. It can pass through a 1-inch opening without squeezing.\nDeath Burst. When the hulk dies, every creature within 10 ft. makes a DC 16 Dexterity save against its surge of water. On a failure, the creature takes 11 (2d10) bludgeoning damage and falls prone. On a success, it takes half damage.",
+        "Actions": "Multiattack. Make two Slam attacks.\nSlam. Melee weapon attack, +8 to hit, reach 10 ft., one target. A hit deals 16 (2d10 + 5) cold damage.\nHideous Wailing (Recharge 5–6). The hulk lets out a magical wail. Every creature within 30 ft. makes a DC 14 Wisdom save, with disadvantage if it shares the hulk’s space. On a failure, it takes 14 (4d6) psychic damage and is incapacitated for 1 minute. It can repeat the save at the end of each of its turns, ending the incapacitation on a success.",
+        "Printed source": "Bigby Presents: Glory of the Giants, p. 160."
+      }
+    }
+  },
+  {
+    "name": "Mud Hulk",
+    "statBlock": {
+      "name": "Mud Hulk",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 161,
+      "classification": "Large elemental, typically chaotic evil",
+      "ac": 13,
+      "hp": 68,
+      "hitDice": "8d10 + 24",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 8
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 9
+        },
+        "Cha": {
+          "score": 6
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 9,
+      "description": "Descended from isolated hill giants, this elemental sheds wet mud wherever it walks and absorbs anything it can engulf.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Languages": "Giant, Terran.",
+        "Damage resistances": "Acid.",
+        "Condition immunities": "Exhaustion, paralyzed.",
+        "Traits": "Amorphous. The hulk can pass through a 1-inch opening without squeezing.\nSticky Mud. Other creatures treat the ground within 15 ft. of the hulk as difficult terrain.",
+        "Actions": "Enveloping Slam. Melee weapon attack, +5 to hit, reach 10 ft., one target. On a hit, deal 9 (1d12 + 3) bludgeoning damage. A Large or smaller creature hit makes a DC 13 Strength save. On a failure, the hulk pulls it into its space and engulfs it. The target is restrained, cannot breathe, takes 6 (1d12) acid damage at the start of each of its turns, and moves with the hulk. The hulk can engulf one target at a time and cannot use Amorphous while it holds a target. The target can repeat the save at the end of each of its turns. On a success, it escapes to the nearest unoccupied space.\nMud Splash. Choose a point within 30 ft. All creatures within 10 ft. of that point make a DC 13 Dexterity save, taking 10 (2d6 + 3) bludgeoning damage on a failure or half as much on a success. The area is difficult terrain until the start of the hulk’s next turn.",
+        "Printed source": "Bigby Presents: Glory of the Giants, p. 161."
+      }
+    }
+  },
+  {
+    "name": "Regisaur",
+    "statBlock": {
+      "name": "Regisaur",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 130,
+      "classification": "Gargantuan monstrosity, unaligned",
+      "ac": 17,
+      "hp": 181,
+      "hitDice": "11d20 + 66",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 27
+        },
+        "Dex": {
+          "score": 8
+        },
+        "Con": {
+          "score": 23
+        },
+        "Int": {
+          "score": 4
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 6
+        }
+      },
+      "cr": "14",
+      "xp": 11500,
+      "passivePerception": 11,
+      "description": "This immense predator can clamp one foe in its jaws while sweeping at another with its tail.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Traits": "Magic Resistance. The regisaur has advantage on saves against spells and other magical effects.",
+        "Actions": "Multiattack. Make one Bite attack and one Tail attack and do not target the same creature with both.\nBite. Melee weapon attack, +13 to hit, reach 10 ft., one target. On a hit, deal 47 (6d12 + 8) piercing damage and grapple the target (escape DC 18). The target remains restrained while held, and the regisaur cannot Bite a different target until the grapple ends.\nTail. Melee weapon attack, +13 to hit, reach 20 ft., one target. A hit deals 26 (4d8 + 8) bludgeoning damage.",
+        "Bonus actions": "Swallow. Melee weapon attack, +13 to hit, reach 5 ft., against one Huge or smaller creature the regisaur has grappled. A hit swallows the creature and ends the grapple. The creature is blinded and restrained, has total cover from attacks and effects outside the regisaur, and takes 7 (2d6) acid damage at the start of each of its turns. The regisaur can hold two swallowed creatures at once. If a swallowed creature deals 25 or more damage to the regisaur in one turn, the regisaur makes a DC 16 Constitution save at the end of that turn. On a failure, it expels that creature, which lands prone within 5 ft. and is no longer blinded or restrained by Swallow.",
+        "Printed source": "Bigby Presents: Glory of the Giants, p. 130."
+      }
+    }
+  },
+  {
+    "name": "Rime Hulk",
+    "statBlock": {
+      "name": "Rime Hulk",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 162,
+      "classification": "Large elemental, typically neutral evil",
+      "ac": 15,
+      "hp": 85,
+      "hitDice": "9d10 + 36",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 9
+        },
+        "Cha": {
+          "score": 6
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 9,
+      "description": "An elemental descendant of isolated frost giants. Its unstable body trails frost and breaks apart in a burst of icy air at death.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Languages": "Aquan, Giant.",
+        "Damage immunities": "Cold, poison.",
+        "Condition immunities": "Exhaustion, poisoned.",
+        "Traits": "Death Burst. When the hulk dies, creatures within 10 ft. make a DC 15 Constitution save. A creature that fails takes 10 (3d6) cold damage.",
+        "Actions": "Multiattack. Make two Slam attacks.\nSlam. Melee weapon attack, +7 to hit, reach 10 ft., one target. A hit deals 9 (1d10 + 4) bludgeoning damage plus 9 (2d8) cold damage.\nTrail of Frost (Recharge 5–6). The hulk moves up to its speed without provoking opportunity attacks. It can cross spaces occupied by Medium or smaller creatures. The first time it enters a particular creature’s space during this move, that creature makes a DC 15 Constitution save. A failure deals 22 (4d10) cold damage and reduces its speed by 10 ft. until the start of the hulk’s next turn. A success halves the damage.",
+        "Printed source": "Bigby Presents: Glory of the Giants, p. 162."
+      }
+    }
+  },
+  {
+    "name": "Runic Colossus",
+    "statBlock": {
+      "name": "Runic Colossus",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 163,
+      "classification": "Gargantuan construct, unaligned",
+      "ac": 20,
+      "hp": 315,
+      "hitDice": "18d20 + 126",
+      "speed": "60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 25
+        },
+        "Dex": {
+          "score": 9
+        },
+        "Con": {
+          "score": 24
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 1
+        }
+      },
+      "cr": "21",
+      "xp": 33000,
+      "passivePerception": 10,
+      "description": "A 30-foot guardian of stone and metal built by several kinds of giant working together. Unless ordered otherwise, it attacks non-giants it sees.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "darkvision 120 ft.",
+        "Languages": "understands Giant but can't speak.",
+        "Damage resistances": "Acid, cold, fire, lightning.",
+        "Damage immunities": "Poison, psychic; bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Condition immunities": "Charmed, exhaustion, frightened, paralyzed, petrified, poisoned.",
+        "Traits": "Immutable Form. The colossus is immune to spells and effects that would change its form.\nMagic Resistance. It has advantage on saves against spells and other magical effects.\nSiege Monster. The colossus deals double damage to objects and structures.",
+        "Actions": "Multiattack. Make two Slam attacks, then use Stomp.\nSlam. Melee weapon attack, +14 to hit, reach 20 ft., one target. A hit deals 26 (3d12 + 7) bludgeoning damage.\nStomp. Melee weapon attack, +14 to hit, reach 20 ft., one target. A hit deals 29 (4d10 + 7) bludgeoning damage. A Huge or smaller creature hit must succeed on a DC 22 Dexterity save to avoid falling prone. The creature is restrained until the colossus uses Stomp again or moves. The restrained creature or another creature within 5 ft. of it can use an action to attempt a DC 22 Strength check. On a success, the restrained creature moves to an unoccupied space of its choice within 5 ft. of the colossus and the restraint ends.\nArcane Beam (Recharge 5–6). The colossus fires magical force from its chest, hands, or head in a 150-ft. line that is 10 ft. wide. Each creature in the line makes a DC 22 Dexterity save, taking 58 (9d12) force damage on a failure or half as much on a success.",
+        "Reactions": "Spell Reflection (2/day). Ranged spell attack, +14 to hit, range 120 ft., against a creature casting a spell of 5th level or lower. On a hit, deal 26 (4d12) force damage. The caster then makes a DC 15 Intelligence save. The spell fails with no effect if the caster fails that save.",
+        "Printed source": "Bigby Presents: Glory of the Giants, p. 163."
+      }
+    }
+  },
+  {
+    "name": "Spectral Cloud",
+    "statBlock": {
+      "name": "Spectral Cloud",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 176,
+      "classification": "Huge undead, typically neutral",
+      "ac": 11,
+      "hp": 189,
+      "hitDice": "18d12 + 72",
+      "speed": "0 ft., fly 40 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 24
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 17
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "13",
+      "xp": 10000,
+      "passivePerception": 18,
+      "description": "A skeletal cloud giant haunts the heart of a fog bank. Some rise after a betrayal or failed wager, and others seek this fate through a ritual.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 6,
+        "Cha": 8
+      },
+      "skills": {
+        "Perception": 8
+      },
+      "sections": {
+        "Languages": "Common, Giant.",
+        "Damage resistances": "Cold, necrotic; bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Damage immunities": "Poison, thunder.",
+        "Condition immunities": "Charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained.",
+        "Traits": "Blurred Form. Attack rolls against the cloud have disadvantage unless the attacker is within 15 ft. or the cloud is incapacitated.\nIncorporeal Movement. The cloud treats other creatures and objects as difficult terrain when passing through them. If it ends its turn inside an object, it takes 5 (1d10) force damage.",
+        "Actions": "Multiattack. Make two Spectral Touch attacks.\nSpectral Touch. Melee weapon attack, +12 to hit, reach 10 ft., one target. On a hit, deal 20 (3d8 + 7) force damage and 10 (3d6) necrotic damage. A creature hit must make a DC 20 Constitution save. On a failure, subtract the necrotic damage taken from its maximum HP until it finishes a long rest. It dies if this reduces its maximum to 0 HP. A humanoid slain by this attack immediately rises as a miniature cloud using the 2014 Specter stat block. It is an independent ally of the cloud.\nChilling Winds (Recharge 5–6). A 60-ft. line of cold wind, 10 ft. wide, forces each creature in the area to make a DC 20 Constitution save. A failure deals 38 (7d10) cold damage and incapacitates the creature for 1 minute. It can repeat the save at the end of each of its turns. A success on the initial save halves the damage and avoids incapacitation. A creature that succeeds on the save or whose incapacitation ends is immune to this cloud’s Chilling Winds for 24 hours.",
+        "Printed source": "Bigby Presents: Glory of the Giants, p. 176."
+      }
+    }
+  },
+  {
+    "name": "Stalker of Baphomet",
+    "statBlock": {
+      "name": "Stalker of Baphomet",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 178,
+      "classification": "Huge fiend (demon), typically chaotic evil",
+      "ac": 17,
+      "hp": 200,
+      "hitDice": "16d12 + 96",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 25
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 22
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "12",
+      "xp": 8400,
+      "passivePerception": 17,
+      "description": "A stone giant transformed through service to Baphomet. It builds mazes as both works of art and hunting grounds.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 7,
+        "Wis": 7
+      },
+      "skills": {
+        "Athletics": 15,
+        "Perception": 7,
+        "Stealth": 11
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "darkvision 120 ft.",
+        "Languages": "Abyssal, Giant.",
+        "Condition immunities": "Charmed, frightened.",
+        "Traits": "Labyrinthine Recall. The stalker remembers every route it has traveled.\nMagic Resistance. It has advantage on saves against spells and other magical effects.",
+        "Actions": "Multiattack. Make two Glaive attacks or two Rock attacks.\nGlaive. Melee weapon attack, +11 to hit, reach 15 ft., one target. A hit deals 18 (2d10 + 7) slashing damage plus 9 (2d8) force damage.\nRock. Ranged weapon attack, +11 to hit, range 60/240 ft., one target. A hit deals 23 (3d10 + 7) bludgeoning damage. A Large or smaller creature hit must succeed on a DC 19 Strength save or fall prone. After each throw, roll a d6. On a 1–3, the stalker runs out of rocks.\nErupting Horns (Recharge 5–6). Choose a visible point on the ground within 60 ft. Six stone horns rise in a cylinder centered there, 30 ft. high and 30 ft. in radius, then crumble. Every creature in the cylinder makes a DC 15 Dexterity save. A failure deals 33 (6d10) piercing damage and pushes the creature up to 30 ft. upward, after which it falls. A success halves the damage.\nSpellcasting. Cast one listed spell with no components, using Wisdom (save DC 15).\n1/day each. Meld into Stone, Stone Shape, Wall of Stone.",
+        "Printed source": "Bigby Presents: Glory of the Giants, p. 178."
+      }
+    }
+  }
+]

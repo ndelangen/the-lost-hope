@@ -1,0 +1,751 @@
+{
+  "entries": [
+    "Inspired (Quori Vessel; Hashalaq)\tmonster\tHumanoid\tExplorer's Guide to Wildemount\t2014 fifth edition\tWizards of the Coast\t\t2\n",
+    "Inspired (Quori Vessel; Kalaraq)\tmonster\tHumanoid\tExplorer's Guide to Wildemount\t2014 fifth edition\tWizards of the Coast\t\t2\n",
+    "Inspired (Quori Vessel; Tsucora)\tmonster\tHumanoid\tExplorer's Guide to Wildemount\t2014 fifth edition\tWizards of the Coast\t\t2\n"
+  ],
+  "profiles": [
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Explorer's Guide to Wildemount",
+      "name": "Inspired (Quori Vessel; Hashalaq)",
+      "kind": "monster",
+      "ruleset": "dnd-5e-2014",
+      "combat": {
+        "armorClass": 12,
+        "hitPoints": 40,
+        "hitDice": "9d8",
+        "challenge": "2",
+        "creatureType": "Humanoid",
+        "alternateArmorClasses": [
+          {
+            "armorClass": 15,
+            "condition": "with mage armor"
+          }
+        ],
+        "size": "Medium",
+        "speed": {
+          "walk": 30
+        },
+        "abilities": {
+          "Str": 11,
+          "Dex": 14,
+          "Con": 10,
+          "Int": 16,
+          "Wis": 10,
+          "Cha": 16
+        },
+        "passivePerception": 10,
+        "savingThrows": {
+          "Int": 5,
+          "Wis": 2
+        }
+      },
+      "notes": [
+        "Source variant of Inspired. Check the variant rules for changes to actions and traits."
+      ]
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Explorer's Guide to Wildemount",
+      "name": "Inspired (Quori Vessel; Kalaraq)",
+      "kind": "monster",
+      "ruleset": "dnd-5e-2014",
+      "combat": {
+        "armorClass": 12,
+        "hitPoints": 40,
+        "hitDice": "9d8",
+        "challenge": "2",
+        "creatureType": "Humanoid",
+        "alternateArmorClasses": [
+          {
+            "armorClass": 15,
+            "condition": "with mage armor"
+          }
+        ],
+        "size": "Medium",
+        "speed": {
+          "walk": 30
+        },
+        "abilities": {
+          "Str": 11,
+          "Dex": 14,
+          "Con": 10,
+          "Int": 16,
+          "Wis": 10,
+          "Cha": 16
+        },
+        "passivePerception": 10,
+        "savingThrows": {
+          "Int": 5,
+          "Wis": 2
+        },
+        "traitNames": [
+          "All Around Vision"
+        ]
+      },
+      "notes": [
+        "Source variant of Inspired. Check the variant rules for changes to actions and traits."
+      ]
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Explorer's Guide to Wildemount",
+      "name": "Inspired (Quori Vessel; Tsucora)",
+      "kind": "monster",
+      "ruleset": "dnd-5e-2014",
+      "combat": {
+        "armorClass": 12,
+        "hitPoints": 40,
+        "hitDice": "9d8",
+        "challenge": "2",
+        "creatureType": "Humanoid",
+        "alternateArmorClasses": [
+          {
+            "armorClass": 15,
+            "condition": "with mage armor"
+          }
+        ],
+        "size": "Medium",
+        "speed": {
+          "walk": 30
+        },
+        "abilities": {
+          "Str": 11,
+          "Dex": 14,
+          "Con": 10,
+          "Int": 16,
+          "Wis": 10,
+          "Cha": 16
+        },
+        "passivePerception": 10,
+        "savingThrows": {
+          "Int": 5,
+          "Wis": 2
+        }
+      },
+      "notes": [
+        "Source variant of Inspired. Check the variant rules for changes to actions and traits."
+      ]
+    }
+  ],
+  "references": [
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Explorer's Guide to Wildemount",
+      "name": "Inspired (Quori Vessel; Hashalaq)",
+      "kind": "monster",
+      "pageUrl": "https://5e.tools/bestiary.html#inspired%20(quori%20vessel%3b%20hashalaq)_egw",
+      "artwork": [
+        {
+          "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/ERLW/Inspired.webp",
+          "artist": "Lake Hurwitz",
+          "kind": "illustration",
+          "inheritedFrom": "Inspired"
+        }
+      ]
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Explorer's Guide to Wildemount",
+      "name": "Inspired (Quori Vessel; Kalaraq)",
+      "kind": "monster",
+      "pageUrl": "https://5e.tools/bestiary.html#inspired%20(quori%20vessel%3b%20kalaraq)_egw",
+      "artwork": [
+        {
+          "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/ERLW/Inspired.webp",
+          "artist": "Lake Hurwitz",
+          "kind": "illustration",
+          "inheritedFrom": "Inspired"
+        }
+      ]
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Explorer's Guide to Wildemount",
+      "name": "Inspired (Quori Vessel; Tsucora)",
+      "kind": "monster",
+      "pageUrl": "https://5e.tools/bestiary.html#inspired%20(quori%20vessel%3b%20tsucora)_egw",
+      "artwork": [
+        {
+          "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/ERLW/Inspired.webp",
+          "artist": "Lake Hurwitz",
+          "kind": "illustration",
+          "inheritedFrom": "Inspired"
+        }
+      ]
+    }
+  ],
+  "monster-context.json": [
+    {
+      "name": "Inspired (Quori Vessel; Hashalaq)",
+      "group": "Creatures",
+      "source": "EGW",
+      "publication": "Explorer's Guide to Wildemount",
+      "edition": "2014 fifth edition",
+      "page": 294,
+      "url": "https://5e.tools/bestiary.html#inspired%20(quori%20vessel%3B%20hashalaq)_egw",
+      "description": "A Medium humanoid with challenge rating 2. Named abilities include Dual Mind, Crysteel Dagger, Vicious Mockery (Cantrip).",
+      "facts": [
+        [
+          "Type",
+          "humanoid"
+        ],
+        [
+          "Creature tags",
+          "human"
+        ],
+        [
+          "Size",
+          "Medium"
+        ],
+        [
+          "Alignment",
+          "lawful evil"
+        ],
+        [
+          "Armor class",
+          "12, 15 · with mage armor"
+        ],
+        [
+          "Hit points",
+          "40"
+        ],
+        [
+          "Hit dice",
+          "9d8"
+        ],
+        [
+          "Speed",
+          "walk 30 ft."
+        ],
+        [
+          "Challenge",
+          "2"
+        ],
+        [
+          "Strength",
+          "11"
+        ],
+        [
+          "Dexterity",
+          "14"
+        ],
+        [
+          "Constitution",
+          "10"
+        ],
+        [
+          "Intelligence",
+          "16"
+        ],
+        [
+          "Wisdom",
+          "10"
+        ],
+        [
+          "Charisma",
+          "16"
+        ],
+        [
+          "Passive Perception",
+          "10"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Saving throws",
+          "lines": [
+            "Intelligence +5, Wisdom +2"
+          ]
+        },
+        {
+          "title": "Skills",
+          "lines": [
+            "Deception +7, Insight +2, Persuasion +7"
+          ]
+        },
+        {
+          "title": "Languages",
+          "lines": [
+            "Common, Quori"
+          ]
+        },
+        {
+          "title": "Damage resistances",
+          "lines": [
+            "psychic"
+          ]
+        },
+        {
+          "title": "Condition immunities",
+          "lines": [
+            "charmed, frightened"
+          ]
+        },
+        {
+          "title": "Traits reference",
+          "lines": [
+            "Dual Mind"
+          ]
+        },
+        {
+          "title": "Actions reference",
+          "lines": [
+            "Multiattack",
+            "Crysteel Dagger · Melee attack · +4 to hit · 1d4 + 2 piercing damage · 3d6 force damage · reach 5 ft.",
+            "Vicious Mockery (Cantrip) · DC 13 Wisdom save · 1d4 psychic damage · within 60 feet · end of its next turn"
+          ]
+        },
+        {
+          "title": "Spellcasting reference",
+          "lines": [
+            "Innate Spellcasting (Psionics) · Intelligence · DC 13 · Mage hand · Vicious mockery · Charm person · Dissonant whispers · Hex · Hold person · Mage armor · Suggestion",
+            "At will · mage hand, vicious mockery (see \"Actions\" below)",
+            "1/day each · charm person, dissonant whispers, hex, hold person, mage armor",
+            "3/day each · suggestion"
+          ]
+        },
+        {
+          "title": "Base profile",
+          "lines": [
+            "Inspired"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "label": "Mage armor (spell)",
+          "url": "https://5e.tools/spells.html#mage%20armor_phb"
+        },
+        {
+          "label": "Mage hand (spell)",
+          "url": "https://5e.tools/spells.html#mage%20hand_phb"
+        },
+        {
+          "label": "Vicious mockery (spell)",
+          "url": "https://5e.tools/spells.html#vicious%20mockery_phb"
+        },
+        {
+          "label": "Charm person (spell)",
+          "url": "https://5e.tools/spells.html#charm%20person_phb"
+        },
+        {
+          "label": "Dissonant whispers (spell)",
+          "url": "https://5e.tools/spells.html#dissonant%20whispers_phb"
+        },
+        {
+          "label": "Hex (spell)",
+          "url": "https://5e.tools/spells.html#hex_phb"
+        },
+        {
+          "label": "Hold person (spell)",
+          "url": "https://5e.tools/spells.html#hold%20person_phb"
+        },
+        {
+          "label": "Suggestion (spell)",
+          "url": "https://5e.tools/spells.html#suggestion_phb"
+        },
+        {
+          "label": "Inspired (creature)",
+          "url": "https://5e.tools/bestiary.html#inspired_erlw"
+        }
+      ],
+      "status": "Encounter reference"
+    },
+    {
+      "name": "Inspired (Quori Vessel; Kalaraq)",
+      "group": "Creatures",
+      "source": "EGW",
+      "publication": "Explorer's Guide to Wildemount",
+      "edition": "2014 fifth edition",
+      "page": 294,
+      "url": "https://5e.tools/bestiary.html#inspired%20(quori%20vessel%3B%20kalaraq)_egw",
+      "description": "A Medium humanoid with challenge rating 2. Named abilities include Dual Mind, All Around Vision, Crysteel Dagger.",
+      "facts": [
+        [
+          "Type",
+          "humanoid"
+        ],
+        [
+          "Creature tags",
+          "human"
+        ],
+        [
+          "Size",
+          "Medium"
+        ],
+        [
+          "Alignment",
+          "lawful evil"
+        ],
+        [
+          "Armor class",
+          "12, 15 · with mage armor"
+        ],
+        [
+          "Hit points",
+          "40"
+        ],
+        [
+          "Hit dice",
+          "9d8"
+        ],
+        [
+          "Speed",
+          "walk 30 ft."
+        ],
+        [
+          "Challenge",
+          "2"
+        ],
+        [
+          "Strength",
+          "11"
+        ],
+        [
+          "Dexterity",
+          "14"
+        ],
+        [
+          "Constitution",
+          "10"
+        ],
+        [
+          "Intelligence",
+          "16"
+        ],
+        [
+          "Wisdom",
+          "10"
+        ],
+        [
+          "Charisma",
+          "16"
+        ],
+        [
+          "Passive Perception",
+          "10"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Saving throws",
+          "lines": [
+            "Intelligence +5, Wisdom +2"
+          ]
+        },
+        {
+          "title": "Skills",
+          "lines": [
+            "Deception +7, Insight +2, Persuasion +7"
+          ]
+        },
+        {
+          "title": "Languages",
+          "lines": [
+            "Common, Quori"
+          ]
+        },
+        {
+          "title": "Damage resistances",
+          "lines": [
+            "psychic"
+          ]
+        },
+        {
+          "title": "Condition immunities",
+          "lines": [
+            "charmed, frightened"
+          ]
+        },
+        {
+          "title": "Traits reference",
+          "lines": [
+            "Dual Mind",
+            "All Around Vision · Surprised"
+          ]
+        },
+        {
+          "title": "Actions reference",
+          "lines": [
+            "Multiattack",
+            "Crysteel Dagger · Melee attack · +4 to hit · 1d4 + 2 piercing damage · 3d6 force damage · reach 5 ft.",
+            "Vicious Mockery (Cantrip) · DC 13 Wisdom save · 1d4 psychic damage · within 60 feet · end of its next turn"
+          ]
+        },
+        {
+          "title": "Spellcasting reference",
+          "lines": [
+            "Innate Spellcasting (Psionics) · Intelligence · DC 13 · Mage hand · Vicious mockery · Charm person · Dissonant whispers · Hex · Hold person · Mage armor · Arcane eye",
+            "At will · mage hand, vicious mockery (see \"Actions\" below)",
+            "1/day each · charm person, dissonant whispers, hex, hold person, mage armor",
+            "3/day each · arcane eye"
+          ]
+        },
+        {
+          "title": "Base profile",
+          "lines": [
+            "Inspired"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "label": "Mage armor (spell)",
+          "url": "https://5e.tools/spells.html#mage%20armor_phb"
+        },
+        {
+          "label": "Mage hand (spell)",
+          "url": "https://5e.tools/spells.html#mage%20hand_phb"
+        },
+        {
+          "label": "Vicious mockery (spell)",
+          "url": "https://5e.tools/spells.html#vicious%20mockery_phb"
+        },
+        {
+          "label": "Charm person (spell)",
+          "url": "https://5e.tools/spells.html#charm%20person_phb"
+        },
+        {
+          "label": "Dissonant whispers (spell)",
+          "url": "https://5e.tools/spells.html#dissonant%20whispers_phb"
+        },
+        {
+          "label": "Hex (spell)",
+          "url": "https://5e.tools/spells.html#hex_phb"
+        },
+        {
+          "label": "Hold person (spell)",
+          "url": "https://5e.tools/spells.html#hold%20person_phb"
+        },
+        {
+          "label": "Arcane eye (spell)",
+          "url": "https://5e.tools/spells.html#arcane%20eye_phb"
+        },
+        {
+          "label": "Surprised (status)",
+          "url": "https://5e.tools/conditionsdiseases.html#surprised_phb"
+        },
+        {
+          "label": "Inspired (creature)",
+          "url": "https://5e.tools/bestiary.html#inspired_erlw"
+        }
+      ],
+      "status": "Encounter reference"
+    },
+    {
+      "name": "Inspired (Quori Vessel; Tsucora)",
+      "group": "Creatures",
+      "source": "EGW",
+      "publication": "Explorer's Guide to Wildemount",
+      "edition": "2014 fifth edition",
+      "page": 294,
+      "url": "https://5e.tools/bestiary.html#inspired%20(quori%20vessel%3B%20tsucora)_egw",
+      "description": "A Medium humanoid with challenge rating 2. Named abilities include Dual Mind, Crysteel Dagger, Vicious Mockery (Cantrip).",
+      "facts": [
+        [
+          "Type",
+          "humanoid"
+        ],
+        [
+          "Creature tags",
+          "human"
+        ],
+        [
+          "Size",
+          "Medium"
+        ],
+        [
+          "Alignment",
+          "lawful evil"
+        ],
+        [
+          "Armor class",
+          "12, 15 · with mage armor"
+        ],
+        [
+          "Hit points",
+          "40"
+        ],
+        [
+          "Hit dice",
+          "9d8"
+        ],
+        [
+          "Speed",
+          "walk 30 ft."
+        ],
+        [
+          "Challenge",
+          "2"
+        ],
+        [
+          "Strength",
+          "11"
+        ],
+        [
+          "Dexterity",
+          "14"
+        ],
+        [
+          "Constitution",
+          "10"
+        ],
+        [
+          "Intelligence",
+          "16"
+        ],
+        [
+          "Wisdom",
+          "10"
+        ],
+        [
+          "Charisma",
+          "16"
+        ],
+        [
+          "Passive Perception",
+          "10"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Saving throws",
+          "lines": [
+            "Intelligence +5, Wisdom +2"
+          ]
+        },
+        {
+          "title": "Skills",
+          "lines": [
+            "Deception +7, Insight +2, Persuasion +7"
+          ]
+        },
+        {
+          "title": "Languages",
+          "lines": [
+            "Common, Quori"
+          ]
+        },
+        {
+          "title": "Damage resistances",
+          "lines": [
+            "psychic"
+          ]
+        },
+        {
+          "title": "Condition immunities",
+          "lines": [
+            "charmed, frightened"
+          ]
+        },
+        {
+          "title": "Traits reference",
+          "lines": [
+            "Dual Mind"
+          ]
+        },
+        {
+          "title": "Actions reference",
+          "lines": [
+            "Multiattack",
+            "Crysteel Dagger · Melee attack · +4 to hit · 1d4 + 2 piercing damage · 3d6 force damage · reach 5 ft.",
+            "Vicious Mockery (Cantrip) · DC 13 Wisdom save · 1d4 psychic damage · within 60 feet · end of its next turn"
+          ]
+        },
+        {
+          "title": "Spellcasting reference",
+          "lines": [
+            "Innate Spellcasting (Psionics) · Intelligence · DC 13 · Mage hand · Vicious mockery · Charm person · Dissonant whispers · Hex · Hold person · Mage armor · Fear",
+            "At will · mage hand, vicious mockery (see \"Actions\" below)",
+            "1/day each · charm person, dissonant whispers, hex, hold person, mage armor, fear"
+          ]
+        },
+        {
+          "title": "Base profile",
+          "lines": [
+            "Inspired"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "label": "Mage armor (spell)",
+          "url": "https://5e.tools/spells.html#mage%20armor_phb"
+        },
+        {
+          "label": "Mage hand (spell)",
+          "url": "https://5e.tools/spells.html#mage%20hand_phb"
+        },
+        {
+          "label": "Vicious mockery (spell)",
+          "url": "https://5e.tools/spells.html#vicious%20mockery_phb"
+        },
+        {
+          "label": "Charm person (spell)",
+          "url": "https://5e.tools/spells.html#charm%20person_phb"
+        },
+        {
+          "label": "Dissonant whispers (spell)",
+          "url": "https://5e.tools/spells.html#dissonant%20whispers_phb"
+        },
+        {
+          "label": "Hex (spell)",
+          "url": "https://5e.tools/spells.html#hex_phb"
+        },
+        {
+          "label": "Hold person (spell)",
+          "url": "https://5e.tools/spells.html#hold%20person_phb"
+        },
+        {
+          "label": "Fear (spell)",
+          "url": "https://5e.tools/spells.html#fear_phb"
+        },
+        {
+          "label": "Inspired (creature)",
+          "url": "https://5e.tools/bestiary.html#inspired_erlw"
+        }
+      ],
+      "status": "Encounter reference"
+    }
+  ],
+  "image-credits.json": [
+    {
+      "name": "Inspired (Quori Vessel; Hashalaq)",
+      "publication": "Explorer's Guide to Wildemount",
+      "edition": "2014 fifth edition",
+      "entityKind": "monster",
+      "file": "images/monsters/inspired/erlw-1.webp",
+      "sha256": "d39a20b79e24682b63ea5dc90590bc40fbefe00e2dac241070a0344217dc96af",
+      "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/ERLW/Inspired.webp",
+      "artist": "Lake Hurwitz",
+      "kind": "illustration",
+      "inheritedFrom": "Inspired"
+    },
+    {
+      "name": "Inspired (Quori Vessel; Kalaraq)",
+      "publication": "Explorer's Guide to Wildemount",
+      "edition": "2014 fifth edition",
+      "entityKind": "monster",
+      "file": "images/monsters/inspired/erlw-1.webp",
+      "sha256": "d39a20b79e24682b63ea5dc90590bc40fbefe00e2dac241070a0344217dc96af",
+      "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/ERLW/Inspired.webp",
+      "artist": "Lake Hurwitz",
+      "kind": "illustration",
+      "inheritedFrom": "Inspired"
+    },
+    {
+      "name": "Inspired (Quori Vessel; Tsucora)",
+      "publication": "Explorer's Guide to Wildemount",
+      "edition": "2014 fifth edition",
+      "entityKind": "monster",
+      "file": "images/monsters/inspired/erlw-1.webp",
+      "sha256": "d39a20b79e24682b63ea5dc90590bc40fbefe00e2dac241070a0344217dc96af",
+      "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/ERLW/Inspired.webp",
+      "artist": "Lake Hurwitz",
+      "kind": "illustration",
+      "inheritedFrom": "Inspired"
+    }
+  ]
+}

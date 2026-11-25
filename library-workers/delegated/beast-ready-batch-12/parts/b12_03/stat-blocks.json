@@ -1,0 +1,132 @@
+[
+  {
+    "name": "Owl",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Tiny Beast",
+    "ac": 11,
+    "hp": 8,
+    "speed": "5 ft., fly 60 ft.",
+    "cr": "0",
+    "xp": 10,
+    "otherStatistics": "Ability modifiers STR −4, DEX +1, CON −1, INT −4, WIS +1, CHA −2. Perception 13. Stealth 13. Darkvision 120 ft. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A tawny owl with a pale face, patterned plumage, and folded wings.",
+    "habitats": [
+      "Arctic",
+      "Farmland",
+      "Forest",
+      "Hills"
+    ],
+    "sections": {
+      "Printed source": "Búho, Cubil de Monstruos (Nosolorol, 2025), p. 335. Licensed Spanish edition of Kobold Press’s Monster Vault (2024). https://www.nosolorol.com/talesofthevaliant",
+      "Traits": "Flyby. Flying out of an enemy’s reach does not provoke an opportunity attack from that enemy.\nHeightened Hearing and Sight. Use Perception 18 when relying on hearing or sight.\nQuiet Wings. Its Stealth is 18 while it flies.",
+      "Actions": "Talons. Melee weapon attack, +3 to hit, 5 ft. reach, one creature. On a hit, deal 3 (1d4 + 1) slashing damage."
+    }
+  },
+  {
+    "name": "Owl, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Large Beast",
+    "ac": 12,
+    "hp": 15,
+    "speed": "5 ft., fly 60 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "otherStatistics": "Ability modifiers STR +1, DEX +2, CON +1, INT −1, WIS +1, CHA +0. Perception 15. Stealth 14. Darkvision 120 ft. Speaks Giant Owl. Understands Common, Elvish, and Sylvan and cannot speak those three languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A large, round-headed owl with barred brown plumage, folded wings, and heavy talons.",
+    "habitats": [
+      "Arctic",
+      "Forest",
+      "Hills"
+    ],
+    "sections": {
+      "Printed source": "Búho, gigante, Cubil de Monstruos (Nosolorol, 2025), p. 335. Licensed Spanish edition of Kobold Press’s Monster Vault (2024). https://www.nosolorol.com/talesofthevaliant",
+      "Traits": "Flyby. Flying out of an enemy’s reach does not provoke an opportunity attack from that enemy.\nHeightened Hearing and Sight. Use Perception 20 when relying on hearing or sight.\nQuiet Wings. Its Stealth is 19 while it flies.",
+      "Actions": "Talons. Melee weapon attack, +4 to hit, 5 ft. reach, one target. On a hit, deal 6 (1d8 + 2) slashing damage."
+    }
+  },
+  {
+    "name": "Panther",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Medium Beast",
+    "ac": 12,
+    "hp": 15,
+    "speed": "50 ft., climb 40 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "otherStatistics": "Ability modifiers STR +2, DEX +2, CON +0, INT −4, WIS +2, CHA −2. Perception 14. Stealth 16. Darkvision 60 ft. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A black cat with rounded ears, muscular forelegs, and a long curved tail.",
+    "habitats": [
+      "Forest",
+      "Grassland",
+      "Hills"
+    ],
+    "sections": {
+      "Printed source": "Pantera, Cubil de Monstruos (Nosolorol, 2025), pp. 349–350. Licensed Spanish edition of Kobold Press’s Monster Vault (2024). https://www.nosolorol.com/talesofthevaliant",
+      "Traits": "Heightened Smell. Use Perception 19 when relying on smell.\nPounce. After moving at least 20 ft. straight toward a creature and hitting it with Claw on the same turn, the target must succeed on a DC 12 Strength save or fall prone. If the target is prone, the panther may make one Bite attack against it as a bonus action.",
+      "Actions": "Bite. Melee weapon attack, +4 to hit, 5 ft. reach, one creature. On a hit, deal 5 (1d6 + 2) piercing damage.\nClaw. Melee weapon attack, +4 to hit, 5 ft. reach, one target. On a hit, deal 4 (1d4 + 2) slashing damage.",
+      "Bonus actions": "Stealthy Hunter. Take the Hide action."
+    }
+  },
+  {
+    "name": "Pony",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Medium Beast",
+    "ac": 10,
+    "hp": 10,
+    "speed": "40 ft.",
+    "cr": "1/8",
+    "xp": 25,
+    "otherStatistics": "Ability modifiers STR +2, DEX +0, CON +1, INT −4, WIS +0, CHA −2. Perception 10. Stealth 10. No listed special senses. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A small, stocky horse with a thick mane and sturdy hooves.",
+    "habitats": [
+      "Farmland",
+      "Grassland",
+      "Urban"
+    ],
+    "sections": {
+      "Printed source": "Poni, Cubil de Monstruos (Nosolorol, 2025), p. 351. Licensed Spanish edition of Kobold Press’s Monster Vault (2024). https://www.nosolorol.com/talesofthevaliant",
+      "Traits": "Draft Animal. The pony can push, drag, or lift weight in pounds equal to three times its carrying capacity.",
+      "Actions": "Hooves. Melee weapon attack, +4 to hit, 5 ft. reach, one target. On a hit, deal 4 (1d4 + 2) bludgeoning damage."
+    }
+  },
+  {
+    "name": "Quipper",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Tiny Beast",
+    "ac": 10,
+    "hp": 8,
+    "speed": "0 ft., swim 40 ft.",
+    "cr": "0",
+    "xp": 10,
+    "otherStatistics": "Ability modifiers STR −4, DEX +0, CON +0, INT −5, WIS −2, CHA −4. Perception 8. Stealth 10. Darkvision 60 ft. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "One deep-bodied olive-silver fish with a rusty belly, a blunt toothed jaw, and a forked tail.",
+    "habitats": [
+      "Underwater"
+    ],
+    "sections": {
+      "Printed source": "Piraña, Cubil de Monstruos (Nosolorol, 2025), pp. 350–351. Licensed Spanish edition of Kobold Press’s Monster Vault (2024). https://www.nosolorol.com/talesofthevaliant",
+      "Traits": "Blood Frenzy. It has advantage on melee attacks against a creature below its hit point maximum.\nHeightened Smell. Use Perception 13 when relying on smell.\nWater Breathing. It can breathe only underwater.",
+      "Actions": "Bite. Melee weapon attack, +2 to hit, 5 ft. reach, one creature. On a hit, deal 2 (1d4) piercing damage."
+    }
+  }
+]

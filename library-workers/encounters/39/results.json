@@ -1,0 +1,45 @@
+[
+  {
+    "name": "Chimera (MCDM)",
+    "source": "https://www.dndbeyond.com/monsters/4485805-chimera-mcdm",
+    "challenge": "6",
+    "entry": "monster-e359db300bce842cb698909b",
+    "version": "aa5955eb32691f8e63448a7f",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "slug": "chimera",
+    "kind": "monster",
+    "type": "Monstrosity",
+    "encounterStatus": "local-stat-block",
+    "generated": true,
+    "primaryPortraitSha256": "0d1c094ae842e62173b5b2370a68bba457bb01c1400aa1a8a4e76d1b66947303",
+    "status": "Stat block",
+    "appearance": "A winged guardian with a lion’s head, a curled-horn ram’s head, a dragon’s head and a lashing scaled tail.",
+    "habitats": [
+      "Guarded territories",
+      "Sites of magical power"
+    ]
+  },
+  {
+    "name": "Wyvern (MCDM)",
+    "source": "https://www.dndbeyond.com/monsters/4486050-wyvern-mcdm",
+    "challenge": "6",
+    "entry": "monster-5ded64b393f090cef4f45738",
+    "version": "837c25f72e2bbb9090501aca",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "slug": "wyvern",
+    "kind": "monster",
+    "type": "Dragon",
+    "encounterStatus": "local-stat-block",
+    "generated": true,
+    "primaryPortraitSha256": "a1bd4c0f1df2e8d331f4fe07a39c362592f52db0b0af454ca676e68b84caa093",
+    "status": "Stat block",
+    "appearance": "A rocky-scaled dragon with two hind legs, wings used as forelimbs on the ground, and a long, acid-delivering stinger.",
+    "habitats": [
+      "Mountains",
+      "Badlands",
+      "Rocky spires"
+    ]
+  }
+]

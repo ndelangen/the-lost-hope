@@ -1,0 +1,381 @@
+[
+  {
+    "name": "Canoloth",
+    "statBlock": {
+      "name": "Canoloth",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 69,
+      "classification": "Medium fiend (yugoloth), typically neutral evil",
+      "ac": 16,
+      "hp": 120,
+      "hitDice": "16d8 + 48",
+      "speed": "50 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 17
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 19,
+      "description": "A yugoloth that guards against teleportation and drags prey into claw range with its tongue.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Investigation": 3,
+        "Perception": 9
+      },
+      "sections": {
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Abyssal, Infernal, telepathy 60 ft.",
+        "Damage resistances": "Cold, fire, lightning. Bludgeoning, piercing, slashing from nonmagical attacks.",
+        "Damage immunities": "Acid, poison.",
+        "Condition immunities": "Poisoned.",
+        "Armor": "Natural armor.",
+        "Traits": "Dimensional Lock. A creature other than the canoloth that attempts to teleport into or out of a space within 60 ft. of it wastes the attempt.\nMagic Resistance. The canoloth has advantage on saves against spells and other magical effects.\nUncanny Senses. The canoloth can be surprised only while incapacitated.",
+        "Actions": "Multiattack. Make one Bite or Tongue attack and one Claw attack.\nBite. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 7 (1d6 + 4) piercing damage plus 18 (4d8) force damage.\nClaw. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 7 (1d6 + 4) slashing damage plus 9 (2d8) force damage.\nTongue. Melee weapon attack, +7 to hit, reach 30 ft., one target. A hit deals 10 (1d12 + 4) piercing damage plus 7 (2d6) acid damage. If the target is Medium or smaller, the canoloth grapples it (escape DC 15) and pulls it up to 30 ft. closer. The target is restrained until the grapple ends. The tongue can hold one target at a time.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 69."
+      }
+    }
+  },
+  {
+    "name": "Catoblepas",
+    "statBlock": {
+      "name": "Catoblepas",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 70,
+      "classification": "Large monstrosity, unaligned",
+      "ac": 14,
+      "hp": 84,
+      "hitDice": "8d10 + 40",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 15,
+      "description": "A swamp monstrosity with a stunning tail and a gaze that can kill outright.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 5
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Armor": "Natural armor.",
+        "Traits": "Stench. A creature other than a catoblepas that starts its turn within 10 ft. of the catoblepas makes a DC 16 Constitution save. On a failure, it is poisoned until its next turn starts. On a success, it is immune to every catoblepas's Stench for 1 hour.",
+        "Actions": "Tail. Melee weapon attack, +7 to hit, reach 10 ft., one target. On a hit, the target takes 21 (5d6 + 4) bludgeoning damage and makes a DC 16 Constitution save. On a failure, it is stunned until the start of the catoblepas's next turn.\nDeath Ray (Recharge 5–6). Choose one creature the catoblepas can see within 30 ft. It makes a DC 16 Constitution save, taking 36 (8d8) necrotic damage on a failure or half on a success. If it fails by 5 or more, it takes 64 necrotic damage instead. A target reduced to 0 hit points by the ray dies.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 70."
+      }
+    }
+  },
+  {
+    "name": "Cave Fisher",
+    "statBlock": {
+      "name": "Cave Fisher",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 73,
+      "classification": "Medium monstrosity, unaligned",
+      "ac": 16,
+      "hp": 58,
+      "hitDice": "9d8 + 18",
+      "speed": "20 ft., climb 20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 3
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 12,
+      "description": "A cave predator that lowers a sticky filament from walls or ceilings and reels in trapped prey.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 2,
+        "Stealth": 5
+      },
+      "sections": {
+        "Senses": "Blindsight 60 ft.",
+        "Armor": "Natural armor.",
+        "Traits": "Flammable Blood. When the cave fisher drops to half its hit points or below, it gains vulnerability to fire damage.\nSpider Climb. It can climb difficult surfaces and move upside down on ceilings without an ability check.",
+        "Actions": "Multiattack. Make two Claw attacks.\nClaw. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 10 (2d6 + 3) slashing damage.\nRetract Filament. Choose one Large or smaller creature grappled by Adhesive Filament. It makes a DC 13 Strength save. On a failure, the cave fisher pulls it into an unoccupied space within 5 ft. of itself and makes one Claw attack against it. Retraction releases everyone else attached to the filament. The cave fisher cannot use Adhesive Filament until that target's grapple ends.",
+        "Bonus actions": "Adhesive Filament. Extend a sticky filament up to 60 ft. It adheres to anything that touches it. A creature caught by the filament is grappled (escape DC 13), with disadvantage on ability checks to escape. The filament has AC 15, 5 hit points, and immunity to poison and psychic damage. A weapon that attacks the filament and fails to sever it sticks. Freeing that weapon requires an action and a successful DC 13 Strength check. Destroying the filament leaves the cave fisher unharmed. Using Adhesive Filament again makes the old filament crumble.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 73."
+      }
+    }
+  },
+  {
+    "name": "Champion",
+    "statBlock": {
+      "name": "Champion",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 74,
+      "classification": "Medium humanoid, any alignment",
+      "ac": 18,
+      "hp": 143,
+      "hitDice": "22d8 + 44",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "9",
+      "xp": 5000,
+      "passivePerception": 16,
+      "description": "A veteran combatant in plate armor who hits hardest while above half hit points.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Str": 9,
+        "Con": 6
+      },
+      "skills": {
+        "Athletics": 9,
+        "Intimidation": 5,
+        "Perception": 6
+      },
+      "sections": {
+        "Languages": "Any one language (usually Common).",
+        "Armor": "Plate armor.",
+        "Traits": "Indomitable (2/day). The champion can reroll a failed saving throw.",
+        "Actions": "Multiattack. Make three Greatsword or Shortbow attacks.\nGreatsword. Melee weapon attack, +9 to hit, reach 5 ft., one target. A hit deals 12 (2d6 + 5) slashing damage, plus 7 (2d6) slashing damage if the champion has more than half its hit points.\nShortbow. Ranged weapon attack, +6 to hit, range 80/320 ft., one target. A hit deals 5 (1d6 + 2) piercing damage, plus 7 (2d6) piercing damage if the champion has more than half its hit points.",
+        "Bonus actions": "Second Wind (Recharges after a Short or Long Rest). The champion regains 20 hit points.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 74."
+      }
+    }
+  },
+  {
+    "name": "Chitine",
+    "statBlock": {
+      "name": "Chitine",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 75,
+      "classification": "Small monstrosity, typically chaotic evil",
+      "ac": 14,
+      "hp": 18,
+      "hitDice": "4d6 + 4",
+      "speed": "30 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 10,
+      "description": "A small, spiderlike ambusher that senses creatures through its web and attacks with daggers.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Athletics": 4,
+        "Stealth": 4
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Undercommon.",
+        "Armor": "Hide armor.",
+        "Traits": "Fey Ancestry. The chitine has advantage on saves against being charmed, and magic cannot put it to sleep.\nSunlight Sensitivity. In sunlight, it has disadvantage on attack rolls and on Wisdom (Perception) checks that depend on sight.\nWeb Sense. While touching a web, it knows the exact location of other creatures touching that same web.\nWeb Walker. Webbing does not restrict its movement.",
+        "Actions": "Multiattack. Make three Dagger attacks.\nDagger. Melee or ranged weapon attack, +4 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 4 (1d4 + 2) piercing damage.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 75."
+      }
+    }
+  },
+  {
+    "name": "Choker",
+    "statBlock": {
+      "name": "Choker",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 76,
+      "classification": "Small aberration, typically chaotic evil",
+      "ac": 16,
+      "hp": 13,
+      "hitDice": "3d6 + 3",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 4
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 11,
+      "description": "A boneless ambusher that seizes prey with two long tentacles.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Stealth": 6
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Deep Speech.",
+        "Armor": "Natural armor.",
+        "Traits": "Aberrant Quickness (Recharges after a Short or Long Rest). The choker can take an additional action on its turn.\nBoneless. It can pass through and occupy a space only 4 inches wide without squeezing.\nSpider Climb. It can climb difficult surfaces and move upside down on ceilings without an ability check.",
+        "Actions": "Multiattack. Make two Tentacle attacks.\nTentacle. Melee weapon attack, +5 to hit, reach 10 ft., one target. A hit deals 5 (1d4 + 3) piercing damage. A Large or smaller creature hit is grappled (escape DC 15) and restrained until the grapple ends. The choker has two tentacles, and each can attack another target only once its current grapple ends. A creature grappled by a critical hit also cannot breathe or speak until the grapple ends.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 76."
+      }
+    }
+  },
+  {
+    "name": "Choldrith",
+    "statBlock": {
+      "name": "Choldrith",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 77,
+      "classification": "Medium monstrosity (cleric), typically chaotic evil",
+      "ac": 15,
+      "hp": 66,
+      "hitDice": "12d8 + 12",
+      "speed": "30 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 12,
+      "description": "A spiderlike cleric that snares foes in webs and attacks with a floating dagger.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Athletics": 5,
+        "Religion": 2,
+        "Stealth": 5
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Undercommon.",
+        "Armor": "Natural armor.",
+        "Traits": "Fey Ancestry. The choldrith has advantage on saves against being charmed, and magic cannot put it to sleep.\nSpider Climb. It can climb difficult surfaces and move upside down on ceilings without an ability check.\nSunlight Sensitivity. In sunlight, it has disadvantage on attack rolls and on Wisdom (Perception) checks that depend on sight.\nWeb Sense. While touching a web, it knows the exact location of other creatures touching that same web.\nWeb Walker. Webbing does not restrict its movement.",
+        "Actions": "Dagger. Melee or ranged weapon attack, +5 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 5 (1d4 + 3) piercing damage plus 10 (3d6) poison damage.\nWeb (Recharge 5–6). Ranged weapon attack, +5 to hit, range 30/60 ft., one Large or smaller creature. On a hit, webbing restrains the target. The target can use an action to break the webbing with a successful DC 11 Strength check. The webbing can also be attacked. It has AC 10, 5 hit points, fire vulnerability, and immunity to bludgeoning, poison, and psychic damage.",
+        "Spellcasting": "As an action, cast one of the following spells with Wisdom (spell save DC 12).\nAt will. Guidance, Thaumaturgy.\n1/day each. Bane, Hold Person.",
+        "Bonus actions": "Spectral Dagger (Recharges after a Short or Long Rest). Conjure a floating spectral dagger within 60 ft. The choldrith can make a melee spell attack (+4 to hit) against one creature within 5 ft. of the dagger. A hit deals 6 (1d8 + 2) force damage. The dagger lasts 1 minute. On later turns, the choldrith can use a bonus action to move it up to 20 ft. and repeat the attack against one creature within 5 ft. of it.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 77."
+      }
+    }
+  }
+]

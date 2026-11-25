@@ -1,0 +1,313 @@
+[
+  {
+    "name": "Tiny Viper Snake",
+    "kind": "beast",
+    "edition": "3.5 edition",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "ruleset": "dnd-3.5",
+    "appearance": "The portrait shows a slender pale tan viper with a row of brown blotches and a fine, tapering tail.",
+    "combat": {
+      "armorClass": 17,
+      "armorClassNote": "+2 size, +3 Dexterity, +2 natural armor",
+      "touchArmorClass": 15,
+      "flatFootedArmorClass": 14,
+      "hitPoints": 1,
+      "hitDice": "1/4 d8",
+      "challenge": "1/3",
+      "size": "Tiny",
+      "creatureType": "Animal",
+      "speed": {
+        "walk": 15,
+        "climb": 15,
+        "swim": 15
+      },
+      "initiativeModifier": 3,
+      "baseAttackBonus": 0,
+      "grappleModifier": -11,
+      "savingThrows": {
+        "Fort": 2,
+        "Ref": 5,
+        "Will": 1
+      },
+      "abilities": {
+        "STR": 4,
+        "DEX": 17,
+        "CON": 11,
+        "INT": 1,
+        "WIS": 12,
+        "CHA": 2
+      },
+      "skills": {
+        "Balance": 11,
+        "Climb": 11,
+        "Hide": 15,
+        "Listen": 6,
+        "Spot": 6,
+        "Swim": 5
+      },
+      "senses": [
+        "Low-light vision",
+        "Scent"
+      ],
+      "habitats": [
+        "Temperate marshes"
+      ],
+      "attackOptions": "Space 2½ ft. and reach 0 ft. Both the attack and full attack are one Bite with injury poison.",
+      "attacks": [
+        {
+          "name": "Bite",
+          "mode": "melee",
+          "hitBonus": 5,
+          "reach": 0,
+          "damage": [
+            {
+              "average": 1,
+              "type": "piercing, slashing and bludgeoning"
+            }
+          ]
+        }
+      ]
+    },
+    "mechanics": {
+      "Special attack": [
+        {
+          "name": "Poison (Ex)",
+          "saves": [
+            {
+              "ability": "Fortitude",
+              "dc": 10
+            }
+          ],
+          "effectNote": "After a damaging bite, the target makes a Fortitude save immediately and again 1 minute later, even if the first save succeeds. Each failure deals 1d6 Constitution damage. The viper is immune to its own venom and to venom from others of its kind."
+        }
+      ],
+      "Trait": [
+        {
+          "name": "Scent (Ex)",
+          "effectNote": "Detect creatures by smell within 30 ft., 60 ft. if the creature is upwind or 15 ft. if downwind. A move action reveals the direction. Within 5 ft., the viper can pinpoint the creature."
+        },
+        {
+          "name": "Snake skills",
+          "effectNote": "The listed modifiers include racial bonuses of +4 to Hide, Listen and Spot and +8 to Balance and Climb. Use the higher of Strength and Dexterity for Climb. The viper can take 10 on Climb checks even when rushed or threatened."
+        },
+        {
+          "name": "Swim",
+          "effectNote": "The listed Swim modifier includes a +8 racial bonus for hazards and special maneuvers. The viper can take 10 even when distracted or in danger, and can run in a straight line while swimming."
+        }
+      ]
+    },
+    "notes": [
+      "Always neutral. Solitary. The SRD lists no advancement or level adjustment. The viper usually bites defensively and then retreats.",
+      "Weapon Finesse uses Dexterity on the Bite attack roll. The listed attack bonus already uses Dexterity.",
+      "Use initiative +3 and the listed Weapon Finesse feat for this SRD printing. The later Monster Manual errata makes Weapon Finesse a bonus feat and adds Improved Initiative. d20srd.org reflects those changes and gives initiative +7.",
+      "With 0 ft. of reach, the viper must enter the target’s space to bite."
+    ]
+  },
+  {
+    "name": "Small Viper Snake",
+    "kind": "beast",
+    "edition": "3.5 edition",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "ruleset": "dnd-3.5",
+    "appearance": "The portrait shows a gray-brown viper with broad dark saddles, a dark eye stripe and pale scales along the lower jaw.",
+    "combat": {
+      "armorClass": 17,
+      "armorClassNote": "+1 size, +3 Dexterity, +3 natural armor",
+      "touchArmorClass": 14,
+      "flatFootedArmorClass": 14,
+      "hitPoints": 4,
+      "hitDice": "1d8",
+      "challenge": "1/2",
+      "size": "Small",
+      "creatureType": "Animal",
+      "speed": {
+        "walk": 20,
+        "climb": 20,
+        "swim": 20
+      },
+      "initiativeModifier": 3,
+      "baseAttackBonus": 0,
+      "grappleModifier": -6,
+      "savingThrows": {
+        "Fort": 2,
+        "Ref": 5,
+        "Will": 1
+      },
+      "abilities": {
+        "STR": 6,
+        "DEX": 17,
+        "CON": 11,
+        "INT": 1,
+        "WIS": 12,
+        "CHA": 2
+      },
+      "skills": {
+        "Balance": 11,
+        "Climb": 11,
+        "Hide": 11,
+        "Listen": 7,
+        "Spot": 7,
+        "Swim": 6
+      },
+      "senses": [
+        "Low-light vision",
+        "Scent"
+      ],
+      "habitats": [
+        "Temperate marshes"
+      ],
+      "attackOptions": "Space 5 ft. and reach 5 ft. Both the attack and full attack are one Bite with injury poison.",
+      "attacks": [
+        {
+          "name": "Bite",
+          "mode": "melee",
+          "hitBonus": 4,
+          "reach": 5,
+          "damage": [
+            {
+              "dice": "1d2−2",
+              "type": "piercing, slashing and bludgeoning"
+            }
+          ]
+        }
+      ]
+    },
+    "mechanics": {
+      "Special attack": [
+        {
+          "name": "Poison (Ex)",
+          "saves": [
+            {
+              "ability": "Fortitude",
+              "dc": 10
+            }
+          ],
+          "effectNote": "After a damaging bite, the target makes a Fortitude save immediately and again 1 minute later, even if the first save succeeds. Each failure deals 1d6 Constitution damage. The viper is immune to its own venom and to venom from others of its kind."
+        }
+      ],
+      "Trait": [
+        {
+          "name": "Scent (Ex)",
+          "effectNote": "Detect creatures by smell within 30 ft., 60 ft. if the creature is upwind or 15 ft. if downwind. A move action reveals the direction. Within 5 ft., the viper can pinpoint the creature."
+        },
+        {
+          "name": "Snake skills",
+          "effectNote": "The listed modifiers include racial bonuses of +4 to Hide, Listen and Spot and +8 to Balance and Climb. Use the higher of Strength and Dexterity for Climb. The viper can take 10 on Climb checks even when rushed or threatened."
+        },
+        {
+          "name": "Swim",
+          "effectNote": "The listed Swim modifier includes a +8 racial bonus for hazards and special maneuvers. The viper can take 10 even when distracted or in danger, and can run in a straight line while swimming."
+        }
+      ]
+    },
+    "notes": [
+      "Always neutral. Solitary. The SRD lists no advancement or level adjustment. The viper usually bites defensively and then retreats.",
+      "Weapon Finesse uses Dexterity on the Bite attack roll. The listed attack bonus already uses Dexterity.",
+      "Use initiative +3 and the listed Weapon Finesse feat for this SRD printing. The later Monster Manual errata makes Weapon Finesse a bonus feat and adds Improved Initiative. d20srd.org reflects those changes and gives initiative +7.",
+      "Roll the printed Bite damage. If the result is below 1, the hit deals 1 damage before applying defenses."
+    ]
+  },
+  {
+    "name": "Medium Viper Snake",
+    "kind": "beast",
+    "edition": "3.5 edition",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "ruleset": "dnd-3.5",
+    "appearance": "The portrait shows a stout copper-brown viper with a dark zigzag down its back and a thick neck that narrows behind the head.",
+    "combat": {
+      "armorClass": 16,
+      "armorClassNote": "+3 Dexterity, +3 natural armor",
+      "touchArmorClass": 13,
+      "flatFootedArmorClass": 13,
+      "hitPoints": 9,
+      "hitDice": "2d8",
+      "challenge": "1",
+      "size": "Medium",
+      "creatureType": "Animal",
+      "speed": {
+        "walk": 20,
+        "climb": 20,
+        "swim": 20
+      },
+      "initiativeModifier": 3,
+      "baseAttackBonus": 1,
+      "grappleModifier": 0,
+      "savingThrows": {
+        "Fort": 3,
+        "Ref": 6,
+        "Will": 1
+      },
+      "abilities": {
+        "STR": 8,
+        "DEX": 17,
+        "CON": 11,
+        "INT": 1,
+        "WIS": 12,
+        "CHA": 2
+      },
+      "skills": {
+        "Balance": 11,
+        "Climb": 11,
+        "Hide": 12,
+        "Listen": 5,
+        "Spot": 5,
+        "Swim": 7
+      },
+      "senses": [
+        "Low-light vision",
+        "Scent"
+      ],
+      "habitats": [
+        "Temperate marshes"
+      ],
+      "attackOptions": "Space 5 ft. and reach 5 ft. Both the attack and full attack are one Bite with injury poison.",
+      "attacks": [
+        {
+          "name": "Bite",
+          "mode": "melee",
+          "hitBonus": 4,
+          "reach": 5,
+          "damage": [
+            {
+              "dice": "1d4−1",
+              "type": "piercing, slashing and bludgeoning"
+            }
+          ]
+        }
+      ]
+    },
+    "mechanics": {
+      "Special attack": [
+        {
+          "name": "Poison (Ex)",
+          "saves": [
+            {
+              "ability": "Fortitude",
+              "dc": 11
+            }
+          ],
+          "effectNote": "After a damaging bite, the target makes a Fortitude save immediately and again 1 minute later, even if the first save succeeds. Each failure deals 1d6 Constitution damage. The viper is immune to its own venom and to venom from others of its kind."
+        }
+      ],
+      "Trait": [
+        {
+          "name": "Scent (Ex)",
+          "effectNote": "Detect creatures by smell within 30 ft., 60 ft. if the creature is upwind or 15 ft. if downwind. A move action reveals the direction. Within 5 ft., the viper can pinpoint the creature."
+        },
+        {
+          "name": "Snake skills",
+          "effectNote": "The listed modifiers include racial bonuses of +4 to Hide, Listen and Spot and +8 to Balance and Climb. Use the higher of Strength and Dexterity for Climb. The viper can take 10 on Climb checks even when rushed or threatened."
+        },
+        {
+          "name": "Swim",
+          "effectNote": "The listed Swim modifier includes a +8 racial bonus for hazards and special maneuvers. The viper can take 10 even when distracted or in danger, and can run in a straight line while swimming."
+        }
+      ]
+    },
+    "notes": [
+      "Always neutral. Solitary. The SRD lists no advancement or level adjustment. The viper usually bites defensively and then retreats.",
+      "Weapon Finesse uses Dexterity on the Bite attack roll. The listed attack bonus already uses Dexterity.",
+      "Roll the printed Bite damage. If the result is below 1, the hit deals 1 damage before applying defenses."
+    ]
+  }
+]

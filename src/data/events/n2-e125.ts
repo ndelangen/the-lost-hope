@@ -18,4 +18,5 @@ export default createEvent({
       '; the other two doors remain unexplored.',
     ],
   ],
+  illustrations: ['/assets/scenes/the-party-chooses-the-left-door-at-the-blood-fed-altar.png'],
 })

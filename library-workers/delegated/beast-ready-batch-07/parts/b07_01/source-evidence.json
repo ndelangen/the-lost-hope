@@ -1,0 +1,146 @@
+[
+  {
+    "name": "Bison",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Revised v3.5 System Reference Document",
+    "sourceArchive": "SRD-3.5-RTF.zip",
+    "sourceArchiveSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+    "sourceSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+    "sourceShard": "MonstersAnimals.rtf",
+    "section": "Bison",
+    "sourceUrl": "https://www.d20srd.org/srd/monsters/bison.htm",
+    "url": "https://www.d20srd.org/srd/monsters/bison.htm",
+    "sharedRulesShards": [
+      "TypesSubtypesAbilities.rtf",
+      "Feats.rtf"
+    ],
+    "appearanceEvidence": "The SRD describes a large herd animal over 6 ft. at the shoulder. The hump, coat and horn shape describe the original portrait.",
+    "habitatEvidence": "The Bison table lists temperate plains.",
+    "habitatSourceKind": "Printed Environment field and supporting prose where cited.",
+    "mechanicsNotes": [
+      "The Stampede text gives damage dice and a saving throw without specifying a damage type."
+    ]
+  },
+  {
+    "name": "Camel",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Revised v3.5 System Reference Document",
+    "sourceArchive": "SRD-3.5-RTF.zip",
+    "sourceArchiveSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+    "sourceSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+    "sourceShard": "MonstersAnimals.rtf",
+    "section": "Camel",
+    "sourceUrl": "https://www.d20srd.org/srd/monsters/camel.htm",
+    "url": "https://www.d20srd.org/srd/monsters/camel.htm",
+    "sharedRulesShards": [
+      "TypesSubtypesAbilities.rtf",
+      "Feats.rtf"
+    ],
+    "appearanceEvidence": "The default SRD block describes the one-humped dromedary. The sandy coat and stance describe the approved portrait.",
+    "habitatEvidence": "The table gives warm deserts for the dromedary. The Bactrian prose names cooler, rocky terrain for the two-humped variant.",
+    "habitatSourceKind": "Printed Environment field and supporting prose where cited.",
+    "mechanicsNotes": [
+      "The attack table and combat footnote both preserve the bite as secondary, even though it is the camel’s only attack.",
+      "The Bactrian description gives speed and Constitution changes in prose, without a separate table."
+    ],
+    "reusedPortrait": {
+      "source": "beast-ready-batch-02/parts/b02_04/portraits/camel.png",
+      "sha256": "bae753a3f850f569686f845b8f5db464cdd7341b0f819f5e320ee1bf0e5ceffd"
+    }
+  },
+  {
+    "name": "Dire Rat",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Revised v3.5 System Reference Document",
+    "sourceArchive": "SRD-3.5-RTF.zip",
+    "sourceArchiveSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+    "sourceSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+    "sourceShard": "MonstersDi-Do.rtf",
+    "section": "Dire Animal, Dire Rat",
+    "sourceUrl": "https://www.d20srd.org/srd/monsters/direRat.htm",
+    "url": "https://www.d20srd.org/srd/monsters/direRat.htm",
+    "sharedRulesShards": [
+      "TypesSubtypesAbilities.rtf",
+      "AbilitiesandConditions.rtf"
+    ],
+    "appearanceEvidence": "The SRD describes a Small scavenger with sharp incisors that can exceed 50 lb. Coat and tail shape describe the indexed portrait.",
+    "habitatEvidence": "The Dire Rat table lists any environment.",
+    "habitatSourceKind": "Printed Environment field and supporting prose where cited.",
+    "mechanicsNotes": [
+      "The bite’s disease DC, incubation and damage come from the Dire Rat combat prose. The daily save and recovery sequence follows the shared Disease rules."
+    ],
+    "reusedPortrait": {
+      "source": "indexed:images/beasts/dire-rat/parchment-portrait.webp",
+      "sha256": "b760bc30296688082fdebb8b1c388d18ae5f48132689485a3b2c560fce2cb04b"
+    }
+  },
+  {
+    "name": "Giant Crocodile",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Revised v3.5 System Reference Document",
+    "sourceArchive": "SRD-3.5-RTF.zip",
+    "sourceArchiveSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+    "sourceSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+    "sourceShard": "MonstersAnimals.rtf",
+    "section": "Crocodile, Giant, and Crocodile combat",
+    "sourceUrl": "https://www.d20srd.org/srd/monsters/crocodile.htm#giantCrocodile",
+    "url": "https://www.d20srd.org/srd/monsters/crocodile.htm#giantCrocodile",
+    "sharedRulesShards": [
+      "TypesSubtypesAbilities.rtf",
+      "CombatII.rtf",
+      "WildernessandEnvironment.rtf",
+      "Feats.rtf"
+    ],
+    "appearanceEvidence": "The Giant Crocodile prose describes a crocodile that can exceed 20 ft. The color, scutes and posture describe the approved portrait.",
+    "habitatEvidence": "The giant table lists warm marshes. Its prose says it usually lives in salt water.",
+    "habitatSourceKind": "Printed Environment field and supporting prose where cited.",
+    "mechanicsNotes": [
+      "The giant entry refers to the preceding standard Crocodile combat text. The giant’s own numbers give 76 Hold Breath rounds from Constitution 19."
+    ],
+    "reusedPortrait": {
+      "source": "beast-ready-batch-04/parts/b04_06/portraits/giant-crocodile.png",
+      "sha256": "47c163be19bce15b8b378a7d363eda71a9907de6d79a6c7d6fea03c06c0ee96b"
+    }
+  },
+  {
+    "name": "Monkey",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Revised v3.5 System Reference Document",
+    "sourceArchive": "SRD-3.5-RTF.zip",
+    "sourceArchiveSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+    "sourceSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+    "sourceShard": "MonstersAnimals.rtf",
+    "section": "Monkey",
+    "sourceUrl": "https://www.d20srd.org/srd/monsters/monkey.htm",
+    "url": "https://www.d20srd.org/srd/monsters/monkey.htm",
+    "sharedRulesShards": [
+      "TypesSubtypesAbilities.rtf",
+      "CombatI.rtf"
+    ],
+    "appearanceEvidence": "The SRD lists small arboreal monkeys including capuchins. The pale face and dark body describe the selected indexed portrait.",
+    "habitatEvidence": "The Monkey table names warm forests. The combat prose describes retreat into trees.",
+    "habitatSourceKind": "Printed Environment field and supporting prose where cited.",
+    "mechanicsNotes": [
+      "Keep the negative bite formula visible. The shared minimum-damage rule is why it still deals 1 damage."
+    ],
+    "reusedPortrait": {
+      "source": "indexed:images/beasts/monkey/parchment-portrait.webp",
+      "sha256": "3c8e2379babcd62969f9a60e8345d13ef2e3840dda75a046a0fbfd40c8034112"
+    }
+  }
+]

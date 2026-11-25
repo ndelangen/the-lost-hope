@@ -1,0 +1,129 @@
+[
+  {
+    "name": "Alseid",
+    "kind": "species",
+    "publication": "Margreve Player’s Guide (2019)",
+    "edition": "Fifth edition compatible",
+    "publisher": "Kobold Press",
+    "year": 2019,
+    "url": "https://online.anyflip.com/fgoih/hmom/files/mobile/11.webp",
+    "source": "https://koboldpress.com/kpstore/product/margreve-players-guide-for-5th-edition/",
+    "primaryBookText": "https://online.anyflip.com/fgoih/hmom/files/mobile/11.webp",
+    "rulePages": [
+      "https://online.anyflip.com/fgoih/hmom/files/mobile/11.webp",
+      "https://online.anyflip.com/fgoih/hmom/files/mobile/10.webp"
+    ],
+    "printedPages": [
+      8,
+      9
+    ],
+    "heading": "Alseid Traits",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "sourceDistinctions": [
+      "The playable Alseid is a Monstrosity. Its Quadruped trait gives specific movement constraints. Woodfriend applies within forests."
+    ]
+  },
+  {
+    "name": "Erina",
+    "kind": "species",
+    "publication": "Margreve Player’s Guide (2019)",
+    "edition": "Fifth edition compatible",
+    "publisher": "Kobold Press",
+    "year": 2019,
+    "url": "https://online.anyflip.com/fgoih/hmom/files/mobile/12.webp",
+    "source": "https://koboldpress.com/kpstore/product/margreve-players-guide-for-5th-edition/",
+    "primaryBookText": "https://online.anyflip.com/fgoih/hmom/files/mobile/12.webp",
+    "rulePages": [
+      "https://online.anyflip.com/fgoih/hmom/files/mobile/12.webp",
+      "https://online.anyflip.com/fgoih/hmom/files/mobile/13.webp",
+      "https://online.anyflip.com/fgoih/hmom/files/mobile/11.webp"
+    ],
+    "printedPages": [
+      9,
+      10,
+      11
+    ],
+    "heading": "Erina Traits",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "sourceDistinctions": [
+      "The printed player rules give 25 ft. walking and 20 ft. burrowing in earth and sand. They grant spoken languages. The NPC uses Humanoid for the Erina because the trait list leaves type implicit.",
+      "Spines damage a creature in a grapple with the Erina at the start of the Erina’s turn."
+    ]
+  },
+  {
+    "name": "Piney",
+    "kind": "species",
+    "publication": "Margreve Player’s Guide (2019)",
+    "edition": "Fifth edition compatible",
+    "publisher": "Kobold Press",
+    "year": 2019,
+    "url": "https://online.anyflip.com/fgoih/hmom/files/mobile/15.webp",
+    "source": "https://koboldpress.com/kpstore/product/margreve-players-guide-for-5th-edition/",
+    "primaryBookText": "https://online.anyflip.com/fgoih/hmom/files/mobile/15.webp",
+    "rulePages": [
+      "https://online.anyflip.com/fgoih/hmom/files/mobile/15.webp",
+      "https://online.anyflip.com/fgoih/hmom/files/mobile/13.webp",
+      "https://online.anyflip.com/fgoih/hmom/files/mobile/14.webp"
+    ],
+    "printedPages": [
+      11,
+      12,
+      13
+    ],
+    "heading": "Piney Traits",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "sourceDistinctions": [
+      "These are the rules for a Piney adventuring outside the Margreve. Margreve Without identifies the playable creature as a Humanoid and gives plantlike features."
+    ]
+  },
+  {
+    "name": "Ravenfolk",
+    "kind": "species",
+    "publication": "Book of Ebon Tides",
+    "edition": "Fifth edition compatible",
+    "publisher": "Kobold Press",
+    "year": 2022,
+    "url": "",
+    "source": "https://www.dndbeyond.com/sources/dnd/boet",
+    "primaryBookText": "",
+    "rulePages": [
+      "",
+      "https://anyflip.com/qkxdf/sqvy/basic"
+    ],
+    "printedPages": [
+      37,
+      38
+    ],
+    "heading": "Sublime Ravenfolk Traits",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "sourceDistinctions": [
+      "The printed player option is Sublime Ravenfolk. It includes the shared Medium size and 30 ft. speed and replaces base Ravenfolk Ability Score Increase, Sudden Attack, Trickster and Mimicry.",
+      "The fixed Sublime Chord DC is 13. Humanoid is the ruling used in the NPC example because the printed Sublime trait list does not specify type."
+    ]
+  },
+  {
+    "name": "Trollkin",
+    "kind": "species",
+    "publication": "Midgard Heroes Handbook (2018)",
+    "edition": "Fifth edition compatible",
+    "publisher": "Kobold Press",
+    "year": 2018,
+    "url": "https://online.anyflip.com/fgoih/spnw/files/mobile/30.webp",
+    "source": "https://koboldpress.com/kpstore/product/midgard-heroes-handbook-for-5th-edition-dnd-5e/",
+    "primaryBookText": "https://online.anyflip.com/fgoih/spnw/files/mobile/30.webp",
+    "rulePages": [
+      "https://online.anyflip.com/fgoih/spnw/files/mobile/30.webp",
+      "https://online.anyflip.com/fgoih/spnw/files/mobile/29.webp"
+    ],
+    "printedPages": [
+      29,
+      30
+    ],
+    "heading": "Trollkin Traits, Night Whisper Trollkin and Stonehide Trollkin",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "sourceDistinctions": [
+      "The printed profile gives two subraces. The portrait and watch guard use Stonehide. Inhuman Vigor spends actual Hit Dice and can be blocked by acid or fire.",
+      "This row describes the 2018 Midgard Heroes Handbook rules. The NPC uses Humanoid because the printed trait list leaves the type implicit."
+    ]
+  }
+]

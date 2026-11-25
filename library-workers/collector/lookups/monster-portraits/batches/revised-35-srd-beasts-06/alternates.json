@@ -1,0 +1,92 @@
+[
+  {
+    "entityKind": "beast",
+    "name": "Large Shark",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/large-shark/reef-shark-2024.webp",
+    "artist": "Related Reef Shark illustration · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "0d7d893c16ffee910149314882b7d881ba2602ca19c7cc76f0fc604e96a5aa3a",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Reef%20Shark.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Large Shark",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/large-shark/kobold-press-shark-hunter.webp",
+    "artist": "Related Hunter Shark · Kobold Press Foundry token",
+    "kind": "token",
+    "sha256": "25960e599386c317a1012965f9b5bea8cc40e62e8768df3140e9f9e4d497fee4",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/shark-hunter.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Large Viper Snake",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/large-viper-snake/poisonous-snake-2014.webp",
+    "artist": "Related Poisonous Snake token · Monster Manual (2014)",
+    "kind": "token",
+    "sha256": "f1ff5ecffcbdd53e7bd5e5b353adc21854f3d20f65cf3b5e63709123ec48c9c8",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/MM/Poisonous%20Snake.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Large Viper Snake",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/large-viper-snake/swarm-of-venomous-snakes-2024.webp",
+    "artist": "Related Swarm of Venomous Snakes illustration · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "ce2f60ddfaf2569addce62306e3a98b952278d3ae78198ca5661c518d3ae65a9",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Swarm%20of%20Venomous%20Snakes.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Light Horse",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/light-horse/riding-horse-2024.webp",
+    "artist": "Related Riding Horse illustration · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "b2b1ae155641ee362c9625a4626621d4a2eac3535552a548afb4982f8319440f",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Riding%20Horse.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Light Horse",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/light-horse/riding-horse-2014.webp",
+    "artist": "Related Riding Horse illustration · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "5ad67143c5b0ed5c51761e1fce5d1d2c010adf277d5f1d6ec5bc12cd4c609131",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/MM/Riding%20Horse.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Leopard",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/leopard/leopard-gary-stolz.jpg",
+    "artist": "African leopard photograph by Gary M. Stolz · U.S. Fish and Wildlife Service · Public domain",
+    "kind": "photograph",
+    "sha256": "908927d7e761b3cd2ffdeb31898d48d93003c0fc32e0547f9de56d1fbc09a6ab",
+    "reference": "https://commons.wikimedia.org/wiki/File:African_leopard_panthera_pardus.jpg",
+    "license": "https://creativecommons.org/publicdomain/mark/1.0/"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Leopard",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/leopard/leopard-mats201.jpg",
+    "artist": "African leopard photograph by Mats201 · CC BY-SA 3.0",
+    "kind": "photograph",
+    "sha256": "e164db363be3319796646424e4961fb3e1248e79fc9b2f26365210a1e75ecdde",
+    "reference": "https://commons.wikimedia.org/wiki/File:Walking_leopard.jpg",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/"
+  }
+]

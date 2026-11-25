@@ -1,0 +1,35 @@
+{
+  "commit": "53a336b",
+  "batch": 98,
+  "verification": {
+    "testsPassed": 902,
+    "productionBuild": true,
+    "browser": [
+      {
+        "name": "Tibbit",
+        "species": "species-ba342ff2ebf19e78a1e800a8",
+        "edition": "3.5 edition",
+        "profiles": [
+          "Dragon Compendium, Volume I (2005)"
+        ],
+        "portraitSha256": "74678c44b5a3126126fdd3f7964d0ad55d61bb2da5730e32d6ba6c2cd7cdb9e0",
+        "caption": "Pell Fenwick · Original Tibbit NPC",
+        "npcReceipts": [
+          {
+            "name": "Pell Fenwick",
+            "id": "npc-e9a8a3dc3c144d4156c289a5",
+            "challenge": "Provisional CR 1. ECL 1."
+          },
+          {
+            "name": "Rusk Brindle",
+            "id": "npc-10e09c51baf1bc1392a9dbf4",
+            "challenge": "Provisional CR 1. ECL 1."
+          }
+        ]
+      }
+    ],
+    "browseThumbnail": true,
+    "existingCatProfilesAndArtMatchBaseline": true,
+    "r2AndBothLocalBackups": true
+  }
+}

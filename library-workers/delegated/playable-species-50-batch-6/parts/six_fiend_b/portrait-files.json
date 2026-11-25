@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Keeper",
+    "file": "portraits/keeper.png",
+    "sha256": "2434018f5ffe1df0d49c622fa214538c53e2ad852fba404975cd03444bf06a01",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original AI-generated portrait, OpenAI ImageGen"
+  },
+  {
+    "name": "Rilmani",
+    "file": "portraits/rilmani.png",
+    "sha256": "084ecb268efa3981986c0933eee6054fd4040663f865f9ac7c97e5426b8bddd0",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original AI-generated portrait, OpenAI ImageGen"
+  },
+  {
+    "name": "Yuan-ti Anathema",
+    "file": "portraits/yuan-ti-anathema.png",
+    "sha256": "fcb478ce84ff304bee55aa34b7418f77bddac16d4e1f7c59cdb3162be2aea7a8",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original AI-generated portrait, OpenAI ImageGen"
+  }
+]

@@ -1,0 +1,1585 @@
+[
+  {
+    "name": "Giant Centipede",
+    "kind": "beast",
+    "group": "Beast",
+    "otherKindExists": false,
+    "global": true,
+    "version": {
+      "key": "6fa377c078a4b5b19e9791cb",
+      "publication": "Monstrous Manual (1994 third printing)",
+      "edition": "AD&D 2nd edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "9"
+        ],
+        [
+          "Hit points",
+          "2"
+        ],
+        [
+          "Size",
+          "Tiny, 1 ft."
+        ],
+        [
+          "Type",
+          "Animal"
+        ],
+        [
+          "Movement",
+          "15"
+        ],
+        [
+          "THAC0",
+          "20"
+        ],
+        [
+          "Attacks per round",
+          "1"
+        ],
+        [
+          "Damage per attack",
+          "Nil"
+        ],
+        [
+          "XP",
+          "35"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Any terrain",
+            "Forest, rocky areas, and underground"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A long, segmented centipede with chitinous backplates. Forest specimens are brown or red, those in rocky areas are gray, and underground specimens are black."
+          ]
+        },
+        {
+          "title": "Combat mechanics",
+          "lines": [
+            "Paralytic bite · The bite inflicts no direct damage. The victim saves vs. poison with a +4 bonus. On a failed save it is paralyzed for 2d6 hours. The Giant Centipede takes a −1 penalty to all its own saving throws.",
+            "Camouflaged ambush · It relies on coloration to hide, drops from above or emerges from cover, and fights independently even when several are present."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "2–24 appearing. Common. No intelligence (0). Unsteady (5–7) morale. Active at any time, carnivorous, and neutral. No special defenses or magic resistance.",
+            "Organization and treasure are Nil. The Hit Dice field gives 2 HP. The size field gives 1 ft. The prose says over 1 ft.",
+            "Monstrous Manual, TSR 2140, January 1994 third printing, p. 42."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [
+      {
+        "key": "4ee401cbe197a07013f333c8",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "status": "Combat summary",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "13"
+          ],
+          [
+            "Hit points",
+            "4"
+          ],
+          [
+            "Hit dice",
+            "1d6 + 1"
+          ],
+          [
+            "Challenge",
+            "1/4"
+          ],
+          [
+            "Size",
+            "Small"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 30 ft., climb 30 ft."
+          ],
+          [
+            "Str",
+            "5"
+          ],
+          [
+            "Dex",
+            "14"
+          ],
+          [
+            "Con",
+            "12"
+          ],
+          [
+            "Int",
+            "1"
+          ],
+          [
+            "Wis",
+            "7"
+          ],
+          [
+            "Cha",
+            "3"
+          ]
+        ],
+        "sections": [],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "a1ffb53ca312b46a1583ffa7",
+        "publication": "Hoard of the Dragon Queen - Online Supplement",
+        "edition": "2014 fifth edition",
+        "status": "Combat summary",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "13"
+          ],
+          [
+            "Hit points",
+            "4"
+          ],
+          [
+            "Hit dice",
+            "1d6 + 1"
+          ],
+          [
+            "Challenge",
+            "1/4"
+          ],
+          [
+            "Size",
+            "Small"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 30 ft., climb 30 ft."
+          ],
+          [
+            "Str",
+            "5"
+          ],
+          [
+            "Dex",
+            "14"
+          ],
+          [
+            "Con",
+            "12"
+          ],
+          [
+            "Int",
+            "1"
+          ],
+          [
+            "Wis",
+            "7"
+          ],
+          [
+            "Cha",
+            "3"
+          ]
+        ],
+        "sections": [],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "91e4a5f5b118ae60e78378bc",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "description": "A Small beast with challenge rating 1/4. Listed habitats: underdark, urban. Named abilities include Bite.",
+        "source": "https://5e.tools/bestiary.html#giant%20centipede_mm",
+        "status": "Encounter reference",
+        "images": [
+          {
+            "url": "",
+            "credit": "Monster Manual (2014)"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "13"
+          ],
+          [
+            "Hit points",
+            "4"
+          ],
+          [
+            "Hit dice",
+            "1d6 + 1"
+          ],
+          [
+            "Challenge",
+            "1/4"
+          ],
+          [
+            "Size",
+            "Small"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 30 ft., climb 30 ft."
+          ],
+          [
+            "Passive Perception",
+            "8"
+          ],
+          [
+            "Initiative",
+            "2"
+          ],
+          [
+            "Strength",
+            "5"
+          ],
+          [
+            "Dexterity",
+            "14"
+          ],
+          [
+            "Constitution",
+            "12"
+          ],
+          [
+            "Intelligence",
+            "1"
+          ],
+          [
+            "Wisdom",
+            "7"
+          ],
+          [
+            "Charisma",
+            "3"
+          ],
+          [
+            "Alignment",
+            "unaligned"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +4 to hit · reach 5 ft. · 1d4 + 2 piercing · 3d6 poison"
+            ]
+          },
+          {
+            "title": "Senses",
+            "lines": [
+              "blindsight 30 ft."
+            ]
+          },
+          {
+            "title": "Habitats",
+            "lines": [
+              "underdark, urban"
+            ]
+          },
+          {
+            "title": "Actions reference",
+            "lines": [
+              "Bite · Melee attack · +4 to hit · 1d4 + 2 piercing damage · DC 11 Constitution save · 3d6 poison damage · reach 5 ft. · 1 hour · 0 hit points · Additional effect upon reaching 0 HP · Poisoned · Paralyzed"
+            ]
+          }
+        ],
+        "sourceCode": "MM",
+        "page": 323,
+        "references": [
+          {
+            "label": "Monster Manual (2014), p. 323",
+            "url": "https://5e.tools/bestiary.html#giant%20centipede_mm"
+          },
+          {
+            "label": "Poisoned (condition)",
+            "url": "https://5e.tools/conditionsdiseases.html#poisoned_phb",
+            "local": {
+              "entry": "compendium-92dd5fb346a0c9fd56bbdde5",
+              "version": "PHB:292:https://5e.tools/conditionsdiseases.html#poisoned_phb"
+            },
+            "preview": {
+              "name": "Poisoned",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "Your attack rolls and ability checks have disadvantage.",
+              "local": {
+                "entry": "compendium-92dd5fb346a0c9fd56bbdde5",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#poisoned_phb"
+              }
+            }
+          },
+          {
+            "label": "Paralyzed (condition)",
+            "url": "https://5e.tools/conditionsdiseases.html#paralyzed_phb",
+            "local": {
+              "entry": "compendium-138ba975047a1242ea1c34b0",
+              "version": "PHB:291:https://5e.tools/conditionsdiseases.html#paralyzed_phb"
+            },
+            "preview": {
+              "name": "Paralyzed",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 291,
+              "description": "You cannot act, move, or speak, and nearby attacks that hit you are critical hits.",
+              "local": {
+                "entry": "compendium-138ba975047a1242ea1c34b0",
+                "version": "PHB:291:https://5e.tools/conditionsdiseases.html#paralyzed_phb"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Passive Perception": [
+            {
+              "start": 0,
+              "end": 18,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Initiative": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Initiative",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 369,
+                "local": {
+                  "entry": "compendium-f7647d543d6e04bd0782c504",
+                  "version": "XPHB:369:https://5e.tools/variantrules.html#initiative_xphb"
+                }
+              }
+            }
+          ],
+          "Alignment": [
+            {
+              "start": 0,
+              "end": 9,
+              "target": {
+                "name": "Alignment",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                }
+              }
+            }
+          ],
+          "blindsight 30 ft.": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Blindsight",
+                "group": "Senses",
+                "publication": "Player's Handbook (2014)",
+                "page": 183,
+                "local": {
+                  "entry": "compendium-07dd97e41872842acf1183db",
+                  "version": "PHB:183:https://5e.tools/senses.html#blindsight_phb"
+                }
+              }
+            }
+          ],
+          "Bite · Melee attack · +4 to hit · 1d4 + 2 piercing damage · DC 11 Constitution save · 3d6 poison damage · reach 5 ft. · 1 hour · 0 hit points · Additional effect upon reaching 0 HP · Poisoned · Paralyzed": [
+            {
+              "start": 183,
+              "end": 191,
+              "target": {
+                "name": "Poisoned",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 292,
+                "description": "Your attack rolls and ability checks have disadvantage.",
+                "local": {
+                  "entry": "compendium-92dd5fb346a0c9fd56bbdde5",
+                  "version": "PHB:292:https://5e.tools/conditionsdiseases.html#poisoned_phb"
+                }
+              }
+            },
+            {
+              "start": 194,
+              "end": 203,
+              "target": {
+                "name": "Paralyzed",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 291,
+                "description": "You cannot act, move, or speak, and nearby attacks that hit you are critical hits.",
+                "local": {
+                  "entry": "compendium-138ba975047a1242ea1c34b0",
+                  "version": "PHB:291:https://5e.tools/conditionsdiseases.html#paralyzed_phb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "e9455df4c0b14edd1396e053",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "description": "A Small beast with challenge rating 1/4. Listed habitats: underdark, urban. Named abilities include Bite.",
+        "source": "https://5e.tools/bestiary.html#giant%20centipede_xmm",
+        "artwork": "https://www.dndbeyond.com/avatars/thumbnails/47138/854/1000/1000/638741964101500955.png",
+        "status": "Encounter reference",
+        "images": [
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "14"
+          ],
+          [
+            "Hit points",
+            "9"
+          ],
+          [
+            "Hit dice",
+            "2d6 + 2"
+          ],
+          [
+            "Challenge",
+            "1/4"
+          ],
+          [
+            "Size",
+            "Small"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 30 ft., climb 30 ft."
+          ],
+          [
+            "Passive Perception",
+            "8"
+          ],
+          [
+            "Strength",
+            "5"
+          ],
+          [
+            "Dexterity",
+            "14"
+          ],
+          [
+            "Constitution",
+            "12"
+          ],
+          [
+            "Intelligence",
+            "1"
+          ],
+          [
+            "Wisdom",
+            "7"
+          ],
+          [
+            "Charisma",
+            "3"
+          ],
+          [
+            "Alignment",
+            "unaligned"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Habitats",
+            "lines": [
+              "underdark",
+              "urban",
+              "underdark, urban"
+            ]
+          },
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +4 to hit · reach 5 ft. · 1d4 + 2 piercing"
+            ]
+          },
+          {
+            "title": "Senses",
+            "lines": [
+              "Blindsight 30 ft."
+            ]
+          },
+          {
+            "title": "Actions reference",
+            "lines": [
+              "Bite · Melee attack · +4 to hit · 1d4 + 2 piercing damage · reach 5 ft. · Poisoned"
+            ]
+          },
+          {
+            "title": "Lore topics in the source",
+            "lines": [
+              "Animals"
+            ]
+          }
+        ],
+        "sourceCode": "XMM",
+        "references": [
+          {
+            "label": "Monster Manual (2025), p. 355",
+            "url": "https://5e.tools/bestiary.html#giant%20centipede_xmm"
+          },
+          {
+            "label": "Poisoned (condition)",
+            "url": "https://5e.tools/conditionsdiseases.html#poisoned_xphb",
+            "local": {
+              "entry": "compendium-92dd5fb346a0c9fd56bbdde5",
+              "version": "XPHB:372:https://5e.tools/conditionsdiseases.html#poisoned_xphb"
+            },
+            "preview": {
+              "name": "Poisoned",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2024)",
+              "page": 372,
+              "description": "Your attack rolls and ability checks have disadvantage.",
+              "local": {
+                "entry": "compendium-92dd5fb346a0c9fd56bbdde5",
+                "version": "XPHB:372:https://5e.tools/conditionsdiseases.html#poisoned_xphb"
+              }
+            }
+          },
+          {
+            "label": "Panther (creature)",
+            "url": "https://5e.tools/bestiary.html#panther_xmm",
+            "local": {
+              "entry": "beast-346793476af7c0a55cfa62ab",
+              "version": "b2bb83792ec748263d8b7b46"
+            },
+            "preview": {
+              "name": "Panther",
+              "group": "Beast",
+              "publication": "Monster Manual (2024)",
+              "description": "A Medium beast with challenge rating 1/4. Listed habitats: forest, grassland, hill. Named abilities include Rend, Nimble Escape.",
+              "local": {
+                "entry": "beast-346793476af7c0a55cfa62ab",
+                "version": "b2bb83792ec748263d8b7b46"
+              }
+            }
+          },
+          {
+            "label": "Giant Goat (creature)",
+            "url": "https://5e.tools/bestiary.html#giant%20goat_xmm",
+            "local": {
+              "entry": "beast-6f3ba88f8055270588c02a34",
+              "version": "426fa41934a075969d8d0faf"
+            },
+            "preview": {
+              "name": "Giant Goat",
+              "group": "Beast",
+              "publication": "Monster Manual (2024)",
+              "description": "A Large beast with challenge rating 1/2. Listed habitats: grassland, hill, mountain. Named abilities include Ram.",
+              "local": {
+                "entry": "beast-6f3ba88f8055270588c02a34",
+                "version": "426fa41934a075969d8d0faf"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Passive Perception": [
+            {
+              "start": 0,
+              "end": 18,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Alignment": [
+            {
+              "start": 0,
+              "end": 9,
+              "target": {
+                "name": "Alignment",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                }
+              }
+            }
+          ],
+          "Blindsight 30 ft.": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Blindsight",
+                "group": "Senses",
+                "publication": "Player's Handbook (2024)",
+                "page": 361,
+                "local": {
+                  "entry": "compendium-07dd97e41872842acf1183db",
+                  "version": "XPHB:361:https://5e.tools/senses.html#blindsight_xphb"
+                }
+              }
+            }
+          ],
+          "Bite · Melee attack · +4 to hit · 1d4 + 2 piercing damage · reach 5 ft. · Poisoned": [
+            {
+              "start": 74,
+              "end": 82,
+              "target": {
+                "name": "Poisoned",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "description": "Your attack rolls and ability checks have disadvantage.",
+                "local": {
+                  "entry": "compendium-92dd5fb346a0c9fd56bbdde5",
+                  "version": "XPHB:372:https://5e.tools/conditionsdiseases.html#poisoned_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "6243b461dedf5b03a29d0579",
+        "publication": "SRD 5.1",
+        "edition": "2014 fifth edition",
+        "status": "Stat block",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "13"
+          ],
+          [
+            "Hit points",
+            "4"
+          ],
+          [
+            "Hit dice",
+            "1d6 + 1"
+          ],
+          [
+            "Challenge",
+            "1/4"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "30 ft., climb 30 ft."
+          ],
+          [
+            "XP",
+            "50"
+          ],
+          [
+            "Str",
+            "5"
+          ],
+          [
+            "Dex",
+            "14"
+          ],
+          [
+            "Con",
+            "12"
+          ],
+          [
+            "Int",
+            "1"
+          ],
+          [
+            "Wis",
+            "7"
+          ],
+          [
+            "Cha",
+            "3"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Classification",
+            "lines": [
+              "Small beast, unaligned"
+            ]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Senses blindsight 30 ft., passive Perception 8 Languages —"
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) piercing damage, and the target must succeed on a DC 11 Constitution saving throw or take 10 (3d6) poison damage. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way."
+            ]
+          }
+        ],
+        "inline": {
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Senses blindsight 30 ft., passive Perception 8 Languages —": [
+            {
+              "start": 7,
+              "end": 17,
+              "target": {
+                "name": "Blindsight",
+                "group": "Senses",
+                "publication": "Player's Handbook (2014)",
+                "page": 183,
+                "local": {
+                  "entry": "compendium-07dd97e41872842acf1183db",
+                  "version": "PHB:183:https://5e.tools/senses.html#blindsight_phb"
+                }
+              }
+            },
+            {
+              "start": 34,
+              "end": 44,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            }
+          ],
+          "Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) piercing damage, and the target must succeed on a DC 11 Constitution saving throw or take 10 (3d6) poison damage. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.": [
+            {
+              "start": 12,
+              "end": 25,
+              "target": {
+                "name": "Weapon Attack",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 377,
+                "local": {
+                  "entry": "compendium-f8978a5da2977fc5a556ab9c",
+                  "version": "XPHB:377:https://5e.tools/variantrules.html#weapon%20attack_xphb"
+                }
+              }
+            },
+            {
+              "start": 151,
+              "end": 163,
+              "target": {
+                "name": "Saving Throw",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2014)",
+                "page": 179,
+                "description": "Roll a d20 and add the relevant ability modifier, plus proficiency if it applies. The effect sets the DC.",
+                "local": {
+                  "entry": "compendium-c71a1b1cfda70c19953fcff6",
+                  "version": "PHB:179:https://5e.tools/book.html#PHB"
+                }
+              }
+            },
+            {
+              "start": 278,
+              "end": 286,
+              "target": {
+                "name": "Poisoned",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 292,
+                "description": "Your attack rolls and ability checks have disadvantage.",
+                "local": {
+                  "entry": "compendium-92dd5fb346a0c9fd56bbdde5",
+                  "version": "PHB:292:https://5e.tools/conditionsdiseases.html#poisoned_phb"
+                }
+              }
+            },
+            {
+              "start": 339,
+              "end": 348,
+              "target": {
+                "name": "Paralyzed",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 291,
+                "description": "You cannot act, move, or speak, and nearby attacks that hit you are critical hits.",
+                "local": {
+                  "entry": "compendium-138ba975047a1242ea1c34b0",
+                  "version": "PHB:291:https://5e.tools/conditionsdiseases.html#paralyzed_phb"
+                }
+              }
+            },
+            {
+              "start": 355,
+              "end": 363,
+              "target": {
+                "name": "Poisoned",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 292,
+                "description": "Your attack rolls and ability checks have disadvantage.",
+                "local": {
+                  "entry": "compendium-92dd5fb346a0c9fd56bbdde5",
+                  "version": "PHB:292:https://5e.tools/conditionsdiseases.html#poisoned_phb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "6076004305fb61f1b08e8c76",
+        "publication": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Stat block",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "14"
+          ],
+          [
+            "Hit points",
+            "9"
+          ],
+          [
+            "Hit dice",
+            "2d6 + 2"
+          ],
+          [
+            "Challenge",
+            "1/4"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "30 ft., Climb 30 ft."
+          ],
+          [
+            "XP",
+            "50"
+          ],
+          [
+            "Str",
+            "5"
+          ],
+          [
+            "Dex",
+            "14"
+          ],
+          [
+            "Con",
+            "12"
+          ],
+          [
+            "Int",
+            "1"
+          ],
+          [
+            "Wis",
+            "7"
+          ],
+          [
+            "Cha",
+            "3"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Classification",
+            "lines": [
+              "Small Beast, Unaligned"
+            ]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Senses Blindsight 30 ft.; Passive Perception 8 Languages None"
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Piercing damage, and the target has the Poisoned condition until the start of the centipede’s next turn."
+            ]
+          }
+        ],
+        "inline": {
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Senses Blindsight 30 ft.; Passive Perception 8 Languages None": [
+            {
+              "start": 7,
+              "end": 17,
+              "target": {
+                "name": "Blindsight",
+                "group": "Senses",
+                "publication": "Player's Handbook (2024)",
+                "page": 361,
+                "local": {
+                  "entry": "compendium-07dd97e41872842acf1183db",
+                  "version": "XPHB:361:https://5e.tools/senses.html#blindsight_xphb"
+                }
+              }
+            },
+            {
+              "start": 26,
+              "end": 44,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Piercing damage, and the target has the Poisoned condition until the start of the centipede’s next turn.": [
+            {
+              "start": 12,
+              "end": 23,
+              "target": {
+                "name": "Attack Roll",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 361,
+                "local": {
+                  "entry": "compendium-2570a567c24ef3f4b5e35b50",
+                  "version": "XPHB:361:https://5e.tools/variantrules.html#attack%20roll_xphb"
+                }
+              }
+            },
+            {
+              "start": 98,
+              "end": 106,
+              "target": {
+                "name": "Poisoned",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "description": "Your attack rolls and ability checks have disadvantage.",
+                "local": {
+                  "entry": "compendium-92dd5fb346a0c9fd56bbdde5",
+                  "version": "XPHB:372:https://5e.tools/conditionsdiseases.html#poisoned_xphb"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "queries": {
+      "Giant Centipede": true,
+      "giant centipede paralytic ambush 2d6": true,
+      "giant centipede red brown backplates": true,
+      "giant centipede forest rocky underground": true
+    },
+    "hash": "5e2e82268d4c3d9523235cfb88d61daed5c59796b33c88563701ec03105cb190",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [
+      {
+        "url": "",
+        "credit": "Monster Manual (2014)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      }
+    ],
+    "defaultPublication": "Basic Rules (2018)",
+    "defaultVersionKey": "4ee401cbe197a07013f333c8",
+    "entryImage": {
+      "url": "",
+      "credit": "Monster Manual (2014)"
+    }
+  },
+  {
+    "name": "Huge Centipede",
+    "kind": "beast",
+    "group": "Animal",
+    "otherKindExists": false,
+    "global": true,
+    "version": {
+      "key": "6d55031fa5eabac5eba54b7d",
+      "publication": "Monstrous Manual (1994 third printing)",
+      "edition": "AD&D 2nd edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "9"
+        ],
+        [
+          "Hit points",
+          "1"
+        ],
+        [
+          "Size",
+          "Tiny, 6 in."
+        ],
+        [
+          "Type",
+          "Animal"
+        ],
+        [
+          "Movement",
+          "21"
+        ],
+        [
+          "THAC0",
+          "20"
+        ],
+        [
+          "Attacks per round",
+          "1"
+        ],
+        [
+          "Damage per attack",
+          "Nil"
+        ],
+        [
+          "XP",
+          "35"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Any terrain",
+            "Forest, rocky areas, and underground"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A six-inch, many-legged centipede with chitinous body segments. It shares the Giant Centipede’s camouflage, including rocky gray and underground black specimens."
+          ]
+        },
+        {
+          "title": "Combat mechanics",
+          "lines": [
+            "Paralytic bite · The bite inflicts no direct damage. A victim that fails its save vs. poison is immobilized for 1d6 hours. The prose treats this form as the Giant Centipede with exceptions, so the victim’s +4 save bonus carries over by reference.",
+            "Own saving throws · The Huge Centipede takes a −2 penalty to its own saving throws."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "5–30 appearing. Common. No intelligence (0). Unsteady (5–7) morale. Active at any time, carnivorous, and neutral. No special defenses or magic resistance.",
+            "Organization and treasure are Nil. The Hit Dice field gives 1 HP. Despite its title, this form is smaller than the Giant Centipede.",
+            "Monstrous Manual, TSR 2140, January 1994 third printing, p. 42."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Huge Centipede": true,
+      "huge centipede immobilized 1d6": true,
+      "huge centipede rocky gray segments": true,
+      "huge centipede rocky areas underground": true
+    },
+    "hash": "79df2781c9e99983bb2c22808842cad9a757a94bb70c1d8bd036d9d398f31489",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Monstrous Manual (1994 third printing)",
+    "defaultVersionKey": "6d55031fa5eabac5eba54b7d",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  },
+  {
+    "name": "Megalo-centipede",
+    "kind": "beast",
+    "group": "Animal",
+    "otherKindExists": false,
+    "global": true,
+    "version": {
+      "key": "064e95a254ce5b93b0ee6434",
+      "publication": "Monstrous Manual (1994 third printing)",
+      "edition": "AD&D 2nd edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "5"
+        ],
+        [
+          "Hit dice",
+          "3"
+        ],
+        [
+          "Size",
+          "M, 5 ft."
+        ],
+        [
+          "Type",
+          "Animal"
+        ],
+        [
+          "Movement",
+          "18"
+        ],
+        [
+          "THAC0",
+          "17"
+        ],
+        [
+          "Attacks per round",
+          "1"
+        ],
+        [
+          "Damage per attack",
+          "1–3"
+        ],
+        [
+          "XP",
+          "175"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Any terrain",
+            "Wilderness where it hunts deer-sized prey, and subterranean areas"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A five-foot centipede with a long, segmented body and chitinous armor."
+          ]
+        },
+        {
+          "title": "Combat mechanics",
+          "lines": [
+            "Acidic bite · The table gives 1–3 bite damage. The poison save receives no bonus. Failure means death. On a successful save, the acid deals 2d4 damage.",
+            "Own saving throws · The Megalo-centipede has no penalty to its own saving throws."
+          ]
+        },
+        {
+          "title": "Behavior mechanics",
+          "lines": [
+            "Solitary hunter · It stalks larger animals in the wilderness and humanoid-sized or smaller prey underground. Individuals do not hunt together."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "1–4 appearing. Very rare. Animal intelligence (1). Average (8–10) morale. Active at any time, carnivorous, and neutral. No special defenses or magic resistance.",
+            "Organization and treasure are Nil.",
+            "Monstrous Manual, TSR 2140, January 1994 third printing, p. 42."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Megalo-centipede": true,
+      "megalo-centipede acid death 2d4": true,
+      "megalo-centipede long segmented armor": true,
+      "megalo-centipede wilderness subterranean deer": true
+    },
+    "hash": "8e1b7064444b685a3bec7dc1470321b6a0fe3582ff6e98a6e7133fcf621742fa",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Monstrous Manual (1994 third printing)",
+    "defaultVersionKey": "064e95a254ce5b93b0ee6434",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  },
+  {
+    "name": "Tunnel Worm",
+    "kind": "beast",
+    "group": "Animal",
+    "otherKindExists": false,
+    "global": true,
+    "version": {
+      "key": "130273145d14d4563b4aaae3",
+      "publication": "Monstrous Manual (1994 third printing)",
+      "edition": "AD&D 2nd edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "4"
+        ],
+        [
+          "Hit dice",
+          "9+3"
+        ],
+        [
+          "Size",
+          "G, 25+ ft."
+        ],
+        [
+          "Type",
+          "Animal"
+        ],
+        [
+          "Movement",
+          "6"
+        ],
+        [
+          "THAC0",
+          "11"
+        ],
+        [
+          "Attacks per round",
+          "1"
+        ],
+        [
+          "Damage per attack",
+          "2–8"
+        ],
+        [
+          "XP",
+          "1400"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Subterranean areas, hidden burrows, and lairs"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A burrowing relative of the giant centipede at least 25 feet long, with powerful mandibles."
+          ]
+        },
+        {
+          "title": "Combat mechanics",
+          "lines": [
+            "Burrow lunge · A lunge from its hidden burrow gets +2 to hit. A hit seizes the target in its mandibles. The lunge causes no damage until it chews through the armor.",
+            "Armor breach · Leather or worse takes one round. Armor tougher than leather through chain mail takes two. Armor tougher than chain mail takes three. Once the armor is breached, the worm deals 2d8 damage automatically each round.",
+            "Retreat · It releases the victim and retreats to its lair after taking at least 15 points of fire damage or losing 60% of its HP."
+          ]
+        },
+        {
+          "title": "Lair mechanics",
+          "lines": [
+            "Carrion and treasure · It eats carrion, lays eggs in it, and may leave treasure from former victims in its lair."
+          ]
+        },
+        {
+          "title": "Appearance notes mechanics",
+          "lines": [
+            "Body plan · The segmented body and short walking legs depict its stated kinship with centipedes. The book does not specify a palette for this form."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "1–6 appearing. Rare. No intelligence (0). Steady (12) morale. Active at any time, carnivorous, and neutral. No special defenses or magic resistance.",
+            "Swarm organization. Treasure (M, N, Q). The attack table gives 2–8. The lunge text instead specifies automatic 2d8 per round after breaching armor.",
+            "Monstrous Manual, TSR 2140, January 1994 third printing, p. 42."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Tunnel Worm": true,
+      "tunnel worm lunge armor 2d8": true,
+      "tunnel worm mandibles segmented body": true,
+      "tunnel worm subterranean hidden burrow": true
+    },
+    "hash": "a7589fb2e3126cb05d583dbed589276d8ef88aed330a59faee40250eff0d7068",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Monstrous Manual (1994 third printing)",
+    "defaultVersionKey": "130273145d14d4563b4aaae3",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  }
+]

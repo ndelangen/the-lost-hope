@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Doppelganger",
+    "kind": "species",
+    "publication": "Monster Manual (4e, 2008)",
+    "edition": "4th edition",
+    "traits": [
+      "Medium. +2 Intelligence and +2 Charisma. Speed 6 squares, normal vision, Common. Racial skill bonuses are +2 Bluff and +2 Insight.",
+      "Mental Defense gives +1 racial Will.",
+      "Change Shape is an at-will Polymorph minor action. Assume the appearance of a Medium humanoid, including an individual you have seen. Your statistics and equipment stay the same. The form lasts until you change it or die. Someone challenging your impersonation of an individual rolls Insight against your Bluff with a +20 bonus to your roll.",
+      "The Monster Manual presents these racial rules for NPCs and allows player characters to use them with the DM’s permission."
+    ]
+  },
+  {
+    "name": "Githyanki",
+    "kind": "species",
+    "publication": "Monster Manual (4e, 2008)",
+    "edition": "4th edition",
+    "traits": [
+      "Medium. +2 Constitution and +2 Intelligence. Speed 6 squares, normal vision, Common and Deep Speech. Racial skill bonus is +2 History.",
+      "Danger Sense gives +2 initiative. Githyanki Willpower gives +1 Will and +2 on saves against charm effects.",
+      "Telekinetic Leap is an encounter move action at range 10. You or one ally can fly up to 5 squares. If you choose an ally, they must stay in your line of sight throughout the flight.",
+      "The Monster Manual presents these racial rules for NPCs and allows player characters to use them with the DM’s permission."
+    ]
+  },
+  {
+    "name": "Gnoll",
+    "kind": "species",
+    "publication": "Monster Manual (4e, 2008)",
+    "edition": "4th edition",
+    "traits": [
+      "Medium. +2 Constitution and +2 Dexterity. Speed 7 squares, low-light vision, Abyssal and Common. Racial skill bonus is +2 Intimidate.",
+      "Blood Fury adds 2 to damage rolls while you are bloodied, or 4 at level 21.",
+      "Ferocious Charge is an encounter standard action. Charge and deal 2 extra damage on a hit. The extra damage rises to 4 at level 11 and 6 at level 21.",
+      "The Monster Manual presents these racial rules for NPCs and allows player characters to use them with the DM’s permission."
+    ]
+  },
+  {
+    "name": "Kobold",
+    "kind": "species",
+    "publication": "Monster Manual (4e, 2008)",
+    "edition": "4th edition",
+    "traits": [
+      "Small. +2 Constitution and +2 Dexterity. Speed 6 squares, normal vision, Common and Draconic. Racial skill bonuses are +2 Stealth and +2 Thievery.",
+      "Trap Sense grants +2 to defenses against traps.",
+      "Shifty is an at-will personal minor action that lets you shift 1 square.",
+      "The Monster Manual presents these racial rules for NPCs and allows player characters to use them with the DM’s permission."
+    ]
+  },
+  {
+    "name": "Warforged",
+    "kind": "species",
+    "publication": "Monster Manual (4e, 2008)",
+    "edition": "4th edition",
+    "traits": [
+      "Medium. +2 Strength and +2 Constitution. Speed 6 squares, normal vision, Common. Racial skill bonus is +2 Endurance.",
+      "Living Construct gives +2 on saves against ongoing damage. You can rest for 4 hours for an extended rest. You do not need to eat, drink, or breathe. On a death saving throw, you can take 10 if it is better than your roll.",
+      "Warforged Resolve is an encounter minor action you can use only while bloodied. Gain temporary HP equal to 3 + half your level.",
+      "The Monster Manual presents these racial rules for NPCs and allows player characters to use them with the DM’s permission."
+    ]
+  }
+]

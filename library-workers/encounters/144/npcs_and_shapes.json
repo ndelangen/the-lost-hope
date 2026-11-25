@@ -1,0 +1,358 @@
+[
+  {
+    "name": "Deep Gnome (Svirfneblin)",
+    "statBlock": {
+      "name": "Deep Gnome (Svirfneblin)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Small humanoid (gnome), neutral good",
+      "ac": 15,
+      "hp": 16,
+      "hitDice": "3d6 + 6",
+      "speed": "20 ft.",
+      "cr": "1/2",
+      "xp": 100,
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "description": "An Underdark dweller who uses magical disguises and blends into bare rock.",
+      "otherStatistics": "Chain shirt. Darkvision 120 ft. Gnomish, Terran, Undercommon.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Traits": "Stone Camouflage. The gnome has advantage on Dexterity (Stealth) checks to hide in rocky terrain.\nGnome Cunning. The gnome has advantage on Intelligence, Wisdom, and Charisma saving throws against magic.",
+        "Innate spellcasting": "Intelligence (spell save DC 11), with no material components. At will: Nondetection (self only). 1/day each: Blindness/Deafness, Blur, Disguise Self.",
+        "Actions": "War Pick. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 6 (1d8 + 2) piercing damage.\nPoisoned Dart. Ranged weapon attack, +4 to hit, range 30/120 ft., one creature. Hit 4 (1d4 + 2) piercing damage. The creature makes a DC 12 Constitution save or is Poisoned for 1 minute. It repeats the save at the end of each of its turns, ending the effect on a success.",
+        "Printed source": "Monster Manual (2014), p. 164."
+      },
+      "passivePerception": 12,
+      "skills": {
+        "Investigation": 3,
+        "Perception": 2,
+        "Stealth": 4
+      }
+    }
+  },
+  {
+    "name": "Bugbear Chief",
+    "statBlock": {
+      "name": "Bugbear Chief",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (goblinoid), chaotic evil",
+      "ac": 17,
+      "hp": 65,
+      "hitDice": "10d8 + 20",
+      "speed": "30 ft.",
+      "cr": "3",
+      "xp": 700,
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "description": "An ambush leader who hits hardest in the opening round.",
+      "otherStatistics": "Chain shirt and shield. Darkvision 60 ft. Common, Goblin.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Traits": "Brute. A hit with a melee weapon deals one extra damage die. The melee damage below already includes it.\nHeart of Hruggek. The chief has advantage on saves against being Charmed, Frightened, Paralyzed, Poisoned, Stunned, or put to sleep.\nSurprise Attack. When the chief surprises a creature and hits it during the first round of combat, the hit deals an extra 7 (2d6) damage.",
+        "Actions": "Multiattack. Make two melee attacks.\nMorningstar. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 12 (2d8 + 3) piercing damage.\nJavelin. Melee or ranged weapon attack, +5 to hit, reach 5 ft. or range 30/120 ft., one target. Hit 10 (2d6 + 3) piercing damage in melee or 6 (1d6 + 3) piercing damage at range.",
+        "Printed source": "Monster Manual (2014), p. 33."
+      },
+      "passivePerception": 11,
+      "skills": {
+        "Intimidation": 2,
+        "Stealth": 6,
+        "Survival": 3
+      }
+    }
+  },
+  {
+    "name": "Goblin Boss",
+    "statBlock": {
+      "name": "Goblin Boss",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Small humanoid (goblinoid), neutral evil",
+      "ac": 17,
+      "hp": 21,
+      "hitDice": "6d6",
+      "speed": "30 ft.",
+      "cr": "1",
+      "xp": 200,
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 8
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "description": "A goblin commander who uses its allies as cover when an attack comes its way.",
+      "otherStatistics": "Chain shirt and shield. Darkvision 60 ft. Common, Goblin.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Traits": "Nimble Escape. On each of its turns, the boss can Disengage or Hide as a bonus action.",
+        "Actions": "Multiattack. Make two scimitar attacks. The second roll has disadvantage.\nScimitar. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 5 (1d6 + 2) slashing damage.\nJavelin. Melee or ranged weapon attack, +2 to hit, reach 5 ft. or range 30/120 ft., one target. Hit 3 (1d6) piercing damage.",
+        "Reactions": "Redirect Attack. When an attacker the boss can see targets it, the boss can choose another goblin within 5 ft. The two switch places and the attack targets the other goblin.",
+        "Printed source": "Monster Manual (2014), p. 166, with official errata."
+      },
+      "passivePerception": 9,
+      "skills": {
+        "Stealth": 6
+      }
+    }
+  },
+  {
+    "name": "Hobgoblin Captain",
+    "statBlock": {
+      "name": "Hobgoblin Captain",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (goblinoid), lawful evil",
+      "ac": 17,
+      "hp": 39,
+      "hitDice": "6d8 + 12",
+      "speed": "30 ft.",
+      "cr": "3",
+      "xp": 700,
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "description": "An armored field officer whose orders help nearby troops land attacks and weather enemy effects.",
+      "otherStatistics": "Half plate. Darkvision 60 ft. Common, Goblin.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Traits": "Martial Advantage. Once per turn, a weapon hit deals an extra 10 (3d6) damage to a creature if the target is within 5 ft. of an ally of the hobgoblin who is not Incapacitated.",
+        "Actions": "Multiattack. Make two greatsword attacks.\nGreatsword. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 9 (2d6 + 2) piercing damage in this printing.\nJavelin. Melee or ranged weapon attack, +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit 5 (1d6 + 2) piercing damage.\nLeadership (recharges after a short or long rest). For 1 minute, when a nonhostile creature the hobgoblin can see within 30 ft. rolls an attack or saving throw, the hobgoblin can call out and let that creature add 1d4 if it can hear and understand the command. A creature can use only one Leadership die per roll. The effect ends if the hobgoblin is Incapacitated.",
+        "Printing note": "The local 2014 printing lists piercing damage for the greatsword. The indexed transcription lists slashing.",
+        "Printed source": "Monster Manual (2014), p. 186."
+      },
+      "passivePerception": 10
+    }
+  },
+  {
+    "name": "Hobgoblin Warlord",
+    "statBlock": {
+      "name": "Hobgoblin Warlord",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (goblinoid), lawful evil",
+      "ac": 20,
+      "hp": 97,
+      "hitDice": "13d8 + 39",
+      "speed": "30 ft.",
+      "cr": "6",
+      "xp": 2300,
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "description": "A commander who can knock enemies off their feet while keeping allies coordinated.",
+      "otherStatistics": "Plate and shield. Darkvision 60 ft. Common, Goblin.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Traits": "Martial Advantage. Once per turn, a weapon hit deals an extra 14 (4d6) damage to a creature if the target is within 5 ft. of an ally of the hobgoblin who is not Incapacitated.",
+        "Actions": "Multiattack. Make three melee attacks or two ranged javelin attacks.\nLongsword. Melee weapon attack, +9 to hit, reach 5 ft., one target. Hit 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) when wielded with two hands.\nShield Bash. Melee weapon attack, +9 to hit, reach 5 ft., one creature. Hit 5 (1d4 + 3) bludgeoning damage. A Large or smaller target makes a DC 14 Strength save or falls Prone.\nJavelin. Melee or ranged weapon attack, +9 to hit, reach 5 ft. or range 30/120 ft., one target. Hit 6 (1d6 + 3) piercing damage.\nLeadership (recharges after a short or long rest). For 1 minute, when a nonhostile creature the hobgoblin can see within 30 ft. rolls an attack or saving throw, the hobgoblin can call out and let that creature add 1d4 if it can hear and understand the command. A creature can use only one Leadership die per roll. The effect ends if the hobgoblin is Incapacitated.",
+        "Reactions": "Parry. Add 3 to AC against one melee attack that would hit. The defender must see the attacker and be wielding a melee weapon.",
+        "Printed source": "Monster Manual (2014), p. 187."
+      },
+      "passivePerception": 10,
+      "savingThrows": {
+        "Int": 5,
+        "Wis": 3,
+        "Cha": 5
+      }
+    }
+  },
+  {
+    "name": "Orc War Chief",
+    "statBlock": {
+      "name": "Orc War Chief",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (orc), chaotic evil",
+      "ac": 16,
+      "hp": 93,
+      "hitDice": "11d8 + 44",
+      "speed": "30 ft.",
+      "cr": "4",
+      "xp": 1100,
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "description": "An orc leader whose battle cry helps nearby allies land their next attacks.",
+      "otherStatistics": "Chain mail. Darkvision 60 ft. Common, Orc.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Traits": "Aggressive. As a bonus action, move up to its speed toward a hostile creature it can see.\nGruumsh's Fury. Weapon hits deal an extra 4 (1d8) damage. The damage below already includes it.",
+        "Actions": "Multiattack. Make two attacks with the greataxe or spear.\nGreataxe. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit 15 (1d12 + 4 plus 1d8) slashing damage.\nSpear. Melee or ranged weapon attack, +6 to hit, reach 5 ft. or range 20/60 ft., one target. Hit 12 (1d6 + 4 plus 1d8) piercing damage, or 13 (2d8 + 4) for a two-handed melee attack.\nBattle Cry (1/day). Choose creatures within 30 ft. that can hear the chief and are not already affected by Battle Cry. They gain advantage on attack rolls until the start of the chief’s next turn. The chief can then make one attack as a bonus action.",
+        "Printed source": "Monster Manual (2014), p. 246, with official errata."
+      },
+      "passivePerception": 10,
+      "skills": {
+        "Intimidation": 5
+      },
+      "savingThrows": {
+        "Str": 6,
+        "Con": 6,
+        "Wis": 2
+      }
+    }
+  },
+  {
+    "name": "Orog",
+    "statBlock": {
+      "name": "Orog",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (orc), chaotic evil",
+      "ac": 18,
+      "hp": 42,
+      "hitDice": "5d8 + 20",
+      "speed": "30 ft.",
+      "cr": "2",
+      "xp": 450,
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "description": "A heavily armored orc that closes the distance and swings twice.",
+      "otherStatistics": "Plate. Darkvision 60 ft. Common, Orc.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Traits": "Aggressive. As a bonus action, move up to its speed toward a hostile creature it can see.",
+        "Actions": "Multiattack. Make two greataxe attacks.\nGreataxe. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit 10 (1d12 + 4) slashing damage.\nJavelin. Melee or ranged weapon attack, +6 to hit, reach 5 ft. or range 30/120 ft., one target. Hit 7 (1d6 + 4) piercing damage.",
+        "Printed source": "Monster Manual (2014), p. 247."
+      },
+      "passivePerception": 10,
+      "skills": {
+        "Intimidation": 5,
+        "Survival": 2
+      }
+    }
+  }
+]

@@ -1,0 +1,280 @@
+{
+  "builds": [
+    {
+      "id": "orcs-head-cayma-scout-1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "AD&D 2nd edition"
+      ],
+      "size": "Tiny",
+      "type": "Humanoid (lizard kin)",
+      "title": "Cayma culvert scout, Thief 1 (Scout)",
+      "difficulty": "Level 1 classed NPC. Base THAC0 20 and one attack per round.",
+      "ac": 7,
+      "hp": 4,
+      "initiative": 0,
+      "speed": "9 ground",
+      "languages": "Cayma dialect of Shazak, Common",
+      "senses": "Infravision 90 ft.",
+      "abilityScores": {
+        "STR": 10,
+        "DEX": 17,
+        "CON": 13,
+        "INT": 14,
+        "WIS": 11,
+        "CHA": 10
+      },
+      "skills": [
+        "Swimming",
+        "Engineering 5",
+        "Alertness",
+        "Direction Sense",
+        "Tracking",
+        "Rope Use",
+        "Survival (wetland)"
+      ],
+      "traits": [
+        "Neutral good. HP 4 on 1d6. Wears cloth, with a −3 Dexterity adjustment from AC 10.",
+        "Unarmored thief scores are Pick Pockets 15%, Open Locks 30%, Find/Remove Traps 10%, Move Silently 60%, Hide in Shadows 50%, Detect Noise 25%, Climb Walls 70% and Read Languages 0%. In wilderness add 10 points each to Move Silently and Hide in Shadows. In towns subtract 5 points from all thief skills. Opponents take −1 to surprise rolls.",
+        "Saving throws are 13 paralysis/poison/death magic, 14 rod/staff/wand, 12 petrification/polymorph, 16 breath weapon and 15 spell."
+      ],
+      "actions": [
+        "Sling with stone, effective THAC0 18 at short range and 1d4 damage. Range bands 40/80/160 yards outdoors or feet indoors. Apply −2 attack at medium range and −5 at long range.",
+        "Dagger, melee THAC0 20, 1d4 vs. Small or Medium targets or 1d3 vs. Large targets. Backstab from behind against an unaware target with discernible anatomy, +4 to hit and double weapon damage."
+      ],
+      "tactics": "Tess scouts ahead through the culvert and uses the sling only when a noise will draw the watch away from the exit."
+    },
+    {
+      "id": "orcs-head-eeraar-messenger-1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "AD&D 2nd edition"
+      ],
+      "size": "Medium",
+      "type": "Humanoid (winged elf)",
+      "title": "Ee’aar ridge messenger, Fighter 1 (Wilderness Warrior)",
+      "difficulty": "Level 1 classed NPC. Base THAC0 20 and one attack per round.",
+      "ac": 7,
+      "hp": 8,
+      "initiative": 0,
+      "speed": "16 ground, fly 18 (B or C)",
+      "languages": "Aeryla, Common",
+      "senses": "Infravision 60 ft. Resolves daytime detail over a mile away.",
+      "abilityScores": {
+        "STR": 13,
+        "DEX": 17,
+        "CON": 13,
+        "INT": 11,
+        "WIS": 11,
+        "CHA": 12
+      },
+      "skills": [
+        "Endurance",
+        "Survival (mountains) +5 from kit",
+        "Weather Sense",
+        "Mountaineering"
+      ],
+      "traits": [
+        "Neutral good. HP 8 on 1d10. No armor or shield and −3 Dexterity to AC. Wings are AC 6 and use the species profile’s hit rules.",
+        "At 90 lb., flight is class B through 45 lb. of carried gear and C through 90 lb. Make a Constitution check each hour, target 13 before the profile’s load, wind and altitude adjustments. At 4 HP remaining, glide only. At 2 HP remaining, lose gliding.",
+        "Resists sleep and charm spells 30% of the time. Her wings and daily Wisdom checks for confinement follow the player profile.",
+        "Saving throws are 14 paralysis/poison/death magic, 16 rod/staff/wand, 15 petrification/polymorph, 17 breath weapon and 17 spell."
+      ],
+      "actions": [
+        "Shortsword, effective THAC0 19 from the species bonus. Deals 1d6 vs. Small or Medium targets and 1d8 vs. Large targets.",
+        "Signal with chest light. Turn the light on, off or pulse it at will. Use a rehearsed pulse to identify the next safe landing."
+      ],
+      "tactics": "Ilyra lands in the open to relay the dispatch and blinks a warning before flying on."
+    },
+    {
+      "id": "orcs-head-enduk-escort-1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "AD&D 2nd edition"
+      ],
+      "size": "Medium",
+      "type": "Humanoid (winged minotaur)",
+      "title": "Enduk short-haul escort, Fighter 1 (Defender)",
+      "difficulty": "Level 1 classed NPC. Base THAC0 20 and one attack per round.",
+      "ac": 5,
+      "hp": 10,
+      "initiative": 0,
+      "speed": "15 ground, fly 12 (C or D)",
+      "languages": "Nimmurian, Common",
+      "senses": "Distinguishes daytime detail up to half a mile away.",
+      "abilityScores": {
+        "STR": 17,
+        "DEX": 12,
+        "CON": 16,
+        "INT": 10,
+        "WIS": 14,
+        "CHA": 12
+      },
+      "skills": [
+        "Religion (two bonus slots)",
+        "Ceremony (Idu)",
+        "Rope Use",
+        "Endurance"
+      ],
+      "traits": [
+        "Lawful good Defender of Idu. HP 8 on 1d10 + 2 Constitution. Height 6 ft. 8 in. and weight 243 lb. Leather improves natural AC 6 to AC 5. Proficient with the footman’s mace.",
+        "Can fly in class C with up to 243 lb. of load or D up to 486 lb. Apply the campaign’s normal encumbrance rules as well. Check Constitution 16 each turn after the third. At 5 HP remaining only gliding is possible. At 2 HP remaining both flight and gliding are lost. Apply the sourcebook’s wing-fire rule.",
+        "Recognized by Idu’s order. Reaction rolls are 3 better with its faithful and 3 worse with those hostile to the faith. Displays Idu’s symbol, obeys senior clergy and tithes one tenth.",
+        "Saving throws are 14 paralysis/poison/death magic, 16 rod/staff/wand, 15 petrification/polymorph, 17 breath weapon and 17 spell."
+      ],
+      "actions": [
+        "Footman’s mace, effective THAC0 19, 1d6+2 vs. Small or Medium targets or 1d6+1 vs. Large targets.",
+        "Horns, effective THAC0 19, 1d4+2 including Strength.",
+        "Detect evil intent. Concentrate for one round to detect evil intent up to 60 feet in the chosen direction, per the Defender kit and the core paladin procedure."
+      ],
+      "tactics": "Sarruk carries supplies across the gap, lands before the fourth turn and holds the ledge until the rest of the party crosses."
+    },
+    {
+      "id": "orcs-head-gurrash-channel-guard-1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "AD&D 2nd edition"
+      ],
+      "size": "Large",
+      "type": "Humanoid (lizard kin)",
+      "title": "Gurrash channel guard, Fighter 1 (Savage Warrior)",
+      "difficulty": "Level 1 classed NPC. Base THAC0 20 and one attack per round.",
+      "ac": 5,
+      "hp": 11,
+      "initiative": 0,
+      "speed": "12 ground, 18 swim",
+      "languages": "Gurrash dialect of Shazak",
+      "senses": "Normal vision. Once-daily alarm within 10 ft.",
+      "abilityScores": {
+        "STR": 17,
+        "DEX": 11,
+        "CON": 17,
+        "INT": 9,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Swimming",
+        "Direction Sense",
+        "Weather Sense",
+        "Endurance",
+        "Survival (bayou)",
+        "Fishing",
+        "Rope Use",
+        "Set Snares"
+      ],
+      "traits": [
+        "Neutral. HP 8 on 1d10 + 3 Constitution. Carries two stone-tipped spears. The harness leaves natural AC 5 intact. The Savage Warrior penalties apply to unfamiliar clothing and armor.",
+        "If frustrated, confused or hit for at least 8 damage at once, make a Wisdom check at −2, target 10. Failure grants +1 attack, +3 damage and +5 temporary HP and prevents using a shield or checking morale. It lasts up to five rounds. Magic can end either form. Removing the frustration can end a frustration rage. Killing the attacker can end rage from a wound.",
+        "Saving throws are 14 paralysis/poison/death magic, 16 rod/staff/wand, 15 petrification/polymorph, 17 breath weapon and 17 spell."
+      ],
+      "actions": [
+        "Stone-tipped spear, effective THAC0 21 in melee, 1d6 vs. Small or Medium targets or 1d8 vs. Large targets. Rage changes those numbers to THAC0 20 and 1d6+3 or 1d8+3. On each hit, the tip breaks on a separate roll of 1 on 1d20.",
+        "Throw stone-tipped spear, effective THAC0 20 at short range and 1d6 vs. Small or Medium targets or 1d8 vs. Large targets. Range bands are 10/20/30 yards outdoors or feet indoors, with −2 and −5 attack past short range. In rage, use THAC0 19 at short range and 1d6+3 or 1d8+3. Check for a broken tip on a hit.",
+        "Intrusion alarm once per day. Automatically detects a creature at least the size of a rat within 10 feet, including an invisible or incorporeal intruder, with astral and ethereal creatures excepted. The alarm can wake Vorr. To activate it while awake, concentrate without interruption for a round."
+      ],
+      "tactics": "Vorr posts at the shallow crossing and braces against the first creature to charge through the reeds."
+    },
+    {
+      "id": "orcs-head-manscorpion-threshold-guard-1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "AD&D 2nd edition"
+      ],
+      "size": "Large",
+      "type": "Humanoid (scorpion-bodied)",
+      "title": "Um-Shedu threshold guard, Fighter 1 (Defender)",
+      "difficulty": "Level 1 classed NPC. Base THAC0 20 and one attack per round.",
+      "ac": 7,
+      "hp": 10,
+      "initiative": 0,
+      "speed": "12 ground. Cannot swim.",
+      "languages": "Nimmurian, Common",
+      "senses": "Infravision 60 ft. Range taken from the setting’s companion appendix.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 12,
+        "CON": 16,
+        "INT": 12,
+        "WIS": 14,
+        "CHA": 10
+      },
+      "skills": [
+        "Artistic Ability (clay stamps)",
+        "Religion (two bonus slots)",
+        "Ceremony (Idu)",
+        "Reading/Writing",
+        "Local History"
+      ],
+      "traits": [
+        "Lawful good Defender of Idu. HP 8 on 1d10 + 2 Constitution. Wears a cloth sash, with natural AC 7. Effective Charisma is 9 with other humanoids and 6 with demihumans or humans.",
+        "The Um-Shedu profile is free of the sunlight curse. Immune to manscorpion venom and +2 on saves against all other poison, giving a poison save of 12.",
+        "Recognized by Idu’s order. Reaction rolls are 3 better with the faithful and 3 worse with those hostile to the faith. Displays Idu’s symbol, obeys senior clergy and tithes one tenth.",
+        "Saving throws are 14 paralysis/poison/death magic, 16 rod/staff/wand, 15 petrification/polymorph, 17 breath weapon and 17 spell."
+      ],
+      "actions": [
+        "Spear, effective THAC0 20 in melee, 1d6+1 vs. Small or Medium targets or 1d8+1 vs. Large targets.",
+        "Tail sting, effective THAC0 20, reach 10 ft. and 1d4+1 piercing damage as an encounter ruling. Choose this or the spear for the round. A failed unmodified save vs. poison causes one woozy round followed by 2d8 rounds of sleep. Neutralize poison ends the sleep early.",
+        "Detect evil intent. Concentrate for one round to detect evil intent up to 60 feet in the chosen direction."
+      ],
+      "tactics": "Tamar keeps enough space behind the gate to raise the tail, then leaves the spears lowered if the intruder surrenders."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Cayma",
+      "size": "Tiny",
+      "edition": "AD&D 2nd edition",
+      "speciesPublication": "Orc’s Head Peninsula Sourcebook (1996)",
+      "name": "Tess Reedknot",
+      "build": "orcs-head-cayma-scout-1",
+      "role": "Culvert scout",
+      "motive": "Reopen a blocked side channel before floodwater reaches the pens.",
+      "hook": "Tess finds a torn rope down in the sluice and asks who cut it while the current was low."
+    },
+    {
+      "species": "Ee’aar",
+      "size": "Medium",
+      "edition": "AD&D 2nd edition",
+      "speciesPublication": "Orc’s Head Peninsula Sourcebook (1996)",
+      "name": "Ilyra Serein",
+      "build": "orcs-head-eeraar-messenger-1",
+      "role": "Ridge messenger",
+      "motive": "Deliver a warning before the mountain winds turn.",
+      "hook": "Ilyra can fly the dispatch to the next ridge, but asks the party to retrieve the lantern marking her landing site."
+    },
+    {
+      "species": "Enduk",
+      "size": "Medium",
+      "edition": "AD&D 2nd edition",
+      "speciesPublication": "Orc’s Head Peninsula Sourcebook (1996)",
+      "name": "Sarruk Reedhorn",
+      "build": "orcs-head-enduk-escort-1",
+      "role": "Short-haul escort and Defender of Idu",
+      "motive": "Bring an injured traveler over the ravine.",
+      "hook": "Sarruk asks for a guide rope across the last ledge before lifting his passenger."
+    },
+    {
+      "species": "Gurrash",
+      "size": "Large",
+      "edition": "AD&D 2nd edition",
+      "speciesPublication": "Orc’s Head Peninsula Sourcebook (1996)",
+      "name": "Vorr Deepwake",
+      "build": "orcs-head-gurrash-channel-guard-1",
+      "role": "Marsh-channel shock guard",
+      "motive": "Keep strangers from blundering into the deep current or disturbing the fish traps.",
+      "hook": "Vorr gestures to a stake below the waterline and offers safe crossing in exchange for a warning if an unfamiliar boat appears."
+    },
+    {
+      "species": "Manscorpion",
+      "size": "Large",
+      "edition": "AD&D 2nd edition",
+      "speciesPublication": "Orc’s Head Peninsula Sourcebook (1996)",
+      "name": "Tamar of Um-Shedu",
+      "build": "orcs-head-manscorpion-threshold-guard-1",
+      "role": "Threshold guard and ledger keeper",
+      "motive": "Account for everyone sheltering behind the gate before dusk.",
+      "hook": "Tamar’s gate ledger has one more name than the people inside. The signature is still wet."
+    }
+  ]
+}

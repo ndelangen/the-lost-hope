@@ -24,4 +24,5 @@ export default createEvent({
     { by: refs.npcs.the_fiddler, card: refs.cards.the_key },
     { by: refs.npcs.the_fiddler, card: refs.cards.the_skull },
   ],
+  illustrations: ['/assets/scenes/the-fiddler-gains-a-knight-and-survives-the-avatar-of-death.png'],
 })

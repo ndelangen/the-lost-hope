@@ -1,0 +1,302 @@
+[
+  {
+    "name": "Brown Bear",
+    "publication": "DDAL04-14 - The Darklord",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 11,
+    "hp": 34,
+    "hitDice": "4d10 + 12",
+    "speed": "40 ft., climb 30 ft.",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 19,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "skills": {
+      "Perception": 3
+    },
+    "passivePerception": 13,
+    "otherStatistics": "Natural armor. Passive Perception 13. Languages none.",
+    "appearance": "A heavy brown bear with dense fur, a long muzzle, a broad shoulder hump and thick forepaws.",
+    "habitats": [
+      "Barovia",
+      "Orașnou",
+      "Pine forest",
+      "Cave mouth"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "The Dark Lord, appendix stat block, p. 30.",
+      "Traits": "Keen Smell. The bear has advantage on Wisdom (Perception) checks that rely on smell.",
+      "Actions": "Multiattack. Make one Bite attack and one Claws attack.\nBite. Make a +5 melee weapon attack against one target within 5 ft. A hit deals 8 piercing damage. The printed dice expression is 1d8 + 8.\nClaws. Make a +5 melee weapon attack against one target within 5 ft. A hit deals 11 (2d6 + 4) slashing damage.",
+      "Encounter": "For a Very Weak party, the brown bear replaces the giant ape in Vid’s fight. The beast obeys Vid and fights until it dies, when it becomes a giant stuffed toy. For a Very Strong party, add a brown bear alongside the giant ape and add 20 HP, +1 to hit and +5 damage to each of the three opponents. These adjustments do not stack.",
+      "Source notes": "The Bite line prints 8 (1d8 + 8). The average and the dice expression disagree. Use the printed fixed 8 for a direct reading and retain the recorded dice wording. The 2014 Monster Manual errata changes that book’s Brown Bear to +6 to hit. This adventure prints +5."
+    }
+  },
+  {
+    "name": "Giant Ape",
+    "publication": "DDAL04-14 - The Darklord",
+    "edition": "2014 fifth edition",
+    "classification": "Huge Beast, unaligned",
+    "ac": 12,
+    "hp": 157,
+    "hitDice": "15d12 + 60",
+    "speed": "40 ft., climb 40 ft.",
+    "cr": "7",
+    "xp": 2900,
+    "abilities": {
+      "Str": {
+        "score": 23,
+        "modifier": 6
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Int": {
+        "score": 7,
+        "modifier": -2
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "skills": {
+      "Athletics": 9,
+      "Perception": 4
+    },
+    "passivePerception": 14,
+    "otherStatistics": "Passive Perception 14. Languages none.",
+    "appearance": "A huge dark-furred gorilla-like ape with broad shoulders, long muscular arms and heavy knuckles.",
+    "habitats": [
+      "Barovia",
+      "Orașnou",
+      "Pine forest",
+      "Cave mouth"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "The Dark Lord, appendix stat block, p. 32.",
+      "Actions": "Multiattack. Make two Fist attacks.\nFist. Make a +9 melee weapon attack against one target within 10 ft. A hit deals 22 (3d10 + 6) bludgeoning damage.\nRock. Make a +9 ranged weapon attack against one target, range 50/100 ft. A hit deals 30 (7d6 + 6) bludgeoning damage.",
+      "Encounter": "Vid can turn his enchanted stuffed animal, Bertock, into the giant ape. He may hand the toy to a character before changing its form to catch them by surprise. The ape obeys Vid, tries to push the party into Aya’s cave and fights to the death. It becomes a giant stuffed toy when it dies.",
+      "Party strength": "Apply one adjustment. For Very Weak, replace the ape with a Brown Bear. For Weak, replace it with a Giant Crocodile. For Strong, give the ape 20 additional HP and +5 damage. For Very Strong, add a Brown Bear and give the ape 20 additional HP, +1 to hit and +5 damage. The encounter lists additional changes for Vid."
+    }
+  },
+  {
+    "name": "Giant Crocodile",
+    "publication": "DDAL04-14 - The Darklord",
+    "edition": "2014 fifth edition",
+    "classification": "Huge Beast, unaligned",
+    "ac": 14,
+    "hp": 85,
+    "hitDice": "9d12 + 27",
+    "speed": "40 ft., swim 50 ft.",
+    "cr": "5",
+    "xp": 1800,
+    "abilities": {
+      "Str": {
+        "score": 21,
+        "modifier": 5
+      },
+      "Dex": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Con": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "skills": {
+      "Stealth": 5
+    },
+    "passivePerception": 10,
+    "otherStatistics": "Natural armor. Passive Perception 10. Languages none.",
+    "appearance": "A massive olive-brown crocodile with a broad armored back, long tail and large tooth-lined jaws.",
+    "habitats": [
+      "Barovia",
+      "Orașnou",
+      "Pine forest",
+      "Cave mouth"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "The Dark Lord, appendix stat block, p. 32.",
+      "Traits": "Hold Breath. It can hold its breath for 30 minutes.",
+      "Actions": "Multiattack. Make one Bite attack and one Tail attack.\nBite. Make a +8 melee weapon attack against one target within 5 ft. A hit deals 21 (3d10 + 5) piercing damage and grapples the target, escape DC 16. The target is Restrained until the grapple ends. The crocodile cannot bite another target while that grapple lasts.\nTail. Make a +8 melee weapon attack against one target within 10 ft. that the crocodile is not grappling. A hit deals 14 (2d8 + 5) bludgeoning damage. A creature hit must succeed on a DC 16 Strength save or fall Prone.",
+      "Encounter": "For a Weak party, the giant crocodile replaces the giant ape in Vid’s fight. The beast obeys Vid and fights until it dies, then becomes a giant stuffed toy.",
+      "Source notes": "The adventure gives a 40-ft. walking speed. The 2014 Monster Manual p. 324 gives 30 ft. This encounter uses the adventure’s speed."
+    }
+  },
+  {
+    "name": "Brown Bear",
+    "publication": "DDAL04-05 - The Seer",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 11,
+    "hp": 34,
+    "hitDice": "4d10 + 12",
+    "speed": "40 ft., climb 30 ft.",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 19,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "skills": {
+      "Perception": 3
+    },
+    "passivePerception": 13,
+    "otherStatistics": "Natural armor. Passive Perception 13. Languages none.",
+    "appearance": "A heavy brown bear with dense fur, a long muzzle, a broad shoulder hump and thick forepaws.",
+    "habitats": [
+      "Barovia",
+      "Orașnou",
+      "Snowy forest",
+      "Undergrowth"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "The Seer, appendix stat block, p. 18.",
+      "Traits": "Keen Smell. The bear has advantage on Wisdom (Perception) checks that rely on smell.",
+      "Actions": "Multiattack. Make one Bite attack and one Claws attack.\nBite. Make a +5 melee weapon attack against one target within 5 ft. A hit deals 8 (1d8 + 4) piercing damage.\nClaws. Make a +5 melee weapon attack against one target within 5 ft. A hit deals 11 (2d6 + 4) slashing damage.",
+      "Encounter": "Four hungry brown bears charge out of the undergrowth. Some have sword wounds about a day old. A DC 14 Wisdom (Survival) check identifies fresh bear tracks. If anyone identifies the tracks, nobody is surprised. Otherwise characters with Passive Perception 12 or higher avoid surprise. After three rounds, the sound of distant drumming makes the bears immediately flee. If the party skins them, the hides are worth 50 gp total.",
+      "Party strength": "Apply one adjustment. Very Weak removes two bears and Weak removes one. In both cases, each remaining bear has 21 HP. Strong and Very Strong add two bears.",
+      "Source notes": "The adventure prints +5 to hit for both attacks. The 2014 Monster Manual errata changes that book’s Brown Bear to +6."
+    }
+  },
+  {
+    "name": "Dire Wolf",
+    "publication": "DDAL04-05 - The Seer",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 14,
+    "hp": 37,
+    "hitDice": "5d10 + 10",
+    "speed": "50 ft.",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "skills": {
+      "Perception": 3,
+      "Stealth": 4
+    },
+    "passivePerception": 13,
+    "otherStatistics": "Natural armor. Passive Perception 13. Languages none.",
+    "appearance": "A large, heavy-built gray wolf with a thick neck ruff, long legs and a bushy tail.",
+    "habitats": [
+      "Barovia",
+      "Snowy forest",
+      "Pine forest"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "The Seer, appendix stat block, p. 18.",
+      "Traits": "Keen Hearing and Smell. It has advantage on Wisdom (Perception) checks that rely on hearing or smell.\nPack Tactics. It has advantage on an attack roll against a creature if one of its allies is within 5 ft. of that creature and the ally is not incapacitated.",
+      "Actions": "Bite. Make a +5 melee weapon attack against one target within 5 ft. A hit deals 10 (2d6 + 3) piercing damage. A creature hit must succeed on a DC 13 Strength save or fall Prone.",
+      "Source notes": "The adventure references lurking wolves but gives no exact group size or placement for the Dire Wolf."
+    }
+  }
+]

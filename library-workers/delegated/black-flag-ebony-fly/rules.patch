@@ -1,0 +1,112 @@
+diff --git a/dm-library/bestiary/book-catalog.json b/dm-library/bestiary/book-catalog.json
+--- a/dm-library/bestiary/book-catalog.json
++++ b/dm-library/bestiary/book-catalog.json
+@@ -309929,6 +309929,96 @@
+           }
+         ]
+       }
++    },
++    {
++      "name": "Giant Fly",
++      "kind": "beast",
++      "publication": "Black Flag Roleplaying Reference Document v0.2",
++      "edition": "Black Flag Roleplaying",
++      "ruleset": "black-flag",
++      "appearance": "A rideable giant horsefly brought to life from the Ebony Fly figurine.",
++      "combat": {
++        "armorClass": 11,
++        "hitPoints": 19,
++        "hitDice": "3d10 + 3",
++        "creatureType": "Beast",
++        "size": "Large",
++        "speed": {
++          "walk": 30,
++          "fly": 60
++        },
++        "senses": ["Darkvision 60 ft."]
++      },
++      "mechanics": {
++        "Figurine": [
++          {
++            "name": "Ebony Fly",
++            "effectNote": "This rare wondrous item costs 60,000 gp and becomes a Giant Fly that can carry a rider for up to 12 hours."
++          },
++          {
++            "name": "Activation",
++            "effectNote": "Use an action to speak the command word and throw the figurine at a spot on the ground within 60 ft. The fly appears if the space is clear and large enough."
++          },
++          {
++            "name": "Commands",
++            "effectNote": "The fly is friendly to the user and their companions. It understands the user's languages and follows spoken commands. Without orders, it only defends itself."
++          },
++          {
++            "name": "Reversion and reuse",
++            "effectNote": "The fly reverts when the duration ends, when it drops to 0 HP, or when the user takes an action to say the command word while touching it. Two days must pass after reversion before it can be used again."
++          }
++        ]
++      },
++      "notes": [
++        "Perception 10, Stealth 11. Ability modifiers are Str +2, Dex +1, Con +1, Int −4, Wis +0, Cha −4.",
++        "The creature block lists no languages, challenge rating, XP, or actions.",
++        "Kobold Press, Black Flag Roleplaying Reference Document v0.2, pp. 97–98."
++      ]
++    },
++    {
++      "name": "Giant Fly",
++      "kind": "beast",
++      "publication": "Black Flag Roleplaying Reference Document v1.0",
++      "edition": "Black Flag Roleplaying",
++      "ruleset": "black-flag",
++      "appearance": "A rideable giant horsefly brought to life from the Ebony Fly figurine.",
++      "combat": {
++        "armorClass": 11,
++        "hitPoints": 19,
++        "hitDice": "3d10 + 3",
++        "creatureType": "Beast",
++        "size": "Large",
++        "speed": {
++          "walk": 30,
++          "fly": 60
++        },
++        "senses": ["Darkvision 60 ft."]
++      },
++      "mechanics": {
++        "Figurine": [
++          {
++            "name": "Ebony Fly",
++            "effectNote": "This rare wondrous item costs 60,000 gp and becomes a Giant Fly that can carry a rider for up to 12 hours."
++          },
++          {
++            "name": "Activation",
++            "effectNote": "Use an action to speak the command word and throw the figurine at a spot on the ground within 60 ft. The fly appears if the space is clear and large enough."
++          },
++          {
++            "name": "Commands",
++            "effectNote": "The fly is friendly to the user and their companions. It understands the user's languages and follows spoken commands. Without orders, it only defends itself."
++          },
++          {
++            "name": "Reversion and reuse",
++            "effectNote": "The fly reverts when the duration ends, when it drops to 0 HP, or when the user takes an action to say the command word while touching it. Two days must pass after reversion before it can be used again."
++          }
++        ]
++      },
++      "notes": [
++        "Perception 10, Stealth 11. Ability modifiers are Str +2, Dex +1, Con +1, Int −4, Wis +0, Cha −4.",
++        "The creature block lists no languages, challenge rating, XP, or actions.",
++        "Kobold Press, Black Flag Roleplaying Reference Document v1.0, pp. 105–106."
++      ]
+     }
+   ],
+   "species": [
+diff --git a/dm-library/bestiary/entries.tsv b/dm-library/bestiary/entries.tsv
+--- a/dm-library/bestiary/entries.tsv
++++ b/dm-library/bestiary/entries.tsv
+@@ -3984,6 +3984,8 @@
+ Giant Fly	beast	Beast	SRD 5.2.1	2024 fifth edition	Wizards of the Coast		0
+ Giant Fly	beast	Beast	Dungeon Master's Guide (2014)	2014 fifth edition	Wizards of the Coast		
+ Giant Fly	beast	Beast	Dungeon Master's Guide (2024)	2024 fifth edition	Wizards of the Coast		0
++Giant Fly	beast	Beast	Black Flag Roleplaying Reference Document v0.2	Black Flag Roleplaying	Kobold Press		
++Giant Fly	beast	Beast	Black Flag Roleplaying Reference Document v1.0	Black Flag Roleplaying	Kobold Press		
+ Giant Flying Spider	beast	Beast	Waterdeep: Dungeon of the Mad Mage	2014 fifth edition	Wizards of the Coast		1
+ Giant Four-Armed Gargoyle	monster	Elemental	Tomb of Annihilation	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/33028-giant-four-armed-gargoyle	10
+ Giant Frog	beast	Beast	Black Flag Roleplaying Reference Document v0.2	Black Flag Roleplaying	Kobold Press		1/4

@@ -1,0 +1,1358 @@
+[
+  {
+    "name": "Hadozee",
+    "kind": "species",
+    "group": "2014 fifth edition",
+    "groups": [
+      "2014 fifth edition",
+      "3.5 edition"
+    ],
+    "global": true,
+    "fifth": true,
+    "fifthMonsters": [
+      {
+        "id": "monster-e4921ff61eacf1a82a052372",
+        "name": "Hadozee Explorer",
+        "kind": "monster",
+        "group": "Humanoid",
+        "groups": [
+          "Humanoid"
+        ],
+        "images": [
+          {
+            "url": "",
+            "credit": "Zuzanna Wužyk · Spelljammer: Adventures in Space"
+          }
+        ],
+        "versions": [
+          {
+            "key": "969cd9f6274702321ea655b1",
+            "publication": "Spelljammer: Adventures in Space",
+            "edition": "2014 fifth edition",
+            "description": "A Medium humanoid with challenge rating 2. Named abilities include Glide, Shortsword, Musket.",
+            "source": "https://5e.tools/bestiary.html#hadozee%20explorer_bam",
+            "artwork": "https://www.dndbeyond.com/avatars/thumbnails/30164/525/1000/1000/638036924900420131.jpeg",
+            "status": "Encounter reference",
+            "images": [
+              {
+                "url": "",
+                "credit": "Zuzanna Wužyk · Spelljammer: Adventures in Space"
+              }
+            ],
+            "stats": [
+              [
+                "Armor class",
+                "15"
+              ],
+              [
+                "Hit points",
+                "49"
+              ],
+              [
+                "Hit dice",
+                "9d8 + 9"
+              ],
+              [
+                "Challenge",
+                "2"
+              ],
+              [
+                "Size",
+                "Medium"
+              ],
+              [
+                "Type",
+                "Humanoid"
+              ],
+              [
+                "Speed",
+                "walk 30 ft., climb 30 ft."
+              ],
+              [
+                "Passive Perception",
+                "15"
+              ],
+              [
+                "Strength",
+                "11"
+              ],
+              [
+                "Dexterity",
+                "17"
+              ],
+              [
+                "Constitution",
+                "13"
+              ],
+              [
+                "Intelligence",
+                "13"
+              ],
+              [
+                "Wisdom",
+                "17"
+              ],
+              [
+                "Charisma",
+                "14"
+              ],
+              [
+                "Alignment",
+                "any alignment"
+              ]
+            ],
+            "sections": [
+              {
+                "title": "Saving throws",
+                "lines": [
+                  "Con +3",
+                  "Wis +5",
+                  "Constitution +3, Wisdom +5"
+                ]
+              },
+              {
+                "title": "Attacks",
+                "lines": [
+                  "Shortsword · melee · +5 to hit · reach 5 ft. · 1d6 + 3 piercing",
+                  "Musket · ranged · +5 to hit · range 40/120 ft. · 2d12 + 3 piercing"
+                ]
+              },
+              {
+                "title": "Skills",
+                "lines": [
+                  "Athletics +2, Perception +5, Stealth +5, Survival +5"
+                ]
+              },
+              {
+                "title": "Languages",
+                "lines": [
+                  "Common, Hadozee"
+                ]
+              },
+              {
+                "title": "Traits reference",
+                "lines": [
+                  "Glide · up to 5 feet · Incapacitated"
+                ]
+              },
+              {
+                "title": "Actions reference",
+                "lines": [
+                  "Multiattack",
+                  "Shortsword · Melee attack · +5 to hit · 1d6 + 3 piercing damage · reach 5 ft.",
+                  "Musket · Ranged attack · +5 to hit · 2d12 + 3 piercing damage · range 40/120 ft."
+                ]
+              },
+              {
+                "title": "Bonus actions reference",
+                "lines": [
+                  "Nimble Escape · Disengage · Hide"
+                ]
+              },
+              {
+                "title": "Reactions reference",
+                "lines": [
+                  "Safe Descent"
+                ]
+              }
+            ],
+            "sourceCode": "BAM",
+            "references": [
+              {
+                "label": "Boo's Astral Menagerie, p. 28",
+                "url": "https://5e.tools/bestiary.html#hadozee%20explorer_bam"
+              },
+              {
+                "label": "Studded leather armor (item)",
+                "url": "https://5e.tools/items.html#studded%20leather%20armor_phb",
+                "terms": [
+                  "studded leather"
+                ],
+                "local": {
+                  "entry": "item-4dd372ed301669b92ff3ad80",
+                  "version": "PHB:144:https://5e.tools/items.html#studded%20leather%20armor_phb"
+                },
+                "preview": {
+                  "name": "Studded leather armor",
+                  "group": "blacksmith",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 144,
+                  "description": "A light armor.",
+                  "local": {
+                    "entry": "item-4dd372ed301669b92ff3ad80",
+                    "version": "PHB:144:https://5e.tools/items.html#studded%20leather%20armor_phb"
+                  }
+                }
+              },
+              {
+                "label": "Incapacitated (condition)",
+                "url": "https://5e.tools/conditionsdiseases.html#incapacitated_phb",
+                "local": {
+                  "entry": "compendium-b982916d13c7b1a5bf750c36",
+                  "version": "PHB:290:https://5e.tools/conditionsdiseases.html#incapacitated_phb"
+                },
+                "preview": {
+                  "name": "Incapacitated",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 290,
+                  "description": "You cannot take actions or reactions.",
+                  "local": {
+                    "entry": "compendium-b982916d13c7b1a5bf750c36",
+                    "version": "PHB:290:https://5e.tools/conditionsdiseases.html#incapacitated_phb"
+                  }
+                }
+              },
+              {
+                "label": "Disengage (action)",
+                "url": "https://5e.tools/actions.html#disengage_phb",
+                "local": {
+                  "entry": "compendium-a7046818d19c25e6d0811f89",
+                  "version": "PHB:192:https://5e.tools/actions.html#disengage_phb"
+                },
+                "preview": {
+                  "name": "Disengage",
+                  "group": "Actions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 192,
+                  "local": {
+                    "entry": "compendium-a7046818d19c25e6d0811f89",
+                    "version": "PHB:192:https://5e.tools/actions.html#disengage_phb"
+                  }
+                }
+              },
+              {
+                "label": "Hide (action)",
+                "url": "https://5e.tools/actions.html#hide_phb",
+                "local": {
+                  "entry": "compendium-18c4e45695f957ea23aae147",
+                  "version": "PHB:192:https://5e.tools/actions.html#hide_phb"
+                },
+                "preview": {
+                  "name": "Hide",
+                  "group": "Actions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 192,
+                  "local": {
+                    "entry": "compendium-18c4e45695f957ea23aae147",
+                    "version": "PHB:192:https://5e.tools/actions.html#hide_phb"
+                  }
+                }
+              }
+            ],
+            "inline": {
+              "Size": [
+                {
+                  "start": 0,
+                  "end": 4,
+                  "target": {
+                    "name": "Size",
+                    "group": "Variant rules",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 374,
+                    "local": {
+                      "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                      "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                    }
+                  }
+                }
+              ],
+              "Speed": [
+                {
+                  "start": 0,
+                  "end": 5,
+                  "target": {
+                    "name": "Speed",
+                    "group": "Variant rules",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 374,
+                    "local": {
+                      "entry": "compendium-264de61edc1e2fe941187374",
+                      "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                    }
+                  }
+                }
+              ],
+              "Passive Perception": [
+                {
+                  "start": 0,
+                  "end": 18,
+                  "target": {
+                    "name": "Passive Perception",
+                    "group": "Variant rules",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 372,
+                    "local": {
+                      "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                      "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                    }
+                  }
+                }
+              ],
+              "Alignment": [
+                {
+                  "start": 0,
+                  "end": 9,
+                  "target": {
+                    "name": "Alignment",
+                    "group": "Variant rules",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 360,
+                    "local": {
+                      "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                      "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                    }
+                  }
+                }
+              ],
+              "Athletics +2, Perception +5, Stealth +5, Survival +5": [
+                {
+                  "start": 0,
+                  "end": 9,
+                  "target": {
+                    "name": "Athletics",
+                    "group": "Skills",
+                    "publication": "Player's Handbook (2014)",
+                    "page": 175,
+                    "local": {
+                      "entry": "compendium-4d6b054f7ceab43099a939e1",
+                      "version": "PHB:175:https://5e.tools/skills.html#athletics_phb"
+                    }
+                  }
+                },
+                {
+                  "start": 14,
+                  "end": 24,
+                  "target": {
+                    "name": "Perception",
+                    "group": "Skills",
+                    "publication": "Player's Handbook (2014)",
+                    "page": 178,
+                    "local": {
+                      "entry": "compendium-f21bfeaccf140efabf3793fe",
+                      "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                    }
+                  }
+                },
+                {
+                  "start": 29,
+                  "end": 36,
+                  "target": {
+                    "name": "Stealth",
+                    "group": "Skills",
+                    "publication": "Player's Handbook (2014)",
+                    "page": 177,
+                    "local": {
+                      "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                      "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+                    }
+                  }
+                },
+                {
+                  "start": 41,
+                  "end": 49,
+                  "target": {
+                    "name": "Survival",
+                    "group": "Skills",
+                    "publication": "Player's Handbook (2014)",
+                    "page": 178,
+                    "local": {
+                      "entry": "compendium-487cfdbc0b0439af434c2d21",
+                      "version": "PHB:178:https://5e.tools/skills.html#survival_phb"
+                    }
+                  }
+                }
+              ],
+              "Glide · up to 5 feet · Incapacitated": [
+                {
+                  "start": 23,
+                  "end": 36,
+                  "target": {
+                    "name": "Incapacitated",
+                    "group": "Conditions",
+                    "publication": "Player's Handbook (2014)",
+                    "page": 290,
+                    "description": "You cannot take actions or reactions.",
+                    "local": {
+                      "entry": "compendium-b982916d13c7b1a5bf750c36",
+                      "version": "PHB:290:https://5e.tools/conditionsdiseases.html#incapacitated_phb"
+                    }
+                  }
+                }
+              ],
+              "Nimble Escape · Disengage · Hide": [
+                {
+                  "start": 16,
+                  "end": 25,
+                  "target": {
+                    "name": "Disengage",
+                    "group": "Actions",
+                    "publication": "Player's Handbook (2014)",
+                    "page": 192,
+                    "local": {
+                      "entry": "compendium-a7046818d19c25e6d0811f89",
+                      "version": "PHB:192:https://5e.tools/actions.html#disengage_phb"
+                    }
+                  }
+                },
+                {
+                  "start": 28,
+                  "end": 32,
+                  "target": {
+                    "name": "Hide",
+                    "group": "Actions",
+                    "publication": "Player's Handbook (2014)",
+                    "page": 192,
+                    "local": {
+                      "entry": "compendium-18c4e45695f957ea23aae147",
+                      "version": "PHB:192:https://5e.tools/actions.html#hide_phb"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "image": {
+          "url": "",
+          "credit": "Zuzanna Wužyk · Spelljammer: Adventures in Space"
+        }
+      },
+      {
+        "id": "monster-d1419b804c838febbec6351f",
+        "name": "Hadozee Shipmate",
+        "kind": "monster",
+        "group": "Humanoid",
+        "groups": [
+          "Humanoid"
+        ],
+        "images": [
+          {
+            "url": "",
+            "credit": "Claudio Pozas · Spelljammer: Adventures in Space"
+          }
+        ],
+        "versions": [
+          {
+            "key": "f05e8b85395613e742ae04e4",
+            "publication": "Spelljammer: Adventures in Space",
+            "edition": "2014 fifth edition",
+            "description": "A Medium humanoid with challenge rating 1/8. Named abilities include Glide, Dagger, Safe Descent.",
+            "source": "https://5e.tools/bestiary.html#hadozee%20shipmate_bam",
+            "artwork": "https://www.dndbeyond.com/avatars/thumbnails/30164/522/1000/1000/638036924896420126.jpeg",
+            "status": "Encounter reference",
+            "images": [
+              {
+                "url": "",
+                "credit": "Claudio Pozas · Spelljammer: Adventures in Space"
+              }
+            ],
+            "stats": [
+              [
+                "Armor class",
+                "12"
+              ],
+              [
+                "Hit points",
+                "9"
+              ],
+              [
+                "Hit dice",
+                "2d8"
+              ],
+              [
+                "Challenge",
+                "1/8"
+              ],
+              [
+                "Size",
+                "Medium"
+              ],
+              [
+                "Type",
+                "Humanoid"
+              ],
+              [
+                "Speed",
+                "walk 30 ft., climb 30 ft."
+              ],
+              [
+                "Passive Perception",
+                "14"
+              ],
+              [
+                "Strength",
+                "11"
+              ],
+              [
+                "Dexterity",
+                "14"
+              ],
+              [
+                "Constitution",
+                "11"
+              ],
+              [
+                "Intelligence",
+                "10"
+              ],
+              [
+                "Wisdom",
+                "14"
+              ],
+              [
+                "Charisma",
+                "12"
+              ],
+              [
+                "Alignment",
+                "any alignment"
+              ]
+            ],
+            "sections": [
+              {
+                "title": "Saving throws",
+                "lines": [
+                  "Dex +4",
+                  "Con +2",
+                  "Dexterity +4, Constitution +2"
+                ]
+              },
+              {
+                "title": "Attacks",
+                "lines": [
+                  "Dagger · melee or ranged · +4 to hit · reach 5 ft. · range 20/60 ft. · 1d4 + 2 piercing"
+                ]
+              },
+              {
+                "title": "Skills",
+                "lines": [
+                  "Perception +4, Survival +6"
+                ]
+              },
+              {
+                "title": "Languages",
+                "lines": [
+                  "Common, Hadozee"
+                ]
+              },
+              {
+                "title": "Traits reference",
+                "lines": [
+                  "Glide · up to 5 feet · Incapacitated"
+                ]
+              },
+              {
+                "title": "Actions reference",
+                "lines": [
+                  "Dagger · Melee or ranged attack · +4 to hit · 1d4 + 2 piercing damage · reach 5 ft. · range 20/60 ft."
+                ]
+              },
+              {
+                "title": "Reactions reference",
+                "lines": [
+                  "Safe Descent"
+                ]
+              }
+            ],
+            "sourceCode": "BAM",
+            "references": [
+              {
+                "label": "Boo's Astral Menagerie, p. 29",
+                "url": "https://5e.tools/bestiary.html#hadozee%20shipmate_bam"
+              },
+              {
+                "label": "Incapacitated (condition)",
+                "url": "https://5e.tools/conditionsdiseases.html#incapacitated_phb",
+                "local": {
+                  "entry": "compendium-b982916d13c7b1a5bf750c36",
+                  "version": "PHB:290:https://5e.tools/conditionsdiseases.html#incapacitated_phb"
+                },
+                "preview": {
+                  "name": "Incapacitated",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 290,
+                  "description": "You cannot take actions or reactions.",
+                  "local": {
+                    "entry": "compendium-b982916d13c7b1a5bf750c36",
+                    "version": "PHB:290:https://5e.tools/conditionsdiseases.html#incapacitated_phb"
+                  }
+                }
+              }
+            ],
+            "inline": {
+              "Size": [
+                {
+                  "start": 0,
+                  "end": 4,
+                  "target": {
+                    "name": "Size",
+                    "group": "Variant rules",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 374,
+                    "local": {
+                      "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                      "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                    }
+                  }
+                }
+              ],
+              "Speed": [
+                {
+                  "start": 0,
+                  "end": 5,
+                  "target": {
+                    "name": "Speed",
+                    "group": "Variant rules",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 374,
+                    "local": {
+                      "entry": "compendium-264de61edc1e2fe941187374",
+                      "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                    }
+                  }
+                }
+              ],
+              "Passive Perception": [
+                {
+                  "start": 0,
+                  "end": 18,
+                  "target": {
+                    "name": "Passive Perception",
+                    "group": "Variant rules",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 372,
+                    "local": {
+                      "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                      "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                    }
+                  }
+                }
+              ],
+              "Alignment": [
+                {
+                  "start": 0,
+                  "end": 9,
+                  "target": {
+                    "name": "Alignment",
+                    "group": "Variant rules",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 360,
+                    "local": {
+                      "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                      "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                    }
+                  }
+                }
+              ],
+              "Perception +4, Survival +6": [
+                {
+                  "start": 0,
+                  "end": 10,
+                  "target": {
+                    "name": "Perception",
+                    "group": "Skills",
+                    "publication": "Player's Handbook (2014)",
+                    "page": 178,
+                    "local": {
+                      "entry": "compendium-f21bfeaccf140efabf3793fe",
+                      "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                    }
+                  }
+                },
+                {
+                  "start": 15,
+                  "end": 23,
+                  "target": {
+                    "name": "Survival",
+                    "group": "Skills",
+                    "publication": "Player's Handbook (2014)",
+                    "page": 178,
+                    "local": {
+                      "entry": "compendium-487cfdbc0b0439af434c2d21",
+                      "version": "PHB:178:https://5e.tools/skills.html#survival_phb"
+                    }
+                  }
+                }
+              ],
+              "Glide · up to 5 feet · Incapacitated": [
+                {
+                  "start": 23,
+                  "end": 36,
+                  "target": {
+                    "name": "Incapacitated",
+                    "group": "Conditions",
+                    "publication": "Player's Handbook (2014)",
+                    "page": 290,
+                    "description": "You cannot take actions or reactions.",
+                    "local": {
+                      "entry": "compendium-b982916d13c7b1a5bf750c36",
+                      "version": "PHB:290:https://5e.tools/conditionsdiseases.html#incapacitated_phb"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "image": {
+          "url": "",
+          "credit": "Claudio Pozas · Spelljammer: Adventures in Space"
+        }
+      },
+      {
+        "id": "monster-dc9a6e6d25eb565b9f6ea882",
+        "name": "Hadozee Warrior",
+        "kind": "monster",
+        "group": "Humanoid",
+        "groups": [
+          "Humanoid"
+        ],
+        "images": [
+          {
+            "url": "",
+            "credit": "David Auden Nash · Spelljammer: Adventures in Space"
+          }
+        ],
+        "versions": [
+          {
+            "key": "bab8c502820e8dafdd7acb9d",
+            "publication": "Spelljammer: Adventures in Space",
+            "edition": "2014 fifth edition",
+            "description": "A Medium humanoid with challenge rating 1/2. Named abilities include Glide, Shortsword, Light Crossbow.",
+            "source": "https://5e.tools/bestiary.html#hadozee%20warrior_bam",
+            "artwork": "https://www.dndbeyond.com/avatars/thumbnails/30164/529/1000/1000/638036924907060145.jpeg",
+            "status": "Encounter reference",
+            "images": [
+              {
+                "url": "",
+                "credit": "David Auden Nash · Spelljammer: Adventures in Space"
+              }
+            ],
+            "stats": [
+              [
+                "Armor class",
+                "16"
+              ],
+              [
+                "Hit points",
+                "16"
+              ],
+              [
+                "Hit dice",
+                "3d8 + 3"
+              ],
+              [
+                "Challenge",
+                "1/2"
+              ],
+              [
+                "Size",
+                "Medium"
+              ],
+              [
+                "Type",
+                "Humanoid"
+              ],
+              [
+                "Speed",
+                "walk 30 ft., climb 30 ft."
+              ],
+              [
+                "Passive Perception",
+                "13"
+              ],
+              [
+                "Strength",
+                "11"
+              ],
+              [
+                "Dexterity",
+                "16"
+              ],
+              [
+                "Constitution",
+                "13"
+              ],
+              [
+                "Intelligence",
+                "10"
+              ],
+              [
+                "Wisdom",
+                "13"
+              ],
+              [
+                "Charisma",
+                "12"
+              ],
+              [
+                "Alignment",
+                "any alignment"
+              ]
+            ],
+            "sections": [
+              {
+                "title": "Saving throws",
+                "lines": [
+                  "Dex +5",
+                  "Con +3",
+                  "Dexterity +5, Constitution +3"
+                ]
+              },
+              {
+                "title": "Attacks",
+                "lines": [
+                  "Shortsword · melee · +5 to hit · reach 5 ft. · 1d6 + 3 piercing",
+                  "Light Crossbow · ranged · +5 to hit · range 80/320 ft. · 2d8 + 3 piercing"
+                ]
+              },
+              {
+                "title": "Skills",
+                "lines": [
+                  "Perception +3, Stealth +5, Survival +5"
+                ]
+              },
+              {
+                "title": "Languages",
+                "lines": [
+                  "Common, Hadozee"
+                ]
+              },
+              {
+                "title": "Traits reference",
+                "lines": [
+                  "Glide · up to 5 feet · Incapacitated"
+                ]
+              },
+              {
+                "title": "Actions reference",
+                "lines": [
+                  "Multiattack",
+                  "Shortsword · Melee attack · +5 to hit · 1d6 + 3 piercing damage · reach 5 ft.",
+                  "Light Crossbow · Ranged attack · +5 to hit · 2d8 + 3 piercing damage · range 80/320 ft."
+                ]
+              },
+              {
+                "title": "Reactions reference",
+                "lines": [
+                  "Safe Descent",
+                  "Uncanny Dodge"
+                ]
+              }
+            ],
+            "sourceCode": "BAM",
+            "references": [
+              {
+                "label": "Boo's Astral Menagerie, p. 29",
+                "url": "https://5e.tools/bestiary.html#hadozee%20warrior_bam"
+              },
+              {
+                "label": "Breastplate (item)",
+                "url": "https://5e.tools/items.html#breastplate_phb",
+                "local": {
+                  "entry": "item-0ce400c7c9fe7fb4103d7816",
+                  "version": "PHB:145:https://5e.tools/items.html#breastplate_phb"
+                },
+                "preview": {
+                  "name": "Breastplate",
+                  "group": "blacksmith",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 145,
+                  "description": "A medium armor.",
+                  "local": {
+                    "entry": "item-0ce400c7c9fe7fb4103d7816",
+                    "version": "PHB:145:https://5e.tools/items.html#breastplate_phb"
+                  }
+                }
+              },
+              {
+                "label": "Incapacitated (condition)",
+                "url": "https://5e.tools/conditionsdiseases.html#incapacitated_phb",
+                "local": {
+                  "entry": "compendium-b982916d13c7b1a5bf750c36",
+                  "version": "PHB:290:https://5e.tools/conditionsdiseases.html#incapacitated_phb"
+                },
+                "preview": {
+                  "name": "Incapacitated",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 290,
+                  "description": "You cannot take actions or reactions.",
+                  "local": {
+                    "entry": "compendium-b982916d13c7b1a5bf750c36",
+                    "version": "PHB:290:https://5e.tools/conditionsdiseases.html#incapacitated_phb"
+                  }
+                }
+              }
+            ],
+            "inline": {
+              "A Medium humanoid with challenge rating 1/2. Named abilities include Glide, Shortsword, Light Crossbow.": [
+                {
+                  "start": 88,
+                  "end": 102,
+                  "target": {
+                    "name": "Light Crossbow",
+                    "group": "Items",
+                    "publication": "Player's Handbook (2014)",
+                    "page": 149,
+                    "description": "A ranged weapon.",
+                    "local": {
+                      "entry": "compendium-c52b10158fce3cda2a6870ef",
+                      "version": "PHB:149:https://5e.tools/items.html#light%20crossbow_phb"
+                    }
+                  }
+                }
+              ],
+              "Size": [
+                {
+                  "start": 0,
+                  "end": 4,
+                  "target": {
+                    "name": "Size",
+                    "group": "Variant rules",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 374,
+                    "local": {
+                      "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                      "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                    }
+                  }
+                }
+              ],
+              "Speed": [
+                {
+                  "start": 0,
+                  "end": 5,
+                  "target": {
+                    "name": "Speed",
+                    "group": "Variant rules",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 374,
+                    "local": {
+                      "entry": "compendium-264de61edc1e2fe941187374",
+                      "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                    }
+                  }
+                }
+              ],
+              "Passive Perception": [
+                {
+                  "start": 0,
+                  "end": 18,
+                  "target": {
+                    "name": "Passive Perception",
+                    "group": "Variant rules",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 372,
+                    "local": {
+                      "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                      "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                    }
+                  }
+                }
+              ],
+              "Alignment": [
+                {
+                  "start": 0,
+                  "end": 9,
+                  "target": {
+                    "name": "Alignment",
+                    "group": "Variant rules",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 360,
+                    "local": {
+                      "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                      "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                    }
+                  }
+                }
+              ],
+              "Light Crossbow · ranged · +5 to hit · range 80/320 ft. · 2d8 + 3 piercing": [
+                {
+                  "start": 0,
+                  "end": 14,
+                  "target": {
+                    "name": "Light Crossbow",
+                    "group": "Items",
+                    "publication": "Player's Handbook (2014)",
+                    "page": 149,
+                    "description": "A ranged weapon.",
+                    "local": {
+                      "entry": "compendium-c52b10158fce3cda2a6870ef",
+                      "version": "PHB:149:https://5e.tools/items.html#light%20crossbow_phb"
+                    }
+                  }
+                }
+              ],
+              "Perception +3, Stealth +5, Survival +5": [
+                {
+                  "start": 0,
+                  "end": 10,
+                  "target": {
+                    "name": "Perception",
+                    "group": "Skills",
+                    "publication": "Player's Handbook (2014)",
+                    "page": 178,
+                    "local": {
+                      "entry": "compendium-f21bfeaccf140efabf3793fe",
+                      "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                    }
+                  }
+                },
+                {
+                  "start": 15,
+                  "end": 22,
+                  "target": {
+                    "name": "Stealth",
+                    "group": "Skills",
+                    "publication": "Player's Handbook (2014)",
+                    "page": 177,
+                    "local": {
+                      "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                      "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+                    }
+                  }
+                },
+                {
+                  "start": 27,
+                  "end": 35,
+                  "target": {
+                    "name": "Survival",
+                    "group": "Skills",
+                    "publication": "Player's Handbook (2014)",
+                    "page": 178,
+                    "local": {
+                      "entry": "compendium-487cfdbc0b0439af434c2d21",
+                      "version": "PHB:178:https://5e.tools/skills.html#survival_phb"
+                    }
+                  }
+                }
+              ],
+              "Glide · up to 5 feet · Incapacitated": [
+                {
+                  "start": 23,
+                  "end": 36,
+                  "target": {
+                    "name": "Incapacitated",
+                    "group": "Conditions",
+                    "publication": "Player's Handbook (2014)",
+                    "page": 290,
+                    "description": "You cannot take actions or reactions.",
+                    "local": {
+                      "entry": "compendium-b982916d13c7b1a5bf750c36",
+                      "version": "PHB:290:https://5e.tools/conditionsdiseases.html#incapacitated_phb"
+                    }
+                  }
+                }
+              ],
+              "Light Crossbow · Ranged attack · +5 to hit · 2d8 + 3 piercing damage · range 80/320 ft.": [
+                {
+                  "start": 0,
+                  "end": 14,
+                  "target": {
+                    "name": "Light Crossbow",
+                    "group": "Items",
+                    "publication": "Player's Handbook (2014)",
+                    "page": 149,
+                    "description": "A ranged weapon.",
+                    "local": {
+                      "entry": "compendium-c52b10158fce3cda2a6870ef",
+                      "version": "PHB:149:https://5e.tools/items.html#light%20crossbow_phb"
+                    }
+                  }
+                }
+              ],
+              "Uncanny Dodge": [
+                {
+                  "start": 8,
+                  "end": 13,
+                  "target": {
+                    "name": "Dodge",
+                    "group": "Actions",
+                    "publication": "Player's Handbook (2014)",
+                    "page": 192,
+                    "local": {
+                      "entry": "compendium-f1eb1d4cbadb856e5b91993f",
+                      "version": "PHB:192:https://5e.tools/actions.html#dodge_phb"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "image": {
+          "url": "",
+          "credit": "David Auden Nash · Spelljammer: Adventures in Space"
+        }
+      }
+    ],
+    "browseRow": {
+      "id": "species-155f6ee787e625099592f150",
+      "name": "Hadozee",
+      "kind": "species",
+      "group": "Playable species",
+      "image": {
+        "url": "",
+        "credit": "Zuzanna Wužyk · Spelljammer: Adventures in Space"
+      },
+      "caption": "2 versions"
+    },
+    "version": {
+      "key": "1bee294d79af7ed34797d712",
+      "publication": "Stormwrack (2005)",
+      "edition": "3.5 edition",
+      "source": "https://books.google.com/books/about/Stormwrack.html?id=ENyiPwAACAAJ",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Humanoid (Hadozee)"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Medium Humanoid (Hadozee). +2 Dexterity, −2 Charisma. Land speed 30 ft. LA +0 and advancement by character class.",
+            "Gliding. While using its membranes to glide, a Hadozee takes no damage from a fall of any height. It can travel 20 ft. horizontally for each 5 ft. descended, with glide speed 40 ft. and average maneuverability in the p. 41 player rules. Gliding requires descent.",
+            "Hadozee have +4 racial bonuses on Balance and Climb. They keep their Dexterity bonus to AC while climbing and can climb with one hand occupied.",
+            "Common and Hadozee are automatic. Aquan, Elven, and Halfling are bonus languages. Favored class Rogue.",
+            "Pages 151–152 give the separate encounter entries and repeat the glide at poor maneuverability. Page 152 also lists Dodge and Profession (sailor) as a class skill. The p. 41 player entry gives average maneuverability and omits those benefits. These builds use the player entry."
+          ]
+        },
+        {
+          "title": "Original NPC · Renn Farwake",
+          "lines": [
+            "Rigging scout and Rogue.",
+            "Motive. Find the release catch before the broken landing gives way.",
+            "Hook. Renn can carry the signal line up to the catwalk.",
+            "Hadozee rigging scout, Rogue 1 · Provisional CR 1. ECL 1 (1 class HD, LA +0). · Medium Humanoid (Hadozee)",
+            "AC 15 · HP 8 (1d6+2) · Speed 30 ft., glide 40 ft. (average)"
+          ]
+        },
+        {
+          "title": "Original NPC · Daro Brightkeel",
+          "lines": [
+            "Gantry guard and Fighter.",
+            "Motive. Reach the winch and bring the deck crew to safety.",
+            "Hook. Daro can reach the platform from the gantry after the lower stairs collapse.",
+            "Hadozee gantry guard, Fighter 1 · Provisional CR 1. ECL 1 (1 class HD, LA +0). · Medium Humanoid (Hadozee)",
+            "AC 14 · HP 12 (1d10+2) · Speed 30 ft., glide 40 ft. (average)"
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Renn Farwake": [
+          {
+            "start": 15,
+            "end": 27,
+            "target": {
+              "name": "Renn Farwake",
+              "group": "Hadozee",
+              "publication": "Hadozee rigging scout, Rogue 1",
+              "local": {
+                "entry": "npc-191c34267a718dea482ca09c",
+                "version": "bfe6c08a032a4b329169f47f"
+              }
+            }
+          }
+        ],
+        "Original NPC · Daro Brightkeel": [
+          {
+            "start": 15,
+            "end": 30,
+            "target": {
+              "name": "Daro Brightkeel",
+              "group": "Hadozee",
+              "publication": "Hadozee gantry guard, Fighter 1",
+              "local": {
+                "entry": "npc-17b6fe7f9ec30dd675267d61",
+                "version": "6c65022d2790e5f755930fde"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [
+      {
+        "key": "8d6feb58fbb902fef2c1e576",
+        "publication": "Spelljammer: Adventures in Space",
+        "edition": "2014 fifth edition",
+        "source": "https://5e.tools/races.html#hadozee_aag",
+        "artwork": "https://www.dndbeyond.com/avatars/thumbnails/30164/439/340/340/638036921763577674.png",
+        "status": "Traits summary",
+        "images": [
+          {
+            "url": "",
+            "credit": "Zuzanna Wužyk · Spelljammer: Adventures in Space"
+          }
+        ],
+        "stats": [
+          [
+            "Size",
+            "Small, Medium"
+          ],
+          [
+            "Speed",
+            "walk 30, climb ✓"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Species traits",
+            "lines": [
+              "Size Small or Medium.",
+              "Movement includes walk 30 feet, climb equals walking speed. Check the source for movement restrictions.",
+              "Source traits include Size, Dexterous Feet, Glide, Hadozee Dodge."
+            ]
+          },
+          {
+            "title": "Sections",
+            "lines": [
+              "Size",
+              "Dexterous Feet",
+              "Glide",
+              "Hadozee Dodge"
+            ]
+          }
+        ],
+        "sourceCode": "AAG",
+        "references": [
+          {
+            "label": "Astral Adventurer's Guide, p. 13",
+            "url": "https://5e.tools/races.html#hadozee_aag"
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Size Small or Medium.": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Source traits include Size, Dexterous Feet, Glide, Hadozee Dodge.": [
+            {
+              "start": 22,
+              "end": 26,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            },
+            {
+              "start": 59,
+              "end": 64,
+              "target": {
+                "name": "Dodge",
+                "group": "Actions",
+                "publication": "Player's Handbook (2014)",
+                "page": 192,
+                "local": {
+                  "entry": "compendium-f1eb1d4cbadb856e5b91993f",
+                  "version": "PHB:192:https://5e.tools/actions.html#dodge_phb"
+                }
+              }
+            }
+          ],
+          "Hadozee Dodge": [
+            {
+              "start": 8,
+              "end": 13,
+              "target": {
+                "name": "Dodge",
+                "group": "Actions",
+                "publication": "Player's Handbook (2014)",
+                "page": 192,
+                "local": {
+                  "entry": "compendium-f1eb1d4cbadb856e5b91993f",
+                  "version": "PHB:192:https://5e.tools/actions.html#dodge_phb"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "queries": {
+      "Hadozee": true,
+      "hadozee average maneuverability": true,
+      "hadozee one hand": true,
+      "hadozee rigging scout": true,
+      "hadozee gantry guard": true
+    },
+    "hash": "fb2d5f7769ef65ad21a285c5ee6deeb9d86fc1f7f3bd492953013a751f8572d4",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [
+      {
+        "url": "",
+        "credit": "Zuzanna Wužyk · Spelljammer: Adventures in Space"
+      }
+    ],
+    "defaultPublication": "Spelljammer: Adventures in Space",
+    "defaultVersionKey": "8d6feb58fbb902fef2c1e576",
+    "entryImage": {
+      "url": "",
+      "credit": "Zuzanna Wužyk · Spelljammer: Adventures in Space"
+    }
+  }
+]

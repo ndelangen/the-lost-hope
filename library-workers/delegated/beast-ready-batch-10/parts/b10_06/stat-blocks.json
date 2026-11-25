@@ -1,0 +1,315 @@
+[
+  {
+    "name": "Seahorse",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 12,
+    "hp": 1,
+    "hitDice": "1d4 - 1",
+    "initiative": 1,
+    "speed": "5 ft., swim 20 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Dex": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 2,
+        "modifier": -4
+      }
+    },
+    "savingThrows": {
+      "Str": -5,
+      "Dex": 1,
+      "Con": -1,
+      "Int": -5,
+      "Wis": 0,
+      "Cha": -4
+    },
+    "otherStatistics": "Initiative +1 (11). Proficiency bonus +2. Perception +2. Stealth +5. Passive Perception 12. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A small bronze-olive seahorse with a tubular snout, ringed sides and a tightly curled tail.",
+    "habitats": [
+      "Underwater"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, revised Monster Manual (2025 release, 2024 rules), p. 369. https://www.dndbeyond.com/monsters/5195199-seahorse",
+      "Traits": "Water Breathing. The seahorse breathes only underwater.",
+      "Actions": "Bubble Dash. While underwater, the seahorse can move up to its swim speed without provoking opportunity attacks."
+    }
+  },
+  {
+    "name": "Spider",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 12,
+    "hp": 1,
+    "hitDice": "1d4 - 1",
+    "initiative": 2,
+    "speed": "20 ft., climb 20 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 2,
+        "modifier": -4
+      }
+    },
+    "savingThrows": {
+      "Str": -4,
+      "Dex": 2,
+      "Con": -1,
+      "Int": -5,
+      "Wis": 0,
+      "Cha": -4
+    },
+    "otherStatistics": "Initiative +2 (12). Proficiency bonus +2. Stealth +4. Darkvision 30 ft. Passive Perception 10. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A small olive-brown orb-weaver with a rounded, marked abdomen and eight slender legs.",
+    "habitats": [
+      "Desert",
+      "Forest",
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, revised Monster Manual (2025 release, 2024 rules), p. 369. https://www.dndbeyond.com/monsters/4775844-spider",
+      "Traits": "Spider Climb. Climb difficult surfaces and ceilings without an ability check.\nWeb Walker. Ignore movement restrictions from webs. The spider knows where other creatures are touching the same web.",
+      "Actions": "Bite. Melee attack roll +4, reach 5 ft. On a hit, deal 1 piercing damage plus 2 (1d4) poison damage."
+    }
+  },
+  {
+    "name": "Swarm of Bats",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Large swarm of Tiny Beasts, unaligned",
+    "ac": 12,
+    "hp": 11,
+    "hitDice": "2d10",
+    "initiative": 2,
+    "speed": "5 ft., fly 30 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 5,
+        "modifier": -3
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "savingThrows": {
+      "Str": -3,
+      "Dex": 2,
+      "Con": 0,
+      "Int": -4,
+      "Wis": 1,
+      "Cha": -3
+    },
+    "otherStatistics": "Initiative +2 (12). Proficiency bonus +2. Resistance to bludgeoning, piercing and slashing. Immunity to Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained and Stunned. Blindsight 60 ft. Passive Perception 11. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A loose cluster of small brown bats with spread leathery wings and varied flight postures.",
+    "habitats": [
+      "Forest",
+      "Mountain",
+      "Underdark",
+      "Urban"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, revised Monster Manual (2025 release, 2024 rules), p. 370. https://www.dndbeyond.com/monsters/5195222-swarm-of-bats",
+      "Traits": "Swarm. Other creatures can share the swarm’s space and it can share theirs. The swarm can move through an opening that admits a Tiny bat. It cannot regain HP or gain temporary HP.",
+      "Actions": "Bites. Melee attack roll +4, reach 5 ft. On a hit, deal 5 (2d4) piercing damage, or 2 (1d4) while the swarm is Bloodied."
+    }
+  },
+  {
+    "name": "Swarm of Insects",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Medium swarm of Tiny Beasts, unaligned",
+    "ac": 11,
+    "hp": 19,
+    "hitDice": "3d8 + 6",
+    "initiative": 1,
+    "speed": "20 ft., climb or fly 20 ft. (DM’s choice)",
+    "cr": "1/2",
+    "xp": 100,
+    "abilities": {
+      "Str": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 7,
+        "modifier": -2
+      },
+      "Cha": {
+        "score": 1,
+        "modifier": -5
+      }
+    },
+    "savingThrows": {
+      "Str": -4,
+      "Dex": 1,
+      "Con": 2,
+      "Int": -5,
+      "Wis": -2,
+      "Cha": -5
+    },
+    "otherStatistics": "Initiative +1 (11). Proficiency bonus +2. Resistance to bludgeoning, piercing and slashing. Immunity to Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained and Stunned. Blindsight 30 ft. Passive Perception 8. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A spiral cluster of small dark insects with scattered winged forms.",
+    "habitats": [
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, revised Monster Manual (2025 release, 2024 rules), p. 370. https://www.dndbeyond.com/monsters/5195224-swarm-of-insects",
+      "Traits": "Spider Climb. If the swarm has a climb speed, it climbs difficult surfaces and ceilings without an ability check.\nSwarm. Other creatures can share the swarm’s space and it can share theirs. The swarm can move through an opening that admits a Tiny insect. It cannot regain HP or gain temporary HP.",
+      "Actions": "Bites. Melee attack roll +3, reach 5 ft. On a hit, deal 6 (2d4 + 1) poison damage, or 3 (1d4 + 1) while the swarm is Bloodied."
+    }
+  },
+  {
+    "name": "Swarm of Piranhas",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Medium swarm of Tiny Beasts, unaligned",
+    "ac": 13,
+    "hp": 28,
+    "hitDice": "8d8 - 8",
+    "initiative": 3,
+    "speed": "5 ft., swim 40 ft.",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 7,
+        "modifier": -2
+      },
+      "Cha": {
+        "score": 2,
+        "modifier": -4
+      }
+    },
+    "savingThrows": {
+      "Str": 1,
+      "Dex": 3,
+      "Con": -1,
+      "Int": -5,
+      "Wis": -2,
+      "Cha": -4
+    },
+    "otherStatistics": "Initiative +3 (13). Proficiency bonus +2. Resistance to bludgeoning, piercing and slashing. Immunity to Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained and Stunned. Darkvision 60 ft. Passive Perception 8. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A school of deep-bodied, sharp-toothed fish with olive-gray backs, silver sides and rusty red undersides.",
+    "habitats": [
+      "Underwater"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, revised Monster Manual (2025 release, 2024 rules), p. 370. https://www.dndbeyond.com/monsters/5195227-swarm-of-piranhas",
+      "Traits": "Swarm. Other creatures can share the swarm’s space and it can share theirs. The swarm can move through an opening that admits a Tiny piranha. It cannot regain HP or gain temporary HP.\nWater Breathing. The swarm can breathe only underwater.",
+      "Actions": "Bites. Melee attack roll +5, reach 5 ft. Roll with advantage if the target is below its HP maximum. On a hit, deal 8 (2d4 + 3) piercing damage, or 5 (1d4 + 3) while the swarm is Bloodied."
+    }
+  }
+]

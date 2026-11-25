@@ -1,0 +1,29 @@
+{
+  "commit": "af4d6878e3977e264547b3d4aca36a2ab286cd08",
+  "publication": "Flee, Mortals!",
+  "encounterVersions": 2,
+  "fullStatBlocks": 2,
+  "generatedPortraitsInstalled": 2,
+  "creditedGalleriesVerified": 2,
+  "allRecentVersionsWithGeneratedPortrait": 566,
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "visualComparison": "output/dm-library/review/encounters-42-before-after.jpg",
+  "styleReferenceSheet": "output/dm-library/review/encounters-42-style-reference.jpg",
+  "results": "output/dm-library/encounter-batches/42/results.json",
+  "searchResults": "output/dm-library/encounter-batches/42/search-results.json",
+  "nextSourcePublication": "Flee, Mortals!",
+  "unverifiedNextCandidates": [
+    {
+      "name": "Mimic Mimiature",
+      "kind": "monster",
+      "source": "https://www.dndbeyond.com/monsters/4485948-mimic-mimiature",
+      "challenge": "1"
+    },
+    {
+      "name": "Mimic Companion",
+      "kind": "monster",
+      "role": "Companion"
+    }
+  ]
+}

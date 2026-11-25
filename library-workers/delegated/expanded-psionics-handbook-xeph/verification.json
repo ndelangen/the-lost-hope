@@ -1,0 +1,20 @@
+{
+  "baseline": "b6014da531f8b61453f6b4e75998ab100646e9fc",
+  "temporaryCopy": true,
+  "playableSpecies": 1,
+  "edition": "3.5 edition",
+  "names": [
+    "Xeph"
+  ],
+  "selectableProfiles": 1,
+  "publication": "Expanded Psionics Handbook (2004)",
+  "burstScalingAndActivationVerified": true,
+  "sourceTraitsDisplayed": 1,
+  "searchableByTraitAndNpcRole": 1,
+  "originalRunnableNpcBuilds": 2,
+  "fullBuildsReturnedByEncounterAndNpcsCommands": true,
+  "npcBuildsScopedByPublication": true,
+  "existingPlayableSpeciesAndNpcConceptsPreserved": true,
+  "distinctPortraitFiles": 1,
+  "versionPortraitsVerified": 1
+}

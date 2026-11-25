@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Ruinant",
+    "query": "tendriled maw abyssal wasteland corrupt healing",
+    "condition": null,
+    "alternates": [
+      {
+        "credit": "D&D Beyond publisher art · Flee, Mortals!",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Tormenauk",
+    "query": "reddish-purple abyssal wasteland agony wail",
+    "condition": "Grappled",
+    "alternates": [
+      {
+        "credit": "D&D Beyond publisher art · Flee, Mortals!",
+        "url": ""
+      }
+    ]
+  }
+]

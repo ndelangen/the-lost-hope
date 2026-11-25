@@ -35,4 +35,5 @@ export default createEvent({
       'He also offered five platinum if the party could defeat all his colosseum fighters. They discussed entering, but no colosseum visit or fight occurred.',
     ],
   ],
+  illustrations: ['/assets/scenes/onana-rewards-the-party-and-forbids-further-dungeon-deaths.png'],
 })

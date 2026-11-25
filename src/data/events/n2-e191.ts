@@ -15,4 +15,5 @@ export default createEvent({
   location: refs.locations.borris_s_gambling_den,
   mark: { type: 'avatar', of: refs.pcs.swift_starblade },
   draws: [{ by: refs.pcs.swift_starblade, card: refs.cards.the_mask }],
+  illustrations: ['/assets/scenes/swift-gains-the-mask-card.png'],
 })

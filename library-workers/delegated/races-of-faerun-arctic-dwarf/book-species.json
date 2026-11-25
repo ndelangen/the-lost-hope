@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Arctic Dwarf",
+    "kind": "species",
+    "publication": "Races of Faerûn (2003)",
+    "edition": "3.5 edition",
+    "traits": [
+      "The Inugaakalikurit are Small Humanoids (Dwarf). +4 Strength, −2 Dexterity, +2 Constitution, −2 Charisma. Darkvision 60 ft.",
+      "Small gives +1 on attacks and AC, +4 Hide, and −4 grapple. Use Small weapons and three-quarters of the Medium carrying limits.",
+      "Dwarf stability gives +4 on ability checks to resist bull rush or trip while firmly grounded. Land speed stays 20 ft. in medium or heavy armor or under a medium or heavy load.",
+      "Stonecunning grants +2 on Search for unusual stonework and a reactive check within 10 ft. An Arctic Dwarf can sense approximate depth and find stonework traps as a rogue can.",
+      "+2 racial bonus on saves against poison, spells, and spell-like abilities.",
+      "Treat dwarven waraxes and urgroshes as martial weapons. +1 racial attack bonus against orcs and goblinoids. +4 dodge AC against giants. +2 racial Appraise and Craft bonuses for stone or metal.",
+      "Immune to cold. The player entry grants immunity as a racial trait and lists no Cold subtype or fire vulnerability.",
+      "Common, Dwarven, and the home-region language are automatic. The revised Great Glacier region adds Uluik and offers Aquan, Auran, Damaran, Draconic, and Giant as bonus languages.",
+      "Favored class Ranger. No racial Hit Dice. Level adjustment +2 gives ECL 3 at one class level.",
+      "This profile uses the 2003 playable traits with the 3.5 core Dwarf rules and the revised Great Glacier region."
+    ]
+  }
+]

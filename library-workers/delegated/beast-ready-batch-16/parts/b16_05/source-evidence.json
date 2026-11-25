@@ -1,0 +1,312 @@
+[
+  {
+    "name": "Deathjump Spider",
+    "publication": "Scepter Tower of Spellgard",
+    "edition": "4th edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast, Inc.",
+    "printing": "First printing, September 2008",
+    "copyrightYear": 2008,
+    "designers": [
+      "David Noonan",
+      "Greg A. Vaughan"
+    ],
+    "isbn": "978-0-7869-4954-0",
+    "productCode": "620-21764740-003 EN",
+    "section": "Adventure Book Two, T1, Tower Stores. T12, Battlement. T13, Secure Storerooms. T15, Rooftop Battlement",
+    "printedHeadings": [
+      "3 Deathjump Spiders (S)",
+      "2 Deathjump Spiders (S)",
+      "4 Deathjump Spiders (S)",
+      "Deathjump Spider (S)"
+    ],
+    "printedPages": [
+      41,
+      59,
+      60,
+      63
+    ],
+    "pdfPages": [
+      73,
+      91,
+      92,
+      95
+    ],
+    "encounterContextPages": [
+      40,
+      41,
+      58,
+      59,
+      60,
+      61,
+      63
+    ],
+    "encounterContextPdfPages": [
+      72,
+      73,
+      90,
+      91,
+      92,
+      93,
+      95
+    ],
+    "creditsPdfPage": 3,
+    "pageNumbering": "Adventure Book Two starts on sheet 33. Add 32 to its numbered folios for one-based sheet numbers.",
+    "sourceSha256": "479c64a84ad11f64b44244771841e5e257f6e9a96b4419f813f406f78592c876",
+    "sourceUrl": "",
+    "productUrl": "https://www.dmsguild.com/product/165543/FR1-Scepter-Tower-of-Spellgard-4e",
+    "sourceUrlRole": "The official store preview confirms credits and printing. The rules were visually checked on folios in the full original local .",
+    "officialErrata": "https://media.wizards.com/2014/downloads/dnd/4ECollectedErrataFAQ.zip",
+    "errataUpdatesPdfSha256": "9f379d02b34d69267fd9763b02b004488cc5dab22aba893d28e087d3326231ab",
+    "errataFaqPdfSha256": "eaa8a710f545244c8db913877855c1ca6f64862b838762422ac62b45b39bd42a",
+    "errataEvidence": "No scoped correction was located in the official 4e Updates or Collected FAQ.",
+    "level": 4,
+    "role": "Skirmisher",
+    "xp": 175,
+    "initiative": 8,
+    "defenses": {
+      "AC": 20,
+      "Fortitude": 17,
+      "Reflex": 18,
+      "Will": 16
+    },
+    "bloodied": 27,
+    "printedAbilityModifiers": {
+      "Str": 5,
+      "Dex": 6,
+      "Con": 4,
+      "Int": -3,
+      "Wis": 4,
+      "Cha": 1
+    },
+    "habitatEvidence": "Encounter locations from the adventure.",
+    "artGroup": "deathjump-spider",
+    "appearanceEvidence": "The reused portrait shows the patterned abdomen, eight legs and prominent mouthparts.",
+    "artworkSource": "beast-ready-batch-08/reused-portraits/deathjump-spider.webp",
+    "artworkSha256": "033c73c9e3369952909c5c44a5095dcbcca27255f7ebaa305afb8158bb71c593",
+    "artworkCredit": "OpenAI ImageGen",
+    "portraitReuseSource": "beast-ready-batch-08/reused-portraits/deathjump-spider.webp",
+    "portraitReuseSha256": "033c73c9e3369952909c5c44a5095dcbcca27255f7ebaa305afb8158bb71c593",
+    "sourceNotes": [
+      "Identical Deathjump Spider blocks appear on four Book Two folios. The Book One p. 30 illustration shows the T12 spider. The Book Two p. 41 prose gives its human-sized body, eight eyes and fangs."
+    ],
+    "illustration": {
+      "book": "Adventure Book One",
+      "printedPage": 30,
+      "pdfPage": 31
+    }
+  },
+  {
+    "name": "Fire Beetles",
+    "publication": "Scepter Tower of Spellgard",
+    "edition": "4th edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast, Inc.",
+    "printing": "First printing, September 2008",
+    "copyrightYear": 2008,
+    "designers": [
+      "David Noonan",
+      "Greg A. Vaughan"
+    ],
+    "isbn": "978-0-7869-4954-0",
+    "productCode": "620-21764740-003 EN",
+    "section": "Adventure Book Two, R2, Lookout",
+    "printedHeadings": [
+      "5 Fire Beetles (B)"
+    ],
+    "printedPages": [
+      7
+    ],
+    "pdfPages": [
+      39
+    ],
+    "encounterContextPages": [
+      7
+    ],
+    "encounterContextPdfPages": [
+      39
+    ],
+    "creditsPdfPage": 3,
+    "pageNumbering": "Adventure Book Two starts on sheet 33. Add 32 to its numbered folios for one-based sheet numbers.",
+    "sourceSha256": "479c64a84ad11f64b44244771841e5e257f6e9a96b4419f813f406f78592c876",
+    "sourceUrl": "",
+    "productUrl": "https://www.dmsguild.com/product/165543/FR1-Scepter-Tower-of-Spellgard-4e",
+    "sourceUrlRole": "The official store preview confirms credits and printing. The rules were visually checked on folios in the full original local .",
+    "officialErrata": "https://media.wizards.com/2014/downloads/dnd/4ECollectedErrataFAQ.zip",
+    "errataUpdatesPdfSha256": "9f379d02b34d69267fd9763b02b004488cc5dab22aba893d28e087d3326231ab",
+    "errataFaqPdfSha256": "eaa8a710f545244c8db913877855c1ca6f64862b838762422ac62b45b39bd42a",
+    "errataEvidence": "No scoped correction was located in the official 4e Updates or Collected FAQ.",
+    "level": 1,
+    "role": "Brute",
+    "xp": 100,
+    "initiative": 1,
+    "defenses": {
+      "AC": 13,
+      "Fortitude": 13,
+      "Reflex": 12,
+      "Will": 11
+    },
+    "bloodied": 16,
+    "printedAbilityModifiers": {
+      "Str": 2,
+      "Dex": 1,
+      "Con": 1,
+      "Int": -5,
+      "Wis": 0,
+      "Cha": -1
+    },
+    "habitatEvidence": "Encounter locations from the adventure.",
+    "artGroup": "fire-beetles",
+    "appearanceEvidence": "The reused group portrait shows five dark orange beetles with ember-like marks. The printed red light is described separately.",
+    "artworkSource": "indexed:images/beasts/fire-beetles/parchment-portrait.webp",
+    "artworkSha256": "69935e2171f2c5a2383cd46f334911bd711eda4dc60cd3f1b16c6f56fc59bccd",
+    "artworkCredit": "OpenAI ImageGen",
+    "portraitReuseSource": "indexed:images/beasts/fire-beetles/parchment-portrait.webp",
+    "portraitReuseSha256": "69935e2171f2c5a2383cd46f334911bd711eda4dc60cd3f1b16c6f56fc59bccd",
+    "sourceNotes": [
+      "The page lists five trained beetles and XP 100 each. The read-aloud describes black and red carapaces with light from the eyes and abdomen. The torchlike light is in the encounter text."
+    ]
+  },
+  {
+    "name": "Gray Wolves",
+    "publication": "Scepter Tower of Spellgard",
+    "edition": "4th edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast, Inc.",
+    "printing": "First printing, September 2008",
+    "copyrightYear": 2008,
+    "designers": [
+      "David Noonan",
+      "Greg A. Vaughan"
+    ],
+    "isbn": "978-0-7869-4954-0",
+    "productCode": "620-21764740-003 EN",
+    "section": "Adventure Book Two, R6, Kennel",
+    "printedHeadings": [
+      "5 Gray Wolves (G)"
+    ],
+    "printedPages": [
+      11
+    ],
+    "pdfPages": [
+      43
+    ],
+    "encounterContextPages": [
+      11
+    ],
+    "encounterContextPdfPages": [
+      43
+    ],
+    "creditsPdfPage": 3,
+    "pageNumbering": "Adventure Book Two starts on sheet 33. Add 32 to its numbered folios for one-based sheet numbers.",
+    "sourceSha256": "479c64a84ad11f64b44244771841e5e257f6e9a96b4419f813f406f78592c876",
+    "sourceUrl": "",
+    "productUrl": "https://www.dmsguild.com/product/165543/FR1-Scepter-Tower-of-Spellgard-4e",
+    "sourceUrlRole": "The official store preview confirms credits and printing. The rules were visually checked on folios in the full original local .",
+    "officialErrata": "https://media.wizards.com/2014/downloads/dnd/4ECollectedErrataFAQ.zip",
+    "errataUpdatesPdfSha256": "9f379d02b34d69267fd9763b02b004488cc5dab22aba893d28e087d3326231ab",
+    "errataFaqPdfSha256": "eaa8a710f545244c8db913877855c1ca6f64862b838762422ac62b45b39bd42a",
+    "errataEvidence": "No scoped correction was located in the official 4e Updates or Collected FAQ.",
+    "level": 2,
+    "role": "Skirmisher",
+    "xp": 125,
+    "initiative": 5,
+    "defenses": {
+      "AC": 16,
+      "Fortitude": 14,
+      "Reflex": 14,
+      "Will": 13
+    },
+    "bloodied": 19,
+    "printedAbilityModifiers": {
+      "Str": 2,
+      "Dex": 3,
+      "Con": 3,
+      "Int": -3,
+      "Wis": 2,
+      "Cha": 1
+    },
+    "habitatEvidence": "Encounter locations from the adventure.",
+    "artGroup": "gray-wolves",
+    "appearanceEvidence": "The reused portrait shows three lean gray wolves. The Kennel encounter deploys five and describes their visible ribs and chains. The chains are room equipment.",
+    "artworkSource": "indexed:images/beasts/gray-wolves/parchment-portrait.webp",
+    "artworkSha256": "665be0ad0fbc644e52f14152ed72b358ca1f8d40480d6a2114e537409474c63c",
+    "artworkCredit": "OpenAI ImageGen",
+    "portraitReuseSource": "indexed:images/beasts/gray-wolves/parchment-portrait.webp",
+    "portraitReuseSha256": "665be0ad0fbc644e52f14152ed72b358ca1f8d40480d6a2114e537409474c63c",
+    "sourceNotes": [
+      "The Kennel prints five gray wolves at 125 XP each. Book One p. 11 also places four wolves in a caravan encounter and points to a different Book Two page. The actual gray-wolf stat block is Book Two p. 11."
+    ]
+  },
+  {
+    "name": "Spitting Drake",
+    "publication": "Scepter Tower of Spellgard",
+    "edition": "4th edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast, Inc.",
+    "printing": "First printing, September 2008",
+    "copyrightYear": 2008,
+    "designers": [
+      "David Noonan",
+      "Greg A. Vaughan"
+    ],
+    "isbn": "978-0-7869-4954-0",
+    "productCode": "620-21764740-003 EN",
+    "section": "Adventure Book Two, R4, Bunkroom",
+    "printedHeadings": [
+      "2 Spitting Drakes (S)"
+    ],
+    "printedPages": [
+      8
+    ],
+    "pdfPages": [
+      40
+    ],
+    "encounterContextPages": [
+      8,
+      9
+    ],
+    "encounterContextPdfPages": [
+      40,
+      41
+    ],
+    "creditsPdfPage": 3,
+    "pageNumbering": "Adventure Book Two starts on sheet 33. Add 32 to its numbered folios for one-based sheet numbers.",
+    "sourceSha256": "479c64a84ad11f64b44244771841e5e257f6e9a96b4419f813f406f78592c876",
+    "sourceUrl": "",
+    "productUrl": "https://www.dmsguild.com/product/165543/FR1-Scepter-Tower-of-Spellgard-4e",
+    "sourceUrlRole": "The official store preview confirms credits and printing. The rules were visually checked on folios in the full original local .",
+    "officialErrata": "https://media.wizards.com/2014/downloads/dnd/4ECollectedErrataFAQ.zip",
+    "errataUpdatesPdfSha256": "9f379d02b34d69267fd9763b02b004488cc5dab22aba893d28e087d3326231ab",
+    "errataFaqPdfSha256": "eaa8a710f545244c8db913877855c1ca6f64862b838762422ac62b45b39bd42a",
+    "errataEvidence": "No scoped correction was located in the official 4e Updates or Collected FAQ.",
+    "level": 3,
+    "role": "Artillery",
+    "xp": 150,
+    "initiative": 5,
+    "defenses": {
+      "AC": 17,
+      "Fortitude": 14,
+      "Reflex": 16,
+      "Will": 14
+    },
+    "bloodied": 19,
+    "printedAbilityModifiers": {
+      "Str": 3,
+      "Dex": 5,
+      "Con": 3,
+      "Int": -3,
+      "Wis": 3,
+      "Cha": 2
+    },
+    "habitatEvidence": "Encounter locations from the adventure.",
+    "artGroup": "spitting-drake",
+    "appearanceEvidence": "Original bronze drake portrait based on the Book Two p. 8 description.",
+    "artworkSource": "portraits/spitting-drake.png",
+    "artworkSha256": "9ce1393db9b988c23426a919f6ecadec3e85dbf5706428e9547a691daf8e2860",
+    "artworkCredit": "OpenAI ImageGen",
+    "sourceNotes": [
+      "The p. 8 read-aloud describes bronze, dragonlike creatures the size of lions. The stat block lists two drakes at 150 XP each."
+    ]
+  }
+]

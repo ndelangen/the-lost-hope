@@ -9,6 +9,7 @@ type ResponsiveImageProps = Omit<
   src: string
   alt: string
   sizes: string
+  image?: ReturnType<typeof responsiveImageFor>
   fallbackSrc?: string
   maxWidth?: number
   width?: number
@@ -19,6 +20,7 @@ export function ResponsiveImage({
   src,
   alt,
   sizes,
+  image: providedImage,
   fallbackSrc,
   maxWidth,
   width,
@@ -26,7 +28,7 @@ export function ResponsiveImage({
   onError,
   ...props
 }: ResponsiveImageProps) {
-  const image = responsiveImageFor(src)
+  const image = providedImage ?? responsiveImageFor(src)
   const resolvedSource = image?.candidates[0]?.src ?? publicAssetUrl(src, fallbackSrc ?? src)
   const candidates = (image?.candidates ?? []).filter(
     (candidate) => maxWidth === undefined || candidate.width <= maxWidth,

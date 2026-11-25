@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Hobgoblin Smokebinder",
+    "query": "battered shield foggy approaches choking bolt smoke form",
+    "condition": "Restrained",
+    "alternates": [
+      {
+        "credit": "D&D Beyond publisher art · Flee, Mortals!",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Hobgoblin Recruit",
+    "query": "cloth headband training yards tactical positioning longsword",
+    "condition": null,
+    "alternates": [
+      {
+        "credit": "OpenAI ImageGen · The Lost Hope",
+        "url": ""
+      }
+    ]
+  }
+]

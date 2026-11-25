@@ -1,0 +1,244 @@
+{
+  "builds": [
+    {
+      "id": "pc3-kna-brasscrest-driftledger",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Basic D&D (BECMI)"
+      ],
+      "size": "Large",
+      "type": "Sea creature",
+      "title": "Kna caravan guard, 7 HD",
+      "difficulty": "Level 0 creature hero, 0 XP.",
+      "ac": 4,
+      "hp": 40,
+      "hitDice": "7d8+6",
+      "speed": "Swim 150 ft. (50 ft. encounter), land 30 ft. (10 ft. encounter) with air breathing.",
+      "languages": "Kna",
+      "abilityScores": {
+        "STR": 17,
+        "DEX": 13,
+        "CON": 14,
+        "INT": 12,
+        "WIS": 12,
+        "CHA": 13
+      },
+      "traits": [
+        "Neutral. STR prime requisite grants +10% XP. Natural AC 5 improves to 4 from DEX. Apply DEX 11 and AC 5 on land. Base THAC0 13. Fighter saves for HD 7–9, 8 / 9 / 10 / 11 / 12.",
+        "Water breathing. Carries a loaded underwater heavy crossbow, 12 quarrels and a spear.",
+        "Save order is death ray/poison, magic wands, paralysis/turn to stone, dragon breath, rods/staves/spells.",
+        "Group initiative is rolled on 1d6 each combat round."
+      ],
+      "actions": [
+        "Spear. Melee attack at +2 from STR against base THAC0 13, 1d6+2 damage.",
+        "Heavy crossbow. Missile attack at +1 from DEX against base THAC0 13, 2d4+2 damage from the PC3 Kna exception. Range bands 80/160/240 ft., with +1/0/−1 to hit. STR 17 permits a shot every other round when braced. Fire the prepared bolt, then reload on the next round."
+      ],
+      "tactics": "Brasscrest keeps a bolt loaded and takes cover below the cargo slings. Once a raider reaches a sling, he drops the crossbow and intercepts with his spear."
+    },
+    {
+      "id": "pc3-kopru-terazz-cindercoil",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Basic D&D (BECMI)"
+      ],
+      "size": "Medium",
+      "type": "Sea creature",
+      "title": "Kopru vent foundry smith, 8 HD",
+      "difficulty": "Level 0 creature hero, 0 XP.",
+      "ac": 2,
+      "hp": 47,
+      "hitDice": "8d8+10",
+      "speed": "Swim 150 ft. (50 ft. encounter), land 30 ft. (10 ft. encounter).",
+      "languages": "Kopru, Kna trade",
+      "abilityScores": {
+        "STR": 12,
+        "DEX": 13,
+        "CON": 15,
+        "INT": 12,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "traits": [
+        "Neutral. DEX prime requisite grants +5% XP. Natural AC 3 improves to 2 from DEX. Base THAC0 11. Fighter saves for HD 7–9, 8 / 9 / 10 / 11 / 12. +2 to saves against magical attacks.",
+        "Permanent Resist Fire. Ordinary fire and heat do no damage. Magical fire grants another +2 on its save and loses 1 damage per die, to a minimum of 1 on each die. Direct lava immersion remains dangerous.",
+        "Domination has one slot at INT 12. The victim may otherwise act normally. Terazz knows its thoughts and memories and retains control across any distance. Repeat the death-ray save monthly. Death of Terazz, wish or dispel magic against 8 HD ends the effect.",
+        "Save order is death ray/poison, magic wands, paralysis/turn to stone, dragon breath, rods/staves/spells.",
+        "Group initiative is rolled on 1d6 each combat round."
+      ],
+      "actions": [
+        "Bite and tails. Make two melee rolls at base THAC0 11. Bite deals 1d4, and the combined three-tail attack deals 3d6.",
+        "Domination. With a free slot, concentrate on one intelligent creature within 40 ft. It saves vs. death ray or becomes controlled. Saving against a new attempt gives lasting immunity to Kopru domination. A monthly save ends an existing control effect and leaves the target eligible for a later attempt."
+      ],
+      "tactics": "Terazz blocks the narrow vent passage. He asks intruders to set down their tools before making an attack, and saves domination for someone trying to break the vent gate."
+    },
+    {
+      "id": "pc3-merrow-mareva-greenwake",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Basic D&D (BECMI)"
+      ],
+      "size": "Medium",
+      "type": "Sea creature",
+      "title": "Merrow dolphin-talker scout, 2 HD",
+      "difficulty": "Level 1 creature hero, 1,000 XP.",
+      "ac": 6,
+      "hp": 11,
+      "hitDice": "2d8+2",
+      "speed": "Swim 120 ft. (40 ft. encounter), land 30 ft. (10 ft. encounter).",
+      "languages": "Merrow, Kna trade, Dolphin Song",
+      "abilityScores": {
+        "STR": 13,
+        "DEX": 15,
+        "CON": 13,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 12
+      },
+      "traits": [
+        "Neutral. DEX prime requisite grants +5% XP. Natural AC 7 improves to 6 from DEX. Dry-land DEX 13 still gives the same AC. Base THAC0 18. Fighter saves for HD 1–3, 12 / 13 / 14 / 15 / 16.",
+        "Amphibious once the lungs are cleared. After one day without immersion, begin tracking cumulative −2 to attacks, saves and CON each day. She carries a spear and a dagger.",
+        "Save order is death ray/poison, magic wands, paralysis/turn to stone, dragon breath, rods/staves/spells.",
+        "Group initiative is rolled on 1d6 each combat round."
+      ],
+      "actions": [
+        "Spear. Melee at +1 STR or throw at +1 DEX against base THAC0 18. Either deals 1d6+1. Thrown ranges 20/40/60 ft., with +1/0/−1 to hit.",
+        "Dagger. Melee at +1 STR against base THAC0 18, 1d4+1 damage.",
+        "Dolphin Song. Speak with dolphins, whales and other merrow up to 500 ft. away. Use it to exchange a message or request help."
+      ],
+      "tactics": "Mareva asks dolphins to warn the herders away from danger and then stays between the danger and the herd. She throws her spear only if she can swim clear."
+    },
+    {
+      "id": "pc3-sea-giant-tavar-deepstep",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Basic D&D (BECMI)"
+      ],
+      "size": "Huge",
+      "type": "Sea creature",
+      "title": "Sea Giant canyon keeper, 9 HD",
+      "difficulty": "Level 0 creature hero, 0 XP.",
+      "ac": 0,
+      "hp": 54,
+      "hitDice": "9d8+12",
+      "speed": "Swim or walk 120 ft. (40 ft. encounter).",
+      "languages": "Sea Giant, Kna trade",
+      "abilityScores": {
+        "STR": 17,
+        "DEX": 10,
+        "CON": 16,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 11
+      },
+      "traits": [
+        "Neutral. STR prime requisite grants +10% XP. Natural AC 0 with neither armor nor shield. Base THAC0 11. Fighter saves for HD 7–9, 8 / 9 / 10 / 11 / 12.",
+        "Water breathing. Holds breath 16 minutes or 8 during exertion, then makes escalating CON checks each minute. Initial check at CON 16 and −1 cumulatively after each check. More than 10 damage also forces the PC3 breath-retention check.",
+        "Clumsiness. Roll DEX 10 or lower on d20 each time he enters a cluttered or enclosed area made for small folk. DEX falls to 8 on land, so unarmored AC becomes 1 and the check target becomes 8.",
+        "Save order is death ray/poison, magic wands, paralysis/turn to stone, dragon breath, rods/staves/spells.",
+        "Group initiative is rolled on 1d6 each combat round."
+      ],
+      "actions": [
+        "Giant trident. Melee at +2 STR against base THAC0 11. 6d6+4 damage, including +2 from STR and +2 for an adult Sea Giant.",
+        "Bare hand. Melee at +2 STR against base THAC0 11. 3d6+4 damage, including the same Strength and adult bonuses.",
+        "Water Blast. Once per ten-minute turn, sweep everything in a 50-by-30-ft. cone underwater or 120-by-60-ft. wave at the surface. Every creature is moved. A failed death-ray save stuns for 1d6 rounds, prevents spellcasting and reduces movement to one-quarter. Surface vessels take 2d6 hull damage."
+      ],
+      "tactics": "Tavar warns off intruders from the canyon floor. He uses his water blast across the empty approach and waits if it would sweep his neighbors into the trench."
+    },
+    {
+      "id": "pc3-shark-kin-ssekk-gutterfin",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Basic D&D (BECMI)"
+      ],
+      "size": "Medium",
+      "type": "Sea creature",
+      "title": "Shark-Kin shoal scout, 2 HD",
+      "difficulty": "Level 0 creature hero, 0 XP.",
+      "ac": 5,
+      "hp": 12,
+      "hitDice": "2d8+2",
+      "speed": "Swim 240 ft. (80 ft. encounter), land 120 ft. (40 ft. encounter).",
+      "languages": "Shark-Kin, Kna trade",
+      "abilityScores": {
+        "STR": 14,
+        "DEX": 14,
+        "CON": 13,
+        "INT": 11,
+        "WIS": 12,
+        "CHA": 11
+      },
+      "traits": [
+        "Neutral. Outcast with developed legs. DEX prime requisite grants +5% XP. Natural AC 6 improves to 5 from DEX. Base THAC0 18. Fighter saves for HD 1–3, 12 / 13 / 14 / 15 / 16.",
+        "He breathes air and water and avoids land penalties. He carries a trident, two javelins and a 6-by-6-ft. net. On the full moon he is drawn back to his sacred island.",
+        "Bloodlust. For fresh blood in water within 150 ft., roll d20 ≤ 12. On failure he rushes perceived foes and gains +2 to hit and to resist fear. He cannot fail morale while berserk. Repeat the check on defeating a victim. When no foe remains, a reroll at d20 ≤ 16 may prevent him turning on friends.",
+        "Save order is death ray/poison, magic wands, paralysis/turn to stone, dragon breath, rods/staves/spells.",
+        "Group initiative is rolled on 1d6 each combat round."
+      ],
+      "actions": [
+        "Bite and claws. Make three rolls against base THAC0 18 for 1d6 bite and 1d3 per claw. Bloodlust adds +2 to hit. The game’s optional general Strength bonus to ordinary natural attacks is left off.",
+        "Trident. Melee with +1 STR against base THAC0 18, 1d6+1 damage. Bloodlust adds +2 to hit.",
+        "Javelin. Throw with +1 DEX against base THAC0 18, 1d6+1 damage. Range bands 30/60/90 ft., with +1/0/−1 to hit. Bloodlust adds +2 to hit.",
+        "Net. Throw at +1 DEX against base THAC0 18. Range bands 10/20/30 ft., with +1/0/−1 to hit. On a hit against a solid target, deal no damage and force a death-ray save. Save bonuses by level or HD are 0 up to 1, +1 through 3, +2 through 6, +3 through 9, +4 through 12 and +5 above 12. Add +4 per size category if the target is bigger than the net. On failure, entangle through 3, slow through 9, or delay above 9. Retry the save during each melee phase to remove it. A ready dagger gives +4 on the retry and cuts the net on success. Bloodlust adds +2 to hit.",
+        "Shark Empathy. Convey simple emotions to sharks within 50 yards. Roll d20 ≤ 12 to halt a feeding frenzy and stop the sharks attacking the party."
+      ],
+      "tactics": "Ssekk keeps the crew behind him when he attempts to calm sharks. If he scents blood, his companions clear his approach and give him room to recover after the last attacker falls."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Brasscrest Driftledger",
+      "species": "Kna",
+      "speciesPublication": "The Sea People (PC3, 1990)",
+      "edition": "Basic D&D (BECMI)",
+      "size": "Large",
+      "build": "pc3-kna-brasscrest-driftledger",
+      "role": "Caravan guard and cargo assessor.",
+      "motive": "Keep the cargo intact long enough to learn who is switching the convoy’s destination tags.",
+      "hook": "Brasscrest asks the party to escort the decoy sling while he follows the genuine load with an empty manifest."
+    },
+    {
+      "name": "Terazz Cindercoil",
+      "species": "Kopru",
+      "speciesPublication": "The Sea People (PC3, 1990)",
+      "edition": "Basic D&D (BECMI)",
+      "size": "Medium",
+      "build": "pc3-kopru-terazz-cindercoil",
+      "role": "Volcanic foundry smith and keeper of the vent gate.",
+      "motive": "Find the missing apprentice before the damaged gate floods the workroom.",
+      "hook": "Terazz is holding the gear lever shut with all three tails and asks the party to retrieve the locking wedge."
+    },
+    {
+      "name": "Mareva Greenwake",
+      "species": "Merrow",
+      "speciesPublication": "The Sea People (PC3, 1990)",
+      "edition": "Basic D&D (BECMI)",
+      "size": "Medium",
+      "build": "pc3-merrow-mareva-greenwake",
+      "role": "Scout and dolphin messenger along the kelp grazing routes.",
+      "motive": "Find the shoal before someone mistakes a passing herd for unattended fish.",
+      "hook": "A dolphin answers Mareva’s call with a new heading and the merrow asks the party to guard her while she checks it."
+    },
+    {
+      "name": "Tavar Deepstep",
+      "species": "Sea Giant",
+      "speciesPublication": "The Sea People (PC3, 1990)",
+      "edition": "Basic D&D (BECMI)",
+      "size": "Huge",
+      "build": "pc3-sea-giant-tavar-deepstep",
+      "role": "Canyon crossing keeper and tide-marker repairer.",
+      "motive": "Clear a jammed lower passage before the rescue boats put in at the wrong ledge.",
+      "hook": "Tavar asks for help with a gate latch that is too small for his hands."
+    },
+    {
+      "name": "Ssekk Gutterfin",
+      "species": "Shark-Kin",
+      "speciesPublication": "The Sea People (PC3, 1990)",
+      "edition": "Basic D&D (BECMI)",
+      "size": "Medium",
+      "build": "pc3-shark-kin-ssekk-gutterfin",
+      "role": "Amphibious outcast and shark-shoal scout.",
+      "motive": "Recover the ancestral tide-token before the full moon draws him ashore.",
+      "hook": "Ssekk can lead a subship around the hunting grounds in exchange for one short dive at the old landing."
+    }
+  ]
+}

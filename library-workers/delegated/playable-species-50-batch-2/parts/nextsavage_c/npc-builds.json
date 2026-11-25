@@ -1,0 +1,285 @@
+{
+  "builds": [
+    {
+      "id": "savage-species-kyton-veyl-30e",
+      "size": "Medium",
+      "type": "Outsider (Evil, Lawful)",
+      "title": "Kyton chain guard, Kyton 4",
+      "difficulty": "CR 1 by Table A–31. Kyton monster class level 4, 3 HD.",
+      "senses": "Darkvision 60 ft.",
+      "languages": "Common, Infernal",
+      "speed": "30 ft.",
+      "ac": 14,
+      "hp": 23,
+      "hitDice": "3d8+6",
+      "initiative": 6,
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 15,
+        "CON": 14,
+        "INT": 6,
+        "WIS": 10,
+        "CHA": 12
+      },
+      "skills": [
+        "Climb +9",
+        "Craft (metalworking) +12",
+        "Escape Artist +8",
+        "Listen +6",
+        "Profession (gaoler) +6",
+        "Spot +6"
+      ],
+      "traits": [
+        "Lawful evil. AC includes +2 natural armor and +2 Dexterity. Touch 12, flat-footed 12. BAB +3, grapple +6. Fortitude +5, Reflex +5, Will +3.",
+        "Cold immunity. Improved Initiative and Weapon Focus (chain rake). The weapon focus also applies to a spiked chain."
+      ],
+      "actions": [
+        "Chain rake +7 melee, 1d6+3 slashing, 10-ft. reach including adjacent squares. Full attack makes two rakes at +7 each.",
+        "Unnerving Gaze (Su). Enemies within 5 ft. make a DC 12 Will save or take a −1 morale penalty on attack rolls for 1d3 rounds. Each enemy can be subject to Veyl’s gaze once per day.",
+        "Dancing Chains (Su). As a standard action, control one unattended chain within 20 ft. Veyl can add up to 15 ft. of length and grow barbs. The chain makes one attack per round at +7 for 1d6+3. Veyl climbs a controlled chain at his land speed without a check."
+      ],
+      "tactics": "Veyl animates the tollgate’s hanging chain while he bargains. He uses his body chains to cover both the gap beside him and the stairs behind it.",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ]
+    },
+    {
+      "id": "savage-species-lillend-sereva-30e",
+      "size": "Medium",
+      "type": "Outsider (Chaotic, Good)",
+      "title": "Lillend gatekeeper, Lillend 6",
+      "difficulty": "CR 4 by Table A–32. Lillend monster class level 6, 5 HD.",
+      "senses": "Darkvision 60 ft.",
+      "languages": "Abyssal, Celestial, Common, Infernal",
+      "speed": "20 ft., fly 70 ft. (average)",
+      "ac": 13,
+      "hp": 32,
+      "hitDice": "5d8+5",
+      "initiative": 5,
+      "abilityScores": {
+        "STR": 20,
+        "DEX": 12,
+        "CON": 12,
+        "INT": 12,
+        "WIS": 15,
+        "CHA": 20
+      },
+      "skills": [
+        "Appraise +9",
+        "Concentration +9",
+        "Craft (stringed instruments) +9",
+        "Knowledge (arcana) +9",
+        "Listen +10",
+        "Perform (lyre) +13",
+        "Profession (guide) +6",
+        "Spellcraft +9",
+        "Survival +14"
+      ],
+      "traits": [
+        "Chaotic good. AC includes +2 natural armor and +1 Dexterity. Touch 11, flat-footed 12. BAB +5, grapple +10. Fortitude +5, Reflex +5, Will +6.",
+        "Poison immunity and fire resistance 5. Improved Initiative and Weapon Focus (longsword). Her lyre is an ordinary instrument.",
+        "Bard spells at caster level 3. Three 0-level slots per day shared by detect magic, ghost sound, light, mage hand, mending, and read magic (save DC 15 where relevant). Two 1st-level slots per day shared by cure light wounds, feather fall, and grease (save DC 16)."
+      ],
+      "actions": [
+        "Longsword +11 melee, 1d8+5 slashing, 19–20/×2. Tail slap +10 melee, 1d8+2 bludgeoning. When using both in a full attack, the tail is secondary at +5.",
+        "Improved Grab and Constrict (Ex). A tail hit against a Medium or smaller creature lets Sereva start a grapple at +10 without an attack of opportunity. On a hold she adds 1d8+5 constrict damage. She cannot take move actions while constricting and may still attack with a held weapon.",
+        "Bardic music 3/day. Each use can inspire courage, countersong, fascinate, or inspire competence. Inspire courage gives allies who hear her for a full round +2 morale on saves against charm and fear and +1 morale on attack and weapon damage. It lasts while they hear her and for 5 rounds afterward. Countersong lets listeners within 30 ft. substitute her Perform result for a lower save roll against a sonic or language-dependent magical effect. Fascinate affects one listening, attentive creature within 90 ft. outside combat, with Will DC set by her Perform check, and lasts up to 3 rounds. Inspire competence gives one ally within 30 ft. +2 on one skill for up to 2 minutes while the ally hears her. The ally and Sereva must be able to see each other.",
+        "World and talk powers (Sp), each 1/day at caster level 7. Darkness, hallucinatory terrain (Will DC 19 where relevant), knock, light, charm person (Will DC 16), speak with animals, and speak with plants.",
+        "Cure light wounds restores 1d8+3 HP by touch. Grease coats a 10-ft. square within 30 ft. for 3 rounds (Reflex DC 16 to avoid falling). As a free action, feather fall slows falling targets in a 10-ft. radius within 30 ft. until they land or 3 rounds pass. The targets may weigh up to 900 lb. in total."
+      ],
+      "tactics": "Sereva takes the high walkway and asks for the old crossing song. If someone runs toward the gate, she lands beside the latch and grabs with her tail.",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ]
+    },
+    {
+      "id": "savage-species-medusa-mereth-30e",
+      "size": "Medium",
+      "type": "Monstrous Humanoid",
+      "title": "Medusa quarry keeper, Medusa 6",
+      "difficulty": "CR 3 by Table A–34. Medusa monster class level 6, 4 HD.",
+      "senses": "Darkvision 60 ft.",
+      "languages": "Common",
+      "speed": "30 ft.",
+      "ac": 15,
+      "hp": 34,
+      "hitDice": "4d8+12",
+      "initiative": 3,
+      "abilityScores": {
+        "STR": 12,
+        "DEX": 17,
+        "CON": 16,
+        "INT": 12,
+        "WIS": 10,
+        "CHA": 18
+      },
+      "skills": [
+        "Bluff +8",
+        "Craft (stonecarving) +3",
+        "Disguise +8",
+        "Move Silently +6",
+        "Spot +6",
+        "Listen +2"
+      ],
+      "traits": [
+        "Lawful neutral. AC includes +2 natural armor and +3 Dexterity. Touch 13, flat-footed 12. BAB +4, grapple +5. Fortitude +4, Reflex +7, Will +4.",
+        "Alertness, Point Blank Shot, and Precise Shot. She can fire into melee without the usual −4 penalty."
+      ],
+      "actions": [
+        "Snake hair +5 melee, 1d4 piercing and poison. Fortitude DC 15 on the hit against 1d4 Strength damage, and again a minute later against 2d4 Strength damage.",
+        "Shortbow +7 ranged, 1d6 piercing, ×3, 60-ft. range increment. At 30 ft. or less use +8 and 1d6+1.",
+        "Petrifying Gaze (Su), 1/day. As an active gaze attack, choose one creature within 10 ft. It must make a Fortitude DC 16 save or turn to stone. Apply ordinary gaze avoidance rules when the target averts or covers its eyes."
+      ],
+      "tactics": "Mereth calls for parley from behind a pillar. If a foe rushes past it, she uses her gaze on that one foe and signals the quarryhands to leave.",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ]
+    },
+    {
+      "id": "savage-species-nixie-tivin-30e",
+      "size": "Small",
+      "type": "Fey (Aquatic)",
+      "title": "Nixie ford negotiator, Nixie 2",
+      "difficulty": "CR 1 by Table A–37. Nixie monster class level 2, 1 HD.",
+      "senses": "Low-light vision",
+      "languages": "Aquan, Common, Sylvan",
+      "speed": "20 ft., swim 30 ft.",
+      "ac": 15,
+      "hp": 7,
+      "hitDice": "1d6+1",
+      "initiative": 8,
+      "abilityScores": {
+        "STR": 6,
+        "DEX": 18,
+        "CON": 12,
+        "INT": 12,
+        "WIS": 13,
+        "CHA": 18
+      },
+      "skills": [
+        "Bluff +8",
+        "Escape Artist +8",
+        "Hide +12 (+17 in water)",
+        "Listen +7",
+        "Search +7",
+        "Spot +7",
+        "Swim +6"
+      ],
+      "traits": [
+        "Neutral. AC includes +1 size and +4 Dexterity. Touch 15, flat-footed 11. BAB +0, grapple −6. Fortitude +1, Reflex +6, Will +3.",
+        "Improved Initiative. Amphibious. Tivin can take 10 on Swim checks and run in a straight line while swimming."
+      ],
+      "actions": [
+        "Sling +5 ranged, 1d4−2 bludgeoning (minimum 1), ×2, 50-ft. range increment. Loading the sling is a move-equivalent action.",
+        "Charm Person (Sp), 1/day at caster level 2. One Medium or smaller humanoid within 30 ft. becomes friendly for 2 hours on a failed DC 15 Will save. Give the target +5 on the save if Tivin or his allies are threatening or attacking it. Requests outside the target’s normal behavior require an opposed Charisma check. The target refuses suicidal orders. Threatening it afterward breaks the charm.",
+        "Water Breathing (Sp), 1/day at caster level 4. Divide 8 hours of underwater breathing evenly among the living creatures touched."
+      ],
+      "tactics": "Tivin offers to help the first traveler who puts their weapon down. If talks stall without violence, Tivin uses charm person to get one traveler to hear them out and then offers water breathing for the crossing.",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ]
+    },
+    {
+      "id": "savage-species-sea-hag-alda-30e",
+      "size": "Medium",
+      "type": "Monstrous Humanoid (Aquatic)",
+      "title": "Sea hag shore ambusher, Sea Hag 2",
+      "difficulty": "CR 1 by Table A–43. Sea Hag monster class level 2, 1 HD.",
+      "senses": "Darkvision 60 ft.",
+      "languages": "Common, Giant",
+      "speed": "30 ft., swim 40 ft.",
+      "ac": 12,
+      "hp": 10,
+      "hitDice": "1d8+2",
+      "initiative": 1,
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 12,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 13
+      },
+      "skills": [
+        "Hide +5",
+        "Listen +7",
+        "Spot +3",
+        "Swim +11"
+      ],
+      "traits": [
+        "Chaotic evil. AC includes +1 natural armor and +1 Dexterity. Touch 11, flat-footed 11. BAB +1, grapple +4. Fortitude +2, Reflex +3, Will +3.",
+        "Alertness. Breathes air and water. Alda can take 10 on Swim checks and run in a straight line while swimming."
+      ],
+      "actions": [
+        "Claw +4 melee, 1d4+3 slashing. Full attack makes two claws at +4 each.",
+        "Horrific Appearance (Su). A creature looking at Alda makes a DC 11 Fortitude save or takes 1 point of Strength damage. Success grants immunity to her Horrific Appearance for 24 hours."
+      ],
+      "tactics": "Alda crouches just below the waterline. She shows her face when a scavenger leans over the stones, claws if cornered, and dives when her escape opens.",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ]
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Kyton",
+      "size": "Medium",
+      "edition": "3.0 edition",
+      "speciesPublication": "Savage Species (2003)",
+      "name": "Veyl Handlink",
+      "build": "savage-species-kyton-veyl-30e",
+      "role": "Guard of a tollgate built into a stairwell.",
+      "motive": "Collect a debt from a smuggler before the gaoler checks his ledger.",
+      "hook": "Veyl offers the party a key in exchange for the name beside a scratched-out tally."
+    },
+    {
+      "species": "Lillend",
+      "size": "Medium",
+      "edition": "3.0 edition",
+      "speciesPublication": "Savage Species (2003)",
+      "name": "Sereva Lowstring",
+      "build": "savage-species-lillend-sereva-30e",
+      "role": "Aerial gatekeeper of a footbridge across a gorge.",
+      "motive": "Keep a repair crew safe until it can lower the crossing ropes.",
+      "hook": "Sereva asks the party to look for a missing apprentice on the far bank."
+    },
+    {
+      "species": "Medusa",
+      "size": "Medium",
+      "edition": "3.0 edition",
+      "speciesPublication": "Savage Species (2003)",
+      "name": "Mereth Flintmark",
+      "build": "savage-species-medusa-mereth-30e",
+      "role": "Keeper of a shuttered stone quarry.",
+      "motive": "Keep the quarryhands from taking the blame for a statue they found underground.",
+      "hook": "Mereth offers to show the party the stone dust on the statue’s boots if they agree to meet behind a screen."
+    },
+    {
+      "species": "Nixie",
+      "size": "Small",
+      "edition": "3.0 edition",
+      "speciesPublication": "Savage Species (2003)",
+      "name": "Tivin Reed",
+      "build": "savage-species-nixie-tivin-30e",
+      "role": "Ford negotiator who can guide travelers beneath the current.",
+      "motive": "Stop a ferryman’s new anchor from tearing an eggbed loose.",
+      "hook": "Tivin offers a dry sack for the party’s gear and asks them to lift the anchor from below."
+    },
+    {
+      "species": "Sea Hag",
+      "size": "Medium",
+      "edition": "3.0 edition",
+      "speciesPublication": "Savage Species (2003)",
+      "name": "Alda Slackwater",
+      "build": "savage-species-sea-hag-alda-30e",
+      "role": "Shore ambusher who scavenges marked stones from wrecks.",
+      "motive": "Get back a ballast stone before the tide takes it inland.",
+      "hook": "Alda calls from under the quay and offers to trade a stolen locket for the stone."
+    }
+  ]
+}

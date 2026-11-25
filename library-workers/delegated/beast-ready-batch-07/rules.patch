@@ -1,0 +1,2749 @@
+diff --git a/dm-library/bestiary/stat-blocks.json b/dm-library/bestiary/stat-blocks.json
+index 8b7d054..4a73539 100644
+--- a/dm-library/bestiary/stat-blocks.json
++++ b/dm-library/bestiary/stat-blocks.json
+@@ -4320,6 +4320,2744 @@
+     "publication": "SRD 5.1",
+     "armor": "natural armor"
+   },
++  {
++    "name": "Bison",
++    "publication": "Revised v3.5 SRD (Monsters)",
++    "edition": "3.5 edition",
++    "classification": "Large Animal, always neutral",
++    "ac": 13,
++    "hp": 37,
++    "hitDice": "5d8 + 15",
++    "initiative": 0,
++    "speed": "40 ft. (8 squares)",
++    "cr": "2",
++    "abilities": {
++      "Str": {
++        "score": 22,
++        "modifier": 6
++      },
++      "Dex": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 16,
++        "modifier": 3
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 4,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Initiative +0. AC is 13 (−1 size, +4 natural), touch 9, flat-footed 13. Space/reach 10 ft./5 ft. Base attack +3. Grapple +13. Fortitude +7, Reflex +4, Will +1.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A broad, shaggy bison with a high shoulder hump, heavy forequarters, and short upward-curving horns.",
++    "habitats": ["Temperate plains"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersAnimals.rtf, Bison. https://www.d20srd.org/srd/monsters/bison.htm",
++      "Attack": "Gore +8 melee, 1d8 + 9 damage.",
++      "Full attack": "One Gore +8 melee, 1d8 + 9 damage.",
++      "Special qualities": "Low-light vision. See twice as far as a human in dim illumination while retaining color and detail.\nScent. Detect opponents by smell within 30 ft., or 60 ft. upwind and 15 ft. downwind. Strong odors double those ranges and overpowering odors triple them. A move action identifies the direction of a scent. At 5 ft. or closer, pinpoint the source.",
++      "Skills and feats": "Skills. Listen +7, Spot +5.\nFeats. Alertness, Endurance. Endurance grants +4 on the checks and saves listed for the feat, including Constitution checks to keep running, hold breath or withstand a forced march.",
++      "Encounter ecology": "Environment. Temperate plains. Organization. Solitary or herd (6–30). Bison usually flee. They may become aggressive while protecting their young or during mating season. Treasure none. Advancement. 6–7 HD (Large). Level adjustment none listed.",
++      "Special attacks": "Stampede (Ex). A frightened herd flees together in a random direction away from the perceived danger. It runs over anything of Large size or smaller in its path and deals 1d12 damage for each five bison in the herd. Reflex DC 18 halves the damage. The save DC is Strength-based."
++    }
++  },
++  {
++    "name": "Camel",
++    "publication": "Revised v3.5 SRD (Monsters)",
++    "edition": "3.5 edition",
++    "classification": "Large Animal, always neutral",
++    "ac": 13,
++    "hp": 19,
++    "hitDice": "3d8 + 6",
++    "initiative": 3,
++    "speed": "50 ft. (10 squares)",
++    "cr": "1",
++    "abilities": {
++      "Str": {
++        "score": 18,
++        "modifier": 4
++      },
++      "Dex": {
++        "score": 16,
++        "modifier": 3
++      },
++      "Con": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 4,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Initiative +3. AC is 13 (−1 size, +3 Dex, +1 natural), touch 12, flat-footed 10. Space/reach 10 ft./5 ft. Base attack +2. Grapple +10. Fortitude +5, Reflex +6, Will +1.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A sandy dromedary with one hump, long legs, an arched neck and broad two-toed feet.",
++    "habitats": ["Warm deserts"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersAnimals.rtf, Camel. https://www.d20srd.org/srd/monsters/camel.htm",
++      "Attack": "Bite +0 melee, 1d4 + 2 damage. The bite is secondary and adds half the Strength bonus.",
++      "Full attack": "One secondary Bite +0 melee, 1d4 + 2 damage.",
++      "Special qualities": "Low-light vision. See twice as far as a human in dim illumination while retaining color and detail.\nScent. Detect opponents by smell within 30 ft., or 60 ft. upwind and 15 ft. downwind. Strong odors double those ranges and overpowering odors triple them. A move action identifies the direction of a scent. At 5 ft. or closer, pinpoint the source.",
++      "Skills and feats": "Skills. Listen +5, Spot +5.\nFeats. Alertness, Endurance. Endurance grants +4 on the checks and saves listed for the feat, including Constitution checks to keep running, hold breath or withstand a forced march.",
++      "Encounter ecology": "Environment. Warm deserts. Organization. Domesticated or herd (6–30). The dromedary stands about 7 ft. at the shoulder, with its hump about 1 ft. higher. Camels can travel long distances without food or water. Treasure none. Advancement. None listed. Level adjustment none listed.",
++      "Carrying capacity": "Light load up to 300 lb. Medium load 301–600 lb. Heavy load 601–900 lb. Drag limit 4,500 lb.",
++      "Bactrian camel": "The two-humped variety is stockier and suited to cooler, rocky terrain. Its speed is 40 ft. and Constitution is 16."
++    }
++  },
++  {
++    "name": "Dire Rat",
++    "publication": "Revised v3.5 SRD (Monsters)",
++    "edition": "3.5 edition",
++    "classification": "Small Animal, always neutral",
++    "ac": 15,
++    "hp": 5,
++    "hitDice": "1d8 + 1",
++    "initiative": 3,
++    "speed": "40 ft. (8 squares), climb 20 ft.",
++    "cr": "1/3",
++    "abilities": {
++      "Str": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Dex": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Con": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 1,
++        "modifier": -5
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 4,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Initiative +3. AC is 15 (+1 size, +3 Dex, +1 natural), touch 14, flat-footed 12. Space/reach 5 ft./5 ft. Base attack +0. Grapple -4. Fortitude +3, Reflex +5, Will +3.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A low, bristly brown rat with a long curved bare tail, a pointed snout and prominent incisors.",
++    "habitats": ["Any"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersDi-Do.rtf, Dire Animal, Dire Rat. https://www.d20srd.org/srd/monsters/direRat.htm",
++      "Attack": "Bite +4 melee, 1d4 damage plus exposure to filth fever.",
++      "Full attack": "One Bite +4 melee, 1d4 damage plus exposure to filth fever.",
++      "Special qualities": "Low-light vision. See twice as far as a human in dim illumination while retaining color and detail.\nScent. Detect opponents by smell within 30 ft., or 60 ft. upwind and 15 ft. downwind. Strong odors double those ranges and overpowering odors triple them. A move action identifies the direction of a scent. At 5 ft. or closer, pinpoint the source.",
++      "Skills and feats": "Skills. Climb +11, Hide +8, Listen +4, Move Silently +4, Spot +4, Swim +11. Apply the printed +8 racial bonuses to Climb and Swim. Both checks use Dexterity. The rat can take 10 on Climb even while rushed or threatened.\nFeats. Alertness, Weapon Finesse (bonus feat).",
++      "Encounter ecology": "Environment. Any. Organization. Solitary or pack (11–20). Dire rats scavenge, defend their nests and territory, and attack boldly in packs. Treasure none. Advancement. 2–3 HD (Small), 4–6 HD (Medium). Level adjustment none listed.",
++      "Special attacks": "Disease (Ex), filth fever. A bitten creature makes an immediate DC 11 Fortitude save. On failure, incubation lasts 1d3 days, then the creature takes 1d3 Dexterity and 1d3 Constitution damage. Each day afterward, a failed DC 11 Fortitude save repeats the damage. Two consecutive successful daily saves end the disease. The DC is Constitution-based."
++    }
++  },
++  {
++    "name": "Giant Crocodile",
++    "publication": "Revised v3.5 SRD (Monsters)",
++    "edition": "3.5 edition",
++    "classification": "Huge Animal, always neutral",
++    "ac": 16,
++    "hp": 59,
++    "hitDice": "7d8 + 28",
++    "initiative": 1,
++    "speed": "20 ft. (4 squares), swim 30 ft.",
++    "cr": "4",
++    "abilities": {
++      "Str": {
++        "score": 27,
++        "modifier": 8
++      },
++      "Dex": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Con": {
++        "score": 19,
++        "modifier": 4
++      },
++      "Int": {
++        "score": 1,
++        "modifier": -5
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 2,
++        "modifier": -4
++      }
++    },
++    "otherStatistics": "Initiative +1. AC is 16 (−2 size, +1 Dex, +7 natural), touch 9, flat-footed 15. Space/reach 15 ft./10 ft. Base attack +5. Grapple +21. Fortitude +9, Reflex +6, Will +3.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A low, broad-snouted crocodile with armored olive-brown scales, short splayed legs and a long tapering tail.",
++    "habitats": ["Warm marshes", "Salt water"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersAnimals.rtf, Crocodile, Giant, and Crocodile combat. https://www.d20srd.org/srd/monsters/crocodile.htm#giantCrocodile",
++      "Attack": "Bite +11 melee for 2d8 + 12 damage, or Tail Slap +11 melee for 1d12 + 12 damage.",
++      "Full attack": "One Bite +11 melee for 2d8 + 12 damage, or one Tail Slap +11 melee for 1d12 + 12 damage.",
++      "Special qualities": "Hold Breath (Ex). It can hold its breath for four times its Constitution score, or 76 rounds, before it risks drowning.\nLow-light vision. See twice as far as a human in dim illumination while retaining color and detail.",
++      "Skills and feats": "Skills. Hide +1, Listen +5, Spot +5, Swim +16. In water, add a +4 racial bonus to Hide. At the surface with only eyes and nostrils exposed, it also gets +10 cover to Hide. The +8 racial Swim bonus applies to special actions and hazards. It can take 10 on Swim while distracted or endangered, and can run when swimming in a straight line.\nFeats. Alertness, Endurance, Skill Focus (Hide). Endurance adds +4 to Constitution checks to hold breath after the listed interval.",
++      "Encounter ecology": "Environment. Warm marshes, Salt water. Organization. Solitary or colony (6–11). Giant crocodiles use the smaller crocodile’s ambush behavior, waiting low in the water and trying to drag a grabbed victim deeper. Treasure none. Advancement. 8–14 HD (Huge). Level adjustment none listed.",
++      "Special attacks": "Improved Grab (Ex). After it hits a Large or smaller foe with Bite, the crocodile can immediately attempt a grapple as a free action without a touch attack or an attack of opportunity. On a win, it draws the target into its space and may drag it if the victim is within its drag limit. It can grapple normally or hold with its jaws at −20 on grapple checks to avoid becoming grappled itself. Winning the initial grab adds no damage. Later successful grapple checks with the hold deal Bite damage. The crocodile uses opposed grapple checks to pin or move a struggling target.",
++      "At the table": "A target escapes with an opposed grapple check in place of an attack or a standard-action Escape Artist check against the crocodile’s grapple check. Escaping a pin leaves the target in the grapple. After the crocodile’s breath-holding interval, use escalating Constitution checks beginning at DC 10. Failure starts drowning, with 0 HP and unconsciousness on the first round, −1 HP on the next, and death on the third."
++    }
++  },
++  {
++    "name": "Monkey",
++    "publication": "Revised v3.5 SRD (Monsters)",
++    "edition": "3.5 edition",
++    "classification": "Tiny Animal, always neutral",
++    "ac": 14,
++    "hp": 4,
++    "hitDice": "1d8",
++    "initiative": 2,
++    "speed": "30 ft. (6 squares), climb 30 ft.",
++    "cr": "1/6",
++    "abilities": {
++      "Str": {
++        "score": 3,
++        "modifier": -4
++      },
++      "Dex": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 5,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Initiative +2. AC is 14 (+2 size, +2 Dex), touch 14, flat-footed 12. Space/reach 2-1/2 ft./0 ft. Base attack +0. Grapple -12. Fortitude +2, Reflex +4, Will +1.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A small dark-bodied monkey with a pale face and neck, long fingers, and a coiled tail.",
++    "habitats": ["Warm forests"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersAnimals.rtf, Monkey. https://www.d20srd.org/srd/monsters/monkey.htm",
++      "Attack": "Bite +4 melee, printed damage 1d3 − 4.",
++      "Full attack": "One Bite +4 melee, printed damage 1d3 − 4.",
++      "Special qualities": "Low-light vision. See twice as far as a human in dim illumination while retaining color and detail.",
++      "Skills and feats": "Skills. Balance +10, Climb +10, Hide +10, Listen +3, Spot +3. It has a +8 racial bonus to Balance and Climb. Climb uses Dexterity. The monkey can take 10 on Climb even while rushed or threatened.\nFeats. Weapon Finesse.",
++      "Encounter ecology": "Environment. Warm forests. Organization. Troop (10–40). Monkeys retreat into the trees when possible and bite when cornered. This profile covers arboreal monkeys up to house-cat size. Treasure none. Advancement. 2–3 HD (Small). Level adjustment none listed.",
++      "At the table": "The 3.5 combat minimum gives the monkey 1 damage on a hit after penalties. With 0-ft. reach, it enters the target’s space to bite and normally provokes an attack of opportunity for doing so."
++    }
++  },
++  {
++    "name": "Deinonychus",
++    "edition": "3.5 edition",
++    "publication": "Revised v3.5 SRD (Monsters)",
++    "classification": "Large Animal, always neutral",
++    "hp": 34,
++    "hitDice": "4d8 + 16",
++    "initiative": "+2",
++    "speed": "60 ft. (12 squares)",
++    "ac": 16,
++    "cr": "3",
++    "abilities": {
++      "Str": {
++        "score": 19,
++        "modifier": 4
++      },
++      "Dex": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 19,
++        "modifier": 4
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 10,
++        "modifier": 0
++      }
++    },
++    "otherStatistics": "Initiative +2. AC 16 (−1 size, +2 Dex, +5 natural), touch 11, flat-footed 14. Base attack +3, grapple +11. Space 10 ft., reach 5 ft. Fort +8, Ref +6, Will +2.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A lean green pack raptor with a pale green underside, dark mottling, grasping forelimbs, raised hind talons, and a long, stiff tail. It weighs about 600 lb.",
++    "habitats": ["Warm forests"],
++    "sections": {
++      "Printed source": "Revised v3.5 SRD, MonstersDi-Do.rtf, DINOSAUR, DEINONYCHUS and its following combat text. https://olimot.github.io/srd-v3.5/monsters/monsters-di-do.html#deinonychus",
++      "Attack": "Talons +6 melee (2d6 + 4).",
++      "Full attack": "Talons +6 melee (2d6 + 4), two foreclaws +1 melee (1d3 + 2 each), and bite +1 melee (2d4 + 2). The hind talons count as one attack.",
++      "Special attacks": "Pounce (Ex). It can make a full attack when it charges.",
++      "Special qualities": "Low-light vision doubles normal human sight distance in dim light and retains color and detail. Scent (Ex). Detects opponents at 30 ft., or 60 ft. upwind and 15 ft. downwind. Strong odors double these ranges and overpowering odors triple them. A move action identifies the direction. Within 5 ft. the animal pinpoints the source.",
++      "Skills and feats": "Hide +8, Jump +26, Listen +10, Spot +10, Survival +10. Run, Track. Racial +8 on each listed skill. With Track, a fresh scent trail normally starts at DC 10, adjusted for odor strength, number of creatures and trail age. Each cold hour adds 2. Poor visibility and the surface do not hinder scent tracking.",
++      "Encounter ecology": "It stalks from cover and uses its speed to pounce. Packs hunt together. Encounter one, a pair, or a pack of 3–6. Advancement 5–8 HD (Large). No treasure or listed level adjustment.",
++      "Print distinction": "This SRD archive uses Large size, 10-ft. space, and 2d6 + 4 talons. Wizards’ February 2006 Monster Manual errata uses Medium size, 5-ft. space, and 1d8 + 4 talons in its replacement table."
++    }
++  },
++  {
++    "name": "Cheetah",
++    "edition": "3.5 edition",
++    "publication": "Revised v3.5 SRD (Monsters)",
++    "classification": "Medium Animal, always neutral",
++    "hp": 19,
++    "hitDice": "3d8 + 6",
++    "initiative": "+4",
++    "speed": "50 ft. (10 squares)",
++    "ac": 15,
++    "cr": "2",
++    "abilities": {
++      "Str": {
++        "score": 16,
++        "modifier": 3
++      },
++      "Dex": {
++        "score": 19,
++        "modifier": 4
++      },
++      "Con": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Initiative +4. AC 15 (+4 Dex, +1 natural), touch 14, flat-footed 11. Base attack +2, grapple +5. Space 5 ft., reach 5 ft. Fort +5, Ref +7, Will +2.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A slim tawny cat with dark spots, long legs and a banded tail. It measures 3–5 ft. long and weighs 110–130 lb.",
++    "habitats": ["Warm plains"],
++    "sections": {
++      "Printed source": "Revised v3.5 SRD, MonstersAnimals.rtf, CHEETAH and its following combat text. https://olimot.github.io/srd-v3.5/monsters/monsters-animals.html#cheetah",
++      "Attack": "Bite +6 melee (1d6 + 3, from the matching Bite in Full Attack).",
++      "Full attack": "Bite +6 melee (1d6 + 3) and two claws +1 melee (1d2 + 1 each).",
++      "Special attacks": "Trip (Ex). After a bite or claw hit, make a trip attempt at +3 as a free action. The attempt needs no touch attack and provokes no attack of opportunity. On a failure, the target gets no attempt to trip the cheetah in return.",
++      "Special qualities": "Low-light vision doubles normal human sight distance in dim light and retains color and detail. Scent (Ex). Detects opponents at 30 ft., or 60 ft. upwind and 15 ft. downwind. Strong odors double these ranges and overpowering odors triple them. A move action identifies the direction. Within 5 ft. the animal pinpoints the source. Sprint (Ex). Once per hour, the cheetah can move up to 500 ft. as part of a charge.",
++      "Skills and feats": "Hide +6, Listen +4, Move Silently +6, Spot +4. Alertness, Weapon Finesse.",
++      "Encounter ecology": "A swift plains hunter that sprints to take prey. Encounter one, a pair, or a family of 3–5. Advancement 4–5 HD (Medium). Animal defaults supply neutral alignment and no treasure. No listed level adjustment."
++    }
++  },
++  {
++    "name": "Dire Shark",
++    "edition": "3.5 edition",
++    "publication": "Revised v3.5 SRD (Monsters)",
++    "classification": "Huge Animal (Aquatic), always neutral",
++    "hp": 147,
++    "hitDice": "18d8 + 66",
++    "initiative": "+2",
++    "speed": "Swim 60 ft. (12 squares)",
++    "ac": 17,
++    "cr": "9",
++    "abilities": {
++      "Str": {
++        "score": 23,
++        "modifier": 6
++      },
++      "Dex": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Int": {
++        "score": 1,
++        "modifier": -5
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 10,
++        "modifier": 0
++      }
++    },
++    "otherStatistics": "Initiative +2. AC 17 (−2 size, +2 Dex, +7 natural), touch 10, flat-footed 15. Base attack +13, grapple +27. Space 15 ft., reach 10 ft. Fort +14, Ref +13, Will +12.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A huge slate-blue shark with a broad toothy jaw and pale belly. It can reach 25 ft. in length and weigh over 20,000 lb.",
++    "habitats": ["Cold aquatic"],
++    "sections": {
++      "Printed source": "Revised v3.5 SRD, MonstersDi-Do.rtf, DIRE SHARK and its following combat text. https://olimot.github.io/srd-v3.5/monsters/monsters-di-do.html#dire-shark",
++      "Attack": "Bite +18 melee (2d8 + 9).",
++      "Full attack": "Bite +18 melee (2d8 + 9).",
++      "Special attacks": "Improved Grab (Ex). A Bite hit lets it attempt a grapple as a free action with no touch attack or attack of opportunity. The general Improved Grab size limit applies because the entry gives no wider limit. Winning the check holds the creature and sets up Swallow Whole on the following round.\nSwallow Whole (Ex). Make a new grapple check to swallow a held Large or smaller foe. If swallowed, it takes 2d6 + 6 bludgeoning plus 1d8 + 4 acid each round. Cutting out requires a light slashing or piercing weapon to deal 25 damage to the digestive tract (AC 13). The wound closes after that creature leaves. The general Swallow Whole rules also deal bite damage on swallowing, count the prey as grappled, and return prey that escape the grapple to the shark’s mouth.\nGullet capacity. Two Large, eight Medium or Small, thirty-two Tiny, one hundred twenty-eight Diminutive, or five hundred twelve Fine or smaller opponents.",
++      "Special qualities": "Keen Scent (Ex). Can detect creatures by scent within 180 ft. and detect blood in water up to 1 mile away. Aquatic subtype. Breathes underwater only and uses its swim speed without routine Swim checks. The stat block lists Keen Scent. The general Animal rules grant low-light vision unless the specific entry overrides it.",
++      "Skills and feats": "Listen +12, Spot +11, Swim +14. Improved Natural Attack (bite), Toughness ×4, Weapon Focus (bite). Racial +8 on Swim checks for special actions or hazards. It may take 10 even when distracted or endangered, and it can run while swimming in a straight line.",
++      "Encounter ecology": "Hunts anything it regards as prey, including creatures larger than itself. Encounter one or a school of 2–5. Advancement 19–32 HD (Huge), 33–54 HD (Gargantuan). No treasure or listed level adjustment."
++    }
++  },
++  {
++    "name": "Giant Octopus",
++    "edition": "3.5 edition",
++    "publication": "Revised v3.5 SRD (Monsters)",
++    "classification": "Large Animal (Aquatic), always neutral",
++    "hp": 47,
++    "hitDice": "8d8 + 11",
++    "initiative": "+2",
++    "speed": "20 ft. (4 squares), swim 30 ft.",
++    "ac": 18,
++    "cr": "8",
++    "abilities": {
++      "Str": {
++        "score": 20,
++        "modifier": 5
++      },
++      "Dex": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 3,
++        "modifier": -4
++      }
++    },
++    "otherStatistics": "Initiative +2. AC 18 (−1 size, +2 Dex, +7 natural), touch 11, flat-footed 16. Base attack +6, grapple +15. Space 10 ft., reach 10 ft. or 20 ft. with a tentacle. Fort +7, Ref +8, Will +3.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A reddish-brown octopus with a rounded mantle and eight long, curled arms lined with sharp-edged suckers and small barbs.",
++    "habitats": ["Warm aquatic"],
++    "sections": {
++      "Printed source": "Revised v3.5 SRD, MonstersAnimals.rtf, OCTOPUS, GIANT and its following combat text. https://olimot.github.io/srd-v3.5/monsters/monsters-animals.html#octopus-giant",
++      "Attack": "Tentacle +10 melee (1d4 + 5).",
++      "Full attack": "Eight tentacles +10 melee (1d4 + 5 each) and bite +5 melee (1d8 + 2).",
++      "Special attacks": "Improved Grab (Ex). A tentacle hit on an opponent of any size allows a grapple as a free action with no touch attack or attack of opportunity. A successful check establishes a hold and allows constriction.\nConstrict (Ex). A successful grapple check deals 2d8 + 6 damage.",
++      "Special qualities": "Low-light vision doubles normal human sight distance in dim light and retains color and detail. Aquatic subtype. Breathes underwater only and uses its swim speed without routine Swim checks.\nInk Cloud (Ex). Once per minute, spend a free action to fill a 20-ft. cube with ink that blocks all vision and gives total concealment. The entry does not give the cloud a duration.\nJet (Ex). Once per round, spend a full-round action to move 200 ft. straight backward without provoking attacks of opportunity.",
++      "Skills and feats": "Escape Artist +12, Hide +12, Listen +4, Spot +6, Swim +13. Alertness, Skill Focus (Hide), Toughness. Changing color adds racial +4 on Hide. Its flexible body gives racial +10 on Escape Artist. Racial +8 on Swim checks for special actions or hazards. It may take 10 even when distracted or endangered, and it can run while swimming in a straight line.",
++      "Tentacles": "A foe can sunder a tentacle as if attacking a weapon. Each tentacle has 10 HP. If a tentacle that is holding someone is targeted, the octopus usually makes the resulting attack of opportunity with a different limb. Each severed tentacle also costs the octopus 5 HP. It usually retreats after losing four and regrows severed arms in 1d10 + 10 days.",
++      "Encounter ecology": "A solitary, territorial hunter. Advancement 9–12 HD (Large), 13–24 HD (Huge). Animal defaults supply neutral alignment and no treasure. No listed level adjustment."
++    }
++  },
++  {
++    "name": "Mule",
++    "edition": "3.5 edition",
++    "publication": "Revised v3.5 SRD (Monsters)",
++    "classification": "Large Animal, always neutral",
++    "hp": 22,
++    "hitDice": "3d8 + 9",
++    "initiative": "+1",
++    "speed": "30 ft. (6 squares)",
++    "ac": 13,
++    "cr": "1",
++    "abilities": {
++      "Str": {
++        "score": 16,
++        "modifier": 3
++      },
++      "Dex": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Con": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Initiative +1. AC 13 (−1 size, +1 Dex, +3 natural), touch 10, flat-footed 12. Base attack +2, grapple +9. Space 10 ft., reach 5 ft. Fort +6, Ref +4, Will +1.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A sturdy brown equine with long donkey-like ears, a short dark mane, light muzzle, and narrow hooves.",
++    "habitats": ["Warm plains"],
++    "sections": {
++      "Printed source": "Revised v3.5 SRD, MonstersAnimals.rtf, MULE and its following combat text. https://olimot.github.io/srd-v3.5/monsters/monsters-animals.html#mule",
++      "Attack": "Hoof +4 melee (1d4 + 3).",
++      "Full attack": "Two hooves +4 melee (1d4 + 3 each).",
++      "Special attacks": "None listed.",
++      "Special qualities": "Low-light vision doubles normal human sight distance in dim light and retains color and detail. Scent (Ex). Detects opponents at 30 ft., or 60 ft. upwind and 15 ft. downwind. Strong odors double these ranges and overpowering odors triple them. A move action identifies the direction. Within 5 ft. the animal pinpoints the source.",
++      "Skills and feats": "Listen +6, Spot +6. Alertness, Endurance. Racial +2 on Dexterity checks to avoid a slip or fall.",
++      "Carrying capacity": "Light load up to 230 lb., medium 231–460 lb., heavy 461–690 lb. Maximum drag load 3,450 lb.",
++      "Encounter ecology": "A domesticated, sterile horse and donkey crossbreed with a powerful kick. No listed advancement or level adjustment. Animal defaults supply neutral alignment and no treasure."
++    }
++  },
++  {
++    "name": "Giant Squid",
++    "publication": "Revised v3.5 SRD (Monsters)",
++    "edition": "3.5 edition",
++    "classification": "Huge Animal (Aquatic), always neutral",
++    "ac": 17,
++    "hp": 72,
++    "hitDice": "12d8 + 18",
++    "speed": "Swim 80 ft. (16 squares)",
++    "cr": "9",
++    "initiative": 3,
++    "abilities": {
++      "Str": {
++        "score": 26,
++        "modifier": 8
++      },
++      "Dex": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Con": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 1,
++        "modifier": -5
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 2,
++        "modifier": -4
++      }
++    },
++    "otherStatistics": "AC 17 (−2 size, +3 Dex, +6 natural). Touch AC 11. Flat-footed AC 14. Base attack +9. Grapple +29. Space 15 ft. Reach 15 ft., or 30 ft. with a tentacle. Fort +9, Ref +11, Will +5. Low-light vision.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "An immense rust-brown squid with a long pointed mantle, paired fins, eight short arms, and two longer club-tipped feeding tentacles.",
++    "habitats": ["Temperate aquatic"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Revised v3.5 SRD. MonstersAnimals.rtf, SQUID, GIANT. https://www.d20srd.org/srd/monsters/squidGiant.htm",
++      "Attack": "Tentacle +15 melee, 1d6 + 8 damage.",
++      "Full attack": "Ten tentacles +15 melee, each for 1d6 + 8, and bite +10 melee for 2d8 + 4.",
++      "Special attacks": "Improved Grab (Ex). A tentacle hit against an opponent of any size can start a grapple as a free action and without provoking an attack of opportunity. A successful grapple check establishes a hold and allows constriction. The squid’s +4 racial grapple bonus is accounted for in the printed +29.\nConstrict (Ex). Deal 1d6 + 8 damage on a successful grapple check.\nSundering tentacles. A foe can sunder a tentacle as though it were a weapon. Each tentacle has 10 HP. If that limb holds a target, the squid usually makes its attack of opportunity with a different limb. Severing a tentacle deals 5 damage to the squid. It typically retreats after losing five tentacles. A severed limb regrows in 1d10 + 10 days.",
++      "Special qualities": "Low-light vision. Aquatic subtype. Breathes water and has no amphibious quality. Normal swimming needs no Swim check.\nInk Cloud (Ex). Once per minute as a free action, release a 20-ft. cube of ink. The cloud blocks all vision within it and gives total concealment.\nJet (Ex). Once per round, use a full-round action to jet backward 320 ft. in a straight line without provoking attacks of opportunity.",
++      "Skills and feats": "Listen +10, Spot +11, Swim +16. Gain a +8 racial bonus on Swim checks for special actions or hazards. You may take 10 while distracted or endangered and run while swimming in a straight line.\nFeats: Alertness, Diehard, Endurance, Toughness twice.",
++      "Encounter ecology": "Temperate aquatic. Solitary. Advancement is 13–18 HD (Huge) or 19–36 HD (Gargantuan). Level adjustment and treasure are absent. The source describes a predator whose body can exceed 20 ft. in length."
++    }
++  },
++  {
++    "name": "Constrictor Snake",
++    "publication": "Revised v3.5 SRD (Monsters)",
++    "edition": "3.5 edition",
++    "classification": "Medium Animal, always neutral",
++    "ac": 15,
++    "hp": 19,
++    "hitDice": "3d8 + 6",
++    "speed": "20 ft. (4 squares), climb 20 ft., swim 20 ft.",
++    "cr": "2",
++    "initiative": 3,
++    "abilities": {
++      "Str": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Dex": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Con": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 1,
++        "modifier": -5
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 2,
++        "modifier": -4
++      }
++    },
++    "otherStatistics": "AC 15 (+3 Dex, +2 natural). Touch AC 13. Flat-footed AC 12. Base attack +2. Grapple +5. Space and reach 5 ft. Fort +4, Ref +6, Will +2.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A muscular olive-brown snake with dark irregular saddle markings, a blunt head, and a thick coiled body.",
++    "habitats": ["Warm forest"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Revised v3.5 SRD. MonstersAnimals.rtf, SNAKE, Constrictor Snake. https://www.d20srd.org/srd/monsters/snake.htm#constrictorSnake",
++      "Attack": "Bite +5 melee for 1d3 + 4 damage.",
++      "Full attack": "One bite +5 melee for 1d3 + 4 damage.",
++      "Special attacks": "Improved Grab (Ex). After a bite, the snake can try to grapple as a free action without provoking an attack of opportunity. Apply the usual Improved Grab size limit, one category smaller or less. A successful grapple check starts the hold and allows constriction.\nConstrict (Ex). Deal 1d3 + 4 damage on a successful grapple check.",
++      "Special qualities": "Scent is the special quality listed in the creature’s table. The SRD Animal introduction lists low-light vision as a general Animal trait unless an entry says otherwise.",
++      "Skills and feats": "Balance +11, Climb +14, Hide +10, Listen +7, Spot +7, Swim +11. Feats: Alertness, Toughness.\nSnake racial bonuses are +4 on Hide, Listen and Spot and +8 on Balance and Climb. It may take 10 on Climb even if rushed or threatened, and uses the higher of its Str and Dex modifiers for that check. Gain a +8 racial bonus on Swim checks for special actions or hazards. You may take 10 while distracted or endangered and run while swimming in a straight line.",
++      "Encounter ecology": "Warm forests. Solitary. Advancement is 4–5 HD (Medium) or 6–10 HD (Large). No treasure or level adjustment. It often retreats when confronted and hunts prey it can fit within its coils."
++    }
++  },
++  {
++    "name": "Dire Tiger",
++    "publication": "Revised v3.5 SRD (Monsters)",
++    "edition": "3.5 edition",
++    "classification": "Large Animal, always neutral",
++    "ac": 17,
++    "hp": 120,
++    "hitDice": "16d8 + 48",
++    "speed": "40 ft. (8 squares)",
++    "cr": "8",
++    "initiative": 2,
++    "abilities": {
++      "Str": {
++        "score": 27,
++        "modifier": 8
++      },
++      "Dex": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 10,
++        "modifier": 0
++      }
++    },
++    "otherStatistics": "AC 17 (−1 size, +2 Dex, +6 natural). Touch AC 11. Flat-footed AC 15. Base attack +12. Grapple +24. Space 10 ft. Reach 5 ft. Fort +13, Ref +12, Will +11.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A massive orange-and-black striped cat with a broad head and shoulders, long tail, and heavy forepaws.",
++    "habitats": ["Warm forest"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Revised v3.5 SRD. MonstersDi-Do.rtf, DIRE ANIMAL, DIRE TIGER. https://www.d20srd.org/srd/monsters/direTiger.htm",
++      "Attack": "Claw +20 melee for 2d4 + 8 damage.",
++      "Full attack": "Two claws +20 melee, each for 2d4 + 8, and bite +14 melee for 2d6 + 4.",
++      "Special attacks": "Improved Grab (Ex). A bite hit can start a grapple as a free action without provoking an attack of opportunity. Apply the usual size limit, one category smaller or less. A successful grapple check establishes the hold.\nPounce (Ex). After charging, the dire tiger can make a full attack including two rake attacks.\nRake (Ex). +18 melee for 2d4 + 4 damage per strike. A grapple rake normally requires starting the turn in the grapple. Pounce explicitly grants its two rakes as part of the charge.",
++      "Special qualities": "Low-light vision and scent.",
++      "Skills and feats": "Hide +7, Jump +14, Listen +6, Move Silently +11, Spot +7, Swim +10. Racial bonus +4 to Hide and Move Silently. The Hide racial bonus rises to +8 in tall grass or heavy undergrowth, for a total of +11. Feats: Alertness, Improved Natural Attack (claw), Improved Natural Attack (bite), Run, Stealthy, Weapon Focus (claw).",
++      "Encounter ecology": "Warm forests. Solitary or pair. No treasure or level adjustment. Advancement is 17–32 HD (Large) or 33–48 HD (Huge). It stalks prey before charging and can exceed 12 ft. in length."
++    }
++  },
++  {
++    "name": "Hawk",
++    "publication": "Revised v3.5 SRD (Monsters)",
++    "edition": "3.5 edition",
++    "classification": "Tiny Animal, always neutral",
++    "ac": 17,
++    "hp": 4,
++    "hitDice": "1d8",
++    "speed": "10 ft. (2 squares), fly 60 ft. (average)",
++    "cr": "1/3",
++    "initiative": 3,
++    "abilities": {
++      "Str": {
++        "score": 6,
++        "modifier": -2
++      },
++      "Dex": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Con": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "AC 17 (+2 size, +3 Dex, +2 natural). Touch AC 15. Flat-footed AC 14. Base attack +0. Grapple −10. Space 2½ ft. Reach 0 ft. Fort +2, Ref +5, Will +2.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A small brown raptor with a hooked beak, streaked cream breast and yellow talons.",
++    "habitats": ["Temperate forest"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Revised v3.5 SRD. MonstersAnimals.rtf, HAWK. https://www.d20srd.org/srd/monsters/hawk.htm",
++      "Attack": "Talons +5 melee for 1d4 − 2 damage. Both talons count as a single attack. A hit deals at least 1 damage under the general minimum damage rule.",
++      "Full attack": "One talons attack +5 melee for 1d4 − 2 damage.",
++      "Special qualities": "Low-light vision.",
++      "Skills and feats": "Listen +2, Spot +14. The hawk has a +8 racial bonus on Spot checks. Feat: Weapon Finesse.",
++      "Encounter ecology": "Temperate forests. Solitary or pair. No advancement, level adjustment, or treasure. Hawks are 1–2 ft. long, with wingspans up to 6 ft."
++    }
++  },
++  {
++    "name": "Octopus",
++    "publication": "Revised v3.5 SRD (Monsters)",
++    "edition": "3.5 edition",
++    "classification": "Small Animal (Aquatic), always neutral",
++    "ac": 16,
++    "hp": 9,
++    "hitDice": "2d8",
++    "speed": "20 ft. (4 squares), swim 30 ft.",
++    "cr": "1",
++    "initiative": 3,
++    "abilities": {
++      "Str": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Dex": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Con": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 3,
++        "modifier": -4
++      }
++    },
++    "otherStatistics": "AC 16 (+1 size, +3 Dex, +2 natural). Touch AC 14. Flat-footed AC 13. Base attack +1. Grapple +2 as printed. Space and reach 5 ft. Fort +3, Ref +6, Will +1.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A small russet octopus with a rounded mantle, mottled skin, and eight curling sucker-lined arms.",
++    "habitats": ["Warm aquatic"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Revised v3.5 SRD. MonstersAnimals.rtf, OCTOPUS. https://www.d20srd.org/srd/monsters/octopus.htm",
++      "Attack": "Arms +5 melee, 0 damage.",
++      "Full attack": "Arms +5 melee, 0 damage, and bite +0 melee for 1d3 damage.",
++      "Special attacks": "Improved Grab (Ex). An arms hit against an opponent of any size can start a grapple as a free action without provoking an attack of opportunity. A successful grapple check establishes the hold and immediately deals bite damage.",
++      "Special qualities": "Low-light vision. Aquatic subtype. Breathes water and has no amphibious quality. Normal swimming needs no Swim check.\nInk Cloud (Ex). Once per minute as a free action, release a 10-ft. cube of ink. The cloud blocks all vision within it and gives total concealment.\nJet (Ex). Once per round as a full-round action, jet backward 200 ft. in a straight line without provoking attacks of opportunity.",
++      "Skills and feats": "Escape Artist +13, Hide +11, Listen +2, Spot +5, Swim +9. Feat: Weapon Finesse.\nColor changes give a +4 racial bonus to Hide. Its supple body gives a +10 racial bonus to Escape Artist. Gain a +8 racial bonus on Swim checks for special actions or hazards. You may take 10 while distracted or endangered and run while swimming in a straight line.",
++      "Encounter ecology": "Warm aquatic. Solitary. Advancement is 3–6 HD (Medium). No treasure or level adjustment. It lives on the bottom and usually flees when disturbed."
++    }
++  },
++  {
++    "name": "Ape",
++    "publication": "Revised v3.5 SRD (Monsters)",
++    "edition": "3.5 edition",
++    "classification": "Large Animal, always neutral",
++    "ac": 14,
++    "hp": 29,
++    "hitDice": "4d8 + 11",
++    "initiative": "+2",
++    "speed": "30 ft. (6 squares), climb 30 ft.",
++    "cr": "2",
++    "abilities": {
++      "Str": {
++        "score": 21,
++        "modifier": 5
++      },
++      "Dex": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 7,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Initiative +2. AC 14 (−1 size, +2 Dex, +3 natural), touch 11, flat-footed 12. Base attack +3, grapple +12. Space 10 ft., reach 10 ft. Fort +6, Ref +6, Will +2.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A muscular gorilla-like ape with dark coarse fur, broad shoulders and long arms. Adult males stand roughly 5½ to 6 ft. tall and weigh 300 to 400 lb.",
++    "habitats": ["Warm forests"],
++    "sections": {
++      "Printed source": "Revised v3.5 SRD, MonstersAnimals.rtf, APE, including the combat text following the table. https://olimot.github.io/srd-v3.5/monsters/monsters-animals.html#ape",
++      "Attack": "Claws +7 melee (1d6 + 5).",
++      "Full attack": "Two claws +7 melee (1d6 + 5 each) and bite +2 melee (1d6 + 2).",
++      "Special attacks": "None.",
++      "Special qualities": "Low-light vision doubles normal human sight distance in dim light and retains color and detail. Scent (Ex). Detects opponents within 30 ft., 60 ft. upwind or 15 ft. downwind. Double the range for strong odors and triple it for overpowering ones. It takes a move action to learn the direction. Within 5 ft. the animal pinpoints the source.",
++      "Skills and feats": "Climb +14, Listen +6, Spot +6. Alertness, Toughness. The ape has a +8 racial bonus on Climb and can take 10 even when rushed or threatened.",
++      "Encounter ecology": "Aggressive omnivores. Encounter one ape, a pair or a company of 3–5 in warm forests. Advancement 5–8 HD (Large). No treasure or listed level adjustment."
++    }
++  },
++  {
++    "name": "Crocodile",
++    "publication": "Revised v3.5 SRD (Monsters)",
++    "edition": "3.5 edition",
++    "classification": "Medium Animal, always neutral",
++    "ac": 15,
++    "hp": 22,
++    "hitDice": "3d8 + 9",
++    "initiative": "+1",
++    "speed": "20 ft. (4 squares), swim 30 ft.",
++    "cr": "2",
++    "abilities": {
++      "Str": {
++        "score": 19,
++        "modifier": 4
++      },
++      "Dex": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Con": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Int": {
++        "score": 1,
++        "modifier": -5
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 2,
++        "modifier": -4
++      }
++    },
++    "otherStatistics": "Initiative +1. AC 15 (+1 Dex, +4 natural), touch 11, flat-footed 14. Base attack +2, grapple +6. Space 5 ft., reach 5 ft. Fort +6, Ref +4, Will +2.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "An olive-brown crocodile with raised scutes, a long snout and a muscular tail. The SRD describes an adult 11 to 12 ft. long.",
++    "habitats": ["Warm marshes"],
++    "sections": {
++      "Printed source": "Revised v3.5 SRD, MonstersAnimals.rtf, CROCODILE, including the combat text following the table. https://olimot.github.io/srd-v3.5/monsters/monsters-animals.html#crocodile",
++      "Attack": "Bite +6 melee (1d8 + 6) or tail slap +6 melee (1d12 + 6).",
++      "Full attack": "Bite +6 melee (1d8 + 6) or tail slap +6 melee (1d12 + 6).",
++      "Special attacks": "Improved Grab (Ex). After a bite hits, the crocodile can attempt a grapple as a free action. It needs no touch attack and provokes no attack of opportunity. The default size limit is at least one category smaller, so Small or smaller. If the crocodile wins, it holds the target in its jaws, drags it into deep water and tries to pin it on the bottom. The crocodile can pull a held target into its space and move with it if it can drag the target, without provoking for the pull. The initial hold adds no damage. Later successful grapple checks deal bite damage. It can hold with its jaws alone at −20 on grapple checks. With that option it can keep its Dexterity bonus to AC, threaten normally and use any remaining attacks on other foes.",
++      "Special qualities": "Hold Breath (Ex). It can hold its breath for 68 rounds (4 × Constitution 17) before risking drowning. Low-light vision doubles normal human sight distance in dim light and retains color and detail.",
++      "Skills and feats": "Hide +7, Listen +4, Spot +4, Swim +12. Alertness, Skill Focus (Hide). It gains a +4 racial Hide bonus in water and a +10 cover bonus while only its eyes and nostrils are exposed. The +8 racial Swim bonus applies to special maneuvers and hazards. The animal can take 10 even under threat and can run while swimming in a straight line.",
++      "Encounter ecology": "Ambushes prey while mostly submerged in a warm river or marsh. Encounter one or a colony of 6–11. Advancement 4–5 HD (Medium). No treasure or listed level adjustment."
++    }
++  },
++  {
++    "name": "Dire Weasel",
++    "publication": "Revised v3.5 SRD (Monsters)",
++    "edition": "3.5 edition",
++    "classification": "Medium Animal, always neutral",
++    "ac": 16,
++    "hp": 13,
++    "hitDice": "3d8",
++    "initiative": "+4",
++    "speed": "40 ft. (8 squares)",
++    "cr": "2",
++    "abilities": {
++      "Str": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Dex": {
++        "score": 19,
++        "modifier": 4
++      },
++      "Con": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 11,
++        "modifier": 0
++      }
++    },
++    "otherStatistics": "Initiative +4. AC 16 (+4 Dex, +2 natural), touch 14, flat-footed 12. Base attack +2, grapple +4. Space 5 ft., reach 5 ft. Fort +3, Ref +7, Will +4.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A reddish-brown weasel with a long low body and tail and a pale throat. Adults can reach 10 ft. long and 700 lb.",
++    "habitats": ["Temperate hills"],
++    "sections": {
++      "Printed source": "Revised v3.5 SRD, MonstersDi-Do.rtf, DIRE WEASEL, including the combat text following the table. https://olimot.github.io/srd-v3.5/monsters/monsters-di-do.html#dire-weasel",
++      "Attack": "Bite +6 melee (1d6 + 3).",
++      "Full attack": "Bite +6 melee (1d6 + 3).",
++      "Special attacks": "Attach (Ex). A bite hit latches the weasel onto the target. While attached it loses the Dexterity bonus to AC, leaving AC 12. It can still be hit by weapons or grappled. A creature removing it by grappling must pin it. Blood Drain (Ex). The attached weasel deals 1d4 Constitution damage each round it stays on the target.",
++      "Special qualities": "Low-light vision doubles normal human sight distance in dim light and retains color and detail. Scent (Ex). Detects opponents within 30 ft., 60 ft. upwind or 15 ft. downwind. Double the range for strong odors and triple it for overpowering ones. It takes a move action to learn the direction. Within 5 ft. the animal pinpoints the source.",
++      "Skills and feats": "Hide +8, Listen +3, Move Silently +8, Spot +5. Alertness, Stealthy, Weapon Finesse (bonus feat).",
++      "Encounter ecology": "Stalks prey in the dark before pouncing. Encounter one or a pair in temperate hills. Advancement 4–6 HD (Medium) or 7–9 HD (Large). No treasure or listed level adjustment.",
++      "Source notes": "The combat description mentions clawing. Both attack rows give only Bite, which is the attack used here."
++    }
++  },
++  {
++    "name": "Huge Shark",
++    "publication": "Revised v3.5 SRD (Monsters)",
++    "edition": "3.5 edition",
++    "classification": "Huge Animal (Aquatic), always neutral",
++    "ac": 15,
++    "hp": 65,
++    "hitDice": "10d8 + 20",
++    "initiative": "+6",
++    "speed": "Swim 60 ft. (12 squares)",
++    "cr": "4",
++    "abilities": {
++      "Str": {
++        "score": 21,
++        "modifier": 5
++      },
++      "Dex": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 1,
++        "modifier": -5
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 2,
++        "modifier": -4
++      }
++    },
++    "otherStatistics": "Initiative +6. AC 15 (−2 size, +2 Dex, +5 natural), touch 10, flat-footed 13. Base attack +7, grapple +20. Space 15 ft., reach 10 ft. Fort +11, Ref +9, Will +4.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A great-white-like shark with a slate-gray back, pale belly, pointed dorsal fin and crescent tail. It can exceed 20 ft. long.",
++    "habitats": ["Cold aquatic"],
++    "sections": {
++      "Printed source": "Revised v3.5 SRD, MonstersAnimals.rtf, SHARK, Shark, Huge column, including the combat text following the table. https://olimot.github.io/srd-v3.5/monsters/monsters-animals.html#shark",
++      "Attack": "Bite +10 melee (2d6 + 7).",
++      "Full attack": "Bite +10 melee (2d6 + 7).",
++      "Special attacks": "None.",
++      "Special qualities": "Blindsense (Ex). While underwater, the shark can pinpoint underwater creatures within 30 ft. if it has line of effect. An unseen target still has total concealment. Keen Scent (Ex). It detects creatures within 180 ft. by scent and blood in the water up to 1 mile away. Low-light vision doubles normal human sight distance in dim light and retains color and detail. The Animal type supplies that vision. The Aquatic subtype lets it breathe underwater and swim normally without a check. It cannot breathe air.",
++      "Skills and feats": "Listen +10, Spot +10, Swim +13. Alertness, Great Fortitude, Improved Initiative, Iron Will. The +8 racial Swim bonus applies to special maneuvers and hazards. The animal can take 10 even under threat and can run while swimming in a straight line.",
++      "Encounter ecology": "Circles potential prey before darting in to bite. Encounter one, a school of 2–5 or a pack of 6–11 in cold water. Advancement 11–17 HD (Huge). No treasure or listed level adjustment.",
++      "Source notes": "The original Huge column prints Will +4 and lists Iron Will. Applying the feat to that save would give +6, which appears on d20srd.org. This record retains the original +4."
++    }
++  },
++  {
++    "name": "Owl",
++    "publication": "Revised v3.5 SRD (Monsters)",
++    "edition": "3.5 edition",
++    "classification": "Tiny Animal, always neutral",
++    "ac": 17,
++    "hp": 4,
++    "hitDice": "1d8",
++    "initiative": "+3",
++    "speed": "10 ft. (2 squares), fly 40 ft. (average)",
++    "cr": "1/4",
++    "abilities": {
++      "Str": {
++        "score": 4,
++        "modifier": -3
++      },
++      "Dex": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Con": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Cha": {
++        "score": 4,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Initiative +3. AC 17 (+2 size, +3 Dex, +2 natural), touch 15, flat-footed 14. Base attack +0, grapple −11. Space 2½ ft., reach 0 ft. Fort +2, Ref +5, Will +2.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A pale-faced owl with a heart-shaped facial disc and tawny mottled wing feathers. The SRD describes birds 1 to 2 ft. long with wingspans up to 6 ft.",
++    "habitats": ["Temperate forests"],
++    "sections": {
++      "Printed source": "Revised v3.5 SRD, MonstersAnimals.rtf, OWL, including the combat text following the table. https://olimot.github.io/srd-v3.5/monsters/monsters-animals.html#owl",
++      "Attack": "Talons +5 melee (1d4 − 3). Both talons count as one attack. Minimum damage on a hit is 1 under the general damage rules.",
++      "Full attack": "Talons +5 melee (1d4 − 3). Both talons count as one attack.",
++      "Special attacks": "None.",
++      "Special qualities": "Low-light vision doubles normal human sight distance in dim light and retains color and detail.",
++      "Skills and feats": "Listen +14, Move Silently +17, Spot +6. Weapon Finesse. Racial bonuses of +8 Listen and +14 Move Silently are reflected in the printed modifiers. Add the +8 racial Spot bonus in shadowy illumination.",
++      "Encounter ecology": "A solitary, nocturnal hunter in temperate forests. It swoops quietly onto prey. Advancement 2 HD (Small). No treasure or listed level adjustment."
++    }
++  },
++  {
++    "name": "Baboon",
++    "publication": "Revised v3.5 SRD (Monsters)",
++    "edition": "3.5 edition",
++    "classification": "Medium Animal, always neutral",
++    "ac": 13,
++    "hp": 5,
++    "hitDice": "1d8 + 1",
++    "initiative": 2,
++    "speed": "40 ft., climb 30 ft.",
++    "cr": "1/2",
++    "appearance": "A sturdy, tawny baboon with a long muzzle and an upward-curving tail.",
++    "habitats": ["Warm plains"],
++    "abilities": {
++      "Str": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Dex": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 4,
++        "modifier": -3
++      }
++    },
++    "savingThrows": {
++      "Fort": 3,
++      "Ref": 4,
++      "Will": 1
++    },
++    "otherStatistics": "Initiative +2. AC 13 (+2 Dex, +1 natural), touch 12, flat-footed 11. Base attack +0, grapple +2. Space 5 ft., reach 5 ft. Fort +3, Ref +4, Will +1. Special qualities low-light vision and scent.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersAnimals.rtf, BABOON. Readable view: https://www.d20srd.org/srd/monsters/baboon.htm",
++      "Attack": "Bite +2 melee (1d6 + 3).",
++      "Full attack": "Bite +2 melee (1d6 + 3).",
++      "Special attacks": "No listed special attacks.",
++      "Special qualities": "Low-light vision retains color and detail at twice normal human range in dim light. Scent detects creatures within 30 ft., or 60 ft. upwind and 15 ft. downwind. Double those ranges for strong odors, triple for overpowering ones. Use a move action to learn the direction and approach within 5 ft. to pinpoint.",
++      "Skills and feats": "Climb +10, Listen +5, Spot +5. Alertness. The listed Climb modifier includes a +8 racial bonus. It can take 10 on Climb even when rushed or threatened.",
++      "Encounter ecology": "Warm plains. Solitary or troop of 10–40. Usually attacks in groups. It prefers open ground and climbs trees for safe overnight resting. Adult males reach 2–4 ft. long and weigh up to 90 lb. Always neutral. No treasure.",
++      "Advancement": "2–3 HD (Medium). Level adjustment —."
++    }
++  },
++  {
++    "name": "Dire Ape",
++    "publication": "Revised v3.5 SRD (Monsters)",
++    "edition": "3.5 edition",
++    "classification": "Large Animal, always neutral",
++    "ac": 15,
++    "hp": 35,
++    "hitDice": "5d8 + 13",
++    "initiative": 2,
++    "speed": "30 ft., climb 15 ft.",
++    "cr": "3",
++    "appearance": "A huge, dark-furred ape with a broad chest, heavy brow and long knuckle-walking arms.",
++    "habitats": ["Warm forests"],
++    "abilities": {
++      "Str": {
++        "score": 22,
++        "modifier": 6
++      },
++      "Dex": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 7,
++        "modifier": -2
++      }
++    },
++    "savingThrows": {
++      "Fort": 6,
++      "Ref": 6,
++      "Will": 5
++    },
++    "otherStatistics": "Initiative +2. AC 15 (-1 size, +2 Dex, +4 natural), touch 11, flat-footed 13. Base attack +3, grapple +13. Space 10 ft., reach 10 ft. Fort +6, Ref +6, Will +5. Special qualities low-light vision and scent.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersDi-Do.rtf, DIRE APE. Readable view: https://www.d20srd.org/srd/monsters/direApe.htm",
++      "Attack": "Claw +8 melee (1d6 + 6).",
++      "Full attack": "Two claws +8 melee (1d6 + 6 each) and bite +3 melee (1d8 + 3).",
++      "Special attacks": "Rend (Ex). Hitting the same opponent with both claws automatically deals extra damage. The SRD table gives 2d6 + 9. The combat prose gives 2d6 + 12.",
++      "Special qualities": "Low-light vision retains color and detail at twice normal human range in dim light. Scent detects creatures within 30 ft., or 60 ft. upwind and 15 ft. downwind. Double those ranges for strong odors, triple for overpowering ones. Use a move action to learn the direction and approach within 5 ft. to pinpoint.",
++      "Skills and feats": "Climb +14, Listen +5, Move Silently +4, Spot +6. Alertness, Toughness. The listed Climb modifier includes a +8 racial bonus. It can take 10 on Climb even when rushed or threatened.",
++      "Encounter ecology": "Warm forests. Solitary or company of 5–8. About 9 ft. tall and 800–1,200 lb. It attacks intruders and may try to grapple and pin a foe whose armor stops its attacks. Always neutral. No treasure.",
++      "Advancement": "6–15 HD (Large). Level adjustment —.",
++      "Printing note": "Rend damage conflicts within the RTF. Choose which printed value to use before play. Both are preserved in the Special attacks section."
++    }
++  },
++  {
++    "name": "Dire Wolf",
++    "publication": "Revised v3.5 SRD (Monsters)",
++    "edition": "3.5 edition",
++    "classification": "Large Animal, always neutral",
++    "ac": 14,
++    "hp": 45,
++    "hitDice": "6d8 + 18",
++    "initiative": 2,
++    "speed": "50 ft.",
++    "cr": "3",
++    "appearance": "An oversized, long-legged wolf with mottled grey fur, a broad muzzle and heavy shoulders.",
++    "habitats": ["Temperate forests"],
++    "abilities": {
++      "Str": {
++        "score": 25,
++        "modifier": 7
++      },
++      "Dex": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 10,
++        "modifier": 0
++      }
++    },
++    "savingThrows": {
++      "Fort": 8,
++      "Ref": 7,
++      "Will": 6
++    },
++    "otherStatistics": "Initiative +2. AC 14 (-1 size, +2 Dex, +3 natural), touch 11, flat-footed 12. Base attack +4, grapple +15. Space 10 ft., reach 5 ft. Fort +8, Ref +7, Will +6. Special qualities low-light vision and scent.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersDi-Do.rtf, DIRE WOLF. Readable view: https://www.d20srd.org/srd/monsters/direWolf.htm",
++      "Attack": "Bite +11 melee (1d8 + 10).",
++      "Full attack": "Bite +11 melee (1d8 + 10).",
++      "Special attacks": "Trip (Ex). After a bite hits, the wolf can use a free action to make a trip attempt at +11. Skip the melee touch attack, and the attempt provokes no attack of opportunity. Success leaves the opponent prone. Standing takes a move action. Oppose the listed modifier with the defender’s better Strength or Dexterity check, applying the normal size and stability modifiers. Normal Trip allows a target up to one size category larger. A failed attempt here gives the defender no counter-trip.",
++      "Special qualities": "Low-light vision retains color and detail at twice normal human range in dim light. Scent detects creatures within 30 ft., or 60 ft. upwind and 15 ft. downwind. Double those ranges for strong odors, triple for overpowering ones. Use a move action to learn the direction and approach within 5 ft. to pinpoint. With Track, use Wisdom or Survival to follow scent. A fresh trail typically starts at DC 10, increasing by 2 per hour since it was made. Scent tracking ignores surface and visibility modifiers.",
++      "Skills and feats": "Hide +0, Listen +7, Move Silently +4, Spot +7, Survival +2. Alertness, Run, Track (bonus feat), Weapon Focus (bite). The wolf has a +2 racial bonus on Hide, Listen, Move Silently and Spot. Add its listed +4 racial bonus on Survival when tracking by scent.",
++      "Encounter ecology": "Temperate forests. Solitary or pack of 5–8. About 9 ft. long and 800 lb. Pack members surround and flank prey. Always neutral. No treasure.",
++      "Advancement": "7–18 HD (Large). Level adjustment —."
++    }
++  },
++  {
++    "name": "Hyena",
++    "publication": "Revised v3.5 SRD (Monsters)",
++    "edition": "3.5 edition",
++    "classification": "Medium Animal, always neutral",
++    "ac": 14,
++    "hp": 13,
++    "hitDice": "2d8 + 4",
++    "initiative": 2,
++    "speed": "50 ft.",
++    "cr": "1",
++    "appearance": "A narrow-bodied striped hyena with pointed ears, a tall dark mane and charcoal stripes on its grey-tan flanks and legs.",
++    "habitats": ["Warm deserts"],
++    "abilities": {
++      "Str": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Dex": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "savingThrows": {
++      "Fort": 5,
++      "Ref": 5,
++      "Will": 1
++    },
++    "otherStatistics": "Initiative +2. AC 14 (+2 Dex, +2 natural), touch 12, flat-footed 12. Base attack +1, grapple +3. Space 5 ft., reach 5 ft. Fort +5, Ref +5, Will +1. Special qualities low-light vision and scent.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersAnimals.rtf, HYENA. Readable view: https://www.d20srd.org/srd/monsters/hyena.htm",
++      "Attack": "Bite +3 melee (1d6 + 3).",
++      "Full attack": "Bite +3 melee (1d6 + 3).",
++      "Special attacks": "Trip (Ex). After a bite hits, the hyena can use a free action to make a trip attempt at +2. Skip the melee touch attack, and the attempt provokes no attack of opportunity. Success leaves the opponent prone. Standing takes a move action. Oppose the listed modifier with the defender’s better Strength or Dexterity check, applying the normal size and stability modifiers. Normal Trip allows a target up to one size category larger. A failed attempt here gives the defender no counter-trip.",
++      "Special qualities": "Low-light vision retains color and detail at twice normal human range in dim light. Scent detects creatures within 30 ft., or 60 ft. upwind and 15 ft. downwind. Double those ranges for strong odors, triple for overpowering ones. Use a move action to learn the direction and approach within 5 ft. to pinpoint.",
++      "Skills and feats": "Hide +3, Listen +6, Spot +4. Alertness. Add a +4 racial bonus to Hide in tall grass or heavy undergrowth, giving +7 there.",
++      "Encounter ecology": "Warm deserts. Solitary, pair or pack of 7–16. The source describes a striped hyena about 3 ft. long and 120 lb. Hunters often split into a frontal group and a second group that circles to flank or attack from behind. Always neutral. No treasure.",
++      "Advancement": "3 HD (Medium) or 4–5 HD (Large). Level adjustment —."
++    }
++  },
++  {
++    "name": "Polar Bear",
++    "publication": "Revised v3.5 SRD (Monsters)",
++    "edition": "3.5 edition",
++    "classification": "Large Animal, always neutral",
++    "ac": 15,
++    "hp": 68,
++    "hitDice": "8d8 + 32",
++    "initiative": 1,
++    "speed": "40 ft., swim 30 ft.",
++    "cr": "4",
++    "appearance": "A long, pale-furred bear with a narrow head, thick shoulders and wide paws.",
++    "habitats": ["Cold plains"],
++    "abilities": {
++      "Str": {
++        "score": 27,
++        "modifier": 8
++      },
++      "Dex": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Con": {
++        "score": 19,
++        "modifier": 4
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "savingThrows": {
++      "Fort": 10,
++      "Ref": 7,
++      "Will": 3
++    },
++    "otherStatistics": "Initiative +1. AC 15 (-1 size, +1 Dex, +5 natural), touch 10, flat-footed 14. Base attack +6, grapple +18. Space 10 ft., reach 5 ft. Fort +10, Ref +7, Will +3. Special qualities low-light vision and scent.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersAnimals.rtf, BEAR, POLAR. Readable view: https://www.d20srd.org/srd/monsters/bearPolar.htm",
++      "Attack": "Claw +13 melee (1d8 + 8).",
++      "Full attack": "Two claws +13 melee (1d8 + 8 each) and bite +8 melee (2d6 + 4).",
++      "Special attacks": "Improved Grab (Ex). On a claw hit against a Medium or smaller opponent, deal normal damage and attempt a grapple as a free action. No touch attack or attack of opportunity. A successful hold pulls the target into the bear’s space without provoking. Grapple normally at +18, or hold with the claw alone at a -20 penalty to grapple checks. A claw-only hold leaves the bear free to use other attacks, threaten squares and keep its Dexterity bonus to AC. The initial hold adds no damage. In later rounds, each successful grapple check deals the claw damage again. The bear may drag the opponent if its carrying capacity allows. The target can replace an attack with an opposed grapple check to escape, or use a standard action to oppose the bear’s grapple check with Escape Artist.",
++      "Special qualities": "Low-light vision retains color and detail at twice normal human range in dim light. Scent detects creatures within 30 ft., or 60 ft. upwind and 15 ft. downwind. Double those ranges for strong odors, triple for overpowering ones. Use a move action to learn the direction and approach within 5 ft. to pinpoint. With Track, use Wisdom or Survival to follow scent. A fresh trail typically starts at DC 10, increasing by 2 per hour since it was made. Scent tracking ignores surface and visibility modifiers.",
++      "Skills and feats": "Hide -2, Listen +5, Spot +7, Swim +16. Endurance, Run, Track. Add +12 to Hide in snow, for +10 total there. Swim includes the +8 racial bonus for special actions or avoiding hazards. It can take 10 on Swim while distracted or endangered and can run while swimming straight.",
++      "Encounter ecology": "Cold plains. Solitary or pair. The polar bear is long and lean and slightly taller than a brown bear. It relies mainly on its claws when fighting. Always neutral. No treasure.",
++      "Advancement": "9–12 HD (Large). Level adjustment —."
++    }
++  },
++  {
++    "name": "Badger",
++    "publication": "Revised v3.5 SRD (Monsters)",
++    "edition": "3.5 edition",
++    "classification": "Small Animal, always neutral",
++    "ac": 15,
++    "hp": 6,
++    "hitDice": "1d8 + 2",
++    "initiative": 3,
++    "speed": "30 ft. (6 squares), burrow 10 ft.",
++    "cr": "1/2",
++    "abilities": {
++      "Str": {
++        "score": 8,
++        "modifier": -1
++      },
++      "Dex": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Con": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "AC 15 (+1 size, +3 Dex, +1 natural), touch 14, flat-footed 12. Base attack +0, grapple −5. Space and reach 5 ft. each. Fort +4, Ref +5, Will +1.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A squat gray badger with black eye stripes, a pale face, broad shoulders and long digging claws.",
++    "habitats": ["Temperate forests"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersAnimals.rtf, Monsters (Animals) / Badger. https://www.d20srd.org/srd/monsters/badger.htm",
++      "Attack": "Claw, +4 melee, 1d2−1.",
++      "Full attack": "Two claws, each +4 melee for 1d2−1, and one bite, −1 melee for 1d3−1.",
++      "Special qualities": "Low-light vision. In dim illumination, see twice as far as a human with color and detail intact.\nScent (Ex). Detect creatures by smell within 30 ft., or 60 ft. upwind and 15 ft. downwind. Double that range for strong odors and triple it for overpowering odors. A move action determines direction. Within 5 ft., locate the source exactly. Track and scent allow tracking by smell with a Wisdom or Survival check. A fresh trail typically starts at DC 10. Add 2 per hour the trail is cold and adjust for quarry count and odor. Surface conditions and poor visibility do not alter this scent check.",
++      "Skills and feats": "Escape Artist +7, Listen +3, Spot +3. Escape Artist includes a +4 racial bonus. Feats are Track (bonus) and Weapon Finesse.",
++      "Encounter ecology": "Temperate forests. Solitary, paired or a cete of 3–5. No treasure. Advances to 2 HD (Small). No level adjustment. Adults measure 2–3 ft. and weigh 25–35 lb.",
++      "Special attacks and combat": "Rage (Ex). After taking damage in combat, enter rage on the next turn and keep fighting until it or its opponent dies. Apply +4 Strength, +4 Constitution and −2 AC. It cannot end the rage voluntarily."
++    }
++  },
++  {
++    "name": "Dire Badger",
++    "publication": "Revised v3.5 SRD (Monsters)",
++    "edition": "3.5 edition",
++    "classification": "Medium Animal, always neutral",
++    "ac": 16,
++    "hp": 28,
++    "hitDice": "3d8 + 15",
++    "initiative": 3,
++    "speed": "30 ft. (6 squares), burrow 10 ft.",
++    "cr": "2",
++    "abilities": {
++      "Str": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Dex": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Con": {
++        "score": 19,
++        "modifier": 4
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 10,
++        "modifier": 0
++      }
++    },
++    "otherStatistics": "AC 16 (+3 Dex, +3 natural), touch 13, flat-footed 13. Base attack +2, grapple +4. Space and reach 5 ft. each. Fort +7, Ref +6, Will +4.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "An oversized, shaggy badger with a dark striped face, an arched back and enlarged digging claws.",
++    "habitats": ["Temperate forests"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersDi-Do.rtf, Dire Animal / Dire Badger. https://www.d20srd.org/srd/monsters/direBadger.htm",
++      "Attack": "Claw, +4 melee, 1d4+2.",
++      "Full attack": "Two claws, each +4 melee for 1d4+2, and one bite, −1 melee for 1d6+1.",
++      "Special qualities": "Low-light vision. In dim illumination, see twice as far as a human with color and detail intact.\nScent (Ex). Detect creatures by smell within 30 ft., or 60 ft. upwind and 15 ft. downwind. Double that range for strong odors and triple it for overpowering odors. A move action determines direction. Within 5 ft., locate the source exactly. Track and scent allow tracking by smell with a Wisdom or Survival check. A fresh trail typically starts at DC 10. Add 2 per hour the trail is cold and adjust for quarry count and odor. Surface conditions and poor visibility do not alter this scent check.",
++      "Skills and feats": "Listen +6, Spot +6. Feats are Alertness, Toughness and Track (bonus).",
++      "Encounter ecology": "Temperate forests. Solitary or cete of 2–5. No treasure. Advances to 4–9 HD (Large). No level adjustment. Can reach 5–7 ft. in length and weigh up to 500 lb.",
++      "Special attacks and combat": "Rage (Ex). After taking damage in combat, enter rage on the next turn and keep fighting until it or its opponent dies. Apply +4 Strength, +4 Constitution and −2 AC. It cannot end the rage voluntarily. It can burrow through material softer than solid rock. Except in very loose material, it generally leaves a usable tunnel 5 ft. in diameter."
++    }
++  },
++  {
++    "name": "Dire Wolverine",
++    "publication": "Revised v3.5 SRD (Monsters)",
++    "edition": "3.5 edition",
++    "classification": "Large Animal, always neutral",
++    "ac": 16,
++    "hp": 45,
++    "hitDice": "5d8 + 23",
++    "initiative": 3,
++    "speed": "30 ft. (6 squares), climb 10 ft.",
++    "cr": "4",
++    "abilities": {
++      "Str": {
++        "score": 22,
++        "modifier": 6
++      },
++      "Dex": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Con": {
++        "score": 19,
++        "modifier": 4
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 10,
++        "modifier": 0
++      }
++    },
++    "otherStatistics": "AC 16 (−1 size, +3 Dex, +4 natural), touch 12, flat-footed 13. Base attack +3, grapple +13. Space 10 ft., reach 5 ft. Fort +8, Ref +7, Will +5.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A hulking brown wolverine with rusty flank stripes, a low broad head and heavy claws.",
++    "habitats": ["Cold forests"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersDi-Do.rtf, Dire Animal / Dire Wolverine. https://www.d20srd.org/srd/monsters/direWolverine.htm",
++      "Attack": "Claw, +8 melee, 1d6+6.",
++      "Full attack": "Two claws, each +8 melee for 1d6+6, and one bite, +3 melee for 1d8+3.",
++      "Special qualities": "Low-light vision. In dim illumination, see twice as far as a human with color and detail intact.\nScent (Ex). Detect creatures by smell within 30 ft., or 60 ft. upwind and 15 ft. downwind. Double that range for strong odors and triple it for overpowering odors. A move action determines direction. Within 5 ft., locate the source exactly. Track and scent allow tracking by smell with a Wisdom or Survival check. A fresh trail typically starts at DC 10. Add 2 per hour the trail is cold and adjust for quarry count and odor. Surface conditions and poor visibility do not alter this scent check.",
++      "Skills and feats": "Climb +14, Listen +7, Spot +7. Climb includes a +8 racial bonus, and it may take 10 even under pressure. Feats are Alertness, Toughness and Track (bonus).",
++      "Encounter ecology": "Cold forests. Solitary or paired. No treasure. Advances to 6–15 HD (Large). No level adjustment. Can reach about 12 ft. in length and weigh up to 2,000 lb.",
++      "Special attacks and combat": "Rage (Ex). After taking damage in combat, enter rage on the next turn and keep fighting until it or its opponent dies. Apply +4 Strength, +4 Constitution and −2 AC. It cannot end the rage voluntarily."
++    }
++  },
++  {
++    "name": "Leopard",
++    "publication": "Revised v3.5 SRD (Monsters)",
++    "edition": "3.5 edition",
++    "classification": "Medium Animal, always neutral",
++    "ac": 15,
++    "hp": 19,
++    "hitDice": "3d8 + 6",
++    "initiative": 4,
++    "speed": "40 ft. (8 squares), climb 20 ft.",
++    "cr": "2",
++    "abilities": {
++      "Str": {
++        "score": 16,
++        "modifier": 3
++      },
++      "Dex": {
++        "score": 19,
++        "modifier": 4
++      },
++      "Con": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "AC 15 (+4 Dex, +1 natural), touch 14, flat-footed 11. Base attack +2, grapple +5. Space and reach 5 ft. each. Fort +5, Ref +7, Will +2.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A long-tailed golden cat with dark rosettes, strong shoulders and a low stalking posture.",
++    "habitats": ["Warm forests"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersAnimals.rtf, Monsters (Animals) / Leopard. https://www.d20srd.org/srd/monsters/leopard.htm",
++      "Attack": "Bite, +6 melee, 1d6+3.",
++      "Full attack": "One bite, +6 melee for 1d6+3, and two claws, each +1 melee for 1d3+1.",
++      "Special qualities": "Low-light vision. In dim illumination, see twice as far as a human with color and detail intact.\nScent (Ex). Detect creatures by smell within 30 ft., or 60 ft. upwind and 15 ft. downwind. Double that range for strong odors and triple it for overpowering odors. A move action determines direction. Within 5 ft., locate the source exactly.",
++      "Skills and feats": "Balance +12, Climb +11, Hide +8, Jump +11, Listen +6, Move Silently +8, Spot +6. Racial bonuses are +8 Balance, Climb and Jump and +4 Hide and Move Silently. Tall grass or heavy undergrowth increases the racial Hide bonus to +8, for Hide +12. It can take 10 on Climb even when hurried or threatened. Feats are Alertness and Weapon Finesse.",
++      "Encounter ecology": "Warm forests. Solitary or paired. No treasure. Advances to 4–5 HD (Medium). No level adjustment. Usually hunts at night. The source also uses this block for comparably sized cats such as jaguars, panthers and mountain lions.",
++      "Special attacks and combat": "Improved Grab (Ex). On a bite hit, attempt a grapple as a free action without provoking an attack of opportunity or making a fresh touch attack. The generic rule limits this to a target at least one size smaller. A win pulls it into the leopard’s space and establishes a hold that allows rake attacks. A hold alone adds no damage. Each successful grapple check in subsequent rounds deals the bite damage. The leopard can hold using only its bite at −20 to its grapple checks, leaving itself free of the grapple while it holds the foe.\nPounce (Ex). Charge and make a full attack that includes two rake attacks.\nRake (Ex). +6 melee, 1d3+1. The general rake rule normally requires beginning the turn already grappling and removes the usual −4 penalty to natural attacks in a grapple. Pounce explicitly includes two rakes on its charge."
++    }
++  },
++  {
++    "name": "Pony",
++    "publication": "Revised v3.5 SRD (Monsters)",
++    "edition": "3.5 edition",
++    "classification": "Medium Animal, always neutral",
++    "ac": 13,
++    "hp": 11,
++    "hitDice": "2d8 + 2",
++    "initiative": 1,
++    "speed": "40 ft. (8 squares)",
++    "cr": "1/4",
++    "abilities": {
++      "Str": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Dex": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Con": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 4,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "AC 13 (+1 Dex, +2 natural), touch 11, flat-footed 12. Base attack +1, grapple +2. Space and reach 5 ft. each. Fort +4, Ref +4, Will +0.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A compact chestnut horse with sturdy short legs, a pale mane and a white facial blaze.",
++    "habitats": ["Temperate plains"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersAnimals.rtf, Monsters (Animals) / Pony. https://www.d20srd.org/srd/monsters/pony.htm",
++      "Attack": "Hoof, −3 melee, 1d3.",
++      "Full attack": "Two hooves, each −3 melee for 1d3.",
++      "Special qualities": "Low-light vision. In dim illumination, see twice as far as a human with color and detail intact.\nScent (Ex). Detect creatures by smell within 30 ft., or 60 ft. upwind and 15 ft. downwind. Double that range for strong odors and triple it for overpowering odors. A move action determines direction. Within 5 ft., locate the source exactly.",
++      "Skills and feats": "Listen +5, Spot +5. Feat is Endurance.",
++      "Encounter ecology": "Temperate plains. Solitary. No treasure, advancement or level adjustment. Under 5 ft. at the shoulder. Carry 75 lb. as a light load, 76–150 lb. as a medium load, or 151–225 lb. as a heavy load. Drag up to 1,125 lb.",
++      "Special attacks and combat": "An ordinary pony cannot fight while carrying a rider. It generally flees rather than kicking. Its hoof is secondary and uses half its Strength bonus for damage, already factored into the table."
++    }
++  },
++  {
++    "name": "Bat Swarm",
++    "publication": "Revised v3.5 SRD (Monsters)",
++    "edition": "3.5 edition",
++    "classification": "Diminutive Animal (Swarm), always neutral",
++    "ac": 16,
++    "hp": 13,
++    "hitDice": "3d8",
++    "speed": "5 ft. (1 square), fly 40 ft. (good)",
++    "cr": "2",
++    "initiative": 2,
++    "touchArmorClass": 14,
++    "flatFootedArmorClass": 12,
++    "baseAttackBonus": 2,
++    "abilities": {
++      "Str": {
++        "score": 3,
++        "modifier": -4
++      },
++      "Dex": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Cha": {
++        "score": 4,
++        "modifier": -3
++      }
++    },
++    "savingThrows": {
++      "Fort": 3,
++      "Ref": 7,
++      "Will": 3
++    },
++    "otherStatistics": "Fortitude +3, Reflex +7, Will +3.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A flight of small brown bats with pointed wings, spread in a loose cluster.",
++    "habitats": ["Temperate deserts"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersS.rtf, BAT SWARM. https://www.d20srd.org/srd/monsters/swarm.htm#batSwarm",
++      "Combat statistics": "Initiative +2. AC 16 (+4 size, +2 Dexterity), touch 14, flat-footed 12. Base attack +2, grapple none. Space 10 ft., reach 0 ft.",
++      "Attack": "Swarm. Automatically deal 1d6 damage to each creature whose space the swarm occupies at the end of its move. There is no attack roll or miss chance from cover or concealment.",
++      "Full attack": "Swarm. Automatically deal 1d6 damage to each creature whose space the swarm occupies at the end of its move. There is no attack roll or miss chance from cover or concealment.",
++      "Special attacks": "Distraction (Ex). A living creature that starts its turn in the swarm’s space must make a DC 11 Fortitude save or be nauseated for 1 round. The general subtype limits this to creatures vulnerable to the swarm’s damage. A nauseated creature can take only one move action per turn. Casting or concentrating on spells in the swarm requires a Concentration check at DC 20 + spell level. Skills demanding concentration require a DC 20 Concentration check.\nWounding (Ex). A living creature damaged by the swarm then loses 1 HP per round from bleeding. Additional wounds do not increase the rate. A DC 10 Heal check, a cure spell, or other healing magic stops it.",
++      "Special qualities": "Blindsense (Ex). Locate creatures within 20 ft. Total concealment still applies unless the swarm can actually see them. Swarm damage ignores concealment.\nLow-light vision. See twice as far as a human in dim light.\nSwarm traits. One pool of HP and one set of saves. Occupy a shared, shapeable 10-ft. space and fit through gaps large enough for one bat. Entering or moving through a hostile space provokes as normal. The swarm never threatens or makes opportunity attacks. It cannot grapple and is unaffected by grappling, trips, bull rushes, critical hits, or flanking. Effects aimed at a fixed number of creatures do not affect it, subject to the hive-mind exception for mind-affecting effects. Area effects deal 50% more damage. At 0 HP it disperses. It does not become staggered or dying. If rendered unconscious by nonlethal damage, it disperses until HP exceed that damage. Resolve strong wind against Diminutive size.\nWeapon damage. Use weapon damage immunity under the shared subtype rule, supported by the 2006 Monster Manual errata. The SRD entry still has the earlier half-damage line.\nShared swarm vulnerabilities. A lit torch used as an improvised weapon deals 1d3 fire damage on a hit. A thrown lit lantern deals 1d4 fire damage to creatures in adjacent squares where it breaks. Energy damage from a weapon can still apply if the weapon’s ordinary damage does not.",
++      "Skills and feats": "Listen +11, Spot +11. Each includes a +4 racial bonus that is lost if blindsense is negated.\nFeats: Alertness, Lightning Reflexes.",
++      "Encounter ecology": "Temperate deserts. Solitary, flight of 2–4 swarms, or colony of 11–20 swarms. No treasure or advancement. Level adjustment —. Nocturnal and never found aboveground in daylight. It tries to surround warm-blooded prey.",
++      "Printing conflicts": "Armor Class. The table prints touch 14 and flat-footed 12. Its listed +4 size and +2 Dexterity would give touch 16 and flat-footed 14 using the standard AC rules.\nWeapon damage. The Bat Swarm table lists half damage from slashing and piercing. The shared Diminutive Swarm subtype grants immunity to all weapon damage, confirmed for the Bat Swarm in the 17 February 2006 Monster Manual v3.5 errata. Use immunity at the table. "
++    }
++  },
++  {
++    "name": "Dire Bat",
++    "publication": "Revised v3.5 SRD (Monsters)",
++    "edition": "3.5 edition",
++    "classification": "Large Animal, always neutral",
++    "ac": 20,
++    "hp": 30,
++    "hitDice": "4d8 + 12",
++    "speed": "20 ft. (4 squares), fly 40 ft. (good)",
++    "cr": "2",
++    "initiative": 6,
++    "touchArmorClass": 15,
++    "flatFootedArmorClass": 14,
++    "baseAttackBonus": 3,
++    "grappleModifier": 10,
++    "abilities": {
++      "Str": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Dex": {
++        "score": 22,
++        "modifier": 6
++      },
++      "Con": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "savingThrows": {
++      "Fort": 7,
++      "Ref": 10,
++      "Will": 6
++    },
++    "otherStatistics": "Fortitude +7, Reflex +10, Will +6.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A massive brown bat with long ears, spread dark membrane wings, and hooked feet.",
++    "habitats": ["Temperate deserts"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersDi-Do.rtf, DIRE BAT. https://www.d20srd.org/srd/monsters/direBat.htm",
++      "Combat statistics": "Initiative +6. AC 20 (−1 size, +6 Dexterity, +5 natural armor), touch 15, flat-footed 14. Base attack +3, grapple +10. Space 10 ft., reach 5 ft.",
++      "Attack": "Bite. Melee +5, 1d8 + 4 damage.",
++      "Full attack": "One bite at melee +5 for 1d8 + 4 damage.",
++      "Special qualities": "Blindsense (Ex). Echolocation pinpoints creatures within 40 ft. with line of effect. A foe the bat cannot see retains total concealment against it. Low-light vision comes from the Animal type.",
++      "Skills and feats": "Hide +4, Listen +12, Move Silently +11, Spot +8. The +4 racial bonuses to Listen and Spot are lost if blindsense is negated.\nFeats: Alertness, Stealthy.",
++      "Encounter ecology": "Temperate deserts. Solitary or colony of 5–8. No treasure. Advancement 5–12 HD (Large). Level adjustment —. It dives on unsuspecting prey. Wingspan 15 ft., weight about 200 lb."
++    }
++  },
++  {
++    "name": "Donkey",
++    "publication": "Revised v3.5 SRD (Monsters)",
++    "edition": "3.5 edition",
++    "classification": "Medium Animal, always neutral",
++    "ac": 13,
++    "hp": 11,
++    "hitDice": "2d8 + 2",
++    "speed": "30 ft. (6 squares)",
++    "cr": "1/6",
++    "initiative": 1,
++    "touchArmorClass": 11,
++    "flatFootedArmorClass": 12,
++    "baseAttackBonus": 1,
++    "grappleModifier": 1,
++    "abilities": {
++      "Str": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Dex": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Con": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 4,
++        "modifier": -3
++      }
++    },
++    "savingThrows": {
++      "Fort": 4,
++      "Ref": 4,
++      "Will": 0
++    },
++    "otherStatistics": "Fortitude +4, Reflex +4, Will +0.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A short-maned brown donkey with long upright ears, a pale muzzle, and a pale belly.",
++    "habitats": ["Temperate deserts"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersAnimals.rtf, DONKEY. https://www.d20srd.org/srd/monsters/donkey.htm",
++      "Combat statistics": "Initiative +1. AC 13 (+1 Dexterity, +2 natural armor), touch 11, flat-footed 12. Base attack +1, grapple +1. Space 5 ft., reach 5 ft.",
++      "Attack": "Bite. Melee +1, 1d2 damage.",
++      "Full attack": "One bite at melee +1 for 1d2 damage.",
++      "Special qualities": "Low-light vision. See twice as far as a human in dim light.\nScent (Ex). Detect normal odors within 30 ft., or 60 ft. upwind and 15 ft. downwind. Strong odors double those ranges and overpowering odors triple them. Finding the direction takes a move action. Within 5 ft., pinpoint the source.",
++      "Skills and feats": "Balance +3, Listen +3, Spot +2. The Balance value includes a +2 racial bonus.\nFeats: Endurance.",
++      "Encounter ecology": "Temperate deserts. Solitary. No advancement or level adjustment listed. Use the same statistics for a burro. Bites only when cornered. Light load up to 50 lb., medium 51–100 lb., heavy 101–150 lb. Drag limit 750 lb."
++    }
++  },
++  {
++    "name": "Lion",
++    "publication": "Revised v3.5 SRD (Monsters)",
++    "edition": "3.5 edition",
++    "classification": "Large Animal, always neutral",
++    "ac": 15,
++    "hp": 32,
++    "hitDice": "5d8 + 10",
++    "speed": "40 ft. (8 squares)",
++    "cr": "3",
++    "initiative": 3,
++    "touchArmorClass": 12,
++    "flatFootedArmorClass": 12,
++    "baseAttackBonus": 3,
++    "grappleModifier": 12,
++    "abilities": {
++      "Str": {
++        "score": 21,
++        "modifier": 5
++      },
++      "Dex": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Con": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "savingThrows": {
++      "Fort": 6,
++      "Ref": 7,
++      "Will": 2
++    },
++    "otherStatistics": "Fortitude +6, Reflex +7, Will +2.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A tawny lion with a heavy dark mane, broad paws, and a long tufted tail.",
++    "habitats": ["Warm plains"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersAnimals.rtf, LION. https://www.d20srd.org/srd/monsters/lion.htm",
++      "Combat statistics": "Initiative +3. AC 15 (−1 size, +3 Dexterity, +3 natural armor), touch 12, flat-footed 12. Base attack +3, grapple +12. Space 10 ft., reach 5 ft.",
++      "Attack": "Claw. Melee +7, 1d4 + 5 damage.",
++      "Full attack": "Two claws at melee +7 each for 1d4 + 5 damage apiece and one bite at melee +2 for 1d8 + 2 damage.",
++      "Special attacks": "Pounce (Ex). A charge can end in a full attack plus two rake attacks.\nImproved Grab (Ex). After a bite hit against a smaller foe, attempt to grapple as a free action without a touch attack or opportunity attack. A success pulls the target into the lion’s space and establishes a hold. The lion may grapple normally or hold with only its bite at −20 on grapple checks while remaining free to threaten and use its other attacks. In later rounds, a successful grapple check deals bite damage. The lion’s entry also permits raking after a hold.\nRake (Ex). Each rake is melee +7 for 1d4 + 2 damage. The general Rake rule grants the two additional attacks against a grappled foe and says the lion must start its turn grappling. Rake bypasses the usual −4 natural-weapon penalty in a grapple. Pounce expressly includes its two rakes.",
++      "Special qualities": "Low-light vision. See twice as far as a human in dim light.\nScent (Ex). Detect normal odors within 30 ft., or 60 ft. upwind and 15 ft. downwind. Strong odors double those ranges and overpowering odors triple them. Finding the direction takes a move action. Within 5 ft., pinpoint the source.",
++      "Skills and feats": "Balance +7, Hide +3, Listen +5, Move Silently +11, Spot +5. Racial bonuses of +4 to Balance, Hide, and Move Silently are included. In tall grass or heavy undergrowth, the Hide racial bonus becomes +12.\nFeats: Alertness, Run.",
++      "Encounter ecology": "Warm plains. Solitary, pair, or pride of 6–10. Advancement 6–8 HD (Large). Level adjustment —. Male African lions are 5–8 ft. long and 330–550 lb. Females are somewhat smaller and use the same statistics.",
++      "Timing note": "The Lion entry permits a rake after winning its Improved Grab check but gives no timing. The general Rake rule requires starting the turn grappling. The charge from Pounce specifically includes the two rake attacks."
++    }
++  },
++  {
++    "name": "Porpoise",
++    "publication": "Revised v3.5 SRD (Monsters)",
++    "edition": "3.5 edition",
++    "classification": "Medium Animal, always neutral",
++    "ac": 15,
++    "hp": 11,
++    "hitDice": "2d8 + 2",
++    "speed": "Swim 80 ft. (16 squares)",
++    "cr": "1/2",
++    "initiative": 3,
++    "touchArmorClass": 13,
++    "flatFootedArmorClass": 12,
++    "baseAttackBonus": 1,
++    "grappleModifier": 1,
++    "abilities": {
++      "Str": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Dex": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Con": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "savingThrows": {
++      "Fort": 4,
++      "Ref": 6,
++      "Will": 1
++    },
++    "otherStatistics": "Fortitude +4, Reflex +6, Will +1.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A gray porpoise with a pale underside, rounded blunt snout, low dorsal fin, and horizontal tail flukes.",
++    "habitats": ["Temperate aquatic"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersAnimals.rtf, PORPOISE. https://www.d20srd.org/srd/monsters/porpoise.htm",
++      "Combat statistics": "Initiative +3. AC 15 (+3 Dexterity, +2 natural armor), touch 13, flat-footed 12. Base attack +1, grapple +1. Space 5 ft., reach 5 ft.",
++      "Attack": "Slam. Melee +4, 2d4 damage.",
++      "Full attack": "One slam at melee +4 for 2d4 damage.",
++      "Special qualities": "Blindsight (Ex). High-frequency sound locates objects and creatures within 120 ft. Silence negates it and leaves the porpoise reliant on vision. Unless blocked by the specific rules, blindsight needs line of effect.\nHold Breath (Ex). Hold its breath for six times its Constitution score in rounds before risking drowning. Constitution 13 gives 78 rounds.\nLow-light vision. See twice as far as a human in dim light.",
++      "Skills and feats": "Listen +8, Spot +7, Swim +8. Listen and Spot each include a +4 racial bonus that disappears if blindsight is negated. The porpoise gains +8 on Swim checks for special actions or avoiding hazards, can take 10 even when distracted or endangered, and can run while swimming straight.\nFeats: Weapon Finesse.",
++      "Encounter ecology": "Temperate aquatic. Solitary, pair, or school of 3–20. Advancement 3–4 HD (Medium), then 5–6 HD (Large). Level adjustment —. Its description applies the same rules to similarly sized small whales. It is a mammal, 4–6 ft. long and about 110–160 lb."
++    }
++  },
++  {
++    "name": "Black Bear",
++    "publication": "Revised v3.5 SRD (Monsters)",
++    "edition": "3.5 edition",
++    "classification": "Medium Animal, always neutral",
++    "ac": 13,
++    "hp": 19,
++    "hitDice": "3d8 + 6",
++    "initiative": 1,
++    "speed": "40 ft. (8 squares)",
++    "cr": "2",
++    "abilities": {
++      "Str": {
++        "score": 19,
++        "modifier": 4
++      },
++      "Dex": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Con": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Touch AC 11, flat-footed AC 12. AC modifiers +1 Dex and +2 natural. Base attack +2, grapple +6. Space 5 ft., reach 5 ft. Fort +5, Ref +4, Will +2.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A stocky dark-furred black bear with rounded ears, a lighter blunt muzzle and powerful forepaws.",
++    "habitats": ["Temperate forests"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersAnimals.rtf, BEAR, BLACK. https://www.d20srd.org/srd/monsters/bearBlack.htm",
++      "Attack": "Claw +6 melee, 1d4 + 4.",
++      "Full attack": "Two claws +6 melee each, 1d4 + 4 each, and bite +1 melee, 1d6 + 2.",
++      "Special qualities": "Low-light vision. See twice as far as a human in dim light, with color and detail.\nScent. Detect by smell out to 30 ft., 60 ft. upwind or 15 ft. downwind. Double those ranges for strong odors and triple them for overpowering odors. A move action gives the direction. Pinpoint the source within 5 ft.",
++      "Skills and feats": "Climb +4, Listen +4, Spot +4, Swim +8. The Swim total includes a +4 racial bonus. Feats are Endurance and Run.",
++      "Encounter ecology": "Temperate forests. Solitary or pair. The bear usually defends cubs and food rather than seeking a fight. The source notes black, blond, and cinnamon coats and a typical maximum length near 5 ft. Advancement 4–5 HD (Medium). No level adjustment or treasure."
++    }
++  },
++  {
++    "name": "Dire Bear",
++    "publication": "Revised v3.5 SRD (Monsters)",
++    "edition": "3.5 edition",
++    "classification": "Large Animal, always neutral",
++    "ac": 17,
++    "hp": 105,
++    "hitDice": "12d8 + 51",
++    "initiative": 1,
++    "speed": "40 ft. (8 squares)",
++    "cr": "7",
++    "abilities": {
++      "Str": {
++        "score": 31,
++        "modifier": 10
++      },
++      "Dex": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Con": {
++        "score": 19,
++        "modifier": 4
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 10,
++        "modifier": 0
++      }
++    },
++    "otherStatistics": "Touch AC 10, flat-footed AC 16. AC modifiers −1 size, +1 Dex, and +7 natural. Base attack +9, grapple +23. Space 10 ft., reach 5 ft. Fort +12, Ref +9, Will +9.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "An enormous thickset brown bear with dark shaggy shoulders, heavy hooked claws and a broad muzzle.",
++    "habitats": ["Cold forests"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersDi-Do.rtf, DIRE BEAR. https://www.d20srd.org/srd/monsters/direBear.htm",
++      "Attack": "Claw +19 melee, 2d4 + 10.",
++      "Full attack": "Two claws +19 melee each, 2d4 + 10 each, and bite +13 melee, 2d8 + 5.",
++      "Special attacks": "Improved Grab (Ex). After hitting with a claw, the bear deals its normal claw damage and can start a grapple as a free action without a touch attack or an attack of opportunity. By the general Improved Grab rule it works on Medium or smaller opponents. A successful hold pulls the opponent into the bear’s space without provoking. After the initial hold, a successful grapple check in a later round deals the establishing claw’s damage.",
++      "Improved Grab at the table": "Grapple normally at +23, or hold using only the claw at −20 to grapple checks. In the latter case the bear can threaten and use its other attacks, retains its Dexterity bonus to AC, and is free of the grapple condition itself. It can move with the held creature if it can drag the weight. The held creature can try to escape by beating the bear’s opposed grapple check, or substitute Escape Artist as a standard action.",
++      "Special qualities": "Low-light vision. See twice as far as a human in dim light, with color and detail.\nScent. Detect by smell out to 30 ft., 60 ft. upwind or 15 ft. downwind. Double those ranges for strong odors and triple them for overpowering odors. A move action gives the direction. Pinpoint the source within 5 ft.",
++      "Skills and feats": "Listen +10, Spot +10, Swim +13. Feats are Alertness, Endurance, Run, Toughness, and Weapon Focus (claw).",
++      "Encounter ecology": "Cold forests. Solitary or pair. A dire bear can reach 12 ft. long and weigh 8,000 lb. It usually ignores creatures that steer clear and defends a kill or other food. Advancement 13–16 HD (Large) or 17–36 HD (Huge). No level adjustment or treasure."
++    }
++  },
++  {
++    "name": "Eagle",
++    "publication": "Revised v3.5 SRD (Monsters)",
++    "edition": "3.5 edition",
++    "classification": "Small Animal, always neutral",
++    "ac": 14,
++    "hp": 5,
++    "hitDice": "1d8 + 1",
++    "initiative": 2,
++    "speed": "10 ft. (2 squares), fly 80 ft. (average)",
++    "cr": "1/2",
++    "abilities": {
++      "Str": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Dex": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Touch AC 13, flat-footed AC 12. AC modifiers +1 size, +2 Dex, and +1 natural. Base attack +0, grapple −4. Space 5 ft., reach 5 ft. Fort +3, Ref +4, Will +2.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A brown eagle with a pale head and tail, a hooked beak, broad folded wings and powerful yellow talons.",
++    "habitats": ["Temperate mountains", "High secluded nesting sites"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersAnimals.rtf, EAGLE. https://www.d20srd.org/srd/monsters/eagle.htm",
++      "Attack": "Talons +3 melee, 1d4.",
++      "Full attack": "Two talons +3 melee each, 1d4 each, and bite −2 melee, 1d4.",
++      "Special qualities": "Low-light vision. See twice as far as a human in dim light, with color and detail.",
++      "Skills and feats": "Listen +2, Spot +14. The Spot total includes the printed +8 racial bonus. Feat is Weapon Finesse.",
++      "Encounter ecology": "Temperate mountains. Solitary or pair. Eagles dive to rake prey and prefer high, secluded nests. A typical eagle is about 3 ft. long, with about a 7-ft. wingspan. Use this block for similar-sized daytime raptors. Advancement 2–3 HD (Medium). No level adjustment or treasure."
++    }
++  },
++  {
++    "name": "Manta Ray",
++    "publication": "Revised v3.5 SRD (Monsters)",
++    "edition": "3.5 edition",
++    "classification": "Large Animal (Aquatic), always neutral",
++    "ac": 12,
++    "hp": 18,
++    "hitDice": "4d8",
++    "initiative": 0,
++    "speed": "Swim 30 ft. (6 squares)",
++    "cr": "1",
++    "abilities": {
++      "Str": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Dex": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 1,
++        "modifier": -5
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 2,
++        "modifier": -4
++      }
++    },
++    "otherStatistics": "Touch AC 9, flat-footed AC 12. AC modifiers −1 size and +3 natural. Base attack +3, grapple +9. Space 10 ft., reach 5 ft. Fort +4, Ref +4, Will +2.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A wide dark slate ray with swept triangular fins, a pale underside, a broad filter-feeding mouth and a long thin tail.",
++    "habitats": ["Warm aquatic waters"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersAnimals.rtf, MANTA RAY. https://www.d20srd.org/srd/monsters/mantaRay.htm",
++      "Attack": "Ram −1 melee, 1d6 + 1. The printed footnote makes Ram a secondary attack, with the penalty already reflected in −1.",
++      "Full attack": "Ram −1 melee, 1d6 + 1.",
++      "Special qualities": "Low-light vision. See twice as far as a human in dim light, with color and detail.\nAquatic. Breathes underwater. The swim speed allows ordinary movement in water without a Swim check. No Amphibious quality or air breathing is listed.",
++      "Skills and feats": "Listen +7, Spot +6, Swim +10. The Swim total includes the printed +8 racial bonus for special actions or avoiding hazards. It can take 10 while distracted or threatened, and can use the run action while swimming straight. Feats are Alertness and Endurance.",
++      "Encounter ecology": "Warm aquatic. Solitary or a school of 2–5. The manta filters small organisms and usually avoids contact. It rams if threatened. The Advancement row gives 5–6 HD (Medium). No level adjustment or treasure."
++    }
++  },
++  {
++    "name": "Rat Swarm",
++    "publication": "Revised v3.5 SRD (Monsters)",
++    "edition": "3.5 edition",
++    "classification": "Tiny Animal (Swarm), always neutral",
++    "ac": 14,
++    "hp": 13,
++    "hitDice": "4d8",
++    "initiative": 2,
++    "speed": "15 ft. (3 squares), climb 15 ft.",
++    "cr": "2",
++    "abilities": {
++      "Str": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Dex": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 2,
++        "modifier": -4
++      }
++    },
++    "otherStatistics": "Touch AC 14, flat-footed AC 12. AC modifiers +2 size and +2 Dex. Base attack +3, no grapple modifier. Space 10 ft., reach 0 ft. Fort +4, Ref +6, Will +2.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A dense mound of many small brown rats, with overlapping backs, rounded ears and intertwined pink tails.",
++    "habitats": ["Any terrain"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersS.rtf, RAT SWARM. https://www.d20srd.org/srd/monsters/swarm.htm#ratSwarm",
++      "Attack": "Swarm, 1d6 plus disease. At the end of its movement, deal damage automatically to each creature whose space it shares. There is no attack roll or miss chance for concealment or cover. The attack is nonmagical.",
++      "Full attack": "Swarm, 1d6 plus disease. The automatic Swarm Attack uses the same rules in both entries.",
++      "Special attacks": "Disease (Ex). Filth fever is delivered by the swarm attack. Make an immediate DC 12 Fortitude save to prevent infection. On a failure, after 1d3 days take 1d3 Dex and 1d3 Con damage. Save at DC 12 daily afterward or repeat the ability damage. Two successes in a row clear the disease.\nDistraction (Ex). A living creature that begins its turn in the swarm’s square makes a DC 12 Fortitude save or is nauseated for 1 round. A nauseated creature can take only one move action per turn and cannot attack, cast spells or concentrate. The shared subtype wording specifies living creatures vulnerable to the swarm’s damage. Both printed triggers are recorded here.",
++      "Special qualities": "Low-light vision. See twice as far as a human in dim light, with color and detail.\nScent. Detect by smell out to 30 ft., 60 ft. upwind or 15 ft. downwind. Double those ranges for strong odors and triple them for overpowering odors. A move action gives the direction. Pinpoint the source within 5 ft.\nTiny swarm. Halve damage from slashing and piercing weapons. It cannot be critically hit or flanked. The swarm cannot grapple or be grappled, tripped, or bull rushed. It breaks up at 0 HP or below and does not become staggered or dying from damage. Losing HP above 0 does not reduce its attack or defenses.",
++      "Swarm movement": "One nonflying Tiny swarm represents about 300 rats and uses one set of stats and saves. It can cover any four contiguous squares and fit through gaps a constituent rat can use. It shares spaces with creatures of any size and can pass through them. Moving into or through an opponent’s space can provoke an attack of opportunity. The swarm does not threaten creatures or make attacks of opportunity.",
++      "Swarm spell and effect rules": "Immune to effects that target a fixed number of creatures. The shared mind-affecting exception requires intelligence and a hive mind, and this block lists no hive mind. Area effects deal 50% extra damage. Casting a spell or maintaining concentration in the swarm’s area requires a Concentration check at DC 20 + spell level. Skills requiring patience or focus require a DC 20 Concentration check. An improvised lit torch deals 1d3 fire on a hit, and a broken thrown lit lantern deals 1d4 fire in adjacent squares. A weapon’s added energy damage applies in full. Sufficient damage reduction and incorporeality can prevent the swarm attack’s ordinary damage.",
++      "Nonlethal dispersal": "If nonlethal damage renders the swarm unconscious it disperses until its HP exceed its nonlethal damage.",
++      "Skills and feats": "Balance +10, Climb +10, Hide +14, Listen +6, Spot +7, Swim +10. Racial bonuses are +4 on Hide and Move Silently, +8 on Balance, Climb and Swim. The swarm uses Dex for Climb and Swim. It can take 10 on Climb and Swim even under pressure and can run while swimming straight. Feats are Alertness and Weapon Finesse.",
++      "Encounter ecology": "Any environment. Solitary, pack of 2–4 swarms, or infestation of 7–12 swarms. It surrounds warm-blooded prey. No advancement, level adjustment, or treasure.",
++      "Printed discrepancies": "The RTF gives 13 HP for 4d8, whose usual mean is 18. Use the listed HP 13. The creature and subtype use different phrasing for the Distraction trigger, as shown above."
++    }
++  },
++  {
++    "name": "Boar",
++    "publication": "Revised v3.5 SRD (Monsters)",
++    "edition": "3.5 edition",
++    "classification": "Medium Animal, always neutral",
++    "ac": 16,
++    "hp": 25,
++    "hitDice": "3d8 + 12",
++    "speed": "40 ft. (8 squares)",
++    "cr": "2",
++    "abilities": {
++      "Str": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Dex": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 4,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Initiative +0. AC 16 (+6 natural), touch 10, flat-footed 16. Base attack +2, grapple +4. Space/reach 5 ft./5 ft. Fort +6, Ref +3, Will +2.",
++    "appearance": "A low, bristly wild pig with a dark mane, long snout and upward-curving tusks.",
++    "habitats": ["Temperate forests"],
++    "sections": {
++      "Printed source": "Wizards of the Coast Revised v3.5 SRD, MonstersAnimals.rtf, Boar. https://palikhov.github.io/srd-v3.5/monsters/monsters-animals.html#boar",
++      "Attack": "Gore +4 melee (1d8 + 3).",
++      "Full attack": "Gore +4 melee (1d8 + 3).",
++      "Special attacks": "Ferocity (Ex). The boar keeps fighting without the normal penalties for being disabled or dying.",
++      "Special qualities": "Low-light vision. In dim light it sees twice as far as a human and still distinguishes color and detail.\nScent. Detect a typical nearby opponent by odor at 30 ft. Use a move action to find its direction and pinpoint it within 5 ft.",
++      "Skills and feats": "Skills Listen +7, Spot +5.\nFeats Alertness, Toughness.",
++      "Encounter ecology": "Solitary or herd of 5–8. Advancement 4–5 HD (Medium). No level adjustment. The Animal type supplies always neutral alignment and no treasure."
++    },
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true
++  },
++  {
++    "name": "Dire Boar",
++    "publication": "Revised v3.5 SRD (Monsters)",
++    "edition": "3.5 edition",
++    "classification": "Large Animal, always neutral",
++    "ac": 15,
++    "hp": 52,
++    "hitDice": "7d8 + 21",
++    "speed": "40 ft. (8 squares)",
++    "cr": "4",
++    "abilities": {
++      "Str": {
++        "score": 27,
++        "modifier": 8
++      },
++      "Dex": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 8,
++        "modifier": -1
++      }
++    },
++    "otherStatistics": "Initiative +0. AC 15 (−1 size, +6 natural), touch 9, flat-footed 15. Base attack +5, grapple +17. Space/reach 10 ft./5 ft. Fort +8, Ref +5, Will +8.",
++    "appearance": "A hulking brown boar with a raised ridge of bristles, heavy shoulders and broad ivory tusks.",
++    "habitats": ["Temperate forests"],
++    "sections": {
++      "Printed source": "Wizards of the Coast Revised v3.5 SRD, MonstersDi-Do.rtf, Dire Boar. https://palikhov.github.io/srd-v3.5/monsters/monsters-di-do.html#dire-boar",
++      "Attack": "Gore +12 melee (1d8 + 12).",
++      "Full attack": "Gore +12 melee (1d8 + 12).",
++      "Special attacks": "Ferocity (Ex). The boar keeps fighting without the normal penalties for being disabled or dying.",
++      "Special qualities": "Low-light vision. In dim light it sees twice as far as a human and still distinguishes color and detail.\nScent. Detect a typical nearby opponent by odor at 30 ft. Use a move action to find its direction and pinpoint it within 5 ft.",
++      "Skills and feats": "Skills Listen +8, Spot +8.\nFeats Alertness, Endurance, Iron Will.",
++      "Encounter ecology": "Solitary or herd of 5–8. No treasure or level adjustment. Advancement 8–16 HD (Large) or 17–21 HD (Huge). These omnivores can reach 12 ft. long and 2,000 lb.",
++      "At the table": "The printed combat prose describes charging with the tusks. Use ordinary charge rules with Gore."
++    },
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true
++  },
++  {
++    "name": "Elasmosaurus",
++    "publication": "Revised v3.5 SRD (Monsters)",
++    "edition": "3.5 edition",
++    "classification": "Huge Animal, always neutral",
++    "ac": 13,
++    "hp": 111,
++    "hitDice": "10d8 + 66",
++    "speed": "20 ft. (4 squares), swim 50 ft.",
++    "cr": "7",
++    "abilities": {
++      "Str": {
++        "score": 26,
++        "modifier": 8
++      },
++      "Dex": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 22,
++        "modifier": 6
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 9,
++        "modifier": -1
++      }
++    },
++    "otherStatistics": "Initiative +2. AC 13 (−2 size, +2 Dex, +3 natural), touch 10, flat-footed 11. Base attack +7, grapple +23. Space/reach 15 ft./10 ft. Fort +15, Ref +9, Will +4.",
++    "appearance": "A long-necked marine reptile with a small narrow head, blue-green back, pale underside and four broad flippers.",
++    "habitats": ["Warm aquatic"],
++    "sections": {
++      "Printed source": "Wizards of the Coast Revised v3.5 SRD, MonstersDi-Do.rtf, Dinosaur, Elasmosaurus. https://palikhov.github.io/srd-v3.5/monsters/monsters-di-do.html#elasmosaurus",
++      "Attack": "Bite +13 melee (2d8 + 12).",
++      "Full attack": "Bite +13 melee (2d8 + 12).",
++      "Special qualities": "Low-light vision. In dim light it sees twice as far as a human and still distinguishes color and detail.\nScent. Detect a typical nearby opponent by odor at 30 ft. Use a move action to find its direction and pinpoint it within 5 ft.\nAir breathing. It lives chiefly in water and breathes air.",
++      "Skills and feats": "Skills Hide −4, Listen +4, Spot +9, Swim +16. Add a +8 racial bonus to Hide checks in water.\nFeats Dodge, Great Fortitude, Toughness twice.",
++      "Encounter ecology": "Solitary, pair or herd of 5–8. No treasure or level adjustment. Advancement 11–20 HD (Huge) or 21–30 HD (Gargantuan). It reaches about 30 ft. and 5,000 lb.",
++      "At the table": "When hunting, it moves with its head above water and snaps down at prey. The attack uses the printed 10-ft. reach."
++    },
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true
++  },
++  {
++    "name": "Megaraptor",
++    "publication": "Revised v3.5 SRD (Monsters)",
++    "edition": "3.5 edition",
++    "classification": "Huge Animal, always neutral",
++    "ac": 16,
++    "hp": 79,
++    "hitDice": "8d8 + 43",
++    "speed": "60 ft. (12 squares)",
++    "cr": "6",
++    "abilities": {
++      "Str": {
++        "score": 21,
++        "modifier": 5
++      },
++      "Dex": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 21,
++        "modifier": 5
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Cha": {
++        "score": 10,
++        "modifier": 0
++      }
++    },
++    "otherStatistics": "Initiative +2. AC 16 (−2 size, +2 Dex, +6 natural), touch 10, flat-footed 14. Base attack +6, grapple +19. Space/reach 15 ft./10 ft. Fort +10, Ref +8, Will +4.",
++    "appearance": "A tall, long-tailed predator with rust-dark plumage, a long toothed snout, grasping forelimbs and enlarged hind talons.",
++    "habitats": ["Warm forests"],
++    "sections": {
++      "Printed source": "Wizards of the Coast Revised v3.5 SRD, MonstersDi-Do.rtf, Dinosaur, Megaraptor. https://palikhov.github.io/srd-v3.5/monsters/monsters-di-do.html#megaraptor",
++      "Attack": "Talons +9 melee (2d8 + 5).",
++      "Full attack": "Talons +9 melee (2d8 + 5), two foreclaws +4 melee each (1d4 + 2 each), and bite +4 melee (2d6 + 2).",
++      "Special attacks": "Pounce (Ex). After charging, the megaraptor can make its full attack. The talons count as one attack.",
++      "Special qualities": "Low-light vision. In dim light it sees twice as far as a human and still distinguishes color and detail.\nScent. Detect a typical nearby opponent by odor at 30 ft. Use a move action to find its direction and pinpoint it within 5 ft.",
++      "Skills and feats": "Skills Hide +5, Jump +27, Listen +12, Spot +12, Survival +12. The prose identifies a +8 racial bonus behind each of those five skill totals.\nFeats Run, Toughness, Track.",
++      "Encounter ecology": "Solitary, pair or pack of 3–6. No treasure or level adjustment. Advancement 9–16 HD (Huge) or 17–24 HD (Gargantuan). The prose gives about 12 ft. tall and 24 ft. long.",
++      "At the table": "When following a scent trail with Track, the typical DC for a fresh trail is 10. Odor strength, age and the number of creatures can change it.",
++      "Printing notes": "The RTF prints Fort +10. The usual 8-HD good Fortitude base of +6 with Constitution +5 would give +11. The printed +10 is used here.\nThe separate February 17, 2006 Monster Manual v.3.5 errata for book p. 60 gives a Large version. It has AC 17, touch 11, flat-footed 15, grapple +15 and space/reach 10 ft./5 ft. Its full attack is talons +10 (2d6 + 5), two foreclaws +5 each (1d4 + 2 each) and bite +5 (1d8 + 2). Hide becomes +9 and advancement is 9–16 HD (Large) or 17–24 HD (Huge). The errata also prints Fort +10. "
++    },
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true
++  },
++  {
++    "name": "Rhinoceros",
++    "publication": "Revised v3.5 SRD (Monsters)",
++    "edition": "3.5 edition",
++    "classification": "Large Animal, always neutral",
++    "ac": 16,
++    "hp": 76,
++    "hitDice": "8d8 + 40",
++    "speed": "30 ft. (6 squares)",
++    "cr": "4",
++    "abilities": {
++      "Str": {
++        "score": 26,
++        "modifier": 8
++      },
++      "Dex": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 21,
++        "modifier": 5
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 2,
++        "modifier": -4
++      }
++    },
++    "otherStatistics": "Initiative +0. AC 16 (−1 size, +7 natural), touch 9, flat-footed 16. Base attack +6, grapple +18. Space/reach 10 ft./5 ft. Fort +11, Ref +6, Will +3.",
++    "appearance": "A heavy gray-brown rhinoceros with folded hide, wide feet and two nasal horns.",
++    "habitats": ["Warm plains"],
++    "sections": {
++      "Printed source": "Wizards of the Coast Revised v3.5 SRD, MonstersAnimals.rtf, Rhinoceros. https://palikhov.github.io/srd-v3.5/monsters/monsters-animals.html#rhinoceros",
++      "Attack": "Gore +13 melee (2d6 + 12).",
++      "Full attack": "Gore +13 melee (2d6 + 12).",
++      "Special attacks": "Powerful Charge (Ex). The successful charge deals 4d6 + 24 damage total.",
++      "Special qualities": "Low-light vision. In dim light it sees twice as far as a human and still distinguishes color and detail.",
++      "Skills and feats": "Skills Listen +14, Spot +3.\nFeats Alertness, Endurance, Improved Natural Attack (gore).",
++      "Encounter ecology": "Solitary or herd of 2–12. Advancement 9–12 HD (Large) or 13–24 HD (Huge). No level adjustment. The Animal type supplies always neutral alignment and no treasure. The entry models the African black rhinoceros."
++    },
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true
++  },
++  {
++    "name": "Brown Bear",
++    "publication": "Revised v3.5 SRD (Monsters)",
++    "edition": "3.5 edition",
++    "classification": "Large Animal, always neutral",
++    "ac": 15,
++    "hp": 51,
++    "hitDice": "6d8 + 24",
++    "speed": "40 ft. (8 squares)",
++    "cr": "4",
++    "abilities": {
++      "Str": {
++        "score": 27,
++        "modifier": 8
++      },
++      "Dex": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Con": {
++        "score": 19,
++        "modifier": 4
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "savingThrows": {
++      "Fortitude": 9,
++      "Reflex": 6,
++      "Will": 3
++    },
++    "otherStatistics": "Initiative +1. AC 15 (−1 size, +1 Dexterity, +5 natural), touch 10, flat-footed 14. Base attack +4, grapple +16. Space 10 ft., reach 5 ft. Fort +9, Ref +6, Will +3.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A heavy brown bear with a rounded head, shaggy shoulders, powerful forelegs, and broad clawed paws.",
++    "habitats": ["Cold forests"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersAnimals.rtf, BEAR, BROWN. https://www.d20srd.org/srd/monsters/bearBrown.htm",
++      "Attack": "Claw +11 melee, 1d8 + 8 piercing and slashing.",
++      "Full attack": "Two claws +11 melee each, 1d8 + 8 each. Bite +6 melee, 2d6 + 4.",
++      "Special attacks": "Improved Grab (Ex). After a claw hit on a Medium or smaller foe, attempt a grapple at +16 as a free action without a touch attack or attack of opportunity. A hold pulls the foe into the attacker’s space without provoking. Use the ordinary grapple or hold only with the striking limb or mouth at −20 on grapple checks. In the latter case the animal keeps its Dexterity bonus to AC, still threatens, and may use its remaining attacks against other foes. The first hold adds no damage by itself. A successful grapple check in later rounds automatically deals the damage of the attack used to grab. The animal can move with the foe if it can drag its weight. The foe escapes by winning an opposed grapple check in place of an attack, or by using Escape Artist as a standard action against the grapple check.",
++      "Special qualities": "Low-light vision. In dim illumination, sees twice as far as a human and keeps color and detail.\nScent. Detect ordinary creatures within 30 ft., 60 ft. upwind, or 15 ft. downwind. Double those distances for strong odors and triple them for overpowering odors. A move action identifies the direction, and within 5 ft. the animal pinpoints the source.\nTrack by scent. Take the Track feat’s usual checks, with DC 10 for a typical fresh trail and +2 DC per hour since it was left. Surface conditions and poor visibility do not affect scent tracking. Odor strength and number of creatures can shift the DC.",
++      "Skills and feats": "Listen +4, Spot +7, Swim +12. Feats. Endurance, Run, Track.\nSwim checks have a +4 racial bonus, included in Swim +12.",
++      "Encounter ecology": "Cold forests. Solitary or pair. Always neutral, no treasure. Advancement 7–10 HD (Large). No level adjustment.\nA territorial bear can fight with its claws before securing a hold. The SRD suggests this block for other large bears, including grizzlies."
++    }
++  },
++  {
++    "name": "Dire Lion",
++    "publication": "Revised v3.5 SRD (Monsters)",
++    "edition": "3.5 edition",
++    "classification": "Large Animal, always neutral",
++    "ac": 15,
++    "hp": 60,
++    "hitDice": "8d8 + 24",
++    "speed": "40 ft. (8 squares)",
++    "cr": "5",
++    "abilities": {
++      "Str": {
++        "score": 25,
++        "modifier": 7
++      },
++      "Dex": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 10,
++        "modifier": 0
++      }
++    },
++    "savingThrows": {
++      "Fortitude": 9,
++      "Reflex": 8,
++      "Will": 7
++    },
++    "otherStatistics": "Initiative +2. AC 15 (−1 size, +2 Dexterity, +4 natural), touch 11, flat-footed 13. Base attack +6, grapple +17. Space 10 ft., reach 5 ft. Fort +9, Ref +8, Will +7.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A large tawny lion with a thick dark mane, broad forequarters, large paws, and a tufted tail.",
++    "habitats": ["Warm plains"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersDi-Do.rtf, DIRE LION. https://www.d20srd.org/srd/monsters/direLion.htm",
++      "Attack": "Claw +13 melee, 1d6 + 7 piercing and slashing.",
++      "Full attack": "Two claws +13 melee each, 1d6 + 7 each. Bite +7 melee, 1d8 + 3.",
++      "Special attacks": "Improved Grab (Ex). After a bite hit on a Medium or smaller foe, attempt a grapple at +17 as a free action without a touch attack or attack of opportunity. A hold pulls the foe into the attacker’s space without provoking. Use the ordinary grapple or hold only with the striking limb or mouth at −20 on grapple checks. In the latter case the animal keeps its Dexterity bonus to AC, still threatens, and may use its remaining attacks against other foes. The first hold adds no damage by itself. A successful grapple check in later rounds automatically deals the damage of the attack used to grab. The animal can move with the foe if it can drag its weight. The foe escapes by winning an opposed grapple check in place of an attack, or by using Escape Artist as a standard action against the grapple check.\nPounce (Ex). A charge ends in the full attack plus two rakes. Follow the normal movement restrictions and AC penalty for charging.\nRake (Ex). Two additional rear-claw attacks against a grappled target, each +12 melee for 1d6 + 3, without the ordinary −4 natural-attack penalty in a grapple. The shared rake rule calls for starting the turn already grappling. Pounce explicitly adds two rakes to the charge.",
++      "Special qualities": "Low-light vision. In dim illumination, sees twice as far as a human and keeps color and detail.\nScent. Detect ordinary creatures within 30 ft., 60 ft. upwind, or 15 ft. downwind. Double those distances for strong odors and triple them for overpowering odors. A move action identifies the direction, and within 5 ft. the animal pinpoints the source.",
++      "Skills and feats": "Hide +2, Listen +7, Move Silently +5, Spot +7. Feats. Alertness, Run, Weapon Focus (claw).\nHide and Move Silently include +4 racial bonuses. Tall grass or heavy undergrowth raises the racial Hide bonus to +8, for Hide +6 total.",
++      "Encounter ecology": "Warm plains. Solitary, pair, or pride of 6–10. Always neutral, no treasure. Advancement 9–16 HD (Large) or 17–24 HD (Huge). No level adjustment.\nDire lions wait for prey and can take larger animals. The SRD gives lengths up to 15 ft. and weights up to 3,500 lb.",
++      "Source notes": "The entry says a successful bite grab establishes a hold and allows Rake. The shared Rake text requires an existing grapple at the start of the turn. Pounce expressly allows two immediate rakes. For a bite grab outside a pounce, the summary uses the shared start-of-turn rule.\nThe description mentions leaping at larger prey. The Improved Grab rule still uses the normal size limit because the entry gives no explicit size exception."
++    }
++  },
++  {
++    "name": "Elephant",
++    "publication": "Revised v3.5 SRD (Monsters)",
++    "edition": "3.5 edition",
++    "classification": "Huge Animal, always neutral",
++    "ac": 15,
++    "hp": 104,
++    "hitDice": "11d8 + 55",
++    "speed": "40 ft. (8 squares)",
++    "cr": "7",
++    "abilities": {
++      "Str": {
++        "score": 30,
++        "modifier": 10
++      },
++      "Dex": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 21,
++        "modifier": 5
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 7,
++        "modifier": -2
++      }
++    },
++    "savingThrows": {
++      "Fortitude": 12,
++      "Reflex": 7,
++      "Will": 6
++    },
++    "otherStatistics": "Initiative +0. AC 15 (−2 size, +7 natural), touch 8, flat-footed 15. Base attack +8, grapple +26. Space 15 ft., reach 10 ft. Fort +12, Ref +7, Will +6.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A gray elephant with large fan-shaped ears, a curling trunk, two long tusks, and columnar legs.",
++    "habitats": ["Warm plains"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersAnimals.rtf, ELEPHANT. https://www.d20srd.org/srd/monsters/elephant.htm",
++      "Attack": "Gore +16 melee, 2d8 + 15 piercing.",
++      "Full attack": "Choose slam +16 melee (2d6 + 10) and two stamps +11 melee each (2d6 + 5 each), or one gore +16 melee (2d8 + 15).",
++      "Special attacks": "Trample (Ex). Spend a full-round action to move up to 80 ft. and pass completely over the spaces of Large or smaller opponents. Each affected opponent takes 2d8 + 15 bludgeoning damage at most once that round. It can make an attack of opportunity at −4, or forgo that attack and make a DC 25 Reflex save for half damage. Passing over only part of a creature’s space allows the attack of opportunity at −4 and does not trample it. If the elephant ends in an illegal space, move it back to its last legal space or to a closer legal space if available. The DC is Strength-based.",
++      "Special qualities": "Low-light vision. In dim illumination, sees twice as far as a human and keeps color and detail.\nScent. Detect ordinary creatures within 30 ft., 60 ft. upwind, or 15 ft. downwind. Double those distances for strong odors and triple them for overpowering odors. A move action identifies the direction, and within 5 ft. the animal pinpoints the source.",
++      "Skills and feats": "Listen +12, Spot +10. Feats. Alertness, Endurance, Iron Will, Skill Focus (Listen).",
++      "Encounter ecology": "Warm plains. Solitary or herd of 6–30. Always neutral, no treasure. Advancement 12–22 HD (Huge). No level adjustment.\nThe default block describes an African elephant. The source gives an Indian elephant Strength 28 and Wisdom 15 and suggests the block for mammoths or mastodons. It does not supply a separate full variant block. Elephants may serve as mounts or load bearers and often charge threats.",
++      "Source notes": "Use the elephant’s explicit Trample dice, 2d8 + 15. The shared Trample formula refers to slam damage, whose printed base dice here differ."
++    }
++  },
++  {
++    "name": "Monitor Lizard",
++    "publication": "Revised v3.5 SRD (Monsters)",
++    "edition": "3.5 edition",
++    "classification": "Medium Animal, always neutral",
++    "ac": 15,
++    "hp": 22,
++    "hitDice": "3d8 + 9",
++    "speed": "30 ft. (6 squares), swim 30 ft.",
++    "cr": "2",
++    "abilities": {
++      "Str": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Dex": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Int": {
++        "score": 1,
++        "modifier": -5
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 2,
++        "modifier": -4
++      }
++    },
++    "savingThrows": {
++      "Fortitude": 8,
++      "Reflex": 5,
++      "Will": 2
++    },
++    "otherStatistics": "Initiative +2. AC 15 (+2 Dexterity, +3 natural), touch 12, flat-footed 13. Base attack +2, grapple +5. Space 5 ft., reach 5 ft. Fort +8, Ref +5, Will +2.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A low, elongated lizard with a narrow head, patterned gray-brown scales, clawed feet, and a long tapering tail.",
++    "habitats": ["Warm forests"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersAnimals.rtf, LIZARD, MONITOR. https://www.d20srd.org/srd/monsters/lizardMonitor.htm",
++      "Attack": "Bite +5 melee, 1d8 + 4 piercing, slashing, and bludgeoning.",
++      "Full attack": "One bite +5 melee, 1d8 + 4.",
++      "Special attacks": "None listed.",
++      "Special qualities": "Low-light vision. In dim illumination, sees twice as far as a human and keeps color and detail.",
++      "Skills and feats": "Climb +7, Hide +6, Listen +4, Move Silently +6, Spot +4, Swim +11. Feats. Alertness, Great Fortitude.\nThe lizard has +4 racial bonuses on Hide and Move Silently. Forest or overgrowth improves the racial Hide bonus to +8, for Hide +10 total. The +8 racial Swim bonus applies to special maneuvers and hazards. It can take 10 even when distracted or in danger, and can run while swimming in a straight line.",
++      "Encounter ecology": "Warm forests. Solitary. Always neutral, no treasure. Advancement 4–5 HD (Medium). No level adjustment.\nA 3- to 5-ft. carnivorous lizard that defends itself or takes prey with its jaws."
++    }
++  },
++  {
++    "name": "Riding Dog",
++    "publication": "Revised v3.5 SRD (Monsters)",
++    "edition": "3.5 edition",
++    "classification": "Medium Animal, always neutral",
++    "ac": 16,
++    "hp": 13,
++    "hitDice": "2d8 + 4",
++    "speed": "40 ft. (8 squares)",
++    "cr": "1",
++    "abilities": {
++      "Str": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Dex": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "savingThrows": {
++      "Fortitude": 5,
++      "Reflex": 5,
++      "Will": 1
++    },
++    "otherStatistics": "Initiative +2. AC 16 (+2 Dexterity, +4 natural), touch 12, flat-footed 14. Base attack +1, grapple +3. Space 5 ft., reach 5 ft. Fort +5, Ref +5, Will +1.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A sturdy white-and-brown working dog with a dark facial mask, drooping ears, thick paws, and a fitted riding saddle.",
++    "habitats": ["Temperate plains"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersAnimals.rtf, DOG, RIDING. https://www.d20srd.org/srd/monsters/dogRiding.htm",
++      "Attack": "Bite +3 melee, 1d6 + 3 piercing, slashing, and bludgeoning.",
++      "Full attack": "One bite +3 melee, 1d6 + 3.",
++      "Special attacks": "War-trained Trip (Ex). A war-trained riding dog can attempt a trip as a free action after a bite hit, without a touch attack or attack of opportunity. Target a Large or smaller foe. Use the dog’s Strength check at +2 against the defender’s better Strength or Dexterity check, with the usual size and stability modifiers. A win makes the target prone. Failure grants the foe no counter-trip. Mounted combat. The dog can attack while carrying a rider. A rider on a war-trained mount can make a DC 10 Ride check as a free action to also attack.",
++      "Special qualities": "Low-light vision. In dim illumination, sees twice as far as a human and keeps color and detail.\nScent. Detect ordinary creatures within 30 ft., 60 ft. upwind, or 15 ft. downwind. Double those distances for strong odors and triple them for overpowering odors. A move action identifies the direction, and within 5 ft. the animal pinpoints the source.\nTrack by scent. Take the Track feat’s usual checks, with DC 10 for a typical fresh trail and +2 DC per hour since it was left. Surface conditions and poor visibility do not affect scent tracking. Odor strength and number of creatures can shift the DC.",
++      "Skills and feats": "Jump +8, Listen +5, Spot +5, Swim +3, Survival +1. Feats. Alertness, Track (bonus feat).\nThe entry prints a +4 racial Jump bonus and Jump +8 in the table. Survival has a +4 racial bonus when tracking by scent, for +5 total.",
++      "Encounter ecology": "Temperate plains. Solitary or pack of 5–12. Always neutral, no treasure. No advancement listed. No level adjustment.\nCovers breeds such as collies, huskies and St. Bernards. Light load up to 100 lb., medium 101–200 lb., heavy 201–300 lb., and maximum drag 1,500 lb.",
++      "Source notes": "The skills table prints Jump +8. At 40 ft. speed, the shared Jump rule would add +4 to the dog’s +2 Strength and +4 racial bonus even before ranks. The summary retains the printed +8.\nThe dog entry references Wolf for the procedure. The +2 trip check uses the dog’s own Strength and Medium size. The wolf’s printed +1 is wolf-specific."
++    }
++  },
+   {
+     "name": "Basilisk",
+     "classification": "Medium monstrosity, unaligned",

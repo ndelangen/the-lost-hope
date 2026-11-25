@@ -1,0 +1,141 @@
+[
+  {
+    "name": "Cave Bear",
+    "kind": "beast",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "September 2014 first printing",
+    "printedPages": [
+      334
+    ],
+    "pdfPage": 335,
+    "section": "Polar Bear and Variant: Cave Bear",
+    "sourceUrl": "https://online.anyflip.com/pqhqn/sezy/files/basic-html/page335.html",
+    "sourceSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+    "sourceWitness": "Local first-print scan, with printed folios confirmed visually. The public page viewer numbers pages one ahead of the book.",
+    "officialErrata": "",
+    "appearanceEvidence": "The printed sidebar describes coarse dark hair. Broad shoulders and the heavy head are visible in the reused Cave Bear portrait from the AD&D Monstrous Manual bundle.",
+    "habitatEvidence": "The sidebar specifies life underground. Caves and Underdark are editorial search tags for that environment.",
+    "printingNotes": [],
+    "variantDerivation": "The Cave Bear sidebar adds darkvision 60 ft. to the Polar Bear on the same folio. Carry over its other statistics, including its 30-ft. swim speed."
+  },
+  {
+    "name": "Diseased Giant Rat",
+    "kind": "beast",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "September 2014 first printing",
+    "printedPages": [
+      327
+    ],
+    "pdfPage": 328,
+    "section": "Giant Rat and Variant: Diseased Giant Rats",
+    "sourceUrl": "https://online.anyflip.com/pqhqn/sezy/files/basic-html/page328.html",
+    "sourceSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+    "sourceWitness": "Local first-print scan, with printed folios confirmed visually. The public page viewer numbers pages one ahead of the book.",
+    "officialErrata": "",
+    "appearanceEvidence": "Matches the shared Giant Rat portrait. The diseased variant describes transmission through bites and gives no visible signs.",
+    "habitatEvidence": "Underdark, forest, swamp, and urban are tags from the legacy Giant Rat listing. Sewers is an editorial search term. The disease sidebar does not change habitat.",
+    "printingNotes": [
+      "The first print uses +3 to hit and 3 (1d4 + 1) piercing. The official 2018 errata changes those to +4 and 4 (1d4 + 2).",
+      "The two roster spellings refer to the same printed variant. Both existing scope keys carry the same rules.",
+      "The source calls for one save on the hit. It gives a maximum-HP decrease every 24 hours until cure and specifies no recurring saving throw."
+    ],
+    "variantDerivation": "Keep the Giant Rat’s statistics and traits. Use the sidebar’s replacement Bite with the errata’s attack and damage numbers."
+  },
+  {
+    "name": "Giant Lizard (Hold Breath and Spider Climb)",
+    "kind": "beast",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "September 2014 first printing",
+    "printedPages": [
+      326
+    ],
+    "pdfPage": 327,
+    "section": "Giant Lizard and Variant: Giant Lizard Traits",
+    "sourceUrl": "https://online.anyflip.com/pqhqn/sezy/files/basic-html/page327.html",
+    "sourceSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+    "sourceWitness": "Local first-print scan, with printed folios confirmed visually. The public page viewer numbers pages one ahead of the book.",
+    "officialErrata": "",
+    "appearanceEvidence": "Editorial description of the existing olive-and-gold Giant Lizard variant portrait.",
+    "habitatEvidence": "The book places subterranean giant lizards among Underdark communities. The legacy Giant Lizard listing supplies forest, swamp, desert, and coastal habitat tags.",
+    "printingNotes": [
+      "Bite, the associated lore, and the variant box are at the top of the right column. The base stat block starts at the bottom of the left column."
+    ],
+    "variantDerivation": "This existing named scope uses both sidebar traits. Hold Breath adds a 30-ft. swim speed. Spider Climb retains the 30-ft. climb speed and removes the ability check on difficult surfaces."
+  },
+  {
+    "name": "Giant Lizard (variant)",
+    "kind": "beast",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "September 2014 first printing",
+    "printedPages": [
+      326
+    ],
+    "pdfPage": 327,
+    "section": "Giant Lizard and Variant: Giant Lizard Traits",
+    "sourceUrl": "https://online.anyflip.com/pqhqn/sezy/files/basic-html/page327.html",
+    "sourceSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+    "sourceWitness": "Local first-print scan, with printed folios confirmed visually. The public page viewer numbers pages one ahead of the book.",
+    "officialErrata": "",
+    "appearanceEvidence": "Editorial description of the existing olive-and-gold Giant Lizard variant portrait.",
+    "habitatEvidence": "The book places subterranean giant lizards among Underdark communities. The legacy Giant Lizard listing supplies forest, swamp, desert, and coastal habitat tags.",
+    "printingNotes": [
+      "Bite, the associated lore, and the variant box are at the top of the right column. The base stat block starts at the bottom of the left column."
+    ],
+    "variantDerivation": "This existing generic scope presents the printed choice. Choose Hold Breath, Spider Climb, or both before use. Add a 30-ft. swim speed only if Hold Breath is selected."
+  },
+  {
+    "name": "Giant Rat (Diseased)",
+    "kind": "beast",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "September 2014 first printing",
+    "printedPages": [
+      327
+    ],
+    "pdfPage": 328,
+    "section": "Giant Rat and Variant: Diseased Giant Rats",
+    "sourceUrl": "https://online.anyflip.com/pqhqn/sezy/files/basic-html/page328.html",
+    "sourceSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+    "sourceWitness": "Local first-print scan, with printed folios confirmed visually. The public page viewer numbers pages one ahead of the book.",
+    "officialErrata": "",
+    "appearanceEvidence": "Matches the shared Giant Rat portrait. The diseased variant describes transmission through bites and gives no visible signs.",
+    "habitatEvidence": "Underdark, forest, swamp, and urban are tags from the legacy Giant Rat listing. Sewers is an editorial search term. The disease sidebar does not change habitat.",
+    "printingNotes": [
+      "The first print uses +3 to hit and 3 (1d4 + 1) piercing. The official 2018 errata changes those to +4 and 4 (1d4 + 2).",
+      "The two roster spellings refer to the same printed variant. Both existing scope keys carry the same rules.",
+      "The source calls for one save on the hit. It gives a maximum-HP decrease every 24 hours until cure and specifies no recurring saving throw."
+    ],
+    "variantDerivation": "Keep the Giant Rat’s statistics and traits. Use the sidebar’s replacement Bite with the errata’s attack and damage numbers."
+  },
+  {
+    "name": "Saber-Toothed Tiger",
+    "kind": "beast",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "September 2014 first printing",
+    "printedPages": [
+      336
+    ],
+    "pdfPage": 337,
+    "section": "Saber-Toothed Tiger",
+    "sourceUrl": "https://online.anyflip.com/pqhqn/sezy/files/basic-html/page337.html",
+    "sourceSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+    "sourceWitness": "Local first-print scan, with printed folios confirmed visually. The public page viewer numbers pages one ahead of the book.",
+    "officialErrata": "",
+    "appearanceEvidence": "The print gives the name and attack types. The physical details describe the selected existing portrait.",
+    "habitatEvidence": "Arctic and mountain habitats come from the legacy D&D Beyond listing. The original stat block does not list habitat.",
+    "printingNotes": [
+      "The printed attacks use +5 to damage even though the Strength modifier is +4. Preserve the printed damage formulas."
+    ]
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Canomorph",
+    "kind": "species",
+    "publication": "Fiend Folio (2003)",
+    "edition": "3.0 edition",
+    "traits": [
+      "A canomorph has a hound lineage, darkvision 60 ft., scent and the outsider restrictions on being raised. At will it can move between its natural form and a Small, Medium or Large humanoid form by spending a move action. Extraordinary attacks carry over unless a specific attack requires the natural form. It can use greater command at will on hounds of its own lineage, which do not attack it voluntarily.",
+      "Haraknin is the hell hound lineage. Four racial d8 Hit Dice and +3 level adjustment make ECL class levels +7. Favored classes are barbarian and ranger, subject to the class alignment rules. Its two Medium forms have +5 natural armor. The natural hound moves 40 ft. before class features and bites for 1d8 before Strength. Both forms can breathe a 30-ft. cone of fire for 1d4+1 damage, Reflex half, once every 2d4 rounds. The 3.0 fire subtype is immune to fire and takes half again as much cold damage. Hide and Move Silently gain +5 racial, and scent tracking gains +8 racial. Common and Infernal.",
+      "Shadurakul is the shadow mastiff lineage. Four racial d8 Hit Dice and +4 level adjustment make ECL class levels +8. Favored class fighter. Its Medium hound form moves 50 ft., has +3 natural armor, and can freely attempt to trip on a successful bite. Its bay can panic non-evil-outsider targets in a 300-ft. spread for 2d4 rounds on a failed Will save. Affected targets are immune to another bay from the same individual for one day. Shadow Blend provides 40% miss chance outside full daylight. A daylight spell defeats it. Scent tracking gains +4 racial. Common, Infernal and Abyssal.",
+      "Vultivor is the vorr lineage. Three racial Hit Dice and +4 level adjustment make ECL class levels +7. The dedicated vorr entry on p. 186 uses d8s, while the Canomorph example prints d10s. Favored class rogue. The vorr moves 40 ft. and has +3 natural armor, a bite, two claws and free trip after a successful bite in hound form. The base vorr can add 2d6 on qualifying melee sneak attacks. Scent tracking gains +8 racial. Common and Abyssal.",
+      "A Vultivor can take living-shadow form once per day for up to 10 minutes, move over walls, ceilings and liquids, and gain +15 circumstance to Hide. While shadowed it has DR 50/+5, takes half damage from fire and acid, and is immune to blindness, deafness, critical hits, disease, drowning, poison, stunning and nonmagical ability damage. A standard action jumps between shadows at least 10 ft. apart. The base vorr has a 60-ft. daily allowance, and the printed 8-HD Vultivor example has a 160-ft. daily allowance."
+    ]
+  },
+  {
+    "name": "Dark Creeper",
+    "kind": "species",
+    "publication": "Fiend Folio (2003)",
+    "edition": "3.0 edition",
+    "traits": [
+      "Small humanoid, speed 30 ft., +1 natural armor and blindsight out to 60 ft. The racial modifiers from the printed scores are Strength +2, Dexterity +6, Constitution +2 and Wisdom +4. Speaks the Dark Ones’ tongue and understands Undercommon. Favored class rogue.",
+      "The printed creature has 1 racial d8 HD, a +4 level adjustment entry, and a dedicated paragraph that sets ECL to class levels +4. A classed example can reconcile those numbers by swapping its one racial Hit Die for its first class die under the 3.0 monster-character rules.",
+      "Three times daily, Shadow Cloak gives 40% miss chance in shadows or darkness and 20% in bright light. It works against ordinary darkvision. A creature that can see through magical darkness ignores it. Shadowy terrain gives +8 racial to Hide and +4 racial to Move Silently.",
+      "Racial sneak attack adds 2d6 on qualifying melee attacks. With Evasion, a successful Reflex save negates damage that it would normally halve. Sunlight and daylight-equivalent illumination impose a –2 morale penalty on attacks, saves, checks and damage."
+    ]
+  },
+  {
+    "name": "Ethergaunt",
+    "kind": "species",
+    "publication": "Fiend Folio (2003)",
+    "edition": "3.0 edition",
+    "traits": [
+      "Khen-zai are Medium extraplanar aberrations. Red, white and black have 5, 11 and 16 racial d8 Hit Dice and +7, +5 and +4 level adjustment, respectively. Their ECLs are class levels +12, +16 and +20. All have speed 30 ft., darkvision 60 ft., total vision 40 ft., and favored class wizard. They communicate by moving head tendrils and can learn other languages as listeners.",
+      "Red has +4 natural armor and innate wizard casting 9. White has +10 natural armor and casting 13. Black has +15 natural armor and casting 17. Wizard class levels add to racial spellcasting. Use the character section’s caster-level example and keep Hit Dice and actual wizard class features separate.",
+      "A red may ignore arcane spells of 2nd level or lower, a white up to 4th, and a black up to 6th, as if the caster had failed to penetrate spell resistance. The ability does not apply to divine spells. Material Jaunt allows a standard-action move to the Material Plane for up to one round per HD, then requires at least an hour back on the Ethereal Plane. Longer stays need other planar travel magic.",
+      "Opening or closing the mask on its own turn is free. With the mask open, a creature that meets the ethergaunt’s gaze within 30 ft. must save or lose 1d4 points each of Int, Wis and Cha. A successful save protects that creature from the same gaze for a day. Ethergaunts are immune to other ethergaunts’ gazes. Printed Will DCs are 13, 16 and 20 for red, white and black.",
+      "Enslave works three times per day on one living creature within 30 ft. per use. It resembles dominate monster at caster level 16 with the same caste DCs as the gaze. A new save is allowed each day. Distance beyond 1 mile, separation by planes, either party’s death, dispel magic or remove curse ends control. Capacity is one thrall per point of Charisma bonus.",
+      "An etherblade functions as a two-handed 1d10 slashing weapon or fires a 1d6 force ray with a ranged touch attack and a 40-ft. range increment. A fresh blade has 50 shots and cannot be recharged. Doubt bombs are separate optional equipment. Source society persecutes classes that channel divine power."
+    ]
+  },
+  {
+    "name": "Fensir",
+    "kind": "species",
+    "publication": "Fiend Folio (2003)",
+    "edition": "3.0 edition",
+    "traits": [
+      "The ordinary Fensir is a Large extraplanar giant with 4 racial d8 Hit Dice, +5 level adjustment, 40-ft. speed, +6 natural armor, darkvision 60 ft. and low-light vision. ECL is class levels +9. Favored class wizard. Innate Wizard 5 casting stacks with Wizard class levels. Common and Giant. An ordinary Fensir can use its Brew Potion racial feat.",
+      "Fensirs sense a twin’s condition and location without a range limit as with status. After a malicious killing, the surviving twin can track those responsible, using the entry’s unlimited-range locate person comparison. Ordinary Fensirs also have a species-specific potion that restores a petrified Fensir.",
+      "Fensir and Rakka can use transmute rock to mud and its reverse at will, CL 9. Save DC is 8 + spell level for an ordinary Fensir and 9 + spell level for Rakka. Both gain +1 racial on thrown-rock attacks. The rocks have a 120-ft. range increment and a five-increment limit. In each round, a ready Fensir can attempt to catch one rock as a free action by making the size-based Reflex save.",
+      "Exposure to direct sunlight petrifies a Fensir without a save. A sunbeam or sunburst requires an additional Fortitude save to avoid petrification. The creature senses sunrise or sunset up to an hour ahead.",
+      "Rakka is the post-birth transformation described for some Fensir mothers of twins. Huge size, 12 racial d8 Hit Dice, +4 level adjustment, +11 natural armor, two slams and ECL equal to class levels +16. Favored class barbarian. Rakka retains the two transmute spell-likes but loses ordinary racial wizard casting. As she dies, her curse works like geas/quest at caster level 11, printed DC 20."
+    ]
+  }
+]

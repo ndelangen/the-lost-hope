@@ -1,0 +1,335 @@
+{
+  "Warforged": {
+    "profiles": [
+      {
+        "name": "Warforged",
+        "imageKey": "species:warforged",
+        "kind": "species",
+        "type": "",
+        "publication": "Eberron: Forge of the Artificer",
+        "edition": "2024 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "source": "https://www.dndbeyond.com/species/2048555-warforged",
+        "challenge": "",
+        "images": [],
+        "publisherArtwork": "https://www.dndbeyond.com/avatars/thumbnails/52994/778/340/340/638996059022064405.png",
+        "illustrationReference": "https://www.dndbeyond.com/species/2048555-warforged",
+        "speciesRulesStatus": "local-summary",
+        "speciesTraits": [
+          "Size Small or Medium.",
+          "Walking speed 30 feet.",
+          "Damage resistance includes poison.",
+          "Source traits include Construct Resilience, Integrated Protection, Sentry's Rest, Specialized Design, Tireless."
+        ],
+        "npcStatus": "missing",
+        "npcBuilds": [],
+        "bookReference": {
+          "pageUrl": "https://5e.tools/races.html#warforged_efa",
+          "artwork": [
+            {
+              "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/races/EFA/Warforged.webp",
+              "artist": "Ignacio Bazan-Lazcano",
+              "kind": "illustration"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Warforged",
+        "imageKey": "species:warforged",
+        "kind": "species",
+        "type": "",
+        "publication": "Eberron: Rising from the Last War",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "source": "https://www.dndbeyond.com/species/260828-warforged",
+        "challenge": "",
+        "images": [],
+        "publisherArtwork": "https://www.dndbeyond.com/avatars/thumbnails/7745/909/340/340/637093534176301920.png",
+        "illustrationReference": "https://www.dndbeyond.com/species/260828-warforged",
+        "speciesRulesStatus": "local-summary",
+        "speciesTraits": [
+          "Size Medium.",
+          "Walking speed 30 feet.",
+          "Damage resistance includes poison.",
+          "Source traits include Age, Alignment, Size, Constructed Resilience, Sentry's Rest, Integrated Protection, Specialized Design, Languages."
+        ],
+        "npcStatus": "missing",
+        "npcBuilds": [],
+        "bookReference": {
+          "pageUrl": "https://5e.tools/races.html#warforged_erlw",
+          "artwork": [
+            {
+              "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/races/ERLW/Warforged.webp",
+              "artist": "Craig J Spearing",
+              "kind": "illustration"
+            },
+            {
+              "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/races/ERLW/Warforged%20001.webp",
+              "kind": "illustration"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Warforged",
+        "imageKey": "species:warforged",
+        "kind": "species",
+        "type": "Construct (Living Construct)",
+        "publication": "Eberron Campaign Setting (2004)",
+        "edition": "3.5 edition",
+        "publisher": "Wizards of the Coast",
+        "source": "https://openlibrary.org/books/OL8144376M",
+        "challenge": "",
+        "images": [],
+        "speciesRulesStatus": "local-summary",
+        "speciesTraits": [
+          "Medium Construct with the Living Construct subtype and a Constitution score. Base land speed 30 ft. +2 Constitution, −2 Wisdom, and −2 Charisma. Class determines Hit Dice, BAB, saves, and skill points. The playable entry lists no level adjustment.",
+          "Use ordinary vision and normal saves against mind-affecting spells and abilities. Living Constructs are subject to critical hits, nonlethal damage, stunning, ability damage and drain, death effects, and necromancy.",
+          "Immune to poison, sleep effects, paralysis, disease, nausea, fatigue, exhaustion, effects causing sickened, and energy drain.",
+          "The official errata allows natural recovery of nonlethal damage and bars natural healing of lethal damage. Healing-subschool spells and supernatural healing of HP or ability damage work at half effect. Repair light damage works at full effect.",
+          "Effects that target living creatures or constructs can affect a Warforged. Raise dead and resurrection can restore one to life.",
+          "The p. 46 Craft repair procedure takes 8 hours and restores 1 HP per point the check exceeds 15. The procedure requires ranks, as clarified in the errata. Use Craft (armorsmithing, blacksmithing, gemcutting, or sculpting), including for self-repair. Taking 10 is allowed. Taking 20 is barred.",
+          "Heat metal, chill metal, and repel metal or stone affect Warforged as if they wore metal armor. Repel wood also applies. Rusting grasp deals 2d6 damage, Reflex half at DC 14 + caster ability modifier. A rust monster’s touch deals 2d6, Reflex DC 17 half.",
+          "At 0 HP, a Warforged is disabled and gets one move or standard action per round without losing HP for strenuous actions. At −1 through −9 HP it is inert, unconscious and helpless, and loses HP only if damaged again.",
+          "Warforged function without food, sleep, or air. A Warforged can benefit from consumables. Spell preparation and infusions retain their class rest requirements.",
+          "Composite Plating gives a +2 armor bonus to AC. It occupies the armor and magic robe slot and can be enchanted as armor. The plating prevents wearing other armor or magic robes and does not stack with other armor bonuses. It imposes 5% arcane spell failure unless a class feature waives failure in light armor.",
+          "Light Fortification gives a 25% chance to negate the extra effects of a critical hit or sneak attack and roll damage normally.",
+          "One natural slam deals 1d4 base damage. Common is automatic, with no racial bonus languages. Favored class Fighter.",
+          "Adamantine Body is an optional 1st-level feat. It sets the plating armor bonus to +8, grants DR 2/adamantine, reduces base speed to 20 ft., and counts as heavy armor. Maximum Dexterity bonus +1, armor check penalty −5, and arcane spell failure 35%."
+        ],
+        "npcStatus": "original-build",
+        "npcBuilds": [
+          {
+            "species": "Warforged",
+            "size": "Medium",
+            "edition": "3.5 edition",
+            "speciesPublication": "Eberron Campaign Setting (2004)",
+            "name": "Swage",
+            "build": {
+              "id": "warforged-latch-maker-35e",
+              "title": "Warforged latch maker, Artificer 1",
+              "origin": "Original DM Library NPC",
+              "editions": [
+                "3.5 edition"
+              ],
+              "difficulty": "Provisional CR 1. ECL 1.",
+              "size": "Medium",
+              "type": "Construct (Living Construct)",
+              "ac": 13,
+              "hp": 8,
+              "hitDice": "1d6+2",
+              "initiative": 1,
+              "speed": "30 ft.",
+              "abilityScores": {
+                "STR": 10,
+                "DEX": 13,
+                "CON": 14,
+                "INT": 15,
+                "WIS": 10,
+                "CHA": 10
+              },
+              "skills": [
+                "Concentration +6",
+                "Craft (armorsmithing) +9",
+                "Disable Device +6",
+                "Search +6",
+                "Spellcraft +6",
+                "Use Magic Device +4, or +6 to activate a scroll"
+              ],
+              "languages": "Common",
+              "traits": [
+                "Composite Plating +2 armor and Dexterity +1. Touch 11, flat-footed 12. BAB +0, grapple +0. Fortitude +2, Reflex +1, Will +2.",
+                "Immune to poison, sleep effects, paralysis, disease, nausea, fatigue, exhaustion, effects causing sickened, and energy drain.",
+                "Light Fortification gives a 25% chance to negate the extra effects of a critical hit or sneak attack and roll damage normally.",
+                "The official errata allows natural recovery of nonlethal damage and bars natural healing of lethal damage. Healing-subschool spells and supernatural healing of HP or ability damage work at half effect. Repair light damage works at full effect.",
+                "Artificer 1 gains Scribe Scroll, Craft Reserve 20 XP, Disable Trap, and Artisan Bonus +2 to Use Magic Device when activating scrolls. Artificer Knowledge +3, DC 15, requires 1 minute of examining an item. Skill Focus (Craft [armorsmithing]) adds +3.",
+                "Three 1st-level infusions per day, two base and one for Intelligence. Class caster level 1. The infusions are neither arcane nor divine. The plating’s 5% arcane failure chance applies to arcane spells and does not apply to these infusions."
+              ],
+              "actions": [
+                "Slam +0 melee, 1d4 bludgeoning, 5-ft. reach.",
+                "Light crossbow +1 ranged, 1d8 piercing, critical 19–20/×2, 80-ft. increment. Reload as a move action.",
+                "Repair light damage. Standard action, touch, instant. Restore 1d8+1 HP to an ordinary construct with at least 1 HP or a living construct with at least −9 HP. No save or spell resistance.",
+                "Skill enhancement. Cast in 1 round on a touched item using fine black thread. It grants the wearer or wielder +2 circumstance on checks with the chosen skill for 10 minutes.",
+                "Trained Craft repair takes 8 hours. Craft (armorsmithing) +9 restores 4 HP by taking 10, including for self-repair."
+              ],
+              "tactics": "Swage needs the worn brass hinge before making a replacement that will fit the old lift cage. The party can retrieve it while Swage repairs the injured construct serving as lift attendant."
+            },
+            "role": "Latch maker and Artificer.",
+            "motive": "Replace a worn lift hinge and repair the attendant before the next shift.",
+            "hook": "Swage can get the lift working if the party retrieves the old hinge from the inspection cage."
+          },
+          {
+            "species": "Warforged",
+            "size": "Medium",
+            "edition": "3.5 edition",
+            "speciesPublication": "Eberron Campaign Setting (2004)",
+            "name": "Keel",
+            "build": {
+              "id": "warforged-drain-gate-watch-35e",
+              "title": "Warforged drain gate watch, Fighter 1",
+              "origin": "Original DM Library NPC",
+              "editions": [
+                "3.5 edition"
+              ],
+              "difficulty": "Provisional CR 1. ECL 1.",
+              "size": "Medium",
+              "type": "Construct (Living Construct)",
+              "ac": 21,
+              "hp": 13,
+              "hitDice": "1d10+3",
+              "initiative": 1,
+              "speed": "20 ft.",
+              "abilityScores": {
+                "STR": 15,
+                "DEX": 12,
+                "CON": 16,
+                "INT": 12,
+                "WIS": 10,
+                "CHA": 8
+              },
+              "skills": [
+                "Climb −1",
+                "Craft (armorsmithing) +5",
+                "Intimidate +3"
+              ],
+              "languages": "Common",
+              "traits": [
+                "Adamantine Body +8 armor, heavy steel shield +2, and Dexterity +1. Touch 11, flat-footed 20. Armor check penalty −7 combined. BAB +1, grapple +3. Fortitude +5, Reflex +1, Will +0.",
+                "Immune to poison, sleep effects, paralysis, disease, nausea, fatigue, exhaustion, effects causing sickened, and energy drain.",
+                "Light Fortification gives a 25% chance to negate the extra effects of a critical hit or sneak attack and roll damage normally.",
+                "The official errata allows natural recovery of nonlethal damage and bars natural healing of lethal damage. Healing-subschool spells and supernatural healing of HP or ability damage work at half effect. Repair light damage works at full effect.",
+                "At 0 HP, a Warforged is disabled and gets one move or standard action per round without losing HP for strenuous actions. At −1 through −9 HP it is inert, unconscious and helpless, and loses HP only if damaged again.",
+                "Adamantine Body gives DR 2/adamantine, heavy armor, maximum Dexterity bonus +1, and 35% arcane spell failure from the plating. Weapon Focus (warhammer) is the Fighter bonus feat."
+              ],
+              "actions": [
+                "Warhammer +4 melee, 1d8+2 bludgeoning, critical ×3, 5-ft. reach.",
+                "Javelin +2 ranged, 1d6+2 piercing, critical ×2, 30-ft. increment.",
+                "Primary slam +3 melee with a free arm, 1d4+3 bludgeoning, 5-ft. reach. The slam is the only natural weapon and uses 1½ times the Strength bonus."
+              ],
+              "tactics": "Keel stands at the drain gate while the crew clears the waterlogged passage. Keel can stay submerged without breathing while holding the gate open. If threatened, Keel uses the shield to hold the landing."
+            },
+            "role": "Drain gate watch and Fighter.",
+            "motive": "Hold the flooded drain gate open long enough to get the maintenance crew out.",
+            "hook": "Keel can hold the gate below the waterline while the party leads the crew to the landing."
+          }
+        ]
+      }
+    ],
+    "npcs": [
+      {
+        "species": "Warforged",
+        "size": "Medium",
+        "edition": "3.5 edition",
+        "speciesPublication": "Eberron Campaign Setting (2004)",
+        "name": "Swage",
+        "build": {
+          "id": "warforged-latch-maker-35e",
+          "title": "Warforged latch maker, Artificer 1",
+          "origin": "Original DM Library NPC",
+          "editions": [
+            "3.5 edition"
+          ],
+          "difficulty": "Provisional CR 1. ECL 1.",
+          "size": "Medium",
+          "type": "Construct (Living Construct)",
+          "ac": 13,
+          "hp": 8,
+          "hitDice": "1d6+2",
+          "initiative": 1,
+          "speed": "30 ft.",
+          "abilityScores": {
+            "STR": 10,
+            "DEX": 13,
+            "CON": 14,
+            "INT": 15,
+            "WIS": 10,
+            "CHA": 10
+          },
+          "skills": [
+            "Concentration +6",
+            "Craft (armorsmithing) +9",
+            "Disable Device +6",
+            "Search +6",
+            "Spellcraft +6",
+            "Use Magic Device +4, or +6 to activate a scroll"
+          ],
+          "languages": "Common",
+          "traits": [
+            "Composite Plating +2 armor and Dexterity +1. Touch 11, flat-footed 12. BAB +0, grapple +0. Fortitude +2, Reflex +1, Will +2.",
+            "Immune to poison, sleep effects, paralysis, disease, nausea, fatigue, exhaustion, effects causing sickened, and energy drain.",
+            "Light Fortification gives a 25% chance to negate the extra effects of a critical hit or sneak attack and roll damage normally.",
+            "The official errata allows natural recovery of nonlethal damage and bars natural healing of lethal damage. Healing-subschool spells and supernatural healing of HP or ability damage work at half effect. Repair light damage works at full effect.",
+            "Artificer 1 gains Scribe Scroll, Craft Reserve 20 XP, Disable Trap, and Artisan Bonus +2 to Use Magic Device when activating scrolls. Artificer Knowledge +3, DC 15, requires 1 minute of examining an item. Skill Focus (Craft [armorsmithing]) adds +3.",
+            "Three 1st-level infusions per day, two base and one for Intelligence. Class caster level 1. The infusions are neither arcane nor divine. The plating’s 5% arcane failure chance applies to arcane spells and does not apply to these infusions."
+          ],
+          "actions": [
+            "Slam +0 melee, 1d4 bludgeoning, 5-ft. reach.",
+            "Light crossbow +1 ranged, 1d8 piercing, critical 19–20/×2, 80-ft. increment. Reload as a move action.",
+            "Repair light damage. Standard action, touch, instant. Restore 1d8+1 HP to an ordinary construct with at least 1 HP or a living construct with at least −9 HP. No save or spell resistance.",
+            "Skill enhancement. Cast in 1 round on a touched item using fine black thread. It grants the wearer or wielder +2 circumstance on checks with the chosen skill for 10 minutes.",
+            "Trained Craft repair takes 8 hours. Craft (armorsmithing) +9 restores 4 HP by taking 10, including for self-repair."
+          ],
+          "tactics": "Swage needs the worn brass hinge before making a replacement that will fit the old lift cage. The party can retrieve it while Swage repairs the injured construct serving as lift attendant."
+        },
+        "role": "Latch maker and Artificer.",
+        "motive": "Replace a worn lift hinge and repair the attendant before the next shift.",
+        "hook": "Swage can get the lift working if the party retrieves the old hinge from the inspection cage."
+      },
+      {
+        "species": "Warforged",
+        "size": "Medium",
+        "edition": "3.5 edition",
+        "speciesPublication": "Eberron Campaign Setting (2004)",
+        "name": "Keel",
+        "build": {
+          "id": "warforged-drain-gate-watch-35e",
+          "title": "Warforged drain gate watch, Fighter 1",
+          "origin": "Original DM Library NPC",
+          "editions": [
+            "3.5 edition"
+          ],
+          "difficulty": "Provisional CR 1. ECL 1.",
+          "size": "Medium",
+          "type": "Construct (Living Construct)",
+          "ac": 21,
+          "hp": 13,
+          "hitDice": "1d10+3",
+          "initiative": 1,
+          "speed": "20 ft.",
+          "abilityScores": {
+            "STR": 15,
+            "DEX": 12,
+            "CON": 16,
+            "INT": 12,
+            "WIS": 10,
+            "CHA": 8
+          },
+          "skills": [
+            "Climb −1",
+            "Craft (armorsmithing) +5",
+            "Intimidate +3"
+          ],
+          "languages": "Common",
+          "traits": [
+            "Adamantine Body +8 armor, heavy steel shield +2, and Dexterity +1. Touch 11, flat-footed 20. Armor check penalty −7 combined. BAB +1, grapple +3. Fortitude +5, Reflex +1, Will +0.",
+            "Immune to poison, sleep effects, paralysis, disease, nausea, fatigue, exhaustion, effects causing sickened, and energy drain.",
+            "Light Fortification gives a 25% chance to negate the extra effects of a critical hit or sneak attack and roll damage normally.",
+            "The official errata allows natural recovery of nonlethal damage and bars natural healing of lethal damage. Healing-subschool spells and supernatural healing of HP or ability damage work at half effect. Repair light damage works at full effect.",
+            "At 0 HP, a Warforged is disabled and gets one move or standard action per round without losing HP for strenuous actions. At −1 through −9 HP it is inert, unconscious and helpless, and loses HP only if damaged again.",
+            "Adamantine Body gives DR 2/adamantine, heavy armor, maximum Dexterity bonus +1, and 35% arcane spell failure from the plating. Weapon Focus (warhammer) is the Fighter bonus feat."
+          ],
+          "actions": [
+            "Warhammer +4 melee, 1d8+2 bludgeoning, critical ×3, 5-ft. reach.",
+            "Javelin +2 ranged, 1d6+2 piercing, critical ×2, 30-ft. increment.",
+            "Primary slam +3 melee with a free arm, 1d4+3 bludgeoning, 5-ft. reach. The slam is the only natural weapon and uses 1½ times the Strength bonus."
+          ],
+          "tactics": "Keel stands at the drain gate while the crew clears the waterlogged passage. Keel can stay submerged without breathing while holding the gate open. If threatened, Keel uses the shield to hold the landing."
+        },
+        "role": "Drain gate watch and Fighter.",
+        "motive": "Hold the flooded drain gate open long enough to get the maintenance crew out.",
+        "hook": "Keel can hold the gate below the waterline while the party leads the crew to the landing."
+      }
+    ]
+  }
+}

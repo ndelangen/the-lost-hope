@@ -38,4 +38,5 @@ export default createEvent({
   day: 24,
   location: refs.locations.bessy_s_nimbus_stall,
   mark: { type: 'icon', name: 'gi/GiGavel' },
+  illustrations: ['/assets/scenes/cassian-funds-devan-s-new-armour-from-bessy.png'],
 })

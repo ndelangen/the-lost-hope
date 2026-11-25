@@ -1,0 +1,37 @@
+[
+  {
+    "entry": "beast-a6a8333a8f15784c93b7c37d",
+    "name": "Camel, Cavalry",
+    "file": "images/players-guide-2-beast-drafts/cavalry-camel.png",
+    "sha256": "08b0422f73b2faece20ced3049920d0fcf69edf2581e4447bace1a35b1ef9840",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-fb478e8c798f2eee5ba2e26f",
+    "name": "Hound, Hunting",
+    "file": "images/players-guide-2-beast-drafts/hunting-hound.png",
+    "sha256": "a9018e3619dde13e86b7837587da1710198c1204daec8f0829044e0b6112bd8e",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-62059d921279d86f24ede4c5",
+    "name": "Oliphant Warbeast",
+    "file": "images/players-guide-2-beast-drafts/oliphant-warbeast.png",
+    "sha256": "4de27ef553a1564051de16dcef4eb598eb60856825f9be25ad572f3416449675",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-3905d2fb20251aaacfbbc145",
+    "name": "Pig, War",
+    "file": "images/players-guide-2-beast-drafts/war-pig.png",
+    "sha256": "b407c6e5db13606af722b20e50fdff4a7a7ef1d0ccb190683c8818b0bae445a9",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-57e8e7ab6a22e3277dc7defe",
+    "name": "Pigeon, Homing",
+    "file": "images/players-guide-2-beast-drafts/homing-pigeon.png",
+    "sha256": "6b2f5ce7ab490794c9a5b413f35e96dc3d62a464c3d49226e879f97e9cf87278",
+    "credit": "OpenAI ImageGen"
+  }
+]

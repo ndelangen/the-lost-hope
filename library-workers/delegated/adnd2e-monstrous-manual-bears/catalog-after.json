@@ -1,0 +1,5089 @@
+[
+  {
+    "name": "Black Bear",
+    "version": {
+      "key": "41464c0400868942669da7dc",
+      "publication": "Monstrous Manual (1994 third printing)",
+      "edition": "AD&D 2nd edition",
+      "status": "Combat summary",
+      "images": [
+        {
+          "url": "",
+          "credit": "The Lost Hope"
+        },
+        {
+          "url": "",
+          "credit": "The Lost Hope"
+        }
+      ],
+      "stats": [
+        [
+          "Armor class",
+          "7"
+        ],
+        [
+          "Hit dice",
+          "3+3"
+        ],
+        [
+          "Size",
+          "M, 6+ ft. tall"
+        ],
+        [
+          "Type",
+          "Animal"
+        ],
+        [
+          "Movement",
+          "12"
+        ],
+        [
+          "THAC0",
+          "17"
+        ],
+        [
+          "Attacks per round",
+          "3"
+        ],
+        [
+          "Damage per attack",
+          "1–3 / 1–3 / 1–6"
+        ],
+        [
+          "XP",
+          "175"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Temperate land"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A comparatively small bear with dense fur ranging from black to light brown."
+          ]
+        },
+        {
+          "title": "Senses",
+          "lines": [
+            "Keen hearing",
+            "Keen smell",
+            "Poor eyesight"
+          ]
+        },
+        {
+          "title": "Special attacks mechanics",
+          "lines": [
+            "Hug · On a successful paw hit with an attack roll of 18 or better, the bear deals an additional 2d4 damage with a hug."
+          ]
+        },
+        {
+          "title": "Habitat and behavior mechanics",
+          "lines": [
+            "Behavior · The most widespread bear in the family entry generally avoids people unless provoked."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "1–3 appearing. Common. Family groups. Active by day. Omnivore.",
+            "Semi-intelligent (2–4). Neutral. Average (8–10) morale. Treasure, special defenses, and magic resistance Nil. No fixed HP.",
+            "Monstrous Manual, TSR 2140, third printing (January 1994), p. 17."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [
+      {
+        "key": "a706b00dbba2eafff8c1382a",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "status": "Combat summary",
+        "images": [
+          {
+            "url": "",
+            "credit": "The Lost Hope"
+          },
+          {
+            "url": "",
+            "credit": "The Lost Hope"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "11"
+          ],
+          [
+            "Hit points",
+            "19"
+          ],
+          [
+            "Hit dice",
+            "3d8 + 6"
+          ],
+          [
+            "Challenge",
+            "1/2"
+          ],
+          [
+            "Size",
+            "Medium"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 40 ft., climb 30 ft."
+          ],
+          [
+            "Str",
+            "15"
+          ],
+          [
+            "Dex",
+            "10"
+          ],
+          [
+            "Con",
+            "14"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "12"
+          ],
+          [
+            "Cha",
+            "7"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +4 to hit · reach 5 ft. · 1d6 + 2 piercing",
+              "Claws · melee · +4 to hit · reach 5 ft. · 2d4 + 2 slashing"
+            ]
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "1a2323d9e18356b550281ab8",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "edition": "Black Flag Roleplaying",
+        "images": [
+          {
+            "url": "",
+            "credit": "The Lost Hope"
+          },
+          {
+            "url": "",
+            "credit": "The Lost Hope"
+          }
+        ],
+        "stats": [
+          [
+            "Challenge",
+            "1/2"
+          ],
+          [
+            "Type",
+            "Beast"
+          ]
+        ],
+        "sections": []
+      },
+      {
+        "key": "207c10c23526bf82de11d29d",
+        "publication": "DDAL04-03 - The Executioner",
+        "edition": "2014 fifth edition",
+        "status": "Combat summary",
+        "images": [
+          {
+            "url": "",
+            "credit": "The Lost Hope"
+          },
+          {
+            "url": "",
+            "credit": "The Lost Hope"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "11"
+          ],
+          [
+            "Hit points",
+            "19"
+          ],
+          [
+            "Hit dice",
+            "3d8 + 6"
+          ],
+          [
+            "Challenge",
+            "1/2"
+          ],
+          [
+            "Size",
+            "Medium"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 40 ft., climb 30 ft."
+          ],
+          [
+            "Str",
+            "15"
+          ],
+          [
+            "Dex",
+            "10"
+          ],
+          [
+            "Con",
+            "14"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "12"
+          ],
+          [
+            "Cha",
+            "7"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +3 to hit · reach 5 ft. · 1d6 + 2 piercing",
+              "Claws · melee · +3 to hit · reach 5 ft. · 2d4 + 2 slashing"
+            ]
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "f59960929246a7b74aa5671d",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "description": "A Medium beast with challenge rating 1/2. Listed habitats: forest. Named abilities include Keen Smell, Bite, Claws.",
+        "source": "https://5e.tools/bestiary.html#black%20bear_mm",
+        "status": "Encounter reference",
+        "images": [
+          {
+            "url": "",
+            "credit": "The Lost Hope"
+          },
+          {
+            "url": "",
+            "credit": "The Lost Hope"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2014)"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "11"
+          ],
+          [
+            "Hit points",
+            "19"
+          ],
+          [
+            "Hit dice",
+            "3d8 + 6"
+          ],
+          [
+            "Challenge",
+            "1/2"
+          ],
+          [
+            "Size",
+            "Medium"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 40 ft., climb 30 ft."
+          ],
+          [
+            "Passive Perception",
+            "13"
+          ],
+          [
+            "Initiative",
+            "0"
+          ],
+          [
+            "Strength",
+            "15"
+          ],
+          [
+            "Dexterity",
+            "10"
+          ],
+          [
+            "Constitution",
+            "14"
+          ],
+          [
+            "Intelligence",
+            "2"
+          ],
+          [
+            "Wisdom",
+            "12"
+          ],
+          [
+            "Charisma",
+            "7"
+          ],
+          [
+            "Alignment",
+            "unaligned"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +3 to hit · reach 5 ft. · 1d6 + 2 piercing",
+              "Claws · melee · +3 to hit · reach 5 ft. · 2d4 + 2 slashing"
+            ]
+          },
+          {
+            "title": "Skills",
+            "lines": [
+              "Perception +3"
+            ]
+          },
+          {
+            "title": "Habitats",
+            "lines": [
+              "forest"
+            ]
+          },
+          {
+            "title": "Traits reference",
+            "lines": [
+              "Keen Smell · Perception"
+            ]
+          },
+          {
+            "title": "Actions reference",
+            "lines": [
+              "Multiattack",
+              "Bite · Melee attack · +4 to hit · 1d6 + 2 piercing damage · reach 5 ft.",
+              "Claws · Melee attack · +4 to hit · 2d4 + 2 slashing damage · reach 5 ft."
+            ]
+          }
+        ],
+        "sourceCode": "MM",
+        "page": 318,
+        "references": [
+          {
+            "label": "Monster Manual (2014), p. 318",
+            "url": "https://5e.tools/bestiary.html#black%20bear_mm"
+          },
+          {
+            "label": "Perception (skill)",
+            "url": "https://5e.tools/skills.html#perception_phb",
+            "local": {
+              "entry": "compendium-f21bfeaccf140efabf3793fe",
+              "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+            },
+            "preview": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Passive Perception": [
+            {
+              "start": 0,
+              "end": 18,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Initiative": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Initiative",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 369,
+                "local": {
+                  "entry": "compendium-f7647d543d6e04bd0782c504",
+                  "version": "XPHB:369:https://5e.tools/variantrules.html#initiative_xphb"
+                }
+              }
+            }
+          ],
+          "Alignment": [
+            {
+              "start": 0,
+              "end": 9,
+              "target": {
+                "name": "Alignment",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                }
+              }
+            }
+          ],
+          "Perception +3": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            }
+          ],
+          "Keen Smell · Perception": [
+            {
+              "start": 13,
+              "end": 23,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "15df73801e2ef5257d5f3ed2",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "description": "A Medium beast with challenge rating 1/2. Listed habitats: forest. Named abilities include Rend.",
+        "source": "https://5e.tools/bestiary.html#black%20bear_xmm",
+        "artwork": "https://www.dndbeyond.com/avatars/thumbnails/43938/930/1000/1000/638607409968563176.png",
+        "status": "Encounter reference",
+        "images": [
+          {
+            "url": "",
+            "credit": "The Lost Hope"
+          },
+          {
+            "url": "",
+            "credit": "The Lost Hope"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "11"
+          ],
+          [
+            "Hit points",
+            "19"
+          ],
+          [
+            "Hit dice",
+            "3d8 + 6"
+          ],
+          [
+            "Challenge",
+            "1/2"
+          ],
+          [
+            "Size",
+            "Medium"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 30 ft., climb 30 ft., swim 30 ft."
+          ],
+          [
+            "Passive Perception",
+            "15"
+          ],
+          [
+            "Strength",
+            "15"
+          ],
+          [
+            "Dexterity",
+            "12"
+          ],
+          [
+            "Constitution",
+            "14"
+          ],
+          [
+            "Intelligence",
+            "2"
+          ],
+          [
+            "Wisdom",
+            "12"
+          ],
+          [
+            "Charisma",
+            "7"
+          ],
+          [
+            "Alignment",
+            "unaligned"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Habitats",
+            "lines": [
+              "forest"
+            ]
+          },
+          {
+            "title": "Attacks",
+            "lines": [
+              "Rend · melee · +4 to hit · reach 5 ft. · 1d6 + 2 slashing"
+            ]
+          },
+          {
+            "title": "Skills",
+            "lines": [
+              "Perception +5"
+            ]
+          },
+          {
+            "title": "Senses",
+            "lines": [
+              "Darkvision 60 ft."
+            ]
+          },
+          {
+            "title": "Actions reference",
+            "lines": [
+              "Multiattack",
+              "Rend · Melee attack · +4 to hit · 1d6 + 2 slashing damage · reach 5 ft."
+            ]
+          },
+          {
+            "title": "Lore topics in the source",
+            "lines": [
+              "Animals"
+            ]
+          }
+        ],
+        "sourceCode": "XMM",
+        "references": [
+          {
+            "label": "Monster Manual (2025), p. 349",
+            "url": "https://5e.tools/bestiary.html#black%20bear_xmm"
+          },
+          {
+            "label": "Panther (creature)",
+            "url": "https://5e.tools/bestiary.html#panther_xmm",
+            "local": {
+              "entry": "beast-346793476af7c0a55cfa62ab",
+              "version": "b2bb83792ec748263d8b7b46"
+            },
+            "preview": {
+              "name": "Panther",
+              "group": "Beast",
+              "publication": "Monster Manual (2024)",
+              "description": "A Medium beast with challenge rating 1/4. Listed habitats: forest, grassland, hill. Named abilities include Rend, Nimble Escape.",
+              "local": {
+                "entry": "beast-346793476af7c0a55cfa62ab",
+                "version": "b2bb83792ec748263d8b7b46"
+              }
+            }
+          },
+          {
+            "label": "Giant Goat (creature)",
+            "url": "https://5e.tools/bestiary.html#giant%20goat_xmm",
+            "local": {
+              "entry": "beast-6f3ba88f8055270588c02a34",
+              "version": "426fa41934a075969d8d0faf"
+            },
+            "preview": {
+              "name": "Giant Goat",
+              "group": "Beast",
+              "publication": "Monster Manual (2024)",
+              "description": "A Large beast with challenge rating 1/2. Listed habitats: grassland, hill, mountain. Named abilities include Ram.",
+              "local": {
+                "entry": "beast-6f3ba88f8055270588c02a34",
+                "version": "426fa41934a075969d8d0faf"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Passive Perception": [
+            {
+              "start": 0,
+              "end": 18,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Alignment": [
+            {
+              "start": 0,
+              "end": 9,
+              "target": {
+                "name": "Alignment",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                }
+              }
+            }
+          ],
+          "Perception +5": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2024)",
+                "page": 14,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "XPHB:14:https://5e.tools/skills.html#perception_xphb"
+                }
+              }
+            }
+          ],
+          "Darkvision 60 ft.": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2024)",
+                "page": 365,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "XPHB:365:https://5e.tools/senses.html#darkvision_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "03b462c656fde69b80002de3",
+        "publication": "Player's Handbook (2014)",
+        "edition": "2014 fifth edition",
+        "status": "Combat summary",
+        "images": [
+          {
+            "url": "",
+            "credit": "The Lost Hope"
+          },
+          {
+            "url": "",
+            "credit": "The Lost Hope"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "11"
+          ],
+          [
+            "Hit points",
+            "34"
+          ],
+          [
+            "Hit dice",
+            "4d10 + 12"
+          ],
+          [
+            "Challenge",
+            "1/2"
+          ],
+          [
+            "Size",
+            "Medium"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 30 ft."
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +5 to hit · reach 5 ft. · 2d6 + 4 slashing"
+            ]
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "a3d93f6307cd04e1a3ca5ccf",
+        "publication": "Revised v3.5 SRD (Monsters)",
+        "edition": "3.5 edition",
+        "status": "Combat summary",
+        "images": [
+          {
+            "url": "",
+            "credit": "The Lost Hope"
+          },
+          {
+            "url": "",
+            "credit": "The Lost Hope"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "13"
+          ],
+          [
+            "Hit points",
+            "19"
+          ],
+          [
+            "Hit dice",
+            "3d8+6"
+          ],
+          [
+            "Challenge",
+            "2"
+          ],
+          [
+            "Size",
+            "Medium"
+          ],
+          [
+            "Type",
+            "Animal"
+          ],
+          [
+            "Speed",
+            "0 4 ft., 1 0 ft., 2   ft., 3 f ft., 4 t ft., 5 . ft."
+          ],
+          [
+            "Initiative",
+            "1"
+          ],
+          [
+            "Touch armor class",
+            "11"
+          ],
+          [
+            "Flat-footed armor class",
+            "12"
+          ],
+          [
+            "Base attack bonus",
+            "2"
+          ],
+          [
+            "Grapple modifier",
+            "6"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Saving throws",
+            "lines": [
+              "Fort +5",
+              "Ref +4",
+              "Will +2"
+            ]
+          },
+          {
+            "title": "Attacks",
+            "lines": [
+              "Claw · melee · +6 to hit"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "887572cbf9e2172ad1cb2e81",
+        "publication": "SRD 5.1",
+        "edition": "2014 fifth edition",
+        "status": "Stat block",
+        "images": [
+          {
+            "url": "",
+            "credit": "The Lost Hope"
+          },
+          {
+            "url": "",
+            "credit": "The Lost Hope"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "11"
+          ],
+          [
+            "Hit points",
+            "19"
+          ],
+          [
+            "Hit dice",
+            "3d8 + 6"
+          ],
+          [
+            "Challenge",
+            "1/2"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "40 ft., climb 30 ft."
+          ],
+          [
+            "XP",
+            "100"
+          ],
+          [
+            "Str",
+            "15"
+          ],
+          [
+            "Dex",
+            "10"
+          ],
+          [
+            "Con",
+            "14"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "12"
+          ],
+          [
+            "Cha",
+            "7"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Classification",
+            "lines": [
+              "Medium beast, unaligned"
+            ]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Skills Perception +3 Senses passive Perception 13 Languages —"
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Keen Smell. The bear has advantage on Wisdom (Perception) checks that rely on smell."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Multiattack. The bear makes two attacks: one with its bite and one with its claws. Bite. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage. Claws. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) slashing damage."
+            ]
+          }
+        ],
+        "inline": {
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Skills Perception +3 Senses passive Perception 13 Languages —": [
+            {
+              "start": 7,
+              "end": 17,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            },
+            {
+              "start": 36,
+              "end": 46,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            }
+          ],
+          "Keen Smell. The bear has advantage on Wisdom (Perception) checks that rely on smell.": [
+            {
+              "start": 25,
+              "end": 34,
+              "target": {
+                "name": "Advantage",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2014)",
+                "page": 173,
+                "description": "Roll two d20s and use the higher roll.",
+                "local": {
+                  "entry": "compendium-694118169b5a4aef2291ff71",
+                  "version": "PHB:173:https://5e.tools/book.html#PHB"
+                }
+              }
+            },
+            {
+              "start": 46,
+              "end": 56,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            }
+          ],
+          "Multiattack. The bear makes two attacks: one with its bite and one with its claws. Bite. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage. Claws. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) slashing damage.": [
+            {
+              "start": 95,
+              "end": 108,
+              "target": {
+                "name": "Weapon Attack",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 377,
+                "local": {
+                  "entry": "compendium-f8978a5da2977fc5a556ab9c",
+                  "version": "XPHB:377:https://5e.tools/variantrules.html#weapon%20attack_xphb"
+                }
+              }
+            },
+            {
+              "start": 193,
+              "end": 206,
+              "target": {
+                "name": "Weapon Attack",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 377,
+                "local": {
+                  "entry": "compendium-f8978a5da2977fc5a556ab9c",
+                  "version": "XPHB:377:https://5e.tools/variantrules.html#weapon%20attack_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "c748f21c84992e59e4988a4b",
+        "publication": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Stat block",
+        "images": [
+          {
+            "url": "",
+            "credit": "The Lost Hope"
+          },
+          {
+            "url": "",
+            "credit": "The Lost Hope"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "11"
+          ],
+          [
+            "Hit points",
+            "19"
+          ],
+          [
+            "Hit dice",
+            "3d8 + 6"
+          ],
+          [
+            "Challenge",
+            "1/2"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "30 ft., Climb 30 ft., Swim 30 ft."
+          ],
+          [
+            "XP",
+            "100"
+          ],
+          [
+            "Str",
+            "15"
+          ],
+          [
+            "Dex",
+            "12"
+          ],
+          [
+            "Con",
+            "14"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "12"
+          ],
+          [
+            "Cha",
+            "7"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Classification",
+            "lines": [
+              "Medium Beast, Unaligned"
+            ]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Skills Perception +5 Senses Darkvision 60 ft.; Passive Perception 15 Languages None"
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Multiattack. The bear makes two Rend attacks. Rend. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Slashing damage."
+            ]
+          }
+        ],
+        "inline": {
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Skills Perception +5 Senses Darkvision 60 ft.; Passive Perception 15 Languages None": [
+            {
+              "start": 7,
+              "end": 17,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2024)",
+                "page": 14,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "XPHB:14:https://5e.tools/skills.html#perception_xphb"
+                }
+              }
+            },
+            {
+              "start": 28,
+              "end": 38,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2024)",
+                "page": 365,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "XPHB:365:https://5e.tools/senses.html#darkvision_xphb"
+                }
+              }
+            },
+            {
+              "start": 47,
+              "end": 65,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Multiattack. The bear makes two Rend attacks. Rend. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Slashing damage.": [
+            {
+              "start": 58,
+              "end": 69,
+              "target": {
+                "name": "Attack Roll",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 361,
+                "local": {
+                  "entry": "compendium-2570a567c24ef3f4b5e35b50",
+                  "version": "XPHB:361:https://5e.tools/variantrules.html#attack%20roll_xphb"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "queries": {
+      "Black Bear": true,
+      "black bear paw hit hug": true,
+      "black bear black to light brown": true,
+      "black bear temperate land": true
+    },
+    "hash": "5df27276a63a192ce923113831d68e68b9e805f3d239043912c42f497358b677",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [
+      {
+        "url": "",
+        "credit": "The Lost Hope"
+      },
+      {
+        "url": "",
+        "credit": "The Lost Hope"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2014)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      }
+    ],
+    "defaultPublication": "Basic Rules (2018)",
+    "defaultVersionKey": "a706b00dbba2eafff8c1382a",
+    "entryImage": {
+      "url": "",
+      "credit": "The Lost Hope"
+    }
+  },
+  {
+    "name": "Brown Bear",
+    "version": {
+      "key": "b0be6e3d09a936cc9ad0c5cb",
+      "publication": "Monstrous Manual (1994 third printing)",
+      "edition": "AD&D 2nd edition",
+      "artwork": "https://www.dndbeyond.com/monsters/4775806-brown-bear",
+      "status": "Combat summary",
+      "images": [
+        {
+          "url": "",
+          "credit": "The Lost Hope"
+        }
+      ],
+      "stats": [
+        [
+          "Armor class",
+          "6"
+        ],
+        [
+          "Hit dice",
+          "5+5"
+        ],
+        [
+          "Size",
+          "L, 9+ ft. tall"
+        ],
+        [
+          "Type",
+          "Animal"
+        ],
+        [
+          "Movement",
+          "12"
+        ],
+        [
+          "THAC0",
+          "15"
+        ],
+        [
+          "Attacks per round",
+          "3"
+        ],
+        [
+          "Damage per attack",
+          "1–6 / 1–6 / 1–8"
+        ],
+        [
+          "XP",
+          "420"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Temperate land"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A large bear with dense fur and a heavy grizzly build."
+          ]
+        },
+        {
+          "title": "Senses",
+          "lines": [
+            "Keen hearing",
+            "Keen smell",
+            "Poor eyesight"
+          ]
+        },
+        {
+          "title": "Special attacks mechanics",
+          "lines": [
+            "Hug · On a successful paw hit with an attack roll of 18 or better, the bear deals an additional 2d6 damage with a hug."
+          ]
+        },
+        {
+          "title": "Habitat and behavior mechanics",
+          "lines": [
+            "Behavior · It is more carnivorous than the Black Bear and the grizzly can hunt large prey such as deer and elk."
+          ]
+        },
+        {
+          "title": "Combat behavior mechanics",
+          "lines": [
+            "Fighting at negative HP · The bear can continue fighting for 1–4 melee rounds at 0 through −8 HP. It dies immediately at −9 HP or fewer."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "1–6 appearing. Uncommon. Family groups. Active by day. Omnivore.",
+            "Semi-intelligent (2–4). Neutral. Average (8–10) morale. Treasure, special defenses, and magic resistance Nil. No fixed HP.",
+            "Monstrous Manual, TSR 2140, third printing (January 1994), p. 17."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [
+      {
+        "key": "74939518df1b244adb4c775b",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "artwork": "https://www.dndbeyond.com/monsters/4775806-brown-bear",
+        "status": "Combat summary",
+        "images": [
+          {
+            "url": "",
+            "credit": "The Lost Hope"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "11"
+          ],
+          [
+            "Hit points",
+            "34"
+          ],
+          [
+            "Hit dice",
+            "4d10 + 12"
+          ],
+          [
+            "Challenge",
+            "1"
+          ],
+          [
+            "Size",
+            "Large"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 40 ft., climb 30 ft."
+          ],
+          [
+            "Str",
+            "19"
+          ],
+          [
+            "Dex",
+            "10"
+          ],
+          [
+            "Con",
+            "16"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "13"
+          ],
+          [
+            "Cha",
+            "7"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +6 to hit · reach 5 ft. · 1d8 + 4 piercing",
+              "Claws · melee · +6 to hit · reach 5 ft. · 2d6 + 4 slashing"
+            ]
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "ec0d53157a410827426c7f90",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "edition": "Black Flag Roleplaying",
+        "artwork": "https://www.dndbeyond.com/monsters/4775806-brown-bear",
+        "images": [
+          {
+            "url": "",
+            "credit": "The Lost Hope"
+          }
+        ],
+        "stats": [
+          [
+            "Challenge",
+            "1"
+          ],
+          [
+            "Type",
+            "Beast"
+          ]
+        ],
+        "sections": []
+      },
+      {
+        "key": "e091bfe2855d634663edc702",
+        "publication": "DDAL04-05 - The Seer",
+        "edition": "2014 fifth edition",
+        "artwork": "https://www.dndbeyond.com/monsters/4775806-brown-bear",
+        "status": "Combat summary",
+        "images": [
+          {
+            "url": "",
+            "credit": "The Lost Hope"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "11"
+          ],
+          [
+            "Hit points",
+            "34"
+          ],
+          [
+            "Hit dice",
+            "4d10 + 12"
+          ],
+          [
+            "Challenge",
+            "1"
+          ],
+          [
+            "Size",
+            "Large"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 40 ft., climb 30 ft."
+          ],
+          [
+            "Str",
+            "19"
+          ],
+          [
+            "Dex",
+            "10"
+          ],
+          [
+            "Con",
+            "16"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "13"
+          ],
+          [
+            "Cha",
+            "7"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +5 to hit · reach 5 ft. · 1d8 + 4 piercing",
+              "Claws · melee · +5 to hit · reach 5 ft. · 2d6 + 4 slashing"
+            ]
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "52b4ba1c577fe7dba8641817",
+        "publication": "DDAL04-14 - The Darklord",
+        "edition": "2014 fifth edition",
+        "artwork": "https://www.dndbeyond.com/monsters/4775806-brown-bear",
+        "status": "Combat summary",
+        "images": [
+          {
+            "url": "",
+            "credit": "The Lost Hope"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "11"
+          ],
+          [
+            "Hit points",
+            "34"
+          ],
+          [
+            "Hit dice",
+            "4d10 + 12"
+          ],
+          [
+            "Challenge",
+            "1"
+          ],
+          [
+            "Size",
+            "Large"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 40 ft., climb 30 ft."
+          ],
+          [
+            "Str",
+            "19"
+          ],
+          [
+            "Dex",
+            "10"
+          ],
+          [
+            "Con",
+            "16"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "13"
+          ],
+          [
+            "Cha",
+            "7"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +5 to hit · reach 5 ft. · 1d8 + 8 piercing",
+              "Claws · melee · +5 to hit · reach 5 ft. · 2d6 + 4 slashing"
+            ]
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "174e64465f60f5fc71fba6ad",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "description": "A Large beast with challenge rating 1. Listed habitats: forest, hill, arctic. Named abilities include Keen Smell, Bite, Claws.",
+        "source": "https://5e.tools/bestiary.html#brown%20bear_mm",
+        "artwork": "https://www.dndbeyond.com/monsters/4775806-brown-bear",
+        "status": "Encounter reference",
+        "images": [
+          {
+            "url": "",
+            "credit": "The Lost Hope"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2014)"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "11"
+          ],
+          [
+            "Hit points",
+            "34"
+          ],
+          [
+            "Hit dice",
+            "4d10 + 12"
+          ],
+          [
+            "Challenge",
+            "1"
+          ],
+          [
+            "Size",
+            "Large"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 40 ft., climb 30 ft."
+          ],
+          [
+            "Passive Perception",
+            "13"
+          ],
+          [
+            "Initiative",
+            "0"
+          ],
+          [
+            "Strength",
+            "19"
+          ],
+          [
+            "Dexterity",
+            "10"
+          ],
+          [
+            "Constitution",
+            "16"
+          ],
+          [
+            "Intelligence",
+            "2"
+          ],
+          [
+            "Wisdom",
+            "13"
+          ],
+          [
+            "Charisma",
+            "7"
+          ],
+          [
+            "Alignment",
+            "unaligned"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +5 to hit · reach 5 ft. · 1d8 + 4 piercing",
+              "Claws · melee · +5 to hit · reach 5 ft. · 2d6 + 4 slashing"
+            ]
+          },
+          {
+            "title": "Skills",
+            "lines": [
+              "Perception +3"
+            ]
+          },
+          {
+            "title": "Habitats",
+            "lines": [
+              "forest, hill, arctic"
+            ]
+          },
+          {
+            "title": "Traits reference",
+            "lines": [
+              "Keen Smell · Perception"
+            ]
+          },
+          {
+            "title": "Actions reference",
+            "lines": [
+              "Multiattack",
+              "Bite · Melee attack · +6 to hit · 1d8 + 4 piercing damage · reach 5 ft.",
+              "Claws · Melee attack · +6 to hit · 2d6 + 4 slashing damage · reach 5 ft."
+            ]
+          }
+        ],
+        "sourceCode": "MM",
+        "page": 319,
+        "references": [
+          {
+            "label": "Monster Manual (2014), p. 319",
+            "url": "https://5e.tools/bestiary.html#brown%20bear_mm"
+          },
+          {
+            "label": "Perception (skill)",
+            "url": "https://5e.tools/skills.html#perception_phb",
+            "local": {
+              "entry": "compendium-f21bfeaccf140efabf3793fe",
+              "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+            },
+            "preview": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Passive Perception": [
+            {
+              "start": 0,
+              "end": 18,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Initiative": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Initiative",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 369,
+                "local": {
+                  "entry": "compendium-f7647d543d6e04bd0782c504",
+                  "version": "XPHB:369:https://5e.tools/variantrules.html#initiative_xphb"
+                }
+              }
+            }
+          ],
+          "Alignment": [
+            {
+              "start": 0,
+              "end": 9,
+              "target": {
+                "name": "Alignment",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                }
+              }
+            }
+          ],
+          "Perception +3": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            }
+          ],
+          "Keen Smell · Perception": [
+            {
+              "start": 13,
+              "end": 23,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "7e4a02f106ac35e1dac4fb80",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "description": "A Large beast with challenge rating 1. Listed habitats: arctic, forest, hill. Named abilities include Bite, Claw.",
+        "source": "https://5e.tools/bestiary.html#brown%20bear_xmm",
+        "artwork": "https://www.dndbeyond.com/avatars/thumbnails/43939/60/1000/1000/638607413478213174.png",
+        "status": "Encounter reference",
+        "images": [
+          {
+            "url": "",
+            "credit": "The Lost Hope"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "11"
+          ],
+          [
+            "Hit points",
+            "22"
+          ],
+          [
+            "Hit dice",
+            "3d10 + 6"
+          ],
+          [
+            "Challenge",
+            "1"
+          ],
+          [
+            "Size",
+            "Large"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 40 ft., climb 30 ft."
+          ],
+          [
+            "Passive Perception",
+            "13"
+          ],
+          [
+            "Strength",
+            "17"
+          ],
+          [
+            "Dexterity",
+            "12"
+          ],
+          [
+            "Constitution",
+            "15"
+          ],
+          [
+            "Intelligence",
+            "2"
+          ],
+          [
+            "Wisdom",
+            "13"
+          ],
+          [
+            "Charisma",
+            "7"
+          ],
+          [
+            "Alignment",
+            "unaligned"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Habitats",
+            "lines": [
+              "arctic",
+              "forest",
+              "hill",
+              "arctic, forest, hill"
+            ]
+          },
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +5 to hit · reach 5 ft. · 1d8 + 3 piercing",
+              "Claw · melee · +5 to hit · reach 5 ft. · 1d4 + 3 slashing"
+            ]
+          },
+          {
+            "title": "Skills",
+            "lines": [
+              "Perception +3"
+            ]
+          },
+          {
+            "title": "Senses",
+            "lines": [
+              "Darkvision 60 ft."
+            ]
+          },
+          {
+            "title": "Actions reference",
+            "lines": [
+              "Multiattack",
+              "Bite · Melee attack · +5 to hit · 1d8 + 3 piercing damage · reach 5 ft.",
+              "Claw · Melee attack · +5 to hit · 1d4 + 3 slashing damage · reach 5 ft. · Prone"
+            ]
+          },
+          {
+            "title": "Lore topics in the source",
+            "lines": [
+              "Animals"
+            ]
+          }
+        ],
+        "sourceCode": "XMM",
+        "references": [
+          {
+            "label": "Monster Manual (2025), p. 350",
+            "url": "https://5e.tools/bestiary.html#brown%20bear_xmm"
+          },
+          {
+            "label": "Prone (condition)",
+            "url": "https://5e.tools/conditionsdiseases.html#prone_xphb",
+            "local": {
+              "entry": "compendium-6bb47020835c218b46b7d85a",
+              "version": "XPHB:372:https://5e.tools/conditionsdiseases.html#prone_xphb"
+            },
+            "preview": {
+              "name": "Prone",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2024)",
+              "page": 372,
+              "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+              "local": {
+                "entry": "compendium-6bb47020835c218b46b7d85a",
+                "version": "XPHB:372:https://5e.tools/conditionsdiseases.html#prone_xphb"
+              }
+            }
+          },
+          {
+            "label": "Panther (creature)",
+            "url": "https://5e.tools/bestiary.html#panther_xmm",
+            "local": {
+              "entry": "beast-346793476af7c0a55cfa62ab",
+              "version": "b2bb83792ec748263d8b7b46"
+            },
+            "preview": {
+              "name": "Panther",
+              "group": "Beast",
+              "publication": "Monster Manual (2024)",
+              "description": "A Medium beast with challenge rating 1/4. Listed habitats: forest, grassland, hill. Named abilities include Rend, Nimble Escape.",
+              "local": {
+                "entry": "beast-346793476af7c0a55cfa62ab",
+                "version": "b2bb83792ec748263d8b7b46"
+              }
+            }
+          },
+          {
+            "label": "Giant Goat (creature)",
+            "url": "https://5e.tools/bestiary.html#giant%20goat_xmm",
+            "local": {
+              "entry": "beast-6f3ba88f8055270588c02a34",
+              "version": "426fa41934a075969d8d0faf"
+            },
+            "preview": {
+              "name": "Giant Goat",
+              "group": "Beast",
+              "publication": "Monster Manual (2024)",
+              "description": "A Large beast with challenge rating 1/2. Listed habitats: grassland, hill, mountain. Named abilities include Ram.",
+              "local": {
+                "entry": "beast-6f3ba88f8055270588c02a34",
+                "version": "426fa41934a075969d8d0faf"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Passive Perception": [
+            {
+              "start": 0,
+              "end": 18,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Alignment": [
+            {
+              "start": 0,
+              "end": 9,
+              "target": {
+                "name": "Alignment",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                }
+              }
+            }
+          ],
+          "Perception +3": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2024)",
+                "page": 14,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "XPHB:14:https://5e.tools/skills.html#perception_xphb"
+                }
+              }
+            }
+          ],
+          "Darkvision 60 ft.": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2024)",
+                "page": 365,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "XPHB:365:https://5e.tools/senses.html#darkvision_xphb"
+                }
+              }
+            }
+          ],
+          "Claw · Melee attack · +5 to hit · 1d4 + 3 slashing damage · reach 5 ft. · Prone": [
+            {
+              "start": 74,
+              "end": 79,
+              "target": {
+                "name": "Prone",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+                "local": {
+                  "entry": "compendium-6bb47020835c218b46b7d85a",
+                  "version": "XPHB:372:https://5e.tools/conditionsdiseases.html#prone_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "7ce40f08139ae251599e4c16",
+        "publication": "Revised v3.5 SRD (Monsters)",
+        "edition": "3.5 edition",
+        "artwork": "https://www.dndbeyond.com/monsters/4775806-brown-bear",
+        "status": "Combat summary",
+        "images": [
+          {
+            "url": "",
+            "credit": "The Lost Hope"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "15"
+          ],
+          [
+            "Hit points",
+            "51"
+          ],
+          [
+            "Hit dice",
+            "6d8+24"
+          ],
+          [
+            "Challenge",
+            "4"
+          ],
+          [
+            "Size",
+            "Large"
+          ],
+          [
+            "Type",
+            "Animal"
+          ],
+          [
+            "Speed",
+            "0 4 ft., 1 0 ft., 2   ft., 3 f ft., 4 t ft., 5 . ft."
+          ],
+          [
+            "Initiative",
+            "1"
+          ],
+          [
+            "Touch armor class",
+            "10"
+          ],
+          [
+            "Flat-footed armor class",
+            "14"
+          ],
+          [
+            "Base attack bonus",
+            "4"
+          ],
+          [
+            "Grapple modifier",
+            "16"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Saving throws",
+            "lines": [
+              "Fort +9",
+              "Ref +6",
+              "Will +3"
+            ]
+          },
+          {
+            "title": "Attacks",
+            "lines": [
+              "Claw · melee · +11 to hit"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "9f9f3502b565fe4e559067a3",
+        "publication": "SRD 5.1",
+        "edition": "2014 fifth edition",
+        "artwork": "https://www.dndbeyond.com/monsters/4775806-brown-bear",
+        "status": "Stat block",
+        "images": [
+          {
+            "url": "",
+            "credit": "The Lost Hope"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "11"
+          ],
+          [
+            "Hit points",
+            "34"
+          ],
+          [
+            "Hit dice",
+            "4d10 + 12"
+          ],
+          [
+            "Challenge",
+            "1"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "40 ft., climb 30 ft."
+          ],
+          [
+            "XP",
+            "200"
+          ],
+          [
+            "Str",
+            "19"
+          ],
+          [
+            "Dex",
+            "10"
+          ],
+          [
+            "Con",
+            "16"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "13"
+          ],
+          [
+            "Cha",
+            "7"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Classification",
+            "lines": [
+              "Large beast, unaligned"
+            ]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Skills Perception +3 Senses passive Perception 13 Languages —"
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Keen Smell. The bear has advantage on Wisdom (Perception) checks that rely on smell."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Multiattack. The bear makes two attacks: one with its bite and one with its claws. Bite. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) piercing damage. Claws. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage."
+            ]
+          }
+        ],
+        "inline": {
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Skills Perception +3 Senses passive Perception 13 Languages —": [
+            {
+              "start": 7,
+              "end": 17,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            },
+            {
+              "start": 36,
+              "end": 46,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            }
+          ],
+          "Keen Smell. The bear has advantage on Wisdom (Perception) checks that rely on smell.": [
+            {
+              "start": 25,
+              "end": 34,
+              "target": {
+                "name": "Advantage",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2014)",
+                "page": 173,
+                "description": "Roll two d20s and use the higher roll.",
+                "local": {
+                  "entry": "compendium-694118169b5a4aef2291ff71",
+                  "version": "PHB:173:https://5e.tools/book.html#PHB"
+                }
+              }
+            },
+            {
+              "start": 46,
+              "end": 56,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            }
+          ],
+          "Multiattack. The bear makes two attacks: one with its bite and one with its claws. Bite. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) piercing damage. Claws. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage.": [
+            {
+              "start": 95,
+              "end": 108,
+              "target": {
+                "name": "Weapon Attack",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 377,
+                "local": {
+                  "entry": "compendium-f8978a5da2977fc5a556ab9c",
+                  "version": "XPHB:377:https://5e.tools/variantrules.html#weapon%20attack_xphb"
+                }
+              }
+            },
+            {
+              "start": 193,
+              "end": 206,
+              "target": {
+                "name": "Weapon Attack",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 377,
+                "local": {
+                  "entry": "compendium-f8978a5da2977fc5a556ab9c",
+                  "version": "XPHB:377:https://5e.tools/variantrules.html#weapon%20attack_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "a4bfe8c47999c099fa4378b3",
+        "publication": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "artwork": "https://www.dndbeyond.com/monsters/4775806-brown-bear",
+        "status": "Stat block",
+        "images": [
+          {
+            "url": "",
+            "credit": "The Lost Hope"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "11"
+          ],
+          [
+            "Hit points",
+            "22"
+          ],
+          [
+            "Hit dice",
+            "3d10 + 6"
+          ],
+          [
+            "Challenge",
+            "1"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "40 ft., Climb 30 ft."
+          ],
+          [
+            "XP",
+            "200"
+          ],
+          [
+            "Str",
+            "17"
+          ],
+          [
+            "Dex",
+            "12"
+          ],
+          [
+            "Con",
+            "15"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "13"
+          ],
+          [
+            "Cha",
+            "7"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Classification",
+            "lines": [
+              "Large Beast, Unaligned"
+            ]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Skills Perception +3 Senses Darkvision 60 ft.; Passive Perception 13 Languages None"
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Multiattack. The bear makes one Bite attack and one Claw attack. Bite. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage. Claw. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Slashing damage. If the target is a Large or smaller creature, it has the Prone condition."
+            ]
+          }
+        ],
+        "inline": {
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Skills Perception +3 Senses Darkvision 60 ft.; Passive Perception 13 Languages None": [
+            {
+              "start": 7,
+              "end": 17,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2024)",
+                "page": 14,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "XPHB:14:https://5e.tools/skills.html#perception_xphb"
+                }
+              }
+            },
+            {
+              "start": 28,
+              "end": 38,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2024)",
+                "page": 365,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "XPHB:365:https://5e.tools/senses.html#darkvision_xphb"
+                }
+              }
+            },
+            {
+              "start": 47,
+              "end": 65,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Multiattack. The bear makes one Bite attack and one Claw attack. Bite. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage. Claw. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Slashing damage. If the target is a Large or smaller creature, it has the Prone condition.": [
+            {
+              "start": 77,
+              "end": 88,
+              "target": {
+                "name": "Attack Roll",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 361,
+                "local": {
+                  "entry": "compendium-2570a567c24ef3f4b5e35b50",
+                  "version": "XPHB:361:https://5e.tools/variantrules.html#attack%20roll_xphb"
+                }
+              }
+            },
+            {
+              "start": 152,
+              "end": 163,
+              "target": {
+                "name": "Attack Roll",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 361,
+                "local": {
+                  "entry": "compendium-2570a567c24ef3f4b5e35b50",
+                  "version": "XPHB:361:https://5e.tools/variantrules.html#attack%20roll_xphb"
+                }
+              }
+            },
+            {
+              "start": 272,
+              "end": 277,
+              "target": {
+                "name": "Prone",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+                "local": {
+                  "entry": "compendium-6bb47020835c218b46b7d85a",
+                  "version": "XPHB:372:https://5e.tools/conditionsdiseases.html#prone_xphb"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "queries": {
+      "Brown Bear": true,
+      "brown bear melee rounds dies immediately": true,
+      "brown bear grizzly build": true,
+      "brown bear temperate land": true
+    },
+    "hash": "9ee1ec192d4104de3d06f317e33452e2d72d7e035cf1aff66bcaa8bab8b3d963",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [
+      {
+        "url": "",
+        "credit": "The Lost Hope"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2014)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      }
+    ],
+    "defaultPublication": "Basic Rules (2018)",
+    "defaultVersionKey": "74939518df1b244adb4c775b",
+    "entryImage": {
+      "url": "",
+      "credit": "The Lost Hope"
+    }
+  },
+  {
+    "name": "Cave Bear",
+    "version": {
+      "key": "2227d1713677722fb9277613",
+      "publication": "Monstrous Manual (1994 third printing)",
+      "edition": "AD&D 2nd edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "6"
+        ],
+        [
+          "Hit dice",
+          "6+6"
+        ],
+        [
+          "Size",
+          "H, 12+ ft. tall"
+        ],
+        [
+          "Type",
+          "Animal"
+        ],
+        [
+          "Movement",
+          "12"
+        ],
+        [
+          "THAC0",
+          "13"
+        ],
+        [
+          "Attacks per round",
+          "3"
+        ],
+        [
+          "Damage per attack",
+          "1–8 / 1–8 / 1–12"
+        ],
+        [
+          "XP",
+          "650"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Any land"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A very large bear with dense fur and massive forequarters."
+          ]
+        },
+        {
+          "title": "Senses",
+          "lines": [
+            "Keen hearing",
+            "Keen smell",
+            "Poor eyesight"
+          ]
+        },
+        {
+          "title": "Special attacks mechanics",
+          "lines": [
+            "Hug · On a successful paw hit with an attack roll of 18 or better, the bear deals an additional 2d8 damage with a hug."
+          ]
+        },
+        {
+          "title": "Habitat and behavior mechanics",
+          "lines": [
+            "Behavior · An aggressive bear that may attack even an armed group. Its diet leans toward meat."
+          ]
+        },
+        {
+          "title": "Combat behavior mechanics",
+          "lines": [
+            "Fighting at negative HP · The bear can continue fighting for 1–4 melee rounds at 0 through −8 HP. It dies immediately at −9 HP or fewer."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "1–2 appearing. Uncommon. Family groups. Active by day. Omnivore.",
+            "Semi-intelligent (2–4). Neutral. Average (8–10) morale. Treasure, special defenses, and magic resistance Nil. No fixed HP.",
+            "Monstrous Manual, TSR 2140, third printing (January 1994), p. 17."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [
+      {
+        "key": "a151add6f52e3295e1d315e8",
+        "publication": "Icewind Dale: Rime of the Frostmaiden",
+        "edition": "2014 fifth edition",
+        "source": "https://www.dndbeyond.com/monsters/17141-cave-bear",
+        "status": "Variant summary",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "12"
+          ],
+          [
+            "Hit points",
+            "42"
+          ],
+          [
+            "Hit dice",
+            "5d10 + 15"
+          ],
+          [
+            "Challenge",
+            "2"
+          ],
+          [
+            "Size",
+            "Large"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 40 ft., swim 30 ft."
+          ],
+          [
+            "Passive Perception",
+            "13"
+          ],
+          [
+            "Initiative",
+            "0"
+          ],
+          [
+            "Str",
+            "20"
+          ],
+          [
+            "Dex",
+            "10"
+          ],
+          [
+            "Con",
+            "16"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "13"
+          ],
+          [
+            "Cha",
+            "7"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Habitats",
+            "lines": [
+              "Underground caverns"
+            ]
+          },
+          {
+            "title": "Appearance",
+            "lines": [
+              "A large, heavy-shouldered bear with coarse dark fur."
+            ]
+          },
+          {
+            "title": "Attacks",
+            "lines": [
+              "Claws · melee · +7 to hit · reach 5 ft. · 2d6 + 5 slashing"
+            ]
+          },
+          {
+            "title": "Cave Bear",
+            "lines": [
+              "Use the polar bear’s combat numbers, and add darkvision 60 feet."
+            ]
+          },
+          {
+            "title": "Table notes",
+            "lines": [
+              "This is the base Monster Manual (2014) creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes."
+            ]
+          },
+          {
+            "title": "Base profiles",
+            "lines": [
+              "Polar Bear"
+            ]
+          }
+        ],
+        "references": [
+          {
+            "label": "Monster Manual (2014) index",
+            "url": "https://5e.tools/bestiary.html#cave%20bear_mm"
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Passive Perception": [
+            {
+              "start": 0,
+              "end": 18,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Initiative": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Initiative",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 369,
+                "local": {
+                  "entry": "compendium-f7647d543d6e04bd0782c504",
+                  "version": "XPHB:369:https://5e.tools/variantrules.html#initiative_xphb"
+                }
+              }
+            }
+          ],
+          "Use the polar bear’s combat numbers, and add darkvision 60 feet.": [
+            {
+              "start": 45,
+              "end": 55,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2014)",
+                "page": 183,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+                }
+              }
+            }
+          ],
+          "This is the base Monster Manual (2014) creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes.": [
+            {
+              "start": 17,
+              "end": 24,
+              "target": {
+                "name": "Monster",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 371,
+                "local": {
+                  "entry": "compendium-b4209f03e638437b4a2ff334",
+                  "version": "XPHB:371:https://5e.tools/variantrules.html#monster_xphb"
+                }
+              }
+            }
+          ],
+          "Polar Bear": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Polar Bear",
+                "group": "Creatures",
+                "publication": "Monster Manual (2014)",
+                "page": 334,
+                "description": "A Large beast with challenge rating 2. Listed habitats: underdark, arctic. Named abilities include Keen Smell, Bite, Claws.",
+                "local": {
+                  "entry": "compendium-18f982ead6c3c30f580a9fcf",
+                  "version": "MM:334:https://5e.tools/bestiary.html#polar%20bear_mm"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "b6f84b960de96659ddb1df68",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "description": "A Large beast with challenge rating 2. Listed habitats: forest, underdark. Named abilities include Keen Smell, Bite, Claws.",
+        "source": "https://5e.tools/bestiary.html#cave%20bear_mm",
+        "status": "Variant summary",
+        "images": [
+          {
+            "url": "",
+            "credit": "Monster Manual (2014)"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "12"
+          ],
+          [
+            "Hit points",
+            "42"
+          ],
+          [
+            "Hit dice",
+            "5d10 + 15"
+          ],
+          [
+            "Challenge",
+            "2"
+          ],
+          [
+            "Size",
+            "Large"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 40 ft., swim 30 ft."
+          ],
+          [
+            "Passive Perception",
+            "13"
+          ],
+          [
+            "Initiative",
+            "0"
+          ],
+          [
+            "Strength",
+            "20"
+          ],
+          [
+            "Dexterity",
+            "10"
+          ],
+          [
+            "Constitution",
+            "16"
+          ],
+          [
+            "Intelligence",
+            "2"
+          ],
+          [
+            "Wisdom",
+            "13"
+          ],
+          [
+            "Charisma",
+            "7"
+          ],
+          [
+            "Alignment",
+            "unaligned"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Habitats",
+            "lines": [
+              "Underground caverns",
+              "forest, underdark"
+            ]
+          },
+          {
+            "title": "Appearance",
+            "lines": [
+              "A large, heavy-shouldered bear with coarse dark fur."
+            ]
+          },
+          {
+            "title": "Attacks",
+            "lines": [
+              "Claws · melee · +7 to hit · reach 5 ft. · 2d6 + 5 slashing"
+            ]
+          },
+          {
+            "title": "Cave Bear",
+            "lines": [
+              "Use the polar bear’s combat numbers, and add darkvision 60 feet."
+            ]
+          },
+          {
+            "title": "Base profiles",
+            "lines": [
+              "Polar Bear"
+            ]
+          },
+          {
+            "title": "Skills",
+            "lines": [
+              "Perception +3"
+            ]
+          },
+          {
+            "title": "Senses",
+            "lines": [
+              "darkvision 60 ft."
+            ]
+          },
+          {
+            "title": "Traits reference",
+            "lines": [
+              "Keen Smell · Perception"
+            ]
+          },
+          {
+            "title": "Actions reference",
+            "lines": [
+              "Multiattack",
+              "Bite · Melee attack · +7 to hit · 1d8 + 5 piercing damage · reach 5 ft.",
+              "Claws · Melee attack · +7 to hit · 2d6 + 5 slashing damage · reach 5 ft."
+            ]
+          }
+        ],
+        "sourceCode": "MM",
+        "page": 334,
+        "references": [
+          {
+            "label": "Monster Manual (2014), p. 334",
+            "url": "https://5e.tools/bestiary.html#cave%20bear_mm"
+          },
+          {
+            "label": "Perception (skill)",
+            "url": "https://5e.tools/skills.html#perception_phb",
+            "local": {
+              "entry": "compendium-f21bfeaccf140efabf3793fe",
+              "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+            },
+            "preview": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Passive Perception": [
+            {
+              "start": 0,
+              "end": 18,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Initiative": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Initiative",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 369,
+                "local": {
+                  "entry": "compendium-f7647d543d6e04bd0782c504",
+                  "version": "XPHB:369:https://5e.tools/variantrules.html#initiative_xphb"
+                }
+              }
+            }
+          ],
+          "Alignment": [
+            {
+              "start": 0,
+              "end": 9,
+              "target": {
+                "name": "Alignment",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                }
+              }
+            }
+          ],
+          "Use the polar bear’s combat numbers, and add darkvision 60 feet.": [
+            {
+              "start": 45,
+              "end": 55,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2014)",
+                "page": 183,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+                }
+              }
+            }
+          ],
+          "Polar Bear": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Polar Bear",
+                "group": "Creatures",
+                "publication": "Monster Manual (2014)",
+                "page": 334,
+                "description": "A Large beast with challenge rating 2. Listed habitats: underdark, arctic. Named abilities include Keen Smell, Bite, Claws.",
+                "local": {
+                  "entry": "compendium-18f982ead6c3c30f580a9fcf",
+                  "version": "MM:334:https://5e.tools/bestiary.html#polar%20bear_mm"
+                }
+              }
+            }
+          ],
+          "Perception +3": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            }
+          ],
+          "darkvision 60 ft.": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2014)",
+                "page": 183,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+                }
+              }
+            }
+          ],
+          "Keen Smell · Perception": [
+            {
+              "start": 13,
+              "end": 23,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "queries": {
+      "Cave Bear": true,
+      "cave bear melee rounds dies immediately": true,
+      "cave bear massive forequarters": true,
+      "cave bear any land": true
+    },
+    "hash": "f6d3312c593e7399bb0049f2e241485cdda38696d81a6874823e4fe32e65bfef",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [
+      {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2014)"
+      }
+    ],
+    "defaultPublication": "Icewind Dale: Rime of the Frostmaiden",
+    "defaultVersionKey": "a151add6f52e3295e1d315e8",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  },
+  {
+    "name": "Polar Bear",
+    "version": {
+      "key": "fc2f5b3afea01f03ebd38dc1",
+      "publication": "Monstrous Manual (1994 third printing)",
+      "edition": "AD&D 2nd edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "6"
+        ],
+        [
+          "Hit dice",
+          "8+8"
+        ],
+        [
+          "Size",
+          "H, 14+ ft. tall"
+        ],
+        [
+          "Type",
+          "Animal"
+        ],
+        [
+          "Movement",
+          "12, Sw 9"
+        ],
+        [
+          "THAC0",
+          "11"
+        ],
+        [
+          "Attacks per round",
+          "3"
+        ],
+        [
+          "Damage per attack",
+          "1–10 / 1–10 / 2–12"
+        ],
+        [
+          "XP",
+          "1400"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Any cold terrain"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A huge white-coated bear with smaller rounded ears and a long muzzle."
+          ]
+        },
+        {
+          "title": "Senses",
+          "lines": [
+            "Keen hearing",
+            "Keen smell",
+            "Poor eyesight"
+          ]
+        },
+        {
+          "title": "Special attacks mechanics",
+          "lines": [
+            "Hug · On a successful paw hit with an attack roll of 18 or better, the bear deals an additional 3d6 damage with a hug."
+          ]
+        },
+        {
+          "title": "Habitat and behavior mechanics",
+          "lines": [
+            "Behavior · A powerful swimmer that feeds mostly on marine animals."
+          ]
+        },
+        {
+          "title": "Combat behavior mechanics",
+          "lines": [
+            "Fighting at negative HP · The bear can continue fighting for 2–5 rounds at 0 through −12 HP. Below −12 HP it dies immediately."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "1–6 appearing. Rare. Family groups. Active by day. Omnivore.",
+            "Semi-intelligent (2–4). Neutral. Average (8–10) morale. Treasure, special defenses, and magic resistance Nil. No fixed HP.",
+            "Monstrous Manual, TSR 2140, third printing (January 1994), p. 17."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [
+      {
+        "key": "58130990bc00655324153b05",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "status": "Combat summary",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "12"
+          ],
+          [
+            "Hit points",
+            "42"
+          ],
+          [
+            "Hit dice",
+            "5d10 + 15"
+          ],
+          [
+            "Challenge",
+            "2"
+          ],
+          [
+            "Size",
+            "Large"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 40 ft., swim 30 ft."
+          ],
+          [
+            "Str",
+            "20"
+          ],
+          [
+            "Dex",
+            "10"
+          ],
+          [
+            "Con",
+            "16"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "13"
+          ],
+          [
+            "Cha",
+            "7"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +7 to hit · reach 5 ft. · 1d8 + 5 piercing",
+              "Claws · melee · +7 to hit · reach 5 ft. · 2d6 + 5 slashing"
+            ]
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "ef15468ec5e15e69552d13d8",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "edition": "Black Flag Roleplaying",
+        "images": [],
+        "stats": [
+          [
+            "Challenge",
+            "2"
+          ],
+          [
+            "Type",
+            "Beast"
+          ]
+        ],
+        "sections": []
+      },
+      {
+        "key": "797298c085de06bc440605da",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "description": "A Large beast with challenge rating 2. Listed habitats: underdark, arctic. Named abilities include Keen Smell, Bite, Claws.",
+        "source": "https://5e.tools/bestiary.html#polar%20bear_mm",
+        "status": "Encounter reference",
+        "images": [
+          {
+            "url": "",
+            "credit": "Monster Manual (2014)"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "12"
+          ],
+          [
+            "Hit points",
+            "42"
+          ],
+          [
+            "Hit dice",
+            "5d10 + 15"
+          ],
+          [
+            "Challenge",
+            "2"
+          ],
+          [
+            "Size",
+            "Large"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 40 ft., swim 30 ft."
+          ],
+          [
+            "Passive Perception",
+            "13"
+          ],
+          [
+            "Initiative",
+            "0"
+          ],
+          [
+            "Strength",
+            "20"
+          ],
+          [
+            "Dexterity",
+            "10"
+          ],
+          [
+            "Constitution",
+            "16"
+          ],
+          [
+            "Intelligence",
+            "2"
+          ],
+          [
+            "Wisdom",
+            "13"
+          ],
+          [
+            "Charisma",
+            "7"
+          ],
+          [
+            "Alignment",
+            "unaligned"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Claws · melee · +7 to hit · reach 5 ft. · 2d6 + 5 slashing"
+            ]
+          },
+          {
+            "title": "Skills",
+            "lines": [
+              "Perception +3"
+            ]
+          },
+          {
+            "title": "Habitats",
+            "lines": [
+              "underdark, arctic"
+            ]
+          },
+          {
+            "title": "Traits reference",
+            "lines": [
+              "Keen Smell · Perception"
+            ]
+          },
+          {
+            "title": "Actions reference",
+            "lines": [
+              "Multiattack",
+              "Bite · Melee attack · +7 to hit · 1d8 + 5 piercing damage · reach 5 ft.",
+              "Claws · Melee attack · +7 to hit · 2d6 + 5 slashing damage · reach 5 ft."
+            ]
+          }
+        ],
+        "sourceCode": "MM",
+        "page": 334,
+        "references": [
+          {
+            "label": "Monster Manual (2014), p. 334",
+            "url": "https://5e.tools/bestiary.html#polar%20bear_mm"
+          },
+          {
+            "label": "Perception (skill)",
+            "url": "https://5e.tools/skills.html#perception_phb",
+            "local": {
+              "entry": "compendium-f21bfeaccf140efabf3793fe",
+              "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+            },
+            "preview": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Passive Perception": [
+            {
+              "start": 0,
+              "end": 18,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Initiative": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Initiative",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 369,
+                "local": {
+                  "entry": "compendium-f7647d543d6e04bd0782c504",
+                  "version": "XPHB:369:https://5e.tools/variantrules.html#initiative_xphb"
+                }
+              }
+            }
+          ],
+          "Alignment": [
+            {
+              "start": 0,
+              "end": 9,
+              "target": {
+                "name": "Alignment",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                }
+              }
+            }
+          ],
+          "Perception +3": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            }
+          ],
+          "Keen Smell · Perception": [
+            {
+              "start": 13,
+              "end": 23,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "c1bd145ee975a197bc92c889",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "description": "A Large beast with challenge rating 2. Listed habitats: arctic. Named abilities include Rend.",
+        "source": "https://5e.tools/bestiary.html#polar%20bear_xmm",
+        "artwork": "https://www.dndbeyond.com/avatars/thumbnails/47139/168/1000/1000/638741964537541931.png",
+        "status": "Encounter reference",
+        "images": [
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "12"
+          ],
+          [
+            "Hit points",
+            "42"
+          ],
+          [
+            "Hit dice",
+            "5d10 + 15"
+          ],
+          [
+            "Challenge",
+            "2"
+          ],
+          [
+            "Size",
+            "Large"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 40 ft., swim 40 ft."
+          ],
+          [
+            "Passive Perception",
+            "15"
+          ],
+          [
+            "Strength",
+            "20"
+          ],
+          [
+            "Dexterity",
+            "14"
+          ],
+          [
+            "Constitution",
+            "16"
+          ],
+          [
+            "Intelligence",
+            "2"
+          ],
+          [
+            "Wisdom",
+            "13"
+          ],
+          [
+            "Charisma",
+            "7"
+          ],
+          [
+            "Alignment",
+            "unaligned"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Habitats",
+            "lines": [
+              "arctic"
+            ]
+          },
+          {
+            "title": "Attacks",
+            "lines": [
+              "Rend · melee · +7 to hit · reach 5 ft. · 1d8 + 5 slashing"
+            ]
+          },
+          {
+            "title": "Skills",
+            "lines": [
+              "Perception +5, Stealth +4"
+            ]
+          },
+          {
+            "title": "Senses",
+            "lines": [
+              "Darkvision 60 ft."
+            ]
+          },
+          {
+            "title": "Damage resistances",
+            "lines": [
+              "cold"
+            ]
+          },
+          {
+            "title": "Actions reference",
+            "lines": [
+              "Multiattack",
+              "Rend · Melee attack · +7 to hit · 1d8 + 5 slashing damage · reach 5 ft."
+            ]
+          },
+          {
+            "title": "Lore topics in the source",
+            "lines": [
+              "Animals"
+            ]
+          }
+        ],
+        "sourceCode": "XMM",
+        "references": [
+          {
+            "label": "Monster Manual (2025), p. 367",
+            "url": "https://5e.tools/bestiary.html#polar%20bear_xmm"
+          },
+          {
+            "label": "Panther (creature)",
+            "url": "https://5e.tools/bestiary.html#panther_xmm",
+            "local": {
+              "entry": "beast-346793476af7c0a55cfa62ab",
+              "version": "b2bb83792ec748263d8b7b46"
+            },
+            "preview": {
+              "name": "Panther",
+              "group": "Beast",
+              "publication": "Monster Manual (2024)",
+              "description": "A Medium beast with challenge rating 1/4. Listed habitats: forest, grassland, hill. Named abilities include Rend, Nimble Escape.",
+              "local": {
+                "entry": "beast-346793476af7c0a55cfa62ab",
+                "version": "b2bb83792ec748263d8b7b46"
+              }
+            }
+          },
+          {
+            "label": "Giant Goat (creature)",
+            "url": "https://5e.tools/bestiary.html#giant%20goat_xmm",
+            "local": {
+              "entry": "beast-6f3ba88f8055270588c02a34",
+              "version": "426fa41934a075969d8d0faf"
+            },
+            "preview": {
+              "name": "Giant Goat",
+              "group": "Beast",
+              "publication": "Monster Manual (2024)",
+              "description": "A Large beast with challenge rating 1/2. Listed habitats: grassland, hill, mountain. Named abilities include Ram.",
+              "local": {
+                "entry": "beast-6f3ba88f8055270588c02a34",
+                "version": "426fa41934a075969d8d0faf"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Passive Perception": [
+            {
+              "start": 0,
+              "end": 18,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Alignment": [
+            {
+              "start": 0,
+              "end": 9,
+              "target": {
+                "name": "Alignment",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                }
+              }
+            }
+          ],
+          "Perception +5, Stealth +4": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2024)",
+                "page": 14,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "XPHB:14:https://5e.tools/skills.html#perception_xphb"
+                }
+              }
+            },
+            {
+              "start": 15,
+              "end": 22,
+              "target": {
+                "name": "Stealth",
+                "group": "Skills",
+                "publication": "Player's Handbook (2024)",
+                "page": 14,
+                "local": {
+                  "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                  "version": "XPHB:14:https://5e.tools/skills.html#stealth_xphb"
+                }
+              }
+            }
+          ],
+          "Darkvision 60 ft.": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2024)",
+                "page": 365,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "XPHB:365:https://5e.tools/senses.html#darkvision_xphb"
+                }
+              }
+            }
+          ],
+          "Damage resistances": [
+            {
+              "start": 0,
+              "end": 6,
+              "target": {
+                "name": "Damage",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 364,
+                "local": {
+                  "entry": "compendium-62837ed0c3d25904bcb2352e",
+                  "version": "XPHB:364:https://5e.tools/variantrules.html#damage_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "b77ce1b76b825cf424d62f1a",
+        "publication": "Revised v3.5 SRD (Monsters)",
+        "edition": "3.5 edition",
+        "status": "Combat summary",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "15"
+          ],
+          [
+            "Hit points",
+            "68"
+          ],
+          [
+            "Hit dice",
+            "8d8+32"
+          ],
+          [
+            "Challenge",
+            "4"
+          ],
+          [
+            "Size",
+            "Large"
+          ],
+          [
+            "Type",
+            "Animal"
+          ],
+          [
+            "Speed",
+            "0 4 ft., 1 0 ft., 2   ft., 3 f ft., 4 t ft., 5 . ft., 6 , ft., 7   ft., 8 s ft., 9 w ft., 10 i ft., 11 m ft., 12   ft., 13 3 ft., 14 0 ft., 15   ft., 16 f ft., 17 t ft., 18 . ft."
+          ],
+          [
+            "Initiative",
+            "1"
+          ],
+          [
+            "Touch armor class",
+            "10"
+          ],
+          [
+            "Flat-footed armor class",
+            "14"
+          ],
+          [
+            "Base attack bonus",
+            "6"
+          ],
+          [
+            "Grapple modifier",
+            "18"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Saving throws",
+            "lines": [
+              "Fort +10",
+              "Ref +7",
+              "Will +3"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "f38d82b3d89e9586cb1c1510",
+        "publication": "Rise of Tiamat - Online Supplement",
+        "edition": "2014 fifth edition",
+        "status": "Combat summary",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "12"
+          ],
+          [
+            "Hit points",
+            "42"
+          ],
+          [
+            "Hit dice",
+            "5d10 + 15"
+          ],
+          [
+            "Challenge",
+            "2"
+          ],
+          [
+            "Size",
+            "Large"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 40 ft., swim 30 ft."
+          ],
+          [
+            "Str",
+            "20"
+          ],
+          [
+            "Dex",
+            "10"
+          ],
+          [
+            "Con",
+            "16"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "13"
+          ],
+          [
+            "Cha",
+            "7"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +7 to hit · reach 5 ft. · 1d8 + 5 piercing",
+              "Claws · melee · +7 to hit · reach 5 ft. · 2d6 + 5 slashing"
+            ]
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "55157f4d8fd1e12a2ecdb693",
+        "publication": "SRD 5.1",
+        "edition": "2014 fifth edition",
+        "status": "Stat block",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "12"
+          ],
+          [
+            "Hit points",
+            "42"
+          ],
+          [
+            "Hit dice",
+            "5d10 + 15"
+          ],
+          [
+            "Challenge",
+            "2"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "40 ft., swim 30 ft."
+          ],
+          [
+            "XP",
+            "450"
+          ],
+          [
+            "Str",
+            "20"
+          ],
+          [
+            "Dex",
+            "10"
+          ],
+          [
+            "Con",
+            "16"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "13"
+          ],
+          [
+            "Cha",
+            "7"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Classification",
+            "lines": [
+              "Large beast, unaligned"
+            ]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Skills Perception +3 Senses passive Perception 13 Languages —"
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Keen Smell. The bear has advantage on Wisdom (Perception) checks that rely on smell."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Multiattack. The bear makes two attacks: one with its bite and one with its claws. Bite. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9 (1d8 + 5) piercing damage. Claws. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage."
+            ]
+          }
+        ],
+        "inline": {
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Skills Perception +3 Senses passive Perception 13 Languages —": [
+            {
+              "start": 7,
+              "end": 17,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            },
+            {
+              "start": 36,
+              "end": 46,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            }
+          ],
+          "Keen Smell. The bear has advantage on Wisdom (Perception) checks that rely on smell.": [
+            {
+              "start": 25,
+              "end": 34,
+              "target": {
+                "name": "Advantage",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2014)",
+                "page": 173,
+                "description": "Roll two d20s and use the higher roll.",
+                "local": {
+                  "entry": "compendium-694118169b5a4aef2291ff71",
+                  "version": "PHB:173:https://5e.tools/book.html#PHB"
+                }
+              }
+            },
+            {
+              "start": 46,
+              "end": 56,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            }
+          ],
+          "Multiattack. The bear makes two attacks: one with its bite and one with its claws. Bite. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9 (1d8 + 5) piercing damage. Claws. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage.": [
+            {
+              "start": 95,
+              "end": 108,
+              "target": {
+                "name": "Weapon Attack",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 377,
+                "local": {
+                  "entry": "compendium-f8978a5da2977fc5a556ab9c",
+                  "version": "XPHB:377:https://5e.tools/variantrules.html#weapon%20attack_xphb"
+                }
+              }
+            },
+            {
+              "start": 193,
+              "end": 206,
+              "target": {
+                "name": "Weapon Attack",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 377,
+                "local": {
+                  "entry": "compendium-f8978a5da2977fc5a556ab9c",
+                  "version": "XPHB:377:https://5e.tools/variantrules.html#weapon%20attack_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "cb7a751c90cb18308a2c0495",
+        "publication": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Stat block",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "12"
+          ],
+          [
+            "Hit points",
+            "42"
+          ],
+          [
+            "Hit dice",
+            "5d10 + 15"
+          ],
+          [
+            "Challenge",
+            "2"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "40 ft., Swim 40 ft."
+          ],
+          [
+            "XP",
+            "450"
+          ],
+          [
+            "Str",
+            "20"
+          ],
+          [
+            "Dex",
+            "14"
+          ],
+          [
+            "Con",
+            "16"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "13"
+          ],
+          [
+            "Cha",
+            "7"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Classification",
+            "lines": [
+              "Large Beast, Unaligned"
+            ]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Skills Perception +5, Stealth +4 Resistances Cold Senses Darkvision 60 ft.; Passive Perception 15 Languages None"
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Multiattack. The bear makes two Rend attacks. Rend. Melee Attack Roll: +7, reach 5 ft. Hit: 9 (1d8 + 5) Slashing damage."
+            ]
+          }
+        ],
+        "inline": {
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Skills Perception +5, Stealth +4 Resistances Cold Senses Darkvision 60 ft.; Passive Perception 15 Languages None": [
+            {
+              "start": 7,
+              "end": 17,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2024)",
+                "page": 14,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "XPHB:14:https://5e.tools/skills.html#perception_xphb"
+                }
+              }
+            },
+            {
+              "start": 22,
+              "end": 29,
+              "target": {
+                "name": "Stealth",
+                "group": "Skills",
+                "publication": "Player's Handbook (2024)",
+                "page": 14,
+                "local": {
+                  "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                  "version": "XPHB:14:https://5e.tools/skills.html#stealth_xphb"
+                }
+              }
+            },
+            {
+              "start": 57,
+              "end": 67,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2024)",
+                "page": 365,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "XPHB:365:https://5e.tools/senses.html#darkvision_xphb"
+                }
+              }
+            },
+            {
+              "start": 76,
+              "end": 94,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Multiattack. The bear makes two Rend attacks. Rend. Melee Attack Roll: +7, reach 5 ft. Hit: 9 (1d8 + 5) Slashing damage.": [
+            {
+              "start": 58,
+              "end": 69,
+              "target": {
+                "name": "Attack Roll",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 361,
+                "local": {
+                  "entry": "compendium-2570a567c24ef3f4b5e35b50",
+                  "version": "XPHB:361:https://5e.tools/variantrules.html#attack%20roll_xphb"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "queries": {
+      "Polar Bear": true,
+      "polar bear fight marine animals": true,
+      "polar bear white coat long muzzle": true,
+      "polar bear any cold": true
+    },
+    "hash": "7264cdbac13df52611f66141c25c8666c21a4063ced39b9ca66ae1191493037e",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [
+      {
+        "url": "",
+        "credit": "Monster Manual (2014)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      }
+    ],
+    "defaultPublication": "Basic Rules (2018)",
+    "defaultVersionKey": "58130990bc00655324153b05",
+    "entryImage": {
+      "url": "",
+      "credit": "Monster Manual (2014)"
+    }
+  }
+]

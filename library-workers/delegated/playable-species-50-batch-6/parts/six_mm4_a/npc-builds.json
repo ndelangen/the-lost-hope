@@ -1,0 +1,294 @@
+{
+  "builds": [
+    {
+      "id": "briarvex-saltburr-35e",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "type": "Plant",
+      "size": "Large",
+      "title": "Briarvex peat warden, druid 1",
+      "difficulty": "Estimated CR 6 with one nonassociated druid level. 8 racial HD + 1 druid HD + 4 LA would be ECL 13 if the DM makes an exception to the book’s PC guidance.",
+      "senses": "Low-light vision. Listen +7, Spot +7.",
+      "languages": "Common, Sylvan, Druidic.",
+      "speed": "30 ft. Improved woodland stride, including magically altered undergrowth.",
+      "ac": 19,
+      "hp": 77,
+      "hitDice": "8d8+1d8+36",
+      "initiative": 0,
+      "abilityScores": {
+        "STR": 25,
+        "DEX": 10,
+        "CON": 19,
+        "INT": 11,
+        "WIS": 12,
+        "CHA": 11
+      },
+      "skills": [
+        "Hide +1 (+17 in forested areas)",
+        "Listen +7",
+        "Spot +7",
+        "Survival +8",
+        "Knowledge (nature) +4",
+        "Spellcraft +1",
+        "Concentration +5"
+      ],
+      "traits": [
+        "Neutral evil. Touch AC 9, flat-footed AC 19. BAB +6, grapple +17. Fortitude +12, Reflex +2, Will +7. Space and reach 10 ft.",
+        "Plant traits grant immunity to mind-affecting effects, poison, sleep, paralysis, polymorph, stunning and critical hits. DR 5/slashing. Fire deals half again as much damage.",
+        "Feats are Improved Natural Attack (spiked fist), Iron Will, Power Attack and Weapon Focus (spiked fist).",
+        "Druid 1. Nature sense is included in Knowledge (nature) and Survival. Wild empathy +1. The animal companion is away from this encounter."
+      ],
+      "actions": [
+        "Spiked fist +13 melee (2d6+7 plus embedded thorn). A full attack makes two swings at +13. Damage counts as bludgeoning and piercing.",
+        "Thorn Burrow (Su), swift. Within 100 ft. and line of effect, deal 3d6 piercing damage to one target with an embedded thorn. The target can spend a standard action to pull out its thorns.",
+        "Entangle (Su), at will, standard, CL 8. Plants in a 60-ft.-radius area around Saltburr catch and hold creatures for 1 round (Reflex DC 18). Creatures that save still move at half speed in the area. Saltburr ignores its own entangle.",
+        "Prepared druid spells, CL 1: create water, guidance and resistance once each at level 0. Cure light wounds (touch, 1d8+1 hp) and obscuring mist once each at level 1. The mist lasts 1 minute and extends 20 ft. from Saltburr. Sight within 5 ft. gives 20% concealment, and farther targets have total concealment."
+      ],
+      "tactics": "Warn once, then use entangle in a planted area and fight from 10 ft. Use Thorn Burrow after a hit. Retreat through briars or drop obscuring mist if the party brings fire."
+    },
+    {
+      "id": "nagatha-white-silt-35e",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "type": "Monstrous humanoid",
+      "size": "Medium",
+      "title": "Nagatha sluice sentinel, fighter 1",
+      "difficulty": "Estimated CR 5. ECL 11 from 8 racial HD + 1 fighter HD + 2 LA.",
+      "senses": "Blind. Blindsight 60 ft., Listen +15.",
+      "languages": "Abyssal, Common.",
+      "speed": "Land 10 ft., burrow 10 ft. Viper’s Speed on a double move or run.",
+      "ac": 17,
+      "hp": 69,
+      "hitDice": "8d8+1d10+27",
+      "initiative": -1,
+      "abilityScores": {
+        "STR": 14,
+        "DEX": 8,
+        "CON": 16,
+        "INT": 6,
+        "WIS": 13,
+        "CHA": 9
+      },
+      "skills": [
+        "Listen +15",
+        "Climb +3"
+      ],
+      "traits": [
+        "Chaotic evil. Touch AC 9, flat-footed AC 17. BAB +9, grapple +11. Fortitude +9, Reflex +5, Will +7.",
+        "Immune to gaze attacks, illusions and visual effects. Beyond 60 ft. White Silt relies on hearing.",
+        "Feats are Great Fortitude, Improved Natural Attack (claws), Skill Focus (Listen), Multiattack and Weapon Focus (claw)."
+      ],
+      "actions": [
+        "Claw +12 melee (1d8+2). Full attack is two claws at +12 and a bite +9 (1d4+1 plus poison).",
+        "Bite poison (Ex). Fortitude DC 17 or take 2d4 Wisdom damage. Save again after 1 minute against another 2d4 Wisdom damage.",
+        "Viper’s Speed (Ex). Two land moves in one turn can total 100 ft. A legal full-round run can cover 200 ft."
+      ],
+      "tactics": "Wait underground near the sluice and emerge when a target comes within blindsight. Commit to a full attack once in reach. Double-move after a retreating foe if the floor is clear."
+    },
+    {
+      "id": "corruptor-of-fate-pennytwist-35e",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "type": "Outsider",
+      "size": "Medium",
+      "title": "Corruptor of Fate gate broker, rogue 1",
+      "difficulty": "Estimated CR 6. ECL 12 from 7 racial HD + 1 rogue HD + 4 LA.",
+      "senses": "Darkvision 60 ft., Listen +11, Spot +11.",
+      "languages": "Abyssal, Draconic, Infernal. Telepathy 100 ft.",
+      "speed": "30 ft.",
+      "ac": 19,
+      "hp": 59,
+      "hitDice": "7d8+1d6+24",
+      "initiative": 9,
+      "abilityScores": {
+        "STR": 15,
+        "DEX": 20,
+        "CON": 17,
+        "INT": 10,
+        "WIS": 10,
+        "CHA": 10
+      },
+      "skills": [
+        "Balance +8",
+        "Disable Device +1",
+        "Disguise +10",
+        "Escape Artist +15",
+        "Hide +16",
+        "Jump +4",
+        "Listen +11",
+        "Move Silently +16",
+        "Search +1",
+        "Sleight of Hand +15",
+        "Spot +11",
+        "Tumble +16",
+        "Use Rope +5 (+7 to bind)"
+      ],
+      "traits": [
+        "Neutral evil. Touch AC 15, flat-footed AC 14. BAB +7, grapple +9. Fortitude +8, Reflex +12, Will +5. Spell resistance 15. Dodge (+1 dodge AC against one designated opponent), Improved Initiative and Weapon Finesse.",
+        "Immune to acid, energy drain, necromantic effects, negative energy and poison. Resistance to cold, electricity and fire 10. Outsider weapons count as evil-aligned.",
+        "Unluck (Su). An attacker subject to this mind-affecting necromantic effect rolls twice for attack and damage rolls against Pennytwist and uses the lower result of each pair.",
+        "Rogue 1 grants trapfinding and +1d6 sneak attack against a target denied its Dexterity bonus to AC or a flanked target. Ranged sneak attacks work within 30 ft."
+      ],
+      "actions": [
+        "Masterwork short sword +13/+8 melee (1d6+2 piercing, 19–20/×2 plus curse) or composite shortbow +12/+7 ranged (1d6 piercing, ×3, 70-ft. increment, 20 arrows). Movement plus attack uses the first bonus only.",
+        "Bestow Curse (Su), at will, CL 8. Contact with Pennytwist or a weapon it wields can curse a living target (Will DC 17 negates). On each of its turns a cursed target has a 50% chance to take no action. The curse is permanent until removed, and it does not affect undead.",
+        "Corrupting Gaze (Su), 30 ft. Use the 3.5 gaze rules, including the option to select a target with a standard action. Fortitude DC 14 negates. On failure the target takes 1d6 damage and takes −1 to attacks, skill checks and saves for 1 minute."
+      ],
+      "tactics": "Watch the gate from cover. A fleeing intruder receives an offer before Pennytwist draws steel. In a fight use the gaze to complicate a rush, then curse the first melee attacker."
+    },
+    {
+      "id": "windblade-tallowwing-35e",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "type": "Outsider",
+      "size": "Small",
+      "title": "Windblade shaft courier, Windrazor ranger 1",
+      "difficulty": "Estimated CR 2. ECL 5 from 2 racial HD + 1 ranger HD + 2 LA.",
+      "senses": "Darkvision 60 ft., keen senses. Listen +7, Spot +7.",
+      "languages": "Auran, Windsong.",
+      "speed": "Land 10 ft., climb 10 ft., fly 40 ft. (good).",
+      "ac": 13,
+      "hp": 14,
+      "hitDice": "2d8+1d8",
+      "initiative": 2,
+      "abilityScores": {
+        "STR": 13,
+        "DEX": 15,
+        "CON": 11,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 6
+      },
+      "skills": [
+        "Balance +4",
+        "Climb +15",
+        "Hide +6",
+        "Knowledge (the planes) +4",
+        "Listen +7",
+        "Move Silently +8",
+        "Spot +7",
+        "Survival +7 (+9 on other planes)",
+        "Tumble +7"
+      ],
+      "traits": [
+        "Chaotic evil. Touch AC 13, flat-footed AC 11. BAB +3, grapple +0. Fortitude +5, Reflex +7, Will +4.",
+        "Feats are Flyby Attack, Weapon Finesse, Track (ranger bonus), Improved Critical (claw) and Improved Critical (bite). Tallowwing can take 10 on Climb checks while threatened.",
+        "Favored enemy, humans. Add +2 to weapon damage and to Bluff, Listen, Sense Motive, Spot and Survival checks against humanoid (human) targets. Wild empathy −1."
+      ],
+      "actions": [
+        "Claw +6 melee (1d4+1, 19–20/×2). Full attack is two claws at +6 and a bite +1 (1d6, 19–20/×2). If both claws hit one foe, add rend damage 2d4+2.",
+        "Fearsome Critical (Ex). On a confirmed critical hit, every creature within 10 ft. makes a Will DC 9 save or becomes shaken. The NPC uses a 1-round duration because the book gives no duration. It is a mind-affecting fear effect.",
+        "Flyby Attack. While flying, make one claw attack as a standard action during one flying move, continuing with any remaining movement after attacking."
+      ],
+      "tactics": "Fly past an intruder, clawing once and keeping out of reach. Use a full attack only if a foe is stuck below the messenger perch."
+    },
+    {
+      "id": "varag-rusk-reedstep-35e",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "type": "Humanoid",
+      "size": "Medium",
+      "title": "Varag ford runner, fighter 1",
+      "difficulty": "Estimated CR 2. ECL 6 from 3 racial HD + 1 fighter HD + 2 LA.",
+      "senses": "Darkvision 60 ft., scent. Listen +0, Spot +0.",
+      "languages": "Goblin.",
+      "speed": "60 ft. using the adult monster entry. Run and Spring Attack.",
+      "ac": 18,
+      "hp": 23,
+      "hitDice": "3d8+1d10+4",
+      "initiative": 6,
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 15,
+        "CON": 13,
+        "INT": 6,
+        "WIS": 10,
+        "CHA": 10
+      },
+      "skills": [
+        "Jump +19",
+        "Move Silently +13",
+        "Survival +0 (+4 tracking by scent)",
+        "Listen +0",
+        "Spot +0"
+      ],
+      "traits": [
+        "Chaotic neutral. Touch AC 12, flat-footed AC 16. BAB +3, grapple +6. Fortitude +4, Reflex +5, Will +1.",
+        "Feats are Improved Initiative, Weapon Focus (scimitar), Run, Spring Attack and fighter bonus Power Attack. Masterwork studded leather has no armor check penalty.",
+        "Rusk can take 10 on Move Silently even while rushed or threatened. Run can cover 300 ft. in a straight line on unobstructed ground in light armor."
+      ],
+      "actions": [
+        "Masterwork scimitar +8 melee (1d6+3 slashing, 18–20/×2). A common Power Attack trade is +6 to hit for 1d6+5 damage.",
+        "Spring Attack. Move before and after one melee attack within the 60-ft. move allowance, moving at least 5 ft. on either side. The attacked target cannot make an attack of opportunity for the movement."
+      ],
+      "tactics": "Find tracks by scent and approach quietly. Use Spring Attack from the path’s narrow shoulder, then retreat along firm ground before the fight traps Rusk in melee."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Saltburr",
+      "species": "Briarvex",
+      "speciesPublication": "Monster Manual IV (2006)",
+      "edition": "3.5 edition",
+      "build": "briarvex-saltburr-35e",
+      "size": "Large",
+      "role": "A druid who guards a peat-cutters’ boundary.",
+      "motive": "Protect the marked seedbeds from the cutters and learn who removed the boundary stakes.",
+      "hook": "Saltburr recognizes the tool marks on a stolen post. Recover it and the druid will reopen a footpath through the peat."
+    },
+    {
+      "name": "White Silt",
+      "species": "Nagatha",
+      "speciesPublication": "Monster Manual IV (2006)",
+      "edition": "3.5 edition",
+      "build": "nagatha-white-silt-35e",
+      "size": "Medium",
+      "role": "The abandoned sentinel of an old sluice.",
+      "motive": "Win freedom from a spirit naga without giving up the familiar entrance where it feels safe.",
+      "hook": "White Silt will explain how the sluice opens if the party locates a companion missing from its patrol."
+    },
+    {
+      "name": "Pennytwist",
+      "species": "Corruptor of Fate",
+      "speciesPublication": "Monster Manual IV (2006)",
+      "edition": "3.5 edition",
+      "build": "corruptor-of-fate-pennytwist-35e",
+      "size": "Medium",
+      "role": "A planar mercenary who sells safe passage through a bronze gate.",
+      "motive": "Recover one signed contract before its debtor can burn it.",
+      "hook": "Pennytwist has the gate word and will trade it for a meeting with the missing debtor."
+    },
+    {
+      "name": "Tallowwing",
+      "species": "Windblade",
+      "speciesPublication": "Monster Manual IV (2006)",
+      "edition": "3.5 edition",
+      "build": "windblade-tallowwing-35e",
+      "size": "Small",
+      "role": "A Windrazor ranger who carries messages between air shafts.",
+      "motive": "Find which signal tower stopped sending messages before its Windscythe commander docks the courier’s pay.",
+      "hook": "Tallowwing will mark the safe shaft and how to reach the messenger perch if the party checks the tower."
+    },
+    {
+      "name": "Rusk Reedstep",
+      "species": "Varag",
+      "speciesPublication": "Monster Manual IV (2006)",
+      "edition": "3.5 edition",
+      "build": "varag-rusk-reedstep-35e",
+      "size": "Medium",
+      "role": "A Varag runner who leads lost supply crews to a ford.",
+      "motive": "Collect enough paid work to leave the mercenary band before winter.",
+      "hook": "A caravan claims Rusk led it astray. Rusk wants the party to find the false cairn and its maker."
+    }
+  ]
+}

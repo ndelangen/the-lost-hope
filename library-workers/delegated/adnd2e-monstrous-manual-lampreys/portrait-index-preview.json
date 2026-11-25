@@ -1,0 +1,26 @@
+[
+  {
+    "entry": "beast-cc87cd82b5e4d052289ed46a",
+    "version": "6a31ae7e69717d77148b2d95",
+    "name": "Lamprey",
+    "file": "images/adnd2e-monstrous-manual-lampreys/lamprey.png",
+    "sha256": "4263a697a212042cca012f2226b5ac020cf3171cb926cbbfb04815e699741881",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-79b0d15217e303364b84cb9a",
+    "version": "540fd9d938ee542746236096",
+    "name": "Giant Lamprey",
+    "file": "images/adnd2e-monstrous-manual-lampreys/giant-lamprey.png",
+    "sha256": "30b53844ba4699ede218c77f0375d8e2e5b0b0faeebe4c06a7aa14206cd1df81",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-be617794ba7c0d1f684b9742",
+    "version": "36d2c5303a507f2a0f9b1542",
+    "name": "Land Lamprey",
+    "file": "images/adnd2e-monstrous-manual-lampreys/land-lamprey.png",
+    "sha256": "fb37474a3b310ce8f6301f61278f10b8ac1452e1e17558997a47bec9b868ecda",
+    "credit": "OpenAI ImageGen"
+  }
+]

@@ -41,4 +41,5 @@ export default createEvent({
   day: 24,
   location: refs.locations.borris_s_gambling_den,
   mark: { type: 'icon', name: 'gi/GiLockpicks' },
+  illustrations: ['/assets/scenes/cassian-and-swift-rig-roulette-and-gain-vip-access.png'],
 })

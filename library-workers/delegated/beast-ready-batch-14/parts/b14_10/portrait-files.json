@@ -1,0 +1,34 @@
+[
+  {
+    "artGroup": "bristled-moorbounder",
+    "file": "portraits/bristled-moorbounder.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "30cf8b745118022f92ba817cd0e8760dda5f6bce7f79d4124bf6ce95a4792f37",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "artGroup": "moonshark",
+    "file": "portraits/moonshark.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "4e3205d21ccd266ee5b03f3cac67e70bf9e47534be0a1278c6d29db29b43bd3f",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "artGroup": "moorbounder",
+    "file": "portraits/moorbounder.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "6d2c92a2846065bda0a714fd65361bbf9c45984020c156cbc03dee2e5d4a2009",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "artGroup": "young-horizonback-tortoise",
+    "file": "portraits/young-horizonback-tortoise.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "c0476e776f50836b78ff74123f36633a937614add2ffbb398ce7e774ba9e471e",
+    "credit": "OpenAI ImageGen"
+  }
+]

@@ -18,4 +18,5 @@ export default createEvent({
       "'s work.",
     ],
   ],
+  illustrations: ['/assets/scenes/a-drake-carriage-carries-the-party-to-tempest.png'],
 })

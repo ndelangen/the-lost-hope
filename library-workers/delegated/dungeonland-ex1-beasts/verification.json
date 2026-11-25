@@ -1,0 +1,21 @@
+{
+  "baseline": "a56b146dda5424458a3bda859dd49ea54f93d997",
+  "temporaryCopy": true,
+  "exactBeastProfiles": 4,
+  "testedConditionalRuleProfiles": 4,
+  "existingPublicationVersionsPreserved": true,
+  "publisherGalleriesPreserved": true,
+  "searchableByNameAndSourceHabitatOrAppearance": 4,
+  "portraitCoverage": {
+    "Giant Crocodile": "generated",
+    "Giant Poisonous Snake": "generated",
+    "Giant Dog": "generated",
+    "Giant Tick": "generated"
+  },
+  "versionPortraitsVerified": 4,
+  "newPortraitDrafts": 4,
+  "printedMovementRatesPreserved": true,
+  "encounterTickHpPreserved": true,
+  "existingGiantTickMonsterPreserved": true,
+  "noChallengeImported": true
+}

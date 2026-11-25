@@ -21,4 +21,5 @@ export default createEvent({
       ', rather than merely making him hungry.',
     ],
   ],
+  illustrations: ['/assets/scenes/cassian-learns-the-ring-is-turning-him-into-a-werewolf.png'],
 })

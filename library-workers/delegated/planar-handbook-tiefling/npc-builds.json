@@ -1,0 +1,121 @@
+{
+  "builds": [
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "difficulty": "Provisional CR 2. ECL 2 (1 class HD, LA +1).",
+      "size": "Medium",
+      "type": "Outsider (Native)",
+      "senses": "Darkvision 60 ft.",
+      "speed": "30 ft.",
+      "id": "tiefling-cinderlock-lockhouse-runner-35e",
+      "title": "Tiefling lockhouse runner, Rogue 1",
+      "ac": 16,
+      "hp": 8,
+      "hitDice": "1d6+2",
+      "initiative": 4,
+      "languages": "Common, Infernal, Draconic, Dwarven, Elven",
+      "abilityScores": {
+        "STR": 12,
+        "DEX": 18,
+        "CON": 14,
+        "INT": 16,
+        "WIS": 10,
+        "CHA": 8
+      },
+      "skills": [
+        "Balance +8",
+        "Bluff +5",
+        "Disable Device +7",
+        "Hide +10",
+        "Listen +4",
+        "Move Silently +8",
+        "Open Lock +8",
+        "Search +7",
+        "Sense Motive +4",
+        "Spot +4",
+        "Tumble +8"
+      ],
+      "traits": [
+        "Neutral good. Material Plane. Leather armor +2 and Dexterity +4. Touch 14, flat-footed 12. BAB +0, grapple +1. Fortitude +2, Reflex +6, Will +0.",
+        "Cold resistance 5, electricity resistance 5, and fire resistance 5.",
+        "Trapfinding. Sneak attack +1d6 when a target is denied Dexterity bonus to AC or when Sella flanks it. Ranged sneak attack requires a target within 30 ft. A target with concealment cannot be sneak attacked."
+      ],
+      "actions": [
+        "Rapier +1 melee, 1d6+1 piercing, critical 18–20/×2. Shortbow +4 ranged, 1d6 piercing, critical ×3, range increment 60 ft. Within 30 ft. Point Blank Shot gives +5 to hit for 1d6+1.",
+        "Darkness (Sp), 1/day at CL 1 from character level. Standard action, touch one object. Shadowy illumination in a 20-ft. radius for 10 minutes, dismissible. Creatures in the area have concealment (20% miss chance), even against darkvision, including the Tiefling’s own. A lightproof cover over the object blocks the effect until removed."
+      ],
+      "tactics": "Sella checks the floodgate for a trap and picks the lock if the gate is safe. If the party needs to retreat, she uses darkness on a copper token and leaves it at the bend. She looks for sneak attacks where the target has no concealment. A lightproof pouch can cover the token before the duration ends."
+    },
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "difficulty": "Provisional CR 2. ECL 2 (1 class HD, LA +1).",
+      "size": "Medium",
+      "type": "Outsider (Native)",
+      "senses": "Darkvision 60 ft.",
+      "speed": "30 ft.",
+      "id": "tiefling-vale-smokeway-guard-35e",
+      "title": "Tiefling smokeway guard, Fighter 1",
+      "ac": 17,
+      "hp": 12,
+      "hitDice": "1d10+2",
+      "initiative": 2,
+      "languages": "Common, Infernal, Dwarven, Orc",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 14,
+        "WIS": 10,
+        "CHA": 8
+      },
+      "skills": [
+        "Bluff +1",
+        "Climb +4",
+        "Hide +1",
+        "Jump +4",
+        "Ride +6",
+        "Swim +1"
+      ],
+      "traits": [
+        "Neutral good. Material Plane. Chain shirt +4, light wooden shield +1, Dexterity +2. Touch 12, flat-footed 15. Total armor check penalty −3. BAB +1, grapple +4. Fortitude +4, Reflex +2, Will +0.",
+        "Cold resistance 5, electricity resistance 5, and fire resistance 5.",
+        "Weapon Focus (longsword) is the Fighter bonus feat. When a melee attack misses because of concealment, Blind-Fight lets Verren reroll the miss chance once. His ranged attacks gain no reroll."
+      ],
+      "actions": [
+        "Longsword +5 melee, 1d8+3 slashing, critical 19–20/×2. Javelin +3 ranged, 1d6+3 piercing, critical ×2, range increment 30 ft.",
+        "Darkness (Sp), 1/day at CL 1 from character level. Standard action, touch one object. Shadowy illumination in a 20-ft. radius for 10 minutes, dismissible. Creatures in the area have concealment (20% miss chance), even against darkvision, including the Tiefling’s own. A lightproof cover over the object blocks the effect until removed."
+      ],
+      "tactics": "Verren guides the last workers to the cross-passage and holds the gate. He can put darkness on the gate latch when a pursuer enters the straight passage. He stays close enough to use his longsword and applies his Blind-Fight reroll only to a melee miss caused by concealment."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Tiefling",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Planar Handbook (2004)",
+      "name": "Sella Cinderlock",
+      "build": "tiefling-cinderlock-lockhouse-runner-35e",
+      "role": "Lockhouse runner and Rogue.",
+      "motive": "Reopen the floodgate without springing the trap.",
+      "hook": "Sella has a copper marker for the crossing and can check the lock."
+    },
+    {
+      "species": "Tiefling",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Planar Handbook (2004)",
+      "name": "Verren Vale",
+      "build": "tiefling-vale-smokeway-guard-35e",
+      "role": "Smokeway guard and Fighter.",
+      "motive": "Hold the gate long enough for the workers to clear the passage.",
+      "hook": "Verren needs someone to lead the last workers to the cross-passage."
+    }
+  ]
+}

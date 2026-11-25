@@ -1,0 +1,427 @@
+[
+  {
+    "name": "Conclave Dryad",
+    "statBlock": {
+      "name": "Conclave Dryad",
+      "publication": "Guildmasters’ Guide to Ravnica",
+      "edition": "2014 fifth edition",
+      "printedPage": 194,
+      "classification": "Medium fey, lawful good",
+      "ac": 16,
+      "hp": 143,
+      "hitDice": "22d8 + 44",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 19
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 19
+        },
+        "Wis": {
+          "score": 20
+        },
+        "Cha": {
+          "score": 21
+        }
+      },
+      "cr": "9",
+      "xp": 5000,
+      "passivePerception": 19,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "Selesnya dryads advise the Conclave and help design its enclaves. A dryad leading troops may ride an elk-shaped mount made from living branches and vines.",
+      "savingThrows": {
+        "Int": 8,
+        "Wis": 9,
+        "Cha": 9
+      },
+      "skills": {
+        "Arcana": 8,
+        "Nature": 8,
+        "Perception": 9
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Elvish, Sylvan.",
+        "Traits": "Magic Resistance. The dryad makes saves against spells and other magical effects with advantage.\nSpeak with Beasts and Plants. The dryad can converse with beasts and plants as though they share a language.",
+        "Innate Spellcasting": "Charisma sets the dryad's spell save DC to 17. It needs no material components.\nAt will. Druidcraft.\n3/day each. Dispel Magic, Entangle, Plant Growth, Spike Growth.\n1/day each. Moonbeam, Grasping Vine, Wall of Thorns.",
+        "Actions": "Multiattack. Make three attacks in any combination of Vine Staff and Longbow.\nVine Staff. Melee weapon attack, +9 to hit, reach 5 ft., one target. A hit deals 12 (2d6 + 5) bludgeoning damage. A creature hit makes a DC 17 Dexterity save. On a failure, vines restrain it for 1 minute. It can use an action to end the effect on itself with a successful DC 17 Strength (Athletics) or Dexterity (Acrobatics) check.\nLongbow. Ranged weapon attack, +8 to hit, range 150/600 ft., one target. A hit deals 8 (1d8 + 4) piercing damage.\nSummon Mount (1/day). Magically bring forth the mount in an unoccupied space within 60 ft. Use the Elk stat block. The mount is a plant with Intelligence 6 and understands Sylvan but cannot speak. It remains for 8 hours, until it or the dryad dies, or until the dryad spends an action to dismiss it. The dryad can speak with it telepathically within 1 mile.\nSuppress Magic (Recharge 5–6). Choose one magic item the dryad can see within 120 ft. If it is an artifact, the effect fails. Otherwise its magic shuts off for 10 minutes, until the dryad becomes incapacitated or dies, or until it uses a bonus action to restore the item's magic.",
+        "Printed source": "Guildmasters’ Guide to Ravnica, p. 194."
+      }
+    }
+  },
+  {
+    "name": "Deathpact Angel",
+    "statBlock": {
+      "name": "Deathpact Angel",
+      "publication": "Guildmasters’ Guide to Ravnica",
+      "edition": "2014 fifth edition",
+      "printedPage": 191,
+      "classification": "Medium celestial, lawful evil",
+      "ac": 18,
+      "hp": 175,
+      "hitDice": "27d8 + 54",
+      "speed": "30 ft., fly 90 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 19
+        },
+        "Wis": {
+          "score": 20
+        },
+        "Cha": {
+          "score": 23
+        }
+      },
+      "cr": "14",
+      "xp": 11500,
+      "passivePerception": 20,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "An Orzhov angel grants favors to petitioners and collects the debt through service. Some debtors continue serving as indentured spirits after death.",
+      "savingThrows": {
+        "Int": 9,
+        "Wis": 10,
+        "Cha": 11
+      },
+      "skills": {
+        "Insight": 10,
+        "Intimidation": 11,
+        "Perception": 10,
+        "Persuasion": 11
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Necrotic and radiant. Also bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Condition immunities": "Charmed, exhaustion, frightened.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "All.",
+        "Traits": "Flyby. Leaving a foe's reach in flight does not provoke an opportunity attack.\nMagic Resistance. The angel makes saves against spells and other magical effects with advantage.\nImmortal Nature. The angel needs no air, food, drink, or sleep.",
+        "Innate Spellcasting": "Charisma sets the angel's spell save DC to 19 and spell attack bonus to +11. It needs no material components.\nAt will. Command (as a 2nd-level spell), Detect Evil and Good.\n1/day. Raise Dead.\n3/day each. Charm Person (as a 5th-level spell), Darkness, Suggestion.",
+        "Actions": "Multiattack. Make two Scythe attacks. Chains of Obligation can replace one Scythe attack.\nScythe. Melee weapon attack, +9 to hit, reach 10 ft., one target. A hit deals 9 (2d4 + 4) slashing damage plus 27 (6d8) necrotic damage.\nChains of Obligation. Choose a creature the angel has charmed that it can see within 90 ft. It must succeed on a DC 19 Charisma save or become paralyzed for 1 minute. Taking any damage ends this paralysis.",
+        "Bonus actions": "Exploitation of the Debtors. Choose a creature charmed by the angel that it can see within 30 ft. Deal 11 (2d10) necrotic damage to it and gain temporary HP equal to the damage it takes.",
+        "Debts Paid": "A deathpact angel may offer an indentured spirit release from its debt. If the spirit sees the angel fall to 0 HP, the spirit can destroy itself to bring the angel back to life with 1 HP.",
+        "Printed source": "Guildmasters’ Guide to Ravnica, p. 191."
+      }
+    }
+  },
+  {
+    "name": "Devkarin Lich",
+    "statBlock": {
+      "name": "Devkarin Lich",
+      "publication": "Guildmasters’ Guide to Ravnica",
+      "edition": "2014 fifth edition",
+      "printedPage": 198,
+      "classification": "Medium undead, neutral evil",
+      "ac": 14,
+      "hp": 97,
+      "hitDice": "15d8 + 30",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 19
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "14",
+      "xp": 11500,
+      "passivePerception": 18,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A Golgari elf that has prolonged its life through undeath. Fungi help hold its decaying body together.",
+      "savingThrows": {
+        "Con": 7,
+        "Int": 9,
+        "Wis": 8
+      },
+      "skills": {
+        "Arcana": 14,
+        "Insight": 8,
+        "Perception": 8
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Necrotic. Also bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Charmed, exhaustion, frightened, paralyzed, poisoned.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Common, Elvish, Kraul.",
+        "Traits": "Legendary Resistance (3/day). When the lich fails a saving throw, it can choose to succeed.\nRegeneration. The lich recovers 10 HP at the start of its turn. Fire or radiant damage disables the next start-of-turn recovery. The lich dies only when it starts its turn at 0 HP and fails to regenerate.\nTurn Resistance. The lich makes saves against effects that turn undead with advantage.\nUndead Fortitude. If damage drops the lich to 0 HP, roll a Constitution save with DC 5 plus the damage taken. Skip this save for radiant damage or damage from a critical hit. On a success, the lich drops to 1 HP.\nUndead Nature. The lich needs no air, food, drink, or sleep.",
+        "Spellcasting": "The lich is a 14th-level Golgari spellcaster with wizard spells prepared. It uses Intelligence (save DC 17, +9 to hit with spell attacks).\nCantrips (at will). Acid Splash, Chill Touch, Mage Hand, Poison Spray, Prestidigitation.\n1st level (4 slots). Chromatic Orb, Magic Missile, Ray of Sickness.\n2nd level (3 slots). Melf's Acid Arrow, Ray of Enfeeblement, Spider Climb, Web.\n3rd level (3 slots). Animate Dead, Bestow Curse, Fear, Vampiric Touch.\n4th level (3 slots). Blight, Evard's Black Tentacles.\n5th level (2 slots). Cloudkill, Insect Plague.\n6th level (1 slot). Circle of Death, Create Undead.\n7th level (1 slot). Finger of Death.",
+        "Actions": "Noxious Touch. Melee spell attack, +9 to hit, reach 5 ft., one creature. A hit deals 14 (4d6) poison damage. The creature must also succeed on a DC 17 Constitution save or become poisoned for 1 minute. It can repeat the save at the end of each of its turns and end the effect on itself on a success.",
+        "Legendary actions": "The lich has 3 legendary actions. Spend them on one option at the end of another creature's turn. The lich regains spent actions when its turn begins.\nCantrip (1 action). Cast one of the lich's cantrips.\nNoxious Touch (2 actions). Use Noxious Touch.\nDisrupt Life (3 actions). Every creature within 30 ft. makes a DC 17 Constitution save. Failure deals 21 (6d6) necrotic damage. Success halves the damage.",
+        "Printed source": "Guildmasters’ Guide to Ravnica, p. 198."
+      }
+    }
+  },
+  {
+    "name": "Druid of the Old Ways",
+    "statBlock": {
+      "name": "Druid of the Old Ways",
+      "publication": "Guildmasters’ Guide to Ravnica",
+      "edition": "2014 fifth edition",
+      "printedPage": 239,
+      "classification": "Medium humanoid (any race), chaotic neutral",
+      "ac": 14,
+      "hp": 90,
+      "hitDice": "12d8 + 36",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 20
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "7",
+      "xp": 2900,
+      "passivePerception": 18,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A Gruul druid devoted to ancient animal gods and the belief that Ilharg the Raze-Boar will one day trample Ravnica's city into rubble.",
+      "savingThrows": {
+        "Dex": 5,
+        "Con": 6,
+        "Wis": 8
+      },
+      "skills": {
+        "Nature": 3,
+        "Perception": 8,
+        "Survival": 8
+      },
+      "sections": {
+        "Armor": "Hide armor.",
+        "Languages": "Common, Druidic.",
+        "Traits": "Siege Monster. The druid deals double damage to objects and structures.\nSpeak with Beasts and Plants. The druid can converse with beasts and plants as though they share a language.",
+        "Spellcasting": "The druid is a 12th-level Gruul spellcaster with druid spells prepared. It uses Wisdom (save DC 16, +8 to hit with spell attacks).\nCantrips (at will). Druidcraft, Produce Flame, Resistance, Thorn Whip.\n1st level (4 slots). Cure Wounds, Faerie Fire, Thunderwave.\n2nd level (3 slots). Beast Sense, Flame Blade, Pass without Trace.\n3rd level (3 slots). Conjure Animals, Dispel Magic, Plant Growth.\n4th level (3 slots). Dominate Beast, Freedom of Movement, Wall of Fire.\n5th level (2 slots). Commune with Nature, Conjure Elemental, Scrying.\n6th level (1 slot). Transport via Plants, Wall of Thorns.",
+        "Actions": "Quarterstaff. Melee weapon attack, +3 to hit, reach 5 ft., one target. A hit deals 3 (1d6) bludgeoning damage, or 4 (1d8) bludgeoning damage with two hands.",
+        "Printed source": "Guildmasters’ Guide to Ravnica, p. 239."
+      }
+    }
+  },
+  {
+    "name": "Felidar",
+    "statBlock": {
+      "name": "Felidar",
+      "publication": "Guildmasters’ Guide to Ravnica",
+      "edition": "2014 fifth edition",
+      "printedPage": 199,
+      "classification": "Large celestial, lawful neutral",
+      "ac": 17,
+      "hp": 93,
+      "hitDice": "11d10 + 33",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 17
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 16,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A silver-patterned celestial cat that forms a close bond with one creature. Azorius officials use these bonds to help locate escaped prisoners.",
+      "savingThrows": {
+        "Dex": 6,
+        "Wis": 6,
+        "Cha": 5
+      },
+      "skills": {
+        "Insight": 6,
+        "Perception": 6
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Understands Celestial and Common but can't speak.",
+        "Traits": "Bonding. The felidar can form a magical bond with a creature it can see immediately after observing it for at least 1 hour within 30 ft. The bond ends if that creature dies or the felidar bonds with another creature. The partners can speak telepathically within 100 ft. On the same plane the felidar can sense how far away its partner is and in which direction. Either partner can take an action to see and hear through the other's senses until the start of its next turn. While doing so, it loses its own sight and hearing.\nKeen Hearing and Sight. The felidar makes Wisdom (Perception) checks that rely on hearing or sight with advantage.\nPounce. After moving at least 20 ft. straight toward a creature and hitting it with Claws on the same turn, the victim must succeed on a DC 15 Strength save or fall prone. If the victim is prone, the felidar can make a Claws attack against it as a bonus action.",
+        "Actions": "Multiattack. Make one Bite attack and one Claws attack.\nBite. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 17 (3d8 + 4) piercing damage.\nClaws. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 14 (3d6 + 4) slashing damage.",
+        "Winged Felidars": "A winged felidar uses this block and gains a flying speed of 40 ft.",
+        "Printed source": "Guildmasters’ Guide to Ravnica, p. 199."
+      }
+    }
+  },
+  {
+    "name": "Firefist",
+    "statBlock": {
+      "name": "Firefist",
+      "publication": "Guildmasters’ Guide to Ravnica",
+      "edition": "2014 fifth edition",
+      "printedPage": 231,
+      "classification": "Medium humanoid (any race), lawful good",
+      "ac": 18,
+      "hp": 117,
+      "hitDice": "18d8 + 36",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 17
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "cr": "7",
+      "xp": 2900,
+      "passivePerception": 13,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A Boros veteran who fights in plate, leads legion troops, and can direct an ally's attack with divine magic.",
+      "savingThrows": {
+        "Con": 5,
+        "Wis": 6
+      },
+      "skills": {
+        "Intimidation": 4,
+        "Religion": 3
+      },
+      "sections": {
+        "Armor": "Plate armor.",
+        "Languages": "Any one language (usually Common).",
+        "Spellcasting": "The firefist is a 9th-level Boros spellcaster with cleric spells prepared. It uses Wisdom (save DC 14, +6 to hit with spell attacks).\nCantrips (at will). Fire Bolt, Light, Sacred Flame, Spare the Dying.\n1st level (4 slots). Guiding Bolt, Healing Word, Heroism, Shield of Faith.\n2nd level (3 slots). Lesser Restoration, Scorching Ray.\n3rd level (3 slots). Blinding Smite, Crusader's Mantle, Revivify.\n4th level (3 slots). Banishment, Wall of Fire.\n5th level (1 slot). Flame Strike.",
+        "Actions": "Multiattack. Make two Greatsword attacks.\nGreatsword. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 10 (2d6 + 3) slashing damage.",
+        "Reactions": "Guided Attack (recharges after a short or long rest). When the firefist or a creature it can see within 30 ft. makes an attack roll, add +10 to the roll.",
+        "Printed source": "Guildmasters’ Guide to Ravnica, p. 231."
+      }
+    }
+  },
+  {
+    "name": "Firemane Angel",
+    "statBlock": {
+      "name": "Firemane Angel",
+      "publication": "Guildmasters’ Guide to Ravnica",
+      "edition": "2014 fifth edition",
+      "printedPage": 190,
+      "classification": "Medium celestial, chaotic good",
+      "ac": 18,
+      "hp": 135,
+      "hitDice": "18d8 + 54",
+      "speed": "40 ft., fly 120 ft.",
+      "abilities": {
+        "Str": {
+          "score": 22
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 23
+        }
+      },
+      "cr": "12",
+      "xp": 8400,
+      "passivePerception": 16,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A Boros champion who seeks out the strongest enemy in a fight. Its red hair can ignite into a mane of flame in battle.",
+      "savingThrows": {
+        "Str": 10,
+        "Wis": 6,
+        "Cha": 10
+      },
+      "skills": {
+        "Insight": 6,
+        "Perception": 6
+      },
+      "sections": {
+        "Armor": "Plate armor.",
+        "Damage resistances": "Fire and radiant. Also bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Condition immunities": "Charmed, exhaustion, frightened.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "All.",
+        "Traits": "Flyby. Leaving a foe's reach in flight does not provoke an opportunity attack.\nMagic Resistance. The angel makes saves against spells and other magical effects with advantage.\nRelentless (recharges after a short or long rest). When 21 damage or less would drop the angel to 0 HP, the angel drops to 1 HP.\nImmortal Nature. The angel needs no air, food, drink, or sleep.",
+        "Innate Spellcasting": "Charisma sets the angel's spell save DC to 18 and spell attack bonus to +10. It needs no material components.\n3/day each. Compelled Duel, Guiding Bolt (as a 5th-level spell).\n1/day each. Daylight, Fireball (as a 6th-level spell).",
+        "Actions": "Multiattack. Make two melee attacks.\nLongsword. Melee weapon attack, +10 to hit, reach 5 ft., one target. A hit deals 10 (1d8 + 6) slashing damage, or 11 (1d10 + 6) with two hands. Add 22 (5d8) fire or radiant damage, chosen by the angel.",
+        "Printed source": "Guildmasters’ Guide to Ravnica, p. 190."
+      }
+    }
+  }
+]

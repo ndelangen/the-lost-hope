@@ -1,0 +1,201 @@
+[
+  {
+    "name": "Giant Octopus",
+    "publication": "DDEX1-11 - Dark Pyramid of Sorcerer's Isle",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "sourceTitle": "Dark Pyramid of Sorcerer's Isle",
+    "adventureCode": "DDEX1-11",
+    "printedAdventureCode": "DDEX1-11",
+    "adventureDesigner": "Claire Hoffman",
+    "releaseDate": "March 1, 2015",
+    "printedHeading": "Giant Octopus",
+    "section": "Appendix 1: Monster/NPC Statistics",
+    "printedPages": [
+      11,
+      36
+    ],
+    "pdfPages": [
+      11,
+      36
+    ],
+    "statBlockPage": 36,
+    "creditsPdfPage": 1,
+    "sourceSha256": "18edc7399ddea0f747c18b6488969a7100476d41db7eb937147bdb39cd4a8043",
+    "sourceUrl": "",
+    "url": "",
+    "officialSourceIndex": "",
+    "sourceWitness": "Visually checked the local original Adventurers League against its colophon and printed folios.",
+    "habitatEvidence": "The p. 11 encounter places two octopuses in the river below the boat.",
+    "artGroup": "green-giant-octopus",
+    "artworkSource": "portraits/green-giant-octopus.png",
+    "artworkSha256": "42ca7fdcd1f3cd93c50825f09d6c7b278f5c9abed232c2dc73be13a21272e3aa",
+    "artworkCredit": "OpenAI ImageGen",
+    "appearanceEvidence": "Editorial description of the new matte parchment portrait informed by the printed encounter.",
+    "sourceNotes": [
+      "The p. 11 read-aloud calls the attacking tentacle bright green. The p. 36 appendix provides the base profile and no separate mutation mechanic."
+    ],
+    "productUrl": "https://www.dmsguild.com/product/170470/DDEX111-Dark-Pyramid-of-Sorcerers-Isle-5e"
+  },
+  {
+    "name": "Crocodile",
+    "publication": "DDEX1-07 - Drums in the Marsh",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "sourceTitle": "Drums in the Marsh",
+    "adventureCode": "DDEX1-07",
+    "printedAdventureCode": "DDEX1-7",
+    "adventureDesigner": "Sterling Hershey",
+    "releaseDate": "November 1, 2014",
+    "printedHeading": "Crocodile",
+    "section": "Appendix: Monster/NPC Statistics",
+    "printedPages": [
+      19,
+      21
+    ],
+    "pdfPages": [
+      19,
+      21
+    ],
+    "statBlockPage": 21,
+    "creditsPdfPage": 1,
+    "sourceSha256": "a2284a04b7e2a8726ef70097afc432d9f6bb08963578712d3d934e4c85a7ecd7",
+    "sourceUrl": "",
+    "url": "",
+    "officialSourceIndex": "",
+    "sourceWitness": "Visually checked the local original Adventurers League against its colophon and printed folios.",
+    "habitatEvidence": "Swamp is a contextual tag from the Twilight Marsh setting. The standalone Crocodile profile is printed in the appendix.",
+    "artGroup": "crocodile",
+    "artworkSource": "beast-ready-batch-02/parts/b02_06/portraits/crocodile.png",
+    "artworkSha256": "e1ce18257a00e51ed62d9595c6d622ba7d0edf9c7cc52076337532c67b9b8b4a",
+    "artworkCredit": "Original portrait generated with OpenAI ImageGen",
+    "portraitReuseSource": "beast-ready-batch-02/parts/b02_06/portraits/crocodile.png",
+    "portraitReuseSha256": "e1ce18257a00e51ed62d9595c6d622ba7d0edf9c7cc52076337532c67b9b8b4a",
+    "appearanceEvidence": "Editorial description of the reused matte parchment portrait.",
+    "sourceNotes": [
+      "The XP table lists Crocodile separately on p. 19. The p. 22 lizardfolk shaman has its own crocodile shape rules. The printed appendix Beast on p. 21 provides this profile."
+    ],
+    "officialPdfMatch": "Publisher-hosted and local original have the same SHA-256."
+  },
+  {
+    "name": "Boar",
+    "publication": "DDEX3-02 - Shackles of Blood",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "sourceTitle": "Shackles of Blood",
+    "adventureCode": "DDEX3-02",
+    "printedAdventureCode": "DDEX3-2",
+    "adventureDesigner": "Joshua Kelly",
+    "releaseDate": "September 1, 2015",
+    "printedHeading": "Boar",
+    "section": "Appendix: Monster/NPC Statistics",
+    "printedPages": [
+      12,
+      28
+    ],
+    "pdfPages": [
+      12,
+      28
+    ],
+    "statBlockPage": 28,
+    "creditsPdfPage": 1,
+    "sourceSha256": "2bc7d4be5a779d86b402d8eee65f36a3d77d0ecf849014c4e7d44eda6944dd42",
+    "sourceUrl": "",
+    "url": "",
+    "officialSourceIndex": "",
+    "sourceWitness": "Visually checked the local original Adventurers League against its colophon and printed folios.",
+    "habitatEvidence": "The Red Plumes’ camp lies within Cormanthor Forest. The p. 12 boar runs into the woods after attacking.",
+    "artGroup": "boar",
+    "artworkSource": "beast-ready-batch-02/parts/b02_03/portraits/boar.png",
+    "artworkSha256": "b4688f0bf40d1e05ae32f0d82c0cc0d4508e20d4cca842c2544f8e191d0fb22f",
+    "artworkCredit": "Original portrait generated with OpenAI ImageGen",
+    "portraitReuseSource": "beast-ready-batch-02/parts/b02_03/portraits/boar.png",
+    "portraitReuseSha256": "b4688f0bf40d1e05ae32f0d82c0cc0d4508e20d4cca842c2544f8e191d0fb22f",
+    "appearanceEvidence": "Editorial description of the reused matte parchment portrait.",
+    "sourceNotes": [
+      "The p. 12 breakout attack is printed separately from the p. 28 Boar’s ordinary Tusk. The enhanced attack applies in the stated breakout sequence. The adventure describes an ordinary boar without distinctive anatomy."
+    ]
+  },
+  {
+    "name": "Giant Boar",
+    "publication": "DDEX3-07 - Herald of the Moon",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "sourceTitle": "Herald of the Moon",
+    "adventureCode": "DDEX3-07",
+    "printedAdventureCode": "DDEX3-7",
+    "adventureDesigner": "Matt Hudson",
+    "releaseDate": "October 1, 2015",
+    "printedHeading": "Giant Boar",
+    "section": "Appendix: Monster/NPC Statistics",
+    "printedPages": [
+      14,
+      28
+    ],
+    "pdfPages": [
+      14,
+      28
+    ],
+    "statBlockPage": 28,
+    "creditsPdfPage": 1,
+    "sourceSha256": "8507a7906d23756f3fdf3aa15f7664e42c3fe31ad35e374f9d976effc4da5f96",
+    "sourceUrl": "",
+    "url": "",
+    "officialSourceIndex": "",
+    "sourceWitness": "Visually checked the local original Adventurers League against its colophon and printed folios.",
+    "habitatEvidence": "The p. 14 encounter places the boar in a Cormanthor forest clearing with two hill giants.",
+    "artGroup": "giant-boar",
+    "artworkSource": "beast-ready-batch-04/parts/b04_05/portraits/giant-boar.png",
+    "artworkSha256": "23b92de96b14d9e3e08ee4e886def38da4bdfe884b7f8cccc6a722888168e926",
+    "artworkCredit": "OpenAI ImageGen",
+    "portraitReuseSource": "beast-ready-batch-04/parts/b04_05/portraits/giant-boar.png",
+    "portraitReuseSha256": "23b92de96b14d9e3e08ee4e886def38da4bdfe884b7f8cccc6a722888168e926",
+    "appearanceEvidence": "Editorial description of the reused matte parchment portrait.",
+    "sourceNotes": [
+      "The first column of p. 28 gives the Giant Boar’s heading and base numbers. Its traits and Tusk continue in the right column above Hill Giant. No distinctive markings are described."
+    ]
+  },
+  {
+    "name": "Mastiff",
+    "publication": "DDEX2-02 - Embers of Elmwood",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "sourceTitle": "Embers of Elmwood",
+    "adventureCode": "DDEX2-02",
+    "printedAdventureCode": "DDEX2-2",
+    "adventureDesigner": "Daniel Helmick",
+    "releaseDate": "April 1, 2015",
+    "printedHeading": "Mastiff",
+    "section": "Appendix: Monster/NPC Statistics",
+    "printedPages": [
+      13,
+      22
+    ],
+    "pdfPages": [
+      13,
+      22
+    ],
+    "statBlockPage": 22,
+    "creditsPdfPage": 1,
+    "sourceSha256": "ac1084a0733923de19ffc4b4fc8ca9d2f358b10a905bbd0fd8b53e74ab059c98",
+    "sourceUrl": "",
+    "url": "",
+    "officialSourceIndex": "",
+    "sourceWitness": "Visually checked the local original Adventurers League against its colophon and printed folios.",
+    "habitatEvidence": "Urban is a contextual tag for the p. 13 grand-room encounter during an attack on a manor in Mulmaster.",
+    "artGroup": "barded-mastiff",
+    "artworkSource": "portraits/barded-mastiff.png",
+    "artworkSha256": "0f57b73c2f6ff540a45d16d74c503e8e4625fac755248b8dd449d4dc500a951f",
+    "artworkCredit": "OpenAI ImageGen",
+    "appearanceEvidence": "Editorial description of the new matte parchment portrait informed by the printed encounter.",
+    "sourceNotes": [
+      "The p. 22 Mastiff has base AC 12. The portrait depicts leather barding for the p. 13 encounter, which uses AC 13. The module does not specify coat markings."
+    ],
+    "productUrl": "https://www.dmsguild.com/product/170476/DDEX202-Embers-of-Elmwood-5e"
+  }
+]

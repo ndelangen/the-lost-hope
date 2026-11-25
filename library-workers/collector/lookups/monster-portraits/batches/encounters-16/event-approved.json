@@ -1,0 +1,170 @@
+[
+  {
+    "entry": "monster-e9988ba6f922dc3590c69815",
+    "slug": "brughor-axe-biter",
+    "name": "Brughor Axe-Biter",
+    "revision": "v1",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-16/event-drafts/brughor-axe-biter-event-v1.png",
+    "saved": " Backups/Encounter Batch 16 2026-11-23/event-drafts/brughor-axe-biter-event-v1.png",
+    "registeredPath": "assets/images/content/dm-library/lost-mine-of-phandelver/brughor-axe-biter.png",
+    "previous": {
+      "sha256": "a960401dbaca21732b344582bb459e40a143107bb57f21972609bdb926bd3efa",
+      "bytes": 3034945
+    },
+    "overrides": [
+      {
+        "entry": "monster-e9988ba6f922dc3590c69815",
+        "name": "Brughor Axe-Biter",
+        "file": "images/monsters/brughor-axe-biter/parchment-portrait.webp",
+        "sha256": "42446cdf3b80b950279a242814236596c5256d7c0803844fe947c070ed2d0cb4",
+        "credit": "OpenAI ImageGen",
+        "reference": "images/monsters/orc/mm-1.webp",
+        "appearanceSource": "Lost Mine of Phandelver",
+        "subjectPrompt": "An orc raider captain of the Many Arrows, heavyset gray-sage skin, broad nose and pronounced lower tusks, battered dark hide armor with a weathered muted ocher fur shoulder guard, one rough engraved iron greataxe held low across the figure. Cold wind-tangled swept-back coarse dark hair and a strip of dusty burgundy cloth at the belt. Both boots and the complete axe inside square. Original appearance for the named character.",
+        "style": "The Lost Hope square gouache and sepia parchment"
+      }
+    ],
+    "sha256": "6e53240ac4fd4707b7584cc8a934fada91da529a480894da85ac17631e47eb47",
+    "bytes": 2261150
+  },
+  {
+    "entry": "monster-c4310bbf0fc6d5f352794587",
+    "slug": "king-grol",
+    "name": "King Grol",
+    "revision": "v1",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-16/event-drafts/king-grol-event-v1.png",
+    "saved": " Backups/Encounter Batch 16 2026-11-23/event-drafts/king-grol-event-v1.png",
+    "registeredPath": "assets/images/content/dm-library/lost-mine-of-phandelver/king-grol.png",
+    "previous": {
+      "sha256": "83f930683df4cc990c059b6e7c0e03747a421a23c24d7eb2e4066c510d62bce7",
+      "bytes": 3057947
+    },
+    "overrides": [
+      {
+        "entry": "monster-c4310bbf0fc6d5f352794587",
+        "name": "King Grol",
+        "file": "images/monsters/king-grol/parchment-portrait.webp",
+        "sha256": "13a05c46664a17b003e9d724ed0704dab5a6838134a78b179c2bb2d68db4c2ff",
+        "credit": "OpenAI ImageGen",
+        "reference": "images/monsters/bugbear/mm-1.webp",
+        "appearanceSource": "Lost Mine of Phandelver",
+        "subjectPrompt": "A fierce old bugbear ruler of the Cragmaws, taller and broad with a stooped neck and hunched heavy shoulders, rust-brown coarse fur grayed around the long muzzle, swept pointed ears, amber watchful eyes. Heavy patchwork hide armor over muted dark russet fur and a dull bronze clasp, holding an iron morningstar upside down so it rests near one boot. Intimidating stance and aged features. Original appearance, no wolf or other figures.",
+        "style": "The Lost Hope square gouache and sepia parchment"
+      }
+    ],
+    "sha256": "164c6b08d20d1c14c0d68b710b6f13783e1999a6d6ec7abd625f47153c0fb236",
+    "bytes": 2323129
+  },
+  {
+    "entry": "monster-15e547f4429b00af867475dc",
+    "slug": "lhupo",
+    "name": "Lhupo",
+    "revision": "v1",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-16/event-drafts/lhupo-event-v1.png",
+    "saved": " Backups/Encounter Batch 16 2026-11-23/event-drafts/lhupo-event-v1.png",
+    "registeredPath": "assets/images/content/dm-library/lost-mine-of-phandelver/lhupo.png",
+    "previous": {
+      "sha256": "f18478739587d1fa0e378a710db61c86aa8e05a50f382ab777563bf9d78cc544",
+      "bytes": 3011218
+    },
+    "overrides": [
+      {
+        "entry": "monster-15e547f4429b00af867475dc",
+        "name": "Lhupo",
+        "file": "images/monsters/lhupo/parchment-portrait.webp",
+        "sha256": "ca61e9d0b46baba868f44b61179851150331a674b2f2cc0c39bb3c47925003b4",
+        "credit": "OpenAI ImageGen",
+        "reference": "images/monsters/goblin/mm-1.webp",
+        "appearanceSource": "Lost Mine of Phandelver",
+        "subjectPrompt": "A small shrewd moss-gray goblin wearing a dirty faded charcoal robe over scraps of leather armor, long angular ears, sharp amber eyes, narrow bony face. One hand carries an old brass censer suspended from a short chain, the other gathers the frayed sleeve. A small thread of incense smoke close to the figure. No supernatural light. Original interpretation of the shrine keeper, no companions.",
+        "style": "The Lost Hope square gouache and sepia parchment"
+      }
+    ],
+    "sha256": "d33ecb3ddbbefe6141026711fb0364c380740ee24c4b70da9c39b4e86528f80d",
+    "bytes": 2146684
+  },
+  {
+    "entry": "monster-ffe2e8687867097a1fad9664",
+    "slug": "targor-bloodsword",
+    "name": "Targor Bloodsword",
+    "revision": "v1",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-16/event-drafts/targor-bloodsword-event-v1.png",
+    "saved": " Backups/Encounter Batch 16 2026-11-23/event-drafts/targor-bloodsword-event-v1.png",
+    "registeredPath": "assets/images/content/dm-library/lost-mine-of-phandelver/targor-bloodsword.png",
+    "previous": {
+      "sha256": "91b7625c277ac6864e673500d84963b74ea12ee7967ebb59cf17a4c170948b94",
+      "bytes": 2876419
+    },
+    "overrides": [
+      {
+        "entry": "monster-ffe2e8687867097a1fad9664",
+        "name": "Targor Bloodsword",
+        "file": "images/monsters/targor-bloodsword/parchment-portrait.webp",
+        "sha256": "a5e2ef10e2bfc8d1e799a46a7a347c714264685f781b13539fdc067f9e9794f3",
+        "credit": "OpenAI ImageGen",
+        "reference": "images/monsters/hobgoblin/mm-1.webp",
+        "appearanceSource": "Lost Mine of Phandelver",
+        "subjectPrompt": "An ambitious Cragmaw hobgoblin warband leader with reddish brown skin, narrow disciplined dark eyes, angular pointed ears and dark hair in a tight knot. Blackened iron lamellar armor with quiet wine-colored cloth edging and a practical leather sash. Holds a plain longsword obliquely, tip down and fully in frame, one mailed glove resting at the belt. Use a clean steel blade with dull warm reflection. Original appearance, no blood and no fighting.",
+        "style": "The Lost Hope square gouache and sepia parchment"
+      }
+    ],
+    "sha256": "6f0579d87f5108835a8e5549cacc450a6f386f4eff5a5272fbbf0a55be341ba3",
+    "bytes": 2088211
+  },
+  {
+    "entry": "monster-155de24b213f0166386a8c87",
+    "slug": "yeemik",
+    "name": "Yeemik",
+    "revision": "v1",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-16/event-drafts/yeemik-event-v1.png",
+    "saved": " Backups/Encounter Batch 16 2026-11-23/event-drafts/yeemik-event-v1.png",
+    "registeredPath": "assets/images/content/dm-library/lost-mine-of-phandelver/yeemik.png",
+    "previous": {
+      "sha256": "9bd291c72eb13fc47f04dc932fab88be3b1f6544b32ba0809ddbc8f37798e377",
+      "bytes": 2868316
+    },
+    "overrides": [
+      {
+        "entry": "monster-155de24b213f0166386a8c87",
+        "name": "Yeemik",
+        "file": "images/monsters/yeemik/parchment-portrait.webp",
+        "sha256": "72e3c90a43f3d0fd77662ae617de20d935a9cb3d93eab87bfeba40f482a73e88",
+        "credit": "OpenAI ImageGen",
+        "reference": "images/monsters/goblin/mm-1.webp",
+        "appearanceSource": "Lost Mine of Phandelver",
+        "subjectPrompt": "A wiry, shrewd olive-green goblin second-in-command with jutting asymmetrical ears, alert golden eyes and sly set jaw. Layered rusty umber leather armor and a dark slate blue neck wrap, with a little straight sword tucked in a scabbard. Standing at three quarters, one loose hand raised in a parley gesture, the other on the belt. Original appearance. No hostage or cave.",
+        "style": "The Lost Hope square gouache and sepia parchment"
+      }
+    ],
+    "sha256": "caafa18f24193b09c1f9cb31fee8a9a4d17560e1afdb63cae15d4c04d8a04def",
+    "bytes": 1952512
+  },
+  {
+    "entry": "monster-c77bf8d98b3e5c4649f3e951",
+    "slug": "yegg",
+    "name": "Yegg",
+    "revision": "v1",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-16/event-drafts/yegg-event-v1.png",
+    "saved": " Backups/Encounter Batch 16 2026-11-23/event-drafts/yegg-event-v1.png",
+    "registeredPath": "assets/images/content/dm-library/lost-mine-of-phandelver/yegg.png",
+    "previous": {
+      "sha256": "b5dde228b152f0e2688657022a6f11cf1a040adfd9db877d64ea9ea69e40d01d",
+      "bytes": 2998908
+    },
+    "overrides": [
+      {
+        "entry": "monster-c77bf8d98b3e5c4649f3e951",
+        "name": "Yegg",
+        "file": "images/monsters/yegg/parchment-portrait.webp",
+        "sha256": "69fb3f860a328c815842c909eb1cdffd3e8b02bdfb131f3bc1c3078cea643cf9",
+        "credit": "OpenAI ImageGen",
+        "reference": "images/monsters/goblin/mm-1.webp",
+        "appearanceSource": "Lost Mine of Phandelver",
+        "subjectPrompt": "A portly, grumpy Cragmaw goblin chief cook with olive green skin, wide flattened nose and angular ears, one brow lowered. Faded brick red rolled sleeves underneath a flour-dusted beige leather apron, worn knee-length trousers and bare goblin feet. Holds a long wooden spoon down at one side and a shallow iron cooking pot tucked against his hip. Original appearance, no kitchen or gore.",
+        "style": "The Lost Hope square gouache and sepia parchment"
+      }
+    ],
+    "sha256": "b839be09bb4454f4c9a12ec3f3aad65079378520d3f209af64344e4c0fc7e2c2",
+    "bytes": 2277781
+  }
+]

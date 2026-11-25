@@ -1,0 +1,179 @@
+[
+  {
+    "name": "Fire Lizard",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "copyrightYear": 1993,
+    "printing": "Third printing, January 1994",
+    "productNumber": 2140,
+    "isbn": "1-56076-619-0",
+    "section": "Lizard",
+    "printedColumn": "Fire",
+    "printedPages": [
+      226
+    ],
+    "printScanViewer": "https://online.anyflip.com/vjcbu/qkrw/",
+    "pageImages": [
+      {
+        "printedPage": 226,
+        "viewerPage": 229,
+        "imageUrl": "https://online.anyflip.com/vjcbu/qkrw/files/large/a0f6b5e20e2016196f123259bf095c9b.webp",
+        "sha256": "d1b3ffc1d8138232fd79c491ec97099c3e8acbd2049a287b121d13bb1c62819a"
+      }
+    ],
+    "creditsPrintScan": "https://online.anyflip.com/vjcbu/qkrw/files/large/efaf128f9ea2ed636f64e32847d3e254.webp",
+    "digitalTextCrossCheck": "",
+    "numberAppearing": "1–4",
+    "organization": "Solitary",
+    "printedFamilyArtwork": {
+      "printedPage": 226,
+      "specificFormUnconfirmed": true,
+      "individualArtistUnconfirmed": true
+    },
+    "entryId": "beast-337fd5e0989d665c32319b66",
+    "versionKey": "b4418656523483d2cbfc7dea",
+    "slug": "fire-lizard",
+    "query": "fire lizard cone simultaneously fire",
+    "appearanceQuery": "fire lizard wingless mottled gray",
+    "habitatQuery": "fire lizard warm land subterranean lairs",
+    "portraitSelection": "generated",
+    "catalogTypeReason": "Matches the separate Stardock Animal/Beast identity. Its breath and fire immunity are retained as source rules.",
+    "stagedOverlap": {
+      "publication": "Undermountain: Stardock",
+      "edition": "AD&D 2nd edition",
+      "individualHitPoints": 60
+    },
+    "portraitEvidence": "Gray body, mottled red-brown back, reddish underside and lack of wings come from the prose."
+  },
+  {
+    "name": "Giant Lizard",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "copyrightYear": 1993,
+    "printing": "Third printing, January 1994",
+    "productNumber": 2140,
+    "isbn": "1-56076-619-0",
+    "section": "Lizard",
+    "printedColumn": "Giant",
+    "printedPages": [
+      226
+    ],
+    "printScanViewer": "https://online.anyflip.com/vjcbu/qkrw/",
+    "pageImages": [
+      {
+        "printedPage": 226,
+        "viewerPage": 229,
+        "imageUrl": "https://online.anyflip.com/vjcbu/qkrw/files/large/a0f6b5e20e2016196f123259bf095c9b.webp",
+        "sha256": "d1b3ffc1d8138232fd79c491ec97099c3e8acbd2049a287b121d13bb1c62819a"
+      }
+    ],
+    "creditsPrintScan": "https://online.anyflip.com/vjcbu/qkrw/files/large/efaf128f9ea2ed636f64e32847d3e254.webp",
+    "digitalTextCrossCheck": "",
+    "numberAppearing": "2–12 (2d6)",
+    "organization": "Solitary",
+    "printedFamilyArtwork": {
+      "printedPage": 226,
+      "specificFormUnconfirmed": true,
+      "individualArtistUnconfirmed": true
+    },
+    "entryId": "beast-06c7d9e76691615246d03075",
+    "versionKey": "3264242d1a4127e9ab4cd07b",
+    "slug": "giant-lizard",
+    "query": "giant lizard attack score doubles traps",
+    "appearanceQuery": "giant lizard normal lizard scaled",
+    "habitatQuery": "giant lizard marshes swamps",
+    "portraitSelection": "generated",
+    "printedJawTrigger": "Attack score of 20",
+    "portraitEvidence": "The size and ordinary lizard shape are printed. Dark blue-green and yellow mottling take inspiration from the unlabeled family art."
+  },
+  {
+    "name": "Minotaur Lizard",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "copyrightYear": 1993,
+    "printing": "Third printing, January 1994",
+    "productNumber": 2140,
+    "isbn": "1-56076-619-0",
+    "section": "Lizard",
+    "printedColumn": "Minotaur",
+    "printedPages": [
+      226
+    ],
+    "printScanViewer": "https://online.anyflip.com/vjcbu/qkrw/",
+    "pageImages": [
+      {
+        "printedPage": 226,
+        "viewerPage": 229,
+        "imageUrl": "https://online.anyflip.com/vjcbu/qkrw/files/large/a0f6b5e20e2016196f123259bf095c9b.webp",
+        "sha256": "d1b3ffc1d8138232fd79c491ec97099c3e8acbd2049a287b121d13bb1c62819a"
+      }
+    ],
+    "creditsPrintScan": "https://online.anyflip.com/vjcbu/qkrw/files/large/efaf128f9ea2ed636f64e32847d3e254.webp",
+    "digitalTextCrossCheck": "",
+    "numberAppearing": "1–8",
+    "organization": "Solitary",
+    "printedFamilyArtwork": {
+      "printedPage": 226,
+      "specificFormUnconfirmed": true,
+      "individualArtistUnconfirmed": true
+    },
+    "entryId": "beast-42978d059335def85f24b82d",
+    "versionKey": "6362c9a084cbbaf8252a493e",
+    "slug": "minotaur-lizard",
+    "query": "minotaur lizard surprise jaw following round",
+    "appearanceQuery": "minotaur lizard display horns claws",
+    "habitatQuery": "minotaur lizard tropical hills mountains",
+    "portraitSelection": "generated",
+    "printedJawTrigger": "Attack roll of 20",
+    "portraitEvidence": "The male’s horns come from the prose. The earthy brown palette and horn curvature are illustration choices."
+  },
+  {
+    "name": "Subterranean Lizard",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "copyrightYear": 1993,
+    "printing": "Third printing, January 1994",
+    "productNumber": 2140,
+    "isbn": "1-56076-619-0",
+    "section": "Lizard",
+    "printedColumn": "Subterranean",
+    "printedPages": [
+      226
+    ],
+    "printScanViewer": "https://online.anyflip.com/vjcbu/qkrw/",
+    "pageImages": [
+      {
+        "printedPage": 226,
+        "viewerPage": 229,
+        "imageUrl": "https://online.anyflip.com/vjcbu/qkrw/files/large/a0f6b5e20e2016196f123259bf095c9b.webp",
+        "sha256": "d1b3ffc1d8138232fd79c491ec97099c3e8acbd2049a287b121d13bb1c62819a"
+      }
+    ],
+    "creditsPrintScan": "https://online.anyflip.com/vjcbu/qkrw/files/large/efaf128f9ea2ed636f64e32847d3e254.webp",
+    "digitalTextCrossCheck": "",
+    "numberAppearing": "1–6",
+    "organization": "Solitary",
+    "printedFamilyArtwork": {
+      "printedPage": 226,
+      "specificFormUnconfirmed": true,
+      "individualArtistUnconfirmed": true
+    },
+    "entryId": "beast-4d70aa92a2c3ee30b87ee4bc",
+    "versionKey": "ac387d8287fc115487de5413",
+    "slug": "subterranean-lizard",
+    "query": "subterranean lizard bend bars tongue daylight",
+    "appearanceQuery": "subterranean lizard suction toe pads albino",
+    "habitatQuery": "subterranean lizard caves walls ceilings",
+    "portraitSelection": "generated",
+    "printedJawTrigger": "Attack roll of 20",
+    "portraitEvidence": "One printed albino form, with the suction toe pads of the base description. The portrait does not depict the separate long-tongued form."
+  }
+]

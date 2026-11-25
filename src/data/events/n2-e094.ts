@@ -44,4 +44,5 @@ export default createEvent({
       '.',
     ],
   ],
+  illustrations: ['/assets/scenes/the-party-reunites-with-bob-the-merchant.png'],
 })

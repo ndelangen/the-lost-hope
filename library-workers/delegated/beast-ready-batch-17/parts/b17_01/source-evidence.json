@@ -1,0 +1,283 @@
+[
+  {
+    "name": "Ebonclaw",
+    "kind": "beast",
+    "publication": "Turn of Fortune's Wheel",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast LLC",
+    "copyrightYear": 2023,
+    "printing": "First printing, October 2023",
+    "isbn": "978-0-7869-6904-3",
+    "printedPage": 50,
+    "printedPages": [
+      50
+    ],
+    "heading": "Ch. 8, Faunel, Razortooth Rock",
+    "sourceUrl": "https://www.dndbeyond.com/sources/paitm/tofw/the-mosaic-mimir#TheThreePacks",
+    "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/paitm/tofw",
+    "sourceWitness": "Physical first-print layout and foliation",
+    "sourceWitnessUrl": "https://www.scribd.com/document/734156838/Turn-of-Fortune-s-Wheel",
+    "pageWitnesses": [
+      {
+        "viewerSheet": 51,
+        "url": "https://online.anyflip.com/kqwdv/igfp/files/large/4e9fb116b3861fcba9f1127fa7488acb.webp",
+        "sha256": "1376594c8d497a16eac07e4727a3063723f207b2a09233d92a797150f4b3bd09"
+      }
+    ],
+    "pageWitnessNote": "The page images are a digital-layout cross-check. Printed foliation and printing were verified in the first-print layout.",
+    "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+    "statBlockOrigin": "Adventure modification or explicit proxy",
+    "nativeType": "Beast",
+    "artGroup": "ebonclaw",
+    "appearanceEvidence": "The adventure calls for a saber-toothed tiger and gives no distinct coat, body, or accessories. The reused portrait shows that animal, including the heavy build, shortened tail and long upper teeth.",
+    "ruleComparison": [
+      "The adventure changes alignment, Intelligence and Charisma to 12, and speech to Common. The indexed summary instead carries the base tiger’s Intelligence 3 and Charisma 8. The 2014 Monster Manual supplies the other combat numbers."
+    ],
+    "baseCreature": {
+      "name": "Saber-Toothed Tiger",
+      "publication": "Monster Manual (2014)",
+      "printedPage": 336,
+      "edition": "2014 fifth edition",
+      "url": "https://www.dndbeyond.com/sources/dnd/mm-2014/miscellaneous-creatures",
+      "officialErrataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014"
+    },
+    "portraitReuse": {
+      "source": "beast-ready-batch-06/reused-portraits/saber-toothed-tiger.webp",
+      "file": "images/beasts/saber-toothed-tiger/parchment-portrait.webp",
+      "sha256": "b493c15e6f2dbf1de2b14f86655593a8d41fdf84507bcfbe6cb72a3c96014434",
+      "credit": "OpenAI ImageGen"
+    }
+  },
+  {
+    "name": "Ophelia",
+    "kind": "beast",
+    "publication": "Turn of Fortune's Wheel",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast LLC",
+    "copyrightYear": 2023,
+    "printing": "First printing, October 2023",
+    "isbn": "978-0-7869-6904-3",
+    "printedPage": 50,
+    "printedPages": [
+      50
+    ],
+    "heading": "Ch. 8, Faunel, Heart Delta",
+    "sourceUrl": "https://www.dndbeyond.com/sources/paitm/tofw/the-mosaic-mimir#TheThreePacks",
+    "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/paitm/tofw",
+    "sourceWitness": "Physical first-print layout and foliation",
+    "sourceWitnessUrl": "https://www.scribd.com/document/734156838/Turn-of-Fortune-s-Wheel",
+    "pageWitnesses": [
+      {
+        "viewerSheet": 50,
+        "url": "https://online.anyflip.com/kqwdv/igfp/files/large/b59b6a1eff813f0a7e925f2aaa6d51bc.webp",
+        "sha256": "b1c6963ea6d5f69c8d84b1fde5d250512f19a31a4409b33c9a748bab3f9d14fa"
+      }
+    ],
+    "pageWitnessNote": "The page images are a digital-layout cross-check. Printed foliation and printing were verified in the first-print layout.",
+    "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+    "statBlockOrigin": "Adventure modification or explicit proxy",
+    "nativeType": "Beast",
+    "artGroup": "ophelia",
+    "appearanceEvidence": "The text calls Ophelia an elephant and gives no differing visible traits. The reused gray elephant portrait suits this encounter.",
+    "ruleComparison": [
+      "The adventure changes alignment, Intelligence to 10, Wisdom and Charisma to 14, and speech to Common. Its prose does not restate passive Perception. The displayed 12 follows the new Wisdom modifier with no Perception proficiency. The base elephant has passive Perception 10.",
+      "The 2023 adventure inherits the 2014-rules Elephant. The November 2018 Monster Manual errata supplies the +6 damage bonus already in force when the adventure appeared. The first 2014 printing used +5 for both."
+    ],
+    "baseCreature": {
+      "name": "Elephant",
+      "publication": "Monster Manual (2014)",
+      "printedPage": 322,
+      "edition": "2014 fifth edition",
+      "url": "https://www.dndbeyond.com/sources/dnd/mm-2014/miscellaneous-creatures",
+      "officialErrataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014"
+    },
+    "portraitReuse": {
+      "source": "beast-ready-batch-02/parts/b02_03/portraits/elephant.png",
+      "file": "images/beast-ready-batch-02/elephant.png",
+      "sha256": "dba093158ae121c1425fbe1f1791b15d208abb9f3c606b5b628e39a9e8372029",
+      "credit": "Original portrait generated with OpenAI ImageGen"
+    }
+  },
+  {
+    "name": "Parvaz",
+    "kind": "beast",
+    "publication": "Turn of Fortune's Wheel",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast LLC",
+    "copyrightYear": 2023,
+    "printing": "First printing, October 2023",
+    "isbn": "978-0-7869-6904-3",
+    "printedPage": 51,
+    "printedPages": [
+      51
+    ],
+    "heading": "Ch. 8, Faunel, Eagles’ Aerie",
+    "sourceUrl": "https://www.dndbeyond.com/sources/paitm/tofw/the-mosaic-mimir#TheThreePacks",
+    "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/paitm/tofw",
+    "sourceWitness": "Physical first-print layout and foliation",
+    "sourceWitnessUrl": "https://www.scribd.com/document/734156838/Turn-of-Fortune-s-Wheel",
+    "pageWitnesses": [
+      {
+        "viewerSheet": 51,
+        "url": "https://online.anyflip.com/kqwdv/igfp/files/large/4e9fb116b3861fcba9f1127fa7488acb.webp",
+        "sha256": "1376594c8d497a16eac07e4727a3063723f207b2a09233d92a797150f4b3bd09"
+      }
+    ],
+    "pageWitnessNote": "The page images are a digital-layout cross-check. Printed foliation and printing were verified in the first-print layout.",
+    "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+    "statBlockOrigin": "Adventure modification or explicit proxy",
+    "nativeType": "Beast",
+    "artGroup": "parvaz",
+    "appearanceEvidence": "The adventure calls Parvaz a giant albatross. A giant eagle portrait would show the wrong bill, wings and feet. The new albatross is one representative of the seabird type.",
+    "ruleComparison": [
+      "The adventure specifies neutral alignment, Intelligence 16, Charisma 14, and spoken Common. The displayed language follows the adventure’s named entry. The base Giant Eagle has its own language listing.",
+      "The attack names follow the borrowed Giant Eagle rules. Parvaz’s appearance follows the adventure’s albatross description."
+    ],
+    "baseCreature": {
+      "name": "Giant Eagle",
+      "publication": "Monster Manual (2014)",
+      "printedPage": 324,
+      "edition": "2014 fifth edition",
+      "url": "https://www.dndbeyond.com/sources/dnd/mm-2014/miscellaneous-creatures",
+      "officialErrataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014"
+    },
+    "portraitSha256": "bbd6d899124580c806b2aa07ee7304aa784fc59d51790606c644d73ebe30093f"
+  },
+  {
+    "name": "Whirlwyrm",
+    "kind": "beast",
+    "publication": "Turn of Fortune's Wheel",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast LLC",
+    "copyrightYear": 2023,
+    "printing": "First printing, October 2023",
+    "isbn": "978-0-7869-6904-3",
+    "printedPage": 52,
+    "printedPages": [
+      52,
+      54
+    ],
+    "heading": "Ch. 9, Glorium, Whirlwyrm Attack",
+    "sourceUrl": "https://www.dndbeyond.com/sources/paitm/tofw/the-mosaic-mimir#WhirlwyrmAttack",
+    "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/paitm/tofw",
+    "sourceWitness": "Physical first-print layout and foliation",
+    "sourceWitnessUrl": "https://www.scribd.com/document/734156838/Turn-of-Fortune-s-Wheel",
+    "pageWitnesses": [
+      {
+        "viewerSheet": 54,
+        "url": "https://online.anyflip.com/kqwdv/igfp/files/large/b19c2226bd07fb8e24c2bc5886acbddb.webp",
+        "sha256": "99331b28b259d7ec2fbcc8fbe57cda361c6c44ca76de9042f94ab8d94b17f2be"
+      },
+      {
+        "viewerSheet": 55,
+        "url": "https://online.anyflip.com/kqwdv/igfp/files/large/30b776d97b010c6feb8d693127063947.webp",
+        "sha256": "ac0bfda2545745aae06574c74d831b6b1b73e2624dae8a424c48fe74fa54f005"
+      }
+    ],
+    "pageWitnessNote": "The page images are a digital-layout cross-check. Printed foliation and printing were verified in the first-print layout.",
+    "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+    "statBlockOrigin": "Adventure modification or explicit proxy",
+    "nativeType": "Beast",
+    "artGroup": "whirlwyrm",
+    "appearanceEvidence": "The adventure says giant eel despite using crocodile mechanics. The existing single dark-brown Giant Eel shows the intended serpentine form.",
+    "ruleComparison": [
+      "The ordinary Whirlwyrm uses the Giant Crocodile block. The adventure’s separate elder Whirlwyrm uses Behir and belongs to the Monstrosity category."
+    ],
+    "baseCreature": {
+      "name": "Giant Crocodile",
+      "publication": "Monster Manual (2014)",
+      "printedPage": 324,
+      "edition": "2014 fifth edition",
+      "url": "https://www.dndbeyond.com/sources/dnd/mm-2014/miscellaneous-creatures",
+      "officialErrataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014"
+    },
+    "portraitReuse": {
+      "source": "adnd2e-monstrous-manual-eels/portraits/giant-eel-draft.png",
+      "file": "images/adnd2e-monstrous-manual-eels/giant-eel.png",
+      "sha256": "ff5ee12f7648c6ad8d6ec5c4b6ad4ca05a6aae62008110ff489ca4af93de3d74",
+      "credit": "OpenAI ImageGen"
+    }
+  },
+  {
+    "name": "Spotted Lion",
+    "kind": "beast",
+    "publication": "Bigby Presents: Glory of the Giants",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast LLC",
+    "copyrightYear": 2023,
+    "printing": "First printing, August 2023",
+    "isbn": "978-0-7869-6899-2",
+    "printedPage": 177,
+    "printedPages": [
+      177
+    ],
+    "heading": "Ch. 6, Bestiary",
+    "sourceUrl": "https://www.dndbeyond.com/monsters/3731048-spotted-lion",
+    "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/bgg",
+    "sourceWitness": "First-print physical folios and colophon, rendered from the original book scan",
+    "sourceWitnessUrl": "https://online.anyflip.com/fmtsi/jmxv/mobile/index.html#p=176",
+    "pageWitnesses": [
+      {
+        "viewerSheet": 176,
+        "url": "https://online.anyflip.com/fmtsi/jmxv/files/large/a7f407155f8410f4eb89a7e3c8057a1c.webp",
+        "sha256": "e4c06e2af79b7853cda434af8ba1fc0e459ef11f0908c7910ff3391b09ce5b17"
+      },
+      {
+        "viewerSheet": 3,
+        "url": "https://online.anyflip.com/fmtsi/jmxv/files/large/77cb9d7a88bf2f6ee85f2072042a709d.webp",
+        "sha256": "8feb56ed0f6b1f44f1a8f9a0f2fcd8c6ae40c3d4df27c9f03da1875d57df683d"
+      }
+    ],
+    "pageWitnessNote": "Image sheet index is one below the printed page number for these Beast entries. Viewer sheet 3 contains the colophon.",
+    "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+    "statBlockOrigin": "Native published block",
+    "nativeType": "Beast",
+    "artGroup": "spotted-lion",
+    "appearanceEvidence": "The source specifies charcoal spots across both the dusky coat and mane. The staged gray-tawny male lion includes both visible markings.",
+    "ruleComparison": [
+      "The prone target qualifies the bonus attack even when it was already prone. The movement clause gates the save."
+    ],
+    "portraitSha256": "74a7b744511d2bcb17e5f586be2960052f7f492525d98b66cd2c318b0efe1d5d"
+  },
+  {
+    "name": "Titanothere",
+    "kind": "beast",
+    "publication": "Bigby Presents: Glory of the Giants",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast LLC",
+    "copyrightYear": 2023,
+    "printing": "First printing, August 2023",
+    "isbn": "978-0-7869-6899-2",
+    "printedPage": 185,
+    "printedPages": [
+      185
+    ],
+    "heading": "Ch. 6, Bestiary",
+    "sourceUrl": "https://www.dndbeyond.com/monsters/3731056-titanothere",
+    "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/bgg",
+    "sourceWitness": "First-print physical folios and colophon, rendered from the original book scan",
+    "sourceWitnessUrl": "https://online.anyflip.com/fmtsi/jmxv/mobile/index.html#p=184",
+    "pageWitnesses": [
+      {
+        "viewerSheet": 184,
+        "url": "https://online.anyflip.com/fmtsi/jmxv/files/large/150b75242dcc607742c76016f6218101.webp",
+        "sha256": "0af74be8994bdd84b62712ae1ebf170bec51b182c596e6fd7dcdbd1274194ab8"
+      },
+      {
+        "viewerSheet": 3,
+        "url": "https://online.anyflip.com/fmtsi/jmxv/files/large/77cb9d7a88bf2f6ee85f2072042a709d.webp",
+        "sha256": "8feb56ed0f6b1f44f1a8f9a0f2fcd8c6ae40c3d4df27c9f03da1875d57df683d"
+      }
+    ],
+    "pageWitnessNote": "Image sheet index is one below the printed page number for these Beast entries. Viewer sheet 3 contains the colophon.",
+    "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+    "statBlockOrigin": "Native published block",
+    "nativeType": "Beast",
+    "artGroup": "titanothere",
+    "appearanceEvidence": "The first printing shows a rhinoceros relative with branched bony face ornament and rugged folded hide. Its horns are one printed example of a varied group. The staged mammal follows those traits instead of the ordinary rhinoceros or dinosaur silhouettes.",
+    "ruleComparison": [
+      "The charge rider adds damage to any target. Only a creature makes the Strength save."
+    ],
+    "portraitSha256": "7c1ebd4ac96666e11ab9c317d8787514980696d7a800ea8b86508a381a44d0ac"
+  }
+]

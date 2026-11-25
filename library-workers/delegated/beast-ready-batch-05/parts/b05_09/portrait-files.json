@@ -1,0 +1,10 @@
+[
+  {
+    "artGroup": "riding-warhorse",
+    "file": "portraits/riding-warhorse.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "14f25a324412d031c2036a64ad7a6d3e71e18c81cf5aec291568dcc05d351daf",
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  }
+]

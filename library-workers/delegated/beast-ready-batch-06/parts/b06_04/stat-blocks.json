@@ -1,0 +1,387 @@
+[
+  {
+    "name": "Warhorse (Chain Mail Barding)",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 16,
+    "hp": 19,
+    "hitDice": "3d10 + 3",
+    "speed": "60 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "abilities": {
+      "Str": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Passive Perception 11. No listed skills, special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A sturdy light-bay warhorse with a black mane and tail, dark lower legs, and fitted chain mail barding in this variant.",
+    "habitats": [
+      "Stables",
+      "Training grounds",
+      "Military camps",
+      "Battlefields"
+    ],
+    "sections": {
+      "Printed source": "Monster Manual, first printing (September 2014), Appendix A, printed p. 340, Warhorse and Variant: Warhorse Armor. https://online.anyflip.com/pqhqn/sezy/index.html#p=341\nOfficial Monster Manual errata v2.0 corrects Hooves from +4 to +6 to hit. ",
+      "Barding": "Chain Mail barding gives AC 16 under the printed Warhorse Armor table. Use the fixed AC for this heavy barding. The armor gives disadvantage on Dexterity (Stealth) checks. The warhorse's Strength 18 meets the armor's Strength 13 requirement for full speed. See the 2014 Player's Handbook armor rules, pp. 144–145.",
+      "Traits": "Trampling Charge. Move at least 20 ft. straight toward a creature and hit it with Hooves on the same turn. The creature makes a DC 14 Strength save. On a failure, it falls prone. If the creature is prone, the horse can follow up with another Hooves attack against it as a bonus action.",
+      "Actions": "Hooves. Melee weapon attack, +6 to hit against one target within 5 ft. A hit deals 11 (2d6 + 4) bludgeoning damage.",
+      "At the table": "A rider controlling the warhorse can have it Dash, Disengage, or Dodge. An independent mount acts on its own initiative and can use its listed attacks."
+    }
+  },
+  {
+    "name": "Warhorse (Leather Barding)",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 12,
+    "hp": 19,
+    "hitDice": "3d10 + 3",
+    "speed": "60 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "abilities": {
+      "Str": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Passive Perception 11. No listed skills, special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A sturdy light-bay warhorse with a black mane and tail, dark lower legs, and fitted leather barding in this variant.",
+    "habitats": [
+      "Stables",
+      "Training grounds",
+      "Military camps",
+      "Battlefields"
+    ],
+    "sections": {
+      "Printed source": "Monster Manual, first printing (September 2014), Appendix A, printed p. 340, Warhorse and Variant: Warhorse Armor. https://online.anyflip.com/pqhqn/sezy/index.html#p=341\nOfficial Monster Manual errata v2.0 corrects Hooves from +4 to +6 to hit. ",
+      "Barding": "Leather barding gives AC 12 under the printed Warhorse Armor table. The listed AC already includes the warhorse's +1 Dexterity modifier.",
+      "Traits": "Trampling Charge. Move at least 20 ft. straight toward a creature and hit it with Hooves on the same turn. The creature makes a DC 14 Strength save. On a failure, it falls prone. If the creature is prone, the horse can follow up with another Hooves attack against it as a bonus action.",
+      "Actions": "Hooves. Melee weapon attack, +6 to hit against one target within 5 ft. A hit deals 11 (2d6 + 4) bludgeoning damage.",
+      "At the table": "A rider controlling the warhorse can have it Dash, Disengage, or Dodge. An independent mount acts on its own initiative and can use its listed attacks."
+    }
+  },
+  {
+    "name": "Warhorse (Plate Barding)",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 18,
+    "hp": 19,
+    "hitDice": "3d10 + 3",
+    "speed": "60 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "abilities": {
+      "Str": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Passive Perception 11. No listed skills, special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A sturdy light-bay warhorse with a black mane and tail, dark lower legs, and fitted plate barding in this variant.",
+    "habitats": [
+      "Stables",
+      "Training grounds",
+      "Military camps",
+      "Battlefields"
+    ],
+    "sections": {
+      "Printed source": "Monster Manual, first printing (September 2014), Appendix A, printed p. 340, Warhorse and Variant: Warhorse Armor. https://online.anyflip.com/pqhqn/sezy/index.html#p=341\nOfficial Monster Manual errata v2.0 corrects Hooves from +4 to +6 to hit. ",
+      "Barding": "Plate barding gives AC 18 under the printed Warhorse Armor table. Use the fixed AC for this heavy barding. The armor gives disadvantage on Dexterity (Stealth) checks. The warhorse's Strength 18 meets the armor's Strength 15 requirement for full speed. See the 2014 Player's Handbook armor rules, pp. 144–145.",
+      "Traits": "Trampling Charge. Move at least 20 ft. straight toward a creature and hit it with Hooves on the same turn. The creature makes a DC 14 Strength save. On a failure, it falls prone. If the creature is prone, the horse can follow up with another Hooves attack against it as a bonus action.",
+      "Actions": "Hooves. Melee weapon attack, +6 to hit against one target within 5 ft. A hit deals 11 (2d6 + 4) bludgeoning damage.",
+      "At the table": "A rider controlling the warhorse can have it Dash, Disengage, or Dodge. An independent mount acts on its own initiative and can use its listed attacks."
+    }
+  },
+  {
+    "name": "Warhorse (Ring Mail Barding)",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 14,
+    "hp": 19,
+    "hitDice": "3d10 + 3",
+    "speed": "60 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "abilities": {
+      "Str": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Passive Perception 11. No listed skills, special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A sturdy light-bay warhorse with a black mane and tail, dark lower legs, and fitted ring mail barding in this variant.",
+    "habitats": [
+      "Stables",
+      "Training grounds",
+      "Military camps",
+      "Battlefields"
+    ],
+    "sections": {
+      "Printed source": "Monster Manual, first printing (September 2014), Appendix A, printed p. 340, Warhorse and Variant: Warhorse Armor. https://online.anyflip.com/pqhqn/sezy/index.html#p=341\nOfficial Monster Manual errata v2.0 corrects Hooves from +4 to +6 to hit. ",
+      "Barding": "Ring Mail barding gives AC 14 under the printed Warhorse Armor table. Use the fixed AC for this heavy barding. The armor gives disadvantage on Dexterity (Stealth) checks. See the 2014 Player's Handbook armor rules, pp. 144–145.",
+      "Traits": "Trampling Charge. Move at least 20 ft. straight toward a creature and hit it with Hooves on the same turn. The creature makes a DC 14 Strength save. On a failure, it falls prone. If the creature is prone, the horse can follow up with another Hooves attack against it as a bonus action.",
+      "Actions": "Hooves. Melee weapon attack, +6 to hit against one target within 5 ft. A hit deals 11 (2d6 + 4) bludgeoning damage.",
+      "At the table": "A rider controlling the warhorse can have it Dash, Disengage, or Dodge. An independent mount acts on its own initiative and can use its listed attacks."
+    }
+  },
+  {
+    "name": "Warhorse (Scale Mail Barding)",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 15,
+    "hp": 19,
+    "hitDice": "3d10 + 3",
+    "speed": "60 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "abilities": {
+      "Str": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Passive Perception 11. No listed skills, special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A sturdy light-bay warhorse with a black mane and tail, dark lower legs, and fitted scale mail barding in this variant.",
+    "habitats": [
+      "Stables",
+      "Training grounds",
+      "Military camps",
+      "Battlefields"
+    ],
+    "sections": {
+      "Printed source": "Monster Manual, first printing (September 2014), Appendix A, printed p. 340, Warhorse and Variant: Warhorse Armor. https://online.anyflip.com/pqhqn/sezy/index.html#p=341\nOfficial Monster Manual errata v2.0 corrects Hooves from +4 to +6 to hit. ",
+      "Barding": "Scale Mail barding gives AC 15 under the printed Warhorse Armor table. The listed AC already includes the warhorse's +1 Dexterity modifier. The armor gives disadvantage on Dexterity (Stealth) checks. See the 2014 Player's Handbook armor rules, pp. 144–145.",
+      "Traits": "Trampling Charge. Move at least 20 ft. straight toward a creature and hit it with Hooves on the same turn. The creature makes a DC 14 Strength save. On a failure, it falls prone. If the creature is prone, the horse can follow up with another Hooves attack against it as a bonus action.",
+      "Actions": "Hooves. Melee weapon attack, +6 to hit against one target within 5 ft. A hit deals 11 (2d6 + 4) bludgeoning damage.",
+      "At the table": "A rider controlling the warhorse can have it Dash, Disengage, or Dodge. An independent mount acts on its own initiative and can use its listed attacks."
+    }
+  },
+  {
+    "name": "Warhorse (Splint Barding)",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 17,
+    "hp": 19,
+    "hitDice": "3d10 + 3",
+    "speed": "60 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "abilities": {
+      "Str": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Passive Perception 11. No listed skills, special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A sturdy light-bay warhorse with a black mane and tail, dark lower legs, and fitted splint barding in this variant.",
+    "habitats": [
+      "Stables",
+      "Training grounds",
+      "Military camps",
+      "Battlefields"
+    ],
+    "sections": {
+      "Printed source": "Monster Manual, first printing (September 2014), Appendix A, printed p. 340, Warhorse and Variant: Warhorse Armor. https://online.anyflip.com/pqhqn/sezy/index.html#p=341\nOfficial Monster Manual errata v2.0 corrects Hooves from +4 to +6 to hit. ",
+      "Barding": "Splint barding gives AC 17 under the printed Warhorse Armor table. Use the fixed AC for this heavy barding. The armor gives disadvantage on Dexterity (Stealth) checks. The warhorse's Strength 18 meets the armor's Strength 15 requirement for full speed. See the 2014 Player's Handbook armor rules, pp. 144–145.",
+      "Traits": "Trampling Charge. Move at least 20 ft. straight toward a creature and hit it with Hooves on the same turn. The creature makes a DC 14 Strength save. On a failure, it falls prone. If the creature is prone, the horse can follow up with another Hooves attack against it as a bonus action.",
+      "Actions": "Hooves. Melee weapon attack, +6 to hit against one target within 5 ft. A hit deals 11 (2d6 + 4) bludgeoning damage.",
+      "At the table": "A rider controlling the warhorse can have it Dash, Disengage, or Dodge. An independent mount acts on its own initiative and can use its listed attacks."
+    }
+  },
+  {
+    "name": "Warhorse (Studded Leather Barding)",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 13,
+    "hp": 19,
+    "hitDice": "3d10 + 3",
+    "speed": "60 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "abilities": {
+      "Str": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Passive Perception 11. No listed skills, special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A sturdy light-bay warhorse with a black mane and tail, dark lower legs, and fitted studded leather barding in this variant.",
+    "habitats": [
+      "Stables",
+      "Training grounds",
+      "Military camps",
+      "Battlefields"
+    ],
+    "sections": {
+      "Printed source": "Monster Manual, first printing (September 2014), Appendix A, printed p. 340, Warhorse and Variant: Warhorse Armor. https://online.anyflip.com/pqhqn/sezy/index.html#p=341\nOfficial Monster Manual errata v2.0 corrects Hooves from +4 to +6 to hit. ",
+      "Barding": "Studded Leather barding gives AC 13 under the printed Warhorse Armor table. The listed AC already includes the warhorse's +1 Dexterity modifier.",
+      "Traits": "Trampling Charge. Move at least 20 ft. straight toward a creature and hit it with Hooves on the same turn. The creature makes a DC 14 Strength save. On a failure, it falls prone. If the creature is prone, the horse can follow up with another Hooves attack against it as a bonus action.",
+      "Actions": "Hooves. Melee weapon attack, +6 to hit against one target within 5 ft. A hit deals 11 (2d6 + 4) bludgeoning damage.",
+      "At the table": "A rider controlling the warhorse can have it Dash, Disengage, or Dodge. An independent mount acts on its own initiative and can use its listed attacks."
+    }
+  }
+]

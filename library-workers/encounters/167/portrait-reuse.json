@@ -1,0 +1,182 @@
+{
+  "Grung Wildling (Red)": {
+    "sha256": "355877f73ecc441b4a7280ed8e87d6cbf5fef33c5295fe3370a2eccfa259a0a8",
+    "source": "Grung Wildling (Red)"
+  },
+  "Hobgoblin Devastator": {
+    "sha256": "8927accc64604c94578237cf52e158d405fd5718b894b750b8a8a4c2f00c8553",
+    "source": "Hobgoblin Devastator"
+  },
+  "Hobgoblin Iron Shadow": {
+    "sha256": "92752dad13e86d624ce44d83458542873b824366d4029c7d68e70107ce49c4c4",
+    "source": "Hobgoblin Iron Shadow"
+  },
+  "Illithilich": {
+    "sha256": "da3a5b85d7190a108094cee51950557d4495f94941bccbd3222e5b00fc6b4c49",
+    "source": "Mind Flayer Lich (Illithilich)"
+  },
+  "Illusionist": {
+    "sha256": "d2f9e67f47b1d6931ae9e8fa1a19c1bd3e9a2171e4968a6185dd30fee903a56f",
+    "source": "Illusionist Wizard"
+  },
+  "Ki-rin": {
+    "sha256": "52415a56e416e4dd2ac775d993ab249c109b508fef98c0337112fbc5d51f774f",
+    "source": "Ki-rin"
+  },
+  "Kobold Dragonshield": {
+    "sha256": "7c11c1d40fb0ad14fd4b96663b267ef34382f314ec2b81ca6e58fa50116d76c7",
+    "source": "Kobold Dragonshield"
+  },
+  "Kobold Inventor": {
+    "sha256": "ea1ff0d5d9e24d99c7d0c850d12cbdddf9867f65eb353aaef405311f9b0c0c6e",
+    "source": "Kobold Inventor"
+  },
+  "Kobold Scale Sorcerer": {
+    "sha256": "afbd9a9afa0e2e2a4e8434cc306998a7f7be8ded63ea08b45f7e928d7b7c0879",
+    "source": "Kobold Scale Sorcerer"
+  },
+  "Korred": {
+    "sha256": "4aa0df9ce77a0fdd4ad18ca36ab5d2bbcf3fb4e5aeaf7abd4e428e968b219c1d",
+    "source": "Korred"
+  },
+  "Kraken Priest": {
+    "sha256": "68a687228fe0124008d0ab05879c74f534f91daa26ebc88d8afa99d1d67c233c",
+    "source": "Kraken Priest"
+  },
+  "Leucrotta": {
+    "sha256": "dd489c7e913152a6b4ddf5b710b1a28363196e78088fb3c30c74304dd2dcfb98",
+    "source": "Leucrotta"
+  },
+  "Martial Arts Adept": {
+    "sha256": "3bdddcc9a226fed27d8155832c5c3170d6c23dbd84bd58d6a772c0c2b622b94c",
+    "source": "Martial Arts Adept"
+  },
+  "Master Thief": {
+    "sha256": "7cbf1fc67e86d4e8541ce0de39e729e01ca56a369ed2ef71aaa7bb5628af25cd",
+    "source": "Master Thief"
+  },
+  "Maw Demon": {
+    "sha256": "5bc369c6de9f59c0f618a63ebe3253d79ed6e99564c6d5a6b0f6845bc144f8b4",
+    "source": "Maw Demon"
+  },
+  "Meenlock": {
+    "sha256": "cda065614b4cdab6a298ca851963afe1cc49ecf46438c10560c0d2ac98bc5203",
+    "source": "Meenlock"
+  },
+  "Mind Flayer Psion": {
+    "sha256": "9c3b8c90a58024795991d9c29315249047f7e82e46eadcf0d44be541a4cdf69e",
+    "source": "Mind Flayer"
+  },
+  "Mindwitness": {
+    "sha256": "cb52e441d3de5ff1c55df5429c92c88956c914b931346947b38860b2970809ad",
+    "source": "Mindwitness"
+  },
+  "Morkoth": {
+    "sha256": "68f6848ddb081090b6a9e3cf32bbd35c7a8b03e1e6ad6b0f12e798f99f36ce98",
+    "source": "Morkoth"
+  },
+  "Mouth of Grolantor": {
+    "sha256": "8ccac04d8ccabc671a102182d7f1270d990355ba29e6568cfaaa690b0fab802c",
+    "source": "Mouth of Grolantor"
+  },
+  "Necromancer": {
+    "sha256": "9adb6961cd4c2d052670dd636fae05a6329d544fa2bcb4c4cd5b19a8937de5d5",
+    "source": "Necromancer Wizard"
+  },
+  "Neogi": {
+    "sha256": "a8fbb7df6b79bd14484079870163453c6dfdfaa70e1142f98312fcce864e20fc",
+    "source": "Neogi"
+  },
+  "Neogi Hatchling": {
+    "sha256": "473ed2c1fc3772226375407d29c38eaf1a3af246b4d1bcc9621c3ccb81c1c897",
+    "source": "Neogi Hatchling"
+  },
+  "Neogi Master": {
+    "sha256": "ab950b5593628e8eedd9be93c1a44a266c3cdfc53d5ddc4f9f32eb23b7d30cb1",
+    "source": "Neogi Master"
+  },
+  "Neothelid": {
+    "sha256": "1f1c3e8afa2d63d4ab3fac0ce6d009dad467c89c642884b6ab3149e6a664c312",
+    "source": "Neothelid"
+  },
+  "Nilbog": {
+    "sha256": "ec9a1b9737fec7ef73b2a061cef57e226bbac4c751f98f4f32f17de374f122e5",
+    "source": "Nilbog"
+  },
+  "Quickling": {
+    "sha256": "c86dbf93def98cad281275d6d532d69752e6000184b01b5a7c76dea452baeb85",
+    "source": "Quickling"
+  },
+  "Red Guard Drake": {
+    "sha256": "f28a125936c61fb8263ea06346816cbc66642e5984f25fa962afbb3fa1c51496",
+    "source": "Red Guard Drake"
+  },
+  "Redcap": {
+    "sha256": "17ed8a3d3f4ddce6df8f1873863a42347401c22331853eb3a702d4184f234158",
+    "source": "Redcap"
+  },
+  "Sea Spawn": {
+    "sha256": "8bf7fc813f7cc629db6397d712178cca3b998384733a68cedbad1d517a1d10a6",
+    "source": "Sea Spawn"
+  },
+  "Shadow Mastiff": {
+    "sha256": "c8cc7d2060ee50ce7e62c53e9c776f2e77f349dd44d8550fefa56c951be09c08",
+    "source": "Shadow Mastiff"
+  },
+  "Shadow Mastiff Alpha": {
+    "sha256": "c8cc7d2060ee50ce7e62c53e9c776f2e77f349dd44d8550fefa56c951be09c08",
+    "source": "Shadow Mastiff Alpha"
+  },
+  "Shoosuva": {
+    "sha256": "ae11f7a12f7bdbc427e9b09380c8428c8785a5694fb94c8c3ebc8512b56fb86f",
+    "source": "Shoosuva"
+  },
+  "Slithering Tracker": {
+    "sha256": "78b70e4494095b9814fcb7f05481569d1242607d286e1883f9e8f642118c3e99",
+    "source": "Slithering Tracker"
+  },
+  "Spawn of Kyuss": {
+    "sha256": "4e592374c671d2f3dd041b42d4cdb93317d0e62c0aa3a0502355960f266bca2e",
+    "source": "Spawn of Kyuss"
+  },
+  "Stone Giant Dreamwalker": {
+    "sha256": "8548334b931e4a3db527f5d792cbf0013f6fd385fd8856c9bf88b2ca32215787",
+    "source": "Stone Giant Dreamwalker"
+  },
+  "Storm Giant Quintessent": {
+    "sha256": "012ad70c530afc07a6e06de2160c413ee7f9973a37fb92e126a130a4c9834163",
+    "source": "Storm Giant Quintessent"
+  },
+  "Swashbuckler": {
+    "sha256": "7f97fe6f0e530787d41758961a76abd7041074714c935cc6c6111e00cff03c31",
+    "source": "Swashbuckler"
+  },
+  "Tanarukk": {
+    "sha256": "362889796c9f2b5c153542a3121b6ad4fc82dc8e6f6c9c9fc349a4d2b6081618",
+    "source": "Tanarukk"
+  },
+  "Thorny": {
+    "sha256": "c61390a5e6d51bc8ab776039f443f36a73b54809c909aff9958674674ac6f96b",
+    "source": "Thorny Vegepygmy"
+  },
+  "Tlincalli": {
+    "sha256": "bde8c185f28c14b34c9851c8bb007b120e884cdc2b7fc4d2e252ca5f8102748d",
+    "source": "Tlincalli"
+  },
+  "Transmuter": {
+    "sha256": "32c5d5b137e0a77f1ef22bdb1a54e45a5ee94cde739688e4cf1b0840aff65796",
+    "source": "Transmuter Wizard"
+  },
+  "Trapper": {
+    "sha256": "5b99945de8d6007dd3759dde2139d1761e663b4e8af6392f95d7e556d1ffecfa",
+    "source": "Trapper"
+  },
+  "Ulitharid": {
+    "sha256": "37e7f4c2af660158e6d9b7472703e9e1f00ff719dbd2ae341c5c31c747160e71",
+    "source": "Ulitharid"
+  },
+  "Vargouille": {
+    "sha256": "a4aa3f4da1c50210019027e58ef1baa4f09adc95c784af2f060684530d910cde",
+    "source": "Vargouille"
+  }
+}

@@ -1,0 +1,69 @@
+[
+  {
+    "name": "Phanaton",
+    "kind": "species",
+    "publication": "Orc’s Head Peninsula Sourcebook (1996)",
+    "edition": "AD&D 2nd edition",
+    "traits": [
+      "Small furred humanoid with a grasping ringed tail and gliding membranes. No infravision. Natural AC 9, improved by a racial 2-point bonus before Dexterity. +2 on all saving throws.",
+      "Strength −2 and Intelligence −1. Dexterity +2, or Dexterity and Wisdom +1 each for shamans. The PC section requires Dexterity 16, despite the general table listing a minimum of 6.",
+      "Glide 50 feet per round, with maximum horizontal range equal to three times the starting height. Reduce range by 20 feet per 100 coin-weight carried. Armor or shield use prevents gliding. While gliding, the character cannot fight, use somatic spell components, or perform tasks that need two hands.",
+      "At 3rd level, favorable winds allow level flight or a climb of 10 feet per 60 feet of travel in normal winds, or per 30 feet in strong breezes. High winds prevent controlled flight. At 7th level, use pass plant once per day.",
+      "Charisma is reduced by 1 with most other humanoids and by 2 with humans and non-elven demihumans. Treat Charisma as 3 when dealing with araneas. Speak Jibar, which uses gestures and vocalizations.",
+      "Class limits through fighter 9, ranger 10, mage 8, priest 10, druid 13, thief 15, bard 8, and optional psionicist 7 per Table 1.7. The character prose omits bard. Multiclass choices are fighter/thief, ranger/priest, and fighter/psionicist."
+    ]
+  },
+  {
+    "name": "Shazak",
+    "kind": "species",
+    "publication": "Orc’s Head Peninsula Sourcebook (1996)",
+    "edition": "AD&D 2nd edition",
+    "traits": [
+      "Medium lizard kin, usually six to seven feet tall. Tough scales provide natural AC 5. Swimming is a bonus nonweapon proficiency. Speak Shazak, a language closely related to Malpheggi.",
+      "Strength +1 and Wisdom −1. Before adjustments, Strength 8–18, Constitution 6–18, Intelligence 3–17, and Charisma 3–16. Dexterity and Wisdom range from 3 to 18.",
+      "Class limits through fighter 12, wizard 7, priest 10, thief 11, bard 8, and optional psionicist 9. Fighter/thief and fighter/psionicist are the two multiclass combinations. The home culture restricts access to kits.",
+      "Thieving adjustments are −5 percentage points to pick pockets, open locks, climb walls, and read languages, and +5 each to move silently, hide in shadows, and detect noise."
+    ]
+  },
+  {
+    "name": "Wallara",
+    "kind": "species",
+    "publication": "Orc’s Head Peninsula Sourcebook (1996)",
+    "edition": "AD&D 2nd edition",
+    "traits": [
+      "Slender, mottled humanoid with natural AC 9 and no infravision. Strength −1. Dexterity +1 for most characters, or Wisdom +1 for a Mendoo. No initial Legacy in Wallara.",
+      "Vanish as a full action on a successful Intelligence check. The jump works like dimension door out to 120 feet and cannot place the wallara inside a solid object. It can be attempted every round.",
+      "From 3rd level, blending makes the wallara effectively invisible to other peoples while completely silent and immobile. It can be used at will for up to one hour per level at a time. Other wallaras can see through it. Armor disables both vanish and blending.",
+      "Bonus Tracking with a −3 adjustment in place of the normal −6, plus Ancient History and Local History. Can find the way home within 10 miles. Speak Risil. Apply a Charisma penalty of 1 with other humanoids or 2 with humans and demihumans.",
+      "Class table lists fighter 12, ranger 15, wizard 10, priest 10, thief 11, bard 10, and optional psionicist 9. The character prose omits bard. Wizards are limited to diviner, abjurer, or necromancer. Wallaras use their cultural kits and cannot multiclass."
+    ]
+  },
+  {
+    "name": "Lupin",
+    "kind": "species",
+    "publication": "Savage Coast Campaign Book, Part 2: Player Characters",
+    "edition": "AD&D 2nd edition",
+    "traits": [
+      "Medium, dog-headed humanoid with base AC 10, infravision 60 feet, and keen hearing and scent. Strength and Constitution +1, Intelligence and Wisdom −1. Raw Strength and Constitution must be at least 8.",
+      "Automatically gain Blind-fighting. Tracking uses half Wisdom rounded up, full Wisdom if learned through slots, or Wisdom +6 as a ranger. Detect Noise begins at 35%, adding 2 percentage points per level after 1st. Thieves can invest skill points in it.",
+      "A save at +4 can detect the presence of an invisible or ethereal being. Check as soon as one approaches to within 10 feet, then each round it stays that close. The save alone gives neither exact position nor a way to affect an ethereal creature.",
+      "Recognize werewolves in any form 99% of the time and other lupins in unusual forms 15% of the time. Identify a familiar species by scent automatically or a familiar individual with an Intelligence check. Masking odors can impose −1 to −4.",
+      "Take −2 on saves against sound or odor attacks. Swallowed wolfsbane acts as Type J poison, fatal on failure and inflicting 20 HP on a successful save. Injected wolfsbane acts as Type P, halving ability scores for 1d3 days on a failed save. Natural bite deals 1d4, speed 3, with a proficiency slot needed to avoid the nonproficiency penalty.",
+      "Class limits through fighter 13, unlimited ranger, wizard 12, cleric 15, druid 13, thief 13, and bard 9. No paladin. Lupin or Renardois is the native-language choice. Common is suggested as an additional starting language."
+    ]
+  },
+  {
+    "name": "Rakasta",
+    "kind": "species",
+    "publication": "Savage Coast Campaign Book, Part 2: Player Characters",
+    "edition": "AD&D 2nd edition",
+    "traits": [
+      "Medium feline humanoid with natural AC 10 and infravision 60 feet. Dexterity +2 and Wisdom −2. Raw Strength must be at least 9 and Dexterity at least 8.",
+      "Halve damage from falls. Gain Blind-fighting automatically. Detect Noise starts at 20%, including the racial bonus, and a thief may add points to it. Take −1 on saving throws against sound-based attacks.",
+      "Save at +4 to notice an invisible or ethereal being as it approaches within 10 feet and in every round it stays there. This reveals presence and whether it is ethereal. Locating or affecting it requires other means.",
+      "Natural bite 1d4, speed 2. Front claws 1d2 each, speed 1. Bare rear claws 1d3 each, speed 3, after grappling or securing a hold with both front claws. Natural attacks use Strength and separate proficiencies for bite, front claws, and rear claws.",
+      "Front-claw proficiency grants war-claw proficiency. A worn pair grants one extra attack per round and incurs no two-weapon penalties for a character who has natural claws. Speed 1 with natural claws. Each war claw deals 1d4 against small or medium targets or 1d3 against large targets in place of the natural claw damage.",
+      "Class limits through fighter 15, ranger 11, wizard 15, cleric 12, druid 13, thief 15, and unlimited bard. No paladin. Speak Rakastan. Common is suggested as an additional starting language."
+    ]
+  }
+]

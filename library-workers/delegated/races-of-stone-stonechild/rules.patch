@@ -1,0 +1,181 @@
+diff --git a/dm-library/bestiary/book-catalog.json b/dm-library/bestiary/book-catalog.json
+--- a/dm-library/bestiary/book-catalog.json
++++ b/dm-library/bestiary/book-catalog.json
+@@ -311662,6 +311662,28 @@
+       ]
+     },
+     {
++      "name": "Stonechild",
++      "kind": "species",
++      "publication": "Races of Stone (2004)",
++      "edition": "3.5 edition",
++      "traits": [
++        "Medium Outsider with the Earth subtype. The printed profile lists Extraplanar. Apply that subtype when away from the native plane. Base land speed 30 ft. Darkvision sees in black and white out to 60 ft.",
++        "Full ancestry gives +8 Strength, +8 Constitution, +2 Intelligence, −2 Charisma, and +4 natural armor.",
++        "Immune to acid and poison.",
++        "Full ancestry has 2d8 racial Hit Dice, BAB +2, and base Fortitude, Reflex, and Will +3 each. It grants one feat plus Blind-Fight as a bonus feat. Level adjustment +4 gives ECL 6 before any class levels.",
++        "Racial skill points are 5 × (8 + Intelligence modifier). Racial class skills are Appraise, Climb, Craft (stoneworking), Intimidate, Knowledge (history), Knowledge (the planes), Listen, Search, Spot, and Survival.",
++        "Proficient with simple and martial weapons, light and medium armor, and shields other than tower shields.",
++        "Full ancestry can use Magic Stone (Sp) three times per day at caster level 3.",
++        "Each use of Magic Stone (Sp) enchants up to three touched pebbles for 30 minutes or until discharged. The printed spell lists 1d6+1 damage on a hit, or 2d6+2 against undead. Use a normal ranged attack with a +1 enhancement bonus, at a 20-ft. increment if thrown or 50 ft. if slung.",
++        "Common and Terran are automatic. Bonus languages are Celestial, Dwarven, and Ignan. Favored class Fighter.",
++        "The optional six-level Stonechild monster class starts before the full ancestry is available. Its starting adjustments are +2 Constitution, +2 Intelligence, and −2 Charisma. It starts Medium with 30-ft. speed, darkvision 60 ft., acid and poison immunity, and the listed proficiencies.",
++        "At monster-class level 1, gain 1d8 racial Hit Die, BAB +1, base saves +2, one feat, and (8 + Intelligence modifier) × 4 skill points. At level 2 add +2 Strength and +2 Constitution and reach +1 natural armor.",
++        "At level 3 add another +2 Strength and +2 Constitution. Natural armor rises to +2 and Magic Stone becomes available 1/day at caster level 3. At level 4 gain the second 1d8 racial Hit Die, BAB +2 total, base saves +3, (8 + Intelligence modifier) skill points and bonus Blind-Fight.",
++        "At level 5 add +2 Strength and +2 Constitution, reach +3 natural armor, and use Magic Stone 2/day. At level 6 add +2 Strength, reach +4 natural armor, and use Magic Stone 3/day. Its caster level stays 3.",
++        "The monster class incorporates the four points of level adjustment and ends with the same two racial Hit Dice and full traits. Complete it before multiclassing. Table 4–5 lists CR 1, 1, 1, 2, 3, and 3 for its six levels."
++      ]
++    },
++    {
+       "edition": "2014 fifth edition",
+       "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+       "name": "Orc",
+diff --git a/dm-library/bestiary/npc-encounters.json b/dm-library/bestiary/npc-encounters.json
+--- a/dm-library/bestiary/npc-encounters.json
++++ b/dm-library/bestiary/npc-encounters.json
+@@ -1373,6 +1373,105 @@
+       "tactics": "Veyric asks the party to search for the missing rubbing before anyone touches the inscribed threshold. He examines the marks by sigil light and uses grease to hinder pursuit if the group has to retreat."
+     },
+     {
++      "id": "stonechild-cartwright-35e",
++      "title": "Stonechild cartwright, 2 Outsider HD and Fighter 1",
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
++      "difficulty": "Provisional CR 4. ECL 7.",
++      "size": "Medium",
++      "type": "Outsider (Earth, Extraplanar)",
++      "ac": 21,
++      "hp": 37,
++      "hitDice": "2d8+1d10+18",
++      "initiative": 1,
++      "speed": "30 ft.",
++      "abilityScores": {
++        "STR": 23,
++        "DEX": 12,
++        "CON": 22,
++        "INT": 12,
++        "WIS": 12,
++        "CHA": 8
++      },
++      "skills": [
++        "Appraise +6, or +8 on related stonework",
++        "Climb +8",
++        "Craft (stoneworking) +10",
++        "Intimidate +0",
++        "Knowledge (history) +6",
++        "Knowledge (the planes) +6",
++        "Listen +6",
++        "Search +6",
++        "Spot +6",
++        "Survival +6"
++      ],
++      "senses": "Darkvision 60 ft.",
++      "languages": "Common, Terran, Dwarven",
++      "traits": [
++        "Chain shirt +4, heavy wooden shield +2, natural armor +4, and Dexterity +1. Touch 11, flat-footed 20. Armor check penalty −4. BAB +3, grapple +9. Fortitude +11, Reflex +4, Will +4.",
++        "Immune to acid and poison.",
++        "Blind-Fight is racial. The other feats are Skill Focus (Craft [stoneworking]), Power Attack, and Weapon Focus (warhammer). Weapon Focus and Skill Focus are included in the totals.",
++        "Search gives +2 synergy on Survival to follow tracks. Knowledge (the planes) gives +2 synergy on Survival on other planes. Apply both when both conditions hold.",
++        "Miren is on the Material Plane. She has two racial Hit Dice, one Fighter Hit Die, and +4 level adjustment."
++      ],
++      "actions": [
++        "Warhammer +10 melee, 1d8+6 bludgeoning, critical ×3, 5-ft. reach. For Power Attack, subtract up to 3 from melee attack rolls and add the same number to damage with the one-handed warhammer.",
++        "Javelin +4 ranged, 1d6+6 piercing, critical ×2, 30-ft. increment.",
++        "Magic Stone 3/day, caster level 3. Miren can throw an enchanted pebble at +5.",
++        "Each use of Magic Stone (Sp) enchants up to three touched pebbles for 30 minutes or until discharged. The printed spell lists 1d6+1 damage on a hit, or 2d6+2 against undead. Use a normal ranged attack with a +1 enhancement bonus, at a 20-ft. increment if thrown or 50 ft. if slung."
++      ],
++      "tactics": "Miren checks the cracked axle before anyone pulls the cart across the ford. She asks the party to bring the two stone bearing blocks from upstream. If the disturbance reaches the bank, she uses her shield to cover the crew and saves enchanted pebbles for undead."
++    },
++    {
++      "id": "stonechild-quarry-marker-35e",
++      "title": "Stonechild quarry marker, Stonechild monster class 3",
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
++      "difficulty": "Provisional CR 1. ECL 3.",
++      "size": "Medium",
++      "type": "Outsider (Earth, Extraplanar)",
++      "ac": 16,
++      "hp": 13,
++      "hitDice": "1d8+5",
++      "initiative": 1,
++      "speed": "30 ft.",
++      "abilityScores": {
++        "STR": 17,
++        "DEX": 12,
++        "CON": 20,
++        "INT": 14,
++        "WIS": 10,
++        "CHA": 8
++      },
++      "skills": [
++        "Appraise +6",
++        "Climb +6",
++        "Craft (stoneworking) +6",
++        "Intimidate +3",
++        "Knowledge (history) +6",
++        "Knowledge (the planes) +6",
++        "Listen +6",
++        "Search +6",
++        "Spot +6",
++        "Survival +4"
++      ],
++      "senses": "Darkvision 60 ft.",
++      "languages": "Common, Terran, Dwarven, Ignan",
++      "traits": [
++        "Studded leather +3, natural armor +2, Dexterity +1. Touch 11, flat-footed 15. Armor check penalty −1. BAB +1, grapple +4. Fortitude +7, Reflex +3, Will +2.",
++        "Immune to acid and poison.",
++        "At monster-class level 3, Nalin has one racial Hit Die and +4 Strength, +6 Constitution, +2 Intelligence, and −2 Charisma from the progression. The second Hit Die and Blind-Fight arrive at level 4.",
++        "Each listed class skill has four ranks. Alertness adds +2 to Listen and Spot, already included. Nalin is on the Material Plane."
++      ],
++      "actions": [
++        "Longspear +4 melee, 1d8+4 piercing, critical ×3, hits at 10 ft.",
++        "Heavy mace +4 melee, 1d8+3 bludgeoning, critical ×2, 5-ft. reach.",
++        "Magic Stone 1/day, caster level 3. Nalin can throw an enchanted pebble at +3.",
++        "Each use of Magic Stone (Sp) enchants up to three touched pebbles for 30 minutes or until discharged. The printed spell lists 1d6+1 damage on a hit, or 2d6+2 against undead. Use a normal ranged attack with a +1 enhancement bonus, at a 20-ft. increment if thrown or 50 ft. if slung."
++      ],
++      "tactics": "Nalin is replacing chipped boundary markers before the quarry crews change shifts. He asks the party to walk the new line with him and find the marker that moved overnight. If threatened, he keeps watch from behind the boundary wall with three enchanted pebbles at hand."
++    },
++    {
+       "id": "elan-archive-conservator-35e",
+       "title": "Elan archive conservator, Seer Psion 1",
+       "origin": "Original DM Library NPC",
+@@ -2366,6 +2465,28 @@
+       "hook": "Rellan is holding the manifest until a neutral party can compare it with the shipowner's advances book."
+     },
+     {
++      "species": "Stonechild",
++      "size": "Medium",
++      "edition": "3.5 edition",
++      "speciesPublication": "Races of Stone (2004)",
++      "name": "Miren Slatefold",
++      "build": "stonechild-cartwright-35e",
++      "role": "Cartwright and Fighter.",
++      "motive": "Repair the cracked axle before a wagon and its crew have to ford the river.",
++      "hook": "Miren can replace the bearing blocks if the party carries them down from the old landing."
++    },
++    {
++      "species": "Stonechild",
++      "size": "Medium",
++      "edition": "3.5 edition",
++      "speciesPublication": "Races of Stone (2004)",
++      "name": "Nalin Flintwell",
++      "build": "stonechild-quarry-marker-35e",
++      "role": "Quarry marker and Stonechild monster class 3.",
++      "motive": "Determine why one boundary marker is out of line before the next shift begins.",
++      "hook": "Nalin asks the party to follow the quarry line and check the stone that moved overnight."
++    },
++    {
+       "species": "Orc of Exandria",
+       "size": "Medium",
+       "edition": "2014 fifth edition",
+diff --git a/dm-library/bestiary/entries.tsv b/dm-library/bestiary/entries.tsv
+--- a/dm-library/bestiary/entries.tsv
++++ b/dm-library/bestiary/entries.tsv
+@@ -9078,6 +9078,7 @@
+ Stone Sifter	monster	Aberration	Monster Vault 2	Black Flag Roleplaying	Kobold Press	https://koboldpress.com/tools/search-tov-kobold-press-monsters/	10.0
+ Stone Warrior	monster	Construct	Princes of the Apocalypse	2014 fifth edition	Wizards of the Coast		4
+ Stoneback Isopod	beast	Beast	Flee, Mortals!	2014 fifth edition compatible	MCDM	https://www.dndbeyond.com/monsters/4486009-stoneback-isopod	2
++Stonechild	species	Outsider (Earth, Extraplanar)	Races of Stone (2004)	3.5 edition	Wizards of the Coast	https://openlibrary.org/books/OL8144379M	
+ Stonecloak	monster	Construct	Waterdeep: Dungeon of the Mad Mage	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/276622-stonecloak	10
+ Stonemelder	monster	Humanoid	Princes of the Apocalypse	2014 fifth edition	Wizards of the Coast		4
+ Stonemelder Edo	monster	Humanoid	DDEP2 - Mulmaster Undone V2	2014 fifth edition	Wizards of the Coast		4

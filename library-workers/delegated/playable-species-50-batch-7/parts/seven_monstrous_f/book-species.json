@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Displacer Beast",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra, published on DMs Guild for the 2014 fifth-edition rules. Displacer Beast Traits, p. 64 in the original and v2.",
+      "Medium Monstrosity with 30 ft. walking speed. Strength and Constitution each increase by 1. Unarmored AC is 12 + Dexterity modifier.",
+      "The feline body has six legs and two shoulder tentacles with barbed pads. Tentacle unarmed strikes deal 1d4 bludgeoning and 1d4 piercing damage on a hit.",
+      "Understands, reads, and writes Common. It cannot speak or supply verbal spell components. Without hands, it cannot wield weapons or shields or use tools, spellcasting foci, or other equipment that needs manipulation.",
+      "At character level 5, use an action to become displaced for up to 1 minute with concentration. Attacks against the beast have disadvantage unless the attacker can fight without sight or can see through the illusion. One use per short or long rest."
+    ]
+  },
+  {
+    "name": "Dragon Turtle",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra, published on DMs Guild for the 2014 fifth-edition rules. Dragon Turtle Traits, p. 71 in the original and v2.",
+      "Medium Dragon with 20 ft. walking and 40 ft. swimming speeds. Strength and Constitution each increase by 1. Unarmored AC is 14 + Dexterity modifier.",
+      "Its bite is a proficient unarmed strike that deals 1d8 slashing damage. It cannot wield weapons or shields or manipulate spellcasting foci, tools, or similar items. Speaks, reads, and writes Aquan and Draconic.",
+      "As an action, exhale scalding steam in a 15-ft. cone. Save DC is 8 + proficiency bonus + Constitution modifier. Each target takes 2d6 fire on failure or half on success. Damage rises to 3d6 at character level 6, 4d6 at 11, and 5d6 at 16. One use per short or long rest.",
+      "The player text leaves the target's save ability unstated. Brack uses a Constitution save as a table ruling based on the 2014 dragon turtle's Steam Breath."
+    ]
+  },
+  {
+    "name": "Mimic",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra, published on DMs Guild for the 2014 fifth-edition rules. Mimic Traits, p. 142 in the original and p. 146 in v2.",
+      "Medium Monstrosity with 15 ft. walking speed. Strength and Constitution each increase by 1. Unarmored AC is 11 + Dexterity modifier. The mimic lacks hands, cannot use armor or shields, and cannot wield weapons or manipulate foci, tools, or similar equipment. Speaks, reads, and writes Common.",
+      "Use an action to switch between object form and the true amorphous form. Both forms use the same statistics. Gear keeps its own shape. The mimic returns to its true form on death.",
+      "An object-form mimic can spend its reaction to adhere to a touching object or creature of Huge size or smaller. Ability checks to escape that grapple have disadvantage. It has advantage on attack rolls against any creature it grapples.",
+      "Proficient unarmed attacks can use a bite for 1d4 piercing and 1d4 acid or a pseudopod for 1d8 bludgeoning. After a successful pseudopod strike made with the Attack action, use a bonus action to try to grapple that target despite having no hands.",
+      "In object form, False Appearance takes 1 minute of motionlessness with concentration. The mimic looks like an ordinary object while it remains still."
+    ]
+  }
+]

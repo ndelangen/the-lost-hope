@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Tibbit",
+    "slug": "tibbit",
+    "caption": "Pell Fenwick · Original Tibbit NPC",
+    "id": "species-ba342ff2ebf19e78a1e800a8:69de5f0dccf2c5adf75d4791",
+    "entry": "species-ba342ff2ebf19e78a1e800a8",
+    "version": "69de5f0dccf2c5adf75d4791",
+    "suffix": "encounters-98/tibbit.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-98/tibbit.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-98/event-drafts/tibbit-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 98 2026-11-24/event-drafts/tibbit-event-v1.png",
+    "overrides": [],
+    "sha256": "74678c44b5a3126126fdd3f7964d0ad55d61bb2da5730e32d6ba6c2cd7cdb9e0",
+    "bytes": 2050383
+  }
+]

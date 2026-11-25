@@ -1,0 +1,332 @@
+[
+  {
+    "name": "Giant Spider",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 14,
+    "hp": 26,
+    "hitDice": "4d10 + 4",
+    "speed": "30 ft., climb 30 ft.",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Natural armor. Stealth +7. Blindsight 10 ft., darkvision 60 ft., and passive Perception 10. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A dark orb-weaver with a round chestnut abdomen, muted gold markings, and eight long slender legs.",
+    "habitats": [
+      "Underground",
+      "Caves",
+      "Underdark",
+      "Forest",
+      "Swamp",
+      "Urban",
+      "Desert"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, D&D Basic Rules, Version 1.0 (November 2018), p. 136. ",
+      "Traits": "Spider Climb. Climb difficult surfaces, including ceilings while upside down, without an ability check.\nWeb Sense. While touching a web, the spider knows the exact location of any other creature touching that same web.\nWeb Walker. The spider ignores restrictions that webbing would impose on its movement.",
+      "Actions": "Bite. Melee weapon attack, +5 to hit, reach 5 ft., one creature. On a hit, deal 7 (1d8 + 3) piercing damage. The creature makes a DC 11 Constitution save, taking 9 (2d8) poison damage on a failure or half on a success. If that poison damage drops it to 0 HP, it is stable and poisoned for 1 hour, even if it regains HP. While poisoned by this effect, it is paralyzed.\nWeb (Recharge 5–6). Ranged weapon attack, +5 to hit, range 30/60 ft., one creature. A hit restrains the creature. It can use an action to break the webbing with a successful DC 12 Strength check. Destroying the webbing also frees the creature. The webbing has AC 10 and 5 HP, vulnerability to fire damage, and immunity to bludgeoning, poison, and psychic damage.",
+      "At the table": "After Web is used, roll a d6 at the start of the spider’s turns. Web returns on a 5 or 6, or after the spider finishes a short or long rest."
+    }
+  },
+  {
+    "name": "Giant Spider",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 14,
+    "hp": 26,
+    "hitDice": "4d10 + 4",
+    "speed": "30 ft., climb 30 ft.",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Natural armor. Stealth +7. Blindsight 10 ft., darkvision 60 ft., and passive Perception 10. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A dark orb-weaver with a round chestnut abdomen, muted gold markings, and eight long slender legs.",
+    "habitats": [
+      "Underground",
+      "Caves",
+      "Underdark",
+      "Forest",
+      "Swamp",
+      "Urban",
+      "Desert"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), p. 328. https://online.anyflip.com/pqhqn/sezy/files/basic-html/page329.html",
+      "Traits": "Spider Climb. Climb difficult surfaces, including ceilings while upside down, without an ability check.\nWeb Sense. While touching a web, the spider knows the exact location of any other creature touching that same web.\nWeb Walker. The spider ignores restrictions that webbing would impose on its movement.",
+      "Actions": "Bite. Melee weapon attack, +5 to hit, reach 5 ft., one creature. On a hit, deal 7 (1d8 + 3) piercing damage. The creature makes a DC 11 Constitution save, taking 9 (2d8) poison damage on a failure or half on a success. If that poison damage drops it to 0 HP, it is stable and poisoned for 1 hour, even if it regains HP. While poisoned by this effect, it is paralyzed.\nWeb (Recharge 5–6). Ranged weapon attack, +5 to hit, range 30/60 ft., one creature. A hit restrains the creature. It can use an action to break the webbing with a successful DC 12 Strength check. Destroying the webbing also frees the creature. The webbing has AC 10 and 5 HP, vulnerability to fire damage, and immunity to bludgeoning, poison, and psychic damage.",
+      "At the table": "After Web is used, roll a d6 at the start of the spider’s turns. Web returns on a 5 or 6, or after the spider finishes a short or long rest."
+    }
+  },
+  {
+    "name": "Giant Toad",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 11,
+    "hp": 39,
+    "hitDice": "6d10 + 6",
+    "speed": "20 ft., swim 40 ft.",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Darkvision 30 ft. Passive Perception 10. No listed skills or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A squat gray-brown toad with warty skin, two rounded swellings behind the eyes, and heavy folded hindlegs.",
+    "habitats": [
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Swamp",
+      "Underdark"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, D&D Basic Rules, Version 1.0 (November 2018), p. 136. ",
+      "Traits": "Amphibious. The toad breathes both air and water.\nStanding Leap. Its long jump can reach 20 ft. and its high jump 10 ft. It needs no running start for either.",
+      "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one target. On a hit, deal 7 (1d10 + 2) piercing plus 5 (1d10) poison damage and grapple the target (escape DC 13). The target is restrained for the duration of the grapple, and the toad cannot use Bite against another target while it maintains that grapple.\nSwallow. Make a Bite attack against one Medium or smaller target the toad is grappling. On a hit, the toad swallows the target and the grapple ends. A swallowed target is blinded and restrained, has total cover from attacks and other effects outside the toad, and takes 10 (3d6) acid damage at the start of each of the toad’s turns. The toad can have only one target swallowed at a time. If the toad dies, a swallowed creature is no longer restrained by it and can spend 5 ft. of movement to climb out of the corpse, emerging prone."
+    }
+  },
+  {
+    "name": "Giant Toad",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 11,
+    "hp": 39,
+    "hitDice": "6d10 + 6",
+    "speed": "20 ft., swim 40 ft.",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Darkvision 30 ft. Passive Perception 10. No listed skills or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A squat gray-brown toad with warty skin, two rounded swellings behind the eyes, and heavy folded hindlegs.",
+    "habitats": [
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Swamp",
+      "Underdark"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), p. 329. https://online.anyflip.com/pqhqn/sezy/files/basic-html/page330.html",
+      "Traits": "Amphibious. The toad breathes both air and water.\nStanding Leap. Its long jump can reach 20 ft. and its high jump 10 ft. It needs no running start for either.",
+      "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one target. On a hit, deal 7 (1d10 + 2) piercing plus 5 (1d10) poison damage and grapple the target (escape DC 13). The target is restrained for the duration of the grapple, and the toad cannot use Bite against another target while it maintains that grapple.\nSwallow. Make a Bite attack against one Medium or smaller target the toad is grappling. On a hit, the toad swallows the target and the grapple ends. A swallowed target is blinded and restrained, has total cover from attacks and other effects outside the toad, and takes 10 (3d6) acid damage at the start of each of the toad’s turns. The toad can have only one target swallowed at a time. If the toad dies, a swallowed creature is no longer restrained by it and can spend 5 ft. of movement to climb out of the corpse, emerging prone."
+    }
+  },
+  {
+    "name": "Giant Vulture",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, neutral evil",
+    "ac": 10,
+    "hp": 22,
+    "hitDice": "3d10 + 6",
+    "speed": "10 ft., fly 60 ft.",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 6,
+        "modifier": -2
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Perception +3. Passive Perception 13. No listed special senses. Understands Common but cannot speak.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A dark brown vulture with a bare clay-pink head and neck, a pale ruff, and a heavy hooked slate beak.",
+    "habitats": [
+      "Desert",
+      "Grassland"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, D&D Basic Rules, Version 1.0 (November 2018), p. 136. ",
+      "Traits": "Keen Sight and Smell. Apply advantage on Wisdom (Perception) checks based on sight or smell.\nPack Tactics. The vulture gains advantage on an attack roll against a creature if one of its allies is within 5 ft. of the target and is not incapacitated.",
+      "Actions": "Multiattack. Make one Beak attack and one Talons attack.\nBeak. Melee weapon attack, +4 to hit, reach 5 ft., one target. On a hit, deal 7 (2d4 + 2) piercing damage.\nTalons. Melee weapon attack, +4 to hit, reach 5 ft., one target. On a hit, deal 9 (2d6 + 2) slashing damage."
+    }
+  },
+  {
+    "name": "Giant Vulture",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, neutral evil",
+    "ac": 10,
+    "hp": 22,
+    "hitDice": "3d10 + 6",
+    "speed": "10 ft., fly 60 ft.",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 6,
+        "modifier": -2
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Perception +3. Passive Perception 13. No listed special senses. Understands Common but cannot speak.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A dark brown vulture with a bare clay-pink head and neck, a pale ruff, and a heavy hooked slate beak.",
+    "habitats": [
+      "Desert",
+      "Grassland"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), p. 329. https://online.anyflip.com/pqhqn/sezy/files/basic-html/page330.html",
+      "Traits": "Keen Sight and Smell. Apply advantage on Wisdom (Perception) checks based on sight or smell.\nPack Tactics. The vulture gains advantage on an attack roll against a creature if one of its allies is within 5 ft. of the target and is not incapacitated.",
+      "Actions": "Multiattack. Make one Beak attack and one Talons attack.\nBeak. Melee weapon attack, +4 to hit, reach 5 ft., one target. On a hit, deal 7 (2d4 + 2) piercing damage.\nTalons. Melee weapon attack, +4 to hit, reach 5 ft., one target. On a hit, deal 9 (2d6 + 2) slashing damage."
+    }
+  }
+]

@@ -20,4 +20,5 @@ export default createEvent({
       'They planned to find a crossroads on solid ground. The ritual was not performed and the broom remained missing.',
     ],
   ],
+  illustrations: ['/assets/scenes/the-party-plans-a-crossroads-ritual-for-swift-s-broom.png'],
 })

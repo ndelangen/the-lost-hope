@@ -1,0 +1,360 @@
+[
+  {
+    "name": "Amnizu",
+    "statBlock": {
+      "name": "Amnizu",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 164,
+      "classification": "Medium fiend (devil), lawful evil",
+      "ac": 21,
+      "hp": 202,
+      "hitDice": "27d8 + 81",
+      "speed": "30 ft., fly 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 20
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "18",
+      "xp": 20000,
+      "passivePerception": 17,
+      "description": "An officer of the Nine Hells that marshals lemures into infernal legions and guards fortresses along the River Styx.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 7
+      },
+      "savingThrows": {
+        "Dex": 7,
+        "Con": 9,
+        "Wis": 7,
+        "Cha": 10
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold. Bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered.",
+        "Damage immunities": "Fire, poison.",
+        "Condition immunities": "Charmed, poisoned.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Common, Infernal, telepathy 1,000 ft.",
+        "Traits": "Devil's Sight. Magical darkness doesn't interfere with the amnizu's darkvision.\nMagic Resistance. The amnizu makes saving throws against spells and other magical effects with advantage.",
+        "Innate Spellcasting": "Intelligence (spell save DC 19, +11 to hit with spell attacks). No material components.\nAt will. Charm Person, Command.\n3/day each. Dominate Person, Fireball.\n1/day each. Dominate Monster, Feeblemind.",
+        "Actions": "Multiattack. Use Poison Mind, make one Taskmaster Whip attack, and make one Disruptive Touch attack.\nTaskmaster Whip. Melee weapon attack, +11 to hit, reach 10 ft., one target. A hit deals 10 (2d4 + 5) slashing damage and 33 (6d10) force damage.\nDisruptive Touch. Melee spell attack, +11 to hit, reach 5 ft., one target. A hit deals 44 (8d10) necrotic damage.\nPoison Mind. Pick one or two visible creatures within 60 ft. Each makes a DC 19 Wisdom save. On a failure it takes 26 (4d12) necrotic damage and is blinded until the start of the amnizu's next turn.\nForgetfulness (Recharge 6). Pick one visible creature within 60 ft. On a failed DC 18 Intelligence save, it is stunned for 1 minute. It repeats the save at the end of each of its turns, ending the stun on a success. A target stunned for the full minute loses all memory of the preceding 5 hours of sensations, experiences, and learning.",
+        "Reactions": "Instinctive Charm. When a creature within 60 ft. makes an attack roll against the amnizu and has another creature within that attack's range, the amnizu can force the attacker to make a DC 19 Wisdom save. On a failure it redirects the attack to the nearest creature other than itself or the amnizu, choosing among ties. On a success the attacker gains immunity to this amnizu's Instinctive Charm for 24 hours.",
+        "Devil Summoning variant": "Some amnizus gain this optional action.\nSummon Devil (1/day). Summon 2d4 Bearded Devils or 1d4 Barbed Devils in unoccupied spaces within 60 ft. They act as allies and cannot summon other devils. They remain for 1 minute or until the amnizu dies or uses an action to dismiss them.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 164."
+      }
+    }
+  },
+  {
+    "name": "Armanite",
+    "statBlock": {
+      "name": "Armanite",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 131,
+      "classification": "Large fiend (demon), chaotic evil",
+      "ac": 16,
+      "hp": 84,
+      "hitDice": "8d10 + 40",
+      "speed": "60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 21
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "cr": "7",
+      "xp": 2900,
+      "passivePerception": 11,
+      "description": "Abyssal heavy cavalry that tears through the flanks of an enemy formation and opens gaps with lightning.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold, fire, lightning.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Abyssal, telepathy 120 ft.",
+        "Traits": "Magic Resistance. The armanite makes saving throws against spells and other magical effects with advantage.\nMagic Weapons. The armanite's weapon attacks count as magical.",
+        "Actions": "Multiattack. Make one Hooves attack, one Claws attack, and one Serrated Tail attack.\nHooves. Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 12 (2d6 + 5) bludgeoning damage.\nClaws. Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 10 (2d4 + 5) slashing damage.\nSerrated Tail. Melee weapon attack, +8 to hit, reach 10 ft., one target. A hit deals 16 (2d10 + 5) slashing damage.\nLightning Lance (Recharge 5–6). Each creature in a 60-ft. line 10 ft. wide makes a DC 15 Dexterity save. It takes 27 (6d8) lightning damage on a failure or half on a success.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 131."
+      }
+    }
+  },
+  {
+    "name": "Astral Dreadnought",
+    "statBlock": {
+      "name": "Astral Dreadnought",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 117,
+      "classification": "Gargantuan monstrosity (titan), unaligned",
+      "ac": 20,
+      "hp": 297,
+      "hitDice": "17d20 + 119",
+      "speed": "15 ft., fly 80 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 28
+        },
+        "Dex": {
+          "score": 7
+        },
+        "Con": {
+          "score": 25
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "21",
+      "xp": 33000,
+      "passivePerception": 19,
+      "description": "A lone predator of the Astral Plane whose single eye suppresses magic. Creatures it swallows arrive in a cavern holding the remains of past meals.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 9
+      },
+      "savingThrows": {
+        "Dex": 5,
+        "Wis": 9
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Condition immunities": "Charmed, exhaustion, frightened, paralyzed, petrified, poisoned, prone, stunned.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "None.",
+        "Traits": "Antimagic Cone. The open eye projects Antimagic Field in a 150-ft. cone. Choose its direction at the start of each of the dreadnought's turns. The cone stops when the eye closes or the dreadnought is blinded.\nAstral Entity. The dreadnought cannot willingly leave the Astral Plane or be transported or banished out of it.\nDemiplanar Donjon. Swallowed creatures and objects enter a stone cavern 1,000 ft. across and 100 ft. high. Wish and Donjon Visit are the only other ways in. Only planar travel magic such as Plane Shift lets creatures leave. The dreadnought cannot be harmed from inside the cavern. The cavern cannot be destroyed while it lives. When it dies, the cavern vanishes and deposits everything inside around its corpse.\nLegendary Resistance (3/day). The dreadnought can turn a failed save into a success.\nMagic Weapons. The dreadnought's weapon attacks count as magical.\nSever Silver Cord. On a critical hit against a creature traveling by Astral Projection, it can cut that creature's silver cord instead of dealing damage.",
+        "Actions": "Multiattack. Make one Bite attack and two Claw attacks.\nBite. Melee weapon attack, +16 to hit, reach 10 ft., one target. A hit deals 36 (5d10 + 9) piercing damage. If the target is a Huge or smaller creature and is incapacitated or dropped to 0 HP by this damage, swallow it. It and its gear appear in an unoccupied space on the Donjon floor.\nClaw. Melee weapon attack, +16 to hit, reach 20 ft., one target. A hit deals 19 (3d6 + 9) slashing damage.",
+        "Legendary actions": "The dreadnought has 3 legendary actions and can spend the listed cost for one option at the end of another creature's turn. It regains spent actions at the start of its turn. It cannot use them while incapacitated or otherwise unable to act. If surprised, it can use them after its first turn.\nClaw (1 action). Make one Claw attack.\nDonjon Visit (2 actions). A visible Huge or smaller creature within 60 ft. makes a DC 19 Charisma save. On a failure it teleports magically to an unoccupied space on the Donjon floor. At the end of its next turn it returns to the space it left, or the nearest unoccupied space if that space is filled.\nPsychic Projection (3 actions). Each creature within 60 ft. makes a DC 19 Wisdom save. It takes 15 (2d10 + 4) psychic damage on a failure or half on a success.",
+        "Titanic Nature": "The dreadnought needs no air, food, drink, or sleep. The Donjon has gravity and breathable air, and organic matter decays there.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 117."
+      }
+    }
+  },
+  {
+    "name": "Autumn Eladrin",
+    "statBlock": {
+      "name": "Autumn Eladrin",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 195,
+      "classification": "Medium fey (elf), chaotic neutral",
+      "ac": 19,
+      "hp": 127,
+      "hitDice": "17d8 + 51",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 17
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "10",
+      "xp": 5900,
+      "passivePerception": 13,
+      "description": "In the autumn aspect, an eladrin heals and shelters those who seek aid. Violence in its presence draws a swift response.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Insight": 7,
+        "Medicine": 7
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Elvish, Sylvan.",
+        "Traits": "Enchanting Presence. A creature other than an eladrin that starts its turn within 60 ft. makes a DC 16 Wisdom save. On a failure the eladrin charms it for 1 minute. On a success the creature gains immunity to any eladrin's Enchanting Presence for 24 hours. The target can repeat the save whenever the eladrin damages it, ending the charm on a success.\nMagic Resistance. The eladrin makes saving throws against spells and other magical effects with advantage.",
+        "Innate Spellcasting": "Charisma (spell save DC 16). No material components.\nAt will. Calm Emotions, Sleep.\n3/day each. Cure Wounds (5th level), Lesser Restoration.\n1/day each. Greater Restoration, Heal, Raise Dead.",
+        "Actions": "Longsword. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 5 (1d8 + 1) slashing damage, or 6 (1d10 + 1) slashing with two hands, plus 18 (4d8) psychic damage either way.\nLongbow. Ranged weapon attack, +7 to hit, range 150/600 ft., one target. A hit deals 7 (1d8 + 3) piercing damage and 18 (4d8) psychic damage.",
+        "Bonus actions": "Fey Step (Recharge 4–6). Teleport up to 30 ft. to a visible, unoccupied space.",
+        "Reactions": "Foster Peace. When a creature charmed by this eladrin hits with an attack roll within 60 ft., the eladrin can magically turn the hit into a miss if it can see the attacker.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 195."
+      }
+    }
+  },
+  {
+    "name": "Bael",
+    "statBlock": {
+      "name": "Bael",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 170,
+      "classification": "Large fiend (devil), lawful evil",
+      "ac": 18,
+      "hp": 189,
+      "hitDice": "18d10 + 90",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 24
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 21
+        },
+        "Wis": {
+          "score": 24
+        },
+        "Cha": {
+          "score": 24
+        }
+      },
+      "cr": "19",
+      "xp": 22000,
+      "passivePerception": 23,
+      "description": "Mammon's Bronze General commands sixty-six companies of barbed devils. He sometimes spares defeated foes who pledge their souls and service.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Intimidation": 13,
+        "Perception": 13,
+        "Persuasion": 13
+      },
+      "savingThrows": {
+        "Dex": 9,
+        "Con": 11,
+        "Int": 11,
+        "Cha": 13
+      },
+      "sections": {
+        "Armor": "Plate armor.",
+        "Damage resistances": "Cold. Bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered.",
+        "Damage immunities": "Fire, poison.",
+        "Condition immunities": "Charmed, exhaustion, frightened, poisoned.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "All languages, telepathy 120 ft.",
+        "Traits": "Legendary Resistance (3/day). Bael can turn a failed save into a success.\nMagic Resistance. Bael makes saving throws against spells and other magical effects with advantage.\nMagic Weapons. Bael's weapon attacks count as magical.\nRegeneration. Bael regains 20 HP at the start of his turn. Cold or radiant damage prevents regeneration at the start of his next turn. He dies only if he starts his turn at 0 HP and fails to regenerate.",
+        "Innate Spellcasting": "Charisma (spell save DC 21, +13 to hit with spell attacks). No material components.\nAt will. Alter Self (can become Medium when changing appearance), Animate Dead, Charm Person, Detect Magic, Inflict Wounds (8th level), Invisibility (self only), Major Image.\n3/day each. Counterspell, Dispel Magic, Fly, Suggestion, Wall of Fire.\n1/day each. Dominate Monster, Symbol (stunning only).",
+        "Actions": "Multiattack. Make two melee attacks.\nHellish Morningstar. Melee weapon attack, +13 to hit, reach 20 ft., one target. A hit deals 16 (2d8 + 7) piercing damage and 13 (3d8) necrotic damage.\nInfernal Command. Allies within 60 ft. of Bael cannot be charmed or frightened until the end of his next turn.\nTeleport. Bael magically moves up to 120 ft. with his gear to a visible, unoccupied space.",
+        "Bonus actions": "Dreadful. Until the start of Bael's next turn, each creature other than a devil that starts its turn within 10 ft. must pass a DC 22 Wisdom save or be frightened until the start of that creature's next turn.",
+        "Legendary actions": "Bael has 3 legendary actions and can spend the listed cost for one option at the end of another creature's turn. He regains spent actions at the start of his turn. He cannot use them while incapacitated or otherwise unable to act. If surprised, he can use them after his first turn.\nAttack (2 actions). Make one Hellish Morningstar attack.\nAwaken Greed (1 action). Cast Charm Person or Major Image.\nInfernal Command (1 action). Use Infernal Command.\nTeleport (1 action). Use Teleport.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 170."
+      }
+    }
+  },
+  {
+    "name": "Balhannoth",
+    "statBlock": {
+      "name": "Balhannoth",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 119,
+      "classification": "Large aberration, chaotic evil",
+      "ac": 17,
+      "hp": 114,
+      "hitDice": "12d10 + 48",
+      "speed": "25 ft., climb 25 ft.",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 8
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "11",
+      "xp": 7200,
+      "passivePerception": 16,
+      "description": "A Shadowfell predator that lures travelers by shaping its lair into the place they most want to find.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 6
+      },
+      "savingThrows": {
+        "Con": 8
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Condition immunities": "Blinded.",
+        "Senses": "Blindsight 500 ft. (blind beyond this radius).",
+        "Languages": "Understands Deep Speech. Telepathy 1 mile.",
+        "Traits": "Legendary Resistance (2/day). The balhannoth can turn a failed save into a success.",
+        "Actions": "Multiattack. Make one Bite attack and up to two Tentacle attacks, or make up to four Tentacle attacks.\nBite. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 25 (4d10 + 3) piercing damage.\nTentacle. Melee weapon attack, +7 to hit, reach 10 ft., one target. A hit deals 10 (2d6 + 3) bludgeoning damage, grapples the target (escape DC 15), and pulls it up to 5 ft. toward the balhannoth. The target is restrained until the grapple ends. The balhannoth has four tentacles. A tentacle holding a target cannot attack another one.",
+        "Legendary actions": "The balhannoth has 3 legendary actions and can spend one for one option at the end of another creature's turn. It regains spent actions at the start of its turn. It cannot use them while incapacitated or otherwise unable to act. If surprised, it can use them after its first turn.\nBite Attack. Make one Bite attack against one creature it has grappled.\nTeleport. Magically move up to 60 ft. to a visible, unoccupied space, bringing all gear and grappled creatures.\nVanish. Magically become invisible for up to 10 minutes, ending immediately after the balhannoth makes an attack roll.",
+        "Lair actions": "Inside the lair, use one option on initiative count 20, losing ties. It cannot choose the same option in consecutive rounds. It cannot use lair actions while incapacitated or otherwise unable to act. If surprised, it can use them after its first turn.\nReshape terrain. Choose an area no larger than a square 500 ft. on a side. After 10 minutes, its nonliving terrain takes the appearance of a place sought by an intelligent creature whose mind the balhannoth has read. Created objects have no moving parts or magic, and close examination reveals they are fakes. The changes last until it dies or uses this option again.\nMove intruder. One creature within 500 ft. makes a DC 16 Wisdom save. On a failure, the balhannoth teleports the target and its gear to an unoccupied space of its choice within 60 ft. of itself.\nHide from intruder. One creature within 500 ft. makes a DC 16 Wisdom save. On a failure, the balhannoth is invisible to that creature for 1 minute, or until the balhannoth attacks it.",
+        "Regional effects": "The following effects vanish immediately when the balhannoth dies.\nFalse hope. Creatures within 1 mile of the lair feel as though they are nearing whatever they desire most. The feeling intensifies as they approach.\nSense desire. The balhannoth senses the strongest desires of Humanoids within 1 mile of itself and learns whether those desires concern a place.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 119."
+      }
+    }
+  }
+]

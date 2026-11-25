@@ -1,0 +1,1881 @@
+[
+  {
+    "name": "Derro",
+    "kind": "species",
+    "group": "3.5 edition",
+    "groups": [
+      "3.5 edition"
+    ],
+    "otherEntry": {
+      "id": "monster-869cbe0dc18530fc51d49168",
+      "name": "Derro",
+      "kind": "monster",
+      "group": "Humanoid",
+      "groups": [
+        "Humanoid",
+        "Aberration",
+        "Monstrous Humanoid"
+      ],
+      "images": [
+        {
+          "url": "",
+          "credit": "Mordenkainen Presents: Monsters of the Multiverse"
+        },
+        {
+          "url": "",
+          "credit": "Out of the Abyss"
+        }
+      ],
+      "versions": [
+        {
+          "key": "c1ab4d3ccabd2c1a89a925f3",
+          "publication": "DDEX3-03 - The Occupation of Szith Morcane",
+          "edition": "2014 fifth edition",
+          "status": "Combat summary",
+          "images": [],
+          "stats": [
+            [
+              "Armor class",
+              "13"
+            ],
+            [
+              "Hit points",
+              "13"
+            ],
+            [
+              "Hit dice",
+              "3d6 + 3"
+            ],
+            [
+              "Challenge",
+              "1/4"
+            ],
+            [
+              "Size",
+              "Small"
+            ],
+            [
+              "Type",
+              "Humanoid"
+            ],
+            [
+              "Speed",
+              "walk 30 ft."
+            ],
+            [
+              "Str",
+              "9"
+            ],
+            [
+              "Dex",
+              "14"
+            ],
+            [
+              "Con",
+              "12"
+            ],
+            [
+              "Int",
+              "11"
+            ],
+            [
+              "Wis",
+              "5"
+            ],
+            [
+              "Cha",
+              "9"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Attacks",
+              "lines": [
+                "Hooked Shortspear · melee · +2 to hit · reach 5 ft. · 1d4 − 1 piercing",
+                "Light Repeating Crossbow · ranged · +4 to hit · range 40/160 ft. · 1d8 + 2 piercing"
+              ]
+            }
+          ],
+          "inline": {
+            "Size": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ],
+            "Hooked Shortspear · melee · +2 to hit · reach 5 ft. · 1d4 − 1 piercing": [
+              {
+                "start": 0,
+                "end": 17,
+                "target": {
+                  "name": "Hooked Shortspear",
+                  "group": "Items",
+                  "publication": "Out of the Abyss",
+                  "page": 224,
+                  "description": "A melee weapon.",
+                  "local": {
+                    "entry": "compendium-352cb8dc0fd824a4d36f2785",
+                    "version": "OotA:224:https://5e.tools/items.html#hooked%20shortspear_oota"
+                  }
+                }
+              }
+            ],
+            "Light Repeating Crossbow · ranged · +4 to hit · range 40/160 ft. · 1d8 + 2 piercing": [
+              {
+                "start": 0,
+                "end": 24,
+                "target": {
+                  "name": "Light Repeating Crossbow",
+                  "group": "Items",
+                  "publication": "Out of the Abyss",
+                  "page": 224,
+                  "description": "A ranged weapon.",
+                  "local": {
+                    "entry": "compendium-e399182bf7009ecb97b4d9d6",
+                    "version": "OotA:224:https://5e.tools/items.html#light%20repeating%20crossbow_oota"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "609197a6de4e3c43a49fa3cc",
+          "publication": "Monster Vault",
+          "edition": "Black Flag Roleplaying",
+          "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+          "images": [],
+          "stats": [
+            [
+              "Challenge",
+              "0.3"
+            ],
+            [
+              "Type",
+              "Humanoid"
+            ]
+          ],
+          "sections": []
+        },
+        {
+          "key": "a2e09a5588ae6cb7a10990b9",
+          "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+          "edition": "2014 fifth edition",
+          "description": "A Small aberration with challenge rating 1/4. Listed habitats: mountain, underdark. Named abilities include Magic Resistance, Sunlight Sensitivity, Hooked Spear.",
+          "source": "https://5e.tools/bestiary.html#derro_mpmm",
+          "artwork": "https://www.dndbeyond.com/avatars/thumbnails/25746/270/1000/1000/637880557358314984.jpeg",
+          "status": "Encounter reference",
+          "images": [
+            {
+              "url": "",
+              "credit": "Mordenkainen Presents: Monsters of the Multiverse"
+            }
+          ],
+          "stats": [
+            [
+              "Armor class",
+              "13"
+            ],
+            [
+              "Hit points",
+              "13"
+            ],
+            [
+              "Hit dice",
+              "3d6 + 3"
+            ],
+            [
+              "Challenge",
+              "1/4"
+            ],
+            [
+              "Size",
+              "Small"
+            ],
+            [
+              "Type",
+              "Aberration"
+            ],
+            [
+              "Speed",
+              "walk 30 ft."
+            ],
+            [
+              "Passive Perception",
+              "7"
+            ],
+            [
+              "Strength",
+              "10"
+            ],
+            [
+              "Dexterity",
+              "14"
+            ],
+            [
+              "Constitution",
+              "12"
+            ],
+            [
+              "Intelligence",
+              "11"
+            ],
+            [
+              "Wisdom",
+              "5"
+            ],
+            [
+              "Charisma",
+              "9"
+            ],
+            [
+              "Alignment",
+              "chaotic evil"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Habitats",
+              "lines": [
+                "mountain",
+                "underdark",
+                "mountain, underdark"
+              ]
+            },
+            {
+              "title": "Attacks",
+              "lines": [
+                "Hooked Spear · melee · +2 to hit · reach 5 ft. · 1d6 piercing",
+                "Light Crossbow · ranged · +4 to hit · range 80/320 ft. · 1d8 + 2 piercing"
+              ]
+            },
+            {
+              "title": "Skills",
+              "lines": [
+                "Stealth +4"
+              ]
+            },
+            {
+              "title": "Senses",
+              "lines": [
+                "darkvision 120 ft."
+              ]
+            },
+            {
+              "title": "Languages",
+              "lines": [
+                "Dwarvish, Undercommon"
+              ]
+            },
+            {
+              "title": "Traits reference",
+              "lines": [
+                "Magic Resistance",
+                "Sunlight Sensitivity · Perception"
+              ]
+            },
+            {
+              "title": "Actions reference",
+              "lines": [
+                "Hooked Spear · Melee attack · +2 to hit · 1d6 piercing damage · reach 5 ft. · Prone",
+                "Light Crossbow · Ranged attack · +4 to hit · 1d8 + 2 piercing damage · range 80/320 ft."
+              ]
+            }
+          ],
+          "sourceCode": "MPMM",
+          "page": 91,
+          "references": [
+            {
+              "label": "Mordenkainen Presents: Monsters of the Multiverse, p. 91",
+              "url": "https://5e.tools/bestiary.html#derro_mpmm"
+            },
+            {
+              "label": "Leather armor (item)",
+              "url": "https://5e.tools/items.html#leather%20armor_phb",
+              "local": {
+                "entry": "item-cebdf9513c0fd232b63036a4",
+                "version": "PHB:144:https://5e.tools/items.html#leather%20armor_phb"
+              },
+              "preview": {
+                "name": "Leather armor",
+                "group": "blacksmith",
+                "publication": "Player's Handbook (2014)",
+                "page": 144,
+                "description": "A light armor.",
+                "local": {
+                  "entry": "item-cebdf9513c0fd232b63036a4",
+                  "version": "PHB:144:https://5e.tools/items.html#leather%20armor_phb"
+                }
+              }
+            },
+            {
+              "label": "Perception (skill)",
+              "url": "https://5e.tools/skills.html#perception_phb",
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              },
+              "preview": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            },
+            {
+              "label": "Prone (condition)",
+              "url": "https://5e.tools/conditionsdiseases.html#prone_phb",
+              "local": {
+                "entry": "compendium-6bb47020835c218b46b7d85a",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+              },
+              "preview": {
+                "name": "Prone",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 292,
+                "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+                "local": {
+                  "entry": "compendium-6bb47020835c218b46b7d85a",
+                  "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+                }
+              }
+            }
+          ],
+          "inline": {
+            "A Small aberration with challenge rating 1/4. Listed habitats: mountain, underdark. Named abilities include Magic Resistance, Sunlight Sensitivity, Hooked Spear.": [
+              {
+                "start": 108,
+                "end": 113,
+                "target": {
+                  "name": "Magic",
+                  "group": "Actions",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 371,
+                  "local": {
+                    "entry": "compendium-07ceb4292d06406c48366301",
+                    "version": "XPHB:371:https://5e.tools/actions.html#magic_xphb"
+                  }
+                }
+              },
+              {
+                "start": 114,
+                "end": 124,
+                "target": {
+                  "name": "Resistance",
+                  "group": "Spells",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 272,
+                  "description": "A abjuration cantrip.",
+                  "local": {
+                    "entry": "compendium-c5cb057b458ebd0d2d062e0f",
+                    "version": "PHB:272:https://5e.tools/spells.html#resistance_phb"
+                  }
+                }
+              }
+            ],
+            "Size": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ],
+            "Passive Perception": [
+              {
+                "start": 0,
+                "end": 18,
+                "target": {
+                  "name": "Passive Perception",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 372,
+                  "local": {
+                    "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                    "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                  }
+                }
+              }
+            ],
+            "Alignment": [
+              {
+                "start": 0,
+                "end": 9,
+                "target": {
+                  "name": "Alignment",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 360,
+                  "local": {
+                    "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                    "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                  }
+                }
+              }
+            ],
+            "Light Crossbow · ranged · +4 to hit · range 80/320 ft. · 1d8 + 2 piercing": [
+              {
+                "start": 0,
+                "end": 14,
+                "target": {
+                  "name": "Light Crossbow",
+                  "group": "Items",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 149,
+                  "description": "A ranged weapon.",
+                  "local": {
+                    "entry": "compendium-c52b10158fce3cda2a6870ef",
+                    "version": "PHB:149:https://5e.tools/items.html#light%20crossbow_phb"
+                  }
+                }
+              }
+            ],
+            "Stealth +4": [
+              {
+                "start": 0,
+                "end": 7,
+                "target": {
+                  "name": "Stealth",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 177,
+                  "local": {
+                    "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                    "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+                  }
+                }
+              }
+            ],
+            "darkvision 120 ft.": [
+              {
+                "start": 0,
+                "end": 10,
+                "target": {
+                  "name": "Darkvision",
+                  "group": "Senses",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 183,
+                  "local": {
+                    "entry": "compendium-7acfde2bf83729872c25017b",
+                    "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+                  }
+                }
+              }
+            ],
+            "Magic Resistance": [
+              {
+                "start": 6,
+                "end": 16,
+                "target": {
+                  "name": "Resistance",
+                  "group": "Spells",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 272,
+                  "description": "A abjuration cantrip.",
+                  "local": {
+                    "entry": "compendium-c5cb057b458ebd0d2d062e0f",
+                    "version": "PHB:272:https://5e.tools/spells.html#resistance_phb"
+                  }
+                }
+              }
+            ],
+            "Sunlight Sensitivity · Perception": [
+              {
+                "start": 23,
+                "end": 33,
+                "target": {
+                  "name": "Perception",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 178,
+                  "local": {
+                    "entry": "compendium-f21bfeaccf140efabf3793fe",
+                    "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                  }
+                }
+              }
+            ],
+            "Hooked Spear · Melee attack · +2 to hit · 1d6 piercing damage · reach 5 ft. · Prone": [
+              {
+                "start": 78,
+                "end": 83,
+                "target": {
+                  "name": "Prone",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 292,
+                  "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+                  "local": {
+                    "entry": "compendium-6bb47020835c218b46b7d85a",
+                    "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+                  }
+                }
+              }
+            ],
+            "Light Crossbow · Ranged attack · +4 to hit · 1d8 + 2 piercing damage · range 80/320 ft.": [
+              {
+                "start": 0,
+                "end": 14,
+                "target": {
+                  "name": "Light Crossbow",
+                  "group": "Items",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 149,
+                  "description": "A ranged weapon.",
+                  "local": {
+                    "entry": "compendium-c52b10158fce3cda2a6870ef",
+                    "version": "PHB:149:https://5e.tools/items.html#light%20crossbow_phb"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "37eb4b4992888f7b0432ca67",
+          "publication": "Mordenkainen’s Tome of Foes",
+          "edition": "2014 fifth edition",
+          "description": "A Small humanoid with challenge rating 1/4. Listed habitats: mountain, underdark. Named abilities include Magic Resistance, Sunlight Sensitivity, Hooked Spear.",
+          "source": "https://5e.tools/bestiary.html#derro_mtf",
+          "artwork": "https://www.dndbeyond.com/avatars/thumbnails/293/191/1000/1000/636609615344427184.png",
+          "status": "Encounter reference",
+          "images": [
+            {
+              "url": "",
+              "credit": "Mordenkainen’s Tome of Foes"
+            }
+          ],
+          "stats": [
+            [
+              "Armor class",
+              "13"
+            ],
+            [
+              "Hit points",
+              "13"
+            ],
+            [
+              "Hit dice",
+              "3d6 + 3"
+            ],
+            [
+              "Challenge",
+              "1/4"
+            ],
+            [
+              "Size",
+              "Small"
+            ],
+            [
+              "Type",
+              "Humanoid"
+            ],
+            [
+              "Speed",
+              "walk 30 ft."
+            ],
+            [
+              "Passive Perception",
+              "7"
+            ],
+            [
+              "Strength",
+              "10"
+            ],
+            [
+              "Dexterity",
+              "14"
+            ],
+            [
+              "Constitution",
+              "12"
+            ],
+            [
+              "Intelligence",
+              "11"
+            ],
+            [
+              "Wisdom",
+              "5"
+            ],
+            [
+              "Charisma",
+              "9"
+            ],
+            [
+              "Creature tags",
+              "derro"
+            ],
+            [
+              "Alignment",
+              "chaotic evil"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Habitats",
+              "lines": [
+                "mountain",
+                "underdark",
+                "mountain, underdark"
+              ]
+            },
+            {
+              "title": "Attacks",
+              "lines": [
+                "Hooked Spear · melee · +2 to hit · reach 5 ft. · 1d6 piercing",
+                "Light Crossbow · ranged · +4 to hit · range 80/320 ft. · 1d8 + 2 piercing"
+              ]
+            },
+            {
+              "title": "Skills",
+              "lines": [
+                "Stealth +4"
+              ]
+            },
+            {
+              "title": "Senses",
+              "lines": [
+                "darkvision 120 ft."
+              ]
+            },
+            {
+              "title": "Languages",
+              "lines": [
+                "Dwarvish, Undercommon"
+              ]
+            },
+            {
+              "title": "Traits reference",
+              "lines": [
+                "Magic Resistance",
+                "Sunlight Sensitivity · Perception"
+              ]
+            },
+            {
+              "title": "Actions reference",
+              "lines": [
+                "Hooked Spear · Melee attack · +2 to hit · 1d6 piercing damage · reach 5 ft. · Prone",
+                "Light Crossbow · Ranged attack · +4 to hit · 1d8 + 2 piercing damage · range 80/320 ft."
+              ]
+            },
+            {
+              "title": "Lore topics in the source",
+              "lines": [
+                "Derro",
+                "Madness and Sorcery",
+                "Forgotten Duergar",
+                "Derro Madness"
+              ]
+            }
+          ],
+          "sourceCode": "MTF",
+          "references": [
+            {
+              "label": "Mordenkainen's Tome of Foes, p. 158",
+              "url": "https://5e.tools/bestiary.html#derro_mtf"
+            },
+            {
+              "label": "Leather armor (item)",
+              "url": "https://5e.tools/items.html#leather%20armor_phb",
+              "local": {
+                "entry": "item-cebdf9513c0fd232b63036a4",
+                "version": "PHB:144:https://5e.tools/items.html#leather%20armor_phb"
+              },
+              "preview": {
+                "name": "Leather armor",
+                "group": "blacksmith",
+                "publication": "Player's Handbook (2014)",
+                "page": 144,
+                "description": "A light armor.",
+                "local": {
+                  "entry": "item-cebdf9513c0fd232b63036a4",
+                  "version": "PHB:144:https://5e.tools/items.html#leather%20armor_phb"
+                }
+              }
+            },
+            {
+              "label": "Perception (skill)",
+              "url": "https://5e.tools/skills.html#perception_phb",
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              },
+              "preview": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            },
+            {
+              "label": "Prone (condition)",
+              "url": "https://5e.tools/conditionsdiseases.html#prone_phb",
+              "local": {
+                "entry": "compendium-6bb47020835c218b46b7d85a",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+              },
+              "preview": {
+                "name": "Prone",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 292,
+                "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+                "local": {
+                  "entry": "compendium-6bb47020835c218b46b7d85a",
+                  "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+                }
+              }
+            }
+          ],
+          "inline": {
+            "A Small humanoid with challenge rating 1/4. Listed habitats: mountain, underdark. Named abilities include Magic Resistance, Sunlight Sensitivity, Hooked Spear.": [
+              {
+                "start": 106,
+                "end": 111,
+                "target": {
+                  "name": "Magic",
+                  "group": "Actions",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 371,
+                  "local": {
+                    "entry": "compendium-07ceb4292d06406c48366301",
+                    "version": "XPHB:371:https://5e.tools/actions.html#magic_xphb"
+                  }
+                }
+              },
+              {
+                "start": 112,
+                "end": 122,
+                "target": {
+                  "name": "Resistance",
+                  "group": "Spells",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 272,
+                  "description": "A abjuration cantrip.",
+                  "local": {
+                    "entry": "compendium-c5cb057b458ebd0d2d062e0f",
+                    "version": "PHB:272:https://5e.tools/spells.html#resistance_phb"
+                  }
+                }
+              }
+            ],
+            "Size": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ],
+            "Passive Perception": [
+              {
+                "start": 0,
+                "end": 18,
+                "target": {
+                  "name": "Passive Perception",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 372,
+                  "local": {
+                    "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                    "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                  }
+                }
+              }
+            ],
+            "Creature tags": [
+              {
+                "start": 0,
+                "end": 8,
+                "target": {
+                  "name": "Creature",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 364,
+                  "local": {
+                    "entry": "compendium-41ace94d9abdf138cb1e633b",
+                    "version": "XPHB:364:https://5e.tools/variantrules.html#creature_xphb"
+                  }
+                }
+              }
+            ],
+            "Alignment": [
+              {
+                "start": 0,
+                "end": 9,
+                "target": {
+                  "name": "Alignment",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 360,
+                  "local": {
+                    "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                    "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                  }
+                }
+              }
+            ],
+            "Light Crossbow · ranged · +4 to hit · range 80/320 ft. · 1d8 + 2 piercing": [
+              {
+                "start": 0,
+                "end": 14,
+                "target": {
+                  "name": "Light Crossbow",
+                  "group": "Items",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 149,
+                  "description": "A ranged weapon.",
+                  "local": {
+                    "entry": "compendium-c52b10158fce3cda2a6870ef",
+                    "version": "PHB:149:https://5e.tools/items.html#light%20crossbow_phb"
+                  }
+                }
+              }
+            ],
+            "Stealth +4": [
+              {
+                "start": 0,
+                "end": 7,
+                "target": {
+                  "name": "Stealth",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 177,
+                  "local": {
+                    "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                    "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+                  }
+                }
+              }
+            ],
+            "darkvision 120 ft.": [
+              {
+                "start": 0,
+                "end": 10,
+                "target": {
+                  "name": "Darkvision",
+                  "group": "Senses",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 183,
+                  "local": {
+                    "entry": "compendium-7acfde2bf83729872c25017b",
+                    "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+                  }
+                }
+              }
+            ],
+            "Magic Resistance": [
+              {
+                "start": 6,
+                "end": 16,
+                "target": {
+                  "name": "Resistance",
+                  "group": "Spells",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 272,
+                  "description": "A abjuration cantrip.",
+                  "local": {
+                    "entry": "compendium-c5cb057b458ebd0d2d062e0f",
+                    "version": "PHB:272:https://5e.tools/spells.html#resistance_phb"
+                  }
+                }
+              }
+            ],
+            "Sunlight Sensitivity · Perception": [
+              {
+                "start": 23,
+                "end": 33,
+                "target": {
+                  "name": "Perception",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 178,
+                  "local": {
+                    "entry": "compendium-f21bfeaccf140efabf3793fe",
+                    "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                  }
+                }
+              }
+            ],
+            "Hooked Spear · Melee attack · +2 to hit · 1d6 piercing damage · reach 5 ft. · Prone": [
+              {
+                "start": 78,
+                "end": 83,
+                "target": {
+                  "name": "Prone",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 292,
+                  "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+                  "local": {
+                    "entry": "compendium-6bb47020835c218b46b7d85a",
+                    "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+                  }
+                }
+              }
+            ],
+            "Light Crossbow · Ranged attack · +4 to hit · 1d8 + 2 piercing damage · range 80/320 ft.": [
+              {
+                "start": 0,
+                "end": 14,
+                "target": {
+                  "name": "Light Crossbow",
+                  "group": "Items",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 149,
+                  "description": "A ranged weapon.",
+                  "local": {
+                    "entry": "compendium-c52b10158fce3cda2a6870ef",
+                    "version": "PHB:149:https://5e.tools/items.html#light%20crossbow_phb"
+                  }
+                }
+              }
+            ],
+            "Madness and Sorcery": [
+              {
+                "start": 0,
+                "end": 7,
+                "target": {
+                  "name": "Madness",
+                  "group": "Variant rules",
+                  "publication": "Dungeon Master's Guide (2014)",
+                  "page": 258,
+                  "local": {
+                    "entry": "compendium-3d989189866f0ea9aaf824fb",
+                    "version": "DMG:258:https://5e.tools/variantrules.html#madness_dmg"
+                  }
+                }
+              }
+            ],
+            "Derro Madness": [
+              {
+                "start": 6,
+                "end": 13,
+                "target": {
+                  "name": "Madness",
+                  "group": "Variant rules",
+                  "publication": "Dungeon Master's Guide (2014)",
+                  "page": 258,
+                  "local": {
+                    "entry": "compendium-3d989189866f0ea9aaf824fb",
+                    "version": "DMG:258:https://5e.tools/variantrules.html#madness_dmg"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "5e403b557b3cf813fb56aba8",
+          "publication": "Out of the Abyss",
+          "edition": "2014 fifth edition",
+          "description": "A Small humanoid with challenge rating 1/4. Named abilities include Insanity, Magic Resistance, Sunlight Sensitivity.",
+          "source": "https://5e.tools/bestiary.html#derro_oota",
+          "status": "Encounter reference",
+          "images": [
+            {
+              "url": "",
+              "credit": "Out of the Abyss"
+            }
+          ],
+          "stats": [
+            [
+              "Armor class",
+              "13"
+            ],
+            [
+              "Hit points",
+              "13"
+            ],
+            [
+              "Hit dice",
+              "3d6 + 3"
+            ],
+            [
+              "Challenge",
+              "1/4"
+            ],
+            [
+              "Size",
+              "Small"
+            ],
+            [
+              "Type",
+              "Humanoid"
+            ],
+            [
+              "Speed",
+              "walk 30 ft."
+            ],
+            [
+              "Passive Perception",
+              "7"
+            ],
+            [
+              "Strength",
+              "9"
+            ],
+            [
+              "Dexterity",
+              "14"
+            ],
+            [
+              "Constitution",
+              "12"
+            ],
+            [
+              "Intelligence",
+              "11"
+            ],
+            [
+              "Wisdom",
+              "5"
+            ],
+            [
+              "Charisma",
+              "9"
+            ],
+            [
+              "Creature tags",
+              "derro"
+            ],
+            [
+              "Alignment",
+              "chaotic evil"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Attacks",
+              "lines": [
+                "Hooked Shortspear · melee · +2 to hit · reach 5 ft. · 1d4 - 1 piercing",
+                "Light Repeating Crossbow · ranged · +4 to hit · range 40/160 ft. · 1d8 + 2 piercing"
+              ]
+            },
+            {
+              "title": "Skills",
+              "lines": [
+                "Stealth +4"
+              ]
+            },
+            {
+              "title": "Senses",
+              "lines": [
+                "darkvision 120 ft."
+              ]
+            },
+            {
+              "title": "Languages",
+              "lines": [
+                "Dwarvish, Undercommon"
+              ]
+            },
+            {
+              "title": "Traits reference",
+              "lines": [
+                "Insanity · Charmed · Frightened",
+                "Magic Resistance",
+                "Sunlight Sensitivity · Perception"
+              ]
+            },
+            {
+              "title": "Actions reference",
+              "lines": [
+                "Hooked Shortspear · Melee attack · +2 to hit · 1d4 - 1 piercing damage · DC 9 Strength save · reach 5 ft. · Prone",
+                "Light Repeating Crossbow · Ranged attack · +4 to hit · 1d8 + 2 piercing damage · range 40/160 ft."
+              ]
+            },
+            {
+              "title": "Lore topics in the source",
+              "lines": [
+                "Unnatural Origin",
+                "Born to Madness",
+                "Life of Attrition",
+                "Second-Class Citizens",
+                "Derro Weapons"
+              ]
+            }
+          ],
+          "sourceCode": "OotA",
+          "page": 224,
+          "references": [
+            {
+              "label": "Out of the Abyss, p. 224",
+              "url": "https://5e.tools/bestiary.html#derro_oota"
+            },
+            {
+              "label": "Leather armor (item)",
+              "url": "https://5e.tools/items.html#leather%20armor_phb",
+              "local": {
+                "entry": "item-cebdf9513c0fd232b63036a4",
+                "version": "PHB:144:https://5e.tools/items.html#leather%20armor_phb"
+              },
+              "preview": {
+                "name": "Leather armor",
+                "group": "blacksmith",
+                "publication": "Player's Handbook (2014)",
+                "page": 144,
+                "description": "A light armor.",
+                "local": {
+                  "entry": "item-cebdf9513c0fd232b63036a4",
+                  "version": "PHB:144:https://5e.tools/items.html#leather%20armor_phb"
+                }
+              }
+            },
+            {
+              "label": "Charmed (condition)",
+              "url": "https://5e.tools/conditionsdiseases.html#charmed_phb",
+              "local": {
+                "entry": "compendium-5282cfc37c8b31ab197b8d22",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#charmed_phb"
+              },
+              "preview": {
+                "name": "Charmed",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 290,
+                "description": "You cannot attack or use harmful effects against the charmer, who has advantage on social checks involving you.",
+                "local": {
+                  "entry": "compendium-5282cfc37c8b31ab197b8d22",
+                  "version": "PHB:290:https://5e.tools/conditionsdiseases.html#charmed_phb"
+                }
+              }
+            },
+            {
+              "label": "Frightened (condition)",
+              "url": "https://5e.tools/conditionsdiseases.html#frightened_phb",
+              "local": {
+                "entry": "compendium-879f347e29c83a95483201f4",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#frightened_phb"
+              },
+              "preview": {
+                "name": "Frightened",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 290,
+                "description": "While you can see the source of your fear, your attacks and ability checks have disadvantage. You cannot willingly move closer to it.",
+                "local": {
+                  "entry": "compendium-879f347e29c83a95483201f4",
+                  "version": "PHB:290:https://5e.tools/conditionsdiseases.html#frightened_phb"
+                }
+              }
+            },
+            {
+              "label": "Perception (skill)",
+              "url": "https://5e.tools/skills.html#perception_phb",
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              },
+              "preview": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            },
+            {
+              "label": "Prone (condition)",
+              "url": "https://5e.tools/conditionsdiseases.html#prone_phb",
+              "local": {
+                "entry": "compendium-6bb47020835c218b46b7d85a",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+              },
+              "preview": {
+                "name": "Prone",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 292,
+                "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+                "local": {
+                  "entry": "compendium-6bb47020835c218b46b7d85a",
+                  "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+                }
+              }
+            },
+            {
+              "label": "Light repeating crossbow (item)",
+              "url": "https://5e.tools/items.html#light%20repeating%20crossbow_oota",
+              "local": {
+                "entry": "compendium-e399182bf7009ecb97b4d9d6",
+                "version": "OotA:224:https://5e.tools/items.html#light%20repeating%20crossbow_oota"
+              },
+              "preview": {
+                "name": "Light Repeating Crossbow",
+                "group": "Items",
+                "publication": "Out of the Abyss",
+                "page": 224,
+                "description": "A ranged weapon.",
+                "local": {
+                  "entry": "compendium-e399182bf7009ecb97b4d9d6",
+                  "version": "OotA:224:https://5e.tools/items.html#light%20repeating%20crossbow_oota"
+                }
+              }
+            }
+          ],
+          "inline": {
+            "A Small humanoid with challenge rating 1/4. Named abilities include Insanity, Magic Resistance, Sunlight Sensitivity.": [
+              {
+                "start": 78,
+                "end": 83,
+                "target": {
+                  "name": "Magic",
+                  "group": "Actions",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 371,
+                  "local": {
+                    "entry": "compendium-07ceb4292d06406c48366301",
+                    "version": "XPHB:371:https://5e.tools/actions.html#magic_xphb"
+                  }
+                }
+              },
+              {
+                "start": 84,
+                "end": 94,
+                "target": {
+                  "name": "Resistance",
+                  "group": "Spells",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 272,
+                  "description": "A abjuration cantrip.",
+                  "local": {
+                    "entry": "compendium-c5cb057b458ebd0d2d062e0f",
+                    "version": "PHB:272:https://5e.tools/spells.html#resistance_phb"
+                  }
+                }
+              }
+            ],
+            "Size": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ],
+            "Passive Perception": [
+              {
+                "start": 0,
+                "end": 18,
+                "target": {
+                  "name": "Passive Perception",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 372,
+                  "local": {
+                    "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                    "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                  }
+                }
+              }
+            ],
+            "Creature tags": [
+              {
+                "start": 0,
+                "end": 8,
+                "target": {
+                  "name": "Creature",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 364,
+                  "local": {
+                    "entry": "compendium-41ace94d9abdf138cb1e633b",
+                    "version": "XPHB:364:https://5e.tools/variantrules.html#creature_xphb"
+                  }
+                }
+              }
+            ],
+            "Alignment": [
+              {
+                "start": 0,
+                "end": 9,
+                "target": {
+                  "name": "Alignment",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 360,
+                  "local": {
+                    "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                    "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                  }
+                }
+              }
+            ],
+            "Hooked Shortspear · melee · +2 to hit · reach 5 ft. · 1d4 - 1 piercing": [
+              {
+                "start": 0,
+                "end": 17,
+                "target": {
+                  "name": "Hooked Shortspear",
+                  "group": "Items",
+                  "publication": "Out of the Abyss",
+                  "page": 224,
+                  "description": "A melee weapon.",
+                  "local": {
+                    "entry": "compendium-352cb8dc0fd824a4d36f2785",
+                    "version": "OotA:224:https://5e.tools/items.html#hooked%20shortspear_oota"
+                  }
+                }
+              }
+            ],
+            "Light Repeating Crossbow · ranged · +4 to hit · range 40/160 ft. · 1d8 + 2 piercing": [
+              {
+                "start": 0,
+                "end": 24,
+                "target": {
+                  "name": "Light Repeating Crossbow",
+                  "group": "Items",
+                  "publication": "Out of the Abyss",
+                  "page": 224,
+                  "description": "A ranged weapon.",
+                  "local": {
+                    "entry": "compendium-e399182bf7009ecb97b4d9d6",
+                    "version": "OotA:224:https://5e.tools/items.html#light%20repeating%20crossbow_oota"
+                  }
+                }
+              }
+            ],
+            "Stealth +4": [
+              {
+                "start": 0,
+                "end": 7,
+                "target": {
+                  "name": "Stealth",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 177,
+                  "local": {
+                    "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                    "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+                  }
+                }
+              }
+            ],
+            "darkvision 120 ft.": [
+              {
+                "start": 0,
+                "end": 10,
+                "target": {
+                  "name": "Darkvision",
+                  "group": "Senses",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 183,
+                  "local": {
+                    "entry": "compendium-7acfde2bf83729872c25017b",
+                    "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+                  }
+                }
+              }
+            ],
+            "Insanity · Charmed · Frightened": [
+              {
+                "start": 11,
+                "end": 18,
+                "target": {
+                  "name": "Charmed",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 290,
+                  "description": "You cannot attack or use harmful effects against the charmer, who has advantage on social checks involving you.",
+                  "local": {
+                    "entry": "compendium-5282cfc37c8b31ab197b8d22",
+                    "version": "PHB:290:https://5e.tools/conditionsdiseases.html#charmed_phb"
+                  }
+                }
+              },
+              {
+                "start": 21,
+                "end": 31,
+                "target": {
+                  "name": "Frightened",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 290,
+                  "description": "While you can see the source of your fear, your attacks and ability checks have disadvantage. You cannot willingly move closer to it.",
+                  "local": {
+                    "entry": "compendium-879f347e29c83a95483201f4",
+                    "version": "PHB:290:https://5e.tools/conditionsdiseases.html#frightened_phb"
+                  }
+                }
+              }
+            ],
+            "Magic Resistance": [
+              {
+                "start": 6,
+                "end": 16,
+                "target": {
+                  "name": "Resistance",
+                  "group": "Spells",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 272,
+                  "description": "A abjuration cantrip.",
+                  "local": {
+                    "entry": "compendium-c5cb057b458ebd0d2d062e0f",
+                    "version": "PHB:272:https://5e.tools/spells.html#resistance_phb"
+                  }
+                }
+              }
+            ],
+            "Sunlight Sensitivity · Perception": [
+              {
+                "start": 23,
+                "end": 33,
+                "target": {
+                  "name": "Perception",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 178,
+                  "local": {
+                    "entry": "compendium-f21bfeaccf140efabf3793fe",
+                    "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                  }
+                }
+              }
+            ],
+            "Hooked Shortspear · Melee attack · +2 to hit · 1d4 - 1 piercing damage · DC 9 Strength save · reach 5 ft. · Prone": [
+              {
+                "start": 0,
+                "end": 17,
+                "target": {
+                  "name": "Hooked Shortspear",
+                  "group": "Items",
+                  "publication": "Out of the Abyss",
+                  "page": 224,
+                  "description": "A melee weapon.",
+                  "local": {
+                    "entry": "compendium-352cb8dc0fd824a4d36f2785",
+                    "version": "OotA:224:https://5e.tools/items.html#hooked%20shortspear_oota"
+                  }
+                }
+              },
+              {
+                "start": 108,
+                "end": 113,
+                "target": {
+                  "name": "Prone",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 292,
+                  "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+                  "local": {
+                    "entry": "compendium-6bb47020835c218b46b7d85a",
+                    "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+                  }
+                }
+              }
+            ],
+            "Light Repeating Crossbow · Ranged attack · +4 to hit · 1d8 + 2 piercing damage · range 40/160 ft.": [
+              {
+                "start": 0,
+                "end": 24,
+                "target": {
+                  "name": "Light Repeating Crossbow",
+                  "group": "Items",
+                  "publication": "Out of the Abyss",
+                  "page": 224,
+                  "description": "A ranged weapon.",
+                  "local": {
+                    "entry": "compendium-e399182bf7009ecb97b4d9d6",
+                    "version": "OotA:224:https://5e.tools/items.html#light%20repeating%20crossbow_oota"
+                  }
+                }
+              }
+            ],
+            "Born to Madness": [
+              {
+                "start": 8,
+                "end": 15,
+                "target": {
+                  "name": "Madness",
+                  "group": "Variant rules",
+                  "publication": "Dungeon Master's Guide (2014)",
+                  "page": 258,
+                  "local": {
+                    "entry": "compendium-3d989189866f0ea9aaf824fb",
+                    "version": "DMG:258:https://5e.tools/variantrules.html#madness_dmg"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "ff384c7132d9f23a037616b1",
+          "publication": "Out of the Abyss - D&D Encounters",
+          "edition": "2014 fifth edition",
+          "status": "Combat summary",
+          "images": [],
+          "stats": [
+            [
+              "Armor class",
+              "13"
+            ],
+            [
+              "Hit points",
+              "13"
+            ],
+            [
+              "Hit dice",
+              "3d6 + 3"
+            ],
+            [
+              "Challenge",
+              "1/4"
+            ],
+            [
+              "Size",
+              "Small"
+            ],
+            [
+              "Type",
+              "Humanoid"
+            ],
+            [
+              "Speed",
+              "walk 30 ft."
+            ],
+            [
+              "Str",
+              "9"
+            ],
+            [
+              "Dex",
+              "14"
+            ],
+            [
+              "Con",
+              "12"
+            ],
+            [
+              "Int",
+              "11"
+            ],
+            [
+              "Wis",
+              "5"
+            ],
+            [
+              "Cha",
+              "9"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Attacks",
+              "lines": [
+                "Hooked Shortspear · melee · +2 to hit · reach 5 ft. · 1d4 − 1 piercing",
+                "Light Repeating Crossbow · ranged · +4 to hit · range 40/160 ft. · 1d8 + 2 piercing"
+              ]
+            }
+          ],
+          "inline": {
+            "Size": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ],
+            "Hooked Shortspear · melee · +2 to hit · reach 5 ft. · 1d4 − 1 piercing": [
+              {
+                "start": 0,
+                "end": 17,
+                "target": {
+                  "name": "Hooked Shortspear",
+                  "group": "Items",
+                  "publication": "Out of the Abyss",
+                  "page": 224,
+                  "description": "A melee weapon.",
+                  "local": {
+                    "entry": "compendium-352cb8dc0fd824a4d36f2785",
+                    "version": "OotA:224:https://5e.tools/items.html#hooked%20shortspear_oota"
+                  }
+                }
+              }
+            ],
+            "Light Repeating Crossbow · ranged · +4 to hit · range 40/160 ft. · 1d8 + 2 piercing": [
+              {
+                "start": 0,
+                "end": 24,
+                "target": {
+                  "name": "Light Repeating Crossbow",
+                  "group": "Items",
+                  "publication": "Out of the Abyss",
+                  "page": 224,
+                  "description": "A ranged weapon.",
+                  "local": {
+                    "entry": "compendium-e399182bf7009ecb97b4d9d6",
+                    "version": "OotA:224:https://5e.tools/items.html#light%20repeating%20crossbow_oota"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "2cb35fc44e4c3601a529d690",
+          "publication": "Revised v3.5 SRD (Monsters)",
+          "edition": "3.5 edition",
+          "images": [],
+          "stats": [
+            [
+              "Type",
+              "Monstrous Humanoid"
+            ]
+          ],
+          "sections": []
+        }
+      ],
+      "image": {
+        "url": "",
+        "credit": "Mordenkainen Presents: Monsters of the Multiverse"
+      }
+    },
+    "monsterSearch": true,
+    "global": true,
+    "version": {
+      "key": "73184c39b5693235a7606f50",
+      "publication": "Underdark (2003)",
+      "edition": "3.5 edition",
+      "source": "https://campusstore.miamioh.edu/underdark-cordell-bruce-rkestrel/bk/9780786930531",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Monstrous Humanoid"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Small Monstrous Humanoid. Land speed 20 ft. Darkvision 60 ft. from the creature type. +2 natural armor.",
+            "+4 Dexterity and +2 Constitution, derived from the Monster Manual’s sample ability scores. Apply the Wisdom and Charisma adjustments from Madness separately.",
+            "Madness (Ex) gives −6 Wisdom and +6 Charisma, uses Charisma in place of Wisdom on Will saves, and grants immunity to confusion and insanity effects. Miracle or wish can restore sanity, reversing those ability adjustments and ending the trait.",
+            "Vulnerability to Sunlight (Ex). Take 1 Constitution damage per hour in sunlight. Constitution 0 is fatal. Recover 1 point per 24 hours spent underground or otherwise sheltered from sunlight.",
+            "+4 racial bonus on Hide and Move Silently checks.",
+            "Racial spell-like abilities, CL 3. At will, darkness and ghost sound. Once per day each, daze and sound burst. Save DCs use Charisma.",
+            "Racial Sneak Attack adds 1d6 to eligible hits under the Rogue rules. Poison Use (Ex) protects the derro from accidentally poisoning itself while handling poison.",
+            "Spell resistance 15.",
+            "Three racial Hit Dice (3d8) grant BAB +3, base Fortitude +1, Reflex +3, Will +3, and two feats. Favored class Sorcerer.",
+            "Underdark lists LA +1 and ECL 4. Its adventurer section includes derro with Madness, which this profile retains. The Monster Manual lists LA +2 specifically for a sane derro, giving ECL 5 before class levels under that rule."
+          ]
+        },
+        {
+          "title": "Original NPC · Dorr Palevein",
+          "lines": [
+            "Tunnel guide and scout.",
+            "Motive. Bring the group through the covered crossing before the passage closes.",
+            "Hook. Dorr knows where the old road reenters the rock below the exposed ridge.",
+            "Derro tunnel guide, racial Hit Dice only · Provisional CR 3. ECL 4 (3 racial HD, LA +1 under Underdark). · Small Monstrous Humanoid",
+            "AC 18 · HP 23 (3d8+6) · Speed 20 ft."
+          ]
+        },
+        {
+          "title": "Original NPC · Mira Chalkwick",
+          "lines": [
+            "Gallery archivist and Sorcerer.",
+            "Motive. Get the records out of the gallery while the lower archives are still accessible.",
+            "Hook. Mira is carrying a sealed bundle of passages she copied from old maps.",
+            "Derro gallery archivist, Sorcerer 1 · Provisional CR 4. ECL 5 (3 racial HD, 1 class HD, LA +1 under Underdark). · Small Monstrous Humanoid",
+            "AC 16 · HP 28 (3d8+1d4+8) · Speed 20 ft."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Dorr Palevein": [
+          {
+            "start": 15,
+            "end": 28,
+            "target": {
+              "name": "Dorr Palevein",
+              "group": "Derro",
+              "publication": "Derro tunnel guide, racial Hit Dice only",
+              "local": {
+                "entry": "npc-5a027858b499b3f364cae07f",
+                "version": "54bed62552f9a577c921363a"
+              }
+            }
+          }
+        ],
+        "Original NPC · Mira Chalkwick": [
+          {
+            "start": 15,
+            "end": 29,
+            "target": {
+              "name": "Mira Chalkwick",
+              "group": "Derro",
+              "publication": "Derro gallery archivist, Sorcerer 1",
+              "local": {
+                "entry": "npc-b2b8fc3550bcf240b84f77fa",
+                "version": "20a12fd85aaf4f96c7b32e45"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Derro": true,
+      "derro sunlight": true,
+      "derro ghost sound": true,
+      "derro tunnel guide": true,
+      "derro gallery archivist": true
+    },
+    "hash": "d12dd60d4f67b7e0721712b95e187868b46f22ae4bfe10f231417db12c6fa149",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Underdark (2003)",
+    "defaultVersionKey": "73184c39b5693235a7606f50",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  }
+]

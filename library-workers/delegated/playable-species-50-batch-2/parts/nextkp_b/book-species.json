@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Tosculi",
+    "kind": "species",
+    "publication": "Southlands Heroes (2015)",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "The playable Tosculi are Hiveless. Small, walking speed 30 ft. Increase one physical score and one mental score by 2 each. Reduce any score by 2, including either score just increased. Most reach adulthood at 13 and few live past 40.",
+      "Natural Armor sets a minimum AC of 11 + Dexterity modifier even while wearing armor. Natural Attacks grants proficiency with claws that deal 1d4 slashing damage.",
+      "Gliding Wings prevents falling damage and grants a 40 ft. fly speed without hovering. Finish each round of flight at least one-quarter of the distance traveled below the starting elevation or fall.",
+      "Stalker grants proficiency in Perception and Stealth. Speak, read, and write Tosculi and one other language, commonly Southern.",
+      "Binding Spittle replaces Stalker. As an Attack action, make a proficient ranged attack against a Medium or smaller target within 60 ft. On a hit the target is restrained. The target or an adjacent creature can use an action for a Strength check to free it, DC 8 + proficiency bonus + Constitution modifier. Breaking the spittle also frees the target (AC 10, bludgeoning damage equal to half your level plus Constitution modifier). One use per short or long rest.",
+      "Bite replaces Stalker. Use a 1d6 slashing bite as an unarmed strike. After a hit, you can try to grapple the target as a bonus action. The bite die becomes 2d6 at level 11.",
+      "Latent Hive Mind replaces Gliding Wings. Learn a psionic, component-free message that works in magical silence. At level 3, you can also cast component-free detect thoughts once per long rest.",
+      "Hardened Carapace replaces both Gliding Wings and Natural Armor and raises the minimum AC to 11 + Constitution modifier + Dexterity modifier."
+    ]
+  },
+  {
+    "name": "Jinnborn",
+    "kind": "species",
+    "publication": "Unlikely Heroes (2016)",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "Medium, walking speed 30 ft., Constitution +2, darkvision 60 ft. and proficiency in Persuasion. Reach adulthood at 16 and can live past 150.",
+      "Desert Dependent requires a DC 15 Charisma save for each month spent away from the desert. Failure brings indefinite madness. Determine the effect with the DM or use the rules table.",
+      "Choose a siraati and speak, read, and write Common and its matching elemental language. Air pairs Auran with lightning, earth pairs Terran with acid, fire pairs Ignan with fire, and water pairs Aquan with cold.",
+      "Speaker grants Wisdom +1. Favor of the Jinn can grant advantage on one of your saves or ability checks or impose disadvantage on an attack against you. Declare it before the roll. Uses equal Wisdom modifier, minimum one, and refresh on a long rest.",
+      "Speaker also grants Walker, giving advantage on saving throws against being stunned and against extreme environments, plus on ability checks to navigate the wilderness or avoid getting lost.",
+      "Shaper grants Strength +1 and resistance to your siraati damage type. On a melee hit on your turn you can add 1d6 damage of the same type, once on that turn. Uses equal Constitution modifier, minimum one, and refresh on a long rest."
+    ]
+  },
+  {
+    "name": "Ramag",
+    "kind": "species",
+    "publication": "Unlikely Heroes (2016)",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "Medium, walking speed 30 ft., Intelligence +2 and Dexterity +1. Reach adulthood at 15 and can live to 90.",
+      "Arcane Heritage lets you disregard an item's class requirements when attuning to it.",
+      "Mystical Understanding grants Arcana proficiency. Spell Damping grants advantage on Strength and Dexterity saves against spells.",
+      "Speak, read, and write Common and Giant."
+    ]
+  },
+  {
+    "name": "Kijani",
+    "kind": "species",
+    "publication": "Unlikely Heroes (2016)",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "Medium Plant, walking speed 30 ft. and darkvision 60 ft. Wisdom +2 and one different ability score +1. Reach adulthood at 12 and live up to 40 years.",
+      "Contained Fury is available while current HP is below half your maximum. Once per turn on a weapon hit you can add 1d4 damage of the weapon's type. When a visible attacker hits you, you can use a reaction for +2 AC against that attack.",
+      "Plantborn grants immunity to sleep effects and dormancy during a long rest. Starting at level 7, you can cast speak with plants at spell level 3 once per long rest using Wisdom.",
+      "Roots of the Past grants one proficiency from Arcana, History, Nature, or Religion. Speak, read, and write Common and Sylvan."
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Warforged",
+    "slug": "warforged",
+    "caption": "Swage · Original Warforged NPC",
+    "id": "species-d134547c8d2f6c127fa441f6:f75a24ec605d7cde1c1549a8",
+    "entry": "species-d134547c8d2f6c127fa441f6",
+    "version": "f75a24ec605d7cde1c1549a8",
+    "suffix": "encounters-90/warforged.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-90/warforged.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-90/event-drafts/warforged-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 90 2026-11-24/event-drafts/warforged-event-v1.png",
+    "overrides": [],
+    "sha256": "f8668d371b8b9fe02d02a2bc5bce274b5236318931f7b8d5ec12acc66cb517a4",
+    "bytes": 2154239
+  }
+]

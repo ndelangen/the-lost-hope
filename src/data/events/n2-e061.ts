@@ -5,6 +5,7 @@ export default createEvent({
   name: 'Mortimer’s shop explodes and the party is arrested',
   day: 13,
   location: refs.locations.mortimer_s_shop,
+  illustrations: ['/assets/scenes/mortimer-s-shop-explodes-and-the-party-is-arrested.png'],
   mark: { type: 'icon', name: 'gi/GiPrisoner' },
   notes: [
     [

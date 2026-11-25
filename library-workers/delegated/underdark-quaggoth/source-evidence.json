@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Quaggoth",
+    "kind": "species",
+    "publication": "Underdark (2003)",
+    "edition": "3.5 edition",
+    "book": "Monsters of Faerûn",
+    "authors": [
+      "James Wyatt",
+      "Rob Heinsoo"
+    ],
+    "publisher": "Wizards of the Coast",
+    "firstPrinting": "February 2001",
+    "printedPages": {
+      "playableSpecies": [
+        19,
+        20
+      ],
+      "originalStats": 75,
+      "illustration": 75,
+      "revision": 6
+    },
+    "primaryBookPdfPageOffset": 0,
+    "underdarkPdfPageOffset": 1,
+    "revisionGuide": "",
+    "revisionGuideSha256": "cf7330becd93e73876cf4a081ade396666f9db7301f0094850f19cf666863a18",
+    "laterSeparateProfile": "",
+    "editionReference": "",
+    "primaryBookScan": "",
+    "primaryBookSha256": "b082477a2bb45178f7e28ff2fa1890ebe8fce21c238d69cbf4c19da9e5a783dc",
+    "editionReferenceSha256": "a7651db6f6506ac8abfd1b49f0b8f96e4d4d33ee2d62c9889720d6bbdcf601be",
+    "officialErrataArchive": "https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP",
+    "errataFilename": null,
+    "faqFilename": "",
+    "faqSha256": "312db30e76d5342b9f9e319d66aa60d86042a25535ba7524cba3193ae0bb08c6",
+    "printedArtCredit": "Carl Critchlow, p. 75.",
+    "sourceDistinctions": [
+      "Underdark directs readers to the 2001 Monsters of Faerûn entry and gives 3 racial Hit Dice, LA +2, favored Barbarian, and ECL 5.",
+      "The 2004 Monster Update converts that three-Hit-Die stat block to 3.5, adds 60-ft. darkvision, and updates the skill and feat entries.",
+      "The ability modifiers are derived from the original stat block with the core monster-as-character rule.",
+      "The 2007 Drow of the Underdark Quaggoth has four racial Hit Dice and different rage, defenses, natural weapons, and senses.",
+      "The original three-Hit-Die sources remain the basis of this profile. The collected archive has no Underdark errata file."
+    ],
+    "entryId": "species-67705e5c527dec2069a3a3d5",
+    "versionKey": "22ce665d6185c082c8f46d86",
+    "slug": "quaggoth",
+    "portraitSelection": "generated",
+    "portraitForm": "Rusk Chalkback, an original Quaggoth beast-follower with undyed fur",
+    "npcExamples": [
+      "Rusk Chalkback",
+      "Borr Sootmane"
+    ]
+  }
+]

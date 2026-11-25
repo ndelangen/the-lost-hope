@@ -1,0 +1,252 @@
+{
+  "Black Dragon Wyrmling": {
+    "sha256": "1a664b5069e6ed875ff531115f8d56fec6eb022a6cb2700fc3d15aecc684ac5c",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Blue Dragon Wyrmling": {
+    "sha256": "6e7877bc24c162460af0f6f4024623cb9bb8c5da7fa217ea78b760cefea04efa",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Green Dragon Wyrmling": {
+    "sha256": "ba9395edea7b96bb1a623184fcf272d0a5fa630068322e10e0f1fa3a3f325a8c",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Red Dragon Wyrmling": {
+    "sha256": "ba68735463688fd8f002790990edeca717f0e36d58f7268a9793166f4d3ba2c9",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "White Dragon Wyrmling": {
+    "sha256": "a8954fb92e6f016a2bf50fde2b973a3c217c9b0f1945b19aa9fe91d3a084e470",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Brass Dragon Wyrmling": {
+    "sha256": "8576dc60db4f2a27f2acafb5501729be3c7f047af09746f3605431c344047017",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Bronze Dragon Wyrmling": {
+    "sha256": "82478072a57959a16ab873241c0faa50d0fb5ec1c63eb097a7431322ced442b3",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Copper Dragon Wyrmling": {
+    "sha256": "645ca5d131f569d27a759c5264b1a8a9477c05212b035fd05d4196559d130131",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Gold Dragon Wyrmling": {
+    "sha256": "1f87c93d2cf968c0716eeaac2545bfd68626258fda49634224427ecbe674c15a",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Silver Dragon Wyrmling": {
+    "sha256": "07e74ad6be4005d88d3ab6de74476f3bfa63a2c0b79da2dd5d52abdb7f33741e",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Blue Slaad": {
+    "sha256": "34f97abf177049618fb3b5cbbf1199363fbfb4dad5a5450accfe98b8c9eb9617",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Death Slaad": {
+    "sha256": "a1b683e7773549118b22830543e10b394689fa4ca42d4918f42a5def53f671c3",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Gray Slaad": {
+    "sha256": "a26a1408374cfa7bdf4584d49537ba9da3a7125d2b4be4ed8e030e7d3af498f9",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Green Slaad": {
+    "sha256": "18739d5d1376e4b28660ac1b5e1487aa1dbfd35f225ec87af88187994f18587a",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Red Slaad": {
+    "sha256": "b1ecafffb5e16658379a1f3415267cf58cf12ddaaac6b08a0629407a038aca46",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Slaad Tadpole": {
+    "sha256": "9a1d7b1cf61c9f7508a2ff293752c1d16e77d2994f9651b0183a660ddcd0f92a",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Goristro": {
+    "sha256": "20b546bba0881d58316c4ab0ba2f15137bd438a7ad72b4351ca78a81defce5af",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Dust Mephit": {
+    "sha256": "fb3ae062d80992a81e3884ce8bc97ede2f9c5b5f18359429f59f1adc7128b4a5",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Ice Mephit": {
+    "sha256": "341cf8c656d3efb75ced86c79c1c8e4e9ab00dc0aaf3f8aedb7d955910a609d3",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Magma Mephit": {
+    "sha256": "b195ef5d6ecd685e9c97f77b06ffcf7051acd4296604755afafec4bc670bb910",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Mud Mephit": {
+    "sha256": "cbdbb7deae8d8d7074f816250ef65af0071d02a97e5bb330c8e911921a91a0e9",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Smoke Mephit": {
+    "sha256": "34e723d3a17c392a5f21f4d84eb01dbbc68cac587078dbd11b32fbca15ab9397",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Steam Mephit": {
+    "sha256": "dc881a34686afc1396a1f940f45cda6a87182a80ca06109b4912d2beecbb8fb6",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Magmin": {
+    "sha256": "e55c57f02ff9785e15d63ab16f11852a7ca8bcfde6a4e0978e82d0bc13abcb9a",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Githyanki Knight": {
+    "sha256": "1b8024778911a59e8a495cbea122cd5e58b92d20a909f2e86d645c6ed26d48fe",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Githyanki Warrior": {
+    "sha256": "8b72c05144c448fb84be9861c8a5ae5f3610882f35912405959228b7f6faaee3",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Githzerai Monk": {
+    "sha256": "8acb00557188f062c25ca12542ccc822eb5d82384320b4858a3146c16d3121a5",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Githzerai Zerth": {
+    "sha256": "8acb00557188f062c25ca12542ccc822eb5d82384320b4858a3146c16d3121a5",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Drider": {
+    "sha256": "c32076c64a791ed3748e4b8415ff8b54c4e6f6181e177d77b74c90ea5bd9d490",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Kenku": {
+    "sha256": "089e978672b0ce40bc3e463d0017d74046e3a2711373111be1a50355a23bdf56",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Winged Kobold": {
+    "sha256": "fd047da0c0e39f9949a21e512393038e590a070b40d93d4c955213db0772bc2d",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Awakened Shrub": {
+    "sha256": "e682231a4c53a227452abb60e7336a9a3b490b175a5f3e47fc4e18e69b13c9f3",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Awakened Tree": {
+    "sha256": "f51c6f03c7f544fa324f67e27e1930bc52876b12c22b26c17f6afd45a4d34626",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Myconid Adult": {
+    "sha256": "77777f2d5901549f23510f4fea1e2ba82eb19e696f8ccf8ac3341b4a0414673f",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Myconid Sovereign": {
+    "sha256": "8071cd076edb15d2f9f00020721219cff0e6aa87530aa61a04e3da45b233d465",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Myconid Sprout": {
+    "sha256": "c9928ac9885099748ee2839e02ad6a88de92f044ea578df767c67c359a310425",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Twig Blight": {
+    "sha256": "8b200eb69cdff7558831359ef2c0564599b8fc6cc4d4a0843850f17d131c5133",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Vine Blight": {
+    "sha256": "542eb93f2d3a1d8a90cff67bee737e146cb7b6af571e0ebeae3727b0cc4768ba",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Needle Blight": {
+    "sha256": "9156fc7f6dbdad8a2f644e78da3f58a5d4da168f8feb37ddb66fb43682f55f7a",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Violet Fungus": {
+    "sha256": "e3e2f2b81eb39b46db6dffdf98e9d0ac9f5619d457f1bdfe76839bbf6f797dca",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Peryton": {
+    "sha256": "a5c27952f7579b1e5d2078378757e5ef0f44ec7eab79f265fff0afa6b2aeeb53",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Lamia": {
+    "sha256": "ed205b6172e2b7a6921a151ce2a4f65c8b0027bac899a26b92261d25d9850587",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Harpy": {
+    "sha256": "34c729cd933cff2c6a198bf552417ecaa70ad2da621d1b0652c83d422a1c08a9",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Succubus": {
+    "sha256": "1a4d6c8d747f800e9fd5bc344e993c0b796a2f55162a88974870945fc45e568a",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Pixie": {
+    "sha256": "91ac61f175522e37429737a0cd6ee2939c0b48108fed6cbdded36eaad169378f",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Manticore": {
+    "sha256": "dddb9febdeb73937c395ccb659a542130365dac0c9eb60f7598970f9ade08eec",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Pseudodragon": {
+    "sha256": "7dcc572027c1bb6f6983197519cb44b7d2487b55c3b6e29c22a5cce4d4250121",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Sprite": {
+    "sha256": "138e476e01672342beccb8ccdeabb81691d7ea5976082c41a9bbfa8c46ec7196",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Troll": {
+    "sha256": "1c2732adaaf8ad8d46206eaf61f4d8bc3470205f0a5ed2dc8feaf942ab332c6a",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Umber Hulk": {
+    "sha256": "52562c53ae9ee5719aa8910bb34bd1c4260630420748f6335008cc87c310950b",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  }
+}

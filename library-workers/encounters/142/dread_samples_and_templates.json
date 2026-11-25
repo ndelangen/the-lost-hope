@@ -1,0 +1,347 @@
+[
+  {
+    "name": "Changeling",
+    "decision": "separate",
+    "pages": "pp. 48–49",
+    "notes": "Uses the printed 3.5 edition encounter.",
+    "statBlock": {
+      "name": "Changeling",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium Construct",
+      "ac": 10,
+      "hp": 16,
+      "hitDice": "3d10",
+      "speed": "30 ft.",
+      "cr": "0 or 1",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "description": "An Arak construct made from a stolen mortal shadow. Its maker assigns it a single task, which it pursues to the exclusion of nearly everything else.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack or full attack. One weapon attack at +2 for weapon damage. Noncombatants do not attack.\nPowriekin. Favor poisoned daggers and darts. Sneak attack adds 2d6 as a 3rd-level rogue. Trained Hide and Move Silently with +10 racial bonuses.\nSheekin. Does not fight, even when attacked. Trained Perform with a +20 racial bonus.\nSithkin. Prefers a simple weapon such as a sickle. Can rebuke undead as a 7th-level evil cleric. Undead other than domain lords will not attack unless it attacks first. It never speaks and has a +10 racial bonus on Move Silently.\nTegkin. Uses simple weapons or shortbow or longbow. Trained Survival +10 racial, Hide, Move Silently and Spot +4 racial.",
+        "Traits": "Construct traits and darkvision 60 ft. Initiative +0, BAB/grapple +0/+0, space/reach 5 ft./5 ft., Fort +1, Ref +1, Will +1. It knows its former owner's languages and dissolves into shadow when killed. Racial skills count as trained despite having no skill points. Shadow Rift, solitary or pack of 2–12, no treasure. Its alignment follows its maker.",
+        "Running the encounter": "An Arak puts a mortal to sleep with faerie food and lights a magic candle. Over its five-hour burn the mortal cannot wake unless it is extinguished. The Arak uses black dust and a silver sickle to remove the shadow, then must deliver it to the Shadow Rift before the candle goes out. Success creates the changeling and leaves the mortal as an Intelligence-less, shadowless automaton that refuses to defend itself. Wish or miracle restores the mortal. Resurrection cast on the living changeling destroys it and restores the mortal.",
+        "Printed source": "pp. 48–49"
+      },
+      "ruleNotes": [
+        "CR is 0 for a noncombatant and 1 for a combatant. The entry prints no separate touch or flat-footed AC, innate poison profile, or poison DC."
+      ]
+    }
+  },
+  {
+    "name": "Dhampir",
+    "decision": "separate",
+    "pages": "pp. 55–56",
+    "notes": "Uses the printed 3.5 edition encounter.",
+    "statBlock": {
+      "name": "Dhampir",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium augmented monstrous humanoid, 8th-level human fighter example",
+      "ac": 23,
+      "hp": 68,
+      "hitDice": "8d12 + 16",
+      "speed": "30 ft.",
+      "cr": "10",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "description": "The printed example is a fighter whose supernatural gifts falter in daylight and when he goes too long without humanoid blood.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack. Slam +13 melee for 1d6 + 5 or +1 rapier +14 melee for 1d6 + 8. Full attack uses slam +13 or rapier +14/+3, as printed. Slam counts as magic for overcoming damage reduction.\nDomination (Su). Standard action. Meet a creature's gaze within 30 ft. and force a DC 17 Will save against dominate person at caster level 12. Mere eye contact does not trigger it.\nBlood Drain (Ex). While pinning a living target, drain 1d4 Constitution damage each round the grapple is maintained.\nChildren of the Night (Su, 1/day). Standard action to summon 4d8 dire rats, 10d10 bats or 3d6 wolves. They arrive in 2d6 rounds and serve up to one hour.",
+        "Traits": "DR 10/magic, cold and electricity resistance 10, and spider climb as the spell at CL 12. Fast healing 1 until reduced to −10 HP. Supernatural special attacks and qualities stop in natural daylight or after a week without humanoid blood.\nRestless (Su). The printed fighter rises as a vampire 1d4 days after burial. Destroy the body as for a vampire to prevent it. A dhampir with fewer than 5 original Hit Dice instead rises as vampire spawn.",
+        "Combat statistics": "Initiative +8. AC from +4 Dex, +4 natural and +5 +1 chain shirt. Touch 14, flat-footed 19. BAB/grapple +8/+13, space/reach 5 ft./5 ft., Fort +8, Ref +8, Will +4.",
+        "Skills and feats": "Bluff +9, Climb +15, Hide +10, Jump +13, Listen +10, Move Silently +12, Ride +12, Swim +15, Search +8, Sense Motive +8, Spot +10. Alertness, Athletic, Combat Reflexes, Combat Expertise, Dodge, Improved Critical (rapier), Improved Initiative, Lightning Reflexes, Mobility, Quick Draw, Spring Attack, Weapon Focus and Weapon Specialization (rapier), Whirlwind Attack.",
+        "Encounter details": "Solitary, any land. Dust of appearance, double standard treasure.",
+        "Printed source": "pp. 55–56"
+      },
+      "ruleNotes": [
+        "The printed example uses d12s and gives the second rapier attack as +3. The general template describes increasing Hit Dice by one die size. Retained the sample’s listed dice and attacks."
+      ]
+    }
+  },
+  {
+    "name": "Dread Fiend",
+    "decision": "separate",
+    "pages": "pp. 73–74",
+    "notes": "Uses the printed 3.5 edition encounter.",
+    "statBlock": {
+      "name": "Dread Fiend",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium outsider (augmented humanoid), transposed 6th-level human fighter example",
+      "ac": 20,
+      "hp": null,
+      "hitDice": "6d10 + 24",
+      "speed": "30 ft., fly 30 ft. (average)",
+      "cr": "8",
+      "abilities": {
+        "Str": {
+          "score": 21
+        },
+        "Dex": {
+          "score": 20
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "description": "A succubus has taken control of the printed fighter. It can imitate the host’s ordinary life until its wings and infernal features give it away.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack. +1 longsword +13 melee for 1d8 + 8, claw +11 melee for 1d4 + 5, or shortbow +11 ranged for 1d6/×3.\nFull attack. +1 longsword +13 with bite +6 for 1d6 + 5, two claws +11 with bite +6, or shortbow +11.\nSmite Good (Su, 1/day). Add 6 damage to a normal melee attack against a good foe.\nSpell-like abilities. Charm person at will. Darkness 3/day. Desecrate and unholy blight 1/day each. CL 6, Charisma-based saves.",
+        "Traits": "DR 5/magic, darkvision 60 ft., immune to poison, acid/cold/electricity/fire resistance 10, SR 16. Dread fiends summoned into Ravenloft cannot return to their plane when the spell ends.",
+        "Combat statistics": "Initiative +7. AC +5 Dex, +1 natural, +4 chain shirt. Touch 15, flat-footed 15. BAB/grapple +6/+11, space/reach 5 ft./5 ft., Fort +10, Ref +7, Will +2.",
+        "Skills and feats": "Climb +7, Craft (woodworking) +2, Handle Animal +2, Intimidate +7, Jump +7, Ride +8, Swim +7. Blind-Fight, Combat Reflexes, Improved Initiative, Mounted Combat, Weapon Focus and Weapon Specialization (longsword). Solitary, always evil, double standard treasure.",
+        "Applying the encounter template": "A complete transposition replaces the host’s agency and changes the host to outsider. The host must be living, corporeal, nongood and Int 4+. Keep size, Hit Dice, BAB and saves. Add +1 natural armor, two claws and a bite, magical natural weapons, and flight at land speed (average) only if wings function. Smite adds HD damage (max +20). DR increases to 10/magic at 12 HD, SR is HD +10 (max 35). Modifiers Str +4, Dex +4, Con +2, Int +4, Cha +2. Increase CR by 1 at up to 4 HD, by 2 at 5–10 HD, or by 3 at 11+ HD.",
+        "Template powers": "If Int or Wis is at least 8, gain cumulative Charisma-based abilities at CL equal to HD. At 1 HD darkness 3/day; 3 desecrate; 5 unholy blight; 7 poison 3/day; 9 contagion; 11 blasphemy; 13 unholy aura 3/day and unhallow; 15 horrid wilting; 17 summon monster IX (fiends only); 19 destruction. Default is 1/day.",
+        "Printed source": "pp. 73–74",
+        "Possessing fiend options": "Balor grants see invisibility at will and fire that deals 2d6 per round to anyone touching it, with −4 Cha. Erinyes grants cause fear at will and +4 Cha. Pit fiend grants +2 Str and injury poison at Fortitude DC 27, initially 1d6 Con and then death. Succubus grants charm person at will and +4 Cha.",
+        "Natural attack damage by size": "Bite/claw: Fine 1/none; Diminutive 1d2/1; Tiny 1d3/1d2; Small 1d4/1d3; Medium 1d6/1d4; Large 1d8/1d6; Huge 2d6/1d8; Gargantuan 3d6/2d6; Colossal 4d6/3d6. The full attack can use two claws and a secondary bite, or a weapon and secondary bite plus a claw if it has a free hand."
+      },
+      "ruleNotes": [
+        "The book supplies Hit Dice but does not print a fixed HP total. Roll 6d10 + 24. The printed HP dice and initiative do not follow directly from the listed abilities and feats."
+      ]
+    }
+  },
+  {
+    "name": "Elemental Lich",
+    "decision": "separate",
+    "pages": "pp. 127–129",
+    "notes": "Uses the printed 3.5 edition encounter.",
+    "statBlock": {
+      "name": "Elemental Lich",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium undead (augmented humanoid), 10th-level human wizard example",
+      "ac": 22,
+      "hp": null,
+      "hitDice": "10d12 + 3",
+      "speed": "30 ft.",
+      "cr": "12",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Int": {
+          "score": 20
+        },
+        "Wis": {
+          "score": 18
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "description": "An elemental lich fights up close to channel Ravenloft’s fire, mist, grave earth and blood. Its phylactery lies hidden beneath a mist-shrouded grave.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack or full attack. Touch +5 melee (see powers below), dagger +5 melee for 1d4/19–20, or dart +3 ranged for 1d4/×2. The touch and other natural weapons count as magical.\nConjure Dread Elemental (Su). Each day it may call one 8 HD blood, grave, mist and pyre elemental. Each serves willingly.\nFear Aura (Su). A creature under 5 HD that looks at it within 60 ft. must make a DC 18 Will save against fear. Success gives immunity to this aura for 24 hours. Caster level equals the lich's level.\nTouch of Blood (Su). A hit deals 1d8 + 5 HP damage. DC 18 Fortitude or permanent paralysis and 1d4 damage each round. Remove paralysis or curse removal ends paralysis. DC 20 Spot or DC 15 Heal reveals the paralyzed victim is alive.\nTouch of the Grave (Su). DC 18 Fortitude. Success means 1d8 + 5 HP damage. Failure means death unless heal is cast on the victim within one round.\nTouch of the Pyre (Su). Hit for 1d10 damage, then clothing and armor save or ignite. The magic fire deals 1d10 each round until dispelled or the victim is burned to ash, typically within 1d4 rounds.\nTouch of Mist (Su). No HP damage. DC 18 Will or the victim becomes chaotic evil and serves the lich, which can contact it telepathically up to 10 miles away. Remove curse cast by someone of the victim’s former alignment frees it and restores that alignment.",
+        "Traits": "Sample DR 15/bludgeoning and magic. Immune to elemental attacks, electricity, involuntary polymorph, and mind-affecting effects. Undead traits and +3 turn resistance. It cannot control undead.",
+        "Combat statistics": "Initiative +6. AC +2 Dex, +5 natural, +3 bracers, +2 protection ring. Touch 17, flat-footed 10 as printed. BAB/grapple +5/+5, space/reach 5 ft./5 ft., Fort +3, Ref +5, Will +11.",
+        "Spells prepared": "DC 15 + spell level. 0: detect magic, flare, ray of frost, read magic. 1st: burning hands, chill touch, comprehend languages, expeditious retreat, magic missile, true strike. 2nd: continual flame, flaming sphere, fog cloud, gust of wind, whispering wind. 3rd: dispel magic, explosive runes, fireball, slow. 4th: fire trap, remove curse, wall of fire, wall of ice. 5th: cone of cold, passwall.",
+        "Skills and feats": "Concentration +15, Decipher Script +10, Hide +18, Knowledge (arcana) +15, Knowledge (engineering) +10, Listen +18, Move Silently +26, Spellcraft +15, Spot +12. Combat Casting, Craft Wondrous Item, Improved Initiative, Scribe Scroll, Still Spell, Toughness.",
+        "Phylactery encounter": "The lich buries its phylactery in a grave near the lair, where a rite calls mist over the site. Approaching creatures make a DC 18 Will save or wander away in confusion. Digging above it alerts the lich, which usually arrives in 1d10 rounds.",
+        "Applying the encounter template": "Use a humanoid able to create the phylactery. Type becomes undead; keep size, BAB, saves and skill points. HD becomes d12, natural AC becomes +5 or remains higher, and Int, Wis and Cha increase by 2. Add one touch per round and the listed powers. Add +8 racial on Hide, Listen, Move Silently, Search, Sense Motive and Spot. CR increases by 2; save DC is 10 + half HD + Cha modifier. The sample carries +3 bracers, potions of invisibility and gaseous form, and a brooch of shielding.",
+        "Printed source": "pp. 127–129"
+      },
+      "ruleNotes": [
+        "Roll 10d12 + 3 because the sample does not print a fixed HP total. Keep sample touch and flat-footed AC despite the printed breakdown. The sample’s DR includes magic, but the template lists only bludgeoning. Pyre does not specify the item save category."
+      ]
+    }
+  },
+  {
+    "name": "Geist",
+    "decision": "separate",
+    "pages": "pp. 81–83",
+    "notes": "Uses the printed 3.5 edition encounter.",
+    "statBlock": {
+      "name": "Geist",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium undead (augmented humanoid, incorporeal), 2nd-level human commoner example",
+      "ac": 12,
+      "hp": 13,
+      "hitDice": "2d12",
+      "speed": "Fly 30 ft. (perfect)",
+      "cr": "1/2",
+      "abilities": {
+        "Dex": {
+          "score": 14
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "description": "The common geist cannot manifest in the material world. Instead it shows witnesses a false image of itself or draws them into an impression of the past.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "No weapon or natural attack.\nMind Games (Su). As a free action, show a self-image to living creatures within 30 ft. Use major image except the image is a phantasm. DC 10 Will to avoid perceiving it. The GM may call for a Horror save if the geist died a gruesome death.\nPhantom Shift (Su). Target a living creature and replace its perception of the Material Plane with the area’s ethereal resonance. DC 10 Will negates. The geist often recreates the circumstances of its death.",
+        "Traits": "Incorporeal and undead traits. The geist cannot manifest and ignores damage from corporeal sources. Destroying it temporarily does not end the haunting; it returns until its unfinished business is laid to rest. A bound geist has +4 turn resistance and cowers rather than leaving its site if turned.",
+        "Combat statistics": "Initiative +2. AC +2 Dex, touch 12, flat-footed 10. Printed BAB/grapple +1/+1, space/reach 5 ft./5 ft. Fort +0, Ref +2, Will +0.",
+        "Skills and feats": "Hide +10, Listen +10, Profession +7, Search +8, Spot +11. Lightning Reflexes, Skill Focus (Profession). Solitary, gang of 2–4 or mob of 7–12, any alignment and no treasure.",
+        "Applying the encounter template": "Choose a base creature with Charisma at least 6 from aberration, animal, dragon, giant, humanoid, magical beast, monstrous humanoid or shapechanger. Its type becomes undead with the incorporeal subtype. Keep size, saves and applicable base statistics, but remove prior attacks and special abilities, Strength and Constitution. HD becomes d12; Charisma rises by 2; fly 30 ft. perfect or keep a higher fly speed. Natural armor applies only to ethereal encounters. Add +8 racial bonuses to Hide, Listen, Search and Spot. The listed common geist uses Mind Games and Phantom Shift. CR 1/2; ability DC equals 10 + half HD + Cha modifier.",
+        "Printed source": "pp. 81–83"
+      },
+      "ruleNotes": [
+        "The printed sample lists a grapple modifier despite its incorporeal subtype. It has no physical attacks."
+      ]
+    }
+  },
+  {
+    "name": "Living Tattoo",
+    "decision": "separate",
+    "pages": "pp. 129–134",
+    "notes": "Uses the printed 3.5 edition encounter.",
+    "statBlock": {
+      "name": "Living Tattoo",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Construct; Medium incorporeal Dark Man shown in header",
+      "ac": 13,
+      "hp": 30,
+      "hitDice": "5d10",
+      "speed": "30 ft., fly 40 ft. (good)",
+      "cr": "XP follows host",
+      "abilities": {
+        "Dex": {
+          "score": 14
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "description": "A dream spirit bound to a living host. The six printed samples are companions of a 5th-level human fighter with 40 HP.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Dark Man. Medium. Initiative +2, AC 13 (touch 12, flat-footed 11), BAB/grapple +3/+3, space/reach 5 ft./5 ft., Fort +1, Ref +3, Will +5. Attack or full attack is incorporeal touch +3 melee for 1d6 Strength damage. It fights as a shadow without creating spawn. Dodge. Hide, Listen, Spot and Survival each +8; Stealth adds +10 enhancement to Hide in shadows. Cooperation lends the host Hide while merged.\nLiving Spear. Medium object, 30 HP, hardness 5 or DR 10/magic, whichever applies; they do not stack. It cannot move independently. Use host BAB, attack and saves. Weapon damage 1d8 + 1. Dexterity 14, Int 4, Wis 14; no Str, Con or Cha. Guile can poison three penetrating attacks per day. Swiftness makes separation a free action and places it in the host’s hand.",
+        "Traits": "All samples have 5d10 and 30 HP. Treat them as summoned creatures for XP; overcoming their host earns the award. All understand their host’s languages and have construct traits, DR 10/magic, Empathic Link, Merge and Life Bond. They cannot heal naturally or receive curing magic. A separated tattoo loses 1 HP per full 24 hours. A tattoo with an undead model cannot create spawn.",
+        "Violet Panther": "Medium. Initiative +4, speed 40 ft., climb 20 ft., AC 15 (touch 14, flat-footed 11), BAB/grapple +3/+6, space/reach 5 ft./5 ft. Fort +3, Ref +7, Will +3. Str 16, Dex 19, Int 4, Wis 14, Cha 6. Claw +6 for 1d3 + 3; full attack two claws plus bite +1 for 1d6 + 3. Pounce, improved grab and rake 2d4 + 1 as a leopard. Scent, Stealth and darkvision 60 ft. Balance +12, Climb +11, Hide +9, Listen +7, Move Silently +9, Spot +7. Dodge and Weapon Finesse. It attacks without orders and must be told to stop.",
+        "Grandfather Raven": "Tiny. Initiative +2, speed 10 ft., fly 40 ft. average, AC 14 (touch 14, flat-footed 12), BAB/grapple +3/−10, space 2½ ft., reach 0 ft. Fort +2, Ref +4, Will +2. Str 1, Dex 15, Int 4, Wis 14, Cha 6. Claw +4 for 1d2 − 5, two claws at full attack (minimum 1 damage on a hit). Listen +6, Spot +6, Weapon Finesse. Counsel grants discern lies and Worldliness grants tongues, each 1/day at CL 8.",
+        "Winged Snake": "Small. Initiative +4, speed 40 ft., fly 100 ft. average, swim 40 ft., AC 15 (touch 11, flat-footed 15), BAB/grapple +3/+0, space/reach 5 ft./5 ft. Fort +4, Ref +4, Will +6. Str 13, Dex 10, Int 10, Wis 14, Cha 10. Claw +7 for 1d4; full attack two claws plus bite +2 for 1d6 + 1. Wyrmling green dragon breath: 20-ft. cone of acid for 2d6, DC 13 Reflex half. Guile applies to the bite. Electricity resistance 10, immune to acid, water breathing. Concentration +5, Diplomacy +5, Escape Artist +5, Listen +7, Search +5, Spot +7. Improved Initiative.",
+        "Silver Wolf": "Medium. Initiative +2, speed 50 ft., AC 14 (touch 12, flat-footed 12), space/reach 5 ft./5 ft. Fort +3, Ref +5, Will +2. Str 13, Dex 15, Int 4, Wis 13, Cha 6. Bite +3 for 1d6 + 1 with wolf trip: a hit allows a free trip attempt without an initial touch attack, and failure allows no counter-trip. Scent; while merged the host may use the tattoo’s scent and Survival as listed. Hide +3, Listen +6, Move Silently +4, Spot +4, Survival +1. Weapon Finesse.",
+        "Running the encounter": "Empathic Link is telepathy while touched or in line of sight. Merge or separate at will as a standard action; merging requires touch. While merged, damage to the host does not damage the tattoo. Attacks must specifically target the tattoo to harm it. Death of the host releases the spirit. Once per round as a free action the host can pay any number of their own HP to restore that many tattoo HP. The host recovers that loss only by natural healing. If the tattoo is destroyed, the host must make a Fortitude save at DC 10 + half tattoo HD or die. The site cannot hold another magic tattoo.",
+        "Model abilities": "A host binds only one tattoo. The model must be no larger than the host and have fewer HD. Treat tattoo HD as the host’s level and HP as three-quarters of host HP rounded down. Keep model attacks and movement; objects cannot move on their own. Merged and object tattoos save as the host. Add two suitable powers: Caution, chosen energy resistance 10; Cooperation, one skill while merged; Counsel, discern lies 1/day; Excitement, +1d6 electricity on three attacks daily; Guile, three penetrating attacks daily poison at Fort DC 13 for initial 1d4 Str and secondary 1d4 Con; Mystery, blindness/deafness 1/day; Piety, prayer 1/day affecting tattoo and host; Stealth, +10 enhancement to Hide in shadows; Swiftness, free-action separation; Vigilance, darkvision 60 ft.; Worldliness, tongues 1/day. Use CL 8 for listed daily spell effects and DC 10 + tattoo Wis modifier + spell level.",
+        "Bonding": "An Abber shaman’s rite takes 1d8 + 8 hours and deals 2d4 nonlethal damage to the host each hour. Afterward DC 14 Wisdom attracts a spirit. Bonding costs 200 XP per model HD, or 1/25 the object’s market price in XP with a minimum of 100 XP.",
+        "Printed source": "pp. 129–134"
+      },
+      "ruleNotes": [
+        "The header uses the Dark Man example. The six forms do not have independent printed CRs. The source omits independent speed and AC for Living Spear and BAB/grapple for Silver Wolf. Use host rolls for Spear where directed."
+      ]
+    }
+  },
+  {
+    "name": "Vistani",
+    "decision": "separate",
+    "pages": "pp. 117–118",
+    "notes": "Uses the printed 3.5 edition encounter.",
+    "statBlock": {
+      "name": "Vistani",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium humanoid (human), 1st-level expert example",
+      "ac": 13,
+      "hp": 3,
+      "hitDice": "1d6",
+      "speed": "30 ft.",
+      "cr": "1/2",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "description": "The printed encounter presents an expert traveling with a caravan. He may try to drive attackers away with the evil eye.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack or full attack. Dagger +0 melee for 1d4, or light crossbow +0 ranged for 1d8.\nEvil Eye (Ex). Standard-action gaze against one target; merely looking at the expert does not trigger it. The printed male example’s Will DC is 11. Select one of the following on a failed save:\nParalysis. Paralyzed for 1d4 + 1 rounds. If failure exceeds four, instead paralyzed for 2 rounds, then convulsions deal 1d8 each round for 3 rounds. Afterward DC 15 Fortitude or die; on success the victim is unconscious but easily awakened.\nFear. Fear spell effect for 1d4 + 1 rounds.\nDomination. Dominate person effect for 1d4 + 1 rounds.\nSuggestion. Suggestion spell effect for one day or until the task is complete.",
+        "Traits": "Initiative +0, touch AC 10, flat-footed 13, studded leather +3. BAB/grapple +0/+0, space/reach 5 ft./5 ft., Fort +0, Ref +0, Will +4. Speaks Patterna; many know domain languages. The source gives Evil Eye DC 10 + half HD + Cha for a male and 12 + half HD + Cha for a female encounter NPC.",
+        "Skills and feats": "Bluff +5, Diplomacy +5, Listen +6, Sense Motive +8, Spot +6, Survival +8, and four ranks in a Craft, Perform or Profession skill. Voice of Wrath and Skill Focus in the selected skill. The printed racial +2 on Sense Motive and Survival is represented in the sample values.",
+        "Encounter details": "Any land. Gang of 3–6 or a caravan of 20–40 plus 30% noncombatants, four 3rd-level guards, a 5th-level captain, and a 7th-level raunie. Usually neutral, standard treasure. Guards may try to capture enemies instead of killing them.",
+        "Printed source": "pp. 117–118"
+      },
+      "ruleNotes": [
+        "The entry does not give a specific range for Evil Eye. Use the standard 3.5 gaze range as a table default if needed."
+      ]
+    }
+  }
+]

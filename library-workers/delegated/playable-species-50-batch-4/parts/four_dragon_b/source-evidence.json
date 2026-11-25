@@ -1,0 +1,123 @@
+[
+  {
+    "name": "Fireblood Dwarf",
+    "publication": "Dragon Magic (2006)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Humanoid (Dwarf, Dragonblood)",
+    "url": "",
+    "printedPages": [
+      7
+    ],
+    "heading": "Fireblood Dwarves",
+    "editionNote": "September 2006 first printing. In this , the viewer page is one greater than the printed folio.",
+    "parentSpecies": "Dwarf",
+    "distinction": "This Dragon Magic variant belongs under the existing Dwarf entry and keeps a version-specific NPC and portrait.",
+    "supportingSources": {
+      "dragonblood": "",
+      "baseTraits": "https://www.d20srd.org/srd/races.htm",
+      "npcClass": "https://www.d20srd.org/srd/classes/fighter.htm",
+      "armor": "https://www.d20srd.org/srd/equipment/armor.htm",
+      "weapons": "https://www.d20srd.org/srd/equipment/weapons.htm",
+      "feats": "https://www.d20srd.org/srd/feats.htm",
+      "combat": "https://www.d20srd.org/srd/combat/specialAttacks.htm"
+    }
+  },
+  {
+    "name": "Stonehunter Gnome",
+    "publication": "Dragon Magic (2006)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Humanoid (Gnome, Dragonblood)",
+    "url": "",
+    "printedPages": [
+      8,
+      9
+    ],
+    "heading": "Stonehunter Gnomes",
+    "editionNote": "September 2006 first printing. In this , the viewer page is one greater than the printed folio.",
+    "parentSpecies": "Gnome",
+    "distinction": "This Dragon Magic variant belongs under the existing Gnome entry and keeps a version-specific NPC and portrait.",
+    "supportingSources": {
+      "dragonblood": "",
+      "baseTraits": "https://www.d20srd.org/srd/races.htm",
+      "npcClass": "https://www.d20srd.org/srd/classes/ranger.htm",
+      "armor": "https://www.d20srd.org/srd/equipment/armor.htm",
+      "weapons": "https://www.d20srd.org/srd/equipment/weapons.htm",
+      "feats": "https://www.d20srd.org/srd/feats.htm",
+      "combat": "https://www.d20srd.org/srd/combat/specialAttacks.htm"
+    }
+  },
+  {
+    "name": "Glimmerskin Halfling",
+    "publication": "Dragon Magic (2006)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Humanoid (Halfling, Dragonblood)",
+    "url": "",
+    "printedPages": [
+      9
+    ],
+    "heading": "Glimmerskin Halflings",
+    "editionNote": "September 2006 first printing. In this , the viewer page is one greater than the printed folio.",
+    "parentSpecies": "Halfling",
+    "distinction": "This Dragon Magic variant belongs under the existing Halfling entry and keeps a version-specific NPC and portrait.",
+    "supportingSources": {
+      "dragonblood": "",
+      "baseTraits": "https://www.d20srd.org/srd/races.htm",
+      "npcClass": "https://www.d20srd.org/srd/classes/rogue.htm",
+      "armor": "https://www.d20srd.org/srd/equipment/armor.htm",
+      "weapons": "https://www.d20srd.org/srd/equipment/weapons.htm",
+      "feats": "https://www.d20srd.org/srd/feats.htm",
+      "combat": "https://www.d20srd.org/srd/combat/specialAttacks.htm"
+    }
+  },
+  {
+    "name": "Frostblood Orc",
+    "publication": "Dragon Magic (2006)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Humanoid (Orc, Dragonblood)",
+    "url": "",
+    "printedPages": [
+      10
+    ],
+    "heading": "Frostblood Orcs and Half-Orcs",
+    "editionNote": "September 2006 first printing. In this , the viewer page is one greater than the printed folio.",
+    "parentSpecies": "Orc",
+    "distinction": "This Dragon Magic variant belongs under the existing Orc entry and keeps a version-specific NPC and portrait.",
+    "supportingSources": {
+      "dragonblood": "",
+      "baseTraits": "https://www.d20srd.org/srd/monsters/orc.htm#orcsAsCharacters",
+      "npcClass": "https://www.d20srd.org/srd/classes/fighter.htm",
+      "armor": "https://www.d20srd.org/srd/equipment/armor.htm",
+      "weapons": "https://www.d20srd.org/srd/equipment/weapons.htm",
+      "feats": "https://www.d20srd.org/srd/feats.htm",
+      "combat": "https://www.d20srd.org/srd/combat/specialAttacks.htm"
+    }
+  },
+  {
+    "name": "Frostblood Half-Orc",
+    "publication": "Dragon Magic (2006)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Humanoid (Orc, Dragonblood)",
+    "url": "",
+    "printedPages": [
+      10
+    ],
+    "heading": "Frostblood Orcs and Half-Orcs",
+    "editionNote": "September 2006 first printing. In this , the viewer page is one greater than the printed folio.",
+    "parentSpecies": "Half-Orc",
+    "distinction": "This Dragon Magic variant belongs under the existing Half-Orc entry and keeps a version-specific NPC and portrait.",
+    "supportingSources": {
+      "dragonblood": "",
+      "baseTraits": "https://www.d20srd.org/srd/races.htm",
+      "npcClass": "https://www.d20srd.org/srd/classes/ranger.htm",
+      "armor": "https://www.d20srd.org/srd/equipment/armor.htm",
+      "weapons": "https://www.d20srd.org/srd/equipment/weapons.htm",
+      "feats": "https://www.d20srd.org/srd/feats.htm",
+      "combat": "https://www.d20srd.org/srd/combat/specialAttacks.htm"
+    }
+  }
+]

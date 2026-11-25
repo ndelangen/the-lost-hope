@@ -1,0 +1,397 @@
+{
+  "new": {
+    "Plasmoid Boss": {
+      "path": "output/dm-library/encounter-batches/178/art/plasmoid-boss.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "9d1047e20af3ec67754f2f134aa295ea0f6f2dbee8d30d34380323799aac2ec2",
+      "bytes": 2757372
+    },
+    "Plasmoid Explorer": {
+      "path": "output/dm-library/encounter-batches/178/art/plasmoid-explorer.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "3bace9f80429e2ede9a921bc7d81a9a72b6e2352eaba0a569931876dff27cf77",
+      "bytes": 2703443
+    },
+    "Plasmoid Warrior": {
+      "path": "output/dm-library/encounter-batches/178/art/plasmoid-warrior.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "7f479fda34fba3f526ccd6560fcb267460deb0736da453b40d43b6b98553d5fc",
+      "bytes": 2531616
+    },
+    "Psurlon": {
+      "path": "output/dm-library/encounter-batches/178/art/psurlon.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "2683ee53cca849ae0b64047d3911a820d0b01ace53cadb12deff8681ef577333",
+      "bytes": 2608463
+    },
+    "Psurlon Leader": {
+      "path": "output/dm-library/encounter-batches/178/art/psurlon-leader.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "80f1743ea197e9ec431cee5313a29dad0697536d492dd66c887a4eb7b58ea5b5",
+      "bytes": 2620260
+    },
+    "Psurlon Ringer": {
+      "path": "output/dm-library/encounter-batches/178/art/psurlon-ringer.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "950dba6906e13c26d8d43f80ee38b308db7541e636424539ee9eb83e354b46b5",
+      "bytes": 2465859
+    },
+    "Reigar": {
+      "path": "output/dm-library/encounter-batches/178/art/reigar.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "67c545903a8af326b6a6b0590101e786f3515d20615af676d322cbd6a63bf4fc",
+      "bytes": 2506522
+    },
+    "Solar Dragon Wyrmling": {
+      "path": "output/dm-library/encounter-batches/178/art/solar-dragon-wyrmling.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "620cbc65e5fad398329b3897e6dacb5409af0a23ffa59ff7d3dc34a4c0c1d314",
+      "bytes": 2799077
+    },
+    "Space Clown": {
+      "path": "output/dm-library/encounter-batches/178/art/space-clown.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "977a4d8abbfaabb876849d101e2705b2141d5df47d17f3d1f47edaf2ec8a6a2f",
+      "bytes": 2676818
+    },
+    "Space Hamster": {
+      "path": "output/dm-library/encounter-batches/178/art/space-hamster.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "f9475d6a90cb1131e05d99cfdab08627ed43677820dc5cec184fc5085b783116",
+      "bytes": 2945229
+    },
+    "Ssurran Defiler": {
+      "path": "output/dm-library/encounter-batches/178/art/ssurran-defiler.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "34c3fddfdd9d9ef70c842d96f6d8091e7e56c80764c57b8ecfcff2ded8d1c6f0",
+      "bytes": 2912625
+    },
+    "Ssurran Poisoner": {
+      "path": "output/dm-library/encounter-batches/178/art/ssurran-poisoner.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "a0e24f853b13cc86b94917207d8a1657ff1a1e1ba68816c4505cfe2416f50330",
+      "bytes": 2843089
+    },
+    "Starlight Apparition": {
+      "path": "output/dm-library/encounter-batches/178/art/starlight-apparition.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "a764258b3172983a92afdc616bbad0bafbe10fa50b4addf9c4c14c35c59a7923",
+      "bytes": 2592616
+    },
+    "Thri-kreen Gladiator": {
+      "path": "output/dm-library/encounter-batches/178/art/thri-kreen-gladiator.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "ed9db5cb8330d94aa91d3e66318c3fba156087de0d81a3941822032703967e4d",
+      "bytes": 2659682
+    },
+    "Thri-kreen Hunter": {
+      "path": "output/dm-library/encounter-batches/178/art/thri-kreen-hunter.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "8faad0a73130092fcca40fe33f0395f785414c03f10ff55a2af3ea8715a0e9c9",
+      "bytes": 2687664
+    },
+    "Thri-kreen Mystic": {
+      "path": "output/dm-library/encounter-batches/178/art/thri-kreen-mystic.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "4d5dc59f81888332b7ce8c67f87cc44abd2d0350dd708fc4bd256b133049fde6",
+      "bytes": 2705719
+    },
+    "Vampirate": {
+      "path": "output/dm-library/encounter-batches/178/art/vampirate.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "6324019ddfb081c4d4e8f86bba9efce0d008e5c0dcc307967be6b4df53d2961c",
+      "bytes": 2699422
+    },
+    "Vampirate Captain": {
+      "path": "output/dm-library/encounter-batches/178/art/vampirate-captain.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "c5230ff4d9b9ab2bc78e95a6977a85d0af57eaaf9d8f3dfd2d8316fab4933574",
+      "bytes": 2667460
+    },
+    "Vampirate Mage": {
+      "path": "output/dm-library/encounter-batches/178/art/vampirate-mage.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "047580a85f0cff022159cf140204aa4ccc25e966537c8a02ff58ccda766ffb3f",
+      "bytes": 2583067
+    },
+    "Void Scavver": {
+      "path": "output/dm-library/encounter-batches/178/art/void-scavver.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "82e6eb9b965c77a7c0e0f807ebf8e0c45e5d3259f17b4c6b1fc36f16b472d2c9",
+      "bytes": 2556355
+    },
+    "Young Lunar Dragon": {
+      "path": "output/dm-library/encounter-batches/178/art/young-lunar-dragon.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "fde3fbffccfe0be74b5dfa5b03d49194f4dd476731b34c595d99d6c5372ab69e",
+      "bytes": 2547961
+    },
+    "Young Solar Dragon": {
+      "path": "output/dm-library/encounter-batches/178/art/young-solar-dragon.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "dba9dc4ec85007b9d5d861f5ea0a5e8d129a21240b9a83d02c971f0755b38d60",
+      "bytes": 2569439
+    },
+    "Zodar": {
+      "path": "output/dm-library/encounter-batches/178/art/zodar.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "2438af787cd994a394e3c005f40676d46394d44ac578ad4cd23c71926c74bf18",
+      "bytes": 2555117
+    }
+  },
+  "added": [
+    {
+      "entry": "monster-d34deb42df0ae73b3a413b1d",
+      "version": "d964b8d6253eeb5a291d1ffc",
+      "name": "Plasmoid Boss",
+      "file": "images/monsters/plasmoid-boss/batch-178-portrait.png",
+      "sha256": "9d1047e20af3ec67754f2f134aa295ea0f6f2dbee8d30d34380323799aac2ec2",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-f7dad57edbf90c127c946df7",
+      "version": "9f0ed9d4dd5826ef7ebf706c",
+      "name": "Plasmoid Explorer",
+      "file": "images/monsters/plasmoid-explorer/batch-178-portrait.png",
+      "sha256": "3bace9f80429e2ede9a921bc7d81a9a72b6e2352eaba0a569931876dff27cf77",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-8a73607bc81e7607899a9ea2",
+      "version": "e69c1bdfb74d38d5d8044704",
+      "name": "Plasmoid Warrior",
+      "file": "images/monsters/plasmoid-warrior/batch-178-portrait.png",
+      "sha256": "7f479fda34fba3f526ccd6560fcb267460deb0736da453b40d43b6b98553d5fc",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-bdde43c6f868648646c625fa",
+      "version": "8707da895efaa8491964c2e4",
+      "name": "Psurlon",
+      "file": "images/monsters/psurlon/batch-178-portrait.png",
+      "sha256": "2683ee53cca849ae0b64047d3911a820d0b01ace53cadb12deff8681ef577333",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-59ab19bfb26af5dd636c68fb",
+      "version": "3e8187ac51bfa8ff2c151473",
+      "name": "Psurlon Leader",
+      "file": "images/monsters/psurlon-leader/batch-178-portrait.png",
+      "sha256": "80f1743ea197e9ec431cee5313a29dad0697536d492dd66c887a4eb7b58ea5b5",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-32e34bfdba88bd1a023cb3b4",
+      "version": "6d54fa873bb0f29893cfe7f4",
+      "name": "Psurlon Ringer",
+      "file": "images/monsters/psurlon-ringer/batch-178-portrait.png",
+      "sha256": "950dba6906e13c26d8d43f80ee38b308db7541e636424539ee9eb83e354b46b5",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-e0d85274cb9b868b431d5210",
+      "version": "32c4a07192c56445d9b5dd95",
+      "name": "Reigar",
+      "file": "images/monsters/reigar/batch-178-portrait.png",
+      "sha256": "67c545903a8af326b6a6b0590101e786f3515d20615af676d322cbd6a63bf4fc",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-a24f5ab115c220effe095e34",
+      "version": "700ca722a605c3402b4da412",
+      "name": "Solar Dragon Wyrmling",
+      "file": "images/monsters/solar-dragon-wyrmling/batch-178-portrait.png",
+      "sha256": "620cbc65e5fad398329b3897e6dacb5409af0a23ffa59ff7d3dc34a4c0c1d314",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-a042c5c113948e38cc04efc6",
+      "version": "56d5d2c8792ddaf829810baa",
+      "name": "Space Clown",
+      "file": "images/monsters/space-clown/batch-178-portrait.png",
+      "sha256": "977a4d8abbfaabb876849d101e2705b2141d5df47d17f3d1f47edaf2ec8a6a2f",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-ae3606c23cf9a62379f2716f",
+      "version": "894895b35ea6d2542e6db9fe",
+      "name": "Space Hamster",
+      "file": "images/monsters/space-hamster/batch-178-portrait.png",
+      "sha256": "f9475d6a90cb1131e05d99cfdab08627ed43677820dc5cec184fc5085b783116",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-9ac5805a68aafed1f816f589",
+      "version": "82b469b46d2bfb456df55998",
+      "name": "Ssurran Defiler",
+      "file": "images/monsters/ssurran-defiler/batch-178-portrait.png",
+      "sha256": "34c3fddfdd9d9ef70c842d96f6d8091e7e56c80764c57b8ecfcff2ded8d1c6f0",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-5bc7762f91e1afc691dc2aff",
+      "version": "1224f2bad3e342ca6ef4b8f2",
+      "name": "Ssurran Poisoner",
+      "file": "images/monsters/ssurran-poisoner/batch-178-portrait.png",
+      "sha256": "a0e24f853b13cc86b94917207d8a1657ff1a1e1ba68816c4505cfe2416f50330",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-6286ec4fdef6d7aa757a502e",
+      "version": "623d7464c4d1fb2476c6021e",
+      "name": "Starlight Apparition",
+      "file": "images/monsters/starlight-apparition/batch-178-portrait.png",
+      "sha256": "a764258b3172983a92afdc616bbad0bafbe10fa50b4addf9c4c14c35c59a7923",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-0551a1a1c288182327c4835b",
+      "version": "390bb3db3c76b3eb35d49c72",
+      "name": "Thri-kreen Gladiator",
+      "file": "images/monsters/thri-kreen-gladiator/batch-178-portrait.png",
+      "sha256": "ed9db5cb8330d94aa91d3e66318c3fba156087de0d81a3941822032703967e4d",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-397e24f2501a73c12594ce5b",
+      "version": "46798377ee02ae38cdfaed41",
+      "name": "Thri-kreen Hunter",
+      "file": "images/monsters/thri-kreen-hunter/batch-178-portrait.png",
+      "sha256": "8faad0a73130092fcca40fe33f0395f785414c03f10ff55a2af3ea8715a0e9c9",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-1c4327b7eac3bd473998b1ed",
+      "version": "65f41ab84b9b3a4e3ba1862d",
+      "name": "Thri-kreen Mystic",
+      "file": "images/monsters/thri-kreen-mystic/batch-178-portrait.png",
+      "sha256": "4d5dc59f81888332b7ce8c67f87cc44abd2d0350dd708fc4bd256b133049fde6",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-41f9b70ae4961107a830da99",
+      "version": "07da7249b76349794ed9e635",
+      "name": "Vampirate",
+      "file": "images/monsters/vampirate/batch-178-portrait.png",
+      "sha256": "6324019ddfb081c4d4e8f86bba9efce0d008e5c0dcc307967be6b4df53d2961c",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-d13338e330b2aeb27ae9439a",
+      "version": "2ecb46b587a9f95d0532fb8c",
+      "name": "Vampirate Captain",
+      "file": "images/monsters/vampirate-captain/batch-178-portrait.png",
+      "sha256": "c5230ff4d9b9ab2bc78e95a6977a85d0af57eaaf9d8f3dfd2d8316fab4933574",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-a7e9cf958fb80fc4dfd05f81",
+      "version": "534decea3a97938b9dd769f1",
+      "name": "Vampirate Mage",
+      "file": "images/monsters/vampirate-mage/batch-178-portrait.png",
+      "sha256": "047580a85f0cff022159cf140204aa4ccc25e966537c8a02ff58ccda766ffb3f",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-a896c86b8a4e9af2bc8e2f48",
+      "version": "36f6e6206eb0c819a320d395",
+      "name": "Void Scavver",
+      "file": "images/monsters/void-scavver/batch-178-portrait.png",
+      "sha256": "82e6eb9b965c77a7c0e0f807ebf8e0c45e5d3259f17b4c6b1fc36f16b472d2c9",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-8044da91694417b1f6aafc24",
+      "version": "54086d04529e4712b54c38e3",
+      "name": "Young Lunar Dragon",
+      "file": "images/monsters/young-lunar-dragon/batch-178-portrait.png",
+      "sha256": "fde3fbffccfe0be74b5dfa5b03d49194f4dd476731b34c595d99d6c5372ab69e",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-e2b37d47b1405e899b71f27e",
+      "version": "8247aa1f41235cd331c9d04d",
+      "name": "Young Solar Dragon",
+      "file": "images/monsters/young-solar-dragon/batch-178-portrait.png",
+      "sha256": "dba9dc4ec85007b9d5d861f5ea0a5e8d129a21240b9a83d02c971f0755b38d60",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-52a5c1c378ddb973a87ff5b5",
+      "version": "0035ea662c82cd6334d724b4",
+      "name": "Zodar",
+      "file": "images/monsters/zodar/batch-178-portrait.png",
+      "sha256": "2438af787cd994a394e3c005f40676d46394d44ac578ad4cd23c71926c74bf18",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    }
+  ]
+}

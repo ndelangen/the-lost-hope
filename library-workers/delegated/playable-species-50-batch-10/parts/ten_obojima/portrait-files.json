@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Dara",
+    "file": "portraits/dara.png",
+    "sha256": "850f804ca9f3fa7dae9d054d62963143a074b3e70d73d816d2c7709b8a004c8e",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "name": "Nakudama",
+    "file": "portraits/nakudama.png",
+    "sha256": "0cd6b4c682ad5a4a04b0a9a0050e3ab477e1ab175f0911a204a8ea5f53acf5a1",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  }
+]

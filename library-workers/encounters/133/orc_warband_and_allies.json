@@ -1,0 +1,79 @@
+[
+  {
+    "name": "Orc Blitzer",
+    "decision": "share",
+    "pages": "Hanging Tree, p. 39.",
+    "tableNote": "Five blitzers play with Brunsa and the human guards in the meeting area (O2). Dohma Raskovar can call ten more with Reinforcements.",
+    "notes": "Both printings use 7 HP, CR 1/2, and 20 XP. Gnashing Horde, Relentless Minion, and the Spear group attack match the local Flee, Mortals! summary."
+  },
+  {
+    "name": "Orc Bloodrunner",
+    "decision": "share",
+    "pages": "Hanging Tree, p. 40.",
+    "tableNote": "If the party rests while the lair is on alert, there is an 80 percent chance that two bloodrunners and two furies find them five minutes into the rest.",
+    "notes": "Both printings use 15 HP and a speed of 60 ft. The shield's push and knockdown, Unimpeded's damage, Relentless, and Juke match."
+  },
+  {
+    "name": "Orc Fury",
+    "decision": "share",
+    "pages": "Hanging Tree, p. 41.",
+    "tableNote": "Two furies help Nalan in the feed room (O6). They try to draw intruders into the ring of troughs and trigger the scyza trap.",
+    "notes": "Both printings use 22 HP, CR 1/2, a DC 13 Strength save against the greataxe's knockdown, and a once-per-day 5 HP Healing Rally."
+  },
+  {
+    "name": "Orc Garroter",
+    "decision": "share",
+    "pages": "Hanging Tree, p. 42.",
+    "tableNote": "Yarl hides off the narrow hallway (O3). If the group finds her while the lair is on alert, she attacks. Otherwise she follows the group and waits for a fight or a chance to attack with other mercenaries.",
+    "notes": "Both printings use the DC 12 grapple escape and Constitution save for Strangle. The Dagger's advantage rider, silent movement under Cloak, and conditions that end Cloak match."
+  },
+  {
+    "name": "Orc Godcaller",
+    "decision": "share",
+    "pages": "Hanging Tree, p. 42. The White Tower, p. 148.",
+    "tableNote": "Brunsa questions intruders in the Hanging Tree meeting area (O2). In the White Tower, Ornaz tries to warn Xorannox once the guards notice intruders and then flees.",
+    "notes": "Both adventure instances and the Flee, Mortals! block use 82 HP and list the same hearing requirements, reaction movement with Cadenza, damage interruption for Song of the Gods, and Rallying Ostinato healing."
+  },
+  {
+    "name": "Orc Rampart",
+    "decision": "share",
+    "pages": "Hanging Tree, p. 43.",
+    "tableNote": "One rampart works as a bouncer in the tavern (O1). A second poses as a patron and can be picked out with a DC 13 Wisdom (Insight) check. Use the separate Slime Servant stat block for the amphibious Rampart in Ruins of Wrathrock.",
+    "notes": "The two published base profiles match. Both spear attacks need only target the same creature to impose disadvantage. The No! reaction and spear damage also match. The Wrathrock servant is a separate variant."
+  },
+  {
+    "name": "Orc Terranova",
+    "decision": "share",
+    "pages": "Hanging Tree, p. 43.",
+    "tableNote": "Nalan and two furies guard three mohlers in the feed room (O6). The mohlers join if the orcs attack. Once the orcs fall, the mohlers burrow away.",
+    "notes": "Both printings use the same Tremorspeak range, ground requirements on Earth Pillar, Quake, and Sinkhole, and turn order and number for the summoned mohlers."
+  },
+  {
+    "name": "Gnoll Bonesplitter",
+    "decision": "share",
+    "pages": "The White Tower, p. 145. Canyon of the Tower Crown, p. 162.",
+    "tableNote": "At the canyon's Sorting Room (D3), two bonesplitters work with twenty pitlings. If the group fails the DC 15 group Dexterity (Stealth) check in the preceding hall, the bonesplitters wait at its far end to catch anyone who makes it through.",
+    "notes": "Both adventure blocks match the Flee, Mortals! statistics and the printed grapple, weapon restriction, Bloody Roar, space swap, and Death Frenzy rules."
+  },
+  {
+    "name": "Hellhound (MCDM)",
+    "decision": "share",
+    "pages": "Shifting Library, p. 88. Molten Enclave, p. 119.",
+    "tableNote": "One hellhound shares the fire giants' meal in the Molten Enclave dining hall (Z6). In the Shifting Library, opening the gate to the Seven Cities (K5) has a 50 percent chance of bringing four hellhounds through.",
+    "notes": "Both adventure blocks match the Flee, Mortals! statistics, the fire-triggered AC increase, Hellfire Breath's repeat save and nonstacking fire, and the weapon restriction on Tug of War."
+  },
+  {
+    "name": "Pitling",
+    "decision": "share",
+    "pages": "Canyon of the Tower Crown, p. 162.",
+    "tableNote": "In the canyon's narrow hallway (D2), twenty pitlings wait for the first character to reach the halfway point before attacking if the group alerts them. Another ten attend Aurumvas with the two ruinants Xaxos and Zeron.",
+    "notes": "Both printings use 11 HP, CR 4, 220 minion XP, the DC 11 Soul Feast save, the same group Spit attack, and the same three-pitling threshold for Horrid Stench."
+  },
+  {
+    "name": "Wight (MCDM)",
+    "decision": "share",
+    "pages": "Shadowkeep, p. 223.",
+    "tableNote": "Three wights join Azon's ritual in the Occult Sanctum (V6) while ten shades watch. If the last shade falls before the ritual is disrupted with Dispel Magic or by defeating Azon and the wights, a devil magistrate appears.",
+    "notes": "Both printings use 65 HP, CR 3, the same attack choices and healing from Vitality Theft, and the same reroll and willing-target options for Decaying Guard."
+  }
+]

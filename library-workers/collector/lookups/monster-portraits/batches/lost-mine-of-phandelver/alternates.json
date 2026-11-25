@@ -1,0 +1,68 @@
+[
+  {
+    "entityKind": "monster",
+    "name": "Brughor Axe-Biter",
+    "publication": "Lost Mine of Phandelver",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/brughor-axe-biter/source-related-orc.webp",
+    "artist": "Related creature art: Orc by Conceptopolis · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "0691ddcb0715fc7c32dfc73fb78f3b2c59b9a46d110133dd43e84ccd06c1914e",
+    "reference": "images/monsters/orc/mm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "King Grol",
+    "publication": "Lost Mine of Phandelver",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/king-grol/source-related-bugbear.webp",
+    "artist": "Related creature art: Bugbear by Steve Prescott · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "27fd05a5bb888bde1edf72cdd8aa8b4f7d81cdb5759f9eb5259d1e9b65d7c819",
+    "reference": "images/monsters/bugbear/mm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Lhupo",
+    "publication": "Lost Mine of Phandelver",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/lhupo/source-related-goblin.webp",
+    "artist": "Related creature art: Goblin · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "5f1b85802b916e75cc7e9840a00573247743114d541119d62965d0542c5eb193",
+    "reference": "images/monsters/goblin/mm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Targor Bloodsword",
+    "publication": "Lost Mine of Phandelver",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/targor-bloodsword/source-related-hobgoblin.webp",
+    "artist": "Related creature art: Hobgoblin · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "b8a522b4057a599c532ac8abd00b9058d986f11fa8bb730ca7ad4ead09e766b3",
+    "reference": "images/monsters/hobgoblin/mm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Yeemik",
+    "publication": "Lost Mine of Phandelver",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/yeemik/source-related-goblin.webp",
+    "artist": "Related creature art: Goblin · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "5f1b85802b916e75cc7e9840a00573247743114d541119d62965d0542c5eb193",
+    "reference": "images/monsters/goblin/mm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Yegg",
+    "publication": "Lost Mine of Phandelver",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/yegg/source-related-goblin.webp",
+    "artist": "Related creature art: Goblin · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "5f1b85802b916e75cc7e9840a00573247743114d541119d62965d0542c5eb193",
+    "reference": "images/monsters/goblin/mm-1.webp"
+  }
+]

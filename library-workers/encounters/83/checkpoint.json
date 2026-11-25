@@ -1,0 +1,45 @@
+{
+  "commit": "aec50aa78f8063a97eeb91bd44d29e6256b96e2f",
+  "publication": "Races of Stone (2004)",
+  "edition": "3.5 edition",
+  "playableSpecies": 1,
+  "fullNpcBuilds": 2,
+  "approvedPortraitsReused": 1,
+  "progression": {
+    "full": {
+      "racialHD": 2,
+      "clawDie": "1d6",
+      "powerfulBuild": true
+    },
+    "level2": {
+      "racialHD": 1,
+      "clawDie": "1d4",
+      "powerfulBuild": false
+    }
+  },
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "visualProof": "output/dm-library/review/encounters-83-feral gargun-species.png",
+  "browser": {
+    "name": "Feral Gargun",
+    "species": "species-2992858e03c317fdff792a74",
+    "edition": "3.5 edition",
+    "profiles": [
+      "Races of Stone (2004)"
+    ],
+    "portraitSha256": "065366d73b579d24305470371b4ee8e07516e29ff8323987168c96c12d084fb5",
+    "caption": "Sava of Rethma · Original Feral Gargun NPC",
+    "npcReceipts": [
+      {
+        "name": "Sava of Rethma",
+        "id": "npc-46cdc4b7b37afbe6793c92ad",
+        "challenge": "Provisional CR 3. ECL 5."
+      },
+      {
+        "name": "Gorren of Vekra",
+        "id": "npc-6a842c7bbe9f870ca08c9f94",
+        "challenge": "Provisional CR 1. ECL 2."
+      }
+    ]
+  }
+}

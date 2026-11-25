@@ -1,0 +1,491 @@
+[
+  {
+    "name": "Egg Hunter Adult",
+    "statBlock": {
+      "name": "Egg Hunter Adult",
+      "publication": "Fizban's Treasury of Dragons",
+      "edition": "2014 fifth edition",
+      "printedPage": 193,
+      "classification": "Small monstrosity, unaligned",
+      "ac": 16,
+      "hp": 52,
+      "hitDice": "8d6 + 24",
+      "speed": "40 ft., climb 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 20
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 14,
+      "description": "This dragon-egg parasite drains eggs and leaves its own clutch concealed in the empty shells. It can lie motionless and pass for an inert object.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 4,
+        "Stealth": 11
+      },
+      "savingThrows": {
+        "Dex": 8,
+        "Wis": 4
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Condition immunities": "frightened, poisoned.",
+        "Senses": "darkvision 120 ft.",
+        "Languages": "None.",
+        "Traits": "Amphibious. The egg hunter breathes air and water.\nFalse Appearance. If motionless at the start of combat, it rolls initiative with advantage. A creature that has never seen it move or act must pass a DC 18 Intelligence (Investigation) check to recognize it as animate. Dragons have disadvantage on the check.",
+        "Actions": "Multiattack. Make two Barbed Proboscis attacks. The egg hunter can also use Torpor Spores if available.\nBarbed Proboscis. Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 8 (1d6 + 5) piercing damage plus 9 (2d8) necrotic damage. The egg hunter regains hit points equal to the necrotic damage dealt.\nTorpor Spores (Recharge 5–6). Each creature in a 30-ft.-radius sphere centered on the egg hunter must pass a DC 14 Constitution save or become poisoned for 1 minute. While poisoned this way, the creature can take only one of an action or a bonus action on its turn. It cannot take reactions. It can repeat the save at the end of each of its turns, ending the effect on a success. When it succeeds on the save or the effect ends for it, the creature is immune to this egg hunter’s Torpor Spores for 24 hours.",
+        "Reactions": "Rapid Adaptation. When the egg hunter takes damage, it gains resistance to that damage.",
+        "Printed source": "Fizban's Treasury of Dragons, p. 193."
+      }
+    }
+  },
+  {
+    "name": "Egg Hunter Hatchling",
+    "statBlock": {
+      "name": "Egg Hunter Hatchling",
+      "publication": "Fizban's Treasury of Dragons",
+      "edition": "2014 fifth edition",
+      "printedPage": 193,
+      "classification": "Tiny monstrosity, unaligned",
+      "ac": 14,
+      "hp": 28,
+      "hitDice": "8d4 + 8",
+      "speed": "30 ft., burrow 10 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 8
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 1
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 12,
+      "description": "A young dragon-egg parasite with a tooth that can puncture eggshells. It can climb, burrow, and retreat quickly.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 2,
+        "Stealth": 7
+      },
+      "savingThrows": {
+        "Dex": 5,
+        "Wis": 2
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Condition immunities": "frightened.",
+        "Senses": "darkvision 60 ft.",
+        "Languages": "None.",
+        "Traits": "Amphibious. The egg hunter breathes air and water.",
+        "Actions": "Multiattack. Make two Egg Tooth attacks.\nEgg Tooth. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 10 (2d6 + 3) piercing damage, or 17 (4d6 + 3) piercing damage against an object.",
+        "Bonus actions": "Rapid Movement. Take the Dash or Disengage action.",
+        "Printed source": "Fizban's Treasury of Dragons, p. 193."
+      }
+    }
+  },
+  {
+    "name": "Elder Brain Dragon",
+    "statBlock": {
+      "name": "Elder Brain Dragon",
+      "publication": "Fizban's Treasury of Dragons",
+      "edition": "2014 fifth edition",
+      "printedPage": 194,
+      "classification": "Gargantuan aberration, typically lawful evil",
+      "ac": 17,
+      "hp": 350,
+      "hitDice": "20d20 + 140",
+      "speed": "40 ft., fly 80 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 27
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 25
+        },
+        "Int": {
+          "score": 21
+        },
+        "Wis": {
+          "score": 19
+        },
+        "Cha": {
+          "score": 24
+        }
+      },
+      "cr": "22",
+      "xp": 41000,
+      "passivePerception": 28,
+      "description": "An elder brain takes control of a captive dragon and uses the host’s mobility to lead an illithid army. Its brine breath can turn victims into mind flayers.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Arcana": 12,
+        "Insight": 18,
+        "Perception": 18
+      },
+      "savingThrows": {
+        "Con": 14,
+        "Int": 12,
+        "Wis": 11,
+        "Cha": 14
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage immunities": "psychic.",
+        "Condition immunities": "charmed, frightened.",
+        "Senses": "blindsight 120 ft.",
+        "Languages": "Deep Speech, Draconic, telepathy 5 miles.",
+        "Traits": "Legendary Resistance (4/day). The dragon can turn a failed saving throw into a success.\nSiege Monster. The dragon deals double damage to objects and structures.\nUnusual Nature. The dragon needs neither air nor sleep.",
+        "Actions": "Multiattack. Make one Bite, two Claw attacks, and one Tentacle attack.\nBite. Melee weapon attack, +15 to hit, reach 15 ft., one target. A hit deals 19 (2d10 + 8) piercing damage plus 11 (2d10) psychic damage.\nClaw. Melee weapon attack, +15 to hit, reach 10 ft., one target. A hit deals 11 (1d6 + 8) slashing damage.\nTentacle. Melee weapon attack, +15 to hit, reach 15 ft., one creature. A hit deals 12 (1d8 + 8) psychic damage. A Huge or smaller target is also grappled (escape DC 18). The dragon can grapple up to four creatures with its tentacles at once.\nTadpole Brine Breath (Recharge 5–6). Each creature in a line 120 ft. long and 15 ft. wide makes a DC 22 Constitution save. Failure deals 55 (10d10) psychic damage. Success halves the damage. Either result infests the creature with illithid tadpoles unless it is a Construct or an Undead.\nInfestation. An infested creature starts each of its turns by taking 16 (3d10) psychic damage. It can repeat the save at the end of each of its turns, clearing the infestation after three successes. Magic that ends a curse or restores at least 40 hit points to the creature kills the tadpoles and ends the infestation immediately.\nCeremorphosis. If an infested Humanoid drops to 0 hit points, it is stable and remains unconscious for 6d12 hours. It then becomes a Mind Flayer with full hit points. Casting Wish on it while unconscious ends the infestation and prevents the transformation.",
+        "Legendary actions": "The dragon has three legendary actions and regains spent actions at the start of its turn. It can use one option at the end of another creature’s turn.\nTentacle (1 action). Make one Tentacle attack.\nShatter Concentration (2 actions). Choose a creature the dragon has grappled. Its concentration on a spell or ability ends, and it takes 19 (3d12) psychic damage.",
+        "Printed source": "Fizban's Treasury of Dragons, p. 194."
+      }
+    }
+  },
+  {
+    "name": "Emerald Dragon Wyrmling",
+    "statBlock": {
+      "name": "Emerald Dragon Wyrmling",
+      "publication": "Fizban's Treasury of Dragons",
+      "edition": "2014 fifth edition",
+      "printedPage": 197,
+      "classification": "Medium dragon (gem), typically lawful neutral",
+      "ac": 16,
+      "hp": 39,
+      "hitDice": "6d8 + 12",
+      "speed": "30 ft., burrow 20 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 15,
+      "description": "A young emerald dragon that uses illusions and burrowing to observe others without revealing its position.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Arcana": 4,
+        "Deception": 4,
+        "Perception": 5,
+        "Stealth": 3
+      },
+      "savingThrows": {
+        "Dex": 3,
+        "Con": 4,
+        "Wis": 3,
+        "Cha": 4
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "fire, psychic.",
+        "Senses": "blindsight 10 ft., darkvision 60 ft.",
+        "Languages": "Draconic, telepathy 120 ft.",
+        "Traits": "Tunneler. The dragon burrows through solid rock at half its burrowing speed and can leave a tunnel 5 ft. in diameter.",
+        "Actions": "Bite. Melee weapon attack, +4 to hit, reach 10 ft., one target. A hit deals 7 (1d10 + 2) piercing damage plus 3 (1d6) psychic damage.\nDisorienting Breath (Recharge 5–6). Each creature in a 15-ft. cone makes a DC 12 Intelligence save. Failure deals 17 (5d6) psychic damage. Until the end of its next turn, the creature also subtracts 1d4 from each attack roll and ability check it makes. Success halves the damage and avoids the penalty.\nSpellcasting (Psionics). As an action, cast Mage Hand (invisible hand) or Minor Illusion at will using Intelligence (spell save DC 12). Neither spell requires components.",
+        "Optional young lair guidance": "Page 65 allows reduced lair actions or regional effects for a young dragon or wyrmling at the DM’s discretion. The base wyrmling has no lair actions. Consider smaller areas and lower DCs. Regional effects do not affect CR. Lair actions can raise the CR of a dragon without legendary actions by 1 or more.",
+        "Optional customization": "Page 34 gives options for changing languages, proficiencies, senses, and traits to suit the individual dragon.",
+        "Source notes": "The printed Tunneler trait gives the wyrmling a 5-foot tunnel. The young emerald dragon can make a 10-foot tunnel.",
+        "Printed source": "Fizban's Treasury of Dragons, p. 197."
+      }
+    }
+  },
+  {
+    "name": "Emerald Greatwyrm",
+    "statBlock": {
+      "name": "Emerald Greatwyrm",
+      "publication": "Fizban's Treasury of Dragons",
+      "edition": "2014 fifth edition",
+      "printedPage": 201,
+      "classification": "Gargantuan dragon (gem), typically neutral",
+      "ac": 21,
+      "hp": 507,
+      "hitDice": "26d20 + 234",
+      "speed": "60 ft., burrow 60 ft., fly 120 ft. (hover), swim 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 28
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 29
+        },
+        "Int": {
+          "score": 30
+        },
+        "Wis": {
+          "score": 24
+        },
+        "Cha": {
+          "score": 25
+        }
+      },
+      "cr": "26",
+      "xp": 90000,
+      "passivePerception": 25,
+      "description": "An emerald dragon whose crystalline form and vast psionic reach reflect centuries of merging with its echoes. Smargad is the emerald thane named in the book’s sidebar on Sardior.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Arcana": 26,
+        "History": 18,
+        "Perception": 15
+      },
+      "savingThrows": {
+        "Dex": 10,
+        "Con": 17,
+        "Wis": 15,
+        "Cha": 15
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage immunities": "psychic.",
+        "Condition immunities": "charmed, frightened, poisoned, prone.",
+        "Senses": "truesight 120 ft.",
+        "Languages": "Common, Draconic.",
+        "Traits": "Gem Awakening (Recharges after a Short or Long Rest). When the greatwyrm would drop to 0 hit points, it instead resets to 400 hit points, recharges Breath Weapon and recovers all spent Legendary Resistance uses. It can use Mass Telekinesis for the next hour. Defeating it after Gem Awakening grants an extra 90,000 XP, for 180,000 XP total.\nLegendary Resistance (4/day). The greatwyrm can turn a failed saving throw into a success.\nUnusual Nature. The greatwyrm needs no food or drink.",
+        "Actions": "Multiattack. Make one Bite attack and two Claw attacks.\nBite. Melee weapon attack, +17 to hit, reach 15 ft., one target. A hit deals 20 (2d10 + 9) piercing damage plus 16 (3d10) force damage.\nClaw. Melee weapon attack, +17 to hit, reach 10 ft., one target. A hit deals 18 (2d8 + 9) slashing damage. A Huge or smaller creature hit is grappled (escape DC 19) and restrained while grappled. The greatwyrm can hold only one creature with its Claw.\nBreath Weapon (Recharge 5–6). Each creature in a 300-ft. cone makes a DC 25 Dexterity save. A failure deals 71 (11d12) force damage and knocks the creature prone. Success halves the damage and prevents the knockdown. On either result its speed becomes 0 until the end of its next turn.\nMass Telekinesis (Gem Awakening Only, Recharges after a Short or Long Rest). Choose any number of visible creatures or objects within 120 ft., each weighing up to 4,000 lb. Worn or carried objects are ineligible. Each chosen creature must pass a DC 26 Strength save or be restrained by the grip. It can repeat this save at the end of each of its turns to escape. At the end of each of the greatwyrm’s turns, it can move each creature or object still in the grip up to 60 ft. in any direction, within 120 ft. of itself. It can also deal 45 (7d12) force damage to each creature it chooses that remains restrained by the grip.\nSpellcasting (Psionics). As an action, cast a listed spell using Intelligence (spell save DC 26, +18 to hit with spell attacks) and no components. Dispel Magic, Forcecage, Plane Shift, Reverse Gravity, and Time Stop are each usable once per day.",
+        "Bonus actions": "Change Shape. Magically take the shape of a Small or Medium creature. The greatwyrm retains its game statistics apart from size. The change ends at 0 hit points or when the greatwyrm spends a bonus action to end it.\nPsychic Step. Magically teleport to a visible unoccupied space within 60 ft.",
+        "Legendary actions": "The greatwyrm has three legendary actions and regains spent actions at the start of its turn. Use one option at a time at the end of another creature’s turn.\nClaw (1 action). Make one Claw attack.\nPsionics (2 actions). Use Psychic Step or Spellcasting.\nPsychic Beam (3 actions). Each creature in a line 90 ft. long and 10 ft. wide makes a DC 26 Intelligence save. Failure deals 27 (5d10) psychic damage. Success halves the damage.",
+        "Optional customization": "Page 34 gives options for changing languages, proficiencies, senses, and traits to suit the individual dragon.",
+        "Printed source": "Fizban's Treasury of Dragons, p. 201, Gem Greatwyrm stat block with the emerald variant’s psychic immunity."
+      }
+    }
+  },
+  {
+    "name": "Eyedrake",
+    "statBlock": {
+      "name": "Eyedrake",
+      "publication": "Fizban's Treasury of Dragons",
+      "edition": "2014 fifth edition",
+      "printedPage": 199,
+      "classification": "Large aberration, typically lawful evil",
+      "ac": 16,
+      "hp": 119,
+      "hitDice": "14d10 + 42",
+      "speed": "0 ft., fly 30 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 18,
+      "description": "A beholder’s dreams of a dragon rival can give rise to this limbless flying aberration. A large eye in its mouth projects antimagic, and the eyestalks in its wings fire rays.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 8,
+        "Stealth": 6
+      },
+      "savingThrows": {
+        "Con": 6,
+        "Wis": 5
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Condition immunities": "prone.",
+        "Senses": "darkvision 120 ft.",
+        "Languages": "Deep Speech, Draconic.",
+        "Traits": "Unusual Nature. The eyedrake needs no food or drink.",
+        "Actions": "Bite. Melee weapon attack, +6 to hit, reach 10 ft., one target. A hit deals 13 (3d6 + 3) piercing damage.\nAntimagic Breath (Recharge 6). Each creature in a 30-ft. cone makes a DC 14 Constitution save. Failure deals 39 (6d12) force damage. Success halves the damage. Every spell of 3rd level or lower ends on creatures or objects of the eyedrake’s choice in the cone.\nEye Rays. Roll three different rays at random, rerolling duplicates. For each ray, choose one creature the eyedrake can see within 60 ft.\n1. Freezing Ray. DC 14 Constitution save. On a failure, take 17 (5d6) cold damage and halve speed until the end of the target’s next turn. Success halves the damage without reducing speed.\n2. Debilitating Ray. DC 14 Constitution save. On a failure, take 7 (2d6) thunder damage and become incapacitated until the end of the target’s next turn.\n3. Repulsion Ray. DC 14 Strength save. On a failure, take 14 (4d6) force damage and be pushed up to 60 ft. away from the eyedrake.\n4. Fire Ray. DC 14 Dexterity save. On a failure, take 21 (6d6) fire damage. Success halves the damage.\n5. Paralyzing Ray. DC 14 Constitution save. On a failure, become paralyzed for 1 minute. The target can repeat the save at the end of each of its turns, ending the effect on a success.\n6. Death Ray. DC 14 Dexterity save. On a failure, take 28 (8d6) necrotic damage. Success halves the damage. The target dies if the ray reduces it to 0 hit points.",
+        "Printed source": "Fizban's Treasury of Dragons, p. 199."
+      }
+    }
+  },
+  {
+    "name": "Gem Stalker",
+    "statBlock": {
+      "name": "Gem Stalker",
+      "publication": "Fizban's Treasury of Dragons",
+      "edition": "2014 fifth edition",
+      "printedPage": 202,
+      "classification": "Large monstrosity, typically neutral",
+      "ac": 17,
+      "hp": 67,
+      "hitDice": "9d10 + 18",
+      "speed": "40 ft., climb 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 6
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 13,
+      "description": "A gem dragon can remake the body of a slain aberration as a crystal-studded guardian. The kind of dragon that created it determines its Crystal Dart effect.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 3,
+        "Stealth": 5
+      },
+      "savingThrows": {
+        "Dex": 5,
+        "Int": 5
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "psychic.",
+        "Senses": "darkvision 120 ft.",
+        "Languages": "Understands Draconic but cannot speak, telepathy 60 ft.",
+        "Traits": "Spider Climb. The stalker can climb difficult surfaces and ceilings without an ability check.\nUnusual Nature. The stalker needs no food or drink.",
+        "Actions": "Multiattack. Make four Claw attacks.\nClaw. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 10 (2d6 + 3) slashing damage.",
+        "Bonus actions": "Crystal Dart. Ranged spell attack, +5 to hit, range 30 ft., one target. A hit deals 7 (1d10 + 2) force damage and adds the effect corresponding to the stalker’s creator.\nAmethyst. The stalker can teleport to a visible unoccupied space within 30 ft.\nCrystal. The stalker gains temporary hit points equal to the damage dealt.\nEmerald. The target subtracts 1d4 from its next attack roll before the start of the stalker’s next turn.\nSapphire. The target must pass a DC 13 Strength save or be pushed horizontally up to 10 ft. away from the stalker and knocked prone.\nTopaz. The target must pass a DC 13 Constitution save or be poisoned until the start of the stalker’s next turn.",
+        "Reactions": "Protective Link. When another creature the stalker can see within 30 ft. is about to take damage, reduce that damage by 10 (3d6). The stalker then takes damage equal to the reduction.",
+        "Printed source": "Fizban's Treasury of Dragons, p. 202."
+      }
+    }
+  },
+  {
+    "name": "Ghost Dragon",
+    "statBlock": {
+      "name": "Ghost Dragon",
+      "publication": "Fizban's Treasury of Dragons",
+      "edition": "2014 fifth edition",
+      "printedPage": 203,
+      "classification": "Huge undead, any alignment",
+      "ac": 10,
+      "hp": 324,
+      "hitDice": "24d12 + 168",
+      "speed": "40 ft., fly 80 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 25
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 19
+        }
+      },
+      "cr": "17",
+      "xp": 18000,
+      "passivePerception": 24,
+      "description": "A dragon’s attachment to its hoard can outlast its death. Often a single treasured object keeps its ghost bound to the hoard.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 14,
+        "Stealth": 12
+      },
+      "savingThrows": {
+        "Con": 13,
+        "Wis": 8,
+        "Cha": 10
+      },
+      "sections": {
+        "Damage resistances": "bludgeoning, piercing, slashing.",
+        "Damage immunities": "acid, cold, necrotic, poison.",
+        "Condition immunities": "charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained.",
+        "Senses": "blindsight 60 ft., darkvision 120 ft.",
+        "Languages": "Common, Draconic, telepathy 120 ft.",
+        "Traits": "Incorporeal Movement. The dragon can pass through creatures and objects as difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.\nLegendary Resistance (3/day). The dragon can turn a failed saving throw into a success.\nUnusual Nature. The dragon needs no air, food, drink, or sleep.",
+        "Actions": "Multiattack. Make one Bite attack and two Claw attacks.\nBite. Melee weapon attack, +11 to hit, reach 10 ft., one target. A hit deals 32 (6d8 + 5) cold damage and halves the target’s speed until the start of the dragon’s next turn.\nClaw. Melee weapon attack, +11 to hit, reach 5 ft., one target. A hit deals 14 (2d8 + 5) necrotic damage.\nTerrifying Breath (Recharge 6). Each creature in a 90-ft. cone makes a DC 21 Constitution save. Failure deals 40 (9d8) cold damage and leaves it frightened of the dragon for 1 minute. The creature is paralyzed while frightened of the dragon this way. Success halves the damage and prevents the condition. A frightened creature can repeat the save at the end of each of its turns, ending the effect on a success. After succeeding on the save or when the effect ends for it, a creature is immune to this dragon’s Terrifying Breath for 24 hours.",
+        "Printed source": "Fizban's Treasury of Dragons, p. 203."
+      }
+    }
+  }
+]

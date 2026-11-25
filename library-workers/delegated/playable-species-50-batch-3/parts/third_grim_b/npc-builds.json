@@ -1,0 +1,189 @@
+{
+  "builds": [
+    {
+      "id": "grimhollow-dhampir-mara-vell",
+      "title": "Dhampir watch informant, Fighter 2",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "size": "Medium",
+      "type": "Humanoid",
+      "difficulty": "Fighter 2. Proficiency bonus +2. Mobile informant.",
+      "ac": 16,
+      "hp": 20,
+      "hitDice": "2d10+4",
+      "initiative": 5,
+      "speed": "30 ft., climb 30 ft.",
+      "senses": "Darkvision 60 ft. Passive Perception 12.",
+      "languages": "Castinellan, Low Bürach, Ostoy.",
+      "abilityScores": {
+        "STR": 15,
+        "DEX": 16,
+        "CON": 15,
+        "INT": 8,
+        "WIS": 10,
+        "CHA": 10
+      },
+      "skills": [
+        "Deception +3",
+        "Insight +2",
+        "Perception +2",
+        "Sleight of Hand +5",
+        "Stealth +5"
+      ],
+      "traits": [
+        "Criminal background. Apply +2 Dexterity and +1 Constitution to point-buy scores of 15, 14, 14, 8, 10, 10. Proficient with thieves’ tools. Alert adds proficiency bonus to initiative and lets Mara swap her roll with one willing ally in the combat immediately after rolling unless either is incapacitated.",
+        "Strength save +4 and Constitution save +4. Well Protected gives AC 13 + 3 Dexterity while unarmored.",
+        "Second Wind, two uses. Bonus action to heal 1d10+2 HP. A short rest restores one expended use and a long rest restores all. Tactical Mind can use the same pool to add 1d10 to a failed ability check. Spend the use only if the check succeeds.",
+        "Action Surge. Take one extra action other than Magic on Mara’s turn, once per short or long rest.",
+        "Archery adds +2 to attacks with ranged weapons. Weapon Mastery for longbow, shortsword and dagger."
+      ],
+      "actions": [
+        "Fangs and Draining Attack. Strength-based unarmed strike +4 to hit, reach 5 ft., 1d6+2 piercing. Gain temporary HP equal to the actual damage dealt. This initial Draining Attack has no use limit. Replace or keep any existing temporary HP.",
+        "Longbow. +7 to hit, range 150/600 ft., 1d8+3 piercing. Slow reduces the target’s speed by 10 ft. until Mara’s next turn starts if the hit deals damage.",
+        "Shortsword. +5 to hit, reach 5 ft., 1d6+3 piercing. Vex gives advantage on Mara’s next attack against the target before her next turn ends if this hit deals damage.",
+        "Dagger. +5 to hit, reach 5 ft. or range 20/60 ft., 1d4+3 piercing. Nick moves the extra Light-property attack into the Attack action once per turn. Use the dagger for the extra attack after a shortsword hit or miss; its damage is 1d4.",
+        "Heritage magic, Charisma save DC 10. Friends at will and Charm Person once per long rest, both from the Warlock list."
+      ],
+      "tactics": "Mara opens from range if cornered. At close quarters she uses her fangs for temporary HP, then climbs to an upper landing as soon as she has a route out."
+    },
+    {
+      "id": "grimhollow-downcast-adra-senn",
+      "title": "Downcast roadside healer, Cleric 2",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "size": "Medium",
+      "type": "Humanoid",
+      "difficulty": "Cleric 2. Proficiency bonus +2. Healing and necrotic resistance.",
+      "ac": 18,
+      "hp": 17,
+      "hitDice": "2d8+4",
+      "initiative": 2,
+      "speed": "30 ft.",
+      "senses": "Passive Perception 13.",
+      "languages": "Castinellan, Low Bürach, Higher Bürach.",
+      "abilityScores": {
+        "STR": 12,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 17,
+        "CHA": 10
+      },
+      "skills": [
+        "Arcana +2",
+        "History +1",
+        "Insight +5",
+        "Medicine +5",
+        "Religion +4",
+        "Stealth +4"
+      ],
+      "traits": [
+        "Wayfarer background. Apply +1 Dexterity and +2 Wisdom to the standard array. Proficient with thieves’ tools. Lucky has two points per long rest. Spend one for advantage on Adra’s d20 test or to impose disadvantage on an attack against Adra.",
+        "Wisdom save +5 and Charisma save +2. Scale mail and shield give AC 18. Scale mail imposes disadvantage on Dexterity (Stealth) checks.",
+        "Divine Sangromancy. When an ally within 30 ft. regains HP, spend one of Adra’s remaining Hit Dice to add 1d8 to healing. Adra has two dice before any are spent.",
+        "Touch of Life grants necrotic resistance. Advantage on Constitution saves against extreme heat or cold and on saves connected to gaining or removing exhaustion. Four hours of conscious meditation give the benefits of eight hours of sleep.",
+        "Divine Order (Thaumaturge) gives one extra Cleric cantrip and adds +3 to Intelligence checks using Arcana or Religion. Moved by Faith supplies Religion proficiency.",
+        "Channel Divinity, two shared uses. Recover one expended use on a short rest and all on a long rest."
+      ],
+      "actions": [
+        "Mace. +3 to hit, reach 5 ft., 1d6+1 bludgeoning.",
+        "Divine Spark. Magic action against another visible creature within 30 ft. Heal 1d8+3 HP or deal that much necrotic or radiant damage, DC 13 Constitution save for half. Uses Channel Divinity.",
+        "Turn Undead. Magic action. Each undead of Adra’s choice within 30 ft. makes a DC 13 Wisdom save. On failure, it is frightened and incapacitated for 1 minute and tries to move away. The effect ends early if the target takes damage, Adra is incapacitated or Adra dies. Uses Channel Divinity.",
+        "Cleric magic, DC 13 and +5 spell attacks. Three level 1 slots. Prepare Bless, Cure Wounds, Detect Magic, Guiding Bolt and Healing Word. Know Guidance, Resistance, Sacred Flame and Spare the Dying. Magical Savvy adds Thaumaturgy. Magical Savant keeps Sanctuary prepared and allows one free cast per long rest.",
+        "Healing Word. Bonus action, visible creature within 60 ft., restores 2d4+3 HP. If the recipient is an ally within 30 ft., Divine Sangromancy can add 1d8.",
+        "Sacred Flame. Action against a visible creature within 60 ft., DC 13 Dexterity save or 1d8 radiant damage. The target gains no benefit from cover on this save."
+      ],
+      "tactics": "Adra stays within 30 ft. of the most injured ally when it is safe. Spend one Hit Die to bolster an urgent heal and save the other for the next patient or a rest."
+    },
+    {
+      "id": "grimhollow-wulven-kellan-rook",
+      "title": "Wulven trail scout, Ranger 2",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "size": "Medium",
+      "type": "Humanoid",
+      "difficulty": "Ranger 2. Proficiency bonus +2. Mobile archer and ally support.",
+      "ac": 15,
+      "hp": 18,
+      "hitDice": "2d10+2",
+      "initiative": 3,
+      "speed": "30 ft., climb 30 ft.",
+      "senses": "Passive Perception 15.",
+      "languages": "Castinellan, Low Bürach, Valiki, Elvish and Sylvan. Deft Explorer adds Elvish and Sylvan.",
+      "abilityScores": {
+        "STR": 12,
+        "DEX": 16,
+        "CON": 13,
+        "INT": 8,
+        "WIS": 16,
+        "CHA": 10
+      },
+      "skills": [
+        "Animal Handling +5",
+        "Athletics +3",
+        "Insight +5",
+        "Nature +1",
+        "Perception +5",
+        "Stealth +5",
+        "Survival +7 (Expertise)"
+      ],
+      "traits": [
+        "Guide background. Apply +1 Dexterity and +2 Wisdom to the standard array. Proficient with cartographer’s tools. Magic Initiate (Druid) grants Guidance and Druidcraft with Wisdom and always prepares Cure Wounds, including one free cast per long rest.",
+        "Strength save +3 and Dexterity save +5. Studded leather gives AC 15. Archery adds +2 to attacks with ranged weapons. Weapon Mastery for shortbow and scimitar.",
+        "Hunter’s Instinct, two d8s per long rest. Spend one die on a weapon or unarmed attack roll or its damage. Decide before the result if adding to the attack roll.",
+        "Pack Hunter, twice per long rest. Reaction to grant advantage on an impending attack roll or saving throw by an ally within 10 ft.",
+        "Burst of Speed, twice per long rest. Add 30 ft. to speed until the turn ends. The book gives no action cost. Climber grants a climb speed equal to walking speed.",
+        "Nature’s Voice. Use gestures and sounds to exchange simple ideas with Beasts and Plant creatures."
+      ],
+      "actions": [
+        "Shortbow. +7 to hit, range 80/320 ft., 1d6+3 piercing. Vex gives advantage on Kellan’s next attack against the target before his next turn ends if this hit deals damage.",
+        "Scimitar. +5 to hit, reach 5 ft., 1d6+3 slashing. Nick applies if Kellan uses the scimitar for an extra attack from the Light property once per turn. Carry a dagger for the first Light attack if using this option, +5 to hit, 1d4+3 piercing. The Nick scimitar attack deals 1d6.",
+        "Claws. Strength-based unarmed strike +3 to hit, reach 5 ft., 1d6+1 slashing.",
+        "Ranger magic, DC 13 and +5 spell attacks. Two level 1 slots. Prepare Entangle, Goodberry and Speak with Animals. Cure Wounds is prepared from Magic Initiate. Hunter’s Mark is always prepared and can be cast without a slot twice per long rest.",
+        "Hunter’s Mark. Bonus action, visible creature within 90 ft., concentration up to 1 hour. Attacks that hit the target deal an extra 1d6 force. Advantage on Perception or Survival checks to find it. After its HP drops to 0, a bonus action can move the mark to another visible creature within 90 ft."
+      ],
+      "tactics": "Kellan asks nearby animals which way travelers went. If a fight starts, keep one ally within ten feet for Pack Hunter and use Burst of Speed to reach cover or get a witness out."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Dhampir",
+      "size": "Medium",
+      "edition": "Fifth edition compatible",
+      "speciesPublication": "Grim Hollow: Player’s Guide",
+      "name": "Mara Vell",
+      "build": "grimhollow-dhampir-mara-vell",
+      "role": "Passes watch information between rival patrols.",
+      "motive": "Keep a witness alive until their testimony can be heard.",
+      "hook": "Mara offers a folded patrol order to anyone who can reach the upper watch post before the bell sounds."
+    },
+    {
+      "species": "Downcast",
+      "size": "Medium",
+      "edition": "Fifth edition compatible",
+      "speciesPublication": "Grim Hollow: Player’s Guide",
+      "name": "Adra Senn",
+      "build": "grimhollow-downcast-adra-senn",
+      "role": "Treats injuries at an isolated roadside station.",
+      "motive": "Find who has been sending travelers down a dangerous shortcut.",
+      "hook": "Adra asks the party to escort two injured travelers to safer ground before dark."
+    },
+    {
+      "species": "Wulven",
+      "size": "Medium",
+      "edition": "Fifth edition compatible",
+      "speciesPublication": "Grim Hollow: Player’s Guide",
+      "name": "Kellan Rook",
+      "build": "grimhollow-wulven-kellan-rook",
+      "role": "Scouts trails for a group traveling through broken country.",
+      "motive": "Locate an overdue scout without drawing the wrong party to them.",
+      "hook": "Kellan points to a second set of tracks where the missing scout changed course."
+    }
+  ]
+}

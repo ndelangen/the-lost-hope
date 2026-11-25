@@ -1,0 +1,162 @@
+[
+  {
+    "name": "Kruthik Hatchling",
+    "publication": "Keep on the Shadowfell (2009 revision)",
+    "edition": "4th edition",
+    "classification": "Small natural beast (reptile), unaligned",
+    "ac": 15,
+    "hp": 1,
+    "xp": 31,
+    "speed": "8 squares, burrow 2 (tunneling), climb 8",
+    "abilities": {
+      "Str": {
+        "score": 13,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 4
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 4,
+        "modifier": -2
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -1
+      }
+    },
+    "otherStatistics": "Level 2 Minion. Initiative +4. Fortitude 13, Reflex 15, Will 12. Perception +1, low-light vision, tremorsense 10 squares. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A compact, large-eyed reptilian hatchling with pale spined chitin, curved claws, a toothed jaw, and a thin tail.",
+    "habitats": [
+      "Kruthik hive",
+      "Underground tunnels",
+      "Keep on the Shadowfell"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Keep on the Shadowfell, 2009 revision, Area 10, Kruthik Lair, stat block p. 46 and encounter features p. 47. ",
+      "Aura": "Gnashing Horde, aura 1. An enemy ending its turn inside the aura takes 2 damage. No attack roll is required.",
+      "Printed powers": "Claw. Melee basic attack, standard action, at-will. +5 vs. AC. Hit for 4 damage.",
+      "Encounter": "Area 10 begins with the kruthiks in the far chamber. They know where the camouflaged pits are and avoid them. The hatchlings and young can move through the lair’s 2-ft.-wide tunnels at full speed. Medium and larger PCs cannot traverse them. Small PCs squeeze at half speed, grant combat advantage, take a −5 attack penalty until out of the tunnel, and provoke opportunity attacks from adjacent foes each time they squeeze. Hatchlings detect the party by tremorsense. If the party continues down the southern passage, the hatchlings use the westward tunnels to flank it and cut off retreat.",
+      "Minion rule": "A missed attack never deals damage to this minion.",
+      "Source notes": "The stat block gives 1 HP and omits a bloodied value. A missed attack never damages the hatchling."
+    }
+  },
+  {
+    "name": "Kruthik Young",
+    "publication": "Keep on the Shadowfell (2009 revision)",
+    "edition": "4th edition",
+    "classification": "Small natural beast (reptile), unaligned",
+    "ac": 15,
+    "hp": 43,
+    "xp": 125,
+    "speed": "8 squares, burrow 2, climb 8",
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 4
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 4,
+        "modifier": -2
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -1
+      }
+    },
+    "otherStatistics": "Level 2 Brute. Initiative +4. Fortitude 13, Reflex 14, Will 11. Bloodied 21. Perception +1, low-light vision, tremorsense 10 squares. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "An angular gray reptile with overlapping armored plates, a ridged back, clawed limbs, and a tapering tail.",
+    "habitats": [
+      "Kruthik hive",
+      "Underground tunnels",
+      "Keep on the Shadowfell"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Keep on the Shadowfell, 2009 revision, Area 10, Kruthik Lair, stat block p. 46 and encounter features p. 47. ",
+      "Aura": "Gnashing Horde, aura 1. An enemy ending its turn inside the aura takes 2 damage. No attack roll is required.",
+      "Printed powers": "Claw. Melee basic attack, standard action, at-will. +5 vs. AC. Hit for 1d8 + 2 damage.",
+      "Encounter": "Area 10 begins with the kruthiks in the far chamber. They know where the camouflaged pits are and avoid them. The hatchlings and young can move through the lair’s 2-ft.-wide tunnels at full speed. Medium and larger PCs cannot traverse them. Small PCs squeeze at half speed, grant combat advantage, take a −5 attack penalty until out of the tunnel, and provoke opportunity attacks from adjacent foes each time they squeeze. The young hold back until the adult fires its toxic spikes. Then they advance, targeting that victim first.",
+      "Source notes": "The young’s burrow 2 lacks the tunneling annotation printed for the hatchling. The area’s separate tunnel rule still allows the young to move through the existing lair tunnels at full speed.\nThe encounter tactic refers to the adult’s toxic spikes. The young can use its own Claw and aura."
+    }
+  },
+  {
+    "name": "Rat Swarm",
+    "publication": "Keep on the Shadowfell (2009 revision)",
+    "edition": "4th edition",
+    "classification": "Medium natural beast (swarm), unaligned",
+    "ac": 15,
+    "hp": 36,
+    "xp": 125,
+    "speed": "4 squares, climb 2",
+    "abilities": {
+      "Str": {
+        "score": 12,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 17,
+        "modifier": 4
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -3
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 9,
+        "modifier": 0
+      }
+    },
+    "otherStatistics": "Level 2 Skirmisher. Initiative +6. Fortitude 12, Reflex 14, Will 11. Bloodied 18. Perception +6, low-light vision. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A writhing mound of brown rats with pointed snouts, rounded ears, and overlapping bare tails.",
+    "habitats": [
+      "Goblin guard room",
+      "Dungeon pit",
+      "Shadowfell Keep"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Keep on the Shadowfell, 2009 revision, Area 1, Goblin Guard Room, stat block p. 28 and encounter features p. 29. ",
+      "Aura": "Swarm Attack, aura 1. When each enemy begins its turn inside the aura, the swarm uses Swarm of Teeth against that enemy as a free action.",
+      "Printed powers": "Swarm of Teeth. Melee basic attack, standard action, at-will. +6 vs. AC. Hit for 1d6 + 3 damage and ongoing 3 damage (save ends). The target takes the ongoing damage at the start of its turns and saves at the end of its turns.",
+      "Encounter": "The swarm waits beneath the canvas covering the goblin guard room’s pit and attacks anything that falls in. The trap deals 1d10 damage, knocks a falling creature prone, and triggers once. A DC 15 Athletics check lets a creature climb out. An active trap search uses DC 20 Perception to spot the cover before it breaks. A creature bull rushed to the edge makes an immediate save. On 10 or higher it falls prone in the last square before the edge. A lower result sends it into the pit.",
+      "Defenses": "Takes half damage from melee and ranged attacks. Vulnerable 5 to close and area attacks."
+    }
+  }
+]

@@ -1,0 +1,169 @@
+[
+  {
+    "name": "Lion",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Large Beast",
+    "ac": 12,
+    "hp": 42,
+    "speed": "50 ft.",
+    "cr": "1",
+    "xp": 200,
+    "otherStatistics": "Fixed Perception 13 and Stealth 16. No listed special senses. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A large tawny cat with broad paws and a long tufted tail. The original portrait depicts a male with a shaggy brown mane.",
+    "habitats": [
+      "Savanna",
+      "Grassland",
+      "Open scrub"
+    ],
+    "sections": {
+      "Printed source": "Black Flag Roleplaying Reference Document v0.2, and printed page 362. XP comes from the table on p. 229. ",
+      "Ability modifiers": "STR +3, DEX +2, CON +1, INT −4, WIS +1, CHA −1. The block gives modifiers and fixed HP without ability scores or Hit Dice.",
+      "Traits": "Heightened Smell. When relying on smell, use Perception 18.\nPack Tactics. Attack rolls against a creature have advantage when an ally of the lion is within 5 ft. of the target and that ally is not incapacitated.\nPounce. Move 20 ft. or more in a straight line toward a creature and hit it with Claws that turn. It makes a DC 13 Strength save or falls prone. If it is prone, the lion can Bite it once as a bonus action.\nRunning Leap. Long jump up to 25 ft. after a 10-ft. run-up.",
+      "Actions": "Multiattack. Make a Bite attack and a Claws attack.\nBite. Melee weapon attack, +5 to hit with 5-ft. reach against one creature. On a hit, deal 7 (1d8 + 3) piercing damage.\nClaws. Melee weapon attack, +5 to hit with 5-ft. reach against one target. On a hit, deal 6 (1d6 + 3) slashing damage.",
+      "Bonus actions": "Rattling Roar (Recharge 4–6). Creatures in a 15-ft. cone make a DC 13 Constitution save. A failure gives that creature disadvantage on attack rolls until the end of its next turn.",
+      "At the table": "Once used, Roar recovers on a 4–6 on a d6 rolled at the start of the lion’s turn, or after a short or long rest. Pounce’s bonus Bite and Roar both use the lion’s bonus action."
+    }
+  },
+  {
+    "name": "Lion",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 12,
+    "hp": 26,
+    "hitDice": "4d10 + 4",
+    "speed": "50 ft.",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 8,
+        "modifier": -1
+      }
+    },
+    "otherStatistics": "Perception +3, Stealth +6. Passive Perception 13. No listed languages or special senses.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A large tawny cat with broad paws and a long tufted tail. The original portrait depicts a male with a shaggy brown mane.",
+    "habitats": [
+      "Savanna",
+      "Grassland",
+      "Open scrub"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), Appendix A, printed p. 331. https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/333/",
+      "Traits": "Keen Smell. Advantage on Wisdom (Perception) checks that use smell.\nPack Tactics. Attack rolls against a creature have advantage when an ally of the lion is within 5 ft. of the target and that ally is not incapacitated.\nPounce. Move 20 ft. or more in a straight line toward a creature and hit it with Claw that turn. It makes a DC 13 Strength save or falls prone. If it is prone, the lion can Bite it once as a bonus action.\nRunning Leap. Long jump up to 25 ft. after a 10-ft. run-up.",
+      "Actions": "Bite. Melee weapon attack, +5 to hit with 5-ft. reach against one target. On a hit, deal 7 (1d8 + 3) piercing damage.\nClaw. Melee weapon attack, +5 to hit with 5-ft. reach against one target. On a hit, deal 6 (1d6 + 3) slashing damage."
+    }
+  },
+  {
+    "name": "Rat",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Tiny Beast",
+    "ac": 10,
+    "hp": 9,
+    "speed": "20 ft., swim 20 ft.",
+    "cr": "0",
+    "xp": 10,
+    "otherStatistics": "Fixed Perception 10 and Stealth 12. Darkvision 30 ft. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A small brown rodent with rounded ears, a pointed whiskered muzzle, four pink feet and a long ringed tail.",
+    "habitats": [
+      "Settlements",
+      "Cellars",
+      "Sewers",
+      "Riverbanks"
+    ],
+    "sections": {
+      "Printed source": "Black Flag Roleplaying Reference Document v0.2, and printed page 366. XP comes from the table on p. 229. ",
+      "Ability modifiers": "STR −4, DEX +0, CON −1, INT −4, WIS +0, CHA −3. The block gives modifiers and fixed HP without ability scores or Hit Dice.",
+      "Traits": "Accustomed to Filth. Advantage on saves to resist contracting a disease.\nHeightened Smell. Use Perception 15 when relying on smell.",
+      "Actions": "Bite. Melee weapon attack, +2 to hit with 5-ft. reach against one target. On a hit, deal 2 (1d4) piercing damage."
+    }
+  },
+  {
+    "name": "Raven",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Tiny Beast",
+    "ac": 11,
+    "hp": 8,
+    "speed": "10 ft., fly 50 ft.",
+    "cr": "0",
+    "xp": 10,
+    "otherStatistics": "Fixed Perception 13 and Stealth 11. No listed special senses beyond Carrion Sense. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A black corvid with a heavy beak, shaggy throat feathers and a slate sheen across its folded wings.",
+    "habitats": [
+      "Woodland edges",
+      "Rocky uplands",
+      "Settlements",
+      "Carrion sites"
+    ],
+    "sections": {
+      "Printed source": "Black Flag Roleplaying Reference Document v0.2, and printed page 367. XP comes from the table on p. 229. ",
+      "Ability modifiers": "STR −4, DEX +1, CON −1, INT −3, WIS +1, CHA +0. The block gives modifiers and fixed HP without ability scores or Hit Dice.",
+      "Traits": "Carrion Sense. By scent, locate carrion, dead creatures, and Undead within 60 ft. An Undead with Incorporeal Movement is excluded.\nMimicry. Reproduce simple sounds heard before. A listener can identify an imitation with a successful DC 10 Wisdom (Insight) check.\nRecollection. Remember as many as 20 words in a language the raven has heard. It can repeat them in their original voices using Mimicry.",
+      "Actions": "Beak. Melee weapon attack, +3 to hit with 5-ft. reach against one target. On a hit, deal 3 (1d4 + 1) piercing damage."
+    }
+  },
+  {
+    "name": "Rhinoceros",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Large Beast",
+    "ac": 11,
+    "hp": 63,
+    "speed": "40 ft.",
+    "cr": "2",
+    "xp": 450,
+    "otherStatistics": "Fixed Perception 11 and Stealth 9. AC from natural armor. Resistant to bludgeoning damage and the stunned condition. No listed special senses. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A heavy gray-brown quadruped with folded skin, broad three-toed feet and a large nasal horn ahead of a smaller one.",
+    "habitats": [
+      "Savanna",
+      "Open grassland",
+      "Scrubland"
+    ],
+    "sections": {
+      "Printed source": "Black Flag Roleplaying Reference Document v0.2, and printed page 368. XP comes from the table on p. 229. ",
+      "Ability modifiers": "STR +5, DEX −1, CON +2, INT −4, WIS +1, CHA −2. The block gives modifiers and fixed HP without ability scores or Hit Dice.",
+      "Traits": "Charge. Move at least 20 ft. straight toward a target and hit it with Gore that turn. Deal an extra 7 (2d6) piercing damage. If the target is a creature, it also makes a DC 15 Strength save. A failure pushes it up to 10 ft. away and knocks it prone.",
+      "Actions": "Multiattack. Make two Gore attacks.\nGore. Melee weapon attack, +7 to hit with 5-ft. reach against one target. On a hit, deal 12 (2d6 + 5) bludgeoning damage.",
+      "Bonus actions": "Quaking Stomp. Slam the ground with the forefeet. Each creature within 10 ft. makes a DC 15 Dexterity save or falls prone.",
+      "At the table": "Bludgeoning resistance halves that damage, rounding down. Resistance to stunned gives advantage on checks and saves to avoid or end that condition."
+    }
+  }
+]

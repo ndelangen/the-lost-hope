@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Hobgoblin Death Captain",
+    "slug": "hobgoblin-death-captain",
+    "id": "monster-f342a71430f91e7cd8aa0352:fdd3efd67678cf28ec7c3f73",
+    "entry": "monster-f342a71430f91e7cd8aa0352",
+    "version": "fdd3efd67678cf28ec7c3f73",
+    "suffix": "encounters-61/hobgoblin-death-captain.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-61/hobgoblin-death-captain.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-61/event-drafts/hobgoblin-death-captain-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 61 2026-11-24/event-drafts/hobgoblin-death-captain-event-v1.png",
+    "overrides": [],
+    "sha256": "2456723e5dc9ad6b9a8094266905b0074064209c88279f82547fdbc38eb6a751",
+    "bytes": 2732394
+  },
+  {
+    "name": "Hobgoblin War Mage",
+    "slug": "hobgoblin-war-mage",
+    "id": "monster-5731582be9a9e6f4ab73f87e:ca468e76fe4e667e57239dff",
+    "entry": "monster-5731582be9a9e6f4ab73f87e",
+    "version": "ca468e76fe4e667e57239dff",
+    "suffix": "encounters-61/hobgoblin-war-mage.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-61/hobgoblin-war-mage.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-61/event-drafts/hobgoblin-war-mage-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 61 2026-11-24/event-drafts/hobgoblin-war-mage-event-v1.png",
+    "overrides": [],
+    "sha256": "5b06b3497e2ae048c6ef5e4c497105417ed42612b5073b2b53a4fb7d4349e414",
+    "bytes": 2535668
+  }
+]

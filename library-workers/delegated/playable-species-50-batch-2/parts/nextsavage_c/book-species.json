@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Kyton",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "traits": [
+      "Medium outsider with a 30-ft. land speed, darkvision 60 ft., immunity to cold, and a +8 racial bonus on Craft (metalworking). Starts with +2 Strength, +2 Constitution, and −4 Intelligence. Speaks Common and Infernal.",
+      "The 14-level monster class grants the evil and lawful subtypes and proficiency with simple and martial weapons and the spiked chain. It grants no armor or shield proficiency. Body chains add no equipment weight.",
+      "At 1st level the kyton can use two body chains at its full attack bonus. They start at 1d6 + Strength modifier each and threaten both adjacent targets and targets 10 ft. away. The class improves natural armor and chain damage as it advances.",
+      "Unnerving Gaze starts at 3rd level with a 5-ft. range. On a failed Will save, an enemy takes a −1 morale penalty to attacks for 1d3 rounds. Save DC is 10 + half the kyton’s class Hit Dice + Charisma modifier. Each enemy is subject to that kyton’s gaze once per day.",
+      "Dancing Chains starts at 4th level with one unattended chain within 20 ft. The kyton can lengthen a controlled chain by up to 15 ft., make it grow barbs, attack with it once per round, or climb it at normal speed."
+    ]
+  },
+  {
+    "name": "Lillend",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "traits": [
+      "Starts as a Medium outsider with 20-ft. land speed, darkvision 60 ft., poison immunity, and a +4 racial bonus on Survival. Starts with +2 Wisdom and +2 Charisma. Speaks Abyssal, Celestial, Common, and Infernal.",
+      "The 13-level monster class grants chaotic and good subtypes, proficiency with simple and martial weapons, and gradually improves natural armor. It grants no armor or shield proficiency. Fire resistance starts at class level 4.",
+      "From class level 2 a lillend casts spells and uses bardic music as a bard of half its monster class level. At level 3 it gains darkness, hallucinatory terrain, knock, and light once per day each. At level 5 it gains charm person, speak with animals, and speak with plants once per day each. These spell-like abilities use its effective bard level +4 as caster level.",
+      "The tail slap begins at level 3. At level 5 a tail hit against a creature no larger than the lillend can start a grapple and constrict. Constricting occupies its lower body, so it cannot take move actions while maintaining the hold.",
+      "Flight begins at class level 6 at 70 ft. with average maneuverability. Large size and 10-ft. reach arrive at level 8."
+    ]
+  },
+  {
+    "name": "Medusa",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "traits": [
+      "Medium monstrous humanoid with 30-ft. land speed and 60-ft. darkvision. Starts with +2 Dexterity and +2 Charisma. Speaks Common.",
+      "The 10-level monster class grants proficiency with simple weapons and the shortbow. It grants no armor or shield proficiency. Natural armor begins at class level 2.",
+      "Snake hair attacks one creature as a unit. It starts at 1d4 + half Strength modifier and carries poison. The Fortitude save DC is 10 + half the medusa’s class Hit Dice + Constitution modifier. The class table gives the primary and secondary Strength damage at each tier.",
+      "Petrifying Gaze starts at level 6 as one deliberate use per day against one target within 10 ft. At level 8 it becomes three daily uses within 30 ft. The mature 30-ft. gaze comes at level 10. The Fortitude save DC is 10 + half the medusa’s class Hit Dice + Charisma modifier."
+    ]
+  },
+  {
+    "name": "Nixie",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "traits": [
+      "Small aquatic fey that breathes air and water. Walks 20 ft., swims 30 ft., and has low-light vision. Starts with −4 Strength, +4 Dexterity, and +4 Charisma. Speaks Aquan, Common, and Sylvan.",
+      "Small size gives +1 AC and attack rolls and +4 on Hide checks. Lifting and carrying limits are half those of a Medium character. Nixies gain racial bonuses of +2 on Search, Spot, and Listen, +5 on Hide in water, and +8 on Swim checks for special actions or hazards. They can take 10 on Swim checks.",
+      "The four-level monster class grants proficiency with simple weapons and the short sword. It grants no armor or shield proficiency.",
+      "Water breathing starts at level 1, once daily at caster level equal to class level +2. Charm person starts at level 2, once daily at caster level equal to class level. It reaches three uses per day at level 4. Dodge arrives at level 3 and spell resistance 16 at level 4."
+    ]
+  },
+  {
+    "name": "Sea Hag",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "traits": [
+      "Starts as a Medium aquatic monstrous humanoid. Walks 30 ft., swims 40 ft., breathes air or water, and sees in darkness to 60 ft. Starts with +2 Strength and +2 Wisdom. Speaks Common and Giant.",
+      "Gains +8 on Swim checks to perform special actions or avoid hazards, can always take 10, and can run in a straight line while swimming.",
+      "The monster class grants two natural claws at 1st level and proficiency with simple weapons. It grants no armor or shield proficiency. The claws begin at 1d4 + Strength modifier each.",
+      "Horrific Appearance starts at class level 2. A creature looking at the hag takes 1 point of Strength damage on a failed Fortitude save. The DC is 10 + half the hag’s class Hit Dice + Charisma modifier. A successful save protects the creature from that hag’s horrific appearance for one day. Later tiers increase the Strength damage.",
+      "Spell resistance begins at class level 5 at 11 + class Hit Dice. The sea hag grows to Large with a 10-ft. reach at level 6."
+    ]
+  }
+]

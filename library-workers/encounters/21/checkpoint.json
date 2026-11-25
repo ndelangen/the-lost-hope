@@ -1,0 +1,37 @@
+{
+  "commit": "33aa6511d0715a59281bf35f3d894770d6a9355a",
+  "publication": "Explorer's Guide to Wildemount",
+  "encounterVersions": 5,
+  "fullStatBlocks": 5,
+  "wildemountRecordsWithLocalRules": 61,
+  "generatedPortraitsInstalled": 5,
+  "firstGeneratedPortraits": 3,
+  "revisedGeneratedPortraits": 2,
+  "generatedDraftsBackedUp": 5,
+  "creditedGalleriesVerified": 5,
+  "allRecentVersionsWithGeneratedPortrait": 520,
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "visualComparison": "output/dm-library/review/encounters-21-before-after.jpg",
+  "portraitSheet": "output/dm-library/review/encounters-21-portraits.jpg",
+  "results": "output/dm-library/encounter-batches/21/results.json",
+  "searchResults": "output/dm-library/encounter-batches/21/search-results.json",
+  "nextSourcePublication": "Volo's Guide to Monsters",
+  "unverifiedNextCandidates": [
+    {
+      "name": "Gazer Familiar",
+      "source": "https://www.dndbeyond.com/monsters/17222-gazer-familiar",
+      "challenge": "1/2"
+    },
+    {
+      "name": "Guard Drake",
+      "source": "https://www.dndbeyond.com/monsters/17265-guard-drake",
+      "challenge": "2"
+    },
+    {
+      "name": "Mind Flayer Lich (Illithilich)",
+      "source": "https://www.dndbeyond.com/monsters/17283-mind-flayer-lich-illithilich",
+      "challenge": "22"
+    }
+  ]
+}

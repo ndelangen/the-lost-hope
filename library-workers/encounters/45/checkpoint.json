@@ -1,0 +1,29 @@
+{
+  "commit": "82f9bad621aed1eb3b720d4c469edb9405ac9809",
+  "publication": "Flee, Mortals!",
+  "encounterVersions": 2,
+  "fullStatBlocks": 2,
+  "generatedPortraitsInstalled": 2,
+  "creditedGalleriesVerified": 2,
+  "allRecentVersionsWithGeneratedPortrait": 572,
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "visualComparison": "output/dm-library/review/encounters-45-before-after.jpg",
+  "styleReferenceSheet": "output/dm-library/review/encounters-45-style-reference.jpg",
+  "results": "output/dm-library/encounter-batches/45/results.json",
+  "searchResults": "output/dm-library/encounter-batches/45/search-results.json",
+  "nextSourcePublication": "Flee, Mortals!",
+  "unverifiedNextCandidates": [
+    {
+      "name": "Aurumvas",
+      "source": "https://www.dndbeyond.com/monsters/4485781-aurumvas",
+      "challenge": "14"
+    },
+    {
+      "name": "Pitling",
+      "source": "https://www.dndbeyond.com/monsters/4485977-pitling",
+      "challenge": "4"
+    }
+  ],
+  "nextSourceNote": "Verify Aurumvas’s individual soul powers and the Pitling’s distinct minion soul transfer before reusing any shared mechanics."
+}

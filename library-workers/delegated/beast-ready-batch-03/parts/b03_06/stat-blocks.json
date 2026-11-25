@@ -1,0 +1,270 @@
+[
+  {
+    "name": "Frog",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 11,
+    "hp": 1,
+    "hitDice": "1d4 - 1",
+    "speed": "20 ft., swim 20 ft.",
+    "cr": "0",
+    "xp": 0,
+    "abilities": {
+      "Str": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Perception +1 and Stealth +3. Darkvision 30 ft. Passive Perception 11. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A compact frog with a blunt head, amber eyes, olive-brown skin and powerful folded hind legs.",
+    "habitats": [
+      "Near water",
+      "Trees",
+      "Underground",
+      "Freshwater ponds",
+      "Marshes"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Basic Rules (2018), D&D Basic Rules v1.0, November 2018, and printed p. 128. ",
+      "Traits": "Amphibious. Breathe in air or water.\nStanding Leap. Jump up to 10 ft. horizontally or 5 ft. vertically from a standstill or after a run-up.",
+      "Actions": "The printed Frog has no effective attacks."
+    }
+  },
+  {
+    "name": "Frog",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 11,
+    "hp": 1,
+    "hitDice": "1d4 - 1",
+    "speed": "20 ft., swim 20 ft.",
+    "cr": "0",
+    "xp": 0,
+    "abilities": {
+      "Str": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Perception +1 and Stealth +3. Darkvision 30 ft. Passive Perception 11. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A compact frog with a blunt head, amber eyes, olive-brown skin and powerful folded hind legs.",
+    "habitats": [
+      "Near water",
+      "Trees",
+      "Underground",
+      "Freshwater ponds",
+      "Marshes"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), First printing, September 2014, printed p. 322. https://www.dndbeyond.com/sources/dnd/mm-2014",
+      "Traits": "Amphibious. Breathe in air or water.\nStanding Leap. Jump up to 10 ft. horizontally or 5 ft. vertically from a standstill or after a run-up.",
+      "Actions": "The printed Frog has no effective attacks.",
+      "At the table": "The Monster Manual also uses these statistics for a toad."
+    }
+  },
+  {
+    "name": "Pony",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 10,
+    "hp": 11,
+    "hitDice": "2d8 + 2",
+    "speed": "40 ft.",
+    "cr": "1/8",
+    "xp": 25,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Passive Perception 10. No listed skills, special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A broad-backed chestnut horse with short, sturdy legs, a pale mane and a white facial blaze.",
+    "habitats": [
+      "Pastures",
+      "Farms",
+      "Stables"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Basic Rules (2018), D&D Basic Rules v1.0, November 2018, and printed p. 149. ",
+      "Actions": "Hooves. Melee weapon attack, +4 to hit with 5-ft. reach against one target. A hit deals 7 (2d4 + 2) bludgeoning damage."
+    }
+  },
+  {
+    "name": "Pony",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 10,
+    "hp": 11,
+    "hitDice": "2d8 + 2",
+    "speed": "40 ft.",
+    "cr": "1/8",
+    "xp": 25,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Passive Perception 10. No listed skills, special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A broad-backed chestnut horse with short, sturdy legs, a pale mane and a white facial blaze.",
+    "habitats": [
+      "Pastures",
+      "Farms",
+      "Stables"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), First printing, September 2014, printed p. 335. https://www.dndbeyond.com/sources/dnd/mm-2014",
+      "Actions": "Hooves. Melee weapon attack, +4 to hit with 5-ft. reach against one target. A hit deals 7 (2d4 + 2) bludgeoning damage."
+    }
+  },
+  {
+    "name": "Wolf",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 13,
+    "hp": 11,
+    "hitDice": "2d8 + 2",
+    "speed": "40 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Natural armor. Perception +3 and Stealth +4. Passive Perception 13. No listed special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A gray-brown canine with a deep chest, pointed ears, long legs and a low bushy tail.",
+    "habitats": [
+      "Forest",
+      "Grassland",
+      "Hills"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), First printing, September 2014, printed p. 341. https://www.dndbeyond.com/sources/dnd/mm-2014",
+      "Traits": "Keen Hearing and Smell. The wolf has advantage on Wisdom (Perception) checks that use hearing or smell.\nPack Tactics. Gain advantage on an attack against a creature if at least one ally of the wolf is within 5 ft. of the target and that ally is not incapacitated.",
+      "Actions": "Bite. Melee weapon attack, +4 to hit with 5-ft. reach against one target. A hit deals 7 (2d4 + 2) piercing damage. A creature hit this way must pass a DC 11 Strength save or fall prone."
+    }
+  }
+]

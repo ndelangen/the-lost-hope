@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Aarakocra",
+    "file": "",
+    "sha256": "b032dfc65cad027a8381077c908f767f4fbd0fa7b35dbfd01e5a0e35a41635ce",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Alaghi",
+    "file": "",
+    "sha256": "82efc4e4797fa3adef2faf1c556f0241acf0e7f2ee3af8036012d0c45cc20951",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Beastman",
+    "file": "",
+    "sha256": "a64137b87ab331065861ba553486e05ddcef6a4ab8dc4ca0dffadadd3a25e1d2",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Advanced Bullywug",
+    "file": "",
+    "sha256": "f5ee1918efb0b821868bb7544629c4442955c5685ddb7c20019ff54568e3a540",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Fremlin",
+    "file": "",
+    "sha256": "37fb9c08cbe4823c180389b451a6ec05995e5701de3a8b34bad9708aaaa6468c",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  }
+]

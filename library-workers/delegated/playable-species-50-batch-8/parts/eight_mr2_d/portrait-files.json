@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Ki-rin",
+    "file": "portraits/ki-rin.png",
+    "sha256": "2c5f8028a3d4a6e742e63b1fee9895c421a07345a2142a5cb89066d8c24d65be",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Korred",
+    "file": "portraits/korred.png",
+    "sha256": "dc9fe06ba3ac333e11778accfbe79e56247b2c60810ec2b23dc7014b13edcacd",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Leucrotta",
+    "file": "portraits/leucrotta.png",
+    "sha256": "84747e75f18923cea4c3d6bbf7124c60251fca3b21052dd8f67e3fcdeca3c672",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Meenlock",
+    "file": "portraits/meenlock.png",
+    "sha256": "206943dda2e711feabd522041f472f7e480d8c23cff44d6b01cbcb248f322b44",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Mindwitness",
+    "file": "portraits/mindwitness.png",
+    "sha256": "ee95dc69465d4f2e862faf6a2ae3740ca5df20429f736bf320c7f5f12f4f5bf6",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  }
+]

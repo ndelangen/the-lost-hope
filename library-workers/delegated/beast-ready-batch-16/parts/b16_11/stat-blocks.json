@@ -1,0 +1,255 @@
+[
+  {
+    "name": "Panther",
+    "publication": "DDEX1-08 - Tales Trees Tell",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 12,
+    "hp": 13,
+    "hitDice": "3d8",
+    "speed": "50 ft., climb 40 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "passivePerception": 14,
+    "otherStatistics": "Perception +4. Stealth +6. Passive Perception 14. No languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A low-set black cat with rounded ears, broad paws and a long tail. Faint spotting shows through its coat.",
+    "habitats": [
+      "Forest"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, DDEX1-08 - Tales Trees Tell, November 1, 2014 release, Appendix, Monster/NPC Statistics, p. 26. ",
+      "Traits": "Keen Smell. Advantage on Wisdom (Perception) checks that use smell.\nPounce. Move at least 20 ft. straight toward a creature and hit it with Claw on the same turn. The creature falls prone unless it passes a DC 12 Strength save. If the creature is prone, the panther can make a Bite attack against it as a bonus action.",
+      "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one target. On a hit, deal 5 (1d6 + 2) piercing damage.\nClaw. Melee weapon attack, +4 to hit, reach 5 ft., one target. On a hit, deal 4 (1d4 + 2) slashing damage.",
+      "Encounter ecology": "The adventure places the panthers in the Quivering Forest as a weaker-party adjustment to the displacer beast encounter. It calls for three panthers in that adjustment.",
+      "Source notes": "The appendix contains the complete Panther stat block. The printed adventure code is DDEX1-8. Its catalog name retains the roster’s DDEX1-08 spelling. The pounce attack requires the same-turn approach and Claw hit. The bonus-action Bite checks whether the target is prone."
+    },
+    "skills": {
+      "Perception": 4,
+      "Stealth": 6
+    }
+  },
+  {
+    "name": "Relic Sloth",
+    "publication": "Strixhaven: A Curriculum of Chaos",
+    "edition": "2014 fifth edition",
+    "classification": "Huge Beast, unaligned",
+    "ac": 13,
+    "hp": 76,
+    "hitDice": "8d12 + 24",
+    "speed": "20 ft., climb 20 ft.",
+    "cr": "2",
+    "xp": 450,
+    "abilities": {
+      "Str": {
+        "score": 20,
+        "modifier": 5
+      },
+      "Dex": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Con": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 8,
+        "modifier": -1
+      }
+    },
+    "passivePerception": 13,
+    "otherStatistics": "Natural armor. Proficiency bonus +2. Perception +3. Passive Perception 13. No languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A hulking, shaggy gray-brown beast with a long neck, strong forelimbs and inward-curving sickle claws.",
+    "habitats": [
+      "Ruins"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Strixhaven: A Curriculum of Chaos, first printing, November 2021, chapter 7, Friends and Foes, p. 210. https://online.anyflip.com/usqxr/xjis/files/large/4b4ebc7af65997f4196bafa5ebd13056.webp",
+      "Actions": "Claws. Melee weapon attack, +7 to hit, reach 10 ft., one target. On a hit, deal 14 (2d8 + 5) slashing damage and grapple the target (escape DC 15). The sloth can hold up to two targets at once.",
+      "Reactions": "Slow but Sturdy. When something would force the sloth out of its space or knock it prone, it can use its reaction to stay in place and upright.",
+      "Encounter ecology": "Lorehold mages use relic sloths to carry gear and artifacts. Their slow, deliberate movement suits unstable ruins, and their long foreclaws help them climb.",
+      "Source notes": "Slow but Sturdy is a reaction. Claws is one attack against one target, with a maximum of two simultaneous grapples."
+    },
+    "skills": {
+      "Perception": 3
+    }
+  },
+  {
+    "name": "Swarm of Maggots",
+    "publication": "Van Richten’s Guide to Ravenloft",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Swarm of Tiny Beasts",
+    "ac": 11,
+    "hp": 22,
+    "hitDice": "5d8",
+    "speed": "20 ft., swim 20 ft.",
+    "cr": "2",
+    "xp": 450,
+    "abilities": {
+      "Str": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 7,
+        "modifier": -2
+      },
+      "Cha": {
+        "score": 1,
+        "modifier": -5
+      }
+    },
+    "passivePerception": 8,
+    "otherStatistics": "Blindsight 10 ft. Passive Perception 8. Proficiency bonus +2. Resist bludgeoning, piercing, and slashing. Immune to charmed, frightened, grappled, paralyzed, petrified, prone, restrained, and stunned. No languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A low heap of soft, pale segmented larvae with small tapered ends.",
+    "habitats": [
+      "Domains of Dread"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Van Richten’s Guide to Ravenloft, first printing, May 2021, chapter 5, Monsters of Ravenloft, Swarms, p. 247. https://online.anyflip.com/npkza/fwfi/files/mobile/248.webp",
+      "Traits": "Swarm. It and another creature can share space. It passes through any opening big enough for a Tiny maggot. It cannot recover HP or gain temporary HP.",
+      "Actions": "Infestation. Melee weapon attack, +3 to hit, reach 0 ft., one target in the swarm’s space. A hit deals 10 (4d4) piercing damage, or 5 (2d4) when the swarm has half its HP or less. A creature the swarm damages makes a DC 12 Constitution save or contracts a disease. At the end of each long rest, roll a d6 for the effect.\n1–2. Blinded until the creature finishes a long rest.\n3–4. Reduce its HP maximum by 5 (2d4). That reduction lasts until the disease ends. The creature dies if its maximum drops to 0.\n5–6. Disadvantage on ability checks and attack rolls until it finishes its next long rest.\nThe disease ends when magic removes it or when the creature rolls the same result band on two consecutive long rests.",
+      "Encounter ecology": "The book presents these maggots as scavenging larvae whose numbers and aggression increase as sinister forces take hold.",
+      "Source notes": "The original stat block omits an alignment. It uses blindsight 10 ft. and grants swim speed 20 ft. Disease onset is a Constitution save after the swarm deals damage. Its symptom roll is made at the end of a long rest."
+    },
+    "damageResistances": [
+      "bludgeoning",
+      "piercing",
+      "slashing"
+    ],
+    "conditionImmunities": [
+      "charmed",
+      "frightened",
+      "grappled",
+      "paralyzed",
+      "petrified",
+      "prone",
+      "restrained",
+      "stunned"
+    ]
+  },
+  {
+    "name": "Swarm of Scarabs",
+    "publication": "Van Richten’s Guide to Ravenloft",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Swarm of Tiny Beasts",
+    "ac": 13,
+    "hp": 27,
+    "hitDice": "5d8 + 5",
+    "speed": "30 ft., burrow 30 ft., climb 30 ft.",
+    "cr": "3",
+    "xp": 700,
+    "abilities": {
+      "Str": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 1,
+        "modifier": -5
+      }
+    },
+    "passivePerception": 11,
+    "otherStatistics": "Natural armor. Tremorsense 60 ft. Passive Perception 11. Proficiency bonus +2. Resist bludgeoning, piercing, and slashing. Immune to charmed, frightened, grappled, paralyzed, petrified, prone, restrained, and stunned. No languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A clustered mass of dark oval scarab beetles with ridged wing cases and short legs.",
+    "habitats": [
+      "Domains of Dread"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Van Richten’s Guide to Ravenloft, first printing, May 2021, chapter 5, Monsters of Ravenloft, Swarms, p. 247. https://online.anyflip.com/npkza/fwfi/files/mobile/248.webp",
+      "Traits": "Swarm. It and another creature can share space. It passes through any opening big enough for a Tiny scarab. It cannot recover HP or gain temporary HP.\nSkeletonize. If it starts its turn in the same space as a dead creature of Large size or smaller, it destroys the corpse and leaves its equipment and bones or exoskeleton.\nSpider Climb. It crosses difficult surfaces, including the underside of ceilings, without an ability check.",
+      "Actions": "Ravenous Bites. Melee weapon attack, +4 to hit, reach 0 ft., one target in the swarm’s space. A hit deals 14 (4d6) piercing damage, or 7 (2d6) when the swarm has half its HP or less. If the target is a creature, the scarabs burrow into it and deal 3 (1d6) piercing damage at the start of each of its turns. Any creature can use an action to remove or kill the scarabs with fire or a piercing weapon. The target takes 1 damage of the corresponding type. A creature the swarm’s piercing damage reduces to 0 HP dies.",
+      "Encounter ecology": "These scavenging beetles form predatory swarms where malign forces take hold. A swarm can overwhelm a corpse at the start of its turn.",
+      "Source notes": "The original stat block omits an alignment. It uses tremorsense 60 ft. and has separate walking, burrowing and climbing speeds. The printed attack gives no saving throw against its continuing damage. Any creature can spend an action to remove the scarabs."
+    },
+    "damageResistances": [
+      "bludgeoning",
+      "piercing",
+      "slashing"
+    ],
+    "conditionImmunities": [
+      "charmed",
+      "frightened",
+      "grappled",
+      "paralyzed",
+      "petrified",
+      "prone",
+      "restrained",
+      "stunned"
+    ]
+  }
+]

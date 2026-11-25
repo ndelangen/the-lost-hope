@@ -1,0 +1,125 @@
+[
+  {
+    "name": "Giant Rhinoceros Beetle",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "ruleset": "adnd-2e",
+    "appearance": "A twelve-foot beetle with a horn about six feet long and a frequently bright or iridescent shell.",
+    "combat": {
+      "habitats": [
+        "Any jungle",
+        "Tropical and subtropical rain forests"
+      ],
+      "armorClass": 2,
+      "movement": 6,
+      "hitDice": "12",
+      "thac0": 9,
+      "size": "L, 12 ft. long",
+      "numberOfAttacks": 2,
+      "damageDice": "3–18 / 2–16",
+      "xp": 4000
+    },
+    "mechanics": {
+      "Attacks": [
+        {
+          "name": "Mandibles and horn",
+          "effectNote": "The mandibles deal 3d6 damage, and the single horn deals 2d8 damage."
+        }
+      ],
+      "Habitat and behavior": [
+        {
+          "name": "Jungle forager",
+          "effectNote": "It looks for fruit and vegetation in the rain forest and may crush obstacles in its path."
+        }
+      ]
+    },
+    "notes": [
+      "1–6 appearing. Uncommon. The table lists solitary organization and any activity cycle.",
+      "Herbivore. Elite (14) morale.",
+      "Nonintelligent (0). Neutral. Treasure, special attacks, special defenses and magic resistance Nil. No fixed HP.",
+      "Monstrous Manual, TSR 2140, third printing (January 1994), pp. 18–19."
+    ]
+  },
+  {
+    "name": "Giant Stag Beetle",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "ruleset": "adnd-2e",
+    "appearance": "A ten-foot beetle with two long horns, usually each at least eight feet long.",
+    "combat": {
+      "habitats": [
+        "Any forest",
+        "Cultivated fields adjoining woodland"
+      ],
+      "armorClass": 3,
+      "movement": 6,
+      "hitDice": "7",
+      "thac0": 13,
+      "size": "L, 10 ft. long",
+      "numberOfAttacks": 3,
+      "damageDice": "4–16 / 1–10 / 1–10",
+      "xp": 975
+    },
+    "mechanics": {
+      "Attacks": [
+        {
+          "name": "Paired horns",
+          "effectNote": "The table gives a first attack for 4–16 damage and one attack with each horn for 1–10. The text identifies the horns and leaves the first attack unnamed."
+        }
+      ],
+      "Habitat and behavior": [
+        {
+          "name": "Crop raids",
+          "effectNote": "It feeds chiefly on grain and other crops. A raid can strip a farm and stampede livestock. A hungry Stag Beetle may also eat livestock."
+        }
+      ]
+    },
+    "notes": [
+      "2–12 appearing. Common. The table lists solitary organization and any activity cycle.",
+      "The table lists Herbivore. Elite (13) morale.",
+      "Nonintelligent (0). Neutral. Treasure, special attacks, special defenses and magic resistance Nil. No fixed HP.",
+      "Monstrous Manual, TSR 2140, third printing (January 1994), pp. 18–19."
+    ]
+  },
+  {
+    "name": "Giant Water Beetle",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "ruleset": "adnd-2e",
+    "appearance": "A six-foot air-breathing beetle that carries a bubble under its wings.",
+    "combat": {
+      "habitats": [
+        "Fresh water at least 30 feet deep"
+      ],
+      "armorClass": 3,
+      "movement": "3, Sw 9",
+      "hitDice": "4",
+      "thac0": 17,
+      "size": "M, 6 ft. long",
+      "numberOfAttacks": 1,
+      "damageDice": "3–18",
+      "xp": 120
+    },
+    "mechanics": {
+      "Habitat and behavior": [
+        {
+          "name": "Freshwater hunter",
+          "effectNote": "It hunts by scent and by feeling vibrations. Water beetles sometimes attack and sink vessels on rivers and lakes. The source gives no separate vessel attack or damage values."
+        },
+        {
+          "name": "Air bubble",
+          "effectNote": "It carries air under its wings to stay underwater for extended periods and can release a bubble into a cave or other cavity that will hold it. The description gives no duration."
+        }
+      ]
+    },
+    "notes": [
+      "1–12 appearing. Common. The table lists solitary organization and any activity cycle.",
+      "Omnivore. Elite (14) morale.",
+      "Nonintelligent (0). Neutral. Treasure, special attacks, special defenses and magic resistance Nil. No fixed HP.",
+      "Monstrous Manual, TSR 2140, third printing (January 1994), pp. 18–19."
+    ]
+  }
+]

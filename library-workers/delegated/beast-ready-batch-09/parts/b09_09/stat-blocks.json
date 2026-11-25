@@ -1,0 +1,318 @@
+[
+  {
+    "name": "Giant Shark",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Huge Beast, Unaligned",
+    "ac": 13,
+    "hp": 92,
+    "hitDice": "8d12 + 40",
+    "initiative": 3,
+    "speed": "5 ft., Swim 60 ft.",
+    "cr": "5",
+    "xp": 1800,
+    "abilities": {
+      "Str": {
+        "score": 23,
+        "modifier": 6
+      },
+      "Dex": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 21,
+        "modifier": 5
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "savingThrows": {
+      "Str": 6,
+      "Dex": 0,
+      "Con": 5,
+      "Int": -5,
+      "Wis": 0,
+      "Cha": -3
+    },
+    "passivePerception": 13,
+    "otherStatistics": "Initiative +3 (13). Proficiency Bonus +3. Skills Perception +3. Blindsight 60 ft.. Passive Perception 13. Languages none.",
+    "appearance": "A huge blue-gray shark with a pale belly, a tall dorsal fin and rows of exposed teeth.",
+    "habitats": [
+      "Underwater"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2025), 2024 rules, p. 359. https://www.dndbeyond.com/monsters/5195027-giant-shark",
+      "Traits": "Water Breathing. The shark breathes only underwater.",
+      "Actions": "Multiattack. Make two Bite attacks.\nBite. Melee attack +9, reach 5 ft. Roll with Advantage against a target below its Hit Point maximum. On a hit, deal 22 (3d10 + 6) Piercing damage."
+    }
+  },
+  {
+    "name": "Giant Spider",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Large Beast, Unaligned",
+    "ac": 14,
+    "hp": 26,
+    "hitDice": "4d10 + 4",
+    "initiative": 3,
+    "speed": "30 ft., Climb 30 ft.",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "savingThrows": {
+      "Str": 2,
+      "Dex": 3,
+      "Con": 1,
+      "Int": -4,
+      "Wis": 0,
+      "Cha": -3
+    },
+    "passivePerception": 14,
+    "otherStatistics": "Initiative +3 (13). Proficiency Bonus +2. Skills Perception +4, Stealth +7. Darkvision 60 ft.. Passive Perception 14. Languages none.",
+    "appearance": "A broad brown spider with gold chevrons on its round abdomen and eight long, banded legs.",
+    "habitats": [
+      "Desert",
+      "Forest",
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2025), 2024 rules, p. 359. https://www.dndbeyond.com/monsters/4775821-giant-spider",
+      "Traits": "Spider Climb. Climb difficult surfaces, including ceilings, without an ability check.\nWeb Walker. Webs do not impede the spider’s movement. It knows where any other creature touching the same web is.",
+      "Actions": "Bite. Melee attack +5, reach 5 ft. On a hit, deal 7 (1d8 + 3) Piercing damage and 7 (2d6) Poison damage.\nWeb (Recharge 5–6). One creature the spider sees within 60 ft. must make a DC 13 Dexterity saving throw. On a failure, the creature is Restrained until the web is destroyed. The web has AC 10, 5 HP, Vulnerability to Fire damage and Immunity to Poison and Psychic damage."
+    }
+  },
+  {
+    "name": "Hunter Shark",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Large Beast, Unaligned",
+    "ac": 12,
+    "hp": 45,
+    "hitDice": "6d10 + 12",
+    "initiative": 2,
+    "speed": "5 ft., Swim 40 ft.",
+    "cr": "2",
+    "xp": 450,
+    "abilities": {
+      "Str": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "savingThrows": {
+      "Str": 4,
+      "Dex": 2,
+      "Con": 2,
+      "Int": -5,
+      "Wis": 0,
+      "Cha": -3
+    },
+    "passivePerception": 12,
+    "otherStatistics": "Initiative +2 (12). Proficiency Bonus +2. Skills Perception +2. Blindsight 60 ft.. Passive Perception 12. Languages none.",
+    "appearance": "A blunt-snouted shark with dark bands along its gray-brown sides, a pale belly and a forked tail.",
+    "habitats": [
+      "Underwater"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2025), 2024 rules, p. 363. https://www.dndbeyond.com/monsters/5195083-hunter-shark",
+      "Traits": "Water Breathing. The shark breathes only underwater.",
+      "Actions": "Bite. Melee attack +6, reach 5 ft. Roll with Advantage against a target below its Hit Point maximum. On a hit, deal 14 (3d6 + 4) Piercing damage."
+    }
+  },
+  {
+    "name": "Giant Toad",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Large Beast, Unaligned",
+    "ac": 11,
+    "hp": 39,
+    "hitDice": "6d10 + 6",
+    "initiative": 1,
+    "speed": "30 ft., Swim 30 ft.",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "savingThrows": {
+      "Str": 2,
+      "Dex": 1,
+      "Con": 1,
+      "Int": -4,
+      "Wis": 0,
+      "Cha": -4
+    },
+    "passivePerception": 10,
+    "otherStatistics": "Initiative +1 (11). Proficiency Bonus +2. Darkvision 60 ft.. Passive Perception 10. Languages none.",
+    "appearance": "A squat, mottled brown toad with pebbled skin, thick hind legs and amber eyes.",
+    "habitats": [
+      "Coastal",
+      "Forest",
+      "Swamp",
+      "Underdark"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2025), 2024 rules, p. 360. https://www.dndbeyond.com/monsters/5195029-giant-toad",
+      "Traits": "Amphibious. Breathe air and water.\nStanding Leap. Long jump up to 20 ft. or high jump up to 10 ft. with or without a running start.",
+      "Actions": "Bite. Melee attack +4, reach 5 ft. On a hit, deal 5 (1d6 + 2) Piercing damage and 5 (2d4) Poison damage. A Medium or smaller creature hit by the bite is Grappled (escape DC 12).\nSwallow. Swallow one Medium or smaller target the toad is grappling. End that grapple. The swallowed target is Blinded and Restrained and has Total Cover against attacks and effects outside the toad. It takes 10 (3d6) Acid damage at the end of each of the toad’s turns. The toad can hold one swallowed target at a time and cannot use Bite while holding it. If the toad dies, end the restraint. The target can spend 5 ft. of movement to leave the corpse and emerge Prone."
+    }
+  },
+  {
+    "name": "Giant Venomous Snake",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Medium Beast, Unaligned",
+    "ac": 14,
+    "hp": 11,
+    "hitDice": "2d8 + 2",
+    "initiative": 4,
+    "speed": "40 ft., Swim 40 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Dex": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "savingThrows": {
+      "Str": 0,
+      "Dex": 4,
+      "Con": 1,
+      "Int": -4,
+      "Wis": 0,
+      "Cha": -4
+    },
+    "passivePerception": 12,
+    "otherStatistics": "Initiative +4 (14). Proficiency Bonus +2. Skills Perception +2. Blindsight 10 ft.. Passive Perception 12. Languages none.",
+    "appearance": "A coiled olive-brown snake with dark bands, a pale throat and a raised head.",
+    "habitats": [
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Swamp"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2025), 2024 rules, p. 361. https://www.dndbeyond.com/monsters/5195030-giant-venomous-snake",
+      "Actions": "Bite. Melee attack +6, reach 10 ft. On a hit, deal 6 (1d4 + 4) Piercing damage and 4 (1d8) Poison damage."
+    }
+  }
+]

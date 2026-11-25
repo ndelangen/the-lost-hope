@@ -1,0 +1,26 @@
+{
+  "baseline": "61d9765c47b8b78a7c8625dcee9362872cf18b4d",
+  "verifiedBeastVersions": 2,
+  "ruleset": "black-flag",
+  "profiles": [
+    {
+      "name": "Beetle, Giant Round",
+      "challenge": "1/4",
+      "sourceIndexChallenge": "0.3",
+      "versionKey": "16eccb9a793bf514def14421",
+      "existingApprovedPortraitSha256": "5e57b611579d07a8329499305ca34e81a1d5dc08fef43a3761b0b0e841b7afbb",
+      "galleryImageCount": 3
+    },
+    {
+      "name": "Earthworm, Giant",
+      "challenge": "1/2",
+      "sourceIndexChallenge": "0.5",
+      "versionKey": "bdfa48f5c6c5f3a0bde1aff5",
+      "existingApprovedPortraitSha256": "9a43566f0a7c4bc0a2964b4b2d7f4d32023e0d50888950e00a1843551858cf85",
+      "galleryImageCount": 1
+    }
+  ],
+  "habitatsAndAppearanceSearchable": true,
+  "originalGalleriesPreserved": true,
+  "relatedGiantFireBeetlePrintingsUnchanged": true
+}

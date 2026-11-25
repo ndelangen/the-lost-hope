@@ -1,0 +1,266 @@
+[
+  {
+    "name": "Bulezau",
+    "statBlock": {
+      "name": "Bulezau",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 131,
+      "classification": "Medium fiend (demon), chaotic evil",
+      "ac": 14,
+      "hp": 52,
+      "hitDice": "7d8 + 21",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 9
+        },
+        "Cha": {
+          "score": 6
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 9,
+      "description": "Bulezaus gather in the crags and canyons of the Abyss. Stronger demons press them into service as foot soldiers. Left on their own, they fight among themselves until they find another target.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold, fire, lightning.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Charmed, frightened, poisoned.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Abyssal, telepathy 60 ft.",
+        "Traits": "Rotting Presence. When a creature other than a demon starts its turn within 30 ft. of at least one bulezau, it must pass a DC 13 Constitution save. On a failure, it takes 1d6 necrotic damage plus 1 necrotic damage for each bulezau within 30 ft. of it.\nStanding Leap. It can long jump up to 20 ft. and high jump up to 10 ft., with or without a running start.\nSure-Footed. It has advantage on Strength and Dexterity saves against effects that would knock it prone.",
+        "Actions": "Barbed Tail. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 8 (1d12 + 2) piercing damage. A creature hit must make a DC 13 Constitution save against disease. On a failure, it is poisoned until the disease ends. While poisoned this way, it develops festering boils, coughs up flies, and sheds rotting skin. After each 24-hour period it repeats the save. A success ends the disease. A failure reduces its hit point maximum by 4 (1d8). The creature dies if its hit point maximum reaches 0.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 131."
+      }
+    }
+  },
+  {
+    "name": "Cadaver Collector",
+    "statBlock": {
+      "name": "Cadaver Collector",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 122,
+      "classification": "Large construct, lawful evil",
+      "ac": 17,
+      "hp": 189,
+      "hitDice": "18d10 + 90",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 21
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "14",
+      "xp": 11500,
+      "passivePerception": 10,
+      "description": "This war machine from Acheron scavenges armor and weapons from battlefields and carries the fallen on its spikes. It answers mortal summons at the site of a past, present, or imminent battle.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage immunities": "Necrotic, poison, psychic, and bludgeoning, piercing, and slashing from nonmagical attacks that are not adamantine.",
+        "Condition immunities": "Charmed, exhaustion, frightened, paralyzed, petrified, poisoned.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Understands all languages but cannot speak.",
+        "Traits": "Magic Resistance. The collector has advantage on saves against spells and other magical effects.\nConstructed Nature. The collector needs no air, food, drink, or sleep.",
+        "Actions": "Multiattack. Make two Slam attacks.\nSlam. Melee weapon attack, +10 to hit, reach 5 ft., one target. A hit deals 18 (3d8 + 5) bludgeoning damage plus 16 (3d10) necrotic damage.\nParalyzing Breath (Recharge 5–6). The collector releases gas in a 30-ft. cone. Each creature in the cone must succeed on a DC 18 Constitution save or be paralyzed for 1 minute. A paralyzed creature repeats the save at the end of each of its turns and ends the effect on itself on a success.",
+        "Bonus actions": "Summon Specters (Recharges after a Short or Long Rest). Call up 1d6 Specters from creatures the collector killed. They lack Sunlight Sensitivity and appear in unoccupied spaces within 15 ft. They share the collector's initiative count and act immediately after it. They fight until destroyed and disappear if the collector is destroyed.",
+        "Table notes": "Mordenkainen notes that destroying a summoned specter prevents the collector from calling that spirit again.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 122."
+      }
+    }
+  },
+  {
+    "name": "Canoloth",
+    "statBlock": {
+      "name": "Canoloth",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 247,
+      "classification": "Medium fiend (yugoloth), neutral evil",
+      "ac": 16,
+      "hp": 120,
+      "hitDice": "16d8 + 48",
+      "speed": "50 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 17
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 19,
+      "description": "A canoloth guards valuables under contract. Its tongue drags intruders close, and the terms of its contract determine whether it holds them or kills them.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Investigation": 3,
+        "Perception": 9
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold, fire, lightning, and bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Damage immunities": "Acid, poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Darkvision 60 ft., truesight 120 ft.",
+        "Languages": "Abyssal, Infernal, telepathy 60 ft.",
+        "Traits": "Dimensional Lock. Creatures other than the canoloth cannot teleport into or out of a space within 60 ft. of it. An attempt to do so is wasted.\nMagic Resistance. The canoloth has advantage on saves against spells and other magical effects.\nMagic Weapons. The canoloth's weapon attacks are magical.\nUncanny Senses. The canoloth can be surprised only while incapacitated.",
+        "Actions": "Multiattack. Make one Bite or Tongue attack and one Claws attack.\nBite. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 25 (6d6 + 4) piercing damage.\nClaws. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 15 (2d10 + 4) slashing damage.\nTongue. Ranged weapon attack, +7 to hit, range 30 ft., one target. A hit deals 17 (2d12 + 4) piercing damage. If the target is Medium or smaller, the canoloth grapples it (escape DC 15) and pulls it up to 30 ft. closer. The target remains restrained until the grapple ends. The tongue can grapple one target at a time.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 247."
+      }
+    }
+  },
+  {
+    "name": "Choker",
+    "statBlock": {
+      "name": "Choker",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 123,
+      "classification": "Small aberration, chaotic evil",
+      "ac": 16,
+      "hp": 13,
+      "hitDice": "3d6 + 3",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 4
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 11,
+      "description": "A choker waits deep inside a crevice and leaves its last catch outside as bait. Its tentacles can reach prey while its body stays out of sight.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Stealth": 6
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Deep Speech.",
+        "Traits": "Aberrant Quickness (Recharges after a Short or Long Rest). The choker can take an extra action on its turn.\nBoneless. It can enter and occupy an opening as narrow as 4 inches without squeezing.\nSpider Climb. It can climb difficult surfaces and move upside down on ceilings without an ability check.",
+        "Actions": "Multiattack. Make two Tentacle attacks.\nTentacle. Melee weapon attack, +5 to hit, reach 10 ft., one target. A hit deals 5 (1d4 + 3) bludgeoning damage plus 3 (1d6) piercing damage. A Large or smaller creature hit is grappled (escape DC 15) and restrained until the grapple ends. The choker has two tentacles and cannot use the one holding a creature against a different target. A creature grappled by a critical hit also cannot breathe or speak until the grapple ends.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 123."
+      }
+    }
+  },
+  {
+    "name": "Corpse Flower",
+    "statBlock": {
+      "name": "Corpse Flower",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 127,
+      "classification": "Large plant, chaotic evil",
+      "ac": 12,
+      "hp": 127,
+      "hitDice": "15d10 + 45",
+      "speed": "20 ft., climb 20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 7
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 3
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 12,
+      "description": "A corpse flower can sprout over a necromancer's grave or the remains of powerful undead. Once it uproots itself, it searches graveyards and battlefields for bodies.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Condition immunities": "Blinded, deafened.",
+        "Senses": "Blindsight 120 ft. (blind beyond this radius).",
+        "Languages": "None.",
+        "Traits": "Corpses. When first encountered, the flower contains 1d6 + 3 humanoid corpses. It can hold up to nine. Stored corpses have total cover against attacks and effects outside the flower. If the flower dies, the corpses can be pulled free.\nSpider Climb. The flower can climb difficult surfaces and move upside down on ceilings without an ability check.\nStench of Death. When a creature other than a construct or undead starts its turn within 10 ft. of the flower or one of its zombies, it makes a DC 14 Constitution save. On a failure, it is incapacitated until the end of that turn. Immunity to poison damage or the poisoned condition makes the save an automatic success. A creature that succeeds is immune to the stench of all corpse flowers for 24 hours.",
+        "Actions": "Multiattack. Make three Tentacle attacks.\nTentacle. Melee weapon attack, +5 to hit, reach 10 ft., one target. A hit deals 9 (2d6 + 2) bludgeoning damage. The target must then make a DC 14 Constitution save, taking 14 (4d6) poison damage on a failure.\nHarvest the Dead. Take one unsecured humanoid corpse within 10 ft. into the flower's body, together with anything it wears or carries. The flower can use the remains for its Corpses trait.",
+        "Bonus actions": "The flower can choose one of the following options while it contains at least one humanoid corpse.\nDigest. Consume a stored corpse to regain 11 (2d10) hit points immediately. The body is destroyed and its equipment drops into the flower's space.\nAnimate. Turn a stored corpse into a Zombie in an unoccupied space within 5 ft. The zombie acts directly after the flower in initiative and allies with it. The flower has no control over the zombie, which carries the flower's Stench of Death.",
+        "Field notes": "After the flower dies, the smell of decay fades over 2d4 days.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 127."
+      }
+    }
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Ruinant",
+    "source": "https://www.dndbeyond.com/monsters/4485987-ruinant",
+    "challenge": "6",
+    "entry": "monster-07b54082855320ff01a982d6",
+    "version": "4df10fefbdb1d635c263404b",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "slug": "ruinant",
+    "kind": "monster",
+    "type": "Fiend",
+    "encounterStatus": "local-stat-block",
+    "generated": true,
+    "primaryPortraitSha256": "0a03a0e0b5c447ef2174de9db14009430cc26dae4e25da04defc406ceaa5df6a",
+    "status": "Stat block",
+    "appearance": "A low, long-armed fiend with a tendriled maw, hooked claws and scarred blue-charcoal hide.",
+    "habitats": [
+      "Abyssal Wasteland"
+    ]
+  },
+  {
+    "name": "Tormenauk",
+    "source": "https://www.dndbeyond.com/monsters/4486023-tormenauk",
+    "challenge": "8",
+    "entry": "monster-045b660d8d231eb171c1ccfc",
+    "version": "1b8df318d6454f9deb04b7a8",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "slug": "tormenauk",
+    "kind": "monster",
+    "type": "Fiend",
+    "encounterStatus": "local-stat-block",
+    "generated": true,
+    "primaryPortraitSha256": "ff96ea6c83fc9fb2ae583b00617b56444d1cbbe99832db1484c51753c8c2aef0",
+    "status": "Stat block",
+    "appearance": "A hulking many-mouthed fiend with reddish-purple hide and elongated clawed arms.",
+    "habitats": [
+      "Abyssal Wasteland"
+    ]
+  }
+]

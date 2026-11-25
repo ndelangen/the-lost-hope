@@ -1,0 +1,176 @@
+[
+  {
+    "name": "Tosculi",
+    "kind": "species",
+    "publication": "Southlands Heroes (2015)",
+    "edition": "Fifth edition compatible",
+    "publisher": "Kobold Press / Open Design",
+    "authors": [
+      "Rich Howard",
+      "Rodrigo García Carmona"
+    ],
+    "year": 2015,
+    "url": "https://anyflip.com/fgoih/xnbq/basic",
+    "source": "https://anyflip.com/fgoih/xnbq/basic",
+    "primaryBookText": "https://anyflip.com/fgoih/xnbq/basic",
+    "publisherPage": "",
+    "publisherSample": "",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "pages": [
+      7,
+      8,
+      9
+    ],
+    "printedPages": [
+      7,
+      8,
+      9
+    ],
+    "heading": "Tosculi (Hiveless) Traits and Alternate Racial Traits",
+    "distinctions": [
+      "Sivi uses the standard Hiveless traits and retains gliding and Stalker.",
+      "The 2015 5e player rules give a minimum AC and a 1d4 slashing claw. They are distinct from the Pathfinder Advanced Races profile, the later Southlands Player’s Guide and the Tome of Beasts NPC stat blocks.",
+      "The claw entry lists a damage die; the NPC applies the standard melee Strength modifier to the roll."
+    ],
+    "sourceDistinctions": [
+      "Sivi uses the standard Hiveless traits and retains gliding and Stalker.",
+      "The 2015 5e player rules give a minimum AC and a 1d4 slashing claw. They are distinct from the Pathfinder Advanced Races profile, the later Southlands Player’s Guide and the Tome of Beasts NPC stat blocks.",
+      "The claw entry lists a damage die; the NPC applies the standard melee Strength modifier to the roll."
+    ],
+    "catalogStatus": "No exact-name catalog row in the approved comparison.",
+    "slug": "tosculi",
+    "portraitSelection": "generated",
+    "npcExamples": [
+      "Sivi Amberwing"
+    ]
+  },
+  {
+    "name": "Jinnborn",
+    "kind": "species",
+    "publication": "Unlikely Heroes (2016)",
+    "edition": "Fifth edition compatible",
+    "publisher": "Kobold Press / Open Design",
+    "authors": [
+      "Dan Dillon",
+      "Wolfgang Baur"
+    ],
+    "year": 2016,
+    "url": "https://anyflip.com/lphgc/hojw/basic",
+    "source": "https://anyflip.com/lphgc/hojw/basic",
+    "primaryBookText": "",
+    "publisherPage": "",
+    "publisherSample": "",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "pages": [
+      10,
+      11,
+      12
+    ],
+    "printedPages": [
+      10,
+      11,
+      12
+    ],
+    "heading": "Jinnborn Traits, Speaker Jinnborn and Shaper Jinnborn",
+    "distinctions": [
+      "All four siraati are options within this playable species. Narel combines Earth siraati with the Shaper subrace for acid resistance and Elemental Strike.",
+      "Jinnborn are descendants of jinn, distinct from playable monster progressions for Djinni and Efreeti."
+    ],
+    "sourceDistinctions": [
+      "All four siraati are options within this playable species. Narel combines Earth siraati with the Shaper subrace for acid resistance and Elemental Strike.",
+      "Jinnborn are descendants of jinn, distinct from playable monster progressions for Djinni and Efreeti."
+    ],
+    "catalogStatus": "No exact-name catalog row in the approved comparison.",
+    "slug": "jinnborn",
+    "portraitSelection": "generated",
+    "npcExamples": [
+      "Narel Claywind"
+    ]
+  },
+  {
+    "name": "Ramag",
+    "kind": "species",
+    "publication": "Unlikely Heroes (2016)",
+    "edition": "Fifth edition compatible",
+    "publisher": "Kobold Press / Open Design",
+    "authors": [
+      "Dan Dillon",
+      "Wolfgang Baur"
+    ],
+    "year": 2016,
+    "url": "https://anyflip.com/lphgc/hojw/basic",
+    "source": "https://anyflip.com/lphgc/hojw/basic",
+    "primaryBookText": "",
+    "publisherPage": "",
+    "publisherSample": "",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "pages": [
+      16,
+      17
+    ],
+    "printedPages": [
+      16,
+      17
+    ],
+    "heading": "Ramag Traits",
+    "distinctions": [
+      "Spell Damping covers Strength and Dexterity saving throws against spells.",
+      "Arcane Heritage waives class restrictions at attunement. Vey’s route-changing spells come from her Wizard levels."
+    ],
+    "sourceDistinctions": [
+      "Spell Damping covers Strength and Dexterity saving throws against spells.",
+      "Arcane Heritage waives class restrictions at attunement. Vey’s route-changing spells come from her Wizard levels."
+    ],
+    "catalogStatus": "No exact-name catalog row in the approved comparison.",
+    "slug": "ramag",
+    "portraitSelection": "generated",
+    "npcExamples": [
+      "Vey Tern"
+    ]
+  },
+  {
+    "name": "Kijani",
+    "kind": "species",
+    "publication": "Unlikely Heroes (2016)",
+    "edition": "Fifth edition compatible",
+    "publisher": "Kobold Press / Open Design",
+    "authors": [
+      "Dan Dillon",
+      "Wolfgang Baur"
+    ],
+    "year": 2016,
+    "url": "https://anyflip.com/lphgc/hojw/basic",
+    "source": "https://anyflip.com/lphgc/hojw/basic",
+    "primaryBookText": "",
+    "publisherPage": "",
+    "publisherSample": "",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "pages": [
+      12,
+      13,
+      14
+    ],
+    "printedPages": [
+      12,
+      13,
+      14
+    ],
+    "heading": "Kijani Traits",
+    "distinctions": [
+      "The playable Kijani is a Plant. Contained Fury requires fewer than half maximum HP.",
+      "Speak with plants starts at character level 7. The level 2 example has access to Kijani’s other printed traits.",
+      "Kijani is the 2016 plantfolk profile, distinct from Piney and Wilden."
+    ],
+    "sourceDistinctions": [
+      "The playable Kijani is a Plant. Contained Fury requires fewer than half maximum HP.",
+      "Speak with plants starts at character level 7. The level 2 example has access to Kijani’s other printed traits.",
+      "Kijani is the 2016 plantfolk profile, distinct from Piney and Wilden."
+    ],
+    "catalogStatus": "No exact-name catalog row in the approved comparison.",
+    "slug": "kijani",
+    "portraitSelection": "generated",
+    "npcExamples": [
+      "Kesh Reedroot"
+    ]
+  }
+]

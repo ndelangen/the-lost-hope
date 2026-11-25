@@ -1,0 +1,71 @@
+[
+  {
+    "name": "Asaatthi",
+    "kind": "species",
+    "publication": "Scarred Lands Player’s Guide (5e, 2016)",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "Increase either Dexterity or Intelligence by 2 and the other by 1. Medium. Walk and swim 30 ft. Adults are around 20 years old and can live past 200.",
+      "Darkvision 30 ft. Proficiency in Perception through Keen Senses. Reptilian Mind grants advantage on saves against being charmed.",
+      "Asaatthi Resistance grants advantage on saves against poison and resistance to poison damage.",
+      "Proficient with the falchion, scimitar and war fan. An Asaatthi monk can use the war fan as a monk weapon. The proficient finesse bite deals 1d4 piercing before the ability modifier.",
+      "Speak Asaatth and one other language."
+    ]
+  },
+  {
+    "name": "Hollow Legionnaire",
+    "kind": "species",
+    "publication": "Scarred Lands Player’s Guide (5e, 2016)",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "Increase two different ability scores by 1 each. Medium, walking speed 30 ft. Legionnaires begin life already physically mature. How long they can live remains unknown.",
+      "Armor Bound grants light armor proficiency and binds you to your starting armor. Bond to one proficient suit that covers most of a Medium humanoid by spending 1 hour during a short or long rest. Your personal pattern moves to the new armor. If a magic suit requires attunement, do both in the same hour.",
+      "Construct Body leaves your creature type Humanoid. Breathing, food, drink and sleep are optional for gaining their benefits. Magic cannot put you to sleep. You can remain awake and spend all eight hours of a long rest in light activity.",
+      "Construct Body grants advantage on saves against death, disease, exhaustion and poison, including death saves. Those threats can affect you. You resist poison damage.",
+      "Construct Mind grants advantage on saves against being charmed. Anyone reading your feelings or intentions makes Wisdom (Insight) checks with disadvantage.",
+      "Legion’s Price makes your spirit and personal armor pattern fade 1 minute after death. Once you fade, no part of your body remains. Raise dead cannot restore you, but a resurrection spell can.",
+      "Past-Life Knowledge adds one skill of your choice to the skill options from your class at character creation. Speak Ledean and one other language."
+    ]
+  },
+  {
+    "name": "Ironbred",
+    "kind": "species",
+    "publication": "Scarred Lands Player’s Guide (5e, 2016)",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "Dexterity +2 and Constitution +1. Medium, walking speed 30 ft. Adults are usually in their late teens and seldom live a century.",
+      "Darkvision 30 ft. Fire Born gives resistance to fire damage and advantage on saves to avoid exhaustion due to extreme heat or thirst.",
+      "Tough Hide raises your hit point maximum by 1 at level 1 and by another 1 each time you level up.",
+      "Combat training grants proficiency with the cestus, flail, maul and warhammer. Choose proficiency in leatherworker’s tools, smith’s tools or tinker’s tools.",
+      "Unnerving grants proficiency in Intimidation. Speak Sutak and one other language."
+    ]
+  },
+  {
+    "name": "Manticora",
+    "kind": "species",
+    "publication": "Scarred Lands Player’s Guide (5e, 2016)",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "Dexterity +2 and either Wisdom or Charisma +1. Medium. Most mature in their late teens and live less than a century.",
+      "Walk 30 ft. With both hands empty, you can move on all fours at 40 ft.",
+      "Darkvision 60 ft. Keen Senses gives proficiency in Perception. Natural Hunter adds Stealth and Survival to your class’s skill choices at character creation.",
+      "Proficient with claw gauntlets and shortbows. A claw gauntlet is a light finesse weapon that deals 1d6 slashing damage.",
+      "Your proficient finesse bite deals 1d4 piercing, and your proficient finesse claws deal 1d4 slashing. If you can deal improved unarmed damage, you can use that damage for your claws instead.",
+      "Speak Leonid and one other language."
+    ]
+  },
+  {
+    "name": "Slitherin",
+    "kind": "species",
+    "publication": "Scarred Lands Player’s Guide (5e, 2016)",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "Constitution +2 and either Dexterity or Intelligence +1. Medium. They mature by their mid-teens and few reach 60.",
+      "Walk and climb 30 ft. Darkvision 60 ft. Your proficient finesse bite deals 1d3 piercing.",
+      "Contortionist grants advantage on Dexterity checks to escape bonds or grapples or to squeeze through tight spaces. Disease Resistance gives advantage on saves against disease.",
+      "Rodent Empathy allows you to share simple ideas with rodents through sounds and body language.",
+      "Sure-Footed adds Athletics, Acrobatics and Stealth to the skill options from your class at character creation. Proficient with the light crossbow, shortbow and shortsword.",
+      "Speak Slitherin and one other language."
+    ]
+  }
+]

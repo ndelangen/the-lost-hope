@@ -37,4 +37,5 @@ export default createEvent({
       ' was free to travel as a wandering priest.',
     ],
   ],
+  illustrations: ['/assets/scenes/jim-retrieves-the-shadow-sword-after-the-temple-departs.png'],
 })

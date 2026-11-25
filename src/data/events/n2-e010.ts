@@ -5,6 +5,7 @@ export default createEvent({
   name: 'Meet Light 13th Marshal at the guildhall',
   day: 2,
   location: refs.locations.fajanet_guildhall,
+  illustrations: ['/assets/scenes/meet-light-13th-marshal-at-the-guildhall.png'],
   mark: { type: 'icon', name: 'fa/FaHandshake' },
   notes: [
     [
@@ -12,7 +13,7 @@ export default createEvent({
       refs.locations.fajanet_guildhall,
       ' and met ',
       refs.npcs.light_13th_marshal,
-      '.',
+      ' in his office.',
     ],
     [
       refs.npcs.light_13th_marshal,

@@ -5,6 +5,7 @@ export default createEvent({
   name: 'Pirate asks the dragon children to fly the party down',
   day: 9,
   location: refs.locations.mountain_top,
+  illustrations: ['/assets/scenes/pirate-asks-the-dragon-children-to-fly-the-party-down.png'],
   mark: { type: 'icon', name: 'gi/GiDragonSpiral' },
   notes: [
     [

@@ -1,0 +1,120 @@
+[
+  {
+    "entityKind": "beast",
+    "name": "Bear, Black",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/bear-black/kobold-press-bear-black.webp",
+    "artist": "Black Bear · Kobold Press Foundry token",
+    "kind": "token",
+    "sha256": "77c2aa7f0863b665abb7f399ddec5f7035adf83eb97395c8a7585e9e1d396da8",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/bear-black.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Bear, Black",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/bear-black/black-bear-2024-rules-related.webp",
+    "artist": "Related Black Bear art · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "1cbf4e00115e41b329b2efbd9d4ab5260c24dfe4e7af51cfb2867084bd3aad61",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Black%20Bear.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Bear, Brown",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/bear-brown/kobold-press-bear-grizzly.webp",
+    "artist": "Brown Bear · Kobold Press Foundry token",
+    "kind": "token",
+    "sha256": "f4e07cf4a8e12ab088b184b2bc59eb9ff630f0ac2d858f4b451a983825c76c4f",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/bear-grizzly.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Bear, Brown",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/bear-brown/brown-bear-2024-rules-related.webp",
+    "artist": "Related Brown Bear art · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "6b47dd1ad52434fd9beb325229cd9dba35457366131f33b31e98615cc5d48dd2",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Brown%20Bear.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Bear, Polar",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/bear-polar/kobold-press-bear-polar.webp",
+    "artist": "Polar Bear · Kobold Press Foundry token",
+    "kind": "token",
+    "sha256": "42bee5dbefb42a0f7252260065f479bdf19ad86d8ded5f69c7ca85827e09bbc0",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/bear-polar.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Bear, Polar",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/bear-polar/polar-bear-2024-rules-related.webp",
+    "artist": "Related Polar Bear art · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "a5ab71097a16e891d323b8d4be153f5453aa1b60eeecedfec912ba1f05ae9695",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Polar%20Bear.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Boar, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/boar-giant/kobold-press-boar.webp",
+    "artist": "Giant Boar · Kobold Press Foundry token",
+    "kind": "token",
+    "sha256": "7907ea5c48f8a112098a3c16354436e29a47476198063100829fbee8bcc0c4a2",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/boar.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Boar, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/boar-giant/giant-boar-2014-related.webp",
+    "artist": "Related Giant Boar token · Monster Manual (2014)",
+    "kind": "token",
+    "sha256": "902866886cfea0c3083af7bc0179530c37390b4c22472b4206baf95ef847bf32",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/MM/Giant%20Boar.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Bear, Black",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/bear-black/black-bear-in-autumn-woodland.png",
+    "artist": "Black bear in autumn woodland · The Lost Hope · OpenAI ImageGen",
+    "kind": "illustration",
+    "sha256": "cf12658030d43fe526164cec277c330584365df4dd8668d9b0f5eb405be91fe6"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Bear, Black",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/bear-black/black-bear-wading-in-a-river.png",
+    "artist": "Black bear wading in a river · The Lost Hope · OpenAI ImageGen",
+    "kind": "illustration",
+    "sha256": "fca4681db407bf7973e932fee2a03243673c69be950309b86dcd5a67c75d42c5"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Bear, Brown",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/bear-brown/brown-bear-on-a-rocky-slope.png",
+    "artist": "Brown bear on a rocky slope · The Lost Hope · OpenAI ImageGen",
+    "kind": "illustration",
+    "sha256": "82a1ca787f6648bc8945c8dd67f503d76c0a731c92bd35e76d18cf32720cc85a"
+  }
+]

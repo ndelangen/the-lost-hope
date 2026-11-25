@@ -1,0 +1,26 @@
+{
+  "baseline": "4607983a087ee81c36c6d6561249d4abaa9113a2",
+  "temporaryCopy": true,
+  "priorStagedPatchesCompatibilityVerified": true,
+  "playableSpecies": 1,
+  "edition": "3.5 edition",
+  "names": [
+    "Wemic"
+  ],
+  "selectableProfiles": 1,
+  "publication": "Races of Faerûn (2003)",
+  "racialJumpCarryingSpaceAndClawRulesVerified": true,
+  "editionSpecificRulesAndSourcesVerified": true,
+  "separateSpeciesScopeVerified": true,
+  "defaultVersionBefore": null,
+  "defaultVersionAfter": "Races of Faerûn (2003)",
+  "listThumbnailChanged": true,
+  "sourceTraitsDisplayed": 1,
+  "searchableByTraitAndNpcRole": 1,
+  "originalRunnableNpcBuilds": 2,
+  "fullBuildsReturnedByEncounterAndNpcsCommands": true,
+  "npcBuildsScopedByPublication": true,
+  "existingPlayableSpeciesAndNpcConceptsPreserved": true,
+  "distinctPortraitFiles": 1,
+  "versionPortraitsVerified": 1
+}

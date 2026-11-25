@@ -1,0 +1,279 @@
+{
+  "builds": [
+    {
+      "id": "mr2-yeth-hound-ashwhistle",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Night-patrol hound, Barbarian 2",
+      "difficulty": "Barbarian 2",
+      "size": "Medium",
+      "type": "Fey",
+      "speed": "40 ft., fly 40 ft. (hover)",
+      "ac": 13,
+      "hp": 21,
+      "hitDice": "2d12+2",
+      "initiative": 2,
+      "senses": "Darkvision 60 ft., passive Perception 13 (18 when hearing or smell applies).",
+      "languages": "Understands, reads and writes Common, Elvish and Sylvan as printed. Understands Goblin from Outlander in this build. Telepathy with its master on the same plane.",
+      "abilityScores": {
+        "STR": 15,
+        "DEX": 14,
+        "CON": 13,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Athletics +4",
+        "Survival +3",
+        "Perception +3",
+        "Intimidation +2"
+      ],
+      "traits": [
+        "Proficiency +2. Strength save +4, Constitution save +3. AC 13 = 10 + 2 Dexterity + 1 Constitution. HP 13 + 8. Outlander gives Athletics, Survival and Wanderer. Its canine body carries no gear.",
+        "Ashwhistle is immune to prone. Advantage on Perception that uses smell or hearing. Its master is Marrowbell, a neutral fey keeper. Against the master it has disadvantage on opposed checks and saves against effects. To disobey a direct order it must win a Charisma contest at +0 with disadvantage, except it can refuse an order into sunlight outright.",
+        "Start of turn in natural sunlight sends Ashwhistle to the Deep Ethereal until sunset regardless of later shade. After sunset it enters the Border Ethereal at the same spot and seeks Marrowbell. While next to Marrowbell on the Material Plane it can return as an action.",
+        "Reckless Attack. On the first attack of its own turn, it can choose advantage on Strength melee weapon attacks that turn. Attacks against it have advantage until its next turn.",
+        "Danger Sense. Advantage on Dexterity saves against effects it can see while able to see and free of the blinded, deafened, and incapacitated conditions."
+      ],
+      "actions": [
+        "Bite. +4 to hit, reach 5 ft., 1d8+2 piercing or 1d8+4 while raging.",
+        "Baleful Baying. Action, once per long rest. Audible to 300 ft. Creatures within 30 ft. make a DC 11 Wisdom save or are frightened through the end of Ashwhistle’s next turn.",
+        "Share Senses. Action to share its senses with Marrowbell while on the same plane. Their bond also provides same-plane telepathy.",
+        "Rage. Bonus action, twice per long rest, lasts up to 1 minute. Advantage on Strength checks and saves, resistance to bludgeoning, piercing and slashing, and +2 damage to Strength melee weapon attacks including the listed unarmed strike. Ends on unconsciousness or at turn end if no hostile creature was attacked and no damage taken since the prior turn."
+      ],
+      "tactics": "Bays when intruders leave the refuge of the shadows, then hovers above them and darts in to bite. Avoids routes that could put it in direct sun."
+    },
+    {
+      "id": "mr2-aurochs-redbank",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Ford keeper, Barbarian 2",
+      "difficulty": "Barbarian 2",
+      "size": "Medium",
+      "type": "Beast",
+      "speed": "50 ft.",
+      "ac": 14,
+      "hp": 23,
+      "hitDice": "2d12+4",
+      "initiative": 2,
+      "senses": "Passive Perception 13.",
+      "languages": "Common and Giant.",
+      "abilityScores": {
+        "STR": 17,
+        "DEX": 14,
+        "CON": 15,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Athletics +5",
+        "Survival +3",
+        "Animal Handling +3",
+        "Perception +3"
+      ],
+      "traits": [
+        "Proficiency +2. Strength save +5, Constitution save +4. HP 14 + 9. Natural AC 13 = 11 + 2 Dexterity. Uses Unarmored Defense instead for AC 14 = 10 + 2 Dexterity + 2 Constitution.",
+        "Outlander gives Athletics, Survival, Giant and Wanderer. Redbank wears no armor and cannot wield weapons, shields, tools, or similar gear.",
+        "Reckless Attack. On the first attack of its own turn, it can choose advantage on Strength melee weapon attacks that turn. Attacks against it have advantage until its next turn.",
+        "Danger Sense. Advantage on Dexterity saves against effects it can see while able to see and free of the blinded, deafened, and incapacitated conditions."
+      ],
+      "actions": [
+        "Gore. +5 to hit, reach 5 ft., 1d8+3 piercing or 1d8+5 while raging. Once per turn, moving at least 25 ft. toward the target before hitting it with this attack adds 1d6 piercing.",
+        "Rage. Bonus action, twice per long rest, lasts up to 1 minute. Advantage on Strength checks and saves, resistance to bludgeoning, piercing and slashing, and +2 damage to Strength melee weapon attacks including the listed unarmed strike. Ends on unconsciousness or at turn end if no hostile creature was attacked and no damage taken since the prior turn."
+      ],
+      "tactics": "Calls a warning and offers a clear path back. Uses a long run-up only if the ford is clear of bystanders."
+    },
+    {
+      "id": "mr2-cattle-flintmoss",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Deep Rothe passage guide, Monk 2",
+      "difficulty": "Monk 2",
+      "size": "Medium",
+      "type": "Beast",
+      "speed": "40 ft. unarmored (30 ft. base)",
+      "ac": 13,
+      "hp": 17,
+      "hitDice": "2d8+4",
+      "initiative": 2,
+      "senses": "Darkvision 60 ft., passive Perception 11.",
+      "languages": "Common and Dwarvish.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +5",
+        "Acrobatics +4",
+        "Medicine +3",
+        "Religion +2"
+      ],
+      "traits": [
+        "Proficiency +2. Strength save +5, Dexterity save +4. Unarmored AC 13 = 10 + 2 Dexterity + 1 Wisdom. HP 10 + 7. Monastic training gives Athletics and Acrobatics. Hermit background adds Medicine, Religion, Dwarvish and Discovery.",
+        "Deep Rothe. Knows the Wisdom-based dancing lights cantrip but has no way to handle its material component in this build. No armor, weapon, shield, tool, or focus is used.",
+        "Ki 2, regained after a short or long rest with at least 30 minutes of meditation. A bonus-action Martial Arts strike or Flurry strike uses a hoof for 1d4 bludgeoning per the supplement."
+      ],
+      "actions": [
+        "Gore. +5 to hit, reach 5 ft., 1d6+3 piercing. Once per turn, after moving at least 25 ft. toward the target, a Strength-based melee hit adds 1d6 of the attack’s damage type.",
+        "Martial Arts. After the Attack action with an unarmed strike, a bonus-action hoof attack hits at +5 for 1d4+3 bludgeoning. Spend 1 ki immediately after the Attack action for two such bonus-action attacks instead.",
+        "Patient Defense or Step of the Wind. Spend 1 ki to Dodge, Disengage, or Dash as a bonus action. Step of the Wind also doubles jump distance for the turn."
+      ],
+      "tactics": "Uses long, level routes on charges then saves ki to Dodge or Disengage while the party crosses narrow rock ledges."
+    },
+    {
+      "id": "mr2-dolphin-bellcurrent",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Harbor scout, Rogue 2",
+      "difficulty": "Rogue 2",
+      "size": "Medium",
+      "type": "Beast",
+      "speed": "Walk 0 ft., swim 60 ft.",
+      "ac": 13,
+      "hp": 17,
+      "hitDice": "2d8+4",
+      "initiative": 3,
+      "senses": "Blindsight 50 ft. while able to hear, passive Perception 14.",
+      "languages": "Common, Aquan and Thieves’ Cant.",
+      "abilityScores": {
+        "STR": 13,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 13,
+        "WIS": 10,
+        "CHA": 8
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Investigation +3",
+        "Perception +4",
+        "Stealth +7",
+        "Athletics +3",
+        "Survival +2"
+      ],
+      "traits": [
+        "Proficiency +2. Dexterity save +5, Intelligence save +3. AC 13 = 10 + Dexterity. HP 10 + 7. Expertise in Stealth and Perception. Outlander gives Athletics, Survival, Aquan and Wanderer.",
+        "The dolphin is air-breathing. Constitution 14 gives 3 minutes holding breath. Once it runs out of breath it can survive 2 rounds before dropping to 0 HP at the start of its following turn. No gear, shield, or tool use in this encounter."
+      ],
+      "actions": [
+        "Slam. +5 to hit with Dexterity, reach 5 ft., 1d6+3 bludgeoning. Strength alternative is +3 to hit for 1d6+1 bludgeoning and can add 1d6 once per turn after swimming at least 25 ft. toward that target.",
+        "Sneak Attack. Add 1d6 once per turn to a finesse slam hit with advantage, or when another enemy of the target is within 5 ft. of it and is not incapacitated, provided Bellcurrent has no disadvantage.",
+        "Cunning Action. Bonus action to Dash, Disengage, or Hide."
+      ],
+      "tactics": "Uses echolocation to check dark channels, signals one safe route, and Disengages toward open air after striking."
+    },
+    {
+      "id": "mr2-rot-grub-cindercoil",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Kiln seam scout, Barbarian 1",
+      "difficulty": "Barbarian 1",
+      "size": "Tiny",
+      "type": "Beast",
+      "speed": "10 ft., climb 10 ft.",
+      "ac": 14,
+      "hp": 14,
+      "hitDice": "1d12+2",
+      "initiative": 2,
+      "senses": "Passive Perception 13.",
+      "languages": "Common and Dwarvish.",
+      "abilityScores": {
+        "STR": 15,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Athletics +4",
+        "Survival +3",
+        "Perception +3",
+        "Nature +1"
+      ],
+      "traits": [
+        "Proficiency +2. Strength and Constitution saves +4. AC 14 = 10 + 2 Dexterity + 2 Constitution. HP 12 + 2. Outlander gives Athletics, Survival, Dwarvish and Wanderer. No worn or held gear.",
+        "Vulnerable to bludgeoning. Grappler gives advantage on attacks against a creature Cindercoil is grappling. The creature is Tiny and can grapple only Tiny or Small targets under the ordinary 2014 size limit."
+      ],
+      "actions": [
+        "Bite. +4 to hit, reach 5 ft., 1d6+2 piercing or 1d6+4 while raging.",
+        "Infest. After a Bite hits as part of the Attack action, use a bonus action to attempt a grapple against that Tiny or Small target. Athletics +4, with advantage if already raging. Target contests using Athletics or Acrobatics. Applying fire to the wound deals 1 fire damage to the target and frees it. A disease-curing effect also frees it. If it has 0 HP at the end of its own turn and is still grappled, it dies.",
+        "Rage. Bonus action, twice per long rest, lasts up to 1 minute. Advantage on Strength checks and saves, resistance to bludgeoning, piercing and slashing, and +2 damage to Strength melee weapon attacks including the listed unarmed strike. Ends on unconsciousness or at turn end if no hostile creature was attacked and no damage taken since the prior turn."
+      ],
+      "tactics": "Scouts fissures instead of approaching large enemies. If cornered, it rages on one turn and saves Infest for a later turn."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Ashwhistle",
+      "species": "Yeth Hound",
+      "speciesPublication": "Monstrous Races 2",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr2-yeth-hound-ashwhistle",
+      "size": "Medium",
+      "role": "A nocturnal sentinel serving the keeper of a derelict bell tower.",
+      "motive": "Recover Marrowbell’s lost handbell before dawn.",
+      "hook": "Ashwhistle leads visitors toward the missing bell but will go no farther than the shadow of the tower."
+    },
+    {
+      "name": "Redbank",
+      "species": "Aurochs",
+      "speciesPublication": "Monstrous Races 2",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr2-aurochs-redbank",
+      "size": "Medium",
+      "role": "An awakened aurochs who keeps a shallow river crossing open.",
+      "motive": "Stop bridge toll collectors from moving the public ford markers.",
+      "hook": "Redbank recognizes the ford stakes by smell and thinks someone put them on the wrong bank."
+    },
+    {
+      "name": "Flintmoss",
+      "species": "Cattle",
+      "speciesPublication": "Monstrous Races 2",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr2-cattle-flintmoss",
+      "size": "Medium",
+      "role": "A Deep Rothe who leads people across a fork of abandoned mine passages.",
+      "motive": "Find a lost pilgrim who ignored the three safe trail markers.",
+      "hook": "Flintmoss hears a distant breathing pattern through the rock and needs someone with hands to open a jammed hatch."
+    },
+    {
+      "name": "Bellcurrent",
+      "species": "Dolphin",
+      "speciesPublication": "Monstrous Races 2",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr2-dolphin-bellcurrent",
+      "size": "Medium",
+      "role": "An awakened dolphin who checks the harbor for snagged mooring lines.",
+      "motive": "Clear a submerged passage before the youngest dolphins use it.",
+      "hook": "Bellcurrent taps the hull in a pattern to mark a line under the pier that a diver can cut."
+    },
+    {
+      "name": "Cindercoil",
+      "species": "Rot Grub",
+      "speciesPublication": "Monstrous Races 2",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr2-rot-grub-cindercoil",
+      "size": "Tiny",
+      "role": "An awakened grub that tests narrow gaps in a disused kiln foundation.",
+      "motive": "Find the seam through which the old kiln still loses heat.",
+      "hook": "Cindercoil can describe a hidden crack that an ordinary scout cannot get through."
+    }
+  ]
+}

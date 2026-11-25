@@ -1,0 +1,218 @@
+[
+  {
+    "entry": "beast-65b817dd6f1d32a4c150af5f",
+    "version": "da877a213c59b671c8b57567",
+    "name": "Ebonclaw",
+    "file": "images/beasts/saber-toothed-tiger/parchment-portrait.webp",
+    "sha256": "b493c15e6f2dbf1de2b14f86655593a8d41fdf84507bcfbe6cb72a3c96014434",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-1e299e1540a7c67837a3bac1",
+    "version": "8b60165f600b66ab8f309975",
+    "name": "Ophelia",
+    "file": "images/beast-ready-batch-02/elephant.png",
+    "sha256": "dba093158ae121c1425fbe1f1791b15d208abb9f3c606b5b628e39a9e8372029",
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-8a2e6d4d45bc520d644ce4ff",
+    "version": "afe342102c69799eaf1036a7",
+    "name": "Parvaz",
+    "file": "images/beast-ready-batch-17/parvaz.png",
+    "sha256": "bbd6d899124580c806b2aa07ee7304aa784fc59d51790606c644d73ebe30093f",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-ea499e7a37fa9f86e18acaef",
+    "version": "563a37594ef1bdd2e1927f93",
+    "name": "Whirlwyrm",
+    "file": "images/adnd2e-monstrous-manual-eels/giant-eel.png",
+    "sha256": "ff5ee12f7648c6ad8d6ec5c4b6ad4ca05a6aae62008110ff489ca4af93de3d74",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-9e2c785f27eb66680aa08b59",
+    "version": "e98c448634db9fcc9fc8f2ec",
+    "name": "Spotted Lion",
+    "file": "images/beast-ready-batch-17/spotted-lion.png",
+    "sha256": "74a7b744511d2bcb17e5f586be2960052f7f492525d98b66cd2c318b0efe1d5d",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-dc6bb04888f9e5b706eabf36",
+    "version": "ca824856bce0eaf647592974",
+    "name": "Titanothere",
+    "file": "images/beast-ready-batch-17/titanothere.png",
+    "sha256": "7c1ebd4ac96666e11ab9c317d8787514980696d7a800ea8b86508a381a44d0ac",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-ccf9033ecac655c72e7f1c3e",
+    "version": "21b5f2793a2b098c29344d36",
+    "name": "Bristled Moorbounder",
+    "file": "images/beast-ready-batch-14/bristled-moorbounder.png",
+    "sha256": "30cf8b745118022f92ba817cd0e8760dda5f6bce7f79d4124bf6ce95a4792f37",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-4ab1fbc499c28e9a706aa0ec",
+    "version": "b4625bb3cae0d7475e5bb584",
+    "name": "Moorbounder",
+    "file": "images/beast-ready-batch-14/moorbounder.png",
+    "sha256": "6d2c92a2846065bda0a714fd65361bbf9c45984020c156cbc03dee2e5d4a2009",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-6dce2f1249dddb753bcf97f3",
+    "version": "3f30b13913be42818b7a083a",
+    "name": "Old Croaker",
+    "file": "images/beast-ready-batch-05/giant-toad.png",
+    "sha256": "9a92aaa523efc47ba8ae2da92535372cca0851247620d6c6360e65eea9e15c35",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-9f19b44733b80dec030fb2c1",
+    "version": "e4b6f9745033c76fc104b2d5",
+    "name": "Koi Prawn",
+    "file": "images/beast-ready-batch-17/koi-prawn.png",
+    "sha256": "bb33da9e443f4ac1a4db1ea665c715174e837fe5f067abe3ea307250e5393f05",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-ab80177c2fa8dfa42997fece",
+    "version": "10ad672c4bcadcb486c57a3f",
+    "name": "Rooster",
+    "file": "images/monsters/rooster-heraldic-servant/parchment-portrait.webp",
+    "sha256": "087b257409671181ede0f79e176aa1f2c7b987f9f25dfb02cd2af2717191bc0e",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-86653e2cff13147185a10291",
+    "version": "067df4e21ffb31b93cc3e24e",
+    "name": "Hellwasp Grub",
+    "file": "images/beast-ready-batch-17/hellwasp-grub.png",
+    "sha256": "b14e0af8ce6f486bd9a3fa8d3dd2f7372f8ffaa4638f1b46130d7256a069a1f6",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-a095c7713e337faa7c397ce5",
+    "version": "e570b2d62299c71685d98bab",
+    "name": "Peacock",
+    "file": "images/beast-ready-batch-17/peacock.png",
+    "sha256": "5e62e359197c21e0d557160df2b5b0aef3e3ec130cb9f9c4192b9dd903f6ccd2",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-9031585bf5d4a409f1414335",
+    "version": "d728ad7078c7f90bf03bdccc",
+    "name": "Traxigor",
+    "file": "images/beast-ready-batch-17/traxigor.png",
+    "sha256": "b8fecd819074b2c0027cad495f0d9e0e64e9568dc5274b741e4df0d9337150fa",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-04c27234f4019ad22ec127c3",
+    "version": "dd6f4f1676e5459fcae45172",
+    "name": "Enormous Tentacle",
+    "file": "images/beast-ready-batch-17/enormous-tentacle.png",
+    "sha256": "5b76fb826348852978163ce64ec82f84522fab00a530b12fb601f84d82f930ca",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-1c5483264189feefd17a23c6",
+    "version": "b6bd7471ca2e8f653b057f2f",
+    "name": "Onyx",
+    "file": "images/beast-ready-batch-17/onyx.png",
+    "sha256": "32946c10ee166fb7d0e8b77f5c3aa476b974941b10b38185cc6676f23b4a6ed9",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-43d876f898cccfef2c7dc31a",
+    "version": "c57b9605c74eb20efacf714e",
+    "name": "Bhaal, Ravager",
+    "file": "images/beast-ready-batch-17/bhaal-ravager.png",
+    "sha256": "43b589aa5f43c3e28e1a32c1560157160e849fe49488b0e77ea9234165925945",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-71231f2f55745b725cc9cd4a",
+    "version": "6eb0538fd8967e355e7b0013",
+    "name": "Deep Spider",
+    "file": "images/beast-ready-batch-17/sword-spider.png",
+    "sha256": "f699c94cf67afc29e3091f364d831b5df0e8669a7b861ebdb2d2cf8ac106d723",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-be97f4e51f6a65ec33804ba8",
+    "version": "c68f1e00d50e9e32a0b938a4",
+    "name": "Sword Spider",
+    "file": "images/beast-ready-batch-17/sword-spider.png",
+    "sha256": "f699c94cf67afc29e3091f364d831b5df0e8669a7b861ebdb2d2cf8ac106d723",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-b74c4594d8f241bb62898b53",
+    "version": "cf6c105c0d60b5dc6f4eb1b9",
+    "name": "Rothé",
+    "file": "images/beast-ready-batch-13/rothe.png",
+    "sha256": "a7fc5db80e0fb8b7126d12c478a9714b9c2ffe0a43483284a4ee9ea2cc945480",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-586f72b81c4d74c9db9424d9",
+    "version": "74a62ac6597e5662e1f1f7a5",
+    "name": "Giant Canary",
+    "file": "images/beast-ready-batch-17/giant-canary.png",
+    "sha256": "895b42de5408c1d35cb84d2fe23ee9f2465971a2bb184c517dbb1bc205a4302c",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-39b56e666e3983c9847b87e0",
+    "version": "8bbb37ea6f9bb597ae0e4ad2",
+    "name": "Szikzith",
+    "file": "images/beast-ready-batch-17/szikzith.png",
+    "sha256": "4e20eea3c7b1c137fb6ce293e6cdbd81b33ceb51d0c7fa6061573c31e749e391",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-06f88f868f72b24dbffd1868",
+    "version": "4fffb325ed5e7a6a107d39ef",
+    "name": "Sled Dog",
+    "file": "images/beast-ready-batch-17/sled-dog.png",
+    "sha256": "c32c3de43fc9ff7bb9504413b55684bd576455308cbe0d57e2bc6036ba610adf",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-4faf39ec43fe20a78415c96d",
+    "version": "0ba209acdcde6b3840f2f121",
+    "name": "Giant Spider",
+    "file": "images/beast-ready-batch-05/giant-spider.png",
+    "sha256": "e09482c1c431b025fb5a4a1301606d6704bd611152d9de378c82d67b6678d570",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-ea7c0ecdbed6456b0a5a0168",
+    "version": "6769670dd69cc39ba9fee092",
+    "name": "Swarm of Infesting Insects",
+    "file": "images/beast-ready-batch-17/ravenloft-insect-swarms.png",
+    "sha256": "03ed76717ac5fccc47412e9aa957a28865b2e91957ee49d1204663cdde5b580a",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-35385b5f4d951985fb3ddf85",
+    "version": "3187312a73408ad6c25dd6b5",
+    "name": "Swarm of Ravenous Insects",
+    "file": "images/beast-ready-batch-17/ravenloft-insect-swarms.png",
+    "sha256": "03ed76717ac5fccc47412e9aa957a28865b2e91957ee49d1204663cdde5b580a",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-269f318b55d7de1bb3c84547",
+    "version": "004b8d3e8c1cbe9fbd916793",
+    "name": "Pandarian Dragon Turtle",
+    "file": "images/beasts/pandarian-dragon-turtle/parchment-portrait.webp",
+    "sha256": "20affe480c6e61cdff25b306d617d3cbbfe12461d68e70de904dbeabb9186567",
+    "credit": "OpenAI ImageGen"
+  }
+]

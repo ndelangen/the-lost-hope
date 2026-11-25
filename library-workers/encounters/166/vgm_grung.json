@@ -1,0 +1,415 @@
+[
+  {
+    "name": "Grung",
+    "statBlock": {
+      "name": "Grung",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 156,
+      "classification": "Small humanoid (grung), lawful evil",
+      "ac": 12,
+      "hp": 11,
+      "hitDice": "2d6 + 4",
+      "speed": "25 ft., climb 25 ft.",
+      "abilities": {
+        "Str": {
+          "score": 7
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 12,
+      "description": "Grungs are territorial amphibians that live in the trees of tropical forests. Green, blue, and purple grungs normally use this stat block in Volo's.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 4
+      },
+      "skills": {
+        "Athletics": 2,
+        "Perception": 2,
+        "Stealth": 4,
+        "Survival": 2
+      },
+      "sections": {
+        "Languages": "Grung.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Amphibious. The grung breathes air and water.\nPoisonous Skin. Grappling the grung or touching its skin directly triggers a DC 12 Constitution saving throw. On a failure, the creature is poisoned for 1 minute. After contact ends, the creature can repeat the save at the end of each of its turns. A success ends the condition.\nStanding Leap. The grung can jump up to 25 ft. horizontally or 15 ft. vertically from a standstill or with a running start.\nWater Dependency. If the grung spends less than 1 hour immersed in water during a day, it gains one level of exhaustion at the end of that day. Magic or at least 1 hour of immersion can remove exhaustion gained this way.",
+        "Actions": "Dagger. Melee or ranged weapon attack, +4 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 4 (1d4 + 2) piercing damage. The target also takes 5 (2d4) poison damage if it fails a DC 12 Constitution saving throw.",
+        "Optional Grung poison mechanics": "Use the weapon’s listed Constitution save for its extra poison damage. The color effect follows the poisoned condition from this grung.\nPoison removed from a grung remains potent for 1 minute. Its poison also loses potency after 1 minute when the grung dies.\nThe optional effect lasts as long as the target remains poisoned by this grung.\nGreen. The creature can move only by climbing or jumping from a standstill. While flying, it cannot take actions or reactions until it lands.\nBlue. The creature must shout or make another loud noise at both the start and the end of each turn.\nPurple. The creature can move and act only to soak in liquid or mud, or to reach a place where it can soak.\nRed. If food is within reach, the creature must spend its action eating.\nOrange. The creature is frightened of its allies.\nGold. The creature is charmed by the grung and can speak Grung.",
+        "Printed source": "Volo's Guide to Monsters, p. 156."
+      }
+    }
+  },
+  {
+    "name": "Grung (Blue)",
+    "statBlock": {
+      "name": "Grung (Blue)",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 156,
+      "classification": "Small humanoid (grung), lawful evil",
+      "ac": 12,
+      "hp": 11,
+      "hitDice": "2d6 + 4",
+      "speed": "25 ft., climb 25 ft.",
+      "abilities": {
+        "Str": {
+          "score": 7
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 12,
+      "description": "Grungs are territorial amphibians that live in the trees of tropical forests. Green, blue, and purple grungs normally use this stat block in Volo's.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 4
+      },
+      "skills": {
+        "Athletics": 2,
+        "Perception": 2,
+        "Stealth": 4,
+        "Survival": 2
+      },
+      "sections": {
+        "Languages": "Grung.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Amphibious. The grung breathes air and water.\nPoisonous Skin. Grappling the grung or touching its skin directly triggers a DC 12 Constitution saving throw. On a failure, the creature is poisoned for 1 minute. After contact ends, the creature can repeat the save at the end of each of its turns. A success ends the condition.\nStanding Leap. The grung can jump up to 25 ft. horizontally or 15 ft. vertically from a standstill or with a running start.\nWater Dependency. If the grung spends less than 1 hour immersed in water during a day, it gains one level of exhaustion at the end of that day. Magic or at least 1 hour of immersion can remove exhaustion gained this way.",
+        "Actions": "Dagger. Melee or ranged weapon attack, +4 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 4 (1d4 + 2) piercing damage. The target also takes 5 (2d4) poison damage if it fails a DC 12 Constitution saving throw.",
+        "Optional Grung poison mechanics": "Use the weapon’s listed Constitution save for its extra poison damage. The color effect follows the poisoned condition from this grung.\nPoison removed from a grung remains potent for 1 minute. Its poison also loses potency after 1 minute when the grung dies.\nThe optional effect lasts as long as the target remains poisoned by this grung.\nThe creature must shout or make another loud noise at both the start and the end of each turn.",
+        "Printed source": "Volo's Guide to Monsters, p. 156."
+      }
+    }
+  },
+  {
+    "name": "Grung (Gold)",
+    "statBlock": {
+      "name": "Grung (Gold)",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 156,
+      "classification": "Small humanoid (grung), lawful evil",
+      "ac": 12,
+      "hp": 11,
+      "hitDice": "2d6 + 4",
+      "speed": "25 ft., climb 25 ft.",
+      "abilities": {
+        "Str": {
+          "score": 7
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 12,
+      "description": "Grungs are territorial amphibians that live in the trees of tropical forests. Green, blue, and purple grungs normally use this stat block in Volo's.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 4
+      },
+      "skills": {
+        "Athletics": 2,
+        "Perception": 2,
+        "Stealth": 4,
+        "Survival": 2
+      },
+      "sections": {
+        "Languages": "Grung.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Amphibious. The grung breathes air and water.\nPoisonous Skin. Grappling the grung or touching its skin directly triggers a DC 12 Constitution saving throw. On a failure, the creature is poisoned for 1 minute. After contact ends, the creature can repeat the save at the end of each of its turns. A success ends the condition.\nStanding Leap. The grung can jump up to 25 ft. horizontally or 15 ft. vertically from a standstill or with a running start.\nWater Dependency. If the grung spends less than 1 hour immersed in water during a day, it gains one level of exhaustion at the end of that day. Magic or at least 1 hour of immersion can remove exhaustion gained this way.",
+        "Actions": "Dagger. Melee or ranged weapon attack, +4 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 4 (1d4 + 2) piercing damage. The target also takes 5 (2d4) poison damage if it fails a DC 12 Constitution saving throw.",
+        "Optional Grung poison mechanics": "Use the weapon’s listed Constitution save for its extra poison damage. The color effect follows the poisoned condition from this grung.\nPoison removed from a grung remains potent for 1 minute. Its poison also loses potency after 1 minute when the grung dies.\nThe optional effect lasts as long as the target remains poisoned by this grung.\nThe creature is charmed by the grung and can speak Grung.",
+        "Printed source": "Volo's Guide to Monsters, p. 156."
+      }
+    }
+  },
+  {
+    "name": "Grung (Green)",
+    "statBlock": {
+      "name": "Grung (Green)",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 156,
+      "classification": "Small humanoid (grung), lawful evil",
+      "ac": 12,
+      "hp": 11,
+      "hitDice": "2d6 + 4",
+      "speed": "25 ft., climb 25 ft.",
+      "abilities": {
+        "Str": {
+          "score": 7
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 12,
+      "description": "Grungs are territorial amphibians that live in the trees of tropical forests. Green, blue, and purple grungs normally use this stat block in Volo's.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 4
+      },
+      "skills": {
+        "Athletics": 2,
+        "Perception": 2,
+        "Stealth": 4,
+        "Survival": 2
+      },
+      "sections": {
+        "Languages": "Grung.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Amphibious. The grung breathes air and water.\nPoisonous Skin. Grappling the grung or touching its skin directly triggers a DC 12 Constitution saving throw. On a failure, the creature is poisoned for 1 minute. After contact ends, the creature can repeat the save at the end of each of its turns. A success ends the condition.\nStanding Leap. The grung can jump up to 25 ft. horizontally or 15 ft. vertically from a standstill or with a running start.\nWater Dependency. If the grung spends less than 1 hour immersed in water during a day, it gains one level of exhaustion at the end of that day. Magic or at least 1 hour of immersion can remove exhaustion gained this way.",
+        "Actions": "Dagger. Melee or ranged weapon attack, +4 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 4 (1d4 + 2) piercing damage. The target also takes 5 (2d4) poison damage if it fails a DC 12 Constitution saving throw.",
+        "Optional Grung poison mechanics": "Use the weapon’s listed Constitution save for its extra poison damage. The color effect follows the poisoned condition from this grung.\nPoison removed from a grung remains potent for 1 minute. Its poison also loses potency after 1 minute when the grung dies.\nThe optional effect lasts as long as the target remains poisoned by this grung.\nThe creature can move only by climbing or jumping from a standstill. While flying, it cannot take actions or reactions until it lands.",
+        "Printed source": "Volo's Guide to Monsters, p. 156."
+      }
+    }
+  },
+  {
+    "name": "Grung (Orange)",
+    "statBlock": {
+      "name": "Grung (Orange)",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 156,
+      "classification": "Small humanoid (grung), lawful evil",
+      "ac": 12,
+      "hp": 11,
+      "hitDice": "2d6 + 4",
+      "speed": "25 ft., climb 25 ft.",
+      "abilities": {
+        "Str": {
+          "score": 7
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 12,
+      "description": "Grungs are territorial amphibians that live in the trees of tropical forests. Green, blue, and purple grungs normally use this stat block in Volo's.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 4
+      },
+      "skills": {
+        "Athletics": 2,
+        "Perception": 2,
+        "Stealth": 4,
+        "Survival": 2
+      },
+      "sections": {
+        "Languages": "Grung.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Amphibious. The grung breathes air and water.\nPoisonous Skin. Grappling the grung or touching its skin directly triggers a DC 12 Constitution saving throw. On a failure, the creature is poisoned for 1 minute. After contact ends, the creature can repeat the save at the end of each of its turns. A success ends the condition.\nStanding Leap. The grung can jump up to 25 ft. horizontally or 15 ft. vertically from a standstill or with a running start.\nWater Dependency. If the grung spends less than 1 hour immersed in water during a day, it gains one level of exhaustion at the end of that day. Magic or at least 1 hour of immersion can remove exhaustion gained this way.",
+        "Actions": "Dagger. Melee or ranged weapon attack, +4 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 4 (1d4 + 2) piercing damage. The target also takes 5 (2d4) poison damage if it fails a DC 12 Constitution saving throw.",
+        "Optional Grung poison mechanics": "Use the weapon’s listed Constitution save for its extra poison damage. The color effect follows the poisoned condition from this grung.\nPoison removed from a grung remains potent for 1 minute. Its poison also loses potency after 1 minute when the grung dies.\nThe optional effect lasts as long as the target remains poisoned by this grung.\nThe creature is frightened of its allies.",
+        "Printed source": "Volo's Guide to Monsters, p. 156."
+      }
+    }
+  },
+  {
+    "name": "Grung (Purple)",
+    "statBlock": {
+      "name": "Grung (Purple)",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 156,
+      "classification": "Small humanoid (grung), lawful evil",
+      "ac": 12,
+      "hp": 11,
+      "hitDice": "2d6 + 4",
+      "speed": "25 ft., climb 25 ft.",
+      "abilities": {
+        "Str": {
+          "score": 7
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 12,
+      "description": "Grungs are territorial amphibians that live in the trees of tropical forests. Green, blue, and purple grungs normally use this stat block in Volo's.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 4
+      },
+      "skills": {
+        "Athletics": 2,
+        "Perception": 2,
+        "Stealth": 4,
+        "Survival": 2
+      },
+      "sections": {
+        "Languages": "Grung.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Amphibious. The grung breathes air and water.\nPoisonous Skin. Grappling the grung or touching its skin directly triggers a DC 12 Constitution saving throw. On a failure, the creature is poisoned for 1 minute. After contact ends, the creature can repeat the save at the end of each of its turns. A success ends the condition.\nStanding Leap. The grung can jump up to 25 ft. horizontally or 15 ft. vertically from a standstill or with a running start.\nWater Dependency. If the grung spends less than 1 hour immersed in water during a day, it gains one level of exhaustion at the end of that day. Magic or at least 1 hour of immersion can remove exhaustion gained this way.",
+        "Actions": "Dagger. Melee or ranged weapon attack, +4 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 4 (1d4 + 2) piercing damage. The target also takes 5 (2d4) poison damage if it fails a DC 12 Constitution saving throw.",
+        "Optional Grung poison mechanics": "Use the weapon’s listed Constitution save for its extra poison damage. The color effect follows the poisoned condition from this grung.\nPoison removed from a grung remains potent for 1 minute. Its poison also loses potency after 1 minute when the grung dies.\nThe optional effect lasts as long as the target remains poisoned by this grung.\nThe creature can move and act only to soak in liquid or mud, or to reach a place where it can soak.",
+        "Printed source": "Volo's Guide to Monsters, p. 156."
+      }
+    }
+  },
+  {
+    "name": "Grung (Red)",
+    "statBlock": {
+      "name": "Grung (Red)",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 156,
+      "classification": "Small humanoid (grung), lawful evil",
+      "ac": 12,
+      "hp": 11,
+      "hitDice": "2d6 + 4",
+      "speed": "25 ft., climb 25 ft.",
+      "abilities": {
+        "Str": {
+          "score": 7
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 12,
+      "description": "Grungs are territorial amphibians that live in the trees of tropical forests. Green, blue, and purple grungs normally use this stat block in Volo's.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 4
+      },
+      "skills": {
+        "Athletics": 2,
+        "Perception": 2,
+        "Stealth": 4,
+        "Survival": 2
+      },
+      "sections": {
+        "Languages": "Grung.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Amphibious. The grung breathes air and water.\nPoisonous Skin. Grappling the grung or touching its skin directly triggers a DC 12 Constitution saving throw. On a failure, the creature is poisoned for 1 minute. After contact ends, the creature can repeat the save at the end of each of its turns. A success ends the condition.\nStanding Leap. The grung can jump up to 25 ft. horizontally or 15 ft. vertically from a standstill or with a running start.\nWater Dependency. If the grung spends less than 1 hour immersed in water during a day, it gains one level of exhaustion at the end of that day. Magic or at least 1 hour of immersion can remove exhaustion gained this way.",
+        "Actions": "Dagger. Melee or ranged weapon attack, +4 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 4 (1d4 + 2) piercing damage. The target also takes 5 (2d4) poison damage if it fails a DC 12 Constitution saving throw.",
+        "Optional Grung poison mechanics": "Use the weapon’s listed Constitution save for its extra poison damage. The color effect follows the poisoned condition from this grung.\nPoison removed from a grung remains potent for 1 minute. Its poison also loses potency after 1 minute when the grung dies.\nThe optional effect lasts as long as the target remains poisoned by this grung.\nIf food is within reach, the creature must spend its action eating.",
+        "Printed source": "Volo's Guide to Monsters, p. 156."
+      }
+    }
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "name": "Arcadian Avenger",
+    "publication": "Monster Manual V (2007)",
+    "edition": "3.5 edition",
+    "kind": "species",
+    "traits": [
+      "Medium outsider from Arcadia with eight racial d8 Hit Dice, +2 level adjustment and base ECL 10. The stock creature is CR 6. Land speed 30 ft., fly 30 ft. with good maneuverability, darkvision 60 ft. and +6 natural armor.",
+      "The stock ability scores imply racial modifiers of Str +6, Dex +4, Con +6, Wis +2 and Cha +2. Speaks Celestial and Common. The avenger normally wields two longswords and favors crusader or, if Tome of Battle is absent, paladin. Both count as associated classes.",
+      "The lawful and good subtypes let natural and wielded weapons overcome the corresponding alignment-based damage reduction. Magic Strike lets natural weapons overcome DR/magic. A full attack that hits one target with each sword deals 2d6 extra damage.",
+      "Seeing an ally fall grants +2 morale to melee damage for 1 minute. Three times per day as an immediate action, Elude Chance fixes the result of the next melee attack or saving throw at a natural 10.",
+      "The p. 4 ECL table and numeric level adjustment provide the numbers for a DM-permitted monster character. The entry presents class advancement and does not give a dedicated player package."
+    ]
+  },
+  {
+    "name": "Banshrae",
+    "publication": "Monster Manual V (2007)",
+    "edition": "3.5 edition",
+    "kind": "species",
+    "traits": [
+      "Medium fey with 15 racial d6 Hit Dice and LA +4, starting ECL 19. The stock creature is CR 8. Land speed 60 ft., low-light vision, DR 10/cold iron and telepathy 100 ft. It understands Common, Elven and Sylvan and has no spoken voice.",
+      "The stock ability scores imply Str +6, Dex +14, Con +6, Int +4, Wis +4 and Cha +10. Sylvan Warrior gives a deflection bonus equal to the Charisma modifier and preserves Dexterity AC when flat-footed. The stock unarmed strike deals 2d6 base damage.",
+      "At will, conjure one masterwork flute as an immediate action. It doubles as a masterwork greater blowgun with a 10-ft. range increment and vanishes when it leaves the banshrae’s possession.",
+      "Playing as a swift action can impose one of three effects on hearing foes within a 60-ft. spread. Will negates. The tune can shake foes, make them babble and reveal themselves while losing verbal casting, or compel them to move at least 20 ft. on their turns. The sonic, mind-affecting effect ends when the foe stops hearing the tune.",
+      "Dart Cone is a full-round 15-ft. cone for 4d6 damage with a Dexterity-based Reflex save for half. Its daily uses equal the Charisma modifier. Locust Dart is a special shot once per day. A failed Constitution-based Fortitude save causes 2d6 damage, 1 round of sickness and a commanded locust swarm for 2d6 rounds.",
+      "The banshrae can use a variant bestow curse once per day at CL 10. It penalizes Bluff and Diplomacy by 6 and AC by 2. Fighter is favored, and fighter and rogue count as associated classes.",
+      "The p. 4 ECL table and numeric level adjustment provide the numbers for a DM-permitted monster character. The entry presents class advancement and does not give a dedicated player package."
+    ]
+  },
+  {
+    "name": "Elemental Magi",
+    "publication": "Monster Manual V (2007)",
+    "edition": "3.5 edition",
+    "kind": "species",
+    "traits": [
+      "The printed family covers three Large giants with low-light vision, Common and Giant, favored class fighter and LA +5. Ken-kuni has 8 racial d8 HD, ECL 13 and stock CR 8. Ken-li has 12 racial d8 HD, ECL 17 and stock CR 10. Ken-sun has 17 racial d8 HD, ECL 22 and stock CR 13.",
+      "Shared Strength uses the best applicable saving throw bonus among elemental magi within 60 ft. Each form’s area signature recharges in 1d4 rounds, or can be used every round if both other forms are within 60 ft. Elemental magi are immune to these signature effects and to the ken-li and ken-sun auras.",
+      "Ken-kuni is an earth giant with +8 natural armor, fast healing 5, DR 10/magic, burrow 10 ft. and base land speed 40 ft. It has two 1d4 slams or a 1d8 gore and Magic Strike. Earthshock hits adjacent squares or a 30-ft. line. A Constitution-based Reflex save avoids prone and 1d4 nonlethal damage. The stock scores imply Str +16, Con +12 and Wis +2.",
+      "Ken-li is a fire giant with +8 natural armor, fast healing 10, speed 50 ft., fire immunity and cold vulnerability. It has two 1d4 slams or a 1d8 gore. Its suppressible fire aura inflicts 1d3 fire within 5 ft. at the end of the ken-li’s turn and on direct or weapon contact, with contact damage at most once per turn. Its breath is a 30-ft. line for 6d6 fire, Constitution-based Reflex half. The stock scores imply Str +10, Dex +6, Con +14 and Wis +8.",
+      "Ken-sun is an air giant with +9 natural armor, fast healing 10, land speed 50 ft. and fly 20 ft. (perfect). It has two 1d6 slams or a 1d8 gore. It can suppress an adjacent windstorm aura at will. Continuous freedom of movement is CL 15, and if dispelled can resume on its next turn as a free action. Wind Breath pushes targets to the end of a 30-ft. line for 1d4 nonlethal damage per 10 ft. driven, Constitution-based Fortitude negates. Control weather twice per day and sleet storm once per day are CL 17. The stock scores imply Str +16, Dex +6, Con +10, Int +10, Wis +10 and Cha +10.",
+      "The book treats classes granting at least three-quarter BAB and a d8 or larger Hit Die as associated for elemental magi.",
+      "The p. 4 ECL table and numeric level adjustment provide the numbers for a DM-permitted monster character. The entry presents class advancement and does not give a dedicated player package."
+    ]
+  },
+  {
+    "name": "Ethereal Defiler",
+    "publication": "Monster Manual V (2007)",
+    "edition": "3.5 edition",
+    "kind": "species",
+    "traits": [
+      "Large extraplanar aberration with 22 racial d8 Hit Dice and LA +4. Base ECL is 26, already epic. The stock creature is CR 16. Land speed 40 ft., 10-ft. space and reach, blindsense and darkvision 60 ft., telepathy 100 ft., Common and Undercommon.",
+      "The stock ability scores imply Str +16, Dex +12, Con +14, Int −4, Wis +4 and Cha +6. Natural armor +16 and printed deflection +2. DR 10/cold iron, cold and fire resistance 20 each, and SR 29. Two primary 1d8 claws and a secondary 1d8 tail.",
+      "The 20-ft. Anchoring Aura suppresses effects with the teleportation descriptor. An opponent makes a Charisma-based Will save to move beyond the aura. Success gives 24 hours of protection from that defiler’s aura save, and other ethereal defilers are immune to the aura.",
+      "Tainted Energy is a CL 22 swift spell-like ability. It deals 6d6 by ranged touch out to 120 ft. or adds the same damage to one claw hit. A damaged foe makes a Charisma-based Fortitude save or is sickened for 1d4 rounds.",
+      "Every 10 rounds, Ethereal Bore permits a full-round shift between Material and Ethereal without provoking. Arriving on the Material Plane triggers a 20-ft. burst for 10d6 with a Charisma-based Reflex save for half. The maker is exempt. It otherwise follows ethereal jaunt at CL 22.",
+      "Favored class warlock. The book allows warlock eldritch blast damage to add to Tainted Energy and warlock damage reduction to stack with the innate DR.",
+      "The p. 4 ECL table and numeric level adjustment provide the numbers for a DM-permitted monster character. The entry presents class advancement and does not give a dedicated player package."
+    ]
+  }
+]

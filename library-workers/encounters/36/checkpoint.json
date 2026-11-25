@@ -1,0 +1,36 @@
+{
+  "commit": "4aaaaf4e905c16c9767f6ee98574e73e5e7255bf",
+  "publication": "Flee, Mortals!",
+  "encounterVersions": 2,
+  "fullStatBlocks": 2,
+  "generatedPortraitsInstalled": 2,
+  "creditedGalleriesVerified": 2,
+  "allRecentVersionsWithGeneratedPortrait": 553,
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "visualComparison": "output/dm-library/review/encounters-36-before-after.jpg",
+  "styleReferenceSheet": "output/dm-library/review/encounters-36-style-reference.jpg",
+  "styleDirection": "Use campaign event and stage art for directional lighting and painted materials. Keep pale neutral paper with subtle grain in each square portrait.",
+  "results": "output/dm-library/encounter-batches/36/results.json",
+  "searchResults": "output/dm-library/encounter-batches/36/search-results.json",
+  "nextSourcePublication": "Flee, Mortals!",
+  "unverifiedNextCandidates": [
+    {
+      "name": "Shambling Pile",
+      "kind": "monster",
+      "source": "https://www.dndbeyond.com/monsters/4340229-shambling-pile",
+      "challenge": "5"
+    },
+    {
+      "name": "Owlbear Companion",
+      "kind": "monster",
+      "role": "Companion"
+    },
+    {
+      "name": "Shambling Mound Companion",
+      "kind": "monster",
+      "role": "Companion"
+    }
+  ],
+  "nextSourceNote": "Verify the Shambling Pile’s minion rules and keep the two caregiver profiles distinct from the wild creatures."
+}

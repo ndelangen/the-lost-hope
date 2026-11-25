@@ -1,0 +1,73 @@
+[
+  {
+    "name": "Keridani",
+    "publication": "Voidrunner's Codex (2025)",
+    "edition": "Level Up: Advanced 5th Edition",
+    "publisher": "EN Publishing",
+    "creatureType": "Humanoid",
+    "url": "https://a5e.tools/rules/keridani",
+    "page": "Chapter 1, Origins, Keridani traits, gifts, and paragon",
+    "provenance": "EN Publishing's original A5E Voidrunner heritage, read on the publisher's reference site.",
+    "supportingSources": {
+      "publication": "https://enpublishingrpg.com/products/vo",
+      "contents": "https://a5e.tools/rules/voidrunners-codex",
+      "creation": "https://a5e.tools/rules/character-creation",
+      "armor": "https://a5e.tools/rules/voidrunner-armor",
+      "class": "https://a5e.tools/rules/psion",
+      "culture": "https://a5e.tools/rules/enlightened",
+      "background": "https://a5e.tools/node/4767",
+      "destiny": "https://a5e.tools/node/4223",
+      "binding": "https://a5e.tools/node/3946",
+      "emote": "https://a5e.tools/node/3962",
+      "adrenalize": "https://www.a5e.tools/node/3943"
+    },
+    "sourceDistinctions": "Ancestral Awakening uses the page’s wording “proficiency modifier,” read as proficiency bonus. The opening description mentions physiological cold tolerance, while the trait package lists no cold resistance."
+  },
+  {
+    "name": "Naato",
+    "publication": "Voidrunner's Codex (2025)",
+    "edition": "Level Up: Advanced 5th Edition",
+    "publisher": "EN Publishing",
+    "creatureType": "Humanoid",
+    "url": "https://a5e.tools/rules/naato",
+    "page": "Chapter 1, Origins, Naato traits, gifts, and paragon",
+    "provenance": "EN Publishing's original A5E Voidrunner heritage, read on the publisher's reference site.",
+    "supportingSources": {
+      "publication": "https://enpublishingrpg.com/products/vo",
+      "contents": "https://a5e.tools/rules/voidrunners-codex",
+      "creation": "https://a5e.tools/rules/character-creation",
+      "armor": "https://a5e.tools/rules/voidrunner-armor",
+      "class": "https://a5e.tools/rules/scout",
+      "culture": "https://a5e.tools/rules/drifter",
+      "background": "https://a5e.tools/rules/voidrunners-codex/voidrunners-codex-backgrounds/salvager",
+      "destiny": "https://a5e.tools/node/4222",
+      "weapons": "https://a5e.tools/rules/voidrunner-weapons",
+      "conditions": "https://a5e.tools/rules/conditions",
+      "decks": "https://a5e.tools/rules/star-captains-manual"
+    },
+    "sourceDistinctions": "Use the book’s slowed condition, and keep the scale AC and Artful Defense AC formulas separate. The picture shows Daro in an ordinary canvas work harness, with no armor."
+  },
+  {
+    "name": "Sipher",
+    "publication": "Voidrunner's Codex (2025)",
+    "edition": "Level Up: Advanced 5th Edition",
+    "publisher": "EN Publishing",
+    "creatureType": "Humanoid",
+    "url": "https://a5e.tools/rules/sipher",
+    "page": "Chapter 1, Origins, Sipher traits, gifts, and paragon",
+    "provenance": "EN Publishing's original A5E Voidrunner heritage, read on the publisher's reference site.",
+    "supportingSources": {
+      "publication": "https://enpublishingrpg.com/products/vo",
+      "contents": "https://a5e.tools/rules/voidrunners-codex",
+      "creation": "https://a5e.tools/rules/character-creation",
+      "armor": "https://a5e.tools/rules/voidrunner-armor",
+      "class": "https://a5e.tools/rules/trooper",
+      "culture": "https://a5e.tools/rules/belter",
+      "background": "https://a5e.tools/rules/voidrunners-codex/voidrunners-codex-backgrounds/miner",
+      "destiny": "https://a5e.tools/node/4224",
+      "weapons": "https://a5e.tools/rules/voidrunner-weapons",
+      "naturalWeapons": "https://a5e.tools/rules/weapons"
+    },
+    "sourceDistinctions": "The publisher’s public HTML places Planetary Invocation in the Hivebound paragraph. This profile lists it there pending a printed-layout check. Lio chooses Energy Bolt, so this reading does not affect the example."
+  }
+]

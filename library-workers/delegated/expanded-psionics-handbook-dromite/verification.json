@@ -1,0 +1,25 @@
+{
+  "baseline": "102801b2d895c4848be6bc688ab7963695e7ca53",
+  "temporaryCopy": true,
+  "playableSpecies": 1,
+  "edition": "3.5 edition",
+  "names": [
+    "Dromite"
+  ],
+  "selectableProfiles": 4,
+  "publication": "Expanded Psionics Handbook (2004)",
+  "castes": [
+    "Fire",
+    "Glimmer",
+    "Ice",
+    "Voice"
+  ],
+  "sourceTraitsDisplayed": 4,
+  "searchableByCasteEnergyAndNpcRole": 4,
+  "originalRunnableNpcBuilds": 2,
+  "fullBuildsReturnedByEncounterAndNpcsCommands": true,
+  "npcBuildsScopedByCaste": true,
+  "existingPlayableSpeciesAndNpcConceptsPreserved": true,
+  "distinctPortraitFiles": 1,
+  "versionPortraitsVerified": 4
+}

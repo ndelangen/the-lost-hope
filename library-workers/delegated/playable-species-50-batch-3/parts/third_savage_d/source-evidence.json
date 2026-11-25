@@ -1,0 +1,120 @@
+[
+  {
+    "name": "Mummy",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "publisher": "Wizards of the Coast",
+    "type": "Undead",
+    "url": "",
+    "pages": "Appendix 1, pp. 187–188, Table A–36. pages match printed folios.",
+    "evidence": "The class table gives 6d12 HD, DR 5/—, Rot 3/day and Despair at level 10. The 3.0 Monster Manual supplies the Rot DC, incubation and Constitution damage that the player entry omits.",
+    "additionalSources": [
+      {
+        "name": "D&D Monster Manual (2000), Mummy, p. 138",
+        "url": ""
+      },
+      {
+        "name": "Original 3.0 SRD, Mummy",
+        "url": "https://www.dragon.ee/30srd/monsters_m.html"
+      }
+    ],
+    "catalogStatus": "Same-name monster entry exists. This is the playable printing."
+  },
+  {
+    "name": "Ogre",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "publisher": "Wizards of the Coast",
+    "type": "Giant",
+    "url": "",
+    "pages": "Appendix 1, p. 189, Table A–38. pages match printed folios.",
+    "evidence": "Use Table A–38 for the six-level class and starting +3 natural armor. The introduction implies different timing and mentions a nonexistent eighth level. The build uses the original Monster Manual’s ogre greatclub damage dice and 5-ft. by 5-ft. face. Table A–38 supplies the player speed, reach, and stats.",
+    "additionalSources": [
+      {
+        "name": "Original 3.0 SRD, Ogre",
+        "url": "https://www.dragon.ee/30srd/monsters_o.html"
+      }
+    ],
+    "catalogStatus": "Same-name monster entry exists. This is the playable printing."
+  },
+  {
+    "name": "Stone Giant",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "publisher": "Wizards of the Coast",
+    "type": "Giant (Earth)",
+    "url": "",
+    "pages": "Appendix 1, p. 195, Table A–45. pages match printed folios.",
+    "evidence": "The player table grants Rock Throwing at level 4 and Rock Catching at level 6 but delays Large size to level 11. The build stays Medium and uses the first printed range and damage tier.",
+    "additionalSources": [
+      {
+        "name": "Original 3.0 SRD, weapon damage and range",
+        "url": "https://www.dragon.ee/30srd/equipment_wpns.htm"
+      }
+    ],
+    "catalogStatus": "Same-name monster entry exists. This is the playable printing."
+  },
+  {
+    "name": "Succubus",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "publisher": "Wizards of the Coast",
+    "type": "Outsider (Chaotic, Evil)",
+    "url": "",
+    "pages": "Appendix 1, pp. 195–197, Table A–46. pages match printed folios.",
+    "evidence": "Table A–46 and the class text give 2 HD, three known forms, flight and one daily use of each lesser power at level 3. The 3.0 Monster Manual supplies the standard-action and Disguise details of the named transformation. Suggestion uses sorcerer spell level 3 for its DC.",
+    "additionalSources": [
+      {
+        "name": "Original 3.0 SRD, succubus and Alternate Form",
+        "url": "https://www.dragon.ee/30srd/monsters_d.html"
+      },
+      {
+        "name": "Original 3.0 SRD, spells C",
+        "url": "https://www.dragon.ee/30srd/spellsc.htm"
+      },
+      {
+        "name": "Original 3.0 SRD, spells D",
+        "url": "https://www.dragon.ee/30srd/spellsd.htm"
+      },
+      {
+        "name": "Original 3.0 SRD, spells S",
+        "url": "https://www.dragon.ee/30srd/spellss.htm"
+      }
+    ],
+    "catalogStatus": "Same-name monster entry exists. This is the playable printing."
+  },
+  {
+    "name": "Treant",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "publisher": "Wizards of the Coast",
+    "type": "Plant",
+    "url": "",
+    "pages": "Appendix 1, pp. 197–198, Table A–47. pages match printed folios.",
+    "evidence": "Table A–47 grants Large before Animate Trees and has a level-5 feat the prose omits. Use the table. The slam prose omits the dice. The encounter uses two slams and scales the original 3.0 Monster Manual Huge 2d6 damage down to 1d8 for Large using Table 5–1 as a ruling. Use the 3.0 Wilderness Lore skill where the class text calls it Survival. The animated proxy cannot produce a chain of more trees in this encounter.",
+    "additionalSources": [
+      {
+        "name": "D&D Monster Manual (2000), Treant, p. 178",
+        "url": ""
+      },
+      {
+        "name": "Original 3.0 SRD, Treant and its full attack",
+        "url": "https://www.dragon.ee/30srd/monsters_t.html"
+      },
+      {
+        "name": "Savage Species p. 43, Table 5–1",
+        "url": ""
+      },
+      {
+        "name": "D&D Monster Manual II (2002), Trample glossary",
+        "url": ""
+      }
+    ],
+    "catalogStatus": "Same-name monster entry exists. This is the playable printing."
+  }
+]

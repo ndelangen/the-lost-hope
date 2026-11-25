@@ -1,0 +1,159 @@
+[
+  {
+    "name": "Beetle, Giant Round",
+    "kind": "beast",
+    "publication": "Dungeons and Ruins",
+    "edition": "Black Flag Roleplaying",
+    "ruleset": "black-flag",
+    "appearance": "A Large, round-bodied beetle with a domed carapace, six legs and paired antennae.",
+    "combat": {
+      "armorClass": 12,
+      "armorClassNote": "Natural armor",
+      "hitPoints": 14,
+      "challenge": "1/4",
+      "size": "Large",
+      "creatureType": "Beast",
+      "speed": {
+        "walk": 30,
+        "climb": 30
+      },
+      "senses": [
+        "Keensense 10 ft."
+      ],
+      "habitats": [
+        "Underground"
+      ],
+      "attacks": [
+        {
+          "name": "Bite",
+          "mode": "melee",
+          "hitBonus": 5,
+          "reach": 5,
+          "damage": [
+            {
+              "average": 6,
+              "dice": "1d6 + 3",
+              "type": "piercing"
+            }
+          ]
+        }
+      ]
+    },
+    "mechanics": {
+      "Trait": [
+        {
+          "name": "Knockdown Charge",
+          "effectNote": "Move at least 20 ft. straight toward a creature. The beetle can force it to make a DC 12 STR save or fall prone. If the target is prone, the beetle can Bite it once as a bonus action."
+        }
+      ],
+      "Reaction": [
+        {
+          "name": "Poison Spit",
+          "effectNote": "When the beetle takes damage, it can spit a 15-ft. line. Creatures in the line make a DC 12 DEX save. Failure deals 1d6 poison damage and leaves the creature poisoned for 1 minute. Success halves damage and prevents the condition. The creature can end the condition with a DC 12 CON save at the end of each of its turns."
+        }
+      ],
+      "Mount": [
+        {
+          "name": "Mount cost and load",
+          "effectNote": "200 gp. Carrying capacity 480 lb."
+        },
+        {
+          "name": "Climbing and burrowing",
+          "effectNote": "A rider has to pass a WIS (Animal Handling) check to stay on a climbing or burrowing mount. The DC starts at 10 and increases by 1 for every 5 ft. the mount moves that way."
+        },
+        {
+          "name": "Secure Saddle",
+          "effectNote": "Fastening this saddle takes two rounds. It grants advantage on checks and saves to stay mounted."
+        }
+      ]
+    },
+    "notes": [
+      "Black Flag fixed values are Perception 10 and Stealth 11. Ability modifiers are STR +3, DEX +1, CON +2, INT −5, WIS +0 and CHA −4. No languages.",
+      "The book calls it Round Beetle, Giant and prints CR 1/4. This profile uses the printed fraction for the existing Beetle, Giant Round entry, whose index value is 0.3.",
+      "Source: Kobold Press, Campaign Builder: Dungeons & Ruins (2025), pp. 28–29."
+    ]
+  },
+  {
+    "name": "Earthworm, Giant",
+    "kind": "beast",
+    "publication": "Dungeons and Ruins",
+    "edition": "Black Flag Roleplaying",
+    "ruleset": "black-flag",
+    "appearance": "A Large earthworm with a long, legless, segmented body.",
+    "combat": {
+      "armorClass": 12,
+      "armorClassNote": "Natural armor",
+      "hitPoints": 22,
+      "challenge": "1/2",
+      "size": "Large",
+      "creatureType": "Beast",
+      "speed": {
+        "walk": 40,
+        "burrow": 20
+      },
+      "senses": [
+        "Keensense 30 ft.",
+        "Tremorsense 60 ft."
+      ],
+      "conditionImmunities": [
+        "prone"
+      ],
+      "habitats": [
+        "Underground"
+      ],
+      "attacks": [
+        {
+          "name": "Bite",
+          "mode": "melee",
+          "hitBonus": 4,
+          "reach": 5,
+          "damage": [
+            {
+              "average": 4,
+              "dice": "1d4 + 2",
+              "type": "bludgeoning"
+            }
+          ]
+        }
+      ]
+    },
+    "mechanics": {
+      "Trait": [
+        {
+          "name": "Water Aversion",
+          "effectNote": "The worm refuses to enter bodies of water. If water fills its burrow while it is digging, it must Dash away from the water on its next turn."
+        }
+      ],
+      "Action": [
+        {
+          "name": "Thrash (Recharge 4–6)",
+          "effectNote": "Every creature within 5 ft. makes a DC 13 DEX save. Failure deals 7 (2d6) bludgeoning damage and success halves it. A creature that fails by 5 or more also falls prone."
+        }
+      ],
+      "Reaction": [
+        {
+          "name": "Reflexive Writhe",
+          "effectNote": "If the worm can see a creature attacking it, it can raise its AC to 14 against that attack."
+        }
+      ],
+      "Mount": [
+        {
+          "name": "Mount cost and load",
+          "effectNote": "500 gp. Carrying capacity 480 lb."
+        },
+        {
+          "name": "Climbing and burrowing",
+          "effectNote": "A rider has to pass a WIS (Animal Handling) check to stay on a climbing or burrowing mount. The DC starts at 10 and increases by 1 for every 5 ft. the mount moves that way."
+        },
+        {
+          "name": "Secure Saddle",
+          "effectNote": "Fastening this saddle takes two rounds. It grants advantage on checks and saves to stay mounted."
+        }
+      ]
+    },
+    "notes": [
+      "Black Flag fixed values are Perception 10 and Stealth 11. Ability modifiers are STR +2, DEX +1, CON +3, INT −5, WIS +0 and CHA −4. No languages.",
+      "Source: Kobold Press, Campaign Builder: Dungeons & Ruins (2025), pp. 28–29."
+    ]
+  }
+]

@@ -1,0 +1,422 @@
+[
+  {
+    "name": "Centaur",
+    "statBlock": {
+      "name": "Centaur",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large monstrosity, neutral good",
+      "ac": 12,
+      "hp": 45,
+      "hitDice": "6d10 + 12",
+      "speed": "50 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 9
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 13,
+      "description": "Centaurs follow long migration routes and trade with travelers they trust.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Athletics": 6,
+        "Perception": 3,
+        "Survival": 3
+      },
+      "sections": {
+        "Languages": "Elvish, Sylvan.",
+        "Traits": "Charge. After moving at least 30 ft. straight toward a target, a Pike hit against it on the same turn deals an extra 10 (3d6) piercing damage.",
+        "Actions": "Multiattack. Make one Pike attack and one Hooves attack, or two Longbow attacks.\nPike. Melee weapon attack, +6 to hit, reach 10 ft., one target. Hit 9 (1d10 + 4) piercing damage.\nHooves. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit 11 (2d6 + 4) bludgeoning damage.\nLongbow. Ranged weapon attack, +4 to hit, range 150/600 ft., one target. Hit 6 (1d8 + 2) piercing damage.",
+        "Printed source": "Monster Manual (2014), p. 38."
+      }
+    }
+  },
+  {
+    "name": "Deva",
+    "statBlock": {
+      "name": "Deva",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium celestial, lawful good",
+      "ac": 17,
+      "hp": 136,
+      "hitDice": "16d8 + 64",
+      "speed": "30 ft., fly 90 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 17
+        },
+        "Wis": {
+          "score": 20
+        },
+        "Cha": {
+          "score": 20
+        }
+      },
+      "cr": "10",
+      "xp": 5900,
+      "passivePerception": 19,
+      "description": "Devas carry divine messages between planes and often take an ordinary mortal form when dealing with mortals.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Insight": 9,
+        "Perception": 9
+      },
+      "savingThrows": {
+        "Wis": 9,
+        "Cha": 9
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Radiant. Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Condition immunities": "Charmed, Exhaustion, Frightened.",
+        "Senses": "Darkvision 120 ft., passive Perception 19.",
+        "Languages": "All, telepathy 120 ft.",
+        "Traits": "Angelic Weapons. Its weapon attacks are magical and deal an extra 4d8 radiant damage on a hit. The Mace damage already includes this.\nMagic Resistance. It has advantage on saving throws against spells and other magical effects.\nImmortal Nature. It needs no food, drink, or sleep.",
+        "Innate spellcasting": "Charisma (spell save DC 17). Only verbal components are required.\nAt will. Detect Evil and Good.\n1/day each. Commune, Raise Dead.",
+        "Actions": "Multiattack. Make two melee attacks.\nMace. Melee weapon attack, +8 to hit, reach 5 ft., one target. Hit 7 (1d6 + 4) bludgeoning damage plus 18 (4d8) radiant damage.\nHealing Touch (3/day). Touch another creature. It magically regains 20 (4d8 + 2) HP and is freed of any curse, disease, poison, blindness, or deafness.\nChange Shape. Magically take the form of a humanoid or beast of CR 10 or lower, or return to true form. Death restores the true form. The deva chooses whether its equipment merges into the new form or stays on it. It keeps its ability to speak and its other statistics, but uses the new form’s AC, movement modes, Strength, Dexterity, and special senses. It also gains the new form’s statistics and abilities it lacks, except for class features, legendary actions, and lair actions.",
+        "Printed source": "Monster Manual (2014), pp. 15–16. Official errata gives Insight +9 and updates resistance wording."
+      }
+    }
+  },
+  {
+    "name": "Doppelganger",
+    "statBlock": {
+      "name": "Doppelganger",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium monstrosity (shapechanger), neutral",
+      "ac": 14,
+      "hp": 52,
+      "hitDice": "8d8 + 16",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 11,
+      "description": "A doppelganger watches the people it intends to impersonate and reads their surface thoughts to learn details a disguise cannot supply.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Deception": 6,
+        "Insight": 3
+      },
+      "sections": {
+        "Condition immunities": "Charmed.",
+        "Senses": "Darkvision 60 ft., passive Perception 11.",
+        "Languages": "Common.",
+        "Traits": "Shapechanger. As an action, take the form of a Small or Medium humanoid it has seen, or return to true form. Only its size changes. Its equipment keeps its form. Death restores its true form.\nAmbusher. In the first round of combat, it has advantage on attack rolls against creatures it surprised.\nSurprise Attack. If it surprises a creature and hits that creature during the first round of combat, the attack deals an extra 10 (3d6) damage.",
+        "Actions": "Multiattack. Make two melee attacks.\nSlam. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit 7 (1d6 + 4) bludgeoning damage.\nRead Thoughts. Magically read the surface thoughts of one creature within 60 ft. The effect passes through barriers unless blocked by 3 ft. of wood or earth, 2 ft. of stone, 2 in. of metal, or a thin sheet of lead. Keep reading while the target stays in range and the doppelganger maintains concentration as if on a spell. While reading its mind, the doppelganger has advantage on Wisdom (Insight) and Charisma (Deception, Intimidation, and Persuasion) checks against the creature.",
+        "Printed source": "Monster Manual (2014), p. 82. Official errata limits Ambusher to the first round."
+      }
+    }
+  },
+  {
+    "name": "Harpy",
+    "statBlock": {
+      "name": "Harpy",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium monstrosity, chaotic evil",
+      "ac": 11,
+      "hp": 38,
+      "hitDice": "7d8 + 7",
+      "speed": "20 ft., fly 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 7
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 10,
+      "description": "Harpies nest in places where their victims have trouble moving safely. Their song can lure prey toward a cliff or patch of quicksand.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Languages": "Common.",
+        "Actions": "Multiattack. Make one Claws attack and one Club attack.\nClaws. Melee weapon attack, +3 to hit, reach 5 ft., one target. Hit 6 (2d4 + 1) slashing damage.\nClub. Melee weapon attack, +3 to hit, reach 5 ft., one target. Hit 3 (1d4 + 1) bludgeoning damage.\nLuring Song. Each humanoid and giant within 300 ft. that hears the magical song must make a DC 11 Wisdom saving throw. On a failure the creature is Charmed until the song ends. The harpy uses a bonus action on each subsequent turn to continue singing. It can stop at any time, and the song ends if it is Incapacitated.\nA creature Charmed this way is Incapacitated and ignores other harpies’ songs. If it is more than 5 ft. away, it must move toward the harpy by the most direct route on its turn, without avoiding opportunity attacks. It can repeat the save before entering damaging terrain, whenever damaged by a source other than the harpy, and at the end of each of its turns. A successful initial or repeat save grants immunity to this harpy’s song for 24 hours and ends any active effect.",
+        "Printed source": "Monster Manual (2014), p. 181. Official errata makes movement toward the harpy mandatory."
+      }
+    }
+  },
+  {
+    "name": "Lamia",
+    "statBlock": {
+      "name": "Lamia",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large monstrosity, chaotic evil",
+      "ac": 13,
+      "hp": 97,
+      "hitDice": "13d10 + 26",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 12,
+      "description": "A lamia hides the ruin of its lair with illusions. Jackalweres bring captives and stolen goods while it watches the roads with Scrying.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Deception": 7,
+        "Insight": 4,
+        "Stealth": 3
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft., passive Perception 12.",
+        "Languages": "Abyssal, Common.",
+        "Innate spellcasting": "Charisma (spell save DC 13). No material components required.\nAt will. Disguise Self (any humanoid form), Major Image.\n3/day each. Charm Person, Mirror Image, Scrying, Suggestion.\n1/day. Geas.",
+        "Actions": "Multiattack. Make one Claws attack and either one Dagger attack or one Intoxicating Touch attack.\nClaws. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 14 (2d10 + 3) slashing damage.\nDagger. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 5 (1d4 + 3) piercing damage.\nIntoxicating Touch. Melee spell attack, +5 to hit, reach 5 ft., one creature. A hit magically curses the target for 1 hour. The curse gives it disadvantage on Wisdom saving throws and all ability checks.",
+        "Printed source": "Monster Manual (2014), p. 201."
+      }
+    }
+  },
+  {
+    "name": "Medusa",
+    "statBlock": {
+      "name": "Medusa",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium monstrosity, lawful evil",
+      "ac": 15,
+      "hp": 127,
+      "hitDice": "17d8 + 51",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "6",
+      "xp": 2300,
+      "passivePerception": 14,
+      "description": "A medusa may hide among its former victims in a ruined estate. It keeps polished surfaces out of its lair to avoid seeing its own reflection.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Deception": 5,
+        "Insight": 4,
+        "Perception": 4,
+        "Stealth": 5
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft., passive Perception 14.",
+        "Languages": "Common.",
+        "Traits": "Petrifying Gaze. When a creature starts its turn within 30 ft. and can see the medusa’s eyes, the medusa can force a DC 14 Constitution saving throw if it can see that creature and is not Incapacitated. Failure by 5 or more immediately Petrifies the creature. A smaller failure Restrains it as it begins turning to stone. At the end of its next turn it repeats the save. Failure Petrifies it and success ends the effect. Greater Restoration or other magic can end the petrification.\nUnless surprised, a creature can avert its eyes at the start of its turn to avoid the save. It cannot see the medusa until the start of its next turn, when it can avert its eyes again. If it looks at the medusa in the meantime, it must immediately save. The medusa is subject to its own gaze if it sees its reflection on a polished surface within 30 ft. in an area of bright light.",
+        "Actions": "Multiattack. Make one Snake Hair attack and two Shortsword attacks, or two Longbow attacks.\nSnake Hair. Melee weapon attack, +5 to hit, reach 5 ft., one creature. Hit 4 (1d4 + 2) piercing damage plus 14 (4d6) poison damage.\nShortsword. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 5 (1d6 + 2) piercing damage.\nLongbow. Ranged weapon attack, +5 to hit, range 150/600 ft., one target. Hit 6 (1d8 + 2) piercing damage plus 7 (2d6) poison damage.",
+        "Printed source": "Monster Manual (2014), p. 214."
+      }
+    }
+  },
+  {
+    "name": "Minotaur",
+    "statBlock": {
+      "name": "Minotaur",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large monstrosity, chaotic evil",
+      "ac": 14,
+      "hp": 76,
+      "hitDice": "9d10 + 27",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 17,
+      "description": "A minotaur hunts through mazes, caves, and old passageways. It can retrace every route it has taken.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 7
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft., passive Perception 17.",
+        "Languages": "Abyssal.",
+        "Traits": "Charge. If the minotaur moves at least 10 ft. straight toward a target and hits it with Gore on the same turn, the target takes an extra 9 (2d8) piercing damage. A creature hit this way must succeed on a DC 14 Strength save or be pushed up to 10 ft. away and knocked Prone.\nLabyrinthine Recall. It perfectly recalls any path it has traveled.\nReckless. At the start of its turn, it can gain advantage on all melee weapon attack rolls it makes that turn. If it does, attack rolls against it have advantage until the start of its next turn.",
+        "Actions": "Greataxe. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit 17 (2d12 + 4) slashing damage.\nGore. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit 13 (2d8 + 4) piercing damage.",
+        "Printed source": "Monster Manual (2014), p. 223."
+      }
+    }
+  },
+  {
+    "name": "Rakshasa",
+    "statBlock": {
+      "name": "Rakshasa",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium fiend, lawful evil",
+      "ac": 16,
+      "hp": 110,
+      "hitDice": "13d8 + 52",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 20
+        }
+      },
+      "cr": "13",
+      "xp": 10000,
+      "passivePerception": 13,
+      "description": "A rakshasa often poses as a merchant, aristocrat, or priest. Its tigerlike face and reversed hands reveal its true form.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Deception": 10,
+        "Insight": 8
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage vulnerabilities": "Piercing damage from magical weapons wielded by good creatures.",
+        "Damage immunities": "Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Senses": "Darkvision 60 ft., passive Perception 13.",
+        "Languages": "Common, Infernal.",
+        "Traits": "Limited Magic Immunity. Spells of 6th level or lower cannot affect or detect the rakshasa unless it allows them to. It has advantage on saving throws against all other spells and magical effects.\nEvil Reborn. If it dies on the Material Plane, its essence returns to the Nine Hells. Its body reforms over months or years, and it keeps its memories. Death in the Nine Hells destroys it permanently.",
+        "Innate spellcasting": "Charisma (spell save DC 18, +10 to hit with spell attacks). No material components required.\nAt will. Detect Thoughts, Disguise Self, Mage Hand, Minor Illusion.\n3/day each. Charm Person, Detect Magic, Invisibility, Major Image, Suggestion.\n1/day each. Dominate Person, Fly, Plane Shift, True Seeing.",
+        "Actions": "Multiattack. Make two Claw attacks.\nClaw. Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit 9 (2d6 + 2) slashing damage. A creature hit is also magically cursed. Horrible visions and dreams afflict it whenever it takes a short or long rest, and it gains no benefit from completing the rest. Remove Curse or similar magic ends the curse.",
+        "Printed source": "Monster Manual (2014), p. 257. Official errata adds protection from detection to Limited Magic Immunity and updates damage immunity wording."
+      }
+    }
+  }
+]

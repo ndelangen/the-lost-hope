@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Xorannox",
+    "slug": "xorannox",
+    "id": "monster-e8091a5b46b8f1e6daad088e:6feabae67401764a4e969059",
+    "entry": "monster-e8091a5b46b8f1e6daad088e",
+    "version": "6feabae67401764a4e969059",
+    "suffix": "encounters-32/xorannox.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-32/xorannox.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-32/event-drafts/xorannox-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 32 2026-11-23/event-drafts/xorannox-event-v1.png",
+    "overrides": [],
+    "sha256": "1865a64e754edcda623ab73e05f10190b50decd4d3a93287c2ae3323dad0b79a",
+    "bytes": 2835228
+  }
+]

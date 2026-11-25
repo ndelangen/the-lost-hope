@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Dekanter Goblin",
+    "kind": "species",
+    "publication": "Races of Faerûn (2003)",
+    "edition": "3.0 edition",
+    "traits": [
+      "Medium Monstrous Humanoid. +6 Strength, +2 Dexterity, +4 Constitution, +2 Intelligence, +2 Wisdom, −2 Charisma. Land speed 20 ft. Darkvision 60 ft. and +4 natural armor.",
+      "Cold resistance 5 and fast healing 3. Recover 3 HP per round from damage the ability can heal.",
+      "Proficient with all simple weapons.",
+      "Two racial Hit Dice (2d8) grant BAB +2, base Fortitude +0, Reflex +3, Will +3, and one feat. Maximize the first racial die and roll later dice, including the first class die.",
+      "Racial skill points are five times (2 + Intelligence modifier, minimum 1). Racial class skills are Climb, Intimidate, Jump, Listen, Sense Motive, and Spot.",
+      "Primary horn deals 1d6 plus Strength and has a ×3 critical. Two secondary claws deal 1d4 plus half the Strength bonus each and take −5 to hit. A weapon full attack can add one secondary horn or one secondary claw.",
+      "Goblin, Undercommon, and Common are automatic. Bonus languages are by region. Favored class Barbarian. Level adjustment +4 gives ECL 6 before class levels.",
+      "This is the March 2003 player profile. The later 3.5 conversion of the encounter monster lists Humanoid (Goblinoid), LA +3, and an alternate attack routine."
+    ]
+  }
+]

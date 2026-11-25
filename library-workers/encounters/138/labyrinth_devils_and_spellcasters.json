@@ -1,0 +1,195 @@
+[
+  {
+    "name": "Devil, Gear",
+    "decision": "separate",
+    "pages": "Chapter 8, p. 257",
+    "notes": "Distinct Labyrinth Worldbook encounter.",
+    "statBlock": {
+      "name": "Devil, Gear",
+      "publication": "Labyrinth Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium Fiend (Devil)",
+      "ac": 15,
+      "hp": 69,
+      "speed": "30 ft.",
+      "cr": "3",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "An infernal salvage worker with a body full of gears. Gear devils strip metal for prison and factory machinery and prize magical alloys.",
+      "otherStatistics": "Natural armor. Perception 14. Stealth 11. Vulnerable to acid damage. Darkvision 60 ft. Speaks Common and Infernal.",
+      "sections": {
+        "Ability modifiers": "STR +3 · DEX +1 · CON +3 · INT +0 · WIS +2 · CHA +2",
+        "Traits": "Devil’s Sight. Magical darkness does not impair its darkvision.\nDevilish Resilience. Resists cold damage and bludgeoning, piercing, and slashing damage from nonmagical attacks. Immune to fire damage, poison damage, and the Poisoned condition.\nMagic Resistance. Has advantage on saves against spells and other magical effects.",
+        "Actions": "Multiattack. Make four Claw attacks. The devil can trade two of those attacks for one Tail Stab.\nClaw. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 7 (1d8 + 3) slashing damage.\nTail Stab. Melee weapon attack, +5 to hit, reach 15 ft., one target. Hit 12 (2d8 + 3) piercing damage. A Prone creature hit this way becomes Restrained. The restraint ends if the devil dies, makes another Tail Stab, uses Tail Whip, or moves more than 15 ft. away. Any creature, including the target, can spend an action and pass a DC 13 Strength check to free the target.",
+        "Bonus Actions": "Tail Whip. One creature the devil can see within 15 ft. falls Prone on a failed DC 13 Strength save.",
+        "Reactions": "Gear Screech. When a creature the devil can see within 15 ft. attacks it, the devil can make its gears screech. The attacker rolls with disadvantage if it can hear the screech.",
+        "Printed source": "Chapter 8, p. 257"
+      }
+    }
+  },
+  {
+    "name": "Devil, Lantern",
+    "decision": "separate",
+    "pages": "Chapter 8, p. 258",
+    "notes": "Distinct Labyrinth Worldbook encounter.",
+    "statBlock": {
+      "name": "Devil, Lantern",
+      "publication": "Labyrinth Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium Fiend (Devil)",
+      "ac": 13,
+      "hp": 31,
+      "speed": "30 ft.",
+      "cr": "1",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A failed bid for promotion leaves this devil with a green lantern fused into its chest. Lantern devils lead lesser fiends through caverns and on night raids.",
+      "otherStatistics": "Perception 12. Stealth 15. Resists Blinded. Darkvision 120 ft. Speaks Common and Infernal.",
+      "sections": {
+        "Ability modifiers": "STR +0 · DEX +3 · CON +1 · INT −1 · WIS +2 · CHA +3",
+        "Traits": "Chest Lantern. Its magic lantern stays lit while the devil lives and crumbles to dust when it dies. It sheds bright light out to a radius of 5 to 30 ft. and dim light for the same distance beyond that.\nDevil’s Sight. Magical darkness does not impair its darkvision.\nDevilish Resilience. Resists cold damage and bludgeoning, piercing, and slashing damage from nonmagical attacks. Immune to fire damage, poison damage, and the Poisoned condition.\nMagic Resistance. Has advantage on saves against spells and other magical effects.",
+        "Actions": "Multiattack. Make two Onyx Club or Lantern Bolt attacks. If two Lantern Bolts hit the same creature, it makes a DC 13 Constitution save. On a failure it is Blinded until the end of its next turn.\nOnyx Club. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 6 (1d6 + 3) bludgeoning damage and 2 (1d4) piercing damage. A creature marked by the devil loses 20 ft. of speed until the end of its next turn.\nLantern Bolt. Ranged spell attack, +5 to hit, range 60 ft., one target. Hit 5 (1d4 + 3) fire damage and 4 (1d8) radiant damage. For 1 minute after taking this damage, the target gains no benefit from being Invisible.",
+        "Bonus Actions": "Adjust Lantern. Choose a new radius for the Chest Lantern.\nStoke the Heart (Recharge 5–6). Gain 5 (2d4) temporary HP. This automatically recharges if the devil starts its turn with 17 HP or fewer.",
+        "Printed source": "Chapter 8, p. 258"
+      }
+    },
+    "tableNote": "Onyx Club imposes a speed penalty on marked targets. The printed block leaves the source of the mark undefined. Apply the penalty only when the table has established a mark."
+  },
+  {
+    "name": "Devil, Maze Imp",
+    "decision": "separate",
+    "pages": "Chapter 8, p. 259",
+    "notes": "Distinct Labyrinth Worldbook encounter.",
+    "statBlock": {
+      "name": "Devil, Maze Imp",
+      "publication": "Labyrinth Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Small Fiend (Devil)",
+      "ac": 13,
+      "hp": 41,
+      "speed": "20 ft., fly 50 ft.",
+      "cr": "2",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A winged infernal scout that tracks fugitives and finds hidden portals. Maze imps prefer to escape a fight and return with reinforcements.",
+      "otherStatistics": "Perception 14. Stealth 15. Truesight 60 ft. Darkvision 120 ft. Speaks Common and Infernal.",
+      "sections": {
+        "Ability modifiers": "STR −2 · DEX +3 · CON +1 · INT +1 · WIS +4 · CHA +2",
+        "Traits": "Devilish Resilience. Resists cold damage and bludgeoning, piercing, and slashing damage from nonmagical attacks. Immune to fire damage, poison damage, and the Poisoned condition.\nLabyrinth Tracker. At the end of a long rest, the imp can name a creature it knows or has seen as its quarry. While both are in the Labyrinth, the imp knows the direction and distance to the quarry. If the quarry leaves through a portal, the imp knows the direction and distance to that portal.\nMagic Resistance. Has advantage on saves against spells and other magical effects.",
+        "Actions": "Multiattack. Make one Claws attack and one Sting attack.\nClaws. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 7 (2d4 + 3) slashing damage.\nSting. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 5 (1d4 + 3) piercing damage. The target also makes a DC 13 Constitution save, taking 10 (3d6) poison damage on a failure or half on a success.\nInvisibility. The imp and its worn or carried gear magically turn Invisible. This ends when the imp attacks or loses concentration, as if concentrating on a spell.",
+        "Bonus Actions": "Escape to Report. Take the Dash or Disengage action.",
+        "Reactions": "Brimstone Poof (Recharge 4–6). When a creature the imp can see hits it with a melee attack, it can teleport up to 30 ft. to an empty space it can see. Creatures within 5 ft. of the space it left become Poisoned until the ends of their next turns on failed DC 13 Constitution saves.",
+        "Printed source": "Chapter 8, p. 259"
+      }
+    }
+  },
+  {
+    "name": "Devil, Risolan",
+    "decision": "separate",
+    "pages": "Chapter 8, p. 260",
+    "notes": "Distinct Labyrinth Worldbook encounter.",
+    "statBlock": {
+      "name": "Devil, Risolan",
+      "publication": "Labyrinth Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium Fiend (Devil)",
+      "ac": 16,
+      "hp": 110,
+      "speed": "30 ft.",
+      "cr": "6",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A goat-headed devil that thrives in mortal courts. Risolans broker trade and alliances for the Hells and resort to mental magic when diplomacy fails.",
+      "otherStatistics": "Studded leather. Perception 17. Stealth 14. Resists psychic damage. Darkvision 120 ft. Speaks Common, Druidic (Elder Speech), and Infernal. Telepathy 120 ft.",
+      "sections": {
+        "Ability modifiers": "STR +1 · DEX +4 · CON +4 · INT +2 · WIS +7 · CHA +8",
+        "Traits": "Devil’s Sight. Magical darkness does not impair its darkvision.\nDevilish Resilience. Resists cold damage and bludgeoning, piercing, and slashing damage from nonmagical attacks. Immune to fire damage, poison damage, and the Poisoned condition.\nInfernal Diplomacy. Before targeting the risolan with an attack or harmful spell, a creature must pass a DC 16 Charisma save. On a failure, it must pick another target or lose the attack or spell. When the risolan attacks or casts a spell that affects a creature, that creature and its allies ignore this trait for the next 24 hours.\nMagic Resistance. Has advantage on saves against spells and other magical effects.\nSilver Tongue. Has advantage on Charisma (Persuasion) and Wisdom (Insight) checks.",
+        "Actions": "Multiattack. Make two Scepter or Psychic Bolt attacks. The risolan can replace one attack with Spellcasting.\nScepter. Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit 8 (1d8 + 4) bludgeoning damage and 13 (3d8) psychic damage.\nPsychic Bolt. Ranged spell attack, +8 to hit, range 120 ft., one target. Hit 22 (4d8 + 4) psychic damage.\nMind Snare (Recharge 5–6). Every creature within 30 ft. makes a DC 16 Intelligence save. A failure deals 27 (6d8) psychic damage and inflicts an infernal wound until the start of the risolan’s next turn. A success halves the damage and avoids the wound. A creature with the wound subtracts a separate 1d6 from each attack roll, ability check, and save.\nSpellcasting. Charisma, spell save DC 16. Three times per day each: detect thoughts, hold, suggestion. Once per day each: confusion, greater invisibility.",
+        "Bonus Actions": "Change Shape. Magically take the shape of a Medium or smaller Humanoid or return to its true Fiend form. Its statistics stay the same apart from size. Its worn and carried gear changes with it. It reverts on death.",
+        "Printed source": "Chapter 8, p. 260"
+      }
+    }
+  },
+  {
+    "name": "Dragonborn",
+    "decision": "separate",
+    "pages": "Chapter 8, p. 262",
+    "notes": "Labyrinth Worldbook encounter stat block.",
+    "statBlock": {
+      "name": "Dragonborn",
+      "publication": "Labyrinth Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium Humanoid",
+      "ac": 13,
+      "hp": 23,
+      "speed": "30 ft.",
+      "cr": "1/2",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A halberd-bearing dragonborn who channels the element of a dragon ancestor. Dragonborn may guard their communities or act as emissaries for true dragons.",
+      "otherStatistics": "Chain shirt. Perception 11. Stealth 10. Darkvision 60 ft. Speaks Common and Draconic.",
+      "sections": {
+        "Ability modifiers": "STR +3 · DEX +0 · CON +1 · INT +0 · WIS +1 · CHA +2",
+        "Traits": "Draconic Ancestry. Choose an ancestor and use its damage type for both resistance and Breath Weapon. Black or copper gives acid, silver or white gives cold, brass, gold, or red gives fire, blue or bronze gives lightning, green gives poison, void gives necrotic, and yellow gives radiant.",
+        "Actions": "Halberd. Melee weapon attack, +5 to hit, reach 10 ft., one target. Hit 8 (1d10 + 3) slashing damage.\nBreath Weapon (Recharge 5–6). Choose a 15-ft. cone or a 30-ft. line 5 ft. wide. Each creature in the area makes a DC 13 Dexterity save, taking 7 (2d6) damage of the ancestry type on a failure or half on a success.",
+        "Bonus Actions": "Tail Lash. A visible creature within 5 ft. falls Prone on a failed DC 13 Strength save.",
+        "Printed source": "Chapter 8, p. 262"
+      }
+    }
+  },
+  {
+    "name": "Dragonborn, Radiant Dragonborn Lightcaller",
+    "decision": "separate",
+    "pages": "Chapter 8, pp. 262–263",
+    "notes": "Labyrinth Worldbook encounter stat block.",
+    "statBlock": {
+      "name": "Dragonborn, Radiant Dragonborn Lightcaller",
+      "publication": "Labyrinth Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium Humanoid",
+      "ac": 15,
+      "hp": 85,
+      "speed": "30 ft.",
+      "cr": "4",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A scepter-bearing servant of Solanna with a yellow dragon ancestor. Its body can shine with sunlight.",
+      "otherStatistics": "Studded leather. Perception 16. Stealth 13. Darkvision 60 ft. Speaks Common and Draconic.",
+      "sections": {
+        "Ability modifiers": "STR −1 · DEX +3 · CON +0 · INT +0 · WIS +4 · CHA +2",
+        "Traits": "Draconic Ancestry. Its yellow dragon ancestor gives it resistance to radiant damage.\nRadiant Weapons. Its weapon hits deal an extra 3d6 radiant damage, already included in Scepter.\nSolanna’s Radiance. While conscious, it sheds bright sunlight within 15 ft. and dim light another 15 ft. At the start of its turn it chooses whether to emit or suppress that light.",
+        "Actions": "Multiattack. Make two Scepter attacks or three Radiant Bolt attacks. One attack can be replaced with Spellcasting.\nScepter. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 7 (1d8 + 3) bludgeoning damage and 10 (3d6) radiant damage.\nRadiant Bolt. Ranged spell attack, +6 to hit, range 60 ft., one target. Hit 11 (2d6 + 4) radiant damage.\nBreath Weapon (Recharge 5–6). Each creature in a 30-ft. line 5 ft. wide makes a DC 14 Dexterity save, taking 21 (6d6) radiant damage on a failure or half on a success.\nSpellcasting. Wisdom, spell save DC 14. At will: continual flame, guidance, spare the dying. Twice per day each: color spray, cure wounds, heroism. Once per day each: blindness/deafness, daylight.",
+        "Bonus Actions": "Tail Lash. A visible creature within 5 ft. falls Prone on a failed DC 14 Strength save.",
+        "Reactions": "Solanna’s Flare. When a visible creature within 30 ft. attacks the lightcaller, the lightcaller can impose disadvantage on the attack roll with a flash. The lightcaller must be shedding light itself or within 10 ft. of a light source.",
+        "Printed source": "Chapter 8, pp. 262–263"
+      }
+    }
+  },
+  {
+    "name": "Hag, Astral",
+    "decision": "separate",
+    "pages": "Chapter 8, pp. 270–271",
+    "notes": "Distinct Labyrinth Worldbook encounter.",
+    "statBlock": {
+      "name": "Hag, Astral",
+      "publication": "Labyrinth Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium Fey",
+      "ac": 16,
+      "hp": 136,
+      "speed": "30 ft., fly 30 ft. (hover)",
+      "cr": "7",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "This hag snares astral travelers with threads and silver needles, then feeds on the terror she creates in her captives.",
+      "otherStatistics": "Natural armor. Perception 15. Stealth 18. Resists psychic damage and Frightened. Darkvision 60 ft. Speaks Common and Primordial.",
+      "sections": {
+        "Ability modifiers": "STR +3 · DEX +8 · CON +3 · INT +3 · WIS +2 · CHA +8",
+        "Traits": "Fey Resilience. Resists Charmed and Unconscious.\nMagic Resistance. Has advantage on saves against spells and other magical effects.",
+        "Actions": "Multiattack. Make two Claw attacks or three Soul Needle attacks. One attack can be replaced with Spellcasting. A creature hit by two attacks becomes Frightened until the end of its next turn.\nClaw. Melee weapon attack, +8 to hit, reach 5 ft., one target. Hit 14 (2d8 + 5) slashing damage and 10 (3d6) psychic damage.\nSoul Needle. Ranged weapon attack, +8 to hit, range 60 ft., one target. Hit 7 (1d4 + 5) piercing damage and 10 (3d6) psychic damage.\nAstral Binding (Recharge 5–6). Each creature in a 30-ft. cone makes a DC 16 Dexterity save. A failure deals 20 (8d4) piercing damage and 14 (4d6) psychic damage and Restrains the creature for 1 minute. A success halves the damage and avoids the restraint. A Restrained creature can end the effect early by passing a DC 16 Charisma save at the end of its turn.\nSpellcasting. Charisma, spell save DC 16. No material components. At will: message, minor illusion, prestidigitation. Three times per day each: charm, hallucinatory terrain (as an action), mirror image. Once per day each: hypnotic pattern, major image.",
+        "Bonus Actions": "Soul Stitch. Choose one visible creature within 15 ft. On a failed DC 16 Wisdom save, its soul is bound to the hag for 1 minute. It has disadvantage on saves against the hag’s spells and other features and cannot teleport, enter portals, or otherwise travel magically. It can repeat the save at the end of each turn, ending the bond on a success.",
+        "Printed source": "Chapter 8, pp. 270–271"
+      }
+    }
+  }
+]

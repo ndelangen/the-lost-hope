@@ -1,0 +1,25 @@
+{
+  "baseline": "a04502210ee1ba375042f70a1091fddb46b08ba5",
+  "temporaryCopy": true,
+  "priorStagedPatchesCompatibilityVerified": true,
+  "playableSpecies": 1,
+  "edition": "3.5 edition",
+  "names": [
+    "Chitine"
+  ],
+  "selectableProfiles": 1,
+  "publication": "Underdark (2003)",
+  "climbRacialHitDiceAndMultiweaponRulesVerified": true,
+  "existingMonsterVersionsPreserved": true,
+  "defaultVersionBefore": null,
+  "defaultVersionAfter": "Underdark (2003)",
+  "listThumbnailChanged": true,
+  "sourceTraitsDisplayed": 1,
+  "searchableByTraitAndNpcRole": 1,
+  "originalRunnableNpcBuilds": 2,
+  "fullBuildsReturnedByEncounterAndNpcsCommands": true,
+  "npcBuildsScopedByPublication": true,
+  "existingPlayableSpeciesAndNpcConceptsPreserved": true,
+  "distinctPortraitFiles": 1,
+  "versionPortraitsVerified": 1
+}

@@ -1,0 +1,174 @@
+[
+  {
+    "name": "Dromite",
+    "kind": "species",
+    "publication": "Expanded Psionics Handbook (2004) · Fire Caste",
+    "edition": "3.5 edition",
+    "book": "Expanded Psionics Handbook",
+    "author": "Bruce R. Cordell",
+    "publisher": "Wizards of the Coast",
+    "firstPrinting": "April 2004",
+    "productCode": "620-96666-001-EN",
+    "isbn": "0-7869-3301-3",
+    "printedPages": {
+      "castes": 6,
+      "settingAndArt": 7,
+      "playableTraits": 8,
+      "psiLikeRules": [
+        65,
+        183,
+        184
+      ],
+      "energyRay": 103,
+      "warrior": [
+        194,
+        195
+      ]
+    },
+    "printedArtCredit": "Wayne Reynolds, pp. 7 and 195",
+    "primaryBookScan": "",
+    "primaryBookSha256": "de565bb7b273801a1a4595a157657a96ca52e2f4162d1e7101e609cbdd4b0943",
+    "errata2006": "",
+    "warriorSrdCrossCheck": "https://www.d20srd.org/srd/psionic/monsters/dromite.htm",
+    "caste": "Fire",
+    "energy": "fire",
+    "resistance": 5,
+    "ray": "Add +1 damage per die. At manifester level 1, the ray deals 1d6+1 fire damage.",
+    "entryId": "species-314fae50da161c58dbbbe093",
+    "versionKey": "4327658dcb9aafb14860f0d7",
+    "slug": "dromite",
+    "portraitSelection": "generated",
+    "portraitForm": "Representative Ice Caste",
+    "npcExamples": [
+      "Jori Hearththread"
+    ]
+  },
+  {
+    "name": "Dromite",
+    "kind": "species",
+    "publication": "Expanded Psionics Handbook (2004) · Glimmer Caste",
+    "edition": "3.5 edition",
+    "book": "Expanded Psionics Handbook",
+    "author": "Bruce R. Cordell",
+    "publisher": "Wizards of the Coast",
+    "firstPrinting": "April 2004",
+    "productCode": "620-96666-001-EN",
+    "isbn": "0-7869-3301-3",
+    "printedPages": {
+      "castes": 6,
+      "settingAndArt": 7,
+      "playableTraits": 8,
+      "psiLikeRules": [
+        65,
+        183,
+        184
+      ],
+      "energyRay": 103,
+      "warrior": [
+        194,
+        195
+      ]
+    },
+    "printedArtCredit": "Wayne Reynolds, pp. 7 and 195",
+    "primaryBookScan": "",
+    "primaryBookSha256": "de565bb7b273801a1a4595a157657a96ca52e2f4162d1e7101e609cbdd4b0943",
+    "errata2006": "",
+    "warriorSrdCrossCheck": "https://www.d20srd.org/srd/psionic/monsters/dromite.htm",
+    "caste": "Glimmer",
+    "energy": "electricity",
+    "resistance": 5,
+    "ray": "Add +3 to the attack roll against a target wearing metal armor and +2 to the manifester-level check against power resistance. At manifester level 1, the ray deals 1d6 electricity damage.",
+    "entryId": "species-314fae50da161c58dbbbe093",
+    "versionKey": "5e7d583cc0daf3c2ae898dd1",
+    "slug": "dromite",
+    "portraitSelection": "generated",
+    "portraitForm": "Representative Ice Caste",
+    "npcExamples": []
+  },
+  {
+    "name": "Dromite",
+    "kind": "species",
+    "publication": "Expanded Psionics Handbook (2004) · Ice Caste",
+    "edition": "3.5 edition",
+    "book": "Expanded Psionics Handbook",
+    "author": "Bruce R. Cordell",
+    "publisher": "Wizards of the Coast",
+    "firstPrinting": "April 2004",
+    "productCode": "620-96666-001-EN",
+    "isbn": "0-7869-3301-3",
+    "printedPages": {
+      "castes": 6,
+      "settingAndArt": 7,
+      "playableTraits": 8,
+      "psiLikeRules": [
+        65,
+        183,
+        184
+      ],
+      "energyRay": 103,
+      "warrior": [
+        194,
+        195
+      ]
+    },
+    "printedArtCredit": "Wayne Reynolds, pp. 7 and 195",
+    "primaryBookScan": "",
+    "primaryBookSha256": "de565bb7b273801a1a4595a157657a96ca52e2f4162d1e7101e609cbdd4b0943",
+    "errata2006": "",
+    "warriorSrdCrossCheck": "https://www.d20srd.org/srd/psionic/monsters/dromite.htm",
+    "caste": "Ice",
+    "energy": "cold",
+    "resistance": 5,
+    "ray": "Add +1 damage per die. At manifester level 1, the ray deals 1d6+1 cold damage.",
+    "entryId": "species-314fae50da161c58dbbbe093",
+    "versionKey": "c2238e70d9369a8729790a56",
+    "slug": "dromite",
+    "portraitSelection": "generated",
+    "portraitForm": "Representative Ice Caste",
+    "npcExamples": [
+      "Sura Reedcord"
+    ]
+  },
+  {
+    "name": "Dromite",
+    "kind": "species",
+    "publication": "Expanded Psionics Handbook (2004) · Voice Caste",
+    "edition": "3.5 edition",
+    "book": "Expanded Psionics Handbook",
+    "author": "Bruce R. Cordell",
+    "publisher": "Wizards of the Coast",
+    "firstPrinting": "April 2004",
+    "productCode": "620-96666-001-EN",
+    "isbn": "0-7869-3301-3",
+    "printedPages": {
+      "castes": 6,
+      "settingAndArt": 7,
+      "playableTraits": 8,
+      "psiLikeRules": [
+        65,
+        183,
+        184
+      ],
+      "energyRay": 103,
+      "warrior": [
+        194,
+        195
+      ]
+    },
+    "printedArtCredit": "Wayne Reynolds, pp. 7 and 195",
+    "primaryBookScan": "",
+    "primaryBookSha256": "de565bb7b273801a1a4595a157657a96ca52e2f4162d1e7101e609cbdd4b0943",
+    "errata2006": "",
+    "warriorSrdCrossCheck": "https://www.d20srd.org/srd/psionic/monsters/dromite.htm",
+    "caste": "Voice",
+    "energy": "sonic",
+    "resistance": 5,
+    "ray": "Subtract 1 damage per die. The ray ignores object hardness. At manifester level 1, the ray deals 1d6−1 sonic damage.",
+    "entryId": "species-314fae50da161c58dbbbe093",
+    "versionKey": "faeb3ff3e6ea56703e35792d",
+    "slug": "dromite",
+    "portraitSelection": "generated",
+    "portraitForm": "Representative Ice Caste",
+    "npcExamples": []
+  }
+]

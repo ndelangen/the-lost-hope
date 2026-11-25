@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Bat",
+    "file": "",
+    "selection": "generated",
+    "sha256": "bb1844718125609b36b97f1894b138c38ce00341e5652fa5deb8a454fd4b5e0f",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "name": "Giant Bat",
+    "file": "",
+    "selection": "generated",
+    "sha256": "a4bd50033f34294caacf1f44aa6f88d83953d3dad21eb2d0f3e32fed3ccf551b",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "name": "Mobat",
+    "file": "",
+    "selection": "generated",
+    "sha256": "fe68683f6c4709dc060510132fbe4977f411c70d42403ddc2ccca202270f2ff1",
+    "width": 1254,
+    "height": 1254
+  }
+]

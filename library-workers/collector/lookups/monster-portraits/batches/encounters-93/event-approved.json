@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Rilkan",
+    "slug": "rilkan",
+    "caption": "Kesra Tarn · Original Rilkan NPC",
+    "id": "species-73e1d2a4cc9f59b0ca201e34:a136d6c1b213a238d16b5938",
+    "entry": "species-73e1d2a4cc9f59b0ca201e34",
+    "version": "a136d6c1b213a238d16b5938",
+    "suffix": "encounters-93/rilkan.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-93/rilkan.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-93/event-drafts/rilkan-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 93 2026-11-24/event-drafts/rilkan-event-v1.png",
+    "overrides": [],
+    "sha256": "ef32e921f219679f1220b829308fe02aaca08895c041013c43a865cd3ad41858",
+    "bytes": 1828198
+  }
+]

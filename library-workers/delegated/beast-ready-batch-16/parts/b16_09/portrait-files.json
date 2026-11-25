@@ -1,0 +1,29 @@
+[
+  {
+    "artGroup": "birdsquirrel",
+    "file": "portraits/birdsquirrel.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "15d056f509371ea34333f5402ef01d423934993b2cdcaf40d06a1b93c83a0d18",
+    "credit": "OpenAI ImageGen",
+    "prompt": "One original realistic Tiny Birdsquirrel, a bird-squirrel hybrid. A small alert bird head with clear dark bird eyes, short pointed beak and slight crown tuft. Its compact brown body has two tawny feathered avian wings partly open, a pair of bird feet gripping the implied surface, and one large unmistakable fluffy squirrel tail curling upward behind its body. Exactly two wings and two feet, compact whole creature with natural muted warm gray, ochre and dark brown. Big Linda is the style, lighting, and paper reference only. Match the realistic natural-history fantasy folio rendering and the same plain matte muted tan parchment with fine subtle uniform grain edge to edge. Neutral even light and only a very soft contact shadow. Square, one fully visible animal in 3/4 side view, center the silhouette, keep it entirely within central 68 percent of both dimensions so the centered circular crop preserves all extremities. Keep ample blank paper above, below, left and right. Original anatomical study, no text, logos, scenery, rocks, plants, water, lettering, vignette, border, sparkles, entourage, or extra props.\n\nCorrect the anatomy of this square birdsquirrel portrait. Fold both avian wings naturally against the body, as on a standing sparrow in profile, with just a single visible folded right wing. Remove the detached-looking elevated third cluster of long flight feathers projecting behind the shoulder, and remove the fan hanging below the head so only the one natural folded foreground wing is visible; anatomically the second folded wing is on the far side and fully occluded. Preserve the alert bird head and beak, pair of bird feet, curled fluffy squirrel tail and original centered position, same realistic painted detail and exact plain flat matte tan parchment. Keep size, lighting and generous circle-crop margins unchanged. No embellishment."
+  },
+  {
+    "artGroup": "boontu-monkey",
+    "file": "portraits/boontu-monkey.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "ecf4f857363ddc93c741f02ce3dc80868fc0c3d1029e5b1c464b9a3ebed68823",
+    "credit": "OpenAI ImageGen",
+    "prompt": "One original realistic Tiny Boontu Monkey, a small wary arboreal monkey of the Dankwood. A believable squirrel-monkey-sized primate with soft subdued chestnut-brown fur, cream cheek and eye markings, dark primate muzzle, humane attentive eyes, four fine gripping hands and feet and one long furred tail curled inward. Seated low in a natural alert posture, body in profile and face turned slightly toward viewer. No nuts or other objects. Big Linda is the style, lighting, and paper reference only. Match the realistic natural-history fantasy folio rendering and the same plain matte muted tan parchment with fine subtle uniform grain edge to edge. Neutral even light and only a very soft contact shadow. Square, one fully visible animal in 3/4 side view, center the silhouette, keep it entirely within central 68 percent of both dimensions so the centered circular crop preserves all extremities. Keep ample blank paper above, below, left and right. Original anatomical study, no text, logos, scenery, rocks, plants, water, lettering, vignette, border, sparkles, entourage, or extra props."
+  },
+  {
+    "artGroup": "two-headed-plesiosaurus",
+    "file": "portraits/two-headed-plesiosaurus.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "78a611a91b6f63bfb1e6376e9128f3a00325841ec4193560b3c4aaf5c72fa5d7",
+    "credit": "OpenAI ImageGen",
+    "prompt": "One original realistic Two-Headed Plesiosaurus, a marine reptile with one wide compact streamlined plesiosaur trunk, exactly four broad tapering swimming flippers, one short tapered tail, and exactly two clearly separate long flexible necks emerging from the shoulders, each ending in a low narrow carnivorous reptile head with small dark eyes. Pose two necks like distinct gentle S curves with separate silhouette, compact paleo-anatomy, subdued gray-blue and olive scaled skin with pale throat. Pose in a natural specimen view with four flippers readable and jaws relaxed. No sail, horns, extra heads, claws, limbs, surface or underwater effects. Big Linda is the style, lighting, and paper reference only. Match the realistic natural-history fantasy folio rendering and the same plain matte muted tan parchment with fine subtle uniform grain edge to edge. Neutral even light and only a very soft contact shadow. Square, one fully visible animal in 3/4 side view, center the silhouette, keep it entirely within central 68 percent of both dimensions so the centered circular crop preserves all extremities. Keep ample blank paper above, below, left and right. Original anatomical study, no text, logos, scenery, rocks, plants, water, lettering, vignette, border, sparkles, entourage, or extra props."
+  }
+]

@@ -1,0 +1,278 @@
+{
+  "builds": [
+    {
+      "id": "mr-lark-halewake",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "size": "Medium",
+      "type": "Celestial",
+      "difficulty": "Tier 1 class-built NPC. No assigned CR.",
+      "title": "Lark Halewake, Empyrean Thief Rogue 3",
+      "ac": 14,
+      "hp": 21,
+      "hitDice": "3d8+3",
+      "initiative": 3,
+      "speed": "30 ft. walk, 30 ft. swim, 30 ft. fly in light armor",
+      "abilityScores": {
+        "STR": 10,
+        "DEX": 16,
+        "CON": 13,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 15
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Athletics +2",
+        "Insight +3",
+        "Perception +3",
+        "Persuasion +4",
+        "Stealth +7",
+        "Thieves’ tools +7 when using Dexterity"
+      ],
+      "senses": "Passive Perception 13",
+      "languages": "Common and Celestial.",
+      "traits": [
+        "Proficiency +2. Dexterity save +5 and Intelligence save +1. Sailor background. Leather armor gives 11 + Dexterity modifier AC. Carries a rapier, thieves’ tools, and a flask with a few drops of holy water.",
+        "Thief. Cunning Action lets Lark Dash, Disengage, or Hide as a bonus action. Fast Hands also lets him make a Dexterity (Sleight of Hand) check, use thieves’ tools to pick a lock or disarm a trap, or take Use an Object as that bonus action.",
+        "Second-Story Work. Climbing costs no additional movement. A running jump covers 3 additional feet.",
+        "Manifest Emotions. Lark’s irritation may make the sound of distant thunder. This has no assigned combat mechanic."
+      ],
+      "actions": [
+        "Rapier. Melee +5 to hit, reach 5 ft., 1d8 + 3 piercing. Once per turn add 2d6 piercing on a hit with advantage, or if an active ally is within 5 ft. of the target and Lark has no disadvantage.",
+        "Bolster. Once per day cast bless as an action using a few drops of holy water. Choose up to three creatures within 30 ft. They add 1d4 to attacks and saves for up to 1 minute with concentration."
+      ],
+      "tactics": "Offers allies Bolster if there is time. Goes airborne over broken ground to get to someone pinned down. Closes for a rapier thrust when an ally is already engaged, then Disengages if exposed."
+    },
+    {
+      "id": "mr-reed-and-cairn",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "size": "Medium",
+      "type": "Giant",
+      "difficulty": "Tier 1 class-built NPC. No assigned CR.",
+      "title": "Reed-and-Cairn, Ettin Barbarian 1",
+      "ac": 13,
+      "hp": 14,
+      "hitDice": "1d12+2",
+      "initiative": 1,
+      "speed": "30 ft. walk",
+      "abilityScores": {
+        "STR": 17,
+        "DEX": 13,
+        "CON": 15,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Athletics +5",
+        "Intimidation +2",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "senses": "Passive Perception 13, or 18 with both heads awake.",
+      "languages": "Giant and Orc.",
+      "traits": [
+        "Proficiency +2. Strength save +5 and Constitution save +4. Soldier background. Unarmored Defense is 10 + Dexterity 1 + Constitution 2. Wears a leather work vest without armor value.",
+        "Both heads awake. Advantage on perception, and on saves against blinded, charmed, deafened, frightened, stunned, and unconsciousness. One head remains awake while the other sleeps. Powerful Build affects carrying and lifting."
+      ],
+      "actions": [
+        "Greataxe. Melee +5 to hit, reach 5 ft., 1d12 + 3 slashing, or 1d12 + 5 while raging.",
+        "Rage. Bonus action twice per long rest. For up to 1 minute, gain advantage on Strength checks and saves, +2 damage to Strength-based melee weapon attacks, and resistance to bludgeoning, piercing, and slashing. It ends if knocked unconscious, if a turn ends without attacking a hostile creature since the last turn or taking damage in that time, or if ended as a bonus action."
+      ],
+      "tactics": "Reed asks for an explanation while Cairn takes the lead. If cornered, Rages then stands between any pursuer and the fleeing workers."
+    },
+    {
+      "id": "mr-fig-whistletip",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "size": "Tiny",
+      "type": "Dragon",
+      "difficulty": "Tier 1 class-built NPC. No assigned CR.",
+      "title": "Fig Whistletip, Faerie Dragon Rogue 1",
+      "ac": 13,
+      "hp": 9,
+      "hitDice": "1d8+1",
+      "initiative": 3,
+      "speed": "15 ft. walk, 40 ft. fly (hover)",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 17,
+        "CON": 13,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 15
+      },
+      "skills": [
+        "Acrobatics +7",
+        "Insight +3",
+        "Medicine +3",
+        "Perception +3",
+        "Religion +2",
+        "Stealth +7"
+      ],
+      "senses": "Darkvision 60 ft., passive Perception 13.",
+      "languages": "Draconic and Sylvan. Common from Hermit.",
+      "traits": [
+        "Proficiency +2. Dexterity save +5 and Intelligence save +2. Expertise in Acrobatics and Stealth. AC is 10 + Dexterity 3. Hermit background. Has no hands, wears no armor, and does not use weapons, shields, or thieves’ tools.",
+        "Tiny. Fig carries a quarter of the normal load under the supplement. Uses the supplement’s form-appropriate somatic movements and the focus supplied by the trait."
+      ],
+      "actions": [
+        "Bite. Melee +5 to hit, reach 5 ft., 1d4 + 3 piercing. Once per turn add 1d6 piercing with advantage, or if an active ally is within 5 ft. of the target and Fig has no disadvantage.",
+        "Euphoria Breath. Action, one within 5 ft. Wisdom DC 11. On failure, no movement, action, or reaction for up to 1 minute. Repeat the save at the end of each affected turn. Mindless and emotionless creatures are immune. Once per short or long rest.",
+        "Trickster Magic. Spell save DC 12. Each once per day, cast dancing lights, mage hand, and minor illusion. Fig uses the dim dancing lights as signals and minor illusion for distractions."
+      ],
+      "tactics": "Hovers in cover and tries an illusory whistle first. If cornered, uses Euphoria Breath on one pursuer and leaves through an opening or takes a bite while an ally distracts it."
+    },
+    {
+      "id": "mr-venn-cinderword",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "size": "Tiny",
+      "type": "Undead",
+      "difficulty": "Tier 1 class-built NPC. No assigned CR.",
+      "title": "Venn Cinderword, Flameskull Fiend Warlock 2",
+      "ac": 15,
+      "hp": 15,
+      "hitDice": "2d8+2",
+      "initiative": 2,
+      "speed": "0 ft. walk, 40 ft. fly (hover)",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 15,
+        "CON": 13,
+        "INT": 13,
+        "WIS": 10,
+        "CHA": 15
+      },
+      "skills": [
+        "Arcana +3",
+        "Deception +4",
+        "History +3",
+        "Investigation +3"
+      ],
+      "senses": "Passive Perception 10. Sheds bright light 10 ft. and dim light 10 ft. farther.",
+      "languages": "Common. Infernal and Celestial from Sage.",
+      "traits": [
+        "Proficiency +2. Wisdom save +2 and Charisma save +4. Fiend Warlock with Sage background. When Venn personally drops a hostile creature to 0 HP, gains 4 temporary HP through Dark One’s Blessing.",
+        "Always uses Armor of Shadows to cast mage armor on itself before patrol. That gives AC 13 + Dexterity 2 for 8 hours, AC 12 without it. Wears no armor. Tiny, handless, and counted as holding a magical focus.",
+        "Cold and fire resistance. Poison damage and poisoned, paralyzed, petrified, and prone immunity. No ordinary breathing, eating, drinking, or sleeping.",
+        "Rejuvenation. Immediately stable at 0 HP. Damage can still cause death save failures. Regains 1 HP after 1 hour unconscious and stable.",
+        "Pact Magic. Two 1st-level slots, restored on a short or long rest. Warlock spell attack +4 and save DC 12. Source-specific undead healing rules apply."
+      ],
+      "actions": [
+        "Eldritch blast. Action. Ranged spell attack +4, 120 ft., 1d10 + 2 force with Agonizing Blast.",
+        "Recalled Magic. Fire bolt is a ranged spell attack +3, 120 ft., 1d10 fire. Mage hand is also available at will. Prestidigitation is a separate warlock cantrip.",
+        "Burning hands. Action, expend a pact slot. 15-ft. cone, Dexterity DC 12, 3d6 fire or half on success.",
+        "Hellish rebuke. Reaction when damaged by a visible creature within 60 ft., expend a pact slot. Dexterity DC 12, 2d10 fire or half on success.",
+        "Expeditious retreat. Bonus action, expend a pact slot. Dash on casting and as a bonus action on later turns for up to 10 minutes with concentration."
+      ],
+      "tactics": "Warns visitors away from the register. Keeps range and uses eldritch blast. Holds hellish rebuke for a clear attacker, then retreats if they press."
+    },
+    {
+      "id": "mr-ripple-under-stone",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "size": "Small",
+      "type": "Aberration",
+      "difficulty": "Tier 1 class-built NPC. No assigned CR.",
+      "title": "Ripple-under-Stone, Flumph Rogue 1",
+      "ac": 12,
+      "hp": 10,
+      "hitDice": "1d8+2",
+      "initiative": 2,
+      "speed": "5 ft. walk, 30 ft. fly (hover)",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 15,
+        "CON": 14,
+        "INT": 13,
+        "WIS": 14,
+        "CHA": 10
+      },
+      "skills": [
+        "Arcana +3",
+        "History +3",
+        "Insight +4",
+        "Investigation +3",
+        "Perception +6",
+        "Stealth +6"
+      ],
+      "senses": "Darkvision 60 ft., passive Perception 16. Perceives telepathic speech within 30 ft. and cannot be surprised by telepathic creatures.",
+      "languages": "Understands, reads, and writes Common, Undercommon, and Deep Speech. The latter two come from Sage. No spoken languages. Telepathy 30 ft. with any creature that knows a language.",
+      "traits": [
+        "Proficiency +2. Dexterity save +4 and Intelligence save +3. Expertise in Perception and Stealth. Sage background. Unarmored, with no shield or handled tools. AC is 10 + Dexterity 2.",
+        "Vulnerable to psychic damage. Immune to divination spells and attempts to read thoughts or sense emotions.",
+        "If knocked prone, roll a die. On odd, flips upside-down and becomes incapacitated. At the end of each turn, a successful Dexterity DC 10 save with the normal +4 modifier ends this incapacitation and rights Ripple."
+      ],
+      "actions": [
+        "Tendrils. Melee +4 to hit, reach 5 ft., 1d4 + 2 piercing plus 1d4 acid. Once per turn add 1d6 piercing with advantage, or if an active ally is within 5 ft. of the target and Ripple has no disadvantage.",
+        "Stench Spray. Action, 15-ft. cone, Dexterity DC 12. On a failure, the target is coated and poisoned for 1d4 rounds. Other creatures within 5 ft. of a coated target are poisoned while in range. Each coated target can repeat the save at the end of its turn to clear the coating. Once per long rest."
+      ],
+      "tactics": "Telepathically warns characters about the upper passage. Keeps to the edge of the party’s light. Covers a retreat with Stench Spray if allies can stay clear."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Lark Halewake",
+      "role": "Out-of-work harbor pilot",
+      "motive": "Find the crew who left him a chart with its safest route cut away.",
+      "hook": "He can guide the party past the shoals if somebody can tell him why a familiar lantern is burning offshore.",
+      "species": "Empyrean",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr-lark-halewake"
+    },
+    {
+      "name": "Reed-and-Cairn",
+      "role": "Quarry night watch",
+      "motive": "Keep the former quarry crew from digging through a buried channel.",
+      "hook": "The heads agree on stopping the dig. Reed wants the workers warned and Cairn thinks the foreman already knows.",
+      "species": "Ettin",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr-reed-and-cairn"
+    },
+    {
+      "name": "Fig Whistletip",
+      "role": "Tollhouse lookout",
+      "motive": "Get their lost warning bell back from a collector of oddities.",
+      "hook": "The party crosses a perfectly quiet bridge until a tiny red dragon whistles an apology in Common.",
+      "species": "Faerie Dragon",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr-fig-whistletip"
+    },
+    {
+      "name": "Venn Cinderword",
+      "role": "Custodian of an obsolete contract register",
+      "motive": "Prove an unsigned contract is still missing its only lawful witness.",
+      "hook": "Green flame flickers around a skull that insists on hearing the party’s names in alphabetical order.",
+      "species": "Flameskull",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr-venn-cinderword"
+    },
+    {
+      "name": "Ripple-under-Stone",
+      "role": "Underdark passage listener",
+      "motive": "Find the missing members of their cloister without exposing its entrance.",
+      "hook": "Every party member hears the same worried question when they reach the fork.",
+      "species": "Flumph",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr-ripple-under-stone"
+    }
+  ]
+}

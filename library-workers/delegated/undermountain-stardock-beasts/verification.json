@@ -1,0 +1,20 @@
+{
+  "baseline": "fa674129b4035142dfae5034597f35aa4035699a",
+  "temporaryCopy": true,
+  "exactBeastProfiles": 2,
+  "testedConditionalRuleProfiles": 2,
+  "existingPublicationVersionsPreserved": true,
+  "publisherGalleriesPreserved": true,
+  "searchableByNameAndSourceHabitatOrAppearance": 2,
+  "portraitCoverage": {
+    "Fire Lizard": "generated",
+    "Bookworm": "generated"
+  },
+  "versionPortraitsVerified": 2,
+  "newPortraitDrafts": 2,
+  "printedMovementRatesPreserved": true,
+  "simultaneousBreathAndClawsVerified": true,
+  "bookwormGroupAndIndividualHpVerified": true,
+  "bookwormHitDiceOmissionPreserved": true,
+  "noChallengeImported": true
+}

@@ -1,0 +1,132 @@
+[
+  {
+    "name": "Avoral",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "kind": "species",
+    "publisher": "Wizards of the Coast",
+    "type": "Outsider (Good)",
+    "url": "",
+    "pages": "Appendix 1, pp. 157–158, Table A–6 (page 158)",
+    "evidence": "The Appendix 1 player progression determines which powers and resistances are available. The original Monster Manual explains that wing strikes work on land and feet supply the aerial claw strikes. The build uses that conservative distinction and uses the 3.0 divine true seeing and spell-like ability wording.",
+    "additionalSources": [
+      {
+        "name": "Monster Manual (2000), Avoral, pp. 31–32",
+        "url": ""
+      },
+      {
+        "name": "3.0 System Reference Document, True Seeing",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:True_Seeing"
+      },
+      {
+        "name": "3.0 System Reference Document, Magic Missile",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Magic_Missile"
+      },
+      {
+        "name": "3.0 System Reference Document, Aid",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Aid"
+      },
+      {
+        "name": "3.0 System Reference Document, See Invisibility",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:See_Invisibility"
+      },
+      {
+        "name": "3.0 System Reference Document, Command",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Command"
+      }
+    ],
+    "catalogStatus": "Same name appears in a non-player entry. This playable printing is a separate claim."
+  },
+  {
+    "name": "Azer",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "kind": "species",
+    "publisher": "Wizards of the Coast",
+    "type": "Outsider (Fire, Lawful)",
+    "url": "",
+    "pages": "Appendix 1, pp. 158–159, Table A–7 (page 159)",
+    "evidence": "Table A–7 supplies the playable tiers, armor, class attack bonus, and resistance onset. The Appendix describes the heat rider but leaves its amount unstated. The 2000 Monster Manual p. 22 gives +1 fire in the original azer stat block. Using that rider is a declared build interpretation.",
+    "additionalSources": [
+      {
+        "name": "Monster Manual (2000), Azer, p. 22",
+        "url": ""
+      },
+      {
+        "name": "3.0 System Reference Document, Weapon Focus",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Weapon_Focus"
+      }
+    ],
+    "catalogStatus": "Same name appears in a non-player entry. This playable printing is a separate claim."
+  },
+  {
+    "name": "Belker",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "kind": "species",
+    "publisher": "Wizards of the Coast",
+    "type": "Elemental (Air)",
+    "url": "",
+    "pages": "Appendix 1, p. 160, Table A–9 (page 160)",
+    "evidence": "The level-3 build uses the first smoke form tier. Gaseous protective and movement rules follow the original 3.0 SRD special ability and retain the flight speed stated in Appendix 1.",
+    "additionalSources": [
+      {
+        "name": "Monster Manual (2000), Belker, p. 26",
+        "url": ""
+      },
+      {
+        "name": "3.0 System Reference Document, Gaseous Form",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Gaseous_Form"
+      }
+    ],
+    "catalogStatus": "Same name appears in a non-player entry. This playable printing is a separate claim."
+  },
+  {
+    "name": "Earth Elemental",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "kind": "species",
+    "publisher": "Wizards of the Coast",
+    "type": "Elemental (Earth)",
+    "url": "",
+    "pages": "Appendix 1, pp. 163–164, Table A–13 (page 164)",
+    "evidence": "Appendix 1 grants earth movement in the level-1 table. The sourcebook's original 2000 Monster Manual entry supplies the movement and move earth interaction. Hold size, armor, damage and class Hit Dice to the tier in Table A–13.",
+    "additionalSources": [
+      {
+        "name": "Monster Manual (2000), Earth Elemental, pp. 82–83",
+        "url": ""
+      },
+      {
+        "name": "3.0 System Reference Document, Bull Rush",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Bull_Rush"
+      },
+      {
+        "name": "3.0 System Reference Document, Power Attack",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Power_Attack"
+      }
+    ],
+    "catalogStatus": "Same name appears in a non-player entry. This playable printing is a separate claim."
+  },
+  {
+    "name": "Ettercap",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "kind": "species",
+    "publisher": "Wizards of the Coast",
+    "type": "Aberration",
+    "url": "",
+    "pages": "Appendix 1, pp. 165–166, Table A–15 (page 166)",
+    "evidence": "The printed player table and feature text both give level 3 one daily throw. The build stays at that tier. A discrepancy remains for the second daily throw at level 4 in the table versus level 5 in the prose. Original p. 88 restricts the thrown web to Medium or smaller targets, rather than using the larger size cap of a weapon net.",
+    "additionalSources": [
+      {
+        "name": "Monster Manual (2000), Ettercap, pp. 88–89",
+        "url": ""
+      },
+      {
+        "name": "3.0 System Reference Document, Net",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Net"
+      }
+    ],
+    "catalogStatus": "Same name appears in a non-player entry. This playable printing is a separate claim."
+  }
+]

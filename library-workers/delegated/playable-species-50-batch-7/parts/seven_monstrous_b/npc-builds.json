@@ -1,0 +1,228 @@
+{
+  "builds": [
+    {
+      "id": "mr-basilisk-dapplecairn",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Dapplecairn, cliff guide",
+      "difficulty": "Barbarian 2",
+      "size": "Medium",
+      "type": "Monstrosity",
+      "speed": "25 ft.",
+      "ac": 17,
+      "hp": 25,
+      "hitDice": "2d12+6",
+      "initiative": 2,
+      "senses": "Darkvision 60 ft. Passive Perception 12.",
+      "languages": "Common.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 16,
+        "INT": 8,
+        "WIS": 10,
+        "CHA": 8
+      },
+      "skills": [
+        "Animal Handling +2",
+        "Athletics +5",
+        "Perception +2",
+        "Survival +2"
+      ],
+      "traits": [
+        "Proficiency +2. Strength and Constitution saves +5. Unarmored AC 17 comes from natural armor 15 + Dexterity 2. Hit points are 12 + 3 at level 1 and 7 + 3 at level 2. Barbarian grants Animal Handling and Perception. Outlander grants Athletics, Survival, horn proficiency and Wanderer.",
+        "Danger Sense gives advantage on Dexterity saves against effects Dapplecairn can see while not blinded, deafened or incapacitated. Reckless Attack gives advantage on all Strength-based melee weapon attacks that turn if declared on the first attack, and opponents have advantage to hit Dapplecairn until the next turn.",
+        "No Hands bars weapons, shields and manipulated items. Dapplecairn wears no armor. Rage ends or precludes gaze concentration."
+      ],
+      "actions": [
+        "Bite. Melee unarmed strike +5 to hit, 5-ft. reach. Hit 1d8+3 slashing, or 1d8+5 while raging.",
+        "Rage. Bonus action, twice per long rest. Up to 1 minute, with advantage on Strength checks and saves, +2 damage with Strength-based melee attacks, and resistance to bludgeoning, piercing and slashing. It ends early if unconscious or if a turn ends after neither attacking a hostile creature nor taking damage since the last turn.",
+        "Petrifying Gaze. Action, once per short or long rest. One creature within 30 ft. and mutual sight makes a DC 13 Constitution save. An unsurprised creature can spend its reaction to avert its eyes when it first sees Dapplecairn or begins its turn. It cannot be targeted with the gaze or see Dapplecairn until its next turn. A non-flesh body or paralysis immunity blocks it.",
+        "A failure starts a separate exhaustion track at stage 1. Target repeats the save at each turn’s end. A failure moves it up a stage. A first success moves it down one stage and starts a one-stage-per-round recovery. Stop at zero. Actual exhaustion stays separate, and exhaustion immunity does not block the effect. Stages 1 through 5 use the 2014 exhaustion effects. Stage 6 petrifies instead of killing. Concentrate for up to 1 minute. Ending concentration clears unfinished effects. Greater restoration or comparable magic ends completed petrification."
+      ],
+      "tactics": "Dapplecairn warns trespassers to look down. If they keep coming, use the gaze against a threat. If that fails or melee is unavoidable, let the gaze go, rage and bite."
+    },
+    {
+      "id": "mr-behir-serrask",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Serrask, tunnel route scout",
+      "difficulty": "Ranger 2",
+      "size": "Medium",
+      "type": "Monstrosity",
+      "speed": "30 ft., climb 30 ft.",
+      "ac": 15,
+      "hp": 20,
+      "hitDice": "2d10+4",
+      "initiative": 2,
+      "senses": "Darkvision 60 ft. Passive Perception 13.",
+      "languages": "Draconic, Common, Giant.",
+      "abilityScores": {
+        "STR": 15,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Animal Handling +3",
+        "Athletics +4",
+        "Perception +3",
+        "Stealth +4",
+        "Survival +3"
+      ],
+      "traits": [
+        "Proficiency +2. Strength and Dexterity saves +4. Natural AC 13 + Dexterity 2. HP 12 at first level and 8 at second. The Defense fighting style is dormant while unarmored.",
+        "Favored Enemy is dragons, granting advantage to track or recall lore about them and Common as the language choice from dragons that speak it. Underdark is favored terrain for Natural Explorer. Outlander supplies Athletics, Survival, Giant, horn proficiency and Wanderer. Ranger supplies Animal Handling, Perception and Stealth.",
+        "Two 1st-level slots per long rest. Ranger spell DC 11. Both chosen spells are verbal so Serrask can cast them without hands. No weapon, shield or focus."
+      ],
+      "actions": [
+        "Bite. Melee unarmed strike +4 to hit, 5-ft. reach. Hit 1d8+2 slashing.",
+        "Constrict. After an Attack-action bite hits, bonus-action grapple at Athletics +4 against Athletics or Acrobatics. The target can be no larger than Large. Escape uses a contested check.",
+        "Lightning Breath. Action, once per short or long rest. In a 30-by-5-ft. line, DC 12 Dexterity save for 2d6 lightning on failure or half on success.",
+        "Hunter’s mark. Bonus action on a visible creature within 90 ft. Concentration up to 1 hour. Add 1d6 damage on each weapon attack hit and gain advantage to find the target with Perception or Survival. After it drops to 0 HP, transfer the mark as a bonus action on a later turn.",
+        "Ensnaring strike. Bonus action, concentration up to 1 minute. The next weapon attack hit forces DC 11 Strength save. Large or larger targets have advantage. On failure, restrained and 1d6 piercing at the start of each turn. The target or someone who touches it can use an action for a DC 11 Strength check to free it."
+      ],
+      "tactics": "Serrask climbs to a safer angle before lining up a breath attack. Serrask uses the bite and constrict when a single pursuer gets close, and marks a target only when there is room to follow."
+    },
+    {
+      "id": "mr-beholder-tallyglass",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Tallyglass, ledger-vault guardian",
+      "difficulty": "Monk 1",
+      "size": "Small",
+      "type": "Aberration",
+      "speed": "0 ft. walk, fly 30 ft. (hover)",
+      "ac": 14,
+      "hp": 9,
+      "hitDice": "1d8+1",
+      "initiative": 2,
+      "senses": "Darkvision 60 ft. Passive Perception 12.",
+      "languages": "Deep Speech, Undercommon, Common, Draconic.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 15,
+        "CON": 12,
+        "INT": 15,
+        "WIS": 14,
+        "CHA": 8
+      },
+      "skills": [
+        "Arcana +4",
+        "History +4",
+        "Insight +4",
+        "Religion +4"
+      ],
+      "traits": [
+        "Spectator form. Proficiency +2. Strength save +1 and Dexterity save +4. Natural AC 12 + Dexterity 2 matches monk AC 10 + Dexterity 2 + Wisdom 2. HP 8 + Constitution 1.",
+        "Sage gives Arcana, History, Common, Draconic and Researcher. Monk supplies Insight and Religion. Tallyglass knows a flute as the monk instrument proficiency, though the No Hands trait prevents playing it normally.",
+        "Cannot become prone. No Hands prevents weapons, shields or gear handling. Eye Rays can use the benefit of a magic focus. The table ruling for these two cantrips uses Intelligence and allows eyestalk motions as their somatic components."
+      ],
+      "actions": [
+        "Bite. Melee unarmed strike +4 to hit, 5-ft. reach. Hit 1d6+2 piercing. Martial Arts allows Dexterity and a second bite as a bonus action after an Attack-action bite when unarmored and shieldless.",
+        "Chill touch. Action, +4 ranged spell attack out to 120 ft. Hit 1d8 necrotic. The target cannot regain HP until the start of Tallyglass’s next turn. If it is undead, it also has disadvantage on attacks against Tallyglass until the end of Tallyglass’s next turn.",
+        "Mage hand. Action. Create and control a spectral hand within 30 ft. for up to 1 minute. It can move up to 30 ft. on a later action, carry at most 10 lb., and cannot attack or activate magic items.",
+        "Spell Reflection. Before a save against a spell or a spell attack roll against Tallyglass, waive Tallyglass’s advantage or the attack’s disadvantage. If the ordinary save succeeds or the attack misses, Tallyglass can redirect the spell to another creature visible within 30 ft., including the caster. The new target makes its own save or the caster rerolls the attack against it."
+      ],
+      "tactics": "Tallyglass hovers beyond reach and uses chill touch to stop a trespasser from healing. When expecting a targeted spell from a visible caster, Tallyglass Dodges to set up Spell Reflection where the spell’s attack or save qualifies."
+    },
+    {
+      "id": "mr-blight-hedgewrit",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Hedgewrit, path boundary keeper",
+      "difficulty": "Fighter 2",
+      "size": "Medium",
+      "type": "Plant",
+      "speed": "25 ft.",
+      "ac": 14,
+      "hp": 20,
+      "hitDice": "2d10+4",
+      "initiative": 2,
+      "senses": "Blindsight 60 ft., blind beyond it. Passive Perception 13.",
+      "languages": "Common, Sylvan.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +5",
+        "Insight +3",
+        "Medicine +3",
+        "Perception +3"
+      ],
+      "traits": [
+        "Vine Blight form. Proficiency +2. Strength save +5 and Constitution save +4. Unarmored AC 12 + Dexterity 2. HP 12 at first level and 8 at second. Fighter grants Athletics, Perception and Dueling. Hermit grants Insight in place of Religion to fit a customized background, Medicine, herbalism kit, Sylvan as a learned language and Discovery.",
+        "Blindness is built into the sense profile and Hedgewrit is immune to the blinded condition. Once motionless and concentrating for 1 minute, appears to be a cluster of vines. The character carries one quarterstaff and keeps the other hand free."
+      ],
+      "actions": [
+        "Quarterstaff. Melee weapon attack +5 to hit, 5-ft. reach. Hit 1d6+5 bludgeoning in one hand when the free hand holds no other weapon. Two hands hit for 1d8+3 without Dueling.",
+        "Constrict. Melee unarmed strike +5 to hit, 5-ft. reach. Hit 1d6+3 bludgeoning. If it hits as part of the Attack action, bonus-action grapple with Athletics +5 versus Athletics or Acrobatics. The target can be no larger than Large.",
+        "Entangling Plants. Action, once per short or long rest and concentration up to 1 minute. In a 15-ft. radius around Hedgewrit, all creatures there at onset make a DC 12 Strength save or become restrained, including Hedgewrit. The area is difficult terrain for non-Plants. Any creature can spend an action on a DC 12 Strength check to free itself or another creature it can reach.",
+        "Second Wind. Bonus action, regain 1d10+2 HP once per short or long rest.",
+        "Action Surge. Take one additional action on the current turn once per short or long rest."
+      ],
+      "tactics": "Hedgewrit starts motionless near the path marker. If visitors refuse to stop, use the staff to keep them back or restrain them with plants. Hedgewrit keeps the staff in one hand when planning a grapple."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Dapplecairn",
+      "species": "Basilisk",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr-basilisk-dapplecairn",
+      "size": "Medium",
+      "role": "Cliff guide who clears stonefall from a narrow pass.",
+      "motive": "Keep a new footpath open while protecting the basking ledges above it.",
+      "hook": "Dapplecairn watched a row of boot prints end at a freshly cut stair. The path keeper asks for witnesses before blocking it."
+    },
+    {
+      "name": "Serrask",
+      "species": "Behir",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr-behir-serrask",
+      "size": "Medium",
+      "role": "Scout who checks the anchors on an underground trade route.",
+      "motive": "Find why the freight ropes keep tearing at the same bend.",
+      "hook": "Serrask can guide the group along the ceiling while the heavy load draws whatever is below."
+    },
+    {
+      "name": "Tallyglass",
+      "species": "Beholder",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr-beholder-tallyglass",
+      "size": "Small",
+      "role": "Spectator hired to count the seals on a ledger vault.",
+      "motive": "Decide which of two contradictory assignments came from the correct keeper.",
+      "hook": "Tallyglass will open the vault if a visitor can explain why both contracts bear the same fresh wax stamp."
+    },
+    {
+      "name": "Hedgewrit",
+      "species": "Blight",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr-blight-hedgewrit",
+      "size": "Medium",
+      "role": "Vine Blight that tends a row of path markers.",
+      "motive": "Stop travelers from uprooting a marker that pins a water channel in place.",
+      "hook": "A crew already moved one marker. Hedgewrit asks for a second pair of hands before the trail floods."
+    }
+  ]
+}

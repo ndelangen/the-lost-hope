@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Azmyth",
+    "file": "",
+    "selection": "generated",
+    "sha256": "c9b7dbbb424205970bbc9fc82328ecc775ffde0116e83d275758710d35ead5cf",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "name": "Night Hunter",
+    "file": "",
+    "selection": "generated",
+    "sha256": "45543e76f8cdf9be8f8bedc5ca5ba1462fae908c2f48ac5a8353e41d6496d3a7",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "name": "Sinister",
+    "file": "",
+    "selection": "generated",
+    "sha256": "42782e059e358febce7ea95055ff0304dd7d5a40ce37354ab2900ec18988ef14",
+    "width": 1254,
+    "height": 1254
+  }
+]

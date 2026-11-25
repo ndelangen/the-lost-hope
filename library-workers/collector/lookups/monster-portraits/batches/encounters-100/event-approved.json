@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Diabolus",
+    "slug": "diabolus",
+    "caption": "Zareth Flintmere · Original Diabolus NPC",
+    "id": "species-e23787a7b61a2b1c63a49f5c:a8cd9b208091cf8ccbb5412c",
+    "entry": "species-e23787a7b61a2b1c63a49f5c",
+    "version": "a8cd9b208091cf8ccbb5412c",
+    "suffix": "encounters-100/diabolus.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-100/diabolus.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-100/event-drafts/diabolus-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 100 2026-11-24/event-drafts/diabolus-event-v1.png",
+    "overrides": [],
+    "sha256": "df876a2c3a383b756d5f0c808dd97897ff34f7ce110776a7208650af60bec09b",
+    "bytes": 2059012
+  }
+]

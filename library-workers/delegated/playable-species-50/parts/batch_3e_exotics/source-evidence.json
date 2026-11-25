@@ -1,0 +1,85 @@
+[
+  {
+    "name": "Karsite",
+    "kind": "species",
+    "publication": "Tome of Magic (2006)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "type": "Humanoid (Human)",
+    "url": "",
+    "pages": "84–86, Karsites as Characters on pp. 85–86",
+    "additionalSources": [],
+    "evidence": "The sample warrior’s DC 12 includes Ability Focus. The player trait starts at DC 10 + Charisma modifier.",
+    "catalogStatus": "Missing playable profile at batch baseline."
+  },
+  {
+    "name": "Lumi",
+    "kind": "species",
+    "publication": "Monster Manual III (2004)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "type": "Outsider (Extraplanar)",
+    "url": "",
+    "pages": "98–99, Lumi as Characters on p. 99",
+    "additionalSources": [
+      {
+        "name": "Official Monster Manual III errata, July 2006",
+        "url": ""
+      },
+      {
+        "name": "Revised SRD, disrupt undead",
+        "url": "https://www.d20srd.org/srd/spells/disruptUndead.htm"
+      }
+    ],
+    "evidence": "The official errata adds Extraplanar to the two published Lumi stat blocks. The base player traits remain on p. 99. Disrupt undead is a ranged touch attack with no save in the revised SRD, despite the printed parenthetical DC.",
+    "catalogStatus": "Missing playable profile at batch baseline."
+  },
+  {
+    "name": "Maug",
+    "kind": "species",
+    "publication": "Fiend Folio (2003)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "type": "Construct (Extraplanar)",
+    "url": "https://anyflip.com/myubd/ovic/basic/101-150",
+    "pages": "121–123, Maug Characters on p. 123",
+    "additionalSources": [
+      {
+        "name": "Official Fiend Folio revision notes",
+        "url": ""
+      },
+      {
+        "name": "Shadowdale: The Scouring of the Land (2007), p. 37, 3.5 Maug class example",
+        "url": "https://anyflip.com/moqkv/hywq/basic/"
+      }
+    ],
+    "evidence": "The printed player paragraph gives class level +5 as ECL, corresponding to two retained construct HD and LA +3. The official 3.5 booklet identifies damage reduction and construct construction costs as its Fiend Folio changes. Shadowdale p. 37 confirms the 3.5 Construct traits, class scaling, and printed DC 18.",
+    "catalogStatus": "Missing playable profile at batch baseline."
+  },
+  {
+    "name": "Nerra",
+    "kind": "species",
+    "publication": "Fiend Folio (2003) · Varoot",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "type": "Outsider (Extraplanar)",
+    "url": "https://anyflip.com/ybvc/veod/basic/101-150",
+    "pages": "127–130, Nerra Characters on pp. 128–129 and Varoot stat block on p. 130",
+    "additionalSources": [
+      {
+        "name": "Official Fiend Folio revision notes",
+        "url": ""
+      },
+      {
+        "name": "Revised SRD, disguise self",
+        "url": "https://www.d20srd.org/srd/spells/disguiseSelf.htm"
+      },
+      {
+        "name": "Revised SRD, wounding weapons",
+        "url": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm#wounding"
+      }
+    ],
+    "evidence": "The published ECL example is Varoot Rogue 1 at ECL 4, so it replaces its one outsider HD with the first class level. The print-era weapon sidebar calls shard weapons +2 wounding weapons. This build uses the revised core wounding property and names disguise self as the revised equivalent of change self.",
+    "catalogStatus": "Missing playable profile at batch baseline."
+  }
+]

@@ -1,0 +1,131 @@
+[
+  {
+    "name": "Galeb Duhr",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Elemental",
+    "url": "",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "printedPages": [
+      87
+    ],
+    "section": "Galeb Duhr Traits",
+    "rulesRevision": "Volume 1, v2",
+    "provenance": "Tyler Kamstra's player conversion for 2014 fifth edition, published through Dungeon Masters Guild and verified in the v2 text.",
+    "sourceDistinctions": [
+      "The printed trait block has no darkvision, Mold Earth, animated boulders, tremorsense or encounter-only charge damage.",
+      "For False Appearance, the one-minute setup requires concentration. Moving ends the disguise.",
+      "The Dash follow-up is an additional bonus-action option for a character already rolling. It cannot share the turn with the bonus action that starts the roll."
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat"
+  },
+  {
+    "name": "Gargoyle",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Elemental",
+    "url": "",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "printedPages": [
+      88
+    ],
+    "section": "Gargoyle Traits",
+    "rulesRevision": "Volume 1, v2",
+    "provenance": "Tyler Kamstra's player conversion for 2014 fifth edition, published through Dungeon Masters Guild and verified in the v2 text.",
+    "sourceDistinctions": [
+      "The v2 trait block grants 30-ft. walking, a choice of one ability increase, and immunity to poison damage. Its design notes instead discuss 25-ft. walking, both increases and a possible lesser poison defense.",
+      "The conversion has functional hands. The original fighter is unarmored to use natural armor and flight, and carries a longbow and arrows."
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat"
+  },
+  {
+    "name": "Gibbering Mouther",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Aberration",
+    "url": "",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "printedPages": [
+      100,
+      101
+    ],
+    "section": "Gibbering Mouther Traits",
+    "rulesRevision": "Volume 1, v2",
+    "provenance": "Tyler Kamstra's player conversion for 2014 fifth edition, published through Dungeon Masters Guild and verified in the v2 text.",
+    "sourceDistinctions": [
+      "The player trait block does not grant Aberrant Ground, darkvision or prone immunity even though its design notes discuss them.",
+      "The Gibber text uses each hearing creature rather than each other creature. The encounter includes the mouther itself if it can hear its own gibber. This is a table reading because the book omits an explicit self-targeting clause.",
+      "The character uses no spells, so form-appropriate somatic components and the prose under Playing a Gibbering Mouther do not affect this build."
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat"
+  },
+  {
+    "name": "Grell",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Aberration",
+    "url": "",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "printedPages": [
+      109
+    ],
+    "section": "Grell Traits",
+    "rulesRevision": "Volume 1, v2",
+    "provenance": "Tyler Kamstra's player conversion for 2014 fifth edition, published through Dungeon Masters Guild and verified in the v2 text.",
+    "sourceDistinctions": [
+      "The player trait list grants a beak attack. It does not grant lightning resistance or a paralyzing tentacle attack. The lightning resistance appears in the design notes.",
+      "The character wears no armor. This avoids a ruling on what armor can fit a grell."
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat"
+  },
+  {
+    "name": "Grick",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Monstrosity",
+    "url": "",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "printedPages": [
+      110
+    ],
+    "section": "Grick Traits",
+    "rulesRevision": "Volume 1, v2",
+    "provenance": "Tyler Kamstra's player conversion for 2014 fifth edition, published through Dungeon Masters Guild and verified in the v2 text.",
+    "sourceDistinctions": [
+      "The printed player traits are for Grick. Grick Alpha remains a separate encounter record.",
+      "Kamstra's Monks and Natural Weapons rule on p. 7 gives the Martial Arts bonus attack standard monk bludgeoning damage, even when the Attack action uses a stronger natural strike.",
+      "The source lists no language restriction beyond Common. Hermit adds Undercommon as its optional language. Slant does not use the background's tools."
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat"
+  }
+]

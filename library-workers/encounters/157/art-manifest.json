@@ -1,0 +1,454 @@
+{
+  "new": {
+    "Arch-hag": {
+      "path": "output/dm-library/encounter-batches/157/art/arch-hag.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "727c479044939ae212571e6666e4bd4ff1f706c8323742fe109c7489f6348308",
+      "bytes": 2722087
+    },
+    "Blob of Annihilation": {
+      "path": "output/dm-library/encounter-batches/157/art/blob-of-annihilation.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "9b8b22b0496ef0547a8c51e165b683c9609e76b889ca48937b346a9f3884f72e",
+      "bytes": 2724115
+    },
+    "Elemental Cataclysm": {
+      "path": "output/dm-library/encounter-batches/157/art/elemental-cataclysm.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "b7341db302f386f5fed399212ccf6459789d36fe51c354271da4e3e04bcbcfbd",
+      "bytes": 2970508
+    },
+    "Cyclops Oracle": {
+      "path": "output/dm-library/encounter-batches/157/art/cyclops-oracle.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "0814dc934d110e38428e6e4ed2163b763e647d549441079dc78b209a88933afe",
+      "bytes": 2819479
+    }
+  },
+  "added": [
+    {
+      "entry": "monster-4c4b6a46777fe4add043ae44",
+      "version": "ed72de079de53705f15cef79",
+      "name": "Blink Dog",
+      "file": "images/monsters/blink-dog/batch-151-portrait.png",
+      "sha256": "974e7277f3e67b973da09b24896f815ce637aadd371cc6f659059b8f35048074",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Blink Dog (2014 portrait)"
+    },
+    {
+      "entry": "monster-f7835e7e48fd6b0726ce50d5",
+      "version": "5f3ece26d016a5d7d5978c16",
+      "name": "Death Dog",
+      "file": "images/monsters/death-dog/batch-151-portrait.png",
+      "sha256": "675991e97705aa74ba237b2da7e8070dc19e9dbe6c1fe105f6b959f7021a3fb2",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Death Dog (2014 portrait)"
+    },
+    {
+      "entry": "monster-0018898de4ce2f73bee18613",
+      "version": "ea12a5c55cc592359e5eaf81",
+      "name": "Griffon",
+      "file": "images/monsters/griffon-heraldic-servant/parchment-portrait.webp",
+      "sha256": "0bf5b3d83a52e168cc54d8b3934ae9c0c9e10e60af6987d87d486d5c05556fc5",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Griffon (2014 portrait)"
+    },
+    {
+      "entry": "monster-f18e58d62dfc5aa99b1e9228",
+      "version": "eb44bea7d0d7975c29a60ffb",
+      "name": "Hippogriff",
+      "file": "images/monsters/hippogriff/batch-150-portrait.png",
+      "sha256": "533711d3e78a8037279702eef7fad9b596605f711b444e0af7fa07e95c17ad79",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Hippogriff (2014 portrait)"
+    },
+    {
+      "entry": "monster-a9d1e780687ac78d0eff2fc9",
+      "version": "e5f72b390b3c5985f5727d91",
+      "name": "Pegasus",
+      "file": "images/monsters/pegasus/batch-150-portrait.png",
+      "sha256": "c4b302cb7ae7b92bab06150973c5fa61f211f0b8e4176ecc2f40537779b1a335",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Pegasus (2014 portrait)"
+    },
+    {
+      "entry": "monster-95199d6f9614f0ee7847afae",
+      "version": "f8a0b0942c06d21284c85bbd",
+      "name": "Roc",
+      "file": "images/monsters/shared-portraits-148/roc-2c8cc18aaad6.png",
+      "sha256": "2c8cc18aaad6df7b48c4ebe29bf1709654d31e02db29c58f5826af2f609f7091",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Roc (2014 portrait)"
+    },
+    {
+      "entry": "monster-32b5b4d7ff3bcc94ea1e7810",
+      "version": "5d5f7d0bd8cd57fd0374bc2c",
+      "name": "Winter Wolf",
+      "file": "images/monsters/shared-portraits-148/winter-wolf-0414db54dd4b.png",
+      "sha256": "0414db54dd4be9ad84baad7f6dfc2ea08b2904ed3c6adda3f94c7135b6dabfd8",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Winter Wolf (2014 portrait)"
+    },
+    {
+      "entry": "monster-b8e3b28ab097898e7b326fa8",
+      "version": "d190d46872e387c20e56d3a0",
+      "name": "Ettercap",
+      "file": "images/monsters/ettercap/batch-146-portrait.png",
+      "sha256": "892cdeb82df5d61c7b14e251239c56ce5805aaead7f26835bcd62a3929002c41",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Ettercap (2014 portrait)"
+    },
+    {
+      "entry": "monster-7c3f624a0ed0f87b41d0a7a8",
+      "version": "66ec70d1ca1afa2842fccfec",
+      "name": "Ettin",
+      "file": "images/monsters/ettin/batch-148-portrait.png",
+      "sha256": "5ebf47184a8cf34d3b32c8c037edac3e1ba8508a4c882dc2a304781327466574",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Ettin (2014 portrait)"
+    },
+    {
+      "entry": "monster-79ca2057b15f4a24e5c8e620",
+      "version": "fa3414954be420bafcc8a27e",
+      "name": "Gargoyle",
+      "file": "images/monsters/gargoyle/batch-149-portrait.png",
+      "sha256": "8ea3ebe23d6a5a57acdf2c131cdc2ec0a7be4ad7d058f6dc688783d121d4b8f4",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Gargoyle (2014 portrait)"
+    },
+    {
+      "entry": "monster-04168268566958ffe46d6dcb",
+      "version": "2d6f170aebe8eda6390877a0",
+      "name": "Ogre",
+      "file": "images/monsters/ogre-goon/parchment-portrait.webp",
+      "sha256": "2345ca4f5943d1bfc5c70e7b55d27dc600bd2b4b4b207f1fd755d6bcc39c5fbf",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Ogre (2014 portrait)"
+    },
+    {
+      "entry": "monster-f7b3ebeb99e22c4780932ca4",
+      "version": "5e380cfe2eba812ba525f83b",
+      "name": "Ogre Zombie",
+      "file": "images/monsters/zombie-ogre/parchment-portrait.webp",
+      "sha256": "6bc972a3104cb80878f298feed680165451daa35e73799a021e96168736d2d36",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Ogre Zombie (2014 portrait)"
+    },
+    {
+      "entry": "monster-f94c0357ffbcfb7b3bfd1a81",
+      "version": "697f0eb73a02a5fe0ddb48e6",
+      "name": "Otyugh",
+      "file": "images/monsters/otyugh-dregsbelcher/parchment-portrait.webp",
+      "sha256": "99e2ed7533992069ac79cb207ea7de99b0c746eac8121c98a857d299eb033c21",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Otyugh (2014 portrait)"
+    },
+    {
+      "entry": "monster-0ff5c9205810788073ecfcbb",
+      "version": "6a62e71022a222116cc56731",
+      "name": "Hell Hound",
+      "file": "images/monsters/hell-hound/batch-150-portrait.png",
+      "sha256": "fdff6d0c54a4853f1d3465c67fba528d9af20b48f8e104218ae8b8fb014d30bc",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Hell Hound (2014 portrait)"
+    },
+    {
+      "entry": "monster-6dfa5ed997611337144a0c79",
+      "version": "3dfe91a2f3a11d1d20e5da19",
+      "name": "Nightmare",
+      "file": "images/monsters/dread-nightmare/parchment-portrait.webp",
+      "sha256": "9f6afd90281587f0ce4513b11b65bb0a39c74f0a07bab4de084e8556533e7a27",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Nightmare (2014 portrait)"
+    },
+    {
+      "entry": "monster-c0d4480ab84a378020c74b47",
+      "version": "666da8e53ffdd2ecfca1870f",
+      "name": "Oni",
+      "file": "images/monsters/oni-mage/parchment-portrait.webp",
+      "sha256": "5fa85e41331b5854078c1b5d6f3f4a38fc334f0424f427b5145274858a6cc387",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Oni (2014 portrait)"
+    },
+    {
+      "entry": "monster-aff7dfbe4614e06f20a74eb4",
+      "version": "6d20bae55eb3436b8cc515f7",
+      "name": "Salamander",
+      "file": "images/monsters/salamander-flamescale/parchment-portrait.webp",
+      "sha256": "17785322c8e0a44c1e5b56952e21edf46bde2d3c3c45ca6d72ccc38b1b5f9eb6",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Salamander (2014 portrait)"
+    },
+    {
+      "entry": "monster-bb8c9915573513e86e4a8e82",
+      "version": "2d52e879173753065ce39c23",
+      "name": "Vrock",
+      "file": "images/monsters/vrock-summoner/parchment-portrait.webp",
+      "sha256": "70d03c34f941da78c4eabe0745409531a3a357aa199430bf79f0314ab1dd3d10",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Vrock (2014 portrait)"
+    },
+    {
+      "entry": "monster-1ba57d46759a91cd677d6e45",
+      "version": "50382d4ba3aff3a4b2887eaf",
+      "name": "Worg",
+      "file": "images/monsters/worgs/parchment-portrait.webp",
+      "sha256": "3ffa6eabef174bffd128411550d2a629386aa98881ff50ddfab3e1725292472c",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Worg (2014 portrait)"
+    },
+    {
+      "entry": "monster-4343fc9e72bcf8478732c036",
+      "version": "3a0e2dabfee78f5990906b54",
+      "name": "Commoner",
+      "file": "images/monsters/commoner/batch-147-portrait.png",
+      "sha256": "1fcc31058a879a7ab53e9c4080cd4e09c54357416d59affc1a97ee189293ac0a",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Commoner (2014 portrait)"
+    },
+    {
+      "entry": "monster-a9d4034da07d8ef31db1cd41",
+      "version": "8e3769496c4db1aae21212aa",
+      "name": "Guard",
+      "file": "images/monsters/guard/batch-148-portrait.png",
+      "sha256": "a7d9b4042c3db312fd17c4c4b0bb496d9924e188ad4ff8a2bc7d302f76daff84",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Guard (2014 portrait)"
+    },
+    {
+      "entry": "monster-ce1d801d152db837c0fc85ec",
+      "version": "2c06b660d0863f9a0dbd7ef3",
+      "name": "Knight",
+      "file": "images/monsters/knight/batch-150-portrait.png",
+      "sha256": "b8cc94c34dc986ac7f4296060d1a036fbaa1725ae46305437eb68963d69bf9e8",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Knight (2014 portrait)"
+    },
+    {
+      "entry": "monster-d3a61c684446b22fbc324502",
+      "version": "f0befd9990be800b6b4a7129",
+      "name": "Noble",
+      "file": "images/monsters/noble/batch-148-portrait.png",
+      "sha256": "4e0432b08f7b37bea0d2ce67359a318ff001e286f03b083cd1749f3481d8d1be",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Noble (2014 portrait)"
+    },
+    {
+      "entry": "monster-3608e4bd0e693177369e17f4",
+      "version": "1ef127f74f01704b8a27bb18",
+      "name": "Scout",
+      "file": "images/monsters/shared-portraits-150/elf-scout-809b9705a742.png",
+      "sha256": "809b9705a7429e0acb9025c82bf6d724a91d97db599d4e47b4bc14142485bfa5",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Scout (2014 portrait)"
+    },
+    {
+      "entry": "monster-57d4aa377250296d19d9f55f",
+      "version": "76e3f98eceb30cc532dfe89b",
+      "name": "Spy",
+      "file": "images/monsters/vulpin-spy/parchment-portrait.webp",
+      "sha256": "ecfd15eaf4755cf04361725e28adeb275868e37a6d07cd08a77c3dc4951396cd",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Spy (2014 portrait)"
+    },
+    {
+      "entry": "monster-2880d4e0aaf4ce5299248ee4",
+      "version": "687d89b1fecd44aac79bb970",
+      "name": "Homunculus",
+      "file": "images/monsters/homunculus/batch-151-portrait.png",
+      "sha256": "f1efe366495d71ad5ac1c7584bda5e70c25c651a8b80f420f39c7d13ada040a4",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Homunculus (2014 portrait)"
+    },
+    {
+      "entry": "monster-2ac11a92104c4d7d1403c565",
+      "version": "1dcbc22f0fda50fa0b4d74c0",
+      "name": "Skeleton",
+      "file": "images/monsters/skeleton-mcdm/parchment-portrait.webp",
+      "sha256": "796b72a3c8d7b12fb3d0d6fb763f18904f0bceb0b24381e0fc4fe70ce198edb3",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Skeleton (2014 portrait)"
+    },
+    {
+      "entry": "monster-38d7e8afa46e551b9201035e",
+      "version": "969101c77fc0321b7d51add8",
+      "name": "Modron Monodrone",
+      "file": "images/monsters/shared-portraits-157/monodrone-2014-portrait-50b27a7e49c1.png",
+      "sha256": "50b27a7e49c157e132bed9e07a913e3b93785fc23fa496a7447f0d188748b9b3",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Monodrone (2014 portrait)"
+    },
+    {
+      "entry": "monster-3d1d7ddf05cf17aa1f8c0d15",
+      "version": "05fa93f3a688aeb26f99b29f",
+      "name": "Modron Duodrone",
+      "file": "images/monsters/duodrone/batch-147-portrait.png",
+      "sha256": "d1f2c07a5d5a0cf5b4eb40acc020fd1f1c96fdc93d76df4a746d323f4afdfd99",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Duodrone (2014 portrait)"
+    },
+    {
+      "entry": "monster-1428106fa8183a53ef295a62",
+      "version": "1b31a50e4012f186ecfc1989",
+      "name": "Modron Tridrone",
+      "file": "images/monsters/tridrone/batch-146-portrait.png",
+      "sha256": "28d4651d3a04637bbd28aa080104385d98e81a35c3d49125e75e6d87684ab82c",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Tridrone (2014 portrait)"
+    },
+    {
+      "entry": "monster-d4a000bc98eb4958a2e4ef67",
+      "version": "ca262622f2f4920ee37f65b6",
+      "name": "Modron Quadrone",
+      "file": "images/monsters/shared-portraits-157/quadrone-2014-portrait-e3e18cb67846.png",
+      "sha256": "e3e18cb67846ecd346df182ad2e3c1c8f141bcbebd1a22bf272846674b7839ed",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Quadrone (2014 portrait)"
+    },
+    {
+      "entry": "monster-a57e1d409caa581e744746b2",
+      "version": "da441c0e80b306872b1f2d73",
+      "name": "Modron Pentadrone",
+      "file": "images/monsters/shared-portraits-157/pentadrone-2014-portrait-7a15775d49c0.png",
+      "sha256": "7a15775d49c0a106ab099ddc32cd7e6613120d88d8498ed5d329d06ca9e7e8ee",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Pentadrone (2014 portrait)"
+    },
+    {
+      "entry": "monster-a6d9e34d33e8107afe84e1f8",
+      "version": "f7d8b76798a2f2fbf95f4e6f",
+      "name": "Faerie Dragon Adult",
+      "file": "images/monsters/shared-portraits-157/faerie-dragon-older-2014-portrait-6d5952b0446f.png",
+      "sha256": "6d5952b0446fb8103c7c1f83b68fb1c9f69ad373365625c4163c957abc6a7f1f",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Faerie Dragon (Older) (2014 portrait)"
+    },
+    {
+      "entry": "monster-6702a9334ef0fdee76c75fc2",
+      "version": "3c0344c750e4fdb0a8664ce6",
+      "name": "Faerie Dragon Youth",
+      "file": "images/monsters/shared-portraits-157/faerie-dragon-younger-2014-portrait-61d81f63ab3d.png",
+      "sha256": "61d81f63ab3d5fbbd3b6d05685a12e0d6a3969b244d7f5fdcbb5ba0d7f806c30",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Faerie Dragon (Younger) (2014 portrait)"
+    },
+    {
+      "entry": "monster-c6519ce6fc2cfb4bf3f6365a",
+      "version": "6281019055dad59a62d5b6dc",
+      "name": "Sahuagin Priest",
+      "file": "images/monsters/shared-portraits-157/sahuagin-priestess-2014-portrait-60e069b1ca99.png",
+      "sha256": "60e069b1ca9971a62b2c0f8c0e6bb728b91883e12cd1a2a9a6cf81441cfb1a79",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Sahuagin Priestess (2014 portrait)"
+    },
+    {
+      "entry": "monster-38b364acd78042e45a74326a",
+      "version": "4101b01ab2bc068240fd6fbd",
+      "name": "Lizardfolk Geomancer",
+      "file": "images/monsters/shared-portraits-157/lizardfolk-shaman-2014-portrait-cbf3ebe62274.png",
+      "sha256": "cbf3ebe62274d954dcd5c2a14db44e9b2ae9bfa8693501cf5a1de497d6524d17",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Lizardfolk Shaman (2014 portrait)"
+    },
+    {
+      "entry": "monster-6b556a412b167f61faa521b9",
+      "version": "1e8f8142ac0909e26f7335aa",
+      "name": "Lizardfolk Sovereign",
+      "file": "images/monsters/lizardfolk-ruler/parchment-portrait.webp",
+      "sha256": "d5c1dbb9ee472c07f33d126ffeb50d38ba5ead93746ca715d07cbfb490b9e87b",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Lizard King/Queen (2014 portrait)"
+    },
+    {
+      "entry": "monster-cb705b886c11d6de6b7fce63",
+      "version": "b5c398f5b38817b91b1f5f49",
+      "name": "Arch-hag",
+      "file": "images/monsters/arch-hag/batch-157-portrait.png",
+      "sha256": "727c479044939ae212571e6666e4bd4ff1f706c8323742fe109c7489f6348308",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-4a9c0bfc800bd77357fac73c",
+      "version": "2426bc2a9d5a6dcba1debc5b",
+      "name": "Blob of Annihilation",
+      "file": "images/monsters/blob-of-annihilation/batch-157-portrait.png",
+      "sha256": "9b8b22b0496ef0547a8c51e165b683c9609e76b889ca48937b346a9f3884f72e",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-6f69c8eec2aa3c190e872bb0",
+      "version": "fada927614a5f79cf2fdf2f7",
+      "name": "Elemental Cataclysm",
+      "file": "images/monsters/elemental-cataclysm/batch-157-portrait.png",
+      "sha256": "b7341db302f386f5fed399212ccf6459789d36fe51c354271da4e3e04bcbcfbd",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-bf8e0d96c74b524cf94c72ea",
+      "version": "44aafc4e2d966f29a0071790",
+      "name": "Cyclops Oracle",
+      "file": "images/monsters/cyclops-oracle/batch-157-portrait.png",
+      "sha256": "0814dc934d110e38428e6e4ed2163b763e647d549441079dc78b209a88933afe",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-120d3298edd5882439667b03",
+      "version": "78df93e23da185f7a0039bb1",
+      "name": "Cyclops Sentry",
+      "file": "images/monsters/cyclops-guard/parchment-portrait.webp",
+      "sha256": "14e250a9db2d7c4d18cff92d4365841b07f1108e881e8bea79a3f1be3a2c343b",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Cyclops (2014 portrait)"
+    }
+  ]
+}

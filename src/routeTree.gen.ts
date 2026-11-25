@@ -14,6 +14,7 @@ import { Route as IconsRouteImport } from './routes/[_]icons'
 import { Route as DisplayRouteImport } from './routes/display'
 import { Route as DmRouteRouteImport } from './routes/dm/route'
 import { Route as IntroRouteImport } from './routes/intro'
+import { Route as NovelRouteImport } from './routes/novel'
 import { Route as QuestionsRouteImport } from './routes/questions'
 import { Route as BeastsIndexRouteImport } from './routes/beasts/index'
 import { Route as CardsIndexRouteImport } from './routes/cards/index'
@@ -23,6 +24,7 @@ import { Route as EventsIndexRouteImport } from './routes/events/index'
 import { Route as ItemsIndexRouteImport } from './routes/items/index'
 import { Route as LettersBookOfGruumshRouteImport } from './routes/letters/book-of-gruumsh'
 import { Route as LettersJimRouteImport } from './routes/letters/jim'
+import { Route as LibraryIndexRouteImport } from './routes/library/index'
 import { Route as LocationsIndexRouteImport } from './routes/locations/index'
 import { Route as LocationsListRouteImport } from './routes/locations/list'
 import { Route as LocationsMapRouteImport } from './routes/locations/map'
@@ -47,6 +49,8 @@ import { Route as EffectsDetailSlugRouteImport } from './routes/effects/detail.$
 import { Route as EventsDetailSlugRouteImport } from './routes/events/detail.$slug'
 import { Route as EventsReplaySlugRouteImport } from './routes/events/replay.$slug'
 import { Route as ItemsDetailSlugRouteImport } from './routes/items/detail.$slug'
+import { Route as LibraryTypeIndexRouteImport } from './routes/library/$type.index'
+import { Route as LibraryTypeSlugRouteImport } from './routes/library/$type.$slug'
 import { Route as LocationsDetailSlugRouteImport } from './routes/locations/detail.$slug'
 import { Route as NpcsDetailSlugRouteImport } from './routes/npcs/detail.$slug'
 import { Route as OrganizationsDetailSlugRouteImport } from './routes/organizations/detail.$slug'
@@ -79,6 +83,11 @@ const DmRouteRoute = DmRouteRouteImport.update({
 const IntroRoute = IntroRouteImport.update({
   id: '/intro',
   path: '/intro',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const NovelRoute = NovelRouteImport.update({
+  id: '/novel',
+  path: '/novel',
   getParentRoute: () => rootRouteImport,
 } as any)
 const QuestionsRoute = QuestionsRouteImport.update({
@@ -124,6 +133,11 @@ const LettersBookOfGruumshRoute = LettersBookOfGruumshRouteImport.update({
 const LettersJimRoute = LettersJimRouteImport.update({
   id: '/letters/jim',
   path: '/letters/jim',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LibraryIndexRoute = LibraryIndexRouteImport.update({
+  id: '/library/',
+  path: '/library/',
   getParentRoute: () => rootRouteImport,
 } as any)
 const LocationsIndexRoute = LocationsIndexRouteImport.update({
@@ -246,6 +260,16 @@ const ItemsDetailSlugRoute = ItemsDetailSlugRouteImport.update({
   path: '/items/detail/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
+const LibraryTypeIndexRoute = LibraryTypeIndexRouteImport.update({
+  id: '/library/$type/',
+  path: '/library/$type/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LibraryTypeSlugRoute = LibraryTypeSlugRouteImport.update({
+  id: '/library/$type/$slug',
+  path: '/library/$type/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const LocationsDetailSlugRoute = LocationsDetailSlugRouteImport.update({
   id: '/locations/detail/$slug',
   path: '/locations/detail/$slug',
@@ -293,6 +317,7 @@ export interface FileRoutesByFullPath {
   '/_icons': typeof IconsRoute
   '/display': typeof DisplayRoute
   '/intro': typeof IntroRoute
+  '/novel': typeof NovelRoute
   '/questions': typeof QuestionsRoute
   '/letters/book-of-gruumsh': typeof LettersBookOfGruumshRoute
   '/letters/jim': typeof LettersJimRoute
@@ -304,6 +329,7 @@ export interface FileRoutesByFullPath {
   '/effects/': typeof EffectsIndexRoute
   '/events/': typeof EventsIndexRoute
   '/items/': typeof ItemsIndexRoute
+  '/library/': typeof LibraryIndexRoute
   '/locations/': typeof LocationsIndexRoute
   '/npcs/': typeof NpcsIndexRoute
   '/organizations/': typeof OrganizationsIndexRoute
@@ -323,6 +349,7 @@ export interface FileRoutesByFullPath {
   '/events/detail/$slug': typeof EventsDetailSlugRoute
   '/events/replay/$slug': typeof EventsReplaySlugRoute
   '/items/detail/$slug': typeof ItemsDetailSlugRoute
+  '/library/$type/$slug': typeof LibraryTypeSlugRoute
   '/locations/detail/$slug': typeof LocationsDetailSlugRoute
   '/npcs/detail/$slug': typeof NpcsDetailSlugRoute
   '/organizations/detail/$slug': typeof OrganizationsDetailSlugRoute
@@ -332,6 +359,7 @@ export interface FileRoutesByFullPath {
   '/dm/arcs/': typeof DmArcsIndexRoute
   '/dm/encounter/': typeof DmEncounterIndexRoute
   '/dm/scenes/': typeof DmScenesIndexRoute
+  '/library/$type/': typeof LibraryTypeIndexRoute
   '/pcs/detail/$slug/play': typeof PcsDetailSlugPlayRoute
   '/pcs/detail/jim/connections': typeof PcsDetailJimConnectionsRoute
 }
@@ -340,6 +368,7 @@ export interface FileRoutesByTo {
   '/_icons': typeof IconsRoute
   '/display': typeof DisplayRoute
   '/intro': typeof IntroRoute
+  '/novel': typeof NovelRoute
   '/questions': typeof QuestionsRoute
   '/letters/book-of-gruumsh': typeof LettersBookOfGruumshRoute
   '/letters/jim': typeof LettersJimRoute
@@ -351,6 +380,7 @@ export interface FileRoutesByTo {
   '/effects': typeof EffectsIndexRoute
   '/events': typeof EventsIndexRoute
   '/items': typeof ItemsIndexRoute
+  '/library': typeof LibraryIndexRoute
   '/locations': typeof LocationsIndexRoute
   '/npcs': typeof NpcsIndexRoute
   '/organizations': typeof OrganizationsIndexRoute
@@ -370,6 +400,7 @@ export interface FileRoutesByTo {
   '/events/detail/$slug': typeof EventsDetailSlugRoute
   '/events/replay/$slug': typeof EventsReplaySlugRoute
   '/items/detail/$slug': typeof ItemsDetailSlugRoute
+  '/library/$type/$slug': typeof LibraryTypeSlugRoute
   '/locations/detail/$slug': typeof LocationsDetailSlugRoute
   '/npcs/detail/$slug': typeof NpcsDetailSlugRoute
   '/organizations/detail/$slug': typeof OrganizationsDetailSlugRoute
@@ -379,6 +410,7 @@ export interface FileRoutesByTo {
   '/dm/arcs': typeof DmArcsIndexRoute
   '/dm/encounter': typeof DmEncounterIndexRoute
   '/dm/scenes': typeof DmScenesIndexRoute
+  '/library/$type': typeof LibraryTypeIndexRoute
   '/pcs/detail/$slug/play': typeof PcsDetailSlugPlayRoute
   '/pcs/detail/jim/connections': typeof PcsDetailJimConnectionsRoute
 }
@@ -389,6 +421,7 @@ export interface FileRoutesById {
   '/_icons': typeof IconsRoute
   '/display': typeof DisplayRoute
   '/intro': typeof IntroRoute
+  '/novel': typeof NovelRoute
   '/questions': typeof QuestionsRoute
   '/letters/book-of-gruumsh': typeof LettersBookOfGruumshRoute
   '/letters/jim': typeof LettersJimRoute
@@ -400,6 +433,7 @@ export interface FileRoutesById {
   '/effects/': typeof EffectsIndexRoute
   '/events/': typeof EventsIndexRoute
   '/items/': typeof ItemsIndexRoute
+  '/library/': typeof LibraryIndexRoute
   '/locations/': typeof LocationsIndexRoute
   '/npcs/': typeof NpcsIndexRoute
   '/organizations/': typeof OrganizationsIndexRoute
@@ -419,6 +453,7 @@ export interface FileRoutesById {
   '/events/detail/$slug': typeof EventsDetailSlugRoute
   '/events/replay/$slug': typeof EventsReplaySlugRoute
   '/items/detail/$slug': typeof ItemsDetailSlugRoute
+  '/library/$type/$slug': typeof LibraryTypeSlugRoute
   '/locations/detail/$slug': typeof LocationsDetailSlugRoute
   '/npcs/detail/$slug': typeof NpcsDetailSlugRoute
   '/organizations/detail/$slug': typeof OrganizationsDetailSlugRoute
@@ -428,6 +463,7 @@ export interface FileRoutesById {
   '/dm/arcs/': typeof DmArcsIndexRoute
   '/dm/encounter/': typeof DmEncounterIndexRoute
   '/dm/scenes/': typeof DmScenesIndexRoute
+  '/library/$type/': typeof LibraryTypeIndexRoute
   '/pcs/detail/$slug_/play': typeof PcsDetailSlugPlayRoute
   '/pcs/detail/jim/connections': typeof PcsDetailJimConnectionsRoute
 }
@@ -439,6 +475,7 @@ export interface FileRouteTypes {
     | '/_icons'
     | '/display'
     | '/intro'
+    | '/novel'
     | '/questions'
     | '/letters/book-of-gruumsh'
     | '/letters/jim'
@@ -450,6 +487,7 @@ export interface FileRouteTypes {
     | '/effects/'
     | '/events/'
     | '/items/'
+    | '/library/'
     | '/locations/'
     | '/npcs/'
     | '/organizations/'
@@ -469,6 +507,7 @@ export interface FileRouteTypes {
     | '/events/detail/$slug'
     | '/events/replay/$slug'
     | '/items/detail/$slug'
+    | '/library/$type/$slug'
     | '/locations/detail/$slug'
     | '/npcs/detail/$slug'
     | '/organizations/detail/$slug'
@@ -478,6 +517,7 @@ export interface FileRouteTypes {
     | '/dm/arcs/'
     | '/dm/encounter/'
     | '/dm/scenes/'
+    | '/library/$type/'
     | '/pcs/detail/$slug/play'
     | '/pcs/detail/jim/connections'
   fileRoutesByTo: FileRoutesByTo
@@ -486,6 +526,7 @@ export interface FileRouteTypes {
     | '/_icons'
     | '/display'
     | '/intro'
+    | '/novel'
     | '/questions'
     | '/letters/book-of-gruumsh'
     | '/letters/jim'
@@ -497,6 +538,7 @@ export interface FileRouteTypes {
     | '/effects'
     | '/events'
     | '/items'
+    | '/library'
     | '/locations'
     | '/npcs'
     | '/organizations'
@@ -516,6 +558,7 @@ export interface FileRouteTypes {
     | '/events/detail/$slug'
     | '/events/replay/$slug'
     | '/items/detail/$slug'
+    | '/library/$type/$slug'
     | '/locations/detail/$slug'
     | '/npcs/detail/$slug'
     | '/organizations/detail/$slug'
@@ -525,6 +568,7 @@ export interface FileRouteTypes {
     | '/dm/arcs'
     | '/dm/encounter'
     | '/dm/scenes'
+    | '/library/$type'
     | '/pcs/detail/$slug/play'
     | '/pcs/detail/jim/connections'
   id:
@@ -534,6 +578,7 @@ export interface FileRouteTypes {
     | '/_icons'
     | '/display'
     | '/intro'
+    | '/novel'
     | '/questions'
     | '/letters/book-of-gruumsh'
     | '/letters/jim'
@@ -545,6 +590,7 @@ export interface FileRouteTypes {
     | '/effects/'
     | '/events/'
     | '/items/'
+    | '/library/'
     | '/locations/'
     | '/npcs/'
     | '/organizations/'
@@ -564,6 +610,7 @@ export interface FileRouteTypes {
     | '/events/detail/$slug'
     | '/events/replay/$slug'
     | '/items/detail/$slug'
+    | '/library/$type/$slug'
     | '/locations/detail/$slug'
     | '/npcs/detail/$slug'
     | '/organizations/detail/$slug'
@@ -573,6 +620,7 @@ export interface FileRouteTypes {
     | '/dm/arcs/'
     | '/dm/encounter/'
     | '/dm/scenes/'
+    | '/library/$type/'
     | '/pcs/detail/$slug_/play'
     | '/pcs/detail/jim/connections'
   fileRoutesById: FileRoutesById
@@ -583,6 +631,7 @@ export interface RootRouteChildren {
   IconsRoute: typeof IconsRoute
   DisplayRoute: typeof DisplayRoute
   IntroRoute: typeof IntroRoute
+  NovelRoute: typeof NovelRoute
   QuestionsRoute: typeof QuestionsRoute
   LettersBookOfGruumshRoute: typeof LettersBookOfGruumshRoute
   LettersJimRoute: typeof LettersJimRoute
@@ -593,6 +642,7 @@ export interface RootRouteChildren {
   EffectsIndexRoute: typeof EffectsIndexRoute
   EventsIndexRoute: typeof EventsIndexRoute
   ItemsIndexRoute: typeof ItemsIndexRoute
+  LibraryIndexRoute: typeof LibraryIndexRoute
   LocationsIndexRoute: typeof LocationsIndexRoute
   NpcsIndexRoute: typeof NpcsIndexRoute
   OrganizationsIndexRoute: typeof OrganizationsIndexRoute
@@ -605,12 +655,14 @@ export interface RootRouteChildren {
   EventsDetailSlugRoute: typeof EventsDetailSlugRoute
   EventsReplaySlugRoute: typeof EventsReplaySlugRoute
   ItemsDetailSlugRoute: typeof ItemsDetailSlugRoute
+  LibraryTypeSlugRoute: typeof LibraryTypeSlugRoute
   LocationsDetailSlugRoute: typeof LocationsDetailSlugRoute
   NpcsDetailSlugRoute: typeof NpcsDetailSlugRoute
   OrganizationsDetailSlugRoute: typeof OrganizationsDetailSlugRoute
   PcsDetailSlugRoute: typeof PcsDetailSlugRoute
   QuestsDetailSlugRoute: typeof QuestsDetailSlugRoute
   SessionsDetailSlugRoute: typeof SessionsDetailSlugRoute
+  LibraryTypeIndexRoute: typeof LibraryTypeIndexRoute
   PcsDetailSlugPlayRoute: typeof PcsDetailSlugPlayRoute
   PcsDetailJimConnectionsRoute: typeof PcsDetailJimConnectionsRoute
 }
@@ -650,6 +702,13 @@ declare module '@tanstack/react-router' {
       path: '/intro'
       fullPath: '/intro'
       preLoaderRoute: typeof IntroRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/novel': {
+      id: '/novel'
+      path: '/novel'
+      fullPath: '/novel'
+      preLoaderRoute: typeof NovelRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/questions': {
@@ -713,6 +772,13 @@ declare module '@tanstack/react-router' {
       path: '/letters/jim'
       fullPath: '/letters/jim'
       preLoaderRoute: typeof LettersJimRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/library/': {
+      id: '/library/'
+      path: '/library'
+      fullPath: '/library/'
+      preLoaderRoute: typeof LibraryIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/locations/': {
@@ -883,6 +949,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ItemsDetailSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/library/$type/': {
+      id: '/library/$type/'
+      path: '/library/$type'
+      fullPath: '/library/$type/'
+      preLoaderRoute: typeof LibraryTypeIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/library/$type/$slug': {
+      id: '/library/$type/$slug'
+      path: '/library/$type/$slug'
+      fullPath: '/library/$type/$slug'
+      preLoaderRoute: typeof LibraryTypeSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/locations/detail/$slug': {
       id: '/locations/detail/$slug'
       path: '/locations/detail/$slug'
@@ -979,6 +1059,7 @@ const rootRouteChildren: RootRouteChildren = {
   IconsRoute: IconsRoute,
   DisplayRoute: DisplayRoute,
   IntroRoute: IntroRoute,
+  NovelRoute: NovelRoute,
   QuestionsRoute: QuestionsRoute,
   LettersBookOfGruumshRoute: LettersBookOfGruumshRoute,
   LettersJimRoute: LettersJimRoute,
@@ -989,6 +1070,7 @@ const rootRouteChildren: RootRouteChildren = {
   EffectsIndexRoute: EffectsIndexRoute,
   EventsIndexRoute: EventsIndexRoute,
   ItemsIndexRoute: ItemsIndexRoute,
+  LibraryIndexRoute: LibraryIndexRoute,
   LocationsIndexRoute: LocationsIndexRoute,
   NpcsIndexRoute: NpcsIndexRoute,
   OrganizationsIndexRoute: OrganizationsIndexRoute,
@@ -1001,12 +1083,14 @@ const rootRouteChildren: RootRouteChildren = {
   EventsDetailSlugRoute: EventsDetailSlugRoute,
   EventsReplaySlugRoute: EventsReplaySlugRoute,
   ItemsDetailSlugRoute: ItemsDetailSlugRoute,
+  LibraryTypeSlugRoute: LibraryTypeSlugRoute,
   LocationsDetailSlugRoute: LocationsDetailSlugRoute,
   NpcsDetailSlugRoute: NpcsDetailSlugRoute,
   OrganizationsDetailSlugRoute: OrganizationsDetailSlugRoute,
   PcsDetailSlugRoute: PcsDetailSlugRoute,
   QuestsDetailSlugRoute: QuestsDetailSlugRoute,
   SessionsDetailSlugRoute: SessionsDetailSlugRoute,
+  LibraryTypeIndexRoute: LibraryTypeIndexRoute,
   PcsDetailSlugPlayRoute: PcsDetailSlugPlayRoute,
   PcsDetailJimConnectionsRoute: PcsDetailJimConnectionsRoute,
 }

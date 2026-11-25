@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Spellscale",
+    "species": "species-698fc69c2a8340b0b43c0b67",
+    "edition": "3.5 edition",
+    "profiles": [
+      "Races of the Dragon (2006)"
+    ],
+    "portraitSha256": "ff8d69b228bf601b48d98f3d0148e4009f6589a08a62e3fddcf54e082b4dde53",
+    "caption": "Isette Mossglass · Original Spellscale NPC",
+    "npcReceipts": [
+      {
+        "name": "Isette Mossglass",
+        "id": "npc-d7964289d66a76eda3f2eb81",
+        "challenge": "Provisional CR 1. ECL 1."
+      },
+      {
+        "name": "Meren Thistlekey",
+        "id": "npc-5c778fdc058918402290eec7",
+        "challenge": "Provisional CR 2. ECL 2."
+      }
+    ]
+  }
+]

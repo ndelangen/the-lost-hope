@@ -1,0 +1,22 @@
+{
+  "baseline": "0554b150ef490f942302bf8d5afc529b55b6a778",
+  "temporaryCopy": true,
+  "exactBeastProfiles": 4,
+  "testedConditionalRuleProfiles": 4,
+  "existingPublicationVersionsPreserved": true,
+  "publisherGalleriesPreserved": true,
+  "searchableByNameAndSourceHabitatOrAppearance": 4,
+  "portraitCoverage": {
+    "Crocodile": "generated",
+    "Giant Frog": "generated",
+    "Giant Bat": "generated",
+    "Giant Rat": "generated"
+  },
+  "versionPortraitsVerified": 4,
+  "newPortraitDrafts": 4,
+  "printedMovementRatesPreserved": true,
+  "fixedAndRolledEncounterHpPreserved": true,
+  "firstPrintingOnlyHitDice": true,
+  "originalRatAlignmentPreserved": true,
+  "noChallengeImported": true
+}

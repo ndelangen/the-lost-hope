@@ -5,6 +5,7 @@ export default createEvent({
   name: 'The dwarf and the pirate go missing',
   day: 9,
   location: refs.locations.badesh_forest,
+  illustrations: ['/assets/scenes/the-dwarf-and-the-pirate-go-missing.png'],
   mark: { type: 'icon', name: 'fa/FaUsersSlash' },
   notes: [
     ['After the flight down, the party landed near a forest.'],

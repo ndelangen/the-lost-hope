@@ -1,0 +1,64 @@
+[
+  {
+    "name": "Crab",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Tyler Kamstra's DMs Guild player rules for 2014 fifth edition, using the v2 printing.",
+      "Small Beast. No ability score increase. Walking speed 25 ft., swim speed 20 ft. Blindsight 60 ft. Unarmored AC is 11 + Dexterity modifier.",
+      "Claw is an unarmed strike for 1d4 slashing. The crab lacks hands for weapons, shields, spellcasting foci, wands, tools, and other items that require manipulation.",
+      "Speaks, reads, and writes Common. The trait block grants swim speed and uses the ordinary breathing rules."
+    ]
+  },
+  {
+    "name": "Crocodile",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Tyler Kamstra's DMs Guild player rules for 2014 fifth edition, using the v2 printing.",
+      "Medium Beast. Increase Strength by 2. Walking speed 20 ft., swim speed 30 ft. Unarmored AC is 12 + Dexterity modifier.",
+      "Bite is an unarmed strike for 1d8 piercing. When an unarmed strike made with the Attack action hits, the crocodile can try to grapple that creature as a bonus action.",
+      "Speaks, reads, and writes Common. The Giant Crocodile entry on p. 235 refers players to these same traits."
+    ]
+  },
+  {
+    "name": "Deer",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Tyler Kamstra's DMs Guild player rules for 2014 fifth edition, using the v2 printing.",
+      "Medium Beast. Increase Dexterity by 2 and Wisdom by 1. Walking speed 50 ft.",
+      "Gore is an unarmed strike for 1d4 piercing. The deer lacks hands for weapons, shields, spellcasting foci, wands, tools, and other items that need manipulation.",
+      "Speaks, reads, and writes Common."
+    ]
+  },
+  {
+    "name": "Eagle",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Tyler Kamstra's DMs Guild player rules for 2014 fifth edition, using the v2 printing.",
+      "Small Beast. Increase Dexterity and Wisdom by 1 each. Walking speed 10 ft., fly speed 60 ft. Flight is unavailable in medium or heavy armor.",
+      "Keen Sight grants advantage on sight-based Wisdom (Perception) checks. The eagle lacks hands for weapons, shields, foci, wands, tools, and items that need manipulation.",
+      "Talons are an unarmed strike for 1d4 piercing. Dexterity can replace Strength for the attack and damage, and Talons count as a finesse weapon for effects such as Sneak Attack.",
+      "Speaks, reads, and writes Common."
+    ]
+  },
+  {
+    "name": "Elephant",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Tyler Kamstra's DMs Guild player rules for 2014 fifth edition, using the v2 printing.",
+      "Medium Beast. Increase Strength and Constitution by 2 each. Walking speed 35 ft. Unarmored AC is 13 + Dexterity modifier.",
+      "Gore and Stomp are unarmed strikes for 1d8 piercing or bludgeoning. The elephant lacks hands for weapons, shields, foci, wands, tools, and items that need manipulation.",
+      "Trampling Charge allows a bonus-action shove to knock a target prone after moving at least 15 ft. straight toward it and hitting it with an unarmed strike on that turn.",
+      "Speaks, reads, and writes Common. The Mammoth entry on p. 252 refers players to these same traits."
+    ]
+  }
+]

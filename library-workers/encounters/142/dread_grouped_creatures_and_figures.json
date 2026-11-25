@@ -1,0 +1,297 @@
+[
+  {
+    "name": "Figurine",
+    "decision": "separate",
+    "pages": "pp. 75–78",
+    "notes": "Uses the printed 3.5 edition encounter.",
+    "memberNames": [
+      "Ceramic Figurine",
+      "Crystal Figurine",
+      "Ivory Figurine",
+      "Obsidian Figurine",
+      "Porcelain Figurine"
+    ],
+    "statBlock": {
+      "name": "Figurine",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "encounterProcedure": true,
+      "cr": "",
+      "description": "Rajian artisans animate small statues as guards, assassins, and distractions. The material determines how each construct fights.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Running the encounter": "Choose a figurine by its material. A Ceramic Figurine sprays stored liquids. A Crystal Figurine uses patterned lights and reflects light spells. An Ivory Figurine grows to elephant size. An Obsidian Figurine gets underfoot and sprays sharp fragments when hit. A Porcelain Figurine uses enervation rays and grows to tiger size.",
+        "Control": "Once a month, the figurine and its master make opposed Will saves. A win frees the figurine, changes its moral alignment to evil, and sends it after its former master. Figurines understand their creator's language and cannot speak.",
+        "Printed source": "pp. 75–78"
+      }
+    }
+  },
+  {
+    "name": "Furies",
+    "decision": "separate",
+    "pages": "pp. 79–81",
+    "notes": "Uses the printed 3.5 edition encounter.",
+    "memberNames": [
+      "Alecto",
+      "Megaera",
+      "Tisiphone"
+    ],
+    "statBlock": {
+      "name": "Furies",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "sharedRules": [
+        "Fury shared rules"
+      ],
+      "encounterProcedure": true,
+      "cr": "",
+      "description": "Alecto, Megaera, and Tisiphone hunt penitents in Ravenloft. They tempt their target back into wrongdoing before resorting to murder.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Running the encounter": "The sisters appear together and may approach in the guise of elderly human women. They lure a penitent with promises of divination and make three attempts to corrupt them again. If all three attempts fail, the sisters try to kill the penitent in public. In combat, use the individual scourges and spellcasting of Alecto, Megaera, and Tisiphone alongside the shared rules below.",
+        "Defeating the trio": "A fallen sister returns at full health after 24 hours while another sister survives. Permanent defeat requires all three to fall within the same 24 hours, with an Innocent delivering each killing blow.",
+        "Printed source": "pp. 79–81"
+      }
+    }
+  },
+  {
+    "name": "Marikith",
+    "decision": "separate",
+    "pages": "pp. 149–150",
+    "notes": "Uses the printed 3.5 edition encounter.",
+    "memberNames": [
+      "Marikith Hunter",
+      "Marikith Queen"
+    ],
+    "statBlock": {
+      "name": "Marikith",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "encounterProcedure": true,
+      "cr": "",
+      "description": "The marikith hunters of Timor live in dark tunnels around a queen. They frighten their prey before closing in.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Running the encounter": "Use small packs outside the hive. In the hive, send two or three hunters first and increase the size of each wave until the hunters outnumber their opponents at least ten to one. The queen remains inside and issues telepathic orders to her brood within 5 miles. Her printed encounter lists an escort of 4–48 hunters.",
+        "Light sensitivity": "All marikith take −1 on attack rolls in candlelight or starlight, −2 in torchlight, and −4 in bright sunlight or within daylight.",
+        "Hunter tactics": "Hunters squeeze through gaps and use mimicry to isolate their prey. To fool a listener, a hunter opposes the listener's Listen check with Bluff and gains a +8 racial bonus on the roll. The queen's bulk prevents her from using the hunters' Compression ability.",
+        "Transformation": "The book presents a failed powers check in Timor as a rumored route to transformation, taking 1d6 hours. The queen's sting provides a separate confirmed encounter mechanic. A humanoid paralyzed by the sting changes into a hunter within a week. Neutralizing the poison before completion reverses the change.",
+        "Printed source": "pp. 149–150"
+      }
+    }
+  },
+  {
+    "name": "Sea Spawn",
+    "decision": "separate",
+    "pages": "pp. 182–183",
+    "notes": "Uses the printed 3.5 edition encounter.",
+    "memberNames": [
+      "Sea Spawn Minion",
+      "Sea Spawn Master"
+    ],
+    "statBlock": {
+      "name": "Sea Spawn",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "encounterProcedure": true,
+      "cr": "",
+      "description": "A sea spawn master uses parasitic minions to infiltrate coastal communities and draw prey into the water.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Running the encounter": "A master releases 3d6 minions near the shore each night until it controls the village. Roughly one in ten reaches shore. A minion paralyzes a host, burrows into its skull, and takes control. Use the Sea Spawn Minion entry for implantation, removal, and daily effects.",
+        "Coordinated response": "The master stays in shallow coastal water and maintains a telepathic link with its brood. If a minion or its host is threatened, it can call on nearby controlled hosts and minions. Use the Sea Spawn Master entry for the submerged confrontation and aquatic allies.",
+        "Signs and escalation": "The minions favor children and infirm people. They abduct others and deliver them to the master. Once the village is under control, the minions drive their own hosts into the sea to feed the master. The occasional survivor matures into a new master after a year.",
+        "Printed source": "pp. 182–183"
+      }
+    }
+  },
+  {
+    "name": "Crystal Figurine",
+    "decision": "separate",
+    "pages": "pp. 75–76",
+    "notes": "Uses the printed 3.5 edition encounter.",
+    "statBlock": {
+      "name": "Crystal Figurine",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Diminutive Construct",
+      "ac": 18,
+      "hp": 5,
+      "hitDice": "1d10",
+      "speed": "10 ft. (2 squares)",
+      "cr": "1",
+      "abilities": {
+        "Str": {
+          "score": 9
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 1
+        }
+      },
+      "otherStatistics": "Initiative +3. Touch AC 17, flat-footed AC 15. Base attack +0, grapple −13. Space 1 ft., reach 0 ft. Fort +0, Ref +2, Will +0.",
+      "description": "A gemstone arthropod patrols as a guard or distraction. Its cut surfaces flash when it turns a spell back on the caster.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack or full attack. Rake +3 melee for 1d2 − 1 damage. Bite or sting can replace the rake if the carving calls for it. The figurine uses these physical attacks on its master's orders.\nSpell-like abilities (1/day each). Color spray, hypnotic pattern, and rainbow pattern as an 8th-level sorcerer. Save DC is 5 + spell level.",
+        "Traits": "Construct traits and damage reduction 5/—. Takes half damage from edged weapons. A light-related spell cast on the figurine, such as color spray or sunbeam, rebounds on the caster.\nSonic vulnerability (Ex). A damaging sonic spell destroys the figurine unless it succeeds on a Fortitude save at DC 10 + spell level + the caster's Intelligence bonus. It still takes damage on a success.",
+        "Control": "Once a month, the figurine and its master make opposed Will saves. A win frees the figurine, changes its moral alignment to evil, and sends it after its former master. Figurines understand their creator's language and cannot speak.",
+        "Skills": "Hide +7.",
+        "Encounter details": "Any land in Sri Raji. Solitary. Always neutral while controlled. No treasure. Advancement 7–10 HD (Tiny), 11–14 HD (Small).",
+        "Printed source": "pp. 75–76"
+      }
+    }
+  },
+  {
+    "name": "Ivory Figurine",
+    "decision": "separate",
+    "pages": "pp. 75–77",
+    "notes": "Uses the printed 3.5 edition encounter.",
+    "statBlock": {
+      "name": "Ivory Figurine",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Diminutive Construct",
+      "ac": 20,
+      "hp": 11,
+      "hitDice": "2d10",
+      "speed": "10 ft. (2 squares)",
+      "cr": "3",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 1
+        }
+      },
+      "otherStatistics": "Initiative +3. Touch AC 17, flat-footed AC 17. Base attack +1, grapple −11. Space 1 ft., reach 0 ft. Fort +1, Ref +4, Will +1.",
+      "description": "A small ivory elephant guards an entrance. It can grow to full size or drive intruders away with a blast of sound.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack or full attack. Gore +1 melee for 1d2 damage.\nEnlarge (Su, 3/day). Become a Huge, 11-foot-tall construct for 1 minute. Use 55 HP, Fort +3, Ref +3 and Will +3. Use the elephant attacks below.\nTrumpet (Su, 3/day). In either form, produce a 30-ft. cone as shout at caster level 8. It deals 5d6 sonic damage and deafens for 2d6 rounds. Fortitude DC 10 while small or DC 15 while enlarged halves damage and prevents deafness. Exposed brittle or crystalline things take 8d6 instead. Use the spell's normal saves for creatures and held objects. Silence blocks the cone.",
+        "Traits": "Construct traits and damage reduction 5/—. Immune to cold and electricity. Follows direct, simple orders.",
+        "Control": "Once a month, the figurine and its master make opposed Will saves. A win frees the figurine, changes its moral alignment to evil, and sends it after its former master. Figurines understand their creator's language and cannot speak.",
+        "Encounter details": "Any land in Sri Raji. Solitary. Always neutral while controlled. No treasure. Advancement 3–4 HD (Tiny), 5–8 HD (Small).",
+        "Enlarged attacks": "Use the revised 3.5 SRD elephant attack routines. Gore +16 melee for 2d8 + 15. Full attack can instead be one slam +16 melee for 2d6 + 10 and two stamps +11 melee for 2d6 + 5 each. Trample (Ex) deals 2d8 + 15, Reflex DC 25 half. The elephant's space is 15 ft. and reach 10 ft. Keep the figurine's construct traits and printed HP and saves.",
+        "Printed source": "pp. 75–77"
+      }
+    }
+  },
+  {
+    "name": "Obsidian Figurine",
+    "decision": "separate",
+    "pages": "pp. 75, 77–78",
+    "notes": "Uses the printed 3.5 edition encounter.",
+    "statBlock": {
+      "name": "Obsidian Figurine",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Diminutive Construct",
+      "ac": 17,
+      "hp": 5,
+      "hitDice": "1d10",
+      "speed": "10 ft. (2 squares)",
+      "cr": "2",
+      "abilities": {
+        "Str": {
+          "score": 9
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 1
+        }
+      },
+      "otherStatistics": "Initiative +3. Touch AC 17, flat-footed AC 14. Base attack +1, grapple −12. Space 1 ft., reach 0 ft. Fort +1, Ref +3, Will +1.",
+      "description": "A rough black statuette gets close to a target's feet. A blow against it can spray fragments into the eyes of anyone sharing its square.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack or full attack. Claw +0 melee for 1d2 − 1 damage. If its limbs carry poison, apply the rules for a poisoned weapon.\nSpikes (Ex). Some figurines are carved with up to six spikes. When it attacks from underfoot, ignore the target's shield, armor and deflection bonuses to AC. A critical hit breaks off one spike and causes a caltrop wound. Use the revised 3.5 SRD caltrop wound. It deals 1 damage, halves speed for up to 24 hours, and stops running or charging immediately. A DC 15 Heal check or at least 1 point of magical healing ends the speed penalty. Broken spikes are spent permanently.",
+        "Traits": "Construct traits and damage reduction 5/—. Follows simple orders.\nShards (Ex). When a physical attack damages the figurine, each creature sharing its square makes a DC 10 Reflex save. Failure deals 1 damage and causes permanent blindness. Remove blindness cures it.",
+        "Control": "Once a month, the figurine and its master make opposed Will saves. A win frees the figurine, changes its moral alignment to evil, and sends it after its former master. Figurines understand their creator's language and cannot speak.",
+        "Skills": "Hide +7.",
+        "Encounter details": "Any land in Sri Raji. Solitary. Always neutral while controlled. No treasure. Advancement 5–8 HD (Small), 9–12 HD (Medium).",
+        "Printed source": "pp. 75, 77–78"
+      }
+    }
+  },
+  {
+    "name": "Porcelain Figurine",
+    "decision": "separate",
+    "pages": "pp. 75, 78",
+    "notes": "Uses the printed 3.5 edition encounter.",
+    "statBlock": {
+      "name": "Porcelain Figurine",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Diminutive Construct",
+      "ac": 19,
+      "hp": 11,
+      "hitDice": "2d10",
+      "speed": "10 ft. (2 squares)",
+      "cr": "3",
+      "abilities": {
+        "Str": {
+          "score": 9
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 1
+        }
+      },
+      "otherStatistics": "Initiative +2. Touch AC 16, flat-footed AC 17. Base attack +1, grapple −12. Space 1 ft., reach 0 ft. Fort +2, Ref +4, Will +2.",
+      "ruleNotes": [
+        "The Enervation Ray and Enlarge paragraphs say 'ivory' under the Porcelain Figurine heading. Its stat block names both abilities, so apply them to the porcelain tiger.",
+        "The printed Fortitude save removes a negative level. The text gives no special timing for the removal save."
+      ],
+      "description": "A painted porcelain tiger guards valuables. On command it fires an enervation ray or grows large enough to fight with claws and teeth.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack or full attack. Claw +1 melee for 1d2 − 1 damage or the enervation ray.\nEnervation Ray (Su, 3/day). Attack at +7 ranged touch as enervation at caster level 8. A living creature hit gains one negative level. Use the printed DC 6 Fortitude save to remove that negative level.\nEnlarge (Su, at will). Grow to a 9-ft.-long Large tiger with AC 14 and Strength 23. Use two claws +9 melee for 1d8 + 6 each and one bite +4 melee for 2d6 + 3.",
+        "Traits": "Construct traits and damage reduction 5/—. Immune to fire. Continuously uses see invisibility at caster level 8.",
+        "Control": "Once a month, the figurine and its master make opposed Will saves. A win frees the figurine, changes its moral alignment to evil, and sends it after its former master. Figurines understand their creator's language and cannot speak.",
+        "Skills": "Hide +16.",
+        "Encounter details": "Any land in Sri Raji. Solitary. Always neutral while controlled. No treasure. Advancement 7–10 HD (Tiny), 11–14 HD (Small).",
+        "Printed source": "pp. 75, 78"
+      }
+    }
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Dromite",
+    "species": "species-314fae50da161c58dbbbe093",
+    "edition": "3.5 edition",
+    "profiles": [
+      "Expanded Psionics Handbook (2004) · Fire Caste",
+      "Expanded Psionics Handbook (2004) · Glimmer Caste",
+      "Expanded Psionics Handbook (2004) · Ice Caste",
+      "Expanded Psionics Handbook (2004) · Voice Caste"
+    ],
+    "portraitSha256": "8ca2e99ca31324e719e38a40ce65affb2f5cab51e04e90b65a9013b5cb18bc28",
+    "npcReceipts": [
+      {
+        "form": "Ice Caste",
+        "name": "Sura Reedcord",
+        "entry": "npc-dc126675a7cd4e8807c085a6",
+        "challenge": "Provisional CR 1/2. ECL 2."
+      },
+      {
+        "form": "Fire Caste",
+        "name": "Jori Hearththread",
+        "entry": "npc-76ada343c4113811553adadc",
+        "challenge": "Provisional CR 1. ECL 2."
+      }
+    ]
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Bat",
+    "entryId": "beast-ca5bcec12f716f44d9745d34",
+    "verifiedVersionKey": "a1ef70f8ca4c27f83c30d565",
+    "file": "",
+    "sha256": "0aa3730307a7c8fbc70add8269b18cd4b8860837e5179ee2265c5f795a81c912",
+    "width": 1254,
+    "height": 1254,
+    "repositoryPath": "assets/images/content/dm-library/srd35-beasts-02-event-style/bat.png",
+    "logicalSource": "/assets/dm-library/srd35-beasts-02-event-style/bat.png"
+  },
+  {
+    "name": "Cat",
+    "entryId": "beast-77af778b51abd4a3c51c5ddd",
+    "verifiedVersionKey": "8febf4bc9b67e49bc9e05a22",
+    "file": "",
+    "sha256": "f5d280e94f25891b4ab4d180f4084a7f197478c6d8be7461b2fff8cc0182dd3d",
+    "width": 1254,
+    "height": 1254,
+    "repositoryPath": "assets/images/content/dm-library/srd35-beasts-02-event-style/cat.png",
+    "logicalSource": "/assets/dm-library/srd35-beasts-02-event-style/cat.png"
+  },
+  {
+    "name": "Giant Constrictor Snake",
+    "entryId": "beast-67c132dc4a89516bcaa8f433",
+    "verifiedVersionKey": "b09a33493c2020f3f1934e0d",
+    "file": "",
+    "sha256": "36b6cc660cc571b534c7e43de6bb10653a5035b885ff89b1e8e7166e93db4ef0",
+    "width": 1254,
+    "height": 1254,
+    "repositoryPath": "assets/images/content/dm-library/srd35-beasts-02-event-style/giant-constrictor-snake.png",
+    "logicalSource": "/assets/dm-library/srd35-beasts-02-event-style/giant-constrictor-snake.png"
+  },
+  {
+    "name": "Lizard",
+    "entryId": "beast-b95cbcfe0cd25ed09eef3612",
+    "verifiedVersionKey": "184f619379a5c34f0e3d3290",
+    "file": "",
+    "sha256": "33bf94cdf8749b6837ff54952cef7ed95c537f565da30ee36336060b7acaeb3f",
+    "width": 1254,
+    "height": 1254,
+    "repositoryPath": "assets/images/content/dm-library/srd35-beasts-02-event-style/lizard.png",
+    "logicalSource": "/assets/dm-library/srd35-beasts-02-event-style/lizard.png"
+  },
+  {
+    "name": "Rat",
+    "entryId": "beast-9950cec246ece55e46c9929e",
+    "verifiedVersionKey": "88a1eea70609320a8f0477cb",
+    "file": "",
+    "sha256": "d2b3a1d0090aca1dfdaf63bc463745f564bcc6c79c9cabda71a2790a0083986a",
+    "width": 1254,
+    "height": 1254,
+    "repositoryPath": "assets/images/content/dm-library/srd35-beasts-02-event-style/rat.png",
+    "logicalSource": "/assets/dm-library/srd35-beasts-02-event-style/rat.png"
+  },
+  {
+    "name": "Weasel",
+    "entryId": "beast-1349d5e18426092e5708ce21",
+    "verifiedVersionKey": "ce68a8e68c32b9fd4bf8f64c",
+    "file": "",
+    "sha256": "31508f0d19452461055485ddfff36f8344d18e8b35921e597ddc40a8451635be",
+    "width": 1254,
+    "height": 1254,
+    "repositoryPath": "assets/images/content/dm-library/srd35-beasts-02-event-style/weasel.png",
+    "logicalSource": "/assets/dm-library/srd35-beasts-02-event-style/weasel.png"
+  }
+]

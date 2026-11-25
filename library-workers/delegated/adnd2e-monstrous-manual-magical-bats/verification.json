@@ -1,0 +1,28 @@
+{
+  "baseline": "133ef3bae36ecd1e45dcdb1936d407e12130ac1b",
+  "temporaryCopy": true,
+  "exactProfiles": 3,
+  "printedCombatProfilesVerified": 3,
+  "searchableByNameRuleAppearanceHabitat": 3,
+  "globalSearchResults": 3,
+  "catalogKinds": {
+    "Azmyth": "monster",
+    "Night Hunter": "beast",
+    "Sinister": "monster"
+  },
+  "creatureTypes": {
+    "Azmyth": "Magical Beast",
+    "Night Hunter": "Animal",
+    "Sinister": "Magical Beast"
+  },
+  "distinctCorrectKindNamespaces": true,
+  "compatibleWithPreviouslyStagedBatPatch": true,
+  "preservedPrintedContradictions": [
+    "Night Hunter lair size",
+    "Sinister alignment"
+  ],
+  "versionPortraitsVerified": 3,
+  "newPortraitDrafts": 3,
+  "noChallengeImported": true,
+  "selectedPublication": "Monstrous Manual (1994 third printing)"
+}

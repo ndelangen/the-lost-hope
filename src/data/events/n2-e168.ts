@@ -11,4 +11,5 @@ export default createEvent({
       'A heavily armoured man arrived with six companions and ordered the party to accompany him to a lord. They gathered food from breakfast and followed the escort outside.',
     ],
   ],
+  illustrations: ['/assets/scenes/an-armed-escort-summons-the-party-to-tempest.png'],
 })

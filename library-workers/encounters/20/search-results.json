@@ -1,0 +1,45 @@
+[
+  {
+    "form": "Acid",
+    "query": "corrosive liquid black dragon putrid aura",
+    "features": [
+      "Putrid Aura"
+    ],
+    "tooltip": "Poisoned",
+    "credit": "D&D Beyond publisher art · Fizban's Treasury of Dragons"
+  },
+  {
+    "form": "Cold",
+    "query": "ice sculpture white dragon frigid",
+    "features": [],
+    "tooltip": "Petrified",
+    "credit": "D&D Beyond publisher art · Fizban's Treasury of Dragons"
+  },
+  {
+    "form": "Fire",
+    "query": "hot embers red dragon fire aura",
+    "features": [
+      "Fire Aura"
+    ],
+    "tooltip": "Exhaustion",
+    "credit": "D&D Beyond publisher art · Fizban's Treasury of Dragons"
+  },
+  {
+    "form": "Lightning",
+    "query": "crackling lightning blue dragon arrival point",
+    "features": [
+      "Lightning Burst"
+    ],
+    "tooltip": null,
+    "credit": "D&D Beyond publisher art · Fizban's Treasury of Dragons"
+  },
+  {
+    "form": "Poison",
+    "query": "billowing green gas green dragon putrid aura",
+    "features": [
+      "Putrid Aura"
+    ],
+    "tooltip": "Poisoned",
+    "credit": "D&D Beyond publisher art · Fizban's Treasury of Dragons"
+  }
+]

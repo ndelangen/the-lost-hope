@@ -1,0 +1,144 @@
+[
+  {
+    "name": "Buomman",
+    "kind": "species",
+    "group": "3.5 edition",
+    "groups": [
+      "3.5 edition"
+    ],
+    "global": true,
+    "version": {
+      "key": "dcfc4b3ed8b4630f4b367628",
+      "publication": "Planar Handbook (2004)",
+      "edition": "3.5 edition",
+      "source": "https://obnb.uk/p13133209-planar-handbook-a-players-guide-to-the-planes",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Humanoid (Extraplanar)"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Medium Humanoid. The Astral Plane is the Buomman homeland. The species entry gives the Extraplanar subtype when away from the Astral Plane. Land speed 30 ft. +2 Wisdom, −2 Charisma.",
+            "Low-light vision with twice the human range in dim light, retaining color and detail. +2 racial on Listen and Perform (sing).",
+            "The racial vow is against speech. A breach deals 1 Wisdom damage and applies −2 on attack rolls, saves, and checks for 24 hours. A further breach before expiry deals another point of Wisdom damage and extends the same penalty for another 24 hours.",
+            "Buommans speak Buommi as low ritual songs and understand Common. The vow allows Buommi singing. Bonus languages are Aquan, Githzerai, and Terran.",
+            "To cast a spell with a verbal component while keeping the vow, use Silent Spell or Nonverbal Spell. Silent Spell removes the verbal component using a slot one level higher and cannot modify Bard spells. Nonverbal Spell substitutes another sound, such as song, and still fails within magical silence. Spells without verbal components are unaffected by Nonverbal Spell.",
+            "Favored class Monk. LA +0. The playable profile adds no racial Hit Dice."
+          ]
+        },
+        {
+          "title": "Original NPC · Morrow",
+          "lines": [
+            "North gate listener and Monk.",
+            "Motive. Get the last visitors inside before their pursuer reaches the gate.",
+            "Hook. Morrow can point the party toward the sheltered entrance while he watches the open gate.",
+            "Buomman north gate listener, Monk 1 · Provisional CR 1. ECL 1. · Medium Humanoid (Extraplanar)",
+            "AC 15 · HP 10 (1d8+2) · Speed 30 ft."
+          ]
+        },
+        {
+          "title": "Original NPC · Lumen",
+          "lines": [
+            "Cairn road healer and Cleric.",
+            "Motive. Reach an injured surveyor on the cairn road.",
+            "Hook. Lumen knows the line of cairns and can heal the surveyor once the party clears the path.",
+            "Buomman cairn road healer, Cleric 1 · Provisional CR 1. ECL 1. · Medium Humanoid (Extraplanar)",
+            "AC 17 · HP 10 (1d8+2) · Speed 30 ft."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Morrow": [
+          {
+            "start": 15,
+            "end": 21,
+            "target": {
+              "name": "Morrow",
+              "group": "Buomman",
+              "publication": "Buomman north gate listener, Monk 1",
+              "local": {
+                "entry": "npc-d4d2a85a6a4fab5cf711262e",
+                "version": "1cfd915f6d7d59bd53397b25"
+              }
+            }
+          }
+        ],
+        "Hook. Morrow can point the party toward the sheltered entrance while he watches the open gate.": [
+          {
+            "start": 6,
+            "end": 12,
+            "target": {
+              "name": "Morrow",
+              "group": "Buomman",
+              "publication": "Buomman north gate listener, Monk 1",
+              "local": {
+                "entry": "npc-d4d2a85a6a4fab5cf711262e",
+                "version": "1cfd915f6d7d59bd53397b25"
+              }
+            }
+          }
+        ],
+        "Original NPC · Lumen": [
+          {
+            "start": 15,
+            "end": 20,
+            "target": {
+              "name": "Lumen",
+              "group": "Buomman",
+              "publication": "Buomman cairn road healer, Cleric 1",
+              "local": {
+                "entry": "npc-456f45fddc2e725c2948d033",
+                "version": "ea72b1104a3968fa37cbca50"
+              }
+            }
+          }
+        ],
+        "Hook. Lumen knows the line of cairns and can heal the surveyor once the party clears the path.": [
+          {
+            "start": 6,
+            "end": 11,
+            "target": {
+              "name": "Lumen",
+              "group": "Buomman",
+              "publication": "Buomman cairn road healer, Cleric 1",
+              "local": {
+                "entry": "npc-456f45fddc2e725c2948d033",
+                "version": "ea72b1104a3968fa37cbca50"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Buomman": true,
+      "buomman vow against speech": true,
+      "buomman nonverbal spell": true,
+      "buomman north gate listener": true,
+      "buomman cairn road healer": true
+    },
+    "hash": "02c63804f50467fbec4ac85aedfaa5f19f4c6447914c00e58f3202d7f5e9cc1c",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Planar Handbook (2004)",
+    "defaultVersionKey": "dcfc4b3ed8b4630f4b367628",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  }
+]

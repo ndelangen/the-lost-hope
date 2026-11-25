@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Snarl",
+    "imageKey": "beast:snarl",
+    "kind": "beast",
+    "type": "Beast",
+    "publication": "Lost Mine of Phandelver",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "source": "https://www.dndbeyond.com/monsters/287859-snarl",
+    "challenge": "1/4",
+    "images": [],
+    "encounterStatus": "local-stat-block",
+    "statBlockUrl": "https://www.dndbeyond.com/monsters/287859-snarl",
+    "slug": "snarl",
+    "entry": "beast-cbcf9340b7fcb0851a81bd32",
+    "version": "9c69b05d74dfd7e51a749faf",
+    "generated": true,
+    "primaryPortraitSha256": "3dd571ca64e4f3df0836c89b356dbc2e16ffa456060b68e2a2c2cde775eb1b55",
+    "status": "Stat block",
+    "appearance": "A wolf that serves as King Grol’s companion in the original adventure.",
+    "habitats": [
+      "Cragmaw Castle",
+      "King’s Quarters",
+      "Neverwinter Wood"
+    ]
+  }
+]

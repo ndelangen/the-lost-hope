@@ -1,0 +1,182 @@
+[
+  {
+    "name": "Ape",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Medium Beast",
+    "ac": 12,
+    "hp": 25,
+    "speed": "30 ft., climb 30 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "otherStatistics": "Fixed Perception 13 and Stealth 12. Resistant to stunned. No listed special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A broad-shouldered ape with long forearms, dark charcoal-brown fur, a gray mantle, and a bare leathery face.",
+    "habitats": [
+      "Forest",
+      "Woodland canopy"
+    ],
+    "sections": {
+      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 350. XP is from the CR table on p. 229. ",
+      "Ability modifiers": "STR +5, DEX +2, CON +2, INT −2, WIS +1, CHA −2. Use the printed modifiers and fixed Perception and Stealth.",
+      "Traits": "Condition resistance. The ape rolls checks and saves to avoid or end the stunned condition with advantage under the v0.2 resistance rule (p. 232).",
+      "Actions": "Multiattack. Make two Fist attacks. If both hit the same Medium or smaller creature, it is grappled (escape DC 13). The ape can maintain only one grapple.\nFist. Melee weapon attack, +5 to hit, reach 5 ft., one target. Deal 5 (1d4 + 3) bludgeoning damage on a hit.\nRock. Ranged weapon attack, +5 to hit, range 25/50 ft., one target. Deal 7 (1d8 + 3) bludgeoning damage on a hit."
+    }
+  },
+  {
+    "name": "Ape",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 12,
+    "hp": 19,
+    "speed": "30 ft., climb 30 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "otherStatistics": "Athletics +5 and Perception +3. Passive Perception 13. No listed languages or special senses.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A broad-shouldered ape with long forearms, dark charcoal-brown fur, a gray mantle, and a bare leathery face.",
+    "habitats": [
+      "Forest",
+      "Woodland canopy"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), Appendix A, p. 317. https://www.dndbeyond.com/monsters/16788-ape",
+      "Actions": "Multiattack. Make two Fist attacks.\nFist. Melee weapon attack, +5 to hit, reach 5 ft., one target. Deal 6 (1d6 + 3) bludgeoning damage on a hit.\nRock. Ranged weapon attack, +5 to hit, range 25/50 ft., one target. Deal 6 (1d6 + 3) bludgeoning damage on a hit."
+    },
+    "hitDice": "3d8 + 6",
+    "abilities": {
+      "Str": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 6,
+        "modifier": -2
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    }
+  },
+  {
+    "name": "Axe Beak",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Large Beast",
+    "ac": 11,
+    "hp": 13,
+    "speed": "50 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "otherStatistics": "Fixed Perception 12 and Stealth 11. No listed special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A tall, flightless bird with blue-gray feathers, powerful running legs, and a deep wedge-shaped beak.",
+    "habitats": [
+      "Grassland",
+      "Hills"
+    ],
+    "sections": {
+      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 351. XP is from the CR table on p. 229. ",
+      "Ability modifiers": "STR +2, DEX +1, CON +1, INT −4, WIS +0, CHA −3. Use the printed modifiers and fixed Perception and Stealth.",
+      "Actions": "Beak. Melee weapon attack, +4 to hit, reach 5 ft., one creature. Deal 6 (1d8 + 2) slashing damage on a hit.",
+      "Bonus actions": "Evasive. Choose to Disengage or Dodge as a bonus action."
+    }
+  },
+  {
+    "name": "Axe Beak",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 11,
+    "hp": 19,
+    "speed": "50 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "otherStatistics": "Passive Perception 10. No listed skills, languages, or special senses.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A tall, flightless bird with blue-gray feathers, powerful running legs, and a deep wedge-shaped beak.",
+    "habitats": [
+      "Grassland",
+      "Hills"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), Appendix A, p. 317. https://www.dndbeyond.com/monsters/16793-axe-beak",
+      "Actions": "Beak. Melee weapon attack, +4 to hit, reach 5 ft., one target. Deal 6 (1d8 + 2) slashing damage on a hit."
+    },
+    "hitDice": "3d10 + 3",
+    "abilities": {
+      "Str": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    }
+  },
+  {
+    "name": "Bat",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Tiny Beast",
+    "ac": 11,
+    "hp": 8,
+    "speed": "5 ft., fly 30 ft.",
+    "cr": "0",
+    "xp": 10,
+    "otherStatistics": "Fixed Perception 11 and Stealth 13. Keensense 60 ft. Vulnerable to deafened and resistant to blinded. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A tiny brown bat with broad ears, a short muzzle, and thin membranous wings stretched across elongated fingers.",
+    "habitats": [
+      "Caves",
+      "Forest"
+    ],
+    "sections": {
+      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 352. XP is from the CR table on p. 229. ",
+      "Ability modifiers": "STR −4, DEX +1, CON −1, INT −4, WIS +1, CHA −3. Use the printed modifiers and fixed Perception and Stealth.",
+      "Traits": "Echolocation. The bat loses the use of keensense while deafened. Keensense lets it perceive surroundings using a sense other than sight (p. 127).\nHeightened Hearing. When perceiving by hearing, use Perception 16.\nCondition resistance and vulnerability. Use advantage on checks and saves to avoid or end blinded and disadvantage on checks and saves to avoid or end deafened (p. 232).",
+      "Actions": "Bite. Melee weapon attack, +3 to hit, reach 5 ft., one creature. Deal 3 (1d4 + 1) piercing damage on a hit."
+    }
+  }
+]

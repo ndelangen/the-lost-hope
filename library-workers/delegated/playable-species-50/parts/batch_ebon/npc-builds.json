@@ -1,0 +1,293 @@
+{
+  "builds": [
+    {
+      "id": "ebon-tides-bearfolk",
+      "title": "Shadowborn Bearfolk waystone warden, Fighter 2",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "difficulty": "Tier 1 class-built NPC · no assigned CR",
+      "size": "Medium",
+      "type": "Humanoid",
+      "ac": 17,
+      "hp": 20,
+      "hitDice": "2d10+4",
+      "initiative": 2,
+      "speed": "30 ft.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 15,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +5",
+        "Insight +3",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "senses": "Darkvision 60 ft., passive Perception 13",
+      "languages": "Umbral",
+      "traits": [
+        "Proficiency +2. Strength save +5 and Constitution save +4. AC 17 from 13 + Dexterity + shield.",
+        "Powerful Build. Halla counts as Large when determining carrying, pushing, dragging, and lifting capacity.",
+        "Cloak of Night. In dim light or darkness, Halla has advantage on Stealth checks and can Hide as a bonus action when able to hide.",
+        "Protection fighting style. With shield in hand, use a reaction to impose disadvantage on an attack from someone Halla can see against another target within 5 ft. of her.",
+        "Action Surge once per short or long rest gives one extra action on her turn."
+      ],
+      "actions": [
+        "Handaxe. Melee or ranged weapon attack +5, reach 5 ft. or range 20/60 ft. Hit 1d6 + 3 slashing.",
+        "Bite. Melee unarmed attack +5, reach 5 ft. Hit 1d6 + 3 piercing.",
+        "Second Wind. Bonus action, recover 1d10 + 2 HP once per short or long rest."
+      ],
+      "tactics": "Halla positions her shield beside the first traveler to reach the stones. She uses the dark verge for cover when the waystone needs to be inspected."
+    },
+    {
+      "id": "ebon-tides-darakhul",
+      "title": "Bearfolk-heritage Darakhul ferryman, Barbarian 2",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "difficulty": "Tier 1 class-built NPC · no assigned CR",
+      "size": "Medium",
+      "type": "Humanoid",
+      "ac": 13,
+      "hp": 23,
+      "hitDice": "2d12+4",
+      "initiative": 1,
+      "speed": "30 ft.",
+      "abilityScores": {
+        "STR": 17,
+        "DEX": 13,
+        "CON": 15,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Athletics +5",
+        "Perception +3"
+      ],
+      "senses": "Darkvision 60 ft., passive Perception 13",
+      "languages": "Common, Darakhul, Umbral",
+      "traits": [
+        "Proficiency +2. Strength save +5 and Constitution save +4. Unarmored AC 10 + Dexterity + Constitution.",
+        "Imperfect Undeath. Humanoid vulnerable to effects that target undead. Rell can receive ordinary healing.",
+        "Resist necrotic and poison. Immune to disease. Advantage on saves against charm and poison. Sunlight Sensitivity applies to attacks and sight-based Perception.",
+        "Undead Vitality. Rell does not breathe. The encounter assumes Rell has fed within the past 24 hours.",
+        "Undead Fortitude. Once per long rest, drop to 1 HP instead of 0 when the hit does not kill Rell outright.",
+        "Reckless Attack. On the first attack of his turn, Rell can claim advantage on Strength-based melee weapon attacks that turn. Attacks against him then have advantage until his next turn.",
+        "Danger Sense gives advantage on Dexterity saves against visible effects while Rell can see, hear and act."
+      ],
+      "actions": [
+        "Bite. Melee unarmed attack +5, reach 5 ft. Hit 1d6 + 3 piercing.",
+        "Quarterstaff. Melee weapon attack +5, reach 5 ft. Hit 1d6 + 3 bludgeoning, or 1d8 + 3 with two hands.",
+        "Rage. Bonus action, twice per long rest. Up to 1 minute, advantage on Strength checks and saves, +2 damage to Strength-based melee weapon attacks, and resistance to bludgeoning, piercing and slashing. Ends early on unconsciousness, or at the end of a turn if he has neither attacked a hostile creature since the last turn nor taken damage since then."
+      ],
+      "tactics": "Rell holds the landing long enough for passengers to clear it. If pushed into the river, he uses the fact that he does not breathe to reach the rope below the waterline."
+    },
+    {
+      "id": "ebon-tides-quickstep",
+      "title": "Quickstep dueling courier, Rogue 2",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "difficulty": "Tier 1 class-built NPC · no assigned CR",
+      "size": "Small",
+      "type": "Humanoid",
+      "ac": 14,
+      "hp": 17,
+      "hitDice": "2d8+4",
+      "initiative": 3,
+      "speed": "50 ft.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 17,
+        "CON": 14,
+        "INT": 12,
+        "WIS": 10,
+        "CHA": 14
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Investigation +3",
+        "Perception +2",
+        "Persuasion +6",
+        "Sleight of Hand +5",
+        "Stealth +7"
+      ],
+      "senses": "Darkvision 60 ft., passive Perception 12",
+      "languages": "Elvish, Umbral",
+      "traits": [
+        "Proficiency +2. Dexterity save +5 and Intelligence save +3. Leather armor 11 + Dexterity.",
+        "Fey Ancestry. Advantage on saves against charm. Magic cannot put Copperflash to sleep.",
+        "Startling Speed, two rounds per day. After moving at least 10 ft. on his turn, attacks against him have disadvantage until the start of his next turn. Incapacitation or restraint prevents its use.",
+        "Sneak Attack once per turn adds 1d6 damage to a hit with a finesse or ranged weapon if he has advantage, or an active ally is within 5 ft. of the target and he has no disadvantage.",
+        "Expertise in Persuasion and Stealth."
+      ],
+      "actions": [
+        "Rapier. Melee weapon attack +5, reach 5 ft. Hit 1d8 + 3 piercing.",
+        "Dagger. Melee or ranged weapon attack +5, reach 5 ft. or range 20/60 ft. Hit 1d4 + 3 piercing.",
+        "Cunning Action. Bonus action to Dash, Disengage or Hide."
+      ],
+      "tactics": "Copperflash spends his speed protection crossing open floor. If someone closes in, he Disengages before running toward the next exit."
+    },
+    {
+      "id": "ebon-tides-ratatosk",
+      "title": "Tradvakt Ratatosk tree guard, Ranger 2",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "difficulty": "Tier 1 class-built NPC · no assigned CR",
+      "size": "Small",
+      "type": "Humanoid",
+      "ac": 18,
+      "hp": 20,
+      "hitDice": "2d10+4",
+      "initiative": 3,
+      "speed": "25 ft., climb 10 ft.",
+      "abilityScores": {
+        "STR": 12,
+        "DEX": 17,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Perception +3",
+        "Stealth +5",
+        "Survival +3"
+      ],
+      "senses": "Darkvision 60 ft., passive Perception 13",
+      "languages": "Understands, reads and writes Celestial and Common. Knows Umber Hulk through Favored Enemy. Speaks through telepathy 20 ft.",
+      "traits": [
+        "Proficiency +2. Strength save +3 and Dexterity save +5. Studded leather AC 12 + Dexterity + shield + 1 from the Defense fighting style.",
+        "Grounded Celestial. Humanoid, susceptible to effects that target celestials.",
+        "Telepathic speech to a creature Minnet can see within 20 ft. if it understands a language.",
+        "Favored Enemy, monstrosities. Advantage on Survival to track them and on Intelligence checks to recall information about them.",
+        "Natural Explorer, forest. Double proficiency for proficient Intelligence or Wisdom checks related to forest terrain. See class travel rules for journeys of at least one hour."
+      ],
+      "actions": [
+        "Spear. Melee or ranged weapon attack +3, reach 5 ft. or range 20/60 ft. Hit 1d6 + 1 piercing.",
+        "Dart. Ranged weapon attack +5, range 20/60 ft. Hit 1d4 + 3 piercing.",
+        "Tusks. Melee unarmed attack +3, reach 5 ft. Hit 1 piercing plus 1d4 psychic.",
+        "War Chatter. Bonus action once per short or long rest. One non-Ratatosk creature within 30 ft. that can hear Minnet makes a DC 12 Charisma save. Failure gives disadvantage on attack rolls until Minnet’s next turn.",
+        "Two 1st-level spell slots. Hunter’s Mark is a bonus action and requires concentration. It adds 1d6 on weapon hits against the mark. Cure Wounds is an action that heals 1d8 + 1 on touch. Minnet frees the spear hand for the somatic component."
+      ],
+      "tactics": "Minnet issues directions silently while closing on the route marker. She uses War Chatter to give the least armored traveler a turn to get behind her."
+    },
+    {
+      "id": "ebon-tides-shadow-goblin",
+      "title": "Shadow Goblin road mediator, Bard 2",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "difficulty": "Tier 1 class-built NPC · no assigned CR",
+      "size": "Small",
+      "type": "Humanoid",
+      "ac": 14,
+      "hp": 15,
+      "hitDice": "2d8+2",
+      "initiative": 4,
+      "speed": "30 ft.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 16,
+        "CON": 13,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 16
+      },
+      "skills": [
+        "Deception +5",
+        "Insight +3",
+        "Perception +3",
+        "Persuasion +5",
+        "Stealth +5"
+      ],
+      "senses": "Darkvision 60 ft., passive Perception 13",
+      "languages": "Goblin, Umbral",
+      "traits": [
+        "Proficiency +2. Dexterity save +5 and Charisma save +5. Leather AC 11 + Dexterity.",
+        "Jack of All Trades adds +1 to checks without proficiency, including initiative. Song of Rest adds 1d6 to healing for allies who spend Hit Dice on a short rest and can hear Merrin.",
+        "Shadow Camouflage gives advantage on Stealth checks to hide in dim light or darkness. Sunlight Sensitivity hampers attacks and sight-based Perception in direct sunlight.",
+        "Unseelie Blessing gives advantage on saves against charm and prevents magical sleep."
+      ],
+      "actions": [
+        "Rapier. Melee weapon attack +5, reach 5 ft. Hit 1d8 + 3 piercing.",
+        "Stink Eye. Action, visible target within 30 ft. who can see and hear Merrin, Charisma DC 13. On failure, disadvantage on its next ability check, attack roll or saving throw before Merrin’s next turn.",
+        "Bardic Inspiration. Bonus action, a creature other than Merrin within 60 ft. that can hear him gets 1d6 to add once to an ability check, attack roll or save within 10 minutes. Three uses per long rest.",
+        "Spellcasting, Charisma DC 13 and spell attack +5. Three 1st-level slots. Cantrips Mage Hand and Vicious Mockery. Known spells Charm Person, Disguise Self, Dissonant Whispers, Faerie Fire, and Healing Word.",
+        "Vicious Mockery. Action, visible creature within 60 ft. that can hear Merrin, Wisdom DC 13. Failure deals 1d4 psychic and imposes disadvantage on its next attack roll before its next turn ends.",
+        "Healing Word. Bonus action, visible creature within 60 ft. regains 1d4 + 3 HP. This spell has no effect on Undead or Constructs.",
+        "Dissonant Whispers. Action, target within 60 ft., Wisdom DC 13. Failure deals 3d6 psychic and requires the target to spend its reaction if available to move away as far as its speed allows without entering obviously dangerous ground. Success halves damage and prevents that movement. A deafened creature succeeds automatically."
+      ],
+      "tactics": "Merrin uses Stink Eye to break the aggressor’s focus and offers an exit before anyone draws steel. He saves Healing Word for an ally already down."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Bearfolk",
+      "size": "Medium",
+      "edition": "Fifth edition compatible",
+      "speciesPublication": "Book of Ebon Tides",
+      "name": "Halla Duskbark",
+      "build": "ebon-tides-bearfolk",
+      "role": "Waystone warden",
+      "motive": "Keep a party of lost travelers together through a moonless passage.",
+      "hook": "She offers to inspect a loose waystone if somebody keeps the travelers within reach of her shield."
+    },
+    {
+      "species": "Darakhul",
+      "size": "Medium",
+      "edition": "Fifth edition compatible",
+      "speciesPublication": "Book of Ebon Tides",
+      "name": "Rell Ashgate",
+      "build": "ebon-tides-darakhul",
+      "role": "Ferry keeper",
+      "motive": "Get the last passenger across before someone cuts the ferry rope.",
+      "hook": "Rell wants the crossing kept open. He offers to go below the water to retrieve a slipped mooring."
+    },
+    {
+      "species": "Quickstep",
+      "size": "Small",
+      "edition": "Fifth edition compatible",
+      "speciesPublication": "Book of Ebon Tides",
+      "name": "Copperflash",
+      "build": "ebon-tides-quickstep",
+      "role": "Court courier and duelist",
+      "motive": "Deliver a sealed reply before the sender has to call off a duel.",
+      "hook": "He asks the party to walk the letter through the main door while he draws attention into the courtyard."
+    },
+    {
+      "species": "Ratatosk",
+      "size": "Small",
+      "edition": "Fifth edition compatible",
+      "speciesPublication": "Book of Ebon Tides",
+      "name": "Minnet Branchbell",
+      "build": "ebon-tides-ratatosk",
+      "role": "Branch patrol guard",
+      "motive": "Prevent a frightened crossing party from turning a meeting into a fight.",
+      "hook": "Minnet asks the closest traveler by telepathy to lower their weapon and wait for an answer."
+    },
+    {
+      "species": "Shadow Goblin",
+      "size": "Small",
+      "edition": "Fifth edition compatible",
+      "speciesPublication": "Book of Ebon Tides",
+      "name": "Merrin Netward",
+      "build": "ebon-tides-shadow-goblin",
+      "role": "Road mediator",
+      "motive": "Get two rival crews to honor a shared right of passage.",
+      "hook": "Merrin has each crew’s witness mark and wants a third party to hear both accounts before the gate opens."
+    }
+  ]
+}

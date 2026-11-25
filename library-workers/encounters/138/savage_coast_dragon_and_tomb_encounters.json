@@ -1,0 +1,239 @@
+[
+  {
+    "name": "Crimson Dragon",
+    "decision": "separate",
+    "pages": "pp. 21–24",
+    "notes": "Standalone AD&D 2e encounter from the printed appendix.",
+    "statBlock": {
+      "name": "Crimson Dragon",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "classification": "Dragon. Neutral evil.",
+      "hp": null,
+      "hitDice": "13 base, 7–21 by age",
+      "speed": "9, fly 30 (C)",
+      "cr": "",
+      "otherStatistics": "Solitary. Very rare in cursed lands. Active by day. Carnivore. Genius intelligence (17–18). Fanatic morale (17–18). All speak a dragon dialect other crimson and evil dragons understand. The chance of communicating with any intelligent creature starts at 15% for a hatchling and rises 5 percentage points per later age category.",
+      "description": "A crimson dragon stalks the cursed lands for cinnabryl. It often feints or puts on a display of Legacies before committing to a fight.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Age tiers": "1. Hatchling, 0–5 years. 7 HD, AC 0, THAC0 13, combat modifier +1. Fear none. Magic resistance 0. Spells none. Treasure none, 2,000 XP. Body 2–16 ft., tail 4–16 ft.\n2. Very Young, 6–15 years. 9 HD, AC -1, THAC0 11, combat modifier +2. Fear none. Magic resistance 0. Spells none. Treasure none, 3,000 XP. Body 16–27 ft., tail 16–25 ft.\n3. Young, 16–25 years. 11 HD, AC -2, THAC0 9, combat modifier +3. Fear none. Magic resistance 0. Spells none. Treasure B, 5,000 XP. Body 27–42 ft., tail 25–34 ft.\n4. Juvenile, 26–50 years. 13 HD, AC -3, THAC0 7, combat modifier +4. Fear none. Magic resistance 0. Spells none. Treasure BI, 8,000 XP. Body 42–61 ft., tail 34–53 ft.\n5. Young Adult, 51–100 years. 14 HD, AC -4, THAC0 7, combat modifier +5. Fear 15 yd., save +3. Magic resistance 20%. Spells none. Treasure BI, 10,000 XP. Body 61–80 ft., tail 53–72 ft.\n6. Adult, 101–200 years. 15 HD, AC -5, THAC0 5, combat modifier +6. Fear 20 yd., save +2. Magic resistance 25%. Spells 1 wizard. Treasure BH, 12,000 XP. Body 80–99 ft., tail 72–91 ft.\n7. Mature Adult, 201–400 years. 16 HD, AC -6, THAC0 5, combat modifier +7. Fear 25 yd., save +1. Magic resistance 30%. Spells 2 wizard. Treasure BH, 13,000 XP. Body 99–118 ft., tail 91–110 ft.\n8. Old, 401–600 years. 17 HD, AC -7, THAC0 5, combat modifier +8. Fear 30 yd., save +0. Magic resistance 35%. Spells 2/1 wizard. Treasure BHU, 14,000 XP. Body 118–137 ft., tail 110–129 ft.\n9. Very Old, 601–800 years. 18 HD, AC -8, THAC0 5, combat modifier +9. Fear 35 yd., save −1. Magic resistance 40%. Spells 2/2 wizard. Treasure BHU, 15,000 XP. Body 137–157 ft., tail 129–148 ft.\n10. Venerable, 801–1,000 years. 19 HD, AC -9, THAC0 5, combat modifier +10. Fear 40 yd., save −2. Magic resistance 45%. Spells 2/2/1 wizard, 1 priest. Treasure BH + U × 2, 16,000 XP. Body 157–177 ft., tail 148–168 ft.\n11. Wyrm, 1,001–2,000 years. 20 HD, AC -10, THAC0 5, combat modifier +11. Fear 45 yd., save −3. Magic resistance 50%. Spells 2/2/2 wizard, 2 priest. Treasure BH + U × 2, 18,000 XP. Body 177–197 ft., tail 168–188 ft.\n12. Great Wyrm, 1,200+ years. 21 HD, AC -11, THAC0 5, combat modifier +12. Fear 50 yd., save −4. Magic resistance 55%. Spells 3/2/2/1 wizard, 2/1 priest. Treasure BH + U × 3, 20,000 XP. Body 197–217 ft., tail 188–208 ft.",
+        "Actions": "Claws and bite. Two claws at 1d8 each and a bite at 4d6. Add the age tier’s combat modifier to each physical damage roll. Claws can strike the front and sides, and the bite also reaches behind. The dragon saves as a fighter of level equal to HD.\nCinnabryl breath. From Juvenile onward, the dragon can breathe once every three rounds, giving up its other attacks that round. It produces a 100-foot cone measuring 5 feet wide at its mouth and 50 feet across at the far end. It depletes all cinnabryl and ruins crimson essence in the cone. The dragon has a cumulative 3% chance per ounce depleted to gain one new Legacy. The cone does not increase with age.",
+        "Other dragon attacks": "Kick. Against a target behind it, deal claw damage. The target rolls Dexterity or lower on 1d20 or is pushed 1d6 feet plus 1 foot per age tier. A pushed target saves vs. petrification with the combat modifier as a penalty or falls. Use one hind leg if also attacking with a claw. No tail slap in the same round.\nSnatch. From Young Adult, dive to grab a target at least two sizes smaller. On a hit there is a 50% chance of pinning its arms. The dragon can drop it, deal automatic claw damage each round, or transfer it to its jaws with another successful attack roll for automatic bite damage each round. Old dragons can snatch two targets. Wyrms and Great Wyrms can carry three by transferring one to the mouth.\nWing buffet. From Young Adult, deal claw damage against a target at either side. It falls unless it rolls at or below Dexterity on 1d20.\nTail slap. From Adult, attack up to the age-tier number of targets at the rear and sides, rolling separately. Each hit deals twice claw damage, and the target saves vs. petrification at a penalty equal to the combat modifier or is stunned for 1d4 + 1 minutes. It can smash light wood or drain a cube of force by one charge per two points of combat modifier, rounded down.\nStall. Hover one round near the ground, then land. During the stall, the dragon can attack with all four legs and its bite, or breathe instead. Debris creates a dust cloud out to the fear radius for one round in suitable terrain. Anyone in it is blinded and cannot cast.\nOptional plummet. From at least 30 feet above the target, land on up to the combat-modifier number of targets, rolling separately for bite damage. Each hit target saves vs. petrification at a penalty equal to the modifier or is pinned and takes the damage again on the next round if the dragon holds it down. It must save again to escape an ongoing pin. The dragon cannot do anything else while plummeting or holding the pin.",
+        "Fear and spellcasting": "From Young Adult, seeing it causes targets under 1 HD and nonaggressive noncarnivores below the dragon’s HD to panic for 4d6 rounds. Other creatures below its HD in a charging dragon’s fear radius or under its flight path at up to 250 feet altitude save vs. petrification with the listed modifier. Failure gives −2 to attack and damage. Creatures at least equal to its HD are immune.\nDetermine its spells from the age tier. A dragon generally casts each spell once per day or more if rolled more than once. Casting is verbal only with casting time 1. It cannot attack, breathe, use innate magic, or do more than glide while casting.",
+        "Red Curse": "The first Legacy requires the dragon to drain at least 1 ounce of cinnabryl with its breath. Juvenile and older dragons are assumed to have 1d4 − 1 random Legacies for each age category from Juvenile onward. Duplicate Legacies stack if possible. Otherwise roll again. Add 1,000 XP per Legacy. A new Legacy costs no ability points. Physical changes appear over a few days, and the dragon can reverse them over the following week.",
+        "Harvested scales": "One hide yields enough cinnabryl-bearing scales for at most one set of armor. A crimson essence alchemist must treat the scales into scale mail using at least one potion of crimson essence. It protects only the wearer. A slashing, piercing, or magical hit dealing more than 15 damage calls for an appropriate item saving throw. On failure the scales lose their protection in a smokepowder-like detonation.",
+        "Printed source": "pp. 21–24"
+      },
+      "ruleNotes": [
+        "Choose an age tier before play. The printed Wyrm and Great Wyrm age ranges overlap.",
+        "The spell totals list slots by spell level. The appendix gives no direct HP damage for the cinnabryl breath. General dragon attacks, fear, and casting follow the Monstrous Manual, Dragons, General. THAC0 uses Dungeon Master Guide Table 39."
+      ]
+    }
+  },
+  {
+    "name": "Greater Shedu",
+    "decision": "separate",
+    "pages": "pp. 94–95",
+    "notes": "Standalone AD&D 2e encounter from the printed appendix.",
+    "statBlock": {
+      "name": "Greater Shedu",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "classification": "Large unique Immortal avatar. Lawful good.",
+      "ac": -2,
+      "hp": 160,
+      "hitDice": "20",
+      "speed": "18, fly 36 (B)",
+      "cr": "",
+      "otherStatistics": "Unique. 6 feet at the shoulder. Leader. Any activity period and terrain. Herbivore. Supra-genius intelligence (20). Fearless morale (20). No treasure. Speaks Enduk, Lammasu, Shedu, Common, and all human and demihuman tongues. Can communicate telepathically with animals, monsters, and plants.",
+      "description": "Idu’s greater shedu avatar has a winged equine body and a bearded humanoid head. It appears to warn the enduks or enlist their help.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Forehooves. Make two attacks, each dealing 4d6 damage.\nAt will. Become ethereal or invisible, or travel through the Astral or Ethereal Plane.\nOnce per day each. Clairaudience, clairvoyance, detect evil, detect magic, disintegrate, domination, foresight, hypnosis, improved invisibility, know alignment, major creation, mass domination, mind bar, plane shift, quest, suggestion, shape change, telekinesis, teleport without error, and wish. Treat powers as 20th level when level applies. The avatar can also cast as a 20th-level priest.\nRead an object. Touch a creature’s belonging to learn its owner’s race, sex, age, alignment, and part of their personal history.",
+        "Defenses": "Constant protection from evil in a 30-foot radius. 95% magic resistance. Immune to acid, cold, electricity, fire, poison, illusions, charms, and other mind-affecting spells.",
+        "Red Curse": "The avatar neither gains Legacies nor requires cinnabryl.",
+        "Printed source": "pp. 94–95"
+      },
+      "thac0": 3,
+      "xp": 22000
+    }
+  },
+  {
+    "name": "Nimmurian Manscorpion",
+    "decision": "separate",
+    "pages": "pp. 73–74",
+    "notes": "Standalone AD&D 2e encounter from the printed appendix.",
+    "statBlock": {
+      "name": "Nimmurian Manscorpion",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "classification": "Large humanoid monster. Neutral evil.",
+      "ac": 7,
+      "hp": null,
+      "hitDice": "6–12",
+      "speed": "12",
+      "cr": "",
+      "otherStatistics": "Rare in tropical and subtropical deserts or caves. Squad or city, usually 8 or more. Carnivore. Intelligence 5–18. Morale 15–18. Treasure J, K, M, Q, with F and U × 10 listed parenthetically. No magic resistance. 60-foot infravision. Stands 6 feet tall, with a 4-foot body and 10-foot tail.",
+      "description": "A manscorpion wears a grimacing mask and protective makeup above ground. Without that protection, the curse of Idu makes sunlight deadly.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Hit Dice, THAC0 and XP": "6 HD: THAC0 15, 975 XP (1,400 with a Legacy).\n7 HD: THAC0 13, 1,400 XP (2,000 with a Legacy).\n8 HD: THAC0 13, 2,000 XP (3,000 with a Legacy).\n9–10 HD: THAC0 11.\n11–12 HD: THAC0 9.\nAdd 1,000 XP for each HD above 8.",
+        "Actions": "Claws and sting. Two front-facing claws deal 1d4 + 1 apiece, or use weapon damage. The tail can strike to any side and deals 1d4 plus poison on a hit.\nSting poison. At 6–8 HD, a failed save vs. poison puts the victim to sleep for 2d8 rounds. At 9–10 HD it deals 3d8 damage on failure. At 11–12 HD, save vs. poison at −2 or die immediately.",
+        "Sunlight and armor": "Armor rated AC 7 or worse improves its AC by only 1. It cannot swim, and water washes off its makeup in 1d4 rounds.\nDirect sun with no makeup deals 1d6 + 2 damage per round until the creature gets underground or reapplies all makeup. Dexterity and morale drop to 3, movement is halved, and it automatically loses initiative. A full turn of continuous exposure kills it in flames. Reflected sunlight, including moonlight or a mirror reflection, deals 1d3 damage without makeup and halves Dexterity and morale. Direct sunlight with 50–99% makeup coverage has the same effects as reflected sunlight.",
+        "Red Curse": "Those who travel into the cursed lands can gain Legacies and need cinnabryl.",
+        "Printed source": "pp. 73–74"
+      }
+    }
+  },
+  {
+    "name": "Spawn of Nimmur",
+    "decision": "separate",
+    "pages": "pp. 97–98, sunlight effects on p. 74",
+    "notes": "Standalone AD&D 2e encounter from the printed appendix.",
+    "statBlock": {
+      "name": "Spawn of Nimmur",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "classification": "Large undead. Neutral evil.",
+      "ac": 4,
+      "hp": null,
+      "hitDice": "11",
+      "speed": "12",
+      "cr": "",
+      "otherStatistics": "Very rare in tropical or subtropical deserts and caves. Solitary, nocturnal, consumes life. Intelligence 5–18. Treasure J, K, M, Q. Fearless morale (19–20). No magic resistance. Stands 6 feet tall, with a 4-foot body and 10-foot tail. Add 2,000 XP if it casts spells.",
+      "description": "A powerful manscorpion can rise at sunset with its flesh burned black and its eyes glowing red. It remembers the combat and magic it wielded in life.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Claws and sting. Two claws at 1d4 + 1 each and a tail sting at 1d4, or use weapon damage. The sting requires a save vs. poison at −3. On failure the victim dies immediately. On success the victim permanently loses 1 point each of Strength, Constitution, and Dexterity.\nRetained abilities. Keep the original manscorpion’s combat and spellcasting abilities. It gains no further levels.",
+        "Defenses": "Turned as a lich. Requires red steel or a magical weapon of +1 or better to hit. Immune to sleep, charm, hold, cold, death magic, poison, and mind-affecting spells. Sunlight harms it as it harms a living Nimmurian manscorpion, but the spawn reforms at night. It heals 1 HP per turn in darkness and can reform from dust. To destroy it permanently, sprinkle its ashes with holy water from a temple of Idu (Ixion), bless them, and scatter them to the four winds.",
+        "Origin and Red Curse": "A manscorpion of at least 11 HD killed by sunlight has a 1% chance per Hit Die to rise at sunset. The ash rite prevents this. A spawn neither gains Legacies nor requires cinnabryl.",
+        "Printed source": "pp. 97–98, sunlight effects on p. 74"
+      },
+      "thac0": 9,
+      "xp": 8000
+    }
+  },
+  {
+    "name": "Ziggurat Horror",
+    "decision": "separate",
+    "pages": "pp. 97–98",
+    "notes": "Standalone AD&D 2e encounter from the printed appendix.",
+    "statBlock": {
+      "name": "Ziggurat Horror",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "classification": "Large undead. Neutral evil.",
+      "ac": 6,
+      "hp": null,
+      "hitDice": "3",
+      "speed": "9",
+      "cr": "",
+      "otherStatistics": "Very rare in tropical and subtropical deserts or caves. Night, 1d4 + 1 per squad. Consumes life. Nonintelligent. No treasure or magic resistance. Morale listed as special. Stands 6 feet tall, with a 4-foot body and 10-foot tail.",
+      "description": "Nimmurian priests make these burned, mindless guards for temple crypts. They resemble spawn of Nimmur and often follow one’s orders.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Claws and sting. Two claws at 1d4 + 1 each and a tail sting at 1d4, or use weapon damage. The sting adds 3d8 poison damage. A save vs. poison halves the poison damage.",
+        "Defenses": "Turned as a zombie. Normal weapons can hit it. Immune to sleep, charm, hold, death magic, poison, and cold-based spells. It has no regeneration.",
+        "Red Curse": "It neither gains Legacies nor requires cinnabryl.",
+        "Printed source": "pp. 97–98"
+      },
+      "thac0": 17,
+      "xp": 420
+    }
+  },
+  {
+    "name": "Utukku",
+    "decision": "separate",
+    "pages": "pp. 114–115",
+    "notes": "Standalone AD&D 2e encounter from the printed appendix.",
+    "statBlock": {
+      "name": "Utukku",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "classification": "Large extraplanar creature. Chaotic evil.",
+      "ac": -2,
+      "hp": null,
+      "hitDice": "10+5",
+      "speed": "15",
+      "cr": "",
+      "otherStatistics": "Common in Carceri and very rare elsewhere. Solitary carnivore. Exceptional intelligence (15–16). Treasure F, R, X. Champion morale (15–16). Height 11–14 feet. 120-foot infravision. Speaks Utukku and can communicate telepathically with intelligent creatures.",
+      "description": "A lion-headed exile from Carceri, with white claws, red scales, and quills for a mane. It sometimes spends a year in the mortal world before returning home.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Claws and bite. Two claw attacks at 4d4 each and one bite at 3d4.\nAt will. Detect invisibility, read languages, know alignment, and detect magic.\nThree times per day each. Teleport without error carrying up to 1,500 pounds, cause fear as a wand of fear, create darkness in a 30-foot radius, and produce a 12d6 lightning bolt.\nOnce per day each. Symbol of discord and control weather as an 18th-level mage.\nOnce per week each. Cause disease by touch and polymorph self into a human or humanoid form for a full day.",
+        "Defenses": "Only weapons with a magical bonus of +1 or higher can hit. 50% magic resistance. Lightning, fire, and poisonous gas deal half damage on a failed save or one-quarter on success. Add +4 to saves vs. poison. Immune to mental probes such as ESP and telepathy.",
+        "Travel and Red Curse": "Once a century the utukku can plane shift from Carceri to the Prime Material Plane. After one year it returns automatically with up to 4,000 pounds of material. It neither gains Legacies nor requires cinnabryl.",
+        "Printed source": "pp. 114–115"
+      },
+      "thac0": 9,
+      "xp": 16000
+    }
+  },
+  {
+    "name": "Wurmling",
+    "decision": "separate",
+    "pages": "pp. 120–121",
+    "notes": "Standalone AD&D 2e encounter from the printed appendix.",
+    "statBlock": {
+      "name": "Wurmling",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "classification": "Huge worm. Lawful evil.",
+      "ac": 5,
+      "hp": null,
+      "hitDice": "10–15",
+      "speed": "24, burrow 3",
+      "cr": "",
+      "otherStatistics": "Very rare in hot climates. Omnivore. Exceptional intelligence (15–16). Treasure A, D. Fanatic morale (17–18). Length 30–45 feet. One wurmling per encounter, with at least 1d4 trusted guards and sometimes up to 4d10. Its wider organization usually has 100–200 retainers.",
+      "description": "This massive worm gathers secrets and hires bodyguards to enforce its bargains. In a fight it can roll over opponents and crush their equipment.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Hit Dice, THAC0 and XP": "10 HD: THAC0 11.\n11–12 HD: THAC0 9.\n13–14 HD: THAC0 7.\n15 HD: THAC0 5.\nStart at 5,000 XP for 10 HD, then add 1,000 XP per additional HD.",
+        "Actions": "Bite and tail. Bite for 2d8 and lash with the tail for 1d8. Treat its Strength as 20 when grabbing or holding something.\nRoll over. With enough room, it can roll onto up to three human-sized or smaller targets. Save vs. paralysis to avoid it. On failure, take 1d4 damage per wurmling Hit Die. It can remain on top for the same damage each subsequent round. On a failed initial save, each of the victim’s possessions must save vs. crushing blow or be destroyed.",
+        "Defenses": "Magic resistance 2% per HD. Immune to scarlet pimpernel hallucinations and mood-altering abilities or proficiencies such as fast talk, intimidation, and bardic charm. Add +3 to saves against mind-altering spells and mind-affecting Legacies.",
+        "Skills and Red Curse": "As a thief of level equal to its HD, it can open locks, find and remove traps, move silently, hear noise, and read languages. It knows one spoken language per 2 HD. It has legend lore and local history, plus information-related nonweapon proficiencies as a thief of the same level. Gain Legacies as an Inheritor of level equal to HD. A 10 HD specimen has five Legacies, a 12 HD specimen has six, and a 15 HD specimen has seven. The first needs no crimson essence. Later Legacies need crimson essence to activate at acquisition and stay permanently. It needs cinnabryl to maintain them. Typical choices are Anti-Poison, Crimson Fire, Digging, Farsight, Red Shield, Shape Stone, and Temperature, or choices suited to Eusdria.",
+        "Printed source": "pp. 120–121"
+      }
+    }
+  },
+  {
+    "name": "Clockwork Swordsman",
+    "decision": "separate",
+    "pages": "pp. 105–107",
+    "notes": "Standalone AD&D 2e encounter from the printed appendix.",
+    "statBlock": {
+      "name": "Clockwork Swordsman",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "classification": "Medium magical construct. Chaotic good.",
+      "ac": 2,
+      "hp": null,
+      "hitDice": "5–10",
+      "speed": "12",
+      "cr": "",
+      "otherStatistics": "Very rare. Solitary. Active any time. No food. Very to exceptional intelligence (11–16). Fearless morale (19–20). Height 6 feet. No magic resistance. A destroyed automaton yields Q × 2 in gems and 1d4 × 1,000 gp in precious metal.",
+      "description": "A clockwork bodyguard that wants to be human. Its flourishes keep opponents off balance, but each damaging strike spends some of the time left in its springs.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Hit Dice, THAC0 and XP": "5 HD: THAC0 15, 650 XP.\n6 HD: THAC0 15, 975 XP.\n7 HD: THAC0 13, 1,400 XP.\n8 HD: THAC0 13, 2,000 XP.\n9–10 HD: THAC0 11, adding 1,000 XP per HD above 8.",
+        "Actions": "Weapons. Two attacks by weapon with +1 to hit and +3 damage for effective Strength 18. It usually carries a rapier and main-gauche or a saber and stiletto. There is a 20% chance it also has a wheellock pistol. Each point of damage it deals costs one hour of activity.\nAdditional action. Roll d100 each round. 01–25 fancy move, parry as a 10th-level fighter and improve AC by 6. 26–45 amusing quip, same parry and a taunt against one target. 46–60 salute or disarm. The salute gives allies +1 to attack for one round per Hit Die. 61–75 compliment, an opposite-sex target saves vs. spell or comes under charm person. 76–90 embarrassing maneuver, make a called shot at no penalty and follow a success with an amusing quip. 91–100 bold fencing attack, gain +2 to attack this round and force the foe back 1d10 steps. Ignore that last result when fewer than 50 hours remain.",
+        "Skills and defenses": "Use the abilities and nonweapon proficiencies of a swashbuckler of level equal to HD, with no fighting school. Proficiency checks succeed on 18 or less. Immune to mind-influencing magic such as charm person and suggestion. ESP and telepathy can still affect it. If exposed to moisture, save vs. poison or take 6d6 damage 1d4 days later. It fears rust monsters.",
+        "Winding": "Maximum runtime is 10 hours per HP, then it goes dormant. Roll d100 for the percentage remaining when encountered, with a 10% minimum. Below 50%, it heads back to its creator. Rewinding restores one hour per round. Attempting to wind it fully has a 10% chance of destroying it. Only its creator can repair it, and it cannot be raised. It cannot rewind itself. Models of at least 9 HD often need a magical key kept by their maker.",
+        "Variants": "A host to a heroic spirit can rewind itself upon obtaining its key. The spirit can stay until the mechanism rusts. A rogue automaton hosts a legacy leech, can rewind without a key, and uses effective Strength 19. It keeps its swashbuckler abilities and can use Legacies its symbiont shares. Ordinary swordsmen neither gain Legacies nor require cinnabryl.",
+        "Printed source": "pp. 105–107"
+      },
+      "ruleNotes": [
+        "The 46–60 result lists disarm as an option without adding a special disarm procedure."
+      ]
+    }
+  }
+]

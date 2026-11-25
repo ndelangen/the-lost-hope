@@ -1,0 +1,36 @@
+{
+  "commit": "516d3c5fbb8dc7b0276ef4262128c0a6d9a06538",
+  "publication": "The Wild Beyond the Witchlight",
+  "encounterVersions": 3,
+  "fullStatBlocks": 3,
+  "witchlightRecordsWithLocalRules": 68,
+  "generatedPortraitsInstalled": 3,
+  "revisedGeneratedPortraits": 3,
+  "creditedGalleriesVerified": 3,
+  "creditedAlternatesVerified": 7,
+  "allRecentVersionsWithGeneratedPortrait": 526,
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "visualComparison": "output/dm-library/review/encounters-23-before-after.jpg",
+  "portraitSheet": "output/dm-library/review/encounters-23-portraits.jpg",
+  "results": "output/dm-library/encounter-batches/23/results.json",
+  "searchResults": "output/dm-library/encounter-batches/23/search-results.json",
+  "nextSourcePublication": "Eberron: Rising from the Last War",
+  "unverifiedNextCandidates": [
+    {
+      "name": "Inspired (Hashalaq variant)",
+      "source": "https://www.dndbeyond.com/monsters/489163-inspired-hashalaq-variant",
+      "challenge": "2"
+    },
+    {
+      "name": "Inspired (Kalaraq variant)",
+      "source": "https://www.dndbeyond.com/monsters/489171-inspired-kalaraq-variant",
+      "challenge": "2"
+    },
+    {
+      "name": "Inspired (Tsucora variant)",
+      "source": "https://www.dndbeyond.com/monsters/489176-inspired-tsucora-variant",
+      "challenge": "2"
+    }
+  ]
+}

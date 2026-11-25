@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Gazer Familiar",
+    "slug": "gazer-familiar",
+    "id": "monster-ed04c8eb08110711ac5a7d75",
+    "entry": "monster-ed04c8eb08110711ac5a7d75",
+    "version": "08000063b0cb9ab6b935ca7d",
+    "suffix": "encounters-22/gazer-familiar.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-22/gazer-familiar.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-22/event-drafts/gazer-familiar-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 22 2026-11-23/event-drafts/gazer-familiar-event-v1.png",
+    "overrides": [],
+    "sha256": "d547dc1bb36ec331395c69616f7887efcc04439b5c3d52ecf054e4d671449745",
+    "bytes": 2650069
+  },
+  {
+    "name": "Guard Drake",
+    "slug": "guard-drake",
+    "id": "monster-bb774307b671c4a54d0d2fd4:4a42c09b940d22b3aeae594f",
+    "entry": "monster-bb774307b671c4a54d0d2fd4",
+    "version": "4a42c09b940d22b3aeae594f",
+    "suffix": "encounters-22/guard-drake.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-22/guard-drake.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-22/event-drafts/guard-drake-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 22 2026-11-23/event-drafts/guard-drake-event-v1.png",
+    "overrides": [],
+    "sha256": "bafb78f8161a9e9a5f6642647c879cb26c43b61cd80fc9bbea117e79f02ff63e",
+    "bytes": 2752052
+  },
+  {
+    "name": "Mind Flayer Lich (Illithilich)",
+    "slug": "mind-flayer-lich-illithilich",
+    "id": "monster-4eb2b6e4a26849f1a28e94c6",
+    "entry": "monster-4eb2b6e4a26849f1a28e94c6",
+    "version": "0f2d0084d80a4923ae9ede65",
+    "suffix": "encounters-22/mind-flayer-lich-illithilich.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-22/mind-flayer-lich-illithilich.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-22/event-drafts/mind-flayer-lich-illithilich-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 22 2026-11-23/event-drafts/mind-flayer-lich-illithilich-event-v1.png",
+    "overrides": [
+      {
+        "entry": "monster-4eb2b6e4a26849f1a28e94c6",
+        "name": "Mind Flayer Lich (Illithilich)",
+        "file": "images/monsters/mind-flayer-lich-illithilich/parchment-portrait.webp",
+        "sha256": "14f44623508b5e99be0ba6f0958a0bdd89900d16123ab81c722c1e274e16c0f7",
+        "credit": "OpenAI ImageGen",
+        "reference": "images/monsters/mind-flayer/mm-1.webp",
+        "appearanceSource": "https://www.dndbeyond.com/monsters/17283-mind-flayer-lich-illithilich",
+        "subjectPrompt": "Undead illithid wizard with elongated bald octopoid skull, gray-green mummified skin stretched on a gaunt face, four distinct withered tendrils sprouting around the mouth, hollow luminous lilac eyes, tall ragged weathered umber and charcoal ceremonial robes, one bony hand clutching a little obsidian phylactery. Full-length original pose. Use the second reference for standard illithid silhouette only and make this figure unmistakably ancient and undead.",
+        "style": "The Lost Hope square gouache and sepia parchment"
+      }
+    ],
+    "sha256": "da3a5b85d7190a108094cee51950557d4495f94941bccbd3222e5b00fc6b4c49",
+    "bytes": 2616150
+  }
+]

@@ -5,6 +5,7 @@ export default createEvent({
   name: 'Enter the tunnel via trapdoor',
   day: 2,
   location: refs.locations.fajanet,
+  illustrations: ['/assets/scenes/enter-the-tunnel-via-trapdoor.png'],
   mark: { type: 'icon', name: 'gi/GiFloorHatch' },
   notes: [
     [

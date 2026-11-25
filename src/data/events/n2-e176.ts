@@ -22,4 +22,5 @@ export default createEvent({
       '. Nobody bought any of them.',
     ],
   ],
+  illustrations: ['/assets/scenes/cassian-buys-a-protective-cloak-and-a-spell-storing-ring.png'],
 })

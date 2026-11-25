@@ -1,0 +1,127 @@
+{
+  "builds": [
+    {
+      "id": "kalashtar-witness-mediator-35e",
+      "title": "Kalashtar witness mediator, Psion 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "difficulty": "Provisional CR 1. ECL 1.",
+      "size": "Medium",
+      "type": "Humanoid (Psionic)",
+      "ac": 11,
+      "hp": 5,
+      "hitDice": "1d4+1",
+      "initiative": 1,
+      "speed": "30 ft.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 13,
+        "CON": 12,
+        "INT": 16,
+        "WIS": 12,
+        "CHA": 13
+      },
+      "skills": [
+        "Bluff +7",
+        "Concentration +5",
+        "Diplomacy +7",
+        "Knowledge (psionics) +7",
+        "Listen +3",
+        "Psicraft +7",
+        "Spot +3"
+      ],
+      "languages": "Common, Quor, Draconic, Riedran",
+      "traits": [
+        "Unarmored with Dexterity +1. Touch 11, flat-footed 10. BAB +0, grapple −1. Fortitude +1, Reflex +1, Will +3.",
+        "+2 racial on saving throws against mind-affecting spells and abilities and against possession.",
+        "Kalashtar sleep. They are immune to dream, nightmare, and other effects that rely on their ability to dream.",
+        "Telepathy discipline. Alertness adds +2 to Listen and Spot, already included. Psionic Talent adds 2 power points.",
+        "Six power points per day. Two base, one bonus from Intelligence, one racial, and two from Psionic Talent. Class manifester level 1, with at most 1 power point spent per manifestation. Save DC 13 + power level."
+      ],
+      "actions": [
+        "Light crossbow +1 ranged, 1d8 piercing, critical 19–20/×2, 80-ft. increment. Reload as a move action.",
+        "Dagger −1 melee, 1d4−1 piercing or slashing, critical 19–20/×2, minimum 1 damage.",
+        "Known 1st-level powers are inertial armor, mind thrust, and mindlink. Each costs 1 power point at this level. Inertial armor gives +4 armor AC for 1 hour. Mind thrust deals 1d10 to one target within 25 ft., Will DC 14 negates, power resistance applies.",
+        "Racial Mindlink (Ps) 1/day is separate from the power point reserve. Resolve it as a Wilder of half the Kalashtar’s Hit Dice, rounded down, minimum manifester level 1. It grants no general manifester levels.",
+        "With the Expanded Psionics Handbook, use its Mindlink rules. At manifester level 1, use a standard action to link with one willing creature of Intelligence 3 or higher within 25 ft. for 10 minutes. The willing target gets no saving throw. Power resistance applies as harmless. Treat it as mind-affecting.",
+        "Once formed, either link carries telepathic communication across any distance on the same plane without requiring a shared language. The bond conveys no influence or control."
+      ],
+      "tactics": "Seravakri asks each witness for permission before opening a mindlink. She listens to both accounts of the warehouse dispute and asks the party to check which crates were signed in. If threatened, she uses inertial armor and withdraws to the public room."
+    },
+    {
+      "id": "kalashtar-quay-interpreter-35e",
+      "title": "Kalashtar quay interpreter, Expert 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "difficulty": "Provisional CR 1/2. ECL 1.",
+      "size": "Medium",
+      "type": "Humanoid (Psionic)",
+      "ac": 13,
+      "hp": 7,
+      "hitDice": "1d6+1",
+      "initiative": 1,
+      "speed": "30 ft.",
+      "abilityScores": {
+        "STR": 10,
+        "DEX": 13,
+        "CON": 12,
+        "INT": 12,
+        "WIS": 14,
+        "CHA": 14
+      },
+      "skills": [
+        "Appraise +5",
+        "Bluff +8",
+        "Decipher Script +5",
+        "Diplomacy +11",
+        "Disguise +6, or +8 to impersonate a human",
+        "Knowledge (local) +5",
+        "Sense Motive +6"
+      ],
+      "languages": "Common, Quor, Riedran",
+      "traits": [
+        "Leather armor +2 and Dexterity +1. Touch 11, flat-footed 12. BAB +0, grapple +0. Fortitude +1, Reflex +1, Will +4.",
+        "+2 racial on saving throws against mind-affecting spells and abilities and against possession.",
+        "Kalashtar sleep. They are immune to dream, nightmare, and other effects that rely on their ability to dream.",
+        "Skill Focus (Diplomacy) adds +3, already included. Each of the seven listed Expert skills has four ranks.",
+        "Naturally Psionic gives one racial power point. Use racial Mindlink once per day without spending that point. Tarenkhad has no known class powers or general manifester level."
+      ],
+      "actions": [
+        "Club +0 melee, 1d6 bludgeoning, critical ×2, 5-ft. reach.",
+        "Light crossbow +1 ranged, 1d8 piercing, critical 19–20/×2, 80-ft. increment. Reload as a move action.",
+        "Racial Mindlink (Ps) 1/day is separate from the power point reserve. Resolve it as a Wilder of half the Kalashtar’s Hit Dice, rounded down, minimum manifester level 1. It grants no general manifester levels.",
+        "With the Expanded Psionics Handbook, use its Mindlink rules. At manifester level 1, use a standard action to link with one willing creature of Intelligence 3 or higher within 25 ft. for 10 minutes. The willing target gets no saving throw. Power resistance applies as harmless. Treat it as mind-affecting.",
+        "Once formed, either link carries telepathic communication across any distance on the same plane without requiring a shared language. The bond conveys no influence or control."
+      ],
+      "tactics": "Tarenkhad has one daily mindlink and saves it for a willing passenger with whom the dock crew shares no language. He asks the party to keep the berth open while he establishes the link and locates the passenger’s missing luggage."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Kalashtar",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Eberron Campaign Setting (2004)",
+      "name": "Seravakri",
+      "build": "kalashtar-witness-mediator-35e",
+      "role": "Witness mediator and Telepath Psion.",
+      "motive": "Resolve a dispute about a signed warehouse delivery before the crates get moved again.",
+      "hook": "Seravakri can speak telepathically with a willing witness while the party checks the warehouse ledger."
+    },
+    {
+      "species": "Kalashtar",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Eberron Campaign Setting (2004)",
+      "name": "Tarenkhad",
+      "build": "kalashtar-quay-interpreter-35e",
+      "role": "Quay interpreter and Expert.",
+      "motive": "Find which berth received the luggage a passenger cannot describe to the dock crew.",
+      "hook": "Tarenkhad can link with the passenger if the party holds the berth and asks for their consent."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "entry": "monster-1d3af2975f7fd4759cd2be32",
+    "slug": "aberrant-zealot-variant",
+    "name": "Aberrant Zealot (Variant)",
+    "revision": "v1",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-26/event-drafts/aberrant-zealot-variant-event-v1.png",
+    "saved": " Backups/Encounter Batch 26 2026-11-23/event-drafts/aberrant-zealot-variant-event-v1.png",
+    "path": "encounters-26/aberrant-zealot-variant.png",
+    "registeredPath": "assets/images/content/dm-library/phandelver-and-below/aberrant-zealot-variant.png",
+    "previous": {
+      "sha256": "b7c7d445ca68d361b65588eee78ed63cc4a5e7e57eed34f5cf6b469231e43075",
+      "bytes": 2498442
+    },
+    "overrides": [
+      {
+        "entry": "monster-1d3af2975f7fd4759cd2be32",
+        "name": "Aberrant Zealot (Variant)",
+        "file": "images/monsters/aberrant-zealot-variant/parchment-portrait.webp",
+        "sha256": "f34e1f572eec5dd2fcd7b8cf38627d102d5265870a717c7721fbbc8171472803",
+        "credit": "OpenAI ImageGen",
+        "reference": "",
+        "appearanceSource": "Phandelver and Below: The Shattered Obelisk",
+        "subjectPrompt": "A single hunched humanoid occult zealot transformed by alien psychic influence. Hollow-eyed ashen face partially framed by dark wet-looking hair and the collar of a tattered moss-black mantle. A few slender green-black tendrils unfurl from an asymmetrical shoulder and curl close to the back, suggesting an unstable body. Worn studded leather under long strips of dark olive cloth and beaten bronze buckles. Human-sized, with lean unnaturally pliant limbs, long fingers and one open hand lifting a dim pale lilac psychic glimmer. Show the whole figure upright, in a wary three-quarter stance. Borrow the silhouette and organic shoulder details from the second reference but use a distinct pose and expression. Keep the face recognizably humanoid, no beak, no octopus head, no eyeball coverage, no wounds, no blood, no other creature.",
+        "style": "The Lost Hope square gouache and sepia parchment"
+      }
+    ],
+    "sha256": "3e0801d8fc40563fa242c1368875e51533ab4751b4875916b2def0ac17494223",
+    "bytes": 2538190
+  },
+  {
+    "entry": "monster-d97d5d8fc29df9373f274601",
+    "slug": "goblin-boss-variant",
+    "name": "Goblin Boss (Variant)",
+    "revision": "v1",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-26/event-drafts/goblin-boss-variant-event-v1.png",
+    "saved": " Backups/Encounter Batch 26 2026-11-23/event-drafts/goblin-boss-variant-event-v1.png",
+    "path": "encounters-26/goblin-boss-variant.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-26/goblin-boss-variant.png",
+    "overrides": [],
+    "sha256": "fd6ca18617bb5bcc3264f5f35f7726a7049297d7b7b87d41ba9457db57bf4338",
+    "bytes": 2692281
+  }
+]

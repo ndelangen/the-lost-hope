@@ -1,0 +1,319 @@
+[
+  {
+    "name": "Poisonous Snake",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 13,
+    "hp": 2,
+    "hitDice": "1d4",
+    "speed": "30 ft., swim 30 ft.",
+    "cr": "1/8",
+    "xp": 25,
+    "abilities": {
+      "Str": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Blindsight 10 ft. Passive Perception 10. No listed skills or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A slender, coral-snake-like reptile with a small black head and narrow bands of muted red, charcoal and cream.",
+    "habitats": [
+      "Forest floor",
+      "Scrub",
+      "Water margins"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Basic Rules (2018), D&D Basic Rules v1.0, November 2018, and printed p. 149. ",
+      "Actions": "Bite. Melee weapon attack, +5 to hit and 5-ft. reach against one target. A hit deals 1 piercing damage and prompts a DC 10 Constitution save. The target takes 5 (2d4) poison damage on a failure, or half on a success."
+    }
+  },
+  {
+    "name": "Poisonous Snake",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 13,
+    "hp": 2,
+    "hitDice": "1d4",
+    "speed": "30 ft., swim 30 ft.",
+    "cr": "1/8",
+    "xp": 25,
+    "abilities": {
+      "Str": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Blindsight 10 ft. Passive Perception 10. No listed skills or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A slender, coral-snake-like reptile with a small black head and narrow bands of muted red, charcoal and cream.",
+    "habitats": [
+      "Forest floor",
+      "Scrub",
+      "Water margins"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), First printing, September 2014, printed p. 334. https://www.dndbeyond.com/sources/dnd/mm-2014",
+      "Actions": "Bite. Melee weapon attack, +5 to hit and 5-ft. reach against one target. A hit deals 1 piercing damage and prompts a DC 10 Constitution save. The target takes 5 (2d4) poison damage on a failure, or half on a success."
+    }
+  },
+  {
+    "name": "Polar Bear",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 12,
+    "hp": 42,
+    "hitDice": "5d10 + 15",
+    "speed": "40 ft., swim 30 ft.",
+    "cr": "2",
+    "xp": 450,
+    "abilities": {
+      "Str": {
+        "score": 20,
+        "modifier": 5
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Natural armor. Perception +3. Passive Perception 13. No listed special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A heavy white-furred bear with a long neck, a tapering head, rounded ears, a black nose and broad paws.",
+    "habitats": [
+      "Arctic coasts",
+      "Sea ice",
+      "Tundra"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Basic Rules (2018), D&D Basic Rules v1.0, November 2018, and printed p. 149. ",
+      "Traits": "Keen Smell. The bear has advantage on Wisdom (Perception) checks that rely on smell.",
+      "Actions": "Multiattack. Make one Bite and one Claws attack.\nBite. Melee weapon attack, +7 to hit and 5-ft. reach against one target. A hit deals 9 (1d8 + 5) piercing damage.\nClaws. Melee weapon attack, +7 to hit and 5-ft. reach against one target. A hit deals 12 (2d6 + 5) slashing damage."
+    }
+  },
+  {
+    "name": "Polar Bear",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 12,
+    "hp": 42,
+    "hitDice": "5d10 + 15",
+    "speed": "40 ft., swim 30 ft.",
+    "cr": "2",
+    "xp": 450,
+    "abilities": {
+      "Str": {
+        "score": 20,
+        "modifier": 5
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Natural armor. Perception +3. Passive Perception 13. No listed special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A heavy white-furred bear with a long neck, a tapering head, rounded ears, a black nose and broad paws.",
+    "habitats": [
+      "Arctic coasts",
+      "Sea ice",
+      "Tundra"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), First printing, September 2014, printed p. 334. https://www.dndbeyond.com/sources/dnd/mm-2014",
+      "Traits": "Keen Smell. The bear has advantage on Wisdom (Perception) checks that rely on smell.",
+      "Actions": "Multiattack. Make one Bite and one Claws attack.\nBite. Melee weapon attack, +7 to hit and 5-ft. reach against one target. A hit deals 9 (1d8 + 5) piercing damage.\nClaws. Melee weapon attack, +7 to hit and 5-ft. reach against one target. A hit deals 12 (2d6 + 5) slashing damage.",
+      "Variant: Cave Bear": "This subterranean bear has coarse dark fur and 60-ft. darkvision. Use the polar bear block for its other mechanics."
+    }
+  },
+  {
+    "name": "Pteranodon",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 13,
+    "hp": 13,
+    "hitDice": "3d8",
+    "speed": "10 ft., fly 60 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Natural armor. Perception +1. Passive Perception 11. No listed special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A flying reptile with a long, toothless beak, a swept copper-brown crest and broad olive-tan membrane wings.",
+    "habitats": [
+      "Coasts",
+      "Sea cliffs",
+      "Tropical islands"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Basic Rules (2018), D&D Basic Rules v1.0, November 2018, and printed p. 150. ",
+      "Traits": "Flyby. Flying out of an enemy’s reach does not provoke an opportunity attack.",
+      "Actions": "Bite. Melee weapon attack, +3 to hit and 5-ft. reach against one target. A hit deals 6 (2d4 + 1) piercing damage."
+    }
+  },
+  {
+    "name": "Pteranodon",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 13,
+    "hp": 13,
+    "hitDice": "3d8",
+    "speed": "10 ft., fly 60 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Natural armor. Perception +1. Passive Perception 11. No listed special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A flying reptile with a long, toothless beak, a swept copper-brown crest and broad olive-tan membrane wings.",
+    "habitats": [
+      "Coasts",
+      "Sea cliffs",
+      "Tropical islands"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), First printing, September 2014, printed p. 80. https://www.dndbeyond.com/sources/dnd/mm-2014",
+      "Traits": "Flyby. Flying out of an enemy’s reach does not provoke an opportunity attack.",
+      "Actions": "Bite. Melee weapon attack, +3 to hit and 5-ft. reach against one target. A hit deals 6 (2d4 + 1) piercing damage."
+    }
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Wemic",
+    "kind": "species",
+    "publication": "Races of Faerûn (2003)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Large Monstrous Humanoid. +8 Strength, +2 Dexterity, +2 Constitution, −2 Charisma. Land speed 40 ft. Darkvision 60 ft. and +4 natural armor.",
+      "Large size imposes −1 on attacks and AC, −4 to Hide, and grants +4 on grapple checks. Space 10 ft., reach 5 ft. The player entry specifies twice Medium lifting and carrying limits.",
+      "+8 racial bonus on Jump. A 40-ft. land speed adds another +4 under the core Jump rule. Jumping is part of movement. A running jump needs 20 ft. of run-up, or the DC doubles.",
+      "Two front claws are natural weapons that deal 1d6 piercing and slashing damage each before Strength. With a one-handed weapon, the player entry allows one secondary claw at −5 on the attack roll and half the Strength bonus to damage.",
+      "Proficient with all simple weapons and shields.",
+      "Five racial Hit Dice (5d8) grant BAB +5, base Fortitude +1, Reflex +4, Will +4, and two feats. Racial skill points are eight times (2 + Intelligence modifier), minimum 1 point per Hit Die before the first-Hit-Die multiplier. Racial class skills are Hide, Jump, Listen, Move Silently, Spot, and Survival.",
+      "A wemic can select Spirited Charge or Trample without meeting the normal prerequisites and apply the feat to its own melee attacks, as the player entry describes.",
+      "Common and Sylvan are automatic. Bonus languages are by region. Favored class Barbarian. LA +3 gives ECL 8 before class levels.",
+      "This profile uses the 2003 player rules and the 2004 conversion’s space and reach. The earlier monster entry has a different weapon-and-claw routine."
+    ]
+  }
+]

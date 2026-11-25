@@ -1,0 +1,55 @@
+[
+  {
+    "name": "Feral Gargun",
+    "kind": "species",
+    "publication": "Races of Stone (2004)",
+    "edition": "3.5 edition",
+    "book": "Races of Stone",
+    "authors": [
+      "David Noonan",
+      "Jesse Decker",
+      "Michelle Lyons"
+    ],
+    "publisher": "Wizards of the Coast",
+    "firstPrinting": "August 2004",
+    "productCode": "620-96567000-001",
+    "isbn": "0-7869-3278-3",
+    "printedPages": {
+      "entry": 89,
+      "appearanceAndArt": 90,
+      "playableTraits": [
+        91,
+        92
+      ],
+      "monsterClassTable": 91
+    },
+    "pdfPages": {
+      "entry": 89,
+      "appearanceAndArt": 90,
+      "playableTraits": [
+        91,
+        92
+      ],
+      "monsterClassTable": 91
+    },
+    "primaryBookScan": "",
+    "primaryBookSha256": "116ee9b23da70166a7c726a51bd2c1b0087882d92a8a1376088f9ce256a5992c",
+    "officialErrataArchive": "https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP",
+    "printedArtCredit": "Thomas Baxa, p. 90. David Day, fallen-log illustration p. 91.",
+    "sourceDistinctions": [
+      "The full package has two Monstrous Humanoid Hit Dice and LA +2. The optional four-level monster class reaches that package.",
+      "At stage 2, use 1d4 claws and actual Medium size for opposed checks. Stage 3 adds 1d6 claws and Powerful Build.",
+      "Goliath Blood applies to race-keyed effects. The full Feral Gargun profile supplies its own natural attacks, resistances, and racial progression.",
+      "Original adventure examples appear separately in Raiders of the High Citadel. The staged NPCs are original."
+    ],
+    "entryId": "species-2992858e03c317fdff792a74",
+    "versionKey": "98460c675b1d4b8cbd903c29",
+    "slug": "feral-gargun",
+    "portraitSelection": "generated",
+    "portraitForm": "Sava of Rethma, an original Feral Gargun Ranger",
+    "npcExamples": [
+      "Sava of Rethma",
+      "Gorren of Vekra"
+    ]
+  }
+]

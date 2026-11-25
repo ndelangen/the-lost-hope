@@ -1,0 +1,75 @@
+[
+  {
+    "name": "Abominable Yeti (Allowak variant)",
+    "query": "shaggy allowak brightheart cold breath",
+    "term": "Paralyzed",
+    "parent": "Abominable Yeti",
+    "publication": "Monster Manual (2014)",
+    "alternates": [
+      {
+        "credit": "Wildemount source token · Explorer's Guide to Wildemount",
+        "url": ""
+      },
+      {
+        "credit": "Related Abominable Yeti art by Vance Kovacs · Monster Manual (2024 rules) · Explorer's Guide to Wildemount",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Husk Zombie Burster",
+    "query": "bloated eastern wynandir burster",
+    "term": "Poisoned",
+    "parent": "Husk Zombie",
+    "publication": "Explorer's Guide to Wildemount",
+    "alternates": [
+      {
+        "credit": "D&D Beyond publisher art · Explorer's Guide to Wildemount",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Lacedon",
+    "query": "aquatic brokenveil marsh lacedon",
+    "term": "Paralyzed",
+    "parent": "Ghoul",
+    "publication": "Monster Manual (2014)",
+    "alternates": [
+      {
+        "credit": "Tales from the Yawning Portal",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Sahuagin Warlock of Uk'otoa (variant)",
+    "query": "rod lucidian ocean sword of fathoms",
+    "term": "Armor of Agathys",
+    "parent": "Sahuagin Warlock of Uk'otoa",
+    "publication": "Explorer's Guide to Wildemount",
+    "alternates": [
+      {
+        "credit": "D&D Beyond publisher art · Explorer's Guide to Wildemount",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Yeti (Allowak variant)",
+    "query": "white fur sanctuary dawnmind gaze",
+    "term": "Paralyzed",
+    "parent": "Yeti",
+    "publication": "Monster Manual (2014)",
+    "alternates": [
+      {
+        "credit": "Wildemount source token · Explorer's Guide to Wildemount",
+        "url": ""
+      },
+      {
+        "credit": "Related Yeti art by Richard Luong · Monster Manual (2024 rules) · Explorer's Guide to Wildemount",
+        "url": ""
+      }
+    ]
+  }
+]

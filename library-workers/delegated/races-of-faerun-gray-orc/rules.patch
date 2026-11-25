@@ -1,0 +1,154 @@
+diff --git a/dm-library/bestiary/book-catalog.json b/dm-library/bestiary/book-catalog.json
+--- a/dm-library/bestiary/book-catalog.json
++++ b/dm-library/bestiary/book-catalog.json
+@@ -315788,6 +315788,23 @@
+       ]
+     },
+     {
++      "name": "Gray Orc",
++      "kind": "species",
++      "publication": "Races of Faerûn (2003)",
++      "edition": "3.5 edition",
++      "traits": [
++        "Medium Humanoid (Orc). +2 Strength, −2 Intelligence, +2 Wisdom, −2 Charisma. Land speed 40 ft.",
++        "Proficient with the greataxe and longbow.",
++        "Light Sensitivity (Ex) gives −1 on attack rolls in bright sunlight or within a daylight spell.",
++        "Scent (Ex). Detect creatures by smell at 30 ft. in still air, 60 ft. upwind and 15 ft. downwind. Use a move action to determine direction. Pinpoint a scent source within 5 ft.",
++        "A character with Track can follow a scent trail using Survival. A fresh trail typically has DC 10, increasing by 2 per hour.",
++        "Orc Blood. Counts as an orc for racial effects and items.",
++        "Common and Orc are automatic. Bonus languages are Draconic, Giant, and Goblin.",
++        "Favored class Cleric. No racial Hit Dice. Level adjustment +1 gives ECL 2 at the first class level.",
++        "This 3.5 profile uses the printed attack-only Light Sensitivity and core Scent rules. The Gray Orc player entry does not grant darkvision."
++      ]
++    },
++    {
+       "edition": "Black Flag Roleplaying",
+       "publication": "Black Flag Roleplaying Reference Document v0.2",
+       "kind": "species",
+diff --git a/dm-library/bestiary/npc-encounters.json b/dm-library/bestiary/npc-encounters.json
+--- a/dm-library/bestiary/npc-encounters.json
++++ b/dm-library/bestiary/npc-encounters.json
+@@ -5667,6 +5667,83 @@
+     {
+       "origin": "Original DM Library NPC",
+       "editions": ["3.5 edition"],
++      "size": "Medium",
++      "type": "Humanoid (Orc)",
++      "senses": "Scent.",
++      "languages": "Common, Orc",
++      "speed": "40 ft.",
++      "id": "gray-orc-stonewick-wayhouse-keeper-35e",
++      "title": "Gray Orc wayhouse keeper, Cleric 2",
++      "difficulty": "Provisional CR 2. ECL 3 (2 class HD, LA +1).",
++      "ac": 15,
++      "hp": 16,
++      "hitDice": "2d8+4",
++      "initiative": 1,
++      "abilityScores": {
++        "STR": 14,
++        "DEX": 12,
++        "CON": 14,
++        "INT": 10,
++        "WIS": 16,
++        "CHA": 10
++      },
++      "skills": ["Concentration +7 (+11 when Combat Casting applies)", "Heal +8"],
++      "traits": [
++        "Neutral evil. Chain shirt +4, Dexterity +1. Touch 11, flat-footed 14, armor check penalty −2. BAB +1, grapple +3. Fortitude +5, Reflex +1, Will +6.",
++        "Light Sensitivity (Ex) gives −1 on attack rolls in bright sunlight or within a daylight spell.",
++        "Scent (Ex). Detect creatures by smell at 30 ft. in still air, 60 ft. upwind and 15 ft. downwind. Use a move action to determine direction. Pinpoint a scent source within 5 ft.",
++        "Cleric of Luthic. Earth domain grants 3 shared uses/day to turn or destroy air creatures or rebuke or command earth creatures. Healing domain adds +1 caster level to Healing spells.",
++        "Combat Casting adds +4 to Concentration while casting defensively, grappled, or pinned."
++      ],
++      "actions": [
++        "Light mace +3 melee, 1d6+2 bludgeoning, critical ×2.",
++        "Caster level 2, or 3 for Healing spells. Four orisons, DC 13 when relevant. Detect magic, guidance, light, and resistance.",
++        "First level, three slots plus one domain slot, DC 14 when relevant. Bless (+1 morale on attacks and saves against fear for 2 minutes), cure light wounds (1d8+3 healing), shield of faith (+2 deflection AC for 2 minutes), and domain magic stone. Spontaneous inflict spells can replace prepared non-domain spells.",
++        "Magic stone enchants up to three pebbles for 30 minutes or until discharged. Thrown stone +3, 1d6+1 bludgeoning or 2d6+2 against undead, 20-ft. range increment.",
++        "Rebuke or command undead 3/day. Turning check 1d20, turning damage 2d6+2. Earth domain has its own pool and the same check and damage."
++      ],
++      "tactics": "Maura keeps a lamp ready at the door and checks arriving travelers for injuries. If the wayhouse comes under attack, she casts bless before moving to cover."
++    },
++    {
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
++      "size": "Medium",
++      "type": "Humanoid (Orc)",
++      "senses": "Scent.",
++      "languages": "Common, Orc",
++      "speed": "40 ft.",
++      "id": "gray-orc-trailmark-windward-tracker-35e",
++      "title": "Gray Orc windward tracker, Ranger 1",
++      "difficulty": "Provisional CR 1. ECL 2 (1 class HD, LA +1).",
++      "ac": 15,
++      "hp": 9,
++      "hitDice": "1d8+1",
++      "initiative": 2,
++      "abilityScores": {
++        "STR": 16,
++        "DEX": 14,
++        "CON": 12,
++        "INT": 10,
++        "WIS": 14,
++        "CHA": 8
++      },
++      "skills": ["Hide +5", "Listen +8", "Move Silently +5", "Search +4", "Spot +8", "Survival +6"],
++      "traits": [
++        "Neutral. Studded leather +3, Dexterity +2. Touch 12, flat-footed 13, armor check penalty −1. BAB +1, grapple +4. Fortitude +3, Reflex +4, Will +2.",
++        "Light Sensitivity (Ex) gives −1 on attack rolls in bright sunlight or within a daylight spell.",
++        "Scent (Ex). Detect creatures by smell at 30 ft. in still air, 60 ft. upwind and 15 ft. downwind. Use a move action to determine direction. Pinpoint a scent source within 5 ft.",
++        "Alertness adds +2 to Listen and Spot, already included. Favored enemy animals gives +2 weapon damage and +2 to Bluff, Listen, Sense Motive, Spot, and Survival used against animals.",
++        "Track is a bonus feat. Wild empathy check 1d20. Magical beasts with Intelligence 1 or 2 impose −4."
++      ],
++      "actions": [
++        "Greataxe +4 melee, 1d12+4 slashing, critical ×3. Longbow +3 ranged, 1d8 piercing, critical ×3, 100-ft. range increment. Add +2 to damage against animals.",
++        "Track by scent with Survival +6, or +8 when tracking animals. Fresh scent trails typically start at DC 10 and rise by 2 per hour."
++      ],
++      "tactics": "Keshen pauses where the trail turns into the wind. He marks the path for the party before moving down to the crossing."
++    },
++    {
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
+       "size": "Small",
+       "type": "Monstrous Humanoid",
+       "senses": "Darkvision 60 ft.",
+@@ -8087,6 +8164,28 @@
+       "hook": "Isette asks the party to hold a line from the dry side while she goes down the steps."
+     },
+     {
++      "species": "Gray Orc",
++      "size": "Medium",
++      "edition": "3.5 edition",
++      "speciesPublication": "Races of Faerûn (2003)",
++      "name": "Maura Stonewick",
++      "build": "gray-orc-stonewick-wayhouse-keeper-35e",
++      "role": "Wayhouse keeper and Cleric of Luthic.",
++      "motive": "Keep the shelter open until the night travelers arrive.",
++      "hook": "Maura asks for help carrying an injured porter out of the rain."
++    },
++    {
++      "species": "Gray Orc",
++      "size": "Medium",
++      "edition": "3.5 edition",
++      "speciesPublication": "Races of Faerûn (2003)",
++      "name": "Keshen Trailmark",
++      "build": "gray-orc-trailmark-windward-tracker-35e",
++      "role": "Windward tracker and Ranger.",
++      "motive": "Find a missing pack animal before it reaches the ravine.",
++      "hook": "Keshen asks the party to wait while he checks where the trail goes upwind."
++    },
++    {
+       "species": "Dragonborn of Bahamut",
+       "size": "Medium",
+       "edition": "3.5 edition",
+diff --git a/dm-library/bestiary/entries.tsv b/dm-library/bestiary/entries.tsv
+--- a/dm-library/bestiary/entries.tsv
++++ b/dm-library/bestiary/entries.tsv
+@@ -4566,6 +4566,7 @@
+ Gray Ooze	monster	Medium Ooze	Black Flag Roleplaying Reference Document v0.2	Black Flag Roleplaying	Kobold Press		1/2
+ Gray Ooze (Psychic)	monster	Ooze	Monster Manual (2014)	2014 fifth edition	Wizards of the Coast		1/2
+ Gray Ooze Glob	monster	Ooze	Heroes of the Borderlands	2024 fifth edition	Wizards of the Coast		1/2
++Gray Orc	species	Humanoid (Orc)	Races of Faerûn (2003)	3.5 edition	Wizards of the Coast	https://books.google.com/books?id=yjoCAAAACAAJ	
+ Gray Render	monster	Monstrosity	Mordenkainen Presents: Monsters of the Multiverse	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/2560836-gray-render	12
+ Gray Render	monster	Monstrosity	Mordenkainen’s Tome of Foes	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/98864-gray-render	12
+ Gray Render	monster	Magical Beast	Revised v3.5 SRD (Monsters)	3.5 edition	Wizards of the Coast		8

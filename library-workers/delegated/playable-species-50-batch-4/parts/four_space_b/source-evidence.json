@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Dracotaur",
+    "publication": "Monster Manual III (3.5, 2004)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "url": "",
+    "creatureType": "Dragon",
+    "printedPages": "pp. 42–43, Dracotaurs as Characters. Official errata dated July 12, 2006.",
+    "sourceDistinctions": [
+      "Separate from Dracon and the Rager sample.",
+      "The entry begins on printed p. 42. The character block starts there and continues on p. 43.",
+      "Used the official Constitution erratum. The printed samples support 1½ Strength damage on the tail even when it is secondary."
+    ],
+    "primaryBookScan": "",
+    "supportingSources": [
+      {
+        "title": "Monster Manual III Errata, July 12, 2006",
+        "page": "p. 2, Pages 42–43: Dracotaur"
+      },
+      {
+        "title": "Player’s Handbook v.3.5",
+        "url": "",
+        "pages": "pp. 22, 37–39, 96, 102, 113–116, 123, 144"
+      }
+    ]
+  },
+  {
+    "name": "Rastipede",
+    "publication": "The Complete Spacefarer's Handbook (1992)",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "url": "",
+    "creatureType": "Insectoid humanoid",
+    "printedPages": "pp. 15–16, 22–23 and 26–27. Spacefarer proficiencies pp. 63–66.",
+    "sourceDistinctions": [
+      "Spelljammer player profile, including its special helm rules where relevant.",
+      "CGR1 PC section gives the exact helm multiplier and racial tunnel checks. The build treats core two-weapon eligibility as applying to a single-class mage."
+    ],
+    "primaryBookScan": "",
+    "supportingSources": [
+      {
+        "title": "AD&D 2e Player’s Handbook",
+        "url": "",
+        "pages": "Tables 1–5, 14–15, 21, 34, 44–46, 53 and 60, plus the individual spell entries"
+      }
+    ]
+  },
+  {
+    "name": "Scro",
+    "publication": "The Complete Spacefarer's Handbook (1992)",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "url": "",
+    "creatureType": "Humanoid (Scro)",
+    "printedPages": "pp. 15–16, 23–24 and 26–27.",
+    "sourceDistinctions": [
+      "Spelljammer Scro. Separate from the Orc player profile.",
+      "The PC section does not give Scro a special movement rate. The build uses movement 12 and assumes the usual unencumbered limit. The bite uses the printed 1d3 as a fixed natural damage entry. Scro stays a standalone exact publication entry."
+    ],
+    "primaryBookScan": "",
+    "supportingSources": [
+      {
+        "title": "AD&D 2e Player’s Handbook",
+        "url": "",
+        "pages": "Tables 1–5, 14–15, 21, 34, 44–46, 53 and 60, plus the individual spell entries"
+      }
+    ]
+  },
+  {
+    "name": "Xixchil",
+    "publication": "The Complete Spacefarer's Handbook (1992)",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "url": "",
+    "creatureType": "Insectoid humanoid",
+    "printedPages": "pp. 15–16 and 24–27. Body Manipulation on pp. 25–26.",
+    "sourceDistinctions": [
+      "Spelljammer player profile. Separate from Thri-kreen and Tosculi.",
+      "CGR1 gives no separate movement rate for this player entry, so the build uses standard humanoid movement 12. The printed two-forelimb rule is used for natural attacks. Anesthetic has its own saving throw sentence, with no specified −4 modifier. The build delivers it using the poison delivery modes and treats the bite poison’s fixed damage as additional to the physical bite.",
+      "The optional Body Manipulation proficiency is a downtime option and the portrait shows the standard six limbs."
+    ],
+    "primaryBookScan": "",
+    "supportingSources": [
+      {
+        "title": "AD&D 2e Player’s Handbook",
+        "url": "",
+        "pages": "Tables 1–5, 14–15, 21, 34, 44–46, 53 and 60, plus the individual spell entries"
+      }
+    ]
+  }
+]

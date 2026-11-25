@@ -35,4 +35,5 @@ export default createEvent({
     { by: refs.pcs.swift_starblade, card: refs.cards.balance },
     { by: refs.pcs.swift_starblade, card: refs.cards.the_sun },
   ],
+  illustrations: ['/assets/scenes/the-first-draws-bring-flight-hunger-whispers-and-a-cloak.png'],
 })

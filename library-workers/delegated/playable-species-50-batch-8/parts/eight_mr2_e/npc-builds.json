@@ -1,0 +1,277 @@
+{
+  "builds": [
+    {
+      "id": "mr2-morkoth-oru-fenwake-5e",
+      "origin": "Original DM Library NPC using Tyler Kamstra’s Monstrous Races 2 player traits",
+      "type": "Aberration",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Morkoth tide collector, Monk 2",
+      "difficulty": "Level 2 class-built NPC. No assigned challenge rating.",
+      "size": "Medium",
+      "ac": 15,
+      "hp": 15,
+      "hitDice": "2d8+2",
+      "initiative": 2,
+      "speed": "30 ft. walk, 35 ft. swim while unarmored",
+      "senses": "Darkvision 60 ft. Passive Perception 14.",
+      "languages": "No spoken languages. Telepathy 30 ft. with anyone who knows a language.",
+      "abilityScores": {
+        "STR": 10,
+        "DEX": 15,
+        "CON": 13,
+        "INT": 13,
+        "WIS": 14,
+        "CHA": 8
+      },
+      "skills": [
+        "Acrobatics +4",
+        "Insight +4",
+        "Perception +4",
+        "Stealth +4"
+      ],
+      "traits": [
+        "Proficiency +2. Saves Str +2 and Dex +4. Unarmored Movement adds 10 ft. to its 20-ft. walk and 25-ft. swim. Amphibious.",
+        "Natural armor gives AC 13 + 2 Dex. Monk Unarmored Defense is an alternate calculation. Oru uses no armor, shield, weapons, or hand-dependent tools.",
+        "Ki 2 per short or long rest that includes 30 minutes of meditation."
+      ],
+      "actions": [
+        "Tentacle. Melee unarmed strike +4 to hit, reach 5 ft., 1d8+2 bludgeoning. After the Attack action with a tentacle, Martial Arts permits one bonus unarmed strike at +4 for 1d4+2 bludgeoning.",
+        "Hypnosis. Action, 30-ft. cone, Wisdom DC 11, concentration up to 1 minute, once per short or long rest. Fail and approach by Dashing or taking actions that bring you closer. Within 5 ft. or as close as safe, stop acting. Affected creatures repeat the save each turn end or when damaged. The charm ends for all targets if Oru loses concentration.",
+        "Ki. After an Attack action, spend 1 ki for two bonus-action unarmed strikes at +4 for 1d4+2 each. Alternatively spend 1 ki for a bonus-action Dodge, or for a bonus-action Dash or Disengage that doubles jumping distance that turn."
+      ],
+      "tactics": "Oru opens with Hypnosis at a narrow crossing, then swims to draw affected creatures away from the shore. It saves ki for dodging or escaping if opponents close in."
+    },
+    {
+      "id": "mr2-neogi-skevril-pell-5e",
+      "origin": "Original DM Library NPC using Tyler Kamstra’s Monstrous Races 2 player traits",
+      "type": "Aberration",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Adult Neogi ledger thief, Rogue 2",
+      "difficulty": "Level 2 class-built NPC. No assigned challenge rating.",
+      "size": "Small",
+      "ac": 14,
+      "hp": 17,
+      "hitDice": "2d8+4",
+      "initiative": 3,
+      "speed": "30 ft. walk, 30 ft. climb",
+      "senses": "Darkvision 60 ft. Passive Perception 13.",
+      "languages": "Common, Deep Speech, Undercommon.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 14,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Deception +1",
+        "Investigation +6",
+        "Perception +3",
+        "Sleight of Hand +5",
+        "Stealth +7"
+      ],
+      "traits": [
+        "Proficiency +2. Saves Dex +5 and Int +4. Fitted leather and Dex give AC 11 + 3. Expertise in Investigation and Stealth. Thieves’ tools +5 with Dex.",
+        "Spider Climb enables ceiling travel without a check. Advantage against charm and fear. Immune to magical sleep.",
+        "Cunning Action. Dash, Disengage, or Hide as a bonus action."
+      ],
+      "actions": [
+        "Dagger. +5 to hit, reach 5 ft. or range 20/60 ft., 1d4+3 piercing.",
+        "Sneak Attack. Add 1d6 to one dagger hit per turn with advantage, or if an active enemy of the target is within 5 ft. of it and Skevril has no disadvantage.",
+        "Enslave. Action, one visible humanoid within 30 ft., Wisdom DC 12. It saves with advantage if fighting Skevril or his companions. A failure charms it as a friendly acquaintance for up to 2 hours with concentration. Harm from Skevril or companions ends it. The victim knows afterward."
+      ],
+      "tactics": "Skevril approaches from a ceiling and attempts Enslave before combat. If cornered, he Disengages as a bonus action and uses Spider Climb to escape."
+    },
+    {
+      "id": "mr2-neothelid-ishrek-below-5e",
+      "origin": "Original DM Library NPC using Tyler Kamstra’s Monstrous Races 2 player traits",
+      "type": "Aberration",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Neothelid tunnel ward, Barbarian 2",
+      "difficulty": "Level 2 class-built NPC. No assigned challenge rating.",
+      "size": "Medium",
+      "ac": 15,
+      "hp": 25,
+      "hitDice": "2d12+6",
+      "initiative": 2,
+      "speed": "30 ft. walk",
+      "senses": "Darkvision 60 ft. Passive Perception 12.",
+      "languages": "Undercommon.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 16,
+        "INT": 8,
+        "WIS": 10,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +5",
+        "Perception +2",
+        "Survival +2",
+        "Stealth +4"
+      ],
+      "traits": [
+        "Proficiency +2. Saves Str +5 and Con +5. AC 15 is natural armor 13 + 2 Dex. Barbarian Unarmored Defense would also give 15. No armor, shield, or held weapons.",
+        "Rage twice per long rest. Bonus action, up to 1 minute. Advantage on Strength checks and saves, resistance to bludgeoning, piercing, and slashing, and +2 damage on Strength-based melee weapon attacks. Rage ends early when unconscious or when a turn ends without attacking a hostile creature since the previous turn or taking damage in that time. It may also end as a bonus action.",
+        "Danger Sense grants advantage on Dexterity saves against effects Ishrek can see, provided it is not blinded, deafened, or incapacitated."
+      ],
+      "actions": [
+        "Flail Tentacles. Melee unarmed strike +5 to hit, reach 5 ft., 1d4+3 bludgeoning plus 1d4 psychic. While raging, increase bludgeoning to 1d4+5.",
+        "Reckless Attack. On its first attack of the turn, Ishrek may decide to gain advantage on this turn’s Strength-based melee weapon attack rolls. Attack rolls against it gain advantage until its next turn.",
+        "Acid Breath. Action, 15-ft. cone, Dexterity DC 13. Fail for 2d6 acid damage or succeed for half. Once per short or long rest.",
+        "Mage Hand. One psionic casting per day, Wisdom. Spectral hand can move up to 30 ft. from Ishrek and carry up to 10 lb. It cannot attack or activate magic items. Ishrek uses it outside rage."
+      ],
+      "tactics": "Ishrek breathes acid across a crowded passage, then rages and uses tentacles in melee. It uses Mage Hand to draw objects across gaps while calm."
+    },
+    {
+      "id": "mr2-tlincalli-sava-reed-salt-5e",
+      "origin": "Original DM Library NPC using Tyler Kamstra’s Monstrous Races 2 player traits",
+      "type": "Monstrosity",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Tlincalli caravan scout, Fighter 2",
+      "difficulty": "Level 2 class-built NPC. No assigned challenge rating.",
+      "size": "Medium",
+      "ac": 18,
+      "hp": 20,
+      "hitDice": "2d10+4",
+      "initiative": 2,
+      "speed": "40 ft. walk",
+      "senses": "Darkvision 60 ft. Passive Perception 13.",
+      "languages": "Tlincalli.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 15,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +5",
+        "Intimidation +1",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "traits": [
+        "Proficiency +2. Saves Str +5 and Con +4. Natural armor and shield give AC 14 + 2 Dex + 2 shield. Dueling adds +2 to damage from the one-handed shortsword. Sava carries only one weapon and a shield.",
+        "Second Wind restores 1d10+2 HP as a bonus action. Action Surge grants one additional action on the current turn. Each recharges on a short or long rest."
+      ],
+      "actions": [
+        "Shortsword. +5 to hit, reach 5 ft., 1d6+5 piercing.",
+        "Sting. Melee unarmed strike +5 to hit, reach 5 ft., 1d8+3 piercing. On the first successful sting after a rest, instead deal 1d4+3 piercing plus 1d4 poison. Constitution DC 12 or poisoned for 1 minute, with a fresh save at each turn end."
+      ],
+      "tactics": "Sava closes with the shield raised. She uses the poisoned sting against a tough opponent, then switches to her sword. She uses Action Surge to attack again or Dash back to her caravan."
+    },
+    {
+      "id": "mr2-wood-woad-wicket-rootmark-5e",
+      "origin": "Original DM Library NPC using Tyler Kamstra’s Monstrous Races 2 player traits",
+      "type": "Plant",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Wood Woad orchard keeper, Fighter 3 (Champion)",
+      "difficulty": "Level 3 class-built NPC. No assigned challenge rating.",
+      "size": "Medium",
+      "ac": 16,
+      "hp": 31,
+      "hitDice": "3d10+9",
+      "initiative": 2,
+      "speed": "30 ft. walk, 30 ft. climb",
+      "senses": "Darkvision 60 ft. Passive Perception 12.",
+      "languages": "Sylvan.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 16,
+        "INT": 8,
+        "WIS": 10,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +5",
+        "Nature +1",
+        "Perception +2",
+        "Survival +2"
+      ],
+      "traits": [
+        "Proficiency +2. Saves Str +5 and Con +5. Natural armor and shield give AC 12 + 2 Dex + 2 shield. Dueling adds 2 damage with the held club. The Champion’s weapon attacks crit on a natural 19 or 20.",
+        "Vulnerable to fire. Immune to charmed and frightened.",
+        "Second Wind restores 1d10+3 HP as a bonus action. Action Surge grants one extra action on its turn. Each recharges on a short or long rest."
+      ],
+      "actions": [
+        "Club. +5 to hit, reach 5 ft., 1d4+5 bludgeoning.",
+        "Weapons of the Forest. As a bonus action, grow a club, shield, or both. A new armament replaces the previous one of its kind. An armament withers if away from Wicket’s hands for more than one round. Wicket may make the club magical for 1 minute once per short or long rest.",
+        "Tree Stride. Bonus action once per turn. Enter a Large or bigger tree at the cost of 10 ft. or more of movement in 5-ft. increments. Exit in an unoccupied space within 5 ft. of a second tree no farther away than twice the movement spent."
+      ],
+      "tactics": "Wicket holds the orchard gate with club and shield. It saves Tree Stride to intercept an intruder who slips past the trees, and uses Action Surge for a second club swing."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Morkoth",
+      "speciesPublication": "Monstrous Races 2",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr2-morkoth-oru-fenwake-5e",
+      "size": "Medium",
+      "name": "Oru Fenwake",
+      "role": "An amphibious collector who retrieves lost cargo from flooded crossings.",
+      "motive": "Oru wants the original owner of a glass compass to explain why it always points downstream.",
+      "hook": "An unfamiliar voice offers the party the compass in exchange for a memory of the last boat to pass."
+    },
+    {
+      "species": "Neogi",
+      "speciesPublication": "Monstrous Races 2",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr2-neogi-skevril-pell-5e",
+      "size": "Small",
+      "name": "Skevril Pell",
+      "role": "A ledger thief who trades routes through abandoned tunnels.",
+      "motive": "Skevril wants the records clerk to erase a debt he bought under a false name.",
+      "hook": "A copy of a stolen ledger lists one debt payable with a name instead of money."
+    },
+    {
+      "species": "Neothelid",
+      "speciesPublication": "Monstrous Races 2",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr2-neothelid-ishrek-below-5e",
+      "size": "Medium",
+      "name": "Ishrek Below",
+      "role": "An awakened worm that guards a tunnel opening from demolition crews.",
+      "motive": "Ishrek wants proof that the tremors above are coming from an abandoned mill.",
+      "hook": "The tunnel ward has moved the party’s missing picks and lamps into a pattern that points at the mill."
+    },
+    {
+      "species": "Tlincalli",
+      "speciesPublication": "Monstrous Races 2",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr2-tlincalli-sava-reed-salt-5e",
+      "size": "Medium",
+      "name": "Sava of Reed Salt",
+      "role": "A caravan scout who plots safe roads through salt flats.",
+      "motive": "Sava wants to learn who keeps moving the cairns that mark a stable route.",
+      "hook": "A caravan sign has changed overnight, and Sava suspects the false trail leads into a sinkhole."
+    },
+    {
+      "species": "Wood Woad",
+      "speciesPublication": "Monstrous Races 2",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr2-wood-woad-wicket-rootmark-5e",
+      "size": "Medium",
+      "name": "Wicket Rootmark",
+      "role": "An orchard guardian whose instructions predate the current orchard owner.",
+      "motive": "Wicket wants someone to confirm whether the original caretaker’s heirs still claim the trees.",
+      "hook": "Wicket blocks a cart loaded with apples and asks the party to read an old carving on the gatepost."
+    }
+  ]
+}

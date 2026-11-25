@@ -1,0 +1,354 @@
+[
+  {
+    "name": "Cerebral Vampire",
+    "decision": "separate",
+    "pages": "pp. 197, 200–202, 216",
+    "notes": "Summarizes the printed 3.5 encounter.",
+    "statBlock": {
+      "name": "Cerebral Vampire",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium Undead (Augmented Humanoid, Vampire)",
+      "ac": 26,
+      "hp": 32,
+      "hitDice": "5d12",
+      "speed": "30 ft.",
+      "cr": "7",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 22
+        }
+      },
+      "otherStatistics": "Adapted from the printed fledgling nosferatu. Initiative +8. Touch AC 14, flat-footed AC 22. BAB +3, grapple +4. Space and reach 5 ft. Fort +3, Ref +7, Will +6.",
+      "description": "This vampire drains a pinned victim’s mind and uses the same lunar powers as a nosferatu.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack or full attack. Choose slam +4 melee (1d6 + 1), +1 rapier +8 melee (1d6 + 2, 18–20), or masterwork heavy crossbow +8 ranged (1d10, 19–20/×2).\nDomination (Su). Standard action on a target within 30 ft. that the vampire can look at. Will DC 18 or dominate person at caster level 12.\nIntelligence Drain (Ex). Pin a living target in a grapple and drain 1d4 Intelligence each round the pin holds. At Intelligence 0 or less the victim becomes catatonic. Use this in place of Blood Drain. The source describes the persistent Domination save as a Blood Drain rider and gives no new rider for this replacement.\nChildren of the Night (Su, 1/day). Standard action to call 1d6 + 1 rat swarms, 1d4 + 1 bat swarms, or 3d6 wolves. They arrive in 2d6 rounds and serve for up to 1 hour.",
+        "Traits": "DR 10/silver and magic, cold and electricity resistance 10, turn resistance +4, spider climb, undead traits. Gaseous form as a standard action at will, with indefinite duration and fly speed 20 ft. (perfect). Alternate Form can assume bat, dire bat, wolf, or dire wolf form. As a standard action assume the listed animal form. Lose the slam and domination, gain the animal’s natural weapons and extraordinary attacks, and retain this form until the next sunrise or another change.\nLunar Regeneration. Direct moonlight converts past damage to nonlethal damage even after apparent death. Heal 3, 4, 6, or 8 per round in crescent, half, gibbous, or full moonlight, plus the age bonus. Fire, acid, and blessed or holy weapons deal normal damage. It can reattach severed limbs. It cannot regenerate a lost limb or recover nonlethal damage with its head detached.\nRestful Sleep. While at 1 HP or more, heal 1 HP per HD per hour in its coffin. Daylight disables supernatural abilities. After exposure to direct sunlight, it must sleep in its coffin for 8 hours to restore them. Existing domination persists, and an alternate form cannot end until powers return.",
+        "Spawn": "If a victim dies while its Intelligence is 0 or less from the drain, it rises under the creator’s control on the next full moon. A victim with 4 or fewer HD returns as spawn and one with 5 or more HD as a cerebral vampire. The creature regains its original Intelligence in undeath. Cerebral spawn also replace Blood Drain with Intelligence Drain. Nosferatu spawn retain charm, gaseous form, spider climb and daylight powerlessness. They heal 2 HP per hour asleep in their coffins if at 1 HP or more, or 2 HP per round in direct full moonlight.",
+        "Repelling and slaying": "Garlic repels it, and a clearly presented holy symbol or mirror keeps it 5 ft. away. It cannot enter a private home without invitation. A stake through the heart kills it while left in place. At 0 HP it collapses but may return in moonlight. Burn the whole body or scatter the severed limbs beyond its minions’ reach. Running water costs one-third of HP each round and destroys it after 3 rounds of immersion.",
+        "Skills and feats": "Bluff +21, Diplomacy +16, Gather Information +11, Hide +12, Intimidate +12, Listen +12, Move Silently +12, Search +13, Sense Motive +15, Spot +12. Alertness, Combat Reflexes, Dodge, Great Fortitude, Improved Initiative, Lightning Reflexes, Skill Focus (Diplomacy), Weapon Finesse.",
+        "Encounter adaptation": "Apply the strain to the 3.5 vampire template. Retain unmodified abilities, size, BAB, saves and skill points. The base vampire uses undead d12 Hit Dice and has no Constitution score. Keep an existing swim speed and ignore vulnerability to immersion in running water if the base creature can swim. Use save DC 10 + half HD rounded down + Charisma modifier unless specified. Age rows replace one another. Nosferatu lack the base vampire’s Energy Drain. Age DR always requires silver and magic. The cerebral subtype changes the feeding attack only.",
+        "Age modifiers": "Apply one row to a base creature. The sample already includes its adjustments. Ability scores are listed in Str, Dex, Int, Wis, Cha order.\nFledgling. Abilities 4/4/2/2/6. Speed +0 ft., natural AC +6, turn resistance +4, CR +2. DR 10, lunar healing +0.\nMature. Abilities 4/4/4/2/8. Speed +10 ft., natural AC +6, turn resistance +4, CR +2. DR 15, lunar healing +0.\nOld. Abilities 6/6/4/4/8. Speed +10 ft., natural AC +7, turn resistance +5, CR +3. DR 15, lunar healing +1.\nAncient. Abilities 6/6/6/4/10. Speed +20 ft., natural AC +7, turn resistance +6, CR +3. DR 20, lunar healing +1.\nEminent. Abilities 8/8/6/6/10. Speed +20 ft., natural AC +8, turn resistance +7, CR +4. DR 20, lunar healing +2.\nPatriarch. Abilities 10/10/8/8/12. Speed +30 ft., natural AC +8, turn resistance +8, CR +5. DR 25, lunar healing +3.",
+        "Printed source": "pp. 197, 200–202, 216"
+      },
+      "ruleNotes": [
+        "The cerebral subtype has no separate stat block. The header and combat stats use the printed nosferatu sample with the explicit feeding substitution."
+      ]
+    }
+  },
+  {
+    "name": "Dwarven Vampire",
+    "decision": "separate",
+    "pages": "pp. 197, 206–208, 217",
+    "notes": "Summarizes the printed 3.5 encounter.",
+    "statBlock": {
+      "name": "Dwarven Vampire",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium Undead (Augmented Humanoid, Vampire)",
+      "ac": 29,
+      "hp": 32,
+      "hitDice": "5d12",
+      "speed": "20 ft.",
+      "cr": "8",
+      "abilities": {
+        "Str": {
+          "score": 22
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "otherStatistics": "Fledgling sample, 5th-level dwarf fighter. Initiative +6. Touch AC 11, flat-footed AC 28. BAB +5, grapple +11. Space and reach 5 ft. Fort +4, Ref +5, Will +3.",
+      "description": "This armored revenant tracks movement through stone and can retreat inside a wall.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack or full attack. Choose slam +11 melee (1d6 + 6 and 1d4 Strength drain to a living target), +1 dwarven waraxe +14 melee (1d10 + 9, ×3) or throwing axe +7 ranged (1d6 + 6).\nTerror Gaze (Su). Standard action to target a creature it can see within 30 ft. The target need not see the vampire. DC 12 Will Fear save. Failure by 1–5 leaves the target shaken, 6–10 frightened, and 11 or more panicked. Fear lasts 5d6 rounds. Failure by 16 or more also prompts a Horror save at DC 7, the Fear DC minus 5. A further failed Fear save worsens shaken to frightened or frightened to panicked.\nBlood Drain (Ex). Pin a living target in a grapple. Each round the pin holds, drain 1d4 Constitution and gain 5 temporary HP.\nChildren of the Night (Su, 1/day). Standard action to call 2d8 badgers, 2d6 wolverines, or 2d4 thoqquas. They arrive in 2d6 rounds and serve up to 1 hour.",
+        "Traits": "DR 10/cold iron and magic, cold and electricity resistance 20, darkvision 60 ft., turn resistance +4, and undead traits. SR 12 cannot be lowered. A dwarven vampire must overcome its own SR to cast spells. Tremorsense pinpoints creatures touching stone within 60 ft.\nStonewalk (Su). At will as a standard action merge into solid stone and travel through it at 20 ft. Remain merged indefinitely. At 1 HP or more, fast healing is 1 aboveground or 5 underground. At 0 HP or less it retreats through stone to its coffin within 2 hours or is destroyed. After 1 hour in the coffin it reaches 1 HP and resumes healing.",
+        "Spawn": "A dwarf drained to Constitution 0 or less must be laid underground in a stone sarcophagus. The creator sprinkles the body with powdered metals. The victim rises 1d4 days later and remains controlled until its creator dies. At 4 HD or fewer it becomes spawn, otherwise a dwarven vampire. Dwarven spawn have DC 14 Fear Gaze, the same Strength Drain, Blood Drain and Stonewalk, and heal 2 HP per round only underground.",
+        "Repelling and slaying": "Mirrors and presented holy symbols repel it. An unbroken line of metal shavings blocks it even through stone. It can enter only structures built at least partly from stone and earth. In sunlight it can take only standard actions and turns to stone the next round unless it escapes. Stone to flesh reverses this. Mineral-spring water burns like holy water and immersion in a natural spring removes one-third of HP per round, destroying it after 3 rounds. Natural stone through the heart kills it while left in place. To make the death permanent, the book requires the heart to soak in oil for three days, then burn to ash in a dwarven forge.",
+        "Skills and feats": "Appraise +3, Bluff +8, Climb +14, Craft (weaponsmithing) +9, Hide +10, Intimidate +2, Listen +12, Move Silently +10, Ride +7, Search +9, Sense Motive +10, Spot +12. Alertness, Cleave, Combat Reflexes, Dodge, Exotic Weapon Proficiency (dwarven waraxe), Improved Initiative, Lightning Reflexes, Power Attack, Weapon Focus and Weapon Specialization (dwarven waraxe).",
+        "Encounter adaptation": "Apply the strain to the 3.5 vampire template. Retain unmodified abilities, size, BAB, saves and skill points. The base vampire uses undead d12 Hit Dice and has no Constitution score. Keep an existing swim speed and ignore vulnerability to immersion in running water if the base creature can swim. Use save DC 10 + half HD rounded down + Charisma modifier unless specified. Age rows replace one another. Apply only to a dwarf. Age DR always requires cold iron and magic. The two listed fast healing numbers are aboveground and underground.",
+        "Age modifiers": "Apply one row to a base creature. The sample already includes its adjustments. Ability scores are listed in Str, Dex, Int, Wis, Cha order.\nFledgling. Abilities 6/2/2/2/4. Speed +0 ft., natural AC +8, turn resistance +4, CR +3. DR 10, fast healing 1/5, SR 12.\nMature. Abilities 8/2/4/2/4. Speed +0 ft., natural AC +8, turn resistance +4, CR +3. DR 15, fast healing 1/5, SR 14.\nOld. Abilities 8/4/4/4/6. Speed +10 ft., natural AC +9, turn resistance +5, CR +4. DR 15, fast healing 2/6, SR 16.\nAncient. Abilities 10/4/6/4/6. Speed +10 ft., natural AC +9, turn resistance +6, CR +4. DR 20, fast healing 2/7, SR 18.\nEminent. Abilities 10/6/6/6/8. Speed +20 ft., natural AC +10, turn resistance +7, CR +5. DR 20, fast healing 3/8, SR 20.\nPatriarch. Abilities 12/8/8/8/10. Speed +30 ft., natural AC +10, turn resistance +8, CR +6. DR 25, fast healing 3/10, SR 22.",
+        "Printed source": "pp. 197, 206–208, 217"
+      },
+      "ruleNotes": [
+        "The sample prints initiative +6 and flat-footed AC 28. Keep these values even if recalculating from the rest of the stat line."
+      ]
+    }
+  },
+  {
+    "name": "Elven Vampire",
+    "decision": "separate",
+    "pages": "pp. 197, 208–211, 217",
+    "notes": "Summarizes the printed 3.5 encounter.",
+    "statBlock": {
+      "name": "Elven Vampire",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium Undead (Augmented Humanoid, Vampire)",
+      "ac": 22,
+      "hp": 32,
+      "hitDice": "5d12",
+      "speed": "30 ft.",
+      "cr": "7 (derived)",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 26
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "otherStatistics": "Fledgling sample, 5th-level elf ranger. Initiative +12. Touch AC 18, flat-footed AC 15. BAB +5, grapple +9. Space and reach 5 ft. Fort +5, Ref +12, Will +5.",
+      "description": "This vampire veils its scarred face and retreats through living trees. Darkness and the underground threaten it.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack or full attack. Choose slam +9 melee (1d6 + 4 and 1d4 Charisma drain to a living creature), +1 longsword +10 melee (1d8 + 4, 18–20), or +1 mighty composite longbow +14 ranged (1d8 + 4, ×3). A target below Charisma 3 gains the book’s lost-one madness effect. At Charisma 0 or less the victim dies within 2d6 hours.\nWretched Gaze (Su). Anyone within 30 ft. who sees its face makes a DC 11 Will Horror save or freezes. The victim is flat-footed and unable to act until 1d4 rounds after losing sight of its face.\nBlack Thumb (Su). A plant touched by its bare skin makes a DC 11 Fortitude save or takes 1d4 HP damage per minute until it dies. This cannot be suppressed. Destroying the vampire ends the effect.\nSpell-like abilities. At caster level 12, 3/day each entangle, snare, spike growth and warp wood. 1/day each antilife shell, giant vermin and wall of thorns. Save DC 9 + spell level.\nChildren of the Night (Su, 1/day). Call 5d10 hawks, 3d10 eagles, 3d6 wolves, or 6d10 HD of Tiny or Diminutive mammals. They arrive in 2d6 rounds and serve up to 1 hour.",
+        "Traits": "DR 10/cold iron and magic, cold and electricity resistance 20, turn resistance +2, fast healing 4, undead traits, favored enemy (goblinoids +2, elves +1), Track. Plantwalk uses tree stride at will as a standard action and exposes both trees to Black Thumb. Alternate Form uses an eagle or giant eagle. As a standard action assume the listed animal form. Lose the slam and domination, gain the animal’s natural weapons and extraordinary attacks, and retain this form until the next sunrise or another change.",
+        "Spawn": "An elf or half-elf who dies from the madness caused by the drain rises as spawn 1d4 days after burial. A victim killed by draining Charisma to 0 or less rises as spawn at 4 HD or fewer and as an elven vampire at 5 HD or more. The creator controls them until it dies. Elven spawn retain 1d4 Charisma drain, Plantwalk, 2 HP fast healing, DC 14 Horror gaze, and DC 14 Black Thumb limited to 10 rounds.",
+        "Repelling and slaying": "An unbroken line of fragrant petals plucked within 1 day stops it. Music forces a Will save matching the Perform check or it stops to listen, with another save each minute. An attack ends the effect. Underground it takes 1d4 damage per round and loses fast healing and supernatural and spell-like powers. Between sunset and sunrise it must be in its coffin or can take only standard actions before being destroyed on the next round. Running water has no power over it. Fresh sap burns like holy water. A charcoal stake kills it while left through its heart. For permanent destruction, the book has its severed head burned with flowers and flowering shrubs for at least 24 hours. At 0 HP it retreats via Plantwalk and is destroyed if caught outside a tree for more than 2 consecutive rounds before reaching its coffin. After 1 hour in the coffin it reaches 1 HP and resumes healing.",
+        "Skills and feats": "Bluff +10, Hide +20, Handle Animal +7, Knowledge (nature) +9, Listen +15, Move Silently +20, Search +11, Sense Motive +11, Spot +15, Survival +11. Alertness, Combat Reflexes, Dodge, Improved Initiative, Lightning Reflexes, Point-Blank Shot, Precise Shot.",
+        "Encounter adaptation": "Apply the strain to the 3.5 vampire template. Retain unmodified abilities, size, BAB, saves and skill points. The base vampire uses undead d12 Hit Dice and has no Constitution score. Keep an existing swim speed and ignore vulnerability to immersion in running water if the base creature can swim. Use save DC 10 + half HD rounded down + Charisma modifier unless specified. Age rows replace one another. Apply only to an elf. Age DR requires cold iron and magic. The Outcast Rating (OR) adjustment applies when dealing with non-elven vampires.",
+        "Age modifiers": "Apply one row to a base creature. The sample already includes its adjustments. Ability scores are listed in Str, Dex, Int, Wis, Cha order.\nFledgling. Abilities 4/8/2/4/0. Speed +0 ft., natural AC +4, turn resistance +2, CR +2. DR 10, fast healing 4, OR +2.\nMature. Abilities 4/10/4/4/0. Speed +10 ft., natural AC +4, turn resistance +2, CR +2. DR 15, fast healing 4, OR +2.\nOld. Abilities 6/10/4/6/2. Speed +10 ft., natural AC +5, turn resistance +3, CR +3. DR 15, fast healing 5, OR +3.\nAncient. Abilities 6/12/6/6/2. Speed +20 ft., natural AC +5, turn resistance +4, CR +3. DR 20, fast healing 5, OR +3.\nEminent. Abilities 8/12/6/8/4. Speed +20 ft., natural AC +6, turn resistance +5, CR +4. DR 20, fast healing 6, OR +4.\nPatriarch. Abilities 10/14/8/10/6. Speed +30 ft., natural AC +6, turn resistance +6, CR +5. DR 25, fast healing 8, OR +5.",
+        "Printed source": "pp. 197, 208–211, 217"
+      },
+      "ruleNotes": [
+        "The ranger sample omits CR. CR 7 is derived from the 5th-level ranger and the fledgling’s +2 modifier. Its printed AC is 22 despite components adding to 23. Keep the printed AC, touch, and flat-footed values."
+      ]
+    }
+  },
+  {
+    "name": "Gnomish Vampire",
+    "decision": "separate",
+    "pages": "pp. 197, 211–214, 217",
+    "notes": "Summarizes the printed 3.5 encounter.",
+    "statBlock": {
+      "name": "Gnomish Vampire",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Small Undead (Augmented Humanoid, Vampire)",
+      "ac": 23,
+      "hp": 35,
+      "hitDice": "5d12 + 3",
+      "speed": "20 ft., fly 20 ft. (perfect) in spectral form",
+      "cr": "6",
+      "abilities": {
+        "Str": {
+          "score": 8
+        },
+        "Dex": {
+          "score": 20
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 18
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "otherStatistics": "Fledgling sample, 5th-level gnome illusionist. Initiative +9. Touch AC 16, flat-footed AC 18. BAB +2, grapple +5. Space and reach 5 ft. Fort +2, Ref +9, Will +9.",
+      "description": "A mute illusionist that escapes in the form of a floating light. It needs a living response at the door before it can enter.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack or full attack. Choose slam +2 melee (1d4 − 1 and 1d4 permanent Dexterity drain to a living target), dagger +2 melee (1d4 − 1), or +1 light crossbow +9 ranged (1d8, 19–20/×2).\nMocking Grin (Su). Once per 10 minutes, standard action. Anyone within 30 ft. who sees its face makes a DC 13 Will save or suffers hideous laughter for 1d6 rounds as if cast at level 12. Different creature types get no save bonus. The fledgling deals 1d4 damage each round they laugh.\nAnimal Domination (Su). Standard action on an animal within 30 ft. that the vampire can look at. Will DC 13 or fall under domination as dominate person at caster level 12.\nBlood Drain (Ex). Pin a living target in a grapple. Each round the pin holds, drain 1d4 Constitution and gain 5 temporary HP.\nDisguise Self (Sp). At will as a standard action, caster level 12, with indefinite duration. Innate spell-like ability saves use 11 + spell level.",
+        "Spellcasting": "Printed slots 5/5/4/3 at levels 0–3, DC 14 + spell level. 0: dancing lights, detect magic, ghost sound, mage hand, prestidigitation. 1: color spray, feather fall, magic missile, unseen servant, ventriloquism. 2: glitterdust, hypnotic pattern, levitate, mirror image. 3: displacement, invisibility sphere, stinking cloud. It is mute and must use Silent Spell for spells with verbal components. Its printed gear includes a wand of burning hands and potions of cat’s grace and invisibility.",
+        "Traits": "DR 10/silver and magic, resistance 20 to cold, electricity and fire, fast healing 3, turn resistance +4, rat familiar, undead traits. Metal weapons pass through it. Extra damage from a magical weapon, such as fire, can still hurt it. Automatically disbelieves illusions. Spider climb works only on inorganic surfaces. Spectral Form is a standard action. It becomes an incorporeal light indefinitely and flies 20 ft. (perfect), but cannot cross force effects, living creatures, or once-living material.",
+        "Spawn": "It creates no vampire spawn. To create a gnomish vampire, drain a gnome with 5 HD or more to Constitution 0 or less and lie over the corpse in its own sarcophagus for three full days without leaving. The new vampire remains controlled until its creator dies.",
+        "Repelling and slaying": "Silver-backed mirrors and clearly presented holy symbols repel it. A displayed jewel forces a Will save against the presenter’s Charisma check or it stares for 2d4 rounds. An attack ends this immediately. It cannot enter a building until it knocks once and a living creature answers. At 0 HP it escapes in spectral form, reaching its coffin within 2 hours or dying. After 1 hour inside it reaches 1 HP and resumes fast healing. Direct sunlight destroys it unless it escapes in a single standard action. A silver spike through the heart kills it while left in place. The book gives a burial ritual requiring its hands boiled for 24 hours in a volcanic spring and its eyes replaced with gems worth at least 100 gp each before sealing its masterwork wooden coffin.",
+        "Skills and feats": "Craft (alchemy) +14, Bluff +9, Concentration +9, Hide +13, Knowledge (undead lore) +9, Listen +16, Move Silently +13, Search +14, Sense Motive +12, Spellcraft +14, Spot +14. Alertness, Combat Casting, Combat Reflexes, Dodge, Improved Initiative, Lightning Reflexes, Scribe Scroll, Silent Spell, Toughness.",
+        "Encounter adaptation": "Apply the strain to the 3.5 vampire template. Retain unmodified abilities, size, BAB, saves and skill points. The base vampire uses undead d12 Hit Dice and has no Constitution score. Keep an existing swim speed and ignore vulnerability to immersion in running water if the base creature can swim. Use save DC 10 + half HD rounded down + Charisma modifier unless specified. Age rows replace one another. Apply only to a gnome. Age DR requires silver and magic.",
+        "Age modifiers": "Apply one row to a base creature. The sample already includes its adjustments. Ability scores are listed in Str, Dex, Int, Wis, Cha order.\nFledgling. Abilities 0/6/2/6/4. Speed +0 ft., natural AC +6, turn resistance +4, CR +1. DR 10, fast healing 3, laugh damage 1d4.\nMature. Abilities 0/8/2/8/4. Speed +10 ft., natural AC +6, turn resistance +4, CR +1. DR 15, fast healing 3, laugh damage 1d6.\nOld. Abilities 2/8/4/8/6. Speed +10 ft., natural AC +7, turn resistance +5, CR +2. DR 15, fast healing 5, laugh damage 1d8.\nAncient. Abilities 2/10/4/10/6. Speed +20 ft., natural AC +7, turn resistance +5, CR +2. DR 20, fast healing 5, laugh damage 1d8.\nEminent. Abilities 4/10/6/10/8. Speed +20 ft., natural AC +8, turn resistance +6, CR +3. DR 20, fast healing 6, laugh damage 1d10.\nPatriarch. Abilities 6/12/8/12/10. Speed +30 ft., natural AC +8, turn resistance +7, CR +4. DR 25, fast healing 8, laugh damage 1d10.",
+        "Printed source": "pp. 197, 211–214, 217"
+      },
+      "ruleNotes": [
+        "Conjuration and Necromancy are the sample’s printed prohibited schools, but its spell list includes Conjuration spells. The list preserves the printing. Under standard 3.5 preparation, select legal replacements using the sample’s slots and apply Silent Spell where required. Its printed grapple +5 is also inconsistent with its size and Strength."
+      ]
+    }
+  },
+  {
+    "name": "Halfling Vampire",
+    "decision": "separate",
+    "pages": "pp. 197, 214–217",
+    "notes": "Summarizes the printed 3.5 encounter.",
+    "statBlock": {
+      "name": "Halfling Vampire",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Small Undead (Augmented Humanoid, Vampire)",
+      "ac": 26,
+      "hp": 32,
+      "hitDice": "5d12",
+      "speed": "20 ft.",
+      "cr": "6",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 24
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "otherStatistics": "Fledgling sample, 5th-level halfling rogue. Initiative +21. Touch AC 18, flat-footed AC 19. BAB +5, grapple +5. Space and reach 5 ft. Fort +3, Ref +15, Will +5.",
+      "description": "This swift ambusher cannot outrun its grave’s pull. A storm can destroy it even when weapons cannot.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack or full attack. Choose slam +4 melee (1d4 and 1d4 Strength damage plus 1d4 Dexterity damage to a living target), or +1 dagger +13 melee or ranged (1d4, 19–20/×2). Sneak attack adds 3d6 when applicable.\nFatigue Aura (Su). A living creature coming within 60 ft. makes a DC 14 Will save. Failure fatigues it for 1d6 rounds, or exhausts it for that duration if already fatigued.\nBlood Drain (Ex). Pin a living target in a grapple. Each round the pin holds, drain 1d4 Constitution and gain 5 temporary HP.\nSpell-like abilities. At will purify food and water, 3/day create food and water, caster level 12. At will as a standard action it can despoil 12 cubic ft. of food and water. The Despoil text gives save DC 10 + Charisma modifier (12 here), while the sample gives DC 12 + spell level for spell-like abilities.\nChildren of the Night (Su, 1/day). Standard action to call 4d8 dogs or 4d10 cats. They arrive in 2d6 rounds and serve up to 1 hour.",
+        "Traits": "Cold and electricity resistance 20, turn resistance +4, undead traits, evasion and uncanny dodge. Padfoot makes its movement silent. Gaseous form smells like pipe tobacco, gives fly 20 ft. (perfect), and can be maintained indefinitely. Alternate Form can assume a boar, dog, riding dog, or owl. As a standard action assume the listed animal form. Lose the slam and domination, gain the animal’s natural weapons and extraordinary attacks, and retain this form until the next sunrise or another change. Fast healing is 3 when the moon is less than half full, 4 at half or gibbous, and 5 on the three nights of the full moon. At 0 HP it takes gaseous form and retreats to its coffin. It is destroyed if it cannot reach the coffin within 2 hours. At the coffin it remains helpless for 1 hour, reaches 1 HP, and then resumes fast healing.",
+        "Spawn": "A halfling slain by Constitution drain becomes spawn at 4 HD or fewer and a halfling vampire at 5 HD or more. Both remain controlled until their creator dies. Halfling spawn are Small with +1 size to attack and AC and retain DC 14 Fatigue Aura. Their slam deals just 1d4 Strength damage as its special rider. Blood Drain, gaseous form and fast healing use ordinary spawn rules.",
+        "Repelling and slaying": "Heavy tobacco smoke other than its own gaseous form repels it. So does a clearly presented holy symbol. A hearth fire bars it from the room and an upright horseshoe over a doorway or window bars passage. It can rest only within 1 mile of its original grave. Sunlight leaves one chance to escape before destruction next round. Running water costs one-third of HP each round and destroys it after 3 rounds of immersion. Rain deals 1d6 acid per round, a thunderstorm 1d8 and a hurricane 1d10. At 0 HP or less from rain it is destroyed. Only a still-burning wooden stake fresh from a hearth kills it while left in place. The book gives permanent destruction if its severed hands and feet burn in a hearth for three hours.",
+        "Skills and feats": "Balance +15, Bluff +18, Climb +10, Disable Device +11, Disguise +10, Forgery +11, Hide +23, Jump +10, Listen +14, Move Silently +17, Open Lock +15, Search +11, Sense Motive +10, Spot +12, Tumble +15. Alertness, Combat Reflexes, Dodge, Improved Initiative, Lightning Reflexes, Shield Proficiency, Weapon Finesse.",
+        "Encounter adaptation": "Apply the strain to the 3.5 vampire template. Retain unmodified abilities, size, BAB, saves and skill points. The base vampire uses undead d12 Hit Dice and has no Constitution score. Keep an existing swim speed and ignore vulnerability to immersion in running water if the base creature can swim. Use save DC 10 + half HD rounded down + Charisma modifier unless specified. Age rows replace one another. Apply only to a halfling. Fast healing numbers correspond to less than half, half or gibbous, and the three nights of the full moon.",
+        "Age modifiers": "Apply one row to a base creature. The sample already includes its adjustments. Ability scores are listed in Str, Dex, Int, Wis, Cha order.\nFledgling. Abilities 0/6/2/4/6. Speed +0 ft., natural AC +6, turn resistance +4, CR +1. Fast healing 3/4/5.\nMature. Abilities 0/6/2/6/8. Speed +10 ft., natural AC +6, turn resistance +4, CR +1. Fast healing 3/4/5.\nOld. Abilities 2/8/4/6/8. Speed +10 ft., natural AC +7, turn resistance +5, CR +2. Fast healing 4/5/6.\nAncient. Abilities 2/8/4/8/10. Speed +20 ft., natural AC +7, turn resistance +6, CR +2. Fast healing 4/5/6.\nEminent. Abilities 4/10/6/8/10. Speed +20 ft., natural AC +8, turn resistance +7, CR +3. Fast healing 5/6/8.\nPatriarch. Abilities 6/12/8/10/12. Speed +30 ft., natural AC +8, turn resistance +8, CR +4. Fast healing 6/8/10.",
+        "Printed source": "pp. 197, 214–217"
+      },
+      "ruleNotes": [
+        "Initiative +21 and BAB/grapple +5/+5 are printed and kept. The sample does not list the base vampire’s damage reduction."
+      ]
+    }
+  },
+  {
+    "name": "Nosferatu",
+    "decision": "separate",
+    "pages": "pp. 197, 200–202, 216",
+    "notes": "Summarizes the printed 3.5 encounter.",
+    "statBlock": {
+      "name": "Nosferatu",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium Undead (Augmented Humanoid, Vampire)",
+      "ac": 26,
+      "hp": 32,
+      "hitDice": "5d12",
+      "speed": "30 ft.",
+      "cr": "7",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 22
+        }
+      },
+      "otherStatistics": "Fledgling sample, 5th-level human aristocrat. Initiative +8. Touch AC 14, flat-footed AC 22. BAB +3, grapple +4. Space and reach 5 ft. Fort +3, Ref +7, Will +6.",
+      "description": "A nosferatu can return from apparent death in direct moonlight. By day, it relies on servants already under its control.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack or full attack. Choose slam +4 melee (1d6 + 1), +1 rapier +8 melee (1d6 + 2, 18–20), or masterwork heavy crossbow +8 ranged (1d10, 19–20/×2).\nDomination (Su). Standard action on a target within 30 ft. that the vampire can look at. Will DC 18 or dominate person at caster level 12.\nBlood Drain (Ex). Pin a living target in a grapple. Each round the pin holds, drain 1d4 Constitution and gain 5 temporary HP. Each victim of Blood Drain must also make a DC 18 Will save or be dominated until break enchantment succeeds or the vampire dies.\nChildren of the Night (Su, 1/day). Standard action to call 1d6 + 1 rat swarms, 1d4 + 1 bat swarms, or 3d6 wolves. They arrive in 2d6 rounds and serve for up to 1 hour.",
+        "Traits": "DR 10/silver and magic, cold and electricity resistance 10, turn resistance +4, spider climb, undead traits. Gaseous form as a standard action at will, with indefinite duration and fly speed 20 ft. (perfect). Alternate Form can assume bat, dire bat, wolf, or dire wolf form. As a standard action assume the listed animal form. Lose the slam and domination, gain the animal’s natural weapons and extraordinary attacks, and retain this form until the next sunrise or another change.\nLunar Regeneration. Direct moonlight converts past damage to nonlethal damage even after apparent death. Heal 3, 4, 6, or 8 per round in crescent, half, gibbous, or full moonlight, plus the age bonus. Fire, acid, and blessed or holy weapons deal normal damage. It can reattach severed limbs. It cannot regenerate a lost limb or recover nonlethal damage with its head detached.\nRestful Sleep. While at 1 HP or more, heal 1 HP per HD per hour in its coffin. Daylight disables supernatural abilities. After exposure to direct sunlight, it must sleep in its coffin for 8 hours to restore them. Existing domination persists, and an alternate form cannot end until powers return.",
+        "Spawn": "A humanoid or monstrous humanoid drained to Constitution 0 or less rises on the next full moon. At 4 HD or fewer it becomes spawn, otherwise a nosferatu. Spawn remain controlled until the creator dies. Nosferatu spawn retain charm, gaseous form, spider climb and daylight powerlessness. They heal 2 HP per hour asleep in their coffins if at 1 HP or more, or 2 HP per round in direct full moonlight.",
+        "Repelling and slaying": "Garlic repels it, and a clearly presented holy symbol or mirror keeps it 5 ft. away. It cannot enter a private home without invitation. A stake through the heart kills it while left in place. At 0 HP it collapses but may return in moonlight. Burn the whole body or scatter the severed limbs beyond its minions’ reach. Running water costs one-third of HP each round and destroys it after 3 rounds of immersion.",
+        "Skills and feats": "Bluff +21, Diplomacy +16, Gather Information +11, Hide +12, Intimidate +12, Listen +12, Move Silently +12, Search +13, Sense Motive +15, Spot +12. Alertness, Combat Reflexes, Dodge, Great Fortitude, Improved Initiative, Lightning Reflexes, Skill Focus (Diplomacy), Weapon Finesse.",
+        "Encounter adaptation": "Apply the strain to the 3.5 vampire template. Retain unmodified abilities, size, BAB, saves and skill points. The base vampire uses undead d12 Hit Dice and has no Constitution score. Keep an existing swim speed and ignore vulnerability to immersion in running water if the base creature can swim. Use save DC 10 + half HD rounded down + Charisma modifier unless specified. Age rows replace one another. Nosferatu lack the base vampire’s Energy Drain. Age DR always requires silver and magic. The cerebral subtype changes the feeding attack only.",
+        "Age modifiers": "Apply one row to a base creature. The sample already includes its adjustments. Ability scores are listed in Str, Dex, Int, Wis, Cha order.\nFledgling. Abilities 4/4/2/2/6. Speed +0 ft., natural AC +6, turn resistance +4, CR +2. DR 10, lunar healing +0.\nMature. Abilities 4/4/4/2/8. Speed +10 ft., natural AC +6, turn resistance +4, CR +2. DR 15, lunar healing +0.\nOld. Abilities 6/6/4/4/8. Speed +10 ft., natural AC +7, turn resistance +5, CR +3. DR 15, lunar healing +1.\nAncient. Abilities 6/6/6/4/10. Speed +20 ft., natural AC +7, turn resistance +6, CR +3. DR 20, lunar healing +1.\nEminent. Abilities 8/8/6/6/10. Speed +20 ft., natural AC +8, turn resistance +7, CR +4. DR 20, lunar healing +2.\nPatriarch. Abilities 10/10/8/8/12. Speed +30 ft., natural AC +8, turn resistance +8, CR +5. DR 25, lunar healing +3.",
+        "Printed source": "pp. 197, 200–202, 216"
+      }
+    }
+  },
+  {
+    "name": "Vampyre",
+    "decision": "separate",
+    "pages": "p. 218",
+    "notes": "Summarizes the printed 3.5 encounter.",
+    "statBlock": {
+      "name": "Vampyre",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium Monstrous Humanoid",
+      "ac": 16,
+      "hp": 44,
+      "hitDice": "8d8 + 8",
+      "speed": "30 ft.",
+      "cr": "4",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 17
+        }
+      },
+      "otherStatistics": "Initiative +5. Touch AC 11, flat-footed AC 15. BAB +8, grapple +10. Space and reach 5 ft. Fort +3, Ref +7, Will +7.",
+      "description": "A living predator that sends one member of its pack to lure prey into an ambush.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack. Bite +10 melee (1d4 + 2). Full attack. Bite +10 melee (1d4 + 2) and two claws +8 melee (1d4 + 1 each).\nBlood Drain (Ex). After pinning a living victim in a grapple, inflict 1d4 Constitution damage each round the pin holds.\nDomination (Su). A bitten creature must make a DC 15 Fortitude save or fall under dominate person at caster level 10. Creatures immune to poison are unaffected.",
+        "Traits": "Darkvision 60 ft. A living creature. Any land or underground. Solitary, pair, brood of 2–5 or pack of 5–20. Chaotic evil, standard treasure. Speaks the domain’s language and often Abyssal.",
+        "Tactics": "A lone vampyre can lure a victim to the rest of its pack. The group flees if it loses its numerical advantage.",
+        "Skills and feats": "Bluff +10, Disguise +9, Hide +7, Intimidate +10, Listen +10, Move Silently +7, Spot +9. Alertness, Improved Initiative, Multiattack.",
+        "Printed source": "p. 218"
+      }
+    }
+  }
+]

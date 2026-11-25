@@ -1,0 +1,34 @@
+[
+  {
+    "artGroup": "river-serpent",
+    "file": "portraits/river-serpent.png",
+    "sha256": "fa791ce7e078ce4a611172262b4a2f901aeca96bedc771a7ca69adb50126493f",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "artGroup": "serpopard",
+    "file": "portraits/serpopard.png",
+    "sha256": "08f35683bba08308ce5cc01f22b65a7343c8c4104dacb032c7c0853c20520ad5",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "artGroup": "kavu-predator",
+    "file": "portraits/kavu-predator.png",
+    "sha256": "3c4f82dd602ce3475d72322c604ffdb0fda1b66bb4fad9e72b6a5445231b02a2",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "artGroup": "steel-leaf-kavu",
+    "file": "portraits/steel-leaf-kavu.png",
+    "sha256": "06705c758d6020b762746ade48840047d6b143cc062be7d8c636e8207ec72596",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  }
+]

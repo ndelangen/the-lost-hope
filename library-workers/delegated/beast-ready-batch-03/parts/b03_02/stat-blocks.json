@@ -1,0 +1,330 @@
+[
+  {
+    "name": "Crab",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 11,
+    "hp": 2,
+    "speed": "20 ft., swim 20 ft.",
+    "hitDice": "1d4",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Cha": {
+        "score": 2,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Natural armor. Stealth +2. Blindsight 30 ft. Passive Perception 9. No listed languages.",
+    "appearance": "A small crab with a mottled olive shell, two front claws, and slender jointed walking legs.",
+    "habitats": [
+      "Coastal",
+      "Rocky shores",
+      "Tide pools"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, D&D Basic Rules, version 1.0, November 2018 , printed p. 122. ",
+      "Traits": "Amphibious. The crab can breathe both air and water.",
+      "Actions": "Claw. Melee weapon attack, +0 to hit, 5-ft. reach, one target. On a hit, deal 1 bludgeoning damage."
+    }
+  },
+  {
+    "name": "Crab",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 11,
+    "hp": 2,
+    "speed": "20 ft., swim 20 ft.",
+    "hitDice": "1d4",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Cha": {
+        "score": 2,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Natural armor. Stealth +2. Blindsight 30 ft. Passive Perception 9. No listed languages.",
+    "appearance": "A small crab with a mottled olive shell, two front claws, and slender jointed walking legs.",
+    "habitats": [
+      "Coastal",
+      "Rocky shores",
+      "Tide pools"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual, first printing, September 2014, printed p. 320. https://www.dndbeyond.com/monsters/16833-crab",
+      "Traits": "Amphibious. The crab can breathe both air and water.",
+      "Actions": "Claw. Melee weapon attack, +0 to hit, 5-ft. reach, one target. On a hit, deal 1 bludgeoning damage."
+    }
+  },
+  {
+    "name": "Mastiff",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 12,
+    "hp": 5,
+    "speed": "40 ft.",
+    "hitDice": "1d8 + 1",
+    "cr": "1/8",
+    "xp": 25,
+    "abilities": {
+      "Str": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Perception +3. Passive Perception 13. No listed languages or special senses.",
+    "appearance": "A heavy, broad-chested hound with folded ears, a fawn coat, and a dark muzzle.",
+    "habitats": [
+      "Forest",
+      "Hills",
+      "Urban"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, D&D Basic Rules, version 1.0, November 2018 , printed p. 144. ",
+      "Traits": "Keen Hearing and Smell. The mastiff has advantage on Wisdom (Perception) checks based on hearing or smell.",
+      "Actions": "Bite. Melee weapon attack, +3 to hit, 5-ft. reach, one target. On a hit, deal 4 (1d6 + 1) piercing damage. A creature hit must pass a DC 11 Strength save or fall prone."
+    }
+  },
+  {
+    "name": "Mastiff",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 12,
+    "hp": 5,
+    "speed": "40 ft.",
+    "hitDice": "1d8 + 1",
+    "cr": "1/8",
+    "xp": 25,
+    "abilities": {
+      "Str": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Perception +3. Passive Perception 13. No listed languages or special senses.",
+    "appearance": "A heavy, broad-chested hound with folded ears, a fawn coat, and a dark muzzle.",
+    "habitats": [
+      "Forest",
+      "Hills",
+      "Urban"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual, first printing, September 2014, printed p. 332. https://www.dndbeyond.com/monsters/16953-mastiff",
+      "Traits": "Keen Hearing and Smell. The mastiff has advantage on Wisdom (Perception) checks based on hearing or smell.",
+      "Actions": "Bite. Melee weapon attack, +3 to hit, 5-ft. reach, one target. On a hit, deal 4 (1d6 + 1) piercing damage. A creature hit must pass a DC 11 Strength save or fall prone."
+    }
+  },
+  {
+    "name": "Stirge",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 14,
+    "hp": 2,
+    "speed": "10 ft., fly 40 ft.",
+    "hitDice": "1d4",
+    "cr": "1/8",
+    "xp": 25,
+    "abilities": {
+      "Str": {
+        "score": 4,
+        "modifier": -3
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Natural armor. Darkvision 60 ft. Passive Perception 9. No listed languages.",
+    "appearance": "A batlike flying beast with broad leathery wings, pincer-tipped legs, and a long needle-shaped proboscis.",
+    "habitats": [
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hills",
+      "Mountains",
+      "Swamps",
+      "Underdark",
+      "Urban"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, D&D Basic Rules, version 1.0, November 2018 , printed p. 153. ",
+      "Actions": "Blood Drain. Melee weapon attack, +5 to hit, 5-ft. reach, one creature. A hit deals 5 (1d4 + 3) piercing damage and attaches the stirge to the target. The stirge makes no attacks while attached. At the start of each of the stirge’s turns, the attached target loses 5 (1d4 + 3) HP to blood loss.\nThe stirge can spend 5 ft. of movement to detach itself. It detaches after draining 10 HP from the target or when the target dies. Any creature, including the target, can spend its action to detach the stirge."
+    }
+  },
+  {
+    "name": "Stirge",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 14,
+    "hp": 2,
+    "speed": "10 ft., fly 40 ft.",
+    "hitDice": "1d4",
+    "cr": "1/8",
+    "xp": 25,
+    "abilities": {
+      "Str": {
+        "score": 4,
+        "modifier": -3
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Natural armor. Darkvision 60 ft. Passive Perception 9. No listed languages.",
+    "appearance": "A batlike flying beast with broad leathery wings, pincer-tipped legs, and a long needle-shaped proboscis.",
+    "habitats": [
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hills",
+      "Mountains",
+      "Swamps",
+      "Underdark",
+      "Urban"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual, first printing, September 2014, printed p. 284. https://www.dndbeyond.com/monsters/17023-stirge",
+      "Actions": "Blood Drain. Melee weapon attack, +5 to hit, 5-ft. reach, one creature. A hit deals 5 (1d4 + 3) piercing damage and attaches the stirge to the target. The stirge makes no attacks while attached. At the start of each of the stirge’s turns, the attached target loses 5 (1d4 + 3) HP to blood loss.\nThe stirge can spend 5 ft. of movement to detach itself. It detaches after draining 10 HP from the target or when the target dies. Any creature, including the target, can spend its action to detach the stirge."
+    }
+  }
+]

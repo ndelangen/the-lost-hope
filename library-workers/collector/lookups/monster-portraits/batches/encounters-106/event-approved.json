@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Wildren",
+    "slug": "wildren",
+    "caption": "Rusk Ashbank · Original Wildren NPC",
+    "id": "species-4cf9da8bee5468b0a9ae5f93:af61a26c8ffafd39e577ea40",
+    "entry": "species-4cf9da8bee5468b0a9ae5f93",
+    "version": "af61a26c8ffafd39e577ea40",
+    "suffix": "encounters-106/wildren.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-106/wildren.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-106/event-drafts/wildren-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 106 2026-11-24/event-drafts/wildren-event-v1.png",
+    "overrides": [],
+    "sha256": "91cf3337fbfcc4934589b58bc6e9b4c91506b99b33cab14b1b97f2cbee5d9097",
+    "bytes": 2260281
+  }
+]

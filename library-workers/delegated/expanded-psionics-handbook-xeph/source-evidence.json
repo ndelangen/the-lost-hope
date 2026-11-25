@@ -1,0 +1,43 @@
+[
+  {
+    "name": "Xeph",
+    "kind": "species",
+    "publication": "Expanded Psionics Handbook (2004)",
+    "edition": "3.5 edition",
+    "book": "Expanded Psionics Handbook",
+    "author": "Bruce R. Cordell",
+    "publisher": "Wizards of the Coast",
+    "firstPrinting": "April 2004",
+    "productCode": "620-96666-001-EN",
+    "isbn": "0-7869-3301-3",
+    "printedPages": {
+      "levelAdjustment": 6,
+      "appearance": 15,
+      "playableTraits": 16,
+      "soulknife": [
+        27,
+        28
+      ],
+      "wildTalent": 52,
+      "warrior": 217
+    },
+    "printedArtCredit": "Steven Belledin, p. 217 Xeph",
+    "primaryBookScan": "",
+    "primaryBookSha256": "de565bb7b273801a1a4595a157657a96ca52e2f4162d1e7101e609cbdd4b0943",
+    "errata2006": "",
+    "sourceDistinctions": [
+      "Racial Burst is a 3-round competence bonus. The swift psionic power of the same name is a separate rule.",
+      "The racial ability specifies no activation action, so the core supernatural default applies.",
+      "No 2006 erratum changes Xeph or racial Burst. Soulknife uses the corrected first-level skill point rate of (4 + Int modifier) × 4."
+    ],
+    "entryId": "species-a4ee7610c065343d6da4f7d8",
+    "versionKey": "73cb5cdf28aa7257fe856689",
+    "slug": "xeph",
+    "portraitSelection": "generated",
+    "portraitForm": "Rovan Threadglass, an original Xeph example",
+    "npcExamples": [
+      "Rovan Threadglass",
+      "Miren Trackweft"
+    ]
+  }
+]

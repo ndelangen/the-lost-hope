@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Genasi",
+    "kind": "species",
+    "publication": "Forgotten Realms Player’s Guide (2008)",
+    "edition": "4th edition",
+    "traits": [
+      "Medium elemental humanoid. +2 Strength and +2 Intelligence. Speed 6 squares, normal vision. Common and Primordial. +2 Endurance and Nature. Elemental Origin applies to effects keyed to creature origin.",
+      "Choose one active elemental manifestation. Extra Manifestation can add another option and lets you change your manifestation.",
+      "Earthsoul gives +1 Fortitude, +1 to saving throws, and Earthshock. Encounter minor, close burst 1 against grounded enemies. Chosen Strength, Constitution, or Dexterity +2 vs. Fortitude knocks a hit target prone. The racial attack bonus becomes +4 at level 11 and +6 at level 21.",
+      "Firesoul gives +1 Reflex, fire resistance 5, and Firepulse. Encounter immediate reaction after a melee hit from an enemy within 1 square. Chosen Strength, Constitution, or Dexterity +2 vs. Reflex deals 1d6 + the same modifier fire damage. At levels 11 and 21 the racial attack bonus increases to +4 and +6 and the dice to 2d6 and 3d6. Fire resistance rises to 10 and 15.",
+      "Stormsoul gives +1 Fortitude, lightning resistance 5, and Promise of Storm. Encounter minor, personal. Until the end of your next turn, a hit with a lightning or thunder attack deals an extra 1d8 damage under the August 2012 rules update. Resistance and damage dice rise to 10 and 2d8 at level 11, then 15 and 3d8 at level 21.",
+      "Watersoul breathes underwater and gains +2 to saving throws against ongoing damage. Swiftcurrent is an encounter move that shifts up to speed on land or liquid. You can cross enemy spaces and ignore squeezing, difficult terrain, and damage from the traversed surface.",
+      "Windsoul gives cold resistance 5 and Windwalker. Encounter move, fly 8 squares and drift safely down if you end above the ground. Cold resistance rises to 10 at level 11 and 15 at level 21."
+    ]
+  },
+  {
+    "name": "Kalashtar",
+    "kind": "species",
+    "publication": "Eberron Player’s Guide (2009)",
+    "edition": "4th edition",
+    "traits": [
+      "Medium humanoid. +2 Wisdom and +2 Charisma. Speed 6 squares, normal vision. Common. +2 Insight and +2 to another chosen skill.",
+      "Telepathy 5 supports two-way communication with a creature that has a language, is within 5 squares, and is in line of sight.",
+      "Dual Soul lets you save at the start of your turn against each effect that dazes or dominates you. If a save fails, skip the end-of-turn save against that effect.",
+      "Bastion of Mental Clarity is an encounter immediate interrupt when an enemy hits or misses you against Will. You and allies in close burst 5 gain +4 power bonus to Will through the end of your next turn."
+    ]
+  },
+  {
+    "name": "Mul",
+    "kind": "species",
+    "publication": "Dark Sun Campaign Setting (2010)",
+    "edition": "4th edition",
+    "traits": [
+      "Medium humanoid. +2 Constitution and +2 Strength or Wisdom. Speed 6 squares, normal vision. Common and Dwarven. +2 Endurance and Streetwise.",
+      "Born of Two Races. Choose human or dwarf feat prerequisites and meet all other requirements. Mul Vitality adds one healing surge.",
+      "Tireless needs only 6 hours of sleep per 72 hours to take an extended rest.",
+      "Incredible Toughness is an encounter power at the start of your turn and costs no action. End any ongoing damage or dazed, slowed, stunned, or weakened condition currently affecting you."
+    ]
+  },
+  {
+    "name": "Thri-kreen",
+    "kind": "species",
+    "publication": "Dark Sun Campaign Setting (2010)",
+    "edition": "4th edition",
+    "traits": [
+      "Medium humanoid. +2 Dexterity and +2 Strength or Wisdom. Speed 7 squares, low-light vision. Common and Thri-Kreen. +2 Athletics and Nature.",
+      "Multiple Arms changes one weapon draw or sheathe, or item retrieval or storage, from a minor action to a free action each turn. Natural Jumper treats every jump as having a running start.",
+      "Torpor replaces sleep. Four hours of torpor count toward an extended rest, and you remain aware of your surroundings.",
+      "Thri-Kreen Claws is an encounter minor action, melee 1 against one to three enemies. Strength, Dexterity, or Wisdom +3 vs. AC deals 1d8 + that modifier, with bonus damage equal to the number of targets. The racial attack bonus and dice rise to +6 and 2d8 at level 11 and +9 and 3d8 at level 21."
+    ]
+  },
+  {
+    "name": "Bladeling",
+    "kind": "species",
+    "publication": "Manual of the Planes (2008)",
+    "edition": "4th edition",
+    "traits": [
+      "Medium natural humanoid. +2 Dexterity and +2 Wisdom. Speed 6 squares, normal vision. Common. +2 Intimidate. Acid resistance is 5 + half your level.",
+      "At character creation choose Strength, Constitution, or Dexterity for Razor Storm attack rolls. Damage always uses Dexterity.",
+      "Razor Storm is an encounter minor action, close burst 1 against every creature in the burst, including allies. Chosen ability +2 vs. Reflex deals 1d6 + Dexterity modifier. At levels 11 and 21 the racial attack bonus increases to +4 and +6 and the dice to 2d6 and 3d6.",
+      "The Improved Razor Storm feat can substitute a close burst 2, with d8s instead of d6s plus ongoing 5 damage, save ends. Ongoing damage increases to 10 and 15 at levels 11 and 21."
+    ]
+  }
+]

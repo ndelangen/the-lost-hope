@@ -13,4 +13,5 @@ export default createEvent({
       ' had become a huge, oil-filled, smoking crater. The trail of destruction suggested that the invading monster had continued into the sea.',
     ],
   ],
+  illustrations: ['/assets/scenes/the-party-sees-fairhaven-s-smoking-crater.png'],
 })

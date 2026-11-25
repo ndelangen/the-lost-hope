@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Chaos Gnome",
+    "slug": "chaos-gnome",
+    "caption": "Orrin Redwick · Original Chaos Gnome NPC",
+    "id": "species-23ac77eaf86ffaa392422132:bc9b9e779337bebf6b5b3d0c",
+    "entry": "species-23ac77eaf86ffaa392422132",
+    "version": "bc9b9e779337bebf6b5b3d0c",
+    "suffix": "encounters-81/chaos-gnome.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-81/chaos-gnome.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-81/event-drafts/chaos-gnome-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 81 2026-11-24/event-drafts/chaos-gnome-event-v1.png",
+    "overrides": [],
+    "sha256": "c25b57959126cec33bcc9ae3dc442927d89efe9e6f8c4cc8c738abc58f1fedf5",
+    "bytes": 2014503
+  }
+]

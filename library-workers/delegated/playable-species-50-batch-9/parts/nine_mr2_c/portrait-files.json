@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Yeth Hound",
+    "file": "portraits/yeth-hound.png",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "sha256": "2c6638fb8ddd2c6a9d0a9fa57bbf97cb3d6cd2f4b9c542b97606af962989e7af"
+  },
+  {
+    "name": "Aurochs",
+    "file": "portraits/aurochs.png",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "sha256": "ec87d80c9f5b366160f4d7ed396d76d91b718215de5c1a6abbaab8cb38248b61"
+  },
+  {
+    "name": "Cattle",
+    "file": "portraits/cattle.png",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "sha256": "28b0271b8d5c8d8ee8d86416fea977992670db37e3f40b38e8cc53f3eeee1e29"
+  },
+  {
+    "name": "Dolphin",
+    "file": "portraits/dolphin.png",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "sha256": "04ad7363d846e0cd251984a105536d7694657f73a3a29b2b6e2852950fc1dd86"
+  },
+  {
+    "name": "Rot Grub",
+    "file": "portraits/rot-grub.png",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "sha256": "82d79c9dff428a80cca018ff2133b6a06a4e8735c3cb5c262b67ff7c3c373877"
+  }
+]

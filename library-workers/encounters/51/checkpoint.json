@@ -1,0 +1,28 @@
+{
+  "commit": "c54f4dcafc91300b0a2865e1600b7ae97af33a99",
+  "publication": "Flee, Mortals!",
+  "encounterVersions": 2,
+  "fullStatBlocks": 2,
+  "generatedPortraitsInstalled": 2,
+  "creditedGalleriesVerified": 2,
+  "allRecentVersionsWithGeneratedPortrait": 585,
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "visualComparison": "output/dm-library/review/encounters-51-before-after.jpg",
+  "results": "output/dm-library/encounter-batches/51/results.json",
+  "searchResults": "output/dm-library/encounter-batches/51/search-results.json",
+  "nextSourcePublication": "Flee, Mortals!",
+  "unverifiedNextCandidates": [
+    {
+      "name": "Human Guard",
+      "source": "https://www.dndbeyond.com/monsters/4485895-human-guard",
+      "challenge": "1/8"
+    },
+    {
+      "name": "Human Scoundrel",
+      "source": "https://www.dndbeyond.com/monsters/4485898-human-scoundrel",
+      "challenge": "3"
+    }
+  ],
+  "nextSourceNote": "Prioritize reusable NPCs and distinct monsters. Human Guard is a minion, so verify the group attack and distinguish it from the 4e soldier printing. Playable species are staged separately."
+}

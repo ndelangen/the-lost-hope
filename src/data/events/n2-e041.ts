@@ -5,6 +5,7 @@ export default createEvent({
   name: 'Board the boat to Fairhaven',
   day: 11,
   location: refs.locations.the_boat_to_fairhaven,
+  illustrations: ['/assets/scenes/board-the-boat-to-fairhaven.png'],
   mark: { type: 'icon', name: 'gi/GiShipWheel' },
   notes: [
     [

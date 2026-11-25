@@ -1,0 +1,263 @@
+{
+  "Bhuka": {
+    "profiles": [
+      {
+        "name": "Bhuka",
+        "imageKey": "species:bhuka",
+        "kind": "species",
+        "type": "Humanoid (Goblinoid)",
+        "publication": "Sandstorm (2005)",
+        "edition": "3.5 edition",
+        "publisher": "Wizards of the Coast",
+        "source": "https://search.worldcat.org/title/58722791",
+        "challenge": "",
+        "images": [],
+        "speciesRulesStatus": "local-summary",
+        "speciesTraits": [
+          "Medium Humanoid (Goblinoid). −2 Strength, +2 Dexterity. Land speed 30 ft. LA +0.",
+          "Sure Feet (Ex) treats shallow sand as normal terrain, costing 1 square per square entered, and deep sand as shallow sand, costing 2 squares for a Medium Bhuka.",
+          "Glare Resistance (Ex) prevents the dazzled condition from bright sunlight.",
+          "Water Sense (Ex) uses Survival to detect drinkable water within 100 ft. The DC depends on depth. Surface DC 10, up to 10 ft. deep DC 12, 11–20 ft. DC 15, 21–40 ft. DC 20, 41–70 ft. DC 25, and 71–100 ft. DC 30.",
+          "+2 racial on Constitution checks or Fortitude saves against harmful heat and dehydration. Bonus feat Heat Endurance gives +2 on saves against fire effects, heat protection level 1, and comfort through 120°F.",
+          "+2 racial on Knowledge (nature), which is always a class skill.",
+          "Bhuka and Common are automatic. Bonus languages are Draconic and Goblin. Favored class Druid."
+        ],
+        "npcStatus": "original-build",
+        "npcBuilds": [
+          {
+            "species": "Bhuka",
+            "size": "Medium",
+            "edition": "3.5 edition",
+            "speciesPublication": "Sandstorm (2005)",
+            "name": "Akari of the Reed Well",
+            "build": {
+              "origin": "Original DM Library NPC",
+              "editions": [
+                "3.5 edition"
+              ],
+              "difficulty": "Provisional CR 1. ECL 1 (1 class HD, LA +0).",
+              "size": "Medium",
+              "type": "Humanoid (Goblinoid)",
+              "senses": "Normal vision. Water Sense 100 ft. with a Survival check.",
+              "speed": "30 ft.",
+              "id": "bhuka-reed-well-dry-channel-guide-35e",
+              "title": "Bhuka dry-channel guide, Druid 1",
+              "ac": 14,
+              "hp": 10,
+              "hitDice": "1d8+2",
+              "initiative": 2,
+              "languages": "Bhuka, Common, Draconic, Druidic",
+              "abilityScores": {
+                "STR": 10,
+                "DEX": 14,
+                "CON": 14,
+                "INT": 12,
+                "WIS": 16,
+                "CHA": 10
+              },
+              "skills": [
+                "Concentration +6",
+                "Handle Animal +4",
+                "Heal +7",
+                "Knowledge (nature) +9",
+                "Survival +12"
+              ],
+              "traits": [
+                "Neutral good. Leather armor +2, Dexterity +2. Touch 12, flat-footed 12. BAB +0, grapple +0. Fortitude +4, Reflex +2, Will +5.",
+                "Sure Feet (Ex) treats shallow sand as normal terrain, costing 1 square per square entered, and deep sand as shallow sand, costing 2 squares for a Medium Bhuka.",
+                "Glare Resistance (Ex) prevents the dazzled condition from bright sunlight.",
+                "+2 racial on Constitution checks or Fortitude saves against harmful heat and dehydration. Bonus feat Heat Endurance gives +2 on saves against fire effects, heat protection level 1, and comfort through 120°F.",
+                "+2 racial on Knowledge (nature), which is always a class skill.",
+                "Nature Sense adds +2 on Knowledge (nature) and Survival. Skill Focus (Survival) adds +3. Wild empathy +1. The encounter starts with no animal companion present."
+              ],
+              "actions": [
+                "Water Sense (Ex) uses Survival to detect drinkable water within 100 ft. The DC depends on depth. Surface DC 10, up to 10 ft. deep DC 12, 11–20 ft. DC 15, 21–40 ft. DC 20, 41–70 ft. DC 25, and 71–100 ft. DC 30. Akari rolls at Survival +12. A drinkable source 30 ft. below her and within range uses DC 20, so she needs an 8 or higher on the die.",
+                "Quarterstaff +0 melee with one end for 1d6 bludgeoning, critical ×2.",
+                "Prepared druid spells, CL 1. Cantrips are create water, guidance, and light. Create water makes up to 2 gallons. First-level spells are cure light wounds for 1d8+1 healing and entangle (Reflex DC 14, vegetation required)."
+              ],
+              "tactics": "Akari guides the party along a dry channel to locate a drinkable seep. Use Water Sense at a bend where the source is within range. She uses create water for immediate relief while the party finds a way to the seep."
+            },
+            "role": "Dry-channel guide and Druid.",
+            "motive": "Find drinkable water for the party at the dry channel.",
+            "hook": "Akari suspects a seep lies under the bend in the channel."
+          },
+          {
+            "species": "Bhuka",
+            "size": "Medium",
+            "edition": "3.5 edition",
+            "speciesPublication": "Sandstorm (2005)",
+            "name": "Taren of High Shelf",
+            "build": {
+              "origin": "Original DM Library NPC",
+              "editions": [
+                "3.5 edition"
+              ],
+              "difficulty": "Provisional CR 1. ECL 1 (1 class HD, LA +0).",
+              "size": "Medium",
+              "type": "Humanoid (Goblinoid)",
+              "senses": "Normal vision. Water Sense 100 ft. with a Survival check.",
+              "speed": "30 ft.",
+              "id": "bhuka-high-shelf-duneline-scout-35e",
+              "title": "Bhuka duneline scout, Ranger 1",
+              "ac": 15,
+              "hp": 10,
+              "hitDice": "1d8+2",
+              "initiative": 3,
+              "languages": "Bhuka, Common",
+              "abilityScores": {
+                "STR": 12,
+                "DEX": 16,
+                "CON": 14,
+                "INT": 10,
+                "WIS": 14,
+                "CHA": 8
+              },
+              "skills": [
+                "Hide +7",
+                "Knowledge (nature) +6",
+                "Listen +6",
+                "Search +4",
+                "Spot +6",
+                "Survival +6"
+              ],
+              "traits": [
+                "Chaotic good. Leather armor +2, Dexterity +3. Touch 13, flat-footed 12. BAB +1, grapple +2. Fortitude +4, Reflex +5, Will +2.",
+                "Sure Feet (Ex) treats shallow sand as normal terrain, costing 1 square per square entered, and deep sand as shallow sand, costing 2 squares for a Medium Bhuka.",
+                "Glare Resistance (Ex) prevents the dazzled condition from bright sunlight.",
+                "+2 racial on Constitution checks or Fortitude saves against harmful heat and dehydration. Bonus feat Heat Endurance gives +2 on saves against fire effects, heat protection level 1, and comfort through 120°F.",
+                "+2 racial on Knowledge (nature), which is always a class skill.",
+                "Track is a Ranger bonus feat. Wild empathy +0. Favored enemy animals adds +2 on Bluff, Listen, Sense Motive, Spot, Survival, and weapon damage rolls against animals. Water Sense uses the normal Survival modifier."
+              ],
+              "actions": [
+                "Water Sense (Ex) uses Survival to detect drinkable water within 100 ft. The DC depends on depth. Surface DC 10, up to 10 ft. deep DC 12, 11–20 ft. DC 15, 21–40 ft. DC 20, 41–70 ft. DC 25, and 71–100 ft. DC 30. Taren rolls at Survival +6. A source 15 ft. deep and within range uses DC 15, so he needs a 9 or higher on the die.",
+                "Shortspear +2 melee for 1d6+1 piercing, critical ×2. Shortbow +4 for 1d6 piercing, critical ×3, range increment 60 ft. Within 30 ft. Point Blank Shot gives +5 to hit and 1d6+1 damage.",
+                "On a straight clear move through only deep sand, 30 ft. of movement budget covers three 5-ft. squares. In shallow sand the same budget covers six squares."
+              ],
+              "tactics": "Taren crosses the shallow shoulder of the dune to check the trail and marks a safe approach for the party. If they need water, he checks for a nearby drinkable source with Water Sense."
+            },
+            "role": "Duneline scout and Ranger.",
+            "motive": "Mark a crossing before the afternoon wind obscures the trail.",
+            "hook": "Taren can guide the group along the dune’s shallow shoulder."
+          }
+        ]
+      }
+    ],
+    "npcs": [
+      {
+        "species": "Bhuka",
+        "size": "Medium",
+        "edition": "3.5 edition",
+        "speciesPublication": "Sandstorm (2005)",
+        "name": "Akari of the Reed Well",
+        "build": {
+          "origin": "Original DM Library NPC",
+          "editions": [
+            "3.5 edition"
+          ],
+          "difficulty": "Provisional CR 1. ECL 1 (1 class HD, LA +0).",
+          "size": "Medium",
+          "type": "Humanoid (Goblinoid)",
+          "senses": "Normal vision. Water Sense 100 ft. with a Survival check.",
+          "speed": "30 ft.",
+          "id": "bhuka-reed-well-dry-channel-guide-35e",
+          "title": "Bhuka dry-channel guide, Druid 1",
+          "ac": 14,
+          "hp": 10,
+          "hitDice": "1d8+2",
+          "initiative": 2,
+          "languages": "Bhuka, Common, Draconic, Druidic",
+          "abilityScores": {
+            "STR": 10,
+            "DEX": 14,
+            "CON": 14,
+            "INT": 12,
+            "WIS": 16,
+            "CHA": 10
+          },
+          "skills": [
+            "Concentration +6",
+            "Handle Animal +4",
+            "Heal +7",
+            "Knowledge (nature) +9",
+            "Survival +12"
+          ],
+          "traits": [
+            "Neutral good. Leather armor +2, Dexterity +2. Touch 12, flat-footed 12. BAB +0, grapple +0. Fortitude +4, Reflex +2, Will +5.",
+            "Sure Feet (Ex) treats shallow sand as normal terrain, costing 1 square per square entered, and deep sand as shallow sand, costing 2 squares for a Medium Bhuka.",
+            "Glare Resistance (Ex) prevents the dazzled condition from bright sunlight.",
+            "+2 racial on Constitution checks or Fortitude saves against harmful heat and dehydration. Bonus feat Heat Endurance gives +2 on saves against fire effects, heat protection level 1, and comfort through 120°F.",
+            "+2 racial on Knowledge (nature), which is always a class skill.",
+            "Nature Sense adds +2 on Knowledge (nature) and Survival. Skill Focus (Survival) adds +3. Wild empathy +1. The encounter starts with no animal companion present."
+          ],
+          "actions": [
+            "Water Sense (Ex) uses Survival to detect drinkable water within 100 ft. The DC depends on depth. Surface DC 10, up to 10 ft. deep DC 12, 11–20 ft. DC 15, 21–40 ft. DC 20, 41–70 ft. DC 25, and 71–100 ft. DC 30. Akari rolls at Survival +12. A drinkable source 30 ft. below her and within range uses DC 20, so she needs an 8 or higher on the die.",
+            "Quarterstaff +0 melee with one end for 1d6 bludgeoning, critical ×2.",
+            "Prepared druid spells, CL 1. Cantrips are create water, guidance, and light. Create water makes up to 2 gallons. First-level spells are cure light wounds for 1d8+1 healing and entangle (Reflex DC 14, vegetation required)."
+          ],
+          "tactics": "Akari guides the party along a dry channel to locate a drinkable seep. Use Water Sense at a bend where the source is within range. She uses create water for immediate relief while the party finds a way to the seep."
+        },
+        "role": "Dry-channel guide and Druid.",
+        "motive": "Find drinkable water for the party at the dry channel.",
+        "hook": "Akari suspects a seep lies under the bend in the channel."
+      },
+      {
+        "species": "Bhuka",
+        "size": "Medium",
+        "edition": "3.5 edition",
+        "speciesPublication": "Sandstorm (2005)",
+        "name": "Taren of High Shelf",
+        "build": {
+          "origin": "Original DM Library NPC",
+          "editions": [
+            "3.5 edition"
+          ],
+          "difficulty": "Provisional CR 1. ECL 1 (1 class HD, LA +0).",
+          "size": "Medium",
+          "type": "Humanoid (Goblinoid)",
+          "senses": "Normal vision. Water Sense 100 ft. with a Survival check.",
+          "speed": "30 ft.",
+          "id": "bhuka-high-shelf-duneline-scout-35e",
+          "title": "Bhuka duneline scout, Ranger 1",
+          "ac": 15,
+          "hp": 10,
+          "hitDice": "1d8+2",
+          "initiative": 3,
+          "languages": "Bhuka, Common",
+          "abilityScores": {
+            "STR": 12,
+            "DEX": 16,
+            "CON": 14,
+            "INT": 10,
+            "WIS": 14,
+            "CHA": 8
+          },
+          "skills": [
+            "Hide +7",
+            "Knowledge (nature) +6",
+            "Listen +6",
+            "Search +4",
+            "Spot +6",
+            "Survival +6"
+          ],
+          "traits": [
+            "Chaotic good. Leather armor +2, Dexterity +3. Touch 13, flat-footed 12. BAB +1, grapple +2. Fortitude +4, Reflex +5, Will +2.",
+            "Sure Feet (Ex) treats shallow sand as normal terrain, costing 1 square per square entered, and deep sand as shallow sand, costing 2 squares for a Medium Bhuka.",
+            "Glare Resistance (Ex) prevents the dazzled condition from bright sunlight.",
+            "+2 racial on Constitution checks or Fortitude saves against harmful heat and dehydration. Bonus feat Heat Endurance gives +2 on saves against fire effects, heat protection level 1, and comfort through 120°F.",
+            "+2 racial on Knowledge (nature), which is always a class skill.",
+            "Track is a Ranger bonus feat. Wild empathy +0. Favored enemy animals adds +2 on Bluff, Listen, Sense Motive, Spot, Survival, and weapon damage rolls against animals. Water Sense uses the normal Survival modifier."
+          ],
+          "actions": [
+            "Water Sense (Ex) uses Survival to detect drinkable water within 100 ft. The DC depends on depth. Surface DC 10, up to 10 ft. deep DC 12, 11–20 ft. DC 15, 21–40 ft. DC 20, 41–70 ft. DC 25, and 71–100 ft. DC 30. Taren rolls at Survival +6. A source 15 ft. deep and within range uses DC 15, so he needs a 9 or higher on the die.",
+            "Shortspear +2 melee for 1d6+1 piercing, critical ×2. Shortbow +4 for 1d6 piercing, critical ×3, range increment 60 ft. Within 30 ft. Point Blank Shot gives +5 to hit and 1d6+1 damage.",
+            "On a straight clear move through only deep sand, 30 ft. of movement budget covers three 5-ft. squares. In shallow sand the same budget covers six squares."
+          ],
+          "tactics": "Taren crosses the shallow shoulder of the dune to check the trail and marks a safe approach for the party. If they need water, he checks for a nearby drinkable source with Water Sense."
+        },
+        "role": "Duneline scout and Ranger.",
+        "motive": "Mark a crossing before the afternoon wind obscures the trail.",
+        "hook": "Taren can guide the group along the dune’s shallow shoulder."
+      }
+    ]
+  }
+}

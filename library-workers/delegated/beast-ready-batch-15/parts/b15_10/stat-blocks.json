@@ -1,0 +1,236 @@
+[
+  {
+    "name": "Armored Saber-Toothed Tiger",
+    "publication": "Curse of Strahd",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "printedPage": 115,
+    "ac": 17,
+    "hp": 84,
+    "speed": "40 ft.",
+    "cr": "3",
+    "xp": 700,
+    "abilities": {
+      "Str": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 8,
+        "modifier": -1
+      }
+    },
+    "skills": {
+      "Perception": 3,
+      "Stealth": 6
+    },
+    "passivePerception": 13,
+    "otherStatistics": "Specially fitted half plate. Perception +3, Stealth +6. Passive Perception 13. No languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A broad-shouldered saber-toothed cat wearing fitted half-plate barding.",
+    "habitats": [
+      "Urban",
+      "Stockyard"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Curse of Strahd, first printing, march 2016, Chapter 5, The Town of Vallaki, N5 Arasek Stockyard, p. 115. Inherits the Saber-Toothed Tiger stat block in the 2014 Monster Manual, p. 336. https://www.dndbeyond.com/sources/cos/the-town-of-vallaki#AreasofVallaki",
+      "Traits": "Keen Smell. The tiger has advantage on Wisdom (Perception) checks based on scent.\nPounce. Move at least 20 ft. straight toward a creature and hit it with Claw on that turn. The creature falls prone on a failed DC 14 Strength save. A prone target can then be bitten once as a bonus action.",
+      "Actions": "Bite. Melee weapon attack, +6 to hit, 5 ft. reach, one target. A hit deals 10 (1d10 + 5) piercing damage.\nClaw. Melee weapon attack, +6 to hit, 5 ft. reach, one target. A hit deals 12 (2d6 + 5) slashing damage.",
+      "Encounter application": "The tiger was trained to hunt Vistani servants of Strahd, per the p. 115 erratum. If released, it can track Rictavio or Piccolo by scent. Rictavio can stop an attack and coax it into the wagon. During the Tyger, Tyger event on pp. 123–124, it roams until hurt, then attacks the perceived source of the harm.",
+      "Encounter ecology": "Rictavio keeps the tiger in his carnival wagon in Vallaki and feeds it through the roof hatch.",
+      "Source notes": "The first printing replaces the base armor, HP, and challenge. It gives 84 HP without a replacement Hit Dice formula.\nThe printed base block gives +6 to hit and +5 damage on both attacks. The adventure does not change either value.\nPublisher errata changes p. 115 to target Strahd’s Vistani servants and removes recognition by scent and clothing from that paragraph. Page 116 of the first printing describes broader targeting and is not separately amended in the errata."
+    }
+  },
+  {
+    "name": "Piccolo",
+    "publication": "Curse of Strahd",
+    "edition": "2014 fifth edition",
+    "classification": "Small Beast, unaligned",
+    "printedPage": 118,
+    "ac": 12,
+    "hp": 3,
+    "speed": "30 ft., climb 30 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 4,
+        "modifier": -3
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "hitDice": "1d6",
+    "passivePerception": 11,
+    "otherStatistics": "Passive Perception 11. No languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A small, dark-furred monkey with pale fur around the eyes, a curled tail, and a custom ballerina tutu.",
+    "habitats": [
+      "Urban",
+      "Shop"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Curse of Strahd, first printing, march 2016, Chapter 5, The Town of Vallaki, N7 Blinsky Toys, p. 118. Inherits the Baboon stat block in the 2014 Monster Manual, p. 318. https://www.dndbeyond.com/sources/cos/the-town-of-vallaki#AreasofVallaki",
+      "Traits": "Pack Tactics. Piccolo has advantage on an attack roll against a creature if an ally is within 5 ft. of that target and the ally is not incapacitated.",
+      "Actions": "Bite. Melee weapon attack, +1 to hit, 5 ft. reach, one target. A hit deals 1 (1d4 − 1) piercing damage.",
+      "Encounter ecology": "Rictavio gave Piccolo to Gadolf Blinsky. Blinsky trains him to fetch toys from shelves that are hard to reach.",
+      "Source notes": "The adventure names Piccolo as a monkey, explicitly using the Baboon rules. The tutu has no rules effect."
+    }
+  },
+  {
+    "name": "Sangzor",
+    "publication": "Curse of Strahd",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, chaotic evil",
+    "printedPage": 160,
+    "ac": 11,
+    "hp": 33,
+    "speed": "40 ft.",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 6,
+        "modifier": -2
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "passivePerception": 11,
+    "otherStatistics": "Natural armor. Passive Perception 11. No languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A nine-foot-tall mountain goat with slate-gray fur, a lowered head, and an intent stare.",
+    "habitats": [
+      "Mountain",
+      "Mountain pass"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Curse of Strahd, first printing, march 2016, Chapter 9, Tsolenka Pass, Bloodhorn’s Charge, p. 160. Inherits the Giant Goat stat block in the 2014 Monster Manual, p. 326. https://www.dndbeyond.com/sources/cos/tsolenka-pass#SpecialEvents",
+      "Traits": "Charge. If Sangzor moves 20 ft. or more in a straight line toward a target and hits with Ram on the same turn, the attack deals 5 (2d4) extra bludgeoning damage. A creature hit falls prone if it fails a DC 13 Strength save.\nSure-Footed. Sangzor has advantage on Strength and Dexterity saves against effects that would knock it prone.",
+      "Actions": "Ram. Melee weapon attack, +5 to hit, 5 ft. reach, one target. A hit deals 8 (2d4 + 3) bludgeoning damage.",
+      "Defenses": "Resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+      "Encounter application": "If no character has passive Wisdom (Perception) 16 or higher, the party is surprised. Sangzor charges downhill. A target hit by the charge that fails the save tumbles 100 ft. to a ledge. Sangzor flees after taking 10 or more damage. Mist and snow limit visibility to 60 ft., and the goat escapes through a cleft once out of sight.",
+      "Pelt": "Berserkers in Strahd’s domain respect a creature wearing Sangzor’s pelt and leave the wearer and companions alone unless provoked.",
+      "Encounter ecology": "Mountain folk have hunted Sangzor, also called Bloodhorn, for years. Its gray fur blends into the rock above Tsolenka Pass.",
+      "Source notes": "The adventure changes Intelligence, alignment, HP, resistances, and challenge. It gives 33 HP without a replacement Hit Dice formula."
+    }
+  },
+  {
+    "name": "Lion",
+    "publication": "DDEX2-04 - Mayhem in the Earthspur Mines",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "printedPage": 26,
+    "ac": 12,
+    "hp": 26,
+    "speed": "50 ft.",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 8,
+        "modifier": -1
+      }
+    },
+    "hitDice": "4d10 + 4",
+    "skills": {
+      "Perception": 3,
+      "Stealth": 6
+    },
+    "passivePerception": 13,
+    "otherStatistics": "Perception +3, Stealth +6. Passive Perception 13. No languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A tawny lion with a full mane and heavy forepaws.",
+    "habitats": [
+      "Urban",
+      "Arena"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, DDEX2-04 - Mayhem in the Earthspur Mines, d&d expeditions release, april 1, 2015, Appendix, Monster/NPC Statistics, p. 26. https://www.dmsguild.com/product/170478/DDEX204-Mayhem-in-the-Earthspur-Mines-5e",
+      "Traits": "Keen Smell. The lion has advantage on Wisdom (Perception) checks based on scent.\nPack Tactics. The lion has advantage on an attack roll against a creature if an ally is within 5 ft. of that target and the ally is not incapacitated.\nPounce. Move at least 20 ft. straight toward a creature and hit it with Claw on that turn. The creature falls prone on a failed DC 13 Strength save. A prone target can then be bitten once as a bonus action.\nRunning Leap. A 10-ft. running start lets the lion long jump up to 25 ft.",
+      "Actions": "Bite. Melee weapon attack, +5 to hit, 5 ft. reach, one target. A hit deals 7 (1d8 + 3) piercing damage.\nClaw. Melee weapon attack, +5 to hit, 5 ft. reach, one target. A hit deals 6 (1d6 + 3) slashing damage.",
+      "Encounter ecology": "Darmov adds two lions to the arena when more than two characters join Bhún Ludwakazar in the fight.",
+      "Source notes": "The standalone block on p. 26 gives CR 1 and 200 XP. The adventure’s Combat Awards table on p. 23 lists 100 XP per lion for session rewards."
+    }
+  }
+]

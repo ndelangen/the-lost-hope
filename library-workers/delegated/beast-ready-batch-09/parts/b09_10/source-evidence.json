@@ -1,0 +1,192 @@
+[
+  {
+    "name": "Giant Wasp",
+    "kind": "beast",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "printing": "Monster Manual for the 2024 rules, published in 2025",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      361
+    ],
+    "sourceUrl": "https://www.dndbeyond.com/monsters/5195032-giant-wasp",
+    "url": "https://www.dndbeyond.com/monsters/5195032-giant-wasp",
+    "publisherByline": "Monster Manual, pg. 361",
+    "sourceWitness": "Publisher’s public D&D Beyond stat block",
+    "sourceDistinctions": [
+      "The publisher lists both Sting damage components on a hit."
+    ],
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "officialErrataPdf": "",
+    "officialErrataPdfSha256": "3d8951d4c7a596d73a6b4579e7dec7634b1cab84e82d1f76e13f75f42ce27a18",
+    "errataEvidence": "No change listed for this creature in either official errata form.",
+    "initiativeBonus": 2,
+    "initiativeScore": 12,
+    "proficiencyBonus": 2,
+    "passivePerception": 10,
+    "savingThrows": {
+      "Str": 0,
+      "Dex": 2,
+      "Con": 0,
+      "Int": -5,
+      "Wis": 0,
+      "Cha": -4
+    },
+    "habitatEvidence": "Habitat tags as displayed on the publisher’s stat block page.",
+    "appearanceEvidence": "Editorial description of the existing portrait selected in the roster.",
+    "artworkSource": "beast-ready-batch-05/reused-portraits/giant-wasp.webp",
+    "artworkSha256": "d77df7b6ef57ca884369c3c516c9897a50c9a4fadb566de1476ed2685489eecf"
+  },
+  {
+    "name": "Giant Weasel",
+    "kind": "beast",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "printing": "Monster Manual for the 2024 rules, published in 2025",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      361
+    ],
+    "sourceUrl": "https://www.dndbeyond.com/monsters/4775822-giant-weasel",
+    "url": "https://www.dndbeyond.com/monsters/4775822-giant-weasel",
+    "publisherByline": "Monster Manual, pg. 361",
+    "sourceWitness": "Publisher’s public D&D Beyond stat block",
+    "sourceDistinctions": [
+      "The current listing has Dexterity 17, Acrobatics +5, and a 30-ft. Climb Speed."
+    ],
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "officialErrataPdf": "",
+    "officialErrataPdfSha256": "3d8951d4c7a596d73a6b4579e7dec7634b1cab84e82d1f76e13f75f42ce27a18",
+    "errataEvidence": "No change listed for this creature in either official errata form.",
+    "initiativeBonus": 3,
+    "initiativeScore": 13,
+    "proficiencyBonus": 2,
+    "passivePerception": 13,
+    "savingThrows": {
+      "Str": 0,
+      "Dex": 3,
+      "Con": 0,
+      "Int": -3,
+      "Wis": 1,
+      "Cha": -3
+    },
+    "habitatEvidence": "Habitat tags as displayed on the publisher’s stat block page.",
+    "appearanceEvidence": "Editorial description of the existing portrait selected in the roster.",
+    "artworkSource": "beast-ready-batch-05/parts/b05_04/portraits/giant-weasel.png",
+    "artworkSha256": "67bb74e2d5d57fdba15f21c600f399ba946888b1355b8f11bbd29e2a4a808999"
+  },
+  {
+    "name": "Giant Wolf Spider",
+    "kind": "beast",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "printing": "Monster Manual for the 2024 rules, published in 2025",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      362
+    ],
+    "sourceUrl": "https://www.dndbeyond.com/monsters/5195033-giant-wolf-spider",
+    "url": "https://www.dndbeyond.com/monsters/5195033-giant-wolf-spider",
+    "publisherByline": "Monster Manual, pg. 362",
+    "sourceWitness": "Publisher’s public D&D Beyond stat block",
+    "sourceDistinctions": [
+      "The publisher lists both Bite damage components on a hit. Spider Climb is the printed trait."
+    ],
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "officialErrataPdf": "",
+    "officialErrataPdfSha256": "3d8951d4c7a596d73a6b4579e7dec7634b1cab84e82d1f76e13f75f42ce27a18",
+    "errataEvidence": "No change listed for this creature in either official errata form.",
+    "initiativeBonus": 3,
+    "initiativeScore": 13,
+    "proficiencyBonus": 2,
+    "passivePerception": 13,
+    "savingThrows": {
+      "Str": 1,
+      "Dex": 3,
+      "Con": 1,
+      "Int": -4,
+      "Wis": 1,
+      "Cha": -3
+    },
+    "habitatEvidence": "Habitat tags as displayed on the publisher’s stat block page.",
+    "appearanceEvidence": "Editorial description of the existing portrait selected in the roster.",
+    "artworkSource": "beast-ready-batch-05/parts/b05_04/portraits/giant-wolf-spider.png",
+    "artworkSha256": "771ba99eb9e46aa977eab1b3a3f19e041afe6531cd20313827445884a0792537"
+  },
+  {
+    "name": "Goat",
+    "kind": "beast",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "printing": "Monster Manual for the 2024 rules, published in 2025",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      362
+    ],
+    "sourceUrl": "https://www.dndbeyond.com/monsters/4775823-goat",
+    "url": "https://www.dndbeyond.com/monsters/4775823-goat",
+    "publisherByline": "Monster Manual, pg. 362",
+    "sourceWitness": "Publisher’s public D&D Beyond stat block",
+    "sourceDistinctions": [
+      "The conditional Ram damage replaces the ordinary damage. The publisher lists Strength save +2 with Strength modifier +0."
+    ],
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "officialErrataPdf": "",
+    "officialErrataPdfSha256": "3d8951d4c7a596d73a6b4579e7dec7634b1cab84e82d1f76e13f75f42ce27a18",
+    "errataEvidence": "No change listed for this creature in either official errata form.",
+    "initiativeBonus": 0,
+    "initiativeScore": 10,
+    "proficiencyBonus": 2,
+    "passivePerception": 12,
+    "savingThrows": {
+      "Str": 2,
+      "Dex": 0,
+      "Con": 0,
+      "Int": -4,
+      "Wis": 0,
+      "Cha": -3
+    },
+    "habitatEvidence": "Habitat tags as displayed on the publisher’s stat block page.",
+    "appearanceEvidence": "Editorial description of the existing portrait selected in the roster.",
+    "artworkSource": "beast-ready-batch-02/parts/b02_04/portraits/goat.png",
+    "artworkSha256": "3d9ebe807d3471a32e50e0516f6439b7f34340af62f545da120602096372ad39"
+  },
+  {
+    "name": "Hawk",
+    "kind": "beast",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "printing": "Monster Manual for the 2024 rules, published in 2025",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      362
+    ],
+    "sourceUrl": "https://www.dndbeyond.com/monsters/4775824-hawk",
+    "url": "https://www.dndbeyond.com/monsters/4775824-hawk",
+    "publisherByline": "Monster Manual, pg. 362",
+    "sourceWitness": "Publisher’s public D&D Beyond stat block",
+    "sourceDistinctions": [
+      "The publisher lists Perception +6 and Passive Perception 16. Talons deals a fixed 1 damage."
+    ],
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "officialErrataPdf": "",
+    "officialErrataPdfSha256": "3d8951d4c7a596d73a6b4579e7dec7634b1cab84e82d1f76e13f75f42ce27a18",
+    "errataEvidence": "No change listed for this creature in either official errata form.",
+    "initiativeBonus": 3,
+    "initiativeScore": 13,
+    "proficiencyBonus": 2,
+    "passivePerception": 16,
+    "savingThrows": {
+      "Str": -3,
+      "Dex": 3,
+      "Con": -1,
+      "Int": -4,
+      "Wis": 2,
+      "Cha": -2
+    },
+    "habitatEvidence": "Habitat tags as displayed on the publisher’s stat block page.",
+    "appearanceEvidence": "Editorial description of the existing portrait selected in the roster.",
+    "artworkSource": "beast-ready-batch-02/parts/b02_04/portraits/hawk.png",
+    "artworkSha256": "1ca7918af66d2f5b9784b5b444f91740c758abed387ba9880040743bc2c3fa96"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Adam",
+    "edition": "AD&D 2nd edition",
+    "publication": "Domains of Dread",
+    "entityKind": "monster",
+    "file": "images/monsters/adam/domains-of-dread-portrait.jpg",
+    "artist": "TSR source illustration"
+  },
+  {
+    "name": "Victor Mordenheim",
+    "edition": "AD&D 2nd edition",
+    "publication": "Domains of Dread",
+    "entityKind": "monster",
+    "file": "images/monsters/victor-mordenheim/domains-of-dread-portrait.jpg",
+    "artist": "TSR source illustration"
+  },
+  {
+    "name": "Kuo-toa Marauder",
+    "edition": "2024 fifth edition",
+    "publication": "Heroes of the Borderlands",
+    "entityKind": "monster",
+    "file": "images/monsters/kuo-toa-marauder/hotb-illustration.webp",
+    "artist": "Publisher illustration"
+  }
+]

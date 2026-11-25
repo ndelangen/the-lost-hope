@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Shadowswyft",
+    "slug": "shadowswyft",
+    "caption": "Mheer Wink · Original Shadowswyft NPC",
+    "id": "species-32ec8686825b6736e180e63d:a19f3b2be94a466045ee44e7",
+    "entry": "species-32ec8686825b6736e180e63d",
+    "version": "a19f3b2be94a466045ee44e7",
+    "suffix": "encounters-104/shadowswyft.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-104/shadowswyft.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-104/event-drafts/shadowswyft-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 104 2026-11-24/event-drafts/shadowswyft-event-v1.png",
+    "overrides": [],
+    "sha256": "f8369d6fc298ddfd235b425e38b2ec9cb2f6e0d54bc9686e7e6e0f78cc5ec6be",
+    "bytes": 1874832
+  }
+]

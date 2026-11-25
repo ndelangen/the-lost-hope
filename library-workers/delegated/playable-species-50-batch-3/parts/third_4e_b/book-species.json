@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Human",
+    "kind": "species",
+    "publication": "Player's Handbook (4e, 2008)",
+    "edition": "4th edition",
+    "traits": [
+      "Medium, speed 6 squares, normal vision. Add 2 to one ability score. Speak Common and one other language.",
+      "At character creation, choose an additional at-will power from your class and train in one additional skill from your class skill list. At 1st level, take one additional feat for which you qualify.",
+      "Your Fortitude, Reflex, and Will defenses each get a +1 racial bonus."
+    ]
+  },
+  {
+    "name": "Tiefling",
+    "kind": "species",
+    "publication": "Player's Handbook (4e, 2008)",
+    "edition": "4th edition",
+    "traits": [
+      "Medium, speed 6 squares, low-light vision. Intelligence +2 and Charisma +2. Speak Common and one other language. Bluff and Stealth each get +2.",
+      "Bloodhunt gives +1 to attack rolls against bloodied foes. Fire resistance is 5 plus half your level.",
+      "Infernal Wrath is a personal encounter minor action in the original Player’s Handbook. Your next attack roll against an enemy that hit you since your last turn gets a +1 power bonus. If that attack hits and deals damage, add your Charisma modifier to the damage."
+    ]
+  },
+  {
+    "name": "Half-Orc",
+    "kind": "species",
+    "publication": "Player's Handbook 2 (4e)",
+    "edition": "4th edition",
+    "traits": [
+      "Medium, speed 6 squares, low-light vision. Strength +2 and Dexterity +2. Speak Common and Giant. Endurance and Intimidate each get +2.",
+      "Half-Orc Resilience grants 5 temporary HP the first time you become bloodied in an encounter. This rises to 10 at 11th level and 15 at 21st.",
+      "Swift Charge adds 2 to your speed during a charge.",
+      "Furious Assault is a personal encounter free action triggered by hitting an enemy. Add 1[W] to a weapon attack’s damage or 1d8 to another attack’s damage."
+    ]
+  },
+  {
+    "name": "Goblin",
+    "kind": "species",
+    "publication": "Monster Manual (4e, 2008)",
+    "edition": "4th edition",
+    "traits": [
+      "Small, speed 6 squares, low-light vision. Dexterity +2 and Charisma +2. Speak Common and Goblin. Stealth and Thievery each get +2.",
+      "Goblin Reflexes gives a +1 racial bonus to Reflex.",
+      "Goblin Tactics lets you shift 1 square as an at-will immediate reaction when a melee attack misses you."
+    ]
+  },
+  {
+    "name": "Orc",
+    "kind": "species",
+    "publication": "Monster Manual (4e, 2008)",
+    "edition": "4th edition",
+    "traits": [
+      "Medium, speed 6 squares, low-light vision. Strength +2 and Constitution +2. Speak Common and Giant.",
+      "Running Charge adds 2 to your speed during a charge.",
+      "Warrior’s Surge is an encounter standard melee weapon power. Roll Strength against AC. A hit deals 1[W] plus Strength modifier and lets you spend a healing surge. The damage rises to 2[W] plus Strength modifier at 21st level."
+    ]
+  }
+]

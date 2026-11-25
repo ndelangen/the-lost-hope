@@ -1,0 +1,273 @@
+[
+  {
+    "name": "Cläu-rin",
+    "decision": "separate",
+    "pages": "pp. 59, 61",
+    "notes": "AD&D 2nd edition encounter from the printed appendix.",
+    "statBlock": {
+      "name": "Cläu-rin",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "classification": "Large aquatic turtle",
+      "ac": 0,
+      "hp": null,
+      "hitDice": "8+3",
+      "speed": "3, swim 24",
+      "cr": "",
+      "thac0": 11,
+      "xp": 2000,
+      "otherStatistics": "Temperate or tropical waters. Very rare, solitary, active at any time. Carnivore. Intelligence 13–14. Treasure M ×50, Q ×5, and possible G. Neutral evil. Appearing 1. No magic resistance. At least 10 feet long. Elite morale 13–14.",
+      "description": "This giant turtle guards snapper waters against trespassers and demands treasure and cinnabryl in return.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Claws and bite. Make two claw attacks for 1d8 damage each and one bite for 4d8 damage.",
+        "Defenses": "Shell. AC 0 normally and −2 with shell protection. No separate saving throw bonus is printed for the cläu-rin.",
+        "Red Curse": "Can acquire Legacies and needs cinnabryl to ward off Affliction. Add 1,000 XP per Legacy.",
+        "Printed source": "pp. 59, 61"
+      }
+    }
+  },
+  {
+    "name": "Kla’a-Tah",
+    "decision": "separate",
+    "pages": "pp. 59–61",
+    "notes": "AD&D 2nd edition encounter from the printed appendix.",
+    "statBlock": {
+      "name": "Kla’a-Tah",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "classification": "Large amphibious turtle",
+      "ac": -1,
+      "hp": null,
+      "hitDice": "7+1",
+      "speed": "6, swim 18",
+      "cr": "",
+      "thac0": 13,
+      "xp": 2000,
+      "otherStatistics": "Temperate waters and coastlines. Very rare, solitary, active at any time. Omnivore. Intelligence 13–14. Treasure Q ×4. Neutral good. Appearing 1. No magic resistance. At least 12 feet long. Champion morale 15–16.",
+      "description": "A gem-shelled guardian of tortle settlements and a natural check on sea gluttons.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Claw and bite. Make one claw attack for 2d4 damage and one bite for 2d12 damage. Its bulk limits it to one claw against a given target each round.\nWithdraw. Pull the limbs and head in toward the shell. Its AC becomes −3. The head opening stays unsealed, so it can still snap at targets in front.",
+        "Defenses": "Saving throws gain +2 normally and +4 while withdrawn, including against mental attacks. While withdrawn, the guardian also gets an unmodified save against effects that usually allow none.",
+        "Senses and movement": "Infravision 90 feet in or out of water. It can float or remain submerged indefinitely and breathe in both water and air. It has its own language and has been heard speaking to tortle shamans.",
+        "Red Curse": "Always has at least one Legacy, with a 25% chance of two or more. Blend, Phase, Sight, Stone Shape, and Cure are common choices. Needs cinnabryl and is worth 1,000 extra XP per Legacy.",
+        "Printed source": "pp. 59–61"
+      }
+    }
+  },
+  {
+    "name": "Krolli",
+    "decision": "separate",
+    "pages": "pp. 65, 67",
+    "notes": "AD&D 2nd edition encounter from the printed appendix.",
+    "statBlock": {
+      "name": "Krolli",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "classification": "Large winged lizard kin",
+      "ac": 3,
+      "hp": null,
+      "hitDice": "3",
+      "speed": "10, fly 18 (C)",
+      "cr": "",
+      "thac0": 17,
+      "xp": 270,
+      "otherStatistics": "Hill or mountain. Rare, active at any time. Omnivore. Intelligence 8–12. Treasure M, with A listed for the community. Any alignment. Appearing 1d20. No magic resistance. Height 7–8 feet, wingspan 17–20 feet. Elite morale 13–14.",
+      "description": "A lightly built, winged reptilian warrior. Krolli settle in isolated eyries and sometimes travel to trade or take mercenary work.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Ground attacks. Make two claws for 1d8+1 each and a bite for 1d6+1.\nAirborne attacks. Make two front claws for 1d8+1 each, one rear claw for 1d10, and a bite for 1d6+1. Krolli can use this sequence against targets on the ground.\nWeapons. About 30% fight with weapons instead, and many carry shields.",
+        "Flight and defenses": "The table lists AC 3 (2). Wings are AC 7. Frontal attackers can target the wings only if taller than the krolli, and rear attackers always roll against wing AC. A krolli that has lost at least half its HP cannot fly. It carries up to 30 pounds in flight unencumbered and up to 45 pounds encumbered. Save vs. paralyzation every 15 minutes of unencumbered flight or every 5 minutes when encumbered. On failure it must land and rest 1 hour per 15 minutes already flown.",
+        "Group encounters": "An eyrie holds 3d20 adults, including one 7th-level fighter per 10 adults, and young with 1/2 HD equal to about one-tenth the adult count. The prose assigns 95% of krolli to fighters up to 7th level and 5% to likely priests of Ka. Krolli have acute senses and speak a dialect of Shazak, with Common rare among the lizard kin.",
+        "Red Curse and XP": "Krolli in cursed areas can acquire Legacies and use cinnabryl to avoid Affliction. The XP table gives 270 normally, 420 with a Legacy, and 650 for a leader.",
+        "Printed source": "pp. 65, 67"
+      },
+      "ruleNotes": [
+        "AC 2 is parenthetical in the table. The prose mentions shields without explicitly tying them to that number. The XP column prints an extra 650 with a Legacy without marking which tier it belongs to."
+      ]
+    }
+  },
+  {
+    "name": "Snapper",
+    "decision": "separate",
+    "pages": "pp. 109, 111",
+    "notes": "AD&D 2nd edition encounter from the printed appendix.",
+    "statBlock": {
+      "name": "Snapper",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "classification": "Medium marine tortle relative",
+      "ac": 5,
+      "hp": null,
+      "hitDice": "3",
+      "speed": "6, swim 18",
+      "cr": "",
+      "thac0": 17,
+      "xp": 120,
+      "otherStatistics": "Ocean shores. Rare, organized in packs, active by day. Carnivore. Intelligence 8–10. Treasure U. Lawful evil. Appearing 2d10. No magic resistance. Height 6–7 feet. Steady morale 11–12.",
+      "description": "Heavy-shelled hunters that travel in shoreline packs and ride aggressive nikt’oo.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Natural weapons. Make two claw attacks for 1d6 damage each and a bite for 2d4.\nArmed attacks. Use a weapon and a bite instead. Tridents, nets, and spears are favored.",
+        "Senses and movement": "Infravision 60 feet, or 120 feet underwater. Snappers have the swimming nonweapon proficiency and can hold their breath underwater for up to two hours. Their shell cannot close around them.",
+        "Group encounters": "The largest, toughest male leads each hunting pack until challenged. The printing gives leaders no separate stat line. Packs train their nikt’oo mounts for aggression.",
+        "Printed source": "pp. 109, 111"
+      }
+    }
+  },
+  {
+    "name": "Forest Ray",
+    "decision": "separate",
+    "pages": "pp. 93–94",
+    "notes": "AD&D 2nd edition encounter from the printed appendix.",
+    "statBlock": {
+      "name": "Forest Ray",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "classification": "Gargantuan flying beast",
+      "ac": 6,
+      "hp": null,
+      "hitDice": "8–11",
+      "speed": "Fly 18 (E)",
+      "cr": "",
+      "otherStatistics": "Any forest. Rare, solitary, active at any time. Carnivore. Intelligence 0. Treasure J–N ×10, Q ×5, X. Neutral. Appearing 1. No magic resistance. Wingspan 16–20 feet. Elite morale 13–14.",
+      "description": "A mottled flying ray that lies buried under forest litter until prey comes close.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Hit dice, THAC0 and XP": "8 HD has THAC0 13 and 3,000 XP. 9 HD has THAC0 11 and 4,000 XP. 10 HD has THAC0 11 and 5,000 XP. 11 HD has THAC0 9 and 6,000 XP. Add 1,000 XP if it has a Legacy.",
+        "Actions": "Bite. One attack for 3d4 damage. Against a human-sized or smaller target, a hit that beats the required attack roll by more than 2 swallows the target. The swallowed target dies at the end of six rounds. It can attack the ray from inside using a dagger or short sword at −4 to hit against the ray’s normal AC.\nSting. Instead of biting, make one sting attack for 2d10 damage. The target must save vs. paralyzation or be stunned for 2d4 rounds.",
+        "Traits": "Buried ambush grants +2 to surprise opponents. Flies no higher than the treetops and can turn sideways to pass between trees. Changing its coloration takes several days.",
+        "Red Curse": "A Legacy occurs 25% of the time, usually from Region 4, such as Duplicate or Regenerate. The text also gives a 10% chance of a Region 3 Legacy. Forest rays need no cinnabryl.",
+        "Printed source": "pp. 93–94"
+      },
+      "ruleNotes": [
+        "The swallow rule says the roll must exceed the required number by more than 2, but the example lets a 16 swallow when the target number is 14. This block uses the written threshold."
+      ]
+    }
+  },
+  {
+    "name": "Saragón Lyra Bird",
+    "decision": "separate",
+    "pages": "pp. 71–72",
+    "notes": "AD&D 2nd edition encounter from the printed appendix.",
+    "statBlock": {
+      "name": "Saragón Lyra Bird",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "classification": "Tiny magical bird",
+      "ac": 7,
+      "hp": 1,
+      "hitDice": "1 hp",
+      "speed": "Fly 18 (A)",
+      "cr": "",
+      "xp": 65,
+      "otherStatistics": "Very rare, usually solitary, active by day. Insectivore. Intelligence 1. No treasure or magic resistance. Neutral. Appearing 1, or occasionally a mated pair. Unreliable morale 2–4.",
+      "description": "An iridescent bird drawn to hosts carrying parasites such as cardinal ticks and Inheritor lice.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "The bird has no physical attacks and flees danger.\nSong, 3/day. While singing it can use charm person, charm monster, or charm plant. Those charmed defend the bird as best they can.",
+        "Traits": "Continual protection from evil in a 10-foot radius. The bird neither gains Legacies nor needs cinnabryl. When it feeds on a host’s parasites, reduce infestation by 1 percentage point per day. It leaves at 5% and will die after a full week without parasites.",
+        "Encounter rewards": "Award 65 XP for a significant encounter, such as hearing its song or hosting the bird. Killing it gives no XP. The text suggests an optional mild curse for killing one, such as −2 to combat rolls and saves or −4 to proficiency checks. A high-level druid may assign penance. Killing one through captivity is rumored to bring an irreversible curse such as permanent Affliction.",
+        "Printed source": "pp. 71–72"
+      },
+      "ruleNotes": [
+        "The table says 4–5 feet long, while the description calls it hummingbird-sized. Tiny follows the printed size category. The printing gives a three-use limit without saying whether it applies to each spell. This entry uses a shared limit. The belief that its song forbids all violence is a legend."
+      ]
+    }
+  },
+  {
+    "name": "Legacy Leech",
+    "decision": "separate",
+    "pages": "pp. 61–62",
+    "notes": "AD&D 2nd edition encounter from the printed appendix.",
+    "statBlock": {
+      "name": "Legacy Leech",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "classification": "Large extraplanar parasite",
+      "ac": -2,
+      "hp": null,
+      "hitDice": "10",
+      "speed": "18",
+      "cr": "",
+      "thac0": 11,
+      "xp": 6000,
+      "otherStatistics": "Any terrain. Very rare, solitary, active at any time. Feeds on Legacies. Intelligence 19–20. No treasure. Chaotic evil. Appearing 1. Magic resistance 25%. True leech form is 7 feet long. Fearless morale 19–20.",
+      "description": "A banished tanar’ri posing as a red steel weapon. It steals Legacies through the wielder until it can return home.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Weapon form. The unattended leech moves and makes one attack each round using the damage of the weapon it resembles. Once held, it uses the wielder’s weapon abilities. It can appear as a +1 rapier, dagger, magical hook, or pistol. It may also let the wielder use an absorbed Legacy.",
+        "Bond and theft": "An intelligent creature that takes hold of the weapon is bonded as tendrils enter its flesh, with no save. The leech vanishes into its host until it reappears in one of its weapon shapes. The host drops anything held in that hand.\nTo steal a Legacy it does not have, the leech makes the host plunge its blade into the heart of a just-killed creature. The host can refuse a demand with a Wisdom check, blocking the leech for an hour or until a new conflict. During theft the host may save vs. spell to expel the leech, at −1 per Legacy it has absorbed. A host dies immediately once the leech steals 15 Legacies while bonded to that same host.",
+        "Traits": "Starts with 1d4+1 acquired Legacies and never needs cinnabryl. Its weapon form radiates evil. A good priest’s grasp makes it wrench free at effective Strength 20. It will not choose a host with a heroic spirit. A paladin can still grasp it.",
+        "Restored tanar’ri": "At 20 absorbed Legacies, the leech can break its banishment. It spends two rounds attacking those present before it automatically gates home. In this form it makes two claws for 4d4 each, casts as a 9th-level wizard, and is immune to cold, fire, electricity, poison, and charm.",
+        "Printed source": "pp. 61–62"
+      }
+    }
+  },
+  {
+    "name": "Eyeweed",
+    "decision": "separate",
+    "pages": "pp. 88–89",
+    "notes": "AD&D 2nd edition encounter from the printed appendix.",
+    "statBlock": {
+      "name": "Eyeweed",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "classification": "Large aquatic plant",
+      "ac": 7,
+      "hp": null,
+      "hitDice": "8",
+      "speed": "1",
+      "cr": "",
+      "thac0": 13,
+      "xp": 975,
+      "otherStatistics": "Aquatic, usually along coasts or in rivers. Rare, solitary, active at any time. Carnivore. Intelligence 1. No treasure or magic resistance. Neutral. Appearing 1. Body 10 feet across. Steady morale 11–12.",
+      "description": "A fleshy mass disguised as algae or seaweed. Its feelers look like stalks with eyes until the mouths at their tips open.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Feelers. Attack with 2d4 feelers, each dealing 1d3 damage on a hit. They can extend up to 100 feet to find and bite prey. Eyeweed hunts by touch and smell.",
+        "Defenses": "Each feeler takes 6 damage to sever. Damage to a feeler does not reduce the plant’s HP. Kill the central body to destroy the eyeweed. Lost feelers grow back in a week.",
+        "Red Curse": "Eyeweed does not acquire Legacies.",
+        "Printed source": "pp. 88–89"
+      }
+    }
+  },
+  {
+    "name": "Vermeil Fungus",
+    "decision": "separate",
+    "pages": "pp. 88–89",
+    "notes": "AD&D 2nd edition encounter from the printed appendix.",
+    "statBlock": {
+      "name": "Vermeil Fungus",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "classification": "Medium fungus",
+      "ac": 7,
+      "hp": null,
+      "hitDice": "3",
+      "speed": "1",
+      "cr": "",
+      "thac0": 17,
+      "xp": 175,
+      "otherStatistics": "Any terrain. Rare, multicellular, active at any time. Scavenger. Intelligence 0. No treasure or magic resistance. Neutral. Appearing 2d4. Height 4–7 feet. Steady morale 11–12.",
+      "description": "Crimson fungi that feed on steel seed and the remains of Legacy users. They often grow alongside vermilia.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "The fungus has no ordinary attacks.\nDetonating cloud. Attacking or disturbing it releases a red cloud in a 30-foot radius. Every vulnerable creature in the radius is affected as if caught next to detonating smokepowder. The cloud has no printed damage or save.",
+        "Cinnabryl depletion": "Under the linked campaign rule, an affected Inheritor instantly loses seven days of cinnabryl protection. If less remains, deplete what is left and apply the remaining time to the Time of Loss and Change. The fungus supplies the 30-foot radius in place of the smokepowder rule’s normal close range. The fungus itself has no Legacies.",
+        "Setting rule source": "Savage Coast Campaign Book, Depletion of Cinnabryl, pp. 78–79.",
+        "Printed source": "pp. 88–89"
+      }
+    }
+  }
+]

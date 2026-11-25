@@ -1,0 +1,63 @@
+[
+  {
+    "name": "Shifter",
+    "kind": "species",
+    "publication": "Eberron Campaign Setting (2004)",
+    "edition": "3.5 edition",
+    "book": "Eberron Campaign Setting",
+    "authors": [
+      "Keith Baker",
+      "Bill Slavicsek",
+      "James Wyatt"
+    ],
+    "publisher": "Wizards of the Coast",
+    "firstPrinting": "June 2004",
+    "productCode": "620-86400-001-EN",
+    "isbn": "0-7869-3274-0",
+    "printedPages": {
+      "entry": 18,
+      "playableTraits": [
+        19,
+        20
+      ],
+      "healingFactor": 55,
+      "publishedWarriors": [
+        312,
+        313
+      ]
+    },
+    "pdfPages": {
+      "entry": 21,
+      "playableTraits": [
+        22,
+        23
+      ],
+      "healingFactor": 58,
+      "publishedWarriors": [
+        315,
+        316
+      ]
+    },
+    "primaryBookScan": "",
+    "primaryBookSha256": "1d1d1c83e7bba94f7e3e8967def180f564d339dedbd8e85b1abcc6bf48a98922",
+    "officialErrata": "",
+    "officialFaq": "https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP",
+    "printedArtCredit": "Lucio Parrillo, unnamed Shifter p. 19, verified in the Wizards gallery.",
+    "sourceDistinctions": [
+      "The 2004 first printing supplies six shifting traits and a once-daily free action with duration adjusted by current Constitution and shifter feats.",
+      "The original Razorclaw trait describes a light off-hand claw and −2 on all attacks that round when using it with a manufactured weapon.",
+      "Wildhunt shifts into scent and gains +2 to Survival outside shifting. Healing Factor adds one duration round as a shifter feat.",
+      "The 2006 errata changes an optional feat and prestige class without amending the original racial entry.",
+      "Published Warrior 2 Shifters appear in The Forgotten Forge. The staged Ranger and Fighter are original."
+    ],
+    "entryId": "species-eafeb6ad20d21c0b52c44806",
+    "versionKey": "1d115a0b4620e6bd6b651752",
+    "slug": "shifter",
+    "portraitSelection": "generated",
+    "portraitForm": "Iona Fernridge, an original Wildhunt Shifter Ranger",
+    "npcExamples": [
+      "Iona Fernridge",
+      "Dane Millward"
+    ]
+  }
+]

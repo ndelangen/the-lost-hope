@@ -1,0 +1,24 @@
+{
+  "baseline": "5bd08df661552e0368722c939afba5a07de6422b",
+  "temporaryCopy": true,
+  "playableSpecies": 2,
+  "edition": "3.0 edition",
+  "names": [
+    "Korobokuru",
+    "Spirit Folk"
+  ],
+  "selectableProfiles": 4,
+  "spiritFolkLineageProfiles": [
+    "Bamboo",
+    "River",
+    "Sea"
+  ],
+  "searchableBySpeciesTraitsAndNpcRole": 4,
+  "sourceTraitsDisplayed": 4,
+  "originalRunnableNpcBuilds": 2,
+  "fullBuildsReturnedByEncounterAndNpcsCommands": true,
+  "previousNezumiVanaraPatchCompatible": true,
+  "distinctPortraitFiles": 2,
+  "versionPortraitsVerified": 4,
+  "publishedSource": "Oriental Adventures (2001)"
+}

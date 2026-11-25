@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Owlbear (MCDM)",
+    "query": "feathered woodlands deadly leap hulking rush",
+    "condition": "Grappled",
+    "alternates": [
+      {
+        "credit": "D&D Beyond publisher art · Flee, Mortals!",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Shambling Mound (MCDM)",
+    "query": "interwoven sack swamps controller poison froth",
+    "condition": "Restrained",
+    "alternates": [
+      {
+        "credit": "D&D Beyond publisher art · Flee, Mortals!",
+        "url": ""
+      }
+    ]
+  }
+]

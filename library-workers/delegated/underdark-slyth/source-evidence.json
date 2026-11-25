@@ -1,0 +1,53 @@
+[
+  {
+    "name": "Slyth",
+    "kind": "species",
+    "publication": "Underdark (2003)",
+    "edition": "3.5 edition",
+    "book": "Underdark",
+    "authors": [
+      "Bruce R. Cordell",
+      "Gwendolyn F. M. Kestrel",
+      "Jeff Quick"
+    ],
+    "publisher": "Wizards of the Coast",
+    "firstPrinting": "October 2003",
+    "productCode": "620-88581-001-EN",
+    "isbn": "0-7869-3053-5",
+    "printedPages": {
+      "playableSpecies": [
+        17,
+        18
+      ],
+      "racialTraits": [
+        17,
+        18
+      ],
+      "illustration": 18,
+      "namedExamples": 149
+    },
+    "pdfPageOffset": 1,
+    "primaryBookScan": "",
+    "primaryBookSha256": "a7651db6f6506ac8abfd1b49f0b8f96e4d4d33ee2d62c9889720d6bbdcf601be",
+    "officialErrataArchive": "https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP",
+    "errataFilename": null,
+    "faqFilename": "",
+    "faqSha256": "312db30e76d5342b9f9e319d66aa60d86042a25535ba7524cba3193ae0bb08c6",
+    "printedArtCredit": "Vance Kovacs, Svirfneblin, Slyth, and Derro, p. 18.",
+    "sourceDistinctions": [
+      "The player entry describes humanoid shapechangers without naming a formal subtype. It lists no racial Hit Dice.",
+      "Alternate Form has a 10-minute cap per class level and a cooldown equal to the time actually spent in form. The book gives no separate mechanism for reversion at the cap.",
+      "The loss of gear, natural and material armor, attacks, and component-dependent casting applies only in amorphous form. Ongoing force armor can still apply.",
+      "Wizards’ collected archive has no Underdark errata file. The official FAQ has no Slyth entry."
+    ],
+    "entryId": "species-9ebead00242c98772e187099",
+    "versionKey": "df2d031bec5136611a4fdc27",
+    "slug": "slyth",
+    "portraitSelection": "generated",
+    "portraitForm": "Plip Reedstone, an original Slyth Druid in normal form",
+    "npcExamples": [
+      "Plip Reedstone",
+      "Murra Stonewake"
+    ]
+  }
+]

@@ -1,0 +1,336 @@
+[
+  {
+    "name": "Carcass Hound",
+    "decision": "separate",
+    "pages": "pp. 115–116",
+    "notes": "Encounter summary from the printed 3.5 edition.",
+    "statBlock": {
+      "name": "Carcass Hound",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium undead",
+      "ac": 13,
+      "hp": 9,
+      "hitDice": "1d12+3",
+      "speed": "30 ft. (6 squares)",
+      "cr": "1",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "otherStatistics": "Initiative +1. AC 13 (+1 Dex, +2 natural), touch 12, flat-footed 11. Base attack +0. Space and reach 5 ft. Fort +0, Ref +1, Will +2. Listen +5, Spot +5. No feats. Any land. Solitary or pack (2–5). No treasure. Always neutral.",
+      "description": "This decaying watchdog follows simple orders and leaves pieces of itself behind on patrol.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack or full attack. Bite +1 melee (1d6+1 plus nerve rot).\nNerve rot (Ex). A bite exposes the target to disease. Fortitude DC 13. Incubation takes 1d3 hours. Damage is 1d3 Intelligence and 1d3 Constitution.",
+        "Traits and tactics": "Undead traits. Carcass hounds often guard a site in packs. They keep attacking the nearest enemy until destroyed.",
+        "Printed source": "pp. 115–116"
+      },
+      "ruleNotes": [
+        "The stat block prints touch AC 12 and flat-footed AC 11 despite the listed AC components. The disease text calls its DC Constitution-based, but the hound has no Constitution. Use the printed values. The Base Attack/Grapple row gives only base attack. If you need a grapple modifier, use +1 from standard 3.5 rules."
+      ]
+    }
+  },
+  {
+    "name": "Dread Mastiff",
+    "decision": "separate",
+    "pages": "pp. 115–116",
+    "notes": "Encounter summary from the printed 3.5 edition.",
+    "statBlock": {
+      "name": "Dread Mastiff",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium animal",
+      "ac": 16,
+      "hp": 13,
+      "hitDice": "2d8+4",
+      "speed": "40 ft. (8 squares)",
+      "cr": "1",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 2
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 6
+        }
+      },
+      "otherStatistics": "Initiative +2. AC 16 (+2 Dex, +4 natural), touch 14, flat-footed 12. Base attack +1. Space and reach 5 ft. Fort +5, Ref +5, Will +1. Listen +5, Spot +5, Swim +5, Survival +1. Toughness. Any land. Solitary or pack (2–5). No treasure. Always neutral.",
+      "description": "A broad-jowled dog bred to guard property and hunt large game. A trained mastiff can bring down an intruder with its bite.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack or full attack. Bite +3 melee (1d6+3).\nTrip (Ex), trained attack dogs only. A successful bite allows a free trip attempt without a touch attack or an attack of opportunity. If the trip fails, the opponent cannot trip the mastiff in return.",
+        "Traits and tactics": "Scent. It gains a +4 racial bonus on Survival checks to track by scent.",
+        "Printed source": "pp. 115–116"
+      },
+      "ruleNotes": [
+        "The print calls this form Mastiff under Hounds, Dread. It lists touch AC 14 and flat-footed AC 12 despite the AC components. The Base Attack/Grapple row gives only base attack. If you need a grapple modifier, use +3 from standard 3.5 rules. Trip follows the wolf rule cited in the entry."
+      ]
+    }
+  },
+  {
+    "name": "Phantom Hound",
+    "decision": "separate",
+    "pages": "pp. 115–116",
+    "notes": "Encounter summary from the printed 3.5 edition.",
+    "statBlock": {
+      "name": "Phantom Hound",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium undead",
+      "ac": 16,
+      "hp": 13,
+      "hitDice": "2d12",
+      "speed": "40 ft. (8 squares)",
+      "cr": "2",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Int": {
+          "score": 2
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "otherStatistics": "Initiative +2. AC 16 (+2 Dex, +4 natural), touch 14, flat-footed 12. Base attack +0. Space and reach 5 ft. Fort +5, Ref +5, Will +1. Listen +5, Spot +5. No feats. Any land. Solitary or pack (2–5). No treasure. Always neutral. Advances at 3–4 HD (Medium).",
+      "description": "A dead watchdog still patrols its former master’s property. It leaves the grounds to recover stolen goods.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack or full attack. Bite +3 melee (1d6+3 plus poison).\nBay (Su). As a standard action, howl. Every creature within earshot makes a DC 10 Ravenloft Fear save (Will) or is panicked for 2d4 rounds. When the whole pack howls together, use DC 13 and 4d4 rounds.\nPoison (Ex). A bite hit requires a DC 16 Fortitude save. Initial damage is 1d3 Strength. There is no secondary damage.",
+        "Traits and tactics": "Undead traits. Immune to nonmagical weapons. A phantom hound chases a thief until it recovers the property or is destroyed. The strongest hound leads a pack, which attacks together.",
+        "Printed source": "pp. 115–116"
+      },
+      "ruleNotes": [
+        "The print gives touch AC 14 and flat-footed AC 12 despite the listed AC components. It calls the poison DC Constitution-based even though the hound has no Constitution. Use the printed values. The Base Attack/Grapple row gives only base attack. If you need a grapple modifier, use +2 from standard 3.5 rules."
+      ]
+    }
+  },
+  {
+    "name": "Head Hunter",
+    "decision": "separate",
+    "pages": "pp. 111–112",
+    "notes": "Encounter summary from the printed 3.5 edition.",
+    "statBlock": {
+      "name": "Head Hunter",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Tiny aberration",
+      "ac": 14,
+      "hp": 4,
+      "hitDice": "1d8",
+      "speed": "20 ft. (4 squares), climb 10 ft.",
+      "cr": "3",
+      "abilities": {
+        "Str": {
+          "score": 6
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "otherStatistics": "Initiative +2. AC 14 (+2 size, +2 Dex). Base attack +1, grapple −7. Space and reach 2½ ft. Fort +0, Ref +2, Will +3. Bluff +5, Disguise +6, Hide +11, Listen +7, Move Silently +9, Spot +2. Weapon Finesse. Any land or underground. Solitary. No treasure. Always neutral evil.",
+      "description": "A spiderlike head can puppet a corpse or call for help from behind a web of nearly invisible blades.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack or full attack. Bite +4 melee (1d6−2 plus poison), or slam +0 melee (1d3) in a host body.\nPoison (Ex). The bite carries poison. Up to 3/day the head hunter can also spit contact venom at a target within 15 ft. with a ranged touch attack. Fortitude DC 13, initial and secondary damage 2d4 Constitution.\nRazor Web (Ex). Spinning takes full-round actions, at a rate of one 5-ft. cube per minute and at most two cubes per day. Spot DC 20 notices a web. Each web square a creature crosses attacks at +10 melee for 2d6 damage. On a critical hit, roll 1d10. On 1–9 a random limb is severed, adding nonlethal damage equal to the normal damage and bleeding as from a wounding weapon. On 10 it cuts off the target’s head as a vorpal weapon would. Each web square has AC 8 and 10 HP.",
+        "Host body (Ex)": "It can spend one minute implanting itself in a corpse killed in its web and feed on it for ten days. It can puppet a Small to Large corpse. The printed Medium host has 1d10 HD (5 HP), AC 12, Str 10, Dex 10, Ref +0, Hide +2, Move Silently +4, and 5-ft. space and reach. Hits damage the host unless an attacker specifically targets the head. When the host is destroyed, the head hunter falls as if dead. Left unattended it crawls out and seeks another corpse. Entering a new host restores its own HP.",
+        "Traits and tactics": "Immune to poison and webbing. It climbs any webs freely, including its own razor web. It and its web take double fire damage, and fire damage spreads to every square in the web. Tremorsense 60 ft. detects anything touching the ground or its webs. It is effectively blinded to targets beyond 20 ft. that evade tremorsense. Seeing it without a host or on a quadruped calls for a DC 13 Ravenloft Horror save (Will). Speaks Elven, Drow, and several domain languages. Racial +5 on Bluff, Disguise, Hide, Listen, and Move Silently.",
+        "Printed source": "pp. 111–112"
+      },
+      "ruleNotes": [
+        "The printed host AC is 12 with a listed +2 Dex component, though the host’s bracketed Dexterity is 10. Use the listed total. The text gives the web’s critical result as 1–10 without naming the die, so use 1d10. The spit has no printed attack bonus. Use +5 ranged touch for the unhosted form from its listed base attack, Dexterity, and size."
+      ]
+    }
+  },
+  {
+    "name": "Kizoku",
+    "decision": "separate",
+    "pages": "pp. 122–123",
+    "notes": "Encounter summary from the printed 3.5 edition.",
+    "statBlock": {
+      "name": "Kizoku",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium monstrous humanoid",
+      "ac": 17,
+      "hp": 50,
+      "hitDice": "10d8+10",
+      "speed": "30 ft. (6 squares), fly 90 ft. (good)",
+      "cr": "7",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 20
+        }
+      },
+      "otherStatistics": "Initiative +7. AC 17 (+3 Dex, +2 natural, +2 leather armor). Base attack +7, grapple +11. Space and reach 5 ft. Fort +4, Ref +10, Will +11. Bluff +10, Diplomacy +11, Disguise +8, Gather Information +10, Listen +6, Move Silently +8, Perform (sing) +13, Ride +7, Sense Motive +10, Spot +6. Bonus feats Alertness, Dodge, and Exotic Weapon Proficiency (katana). Improved Initiative, Improved Unarmed Strike, Iron Will. Land (Rokushima Táiyoo). Solitary. Double standard treasure, 50% art objects. Always lawful evil. Advances at 11–20 HD (Medium), subject to Willow Heart.",
+      "description": "A well-dressed predator marked by a crescent-shaped mole. Its grove of weeping willows holds the people it has transformed.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack. Unarmed strike +11 melee (1d3+4 lethal or nonlethal), katana +11 melee (1d10+4, threat 19–20), or mighty longbow +10 ranged (1d8+3, ×3 critical).\nFull attack. One unarmed strike +11, katana +11/+6, or longbow +10/+5. Use the attack damage above.",
+        "Supernatural abilities": "Euphoria (Su). After at least a week of courtship and a successful Bluff (seduction) check, the woman makes a DC 20 Will save. Failure charms her as charm person (caster level 10th). She gains a +2 morale bonus on attack rolls and ability and skill checks near the kizoku, or takes a −2 morale penalty on those rolls when it is absent. This ends when the kizoku is destroyed or break enchantment dispels it.\nWillow Heart (Su). After at least a month courting a euphoric woman and leading her to commit major betrayal or murder, the kizoku can offer a draining kiss. A failed DC 20 Will save lets it drain her life and turn her into a weeping willow as polymorph any object (caster level 10th). Ravenloft Innocents are immune to this death effect. While the kizoku lives, reversing the transformation leaves an inert body unless miracle, wish, or true resurrection restores the victim. After its death she can be restored normally, except that a victim whose tree provided the killing weapon still requires one of those three spells. The kizoku learns the languages spoken by those it drains and advances one Hit Die per four levels drained through this power.",
+        "Spell-like abilities": "Caster level 10th, save DC 15 + spell level. At will: fly. 1/day each: alter self, calm emotions, charm person, color spray, command, confusion, crushing despair, daze, detect scrying, dimension door, disguise self, displacement, enthrall, gaseous form, hold person, hypnotism, invisibility, mind fog, mislead, rage, slow, and suggestion.",
+        "Defenses and weakness": "DR 10/magic, low-light vision, regeneration 1, spell resistance 13. Its regeneration converts damage from ordinary attacks to nonlethal damage. Someone who truly loved a victim can identify her willow with a DC 20 Wisdom check. A weapon made from that willow’s heartwood deals lethal damage when used by that person. If they land the killing blow, the kizoku dies permanently and the stolen souls return to their owners. The kizoku normally tries to escape with its spells when threatened.",
+        "Printed source": "pp. 122–123"
+      },
+      "ruleNotes": [
+        "The book gives no touch or flat-footed AC totals. Standard 3.5 defaults from the listed components are touch 13 and flat-footed 14 without applying Dodge. The full-attack line lists one unarmed strike despite the weapon attacks having iterative bonuses."
+      ]
+    }
+  },
+  {
+    "name": "Tentacle Rat",
+    "decision": "separate",
+    "pages": "p. 193",
+    "notes": "Encounter summary from the printed 3.5 edition.",
+    "statBlock": {
+      "name": "Tentacle Rat",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Small aberration",
+      "ac": 14,
+      "hp": 4,
+      "hitDice": "½d8",
+      "speed": "20 ft. (4 squares), climb 10 ft.",
+      "cr": "1",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 4
+        }
+      },
+      "otherStatistics": "Initiative +3. AC 14 (+1 size, +3 Dex), touch 14, flat-footed 11. Base attack +0, grapple +4. Space and reach 5 ft. Fort +2, Ref +5, Will +3. Balance +6, Climb +10, Hide +8, Move Silently +5. Dodge, Weapon Finesse. Underground (Markovia). Group of 10–30. No treasure. Always neutral evil.",
+      "description": "A bipedal rat with spined tentacles instead of forelimbs. Groups use their tentacles to immobilize prey.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack. Tentacle +4 melee (1d3 plus paralysis).\nFull attack. Two tentacles +4 melee (1d3 plus paralysis each) and bite −1 melee (1d4).\nParalysis (Ex). Each tentacle hit requires a DC 12 Fortitude save or the target is paralyzed for 1d6+2 minutes.",
+        "Traits and tactics": "Darkvision 60 ft. and scent. It usually attacks only if threatened, cornered, or hunting in a pack.",
+        "Printed source": "p. 193"
+      },
+      "ruleNotes": [
+        "The grappling line explicitly gives +4 despite the creature’s Small size and Str 10. The print uses swarm as an organization label, with an individual Small aberration stat block."
+      ]
+    }
+  },
+  {
+    "name": "Goblyn",
+    "decision": "separate",
+    "pages": "p. 92",
+    "notes": "Encounter summary from the printed 3.5 edition.",
+    "statBlock": {
+      "name": "Goblyn",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium monstrous humanoid",
+      "ac": 15,
+      "hp": 26,
+      "hitDice": "4d8+8",
+      "speed": "30 ft. (6 squares)",
+      "cr": "2",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "otherStatistics": "Initiative +3. AC 15 (+3 Dex, +2 natural), touch 13, flat-footed 12. Base attack +3, grapple +5. Space and reach 5 ft. Fort +3, Ref +7, Will +4. Climb +10, Hide +8, Listen +3, Move Silently +10, Spot +3. Endurance, Multiattack. Any land or underground. Solitary, gang (2–5), or pack (7–12). No treasure. Always neutral evil. Advances at 5–6 HD (Medium).",
+      "description": "Magic reshaped this humanoid into a tireless guard. It shares its creator’s orders telepathically with other goblyns.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack. Claw +5 melee (1d4+2).\nFull attack. Two claws +5 melee (1d4+2 each) and bite +3 melee (1d6+2).\nImproved Grab (Ex). If both claws hit a Huge or smaller creature, attempt to start a grapple as a free action without provoking an attack of opportunity.\nFeasting (Ex). Starting on the round after taking hold, the goblyn can bite the held creature. A successful feasting bite grants a +4 circumstance bonus on opposed grapple checks to keep its hold that round. For each 10 HP lost to its feasting bites, the victim makes a DC 12 Fortitude save. Failure adds 1 to the victim’s Ravenloft Outcast Rating from facial scarring. Regenerate removes the scarring penalties.\nStartle (Ex). The first time a foe encounters a goblyn in combat, it makes a DC 13 Ravenloft Fear save (Will) or is stunned for one round.",
+        "Traits and tactics": "Darkvision 90 ft., immunity to sleep and mind-affecting effects, spell resistance 10. Controlled (Su). Each goblyn has a telepathic bond with its creator and with every other goblyn controlled by the same creator. They coordinate ambushes and initiate combat only when ordered.",
+        "Printed source": "p. 92"
+      }
+    }
+  }
+]

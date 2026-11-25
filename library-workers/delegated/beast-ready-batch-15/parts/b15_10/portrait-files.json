@@ -1,0 +1,26 @@
+[
+  {
+    "artGroup": "armored-saber-toothed-tiger",
+    "file": "portraits/armored-saber-toothed-tiger.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "1175b1f8658a85fb9e7d8f2be88846c2874d3acf7cab4d6981b3767bfcc28b3e",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "artGroup": "piccolo",
+    "file": "portraits/piccolo.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "fccb7aeb181593092509ecc395c07edc75724c5458af013e593d601cc0c598da",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "artGroup": "sangzor",
+    "file": "portraits/sangzor.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "db04d6d418286a188711bc57d8cab554c6747c75e3e69c68ad3ebe06d220ea00",
+    "credit": "OpenAI ImageGen"
+  }
+]

@@ -1,0 +1,207 @@
+{
+  "builds": [
+    {
+      "id": "becmi-pegataur-beryl-tailwind",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Basic D&D (BECMI)"
+      ],
+      "size": "Large",
+      "type": "Winged centaur",
+      "title": "Pegataur courier, level 1 creature hero",
+      "difficulty": "10,000 XP, 5 HD, descending AC and BECMI saves.",
+      "ac": 5,
+      "hp": 23,
+      "hitDice": "5d8",
+      "initiative": 0,
+      "speed": "Land 180′ (60′ in encounters), fly 360′ (120′ in encounters).",
+      "senses": "Ordinary sight. Detect Magic can reveal visible magical subjects.",
+      "languages": "Centaur, Giant Eagle, Pegasus, Giant Roc, Elven and Lawful alignment tongue.",
+      "abilityScores": {
+        "STR": 13,
+        "DEX": 11,
+        "CON": 12,
+        "INT": 12,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [],
+      "traits": [
+        "Table 8 fighter saves (death ray or poison, wands, paralysis or turning to stone, breath, rod/staff/spell) 10/11/12/13/14.",
+        "Roll 1d6 per side, high acts first. Base 5-HD monster THAC0 is 15. The +1 Strength adjustment applies to melee attack and damage. AC 5 is natural. The courier harness provides no armor. HP uses die results 5, 5, 4, 3 and 6.",
+        "Elf-style spell access gives one prepared first-level magic-user spell. Dawn of the Emperors flight uses maneuver factor and takeoff 3(b), with a 5,000 cn load limit."
+      ],
+      "actions": [
+        "Spear. One melee attack at effective THAC0 14 for 1d6+1. If thrown, base THAC0 15 for 1d6+1, with range bands 20′/40′/60′ and +1/0/−1 to hit by band.",
+        "Hooves. Two melee attacks at effective THAC0 14, each for 1d6+1, in place of using the spear.",
+        "Detect Magic (once per day). For 2 turns, visible magic on subjects, objects and places within 60′ of Beryl glows to Beryl."
+      ],
+      "tactics": "First ask for help with the signal lamps. Scan the rigging before crossing. If attacked, keep the spear in hand until the rescued courier has cleared the ledge."
+    },
+    {
+      "id": "becmi-sphinx-istran-the-riddlekeeper",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Basic D&D (BECMI)"
+      ],
+      "size": "Large",
+      "type": "Winged leonine creature",
+      "title": "Sphinx keeper of the divided stair, 4 HD",
+      "difficulty": "−2,400,000 XP, pre-level creature hero at 4 HD.",
+      "ac": 4,
+      "hp": 19,
+      "hitDice": "4d8",
+      "initiative": 0,
+      "speed": "Land 180′ (60′ in encounters), fly 360′ (120′ in encounters).",
+      "senses": "Ordinary sight. Recognizes the local animals by voice.",
+      "languages": "Ylari, Thyatian and Neutral alignment tongue. Speaks with local or desert animals.",
+      "abilityScores": {
+        "STR": 12,
+        "DEX": 12,
+        "CON": 12,
+        "INT": 15,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [],
+      "traits": [
+        "Base 4-HD monster THAC0 16. Fighter 8 saves (death ray or poison, wands, paralysis or turning to stone, breath, rod/staff/spell) 8/9/10/11/12. Roll 1d6 per side, high acts first. HP uses die results 5, 4, 6 and 4.",
+        "Bite and claw qualify as +1 for hitting creatures that need magical weapons, with no extra attack or damage bonus. Natural AC 4. Dawn of the Emperors flight uses maneuver factor and takeoff 1(b) and carries up to 4,000 cn.",
+        "Can speak at will with desert animals or animals within 3 miles of his home. Istran is below level 1 and has no spell slots."
+      ],
+      "actions": [
+        "Claws and bite. Roll three attacks at THAC0 16. Each claw deals 1d4 and the bite deals 1d8.",
+        "Roar (twice per day). Within 40′, save vs. spells at −1 or flee for 1d8 rounds. Within 20′, also save vs. paralysis at −1 or be stunned for 1 round. Within 4′, also take 2d6 damage and become deaf for 1d10 turns. A separate save vs. spells reduces deafness to 1d4 turns, with the −1 roar modifier under this reading. Resolve the saves before applying the conditions. A stunned target cannot attack or cast, moves at one-third speed and takes a −4 save and +4 AC penalty. Deaf casters cannot cast."
+      ],
+      "tactics": "Ask for an answer to the riddle. If intruders rush the stair, warn bystanders to clear the hall before roaring. Break away upward if the stair can no longer be defended."
+    },
+    {
+      "id": "becmi-tabi-neri-inkthumb",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Basic D&D (BECMI)"
+      ],
+      "size": "Small",
+      "type": "Winged ape-like creature",
+      "title": "Tabi archive runner, level 1 creature hero",
+      "difficulty": "32,000 XP, 5 HD, one spell in the level 1–3 band.",
+      "ac": 7,
+      "hp": 22,
+      "hitDice": "5d8",
+      "initiative": 0,
+      "speed": "Land 60′ (20′ in encounters), fly 240′ (80′ in encounters).",
+      "senses": "Ordinary sight. Reads familiar woodland and archive shadows for concealment.",
+      "languages": "Gnome, Phanaton, Skycommon and Neutral alignment tongue. Can speak with natural apes and monkeys.",
+      "abilityScores": {
+        "STR": 10,
+        "DEX": 12,
+        "CON": 12,
+        "INT": 14,
+        "WIS": 11,
+        "CHA": 10
+      },
+      "skills": [
+        "Pick Pockets 45%",
+        "Move Silently 50%",
+        "Hide in Shadows 50%"
+      ],
+      "traits": [
+        "Base 5-HD monster THAC0 15. Magic-user 5 saves (death ray or poison, wands, paralysis or turning to stone, breath, rod/staff/spell) 13/14/13/16/15. Add +1 to the roll against fear. Roll 1d6 per side, high acts first.",
+        "Natural AC 7 and no armor or weapon. HP uses die results 5, 4, 5, 3 and 5. Dawn of the Emperors flight uses maneuver factor and takeoff 3(b) with a 5,000 cn maximum load.",
+        "Stench can spread and disperse at 10′ per round to a radius of 100′. If the odor alerts enemies, lower Hide in Shadows by 10–40 percentage points at the DM’s discretion. The blight version begins at level 3."
+      ],
+      "actions": [
+        "Claws. Two attacks at THAC0 15, each for 1d4. Treat them as +1 only for bypassing magical-weapon defenses. Each hit forces a poison save or delusion for 2d6 turns. The victim attacks the nearest creature with weapons or bare hands and cannot cast or use magic items. Neutralize poison or cureall removes the delusion.",
+        "Shield (once per day). AC 2 against missiles and AC 4 against other attacks for 2 turns. Roll a separate save vs. spells against each incoming magic missile. A successful save negates that missile."
+      ],
+      "tactics": "Stay hidden near the missing folio and let visitors explain themselves. Cast Shield if attacked. Use a claw attack against an immediate threat and flee instead of staying to fight a deluded victim."
+    },
+    {
+      "id": "adnd2-pterran-othakk",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "AD&D 2nd edition"
+      ],
+      "size": "Medium",
+      "type": "Reptilian humanoid",
+      "title": "Pterran Vale envoy, Fighter 3",
+      "difficulty": "Single-class 3rd-level warrior, 4,000 XP.",
+      "ac": 8,
+      "hp": 19,
+      "hitDice": "3d10",
+      "initiative": 0,
+      "speed": "12 unencumbered.",
+      "senses": "Ordinary sight.",
+      "languages": "Pterran and Athasian Common. Common uses a nonweapon proficiency slot.",
+      "abilityScores": {
+        "STR": 15,
+        "DEX": 12,
+        "CON": 14,
+        "INT": 11,
+        "WIS": 14,
+        "CHA": 9
+      },
+      "skills": [
+        "Weapon proficiency in spear.",
+        "Language proficiency in Athasian Common."
+      ],
+      "traits": [
+        "Warrior saves (paralyzation, poison or death magic / rod, staff or wand / petrification or polymorph / breath weapon / spell) 13/15/14/16/16. Base THAC0 18 and one spear attack each round. Strength 15 and Dexterity 12 give no modifiers to attack rolls, damage or AC.",
+        "Natural AC 8, no armor. The head fin and wing stubs cannot provide flight. This NPC has no wild talent. Group initiative uses 1d10 per side, lower acts first.",
+        "Before racial adjustment scores are Str 14, Dex 13, Con 14, Int 11, Wis 13 and Cha 10. Hit Dice results are 5, 7 and 7, with no Constitution bonus."
+      ],
+      "actions": [
+        "Obsidian-tipped spear. THAC0 18, 1d6 damage to Small or Medium targets and 1d8 to Large or larger targets. Standard spear statistics apply to Athasian nonmetal spears. Weapon speed 6 for optional individual initiative.",
+        "Throw spear. One per round at THAC0 18 before range adjustments. Table 45 gives short/medium/long ranges of 10/20/30 yards, with 0/−2/−5 to hit. Damage as above.",
+        "Talons. If Othakk gives up using the spear that round, roll two attacks at THAC0 18 for 1d4 each."
+      ],
+      "tactics": "Ask for a witness to the water claim. Keep the spear between trouble and the surveyor. If disarmed, fight with talons only as long as the surveyor needs to escape."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Beryl Tailwind",
+      "species": "Pegataur",
+      "size": "Large",
+      "speciesPublication": "Top Ballista (PC2, 1989)",
+      "edition": "Basic D&D (BECMI)",
+      "build": "becmi-pegataur-beryl-tailwind",
+      "role": "Aerial courier",
+      "motive": "Get a wounded courier off a tower before the lamps lose their last charge.",
+      "hook": "Beryl lands beside the party holding a broken beacon lens. The replacement is fitted above a stairwell that has sheared away."
+    },
+    {
+      "name": "Istran the Riddlekeeper",
+      "species": "Sphinx",
+      "size": "Large",
+      "speciesPublication": "Top Ballista (PC2, 1989)",
+      "edition": "Basic D&D (BECMI)",
+      "build": "becmi-sphinx-istran-the-riddlekeeper",
+      "role": "Guardian and witness",
+      "motive": "Keep treasure-seekers away from a flooded crypt and admit anyone looking for the missing caretaker.",
+      "hook": "Istran blocks the stair and asks, “What can you cast without magic, lose in the dark, and find again when someone lights a lamp?” He accepts a shadow or any answer the party can demonstrate."
+    },
+    {
+      "name": "Neri Inkthumb",
+      "species": "Tabi",
+      "size": "Small",
+      "speciesPublication": "Top Ballista (PC2, 1989)",
+      "edition": "Basic D&D (BECMI)",
+      "build": "becmi-tabi-neri-inkthumb",
+      "role": "Archive runner",
+      "motive": "Return the stolen folio before the archivist traces the torn spine to Neri’s satchel.",
+      "hook": "Neri saw the thief remove a page with a harbor mark. That page is now circulating as a pass to a sealed berth."
+    },
+    {
+      "name": "Othakk",
+      "species": "Pterran",
+      "size": "Medium",
+      "speciesPublication": "Dark Sun Campaign Setting, Expanded and Revised (1995)",
+      "edition": "AD&D 2nd edition",
+      "build": "adnd2-pterran-othakk",
+      "role": "Water-survey escort",
+      "motive": "Protect the surveyor and document the diversion before confronting the caravan owner.",
+      "hook": "An old cistern has run dry. Othakk brings the party a freshly sealed sample of the feed channel’s mud and offers to guide them upstream."
+    }
+  ]
+}

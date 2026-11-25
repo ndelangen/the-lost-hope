@@ -1,0 +1,552 @@
+[
+  {
+    "name": "Aartuk Elder",
+    "statBlock": {
+      "name": "Aartuk Elder",
+      "publication": "Spelljammer: Adventures in Space",
+      "edition": "2014 fifth edition",
+      "printedPage": 8,
+      "classification": "Large plant, typically lawful evil",
+      "ac": 16,
+      "hp": 75,
+      "hitDice": "10d10 + 20",
+      "speed": "20 ft., climb 20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 12,
+      "description": "A bark-covered warrior spreads five suction-tipped branches around its stalk head. Aartuks roam Wildspace in war bands after beholders destroyed their old homeworld.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Proficiency bonus": "+2",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Aartuk.",
+        "Traits": "Spider Climb. The aartuk can cross difficult climbing surfaces, including ceilings, without making an ability check.",
+        "Actions": "Multiattack. Make two attacks, choosing Branch or Radiant Pellet for each.\nBranch. Melee weapon attack, +6 to hit, reach 10 ft., one target. A hit deals 11 (2d6 + 4) bludgeoning damage.\nRadiant Pellet. Ranged spell attack, +4 to hit, range 60 ft., one target. A hit deals 10 (4d4) radiant damage.",
+        "Spellcasting (Psionics)": "As an action, cast one spell below without components. Wisdom is the spellcasting ability (save DC 12).\n1/day each. Calm Emotions, Detect Magic, Sending.",
+        "Bonus actions": "Tongue (Recharge 6). Choose one Large or smaller creature the aartuk can see within 30 ft. It makes a DC 12 Dexterity save. On a failure, it is grappled by the tongue (escape DC 14) and pulled up to 25 ft. toward the aartuk. The tongue can hold only one creature.",
+        "Printed source": "Boo’s Astral Menagerie, p. 8."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Aartuk Starhorror"
+        },
+        {
+          "kind": "monster",
+          "name": "Aartuk Weedling"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Aartuk Starhorror",
+    "statBlock": {
+      "name": "Aartuk Starhorror",
+      "publication": "Spelljammer: Adventures in Space",
+      "edition": "2014 fifth edition",
+      "printedPage": 9,
+      "classification": "Medium plant, typically lawful evil",
+      "ac": 14,
+      "hp": 52,
+      "hitDice": "8d8 + 16",
+      "speed": "20 ft., climb 20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 13,
+      "description": "A star-shaped plant with a stalk head creeps along the ceilings of captured spelljammers. A starhorror can rally a shaken war band or revive a fallen ally.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Proficiency bonus": "+2",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Aartuk.",
+        "Traits": "Spider Climb. The aartuk can cross difficult climbing surfaces, including ceilings, without making an ability check.",
+        "Actions": "Multiattack. Make two attacks, choosing Branch or Radiant Pellet for each.\nBranch. Melee weapon attack, +3 to hit, reach 10 ft., one target. A hit deals 8 (2d6 + 1) bludgeoning damage.\nRadiant Pellet. Ranged spell attack, +2 to hit, range 60 ft., one target. A hit deals 7 (3d4) radiant damage.",
+        "Spellcasting (Psionics)": "As an action, cast one spell below without components, using Wisdom as the spellcasting ability.\n1/day each. Revivify, Speak with Plants.",
+        "Bonus actions": "Rally the Troops (1/day). The starhorror magically ends the charmed and frightened conditions on itself and any creatures it chooses that it can see within 30 ft.\nTongue (Recharge 6). Choose one Medium or smaller creature the aartuk can see within 30 ft. It makes a DC 12 Dexterity save. On a failure, it is grappled by the tongue (escape DC 11) and pulled up to 25 ft. toward the aartuk. The tongue can hold only one creature.",
+        "Printed source": "Boo’s Astral Menagerie, p. 9. The official errata renamed the Aartuk Priest and updated its skill and spell list."
+      },
+      "skills": {
+        "Stealth": 4
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Aartuk Elder"
+        },
+        {
+          "kind": "monster",
+          "name": "Aartuk Weedling"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Aartuk Weedling",
+    "statBlock": {
+      "name": "Aartuk Weedling",
+      "publication": "Spelljammer: Adventures in Space",
+      "edition": "2014 fifth edition",
+      "printedPage": 9,
+      "classification": "Medium plant, typically lawful evil",
+      "ac": 15,
+      "hp": 38,
+      "hitDice": "7d8 + 7",
+      "speed": "20 ft., climb 20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 11,
+      "description": "These war-band fighters cling to walls and ceilings on suction cups. A weedling shoots a sticky tongue to pull prey within reach of its branches.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Proficiency bonus": "+2",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Aartuk.",
+        "Traits": "Spider Climb. The aartuk can cross difficult climbing surfaces, including ceilings, without making an ability check.",
+        "Actions": "Multiattack. Make two attacks, choosing Branch or Radiant Pellet for each.\nBranch. Melee weapon attack, +4 to hit, reach 10 ft., one target. A hit deals 9 (2d6 + 2) bludgeoning damage.\nRadiant Pellet. Ranged spell attack, +3 to hit, range 60 ft., one target. A hit deals 8 (3d4 + 1) radiant damage.",
+        "Bonus actions": "Tongue (Recharge 6). Choose one Medium or smaller creature the aartuk can see within 30 ft. It makes a DC 11 Dexterity save. On a failure, it is grappled by the tongue (escape DC 12) and pulled up to 25 ft. toward the aartuk. The tongue can hold only one creature.",
+        "Printed source": "Boo’s Astral Menagerie, p. 9. The official errata renamed the Aartuk Warrior."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Aartuk Elder"
+        },
+        {
+          "kind": "monster",
+          "name": "Aartuk Starhorror"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Adult Lunar Dragon",
+    "statBlock": {
+      "name": "Adult Lunar Dragon",
+      "publication": "Spelljammer: Adventures in Space",
+      "edition": "2014 fifth edition",
+      "printedPage": 34,
+      "classification": "Huge dragon, typically neutral evil",
+      "ac": 17,
+      "hp": 172,
+      "hitDice": "15d12 + 75",
+      "speed": "40 ft., burrow 20 ft., fly 80 ft.",
+      "abilities": {
+        "Str": {
+          "score": 23
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "13",
+      "xp": 10000,
+      "passivePerception": 21,
+      "description": "This moon dragon tunnels through rock and hoards trophies taken from trespassing crews. When it phases, half its body looks like a dark silhouette.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Proficiency bonus": "+5",
+        "Senses": "Darkvision 240 ft.",
+        "Languages": "Draconic.",
+        "Damage immunities": "Cold.",
+        "Traits": "Legendary Resistance (2/day). The dragon can turn a failed save into a success.\nTunneler. The dragon can burrow through solid rock at half its burrowing speed and leaves a tunnel 15 ft. in diameter.\nUnusual Nature. The dragon needs no air.",
+        "Actions": "Multiattack. Make one Bite attack and two Claw attacks.\nBite. Melee weapon attack, +11 to hit, reach 10 ft., one target. A hit deals 13 (2d6 + 6) piercing damage plus 3 (1d6) cold damage.\nClaw. Melee weapon attack, +11 to hit, reach 5 ft., one target. A hit deals 13 (2d6 + 6) slashing damage.\nTail. Melee weapon attack, +11 to hit, reach 15 ft., one target. A hit deals 13 (2d6 + 6) bludgeoning damage.\nCold Breath (Recharge 5–6). Creatures in a 60-ft. cone make a DC 18 Constitution save. On a failure, a creature takes 36 (8d8) cold damage and its speed becomes 0 through the end of its next turn. On a success, it takes half damage and its speed stays the same.",
+        "Bonus actions": "Phase (3/day). The dragon turns partly incorporeal while it maintains Concentration as if on a spell. It gains resistance to bludgeoning, piercing, and slashing damage for the duration. This form does not let it pass through creatures or solid objects.",
+        "Legendary actions": "The dragon has 2 legendary actions and refreshes them at the start of its turn. Use at most one option at the end of another creature’s turn.\nTail Attack (1 action). Make a Tail attack.\nTreacherous Ice (1 action). Pick a point the dragon sees up to 120 ft. away. Ice coats the ground in a 20-ft. radius centered there. It is difficult terrain for creatures other than lunar dragons and lasts 10 minutes or until this option is used again.",
+        "Lair": "The dragon burrows a cave system inside a barren moon. Hidden chambers hold its hoard, often with spelljamming helms taken from trespassing ships. The caves may shelter springs, vents, wild plants, or life adapted to the moon.",
+        "Regional effects": "Choose one or more effects near the lair.\nBlack Frost. This frost coats the ground and kills ordinary plants within 3 miles of the lair.\nHaunting Moan. The dragon chooses whether the moan grows louder or fainter as visitors approach. It is audible within 3 miles.\nMoon Devils. Funnels of dust and frost intercept creatures within 1 mile of the lair. Each moon devil uses the Air Elemental stat block, acts independently, and deals cold damage in place of bludgeoning.\nThe moan and moon devils vanish when the dragon dies. The frost fades over 1d10 days and plants can recover.",
+        "Printed source": "Boo’s Astral Menagerie, p. 34, with the official Tail attack bonus correction. The lair and regional rules appear on pp. 33–34."
+      },
+      "savingThrows": {
+        "Con": 10,
+        "Wis": 6
+      },
+      "skills": {
+        "Perception": 11,
+        "Stealth": 11
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Air Elemental",
+          "terms": [
+            "moon devil",
+            "moon devils"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#air%20elemental_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Ancient Lunar Dragon"
+        },
+        {
+          "kind": "monster",
+          "name": "Young Lunar Dragon"
+        },
+        {
+          "kind": "monster",
+          "name": "Lunar Dragon Wyrmling"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Adult Solar Dragon",
+    "statBlock": {
+      "name": "Adult Solar Dragon",
+      "publication": "Spelljammer: Adventures in Space",
+      "edition": "2014 fifth edition",
+      "printedPage": 52,
+      "classification": "Huge dragon, typically neutral",
+      "ac": 17,
+      "hp": 200,
+      "hitDice": "16d12 + 96",
+      "speed": "30 ft., fly 90 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 24
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 22
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "14",
+      "xp": 11500,
+      "passivePerception": 23,
+      "description": "A solar dragon patrols its hunting ground on glowing, cloudlike wings. It hunts kindori and scavvers and may approach a distant ship after mistaking it for prey.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Proficiency bonus": "+5",
+        "Senses": "Darkvision 180 ft.",
+        "Languages": "Draconic.",
+        "Damage immunities": "Radiant.",
+        "Condition immunities": "Blinded.",
+        "Traits": "Flyby. Leaving an enemy’s reach by flying does not provoke an opportunity attack.\nLegendary Resistance (2/day). The dragon can turn a failed save into a success.\nNebulous Thoughts. Magic that attempts to read the dragon’s mind or thoughts fails.\nSiege Monster. Double damage against objects and structures.\nUnusual Nature. The dragon needs no air.",
+        "Actions": "Multiattack. Make one Bite attack and one Tail attack.\nBite. Melee weapon attack, +12 to hit, reach 15 ft., one target. A hit deals 14 (2d6 + 7) piercing damage plus 7 (2d6) radiant damage.\nTail. Melee weapon attack, +12 to hit, reach 20 ft., one target. A hit deals 10 (1d6 + 7) bludgeoning damage.\nPhotonic Breath (Recharge 5–6). Center a 30-ft.-radius sphere on a point the dragon sees up to 180 ft. away. Each creature in the sphere makes a DC 19 Constitution save, taking 55 (10d10) radiant damage on a failure or half as much on a success.",
+        "Legendary actions": "The dragon has 3 legendary actions and refreshes them at the start of its turn. Use at most one option at the end of another creature’s turn.\nTail Attack (1 action). Make a Tail attack.\nBurst of Light (2 actions). The dragon emits magical light. Each creature in a 20-ft.-radius sphere centered on the dragon makes a DC 19 Wisdom save. On a failure, it is blinded through the end of its next turn.",
+        "Lair": "A solar dragon nests in the core of a star or within an immense hollow rock in its glare. An obsidian-shelled egg turns translucent just before it hatches.",
+        "Regional effects": "Blinding Radiance. A creature inside the star or within 10 miles of it is blinded unless it wears eye protection such as Goggles of Night.\nStellar Incineration. A creature takes 132 (24d10) radiant damage when it enters the star or starts its turn inside it.",
+        "Printed source": "Boo’s Astral Menagerie, pp. 51–52. The official errata renames Blinding Brilliance to Burst of Light. The adult retains the printed 20-ft. radius and DC 19."
+      },
+      "savingThrows": {
+        "Dex": 7,
+        "Con": 11,
+        "Wis": 8,
+        "Cha": 7
+      },
+      "skills": {
+        "Perception": 13,
+        "Stealth": 7
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Ancient Solar Dragon"
+        },
+        {
+          "kind": "monster",
+          "name": "Young Solar Dragon"
+        },
+        {
+          "kind": "monster",
+          "name": "Solar Dragon Wyrmling"
+        },
+        {
+          "kind": "monster",
+          "name": "Kindori"
+        },
+        {
+          "kind": "monster",
+          "name": "Brown Scavver"
+        },
+        {
+          "kind": "monster",
+          "name": "Gray Scavver"
+        },
+        {
+          "kind": "monster",
+          "name": "Night Scavver"
+        },
+        {
+          "kind": "monster",
+          "name": "Void Scavver"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Ancient Lunar Dragon",
+    "statBlock": {
+      "name": "Ancient Lunar Dragon",
+      "publication": "Spelljammer: Adventures in Space",
+      "edition": "2014 fifth edition",
+      "printedPage": 32,
+      "classification": "Gargantuan dragon, typically neutral evil",
+      "ac": 18,
+      "hp": 297,
+      "hitDice": "17d20 + 119",
+      "speed": "40 ft., burrow 20 ft., fly 80 ft.",
+      "abilities": {
+        "Str": {
+          "score": 27
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 24
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 17
+        }
+      },
+      "cr": "19",
+      "xp": 22000,
+      "passivePerception": 24,
+      "description": "A slate-colored moon dragon tunnels through deserted moons. Its lair can turn the land black with frost and send funnels of icy dust after intruders.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Proficiency bonus": "+6",
+        "Senses": "Darkvision 240 ft.",
+        "Languages": "Draconic.",
+        "Damage immunities": "Cold.",
+        "Traits": "Legendary Resistance (3/day). The dragon can turn a failed save into a success.\nTunneler. The dragon can burrow through solid rock at half its burrowing speed and leaves a tunnel 20 ft. in diameter.\nUnusual Nature. The dragon needs no air.",
+        "Actions": "Multiattack. Make one Bite attack and two Claw attacks.\nBite. Melee weapon attack, +14 to hit, reach 15 ft., one target. A hit deals 15 (2d6 + 8) piercing damage plus 7 (2d6) cold damage.\nClaw. Melee weapon attack, +14 to hit, reach 10 ft., one target. A hit deals 15 (2d6 + 8) slashing damage.\nTail. Melee weapon attack, +14 to hit, reach 20 ft., one target. A hit deals 15 (2d6 + 8) bludgeoning damage.\nCold Breath (Recharge 5–6). Creatures in a 90-ft. cone make a DC 21 Constitution save. On a failure, a creature takes 36 (8d8) cold damage and its speed becomes 0 through the end of its next turn. On a success, it takes half damage and its speed stays the same.",
+        "Bonus actions": "Phase (3/day). The dragon turns partly incorporeal while it maintains Concentration as if on a spell. It gains resistance to bludgeoning, piercing, and slashing damage for the duration. This form does not let it pass through creatures or solid objects.",
+        "Legendary actions": "The dragon has 3 legendary actions and refreshes them at the start of its turn. Use at most one option at the end of another creature’s turn.\nTail Attack (1 action). Make a Tail attack.\nTreacherous Ice (1 action). Pick a point the dragon sees up to 120 ft. away. Ice coats the ground in a 20-ft. radius centered there. It is difficult terrain for creatures other than lunar dragons and lasts 10 minutes or until this option is used again.\nWing Attack (2 actions). Each creature within 15 ft. of the dragon makes a DC 21 Dexterity save. On a failure, it takes 12 (1d8 + 8) bludgeoning damage and falls prone. The dragon can then fly up to half its flying speed without provoking opportunity attacks.",
+        "Lair": "The dragon burrows a cave system inside a barren moon. Hidden chambers hold its hoard, often with spelljamming helms taken from trespassing ships. The caves may shelter springs, vents, wild plants, or life adapted to the moon.",
+        "Regional effects": "Choose one or more effects near the lair.\nBlack Frost. This frost coats the ground and kills ordinary plants within 6 miles of the lair.\nHaunting Moan. The dragon chooses whether the moan grows louder or fainter as visitors approach. It is audible within 6 miles.\nMoon Devils. Funnels of dust and frost intercept creatures within 1 mile of the lair. Each moon devil uses the Air Elemental stat block, acts independently, and deals cold damage in place of bludgeoning.\nThe moan and moon devils vanish when the dragon dies. The frost fades over 1d10 days and plants can recover.",
+        "Printed source": "Boo’s Astral Menagerie, pp. 32–34."
+      },
+      "savingThrows": {
+        "Con": 13,
+        "Wis": 8
+      },
+      "skills": {
+        "Perception": 14,
+        "Stealth": 13
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Air Elemental",
+          "terms": [
+            "moon devil",
+            "moon devils"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#air%20elemental_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Adult Lunar Dragon"
+        },
+        {
+          "kind": "monster",
+          "name": "Young Lunar Dragon"
+        },
+        {
+          "kind": "monster",
+          "name": "Lunar Dragon Wyrmling"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Ancient Solar Dragon",
+    "statBlock": {
+      "name": "Ancient Solar Dragon",
+      "publication": "Spelljammer: Adventures in Space",
+      "edition": "2014 fifth edition",
+      "printedPage": 50,
+      "classification": "Gargantuan dragon, typically neutral",
+      "ac": 18,
+      "hp": 425,
+      "hitDice": "23d20 + 184",
+      "speed": "30 ft., fly 120 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 28
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 26
+        },
+        "Int": {
+          "score": 17
+        },
+        "Wis": {
+          "score": 18
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "21",
+      "xp": 33000,
+      "passivePerception": 28,
+      "description": "A sun-born dragon with a long scaled body, luminous wings, and a pair of fins may claim an entire Wildspace system as its hunting ground. It guards the approach to its stellar nest, especially when it has eggs.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Proficiency bonus": "+7",
+        "Senses": "Darkvision 240 ft.",
+        "Languages": "Draconic.",
+        "Damage immunities": "Radiant.",
+        "Condition immunities": "Blinded.",
+        "Traits": "Flyby. Leaving an enemy’s reach by flying does not provoke an opportunity attack.\nLegendary Resistance (3/day). The dragon can turn a failed save into a success.\nNebulous Thoughts. Magic that attempts to read the dragon’s mind or thoughts fails.\nSiege Monster. Double damage against objects and structures.\nUnusual Nature. The dragon needs no air.",
+        "Actions": "Multiattack. Make one Bite attack and one Tail attack.\nBite. Melee weapon attack, +16 to hit, reach 20 ft., one target. A hit deals 19 (3d6 + 9) piercing damage plus 10 (3d6) radiant damage.\nTail. Melee weapon attack, +16 to hit, reach 20 ft., one target. A hit deals 13 (1d8 + 9) bludgeoning damage.\nPhotonic Breath (Recharge 5–6). Center a 40-ft.-radius sphere on a point the dragon sees up to 240 ft. away. Each creature in the sphere makes a DC 23 Constitution save, taking 66 (12d10) radiant damage on a failure or half as much on a success.",
+        "Legendary actions": "The dragon has 3 legendary actions and refreshes them at the start of its turn. Use at most one option at the end of another creature’s turn.\nTail Attack (1 action). Make a Tail attack.\nBurst of Light (2 actions). The dragon emits magical light. Each creature in a 30-ft.-radius sphere centered on the dragon makes a DC 23 Wisdom save. On a failure, it is blinded through the end of its next turn.",
+        "Lair": "A solar dragon nests in the core of a star or within an immense hollow rock in its glare. An obsidian-shelled egg turns translucent just before it hatches.",
+        "Regional effects": "Blinding Radiance. A creature inside the star or within 10 miles of it is blinded unless it wears eye protection such as Goggles of Night.\nStellar Incineration. A creature takes 132 (24d10) radiant damage when it enters the star or starts its turn inside it.",
+        "Printed source": "Boo’s Astral Menagerie, pp. 50–51. The official errata updates CR and HP and renames Blinding Brilliance to Burst of Light."
+      },
+      "savingThrows": {
+        "Dex": 9,
+        "Con": 15,
+        "Wis": 11,
+        "Cha": 10
+      },
+      "skills": {
+        "Perception": 18,
+        "Stealth": 9
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Adult Solar Dragon"
+        },
+        {
+          "kind": "monster",
+          "name": "Young Solar Dragon"
+        },
+        {
+          "kind": "monster",
+          "name": "Solar Dragon Wyrmling"
+        },
+        {
+          "kind": "monster",
+          "name": "Kindori"
+        }
+      ]
+    }
+  }
+]

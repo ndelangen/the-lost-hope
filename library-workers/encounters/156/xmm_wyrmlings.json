@@ -1,0 +1,598 @@
+[
+  {
+    "name": "Black Dragon Wyrmling",
+    "statBlock": {
+      "name": "Black Dragon Wyrmling",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 38,
+      "classification": "Medium dragon (chromatic), chaotic evil",
+      "ac": 17,
+      "hp": 33,
+      "hitDice": "6d8 + 6",
+      "speed": "30 ft., fly 60 ft., swim 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 14,
+      "savingThrows": {
+        "Dex": 4,
+        "Wis": 2
+      },
+      "skills": {
+        "Perception": 4,
+        "Stealth": 4
+      },
+      "description": "A swamp-dwelling wyrmling that hunts from the water and exhales a narrow jet of acid.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+4 (14).",
+        "Damage immunities": "Acid.",
+        "Senses": "Blindsight 10 ft., Darkvision 60 ft.",
+        "Languages": "Draconic.",
+        "Habitats": "Swamp.",
+        "Treasure": "Relics.",
+        "Traits": "Amphibious. The wyrmling breathes both air and water.",
+        "Actions": "Multiattack. Make two Rend attacks.\nRend. Melee attack, +4 to hit, reach 5 ft. A hit deals 5 (1d6 + 2) Slashing damage plus 2 (1d4) Acid damage.\nAcid Breath (recharge 5–6). Each creature in a 15-ft. Line 5 ft. wide makes a DC 11 Dexterity save. On a failure, the creature takes 22 (5d8) Acid damage. On a success, it takes half that damage.",
+        "Printed source": "Monster Manual (2024), p. 38."
+      }
+    }
+  },
+  {
+    "name": "Blue Dragon Wyrmling",
+    "statBlock": {
+      "name": "Blue Dragon Wyrmling",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 48,
+      "classification": "Medium dragon (chromatic), lawful evil",
+      "ac": 17,
+      "hp": 65,
+      "hitDice": "10d8 + 20",
+      "speed": "30 ft., burrow 15 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 14,
+      "savingThrows": {
+        "Dex": 2,
+        "Wis": 2
+      },
+      "skills": {
+        "Perception": 4,
+        "Stealth": 2
+      },
+      "description": "An electric-blue wyrmling at home in desert and coastal burrows.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+2 (12).",
+        "Damage immunities": "Lightning.",
+        "Senses": "Blindsight 10 ft., Darkvision 60 ft.",
+        "Languages": "Draconic.",
+        "Habitats": "Coastal, desert.",
+        "Treasure": "Relics.",
+        "Actions": "Multiattack. Make two Rend attacks.\nRend. Melee attack, +5 to hit, reach 5 ft. A hit deals 8 (1d10 + 3) Slashing damage plus 3 (1d6) Lightning damage.\nLightning Breath (recharge 5–6). Each creature in a 30-ft. Line 5 ft. wide makes a DC 12 Dexterity save. On a failure, the creature takes 21 (6d6) Lightning damage. On a success, it takes half that damage.",
+        "Printed source": "Monster Manual (2024), p. 48."
+      }
+    }
+  },
+  {
+    "name": "Green Dragon Wyrmling",
+    "statBlock": {
+      "name": "Green Dragon Wyrmling",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 152,
+      "classification": "Medium dragon (chromatic), lawful evil",
+      "ac": 17,
+      "hp": 38,
+      "hitDice": "7d8 + 7",
+      "speed": "30 ft., fly 60 ft., swim 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 14,
+      "savingThrows": {
+        "Dex": 3,
+        "Wis": 2
+      },
+      "skills": {
+        "Perception": 4,
+        "Stealth": 3
+      },
+      "description": "A forest wyrmling that can breathe underwater and fill a clearing with poison.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+3 (13).",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Blindsight 10 ft., Darkvision 60 ft.",
+        "Languages": "Draconic.",
+        "Habitats": "Forest.",
+        "Treasure": "Arcana.",
+        "Traits": "Amphibious. The wyrmling breathes both air and water.",
+        "Actions": "Multiattack. Make two Rend attacks.\nRend. Melee attack, +4 to hit, reach 5 ft. A hit deals 7 (1d10 + 2) Slashing damage plus 3 (1d6) Poison damage.\nPoison Breath (recharge 5–6). Each creature in a 15-ft. Cone makes a DC 11 Constitution save. On a failure, the creature takes 21 (6d6) Poison damage. On a success, it takes half that damage.",
+        "Printed source": "Monster Manual (2024), p. 152."
+      }
+    }
+  },
+  {
+    "name": "Red Dragon Wyrmling",
+    "statBlock": {
+      "name": "Red Dragon Wyrmling",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 254,
+      "classification": "Medium dragon (chromatic), chaotic evil",
+      "ac": 17,
+      "hp": 75,
+      "hitDice": "10d8 + 30",
+      "speed": "30 ft., climb 30 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 14,
+      "savingThrows": {
+        "Dex": 2,
+        "Wis": 2
+      },
+      "skills": {
+        "Perception": 4,
+        "Stealth": 2
+      },
+      "description": "A fire-breathing wyrmling that climbs the hills and mountains where it lives.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+2 (12).",
+        "Damage immunities": "Fire.",
+        "Senses": "Blindsight 10 ft., Darkvision 60 ft.",
+        "Languages": "Draconic.",
+        "Habitats": "Hill, mountain.",
+        "Treasure": "Any.",
+        "Actions": "Multiattack. Make two Rend attacks.\nRend. Melee attack, +6 to hit, reach 5 ft. A hit deals 9 (1d10 + 4) Slashing damage plus 3 (1d6) Fire damage.\nFire Breath (recharge 5–6). Each creature in a 15-ft. Cone makes a DC 13 Dexterity save. On a failure, the creature takes 24 (7d6) Fire damage. On a success, it takes half that damage.",
+        "Printed source": "Monster Manual (2024), p. 254."
+      }
+    }
+  },
+  {
+    "name": "White Dragon Wyrmling",
+    "statBlock": {
+      "name": "White Dragon Wyrmling",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 328,
+      "classification": "Medium dragon (chromatic), chaotic evil",
+      "ac": 16,
+      "hp": 32,
+      "hitDice": "5d8 + 10",
+      "speed": "30 ft., burrow 15 ft., fly 60 ft., swim 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 14,
+      "savingThrows": {
+        "Dex": 2,
+        "Wis": 2
+      },
+      "skills": {
+        "Perception": 4,
+        "Stealth": 2
+      },
+      "description": "An arctic wyrmling that moves across ice and hunts with a blast of cold.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+2 (12).",
+        "Damage immunities": "Cold.",
+        "Senses": "Blindsight 10 ft., Darkvision 60 ft.",
+        "Languages": "Draconic.",
+        "Habitats": "Arctic.",
+        "Treasure": "Arcana.",
+        "Traits": "Ice Walk. The wyrmling crosses and climbs icy surfaces without an ability check. Ice and snow never cost it extra movement as Difficult Terrain.",
+        "Actions": "Multiattack. Make two Rend attacks.\nRend. Melee attack, +4 to hit, reach 5 ft. A hit deals 6 (1d8 + 2) Slashing damage plus 2 (1d4) Cold damage.\nCold Breath (recharge 5–6). Each creature in a 15-ft. Cone makes a DC 12 Constitution save. On a failure, the creature takes 22 (5d8) Cold damage. On a success, it takes half that damage.",
+        "Printed source": "Monster Manual (2024), p. 328."
+      }
+    }
+  },
+  {
+    "name": "Brass Dragon Wyrmling",
+    "statBlock": {
+      "name": "Brass Dragon Wyrmling",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 54,
+      "classification": "Medium dragon (metallic), chaotic good",
+      "ac": 15,
+      "hp": 22,
+      "hitDice": "4d8 + 4",
+      "speed": "30 ft., burrow 15 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 14,
+      "savingThrows": {
+        "Dex": 2,
+        "Wis": 2
+      },
+      "skills": {
+        "Perception": 4,
+        "Stealth": 2
+      },
+      "description": "A desert wyrmling that burrows into the sand and breathes either fire or sleep gas.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+2 (12).",
+        "Damage immunities": "Fire.",
+        "Senses": "Blindsight 10 ft., Darkvision 60 ft.",
+        "Languages": "Draconic.",
+        "Habitats": "Desert.",
+        "Treasure": "Arcana.",
+        "Actions": "Rend. Melee attack, +4 to hit, reach 5 ft. A hit deals 7 (1d10 + 2) Slashing damage.\nFire Breath (recharge 5–6). Each creature in a 20-ft. Line 5 ft. wide makes a DC 11 Dexterity save. On a failure, the creature takes 14 (4d6) Fire damage. On a success, it takes half that damage.\nSleep Breath. Each creature in a 15-ft. Cone makes a DC 11 Constitution save. On a failure, it is Incapacitated until the end of its next turn, when it repeats the save. A second failure leaves it Unconscious for 1 minute. Taking damage ends the effect, as does a creature within 5 ft. taking an action to wake it.",
+        "Printed source": "Monster Manual (2024), p. 54."
+      }
+    }
+  },
+  {
+    "name": "Bronze Dragon Wyrmling",
+    "statBlock": {
+      "name": "Bronze Dragon Wyrmling",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 58,
+      "classification": "Medium dragon (metallic), lawful good",
+      "ac": 15,
+      "hp": 39,
+      "hitDice": "6d8 + 12",
+      "speed": "30 ft., fly 60 ft., swim 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 14,
+      "savingThrows": {
+        "Dex": 2,
+        "Wis": 2
+      },
+      "skills": {
+        "Perception": 4,
+        "Stealth": 2
+      },
+      "description": "An amphibious coastal wyrmling with lightning breath and a blast that knocks creatures back.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+2 (12).",
+        "Damage immunities": "Lightning.",
+        "Senses": "Blindsight 10 ft., Darkvision 60 ft.",
+        "Languages": "Draconic.",
+        "Habitats": "Coastal.",
+        "Treasure": "Implements.",
+        "Traits": "Amphibious. The wyrmling breathes both air and water.",
+        "Actions": "Multiattack. Make two Rend attacks.\nRend. Melee attack, +5 to hit, reach 5 ft. A hit deals 8 (1d10 + 3) Slashing damage.\nLightning Breath (recharge 5–6). Each creature in a 40-ft. Line 5 ft. wide makes a DC 12 Dexterity save. On a failure, the creature takes 16 (3d10) Lightning damage. On a success, it takes half that damage.\nRepulsion Breath. Each creature in a 30-ft. Cone makes a DC 12 Strength save. On a failure, it is pushed up to 30 ft. straight away from the dragon and knocked Prone.",
+        "Printed source": "Monster Manual (2024), p. 58."
+      }
+    }
+  },
+  {
+    "name": "Copper Dragon Wyrmling",
+    "statBlock": {
+      "name": "Copper Dragon Wyrmling",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 78,
+      "classification": "Medium dragon (metallic), chaotic good",
+      "ac": 16,
+      "hp": 22,
+      "hitDice": "4d8 + 4",
+      "speed": "30 ft., climb 30 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 14,
+      "savingThrows": {
+        "Dex": 3,
+        "Wis": 2
+      },
+      "skills": {
+        "Perception": 4,
+        "Stealth": 3
+      },
+      "description": "A hill-dwelling wyrmling that climbs as readily as it walks and can slow pursuers with its breath.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+3 (13).",
+        "Damage immunities": "Acid.",
+        "Senses": "Blindsight 10 ft., Darkvision 60 ft.",
+        "Languages": "Draconic.",
+        "Habitats": "Hill.",
+        "Treasure": "Arcana.",
+        "Actions": "Rend. Melee attack, +4 to hit, reach 5 ft. A hit deals 7 (1d10 + 2) Slashing damage.\nAcid Breath (recharge 5–6). Each creature in a 20-ft. Line 5 ft. wide makes a DC 11 Dexterity save. On a failure, the creature takes 18 (4d8) Acid damage. On a success, it takes half that damage.\nSlowing Breath. Each creature in a 15-ft. Cone makes a DC 11 Constitution save. On a failure, its Speed is halved, it loses access to Reactions, and it can take at most one action or Bonus Action on its turn. These restrictions end at the end of its next turn.",
+        "Printed source": "Monster Manual (2024), p. 78."
+      }
+    }
+  },
+  {
+    "name": "Gold Dragon Wyrmling",
+    "statBlock": {
+      "name": "Gold Dragon Wyrmling",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 144,
+      "classification": "Medium dragon (metallic), lawful good",
+      "ac": 17,
+      "hp": 60,
+      "hitDice": "8d8 + 24",
+      "speed": "30 ft., fly 60 ft., swim 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 14,
+      "savingThrows": {
+        "Dex": 4,
+        "Wis": 2
+      },
+      "skills": {
+        "Perception": 4,
+        "Stealth": 4
+      },
+      "description": "An amphibious wyrmling that lives in forests or grasslands. Its two breaths burn or weaken foes.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+4 (14).",
+        "Damage immunities": "Fire.",
+        "Senses": "Blindsight 10 ft., Darkvision 60 ft.",
+        "Languages": "Draconic.",
+        "Habitats": "Forest, grassland.",
+        "Treasure": "Arcana.",
+        "Traits": "Amphibious. The wyrmling breathes both air and water.",
+        "Actions": "Multiattack. Make two Rend attacks.\nRend. Melee attack, +6 to hit, reach 5 ft. A hit deals 9 (1d10 + 4) Slashing damage.\nFire Breath (recharge 5–6). Each creature in a 15-ft. Cone makes a DC 13 Dexterity save. On a failure, the creature takes 22 (4d10) Fire damage. On a success, it takes half that damage.\nWeakening Breath. Each creature in a 15-ft. Cone that is unaffected by this breath makes a DC 13 Strength save. On a failure, it has Disadvantage on Strength-based D20 Tests and subtracts 2 (1d4) from its damage rolls. It repeats the save at the end of each of its turns, ending the effect on a success. After 1 minute the save succeeds automatically.",
+        "Printed source": "Monster Manual (2024), p. 144."
+      }
+    }
+  },
+  {
+    "name": "Silver Dragon Wyrmling",
+    "statBlock": {
+      "name": "Silver Dragon Wyrmling",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 278,
+      "classification": "Medium dragon (metallic), lawful good",
+      "ac": 17,
+      "hp": 45,
+      "hitDice": "6d8 + 18",
+      "speed": "30 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 14,
+      "savingThrows": {
+        "Dex": 2,
+        "Wis": 2
+      },
+      "skills": {
+        "Perception": 4,
+        "Stealth": 2
+      },
+      "description": "A wyrmling found in mountains and cities whose breath can chill or paralyze.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+2 (12).",
+        "Damage immunities": "Cold.",
+        "Senses": "Blindsight 10 ft., Darkvision 60 ft.",
+        "Languages": "Draconic.",
+        "Habitats": "Mountain, urban.",
+        "Treasure": "Arcana.",
+        "Actions": "Multiattack. Make two Rend attacks.\nRend. Melee attack, +6 to hit, reach 5 ft. A hit deals 9 (1d10 + 4) Piercing damage.\nCold Breath (recharge 5–6). Each creature in a 15-ft. Cone makes a DC 13 Constitution save. On a failure, the creature takes 18 (4d8) Cold damage. On a success, it takes half that damage.\nParalyzing Breath. Each creature in a 15-ft. Cone makes a DC 13 Constitution save. On a failure, it is Incapacitated until the end of its next turn, when it repeats the save. A second failure leaves it Paralyzed. It repeats the save at the end of each of its turns, ending the effect on a success. After 1 minute the save succeeds automatically.",
+        "Printed source": "Monster Manual (2024), p. 278."
+      }
+    }
+  }
+]

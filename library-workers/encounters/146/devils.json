@@ -1,0 +1,532 @@
+[
+  {
+    "name": "Ice Devil",
+    "statBlock": {
+      "name": "Ice Devil",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large fiend (devil), lawful evil",
+      "ac": 18,
+      "hp": 180,
+      "hitDice": "19d10 + 76",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 21
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "14",
+      "xp": 11500,
+      "passivePerception": 12,
+      "description": "A towering insectile commander of the infernal armies, with powerful mandibles and a barbed tail.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 7,
+        "Con": 9,
+        "Wis": 7,
+        "Cha": 9
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Bludgeoning, piercing, and slashing from nonmagical attacks that are not silvered.",
+        "Damage immunities": "Cold, fire, poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Blindsight 60 ft., darkvision 120 ft.",
+        "Languages": "Infernal, telepathy 120 ft.",
+        "Traits": "Devil's Sight. Magical darkness leaves the devil's darkvision unchanged.\nMagic Resistance. The devil has advantage on saves against spells and other magical effects.",
+        "Actions": "Multiattack. Make one Bite, one Claws, and one Tail attack.\nBite. Melee weapon attack, +10 to hit, reach 5 ft., one target. Hit 12 (2d6 + 5) piercing and 10 (3d6) cold damage.\nClaws. Melee weapon attack, +10 to hit, reach 5 ft., one target. Hit 10 (2d4 + 5) slashing and 10 (3d6) cold damage.\nTail. Melee weapon attack, +10 to hit, reach 10 ft., one target. Hit 12 (2d6 + 5) bludgeoning and 10 (3d6) cold damage.\nWall of Ice (Recharge 6). Magically form an opaque ice barrier on a solid surface the devil can see within 60 ft. The ice is 1 ft. thick. The devil chooses a wall up to 30 ft. long and 10 ft. high or a hemispherical dome up to 20 ft. across.\nWhen it forms, each creature occupying its space is pushed out by the shortest route. The creature can choose which side it ends up on unless it is Incapacitated. It then rolls a DC 17 Dexterity save, taking 35 (10d6) cold damage on a failure or half on a success.\nThe barrier lasts 1 minute or ends early if the devil becomes Incapacitated or dies. Each 10-ft. section has AC 5 and 30 HP, is vulnerable to fire, and is immune to acid, cold, necrotic, poison, and psychic damage.\nA destroyed section leaves frigid air in its space. A creature that finishes passing through the air on a turn, including by forced movement, makes a DC 17 Constitution save. It takes 17 (5d6) cold damage on a failure or half on a success. The air clears when the rest of the barrier vanishes.",
+        "Infernal return": "A devil that dies outside the Nine Hells vanishes in sulfurous smoke or dissolves into ichor. It immediately reforms at full strength on its home layer. Death in the Nine Hells destroys it permanently.",
+        "Printed source": "Monster Manual (2014), pp. 67, 69 and 75. Resistance wording follows the official errata."
+      }
+    }
+  },
+  {
+    "name": "Ice Devil (Spear Variant)",
+    "statBlock": {
+      "name": "Ice Devil (Spear Variant)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large fiend (devil), lawful evil",
+      "ac": 18,
+      "hp": 180,
+      "hitDice": "19d10 + 76",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 21
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "14",
+      "xp": 11500,
+      "passivePerception": 12,
+      "description": "This ice devil carries a barbed spear that chills enemies and slows their reactions.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 7,
+        "Con": 9,
+        "Wis": 7,
+        "Cha": 9
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Bludgeoning, piercing, and slashing from nonmagical attacks that are not silvered.",
+        "Damage immunities": "Cold, fire, poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Blindsight 60 ft., darkvision 120 ft.",
+        "Languages": "Infernal, telepathy 120 ft.",
+        "Traits": "Devil's Sight. Magical darkness leaves the devil's darkvision unchanged.\nMagic Resistance. The devil has advantage on saves against spells and other magical effects.",
+        "Actions": "Multiattack. Make one Ice Spear attack and one Tail attack.\nIce Spear. Melee weapon attack, +10 to hit, reach 10 ft., one target. Hit 14 (2d8 + 5) piercing and 10 (3d6) cold damage. If the target is a creature, it rolls a DC 15 Constitution save. On a failure, for 1 minute its speed drops by 10 ft., it cannot take reactions, and it can take either an action or a bonus action on each of its turns. It repeats the save at the end of each of its turns, ending the effect on a success.\nBite. Melee weapon attack, +10 to hit, reach 5 ft., one target. Hit 12 (2d6 + 5) piercing and 10 (3d6) cold damage.\nClaws. Melee weapon attack, +10 to hit, reach 5 ft., one target. Hit 10 (2d4 + 5) slashing and 10 (3d6) cold damage.\nTail. Melee weapon attack, +10 to hit, reach 10 ft., one target. Hit 12 (2d6 + 5) bludgeoning and 10 (3d6) cold damage.\nWall of Ice (Recharge 6). Magically form an opaque ice barrier on a solid surface the devil can see within 60 ft. The ice is 1 ft. thick. The devil chooses a wall up to 30 ft. long and 10 ft. high or a hemispherical dome up to 20 ft. across.\nWhen it forms, each creature occupying its space is pushed out by the shortest route. The creature can choose which side it ends up on unless it is Incapacitated. It then rolls a DC 17 Dexterity save, taking 35 (10d6) cold damage on a failure or half on a success.\nThe barrier lasts 1 minute or ends early if the devil becomes Incapacitated or dies. Each 10-ft. section has AC 5 and 30 HP, is vulnerable to fire, and is immune to acid, cold, necrotic, poison, and psychic damage.\nA destroyed section leaves frigid air in its space. A creature that finishes passing through the air on a turn, including by forced movement, makes a DC 17 Constitution save. It takes 17 (5d6) cold damage on a failure or half on a success. The air clears when the rest of the barrier vanishes.",
+        "Infernal return": "A devil that dies outside the Nine Hells vanishes in sulfurous smoke or dissolves into ichor. It immediately reforms at full strength on its home layer. Death in the Nine Hells destroys it permanently.",
+        "Printed source": "Monster Manual (2014), pp. 67, 69 and 75, including the Ice Devil Spear sidebar. Resistance wording follows the official errata.",
+        "Variant rules": "The spear sidebar supplies this Multiattack and adds Ice Spear. The individual Bite, Claws, and Tail actions and Wall of Ice remain available."
+      }
+    }
+  },
+  {
+    "name": "Ice Devil (Summoner Variant)",
+    "statBlock": {
+      "name": "Ice Devil (Summoner Variant)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large fiend (devil), lawful evil",
+      "ac": 18,
+      "hp": 180,
+      "hitDice": "19d10 + 76",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 21
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "14",
+      "xp": 11500,
+      "passivePerception": 12,
+      "description": "An insectile commander that can summon another ice devil.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 7,
+        "Con": 9,
+        "Wis": 7,
+        "Cha": 9
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Bludgeoning, piercing, and slashing from nonmagical attacks that are not silvered.",
+        "Damage immunities": "Cold, fire, poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Blindsight 60 ft., darkvision 120 ft.",
+        "Languages": "Infernal, telepathy 120 ft.",
+        "Traits": "Devil's Sight. Magical darkness leaves the devil's darkvision unchanged.\nMagic Resistance. The devil has advantage on saves against spells and other magical effects.",
+        "Actions": "Multiattack. Make one Bite, one Claws, and one Tail attack.\nBite. Melee weapon attack, +10 to hit, reach 5 ft., one target. Hit 12 (2d6 + 5) piercing and 10 (3d6) cold damage.\nClaws. Melee weapon attack, +10 to hit, reach 5 ft., one target. Hit 10 (2d4 + 5) slashing and 10 (3d6) cold damage.\nTail. Melee weapon attack, +10 to hit, reach 10 ft., one target. Hit 12 (2d6 + 5) bludgeoning and 10 (3d6) cold damage.\nWall of Ice (Recharge 6). Magically form an opaque ice barrier on a solid surface the devil can see within 60 ft. The ice is 1 ft. thick. The devil chooses a wall up to 30 ft. long and 10 ft. high or a hemispherical dome up to 20 ft. across.\nWhen it forms, each creature occupying its space is pushed out by the shortest route. The creature can choose which side it ends up on unless it is Incapacitated. It then rolls a DC 17 Dexterity save, taking 35 (10d6) cold damage on a failure or half on a success.\nThe barrier lasts 1 minute or ends early if the devil becomes Incapacitated or dies. Each 10-ft. section has AC 5 and 30 HP, is vulnerable to fire, and is immune to acid, cold, necrotic, poison, and psychic damage.\nA destroyed section leaves frigid air in its space. A creature that finishes passing through the air on a turn, including by forced movement, makes a DC 17 Constitution save. It takes 17 (5d6) cold damage on a failure or half on a success. The air clears when the rest of the barrier vanishes.\nSummon Devil (1/day). Attempt to call one Ice Devil. Roll a 60% chance to summon the chosen reinforcement magically. Each summoned devil appears in an unoccupied space within 60 ft. of the summoner and acts as its ally. The summoned devils cannot summon more devils. Each lasts 1 minute and departs early if it dies, its summoner dies, or the summoner uses an action to dismiss it.",
+        "Infernal return": "A devil that dies outside the Nine Hells vanishes in sulfurous smoke or dissolves into ichor. It immediately reforms at full strength on its home layer. Death in the Nine Hells destroys it permanently.",
+        "Printed source": "Monster Manual (2014), pp. 67–69 and 75, including the Devil Summoning sidebar. Resistance wording follows the official errata."
+      }
+    }
+  },
+  {
+    "name": "Erinyes",
+    "statBlock": {
+      "name": "Erinyes",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium fiend (devil), lawful evil",
+      "ac": 18,
+      "hp": 153,
+      "hitDice": "18d8 + 72",
+      "speed": "30 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "12",
+      "xp": 8400,
+      "passivePerception": 12,
+      "description": "A winged enforcer of the Nine Hells who can pass for a celestial before drawing a weapon.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 7,
+        "Con": 8,
+        "Wis": 6,
+        "Cha": 8
+      },
+      "sections": {
+        "Armor": "Plate.",
+        "Damage resistances": "Cold. Bludgeoning, piercing, and slashing from nonmagical attacks that are not silvered.",
+        "Damage immunities": "Fire, poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Infernal, telepathy 120 ft.",
+        "Traits": "Hellish Weapons. The erinyes's weapon attacks are magical. On a hit they deal 13 (3d8) extra poison damage, already included in the attacks below.\nMagic Resistance. The devil has advantage on saves against spells and other magical effects.",
+        "Actions": "Multiattack. Make three attacks.\nLongsword. Melee weapon attack, +8 to hit, reach 5 ft., one target. Hit 8 (1d8 + 4) slashing damage with one hand or 9 (1d10 + 4) with two hands. Either grip adds 13 (3d8) poison damage.\nLongbow. Ranged weapon attack, +7 to hit, range 150/600 ft., one target. Hit 7 (1d8 + 3) piercing and 13 (3d8) poison damage. The target rolls a DC 14 Constitution save. On a failure, it becomes Poisoned until Lesser Restoration or similar magic removes the poison.",
+        "Reactions": "Parry. Add 4 to AC against one melee attack that would hit. The erinyes must see the attacker and wield a melee weapon.",
+        "Infernal return": "A devil that dies outside the Nine Hells vanishes in sulfurous smoke or dissolves into ichor. It immediately reforms at full strength on its home layer. Death in the Nine Hells destroys it permanently.",
+        "Printed source": "Monster Manual (2014), pp. 67, 70 and 73. Resistance wording follows the official errata."
+      }
+    }
+  },
+  {
+    "name": "Erinyes (Rope of Entanglement)",
+    "statBlock": {
+      "name": "Erinyes (Rope of Entanglement)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium fiend (devil), lawful evil",
+      "ac": 18,
+      "hp": 153,
+      "hitDice": "18d8 + 72",
+      "speed": "30 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "12",
+      "xp": 8400,
+      "passivePerception": 12,
+      "description": "A winged enforcer equipped with an enchanted rope that ties down a target from a distance.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 7,
+        "Con": 8,
+        "Wis": 6,
+        "Cha": 8
+      },
+      "sections": {
+        "Armor": "Plate.",
+        "Damage resistances": "Cold. Bludgeoning, piercing, and slashing from nonmagical attacks that are not silvered.",
+        "Damage immunities": "Fire, poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Infernal, telepathy 120 ft.",
+        "Traits": "Hellish Weapons. The erinyes's weapon attacks are magical. On a hit they deal 13 (3d8) extra poison damage, already included in the attacks below.\nMagic Resistance. The devil has advantage on saves against spells and other magical effects.",
+        "Actions": "Multiattack. Make three attacks, or use the Rope of Entanglement and make one attack.\nLongsword. Melee weapon attack, +8 to hit, reach 5 ft., one target. Hit 8 (1d8 + 4) slashing damage with one hand or 9 (1d10 + 4) with two hands. Either grip adds 13 (3d8) poison damage.\nLongbow. Ranged weapon attack, +7 to hit, range 150/600 ft., one target. Hit 7 (1d8 + 3) piercing and 13 (3d8) poison damage. The target rolls a DC 14 Constitution save. On a failure, it becomes Poisoned until Lesser Restoration or similar magic removes the poison.\nRope of Entanglement. Hold one end of the rope and speak its command word as an action, or spend two attacks from Multiattack to use it. Choose one visible creature within 20 ft. It must pass a DC 15 Dexterity save or become Restrained.",
+        "Reactions": "Parry. Add 4 to AC against one melee attack that would hit. The erinyes must see the attacker and wield a melee weapon.",
+        "Infernal return": "A devil that dies outside the Nine Hells vanishes in sulfurous smoke or dissolves into ichor. It immediately reforms at full strength on its home layer. Death in the Nine Hells destroys it permanently.",
+        "Printed source": "Monster Manual (2014), pp. 67, 70 and 73, including the Rope of Entanglement sidebar. Dungeon Master's Guide (2014), pp. 197–198, supplies the item rules. Resistance wording follows the official errata.",
+        "Special equipment": "The Rope of Entanglement is 30 ft. long, weighs 3 lb., has AC 20 and 20 HP. It recovers 1 HP every 5 minutes while above 0 HP and is destroyed at 0 HP.\nThe erinyes can release the creature by speaking a second command word as a bonus action. A Restrained target can spend an action and pass a DC 15 Strength or Dexterity check of its choice to escape."
+      }
+    }
+  },
+  {
+    "name": "Erinyes (Rope Variant)",
+    "statBlock": {
+      "name": "Erinyes (Rope Variant)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium fiend (devil), lawful evil",
+      "ac": 18,
+      "hp": 153,
+      "hitDice": "18d8 + 72",
+      "speed": "30 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "12",
+      "xp": 8400,
+      "passivePerception": 12,
+      "description": "A winged enforcer equipped with an enchanted rope that ties down a target from a distance.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 7,
+        "Con": 8,
+        "Wis": 6,
+        "Cha": 8
+      },
+      "sections": {
+        "Armor": "Plate.",
+        "Damage resistances": "Cold. Bludgeoning, piercing, and slashing from nonmagical attacks that are not silvered.",
+        "Damage immunities": "Fire, poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Infernal, telepathy 120 ft.",
+        "Traits": "Hellish Weapons. The erinyes's weapon attacks are magical. On a hit they deal 13 (3d8) extra poison damage, already included in the attacks below.\nMagic Resistance. The devil has advantage on saves against spells and other magical effects.",
+        "Actions": "Multiattack. Make three attacks, or use the Rope of Entanglement and make one attack.\nLongsword. Melee weapon attack, +8 to hit, reach 5 ft., one target. Hit 8 (1d8 + 4) slashing damage with one hand or 9 (1d10 + 4) with two hands. Either grip adds 13 (3d8) poison damage.\nLongbow. Ranged weapon attack, +7 to hit, range 150/600 ft., one target. Hit 7 (1d8 + 3) piercing and 13 (3d8) poison damage. The target rolls a DC 14 Constitution save. On a failure, it becomes Poisoned until Lesser Restoration or similar magic removes the poison.\nRope of Entanglement. Hold one end of the rope and speak its command word as an action, or spend two attacks from Multiattack to use it. Choose one visible creature within 20 ft. It must pass a DC 15 Dexterity save or become Restrained.",
+        "Reactions": "Parry. Add 4 to AC against one melee attack that would hit. The erinyes must see the attacker and wield a melee weapon.",
+        "Infernal return": "A devil that dies outside the Nine Hells vanishes in sulfurous smoke or dissolves into ichor. It immediately reforms at full strength on its home layer. Death in the Nine Hells destroys it permanently.",
+        "Printed source": "Monster Manual (2014), pp. 67, 70 and 73, including the Rope of Entanglement sidebar. Dungeon Master's Guide (2014), pp. 197–198, supplies the item rules. Resistance wording follows the official errata.",
+        "Special equipment": "The Rope of Entanglement is 30 ft. long, weighs 3 lb., has AC 20 and 20 HP. It recovers 1 HP every 5 minutes while above 0 HP and is destroyed at 0 HP.\nThe erinyes can release the creature by speaking a second command word as a bonus action. A Restrained target can spend an action and pass a DC 15 Strength or Dexterity check of its choice to escape.",
+        "Variant rules": "This catalog label points to the same printed variant as Erinyes (Rope of Entanglement)."
+      }
+    }
+  },
+  {
+    "name": "Erinyes (Summoner Variant)",
+    "statBlock": {
+      "name": "Erinyes (Summoner Variant)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium fiend (devil), lawful evil",
+      "ac": 18,
+      "hp": 153,
+      "hitDice": "18d8 + 72",
+      "speed": "30 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "12",
+      "xp": 8400,
+      "passivePerception": 12,
+      "description": "A winged enforcer who can call another erinyes or a squad of lesser devils.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 7,
+        "Con": 8,
+        "Wis": 6,
+        "Cha": 8
+      },
+      "sections": {
+        "Armor": "Plate.",
+        "Damage resistances": "Cold. Bludgeoning, piercing, and slashing from nonmagical attacks that are not silvered.",
+        "Damage immunities": "Fire, poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Infernal, telepathy 120 ft.",
+        "Traits": "Hellish Weapons. The erinyes's weapon attacks are magical. On a hit they deal 13 (3d8) extra poison damage, already included in the attacks below.\nMagic Resistance. The devil has advantage on saves against spells and other magical effects.",
+        "Actions": "Multiattack. Make three attacks.\nLongsword. Melee weapon attack, +8 to hit, reach 5 ft., one target. Hit 8 (1d8 + 4) slashing damage with one hand or 9 (1d10 + 4) with two hands. Either grip adds 13 (3d8) poison damage.\nLongbow. Ranged weapon attack, +7 to hit, range 150/600 ft., one target. Hit 7 (1d8 + 3) piercing and 13 (3d8) poison damage. The target rolls a DC 14 Constitution save. On a failure, it becomes Poisoned until Lesser Restoration or similar magic removes the poison.\nSummon Devil (1/day). Choose 3d6 Spined Devils, 1d6 Bearded Devils, or one Erinyes. Roll a 50% chance to summon the chosen reinforcement magically. Each summoned devil appears in an unoccupied space within 60 ft. of the summoner and acts as its ally. The summoned devils cannot summon more devils. Each lasts 1 minute and departs early if it dies, its summoner dies, or the summoner uses an action to dismiss it.",
+        "Reactions": "Parry. Add 4 to AC against one melee attack that would hit. The erinyes must see the attacker and wield a melee weapon.",
+        "Infernal return": "A devil that dies outside the Nine Hells vanishes in sulfurous smoke or dissolves into ichor. It immediately reforms at full strength on its home layer. Death in the Nine Hells destroys it permanently.",
+        "Printed source": "Monster Manual (2014), pp. 67–68, 70 and 73, including the Devil Summoning sidebar. Resistance wording follows the official errata."
+      }
+    }
+  },
+  {
+    "name": "Horned Devil",
+    "statBlock": {
+      "name": "Horned Devil",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large fiend (devil), lawful evil",
+      "ac": 18,
+      "hp": 178,
+      "hitDice": "17d10 + 85",
+      "speed": "20 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 22
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 17
+        }
+      },
+      "cr": "11",
+      "xp": 7200,
+      "passivePerception": 13,
+      "description": "A heavily scaled soldier of the Nine Hells who strikes from the air with an iron fork and a lashing tail.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Str": 10,
+        "Dex": 7,
+        "Wis": 7,
+        "Cha": 7
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold. Bludgeoning, piercing, and slashing from nonmagical attacks that are not silvered.",
+        "Damage immunities": "Fire, poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Infernal, telepathy 120 ft.",
+        "Traits": "Devil's Sight. Magical darkness leaves the devil's darkvision unchanged.\nMagic Resistance. The devil has advantage on saves against spells and other magical effects.",
+        "Actions": "Multiattack. Make two Fork attacks and one Tail attack. Hurl Flame can replace any of the three attacks.\nFork. Melee weapon attack, +10 to hit, reach 10 ft., one target. Hit 15 (2d8 + 6) piercing damage.\nTail. Melee weapon attack, +10 to hit, reach 10 ft., one target. Hit 10 (1d8 + 6) piercing damage. A creature other than an undead or construct must pass a DC 17 Constitution save or suffer an infernal wound. It loses 10 (3d6) HP at the start of each of its turns. Each Tail hit against that wounded target increases the loss by 10 (3d6). Any creature can spend an action to stanch the wound with a DC 12 Wisdom (Medicine) check. Magical healing also closes it.\nHurl Flame. Ranged spell attack, +7 to hit, range 150 ft., one target. Hit 14 (4d6) fire damage. A flammable object catches fire if nobody is wearing or carrying it.",
+        "Infernal return": "A devil that dies outside the Nine Hells vanishes in sulfurous smoke or dissolves into ichor. It immediately reforms at full strength on its home layer. Death in the Nine Hells destroys it permanently.",
+        "Printed source": "Monster Manual (2014), pp. 67, 69 and 74. Hit dice and resistance wording follow the official errata."
+      }
+    }
+  },
+  {
+    "name": "Horned Devil (Summoner Variant)",
+    "statBlock": {
+      "name": "Horned Devil (Summoner Variant)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large fiend (devil), lawful evil",
+      "ac": 18,
+      "hp": 178,
+      "hitDice": "17d10 + 85",
+      "speed": "20 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 22
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 17
+        }
+      },
+      "cr": "11",
+      "xp": 7200,
+      "passivePerception": 13,
+      "description": "A winged soldier who can call another horned devil to join the fight.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Str": 10,
+        "Dex": 7,
+        "Wis": 7,
+        "Cha": 7
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold. Bludgeoning, piercing, and slashing from nonmagical attacks that are not silvered.",
+        "Damage immunities": "Fire, poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Infernal, telepathy 120 ft.",
+        "Traits": "Devil's Sight. Magical darkness leaves the devil's darkvision unchanged.\nMagic Resistance. The devil has advantage on saves against spells and other magical effects.",
+        "Actions": "Multiattack. Make two Fork attacks and one Tail attack. Hurl Flame can replace any of the three attacks.\nFork. Melee weapon attack, +10 to hit, reach 10 ft., one target. Hit 15 (2d8 + 6) piercing damage.\nTail. Melee weapon attack, +10 to hit, reach 10 ft., one target. Hit 10 (1d8 + 6) piercing damage. A creature other than an undead or construct must pass a DC 17 Constitution save or suffer an infernal wound. It loses 10 (3d6) HP at the start of each of its turns. Each Tail hit against that wounded target increases the loss by 10 (3d6). Any creature can spend an action to stanch the wound with a DC 12 Wisdom (Medicine) check. Magical healing also closes it.\nHurl Flame. Ranged spell attack, +7 to hit, range 150 ft., one target. Hit 14 (4d6) fire damage. A flammable object catches fire if nobody is wearing or carrying it.\nSummon Devil (1/day). Attempt to call one Horned Devil. Roll a 30% chance to summon the chosen reinforcement magically. Each summoned devil appears in an unoccupied space within 60 ft. of the summoner and acts as its ally. The summoned devils cannot summon more devils. Each lasts 1 minute and departs early if it dies, its summoner dies, or the summoner uses an action to dismiss it.",
+        "Infernal return": "A devil that dies outside the Nine Hells vanishes in sulfurous smoke or dissolves into ichor. It immediately reforms at full strength on its home layer. Death in the Nine Hells destroys it permanently.",
+        "Printed source": "Monster Manual (2014), pp. 67–69 and 74, including the Devil Summoning sidebar. Hit dice and resistance wording follow the official errata."
+      }
+    }
+  }
+]

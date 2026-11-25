@@ -1,0 +1,140 @@
+[
+  {
+    "name": "Zindar",
+    "statBlock": {
+      "name": "Zindar",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 239,
+      "classification": "Medium humanoid (half-dragon), lawful good",
+      "ac": 13,
+      "hp": 110,
+      "hitDice": "17d8 + 34",
+      "speed": "30 ft. (fly 30 ft. with Dragon Wings)",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 12,
+      "description": "The half-gold dragon harbormaster of Port Nyanzaru spends most of his day on the docks, sorting out disputes and keeping trade moving.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 5,
+        "Wis": 5
+      },
+      "skills": {
+        "Arcana": 6,
+        "History": 9,
+        "Insight": 5,
+        "Investigation": 9
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Fire.",
+        "Senses": "Blindsight 10 ft. and darkvision 60 ft.",
+        "Languages": "Common, Draconic, Dwarvish, and Primordial.",
+        "Actions": "Quarterstaff. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 5 (1d6 + 2) bludgeoning damage in one hand or 6 (1d8 + 2) in two hands.\nBreath Weapon (Recharge 5–6). Choose Fire Breath or Weakening Breath. The two options share a single recharge.\nFire Breath. Each creature in a 15-ft. cone makes a DC 15 Dexterity save, taking 22 (4d10) fire damage on a failure or half on a success.\nWeakening Breath. Each creature in a 15-ft. cone makes a DC 15 Strength save. On a failure, it has disadvantage on Strength-based attack rolls, Strength checks, and Strength saves for 1 minute. At the end of each of its turns it can repeat the save, ending the effect on itself on a success.",
+        "Bonus actions": "Dragon Wings. On his turn, Zindar can sprout wings as a bonus action and gain a fly speed of 30 ft. He can dismiss them with another bonus action.",
+        "Spellcasting": "Zindar casts as a 14th-level sorcerer using Charisma. Spell save DC 15, +7 to hit with spell attacks.\nCantrips (at will). Fire Bolt, Friends, Light, Mage Hand, Mending, Message.\n1st level (6 slots). Magic Missile, Shield, Sleep.\n2nd level (4 slots). Detect Thoughts, Knock.\n3rd level (3 slots). Clairvoyance, Tongues.\n4th level (3 slots). Dominate Beast, Stoneskin.\n5th level (3 slots). Hold Monster, Telekinesis.\n6th level (1 slot). True Seeing.\n7th level (1 slot). Fire Storm.",
+        "Encounter context": "Zindar is secretly part of the Ytepka Society. Messages left at his office receive a reply in 1d6 hours. He offers 2,000 gp for each pirate ship brought back to port and 500 gp more for each captured captain. The targets are the Dragonfang, the Emerald Eye, and the Stirge. Zhanthi funds the bounty and has privately uncovered evidence of Liara Portyr's arrangement with the pirates.",
+        "Printed source": "Tomb of Annihilation, Appendix D, p. 239. Port Nyanzaru encounter details appear on pp. 17, 22, and 27."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Zhanthi",
+          "terms": [
+            "Zhanthi"
+          ],
+          "printing": {
+            "publication": "Tomb of Annihilation",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#zhanthi_toa"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Liara Portyr",
+          "terms": [
+            "Liara Portyr"
+          ],
+          "printing": {
+            "publication": "Tomb of Annihilation",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#liara%20portyr_toa"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Zorbo",
+    "statBlock": {
+      "name": "Zorbo",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 241,
+      "classification": "Small monstrosity, unaligned",
+      "ac": 10,
+      "hp": 27,
+      "hitDice": "6d6 + 6",
+      "speed": "30 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 11,
+      "description": "A koala-sized predator that nests in trees and caves. It uses long claws to break through protective gear and hunt for meat.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Athletics": 3
+      },
+      "sections": {
+        "Traits": "Magic Resistance. The zorbo has advantage on saves against spells and other magical effects.\nNatural Armor. Its AC depends on the material it stands on or climbs. Use AC 15 for wood or bone, 17 for earth or stone, and 19 for metal. Use AC 10 when it touches none of those materials.",
+        "Actions": "Destructive Claws. Melee weapon attack, +3 to hit, reach 5 ft., one target. A hit deals 8 (2d6 + 1) slashing damage. If the target is a creature with armor, a shield, or an item that magically improves its AC, it also makes a DC 11 Dexterity save. On a failure, it chooses one eligible item it wears or carries. The AC that item provides drops by 1. This penalty is permanent and cumulative. The zorbo gains +1 AC until the start of its next turn. The item breaks if armor drops to AC 10 or if a shield or protective magic item drops to a +0 AC bonus.",
+        "Encounter context": "In the wilderness, travelers spot 2d6 zorbos in wukka trees. The zorbos warn off approaching creatures and attack if threatened. Around a campsite, hungry zorbos descend from the trees and attack outright. Four lurk near Obo'laka's shrine in Omu. They investigate the noisy entrance doors and target lone creatures or stragglers.",
+        "Printed source": "Tomb of Annihilation, Appendix D, p. 241. The Omu shrine and wilderness encounters are on pp. 109 and 204."
+      }
+    }
+  }
+]

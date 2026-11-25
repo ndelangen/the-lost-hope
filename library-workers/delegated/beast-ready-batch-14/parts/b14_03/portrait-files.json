@@ -1,0 +1,26 @@
+[
+  {
+    "artGroup": "diatryma",
+    "file": "portraits/diatryma.png",
+    "sha256": "06baf714aa1a045652bb3e5750d38174c25fac38c404959b0586cff8fc1f0f38",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "artGroup": "falcon",
+    "file": "portraits/falcon.png",
+    "sha256": "619a21c311b996b7242810390f5d3f90253f6c5d60259be26e0585e235fa499c",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "artGroup": "sylgar",
+    "file": "portraits/sylgar.png",
+    "sha256": "cd92c056b54c6dfaa6c6f45706cbf7c2c0e33a2ff5d5a23de62508a34e478644",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  }
+]

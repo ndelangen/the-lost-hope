@@ -1,0 +1,399 @@
+[
+  {
+    "name": "Animated Broom",
+    "statBlock": {
+      "name": "Animated Broom",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 16,
+      "classification": "Small construct, unaligned",
+      "ac": 15,
+      "hp": 14,
+      "hitDice": "4d6",
+      "speed": "5 ft., fly 50 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 1
+        },
+        "Wis": {
+          "score": 5
+        },
+        "Cha": {
+          "score": 1
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 7,
+      "description": "An enchanted broom can dart through the air to defend the place it usually sweeps.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative details": "+5 to the roll. Initiative score 15.",
+        "Senses": "Blindsight 60 ft.",
+        "Damage immunities": "Poison and psychic.",
+        "Condition immunities": "Charmed, Deafened, Exhaustion, Frightened, Paralyzed, Petrified, and Poisoned.",
+        "Traits": "Flyby. Flying out of an enemy's reach does not provoke an Opportunity Attack.",
+        "Actions": "Slam. Melee attack roll, +5 to hit, reach 5 ft. On a hit, deal 5 (1d4 + 3) bludgeoning damage.",
+        "Printed source": "Monster Manual (2024), p. 16."
+      }
+    }
+  },
+  {
+    "name": "Mage Apprentice",
+    "statBlock": {
+      "name": "Mage Apprentice",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 198,
+      "classification": "Small or Medium humanoid (wizard), neutral",
+      "ac": 15,
+      "hp": 49,
+      "hitDice": "9d8 + 9",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 8
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 13,
+      "savingThrows": {
+        "Int": 5,
+        "Wis": 3
+      },
+      "skills": {
+        "Arcana": 5,
+        "Perception": 3
+      },
+      "description": "A novice spellcaster with a few practiced spells, whether learned from a mentor or discovered alone.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative details": "+2 to the roll. Initiative score 12.",
+        "Languages": "Common plus one other language.",
+        "Armor": "AC includes Mage Armor.",
+        "Gear": "Component Pouch.",
+        "Actions": "Arcane Burst. Melee or ranged attack roll, +5 to hit, reach 5 ft. or range 120 ft. On a hit, deal 14 (2d10 + 3) force damage.\nSpellcasting. Cast one listed spell as an action. Use Intelligence, with spell save DC 13 and +5 to hit on spell attacks.\nAt will. Mage Hand and Prestidigitation.\n1/day each. Disguise Self, Ice Knife, Mage Armor (included in AC), and Thunderwave.",
+        "Printed source": "Monster Manual (2024), p. 198."
+      }
+    }
+  },
+  {
+    "name": "Noble Prodigy",
+    "statBlock": {
+      "name": "Noble Prodigy",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 227,
+      "classification": "Small or Medium humanoid, neutral",
+      "ac": 16,
+      "hp": 148,
+      "hitDice": "27d8 + 27",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 8
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 19
+        }
+      },
+      "cr": "10",
+      "xp": 5900,
+      "passivePerception": 16,
+      "savingThrows": {
+        "Dex": 7,
+        "Con": 5,
+        "Wis": 6,
+        "Cha": 8
+      },
+      "skills": {
+        "Perception": 6,
+        "Persuasion": 8
+      },
+      "description": "A noble whose inherited magic may be the best-kept secret in the family.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative details": "+7 to the roll. Initiative score 17.",
+        "Languages": "Common plus two other languages.",
+        "Armor": "AC includes Mage Armor.",
+        "Actions": "Multiattack. Make three Beguiling Strike attacks.\nBeguiling Strike. Melee or ranged attack roll, +8 to hit, reach 5 ft. or range 60 ft. On a hit, deal 18 (4d6 + 4) psychic damage and leave the target Charmed until the start of the noble's next turn.\nSpellcasting. Cast one listed spell as an action without Material components. Use Charisma, with spell save DC 16.\nAt will. Mage Armor (included in AC), Mage Hand, and Minor Illusion.\n1/day each. Befuddlement, Detect Thoughts, Fly, Scrying, and Shatter cast at level 7.",
+        "Reactions": "Shield (2/day). Cast Shield in response to its usual trigger, using Charisma as in Spellcasting.",
+        "Printed source": "Monster Manual (2024), p. 227."
+      }
+    }
+  },
+  {
+    "name": "Performer",
+    "statBlock": {
+      "name": "Performer",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 236,
+      "classification": "Small or Medium humanoid, neutral",
+      "ac": 13,
+      "hp": 27,
+      "hitDice": "5d8 + 5",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 12,
+      "savingThrows": {
+        "Dex": 5,
+        "Cha": 5
+      },
+      "skills": {
+        "Acrobatics": 5,
+        "Athletics": 3,
+        "Performance": 7
+      },
+      "description": "A local entertainer, traveling storyteller, or musician earning a name for themselves.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative details": "+3 to the roll. Initiative score 13.",
+        "Languages": "Common plus one other language.",
+        "Gear": "Shortsword.",
+        "Actions": "Shortsword. Melee attack roll, +5 to hit, reach 5 ft. On a hit, deal 6 (1d6 + 3) piercing damage.",
+        "Reactions": "Uncanny Dodge. When an attack roll hits the performer, halve the damage the performer takes from that attack. Round down.",
+        "Printed source": "Monster Manual (2024), p. 236."
+      }
+    }
+  },
+  {
+    "name": "Performer Legend",
+    "statBlock": {
+      "name": "Performer Legend",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 237,
+      "classification": "Small or Medium humanoid, neutral",
+      "ac": 20,
+      "hp": 162,
+      "hitDice": "25d8 + 50",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 20
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 20
+        }
+      },
+      "cr": "10",
+      "xp": 5900,
+      "passivePerception": 17,
+      "savingThrows": {
+        "Dex": 9,
+        "Int": 6,
+        "Wis": 7,
+        "Cha": 9
+      },
+      "skills": {
+        "Acrobatics": 13,
+        "Athletics": 5,
+        "Perception": 7,
+        "Performance": 13,
+        "Stealth": 9
+      },
+      "description": "A celebrated artist whose signature act can make an audience fear or adore them.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative details": "+9 to the roll. Initiative score 19.",
+        "Languages": "Common plus two other languages.",
+        "Actions": "Multiattack. Make three Bejeweled Baton attacks.\nBejeweled Baton. Melee attack roll, +9 to hit, reach 5 ft. On a hit, deal 10 (2d4 + 5) bludgeoning damage plus 10 (3d6) psychic damage.\nMajestic Song. Center a 20-ft.-radius Sphere on a point within 120 ft. Every creature in it makes a DC 17 Wisdom save. On a failed save, take 22 (4d8 + 4) psychic damage and become Charmed or Frightened, as the performer chooses, until the end of the performer's next turn. On a successful save, take half damage and suffer no condition.\nSpellcasting. Cast one listed spell as an action without Material components. Use Charisma, with spell save DC 17.\nAt will. Mage Hand, Minor Illusion, and Prestidigitation.\n1/day each. Major Image and Project Image.",
+        "Reactions": "Warding Charm. When a creature hits the performer with an attack roll, that creature makes a DC 17 Wisdom save. On a failed save, the attack misses and the attacker is Charmed until the end of the performer's next turn.",
+        "Printed source": "Monster Manual (2024), p. 237."
+      }
+    }
+  },
+  {
+    "name": "Performer Maestro",
+    "statBlock": {
+      "name": "Performer Maestro",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 237,
+      "classification": "Small or Medium humanoid, neutral",
+      "ac": 18,
+      "hp": 110,
+      "hitDice": "17d8 + 34",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 19
+        }
+      },
+      "cr": "6",
+      "xp": 2300,
+      "passivePerception": 15,
+      "savingThrows": {
+        "Dex": 7,
+        "Cha": 7
+      },
+      "skills": {
+        "Acrobatics": 10,
+        "Athletics": 4,
+        "Perception": 5,
+        "Performance": 10,
+        "Stealth": 7
+      },
+      "description": "A headliner whose performance can charm a room or stop a fight.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative details": "+7 to the roll. Initiative score 17.",
+        "Languages": "Common plus one other language.",
+        "Gear": "Rapier.",
+        "Actions": "Multiattack. Make three Rapier attacks.\nRapier. Melee attack roll, +7 to hit, reach 5 ft. On a hit, deal 8 (1d8 + 4) piercing damage plus 7 (2d6) psychic damage.\nBeguiling Song. Center a 20-ft.-radius Sphere on a point within 120 ft. Every creature in it makes a DC 15 Wisdom save. On a failed save, take 20 (3d10 + 4) psychic damage and become Charmed until the end of the performer's next turn. On a successful save, take half damage and suffer no condition.\nSpellcasting. Cast one listed spell as an action without Material components. Use Charisma, with spell save DC 15.\nAt will. Minor Illusion and Prestidigitation.\n1/day. Tasha's Hideous Laughter cast at level 3.",
+        "Printed source": "Monster Manual (2024), p. 237."
+      }
+    }
+  },
+  {
+    "name": "Goblin Hexer",
+    "statBlock": {
+      "name": "Goblin Hexer",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 143,
+      "classification": "Small fey (goblinoid), chaotic neutral",
+      "ac": 13,
+      "hp": 45,
+      "hitDice": "10d6 + 10",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 8
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 10,
+      "skills": {
+        "Sleight of Hand": 5,
+        "Stealth": 7
+      },
+      "description": "A goblin spellcaster who puts on an archmage's airs and uses magic to disrupt enemies.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative details": "+3 to the roll. Initiative score 13.",
+        "Languages": "Common, Goblin.",
+        "Senses": "Darkvision 60 ft.",
+        "Actions": "Multiattack. Make two Hex Stick attacks. Replace either attack with one use of Spellcasting if desired.\nHex Stick. Melee or ranged attack roll, +5 to hit, reach 5 ft. or range 60 ft. On a hit, deal 12 (2d8 + 3) psychic damage.\nSpellcasting. Cast one listed spell as an action, or in place of one attack during Multiattack. Use Intelligence, with spell save DC 13.\nAt will. Minor Illusion.\n1/day each. Blindness/Deafness, Faerie Fire, and Grease.",
+        "Reactions": "Jinx. When a creature the goblin can see hits it with an attack roll, the attacker makes a DC 13 Wisdom save. On a failed save, the attack misses.",
+        "Printed source": "Monster Manual (2024), p. 143."
+      }
+    }
+  }
+]

@@ -1,0 +1,1479 @@
+diff --git a/dm-library/bestiary/book-catalog.json b/dm-library/bestiary/book-catalog.json
+--- a/dm-library/bestiary/book-catalog.json
++++ b/dm-library/bestiary/book-catalog.json
+@@ -309929,6 +309929,1475 @@
+           }
+         ]
+       }
++    },
++    {
++      "name": "Giant Hyena",
++      "kind": "beast",
++      "edition": "Black Flag Roleplaying",
++      "publication": "Black Flag Roleplaying Reference Document v0.2",
++      "ruleset": "black-flag",
++      "appearance": "An oversized spotted hyena with a raised shoulder ridge, sloping back and broad jaws.",
++      "combat": {
++        "armorClass": 12,
++        "hitPoints": 42,
++        "challenge": "1",
++        "size": "Large",
++        "creatureType": "Beast",
++        "speed": {
++          "walk": 50
++        },
++        "attacks": [
++          {
++            "name": "Bite",
++            "mode": "melee",
++            "hitBonus": 5,
++            "reach": 5,
++            "damage": [
++              {
++                "average": 10,
++                "dice": "2d6 + 3",
++                "type": "piercing"
++              }
++            ]
++          }
++        ],
++        "habitats": [
++          "desert",
++          "forest",
++          "grassland",
++          "hill"
++        ]
++      },
++      "mechanics": {
++        "Trait": [
++          {
++            "name": "Cackling Chorus",
++            "effectNote": "Three or more hyenas within 30 ft. of one another form a chorus. A creature starting its turn within 10 ft. of a participating hyena makes a CON save or is deafened until the start of its next turn. The DC is 8 plus the number of participating hyenas."
++          }
++        ],
++        "Bonus action": [
++          {
++            "name": "Warning Yip",
++            "effectNote": "Choose a visible friendly hyena or gnoll within 30 ft. The next attack against it before the start of this hyena’s next turn has disadvantage."
++          }
++        ],
++        "Reaction": [
++          {
++            "name": "Rampage",
++            "effectNote": "When the hyena reduces a creature to 0 HP, it can move up to half its speed and Bite once. If it does, attacks against it have advantage until the start of its next turn."
++          }
++        ]
++      },
++      "notes": [
++        "Black Flag fixed values are Perception 13 and Stealth 12. Use Stealth instead of rolling when the creature hides.",
++        "Printed ability modifiers are STR +3, DEX +2, CON +2, INT -4, WIS +1, CHA -2.",
++        "Encounter habitat suggestions draw on the equivalent animal in Monster Manual (2024).",
++        "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 360."
++      ]
++    },
++    {
++      "name": "Giant Lizard",
++      "kind": "beast",
++      "edition": "Black Flag Roleplaying",
++      "publication": "Black Flag Roleplaying Reference Document v0.2",
++      "ruleset": "black-flag",
++      "appearance": "A long-bodied lizard with clawed feet, mottled scales and a tapering tail.",
++      "combat": {
++        "armorClass": 12,
++        "hitPoints": 15,
++        "challenge": "1/4",
++        "size": "Large",
++        "creatureType": "Beast",
++        "speed": {
++          "walk": 30,
++          "climb": 30
++        },
++        "attacks": [
++          {
++            "name": "Bite",
++            "mode": "melee",
++            "hitBonus": 4,
++            "reach": 5,
++            "damage": [
++              {
++                "average": 6,
++                "dice": "1d8 + 2",
++                "type": "piercing"
++              }
++            ]
++          }
++        ],
++        "armorClassNote": "natural armor",
++        "habitats": [
++          "coastal",
++          "desert",
++          "forest",
++          "swamp",
++          "underdark"
++        ],
++        "senses": [
++          "darkvision 30 ft."
++        ]
++      },
++      "mechanics": {
++        "Reaction": [
++          {
++            "name": "Detach Tail",
++            "effectNote": "At 9 HP or fewer, when the lizard takes damage it can detach its tail, reduce that damage by 4 (1d8), and move up to its speed without provoking opportunity attacks. Recharges after a short or long rest."
++          }
++        ]
++      },
++      "notes": [
++        "Black Flag fixed values are Perception 10 and Stealth 13. Use Stealth instead of rolling when the creature hides.",
++        "Printed ability modifiers are STR +2, DEX +1, CON +1, INT -4, WIS +0, CHA -3.",
++        "Encounter habitat suggestions draw on the equivalent animal in Monster Manual (2024).",
++        "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 363."
++      ]
++    },
++    {
++      "name": "Giant Octopus",
++      "kind": "beast",
++      "edition": "Black Flag Roleplaying",
++      "publication": "Black Flag Roleplaying Reference Document v0.2",
++      "ruleset": "black-flag",
++      "appearance": "A broad-headed octopus with eight long arms lined with rows of suckers.",
++      "combat": {
++        "armorClass": 11,
++        "hitPoints": 44,
++        "challenge": "1",
++        "size": "Large",
++        "creatureType": "Beast",
++        "speed": {
++          "walk": 10,
++          "swim": 60
++        },
++        "attacks": [
++          {
++            "name": "Tentacles",
++            "mode": "melee",
++            "hitBonus": 5,
++            "reach": 15,
++            "damage": [
++              {
++                "average": 10,
++                "dice": "2d6 + 3",
++                "type": "bludgeoning"
++              }
++            ]
++          }
++        ],
++        "habitats": [
++          "underwater"
++        ],
++        "senses": [
++          "darkvision 60 ft."
++        ]
++      },
++      "mechanics": {
++        "Trait": [
++          {
++            "name": "Hold Breath",
++            "effectNote": "Holds its breath for 1 hour outside water."
++          },
++          {
++            "name": "Underwater Camouflage",
++            "effectNote": "Use Stealth 18 underwater."
++          },
++          {
++            "name": "Water Breathing",
++            "effectNote": "Breathes only underwater."
++          }
++        ],
++        "Action": [
++          {
++            "name": "Tentacles",
++            "effectNote": "A Huge or smaller creature hit is grappled (escape DC 13) and restrained until the grapple ends. The octopus can hold up to two creatures."
++          }
++        ],
++        "Bonus action": [
++          {
++            "name": "Tentacle Slam",
++            "effectNote": "Slam a grappled Medium or smaller creature into a solid surface. DC 13 STR save, taking 7 (2d6) bludgeoning damage on failure or half on success."
++          }
++        ],
++        "Reaction": [
++          {
++            "name": "Ink Dash",
++            "effectNote": "Recharge 4–6. When a visible creature damages the octopus underwater, it can release a 20-ft.-radius ink cloud centered on itself. The area is heavily obscured until the end of its next turn. A significant current can disperse it. The octopus can then swim up to its swim speed. If it moves this way, it immediately releases all creatures it holds."
++          }
++        ]
++      },
++      "notes": [
++        "Black Flag fixed values are Perception 14 and Stealth 13. Use Stealth instead of rolling when the creature hides.",
++        "Printed ability modifiers are STR +3, DEX +1, CON +1, INT -3, WIS +0, CHA -3.",
++        "Encounter habitat suggestions draw on the equivalent animal in Monster Manual (2024).",
++        "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 364."
++      ]
++    },
++    {
++      "name": "Giant Owl",
++      "kind": "beast",
++      "edition": "Black Flag Roleplaying",
++      "publication": "Black Flag Roleplaying Reference Document v0.2",
++      "ruleset": "black-flag",
++      "appearance": "A massive owl with round forward-facing eyes, a hooked beak and broad feathered wings.",
++      "combat": {
++        "armorClass": 12,
++        "hitPoints": 15,
++        "challenge": "1/4",
++        "size": "Large",
++        "creatureType": "Beast",
++        "speed": {
++          "walk": 5,
++          "fly": 60
++        },
++        "attacks": [
++          {
++            "name": "Talons",
++            "mode": "melee",
++            "hitBonus": 4,
++            "reach": 5,
++            "damage": [
++              {
++                "average": 6,
++                "dice": "1d8 + 2",
++                "type": "slashing"
++              }
++            ]
++          }
++        ],
++        "habitats": [
++          "arctic",
++          "forest",
++          "hill"
++        ],
++        "senses": [
++          "darkvision 120 ft."
++        ],
++        "languages": [
++          "Giant Owl, understands Common, Elvish, and Sylvan but can’t speak them"
++        ]
++      },
++      "mechanics": {
++        "Trait": [
++          {
++            "name": "Flyby",
++            "effectNote": "Flying out of an enemy’s reach does not provoke opportunity attacks."
++          },
++          {
++            "name": "Heightened Hearing and Sight",
++            "effectNote": "Use Perception 20 for hearing or sight."
++          },
++          {
++            "name": "Quiet Wings",
++            "effectNote": "Use Stealth 19 while flying."
++          }
++        ],
++        "Reaction": [
++          {
++            "name": "Puffed Up Display",
++            "effectNote": "When a creature the owl is aware of attacks from within 30 ft., the owl can hiss and flare its feathers to impose disadvantage on the attack roll."
++          }
++        ]
++      },
++      "notes": [
++        "Black Flag fixed values are Perception 15 and Stealth 14. Use Stealth instead of rolling when the creature hides.",
++        "Printed ability modifiers are STR +1, DEX +2, CON +1, INT -1, WIS +1, CHA +0.",
++        "Encounter habitat suggestions draw on the equivalent animal in Monster Manual (2024).",
++        "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 365."
++      ]
++    },
++    {
++      "name": "Giant Poisonous Frog",
++      "kind": "beast",
++      "edition": "Black Flag Roleplaying",
++      "publication": "Black Flag Roleplaying Reference Document v0.2",
++      "ruleset": "black-flag",
++      "appearance": "A large, brightly marked frog with smooth skin and powerful folded hind legs.",
++      "combat": {
++        "armorClass": 11,
++        "hitPoints": 44,
++        "challenge": "1",
++        "size": "Large",
++        "creatureType": "Beast",
++        "speed": {
++          "walk": 30,
++          "swim": 30
++        },
++        "attacks": [
++          {
++            "name": "Bite",
++            "mode": "melee",
++            "hitBonus": 5,
++            "reach": 5,
++            "damage": [
++              {
++                "average": 8,
++                "dice": "1d10 + 3",
++                "type": "piercing"
++              },
++              {
++                "average": 5,
++                "dice": "1d10",
++                "type": "poison"
++              }
++            ],
++            "damageCombination": "combined"
++          }
++        ],
++        "habitats": [
++          "forest",
++          "swamp"
++        ],
++        "senses": [
++          "darkvision 30 ft."
++        ]
++      },
++      "mechanics": {
++        "Trait": [
++          {
++            "name": "Amphibious",
++            "effectNote": "Breathes air and water."
++          },
++          {
++            "name": "Standing Leap",
++            "effectNote": "Jumps up to 20 ft. horizontally or 10 ft. vertically, including from a standstill."
++          },
++          {
++            "name": "Toxic Skin",
++            "effectNote": "A creature that touches the frog, or hits it in melee from within 5 ft., must make a DC 13 CON save. On failure it is poisoned and mildly hallucinates until the end of its next turn."
++          }
++        ],
++        "Action": [
++          {
++            "name": "Bite",
++            "effectNote": "On a hit, the creature is grappled (escape DC 13) and restrained. The frog cannot Bite another target until the grapple ends."
++          },
++          {
++            "name": "Swallow",
++            "effectNote": "Bite one grappled target of Medium size or smaller. On a hit, swallow it and end the grapple. The frog can hold one swallowed creature. The victim is blinded and restrained, has total cover against outside effects, and takes 7 (2d6) acid damage at the start of the frog’s turns. If the victim damages the frog, the frog makes a DC 11 CON save at the end of that turn. On failure it regurgitates the victim prone within 5 ft. If the frog dies, the victim can exit prone using 5 ft. of movement and is no longer restrained."
++          }
++        ],
++        "Bonus action": [
++          {
++            "name": "Reeling Tongue",
++            "effectNote": "Target one visible Large or smaller creature within 20 ft. DC 13 STR save or pull it up to 15 ft. closer."
++          }
++        ]
++      },
++      "notes": [
++        "Black Flag fixed values are Perception 10 and Stealth 11. Use Stealth instead of rolling when the creature hides.",
++        "Printed ability modifiers are STR +3, DEX +1, CON +1, INT -4, WIS +0, CHA -4.",
++        "Encounter habitat suggestions draw on the equivalent animal in Monster Manual (2024).",
++        "The habitat suggestions use the ordinary Giant Frog as an ecological analogue. All encounter mechanics come from the poisonous form’s v0.2 block.",
++        "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 358."
++      ]
++    },
++    {
++      "name": "Giant Poisonous Snake",
++      "kind": "beast",
++      "edition": "Black Flag Roleplaying",
++      "publication": "Black Flag Roleplaying Reference Document v0.2",
++      "ruleset": "black-flag",
++      "appearance": "A long venomous snake with a thick body, tapering tail and prominent hinged fangs.",
++      "combat": {
++        "armorClass": 12,
++        "hitPoints": 14,
++        "challenge": "1/4",
++        "size": "Medium",
++        "creatureType": "Beast",
++        "speed": {
++          "walk": 30,
++          "swim": 30
++        },
++        "attacks": [
++          {
++            "name": "Bite",
++            "mode": "melee",
++            "hitBonus": 5,
++            "reach": 10,
++            "damage": [
++              {
++                "average": 5,
++                "dice": "1d6 + 2",
++                "type": "piercing"
++              }
++            ]
++          }
++        ],
++        "habitats": [
++          "coastal",
++          "desert",
++          "forest",
++          "grassland",
++          "hill",
++          "swamp"
++        ],
++        "senses": [
++          "keensense 10 ft."
++        ],
++        "resistances": [
++          "poison"
++        ]
++      },
++      "mechanics": {
++        "Action": [
++          {
++            "name": "Bite",
++            "effectNote": "After the piercing hit, make a DC 11 CON save for 5 (2d4) poison damage on failure or half on success."
++          }
++        ],
++        "Reaction": [
++          {
++            "name": "Reflexive Nip",
++            "effectNote": "When a visible creature within 5 ft. hits the snake with a melee attack, it must make a DC 11 CON save or be poisoned until the end of its next turn."
++          }
++        ]
++      },
++      "notes": [
++        "Black Flag fixed values are Perception 10 and Stealth 14. Use Stealth instead of rolling when the creature hides.",
++        "Printed ability modifiers are STR +0, DEX +2, CON +1, INT -4, WIS +0, CHA -4.",
++        "Encounter habitat suggestions draw on the equivalent animal in Monster Manual (2024).",
++        "Resistant to poisoned. The beast has advantage on checks and saves to avoid or end that condition.",
++        "Keensense perceives the surroundings within its listed radius without relying on sight.",
++        "Use the printed +5 Bite attack bonus. The stat block gives DEX +2.",
++        "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 370."
++      ]
++    },
++    {
++      "name": "Giant Rat",
++      "kind": "beast",
++      "edition": "Black Flag Roleplaying",
++      "publication": "Black Flag Roleplaying Reference Document v0.2",
++      "ruleset": "black-flag",
++      "appearance": "An oversized rat with coarse fur, rounded ears, long whiskers and a nearly hairless tail.",
++      "combat": {
++        "armorClass": 13,
++        "hitPoints": 14,
++        "challenge": "1/4",
++        "size": "Small",
++        "creatureType": "Beast",
++        "speed": {
++          "walk": 30,
++          "swim": 30
++        },
++        "attacks": [
++          {
++            "name": "Bite",
++            "mode": "melee",
++            "hitBonus": 5,
++            "reach": 5,
++            "damage": [
++              {
++                "average": 5,
++                "dice": "1d4 + 3",
++                "type": "piercing"
++              }
++            ]
++          }
++        ],
++        "habitats": [
++          "forest",
++          "swamp",
++          "underdark",
++          "urban"
++        ],
++        "senses": [
++          "darkvision 60 ft."
++        ]
++      },
++      "mechanics": {
++        "Trait": [
++          {
++            "name": "Accustomed to Filth",
++            "effectNote": "Has advantage on saves against contracting diseases."
++          },
++          {
++            "name": "Heightened Smell",
++            "effectNote": "Use Perception 15 when relying on smell."
++          },
++          {
++            "name": "Pack Tactics",
++            "effectNote": "Attack rolls against a creature have advantage if a non-incapacitated ally is within 5 ft. of the target."
++          }
++        ],
++        "Action": [
++          {
++            "name": "Bite",
++            "effectNote": "A creature hit must make a DC 13 CON save. On failure, the GM chooses Rat Plague or poisoning until the end of the target’s next turn. The short poisoning option is complete in v0.2."
++          },
++          {
++            "name": "Rat Plague (v0.1 supplement)",
++            "effectNote": "If using the earlier publisher sidebar, the victim is poisoned and regains HP only by magic until cured. Repeat this bite’s CON save every 24 hours. Success cures the disease. Failure lowers maximum HP by 3 (1d6). The loss ends after a long rest once cured, and reaching 0 maximum HP kills the victim. Rats are immune to the disease’s effects."
++          }
++        ]
++      },
++      "notes": [
++        "Black Flag fixed values are Perception 10 and Stealth 15. Use Stealth instead of rolling when the creature hides.",
++        "Printed ability modifiers are STR -2, DEX +3, CON +0, INT -4, WIS +0, CHA -3.",
++        "Encounter habitat suggestions draw on the equivalent animal in Monster Manual (2024).",
++        "The v0.2 Rat Plague option points to a Diseased Rats sidebar absent from this . The separately labeled supplement summarizes the publisher’s v0.1 sidebar. The v0.2 fallback is the listed short poisoning option.",
++        "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 367."
++      ]
++    },
++    {
++      "name": "Giant Scorpion Insect",
++      "kind": "beast",
++      "edition": "Black Flag Roleplaying",
++      "publication": "Black Flag Roleplaying Reference Document v0.2",
++      "ruleset": "black-flag",
++      "appearance": "A heavy segmented scorpion with two broad claws and a curved tail ending in a sting.",
++      "combat": {
++        "armorClass": 15,
++        "hitPoints": 76,
++        "challenge": "3",
++        "size": "Large",
++        "creatureType": "Beast",
++        "speed": {
++          "walk": 40,
++          "burrow": 20
++        },
++        "attacks": [
++          {
++            "name": "Claw",
++            "mode": "melee",
++            "hitBonus": 4,
++            "reach": 5,
++            "damage": [
++              {
++                "average": 6,
++                "dice": "1d8 + 2",
++                "type": "bludgeoning"
++              }
++            ]
++          },
++          {
++            "name": "Sting",
++            "mode": "melee",
++            "hitBonus": 4,
++            "reach": 10,
++            "damage": [
++              {
++                "average": 7,
++                "dice": "1d10 + 2",
++                "type": "piercing"
++              },
++              {
++                "average": 7,
++                "dice": "2d6",
++                "type": "poison"
++              }
++            ],
++            "damageCombination": "combined"
++          }
++        ],
++        "armorClassNote": "natural armor",
++        "habitats": [
++          "desert"
++        ],
++        "senses": [
++          "keensense 60 ft."
++        ],
++        "resistances": [
++          "poison"
++        ]
++      },
++      "mechanics": {
++        "Action": [
++          {
++            "name": "Multiattack",
++            "effectNote": "Make two Claw attacks and one Sting attack."
++          },
++          {
++            "name": "Claw",
++            "effectNote": "On a hit, grapple the target (escape DC 12). Each of the two claws can hold one target."
++          },
++          {
++            "name": "Sting",
++            "effectNote": "The piercing and poison damage both apply on a hit. A DC 12 CON save avoids being poisoned until the end of the target’s next turn."
++          }
++        ],
++        "Reaction": [
++          {
++            "name": "Reflexive Sting",
++            "effectNote": "When a visible creature within 10 ft. attacks the scorpion, the attacker must make a DC 12 DEX save or take 5 (1d10) piercing damage."
++          }
++        ]
++      },
++      "notes": [
++        "Black Flag fixed values are Perception 11 and Stealth 13. Use Stealth instead of rolling when the creature hides.",
++        "Printed ability modifiers are STR +2, DEX +1, CON +2, INT -5, WIS -1, CHA -4.",
++        "Encounter habitat suggestions draw on the equivalent animal in Monster Manual (2024).",
++        "Resistant to poisoned. The beast has advantage on checks and saves to avoid or end that condition.",
++        "Keensense perceives the surroundings within its listed radius without relying on sight.",
++        "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 361."
++      ]
++    },
++    {
++      "name": "Giant Seahorse",
++      "kind": "beast",
++      "edition": "Black Flag Roleplaying",
++      "publication": "Black Flag Roleplaying Reference Document v0.2",
++      "ruleset": "black-flag",
++      "appearance": "An immense seahorse with a narrow snout, plated body, dorsal fin and curled grasping tail.",
++      "combat": {
++        "armorClass": 13,
++        "hitPoints": 25,
++        "challenge": "1/2",
++        "size": "Large",
++        "creatureType": "Beast",
++        "speed": {
++          "walk": 0,
++          "swim": 40
++        },
++        "attacks": [
++          {
++            "name": "Ram",
++            "mode": "melee",
++            "hitBonus": 4,
++            "reach": 5,
++            "damage": [
++              {
++                "average": 7,
++                "dice": "2d4 + 2",
++                "type": "bludgeoning"
++              }
++            ]
++          }
++        ],
++        "armorClassNote": "natural armor",
++        "habitats": [
++          "underwater"
++        ]
++      },
++      "mechanics": {
++        "Trait": [
++          {
++            "name": "Charge",
++            "effectNote": "Move at least 20 ft. straight toward a target, then hit that target with Ram on the same turn to deal an extra 5 (2d4) bludgeoning damage. A creature hit this way must make a DC 12 STR save or fall prone."
++          },
++          {
++            "name": "Underwater Camouflage",
++            "effectNote": "Use Stealth 19 underwater."
++          },
++          {
++            "name": "Water Breathing",
++            "effectNote": "Breathes only underwater."
++          }
++        ],
++        "Bonus action": [
++          {
++            "name": "Grasping Tail",
++            "effectNote": "Choose one Medium or smaller creature within 10 ft. DC 12 STR save or be grappled (escape DC 12) and restrained. The seahorse cannot use Grasping Tail on another creature until the grapple ends."
++          }
++        ]
++      },
++      "notes": [
++        "Black Flag fixed values are Perception 11 and Stealth 14. Use Stealth instead of rolling when the creature hides.",
++        "Printed ability modifiers are STR +1, DEX +2, CON +0, INT -4, WIS +1, CHA -3.",
++        "Encounter habitat suggestions draw on the equivalent animal in Monster Manual (2024).",
++        "Use the printed +4 Ram attack and 2d4 + 2 damage. The stat block gives STR +1.",
++        "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 368."
++      ]
++    },
++    {
++      "name": "Giant Shark",
++      "kind": "beast",
++      "edition": "Black Flag Roleplaying",
++      "publication": "Black Flag Roleplaying Reference Document v0.2",
++      "ruleset": "black-flag",
++      "appearance": "A huge shark with a broad pointed snout, pale underside and massive crescent-shaped tail.",
++      "combat": {
++        "armorClass": 13,
++        "hitPoints": 126,
++        "challenge": "5",
++        "size": "Huge",
++        "creatureType": "Beast",
++        "speed": {
++          "walk": 0,
++          "swim": 50
++        },
++        "attacks": [
++          {
++            "name": "Bite",
++            "mode": "melee",
++            "hitBonus": 9,
++            "reach": 5,
++            "damage": [
++              {
++                "average": 19,
++                "dice": "3d8 + 6",
++                "type": "piercing"
++              }
++            ]
++          }
++        ],
++        "armorClassNote": "natural armor",
++        "habitats": [
++          "underwater"
++        ],
++        "senses": [
++          "keensense 60 ft."
++        ]
++      },
++      "mechanics": {
++        "Trait": [
++          {
++            "name": "Blood Frenzy",
++            "effectNote": "Melee attack rolls have advantage against creatures below their maximum HP."
++          },
++          {
++            "name": "Blood Sense",
++            "effectNote": "Pinpoint creatures below maximum HP by scent within 120 ft. and detect their general direction within 1 mile."
++          },
++          {
++            "name": "Electrical Sensitivity",
++            "effectNote": "When damaged by lightning, make a DC 15 CON save or become incapacitated until the end of the shark’s next turn."
++          },
++          {
++            "name": "Water Breathing",
++            "effectNote": "Breathes only underwater."
++          }
++        ],
++        "Action": [
++          {
++            "name": "Multiattack",
++            "effectNote": "Make two Bite attacks."
++          }
++        ],
++        "Bonus action": [
++          {
++            "name": "Swift Hunter",
++            "effectNote": "Move up to half speed toward a visible hostile creature without provoking opportunity attacks."
++          }
++        ]
++      },
++      "notes": [
++        "Black Flag fixed values are Perception 13 and Stealth 10. Use Stealth instead of rolling when the creature hides.",
++        "Printed ability modifiers are STR +6, DEX +0, CON +5, INT -5, WIS +0, CHA -3.",
++        "Encounter habitat suggestions draw on the equivalent animal in Monster Manual (2024).",
++        "Keensense perceives the surroundings within its listed radius without relying on sight.",
++        "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 369."
++      ]
++    },
++    {
++      "name": "Giant Spider",
++      "kind": "beast",
++      "edition": "Black Flag Roleplaying",
++      "publication": "Black Flag Roleplaying Reference Document v0.2",
++      "ruleset": "black-flag",
++      "appearance": "A large spider with eight jointed legs, a broad abdomen and prominent fangs.",
++      "combat": {
++        "armorClass": 15,
++        "hitPoints": 40,
++        "challenge": "1",
++        "size": "Large",
++        "creatureType": "Beast",
++        "speed": {
++          "walk": 30,
++          "climb": 30
++        },
++        "attacks": [
++          {
++            "name": "Bite",
++            "mode": "melee",
++            "hitBonus": 5,
++            "reach": 5,
++            "damage": [
++              {
++                "average": 7,
++                "dice": "1d8 + 3",
++                "type": "piercing"
++              }
++            ]
++          }
++        ],
++        "armorClassNote": "natural armor",
++        "habitats": [
++          "desert",
++          "forest",
++          "swamp",
++          "underdark",
++          "urban"
++        ],
++        "senses": [
++          "keensense 10 ft., darkvision 60 ft."
++        ]
++      },
++      "mechanics": {
++        "Trait": [
++          {
++            "name": "Spider Climb",
++            "effectNote": "Climbs difficult surfaces and ceilings without an ability check."
++          },
++          {
++            "name": "Web Sense",
++            "effectNote": "Pinpoints creatures touching the same web while it is in contact with that web."
++          },
++          {
++            "name": "Web Walker",
++            "effectNote": "Ignores movement restrictions from webbing."
++          }
++        ],
++        "Action": [
++          {
++            "name": "Bite",
++            "effectNote": "On a hit, the target makes a DC 13 CON save, taking 10 (3d6) poison damage on failure or half on success. If this poison drops it to 0 HP, it is stable and poisoned for 1 hour even if it regains HP. It is paralyzed while poisoned by this effect."
++          }
++        ],
++        "Bonus action": [
++          {
++            "name": "Web",
++            "effectNote": "Recharge 4–6. One visible creature within 30 ft. makes a DC 12 DEX save or is restrained. Any creature can spend its action to free the target with a DC 12 STR check. The web can also be destroyed. It has AC 10, 5 HP, fire vulnerability, and immunity to bludgeoning, poison and psychic damage."
++          }
++        ]
++      },
++      "notes": [
++        "Black Flag fixed values are Perception 10 and Stealth 17. Use Stealth instead of rolling when the creature hides.",
++        "Printed ability modifiers are STR +2, DEX +3, CON +1, INT -4, WIS +0, CHA -3.",
++        "Encounter habitat suggestions draw on the equivalent animal in Monster Manual (2024).",
++        "Keensense perceives the surroundings within its listed radius without relying on sight.",
++        "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 371–372."
++      ]
++    },
++    {
++      "name": "Giant Vulture",
++      "kind": "beast",
++      "edition": "Black Flag Roleplaying",
++      "publication": "Black Flag Roleplaying Reference Document v0.2",
++      "ruleset": "black-flag",
++      "appearance": "An oversized scavenging bird with a bare head, hooked bill and broad wings.",
++      "combat": {
++        "armorClass": 10,
++        "hitPoints": 46,
++        "challenge": "1",
++        "size": "Large",
++        "creatureType": "Beast",
++        "speed": {
++          "walk": 10,
++          "fly": 60
++        },
++        "attacks": [
++          {
++            "name": "Beak",
++            "mode": "melee",
++            "hitBonus": 5,
++            "reach": 5,
++            "damage": [
++              {
++                "average": 6,
++                "dice": "1d8 + 2",
++                "type": "piercing"
++              }
++            ]
++          },
++          {
++            "name": "Talons",
++            "mode": "melee",
++            "hitBonus": 5,
++            "reach": 5,
++            "damage": [
++              {
++                "average": 7,
++                "dice": "2d4 + 2",
++                "type": "slashing"
++              }
++            ]
++          }
++        ],
++        "habitats": [
++          "desert",
++          "grassland",
++          "hill"
++        ]
++      },
++      "mechanics": {
++        "Trait": [
++          {
++            "name": "Carrion Sense",
++            "effectNote": "Pinpoints carrion, dead creatures and Undead without Incorporeal Movement by scent within 60 ft."
++          },
++          {
++            "name": "Heightened Sight and Smell",
++            "effectNote": "Use Perception 18 for sight or smell."
++          },
++          {
++            "name": "Pack Tactics",
++            "effectNote": "Attack rolls against a creature have advantage if a non-incapacitated ally is within 5 ft. of the target."
++          }
++        ],
++        "Action": [
++          {
++            "name": "Multiattack",
++            "effectNote": "Make one Beak and one Talons attack."
++          }
++        ],
++        "Reaction": [
++          {
++            "name": "Defensive Bile",
++            "effectNote": "When a visible creature within 5 ft. hits the vulture in melee, make that creature roll a DC 13 CON save. On failure it takes 5 (2d4) acid damage and is incapacitated until the end of its next turn."
++          }
++        ]
++      },
++      "notes": [
++        "Black Flag fixed values are Perception 13 and Stealth 10. Use Stealth instead of rolling when the creature hides.",
++        "Printed ability modifiers are STR +3, DEX +0, CON +2, INT -4, WIS +1, CHA -2.",
++        "Encounter habitat suggestions draw on the equivalent animal in Monster Manual (2024).",
++        "Beak and Talons are +5 to hit and use their printed +2 damage modifiers despite STR +3.",
++        "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 373."
++      ]
++    },
++    {
++      "name": "Giant Wasp Insect",
++      "kind": "beast",
++      "edition": "Black Flag Roleplaying",
++      "publication": "Black Flag Roleplaying Reference Document v0.2",
++      "ruleset": "black-flag",
++      "appearance": "A giant wasp with a narrow waist, striped abdomen, translucent wings and a long sting.",
++      "combat": {
++        "armorClass": 12,
++        "hitPoints": 25,
++        "challenge": "1/2",
++        "size": "Medium",
++        "creatureType": "Beast",
++        "speed": {
++          "walk": 10,
++          "fly": 50
++        },
++        "attacks": [
++          {
++            "name": "Sting",
++            "mode": "melee",
++            "hitBonus": 4,
++            "reach": 5,
++            "damage": [
++              {
++                "average": 6,
++                "dice": "1d8 + 2",
++                "type": "piercing"
++              }
++            ]
++          }
++        ],
++        "habitats": [
++          "forest",
++          "grassland",
++          "urban"
++        ]
++      },
++      "mechanics": {
++        "Action": [
++          {
++            "name": "Sting",
++            "effectNote": "On a hit, the target makes a DC 12 CON save, taking 10 (3d6) poison damage on failure or none on success. If this poison drops it to 0 HP, it is stable and poisoned for 1 hour even if it regains HP. It is paralyzed while poisoned by this effect."
++          }
++        ],
++        "Reaction": [
++          {
++            "name": "Assailing Pheromone",
++            "effectNote": "When damaged, the wasp can give each wasp within 10 ft. advantage on its next attack roll before the end of its next turn."
++          }
++        ]
++      },
++      "notes": [
++        "Black Flag fixed values are Perception 10 and Stealth 12. Use Stealth instead of rolling when the creature hides.",
++        "Printed ability modifiers are STR +0, DEX +2, CON +0, INT -5, WIS +0, CHA -4.",
++        "Encounter habitat suggestions draw on the equivalent animal in Monster Manual (2024).",
++        "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 361."
++      ]
++    },
++    {
++      "name": "Giant Weasel",
++      "kind": "beast",
++      "edition": "Black Flag Roleplaying",
++      "publication": "Black Flag Roleplaying Reference Document v0.2",
++      "ruleset": "black-flag",
++      "appearance": "A long-bodied weasel with russet fur, a pale throat, small ears and short legs.",
++      "combat": {
++        "armorClass": 13,
++        "hitPoints": 14,
++        "challenge": "1/4",
++        "size": "Medium",
++        "creatureType": "Beast",
++        "speed": {
++          "walk": 40
++        },
++        "attacks": [
++          {
++            "name": "Bite",
++            "mode": "melee",
++            "hitBonus": 5,
++            "reach": 5,
++            "damage": [
++              {
++                "average": 5,
++                "dice": "1d4 + 3",
++                "type": "piercing"
++              }
++            ]
++          }
++        ],
++        "habitats": [
++          "forest",
++          "grassland",
++          "hill"
++        ],
++        "senses": [
++          "darkvision 60 ft."
++        ]
++      },
++      "mechanics": {
++        "Trait": [
++          {
++            "name": "Heightened Hearing and Smell",
++            "effectNote": "Use Perception 18 for hearing or smell."
++          }
++        ],
++        "Action": [
++          {
++            "name": "Bite",
++            "effectNote": "Instead of dealing damage, steal one worn or carried item that weighs up to 10 lb. The item cannot be a weapon or be wrapped around or firmly fastened to the target."
++          }
++        ],
++        "Reaction": [
++          {
++            "name": "Repellent Spray",
++            "effectNote": "When a visible creature moves within 15 ft., it must make a DC 13 CON save or be poisoned until the end of its next turn. While poisoned this way it cannot enter a space within 5 ft. of the weasel."
++          }
++        ]
++      },
++      "notes": [
++        "Black Flag fixed values are Perception 13 and Stealth 15. Use Stealth instead of rolling when the creature hides.",
++        "Printed ability modifiers are STR +0, DEX +3, CON +0, INT -3, WIS +1, CHA -3.",
++        "Encounter habitat suggestions draw on the equivalent animal in Monster Manual (2024).",
++        "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 374."
++      ]
++    },
++    {
++      "name": "Giant Wolf Spider",
++      "kind": "beast",
++      "edition": "Black Flag Roleplaying",
++      "publication": "Black Flag Roleplaying Reference Document v0.2",
++      "ruleset": "black-flag",
++      "appearance": "A thick-legged hunting spider with a hairy body and clustered forward-facing eyes.",
++      "combat": {
++        "armorClass": 13,
++        "hitPoints": 14,
++        "challenge": "1/4",
++        "size": "Medium",
++        "creatureType": "Beast",
++        "speed": {
++          "walk": 40,
++          "climb": 40
++        },
++        "attacks": [
++          {
++            "name": "Bite",
++            "mode": "melee",
++            "hitBonus": 4,
++            "reach": 5,
++            "damage": [
++              {
++                "average": 5,
++                "dice": "1d6 + 2",
++                "type": "piercing"
++              }
++            ]
++          }
++        ],
++        "armorClassNote": "natural armor",
++        "habitats": [
++          "coastal",
++          "desert",
++          "forest",
++          "grassland",
++          "hill"
++        ],
++        "senses": [
++          "keensense 10 ft., darkvision 60 ft."
++        ]
++      },
++      "mechanics": {
++        "Trait": [
++          {
++            "name": "Spider Climb",
++            "effectNote": "Climbs difficult surfaces and ceilings without an ability check."
++          },
++          {
++            "name": "Standing Leap",
++            "effectNote": "Jumps up to 20 ft. horizontally or 10 ft. vertically, including from a standstill."
++          }
++        ],
++        "Action": [
++          {
++            "name": "Bite",
++            "effectNote": "On a hit, the target makes a DC 12 CON save, taking 5 (2d4) poison damage on failure or none on success. If this poison drops it to 0 HP, it is stable and poisoned for 1 hour even if it regains HP. It is paralyzed while poisoned by this effect."
++          }
++        ],
++        "Bonus action": [
++          {
++            "name": "Hunter’s Leap",
++            "effectNote": "Jump up to 20 ft. horizontally or 10 ft. vertically toward a hostile creature it can see. The move does not provoke opportunity attacks."
++          }
++        ]
++      },
++      "notes": [
++        "Black Flag fixed values are Perception 13 and Stealth 16. Use Stealth instead of rolling when the creature hides.",
++        "Printed ability modifiers are STR +2, DEX +2, CON +1, INT -4, WIS +1, CHA -3.",
++        "Encounter habitat suggestions draw on the equivalent animal in Monster Manual (2024).",
++        "Keensense perceives the surroundings within its listed radius without relying on sight.",
++        "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 372."
++      ]
++    },
++    {
++      "name": "Hunter Shark",
++      "kind": "beast",
++      "edition": "Black Flag Roleplaying",
++      "publication": "Black Flag Roleplaying Reference Document v0.2",
++      "ruleset": "black-flag",
++      "appearance": "A large gray shark with a pale belly, pointed fins and a muscular tail.",
++      "combat": {
++        "armorClass": 12,
++        "hitPoints": 63,
++        "challenge": "2",
++        "size": "Large",
++        "creatureType": "Beast",
++        "speed": {
++          "walk": 0,
++          "swim": 40
++        },
++        "attacks": [
++          {
++            "name": "Bite",
++            "mode": "melee",
++            "hitBonus": 5,
++            "reach": 5,
++            "damage": [
++              {
++                "average": 12,
++                "dice": "2d8 + 3",
++                "type": "piercing"
++              }
++            ]
++          }
++        ],
++        "armorClassNote": "natural armor",
++        "habitats": [
++          "underwater"
++        ],
++        "senses": [
++          "keensense 30 ft."
++        ]
++      },
++      "mechanics": {
++        "Trait": [
++          {
++            "name": "Blood Frenzy",
++            "effectNote": "Melee attack rolls have advantage against creatures below their maximum HP."
++          },
++          {
++            "name": "Blood Sense",
++            "effectNote": "Pinpoint creatures below maximum HP by scent within 60 ft. and detect their general direction within 1 mile."
++          },
++          {
++            "name": "Electrical Sensitivity",
++            "effectNote": "When damaged by lightning, make a DC 12 CON save or become incapacitated until the end of the shark’s next turn."
++          },
++          {
++            "name": "Water Breathing",
++            "effectNote": "Breathes only underwater."
++          }
++        ],
++        "Action": [
++          {
++            "name": "Multiattack",
++            "effectNote": "Make two Bite attacks."
++          }
++        ],
++        "Bonus action": [
++          {
++            "name": "Swift Hunter",
++            "effectNote": "Move up to half speed toward a visible hostile creature without provoking opportunity attacks."
++          }
++        ]
++      },
++      "notes": [
++        "Black Flag fixed values are Perception 12 and Stealth 11. Use Stealth instead of rolling when the creature hides.",
++        "Printed ability modifiers are STR +3, DEX +1, CON +2, INT -5, WIS +0, CHA -3.",
++        "Encounter habitat suggestions draw on the equivalent animal in Monster Manual (2024).",
++        "Keensense perceives the surroundings within its listed radius without relying on sight.",
++        "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 369."
++      ]
++    },
++    {
++      "name": "Poisonous Snake",
++      "kind": "beast",
++      "edition": "Black Flag Roleplaying",
++      "publication": "Black Flag Roleplaying Reference Document v0.2",
++      "ruleset": "black-flag",
++      "appearance": "A small venomous snake with mottled scales, a tapered tail and a compact head.",
++      "combat": {
++        "armorClass": 11,
++        "hitPoints": 9,
++        "challenge": "1/8",
++        "size": "Tiny",
++        "creatureType": "Beast",
++        "speed": {
++          "walk": 30,
++          "swim": 30
++        },
++        "attacks": [
++          {
++            "name": "Bite",
++            "mode": "melee",
++            "hitBonus": 3,
++            "reach": 5,
++            "damage": [
++              {
++                "average": 3,
++                "dice": "1d4 + 1",
++                "type": "piercing"
++              }
++            ]
++          }
++        ],
++        "habitats": [
++          "coastal",
++          "desert",
++          "forest",
++          "grassland",
++          "hill",
++          "swamp"
++        ],
++        "senses": [
++          "keensense 10 ft."
++        ],
++        "resistances": [
++          "poison"
++        ]
++      },
++      "mechanics": {
++        "Action": [
++          {
++            "name": "Bite",
++            "effectNote": "The target also makes a DC 10 CON save or takes 2 (1d4) poison damage."
++          }
++        ],
++        "Reaction": [
++          {
++            "name": "Reflexive Nip",
++            "effectNote": "When a visible creature within 5 ft. hits the snake with a melee attack, it must make a DC 10 CON save or be poisoned until the end of its next turn."
++          }
++        ]
++      },
++      "notes": [
++        "Black Flag fixed values are Perception 10 and Stealth 13. Use Stealth instead of rolling when the creature hides.",
++        "Printed ability modifiers are STR -4, DEX +1, CON +0, INT -5, WIS +0, CHA -4.",
++        "Encounter habitat suggestions draw on the equivalent animal in Monster Manual (2024).",
++        "Resistant to poisoned. The beast has advantage on checks and saves to avoid or end that condition.",
++        "Keensense perceives the surroundings within its listed radius without relying on sight.",
++        "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 370–371."
++      ]
++    },
++    {
++      "name": "Polar Bear",
++      "kind": "beast",
++      "edition": "Black Flag Roleplaying",
++      "publication": "Black Flag Roleplaying Reference Document v0.2",
++      "ruleset": "black-flag",
++      "appearance": "An immense bear with thick pale fur, a long neck and wide paws.",
++      "combat": {
++        "armorClass": 12,
++        "hitPoints": 60,
++        "challenge": "2",
++        "size": "Large",
++        "creatureType": "Beast",
++        "speed": {
++          "walk": 40,
++          "swim": 30
++        },
++        "attacks": [
++          {
++            "name": "Bite",
++            "mode": "melee",
++            "hitBonus": 7,
++            "reach": 5,
++            "damage": [
++              {
++                "average": 9,
++                "dice": "1d8 + 5",
++                "type": "piercing"
++              }
++            ]
++          },
++          {
++            "name": "Claws",
++            "mode": "melee",
++            "hitBonus": 7,
++            "reach": 5,
++            "damage": [
++              {
++                "average": 12,
++                "dice": "2d6 + 5",
++                "type": "slashing"
++              }
++            ]
++          }
++        ],
++        "armorClassNote": "natural armor",
++        "habitats": [
++          "arctic"
++        ],
++        "resistances": [
++          "cold"
++        ]
++      },
++      "mechanics": {
++        "Trait": [
++          {
++            "name": "Heightened Smell",
++            "effectNote": "Use Perception 18 when relying on smell."
++          }
++        ],
++        "Action": [
++          {
++            "name": "Multiattack",
++            "effectNote": "Make one Bite and one Claws attack. If both hit the same creature, it is grappled (escape DC 15). The bear can hold only one creature."
++          }
++        ]
++      },
++      "notes": [
++        "Black Flag fixed values are Perception 13 and Stealth 10. Use Stealth instead of rolling when the creature hides.",
++        "Printed ability modifiers are STR +5, DEX +0, CON +3, INT -4, WIS +1, CHA -2.",
++        "Encounter habitat suggestions draw on the equivalent animal in Monster Manual (2024).",
++        "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 353."
++      ]
++    },
++    {
++      "name": "Reef Shark",
++      "kind": "beast",
++      "edition": "Black Flag Roleplaying",
++      "publication": "Black Flag Roleplaying Reference Document v0.2",
++      "ruleset": "black-flag",
++      "appearance": "A slender shark with a pointed snout, dark dorsal fin and tapered body.",
++      "combat": {
++        "armorClass": 12,
++        "hitPoints": 27,
++        "challenge": "1/2",
++        "size": "Medium",
++        "creatureType": "Beast",
++        "speed": {
++          "walk": 0,
++          "swim": 40
++        },
++        "attacks": [
++          {
++            "name": "Bite",
++            "mode": "melee",
++            "hitBonus": 4,
++            "reach": 5,
++            "damage": [
++              {
++                "average": 6,
++                "dice": "1d8 + 2",
++                "type": "piercing"
++              }
++            ]
++          }
++        ],
++        "armorClassNote": "natural armor",
++        "habitats": [
++          "underwater"
++        ],
++        "senses": [
++          "keensense 30 ft."
++        ]
++      },
++      "mechanics": {
++        "Trait": [
++          {
++            "name": "Blood Sense",
++            "effectNote": "Pinpoint creatures below maximum HP by scent within 60 ft. and detect their general direction within 1 mile."
++          },
++          {
++            "name": "Electrical Sensitivity",
++            "effectNote": "When damaged by lightning, make a DC 11 CON save or become incapacitated until the end of the shark’s next turn."
++          },
++          {
++            "name": "Pack Tactics",
++            "effectNote": "Attack rolls against a creature have advantage if a non-incapacitated ally is within 5 ft. of the target."
++          },
++          {
++            "name": "Water Breathing",
++            "effectNote": "Breathes only underwater."
++          }
++        ],
++        "Bonus action": [
++          {
++            "name": "Stealthy Hunter",
++            "effectNote": "Take the Hide action."
++          }
++        ]
++      },
++      "notes": [
++        "Black Flag fixed values are Perception 12 and Stealth 11. Use Stealth instead of rolling when the creature hides.",
++        "Printed ability modifiers are STR +2, DEX +1, CON +1, INT -5, WIS +0, CHA -3.",
++        "Encounter habitat suggestions draw on the equivalent animal in Monster Manual (2024).",
++        "Keensense perceives the surroundings within its listed radius without relying on sight.",
++        "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 369."
++      ]
++    },
++    {
++      "name": "Riding Horse",
++      "kind": "beast",
++      "edition": "Black Flag Roleplaying",
++      "publication": "Black Flag Roleplaying Reference Document v0.2",
++      "ruleset": "black-flag",
++      "appearance": "A long-legged riding horse with a flowing mane, lean shoulders and an alert head.",
++      "combat": {
++        "armorClass": 10,
++        "hitPoints": 15,
++        "challenge": "1/4",
++        "size": "Large",
++        "creatureType": "Beast",
++        "speed": {
++          "walk": 60
++        },
++        "attacks": [
++          {
++            "name": "Hooves",
++            "mode": "melee",
++            "hitBonus": 5,
++            "reach": 5,
++            "damage": [
++              {
++                "average": 6,
++                "dice": "1d6 + 3",
++                "type": "bludgeoning"
++              }
++            ]
++          }
++        ],
++        "habitats": [
++          "grassland",
++          "urban"
++        ]
++      },
++      "mechanics": {
++        "Trait": [
++          {
++            "name": "Easy Gait",
++            "effectNote": "The rider has advantage on saves against exhaustion from a forced march."
++          }
++        ]
++      },
++      "notes": [
++        "Black Flag fixed values are Perception 10 and Stealth 10. Use Stealth instead of rolling when the creature hides.",
++        "Printed ability modifiers are STR +3, DEX +0, CON +1, INT -4, WIS +0, CHA -2.",
++        "Encounter habitat suggestions draw on the equivalent animal in Monster Manual (2024).",
++        "Vulnerable to frightened. The beast has disadvantage on checks and saves to avoid or end that condition.",
++        "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 359."
++      ]
+     }
+   ],
+   "species": [

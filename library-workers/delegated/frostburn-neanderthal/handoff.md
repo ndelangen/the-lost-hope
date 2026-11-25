@@ -1,0 +1,5 @@
+# Neanderthal from Frostburn
+
+This batch adds the D&D 3.5 Neanderthal from the September 2004 first printing with two original encounters. Climate Tolerant waives environmental Fortitude saves within its printed range. Fire and cold damage still resolve normally. Primitive Weapon Mastery adds +1 to attack rolls with the listed weapons. Class proficiency determines what each NPC can wield without a penalty. [Original rules, pp. 37–38]() · [Encounter cards](encounter-cards.md) · [Rules patch](rules.patch)
+
+Oren’s portrait uses the approved plain tan parchment. In a temporary copy, search found the profile by name, rule, and encounter role. Both catalog commands returned both builds, and Oren’s portrait resolved as the new list thumbnail. The existing Human entry matched its before snapshot. [Source notes](independent-source-notes.md) · [Style comparison](portrait-comparison.jpg) · [96 px thumbnail](portrait-thumbnails.jpg) · [ImageGen prompt](portrait-prompts.json) · [Verification](verification.json)

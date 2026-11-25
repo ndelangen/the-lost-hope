@@ -1,0 +1,265 @@
+[
+  {
+    "name": "Baloth",
+    "publication": "Plane Shift: Zendikar",
+    "edition": "2014 fifth edition",
+    "classification": "Huge Beast, unaligned",
+    "ac": 13,
+    "hp": 95,
+    "hitDice": "10d12 + 30",
+    "speed": "50 ft.",
+    "cr": "5",
+    "xp": 1800,
+    "abilities": {
+      "Str": {
+        "score": 22,
+        "modifier": 6
+      },
+      "Dex": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Con": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Natural armor. Proficiency bonus +3. Passive Perception 10. No listed skill proficiencies, special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A bulky, muscular omnivore covered in horns, spines and plates. The portrait shows a heavy ground-running form with a broad muzzle and strong forelimbs.",
+    "habitats": [
+      "Onduan plains",
+      "Zendikar wilds"
+    ],
+    "sections": {
+      "Printed source": "James Wyatt, Plane Shift: Zendikar, first printing (April 2016), page 33. \nReskin uses the Triceratops stat block in Monster Manual (2014), p. 80. Official 2014 rules listing: https://www.dndbeyond.com/monsters/17039-triceratops",
+      "Traits": "Trampling Charge. Move at least 20 ft. directly toward a creature and hit it with Gore on that turn. The creature makes a DC 13 Strength save and falls prone on a failure. The baloth can follow up with a bonus-action Stomp if the target is prone.",
+      "Actions": "Gore. Melee weapon attack, +9 to hit, reach 5 ft., one target. On a hit, deal 24 (4d8 + 6) piercing damage.\nStomp. Melee weapon attack, +9 to hit, reach 5 ft., one prone creature. On a hit, deal 22 (3d10 + 6) bludgeoning damage.",
+      "At the table": "This is the regular walking form. The Woodcrasher’s 30-ft. climb speed belongs to the separate Woodcrasher Baloth."
+    }
+  },
+  {
+    "name": "Drake (Large)",
+    "publication": "Plane Shift: Zendikar",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, neutral good",
+    "ac": 13,
+    "hp": 26,
+    "hitDice": "4d10 + 4",
+    "speed": "10 ft., fly 80 ft.",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Wis": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 10,
+        "modifier": 0
+      }
+    },
+    "otherStatistics": "Proficiency bonus +2. Perception +4. Passive Perception 14. Base languages: speaks Giant Eagle and understands Common and Auran without speaking them. No listed special senses.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A slate-blue reptile with two legs, a long tail and two large leathery wings. The same silhouette represents both Zendikar drake sizes.",
+    "habitats": [
+      "Akoum highlands",
+      "Northern Akoum",
+      "Coastal air"
+    ],
+    "sections": {
+      "Printed source": "James Wyatt, Plane Shift: Zendikar, first printing (April 2016), page 24. \nReskin uses the Giant Eagle stat block in Monster Manual (2014), p. 324. Official 2014 rules listing: https://www.dndbeyond.com/monsters/16881-giant-eagle",
+      "Traits": "Keen Sight. Gain advantage on Wisdom (Perception) checks based on sight.",
+      "Actions": "Multiattack. Make one Beak and one Talons attack.\nBeak. Melee weapon attack, +5 to hit, reach 5 ft., one target. On a hit, deal 6 (1d6 + 3) piercing damage.\nTalons. Melee weapon attack, +5 to hit, reach 5 ft., one target. On a hit, deal 10 (2d6 + 3) slashing damage.",
+      "At the table": "Zendikar gives no alignment or language override. Neutral good and the Giant Eagle language line are inherited from the suggested base."
+    }
+  },
+  {
+    "name": "Drake (Small)",
+    "publication": "Plane Shift: Zendikar",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 13,
+    "hp": 13,
+    "hitDice": "3d8",
+    "speed": "10 ft., fly 60 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Natural armor. Proficiency bonus +2. Perception +1. Passive Perception 11. No listed special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A reptile with two legs, a long tail and broad leathery wings, smaller than the large drake. It shares the same portrait.",
+    "habitats": [
+      "Akoum highlands",
+      "Northern Akoum",
+      "Coastal air"
+    ],
+    "sections": {
+      "Printed source": "James Wyatt, Plane Shift: Zendikar, first printing (April 2016), page 24. \nReskin uses the Pteranodon stat block in Monster Manual (2014), p. 80. Official 2014 rules listing: https://www.dndbeyond.com/monsters/17093-pteranodon",
+      "Traits": "Flyby. When it flies out of a foe’s reach, that movement gives the foe no opportunity attack.",
+      "Actions": "Bite. Melee weapon attack, +3 to hit, reach 5 ft., one target. On a hit, deal 6 (2d4 + 1) piercing damage.",
+      "At the table": "Small in the catalog refers to the smaller kind of drake. The suggested Pteranodon base is mechanically Medium."
+    }
+  },
+  {
+    "name": "Gnarlid",
+    "publication": "Plane Shift: Zendikar",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned (enlarged state)",
+    "ac": 11,
+    "hp": 34,
+    "hitDice": "4d10 + 12",
+    "speed": "40 ft., climb 30 ft.",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 19,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Natural armor. Proficiency bonus +2. Perception +3. Passive Perception 13. No listed special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A shaggy quadruped with bear and wolverine features, backward-swept horns and low shoulder spines. It is about as big as a large dog before enlargement.",
+    "habitats": [
+      "Zendikar wilds",
+      "Green-mana forest"
+    ],
+    "sections": {
+      "Printed source": "James Wyatt, Plane Shift: Zendikar, first printing (April 2016), page 34. \nReskin uses the Brown Bear stat block in Monster Manual (2014), p. 319. Official 2014 rules listing: https://www.dndbeyond.com/monsters/16816-brown-bear",
+      "Traits": "Keen Smell. Gain advantage on Wisdom (Perception) checks based on smell.",
+      "Actions": "Multiattack. Make one Bite and one Claws attack.\nBite. Melee weapon attack, +6 to hit, reach 5 ft., one target. On a hit, deal 8 (1d8 + 4) piercing damage.\nClaws. Melee weapon attack, +6 to hit, reach 5 ft., one target. On a hit, deal 11 (2d6 + 4) slashing damage.",
+      "Zendikar rule": "Green mana can enlarge the gnarlid. This stat block represents that enlarged state. If magic reduces its size, halve its hit point maximum and the damage dealt by its attacks. No action, timing or recharge for growth is specified.",
+      "At the table": "The fixed reduced hit point maximum is 17. Halve each attack’s damage separately, rounding down under the 2014 rule. The source supplies no separate reduced-size stat block."
+    }
+  },
+  {
+    "name": "Great Cat",
+    "publication": "Plane Shift: Zendikar",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 12,
+    "hp": 52,
+    "hitDice": "7d10 + 14",
+    "speed": "40 ft.",
+    "cr": "2",
+    "xp": 450,
+    "abilities": {
+      "Str": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 8,
+        "modifier": -1
+      }
+    },
+    "otherStatistics": "Proficiency bonus +2. Perception +3, Stealth +6. Passive Perception 13. No listed special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A muscular great cat with enormous backward-pointing blades projecting from its forelegs. The portrait depicts a tawny, spotted individual with prominent upper canines.",
+    "habitats": [
+      "Dense undergrowth",
+      "Zendikar woodlands"
+    ],
+    "sections": {
+      "Printed source": "James Wyatt, Plane Shift: Zendikar, first printing (April 2016), page 34. \nReskin uses the Saber-Toothed Tiger stat block in Monster Manual (2014), p. 336. Official 2014 rules listing: https://www.dndbeyond.com/monsters/17002-saber-toothed-tiger",
+      "Traits": "Keen Smell. Gain advantage on Wisdom (Perception) checks based on smell.\nPounce. Move at least 20 ft. directly toward a creature and hit it with Claw on that turn. The creature makes a DC 14 Strength save and falls prone on a failure. The cat can follow up with a bonus-action Bite if the target is prone.",
+      "Actions": "Bite. Melee weapon attack, +6 to hit, reach 5 ft., one target. On a hit, deal 10 (1d10 + 5) piercing damage.\nClaw. Melee weapon attack, +6 to hit, reach 5 ft., one target. On a hit, deal 12 (2d6 + 5) slashing damage.",
+      "At the table": "Use the base Claw attack for the foreleg-blade strike. The gives the blades narrative uses and supplies no additional attack."
+    }
+  }
+]

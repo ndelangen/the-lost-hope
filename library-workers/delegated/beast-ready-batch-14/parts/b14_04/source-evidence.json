@@ -1,0 +1,213 @@
+[
+  {
+    "name": "Crow",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, November 2018",
+    "isbn": "978-0-7869-6626-4",
+    "section": "Level 23, Mad Wizard’s Lair, 36. Gate to Triboar",
+    "printedPages": [
+      302
+    ],
+    "facsimileSheets": [
+      303
+    ],
+    "sourceUrl": "https://online.anyflip.com/tqblu/aefj/files/basic-html/page303.html",
+    "url": "https://online.anyflip.com/tqblu/aefj/files/basic-html/page303.html",
+    "additionalPrintedWitnessUrls": [],
+    "creditsWitnessUrl": "https://online.anyflip.com/tqblu/aefj/files/basic-html/page3.html",
+    "publisherIndexUrl": "https://www.dndbeyond.com/sources/dnd/wdotmm",
+    "sourceAccess": "Rules verified in the first-print adventure facsimile. The D&D Beyond adventure index identifies the book and encounter level.",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae",
+    "errataEvidence": "The official Sage Advice & Errata index has no dedicated Dungeon of the Mad Mage correction sheet. No official correction to this encounter was located. The official 2014 Monster Manual errata has no change to this exact base entry.",
+    "operationalEvidence": "The adventure directs the reader to the Raven statistics and adds the ordinary crow’s encounter behavior. Raven’s Perception bonus, Mimicry and Beak are retained.",
+    "basePublication": "Monster Manual (2014)",
+    "basePrinting": "First printing, September 2014",
+    "baseName": "Raven",
+    "basePrintedPages": [
+      335
+    ],
+    "basePdfPages": [
+      336
+    ],
+    "baseSourceUrl": "https://online.anyflip.com/pqhqn/sezy/index.html#p=336",
+    "baseLocalPrintWitness": " - 2026-11-21/DnD.5e/Rulebooks/Core/Monster ",
+    "baseLocalPrintSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+    "baseErrataUrl": "",
+    "appearanceEvidence": "The adventure specifies an ordinary crow. The approved roster reuses the natural black corvid portrait from Raven, the encounter’s rules base.",
+    "habitatEvidence": "Habitat tags based on the printed encounter location.",
+    "artGroup": "crow",
+    "artOwner": "b14_04",
+    "reuseSha256": "81a7246537c76b587f468500b948c8c6df493567126883ec627d6266b3cf15f8"
+  },
+  {
+    "name": "Giant Flying Spider",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, November 2018",
+    "isbn": "978-0-7869-6626-4",
+    "section": "Level 10, Muiral’s Gauntlet, 30a. Main Cavern",
+    "printedPages": [
+      150
+    ],
+    "facsimileSheets": [
+      151
+    ],
+    "sourceUrl": "https://online.anyflip.com/tqblu/aefj/files/basic-html/page151.html",
+    "url": "https://online.anyflip.com/tqblu/aefj/files/basic-html/page151.html",
+    "additionalPrintedWitnessUrls": [],
+    "creditsWitnessUrl": "https://online.anyflip.com/tqblu/aefj/files/basic-html/page3.html",
+    "publisherIndexUrl": "https://www.dndbeyond.com/sources/dnd/wdotmm",
+    "sourceAccess": "Rules verified in the first-print adventure facsimile. The D&D Beyond adventure index identifies the book and encounter level.",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae",
+    "errataEvidence": "The official Sage Advice & Errata index has no dedicated Dungeon of the Mad Mage correction sheet. No official correction to this encounter was located. The official 2014 Monster Manual errata has no change to this exact base entry.",
+    "operationalEvidence": "The adventure gives Giant Spider with wings and fly 40 ft. The base block supplies Spider Climb, Web Sense, Web Walker, Stealth, both senses, and all Bite and Web procedures.",
+    "basePublication": "Monster Manual (2014)",
+    "basePrinting": "First printing, September 2014",
+    "baseName": "Giant Spider",
+    "basePrintedPages": [
+      328
+    ],
+    "basePdfPages": [
+      329
+    ],
+    "baseSourceUrl": "https://online.anyflip.com/pqhqn/sezy/index.html#p=329",
+    "baseLocalPrintWitness": " - 2026-11-21/DnD.5e/Rulebooks/Core/Monster ",
+    "baseLocalPrintSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+    "baseErrataUrl": "",
+    "appearanceEvidence": "Editorial description based on printed morphology and the selected portrait.",
+    "habitatEvidence": "Habitat tags based on the printed encounter location.",
+    "artGroup": "giant-flying-spider",
+    "artOwner": "b14_04"
+  },
+  {
+    "name": "Giant Lizard (variant)",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, November 2018",
+    "isbn": "978-0-7869-6626-4",
+    "section": "Level 10, Muiral’s Gauntlet, 25a. Hall of the Dark Seldarine and 30a. Main Cavern",
+    "printedPages": [
+      147,
+      150
+    ],
+    "facsimileSheets": [
+      148,
+      151
+    ],
+    "sourceUrl": "https://online.anyflip.com/tqblu/aefj/files/basic-html/page148.html",
+    "url": "https://online.anyflip.com/tqblu/aefj/files/basic-html/page148.html",
+    "additionalPrintedWitnessUrls": [
+      "https://online.anyflip.com/tqblu/aefj/files/basic-html/page151.html"
+    ],
+    "creditsWitnessUrl": "https://online.anyflip.com/tqblu/aefj/files/basic-html/page3.html",
+    "publisherIndexUrl": "https://www.dndbeyond.com/sources/dnd/wdotmm",
+    "publisherCreatureUrl": "https://www.dndbeyond.com/monsters/275699-giant-lizard-variant",
+    "sourceAccess": "Rules verified in the first-print adventure facsimile. The D&D Beyond adventure index identifies the book and encounter level.",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae",
+    "errataEvidence": "The official Sage Advice & Errata index has no dedicated Dungeon of the Mad Mage correction sheet. No official correction to this encounter was located. The official 2014 Monster Manual errata has no change to this exact base entry.",
+    "operationalEvidence": "Both adventure rooms specify Spider Climb and cite the Monster Manual sidebar. The same base folio supplies Giant Lizard’s walking and climbing speeds, statistics and Bite. The adventure selects only Spider Climb.",
+    "basePublication": "Monster Manual (2014)",
+    "basePrinting": "First printing, September 2014",
+    "baseName": "Giant Lizard and Variant: Giant Lizard Traits",
+    "basePrintedPages": [
+      326
+    ],
+    "basePdfPages": [
+      327
+    ],
+    "baseSourceUrl": "https://online.anyflip.com/pqhqn/sezy/index.html#p=327",
+    "baseLocalPrintWitness": " - 2026-11-21/DnD.5e/Rulebooks/Core/Monster ",
+    "baseLocalPrintSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+    "baseErrataUrl": "",
+    "appearanceEvidence": "Editorial description based on printed morphology and the selected portrait.",
+    "habitatEvidence": "Habitat tags based on the printed encounter location.",
+    "artGroup": "giant-lizard-variant",
+    "artOwner": "b14_04",
+    "reuseSha256": "d337638b8b6b403f290348ae39435f166fa423ee09ded386411630f34a2abbd5"
+  },
+  {
+    "name": "Haungharassk",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, November 2018",
+    "isbn": "978-0-7869-6626-4",
+    "section": "Level 20, Runestone Caverns, 8d. Golden Haungharassk and Aftermath",
+    "printedPages": [
+      258,
+      264
+    ],
+    "facsimileSheets": [
+      259,
+      265
+    ],
+    "sourceUrl": "https://online.anyflip.com/tqblu/aefj/files/basic-html/page259.html",
+    "url": "https://online.anyflip.com/tqblu/aefj/files/basic-html/page259.html",
+    "additionalPrintedWitnessUrls": [
+      "https://online.anyflip.com/tqblu/aefj/files/basic-html/page265.html"
+    ],
+    "creditsWitnessUrl": "https://online.anyflip.com/tqblu/aefj/files/basic-html/page3.html",
+    "publisherIndexUrl": "https://www.dndbeyond.com/sources/dnd/wdotmm",
+    "publisherCreatureUrl": "https://www.dndbeyond.com/monsters/276637-haungharassk",
+    "sourceAccess": "Rules verified in the first-print adventure facsimile. The D&D Beyond adventure index identifies the book and encounter level.",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae",
+    "errataEvidence": "The official Sage Advice & Errata index has no dedicated Dungeon of the Mad Mage correction sheet. No official correction to this encounter was located.",
+    "operationalEvidence": "The adventure provides this prose block directly. Folio 258 gives all scores, climbing, magical touch effects, bait, salt sensitivity and treasure. Folio 264 gives Halaster’s daily check and response.",
+    "sourceDiscrepancies": "The encounter gives 0 XP and no CR number. This display retains the indexed CR 0. Passive Perception 10 derives from Wisdom 10.",
+    "appearanceEvidence": "Editorial description based on printed morphology and the selected portrait.",
+    "habitatEvidence": "Habitat tags based on the printed encounter location.",
+    "artGroup": "haungharassk",
+    "artOwner": "b14_04"
+  },
+  {
+    "name": "Space Hamster",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, November 2018",
+    "isbn": "978-0-7869-6626-4",
+    "section": "Level 19, Caverns of Ooze, 13c. Galley and Mess Hall, Treasure",
+    "printedPages": [
+      251
+    ],
+    "facsimileSheets": [
+      252
+    ],
+    "sourceUrl": "https://online.anyflip.com/tqblu/aefj/files/basic-html/page252.html",
+    "url": "https://online.anyflip.com/tqblu/aefj/files/basic-html/page252.html",
+    "additionalPrintedWitnessUrls": [],
+    "creditsWitnessUrl": "https://online.anyflip.com/tqblu/aefj/files/basic-html/page3.html",
+    "publisherIndexUrl": "https://www.dndbeyond.com/sources/dnd/wdotmm",
+    "sourceAccess": "Rules verified in the first-print adventure facsimile. The D&D Beyond adventure index identifies the book and encounter level.",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae",
+    "errataEvidence": "The official Sage Advice & Errata index has no dedicated Dungeon of the Mad Mage correction sheet. No official correction to this encounter was located. The official 2014 Monster Manual errata has no change to this exact base entry.",
+    "operationalEvidence": "The adventure names a miniature giant space hamster, describes ordinary hamster morphology, uses Rat’s statistics, removes attacks and sets 0 XP. The first-print Rat’s darkvision and Keen Smell are retained.",
+    "basePublication": "Monster Manual (2014)",
+    "basePrinting": "First printing, September 2014",
+    "baseName": "Rat",
+    "basePrintedPages": [
+      335
+    ],
+    "basePdfPages": [
+      336
+    ],
+    "baseSourceUrl": "https://online.anyflip.com/pqhqn/sezy/index.html#p=336",
+    "baseLocalPrintWitness": " - 2026-11-21/DnD.5e/Rulebooks/Core/Monster ",
+    "baseLocalPrintSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+    "baseErrataUrl": "",
+    "appearanceEvidence": "Editorial description based on printed morphology and the selected portrait.",
+    "habitatEvidence": "Habitat tags based on the printed encounter location.",
+    "artGroup": "giant-space-hamster",
+    "artOwner": "b14_05",
+    "sharedPortraitSha256": "352dd13b0bbe8c73b2e8c1e1f6a39b5b19efaec0fafcc8efd15b2602af827820"
+  }
+]

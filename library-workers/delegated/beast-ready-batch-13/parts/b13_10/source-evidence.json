@@ -1,0 +1,183 @@
+[
+  {
+    "name": "Cave Badger",
+    "kind": "beast",
+    "publication": "Out of the Abyss",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast LLC",
+    "collaborator": "Green Ronin Publishing",
+    "leadAdventureDesigner": "Steve Kenson",
+    "storyCreators": [
+      "Christopher Perkins",
+      "Adam Lee",
+      "Richard Whitters"
+    ],
+    "copyrightYear": 2015,
+    "printing": "First printing, September 2015",
+    "isbn": "978-0-7869-6581-6",
+    "productCode": "620B2439000001 EN",
+    "creditsPdfPage": 3,
+    "section": "Chapter 6, Blingdenstone",
+    "printedPages": [
+      96
+    ],
+    "variantPage": 96,
+    "pdfPage": 97,
+    "viewerPages": [
+      97
+    ],
+    "sourceUrl": "https://www.dndbeyond.com/monsters/274103-cave-badger",
+    "url": "https://www.dndbeyond.com/monsters/274103-cave-badger",
+    "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/oota",
+    "officialCreatureIndex": "https://www.dndbeyond.com/monsters?page=29",
+    "officialPublisherProduct": "https://wpn.wizards.com/en/products/out-of-the-abyss",
+    "sourcePageKind": "The public D&D Beyond monster index identifies this exact Out of the Abyss entry as a Beast. The linked official creature page redirected to the book purchase page without access.",
+    "sourceWitness": " - 5th Edition (2014)/Adventures/Out of the ",
+    "sourceSha256": "1c25226f893f9e71e4504df165dbfbd33f2665855054407726418db7911af0ae",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/out-of-the-abyss",
+    "officialErrataPdf": "",
+    "officialErrataPdfSha256": "e678c6e6e9728ff5a87668cba4fa9ec5d0e3524c6e27f99a7bec9895dcfda42c",
+    "errataEvidence": "No change to this entry in the official Out of the Abyss errata v1.1 or the D&D Beyond errata page.",
+    "habitatEvidence": "Underdark placement from Chapter 6, Blingdenstone.",
+    "appearanceEvidence": "Editorial description of the selected parchment portrait and the shape stated or implied by the printed creature account.",
+    "artworkSource": "beast-ready-batch-04/parts/b04_04/portraits/giant-badger.png",
+    "artworkSha256": "73873c0bfe4ef8d32df68ce52b9e69c928655c48095f3aaf6668ce5e188d2227",
+    "artworkCredit": "OpenAI ImageGen",
+    "artworkNote": "Reuses the previously staged Giant Badger portrait for the adventure variant.",
+    "sourceNotes": [
+      "The adventure gives AC 12 from natural armor, 60 ft. tremorsense, and a 15-ft. burrow speed. Darkvision comes from the inherited Giant Badger block."
+    ],
+    "relatedRules": [
+      {
+        "name": "Giant Badger",
+        "printedPage": 323,
+        "pdfPage": 324,
+        "url": "https://www.dndbeyond.com/monsters/16874-giant-badger",
+        "publication": "Monster Manual (2014)",
+        "section": "Appendix A, Miscellaneous Creatures",
+        "sourceWitness": " - 5th Edition (2014)/Rules/Monster ",
+        "sourceSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+        "purpose": "Base creature statistics and rules inherited by the named adventure variant.",
+        "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+        "errataEvidence": "No entry for this base creature in the official 2014 Monster Manual errata."
+      }
+    ]
+  },
+  {
+    "name": "Female Steeder",
+    "kind": "beast",
+    "publication": "Out of the Abyss",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast LLC",
+    "collaborator": "Green Ronin Publishing",
+    "leadAdventureDesigner": "Steve Kenson",
+    "storyCreators": [
+      "Christopher Perkins",
+      "Adam Lee",
+      "Richard Whitters"
+    ],
+    "copyrightYear": 2015,
+    "printing": "First printing, September 2015",
+    "isbn": "978-0-7869-6581-6",
+    "productCode": "620B2439000001 EN",
+    "creditsPdfPage": 3,
+    "section": "Appendix C, Creatures, Steeders",
+    "printedPages": [
+      226,
+      231
+    ],
+    "statBlockPage": 231,
+    "pdfPage": 232,
+    "viewerPages": [
+      227,
+      232
+    ],
+    "sourceUrl": "https://www.dndbeyond.com/monsters/17401-female-steeder",
+    "url": "https://www.dndbeyond.com/monsters/17401-female-steeder",
+    "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/oota",
+    "officialCreatureIndex": "https://www.dndbeyond.com/monsters?page=57",
+    "officialPublisherProduct": "https://wpn.wizards.com/en/products/out-of-the-abyss",
+    "sourcePageKind": "The public D&D Beyond monster index identifies this exact Out of the Abyss entry as a Beast. The linked official creature page redirected to the book purchase page without access.",
+    "sourceWitness": " - 5th Edition (2014)/Adventures/Out of the ",
+    "sourceSha256": "1c25226f893f9e71e4504df165dbfbd33f2665855054407726418db7911af0ae",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/out-of-the-abyss",
+    "officialErrataPdf": "",
+    "officialErrataPdfSha256": "e678c6e6e9728ff5a87668cba4fa9ec5d0e3524c6e27f99a7bec9895dcfda42c",
+    "errataEvidence": "No change to this entry in the official Out of the Abyss errata v1.1 or the D&D Beyond errata page.",
+    "habitatEvidence": "Underdark placement from Appendix C, Creatures, Steeders.",
+    "appearanceEvidence": "Editorial description of the selected parchment portrait and the shape stated or implied by the printed creature account.",
+    "artworkSource": "portraits/female-steeder.png",
+    "artworkSha256": "b11c39c63ec3f19c38c7ba3467c5a5a397272abcd27a936bf3ae10fe24081e23",
+    "artworkCredit": "OpenAI ImageGen",
+    "artworkNote": "New square OpenAI ImageGen portrait. Plain parchment and lighting follow the approved Big Linda portrait.",
+    "sourceNotes": [
+      "Appendix C p. 231 gives a Large Beast. The encounter-specific Cavalry Training on p. 226 belongs to the Duergar Kavalrachni rider."
+    ]
+  },
+  {
+    "name": "Fiendish Giant Spider",
+    "kind": "beast",
+    "publication": "Out of the Abyss",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast LLC",
+    "collaborator": "Green Ronin Publishing",
+    "leadAdventureDesigner": "Steve Kenson",
+    "storyCreators": [
+      "Christopher Perkins",
+      "Adam Lee",
+      "Richard Whitters"
+    ],
+    "copyrightYear": 2015,
+    "printing": "First printing, September 2015",
+    "isbn": "978-0-7869-6581-6",
+    "productCode": "620B2439000001 EN",
+    "creditsPdfPage": 3,
+    "section": "Chapter 6, Blingdenstone",
+    "printedPages": [
+      96,
+      97
+    ],
+    "variantPage": 97,
+    "pdfPage": 98,
+    "viewerPages": [
+      97,
+      98
+    ],
+    "sourceUrl": "https://www.dndbeyond.com/monsters/274108-fiendish-giant-spider",
+    "url": "https://www.dndbeyond.com/monsters/274108-fiendish-giant-spider",
+    "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/oota",
+    "officialCreatureIndex": "https://www.dndbeyond.com/monsters?filter-search=fiend&filter-type=0",
+    "officialPublisherProduct": "https://wpn.wizards.com/en/products/out-of-the-abyss",
+    "sourcePageKind": "The public D&D Beyond monster index identifies this exact Out of the Abyss entry as a Beast. The linked official creature page redirected to the book purchase page without access.",
+    "sourceWitness": " - 5th Edition (2014)/Adventures/Out of the ",
+    "sourceSha256": "1c25226f893f9e71e4504df165dbfbd33f2665855054407726418db7911af0ae",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/out-of-the-abyss",
+    "officialErrataPdf": "",
+    "officialErrataPdfSha256": "e678c6e6e9728ff5a87668cba4fa9ec5d0e3524c6e27f99a7bec9895dcfda42c",
+    "errataEvidence": "No change to this entry in the official Out of the Abyss errata v1.1 or the D&D Beyond errata page.",
+    "habitatEvidence": "Underdark placement from Chapter 6, Blingdenstone.",
+    "appearanceEvidence": "Editorial description of the selected parchment portrait and the shape stated or implied by the printed creature account.",
+    "artworkSource": "beast-ready-batch-05/parts/b05_04/portraits/giant-wolf-spider.png",
+    "artworkSha256": "771ba99eb9e46aa977eab1b3a3f19e041afe6531cd20313827445884a0792537",
+    "artworkCredit": "OpenAI ImageGen",
+    "artworkNote": "Existing spider portrait represents the inherited morphology. The reused artwork does not depict the baleful energy in the printed encounter.",
+    "sourceNotes": [
+      "The adventure changes challenge and defenses. The 2014 Giant Wolf Spider base retains the Medium Beast type and unaligned alignment. D&D Beyond independently lists the adventure entry as a Beast."
+    ],
+    "relatedRules": [
+      {
+        "name": "Giant Wolf Spider",
+        "printedPage": 330,
+        "pdfPage": 331,
+        "url": "https://www.dndbeyond.com/monsters/16900-giant-wolf-spider",
+        "publication": "Monster Manual (2014)",
+        "section": "Appendix A, Miscellaneous Creatures",
+        "sourceWitness": " - 5th Edition (2014)/Rules/Monster ",
+        "sourceSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+        "purpose": "Base creature statistics and rules inherited by the named adventure variant.",
+        "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+        "errataEvidence": "No entry for this base creature in the official 2014 Monster Manual errata."
+      }
+    ]
+  }
+]

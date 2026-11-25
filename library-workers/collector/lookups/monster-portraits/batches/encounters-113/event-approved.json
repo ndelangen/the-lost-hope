@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Hadozee",
+    "slug": "hadozee",
+    "caption": "Renn Farwake · Original Hadozee NPC",
+    "id": "species-155f6ee787e625099592f150:1bee294d79af7ed34797d712",
+    "entry": "species-155f6ee787e625099592f150",
+    "version": "1bee294d79af7ed34797d712",
+    "suffix": "encounters-113/hadozee.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-113/hadozee.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-113/event-drafts/hadozee-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 113 2026-11-24/event-drafts/hadozee-event-v1.png",
+    "overrides": [],
+    "sha256": "fb2d5f7769ef65ad21a285c5ee6deeb9d86fc1f7f3bd492953013a751f8572d4",
+    "bytes": 2174023
+  }
+]

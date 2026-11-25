@@ -1,0 +1,134 @@
+[
+  {
+    "name": "Giant Lizard",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Revised Monster Manual, 2025 release, 2024 fifth-edition rules",
+    "printedPages": [
+      358
+    ],
+    "pageNumbering": "Monster Manual byline on the D&D Beyond creature page.",
+    "url": "https://www.dndbeyond.com/monsters/5195022-giant-lizard",
+    "rulesUrl": "https://www.dndbeyond.com/monsters/5195022-giant-lizard",
+    "byline": "Monster Manual, pg. 358",
+    "publicationPage": "https://www.dndbeyond.com/sources/dnd/mm-2024",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "errataPdfUrl": "",
+    "appearanceSource": "Editorial description of the reused portrait. Size and creature type come from the publisher’s stat block.",
+    "habitatSource": "Habitat line in the publisher’s stat block.",
+    "artGroup": "giant-lizard",
+    "portraitSha256": "2498ee3dfe40193cbd9d2e4ca272c11cadf2b2b4c54e07ab3aae42b575ac0b09",
+    "sourceDistinctions": [
+      "Spider Climb is a native trait of this profile. The Dexterity save is +3.",
+      "The publisher’s errata page and its v1.0 list no correction for this beast."
+    ]
+  },
+  {
+    "name": "Giant Octopus",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Revised Monster Manual, 2025 release, 2024 fifth-edition rules",
+    "printedPages": [
+      358
+    ],
+    "pageNumbering": "Monster Manual byline on the D&D Beyond creature page.",
+    "url": "https://www.dndbeyond.com/monsters/5195023-giant-octopus",
+    "rulesUrl": "https://www.dndbeyond.com/monsters/5195023-giant-octopus",
+    "byline": "Monster Manual, pg. 358",
+    "publicationPage": "https://www.dndbeyond.com/sources/dnd/mm-2024",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "errataPdfUrl": "",
+    "appearanceSource": "Editorial description of the reused portrait. Size and creature type come from the publisher’s stat block.",
+    "habitatSource": "Habitat line in the publisher’s stat block.",
+    "artGroup": "giant-octopus",
+    "portraitSha256": "13421ff75d696948927b4b3424f2c0652c1d5041b660fb55b0514ae416ca67aa",
+    "sourceDistinctions": [
+      "Tentacles can grapple a Medium or smaller creature with all eight tentacles. Taking damage underwater triggers the once-per-day Ink Cloud reaction.",
+      "The publisher’s errata page and its v1.0 list no correction for this beast."
+    ]
+  },
+  {
+    "name": "Giant Rat",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Revised Monster Manual, 2025 release, 2024 fifth-edition rules",
+    "printedPages": [
+      358
+    ],
+    "pageNumbering": "Monster Manual byline on the D&D Beyond creature page.",
+    "url": "https://www.dndbeyond.com/monsters/5195025-giant-rat",
+    "rulesUrl": "https://www.dndbeyond.com/monsters/5195025-giant-rat",
+    "byline": "Monster Manual, pg. 358",
+    "publicationPage": "https://www.dndbeyond.com/sources/dnd/mm-2024",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "errataPdfUrl": "",
+    "appearanceSource": "Editorial description of the reused portrait. Size and creature type come from the publisher’s stat block.",
+    "habitatSource": "Habitat line in the publisher’s stat block.",
+    "artGroup": "giant-rat",
+    "portraitSha256": "5b455816adf4ba786df1b5c86dc4f0e11857271c6551819ae01f0d69f72d3d73",
+    "sourceDistinctions": [
+      "The rat has a 30-ft. Climb Speed and a +5 Dexterity save. Bite deals piercing damage.",
+      "The publisher’s errata page and its v1.0 list no correction for this beast."
+    ]
+  },
+  {
+    "name": "Giant Scorpion",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Revised Monster Manual, 2025 release, 2024 fifth-edition rules",
+    "printedPages": [
+      359
+    ],
+    "pageNumbering": "Monster Manual byline on the D&D Beyond creature page.",
+    "url": "https://www.dndbeyond.com/monsters/5195026-giant-scorpion",
+    "rulesUrl": "https://www.dndbeyond.com/monsters/5195026-giant-scorpion",
+    "byline": "Monster Manual, pg. 359",
+    "publicationPage": "https://www.dndbeyond.com/sources/dnd/mm-2024",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "errataPdfUrl": "",
+    "appearanceSource": "Editorial description of the reused portrait. Size and creature type come from the publisher’s stat block.",
+    "habitatSource": "Habitat line in the publisher’s stat block.",
+    "artGroup": "giant-scorpion",
+    "portraitSha256": "0c4e3729b267cfc056248992f31fea7df9529c6c7f37f5b33b20713c9e270492",
+    "sourceDistinctions": [
+      "Each claw can grapple a Large or smaller creature at escape DC 13. The Sting hit itself applies its poison damage.",
+      "The publisher’s errata page and its v1.0 list no correction for this beast."
+    ]
+  },
+  {
+    "name": "Giant Seahorse",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Revised Monster Manual, 2025 release, 2024 fifth-edition rules",
+    "printedPages": [
+      359
+    ],
+    "pageNumbering": "Monster Manual byline on the D&D Beyond creature page.",
+    "url": "https://www.dndbeyond.com/monsters/4775820-giant-seahorse",
+    "rulesUrl": "https://www.dndbeyond.com/monsters/4775820-giant-seahorse",
+    "byline": "Monster Manual, pg. 359",
+    "publicationPage": "https://www.dndbeyond.com/sources/dnd/mm-2024",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "errataPdfUrl": "",
+    "appearanceSource": "Editorial description of the reused portrait. Size and creature type come from the publisher’s stat block.",
+    "habitatSource": "Habitat line in the publisher’s stat block.",
+    "artGroup": "giant-sea-horse",
+    "portraitSha256": "4fb04613a36d51326735735ddec2758bea9bc887950df1eb76899b45b6bf3b89",
+    "sourceDistinctions": [
+      "The publisher byline identifies Monster Manual p. 359. The local secondary index also associates this block with Player’s Handbook (2024) p. 350.",
+      "Ram uses its higher damage when the movement condition is met. Bubble Dash is a bonus action.",
+      "The publisher spells the creature Giant Seahorse. The selected portrait uses the existing giant-sea-horse filename.",
+      "The publisher’s errata page and its v1.0 list no correction for this beast."
+    ]
+  }
+]

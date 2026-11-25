@@ -1,0 +1,434 @@
+[
+  {
+    "name": "Reigar",
+    "statBlock": {
+      "name": "Reigar",
+      "publication": "Spelljammer: Adventures in Space",
+      "edition": "2014 fifth edition",
+      "printedPage": 47,
+      "classification": "Medium celestial, typically chaotic neutral",
+      "ac": 19,
+      "hp": 82,
+      "hitDice": "15d8 + 15",
+      "speed": "30 ft., swim 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 19
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 24
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 13,
+      "description": "A Ysgardian traveler with changing skin colors, luminous freckles, and a halo that turns attacks aside.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 5,
+        "Con": 4,
+        "Wis": 6,
+        "Cha": 10
+      },
+      "skills": {
+        "Arcana": 7,
+        "History": 7,
+        "Performance": 10,
+        "Persuasion": 10
+      },
+      "sections": {
+        "Armor": "Glory.",
+        "Languages": "Celestial, Common, Deep Speech, Draconic.",
+        "Traits": "Glory. The reigar adds its Charisma modifier to its AC. The AC above already includes this bonus.\nHold Breath. The reigar can go without breathing for 1 hour.\nSpecial Equipment. The reigar wears a personally crafted Talarith. Its weapon hits deal an extra 3 (1d6) force damage while it wears the item. The extra damage is already listed in Trident.",
+        "Actions": "Multiattack. Make two Trident attacks.\nTrident. Melee or ranged weapon attack, +7 to hit, one target within reach 5 ft. or range 20/60 ft. A hit deals 7 (1d6 + 4) piercing damage. Use 8 (1d8 + 4) piercing damage for a two-handed melee hit. Add 3 (1d6) force damage if the reigar wears its Talarith.\nChromatic Bolt. Ranged spell attack, +10 to hit, range 90 ft., one target. A hit deals 22 (5d8) damage. The reigar chooses cold, fire, lightning, or radiant.\nSummon Duplicate (recharges after a short or long rest). Use the Talarith to create an obedient duplicate. It uses this stat block, with type Construct and unaligned, and it has no Talarith. It takes its turn immediately after the reigar and vanishes after 1 hour or at 0 hit points.",
+        "Spellcasting (Psionics)": "Cast one listed spell as an action with Charisma and spell save DC 18. No components are needed.\nAt will: Light, Mage Hand, Prestidigitation.\n2/day each: Dimension Door, Phantasmal Force.\n1/day each: Mass Suggestion, Sending.",
+        "Encounter context": "At sea, look for a living Esthetic ship built by its reigar. Only the creator can attune to its Talarith. A lost or destroyed one takes 1d10 + 20 days to replace.",
+        "Printing note": "Official errata names the action Summon Duplicate.",
+        "Printed source": "Boo's Astral Menagerie, p. 47."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Esthetic",
+          "printing": {
+            "publication": "Spelljammer: Adventures in Space",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#esthetic_bam"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Solar Dragon Wyrmling",
+    "statBlock": {
+      "name": "Solar Dragon Wyrmling",
+      "publication": "Spelljammer: Adventures in Space",
+      "edition": "2014 fifth edition",
+      "printedPage": 53,
+      "classification": "Medium dragon, typically neutral",
+      "ac": 15,
+      "hp": 51,
+      "hitDice": "6d8 + 24",
+      "speed": "20 ft., fly 40 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 15,
+      "description": "A newly hatched sun dragon with glimmering scales, a sinuous body, finned forelimbs, and luminous wings.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 4,
+        "Con": 6,
+        "Wis": 3,
+        "Cha": 2
+      },
+      "skills": {
+        "Perception": 5,
+        "Stealth": 4
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Draconic.",
+        "Damage immunities": "Radiant.",
+        "Condition immunities": "Blinded.",
+        "Traits": "Flyby. Leaving an enemy’s reach by flying does not provoke opportunity attacks.\nUnusual Nature. The dragon does not need air.",
+        "Actions": "Multiattack. Make a Bite and a Tail attack.\nBite. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 6 (1d6 + 3) piercing damage plus 3 (1d6) radiant damage.\nTail. Melee weapon attack, +5 to hit, reach 10 ft., one target. A hit deals 5 (1d4 + 3) bludgeoning damage.\nPhotonic Breath (recharge 5–6). Send a mote to a point the dragon can see within 120 ft. It bursts in a 10-ft.-radius sphere. Each creature in the sphere makes a DC 14 Constitution save, taking 22 (4d10) radiant damage on a failure or half on a success.",
+        "Solar dragon ages": "Light from the wyrmling’s wings shows through the black shell just before the egg hatches. See Young Solar Dragon, Adult Solar Dragon, and Ancient Solar Dragon for later ages.",
+        "Printed source": "Boo's Astral Menagerie, p. 53."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Young Solar Dragon",
+          "printing": {
+            "publication": "Spelljammer: Adventures in Space",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#young%20solar%20dragon_bam"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Adult Solar Dragon",
+          "printing": {
+            "publication": "Spelljammer: Adventures in Space",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#adult%20solar%20dragon_bam"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Ancient Solar Dragon",
+          "printing": {
+            "publication": "Spelljammer: Adventures in Space",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#ancient%20solar%20dragon_bam"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Space Clown",
+    "statBlock": {
+      "name": "Space Clown",
+      "publication": "Spelljammer: Adventures in Space",
+      "edition": "2014 fifth edition",
+      "printedPage": 54,
+      "classification": "Medium fiend, typically chaotic evil",
+      "ac": 13,
+      "hp": 58,
+      "hitDice": "9d8 + 18",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 10,
+      "description": "A marauder from Clownspace that can take the appearance of a person or a carnival prop.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Acrobatics": 5,
+        "Performance": 5,
+        "Sleight Of Hand": 5
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Abyssal, Common.",
+        "Traits": "Dying Burst. At 0 hit points, the clown bursts. Each creature within 5 ft. makes a DC 12 Dexterity save or takes 10 (3d6) acid damage. A success halves the damage.\nSqueakers. The clown’s shoes squeak when it walks and can be heard up to 30 ft. away. Phantasmal Form silences them.",
+        "Actions": "Shock. Melee spell attack, +5 to hit, reach 5 ft., one target. A hit deals 17 (4d6 + 3) lightning damage.\nRay Gun. Ranged spell attack, +5 to hit, range 120 ft., one creature. A hit deals 7 (2d6) psychic damage. A Humanoid target with Intelligence 3 or higher also makes a DC 12 Wisdom save. On a failure, everything it sees or hears seems hilarious and it is incapacitated for up to 1 minute. It repeats the save at the end of each of its turns, ending the effect on a success.",
+        "Spellcasting": "Cast one listed spell as an action using Charisma, without material components.\nAt will: Friends, Mage Hand, Prestidigitation.\n1/day each: Mirror Image, Spider Climb.",
+        "Bonus actions": "Phantasmal Form (3/day). Cloak the clown and its equipment in an illusion. It can look like another creature of its size or smaller, or an object that fits its space. The disguise needs Concentration as if it were a spell and fails under physical inspection. A creature that sees the disguise can use its action to make a DC 15 Wisdom (Insight) check, recognizing the clown’s true form on a success.",
+        "Encounter context": "Dohwar merchants supplied the first Clownspace ships with spelljamming helms. The clowns lure prey into carnival tents on settled worlds. Their ray guns are harmless in anyone else’s hands.",
+        "Printed source": "Boo's Astral Menagerie, p. 54."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Dohwar",
+          "printing": {
+            "publication": "Spelljammer: Adventures in Space",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#dohwar_bam"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Space Hamster",
+    "statBlock": {
+      "name": "Space Hamster",
+      "publication": "Spelljammer: Adventures in Space",
+      "edition": "2014 fifth edition",
+      "printedPage": 56,
+      "classification": "Tiny monstrosity, typically neutral good",
+      "ac": 15,
+      "hp": 10,
+      "hitDice": "4d4",
+      "speed": "20 ft., burrow 5 ft.",
+      "abilities": {
+        "Str": {
+          "score": 1
+        },
+        "Dex": {
+          "score": 20
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 6
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 13,
+      "description": "A small Wildspace rodent with telepathy that it usually keeps secret.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 3,
+        "Stealth": 7
+      },
+      "sections": {
+        "Languages": "telepathy 5 ft.",
+        "Actions": "Bite. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 1 piercing damage.\nGo for the Eyes (recharge 6). Melee weapon attack, +7 to hit, reach 5 ft., one creature. A hit deals 8 (1d6 + 5) piercing damage. The target must pass a DC 15 Dexterity save or become blinded until the start of the hamster’s next turn.",
+        "Bonus actions": "Escape. Take the Dash or Disengage action.",
+        "Encounter context": "Wizards shrank the Giant Space Hamster to create the first small space hamsters. The transformation also sharpened their minds and gave them telepathy.",
+        "Printed source": "Boo's Astral Menagerie, p. 56."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "beast",
+          "name": "Giant Space Hamster",
+          "printing": {
+            "publication": "Spelljammer: Adventures in Space",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#giant%20space%20hamster_bam"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Ssurran Defiler",
+    "statBlock": {
+      "name": "Ssurran Defiler",
+      "publication": "Spelljammer: Adventures in Space",
+      "edition": "2014 fifth edition",
+      "printedPage": 58,
+      "classification": "Medium monstrosity (lizardfolk), any alignment",
+      "ac": 16,
+      "hp": 52,
+      "hitDice": "7d8 + 21",
+      "speed": "30 ft., swim 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 14,
+      "description": "A reptilian psion that withers nearby vegetation and siphons life from creatures.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 5,
+        "Int": 4
+      },
+      "skills": {
+        "Arcana": 4,
+        "Perception": 4,
+        "Stealth": 3,
+        "Survival": 4
+      },
+      "sections": {
+        "Armor": "Natural armor and Intellect Fortress.",
+        "Languages": "Draconic.",
+        "Damage resistances": "Necrotic.",
+        "Traits": "Hold Breath. The ssurran can go without breathing for 15 minutes.\nIntellect Fortress. The ssurran adds its Intelligence modifier to AC. The AC above already includes it.",
+        "Actions": "Multiattack. Make two Claw attacks, then use Defile if available.\nClaw. Melee weapon attack, +3 to hit, reach 5 ft., one target. A hit deals 4 (1d6 + 1) slashing damage plus 4 (1d8) necrotic damage.\nDefile (recharge 6). Ordinary plants within 10 ft. of the ssurran wither and die. Each creature within 10 ft. of it makes a DC 11 Constitution save, taking 22 (4d10) necrotic damage on a failure or half on a success. The ssurran heals 5 (1d10) hit points for each creature that fails.",
+        "Spellcasting (Psionics)": "Cast one listed spell as an action using Intelligence, without components.\nAt will: Mage Hand, with an invisible hand.\n1/day: Invisibility, self only.",
+        "Other ssurran": "A Ssurran Poisoner has a shield, poisoned javelins, and gas bombs.",
+        "Printed source": "Boo's Astral Menagerie, p. 58."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Ssurran Poisoner",
+          "printing": {
+            "publication": "Spelljammer: Adventures in Space",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#ssurran%20poisoner_bam"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Ssurran Poisoner",
+    "statBlock": {
+      "name": "Ssurran Poisoner",
+      "publication": "Spelljammer: Adventures in Space",
+      "edition": "2014 fifth edition",
+      "printedPage": 58,
+      "classification": "Medium monstrosity (lizardfolk), any alignment",
+      "ac": 16,
+      "hp": 22,
+      "hitDice": "4d8 + 4",
+      "speed": "30 ft., swim 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 13,
+      "description": "A reptilian combatant armed with toxin-coated javelins and bombs that release poisonous gas.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 3,
+        "Stealth": 3,
+        "Survival": 3
+      },
+      "sections": {
+        "Armor": "Natural armor and a shield.",
+        "Languages": "Draconic.",
+        "Traits": "Hold Breath. The ssurran can go without breathing for 15 minutes.",
+        "Actions": "Multiattack. Make two Claw attacks.\nClaw. Melee weapon attack, +3 to hit, reach 5 ft., one target. A hit deals 4 (1d6 + 1) slashing damage.\nJavelin. Melee or ranged weapon attack, +3 to hit, one target within reach 5 ft. or range 30/120 ft. A hit deals 4 (1d6 + 1) piercing damage plus 4 (1d8) poison damage.\nPoison Bomb. Throw a bomb at a point up to 60 ft. away. Each creature in the resulting 10-ft.-radius sphere makes a DC 11 Constitution save, taking 10 (3d6) poison damage on a failure or half on a success. The gas disperses quickly. Roll a d6 after the throw. On 1–4, the poisoner has run out of bombs.",
+        "Other ssurran": "A Ssurran Defiler drains life instead of carrying poison bombs.",
+        "Printed source": "Boo's Astral Menagerie, p. 58."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Ssurran Defiler",
+          "printing": {
+            "publication": "Spelljammer: Adventures in Space",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#ssurran%20defiler_bam"
+          }
+        }
+      ]
+    }
+  }
+]

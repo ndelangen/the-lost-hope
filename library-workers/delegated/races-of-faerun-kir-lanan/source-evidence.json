@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Kir-Lanan",
+    "kind": "species",
+    "publication": "Races of Faerûn (2003)",
+    "edition": "3.5 edition",
+    "book": "Races of Faerûn",
+    "publisher": "Wizards of the Coast",
+    "authors": [
+      "Eric L. Boyd",
+      "James Jacobs",
+      "Matt Forbeck"
+    ],
+    "firstPrinting": "March 2003",
+    "isbn": "0-7869-2896-4",
+    "printedPages": {
+      "playableSpecies": [
+        137,
+        138,
+        139,
+        140
+      ],
+      "racialTraits": [
+        139,
+        140
+      ],
+      "illustration": [
+        138
+      ],
+      "monsterRevision": [
+        2
+      ]
+    },
+    "primaryBookPdfPageOffset": 1,
+    "primaryBookScan": "",
+    "primaryBookSha256": "80254e0054d127cf9e32e8e8e7b403e2f3e0477bc3695bbe96cf4ea595ba761d",
+    "monsterRevision": "",
+    "earlierMonster": "https://anyflip.com/njwsm/eaxu/basic/301-336",
+    "coreRay": "https://www.d20srd.org/srd/spells/rayOfEnfeeblement.htm",
+    "printedArtCredit": "Adam Rex, p. 138.",
+    "sourceDistinctions": [
+      "A claw delivering Negative Energy Touch must beat normal AC. Only the energy damage heals the Kir-Lanan.",
+      "The player entry gives Fortitude DC 12 plus Charisma modifier. The save negates Strength damage only.",
+      "The 2004 monster conversion confirms Monstrous Humanoid, 5-ft. space and reach, and LA +4."
+    ],
+    "entryId": "species-fa24cb364f9003ee003613c9",
+    "versionKey": "ca9020a13e3f16df61403064",
+    "slug": "kir-lanan",
+    "portraitSelection": "generated",
+    "portraitForm": "Varek Ashveil, an original Kir-Lanan ledge scout",
+    "npcExamples": [
+      "Varek Ashveil",
+      "Sira Duskmere"
+    ]
+  }
+]

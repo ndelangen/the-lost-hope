@@ -1,0 +1,272 @@
+[
+  {
+    "name": "Dinosaur, Velociraptor",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "publisher": "Kobold Press / Open Design LLC",
+    "rulesWitnessPublisher": "Nosolorol",
+    "rulesWitness": "Cubil de Monstruos",
+    "printing": "Kobold Press Monster Vault ©2024, Nosolorol Spanish edition ©2025",
+    "language": "Spanish",
+    "translator": "Andrea Iglesias",
+    "license": "Licensed Spanish translation published by Nosolorol.",
+    "isbn": "979-13-87882-04-4",
+    "heading": "Velociraptor",
+    "printedPages": [
+      111
+    ],
+    "viewerPages": [
+      113
+    ],
+    "pageNumbering": "Printed folio plus two gives the one-based page.",
+    "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "url": "https://www.nosolorol.com/talesofthevaliant",
+    "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "errataUrl": "https://koboldpress.com/errata/",
+    "catalogCR": "0.5",
+    "cr": "1/2",
+    "catalogRole": "Kobold Press’s English index confirms scope, indexed name, size, habitat and displayed challenge rating. The licensed Spanish book supplies the encounter mechanics.",
+    "firstPartyErrata": "Checked the Kobold Press Monster Vault errata dated May 29, 2025. It lists no changes specific to these creature blocks.",
+    "fixedValues": {
+      "Perception": 13,
+      "Stealth": 14
+    },
+    "abilityModifiers": {
+      "STR": -2,
+      "DEX": 4,
+      "CON": 1,
+      "INT": -3,
+      "WIS": 1,
+      "CHA": -2
+    },
+    "hpEvidence": "The profile gives fixed HP and omits a Hit Dice formula.",
+    "xp": 100,
+    "xpSource": "Cubil de Monstruos challenge-to-experience table, printed p. 17 (p. 19).",
+    "supportingPages": [
+      17
+    ],
+    "habitatSource": "Kobold Press official English Monster Vault catalog habitat column. https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "appearanceSource": "Editorial details from the roster’s existing portrait, consistent with the animal form and size.",
+    "sourceDistinctions": [
+      "The Spanish Lacerar action is translated as Maul. It occurs under Actions. The Bite can establish a grapple on a Medium or smaller creature."
+    ]
+  },
+  {
+    "name": "Eagle",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "publisher": "Kobold Press / Open Design LLC",
+    "rulesWitnessPublisher": "Nosolorol",
+    "rulesWitness": "Cubil de Monstruos",
+    "printing": "Kobold Press Monster Vault ©2024, Nosolorol Spanish edition ©2025",
+    "language": "Spanish",
+    "translator": "Andrea Iglesias",
+    "license": "Licensed Spanish translation published by Nosolorol.",
+    "isbn": "979-13-87882-04-4",
+    "heading": "Águila",
+    "printedPages": [
+      332
+    ],
+    "viewerPages": [
+      334
+    ],
+    "pageNumbering": "Printed folio plus two gives the one-based page.",
+    "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "url": "https://www.nosolorol.com/talesofthevaliant",
+    "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "errataUrl": "https://koboldpress.com/errata/",
+    "catalogCR": "0.0",
+    "cr": "0",
+    "catalogRole": "Kobold Press’s English index confirms scope, indexed name, size, habitat and displayed challenge rating. The licensed Spanish book supplies the encounter mechanics.",
+    "firstPartyErrata": "Checked the Kobold Press Monster Vault errata dated May 29, 2025. It lists no changes specific to these creature blocks.",
+    "fixedValues": {
+      "Perception": 14,
+      "Stealth": 11
+    },
+    "abilityModifiers": {
+      "STR": -2,
+      "DEX": 1,
+      "CON": 0,
+      "INT": -4,
+      "WIS": 2,
+      "CHA": -2
+    },
+    "hpEvidence": "The profile gives fixed HP and omits a Hit Dice formula.",
+    "xp": 10,
+    "xpSource": "Cubil de Monstruos challenge-to-experience table, printed p. 17 (p. 19).",
+    "supportingPages": [
+      17,
+      23
+    ],
+    "habitatSource": "Kobold Press official English Monster Vault catalog habitat column. https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "appearanceSource": "Editorial details from the roster’s existing portrait, consistent with the animal form and size.",
+    "sourceDistinctions": [
+      "The Seabird trait grants conditional movement on its own turn. The Speed line gives 10 ft. walking and 60 ft. flying. The Vulnerable line is a condition vulnerability under the book’s p. 23 rule."
+    ]
+  },
+  {
+    "name": "Eagle, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "publisher": "Kobold Press / Open Design LLC",
+    "rulesWitnessPublisher": "Nosolorol",
+    "rulesWitness": "Cubil de Monstruos",
+    "printing": "Kobold Press Monster Vault ©2024, Nosolorol Spanish edition ©2025",
+    "language": "Spanish",
+    "translator": "Andrea Iglesias",
+    "license": "Licensed Spanish translation published by Nosolorol.",
+    "isbn": "979-13-87882-04-4",
+    "heading": "Águila Gigante",
+    "printedPages": [
+      332,
+      333
+    ],
+    "viewerPages": [
+      334,
+      335
+    ],
+    "pageNumbering": "Printed folio plus two gives the one-based page.",
+    "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "url": "https://www.nosolorol.com/talesofthevaliant",
+    "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "errataUrl": "https://koboldpress.com/errata/",
+    "catalogCR": "1.0",
+    "cr": "1",
+    "catalogRole": "Kobold Press’s English index confirms scope, indexed name, size, habitat and displayed challenge rating. The licensed Spanish book supplies the encounter mechanics.",
+    "firstPartyErrata": "Checked the Kobold Press Monster Vault errata dated May 29, 2025. It lists no changes specific to these creature blocks.",
+    "fixedValues": {
+      "Perception": 14,
+      "Stealth": 13
+    },
+    "abilityModifiers": {
+      "STR": 3,
+      "DEX": 3,
+      "CON": 1,
+      "INT": -1,
+      "WIS": 2,
+      "CHA": 0
+    },
+    "hpEvidence": "The profile gives fixed HP and omits a Hit Dice formula.",
+    "xp": 200,
+    "xpSource": "Cubil de Monstruos challenge-to-experience table, printed p. 17 (p. 19).",
+    "supportingPages": [
+      17,
+      23
+    ],
+    "habitatSource": "Kobold Press official English Monster Vault catalog habitat column. https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "appearanceSource": "Editorial details from the roster’s existing portrait, consistent with the animal form and size.",
+    "sourceDistinctions": [
+      "The Spanish p. 332 Multiattack specifies one Beak and two Talons attacks. The English reference document v0.2 says one Talons attack. This profile follows the published Spanish Monster Vault translation. The Spanish Talons paragraph continues onto p. 333."
+    ]
+  },
+  {
+    "name": "Elephant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "publisher": "Kobold Press / Open Design LLC",
+    "rulesWitnessPublisher": "Nosolorol",
+    "rulesWitness": "Cubil de Monstruos",
+    "printing": "Kobold Press Monster Vault ©2024, Nosolorol Spanish edition ©2025",
+    "language": "Spanish",
+    "translator": "Andrea Iglesias",
+    "license": "Licensed Spanish translation published by Nosolorol.",
+    "isbn": "979-13-87882-04-4",
+    "heading": "Elefante",
+    "printedPages": [
+      341
+    ],
+    "viewerPages": [
+      343
+    ],
+    "pageNumbering": "Printed folio plus two gives the one-based page.",
+    "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "url": "https://www.nosolorol.com/talesofthevaliant",
+    "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "errataUrl": "https://koboldpress.com/errata/",
+    "catalogCR": "4.0",
+    "cr": "4",
+    "catalogRole": "Kobold Press’s English index confirms scope, indexed name, size, habitat and displayed challenge rating. The licensed Spanish book supplies the encounter mechanics.",
+    "firstPartyErrata": "Checked the Kobold Press Monster Vault errata dated May 29, 2025. It lists no changes specific to these creature blocks.",
+    "fixedValues": {
+      "Perception": 12,
+      "Stealth": 9
+    },
+    "abilityModifiers": {
+      "STR": 5,
+      "DEX": -1,
+      "CON": 3,
+      "INT": -4,
+      "WIS": 0,
+      "CHA": -2
+    },
+    "hpEvidence": "The profile gives fixed HP and omits a Hit Dice formula.",
+    "xp": 1100,
+    "xpSource": "Cubil de Monstruos challenge-to-experience table, printed p. 17 (p. 19).",
+    "supportingPages": [
+      17,
+      23
+    ],
+    "habitatSource": "Kobold Press official English Monster Vault catalog habitat column. https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "appearanceSource": "Editorial details from the roster’s existing portrait, consistent with the animal form and size.",
+    "sourceDistinctions": [
+      "The Spanish standalone Stomp targets one creature. The English reference document v0.2 limits its Stomp to a prone creature. Only the Spanish charge rider explicitly needs a prone target for the bonus-action Stomp."
+    ]
+  },
+  {
+    "name": "Elk",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "publisher": "Kobold Press / Open Design LLC",
+    "rulesWitnessPublisher": "Nosolorol",
+    "rulesWitness": "Cubil de Monstruos",
+    "printing": "Kobold Press Monster Vault ©2024, Nosolorol Spanish edition ©2025",
+    "language": "Spanish",
+    "translator": "Andrea Iglesias",
+    "license": "Licensed Spanish translation published by Nosolorol.",
+    "isbn": "979-13-87882-04-4",
+    "heading": "Alce",
+    "printedPages": [
+      333
+    ],
+    "viewerPages": [
+      335
+    ],
+    "pageNumbering": "Printed folio plus two gives the one-based page.",
+    "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "url": "https://www.nosolorol.com/talesofthevaliant",
+    "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "errataUrl": "https://koboldpress.com/errata/",
+    "catalogCR": "0.3",
+    "cr": "1/4",
+    "catalogRole": "Kobold Press’s English index confirms scope, indexed name, size, habitat and displayed challenge rating. The licensed Spanish book supplies the encounter mechanics.",
+    "firstPartyErrata": "Checked the Kobold Press Monster Vault errata dated May 29, 2025. It lists no changes specific to these creature blocks.",
+    "fixedValues": {
+      "Perception": 10,
+      "Stealth": 10
+    },
+    "abilityModifiers": {
+      "STR": 2,
+      "DEX": 0,
+      "CON": 1,
+      "INT": -4,
+      "WIS": 0,
+      "CHA": -2
+    },
+    "hpEvidence": "The profile gives fixed HP and omits a Hit Dice formula.",
+    "xp": 50,
+    "xpSource": "Cubil de Monstruos challenge-to-experience table, printed p. 17 (p. 19).",
+    "supportingPages": [
+      17
+    ],
+    "habitatSource": "Kobold Press official English Monster Vault catalog habitat column. https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "appearanceSource": "Editorial details from the roster’s existing portrait, consistent with the animal form and size.",
+    "sourceDistinctions": [
+      "Printed Alce is CR 1/4. The publisher index rounds it to 0.3. The right column on p. 333 is Alce gigante, which has a different block."
+    ]
+  }
+]

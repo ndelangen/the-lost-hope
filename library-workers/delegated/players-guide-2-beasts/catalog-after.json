@@ -1,0 +1,2165 @@
+{
+  "result": [
+    {
+      "name": "Camel, Cavalry",
+      "version": {
+        "key": "4d79fa7c05f68dae55936e72",
+        "publication": "Player's Guide 2",
+        "edition": "Black Flag Roleplaying",
+        "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "status": "Combat summary",
+        "images": [
+          {
+            "url": "",
+            "credit": "Related Camel illustration by Polar Engine · Monster Manual (2024) · Player's Guide 2"
+          },
+          {
+            "url": "",
+            "credit": "Related Camel token · Monster Manual (2014) · Player's Guide 2"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "12"
+          ],
+          [
+            "Hit points",
+            "25"
+          ],
+          [
+            "Challenge",
+            "1/2"
+          ],
+          [
+            "Size",
+            "Large"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 40 ft."
+          ],
+          [
+            "Armor class notes",
+            "Studded leather barding"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Habitats",
+            "lines": [
+              "Badlands",
+              "Desert",
+              "Hills"
+            ]
+          },
+          {
+            "title": "Appearance",
+            "lines": [
+              "A combat-trained camel in studded leather barding, usually a one-humped dromedary."
+            ]
+          },
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +5 to hit · reach 5 ft. · 2d4 + 3 bludgeoning"
+            ]
+          },
+          {
+            "title": "Trait mechanics",
+            "lines": [
+              "Desert Walk · Nonmagical sand that is difficult terrain costs the camel no extra movement.",
+              "Condition resistance · The block lists resistance to blinded, exhaustion."
+            ]
+          },
+          {
+            "title": "Bonus action mechanics",
+            "lines": [
+              "Spit (Recharge 4–6) · One creature the camel sees within 15 ft. must pass a DC 13 CON save or be blinded until the end of its next turn."
+            ]
+          },
+          {
+            "title": "Reaction mechanics",
+            "lines": [
+              "Defensive Kick · When a visible creature within 5 ft. damages the camel or its rider, that creature must pass a DC 13 STR save or be pushed up to 10 ft. away and knocked prone."
+            ]
+          },
+          {
+            "title": "Companion use mechanics",
+            "lines": [
+              "Cost and carrying capacity · 200 gp. It can carry 480 lb.",
+              "Handler commands · A designated handler can use an action and pass a DC 10 WIS (Animal Handling) check to order it to Attack, Dash, Disengage, Dodge, Help, Hide or Use an Object. On failure the animal defends itself and otherwise takes no action.",
+              "Delivering or fetching an item · Use an Object can deliver an item. It can also fetch an item from a willing creature or one on the ground or otherwise unworn and uncarried.",
+              "Training a handler · It can learn up to four handlers, with one week of training per handler. Teaching a fifth normally replaces the handler who last commanded it least recently. At the GM’s discretion, a close bond can prevent replacement and the new training fails.",
+              "Mounted combat · While used as a mount in mounted combat, it follows the controlled mount rules."
+            ]
+          },
+          {
+            "title": "Table notes",
+            "lines": [
+              "Black Flag fixed values are Perception 9 and Stealth 10. Ability modifiers are STR +3, DEX +0, CON +2, INT −4, WIS −1 and CHA −3. No languages or special senses.",
+              "The source also describes two-humped cavalry camels. It says trained camels protect dismounted riders.",
+              "The handling rule specifies an Animal Handling check, then calls its failure a failed save. Resolve failure using the check it specifies.",
+              "Source: Kobold Press, Player’s Guide 2 (2026), pp. 142–143."
+            ]
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Condition resistance · The block lists resistance to blinded, exhaustion.": [
+            {
+              "start": 0,
+              "end": 9,
+              "target": {
+                "name": "Condition",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 363,
+                "local": {
+                  "entry": "compendium-7ec713220a1ab631931f9618",
+                  "version": "XPHB:363:https://5e.tools/variantrules.html#condition_xphb"
+                }
+              }
+            },
+            {
+              "start": 53,
+              "end": 60,
+              "target": {
+                "name": "Blinded",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 290,
+                "description": "You cannot see. Your attacks have disadvantage, and attacks against you have advantage.",
+                "local": {
+                  "entry": "compendium-f2fb8e3ec2661265562faf3f",
+                  "version": "PHB:290:https://5e.tools/conditionsdiseases.html#blinded_phb"
+                }
+              }
+            },
+            {
+              "start": 62,
+              "end": 72,
+              "target": {
+                "name": "Exhaustion",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 291,
+                "description": "Accumulated fatigue imposes penalties that worsen as you gain levels of exhaustion.",
+                "local": {
+                  "entry": "compendium-90b17ab4e431f588d2571743",
+                  "version": "PHB:291:https://5e.tools/conditionsdiseases.html#exhaustion_phb"
+                }
+              }
+            }
+          ],
+          "Spit (Recharge 4–6) · One creature the camel sees within 15 ft. must pass a DC 13 CON save or be blinded until the end of its next turn.": [
+            {
+              "start": 97,
+              "end": 104,
+              "target": {
+                "name": "Blinded",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 290,
+                "description": "You cannot see. Your attacks have disadvantage, and attacks against you have advantage.",
+                "local": {
+                  "entry": "compendium-f2fb8e3ec2661265562faf3f",
+                  "version": "PHB:290:https://5e.tools/conditionsdiseases.html#blinded_phb"
+                }
+              }
+            }
+          ],
+          "Reaction mechanics": [
+            {
+              "start": 0,
+              "end": 8,
+              "target": {
+                "name": "Reaction",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-a735155b57d286690d62c026",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#reaction_xphb"
+                }
+              }
+            }
+          ],
+          "Defensive Kick · When a visible creature within 5 ft. damages the camel or its rider, that creature must pass a DC 13 STR save or be pushed up to 10 ft. away and knocked prone.": [
+            {
+              "start": 170,
+              "end": 175,
+              "target": {
+                "name": "Prone",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 292,
+                "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+                "local": {
+                  "entry": "compendium-6bb47020835c218b46b7d85a",
+                  "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+                }
+              }
+            }
+          ],
+          "Handler commands · A designated handler can use an action and pass a DC 10 WIS (Animal Handling) check to order it to Attack, Dash, Disengage, Dodge, Help, Hide or Use an Object. On failure the animal defends itself and otherwise takes no action.": [
+            {
+              "start": 80,
+              "end": 95,
+              "target": {
+                "name": "Animal Handling",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-a406aabd36e48d23cb9f5dbf",
+                  "version": "PHB:178:https://5e.tools/skills.html#animal%20handling_phb"
+                }
+              }
+            },
+            {
+              "start": 118,
+              "end": 124,
+              "target": {
+                "name": "Attack",
+                "group": "Actions",
+                "publication": "Player's Handbook (2014)",
+                "page": 192,
+                "local": {
+                  "entry": "compendium-ee4513822759ad608e923756",
+                  "version": "PHB:192:https://5e.tools/actions.html#attack_phb"
+                }
+              }
+            },
+            {
+              "start": 126,
+              "end": 130,
+              "target": {
+                "name": "Dash",
+                "group": "Actions",
+                "publication": "Player's Handbook (2014)",
+                "page": 192,
+                "local": {
+                  "entry": "compendium-24cf7abe039ab627ff434d64",
+                  "version": "PHB:192:https://5e.tools/actions.html#dash_phb"
+                }
+              }
+            },
+            {
+              "start": 132,
+              "end": 141,
+              "target": {
+                "name": "Disengage",
+                "group": "Actions",
+                "publication": "Player's Handbook (2014)",
+                "page": 192,
+                "local": {
+                  "entry": "compendium-a7046818d19c25e6d0811f89",
+                  "version": "PHB:192:https://5e.tools/actions.html#disengage_phb"
+                }
+              }
+            },
+            {
+              "start": 143,
+              "end": 148,
+              "target": {
+                "name": "Dodge",
+                "group": "Actions",
+                "publication": "Player's Handbook (2014)",
+                "page": 192,
+                "local": {
+                  "entry": "compendium-f1eb1d4cbadb856e5b91993f",
+                  "version": "PHB:192:https://5e.tools/actions.html#dodge_phb"
+                }
+              }
+            },
+            {
+              "start": 150,
+              "end": 154,
+              "target": {
+                "name": "Help",
+                "group": "Actions",
+                "publication": "Player's Handbook (2014)",
+                "page": 192,
+                "local": {
+                  "entry": "compendium-4d29670298ca744284717cf7",
+                  "version": "PHB:192:https://5e.tools/actions.html#help_phb"
+                }
+              }
+            },
+            {
+              "start": 156,
+              "end": 160,
+              "target": {
+                "name": "Hide",
+                "group": "Actions",
+                "publication": "Player's Handbook (2014)",
+                "page": 192,
+                "local": {
+                  "entry": "compendium-18c4e45695f957ea23aae147",
+                  "version": "PHB:192:https://5e.tools/actions.html#hide_phb"
+                }
+              }
+            },
+            {
+              "start": 164,
+              "end": 177,
+              "target": {
+                "name": "Use an Object",
+                "group": "Actions",
+                "publication": "Player's Handbook (2014)",
+                "page": 193,
+                "local": {
+                  "entry": "compendium-dafe9c96a2fbeaa0f0d27b45",
+                  "version": "PHB:193:https://5e.tools/actions.html#use%20an%20object_phb"
+                }
+              }
+            }
+          ],
+          "Delivering or fetching an item · Use an Object can deliver an item. It can also fetch an item from a willing creature or one on the ground or otherwise unworn and uncarried.": [
+            {
+              "start": 33,
+              "end": 46,
+              "target": {
+                "name": "Use an Object",
+                "group": "Actions",
+                "publication": "Player's Handbook (2014)",
+                "page": 193,
+                "local": {
+                  "entry": "compendium-dafe9c96a2fbeaa0f0d27b45",
+                  "version": "PHB:193:https://5e.tools/actions.html#use%20an%20object_phb"
+                }
+              }
+            }
+          ],
+          "Black Flag fixed values are Perception 9 and Stealth 10. Ability modifiers are STR +3, DEX +0, CON +2, INT −4, WIS −1 and CHA −3. No languages or special senses.": [
+            {
+              "start": 28,
+              "end": 38,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            },
+            {
+              "start": 45,
+              "end": 52,
+              "target": {
+                "name": "Stealth",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 177,
+                "local": {
+                  "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                  "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+                }
+              }
+            }
+          ],
+          "The handling rule specifies an Animal Handling check, then calls its failure a failed save. Resolve failure using the check it specifies.": [
+            {
+              "start": 31,
+              "end": 46,
+              "target": {
+                "name": "Animal Handling",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-a406aabd36e48d23cb9f5dbf",
+                  "version": "PHB:178:https://5e.tools/skills.html#animal%20handling_phb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "queries": {
+        "Badlands": true,
+        "Desert": true,
+        "Hills": true,
+        "studded leather barding": true
+      },
+      "gallery": [
+        {
+          "url": "",
+          "credit": "OpenAI ImageGen · The Lost Hope"
+        },
+        {
+          "url": "",
+          "credit": "Related Camel illustration by Polar Engine · Monster Manual (2024) · Player's Guide 2"
+        },
+        {
+          "url": "",
+          "credit": "Related Camel token · Monster Manual (2014) · Player's Guide 2"
+        }
+      ],
+      "portraitHash": "08b0422f73b2faece20ced3049920d0fcf69edf2581e4447bace1a35b1ef9840",
+      "siblings": []
+    },
+    {
+      "name": "Hound, Hunting",
+      "version": {
+        "key": "ead3d069a28db4b74aa91ccd",
+        "publication": "Player's Guide 2",
+        "edition": "Black Flag Roleplaying",
+        "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "status": "Combat summary",
+        "images": [
+          {
+            "url": "",
+            "credit": "Related Mastiff illustration · Monster Manual (2024) · Player's Guide 2"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "12"
+          ],
+          [
+            "Hit points",
+            "15"
+          ],
+          [
+            "Challenge",
+            "1/4"
+          ],
+          [
+            "Size",
+            "Small"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 40 ft."
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Habitats",
+            "lines": [
+              "Any",
+              "Urban"
+            ]
+          },
+          {
+            "title": "Appearance",
+            "lines": [
+              "A small scent hound trained to track and flush quarry."
+            ]
+          },
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +4 to hit · reach 5 ft. · 1d8 + 2 piercing"
+            ]
+          },
+          {
+            "title": "Trait mechanics",
+            "lines": [
+              "Diligent Tracker · The hound has advantage on WIS (Survival) checks to track creatures.",
+              "Heightened Hearing and Smell · Use Perception 18 when relying on hearing or smell."
+            ]
+          },
+          {
+            "title": "Action mechanics",
+            "lines": [
+              "Bite · A hit grapples a Medium or smaller target (escape DC 12). While holding it, the hound cannot bite another target."
+            ]
+          },
+          {
+            "title": "Bonus action mechanics",
+            "lines": [
+              "Flushing Bark · In a 15-ft. cone, creatures that are hiding or behind cover make a DC 12 WIS save. Those that fail immediately stop hiding or move up to 10 ft. out of cover. This forced movement avoids opportunity attacks and damaging terrain.",
+              "Swift Hunter · The hound moves up to its speed toward a hostile creature it can see."
+            ]
+          },
+          {
+            "title": "Companion use mechanics",
+            "lines": [
+              "Cost and carrying capacity · 50 gp. It can carry 210 lb.",
+              "Handler commands · A designated handler can use an action and pass a DC 10 WIS (Animal Handling) check to order it to Attack, Dash, Disengage, Dodge, Help, Hide or Use an Object. On failure the animal defends itself and otherwise takes no action.",
+              "Delivering or fetching an item · Use an Object can deliver an item. It can also fetch an item from a willing creature or one on the ground or otherwise unworn and uncarried.",
+              "Training a handler · It can learn up to four handlers, with one week of training per handler. Teaching a fifth normally replaces the handler who last commanded it least recently. At the GM’s discretion, a close bond can prevent replacement and the new training fails.",
+              "Mounted combat · While used as a mount in mounted combat, it follows the controlled mount rules."
+            ]
+          },
+          {
+            "title": "Table notes",
+            "lines": [
+              "Black Flag fixed values are Perception 13 and Stealth 12. Ability modifiers are STR +1, DEX +2, CON +1, INT −4, WIS +1 and CHA −2. No languages or special senses.",
+              "The book prints CR 1/4. The publisher’s index rounds it to 0.3.",
+              "The handling rule specifies an Animal Handling check, then calls its failure a failed save. Resolve failure using the check it specifies.",
+              "Source: Kobold Press, Player’s Guide 2 (2026), pp. 142–144."
+            ]
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Diligent Tracker · The hound has advantage on WIS (Survival) checks to track creatures.": [
+            {
+              "start": 33,
+              "end": 42,
+              "target": {
+                "name": "Advantage",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2014)",
+                "page": 173,
+                "description": "Roll two d20s and use the higher roll.",
+                "local": {
+                  "entry": "compendium-694118169b5a4aef2291ff71",
+                  "version": "PHB:173:https://5e.tools/book.html#PHB"
+                }
+              }
+            },
+            {
+              "start": 51,
+              "end": 59,
+              "target": {
+                "name": "Survival",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-487cfdbc0b0439af434c2d21",
+                  "version": "PHB:178:https://5e.tools/skills.html#survival_phb"
+                }
+              }
+            }
+          ],
+          "Heightened Hearing and Smell · Use Perception 18 when relying on hearing or smell.": [
+            {
+              "start": 35,
+              "end": 45,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            }
+          ],
+          "Action mechanics": [
+            {
+              "start": 0,
+              "end": 6,
+              "target": {
+                "name": "Action",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-a840ebb1735c18a9cb2c9c6e",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#action_xphb"
+                }
+              }
+            }
+          ],
+          "Handler commands · A designated handler can use an action and pass a DC 10 WIS (Animal Handling) check to order it to Attack, Dash, Disengage, Dodge, Help, Hide or Use an Object. On failure the animal defends itself and otherwise takes no action.": [
+            {
+              "start": 80,
+              "end": 95,
+              "target": {
+                "name": "Animal Handling",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-a406aabd36e48d23cb9f5dbf",
+                  "version": "PHB:178:https://5e.tools/skills.html#animal%20handling_phb"
+                }
+              }
+            },
+            {
+              "start": 118,
+              "end": 124,
+              "target": {
+                "name": "Attack",
+                "group": "Actions",
+                "publication": "Player's Handbook (2014)",
+                "page": 192,
+                "local": {
+                  "entry": "compendium-ee4513822759ad608e923756",
+                  "version": "PHB:192:https://5e.tools/actions.html#attack_phb"
+                }
+              }
+            },
+            {
+              "start": 126,
+              "end": 130,
+              "target": {
+                "name": "Dash",
+                "group": "Actions",
+                "publication": "Player's Handbook (2014)",
+                "page": 192,
+                "local": {
+                  "entry": "compendium-24cf7abe039ab627ff434d64",
+                  "version": "PHB:192:https://5e.tools/actions.html#dash_phb"
+                }
+              }
+            },
+            {
+              "start": 132,
+              "end": 141,
+              "target": {
+                "name": "Disengage",
+                "group": "Actions",
+                "publication": "Player's Handbook (2014)",
+                "page": 192,
+                "local": {
+                  "entry": "compendium-a7046818d19c25e6d0811f89",
+                  "version": "PHB:192:https://5e.tools/actions.html#disengage_phb"
+                }
+              }
+            },
+            {
+              "start": 143,
+              "end": 148,
+              "target": {
+                "name": "Dodge",
+                "group": "Actions",
+                "publication": "Player's Handbook (2014)",
+                "page": 192,
+                "local": {
+                  "entry": "compendium-f1eb1d4cbadb856e5b91993f",
+                  "version": "PHB:192:https://5e.tools/actions.html#dodge_phb"
+                }
+              }
+            },
+            {
+              "start": 150,
+              "end": 154,
+              "target": {
+                "name": "Help",
+                "group": "Actions",
+                "publication": "Player's Handbook (2014)",
+                "page": 192,
+                "local": {
+                  "entry": "compendium-4d29670298ca744284717cf7",
+                  "version": "PHB:192:https://5e.tools/actions.html#help_phb"
+                }
+              }
+            },
+            {
+              "start": 156,
+              "end": 160,
+              "target": {
+                "name": "Hide",
+                "group": "Actions",
+                "publication": "Player's Handbook (2014)",
+                "page": 192,
+                "local": {
+                  "entry": "compendium-18c4e45695f957ea23aae147",
+                  "version": "PHB:192:https://5e.tools/actions.html#hide_phb"
+                }
+              }
+            },
+            {
+              "start": 164,
+              "end": 177,
+              "target": {
+                "name": "Use an Object",
+                "group": "Actions",
+                "publication": "Player's Handbook (2014)",
+                "page": 193,
+                "local": {
+                  "entry": "compendium-dafe9c96a2fbeaa0f0d27b45",
+                  "version": "PHB:193:https://5e.tools/actions.html#use%20an%20object_phb"
+                }
+              }
+            }
+          ],
+          "Delivering or fetching an item · Use an Object can deliver an item. It can also fetch an item from a willing creature or one on the ground or otherwise unworn and uncarried.": [
+            {
+              "start": 33,
+              "end": 46,
+              "target": {
+                "name": "Use an Object",
+                "group": "Actions",
+                "publication": "Player's Handbook (2014)",
+                "page": 193,
+                "local": {
+                  "entry": "compendium-dafe9c96a2fbeaa0f0d27b45",
+                  "version": "PHB:193:https://5e.tools/actions.html#use%20an%20object_phb"
+                }
+              }
+            }
+          ],
+          "Black Flag fixed values are Perception 13 and Stealth 12. Ability modifiers are STR +1, DEX +2, CON +1, INT −4, WIS +1 and CHA −2. No languages or special senses.": [
+            {
+              "start": 28,
+              "end": 38,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            },
+            {
+              "start": 46,
+              "end": 53,
+              "target": {
+                "name": "Stealth",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 177,
+                "local": {
+                  "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                  "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+                }
+              }
+            }
+          ],
+          "The handling rule specifies an Animal Handling check, then calls its failure a failed save. Resolve failure using the check it specifies.": [
+            {
+              "start": 31,
+              "end": 46,
+              "target": {
+                "name": "Animal Handling",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-a406aabd36e48d23cb9f5dbf",
+                  "version": "PHB:178:https://5e.tools/skills.html#animal%20handling_phb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "queries": {
+        "Any": true,
+        "Urban": true,
+        "small scent hound": true
+      },
+      "gallery": [
+        {
+          "url": "",
+          "credit": "OpenAI ImageGen · The Lost Hope"
+        },
+        {
+          "url": "",
+          "credit": "Related Mastiff illustration · Monster Manual (2024) · Player's Guide 2"
+        }
+      ],
+      "portraitHash": "a9018e3619dde13e86b7837587da1710198c1204daec8f0829044e0b6112bd8e",
+      "siblings": []
+    },
+    {
+      "name": "Oliphant Warbeast",
+      "version": {
+        "key": "3ada03a4bd438f88402f0685",
+        "publication": "Player's Guide 2",
+        "edition": "Black Flag Roleplaying",
+        "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "status": "Combat summary",
+        "images": [
+          {
+            "url": "",
+            "credit": "Related Elephant illustration by Jonathan Kuo · Monster Manual (2024) · Player's Guide 2"
+          },
+          {
+            "url": "",
+            "credit": "Related Elephant token · Monster Manual (2014) · Player's Guide 2"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "14"
+          ],
+          [
+            "Hit points",
+            "133"
+          ],
+          [
+            "Challenge",
+            "6"
+          ],
+          [
+            "Size",
+            "Huge"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 40 ft."
+          ],
+          [
+            "Armor class notes",
+            "Natural armor"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Habitats",
+            "lines": [
+              "Arctic",
+              "Badlands",
+              "Forest",
+              "Grassland",
+              "Hills"
+            ]
+          },
+          {
+            "title": "Appearance",
+            "lines": [
+              "A gray-brown pachyderm with four curved tusks, a short trunk and broad round ears."
+            ]
+          },
+          {
+            "title": "Damage resistances",
+            "lines": [
+              "bludgeoning"
+            ]
+          },
+          {
+            "title": "Attacks",
+            "lines": [
+              "Gore · melee · +9 to hit · reach 10 ft. · 4d6 + 6 slashing",
+              "Stomp · melee · +9 to hit · reach 5 ft. · 3d10 + 6 bludgeoning"
+            ]
+          },
+          {
+            "title": "Trait mechanics",
+            "lines": [
+              "Siege Monster · It deals double damage to objects and structures.",
+              "Terrifying Siege · Destroying a Small or larger object forces every hostile creature within 10 ft. to make a DC 16 CHA save. A failed save frightens the creature until the end of its next turn.",
+              "Trampling Charge · After moving at least 20 ft. straight toward a creature and hitting it with Gore that turn, the target must pass a DC 16 STR save or fall prone. The warbeast can Stomp the target once as a bonus action if it is prone.",
+              "Condition resistance · The block lists resistance to frightened, prone."
+            ]
+          },
+          {
+            "title": "Action mechanics",
+            "lines": [
+              "Multiattack · Make one Gore and one Stomp attack or make two Gore attacks.",
+              "Stomp · It can target only a prone creature."
+            ]
+          },
+          {
+            "title": "Bonus action mechanics",
+            "lines": [
+              "Trunk Sweep · Creatures in a 15-ft. cone make a DC 16 STR save or fall prone."
+            ]
+          },
+          {
+            "title": "Companion use mechanics",
+            "lines": [
+              "Cost and carrying capacity · 2,400 gp. It can carry 1,560 lb.",
+              "Handler commands · A designated handler can use an action and pass a DC 10 WIS (Animal Handling) check to order it to Attack, Dash, Disengage, Dodge, Help, Hide or Use an Object. On failure the animal defends itself and otherwise takes no action.",
+              "Delivering or fetching an item · Use an Object can deliver an item. It can also fetch an item from a willing creature or one on the ground or otherwise unworn and uncarried.",
+              "Training a handler · It can learn up to four handlers, with one week of training per handler. Teaching a fifth normally replaces the handler who last commanded it least recently. At the GM’s discretion, a close bond can prevent replacement and the new training fails.",
+              "Mounted combat · While used as a mount in mounted combat, it follows the controlled mount rules."
+            ]
+          },
+          {
+            "title": "Table notes",
+            "lines": [
+              "Black Flag fixed values are Perception 13 and Stealth 9. Ability modifiers are STR +9, DEX −1, CON +5, INT −4, WIS +0 and CHA −2. No languages or special senses.",
+              "The book spells it Oliphaunt Warbeast. The profile uses the existing catalog name and keeps the printed attack bonuses and damage.",
+              "The handling rule specifies an Animal Handling check, then calls its failure a failed save. Resolve failure using the check it specifies.",
+              "Source: Kobold Press, Player’s Guide 2 (2026), pp. 142–144."
+            ]
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Damage resistances": [
+            {
+              "start": 0,
+              "end": 6,
+              "target": {
+                "name": "Damage",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 364,
+                "local": {
+                  "entry": "compendium-62837ed0c3d25904bcb2352e",
+                  "version": "XPHB:364:https://5e.tools/variantrules.html#damage_xphb"
+                }
+              }
+            }
+          ],
+          "Siege Monster · It deals double damage to objects and structures.": [
+            {
+              "start": 6,
+              "end": 13,
+              "target": {
+                "name": "Monster",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 371,
+                "local": {
+                  "entry": "compendium-b4209f03e638437b4a2ff334",
+                  "version": "XPHB:371:https://5e.tools/variantrules.html#monster_xphb"
+                }
+              }
+            }
+          ],
+          "Trampling Charge · After moving at least 20 ft. straight toward a creature and hitting it with Gore that turn, the target must pass a DC 16 STR save or fall prone. The warbeast can Stomp the target once as a bonus action if it is prone.": [
+            {
+              "start": 157,
+              "end": 162,
+              "target": {
+                "name": "Prone",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 292,
+                "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+                "local": {
+                  "entry": "compendium-6bb47020835c218b46b7d85a",
+                  "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+                }
+              }
+            },
+            {
+              "start": 230,
+              "end": 235,
+              "target": {
+                "name": "Prone",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 292,
+                "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+                "local": {
+                  "entry": "compendium-6bb47020835c218b46b7d85a",
+                  "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+                }
+              }
+            }
+          ],
+          "Condition resistance · The block lists resistance to frightened, prone.": [
+            {
+              "start": 0,
+              "end": 9,
+              "target": {
+                "name": "Condition",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 363,
+                "local": {
+                  "entry": "compendium-7ec713220a1ab631931f9618",
+                  "version": "XPHB:363:https://5e.tools/variantrules.html#condition_xphb"
+                }
+              }
+            },
+            {
+              "start": 53,
+              "end": 63,
+              "target": {
+                "name": "Frightened",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 290,
+                "description": "While you can see the source of your fear, your attacks and ability checks have disadvantage. You cannot willingly move closer to it.",
+                "local": {
+                  "entry": "compendium-879f347e29c83a95483201f4",
+                  "version": "PHB:290:https://5e.tools/conditionsdiseases.html#frightened_phb"
+                }
+              }
+            },
+            {
+              "start": 65,
+              "end": 70,
+              "target": {
+                "name": "Prone",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 292,
+                "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+                "local": {
+                  "entry": "compendium-6bb47020835c218b46b7d85a",
+                  "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+                }
+              }
+            }
+          ],
+          "Action mechanics": [
+            {
+              "start": 0,
+              "end": 6,
+              "target": {
+                "name": "Action",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-a840ebb1735c18a9cb2c9c6e",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#action_xphb"
+                }
+              }
+            }
+          ],
+          "Stomp · It can target only a prone creature.": [
+            {
+              "start": 29,
+              "end": 34,
+              "target": {
+                "name": "Prone",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 292,
+                "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+                "local": {
+                  "entry": "compendium-6bb47020835c218b46b7d85a",
+                  "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+                }
+              }
+            }
+          ],
+          "Trunk Sweep · Creatures in a 15-ft. cone make a DC 16 STR save or fall prone.": [
+            {
+              "start": 71,
+              "end": 76,
+              "target": {
+                "name": "Prone",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 292,
+                "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+                "local": {
+                  "entry": "compendium-6bb47020835c218b46b7d85a",
+                  "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+                }
+              }
+            }
+          ],
+          "Handler commands · A designated handler can use an action and pass a DC 10 WIS (Animal Handling) check to order it to Attack, Dash, Disengage, Dodge, Help, Hide or Use an Object. On failure the animal defends itself and otherwise takes no action.": [
+            {
+              "start": 80,
+              "end": 95,
+              "target": {
+                "name": "Animal Handling",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-a406aabd36e48d23cb9f5dbf",
+                  "version": "PHB:178:https://5e.tools/skills.html#animal%20handling_phb"
+                }
+              }
+            },
+            {
+              "start": 118,
+              "end": 124,
+              "target": {
+                "name": "Attack",
+                "group": "Actions",
+                "publication": "Player's Handbook (2014)",
+                "page": 192,
+                "local": {
+                  "entry": "compendium-ee4513822759ad608e923756",
+                  "version": "PHB:192:https://5e.tools/actions.html#attack_phb"
+                }
+              }
+            },
+            {
+              "start": 126,
+              "end": 130,
+              "target": {
+                "name": "Dash",
+                "group": "Actions",
+                "publication": "Player's Handbook (2014)",
+                "page": 192,
+                "local": {
+                  "entry": "compendium-24cf7abe039ab627ff434d64",
+                  "version": "PHB:192:https://5e.tools/actions.html#dash_phb"
+                }
+              }
+            },
+            {
+              "start": 132,
+              "end": 141,
+              "target": {
+                "name": "Disengage",
+                "group": "Actions",
+                "publication": "Player's Handbook (2014)",
+                "page": 192,
+                "local": {
+                  "entry": "compendium-a7046818d19c25e6d0811f89",
+                  "version": "PHB:192:https://5e.tools/actions.html#disengage_phb"
+                }
+              }
+            },
+            {
+              "start": 143,
+              "end": 148,
+              "target": {
+                "name": "Dodge",
+                "group": "Actions",
+                "publication": "Player's Handbook (2014)",
+                "page": 192,
+                "local": {
+                  "entry": "compendium-f1eb1d4cbadb856e5b91993f",
+                  "version": "PHB:192:https://5e.tools/actions.html#dodge_phb"
+                }
+              }
+            },
+            {
+              "start": 150,
+              "end": 154,
+              "target": {
+                "name": "Help",
+                "group": "Actions",
+                "publication": "Player's Handbook (2014)",
+                "page": 192,
+                "local": {
+                  "entry": "compendium-4d29670298ca744284717cf7",
+                  "version": "PHB:192:https://5e.tools/actions.html#help_phb"
+                }
+              }
+            },
+            {
+              "start": 156,
+              "end": 160,
+              "target": {
+                "name": "Hide",
+                "group": "Actions",
+                "publication": "Player's Handbook (2014)",
+                "page": 192,
+                "local": {
+                  "entry": "compendium-18c4e45695f957ea23aae147",
+                  "version": "PHB:192:https://5e.tools/actions.html#hide_phb"
+                }
+              }
+            },
+            {
+              "start": 164,
+              "end": 177,
+              "target": {
+                "name": "Use an Object",
+                "group": "Actions",
+                "publication": "Player's Handbook (2014)",
+                "page": 193,
+                "local": {
+                  "entry": "compendium-dafe9c96a2fbeaa0f0d27b45",
+                  "version": "PHB:193:https://5e.tools/actions.html#use%20an%20object_phb"
+                }
+              }
+            }
+          ],
+          "Delivering or fetching an item · Use an Object can deliver an item. It can also fetch an item from a willing creature or one on the ground or otherwise unworn and uncarried.": [
+            {
+              "start": 33,
+              "end": 46,
+              "target": {
+                "name": "Use an Object",
+                "group": "Actions",
+                "publication": "Player's Handbook (2014)",
+                "page": 193,
+                "local": {
+                  "entry": "compendium-dafe9c96a2fbeaa0f0d27b45",
+                  "version": "PHB:193:https://5e.tools/actions.html#use%20an%20object_phb"
+                }
+              }
+            }
+          ],
+          "Black Flag fixed values are Perception 13 and Stealth 9. Ability modifiers are STR +9, DEX −1, CON +5, INT −4, WIS +0 and CHA −2. No languages or special senses.": [
+            {
+              "start": 28,
+              "end": 38,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            },
+            {
+              "start": 46,
+              "end": 53,
+              "target": {
+                "name": "Stealth",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 177,
+                "local": {
+                  "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                  "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+                }
+              }
+            }
+          ],
+          "The handling rule specifies an Animal Handling check, then calls its failure a failed save. Resolve failure using the check it specifies.": [
+            {
+              "start": 31,
+              "end": 46,
+              "target": {
+                "name": "Animal Handling",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-a406aabd36e48d23cb9f5dbf",
+                  "version": "PHB:178:https://5e.tools/skills.html#animal%20handling_phb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "queries": {
+        "Arctic": true,
+        "Badlands": true,
+        "Forest": true,
+        "Grassland": true,
+        "Hills": true,
+        "four curved tusks": true
+      },
+      "gallery": [
+        {
+          "url": "",
+          "credit": "OpenAI ImageGen · The Lost Hope"
+        },
+        {
+          "url": "",
+          "credit": "Related Elephant illustration by Jonathan Kuo · Monster Manual (2024) · Player's Guide 2"
+        },
+        {
+          "url": "",
+          "credit": "Related Elephant token · Monster Manual (2014) · Player's Guide 2"
+        }
+      ],
+      "portraitHash": "4de27ef553a1564051de16dcef4eb598eb60856825f9be25ad572f3416449675",
+      "siblings": []
+    },
+    {
+      "name": "Pig, War",
+      "version": {
+        "key": "f84af1c5b308c3ca512861a6",
+        "publication": "Player's Guide 2",
+        "edition": "Black Flag Roleplaying",
+        "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "status": "Combat summary",
+        "images": [
+          {
+            "url": "",
+            "credit": "Related Boar illustration by Polar Engine · Monster Manual (2024) · Player's Guide 2"
+          },
+          {
+            "url": "",
+            "credit": "Related Boar token · Monster Manual (2014) · Player's Guide 2"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "10"
+          ],
+          [
+            "Hit points",
+            "27"
+          ],
+          [
+            "Challenge",
+            "1/2"
+          ],
+          [
+            "Size",
+            "Medium"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 30 ft."
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Habitats",
+            "lines": [
+              "Badlands",
+              "Forest",
+              "Grassland",
+              "Hills"
+            ]
+          },
+          {
+            "title": "Appearance",
+            "lines": [
+              "A muscular pig with coarse brown-and-gray bristles and a pair of long curved tusks."
+            ]
+          },
+          {
+            "title": "Attacks",
+            "lines": [
+              "Gore · melee · +4 to hit · reach 5 ft. · 2d4 + 2 piercing"
+            ]
+          },
+          {
+            "title": "Trait mechanics",
+            "lines": [
+              "Charge · Move at least 20 ft. straight toward the target and hit with Gore on the same turn. Add 5 (2d4) piercing damage. A creature hit this way must pass a DC 12 STR save or fall prone.",
+              "Heightened Smell · Use Perception 16 when relying on smell.",
+              "Condition resistance · The block lists resistance to grappled."
+            ]
+          },
+          {
+            "title": "Bonus action mechanics",
+            "lines": [
+              "Frightful Squeal · Every Beast and Humanoid within 10 ft. makes a DC 12 WIS save or becomes frightened until the end of its next turn."
+            ]
+          },
+          {
+            "title": "Companion use mechanics",
+            "lines": [
+              "Cost and carrying capacity · 50 gp. It can carry 210 lb.",
+              "Handler commands · A designated handler can use an action and pass a DC 10 WIS (Animal Handling) check to order it to Attack, Dash, Disengage, Dodge, Help, Hide or Use an Object. On failure the animal defends itself and otherwise takes no action.",
+              "Delivering or fetching an item · Use an Object can deliver an item. It can also fetch an item from a willing creature or one on the ground or otherwise unworn and uncarried.",
+              "Training a handler · It can learn up to four handlers, with one week of training per handler. Teaching a fifth normally replaces the handler who last commanded it least recently. At the GM’s discretion, a close bond can prevent replacement and the new training fails.",
+              "Mounted combat · While used as a mount in mounted combat, it follows the controlled mount rules."
+            ]
+          },
+          {
+            "title": "Table notes",
+            "lines": [
+              "Black Flag fixed values are Perception 11 and Stealth 10. Ability modifiers are STR +2, DEX +0, CON +2, INT −4, WIS +1 and CHA −2. No languages or special senses.",
+              "The handling rule specifies an Animal Handling check, then calls its failure a failed save. Resolve failure using the check it specifies.",
+              "Source: Kobold Press, Player’s Guide 2 (2026), pp. 142–145."
+            ]
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Charge · Move at least 20 ft. straight toward the target and hit with Gore on the same turn. Add 5 (2d4) piercing damage. A creature hit this way must pass a DC 12 STR save or fall prone.": [
+            {
+              "start": 181,
+              "end": 186,
+              "target": {
+                "name": "Prone",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 292,
+                "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+                "local": {
+                  "entry": "compendium-6bb47020835c218b46b7d85a",
+                  "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+                }
+              }
+            }
+          ],
+          "Heightened Smell · Use Perception 16 when relying on smell.": [
+            {
+              "start": 23,
+              "end": 33,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            }
+          ],
+          "Condition resistance · The block lists resistance to grappled.": [
+            {
+              "start": 0,
+              "end": 9,
+              "target": {
+                "name": "Condition",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 363,
+                "local": {
+                  "entry": "compendium-7ec713220a1ab631931f9618",
+                  "version": "XPHB:363:https://5e.tools/variantrules.html#condition_xphb"
+                }
+              }
+            },
+            {
+              "start": 53,
+              "end": 61,
+              "target": {
+                "name": "Grappled",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 290,
+                "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+                "local": {
+                  "entry": "compendium-e9c29509e4a14efaf316630f",
+                  "version": "PHB:290:https://5e.tools/conditionsdiseases.html#grappled_phb"
+                }
+              }
+            }
+          ],
+          "Frightful Squeal · Every Beast and Humanoid within 10 ft. makes a DC 12 WIS save or becomes frightened until the end of its next turn.": [
+            {
+              "start": 92,
+              "end": 102,
+              "target": {
+                "name": "Frightened",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 290,
+                "description": "While you can see the source of your fear, your attacks and ability checks have disadvantage. You cannot willingly move closer to it.",
+                "local": {
+                  "entry": "compendium-879f347e29c83a95483201f4",
+                  "version": "PHB:290:https://5e.tools/conditionsdiseases.html#frightened_phb"
+                }
+              }
+            }
+          ],
+          "Handler commands · A designated handler can use an action and pass a DC 10 WIS (Animal Handling) check to order it to Attack, Dash, Disengage, Dodge, Help, Hide or Use an Object. On failure the animal defends itself and otherwise takes no action.": [
+            {
+              "start": 80,
+              "end": 95,
+              "target": {
+                "name": "Animal Handling",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-a406aabd36e48d23cb9f5dbf",
+                  "version": "PHB:178:https://5e.tools/skills.html#animal%20handling_phb"
+                }
+              }
+            },
+            {
+              "start": 118,
+              "end": 124,
+              "target": {
+                "name": "Attack",
+                "group": "Actions",
+                "publication": "Player's Handbook (2014)",
+                "page": 192,
+                "local": {
+                  "entry": "compendium-ee4513822759ad608e923756",
+                  "version": "PHB:192:https://5e.tools/actions.html#attack_phb"
+                }
+              }
+            },
+            {
+              "start": 126,
+              "end": 130,
+              "target": {
+                "name": "Dash",
+                "group": "Actions",
+                "publication": "Player's Handbook (2014)",
+                "page": 192,
+                "local": {
+                  "entry": "compendium-24cf7abe039ab627ff434d64",
+                  "version": "PHB:192:https://5e.tools/actions.html#dash_phb"
+                }
+              }
+            },
+            {
+              "start": 132,
+              "end": 141,
+              "target": {
+                "name": "Disengage",
+                "group": "Actions",
+                "publication": "Player's Handbook (2014)",
+                "page": 192,
+                "local": {
+                  "entry": "compendium-a7046818d19c25e6d0811f89",
+                  "version": "PHB:192:https://5e.tools/actions.html#disengage_phb"
+                }
+              }
+            },
+            {
+              "start": 143,
+              "end": 148,
+              "target": {
+                "name": "Dodge",
+                "group": "Actions",
+                "publication": "Player's Handbook (2014)",
+                "page": 192,
+                "local": {
+                  "entry": "compendium-f1eb1d4cbadb856e5b91993f",
+                  "version": "PHB:192:https://5e.tools/actions.html#dodge_phb"
+                }
+              }
+            },
+            {
+              "start": 150,
+              "end": 154,
+              "target": {
+                "name": "Help",
+                "group": "Actions",
+                "publication": "Player's Handbook (2014)",
+                "page": 192,
+                "local": {
+                  "entry": "compendium-4d29670298ca744284717cf7",
+                  "version": "PHB:192:https://5e.tools/actions.html#help_phb"
+                }
+              }
+            },
+            {
+              "start": 156,
+              "end": 160,
+              "target": {
+                "name": "Hide",
+                "group": "Actions",
+                "publication": "Player's Handbook (2014)",
+                "page": 192,
+                "local": {
+                  "entry": "compendium-18c4e45695f957ea23aae147",
+                  "version": "PHB:192:https://5e.tools/actions.html#hide_phb"
+                }
+              }
+            },
+            {
+              "start": 164,
+              "end": 177,
+              "target": {
+                "name": "Use an Object",
+                "group": "Actions",
+                "publication": "Player's Handbook (2014)",
+                "page": 193,
+                "local": {
+                  "entry": "compendium-dafe9c96a2fbeaa0f0d27b45",
+                  "version": "PHB:193:https://5e.tools/actions.html#use%20an%20object_phb"
+                }
+              }
+            }
+          ],
+          "Delivering or fetching an item · Use an Object can deliver an item. It can also fetch an item from a willing creature or one on the ground or otherwise unworn and uncarried.": [
+            {
+              "start": 33,
+              "end": 46,
+              "target": {
+                "name": "Use an Object",
+                "group": "Actions",
+                "publication": "Player's Handbook (2014)",
+                "page": 193,
+                "local": {
+                  "entry": "compendium-dafe9c96a2fbeaa0f0d27b45",
+                  "version": "PHB:193:https://5e.tools/actions.html#use%20an%20object_phb"
+                }
+              }
+            }
+          ],
+          "Black Flag fixed values are Perception 11 and Stealth 10. Ability modifiers are STR +2, DEX +0, CON +2, INT −4, WIS +1 and CHA −2. No languages or special senses.": [
+            {
+              "start": 28,
+              "end": 38,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            },
+            {
+              "start": 46,
+              "end": 53,
+              "target": {
+                "name": "Stealth",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 177,
+                "local": {
+                  "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                  "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+                }
+              }
+            }
+          ],
+          "The handling rule specifies an Animal Handling check, then calls its failure a failed save. Resolve failure using the check it specifies.": [
+            {
+              "start": 31,
+              "end": 46,
+              "target": {
+                "name": "Animal Handling",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-a406aabd36e48d23cb9f5dbf",
+                  "version": "PHB:178:https://5e.tools/skills.html#animal%20handling_phb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "queries": {
+        "Badlands": true,
+        "Forest": true,
+        "Grassland": true,
+        "Hills": true,
+        "curved tusks": true
+      },
+      "gallery": [
+        {
+          "url": "",
+          "credit": "OpenAI ImageGen · The Lost Hope"
+        },
+        {
+          "url": "",
+          "credit": "Related Boar illustration by Polar Engine · Monster Manual (2024) · Player's Guide 2"
+        },
+        {
+          "url": "",
+          "credit": "Related Boar token · Monster Manual (2014) · Player's Guide 2"
+        }
+      ],
+      "portraitHash": "b407c6e5db13606af722b20e50fdff4a7a7ef1d0ccb190683c8818b0bae445a9",
+      "siblings": []
+    },
+    {
+      "name": "Pigeon, Homing",
+      "version": {
+        "key": "46b46146b25de417cff99c0c",
+        "publication": "Player's Guide 2",
+        "edition": "Black Flag Roleplaying",
+        "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "status": "Combat summary",
+        "images": [
+          {
+            "url": "",
+            "credit": "Related Rock pigeon photograph by Bramans · CC BY-SA 4.0 · Player's Guide 2"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "10"
+          ],
+          [
+            "Hit points",
+            "8"
+          ],
+          [
+            "Challenge",
+            "0"
+          ],
+          [
+            "Size",
+            "Tiny"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 10 ft., fly 50 ft."
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Habitats",
+            "lines": [
+              "Any",
+              "Urban"
+            ]
+          },
+          {
+            "title": "Appearance",
+            "lines": [
+              "A small pigeon trained to carry messages in a tube fixed to its leg."
+            ]
+          },
+          {
+            "title": "Attacks",
+            "lines": [
+              "Peck · melee · +2 to hit · reach 5 ft. · 1d4 piercing"
+            ]
+          },
+          {
+            "title": "Trait mechanics",
+            "lines": [
+              "Messenger · The pigeon knows the direction and approximate distance to up to three trained people or places on its plane. A humanoid can fasten a message tube and choose one of these destinations. The pigeon flies there directly and has resistance to exhaustion while carrying the tube.",
+              "Training · It can learn up to three humanoids or places, with a week of training for each. Teaching a fourth replaces the destination it visited least recently. It uses these destinations in place of designated handlers."
+            ]
+          },
+          {
+            "title": "Bonus action mechanics",
+            "lines": [
+              "Resolute Delivery · It takes the Disengage or Dash action. Carrying a message tube also lets it move an extra 15 ft. before or after that action."
+            ]
+          },
+          {
+            "title": "Companion use mechanics",
+            "lines": [
+              "Cost and carrying capacity · 8 gp. It can carry 15 lb."
+            ]
+          },
+          {
+            "title": "Table notes",
+            "lines": [
+              "Black Flag fixed values are Perception 11 and Stealth 10. Ability modifiers are STR −4, DEX +0, CON +0, INT −4, WIS +1 and CHA −3. No languages or special senses.",
+              "The price table lists the 50-ft. flying speed. The stat block also gives a 10-ft. walking speed.",
+              "Source: Kobold Press, Player’s Guide 2 (2026), pp. 142–143."
+            ]
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Messenger · The pigeon knows the direction and approximate distance to up to three trained people or places on its plane. A humanoid can fasten a message tube and choose one of these destinations. The pigeon flies there directly and has resistance to exhaustion while carrying the tube.": [
+            {
+              "start": 251,
+              "end": 261,
+              "target": {
+                "name": "Exhaustion",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 291,
+                "description": "Accumulated fatigue imposes penalties that worsen as you gain levels of exhaustion.",
+                "local": {
+                  "entry": "compendium-90b17ab4e431f588d2571743",
+                  "version": "PHB:291:https://5e.tools/conditionsdiseases.html#exhaustion_phb"
+                }
+              }
+            }
+          ],
+          "Resolute Delivery · It takes the Disengage or Dash action. Carrying a message tube also lets it move an extra 15 ft. before or after that action.": [
+            {
+              "start": 33,
+              "end": 42,
+              "target": {
+                "name": "Disengage",
+                "group": "Actions",
+                "publication": "Player's Handbook (2014)",
+                "page": 192,
+                "local": {
+                  "entry": "compendium-a7046818d19c25e6d0811f89",
+                  "version": "PHB:192:https://5e.tools/actions.html#disengage_phb"
+                }
+              }
+            },
+            {
+              "start": 46,
+              "end": 50,
+              "target": {
+                "name": "Dash",
+                "group": "Actions",
+                "publication": "Player's Handbook (2014)",
+                "page": 192,
+                "local": {
+                  "entry": "compendium-24cf7abe039ab627ff434d64",
+                  "version": "PHB:192:https://5e.tools/actions.html#dash_phb"
+                }
+              }
+            }
+          ],
+          "Black Flag fixed values are Perception 11 and Stealth 10. Ability modifiers are STR −4, DEX +0, CON +0, INT −4, WIS +1 and CHA −3. No languages or special senses.": [
+            {
+              "start": 28,
+              "end": 38,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            },
+            {
+              "start": 46,
+              "end": 53,
+              "target": {
+                "name": "Stealth",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 177,
+                "local": {
+                  "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                  "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "queries": {
+        "Any": true,
+        "Urban": true,
+        "tube fixed to its leg": true
+      },
+      "gallery": [
+        {
+          "url": "",
+          "credit": "OpenAI ImageGen · The Lost Hope"
+        },
+        {
+          "url": "",
+          "credit": "Related Rock pigeon photograph by Bramans · CC BY-SA 4.0 · Player's Guide 2"
+        }
+      ],
+      "portraitHash": "6b2f5ce7ab490794c9a5b413f35e96dc3d62a464c3d49226e879f97e9cf87278",
+      "siblings": []
+    }
+  ],
+  "other": [
+    {
+      "id": "beast-68cdd43848e4e20436bb4f62",
+      "name": "Cavalry Camel",
+      "kind": "beast",
+      "group": "Beast",
+      "groups": [
+        "Beast"
+      ],
+      "images": [
+        {
+          "url": "",
+          "credit": "OpenAI ImageGen · The Lost Hope"
+        },
+        {
+          "url": "",
+          "credit": "Related Camel illustration by Polar Engine · Monster Manual (2024) · Monster Vault 2"
+        },
+        {
+          "url": "",
+          "credit": "Related Camel token · Monster Manual (2014) · Monster Vault 2"
+        }
+      ],
+      "versions": [
+        {
+          "key": "cbd156eebe2ef6d14085793a",
+          "publication": "Monster Vault 2",
+          "edition": "Black Flag Roleplaying",
+          "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+          "images": [
+            {
+              "url": "",
+              "credit": "Related Camel illustration by Polar Engine · Monster Manual (2024) · Monster Vault 2"
+            },
+            {
+              "url": "",
+              "credit": "Related Camel token · Monster Manual (2014) · Monster Vault 2"
+            }
+          ],
+          "stats": [
+            [
+              "Challenge",
+              "0.5"
+            ],
+            [
+              "Type",
+              "Beast"
+            ]
+          ],
+          "sections": []
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "image": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    {
+      "id": "beast-ba7f874470750071505ee3a3",
+      "name": "Oliphaunt Warbeast",
+      "kind": "beast",
+      "group": "Beast",
+      "groups": [
+        "Beast"
+      ],
+      "images": [
+        {
+          "url": "",
+          "credit": "OpenAI ImageGen · The Lost Hope"
+        },
+        {
+          "url": "",
+          "credit": "Related Elephant illustration by Jonathan Kuo · Monster Manual (2024) · Monster Vault 2"
+        },
+        {
+          "url": "",
+          "credit": "Related Elephant token · Monster Manual (2014) · Monster Vault 2"
+        }
+      ],
+      "versions": [
+        {
+          "key": "f58cbf238c88bfdd986a395e",
+          "publication": "Monster Vault 2",
+          "edition": "Black Flag Roleplaying",
+          "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+          "images": [
+            {
+              "url": "",
+              "credit": "Related Elephant illustration by Jonathan Kuo · Monster Manual (2024) · Monster Vault 2"
+            },
+            {
+              "url": "",
+              "credit": "Related Elephant token · Monster Manual (2014) · Monster Vault 2"
+            }
+          ],
+          "stats": [
+            [
+              "Challenge",
+              "6.0"
+            ],
+            [
+              "Type",
+              "Beast"
+            ]
+          ],
+          "sections": []
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "image": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    {
+      "id": "beast-824225a12d3c8e6f8e9c72f5",
+      "name": "War Pig",
+      "kind": "beast",
+      "group": "Beast",
+      "groups": [
+        "Beast"
+      ],
+      "images": [
+        {
+          "url": "",
+          "credit": "OpenAI ImageGen · The Lost Hope"
+        },
+        {
+          "url": "",
+          "credit": "Related Boar illustration by Polar Engine · Monster Manual (2024) · Monster Vault 2"
+        },
+        {
+          "url": "",
+          "credit": "Related Boar token · Monster Manual (2014) · Monster Vault 2"
+        }
+      ],
+      "versions": [
+        {
+          "key": "097e4ef7b31814f91929431e",
+          "publication": "Monster Vault 2",
+          "edition": "Black Flag Roleplaying",
+          "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+          "images": [
+            {
+              "url": "",
+              "credit": "Related Boar illustration by Polar Engine · Monster Manual (2024) · Monster Vault 2"
+            },
+            {
+              "url": "",
+              "credit": "Related Boar token · Monster Manual (2014) · Monster Vault 2"
+            }
+          ],
+          "stats": [
+            [
+              "Challenge",
+              "0.5"
+            ],
+            [
+              "Type",
+              "Beast"
+            ]
+          ],
+          "sections": []
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "image": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    }
+  ]
+}

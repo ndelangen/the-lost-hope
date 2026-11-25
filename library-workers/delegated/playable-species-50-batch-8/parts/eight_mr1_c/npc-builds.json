@@ -1,0 +1,273 @@
+{
+  "builds": [
+    {
+      "id": "mr-gate-scribe",
+      "title": "Gate Scribe, Helmed Horror Fighter 1",
+      "difficulty": "Tier 1 class-built NPC. No assigned CR.",
+      "size": "Medium",
+      "type": "Construct",
+      "ac": 20,
+      "hp": 12,
+      "hitDice": "1d10+2",
+      "initiative": 1,
+      "speed": "30 ft. fly. No walking speed used.",
+      "abilityScores": {
+        "STR": 15,
+        "DEX": 12,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 13,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +4",
+        "Insight +3",
+        "Intimidation +1",
+        "Perception +3"
+      ],
+      "senses": "Blindsight 60 ft. Blind beyond it. Passive Perception 13.",
+      "languages": "Common understood, read, and written. Cannot speak.",
+      "traits": [
+        "Proficiency +2. Saves Strength +4, Constitution +4. Dueling adds +2 damage to its one-handed longsword. Living armor 18 plus ordinary shield 2. Treat as Medium and use flight for movement. It falls if a rule removes its ability to fly.",
+        "Immune to blinded, deafened, paralyzed, petrified, and poisoned, and to poison damage. It cannot speak or provide verbal spell components. Construct recovery is covered by the species profile."
+      ],
+      "actions": [
+        "Longsword. Melee +4 to hit, reach 5 ft., one target. Hit 1d8 + 4 slashing.",
+        "Second Wind. Bonus action. Regain 1d10 + 1 HP. Once per short or long rest."
+      ],
+      "tactics": "Gate Scribe indicates the painted boundary by pointing its sword. It flies across the entry if someone crosses without permission and holds the closest lane with its shield.",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ]
+    },
+    {
+      "id": "mr-flint-quill",
+      "title": "Flint Quill, Hippogriff Fighter 2",
+      "difficulty": "Tier 1 class-built NPC. No assigned CR.",
+      "size": "Medium",
+      "type": "Monstrosity",
+      "ac": 14,
+      "hp": 20,
+      "hitDice": "2d10+4",
+      "initiative": 2,
+      "speed": "40 ft. walk, 40 ft. fly",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 10,
+        "CHA": 8
+      },
+      "skills": [
+        "Animal Handling +2",
+        "Athletics +5",
+        "Perception +2",
+        "Survival +2"
+      ],
+      "senses": "Darkvision 60 ft. Passive Perception 12, or 17 by sight.",
+      "languages": "Common.",
+      "traits": [
+        "Proficiency +2. Saves Strength +5, Constitution +4. Defense style adds +1 AC while wearing fitted leather barding. Barding used here gives 11 + Dexterity modifier and counts as light armor.",
+        "Advantage on sight-based Wisdom (Perception). Cannot use weapons, shields, tools, or a held focus. His Fighter class and leather barding leave his flight available."
+      ],
+      "actions": [
+        "Beak or Claws. Unarmed melee +5 to hit, reach 5 ft., one target. Hit 1d8 + 3 slashing.",
+        "Action Surge. Take one additional action on this turn. Once per short or long rest.",
+        "Second Wind. Bonus action. Regain 1d10 + 2 HP. Once per short or long rest."
+      ],
+      "tactics": "Flint Quill surveys from above, lands to take a close look, and can use Action Surge to disengage or dash after attacking.",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ]
+    },
+    {
+      "id": "mr-mothpin",
+      "title": "Mothpin, Homunculus Rogue 1",
+      "difficulty": "Tier 1 class-built NPC. No assigned CR.",
+      "size": "Small",
+      "type": "Construct",
+      "ac": 14,
+      "hp": 10,
+      "hitDice": "1d8+2",
+      "initiative": 3,
+      "speed": "25 ft. walk, 30 ft. fly",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 13,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Insight +3",
+        "Investigation +5",
+        "Perception +3",
+        "Sleight of Hand +5",
+        "Stealth +7"
+      ],
+      "senses": "Darkvision 60 ft. Passive Perception 13.",
+      "languages": "Understands, reads, and writes Common and creator’s Draconic. No spoken languages.",
+      "traits": [
+        "Proficiency +2. Saves Dexterity +5, Intelligence +3. Expertise in Investigation and Stealth. Leather gives AC 14, equal to natural AC. The printed Small size permits a shortbow.",
+        "Immune to charmed and poisoned and to poison damage. Mothpin shares a magical bond with living spellcaster Ilven Rune and can speak with Ilven telepathically on the same plane. Mothpin dies if Ilven dies. Construct recovery is covered by the species profile."
+      ],
+      "actions": [
+        "Shortbow. Ranged +5 to hit, range 80/320 ft., one target. Hit 1d6 + 3 piercing.",
+        "Sneak Attack. Once per turn add 1d6 when the shortbow hits with advantage, or when another enemy of the target is within 5 ft. of it and is not incapacitated and Mothpin has no disadvantage."
+      ],
+      "tactics": "Mothpin writes brief warnings on a roof tile, or flies to a dark perch and uses the shortbow if an ally is already holding the intruder's attention.",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ]
+    },
+    {
+      "id": "mr-bracken-hook",
+      "title": "Bracken Hook, Hook Horror Barbarian 2",
+      "difficulty": "Tier 1 class-built NPC. No assigned CR.",
+      "size": "Medium",
+      "type": "Monstrosity",
+      "ac": 15,
+      "hp": 25,
+      "hitDice": "2d12+6",
+      "initiative": 2,
+      "speed": "30 ft. walk, 30 ft. climb",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 16,
+        "INT": 8,
+        "WIS": 10,
+        "CHA": 8
+      },
+      "skills": [
+        "Animal Handling +2",
+        "Athletics +5",
+        "Perception +2",
+        "Survival +2"
+      ],
+      "senses": "Darkvision 10 ft. Echolocation blindsight 30 ft. while able to hear. Passive Perception 12, or 17 by hearing.",
+      "languages": "Hook Horror.",
+      "traits": [
+        "Proficiency +2. Saves Strength +5, Constitution +5. Unarmored Defense and natural armor each give AC 15. Cannot wield weapons or shields or use hand-operated gear.",
+        "Advantage on hearing-based Wisdom (Perception). Danger Sense gives advantage on Dexterity saves against visible effects while able to see, hear, and act.",
+        "Reckless Attack. On its first attack that turn, it can gain advantage on all Strength-based melee attacks for the turn. Attack rolls against it have advantage until its next turn."
+      ],
+      "actions": [
+        "Hook. Unarmed melee +5 to hit, reach 5 ft., one target. Hit 1d8 + 3 slashing, or 1d8 + 5 while raging.",
+        "Rage. Bonus action, twice per long rest. Up to one minute with advantage on Strength checks and saves and resistance to bludgeoning, piercing, and slashing. Ends early if unconscious or a turn ends without attacking a hostile creature or taking damage since the previous turn."
+      ],
+      "tactics": "Bracken listens from a ledge and climbs down to drive intruders away from the clan crossing. It uses Reckless Attack only when an intruder is already within reach.",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ]
+    },
+    {
+      "id": "mr-splitreed",
+      "title": "Splitreed, Hydra Barbarian 2",
+      "difficulty": "Tier 1 class-built NPC. No assigned CR.",
+      "size": "Medium",
+      "type": "Monstrosity",
+      "ac": 14,
+      "hp": 25,
+      "hitDice": "2d12+6",
+      "initiative": 1,
+      "speed": "30 ft. walk, 30 ft. swim",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 12,
+        "CON": 16,
+        "INT": 8,
+        "WIS": 13,
+        "CHA": 8
+      },
+      "skills": [
+        "Animal Handling +3",
+        "Athletics +5",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "senses": "Darkvision 10 ft. Passive Perception 13, or 18 with both heads awake.",
+      "languages": "Common.",
+      "traits": [
+        "Proficiency +2. Saves Strength +5, Constitution +5. Unarmored Defense gives 10 + Dexterity 1 + Constitution 3. Starts with two awake heads and two Hit Dice in reserve.",
+        "Reckless Attack. On its first attack that turn, it can gain advantage on Strength-based melee attacks for the turn. Attacks against it have advantage until its next turn. Danger Sense grants advantage on Dexterity saves against visible effects when able to see, hear, and act.",
+        "Loses a head when one source deals 16 or more actual damage. With two or more heads awake, advantage on Wisdom (Perception) and on saves against blindness, charm, deafness, fear, stun, or unconsciousness. One head stays awake while sleeping.",
+        "No heads means incapacitated except for the regrowth action. If no Hit Die is left, Splitreed falls to 0 HP and begins dying. Healing in that state restores one head. Healing with a Hit Die during a rest can restore one head up to the normal count of two."
+      ],
+      "actions": [
+        "Bite. Unarmed melee +5 to hit, reach 5 ft., one target. Hit 1d8 + 3 piercing, or 1d8 + 5 while raging. The number of heads does not increase the number of attacks.",
+        "Rage. Bonus action, twice per long rest. Up to one minute with advantage on Strength checks and saves and resistance to bludgeoning, piercing, and slashing. Ends early if unconscious or a turn ends without attacking a hostile creature or taking damage since the previous turn.",
+        "Regrow. On the turn after losing a head, spend one Hit Die as a bonus action to grow two heads and gain 1d12 + 3 temporary HP. When those temporary HP are lost or expire, the extra head falls off."
+      ],
+      "tactics": "Splitreed comes ashore to ask for news of the ferry, then wades back into the reeds if threatened. Choose rage or regrowth when both compete for the same bonus action.",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ]
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Helmed Horror",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Gate Scribe",
+      "size": "Medium",
+      "build": "mr-gate-scribe",
+      "role": "Gate keeper",
+      "motive": "Find the mason who can restore the names worn off the gate.",
+      "hook": "The empty suit taps the stone where the builder once signed her name and offers to lift the gate if someone can read it."
+    },
+    {
+      "species": "Hippogriff",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Flint Quill",
+      "size": "Medium",
+      "build": "mr-flint-quill",
+      "role": "Ridge scout",
+      "motive": "Learn what drove the ridge birds from their nests.",
+      "hook": "Flint Quill has been counting empty nests. The only fresh tracks lead under a stone arch he cannot safely fly beneath."
+    },
+    {
+      "species": "Homunculus",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Mothpin",
+      "size": "Small",
+      "build": "mr-mothpin",
+      "role": "Roof messenger",
+      "motive": "Return the last undelivered letter to its author.",
+      "hook": "A clay scout lands on the windowsill and holds up a letter addressed to someone the party saw enter the inn that morning."
+    },
+    {
+      "species": "Hook Horror",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Bracken Hook",
+      "size": "Medium",
+      "build": "mr-bracken-hook",
+      "role": "Cavern crossing guard",
+      "motive": "Recover the pebbles stolen from the clan’s way markers.",
+      "hook": "Bracken’s clan clicks along the cavern walls to mark safe crossings. One missing marker routes travelers into a flooded shaft."
+    },
+    {
+      "species": "Hydra",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Splitreed",
+      "size": "Medium",
+      "build": "mr-splitreed",
+      "role": "Reed-channel guide",
+      "motive": "Learn why the ferry stopped coming after dusk.",
+      "hook": "Splitreed’s two heads agree about the missing ferry. They argue over which bank its lantern last lit."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Sharakim",
+    "species": "species-5f1a01e8275c1c24ebe4eed5",
+    "edition": "3.5 edition",
+    "profiles": [
+      "Races of Destiny (2004)"
+    ],
+    "portraitSha256": "d148d4468225bdc5152441bb26ed2044acfccbf8dc8129675931e6be7dd19210",
+    "caption": "Maren Eldermere · Original Sharakim NPC",
+    "npcReceipts": [
+      {
+        "name": "Maren Eldermere",
+        "id": "npc-bcf50a2eef927dbb17309499",
+        "challenge": "Provisional CR 2. ECL 2."
+      },
+      {
+        "name": "Oswin Fenlock",
+        "id": "npc-b638baeead68e656471c266f",
+        "challenge": "Provisional CR 2. ECL 2."
+      }
+    ]
+  }
+]

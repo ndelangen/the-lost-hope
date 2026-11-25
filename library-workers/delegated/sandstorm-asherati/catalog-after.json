@@ -1,0 +1,118 @@
+[
+  {
+    "name": "Asherati",
+    "kind": "species",
+    "group": "3.5 edition",
+    "groups": [
+      "3.5 edition"
+    ],
+    "global": true,
+    "version": {
+      "key": "eba4c0f44099ef9203b6ed4b",
+      "publication": "Sandstorm (2005)",
+      "edition": "3.5 edition",
+      "source": "https://search.worldcat.org/title/58722791",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Humanoid"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Medium Humanoid with no racial ability score adjustments. Land speed 30 ft., natural armor +1, LA +0.",
+            "Natural Dryness (Ex) reduces daily drinking water needs to one-quarter the usual amount for a humanoid of its size.",
+            "Sandswim (Su) works in sand, dust, ash, and softsand. Slipsand, packed dirt, and rock are excluded. Under sand it allows normal breathing. It gives no protection from water or dangerous gases.",
+            "The player entry gives land speed in light armor or with a light load. Heavier armor or a medium load limits it to 5 ft. A heavy load prevents movement.",
+            "Body Lamp (Su) glows at will, with bright light to 60 ft. and shadowy illumination to 120 ft. In loose soil the Asherati can make out solid objects to 60 ft. for navigation and general identification. Other creatures in the sand see an orange glow. The glow confers no finer perception or advantage against invisibility or concealment. The Asherati cannot Hide while glowing.",
+            "Body Lamp flash takes a free action once per day. It can dazzle all creatures within 30 ft. for 1 minute. Fortitude negates at DC 10 + half character level + Charisma modifier.",
+            "Bonus feat Heat Endurance gives +2 on saves against fire effects and heat protection level 1, with no heat saves needed through 120°F.",
+            "Weapon Familiarity treats the eagle’s claw as a martial weapon. Move Silently and Hide each get +2 racial. Sandy terrain adds another +2 racial to Hide.",
+            "Water Vulnerability. Completely wet causes −1 on attack rolls, ability checks, and skill checks. Immersion prevents breath-holding and immediately triggers Constitution checks against drowning.",
+            "Asherati and Common are automatic. Bonus languages are Bhuka, Goblin, and Giant. Favored class Rogue."
+          ]
+        },
+        {
+          "title": "Original NPC · Rashen Dustline",
+          "lines": [
+            "Sandlock scout and Rogue.",
+            "Motive. Find the jammed release without letting sand fill the room.",
+            "Hook. Rashen can reach the release frame from outside the sandlock.",
+            "Asherati sandlock scout, Rogue 1 · Provisional CR 1. ECL 1 (1 class HD, LA +0). · Medium Humanoid",
+            "AC 16 · HP 8 (1d6+2) · Speed 30 ft., sandswim 30 ft. in leather armor with a light load"
+          ]
+        },
+        {
+          "title": "Original NPC · Neral Glassbank",
+          "lines": [
+            "Cistern guard and Fighter.",
+            "Motive. Keep the dry exit open while the overflow is stopped.",
+            "Hook. Neral can reach the landing from the sand beside the cistern wall.",
+            "Asherati cistern guard, Fighter 1 · Provisional CR 1. ECL 1 (1 class HD, LA +0). · Medium Humanoid",
+            "AC 17 · HP 12 (1d10+2) · Speed 20 ft. in breastplate, sandswim 5 ft. in breastplate"
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Rashen Dustline": [
+          {
+            "start": 15,
+            "end": 30,
+            "target": {
+              "name": "Rashen Dustline",
+              "group": "Asherati",
+              "publication": "Asherati sandlock scout, Rogue 1",
+              "local": {
+                "entry": "npc-7bbe0faea15e398fbf747421",
+                "version": "af2c56ec53a7d027c9d38f0a"
+              }
+            }
+          }
+        ],
+        "Original NPC · Neral Glassbank": [
+          {
+            "start": 15,
+            "end": 30,
+            "target": {
+              "name": "Neral Glassbank",
+              "group": "Asherati",
+              "publication": "Asherati cistern guard, Fighter 1",
+              "local": {
+                "entry": "npc-36f891fa759273bd97f6f089",
+                "version": "da5dc3230e419f1491dc69a3"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Asherati": true,
+      "asherati sandswim": true,
+      "asherati body lamp": true,
+      "asherati sandlock scout": true,
+      "asherati cistern guard": true
+    },
+    "hash": "5ebaf854f813f5aba6e4256d888d1d755895ec5291944700c8900f022a3a1cff",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Sandstorm (2005)",
+    "defaultVersionKey": "eba4c0f44099ef9203b6ed4b",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  }
+]

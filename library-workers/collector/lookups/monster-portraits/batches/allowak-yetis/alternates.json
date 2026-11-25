@@ -1,0 +1,90 @@
+[
+  {
+    "entityKind": "monster",
+    "name": "Abominable Yeti (Allowak variant)",
+    "publication": "Explorer's Guide to Wildemount",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/allowak-abominable-yeti/egw-1.webp",
+    "artist": "Wildemount source token",
+    "kind": "token",
+    "sha256": "8771ee829f4dafcebc0c56323ea28b1e0d6f1af7ed2b4a7f5f76199c066214d8",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/EGW/Allowak%20Abominable%20Yeti.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Allowak Abominable Yeti",
+    "publication": "Explorer's Guide to Wildemount",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/allowak-abominable-yeti/egw-1.webp",
+    "artist": "Explorer's Guide to Wildemount",
+    "kind": "token",
+    "sha256": "8771ee829f4dafcebc0c56323ea28b1e0d6f1af7ed2b4a7f5f76199c066214d8",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/EGW/Allowak%20Abominable%20Yeti.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Abominable Yeti (Allowak variant)",
+    "publication": "Explorer's Guide to Wildemount",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/abominable-yeti/xmm-1.webp",
+    "artist": "Related Abominable Yeti art by Vance Kovacs · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "0036c077684b5b6e348cb915fab3ecd157fd92bb4b77daad1a41484591abafc0",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Abominable%20Yeti.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Allowak Abominable Yeti",
+    "publication": "Explorer's Guide to Wildemount",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/abominable-yeti/xmm-1.webp",
+    "artist": "Related Abominable Yeti art by Vance Kovacs · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "0036c077684b5b6e348cb915fab3ecd157fd92bb4b77daad1a41484591abafc0",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Abominable%20Yeti.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Yeti (Allowak variant)",
+    "publication": "Explorer's Guide to Wildemount",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/allowak-abominable-yeti/egw-1.webp",
+    "artist": "Wildemount source token",
+    "kind": "token",
+    "sha256": "8771ee829f4dafcebc0c56323ea28b1e0d6f1af7ed2b4a7f5f76199c066214d8",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/EGW/Allowak%20Yeti.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Allowak Yeti",
+    "publication": "Explorer's Guide to Wildemount",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/allowak-abominable-yeti/egw-1.webp",
+    "artist": "Explorer's Guide to Wildemount",
+    "kind": "token",
+    "sha256": "8771ee829f4dafcebc0c56323ea28b1e0d6f1af7ed2b4a7f5f76199c066214d8",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/EGW/Allowak%20Yeti.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Yeti (Allowak variant)",
+    "publication": "Explorer's Guide to Wildemount",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/yeti/xmm-1.webp",
+    "artist": "Related Yeti art by Richard Luong · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "935c505722e4dbeab07b62c9ff332e987a477402285ad772b2c025c1628a0f38",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Yeti.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Allowak Yeti",
+    "publication": "Explorer's Guide to Wildemount",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/yeti/xmm-1.webp",
+    "artist": "Related Yeti art by Richard Luong · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "935c505722e4dbeab07b62c9ff332e987a477402285ad772b2c025c1628a0f38",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Yeti.webp"
+  }
+]

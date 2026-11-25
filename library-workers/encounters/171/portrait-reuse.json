@@ -1,0 +1,78 @@
+{
+  "The Hungry": {
+    "sha256": "e8c5ae28cc59e6dd9cdaa58c424ba32abfca081d82842aee88a37eac360b5082",
+    "source": "Hungry Sorrowsworn"
+  },
+  "The Lonely": {
+    "sha256": "388a9d47e4253c015debf1d93da7c208d1923619d75484283f58cb4cce7f7ed0",
+    "source": "Lonely Sorrowsworn"
+  },
+  "The Lost": {
+    "sha256": "169b6a975279660ca9d4245285bead4fe77307d4f322f43d4ce53905e42256c1",
+    "source": "Lost Sorrowsworn"
+  },
+  "The Wretched": {
+    "sha256": "d015acc482250791c5da76f89865af512edc1995152bc5da3ff43e2d35345f09",
+    "source": "Wretched Sorrowsworn"
+  },
+  "Titivilus": {
+    "sha256": "3d270b32d932a6de969eb51ea1184e817d4a586c440cf4f5346c1d34281c8ee7",
+    "source": "Titivilus"
+  },
+  "Tortle": {
+    "sha256": "db0215b380a23414d9ec31014a8c2367e24e872f796ee47372973e3ced065440",
+    "source": "Tortle"
+  },
+  "Tortle Druid": {
+    "sha256": "d293a081de9b48cab54093b28e50c5503853d12220c3e301097ad509c58720e9",
+    "source": "Tortle Druid"
+  },
+  "Vampiric Mist": {
+    "sha256": "cdfab549599c0414558f6e708c220b2e836bb85df7b90f0466bf02226824b9aa",
+    "source": "Vampiric Mist"
+  },
+  "Venom Troll": {
+    "sha256": "173b736654ebda64845bda52c3e761b5faaeadeb9be813a7191be05497b2f83d",
+    "source": "Venom Troll"
+  },
+  "Wastrilith": {
+    "sha256": "574a41ba975df0dee6d5ee0a0e8cdbd7e39107df95c039fadcc28f651e543453",
+    "source": "Wastrilith"
+  },
+  "Water Elemental Myrmidon": {
+    "sha256": "b46ab810c0eab101915526315354715c7fe6270e1871b582cda21b059407dbe1",
+    "source": "Water Elemental Myrmidon"
+  },
+  "White Abishai": {
+    "sha256": "562b56a6aaaecdc041ceb2907da9f425f1c07e76c7c5551c6ee543fad3b34e25",
+    "source": "White Abishai"
+  },
+  "Winter Eladrin": {
+    "sha256": "9dbcbe425e591b72b331e70b509e02aa805383f7e0f7ba2e431a44fb2d6e2318",
+    "source": "Winter Eladrin"
+  },
+  "Yagnoloth": {
+    "sha256": "3b60265b76dc60dbb9884de620ab95b26faa75abb12ba78a5ac356e776eabcaa",
+    "source": "Yagnoloth"
+  },
+  "Yeenoghu": {
+    "sha256": "c4efa3b2dade06211a581692df1746d787f9b80866cd9f839a4e486243ade655",
+    "source": "Yeenoghu"
+  },
+  "Young Kruthik": {
+    "sha256": "f12a0e45cb2608b80b0ce639164852a0416ff082244fed26a098fffd19be3bf9",
+    "source": "Young Kruthik"
+  },
+  "Zaratan": {
+    "sha256": "dd121dc7f24f0377cf6cb8bc8952572327e52f34f281e1c6b4499d1572afc8de",
+    "source": "Zaratan"
+  },
+  "Zariel": {
+    "sha256": "3a2451fd44c3103a5f84e91e2aba33d9562b1b5dbec8f4eca0a60dd2a58d1a22",
+    "source": "Zariel"
+  },
+  "Zuggtmoy": {
+    "sha256": "9a3ade22e3c0a0cc22e6660454a8f652265e8af2aea10835409d5eea8bcba5bf",
+    "source": "Zuggtmoy"
+  }
+}

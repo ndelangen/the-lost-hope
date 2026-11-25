@@ -13,4 +13,5 @@ export default createEvent({
       ' that none of them could identify.',
     ],
   ],
+  illustrations: ['/assets/scenes/the-party-spots-an-unidentified-floating-island.png'],
 })

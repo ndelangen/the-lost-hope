@@ -1,0 +1,93 @@
+[
+  {
+    "name": "Beholder (Variant Abilities)",
+    "reference": "images/monsters/beholder/mm-1.webp",
+    "subjectPrompt": "A round levitating burgundy aberration with one dominant blue-violet central eye and jagged fanged maw. Exactly ten slender curled stalks, each with a clearly separate eye tip, five on the left and five on the right of the composition. A single upper-right eyestalk casts a short forked amber lightning arc curling into empty space. The lightning is a visual nod to the chain lightning alternative to its Disintegration Ray. Full silhouette, no arms, legs or body other than the levitating sphere.",
+    "appearanceSource": "https://www.dndbeyond.com/compendium/cyclopedia/vgtm/beholders",
+    "input": ""
+  },
+  {
+    "name": "Mind Flayer Lich (Illithilich)",
+    "reference": "images/monsters/mind-flayer/mm-1.webp",
+    "subjectPrompt": "Undead illithid wizard with elongated bald octopoid skull, gray-green mummified skin stretched on a gaunt face, four distinct withered tendrils sprouting around the mouth, hollow luminous lilac eyes, tall ragged weathered umber and charcoal ceremonial robes, one bony hand clutching a little obsidian phylactery. Full-length original pose. Use the second reference for standard illithid silhouette only and make this figure unmistakably ancient and undead.",
+    "appearanceSource": "https://www.dndbeyond.com/monsters/17283-mind-flayer-lich-illithilich",
+    "input": ""
+  },
+  {
+    "name": "Yuan-ti Anathema (Acid Slime)",
+    "reference": "images/monsters/yuan-ti-anathema/vgm-1.webp",
+    "subjectPrompt": "Huge snake-bodied monster with a single robust serpentine trunk, two clawed arms and exactly six separate narrow cobra heads which visibly fan out from its shared upper torso. Mottled umber and orange scales, golden ochre belly, no robes. Clinging translucent yellow-green acid mucus strands dripping from the underside and hands, with a small acidic pooled smear below; readable six-headed silhouette.",
+    "appearanceSource": "https://5e.tools/bestiary.html#yuan-ti%20anathema%20(acid%20slime)_vgm",
+    "input": ""
+  },
+  {
+    "name": "Yuan-ti Anathema (Chameleon Skin)",
+    "reference": "images/monsters/yuan-ti-anathema/vgm-1.webp",
+    "subjectPrompt": "Huge snake-bodied monster with a single robust serpentine trunk, two clawed arms and exactly six separate narrow cobra heads which visibly fan out from its shared upper torso. Mottled umber and orange scales, golden ochre belly, no robes. Visible irregular bands of warm pale ochre and mottled tan camouflage across one flank merging into the parchment, with the opposite flank still in its natural color. Keep both sides identifiable and preserve the crisp silhouette.",
+    "appearanceSource": "https://5e.tools/bestiary.html#yuan-ti%20anathema%20(chameleon%20skin)_vgm",
+    "input": ""
+  },
+  {
+    "name": "Yuan-ti Anathema (Shed Skin)",
+    "reference": "images/monsters/yuan-ti-anathema/vgm-1.webp",
+    "subjectPrompt": "Huge snake-bodied monster with a single robust serpentine trunk, two clawed arms and exactly six separate narrow cobra heads which visibly fan out from its shared upper torso. Mottled umber and orange scales, golden ochre belly, no robes. Show the distinctly living figure pulling a thin, collapsed, translucent cast-off skin free, trailing it across the floor like crinkled amber tissue. Place the lifeless husk beside its feet like tissue paper, with no separate standing or active creature. Keep the intact creature and the process of shedding clear.",
+    "appearanceSource": "https://5e.tools/bestiary.html#yuan-ti%20anathema%20(shed%20skin)_vgm",
+    "input": ""
+  },
+  {
+    "name": "Yuan-ti Broodguard (Chameleon Skin)",
+    "reference": "images/monsters/yuan-ti-broodguard/vgm-1.webp",
+    "subjectPrompt": "Lean, forward-hunched troglodytic snake humanoid, snout and long forked tongue, blunt cranial crest, long clawed arms, two splayed reptilian feet and a short trailing tail as in the reference, rusty-red throat and olive armored scales. Visible irregular bands of warm pale ochre and mottled tan camouflage across one flank merging into the parchment, with the opposite flank still in its natural color. Keep both sides identifiable and preserve the crisp silhouette.",
+    "appearanceSource": "https://5e.tools/bestiary.html#yuan-ti%20broodguard%20(chameleon%20skin)_vgm",
+    "input": ""
+  },
+  {
+    "name": "Yuan-ti Broodguard (Shed Skin)",
+    "reference": "images/monsters/yuan-ti-broodguard/vgm-1.webp",
+    "subjectPrompt": "Lean, forward-hunched troglodytic snake humanoid, snout and long forked tongue, blunt cranial crest, long clawed arms, two splayed reptilian feet and a short trailing tail as in the reference, rusty-red throat and olive armored scales. Show the distinctly living figure pulling a thin, collapsed, translucent cast-off skin free, trailing it across the floor like crinkled amber tissue. Place the lifeless husk beside its feet like tissue paper, with no separate standing or active creature. Keep the intact creature and the process of shedding clear.",
+    "appearanceSource": "https://5e.tools/bestiary.html#yuan-ti%20broodguard%20(shed%20skin)_vgm",
+    "input": ""
+  },
+  {
+    "name": "Yuan-ti Mind Whisperer (Chameleon Skin)",
+    "reference": "images/monsters/yuan-ti-mind-whisperer/vgm-1.webp",
+    "subjectPrompt": "Slender upright two-legged blue-grey scaled humanoid, with a distinctly angular snake head and smooth narrow shoulders, subtle muted indigo tones and a tiny dim violet trace of psionic magic. Anatomically close to the sober bareheaded blue-gray figure shown in source. Visible irregular bands of warm pale ochre and mottled tan camouflage across one flank merging into the parchment, with the opposite flank still in its natural color. Keep both sides identifiable and preserve the crisp silhouette.",
+    "appearanceSource": "https://5e.tools/bestiary.html#yuan-ti%20mind%20whisperer%20(chameleon%20skin)_vgm",
+    "input": ""
+  },
+  {
+    "name": "Yuan-ti Mind Whisperer (Shed Skin)",
+    "reference": "images/monsters/yuan-ti-mind-whisperer/vgm-1.webp",
+    "subjectPrompt": "Slender upright two-legged blue-grey scaled humanoid, with a distinctly angular snake head and smooth narrow shoulders, subtle muted indigo tones and a tiny dim violet trace of psionic magic. Anatomically close to the sober bareheaded blue-gray figure shown in source. Show the distinctly living figure pulling a thin, collapsed, translucent cast-off skin free, trailing it across the floor like crinkled amber tissue. Place the lifeless husk beside its feet like tissue paper, with no separate standing or active creature. Keep the intact creature and the process of shedding clear.",
+    "appearanceSource": "https://5e.tools/bestiary.html#yuan-ti%20mind%20whisperer%20(shed%20skin)_vgm",
+    "input": ""
+  },
+  {
+    "name": "Yuan-ti Nightmare Speaker (Chameleon Skin)",
+    "reference": "images/monsters/yuan-ti-nightmare-speaker/vgm-1.webp",
+    "subjectPrompt": "Serpent-bodied warlock with wide coiling dark-green snake tail below humanoid upper body, warm copper skin and restrained dark tribal gold, emerald-plumed serpent headdress and a sinister raised hand, as in source. Visible irregular bands of warm pale ochre and mottled tan camouflage across one flank merging into the parchment, with the opposite flank still in its natural color. Keep both sides identifiable and preserve the crisp silhouette.",
+    "appearanceSource": "https://5e.tools/bestiary.html#yuan-ti%20nightmare%20speaker%20(chameleon%20skin)_vgm",
+    "input": ""
+  },
+  {
+    "name": "Yuan-ti Nightmare Speaker (Shed Skin)",
+    "reference": "images/monsters/yuan-ti-nightmare-speaker/vgm-1.webp",
+    "subjectPrompt": "Serpent-bodied warlock with wide coiling dark-green snake tail below humanoid upper body, warm copper skin and restrained dark tribal gold, emerald-plumed serpent headdress and a sinister raised hand, as in source. Show the distinctly living figure pulling a thin, collapsed, translucent cast-off skin free, trailing it across the floor like crinkled amber tissue. Place the lifeless husk beside its feet like tissue paper, with no separate standing or active creature. Keep the intact creature and the process of shedding clear.",
+    "appearanceSource": "https://5e.tools/bestiary.html#yuan-ti%20nightmare%20speaker%20(shed%20skin)_vgm",
+    "input": ""
+  },
+  {
+    "name": "Yuan-ti Pit Master (Chameleon Skin)",
+    "reference": "images/monsters/yuan-ti-pit-master/vgm-1.webp",
+    "subjectPrompt": "Upright lanky two-legged humanoid with hanging chestnut serpentine coils extending from the hair and the outer arm, broad shoulders, tall tapered head, bare arms and chest, jade stole and red loincloth, a ritual serpent warlock. Visible irregular bands of warm pale ochre and mottled tan camouflage across one flank merging into the parchment, with the opposite flank still in its natural color. Keep both sides identifiable and preserve the crisp silhouette.",
+    "appearanceSource": "https://5e.tools/bestiary.html#yuan-ti%20pit%20master%20(chameleon%20skin)_vgm",
+    "input": ""
+  },
+  {
+    "name": "Yuan-ti Pit Master (Shed Skin)",
+    "reference": "images/monsters/yuan-ti-pit-master/vgm-1.webp",
+    "subjectPrompt": "Upright lanky two-legged humanoid with hanging chestnut serpentine coils extending from the hair and the outer arm, broad shoulders, tall tapered head, bare arms and chest, jade stole and red loincloth, a ritual serpent warlock. Show the distinctly living figure pulling a thin, collapsed, translucent cast-off skin free, trailing it across the floor like crinkled amber tissue. Place the lifeless husk beside its feet like tissue paper, with no separate standing or active creature. Keep the intact creature and the process of shedding clear.",
+    "appearanceSource": "https://5e.tools/bestiary.html#yuan-ti%20pit%20master%20(shed%20skin)_vgm",
+    "input": ""
+  }
+]

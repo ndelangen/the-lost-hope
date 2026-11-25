@@ -1,0 +1,136 @@
+[
+  {
+    "name": "Intellect Devourer",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Aberration",
+    "url": "",
+    "printedPages": [
+      124
+    ],
+    "page": "v2 p. 124, Intellect Devourer Traits",
+    "provenance": "Player conversion by Tyler Kamstra for the 2014 fifth-edition rules, published through Dungeon Masters Guild. This profile follows the v2 text.",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "adventuringRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/adventuring",
+    "npcExamples": [
+      "Quill"
+    ],
+    "sourceDistinctions": [
+      "The base language line says Undercommon, while Body Thief names Deep Speech. Quill learns Deep Speech separately through Sage. The profile keeps both source statements.",
+      "Body Thief does not give a procedure for ejection, recovery, or the body afterward. Resolve those before applying the feature. Read the reduction trigger before damage because the feature explicitly replaces it on a win.",
+      "Blindsight supplies local perception for the sight-dependent attack. Quill equips no hand-dependent gear. It wears fitted leather with assistance."
+    ]
+  },
+  {
+    "name": "Invisible Stalker",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Elemental",
+    "url": "",
+    "printedPages": [
+      125,
+      126
+    ],
+    "page": "v2 pp. 125–126, Invisible Stalker Traits",
+    "provenance": "Player conversion by Tyler Kamstra for the 2014 fifth-edition rules, published through Dungeon Masters Guild. This profile follows the v2 text.",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "adventuringRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/adventuring",
+    "npcExamples": [
+      "Sift"
+    ],
+    "sourceDistinctions": [
+      "The playable conversion grants timed Hidden Step instead of persistent monster invisibility.",
+      "Printed v2 p. 8 applies the death-at-zero consequence. Class rage and damage use 2014 rules. The portrait shows a dust-revealed outline rather than a solid person."
+    ]
+  },
+  {
+    "name": "Jackalwere",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Humanoid (shapechanger)",
+    "url": "",
+    "printedPages": [
+      127
+    ],
+    "page": "v2 p. 127, Jackalwere Traits",
+    "provenance": "Player conversion by Tyler Kamstra for the 2014 fifth-edition rules, published through Dungeon Masters Guild. This profile follows the v2 text.",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "adventuringRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/adventuring",
+    "npcExamples": [
+      "Fen-Copper"
+    ],
+    "sourceDistinctions": [
+      "The portrait shows the hybrid with leather and a shortbow. The jacket and gear stay behind or require refitting if Fen uses the Small form. The 1d4 piercing unarmed strike has no finesse exception."
+    ]
+  },
+  {
+    "name": "Kraken",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Monstrosity",
+    "url": "",
+    "printedPages": [
+      130
+    ],
+    "page": "v2 p. 130, Kraken Traits",
+    "provenance": "Player conversion by Tyler Kamstra for the 2014 fifth-edition rules, published through Dungeon Masters Guild. This profile follows the v2 text.",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "adventuringRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/adventuring",
+    "npcExamples": [
+      "Brinewake"
+    ],
+    "sourceDistinctions": [
+      "Amphibious and Ink Cloud appear in the design discussion and never enter the v2 trait list. The build uses ordinary breath-holding. Use this independent Medium persona and keep existing campaign and encounter krakens separate."
+    ]
+  },
+  {
+    "name": "Manticore",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Monstrosity",
+    "url": "",
+    "printedPages": [
+      141
+    ],
+    "page": "v2 p. 141, Manticore Traits",
+    "provenance": "Player conversion by Tyler Kamstra for the 2014 fifth-edition rules, published through Dungeon Masters Guild. This profile follows the v2 text.",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "adventuringRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/adventuring",
+    "npcExamples": [
+      "Cinder-Sill"
+    ],
+    "sourceDistinctions": [
+      "The player block gives 30-ft. flight whereas the design note mentions 40 ft. The build uses 30 ft. Tail Spikes specify a ranged weapon attack and its damage die but leave proficiency and modifier unstated. The encounter uses proficiency and Dexterity."
+    ]
+  }
+]

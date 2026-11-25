@@ -1,0 +1,35 @@
+{
+  "commit": "5045a9c",
+  "batch": 106,
+  "verification": {
+    "testsPassed": 903,
+    "productionBuild": true,
+    "browser": [
+      {
+        "name": "Wildren",
+        "species": "species-4cf9da8bee5468b0a9ae5f93",
+        "edition": "3.5 edition",
+        "profiles": [
+          "Planar Handbook (2004)"
+        ],
+        "portraitSha256": "91cf3337fbfcc4934589b58bc6e9b4c91506b99b33cab14b1b97f2cbee5d9097",
+        "caption": "Rusk Ashbank · Original Wildren NPC",
+        "npcReceipts": [
+          {
+            "name": "Rusk Ashbank",
+            "id": "npc-982c87afa8b56c5d0f058f7a",
+            "challenge": "Provisional CR 2. ECL 2 (1 class HD, LA +1)."
+          },
+          {
+            "name": "Dara Cutbank",
+            "id": "npc-488cf690b235aeacf754f6ed",
+            "challenge": "Provisional CR 2. ECL 2 (1 class HD, LA +1)."
+          }
+        ]
+      }
+    ],
+    "bariaurDefaultPreserved": true,
+    "bariaurWandererMatchesBaseline": true,
+    "r2AndBothLocalBackups": true
+  }
+}

@@ -19,4 +19,5 @@ export default createEvent({
       ' all advanced to level 5.',
     ],
   ],
+  illustrations: ['/assets/scenes/the-party-reaches-level-five.png'],
 })

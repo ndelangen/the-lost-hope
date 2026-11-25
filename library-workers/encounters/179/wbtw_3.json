@@ -1,0 +1,566 @@
+[
+  {
+    "name": "Glasswork Golem",
+    "statBlock": {
+      "name": "Glasswork Golem",
+      "publication": "The Wild Beyond the Witchlight",
+      "edition": "2014 fifth edition",
+      "printedPage": 193,
+      "classification": "Medium construct, unaligned",
+      "ac": 13,
+      "hp": 36,
+      "hitDice": "8d8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 1
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 1
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 10,
+      "description": "An animated knight of stained glass that can step out of its window frame, sword in hand.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 2,
+        "Con": 2,
+        "Wis": 2
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Blindsight 60 ft. The golem is blind beyond that distance.",
+        "Damage immunities": "Poison, psychic.",
+        "Condition immunities": "Blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned.",
+        "Traits": "False Appearance. The golem has advantage on initiative if it starts combat motionless inside a window. A creature that has never seen it move or act needs a successful DC 18 Intelligence (Investigation) check to tell that it is animate.\nImmutable Form. Spells and effects cannot change the golem’s form.\nRegeneration. The golem heals 10 hit points at the start of its turn. If it takes bludgeoning or thunder damage, it skips that healing at the start of its next turn. It is destroyed only if it starts its turn at 0 hit points and does not regenerate.\nUnusual Nature. The golem needs no air, food, drink, or sleep.",
+        "Actions": "Multiattack. Make two Glass Sword attacks.\nGlass Sword. Melee weapon attack, +3 to hit, 5-ft. reach, one target. A hit deals 5 (1d8 + 1) slashing damage.",
+        "Bonus actions": "Dazzling Light (recharge 5–6). Magical colored light fills a 15-ft. cone. Creatures in it must pass a DC 10 Constitution save or be blinded for 1 minute. Each affected creature repeats the save at the end of each of its turns, ending the effect on a success.",
+        "Palace encounter": "While seated on the throne in P31, Kelek can use a bonus action to speak the coven’s rhyme. Four stained-glass knights leave the windows in the marked turrets and defend him as glasswork golems. Survivors return to their windows after 10 minutes.",
+        "Printed source": "The Wild Beyond the Witchlight, chapter 5, pp. 192–193. Stat block on p. 193."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Kelek",
+          "printing": {
+            "publication": "The Wild Beyond the Witchlight",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#kelek_wbtw"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Gloam",
+    "statBlock": {
+      "name": "Gloam",
+      "publication": "The Wild Beyond the Witchlight",
+      "edition": "2014 fifth edition",
+      "printedPage": 93,
+      "classification": "Tiny undead, unaligned",
+      "ac": 12,
+      "hp": 2,
+      "hitDice": "1d4",
+      "speed": "40 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 3
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "0",
+      "xp": 10,
+      "passivePerception": 13,
+      "description": "Bavlorna’s stuffed cat comes to life when someone opens her potion cabinet. It once belonged to Endelyn and is hostile to everyone except Bavlorna.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 3,
+        "Stealth": 4
+      },
+      "sections": {
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Exhaustion, poisoned.",
+        "Traits": "Keen Smell. Gloam has advantage on Wisdom (Perception) checks that use smell.",
+        "Actions": "Claws. Melee weapon attack, +0 to hit, 5-ft. reach, one target. A hit deals 1 slashing damage.\nCloud of Dust (encounter trigger). On Gloam’s first turn in combat or when it drops to 0 hit points, it releases a cloud that works like Dust of Sneezing and Choking. Gloam and creatures within 30 ft. that need to breathe make a DC 15 Constitution save. A creature that fails is incapacitated and suffocating. While conscious, it can repeat the save at the end of each of its turns. A success or Lesser Restoration ends the effect. Under the 2014 suffocation rule, a choking creature lasts a number of rounds equal to its Constitution modifier, with a minimum of one round. It then starts its next turn dying at 0 hit points and cannot heal or stabilize while it still cannot breathe.",
+        "Printed source": "The Wild Beyond the Witchlight, chapter 2, p. 93, area B10. Apply the printed changes to the 2014 Cat stat block. Cloud effects follow the 2014 Dust of Sneezing and Choking item."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "beast",
+          "name": "Cat",
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#cat_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Bavlorna Blightstraw",
+          "printing": {
+            "publication": "The Wild Beyond the Witchlight",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#bavlorna%20blightstraw_wbtw"
+          },
+          "terms": [
+            "Bavlorna",
+            "Bavlorna Blightstraw"
+          ]
+        },
+        {
+          "kind": "monster",
+          "name": "Endelyn Moongrave",
+          "printing": {
+            "publication": "The Wild Beyond the Witchlight",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#endelyn%20moongrave_wbtw"
+          },
+          "terms": [
+            "Endelyn",
+            "Endelyn Moongrave"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "name": "Harengon Brigand",
+    "statBlock": {
+      "name": "Harengon Brigand",
+      "publication": "The Wild Beyond the Witchlight",
+      "edition": "2014 fifth edition",
+      "printedPage": 235,
+      "classification": "Medium humanoid, any alignment",
+      "ac": 14,
+      "hp": 9,
+      "hitDice": "2d8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "1/8",
+      "xp": 25,
+      "passivePerception": 14,
+      "description": "A rabbitfolk extortionist who waits along Feywild roads and trails with a small band.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 5
+      },
+      "skills": {
+        "Acrobatics": 5,
+        "Perception": 4
+      },
+      "sections": {
+        "Armor": "Leather armor.",
+        "Languages": "Common, Sylvan.",
+        "Traits": "Pack Tactics. The brigand has advantage on an attack roll if an ally that is not incapacitated is within 5 ft. of the target.\nStanding Leap. The brigand jumps up to 20 ft. horizontally or 10 ft. vertically, even from a standstill.",
+        "Actions": "Club. Melee weapon attack, +4 to hit, 5-ft. reach, one target. A hit deals 4 (1d4 + 2) bludgeoning damage.\nSling. Ranged weapon attack, +5 to hit, range 30/120 ft., one target. A hit deals 5 (1d4 + 3) bludgeoning damage.",
+        "Encounter context": "Brigands demand tolls for safe passage and are quick to flee if outnumbered or beaten. At Agdon Longscarf’s camp, 1d4 brigands and 1d4 Harengon Snipers are present at any given time.",
+        "Printed source": "The Wild Beyond the Witchlight, appendix C, p. 235. See chapter 2 for Agdon’s encampment."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Agdon Longscarf",
+          "printing": {
+            "publication": "The Wild Beyond the Witchlight",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#agdon%20longscarf_wbtw"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Harengon Sniper",
+          "printing": {
+            "publication": "The Wild Beyond the Witchlight",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#harengon%20sniper_wbtw"
+          },
+          "terms": [
+            "Harengon Sniper",
+            "Harengon Snipers"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "name": "Harengon Sniper",
+    "statBlock": {
+      "name": "Harengon Sniper",
+      "publication": "The Wild Beyond the Witchlight",
+      "edition": "2014 fifth edition",
+      "printedPage": 235,
+      "classification": "Medium humanoid, any alignment",
+      "ac": 14,
+      "hp": 9,
+      "hitDice": "2d8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 15,
+      "description": "A rabbitfolk marksman who covers a brigand gang from a bluff, a high branch, or concealed ground.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 5
+      },
+      "skills": {
+        "Athletics": 2,
+        "Perception": 5,
+        "Stealth": 5
+      },
+      "sections": {
+        "Armor": "Leather armor.",
+        "Languages": "Common, Sylvan.",
+        "Traits": "Standing Leap. The sniper jumps up to 20 ft. horizontally or 10 ft. vertically, even from a standstill.",
+        "Actions": "Club. Melee weapon attack, +2 to hit, 5-ft. reach, one target. A hit deals 2 (1d4) bludgeoning damage.\nLight Crossbow. Ranged weapon attack, +5 to hit, range 320 ft., one target. Ignore cover short of total cover and the usual long-range penalty. A hit deals 7 (1d8 + 3) piercing damage. Immediately after the attack, hit or miss, the sniper can take the Hide action.",
+        "Encounter context": "Snipers position themselves above trails or behind shelter to cover Harengon Brigands, then Hide as soon as they fire.",
+        "Printed source": "The Wild Beyond the Witchlight, appendix C, p. 235."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Harengon Brigand",
+          "printing": {
+            "publication": "The Wild Beyond the Witchlight",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#harengon%20brigand_wbtw"
+          },
+          "terms": [
+            "Harengon Brigand",
+            "Harengon Brigands"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "name": "Iggwilv the Witch Queen",
+    "statBlock": {
+      "name": "Iggwilv the Witch Queen",
+      "publication": "The Wild Beyond the Witchlight",
+      "edition": "2014 fifth edition",
+      "printedPage": 205,
+      "classification": "Medium fey (wizard), chaotic neutral",
+      "ac": 19,
+      "hp": 255,
+      "hitDice": "30d8 + 120",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 27
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 23
+        }
+      },
+      "cr": "20",
+      "xp": 25000,
+      "passivePerception": 11,
+      "description": "Prismeer knows the witch Natasha as Zybilna, the archfey who rules from the Palace of Heart’s Desire.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Int": 14,
+        "Wis": 7,
+        "Cha": 12
+      },
+      "skills": {
+        "Arcana": 20,
+        "History": 14,
+        "Nature": 14
+      },
+      "sections": {
+        "Armor": "Robe of the Archmagi.",
+        "Senses": "Truesight 60 ft.",
+        "Languages": "Abyssal, Celestial, Common, Draconic, Elvish, Infernal, Sylvan.",
+        "Condition immunities": "Charmed, frightened.",
+        "Traits": "Boon of Immortality. Magic and other effects cannot age Iggwilv, and old age cannot kill her.\nLegendary Resistance (3/day). When Iggwilv fails a save, she can choose to pass it.\nMagic Resistance. Her Robe of the Archmagi gives her advantage on saves against spells and other magical effects.\nSpecial Equipment. Iggwilv wears an Amulet of the Planes and a Robe of the Archmagi.",
+        "Actions": "Multiattack. Make two Bewitching Bolt attacks.\nBewitching Bolt. Melee or ranged spell attack, +16 to hit, 5-ft. reach or 120-ft. range, one target. A hit deals 25 (5d6 + 8) lightning damage. If the target is a creature, it must pass a DC 22 Wisdom save or be charmed by Iggwilv until her next turn starts.\nAbyssal Rift (recharge 5–6). Open a momentary rift with a 20-ft. radius at a point within 120 ft. Creatures in the sphere make a DC 22 Constitution save, taking 40 (9d8) necrotic damage on a failure or half on a success. Afterward, there is a 50% chance that three Hezrous appear in unoccupied spaces in the sphere. The demons are her allies and act immediately after her. They cannot summon other demons. They remain until they die or she uses an action to dismiss them.",
+        "Spellcasting": "As an action, cast one listed spell using Intelligence without material components. Spell save DC 24, spell attacks +16.\nAt will. Detect Magic, Disguise Self, Invisibility, Light, Mage Hand, Message, Prestidigitation, Tasha’s Hideous Laughter.\n3/day each. Dispel Magic, Fly, Polymorph.\n1/day each. Maze, Telekinesis, Teleport, Wish.",
+        "Bonus actions": "Fey Step. Iggwilv teleports to an unoccupied space she can see within 30 ft., taking anything she wears or carries.",
+        "Reactions": "Negate Spell (2/day). When Iggwilv sees a creature within 60 ft. casting a spell, she can interrupt it. A spell using a slot of level 8 or lower fails automatically. A 9th-level spell fails if its caster fails a DC 22 Intelligence save.",
+        "Legendary actions": "Iggwilv has three legendary actions and refreshes them when her turn starts. Spend them on one option at the end of another creature’s turn.\nWitchcraft (1 action). Use Spellcasting or Fey Step.\nDark Speech (2 actions). Choose one or two creatures Iggwilv can see within 60 ft. Each makes a DC 22 Wisdom save. On a failure, it takes 11 (2d10) psychic damage and is frightened of her for 1 minute. An affected creature repeats the save at the end of each of its turns. A success ends the effect and grants immunity to her Dark Speech for 24 hours.\nFey Beguilement (3 actions). Choose a creature Iggwilv can see within 60 ft. It must pass a DC 22 Charisma save or a fey spirit possesses it and makes it obey her commands. It repeats the save at the end of each of its turns. A success banishes the spirit and ends the possession.",
+        "Palace encounter": "The Hourglass Coven used Iggwilv’s Cauldron to freeze her and others in the palace. A frozen creature and its gear cannot be harmed or moved. As an action, touch Iggwilv with a unicorn horn while saying Natasha, her true name, to release her alone. Thaw the whole palace by touching the cauldron with the horn while reciting the Witch Queen’s Cauldron poem, or by shattering the cauldron with a Flame Tongue or Frost Brand weapon. Legend Lore can reveal the poem. Once freed, she can use the horn and poem to thaw the palace.",
+        "Printed source": "The Wild Beyond the Witchlight, chapter 5, pp. 173–174, ballroom P22, and pp. 204–206. Stat block on p. 205."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Hezrou",
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#hezrou_mm"
+          },
+          "terms": [
+            "Hezrou",
+            "Hezrous"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "name": "Jabberwock",
+    "statBlock": {
+      "name": "Jabberwock",
+      "publication": "The Wild Beyond the Witchlight",
+      "edition": "2014 fifth edition",
+      "printedPage": 236,
+      "classification": "Huge dragon, typically chaotic evil",
+      "ac": 18,
+      "hp": 115,
+      "hitDice": "10d12 + 50",
+      "speed": "30 ft., climb 30 ft., fly 60 ft., swim 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 4
+        },
+        "Wis": {
+          "score": 7
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "13",
+      "xp": 10000,
+      "passivePerception": 18,
+      "description": "A lone dragonlike hunter that stalks old forests and ruins. It can run upright or on all fours and fires beams from its eyes.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Str": 10,
+        "Dex": 6,
+        "Con": 10,
+        "Int": 2,
+        "Wis": 3,
+        "Cha": 5
+      },
+      "skills": {
+        "Perception": 8
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Truesight 120 ft.",
+        "Damage vulnerabilities": "Slashing damage from a Vorpal Sword.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Charmed, frightened, poisoned.",
+        "Traits": "Confusing Burble. The jabberwock burbles while it is not incapacitated. A creature that starts its turn within 30 ft. and can hear it must make a DC 18 Charisma save. On a failure, it has no reactions until its next turn starts, and rolls 1d4 for its current turn. On 1–2, it does nothing. On 3, it only spends all its movement in a random direction. On 4, it makes one melee attack against a random visible creature in reach, or does nothing if none is in reach.\nLegendary Resistance (3/day). When the jabberwock fails a save, it can choose to pass it.\nRegeneration. The jabberwock heals 10 hit points when its turn starts. Any slashing damage shuts off the healing at the start of its next turn. It dies only if it starts a turn at 0 hit points and does not regenerate.\nUncanny Tracker. It can track creatures it wounded within the last 24 hours and knows the direction and distance to its quarry as long as they share a plane.",
+        "Actions": "Multiattack. Make two Rend attacks.\nRend. Melee weapon attack, +10 to hit, 10-ft. reach, one target. A hit deals 21 (3d10 + 5) slashing damage.\nTail. Melee weapon attack, +10 to hit, 15-ft. reach, one target. A hit deals 10 (1d10 + 5) bludgeoning damage.\nFiery Gaze (recharge 5–6). The jabberwock projects fire from its eyes in a line 120 ft. long and 5 ft. wide. Creatures in the line make a DC 18 Dexterity save, taking 31 (7d8) fire damage on a failure or half on a success. The jabberwock cannot use this action while blinded.",
+        "Legendary actions": "The jabberwock refreshes its three legendary actions when its turn starts. Use one option at the end of another creature’s turn.\nTail Attack (1 action). Make one Tail attack.\nRend Attack (2 actions). Make one Rend attack.\nWing Attack (3 actions). Each creature within 10 ft. makes a DC 18 Dexterity save. On a failure, it takes 8 (1d6 + 5) bludgeoning damage and falls prone.",
+        "Hunting and return": "The jabberwock attacks its chosen prey until it kills it, the prey escapes, or the jabberwock dies. After one dies, another appears in 3d8 years within 1,000 miles of the place it died.",
+        "Palace encounter": "The jabberwock sleeps around Iggwilv’s Cauldron in P22. Loud noise, an attack against it, or disturbing the cauldron wakes it. It follows prey or music out of the palace. If the great owl Bloodybeak does not attack it as soon as it leaves, it hunts for 1d6 + 2 hours before returning. Food may distract it long enough to slip away. It is friendly to Iggwilv the Witch Queen and hostile to others. Snicker-Snock, the Vorpal Sword in P50, exploits its damage vulnerability.",
+        "Printed source": "The Wild Beyond the Witchlight, appendix C, p. 236. See chapter 5, ballroom P22, Beware the Jabberwock, and vault P50 for the palace encounter."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Iggwilv the Witch Queen",
+          "printing": {
+            "publication": "The Wild Beyond the Witchlight",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#iggwilv%20the%20witch%20queen_wbtw"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Jingle Jangle",
+    "statBlock": {
+      "name": "Jingle Jangle",
+      "publication": "The Wild Beyond the Witchlight",
+      "edition": "2014 fifth edition",
+      "printedPage": 70,
+      "classification": "Small humanoid (goblinoid), chaotic good",
+      "ac": 15,
+      "hp": 7,
+      "hitDice": "2d6",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 8
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 8
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 9,
+      "description": "A friendly key collector who wears her finds on a jingling coat and fights with a flail made of padlocks.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Stealth": 6
+      },
+      "sections": {
+        "Armor": "Leather armor, shield.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Goblin.",
+        "Traits": "Nimble Escape. On each of her turns, she can take Disengage or Hide as a bonus action.",
+        "Actions": "Flail of Locks. Melee weapon attack, +5 to hit, 5-ft. reach, one target. A hit deals 7 (3d4) bludgeoning damage.",
+        "Encounter context": "Jingle Jangle lives on Telemy Hill and always refers to herself in the third person. Bavlorna’s bargain traded her fear of being trapped by a locked door for a compulsion to collect keys. Harengon Brigands recently roughed her up and stole her truffles. She willingly gives visitors the silver key to Sir Talavar’s cage.",
+        "Printed source": "The Wild Beyond the Witchlight, chapter 2, pp. 70–71. Use the 2014 Goblin with the stated alignment and Flail of Locks replacing both weapon attacks."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Goblin",
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#goblin_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Bavlorna Blightstraw",
+          "printing": {
+            "publication": "The Wild Beyond the Witchlight",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#bavlorna%20blightstraw_wbtw"
+          },
+          "terms": [
+            "Bavlorna",
+            "Bavlorna Blightstraw"
+          ]
+        },
+        {
+          "kind": "monster",
+          "name": "Sir Talavar",
+          "printing": {
+            "publication": "The Wild Beyond the Witchlight",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#sir%20talavar_wbtw"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Harengon Brigand",
+          "printing": {
+            "publication": "The Wild Beyond the Witchlight",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#harengon%20brigand_wbtw"
+          },
+          "terms": [
+            "Harengon Brigand",
+            "Harengon Brigands"
+          ]
+        }
+      ]
+    }
+  }
+]

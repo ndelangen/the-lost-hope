@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Cranium Rat",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Monstrous Races 2",
+    "traits": [
+      "Player conversion by Tyler Kamstra for 2014 fifth edition, published through Dungeon Masters Guild in Monstrous Races 2.",
+      "Tiny Beast with speed 30 ft., Dexterity +2, and darkvision 30 ft. Smell-based Perception checks have advantage. Cranium rats usually favor neutrality.",
+      "The bite uses the trait's 1 piercing base damage. It can use Dexterity for attack and damage and qualifies as a finesse weapon for effects including Sneak Attack.",
+      "No hands. Weapons, shields, and objects that require manipulation are unusable. The supplement quarters normal carrying capacity.",
+      "Telepathic Shroud grants immunity to emotional detection, thought reading, and divination spells. Telepathy reaches a creature within 30 ft. that knows a language. A cranium rat can speak, read, and write Common."
+    ]
+  },
+  {
+    "name": "Darkling",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Monstrous Races 2",
+    "traits": [
+      "Player conversion by Tyler Kamstra for 2014 fifth edition, published through Dungeon Masters Guild in Monstrous Races 2.",
+      "Small Fey with speed 30 ft., Dexterity +1, blindsight 30 ft., and darkvision 120 ft. Bright light imposes disadvantage on attacks and sight-based Perception. Darklings generally favor chaotic neutrality. They speak, read, and write Elvish and Sylvan.",
+      "Death Flash triggers at 0 HP. Every creature within 10 ft. that can see the flash makes a Constitution save, DC 8 + proficiency + Constitution modifier. Failure blinds it until the end of its next turn.",
+      "While dying at 0 HP, the darkling sheds bright light out to 10 ft. and dim light a further 10 ft. This stops on stabilization or regained HP. At death the corpse and its gear burn to ash, with metal and magical gear surviving.",
+      "Darkling Elder is a racial feat, available to a Darkling of at least level 5 and Wisdom 12. It changes size to Medium and removes Light Sensitivity. A failed Death Flash save also deals 2d6 damage, increasing to 3d6 at level 11 and 4d6 at level 17. The feat calls the trait Death Burst and leaves the damage type unspecified."
+    ]
+  },
+  {
+    "name": "Devourer",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Monstrous Races 2",
+    "traits": [
+      "Player conversion by Tyler Kamstra for 2014 fifth edition, published through Dungeon Masters Guild in Monstrous Races 2.",
+      "Medium Fiend of the Devourer kind, distinct from Intellect Devourer. Strength and Constitution each rise by 1, speed is 30 ft., darkvision reaches 60 ft., and natural AC is 13 + Dexterity while unarmored. The claw is a 1d8 slashing unarmed strike. Devourers usually favor chaotic evil and speak, read, and write Abyssal.",
+      "Imprison Soul takes an action and targets one living, intelligent creature at 0 HP within 30 ft. It teleports into the visible rib cage and shrinks if required. A stabilized captive starts dying again and makes death saves with disadvantage. The cage holds one captive, which gains three-quarters cover.",
+      "To touch the captive, overcome the devourer's AC plus that cover bonus. The devourer can resist a spell targeting the captive by attempting its save against the casting DC. If the spell supplies no save, a successful Charisma save against the casting DC negates it.",
+      "If the devourer drops to 0 HP or the captive regains HP, release the captive into a random adjacent open space. The devourer may also release it there voluntarily as a bonus action.",
+      "When a captive dies inside the cage, the devourer must release the body as a bonus action at the start of its turn. It may spend one Hit Die to recover HP or send a pulse to every living, intelligent creature in 30 ft. The pulse deals 1d6 necrotic, half on a successful Con save against DC 8 + proficiency + Charisma modifier. Damage rises to 2d6 at level 5, 3d6 at 11, and 4d6 at 17."
+    ]
+  },
+  {
+    "name": "Draegloth",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Monstrous Races 2",
+    "traits": [
+      "Player conversion by Tyler Kamstra for 2014 fifth edition, published through Dungeon Masters Guild in Monstrous Races 2.",
+      "Medium Fiend with the demon tag. Strength and Dexterity each rise by 1, speed is 30 ft., and darkvision reaches 120 ft. The 1d8 claws deal slashing. Unarmored AC is 12 + Dexterity. Fey Ancestry gives advantage against being charmed and blocks magical sleep. Most draegloths favor chaotic evil. Languages are Abyssal, Elvish, and Undercommon.",
+      "Four arms can hold items. Extra Attack may use any weapon already held. An attack with a qualifying light melee weapon during the Attack action can be followed by a bonus attack with a different qualifying weapon. The normal two-weapon damage modifier rules apply.",
+      "Using that bonus attack, attacking with a heavy weapon, or using a versatile weapon two-handed removes shield benefits until the start of the next turn. The character can switch among held weapons between individual attacks."
+    ]
+  },
+  {
+    "name": "Firenewt",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Monstrous Races 2",
+    "traits": [
+      "Player conversion by Tyler Kamstra for 2014 fifth edition, published through Dungeon Masters Guild in Monstrous Races 2.",
+      "Medium Humanoid with the firenewt tag, Dexterity +2, Constitution +1, and speed 30 ft. A firenewt breathes air and water, is immune to fire damage, and speaks, reads, and writes Draconic and Ignan. The text describes most firenewts as neutral evil.",
+      "Spite Fire uses an action on one visible creature within 10 ft. The DC is 8 + Constitution modifier + proficiency. A failed save takes 2d8 damage, with half on a success. Damage rises to 3d8 at level 5, 4d8 at 11, and 5d8 at 17. The action recharges on a short or long rest.",
+      "The Spite Fire entry leaves the target's saving ability and damage type unspecified. The prose describes spitting fire. The worked NPC uses a Dexterity save and fire damage by table ruling."
+    ]
+  }
+]

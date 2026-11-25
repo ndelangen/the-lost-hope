@@ -1,0 +1,26 @@
+[
+  {
+    "entryId": "beast-a6767b7ddec1098445fa5e65",
+    "checkedCopy": "portraits/tiny-viper-snake.webp",
+    "indexedDerivative": "images/beasts/tiny-viper-snake/parchment-portrait.webp",
+    "derivativeSha256": "aad88c0c4213f82e21ee31edfdea7f6f6bf340f732554f6b61be55473ca07e3d",
+    "registryOriginal": "assets/images/content/dm-library/revised-35-srd-beasts-10/tiny-viper-snake.png",
+    "originalSha256": "d4138b98aab988a1a751558b54078798f779f9d2dc27e2be1d31d731374d8130"
+  },
+  {
+    "entryId": "beast-b0d6ad3ff0c46ddc5176705c",
+    "checkedCopy": "portraits/small-viper-snake.webp",
+    "indexedDerivative": "images/beasts/small-viper-snake/parchment-portrait.webp",
+    "derivativeSha256": "c438a562df2cb95ce0dfee9efc5c1354f9fd430e7744b232847ad4e6e7f2ac9d",
+    "registryOriginal": "assets/images/content/dm-library/revised-35-srd-beasts-09/small-viper-snake.png",
+    "originalSha256": "49154d83aa0d1882d6e86da9a123a0640949985941d46fb3785db8304a35c08a"
+  },
+  {
+    "entryId": "beast-b1ac8eb58291283ade8ea02e",
+    "checkedCopy": "portraits/medium-viper-snake.webp",
+    "indexedDerivative": "images/beasts/medium-viper-snake/parchment-portrait.webp",
+    "derivativeSha256": "239fde8e0a226c927ab24de5ca3ab7320e98ca79a4a52f8e1e4a4adb4d51898f",
+    "registryOriginal": "assets/images/content/dm-library/revised-35-srd-beasts-07/medium-viper-snake.png",
+    "originalSha256": "2b6ee3dcda4af21999e376f3bce8be00a6a3bc078b71f081639dffc8e11949b0"
+  }
+]

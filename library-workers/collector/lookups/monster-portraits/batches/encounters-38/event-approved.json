@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Ankheg (MCDM)",
+    "slug": "ankheg",
+    "id": "monster-9c8ce4e0841bb15dd15f88a7:47a6b8cae90a819972324ba9",
+    "entry": "monster-9c8ce4e0841bb15dd15f88a7",
+    "version": "47a6b8cae90a819972324ba9",
+    "suffix": "encounters-38/ankheg.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-38/ankheg.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-38/event-drafts/ankheg-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 38 2026-11-23/event-drafts/ankheg-event-v1.png",
+    "overrides": [
+      {
+        "entry": "monster-9c8ce4e0841bb15dd15f88a7",
+        "name": "Ankheg (MCDM)",
+        "file": "images/monsters/ankheg-mcdm/parchment-portrait.webp",
+        "sha256": "b40b005dbe5de2f55165e0fd3b32f7dddfca8d0505a75d6b5cba99d3c847e291",
+        "credit": "OpenAI ImageGen",
+        "reference": "",
+        "appearanceSource": "",
+        "subjectPrompt": "Giant insect monster with long ocher-brown segmented armor, two immense pointed mandibles, rough digging forelegs and a visible lime-brown acid glint in its mouth. Six natural legs and entrenched belly.",
+        "style": "The Lost Hope square gouache and sepia parchment"
+      }
+    ],
+    "sha256": "3c5563b7b2c900499faac86d786560d1ea476741e8e0f7c40bcc5c88fe63c659",
+    "bytes": 2567468
+  },
+  {
+    "name": "Basilisk (MCDM)",
+    "slug": "basilisk",
+    "id": "monster-a776016db6e659e2db5e8699:a18fba4a83ed4b9db00fe822",
+    "entry": "monster-a776016db6e659e2db5e8699",
+    "version": "a18fba4a83ed4b9db00fe822",
+    "suffix": "encounters-38/basilisk.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-38/basilisk.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-38/event-drafts/basilisk-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 38 2026-11-23/event-drafts/basilisk-event-v1.png",
+    "overrides": [],
+    "sha256": "0c1262f7b529c3ed8e33978fdec03208c45c53606d461059473b45e61e9a3788",
+    "bytes": 2646893
+  }
+]

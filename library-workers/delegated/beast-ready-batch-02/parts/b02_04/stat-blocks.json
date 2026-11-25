@@ -1,0 +1,159 @@
+[
+  {
+    "name": "Camel",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Large Beast",
+    "ac": 10,
+    "hp": 10,
+    "speed": "50 ft.",
+    "cr": "1/8",
+    "xp": 25,
+    "otherStatistics": "Fixed Perception 9 and Stealth 10. No listed special senses. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A sandy-coated dromedary with one shaggy hump, a long arched neck, a split upper lip, and broad two-toed pads.",
+    "habitats": [
+      "Desert",
+      "Dry steppe"
+    ],
+    "sections": {
+      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, page 354. XP follows the CR table on page 229. ",
+      "Ability modifiers": "STR +2, DEX +0, CON +2, INT −4, WIS −1, CHA −3. Use these modifiers and the fixed Black Flag Perception and Stealth values.",
+      "Traits": "Camel Resilience. The camel needs half the water of a typical Beast its size. It is resistant to exhaustion, which gives it advantage on checks and saves to avoid or end that condition.",
+      "Actions": "Bite. Melee weapon attack, +4 to hit with 5-ft. reach against one creature. Hit for 4 (1d4 + 2) bludgeoning damage.\nBile Spit. Ranged weapon attack, +2 to hit with range 20/60 ft. against one creature. Hit for 2 (1d4) acid damage. The target then makes a DC 12 Constitution save or becomes smelly for 1 hour or until a creature spends 1 minute cleaning off the spit. While smelly, the target has disadvantage on Charisma checks."
+    }
+  },
+  {
+    "name": "Camel",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 9,
+    "hp": 15,
+    "hitDice": "2d10 + 4",
+    "speed": "50 ft.",
+    "cr": "1/8",
+    "xp": 25,
+    "abilities": {
+      "Str": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Passive Perception 9. No listed languages, skill bonuses, or special senses.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A sandy-coated dromedary with one shaggy hump, a long arched neck, a split upper lip, and broad two-toed pads.",
+    "habitats": [
+      "Desert",
+      "Dry steppe"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), Appendix A, printed p. 320. https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/322/",
+      "Actions": "Bite. Melee weapon attack, +5 to hit with 5-ft. reach against one target. Hit for 2 (1d4) bludgeoning damage."
+    }
+  },
+  {
+    "name": "Frog",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Tiny Beast",
+    "ac": 10,
+    "hp": 9,
+    "speed": "20 ft., swim 20 ft.",
+    "cr": "0",
+    "xp": 10,
+    "otherStatistics": "Fixed Perception 11 and Stealth 10. Darkvision 30 ft. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A compact pond frog with a broad blunt head, amber eyes, smooth olive-brown skin, and folded, powerful hind legs.",
+    "habitats": [
+      "Freshwater ponds",
+      "Marshes"
+    ],
+    "sections": {
+      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, page 357. XP follows the CR table on page 229. ",
+      "Ability modifiers": "STR −5, DEX +0, CON −1, INT −5, WIS −1, CHA −4. Use these modifiers and the fixed Black Flag Perception and Stealth values.",
+      "Traits": "Amphibious. The frog breathes in air and water.\nStanding Leap. Long jump up to 10 ft. and high jump up to 5 ft., with or without a running start.\nCondition resistance. Advantage on checks and saves to avoid or end the grappled condition.",
+      "Actions": "Bite. Melee weapon attack, +2 to hit with 5-ft. reach against one creature. Hit for 2 (1d4) bludgeoning damage."
+    }
+  },
+  {
+    "name": "Goat",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Medium Beast",
+    "ac": 10,
+    "hp": 8,
+    "speed": "40 ft.",
+    "cr": "0",
+    "xp": 10,
+    "otherStatistics": "Fixed Perception 10 and Stealth 10. No listed special senses. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A wiry cream-and-gray goat with a short beard, narrow swept horns, horizontal pupils, and split hooves.",
+    "habitats": [
+      "Rocky hills",
+      "Mountain pasture"
+    ],
+    "sections": {
+      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, pages 358–359. XP follows the CR table on page 229. ",
+      "Ability modifiers": "STR +1, DEX +0, CON +0, INT −4, WIS +0, CHA −3. Use these modifiers and the fixed Black Flag Perception and Stealth values.",
+      "Traits": "Condition resistance. Advantage on checks and saves to avoid or end the prone condition.\nCharge. Move at least 20 ft. straight toward a target and hit with Ram on the same turn. The hit deals an extra 2 (1d4) bludgeoning damage. If the target is a creature, it also makes a DC 11 Strength save or falls prone.",
+      "Actions": "Ram. Melee weapon attack, +3 to hit with 5-ft. reach against one target. Hit for 3 (1d4 + 1) bludgeoning damage.",
+      "Reactions": "Terrifying Scream. When the goat takes damage, each creature within 10 ft. that hears the scream must make a DC 13 Wisdom save or be frightened until the end of its next turn. A creature frightened this way cannot be frightened by this goat’s Terrifying Scream again for 24 hours."
+    }
+  },
+  {
+    "name": "Hawk",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Tiny Beast",
+    "ac": 11,
+    "hp": 7,
+    "speed": "10 ft., fly 60 ft.",
+    "cr": "0",
+    "xp": 10,
+    "otherStatistics": "Fixed Perception 14 and Stealth 11. No listed special senses. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A compact brown hawk with broad shoulders, a cream breast, hooked gray beak, and curved talons.",
+    "habitats": [
+      "Open country",
+      "Woodland edge"
+    ],
+    "sections": {
+      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, page 359. XP follows the CR table on page 229. ",
+      "Ability modifiers": "STR −3, DEX +1, CON −1, INT −4, WIS +2, CHA −2. Use these modifiers and the fixed Black Flag Perception and Stealth values.",
+      "Traits": "Heightened Sight. Use Perception 19 when the hawk relies on sight.",
+      "Actions": "Talons. Melee weapon attack, +3 to hit with 5-ft. reach against one target. Hit for 3 (1d4 + 1) slashing damage.",
+      "Bonus actions": "Evasive Flight. The hawk takes the Disengage or Dodge action as a bonus action while flying."
+    }
+  }
+]

@@ -25,4 +25,5 @@ export default createEvent({
       ' may exploit the chaos to seize control of the town; neither outcome has yet been confirmed.',
     ],
   ],
+  illustrations: ['/assets/scenes/crowy-directs-the-party-toward-the-feywild.png'],
 })

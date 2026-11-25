@@ -1,0 +1,146 @@
+[
+  {
+    "name": "Will-o’-Wisp",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Undead",
+    "url": "",
+    "rulesReadUrl": "",
+    "printedPages": [
+      208,
+      209
+    ],
+    "page": "pp. 208–209 in v2. Will-o’-Wisp Traits",
+    "provenance": "Printed v2 player traits read in the PDFCoffee mirror.",
+    "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "spellRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "sourceDistinctions": [
+      "Uses the printed Small size and 40-ft. flight. The block grants no hover or Incorporeal Movement.",
+      "The supplement's p. 8 handless somatic and unconsciousness rules apply. Ephemeral prevents the use of material components and carried foci. Shock uses ordinary 5-ft. reach for the worked encounter."
+    ],
+    "npcExamples": [
+      "Tallow of Siltford"
+    ]
+  },
+  {
+    "name": "Wraith",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Undead",
+    "url": "",
+    "rulesReadUrl": "",
+    "printedPages": [
+      210
+    ],
+    "page": "p. 210 in v2. Wraith Traits",
+    "provenance": "Printed v2 player traits read in the PDFCoffee mirror.",
+    "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "spellRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "sourceDistinctions": [
+      "The trait box repeats Sunlight Sensitivity. The profile applies it once. Printed Life Drain is a necrotic unarmed attack, with no encounter-monster drain rider. Bereft of Body permits a shield."
+    ],
+    "npcExamples": [
+      "Mara Moorwake"
+    ]
+  },
+  {
+    "name": "Wyvern",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Dragon",
+    "url": "",
+    "rulesReadUrl": "",
+    "printedPages": [
+      211
+    ],
+    "page": "p. 211 in v2. Wyvern Traits",
+    "provenance": "Printed v2 player traits read in the PDFCoffee mirror.",
+    "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "spellRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "sourceDistinctions": [
+      "The printed Stinger rolls piercing and poison. The Strength modifier and Rage apply to the weapon attack once. The portrait uses two walking legs and two winged forelimbs."
+    ],
+    "npcExamples": [
+      "Brackenwake"
+    ]
+  },
+  {
+    "name": "Xorn",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Elemental",
+    "url": "",
+    "rulesReadUrl": "",
+    "printedPages": [
+      211,
+      212
+    ],
+    "page": "pp. 211–212 in v2. Xorn Traits",
+    "provenance": "Printed v2 player traits read in the PDFCoffee mirror.",
+    "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "spellRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "sourceDistinctions": [
+      "Each printed eye, arm and leg is represented in the portrait. Fighter's style adds Strength to the second sword. Three Arms withdraws the shield benefit exactly when the bonus attack is used."
+    ],
+    "npcExamples": [
+      "Pinch-of-Tin"
+    ]
+  },
+  {
+    "name": "Yeti",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Monstrosity",
+    "url": "",
+    "rulesReadUrl": "",
+    "printedPages": [
+      212,
+      213
+    ],
+    "page": "pp. 212–213 in v2. Yeti Traits",
+    "provenance": "Printed v2 player traits read in the PDFCoffee mirror.",
+    "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "spellRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "sourceDistinctions": [
+      "The v2 trait line cuts off before naming an ability for the DC. This encounter uses Constitution, with no damage progression or paralysis imported from elsewhere."
+    ],
+    "npcExamples": [
+      "Rusk Palecrag"
+    ]
+  }
+]

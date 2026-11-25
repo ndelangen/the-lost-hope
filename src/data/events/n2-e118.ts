@@ -17,4 +17,5 @@ export default createEvent({
       ' would not strike anyone else.',
     ],
   ],
+  illustrations: ['/assets/scenes/the-party-takes-rooms-sixty-feet-apart.png'],
 })

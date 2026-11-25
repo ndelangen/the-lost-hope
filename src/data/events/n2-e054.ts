@@ -22,4 +22,5 @@ export default createEvent({
       '.',
     ],
   ],
+  illustrations: ['/assets/scenes/abraham-s-cart-leads-the-escape.png'],
 })

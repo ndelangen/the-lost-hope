@@ -1,0 +1,279 @@
+{
+  "builds": [
+    {
+      "id": "mr2-kyuss-rusk-ditchwatch-5e",
+      "origin": "Original DM Library NPC using Tyler Kamstra’s Monstrous Races 2 player traits",
+      "type": "Undead",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Wormbound guide, Fighter 2",
+      "difficulty": "Level 2 class-built NPC. No assigned challenge rating.",
+      "size": "Medium",
+      "ac": 17,
+      "hp": 22,
+      "hitDice": "2d10+6",
+      "initiative": 2,
+      "speed": "30 ft. walk",
+      "senses": "Passive Perception 12.",
+      "languages": "Understands, reads, and writes Common, Dwarvish, and Elvish. Cannot speak.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 16,
+        "INT": 8,
+        "WIS": 10,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +5",
+        "Insight +2",
+        "Perception +2",
+        "Survival +2"
+      ],
+      "traits": [
+        "Proficiency +2. Saves Str +5 and Con +5. Hide armor gives AC 12 + 2 Dex, then +2 shield and +1 Defense fighting style. Immune to poison damage and poisoned. Vulnerable to acid, fire, and radiant.",
+        "Outlander. Rusk can signal using his hands. Four hours of semiconscious rest replace sleep. Class and rest healing apply normally to him. The core Cure Wounds, Healing Word, and Heal rules exclude undead.",
+        "Regeneration. Bonus action, spend 1 Hit Die to regain 1d10+3 HP. Acid, fire, or radiant damage prevents this through the end of his next turn. The species rest clause recovers up to one spent Hit Die per short or long rest.",
+        "Worms. A disease cure or curse removal targeting Rusk disables Burrowing Worm until he completes a long rest."
+      ],
+      "actions": [
+        "Handaxe. +5 to hit, reach 5 ft. or range 20/60 ft., 1d6+3 slashing. Claw. +5 to hit, 5 ft., 1d4+3 slashing.",
+        "Burrowing Worm. Action against one humanoid within 10 ft., Constitution DC 13. Piercing resistance grants advantage and immunity negates the effect. Failure takes 1 piercing and attaches one worm. At the target’s next turn end, a living attached worm deals 2d6 necrotic and drops off destroyed. It is Tiny undead, AC 6, 1 HP, all ability scores 2, speed 1 ft. A creature within reach may scrape off all attached worms as an action. A disease cure or curse removal destroys them.",
+        "Second Wind. Bonus action, regain 1d10+2 HP once per short or long rest. Action Surge. Take one additional action on a turn once per short or long rest."
+      ],
+      "tactics": "Rusk blocks the bank with his shield. He uses a worm against a humanoid trying to flee, then resumes ordinary axe attacks."
+    },
+    {
+      "id": "mr2-trapper-lintel-5e",
+      "origin": "Original DM Library NPC using Tyler Kamstra’s Monstrous Races 2 player traits",
+      "type": "Monstrosity",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Ceiling tollkeeper, Barbarian 2",
+      "difficulty": "Level 2 class-built NPC. No assigned challenge rating.",
+      "size": "Medium",
+      "ac": 15,
+      "hp": 25,
+      "hitDice": "2d12+6",
+      "initiative": 2,
+      "speed": "10 ft. walk and climb",
+      "senses": "Blindsight 30 ft. Passive Perception 12.",
+      "languages": "Common.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 16,
+        "INT": 8,
+        "WIS": 10,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +5",
+        "Nature +1",
+        "Perception +2",
+        "Survival +2"
+      ],
+      "traits": [
+        "Proficiency +2. Saves Str +5 and Con +5. Uses natural armor, AC 13 + 2 Dex. Flat Body prevents weapons, armor, shields, and hand-dependent tools.",
+        "Outlander. Spider Climb permits ceiling movement without a check. False Appearance takes one minute motionless and concentrating, then works while still. DC 20 Int (Investigation or Nature) distinguishes Lintel from a normal surface.",
+        "Rage twice per long rest. Bonus action to enter, up to a minute, ends early under normal class rules. Resistance to bludgeoning, piercing, and slashing. Advantage on Strength checks and saves. Danger Sense gives advantage on Dexterity saves against visible effects unless blinded, deafened, or incapacitated."
+      ],
+      "actions": [
+        "Smother. Unarmed strike +5 to hit, reach 5 ft., 1d8+3 bludgeoning, or acid instead if grappling the target. Add 2 damage when raging. A hit during the Attack action allows a bonus-action grapple, Athletics +5 opposed by target Athletics or Acrobatics. Rage grants advantage on this check. The target must be within reach and no more than one size larger.",
+        "Reckless Attack. On the first attack of Lintel’s turn, choose advantage on its Strength-based melee attacks for the turn. Attacks against Lintel gain advantage until its next turn."
+      ],
+      "tactics": "Lintel lets a likely mark walk underneath before dropping the disguise. Against several threats it rages first and looks to grapple on the following turn."
+    },
+    {
+      "id": "mr2-vargouille-pip-sablewing-5e",
+      "origin": "Original DM Library NPC using Tyler Kamstra’s Monstrous Races 2 player traits",
+      "type": "Fiend",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Rooftop watcher, Rogue 1",
+      "difficulty": "Level 1 class-built NPC. No assigned challenge rating.",
+      "size": "Tiny",
+      "ac": 12,
+      "hp": 10,
+      "hitDice": "1d8+2",
+      "initiative": 2,
+      "speed": "5 ft. walk, 40 ft. fly",
+      "senses": "Passive Perception 13.",
+      "languages": "Understands, reads, and writes Abyssal, Infernal, and Common. Cannot speak.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 15,
+        "CON": 14,
+        "INT": 13,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Acrobatics +4",
+        "Insight +3",
+        "Medicine +3",
+        "Perception +3",
+        "Religion +3",
+        "Stealth +6"
+      ],
+      "traits": [
+        "Proficiency +2. Saves Dex +4 and Int +3. No worn armor or equipment. Immune to poison damage and poisoned. Cannot use weapons, shields, hand-dependent tools, or verbal spell components.",
+        "Hermit. Expertise in Stealth and the class-granted thieves’ tools proficiency. The latter cannot be used with this anatomy. Thieves’ Cant needs an accessible written sign or a signal both parties recognize.",
+        "Sneak Attack. Add 1d6 piercing once per turn on a finesse bite hit with advantage, or when an active enemy of the target is within 5 ft. of it and Pip has no disadvantage."
+      ],
+      "actions": [
+        "Finesse bite. +4 to hit, reach 5 ft., 1d4+2 piercing and 1d4 poison.",
+        "Kiss. Action, visible target within 5 ft., Charisma DC 12. Failure means disadvantage on Charisma checks and saves for up to 24 hours. Target repeats at each turn end. Restoration or curse removal ends it. If the creature dies while cursed, its head becomes a vargouille and teleports to the Abyss one round later. Once per short or long rest.",
+        "Shriek. Action, creatures within 30 ft. make a Wisdom DC 12 save or are frightened through the end of Pip’s next turn. Sound carries 300 ft. Once per long rest. For this NPC everyone in range rolls, including Pip."
+      ],
+      "tactics": "Pip circles over a partner to line up a Sneak Attack. It saves Shriek for a retreat when the noise cannot expose the route it protects."
+    },
+    {
+      "id": "mr2-vegepygmy-dewcap-reed-5e",
+      "origin": "Original DM Library NPC using Tyler Kamstra’s Monstrous Races 2 player traits",
+      "type": "Plant",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Standard Vegepygmy bridge guard, Fighter 1",
+      "difficulty": "Level 1 class-built NPC. No assigned challenge rating.",
+      "size": "Small",
+      "ac": 15,
+      "hp": 12,
+      "hitDice": "1d10+2",
+      "initiative": 2,
+      "speed": "30 ft. walk",
+      "senses": "Darkvision 60 ft. Passive Perception 13.",
+      "languages": "Vegepygmy and Common.",
+      "abilityScores": {
+        "STR": 15,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +4",
+        "Insight +3",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "traits": [
+        "Proficiency +2. Saves Str +4 and Con +4. Wears leather with AC 11 + 2 Dex + 2 shield. If the leather is removed, unarmored natural AC with shield is 16.",
+        "Outlander. Plant Camouflage grants advantage on Stealth to hide in heavily vegetated terrain. Vulnerable to cold, fire, and necrotic damage.",
+        "Regeneration. Bonus action, spend 1 Hit Die to regain 1d10+2 HP. Cold, fire, or necrotic damage stops the trait through the end of the next turn. Regain a spent die on a short or long rest."
+      ],
+      "actions": [
+        "Spear. One-handed melee +4 to hit, reach 5 ft., 1d6+4 piercing including Dueling. Thrown +4, range 20/60 ft., 1d6+2 piercing in this build.",
+        "Claw. +4 to hit, reach 5 ft., 1d6+2 slashing. Second Wind. Bonus action, regain 1d10+1 HP once per short or long rest."
+      ],
+      "tactics": "Dewcap waits beside an overgrown bridge path. Once visible, she uses her shield and spear to hold the crossing."
+    },
+    {
+      "id": "mr2-xvart-tiv-ragpocket-5e",
+      "origin": "Original DM Library NPC using Tyler Kamstra’s Monstrous Races 2 player traits",
+      "type": "Humanoid (Xvart)",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Canal lookout, Rogue 1",
+      "difficulty": "Level 1 class-built NPC. No assigned challenge rating.",
+      "size": "Small",
+      "ac": 14,
+      "hp": 10,
+      "hitDice": "1d8+2",
+      "initiative": 3,
+      "speed": "30 ft. walk",
+      "senses": "Darkvision 60 ft. Passive Perception 13.",
+      "languages": "Abyssal, plus Thieves’ Cant.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 17,
+        "CON": 14,
+        "INT": 13,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Deception +2",
+        "Insight +3",
+        "Investigation +3",
+        "Perception +3",
+        "Sleight of Hand +5",
+        "Stealth +7"
+      ],
+      "traits": [
+        "Proficiency +2. Saves Dex +5 and Int +3. Leather armor gives AC 11 + 3 Dex. Criminal background takes Investigation in place of its duplicate Stealth proficiency. Expertise in Stealth and thieves’ tools.",
+        "Low Cunning is bonus-action Disengage. Raxivort’s Tongue permits communication with ordinary and giant bats and rats.",
+        "Sneak Attack. Add 1d6 piercing once per turn to a finesse or ranged weapon hit with advantage, or when an active enemy of the target is within 5 ft. of it and Tiv has no disadvantage."
+      ],
+      "actions": [
+        "Shortbow. +5 to hit, range 80/320 ft., 1d6+3 piercing. Dagger. +5 to hit, reach 5 ft. or range 20/60 ft., 1d4+3 piercing.",
+        "Overbearing Pack. Bonus action grants advantage on the next Strength check to shove this turn if an ally who can act is within 5 ft. of the target. Tiv’s contested Athletics check is −1."
+      ],
+      "tactics": "Tiv keeps to the far side of the canal and shoots at a foe distracted by a scout. If cornered, he Disengages and flees."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Spawn of Kyuss",
+      "speciesPublication": "Monstrous Races 2",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr2-kyuss-rusk-ditchwatch-5e",
+      "size": "Medium",
+      "name": "Rusk Ditchwatch",
+      "role": "A silent guide who remembers the old ditches through the ruined salt road.",
+      "motive": "Rusk wants to clear the old ford before a spring flood carries away the remaining mileposts.",
+      "hook": "He hands the party a damp route map with a knife through the place they planned to cross."
+    },
+    {
+      "species": "Trapper",
+      "speciesPublication": "Monstrous Races 2",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr2-trapper-lintel-5e",
+      "size": "Medium",
+      "name": "Lintel",
+      "role": "An awakened ceiling-dweller who charges a toll in salted meat.",
+      "motive": "Lintel wants a tanner to honor the agreement they made when the tunnel was dry.",
+      "hook": "The arch answers in Common when a passing carter complains that the toll box is empty."
+    },
+    {
+      "species": "Vargouille",
+      "speciesPublication": "Monstrous Races 2",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr2-vargouille-pip-sablewing-5e",
+      "size": "Tiny",
+      "name": "Pip Sablewing",
+      "role": "A mute night watcher paid to warn riverfolk of blue lanterns.",
+      "motive": "Pip wants the keeper of a shuttered tollhouse to pay an old debt.",
+      "hook": "A winged face leaves three fresh scratches on the tavern door just before the lanterns appear."
+    },
+    {
+      "species": "Vegepygmy",
+      "speciesPublication": "Monstrous Races 2",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr2-vegepygmy-dewcap-reed-5e",
+      "size": "Small",
+      "name": "Dewcap Reed",
+      "role": "A standard-form Vegepygmy who guards a plank bridge near her colony.",
+      "motive": "Dewcap wants a butcher to stop dumping bone scraps into the bridge pool.",
+      "hook": "She has tied a small sack of bones to the bridge rail and waits for someone to recognize the butcher’s knot."
+    },
+    {
+      "species": "Xvart",
+      "speciesPublication": "Monstrous Races 2",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr2-xvart-tiv-ragpocket-5e",
+      "size": "Small",
+      "name": "Tiv Ragpocket",
+      "role": "A canal lookout who trades rumors for grub and broken jewelry.",
+      "motive": "Tiv wants a barge pilot to take his rats to a warehouse on the warm side of the lock.",
+      "hook": "A rat delivers a stamped tin badge. Tiv is watching to see who follows it."
+    }
+  ]
+}

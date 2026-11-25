@@ -5,6 +5,7 @@ export default createEvent({
   name: 'William diverts to a tavern',
   day: 1,
   location: refs.locations.the_nest,
+  illustrations: ['/assets/scenes/william-diverts-to-a-tavern.png'],
   mark: { type: 'icon', name: 'gi/GiTavernSign' },
   notes: [
     [

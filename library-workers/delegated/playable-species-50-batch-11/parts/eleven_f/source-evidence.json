@@ -1,0 +1,128 @@
+[
+  {
+    "name": "Giant Weasel",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Beast",
+    "url": "",
+    "rulesReadUrl": "",
+    "version": "v2 authored rules text, read in a text mirror",
+    "printedPages": [
+      246,
+      247
+    ],
+    "heading": "Giant weasel Traits",
+    "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "sourceDistinctions": [
+      "The player trait block sets walking speed at 35 ft. The design discussion mentions 40 ft. The build uses 35 ft. before class movement.",
+      "The v2 monk clarification on p. 7 makes bonus strikes from Martial Arts and Flurry of Blows ordinary bludgeoning strikes. The action bite retains its own damage.",
+      "The Weasel block later in the book is a different playable profile."
+    ]
+  },
+  {
+    "name": "Giant Wolf Spider",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Beast",
+    "url": "",
+    "rulesReadUrl": "",
+    "version": "v2 authored rules text, read in a text mirror",
+    "printedPages": [
+      247
+    ],
+    "heading": "Giant Wolf Spider Traits",
+    "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "sourceDistinctions": [
+      "The wolf spider has no Web action. Its printed poison is additional damage with no saving throw.",
+      "The play example assigns Sneak Attack dice to the bite’s piercing component. The printed bite already qualifies as finesse."
+    ]
+  },
+  {
+    "name": "Hawk",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Beast",
+    "url": "",
+    "rulesReadUrl": "",
+    "version": "v2 authored rules text, read in a text mirror",
+    "printedPages": [
+      248
+    ],
+    "heading": "Hawk Traits",
+    "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "sourceDistinctions": [
+      "The trait block gives 60-ft. flight. The design discussion mentions 50 ft. The build uses the printed trait.",
+      "The Tiny weapon table on p. 8 resizes equipment. It does not replace the hawk’s printed natural talon die. Tiny carrying capacity is one quarter of the equivalent Small or Medium value.",
+      "Blood Hawk has its own published trait block."
+    ]
+  },
+  {
+    "name": "Hunter Shark",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Beast",
+    "url": "",
+    "rulesReadUrl": "",
+    "version": "v2 authored rules text, read in a text mirror",
+    "printedPages": [
+      244,
+      248,
+      249
+    ],
+    "heading": "Hunter Shark Traits",
+    "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "sourceDistinctions": [
+      "The Hunter Shark trait line for size is blank. Its own design notes on p. 249 specify the reduction from Large to Medium. This play example uses Medium.",
+      "The design notes mention natural weapon finesse, but the printed Bite trait has no finesse. This build uses Strength.",
+      "The Giant Shark entry on p. 244 redirects to Hunter Shark’s player traits. Retain one profile, one NPC in the base form and one portrait."
+    ]
+  },
+  {
+    "name": "Jackal",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Beast",
+    "url": "",
+    "rulesReadUrl": "",
+    "version": "v2 authored rules text, read in a text mirror",
+    "printedPages": [
+      250
+    ],
+    "heading": "Jackal Traits",
+    "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "sourceDistinctions": [
+      "This playable bite deals slashing. Keen Hearing and Smell are discussed in the design notes but omitted from the published trait block.",
+      "Jackalwere has its own trait block and is a separate playable profile."
+    ]
+  }
+]

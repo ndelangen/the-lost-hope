@@ -1,0 +1,95 @@
+[
+  {
+    "name": "Boar",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "publisher": "Open Design LLC d/b/a Kobold Press",
+    "printing": "Version 0.2, May 2024 ",
+    "printedPages": [
+      353,
+      354
+    ],
+    "pageNumbering": "Printed pages match one-based page numbers.",
+    "url": "",
+    "experienceSource": "",
+    "supportingPages": [],
+    "numericalScope": "The creature block gives fixed HP, ability modifiers, Perception and Stealth. It does not give Hit Dice, raw ability scores or alignment.",
+    "appearanceSource": "The Tusk action establishes the tusks. Bristles, color and palette are original natural-history choices.",
+    "habitatSource": "Editorial habitat tags based on ordinary wild boar behavior. Pages 353–354 do not list habitat."
+  },
+  {
+    "name": "Boar",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "2014 Monster Manual, 2014 fifth edition",
+    "printedPages": [
+      319
+    ],
+    "pageNumbering": "Printed Appendix A folio.",
+    "url": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/monster-stat-blocks-b#Boar",
+    "verification": "Read the actual 2014 Monster Manual print page and cross-checked the official 2014 Basic Rules. The 2018 published errata has no Boar-specific changes.",
+    "errataUrl": "",
+    "appearanceSource": "Monster Manual p. 319 gives a Tusk attack. Other appearance details come from the original portrait.",
+    "habitatSource": "Editorial habitat tags based on ordinary wild boar behavior. Page 319 does not list habitat."
+  },
+  {
+    "name": "Deer",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "publisher": "Open Design LLC d/b/a Kobold Press",
+    "printing": "Version 0.2, May 2024 ",
+    "printedPages": [
+      355,
+      356
+    ],
+    "pageNumbering": "Printed pages match one-based page numbers.",
+    "url": "",
+    "experienceSource": "",
+    "supportingPages": [
+      232
+    ],
+    "numericalScope": "The creature block gives fixed HP, ability modifiers, Perception and Stealth. It does not give Hit Dice, raw ability scores or alignment.",
+    "appearanceSource": "Editorial natural-history portrait depicts a red deer stag. The stat block supplies no antler attack.",
+    "habitatSource": "Editorial habitat tags based on the depicted deer. The source lists no habitat."
+  },
+  {
+    "name": "Eagle",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "publisher": "Open Design LLC d/b/a Kobold Press",
+    "printing": "Version 0.2, May 2024 ",
+    "printedPages": [
+      356
+    ],
+    "pageNumbering": "Printed pages match one-based page numbers.",
+    "url": "",
+    "experienceSource": "",
+    "supportingPages": [
+      132,
+      232
+    ],
+    "numericalScope": "The creature block gives fixed HP, ability modifiers, Perception and Stealth. It does not give Hit Dice, raw ability scores or alignment.",
+    "appearanceSource": "Page 356 gives the Seabird trait and Talons. The pale head and body colors are original natural-history interpretation.",
+    "habitatSource": "Page 356 names a ship and beach as landing examples. Coasts and coastal waters are editorial inferences from Seabird."
+  },
+  {
+    "name": "Elephant",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "publisher": "Open Design LLC d/b/a Kobold Press",
+    "printing": "Version 0.2, May 2024 ",
+    "printedPages": [
+      356
+    ],
+    "pageNumbering": "Printed pages match one-based page numbers.",
+    "url": "",
+    "experienceSource": "",
+    "supportingPages": [
+      232
+    ],
+    "numericalScope": "The creature block gives fixed HP, ability modifiers, Perception and Stealth. It does not give Hit Dice, raw ability scores or alignment.",
+    "appearanceSource": "Page 356 establishes Gore and Trunk Grab. The portrait depicts a savanna elephant with broad ears and tusks.",
+    "habitatSource": "Editorial habitat tags based on the depicted elephant. The source lists no habitat."
+  }
+]

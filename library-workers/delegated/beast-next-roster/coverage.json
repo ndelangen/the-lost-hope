@@ -1,0 +1,2134 @@
+{
+  "baseline": "16409d50b697e222868b27ebb05df023a9d68758",
+  "candidateStatus": "Source hold pending recheck",
+  "candidates": [
+    {
+      "entry": "beast-38aafab0fefde84df1623179",
+      "version": "18696ef8d6ea9ccc0cf9df65",
+      "name": "Ghamoo-Ra",
+      "publication": "D&D: World of Warcraft",
+      "edition": "2024 fifth edition",
+      "status": "Source access",
+      "reason": "The official entry requires access to the book. No complete original excerpt for Ghamoo-Ra was located.",
+      "source": "https://www.dndbeyond.com/monsters/6888405-ghamoo-ra",
+      "evidence": {
+        "runtime": {
+          "id": "beast-38aafab0fefde84df1623179",
+          "key": "18696ef8d6ea9ccc0cf9df65",
+          "name": "Ghamoo-Ra",
+          "publication": "D&D: World of Warcraft",
+          "edition": "2024 fifth edition",
+          "status": "Encounter reference",
+          "found": true,
+          "image": {
+            "url": "",
+            "credit": "OpenAI ImageGen · The Lost Hope"
+          },
+          "portrait": {
+            "url": "",
+            "credit": "OpenAI ImageGen · The Lost Hope"
+          },
+          "exactImages": [
+            {
+              "url": "",
+              "credit": "Ghamoo-ra model render · Blizzard Entertainment · D&D: World of Warcraft"
+            },
+            {
+              "url": "",
+              "credit": "Related Alligator snapping turtle photograph by Peter Paplanus from St. Louis, Missouri · CC BY 4.0 · D&D: World of Warcraft"
+            }
+          ],
+          "otherPrintings": []
+        },
+        "artDisposition": "Existing generated portrait",
+        "reference": {
+          "entityKind": "beast",
+          "name": "Ghamoo-Ra",
+          "publication": "D&D: World of Warcraft",
+          "edition": "2024 fifth edition",
+          "file": "images/beasts/ghamoo-ra/75e040e6c916-ghamoo-blizzard.webp",
+          "artist": "Ghamoo-ra model render · Blizzard Entertainment",
+          "kind": "render",
+          "sha256": "75e040e6c9169fb7968eb23272e7d70b35c9db62dfd6071b714020ce65dc4814",
+          "reference": "https://legacyofwarcraft.com/db/classic/npc/4887.html"
+        }
+      }
+    },
+    {
+      "entry": "beast-5d790795330b9003623dd05d",
+      "version": "4c3222a3e9c8f630a3adfa8a",
+      "name": "Boar",
+      "publication": "DDEX1-11 - Dark Pyramid of Sorcerer's Isle",
+      "edition": "2014 fifth edition",
+      "status": "Printed omission",
+      "reason": "The adventure Boar appendix omits the attack. Batch 15 documented this omission.",
+      "source": "",
+      "evidence": {
+        "runtime": {
+          "id": "beast-5d790795330b9003623dd05d",
+          "key": "4c3222a3e9c8f630a3adfa8a",
+          "name": "Boar",
+          "publication": "DDEX1-11 - Dark Pyramid of Sorcerer's Isle",
+          "edition": "2014 fifth edition",
+          "status": "Combat summary",
+          "found": true,
+          "image": {
+            "url": "",
+            "credit": "Monster Manual (2014)"
+          },
+          "exactImages": [],
+          "otherPrintings": [
+            {
+              "publication": "Basic Rules (2018)",
+              "status": "Combat summary",
+              "images": []
+            },
+            {
+              "publication": "Black Flag Roleplaying Reference Document v0.2",
+              "status": "Combat summary",
+              "images": []
+            },
+            {
+              "publication": "DDEX3-02 - Shackles of Blood",
+              "status": "Combat summary",
+              "images": []
+            },
+            {
+              "publication": "Monster Manual (2014)",
+              "status": "Encounter reference",
+              "images": [
+                {
+                  "url": "",
+                  "credit": "Monster Manual (2014)"
+                }
+              ]
+            },
+            {
+              "publication": "Monster Manual (2024)",
+              "status": "Encounter reference",
+              "images": [
+                {
+                  "url": "",
+                  "credit": "Monster Manual (2024)"
+                },
+                {
+                  "url": "",
+                  "credit": "Monster Manual (2024)"
+                },
+                {
+                  "url": "",
+                  "credit": "Monster Manual (2024)"
+                },
+                {
+                  "url": "",
+                  "credit": "Monster Manual (2024)"
+                }
+              ]
+            },
+            {
+              "publication": "Monster Vault",
+              "images": []
+            },
+            {
+              "publication": "Revised v3.5 SRD (Monsters)",
+              "status": "Combat summary",
+              "images": []
+            },
+            {
+              "publication": "SRD 5.1",
+              "status": "Stat block",
+              "images": []
+            },
+            {
+              "publication": "SRD 5.2.1",
+              "status": "Stat block",
+              "images": []
+            }
+          ]
+        },
+        "artDisposition": "Generate exact-appearance alternate",
+        "reference": null
+      }
+    },
+    {
+      "entry": "beast-808d0a43170b4f2ad13f4eb3",
+      "version": "82bf1cbe70e50e6958b60a0b",
+      "name": "Caterpede",
+      "publication": "Humblewood Tales",
+      "edition": "2014 fifth edition compatible",
+      "status": "Source access",
+      "reason": "The public contents list the collected bestiary, but the full stat block requires access to the book.",
+      "source": "https://www.dndbeyond.com/sources/dnd/hwt",
+      "evidence": {
+        "runtime": {
+          "id": "beast-808d0a43170b4f2ad13f4eb3",
+          "key": "82bf1cbe70e50e6958b60a0b",
+          "name": "Caterpede",
+          "publication": "Humblewood Tales",
+          "edition": "2014 fifth edition compatible",
+          "found": true,
+          "image": {
+            "url": "",
+            "credit": "OpenAI ImageGen · The Lost Hope"
+          },
+          "portrait": {
+            "url": "",
+            "credit": "OpenAI ImageGen · The Lost Hope"
+          },
+          "exactImages": [
+            {
+              "url": "",
+              "credit": "Related Swarm of Insects illustration · Monster Manual (2024) · Humblewood Tales"
+            }
+          ],
+          "otherPrintings": []
+        },
+        "artDisposition": "Existing generated portrait",
+        "reference": {
+          "entityKind": "beast",
+          "name": "Caterpede",
+          "publication": "Humblewood Tales",
+          "edition": "2014 fifth edition compatible",
+          "file": "images/beasts/caterpede/ad25483bbe86-xmm-1.webp",
+          "artist": "Related Swarm of Insects illustration · Monster Manual (2024)",
+          "kind": "illustration",
+          "sha256": "ad25483bbe86c6b4fd96ca07b94cc2d0514e434fad7c0d25a842316c0122194c",
+          "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Swarm%20of%20Insects.webp"
+        }
+      }
+    },
+    {
+      "entry": "beast-b46b3fc2d83f648ca2aeeb45",
+      "version": "257c4e2939138eabbb142c32",
+      "name": "Cosmoth",
+      "publication": "Humblewood Tales",
+      "edition": "2014 fifth edition compatible",
+      "status": "Source access",
+      "reason": "The public contents list the collected bestiary, but the full stat block requires access to the book.",
+      "source": "https://www.dndbeyond.com/sources/dnd/hwt",
+      "evidence": {
+        "runtime": {
+          "id": "beast-b46b3fc2d83f648ca2aeeb45",
+          "key": "257c4e2939138eabbb142c32",
+          "name": "Cosmoth",
+          "publication": "Humblewood Tales",
+          "edition": "2014 fifth edition compatible",
+          "found": true,
+          "image": {
+            "url": "",
+            "credit": "D&D Beyond publisher art · Humblewood Tales"
+          },
+          "exactImages": [
+            {
+              "url": "",
+              "credit": "D&D Beyond publisher art · Humblewood Tales"
+            }
+          ],
+          "otherPrintings": []
+        },
+        "artDisposition": "Generate exact-appearance alternate",
+        "reference": {
+          "name": "Cosmoth",
+          "edition": "2014 fifth edition compatible",
+          "publication": "Humblewood Tales",
+          "entityKind": "beast",
+          "file": "images/beasts/cosmoth/publisher-7d818c4bab5dece8.webp",
+          "url": "https://www.dndbeyond.com/avatars/thumbnails/46988/250/1000/1000/638735984427660803.png",
+          "artist": "D&D Beyond publisher art",
+          "sha256": "1a1e0ae089d76f0168e9304293564219210eefa9cbefca1fa1ad33b5e74351f8",
+          "kind": "illustration"
+        }
+      }
+    },
+    {
+      "entry": "beast-c00474fed236d68211b673b3",
+      "version": "400aeec0fefe7c60c717e09e",
+      "name": "Dusktail",
+      "publication": "Humblewood Tales",
+      "edition": "2014 fifth edition compatible",
+      "status": "Source access",
+      "reason": "The public contents list the collected bestiary, but the full stat block requires access to the book.",
+      "source": "https://www.dndbeyond.com/sources/dnd/hwt",
+      "evidence": {
+        "runtime": {
+          "id": "beast-c00474fed236d68211b673b3",
+          "key": "400aeec0fefe7c60c717e09e",
+          "name": "Dusktail",
+          "publication": "Humblewood Tales",
+          "edition": "2014 fifth edition compatible",
+          "found": true,
+          "image": {
+            "url": "",
+            "credit": "D&D Beyond publisher art · Humblewood Tales"
+          },
+          "exactImages": [
+            {
+              "url": "",
+              "credit": "D&D Beyond publisher art · Humblewood Tales"
+            }
+          ],
+          "otherPrintings": []
+        },
+        "artDisposition": "Generate exact-appearance alternate",
+        "reference": {
+          "name": "Dusktail",
+          "edition": "2014 fifth edition compatible",
+          "publication": "Humblewood Tales",
+          "entityKind": "beast",
+          "file": "images/beasts/dusktail/publisher-9d490075a182dcf6.webp",
+          "url": "https://www.dndbeyond.com/avatars/thumbnails/46988/256/1000/1000/638735984435484114.png",
+          "artist": "D&D Beyond publisher art",
+          "sha256": "8b101511c39cf20fe3e940575516e2fb9adb47217ffbc9215778377eff7d8a01",
+          "kind": "illustration"
+        }
+      }
+    },
+    {
+      "entry": "beast-290e0eed3ece195969b5d786",
+      "version": "b02829e509ab3e9928435085",
+      "name": "Emberbat",
+      "publication": "Humblewood Tales",
+      "edition": "2014 fifth edition compatible",
+      "status": "Source access",
+      "reason": "The public contents list the collected bestiary, but the full stat block requires access to the book.",
+      "source": "https://www.dndbeyond.com/sources/dnd/hwt",
+      "evidence": {
+        "runtime": {
+          "id": "beast-290e0eed3ece195969b5d786",
+          "key": "b02829e509ab3e9928435085",
+          "name": "Emberbat",
+          "publication": "Humblewood Tales",
+          "edition": "2014 fifth edition compatible",
+          "found": true,
+          "image": {
+            "url": "",
+            "credit": "D&D Beyond publisher art · Humblewood Tales"
+          },
+          "exactImages": [
+            {
+              "url": "",
+              "credit": "D&D Beyond publisher art · Humblewood Tales"
+            }
+          ],
+          "otherPrintings": [
+            {
+              "publication": "Humblewood Campaign Setting",
+              "status": "Stat block",
+              "images": [
+                {
+                  "url": "",
+                  "credit": "D&D Beyond publisher art · Humblewood Campaign Setting"
+                }
+              ]
+            }
+          ]
+        },
+        "artDisposition": "Reuse matching generated portrait",
+        "reference": {
+          "name": "Emberbat",
+          "edition": "2014 fifth edition compatible",
+          "publication": "Humblewood Tales",
+          "entityKind": "beast",
+          "file": "images/beasts/emberbat/publisher-c15e5dcabf584869.webp",
+          "url": "https://www.dndbeyond.com/avatars/thumbnails/39918/733/1000/1000/638433706452601185.png",
+          "artist": "D&D Beyond publisher art",
+          "sha256": "8442eef40c216b255b314d38d686d8d8d90ef38aeb987c08e6bb0a77883d5728",
+          "kind": "illustration"
+        },
+        "reuse": {
+          "file": "",
+          "sha256": "43a3071cd52b0902129bf274b7463ae666b0126e606a866aca5bfe0613111b6a",
+          "credit": "OpenAI ImageGen"
+        }
+      }
+    },
+    {
+      "entry": "beast-bf2c76d0a8b9d80f8a68a453",
+      "version": "5d54e6f9052341f98bece08f",
+      "name": "Everbug",
+      "publication": "Humblewood Tales",
+      "edition": "2014 fifth edition compatible",
+      "status": "Source access",
+      "reason": "The public contents list the collected bestiary, but the full stat block requires access to the book.",
+      "source": "https://www.dndbeyond.com/sources/dnd/hwt",
+      "evidence": {
+        "runtime": {
+          "id": "beast-bf2c76d0a8b9d80f8a68a453",
+          "key": "5d54e6f9052341f98bece08f",
+          "name": "Everbug",
+          "publication": "Humblewood Tales",
+          "edition": "2014 fifth edition compatible",
+          "found": true,
+          "image": {
+            "url": "",
+            "credit": "D&D Beyond publisher art · Humblewood Tales"
+          },
+          "exactImages": [
+            {
+              "url": "",
+              "credit": "D&D Beyond publisher art · Humblewood Tales"
+            }
+          ],
+          "otherPrintings": []
+        },
+        "artDisposition": "Generate exact-appearance alternate",
+        "reference": {
+          "name": "Everbug",
+          "edition": "2014 fifth edition compatible",
+          "publication": "Humblewood Tales",
+          "entityKind": "beast",
+          "file": "images/beasts/everbug/publisher-33e2cd29445b7efd.webp",
+          "url": "https://www.dndbeyond.com/avatars/thumbnails/46988/260/1000/1000/638735984440181620.png",
+          "artist": "D&D Beyond publisher art",
+          "sha256": "1fa633621a0ca3ea85312282623497d7281c8c006e0568e382dbbd7b4c5f8cd7",
+          "kind": "illustration"
+        }
+      }
+    },
+    {
+      "entry": "beast-117d667c3fa1f36d8d02e41b",
+      "version": "23f3a4fad062b6fc6db5f363",
+      "name": "Firelance",
+      "publication": "Humblewood Tales",
+      "edition": "2014 fifth edition compatible",
+      "status": "Source access",
+      "reason": "The public contents list the collected bestiary, but the full stat block requires access to the book.",
+      "source": "https://www.dndbeyond.com/sources/dnd/hwt",
+      "evidence": {
+        "runtime": {
+          "id": "beast-117d667c3fa1f36d8d02e41b",
+          "key": "23f3a4fad062b6fc6db5f363",
+          "name": "Firelance",
+          "publication": "Humblewood Tales",
+          "edition": "2014 fifth edition compatible",
+          "found": true,
+          "image": {
+            "url": "",
+            "credit": "D&D Beyond publisher art · Humblewood Tales"
+          },
+          "exactImages": [
+            {
+              "url": "",
+              "credit": "D&D Beyond publisher art · Humblewood Tales"
+            }
+          ],
+          "otherPrintings": []
+        },
+        "artDisposition": "Generate exact-appearance alternate",
+        "reference": {
+          "name": "Firelance",
+          "edition": "2014 fifth edition compatible",
+          "publication": "Humblewood Tales",
+          "entityKind": "beast",
+          "file": "images/beasts/firelance/publisher-edac32dae5be7433.webp",
+          "url": "https://www.dndbeyond.com/avatars/thumbnails/46988/262/1000/1000/638735984442856419.png",
+          "artist": "D&D Beyond publisher art",
+          "sha256": "a94e094e20c56df58b650dc06b4ffc6046645f1d8926a41477cd8911e21f9ab3",
+          "kind": "illustration"
+        }
+      }
+    },
+    {
+      "entry": "beast-6cdadee98f2f89e12d67c959",
+      "version": "cf611ae61da891e1051e0687",
+      "name": "Forest Prowler",
+      "publication": "Humblewood Tales",
+      "edition": "2014 fifth edition compatible",
+      "status": "Source access",
+      "reason": "The public contents list the collected bestiary, but the full stat block requires access to the book.",
+      "source": "https://www.dndbeyond.com/sources/dnd/hwt",
+      "evidence": {
+        "runtime": {
+          "id": "beast-6cdadee98f2f89e12d67c959",
+          "key": "cf611ae61da891e1051e0687",
+          "name": "Forest Prowler",
+          "publication": "Humblewood Tales",
+          "edition": "2014 fifth edition compatible",
+          "found": true,
+          "image": {
+            "url": "",
+            "credit": "D&D Beyond publisher art · Humblewood Tales"
+          },
+          "exactImages": [
+            {
+              "url": "",
+              "credit": "D&D Beyond publisher art · Humblewood Tales"
+            }
+          ],
+          "otherPrintings": [
+            {
+              "publication": "Humblewood Campaign Setting",
+              "status": "Stat block",
+              "images": [
+                {
+                  "url": "",
+                  "credit": "D&D Beyond publisher art · Humblewood Campaign Setting"
+                }
+              ]
+            }
+          ]
+        },
+        "artDisposition": "Reuse matching generated portrait",
+        "reference": {
+          "name": "Forest Prowler",
+          "edition": "2014 fifth edition compatible",
+          "publication": "Humblewood Tales",
+          "entityKind": "beast",
+          "file": "images/beasts/forest-prowler/publisher-c1e4a88ad36435fb.webp",
+          "url": "https://www.dndbeyond.com/avatars/thumbnails/39918/735/1000/1000/638433706456033138.png",
+          "artist": "D&D Beyond publisher art",
+          "sha256": "e7e9acb233814812bac79f6dcf9057d8b8ed31009cd3395d1d61e2dafcd564b4",
+          "kind": "illustration"
+        },
+        "reuse": {
+          "file": "",
+          "sha256": "1c380787e815f435ddab9496ba60256246c69cd8435345fc001d5a14d595f831",
+          "credit": "OpenAI ImageGen"
+        }
+      }
+    },
+    {
+      "entry": "beast-08ae1aa700e497d6a08fc794",
+      "version": "530ede547b761a805a8a9c89",
+      "name": "Gargath",
+      "publication": "Humblewood Tales",
+      "edition": "2014 fifth edition compatible",
+      "status": "Source access",
+      "reason": "The public contents list the collected bestiary, but the full stat block requires access to the book.",
+      "source": "https://www.dndbeyond.com/sources/dnd/hwt",
+      "evidence": {
+        "runtime": {
+          "id": "beast-08ae1aa700e497d6a08fc794",
+          "key": "530ede547b761a805a8a9c89",
+          "name": "Gargath",
+          "publication": "Humblewood Tales",
+          "edition": "2014 fifth edition compatible",
+          "found": true,
+          "image": {
+            "url": "",
+            "credit": "D&D Beyond publisher art · Humblewood Tales"
+          },
+          "exactImages": [
+            {
+              "url": "",
+              "credit": "D&D Beyond publisher art · Humblewood Tales"
+            }
+          ],
+          "otherPrintings": []
+        },
+        "artDisposition": "Generate exact-appearance alternate",
+        "reference": {
+          "name": "Gargath",
+          "edition": "2014 fifth edition compatible",
+          "publication": "Humblewood Tales",
+          "entityKind": "beast",
+          "file": "images/beasts/gargath/publisher-ead28ff7693ba6b0.webp",
+          "url": "https://www.dndbeyond.com/avatars/thumbnails/46988/268/1000/1000/638735984450539605.png",
+          "artist": "D&D Beyond publisher art",
+          "sha256": "d0b34aca2c757103807aa0c926943d1d9c92ed144ce4699db75dbb7484718fdb",
+          "kind": "illustration"
+        }
+      }
+    },
+    {
+      "entry": "beast-bfb3ab058bc9ee58d6e31bb2",
+      "version": "1312759214f9bfce39ed8f2c",
+      "name": "Glassbeetle",
+      "publication": "Humblewood Tales",
+      "edition": "2014 fifth edition compatible",
+      "status": "Source access",
+      "reason": "The public contents list the collected bestiary, but the full stat block requires access to the book.",
+      "source": "https://www.dndbeyond.com/sources/dnd/hwt",
+      "evidence": {
+        "runtime": {
+          "id": "beast-bfb3ab058bc9ee58d6e31bb2",
+          "key": "1312759214f9bfce39ed8f2c",
+          "name": "Glassbeetle",
+          "publication": "Humblewood Tales",
+          "edition": "2014 fifth edition compatible",
+          "found": true,
+          "image": {
+            "url": "",
+            "credit": "OpenAI ImageGen · The Lost Hope"
+          },
+          "portrait": {
+            "url": "",
+            "credit": "OpenAI ImageGen · The Lost Hope"
+          },
+          "exactImages": [
+            {
+              "url": "",
+              "credit": "Related Giant Fire Beetle illustration · Monster Manual (2024) · Humblewood Tales"
+            }
+          ],
+          "otherPrintings": []
+        },
+        "artDisposition": "Existing generated portrait",
+        "reference": {
+          "entityKind": "beast",
+          "name": "Glassbeetle",
+          "publication": "Humblewood Tales",
+          "edition": "2014 fifth edition compatible",
+          "file": "images/beasts/glassbeetle/443fa2bcd3ce-xmm-1.webp",
+          "artist": "Related Giant Fire Beetle illustration · Monster Manual (2024)",
+          "kind": "illustration",
+          "sha256": "443fa2bcd3ce5562ea10a24dcdd6e4526d10068a4c7674068090d9cb839069c1",
+          "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Giant%20Fire%20Beetle.webp"
+        }
+      }
+    },
+    {
+      "entry": "beast-219525ba97e3a58845e74b14",
+      "version": "f842c8c6a07c2a9cb6b5e769",
+      "name": "Juvenile Forest Prowler",
+      "publication": "Humblewood Tales",
+      "edition": "2014 fifth edition compatible",
+      "status": "Source access",
+      "reason": "The public contents list the collected bestiary, but the full stat block requires access to the book.",
+      "source": "https://www.dndbeyond.com/sources/dnd/hwt",
+      "evidence": {
+        "runtime": {
+          "id": "beast-219525ba97e3a58845e74b14",
+          "key": "f842c8c6a07c2a9cb6b5e769",
+          "name": "Juvenile Forest Prowler",
+          "publication": "Humblewood Tales",
+          "edition": "2014 fifth edition compatible",
+          "found": true,
+          "image": {
+            "url": "",
+            "credit": "OpenAI ImageGen · The Lost Hope"
+          },
+          "portrait": {
+            "url": "",
+            "credit": "OpenAI ImageGen · The Lost Hope"
+          },
+          "exactImages": [
+            {
+              "url": "",
+              "credit": "Related Forest Prowler artwork · Humblewood Campaign Setting · Humblewood Tales"
+            }
+          ],
+          "otherPrintings": []
+        },
+        "artDisposition": "Existing generated portrait",
+        "reference": {
+          "entityKind": "beast",
+          "name": "Juvenile Forest Prowler",
+          "publication": "Humblewood Tales",
+          "edition": "2014 fifth edition compatible",
+          "file": "images/beasts/juvenile-forest-prowler/e7e9acb23381-publisher-c1e4a88ad36435fb.webp",
+          "artist": "Related Forest Prowler artwork · Humblewood Campaign Setting",
+          "kind": "illustration",
+          "sha256": "e7e9acb233814812bac79f6dcf9057d8b8ed31009cd3395d1d61e2dafcd564b4",
+          "reference": "https://www.dndbeyond.com/avatars/thumbnails/39918/735/1000/1000/638433706456033138.png"
+        }
+      }
+    },
+    {
+      "entry": "beast-ab310c3f5c5d0b6cf65f82bb",
+      "version": "509b359c9bb24f0b6dab67c6",
+      "name": "Slicar",
+      "publication": "Humblewood Tales",
+      "edition": "2014 fifth edition compatible",
+      "status": "Source access",
+      "reason": "The public contents list the collected bestiary, but the full stat block requires access to the book.",
+      "source": "https://www.dndbeyond.com/sources/dnd/hwt",
+      "evidence": {
+        "runtime": {
+          "id": "beast-ab310c3f5c5d0b6cf65f82bb",
+          "key": "509b359c9bb24f0b6dab67c6",
+          "name": "Slicar",
+          "publication": "Humblewood Tales",
+          "edition": "2014 fifth edition compatible",
+          "found": true,
+          "image": {
+            "url": "",
+            "credit": "D&D Beyond publisher art · Humblewood Tales"
+          },
+          "exactImages": [
+            {
+              "url": "",
+              "credit": "D&D Beyond publisher art · Humblewood Tales"
+            }
+          ],
+          "otherPrintings": []
+        },
+        "artDisposition": "Generate exact-appearance alternate",
+        "reference": {
+          "name": "Slicar",
+          "edition": "2014 fifth edition compatible",
+          "publication": "Humblewood Tales",
+          "entityKind": "beast",
+          "file": "images/beasts/slicar/publisher-1ffc4f1bb9cd4694.webp",
+          "url": "https://www.dndbeyond.com/avatars/thumbnails/46988/314/1000/1000/638735984508421445.png",
+          "artist": "D&D Beyond publisher art",
+          "sha256": "26ea6bc8c9580bacca6c419121a597d9c5d4f2da36a99a34dedd91576f8076bb",
+          "kind": "illustration"
+        }
+      }
+    },
+    {
+      "entry": "beast-557cf9b8927b4c7488120931",
+      "version": "a75880108cc07275cb1bd327",
+      "name": "Swarm of Bluebees",
+      "publication": "Humblewood Tales",
+      "edition": "2014 fifth edition compatible",
+      "status": "Source access",
+      "reason": "The public contents list the collected bestiary, but the full stat block requires access to the book.",
+      "source": "https://www.dndbeyond.com/sources/dnd/hwt",
+      "evidence": {
+        "runtime": {
+          "id": "beast-557cf9b8927b4c7488120931",
+          "key": "a75880108cc07275cb1bd327",
+          "name": "Swarm of Bluebees",
+          "publication": "Humblewood Tales",
+          "edition": "2014 fifth edition compatible",
+          "found": true,
+          "image": {
+            "url": "",
+            "credit": "D&D Beyond publisher art · Humblewood Tales"
+          },
+          "exactImages": [
+            {
+              "url": "",
+              "credit": "D&D Beyond publisher art · Humblewood Tales"
+            }
+          ],
+          "otherPrintings": []
+        },
+        "artDisposition": "Generate exact-appearance alternate",
+        "reference": {
+          "name": "Swarm of Bluebees",
+          "edition": "2014 fifth edition compatible",
+          "publication": "Humblewood Tales",
+          "entityKind": "beast",
+          "file": "images/beasts/swarm-of-bluebees/publisher-e91ea44399cb4c4f.webp",
+          "url": "https://www.dndbeyond.com/avatars/thumbnails/47005/964/1000/1000/638736742112968713.png",
+          "artist": "D&D Beyond publisher art",
+          "sha256": "3ba22d1f4c4da3df93af71cc87875f3b3b1c208dd891708f5a3b56f11c70d5c7",
+          "kind": "illustration"
+        }
+      }
+    },
+    {
+      "entry": "beast-930832df402332d22a479e95",
+      "version": "0abf1a7d26818d7def7056f7",
+      "name": "Swarm of Dusktails",
+      "publication": "Humblewood Tales",
+      "edition": "2014 fifth edition compatible",
+      "status": "Source access",
+      "reason": "The public contents list the collected bestiary, but the full stat block requires access to the book.",
+      "source": "https://www.dndbeyond.com/sources/dnd/hwt",
+      "evidence": {
+        "runtime": {
+          "id": "beast-930832df402332d22a479e95",
+          "key": "0abf1a7d26818d7def7056f7",
+          "name": "Swarm of Dusktails",
+          "publication": "Humblewood Tales",
+          "edition": "2014 fifth edition compatible",
+          "found": true,
+          "image": {
+            "url": "",
+            "credit": "D&D Beyond publisher art · Humblewood Tales"
+          },
+          "exactImages": [
+            {
+              "url": "",
+              "credit": "D&D Beyond publisher art · Humblewood Tales"
+            }
+          ],
+          "otherPrintings": []
+        },
+        "artDisposition": "Generate exact-appearance alternate",
+        "reference": {
+          "name": "Swarm of Dusktails",
+          "edition": "2014 fifth edition compatible",
+          "publication": "Humblewood Tales",
+          "entityKind": "beast",
+          "file": "images/beasts/swarm-of-dusktails/publisher-3edd0451212861e4.webp",
+          "url": "https://www.dndbeyond.com/avatars/thumbnails/46988/328/1000/1000/638735984525934723.png",
+          "artist": "D&D Beyond publisher art",
+          "sha256": "8b101511c39cf20fe3e940575516e2fb9adb47217ffbc9215778377eff7d8a01",
+          "kind": "illustration"
+        }
+      }
+    },
+    {
+      "entry": "beast-681ea05944c42f0a73edaa53",
+      "version": "23bc6d72a4f524f050d41b9c",
+      "name": "Swarm of Gimlet Larvae",
+      "publication": "Humblewood Tales",
+      "edition": "2014 fifth edition compatible",
+      "status": "Source access",
+      "reason": "The public contents list the collected bestiary, but the full stat block requires access to the book.",
+      "source": "https://www.dndbeyond.com/sources/dnd/hwt",
+      "evidence": {
+        "runtime": {
+          "id": "beast-681ea05944c42f0a73edaa53",
+          "key": "23bc6d72a4f524f050d41b9c",
+          "name": "Swarm of Gimlet Larvae",
+          "publication": "Humblewood Tales",
+          "edition": "2014 fifth edition compatible",
+          "found": true,
+          "image": {
+            "url": "",
+            "credit": "OpenAI ImageGen · The Lost Hope"
+          },
+          "portrait": {
+            "url": "",
+            "credit": "OpenAI ImageGen · The Lost Hope"
+          },
+          "exactImages": [
+            {
+              "url": "",
+              "credit": "Related Swarm of Gimlets artwork · Humblewood Tales · Humblewood Tales"
+            }
+          ],
+          "otherPrintings": []
+        },
+        "artDisposition": "Existing generated portrait",
+        "reference": {
+          "entityKind": "beast",
+          "name": "Swarm of Gimlet Larvae",
+          "publication": "Humblewood Tales",
+          "edition": "2014 fifth edition compatible",
+          "file": "images/beasts/swarm-of-gimlet-larvae/520656a9b58f-publisher-d12cb6ef267083d2.webp",
+          "artist": "Related Swarm of Gimlets artwork · Humblewood Tales",
+          "kind": "illustration",
+          "sha256": "520656a9b58f0c6e1db88f5536133056158edfed62cfb8c2bfab1d9a325b799e",
+          "reference": "https://www.dndbeyond.com/avatars/thumbnails/46988/330/1000/1000/638735984528741373.png"
+        }
+      }
+    },
+    {
+      "entry": "beast-d2837e6d235004aae7facd88",
+      "version": "83f708d5a1d4e6d922732e01",
+      "name": "Swarm of Gimlets",
+      "publication": "Humblewood Tales",
+      "edition": "2014 fifth edition compatible",
+      "status": "Source access",
+      "reason": "The public contents list the collected bestiary, but the full stat block requires access to the book.",
+      "source": "https://www.dndbeyond.com/sources/dnd/hwt",
+      "evidence": {
+        "runtime": {
+          "id": "beast-d2837e6d235004aae7facd88",
+          "key": "83f708d5a1d4e6d922732e01",
+          "name": "Swarm of Gimlets",
+          "publication": "Humblewood Tales",
+          "edition": "2014 fifth edition compatible",
+          "found": true,
+          "image": {
+            "url": "",
+            "credit": "D&D Beyond publisher art · Humblewood Tales"
+          },
+          "exactImages": [
+            {
+              "url": "",
+              "credit": "D&D Beyond publisher art · Humblewood Tales"
+            }
+          ],
+          "otherPrintings": []
+        },
+        "artDisposition": "Generate exact-appearance alternate",
+        "reference": {
+          "name": "Swarm of Gimlets",
+          "edition": "2014 fifth edition compatible",
+          "publication": "Humblewood Tales",
+          "entityKind": "beast",
+          "file": "images/beasts/swarm-of-gimlets/publisher-d12cb6ef267083d2.webp",
+          "url": "https://www.dndbeyond.com/avatars/thumbnails/46988/330/1000/1000/638735984528741373.png",
+          "artist": "D&D Beyond publisher art",
+          "sha256": "520656a9b58f0c6e1db88f5536133056158edfed62cfb8c2bfab1d9a325b799e",
+          "kind": "illustration"
+        }
+      }
+    },
+    {
+      "entry": "beast-441a67273858472cbca85926",
+      "version": "bb106f671c56714513a7954a",
+      "name": "Toxic Caterpede",
+      "publication": "Humblewood Tales",
+      "edition": "2014 fifth edition compatible",
+      "status": "Source access",
+      "reason": "The public contents list the collected bestiary, but the full stat block requires access to the book.",
+      "source": "https://www.dndbeyond.com/sources/dnd/hwt",
+      "evidence": {
+        "runtime": {
+          "id": "beast-441a67273858472cbca85926",
+          "key": "bb106f671c56714513a7954a",
+          "name": "Toxic Caterpede",
+          "publication": "Humblewood Tales",
+          "edition": "2014 fifth edition compatible",
+          "found": true,
+          "image": {
+            "url": "",
+            "credit": "OpenAI ImageGen · The Lost Hope"
+          },
+          "portrait": {
+            "url": "",
+            "credit": "OpenAI ImageGen · The Lost Hope"
+          },
+          "exactImages": [
+            {
+              "url": "",
+              "credit": "Related Swarm of Insects token · Monster Manual (2014) · Humblewood Tales"
+            }
+          ],
+          "otherPrintings": []
+        },
+        "artDisposition": "Existing generated portrait",
+        "reference": {
+          "entityKind": "beast",
+          "name": "Toxic Caterpede",
+          "publication": "Humblewood Tales",
+          "edition": "2014 fifth edition compatible",
+          "file": "images/beasts/toxic-caterpede/eb12e15d0bc5-mm-1.webp",
+          "artist": "Related Swarm of Insects token · Monster Manual (2014)",
+          "kind": "token",
+          "sha256": "eb12e15d0bc57ac05e7be1f3c602a7f2502b706d747b12678016c3a354b6e1d5",
+          "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/MM/Swarm%20of%20Insects.webp"
+        }
+      }
+    },
+    {
+      "entry": "beast-332e587050a0c943d6c5baae",
+      "version": "041f233b1ed30f3dc9ae2edd",
+      "name": "Wakewyrm",
+      "publication": "Humblewood Tales",
+      "edition": "2014 fifth edition compatible",
+      "status": "Source access",
+      "reason": "The public contents list the collected bestiary, but the full stat block requires access to the book.",
+      "source": "https://www.dndbeyond.com/sources/dnd/hwt",
+      "evidence": {
+        "runtime": {
+          "id": "beast-332e587050a0c943d6c5baae",
+          "key": "041f233b1ed30f3dc9ae2edd",
+          "name": "Wakewyrm",
+          "publication": "Humblewood Tales",
+          "edition": "2014 fifth edition compatible",
+          "found": true,
+          "image": {
+            "url": "",
+            "credit": "D&D Beyond publisher art · Humblewood Tales"
+          },
+          "exactImages": [
+            {
+              "url": "",
+              "credit": "D&D Beyond publisher art · Humblewood Tales"
+            }
+          ],
+          "otherPrintings": [
+            {
+              "publication": "Humblewood Campaign Setting",
+              "status": "Stat block",
+              "images": [
+                {
+                  "url": "",
+                  "credit": "D&D Beyond publisher art · Humblewood Campaign Setting"
+                }
+              ]
+            }
+          ]
+        },
+        "artDisposition": "Reuse matching generated portrait",
+        "reference": {
+          "name": "Wakewyrm",
+          "edition": "2014 fifth edition compatible",
+          "publication": "Humblewood Tales",
+          "entityKind": "beast",
+          "file": "images/beasts/wakewyrm/publisher-62a2ee90fd6302eb.webp",
+          "url": "https://www.dndbeyond.com/avatars/thumbnails/39918/816/1000/1000/638433706597056035.jpeg",
+          "artist": "D&D Beyond publisher art",
+          "sha256": "6399ca20945b17442145e6d18deea8a547575dda2ea3cbfe8607a1b2b3873bdf",
+          "kind": "illustration"
+        },
+        "reuse": {
+          "file": "",
+          "sha256": "509e63f8dd3a4b805f2bffabbd37e97342820abd33ac36010eef08b267aeb20d",
+          "credit": "OpenAI ImageGen"
+        }
+      }
+    },
+    {
+      "entry": "beast-9165cfcf0107ab4561393816",
+      "version": "468123675a1c8aacbdd966a0",
+      "name": "Young Wakewyrm",
+      "publication": "Humblewood Tales",
+      "edition": "2014 fifth edition compatible",
+      "status": "Source access",
+      "reason": "The public contents list the collected bestiary, but the full stat block requires access to the book.",
+      "source": "https://www.dndbeyond.com/sources/dnd/hwt",
+      "evidence": {
+        "runtime": {
+          "id": "beast-9165cfcf0107ab4561393816",
+          "key": "468123675a1c8aacbdd966a0",
+          "name": "Young Wakewyrm",
+          "publication": "Humblewood Tales",
+          "edition": "2014 fifth edition compatible",
+          "found": true,
+          "image": {
+            "url": "",
+            "credit": "D&D Beyond publisher art · Humblewood Tales"
+          },
+          "exactImages": [
+            {
+              "url": "",
+              "credit": "D&D Beyond publisher art · Humblewood Tales"
+            }
+          ],
+          "otherPrintings": []
+        },
+        "artDisposition": "Reuse matching generated portrait",
+        "reference": {
+          "name": "Young Wakewyrm",
+          "edition": "2014 fifth edition compatible",
+          "publication": "Humblewood Tales",
+          "entityKind": "beast",
+          "file": "images/beasts/young-wakewyrm/publisher-1d7e56bcd2cf75d1.webp",
+          "url": "https://www.dndbeyond.com/avatars/thumbnails/46988/340/1000/1000/638735984541103657.png",
+          "artist": "D&D Beyond publisher art",
+          "sha256": "751f45b7dede3bfd93cbd178a5edd58ceeaf551978628650aea80df3efa33c95",
+          "kind": "illustration"
+        },
+        "reuse": {
+          "file": "",
+          "sha256": "3757dcde638316bdafaf29dc734cf69391b5527abe9661974964376a05d65eed",
+          "credit": "OpenAI ImageGen"
+        }
+      }
+    },
+    {
+      "entry": "beast-bb36e7071007248658e5ff6d",
+      "version": "bcc66c5d1fbeac57d73d0e38",
+      "name": "Axolotl, Giant",
+      "publication": "Monster Vault 2",
+      "edition": "Black Flag Roleplaying",
+      "status": "Source access",
+      "reason": "The publisher index and public preview omit the full stat block.",
+      "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "evidence": {
+        "runtime": {
+          "id": "beast-bb36e7071007248658e5ff6d",
+          "key": "bcc66c5d1fbeac57d73d0e38",
+          "name": "Axolotl, Giant",
+          "publication": "Monster Vault 2",
+          "edition": "Black Flag Roleplaying",
+          "found": true,
+          "image": {
+            "url": "",
+            "credit": "OpenAI ImageGen · The Lost Hope"
+          },
+          "portrait": {
+            "url": "",
+            "credit": "OpenAI ImageGen · The Lost Hope"
+          },
+          "exactImages": [
+            {
+              "url": "",
+              "credit": "Related Axolotl photograph by Erzengel · Public domain · Monster Vault 2"
+            }
+          ],
+          "otherPrintings": []
+        },
+        "artDisposition": "Existing generated portrait",
+        "reference": {
+          "entityKind": "beast",
+          "name": "Axolotl, Giant",
+          "publication": "Monster Vault 2",
+          "edition": "Black Flag Roleplaying",
+          "file": "images/beasts/axolotl-giant/ebf0b5aa9c10-commons-axolotl.jpg",
+          "artist": "Related Axolotl photograph by Erzengel · Public domain",
+          "kind": "photograph",
+          "sha256": "ebf0b5aa9c10c6592b3220f1a097f15c988712030b1851c470d6d8c9e3c9fe23",
+          "reference": "https://commons.wikimedia.org/wiki/File:Axolotl.jpg",
+          "license": "https://creativecommons.org/publicdomain/mark/1.0/"
+        }
+      }
+    },
+    {
+      "entry": "beast-68cdd43848e4e20436bb4f62",
+      "version": "cbd156eebe2ef6d14085793a",
+      "name": "Cavalry Camel",
+      "publication": "Monster Vault 2",
+      "edition": "Black Flag Roleplaying",
+      "status": "Source access",
+      "reason": "The publisher index and public preview omit the full stat block.",
+      "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "evidence": {
+        "runtime": {
+          "id": "beast-68cdd43848e4e20436bb4f62",
+          "key": "cbd156eebe2ef6d14085793a",
+          "name": "Cavalry Camel",
+          "publication": "Monster Vault 2",
+          "edition": "Black Flag Roleplaying",
+          "found": true,
+          "image": {
+            "url": "",
+            "credit": "OpenAI ImageGen · The Lost Hope"
+          },
+          "portrait": {
+            "url": "",
+            "credit": "OpenAI ImageGen · The Lost Hope"
+          },
+          "exactImages": [
+            {
+              "url": "",
+              "credit": "Related Camel illustration by Polar Engine · Monster Manual (2024) · Monster Vault 2"
+            },
+            {
+              "url": "",
+              "credit": "Related Camel token · Monster Manual (2014) · Monster Vault 2"
+            }
+          ],
+          "otherPrintings": []
+        },
+        "artDisposition": "Existing generated portrait",
+        "reference": {
+          "entityKind": "beast",
+          "name": "Cavalry Camel",
+          "publication": "Monster Vault 2",
+          "edition": "Black Flag Roleplaying",
+          "file": "images/beasts/cavalry-camel/2d0f1604f760-xmm-1.webp",
+          "artist": "Related Camel illustration by Polar Engine · Monster Manual (2024)",
+          "kind": "illustration",
+          "sha256": "2d0f1604f760d5553ed2692c885855692676b66bc6c90b5cb7663ff76a433a27",
+          "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Camel.webp"
+        }
+      }
+    },
+    {
+      "entry": "beast-ea1f038dd1ecf0e761f81e53",
+      "version": "20e84728364db23c4985fe2e",
+      "name": "Death Butterfly Swarm",
+      "publication": "Monster Vault 2",
+      "edition": "Black Flag Roleplaying",
+      "status": "Source access",
+      "reason": "The publisher index and public preview omit the full stat block.",
+      "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "evidence": {
+        "runtime": {
+          "id": "beast-ea1f038dd1ecf0e761f81e53",
+          "key": "20e84728364db23c4985fe2e",
+          "name": "Death Butterfly Swarm",
+          "publication": "Monster Vault 2",
+          "edition": "Black Flag Roleplaying",
+          "found": true,
+          "image": {
+            "url": "",
+            "credit": "OpenAI ImageGen · The Lost Hope"
+          },
+          "portrait": {
+            "url": "",
+            "credit": "OpenAI ImageGen · The Lost Hope"
+          },
+          "exactImages": [
+            {
+              "url": "",
+              "credit": "Related Monarch butterfly photograph by Kenneth Dwain Harrelson · CC BY-SA 3.0 · Monster Vault 2"
+            },
+            {
+              "url": "",
+              "credit": "Related Swarm of Insects illustration · Monster Manual (2024) · Monster Vault 2"
+            }
+          ],
+          "otherPrintings": []
+        },
+        "artDisposition": "Existing generated portrait",
+        "reference": {
+          "entityKind": "beast",
+          "name": "Death Butterfly Swarm",
+          "publication": "Monster Vault 2",
+          "edition": "Black Flag Roleplaying",
+          "file": "images/beasts/death-butterfly-swarm/895def1c37cf-commons-monarch.jpg",
+          "artist": "Related Monarch butterfly photograph by Kenneth Dwain Harrelson · CC BY-SA 3.0",
+          "kind": "photograph",
+          "sha256": "895def1c37cfa09495ecff1687cab49fb67f0680110a0d43cb63f55233bf3c9c",
+          "reference": "https://commons.wikimedia.org/wiki/File:Monarch_In_May.jpg",
+          "license": "https://creativecommons.org/licenses/by-sa/3.0"
+        }
+      }
+    },
+    {
+      "entry": "beast-32fbd2481039c9fa51117e62",
+      "version": "6609add5e46a08fd7f18b1c7",
+      "name": "Death Butterfly Swarm, Greater",
+      "publication": "Monster Vault 2",
+      "edition": "Black Flag Roleplaying",
+      "status": "Source access",
+      "reason": "The publisher index and public preview omit the full stat block.",
+      "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "evidence": {
+        "runtime": {
+          "id": "beast-32fbd2481039c9fa51117e62",
+          "key": "6609add5e46a08fd7f18b1c7",
+          "name": "Death Butterfly Swarm, Greater",
+          "publication": "Monster Vault 2",
+          "edition": "Black Flag Roleplaying",
+          "found": true,
+          "image": {
+            "url": "",
+            "credit": "OpenAI ImageGen · The Lost Hope"
+          },
+          "portrait": {
+            "url": "",
+            "credit": "OpenAI ImageGen · The Lost Hope"
+          },
+          "exactImages": [
+            {
+              "url": "",
+              "credit": "Related Monarch butterfly photograph by Kenneth Dwain Harrelson · CC BY-SA 3.0 · Monster Vault 2"
+            },
+            {
+              "url": "",
+              "credit": "Related Swarm of Insects illustration · Monster Manual (2024) · Monster Vault 2"
+            }
+          ],
+          "otherPrintings": []
+        },
+        "artDisposition": "Existing generated portrait",
+        "reference": {
+          "entityKind": "beast",
+          "name": "Death Butterfly Swarm, Greater",
+          "publication": "Monster Vault 2",
+          "edition": "Black Flag Roleplaying",
+          "file": "images/beasts/death-butterfly-swarm-greater/895def1c37cf-commons-monarch.jpg",
+          "artist": "Related Monarch butterfly photograph by Kenneth Dwain Harrelson · CC BY-SA 3.0",
+          "kind": "photograph",
+          "sha256": "895def1c37cfa09495ecff1687cab49fb67f0680110a0d43cb63f55233bf3c9c",
+          "reference": "https://commons.wikimedia.org/wiki/File:Monarch_In_May.jpg",
+          "license": "https://creativecommons.org/licenses/by-sa/3.0"
+        }
+      }
+    },
+    {
+      "entry": "beast-89ba7b5988fbd8383091fea4",
+      "version": "a5cd4963dfe40e6401b1ca4b",
+      "name": "Feymount Raccoon",
+      "publication": "Monster Vault 2",
+      "edition": "Black Flag Roleplaying",
+      "status": "Source access",
+      "reason": "The publisher index and public preview omit the full stat block.",
+      "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "evidence": {
+        "runtime": {
+          "id": "beast-89ba7b5988fbd8383091fea4",
+          "key": "a5cd4963dfe40e6401b1ca4b",
+          "name": "Feymount Raccoon",
+          "publication": "Monster Vault 2",
+          "edition": "Black Flag Roleplaying",
+          "found": true,
+          "image": {
+            "url": "",
+            "credit": "OpenAI ImageGen · The Lost Hope"
+          },
+          "portrait": {
+            "url": "",
+            "credit": "OpenAI ImageGen · The Lost Hope"
+          },
+          "exactImages": [
+            {
+              "url": "",
+              "credit": "Related Raccoon photograph by California Department of Water Resources · Public domain · Monster Vault 2"
+            }
+          ],
+          "otherPrintings": []
+        },
+        "artDisposition": "Existing generated portrait",
+        "reference": {
+          "entityKind": "beast",
+          "name": "Feymount Raccoon",
+          "publication": "Monster Vault 2",
+          "edition": "Black Flag Roleplaying",
+          "file": "images/beasts/feymount-raccoon/c832f074b28e-commons-raccoon.jpg",
+          "artist": "Related Raccoon photograph by California Department of Water Resources · Public domain",
+          "kind": "photograph",
+          "sha256": "c832f074b28e5acc02003b4e8bf21b811d80d8b1bb659c0b67b4c880df9f181a",
+          "reference": "https://commons.wikimedia.org/wiki/File:Raccoon_(Procyon_lotor),_portrait.jpg",
+          "license": "https://creativecommons.org/publicdomain/mark/1.0/"
+        }
+      }
+    },
+    {
+      "entry": "beast-d959be40df0ef46062799da5",
+      "version": "ae686f3c159f01ef0beaba46",
+      "name": "Hammberbill Goose",
+      "publication": "Monster Vault 2",
+      "edition": "Black Flag Roleplaying",
+      "status": "Source access",
+      "reason": "The publisher index and public preview omit the full stat block.",
+      "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "evidence": {
+        "runtime": {
+          "id": "beast-d959be40df0ef46062799da5",
+          "key": "ae686f3c159f01ef0beaba46",
+          "name": "Hammberbill Goose",
+          "publication": "Monster Vault 2",
+          "edition": "Black Flag Roleplaying",
+          "found": true,
+          "image": {
+            "url": "",
+            "credit": "OpenAI ImageGen · The Lost Hope"
+          },
+          "portrait": {
+            "url": "",
+            "credit": "OpenAI ImageGen · The Lost Hope"
+          },
+          "exactImages": [
+            {
+              "url": "",
+              "credit": "Related Giant Goose illustration · Bigby Presents: Glory of the Giants · Monster Vault 2"
+            }
+          ],
+          "otherPrintings": []
+        },
+        "artDisposition": "Existing generated portrait",
+        "reference": {
+          "entityKind": "beast",
+          "name": "Hammberbill Goose",
+          "publication": "Monster Vault 2",
+          "edition": "Black Flag Roleplaying",
+          "file": "images/beasts/hammberbill-goose/5165b8fcc6a5-bgg-1.webp",
+          "artist": "Related Giant Goose illustration · Bigby Presents: Glory of the Giants",
+          "kind": "illustration",
+          "sha256": "5165b8fcc6a5822b3527cba09b37f46d80ec5badab612e56fea85acbd4d59a2e",
+          "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/BGG/Giant%20Goose.webp"
+        }
+      }
+    },
+    {
+      "entry": "beast-abf74dc23bbf69ccee105cbe",
+      "version": "2c195736975c8e497740729e",
+      "name": "Hedgehog, Giant",
+      "publication": "Monster Vault 2",
+      "edition": "Black Flag Roleplaying",
+      "status": "Source access",
+      "reason": "The publisher index and public preview omit the full stat block.",
+      "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "evidence": {
+        "runtime": {
+          "id": "beast-abf74dc23bbf69ccee105cbe",
+          "key": "2c195736975c8e497740729e",
+          "name": "Hedgehog, Giant",
+          "publication": "Monster Vault 2",
+          "edition": "Black Flag Roleplaying",
+          "found": true,
+          "image": {
+            "url": "",
+            "credit": "OpenAI ImageGen · The Lost Hope"
+          },
+          "portrait": {
+            "url": "",
+            "credit": "OpenAI ImageGen · The Lost Hope"
+          },
+          "exactImages": [
+            {
+              "url": "",
+              "credit": "Related European hedgehog photograph by Peter O'Connor aka anemoneprojectors from Stevenage, United Kingdom · CC BY-SA 2.0 · Monster Vault 2"
+            }
+          ],
+          "otherPrintings": []
+        },
+        "artDisposition": "Existing generated portrait",
+        "reference": {
+          "entityKind": "beast",
+          "name": "Hedgehog, Giant",
+          "publication": "Monster Vault 2",
+          "edition": "Black Flag Roleplaying",
+          "file": "images/beasts/hedgehog-giant/e815debad138-commons-hedgehog.jpg",
+          "artist": "Related European hedgehog photograph by Peter O'Connor aka anemoneprojectors from Stevenage, United Kingdom · CC BY-SA 2.0",
+          "kind": "photograph",
+          "sha256": "e815debad1385a8f688c73b068b9ce1a61c51df91b1913e8244bbf6753b2edd3",
+          "reference": "https://commons.wikimedia.org/wiki/File:Hedgehog_(Erinaceus_europaeus)_(10873758833).jpg",
+          "license": "https://creativecommons.org/licenses/by-sa/2.0"
+        }
+      }
+    },
+    {
+      "entry": "beast-5d1340b59c52f9f7f74090bb",
+      "version": "e8d25d6a827d18b17a67fdfb",
+      "name": "Honey Bee, Giant",
+      "publication": "Monster Vault 2",
+      "edition": "Black Flag Roleplaying",
+      "status": "Source access",
+      "reason": "The publisher index and public preview omit the full stat block.",
+      "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "evidence": {
+        "runtime": {
+          "id": "beast-5d1340b59c52f9f7f74090bb",
+          "key": "e8d25d6a827d18b17a67fdfb",
+          "name": "Honey Bee, Giant",
+          "publication": "Monster Vault 2",
+          "edition": "Black Flag Roleplaying",
+          "found": true,
+          "image": {
+            "url": "",
+            "credit": "OpenAI ImageGen · The Lost Hope"
+          },
+          "portrait": {
+            "url": "",
+            "credit": "OpenAI ImageGen · The Lost Hope"
+          },
+          "exactImages": [
+            {
+              "url": "",
+              "credit": "Related Honey bee photograph by Arnoldius · CC BY-SA 4.0 · Monster Vault 2"
+            }
+          ],
+          "otherPrintings": []
+        },
+        "artDisposition": "Existing generated portrait",
+        "reference": {
+          "entityKind": "beast",
+          "name": "Honey Bee, Giant",
+          "publication": "Monster Vault 2",
+          "edition": "Black Flag Roleplaying",
+          "file": "images/beasts/honey-bee-giant/88ef57b9b9aa-commons-honey-bee.jpg",
+          "artist": "Related Honey bee photograph by Arnoldius · CC BY-SA 4.0",
+          "kind": "photograph",
+          "sha256": "88ef57b9b9aabf0873679d43bffc7375232ab4d1b13a008632ede8bf39d630b1",
+          "reference": "https://commons.wikimedia.org/wiki/File:Apis_mellifera_aka_honey_bee.jpg",
+          "license": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    },
+    {
+      "entry": "beast-91d138a79d21b5c0d822db3c",
+      "version": "26fd7b4eb379626ed7046cf7",
+      "name": "Honey Bee, Swarm of Bees",
+      "publication": "Monster Vault 2",
+      "edition": "Black Flag Roleplaying",
+      "status": "Source access",
+      "reason": "The publisher index and public preview omit the full stat block.",
+      "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "evidence": {
+        "runtime": {
+          "id": "beast-91d138a79d21b5c0d822db3c",
+          "key": "26fd7b4eb379626ed7046cf7",
+          "name": "Honey Bee, Swarm of Bees",
+          "publication": "Monster Vault 2",
+          "edition": "Black Flag Roleplaying",
+          "found": true,
+          "image": {
+            "url": "",
+            "credit": "OpenAI ImageGen · The Lost Hope"
+          },
+          "portrait": {
+            "url": "",
+            "credit": "OpenAI ImageGen · The Lost Hope"
+          },
+          "exactImages": [
+            {
+              "url": "",
+              "credit": "Related Swarm of Insects illustration · Monster Manual (2024) · Monster Vault 2"
+            },
+            {
+              "url": "",
+              "credit": "Related Honey bee photograph by Arnoldius · CC BY-SA 4.0 · Monster Vault 2"
+            }
+          ],
+          "otherPrintings": []
+        },
+        "artDisposition": "Existing generated portrait",
+        "reference": {
+          "entityKind": "beast",
+          "name": "Honey Bee, Swarm of Bees",
+          "publication": "Monster Vault 2",
+          "edition": "Black Flag Roleplaying",
+          "file": "images/beasts/honey-bee-swarm-of-bees/ad25483bbe86-xmm-1.webp",
+          "artist": "Related Swarm of Insects illustration · Monster Manual (2024)",
+          "kind": "illustration",
+          "sha256": "ad25483bbe86c6b4fd96ca07b94cc2d0514e434fad7c0d25a842316c0122194c",
+          "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Swarm%20of%20Insects.webp"
+        }
+      }
+    },
+    {
+      "entry": "beast-f0aed47a9def80dd410ddf0c",
+      "version": "c49fa94e7bf08c97d8b99742",
+      "name": "Millipede, Giant",
+      "publication": "Monster Vault 2",
+      "edition": "Black Flag Roleplaying",
+      "status": "Source access",
+      "reason": "The publisher index and public preview omit the full stat block.",
+      "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "evidence": {
+        "runtime": {
+          "id": "beast-f0aed47a9def80dd410ddf0c",
+          "key": "c49fa94e7bf08c97d8b99742",
+          "name": "Millipede, Giant",
+          "publication": "Monster Vault 2",
+          "edition": "Black Flag Roleplaying",
+          "found": true,
+          "image": {
+            "url": "",
+            "credit": "OpenAI ImageGen · The Lost Hope"
+          },
+          "portrait": {
+            "url": "",
+            "credit": "OpenAI ImageGen · The Lost Hope"
+          },
+          "exactImages": [
+            {
+              "url": "",
+              "credit": "Related Giant Centipede illustration · Monster Manual (2024) · Monster Vault 2"
+            }
+          ],
+          "otherPrintings": []
+        },
+        "artDisposition": "Existing generated portrait",
+        "reference": {
+          "entityKind": "beast",
+          "name": "Millipede, Giant",
+          "publication": "Monster Vault 2",
+          "edition": "Black Flag Roleplaying",
+          "file": "images/beasts/millipede-giant/afc5f2aac994-xmm-1.webp",
+          "artist": "Related Giant Centipede illustration · Monster Manual (2024)",
+          "kind": "illustration",
+          "sha256": "afc5f2aac99471144644a6da61f7ac112b5ecb680de5eb414a3cf15fe226f9ae",
+          "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Giant%20Centipede.webp"
+        }
+      }
+    },
+    {
+      "entry": "beast-52edb8d8b047944fdf4d4b15",
+      "version": "00cf6c3fe3249b267bbcda58",
+      "name": "Nightwing",
+      "publication": "Monster Vault 2",
+      "edition": "Black Flag Roleplaying",
+      "status": "Source access",
+      "reason": "The publisher index and public preview omit the full stat block.",
+      "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "evidence": {
+        "runtime": {
+          "id": "beast-52edb8d8b047944fdf4d4b15",
+          "key": "00cf6c3fe3249b267bbcda58",
+          "name": "Nightwing",
+          "publication": "Monster Vault 2",
+          "edition": "Black Flag Roleplaying",
+          "found": true,
+          "image": {
+            "url": "",
+            "credit": "OpenAI ImageGen · The Lost Hope"
+          },
+          "portrait": {
+            "url": "",
+            "credit": "OpenAI ImageGen · The Lost Hope"
+          },
+          "exactImages": [
+            {
+              "url": "",
+              "credit": "Related Giant Bat token · Monster Manual (2014) · Monster Vault 2"
+            },
+            {
+              "url": "",
+              "credit": "Related Bat illustration · Monster Manual (2024) · Monster Vault 2"
+            }
+          ],
+          "otherPrintings": []
+        },
+        "artDisposition": "Existing generated portrait",
+        "reference": {
+          "entityKind": "beast",
+          "name": "Nightwing",
+          "publication": "Monster Vault 2",
+          "edition": "Black Flag Roleplaying",
+          "file": "images/beasts/nightwing/73a9fc373c16-mm-1.webp",
+          "artist": "Related Giant Bat token · Monster Manual (2014)",
+          "kind": "token",
+          "sha256": "73a9fc373c161464b80929bb717c5c71b844f2365f642857ef26ff55a0af6c92",
+          "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/MM/Giant%20Bat.webp"
+        }
+      }
+    },
+    {
+      "entry": "beast-ba7f874470750071505ee3a3",
+      "version": "f58cbf238c88bfdd986a395e",
+      "name": "Oliphaunt Warbeast",
+      "publication": "Monster Vault 2",
+      "edition": "Black Flag Roleplaying",
+      "status": "Source access",
+      "reason": "The publisher index and public preview omit the full stat block.",
+      "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "evidence": {
+        "runtime": {
+          "id": "beast-ba7f874470750071505ee3a3",
+          "key": "f58cbf238c88bfdd986a395e",
+          "name": "Oliphaunt Warbeast",
+          "publication": "Monster Vault 2",
+          "edition": "Black Flag Roleplaying",
+          "found": true,
+          "image": {
+            "url": "",
+            "credit": "OpenAI ImageGen · The Lost Hope"
+          },
+          "portrait": {
+            "url": "",
+            "credit": "OpenAI ImageGen · The Lost Hope"
+          },
+          "exactImages": [
+            {
+              "url": "",
+              "credit": "Related Elephant illustration by Jonathan Kuo · Monster Manual (2024) · Monster Vault 2"
+            },
+            {
+              "url": "",
+              "credit": "Related Elephant token · Monster Manual (2014) · Monster Vault 2"
+            }
+          ],
+          "otherPrintings": []
+        },
+        "artDisposition": "Existing generated portrait",
+        "reference": {
+          "entityKind": "beast",
+          "name": "Oliphaunt Warbeast",
+          "publication": "Monster Vault 2",
+          "edition": "Black Flag Roleplaying",
+          "file": "images/beasts/oliphaunt-warbeast/7e3127cfd218-xmm-1.webp",
+          "artist": "Related Elephant illustration by Jonathan Kuo · Monster Manual (2024)",
+          "kind": "illustration",
+          "sha256": "7e3127cfd2189fcf9d907677ff4948c42df2f42ac83961dbb2bf2a8b5363436a",
+          "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Elephant.webp"
+        }
+      }
+    },
+    {
+      "entry": "beast-c9d1b4158aeee6db473bd528",
+      "version": "272a193147de65295e93073c",
+      "name": "Opossum",
+      "publication": "Monster Vault 2",
+      "edition": "Black Flag Roleplaying",
+      "status": "Source access",
+      "reason": "The publisher index and public preview omit the full stat block.",
+      "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "evidence": {
+        "runtime": {
+          "id": "beast-c9d1b4158aeee6db473bd528",
+          "key": "272a193147de65295e93073c",
+          "name": "Opossum",
+          "publication": "Monster Vault 2",
+          "edition": "Black Flag Roleplaying",
+          "found": true,
+          "image": {
+            "url": "",
+            "credit": "OpenAI ImageGen · The Lost Hope"
+          },
+          "portrait": {
+            "url": "",
+            "credit": "OpenAI ImageGen · The Lost Hope"
+          },
+          "exactImages": [
+            {
+              "url": "",
+              "credit": "Related Virginia opossum photograph by Mathieu Landretti · CC BY-SA 4.0 · Monster Vault 2"
+            }
+          ],
+          "otherPrintings": []
+        },
+        "artDisposition": "Existing generated portrait",
+        "reference": {
+          "entityKind": "beast",
+          "name": "Opossum",
+          "publication": "Monster Vault 2",
+          "edition": "Black Flag Roleplaying",
+          "file": "images/beasts/opossum/86aace1b0c1d-commons-opossum.jpg",
+          "artist": "Related Virginia opossum photograph by Mathieu Landretti · CC BY-SA 4.0",
+          "kind": "photograph",
+          "sha256": "86aace1b0c1d658cda6cd4d2254b61b5d5107d58777da4c9b320b214fe411fbd",
+          "reference": "https://commons.wikimedia.org/wiki/File:Virginia_Opossum.jpg",
+          "license": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    },
+    {
+      "entry": "beast-272e21104f920283d2449277",
+      "version": "84484e80c4fb4a3424186196",
+      "name": "Opossum, Giant",
+      "publication": "Monster Vault 2",
+      "edition": "Black Flag Roleplaying",
+      "status": "Source access",
+      "reason": "The publisher index and public preview omit the full stat block.",
+      "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "evidence": {
+        "runtime": {
+          "id": "beast-272e21104f920283d2449277",
+          "key": "84484e80c4fb4a3424186196",
+          "name": "Opossum, Giant",
+          "publication": "Monster Vault 2",
+          "edition": "Black Flag Roleplaying",
+          "found": true,
+          "image": {
+            "url": "",
+            "credit": "OpenAI ImageGen · The Lost Hope"
+          },
+          "portrait": {
+            "url": "",
+            "credit": "OpenAI ImageGen · The Lost Hope"
+          },
+          "exactImages": [
+            {
+              "url": "",
+              "credit": "Related Virginia opossum photograph by Mathieu Landretti · CC BY-SA 4.0 · Monster Vault 2"
+            }
+          ],
+          "otherPrintings": []
+        },
+        "artDisposition": "Existing generated portrait",
+        "reference": {
+          "entityKind": "beast",
+          "name": "Opossum, Giant",
+          "publication": "Monster Vault 2",
+          "edition": "Black Flag Roleplaying",
+          "file": "images/beasts/opossum-giant/86aace1b0c1d-commons-opossum.jpg",
+          "artist": "Related Virginia opossum photograph by Mathieu Landretti · CC BY-SA 4.0",
+          "kind": "photograph",
+          "sha256": "86aace1b0c1d658cda6cd4d2254b61b5d5107d58777da4c9b320b214fe411fbd",
+          "reference": "https://commons.wikimedia.org/wiki/File:Virginia_Opossum.jpg",
+          "license": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    },
+    {
+      "entry": "beast-384de0ea5642de952c020f3e",
+      "version": "8e9658b97f1ce46f666df8ea",
+      "name": "Rattus Eel",
+      "publication": "Monster Vault 2",
+      "edition": "Black Flag Roleplaying",
+      "status": "Source access",
+      "reason": "The publisher index and public preview omit the full stat block.",
+      "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "evidence": {
+        "runtime": {
+          "id": "beast-384de0ea5642de952c020f3e",
+          "key": "8e9658b97f1ce46f666df8ea",
+          "name": "Rattus Eel",
+          "publication": "Monster Vault 2",
+          "edition": "Black Flag Roleplaying",
+          "found": true,
+          "image": {
+            "url": "",
+            "credit": "OpenAI ImageGen · The Lost Hope"
+          },
+          "portrait": {
+            "url": "",
+            "credit": "OpenAI ImageGen · The Lost Hope"
+          },
+          "exactImages": [
+            {
+              "url": "",
+              "credit": "Related Giant Lightning Eel token · Tales from the Yawning Portal · Monster Vault 2"
+            },
+            {
+              "url": "",
+              "credit": "Related Giant Rat illustration · Monster Manual (2014) · Monster Vault 2"
+            }
+          ],
+          "otherPrintings": []
+        },
+        "artDisposition": "Existing generated portrait",
+        "reference": {
+          "entityKind": "beast",
+          "name": "Rattus Eel",
+          "publication": "Monster Vault 2",
+          "edition": "Black Flag Roleplaying",
+          "file": "images/beasts/rattus-eel/e4313b098475-tftyp-1.webp",
+          "artist": "Related Giant Lightning Eel token · Tales from the Yawning Portal",
+          "kind": "token",
+          "sha256": "e4313b0984756633db03d249142c3911bdcab2dd0d963c3d466c78fe04c37f50",
+          "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/TftYP/Giant%20Lightning%20Eel.webp"
+        }
+      }
+    },
+    {
+      "entry": "beast-de1bfefab956a6c0853d6053",
+      "version": "891cfcf8527de82bdd51e21c",
+      "name": "Rattus Eel, Swarm of Rattus Eels",
+      "publication": "Monster Vault 2",
+      "edition": "Black Flag Roleplaying",
+      "status": "Source access",
+      "reason": "The publisher index and public preview omit the full stat block.",
+      "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "evidence": {
+        "runtime": {
+          "id": "beast-de1bfefab956a6c0853d6053",
+          "key": "891cfcf8527de82bdd51e21c",
+          "name": "Rattus Eel, Swarm of Rattus Eels",
+          "publication": "Monster Vault 2",
+          "edition": "Black Flag Roleplaying",
+          "found": true,
+          "image": {
+            "url": "",
+            "credit": "OpenAI ImageGen · The Lost Hope"
+          },
+          "portrait": {
+            "url": "",
+            "credit": "OpenAI ImageGen · The Lost Hope"
+          },
+          "exactImages": [
+            {
+              "url": "",
+              "credit": "Related Giant Lightning Eel token · Tales from the Yawning Portal · Monster Vault 2"
+            },
+            {
+              "url": "",
+              "credit": "Related Rats illustration by Katerina Ladon · Monster Manual (2024 rules) · Monster Vault 2"
+            }
+          ],
+          "otherPrintings": []
+        },
+        "artDisposition": "Existing generated portrait",
+        "reference": {
+          "entityKind": "beast",
+          "name": "Rattus Eel, Swarm of Rattus Eels",
+          "publication": "Monster Vault 2",
+          "edition": "Black Flag Roleplaying",
+          "file": "images/beasts/rattus-eel-swarm-of-rattus-eels/e4313b098475-tftyp-1.webp",
+          "artist": "Related Giant Lightning Eel token · Tales from the Yawning Portal",
+          "kind": "token",
+          "sha256": "e4313b0984756633db03d249142c3911bdcab2dd0d963c3d466c78fe04c37f50",
+          "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/TftYP/Giant%20Lightning%20Eel.webp"
+        }
+      }
+    },
+    {
+      "entry": "beast-73b4a96391f0dcf28ef73c4b",
+      "version": "eba2a75504474830b4c749fa",
+      "name": "Skunk",
+      "publication": "Monster Vault 2",
+      "edition": "Black Flag Roleplaying",
+      "status": "Source access",
+      "reason": "The publisher index and public preview omit the full stat block.",
+      "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "evidence": {
+        "runtime": {
+          "id": "beast-73b4a96391f0dcf28ef73c4b",
+          "key": "eba2a75504474830b4c749fa",
+          "name": "Skunk",
+          "publication": "Monster Vault 2",
+          "edition": "Black Flag Roleplaying",
+          "found": true,
+          "image": {
+            "url": "",
+            "credit": "OpenAI ImageGen · The Lost Hope"
+          },
+          "portrait": {
+            "url": "",
+            "credit": "OpenAI ImageGen · The Lost Hope"
+          },
+          "exactImages": [
+            {
+              "url": "",
+              "credit": "Related Striped skunk photograph by http://www.birdphotos.com · CC BY 3.0 · Monster Vault 2"
+            }
+          ],
+          "otherPrintings": []
+        },
+        "artDisposition": "Existing generated portrait",
+        "reference": {
+          "entityKind": "beast",
+          "name": "Skunk",
+          "publication": "Monster Vault 2",
+          "edition": "Black Flag Roleplaying",
+          "file": "images/beasts/skunk/212e4590a84b-commons-skunk.jpg",
+          "artist": "Related Striped skunk photograph by http://www.birdphotos.com · CC BY 3.0",
+          "kind": "photograph",
+          "sha256": "212e4590a84b333dea6ccfe63e8163d41b5dcf1217b6364c451c9ecdc70f5c2b",
+          "reference": "https://commons.wikimedia.org/wiki/File:Striped_Skunk.jpg",
+          "license": "https://creativecommons.org/licenses/by/3.0"
+        }
+      }
+    },
+    {
+      "entry": "beast-4351b2f8d4b6d3935dba1cb5",
+      "version": "215362b88dd685b5ac214629",
+      "name": "Skunk, Giant",
+      "publication": "Monster Vault 2",
+      "edition": "Black Flag Roleplaying",
+      "status": "Source access",
+      "reason": "The publisher index and public preview omit the full stat block.",
+      "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "evidence": {
+        "runtime": {
+          "id": "beast-4351b2f8d4b6d3935dba1cb5",
+          "key": "215362b88dd685b5ac214629",
+          "name": "Skunk, Giant",
+          "publication": "Monster Vault 2",
+          "edition": "Black Flag Roleplaying",
+          "found": true,
+          "image": {
+            "url": "",
+            "credit": "OpenAI ImageGen · The Lost Hope"
+          },
+          "portrait": {
+            "url": "",
+            "credit": "OpenAI ImageGen · The Lost Hope"
+          },
+          "exactImages": [
+            {
+              "url": "",
+              "credit": "Related Striped skunk photograph by http://www.birdphotos.com · CC BY 3.0 · Monster Vault 2"
+            }
+          ],
+          "otherPrintings": []
+        },
+        "artDisposition": "Existing generated portrait",
+        "reference": {
+          "entityKind": "beast",
+          "name": "Skunk, Giant",
+          "publication": "Monster Vault 2",
+          "edition": "Black Flag Roleplaying",
+          "file": "images/beasts/skunk-giant/212e4590a84b-commons-skunk.jpg",
+          "artist": "Related Striped skunk photograph by http://www.birdphotos.com · CC BY 3.0",
+          "kind": "photograph",
+          "sha256": "212e4590a84b333dea6ccfe63e8163d41b5dcf1217b6364c451c9ecdc70f5c2b",
+          "reference": "https://commons.wikimedia.org/wiki/File:Striped_Skunk.jpg",
+          "license": "https://creativecommons.org/licenses/by/3.0"
+        }
+      }
+    },
+    {
+      "entry": "beast-4f8e918efe842f31ac6e77ea",
+      "version": "537a6a95ab8066782d430825",
+      "name": "Tress Lizard",
+      "publication": "Monster Vault 2",
+      "edition": "Black Flag Roleplaying",
+      "status": "Source access",
+      "reason": "The publisher index and public preview omit the full stat block.",
+      "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "evidence": {
+        "runtime": {
+          "id": "beast-4f8e918efe842f31ac6e77ea",
+          "key": "537a6a95ab8066782d430825",
+          "name": "Tress Lizard",
+          "publication": "Monster Vault 2",
+          "edition": "Black Flag Roleplaying",
+          "found": true,
+          "image": {
+            "url": "",
+            "credit": "OpenAI ImageGen · The Lost Hope"
+          },
+          "portrait": {
+            "url": "",
+            "credit": "OpenAI ImageGen · The Lost Hope"
+          },
+          "exactImages": [
+            {
+              "url": "",
+              "credit": "Related Lizard illustration by Jonathan Kuo · Monster Manual (2024) · Monster Vault 2"
+            },
+            {
+              "url": "",
+              "credit": "Related Giant Lizard token · Monster Manual (2014) · Monster Vault 2"
+            }
+          ],
+          "otherPrintings": []
+        },
+        "artDisposition": "Existing generated portrait",
+        "reference": {
+          "entityKind": "beast",
+          "name": "Tress Lizard",
+          "publication": "Monster Vault 2",
+          "edition": "Black Flag Roleplaying",
+          "file": "images/beasts/tress-lizard/a8527332acd4-xmm-1.webp",
+          "artist": "Related Lizard illustration by Jonathan Kuo · Monster Manual (2024)",
+          "kind": "illustration",
+          "sha256": "a8527332acd4d413a22dc78fe9becd6e0377a711b560f574cbe2ee286bcc289c",
+          "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Lizard.webp"
+        }
+      }
+    },
+    {
+      "entry": "beast-824225a12d3c8e6f8e9c72f5",
+      "version": "097e4ef7b31814f91929431e",
+      "name": "War Pig",
+      "publication": "Monster Vault 2",
+      "edition": "Black Flag Roleplaying",
+      "status": "Source access",
+      "reason": "The publisher index and public preview omit the full stat block.",
+      "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "evidence": {
+        "runtime": {
+          "id": "beast-824225a12d3c8e6f8e9c72f5",
+          "key": "097e4ef7b31814f91929431e",
+          "name": "War Pig",
+          "publication": "Monster Vault 2",
+          "edition": "Black Flag Roleplaying",
+          "found": true,
+          "image": {
+            "url": "",
+            "credit": "OpenAI ImageGen · The Lost Hope"
+          },
+          "portrait": {
+            "url": "",
+            "credit": "OpenAI ImageGen · The Lost Hope"
+          },
+          "exactImages": [
+            {
+              "url": "",
+              "credit": "Related Boar illustration by Polar Engine · Monster Manual (2024) · Monster Vault 2"
+            },
+            {
+              "url": "",
+              "credit": "Related Boar token · Monster Manual (2014) · Monster Vault 2"
+            }
+          ],
+          "otherPrintings": []
+        },
+        "artDisposition": "Existing generated portrait",
+        "reference": {
+          "entityKind": "beast",
+          "name": "War Pig",
+          "publication": "Monster Vault 2",
+          "edition": "Black Flag Roleplaying",
+          "file": "images/beasts/war-pig/261677761fe3-xmm-1.webp",
+          "artist": "Related Boar illustration by Polar Engine · Monster Manual (2024)",
+          "kind": "illustration",
+          "sha256": "261677761fe3a38a6b8ea5979e3f4b2bf00bb6d5b6271f451b7445c6fdf8b960",
+          "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Boar.webp"
+        }
+      }
+    },
+    {
+      "entry": "beast-9045adbd287a169ee1105355",
+      "version": "e893f942061a2b630f40cf3a",
+      "name": "Wooly Hippopotamus",
+      "publication": "Monster Vault 2",
+      "edition": "Black Flag Roleplaying",
+      "status": "Source access",
+      "reason": "The publisher index and public preview omit the full stat block.",
+      "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "evidence": {
+        "runtime": {
+          "id": "beast-9045adbd287a169ee1105355",
+          "key": "e893f942061a2b630f40cf3a",
+          "name": "Wooly Hippopotamus",
+          "publication": "Monster Vault 2",
+          "edition": "Black Flag Roleplaying",
+          "found": true,
+          "image": {
+            "url": "",
+            "credit": "OpenAI ImageGen · The Lost Hope"
+          },
+          "portrait": {
+            "url": "",
+            "credit": "OpenAI ImageGen · The Lost Hope"
+          },
+          "exactImages": [
+            {
+              "url": "",
+              "credit": "Related Hippopotamus photograph by Ralf Hüsges · CC BY 4.0 · Monster Vault 2"
+            }
+          ],
+          "otherPrintings": []
+        },
+        "artDisposition": "Existing generated portrait",
+        "reference": {
+          "entityKind": "beast",
+          "name": "Wooly Hippopotamus",
+          "publication": "Monster Vault 2",
+          "edition": "Black Flag Roleplaying",
+          "file": "images/beasts/wooly-hippopotamus/e317b4c6bb38-commons-hippopotamus.jpg",
+          "artist": "Related Hippopotamus photograph by Ralf Hüsges · CC BY 4.0",
+          "kind": "photograph",
+          "sha256": "e317b4c6bb3892ea4bf2174563b3f143f26c7095079d9c6e1d7938fb072285d8",
+          "reference": "https://commons.wikimedia.org/wiki/File:Hippopotamus_amphibius_-_South_Africa.jpg",
+          "license": "https://creativecommons.org/licenses/by/4.0"
+        }
+      }
+    },
+    {
+      "entry": "beast-df1bfdea7451d735855a3d3e",
+      "version": "4d286d230f55e203747d5613",
+      "name": "Swarm of Contaminated Insects",
+      "publication": "Monsters of Drakkenheim",
+      "edition": "2024 fifth edition compatible",
+      "status": "Final printing",
+      "reason": "The accessible original is labeled beta. Two secondary final-rule transcriptions disagree.",
+      "source": "https://www.dndbeyond.com/sources/dnd/modr",
+      "evidence": {
+        "runtime": {
+          "id": "beast-df1bfdea7451d735855a3d3e",
+          "key": "4d286d230f55e203747d5613",
+          "name": "Swarm of Contaminated Insects",
+          "publication": "Monsters of Drakkenheim",
+          "edition": "2024 fifth edition compatible",
+          "found": true,
+          "image": {
+            "url": "",
+            "credit": "OpenAI ImageGen · The Lost Hope"
+          },
+          "portrait": {
+            "url": "",
+            "credit": "OpenAI ImageGen · The Lost Hope"
+          },
+          "exactImages": [
+            {
+              "url": "",
+              "credit": "Related Swarm of Insects token · Monster Manual (2014) · Monsters of Drakkenheim"
+            },
+            {
+              "url": "",
+              "credit": "Related Swarm of Insects illustration · Monster Manual (2024) · Monsters of Drakkenheim"
+            }
+          ],
+          "otherPrintings": []
+        },
+        "artDisposition": "Existing generated portrait",
+        "reference": {
+          "entityKind": "beast",
+          "name": "Swarm of Contaminated Insects",
+          "publication": "Monsters of Drakkenheim",
+          "edition": "2024 fifth edition compatible",
+          "file": "images/beasts/swarm-of-contaminated-insects/eb12e15d0bc5-mm-1.webp",
+          "artist": "Related Swarm of Insects token · Monster Manual (2014)",
+          "kind": "token",
+          "sha256": "eb12e15d0bc57ac05e7be1f3c602a7f2502b706d747b12678016c3a354b6e1d5",
+          "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/MM/Swarm%20of%20Insects.webp"
+        }
+      }
+    },
+    {
+      "entry": "beast-f62685740da996c35d1e6a58",
+      "version": "e86e8b1cc26a9adb462d960e",
+      "name": "Spiderfrog",
+      "publication": "Muk's Guide To Everything He Learned From Tasha",
+      "edition": "2014 fifth edition",
+      "status": "Source access",
+      "reason": "The original preview ends before the Spiderfrog stat block.",
+      "source": "https://www.drivethrurpg.com/product/337964/Muks-Guide-to-Everything-He-Learned-From-Tasha",
+      "evidence": {
+        "runtime": {
+          "id": "beast-f62685740da996c35d1e6a58",
+          "key": "e86e8b1cc26a9adb462d960e",
+          "name": "Spiderfrog",
+          "publication": "Muk's Guide To Everything He Learned From Tasha",
+          "edition": "2014 fifth edition",
+          "status": "Encounter reference",
+          "found": true,
+          "image": {
+            "url": "",
+            "credit": "Emi Tanji · Muk's Guide To Everything He Learned From Tasha"
+          },
+          "exactImages": [
+            {
+              "url": "",
+              "credit": "Emi Tanji · Muk's Guide To Everything He Learned From Tasha"
+            }
+          ],
+          "otherPrintings": []
+        },
+        "artDisposition": "Generate exact-appearance alternate",
+        "reference": {
+          "name": "Spiderfrog",
+          "publication": "Muk's Guide To Everything He Learned From Tasha",
+          "edition": "2014 fifth edition",
+          "entityKind": "beast",
+          "file": "images/beasts/spiderfrog/mgelft-1.webp",
+          "sha256": "aad04cdb6021546f42f62c5340a3cc69bd08df8b46d3f27916656c5c3743e779",
+          "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/MGELFT/Spiderfrog.webp",
+          "artist": "Emi Tanji",
+          "kind": "illustration"
+        }
+      }
+    }
+  ]
+}

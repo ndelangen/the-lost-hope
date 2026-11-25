@@ -1,0 +1,9 @@
+[
+  {
+    "id": "beast-531fdc6e81ae3b68ce32d921",
+    "name": "Bat Swarm",
+    "base": "monster-9b10029fdb104074fd926e87",
+    "secondBase": "beast-1f011faa61242b87671ebf8b",
+    "slug": "swarm-of-bats"
+  }
+]

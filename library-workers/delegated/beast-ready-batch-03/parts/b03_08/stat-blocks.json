@@ -1,0 +1,222 @@
+[
+  {
+    "name": "Hawk",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 13,
+    "hp": 1,
+    "hitDice": "1d4 - 1",
+    "speed": "10 ft., fly 60 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 5,
+        "modifier": -3
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Perception +4. Passive Perception 14. No listed special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A small russet-brown bird of prey with a barred pale breast, hooked beak, and yellow feet with curved talons.",
+    "habitats": [
+      "Open country",
+      "Grassland",
+      "Woodland edges",
+      "Hills"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Basic Rules (2018), and printed page 139. ",
+      "Traits": "Keen Sight. Wisdom (Perception) checks that depend on sight have advantage.",
+      "Actions": "Talons. Melee weapon attack, +5 to hit against one target within 5 ft. A hit deals 1 slashing damage.",
+      "At the table": "For a passive Perception check based on sight, advantage raises the printed 14 to 19. The Talons attack deals fixed damage."
+    }
+  },
+  {
+    "name": "Hawk",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 13,
+    "hp": 1,
+    "hitDice": "1d4 - 1",
+    "speed": "10 ft., fly 60 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 5,
+        "modifier": -3
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Perception +4. Passive Perception 14. No listed special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A small russet-brown bird of prey with a barred pale breast, hooked beak, and yellow feet with curved talons.",
+    "habitats": [
+      "Open country",
+      "Grassland",
+      "Woodland edges",
+      "Hills"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), printed p. 330. https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/332/",
+      "Traits": "Keen Sight. Wisdom (Perception) checks that depend on sight have advantage.",
+      "Actions": "Talons. Melee weapon attack, +5 to hit against one target within 5 ft. A hit deals 1 slashing damage.",
+      "At the table": "For a passive Perception check based on sight, advantage raises the printed 14 to 19. The Talons attack deals fixed damage."
+    }
+  },
+  {
+    "name": "Rat",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 10,
+    "hp": 1,
+    "hitDice": "1d4 - 1",
+    "speed": "20 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Darkvision 30 ft. Passive Perception 10. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A small brown rodent with rounded ears, a pointed whiskered muzzle, pink feet, and a long ringed tail.",
+    "habitats": [
+      "Settlements",
+      "Cellars",
+      "Sewers",
+      "Wetlands"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Basic Rules (2018), and printed page 150. ",
+      "Traits": "Keen Smell. Wisdom (Perception) checks that depend on smell have advantage.",
+      "Actions": "Bite. Melee weapon attack, +0 to hit against one target within 5 ft. A hit deals 1 piercing damage.",
+      "At the table": "For a passive Perception check based on smell, advantage raises the printed 10 to 15. The Bite deals fixed damage."
+    }
+  },
+  {
+    "name": "Rat",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 10,
+    "hp": 1,
+    "hitDice": "1d4 - 1",
+    "speed": "20 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Darkvision 30 ft. Passive Perception 10. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A small brown rodent with rounded ears, a pointed whiskered muzzle, pink feet, and a long ringed tail.",
+    "habitats": [
+      "Settlements",
+      "Cellars",
+      "Sewers",
+      "Wetlands"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), printed p. 335. https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/337/",
+      "Traits": "Keen Smell. Wisdom (Perception) checks that depend on smell have advantage.",
+      "Actions": "Bite. Melee weapon attack, +0 to hit against one target within 5 ft. A hit deals 1 piercing damage.",
+      "At the table": "For a passive Perception check based on smell, advantage raises the printed 10 to 15. The Bite deals fixed damage."
+    }
+  }
+]

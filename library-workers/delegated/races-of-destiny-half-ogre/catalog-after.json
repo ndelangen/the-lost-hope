@@ -1,0 +1,944 @@
+[
+  {
+    "name": "Half-Ogre",
+    "kind": "species",
+    "group": "3.5 edition",
+    "otherEntry": {
+      "id": "monster-bea9b51c3f9723f88ac9d0ae",
+      "name": "Half-Ogre",
+      "kind": "monster",
+      "group": "Giant",
+      "groups": [
+        "Giant"
+      ],
+      "images": [
+        {
+          "url": "",
+          "credit": "OpenAI ImageGen · The Lost Hope"
+        },
+        {
+          "url": "",
+          "credit": "D&D Beyond publisher art · Icewind Dale: Rime of the Frostmaiden"
+        },
+        {
+          "url": "",
+          "credit": "Monster Manual (2014)"
+        }
+      ],
+      "versions": [
+        {
+          "key": "70aef8331e13ec2baf29a7a6",
+          "publication": "Dragonlance: Shadow of the Dragon Queen",
+          "edition": "2014 fifth edition",
+          "source": "https://www.dndbeyond.com/monsters/17185-half-ogre",
+          "artwork": "https://www.dndbeyond.com/avatars/thumbnails/30834/133/1000/1000/638063882153245352.png",
+          "status": "Combat summary",
+          "images": [
+            {
+              "url": "",
+              "credit": "D&D Beyond publisher art · Dragonlance: Shadow of the Dragon Queen"
+            }
+          ],
+          "stats": [
+            [
+              "Armor class",
+              "12"
+            ],
+            [
+              "Hit points",
+              "30"
+            ],
+            [
+              "Hit dice",
+              "4d10 + 8"
+            ],
+            [
+              "Challenge",
+              "1"
+            ],
+            [
+              "Size",
+              "Large"
+            ],
+            [
+              "Type",
+              "Giant"
+            ],
+            [
+              "Speed",
+              "walk 30 ft."
+            ],
+            [
+              "Passive Perception",
+              "9"
+            ],
+            [
+              "Initiative",
+              "0"
+            ],
+            [
+              "Str",
+              "17"
+            ],
+            [
+              "Dex",
+              "10"
+            ],
+            [
+              "Con",
+              "14"
+            ],
+            [
+              "Int",
+              "7"
+            ],
+            [
+              "Wis",
+              "9"
+            ],
+            [
+              "Cha",
+              "10"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Habitats",
+              "lines": [
+                "Underdark",
+                "Mountain",
+                "Forest",
+                "Hill",
+                "Urban",
+                "Desert",
+                "Arctic"
+              ]
+            },
+            {
+              "title": "Appearance",
+              "lines": [
+                "A broad, towering humanoid with an ogre’s build, often armed with a battleaxe."
+              ]
+            },
+            {
+              "title": "Attacks",
+              "lines": [
+                "Battleaxe · melee · +5 to hit · reach 5 ft. · 2d8 + 3 slashing or 2d10 + 3 slashing",
+                "javelin · melee or ranged · +5 to hit · reach 5 ft. · range 30/120 ft. · 2d6 + 3 piercing"
+              ]
+            },
+            {
+              "title": "Table notes",
+              "lines": [
+                "This is the base Monster Manual (2014) creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes.",
+                "Battleaxe uses the higher damage in two-handed melee."
+              ]
+            }
+          ],
+          "references": [
+            {
+              "label": "Monster Manual (2014) index",
+              "url": "https://5e.tools/bestiary.html#half-ogre%20(ogrillon)_mm",
+              "local": {
+                "entry": "monster-bde779c33a8c8409de509674",
+                "version": "MM:238:https://5e.tools/bestiary.html#half-ogre%20(ogrillon)_mm"
+              },
+              "preview": {
+                "name": "Half-Ogre (Ogrillon)",
+                "group": "giant",
+                "publication": "Monster Manual (2014)",
+                "page": 238,
+                "description": "A Large giant with challenge rating 1. Listed habitats: underdark, mountain, forest, hill, urban, desert, arctic. Named abilities include Battleaxe, Javelin.",
+                "local": {
+                  "entry": "monster-bde779c33a8c8409de509674",
+                  "version": "MM:238:https://5e.tools/bestiary.html#half-ogre%20(ogrillon)_mm"
+                }
+              }
+            }
+          ],
+          "inline": {
+            "Size": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ],
+            "Passive Perception": [
+              {
+                "start": 0,
+                "end": 18,
+                "target": {
+                  "name": "Passive Perception",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 372,
+                  "local": {
+                    "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                    "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                  }
+                }
+              }
+            ],
+            "Initiative": [
+              {
+                "start": 0,
+                "end": 10,
+                "target": {
+                  "name": "Initiative",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 369,
+                  "local": {
+                    "entry": "compendium-f7647d543d6e04bd0782c504",
+                    "version": "XPHB:369:https://5e.tools/variantrules.html#initiative_xphb"
+                  }
+                }
+              }
+            ],
+            "This is the base Monster Manual (2014) creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes.": [
+              {
+                "start": 17,
+                "end": 24,
+                "target": {
+                  "name": "Monster",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 371,
+                  "local": {
+                    "entry": "compendium-b4209f03e638437b4a2ff334",
+                    "version": "XPHB:371:https://5e.tools/variantrules.html#monster_xphb"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "beeb2335237d45c8134d8462",
+          "publication": "Icewind Dale: Rime of the Frostmaiden",
+          "edition": "2014 fifth edition",
+          "source": "https://www.dndbeyond.com/monsters/17185-half-ogre",
+          "artwork": "https://www.dndbeyond.com/avatars/thumbnails/30834/133/1000/1000/638063882153245352.png",
+          "status": "Combat summary",
+          "images": [
+            {
+              "url": "",
+              "credit": "D&D Beyond publisher art · Icewind Dale: Rime of the Frostmaiden"
+            }
+          ],
+          "stats": [
+            [
+              "Armor class",
+              "12"
+            ],
+            [
+              "Hit points",
+              "30"
+            ],
+            [
+              "Hit dice",
+              "4d10 + 8"
+            ],
+            [
+              "Challenge",
+              "1"
+            ],
+            [
+              "Size",
+              "Large"
+            ],
+            [
+              "Type",
+              "Giant"
+            ],
+            [
+              "Speed",
+              "walk 30 ft."
+            ],
+            [
+              "Passive Perception",
+              "9"
+            ],
+            [
+              "Initiative",
+              "0"
+            ],
+            [
+              "Str",
+              "17"
+            ],
+            [
+              "Dex",
+              "10"
+            ],
+            [
+              "Con",
+              "14"
+            ],
+            [
+              "Int",
+              "7"
+            ],
+            [
+              "Wis",
+              "9"
+            ],
+            [
+              "Cha",
+              "10"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Habitats",
+              "lines": [
+                "Underdark",
+                "Mountain",
+                "Forest",
+                "Hill",
+                "Urban",
+                "Desert",
+                "Arctic"
+              ]
+            },
+            {
+              "title": "Appearance",
+              "lines": [
+                "A broad, towering humanoid with an ogre’s build, often armed with a battleaxe."
+              ]
+            },
+            {
+              "title": "Attacks",
+              "lines": [
+                "Battleaxe · melee · +5 to hit · reach 5 ft. · 2d8 + 3 slashing or 2d10 + 3 slashing",
+                "javelin · melee or ranged · +5 to hit · reach 5 ft. · range 30/120 ft. · 2d6 + 3 piercing"
+              ]
+            },
+            {
+              "title": "Table notes",
+              "lines": [
+                "This is the base Monster Manual (2014) creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes.",
+                "Battleaxe uses the higher damage in two-handed melee."
+              ]
+            }
+          ],
+          "references": [
+            {
+              "label": "Monster Manual (2014) index",
+              "url": "https://5e.tools/bestiary.html#half-ogre%20(ogrillon)_mm",
+              "local": {
+                "entry": "monster-bde779c33a8c8409de509674",
+                "version": "MM:238:https://5e.tools/bestiary.html#half-ogre%20(ogrillon)_mm"
+              },
+              "preview": {
+                "name": "Half-Ogre (Ogrillon)",
+                "group": "giant",
+                "publication": "Monster Manual (2014)",
+                "page": 238,
+                "description": "A Large giant with challenge rating 1. Listed habitats: underdark, mountain, forest, hill, urban, desert, arctic. Named abilities include Battleaxe, Javelin.",
+                "local": {
+                  "entry": "monster-bde779c33a8c8409de509674",
+                  "version": "MM:238:https://5e.tools/bestiary.html#half-ogre%20(ogrillon)_mm"
+                }
+              }
+            }
+          ],
+          "inline": {
+            "Size": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ],
+            "Passive Perception": [
+              {
+                "start": 0,
+                "end": 18,
+                "target": {
+                  "name": "Passive Perception",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 372,
+                  "local": {
+                    "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                    "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                  }
+                }
+              }
+            ],
+            "Initiative": [
+              {
+                "start": 0,
+                "end": 10,
+                "target": {
+                  "name": "Initiative",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 369,
+                  "local": {
+                    "entry": "compendium-f7647d543d6e04bd0782c504",
+                    "version": "XPHB:369:https://5e.tools/variantrules.html#initiative_xphb"
+                  }
+                }
+              }
+            ],
+            "This is the base Monster Manual (2014) creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes.": [
+              {
+                "start": 17,
+                "end": 24,
+                "target": {
+                  "name": "Monster",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 371,
+                  "local": {
+                    "entry": "compendium-b4209f03e638437b4a2ff334",
+                    "version": "XPHB:371:https://5e.tools/variantrules.html#monster_xphb"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "dd345854953db1fb90eff05a",
+          "publication": "Monster Manual (2014)",
+          "edition": "2014 fifth edition",
+          "description": "A Large giant with challenge rating 1. Listed habitats: underdark, mountain, forest, hill, urban, desert, arctic. Named abilities include Battleaxe, Javelin.",
+          "source": "https://5e.tools/bestiary.html#half-ogre%20(ogrillon)_mm",
+          "artwork": "https://www.dndbeyond.com/avatars/thumbnails/30834/133/1000/1000/638063882153245352.png",
+          "status": "Encounter reference",
+          "images": [
+            {
+              "url": "",
+              "credit": "Monster Manual (2014)"
+            }
+          ],
+          "stats": [
+            [
+              "Armor class",
+              "12"
+            ],
+            [
+              "Hit points",
+              "30"
+            ],
+            [
+              "Hit dice",
+              "4d10 + 8"
+            ],
+            [
+              "Challenge",
+              "1"
+            ],
+            [
+              "Size",
+              "Large"
+            ],
+            [
+              "Type",
+              "Giant"
+            ],
+            [
+              "Speed",
+              "walk 30 ft."
+            ],
+            [
+              "Passive Perception",
+              "9"
+            ],
+            [
+              "Initiative",
+              "0"
+            ],
+            [
+              "Strength",
+              "17"
+            ],
+            [
+              "Dexterity",
+              "10"
+            ],
+            [
+              "Constitution",
+              "14"
+            ],
+            [
+              "Intelligence",
+              "7"
+            ],
+            [
+              "Wisdom",
+              "9"
+            ],
+            [
+              "Charisma",
+              "10"
+            ],
+            [
+              "Alignment",
+              "chaotic good neutral evil"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Habitats",
+              "lines": [
+                "Underdark",
+                "Mountain",
+                "Forest",
+                "Hill",
+                "Urban",
+                "Desert",
+                "Arctic",
+                "underdark, mountain, forest, hill, urban, desert, arctic"
+              ]
+            },
+            {
+              "title": "Appearance",
+              "lines": [
+                "A broad, towering humanoid with an ogre’s build, often armed with a battleaxe."
+              ]
+            },
+            {
+              "title": "Attacks",
+              "lines": [
+                "Battleaxe · melee · +5 to hit · reach 5 ft. · 2d8 + 3 slashing or 2d10 + 3 slashing",
+                "javelin · melee or ranged · +5 to hit · reach 5 ft. · range 30/120 ft. · 2d6 + 3 piercing"
+              ]
+            },
+            {
+              "title": "Table notes",
+              "lines": [
+                "Battleaxe uses the higher damage in two-handed melee."
+              ]
+            },
+            {
+              "title": "Senses",
+              "lines": [
+                "darkvision 60 ft."
+              ]
+            },
+            {
+              "title": "Languages",
+              "lines": [
+                "Common, Giant"
+              ]
+            },
+            {
+              "title": "Actions reference",
+              "lines": [
+                "Battleaxe · Melee attack · +5 to hit · 2d8 + 3 slashing damage · 2d10 + 3 slashing damage · reach 5 ft.",
+                "Javelin · Melee or ranged attack · +5 to hit · 2d6 + 3 piercing damage · reach 5 ft. · range 30/120 ft."
+              ]
+            },
+            {
+              "title": "Lore topics in the source",
+              "lines": [
+                "Furious Tempers",
+                "Gruesome Gluttons",
+                "Greedy Collectors",
+                "Legendary Stupidity",
+                "Primitive Wanderers",
+                "Ogre Gangs"
+              ]
+            }
+          ],
+          "sourceCode": "MM",
+          "page": 238,
+          "references": [
+            {
+              "label": "Monster Manual (2014), p. 238",
+              "url": "https://5e.tools/bestiary.html#half-ogre%20(ogrillon)_mm"
+            },
+            {
+              "label": "Hide armor (item)",
+              "url": "https://5e.tools/items.html#hide%20armor_phb",
+              "local": {
+                "entry": "item-c04062b7a541795e4f36366c",
+                "version": "PHB:144:https://5e.tools/items.html#hide%20armor_phb"
+              },
+              "preview": {
+                "name": "Hide armor",
+                "group": "blacksmith",
+                "publication": "Player's Handbook (2014)",
+                "page": 144,
+                "description": "A medium armor.",
+                "local": {
+                  "entry": "item-c04062b7a541795e4f36366c",
+                  "version": "PHB:144:https://5e.tools/items.html#hide%20armor_phb"
+                }
+              }
+            }
+          ],
+          "inline": {
+            "Size": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ],
+            "Passive Perception": [
+              {
+                "start": 0,
+                "end": 18,
+                "target": {
+                  "name": "Passive Perception",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 372,
+                  "local": {
+                    "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                    "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                  }
+                }
+              }
+            ],
+            "Initiative": [
+              {
+                "start": 0,
+                "end": 10,
+                "target": {
+                  "name": "Initiative",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 369,
+                  "local": {
+                    "entry": "compendium-f7647d543d6e04bd0782c504",
+                    "version": "XPHB:369:https://5e.tools/variantrules.html#initiative_xphb"
+                  }
+                }
+              }
+            ],
+            "Alignment": [
+              {
+                "start": 0,
+                "end": 9,
+                "target": {
+                  "name": "Alignment",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 360,
+                  "local": {
+                    "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                    "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                  }
+                }
+              }
+            ],
+            "darkvision 60 ft.": [
+              {
+                "start": 0,
+                "end": 10,
+                "target": {
+                  "name": "Darkvision",
+                  "group": "Senses",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 183,
+                  "local": {
+                    "entry": "compendium-7acfde2bf83729872c25017b",
+                    "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "ae2c89fc287113e10ae0e485",
+          "publication": "Princes of the Apocalypse - Online Supplement",
+          "edition": "2014 fifth edition",
+          "status": "Combat summary",
+          "images": [],
+          "stats": [
+            [
+              "Armor class",
+              "12"
+            ],
+            [
+              "Hit points",
+              "30"
+            ],
+            [
+              "Hit dice",
+              "4d10 + 8"
+            ],
+            [
+              "Challenge",
+              "1"
+            ],
+            [
+              "Size",
+              "Large"
+            ],
+            [
+              "Type",
+              "Giant"
+            ],
+            [
+              "Speed",
+              "walk 30 ft."
+            ],
+            [
+              "Str",
+              "17"
+            ],
+            [
+              "Dex",
+              "10"
+            ],
+            [
+              "Con",
+              "14"
+            ],
+            [
+              "Int",
+              "7"
+            ],
+            [
+              "Wis",
+              "9"
+            ],
+            [
+              "Cha",
+              "10"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Attacks",
+              "lines": [
+                "Javelin · melee or ranged · +5 to hit · reach 5 ft. · range 30/120 ft. · 2d6 + 3 piercing"
+              ]
+            }
+          ],
+          "inline": {
+            "Size": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "image": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "global": true,
+    "version": {
+      "key": "9b45886d7400cd6b552cfd8e",
+      "publication": "Races of Destiny (2004)",
+      "edition": "3.5 edition",
+      "source": "https://openlibrary.org/books/OL8144441M",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Giant"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Large Giant with +6 Strength, −2 Dexterity, +2 Constitution, −2 Intelligence, and −2 Charisma.",
+            "Base land speed 30 ft. Darkvision reaches 60 ft. and sees in black and white. +4 natural armor.",
+            "The Giant type supplies low-light vision and simple and martial weapon proficiency.",
+            "Large size gives −1 to AC and attacks. A Half-Ogre occupies a 10-ft. space and has 10-ft. natural reach.",
+            "Common and Giant are automatic. Bonus languages are Abyssal, Draconic, Gnoll, Goblin, and Orc.",
+            "Favored class Barbarian. Level adjustment +2. The playable entry grants no racial Hit Dice. One class level is effective character level 3."
+          ]
+        },
+        {
+          "title": "Original NPC · Bram Reedbar",
+          "lines": [
+            "Levee gatekeeper and Fighter.",
+            "Motive. Close the levee gate before water reaches the roof of the keeper’s hut, with the repair crew still out in the channel.",
+            "Hook. Bring the repair crew to higher ground and Bram will lend the key to the old inspection stair.",
+            "Half-Ogre levee gatekeeper, Fighter 1 · Provisional CR 2. ECL 3. · Large Giant",
+            "AC 18 · HP 13 (1d10+3) · Speed 30 ft."
+          ]
+        },
+        {
+          "title": "Original NPC · Dessa Tallowbeat",
+          "lines": [
+            "Ridge drummer and Barbarian.",
+            "Motive. Find the lookout who missed the final drum call in a whiteout.",
+            "Hook. Dessa can call along the route while the party checks the downhill forks for the missing lookout.",
+            "Half-Ogre ridge drummer, Barbarian 1 · Provisional CR 2. ECL 3. · Large Giant",
+            "AC 16 · HP 15 (1d12+3) · Speed 40 ft."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Bram Reedbar": [
+          {
+            "start": 15,
+            "end": 27,
+            "target": {
+              "name": "Bram Reedbar",
+              "group": "Half-Ogre",
+              "publication": "Half-Ogre levee gatekeeper, Fighter 1",
+              "local": {
+                "entry": "npc-68c107bff8e8a232991eff96",
+                "version": "964220a1c0d155e18c92e5ea"
+              }
+            }
+          }
+        ],
+        "Original NPC · Dessa Tallowbeat": [
+          {
+            "start": 15,
+            "end": 31,
+            "target": {
+              "name": "Dessa Tallowbeat",
+              "group": "Half-Ogre",
+              "publication": "Half-Ogre ridge drummer, Barbarian 1",
+              "local": {
+                "entry": "npc-2c9e16dbfa3d084533d93bd5",
+                "version": "b73918009e440a4dbf234ede"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Half-Ogre": true,
+      "half-ogre natural armor": true,
+      "half-ogre darkvision": true,
+      "half-ogre level adjustment": true,
+      "half-ogre levee gatekeeper": true,
+      "half-ogre ridge drummer": true
+    },
+    "hash": "4c86329755978486f8b7d70124e7ff220a32a55e2cea4fdda38c3c4d0e764394",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Races of Destiny (2004)",
+    "defaultVersionKey": "9b45886d7400cd6b552cfd8e",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  }
+]

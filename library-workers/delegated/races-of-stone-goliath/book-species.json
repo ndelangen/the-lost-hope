@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Goliath",
+    "kind": "species",
+    "publication": "Races of Stone (2004)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Medium Monstrous Humanoid with a 30-ft. base land speed. +4 Strength, −2 Dexterity, +2 Constitution. Proficient with simple weapons through the species. Armor and shield proficiency come from other sources, such as class.",
+      "Darkvision 60 ft. comes from the Monstrous Humanoid type, as confirmed by the official 3.5 FAQ.",
+      "Powerful Build treats a Goliath as one size larger when that helps an opposed check with a size modifier, such as grapple, bull rush, or trip. Treat it as one size larger against size-dependent special attacks such as improved grab or swallow whole.",
+      "Powerful Build also allows weapons designed for creatures one size larger without an inappropriate-size penalty. Space, reach, and natural or unarmed damage use actual size. It stacks with size changes that preserve the trait.",
+      "Mountain Movement allows standing long jumps and high jumps using the running Jump rules. Accelerated climbing moves half speed as a move action without the usual −5 Climb penalty. Climb checks still apply.",
+      "Acclimated removes the altitude penalties under Mountain Travel in the Dungeon Master’s Guide, p. 90. Acclimation persists after time at low elevation.",
+      "+2 bonus on Sense Motive checks. Common and Gol-Kaa are automatic. Bonus languages are Dwarven, Giant, Gnoll, and Terran.",
+      "Favored class Barbarian. Level adjustment +1. The playable entry grants no racial Hit Dice.",
+      "Optional Barbarian substitution at class level 1 replaces ordinary rage with Mountain Rage. It makes the Goliath Large, adds +2 Strength beyond ordinary rage, and gives 10-ft. space and reach and an extra −1 to AC and attacks. The substitution keeps equipment fitting and explicitly gives no additional weapon-size or grapple benefit from Powerful Build."
+    ]
+  }
+]

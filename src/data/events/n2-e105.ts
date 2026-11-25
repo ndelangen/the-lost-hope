@@ -141,4 +141,5 @@ export default createEvent({
     { by: refs.pcs.swift_starblade, card: refs.cards.the_talons },
     { by: refs.pcs.swift_starblade, card: refs.cards.the_rogue },
   ],
+  illustrations: ['/assets/scenes/the-party-plays-three-rounds-with-the-fiddler.png'],
 })

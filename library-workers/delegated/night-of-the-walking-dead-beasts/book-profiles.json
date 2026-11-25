@@ -1,0 +1,157 @@
+[
+  {
+    "name": "Crocodile",
+    "kind": "beast",
+    "publication": "Night of the Walking Dead",
+    "edition": "AD&D 2nd edition",
+    "ruleset": "adnd-2e",
+    "appearance": "An ordinary crocodile lying low in the water.",
+    "combat": {
+      "armorClass": 5,
+      "movement": "6/12",
+      "thac0": 16,
+      "numberOfAttacks": 2,
+      "damageDice": "2–8 / 1–12",
+      "xp": 65,
+      "habitats": [
+        "The swamp outside Marais d’Tarascon"
+      ],
+      "hitDice": "3",
+      "hitPoints": 14
+    },
+    "mechanics": {
+      "Encounters": [
+        {
+          "name": "Floating logs",
+          "effectNote": "Prodding the logs gives the party a 20% chance to spot the crocodile. If they pass without checking, it surprises them after the raft moves past. Their surprise rolls take a −2 penalty."
+        },
+        {
+          "name": "At the raft edge",
+          "effectNote": "It targets a character near the edge of the raft, tries to pull them into the water, and flees once it has taken prey."
+        }
+      ]
+    },
+    "notes": [
+      "One crocodile with 14 HP. Neutral. The print lists surprise as a special defense.",
+      "Bill Slavicsek, Night of the Walking Dead (TSR, 1992 print), Part I, The Swamp: The Crocodile, pp. 7–8."
+    ]
+  },
+  {
+    "name": "Giant Frog",
+    "kind": "beast",
+    "publication": "Night of the Walking Dead",
+    "edition": "AD&D 2nd edition",
+    "ruleset": "adnd-2e",
+    "appearance": "A broad giant frog four feet long and weighing about 150 pounds.",
+    "combat": {
+      "armorClass": 7,
+      "movement": "3/9",
+      "thac0": 16,
+      "numberOfAttacks": 1,
+      "damageDice": "1–6",
+      "xp": 175,
+      "habitats": [
+        "Reeds in the swamp feeding ground"
+      ],
+      "hitDice": "2"
+    },
+    "mechanics": {
+      "Special attacks": [
+        {
+          "name": "Sticky tongue",
+          "effectNote": "The tongue gains a +4 attack bonus and deals no damage. A hit pulls the target toward the frog’s bite."
+        },
+        {
+          "name": "Swallow whole",
+          "effectNote": "On an attack roll of 20, a frog can swallow a Small victim whole, including a demihuman under four feet tall."
+        }
+      ],
+      "Encounters": [
+        {
+          "name": "Among the reeds",
+          "effectNote": "As the raft moves through the reeds, the party makes surprise rolls at −3. Three frogs emerge with 5, 8, and 10 HP respectively."
+        }
+      ]
+    },
+    "notes": [
+      "The print lists alignment as Nil. XP 175 per frog.",
+      "Bill Slavicsek, Night of the Walking Dead (TSR, 1992 print), Part I, The Swamp: The Giant Frogs, p. 8."
+    ]
+  },
+  {
+    "name": "Giant Bat",
+    "kind": "beast",
+    "publication": "Night of the Walking Dead",
+    "edition": "AD&D 2nd edition",
+    "ruleset": "adnd-2e",
+    "appearance": "A large bat with broad leathery wings.",
+    "combat": {
+      "armorClass": 8,
+      "movement": "3/18",
+      "thac0": 20,
+      "numberOfAttacks": 1,
+      "damageDice": "1–2",
+      "xp": 35,
+      "habitats": [
+        "Decrepit Mausoleum"
+      ],
+      "hitPointsRoll": "1d4"
+    },
+    "mechanics": {
+      "Special defenses": [
+        {
+          "name": "Airborne target",
+          "effectNote": "Missile attacks against a giant bat take a −3 penalty while it is flying."
+        }
+      ],
+      "Encounters": [
+        {
+          "name": "Decrepit Mausoleum",
+          "effectNote": "Disturbing this tomb provokes 1d6 Giant Bats. Roll 1d4 HP for each bat."
+        }
+      ]
+    },
+    "notes": [
+      "The print lists no Hit Dice, special attacks, or alignment. XP 35 per bat.",
+      "Bill Slavicsek, Night of the Walking Dead (TSR, 1992 print), Part III, Lair of the Zombie Lord: 4. Decrepit Mausoleum, p. 30."
+    ]
+  },
+  {
+    "name": "Giant Rat",
+    "kind": "beast",
+    "publication": "Night of the Walking Dead",
+    "edition": "AD&D 2nd edition",
+    "ruleset": "adnd-2e",
+    "appearance": "A giant rat that lives in the mausoleum vaults.",
+    "combat": {
+      "armorClass": 7,
+      "movement": "12/6",
+      "thac0": 20,
+      "numberOfAttacks": 1,
+      "damageDice": "1–3",
+      "xp": 15,
+      "habitats": [
+        "Tomb of Rats"
+      ],
+      "hitPointsRoll": "1d4"
+    },
+    "mechanics": {
+      "Special attacks": [
+        {
+          "name": "Disease",
+          "effectNote": "The printed encounter names disease as a special attack and gives no procedure for it."
+        }
+      ],
+      "Encounters": [
+        {
+          "name": "Tomb of Rats",
+          "effectNote": "When the party enters the tomb, 3d6 rats leap from open vaults and attack. Roll 1d4 HP for each rat."
+        }
+      ]
+    },
+    "notes": [
+      "Neutral evil. The print lists no Hit Dice or special defenses. XP 15 per rat.",
+      "Bill Slavicsek, Night of the Walking Dead (TSR, 1992 print), Part III, Lair of the Zombie Lord: 6. Tomb of Rats, p. 30."
+    ]
+  }
+]

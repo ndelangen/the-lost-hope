@@ -1,0 +1,483 @@
+[
+  {
+    "name": "Tridrone",
+    "statBlock": {
+      "name": "Tridrone",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium construct, lawful neutral",
+      "ac": 15,
+      "hp": 16,
+      "hitDice": "3d8 + 3",
+      "speed": "30 ft.",
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 10,
+      "description": "An inverted-pyramid modron that leads lesser modrons in battle.",
+      "habitats": [
+        "Mechanus"
+      ],
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Truesight 120 ft., passive Perception 10.",
+        "Languages": "Modron.",
+        "Traits": "Axiomatic Mind. No effect can compel the tridrone to act against its nature or instructions.\nDisintegration. When the tridrone dies, its body turns to dust. Its weapons and anything else it carried remain.",
+        "Actions": "Multiattack. Make three Fist attacks or three Javelin attacks.\nFist. Melee weapon attack, +3 to hit, reach 5 ft., one target. Hit 3 (1d4 + 1) bludgeoning damage.\nJavelin. Melee or ranged weapon attack, +3 to hit, reach 5 ft. or range 30/120 ft., one target. Hit 4 (1d6 + 1) piercing damage.",
+        "Printed source": "Monster Manual (2014), p. 225."
+      },
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 9
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true
+    }
+  },
+  {
+    "name": "Tridrone (Rogue)",
+    "statBlock": {
+      "name": "Tridrone (Rogue)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium construct, any alignment except lawful neutral",
+      "ac": 15,
+      "hp": 16,
+      "hitDice": "3d8 + 3",
+      "speed": "30 ft.",
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 10,
+      "description": "A tridrone that has broken with Primus. Other modrons track it down.",
+      "habitats": [
+        "Mechanus"
+      ],
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Truesight 120 ft., passive Perception 10.",
+        "Languages": "Modron.",
+        "Traits": "Disintegration. When the tridrone dies, its body turns to dust. Its weapons and anything else it carried remain.",
+        "Actions": "Multiattack. Make three Fist attacks or three Javelin attacks.\nFist. Melee weapon attack, +3 to hit, reach 5 ft., one target. Hit 3 (1d4 + 1) bludgeoning damage.\nJavelin. Melee or ranged weapon attack, +3 to hit, reach 5 ft. or range 30/120 ft., one target. Hit 4 (1d6 + 1) piercing damage.",
+        "Printed source": "Monster Manual (2014), p. 224 for the Rogue Modron sidebar and p. 225 for the tridrone.",
+        "Variant": "The Rogue Modron variant removes Axiomatic Mind and changes the alignment to any except lawful neutral. Use the tridrone statistics for all other rules."
+      },
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 9
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true
+    }
+  },
+  {
+    "name": "Faerie Dragon (Blue)",
+    "statBlock": {
+      "name": "Faerie Dragon (Blue)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Tiny dragon, chaotic good",
+      "ac": 15,
+      "hp": 14,
+      "hitDice": "4d4 + 4",
+      "speed": "10 ft., fly 60 ft.",
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 13,
+      "skills": {
+        "Arcana": 4,
+        "Perception": 3,
+        "Stealth": 7
+      },
+      "description": "A cat-sized dragon with blue scales and butterfly wings. This color marks a faerie dragon 31–40 years old.",
+      "sections": {
+        "Senses": "Darkvision 60 ft., passive Perception 13.",
+        "Languages": "Draconic, Sylvan.",
+        "Traits": "Limited Telepathy. The dragon can communicate magically with other faerie dragons within 60 ft.\nMagic Resistance. The dragon has advantage on saving throws against spells and other magical effects.",
+        "Spellcasting": "Innate Spellcasting. Charisma is the spellcasting ability (spell save DC 13). The dragon casts these spells without material components.\n1/day each: Dancing Lights, Mage Hand, Minor Illusion, Color Spray, Mirror Image, Suggestion, Major Image.",
+        "Actions": "Bite. Melee weapon attack, +7 to hit, reach 5 ft., one creature. Hit 1 piercing damage.\nEuphoria Breath (Recharge 5–6). Exhale gas at one creature within 5 ft. It makes a DC 11 Wisdom saving throw. On a failure, the effect lasts 1 minute and the target cannot take reactions. At the start of each of its turns while affected, the target rolls 1d6.\n1–4. It takes no action or bonus action and uses all its movement to move in a random direction.\n5–6. It stays still and can only repeat the DC 11 Wisdom save, ending the effect on a success.",
+        "Bonus actions": "Superior Invisibility. Magically become Invisible along with worn and carried equipment. The effect lasts while the dragon maintains Concentration as it would on a spell.",
+        "Printed source": "Monster Manual (2014), p. 133."
+      },
+      "abilities": {
+        "Str": {
+          "score": 3
+        },
+        "Dex": {
+          "score": 20
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true
+    }
+  },
+  {
+    "name": "Faerie Dragon (Green)",
+    "statBlock": {
+      "name": "Faerie Dragon (Green)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Tiny dragon, chaotic good",
+      "ac": 15,
+      "hp": 14,
+      "hitDice": "4d4 + 4",
+      "speed": "10 ft., fly 60 ft.",
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 13,
+      "skills": {
+        "Arcana": 4,
+        "Perception": 3,
+        "Stealth": 7
+      },
+      "description": "A cat-sized dragon with green scales and butterfly wings. This color marks a faerie dragon 21–30 years old.",
+      "sections": {
+        "Senses": "Darkvision 60 ft., passive Perception 13.",
+        "Languages": "Draconic, Sylvan.",
+        "Traits": "Limited Telepathy. The dragon can communicate magically with other faerie dragons within 60 ft.\nMagic Resistance. The dragon has advantage on saving throws against spells and other magical effects.",
+        "Spellcasting": "Innate Spellcasting. Charisma is the spellcasting ability (spell save DC 13). The dragon casts these spells without material components.\n1/day each: Dancing Lights, Mage Hand, Minor Illusion, Color Spray, Mirror Image, Suggestion.",
+        "Actions": "Bite. Melee weapon attack, +7 to hit, reach 5 ft., one creature. Hit 1 piercing damage.\nEuphoria Breath (Recharge 5–6). Exhale gas at one creature within 5 ft. It makes a DC 11 Wisdom saving throw. On a failure, the effect lasts 1 minute and the target cannot take reactions. At the start of each of its turns while affected, the target rolls 1d6.\n1–4. It takes no action or bonus action and uses all its movement to move in a random direction.\n5–6. It stays still and can only repeat the DC 11 Wisdom save, ending the effect on a success.",
+        "Bonus actions": "Superior Invisibility. Magically become Invisible along with worn and carried equipment. The effect lasts while the dragon maintains Concentration as it would on a spell.",
+        "Printed source": "Monster Manual (2014), p. 133."
+      },
+      "abilities": {
+        "Str": {
+          "score": 3
+        },
+        "Dex": {
+          "score": 20
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true
+    }
+  },
+  {
+    "name": "Faerie Dragon (Indigo)",
+    "statBlock": {
+      "name": "Faerie Dragon (Indigo)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Tiny dragon, chaotic good",
+      "ac": 15,
+      "hp": 14,
+      "hitDice": "4d4 + 4",
+      "speed": "10 ft., fly 60 ft.",
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 13,
+      "skills": {
+        "Arcana": 4,
+        "Perception": 3,
+        "Stealth": 7
+      },
+      "description": "A cat-sized dragon with indigo scales and butterfly wings. This color marks a faerie dragon 41–50 years old.",
+      "sections": {
+        "Senses": "Darkvision 60 ft., passive Perception 13.",
+        "Languages": "Draconic, Sylvan.",
+        "Traits": "Limited Telepathy. The dragon can communicate magically with other faerie dragons within 60 ft.\nMagic Resistance. The dragon has advantage on saving throws against spells and other magical effects.",
+        "Spellcasting": "Innate Spellcasting. Charisma is the spellcasting ability (spell save DC 13). The dragon casts these spells without material components.\n1/day each: Dancing Lights, Mage Hand, Minor Illusion, Color Spray, Mirror Image, Suggestion, Major Image, Hallucinatory Terrain.",
+        "Actions": "Bite. Melee weapon attack, +7 to hit, reach 5 ft., one creature. Hit 1 piercing damage.\nEuphoria Breath (Recharge 5–6). Exhale gas at one creature within 5 ft. It makes a DC 11 Wisdom saving throw. On a failure, the effect lasts 1 minute and the target cannot take reactions. At the start of each of its turns while affected, the target rolls 1d6.\n1–4. It takes no action or bonus action and uses all its movement to move in a random direction.\n5–6. It stays still and can only repeat the DC 11 Wisdom save, ending the effect on a success.",
+        "Bonus actions": "Superior Invisibility. Magically become Invisible along with worn and carried equipment. The effect lasts while the dragon maintains Concentration as it would on a spell.",
+        "Printed source": "Monster Manual (2014), p. 133."
+      },
+      "abilities": {
+        "Str": {
+          "score": 3
+        },
+        "Dex": {
+          "score": 20
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true
+    }
+  },
+  {
+    "name": "Faerie Dragon (Orange)",
+    "statBlock": {
+      "name": "Faerie Dragon (Orange)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Tiny dragon, chaotic good",
+      "ac": 15,
+      "hp": 14,
+      "hitDice": "4d4 + 4",
+      "speed": "10 ft., fly 60 ft.",
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 13,
+      "skills": {
+        "Arcana": 4,
+        "Perception": 3,
+        "Stealth": 7
+      },
+      "description": "A cat-sized dragon with orange scales and butterfly wings. This color marks a faerie dragon 6–10 years old.",
+      "sections": {
+        "Senses": "Darkvision 60 ft., passive Perception 13.",
+        "Languages": "Draconic, Sylvan.",
+        "Traits": "Limited Telepathy. The dragon can communicate magically with other faerie dragons within 60 ft.\nMagic Resistance. The dragon has advantage on saving throws against spells and other magical effects.",
+        "Spellcasting": "Innate Spellcasting. Charisma is the spellcasting ability (spell save DC 13). The dragon casts these spells without material components.\n1/day each: Dancing Lights, Mage Hand, Minor Illusion, Color Spray.",
+        "Actions": "Bite. Melee weapon attack, +7 to hit, reach 5 ft., one creature. Hit 1 piercing damage.\nEuphoria Breath (Recharge 5–6). Exhale gas at one creature within 5 ft. It makes a DC 11 Wisdom saving throw. On a failure, the effect lasts 1 minute and the target cannot take reactions. At the start of each of its turns while affected, the target rolls 1d6.\n1–4. It takes no action or bonus action and uses all its movement to move in a random direction.\n5–6. It stays still and can only repeat the DC 11 Wisdom save, ending the effect on a success.",
+        "Bonus actions": "Superior Invisibility. Magically become Invisible along with worn and carried equipment. The effect lasts while the dragon maintains Concentration as it would on a spell.",
+        "Printed source": "Monster Manual (2014), p. 133."
+      },
+      "abilities": {
+        "Str": {
+          "score": 3
+        },
+        "Dex": {
+          "score": 20
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true
+    }
+  },
+  {
+    "name": "Faerie Dragon (Red)",
+    "statBlock": {
+      "name": "Faerie Dragon (Red)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Tiny dragon, chaotic good",
+      "ac": 15,
+      "hp": 14,
+      "hitDice": "4d4 + 4",
+      "speed": "10 ft., fly 60 ft.",
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 13,
+      "skills": {
+        "Arcana": 4,
+        "Perception": 3,
+        "Stealth": 7
+      },
+      "description": "A cat-sized dragon with red scales and butterfly wings. This color marks a faerie dragon up to 5 years old.",
+      "sections": {
+        "Senses": "Darkvision 60 ft., passive Perception 13.",
+        "Languages": "Draconic, Sylvan.",
+        "Traits": "Limited Telepathy. The dragon can communicate magically with other faerie dragons within 60 ft.\nMagic Resistance. The dragon has advantage on saving throws against spells and other magical effects.",
+        "Spellcasting": "Innate Spellcasting. Charisma is the spellcasting ability (spell save DC 13). The dragon casts these spells without material components.\n1/day each: Dancing Lights, Mage Hand, Minor Illusion.",
+        "Actions": "Bite. Melee weapon attack, +7 to hit, reach 5 ft., one creature. Hit 1 piercing damage.\nEuphoria Breath (Recharge 5–6). Exhale gas at one creature within 5 ft. It makes a DC 11 Wisdom saving throw. On a failure, the effect lasts 1 minute and the target cannot take reactions. At the start of each of its turns while affected, the target rolls 1d6.\n1–4. It takes no action or bonus action and uses all its movement to move in a random direction.\n5–6. It stays still and can only repeat the DC 11 Wisdom save, ending the effect on a success.",
+        "Bonus actions": "Superior Invisibility. Magically become Invisible along with worn and carried equipment. The effect lasts while the dragon maintains Concentration as it would on a spell.",
+        "Printed source": "Monster Manual (2014), p. 133."
+      },
+      "abilities": {
+        "Str": {
+          "score": 3
+        },
+        "Dex": {
+          "score": 20
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true
+    }
+  },
+  {
+    "name": "Faerie Dragon (Violet)",
+    "statBlock": {
+      "name": "Faerie Dragon (Violet)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Tiny dragon, chaotic good",
+      "ac": 15,
+      "hp": 14,
+      "hitDice": "4d4 + 4",
+      "speed": "10 ft., fly 60 ft.",
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 13,
+      "skills": {
+        "Arcana": 4,
+        "Perception": 3,
+        "Stealth": 7
+      },
+      "description": "A cat-sized dragon with violet scales and butterfly wings. This color marks a faerie dragon aged 51 or more.",
+      "sections": {
+        "Senses": "Darkvision 60 ft., passive Perception 13.",
+        "Languages": "Draconic, Sylvan.",
+        "Traits": "Limited Telepathy. The dragon can communicate magically with other faerie dragons within 60 ft.\nMagic Resistance. The dragon has advantage on saving throws against spells and other magical effects.",
+        "Spellcasting": "Innate Spellcasting. Charisma is the spellcasting ability (spell save DC 13). The dragon casts these spells without material components.\n1/day each: Dancing Lights, Mage Hand, Minor Illusion, Color Spray, Mirror Image, Suggestion, Major Image, Hallucinatory Terrain, Polymorph.",
+        "Actions": "Bite. Melee weapon attack, +7 to hit, reach 5 ft., one creature. Hit 1 piercing damage.\nEuphoria Breath (Recharge 5–6). Exhale gas at one creature within 5 ft. It makes a DC 11 Wisdom saving throw. On a failure, the effect lasts 1 minute and the target cannot take reactions. At the start of each of its turns while affected, the target rolls 1d6.\n1–4. It takes no action or bonus action and uses all its movement to move in a random direction.\n5–6. It stays still and can only repeat the DC 11 Wisdom save, ending the effect on a success.",
+        "Bonus actions": "Superior Invisibility. Magically become Invisible along with worn and carried equipment. The effect lasts while the dragon maintains Concentration as it would on a spell.",
+        "Printed source": "Monster Manual (2014), p. 133."
+      },
+      "abilities": {
+        "Str": {
+          "score": 3
+        },
+        "Dex": {
+          "score": 20
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true
+    }
+  },
+  {
+    "name": "Faerie Dragon (Yellow)",
+    "statBlock": {
+      "name": "Faerie Dragon (Yellow)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Tiny dragon, chaotic good",
+      "ac": 15,
+      "hp": 14,
+      "hitDice": "4d4 + 4",
+      "speed": "10 ft., fly 60 ft.",
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 13,
+      "skills": {
+        "Arcana": 4,
+        "Perception": 3,
+        "Stealth": 7
+      },
+      "description": "A cat-sized dragon with yellow scales and butterfly wings. This color marks a faerie dragon 11–20 years old.",
+      "sections": {
+        "Senses": "Darkvision 60 ft., passive Perception 13.",
+        "Languages": "Draconic, Sylvan.",
+        "Traits": "Limited Telepathy. The dragon can communicate magically with other faerie dragons within 60 ft.\nMagic Resistance. The dragon has advantage on saving throws against spells and other magical effects.",
+        "Spellcasting": "Innate Spellcasting. Charisma is the spellcasting ability (spell save DC 13). The dragon casts these spells without material components.\n1/day each: Dancing Lights, Mage Hand, Minor Illusion, Color Spray, Mirror Image.",
+        "Actions": "Bite. Melee weapon attack, +7 to hit, reach 5 ft., one creature. Hit 1 piercing damage.\nEuphoria Breath (Recharge 5–6). Exhale gas at one creature within 5 ft. It makes a DC 11 Wisdom saving throw. On a failure, the effect lasts 1 minute and the target cannot take reactions. At the start of each of its turns while affected, the target rolls 1d6.\n1–4. It takes no action or bonus action and uses all its movement to move in a random direction.\n5–6. It stays still and can only repeat the DC 11 Wisdom save, ending the effect on a success.",
+        "Bonus actions": "Superior Invisibility. Magically become Invisible along with worn and carried equipment. The effect lasts while the dragon maintains Concentration as it would on a spell.",
+        "Printed source": "Monster Manual (2014), p. 133."
+      },
+      "abilities": {
+        "Str": {
+          "score": 3
+        },
+        "Dex": {
+          "score": 20
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true
+    }
+  }
+]

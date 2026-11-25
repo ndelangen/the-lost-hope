@@ -1,0 +1,127 @@
+[
+  {
+    "name": "Grudgel",
+    "kind": "species",
+    "publication": "Grim Hollow: Player’s Guide",
+    "edition": "Fifth edition compatible",
+    "publisher": "Ghostfire Gaming",
+    "url": "https://fliphtml5.com/lxnee/xhim/GH2_Players_guide__Digital_Edition/",
+    "printedPages": [
+      11,
+      12,
+      20,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      38,
+      40,
+      43,
+      46
+    ],
+    "viewerPage": 24,
+    "page": "Printed p. 20, displayed p. 24. Heritage selection pp. 11–12 and 30–31.",
+    "printEdition": "Transformed Edition, revised digital text © 2025, designed for the 2024 fifth-edition rules",
+    "secondarySources": [
+      "https://www.dndbeyond.com/sources/dnd/ghpg",
+      "https://www.dndbeyond.com/sources/dnd/phb-2024",
+      "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+      "https://www.dndbeyond.com/sources/dnd/br-2024/feats",
+      "",
+      ""
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-classes",
+    "sourceDistinctions": [
+      "Uses all eight traditional Grudgel traits. The selected Magical Savvy cantrip is Mending.",
+      "Fifth edition compatible is the existing catalog key. The NPC uses the 2024 core rules."
+    ],
+    "npcExamples": [
+      "Orven Vale"
+    ],
+    "portraitSelection": "original OpenAI ImageGen"
+  },
+  {
+    "name": "Accursed",
+    "kind": "species",
+    "publication": "Grim Hollow: Player’s Guide",
+    "edition": "Fifth edition compatible",
+    "publisher": "Ghostfire Gaming",
+    "url": "https://fliphtml5.com/lxnee/xhim/GH2_Players_guide__Digital_Edition/",
+    "printedPages": [
+      11,
+      12,
+      23,
+      30,
+      31,
+      33,
+      34,
+      35,
+      36,
+      39,
+      40
+    ],
+    "viewerPage": 27,
+    "page": "Printed p. 23, displayed p. 27. Heritage selection pp. 11–12 and 30–31.",
+    "printEdition": "Transformed Edition, revised digital text © 2025, designed for the 2024 fifth-edition rules",
+    "secondarySources": [
+      "https://www.dndbeyond.com/sources/dnd/ghpg",
+      "https://www.dndbeyond.com/sources/dnd/phb-2024",
+      "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+      "https://www.dndbeyond.com/sources/dnd/br-2024/feats",
+      "",
+      ""
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-classes",
+    "sourceDistinctions": [
+      "The revised book gives Accursed no fixed trait package. The example selects two combat, three exploration, and three roleplaying traits.",
+      "Fifth edition compatible is the existing catalog key. The NPC uses the 2024 core rules."
+    ],
+    "npcExamples": [
+      "Sella Wren"
+    ],
+    "portraitSelection": "original OpenAI ImageGen"
+  },
+  {
+    "name": "Arisen",
+    "kind": "species",
+    "publication": "Grim Hollow: Player’s Guide",
+    "edition": "Fifth edition compatible",
+    "publisher": "Ghostfire Gaming",
+    "url": "https://fliphtml5.com/lxnee/xhim/GH2_Players_guide__Digital_Edition/",
+    "printedPages": [
+      11,
+      12,
+      24,
+      30,
+      31,
+      32,
+      36,
+      39,
+      40,
+      46,
+      47
+    ],
+    "viewerPage": 28,
+    "page": "Printed p. 24, displayed p. 28. Heritage selection pp. 11–12 and 30–31.",
+    "printEdition": "Transformed Edition, revised digital text © 2025, designed for the 2024 fifth-edition rules",
+    "secondarySources": [
+      "https://www.dndbeyond.com/sources/dnd/ghpg",
+      "https://www.dndbeyond.com/sources/dnd/phb-2024",
+      "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+      "https://www.dndbeyond.com/sources/dnd/br-2024/feats",
+      "",
+      ""
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-classes",
+    "sourceDistinctions": [
+      "Uses all eight traditional Arisen traits. Artificial Form changes the example’s creature type to Construct. Magical Fortification applies to Wisdom saves.",
+      "Fifth edition compatible is the existing catalog key. The NPC uses the 2024 core rules."
+    ],
+    "npcExamples": [
+      "Tamsin Reed"
+    ],
+    "portraitSelection": "original OpenAI ImageGen"
+  }
+]

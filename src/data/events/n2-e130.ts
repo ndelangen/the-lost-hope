@@ -27,4 +27,5 @@ export default createEvent({
       '.',
     ],
   ],
+  illustrations: ['/assets/scenes/devan-brings-the-party-to-the-gruumsh-war-temple.png'],
 })

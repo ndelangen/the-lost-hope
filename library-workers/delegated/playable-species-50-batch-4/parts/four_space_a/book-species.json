@@ -1,0 +1,61 @@
+[
+  {
+    "name": "Dracon",
+    "kind": "species",
+    "publication": "The Complete Spacefarer's Handbook (1992)",
+    "edition": "AD&D 2nd edition",
+    "traits": [
+      "Starting ranges before the lineage adjustment are Strength 11–18, Dexterity 3–17, Constitution 8–18, Intelligence 8–18, Wisdom 8–18 and Charisma 3–18. Increase Strength by 1 and reduce Dexterity by 1. The chapter's nonhuman Charisma limit is 12 with other races.",
+      "A dracon may be a fighter through level 14 or a cleric through level 12. The two tracks are single-class choices. Dracon clerics are called shalla. Their spheres are Animal, Combat, Creation, Divination, Guardian, Healing, Necromantic, Protection and Sun.",
+      "Dracon and dragon languages are usual starting options. The book also permits Common, spoken by a minority of dracons, and other languages with DM approval.",
+      "Use the Large target damage column for conventional weapons. With no weapon in use, a dracon can attack with both thumb-claws in one round for 1d4 each before character modifiers.",
+      "Unencumbered move 18. Properly mounted loads allow move 18 through 150 lb., move 12 through 300 lb., and move 6 through 450 lb. A fitted harness allows up to 1,000 lb. of wheeled or greased-bottom load at move 6.",
+      "Use Strength for upper body work. A body slam against a stuck or heavy door adds 4 to the opening roll, subject to the normal roll cap."
+    ]
+  },
+  {
+    "name": "Giff",
+    "kind": "species",
+    "publication": "The Complete Spacefarer's Handbook (1992)",
+    "edition": "AD&D 2nd edition",
+    "traits": [
+      "Starting ranges are Strength 11–18, Dexterity 3–17, Constitution 8–18, Intelligence 3–16, Wisdom 3–17 and Charisma 3–18. Add 2 to Strength and subtract 1 from Intelligence. The chapter limits Charisma to 12 with members of other races.",
+      "Choose fighter through level 15 or thief through level 10. Giff use a single class and cannot cast spells or power a spelljamming helm, including a series helm.",
+      "Starting language choices are Giff, Common, Dwarven, Elven and Dracon, subject to the ordinary language allowance.",
+      "Giff qualify as Large weapon targets. Natural AC is 6 or 5 with a shield. Worn armor replaces natural AC if it yields a better result. Fit armor to the giff at triple normal cost.",
+      "Unarmed head-butt deals 2d6. The species can use the standard human weapons, subject to the character's class and proficiency rules.",
+      "Magic resistance 10% applies to incoming hostile and beneficial spells. An item unsuitable for the giff's class has a separate 10% malfunction roll each use, or a single check when first used in the encounter for a continuous-effect item. A malfunction cancels that use. Weapons, shields, armor, gauntlets and girdles are exempt from the item rule.",
+      "Thief adjustments are Open Locks +5%, Find/Remove Traps +10%, Move Silently −5%, Hide in Shadows −5%, Climb Walls −20%, and Read Languages +5%. The climbing entry requires a brace or support because the giff cannot hang from its arms alone."
+    ]
+  },
+  {
+    "name": "Grommam",
+    "kind": "species",
+    "publication": "The Complete Spacefarer's Handbook (1992)",
+    "edition": "AD&D 2nd edition",
+    "traits": [
+      "Starting ranges are Strength 11–18, Dexterity 8–18, Constitution 8–18, Intelligence 3–18, Wisdom 3–17 and Charisma 3–18. The original male line adjusts Strength and Dexterity by +2 and Intelligence and Wisdom by −1. The original female line adjusts Intelligence and Wisdom by +2 and Strength and Dexterity by −1. Charisma with other races caps at 12.",
+      "The species prose gives males fighter or thief progression to level 15. Either sex may be a cleric through level 10. Use one class. Clerics can power a helm.",
+      "Grommish uses hand signs, posture and voice. The initial language choices include Grommish, Common and Elven.",
+      "Add 25 points to climbing rolls. The thief table already lists the +25% racial Climb Walls adjustment, so use it once. It also lists Pick Pockets +10%, Open Locks −5%, Find/Remove Traps −5%, and Read Languages −5%.",
+      "The species entry grants penalty-free two-weapon use and refers to Ambidexterity in Chapter 5. The general proficiency lists reduced penalties, so the worked NPC uses the explicit species waiver and retains the core skill and off-hand size rules.",
+      "A magic item unsuitable for the class has a 40% chance to fail on each use, or on first use for an encounter if the item is continuous. A failed roll only disrupts that use. Weapons, shields, armor, gauntlets and girdles are exempt."
+    ]
+  },
+  {
+    "name": "Hurwaeti",
+    "kind": "species",
+    "publication": "The Complete Spacefarer's Handbook (1992)",
+    "edition": "AD&D 2nd edition",
+    "traits": [
+      "Hurwaet is the singular form used in the tables. Wiggle is the nickname for the spacefaring lineage. The swamp and salt creatures in MC7 are outside this player profile.",
+      "Starting ranges are Strength 8–18, Dexterity 3–18, Constitution 3–17, Intelligence 3–18, Wisdom 8–18 and Charisma 3–18. Gain 1 Wisdom and lose 1 Constitution. The chapter applies the cross-race Charisma cap of 12.",
+      "Choose fighter through level 12 or thief through level 14. Use a single class. Initial language options include Hurwaeti, Common and Lizard Man.",
+      "Natural AC 5 becomes AC 4 with a shield. Worn armor has to provide AC 4 or better on its own to replace natural armor and costs 50% extra to fit. An equipped hurwaet can jump 8 feet up or 20 feet across.",
+      "Gain +1 to hit neogi, mind flayers and beholders, their followers and their ships. The lineage entry describes a refusal to surrender to these enemies.",
+      "Once per day an adult can make a 60 × 60 × 20 ft. stationary fog bank. It obscures normal vision and infravision beyond 2 feet by the core spell procedure. Wind can break it up. The natural fog does not respond to dispelling.",
+      "One simultaneous daily fog contribution covers 10 tons of ship. Enough hurwaeti to cover the whole vessel can upgrade deadly air to fresh. Half that number advances one category from deadly to foul or foul to fresh.",
+      "Thief adjustments are Open Locks +5%, Find/Remove Traps +5%, Move Silently +5%, Hide in Shadows −5%, Climb Walls −10% and Read Languages +5%."
+    ]
+  }
+]

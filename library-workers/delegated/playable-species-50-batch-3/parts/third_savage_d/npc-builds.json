@@ -1,0 +1,285 @@
+{
+  "builds": [
+    {
+      "id": "savage-species-mummy-nesek-30e",
+      "size": "Medium",
+      "type": "Undead",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ],
+      "title": "Sarcophagus guard, Mummy 10",
+      "difficulty": "CR 3 by Table A–36. Mummy monster class level 10, ECL 10 with 6 HD.",
+      "senses": "Darkvision 60 ft.",
+      "languages": "Common",
+      "speed": "20 ft.",
+      "ac": 19,
+      "hp": 39,
+      "hitDice": "6d12",
+      "initiative": 5,
+      "abilityScores": {
+        "STR": 26,
+        "DEX": 12,
+        "INT": 8,
+        "WIS": 15,
+        "CHA": 18
+      },
+      "skills": [
+        "Craft (stonework) +2",
+        "Hide +7",
+        "Listen +10",
+        "Move Silently +7",
+        "Spot +10"
+      ],
+      "traits": [
+        "Lawful evil. Touch 11, flat-footed 18. BAB +3, grapple +11, face and reach 5 ft. Fortitude +2, Reflex +3, Will +7.",
+        "No Constitution score. Destroyed at 0 HP. Immune to mind-affecting effects, poison, sleep, paralysis, stunning, disease, critical hits, subdual damage, ability damage, energy drain, and death from massive damage.",
+        "Halve physical attack damage before subtracting DR 5/—. Double fire damage unless Nesek succeeds on a saving throw for half damage.",
+        "Improved Initiative, Weapon Focus (slam), Alertness."
+      ],
+      "actions": [
+        "Slam +12 melee, 1d6+12 damage. After a hit, expend one of three daily Mummy Rot uses to demand a Fortitude DC 20 save. Failure causes supernatural disease with a one-day incubation and 1d6 Constitution damage. Repeat daily. Magical cure is required to end it. If the target dies from it, recovery requires remove disease and raise dead or equivalents within six rounds, before the remains scatter.",
+        "Despair (Su). A creature that sees Nesek makes a Will DC 17 save or is paralyzed with fear for 1d4 rounds. Track affected creatures even if they pass. A creature is subject to his Despair only once per day."
+      ],
+      "tactics": "Nesek steps into view at the outer gate so intruders save against Despair before reaching the sarcophagus. He spends a Rot use on each of the first three enemies who try to shove past him."
+    },
+    {
+      "id": "savage-species-ogre-rodd-30e",
+      "size": "Large",
+      "type": "Giant",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ],
+      "title": "Bridge steward, Ogre 5",
+      "difficulty": "CR 2 by Table A–38. Ogre monster class level 5, ECL 5 with 4 HD.",
+      "senses": "Darkvision 60 ft.",
+      "languages": "Giant",
+      "speed": "40 ft.",
+      "ac": 13,
+      "hp": 34,
+      "hitDice": "4d8+16",
+      "initiative": 4,
+      "abilityScores": {
+        "STR": 24,
+        "DEX": 11,
+        "CON": 18,
+        "INT": 8,
+        "WIS": 10,
+        "CHA": 4
+      },
+      "skills": [
+        "Climb +11",
+        "Listen +2",
+        "Spot +1"
+      ],
+      "traits": [
+        "Chaotic neutral. Touch 9, flat-footed 13. BAB +3, grapple +14, face 5 ft. by 5 ft., reach 10 ft. Fortitude +8, Reflex +1, Will +1.",
+        "Mended cloth and bare hide. AC includes +4 natural armor and −1 from Large size.",
+        "Improved Initiative and Weapon Focus (greatclub)."
+      ],
+      "actions": [
+        "Ogre greatclub +10 melee, 2d6+10 damage, ×2 on a critical hit. Reach 10 ft. Two-handed grip."
+      ],
+      "tactics": "Rodd backs up to the narrowest crossing and calls for the crossing token in Giant. He uses reach to stop the first person who steps past the marker."
+    },
+    {
+      "id": "savage-species-stone-giant-ulden-30e",
+      "size": "Medium",
+      "type": "Giant (Earth)",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ],
+      "title": "Quarry lookout, Stone Giant 6",
+      "difficulty": "CR 3 by Table A–45. Stone Giant monster class level 6, ECL 6 with 5 HD.",
+      "senses": "Darkvision 60 ft.",
+      "languages": "Common, Giant",
+      "speed": "40 ft.",
+      "ac": 17,
+      "hp": 32,
+      "hitDice": "5d8+10",
+      "initiative": 6,
+      "abilityScores": {
+        "STR": 24,
+        "DEX": 14,
+        "CON": 15,
+        "INT": 12,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Climb +14",
+        "Craft (stonework) +8",
+        "Hide +2 (+10 in rocky terrain)",
+        "Profession (quarrying) +5",
+        "Spot +7"
+      ],
+      "traits": [
+        "Neutral. Touch 12, flat-footed 15. BAB +3, grapple +10, face and reach 5 ft. Fortitude +6, Reflex +3, Will +2.",
+        "Improved Initiative and Point Blank Shot."
+      ],
+      "actions": [
+        "Throw rock +6 ranged, 1d8+7 damage. Range increment 60 ft., maximum range 300 ft. Within 30 ft., Point Blank Shot makes it +7 ranged for 1d8+8 damage.",
+        "Club +10 melee, 1d6+7 damage one-handed, ×2 on a critical hit.",
+        "Catch rock (Ex). Once per round, if aware and ready when hit by a rock or a similar projectile, attempt a Reflex save as a free action to catch it. DC 15 for Small, 20 for Medium, and 25 for Large. Add any weapon enhancement bonus to the DC."
+      ],
+      "tactics": "Ulden throws once from beside a rock pile. He stands where loose stones and clear sight lines let him see a rock coming."
+    },
+    {
+      "id": "savage-species-succubus-vessa-30e",
+      "size": "Medium",
+      "type": "Outsider (Chaotic, Evil)",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ],
+      "title": "Treaty broker, Succubus 3",
+      "difficulty": "CR 2 by Table A–46. Succubus monster class level 3, ECL 3 with 2 HD.",
+      "senses": "Darkvision 60 ft.",
+      "languages": "Abyssal, Celestial, Draconic, tongues, telepathy 100 ft.",
+      "speed": "Land 30 ft., fly 50 ft. (average) in true form",
+      "ac": 16,
+      "hp": 11,
+      "hitDice": "2d8+2",
+      "initiative": 3,
+      "abilityScores": {
+        "STR": 10,
+        "DEX": 16,
+        "CON": 12,
+        "INT": 15,
+        "WIS": 12,
+        "CHA": 23
+      },
+      "skills": [
+        "Bluff +13",
+        "Concentration +6",
+        "Disguise +11 (+21 in alternate form)",
+        "Escape Artist +4",
+        "Hide +8",
+        "Knowledge (the planes) +7",
+        "Listen +14",
+        "Move Silently +8",
+        "Search +7",
+        "Spot +14"
+      ],
+      "traits": [
+        "Chaotic evil. True-form stats. Touch 13, flat-footed 13. BAB +2, grapple +2, face and reach 5 ft. Fortitude +4, Reflex +6, Will +4.",
+        "Poison immunity. Acid, cold, electricity, and fire resistance 5. Skill Focus (Bluff), +2 in 3.0.",
+        "Always-on tongues at caster level 4. Vessa can suppress or restore it as a free action. Telepathy works with any creature within 100 ft. that has a language."
+      ],
+      "actions": [
+        "Claw +2 melee, 1d3 damage, or two claws +2 each as a full attack in her true form.",
+        "Alternate Form (Su), a standard action. The three chosen Medium humanoid forms are a human clerk, an elf attendant, and a half-elf envoy. Use the printed forms restriction and the 3.0 polymorph self rules. The +10 circumstance bonus to Disguise applies in alternate form.",
+        "Suggestion (Sp), 1/day, caster level 3. One living creature within 30 ft. that can understand Vessa attempts a Will DC 19 save. Failure prompts a reasonable-sounding course of action for up to 3 hours or until the task is done. Spell resistance applies.",
+        "Detect thoughts (Sp), 1/day. Sweep a 60-ft. quarter circle for up to 3 minutes with concentration. First round detects thinking minds, second gives count and mental strength, third reads surface thoughts on a failed Will DC 18 save. No spell resistance.",
+        "Doom (Sp), 1/day. One living creature within 130 ft. makes a Will DC 17 save or is shaken for 3 minutes (−2 morale on attacks, checks and saves). Spell resistance applies.",
+        "Darkness (Sp), 1/day. Touch an object to make total darkness within 20 ft. for 30 minutes. Even darkvision fails. A lightproof cover blocks the effect.",
+        "Detect good (Sp), 1/day. Sweep a 60-ft. quarter circle, concentrating up to 30 minutes. Presence is apparent in the first round, number and strongest aura in the second, location and strength in the third. No save or spell resistance.",
+        "Clairaudience/clairvoyance (Sp), 1/day. Place a magical sensor at a known or obvious location on the same plane for up to 3 minutes. Hear or see through it. Lead or magical protection blocks it.",
+        "Desecrate (Sp), 1/day, within 30 ft. For 6 hours in a 20-ft.-radius emanation, turning checks take −3 and undead gain +1 profane on attacks, damage and saves. Undead created or summoned there gain +1 HP per HD. Own patron’s altar doubles the modifiers. A rival shrine can instead be cut off from its patron. Counters consecrate."
+      ],
+      "tactics": "Vessa takes the clerk’s form for interviews and casts detect thoughts before the terms are signed. When alone she suggests that one living negotiator reopen the talks."
+    },
+    {
+      "id": "savage-species-treant-bramblewake-30e",
+      "size": "Large",
+      "type": "Plant",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ],
+      "title": "Orchard boundary keeper, Treant 8",
+      "difficulty": "CR 5 by Table A–47. Treant monster class level 8, ECL 8 with 5 HD.",
+      "senses": "Low-light vision",
+      "languages": "Common, Sylvan, Treant",
+      "speed": "30 ft.",
+      "ac": 18,
+      "hp": 47,
+      "hitDice": "5d8+25",
+      "initiative": 5,
+      "abilityScores": {
+        "STR": 28,
+        "DEX": 12,
+        "CON": 20,
+        "INT": 12,
+        "WIS": 15,
+        "CHA": 10
+      },
+      "skills": [
+        "Hide +4 (+20 in forest)",
+        "Listen +9",
+        "Spot +9",
+        "Wilderness Lore +9"
+      ],
+      "traits": [
+        "Neutral good. Touch 10, flat-footed 17. BAB +3, grapple +16, face and reach 10 ft. Fortitude +9, Reflex +2, Will +3.",
+        "Plant immunities as on the profile, DR 5/slashing, and fire vulnerability. Double fire damage if no save is allowed. Otherwise apply −10 to the normal save.",
+        "Improved Initiative, Weapon Focus (slam), Alertness. Table A–47 supplies the third feat at level 5. The class prose omits it."
+      ],
+      "actions": [
+        "Slam +12 melee, 1d8+9 damage, reach 10 ft. Two slams at +12 each on a full attack. A full attack against an object or a structure doubles its damage.",
+        "Trample (Ex), standard action during movement. Move over Small or smaller creatures for 2d12+4. Each can take its attack of opportunity at −4 or forgo the attack for a Reflex DC 20 save for half.",
+        "Animate Trees (Sp), at will, 180 ft., one tree at a time. The tree takes a full round to uproot. Thereafter use this build’s defenses, slams, trample and fire vulnerability for the tree, with speed 10 ft. Track its HP separately. It stops moving if Bramblewake is incapacitated or moves out of range. For this encounter, the animated tree has no separate Animate Trees action."
+      ],
+      "tactics": "Bramblewake wakes a tree near the boundary and lets it step in front of the wagon track. He uses the tree to block passage while he asks who moved the survey post."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Nesek Reedseal",
+      "species": "Mummy",
+      "size": "Medium",
+      "edition": "3.0 edition",
+      "speciesPublication": "Savage Species (2003)",
+      "build": "savage-species-mummy-nesek-30e",
+      "role": "Sarcophagus guard who stops unauthorized processions.",
+      "motive": "Keep his last ruler in the tomb until the proper burial witnesses return.",
+      "hook": "Someone has polished the old seal on the sarcophagus. Nesek asks who gave them permission."
+    },
+    {
+      "name": "Rodd Weirpole",
+      "species": "Ogre",
+      "size": "Large",
+      "edition": "3.0 edition",
+      "speciesPublication": "Savage Species (2003)",
+      "build": "savage-species-ogre-rodd-30e",
+      "role": "Bridge steward who keeps wagons off a failing span.",
+      "motive": "Pay a traveling mason to repair the bridge without telling his creditors.",
+      "hook": "The bridge toll is a dry plank. Rodd refuses coin and points out the plank rotting beneath him."
+    },
+    {
+      "name": "Ulden Screeline",
+      "species": "Stone Giant",
+      "size": "Medium",
+      "edition": "3.0 edition",
+      "speciesPublication": "Savage Species (2003)",
+      "build": "savage-species-stone-giant-ulden-30e",
+      "role": "Quarry lookout guarding a closed cut.",
+      "motive": "Keep prospectors clear of a slide until the crew below has a chance to climb out.",
+      "hook": "The lookout catches a stone thrown from above the cut and sets it down without looking away."
+    },
+    {
+      "name": "Vessa Ashscript",
+      "species": "Succubus",
+      "size": "Medium",
+      "edition": "3.0 edition",
+      "speciesPublication": "Savage Species (2003)",
+      "build": "savage-species-succubus-vessa-30e",
+      "role": "Treaty broker who trades secrets for adjournments.",
+      "motive": "Prevent the assembly from signing a clause that names her patron.",
+      "hook": "Every copy of the treaty includes a new footnote in the scribe’s hand. The scribe has been missing since dawn."
+    },
+    {
+      "name": "Bramblewake",
+      "species": "Treant",
+      "size": "Large",
+      "edition": "3.0 edition",
+      "speciesPublication": "Savage Species (2003)",
+      "build": "savage-species-treant-bramblewake-30e",
+      "role": "Orchard boundary keeper who can move a living obstacle into a wagon’s path.",
+      "motive": "Recover one old tree wrongly marked for removal without closing the road to harvest wagons.",
+      "hook": "A survey stake has been driven back into the center of the road three mornings in a row."
+    }
+  ]
+}

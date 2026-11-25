@@ -1,0 +1,212 @@
+[
+  {
+    "name": "Hyena",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 11,
+    "hp": 5,
+    "hitDice": "1d8 + 1",
+    "speed": "50 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Perception +3. Passive Perception 13. No listed special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A sandy hyena with dark spots, high shoulders, lower hindquarters, round ears and a blunt muzzle.",
+    "habitats": [
+      "Savanna",
+      "Open grassland",
+      "Dry scrub"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0 (2018), chapter 12, printed and p. 141. ",
+      "Traits": "Pack Tactics. The hyena gains advantage when attacking a creature if a non-incapacitated ally of the hyena is within 5 ft. of the target.",
+      "Actions": "Bite. Melee weapon attack, +2 to hit, 5-ft. reach, one target. On a hit, deal 3 (1d6) piercing damage."
+    }
+  },
+  {
+    "name": "Hyena",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 11,
+    "hp": 5,
+    "hitDice": "1d8 + 1",
+    "speed": "50 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Perception +3. Passive Perception 13. No listed special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A sandy hyena with dark spots, high shoulders, lower hindquarters, round ears and a blunt muzzle.",
+    "habitats": [
+      "Savanna",
+      "Open grassland",
+      "Dry scrub"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), Appendix A, printed p. 331. https://online.anyflip.com/pqhqn/sezy/files/basic-html/page332.html",
+      "Traits": "Pack Tactics. The hyena gains advantage when attacking a creature if a non-incapacitated ally of the hyena is within 5 ft. of the target.",
+      "Actions": "Bite. Melee weapon attack, +2 to hit, 5-ft. reach, one target. On a hit, deal 3 (1d6) piercing damage."
+    }
+  },
+  {
+    "name": "Raven",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 12,
+    "hp": 1,
+    "hitDice": "1d4 - 1",
+    "speed": "10 ft., fly 50 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Perception +3. Passive Perception 13. No listed special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A black corvid with a heavy beak, shaggy throat feathers and a slate sheen across its folded wings.",
+    "habitats": [
+      "Woodland edges",
+      "Rocky uplands",
+      "Settlements",
+      "Carrion sites"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0 (2018), chapter 12, printed and p. 150. ",
+      "Traits": "Mimicry. The raven can imitate simple sounds it has heard. A creature hearing the imitation identifies it with a successful DC 10 Wisdom (Insight) check.",
+      "Actions": "Beak. Melee weapon attack, +4 to hit, 5-ft. reach, one target. On a hit, deal 1 piercing damage."
+    }
+  },
+  {
+    "name": "Raven",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 12,
+    "hp": 1,
+    "hitDice": "1d4 - 1",
+    "speed": "10 ft., fly 50 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Perception +3. Passive Perception 13. No listed special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A black corvid with a heavy beak, shaggy throat feathers and a slate sheen across its folded wings.",
+    "habitats": [
+      "Woodland edges",
+      "Rocky uplands",
+      "Settlements",
+      "Carrion sites"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), Appendix A, printed p. 335. https://online.anyflip.com/pqhqn/sezy/files/basic-html/page336.html",
+      "Traits": "Mimicry. The raven can imitate simple sounds it has heard. A creature hearing the imitation identifies it with a successful DC 10 Wisdom (Insight) check.",
+      "Actions": "Beak. Melee weapon attack, +4 to hit, 5-ft. reach, one target. On a hit, deal 1 piercing damage."
+    }
+  }
+]

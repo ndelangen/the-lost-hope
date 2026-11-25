@@ -1,0 +1,1830 @@
+{
+  "baseline": "3ebbe06ae97e8d74fc942da7e1f5c3b82c86b36a",
+  "species": 50,
+  "profiles": 50,
+  "newCatalogRows": 35,
+  "existingMetadataEnriched": 15,
+  "npcBuilds": 52,
+  "portraits": 50,
+  "entries": [
+    {
+      "name": "Bearfolk",
+      "publication": "Book of Ebon Tides",
+      "edition": "Fifth edition compatible",
+      "owner": "batch_ebon",
+      "npcs": [
+        "Halla Duskbark"
+      ],
+      "portrait": "parts/batch_ebon/portraits/bearfolk.png",
+      "source": {
+        "name": "Bearfolk",
+        "kind": "species",
+        "publication": "Book of Ebon Tides",
+        "edition": "Fifth edition compatible",
+        "publisher": "Kobold Press",
+        "authors": [
+          "Wolfgang Baur",
+          "Celeste Conowitch"
+        ],
+        "year": 2022,
+        "isbn": "9781950789337",
+        "source": "https://www.dndbeyond.com/species/1726258-bearfolk",
+        "printedPages": [
+          22,
+          23,
+          24
+        ],
+        "heading": "Bearfolk Traits and Shadowborn Bearfolk",
+        "primaryBookText": "",
+        "transcriptStartLine": 1463,
+        "publisherSample": "",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "supplementalSources": [],
+        "sourceDistinctions": [
+          "The book presents the base Bearfolk and Shadowborn in the same entry. Cloak of Night belongs to Shadowborn. Halla uses that complete profile."
+        ],
+        "catalogStatus": "Fill existing indexed publication. No duplicate species row needed.",
+        "slug": "bearfolk",
+        "portraitSelection": "generated",
+        "npcExamples": [
+          "Halla Duskbark"
+        ]
+      }
+    },
+    {
+      "name": "Bladeling",
+      "publication": "Manual of the Planes (2008)",
+      "edition": "4th edition",
+      "owner": "batch4e_settings",
+      "npcs": [
+        "Varik Ashsteel"
+      ],
+      "portrait": "parts/batch4e_settings/portraits/bladeling.png",
+      "source": {
+        "name": "Bladeling",
+        "slug": "bladeling",
+        "publication": "Manual of the Planes (2008)",
+        "edition": "4th edition",
+        "publisher": "Wizards of the Coast",
+        "type": "Natural humanoid",
+        "url": "",
+        "printedPages": {
+          "playerTraits": "117",
+          "appearance": "116–117",
+          "rogueBuild": "Player’s Handbook 116–119"
+        },
+        "sourceDistinctions": [
+          "The playable profile is labeled Bladeling Characters on printed p. 117, distinct from the adjacent monster stat blocks.",
+          "Razor Storm is a minor action and targets each creature in the burst. Use care around allies.",
+          "The Improved Razor Storm feat can replace the base power. Varik uses the original."
+        ],
+        "npcSources": [
+          {
+            "url": "https://dokumen.pub/players-handbook-a-4th-edition-core-rulebook-1-dampd-core-rulebook-dungeons-amp-dragons-4nbsped-0786948671-9780786948673.html",
+            "title": "Player’s Handbook (2008)",
+            "pages": "17–18, 61–66, 76–78, 104–108, 116–119, 214–219, 274–277"
+          },
+          {
+            "url": "https://dnd-support.wizards.com/hc/en-us/articles/360000962623-Dungeons-Dragons-3rd-3-5-and-4th-Edition-Rules-Questions",
+            "title": "4th edition Collected Updates and Errata (August 2012)",
+            "pages": "58, 90, 95–96"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Centaur",
+      "publication": "Revised v3.5 SRD (Monsters)",
+      "edition": "3.5 edition",
+      "owner": "batch_3e_mm",
+      "npcs": [
+        "Myrine Ashrein"
+      ],
+      "portrait": "parts/batch_3e_mm/portraits/centaur.png",
+      "source": {
+        "name": "Centaur",
+        "publication": "Revised v3.5 SRD (Monsters)",
+        "edition": "3.5 edition",
+        "publisher": "Wizards of the Coast",
+        "url": "https://www.d20srd.org/srd/monsters/centaur.htm#centaursAsCharacters",
+        "heading": "Centaurs As Characters",
+        "printedMonsterManualPages": [
+          32
+        ],
+        "previousCatalogCoverage": "Matching SRD monster row. This addition supplies the playable profile.",
+        "distinction": "The SRD player bullet gives double Medium carrying capacity even though general Large quadruped rules give a different multiplier. This version uses the specific player bullet."
+      }
+    },
+    {
+      "name": "Cervan",
+      "publication": "Humblewood Campaign Setting",
+      "edition": "Fifth edition compatible",
+      "owner": "batch_humblewood_b",
+      "npcs": [
+        "Bracken Mossbell",
+        "Hollis Shadebuck"
+      ],
+      "portrait": "parts/batch_humblewood_b/portraits/cervan.png",
+      "source": {
+        "name": "Cervan",
+        "kind": "species",
+        "publication": "Humblewood Campaign Setting",
+        "edition": "Fifth edition compatible",
+        "publisher": "Hit Point Press",
+        "url": "",
+        "sourceHeading": "Chapter 1, Welcome to the Wood, Cervan traits",
+        "printedPages": [
+          22,
+          23
+        ],
+        "printing": "2019 edition, digital v1.04",
+        "publisherListing": "https://hitpointpress.itch.io/humblewood",
+        "additionalBookMirror": "https://anyflip.com/czfqj/xekw/basic",
+        "digitalCatalogUrl": "https://www.dndbeyond.com/species/1592465-cervan",
+        "existingProfile": {
+          "name": "Cervan",
+          "publication": "Humblewood Campaign Setting",
+          "edition": "Fifth edition compatible"
+        },
+        "encounterClassRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "sourceDistinction": "The player trait on p. 23 requires over half of current remaining HP from an attack. The separate Cervan Priest NPC on p. 193 uses equal to half or more. Grove and Pronghorn occupy one canonical profile here."
+      }
+    },
+    {
+      "name": "Corvum",
+      "publication": "Humblewood Campaign Setting",
+      "edition": "Fifth edition compatible",
+      "owner": "batch_humblewood_a",
+      "npcs": [
+        "Miren Inkquill"
+      ],
+      "portrait": "parts/batch_humblewood_a/portraits/corvum.png",
+      "source": {
+        "name": "Corvum",
+        "kind": "species",
+        "publication": "Humblewood Campaign Setting",
+        "edition": "Fifth edition compatible",
+        "publisher": "Hit Point Press",
+        "url": "",
+        "sourcePage": "12–13",
+        "sourceHeading": "Corvum traits and subraces",
+        "originalRevision": "v1.04",
+        "officialIndex": "https://www.dndbeyond.com/species/1592466-corvum",
+        "slug": "corvum",
+        "npcRulesPage": "210–211",
+        "npcRulesHeading": "Appendix C, Creating NPCs",
+        "coverage": "Local rules and one original 2014-compatible NPC for the existing catalog index row. The subraces remain options under one species profile.",
+        "rulesDistinction": "Use the original fixed ability increases and falling-only Glide. The separately published 2024 player update is outside this entry."
+      }
+    },
+    {
+      "name": "Daelkyr Half-Blood",
+      "publication": "Magic of Eberron (2005)",
+      "edition": "3.5 edition",
+      "owner": "daelkyr",
+      "npcs": [
+        "Lysa Fenwick",
+        "Deren Valehart"
+      ],
+      "portrait": "parts/daelkyr/portraits/daelkyr-half-blood.png",
+      "source": {
+        "name": "Daelkyr Half-Blood",
+        "kind": "species",
+        "publication": "Magic of Eberron (2005)",
+        "edition": "3.5 edition",
+        "book": "Magic of Eberron",
+        "publisher": "Wizards of the Coast",
+        "authors": [
+          "Bruce R. Cordell",
+          "Stephen Schubert",
+          "Chris Thomasson"
+        ],
+        "firstPrinting": "October 2005",
+        "isbn": "978-0-7869-3696-0",
+        "printedPages": {
+          "playableSpecies": [
+            37,
+            38,
+            39
+          ],
+          "illustration": [
+            40
+          ],
+          "symbiontMastery": [
+            51
+          ],
+          "gauntlet": [
+            155,
+            156
+          ],
+          "scarab": [
+            157,
+            158
+          ]
+        },
+        "primaryBookPdfPageOffset": 1,
+        "primaryBookScan": "",
+        "primaryBookSha256": "7383b2ef364e3783e9ee6376f3692b53e259a0c3d813847b52a21e777810db46",
+        "symbiontTraits": "https://anyflip.com/groks/gypc/basic/301-325",
+        "sourceDistinctions": [
+          "Symbiont Mastery adds 2 host HP per attachment and +4 to conflict saves, with no automatic bypass of Ego.",
+          "The throwing scarab provides one shard per round and no separate attack while attached. The damage dice follow the weapon entry and sample rogue.",
+          "The crawling gauntlet supplies a natural claw using host stats. Its standalone stat block is separate from the attached benefit."
+        ],
+        "entryId": "species-5f505394da743a432b3ba8a5",
+        "versionKey": "5e05b20e2f4320cbd8188d9d",
+        "slug": "daelkyr-half-blood",
+        "portraitSelection": "generated",
+        "portraitForm": "Lysa Fenwick, an original Daelkyr Half-Blood scout with a throwing scarab",
+        "npcExamples": [
+          "Lysa Fenwick",
+          "Deren Valehart"
+        ]
+      }
+    },
+    {
+      "name": "Darakhul",
+      "publication": "Book of Ebon Tides",
+      "edition": "Fifth edition compatible",
+      "owner": "batch_ebon",
+      "npcs": [
+        "Rell Ashgate"
+      ],
+      "portrait": "parts/batch_ebon/portraits/darakhul.png",
+      "source": {
+        "name": "Darakhul",
+        "kind": "species",
+        "publication": "Book of Ebon Tides",
+        "edition": "Fifth edition compatible",
+        "publisher": "Kobold Press",
+        "authors": [
+          "Wolfgang Baur",
+          "Celeste Conowitch"
+        ],
+        "year": 2022,
+        "isbn": "9781950789337",
+        "source": "https://www.dndbeyond.com/species/1726259-darakhul",
+        "printedPages": [
+          24,
+          25,
+          26,
+          27
+        ],
+        "heading": "Darakhul Traits, Bearfolk Heritage and Shadow Goblin Heritage",
+        "primaryBookText": "",
+        "transcriptStartLine": 1661,
+        "publisherSample": "",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "supplementalSources": [],
+        "sourceDistinctions": [
+          "The two heritages printed here are Bearfolk and Shadow Goblin. The book points readers to Tome of Heroes for further choices.",
+          "Keep the player creature type Humanoid and the susceptibility to undead effects. Do not inherit undead NPC stat-block immunities."
+        ],
+        "catalogStatus": "Fill existing indexed publication. No duplicate species row needed.",
+        "slug": "darakhul",
+        "portraitSelection": "generated",
+        "npcExamples": [
+          "Rell Ashgate"
+        ]
+      }
+    },
+    {
+      "name": "Deva",
+      "publication": "Player's Handbook 2 (4e)",
+      "edition": "4th edition",
+      "owner": "batch4e_phb",
+      "npcs": [
+        "Selian Dawnledger"
+      ],
+      "portrait": "parts/batch4e_phb/portraits/deva.png",
+      "source": {
+        "name": "Deva",
+        "publication": "Player's Handbook 2 (4e)",
+        "edition": "4th edition",
+        "publisher": "Wizards of the Coast",
+        "type": "Immortal humanoid",
+        "url": "",
+        "primaryBookScan": "",
+        "printedPages": [
+          8,
+          9
+        ],
+        "primaryBookPdfPageOffset": 1,
+        "primaryBookSha256": "eeef56430c1f7d3672cf675ebb1868039033d60269bf35503ff5e32156974dd0",
+        "sourceDistinctions": [
+          "PHB2 p. 8 gives 1d6 for the baseline racial power. Auspicious Lineage is a separate option and Selian does not take it.",
+          "Astral Majesty is checked against the attacker’s bloodied status."
+        ],
+        "supportingSources": [
+          {
+            "title": "Player’s Handbook 2, Invoker",
+            "url": "",
+            "pages": [
+              100,
+              101,
+              102,
+              103,
+              104
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Disembodied",
+      "publication": "Grim Hollow: The Player’s Guide (2021)",
+      "edition": "2014 fifth edition compatible",
+      "owner": "batch_grimhollow",
+      "npcs": [
+        "Elian Voss"
+      ],
+      "portrait": "parts/batch_grimhollow/portraits/disembodied.png",
+      "source": {
+        "name": "Disembodied",
+        "kind": "species",
+        "slug": "disembodied",
+        "edition": "2014 fifth edition compatible",
+        "publication": "Grim Hollow: The Player’s Guide (2021)",
+        "publisher": "Ghostfire Gaming",
+        "book": "Grim Hollow: The Player's Guide",
+        "firstPrinting": "2021",
+        "url": "https://anyflip.com/usqxr/dvib/basic",
+        "printedPages": [
+          15
+        ],
+        "sourceHeading": "Disembodied Traits",
+        "publisherOverview": "https://ghostfiregaming.com/blog/discovering-the-races-of-grim-hollow/",
+        "publisherProduct": "https://ghostfiregaming.com/grim-hollow/",
+        "existingCatalogSource": "https://www.dndbeyond.com/species/1987213-disembodied",
+        "sourceDistinctions": [
+          "The original 2021 player rules differ from the modular heritages in the revised D&D Beyond Player’s Guide.",
+          "The legacy Player Pack separately uses the printed title The Disembodied. The canonical name here follows the revised catalog name and keeps the 2021 book variant distinct."
+        ],
+        "coreClassRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "portraitSelection": "generated",
+        "portraitForm": "Elian Voss",
+        "npcExamples": [
+          "Elian Voss"
+        ]
+      }
+    },
+    {
+      "name": "Doppelganger",
+      "publication": "Monster Manual (4e, 2008)",
+      "edition": "4th edition",
+      "owner": "batch4e_monsters",
+      "npcs": [
+        "Vessa Hallow"
+      ],
+      "portrait": "parts/batch4e_monsters/portraits/doppelganger.png",
+      "source": {
+        "name": "Doppelganger",
+        "publication": "Monster Manual (4e, 2008)",
+        "edition": "4th edition",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Natural Humanoid (Shapechanger)",
+        "url": "",
+        "page": 276,
+        "printedPages": [
+          276,
+          280
+        ],
+        "primaryBookScan": "",
+        "primaryBookPdfPageOffset": 1,
+        "primaryBookSha256": "5929f7657d9007caaec0cfd0fd6c2f047ee3154569bae4559e6384d3b643dc1f",
+        "isbn": "978-0-7869-5045-4",
+        "firstPrinting": "June 2008",
+        "sourceDistinctions": [
+          "The Monster Manual prints this option under Doppelganger. The Eberron Player’s Guide identifies it as the related Changeling and gives that later profile its own rules. The January 2010 updates use Changeling for the player race in Eberron feat references.",
+          "The gloss on p. 280 supplies the duration, equipment, and opposed impersonation rules."
+        ],
+        "supportingSources": [
+          {
+            "title": "Dungeon Master’s Guide (4e), NPC Design Steps",
+            "url": "",
+            "printedPages": [
+              187,
+              188
+            ]
+          },
+          {
+            "title": "Player’s Handbook (4e), class and equipment rules",
+            "url": ""
+          },
+          {
+            "title": "Eberron Player’s Guide, Changeling",
+            "url": "",
+            "printedPages": [
+              28,
+              29
+            ]
+          },
+          {
+            "title": "January 2010 official rules update, Eberron Player’s Guide",
+            "url": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dragonborn",
+      "publication": "Labyrinth Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "owner": "batch_tov",
+      "npcs": [
+        "Varesh Cinderkeel"
+      ],
+      "portrait": "parts/batch_tov/portraits/dragonborn.png",
+      "source": {
+        "name": "Dragonborn",
+        "publication": "Labyrinth Worldbook",
+        "edition": "Black Flag Roleplaying",
+        "publisher": "Kobold Press",
+        "url": "https://www.scribd.com/document/897921400/Labyrinth-Worldbook-Mpzq99",
+        "publisherUrl": "",
+        "printedPages": "136–137",
+        "heading": "Dragonborn Lineage Traits",
+        "coreRulesUrl": "",
+        "scope": "Adds a playable Labyrinth Worldbook profile. Existing encounter monsters and playable Dragonborn printings have different source scopes.",
+        "decisions": [
+          "The bonus-action breath offers a line or cone on each use, uses a CON-based DEX save, and includes void necrotic and yellow radiant ancestry choices.",
+          "The ancestry sentence names Natural Adaptation, but the section prints only the breath, hide, and sight effects. No inferred fourth trait."
+        ]
+      }
+    },
+    {
+      "name": "Dreamer",
+      "publication": "Grim Hollow: The Player’s Guide (2021)",
+      "edition": "2014 fifth edition compatible",
+      "owner": "batch_grimhollow",
+      "npcs": [
+        "Vela Stonewake"
+      ],
+      "portrait": "parts/batch_grimhollow/portraits/dreamer.png",
+      "source": {
+        "name": "Dreamer",
+        "kind": "species",
+        "slug": "dreamer",
+        "edition": "2014 fifth edition compatible",
+        "publication": "Grim Hollow: The Player’s Guide (2021)",
+        "publisher": "Ghostfire Gaming",
+        "book": "Grim Hollow: The Player's Guide",
+        "firstPrinting": "2021",
+        "url": "https://anyflip.com/gtpst/dzwp/basic",
+        "printedPages": [
+          14
+        ],
+        "sourceHeading": "Dreamer Traits",
+        "publisherOverview": "https://ghostfiregaming.com/blog/discovering-the-races-of-grim-hollow/",
+        "publisherProduct": "https://ghostfiregaming.com/grim-hollow/",
+        "existingCatalogSource": "https://www.dndbeyond.com/species/1987216-dreamer",
+        "sourceDistinctions": [
+          "The original 2021 player rules differ from the modular heritages in the revised D&D Beyond Player’s Guide."
+        ],
+        "coreClassRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "portraitSelection": "generated",
+        "portraitForm": "Vela Stonewake",
+        "npcExamples": [
+          "Vela Stonewake"
+        ]
+      }
+    },
+    {
+      "name": "Gallus",
+      "publication": "Humblewood Campaign Setting",
+      "edition": "Fifth edition compatible",
+      "owner": "batch_humblewood_a",
+      "npcs": [
+        "Edda Brackenrow"
+      ],
+      "portrait": "parts/batch_humblewood_a/portraits/gallus.png",
+      "source": {
+        "name": "Gallus",
+        "kind": "species",
+        "publication": "Humblewood Campaign Setting",
+        "edition": "Fifth edition compatible",
+        "publisher": "Hit Point Press",
+        "url": "",
+        "sourcePage": "14–15",
+        "sourceHeading": "Gallus traits and subraces",
+        "originalRevision": "v1.04",
+        "officialIndex": "https://www.dndbeyond.com/species/1592467-gallus",
+        "slug": "gallus",
+        "npcRulesPage": "210–211",
+        "npcRulesHeading": "Appendix C, Creating NPCs",
+        "coverage": "Local rules and one original 2014-compatible NPC for the existing catalog index row. The subraces remain options under one species profile.",
+        "rulesDistinction": "Use the original fixed ability increases and falling-only Glide. The separately published 2024 player update is outside this entry."
+      }
+    },
+    {
+      "name": "Gearforged",
+      "publication": "Labyrinth Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "owner": "batch_tov",
+      "npcs": [
+        "Brasswell"
+      ],
+      "portrait": "parts/batch_tov/portraits/gearforged.png",
+      "source": {
+        "name": "Gearforged",
+        "publication": "Labyrinth Worldbook",
+        "edition": "Black Flag Roleplaying",
+        "publisher": "Kobold Press",
+        "url": "https://www.scribd.com/document/897921400/Labyrinth-Worldbook-Mpzq99",
+        "publisherUrl": "",
+        "printedPages": "137–139",
+        "heading": "Gearforged Lineage Traits",
+        "coreRulesUrl": "",
+        "scope": "Adds the playable Labyrinth Worldbook Gearforged.",
+        "decisions": [
+          "Hybrid Humanoid keeps the Humanoid type and adds specific benefits.",
+          "The chassis sets size; an Upgrade is a separate choice. Always Armed text uses willingly in its disarming restriction."
+        ]
+      }
+    },
+    {
+      "name": "Genasi",
+      "publication": "Forgotten Realms Player’s Guide (2008)",
+      "edition": "4th edition",
+      "owner": "batch4e_settings",
+      "npcs": [
+        "Avarra Coalwake"
+      ],
+      "portrait": "parts/batch4e_settings/portraits/genasi.png",
+      "source": {
+        "name": "Genasi",
+        "slug": "genasi",
+        "publication": "Forgotten Realms Player’s Guide (2008)",
+        "edition": "4th edition",
+        "publisher": "Wizards of the Coast",
+        "type": "Elemental humanoid",
+        "url": "",
+        "printedPages": {
+          "playerTraits": "10–11",
+          "appearance": "11",
+          "swordmageBuild": "24–27, 135"
+        },
+        "sourceDistinctions": [
+          "Early 4e Realms rules use five manifestations and fixed +2 Strength, +2 Intelligence.",
+          "Each manifestation grants its own benefits and power. The Extra Manifestation feat can add another choice.",
+          "Avarra is a firesoul with the printed Firepulse immediate reaction. The published rules update removed the requirement to rest before a recovered swordmage can regain Warding.",
+          "The August 2012 compilation limits Promise of Storm bonus damage to hits by lightning or thunder attacks."
+        ],
+        "npcSources": [
+          {
+            "url": "https://dokumen.pub/players-handbook-a-4th-edition-core-rulebook-1-dampd-core-rulebook-dungeons-amp-dragons-4nbsped-0786948671-9780786948673.html",
+            "title": "Player’s Handbook (2008)",
+            "pages": "17–18, 61–66, 76–78, 104–108, 116–119, 214–219, 274–277"
+          },
+          {
+            "url": "https://dnd-support.wizards.com/hc/en-us/articles/360000962623-Dungeons-Dragons-3rd-3-5-and-4th-Edition-Rules-Questions",
+            "title": "4th edition Collected Updates and Errata (August 2012)",
+            "pages": "58, 90, 95–96"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Githyanki",
+      "publication": "Monster Manual (4e, 2008)",
+      "edition": "4th edition",
+      "owner": "batch4e_monsters",
+      "npcs": [
+        "Kareth Venn"
+      ],
+      "portrait": "parts/batch4e_monsters/portraits/githyanki.png",
+      "source": {
+        "name": "Githyanki",
+        "publication": "Monster Manual (4e, 2008)",
+        "edition": "4th edition",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Natural Humanoid",
+        "url": "",
+        "page": 277,
+        "printedPages": [
+          277
+        ],
+        "primaryBookScan": "",
+        "primaryBookPdfPageOffset": 1,
+        "primaryBookSha256": "5929f7657d9007caaec0cfd0fd6c2f047ee3154569bae4559e6384d3b643dc1f",
+        "isbn": "978-0-7869-5045-4",
+        "firstPrinting": "June 2008",
+        "sourceDistinctions": [
+          "This is the playable-with-permission trait on p. 277. The Warrior’s encounter statistics and powers in the monster entry are separate."
+        ],
+        "supportingSources": [
+          {
+            "title": "Dungeon Master’s Guide (4e), NPC Design Steps",
+            "url": "",
+            "printedPages": [
+              187,
+              188
+            ]
+          },
+          {
+            "title": "Player’s Handbook (4e), class and equipment rules",
+            "url": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "Githzerai",
+      "publication": "Player's Handbook 3 (4e)",
+      "edition": "4th edition",
+      "owner": "batch4e_phb",
+      "npcs": [
+        "Reth Quietmere"
+      ],
+      "portrait": "parts/batch4e_phb/portraits/githzerai.png",
+      "source": {
+        "name": "Githzerai",
+        "publication": "Player's Handbook 3 (4e)",
+        "edition": "4th edition",
+        "publisher": "Wizards of the Coast",
+        "type": "Humanoid",
+        "url": "",
+        "primaryBookScan": "",
+        "printedPages": [
+          8,
+          9
+        ],
+        "primaryBookPdfPageOffset": 1,
+        "primaryBookSha256": "a8727e1940b246e5fcf232b7c4393c713b3a50e1289c42bc67cf99cdfd3fadbd",
+        "sourceDistinctions": [
+          "PHB3 gives 4e Iron Mind as a defense interrupt and ties the shift to second wind."
+        ],
+        "supportingSources": [
+          {
+            "title": "Player’s Handbook 3, Monk",
+            "url": "",
+            "pages": [
+              62,
+              63,
+              64,
+              65,
+              66
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Gnoll",
+      "publication": "Monster Manual (4e, 2008)",
+      "edition": "4th edition",
+      "owner": "batch4e_monsters",
+      "npcs": [
+        "Rasha Longstride"
+      ],
+      "portrait": "parts/batch4e_monsters/portraits/gnoll.png",
+      "source": {
+        "name": "Gnoll",
+        "publication": "Monster Manual (4e, 2008)",
+        "edition": "4th edition",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Natural Humanoid",
+        "url": "",
+        "page": 277,
+        "printedPages": [
+          277
+        ],
+        "primaryBookScan": "",
+        "primaryBookPdfPageOffset": 1,
+        "primaryBookSha256": "5929f7657d9007caaec0cfd0fd6c2f047ee3154569bae4559e6384d3b643dc1f",
+        "isbn": "978-0-7869-5045-4",
+        "firstPrinting": "June 2008",
+        "sourceDistinctions": [
+          "The source is the original p. 277 player option, with Blood Fury. Dragon 367 presents a separate, later Gnoll player profile."
+        ],
+        "supportingSources": [
+          {
+            "title": "Dungeon Master’s Guide (4e), NPC Design Steps",
+            "url": "",
+            "printedPages": [
+              187,
+              188
+            ]
+          },
+          {
+            "title": "Player’s Handbook (4e), class and equipment rules",
+            "url": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hedge",
+      "publication": "Humblewood Campaign Setting",
+      "edition": "Fifth edition compatible",
+      "owner": "batch_humblewood_b",
+      "npcs": [
+        "Rowan Burrowfinch"
+      ],
+      "portrait": "parts/batch_humblewood_b/portraits/hedge.png",
+      "source": {
+        "name": "Hedge",
+        "kind": "species",
+        "publication": "Humblewood Campaign Setting",
+        "edition": "Fifth edition compatible",
+        "publisher": "Hit Point Press",
+        "url": "",
+        "sourceHeading": "Chapter 1, Welcome to the Wood, Hedge traits",
+        "printedPages": [
+          24,
+          25
+        ],
+        "printing": "2019 edition, digital v1.04",
+        "publisherListing": "https://hitpointpress.itch.io/humblewood",
+        "additionalBookMirror": "https://anyflip.com/czfqj/xekw/basic",
+        "digitalCatalogUrl": "https://www.dndbeyond.com/species/1592468-hedge",
+        "existingProfile": {
+          "name": "Hedge",
+          "publication": "Humblewood Campaign Setting",
+          "edition": "Fifth edition compatible"
+        },
+        "encounterClassRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "sourceDistinction": "The base quill AC and Curl Up AC are separate formulas. The original spell recharge is a short or long rest."
+      }
+    },
+    {
+      "name": "Hound Archon",
+      "publication": "Revised v3.5 SRD (Monsters)",
+      "edition": "3.5 edition",
+      "owner": "batch_3e_mm",
+      "npcs": [
+        "Brother Brindle"
+      ],
+      "portrait": "parts/batch_3e_mm/portraits/hound-archon.png",
+      "source": {
+        "name": "Hound Archon",
+        "publication": "Revised v3.5 SRD (Monsters)",
+        "edition": "3.5 edition",
+        "publisher": "Wizards of the Coast",
+        "url": "https://www.d20srd.org/srd/monsters/archon.htm#houndArchonsAsCharacters",
+        "heading": "Hound Archons As Characters",
+        "printedMonsterManualPages": [
+          16,
+          17,
+          18
+        ],
+        "previousCatalogCoverage": "Matching SRD monster row. This addition supplies the playable profile.",
+        "distinction": "SR and the aura save DC follow the player section. The ordinary archon combat entry has a fixed DC for its example. Teleport has a self and object limit."
+      }
+    },
+    {
+      "name": "Janni",
+      "publication": "Revised v3.5 SRD (Monsters)",
+      "edition": "3.5 edition",
+      "owner": "batch_3e_mm",
+      "npcs": [
+        "Nura bint Sahl"
+      ],
+      "portrait": "parts/batch_3e_mm/portraits/janni.png",
+      "source": {
+        "name": "Janni",
+        "publication": "Revised v3.5 SRD (Monsters)",
+        "edition": "3.5 edition",
+        "publisher": "Wizards of the Coast",
+        "url": "https://www.d20srd.org/srd/monsters/genie.htm#jannAsCharacters",
+        "heading": "Jann As Characters",
+        "printedMonsterManualPages": [
+          114,
+          116
+        ],
+        "previousCatalogCoverage": "Matching SRD monster row. This addition supplies the playable profile.",
+        "distinction": "The unarmored player speeds are 30 ft. and fly 20 ft. The monster example shows 20 ft. and fly 15 ft. because it wears chainmail."
+      }
+    },
+    {
+      "name": "Jerbeen",
+      "publication": "Humblewood Campaign Setting",
+      "edition": "Fifth edition compatible",
+      "owner": "batch_humblewood_b",
+      "npcs": [
+        "Tansy Pipwake"
+      ],
+      "portrait": "parts/batch_humblewood_b/portraits/jerbeen.png",
+      "source": {
+        "name": "Jerbeen",
+        "kind": "species",
+        "publication": "Humblewood Campaign Setting",
+        "edition": "Fifth edition compatible",
+        "publisher": "Hit Point Press",
+        "url": "",
+        "sourceHeading": "Chapter 1, Welcome to the Wood, Jerbeen traits",
+        "printedPages": [
+          26,
+          27
+        ],
+        "printing": "2019 edition, digital v1.04",
+        "publisherListing": "https://hitpointpress.itch.io/humblewood",
+        "additionalBookMirror": "https://anyflip.com/czfqj/xekw/basic",
+        "digitalCatalogUrl": "https://www.dndbeyond.com/species/1592469-jerbeen",
+        "existingProfile": {
+          "name": "Jerbeen",
+          "publication": "Humblewood Campaign Setting",
+          "edition": "Fifth edition compatible"
+        },
+        "encounterClassRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "sourceDistinction": "Take Heart requires proximity, sight, and hearing of a qualifying ally. Team Tactics grants the ordinary Help action, with its normal combat conditions."
+      }
+    },
+    {
+      "name": "Kalashtar",
+      "publication": "Eberron Player’s Guide (2009)",
+      "edition": "4th edition",
+      "owner": "batch4e_settings",
+      "npcs": [
+        "Sena Varan"
+      ],
+      "portrait": "parts/batch4e_settings/portraits/kalashtar.png",
+      "source": {
+        "name": "Kalashtar",
+        "slug": "kalashtar",
+        "publication": "Eberron Player’s Guide (2009)",
+        "edition": "4th edition",
+        "publisher": "Wizards of the Coast",
+        "type": "Humanoid",
+        "url": "https://anyflip.com/yhggl/brmq/basic",
+        "printedPages": {
+          "playerTraits": "30",
+          "appearance": "30–31",
+          "clericBuild": "Player’s Handbook 61–66"
+        },
+        "sourceDistinctions": [
+          "Eberron’s 4e Kalashtar uses two-way telepathy with a creature that has a language inside 5 squares and line of sight.",
+          "Dual Soul offers a start-of-turn save against each dazing or dominating effect, with no end-of-turn retry on failure.",
+          "Bastion of Mental Clarity can change a Will attack’s result by interrupting it."
+        ],
+        "npcSources": [
+          {
+            "url": "https://dokumen.pub/players-handbook-a-4th-edition-core-rulebook-1-dampd-core-rulebook-dungeons-amp-dragons-4nbsped-0786948671-9780786948673.html",
+            "title": "Player’s Handbook (2008)",
+            "pages": "17–18, 61–66, 76–78, 104–108, 116–119, 214–219, 274–277"
+          },
+          {
+            "url": "https://dnd-support.wizards.com/hc/en-us/articles/360000962623-Dungeons-Dragons-3rd-3-5-and-4th-Edition-Rules-Questions",
+            "title": "4th edition Collected Updates and Errata (August 2012)",
+            "pages": "58, 90, 95–96"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Karsite",
+      "publication": "Tome of Magic (2006)",
+      "edition": "3.5 edition",
+      "owner": "batch_3e_exotics",
+      "npcs": [
+        "Ilyra Keene"
+      ],
+      "portrait": "parts/batch_3e_exotics/portraits/karsite.png",
+      "source": {
+        "name": "Karsite",
+        "kind": "species",
+        "publication": "Tome of Magic (2006)",
+        "edition": "3.5 edition",
+        "publisher": "Wizards of the Coast",
+        "type": "Humanoid (Human)",
+        "url": "",
+        "pages": "84–86, Karsites as Characters on pp. 85–86",
+        "additionalSources": [],
+        "evidence": "The sample warrior’s DC 12 includes Ability Focus. The player trait starts at DC 10 + Charisma modifier.",
+        "catalogStatus": "Missing playable profile at batch baseline."
+      }
+    },
+    {
+      "name": "Kobold",
+      "publication": "Monster Manual (4e, 2008)",
+      "edition": "4th edition",
+      "owner": "batch4e_monsters",
+      "npcs": [
+        "Nik Coppernotch"
+      ],
+      "portrait": "parts/batch4e_monsters/portraits/kobold.png",
+      "source": {
+        "name": "Kobold",
+        "publication": "Monster Manual (4e, 2008)",
+        "edition": "4th edition",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Natural Humanoid (Reptile)",
+        "url": "",
+        "page": 278,
+        "printedPages": [
+          278
+        ],
+        "primaryBookScan": "",
+        "primaryBookPdfPageOffset": 1,
+        "primaryBookSha256": "5929f7657d9007caaec0cfd0fd6c2f047ee3154569bae4559e6384d3b643dc1f",
+        "isbn": "978-0-7869-5045-4",
+        "firstPrinting": "June 2008",
+        "sourceDistinctions": [
+          "This is the original Shifty at-will action on p. 278. Later Kobold player options use their own powers and are separate publications."
+        ],
+        "supportingSources": [
+          {
+            "title": "Dungeon Master’s Guide (4e), NPC Design Steps",
+            "url": "",
+            "printedPages": [
+              187,
+              188
+            ]
+          },
+          {
+            "title": "Player’s Handbook (4e), class and equipment rules",
+            "url": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "Laneshi",
+      "publication": "Grim Hollow: The Player’s Guide (2021)",
+      "edition": "2014 fifth edition compatible",
+      "owner": "batch_grimhollow",
+      "npcs": [
+        "Teral Brineford"
+      ],
+      "portrait": "parts/batch_grimhollow/portraits/laneshi.png",
+      "source": {
+        "name": "Laneshi",
+        "kind": "species",
+        "slug": "laneshi",
+        "edition": "2014 fifth edition compatible",
+        "publication": "Grim Hollow: The Player’s Guide (2021)",
+        "publisher": "Ghostfire Gaming",
+        "book": "Grim Hollow: The Player's Guide",
+        "firstPrinting": "2021",
+        "url": "https://anyflip.com/gtpst/dzwp/basic",
+        "printedPages": [
+          10,
+          11
+        ],
+        "sourceHeading": "Laneshi Traits",
+        "publisherOverview": "https://ghostfiregaming.com/blog/discovering-the-races-of-grim-hollow/",
+        "publisherProduct": "https://ghostfiregaming.com/grim-hollow/",
+        "existingCatalogSource": "https://www.dndbeyond.com/species/1987223-laneshi",
+        "sourceDistinctions": [
+          "The original 2021 player rules differ from the modular heritages in the revised D&D Beyond Player’s Guide."
+        ],
+        "coreClassRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "portraitSelection": "generated",
+        "portraitForm": "Teral Brineford",
+        "npcExamples": [
+          "Teral Brineford"
+        ]
+      }
+    },
+    {
+      "name": "Lizardfolk",
+      "publication": "Revised v3.5 SRD (Monsters)",
+      "edition": "3.5 edition",
+      "owner": "batch_3e_mm",
+      "npcs": [
+        "Vesh Reedcurrent"
+      ],
+      "portrait": "parts/batch_3e_mm/portraits/lizardfolk.png",
+      "source": {
+        "name": "Lizardfolk",
+        "publication": "Revised v3.5 SRD (Monsters)",
+        "edition": "3.5 edition",
+        "publisher": "Wizards of the Coast",
+        "url": "https://www.d20srd.org/srd/monsters/lizardfolk.htm#lizardfolkAsCharacters",
+        "heading": "Lizardfolk As Characters",
+        "printedMonsterManualPages": [
+          169
+        ],
+        "previousCatalogCoverage": "Matching SRD monster row. This addition supplies the playable profile.",
+        "distinction": "The original PC entry uses checks to swim and gives no separate swim speed. The stat block includes a shield's Swim penalty and uses Multiattack on its sample bite."
+      }
+    },
+    {
+      "name": "Luma",
+      "publication": "Humblewood Campaign Setting",
+      "edition": "Fifth edition compatible",
+      "owner": "batch_humblewood_a",
+      "npcs": [
+        "Tavi Ashdown"
+      ],
+      "portrait": "parts/batch_humblewood_a/portraits/luma.png",
+      "source": {
+        "name": "Luma",
+        "kind": "species",
+        "publication": "Humblewood Campaign Setting",
+        "edition": "Fifth edition compatible",
+        "publisher": "Hit Point Press",
+        "url": "",
+        "sourcePage": "16–17",
+        "sourceHeading": "Luma traits and subraces",
+        "originalRevision": "v1.04",
+        "officialIndex": "https://www.dndbeyond.com/species/1592470-luma",
+        "slug": "luma",
+        "npcRulesPage": "210–211",
+        "npcRulesHeading": "Appendix C, Creating NPCs",
+        "coverage": "Local rules and one original 2014-compatible NPC for the existing catalog index row. The subraces remain options under one species profile.",
+        "rulesDistinction": "Use the original fixed ability increases and falling-only Glide. The separately published 2024 player update is outside this entry."
+      }
+    },
+    {
+      "name": "Lumi",
+      "publication": "Monster Manual III (2004)",
+      "edition": "3.5 edition",
+      "owner": "batch_3e_exotics",
+      "npcs": [
+        "Aurin Vell"
+      ],
+      "portrait": "parts/batch_3e_exotics/portraits/lumi.png",
+      "source": {
+        "name": "Lumi",
+        "kind": "species",
+        "publication": "Monster Manual III (2004)",
+        "edition": "3.5 edition",
+        "publisher": "Wizards of the Coast",
+        "type": "Outsider (Extraplanar)",
+        "url": "",
+        "pages": "98–99, Lumi as Characters on p. 99",
+        "additionalSources": [
+          {
+            "name": "Official Monster Manual III errata, July 2006",
+            "url": ""
+          },
+          {
+            "name": "Revised SRD, disrupt undead",
+            "url": "https://www.d20srd.org/srd/spells/disruptUndead.htm"
+          }
+        ],
+        "evidence": "The official errata adds Extraplanar to the two published Lumi stat blocks. The base player traits remain on p. 99. Disrupt undead is a ranged touch attack with no save in the revised SRD, despite the printed parenthetical DC.",
+        "catalogStatus": "Missing playable profile at batch baseline."
+      }
+    },
+    {
+      "name": "Mapach",
+      "publication": "Humblewood Campaign Setting",
+      "edition": "Fifth edition compatible",
+      "owner": "batch_humblewood_b",
+      "npcs": [
+        "Kestrel Pinshank"
+      ],
+      "portrait": "parts/batch_humblewood_b/portraits/mapach.png",
+      "source": {
+        "name": "Mapach",
+        "kind": "species",
+        "publication": "Humblewood Campaign Setting",
+        "edition": "Fifth edition compatible",
+        "publisher": "Hit Point Press",
+        "url": "",
+        "sourceHeading": "Chapter 1, Welcome to the Wood, Mapach traits",
+        "printedPages": [
+          28,
+          29
+        ],
+        "printing": "2019 edition, digital v1.04",
+        "publisherListing": "https://hitpointpress.itch.io/humblewood",
+        "additionalBookMirror": "https://anyflip.com/czfqj/xekw/basic",
+        "digitalCatalogUrl": "https://www.dndbeyond.com/species/1592471-mapach",
+        "existingProfile": {
+          "name": "Mapach",
+          "publication": "Humblewood Campaign Setting",
+          "edition": "Fifth edition compatible"
+        },
+        "encounterClassRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "sourceDistinction": "Temporary tools are single-use, and other temporary items generally endure for an hour. Materials and the durability of repairs remain GM calls."
+      }
+    },
+    {
+      "name": "Maug",
+      "publication": "Fiend Folio (2003)",
+      "edition": "3.5 edition",
+      "owner": "batch_3e_exotics",
+      "npcs": [
+        "Basalt Wren"
+      ],
+      "portrait": "parts/batch_3e_exotics/portraits/maug.png",
+      "source": {
+        "name": "Maug",
+        "kind": "species",
+        "publication": "Fiend Folio (2003)",
+        "edition": "3.5 edition",
+        "publisher": "Wizards of the Coast",
+        "type": "Construct (Extraplanar)",
+        "url": "https://anyflip.com/myubd/ovic/basic/101-150",
+        "pages": "121–123, Maug Characters on p. 123",
+        "additionalSources": [
+          {
+            "name": "Official Fiend Folio revision notes",
+            "url": ""
+          },
+          {
+            "name": "Shadowdale: The Scouring of the Land (2007), p. 37, 3.5 Maug class example",
+            "url": "https://anyflip.com/moqkv/hywq/basic/"
+          }
+        ],
+        "evidence": "The printed player paragraph gives class level +5 as ECL, corresponding to two retained construct HD and LA +3. The official 3.5 booklet identifies damage reduction and construct construction costs as its Fiend Folio changes. Shadowdale p. 37 confirms the 3.5 Construct traits, class scaling, and printed DC 18.",
+        "catalogStatus": "Missing playable profile at batch baseline."
+      }
+    },
+    {
+      "name": "Minotaur",
+      "publication": "Player's Handbook 3 (4e)",
+      "edition": "4th edition",
+      "owner": "batch4e_phb",
+      "npcs": [
+        "Brann Lowvault"
+      ],
+      "portrait": "parts/batch4e_phb/portraits/minotaur.png",
+      "source": {
+        "name": "Minotaur",
+        "publication": "Player's Handbook 3 (4e)",
+        "edition": "4th edition",
+        "publisher": "Wizards of the Coast",
+        "type": "Humanoid",
+        "url": "",
+        "primaryBookScan": "",
+        "printedPages": [
+          10,
+          11
+        ],
+        "primaryBookPdfPageOffset": 1,
+        "primaryBookSha256": "a8727e1940b246e5fcf232b7c4393c713b3a50e1289c42bc67cf99cdfd3fadbd",
+        "sourceDistinctions": [
+          "Inspected the p. 10 scan visually. Paragon damage is 2d6 despite one text layer reading 1d6.",
+          "The PHB3 player option specifies Medium size. Brann adds the normal charge bonus to Goring Charge and uses the race-specific flat number in place of normal level/proficiency math."
+        ],
+        "supportingSources": [
+          {
+            "title": "Player’s Handbook (2008), Fighter and equipment",
+            "url": "",
+            "pages": [
+              75,
+              76,
+              77,
+              78,
+              214,
+              218,
+              287
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mul",
+      "publication": "Dark Sun Campaign Setting (2010)",
+      "edition": "4th edition",
+      "owner": "batch4e_settings",
+      "npcs": [
+        "Daro Stonehand"
+      ],
+      "portrait": "parts/batch4e_settings/portraits/mul.png",
+      "source": {
+        "name": "Mul",
+        "slug": "mul",
+        "publication": "Dark Sun Campaign Setting (2010)",
+        "edition": "4th edition",
+        "publisher": "Wizards of the Coast",
+        "type": "Humanoid",
+        "url": "",
+        "printedPages": {
+          "playerTraits": "20",
+          "appearance": "20–21",
+          "fighterBuild": "Player’s Handbook 76–78"
+        },
+        "sourceDistinctions": [
+          "Born of Two Races is a choice for feat prerequisites.",
+          "Incredible Toughness uses no action at the start of the Mul’s turn. It explicitly lists four conditions alongside ongoing damage.",
+          "Daro shows a fighter able to act after ending a stun."
+        ],
+        "npcSources": [
+          {
+            "url": "https://dokumen.pub/players-handbook-a-4th-edition-core-rulebook-1-dampd-core-rulebook-dungeons-amp-dragons-4nbsped-0786948671-9780786948673.html",
+            "title": "Player’s Handbook (2008)",
+            "pages": "17–18, 61–66, 76–78, 104–108, 116–119, 214–219, 274–277"
+          },
+          {
+            "url": "https://dnd-support.wizards.com/hc/en-us/articles/360000962623-Dungeons-Dragons-3rd-3-5-and-4th-Edition-Rules-Questions",
+            "title": "4th edition Collected Updates and Errata (August 2012)",
+            "pages": "58, 90, 95–96"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Nerra",
+      "publication": "Fiend Folio (2003) · Varoot",
+      "edition": "3.5 edition",
+      "owner": "batch_3e_exotics",
+      "npcs": [
+        "Sive"
+      ],
+      "portrait": "parts/batch_3e_exotics/portraits/nerra.png",
+      "source": {
+        "name": "Nerra",
+        "kind": "species",
+        "publication": "Fiend Folio (2003) · Varoot",
+        "edition": "3.5 edition",
+        "publisher": "Wizards of the Coast",
+        "type": "Outsider (Extraplanar)",
+        "url": "https://anyflip.com/ybvc/veod/basic/101-150",
+        "pages": "127–130, Nerra Characters on pp. 128–129 and Varoot stat block on p. 130",
+        "additionalSources": [
+          {
+            "name": "Official Fiend Folio revision notes",
+            "url": ""
+          },
+          {
+            "name": "Revised SRD, disguise self",
+            "url": "https://www.d20srd.org/srd/spells/disguiseSelf.htm"
+          },
+          {
+            "name": "Revised SRD, wounding weapons",
+            "url": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm#wounding"
+          }
+        ],
+        "evidence": "The published ECL example is Varoot Rogue 1 at ECL 4, so it replaces its one outsider HD with the first class level. The print-era weapon sidebar calls shard weapons +2 wounding weapons. This build uses the revised core wounding property and names disguise self as the revised equivalent of change self.",
+        "catalogStatus": "Missing playable profile at batch baseline."
+      }
+    },
+    {
+      "name": "Ogresh",
+      "publication": "Grim Hollow: The Player’s Guide (2021)",
+      "edition": "2014 fifth edition compatible",
+      "owner": "batch_grimhollow",
+      "npcs": [
+        "Marel Broadbank"
+      ],
+      "portrait": "parts/batch_grimhollow/portraits/ogresh.png",
+      "source": {
+        "name": "Ogresh",
+        "kind": "species",
+        "slug": "ogresh",
+        "edition": "2014 fifth edition compatible",
+        "publication": "Grim Hollow: The Player’s Guide (2021)",
+        "publisher": "Ghostfire Gaming",
+        "book": "Grim Hollow: The Player's Guide",
+        "firstPrinting": "2021",
+        "url": "https://anyflip.com/aysnx/chqg/basic",
+        "printedPages": [
+          11,
+          12
+        ],
+        "sourceHeading": "Ogresh Traits",
+        "publisherOverview": "https://ghostfiregaming.com/blog/discovering-the-races-of-grim-hollow/",
+        "publisherProduct": "https://ghostfiregaming.com/grim-hollow/",
+        "existingCatalogSource": "https://www.dndbeyond.com/species/1987224-ogresh",
+        "sourceDistinctions": [
+          "The original 2021 player rules differ from the modular heritages in the revised D&D Beyond Player’s Guide."
+        ],
+        "coreClassRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "portraitSelection": "generated",
+        "portraitForm": "Marel Broadbank",
+        "npcExamples": [
+          "Marel Broadbank"
+        ]
+      }
+    },
+    {
+      "name": "Pixie",
+      "publication": "Revised v3.5 SRD (Monsters)",
+      "edition": "3.5 edition",
+      "owner": "batch_3e_mm",
+      "npcs": [
+        "Bren Hazelwing"
+      ],
+      "portrait": "parts/batch_3e_mm/portraits/pixie.png",
+      "source": {
+        "name": "Pixie",
+        "publication": "Revised v3.5 SRD (Monsters)",
+        "edition": "3.5 edition",
+        "publisher": "Wizards of the Coast",
+        "url": "https://www.d20srd.org/srd/monsters/sprite.htm#pixiesAsCharacters",
+        "heading": "Pixies As Characters",
+        "printedMonsterManualPages": [
+          236
+        ],
+        "previousCatalogCoverage": "Matching SRD monster row. This addition supplies the playable profile.",
+        "distinction": "The character list grants the spell-like abilities and does not list the monster's optional special arrows. The original NPC uses ordinary arrows and the LA +4 profile."
+      }
+    },
+    {
+      "name": "Quickstep",
+      "publication": "Book of Ebon Tides",
+      "edition": "Fifth edition compatible",
+      "owner": "batch_ebon",
+      "npcs": [
+        "Copperflash"
+      ],
+      "portrait": "parts/batch_ebon/portraits/quickstep.png",
+      "source": {
+        "name": "Quickstep",
+        "kind": "species",
+        "publication": "Book of Ebon Tides",
+        "edition": "Fifth edition compatible",
+        "publisher": "Kobold Press",
+        "authors": [
+          "Wolfgang Baur",
+          "Celeste Conowitch"
+        ],
+        "year": 2022,
+        "isbn": "9781950789337",
+        "source": "https://www.dndbeyond.com/species/1726261-quickstep",
+        "printedPages": [
+          32,
+          33
+        ],
+        "heading": "Quickstep Traits",
+        "primaryBookText": "",
+        "transcriptStartLine": 2281,
+        "publisherSample": "",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "supplementalSources": [
+          "https://www.5esrd.com/database/race/quickstep/",
+          "https://koboldpress.com/errata/#book-of-ebon-tides",
+          "https://online.anyflip.com/myubd/mixj/files/large/46a20bda5719cfd7aa0cea88153b819b.webp"
+        ],
+        "sourceDistinctions": [
+          "Startling Speed imposes attack disadvantage after movement. The effect is limited to attack disadvantage. Character level sets the daily round count. The corrected printing gives Small size.",
+          "The book grants Fey Ancestry and leaves the creature type implicit in the player traits. Humanoid is the table ruling for this example."
+        ],
+        "catalogStatus": "Fill existing indexed publication. No duplicate species row needed.",
+        "slug": "quickstep",
+        "portraitSelection": "generated",
+        "npcExamples": [
+          "Copperflash"
+        ]
+      }
+    },
+    {
+      "name": "Raptor",
+      "publication": "Humblewood Campaign Setting",
+      "edition": "Fifth edition compatible",
+      "owner": "batch_humblewood_a",
+      "npcs": [
+        "Senn Reedwing"
+      ],
+      "portrait": "parts/batch_humblewood_a/portraits/raptor.png",
+      "source": {
+        "name": "Raptor",
+        "kind": "species",
+        "publication": "Humblewood Campaign Setting",
+        "edition": "Fifth edition compatible",
+        "publisher": "Hit Point Press",
+        "url": "",
+        "sourcePage": "18–19",
+        "sourceHeading": "Raptor traits and subraces",
+        "originalRevision": "v1.04",
+        "officialIndex": "https://www.dndbeyond.com/species/1592472-raptor",
+        "slug": "raptor",
+        "npcRulesPage": "210–211",
+        "npcRulesHeading": "Appendix C, Creating NPCs",
+        "coverage": "Local rules and one original 2014-compatible NPC for the existing catalog index row. The subraces remain options under one species profile.",
+        "rulesDistinction": "Use the original fixed ability increases and falling-only Glide. The separately published 2024 player update is outside this entry."
+      }
+    },
+    {
+      "name": "Ratatosk",
+      "publication": "Book of Ebon Tides",
+      "edition": "Fifth edition compatible",
+      "owner": "batch_ebon",
+      "npcs": [
+        "Minnet Branchbell"
+      ],
+      "portrait": "parts/batch_ebon/portraits/ratatosk.png",
+      "source": {
+        "name": "Ratatosk",
+        "kind": "species",
+        "publication": "Book of Ebon Tides",
+        "edition": "Fifth edition compatible",
+        "publisher": "Kobold Press",
+        "authors": [
+          "Wolfgang Baur",
+          "Celeste Conowitch"
+        ],
+        "year": 2022,
+        "isbn": "9781950789337",
+        "source": "https://www.dndbeyond.com/species/1726262-ratatosk",
+        "printedPages": [
+          33,
+          34,
+          35
+        ],
+        "heading": "Ratatosk Racial Traits, Ekorre and Tradvakt",
+        "primaryBookText": "",
+        "transcriptStartLine": 2350,
+        "publisherSample": "",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "supplementalSources": [],
+        "sourceDistinctions": [
+          "Both Ekorre and Tradvakt share the printed Strength reduction and Dexterity increase. Ekorre differ in size, weapon handling and magic. Tradvakt use Constitution for War Chatter.",
+          "Grounded Celestial is a targeting rule. It does not change the character’s Humanoid type."
+        ],
+        "catalogStatus": "Fill existing indexed publication. No duplicate species row needed.",
+        "slug": "ratatosk",
+        "portraitSelection": "generated",
+        "npcExamples": [
+          "Minnet Branchbell"
+        ]
+      }
+    },
+    {
+      "name": "Sapopova",
+      "publication": "Tales of the Valiant Player's Guide 2 Preview",
+      "edition": "Black Flag Roleplaying",
+      "owner": "batch_tov",
+      "npcs": [
+        "Tavi Reedcap"
+      ],
+      "portrait": "parts/batch_tov/portraits/sapopova.png",
+      "source": {
+        "name": "Sapopova",
+        "publication": "Tales of the Valiant Player's Guide 2 Preview",
+        "edition": "Black Flag Roleplaying",
+        "publisher": "Kobold Press",
+        "url": "",
+        "publisherUrl": "",
+        "printedPages": "16–17",
+        "pdfPage": 17,
+        "heading": "Sapopova Lineage Traits",
+        "coreRulesUrl": "",
+        "scope": "One playable lineage with Frogkin and Toadfolk equipment and movement choices. Source is the full lineage treatment in the publisher’s preview.",
+        "decisions": [
+          "The Frogkin rules remove the launch run for long jumps. The Toadfolk rules permit three Tiny items while maintaining speech and state the launched-object range and damage formula."
+        ]
+      }
+    },
+    {
+      "name": "Satyr",
+      "publication": "Labyrinth Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "owner": "batch_tov",
+      "npcs": [
+        "Tam Mossdial"
+      ],
+      "portrait": "parts/batch_tov/portraits/satyr.png",
+      "source": {
+        "name": "Satyr",
+        "publication": "Labyrinth Worldbook",
+        "edition": "Black Flag Roleplaying",
+        "publisher": "Kobold Press",
+        "url": "https://www.scribd.com/document/897921400/Labyrinth-Worldbook-Mpzq99",
+        "publisherUrl": "",
+        "printedPages": "140",
+        "heading": "Satyr Lineage Traits",
+        "coreRulesUrl": "",
+        "scope": "Adds a Black Flag playable Satyr profile. The existing D&D options and Black Flag encounter monster have distinct mechanics.",
+        "decisions": [
+          "Bounding Leap costs a reaction after a melee or unarmed hit. The 1d8 horns use STR or DEX by choice at creation.",
+          "Black Flag condition resistance grants advantage on checks and saves to avoid or end that condition. See BFRD p. 250 or Resistant in the Monster Statistics chapter."
+        ]
+      }
+    },
+    {
+      "name": "Shadow Goblin",
+      "publication": "Book of Ebon Tides",
+      "edition": "Fifth edition compatible",
+      "owner": "batch_ebon",
+      "npcs": [
+        "Merrin Netward"
+      ],
+      "portrait": "parts/batch_ebon/portraits/shadow-goblin.png",
+      "source": {
+        "name": "Shadow Goblin",
+        "kind": "species",
+        "publication": "Book of Ebon Tides",
+        "edition": "Fifth edition compatible",
+        "publisher": "Kobold Press",
+        "authors": [
+          "Wolfgang Baur",
+          "Celeste Conowitch"
+        ],
+        "year": 2022,
+        "isbn": "9781950789337",
+        "source": "https://www.dndbeyond.com/species/1726266-shadow-goblin",
+        "printedPages": [
+          29,
+          30
+        ],
+        "heading": "Shadow Goblin Traits",
+        "primaryBookText": "",
+        "transcriptStartLine": 2047,
+        "publisherSample": "",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "supplementalSources": [
+          "https://5esrd.old.opengamingnetwork.com/database/race/shadow-goblin/"
+        ],
+        "sourceDistinctions": [
+          "The playable Stink Eye is an action and affects only the next qualifying roll. The chieftain stat block later in the book uses a different bonus-action version."
+        ],
+        "catalogStatus": "Fill existing indexed publication. No duplicate species row needed.",
+        "slug": "shadow-goblin",
+        "portraitSelection": "generated",
+        "npcExamples": [
+          "Merrin Netward"
+        ]
+      }
+    },
+    {
+      "name": "Shardmind",
+      "publication": "Player's Handbook 3 (4e)",
+      "edition": "4th edition",
+      "owner": "batch4e_phb",
+      "npcs": [
+        "Nura Glasswake"
+      ],
+      "portrait": "parts/batch4e_phb/portraits/shardmind.png",
+      "source": {
+        "name": "Shardmind",
+        "publication": "Player's Handbook 3 (4e)",
+        "edition": "4th edition",
+        "publisher": "Wizards of the Coast",
+        "type": "Immortal humanoid (living construct)",
+        "url": "",
+        "primaryBookScan": "",
+        "printedPages": [
+          12,
+          13
+        ],
+        "primaryBookPdfPageOffset": 1,
+        "primaryBookSha256": "a8727e1940b246e5fcf232b7c4393c713b3a50e1289c42bc67cf99cdfd3fadbd",
+        "sourceDistinctions": [
+          "The six-hour extended rest is on p. 13. Lack of a need to sleep does not itself give immunity to every sleep effect.",
+          "Shard Swarm applies combat advantage before teleporting."
+        ],
+        "supportingSources": [
+          {
+            "title": "Player’s Handbook (2008), Wizard",
+            "url": "",
+            "pages": [
+              156,
+              157,
+              158,
+              159,
+              160
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Strig",
+      "publication": "Humblewood Campaign Setting",
+      "edition": "Fifth edition compatible",
+      "owner": "batch_humblewood_a",
+      "npcs": [
+        "Orla Barkmantle"
+      ],
+      "portrait": "parts/batch_humblewood_a/portraits/strig.png",
+      "source": {
+        "name": "Strig",
+        "kind": "species",
+        "publication": "Humblewood Campaign Setting",
+        "edition": "Fifth edition compatible",
+        "publisher": "Hit Point Press",
+        "url": "",
+        "sourcePage": "20–21",
+        "sourceHeading": "Strig traits and subraces",
+        "originalRevision": "v1.04",
+        "officialIndex": "https://www.dndbeyond.com/species/1592473-strig",
+        "slug": "strig",
+        "npcRulesPage": "210–211",
+        "npcRulesHeading": "Appendix C, Creating NPCs",
+        "coverage": "Local rules and one original 2014-compatible NPC for the existing catalog index row. The subraces remain options under one species profile.",
+        "rulesDistinction": "Use the original fixed ability increases and falling-only Glide. The separately published 2024 player update is outside this entry."
+      }
+    },
+    {
+      "name": "Syderean",
+      "publication": "Labyrinth Worldbook · Spellborn",
+      "edition": "Black Flag Roleplaying",
+      "owner": "batch_tov",
+      "npcs": [
+        "Mira Glassbeck"
+      ],
+      "portrait": "parts/batch_tov/portraits/syderean.png",
+      "source": {
+        "name": "Syderean",
+        "publication": "Labyrinth Worldbook · Spellborn",
+        "edition": "Black Flag Roleplaying",
+        "publisher": "Kobold Press",
+        "url": "https://www.scribd.com/document/897921400/Labyrinth-Worldbook-Mpzq99",
+        "publisherUrl": "",
+        "printedPages": "141–142",
+        "heading": "Syderean Lineage Expanded: Spellborn",
+        "baseLineageUrl": "https://anyflip.com/fflfu/egji/basic/101-150",
+        "baseLineagePrintedPage": "110",
+        "coreRulesUrl": "",
+        "scope": "One canonical Syderean species record. This profile uses the Spellborn Natural Adaptation alongside base lineage traits from the Player’s Guide.",
+        "decisions": [
+          "Energy Form adds physical resistance and restraint immunity during transformation. The selected elemental type replaces damage for one attack or spell on each of the character’s turns, and grants no matching elemental resistance by itself."
+        ]
+      }
+    },
+    {
+      "name": "Thri-kreen",
+      "publication": "Dark Sun Campaign Setting (2010)",
+      "edition": "4th edition",
+      "owner": "batch4e_settings",
+      "npcs": [
+        "K’tcha"
+      ],
+      "portrait": "parts/batch4e_settings/portraits/thri-kreen.png",
+      "source": {
+        "name": "Thri-kreen",
+        "slug": "thri-kreen",
+        "publication": "Dark Sun Campaign Setting (2010)",
+        "edition": "4th edition",
+        "publisher": "Wizards of the Coast",
+        "type": "Humanoid",
+        "url": "",
+        "printedPages": {
+          "playerTraits": "22",
+          "appearance": "22–23",
+          "rangerBuild": "Player’s Handbook 104–108"
+        },
+        "sourceDistinctions": [
+          "Use low-light vision from the original 4e printed rules.",
+          "Multiple Arms changes the action economy once per turn. It grants no extra attack or wielded item slots.",
+          "Thri-Kreen Claws is a single minor action with one to three adjacent enemy targets."
+        ],
+        "npcSources": [
+          {
+            "url": "https://dokumen.pub/players-handbook-a-4th-edition-core-rulebook-1-dampd-core-rulebook-dungeons-amp-dragons-4nbsped-0786948671-9780786948673.html",
+            "title": "Player’s Handbook (2008)",
+            "pages": "17–18, 61–66, 76–78, 104–108, 116–119, 214–219, 274–277"
+          },
+          {
+            "url": "https://dnd-support.wizards.com/hc/en-us/articles/360000962623-Dungeons-Dragons-3rd-3-5-and-4th-Edition-Rules-Questions",
+            "title": "4th edition Collected Updates and Errata (August 2012)",
+            "pages": "58, 90, 95–96"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Vulpin",
+      "publication": "Humblewood Campaign Setting",
+      "edition": "Fifth edition compatible",
+      "owner": "batch_humblewood_b",
+      "npcs": [
+        "Lark Ashplume"
+      ],
+      "portrait": "parts/batch_humblewood_b/portraits/vulpin.png",
+      "source": {
+        "name": "Vulpin",
+        "kind": "species",
+        "publication": "Humblewood Campaign Setting",
+        "edition": "Fifth edition compatible",
+        "publisher": "Hit Point Press",
+        "url": "",
+        "sourceHeading": "Chapter 1, Welcome to the Wood, Vulpin traits",
+        "printedPages": [
+          30,
+          31
+        ],
+        "printing": "2019 edition, digital v1.04",
+        "publisherListing": "https://hitpointpress.itch.io/humblewood",
+        "additionalBookMirror": "https://anyflip.com/czfqj/xekw/basic",
+        "digitalCatalogUrl": "https://www.dndbeyond.com/species/1592474-vulpin",
+        "existingProfile": {
+          "name": "Vulpin",
+          "publication": "Humblewood Campaign Setting",
+          "edition": "Fifth edition compatible"
+        },
+        "encounterClassRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "sourceDistinction": "Printed p. 30 grants Intelligence-based spells at levels 1, 3, and 5. Ambush prey is defined on printed p. 49. The Dexterity-save modifier adds to the normal roll."
+      }
+    },
+    {
+      "name": "Warforged",
+      "publication": "Monster Manual (4e, 2008)",
+      "edition": "4th edition",
+      "owner": "batch4e_monsters",
+      "npcs": [
+        "Brasswake"
+      ],
+      "portrait": "parts/batch4e_monsters/portraits/warforged.png",
+      "source": {
+        "name": "Warforged",
+        "publication": "Monster Manual (4e, 2008)",
+        "edition": "4th edition",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Natural Humanoid (Living Construct)",
+        "url": "",
+        "page": 279,
+        "printedPages": [
+          279
+        ],
+        "primaryBookScan": "",
+        "primaryBookPdfPageOffset": 1,
+        "primaryBookSha256": "5929f7657d9007caaec0cfd0fd6c2f047ee3154569bae4559e6384d3b643dc1f",
+        "isbn": "978-0-7869-5045-4",
+        "firstPrinting": "June 2008",
+        "sourceDistinctions": [
+          "Use the p. 279 player text. The p. 261 Warforged Soldier has a different Resolve amount, and the Eberron Player’s Guide uses a different racial power.",
+          "The death-save bullet allows taking a 10. Its negative-HP wording is read alongside the general negative-bloodied rule in the Player’s Handbook, p. 295, if the DM uses dying rules for this NPC."
+        ],
+        "supportingSources": [
+          {
+            "title": "Dungeon Master’s Guide (4e), NPC Design Steps",
+            "url": "",
+            "printedPages": [
+              187,
+              188
+            ]
+          },
+          {
+            "title": "Player’s Handbook (4e), class and equipment rules",
+            "url": ""
+          },
+          {
+            "title": "Eberron Player’s Guide, Warforged",
+            "url": "",
+            "printedPages": [
+              32,
+              33
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Wechselkind",
+      "publication": "Grim Hollow: The Player’s Guide (2021)",
+      "edition": "2014 fifth edition compatible",
+      "owner": "batch_grimhollow",
+      "npcs": [
+        "Pip Cinderbutton"
+      ],
+      "portrait": "parts/batch_grimhollow/portraits/wechselkind.png",
+      "source": {
+        "name": "Wechselkind",
+        "kind": "species",
+        "slug": "wechselkind",
+        "edition": "2014 fifth edition compatible",
+        "publication": "Grim Hollow: The Player’s Guide (2021)",
+        "publisher": "Ghostfire Gaming",
+        "book": "Grim Hollow: The Player's Guide",
+        "firstPrinting": "2021",
+        "url": "https://anyflip.com/lphgc/qpve/basic",
+        "printedPages": [
+          9
+        ],
+        "sourceHeading": "Wechselkind Traits",
+        "publisherOverview": "https://ghostfiregaming.com/blog/discovering-the-races-of-grim-hollow/",
+        "publisherProduct": "https://ghostfiregaming.com/grim-hollow/",
+        "existingCatalogSource": "https://www.dndbeyond.com/species/1987225-wechselkind",
+        "sourceDistinctions": [
+          "The original 2021 player rules differ from the modular heritages in the revised D&D Beyond Player’s Guide.",
+          "The 2021 Artificial Form explicitly uses the Humanoid creature type despite the doll's construction."
+        ],
+        "coreClassRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "portraitSelection": "generated",
+        "portraitForm": "Pip Cinderbutton",
+        "npcExamples": [
+          "Pip Cinderbutton"
+        ]
+      }
+    },
+    {
+      "name": "Wilden",
+      "publication": "Player's Handbook 3 (4e)",
+      "edition": "4th edition",
+      "owner": "batch4e_phb",
+      "npcs": [
+        "Briar Reedfoot"
+      ],
+      "portrait": "parts/batch4e_phb/portraits/wilden.png",
+      "source": {
+        "name": "Wilden",
+        "publication": "Player's Handbook 3 (4e)",
+        "edition": "4th edition",
+        "publisher": "Wizards of the Coast",
+        "type": "Fey humanoid",
+        "url": "",
+        "primaryBookScan": "",
+        "printedPages": [
+          14,
+          15
+        ],
+        "primaryBookPdfPageOffset": 1,
+        "primaryBookSha256": "a8727e1940b246e5fcf232b7c4393c713b3a50e1289c42bc67cf99cdfd3fadbd",
+        "sourceDistinctions": [
+          "All three aspects are abilities of one race. Each extended rest sets which single encounter power is available. Briar begins with Hunter."
+        ],
+        "supportingSources": [
+          {
+            "title": "Player’s Handbook 2, Warden",
+            "url": "",
+            "pages": [
+              152,
+              153,
+              154,
+              155,
+              156
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

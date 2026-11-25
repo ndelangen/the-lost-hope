@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Anomollusk",
+    "input": "",
+    "subjectPrompt": "A huge mutated snail with a massive coiled shell entirely fused to jagged translucent violet-green mineral facets and crystal ridges, asymmetrical dark gray taupe slimy snail body, two tapering feelers, long flattened foot fully visible, pearly mauve sheen along the head and a short thin glistening trail. A subtle prism glint between the shell facets. Gentle crawling pose, no flail stalks. Full creature centered.",
+    "appearanceSource": "Monsters of Drakkenheim",
+    "reference": "images/monsters/flail-snail/mpmm-1.webp",
+    "prompt": "Original square fantasy bestiary portrait for The Lost Hope. First image is the house parchment style only. Second image is related published art for selective visual cues and must not define the new creature's silhouette or pose. Pale warm gold mottled parchment, fine sepia contours, muted detailed gouache and colored pencil, soft pigments, quiet shadow, isolated centered subject and ample margins. No frames, border, text, scenery, watermark or interface. Subject: A huge mutated snail with a massive coiled shell entirely fused to jagged translucent violet-green mineral facets and crystal ridges, asymmetrical dark gray taupe slimy snail body, two tapering feelers, long flattened foot fully visible, pearly mauve sheen along the head and a short thin glistening trail. A subtle prism glint between the shell facets. Gentle crawling pose, no flail stalks. Full creature centered."
+  },
+  {
+    "name": "Apex",
+    "input": "",
+    "subjectPrompt": "A transformed alchemist in an imposing tall adult humanoid form with bronze-gold skin and strong athletic proportions. Fine saturated violet and turquoise lines of magical light under the skin at the shoulders and forearms, intense pale eyes. One restrained curl each of orange heat, icy blue and faint violet lightning gathers near one open hand. A simple torn charcoal alchemist apron and straight dark trousers with a belt and old clasp. Standing in a composed, quietly menacing pose. Two arms, no devices, full figure.",
+    "appearanceSource": "Monsters of Drakkenheim",
+    "reference": "images/monsters/mutagenist/publisher-f84b296e90799a8c.webp",
+    "prompt": "Original square fantasy bestiary portrait for The Lost Hope. First image is the house parchment style only. Second image is related published art for selective visual cues and must not define the new creature's silhouette or pose. Pale warm gold mottled parchment, fine sepia contours, muted detailed gouache and colored pencil, soft pigments, quiet shadow, isolated centered subject and ample margins. No frames, border, text, scenery, watermark or interface. Subject: A transformed alchemist in an imposing tall adult humanoid form with bronze-gold skin and strong athletic proportions. Fine saturated violet and turquoise lines of magical light under the skin at the shoulders and forearms, intense pale eyes. One restrained curl each of orange heat, icy blue and faint violet lightning gathers near one open hand. A simple torn charcoal alchemist apron and straight dark trousers with a belt and old clasp. Standing in a composed, quietly menacing pose. Two arms, no devices, full figure."
+  },
+  {
+    "name": "Chorus",
+    "input": "",
+    "subjectPrompt": "A living swarm of four translucent Drakkenheim townspeople silhouettes fused into a compact flowing crowd. Quiet anxious faces made out of broken gray and russet ink wash and curling torn old paper strips. Three expressive heads in staggered height above a united fan-shaped body of torn paper and faded masonry flecks. Newspaper origins implied through ragged folds and abstract brush marks only, zero lettering. Individually visible shoulders with outer edges dispersing, entire swarm framed as one subject.",
+    "appearanceSource": "Monsters of Drakkenheim",
+    "reference": "images/monsters/graffiti/publisher-b09af39aa69d7f27.webp",
+    "prompt": "Original square fantasy bestiary portrait for The Lost Hope. First image is the house parchment style only. Second image is related published art for selective visual cues and must not define the new creature's silhouette or pose. Pale warm gold mottled parchment, fine sepia contours, muted detailed gouache and colored pencil, soft pigments, quiet shadow, isolated centered subject and ample margins. No frames, border, text, scenery, watermark or interface. Subject: A living swarm of four translucent Drakkenheim townspeople silhouettes fused into a compact flowing crowd. Quiet anxious faces made out of broken gray and russet ink wash and curling torn old paper strips. Three expressive heads in staggered height above a united fan-shaped body of torn paper and faded masonry flecks. Newspaper origins implied through ragged folds and abstract brush marks only, zero lettering. Individually visible shoulders with outer edges dispersing, entire swarm framed as one subject."
+  },
+  {
+    "name": "Grasping Shadow",
+    "input": "",
+    "subjectPrompt": "A single undead incorporeal citizen shade in charcoal and soft blue plum. Tall smoky humanoid contour, thin vaporous lower half, two unnaturally long reaching forearms and distinct grasping hands fully in frame, obscured face with two small pale eyes and a black open mouth. Looks like a desperate spectral former person, not armored or armed. A restrained muted green sheen around the translucent edges, gently suspended over the parchment.",
+    "appearanceSource": "Monsters of Drakkenheim",
+    "reference": "images/monsters/executioner/publisher-6e2029737a6e0750.webp",
+    "prompt": "Original square fantasy bestiary portrait for The Lost Hope. First image is the house parchment style only. Second image is related published art for selective visual cues and must not define the new creature's silhouette or pose. Pale warm gold mottled parchment, fine sepia contours, muted detailed gouache and colored pencil, soft pigments, quiet shadow, isolated centered subject and ample margins. No frames, border, text, scenery, watermark or interface. Subject: A single undead incorporeal citizen shade in charcoal and soft blue plum. Tall smoky humanoid contour, thin vaporous lower half, two unnaturally long reaching forearms and distinct grasping hands fully in frame, obscured face with two small pale eyes and a black open mouth. Looks like a desperate spectral former person, not armored or armed. A restrained muted green sheen around the translucent edges, gently suspended over the parchment."
+  },
+  {
+    "name": "Mind Leech",
+    "input": "",
+    "subjectPrompt": "A tiny imaginary freshwater invertebrate in a field guide, with a flattened charcoal-lavender ribbon body, crosswise ridges and a rounded snout. Three soft beads of opaline periwinkle light sit along the intact upper surface in a row, like a short constellation under frosted glass. The silhouette is a low C-shaped curl with two small whisker feelers at the head, broad end free and visible. Gentle fantastical creature on its own.",
+    "appearanceSource": "Monsters of Drakkenheim",
+    "reference": "images/monsters/blood-leech/publisher-28f5d41d34ac2e22.webp",
+    "prompt": "Create a square original fantasy naturalist illustration of a small imaginary pond invertebrate on pale golden parchment. Use the supplied image only for paper texture and muted gouache and sepia pencil technique. Center the whole subject and leave ample space. No frame, lettering or extras. A tiny imaginary freshwater invertebrate in a field guide, with a flattened charcoal-lavender ribbon body, crosswise ridges and a rounded snout. Three soft beads of opaline periwinkle light sit along the intact upper surface in a row, like a short constellation under frosted glass. The silhouette is a low C-shaped curl with two small whisker feelers at the head, broad end free and visible. Gentle fantastical creature on its own."
+  },
+  {
+    "name": "Spell Leech",
+    "input": "",
+    "subjectPrompt": "A small imaginary magical pond creature shaped like a curling ribbon of dark plum velvet. It has a gently rounded head, fine transverse ridges in the body, a long gently tapered tail, and one elongated emerald-glass jewel shape along its back that glows softly. Show the entire creature in a curved side profile like a naturalist's illustration, with the dark purple contour clearly separated from the jewel. No human or animal subjects in contact.",
+    "appearanceSource": "Monsters of Drakkenheim",
+    "reference": "images/monsters/blood-leech/publisher-28f5d41d34ac2e22.webp",
+    "prompt": "Original illustration of a harmless imaginary fantasy pond creature on warm pale gold mottled parchment. Square 1:1 house style sample is for illustration technique only. Paint it with muted gouache and fine sepia ink, one centered creature with breathing room and soft natural shadow. No text and no frame. A small imaginary magical pond creature shaped like a curling ribbon of dark plum velvet. It has a gently rounded head, fine transverse ridges in the body, a long gently tapered tail, and one elongated emerald-glass jewel shape along its back that glows softly. Show the entire creature in a curved side profile like a naturalist's illustration, with the dark purple contour clearly separated from the jewel. No human or animal subjects in contact."
+  }
+]

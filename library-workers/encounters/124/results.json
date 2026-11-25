@@ -1,0 +1,27 @@
+{
+  "entryId": "beast-ef12cc77d7b32b4abf080327",
+  "versionKey": "bb2f060e6110ef9c03878386",
+  "artHash": "aaee4abd8f0e663ea8b4fe7be92eff1952200880d3f2a1cd9265b0b08200faff",
+  "art": {
+    "url": "",
+    "credit": "D&D Beyond publisher art · Flee, Mortals!"
+  },
+  "stats": {
+    "Armor class": "13",
+    "Hit points": "76",
+    "Hit dice": "9d10 + 27",
+    "Challenge": "3",
+    "Type": "Beast",
+    "Speed": "30 ft.",
+    "XP": "700",
+    "Str": "19",
+    "Dex": "8",
+    "Con": "16",
+    "Int": "2",
+    "Wis": "12",
+    "Cha": "5"
+  },
+  "linkedTerms": [
+    "Exhaustion"
+  ]
+}

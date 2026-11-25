@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Human Death Acolyte",
+    "slug": "human-death-acolyte",
+    "id": "monster-78429cda0cc9d5c1fc40405d:8d61290c9bb2f421a272b9c9",
+    "entry": "monster-78429cda0cc9d5c1fc40405d",
+    "version": "8d61290c9bb2f421a272b9c9",
+    "suffix": "encounters-57/human-death-acolyte.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-57/human-death-acolyte.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-57/event-drafts/human-death-acolyte-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 57 2026-11-23/event-drafts/human-death-acolyte-event-v1.png",
+    "overrides": [],
+    "sha256": "5f522f744b0e31b5ff3a5507dc309677d49a171954459d641cc5decacafdc6b1",
+    "bytes": 2295974
+  },
+  {
+    "name": "Human Death Cultist",
+    "slug": "human-death-cultist",
+    "id": "monster-c747c63469f294a0c72fba66:f19e3bfabb189ddf0c0317d8",
+    "entry": "monster-c747c63469f294a0c72fba66",
+    "version": "f19e3bfabb189ddf0c0317d8",
+    "suffix": "encounters-57/human-death-cultist.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-57/human-death-cultist.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-57/event-drafts/human-death-cultist-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 57 2026-11-23/event-drafts/human-death-cultist-event-v1.png",
+    "overrides": [],
+    "sha256": "da150862db2893d2de0178cb982f52347c5404ca8fae85b956ddcfd6e2b422cb",
+    "bytes": 2360222
+  }
+]

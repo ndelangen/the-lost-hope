@@ -1,0 +1,256 @@
+{
+  "Deep Imaskari": {
+    "profiles": [
+      {
+        "name": "Deep Imaskari",
+        "imageKey": "species:deep-imaskari",
+        "kind": "species",
+        "type": "Humanoid (Human)",
+        "publication": "Underdark (2003)",
+        "edition": "3.5 edition",
+        "publisher": "Wizards of the Coast",
+        "source": "https://campusstore.miamioh.edu/underdark-cordell-bruce-rkestrel/bk/9780786930531",
+        "challenge": "",
+        "images": [],
+        "speciesRulesStatus": "local-summary",
+        "speciesTraits": [
+          "Medium human subrace. +2 Intelligence and −2 Dexterity. Land speed 30 ft. No racial Hit Dice or positive level adjustment listed.",
+          "Low-light vision doubles human sight distance in poor illumination and preserves color and detail.",
+          "Spell Clutch (Su). Once per day, use a standard action to prepare again one 1st-level spell you previously prepared and cast. Cast the spell separately when needed. The supernatural activation does not provoke an attack of opportunity.",
+          "+4 on Hide checks while underground.",
+          "Common and Roushoum are automatic. Bonus languages are Aquan, Dwarven, Elven, Terran, and Undercommon, or by region. The Deep Imaskar region lists Abyssal, Aquan, Celestial, Draconic, Terran, and Undercommon. Favored class Wizard.",
+          "Ability scores follow the racial traits on p. 9. The summary table on p. 6 instead lists a Strength penalty."
+        ],
+        "npcStatus": "original-build",
+        "npcBuilds": [
+          {
+            "species": "Deep Imaskari",
+            "size": "Medium",
+            "edition": "3.5 edition",
+            "speciesPublication": "Underdark (2003)",
+            "name": "Neris Vell",
+            "build": {
+              "origin": "Original DM Library NPC",
+              "editions": [
+                "3.5 edition"
+              ],
+              "difficulty": "CR 1. ECL 1 (1 class HD, LA +0).",
+              "size": "Medium",
+              "type": "Humanoid (Human)",
+              "senses": "Low-light vision.",
+              "id": "deep-imaskari-vell-vault-surveyor-35e",
+              "title": "Deep Imaskari vault surveyor, Wizard 1",
+              "ac": 11,
+              "hp": 6,
+              "hitDice": "1d4+2",
+              "initiative": 5,
+              "speed": "30 ft.",
+              "languages": "Common, Roushoum, Aquan, Celestial, Draconic, Undercommon",
+              "abilityScores": {
+                "STR": 10,
+                "DEX": 12,
+                "CON": 14,
+                "INT": 18,
+                "WIS": 12,
+                "CHA": 8
+              },
+              "skills": [
+                "Concentration +6",
+                "Craft (bookbinding) +8",
+                "Decipher Script +8",
+                "Hide +1 (+5 underground)",
+                "Knowledge (arcana) +8",
+                "Knowledge (dungeoneering) +8",
+                "Spellcraft +8"
+              ],
+              "traits": [
+                "Neutral. Unarmored, Dexterity +1. Touch 11, flat-footed 10. BAB +0, grapple +0. Fortitude +2, Reflex +1, Will +3. Improved Initiative adds +4. Scribe Scroll is the Wizard bonus feat. No familiar is present.",
+                "Spell Clutch (Su). Once per day, use a standard action to prepare again one 1st-level spell you previously prepared and cast. Cast the spell separately when needed. The supernatural activation does not provoke an attack of opportunity.",
+                "+4 on Hide checks while underground."
+              ],
+              "actions": [
+                "Light crossbow +1 ranged for 1d8 piercing, critical 19–20/×2, range increment 80 ft.",
+                "Wizard spells prepared, CL 1. Cantrips are detect magic, light, and mage hand. First-level spells are mage armor and grease. Mage armor raises AC to 15 for 1 hour, touch 11 and flat-footed 14. Grease lasts 1 round and has Reflex DC 15.",
+                "Spellbook includes Wizard cantrips and seven 1st-level spells: alarm, detect secret doors, expeditious retreat, grease, mage armor, magic missile, and shield.",
+                "After casting grease at the first doorway, use Spell Clutch to prepare it again. Cast it separately when pursuit reaches the second doorway."
+              ],
+              "tactics": "Neris checks a lower vault for two routes out. She casts mage armor before entering and uses the corners and her underground Hide bonus to avoid pursuit between doors."
+            },
+            "role": "Vault surveyor and Wizard.",
+            "motive": "Map the lower vault and bring her notes back intact.",
+            "hook": "Neris marks the first doorway with charcoal so the party can find it from either side."
+          },
+          {
+            "species": "Deep Imaskari",
+            "size": "Medium",
+            "edition": "3.5 edition",
+            "speciesPublication": "Underdark (2003)",
+            "name": "Serran Thale",
+            "build": {
+              "origin": "Original DM Library NPC",
+              "editions": [
+                "3.5 edition"
+              ],
+              "difficulty": "CR 1. ECL 1 (1 class HD, LA +0).",
+              "size": "Medium",
+              "type": "Humanoid (Human)",
+              "senses": "Low-light vision.",
+              "id": "deep-imaskari-serran-waystation-warden-35e",
+              "title": "Deep Imaskari waystation warden, Cleric 1",
+              "ac": 16,
+              "hp": 10,
+              "hitDice": "1d8+2",
+              "initiative": 0,
+              "speed": "20 ft. in scale mail; base 30 ft.",
+              "languages": "Common, Roushoum, Celestial, Draconic",
+              "abilityScores": {
+                "STR": 12,
+                "DEX": 10,
+                "CON": 14,
+                "INT": 14,
+                "WIS": 16,
+                "CHA": 10
+              },
+              "skills": [
+                "Concentration +6",
+                "Heal +7",
+                "Hide −6 (−2 underground)",
+                "Knowledge (religion) +6",
+                "Spellcraft +6"
+              ],
+              "traits": [
+                "Neutral good Cleric of Mystra. Scale mail +4, heavy wooden shield +2. Touch 10, flat-footed 16. BAB +0, grapple +1. Fortitude +4, Reflex +0, Will +5. Combat Casting adds +4 on Concentration checks when casting defensively or while grappled or pinned.",
+                "Spell Clutch (Su). Once per day, use a standard action to prepare again one 1st-level spell you previously prepared and cast. Cast the spell separately when needed. The supernatural activation does not provoke an attack of opportunity.",
+                "+4 on Hide checks while underground.",
+                "Knowledge and Magic domains. Knowledge makes all Knowledge skills class skills and gives +1 caster level to divinations. Magic permits use of arcane spell-trigger and spell-completion items as a 1st-level wizard. Turn undead 3/day, check +0, turning damage 2d6+1."
+              ],
+              "actions": [
+                "Light mace +1 melee for 1d6+1 bludgeoning, critical ×2.",
+                "Cleric spells prepared, CL 1, divinations CL 2. Cantrips are detect magic, guidance, and light. First-level spells are bless and cure light wounds. The Knowledge domain slot holds detect secret doors. Bless gives allies a +1 morale bonus on attack rolls and saves against fear for 1 minute. Cure light wounds heals 1d8+1.",
+                "After casting the prepared bless, use Spell Clutch to prepare bless again. Save the second casting for a fresh clash after the first duration ends."
+              ],
+              "tactics": "Serran meets refugees at the waystation and casts bless as they get through the first barricade. He uses the lull to regain bless and saves the second casting for the defense of the inner doors."
+            },
+            "role": "Waystation warden and Cleric.",
+            "motive": "Move the refugees through two barricades before the gates close.",
+            "hook": "Serran sends the party ahead to hold the inner doors."
+          }
+        ]
+      }
+    ],
+    "npcs": [
+      {
+        "species": "Deep Imaskari",
+        "size": "Medium",
+        "edition": "3.5 edition",
+        "speciesPublication": "Underdark (2003)",
+        "name": "Neris Vell",
+        "build": {
+          "origin": "Original DM Library NPC",
+          "editions": [
+            "3.5 edition"
+          ],
+          "difficulty": "CR 1. ECL 1 (1 class HD, LA +0).",
+          "size": "Medium",
+          "type": "Humanoid (Human)",
+          "senses": "Low-light vision.",
+          "id": "deep-imaskari-vell-vault-surveyor-35e",
+          "title": "Deep Imaskari vault surveyor, Wizard 1",
+          "ac": 11,
+          "hp": 6,
+          "hitDice": "1d4+2",
+          "initiative": 5,
+          "speed": "30 ft.",
+          "languages": "Common, Roushoum, Aquan, Celestial, Draconic, Undercommon",
+          "abilityScores": {
+            "STR": 10,
+            "DEX": 12,
+            "CON": 14,
+            "INT": 18,
+            "WIS": 12,
+            "CHA": 8
+          },
+          "skills": [
+            "Concentration +6",
+            "Craft (bookbinding) +8",
+            "Decipher Script +8",
+            "Hide +1 (+5 underground)",
+            "Knowledge (arcana) +8",
+            "Knowledge (dungeoneering) +8",
+            "Spellcraft +8"
+          ],
+          "traits": [
+            "Neutral. Unarmored, Dexterity +1. Touch 11, flat-footed 10. BAB +0, grapple +0. Fortitude +2, Reflex +1, Will +3. Improved Initiative adds +4. Scribe Scroll is the Wizard bonus feat. No familiar is present.",
+            "Spell Clutch (Su). Once per day, use a standard action to prepare again one 1st-level spell you previously prepared and cast. Cast the spell separately when needed. The supernatural activation does not provoke an attack of opportunity.",
+            "+4 on Hide checks while underground."
+          ],
+          "actions": [
+            "Light crossbow +1 ranged for 1d8 piercing, critical 19–20/×2, range increment 80 ft.",
+            "Wizard spells prepared, CL 1. Cantrips are detect magic, light, and mage hand. First-level spells are mage armor and grease. Mage armor raises AC to 15 for 1 hour, touch 11 and flat-footed 14. Grease lasts 1 round and has Reflex DC 15.",
+            "Spellbook includes Wizard cantrips and seven 1st-level spells: alarm, detect secret doors, expeditious retreat, grease, mage armor, magic missile, and shield.",
+            "After casting grease at the first doorway, use Spell Clutch to prepare it again. Cast it separately when pursuit reaches the second doorway."
+          ],
+          "tactics": "Neris checks a lower vault for two routes out. She casts mage armor before entering and uses the corners and her underground Hide bonus to avoid pursuit between doors."
+        },
+        "role": "Vault surveyor and Wizard.",
+        "motive": "Map the lower vault and bring her notes back intact.",
+        "hook": "Neris marks the first doorway with charcoal so the party can find it from either side."
+      },
+      {
+        "species": "Deep Imaskari",
+        "size": "Medium",
+        "edition": "3.5 edition",
+        "speciesPublication": "Underdark (2003)",
+        "name": "Serran Thale",
+        "build": {
+          "origin": "Original DM Library NPC",
+          "editions": [
+            "3.5 edition"
+          ],
+          "difficulty": "CR 1. ECL 1 (1 class HD, LA +0).",
+          "size": "Medium",
+          "type": "Humanoid (Human)",
+          "senses": "Low-light vision.",
+          "id": "deep-imaskari-serran-waystation-warden-35e",
+          "title": "Deep Imaskari waystation warden, Cleric 1",
+          "ac": 16,
+          "hp": 10,
+          "hitDice": "1d8+2",
+          "initiative": 0,
+          "speed": "20 ft. in scale mail; base 30 ft.",
+          "languages": "Common, Roushoum, Celestial, Draconic",
+          "abilityScores": {
+            "STR": 12,
+            "DEX": 10,
+            "CON": 14,
+            "INT": 14,
+            "WIS": 16,
+            "CHA": 10
+          },
+          "skills": [
+            "Concentration +6",
+            "Heal +7",
+            "Hide −6 (−2 underground)",
+            "Knowledge (religion) +6",
+            "Spellcraft +6"
+          ],
+          "traits": [
+            "Neutral good Cleric of Mystra. Scale mail +4, heavy wooden shield +2. Touch 10, flat-footed 16. BAB +0, grapple +1. Fortitude +4, Reflex +0, Will +5. Combat Casting adds +4 on Concentration checks when casting defensively or while grappled or pinned.",
+            "Spell Clutch (Su). Once per day, use a standard action to prepare again one 1st-level spell you previously prepared and cast. Cast the spell separately when needed. The supernatural activation does not provoke an attack of opportunity.",
+            "+4 on Hide checks while underground.",
+            "Knowledge and Magic domains. Knowledge makes all Knowledge skills class skills and gives +1 caster level to divinations. Magic permits use of arcane spell-trigger and spell-completion items as a 1st-level wizard. Turn undead 3/day, check +0, turning damage 2d6+1."
+          ],
+          "actions": [
+            "Light mace +1 melee for 1d6+1 bludgeoning, critical ×2.",
+            "Cleric spells prepared, CL 1, divinations CL 2. Cantrips are detect magic, guidance, and light. First-level spells are bless and cure light wounds. The Knowledge domain slot holds detect secret doors. Bless gives allies a +1 morale bonus on attack rolls and saves against fear for 1 minute. Cure light wounds heals 1d8+1.",
+            "After casting the prepared bless, use Spell Clutch to prepare bless again. Save the second casting for a fresh clash after the first duration ends."
+          ],
+          "tactics": "Serran meets refugees at the waystation and casts bless as they get through the first barricade. He uses the lull to regain bless and saves the second casting for the defense of the inner doors."
+        },
+        "role": "Waystation warden and Cleric.",
+        "motive": "Move the refugees through two barricades before the gates close.",
+        "hook": "Serran sends the party ahead to hold the inner doors."
+      }
+    ]
+  }
+}

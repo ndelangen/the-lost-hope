@@ -1,0 +1,166 @@
+diff --git a/dm-library/bestiary/book-catalog.json b/dm-library/bestiary/book-catalog.json
+--- a/dm-library/bestiary/book-catalog.json
++++ b/dm-library/bestiary/book-catalog.json
+@@ -313603,6 +313603,19 @@
+       ]
+     },
+     {
++      "name": "Tiefling",
++      "kind": "species",
++      "publication": "Planar Handbook (2004)",
++      "edition": "3.5 edition",
++      "traits": [
++        "Medium Outsider (Native) from the Material Plane. The book gives the Extraplanar subtype away from the Material Plane. Under the core rules, creatures lack the Extraplanar subtype on transitive planes. Humanoid-only effects such as charm person do not affect a Tiefling.",
++        "+2 Dexterity, +2 Intelligence, and −2 Charisma. Land speed 30 ft., darkvision 60 ft., and +2 racial bonuses on Bluff and Hide.",
++        "Cold resistance 5, electricity resistance 5, and fire resistance 5.",
++        "Darkness (Sp) once per day. Caster level equals character level, excluding level adjustment. One touched object produces shadowy illumination for 10 minutes per caster level in a 20-ft. radius. Creatures in the area have concealment (20% miss chance), including against darkvision.",
++        "Automatic languages are Common and Infernal. Bonus languages are Draconic, Dwarven, Elven, Gnome, Goblin, Halfling, and Orc. Favored class Rogue. LA +1. No racial Hit Dice are listed."
++      ]
++    },
++    {
+       "edition": "2014 fifth edition",
+       "publication": "Sword Coast Adventurer's Guide",
+       "name": "Half-Elf (Variant; Wood Elf Descent; Mask of the Wild)",
+diff --git a/dm-library/bestiary/npc-encounters.json b/dm-library/bestiary/npc-encounters.json
+--- a/dm-library/bestiary/npc-encounters.json
++++ b/dm-library/bestiary/npc-encounters.json
+@@ -3052,6 +3052,88 @@
+       "tactics": "Check the knots and use the upper landing to glide a light messenger line down. Ask the party to secure the near anchor. Keep anyone needing rescue off the glider’s load."
+     },
+     {
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
++      "difficulty": "Provisional CR 2. ECL 2 (1 class HD, LA +1).",
++      "size": "Medium",
++      "type": "Outsider (Native)",
++      "senses": "Darkvision 60 ft.",
++      "speed": "30 ft.",
++      "id": "tiefling-cinderlock-lockhouse-runner-35e",
++      "title": "Tiefling lockhouse runner, Rogue 1",
++      "ac": 16,
++      "hp": 8,
++      "hitDice": "1d6+2",
++      "initiative": 4,
++      "languages": "Common, Infernal, Draconic, Dwarven, Elven",
++      "abilityScores": {
++        "STR": 12,
++        "DEX": 18,
++        "CON": 14,
++        "INT": 16,
++        "WIS": 10,
++        "CHA": 8
++      },
++      "skills": [
++        "Balance +8",
++        "Bluff +5",
++        "Disable Device +7",
++        "Hide +10",
++        "Listen +4",
++        "Move Silently +8",
++        "Open Lock +8",
++        "Search +7",
++        "Sense Motive +4",
++        "Spot +4",
++        "Tumble +8"
++      ],
++      "traits": [
++        "Neutral good. Material Plane. Leather armor +2 and Dexterity +4. Touch 14, flat-footed 12. BAB +0, grapple +1. Fortitude +2, Reflex +6, Will +0.",
++        "Cold resistance 5, electricity resistance 5, and fire resistance 5.",
++        "Trapfinding. Sneak attack +1d6 when a target is denied Dexterity bonus to AC or when Sella flanks it. Ranged sneak attack requires a target within 30 ft. A target with concealment cannot be sneak attacked."
++      ],
++      "actions": [
++        "Rapier +1 melee, 1d6+1 piercing, critical 18–20/×2. Shortbow +4 ranged, 1d6 piercing, critical ×3, range increment 60 ft. Within 30 ft. Point Blank Shot gives +5 to hit for 1d6+1.",
++        "Darkness (Sp), 1/day at CL 1 from character level. Standard action, touch one object. Shadowy illumination in a 20-ft. radius for 10 minutes, dismissible. Creatures in the area have concealment (20% miss chance), even against darkvision, including the Tiefling’s own. A lightproof cover over the object blocks the effect until removed."
++      ],
++      "tactics": "Sella checks the floodgate for a trap and picks the lock if the gate is safe. If the party needs to retreat, she uses darkness on a copper token and leaves it at the bend. She looks for sneak attacks where the target has no concealment. A lightproof pouch can cover the token before the duration ends."
++    },
++    {
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
++      "difficulty": "Provisional CR 2. ECL 2 (1 class HD, LA +1).",
++      "size": "Medium",
++      "type": "Outsider (Native)",
++      "senses": "Darkvision 60 ft.",
++      "speed": "30 ft.",
++      "id": "tiefling-vale-smokeway-guard-35e",
++      "title": "Tiefling smokeway guard, Fighter 1",
++      "ac": 17,
++      "hp": 12,
++      "hitDice": "1d10+2",
++      "initiative": 2,
++      "languages": "Common, Infernal, Dwarven, Orc",
++      "abilityScores": {
++        "STR": 16,
++        "DEX": 14,
++        "CON": 14,
++        "INT": 14,
++        "WIS": 10,
++        "CHA": 8
++      },
++      "skills": ["Bluff +1", "Climb +4", "Hide +1", "Jump +4", "Ride +6", "Swim +1"],
++      "traits": [
++        "Neutral good. Material Plane. Chain shirt +4, light wooden shield +1, Dexterity +2. Touch 12, flat-footed 15. Total armor check penalty −3. BAB +1, grapple +4. Fortitude +4, Reflex +2, Will +0.",
++        "Cold resistance 5, electricity resistance 5, and fire resistance 5.",
++        "Weapon Focus (longsword) is the Fighter bonus feat. When a melee attack misses because of concealment, Blind-Fight lets Verren reroll the miss chance once. His ranged attacks gain no reroll."
++      ],
++      "actions": [
++        "Longsword +5 melee, 1d8+3 slashing, critical 19–20/×2. Javelin +3 ranged, 1d6+3 piercing, critical ×2, range increment 30 ft.",
++        "Darkness (Sp), 1/day at CL 1 from character level. Standard action, touch one object. Shadowy illumination in a 20-ft. radius for 10 minutes, dismissible. Creatures in the area have concealment (20% miss chance), even against darkvision, including the Tiefling’s own. A lightproof cover over the object blocks the effect until removed."
++      ],
++      "tactics": "Verren guides the last workers to the cross-passage and holds the gate. He can put darkness on the gate latch when a pursuer enters the straight passage. He stays close enough to use his longsword and applies his Blind-Fight reroll only to a melee miss caused by concealment."
++    },
++    {
+       "id": "raptoran-flying-beacon-sentry-35e",
+       "title": "Raptoran beacon sentry, Fighter 5",
+       "origin": "Original DM Library NPC",
+@@ -3626,6 +3708,28 @@
+       "role": "Arbitrator and opposing witness",
+       "motive": "Protect her retirement fund by collecting a late payment without putting a family out of its home.",
+       "hook": "Sethra holds the witnessed signature on the guarantee but will wait if the players can provide collateral of equal worth."
++    },
++    {
++      "species": "Tiefling",
++      "size": "Medium",
++      "edition": "3.5 edition",
++      "speciesPublication": "Planar Handbook (2004)",
++      "name": "Sella Cinderlock",
++      "build": "tiefling-cinderlock-lockhouse-runner-35e",
++      "role": "Lockhouse runner and Rogue.",
++      "motive": "Reopen the floodgate without springing the trap.",
++      "hook": "Sella has a copper marker for the crossing and can check the lock."
++    },
++    {
++      "species": "Tiefling",
++      "size": "Medium",
++      "edition": "3.5 edition",
++      "speciesPublication": "Planar Handbook (2004)",
++      "name": "Verren Vale",
++      "build": "tiefling-vale-smokeway-guard-35e",
++      "role": "Smokeway guard and Fighter.",
++      "motive": "Hold the gate long enough for the workers to clear the passage.",
++      "hook": "Verren needs someone to lead the last workers to the cross-passage."
+     },
+     {
+       "species": "Catfolk",
+diff --git a/dm-library/bestiary/entries.tsv b/dm-library/bestiary/entries.tsv
+--- a/dm-library/bestiary/entries.tsv
++++ b/dm-library/bestiary/entries.tsv
+@@ -9470,6 +9470,7 @@
+ Tiefling	species		Player’s Handbook	2024 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/species/1751443-tiefling	
+ Tiefling	species	Humanoid	SRD 5.2.1	2024 fifth edition	Wizards of the Coast		
+ Tiefling	species	Humanoid	Player's Handbook (2014)	2014 fifth edition	Wizards of the Coast		
++Tiefling	species	Outsider (Native)	Planar Handbook (2004)	3.5 edition	Wizards of the Coast	https://obnb.uk/p13133209-planar-handbook-a-players-guide-to-the-planes	
+ Tiefling (Asmodeus)	species		Mordenkainen’s Tome of Foes	2014 fifth edition	Wizards of the Coast		
+ Tiefling (Baalzebul)	species		Mordenkainen’s Tome of Foes	2014 fifth edition	Wizards of the Coast		
+ Tiefling (Dispater)	species		Mordenkainen’s Tome of Foes	2014 fifth edition	Wizards of the Coast		
+diff --git a/scripts/dm-library-content.ts b/scripts/dm-library-content.ts
+--- a/scripts/dm-library-content.ts
++++ b/scripts/dm-library-content.ts
+@@ -34,6 +34,7 @@
+   edition: '2024 fifth edition',
+ }
+ const preferredSpeciesPrintings = new Map([
++  ['Tiefling', { publication: 'Player’s Handbook', edition: '2024 fifth edition' }],
+   ['Changeling', forgeSpeciesPrinting],
+   ['Kalashtar', forgeSpeciesPrinting],
+   ['Shifter', forgeSpeciesPrinting],

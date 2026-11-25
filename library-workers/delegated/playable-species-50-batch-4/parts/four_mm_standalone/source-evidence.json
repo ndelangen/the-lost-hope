@@ -1,0 +1,127 @@
+[
+  {
+    "name": "Armand",
+    "publication": "Monster Manual III (3.5, 2004)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Monstrous Humanoid",
+    "url": "",
+    "printedPages": [
+      10,
+      11
+    ],
+    "heading": "Armands as Characters",
+    "supportingSources": {
+      "characterRules": ""
+    },
+    "distinction": "Use the player profile. Keep the Warden sample encounter separate.",
+    "interpretation": [
+      "The move-action stance, stability, and full attack with two claws all come from the same entry. The named Warden is a distinct monk example."
+    ]
+  },
+  {
+    "name": "Harssaf",
+    "publication": "Monster Manual III (3.5, 2004)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Monstrous Humanoid (Fire)",
+    "url": "",
+    "printedPages": [
+      82,
+      83
+    ],
+    "heading": "Harssafs as Characters",
+    "supportingSources": {
+      "characterRules": "",
+      "officialErrataJuly2006": ""
+    },
+    "distinction": "Use racial Hit Dice and level adjustment.",
+    "interpretation": [
+      "The July 2006 errata corrects the printed sample pulse from DC 15 to 16. Vek uses DC 18 from seven HD and Constitution 21.",
+      "Use the short aura convention in the NPC tactics: the harssaf can enter the scene with the aura active, and each nearby creature takes its proximity damage at most once per round.",
+      "Sand Form uses gaseous form’s 10-ft. movement rate on the ground. The Harssaf entry specifies ground travel in this form and gives no separate movement rate."
+    ]
+  },
+  {
+    "name": "Ibixian",
+    "publication": "Monster Manual III (3.5, 2004)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Monstrous Humanoid",
+    "url": "",
+    "printedPages": [
+      63
+    ],
+    "heading": "Goatfolk as Characters",
+    "supportingSources": {
+      "characterRules": ""
+    },
+    "distinction": "Ibixian and Goatfolk refer to this one player entry. Separate from Satyr.",
+    "interpretation": [
+      "Ibixian is the canonical name and Goatfolk is the printed alias. Pack Fervor calls for a second ibixian within 30 ft. Rage and Pack Fervor use the higher fear save morale modifier rather than stacking."
+    ]
+  },
+  {
+    "name": "Quaraphon",
+    "publication": "Monster Manual III (3.5, 2004)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Aberration",
+    "url": "",
+    "printedPages": [
+      128,
+      129
+    ],
+    "heading": "Quaraphons as Characters",
+    "supportingSources": {
+      "characterRules": "",
+      "officialErrataJuly2006": ""
+    },
+    "distinction": "Use the player profile and keep the printed sample bully separate.",
+    "interpretation": [
+      "The July 2006 errata confirms ability adjustments, uses aberration for racial skills, and specifies two hooves. The player bite is 1d6, while the printed monster example lists 1d8. Use the player dice."
+    ]
+  },
+  {
+    "name": "Witchknife",
+    "publication": "Monster Manual III (3.5, 2004)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Monstrous Humanoid",
+    "url": "",
+    "printedPages": [
+      194,
+      195
+    ],
+    "heading": "Witchknives as Characters",
+    "supportingSources": {
+      "characterRules": "",
+      "officialErrataJuly2006": ""
+    },
+    "distinction": "Player profile. Keep the Captain sample separate.",
+    "interpretation": [
+      "The July 2006 clarification grants all simple weapons, light armor, and shields except tower shields. Kesh’s Ability Focus applies to command only, as in the original creature’s convention."
+    ]
+  },
+  {
+    "name": "Jaebrin",
+    "publication": "Monster Manual V (3.5, 2007)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Fey",
+    "url": "https://anyflip.com/myubd/sdgs/basic/51-100",
+    "printedPages": [
+      92,
+      93
+    ],
+    "heading": "Jaebrins as Characters",
+    "supportingSources": {
+      "characterRules": "",
+      "sourceScan": ""
+    },
+    "distinction": "Player profile. Keep the printed combat example separate.",
+    "interpretation": [
+      "Uses the player entry’s class-based HD. Will Sapper uses 10 + half class level + Constitution modifier, consistent with the Constitution-based sample and the player clause."
+    ]
+  }
+]
