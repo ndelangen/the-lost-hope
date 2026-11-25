@@ -59,7 +59,8 @@ export function LibraryRuleText({
 }) {
   return line.split(pattern).map((text, index) => {
     const slug = index % 2 === 1 ? byName.get(text.toLowerCase()) : undefined
-    const rule = slug ? getLibraryEntry('rules', slug, false, version) : undefined
+    const rulesVersion = version === 'original' ? 'srd-5-1' : version
+    const rule = slug ? getLibraryEntry('rules', slug, false, rulesVersion) : undefined
     if (!slug || !rule) {
       if (damage && libraryDamageTerms(text, damage === 'list').length)
         return formatDamage(text, damage, index)
@@ -70,7 +71,7 @@ export function LibraryRuleText({
         <Link
           to="/library/$type/$slug"
           params={{ type: 'rules', slug }}
-          search={{ dm: search.dm, q: search.q, version }}
+          search={{ dm: search.dm, q: search.q, version: rulesVersion }}
           className="underline decoration-dotted underline-offset-4"
         >
           {text}

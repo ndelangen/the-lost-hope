@@ -55,3 +55,13 @@ test('bare dm opts in and valid page numbers survive the URL', () => {
   expect(librarySearch({ page: 2 }).page).toBe(2)
   expect(librarySearch({ page: -2 }).page).toBeUndefined()
 })
+
+test('playable species expose traits while NPC hooks stay in the DM view', () => {
+  const player = getLibraryEntry('species', 'halfling', false)!
+  const dm = getLibraryEntry('species', 'halfling', true)!
+  expect(player.sections.map(({ title }) => title)).toContain('Species traits')
+  expect(player.sections.map(({ title }) => title)).not.toContain('Original NPC · Pell Reedgate')
+  expect(dm.sections.map(({ title }) => title)).toContain('Original NPC · Pell Reedgate')
+  expect(browseLibrary(false, 'Pell Reedgate')).toEqual([])
+  expect(browseLibrary(true, 'Pell Reedgate').map(({ slug }) => slug)).toContain('halfling')
+})

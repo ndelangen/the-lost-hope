@@ -81482,7 +81482,18 @@
       {
         "id": "srd-5-2-1",
         "label": "SRD 5.2.1",
-        "gm": [],
+        "gm": [
+          {
+            "title": "Original NPC · Vasha Kilnline",
+            "lines": [
+              "Dockside enforcer and potential witness",
+              "Motive. Keep the night dock open after a fatal accident threatens its license.",
+              "Hook. Vasha will name the boat that struck the pier if someone gets the workers a public hearing.",
+              "Quay champion · Provisional CR 1 (200 XP) · Medium Humanoid",
+              "AC 15 · HP 33 (6d8 + 6) · Speed 30 ft."
+            ]
+          }
+        ],
         "player": [
           {
             "title": "Statistics",
@@ -81494,16 +81505,6 @@
               "Medium, walking speed 30 ft.",
               "Choose a draconic ancestor for one damage resistance and the damage type of a breath attack.",
               "60 ft. darkvision. Temporary magical flight becomes available at level 5."
-            ]
-          },
-          {
-            "title": "Original NPC · Vasha Kilnline",
-            "lines": [
-              "Dockside enforcer and potential witness",
-              "Motive. Keep the night dock open after a fatal accident threatens its license.",
-              "Hook. Vasha will name the boat that struck the pier if someone gets the workers a public hearing.",
-              "Quay champion · Provisional CR 1 (200 XP) · Medium Humanoid",
-              "AC 15 · HP 33 (6d8 + 6) · Speed 30 ft."
             ]
           }
         ]
@@ -81540,7 +81541,18 @@
       {
         "id": "srd-5-2-1",
         "label": "SRD 5.2.1",
-        "gm": [],
+        "gm": [
+          {
+            "title": "Original NPC · Bruni Telltale",
+            "lines": [
+              "Bridge engineer and reluctant ally",
+              "Motive. Close the bridge long enough to replace a failing support.",
+              "Hook. Bruni offers a drawing that reveals who has been removing approved reinforcement from shipments.",
+              "Ward tender · Provisional CR 1/2 (100 XP) · Medium Humanoid",
+              "AC 12 · HP 22 · Speed 30 ft."
+            ]
+          }
+        ],
         "player": [
           {
             "title": "Statistics",
@@ -81552,16 +81564,6 @@
               "Medium, walking speed 30 ft.",
               "120 ft. darkvision, poison resistance, and advantage on saves against the Poisoned condition.",
               "Gain 1 maximum HP per character level. Stonecunning temporarily grants tremorsense while on or touching stone."
-            ]
-          },
-          {
-            "title": "Original NPC · Bruni Telltale",
-            "lines": [
-              "Bridge engineer and reluctant ally",
-              "Motive. Close the bridge long enough to replace a failing support.",
-              "Hook. Bruni offers a drawing that reveals who has been removing approved reinforcement from shipments.",
-              "Ward tender · Provisional CR 1/2 (100 XP) · Medium Humanoid",
-              "AC 12 · HP 22 · Speed 30 ft."
             ]
           }
         ]
@@ -81588,7 +81590,18 @@
       {
         "id": "srd-5-2-1",
         "label": "SRD 5.2.1",
-        "gm": [],
+        "gm": [
+          {
+            "title": "Original NPC · Lethir Span",
+            "lines": [
+              "Guide with a conflict of interest",
+              "Motive. Keep a disused path out of a survey that would make it a toll road.",
+              "Hook. Lethir can get the group to the survey camp by dawn if they carry a truthful message from the people displaced by the work.",
+              "Route warden · Provisional CR 1/4 (50 XP) · Medium Humanoid",
+              "AC 14 · HP 13 · Speed 30 ft."
+            ]
+          }
+        ],
         "player": [
           {
             "title": "Statistics",
@@ -81600,16 +81613,6 @@
               "Medium, walking speed 30 ft. before lineage adjustments.",
               "Darkvision, advantage on saves against being Charmed, and proficiency in Insight, Perception, or Survival.",
               "Drow, high elf, or wood elf lineage awards different spells. Trance replaces ordinary sleep."
-            ]
-          },
-          {
-            "title": "Original NPC · Lethir Span",
-            "lines": [
-              "Guide with a conflict of interest",
-              "Motive. Keep a disused path out of a survey that would make it a toll road.",
-              "Hook. Lethir can get the group to the survey camp by dawn if they carry a truthful message from the people displaced by the work.",
-              "Route warden · Provisional CR 1/4 (50 XP) · Medium Humanoid",
-              "AC 14 · HP 13 · Speed 30 ft."
             ]
           }
         ]
@@ -81692,7 +81695,18 @@
       {
         "id": "srd-5-2-1",
         "label": "SRD 5.2.1",
-        "gm": [],
+        "gm": [
+          {
+            "title": "Original NPC · Cora Spindle",
+            "lines": [
+              "Clock repairer and witness",
+              "Motive. Get her apprentice released by proving a seized clock never left the workshop.",
+              "Hook. The replacement gear is stamped with who ordered it and can be matched to the seized clock through a service hatch.",
+              "Ward tender · Provisional CR 1/2 (100 XP) · Small Humanoid",
+              "AC 12 · HP 22 · Speed 30 ft."
+            ]
+          }
+        ],
         "player": [
           {
             "title": "Statistics",
@@ -81704,16 +81718,6 @@
               "Small, walking speed 30 ft.",
               "Darkvision and advantage on Intelligence, Wisdom, and Charisma saves.",
               "Forest and rock lineages grant different spells. Rock gnomes can use their magic to make a small clockwork device."
-            ]
-          },
-          {
-            "title": "Original NPC · Cora Spindle",
-            "lines": [
-              "Clock repairer and witness",
-              "Motive. Get her apprentice released by proving a seized clock never left the workshop.",
-              "Hook. The replacement gear is stamped with who ordered it and can be matched to the seized clock through a service hatch.",
-              "Ward tender · Provisional CR 1/2 (100 XP) · Small Humanoid",
-              "AC 12 · HP 22 · Speed 30 ft."
             ]
           }
         ]
@@ -81760,7 +81764,18 @@
       {
         "id": "srd-5-2-1",
         "label": "SRD 5.2.1",
-        "gm": [],
+        "gm": [
+          {
+            "title": "Original NPC · Skel Downwind",
+            "lines": [
+              "Mountain escort and rival",
+              "Motive. Recover a lost climbing crew before bad weather strands a second crew.",
+              "Hook. Skel trades the best lead for help convincing the rival expedition to lend its rope ladders.",
+              "Quay champion · Provisional CR 1 (200 XP) · Medium Humanoid",
+              "AC 15 · HP 33 (6d8 + 6) · Speed 30 ft."
+            ]
+          }
+        ],
         "player": [
           {
             "title": "Statistics",
@@ -81772,16 +81787,6 @@
               "Medium, walking speed 35 ft.",
               "Choose one of six giant ancestries for an active benefit. Temporary Large size becomes available at level 5.",
               "Powerful Build improves carrying capacity and checks to end the Grappled condition."
-            ]
-          },
-          {
-            "title": "Original NPC · Skel Downwind",
-            "lines": [
-              "Mountain escort and rival",
-              "Motive. Recover a lost climbing crew before bad weather strands a second crew.",
-              "Hook. Skel trades the best lead for help convincing the rival expedition to lend its rope ladders.",
-              "Quay champion · Provisional CR 1 (200 XP) · Medium Humanoid",
-              "AC 15 · HP 33 (6d8 + 6) · Speed 30 ft."
             ]
           }
         ]
@@ -81818,7 +81823,18 @@
       {
         "id": "srd-5-2-1",
         "label": "SRD 5.2.1",
-        "gm": [],
+        "gm": [
+          {
+            "title": "Original NPC · Pell Reedgate",
+            "lines": [
+              "Towpath guide and broker",
+              "Motive. Keep a lease over a ferry landing where her neighbors work.",
+              "Hook. Pell will walk the group to the ferry after closing if they bring a copy of the charter to the next meeting.",
+              "Route warden · Provisional CR 1/4 (50 XP) · Small Humanoid",
+              "AC 14 · HP 13 · Speed 30 ft."
+            ]
+          }
+        ],
         "player": [
           {
             "title": "Statistics",
@@ -81830,16 +81846,6 @@
               "Small, walking speed 30 ft.",
               "Advantage on saves against being Frightened. Reroll a natural 1 on a D20 Test and use the new result.",
               "Move through a larger creature's space and hide behind a creature at least one size larger."
-            ]
-          },
-          {
-            "title": "Original NPC · Pell Reedgate",
-            "lines": [
-              "Towpath guide and broker",
-              "Motive. Keep a lease over a ferry landing where her neighbors work.",
-              "Hook. Pell will walk the group to the ferry after closing if they bring a copy of the charter to the next meeting.",
-              "Route warden · Provisional CR 1/4 (50 XP) · Small Humanoid",
-              "AC 14 · HP 13 · Speed 30 ft."
             ]
           }
         ]
@@ -81937,7 +81943,18 @@
       {
         "id": "srd-5-2-1",
         "label": "SRD 5.2.1",
-        "gm": [],
+        "gm": [
+          {
+            "title": "Original NPC · Ira Stonecup",
+            "lines": [
+              "Ferry watch captain",
+              "Motive. Keep two feuding estates from bringing their own guards to the landing.",
+              "Hook. Ira needs an independent witness for the passenger list before either estate tries to seize the ferry.",
+              "Quay champion · Provisional CR 1 (200 XP) · Medium Humanoid",
+              "AC 15 · HP 33 (6d8 + 6) · Speed 30 ft."
+            ]
+          }
+        ],
         "player": [
           {
             "title": "Statistics",
@@ -81949,16 +81966,6 @@
               "Small or Medium, walking speed 30 ft.",
               "Gain Heroic Inspiration after a Long Rest.",
               "Choose one skill proficiency and one Origin feat."
-            ]
-          },
-          {
-            "title": "Original NPC · Ira Stonecup",
-            "lines": [
-              "Ferry watch captain",
-              "Motive. Keep two feuding estates from bringing their own guards to the landing.",
-              "Hook. Ira needs an independent witness for the passenger list before either estate tries to seize the ferry.",
-              "Quay champion · Provisional CR 1 (200 XP) · Medium Humanoid",
-              "AC 15 · HP 33 (6d8 + 6) · Speed 30 ft."
             ]
           }
         ]
@@ -82021,7 +82028,18 @@
       {
         "id": "srd-5-2-1",
         "label": "SRD 5.2.1",
-        "gm": [],
+        "gm": [
+          {
+            "title": "Original NPC · Doma Three Notches",
+            "lines": [
+              "Ranger and negotiator",
+              "Motive. Find a seasonal crossing both families can use without abandoning either herd.",
+              "Hook. Doma can show the party where a public bridge used to stand. The landowner who removed it will be there at dusk.",
+              "Route warden · Provisional CR 1/4 (50 XP) · Medium Humanoid",
+              "AC 14 · HP 13 · Speed 30 ft."
+            ]
+          }
+        ],
         "player": [
           {
             "title": "Statistics",
@@ -82033,16 +82051,6 @@
               "Medium, walking speed 30 ft.",
               "120 ft. darkvision. Limited bonus-action Dash also grants temporary HP.",
               "Once per Long Rest, remain at 1 HP when reduced to 0 without dying outright."
-            ]
-          },
-          {
-            "title": "Original NPC · Doma Three Notches",
-            "lines": [
-              "Ranger and negotiator",
-              "Motive. Find a seasonal crossing both families can use without abandoning either herd.",
-              "Hook. Doma can show the party where a public bridge used to stand. The landowner who removed it will be there at dusk.",
-              "Route warden · Provisional CR 1/4 (50 XP) · Medium Humanoid",
-              "AC 14 · HP 13 · Speed 30 ft."
             ]
           }
         ]
@@ -82170,7 +82178,18 @@
       {
         "id": "srd-5-2-1",
         "label": "SRD 5.2.1",
-        "gm": [],
+        "gm": [
+          {
+            "title": "Original NPC · Mina Letterturn",
+            "lines": [
+              "Provisional clerk and guardian",
+              "Motive. Keep a locked archive available to people who are still appealing a decision.",
+              "Hook. Mina asks the group to serve as reading witnesses after the usual keeper stops answering messages.",
+              "Ward tender · Provisional CR 1/2 (100 XP) · Medium Humanoid",
+              "AC 12 · HP 22 · Speed 30 ft."
+            ]
+          }
+        ],
         "player": [
           {
             "title": "Statistics",
@@ -82182,16 +82201,6 @@
               "Small or Medium, walking speed 30 ft.",
               "60 ft. darkvision and Thaumaturgy.",
               "Choose an Abyssal, Chthonic, or Infernal legacy for one resistance and different spells at levels 1, 3, and 5."
-            ]
-          },
-          {
-            "title": "Original NPC · Mina Letterturn",
-            "lines": [
-              "Provisional clerk and guardian",
-              "Motive. Keep a locked archive available to people who are still appealing a decision.",
-              "Hook. Mina asks the group to serve as reading witnesses after the usual keeper stops answering messages.",
-              "Ward tender · Provisional CR 1/2 (100 XP) · Medium Humanoid",
-              "AC 12 · HP 22 · Speed 30 ft."
             ]
           }
         ]

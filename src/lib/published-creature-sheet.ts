@@ -169,9 +169,10 @@ export function explainHitDice(formula: string, hitPoints?: string) {
   return `${definition} Roll ${dice}${adjustment}.${listed}`
 }
 
-const explicitRoll = String.raw`[A-Z][^.!?\n]{0,65}\.\s+(?:(?:Melee or Ranged|Melee|Ranged) (?:Weapon Attack|Spell Attack|Attack Roll)|(?:Strength|Dexterity|Constitution|Intelligence|Wisdom|Charisma) Saving Throw:)`
-const plainSentence =
-  /^(?:The|If|When|While|Each|Once|Only|After|Before|Until)\s|^Legendary Action Uses:/u
+const proseLead = String.raw`(?:The|If|When|While|Each|Once|Only|After|Before|Until)\s`
+const explicitRoll = String.raw`(?!${proseLead})[A-Z][^.!?\n]{0,65}\.\s+(?:(?:Melee or Ranged|Melee|Ranged) (?:Weapon Attack|Spell Attack|Attack Roll)|(?:Strength|Dexterity|Constitution|Intelligence|Wisdom|Charisma) Saving Throw:)`
+const namedOption = String.raw`[A-Z][\p{L}’'-]*(?: (?:[A-Z][\p{L}’'-]*|and|or|of|the|to|with)){0,5}(?: \([^)]*\))?\.\s+(?=[A-Z])`
+const plainSentence = new RegExp(String.raw`^(?:${proseLead}|Legendary Action Uses:)`, 'u')
 
 export function creatureRuleParagraphs(line: string, abilities: LibraryAbilityDisplay = {}) {
   const knownNames = Object.keys(abilities).map((name) =>
@@ -179,7 +180,7 @@ export function creatureRuleParagraphs(line: string, abilities: LibraryAbilityDi
   )
   const starts = knownNames.length
     ? String.raw`(?:${knownNames.join('|')})(?:\s+\([^)]*\))?\.\s+`
-    : explicitRoll
+    : `${explicitRoll}|${namedOption}`
   return line
     .split(new RegExp(String.raw`\n+|(?<=[.!?])\s+(?=${starts})`, 'u'))
     .map((paragraph) => {

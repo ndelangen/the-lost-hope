@@ -78,3 +78,26 @@ test('separates combined-range attacks for printings without reviewed metadata',
     .find(({ title }) => title === 'Arcane Burst.')
   expect(burst && printedCreatureAbilityKind('Arcane Burst.', burst.text)).toBe('attack')
 })
+
+test('separates named non-attack actions and traits in compact printings', () => {
+  const eel = getLibraryEntry('beasts', 'rivetback-eel', true)!
+  const actions = eel.sections.find(({ title }) => title === 'Actions')!
+  expect(
+    actions.lines.flatMap((line) => creatureRuleParagraphs(line)).map(({ title }) => title),
+  ).toEqual(['Bite.', 'Wedge.'])
+
+  const lion = getLibraryEntry('beasts', 'lion', true, 'srd-5-1')!
+  const traits = lion.sections.find(({ title }) => title === 'Traits')!
+  expect(
+    traits.lines.flatMap((line) => creatureRuleParagraphs(line)).map(({ title }) => title),
+  ).toEqual(['Keen Smell.', 'Pack Tactics.', 'Pounce.', 'Running Leap.'])
+})
+
+test('preserves prose before a saving throw in a named action', () => {
+  const ape = getLibraryEntry('beasts', 'giant-ape', true, 'srd-5-2-1')!
+  const actions = ape.sections.find(({ title }) => title === 'Actions')!
+  const toss = actions.lines
+    .flatMap((line) => creatureRuleParagraphs(line))
+    .find(({ title }) => title === 'Boulder Toss (Recharge 6).')
+  expect(toss?.text).toMatch(/^The ape hurls.*Dexterity Saving Throw:/u)
+})
