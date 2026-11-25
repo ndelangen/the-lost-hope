@@ -275,6 +275,15 @@ export default createScene({
               ' offers his help with a problem the party will face, as payment instead. He has never seen a puzzle he could not solve: it is his greatest passion in life.',
             ],
           ],
+          followUps: [
+            {
+              icon: 'gi/GiShrug',
+              when: [['They pick the legendary item anyway, as they most likely will.']],
+              response: [
+                [refs.npcs.bob_the_merchant, ' is very disappointed, and does not hide it.'],
+              ],
+            },
+          ],
         },
       ],
     },
