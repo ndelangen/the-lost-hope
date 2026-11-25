@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest'
 
 import { refs } from '#/data/generated/refs'
 
-import { StatBlock } from './stat-block'
+import { PrintedStatBlock, StatBlock } from './stat-block'
 
 const scores = { str: 16, dex: 14, con: 14, int: 8, wis: 12, cha: 8 }
 const bite = {
@@ -85,5 +85,39 @@ describe('stat block facts', () => {
   it('rejects non-SRD source keys and damage types given as words', () => {
     expect(block([], { source: { adaptedFrom: ['dire wolf'] } }).success).toBe(false)
     expect(block([], { damageImmunities: ['fire'] }).success).toBe(false)
+  })
+})
+
+describe('published shapes', () => {
+  const { source: _, ...printed } = base
+
+  it('takes a printed block without a source', () => {
+    expect(PrintedStatBlock.safeParse({ ...printed, abilities: [bite] }).success).toBe(true)
+  })
+
+  it('takes swarms, fixed damage, and thrown melee attacks', () => {
+    const talons = {
+      ...bite,
+      key: 'talons',
+      attack: {
+        kind: 'melee',
+        ability: 'dex',
+        thrown: [20, 60],
+        damage: [{ dice: '1', type: refs.rules.slashing }],
+      },
+    }
+    const swarm = PrintedStatBlock.safeParse({ ...printed, swarmOf: 'tiny', abilities: [talons] })
+    expect(swarm.success).toBe(true)
+    expect(block([], { swarmOf: 'huge-ish' }).success).toBe(false)
+    expect(
+      block([], {
+        abilities: [
+          {
+            ...talons,
+            attack: { ...talons.attack, damage: [{ dice: '0', type: refs.rules.slashing }] },
+          },
+        ],
+      }).success,
+    ).toBe(false)
   })
 })

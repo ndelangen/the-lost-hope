@@ -24,14 +24,28 @@ export const TIMING = {
   trait: { label: ABILITY_GROUP_LABEL.trait, Icon: PawPrint },
 } satisfies Record<AbilityTiming, unknown>
 
+/** "beasts", "monstrosities": a creature type as a swarm names its members. */
+function plural(type: string) {
+  return type.endsWith('y') ? type.slice(0, -1) + 'ies' : type + 's'
+}
+
 /** Size, creature type, challenge with its experience (a PC's level), and proficiency bonus. */
 export function StatBlockHeadline({ stats, block }: { stats: AnyStatBlock; block: DerivedStats }) {
   return (
     <p className="text-muted-foreground text-sm">
       <RuleTerm rule={ruleRef(stats.size)} />{' '}
-      <RuleTerm rule={ruleRef(stats.type)}>
-        {ruleOf(ruleRef(stats.type)).name.toLowerCase()}
-      </RuleTerm>{' '}
+      {stats.swarmOf ? (
+        <>
+          swarm of <RuleTerm rule={ruleRef(stats.swarmOf)} />{' '}
+          <RuleTerm rule={ruleRef(stats.type)}>
+            {plural(ruleOf(ruleRef(stats.type)).name.toLowerCase())}
+          </RuleTerm>
+        </>
+      ) : (
+        <RuleTerm rule={ruleRef(stats.type)}>
+          {ruleOf(ruleRef(stats.type)).name.toLowerCase()}
+        </RuleTerm>
+      )}{' '}
       ·{' '}
       {'cr' in stats ? (
         <>

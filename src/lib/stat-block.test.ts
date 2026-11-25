@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest'
 
 import { refs } from '#/data/generated/refs'
-import { PcStatBlock, StatBlock } from '#/definitions/stat-block'
+import { PcStatBlock, PrintedStatBlock, StatBlock } from '#/definitions/stat-block'
 
 import {
   abilityKind,
@@ -244,5 +244,38 @@ describe('a PC stat block', () => {
     expect(plainStatParts(abilitySummary(devan.abilities[1]!, devan)!)).toBe(
       '+8, 10 (1d10 + 5) bludgeoning',
     )
+  })
+})
+
+/** Monster Manual (2014) Hawk: a talon that always deals 1 slashing damage. */
+describe('fixed damage', () => {
+  const hawk = PrintedStatBlock.parse({
+    size: 'tiny',
+    type: 'beast',
+    cr: '0',
+    ac: 13,
+    hitDice: '1d4',
+    speed: { walk: 10, fly: 60 },
+    scores: { str: 5, dex: 16, con: 8, int: 2, wis: 14, cha: 6 },
+    skills: { perception: 'proficient' },
+    abilities: [
+      {
+        key: 'talons',
+        name: 'Talons',
+        timing: 'action',
+        icon: 'gi/GiClaws',
+        attack: {
+          kind: 'melee',
+          ability: 'dex',
+          damage: [{ dice: '1', type: refs.rules.slashing }],
+        },
+      },
+    ],
+  })
+
+  it('prints the amount without a roll', () => {
+    const summary = abilitySummary(hawk.abilities[0]!, hawk)
+    expect(plainStatParts(summary ?? [])).toBe('+5, 1 slashing')
+    expect(deriveStatBlock(hawk).hitPoints).toBe('1 (1d4 − 1)')
   })
 })

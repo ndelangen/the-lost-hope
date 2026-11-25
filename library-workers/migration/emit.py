@@ -41,7 +41,9 @@ def ability_ts(ab,keys,ind):
   if 'attack' in ab:
     a=ab['attack']
     L.append(f'{i}  attack: {{'); L.append(f'{i}    kind: {js(a["kind"])},'); L.append(f'{i}    ability: {js(a["ability"])},')
-    if a['kind']=='melee': L.append(f'{i}    reach: {a["reach"]},')
+    if a['kind']=='melee':
+      L.append(f'{i}    reach: {a["reach"]},')
+      if 'thrown' in a: L.append(f'{i}    thrown: [{a["thrown"][0]}, {a["thrown"][1]}],')
     else: L.append(f'{i}    range: [{a["range"][0]}, {a["range"][1]}],')
     L.append(f'{i}    damage: [')
     for d in a['damage']:
@@ -58,7 +60,7 @@ def same_block(a,b):
   return strip(a)==strip(b)
 def main():
   types=sys.argv[1]
-  rows=json.load(open(os.path.join(H,'out-'+types+'.json')))
+  rows=json.load(open(os.path.join(os.environ.get('MIGRATION_OUT',H),'out-'+types+'.json')))
   rows=[r for r in rows if not r['issues'] and r['label'] in PUBS]
   # appearance/habitats from the source records
   recs={}
@@ -92,6 +94,7 @@ def main():
       app=next((s['lines'] for s in src['gm'] if s['title']=='Appearance'),None)
       if app: L.append(f'      appearance: [{js(app)}],')
       L.append('      stats: {')
+      if 'swarmOf' in b: L.append(f'        swarmOf: {js(b["swarmOf"])},')
       for k in ['size','type','cr','ac']: L.append(f'        {k}: {js(b[k])},')
       L.append(f'        hitDice: {js(b["hitDice"])},')
       L.append('        speed: {'+', '.join(f'{k}: {v}' for k,v in b['speed'].items())+'},')
@@ -117,4 +120,4 @@ def main():
   L+=['})','']
   open(os.path.join(REPO,'src/data/library/publications.ts'),'w').write('\n'.join(L))
   print('reprints',sum(len(v) for v in reprints.values()))
-main()
+if __name__=="__main__": main()

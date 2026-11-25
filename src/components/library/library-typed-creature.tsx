@@ -26,7 +26,7 @@ export function LibraryTypedCreature({
   const { stats } = printing
   const gallery = entry.art?.length ? entry.art : undefined
   const classification = [
-    `${cap(stats.size)} ${cap(stats.type)}${printing.tags ? ` (${printing.tags.join(', ')})` : ''}`,
+    `${cap(stats.size)} ${stats.swarmOf ? `swarm of ${cap(stats.swarmOf)} ${cap(stats.type)}s` : cap(stats.type)}${printing.tags ? ` (${printing.tags.join(', ')})` : ''}`,
     printing.alignment,
   ]
     .filter(Boolean)

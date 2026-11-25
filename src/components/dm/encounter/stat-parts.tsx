@@ -39,7 +39,8 @@ export function StatParts({
           case 'damage':
             return (
               <span key={key} className="tabular-nums">
-                {part.amount} ({part.roll})
+                {part.amount}
+                {part.roll === String(part.amount) ? null : ` (${part.roll})`}
                 {part.type ? (
                   <>
                     {' '}

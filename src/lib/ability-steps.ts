@@ -120,31 +120,46 @@ function attackSteps(attack: Attack, stats: AnyStatBlock): DmStep[] {
   const derived = deriveAttack(attack, stats)
   const you = isPc(stats)
   const target: DmStep =
-    attack.kind === 'melee'
+    attack.kind === 'melee' && attack.reach === 0
       ? {
           who: 'dm',
-          parts: [
-            text('Pick one target within '),
-            value(`${attack.reach} ft.`),
-            text(you ? ' (your ' : ' (its '),
-            term('reach', 'reach'),
-            text(').'),
-          ],
+          parts: [text('Pick one target in '), text(you ? 'your' : 'its'), text(' space.')],
         }
-      : {
-          who: 'dm',
-          parts: [
-            text('Pick one target within '),
-            value(`${attack.range[0]} ft.`),
-            text(you ? ' (your ' : ' (its '),
-            term('range', 'range'),
-            text('). Out to '),
-            value(`${attack.range[1]} ft.`),
-            text(you ? ' you can still shoot, with ' : ' it can still shoot, with '),
-            term('disadvantage', 'disadvantage'),
-            text('.'),
-          ],
-        }
+      : attack.kind === 'melee'
+        ? {
+            who: 'dm',
+            parts: [
+              text('Pick one target within '),
+              value(`${attack.reach} ft.`),
+              text(you ? ' (your ' : ' (its '),
+              term('reach', 'reach'),
+              ...(attack.thrown
+                ? [
+                    text('), or throw it at one within '),
+                    value(`${attack.thrown[0]} ft.`),
+                    text(', out to '),
+                    value(`${attack.thrown[1]} ft.`),
+                    text(' with '),
+                    term('disadvantage', 'disadvantage'),
+                    text('.'),
+                  ]
+                : [text(').')]),
+            ],
+          }
+        : {
+            who: 'dm',
+            parts: [
+              text('Pick one target within '),
+              value(`${attack.range[0]} ft.`),
+              text(you ? ' (your ' : ' (its '),
+              term('range', 'range'),
+              text('). Out to '),
+              value(`${attack.range[1]} ft.`),
+              text(you ? ' you can still shoot, with ' : ' it can still shoot, with '),
+              term('disadvantage', 'disadvantage'),
+              text('.'),
+            ],
+          }
   return [
     target,
     {

@@ -83,9 +83,11 @@ export function AbilitySteps({
                           </>
                         ) : null}
                         damage{' '}
-                        <span className="text-muted-foreground tabular-nums">
-                          (or roll {part.roll})
-                        </span>
+                        {part.roll === String(part.amount) ? null : (
+                          <span className="text-muted-foreground tabular-nums">
+                            (or roll {part.roll})
+                          </span>
+                        )}
                       </span>
                     )
                   case 'value':

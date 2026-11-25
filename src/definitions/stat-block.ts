@@ -45,7 +45,10 @@ export type AbilityTextToken = z.infer<typeof AbilityTextToken>
 
 /** One damage roll, e.g. `1d10` piercing plus the attacking ability modifier. */
 const Damage = z.strictObject({
-  dice: z.string().regex(/^\d+d(4|6|8|10|12|20)$/, 'Use dice like `2d6`'),
+  dice: z
+    .string()
+    .regex(/^(\d+d(4|6|8|10|12|20)|[1-9]\d*)$/, 'Use dice like `2d6`, or a fixed amount like `1`')
+    .describe('Dice to roll, or a fixed amount for damage that is never rolled, e.g. `1`'),
   type: RuleRef.describe('A damage type, e.g. `refs.rules.piercing`'),
   addModifier: z
     .boolean()
@@ -67,7 +70,16 @@ const Attack = z.discriminatedUnion('kind', [
   z.strictObject({
     kind: z.literal('melee'),
     ability: AbilityId,
-    reach: z.number().int().positive().default(5).describe('Feet'),
+    reach: z
+      .number()
+      .int()
+      .nonnegative()
+      .default(5)
+      .describe('Feet; 0 when it only reaches creatures in its own space, like a swarm'),
+    thrown: z
+      .tuple([z.number().int().positive(), z.number().int().positive()])
+      .optional()
+      .describe('Feet: a melee attack that can also be thrown, like a javelin, at this range'),
     magic: MagicBonus,
     damage: z.array(Damage).min(1),
   }),
@@ -213,6 +225,10 @@ const Source = z
 /** What every stat block has, a creature's or a PC's. */
 const statCore = {
   size: z.enum(SIZE_KEYS),
+  swarmOf: z
+    .enum(SIZE_KEYS)
+    .optional()
+    .describe('A swarm: the size of each creature in it. `size` is the whole swarm’s'),
   type: z.enum(CREATURE_TYPE_KEYS),
   ac: z.number().int().nonnegative(),
   armor: z.string().optional().describe('What gives the AC, e.g. `chain mail, shield`'),

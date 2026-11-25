@@ -115,6 +115,7 @@ function dice(notation: string) {
 
 /** Average of a dice expression plus a flat bonus, rounded down, as stat blocks print it. */
 function average(notation: string, bonus = 0) {
+  if (!notation.includes('d')) return Number(notation) + bonus
   const { count, faces } = dice(notation)
   return Math.floor((count * (faces + 1)) / 2) + bonus
 }
@@ -243,7 +244,7 @@ export function plainStatParts(parts: readonly StatPart[]) {
         case 'term':
           return part.label
         case 'damage':
-          return `${part.amount} (${part.roll})${part.type ? ` ${damageLabel(part.type)}` : ''}`
+          return `${part.amount}${part.roll === String(part.amount) ? '' : ` (${part.roll})`}${part.type ? ` ${damageLabel(part.type)}` : ''}`
       }
     })
     .join('')
