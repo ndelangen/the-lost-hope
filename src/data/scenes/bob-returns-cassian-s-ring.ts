@@ -274,6 +274,11 @@ export default createScene({
               refs.npcs.bob_the_merchant,
               ' offers his help with a problem the party will face, as payment instead. He has never seen a puzzle he could not solve: it is his greatest passion in life.',
             ],
+            [
+              'One puzzle he could help with is the laws that hold the people of ',
+              refs.locations.the_caves_of_steel,
+              '. By his own rule, his help costs someone something.',
+            ],
           ],
           followUps: [
             {
