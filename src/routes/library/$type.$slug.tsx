@@ -60,6 +60,11 @@ function LibraryEntryPage() {
   const sources = (
     <section id="sheet-sources" className="border-border grid scroll-mt-20 gap-2 border-t pt-4">
       <h2 className="text-sm font-semibold">Sources</h2>
+      {entry.selected.source && (
+        <a className="text-primary w-fit text-sm underline" href={entry.selected.source}>
+          {entry.selected.label}
+        </a>
+      )}
       {entry.selected.artReference && (
         <a className="text-primary w-fit text-sm underline" href={entry.selected.artReference}>
           Publisher artwork reference
@@ -75,10 +80,12 @@ function LibraryEntryPage() {
           See the {entry.relatedType === 'beasts' ? 'beast' : 'monster'} entry
         </Link>
       )}
-      {entry.selected.id === 'original' ? (
-        <p className="text-muted-foreground text-sm">{entry.selected.label}</p>
-      ) : (
+      {entry.selected.id === 'srd-5-1' || entry.selected.id === 'srd-5-2-1' ? (
         <LibraryAttribution versions={[entry.selected.id]} />
+      ) : (
+        !entry.selected.source && (
+          <p className="text-muted-foreground text-sm">{entry.selected.label}</p>
+        )
       )}
     </section>
   )

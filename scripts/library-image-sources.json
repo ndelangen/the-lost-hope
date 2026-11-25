@@ -285,6 +285,1776 @@
     "repositoryPath": "assets/images/content/library-release/beasts/spooltail-tern.webp"
   },
   {
+    "id": "library-54247adaabf3b13f89d6",
+    "logicalSource": "/assets/library/beasts/staged/aegisaur-54247adaabf3.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/aegisaur-54247adaabf3.png"
+  },
+  {
+    "id": "library-9094c2520aae2cc567b5",
+    "logicalSource": "/assets/library/beasts/staged/aerosaur-large-9094c2520aae.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/aerosaur-large-9094c2520aae.png"
+  },
+  {
+    "id": "library-3ba25907c5d511dfb81f",
+    "logicalSource": "/assets/library/beasts/staged/alligator-3ba25907c5d5.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/alligator-3ba25907c5d5.png"
+  },
+  {
+    "id": "library-24c4c189d95d6a43964c",
+    "logicalSource": "/assets/library/beasts/staged/alligator-turtle-24c4c189d95d.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/alligator-turtle-24c4c189d95d.webp"
+  },
+  {
+    "id": "library-bfd45c756e4462c0cb89",
+    "logicalSource": "/assets/library/beasts/staged/allosaurus-bfd45c756e44.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/allosaurus-bfd45c756e44.png"
+  },
+  {
+    "id": "library-b8bc228dad2a7fe595ce",
+    "logicalSource": "/assets/library/beasts/staged/almiraj-b8bc228dad2a.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/almiraj-b8bc228dad2a.png"
+  },
+  {
+    "id": "library-125f11553e6a19d2af0f",
+    "logicalSource": "/assets/library/beasts/staged/altisaur-125f11553e6a.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/altisaur-125f11553e6a.png"
+  },
+  {
+    "id": "library-bbe5700e86d19e311d27",
+    "logicalSource": "/assets/library/beasts/staged/ammit-bbe5700e86d1.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/ammit-bbe5700e86d1.png"
+  },
+  {
+    "id": "library-66433e363a8622d40775",
+    "logicalSource": "/assets/library/beasts/staged/amphisbaena-66433e363a86.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/amphisbaena-66433e363a86.png"
+  },
+  {
+    "id": "library-12e17f9424f85b5b94a6",
+    "logicalSource": "/assets/library/beasts/staged/ankylosaurus-12e17f9424f8.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/ankylosaurus-12e17f9424f8.png"
+  },
+  {
+    "id": "library-31554131022aca36342f",
+    "logicalSource": "/assets/library/beasts/staged/armasaur-31554131022a.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/armasaur-31554131022a.png"
+  },
+  {
+    "id": "library-1175b1f8658a85fb9e7d",
+    "logicalSource": "/assets/library/beasts/staged/armored-saber-toothed-tiger-1175b1f8658a.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/armored-saber-toothed-tiger-1175b1f8658a.png"
+  },
+  {
+    "id": "library-ec87d80c9f5b366160f4",
+    "logicalSource": "/assets/library/beasts/staged/aurochs-ec87d80c9f5b.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/aurochs-ec87d80c9f5b.png"
+  },
+  {
+    "id": "library-8f1d93629cbda13c8b5c",
+    "logicalSource": "/assets/library/beasts/staged/awakened-white-moose-8f1d93629cbd.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/awakened-white-moose-8f1d93629cbd.png"
+  },
+  {
+    "id": "library-b225968ca3114ec3371c",
+    "logicalSource": "/assets/library/beasts/staged/baboon-howler-b225968ca311.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/baboon-howler-b225968ca311.webp"
+  },
+  {
+    "id": "library-c74b6b4a727b99fec634",
+    "logicalSource": "/assets/library/beasts/staged/baloth-c74b6b4a727b.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/baloth-c74b6b4a727b.png"
+  },
+  {
+    "id": "library-4ada12f899ca3cabe46f",
+    "logicalSource": "/assets/library/beasts/staged/barnacle-bess-4ada12f899ca.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/barnacle-bess-4ada12f899ca.png"
+  },
+  {
+    "id": "library-0aa3730307a7c8fbc70a",
+    "logicalSource": "/assets/library/beasts/staged/bat-0aa3730307a7.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/bat-0aa3730307a7.png"
+  },
+  {
+    "id": "library-166fc642f25c5e161871",
+    "logicalSource": "/assets/library/beasts/staged/bat-166fc642f25c.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/bat-166fc642f25c.png"
+  },
+  {
+    "id": "library-4c4f0cc3154ec6f43e52",
+    "logicalSource": "/assets/library/beasts/staged/bat-strossen-4c4f0cc3154e.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/bat-strossen-4c4f0cc3154e.png"
+  },
+  {
+    "id": "library-6c1b809f7ee240628088",
+    "logicalSource": "/assets/library/beasts/staged/batracine-6c1b809f7ee2.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/batracine-6c1b809f7ee2.png"
+  },
+  {
+    "id": "library-329a28cbf2547515866c",
+    "logicalSource": "/assets/library/beasts/staged/beast-of-the-land-329a28cbf254.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/beast-of-the-land-329a28cbf254.png"
+  },
+  {
+    "id": "library-549b1e7112dc8d87a83e",
+    "logicalSource": "/assets/library/beasts/staged/beast-of-the-sea-549b1e7112dc.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/beast-of-the-sea-549b1e7112dc.png"
+  },
+  {
+    "id": "library-a78e800e108aa4c1b189",
+    "logicalSource": "/assets/library/beasts/staged/beast-of-the-sky-a78e800e108a.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/beast-of-the-sky-a78e800e108a.png"
+  },
+  {
+    "id": "library-008dd728f2c5eb4995a5",
+    "logicalSource": "/assets/library/beasts/staged/beetle-giant-bombardier-008dd728f2c5.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/beetle-giant-bombardier-008dd728f2c5.webp"
+  },
+  {
+    "id": "library-59d89f960b0d45418606",
+    "logicalSource": "/assets/library/beasts/staged/bestial-spirit-water-59d89f960b0d.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/bestial-spirit-water-59d89f960b0d.png"
+  },
+  {
+    "id": "library-43b589aa5f43c3e28e1a",
+    "logicalSource": "/assets/library/beasts/staged/bhaal-ravager-43b589aa5f43.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/bhaal-ravager-43b589aa5f43.png"
+  },
+  {
+    "id": "library-15d056f509371ea34333",
+    "logicalSource": "/assets/library/beasts/staged/birdsquirrel-15d056f50937.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/birdsquirrel-15d056f50937.png"
+  },
+  {
+    "id": "library-b84cd8f63b58308abcd1",
+    "logicalSource": "/assets/library/beasts/staged/bison-b84cd8f63b58.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/bison-b84cd8f63b58.png"
+  },
+  {
+    "id": "library-039517fda89aa08d2ed5",
+    "logicalSource": "/assets/library/beasts/staged/black-bear-039517fda89a.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/black-bear-039517fda89a.png"
+  },
+  {
+    "id": "library-2ce8b3b947efa795ec44",
+    "logicalSource": "/assets/library/beasts/staged/black-bear-2ce8b3b947ef.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/black-bear-2ce8b3b947ef.webp"
+  },
+  {
+    "id": "library-9b7699396b96d41b36d0",
+    "logicalSource": "/assets/library/beasts/staged/black-bear-9b7699396b96.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/black-bear-9b7699396b96.png"
+  },
+  {
+    "id": "library-6faecf7259f4161db786",
+    "logicalSource": "/assets/library/beasts/staged/blood-hawk-6faecf7259f4.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/blood-hawk-6faecf7259f4.webp"
+  },
+  {
+    "id": "library-c77a0ce92dc5da93b70b",
+    "logicalSource": "/assets/library/beasts/staged/blood-hawk-c77a0ce92dc5.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/blood-hawk-c77a0ce92dc5.png"
+  },
+  {
+    "id": "library-ecf4f857363ddc93c741",
+    "logicalSource": "/assets/library/beasts/staged/boontu-monkey-ecf4f857363d.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/boontu-monkey-ecf4f857363d.png"
+  },
+  {
+    "id": "library-30cf8b745118022f92ba",
+    "logicalSource": "/assets/library/beasts/staged/bristled-moorbounder-30cf8b745118.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/bristled-moorbounder-30cf8b745118.png"
+  },
+  {
+    "id": "library-c8b574189947b866f03b",
+    "logicalSource": "/assets/library/beasts/staged/brontodon-c8b574189947.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/brontodon-c8b574189947.png"
+  },
+  {
+    "id": "library-149c7c9f76a91e37a7f6",
+    "logicalSource": "/assets/library/beasts/staged/brontosaurus-149c7c9f76a9.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/brontosaurus-149c7c9f76a9.png"
+  },
+  {
+    "id": "library-4520d535cfed0d405c01",
+    "logicalSource": "/assets/library/beasts/staged/brown-bear-4520d535cfed.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/brown-bear-4520d535cfed.png"
+  },
+  {
+    "id": "library-84dd7b07d9e13c07400a",
+    "logicalSource": "/assets/library/beasts/staged/brown-bear-84dd7b07d9e1.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/brown-bear-84dd7b07d9e1.webp"
+  },
+  {
+    "id": "library-1fde3ddb189607a2349c",
+    "logicalSource": "/assets/library/beasts/staged/bull-1fde3ddb1896.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/bull-1fde3ddb1896.webp"
+  },
+  {
+    "id": "library-08b0422f73b2faece20c",
+    "logicalSource": "/assets/library/beasts/staged/camel-cavalry-08b0422f73b2.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/camel-cavalry-08b0422f73b2.png"
+  },
+  {
+    "id": "library-6c34cb9cd21cd65a0332",
+    "logicalSource": "/assets/library/beasts/staged/caniquine-6c34cb9cd21c.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/caniquine-6c34cb9cd21c.png"
+  },
+  {
+    "id": "library-839ed684fa8a9c5c401e",
+    "logicalSource": "/assets/library/beasts/staged/cat-839ed684fa8a.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/cat-839ed684fa8a.png"
+  },
+  {
+    "id": "library-f5931b59d47a27194020",
+    "logicalSource": "/assets/library/beasts/staged/cat-f5931b59d47a.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/cat-f5931b59d47a.webp"
+  },
+  {
+    "id": "library-f5d280e94f25891b4ab4",
+    "logicalSource": "/assets/library/beasts/staged/cat-f5d280e94f25.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/cat-f5d280e94f25.png"
+  },
+  {
+    "id": "library-f6d3312c593e7399bb00",
+    "logicalSource": "/assets/library/beasts/staged/cave-bear-f6d3312c593e.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/cave-bear-f6d3312c593e.png"
+  },
+  {
+    "id": "library-6dfc38218f876e1adb5b",
+    "logicalSource": "/assets/library/beasts/staged/ceratops-6dfc38218f87.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/ceratops-6dfc38218f87.png"
+  },
+  {
+    "id": "library-31cf6434c41e3a28ac4b",
+    "logicalSource": "/assets/library/beasts/staged/cerodon-31cf6434c41e.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/cerodon-31cf6434c41e.png"
+  },
+  {
+    "id": "library-253a3782fe008ff5bda0",
+    "logicalSource": "/assets/library/beasts/staged/cheetah-253a3782fe00.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/cheetah-253a3782fe00.webp"
+  },
+  {
+    "id": "library-7d5b281a535eac98e634",
+    "logicalSource": "/assets/library/beasts/staged/chimeric-baboon-7d5b281a535e.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/chimeric-baboon-7d5b281a535e.png"
+  },
+  {
+    "id": "library-1f74d47bd239c26d22e7",
+    "logicalSource": "/assets/library/beasts/staged/chimeric-cat-1f74d47bd239.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/chimeric-cat-1f74d47bd239.png"
+  },
+  {
+    "id": "library-2730def9de283410cd05",
+    "logicalSource": "/assets/library/beasts/staged/chimeric-fox-2730def9de28.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/chimeric-fox-2730def9de28.png"
+  },
+  {
+    "id": "library-a146ff14899ba6ddb738",
+    "logicalSource": "/assets/library/beasts/staged/chimeric-hare-a146ff14899b.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/chimeric-hare-a146ff14899b.png"
+  },
+  {
+    "id": "library-efbd844c3e31b69b04d2",
+    "logicalSource": "/assets/library/beasts/staged/chimeric-rat-efbd844c3e31.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/chimeric-rat-efbd844c3e31.png"
+  },
+  {
+    "id": "library-d8407f2ad8def0bc7b68",
+    "logicalSource": "/assets/library/beasts/staged/chimeric-weasel-d8407f2ad8de.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/chimeric-weasel-d8407f2ad8de.png"
+  },
+  {
+    "id": "library-6d44d09c42b4f34c9f4e",
+    "logicalSource": "/assets/library/beasts/staged/cinnavixen-6d44d09c42b4.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/cinnavixen-6d44d09c42b4.png"
+  },
+  {
+    "id": "library-906e39e0317fbb67825e",
+    "logicalSource": "/assets/library/beasts/staged/clawfoot-906e39e0317f.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/clawfoot-906e39e0317f.png"
+  },
+  {
+    "id": "library-53da6c1ba7909b5a9cfa",
+    "logicalSource": "/assets/library/beasts/staged/constrictor-snake-53da6c1ba790.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/constrictor-snake-53da6c1ba790.png"
+  },
+  {
+    "id": "library-e9370a4138802fef9092",
+    "logicalSource": "/assets/library/beasts/staged/constrictor-snake-e9370a413880.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/constrictor-snake-e9370a413880.webp"
+  },
+  {
+    "id": "library-00e313bb36a771a427b1",
+    "logicalSource": "/assets/library/beasts/staged/cooshee-mastiff-00e313bb36a7.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/cooshee-mastiff-00e313bb36a7.png"
+  },
+  {
+    "id": "library-e6b6f184622ea2a6770a",
+    "logicalSource": "/assets/library/beasts/staged/cow-e6b6f184622e.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/cow-e6b6f184622e.png"
+  },
+  {
+    "id": "library-da0e610eda41d06d6059",
+    "logicalSource": "/assets/library/beasts/staged/cranium-rat-da0e610eda41.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/cranium-rat-da0e610eda41.png"
+  },
+  {
+    "id": "library-033c73c9e3369952909c",
+    "logicalSource": "/assets/library/beasts/staged/deathjump-spider-033c73c9e336.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/deathjump-spider-033c73c9e336.webp"
+  },
+  {
+    "id": "library-c295a1c3bb90af78ac2b",
+    "logicalSource": "/assets/library/beasts/staged/deep-rothe-c295a1c3bb90.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/deep-rothe-c295a1c3bb90.png"
+  },
+  {
+    "id": "library-f699c94cf67afc29e309",
+    "logicalSource": "/assets/library/beasts/staged/deep-spider-f699c94cf67a.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/deep-spider-f699c94cf67a.png"
+  },
+  {
+    "id": "library-06baf714aa1a045652bb",
+    "logicalSource": "/assets/library/beasts/staged/diatryma-06baf714aa1a.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/diatryma-06baf714aa1a.png"
+  },
+  {
+    "id": "library-bf9f8e99b77e74bef6bf",
+    "logicalSource": "/assets/library/beasts/staged/dimetrodon-bf9f8e99b77e.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/dimetrodon-bf9f8e99b77e.png"
+  },
+  {
+    "id": "library-d9a6dc2eed0f1e497a57",
+    "logicalSource": "/assets/library/beasts/staged/dinosaur-spirit-ankylosaur-d9a6dc2eed0f.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/dinosaur-spirit-ankylosaur-d9a6dc2eed0f.png"
+  },
+  {
+    "id": "library-046d92d9efd0e06be7db",
+    "logicalSource": "/assets/library/beasts/staged/dinosaur-spirit-triceratops-046d92d9efd0.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/dinosaur-spirit-triceratops-046d92d9efd0.png"
+  },
+  {
+    "id": "library-b4e218fb42376bbff8c6",
+    "logicalSource": "/assets/library/beasts/staged/dinosaur-spirit-tyrannosaur-b4e218fb4237.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/dinosaur-spirit-tyrannosaur-b4e218fb4237.png"
+  },
+  {
+    "id": "library-4a5f84fff3f12fe2c7fd",
+    "logicalSource": "/assets/library/beasts/staged/dinosaur-velociraptor-4a5f84fff3f1.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/dinosaur-velociraptor-4a5f84fff3f1.webp"
+  },
+  {
+    "id": "library-129fb4d7249a6a78c558",
+    "logicalSource": "/assets/library/beasts/staged/dire-ape-129fb4d7249a.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/dire-ape-129fb4d7249a.webp"
+  },
+  {
+    "id": "library-32a67b10a55ed6aa9dc9",
+    "logicalSource": "/assets/library/beasts/staged/dire-badger-32a67b10a55e.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/dire-badger-32a67b10a55e.webp"
+  },
+  {
+    "id": "library-cf197320afdbe323a8bf",
+    "logicalSource": "/assets/library/beasts/staged/dire-bat-cf197320afdb.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/dire-bat-cf197320afdb.webp"
+  },
+  {
+    "id": "library-2cfb04880a3e62b70030",
+    "logicalSource": "/assets/library/beasts/staged/dire-bear-2cfb04880a3e.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/dire-bear-2cfb04880a3e.webp"
+  },
+  {
+    "id": "library-a2923e488874b6d31bab",
+    "logicalSource": "/assets/library/beasts/staged/dire-bear-a2923e488874.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/dire-bear-a2923e488874.png"
+  },
+  {
+    "id": "library-a7128942891a5e259740",
+    "logicalSource": "/assets/library/beasts/staged/dire-boar-a7128942891a.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/dire-boar-a7128942891a.webp"
+  },
+  {
+    "id": "library-721cca6d4953ce7f76df",
+    "logicalSource": "/assets/library/beasts/staged/dire-lion-721cca6d4953.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/dire-lion-721cca6d4953.webp"
+  },
+  {
+    "id": "library-b760bc30296688082fde",
+    "logicalSource": "/assets/library/beasts/staged/dire-rat-b760bc302966.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/dire-rat-b760bc302966.webp"
+  },
+  {
+    "id": "library-1209bda61c6524eefc15",
+    "logicalSource": "/assets/library/beasts/staged/dire-shark-1209bda61c65.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/dire-shark-1209bda61c65.webp"
+  },
+  {
+    "id": "library-a27de36b5fc3cf870645",
+    "logicalSource": "/assets/library/beasts/staged/dire-tiger-a27de36b5fc3.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/dire-tiger-a27de36b5fc3.webp"
+  },
+  {
+    "id": "library-6c2ffd11e1190753029b",
+    "logicalSource": "/assets/library/beasts/staged/dire-weasel-6c2ffd11e119.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/dire-weasel-6c2ffd11e119.png"
+  },
+  {
+    "id": "library-1158da2a59e3af0d967e",
+    "logicalSource": "/assets/library/beasts/staged/dire-wolf-1158da2a59e3.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/dire-wolf-1158da2a59e3.png"
+  },
+  {
+    "id": "library-d20eed104a1438e881e4",
+    "logicalSource": "/assets/library/beasts/staged/dire-wolf-d20eed104a14.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/dire-wolf-d20eed104a14.webp"
+  },
+  {
+    "id": "library-9f193036f14876ad8eee",
+    "logicalSource": "/assets/library/beasts/staged/dire-wolverine-9f193036f148.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/dire-wolverine-9f193036f148.webp"
+  },
+  {
+    "id": "library-04ad7363d846e0cd2519",
+    "logicalSource": "/assets/library/beasts/staged/dolphin-04ad7363d846.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/dolphin-04ad7363d846.png"
+  },
+  {
+    "id": "library-f10a084216e4f77366b0",
+    "logicalSource": "/assets/library/beasts/staged/donkey-f10a084216e4.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/donkey-f10a084216e4.webp"
+  },
+  {
+    "id": "library-34a08aa6cfebeeb61e19",
+    "logicalSource": "/assets/library/beasts/staged/draft-horse-34a08aa6cfeb.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/draft-horse-34a08aa6cfeb.png"
+  },
+  {
+    "id": "library-7c88a9aaf7957b28ae85",
+    "logicalSource": "/assets/library/beasts/staged/draft-horse-7c88a9aaf795.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/draft-horse-7c88a9aaf795.webp"
+  },
+  {
+    "id": "library-5c37ceb0d8ddd13add24",
+    "logicalSource": "/assets/library/beasts/staged/drake-large-5c37ceb0d8dd.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/drake-large-5c37ceb0d8dd.png"
+  },
+  {
+    "id": "library-9525a7ed36c8130cb110",
+    "logicalSource": "/assets/library/beasts/staged/drake-large-9525a7ed36c8.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/drake-large-9525a7ed36c8.png"
+  },
+  {
+    "id": "library-ab83566d5bc3d712d7c3",
+    "logicalSource": "/assets/library/beasts/staged/echyan-ab83566d5bc3.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/echyan-ab83566d5bc3.png"
+  },
+  {
+    "id": "library-6a90b8f752c662273e50",
+    "logicalSource": "/assets/library/beasts/staged/elasmosaurus-6a90b8f752c6.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/elasmosaurus-6a90b8f752c6.webp"
+  },
+  {
+    "id": "library-5b76fb82634885297816",
+    "logicalSource": "/assets/library/beasts/staged/enormous-tentacle-5b76fb826348.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/enormous-tentacle-5b76fb826348.png"
+  },
+  {
+    "id": "library-619a21c311b996b72428",
+    "logicalSource": "/assets/library/beasts/staged/falcon-619a21c311b9.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/falcon-619a21c311b9.png"
+  },
+  {
+    "id": "library-a3017c0bafb6606006e3",
+    "logicalSource": "/assets/library/beasts/staged/fastieth-a3017c0bafb6.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/fastieth-a3017c0bafb6.png"
+  },
+  {
+    "id": "library-58aab3d368d394522f56",
+    "logicalSource": "/assets/library/beasts/staged/feliquine-58aab3d368d3.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/feliquine-58aab3d368d3.png"
+  },
+  {
+    "id": "library-b11c39c63ec3f19c38c7",
+    "logicalSource": "/assets/library/beasts/staged/female-steeder-b11c39c63ec3.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/female-steeder-b11c39c63ec3.png"
+  },
+  {
+    "id": "library-f69cff654030d127b447",
+    "logicalSource": "/assets/library/beasts/staged/ferocidon-f69cff654030.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/ferocidon-f69cff654030.png"
+  },
+  {
+    "id": "library-69935e2171f2c5a2383c",
+    "logicalSource": "/assets/library/beasts/staged/fire-beetles-69935e2171f2.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/fire-beetles-69935e2171f2.webp"
+  },
+  {
+    "id": "library-81dcd954b965016ada33",
+    "logicalSource": "/assets/library/beasts/staged/fire-stirge-81dcd954b965.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/fire-stirge-81dcd954b965.webp"
+  },
+  {
+    "id": "library-eb61d1765250b9c69e1f",
+    "logicalSource": "/assets/library/beasts/staged/fish-eb61d1765250.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/fish-eb61d1765250.png"
+  },
+  {
+    "id": "library-3154dcbc49c9d07e4259",
+    "logicalSource": "/assets/library/beasts/staged/flying-monkey-3154dcbc49c9.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/flying-monkey-3154dcbc49c9.png"
+  },
+  {
+    "id": "library-3f3c80de23cb7db96934",
+    "logicalSource": "/assets/library/beasts/staged/flying-snake-3f3c80de23cb.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/flying-snake-3f3c80de23cb.webp"
+  },
+  {
+    "id": "library-c18f8bdfa42fff72a1a9",
+    "logicalSource": "/assets/library/beasts/staged/flying-snake-c18f8bdfa42f.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/flying-snake-c18f8bdfa42f.png"
+  },
+  {
+    "id": "library-1e53c70fcf1190fe22b6",
+    "logicalSource": "/assets/library/beasts/staged/forest-falcon-1e53c70fcf11.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/forest-falcon-1e53c70fcf11.webp"
+  },
+  {
+    "id": "library-33fb5fe5a708eaffa1bd",
+    "logicalSource": "/assets/library/beasts/staged/fox-33fb5fe5a708.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/fox-33fb5fe5a708.png"
+  },
+  {
+    "id": "library-1ec9284dbeb4d765349b",
+    "logicalSource": "/assets/library/beasts/staged/frederick-mastiff-1ec9284dbeb4.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/frederick-mastiff-1ec9284dbeb4.png"
+  },
+  {
+    "id": "library-159e14474330fbeec814",
+    "logicalSource": "/assets/library/beasts/staged/frilled-deathspitter-159e14474330.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/frilled-deathspitter-159e14474330.png"
+  },
+  {
+    "id": "library-7751179636ae562d8520",
+    "logicalSource": "/assets/library/beasts/staged/frog-giant-poisonous-7751179636ae.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/frog-giant-poisonous-7751179636ae.webp"
+  },
+  {
+    "id": "library-9b0f85a5cfa152fa7879",
+    "logicalSource": "/assets/library/beasts/staged/giant-ape-9b0f85a5cfa1.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-ape-9b0f85a5cfa1.png"
+  },
+  {
+    "id": "library-ed824c2481df3b7cc8c1",
+    "logicalSource": "/assets/library/beasts/staged/giant-ape-ed824c2481df.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-ape-ed824c2481df.webp"
+  },
+  {
+    "id": "library-4cfab667484e7d64855a",
+    "logicalSource": "/assets/library/beasts/staged/giant-badger-4cfab667484e.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-badger-4cfab667484e.webp"
+  },
+  {
+    "id": "library-73873c0bfe4ef8d32df6",
+    "logicalSource": "/assets/library/beasts/staged/giant-badger-73873c0bfe4e.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-badger-73873c0bfe4e.png"
+  },
+  {
+    "id": "library-dfc95d54d9735103e1fa",
+    "logicalSource": "/assets/library/beasts/staged/giant-badger-dfc95d54d973.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-badger-dfc95d54d973.png"
+  },
+  {
+    "id": "library-84653e2ce0d1ee7b3515",
+    "logicalSource": "/assets/library/beasts/staged/giant-bat-84653e2ce0d1.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-bat-84653e2ce0d1.webp"
+  },
+  {
+    "id": "library-c50887fca84051934f81",
+    "logicalSource": "/assets/library/beasts/staged/giant-bat-c50887fca840.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-bat-c50887fca840.png"
+  },
+  {
+    "id": "library-23b92de96b14d9e3e08e",
+    "logicalSource": "/assets/library/beasts/staged/giant-boar-23b92de96b14.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-boar-23b92de96b14.png"
+  },
+  {
+    "id": "library-d465c22a5df0bdf3ee7c",
+    "logicalSource": "/assets/library/beasts/staged/giant-boar-d465c22a5df0.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-boar-d465c22a5df0.webp"
+  },
+  {
+    "id": "library-65a717519a628b5b71df",
+    "logicalSource": "/assets/library/beasts/staged/giant-bumblebee-65a717519a62.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-bumblebee-65a717519a62.webp"
+  },
+  {
+    "id": "library-895b42de5408c1d35cb8",
+    "logicalSource": "/assets/library/beasts/staged/giant-canary-895b42de5408.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-canary-895b42de5408.png"
+  },
+  {
+    "id": "library-0637e43b2a2e849d9932",
+    "logicalSource": "/assets/library/beasts/staged/giant-constrictor-snake-0637e43b2a2e.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-constrictor-snake-0637e43b2a2e.png"
+  },
+  {
+    "id": "library-2156e2fd298bbcf5b77c",
+    "logicalSource": "/assets/library/beasts/staged/giant-constrictor-snake-2156e2fd298b.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-constrictor-snake-2156e2fd298b.webp"
+  },
+  {
+    "id": "library-36b6cc660cc571b534c7",
+    "logicalSource": "/assets/library/beasts/staged/giant-constrictor-snake-36b6cc660cc5.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-constrictor-snake-36b6cc660cc5.png"
+  },
+  {
+    "id": "library-766274e34d67e209f7e5",
+    "logicalSource": "/assets/library/beasts/staged/giant-coral-snake-766274e34d67.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-coral-snake-766274e34d67.png"
+  },
+  {
+    "id": "library-95e07738ab5dfb1de4a6",
+    "logicalSource": "/assets/library/beasts/staged/giant-crab-95e07738ab5d.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-crab-95e07738ab5d.png"
+  },
+  {
+    "id": "library-e4793e097140b0dd2ce7",
+    "logicalSource": "/assets/library/beasts/staged/giant-crab-e4793e097140.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-crab-e4793e097140.webp"
+  },
+  {
+    "id": "library-afb3e7d796c0ad594d68",
+    "logicalSource": "/assets/library/beasts/staged/giant-crayfish-afb3e7d796c0.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-crayfish-afb3e7d796c0.png"
+  },
+  {
+    "id": "library-47c163be19bce15b8b37",
+    "logicalSource": "/assets/library/beasts/staged/giant-crocodile-47c163be19bc.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-crocodile-47c163be19bc.png"
+  },
+  {
+    "id": "library-e4d6edea0beb5fefb23b",
+    "logicalSource": "/assets/library/beasts/staged/giant-crocodile-e4d6edea0beb.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-crocodile-e4d6edea0beb.webp"
+  },
+  {
+    "id": "library-bf7e624f93e2e8b70203",
+    "logicalSource": "/assets/library/beasts/staged/giant-dragonfly-bf7e624f93e2.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-dragonfly-bf7e624f93e2.png"
+  },
+  {
+    "id": "library-45aad2129dd6054a5dc5",
+    "logicalSource": "/assets/library/beasts/staged/giant-eagle-45aad2129dd6.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-eagle-45aad2129dd6.png"
+  },
+  {
+    "id": "library-4e2e41e58b04feb5c8eb",
+    "logicalSource": "/assets/library/beasts/staged/giant-eagle-4e2e41e58b04.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-eagle-4e2e41e58b04.webp"
+  },
+  {
+    "id": "library-d2e302ad06847383fe3b",
+    "logicalSource": "/assets/library/beasts/staged/giant-eagle-d2e302ad0684.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-eagle-d2e302ad0684.png"
+  },
+  {
+    "id": "library-61e93218ed82625c7214",
+    "logicalSource": "/assets/library/beasts/staged/giant-elk-61e93218ed82.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-elk-61e93218ed82.webp"
+  },
+  {
+    "id": "library-7c4d9668b327a21ce3b1",
+    "logicalSource": "/assets/library/beasts/staged/giant-elk-7c4d9668b327.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-elk-7c4d9668b327.png"
+  },
+  {
+    "id": "library-e6653abc2af1443c5cc4",
+    "logicalSource": "/assets/library/beasts/staged/giant-fly-e6653abc2af1.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-fly-e6653abc2af1.png"
+  },
+  {
+    "id": "library-aecc41d9327a73f2f199",
+    "logicalSource": "/assets/library/beasts/staged/giant-flying-spider-aecc41d9327a.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-flying-spider-aecc41d9327a.png"
+  },
+  {
+    "id": "library-9a7d088b8678ccf62b0e",
+    "logicalSource": "/assets/library/beasts/staged/giant-frog-9a7d088b8678.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-frog-9a7d088b8678.png"
+  },
+  {
+    "id": "library-dc1c59560c0df21c88af",
+    "logicalSource": "/assets/library/beasts/staged/giant-frog-dc1c59560c0d.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-frog-dc1c59560c0d.webp"
+  },
+  {
+    "id": "library-45321fd1c552698a5534",
+    "logicalSource": "/assets/library/beasts/staged/giant-goat-45321fd1c552.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-goat-45321fd1c552.png"
+  },
+  {
+    "id": "library-49b758d06d9fc514b574",
+    "logicalSource": "/assets/library/beasts/staged/giant-goat-49b758d06d9f.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-goat-49b758d06d9f.webp"
+  },
+  {
+    "id": "library-a7ee4c181b196dedb320",
+    "logicalSource": "/assets/library/beasts/staged/giant-honey-bee-soldier-a7ee4c181b19.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-honey-bee-soldier-a7ee4c181b19.webp"
+  },
+  {
+    "id": "library-bd0d63cdfd57ecc5e151",
+    "logicalSource": "/assets/library/beasts/staged/giant-honey-bee-worker-bd0d63cdfd57.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-honey-bee-worker-bd0d63cdfd57.webp"
+  },
+  {
+    "id": "library-8d08d4181ef580c2acda",
+    "logicalSource": "/assets/library/beasts/staged/giant-hyena-8d08d4181ef5.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-hyena-8d08d4181ef5.webp"
+  },
+  {
+    "id": "library-e79074ef555e40476e54",
+    "logicalSource": "/assets/library/beasts/staged/giant-hyena-e79074ef555e.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-hyena-e79074ef555e.png"
+  },
+  {
+    "id": "library-206faa150481684f6231",
+    "logicalSource": "/assets/library/beasts/staged/giant-insect-centipede-206faa150481.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-insect-centipede-206faa150481.webp"
+  },
+  {
+    "id": "library-e18bf105507255bbc522",
+    "logicalSource": "/assets/library/beasts/staged/giant-insect-e18bf1055072.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-insect-e18bf1055072.png"
+  },
+  {
+    "id": "library-7fd7182ff9c8441f472c",
+    "logicalSource": "/assets/library/beasts/staged/giant-insect-spider-7fd7182ff9c8.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-insect-spider-7fd7182ff9c8.png"
+  },
+  {
+    "id": "library-c401c2abb5ee459cb96c",
+    "logicalSource": "/assets/library/beasts/staged/giant-insect-wasp-c401c2abb5ee.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-insect-wasp-c401c2abb5ee.png"
+  },
+  {
+    "id": "library-6861b14702b7b25d0353",
+    "logicalSource": "/assets/library/beasts/staged/giant-lightning-eel-6861b14702b7.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-lightning-eel-6861b14702b7.webp"
+  },
+  {
+    "id": "library-2498ee3dfe40193cbd9d",
+    "logicalSource": "/assets/library/beasts/staged/giant-lizard-2498ee3dfe40.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-lizard-2498ee3dfe40.png"
+  },
+  {
+    "id": "library-e104c2d92ea6df0d0c4b",
+    "logicalSource": "/assets/library/beasts/staged/giant-lizard-e104c2d92ea6.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-lizard-e104c2d92ea6.webp"
+  },
+  {
+    "id": "library-d337638b8b6b403f2903",
+    "logicalSource": "/assets/library/beasts/staged/giant-lizard-hold-breath-and-spider-climb-d337638b8b6b.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-lizard-hold-breath-and-spider-climb-d337638b8b6b.webp"
+  },
+  {
+    "id": "library-13421ff75d696948927b",
+    "logicalSource": "/assets/library/beasts/staged/giant-octopus-13421ff75d69.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-octopus-13421ff75d69.png"
+  },
+  {
+    "id": "library-365a84d443b2a653f30d",
+    "logicalSource": "/assets/library/beasts/staged/giant-octopus-365a84d443b2.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-octopus-365a84d443b2.png"
+  },
+  {
+    "id": "library-42ca7fdcd1f3cd93c508",
+    "logicalSource": "/assets/library/beasts/staged/giant-octopus-42ca7fdcd1f3.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-octopus-42ca7fdcd1f3.png"
+  },
+  {
+    "id": "library-a22bdb33b47b5f178141",
+    "logicalSource": "/assets/library/beasts/staged/giant-octopus-a22bdb33b47b.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-octopus-a22bdb33b47b.webp"
+  },
+  {
+    "id": "library-5a986cd463741a04c04c",
+    "logicalSource": "/assets/library/beasts/staged/giant-owl-5a986cd46374.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-owl-5a986cd46374.png"
+  },
+  {
+    "id": "library-ab0d25636c2d775c69a4",
+    "logicalSource": "/assets/library/beasts/staged/giant-owl-ab0d25636c2d.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-owl-ab0d25636c2d.webp"
+  },
+  {
+    "id": "library-ad9e304223c25c1ab07c",
+    "logicalSource": "/assets/library/beasts/staged/giant-owl-ad9e304223c2.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-owl-ad9e304223c2.png"
+  },
+  {
+    "id": "library-5503a0af95e2109343ae",
+    "logicalSource": "/assets/library/beasts/staged/giant-poisonous-snake-5503a0af95e2.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-poisonous-snake-5503a0af95e2.webp"
+  },
+  {
+    "id": "library-3e30f432990da5cab550",
+    "logicalSource": "/assets/library/beasts/staged/giant-rat-3e30f432990d.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-rat-3e30f432990d.webp"
+  },
+  {
+    "id": "library-5b455816adf4ba786df1",
+    "logicalSource": "/assets/library/beasts/staged/giant-rat-5b455816adf4.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-rat-5b455816adf4.png"
+  },
+  {
+    "id": "library-74741b49df46b52cf487",
+    "logicalSource": "/assets/library/beasts/staged/giant-sea-eel-74741b49df46.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-sea-eel-74741b49df46.png"
+  },
+  {
+    "id": "library-91b2d6e0084ee78cf1c1",
+    "logicalSource": "/assets/library/beasts/staged/giant-seahorse-91b2d6e0084e.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-seahorse-91b2d6e0084e.webp"
+  },
+  {
+    "id": "library-56aaba51f1a9c9bf6a03",
+    "logicalSource": "/assets/library/beasts/staged/giant-shark-56aaba51f1a9.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-shark-56aaba51f1a9.png"
+  },
+  {
+    "id": "library-6f25152dfad729848372",
+    "logicalSource": "/assets/library/beasts/staged/giant-shark-6f25152dfad7.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-shark-6f25152dfad7.webp"
+  },
+  {
+    "id": "library-1ef5c2e1dd40b167689a",
+    "logicalSource": "/assets/library/beasts/staged/giant-snail-1ef5c2e1dd40.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-snail-1ef5c2e1dd40.png"
+  },
+  {
+    "id": "library-c0052ecb2b70097da1ec",
+    "logicalSource": "/assets/library/beasts/staged/giant-snapping-turtle-c0052ecb2b70.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-snapping-turtle-c0052ecb2b70.png"
+  },
+  {
+    "id": "library-352dd13b0bbe8c73b2e8",
+    "logicalSource": "/assets/library/beasts/staged/giant-space-hamster-352dd13b0bbe.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-space-hamster-352dd13b0bbe.png"
+  },
+  {
+    "id": "library-1c601046488972770899",
+    "logicalSource": "/assets/library/beasts/staged/giant-spider-1c6010464889.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-spider-1c6010464889.webp"
+  },
+  {
+    "id": "library-e09482c1c431b025fb5a",
+    "logicalSource": "/assets/library/beasts/staged/giant-spider-e09482c1c431.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-spider-e09482c1c431.png"
+  },
+  {
+    "id": "library-9adef0cbd548d35a0ece",
+    "logicalSource": "/assets/library/beasts/staged/giant-squid-9adef0cbd548.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-squid-9adef0cbd548.png"
+  },
+  {
+    "id": "library-1cb387f2b1e49530b47b",
+    "logicalSource": "/assets/library/beasts/staged/giant-subterranean-lizard-1cb387f2b1e4.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-subterranean-lizard-1cb387f2b1e4.png"
+  },
+  {
+    "id": "library-0db71079a06d7ad7d94a",
+    "logicalSource": "/assets/library/beasts/staged/giant-swan-0db71079a06d.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-swan-0db71079a06d.png"
+  },
+  {
+    "id": "library-b7466292a68336d9a1d2",
+    "logicalSource": "/assets/library/beasts/staged/giant-two-headed-goat-b7466292a683.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-two-headed-goat-b7466292a683.png"
+  },
+  {
+    "id": "library-ba12ab680b5c88624cc6",
+    "logicalSource": "/assets/library/beasts/staged/giant-vulture-ba12ab680b5c.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-vulture-ba12ab680b5c.png"
+  },
+  {
+    "id": "library-e586cb9345eadfe6e4d6",
+    "logicalSource": "/assets/library/beasts/staged/giant-vulture-e586cb9345ea.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-vulture-e586cb9345ea.webp"
+  },
+  {
+    "id": "library-00429d9def80d7ac8a64",
+    "logicalSource": "/assets/library/beasts/staged/giant-walrus-00429d9def80.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-walrus-00429d9def80.png"
+  },
+  {
+    "id": "library-0b8089dff87ed8f23037",
+    "logicalSource": "/assets/library/beasts/staged/giant-weasel-0b8089dff87e.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-weasel-0b8089dff87e.webp"
+  },
+  {
+    "id": "library-67bb74e2d5d57fdba15f",
+    "logicalSource": "/assets/library/beasts/staged/giant-weasel-67bb74e2d5d5.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-weasel-67bb74e2d5d5.png"
+  },
+  {
+    "id": "library-c66f342177e7cefdbaa8",
+    "logicalSource": "/assets/library/beasts/staged/giant-white-moray-eel-c66f342177e7.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-white-moray-eel-c66f342177e7.png"
+  },
+  {
+    "id": "library-31c99f8b34b3046fb308",
+    "logicalSource": "/assets/library/beasts/staged/giant-wolf-spider-31c99f8b34b3.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-wolf-spider-31c99f8b34b3.webp"
+  },
+  {
+    "id": "library-771ba99eb9e46aa977ea",
+    "logicalSource": "/assets/library/beasts/staged/giant-wolf-spider-771ba99eb9e4.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-wolf-spider-771ba99eb9e4.png"
+  },
+  {
+    "id": "library-9165ee1c4111c8e74e66",
+    "logicalSource": "/assets/library/beasts/staged/gishath-suns-avatar-9165ee1c4111.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/gishath-suns-avatar-9165ee1c4111.png"
+  },
+  {
+    "id": "library-ceb5c1cdaa7937e00b0c",
+    "logicalSource": "/assets/library/beasts/staged/gnarlid-ceb5c1cdaa79.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/gnarlid-ceb5c1cdaa79.png"
+  },
+  {
+    "id": "library-f08a64bca203c144a701",
+    "logicalSource": "/assets/library/beasts/staged/golden-stag-f08a64bca203.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/golden-stag-f08a64bca203.png"
+  },
+  {
+    "id": "library-665be0ad0fbc644e52f1",
+    "logicalSource": "/assets/library/beasts/staged/gray-wolves-665be0ad0fbc.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/gray-wolves-665be0ad0fbc.webp"
+  },
+  {
+    "id": "library-517b7591ffcf480f2c97",
+    "logicalSource": "/assets/library/beasts/staged/great-cat-517b7591ffcf.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/great-cat-517b7591ffcf.png"
+  },
+  {
+    "id": "library-ed51d32dc7fe44e635b8",
+    "logicalSource": "/assets/library/beasts/staged/gremlin-ed51d32dc7fe.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/gremlin-ed51d32dc7fe.png"
+  },
+  {
+    "id": "library-7a700ff016a101d30708",
+    "logicalSource": "/assets/library/beasts/staged/griffon-mcdm-7a700ff016a1.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/griffon-mcdm-7a700ff016a1.png"
+  },
+  {
+    "id": "library-fd888bcd265eb669c682",
+    "logicalSource": "/assets/library/beasts/staged/grove-bear-fd888bcd265e.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/grove-bear-fd888bcd265e.webp"
+  },
+  {
+    "id": "library-55b5fbe4a9c23452a552",
+    "logicalSource": "/assets/library/beasts/staged/guard-dog-wolf-55b5fbe4a9c2.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/guard-dog-wolf-55b5fbe4a9c2.webp"
+  },
+  {
+    "id": "library-1c2e141487aad507b22f",
+    "logicalSource": "/assets/library/beasts/staged/guard-drake-1c2e141487aa.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/guard-drake-1c2e141487aa.webp"
+  },
+  {
+    "id": "library-355da53aacf6b3acedd5",
+    "logicalSource": "/assets/library/beasts/staged/hadrosaur-355da53aacf6.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/hadrosaur-355da53aacf6.png"
+  },
+  {
+    "id": "library-de2622feb0d340b12706",
+    "logicalSource": "/assets/library/beasts/staged/hadrosaurus-de2622feb0d3.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/hadrosaurus-de2622feb0d3.png"
+  },
+  {
+    "id": "library-ed6ff28ed30a36c49c8f",
+    "logicalSource": "/assets/library/beasts/staged/hammerskull-ed6ff28ed30a.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/hammerskull-ed6ff28ed30a.png"
+  },
+  {
+    "id": "library-ea54892cc8c248509f26",
+    "logicalSource": "/assets/library/beasts/staged/hare-ea54892cc8c2.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/hare-ea54892cc8c2.png"
+  },
+  {
+    "id": "library-b050838094122f2a89ff",
+    "logicalSource": "/assets/library/beasts/staged/haungharassk-b05083809412.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/haungharassk-b05083809412.png"
+  },
+  {
+    "id": "library-050c8e54c8dd7d785833",
+    "logicalSource": "/assets/library/beasts/staged/heartstabber-mosquito-050c8e54c8dd.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/heartstabber-mosquito-050c8e54c8dd.png"
+  },
+  {
+    "id": "library-b14e0af8ce6f486bd9a3",
+    "logicalSource": "/assets/library/beasts/staged/hellwasp-grub-b14e0af8ce6f.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/hellwasp-grub-b14e0af8ce6f.png"
+  },
+  {
+    "id": "library-3dcbb4ef9a9ad4a08448",
+    "logicalSource": "/assets/library/beasts/staged/herathian-voat-3dcbb4ef9a9a.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/herathian-voat-3dcbb4ef9a9a.webp"
+  },
+  {
+    "id": "library-92d835bad956a8a6f483",
+    "logicalSource": "/assets/library/beasts/staged/hippocampus-92d835bad956.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/hippocampus-92d835bad956.webp"
+  },
+  {
+    "id": "library-b771e8e84024129c51d2",
+    "logicalSource": "/assets/library/beasts/staged/horned-frog-b771e8e84024.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/horned-frog-b771e8e84024.png"
+  },
+  {
+    "id": "library-a9018e3619dde13e86b7",
+    "logicalSource": "/assets/library/beasts/staged/hound-hunting-a9018e3619dd.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/hound-hunting-a9018e3619dd.png"
+  },
+  {
+    "id": "library-66b340e9ff068327ace5",
+    "logicalSource": "/assets/library/beasts/staged/huge-shark-66b340e9ff06.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/huge-shark-66b340e9ff06.webp"
+  },
+  {
+    "id": "library-87ad37d588f2dbe23955",
+    "logicalSource": "/assets/library/beasts/staged/hunter-shark-87ad37d588f2.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/hunter-shark-87ad37d588f2.webp"
+  },
+  {
+    "id": "library-c3c695c747916a171912",
+    "logicalSource": "/assets/library/beasts/staged/hunter-shark-c3c695c74791.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/hunter-shark-c3c695c74791.png"
+  },
+  {
+    "id": "library-de6073effa6bbc3dcec9",
+    "logicalSource": "/assets/library/beasts/staged/hyena-de6073effa6b.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/hyena-de6073effa6b.png"
+  },
+  {
+    "id": "library-b792f018d221ce3ce890",
+    "logicalSource": "/assets/library/beasts/staged/ice-cat-b792f018d221.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/ice-cat-b792f018d221.webp"
+  },
+  {
+    "id": "library-4422ce415581e93f257d",
+    "logicalSource": "/assets/library/beasts/staged/ice-spider-4422ce415581.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/ice-spider-4422ce415581.png"
+  },
+  {
+    "id": "library-b389d8b02dd5ff2d035a",
+    "logicalSource": "/assets/library/beasts/staged/insect-giant-fire-beetle-b389d8b02dd5.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/insect-giant-fire-beetle-b389d8b02dd5.webp"
+  },
+  {
+    "id": "library-860f597874ee224daa52",
+    "logicalSource": "/assets/library/beasts/staged/insect-giant-scorpion-860f597874ee.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/insect-giant-scorpion-860f597874ee.webp"
+  },
+  {
+    "id": "library-6997e27e56ec82a2ab5e",
+    "logicalSource": "/assets/library/beasts/staged/insect-scorpion-6997e27e56ec.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/insect-scorpion-6997e27e56ec.webp"
+  },
+  {
+    "id": "library-1b053afe35438d32c9a3",
+    "logicalSource": "/assets/library/beasts/staged/jaculi-1b053afe3543.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/jaculi-1b053afe3543.png"
+  },
+  {
+    "id": "library-e77650da26cab97e9cd0",
+    "logicalSource": "/assets/library/beasts/staged/jorri-e77650da26ca.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/jorri-e77650da26ca.webp"
+  },
+  {
+    "id": "library-9b8afecceb7ad3063d0d",
+    "logicalSource": "/assets/library/beasts/staged/juhrion-9b8afecceb7a.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/juhrion-9b8afecceb7a.png"
+  },
+  {
+    "id": "library-3c4f82dd602ce3475d72",
+    "logicalSource": "/assets/library/beasts/staged/kavu-predator-3c4f82dd602c.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/kavu-predator-3c4f82dd602c.png"
+  },
+  {
+    "id": "library-36aa5c00f1707f3f3b84",
+    "logicalSource": "/assets/library/beasts/staged/kingsport-36aa5c00f170.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/kingsport-36aa5c00f170.png"
+  },
+  {
+    "id": "library-a7f4af50cac8153b121a",
+    "logicalSource": "/assets/library/beasts/staged/knucklehead-trout-a7f4af50cac8.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/knucklehead-trout-a7f4af50cac8.png"
+  },
+  {
+    "id": "library-bb33da9e443f4ac1a4db",
+    "logicalSource": "/assets/library/beasts/staged/koi-prawn-bb33da9e443f.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/koi-prawn-bb33da9e443f.png"
+  },
+  {
+    "id": "library-b6c76c4a1c5348a1a1e5",
+    "logicalSource": "/assets/library/beasts/staged/kruthik-adult-b6c76c4a1c53.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/kruthik-adult-b6c76c4a1c53.webp"
+  },
+  {
+    "id": "library-cd06c7118ae734ffed5a",
+    "logicalSource": "/assets/library/beasts/staged/kruthik-hatchling-cd06c7118ae7.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/kruthik-hatchling-cd06c7118ae7.webp"
+  },
+  {
+    "id": "library-d0c0f1ab6c4adde5beb2",
+    "logicalSource": "/assets/library/beasts/staged/kruthik-young-d0c0f1ab6c4a.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/kruthik-young-d0c0f1ab6c4a.webp"
+  },
+  {
+    "id": "library-92c677ba863e25442532",
+    "logicalSource": "/assets/library/beasts/staged/large-drake-92c677ba863e.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/large-drake-92c677ba863e.png"
+  },
+  {
+    "id": "library-e5251055902268c8d3a4",
+    "logicalSource": "/assets/library/beasts/staged/leech-giant-e52510559022.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/leech-giant-e52510559022.webp"
+  },
+  {
+    "id": "library-9646d6a7c1611b6e20c0",
+    "logicalSource": "/assets/library/beasts/staged/leopard-9646d6a7c161.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/leopard-9646d6a7c161.webp"
+  },
+  {
+    "id": "library-2c5b9354701098d6759d",
+    "logicalSource": "/assets/library/beasts/staged/lizard-2c5b93547010.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/lizard-2c5b93547010.png"
+  },
+  {
+    "id": "library-33bf94cdf8749b6837ff",
+    "logicalSource": "/assets/library/beasts/staged/lizard-33bf94cdf874.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/lizard-33bf94cdf874.png"
+  },
+  {
+    "id": "library-94c3df2b6326f550b844",
+    "logicalSource": "/assets/library/beasts/staged/lizard-giant-frilled-94c3df2b6326.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/lizard-giant-frilled-94c3df2b6326.webp"
+  },
+  {
+    "id": "library-51744344fa8e3a3d9105",
+    "logicalSource": "/assets/library/beasts/staged/lupasus-51744344fa8e.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/lupasus-51744344fa8e.webp"
+  },
+  {
+    "id": "library-96a65a32c6831e96ba18",
+    "logicalSource": "/assets/library/beasts/staged/macaw-96a65a32c683.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/macaw-96a65a32c683.png"
+  },
+  {
+    "id": "library-6748921dc42237002428",
+    "logicalSource": "/assets/library/beasts/staged/male-steeder-6748921dc422.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/male-steeder-6748921dc422.png"
+  },
+  {
+    "id": "library-530cc0a70fd264e533d9",
+    "logicalSource": "/assets/library/beasts/staged/manta-ray-530cc0a70fd2.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/manta-ray-530cc0a70fd2.webp"
+  },
+  {
+    "id": "library-d89d419a3c6541bfd0a2",
+    "logicalSource": "/assets/library/beasts/staged/margreve-hound-d89d419a3c65.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/margreve-hound-d89d419a3c65.webp"
+  },
+  {
+    "id": "library-d6bfbd388d02bd53e9e7",
+    "logicalSource": "/assets/library/beasts/staged/margreve-stag-d6bfbd388d02.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/margreve-stag-d6bfbd388d02.webp"
+  },
+  {
+    "id": "library-79b713a311443f1ea3da",
+    "logicalSource": "/assets/library/beasts/staged/marine-cat-79b713a31144.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/marine-cat-79b713a31144.webp"
+  },
+  {
+    "id": "library-0f57b73c2f6ff540a45d",
+    "logicalSource": "/assets/library/beasts/staged/mastiff-0f57b73c2f6f.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/mastiff-0f57b73c2f6f.png"
+  },
+  {
+    "id": "library-f6edf380dce6f8d97563",
+    "logicalSource": "/assets/library/beasts/staged/megaraptor-f6edf380dce6.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/megaraptor-f6edf380dce6.webp"
+  },
+  {
+    "id": "library-04b635f652487a6d184d",
+    "logicalSource": "/assets/library/beasts/staged/mohler-04b635f65248.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/mohler-04b635f65248.png"
+  },
+  {
+    "id": "library-dbc9d49bb467965f0f35",
+    "logicalSource": "/assets/library/beasts/staged/mongoose-giant-dbc9d49bb467.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/mongoose-giant-dbc9d49bb467.webp"
+  },
+  {
+    "id": "library-d3ae5a0f3e60edfc22a6",
+    "logicalSource": "/assets/library/beasts/staged/monitor-lizard-d3ae5a0f3e60.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/monitor-lizard-d3ae5a0f3e60.webp"
+  },
+  {
+    "id": "library-3c8e2379babcd62969f9",
+    "logicalSource": "/assets/library/beasts/staged/monkey-3c8e2379babc.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/monkey-3c8e2379babc.webp"
+  },
+  {
+    "id": "library-4e3205d21ccd266ee5b0",
+    "logicalSource": "/assets/library/beasts/staged/moonshark-4e3205d21ccd.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/moonshark-4e3205d21ccd.png"
+  },
+  {
+    "id": "library-6d2c92a2846065bda0a7",
+    "logicalSource": "/assets/library/beasts/staged/moorbounder-6d2c92a28460.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/moorbounder-6d2c92a28460.png"
+  },
+  {
+    "id": "library-03616702362837fc41e1",
+    "logicalSource": "/assets/library/beasts/staged/mountain-goat-036167023628.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/mountain-goat-036167023628.png"
+  },
+  {
+    "id": "library-c41436a38d6ebf71a6b5",
+    "logicalSource": "/assets/library/beasts/staged/niktoo-c41436a38d6e.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/niktoo-c41436a38d6e.png"
+  },
+  {
+    "id": "library-daa6992b4877a413ef9a",
+    "logicalSource": "/assets/library/beasts/staged/oliphant-daa6992b4877.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/oliphant-daa6992b4877.webp"
+  },
+  {
+    "id": "library-4de27ef553a1564051de",
+    "logicalSource": "/assets/library/beasts/staged/oliphant-warbeast-4de27ef553a1.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/oliphant-warbeast-4de27ef553a1.png"
+  },
+  {
+    "id": "library-d43d52b53f64e9c1b0a1",
+    "logicalSource": "/assets/library/beasts/staged/omm-wa-d43d52b53f64.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/omm-wa-d43d52b53f64.webp"
+  },
+  {
+    "id": "library-32946c10ee166fb7d0e8",
+    "logicalSource": "/assets/library/beasts/staged/onyx-32946c10ee16.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/onyx-32946c10ee16.png"
+  },
+  {
+    "id": "library-284e3edce207a7a61db1",
+    "logicalSource": "/assets/library/beasts/staged/owl-great-gray-284e3edce207.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/owl-great-gray-284e3edce207.webp"
+  },
+  {
+    "id": "library-c3ff960383a3750a5b7c",
+    "logicalSource": "/assets/library/beasts/staged/ox-c3ff960383a3.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/ox-c3ff960383a3.png"
+  },
+  {
+    "id": "library-c234a6978ab4a541978d",
+    "logicalSource": "/assets/library/beasts/staged/oxen-c234a6978ab4.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/oxen-c234a6978ab4.png"
+  },
+  {
+    "id": "library-bbd6d899124580c806b2",
+    "logicalSource": "/assets/library/beasts/staged/parvaz-bbd6d8991245.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/parvaz-bbd6d8991245.png"
+  },
+  {
+    "id": "library-5e62e359197c21e0d557",
+    "logicalSource": "/assets/library/beasts/staged/peacock-5e62e359197c.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/peacock-5e62e359197c.png"
+  },
+  {
+    "id": "library-fccb7aeb181593092509",
+    "logicalSource": "/assets/library/beasts/staged/piccolo-fccb7aeb1815.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/piccolo-fccb7aeb1815.png"
+  },
+  {
+    "id": "library-789f965913cfee4e504f",
+    "logicalSource": "/assets/library/beasts/staged/pig-789f965913cf.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/pig-789f965913cf.png"
+  },
+  {
+    "id": "library-b407c6e5db13606af722",
+    "logicalSource": "/assets/library/beasts/staged/pig-war-b407c6e5db13.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/pig-war-b407c6e5db13.png"
+  },
+  {
+    "id": "library-6b2f5ce7ab490794c9a5",
+    "logicalSource": "/assets/library/beasts/staged/pigeon-homing-6b2f5ce7ab49.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/pigeon-homing-6b2f5ce7ab49.png"
+  },
+  {
+    "id": "library-a8c91177876de18beee8",
+    "logicalSource": "/assets/library/beasts/staged/poisonous-snake-a8c91177876d.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/poisonous-snake-a8c91177876d.webp"
+  },
+  {
+    "id": "library-560ef43f27b4927c9a05",
+    "logicalSource": "/assets/library/beasts/staged/polar-bear-560ef43f27b4.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/polar-bear-560ef43f27b4.webp"
+  },
+  {
+    "id": "library-ea58cc6437d6177f689a",
+    "logicalSource": "/assets/library/beasts/staged/polar-bear-ea58cc6437d6.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/polar-bear-ea58cc6437d6.png"
+  },
+  {
+    "id": "library-a0680f2d80584d77976a",
+    "logicalSource": "/assets/library/beasts/staged/pollenella-the-honeybee-a0680f2d8058.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/pollenella-the-honeybee-a0680f2d8058.png"
+  },
+  {
+    "id": "library-9146ea9b0010a1a86d62",
+    "logicalSource": "/assets/library/beasts/staged/porpoise-9146ea9b0010.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/porpoise-9146ea9b0010.webp"
+  },
+  {
+    "id": "library-0f0aabea20eb1bfb8e37",
+    "logicalSource": "/assets/library/beasts/staged/quetzalcoatlus-0f0aabea20eb.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/quetzalcoatlus-0f0aabea20eb.png"
+  },
+  {
+    "id": "library-3ecfd8f4bf0d5b6a80a7",
+    "logicalSource": "/assets/library/beasts/staged/rat-3ecfd8f4bf0d.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/rat-3ecfd8f4bf0d.png"
+  },
+  {
+    "id": "library-d2b3a1d0090aca1dfdaf",
+    "logicalSource": "/assets/library/beasts/staged/rat-d2b3a1d0090a.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/rat-d2b3a1d0090a.png"
+  },
+  {
+    "id": "library-73ea67873e363e85f116",
+    "logicalSource": "/assets/library/beasts/staged/rat-giant-73ea67873e36.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/rat-giant-73ea67873e36.png"
+  },
+  {
+    "id": "library-a9ecfc55941a4b3840f7",
+    "logicalSource": "/assets/library/beasts/staged/redspawn-firebelcher-a9ecfc55941a.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/redspawn-firebelcher-a9ecfc55941a.webp"
+  },
+  {
+    "id": "library-60e9cdbb91fbbc824f11",
+    "logicalSource": "/assets/library/beasts/staged/reef-shark-60e9cdbb91fb.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/reef-shark-60e9cdbb91fb.webp"
+  },
+  {
+    "id": "library-6f2fab1af6cf9e06fa2a",
+    "logicalSource": "/assets/library/beasts/staged/reef-shark-6f2fab1af6cf.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/reef-shark-6f2fab1af6cf.png"
+  },
+  {
+    "id": "library-e20ecf6fb5a414890320",
+    "logicalSource": "/assets/library/beasts/staged/reindeer-e20ecf6fb5a4.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/reindeer-e20ecf6fb5a4.png"
+  },
+  {
+    "id": "library-87cb1fa8a4008a51e758",
+    "logicalSource": "/assets/library/beasts/staged/relic-sloth-87cb1fa8a400.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/relic-sloth-87cb1fa8a400.png"
+  },
+  {
+    "id": "library-8881f86a90d7acfc143a",
+    "logicalSource": "/assets/library/beasts/staged/riding-dog-8881f86a90d7.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/riding-dog-8881f86a90d7.webp"
+  },
+  {
+    "id": "library-3aa832ecfa411b702bcb",
+    "logicalSource": "/assets/library/beasts/staged/riding-horse-3aa832ecfa41.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/riding-horse-3aa832ecfa41.webp"
+  },
+  {
+    "id": "library-fa791ce7e078ce4a6111",
+    "logicalSource": "/assets/library/beasts/staged/river-serpent-fa791ce7e078.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/river-serpent-fa791ce7e078.png"
+  },
+  {
+    "id": "library-087b257409671181ede0",
+    "logicalSource": "/assets/library/beasts/staged/rooster-087b25740967.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/rooster-087b25740967.webp"
+  },
+  {
+    "id": "library-e58c6f5a6fb68db3f148",
+    "logicalSource": "/assets/library/beasts/staged/rotbeast-e58c6f5a6fb6.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/rotbeast-e58c6f5a6fb6.png"
+  },
+  {
+    "id": "library-a7fc5db80e0fb8b7126d",
+    "logicalSource": "/assets/library/beasts/staged/rothe-a7fc5db80e0f.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/rothe-a7fc5db80e0f.png"
+  },
+  {
+    "id": "library-aaa36d1e4f31303023f9",
+    "logicalSource": "/assets/library/beasts/staged/saber-toothed-tiger-aaa36d1e4f31.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/saber-toothed-tiger-aaa36d1e4f31.webp"
+  },
+  {
+    "id": "library-3ea2e45e53bc79e192ae",
+    "logicalSource": "/assets/library/beasts/staged/sahuagin-hatchling-swarm-3ea2e45e53bc.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/sahuagin-hatchling-swarm-3ea2e45e53bc.png"
+  },
+  {
+    "id": "library-0c058d344baae7ee05fc",
+    "logicalSource": "/assets/library/beasts/staged/sailback-0c058d344baa.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/sailback-0c058d344baa.png"
+  },
+  {
+    "id": "library-db04d6d418286a188711",
+    "logicalSource": "/assets/library/beasts/staged/sangzor-db04d6d41828.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/sangzor-db04d6d41828.png"
+  },
+  {
+    "id": "library-011795b07c390048abd0",
+    "logicalSource": "/assets/library/beasts/staged/seal-011795b07c39.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/seal-011795b07c39.png"
+  },
+  {
+    "id": "library-08f35683bba08308ce5c",
+    "logicalSource": "/assets/library/beasts/staged/serpopard-08f35683bba0.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/serpopard-08f35683bba0.png"
+  },
+  {
+    "id": "library-233e1df81e455d8c10eb",
+    "logicalSource": "/assets/library/beasts/staged/shark-giant-233e1df81e45.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/shark-giant-233e1df81e45.png"
+  },
+  {
+    "id": "library-9b1e19418963062e768d",
+    "logicalSource": "/assets/library/beasts/staged/shoal-serpent-9b1e19418963.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/shoal-serpent-9b1e19418963.png"
+  },
+  {
+    "id": "library-25ca7eac068bfdb5d5c1",
+    "logicalSource": "/assets/library/beasts/staged/sky-leviathan-25ca7eac068b.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/sky-leviathan-25ca7eac068b.png"
+  },
+  {
+    "id": "library-ffee91221c1338b89ed2",
+    "logicalSource": "/assets/library/beasts/staged/sky-whale-ffee91221c13.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/sky-whale-ffee91221c13.png"
+  },
+  {
+    "id": "library-c32c3de43fc9ff7bb950",
+    "logicalSource": "/assets/library/beasts/staged/sled-dog-c32c3de43fc9.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/sled-dog-c32c3de43fc9.png"
+  },
+  {
+    "id": "library-a2fdc852584974c6df9d",
+    "logicalSource": "/assets/library/beasts/staged/snake-giant-poisonous-a2fdc8525849.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/snake-giant-poisonous-a2fdc8525849.png"
+  },
+  {
+    "id": "library-bc5529680d4428cf6acc",
+    "logicalSource": "/assets/library/beasts/staged/snow-leopard-bc5529680d44.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/snow-leopard-bc5529680d44.png"
+  },
+  {
+    "id": "library-34602dcd100284de9879",
+    "logicalSource": "/assets/library/beasts/staged/space-eel-34602dcd1002.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/space-eel-34602dcd1002.png"
+  },
+  {
+    "id": "library-2c67cb4af7db11ec1d27",
+    "logicalSource": "/assets/library/beasts/staged/space-guppy-2c67cb4af7db.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/space-guppy-2c67cb4af7db.png"
+  },
+  {
+    "id": "library-c95343b40beba601bea5",
+    "logicalSource": "/assets/library/beasts/staged/space-mollymawk-c95343b40beb.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/space-mollymawk-c95343b40beb.png"
+  },
+  {
+    "id": "library-6bbc3baacb1becf92212",
+    "logicalSource": "/assets/library/beasts/staged/space-swine-6bbc3baacb1b.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/space-swine-6bbc3baacb1b.png"
+  },
+  {
+    "id": "library-fe12e531a0f009f4fa18",
+    "logicalSource": "/assets/library/beasts/staged/sperm-whale-fe12e531a0f0.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/sperm-whale-fe12e531a0f0.png"
+  },
+  {
+    "id": "library-648b76539a7e398f4c5d",
+    "logicalSource": "/assets/library/beasts/staged/spider-king-648b76539a7e.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/spider-king-648b76539a7e.png"
+  },
+  {
+    "id": "library-9ce1393db9b988c23426",
+    "logicalSource": "/assets/library/beasts/staged/spitting-drake-9ce1393db9b9.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/spitting-drake-9ce1393db9b9.png"
+  },
+  {
+    "id": "library-74a7b744511d2bcb17e5",
+    "logicalSource": "/assets/library/beasts/staged/spotted-lion-74a7b744511d.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/spotted-lion-74a7b744511d.png"
+  },
+  {
+    "id": "library-8dcb2884bc0e384f0427",
+    "logicalSource": "/assets/library/beasts/staged/squid-8dcb2884bc0e.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/squid-8dcb2884bc0e.webp"
+  },
+  {
+    "id": "library-06705c758d6020b76274",
+    "logicalSource": "/assets/library/beasts/staged/steel-leaf-kavu-06705c758d60.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/steel-leaf-kavu-06705c758d60.png"
+  },
+  {
+    "id": "library-bbce0e2a84d44cbe6d52",
+    "logicalSource": "/assets/library/beasts/staged/stegosaurus-bbce0e2a84d4.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/stegosaurus-bbce0e2a84d4.png"
+  },
+  {
+    "id": "library-3220893e5100a3e39c78",
+    "logicalSource": "/assets/library/beasts/staged/stench-kow-3220893e5100.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/stench-kow-3220893e5100.png"
+  },
+  {
+    "id": "library-e55547d92f9d3e864962",
+    "logicalSource": "/assets/library/beasts/staged/stoneback-isopod-e55547d92f9d.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/stoneback-isopod-e55547d92f9d.png"
+  },
+  {
+    "id": "library-6fa9bf97689e4aaddd30",
+    "logicalSource": "/assets/library/beasts/staged/succulus-6fa9bf97689e.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/succulus-6fa9bf97689e.png"
+  },
+  {
+    "id": "library-e91fbf1ed393b3fc787d",
+    "logicalSource": "/assets/library/beasts/staged/swampmare-e91fbf1ed393.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/swampmare-e91fbf1ed393.webp"
+  },
+  {
+    "id": "library-02360d39e5f8cff68fc1",
+    "logicalSource": "/assets/library/beasts/staged/swarm-of-beetles-02360d39e5f8.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/swarm-of-beetles-02360d39e5f8.webp"
+  },
+  {
+    "id": "library-577be40222026ec883a9",
+    "logicalSource": "/assets/library/beasts/staged/swarm-of-centipedes-577be4022202.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/swarm-of-centipedes-577be4022202.webp"
+  },
+  {
+    "id": "library-d43b7e7cbf4bdc044256",
+    "logicalSource": "/assets/library/beasts/staged/swarm-of-cranium-rats-d43b7e7cbf4b.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/swarm-of-cranium-rats-d43b7e7cbf4b.png"
+  },
+  {
+    "id": "library-03ed76717ac5fccc4741",
+    "logicalSource": "/assets/library/beasts/staged/swarm-of-infesting-insects-03ed76717ac5.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/swarm-of-infesting-insects-03ed76717ac5.png"
+  },
+  {
+    "id": "library-f2e8a398cbb454682ca5",
+    "logicalSource": "/assets/library/beasts/staged/swarm-of-insects-spiders-f2e8a398cbb4.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/swarm-of-insects-spiders-f2e8a398cbb4.webp"
+  },
+  {
+    "id": "library-13329a234d1710e75c3a",
+    "logicalSource": "/assets/library/beasts/staged/swarm-of-insects-wasps-13329a234d17.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/swarm-of-insects-wasps-13329a234d17.webp"
+  },
+  {
+    "id": "library-d19fb3c7ea9f4ef60add",
+    "logicalSource": "/assets/library/beasts/staged/swarm-of-maggots-d19fb3c7ea9f.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/swarm-of-maggots-d19fb3c7ea9f.png"
+  },
+  {
+    "id": "library-2e70b81f3e479a10a9b0",
+    "logicalSource": "/assets/library/beasts/staged/swarm-of-rot-grubs-2e70b81f3e47.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/swarm-of-rot-grubs-2e70b81f3e47.png"
+  },
+  {
+    "id": "library-04b51cb17df12b1349fd",
+    "logicalSource": "/assets/library/beasts/staged/swarm-of-scarabs-04b51cb17df1.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/swarm-of-scarabs-04b51cb17df1.png"
+  },
+  {
+    "id": "library-cd92c056b54c6dfaa6c6",
+    "logicalSource": "/assets/library/beasts/staged/sylgar-cd92c056b54c.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/sylgar-cd92c056b54c.png"
+  },
+  {
+    "id": "library-4e20eea3c7b1c137fb6c",
+    "logicalSource": "/assets/library/beasts/staged/szikzith-4e20eea3c7b1.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/szikzith-4e20eea3c7b1.png"
+  },
+  {
+    "id": "library-518cd810912cc35cb568",
+    "logicalSource": "/assets/library/beasts/staged/terastodon-518cd810912c.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/terastodon-518cd810912c.png"
+  },
+  {
+    "id": "library-2255de9f2322af778d0e",
+    "logicalSource": "/assets/library/beasts/staged/terra-stomper-2255de9f2322.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/terra-stomper-2255de9f2322.png"
+  },
+  {
+    "id": "library-7c1ebd4ac96666e11ab9",
+    "logicalSource": "/assets/library/beasts/staged/titanothere-7c1ebd4ac966.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/titanothere-7c1ebd4ac966.png"
+  },
+  {
+    "id": "library-b8fecd819074b2c0027c",
+    "logicalSource": "/assets/library/beasts/staged/traxigor-b8fecd819074.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/traxigor-b8fecd819074.png"
+  },
+  {
+    "id": "library-b9ee7c98a90b38fdc4fa",
+    "logicalSource": "/assets/library/beasts/staged/trilobite-b9ee7c98a90b.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/trilobite-b9ee7c98a90b.png"
+  },
+  {
+    "id": "library-a915bbe0663be6a88f63",
+    "logicalSource": "/assets/library/beasts/staged/trinket-a915bbe0663b.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/trinket-a915bbe0663b.png"
+  },
+  {
+    "id": "library-c1e136bef79480466c4d",
+    "logicalSource": "/assets/library/beasts/staged/trosip-c1e136bef794.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/trosip-c1e136bef794.webp"
+  },
+  {
+    "id": "library-704b44eb2203060a0795",
+    "logicalSource": "/assets/library/beasts/staged/tsuchinoko-704b44eb2203.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/tsuchinoko-704b44eb2203.webp"
+  },
+  {
+    "id": "library-feac625a082ac879c030",
+    "logicalSource": "/assets/library/beasts/staged/two-headed-crocodile-feac625a082a.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/two-headed-crocodile-feac625a082a.png"
+  },
+  {
+    "id": "library-78a611a91b6f63bfb1e6",
+    "logicalSource": "/assets/library/beasts/staged/two-headed-plesiosaurus-78a611a91b6f.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/two-headed-plesiosaurus-78a611a91b6f.png"
+  },
+  {
+    "id": "library-fd1181a105719dafa1ee",
+    "logicalSource": "/assets/library/beasts/staged/tyrant-fd1181a10571.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/tyrant-fd1181a10571.png"
+  },
+  {
+    "id": "library-921867b38a33b9c5889c",
+    "logicalSource": "/assets/library/beasts/staged/velociraptor-921867b38a33.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/velociraptor-921867b38a33.png"
+  },
+  {
+    "id": "library-7818ff5599db53331a67",
+    "logicalSource": "/assets/library/beasts/staged/voat-7818ff5599db.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/voat-7818ff5599db.webp"
+  },
+  {
+    "id": "library-d804139e1e1b3b5cd28f",
+    "logicalSource": "/assets/library/beasts/staged/vulturehound-d804139e1e1b.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/vulturehound-d804139e1e1b.webp"
+  },
+  {
+    "id": "library-b564a87e30cecf28608a",
+    "logicalSource": "/assets/library/beasts/staged/war-pony-b564a87e30ce.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/war-pony-b564a87e30ce.webp"
+  },
+  {
+    "id": "library-31508f0d194524610554",
+    "logicalSource": "/assets/library/beasts/staged/weasel-31508f0d1945.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/weasel-31508f0d1945.png"
+  },
+  {
+    "id": "library-60b6e72cf0d592bacfc7",
+    "logicalSource": "/assets/library/beasts/staged/weasel-60b6e72cf0d5.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/weasel-60b6e72cf0d5.png"
+  },
+  {
+    "id": "library-ff5ee12f7648c6ad8d6e",
+    "logicalSource": "/assets/library/beasts/staged/whirlwyrm-ff5ee12f7648.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/whirlwyrm-ff5ee12f7648.png"
+  },
+  {
+    "id": "library-d19643d63a07e4004727",
+    "logicalSource": "/assets/library/beasts/staged/wild-dog-alpha-d19643d63a07.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/wild-dog-alpha-d19643d63a07.webp"
+  },
+  {
+    "id": "library-fbb0c2e35a467b8ca433",
+    "logicalSource": "/assets/library/beasts/staged/wild-dog-fbb0c2e35a46.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/wild-dog-fbb0c2e35a46.png"
+  },
+  {
+    "id": "library-d77ef8deffb11436cb78",
+    "logicalSource": "/assets/library/beasts/staged/winter-wolf-d77ef8deffb1.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/winter-wolf-d77ef8deffb1.png"
+  },
+  {
+    "id": "library-ab89fbdbf7d834b70454",
+    "logicalSource": "/assets/library/beasts/staged/wolf-ab89fbdbf7d8.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/wolf-ab89fbdbf7d8.png"
+  },
+  {
+    "id": "library-daa18511ed1ba7464920",
+    "logicalSource": "/assets/library/beasts/staged/wolf-daa18511ed1b.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/wolf-daa18511ed1b.png"
+  },
+  {
+    "id": "library-696bfc4e9a3dc6706926",
+    "logicalSource": "/assets/library/beasts/staged/wolverine-696bfc4e9a3d.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/wolverine-696bfc4e9a3d.webp"
+  },
+  {
+    "id": "library-1a04ed8499f67dc0b103",
+    "logicalSource": "/assets/library/beasts/staged/woodcrasher-baloth-1a04ed8499f6.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/woodcrasher-baloth-1a04ed8499f6.png"
+  },
+  {
+    "id": "library-46ca43296a4dd52670d1",
+    "logicalSource": "/assets/library/beasts/staged/wynzet-46ca43296a4d.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/wynzet-46ca43296a4d.webp"
+  },
+  {
+    "id": "library-84dea5d07f564fa43767",
+    "logicalSource": "/assets/library/beasts/staged/wyverns-84dea5d07f56.webp",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/wyverns-84dea5d07f56.webp"
+  },
+  {
+    "id": "library-a14d759892999b7ed8cf",
+    "logicalSource": "/assets/library/beasts/staged/yak-a14d75989299.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/yak-a14d75989299.png"
+  },
+  {
+    "id": "library-3211a9b3d2b38c82a079",
+    "logicalSource": "/assets/library/beasts/staged/young-bulette-rhinoceros-3211a9b3d2b3.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/young-bulette-rhinoceros-3211a9b3d2b3.png"
+  },
+  {
+    "id": "library-c0476e776f50836b78ff",
+    "logicalSource": "/assets/library/beasts/staged/young-horizonback-tortoise-c0476e776f50.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/young-horizonback-tortoise-c0476e776f50.png"
+  },
+  {
+    "id": "library-0aaa450103737fc435d7",
+    "logicalSource": "/assets/library/beasts/staged/young-winter-wolf-0aaa45010373.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/young-winter-wolf-0aaa45010373.png"
+  },
+  {
+    "id": "library-dc3914ba595b8b7997e7",
+    "logicalSource": "/assets/library/beasts/staged/yumgrub-dc3914ba595b.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/yumgrub-dc3914ba595b.png"
+  },
+  {
+    "id": "library-0a79e2ff5d6fe681691f",
+    "logicalSource": "/assets/library/beasts/staged/zebra-0a79e2ff5d6f.png",
+    "repositoryPath": "assets/images/content/library-release/beasts/staged/zebra-0a79e2ff5d6f.png"
+  },
+  {
     "id": "library-44d2222095b8312eee44",
     "logicalSource": "/assets/library/beasts/stirge.png",
     "repositoryPath": "assets/images/content/library-release/beasts/stirge.png"

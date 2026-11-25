@@ -38,7 +38,9 @@ test('name search favors exact matches and stock can be filtered by shop', () =>
 test('every published image has a registered original and each entry has a unique printing path', () => {
   const sources = new Set(imageSources.map(({ logicalSource }) => logicalSource))
   const missingImages = publishedLibrary.flatMap((entry) =>
-    (entry.art ?? []).flatMap(({ file }) => (sources.has(file) ? [] : [file])),
+    [...(entry.art ?? []), ...entry.printings.flatMap(({ art }) => art ?? [])].flatMap(({ file }) =>
+      sources.has(file) ? [] : [file],
+    ),
   )
   const invalidPrintings = publishedLibrary.filter(
     ({ printings }) =>
@@ -64,4 +66,32 @@ test('playable species expose traits while NPC hooks stay in the DM view', () =>
   expect(dm.sections.map(({ title }) => title)).toContain('Original NPC · Pell Reedgate')
   expect(browseLibrary(false, 'Pell Reedgate')).toEqual([])
   expect(browseLibrary(true, 'Pell Reedgate').map(({ slug }) => slug)).toContain('halfling')
+})
+
+test('staged printings retain exact editions and their own portraits', () => {
+  const index = getLibraryEntry('beasts', 'giant-insect-centipede', true)!
+  const srd = getLibraryEntry('beasts', 'giant-insect-centipede', true, 'srd-5-2-1')!
+  const otherId = index.printings.find(({ id }) => id !== 'srd-5-2-1')?.id
+  expect(otherId).toBeDefined()
+  const other = getLibraryEntry('beasts', 'giant-insect-centipede', true, otherId)!
+  expect(srd.selected.label).toBe('SRD 5.2.1')
+  expect(other.selected.label).toBe('Player’s Handbook')
+  expect(srd.art[0]?.file).not.toBe(other.art[0]?.file)
+  expect(getLibraryEntry('beasts', 'giant-insect-centipede', false, otherId)?.sections).toEqual([])
+})
+
+test('preserves older beast mechanics as DM content under their own publication', () => {
+  const bison = getLibraryEntry('beasts', 'bison', true)!
+  expect(bison.selected.edition).toBe('3.5 edition')
+  expect(bison.selected.label).toBe('Revised v3.5 SRD (Monsters)')
+  expect(bison.sections.map(({ title }) => title)).toContain('Full attack')
+  expect(getLibraryEntry('beasts', 'bison', false)?.sections).toEqual([])
+})
+
+test('keeps an existing default portrait ahead of its staged alternates', () => {
+  const wolf = getLibraryEntry('beasts', 'wolf', true, 'srd-5-1')!
+  const result = browseLibrary(false, 'wolf', 'beasts').find(({ slug }) => slug === 'wolf')
+  expect(wolf.art[0]?.file).toBe('/assets/library/beasts/wolf.png')
+  expect(result?.art?.file).toBe(wolf.art[0]?.file)
+  expect(new Set(wolf.art.map(({ file }) => file)).size).toBe(wolf.art.length)
 })

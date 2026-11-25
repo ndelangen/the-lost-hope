@@ -7,9 +7,16 @@ export type SrdVersion = 'srd-5-1' | 'srd-5-2-1'
 export type LibrarySection = { title: string; lines: readonly string[] }
 export type LibraryAbilityDisplay = Readonly<Record<string, { icon: string; kind: AbilityKind }>>
 
+type LibraryArt = { file: string; credit: string }
+
 type LibraryPrinting = {
-  id: SrdVersion | 'original'
+  id: string
   label: string
+  edition?: string
+  variantName?: string
+  status?: string
+  source?: string
+  art?: readonly LibraryArt[]
   player?: readonly LibrarySection[]
   gm: readonly LibrarySection[]
   artReference?: string
@@ -24,7 +31,7 @@ type LibraryRecord = {
   groups?: readonly string[]
   price?: string
   rating?: { cool: number; useful: number }
-  art?: readonly { file: string; credit: string }[]
+  art?: readonly LibraryArt[]
   gmOnly?: boolean
   printings: readonly [LibraryPrinting, ...LibraryPrinting[]]
 }
