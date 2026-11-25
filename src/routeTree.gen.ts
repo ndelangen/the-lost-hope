@@ -23,6 +23,7 @@ import { Route as EventsIndexRouteImport } from './routes/events/index'
 import { Route as ItemsIndexRouteImport } from './routes/items/index'
 import { Route as LettersBookOfGruumshRouteImport } from './routes/letters/book-of-gruumsh'
 import { Route as LettersJimRouteImport } from './routes/letters/jim'
+import { Route as LibraryIndexRouteImport } from './routes/library/index'
 import { Route as LocationsIndexRouteImport } from './routes/locations/index'
 import { Route as LocationsListRouteImport } from './routes/locations/list'
 import { Route as LocationsMapRouteImport } from './routes/locations/map'
@@ -43,6 +44,7 @@ import { Route as EffectsDetailSlugRouteImport } from './routes/effects/detail.$
 import { Route as EventsDetailSlugRouteImport } from './routes/events/detail.$slug'
 import { Route as EventsReplaySlugRouteImport } from './routes/events/replay.$slug'
 import { Route as ItemsDetailSlugRouteImport } from './routes/items/detail.$slug'
+import { Route as LibraryTypeSlugRouteImport } from './routes/library/$type.$slug'
 import { Route as LocationsDetailSlugRouteImport } from './routes/locations/detail.$slug'
 import { Route as NpcsDetailSlugRouteImport } from './routes/npcs/detail.$slug'
 import { Route as OrganizationsDetailSlugRouteImport } from './routes/organizations/detail.$slug'
@@ -119,6 +121,11 @@ const LettersBookOfGruumshRoute = LettersBookOfGruumshRouteImport.update({
 const LettersJimRoute = LettersJimRouteImport.update({
   id: '/letters/jim',
   path: '/letters/jim',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LibraryIndexRoute = LibraryIndexRouteImport.update({
+  id: '/library/',
+  path: '/library/',
   getParentRoute: () => rootRouteImport,
 } as any)
 const LocationsIndexRoute = LocationsIndexRouteImport.update({
@@ -221,6 +228,11 @@ const ItemsDetailSlugRoute = ItemsDetailSlugRouteImport.update({
   path: '/items/detail/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
+const LibraryTypeSlugRoute = LibraryTypeSlugRouteImport.update({
+  id: '/library/$type/$slug',
+  path: '/library/$type/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const LocationsDetailSlugRoute = LocationsDetailSlugRouteImport.update({
   id: '/locations/detail/$slug',
   path: '/locations/detail/$slug',
@@ -274,6 +286,7 @@ export interface FileRoutesByFullPath {
   '/effects/': typeof EffectsIndexRoute
   '/events/': typeof EventsIndexRoute
   '/items/': typeof ItemsIndexRoute
+  '/library/': typeof LibraryIndexRoute
   '/locations/': typeof LocationsIndexRoute
   '/npcs/': typeof NpcsIndexRoute
   '/organizations/': typeof OrganizationsIndexRoute
@@ -289,6 +302,7 @@ export interface FileRoutesByFullPath {
   '/events/detail/$slug': typeof EventsDetailSlugRoute
   '/events/replay/$slug': typeof EventsReplaySlugRoute
   '/items/detail/$slug': typeof ItemsDetailSlugRoute
+  '/library/$type/$slug': typeof LibraryTypeSlugRoute
   '/locations/detail/$slug': typeof LocationsDetailSlugRoute
   '/npcs/detail/$slug': typeof NpcsDetailSlugRoute
   '/organizations/detail/$slug': typeof OrganizationsDetailSlugRoute
@@ -316,6 +330,7 @@ export interface FileRoutesByTo {
   '/effects': typeof EffectsIndexRoute
   '/events': typeof EventsIndexRoute
   '/items': typeof ItemsIndexRoute
+  '/library': typeof LibraryIndexRoute
   '/locations': typeof LocationsIndexRoute
   '/npcs': typeof NpcsIndexRoute
   '/organizations': typeof OrganizationsIndexRoute
@@ -331,6 +346,7 @@ export interface FileRoutesByTo {
   '/events/detail/$slug': typeof EventsDetailSlugRoute
   '/events/replay/$slug': typeof EventsReplaySlugRoute
   '/items/detail/$slug': typeof ItemsDetailSlugRoute
+  '/library/$type/$slug': typeof LibraryTypeSlugRoute
   '/locations/detail/$slug': typeof LocationsDetailSlugRoute
   '/npcs/detail/$slug': typeof NpcsDetailSlugRoute
   '/organizations/detail/$slug': typeof OrganizationsDetailSlugRoute
@@ -360,6 +376,7 @@ export interface FileRoutesById {
   '/effects/': typeof EffectsIndexRoute
   '/events/': typeof EventsIndexRoute
   '/items/': typeof ItemsIndexRoute
+  '/library/': typeof LibraryIndexRoute
   '/locations/': typeof LocationsIndexRoute
   '/npcs/': typeof NpcsIndexRoute
   '/organizations/': typeof OrganizationsIndexRoute
@@ -375,6 +392,7 @@ export interface FileRoutesById {
   '/events/detail/$slug': typeof EventsDetailSlugRoute
   '/events/replay/$slug': typeof EventsReplaySlugRoute
   '/items/detail/$slug': typeof ItemsDetailSlugRoute
+  '/library/$type/$slug': typeof LibraryTypeSlugRoute
   '/locations/detail/$slug': typeof LocationsDetailSlugRoute
   '/npcs/detail/$slug': typeof NpcsDetailSlugRoute
   '/organizations/detail/$slug': typeof OrganizationsDetailSlugRoute
@@ -405,6 +423,7 @@ export interface FileRouteTypes {
     | '/effects/'
     | '/events/'
     | '/items/'
+    | '/library/'
     | '/locations/'
     | '/npcs/'
     | '/organizations/'
@@ -420,6 +439,7 @@ export interface FileRouteTypes {
     | '/events/detail/$slug'
     | '/events/replay/$slug'
     | '/items/detail/$slug'
+    | '/library/$type/$slug'
     | '/locations/detail/$slug'
     | '/npcs/detail/$slug'
     | '/organizations/detail/$slug'
@@ -447,6 +467,7 @@ export interface FileRouteTypes {
     | '/effects'
     | '/events'
     | '/items'
+    | '/library'
     | '/locations'
     | '/npcs'
     | '/organizations'
@@ -462,6 +483,7 @@ export interface FileRouteTypes {
     | '/events/detail/$slug'
     | '/events/replay/$slug'
     | '/items/detail/$slug'
+    | '/library/$type/$slug'
     | '/locations/detail/$slug'
     | '/npcs/detail/$slug'
     | '/organizations/detail/$slug'
@@ -490,6 +512,7 @@ export interface FileRouteTypes {
     | '/effects/'
     | '/events/'
     | '/items/'
+    | '/library/'
     | '/locations/'
     | '/npcs/'
     | '/organizations/'
@@ -505,6 +528,7 @@ export interface FileRouteTypes {
     | '/events/detail/$slug'
     | '/events/replay/$slug'
     | '/items/detail/$slug'
+    | '/library/$type/$slug'
     | '/locations/detail/$slug'
     | '/npcs/detail/$slug'
     | '/organizations/detail/$slug'
@@ -533,6 +557,7 @@ export interface RootRouteChildren {
   EffectsIndexRoute: typeof EffectsIndexRoute
   EventsIndexRoute: typeof EventsIndexRoute
   ItemsIndexRoute: typeof ItemsIndexRoute
+  LibraryIndexRoute: typeof LibraryIndexRoute
   LocationsIndexRoute: typeof LocationsIndexRoute
   NpcsIndexRoute: typeof NpcsIndexRoute
   OrganizationsIndexRoute: typeof OrganizationsIndexRoute
@@ -544,6 +569,7 @@ export interface RootRouteChildren {
   EventsDetailSlugRoute: typeof EventsDetailSlugRoute
   EventsReplaySlugRoute: typeof EventsReplaySlugRoute
   ItemsDetailSlugRoute: typeof ItemsDetailSlugRoute
+  LibraryTypeSlugRoute: typeof LibraryTypeSlugRoute
   LocationsDetailSlugRoute: typeof LocationsDetailSlugRoute
   NpcsDetailSlugRoute: typeof NpcsDetailSlugRoute
   OrganizationsDetailSlugRoute: typeof OrganizationsDetailSlugRoute
@@ -651,6 +677,13 @@ declare module '@tanstack/react-router' {
       path: '/letters/jim'
       fullPath: '/letters/jim'
       preLoaderRoute: typeof LettersJimRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/library/': {
+      id: '/library/'
+      path: '/library'
+      fullPath: '/library/'
+      preLoaderRoute: typeof LibraryIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/locations/': {
@@ -793,6 +826,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ItemsDetailSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/library/$type/$slug': {
+      id: '/library/$type/$slug'
+      path: '/library/$type/$slug'
+      fullPath: '/library/$type/$slug'
+      preLoaderRoute: typeof LibraryTypeSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/locations/detail/$slug': {
       id: '/locations/detail/$slug'
       path: '/locations/detail/$slug'
@@ -886,6 +926,7 @@ const rootRouteChildren: RootRouteChildren = {
   EffectsIndexRoute: EffectsIndexRoute,
   EventsIndexRoute: EventsIndexRoute,
   ItemsIndexRoute: ItemsIndexRoute,
+  LibraryIndexRoute: LibraryIndexRoute,
   LocationsIndexRoute: LocationsIndexRoute,
   NpcsIndexRoute: NpcsIndexRoute,
   OrganizationsIndexRoute: OrganizationsIndexRoute,
@@ -897,6 +938,7 @@ const rootRouteChildren: RootRouteChildren = {
   EventsDetailSlugRoute: EventsDetailSlugRoute,
   EventsReplaySlugRoute: EventsReplaySlugRoute,
   ItemsDetailSlugRoute: ItemsDetailSlugRoute,
+  LibraryTypeSlugRoute: LibraryTypeSlugRoute,
   LocationsDetailSlugRoute: LocationsDetailSlugRoute,
   NpcsDetailSlugRoute: NpcsDetailSlugRoute,
   OrganizationsDetailSlugRoute: OrganizationsDetailSlugRoute,

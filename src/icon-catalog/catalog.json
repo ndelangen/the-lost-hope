@@ -290709,6 +290709,7 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/library",
       "usedIn": [
+        "src/components/dm/dm-quick-links.tsx",
         "src/lib/location-icons.tsx"
       ]
     },
@@ -291059,7 +291060,9 @@
         "src/routes/dm/arcs/index.tsx",
         "src/routes/dm/scenes/$slug.tsx",
         "src/routes/events/replay.$slug.tsx",
-        "src/routes/index.tsx"
+        "src/routes/index.tsx",
+        "src/routes/library/$type.$slug.tsx",
+        "src/routes/library/index.tsx"
       ]
     },
     {
@@ -306190,7 +306193,8 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/search",
       "usedIn": [
-        "src/components/ui/search-input.tsx"
+        "src/components/ui/search-input.tsx",
+        "src/routes/library/index.tsx"
       ]
     },
     {
